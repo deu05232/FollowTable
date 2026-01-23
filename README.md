@@ -71,3 +71,21 @@ These results highlight substantial room for improvement in instruction-followin
 ## Release
 
 The **FollowTable benchmark is publicly released** as part of this project.
+
+
+## Notes
+
+
+### 📌 Dataset Type to Paper Dimension Mapping
+
+The following table provides the cross-reference between the `type` field used in this dataset and the evaluation dimensions defined in our paper:
+
+| Dataset Type | Paper Dimension ID | Dimension Name |
+| --- | --- | --- |
+| **type 1.1** | **C1** | Semantic Boundary Constraint |
+| **type 1.2** | **C2** | Exclusive Topic Constraint |
+| **type 2.1** | **S1** | Attribute-centric Structural Constraint |
+| **type 2.2** | **S2** | Entity-centric Structural Constraint |
+| **type 2.3.*** | **S3** | Granularity-centric Structural Constraint |
+
+
