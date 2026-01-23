@@ -1,0 +1,7 @@
+<table>
+  <caption>Initialization vectors used by the user terminal application (security parameters)</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Index number of initialization vector V_3</td><td>6</td><td>Index number of initialization vector (No. 3) used for secure messaging.</td></tr>
+  <tr><td>Initialization vector V_3</td><td>16</td><td>Initialization vector value used by the encryption algorithm.</td></tr>
+  <tr><td>Initialization vector update counter</td><td>4</td><td>Counter used to track IV updates.</td></tr>
+</table>

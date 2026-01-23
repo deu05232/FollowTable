@@ -1,0 +1,17 @@
+<table>
+  <caption>Detection Performance by Grade Across Operational Conditions (Clutter, Jamming, and Scan Update)</caption>
+  <thead>
+    <tr><th rowspan="2">Operational condition</th><th rowspan="2">Target type</th><th colspan="3">Guaranteed detection range (n mile)</th><th colspan="3">Update time at that range (s)</th><th colspan="3">Max false-alarm rate (per minute)</th></tr>
+    <tr><th>Basic</th><th>Standard</th><th>Advanced</th><th>Basic</th><th>Standard</th><th>Advanced</th><th>Basic</th><th>Standard</th><th>Advanced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Low clutter (open sea)</td><td>Small craft</td><td>≥ 5.0</td><td>≥ 6.8</td><td>≥ 9.0</td><td>≤ 6</td><td>≤ 5</td><td>≤ 4</td><td>≤ 2.0</td><td>≤ 1.2</td><td>≤ 0.6</td></tr>
+    <tr><td>Medium ship</td><td>≥ 9.0</td><td>≥ 12.0</td><td>≥ 15.0</td><td>≤ 6</td><td>≤ 5</td><td>≤ 4</td><td>≤ 2.0</td><td>≤ 1.2</td><td>≤ 0.6</td></tr>
+    <tr><td rowspan="2">High clutter (coastal/harbor)</td><td>Small craft</td><td>≥ 3.8</td><td>≥ 5.2</td><td>≥ 7.0</td><td>≤ 7</td><td>≤ 6</td><td>≤ 5</td><td>≤ 3.0</td><td>≤ 1.8</td><td>≤ 1.0</td></tr>
+    <tr><td>Medium ship</td><td>≥ 7.2</td><td>≥ 9.6</td><td>≥ 12.0</td><td>≤ 7</td><td>≤ 6</td><td>≤ 5</td><td>≤ 3.0</td><td>≤ 1.8</td><td>≤ 1.0</td></tr>
+    <tr><td rowspan="2">Interference present (moderate jamming)</td><td>Small craft</td><td>≥ 3.2</td><td>≥ 4.6</td><td>≥ 6.4</td><td>≤ 8</td><td>≤ 7</td><td>≤ 6</td><td>≤ 3.5</td><td>≤ 2.2</td><td>≤ 1.2</td></tr>
+    <tr><td>Medium ship</td><td>≥ 6.5</td><td>≥ 8.8</td><td>≥ 11.0</td><td>≤ 8</td><td>≤ 7</td><td>≤ 6</td><td>≤ 3.5</td><td>≤ 2.2</td><td>≤ 1.2</td></tr>
+    <tr><td rowspan="2">Severe weather (heavy rain)</td><td>Small craft</td><td>≥ 3.5</td><td>≥ 4.8</td><td>≥ 6.2</td><td>≤ 8</td><td>≤ 7</td><td>≤ 6</td><td>≤ 3.0</td><td>≤ 1.8</td><td>≤ 1.0</td></tr>
+    <tr><td>Medium ship</td><td>≥ 6.8</td><td>≥ 9.0</td><td>≥ 11.2</td><td>≤ 8</td><td>≤ 7</td><td>≤ 6</td><td>≤ 3.0</td><td>≤ 1.8</td><td>≤ 1.0</td></tr>
+  </tbody>
+</table>

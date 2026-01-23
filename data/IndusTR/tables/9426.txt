@@ -1,0 +1,16 @@
+<table>
+  <caption>Construction Machinery OID Allocation Overview (Third-Party vs Existing Systems vs Common Technology)</caption>
+  <thead>
+    <tr><th>Category</th><th>Node Range / Node</th><th>Who Uses It</th><th>Example Sub-Node</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Field OID root</td><td>1.2.156.3514</td><td>Construction machinery sector</td><td>—</td></tr>
+    <tr><td rowspan="3">Existing identification systems</td><td>1001</td><td>Handle-based IDs</td><td>1001.88</td></tr>
+    <tr><td>1002</td><td>Ecode-based IDs</td><td>1002.01</td></tr>
+    <tr><td>1003</td><td>Unified Social Credit Code mapping</td><td>1003.9132...</td></tr>
+    <tr><td rowspan="2">Third-party organizations</td><td>2001–10000</td><td>Registries / industry associations / labs</td><td>2011</td></tr>
+    <tr><td>Example issued node</td><td>Assigned sequentially upon request</td><td>2680</td></tr>
+    <tr><td rowspan="2">Basic common technology</td><td>1</td><td>Metadata and common vocabularies</td><td>1.01</td></tr>
+    <tr><td>2</td><td>Test methods and measurement vocabularies</td><td>2.05</td></tr>
+  </tbody>
+</table>

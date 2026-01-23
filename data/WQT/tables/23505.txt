@@ -1,0 +1,13 @@
+# Network Streaming Protocol Matrix for DLNA UPnP Home Media Setups
+
+| Protocol/Feature | Purpose | Typical Port | Transport | Common in DLNA Devices | Notes |
+|---|---|---|---|---|---|
+| HTTP | Media transfer | 80/8080 | TCP | Yes | Used for content delivery |
+| HTTPS | Encrypted transfer | 443 | TCP | Sometimes | Not required for basic DLNA |
+| RTSP | Session control | 554 | TCP/UDP | Occasionally | More common in IP cameras |
+| RTP | Media transport | Dynamic | UDP | Occasionally | Often paired with RTSP |
+| SSDP | Discovery | 1900 | UDP multicast | Yes | Core to UPnP discovery |
+| SOAP | Control messages | 80/varies | TCP | Yes | UPnP control plane |
+| SMB/CIFS | File sharing | 445 | TCP | Device-dependent | Not DLNA but used on LAN |
+| NFS | File sharing | 2049 | TCP/UDP | Device-dependent | Popular on NAS setups |
+| mDNS/Bonjour | Discovery | 5353 | UDP multicast | Not typical | Used by non-DLNA ecosystems |

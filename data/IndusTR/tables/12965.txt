@@ -1,0 +1,15 @@
+<table>
+  <caption>Self-service Portal Terminal Management Test Cases (Customer Administrator)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Test Item</th><th>Test Sub-item</th><th>Objective</th><th>Portal Workflow Scope</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SSP-TM-CA-001</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that a customer admin can register a new terminal through the self-service portal</td><td>Login > Terminal Management > Add Terminal</td><td>Terminal is created with a unique ID and appears in the terminal list</td></tr>
+    <tr><td>SSP-TM-CA-002</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that required fields are validated when creating a terminal via the portal</td><td>Add Terminal form validation</td><td>Missing/invalid fields are blocked with clear error messages</td></tr>
+    <tr><td>SSP-TM-CA-003</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that a customer admin can edit terminal attributes in the portal</td><td>Terminal Details > Edit</td><td>Changes persist after save and audit trail records the update</td></tr>
+    <tr><td>SSP-TM-CA-004</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that a customer admin can activate/deactivate a terminal via the portal</td><td>Terminal List > Status toggle</td><td>Status changes are applied and reflected in list/detail views</td></tr>
+    <tr><td>SSP-TM-CA-005</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify portal behavior when deleting a terminal that is in use</td><td>Terminal Details > Delete</td><td>Deletion is prevented with an explanatory message; no data loss occurs</td></tr>
+    <tr><td>SSP-TM-CA-006</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify terminal search and filtering capabilities in the portal</td><td>Terminal Management > Search/Filter</td><td>Search returns correct terminals; filters narrow results accurately</td></tr>
+    <tr><td>SSP-TM-CA-007</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify bulk import of terminals through the portal</td><td>Terminal Management > Bulk Import</td><td>Valid rows are imported; invalid rows are rejected with a downloadable error report</td></tr>
+  </tbody>
+</table>

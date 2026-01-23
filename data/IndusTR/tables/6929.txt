@@ -1,0 +1,17 @@
+<table>
+  <caption>Material-First Map of AM Processes by Activation Method (Liquid/Filament/Sheet & Photopolymer Emphasis)</caption>
+  <thead>
+    <tr><th rowspan="2">Raw material category</th><th colspan="6">Activation source</th></tr>
+    <tr><th>Laser (optical)</th><th>UV / visible light (projected)</th><th>Thermal (heater / IR / hot nozzle)</th><th>Electron beam</th><th>Arc / plasma</th><th>Other (chemical / binder / ultrasonic)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Photopolymer resin</td><td>Laser Stereolithography (SLA)</td><td>DLP Vat Photopolymerization; LCD/MSLA Vat Photopolymerization</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Photopolymer resin + ceramic or glass filler</td><td>Ceramic SLA (filled resin)</td><td>Ceramic DLP (filled resin)</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Thermoplastic filament (polymer)</td><td>—</td><td>—</td><td>Material Extrusion (FDM/FFF)</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Metal-filled filament / bound metal feedstock</td><td>—</td><td>—</td><td>Bound Metal Extrusion (MEX/FFF + debind & sinter)</td><td>—</td><td>—</td><td>Catalytic debinding + sintering route (post-activation)</td></tr>
+    <tr><td>Continuous fiber reinforced thermoplastic (tow + polymer)</td><td>—</td><td>—</td><td>Continuous Fiber Fabrication (CFF); Continuous fiber FFF (in-nozzle consolidation)</td><td>—</td><td>—</td><td>Ultrasonic Consolidation of fiber/foil laminates (where applicable)</td></tr>
+    <tr><td>Sheet polymer (films/laminates)</td><td>—</td><td>—</td><td>Sheet Lamination (thermal bonding / heated roller)</td><td>—</td><td>—</td><td>Adhesive-based Sheet Lamination (LOM-style)</td></tr>
+    <tr><td>Metal foil / sheet</td><td>—</td><td>—</td><td>Ultrasonic Additive Manufacturing (UAM)</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Wax / castable thermoplastic (jettable)</td><td>—</td><td>—</td><td>Material Jetting (drop-on-demand with thermal jets)</td><td>—</td><td>—</td><td>Binderless droplet deposition variants (vendor-specific)</td></tr>
+  </tbody>
+</table>

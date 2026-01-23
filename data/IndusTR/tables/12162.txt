@@ -1,0 +1,16 @@
+<table>
+  <caption>Mandatory Ligature Conversion Rules with Internal IDs (Variation Selector Omitted)</caption>
+  <tr><th>Position in Word</th><th>Presentation Form</th><th>Internal Rule ID</th><th>Glyph</th><th>Conversion Rules</th><th>Priority</th></tr>
+  <tr><td rowspan="6">Isolated</td><td>No. 1 (ID 013D)</td><td>R-013D-1</td><td>GL-013D</td><td>[WB]+[U+183B]+[U+1820|U+1821]+[WB]</td><td>High</td></tr>
+  <tr><td>No. 1 (ID 0133)</td><td>R-0133-1</td><td>GL-0133</td><td>[WB]+[U+183A]+[U+1820|U+1821]+[WB]</td><td>High</td></tr>
+  <tr><td>No. 1 (ID 0101)</td><td>R-0101-1</td><td>GL-0101</td><td>[WB]+[U+182A]+[U+1820|U+1821]+[WB]</td><td>High</td></tr>
+  <tr><td>No. 1 (ID 0169)</td><td>R-0169-1</td><td>GL-0169</td><td>[WB]+[U+1858]+[U+1820|U+1821]+[WB]</td><td>High</td></tr>
+  <tr><td>No. 1 (ID 0193)</td><td>R-0193-1</td><td>GL-0193</td><td>[WB]+[U+1892]+[U+1820|U+1821]+[WB]</td><td>Medium</td></tr>
+  <tr><td>No. 1 (ID 01A6)</td><td>R-01A6-1</td><td>GL-01A6</td><td>[WB]+[U+1893]+[U+1820|U+1821]+[WB]</td><td>Medium</td></tr>
+  <tr><td rowspan="6">Initial</td><td>No. 2 (ID 0115)</td><td>R-0115-Init</td><td>GL-0115</td><td>[WB]+[U+182D]+[U+1821]</td><td>High</td></tr>
+  <tr><td>No. 3 (ID 010B)</td><td>R-010B-Init</td><td>GL-010B</td><td>[WB]+[U+182B]+[U+1820|U+1821]</td><td>High</td></tr>
+  <tr><td>No. 4 (ID 013D)</td><td>R-013D-Init</td><td>GL-013D</td><td>[WB]+[U+183B]+[U+1820|U+1821]</td><td>Medium</td></tr>
+  <tr><td>No. 5 (ID 0133)</td><td>R-0133-Init</td><td>GL-0133</td><td>[WB]+[U+183A]+[U+1820|U+1821]</td><td>Medium</td></tr>
+  <tr><td>No. 6 (ID 0169)</td><td>R-0169-Init</td><td>GL-0169</td><td>[WB]+[U+1858]+[U+1820|U+1821]</td><td>Low</td></tr>
+  <tr><td>No. 7 (ID 0193)</td><td>R-0193-Init</td><td>GL-0193</td><td>[WB]+[U+1892]+[U+1820|U+1821]</td><td>Low</td></tr>
+</table>

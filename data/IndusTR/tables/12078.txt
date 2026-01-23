@@ -1,0 +1,15 @@
+<table>
+  <caption>Casting Geometry Guidelines: Shrinkage & Porosity Risk Control (Good vs Bad)</caption>
+  <thead>
+    <tr><th>Geometry Topic</th><th>Good Geometry Choice</th><th>Bad Geometry Choice</th><th>Quality Risk / Defect Prevented</th><th>Root Cause (Solidification / Feeding)</th><th>Checklist Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Heavy section / local mass</td><td>Core out thick regions; use hollow sections where possible</td><td>Solid bulky blocks and thick pads</td><td>Shrinkage cavity, centerline porosity</td><td>Late-freezing hot spot cannot be fed adequately</td><td>Avoid isolated masses; design for uniform modulus</td></tr>
+    <tr><td>Rib-to-wall proportion</td><td>Ribs thinner than wall; smooth blending fillets</td><td>Ribs equal/thicker than wall; abrupt rib roots</td><td>Shrinkage porosity at rib root; sink</td><td>Rib root becomes a hot spot; feeding path is restricted</td><td>Rib thickness ≈ 0.5–0.7× wall; generous root fillet</td></tr>
+    <tr><td>Multiple intersections (T, X junctions)</td><td>Stagger intersections; use gradual transitions</td><td>Clustered intersections with overlapping thick regions</td><td>Internal porosity and shrinkage cavities</td><td>Hot spot formed by combined section thickness</td><td>Limit intersection “effective thickness”; separate junctions</td></tr>
+    <tr><td>Bosses near each other</td><td>Merge bosses into a common pad with uniform thickness</td><td>Separate bosses creating thick islands</td><td>Shrinkage porosity between bosses</td><td>Thick islands freeze last; feeding is cut off early</td><td>Prefer one continuous pad; avoid isolated thick pads</td></tr>
+    <tr><td>Blind pockets / trapped gas volumes</td><td>Add vent paths or open geometry (avoid sealed cavities)</td><td>Deep blind cavities with no venting route</td><td>Gas porosity / blows</td><td>Gas cannot escape; turbulence traps gas in the cavity</td><td>Provide venting or redesign to through openings</td></tr>
+    <tr><td>Long flat plates</td><td>Add ribs for stiffness with balanced layout; maintain uniform thickness</td><td>Large flat thin plate with uneven thick features</td><td>Warping, distortion</td><td>Non-uniform cooling and residual stress</td><td>Symmetric ribbing; avoid asymmetrical thick features</td></tr>
+    <tr><td>Feeding path continuity (section chains)</td><td>Directional solidification-friendly layout: thick-to-thin progression</td><td>Thin-to-thick “reverse taper” that freezes the gate/feeder path first</td><td>Shrinkage porosity in last-to-freeze area</td><td>Feeding path freezes early; last region cannot be fed</td><td>Keep feed path open: avoid reverse thickness gradients</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Bulk viscosity (ζ) and shear viscosity (μ) with derived acoustic loss ratio (ζ/μ) for fluids relevant to sound attenuation</caption>
+  <thead>
+    <tr><th rowspan="2">Fluid</th><th colspan="3">Acoustic viscosity quantities</th><th rowspan="2">Measurement/Use</th></tr>
+    <tr><th>Shear viscosity, μ (Pa·s)</th><th>Bulk viscosity, ζ (Pa·s)</th><th>Ratio ζ/μ (-)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Methane (gas)</td><td>1.10e-5</td><td>3.30e-5</td><td>3.0</td><td>Used in compressible Navier–Stokes acoustic damping term</td></tr>
+    <tr><td>Oxygen (gas)</td><td>2.00e-5</td><td>8.00e-5</td><td>4.0</td><td>Accounts for relaxation-enhanced bulk losses</td></tr>
+    <tr><td>Helium (gas)</td><td>1.96e-5</td><td>0.00e+0</td><td>0.0</td><td>Monatomic limit; ζ often taken as zero</td></tr>
+    <tr><td>Water (liquid)</td><td>8.90e-4</td><td>2.70e-3</td><td>3.0</td><td>ζ needed for ultrasound attenuation in liquids</td></tr>
+    <tr><td>Silicone oil (10 cSt)</td><td>9.50e-3</td><td>1.90e-2</td><td>2.0</td><td>Viscous dissipation dominates in many acoustic tests</td></tr>
+    <tr><td>Mineral oil (light)</td><td>2.50e-2</td><td>4.00e-2</td><td>1.6</td><td>Helps separate shear vs volumetric loss contributions</td></tr>
+    <tr><td>Seawater (35 PSU)</td><td>1.05e-3</td><td>3.20e-3</td><td>3.0</td><td>Applied in underwater acoustics absorption modeling</td></tr>
+  </tbody>
+</table>

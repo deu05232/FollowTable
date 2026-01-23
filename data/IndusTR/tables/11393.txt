@@ -1,0 +1,14 @@
+<table>
+  <caption>Combined Transport Shock and Thermal/Humidity Preconditioning for Variable-Frequency Drive Equipment</caption>
+  <thead>
+    <tr><th>Phase</th><th>Test item</th><th>Product state</th><th>Packaging</th><th>Motion type</th><th>Key setpoints</th><th>Duration / cycles</th><th>Acceptance notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Low-temperature soak</td><td>Not energized</td><td>In shipping carton</td><td>null</td><td>-25°C ±2°C</td><td>16 h</td><td>No cracking of labels or housing</td></tr>
+    <tr><td>2</td><td>Condensation removal</td><td>Not energized</td><td>Unpacked for inspection</td><td>null</td><td>Airflow drying at 20°C–30°C</td><td>≥1 h</td><td>Remove internal/external moisture before energizing</td></tr>
+    <tr><td>3</td><td>Damp-heat exposure</td><td>Not energized</td><td>In shipping carton</td><td>null</td><td>40°C ±2°C, 95% RH</td><td>48 h</td><td>No condensation allowed on terminals</td></tr>
+    <tr><td>4</td><td>Transport shock sequence</td><td>Not energized</td><td>With packaging</td><td>Shock</td><td>Half-sine, 15 g / 11 ms</td><td>18 shocks (3 axes, 3 per direction)</td><td>No loosening of fasteners</td></tr>
+    <tr><td>5</td><td>High-temperature exposure</td><td>Not energized</td><td>With packaging</td><td>null</td><td>55°C ±2°C, abs humidity ≤20 g/m³</td><td>16 h</td><td>No deformation of foam inserts</td></tr>
+    <tr><td>6</td><td>Functional verification</td><td>Energized</td><td>Unpacked</td><td>null</td><td>Rated input, nominal load</td><td>30 min</td><td>Pass/fail per electrical performance criteria</td></tr>
+  </tbody>
+</table>

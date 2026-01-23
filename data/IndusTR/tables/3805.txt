@@ -1,0 +1,7 @@
+<table>
+  <caption>Common Request Header Parameters</caption>
+  <tr><td>Parameter Name</td><td>Chinese Name</td><td>Remarks</td></tr>
+  <tr><td>authorization</td><td>Authorization</td><td>Authorization token, request header parameter, format: Bearer{token}. For example: Bearer eyJhbGcifdJSUzI1NiIeInB5cCI6ISpXVCJ9.eyJhd2i56uvIl0sInVzZXJfY29kZSI6TmVINGRlMTc2M2Y0ZjIzN0aSI6ImJmZDQ2MjFkLW.M1ODAtNGIyYi04Yjg5LTE2ZDc2N</td></tr>
+  <tr><td>contentType</td><td>Content Type</td><td>Data format and encoding format of the request or response header; request and response header parameter, e.g.:application/json；charset=UTF-8</td></tr>
+  <tr><td>timestamp</td><td>Timestamp</td><td>Timestamp, request header parameter</td></tr>
+</table>

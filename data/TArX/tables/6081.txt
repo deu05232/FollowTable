@@ -1,0 +1,18 @@
+<table>
+  <caption>Typical profile output: Multitasking Information</caption>
+  <tr><th colspan="4">Seconds</th><th colspan="4">Seconds</th><th>Thread/Macro[tid]</th></tr>
+  <tr><td>%Res.</td><td>Res.</td><td>T/M</td><td>Micro</td><td>%CPU</td><td>CPU</td><td>CPUcum.</td><td>Wait</td><td>-micro[n]</td></tr>
+  <tr><td>0.0</td><td>93.66</td><td>0.04</td><td></td><td>0.0</td><td>0.04</td><td>0.04</td><td>0.01</td><td>Root1</td></tr>
+  <tr><td>100.0</td><td>-</td><td>-</td><td>93.62</td><td>8.4</td><td>93.62</td><td>93.66</td><td>0.77</td><td>-micro1</td></tr>
+  <tr><td>99.5</td><td>-</td><td>-</td><td>93.15</td><td>8.3</td><td>93.15</td><td>186.81</td><td>0.28</td><td>-micro2</td></tr>
+  <tr><td>99.9</td><td>-</td><td>-</td><td>93.61</td><td>8.4</td><td>93.61</td><td>280.42</td><td>0.00</td><td>-micro3</td></tr>
+  <tr><td>99.5</td><td>-</td><td>-</td><td>93.16</td><td>8.3</td><td>93.16</td><td>373.57</td><td>0.32</td><td>-micro4</td></tr>
+  <tr><td>99.4</td><td>-</td><td>-</td><td>93.11</td><td>8.3</td><td>93.11</td><td>466.68</td><td>0.22</td><td>-micro5</td></tr>
+  <tr><td>99.4</td><td>-</td><td>-</td><td>93.14</td><td>8.3</td><td>93.14</td><td>559.82</td><td>0.21</td><td>-micro6</td></tr>
+  <tr><td>99.3</td><td>-</td><td>-</td><td>93.02</td><td>8.3</td><td>93.02</td><td>652.84</td><td>0.30</td><td>-micro7</td></tr>
+  <tr><td>99.4</td><td>-</td><td>-</td><td>93.13</td><td>8.3</td><td>93.13</td><td>745.97</td><td>0.31</td><td>-micro8</td></tr>
+  <tr><td>99.6</td><td>-</td><td>-</td><td>93.26</td><td>8.3</td><td>93.26</td><td>839.22</td><td>0.27</td><td>-micro9</td></tr>
+  <tr><td>99.5</td><td>-</td><td>-</td><td>93.16</td><td>8.3</td><td>93.16</td><td>932.38</td><td>0.32</td><td>-micro10</td></tr>
+  <tr><td>99.2</td><td>-</td><td>-</td><td>92.93</td><td>8.3</td><td>92.93</td><td>1025.31</td><td>0.26</td><td>-micro11</td></tr>
+  <tr><td>99.5</td><td>-</td><td>-</td><td>93.18</td><td>8.3</td><td>93.18</td><td>1118.49</td><td>0.30</td><td>-micro12</td></tr>
+</table>

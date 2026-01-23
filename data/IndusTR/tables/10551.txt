@@ -1,0 +1,18 @@
+<table>
+  <caption>Terrestrial Eco-Meteorological Station Event Classification Record (Natural/Phenological/Disaster)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Field</th><th>Field Code</th><th>Data Type</th><th>Format / Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station identifier</td><td>ST_ID</td><td>VARCHAR(32)</td><td>Unique station code (not an address)</td></tr>
+    <tr><td>2</td><td>Station name</td><td>ST_NAME</td><td>VARCHAR(100)</td><td>Human-readable station name</td></tr>
+    <tr><td>3</td><td>Observation timestamp</td><td>OBS_TIME</td><td>DATETIME</td><td>YYYY-MM-DD hh:mm:ss (local standard time)</td></tr>
+    <tr><td>4</td><td>Event major category</td><td>EVT_CAT</td><td>CHAR(2)</td><td>Controlled: NP=Natural phenomenon; PH=Phenology; DS=Disaster/abnormal ecology</td></tr>
+    <tr><td>5</td><td>Event type code</td><td>EVT_CODE</td><td>CHAR(4)</td><td>Coded label for the specific phenomenon/event type (e.g., VVVV-style controlled code)</td></tr>
+    <tr><td>5.1</td><td>Event type name</td><td>EVT_NAME</td><td>VARCHAR(120)</td><td>Display name aligned to EVT_CODE</td></tr>
+    <tr><td>6</td><td>Event status</td><td>EVT_STATUS</td><td>CHAR(1)</td><td>0=observed/ongoing; 1=ended; 2=unknown</td></tr>
+    <tr><td>7</td><td>Observation method</td><td>OBS_METHOD</td><td>CHAR(1)</td><td>1=field survey; 2=remote sensing; 3=instrument trigger; 9=other</td></tr>
+    <tr><td>8</td><td>Confidence level</td><td>CONF_LVL</td><td>CHAR(1)</td><td>A=high; B=medium; C=low</td></tr>
+    <tr><td>9</td><td>Remarks</td><td>REMARK</td><td>VARCHAR(300)</td><td>Free text notes (optional)</td></tr>
+  </tbody>
+</table>

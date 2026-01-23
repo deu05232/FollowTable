@@ -1,0 +1,8 @@
+<table>
+  <caption>Vector Dot Product Function Backward Interface Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Output Tensor Gradient</td><td>Input</td><td>Required</td><td>Indicates the gradient of the output tensor in the forward interface. The output tensor gradient is the dot product of the output tensor vecl and tensor vec2</td></tr>
+  <tr><td>Input Tensor 1</td><td>Input</td><td>Required</td><td>The first input tensor vecl used for the dot product, i.e., input tensor 1 in the forward interface</td></tr>
+  <tr><td>Input Tensor 2</td><td>Input</td><td>Required</td><td>The first input tensor vec2 used for the dot product, i.e., input tensor 2 in the forward interface</td></tr>
+  <tr><td>Input Tensor 2 Gradient</td><td>Output</td><td>Required</td><td>Indicates the gradient of input tensor 2 in the forward interface. Input tensor 2 is the first input tensor vec2 used for the dot product</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>VR positioning-related enums and pose struct in one table (mixed reference)</caption>
+  <tr><th>Section</th><th>Name</th><th>Value/Type</th><th>Description</th></tr>
+  <tr><td>Enum</td><td>VR_HMD_RELOCALIZATION_MODE_LOCAL</td><td>0x00</td><td>Local relocalization</td></tr>
+  <tr><td>Enum</td><td>VR_HMD_RELOCALIZATION_MODE_GLOBAL</td><td>0x01</td><td>Global relocalization</td></tr>
+  <tr><td>Struct field</td><td>vrPose.time_stamp</td><td>int64_t</td><td>Pose timestamp</td></tr>
+  <tr><td>Struct field</td><td>vrPose.orientation</td><td>vrQuaternion</td><td>Orientation quaternion</td></tr>
+  <tr><td>Struct field</td><td>vrPose.position</td><td>vr3DPoint</td><td>3D position</td></tr>
+  <tr><td>Enum</td><td>VR_CONTROLLER_POSITIONING_MODE_3DOF_IMU_ONLY</td><td>0x00</td><td>IMU orientation mode</td></tr>
+  <tr><td>Enum</td><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_STANDBY</td><td>0x01</td><td>Standby state</td></tr>
+</table>

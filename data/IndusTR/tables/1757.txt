@@ -1,0 +1,6 @@
+<table>
+  <caption>Tire Building Process Data Processing Logic Information Table</caption>
+  <tr><td>No.</td><td>Process Name</td><td>Description</td><td>Input</td><td>Output</td><td>Processing Method</td></tr>
+  <tr><td>1</td><td>Fixed-Length Algorithm</td><td>Calculate the length to be cut for the material, and use an encoder to measure the cut length</td><td>“Actual material length” comes from real-time encoder length feedback and is compared with the "length setpoint"</td><td>Adjust lamination speed ratio</td><td>Adjust the lamination speed ratio based on the difference between the measured length and the set length to achieve consistent splice amount</td></tr>
+  <tr><td>2</td><td>Tension Control Algorithm</td><td>Measure the real-time tension during winding, and adjust the tension motor speed to achieve constant tension</td><td>Measure the real-time tension value during winding</td><td>Tension motor speed</td><td>Use PID regulation to adjust the tension motor speed based on the tension magnitude to achieve constant-tension control</td></tr>
+</table>

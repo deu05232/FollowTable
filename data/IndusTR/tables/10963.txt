@@ -1,0 +1,15 @@
+<table>
+  <caption>Defibrillator Performance Limits with Waveform and Operating Mode</caption>
+  <thead>
+    <tr><th>Spec ID</th><th>Item</th><th>Unit</th><th>Limit / Range</th><th>Type of Field</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DF-01</td><td>Energy range</td><td>J</td><td>1–360</td><td>Performance</td></tr>
+    <tr><td>DF-02</td><td>Charge time to 200 J</td><td>s</td><td><= 7</td><td>Performance</td></tr>
+    <tr><td>DF-03</td><td>Energy accuracy</td><td>%</td><td>±15</td><td>Performance</td></tr>
+    <tr><td>DF-04</td><td>Refractory detection update rate</td><td>Hz</td><td>50–200</td><td>Performance</td></tr>
+    <tr><td>DF-05</td><td>Battery operating time</td><td>min</td><td>>= 120</td><td>Performance</td></tr>
+    <tr><td>DF-06</td><td>Defibrillation waveform</td><td>—</td><td>Biphasic truncated exponential</td><td>Waveform</td></tr>
+    <tr><td>DF-07</td><td>Defibrillation mode</td><td>—</td><td>Manual / AED / Synchronized</td><td>Mode</td></tr>
+  </tbody>
+</table>

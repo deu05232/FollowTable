@@ -1,0 +1,10 @@
+<table>
+  <caption>Version Negotiation Timing and Exit Conditions</caption>
+  <tr><th>Condition</th><th>Actor</th><th>Trigger</th><th>Action</th><th>Next Step</th></tr>
+  <tr><td>Negotiation successful and version consistent</td><td>Both</td><td>Receive Success (0x01) with same version</td><td>End negotiation</td><td>Proceed to next-stage message exchange</td></tr>
+  <tr><td>Continue negotiation</td><td>Receiver</td><td>Receive Continue (0x00)</td><td>Check whether received version is supported; respond accordingly</td><td>Repeat version exchange</td></tr>
+  <tr><td>Negotiation failed</td><td>Either side</td><td>Receive Failed (0x02)</td><td>Stop negotiation</td><td>Enter fallback procedure</td></tr>
+  <tr><td>Timeout</td><td>Either side</td><td>More than 10 s since first negotiation message</td><td>Stop negotiation</td><td>Enter fallback procedure</td></tr>
+  <tr><td>Stage transition gate</td><td>Charger</td><td>Negotiated version not lower than V2.0.0</td><td>Enter function negotiation stage</td><td>Start next phase</td></tr>
+  <tr><td>Early abort by other message</td><td>Vehicle</td><td>Receive CHM/CRM message</td><td>Stop sending negotiation confirmations</td><td>Wait for charger behavior</td></tr>
+</table>

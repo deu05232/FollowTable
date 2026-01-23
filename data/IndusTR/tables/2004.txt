@@ -1,0 +1,10 @@
+<table>
+  <caption>AR SLAM Training Dataset Collection Protocol</caption>
+  <tr><th>Scene Type</th><th>Capture Path</th><th>Min Duration (min)</th><th>Motion Speed</th><th>Lighting Condition</th><th>Labeling Output</th></tr>
+  <tr><td>Indoor corridor</td><td>Loop</td><td>8</td><td>0.8 m/s</td><td>Mixed</td><td>Keyframes + IMU sync</td></tr>
+  <tr><td>Office</td><td>Figure-8</td><td>10</td><td>0.6 m/s</td><td>Bright</td><td>Anchors + planes</td></tr>
+  <tr><td>Retail store</td><td>Grid</td><td>12</td><td>0.7 m/s</td><td>Low</td><td>Pointcloud snapshots</td></tr>
+  <tr><td>Outdoor plaza</td><td>Loop</td><td>15</td><td>1.0 m/s</td><td>Daylight</td><td>GPS tags (optional)</td></tr>
+  <tr><td>Staircase</td><td>Up/Down</td><td>6</td><td>0.5 m/s</td><td>Mixed</td><td>Pose continuity checks</td></tr>
+  <tr><td>Warehouse</td><td>Straight-line</td><td>10</td><td>0.9 m/s</td><td>Dim</td><td>Relocalization flags</td></tr>
+</table>

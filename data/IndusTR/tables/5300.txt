@@ -1,0 +1,38 @@
+<table>
+  <caption>SpaceFibre bus 8B 10B encoding 5B 6B encoding table</caption>
+  <tr><td colspan="2">Input</td><td colspan="2">Output</td></tr>
+  <tr><td>Data input</td><td>Data bits 43210EDCBA</td><td>Current running disparity is -1abcdei</td><td>Current running disparity is +1abcdei</td></tr>
+  <tr><td>D00.y</td><td>00000</td><td>100111</td><td>011000</td></tr>
+  <tr><td>D01.y</td><td>00001</td><td>011101</td><td>100010</td></tr>
+  <tr><td>D02.y</td><td>00010</td><td>101101</td><td>010010</td></tr>
+  <tr><td>D03.y</td><td>00011</td><td colspan="2">110001</td></tr>
+  <tr><td>D04.y</td><td>00100</td><td>110101</td><td>001010</td></tr>
+  <tr><td>D05.y</td><td>00101</td><td colspan="2">101001</td></tr>
+  <tr><td>D06.y</td><td>00110</td><td colspan="2">011001</td></tr>
+  <tr><td>D07.y</td><td>00111</td><td>111000</td><td>000111</td></tr>
+  <tr><td>D08.y</td><td>01000</td><td>111001</td><td>000110</td></tr>
+  <tr><td>D09.y</td><td>01001</td><td colspan="2">100101</td></tr>
+  <tr><td>D10.y</td><td>01010</td><td colspan="2">010101</td></tr>
+  <tr><td>D11.y</td><td>01011</td><td colspan="2">110100</td></tr>
+  <tr><td>D12.y</td><td>01100</td><td colspan="2">001101</td></tr>
+  <tr><td>D13.y</td><td>01101</td><td colspan="2">101100</td></tr>
+  <tr><td>D14.y</td><td>01110</td><td colspan="2">011100</td></tr>
+  <tr><td>D15.y</td><td>01111</td><td>010111</td><td>101000</td></tr>
+  <tr><td>D16.y</td><td>10000</td><td>011011</td><td>100100</td></tr>
+  <tr><td>D17.y</td><td>10001</td><td colspan="2">100011</td></tr>
+  <tr><td>D18.y</td><td>10010</td><td colspan="2">010011</td></tr>
+  <tr><td>D19.y</td><td>10011</td><td colspan="2">110010</td></tr>
+  <tr><td>D20.y</td><td>10100</td><td colspan="2">001011</td></tr>
+  <tr><td>D21.y</td><td>10101</td><td colspan="2">101010</td></tr>
+  <tr><td>D22.y</td><td>10110</td><td colspan="2">011010</td></tr>
+  <tr><td>D/K23.y</td><td>10111</td><td>111010</td><td>SAC000101</td></tr>
+  <tr><td>D24.y</td><td>11000</td><td>110011</td><td>001100</td></tr>
+  <tr><td>D25.y</td><td>11001</td><td colspan="2">100110</td></tr>
+  <tr><td>D26.y</td><td>11010</td><td colspan="2">010110</td></tr>
+  <tr><td>D/K27.y</td><td>11011</td><td>110110</td><td>001001</td></tr>
+  <tr><td>D28.y</td><td>11100</td><td colspan="2">001110</td></tr>
+  <tr><td>K28.y</td><td>11100</td><td>001111</td><td>110000</td></tr>
+  <tr><td>D/K29.y</td><td>11101</td><td>101110</td><td>010001</td></tr>
+  <tr><td>D/K30.y</td><td>11110</td><td>011110</td><td>100001</td></tr>
+  <tr><td>D31.y</td><td>1111</td><td>101011</td><td>010100</td></tr>
+</table>

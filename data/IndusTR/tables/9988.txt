@@ -1,0 +1,16 @@
+<table>
+  <caption>Permissible drift of active energy error under harmonic distortion versus operating point (classes 1, 2, 5)</caption>
+  <thead>
+    <tr><th rowspan="2">Operating point (fundamental)</th><th rowspan="2">Harmonic condition</th><th colspan="3">Maximum allowed change in error ΔE (%) by class</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I = Itr, PF = 1.0</td><td>THDI= 10%, THDV= 5% (odd harmonics, up to 25th)</td><td>±0.6</td><td>±1.0</td><td>±3.0</td></tr>
+    <tr><td>I = 0.2 Imax, PF = 1.0</td><td>THDI= 20%, THDV= 10%</td><td>±0.8</td><td>±1.3</td><td>±4.0</td></tr>
+    <tr><td>I = In, PF = 0.5 lag</td><td>THDI= 20%, THDV= 10%</td><td>±1.0</td><td>±1.6</td><td>±5.0</td></tr>
+    <tr><td>I = 0.1 Imax, PF = 1.0</td><td>THDI= 30%, THDV= 10%</td><td>±1.2</td><td>±2.0</td><td>±6.0</td></tr>
+    <tr><td>I = Imax, PF = 1.0</td><td>THDI= 10%, THDV= 5%</td><td>±0.7</td><td>±1.2</td><td>±3.5</td></tr>
+    <tr><td>I = In, PF = 1.0</td><td>Single harmonic at 5th, Ih= 20% of I (cosφ = 1)</td><td>±0.9</td><td>±1.5</td><td>±4.5</td></tr>
+    <tr><td>I = In, PF = 1.0</td><td>Single harmonic at 11th, Ih= 15% of I (cosφ = 1)</td><td>±0.8</td><td>±1.3</td><td>±4.0</td></tr>
+  </tbody>
+</table>

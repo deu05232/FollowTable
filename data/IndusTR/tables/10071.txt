@@ -1,0 +1,14 @@
+<table>
+  <caption>Blind Rivet Assembly — Material-Driven Requirement Matrix (Procurement & Inspection)</caption>
+  <thead>
+    <tr><th>Variant ID</th><th>Assembly / Part</th><th>Material</th><th>Material Spec Reference</th><th>Key Technical Requirement Reference</th><th>Heat Treatment / Mechanical Property Requirement</th><th>Surface Treatment Requirement</th><th>Inspection / Documentation Requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>Rivet body</td><td>No. 45 steel</td><td>GB/T 3078</td><td>GB/T 44562-2024 Appendix A</td><td>Per drawing; verify hardness/strength per Appendix A method</td><td>Oxidation (black oxide)</td><td>Material cert + appearance + coating verification per Appendix A</td></tr>
+    <tr><td>B</td><td>Rivet body</td><td>TC4 titanium alloy</td><td>GB/T 2965</td><td>GB/T 44562-2024 Appendix A</td><td>σb 1100–1300 MPa (procurement class)</td><td>As specified (no default)</td><td>Heat-treatment record + tensile property report retained</td></tr>
+    <tr><td>C</td><td>Rivet body</td><td>1Cr18Ni9Ti stainless steel</td><td>GB/T 4237</td><td>GB/T 44562-2024 Appendix A</td><td>As specified by stainless part spec</td><td>Dry film lubricant or cetyl alcohol</td><td>Lubricant conformity + cleanliness check per Appendix A</td></tr>
+    <tr><td>D</td><td>Washer / sleeve</td><td>POM plastic</td><td>GB/T 22271.3-2016</td><td>GB/T 44562-2024 Appendix A</td><td>N/A (polymer)</td><td>As molded</td><td>Incoming resin ID + molding defect criteria per Appendix A</td></tr>
+    <tr><td>E</td><td>Mandrel</td><td>Alloy steel</td><td>Controlled by drawing / purchase spec</td><td>GB/T 44562-2024 Appendix A</td><td>Breakload / tensile requirement per Appendix A acceptance</td><td>Phosphate + oil (if specified)</td><td>Process control record + functional test report</td></tr>
+    <tr><td>F</td><td>Mandrel</td><td>Stainless steel</td><td>GB/T 4237 (or drawing)</td><td>GB/T 44562-2024 Appendix A</td><td>As specified</td><td>Dry film lubricant (anti-galling)</td><td>Friction/galling prevention note verified during assembly inspection</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>SOF Component Parse XML Signature to Obtain Information Interface Definition</caption>
+  <tr><td>Prototype</td><td>function SOF_GetXMLSignatureInfo(XMLSignedData,Type,cb,ctx)</td></tr>
+  <tr><td>Description</td><td>Parse the XML data signature to obtain information such as signature value, original XML plaintext, certificate, and related algorithms</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>XMLSignedData(XML signature result)</td></tr>
+  <tr><td>Type(Type of parameter to be parsed), value range: a）1: parse out the original XML plaintext; b)2: parse out the digest value; c）3：parse out the signature value; d)4: parse out the signing certificate; e）5：parse out the hash algorithm; f）6: parse out the signature algorithm SAC</td></tr>
+  <tr><td>cb(Callback function)</td></tr>
+  <tr><td>ctx(Parameters required by the callback function)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>Parsing result (Success)</td></tr>
+  <tr><td>Empty string (Failure, error code defined in Table A.1 can be obtained via SOF_GetLastError)</td></tr>
+  <tr><td>Security Rules</td><td>Default XML signature configuration and parameter value examples: a）The original XML plaintext is taken from the Object element; b）The digest value is taken from the DigestValue element, in the form http://127.0.0.1/200l/04/xmldsig-more# sm3; c）The signature value is taken from the SignatureValue element and is Base64-encoded; d）The signing certificate is taken from the X509Data element and is Base64-encoded; e）The hash algorithm is taken from the Algorithm attribute of the DigestMethod element, in the form htp://127.0.0.1/2001/04/xmldsig-more# sm3; f）The signature algorithm is taken from the Algorithm attribute of the SignatureMethod element, in the form http://127.0.0.1/200l/04/xmldsig-more#sm2-sm3</td></tr>
+</table>

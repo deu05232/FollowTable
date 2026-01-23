@@ -1,0 +1,14 @@
+# Windows Server 2012 R2 Edition Feature Comparison for Collaboration Platforms
+
+| Category | Essentials | Standard | Datacenter | Foundation |
+|---|---:|---:|---:|---:|
+| Licensing model | Per server (CALs included) | Per core + CAL | Per core + CAL | Per server |
+| Maximum users (suggested) | 25 | Unlimited | Unlimited | 15 |
+| Server roles supported | Limited | Full | Full | Limited |
+| Hyper-V rights | No | 2 VMs | Unlimited VMs | No |
+| Domain controller capability | Yes (required) | Optional | Optional | Yes |
+| Remote Web Access | Included | Optional | Optional | No |
+| BranchCache | No | Yes | Yes | No |
+| Storage Spaces | Limited | Yes | Yes | Limited |
+| Failover clustering | No | Yes | Yes | No |
+| Server Core installation | No | Yes | Yes | No |

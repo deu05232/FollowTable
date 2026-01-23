@@ -1,0 +1,11 @@
+<table>
+  <caption>The expected and measured significances for the various analyses.</caption>
+  <tr><th rowspan="2">Analysis</th><th colspan="2">Expected</th><th colspan="2">Measured</th></tr>
+  <tr><th>p-value</th><th>Significance (std. dev.)</th><th>p-value</th><th>Significance (std. dev.)</th></tr>
+  <tr><th>Boosted decision trees</th><th>0.0177</th><th>2.1</th><th>0.00037</th><th>3.4</th></tr>
+  <tr><th>Matrix elements (D0)</th><th>0.0307</th><th>1.9</th><th>0.00082</th><th>3.2</th></tr>
+  <tr><th>Bayesian NN</th><th>0.0155</th><th>2.2</th><th>0.00083</th><th>3.1</th></tr>
+  <tr><th>D0 Combined</th><th>0.0105</th><th>2.3</th><th>0.00014</th><th>3.6</th></tr>
+  <tr><th>Matrix elements (CDF)</th><td>0.0013</td><td>3.0</td><td>0.0009</td><td>3.1</td></tr>
+  <tr><th>Likelihood</th><td>0.0020</td><td>2.9</td><td>0.0031</td><td>2.7</td></tr>
+</table>

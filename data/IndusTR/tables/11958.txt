@@ -1,0 +1,18 @@
+<table>
+  <caption>Palm/Fingerprint Capture Specification with Subject Hand Attributes</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter</th><th>Definition</th><th>Example Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Acquisition Setup</td><td>Acquisition Mode</td><td>How the sample is captured</td><td>Flat, Rolled, Swipe</td></tr>
+    <tr><td>Device Type</td><td>Sensor technology and interaction</td><td>Optical contact, Capacitive contact, Contactless camera</td></tr>
+    <tr><td>Illumination</td><td>Active light source configuration</td><td>White LED, NIR 850nm, Ambient-only</td></tr>
+    <tr><td>Background</td><td>Background behind hand</td><td>Black matte, White paper, Complex scene</td></tr>
+    <tr><td>Pose Guidance</td><td>How positioning is enforced</td><td>Guide pegs, On-screen outline, null</td></tr>
+    <tr><td>Quality Indicators</td><td>Pipeline-derived quality factors</td><td>Ridge contrast, Smudge level, Motion blur, Specular highlights</td></tr>
+    <tr><td rowspan="4">Subject/Hand Characteristics</td><td>Palm Size</td><td>Distance from middle-finger base crease to lower palm edge</td><td>Small, Medium, Large</td></tr>
+    <tr><td>Finger Thickness</td><td>Approx. distal phalanx diameter</td><td><15 mm, 15–20 mm, >20 mm</td></tr>
+    <tr><td>Skin Condition</td><td>Moisture/dryness not caused by sensor pipeline</td><td>Dry, Normal, Wet</td></tr>
+    <tr><td>Manual Labor Indicator</td><td>Whether heavy labor may cause ridge wear</td><td>Yes, No, Unknown</td></tr>
+  </tbody>
+</table>

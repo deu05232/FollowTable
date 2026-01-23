@@ -1,0 +1,12 @@
+# Outlook.com   Hotmail DNS Records for Email Routing (MX, SPF, DKIM, DMARC)
+
+| Record type | Host/Name | Points to / Value | Priority | TTL | Notes |
+| --- | --- | --- | --- | --- | --- |
+| MX | @ | outlook-com.mail.protection.outlook.com | 0 | 3600 | Used for inbound mail routing to Microsoft 365/Outlook infrastructure |
+| TXT (SPF) | @ | v=spf1 include:spf.protection.outlook.com -all | — | 3600 | Sender Policy Framework for domain authorization |
+| CNAME (DKIM) | selector1._domainkey | selector1-yourdomain-com._domainkey.yourtenant.onmicrosoft.com | — | 3600 | Enables DKIM signing |
+| CNAME (DKIM) | selector2._domainkey | selector2-yourdomain-com._domainkey.yourtenant.onmicrosoft.com | — | 3600 | Enables DKIM signing |
+| TXT (DMARC) | _dmarc | v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com | — | 3600 | DMARC policy and reporting |
+| CNAME | autodiscover | autodiscover.outlook.com | — | 3600 | Client autodiscover endpoint (not POP/IMAP/SMTP settings) |
+| SRV | _sip._tls | sipdir.online.lync.com | — | 3600 | Related to Skype/Teams, not mail client server settings |
+| SRV | _sipfederationtls._tcp | sipfed.online.lync.com | — | 3600 | Related to federation, not mail client configuration |

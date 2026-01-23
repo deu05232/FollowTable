@@ -1,0 +1,7 @@
+<table>
+  <caption>Curing press step sequence and valve group mapping logic</caption>
+  <tr><th>Step No.</th><th>Step Name</th><th>Input</th><th>Valve Group Output</th><th>Timing Rule</th><th>Notes</th></tr>
+  <tr><td>1</td><td>Close Mold</td><td>User step sequence from HMI</td><td>VG1, VG3 ON</td><td>Hold 8 s</td><td>No sensor feedback calculation</td></tr>
+  <tr><td>2</td><td>Inflate Bladder</td><td>User step sequence from HMI</td><td>VG2 ON</td><td>Ramp by preset time</td><td>Order depends on recipe steps</td></tr>
+  <tr><td>3</td><td>Exhaust</td><td>User step sequence from HMI</td><td>VG4 ON</td><td>Hold 3 s</td><td>Sequence-only logic</td></tr>
+</table>

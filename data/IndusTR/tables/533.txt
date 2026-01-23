@@ -1,0 +1,19 @@
+<table>
+  <caption>Distress Alarm Cancellation Message Format</caption>
+  <tr><td>Serial No.</td><td>Field Name</td><td>Bits</td><td>Valid Range</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>Service Identifier</td><td>16</td><td>0xCC00</td><td>BDMSS ship earth station service application</td></tr>
+  <tr><td>2</td><td>Field Type</td><td>4</td><td>0~1</td><td>0: cancel a real alarm; 1: cancel a false alarm; 2~15: unused</td></tr>
+  <tr><td>3</td><td>Message Sequence Number</td><td>32</td><td>—</td><td>Same as the message sequence number of the distress alarm to be canceled</td></tr>
+  <tr><td>4</td><td>Communication Priority Level</td><td>2</td><td>0~3</td><td>0: other; 1: safety; 2: urgency; 3: distress (default)</td></tr>
+  <tr><td>5</td><td>Final Recipient Address</td><td>7</td><td>0~15</td><td>Shall be filled with the Maritime Rescue Coordination Centre (MRCC) address code according to Table A.2, consistent with the final recipient address in the distress alarm message to be canceled; 16~127: unused</td></tr>
+  <tr><td>6</td><td>Receiving BDMSS Gateway Station</td><td>4</td><td>0~1</td><td>0: Beijing gateway station; 1: Shanghai gateway station; 2~15: unused</td></tr>
+  <tr><td>7</td><td>Cancelled Distress Nature</td><td>4</td><td>0~11</td><td>0: distress nature unknown (default); 1: fire/explosion; 2: flooding; 3: collision; 4: grounding; 5: listing, risk of capsizing; 6: sinking; 7: adrift out of control; 8: abandon ship; 9: piracy/armed robbery; 10: man overboard; 11: request assistance; 12~15: unused</td></tr>
+  <tr><td>8</td><td>Vessel Name Length</td><td>5</td><td>0~20</td><td>Length x of the "Vessel Name" field</td></tr>
+  <tr><td>9</td><td>Vessel Name</td><td>8×x</td><td>—</td><td>Unit of x: byte</td></tr>
+  <tr><td>10</td><td>Vessel MMSI</td><td>30</td><td>—</td><td>9 digits, automatically integrated</td></tr>
+  <tr><td>11</td><td>Message Sending Time</td><td>40</td><td></td><td>UTC time shall be filled in according to the provisions of Table A.3</td></tr>
+  <tr><td>12</td><td>Message Content Encoding Type</td><td>4</td><td>0~1</td><td>0: UTF-8 (default); 1: IRA; 2~15: unused</td></tr>
+  <tr><td>13</td><td>Message Content Length</td><td>9</td><td></td><td>Automatically generated; unit: bit; length of the subsequent message content</td></tr>
+  <tr><td>14</td><td>Message Content</td><td>—</td><td></td><td>Variable length</td></tr>
+  <tr><td colspan="2">Total</td><td>—</td><td></td><td>Variable length</td></tr>
+</table>

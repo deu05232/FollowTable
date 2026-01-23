@@ -1,0 +1,10 @@
+<table>
+  <caption>Hospital Information System Open API Authentication (Non-IoT Domain)</caption>
+  <tr><th>API</th><th>Auth Mechanism</th><th>Credential Type</th><th>Session Timeout</th><th>Remark</th></tr>
+  <tr><td>Patient Record Query</td><td>SAML SSO</td><td>IdP Assertion</td><td>30 min</td><td>Requires hospital domain account</td></tr>
+  <tr><td>Prescription Upload</td><td>mTLS</td><td>Client Certificate</td><td>N/A</td><td>Hardware token recommended</td></tr>
+  <tr><td>Lab Result Push</td><td>JWT</td><td>Bearer Token</td><td>15 min</td><td>Scopes: lab.write</td></tr>
+  <tr><td>Appointment Booking</td><td>API Key</td><td>Header Key</td><td>N/A</td><td>Rate limited</td></tr>
+  <tr><td>Billing Export</td><td>OAuth2</td><td>Access Token</td><td>60 min</td><td>Requires consent</td></tr>
+  <tr><td>Imaging Retrieval</td><td>Kerberos</td><td>Service Ticket</td><td>10 min</td><td>Intranet only</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Netting Manufacturing Equipment Settings (Weaving and Heat-Setting Line Parameters)</caption>
+  <thead>
+    <tr><th>Process Step</th><th>Equipment</th><th>Key Setting</th><th>Setpoint</th><th>Tolerance</th><th>Monitoring Frequency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Warp preparation</td><td>Creel system</td><td>Warp tension (N)</td><td>18</td><td>±2</td><td>Per shift</td></tr>
+    <tr><td>Weaving</td><td>Raschel machine</td><td>Machine speed (rpm)</td><td>680</td><td>±20</td><td>Daily</td></tr>
+    <tr><td>Weaving</td><td>Raschel machine</td><td>Needle gauge</td><td>E18</td><td>N/A</td><td>Setup only</td></tr>
+    <tr><td>Heat setting</td><td>Stenter</td><td>Zone temperature (°C)</td><td>175</td><td>±5</td><td>Hourly</td></tr>
+    <tr><td>Heat setting</td><td>Stenter</td><td>Overfeed (%)</td><td>6.0</td><td>±0.5</td><td>Per batch</td></tr>
+    <tr><td>Finishing</td><td>Winder</td><td>Winding tension (N)</td><td>12</td><td>±1</td><td>Per batch</td></tr>
+  </tbody>
+</table>

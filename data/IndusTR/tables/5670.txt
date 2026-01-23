@@ -1,0 +1,21 @@
+<table>
+  <caption>Electronic Code Segment Layout for Agricultural Input Products (Binary Payload View)</caption>
+  <thead>
+    <tr><th>Segment (in order)</th><th>Role in Identifier</th><th>Bit Length</th><th>Encoding / Fixed Pattern</th><th>Allowed Range / Capacity (decimal)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Identifies the scheme/version of the agricultural input product code</td><td>8</td><td>Fixed: 0011 0000</td><td>N/A</td><td>Constant value used to recognize this code family</td></tr>
+    <tr><td>Filter (F)</td><td>Fast classification for processing/routing (e.g., packaging level or internal grouping)</td><td>3</td><td>Enumerated 3-bit value</td><td>0–7</td><td>Small field intended for quick filtering</td></tr>
+    <tr><td>Partition (P)</td><td>Selects how many bits are assigned to Company Prefix vs. Item Reference</td><td>3</td><td>Enumerated 3-bit value</td><td>0–7</td><td>Controls the C/I split (see Partition Rule rows below)</td></tr>
+    <tr><td>Company Prefix (C)</td><td>Identifies the company/issuer allocating product item codes</td><td>20–40</td><td>Unsigned integer</td><td>Approx. 10^6 to 10^12 capacity (depends on P)</td><td>Bit length varies by partition to match prefix size</td></tr>
+    <tr><td>Item Reference (I)</td><td>Indicator + agricultural inputs product item code</td><td>24–4</td><td>Unsigned integer</td><td>Capacity inversely proportional to C (depends on P)</td><td>When C is longer, I is shorter, and vice versa</td></tr>
+    <tr><td>Serial (S)</td><td>Uniquely distinguishes instances of the same C+I product</td><td>38</td><td>Unsigned integer</td><td>0–274,877,906,943</td><td>Fixed-length serial field</td></tr>
+    <tr><td colspan="6">Partition Rules (example mapping)</td></tr>
+    <tr><td>P=0</td><td>Longest company prefix, smallest item reference</td><td>C=40, I=4</td><td>C/I split</td><td>C up to ~10^12; I up to 15</td><td>Maximizes issuers, minimal per-issuer item space</td></tr>
+    <tr><td>P=1</td><td>Long company prefix, small item reference</td><td>C=37, I=7</td><td>C/I split</td><td>I up to 127</td><td>Illustrative partition option</td></tr>
+    <tr><td>P=2</td><td>Balanced split</td><td>C=34, I=10</td><td>C/I split</td><td>I up to 1,023</td><td>Illustrative partition option</td></tr>
+    <tr><td>P=3</td><td>Balanced split</td><td>C=30, I=14</td><td>C/I split</td><td>I up to 16,383</td><td>Illustrative partition option</td></tr>
+    <tr><td>P=4</td><td>Shorter company prefix, larger item reference</td><td>C=27, I=17</td><td>C/I split</td><td>I up to 131,071</td><td>Illustrative partition option</td></tr>
+    <tr><td>P=5</td><td>Short company prefix, large item reference</td><td>C=24, I=20</td><td>C/I split</td><td>I up to 1,048,575</td><td>Illustrative partition option</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Version negotiation payload (common field semantics)</caption>
+  <tr><td>Seq.</td><td>Field meaning</td><td>Size</td><td>Encoding / format</td><td>Allowed values and interpretation</td><td>Notes for negotiation behavior</td></tr>
+  <tr><td>1</td><td>Link-layer capability indicator</td><td>1 byte</td><td>Unsigned integer</td><td>0x00 = classic CAN; 0x01 = CAN FD; 0x02 = CAN XL</td><td>Provided for capability awareness; must not be used as the sole criterion to decide the negotiated version.</td></tr>
+  <tr><td>2</td><td>Negotiation status signaled by sender</td><td>1 byte</td><td>Unsigned integer</td><td>0x00 = keep negotiating; 0x01 = agreed; 0x02 = rejected</td><td>Receiver uses this status together with the version bytes to decide whether to respond or terminate.</td></tr>
+  <tr><td>3</td><td>Protocol version proposed/confirmed</td><td>3 bytes</td><td>Major.Minor.Patch (three bytes)</td><td>Example: 0x01 0x02 0x03 means v1.2.3; 0xFF 0xFF 0xFF indicates no valid version when rejected</td><td>When status is “agreed”, these bytes reflect the mutually accepted version; when “keep negotiating”, they reflect the sender’s current expectation.</td></tr>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>CSDM — Operation Definitions Mixed with Service Quality Statement (SLA) and Execution Preconditions/Results</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>English Name</th><th>Type</th><th>Required</th><th>Multiplicity</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Operation Definition</td><td>Interface Name</td><td>interfaceName</td><td>String(1..128)</td><td>Yes</td><td>1</td><td>Interface identifier used for binding.</td></tr>
+    <tr><td>Operation Name</td><td>operationName</td><td>String(1..128)</td><td>Yes</td><td>1..N</td><td>Operation exposed to callers.</td></tr>
+    <tr><td>Supports Transactionality</td><td>operationSupportTransaction</td><td>Boolean</td><td>Yes</td><td>1..N</td><td>Aligned by index with operationName.</td></tr>
+    <tr><td>Request Message Name</td><td>requestMessageName</td><td>String(1..128)</td><td>No</td><td>0..N</td><td>Name of request payload/message.</td></tr>
+    <tr><td>Response Message Name</td><td>responseMessageName</td><td>String(1..128)</td><td>No</td><td>0..N</td><td>Name of response payload/message.</td></tr>
+    <tr><td rowspan="3">Service Quality (SLA)</td><td>Quality Statement</td><td>declaration</td><td>String(1..1000)</td><td>Yes</td><td>1</td><td>Statement describing measurement environment and frequency.</td></tr>
+    <tr><td>Availability Target</td><td>availabilityTarget</td><td>Decimal(0..100)</td><td>No</td><td>0..1</td><td>Target availability percentage.</td></tr>
+    <tr><td>Latency Target (ms)</td><td>latencyTarget</td><td>Integer</td><td>No</td><td>0..1</td><td>Target p95 latency for the service.</td></tr>
+    <tr><td rowspan="2">Service Function</td><td>Preconditions</td><td>precondition</td><td>String(0..128)</td><td>No</td><td>0..N</td><td>Conditions required before invoking the service.</td></tr>
+    <tr><td>Result</td><td>result</td><td>String(0..2000)</td><td>No</td><td>0..N</td><td>Business result description after execution.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Starter/Contactor Test Matrix — Short-Circuit Breaking PLUS Operational Endurance (Mixed Requirements)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current (AC-3) A</th><th colspan="7">Short-circuit breaking performance test</th><th colspan="4">Operational switching endurance (should be separate)</th></tr>
+    <tr><th>Prospective current (kA)</th><th>U/Ue</th><th>cosφ</th><th>Energizing time (s)</th><th>Interval time (s)</th><th>Number of tests</th><th>Test sequence note</th><th>Duty ratio I/Ie</th><th>On-time (s)</th><th>Off-time (s)</th><th>Cycles</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 16</td><td>0.6</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>O–t–CO–t–CO</td><td>6</td><td>0.05</td><td>0.05</td><td>6000</td></tr>
+    <tr><td>> 16 to 63</td><td>1.5</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>O–t–CO–t–CO</td><td>6</td><td>0.05</td><td>0.05</td><td>6000</td></tr>
+    <tr><td>> 63 to 80</td><td>2.0</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>O–t–CO–t–CO</td><td>8</td><td>0.05</td><td>0.05</td><td>3000</td></tr>
+    <tr><td>> 80 to 125</td><td>2.5</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.20</td><td>180</td><td>3</td><td>O–t–CO–t–CO</td><td>10</td><td>0.05</td><td>0.05</td><td>1500</td></tr>
+    <tr><td>> 125 to 250</td><td>3.0</td><td>1.0</td><td>0.50 ± 0.05</td><td>0.20</td><td>180</td><td>3</td><td>O–t–CO–t–CO</td><td>10</td><td>0.10</td><td>0.10</td><td>1000</td></tr>
+    <tr><td>> 250 to 400</td><td>4.0</td><td>1.0</td><td>0.50 ± 0.05</td><td>0.20</td><td>180</td><td>3</td><td>O–t–CO–t–CO</td><td>12</td><td>0.10</td><td>0.10</td><td>500</td></tr>
+  </tbody>
+</table>

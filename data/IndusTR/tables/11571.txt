@@ -1,0 +1,14 @@
+<table>
+  <caption>Extended Charging Message Directory (with Embedded Signal Notes per Message)</caption>
+  <thead>
+    <tr><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Data Length (Byte)</th><th>Period (ms)</th><th>Source - Destination</th><th>Embedded Payload Notes (Signals/SPNs)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BCP</td><td>Vehicle Charging Parameter Message</td><td>1536</td><td>0x000600</td><td>7</td><td>13</td><td>500</td><td>Vehicle - Charger</td><td>SPN 2816 (Max Cell Voltage) @ Byte1..2; SPN 2817 (Max Charge Current) @ Byte3..4</td></tr>
+    <tr><td>CTS</td><td>Charger Time Synchronization Message</td><td>1792</td><td>0x000700</td><td>6</td><td>7</td><td>500</td><td>Charger - Vehicle</td><td>Timestamp fields packed in Byte1..6; leap-second flag in Byte7 bit0</td></tr>
+    <tr><td>CML</td><td>Charger Max Output Capability Message</td><td>2048</td><td>0x000800</td><td>6</td><td>8</td><td>250</td><td>Charger - Vehicle</td><td>SPN 2920 (Max Output Voltage) @ Byte1..2; SPN 2921 (Max Output Current) @ Byte3..4</td></tr>
+    <tr><td>BEM</td><td>Vehicle Error Message</td><td>7680</td><td>0x001E00</td><td>2</td><td>4</td><td>250</td><td>Vehicle - Charger</td><td>Error class in Byte1; DTC group in Byte2; detail bits Byte3..4</td></tr>
+    <tr><td>CEM</td><td>Charger Error Message</td><td>7936</td><td>0x001F00</td><td>2</td><td>4</td><td>250</td><td>Charger - Vehicle</td><td>Error class in Byte1; vendor-specific code in Byte2..4</td></tr>
+    <tr><td>CHM</td><td>Charger Handshake Message</td><td>9728</td><td>0x002600</td><td>6</td><td>3</td><td>250</td><td>Charger - Vehicle</td><td>Protocol version (SPN 2600) in Byte1..3</td></tr>
+  </tbody>
+</table>

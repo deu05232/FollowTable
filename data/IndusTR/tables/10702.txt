@@ -1,0 +1,15 @@
+<table>
+  <caption>Casting Structure Design Specification — Shrinkage vs. Other Defects (Mixed Guidance)</caption>
+  <thead>
+    <tr><th>Geometry Feature</th><th>Shrinkage-Related Guidance</th><th>Other Themes Included (Forbidden Mix)</th><th>Typical Note / Rationale</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Thick-to-thin transition</td><td>Use gradual taper to avoid hot spots and shrinkage cavities</td><td>Crack avoidance</td><td>Large thermal gradients can also increase cracking risk; add fillets and smoother transitions</td></tr>
+    <tr><td>Rib-to-wall intersection</td><td>Keep rib thickness ≤ 0.6–0.8× wall to reduce shrinkage void risk</td><td>Machining allowance planning</td><td>Extra stock may be required if the rib is later machined flat</td></tr>
+    <tr><td>Boss around drilled hole</td><td>Avoid isolated thick boss; connect with pads to reduce sink/void</td><td>Core-box cost / core complexity</td><td>Complex cored bosses increase tooling cost and lead time</td></tr>
+    <tr><td>Multiple ribs meeting</td><td>Limit local mass concentration to avoid hot spots</td><td>Venting / sand discharge holes</td><td>Provide vent paths to prevent gas defects in deep pockets</td></tr>
+    <tr><td>Mating/assembly face near thick section</td><td>Move thick section away from sealing face to reduce shrinkage distortion</td><td>Assembly flatness / GD&T notes</td><td>Flatness control may require additional machining or fixturing</td></tr>
+    <tr><td>Internal cavity with core</td><td>Reduce thick core prints that create hot spots</td><td>Core setting, handling, and cleaning notes</td><td>Core shift control and cleanup access dominate process planning</td></tr>
+    <tr><td>Sharp corner at junction</td><td>Add fillet to spread heat and reduce hot spot severity</td><td>Stress concentration / fatigue note</td><td>Fillets also reduce stress risers in service</td></tr>
+  </tbody>
+</table>

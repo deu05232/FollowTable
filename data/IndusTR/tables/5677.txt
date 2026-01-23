@@ -1,0 +1,14 @@
+<table>
+  <caption>AR SDK Constants Cheat Sheet (Grouped by Enum Type, Multiple Options per Row)</caption>
+  <thead>
+    <tr><th>Enum Type</th><th>Options (name=value)</th><th>When You See It</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ARTrackingState</td><td>AR_TRACKING_STATE_TRACKING=0; AR_TRACKING_STATE_PAUSED=1; AR_TRACKING_STATE_STOPPED=2</td><td>Frame update / session status</td></tr>
+    <tr><td>ARTrackingFailureReason</td><td>AR_TRACKING_FAILURE_REASON_NONE=0; AR_TRACKING_FAILURE_REASON_BAD_STATE=1; AR_TRACKING_FAILURE_REASON_INSUFFICIENT_LIGHT=2; AR_TRACKING_FAILURE_REASON_EXCESSIVE_MOTION=3</td><td>Tracking lost diagnostics</td></tr>
+    <tr><td>ARLightEstimationMode</td><td>AR_LIGHT_ESTIMATION_MODE_DISABLED=0; AR_LIGHT_ESTIMATION_MODE_AMBIENT_INTENSITY=1; AR_LIGHT_ESTIMATION_MODE_ENVIRONMENTAL_HDR=2</td><td>Lighting pipeline selection</td></tr>
+    <tr><td>ARCoordinates2DType</td><td>AR_COORDINATES_2D_TEXTURE_TEXELS=0; AR_COORDINATES_2D_TEXTURE_NORMALIZED=1; AR_COORDINATES_2D_IMAGE_PIXELS=2</td><td>Texture/Image coordinate conversion</td></tr>
+    <tr><td>ARAugmentedFaceMode</td><td>AR_AUGMENTED_FACE_MODE_DISABLED=0; AR_AUGMENTED_FACE_MODE_MESH3D=2; AR_AUGMENTED_FACE_MODE_MESH2D=3</td><td>Face mesh feature toggles</td></tr>
+    <tr><td>ARAugmentedImageTrackingMethod</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_NOT_TRACKING=0; AR_AUGMENTED_IMAGE_TRACKING_METHOD_FULL_TRACKING=1; AR_AUGMENTED_IMAGE_TRACKING_METHOD_LAST_KNOWN_POSE=2</td><td>Image target tracking behavior</td></tr>
+  </tbody>
+</table>

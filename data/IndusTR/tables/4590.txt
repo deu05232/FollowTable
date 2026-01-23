@@ -1,0 +1,13 @@
+<table>
+  <caption>List of Functional Modules in the Charging Communication Process</caption>
+  <tr><td>Functional module name</td><td>Function code (FC)</td><td>Description</td><td>Functional module type"</td><td>Whether reloadable</td></tr>
+  <tr><td>Function negotiation</td><td>0x10</td><td>Interaction and confirmation of related functions implemented in this charging session</td><td>Required</td><td>Fragrant</td></tr>
+  <tr><td>Parameter configuration</td><td>0x20</td><td>Interaction of basic charging/discharging parameters</td><td>Required</td><td>Yes</td></tr>
+  <tr><td>Authentication</td><td>0x30</td><td>Interaction and confirmation of vehicle and/or charger identity</td><td>Optional</td><td>Yes</td></tr>
+  <tr><td>Reservation</td><td>0x40</td><td>Interaction and confirmation of the time point to start the output circuit test functional module</td><td>Optional</td><td>Yes</td></tr>
+  <tr><td>Output circuit test</td><td>0x50</td><td>Implements charger insulation test (including discharge), short-circuit test, adhesion test, etc.</td><td>Required</td><td>Yes</td></tr>
+  <tr><td>Power supply mode</td><td>0x60</td><td>Before charging, upon vehicle request, the charger provides a specified power supply method, mostly used for functions such as heating the traction battery (i.e., rechargeable energy storage system)</td><td>Optional</td><td>Yes</td></tr>
+  <tr><td>Pre-charge and energy transfer</td><td>0x70</td><td>Includes two processes: pre-charge and energy transfer. Pre-charge is the relevant operations performed by the charger before energy transfer to avoid electric energy impact on in-vehicle components such as the traction battery. Energy transfer includes the entire process from start to end of charging and/or discharging</td><td>Required</td><td>Yes</td></tr>
+  <tr><td>End</td><td>0x80</td><td>Related operations performed after completing energy transfer, such as vehicle contactor adhesion detection, charging process statistics, and interaction of related information</td><td>Required</td><td>Yes</td></tr>
+  <tr><td colspan="5">”Information on required and optional functional modules should be exchanged during the function negotiation stage of the charging process. An optional functional module may become required in specific application scenarios. For example, authentication is required for chargers used in unrestricted locations; the vehicle should choose to perform the authentication module in this charging process, otherwise charging will fail. SAC</td></tr>
+</table>

@@ -1,0 +1,19 @@
+<table>
+  <caption>Activity Data and Conversion Chain for Baseline Credits and Project Emissions (MSW Incineration)</caption>
+  <thead>
+    <tr><th rowspan="2">Accounting block</th><th rowspan="2">Item</th><th rowspan="2">Activity data (examples)</th><th rowspan="2">Conversion / factor applied</th><th rowspan="2">Intermediate quantity</th><th rowspan="2">Resulting term</th><th rowspan="2">Side</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Baseline: waste disposal replaced</td><td>Diverted MSW quantity</td><td>Mass of MSW sent to incinerator (net of rejects)</td><td>Allocation to landfill baseline model boundary</td><td>Waste disposed in baseline scenario</td><td>Input to BE_MSW</td><td>Baseline</td></tr>
+    <tr><td>Landfill methane generation</td><td>Baseline waste disposed (from row above)</td><td>Approved landfill methane model (e.g., decay model) + oxidation/capture assumptions</td><td>CH4_baseline</td><td>CH4 to CO2e</td><td>Baseline</td></tr>
+    <tr><td>Landfill emissions credit</td><td>CH4_baseline</td><td>CH4 × GWP</td><td>BE_MSW</td><td>BE_MSW</td><td>Baseline</td></tr>
+    <tr><td rowspan="2">Baseline: displaced electricity</td><td>Net electricity exported</td><td>Electricity generated − on-site use − parasitic loads</td><td>Apply grid emission factor (EF_grid)</td><td>tCO2e from displacement</td><td>BE_EG = Export_MWh × EF_grid</td><td>Baseline</td></tr>
+    <tr><td>Eligibility checks (net export)</td><td>Metering period, export boundary, loss factors (if required)</td><td>Rules for what counts as displaced generation</td><td>Eligible export</td><td>Adjustment to BE_EG</td><td>Baseline</td></tr>
+    <tr><td rowspan="2">Baseline: displaced heat</td><td>Useful heat exported</td><td>Steam/hot water delivered to off-taker (metered)</td><td>Apply heat baseline EF (EF_heat)</td><td>tCO2e from displacement</td><td>BE_HG = Export_GJ × EF_heat</td><td>Baseline</td></tr>
+    <tr><td>Heat delivery constraint</td><td>Contracted heat, seasonal availability, metering location</td><td>Rules for useful heat</td><td>Eligible heat</td><td>Adjustment to BE_HG</td><td>Baseline</td></tr>
+    <tr><td rowspan="3">Project: indirect and direct emissions</td><td>Imported electricity</td><td>MWh purchased for operation</td><td>EF_grid (or supplier-specific EF)</td><td>tCO2e</td><td>PE_EC</td><td>Project</td></tr>
+    <tr><td>Start-up/support fossil fuels</td><td>Fuel quantities by type</td><td>Fuel EF (CO2 + CH4 + N2O as applicable)</td><td>tCO2e</td><td>PE_FC</td><td>Project</td></tr>
+    <tr><td>Stack emissions and other sources</td><td>Measured/estimated CO2, CH4, N2O; wastewater if in scope</td><td>GWP conversion; monitoring rules</td><td>tCO2e</td><td>PE_COM,CO2; PE_COM,CH4N2O; PE_WW</td><td>Project</td></tr>
+    <tr><td>Aggregation</td><td>Totals and subtraction</td><td>BE_MSW, BE_EG, BE_HG, PE terms</td><td>BE = ΣBaseline terms; PE = ΣProject terms; ER = BE − PE</td><td>—</td><td>ER</td><td>Both</td></tr>
+  </tbody>
+</table>

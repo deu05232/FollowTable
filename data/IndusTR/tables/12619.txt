@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Link Layer Version Negotiation State Flow (Workflow + Timeouts)</caption>
+  <thead>
+    <tr><th>Step</th><th>Actor</th><th>Outgoing Message</th><th>Expected Response</th><th>Success Condition</th><th>Timeout / Retry</th><th>Next Stage</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Vehicle</td><td>VER_NEG_REQ</td><td>VER_NEG_RSP</td><td>Response received</td><td>Retry every 500 ms, max 20 tries</td><td>Stay in negotiation</td><td>Initiates using highest supported version</td></tr>
+    <tr><td>2</td><td>Charger</td><td>VER_NEG_RSP (continue)</td><td>VER_NEG_REQ</td><td>Vehicle updates expected version</td><td>If no request within 10 s, abort</td><td>Stay in negotiation</td><td>Continue implies version mismatch</td></tr>
+    <tr><td>3</td><td>Vehicle</td><td>VER_NEG_REQ (adjusted)</td><td>VER_NEG_RSP</td><td>Charger accepts proposed version</td><td>Retry every 500 ms</td><td>Stay in negotiation</td><td>Monotonic downgrade recommended</td></tr>
+    <tr><td>4</td><td>Charger</td><td>VER_NEG_RSP (success)</td><td>VER_NEG_ACK</td><td>ACK received</td><td>If ACK missing for 3 s, resend success</td><td>Function negotiation (if version ≥ 2.0.0)</td><td>Success ends version selection</td></tr>
+    <tr><td>5</td><td>Vehicle</td><td>VER_NEG_ACK</td><td>Next-stage message</td><td>Next-stage message arrives</td><td>If none within 10 s, enter fallback procedure</td><td>Appendix fallback procedure</td><td>Vehicle may keep sending success periodically</td></tr>
+    <tr><td>6</td><td>Either</td><td>VER_NEG_RSP (failed)</td><td>N/A</td><td>Failure declared</td><td>Immediate stop</td><td>Appendix fallback procedure</td><td>Used when below minimum supported version</td></tr>
+  </tbody>
+</table>

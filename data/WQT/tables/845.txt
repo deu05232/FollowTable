@@ -1,0 +1,8 @@
+# Mathematical markup language
+> Notations for human input
+
+| TeX | eqn | ad hoc ASCII | ad hoc Unicode | formula |
+| --- | --- | --- | --- | --- |
+| $ a^ 2 $ | a sup 2 | a^2 | a² | a 2 {\displaystyle a^{2}} |
+| $ \sum _{k = 1 }^N k^ 2 $ | sum from { k = 1 } to N { k sup 2 } | sum_{k=1}^N k^2 | Σ_{k=1}^N k² | ∑ k = 1 N k 2 {\displaystyle \sum _{k=1}^{N}k^{2}} |
+| $ \neg ( a > 2 ) \Rightarrow a \le 2 $ | neg (a > 2) drarrow a <= 2 | !(a > 2) => a <= 2 | ¬(a > 2) ⇒ a ≤ 2 | ¬ ( a > 2 ) ⇒ a ≤ 2 {\displaystyle \neg (a>2)\Rightarrow a\leq 2} |

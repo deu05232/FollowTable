@@ -1,0 +1,11 @@
+<table>
+  <caption>Electric Compressor Application Segmentation Matrix (Vehicle & Usage Labels)</caption>
+  <tr><th>Vehicle segment</th><th>Platform type</th><th>Cabin HVAC layout</th><th>Duty cycle label</th><th>Installation location</th><th>Refrigerant family</th></tr>
+  <tr><td>Passenger car</td><td>BEV</td><td>Front HVAC</td><td>Urban commute</td><td>Engine bay</td><td>R134a</td></tr>
+  <tr><td>Passenger car</td><td>PHEV</td><td>Front + rear HVAC</td><td>Mixed</td><td>Underbody</td><td>R1234yf</td></tr>
+  <tr><td>Light commercial</td><td>BEV</td><td>Front HVAC</td><td>Delivery stop-and-go</td><td>Underbody</td><td>R1234yf</td></tr>
+  <tr><td>Bus</td><td>BEV</td><td>Roof-mounted HVAC</td><td>High continuous</td><td>Roof</td><td>R134a</td></tr>
+  <tr><td>Truck</td><td>Fuel cell</td><td>Front HVAC</td><td>Long haul</td><td>Frame rail</td><td>CO2 (R744)</td></tr>
+  <tr><td>Off-highway</td><td>Diesel hybrid</td><td>Cab HVAC</td><td>Dusty / harsh</td><td>Engine bay</td><td>R134a</td></tr>
+  <tr><td>Rail</td><td>Electric</td><td>Car HVAC</td><td>High vibration</td><td>Equipment cabinet</td><td>R134a</td></tr>
+</table>

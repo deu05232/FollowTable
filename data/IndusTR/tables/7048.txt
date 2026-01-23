@@ -1,0 +1,14 @@
+<table>
+  <caption>Galileo Phase-Bias Satellite Sub-block (Satellite-level Parameters, Not Per-Signal)</caption>
+  <thead>
+    <tr><th>Block Level</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Satellite</td><td>Galileo Satellite Number</td><td>DF252</td><td>uint6</td><td>6</td><td>SV identifier</td></tr>
+    <tr><td>Satellite</td><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td><td>Number of following entries (not shown here)</td></tr>
+    <tr><td>Satellite</td><td>Yaw Angle</td><td>DF480</td><td>uint9</td><td>9</td><td>Attitude-related parameter</td></tr>
+    <tr><td>Satellite</td><td>Yaw Rate</td><td>DF481</td><td>int8</td><td>8</td><td>Rate of change of yaw</td></tr>
+    <tr><td>Satellite</td><td>Reference Datum Indicator</td><td>DF482</td><td>uint1</td><td>1</td><td>Indicates reference convention</td></tr>
+    <tr><td>Satellite</td><td>Satellite Health/Validity</td><td>DF489</td><td>uint2</td><td>2</td><td>Applies to the whole SV block</td></tr>
+  </tbody>
+</table>

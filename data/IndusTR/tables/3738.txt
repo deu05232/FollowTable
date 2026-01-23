@@ -1,0 +1,7 @@
+<table>
+  <caption>Cholesky Matrix Decomposition Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Indicates whether the values of the input tensor mat are valid in the upper triangular part or the lower triangular part. When it is ‘U', it indicates that the upper triangular values stored in the input tensor mat are valid, and the upper triangular matrix U is output, i.e., mat=UH*U; when it is ‘L', it indicates that the lower triangular part stored in the input tensor mat is valid, and the lower triangular matrix L is output, i.e., mat=L*LH</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Describes a symmetric positive definite matrix. If the dimension is higher than 2D, then the inner-most two dimensions are used for the decomposition operation, and the other higher dimensions are used to describe batch computation</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>On output, based on the value of upper, the inner-most values correspond to an upper triangular or lower triangular matrix, and its dimensions remain consistent with the input matrix dimensions</td></tr>
+</table>

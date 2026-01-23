@@ -1,0 +1,11 @@
+<table>
+  <caption>ENCRYPTDATA Command Response Status Codes</caption>
+  <tr><td>SW1</td><td>SW2</td><td>Meaning</td></tr>
+  <tr><td>90</td><td>00</td><td>Success</td></tr>
+  <tr><td>6A</td><td>86</td><td>P1 and P2 Error</td></tr>
+  <tr><td>67</td><td>00</td><td>Lc Error</td></tr>
+  <tr><td>6A</td><td>80</td><td>Data Field Format Error</td></tr>
+  <tr><td>6A</td><td>82</td><td>File Not Found</td></tr>
+  <tr><td>69</td><td>85</td><td>Conditions of Use Not Satisfied</td></tr>
+  <tr><td>94</td><td>03</td><td>User ID Not Found or Key Corresponding to User ID Not Found</td></tr>
+</table>

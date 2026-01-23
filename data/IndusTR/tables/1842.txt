@@ -1,0 +1,11 @@
+<table>
+  <caption>Video Image Target Feature Vector Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Manufacturer Name</td><td>csmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>2</td><td>Algorithm Version</td><td>sfbb</td><td>c..20</td><td></td><td></td></tr>
+  <tr><td>3</td><td>Algorithm Type</td><td>sflx</td><td>c2</td><td>Should comply with D.20</td><td></td></tr>
+  <tr><td>4</td><td>Repository Identifier</td><td>kbs</td><td>c41</td><td>Repository identifier of the repository into which the feature vector is loaded or the repository it belongs to; should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>5</td><td>Object Identifier</td><td>dxbs</td><td>c48</td><td>Identifier of the object contained in the image; should comply with the coding rules specified in C.3</td><td></td></tr>
+  <tr><td>6</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Identifier of the image corresponding to the feature vector data; should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>7</td><td>Feature Vector Data</td><td>tzxlsj</td><td>bn</td><td></td><td></td></tr>
+</table>

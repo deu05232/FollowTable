@@ -1,0 +1,9 @@
+<table>
+  <caption>SOF Component Interface: Reset login PIN (password-centric account flow)</caption>
+  <tr><td>Prototype</td><td>function SOF_ResetPin(CertID, OldPin, NewPin, cb, ctx)</td></tr>
+  <tr><td>Description</td><td>Reset the PIN/password associated with a certificate container after successful authentication</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>OldPin (current PIN/password)</td></tr>
+  <tr><td>NewPin (new PIN/password to set)</td></tr>
+  <tr><td>Return Value</td><td>Status code (success/failure)</td></tr>
+</table>

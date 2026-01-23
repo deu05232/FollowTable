@@ -1,0 +1,15 @@
+<table>
+  <caption>Resolution, Noise, and Drift Statistics by Accuracy Class for DC Verification Device Outputs</caption>
+  <thead>
+    <tr><th rowspan="2">Accuracy class</th><th colspan="3">Voltage output characterization</th><th colspan="3">Current output characterization</th></tr>
+    <tr><th>Resolution (mV)</th><th>Noise (RMS mV)</th><th>24 h drift (% of range)</th><th>Resolution (mA)</th><th>Noise (RMS mA)</th><th>24 h drift (% of range)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Class 0.01</td><td>0.1</td><td>0.3</td><td>0.002</td><td>0.01</td><td>0.02</td><td>0.003</td></tr>
+    <tr><td>Class 0.02</td><td>0.2</td><td>0.5</td><td>0.004</td><td>0.02</td><td>0.04</td><td>0.005</td></tr>
+    <tr><td>Class 0.05</td><td>0.5</td><td>1.2</td><td>0.010</td><td>0.05</td><td>0.10</td><td>0.012</td></tr>
+    <tr><td>Class 0.1</td><td>1.0</td><td>2.5</td><td>0.020</td><td>0.10</td><td>0.25</td><td>0.025</td></tr>
+    <tr><td>Class 0.2</td><td>2.0</td><td>5.0</td><td>0.040</td><td>0.20</td><td>0.50</td><td>0.050</td></tr>
+    <tr><td>Class 0.2 (high range mode)</td><td>5.0</td><td>8.0</td><td>0.060</td><td>0.50</td><td>1.00</td><td>0.070</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Common Service Description Model — Section Overview with Narrative Constraints (Mixed, No Per-Field Requirement Column)</caption>
+  <thead>
+    <tr><th>Section</th><th>Purpose</th><th>Typical Fields (examples)</th><th>Notes / Constraints (narrative)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BasicInformation</td><td>High-level identification and classification of a service.</td><td>serviceName; serviceCategory; keywords; version</td><td>Basic information SHOULD be present for registry publication; completeness rules depend on the registry profile.</td></tr>
+    <tr><td>ServiceFunction</td><td>Describe what the service does and how it is used.</td><td>functionDescription; preconditions; result</td><td>At minimum include a functional description; additional details recommended for discoverability.</td></tr>
+    <tr><td>ServiceProvider</td><td>Identify the organization responsible for providing the service.</td><td>providerName; providerIdentifier; contactPerson</td><td>Provider identity is expected; contact details may be omitted if handled by a helpdesk.</td></tr>
+    <tr><td>ServiceInterface</td><td>Expose interfaces and operations used to invoke the service.</td><td>interfaceName; operationName; operationSupportTransaction</td><td>Interfaces are required when the service is machine-invocable; transaction support applies per operation.</td></tr>
+    <tr><td>ServiceQuality</td><td>Define quality statements and measurement context.</td><td>declaration; metric; measurementMethod</td><td>Quality declaration is required when advertising QoS claims; otherwise optional.</td></tr>
+    <tr><td>Restrictions</td><td>Describe constraints for eligible consumers.</td><td>restrictionOnConsumer; accessPolicy; quota</td><td>Use this section when the service is not publicly available.</td></tr>
+  </tbody>
+</table>

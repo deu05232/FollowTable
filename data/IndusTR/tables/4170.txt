@@ -1,0 +1,11 @@
+<table>
+  <caption>Engine mixed load test cycle specification</caption>
+  <tr><td>Cycle No.</td><td>Engine speed</td><td>Load/%</td><td>Cycle time/min</td><td>Notes</td></tr>
+  <tr><td>1</td><td>Idle ni</td><td>0</td><td>5</td><td></td></tr>
+  <tr><td>2</td><td>Minimum full-load speed n min</td><td>100</td><td>10</td><td></td></tr>
+  <tr><td>3</td><td>Speed of maximum net torque n</td><td>100</td><td>10</td><td>For turbocharged engines, use the mid-speed within the speed range of maximum net torque</td></tr>
+  <tr><td>4</td><td>Speed at maximum peak firing pressure n Pmax</td><td>100</td><td>10</td><td>Speed when the in-cylinder firing pressure is at its maximum</td></tr>
+  <tr><td>5</td><td>Rated speed n,</td><td>100</td><td>10</td><td></td></tr>
+  <tr><td>6</td><td>Highest continuous speed ncon</td><td>100</td><td>10</td><td></td></tr>
+  <tr><td>7</td><td>Maximum no-load speed nimax</td><td>0</td><td>5</td><td></td></tr>
+</table>

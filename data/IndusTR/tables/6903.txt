@@ -1,0 +1,7 @@
+<table>
+  <caption>Charging communication CAN message list (additional set)</caption>
+  <tr><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Data Length (BYTE)</th><th>Message Period (ms)</th><th>Source Address - Destination Address</th></tr>
+  <tr><td>BRM</td><td>Battery Ready Message</td><td>4864</td><td>001300H</td><td>6</td><td>3</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>BRO</td><td>Battery Relay Output Status Message</td><td>5120</td><td>001400H</td><td>6</td><td>6</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CHS</td><td>Charger Hardware Status Message</td><td>5376</td><td>001500H</td><td>6</td><td>8</td><td>250</td><td>Charger - Vehicle</td></tr>
+</table>

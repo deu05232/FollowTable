@@ -1,0 +1,15 @@
+<table>
+  <caption>Worked Examples of Third-Party Organization Sub-Range Allocation Under the Construction-Machinery OID Node</caption>
+  <thead>
+    <tr><th>Root OID Node</th><th>Third-Party Organization Segment</th><th>Recipient Category</th><th>Example Recipient Type</th><th>Sub-allocation Scope Managed by Recipient</th><th>Governance / Constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">1.2.156.3514</td><td>2001</td><td>Third-party organization</td><td>Certification body</td><td>2001.1–2001.99 (service programs)</td><td>Must publish subnode registry; no overlap with other org segments</td></tr>
+    <tr><td>2002</td><td>Third-party organization</td><td>Conformity assessment lab</td><td>2002.1–2002.500 (test report identifiers)</td><td>Subnodes allocated sequentially; keep issuance log for audits</td></tr>
+    <tr><td>2015</td><td>Third-party organization</td><td>Industry data platform operator</td><td>2015.1–2015.20 (platform namespaces)</td><td>Sub-branches must be stable for backward resolution</td></tr>
+    <tr><td>2080</td><td>Third-party organization</td><td>Maintenance service network</td><td>2080.1–2080.999 (service network partitions)</td><td>Sub-allocation must reflect service-network structure; changes require versioning</td></tr>
+    <tr><td>2500–2599</td><td>Third-party organization (range)</td><td>Regional public service platforms</td><td>Each platform gets one node within the range</td><td>Range reserved for provinces/regions; one node per platform</td></tr>
+    <tr><td>3000–3999</td><td>Third-party organization (range)</td><td>Cross-industry integrators</td><td>System integrators for IoT/asset management</td><td>Recipients may create subtrees for partner systems</td><td>Allocation by application review; must document interoperability purpose</td></tr>
+    <tr><td>9000–9999</td><td>Third-party organization (range)</td><td>Experimental / pilot programs</td><td>Pilot consortiums</td><td>Short-lived subtrees for pilots</td><td>Time-bounded allocation; reclamation policy applies after pilot ends</td></tr>
+  </tbody>
+</table>

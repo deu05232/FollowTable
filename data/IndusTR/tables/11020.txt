@@ -1,0 +1,15 @@
+<table>
+  <caption>Charger Termination Message CTM-0xA4: Byte-by-Byte Parameter Breakdown (No SPN Index)</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Start Byte</th><th>Length</th><th>Parameter Content</th><th>Data Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1</td><td>1 byte</td><td>Parameter Group Identifier</td><td>BYTE</td><td>Fixed value: 0xA4</td></tr>
+    <tr><td>2</td><td>2</td><td>1 byte</td><td>Termination Reason Code</td><td>BYTE</td><td>Enumeration: normal / user stop / fault / timeout</td></tr>
+    <tr><td>3</td><td>3</td><td>2 bytes</td><td>Termination Fault Code</td><td>UINT16</td><td>Vendor-defined fault category and subcode</td></tr>
+    <tr><td>4</td><td>5</td><td>1 byte</td><td>Termination Error Code</td><td>BYTE</td><td>Detailed error reason</td></tr>
+    <tr><td>5</td><td>6</td><td>2 bytes</td><td>Energy Delivered</td><td>UINT16</td><td>Unit: 0.1 kWh</td></tr>
+    <tr><td>6</td><td>8</td><td>2 bytes</td><td>Elapsed Charging Time</td><td>UINT16</td><td>Unit: seconds</td></tr>
+    <tr><td>7</td><td>10</td><td>1 byte</td><td>Reserved</td><td>BYTE</td><td>Set to 0x00</td></tr>
+  </tbody>
+</table>

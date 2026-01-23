@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Release Packaging Manifest for a Biometric Dataset (Files and Checksums)</caption>
+  <thead>
+    <tr><th>Package</th><th>File Name</th><th>Content Type</th><th>Size (GB)</th><th>Checksum (SHA-256, truncated)</th><th>Encryption</th><th>Access Tier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Part-01</td><td>images_face_train.zip</td><td>ZIP archive</td><td>38.4</td><td>8f3a2c1d9b71e0a2</td><td>AES-256</td><td>Research</td></tr>
+    <tr><td>Part-02</td><td>images_fingerprint_eval.zip</td><td>ZIP archive</td><td>12.7</td><td>1c9d44a0f3b2c8ef</td><td>AES-256</td><td>Restricted</td></tr>
+    <tr><td>Part-03</td><td>labels_protocols.json</td><td>JSON</td><td>0.3</td><td>4a2b0c9e12fd7a66</td><td>AES-256</td><td>Research</td></tr>
+    <tr><td>Part-04</td><td>docs_license.pdf</td><td>PDF</td><td>0.01</td><td>c2e11d0a8a9b3314</td><td>None</td><td>Public</td></tr>
+    <tr><td>Part-05</td><td>scripts_baseline.zip</td><td>ZIP archive</td><td>0.8</td><td>0b77c1a3a6d4f2aa</td><td>None</td><td>Research</td></tr>
+    <tr><td>Part-06</td><td>readme_citation.txt</td><td>Text</td><td>0.00</td><td>9d3f0a1c2b4e6d88</td><td>None</td><td>Public</td></tr>
+  </tbody>
+</table>

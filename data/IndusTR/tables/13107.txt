@@ -1,0 +1,15 @@
+<table>
+  <caption>Construction Machinery OID: Multi-Component Identifier Composition (Company Code + Product No.)</caption>
+  <thead>
+    <tr><th>Layer</th><th>Field</th><th>Example Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">OID Composition</td><td>OID Prefix</td><td>1.2.156.3514</td><td>Construction machinery field node</td></tr>
+    <tr><td>Enterprise Identifier (USCC)</td><td>913203016770124928</td><td>Enterprise node derived from unified social credit code</td></tr>
+    <tr><td>Plant / Site Code</td><td>03</td><td>Internal location code used by the enterprise</td></tr>
+    <tr><td>Product Category</td><td>EXC</td><td>Excavator category code</td></tr>
+    <tr><td>Model Number</td><td>ZX-210</td><td>Model as assigned by manufacturer</td></tr>
+    <tr><td>Serial / Batch</td><td>201600000001</td><td>Production serial example</td></tr>
+    <tr><td>Full Identifier Example</td><td>1.2.156.3514.913203016770124928.03.EXC.ZX-210.201600000001</td><td>Concatenated multi-component identifier</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+# IEEE 802.11 Channelization Cheat Sheet (Channel Numbers Without Frequencies)
+
+| Band | Example channels | DFS required | Common channel widths | Regulatory notes |
+| --- | --- | --- | --- | --- |
+| 2.4 GHz | 1, 6, 11 | No | 20/40 | Overlapping channels common |
+| 5 GHz (U‑NII-1) | 36, 40, 44, 48 | No | 20/40/80 | Indoor in many countries |
+| 5 GHz (U‑NII-2A) | 52, 56, 60, 64 | Often | 20/40/80 | Radar avoidance |
+| 5 GHz (U‑NII-2C) | 100–144 | Often | 20/40/80/160 | Wider availability |
+| 5 GHz (U‑NII-3) | 149, 153, 157, 161, 165 | No | 20/40/80 | Higher EIRP limits in some regions |
+| 6 GHz (UNII) | 1–233 (region-dependent) | Sometimes | 20/40/80/160/320 | AFC/LP rules vary |
+| 60 GHz | 1–6 | No | 2160 | Very high attenuation |

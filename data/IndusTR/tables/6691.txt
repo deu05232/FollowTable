@@ -1,0 +1,16 @@
+<table>
+  <caption>Battery Pack Safety Test Execution Notes (Mechanical & Environmental)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Item</th><th colspan="2">Documentation / Narrative Fields</th><th colspan="2">Recording & Admin Fields</th></tr>
+    <tr><th>Procedure Wording</th><th>Waveform / Profile Description</th><th>Operator Notes</th><th>Acceptance Statement Template</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mechanical shock</td><td>Secure DUT on fixture; apply shock sequentially per axis</td><td>Half-sine pulse; “smooth rise and decay”</td><td>Note any audible noise; photo before/after</td><td>No leakage, no fire, no explosion; record anomalies</td></tr>
+    <tr><td>Random vibration</td><td>Run vibration continuously; pause if alarms occur</td><td>Broadband random; “flat PSD then roll-off”</td><td>Log stoppages and restarts with timestamps</td><td>Functional check after test; document deviations</td></tr>
+    <tr><td>Thermal cycling</td><td>Place pack in chamber; allow stabilization at each step</td><td>Step-and-soak temperature profile; “ramp then dwell”</td><td>Record chamber setpoint vs. measured probe</td><td>No deformation; insulation resistance not degraded</td></tr>
+    <tr><td>High humidity storage</td><td>Keep vents unobstructed; avoid condensation on connectors</td><td>Constant humidity exposure; “no dripping water”</td><td>Document door-open events</td><td>No corrosion affecting safety function</td></tr>
+    <tr><td>Mechanical crush</td><td>Align platen; apply load until stop criterion met</td><td>Quasi-static compression; “steady rate”</td><td>Capture video; note cracking sounds</td><td>No thermal runaway; terminate on hazard</td></tr>
+    <tr><td>Drop / impact</td><td>Orient pack per drawing; drop onto rigid surface</td><td>Free-fall impact; “single hit per face”</td><td>Inspect enclosure; record dent locations</td><td>No electrolyte leakage; no smoke</td></tr>
+    <tr><td>Ingress protection check</td><td>Seal unused ports; verify gaskets installed</td><td>Water exposure sequence described in text</td><td>Note water traces; dry time recorded</td><td>No water ingress to HV compartment</td></tr>
+  </tbody>
+</table>

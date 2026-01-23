@@ -1,0 +1,37 @@
+<table>
+  <caption>Caption String Syntax Including Display Window and Color Control</caption>
+  <thead>
+    <tr><th>Syntax structure</th><th>Field</th><th>Descriptor / bits</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="10">caption_string()</td><td>string_tag</td><td>u(8)</td></tr>
+    <tr><td>iso_639_language_code</td><td>u(24)</td></tr>
+    <tr><td>string_length</td><td>u(16)</td></tr>
+    <tr><td>while(more_data) caption_char()</td><td>loop</td></tr>
+    <tr><td>display_description()</td><td>var</td></tr>
+    <tr><td>color_description()</td><td>var</td></tr>
+    <tr><td>window_id</td><td>u(4)</td></tr>
+    <tr><td>row_count</td><td>u(6)</td></tr>
+    <tr><td>column_count</td><td>u(7)</td></tr>
+    <tr><td>wrap_flag</td><td>u(1)</td></tr>
+    <tr><td rowspan="6">caption_char()</td><td>char_set</td><td>u(3)</td></tr>
+    <tr><td>char_code</td><td>u(8)</td></tr>
+    <tr><td>repeat_count</td><td>u(5)</td></tr>
+    <tr><td>newline_flag</td><td>u(1)</td></tr>
+    <tr><td>spacing</td><td>u(2)</td></tr>
+    <tr><td>reserved</td><td>u(5)</td></tr>
+    <tr><td rowspan="7">display_description()</td><td>display_direction</td><td>u(2)</td></tr>
+    <tr><td>horizontal_justification</td><td>u(2)</td></tr>
+    <tr><td>vertical_justification</td><td>u(2)</td></tr>
+    <tr><td>window_anchor_x</td><td>u(12)</td></tr>
+    <tr><td>window_anchor_y</td><td>u(12)</td></tr>
+    <tr><td>line_spacing</td><td>u(4)</td></tr>
+    <tr><td>scroll_mode</td><td>u(2)</td></tr>
+    <tr><td rowspan="6">color_description()</td><td>foreground_color_red</td><td>u(8)</td></tr>
+    <tr><td>foreground_color_green</td><td>u(8)</td></tr>
+    <tr><td>foreground_color_blue</td><td>u(8)</td></tr>
+    <tr><td>background_color_red</td><td>u(8)</td></tr>
+    <tr><td>background_color_green</td><td>u(8)</td></tr>
+    <tr><td>background_color_blue</td><td>u(8)</td></tr>
+  </tbody>
+</table>

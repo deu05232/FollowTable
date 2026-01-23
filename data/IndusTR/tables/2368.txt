@@ -1,0 +1,14 @@
+<table>
+  <caption>Charger Manufacturing Test Station Calibration Log (CAN Test Bench)</caption>
+  <thead>
+    <tr><th>Station ID</th><th>Instrument</th><th>Model</th><th>Calibration Date</th><th>Due Date</th><th>Measured Parameter</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-01</td><td>CAN Analyzer</td><td>PCAN-USB Pro</td><td>2025-03-02</td><td>2026-03-02</td><td>Timestamp drift</td><td>< 50 ppm</td></tr>
+    <tr><td>TS-01</td><td>Oscilloscope</td><td>MSO54</td><td>2025-02-10</td><td>2026-02-10</td><td>Rise/Fall time accuracy</td><td>±2%</td></tr>
+    <tr><td>TS-02</td><td>DC Power Supply</td><td>PSU-1200</td><td>2025-01-18</td><td>2026-01-18</td><td>Voltage setpoint error</td><td>±0.5%</td></tr>
+    <tr><td>TS-02</td><td>Electronic Load</td><td>EL-800</td><td>2025-01-18</td><td>2026-01-18</td><td>Current regulation error</td><td>±1%</td></tr>
+    <tr><td>TS-03</td><td>Temperature Chamber</td><td>THC-200</td><td>2024-12-05</td><td>2025-12-05</td><td>Temperature uniformity</td><td>±1.0°C</td></tr>
+    <tr><td>TS-03</td><td>Insulation Tester</td><td>MIT1025</td><td>2025-04-09</td><td>2026-04-09</td><td>Resistance accuracy</td><td>±3%</td></tr>
+  </tbody>
+</table>

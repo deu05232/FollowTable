@@ -1,0 +1,17 @@
+<table>
+  <caption>Outbound Tracking Data Exchange Matrix — Interfaces, Payload, and Delivery Status</caption>
+  <thead>
+    <tr><th>Interface Group</th><th>Exchange Pattern</th><th>Requester / Subscriber</th><th>Request (What is asked)</th><th>Data Center Outbound Response / Notification</th><th>Status & Error Handling</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Shipment Status APIs</td><td>Request/Response</td><td>Importer / Exporter Portal</td><td>Get current workflow stage by B/L + container no.</td><td>Current stage + last milestone + next expected milestone</td><td>200 OK / 404 Not Found / 403 Forbidden</td></tr>
+    <tr><td>Request/Response</td><td>Forwarder TMS</td><td>Get milestones within time window</td><td>Milestone list with timestamps, locations, event codes</td><td>200 OK / 206 Partial Content if truncated</td></tr>
+    <tr><td>Request/Response</td><td>Carrier Ops System</td><td>Get exception list for assigned voyages</td><td>Exception items (delay, roll-over, misroute) + severity</td><td>200 OK / 429 Rate Limited (retry-after)</td></tr>
+    <tr><td rowspan="3">Subscription Feeds</td><td>Publish/Subscribe</td><td>Consignee Notification Service</td><td>Subscribe to "Arrived at POD" and "Out-gate"</td><td>Event notification with correlation ID and event signature</td><td>DELIVERED / RETRYING / DEAD-LETTER after max retries</td></tr>
+    <tr><td>Publish/Subscribe</td><td>Customs Broker Platform</td><td>Subscribe to clearance milestone changes</td><td>Milestone update + supporting reference numbers</td><td>DELIVERED / FAILED (auth expired) with re-auth required</td></tr>
+    <tr><td>Publish/Subscribe</td><td>Warehouse / DC</td><td>Subscribe to ETA change beyond threshold</td><td>ETA delta + new ETA + reason code</td><td>DELIVERED / FAILED (endpoint unreachable) with backoff</td></tr>
+    <tr><td rowspan="2">Batch Outputs</td><td>Scheduled Delivery</td><td>Trade Compliance Team</td><td>Daily outbound traceability report request</td><td>CSV/JSON file: shipments + daily milestone changes</td><td>COMPLETED / FAILED (generation error) with incident ID</td></tr>
+    <tr><td>Scheduled Delivery</td><td>Insurance Auditor</td><td>Weekly proof-of-trace report</td><td>Immutable log extract + hash list</td><td>COMPLETED / FAILED (policy violation)</td></tr>
+    <tr><td>Access Control</td><td>Inline Decision</td><td>Any external party</td><td>Attempt to access restricted shipment</td><td>Denial response (no data disclosed)</td><td>DENIED (scope mismatch) + audit record ID</td></tr>
+  </tbody>
+</table>

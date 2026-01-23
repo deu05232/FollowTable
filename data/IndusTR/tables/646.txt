@@ -1,0 +1,8 @@
+<table>
+  <caption>Format of Charger Output Capability Message (PGN2048)</caption>
+  <tr><td>Start Byte or Bit</td><td>Length</td><td>SPN</td><td>SPN Definition</td><td>Transmission Option</td></tr>
+  <tr><td>1</td><td>2 bytes</td><td>2824</td><td>Maximum output charging voltage of the charger (V)</td><td>Required</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>2825</td><td>Minimum output charging voltage of the charger (V)</td><td>Required</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>2826</td><td>Maximum output charging current of the charger (A)</td><td>Required</td></tr>
+  <tr><td>7</td><td>2 bytes</td><td>2827</td><td>Minimum output charging current of the charger (A)</td><td>Required</td></tr>
+</table>

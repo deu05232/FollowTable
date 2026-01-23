@@ -1,0 +1,17 @@
+<table>
+  <caption>Application File Header Layout (Offsets, Identifiers, and IV Parameters)</caption>
+  <thead>
+    <tr><th>Offset</th><th>Data Item</th><th>Size (bytes)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x00</td><td>Header Version</td><td>1</td><td>Application-file format version.</td></tr>
+    <tr><td>0x01</td><td>Issuer ID</td><td>2</td><td>Operator/issuer identifier for the file.</td></tr>
+    <tr><td>0x03</td><td>Terminal Model ID</td><td>2</td><td>Model identifier for compatibility checks.</td></tr>
+    <tr><td>0x05</td><td>Broadcast Group ID</td><td>6</td><td>Broadcast addressing identifier.</td></tr>
+    <tr><td>0x0B</td><td>Multicast Service ID</td><td>6</td><td>Multicast addressing identifier.</td></tr>
+    <tr><td>0x11</td><td>KeyID for Broadcast Group</td><td>1</td><td>References which broadcast key is selected (not a key definition).</td></tr>
+    <tr><td>0x12</td><td>KeyID for Multicast Service</td><td>1</td><td>References which multicast key is selected (not a key definition).</td></tr>
+    <tr><td>0x13</td><td>IV Index (Primary)</td><td>6</td><td>Index pointing to the primary IV record.</td></tr>
+    <tr><td>0x19</td><td>IV Value (Primary)</td><td>16</td><td>Primary IV for cryptographic processing.</td></tr>
+  </tbody>
+</table>

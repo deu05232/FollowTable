@@ -1,0 +1,15 @@
+<table>
+  <caption>Casting Structural Feature Summary (No Proper/Improper Separation)</caption>
+  <thead>
+    <tr><th>Feature / Situation</th><th>Design Guidance (Mixed)</th><th>Common Outcomes</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Rib on thin wall</td><td>Keep ribs moderate; thick ribs may be acceptable for stiffness in some cases</td><td>Warping, sink, occasional shrinkage</td><td>Depends on alloy and feeding</td></tr>
+    <tr><td>Boss around hole</td><td>Add a boss if load is high; avoid overbuilding if weight critical</td><td>Porosity risk if mass is high</td><td>Consider local chills</td></tr>
+    <tr><td>Intersecting walls</td><td>Try to reduce hot spots; intersections can be blended</td><td>Hot tearing, shrink cavities</td><td>Use fillets when possible</td></tr>
+    <tr><td>Core-supported cavity</td><td>Use cores for undercuts; sometimes multiple cores are needed</td><td>Higher core cost; core shift</td><td>Review core prints</td></tr>
+    <tr><td>Flange / mating face</td><td>Provide machining stock; sometimes as-cast sealing is possible with coatings</td><td>Leakage, mismatch</td><td>Flatness control needed</td></tr>
+    <tr><td>Thin-to-thick transition</td><td>Transitions should be managed; abrupt changes can be tolerated with risers</td><td>Cracks, shrinkage, residual stress</td><td>Feeding design impacts results</td></tr>
+    <tr><td>Long straight wall</td><td>Add draft; use ribs if needed; large areas may distort</td><td>Distortion, mold scab</td><td>Process dependent</td></tr>
+  </tbody>
+</table>

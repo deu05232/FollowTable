@@ -1,0 +1,16 @@
+<table>
+  <caption>Reliability Test Plan with Integrated Receiver Performance Specifications (Beidou Monitoring Terminal)</caption>
+  <thead>
+    <tr><th>Type</th><th>Item</th><th>Conditions</th><th>Parameters</th><th>Pass criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Durability tests</td><td>Thermal cycling (operating)</td><td>Powered ON</td><td>-20 °C to +60 °C, 5 cycles, 2 h/step</td><td>No abnormal reboot; functional self-test passes after final cycle</td></tr>
+    <tr><td>Salt mist test</td><td>Powered OFF</td><td>5% NaCl, 35 °C, 48 h</td><td>No severe corrosion; connectors serviceable; post-test function OK</td></tr>
+    <tr><td>Mechanical vibration (sine)</td><td>Not powered</td><td>5–300 Hz, 50 m/s² (11–300 Hz), 3 axes</td><td>No loosening; no structural damage; functional check passes</td></tr>
+    <tr><td>Shock / impact</td><td>Not powered</td><td>30 g, 11 ms, 18 shocks total</td><td>No cracks; no connector failure; function OK</td></tr>
+    <tr><td>Humidity storage</td><td>Powered OFF</td><td>40 °C, 93%RH, 96 h</td><td>No condensation damage; insulation within spec; function OK</td></tr>
+    <tr><td rowspan="3">Receiver capability specs (non-test)</td><td>Tracking channels</td><td>Specification</td><td>≥ 32 channels</td><td>Meets channel-count requirement</td></tr>
+    <tr><td>Time to first fix (TTFF)</td><td>Specification</td><td>Cold ≤ 45 s; Hot ≤ 5 s</td><td>Meets TTFF requirement</td></tr>
+    <tr><td>Position update rate</td><td>Specification</td><td>1–10 Hz selectable</td><td>Supports configured update rate range</td></tr>
+  </tbody>
+</table>

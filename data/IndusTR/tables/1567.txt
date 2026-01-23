@@ -1,0 +1,5 @@
+<table>
+  <caption>SpaceFibre Bus Flow Control Word Definitions</caption>
+  <tr><td>Name</td><td>Control Word</td><td>Function</td></tr>
+  <tr><td>Flow Control Word FCT</td><td>FCT,Multiplier/Channel #,SEQ_ NUM,CRC K28.3,D0.0-D31.7，D0.0-D31.7, D0.0-D31.7</td><td>Flow control token. Indicates that the receive buffer for a specific virtual channel has space to hold another complete data frame. FCT is a K-code, K28.3, indicating that this control word is an FCT. Multiplier is a 3-bit field that determines the FCT value. Channel number specifies which virtual channel this FCT is for. SEQ_NUM is a sequence number added to the FCT by the link control sublayer, used to check whether data frames, broadcast frames, and FCTs are lost, duplicated, or out of order. CRC is an 8-bit CRC used to ensure that the FCT contains no errors</td></tr>
+</table>

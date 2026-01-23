@@ -1,0 +1,19 @@
+<table>
+  <caption>Tire Building Machine (TBM) Process Order Data Structure (Field List)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Data Structure Name</th><th>Field Name</th><th>Data Type</th><th>Data Length (bit)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="11">TBM Process Order</td><td>OrderID</td><td>DINT</td><td>32</td><td>Manufacturing order identifier</td></tr>
+    <tr><td>2</td><td>LineID</td><td>INT</td><td>16</td><td>Building line identifier</td></tr>
+    <tr><td>3</td><td>MachineID</td><td>INT</td><td>16</td><td>TBM equipment identifier</td></tr>
+    <tr><td>4</td><td>RecipeNo</td><td>INT</td><td>16</td><td>Recipe number to execute</td></tr>
+    <tr><td>5</td><td>RecipeName</td><td>STR</td><td>User-defined</td><td>Recipe name string</td></tr>
+    <tr><td>6</td><td>TargetQty</td><td>DINT</td><td>32</td><td>Planned quantity for the order</td></tr>
+    <tr><td>7</td><td>ProducedQty</td><td>DINT</td><td>32</td><td>Completed quantity reported by the machine</td></tr>
+    <tr><td>8</td><td>StartTimestamp</td><td>ULINT</td><td>64</td><td>Order start time (epoch milliseconds)</td></tr>
+    <tr><td>9</td><td>EndTimestamp</td><td>ULINT</td><td>64</td><td>Order end time (epoch milliseconds)</td></tr>
+    <tr><td>10</td><td>OperatorID</td><td>INT</td><td>16</td><td>Operator identifier (badge/code)</td></tr>
+    <tr><td>11</td><td>OrderStatus</td><td>INT</td><td>16</td><td>Status code stored as integer</td></tr>
+  </tbody>
+</table>

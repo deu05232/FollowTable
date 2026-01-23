@@ -1,0 +1,16 @@
+<table>
+  <caption>Oil-Free Magnetic-Levitation Centrifugal Chiller/Heat Pump — Control Setpoints and Protection Thresholds Used During Tests</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Symbol</th><th>Typical Setting</th><th>Unit</th><th>Trigger / Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Control</td><td>Leaving chilled-water setpoint</td><td>TLWT,set</td><td>7.0</td><td>°C</td><td>Compressor speed modulates to hold setpoint</td></tr>
+    <tr><td>Control</td><td>Leaving hot-water setpoint</td><td>THWT,set</td><td>45.0</td><td>°C</td><td>Heating mode capacity control</td></tr>
+    <tr><td>Control</td><td>Minimum compressor speed</td><td>Nmin</td><td>18,000</td><td>rpm</td><td>Limit to avoid surge at low load</td></tr>
+    <tr><td>Control</td><td>Maximum compressor speed</td><td>Nmax</td><td>48,000</td><td>rpm</td><td>Speed cap for motor/inverter protection</td></tr>
+    <tr><td>Protection</td><td>Evaporator freeze protection threshold</td><td>Tfreeze</td><td>3.0</td><td>°C</td><td>Trip if LWT below threshold for 60 s</td></tr>
+    <tr><td>Protection</td><td>Condenser high-pressure cutout</td><td>PHP</td><td>3.2</td><td>MPa</td><td>Immediate shutdown</td></tr>
+    <tr><td>Protection</td><td>Condenser high-temperature limit</td><td>Tcond,max</td><td>60</td><td>°C</td><td>Derate then shutdown if persists</td></tr>
+    <tr><td>Protection</td><td>Motor/inverter overcurrent limit</td><td>Imax</td><td>120</td><td>% rated</td><td>Derate / trip</td></tr>
+  </tbody>
+</table>

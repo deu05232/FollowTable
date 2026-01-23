@@ -1,0 +1,15 @@
+<table>
+  <caption>Starter performance test sequence with explicit ON/OFF timing by rated operational current range (AC-3 duty)</caption>
+  <thead>
+    <tr><th rowspan="2">Utilization category</th><th rowspan="2">Rated operational current range (A)</th><th colspan="2">Timing per operating cycle</th><th rowspan="2">Number of operating cycles</th><th rowspan="2">Notes / practical setup</th></tr>
+    <tr><th>Energizing time (s)</th><th>De-energizing time (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">AC-3</td><td>1 ≤ Ie ≤ 16</td><td>0.10</td><td>2.0</td><td>50</td><td>Maintain coil/command ON for the full energizing time; load current established during ON window.</td></tr>
+    <tr><td>16 < Ie ≤ 63</td><td>0.10</td><td>3.0</td><td>50</td><td>Use a timer relay or PLC to enforce repeatable ON/OFF intervals.</td></tr>
+    <tr><td>63 < Ie ≤ 100</td><td>0.20</td><td>5.0</td><td>50</td><td>Record contact voltage drop during ON; ensure OFF window allows thermal stabilization of auxiliary circuit.</td></tr>
+    <tr><td>100 < Ie ≤ 200</td><td>0.20</td><td>8.0</td><td>50</td><td>OFF time measured from coil de-energization to next command ON.</td></tr>
+    <tr><td>200 < Ie ≤ 400</td><td>0.30</td><td>12.0</td><td>50</td><td>Verify that the starter is fully released before the next energization (no contact welding).</td></tr>
+    <tr><td>400 < Ie ≤ 630</td><td>0.50</td><td>20.0</td><td>50</td><td>When using a motor simulator, keep the current stable throughout the energizing window.</td></tr>
+  </tbody>
+</table>

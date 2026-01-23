@@ -1,0 +1,15 @@
+<table>
+  <caption>Visible-Light Curved Band DT Lookup with Concurrent PT and BF Guidance</caption>
+  <thead>
+    <tr><th rowspan="2">Observable cue</th><th colspan="2">Geometric measure</th><th colspan="2">DT (Data T-number)</th><th colspan="2">PT (Pattern T-number)</th><th colspan="2">BF (Banding feature index)</th></tr>
+    <tr><th>Wrap-around arc (rad)</th><th>Band-to-center distance (deg lat)</th><th>DT range</th><th>DT nominal</th><th>PT nominal</th><th>PT note</th><th>BF add</th><th>BF note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Weak curved band</td><td>0.20–0.35</td><td>>2.0</td><td>1.0–2.0</td><td>1.5</td><td>1.5</td><td>Use if no CDO</td><td>+0.0</td><td>No enhancement</td></tr>
+    <tr><td>Developing curved band</td><td>0.40–0.55</td><td>1.5–2.0</td><td>2.0–3.0</td><td>2.5</td><td>2.5</td><td>Stable for ≥3 h</td><td>+0.5</td><td>Distinct feeder band</td></tr>
+    <tr><td>Moderate wrap</td><td>0.60–0.75</td><td>1.0–1.5</td><td>2.5–3.5</td><td>3.0</td><td>3.0</td><td>Otherwise cap at 3.0</td><td>+1.0</td><td>Two-band structure</td></tr>
+    <tr><td>Strong wrap</td><td>0.80–1.00</td><td>0.75–1.0</td><td>3.0–4.0</td><td>3.5</td><td>3.5</td><td>Increase if persistent</td><td>+1.5</td><td>Well-defined spiral</td></tr>
+    <tr><td>Very strong wrap</td><td>1.05–1.30</td><td>0.5–0.75</td><td>3.5–4.5</td><td>4.0</td><td>4.0</td><td>Cap if eye not present</td><td>+2.0</td><td>Tight inner band</td></tr>
+    <tr><td>Near-complete wrap</td><td>1.35–1.70</td><td><0.5</td><td>4.0–5.0</td><td>4.5</td><td>4.5</td><td>Consider eye pattern</td><td>+2.0</td><td>Max enhancement</td></tr>
+  </tbody>
+</table>

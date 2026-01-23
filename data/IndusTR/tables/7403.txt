@@ -1,0 +1,20 @@
+<table>
+  <caption>Administrative Enterprise Identifier Mapping (Master Data)</caption>
+  <thead>
+    <tr><th>Identifier Category</th><th>Data Item</th><th>Field Name</th><th>Representation (Type/Length)</th><th>Example / Constraint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Enterprise Unique Identifiers</td><td>Unified Social Credit Code</td><td>enterprise_uscc</td><td>CHAR(18)</td><td>Exactly 18 chars; uppercase letters and digits</td></tr>
+    <tr><td>National Enterprise ID (Internal Master Key)</td><td>enterprise_master_id</td><td>UUID (36)</td><td>Canonical UUID with hyphens</td></tr>
+    <tr><td>Taxpayer Identification Number</td><td>taxpayer_id</td><td>VARCHAR(20)</td><td>Digits/letters; may equal USCC in some regions</td></tr>
+    <tr><td>Customs Registration Code</td><td>customs_reg_code</td><td>VARCHAR(18)</td><td>Alphanumeric; optional depending on business scope</td></tr>
+    <tr><td rowspan="3">Official Name Set</td><td>Registered Name (Chinese/Local)</td><td>name_registered_local</td><td>NVARCHAR(200)</td><td>UTF-8/Unicode; not null</td></tr>
+    <tr><td>Registered Name (English)</td><td>name_registered_en</td><td>VARCHAR(200)</td><td>ASCII/UTF-8; nullable</td></tr>
+    <tr><td>Former Name</td><td>name_former</td><td>NVARCHAR(200)</td><td>Nullable; for historical identity matching</td></tr>
+    <tr><td rowspan="3">Responsible Person Identifiers</td><td>Legal Representative Name</td><td>legal_person_name</td><td>NVARCHAR(60)</td><td>Unicode</td></tr>
+    <tr><td>Legal Representative Credential Type</td><td>legal_person_cred_type</td><td>VARCHAR(20)</td><td>Enum: IDCard, Passport, HKMacaoPermit, Other</td></tr>
+    <tr><td>Legal Representative Credential Number</td><td>legal_person_cred_no</td><td>VARCHAR(32)</td><td>Alphanumeric; may be encrypted at rest</td></tr>
+    <tr><td rowspan="2">Registration Metadata (Identity Context)</td><td>Date of Establishment</td><td>established_date</td><td>DATE (YYYY-MM-DD)</td><td>Valid date</td></tr>
+    <tr><td>Registration Authority Name</td><td>reg_authority_name</td><td>NVARCHAR(120)</td><td>Unicode</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Terrestrial Eco-meteorological Station Observation Record (Field List and Code Pattern Only)</caption>
+  <thead>
+    <tr><th>No.</th><th>Field</th><th>Field Code</th><th>Coding Pattern / Reference</th><th>Example Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station name</td><td>D_NAME</td><td>Free text; see naming guideline GB/T-StationName-01</td><td>Hulunbuir Grassland Site</td></tr>
+    <tr><td>2</td><td>Station ID</td><td>D_ID</td><td>AAAA-9999 (Table R.2)</td><td>NMGB-0102</td></tr>
+    <tr><td>3</td><td>Observation datetime</td><td>D_TIME</td><td>YYYYMMDDhhmm (ISO-like)</td><td>202501011200</td></tr>
+    <tr><td>4</td><td>Latitude</td><td>LAT</td><td>DD.DDDD (Table R.7)</td><td>49.1234</td></tr>
+    <tr><td>5</td><td>Longitude</td><td>LON</td><td>DDD.DDDD (Table R.7)</td><td>120.5678</td></tr>
+    <tr><td>6</td><td>Eco-meteorological scene category</td><td>E_VID</td><td>AAiAA (Reference Table B.1)</td><td>GRi01</td></tr>
+    <tr><td>7</td><td>Total irradiance</td><td>AJA</td><td>Numeric; unit W/m²</td><td>643</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Estimated Net Gravitational Force from Cosmic Dark Matter Using Survey-Driven Halo Profile Fits</caption>
+  <thead>
+    <tr><th rowspan="2">Survey / Catalog</th><th rowspan="2">Tracer</th><th colspan="4">Correlation / Profile Fit Descriptors</th><th colspan="2">Lensing / Reconstruction Bookkeeping</th><th colspan="2">Gravity-Related Quantity</th></tr>
+    <tr><th>r0 (h^-1 Mpc)</th><th>gamma</th><th>c (NFW)</th><th>chi2/dof</th><th>kappa map pixels</th><th>shear cal m</th><th>G_eff / G</th><th>F_DM,net (N)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SDSS DR12</td><td>LRG</td><td>7.9</td><td>1.82</td><td>5.1</td><td>1.4</td><td>2048^2</td><td>-0.012</td><td>1.00</td><td>1.2e-10</td></tr>
+    <tr><td>DES Y3</td><td>redMaGiC</td><td>8.4</td><td>1.78</td><td>4.6</td><td>1.6</td><td>4096^2</td><td>-0.006</td><td>0.99</td><td>1.1e-10</td></tr>
+    <tr><td>KiDS-1000</td><td>source galaxies</td><td>6.8</td><td>1.90</td><td>6.2</td><td>1.2</td><td>3072^2</td><td>-0.020</td><td>1.01</td><td>1.3e-10</td></tr>
+    <tr><td>HSC S16A</td><td>source galaxies</td><td>7.2</td><td>1.85</td><td>5.8</td><td>1.5</td><td>4096^2</td><td>-0.010</td><td>1.00</td><td>1.2e-10</td></tr>
+    <tr><td>ACT-DR5</td><td>CMB lensing</td><td>9.1</td><td>1.70</td><td>3.9</td><td>1.8</td><td>8192^2</td><td>0.000</td><td>1.00</td><td>1.0e-10</td></tr>
+    <tr><td>Planck 2018</td><td>CMB lensing</td><td>8.7</td><td>1.72</td><td>4.1</td><td>1.9</td><td>2048^2</td><td>0.000</td><td>1.00</td><td>9.5e-11</td></tr>
+  </tbody>
+</table>

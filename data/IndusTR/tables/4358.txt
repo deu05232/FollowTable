@@ -1,0 +1,10 @@
+<table>
+  <caption>HASH Object Finalization Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_HashFinal(void * hHashObj,unsigned char * pucOutData,unsigned int * puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>Finalize HASH operation</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>hHashObj[in](HASH object)</td></tr>
+  <tr><td>pucOutData[out](output HASH value)</td></tr>
+  <tr><td>puiOutDataLen[out](length of the HASH value)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

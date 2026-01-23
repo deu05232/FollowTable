@@ -1,0 +1,18 @@
+<table>
+  <tr><th>Model</th><th>Description</th><th>Free</th></tr>
+  <tr><td></td><th></th><th>Parameters</th></tr>
+  <tr><td>1</td><td>Power law plus absorption (photon index, Γ=1.7 ,</td><td></td></tr>
+  <tr><td></td><td>normalization =1.226× 10^(-2)\ photons\ cm^(-2)\ s^(-1)\ keV^(-1) @ 1 keV,</td><td></td></tr>
+  <tr><td></td><td>column density, N_(H)=5× 10^(21)\ cm^(-2) ).</td><td>3</td></tr>
+  <tr><td>2</td><td>As model 1, with the addition of a Gaussian line with</td><td></td></tr>
+  <tr><td></td><td>center energy, E_(Fe)=6.4 keV, equivalent width, EW=100 eV</td><td></td></tr>
+  <tr><td></td><td>(intensity, I_(Fe)=5.2356× 10^(-5)\ photons\ cm^(-2)\ s^(-1) )</td><td></td></tr>
+  <tr><td></td><td>and intrinsic width, σ_(Fe)=0.1 keV (FWHM ~ 2.35σ_(Fe) ).</td><td>6</td></tr>
+  <tr><td>3</td><td>As model 2 except that EW=500 eV.</td><td>6</td></tr>
+  <tr><td>4</td><td>As model 2 except that σ_(Fe)=0.3 keV.</td><td>6</td></tr>
+  <tr><td>5</td><td>As model 2 except that σ_(Fe)=0.01 keV.</td><td>6</td></tr>
+  <tr><td>6</td><td>Power law plus absorption (photon index, Γ=1.7 ,</td><td></td></tr>
+  <tr><td></td><td>normalization =1.226× 10^(-2)\ photons\ cm^(-2)\ s^(-1)\ keV^(-1) @ 1 keV,</td><td></td></tr>
+  <tr><td></td><td>N_(H)=5× 10^(21)\ cm^(-2) ) plus an absorption edge at 0.8 keV</td><td></td></tr>
+  <tr><td></td><td>(fixed) with an optical depth at threshold, τ_(0)=0.2 .</td><td>4</td></tr>
+</table>

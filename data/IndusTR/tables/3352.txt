@@ -1,0 +1,14 @@
+<table>
+  <caption>Unit Process Activity Data (Building Energy) for a Hospital Campus — Similar Terms, Different Domain</caption>
+  <thead>
+    <tr><th>Unit process</th><th>Activity data item</th><th>Annual Quantity</th><th>Unit</th><th>Boundary</th><th>Data Source</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Inpatient ward HVAC operation</td><td>Electricity consumption</td><td>5,200,000</td><td>kWh</td><td>Building A</td><td>BMS logs</td><td>Chiller + AHU</td></tr>
+    <tr><td>Sterilization center</td><td>Steam consumption</td><td>9,800</td><td>t</td><td>CSSD</td><td>Utility meters</td><td>Autoclaves</td></tr>
+    <tr><td>Kitchen services</td><td>Natural gas</td><td>410,000</td><td>Nm³</td><td>Canteen</td><td>Gas bills</td><td>Cooking only</td></tr>
+    <tr><td>Medical laundry</td><td>Water withdrawal</td><td>86,000</td><td>m³</td><td>Laundry</td><td>Water meters</td><td>Includes rinse cycles</td></tr>
+    <tr><td>Emergency power testing</td><td>Diesel</td><td>52</td><td>t</td><td>Generator house</td><td>Fuel receipts</td><td>Monthly tests</td></tr>
+    <tr><td>Clinical waste handling</td><td>Hazardous waste sent offsite</td><td>1,120</td><td>t</td><td>Waste dock</td><td>Manifests</td><td>Excludes recycling</td></tr>
+  </tbody>
+</table>

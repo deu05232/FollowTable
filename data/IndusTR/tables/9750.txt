@@ -1,0 +1,8 @@
+<table>
+  <caption>Framework Adaptation Interfaces (Execution & Memory)</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Allocate Device Memory</td><td>device_malloc</td><td>Required</td><td>Allocate memory on the target device for tensors and intermediate buffers</td></tr>
+  <tr><td>Free Device Memory</td><td>device_free</td><td>Required</td><td>Release previously allocated device memory and related bookkeeping</td></tr>
+  <tr><td>Launch Operator</td><td>op_launch</td><td>Required</td><td>Dispatch a compiled operator or kernel to the backend runtime for execution</td></tr>
+  <tr><td>Synchronize Device</td><td>device_synchronize</td><td>Optional</td><td>Block until all queued backend work completes; can be a no-op for synchronous runtimes</td></tr>
+</table>

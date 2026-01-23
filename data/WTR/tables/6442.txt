@@ -1,0 +1,5 @@
+# Embedded SQL
+
+| SQL Statements | DECLARE | OPEN | FETCH | CLOSE |
+| --- | --- | --- | --- | --- |
+| Description | Names the cursor and associates it with a query. | Executes the query and identifies the active set. | Advances the cursor and retrieves each row in the active set, one by one. | Disables the cursor (the active set becomes undefined.) |

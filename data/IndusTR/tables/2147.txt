@@ -1,0 +1,14 @@
+<table>
+  <caption>Autonomous Driving Data Recording System (Healthcare) Clinical Trial Data Capture Schedule</caption>
+  <thead>
+    <tr><th>Visit</th><th>Timepoint</th><th>Data to Record</th><th>Capture Tool</th><th>Required?</th><th>Retention Period</th><th>Privacy Basis</th><th>Comments</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>V0</td><td>Screening</td><td>Demographics, consent</td><td>eCRF</td><td>Yes</td><td>10 years</td><td>HIPAA</td><td>Verify eligibility</td></tr>
+    <tr><td>V1</td><td>Baseline</td><td>Vital signs, ECG</td><td>Wearable recorder</td><td>Yes</td><td>10 years</td><td>HIPAA</td><td>Device pairing required</td></tr>
+    <tr><td>V2</td><td>Week 2</td><td>Adverse events</td><td>eDiary</td><td>Yes</td><td>10 years</td><td>HIPAA</td><td>Remote review</td></tr>
+    <tr><td>V3</td><td>Week 4</td><td>Medication adherence</td><td>Mobile app</td><td>Yes</td><td>10 years</td><td>HIPAA</td><td>Push reminders</td></tr>
+    <tr><td>V4</td><td>Week 8</td><td>Lab results</td><td>LIMS export</td><td>Yes</td><td>10 years</td><td>HIPAA</td><td>Source data verification</td></tr>
+    <tr><td>V5</td><td>Close-out</td><td>Final assessment</td><td>eCRF</td><td>Yes</td><td>10 years</td><td>HIPAA</td><td>Archive package</td></tr>
+  </tbody>
+</table>

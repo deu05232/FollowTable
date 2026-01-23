@@ -1,0 +1,15 @@
+<table>
+  <caption>Data Dictionary of Process Parameter Set for Cheese Conveying and Packing System</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Conveyor chain speed</td><td>ConveyorChainSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>m/min</td><td>丨</td><td>One</td></tr>
+  <tr><td>0X0201</td><td>Cheese type for manipulator loading</td><td>CheeseTypeOfManipulatorLoading</td><td>M</td><td>VAR</td><td>RW</td><td>UInt16</td><td>0~200</td><td>pcs</td><td>1</td><td>1</td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0202</td><td>Cheese type for manipulator unloading</td><td>CheeseTypeOfManipulatorUnloading</td><td>M</td><td>VAR</td><td>RW</td><td>UInt16</td><td>0~200</td><td>pcs</td><td>丨</td><td></td></tr>
+  <tr><td>0X0203</td><td>Packing line conveying speed</td><td>Conveying SpeedOfPackingLine</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0204</td><td>Cheese quantity per package (carton)</td><td>CheeseQuantityPerPackage</td><td>M</td><td>VAR</td><td>RW</td><td>UInt16</td><td>0~100</td><td>pcs</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0205</td><td>Number of straps</td><td>RibbonQuantity</td><td>M</td><td>VAR</td><td>RW</td><td>UInt16</td><td>0~5</td><td>strips</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0206</td><td>Weight per package (carton)</td><td>PackageWeight</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>kg</td><td>1</td><td></td></tr>
+  <tr><td>0X0207</td><td>Counterweight error</td><td>CounterweightError</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>-1000.00～1000.00</td><td>g</td><td>1</td><td></td></tr>
+  <tr><td>0X0208</td><td>Seam reversal time</td><td>SeamReversalTime</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>1.00~25.00</td><td>S</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0209</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td></td><td>1</td><td>1</td><td>1</td></tr>
+</table>

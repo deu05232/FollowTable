@@ -1,0 +1,18 @@
+<table>
+  <caption>Parking Event Data Elements</caption>
+  <tr><td>Internal Identifier</td><td>Chinese Name</td><td>Definition</td><td>Data Type</td><td>Data Format</td><td>Value Range</td><td>Unit of Measure</td><td>Remarks</td></tr>
+  <tr><td>06010001</td><td>Event Information ID</td><td>Event Information ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>06010002</td><td>Parking Lot ID</td><td>Parking Lot ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>06010003</td><td>Parking Space ID</td><td>Parking Space ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>06010004</td><td>License Plate Type</td><td>License Plate Type</td><td>Character</td><td>nl</td><td>1-  Yellow plate; 2-  Blue plate; -Black plate; 4-  -White plate; 5-  Green plate; 6-  Temporary plate; 9-  Other</td><td></td><td></td></tr>
+  <tr><td>06010005</td><td>License Plate Number</td><td>License Plate Number</td><td>Character</td><td>an..10</td><td></td><td></td><td></td></tr>
+  <tr><td>06010006</td><td>Recognition Photo</td><td>Photo Content</td><td>Character</td><td>an..100</td><td></td><td></td><td>Image URL access address</td></tr>
+  <tr><td>06010007</td><td>Event Time</td><td>Event Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>SAC</td><td></td><td></td></tr>
+  <tr><td>06010009</td><td>Event Category</td><td>Event Category</td><td>Character</td><td>nl</td><td>1   Safety; 2-  O&M 3-  Operations; 4-  Supervision; 9-  Other</td><td></td><td></td></tr>
+  <tr><td>06010010</td><td>Event Level</td><td>Event Level</td><td>Character</td><td>nl</td><td>1   General prompt; 2-     -General alarm; 3-  -Minor fault; 4-  -Severe fault; 9——Other</td><td></td><td></td></tr>
+  <tr><td>06010011</td><td>Event Location</td><td>Event Location</td><td>Character</td><td>an..50</td><td></td><td></td><td></td></tr>
+  <tr><td>06010012</td><td>Device ID</td><td>Device ID</td><td>Numeric</td><td>n..10</td><td></td><td></td><td></td></tr>
+  <tr><td>06010013</td><td>Event Description</td><td>Event Description</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>06010014</td><td>Control Strategy Type</td><td>Control Strategy Type</td><td>Character</td><td>n2</td><td>01-  Entry prohibited; 02-  Exit prohibited; 03-  Entry/exit prohibited; 04-  Free entry; 05-  Free exit; 06-  Free entry/exit; 07-  Manual entry; 08-   Manual exit; 09-  Manual entry/exit; 99-  -Other</td><td></td><td></td></tr>
+  <tr><td>06010015</td><td>Description</td><td>Description</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+</table>

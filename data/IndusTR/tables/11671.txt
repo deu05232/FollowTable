@@ -1,0 +1,16 @@
+<table>
+  <caption>Single Face Sample Captured Under Different Conditions (Scenario-Oriented)</caption>
+  <thead>
+    <tr><th>Condition ID</th><th>Acquisition Method</th><th>Device Type</th><th>Lighting Condition</th><th>Imaging Method</th><th>Pose / Distance</th><th>Observed Artifacts</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>C1</td><td>Visible light</td><td>Smartphone front camera</td><td>Indoor office, 400 lux</td><td>RGB</td><td>Frontal, 0.5 m</td><td>null</td></tr>
+    <tr><td>C2</td><td>Visible light</td><td>Smartphone front camera</td><td>Backlit window</td><td>RGB</td><td>Frontal, 0.5 m</td><td>Face shadowing</td></tr>
+    <tr><td>C3</td><td>Visible light</td><td>Smartphone front camera</td><td>Low light, 20 lux</td><td>RGB + denoise</td><td>Frontal, 0.5 m</td><td>Noise, blur</td></tr>
+    <tr><td>C4</td><td>Near-infrared</td><td>NIR camera</td><td>Dark room</td><td>NIR</td><td>Frontal, 0.8 m</td><td>Specular highlights</td></tr>
+    <tr><td>C5</td><td>Visible light</td><td>Webcam</td><td>Fluorescent flicker</td><td>RGB</td><td>Yaw 15°, 1.0 m</td><td>Banding</td></tr>
+    <tr><td>C6</td><td>Visible light</td><td>DSLR</td><td>Studio softbox</td><td>RGB</td><td>Frontal, 1.5 m</td><td>null</td></tr>
+    <tr><td>C7</td><td>Visible light</td><td>Action camera</td><td>Outdoor sunlight</td><td>RGB</td><td>Yaw 30°, 2.0 m</td><td>Overexposure</td></tr>
+    <tr><td>C8</td><td>Near-infrared</td><td>NIR camera</td><td>Dark room</td><td>NIR (reflection)</td><td>Pitch 10°, 0.8 m</td><td>Glasses glare</td></tr>
+  </tbody>
+</table>

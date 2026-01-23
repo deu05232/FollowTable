@@ -1,0 +1,16 @@
+<table>
+  <caption>Cut Quality Limits Organized by Laser Cutter Machine Class (Production Acceptance Guide)</caption>
+  <thead>
+    <tr><th rowspan="2">Machine class</th><th rowspan="2">Representative platform</th><th rowspan="2">Max sheet size (mm)</th><th colspan="5">Acceptance limits on finished cut (max allowable)</th></tr>
+    <tr><th>Dimensional tolerance (mm)</th><th>Perpendicularity (mm/100 mm)</th><th>Kerf taper (deg)</th><th>Heat-affected zone HAZ (mm)</th><th>Dross height (mm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Entry 2D CO2 gantry</td><td>3-axis gantry</td><td>1500×3000</td><td>±0.20</td><td>0.25</td><td>1.2</td><td>0.35</td><td>0.20</td></tr>
+    <tr><td>Industrial 2D fiber</td><td>2D flatbed</td><td>1500×3000</td><td>±0.10</td><td>0.15</td><td>0.8</td><td>0.20</td><td>0.12</td></tr>
+    <tr><td>High-precision fiber</td><td>Granite base</td><td>1250×2500</td><td>±0.05</td><td>0.08</td><td>0.5</td><td>0.12</td><td>0.06</td></tr>
+    <tr><td>Micro-machining UV</td><td>Galvo + stage</td><td>300×300</td><td>±0.02</td><td>0.04</td><td>0.2</td><td>0.05</td><td>0.02</td></tr>
+    <tr><td>5-axis tube laser</td><td>Rotary + chuck</td><td>Tube Ø10–200</td><td>±0.15</td><td>0.18</td><td>1.0</td><td>0.25</td><td>0.15</td></tr>
+    <tr><td>Water-cooled precision cell</td><td>Enclosed cell</td><td>1000×2000</td><td>±0.03</td><td>0.06</td><td>0.4</td><td>0.10</td><td>0.04</td></tr>
+    <tr><td colspan="8">Note: Table is arranged by equipment class; verify limits with a process capability study for each machine.</td></tr>
+  </tbody>
+</table>

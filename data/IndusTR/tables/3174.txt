@@ -1,0 +1,10 @@
+<table>
+  <caption>Security Audit Checklist for Information Container Data Access</caption>
+  <tr><th>Control</th><th>Description</th><th>Severity</th><th>Evidence</th><th>Owner</th><th>Status</th></tr>
+  <tr><td>AUTH-01</td><td>Enforce OAuth2 scopes</td><td>High</td><td>Config snapshot</td><td>Security</td><td>Pass</td></tr>
+  <tr><td>LOG-02</td><td>Log access to container content</td><td>Medium</td><td>SIEM query</td><td>Platform</td><td>Pass</td></tr>
+  <tr><td>ENC-03</td><td>Encrypt data at rest</td><td>High</td><td>KMS policy</td><td>Platform</td><td>Pass</td></tr>
+  <tr><td>KEY-04</td><td>Rotate API keys every 90 days</td><td>Medium</td><td>Rotation record</td><td>Ops</td><td>Fail</td></tr>
+  <tr><td>RATE-05</td><td>Apply rate limiting per client</td><td>Low</td><td>Gateway rules</td><td>Ops</td><td>Pass</td></tr>
+  <tr><td>PRIV-06</td><td>Review data retention policy</td><td>Medium</td><td>Policy doc</td><td>Legal</td><td>In review</td></tr>
+</table>

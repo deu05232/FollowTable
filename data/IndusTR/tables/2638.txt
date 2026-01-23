@@ -1,0 +1,10 @@
+<table>
+  <caption>HTTP Header Normalization Rules for API Gateway (Pre-processing)</caption>
+  <tr><th>Rule ID</th><th>Incoming Header</th><th>Action</th><th>Result</th><th>Applied Stage</th></tr>
+  <tr><td>HN-01</td><td>authorization</td><td>Canonicalize</td><td>Authorization</td><td>Pre-route</td></tr>
+  <tr><td>HN-02</td><td>X-Access-Token</td><td>Rename</td><td>X-Token</td><td>Pre-route</td></tr>
+  <tr><td>HN-03</td><td>X-Forwarded-For</td><td>Append</td><td>X-Forwarded-For</td><td>Ingress</td></tr>
+  <tr><td>HN-04</td><td>Content-Type</td><td>Validate</td><td>Reject if missing</td><td>Request parsing</td></tr>
+  <tr><td>HN-05</td><td>Date</td><td>Inject if absent</td><td>Date</td><td>Pre-route</td></tr>
+  <tr><td>HN-06</td><td>X-Request-Id</td><td>Generate</td><td>X-Request-Id</td><td>Pre-route</td></tr>
+</table>

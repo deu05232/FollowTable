@@ -1,0 +1,15 @@
+<table>
+  <caption>Join Rules with Mixed/Unclear Association Labels (Non-binary Types Included)</caption>
+  <thead>
+    <tr><th>Relationship</th><th>Table A</th><th>Table B</th><th>Join Condition (Proposed)</th><th>Association Type (As Written)</th><th>Uniqueness Assumption</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Policy to Claims</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Claim Business Details Table</td><td>A.policy_no = B.policy_no AND A.region_code = B.region_code</td><td>Multi-field match</td><td>Many claims per policy</td></tr>
+    <tr><td>Policy to Household List</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Underwriting Insured Household List Table</td><td>A.policy_no = B.policy_no</td><td>Shared identifier</td><td>Many households per policy</td></tr>
+    <tr><td>Business Line to Policy</td><td>Agricultural Insurance Business Lines Table</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>A.line_code = B.line_code</td><td>Lookup relationship</td><td>One line to many policies</td></tr>
+    <tr><td>Application to Disbursement</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table</td><td>A.application_id = B.application_id AND A.batch_no = B.batch_no</td><td>Compound join (maybe)</td><td>One application may have multiple batches</td></tr>
+    <tr><td>Application to Invoice</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Invoice Information Table</td><td>A.application_id = B.application_id</td><td>Direct reference</td><td>Usually 1 invoice per application</td></tr>
+    <tr><td>Application to Machinery Item</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Machinery Item Catalog Table</td><td>A.item_code = B.item_code</td><td>Reference data</td><td>Many applications per item</td></tr>
+    <tr><td>Machinery Item to Subsidized Product</td><td>Machinery Item Catalog Table</td><td>Subsidized Product Catalog Table</td><td>A.product_sku = B.product_sku AND A.model = B.model</td><td>Non-unique crosswalk</td><td>Many-to-many possible</td></tr>
+  </tbody>
+</table>

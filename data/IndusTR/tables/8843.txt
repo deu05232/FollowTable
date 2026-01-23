@@ -1,0 +1,14 @@
+<table>
+  <caption>Segmented Transfer Reassembly Metadata — Sequence and Length Semantics for Segmented Data Frames Only</caption>
+  <thead>
+    <tr><th>Element</th><th>Where It Appears</th><th>Size</th><th>Encoding / Range</th><th>Reassembly Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Sequence Number</td><td>Byte 0 of every segmented data frame</td><td>1 byte</td><td>0x00 = first frame; 0x01..0xFF = consecutive frames</td><td>Orders frames for reassembly; identifies first-frame header vs. payload frames</td></tr>
+    <tr><td>Total Frames</td><td>Byte 1 of first frame only (Sequence = 0)</td><td>1 byte</td><td>Unsigned count of frames in this segmented transfer</td><td>Stop condition: expected highest sequence index = TotalFrames-1</td></tr>
+    <tr><td>Total Bytes</td><td>Bytes 2–3 of first frame only (Sequence = 0)</td><td>2 bytes</td><td>Little-endian (LSB at byte 2, MSB at byte 3)</td><td>Exact payload length; determines how many bytes are valid before padding</td></tr>
+    <tr><td>Reserved/Fill Bytes in first frame</td><td>Bytes 4–7 of first frame only (Sequence = 0)</td><td>4 bytes</td><td>0xFF</td><td>Ignored by receiver (not part of application payload)</td></tr>
+    <tr><td>Payload per consecutive frame</td><td>Bytes 1–7 of frames with Sequence > 0</td><td>7 bytes</td><td>Raw application parameter group continuation</td><td>Append in sequence order until TotalBytes reached</td></tr>
+    <tr><td>Padding in last frame</td><td>Unused bytes in bytes 1–7 of final frame</td><td>0–6 bytes</td><td>Pad value = 0xFF</td><td>Must be discarded using TotalBytes to compute valid data length</td></tr>
+  </tbody>
+</table>

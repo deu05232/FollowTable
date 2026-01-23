@@ -1,0 +1,15 @@
+<table>
+  <caption>User Terminal Application File: Cryptographic Key Definitions and Update Permissions</caption>
+  <thead>
+    <tr><th>Key Item</th><th>Typical Length</th><th>Primary Role</th><th>Allowed Operations / Permissions</th><th>Protects / Governs</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Master Control Key (MCK)</td><td>Application-defined</td><td>Root key for key-management control</td><td>Authorize and validate key updates; enable/disable subordinate keys</td><td>Key update flow integrity and authorization</td></tr>
+    <tr><td>Maintenance Key (MTK)</td><td>Application-defined</td><td>Controls file-maintenance and update actions</td><td>Authorize file update, file delete, and file parameter modification (as configured)</td><td>File update flow integrity and authorization</td></tr>
+    <tr><td>Authentication Key (AK)</td><td>Application-defined</td><td>Message origin authentication</td><td>Generate/verify authentication codes for uplink messages; no update permission by itself</td><td>Uplink authentication code calculation</td></tr>
+    <tr><td>Session Derivation Key (SDK)</td><td>Application-defined</td><td>Derives short-lived working keys</td><td>Derive session MAC/encryption keys; not permitted to update files or other keys directly</td><td>Session key material for protected procedures</td></tr>
+    <tr><td>Key Encryption Key (KEK)</td><td>Application-defined</td><td>Wrap/unwrap keys during distribution</td><td>Encrypt (wrap) incoming new keys; decrypt (unwrap) stored wrapped keys</td><td>Confidentiality of transported/stored keys</td></tr>
+    <tr><td>File Integrity Key (FIK)</td><td>Application-defined</td><td>Integrity protection for application files</td><td>Compute/verify file MAC; does not authorize updating the file without MTK</td><td>Application-file integrity checking during download/update</td></tr>
+    <tr><td>Emergency Recovery Key (ERK)</td><td>Application-defined</td><td>Fallback authorization for recovery</td><td>Permit controlled recovery actions (e.g., re-provisioning) when MCK is unavailable, per policy</td><td>Recovery / break-glass procedures and re-key authorization</td></tr>
+  </tbody>
+</table>

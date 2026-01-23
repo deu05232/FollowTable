@@ -1,0 +1,16 @@
+<table>
+  <caption>Mapping of AMBT1 tune constraints to ATLAS observables: binning windows and kinematic limits used during tuning.</caption>
+  <thead>
+    <tr><th>Constraint group</th><th>ATLAS observable</th><th>Dataset (√s)</th><th>Event/track phase space used for tune</th><th>Histogram window used in fit</th><th>Purpose in tune</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Central charged activity</td><td>dNch/dη (central plateau)</td><td>0.9 TeV</td><td>Nch≥ 6, pT> 500 MeV</td><td>−2.5 ≤ η ≤ 2.5</td><td>Overall activity normalization</td></tr>
+    <tr><td>dNch/dη (central plateau)</td><td>7 TeV</td><td>Nch≥ 6, pT> 500 MeV</td><td>−2.5 ≤ η ≤ 2.5</td><td>Energy scaling of MPI</td></tr>
+    <tr><td rowspan="2">Soft-to-hard transition</td><td>(1/Nev) dNch/dpT</td><td>0.9 TeV</td><td>Nch≥ 6, |η| < 2.5</td><td>0.5 ≤ pT≤ 5 GeV</td><td>Infrared regularisation / hadronisation interplay</td></tr>
+    <tr><td>(1/Nev) dNch/dpT</td><td>7 TeV</td><td>Nch≥ 6, |η| < 2.5</td><td>0.5 ≤ pT≤ 10 GeV</td><td>Harder tail at higher √s</td></tr>
+    <tr><td rowspan="2">Multiplicity tail</td><td>P(Nch)</td><td>0.9 TeV</td><td>pT> 500 MeV, |η| < 2.5</td><td>6 ≤ Nch≤ 50</td><td>MPI activity in high-Nchevents</td></tr>
+    <tr><td>P(Nch)</td><td>7 TeV</td><td>pT> 500 MeV, |η| < 2.5</td><td>6 ≤ Nch≤ 60</td><td>Energy dependence of tail</td></tr>
+    <tr><td rowspan="2">Low-pTsensitivity</td><td>dNch/dη</td><td>0.9 TeV</td><td>Nch≥ 20, pT> 100 MeV</td><td>−2.5 ≤ η ≤ 2.5</td><td>Very soft particle production</td></tr>
+    <tr><td>P(Nch)</td><td>0.9 TeV</td><td>pT> 100 MeV, |η| < 2.5</td><td>20 ≤ Nch≤ 120</td><td>Constrains extreme multiplicities</td></tr>
+  </tbody>
+</table>

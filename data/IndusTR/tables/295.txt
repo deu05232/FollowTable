@@ -1,0 +1,22 @@
+<table>
+  <caption>Circular Knitting Machine Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Rotate Speed</td><td>RotateSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>r/min</td><td>Actual rotating speed of the cylinder</td><td></td></tr>
+  <tr><td>0X0301</td><td>Number of Completed Circle</td><td>NumberOfCompletedCircle</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>n</td><td>How many rotations the machine has run in real time for the current fabric</td><td></td></tr>
+  <tr><td>0X0302</td><td>Unit Time</td><td>SACProductionTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>一</td><td>S</td><td>Underwear machine, sock machine: actual time required to produce a single piece of fabric</td><td></td></tr>
+  <tr><td>0X0303</td><td>Oil Injection State</td><td>InjectionState</td><td>0</td><td>VAR</td><td>RW</td><td>Byte</td><td></td><td></td><td>一</td><td>0: Off 1: Continuous 2: Second interval 3: Circle interval</td></tr>
+  <tr><td>0X0304</td><td>Total Needle Position Pulses</td><td>TotalNeedlePulses</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td>1</td><td>Set needle position pulses</td><td></td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0305</td><td>Zero Pulse</td><td>ZeroPulse</td><td>0</td><td>VAR</td><td>RW</td><td>Int32</td><td>1</td><td>1</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0306</td><td>Upper Fabric Inspection Lamp</td><td>UpLamp</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td></td><td>丨</td><td>Switch state</td><td>1</td></tr>
+  <tr><td>0X0307</td><td>Lower Fabric Inspection Lamp</td><td>DownLamp</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td>1</td><td>1</td><td>Switch state</td><td>1</td></tr>
+  <tr><td>0X0308</td><td>Upper Section Fan</td><td>UpFan</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td></td><td>一</td><td>Switch state</td><td>1</td></tr>
+  <tr><td>0X0309</td><td>Middle Section Fan</td><td>MidFan</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td>丨</td><td>一</td><td>Fan start/stop state</td><td></td></tr>
+  <tr><td>0X030A</td><td>Take-Up</td><td>TakeUp</td><td>0</td><td>VAR</td><td>RW</td><td>Int32</td><td>1</td><td>丨</td><td>Take-up of the fabric rolling machine</td><td></td></tr>
+  <tr><td>0X030B</td><td>Batching</td><td>Batching</td><td>0</td><td>VAR</td><td>RW</td><td>Int32</td><td></td><td></td><td>Automatically stops fabric batching of the fabric rolling machine when the number of rotations reaches the set value</td><td></td></tr>
+  <tr><td>0X030C</td><td>Suction</td><td>SuctionFan</td><td>0</td><td>VAR</td><td>RW</td><td>Int32</td><td>0~73</td><td>（）</td><td>Opening the suction valve at different angles can adjust the suction value</td><td></td></tr>
+  <tr><td>0X030D</td><td>Oil Shortage Drive</td><td>OilShortageDrive</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td>1</td><td>1</td><td>Switch state</td><td></td></tr>
+  <tr><td>0X030E</td><td>Split Cloth Drive</td><td>SplitClothDrive</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td>1</td><td>1</td><td>Switch state</td><td>1</td></tr>
+  <tr><td>0X030F</td><td>Broken Needle Drive</td><td>BrokenNeedleDrive</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td></td><td>一</td><td>Switch state</td><td></td></tr>
+  <tr><td>0X0310</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>

@@ -1,0 +1,12 @@
+# Adult Blood Pressure Classification (Systolic and Diastolic Thresholds)
+
+| Clinical category | Systolic (mm Hg) range | Diastolic (mm Hg) range | How to classify (using either number) |
+| --- | --- | --- | --- |
+| Low blood pressure (hypotension) | < 90 | < 60 | If SBP is <90 or DBP is <60 (and/or symptoms) |
+| Normal | 90–119 | 60–79 | Both SBP and DBP in these ranges |
+| Elevated (high normal) | 120–129 | < 80 | SBP 120–129 while DBP stays <80 |
+| Hypertension, Stage 1 | 130–139 | 80–89 | If SBP 130–139 or DBP 80–89 |
+| Hypertension, Stage 2 | 140–179 | 90–119 | If SBP 140–179 or DBP 90–119 |
+| Hypertensive crisis (seek urgent care) | ≥ 180 | ≥ 120 | If SBP ≥180 and/or DBP ≥120 |
+| Isolated systolic hypertension (ISH) | ≥ 140 | < 90 | SBP high with DBP not meeting hypertension threshold |
+| Isolated diastolic hypertension (IDH) | < 140 | ≥ 90 | DBP high with SBP not meeting hypertension threshold |

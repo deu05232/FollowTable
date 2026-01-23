@@ -1,0 +1,8 @@
+<table>
+  <caption>ArImageMetadata Get Number of Metadata Tags Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *          SAC</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>image_metadata</td><td>ArImageMetadata *</td><td>Image metadata pointer</td></tr>
+  <tr><td>out_number_of_tags</td><td>int32_t *</td><td>Pointer to the number of metadata tags in the metadata list</td></tr>
+  <tr><td>out_tags</td><td>uint32_t **</td><td>Pointer to the pointer to the metadata tag list, to receive the address of the array where the metadata tags are stored</td></tr>
+</table>

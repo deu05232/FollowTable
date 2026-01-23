@@ -1,0 +1,14 @@
+<table>
+  <caption>Smart Requirements for Measuring Instruments (expanded into measurement principles)</caption>
+  <thead>
+    <tr><th>Top-level Category</th><th>Measuring Principle / Variant</th><th>Smart Feature Requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Measuring Instruments</td><td>Electromagnetic Flowmeter</td><td>Adhesion detection near sensor; signal-to-noise trending; remote parameter backup/restore; alarm history; totalized volume storage.</td></tr>
+    <tr><td>Ultrasonic Flowmeter</td><td>Sound-speed and signal-strength diagnostics; purity/impurity indication; quality metrics with thresholds; event recording; remote firmware update.</td></tr>
+    <tr><td>Thermal Mass Gas Flowmeter</td><td>Condensation and contamination diagnostics; adaptive filtering; baseline learning; maintenance reminders; secure user access levels.</td></tr>
+    <tr><td>Vortex Flowmeter</td><td>Amplitude distribution analysis; steam condensation identification; water-hammer risk flagging; diagnostic accuracy reporting; configurable damping.</td></tr>
+    <tr><td>Gauge/Absolute Pressure Transmitter</td><td>Self-check for sensor drift; zero trim; impulse-line status monitoring (where applicable); process abnormality recording; communication status diagnosis.</td></tr>
+    <tr><td>Differential Pressure Transmitter</td><td>Square-root extraction for flow; auto-zero; plugging detection; diagnostic code table; parameter audit trail and timestamped changes.</td></tr>
+  </tbody>
+</table>

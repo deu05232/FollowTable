@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting Production Time Counters with Pattern/File Identifiers</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Access Permission</th><th>Data Type</th><th>Engineering Unit</th><th>Attribute Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0320</td><td>Running Time</td><td>RunningTime</td><td>RO</td><td>Int32</td><td>min</td><td>Elapsed machine run time for knitting since piece start</td></tr>
+    <tr><td>0x0321</td><td>Needle-Up Idle Time</td><td>NeedleUpIdleTime</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed time in idle while needles are at safe position</td></tr>
+    <tr><td>0x0203</td><td>Pattern Variety Name</td><td>PatternName</td><td>RO</td><td>String</td><td>-</td><td>Name of the currently loaded pattern variety</td></tr>
+    <tr><td>0x0204</td><td>File Number</td><td>FileNumber</td><td>RO</td><td>Int32</td><td>-</td><td>Number of the active process file in local storage</td></tr>
+    <tr><td>0x0205</td><td>File Name</td><td>FileName</td><td>RO</td><td>String</td><td>-</td><td>Filename of the active process file</td></tr>
+    <tr><td>0x0322</td><td>Last Piece Downtime</td><td>LastPieceDowntime</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed paused time during knitting for the previous piece</td></tr>
+    <tr><td>0x0323</td><td>Operator Pause Duration</td><td>OperatorPauseDuration</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed time paused due to operator intervention</td></tr>
+  </tbody>
+</table>

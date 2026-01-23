@@ -1,0 +1,16 @@
+<table>
+  <caption>Trading Party Core Business Identification and Authorization Scope (XHE Envelope Header)</caption>
+  <thead>
+    <tr><th>Data Field</th><th>English Name</th><th>Constraints</th><th>Maximum Occurrences</th><th>Data Type</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Trading Party Identifier</td><td>Trading Party Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Primary identifier of the trading party described by the envelope header (e.g., participant ID).</td></tr>
+    <tr><td>Trading Party Legal Name</td><td>Trading Party Legal Name</td><td>Mandatory</td><td>1</td><td>String</td><td>Registered legal name of the trading party.</td></tr>
+    <tr><td>Trading Party Short Name</td><td>Trading Party Short Name</td><td>Optional</td><td>1</td><td>String</td><td>Common or abbreviated name used for business display.</td></tr>
+    <tr><td>Registration Country Code</td><td>Registration Country Code</td><td>Optional</td><td>1</td><td>String</td><td>Country/region code where the trading party is registered.</td></tr>
+    <tr><td>Business Scope Code</td><td>Business Scope Code</td><td>Mandatory</td><td>N</td><td>String</td><td>Dedicated code representing a permitted business scope for the trading party.</td></tr>
+    <tr><td>Business Scope Description Text</td><td>Business Scope Description Text</td><td>Mandatory</td><td>N</td><td>String</td><td>Human-readable description of the business scope parameters (what the party is allowed to do).</td></tr>
+    <tr><td>Authorization Category Code</td><td>Authorization Category Code</td><td>Optional</td><td>N</td><td>String</td><td>Code indicating the authorization category under which the party operates (e.g., broker, dealer, custodian).</td></tr>
+    <tr><td>Authorization Category Description</td><td>Authorization Category Description</td><td>Optional</td><td>N</td><td>String</td><td>Description of the authorization category and any constraints on activities.</td></tr>
+  </tbody>
+</table>

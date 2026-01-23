@@ -1,0 +1,14 @@
+<table>
+  <caption>Business Form Save API Authentication and Material Metadata Parameters</caption>
+  <thead>
+    <tr><th>Endpoint</th><th>Use Case</th><th>Method</th><th>Auth (Required)</th><th>Form/Material Fields (Required)</th><th>Form/Material Fields (Optional)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>/api/forms/material/save</td><td>Save production material form</td><td>POST</td><td>access_token, userID</td><td>materialName, materialCode</td><td>materialDesc</td></tr>
+    <tr><td>/api/forms/material/update</td><td>Update material form</td><td>POST</td><td>access_token</td><td>formID, materialName</td><td>tags</td></tr>
+    <tr><td>/api/forms/material/submit</td><td>Submit form for approval</td><td>POST</td><td>access_token, userID</td><td>formID, workflowID</td><td>comment</td></tr>
+    <tr><td>/api/forms/material/get</td><td>Get form details</td><td>GET</td><td>access_token</td><td>formID</td><td>includeHistory</td></tr>
+    <tr><td>/api/forms/material/attachments/add</td><td>Add attachments to form</td><td>POST</td><td>access_token</td><td>formID, fileID</td><td>fileType</td></tr>
+    <tr><td>/api/forms/material/delete</td><td>Delete a material form</td><td>POST</td><td>access_token, userID</td><td>formID</td><td>reason</td></tr>
+  </tbody>
+</table>

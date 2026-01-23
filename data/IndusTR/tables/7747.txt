@@ -1,0 +1,16 @@
+<table>
+  <caption>Security Event Coverage Matrix for Intrusion Detectors (Mandatory vs Optional)</caption>
+  <thead>
+    <tr><th rowspan="2">Event / Function</th><th colspan="4">Security Level</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Level 1</th><th>Level 2</th><th>Level 3</th><th>Level 4</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intrusion alarm (basic)</td><td>M</td><td>M</td><td>M</td><td>M</td><td>Alarm output required</td></tr>
+    <tr><td>Tamper switch</td><td>OP</td><td>M</td><td>M</td><td>M</td><td>Cover open detection</td></tr>
+    <tr><td>Low-battery / low-voltage indication</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>Local and remote reporting</td></tr>
+    <tr><td>Communication loss supervision</td><td>OP</td><td>OP</td><td>OP</td><td>M</td><td>Heartbeat monitoring</td></tr>
+    <tr><td>Anti-masking (IR/microwave)</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>Masking detection feature</td></tr>
+    <tr><td>Event log retention</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>Minimum record keeping policy</td></tr>
+    <tr><td>Remote configuration allowed</td><td>OP</td><td>OP</td><td>OP</td><td>OP</td><td>Management feature (non-performance)</td></tr>
+  </tbody>
+</table>

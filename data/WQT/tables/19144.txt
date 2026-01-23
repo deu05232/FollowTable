@@ -1,0 +1,8 @@
+# # Hybrid deployment prerequisites checklist (no before after comparison)
+
+| Item | Required value / note |
+| --- | --- |
+| Exchange version | Exchange Server 2013 or later |
+| Certificates | Public SSL certificate for hybrid endpoints |
+| Federation | Configure federation trust if needed |
+| Connectivity | Inbound/outbound HTTPS to Office 365 |

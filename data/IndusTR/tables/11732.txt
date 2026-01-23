@@ -1,0 +1,16 @@
+<table>
+  <caption>Instrumentation Capability and Setup Thresholds for Measuring Copier/MFD Energy</caption>
+  <thead>
+    <tr><th>Item</th><th>Requirement</th><th>Applies to mode</th><th>Typical value</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Power meter resolution</td><td>≤ 0.01</td><td>Off / Sleep</td><td>0.01</td><td>W</td><td>Use higher resolution for low-power states</td></tr>
+    <tr><td>Power meter accuracy</td><td>≤ 1.0</td><td>All</td><td>0.5</td><td>% of reading</td><td>Include calibration certificate</td></tr>
+    <tr><td>Energy integration time base</td><td>Stable within ±0.1</td><td>All</td><td>±0.05</td><td>%</td><td>Clock drift impacts Wh computation</td></tr>
+    <tr><td>Sampling rate</td><td>≥ 1</td><td>Ready / Sleep</td><td>2</td><td>Hz</td><td>Higher rates for transient capture</td></tr>
+    <tr><td>Current range</td><td>Auto-ranging or manual ranges covering 0.01 to 20</td><td>Warm-up / Ready</td><td>0.01–20</td><td>A</td><td>Avoid range switching during integration</td></tr>
+    <tr><td>Voltage input range</td><td>100 to 240</td><td>All</td><td>230</td><td>V</td><td>Must not clip peaks</td></tr>
+    <tr><td>Allowable mains THD during test</td><td>≤ 5</td><td>All</td><td>3</td><td>%</td><td>Measure THD with power analyzer</td></tr>
+    <tr><td>Ambient temperature</td><td>20 to 25</td><td>All</td><td>23</td><td>°C</td><td>Record at start and end</td></tr>
+  </tbody>
+</table>

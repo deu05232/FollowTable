@@ -1,0 +1,16 @@
+<table>
+  <caption>Business Process — Tracking & Traceability Data Provision to External Parties (Request/Response and Push)</caption>
+  <thead>
+    <tr><th>Step ID</th><th>Trigger Type</th><th>Requesting / Receiving Party</th><th>Data Center Action (Outbound)</th><th>Delivered Content</th><th>Response / Outcome</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Pull (Query)</td><td>Importer / Consignee</td><td>Validate requester identity and entitlement; accept tracking query</td><td>Shipment milestone list (latest event, timestamp, location)</td><td>ACK: Request accepted; Correlation ID returned</td></tr>
+    <tr><td>2</td><td>Pull (Query)</td><td>Exporter / Shipper</td><td>Locate shipment record by booking/container/B/L key; assemble outward view</td><td>Workflow status summary (planned vs actual, exceptions)</td><td>SUCCESS: Status payload returned</td></tr>
+    <tr><td>3</td><td>Pull (Query)</td><td>Freight Forwarder / NVOCC</td><td>Apply visibility scope by role (multi-party shipment)</td><td>Multi-leg tracking view (origin, transshipment, destination legs)</td><td>SUCCESS or PARTIAL: Missing-leg indicator if incomplete</td></tr>
+    <tr><td>4</td><td>Pull (Query)</td><td>Carrier / Shipping Line</td><td>Provide outbound traceability response for a specific container</td><td>Container event history (gate-in/out, load/discharge, vessel event)</td><td>SUCCESS; includes pagination if event list is long</td></tr>
+    <tr><td>5</td><td>Push (Subscription)</td><td>Customs Broker</td><td>Push update when clearance-related status changes</td><td>Release/hold milestone and reference number</td><td>DELIVERED; retry on transient failure up to N times</td></tr>
+    <tr><td>6</td><td>Push (Subscription)</td><td>Port / Terminal Operator</td><td>Publish exception alert outward when ETA/ETD changes beyond threshold</td><td>ETA/ETD delta, reason code, impacted shipment IDs</td><td>DELIVERED or FAILED; failure returns error code</td></tr>
+    <tr><td>7</td><td>Pull (Query)</td><td>Insurance / Risk Manager</td><td>Return traceability proof package on demand</td><td>Signed event log extract + hash (integrity evidence)</td><td>SUCCESS; audit token returned</td></tr>
+    <tr><td>8</td><td>Pull (Query)</td><td>Any authorized business entity</td><td>Reject request when key is invalid or visibility is insufficient</td><td>N/A</td><td>FAILED: NotFound / Unauthorized / InvalidKey</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Traffic Accident Early Warning Record — Mixed Attributes (Time + Location + Severity)</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Traffic Accident Report Receipt Time</td><td>Date</td><td>16</td><td>No</td><td>Yes</td><td>Format shall comply with 6.2</td></tr>
+  <tr><td>2</td><td>Traffic Accident Location</td><td>Character</td><td>1000</td><td>No</td><td>Yes</td><td>Location expression shall comply with GA/T1980—2022</td></tr>
+  <tr><td>3</td><td>Accident Severity Level</td><td>Character</td><td>2</td><td>Yes</td><td>Yes</td><td>Severity level code; shall comply with the local coding table</td></tr>
+  <tr><td>4</td><td>Number of Vehicles Involved</td><td>Integer</td><td>3</td><td>Yes</td><td>Yes</td><td>Non-negative integer</td></tr>
+  <tr><td>5</td><td>Estimated Traffic Recovery Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Format shall comply with 6.2</td></tr>
+  <tr><td>6</td><td>Information Source</td><td>Character</td><td>50</td><td>Yes</td><td>Yes</td><td>e.g., hotline, patrol report, sensor</td></tr>
+</table>

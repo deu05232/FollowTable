@@ -1,0 +1,14 @@
+<table>
+  <caption>Electromagnetic Compatibility (EMC) Immunity Tests for Combustible Gas Alarm Devices</caption>
+  <thead>
+    <tr><th>No.</th><th>EMC test</th><th>Severity level</th><th>Frequency / waveform</th><th>Performance criterion</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Electrostatic discharge (ESD)</td><td>±4 kV contact; ±8 kV air</td><td>IEC 61000-4-2</td><td>No false alarm; auto-recover without user action</td><td>10 discharges per point</td></tr>
+    <tr><td>2</td><td>Radiated RF immunity</td><td>10 V/m</td><td>80–1000 MHz, 80% AM</td><td>Alarm setpoint unchanged; no latch-up</td><td>3 V/m optional for low-grade</td></tr>
+    <tr><td>3</td><td>Electrical fast transient (EFT)</td><td>±1 kV</td><td>5/50 ns bursts, 5 kHz</td><td>No reset; event logged</td><td>Power lines only</td></tr>
+    <tr><td>4</td><td>Surge immunity</td><td>±1 kV line-line; ±2 kV line-earth</td><td>1.2/50 µs</td><td>Continuous monitoring maintained</td><td>AC mains powered units</td></tr>
+    <tr><td>5</td><td>Conducted RF immunity</td><td>10 Vrms</td><td>150 kHz–80 MHz</td><td>No spurious output; self-test passes</td><td>Coupling/decoupling network</td></tr>
+    <tr><td>6</td><td>Power-frequency magnetic field</td><td>30 A/m</td><td>50/60 Hz</td><td>No permanent drift after test</td><td>Applicable to fixed units</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Battery Swap Interface Response: Transaction Outcome and Error Mapping</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Definition</th><th>Type</th><th>Allowed Values</th><th>Description</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Swap Order Number</td><td>swapOrderNo</td><td>string</td><td>Max 64 chars</td><td>Echo of the request order identifier for correlation</td><td>Yes</td></tr>
+    <tr><td>Equipment Code</td><td>batterySwapEquipmentId</td><td>string</td><td>Platform-unique</td><td>Echo of the cabinet/device identifier</td><td>Yes</td></tr>
+    <tr><td>Result</td><td>succStat</td><td>integer</td><td>0=Success; 1=Failure</td><td>Overall operation result</td><td>Yes</td></tr>
+    <tr><td>Error Category</td><td>errorClass</td><td>string</td><td>BUSINESS/DEVICE/NETWORK/SECURITY</td><td>High-level failure classification for troubleshooting</td><td>No</td></tr>
+    <tr><td>Failure Code</td><td>failReasonCode</td><td>integer</td><td>1001/1002/2001/3001/9000</td><td>Enumerated error code returned by the interface</td><td>No</td></tr>
+    <tr><td>Failure Message</td><td>failReasonMsg</td><td>string</td><td>Max 50 chars</td><td>Human-readable failure explanation</td><td>No</td></tr>
+    <tr><td>Retry Recommended</td><td>retryHint</td><td>integer</td><td>0=No; 1=Yes</td><td>Whether client should retry automatically</td><td>No</td></tr>
+    <tr><td>Server Timestamp</td><td>respTime</td><td>string</td><td>ISO-8601</td><td>Time when the platform generated the response</td><td>No</td></tr>
+  </tbody>
+</table>

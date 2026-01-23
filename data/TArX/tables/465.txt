@@ -1,0 +1,21 @@
+<table>
+  <caption>Simulation parameters: total mass, M ; input mass loading, η ; input wind velocity, v w ; total number of particles, N tot ; total number of gas particles in the disc, N disc ; mass of baryonic particles, m b ; mass of dark matter particles, m DM ; gravitational softening of baryonic particles, ϵ b ; gravitational softening of dark matter particles, ϵ DM ; wind feedback included, (Wind); wind particles hydrodynamically decoupled, (Decoupled). Values different from the fiducial ones are shown in bold.</caption>
+  <tr><td>Simulation</td><td>M_(halo)</td><td></td><td>v_(w)</td><td>N_(tot)</td><td>N_(disc)</td><td>m_(b)</td><td>m_(DM)</td><td>ε_(b)</td><td>ε_(DM)</td><td>Wind</td><td>Decoupled</td></tr>
+  <tr><td></td><td>()</td><td></td><td>()</td><td></td><td></td><td>()</td><td>()</td><td>()</td><td>()</td><td></td><td></td></tr>
+  <tr><td>m10</td><td>10^(10)</td><td>2</td><td>600</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(2)</td><td>2.4× 10^(3)</td><td>10</td><td>17</td><td>Y</td><td>N</td></tr>
+  <tr><td>m10nowind</td><td>10^(10)</td><td>–</td><td>–</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(2)</td><td>2.4× 10^(3)</td><td>10</td><td>17</td><td>N</td><td>–</td></tr>
+  <tr><td>m10 1v848</td><td>10^(10)</td><td>1</td><td>848</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(2)</td><td>2.4× 10^(3)</td><td>10</td><td>17</td><td>Y</td><td>N</td></tr>
+  <tr><td>m10 4v424</td><td>10^(10)</td><td>4</td><td>424</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(2)</td><td>2.4× 10^(3)</td><td>10</td><td>17</td><td>Y</td><td>N</td></tr>
+  <tr><td>m10dec</td><td>10^(10)</td><td>2</td><td>600</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(2)</td><td>2.4× 10^(3)</td><td>10</td><td>17</td><td>Y</td><td>Y</td></tr>
+  <tr><td>m10lr008</td><td>10^(10)</td><td>2</td><td>600</td><td>625 061</td><td>29 411</td><td>{4.1× 10^(3)</td><td>{1.9× 10^(4)</td><td>20</td><td>34</td><td>Y</td><td>N</td></tr>
+  <tr><td>m10lr064</td><td>10^(10)</td><td>2</td><td>600</td><td>78 132</td><td>3 676</td><td>{3.3× 10^(4)</td><td>{1.5× 10^(5)</td><td>40</td><td>68</td><td>Y</td><td>N</td></tr>
+  <tr><td>m10lr512</td><td>10^(10)</td><td>2</td><td>600</td><td>9 766</td><td>459</td><td>{2.6× 10^(5)</td><td>{1.2× 10^(6)</td><td>80</td><td>136</td><td>Y</td><td>N</td></tr>
+  <tr><td>m12</td><td>10^(12)</td><td>2</td><td>600</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(4)</td><td>2.4× 10^(5)</td><td>10</td><td>17</td><td>Y</td><td>N</td></tr>
+  <tr><td>m12nowind</td><td>10^(12)</td><td>–</td><td>–</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(4)</td><td>2.4× 10^(5)</td><td>10</td><td>17</td><td>N</td><td>–</td></tr>
+  <tr><td>m12 1v848</td><td>10^(12)</td><td>1</td><td>848</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(4)</td><td>2.4× 10^(5)</td><td>10</td><td>17</td><td>Y</td><td>N</td></tr>
+  <tr><td>m12 4v424</td><td>10^(12)</td><td>4</td><td>424</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(4)</td><td>2.4× 10^(5)</td><td>10</td><td>17</td><td>Y</td><td>N</td></tr>
+  <tr><td>m12dec</td><td>10^(12)</td><td>2</td><td>600</td><td>5000 494</td><td>235 294</td><td>5.1× 10^(4)</td><td>2.4× 10^(5)</td><td>10</td><td>17</td><td>Y</td><td>Y</td></tr>
+  <tr><td>m12lr008</td><td>10^(12)</td><td>2</td><td>600</td><td>625 061</td><td>29 411</td><td>{4.1× 10^(5)</td><td>{1.9× 10^(6)</td><td>20</td><td>34</td><td>Y</td><td>N</td></tr>
+  <tr><td>m12lr064</td><td>10^(12)</td><td>2</td><td>600</td><td>78 132</td><td>3 676</td><td>{3.3× 10^(6)</td><td>{1.5× 10^(7)</td><td>40</td><td>68</td><td>Y</td><td>N</td></tr>
+  <tr><td>m12lr512</td><td>10^(12)</td><td>2</td><td>600</td><td>9 766</td><td>459</td><td>{2.6× 10^(7)</td><td>{1.2× 10^(8)</td><td>80</td><td>136</td><td>Y</td><td>N</td></tr>
+</table>

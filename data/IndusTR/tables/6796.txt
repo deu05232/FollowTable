@@ -1,0 +1,20 @@
+<table>
+  <caption>Cybersecurity Incident Reporting Checklist Fields (Event-Centric)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>What to Provide</th><th>Example Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identification</td><td>Report ID</td><td>Unique identifier for the report to enable tracking and deduplication</td><td>INC-2026-00173</td></tr>
+    <tr><td>Identification</td><td>Event Type</td><td>High-level category of what happened (e.g., phishing, malware, DDoS, unauthorized access)</td><td>Unauthorized Access</td></tr>
+    <tr><td>Timeline</td><td>Occurrence Time (UTC)</td><td>When the event started or first occurred (best-known time)</td><td>2026-01-17T03:22:00Z</td></tr>
+    <tr><td>Timeline</td><td>Discovery Time (UTC)</td><td>When the event was detected/confirmed by your organization</td><td>2026-01-17T04:01:00Z</td></tr>
+    <tr><td>Timeline</td><td>Containment Time (UTC)</td><td>When containment actions were applied (if applicable)</td><td>2026-01-17T05:10:00Z</td></tr>
+    <tr><td>Summary</td><td>Human-Readable Summary</td><td>Short plain-language description of what happened and current status (not just a label)</td><td>Suspicious login from an unrecognized IP led to mailbox access for one user; access was revoked and password reset.</td></tr>
+    <tr><td>Scope</td><td>Affected Asset(s)</td><td>Systems/accounts/services impacted; include identifiers where possible</td><td>O365 mailbox: userA@example.com</td></tr>
+    <tr><td>Scope</td><td>Impact Level</td><td>Operational and/or data impact rating used by your team</td><td>Medium</td></tr>
+    <tr><td>Indicators</td><td>Primary Indicator(s)</td><td>Key observable indicators (IPs, domains, hashes) that support correlation</td><td>IP 203.0.113.55; UA: Outlook/16.0</td></tr>
+    <tr><td>Response</td><td>Actions Taken</td><td>Key steps completed (containment/eradication/recovery) in brief bullet-style text</td><td>Disabled session tokens; reset password; enforced MFA</td></tr>
+    <tr><td>Classification</td><td>Confidence</td><td>How certain you are about the diagnosis/cause</td><td>High</td></tr>
+    <tr><td>Ownership</td><td>Reporter / Contact</td><td>Who to contact for follow-up and their role</td><td>SecOps On-Call (secops@example.com)</td></tr>
+  </tbody>
+</table>

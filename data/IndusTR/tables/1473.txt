@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Component Interface Definition for Verifying Digest Data Signatures</caption>
+  <tr><td>Prototype</td><td>BOOL SOF_VerifySignedHashData(BSTR Base64Cert,BSTR Base64HashData,BSTR SignValue,LONG HashAlg)</td></tr>
+  <tr><td>Description</td><td>Verify a data digest signature. The signature value format is Base64-encoded data type A. If the SM2 algorithm is used to verify the signature, the Base64HashData parameter is the digest value of the SM3 algorithm and should be computed according to the preprocessing procedure specified in GB/T 35276</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>Base64Cert (Base64-encoded signer certificate)</td></tr>
+  <tr><td>Base64HashData (Base64-encoded digest value)</td></tr>
+  <tr><td>SignValue (Base64-encoded signature value)</td></tr>
+  <tr><td>HashAlg (digest algorithm, shall comply with GB/T 33560)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>TRUE (success)</td></tr>
+  <tr><td>FALSE (failure; use SOF_GetLastError to obtain an error code as defined in Table A.1)</td></tr>
+</table>

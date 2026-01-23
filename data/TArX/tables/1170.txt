@@ -1,0 +1,33 @@
+<table>
+  <caption>Cavity, trap and ensemble parameters; coupling strengths; measurement rates; and decoherence rates for the three different experimental scenarios. Parameters set by the experimental design are indicated by *; all other quantities are derived from these parameters and the common values β = 0.5 , q = 0.2 , ω 01 / 2 ⁢ π = 4.5 ⁢ GHz , m = 75 a.m.u., p = 3 ⁢ e ⁢ a 0 , and Υ = 10 - 4 . Effective couplings (denoted by superscript “eff”) are adjusted for ensembles due to the fact that molecules may be located away from the midpoint along the length of the cavity, where the peak of the cavity electric field occurs; if atoms are distributed evenly throughout the length of the cavity, g 1 eff ≈ g 1 / 2 . All relaxation rates are for the first photon emitted by the molecules through the specified channel. All quantities are reported to two significant digits, but true uncertainties are likely much larger.</caption>
+  <tr><th></th><th></th><th></th><th>Experiment</th><th></th></tr>
+  <tr><th>Parameter</th><th>[Units]</th><td>Spectroscopy</td><td>Qubit</td><td>Memory</td></tr>
+  <tr><th colspan="5">Cavity, Trap, and Ensemble Parameters</th></tr>
+  <tr><th>Trap Width*, w</th><th>[μ m]</th><td>1000</td><td>10</td><td>10</td></tr>
+  <tr><th>Trap Depth*, {U_()}e</th><th>[mV]</th><td>100</td><td>100</td><td>100</td></tr>
+  <tr><th>Drive Freq., {Ω_()}2</th><th>[MHz]</th><td>1.3</td><td>130</td><td>130</td></tr>
+  <tr><th>Trap Freq., ω_(t)2</th><th>[MHz]</th><td>0.1</td><td>10</td><td>10</td></tr>
+  <tr><th>Configuration</th><th></th><td>Large Cloud</td><td>Single Ion</td><td>Linear Chain</td></tr>
+  <tr><th>Number of molecules*, N</th><th>[1]</th><td>170,000</td><td>1</td><td>1,700</td></tr>
+  <tr><th>Cryostat Temp.*, T_(c)</th><th>[mK]</th><td>1,500</td><td>20</td><td>20</td></tr>
+  <tr><th>Motional Temp.*, T_()</th><th>[mK]</th><td>1,500</td><td><1</td><td><1</td></tr>
+  <tr><th>Rotational Temp.*, T_()</th><th>[mK]</th><td>1,500</td><td>20</td><td>20</td></tr>
+  <tr><th>Cavity Q Factor*, Q</th><th>[1]</th><td>10^(3)</td><td>10^(6)</td><td>10^(6)</td></tr>
+  <tr><th>Cavity decay rate, 2</th><th>[Hz]</th><td>9.0× 10^(6)</td><td>9.0× 10^(3)</td><td>9× 10^(3)</td></tr>
+  <tr><th colspan="5">Decoherence Rates</th></tr>
+  <tr><th>Suppression factor,</th><th>[1]</th><td>1.5× 10^(-7)</td><td>1.5× 10^(-3)</td><td>1.5× 10^(-3)</td></tr>
+  <tr><th>Thermal, {Γ_()}2</th><th>[Hz]</th><td>4.6× 10^(3)</td><td>1</td><td>1</td></tr>
+  <tr><th>Stray field, Γ_(st)2</th><th>[Hz]</th><td><1</td><td>10</td><td>10</td></tr>
+  <tr><th>Space-charge, {Γ_()}2</th><th>[Hz]</th><td>4.6× 10^(4)</td><td>0</td><td>0</td></tr>
+  <tr><th>Collisional, {Γ_()}2</th><th>[Hz]</th><td><1</td><td>0</td><td><1</td></tr>
+  <tr><th>Buffer gas*, {Γ_()}2</th><th>[Hz]</th><td>3.5× 10^(3)</td><td>0</td><td>0</td></tr>
+  <tr><th>Total rotational, Γ^(rot)_(φ)2</th><th>[Hz]</th><td>51× 10^(4)</td><td>10</td><td>10</td></tr>
+  <tr><th>HFS-encoded, Γ^(HFS)_(φ)2</th><th>[Hz]</th><td></td><td>0.1</td><td>50</td></tr>
+  <tr><th colspan="5">Coupling strengths and detection rate</th></tr>
+  <tr><th>Peak single-ion coupling _(1)2</th><th>[Hz]</th><td>59</td><td>5.9× 10^(3)</td><td>5.9× 10^(3)</td></tr>
+  <tr><th>Eff. single-ion coupling {g_(1)^(eff)2</th><th>[Hz]</th><td>30</td><td>5.9× 10^(3)</td><td>30× 10^(3)</td></tr>
+  <tr><th>Eff. ensemble coupling ^(eff)_(N)2={g_(1)^(eff)}2</th><th>[Hz]</th><td>6.5× 10^(3)</td><td></td><td>170× 10^(5)</td></tr>
+  <tr><th>Cooperativity, C^(eff)={2M_(0)(g^(eff)_(N))^(2)Γ_(2)</th><th>[1]</th><td>1.8× 10^(-4)</td><td>7.7× 10^(2)</td><td>6.4× 10^(5)</td></tr>
+  <tr><th>Cavity-enhanced reset rate , Γ_()2</th><th>[Hz]</th><td>9.4</td><td>7.8× 10^(3)</td><td>4.5× 10^(3)</td></tr>
+  <tr><th>Measurement Rate, {Γ_()}2</th><th>[Hz]</th><td>1.2× 10^(3)</td><td>1.2× 10^(3)</td><td>1.0× 10^(6)</td></tr>
+</table>

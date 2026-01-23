@@ -1,0 +1,14 @@
+<table>
+  <caption>Multiply Operator Tensor Interface Parameters</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Role</th><th>Required</th><th>Tensor/Object</th><th>Shape / Constraint</th><th>DType Rules</th><th>Output Specification</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>Input</td><td>Yes</td><td>Tensor</td><td>Any rank; must be broadcast-compatible with B</td><td>int*, uint*, float*, complex*; A and B same dtype or promoted per type-promotion policy</td><td>Output has broadcasted shape</td></tr>
+    <tr><td>B</td><td>Input</td><td>Yes</td><td>Tensor</td><td>Any rank; must be broadcast-compatible with A</td><td>Same as A</td><td>Output has broadcasted shape</td></tr>
+    <tr><td>Broadcasting</td><td>Attribute</td><td>No</td><td>N/A</td><td>Standard N-D broadcasting rules; scalar allowed (rank-0) as a special case</td><td>N/A</td><td>Determines output shape</td></tr>
+    <tr><td>Rounding Mode</td><td>Attribute</td><td>No</td><td>N/A</td><td>Only applicable when output dtype is integer and promotion involves float->int</td><td>Allowed values: floor, trunc, nearest-even (implementation-defined)</td><td>Affects numeric results, not shape</td></tr>
+    <tr><td>Out</td><td>Output</td><td>Yes</td><td>Tensor</td><td>Shape = broadcast(A.shape, B.shape)</td><td>DType = resolved dtype after promotion/casting rules</td><td>Elementwise product</td></tr>
+    <tr><td>Gradient Contract (optional)</td><td>Contract</td><td>No</td><td>N/A</td><td>If autodiff is enabled: dA = dOut * B, dB = dOut * A with broadcasting reductions as needed</td><td>Grad dtype follows Out dtype (or higher precision per policy)</td><td>Helps validate interface consistency</td></tr>
+  </tbody>
+</table>

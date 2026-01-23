@@ -1,0 +1,14 @@
+<table>
+  <caption>Spherical Harmonic Ionospheric Model Summary (Totals by Component)</caption>
+  <thead>
+    <tr><th>Component</th><th>Included Data Fields</th><th>Total Coefficient Count</th><th>Total Bits</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Thin-shell configuration</td><td>DF473, DF474, DF475</td><td>3 fields</td><td>16</td><td>Model geometry</td></tr>
+    <tr><td>Cosine coefficients (correction)</td><td>DF476 (repeated per n,m)</td><td>varies</td><td>16 × Ncos</td><td>Correction terms</td></tr>
+    <tr><td>Sine coefficients (correction)</td><td>DF477 (repeated per n,m)</td><td>varies</td><td>16 × Nsin</td><td>Correction terms</td></tr>
+    <tr><td>Cosine coefficients (accuracy)</td><td>DF489 (repeated per n,m)</td><td>varies</td><td>8 × Ncos</td><td>Uncertainty terms</td></tr>
+    <tr><td>Sine coefficients (accuracy)</td><td>DF490 (repeated per n,m)</td><td>varies</td><td>8 × Nsin</td><td>Uncertainty terms</td></tr>
+    <tr><td>Overall payload</td><td>All spherical-harmonic sections</td><td>Ntotal</td><td>(16×(Ncos+Nsin)) + (8×(Ncos+Nsin)) + 16</td><td>Excludes header</td></tr>
+  </tbody>
+</table>

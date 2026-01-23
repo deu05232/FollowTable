@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Encryption/Decryption Service Interface Definitions (Data Confidentiality APIs)</caption>
+  <thead>
+    <tr><th>Function</th><th>Prototype</th><th>Key Inputs/Outputs</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SAF_SM9EncryptEx</td><td>int SAF_SM9EncryptEx(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, const unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned int ulAlgID, const unsigned char *pIV, unsigned int ulIVLen, const unsigned char *pucPlain, unsigned int uiPlainLen, unsigned char *pucCipher, unsigned int *puiCipherLen);</td><td>in: uiMasterPublicKeyIndexin: pucUserID/uiUserIDLenout: pucCipher/puiCipherLen</td><td>Performs SM9 IBE encryption; no session negotiation.</td></tr>
+    <tr><td>SAF_SM9DecryptEx</td><td>int SAF_SM9DecryptEx(void *hAppHandle, const char *pucContainerName, unsigned int uiContainerLen, const unsigned char *pucCipher, unsigned int uiCipherLen, unsigned char *pucPlain, unsigned int *puiPlainLen);</td><td>in: container nameout: plaintext</td><td>Uses user private key in container.</td></tr>
+    <tr><td>SAF_SM9KeyEncapsulate</td><td>int SAF_SM9KeyEncapsulate(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, const unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned int uiKeyBits, unsigned char *pucKeyPackage, unsigned int *puiKeyPackageLen, void **phKeyHandle);</td><td>out: key packageout: key handlein: uiKeyBits</td><td>Encapsulation for transport, not interactive agreement.</td></tr>
+    <tr><td>SAF_SM9KeyDecapsulate</td><td>int SAF_SM9KeyDecapsulate(void *hSymmKeyObj, unsigned int uiKeyBits, const unsigned char *pucKeyPackage, unsigned int uiKeyPackageLen, void **phKeyHandle);</td><td>in: uiKeyBitsout: key handle</td><td>Decapsulation using SM9 user key.</td></tr>
+    <tr><td>SAF_DestroyKeyHandle</td><td>int SAF_DestroyKeyHandle(void *hAppHandle, void *hKeyHandle);</td><td>in: hKeyHandle</td><td>Destroys a transient key object.</td></tr>
+    <tr><td>SAF_SM9CipherGetInfo</td><td>int SAF_SM9CipherGetInfo(void *hAppHandle, const unsigned char *pucCipher, unsigned int uiCipherLen, unsigned int *puiAlgID, unsigned int *puiIVLen);</td><td>out: alg idout: IV length</td><td>Metadata parser for ciphertext blob.</td></tr>
+  </tbody>
+</table>

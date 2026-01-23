@@ -1,0 +1,7 @@
+<table>
+  <caption>Emergency Management Beidou System Inspection Initiation Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Inspection Start Time</td><td>34</td><td colspan="3">See 6.1.8</td><td></td></tr>
+  <tr><td>2</td><td>Inspection End Time</td><td>34</td><td colspan="3">See 6.1.8</td><td></td></tr>
+  <tr><td>3</td><td>Superior Unit Name</td><td>12</td><td>Integer</td><td></td><td>1~255</td><td>The organization code shall comply with the provisions of A.1 in Appendix A</td></tr>
+</table>

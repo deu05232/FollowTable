@@ -1,0 +1,16 @@
+<table>
+  <caption>Electric Compressor Overspeed and Thermal Derating Requirements by Nominal Rotational Speed</caption>
+  <thead>
+    <tr><th rowspan="2">Requirement / test outcome</th><th rowspan="2">Acceptance criterion</th><th colspan="2">1800 r/min</th><th colspan="2">3600 r/min</th><th colspan="2">7200 r/min</th></tr>
+    <tr><th>Limit value</th><th>Hold time</th><th>Limit value</th><th>Hold time</th><th>Limit value</th><th>Hold time</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Overspeed withstand test</td><td>Maximum allowable overspeed (relative to nominal)</td><td>+20%</td><td>30 s</td><td>+18%</td><td>30 s</td><td>+15%</td><td>30 s</td></tr>
+    <tr><td>No mechanical interference / no abnormal vibration</td><td>Pass</td><td>—</td><td>Pass</td><td>—</td><td>Pass</td><td>—</td></tr>
+    <tr><td>Post-test insulation resistance (500 VDC)</td><td>≥ 10 MΩ</td><td>≥ 10 MΩ</td><td>—</td><td>≥ 10 MΩ</td><td>—</td><td>≥ 10 MΩ</td><td>—</td></tr>
+    <tr><td rowspan="3">Thermal derating behavior</td><td>Winding temperature limit</td><td>155 °C</td><td>Continuous</td><td>155 °C</td><td>Continuous</td><td>155 °C</td><td>Continuous</td></tr>
+    <tr><td>Derating start temperature</td><td>Reduce power above threshold</td><td>130 °C</td><td>—</td><td>125 °C</td><td>—</td><td>120 °C</td><td>—</td></tr>
+    <tr><td>Maximum allowed power reduction at threshold+20 °C</td><td>Derating magnitude</td><td>≤ 15%</td><td>—</td><td>≤ 20%</td><td>—</td><td>≤ 30%</td><td>—</td></tr>
+    <tr><td colspan="8">Test note: Overspeed test performed at rated voltage and nominal suction/discharge pressure; thermal values refer to embedded winding sensor or validated estimator.</td></tr>
+  </tbody>
+</table>

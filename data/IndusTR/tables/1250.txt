@@ -1,0 +1,12 @@
+<table>
+  <caption>Permissible Range of Voltage and Frequency Fluctuations for Low-Voltage Shore Power Box</caption>
+  <tr><td colspan="2" rowspan="2">Item</td><td rowspan="2">Permissible steady-state deviation</td><td colspan="2">Transient</td></tr>
+  <tr><td>Permissible deviation</td><td>Recovery time</td></tr>
+  <tr><td rowspan="2">Parameters in operation</td><td>AC voltage</td><td>+6%~-10%</td><td>±20%</td><td>1.5 s</td></tr>
+  <tr><td>Frequency</td><td>±5%</td><td>±10%</td><td>5s</td></tr>
+  <tr><td rowspan="3">DC distribution system</td><td>Voltage deviation (continuous)</td><td>±10%</td><td colspan="2"></td></tr>
+  <tr><td>Periodic voltage variation</td><td>5%</td><td colspan="2"></td></tr>
+  <tr><td>Ripple voltage</td><td>10%</td><td colspan="2"></td></tr>
+  <tr><td rowspan="2">Battery system</td><td>Connected to the battery during charging</td><td>+30%～-25%</td><td colspan="2"></td></tr>
+  <tr><td>Not connected to the battery during charging</td><td>+20%～-25%</td><td colspan="2"></td></tr>
+</table>

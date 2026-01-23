@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Frame Data Interface Summary (Paragraph-Style Cells, Not Per-Parameter Rows)</caption>
+  <thead>
+    <tr><th>Topic</th><th>Summary</th><th>Example Signature (Inline)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Camera Pose</td><td>To get the device pose for a frame, pass the session and the frame, and provide a pose object that will be filled. The pose object is reused across frames.</td><td>ArSession*, ArFrame*, ArPose*</td></tr>
+    <tr><td>CPU Camera Image</td><td>Acquire the camera image for CPU access by passing session and frame; an image pointer is returned via an output parameter and must be released when done.</td><td>ArSession*, ArFrame*, ArImage**</td></tr>
+    <tr><td>GPU Texture Name</td><td>The camera texture is exposed as a GL texture name; you provide an output pointer for the texture id to be populated.</td><td>ArSession*, ArFrame*, uint32_t*</td></tr>
+    <tr><td>Lighting</td><td>Lighting estimation is retrieved per-frame by passing an estimate object that gets populated with intensity and color correction.</td><td>ArSession*, ArFrame*, ArLightEstimate*</td></tr>
+    <tr><td>Updated Anchors</td><td>Updated anchors are returned by filling an anchor list object passed as an output parameter.</td><td>ArSession*, ArFrame*, ArAnchorList*</td></tr>
+    <tr><td>Depth Image</td><td>Depth is acquired as an image object via an output image pointer; ownership rules apply similarly to other acquired images.</td><td>ArSession*, ArFrame*, ArImage**</td></tr>
+  </tbody>
+</table>

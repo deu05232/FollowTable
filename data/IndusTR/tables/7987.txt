@@ -1,0 +1,15 @@
+<table>
+  <caption>SM9 Cryptographic Service Interfaces — Signature, Key Agreement, and Key Management (Complete Prototypes)</caption>
+  <thead>
+    <tr><th>Group</th><th>Function Prototype (complete)</th><th>Return</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Signature</td><td>int SAF_SM9Sign(void *hAppHandle, unsigned char *pucContainerName, unsigned int uiContainerLen, unsigned int uiMasterPublicKeyIndex, unsigned char *pucData, unsigned int uiDataLength, unsigned char *pucSignData, unsigned int *puiSignDataLen);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9Verify(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned char *pucData, unsigned int uiDataLength, unsigned char *pucSignData, unsigned int uiSignDataLen);</td><td>int</td></tr>
+    <tr><td rowspan="3">Key Agreement</td><td>int SAF_SM9GenerateAgreementData(void *hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char *pucResponsorID, unsigned int uiResponsorIDLen, unsigned char *pucSponsorTmpPublicKey, unsigned int *puiSponsorTmpPublicKeyLen, void **phAgreementHandle);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9GenerateAgreementDataAndKey(void *hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char *pucSponsorID, unsigned int uiSponsorIDLength, unsigned char *pucSponsorTmpPublicKey, unsigned int *puiSponsorTmpPublicKeyLen, unsigned char *pucResponseTmpPublicKey, unsigned int uiResponseTmpPublicKeyLen, void **phKeyHandle);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9ComputeAgreementKey(void *hSymmKeyObj, void *hAgreementHandle, unsigned char *pucSelfTmpPrivateKey, unsigned int uiSelfTmpPrivateKeyLen, unsigned char *pucPeerTmpPublicKey, unsigned int uiPeerTmpPublicKeyLen, void **phKeyHandle);</td><td>int</td></tr>
+    <tr><td rowspan="2">Key Management</td><td>int SAF_ImportSM9MasterPublicKey(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, unsigned char *pucMasterPublicKey, unsigned int uiMasterPublicKeyLen);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9KeyDecapsulate(void *hSymmKeyObj, unsigned int uiKeyBits, unsigned char *pucKeyPackage, unsigned int ulKeyPackageLen, void **phKeyHandle);</td><td>int</td></tr>
+  </tbody>
+</table>

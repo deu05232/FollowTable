@@ -1,0 +1,10 @@
+<table>
+  <caption>Comparison of total energies required computation times and numbers of iterations for a system of 300 Si and 50 H atoms</caption>
+  <tr><th>Relaxation</th><th>Quantity</th><th>2 LR</th><th>3 LR</th><th>Diagonalization</th></tr>
+  <tr><th>Initial</th><th>Total Energy( eV )</th><td>-12896.83</td><td>-12918.38</td><td>-12932.55</td></tr>
+  <tr><th>(Electrons)</th><th>Computation time(hrs.)</th><td>4.5</td><td>23</td><td></td></tr>
+  <tr><th></th><th>CG steps</th><td>3400</td><td>5500</td><td></td></tr>
+  <tr><th>Electrons</th><th>Total Energy( eV )</th><td>-12958.05</td><td>-12977.68</td><td>-12987.32</td></tr>
+  <tr><th>and Atoms</th><th>Computation time(hrs.)</th><td>6.5</td><td>22</td><td></td></tr>
+  <tr><th></th><th>MD steps</th><td>1848</td><td>1778</td><td></td></tr>
+</table>

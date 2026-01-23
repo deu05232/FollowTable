@@ -1,0 +1,15 @@
+<table>
+  <caption>Harmonic Active Energy Limits with Separate Columns for Reactive Energy and Demand (Mixed Metering Functions)</caption>
+  <thead>
+    <tr><th rowspan="2">Harmonic condition</th><th rowspan="2">Operating point</th><th colspan="3">Active energy error limit (%)</th><th colspan="3">Reactive energy error limit (%)</th><th colspan="3">Maximum demand error limit (%)</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th><th>Class 1</th><th>Class 2</th><th>Class 5</th><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Single harmonic, h = 5, cosΦ = 1.0</td><td>I = 0.2 Imax</td><td>±1.0H</td><td>±2.0H</td><td>±5.0H</td><td>±1.5H</td><td>±2.5H</td><td>±6.0H</td><td>±2.0</td><td>±3.0</td><td>±8.0</td></tr>
+    <tr><td>Single harmonic, h = 7, cosΦ = 1.0</td><td>I = 0.2 Imax</td><td>±1.2H</td><td>±2.2H</td><td>±5.5H</td><td>±1.7H</td><td>±2.7H</td><td>±6.5H</td><td>±2.0</td><td>±3.0</td><td>±8.0</td></tr>
+    <tr><td>Single harmonic, h = 11, cosΦ = 0.5L</td><td>I = 0.5 Imax</td><td>±2.0H</td><td>±3.0H</td><td>±10.0H</td><td>±2.5H</td><td>±3.5H</td><td>±12.0H</td><td>±2.5</td><td>±3.5</td><td>±9.0</td></tr>
+    <tr><td>Combined harmonic, Waveform 1</td><td>I = 1.0 Imax</td><td>±4.0</td><td>±6.0</td><td>±18.0</td><td>±5.0</td><td>±7.0</td><td>±20.0</td><td>±3.0</td><td>±4.0</td><td>±10.0</td></tr>
+    <tr><td>Combined harmonic, Waveform 2</td><td>I = 1.0 Imax</td><td>±4.0</td><td>±6.0</td><td>±18.0</td><td>±5.0</td><td>±7.0</td><td>±20.0</td><td>±3.0</td><td>±4.0</td><td>±10.0</td></tr>
+    <tr><td>Interharmonic-rich waveform (THD-I > 20%)</td><td>I = 0.5 Imax</td><td>±5.0</td><td>±7.0</td><td>±20.0</td><td>±6.0</td><td>±8.0</td><td>±22.0</td><td>±3.5</td><td>±4.5</td><td>±11.0</td></tr>
+  </tbody>
+</table>

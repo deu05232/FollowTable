@@ -1,0 +1,16 @@
+<table>
+  <caption>Agricultural Insurance Claim Payout and Loss Assessment Details (Operational Fields)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Description</th><th>Example Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Claim Basics</td><td>Claim Number</td><td>Internal claim tracking number used in operations</td><td>CLM-2025-001238</td></tr>
+    <tr><td>Claim Basics</td><td>Policyholder Name</td><td>Name of the insured household head</td><td>Li Wei</td></tr>
+    <tr><td>Claim Basics</td><td>Crop Type</td><td>Insured crop category</td><td>Rice</td></tr>
+    <tr><td>Loss Assessment</td><td>Loss Cause</td><td>Primary cause of loss</td><td>Flood</td></tr>
+    <tr><td>Loss Assessment</td><td>Assessed Loss Rate (%)</td><td>Percentage loss determined by adjuster</td><td>35</td></tr>
+    <tr><td>Payout</td><td>Approved Indemnity Amount</td><td>Approved payout amount</td><td>12000 CNY</td></tr>
+    <tr><td>Payout</td><td>Payout Date</td><td>Date the indemnity was paid</td><td>2025-08-16</td></tr>
+    <tr><td>Administration</td><td>Adjuster Notes</td><td>Operational notes recorded during handling</td><td>Field visit completed</td></tr>
+  </tbody>
+</table>

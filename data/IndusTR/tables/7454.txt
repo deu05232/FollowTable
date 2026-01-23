@@ -1,0 +1,17 @@
+<table>
+  <caption>User Terminal Payload-Level Parameters by Service (Addressing, Service IDs, and Subtype Meanings)</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Common (applies to send/receive)</td><td>Sender ID (Intranet)</td><td>1–16777215</td><td>-</td><td>Intranet origin address. Mandatory when the terminal is the source.</td></tr>
+    <tr><td>Recipient ID</td><td>1–16777215</td><td>-</td><td>Intranet destination address. Mandatory for point-to-point delivery.</td></tr>
+    <tr><td>Service Type</td><td>1–4</td><td>-</td><td>1: emergency search & rescue; 2: RNSS position report; 3: text short message; 4: network management message.</td></tr>
+    <tr><td>Payload Encoding</td><td>0–3</td><td>-</td><td>0: ASCII; 1: UTF-8; 2: GBK; 3: binary (opaque bytes). Validate vs payload bytes.</td></tr>
+    <tr><td rowspan="3">Network Management Subtype</td><td>NM Information Type</td><td>1–5</td><td>-</td><td>1: power-on report; 2: power-off report; 3: silence request; 4: unsuccessful communication confirmation; 5: keepalive/heartbeat.</td></tr>
+    <tr><td>NM Target Scope</td><td>0–2</td><td>-</td><td>0: single recipient; 1: group list; 2: broadcast (network-defined).</td></tr>
+    <tr><td>NM Target Count</td><td>0–63</td><td>-</td><td>Number of addressed targets carried in the message; 0 means “use Recipient ID only”.</td></tr>
+    <tr><td rowspan="2">Short Message Options</td><td>Message Class</td><td>0–2</td><td>-</td><td>0: normal; 1: command/control; 2: status/telemetry text.</td></tr>
+    <tr><td>Requested Ack</td><td>0–1</td><td>-</td><td>0: no acknowledgement requested; 1: request ACK from recipient.</td></tr>
+  </tbody>
+</table>

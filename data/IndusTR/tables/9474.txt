@@ -1,0 +1,15 @@
+<table>
+  <caption>Information Container Update Payload (including references)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>string</td><td>Yes</td><td>Unique identifier of the project</td></tr>
+    <tr><td>containerId</td><td>string</td><td>Yes</td><td>Unique identifier of the container</td></tr>
+    <tr><td>name</td><td>string</td><td>No</td><td>Human-readable container name</td></tr>
+    <tr><td>status</td><td>int</td><td>No</td><td>Target status code for state transition</td></tr>
+    <tr><td>contentId</td><td>string</td><td>No</td><td>Identifier of the bound content object</td></tr>
+    <tr><td>ref</td><td>ref</td><td>No</td><td>Single reference to another container</td></tr>
+    <tr><td>refs</td><td>List<ref></td><td>No</td><td>Multiple references to other containers</td></tr>
+  </tbody>
+</table>

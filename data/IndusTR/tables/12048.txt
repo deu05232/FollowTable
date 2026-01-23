@@ -1,0 +1,19 @@
+<table>
+  <caption>Service BOM Relationship Record Schema (Traceable Parent-Child Link Fields)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Description</th><th>Data Type</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Identifiers</td><td>parent_part_number</td><td>Parent part identifier that the child is attached to in the service BOM.</td><td>String</td><td>Yes</td></tr>
+    <tr><td>parent_effectivity_id</td><td>Effectivity/configuration identifier for the parent context (e.g., model/variant applicability).</td><td>String</td><td>No</td></tr>
+    <tr><td>child_part_number</td><td>Child part identifier referenced by the BOM relationship.</td><td>String</td><td>Yes</td></tr>
+    <tr><td>child_reference_designator</td><td>Optional designator/location tag used to distinguish multiple identical children under the same parent.</td><td>String</td><td>No</td></tr>
+    <tr><td rowspan="3">Quantity</td><td>usage_quantity</td><td>Quantity of the child required per parent for service delivery.</td><td>Decimal</td><td>Yes</td></tr>
+    <tr><td>usage_uom</td><td>Unit of measure associated with usage_quantity.</td><td>String</td><td>Yes</td></tr>
+    <tr><td>scrap_factor</td><td>Expected additional consumption factor applied to the relationship quantity (e.g., waste or loss rate).</td><td>Decimal</td><td>No</td></tr>
+    <tr><td rowspan="2">Traceability</td><td>relationship_id</td><td>Unique identifier of the parent-child relationship record (used for referencing and change tracking).</td><td>String</td><td>Yes</td></tr>
+    <tr><td>source_document_id</td><td>Identifier of the specification/drawing/service instruction that defines this parent-child link.</td><td>String</td><td>No</td></tr>
+    <tr><td rowspan="2">Validity</td><td>valid_from</td><td>Date/time when this BOM relationship becomes effective.</td><td>DateTime</td><td>No</td></tr>
+    <tr><td>valid_to</td><td>Date/time when this BOM relationship ends (null means currently effective).</td><td>DateTime</td><td>No</td></tr>
+  </tbody>
+</table>

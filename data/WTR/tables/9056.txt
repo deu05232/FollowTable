@@ -1,0 +1,16 @@
+# Google Product Review Snippet Markup (Schema) with Example Ratings
+
+| Property | Type | Required | Example Value | Description |
+| --- | --- | --- | --- | --- |
+| @context | URL | Yes | https://schema.org | JSON-LD context |
+| @type | Text | Yes | Product | Entity type |
+| name | Text | Yes | Pixel 8 | Product name |
+| aggregateRating.ratingValue | Number | No | 4.6 | Average rating |
+| aggregateRating.ratingCount | Integer | No | 12840 | Total ratings |
+| review.author | Text | No | "A. Smith" | Reviewer name |
+| review.reviewRating.ratingValue | Number | No | 5 | Individual rating |
+| offers.price | Number | No | 699 | Price for offer |
+| offers.priceCurrency | Text | No | USD | Currency |
+| offers.availability | URL | No | https://schema.org/InStock | Stock status |
+| brand.name | Text | No | Google | Brand |
+| sku | Text | No | GA04823-US | SKU |

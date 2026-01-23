@@ -1,0 +1,17 @@
+<table>
+  <caption>Required Credentials and Identity Fields for Device Authentication (Parameter-Level Breakdown)</caption>
+  <thead>
+    <tr><th>Parameter Group</th><th>Field (English)</th><th>Type</th><th>Required</th><th>Example</th><th>Description</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Access Credential</td><td>access_token</td><td>string</td><td>Yes</td><td>eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...</td><td>OAuth-style bearer token used to authorize the API call.</td><td>All device-bound endpoints</td></tr>
+    <tr><td>token_type</td><td>string</td><td>No</td><td>Bearer</td><td>Indicates how the token should be interpreted.</td><td>Header usage (optional)</td></tr>
+    <tr><td rowspan="2">Device Identity</td><td>devID</td><td>string</td><td>Yes</td><td>DEV-0019A7C2</td><td>Unique device identifier bound to the hardware.</td><td>Authentication, query, telemetry, commands</td></tr>
+    <tr><td>device_model</td><td>string</td><td>No</td><td>Sensor-Pro-X</td><td>Helps validate device profile and policy checks.</td><td>Registration/validation flows</td></tr>
+    <tr><td rowspan="3">Device Credential / Proof</td><td>devSign</td><td>string</td><td>Yes</td><td>MEUCIQDo...==</td><td>Signature or certificate blob proving device possession of a private key.</td><td>Device Security Authentication, telemetry upload</td></tr>
+    <tr><td>signature_alg</td><td>string</td><td>No</td><td>RS256</td><td>Algorithm used to compute devSign.</td><td>Signed requests</td></tr>
+    <tr><td>devCertFingerprint</td><td>string</td><td>Conditional</td><td>9F:3A:2C:...:B1</td><td>Certificate fingerprint; required when full certificate is not sent.</td><td>Firmware/update checks, high-security queries</td></tr>
+    <tr><td rowspan="2">Anti-Replay</td><td>timestamp</td><td>integer</td><td>Conditional</td><td>1700000123</td><td>Unix time used in signature base string to prevent replay.</td><td>Any signed request</td></tr>
+    <tr><td>nonce</td><td>string</td><td>Conditional</td><td>c7f1a9d2e3</td><td>Random value included in the signature base string.</td><td>Any signed request</td></tr>
+  </tbody>
+</table>

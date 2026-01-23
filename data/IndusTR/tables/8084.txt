@@ -1,0 +1,15 @@
+<table>
+  <caption>Test checklist — Pass through special areas (generic entry only)</caption>
+  <thead>
+    <tr><th colspan="3">Test Items</th><th colspan="6">Test Scenario Elements</th></tr>
+    <tr><th>Category</th><th>Name</th><th>Sub-scenario</th><th>Road Layer</th><th>Traffic Facility Layer</th><th>Traffic Control Layer</th><th>Lighting and Weather Layer</th><th>Traffic Operation Layer</th><th>Road Monitoring & Communication Layer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Safe and Civilized Driving Capability</td><td rowspan="6">Pass through special areas</td><td>—</td><td>Urban arterial; one-way two lanes; asphalt; dry</td><td>—</td><td>Lane lines</td><td>Daytime; clear</td><td>Mixed traffic</td><td>HD map; GNSS/RTK; V2X available</td></tr>
+    <tr><td>—</td><td>Suburban road; two-way two lanes; asphalt; dry</td><td>—</td><td>Warning signs</td><td>Daytime; cloudy</td><td>Motor vehicles</td><td>HD map; positioning base station</td></tr>
+    <tr><td>—</td><td>Urban road; one-way one lane; cement; dry</td><td>—</td><td>Regulatory signs</td><td>Night; street lighting</td><td>Low traffic</td><td>Roadside CCTV; V2X</td></tr>
+    <tr><td>—</td><td>Expressway segment; one-way three lanes; asphalt; dry</td><td>—</td><td>Guide signs</td><td>Daytime; clear</td><td>High speed flow</td><td>HD map; V2X; base station</td></tr>
+    <tr><td>—</td><td>Urban road; one-way two lanes; asphalt; wet</td><td>—</td><td>Temporary cones</td><td>Daytime; light rain</td><td>Stop-and-go</td><td>V2X intermittent; on-board sensors only</td></tr>
+    <tr><td>—</td><td>Rural road; two-way one lane; asphalt; dry</td><td>—</td><td>—</td><td>Dusk; low illumination</td><td>Mixed traffic</td><td>GNSS only; no V2X</td></tr>
+  </tbody>
+</table>

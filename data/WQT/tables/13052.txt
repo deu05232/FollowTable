@@ -1,0 +1,12 @@
+# Control Characters and ASCII Escape Sequences (C JSON)
+
+| Name | ASCII DEC | ASCII HEX | Escape Sequence | Typical Use |
+|---|---:|---:|---|---|
+| NUL | 0 | 0x00 | \0 | string terminator (C) |
+| TAB | 9 | 0x09 | \t | horizontal tab |
+| LF | 10 | 0x0A | \n | line feed |
+| CR | 13 | 0x0D | \r | carriage return |
+| ESC | 27 | 0x1B | \x1B | escape/start control sequence |
+| DEL | 127 | 0x7F | \x7F | delete |
+| BEL | 7 | 0x07 | \a | bell/alert |
+| BS | 8 | 0x08 | \b | backspace |

@@ -1,0 +1,21 @@
+<table>
+  <caption>Overview of the evolution of the four gas giants after a fly-by, where now either all four planets have the mass of Jupiter (4J) or the planetary masses are each the geometric mean of Jupiter and their original mass (GM). We have divided the systems into different categories, depending on the state of the system immediately after the fly-by. In column 1 we list the categories and in column 2 we list the fraction of all systems which belongs to a given category. In column 3, 4, 5 and 6 we divide the systems from each category into four bins, depending on at what time after the fly-by the first planet was ejected from the system, t eject . In column 3 are systems with t eject < 10 Myr, in column 4 systems with t eject < 30 Myr, in column 5 systems with t eject < 100 Myr and in column 6 are systems from which no planet was ejected in 10 8 years. Its worth pointing out, that for systems in which a planet is ejected immediately in the fly-by, column 4 and 5 are by definition 0, as all such planets have t eject = 0 . Furthermore, the fraction of systems which falls into the categories “Kozai immediately after fly-by”, “AMD unstable immediately after fly-by” and Kozai before close encounter” are in general rather small the uncertainty in these values is rather large, especially in column 3-6. For example, in the case of the geometric mean system, only 1.6 per cent of systems, or 16 simulations, fall into the category AMD unstable immediately after fly-by”, with 3 systems that have t eject < 10 7 years (column 3), 0 systems with 10 7 < t eject < 3 × 10 7 (column 4), 6 systems with 3 × 10 7 < t eject < 10 8 (column 4) and finally 7 systems which are AMD unstable immediately after the fly-by, but from which no planets are ejected within 100 Myr after the fly-by (column 6).</caption>
+  <tr><th></th><th>Situation immediately</th><th colspan="3">t_(eject) (Myr)</th><th>No planet ejection</th></tr>
+  <tr><th></th><td>after flyby</td><td>10</td><td>30</td><td>100</td><td>after 100 Myr</td></tr>
+  <tr><th colspan="6">The geometric mean system, m_(I)=0.6M_()</th></tr>
+  <tr><th>Immediate ejection:</th><td>0.153</td><td>1.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+  <tr><th>Orbit crossing immediately after fly-by:</th><td>0.263</td><td>0.87</td><td>0.11</td><td>0.02</td><td>0.00</td></tr>
+  <tr><th>Kozai immediately after fly-by:</th><td>0.017</td><td>0.23</td><td>0.23</td><td>0.18</td><td>0.36</td></tr>
+  <tr><th>AMD unstable immediately after fly-by:</th><td>0.016</td><td>0.19</td><td>0.00</td><td>0.37</td><td>0.44</td></tr>
+  <tr><th>Kozai before close encounter:</th><td>0.002</td><td>1.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+  <tr><th>Other (unstable):</th><td>0.123</td><td>0.34</td><td>0.42</td><td>0.24</td><td>0.00</td></tr>
+  <tr><th>Other(stable):</th><td>0.426</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.00</td></tr>
+  <tr><th colspan="6">The four Jupiters, m_(I)=0.6M_()</th></tr>
+  <tr><th>Immediate Ejection:</th><td>0.153</td><td>1.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+  <tr><th>Orbit crossing immediately after fly-by:</th><td>0.263</td><td>1.00</td><td>0.00</td><td>0.00</td><td>0.00</td></tr>
+  <tr><th>Kozai immediately after fly-by:</th><td>0.017</td><td>0.80</td><td>0.13</td><td>0.00</td><td>0.07</td></tr>
+  <tr><th>AMD unstable immediately after fly-by:</th><td>0.045</td><td>0.80</td><td>0.03</td><td>0.08</td><td>0.10</td></tr>
+  <tr><th>Kozai before close encounter:</th><td>0.000</td><td>–</td><td>–</td><td>–</td><td>–</td></tr>
+  <tr><th>Other (unstable):</th><td>0.264</td><td>0.60</td><td>0.16</td><td>0.24</td><td>0.00</td></tr>
+  <tr><th>Other(stable):</th><td>0.258</td><td>0.00</td><td>0.00</td><td>0.00</td><td>1.00</td></tr>
+</table>

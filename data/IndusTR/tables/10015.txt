@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Measurement Data Message Definitions (Cell Voltages & Temperatures)</caption>
+  <thead>
+    <tr><th>Group</th><th>Start Byte</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Cell Voltages</td><td>1</td><td>2 bytes</td><td>3110</td><td>#1 Cell battery voltage</td><td>Optional</td></tr>
+    <tr><td>3</td><td>2 bytes</td><td>3111</td><td>#2 Cell battery voltage</td><td>Optional</td></tr>
+    <tr><td>5</td><td>2 bytes</td><td>3112</td><td>#3 Cell battery voltage</td><td>Optional</td></tr>
+    <tr><td>7</td><td>2 bytes</td><td>3113</td><td>#4 Cell battery voltage</td><td>Optional</td></tr>
+    <tr><td rowspan="3">Temperatures</td><td>9</td><td>1 byte</td><td>3120</td><td>Battery pack average temperature</td><td>Optional</td></tr>
+    <tr><td>10</td><td>1 byte</td><td>3121</td><td>Battery pack maximum temperature</td><td>Optional</td></tr>
+    <tr><td>11</td><td>1 byte</td><td>3122</td><td>Battery pack minimum temperature</td><td>Optional</td></tr>
+  </tbody>
+</table>

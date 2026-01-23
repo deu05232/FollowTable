@@ -1,0 +1,16 @@
+<table>
+  <caption>Climate Model Scenarios: Incident Stellar Energy vs. Planetary Albedo and Temperature Outcomes</caption>
+  <thead>
+    <tr><th>Scenario Group</th><th>Case</th><th>Stellar Flux (W/m²)</th><th>Insolation (Earth=1)</th><th>Planetary Albedo</th><th>Effective Temperature (K)</th><th>Global-Mean Surface Temperature (°C)</th><th>Short Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Present-Sun baseline</td><td>Aqua-planet (low clouds)</td><td>1361</td><td>1.00</td><td>0.28</td><td>260</td><td>17.0</td><td>Lower reflectivity, warmer surface</td></tr>
+    <tr><td>Aqua-planet (high clouds)</td><td>1361</td><td>1.00</td><td>0.38</td><td>252</td><td>14.0</td><td>Higher reflectivity, cooler surface</td></tr>
+    <tr><td>Modern-Earth-like</td><td>1361</td><td>1.00</td><td>0.30</td><td>255</td><td>15.0</td><td>Reference-style climate state</td></tr>
+    <tr><td rowspan="3">Faint young Sun</td><td>Early Earth analog (3.8 Ga)</td><td>1040</td><td>0.76</td><td>0.30</td><td>236</td><td>12.0</td><td>Reduced insolation at same albedo</td></tr>
+    <tr><td>Early Earth analog (drier)</td><td>1040</td><td>0.76</td><td>0.26</td><td>240</td><td>14.0</td><td>Lower albedo offsets weaker sunlight</td></tr>
+    <tr><td>Early Earth analog (cloudier)</td><td>1040</td><td>0.76</td><td>0.36</td><td>232</td><td>9.0</td><td>Higher albedo cools further</td></tr>
+    <tr><td rowspan="2">High-insolation cases</td><td>Warm orbit (inner HZ)</td><td>1700</td><td>1.25</td><td>0.30</td><td>270</td><td>26.0</td><td>More incoming energy, hotter surface</td></tr>
+    <tr><td>Warm orbit (bright clouds)</td><td>1700</td><td>1.25</td><td>0.45</td><td>258</td><td>20.0</td><td>High albedo partially compensates</td></tr>
+  </tbody>
+</table>

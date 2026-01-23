@@ -1,0 +1,15 @@
+<table>
+  <caption>Cryptographic Device User Login Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Login（void * hAppHandle,unsigned int uiUsrType,unsigned char * pucContainerName,unsigned int uiContainerNameLen,unsigned char * pucPin,unsigned int uiPinLen,unsigned int * puiRemainCount)</td></tr>
+  <tr><td>Description</td><td>User logs in to the cryptographic device and establishes a security token</td></tr>
+  <tr><td rowspan="7">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>uiUsrType[in](user type; 0 indicates administrator login, 1 indicates user login)</td></tr>
+  <tr><td>pucContainerName[in][key container name (or concatenated value of multiple parameters, concatenated with # # # when multiple parameters) or key index number</td></tr>
+  <tr><td>uiContainerNameLen[in](length of key container name or key index number）</td></tr>
+  <tr><td>pucPin[in](device PIN）</td></tr>
+  <tr><td>uiPinLen[in](device PIN length）</td></tr>
+  <tr><td>puiRemainCount[out](remaining PIN retry count)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>Non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+  <tr><td>Rules</td><td>When using an encryptor or encryption card on the server side, the encryptor or encryption card shall comply with GB/T36322 or GB/T35291. For devices complying with GB/T35291, pucContainerName is used to identify the specified key container name or the concatenated value of multiple parameters. For devices complying with GB/T36322, pucContainerName is used to identify the key location inside the cryptographic device</td></tr>
+</table>

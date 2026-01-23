@@ -1,0 +1,25 @@
+<table>
+  <caption>Stress Classification for Typical Locations of Core Support Structures</caption>
+  <tr><td>Core support structural components</td><td>Location</td><td>Stress source</td><td>Stress type</td><td>Classification</td></tr>
+  <tr><td rowspan="4">Cylindrical shell or spherical shell</td><td rowspan="3">Shell portion SAC away from discontinuities</td><td rowspan="2">Differential pressure</td><td>General membrane stress</td><td>Pm</td></tr>
+  <tr><td>Stress gradient through shell wall thickness</td><td>Q</td></tr>
+  <tr><td>Axial thermal gradient</td><td>Membrane stress bending stress</td><td>QQ</td></tr>
+  <tr><td>Connection to head or flange</td><td>Differential pressure</td><td>Membrane stress bending stress</td><td>QQ</td></tr>
+  <tr><td rowspan="4">Any shell or head</td><td rowspan="2">Any section of the shell</td><td>External load or moment or differential pressure</td><td>General membrane stress averaged over the entire section</td><td>Pm</td></tr>
+  <tr><td>External load or moment</td><td>Bending stress of the entire section; stress component is perpendicular to the cross section</td><td>P</td></tr>
+  <tr><td>Near nozzles or other openings</td><td>External load or moment or differential pressure</td><td>Membrane stress bending stress peak stress (fillet, corner)</td><td>QQF</td></tr>
+  <tr><td>Any location</td><td>Temperature difference between shell and head</td><td>Membrane stress bending stress</td><td>QQ</td></tr>
+  <tr><td rowspan="2">Dished or conical head</td><td>Dished or conical crown</td><td>Differential pressure</td><td>General membrane stress bending stress</td><td>PmPb</td></tr>
+  <tr><td>Knuckle or connection to shell</td><td>Differential pressure</td><td>Membrane stress bending stress</td><td>QQ</td></tr>
+  <tr><td rowspan="2">Flat head</td><td>Central region</td><td>Differential pressure</td><td>General membrane stress bending stress</td><td>PmP</td></tr>
+  <tr><td>Connection to shell</td><td>Differential pressure</td><td>Membrane stress bending stress</td><td>QQ</td></tr>
+  <tr><td rowspan="2">Head or shell with openings</td><td>Typical ligament in a uniformly distributed hole region</td><td>Differential pressure or external load</td><td>Membrane stress (average over the cross section) bending stress (averaged over the plate ligament width but with a gradient through the plate thickness) peak stress</td><td>PmPbF</td></tr>
+  <tr><td>Isolated or non-typical ligament</td><td>Differential pressure</td><td>Membrane stress bending stress peak stress</td><td>QFF</td></tr>
+  <tr><td rowspan="3">Nozzle SAC</td><td>Cross section perpendicular to the nozzle axis</td><td>External load or moment or differential pressure</td><td>General membrane stress bending stress</td><td>PmPm</td></tr>
+  <tr><td rowspan="2">Nozzle wall</td><td>Differential pressure</td><td>General membrane stress membrane stress bending stress peak stress</td><td>PmQQFF</td></tr>
+  <tr><td>Differential expansion</td><td>Membrane stress bending stress peak stress</td><td>QQF</td></tr>
+  <tr><td>Weld overlay</td><td>Any</td><td>Differential expansion</td><td>Membrane stress bending stress</td><td>FF</td></tr>
+  <tr><td>Any</td><td>Any</td><td>Radial thermal gradient b</td><td>Stress caused by the linear equivalent bending portion "stress caused by the nonlinear portion</td><td>QF</td></tr>
+  <tr><td>Any</td><td>Any</td><td>Any</td><td>Stress concentration</td><td>F</td></tr>
+  <tr><td colspan="5">"In shells with a large diameter-to-thickness ratio, wrinkling and excessive deformation shall also be taken into consideration. Possibility of thermal stress ratcheting. 'Equivalent linear stress refers to a linear stress distribution that has the same net bending moment as the actual stress distribution.</td></tr>
+</table>

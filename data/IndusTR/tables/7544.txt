@@ -1,0 +1,14 @@
+<table>
+  <caption>SAF_SM9GenerateAgreementKey (SM9 Key Agreement Session Key Derivation)</caption>
+  <tr><th>Item</th><th>Content</th></tr>
+  <tr><td>Prototype</td><td>int SAF_SM9GenerateAgreementKey(void *hSymmKeyObj, void *hAgreementHandle, unsigned int uiKeyBits, unsigned char *pucSponsorID, unsigned int uiSponsorIDLen, unsigned char *pucResponsorID, unsigned int uiResponsorIDLen, unsigned char *pucResponsorTmpPublicKey, unsigned int uiResponsorTmpPublicKeyLen, void **phKeyHandle);</td></tr>
+  <tr><td>Rules</td><td>Derive the negotiated session key for SM9 key agreement using the agreement handle and both parties' identities and temporary public keys. The SM9 computation process shall comply with GB/T 41389.</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hSymmKeyObj [in] (symmetric algorithm object)</td></tr>
+  <tr><td>hAgreementHandle [in] (agreement context handle returned by agreement data generation)</td></tr>
+  <tr><td>uiKeyBits [in] (session key length in bits)</td></tr>
+  <tr><td>pucSponsorID [in] (sponsor identity)</td></tr>
+  <tr><td>uiSponsorIDLen [in] (sponsor identity length)</td></tr>
+  <tr><td>pucResponsorID [in] (responsor identity)</td></tr>
+  <tr><td>pucResponsorTmpPublicKey [in] (responsor temporary public key)</td></tr>
+  <tr><td>phKeyHandle [out] (returned session key handle)</td></tr>
+</table>

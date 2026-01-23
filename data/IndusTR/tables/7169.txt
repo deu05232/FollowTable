@@ -1,0 +1,17 @@
+<table>
+  <caption>Minimum Recording Specification — Control Commands and Actuator Feedback Signals</caption>
+  <thead>
+    <tr><th>Group</th><th>Signal Name</th><th>Level</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Minimum Recording Capability Range</th><th>Minimum Recording Resolution</th><th>Minimum Recording Accuracy</th><th>Data Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Steering</td><td>Steering wheel angle</td><td>A</td><td>50 Hz</td><td>deg</td><td>-720~720</td><td>0.5</td><td>±2</td><td>Signed angle; positive direction defined by OEM convention.</td></tr>
+    <tr><td>Steering wheel angle rate</td><td>A</td><td>50 Hz</td><td>deg/s</td><td>-1000~1000</td><td>1</td><td>±5</td><td>Derived from steering sensor or ECU-reported rate.</td></tr>
+    <tr><td>Steering assist torque (driver applied)</td><td>B</td><td>20 Hz</td><td>N·m</td><td>-20~20</td><td>0.1</td><td>±10% FS</td><td>Driver torque estimate used by steering controller.</td></tr>
+    <tr><td rowspan="3">Braking</td><td>Brake pedal position</td><td>A</td><td>20 Hz</td><td>%</td><td>0~100</td><td>1</td><td>±2</td><td>Physical pedal travel percentage.</td></tr>
+    <tr><td>Brake pressure (master cylinder)</td><td>A</td><td>50 Hz</td><td>bar</td><td>0~250</td><td>1</td><td>±5</td><td>Hydraulic pressure at master cylinder or equivalent.</td></tr>
+    <tr><td>ABS/ESC active status</td><td>A</td><td>10 Hz</td><td>enum</td><td>0: inactive; 1: active</td><td>Not applicable</td><td>Should have no error</td><td>Indicates stability control intervention.</td></tr>
+    <tr><td rowspan="3">Powertrain</td><td>Accelerator pedal position</td><td>A</td><td>20 Hz</td><td>%</td><td>0~100</td><td>1</td><td>±2</td><td>Driver pedal input (not torque request).</td></tr>
+    <tr><td>Drive torque request (from automated controller)</td><td>A</td><td>50 Hz</td><td>N·m</td><td>-400~400</td><td>1</td><td>±10% FS</td><td>Signed request; negative may represent regenerative braking for electrified vehicles.</td></tr>
+    <tr><td>Current gear / selector state</td><td>A</td><td>10 Hz</td><td>enum</td><td>P,R,N,D,S,M (OEM-defined codes)</td><td>Not applicable</td><td>Should have no error</td><td>Recorded as reported by transmission control unit.</td></tr>
+  </tbody>
+</table>

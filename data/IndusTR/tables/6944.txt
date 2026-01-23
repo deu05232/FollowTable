@@ -1,0 +1,6 @@
+<table>
+  <caption>Frame-only acknowledgment format for the grain monitoring interface</caption>
+  <tr><th>Start Symbol</th><th>Unit Address</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>KADDL</td><td>A0H</td><td>0000H</td><td>xxxx</td><td>16H</td></tr>
+  <tr><td colspan="6">Note: This response contains no application payload; it only confirms reception.</td></tr>
+</table>

@@ -1,0 +1,11 @@
+# SharePoint 2013 2016 Scenario Matrix with Emphasis on Windows Edition Comparison Columns
+
+| SharePoint installation scenario | Recommended RAM | Recommended CPU | Windows Server Foundation supported? | Windows Server Essentials supported? | Windows Server Standard supported? | Windows Server Datacenter supported? | Primary reason to pick edition |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Single-server (dev/test) | 16–24 GB | 64-bit, 4 cores | Yes (with limits) | Yes | Yes | Yes | Cost/licensing preference |
+| Single-server (small prod) | 24 GB | 64-bit, 4 cores | Maybe | Yes | Yes | Yes | User limits and features |
+| Two-tier (WFE+App) | 12–16 GB | 64-bit, 4–8 cores | No | Yes | Yes | Yes | Feature set and virtualization |
+| Three-tier (WFE) | 12 GB | 64-bit, 4 cores | No | No | Yes | Yes | Scalability |
+| Three-tier (App) | 16–24 GB | 64-bit, 8 cores | No | No | Yes | Yes | Service isolation |
+| Database role | 32 GB | 64-bit, 8 cores | No | No | Yes | Yes | SQL workload and virtualization |
+| Search-heavy role | 24–32 GB | 64-bit, 8 cores | No | No | Yes | Yes | Index and crawl performance |

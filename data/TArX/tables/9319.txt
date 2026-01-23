@@ -1,0 +1,16 @@
+<table>
+  <caption>Gibbs Free Energy of Formation at Multiple Conditions with Method-to-Method Comparison</caption>
+  <thead>
+    <tr><th rowspan="2">Species</th><th colspan="2">Thermodynamic Conditions</th><th colspan="3">Computed ΔGf° (kJ/mol)</th><th colspan="2">Experimental ΔGf° (kJ/mol)</th></tr>
+    <tr><th>Temperature (K)</th><th>Pressure (bar)</th><th>DFT (PBE0)</th><th>DFT (B3LYP)</th><th>Force Field (UFF)</th><th>Recommended</th><th>Range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>H2O(l)</td><td>298</td><td>1</td><td>-237.9</td><td>-234.1</td><td>-220.5</td><td>-237.1</td><td>[-238.0, -236.0]</td></tr>
+    <tr><td>CO2(g)</td><td>298</td><td>1</td><td>-395.2</td><td>-391.8</td><td>-370.0</td><td>-394.4</td><td>[-395.0, -393.5]</td></tr>
+    <tr><td>NH3(g)</td><td>298</td><td>1</td><td>-17.6</td><td>-15.1</td><td>-9.8</td><td>-16.5</td><td>[-17.2, -15.8]</td></tr>
+    <tr><td>CH4(g)</td><td>298</td><td>1</td><td>-52.8</td><td>-49.0</td><td>-35.4</td><td>-50.8</td><td>[-51.5, -50.0]</td></tr>
+    <tr><td>H2O(g)</td><td>500</td><td>10</td><td>-205.3</td><td>-201.7</td><td>-188.9</td><td>-204.0</td><td>[-206.0, -202.0]</td></tr>
+    <tr><td>CO2(g)</td><td>500</td><td>10</td><td>-370.6</td><td>-366.2</td><td>-345.5</td><td>-369.0</td><td>[-371.0, -367.0]</td></tr>
+    <tr><td>NH3(g)</td><td>500</td><td>10</td><td>-7.9</td><td>-6.2</td><td>-2.1</td><td>-7.0</td><td>[-7.8, -6.2]</td></tr>
+  </tbody>
+</table>

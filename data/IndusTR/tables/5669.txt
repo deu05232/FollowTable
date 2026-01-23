@@ -1,0 +1,14 @@
+<table>
+  <caption>EPC URI / Network Resolution Pattern for Agricultural Input Product Identifiers</caption>
+  <thead>
+    <tr><th>Network service endpoint</th><th>HTTP method</th><th>Primary identifier parameter pair</th><th>Extended parameter pairs</th><th>Example full URL</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>https://resolver.agri-id.example/lookup</td><td>GET</td><td>ai=01&gtin=N14</td><td>sn=21%2FX..20&lot=10%2FX..20b</td><td>https://resolver.agri-id.example/lookup?ai=01&gtin=01234567890128&sn=ABC123</td><td>Primary pair identifies the trade item; extensions refine record selection</td></tr>
+    <tr><td>https://id.agri.example/epc/resolve</td><td>GET</td><td>01/N14</td><td>21/X..20, 240=N4</td><td>https://id.agri.example/epc/resolve?01=01234567890128&21=SN0000456&240=98</td><td>Parameter keys mirror AIs; values are passed as query string</td></tr>
+    <tr><td>http://api.agri-inputs.example/v1/object</td><td>GET</td><td>00/N18</td><td>10/X..20b, 30=N.., 392=N..</td><td>http://api.agri-inputs.example/v1/object?00=123456789012345678&10=LOT7</td><td>SSCC-style primary key; optional qualifiers supported</td></tr>
+    <tr><td>https://example.com/gs1/resolve</td><td>GET</td><td>epc=urn:epc:id:sgtin:Company.Item.Serial</td><td>format=json&lang=en</td><td>https://example.com/gs1/resolve?epc=urn:epc:id:sgtin:0614141.112345.400&format=json</td><td>Uses EPC URN in a single parameter rather than AI pairs</td></tr>
+    <tr><td>https://directory.agri.example/service</td><td>POST</td><td>payload[01]=N14</td><td>payload[21]=X..20&payload[240]=N4</td><td>https://directory.agri.example/service (body: payload[01]=01234567890128&payload[21]=SN1)</td><td>Form-encoded addressing; designed for online directory lookup</td></tr>
+    <tr><td>https://resolver2.agri-id.example/resolve/{ai}/{value}</td><td>GET</td><td>Path: /01/N14</td><td>Query: 21=X..20&240=N4</td><td>https://resolver2.agri-id.example/resolve/01/01234567890128?21=SN7&240=5</td><td>Mixes path parameters and query parameters for routing</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>C-V2X Message Validation Test Environment Requirements</caption>
+  <thead>
+    <tr><th>Category</th><th>Condition</th><th>Target</th><th>Acceptable Range</th><th>Measurement Tool</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Time Synchronization</td><td>GNSS lock</td><td>Enabled</td><td>Must be maintained</td><td>GNSS simulator</td><td>Holdover < 2 s</td></tr>
+    <tr><td>Network Latency</td><td>One-way delay</td><td>15 ms</td><td>5–30 ms</td><td>Traffic emulator</td><td>Include jitter</td></tr>
+    <tr><td>Packet Loss</td><td>Loss rate</td><td>0.1%</td><td>0–1%</td><td>Packet capture</td><td>Across backhaul</td></tr>
+    <tr><td>RF Channel</td><td>SNR</td><td>18 dB</td><td>12–25 dB</td><td>Spectrum analyzer</td><td>5.9 GHz</td></tr>
+    <tr><td>Temperature</td><td>Ambient</td><td>25 °C</td><td>0–40 °C</td><td>Thermometer</td><td>Lab conditions</td></tr>
+    <tr><td>Logging</td><td>Clock drift</td><td>< 1 ms/min</td><td>—</td><td>Time interval counter</td><td>For traceability</td></tr>
+  </tbody>
+</table>

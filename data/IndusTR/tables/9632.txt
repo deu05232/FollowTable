@@ -1,0 +1,16 @@
+<table>
+  <caption>Signal Flow Mapping for Tire Building Drum and Ply/Bead Assembly Control</caption>
+  <thead>
+    <tr><th>No.</th><th>Station / Control Function</th><th>Primary Real-time Inputs (Feedback)</th><th>Recipe / Target Inputs (Setpoints)</th><th>Logic / Data Processing</th><th>Control Outputs (Setpoints / Commands)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Building Drum Speed Regulation</td><td>Drum encoder speed (rpm), line speed sync feedback</td><td>Drum speed target (rpm), acceleration limit</td><td>Speed error calculation + ramp/limit + PID</td><td>Drum servo speed command, torque limit command</td></tr>
+    <tr><td>2</td><td>Drum Diameter / Expansion Control</td><td>Drum diameter sensor or LVDT position, pneumatic pressure feedback</td><td>Build diameter target, expansion profile (multi-step)</td><td>Step profile interpolation + closed-loop position/pressure trim</td><td>Expansion cylinder valve opening setpoint, expansion position setpoint</td></tr>
+    <tr><td>3</td><td>Ply Tension Control (Unwind)</td><td>Dancer position, web tension load cell, unwind roll diameter estimate</td><td>Tension target, dancer mid-position target</td><td>Tension observer + feedforward (diameter) + PID on dancer</td><td>Unwind brake torque setpoint, unwind motor speed trim</td></tr>
+    <tr><td>4</td><td>Ply Length Registration (Cut-to-Length)</td><td>Material encoder length, cut marker sensor (if used)</td><td>Ply length target, registration offset</td><td>Length comparison + phase compensation</td><td>Cutter trigger timing command, cutter servo position setpoint</td></tr>
+    <tr><td>5</td><td>Splice Overlap Control</td><td>Splice camera/edge sensor overlap estimate, encoder position at splice</td><td>Overlap target, splice window</td><td>Windowed decision + overlap deviation calculation</td><td>Splice roller pressure setpoint, splice roller dwell-time command</td></tr>
+    <tr><td>6</td><td>Bead Seating / Turn-up Positioning</td><td>Turn-up bladder position sensor, bead presence sensor, drum angle encoder</td><td>Turn-up angle target, seating position target</td><td>Interlock checks + position synchronization to drum angle</td><td>Turn-up servo position command, bead seat cylinder extend/retract command</td></tr>
+    <tr><td>7</td><td>Component Centering (Guiding)</td><td>Edge sensors left/right, web center offset</td><td>Centerline target (0 mm), max correction rate</td><td>Offset calculation + rate limit + PID</td><td>Web guiding actuator position setpoint (left/right guide)</td></tr>
+    <tr><td>8</td><td>Safety / Interlock Output Gating</td><td>E-stop status, guard door switches, pressure OK, servo ready</td><td>Interlock enable mask (recipe/PLC)</td><td>Boolean gating + fault latch + safe stop sequence</td><td>Permit-to-run output, safe torque off command, alarm code output</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+# Differentiation Combination Rules for Building Derivatives (Single Variable)
+
+| Section | Input expression | Equivalent structure | Output derivative | Restrictions |
+|---|---|---|---|---|
+| Add/Subtract | D_x( u(x) + v(x) ) | sum of two functions | D_x u + D_x v | u, v differentiable |
+| Add/Subtract | D_x( u(x) - v(x) ) | difference of two functions | D_x u - D_x v | u, v differentiable |
+| Scaling | D_x( k·u(x) ) | constant times function | k·D_x u | k constant |
+| Multiplication | D_x( u(x) v(x) ) | product of two functions | (D_x u) v + u (D_x v) | u, v differentiable |
+| Division | D_x( u(x) / v(x) ) | quotient of two functions | ((D_x u) v - u (D_x v)) / v^2 | v(x) ≠ 0 |
+| Nested | D_x( u(v(x)) ) | outer ∘ inner | (D_u u)(v(x)) · D_x v | u differentiable at v(x); v differentiable |
+| Repeated product | D_x( u(x)·u(x) ) | product with itself | 2u·D_x u | derived via product rule |
+| Inverse relation | If y=f(x) invertible, x=f^{-1}(y) | inverse function setup | (f^{-1})'(y)=1/f'(x) (with x=f^{-1}(y)) | f'(x)≠0; local invertibility |

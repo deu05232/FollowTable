@@ -1,0 +1,8 @@
+<table>
+  <caption>Food Production License Information Data Table</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Description</td><td>Data Type</td><td>Data Format</td><td>Example</td></tr>
+  <tr><td>1</td><td>Food production license number</td><td>Food production license number stated on the food production license</td><td>C</td><td>C16</td><td>SC*＊*16＊＊*＊2＊＊2＊</td></tr>
+  <tr><td>2</td><td>Expiration date of the food production license</td><td>Expiration date stated on the food production license</td><td>YYYYMMDD</td><td>Complies with relevant requirements of GB/T 7408</td><td>20200420</td></tr>
+  <tr><td>3</td><td>License details</td><td></td><td>C</td><td>C..1000</td><td>Puffed food</td></tr>
+  <tr><td>4</td><td>Issuing authority</td><td>Name of the issuing authority stated on the food production license</td><td>C</td><td>C..200</td><td>Beijing Xicheng District Market Supervision Administration</td></tr>
+</table>

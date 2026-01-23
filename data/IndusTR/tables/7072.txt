@@ -1,0 +1,16 @@
+<table>
+  <caption>Vehicle Trajectory Upload Fields for Cooperative Driving</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Data Field</th><th>Unit</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Header</td><td>1</td><td>Vehicle ID</td><td>-</td><td>VHC-00042</td></tr>
+    <tr><td>2</td><td>Timestamp (Start)</td><td>ms</td><td>1700000123456</td></tr>
+    <tr><td>3</td><td>Trajectory Length</td><td>points</td><td>20</td></tr>
+    <tr><td rowspan="5">Point[k]</td><td>4</td><td>Vehicle Position (Latitude/Longitude)</td><td>deg</td><td>31.2304 / 121.4737</td></tr>
+    <tr><td>5</td><td>Altitude</td><td>m</td><td>12.4</td></tr>
+    <tr><td>6</td><td>Speed</td><td>m/s</td><td>15.2</td></tr>
+    <tr><td>7</td><td>Heading</td><td>deg</td><td>87.0</td></tr>
+    <tr><td>8</td><td>Timestamp (Point)</td><td>ms</td><td>1700000123506</td></tr>
+  </tbody>
+</table>

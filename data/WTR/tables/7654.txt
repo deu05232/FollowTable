@@ -1,0 +1,16 @@
+# Google Product Review Markup  Required & Optional Properties (Developer Reference)
+
+| Property | Type | Required | Applies To | Validation Notes | Example Value |
+| --- | --- | --- | --- | --- | --- |
+| itemReviewed.name | Text | Yes | Product | Must match visible product name | "Pixel Buds Pro" |
+| reviewRating.ratingValue | Number | Yes | Review | Must be within best/worst range | 4.6 |
+| reviewRating.bestRating | Number | No | Review | Default is 5 if omitted | 5 |
+| reviewRating.worstRating | Number | No | Review | Default is 1 if omitted | 1 |
+| author.name | Text | Recommended | Review | Use real person or organization | "TechSite" |
+| datePublished | Date | Recommended | Review | ISO-8601 required | 2025-03-18 |
+| publisher.name | Text | No | Review | For editorial reviews | "Example Media" |
+| aggregateRating.ratingValue | Number | Conditional | Product | Only if using AggregateRating | 4.4 |
+| aggregateRating.reviewCount | Integer | Conditional | Product | Total number of reviews | 1287 |
+| url | URL | Recommended | Review | Canonical page URL | https://example.com/reviews/pixel-buds-pro |
+| inLanguage | Text | No | Review | BCP-47 language tag | "en-US" |
+| image | URL | No | Product | Must be crawlable | https://example.com/img/pixel.jpg |

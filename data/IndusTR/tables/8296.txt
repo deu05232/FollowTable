@@ -1,0 +1,15 @@
+<table>
+  <caption>Conformance Run Index (Sequence-Oriented Listing Without Rate Columns)</caption>
+  <thead>
+    <tr><th>Seq. No.</th><th>Test set name</th><th>File identifier</th><th>Group</th><th>Duration (s)</th><th>Pass criteria profile</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Set-A</td><td>setA_case01_music_ref.avsa</td><td>Core</td><td>10</td><td>Profile-1</td></tr>
+    <tr><td>2</td><td>Set-A</td><td>setA_case02_music_lowdelay.avsa</td><td>Core</td><td>10</td><td>Profile-1</td></tr>
+    <tr><td>3</td><td>Set-B</td><td>setB_case01_speech_ref.avsa</td><td>Tools</td><td>8</td><td>Profile-2</td></tr>
+    <tr><td>4</td><td>Set-B</td><td>setB_case02_speech_packetloss.avsa</td><td>Tools</td><td>8</td><td>Profile-2</td></tr>
+    <tr><td>5</td><td>Set-C</td><td>setC_case01_noise_ref.avsa</td><td>Stress</td><td>12</td><td>Profile-3</td></tr>
+    <tr><td>6</td><td>Set-C</td><td>setC_case02_noise_tonals.avsa</td><td>Stress</td><td>12</td><td>Profile-3</td></tr>
+    <tr><td>7</td><td>Set-D</td><td>setD_case01_multich_ref.avsa</td><td>Immersive</td><td>15</td><td>Profile-4</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,26 @@
+<table>
+  <caption>Domestic Service Personnel Basic Information Data Items</caption>
+  <tr><td>Description Item</td><td>Data Type</td><td>Constraint/Condition</td><td>Attribute Description</td><td>Value Domain</td></tr>
+  <tr><td>Basic Information</td><td>Composite</td><td>Required</td><td>A set of information related to the basic situation of service personnel</td><td></td></tr>
+  <tr><td>Name</td><td>String</td><td>Required</td><td>Name of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Gender</td><td>String</td><td>Required</td><td>Gender of the service personnel</td><td>Should comply with the gender names in GB/T 2261.1</td></tr>
+  <tr><td>Age</td><td>Numeric</td><td>Required</td><td>Age of the service personnel</td><td>2-digit integer</td></tr>
+  <tr><td>Ethnicity</td><td>String</td><td>Required</td><td>Ethnicity of the service personnel</td><td>Should comply with the ethnicity names in GB/T 3304</td></tr>
+  <tr><td>Native Place</td><td>String</td><td>Required</td><td>Native place of the service personnel</td><td>Should comply with the administrative division names in GB/T 2260</td></tr>
+  <tr><td>Education Level</td><td>String</td><td>Required</td><td>Education level of the service personnel</td><td>Should comply with the education level names in GB/T 4658</td></tr>
+  <tr><td>ID Photo</td><td>Binary Stream</td><td>Required</td><td>Personal photo of the service personnel</td><td>May be in GIF, JPEG, PNG, etc. formats</td></tr>
+  <tr><td>Mandarin Proficiency</td><td>String</td><td>Optional</td><td>Mandarin proficiency of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Foreign Language Proficiency</td><td>String</td><td>Optional</td><td>Foreign language proficiency of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Identity Verification</td><td>Boolean</td><td>Required</td><td>Whether the service personnel's ID information is authentic</td><td>Yes/No</td></tr>
+  <tr><td>Contact Information</td><td>String</td><td>Required</td><td>Contact information of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Personality Traits</td><td>String</td><td>Optional</td><td>Personality traits of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Social Security Status</td><td>String</td><td>Required</td><td>Status of social security contributions by the service personnel</td><td>Free text</td></tr>
+  <tr><td>Personal Credit</td><td>String</td><td>Required</td><td>Personal credit status of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Marital Status</td><td>String</td><td>Required</td><td>Marital status of the service personnel</td><td>Should comply with the marital status names in GB/T 2261.2</td></tr>
+  <tr><td>Religious Belief</td><td>String</td><td>Required</td><td>Religious belief of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Habits and Preferences</td><td>String</td><td>Required</td><td>Habits and preferences of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Social Honors</td><td>String</td><td>Required</td><td>Honorary titles obtained by the service personnel</td><td>Free text</td></tr>
+  <tr><td>Health Status</td><td>String</td><td>Required</td><td>Health status of the service personnel</td><td>Should comply with the health status names in GB/T 2261.3</td></tr>
+  <tr><td>Medical Examination Report</td><td>Binary Stream</td><td>Required</td><td>Medical examination report issued by a medical institution</td><td>May be in GIF, JPEG, PNG, etc. formats</td></tr>
+  <tr><td>Illegal/Criminal Record</td><td>Binary Stream</td><td>Required</td><td>Relevant certificate issued by the public security authority</td><td>May be in GIF, JPEG, PNG, etc. formats</td></tr>
+</table>

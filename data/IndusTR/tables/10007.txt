@@ -1,0 +1,17 @@
+<table>
+  <caption>APDU Response Status Words (SW1/SW2) — Success and Common Execution Outcomes</caption>
+  <thead>
+    <tr><th>SW1</th><th>SW2</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>90</td><td>00</td><td>Success</td></tr>
+    <tr><td>61</td><td>XX</td><td>Success; XX indicates the number of response data bytes still available (GET RESPONSE recommended)</td></tr>
+    <tr><td>62</td><td>00</td><td>Warning: state unchanged (no specific diagnostic given)</td></tr>
+    <tr><td>62</td><td>82</td><td>Warning: end of file/record reached before reading the expected number of bytes</td></tr>
+    <tr><td>63</td><td>00</td><td>Warning: state changed (no specific diagnostic given)</td></tr>
+    <tr><td>63</td><td>CX</td><td>Warning: state changed; X indicates the number of retries remaining (e.g., PIN/verification attempts)</td></tr>
+    <tr><td>64</td><td>00</td><td>Execution error: state unchanged (no specific diagnostic given)</td></tr>
+    <tr><td>65</td><td>81</td><td>Execution error: memory failure</td></tr>
+    <tr><td>68</td><td>00</td><td>Function in CLA not supported (no specific diagnostic given)</td></tr>
+  </tbody>
+</table>

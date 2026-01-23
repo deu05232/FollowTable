@@ -1,0 +1,15 @@
+<table>
+  <caption>Industrial Application Scenario Communication Requirements Analysis Table</caption>
+  <tr><td>Focus Item</td><td>Actual Information</td><td>Unit</td><td>Necessity</td><td>Description</td></tr>
+  <tr><td>Scenario Name</td><td></td><td>/</td><td>Required</td><td>Name of the application used in the industrial application scenario, corresponding to the scenario name in Table 1</td></tr>
+  <tr><td>Participating Industrial Cellular Terminal Devices</td><td></td><td></td><td>Optional</td><td>List of industrial cellular terminal devices included in the industrial application scenario (device types)</td></tr>
+  <tr><td>Terminal Device Name</td><td></td><td></td><td>Required</td><td>In the industrial application scenario, the name of the industrial cellular terminal device currently being analyzed, which may include manufacturer information, model information, etc.</td></tr>
+  <tr><td>Industrial Cellular Network Access Mode</td><td></td><td></td><td>Optional</td><td>Access to the cellular network via an integrated method or an external method</td></tr>
+  <tr><td>Access Node/Module Model</td><td></td><td></td><td>Optional</td><td>Model of the cellular access node device or model of the cellular module</td></tr>
+  <tr><td>Number of Terminals</td><td></td><td>pcs</td><td>Required</td><td>Number of terminals that have the same communication relationship as the devices listed in the terminal device information</td></tr>
+  <tr><td>Other Similar Device Information</td><td></td><td></td><td>Optional</td><td>List of terminals that have the same communication relationship as the devices listed in the terminal device information</td></tr>
+  <tr><td>Mobility Type</td><td></td><td></td><td>Optional</td><td>In an industrial application scenario, the mobility type that changes the geographic location of industrial cellular terminal devices. Specifically includes: a) Stationary: remains stationary throughout its service life; b) Free mobility: movement time and area are unrestricted; c) Area-restricted mobility: movable within an agreed area; d) Nomadic mobility: stationary during use, and can move during the interval between two uses</td></tr>
+  <tr><td>Mobility Speed</td><td></td><td>km/h</td><td>Optional</td><td>Maximum speed of industrial cellular terminal devices with free mobility or area-restricted mobility in the industrial application scenario</td></tr>
+  <tr><td>Positioning Accuracy</td><td></td><td>m</td><td>Optional</td><td>Maximum deviation between the measured position and the true position of the industrial cellular terminal device, including horizontal positioning accuracy and vertical positioning accuracy</td></tr>
+  <tr><td>Basic Information of Communication Relationship</td><td></td><td></td><td>Required</td><td>See Table 3 for basic information of communication relationships. One industrial cellular terminal device has at least one set of basic communication relationships</td></tr>
+</table>

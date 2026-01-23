@@ -1,0 +1,14 @@
+<table>
+  <caption>ArTrackable_getTrackingState (Retrieve Tracking State Only) — Parameter List</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Pointer to the active AR session associated with the trackable.</td></tr>
+    <tr><td>trackable</td><td>const ArTrackable *</td><td>in</td><td>Pointer to an existing trackable whose current tracking state is requested.</td></tr>
+    <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>out</td><td>Receives the current tracking state value for the trackable.</td></tr>
+    <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>out</td><td>Possible outputs: AR_TRACKING_STATE_TRACKING, AR_TRACKING_STATE_PAUSED, AR_TRACKING_STATE_STOPPED.</td></tr>
+    <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>out</td><td>Caller provides storage; function does not create, return, or modify any lists.</td></tr>
+    <tr><td>trackable</td><td>const ArTrackable *</td><td>in</td><td>Input-only; no filtering, counting, indexing, or anchor retrieval is performed.</td></tr>
+  </tbody>
+</table>

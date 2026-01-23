@@ -1,0 +1,7 @@
+<table>
+  <caption>Knitting Equipment Data Dictionary — Energy Metrics (placeholder types)</caption>
+  <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  <tr><td>0X0510</td><td>Total Power Consumption</td><td>TotalPowerConsumption</td><td>0</td><td>VAR</td><td>RO</td><td>One</td><td></td><td>kW·h</td><td>Cumulative electricity usage</td><td></td></tr>
+  <tr><td>0X0511</td><td>Instant Power</td><td>InstantPower</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td></td><td>kW</td><td>Instantaneous power</td><td></td></tr>
+  <tr><td>0X0512</td><td>Energy Reserve</td><td>EnergyReserve</td><td>0</td><td>VAR</td><td>RO</td><td>N/A</td><td></td><td></td><td>Reserved field</td><td></td></tr>
+</table>

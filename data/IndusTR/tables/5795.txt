@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Lifecycle API Parameters (Creation, Configuration, and Teardown)</caption>
+  <thead>
+    <tr><th>API Call</th><th>Parameter</th><th>Type</th><th>Pointer Semantics</th><th>Runtime Role / What It Represents</th><th>In/Out Direction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_create</td><td>env</td><td>void*</td><td>opaque pointer</td><td>Opaque runtime environment handle used to resolve platform services (e.g., JVM/NDK glue) during session creation.</td><td>In</td></tr>
+    <tr><td>ArSession_create</td><td>context</td><td>void*</td><td>opaque pointer</td><td>Opaque application/platform context handle; identifies the app instance and permissions scope used by the runtime.</td><td>In</td></tr>
+    <tr><td>ArSession_create</td><td>out_session</td><td>ArSession**</td><td>pointer-to-pointer (receives new resource)</td><td>Output location that receives the newly created session handle; the callee allocates/initializes the session and writes its address here.</td><td>Out</td></tr>
+    <tr><td>ArSession_destroy</td><td>session</td><td>ArSession*</td><td>handle pointer</td><td>Session handle identifying the AR runtime instance to be shut down; must be a valid session previously returned by create.</td><td>In</td></tr>
+    <tr><td>ArSession_configure</td><td>session</td><td>ArSession*</td><td>handle pointer</td><td>Target session to apply configuration to; determines which runtime instance will use the provided settings.</td><td>In</td></tr>
+    <tr><td>ArSession_configure</td><td>config</td><td>const ArConfig*</td><td>const pointer (read-only)</td><td>Configuration object containing runtime settings (plane finding, light estimation, update mode, etc.); read by the runtime during configure.</td><td>In</td></tr>
+    <tr><td>ArSession_getConfig</td><td>session</td><td>ArSession*</td><td>handle pointer</td><td>Session whose active configuration is being queried.</td><td>In</td></tr>
+    <tr><td>ArSession_getConfig</td><td>out_config</td><td>ArConfig*</td><td>output pointer to caller-allocated struct/object</td><td>Caller-provided config container to be populated with the session’s current configuration snapshot.</td><td>Out</td></tr>
+  </tbody>
+</table>

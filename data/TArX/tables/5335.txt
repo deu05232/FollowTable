@@ -1,0 +1,10 @@
+<table>
+  <caption>The default ProMC mapping between energy units and int64 (varint) representation, together with the number of bytes used for the encoding.</caption>
+  <tr><th>Energy</th><th>int64 representation</th><th>Nr of bytes</th></tr>
+  <tr><td>0.01 MeV</td><td>1</td><td>1</td></tr>
+  <tr><td>0.1 MeV</td><td>10</td><td>1</td></tr>
+  <tr><td>1 MeV</td><td>100</td><td>2</td></tr>
+  <tr><td>1 GeV</td><td>100 000</td><td>4</td></tr>
+  <tr><td>1 TeV</td><td>100 000 000</td><td>8</td></tr>
+  <tr><td>20 TeV</td><td>2000 000 000</td><td>8</td></tr>
+</table>

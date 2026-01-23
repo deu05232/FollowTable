@@ -1,0 +1,19 @@
+<table>
+  <caption>High-Temperature Operating Test Conditions for Variable Frequency Speed Regulation Equipment (No Humidity Values)</caption>
+  <thead>
+    <tr><th>Test block</th><th>Item</th><th>Condition</th><th>Acceptance / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">General</td><td>Test basis</td><td>GB/T 2423.2, Test Bd (dry heat)</td><td>Execution per laboratory procedure</td></tr>
+    <tr><td>Specimen configuration</td><td>VFD with keypad, cooling fan enabled</td><td>Doors closed</td></tr>
+    <tr><td>Power connection</td><td>Power connected</td><td>Normal operating mode</td></tr>
+    <tr><td rowspan="5">Chamber setup</td><td>Chamber temperature</td><td>55 °C ± 2 °C</td><td>Or manufacturer maximum, whichever is higher</td></tr>
+    <tr><td>Airflow</td><td>0.5 m/s to 1.5 m/s</td><td>Avoid direct jet on sensors</td></tr>
+    <tr><td>Temperature ramp</td><td>1 K/min max</td><td>Record ramp profile</td></tr>
+    <tr><td>Exposure duration</td><td>16 h ± 1 h</td><td>Start after stabilization</td></tr>
+    <tr><td>Temperature measurement accuracy</td><td>± 2 °C</td><td>At least 2 points</td></tr>
+    <tr><td rowspan="3">Operation check</td><td>Output frequency</td><td>30 Hz and 50 Hz steps</td><td>No abnormal oscillation</td></tr>
+    <tr><td>Over-temperature protection</td><td>Shall not trip at rated load</td><td>Unless specified by design</td></tr>
+    <tr><td>Post-test inspection</td><td>Visual + insulation resistance</td><td>No deformation, no odor</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Light Estimation Outputs (Directional + Ambient)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer used to query frame lighting</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer that contains current camera image and tracking state</td></tr>
+    <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Receives the light-estimate object associated with this frame</td></tr>
+    <tr><td>out_main_light_direction_3</td><td>float *</td><td>Receives main directional light direction (x,y,z) in world space</td></tr>
+    <tr><td>out_main_light_intensity_3</td><td>float *</td><td>Receives main directional light intensity (R,G,B) in lumens or normalized units</td></tr>
+    <tr><td>out_ambient_intensity</td><td>float *</td><td>Receives ambient intensity scalar for overall scene brightness</td></tr>
+    <tr><td>out_color_correction_4</td><td>float *</td><td>Receives color correction RGBA (useful for white-balance in rendering)</td></tr>
+  </tbody>
+</table>

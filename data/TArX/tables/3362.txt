@@ -1,0 +1,11 @@
+<table>
+  <caption>Parameters for the simulations of the BNE under different gravity environments.</caption>
+  <tr><th>Parameter</th><th>Earth</th><th>Moon</th><th>Ceres</th><th>Eros</th><th>Low-gravity</th></tr>
+  <tr><th></th><td></td><td></td><td></td><td></td><td>Itokawa &</td></tr>
+  <tr><th></th><td></td><td></td><td></td><td></td><td>P/Hartley 2</td></tr>
+  <tr><th>Surface gravity g\ (m/s^(2))</th><td>9.81</td><td>1.62</td><td>0.27</td><td>5.9× 10^(-3)</td><td>10^(-4)</td></tr>
+  <tr><th>Escape velocity v_(esc)\ (m/s)</th><td>11.2× 10^(3)</td><td>2.38× 10^(3)</td><td>510</td><td>10</td><td>0.17</td></tr>
+  <tr><th>Floor’s velocity v_(floor)\ (m/s)</th><td>0.3 - 10</td><td>0.1 - 3</td><td>0.03 - 1</td><td>0.01 - 0.3</td><td>0.003 - 0.1</td></tr>
+  <tr><th>Duration of displacement dt_(shake)\ (s)</th><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td><td>0.1</td></tr>
+  <tr><th>Time between displacements Δ_(rep)\ (s)</th><td>2</td><td>5</td><td>5</td><td>15</td><td>15</td></tr>
+</table>

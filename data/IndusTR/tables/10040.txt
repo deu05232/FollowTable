@@ -1,0 +1,10 @@
+<table>
+  <caption>Terminal message parameters mixing addressing with service/emergency flags</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>1</td><td>Sender ID</td><td>1~16 777 215</td><td>Originating intranet address</td></tr>
+  <tr><td>2</td><td>Recipient ID</td><td>1~16 777 215</td><td>Destination intranet address</td></tr>
+  <tr><td>3</td><td>Service type / emergency flag</td><td>1~2</td><td>1: emergency search and rescue; 2: position report</td></tr>
+  <tr><td>4</td><td>Priority level</td><td>0~3</td><td>Transmission priority indicator</td></tr>
+  <tr><td>5</td><td>Delivery confirmation flag</td><td>0~1</td><td>0: no confirmation; 1: request confirmation</td></tr>
+  <tr><td>6</td><td>Retry enable flag</td><td>0~1</td><td>0: disable retries; 1: enable retries</td></tr>
+</table>

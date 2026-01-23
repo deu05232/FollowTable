@@ -1,0 +1,16 @@
+<table>
+  <caption>Environment Understanding Outputs Mixed with Session Setup (Non-output Focus)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Setup</td><td>session</td><td>ArSession *</td><td>AR session pointer</td></tr>
+    <tr><td>config</td><td>ArConfig *</td><td>Configuration pointer used to enable features</td></tr>
+    <tr><td>requested_feature_flags</td><td>uint32_t</td><td>Bitmask enabling plane finding, depth, lighting, etc.</td></tr>
+    <tr><td rowspan="3">Lifecycle</td><td>install_sensors</td><td>bool</td><td>Whether to request motion/camera sensors at start</td></tr>
+    <tr><td>run_on_resume</td><td>bool</td><td>Whether to auto-start session on app resume</td></tr>
+    <tr><td>pause_on_background</td><td>bool</td><td>Whether to pause tracking in background</td></tr>
+    <tr><td rowspan="2">Outputs (brief)</td><td>out_dense_spatial_map</td><td>ArDenseSpatialMap **</td><td>Receives a dense spatial mapping object</td></tr>
+    <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Receives a light estimation object for the current frame</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Example Allocation Categories Under the Construction Machinery OID Node (1.2.156.3514)</caption>
+  <thead>
+    <tr><th>Parent OID node</th><th>Allocation category</th><th>Allocated node number / range</th><th>Intended recipient group</th><th>Typical assignee examples</th><th>Notes / allocation rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">1.2.156.3514</td><td>Field common metadata & registries</td><td>1–99</td><td>Internal (industry governance / standards bodies)</td><td>National/industry metadata catalogs, code lists</td><td>Reserved for cross-industry shared dictionaries; centrally maintained</td></tr>
+    <tr><td>Existing identification systems (legacy mappings)</td><td>1001–2000</td><td>Internal (existing ID systems within the sector)</td><td>Handle-like IDs, Ecode-like IDs, sector legacy codes</td><td>Used to map/bridge pre-existing identifier schemes into the OID tree</td></tr>
+    <tr><td>Unified social credit code integration</td><td>1003</td><td>Internal (organization identity binding)</td><td>Organizations using national unified social credit codes</td><td>Single node reserved to anchor organization identifiers (not a product ID)</td></tr>
+    <tr><td>Manufacturer enterprise nodes</td><td>3001–3999</td><td>External (construction machinery manufacturers)</td><td>OEMs, component manufacturers</td><td>One enterprise gets one node; may create product/asset subtrees beneath</td></tr>
+    <tr><td>Testing & certification organizations</td><td>4001–4999</td><td>External (third-party conformity assessment)</td><td>Labs, certification bodies, inspection agencies</td><td>Intended for organizations issuing test reports/certificates and related IDs</td></tr>
+    <tr><td>Industry associations / alliances</td><td>5001–5999</td><td>External (industry coordination)</td><td>Industry associations, alliances, consortia</td><td>For association-level registries and recommended coding services</td></tr>
+    <tr><td>General third-party organization nodes</td><td>6001–10000</td><td>External (other third-party organizations)</td><td>Platform providers, solution vendors, service operators</td><td>Allocated sequentially on request; broad category for non-core recipients</td></tr>
+  </tbody>
+</table>

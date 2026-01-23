@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Communication Signal Catalog (SPN-Centric) without Message Directory</caption>
+  <thead>
+    <tr><th>SPN</th><th>Signal Name</th><th>Description</th><th>Start Byte</th><th>Bit Length</th><th>Resolution</th><th>Range</th><th>Unit</th><th>Presence</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2600</td><td>Protocol Version</td><td>Charging protocol version number</td><td>1</td><td>24</td><td>1</td><td>0..255.255.255</td><td>n/a</td><td>Required</td></tr>
+    <tr><td>2816</td><td>Max Cell Charge Voltage</td><td>Maximum allowable charging voltage of a single cell</td><td>1</td><td>16</td><td>0.001</td><td>0..65.535</td><td>V</td><td>Required</td></tr>
+    <tr><td>2817</td><td>Max Charge Current</td><td>Maximum allowable charging current</td><td>3</td><td>16</td><td>0.1</td><td>0..6553.5</td><td>A</td><td>Required</td></tr>
+    <tr><td>2818</td><td>Nominal Battery Energy</td><td>Nominal total energy of the traction battery</td><td>5</td><td>16</td><td>0.1</td><td>0..6553.5</td><td>kWh</td><td>Required</td></tr>
+    <tr><td>3101</td><td>Cell Voltage #1</td><td>Voltage of cell 1</td><td>1</td><td>16</td><td>0.001</td><td>0..65.535</td><td>V</td><td>Optional</td></tr>
+    <tr><td>3102</td><td>Cell Voltage #2</td><td>Voltage of cell 2</td><td>3</td><td>16</td><td>0.001</td><td>0..65.535</td><td>V</td><td>Optional</td></tr>
+    <tr><td>3103</td><td>Cell Voltage #3</td><td>Voltage of cell 3</td><td>5</td><td>16</td><td>0.001</td><td>0..65.535</td><td>V</td><td>Optional</td></tr>
+  </tbody>
+</table>

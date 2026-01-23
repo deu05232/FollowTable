@@ -1,0 +1,15 @@
+<table>
+  <caption>Operator Kernel Registration Matrix (Missing Required/Optional Status)</caption>
+  <thead>
+    <tr><th>Operator</th><th>Registration Macro</th><th>Backend Kernel Symbol</th><th>Data Types</th><th>Layouts</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Conv2D</td><td>REGISTER_KERNEL</td><td>accel_conv2d</td><td>FP16, FP32</td><td>NCHW</td></tr>
+    <tr><td>GEMM</td><td>REGISTER_KERNEL</td><td>accel_gemm</td><td>FP16, BF16</td><td>RowMajor</td></tr>
+    <tr><td>BatchNorm</td><td>REGISTER_KERNEL</td><td>accel_batchnorm</td><td>FP16, FP32</td><td>NCHW</td></tr>
+    <tr><td>ReLU</td><td>REGISTER_KERNEL</td><td>accel_relu</td><td>FP16, INT8</td><td>NCHW</td></tr>
+    <tr><td>Softmax</td><td>REGISTER_KERNEL</td><td>accel_softmax</td><td>FP16, FP32</td><td>LastDim</td></tr>
+    <tr><td>LayerNorm</td><td>REGISTER_KERNEL</td><td>accel_layernorm</td><td>FP16, BF16</td><td>LastDim</td></tr>
+    <tr><td>ResizeBilinear</td><td>REGISTER_KERNEL</td><td>accel_resize_bilinear</td><td>FP16, FP32</td><td>NHWC</td></tr>
+  </tbody>
+</table>

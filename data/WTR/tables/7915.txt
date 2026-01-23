@@ -1,0 +1,10 @@
+# Cloud VM instances and their CPUs (not laptop processors)
+
+| Provider | Instance type | CPU | vCPU cores | Memory |
+|---|---|---|---:|---|
+| Amazon EC2 | m5.large | Intel Xeon Platinum 8175M | 2 | 8 GB |
+| Amazon EC2 | c5.xlarge | Intel Xeon Platinum 8124M | 4 | 8 GB |
+| Google Cloud | e2-standard-4 | Intel Xeon (varies) | 4 | 16 GB |
+| Azure | D4s v5 | Intel Xeon Platinum 8370C | 4 | 16 GB |
+| DigitalOcean | Premium Intel 4GB | Intel Xeon (varies) | 2 | 4 GB |
+| Oracle Cloud | VM.Standard.E4.Flex | AMD EPYC 7J13 | 4 | 16 GB |

@@ -1,0 +1,14 @@
+<table>
+  <caption>Wave Disaster Warning Colors and Linked Response Actions (Operational Focus)</caption>
+  <thead>
+    <tr><th>Hazard</th><th>Color Level</th><th>Identifier (Code)</th><th>Sign Label</th><th>Meaning (Issuance Criteria)</th><th>Required Actions</th><th>Responsible Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Wave</td><td>Blue</td><td>WAV-ACT-B</td><td>WAVE / BLUE</td><td>Minor wave conditions expected; advisory issuance.</td><td>Increase patrol frequency; notify ports; prepare bulletins.</td><td>Coastal Monitoring Office</td></tr>
+    <tr><td>Yellow</td><td>WAV-ACT-Y</td><td>WAVE / YELLOW</td><td>Moderate wave hazard likely; warning issuance.</td><td>Issue navigation cautions; activate duty roster; verify comms.</td><td>Marine Safety Center</td></tr>
+    <tr><td>Orange</td><td>WAV-ACT-O</td><td>WAVE / ORANGE</td><td>High wave hazard imminent; enhanced warning.</td><td>Recommend suspension of small craft operations; pre-position rescue assets.</td><td>Emergency Operations Desk</td></tr>
+    <tr><td>Red</td><td>WAV-ACT-R</td><td>WAVE / RED</td><td>Severe wave hazard; highest warning.</td><td>Initiate full emergency response; close exposed harbors; dispatch response teams.</td><td>Incident Command</td></tr>
+    <tr><td>All levels</td><td>—</td><td>WAV-WF-01</td><td>Workflow Step 1</td><td>Collect buoy + radar inputs for assessment.</td><td>Data validation and escalation to forecaster.</td><td>Forecast Unit</td></tr>
+    <tr><td>All levels</td><td>—</td><td>WAV-WF-02</td><td>Workflow Step 2</td><td>Disseminate warning via VHF, web, SMS.</td><td>Coordinate distribution channels; log confirmation.</td><td>Communications Unit</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Summary of uncertainties of the relative timing and their relevance for the interferometric cross-correlation beam (CC-beam) analysis</caption>
+  <tr><td>Effect</td><td>amount [ns]</td><td>reducible by</td><td>to [ns]</td><td>relevant for CC-beam</td></tr>
+  <tr><td>ADC sampling frequency</td><td>12.5</td><td>up-sampling</td><td>0.1</td><td>no</td></tr>
+  <tr><td>measurement of relative delays:</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>• repetition on consecutive days</td><td>0.4</td><td></td><td>0.4</td><td>yes</td></tr>
+  <tr><td>• different shapes of calibration pulse</td><td>0.5</td><td></td><td>0.5</td><td>partially</td></tr>
+  <tr><td>• method of pulse time determination</td><td>1.7</td><td></td><td>1.7</td><td>no</td></tr>
+  <tr><td>remaining dispersion after correction</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>for known properties of the filter</td><td>1</td><td></td><td>1</td><td>partially</td></tr>
+  <tr><td>variations of the timing with time:</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>• occasional clock jumps</td><td>1 or 2 samples</td><td>beacon</td><td>0</td><td>(yes)</td></tr>
+  <tr><td></td><td>( 12.5 or 25 ns)</td><td></td><td></td><td></td></tr>
+  <tr><td>• drifts (e.g., summer vs. winter)</td><td>up to 1.5</td><td>beacon</td><td>~ 0.7</td><td>yes</td></tr>
+  <tr><td>total uncertainty (quadratic sum)</td><td>up to ~ 28</td><td></td><td>~ 2.0</td><td>no</td></tr>
+  <tr><td>total uncertainty for cross-correlation beam</td><td></td><td></td><td>0.8 – 1.4</td><td>yes</td></tr>
+</table>

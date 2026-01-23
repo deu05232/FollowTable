@@ -1,0 +1,10 @@
+<table>
+  <caption>Emergency Management Beidou Terminal Disaster Information Report Message Data Format</caption>
+  <tr><td>No.</td><td colspan="2">Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td colspan="2">Task ID</td><td>25</td><td colspan="3">See 6.1.10</td><td></td></tr>
+  <tr><td>2</td><td colspan="2">Disaster Type</td><td>8</td><td>Integer</td><td>一</td><td>1~255</td><td>The disaster type code shall comply with the provisions of A.3</td></tr>
+  <tr><td>3</td><td rowspan="3">Position Information</td><td>Longitude</td><td>39</td><td colspan="3">See 6.1.1</td><td></td></tr>
+  <tr><td>4</td><td>Latitude</td><td>38</td><td colspan="3">See 6.1.2</td><td></td></tr>
+  <tr><td>5</td><td>Altitude</td><td>29</td><td colspan="3">See 6.1.3</td><td></td></tr>
+  <tr><td>6</td><td colspan="2">Disaster Impact</td><td>N×8</td><td>Character</td><td colspan="2"></td><td>Variable length; N is the byte length of the disaster impact</td></tr>
+</table>

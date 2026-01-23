@@ -1,0 +1,18 @@
+<table>
+  <caption>Attribute Sampling Plan for Microstructure Evaluation of Bearing Rings and Rolling Elements</caption>
+  <thead>
+    <tr><th>Microstructure characteristic</th><th>Part / location</th><th>Lot definition</th><th>Lot size (pieces)</th><th>Sample size (n)</th><th>Ac</th><th>Re</th><th>How defects are counted</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Martensite structure (tempered martensite requirement)</td><td>Inner ring raceway</td><td rowspan="2">Same steel grade + same heat-treatment furnace charge</td><td>1–90</td><td>2</td><td>0</td><td>1</td><td>Any piece not meeting structure requirement counts as 1 defective</td></tr>
+    <tr><td>Outer ring raceway</td><td>91–280</td><td>3</td><td>0</td><td>1</td><td>Destructive sample: one ring section per selected piece</td></tr>
+    <tr><td>Carbide distribution / banding</td><td>Inner ring cross-section</td><td>Same melt + same forging batch</td><td>281–500</td><td>5</td><td>0</td><td>1</td><td>评级超出限值即判为不合格（按件计缺陷）</td></tr>
+    <tr><td rowspan="2">Non-metallic inclusions (microscopic rating)</td><td>Outer ring</td><td rowspan="2">Same melt (steel cleanliness control)</td><td>1–150</td><td>3</td><td>0</td><td>1</td><td>Any rating above limit counts as 1 defective piece</td></tr>
+    <tr><td>Rolling elements</td><td>151–500</td><td>8</td><td>1</td><td>2</td><td>Allows 1 defective element; 2 rejects the lot</td></tr>
+    <tr><td>Grinding burn / retempering indication (etch test)</td><td>Inner ring raceway</td><td>Same grinding line + same shift</td><td>501–1200</td><td>13</td><td>0</td><td>1</td><td>Any burn indication above threshold is defective</td></tr>
+    <tr><td>White etching layer (WEL) check</td><td>Outer ring raceway</td><td>Same process condition window</td><td>501–1200</td><td>13</td><td>0</td><td>1</td><td>Count per ring; WEL presence beyond limit = defective</td></tr>
+    <tr><td rowspan="2">Surface decarburization (micrograph measurement)</td><td>Ball (surface)</td><td rowspan="2">Same heat-treatment batch</td><td>1201–3200</td><td>20</td><td>1</td><td>2</td><td>Each tested ball is a unit; Ac/Re per ball</td></tr>
+    <tr><td>Roller (end face)</td><td>1201–3200</td><td>20</td><td>1</td><td>2</td><td>End-face location is included in the same sample unit</td></tr>
+    <tr><td>Subsurface microcracks (metallographic)</td><td>Inner ring raceway</td><td>Same heat-treatment + same final grinding batch</td><td>3201–10000</td><td>32</td><td>0</td><td>1</td><td>Any crack found in any sample rejects the lot</td></tr>
+  </tbody>
+</table>

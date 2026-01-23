@@ -1,0 +1,14 @@
+<table>
+  <caption>Basketball Skill Test Administration  Equipment Calibration & Environmental Conditions</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Required Setting</th><th>Tolerance</th><th>Verification Method</th><th>Record Field</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Timing</td><td>Handheld stopwatch accuracy</td><td>0.01 s resolution</td><td>±0.05 s</td><td>Compare to reference timer</td><td>Calibration date</td></tr>
+    <tr><td>Timing</td><td>Photo-gate alignment</td><td>Beam height 0.8 m</td><td>±0.02 m</td><td>Gauge check</td><td>Inspector ID</td></tr>
+    <tr><td>Video</td><td>Frame rate</td><td>60 fps</td><td>±2 fps</td><td>Camera test clip</td><td>Device serial</td></tr>
+    <tr><td>Environment</td><td>Ambient temperature</td><td>18–24 °C</td><td>±2 °C</td><td>Thermometer reading</td><td>Start time</td></tr>
+    <tr><td>Environment</td><td>Humidity</td><td>40–60%</td><td>±5%</td><td>Hygrometer reading</td><td>End time</td></tr>
+    <tr><td>Surface</td><td>Floor cleanliness</td><td>No visible dust</td><td>N/A</td><td>Visual inspection</td><td>Notes</td></tr>
+  </tbody>
+</table>

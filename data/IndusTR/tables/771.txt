@@ -1,0 +1,6 @@
+<table>
+  <caption>Host Computer Set Grain Condition Control Equipment Status Command Format</caption>
+  <tr><td>Start Symbol</td><td>KADDL(Sub-unit Address)</td><td>Command</td><td>Length</td><td colspan="2">Data Segment</td><td>CRC-16</td><td>End Symbol</td></tr>
+  <tr><td></td><td></td><td></td><td>EC0</td><td>…</td><td colspan="2">ECn</td><td></td></tr>
+  <tr><td colspan="8">Note: Command = C3H, Length = xxxxH. ECn is the status to be set for the nth device.</td></tr>
+</table>

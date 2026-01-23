@@ -1,0 +1,10 @@
+<table>
+  <caption>VR Pose Estimation Test Environment Requirements</caption>
+  <tr><th>Category</th><th>Requirement</th><th>Target Range</th><th>Unit</th><th>Measurement Tool</th><th>Notes</th></tr>
+  <tr><td>Ambient Lighting</td><td>Illuminance</td><td>200-600</td><td>lux</td><td>Lux meter</td><td>Avoid direct sunlight</td></tr>
+  <tr><td>Temperature</td><td>Room temperature</td><td>20-26</td><td>°C</td><td>Thermometer</td><td>Stable for 30 min</td></tr>
+  <tr><td>Humidity</td><td>Relative humidity</td><td>40-60</td><td>%</td><td>Hygrometer</td><td>Non-condensing</td></tr>
+  <tr><td>Vibration</td><td>Floor vibration level</td><td>< 0.05</td><td>g</td><td>Accelerometer</td><td>During capture</td></tr>
+  <tr><td>Network</td><td>Packet loss</td><td>< 0.1</td><td>%</td><td>Ping/iperf</td><td>For remote logging</td></tr>
+  <tr><td>Magnetic Field</td><td>Field disturbance</td><td>< 5</td><td>µT</td><td>Gauss meter</td><td>For IMU fusion stability</td></tr>
+</table>

@@ -1,0 +1,6 @@
+<table>
+  <caption>DECRYPTDATA Command Normal Message First-Frame Data Structure</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Length (byte)</td><td>Description</td></tr>
+  <tr><td>1</td><td>Address (ID)</td><td>SAC    6</td><td>Find the corresponding service ID based on the message type. Unicast: User ID (Unicast ID) Broadcast: Broadcast ID Multicast: Multicast ID</td></tr>
+  <tr><td>2</td><td>Message Ciphertext</td><td>LC-6 or 240</td><td>When the message ciphertext is less than or equal to 249 byte, use "end frame mode" to send all message ciphertext. When the message ciphertext is greater than 249 byte, the first frame uses "intermediate frame mode" to send 240 byte message ciphertext, and the remaining message ciphertext is sent as shown in Table 25</td></tr>
+</table>

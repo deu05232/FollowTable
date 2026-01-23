@@ -1,0 +1,14 @@
+<table>
+  <caption>PE-HD Packaging Recyclability — Decision Escalation Workflow (When Classification Cannot Be Determined)</caption>
+  <thead>
+    <tr><th>Design condition being checked</th><th>Ambiguity trigger</th><th>Immediate action</th><th>Follow-up test procedure</th><th>Responsible party</th><th>Clause / document reference</th><th>Escalation path if still unclear</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Color appears dark/opaque</td><td>NIR sorting confidence < 85%</td><td>Collect 10 samples from lot</td><td>NIR reflectance scan; report confidence distribution</td><td>QA lab</td><td>Sorting SOP S-14, §3.2</td><td>Run MRF + density separation trial</td></tr>
+    <tr><td>Label material unknown</td><td>No supplier declaration</td><td>Request material datasheet</td><td>FTIR on label film + adhesive residue analysis</td><td>Supplier quality</td><td>Incoming Control IC-02, §5</td><td>Hold shipment; require third-party certificate</td></tr>
+    <tr><td>Adhesive wash-off uncertain</td><td>Adhesive remains after warm wash</td><td>Pre-screen in beaker test</td><td>Caustic wash simulation 1% NaOH at 60°C for 30 min</td><td>Process engineer</td><td>Wash Test WT-07, §4</td><td>Pilot flake washing; revise adhesive spec</td></tr>
+    <tr><td>Accessory polymer not marked</td><td>Part marking missing</td><td>Photograph and log component</td><td>DSC melting peak identification</td><td>QA lab</td><td>ISO 11443, §6</td><td>Redesign to mono-material; add marking</td></tr>
+    <tr><td>Multilayer suspicion</td><td>Delamination during grinding</td><td>Quarantine batch</td><td>Cross-section microscopy + thickness measurement</td><td>R&D lab</td><td>Layer ID L-03, §2</td><td>Conduct compatibilizer screening</td></tr>
+    <tr><td>Regrind odor/contamination concern</td><td>VOC level unknown</td><td>Seal samples in jar</td><td>Headspace GC-MS screening</td><td>External lab</td><td>VOC Method V-22</td><td>Downgrade to non-food applications</td></tr>
+  </tbody>
+</table>

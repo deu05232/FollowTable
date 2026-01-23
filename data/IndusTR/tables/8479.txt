@@ -1,0 +1,16 @@
+<table>
+  <caption>Common Meteorological Satellite Imagery Product Codes (Content-Oriented)</caption>
+  <thead>
+    <tr><th>Product (Dataset)</th><th>Identifier</th><th>Typical Content / Notes</th><th>Example Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Full Disk Infrared Brightness Temperature Image</td><td>IRFD</td><td>IR window-channel brightness temperature (Kelvin) over full disk</td><td>Convection monitoring</td></tr>
+    <tr><td>Full Disk Visible Reflectance Image</td><td>VISFD</td><td>Top-of-atmosphere reflectance (unitless/%) over full disk</td><td>Cloud field, daytime</td></tr>
+    <tr><td>Water Vapor Imagery</td><td>WVIM</td><td>Upper-tropospheric water vapor signal / brightness temperature</td><td>Moisture transport</td></tr>
+    <tr><td>true Color Composite</td><td>TCOL</td><td>RGB composite (e.g., VIS/NIR/Red) approximating natural color</td><td>Surface & cloud interpretation</td></tr>
+    <tr><td>Cloud Top Temperature Image</td><td>CTT</td><td>Derived cloud-top temperature (Kelvin)</td><td>Storm intensity proxy</td></tr>
+    <tr><td>Cloud Top Height Product</td><td>CTH</td><td>Derived cloud-top height (km) or pressure (hPa)</td><td>Aviation hazard assessment</td></tr>
+    <tr><td>Sea Surface Temperature Image</td><td>SST</td><td>Derived sea surface temperature (°C/K), often quality-controlled</td><td>Ocean/typhoon analysis</td></tr>
+    <tr><td>Precipitation Rate (Satellite Retrieval)</td><td>PRR</td><td>Instantaneous rain rate (mm/h) estimated from IR/MW methods</td><td>Nowcasting rainfall</td></tr>
+  </tbody>
+</table>

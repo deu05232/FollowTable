@@ -1,0 +1,16 @@
+<table>
+  <caption>Ammonium Nitrate Neutralization & Evaporation Control Targets (One-Sided Limits)</caption>
+  <thead>
+    <tr><th>Process Section</th><th>Control Point</th><th>Indicator</th><th>Alarm/Limit Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Neutralization</td><td>Neutralizer outlet temperature (°C)</td><td>≤ 165</td><td>Upper limit only</td></tr>
+    <tr><td>Neutralizer outlet pH</td><td>≥ 5.8</td><td>Lower limit only</td></tr>
+    <tr><td>Ammonia slip in vent gas (ppm)</td><td>≤ 50</td><td>Upper limit only</td></tr>
+    <tr><td rowspan="3">Evaporation</td><td>Primary evaporator liquor temperature (°C)</td><td>< 155</td><td>Upper limit only</td></tr>
+    <tr><td>Evaporator vacuum (MPa)</td><td>≤ -0.040</td><td>Upper limit only</td></tr>
+    <tr><td>Final liquor concentration (% w/w AN)</td><td>≥ 95.0</td><td>Lower limit only</td></tr>
+    <tr><td rowspan="2">Melt Handling</td><td>Remelt tank temperature (°C)</td><td>≤ 160</td><td>Upper limit only</td></tr>
+    <tr><td>Melt filter differential pressure (kPa)</td><td>≤ 25</td><td>Upper limit only</td></tr>
+  </tbody>
+</table>

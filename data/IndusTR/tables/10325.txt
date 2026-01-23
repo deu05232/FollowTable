@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Tracking State Change and Stop Conditions (Enum Definitions)</caption>
+  <thead>
+    <tr><th>Category</th><th>Description</th><th>Enum constant (name = value)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Tracking state</td><td>Tracking is operating normally</td><td>AR_TRACKING_STATE_TRACKING = 0</td></tr>
+    <tr><td>Tracking is temporarily paused (pose may be stale)</td><td>AR_TRACKING_STATE_PAUSED = 1</td></tr>
+    <tr><td>Tracking is stopped by the runtime</td><td>AR_TRACKING_STATE_STOPPED = 2</td></tr>
+    <tr><td>Tracking is limited / degraded (still running but low quality)</td><td>AR_TRACKING_STATE_LIMITED = 3</td></tr>
+    <tr><td rowspan="4">Stop / loss conditions</td><td>Stopped because the app explicitly requested stop</td><td>AR_TRACKING_STOP_REASON_REQUESTED = 0</td></tr>
+    <tr><td>Stopped because the camera stream was interrupted</td><td>AR_TRACKING_STOP_REASON_CAMERA_UNAVAILABLE = 1</td></tr>
+    <tr><td>Stopped due to runtime reset (e.g., relocalization restart)</td><td>AR_TRACKING_STOP_REASON_SESSION_RESET = 2</td></tr>
+    <tr><td>Stopped because tracking was lost for too long</td><td>AR_TRACKING_STOP_REASON_TRACKING_TIMEOUT = 3</td></tr>
+    <tr><td rowspan="2">State transition hint</td><td>Last pose is still being propagated while paused/limited</td><td>AR_TRACKING_POSE_SOURCE_LAST_KNOWN = 0</td></tr>
+    <tr><td>Pose is updated from current camera tracking</td><td>AR_TRACKING_POSE_SOURCE_CAMERA = 1</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+# iPod Accessory Protocol Packet Layout and Command Reference
+
+| Frame Section | Field | Size (bytes) | Encoding | Example | Required | Description |
+| --- | --- | --- | --- | --- | --- | --- |
+| Preamble | Sync Bytes | 2 | Hex | FF 55 | Yes | Start-of-frame marker |
+| Header | Length | 1 | UInt8 | 0A | Yes | Payload length |
+| Header | Mode | 1 | UInt8 | 02 | Yes | Target mode selector |
+| Header | Command | 2 | UInt16 | 0010 | Yes | Command identifier |
+| Payload | Parameters | 0..n | Var | 01 02 03 | No | Optional command parameters |
+| Trailer | Checksum | 1 | UInt8 | 7C | Yes | 0x100 - sum of bytes in header+payload |
+| Trailer | End Marker | 1 | Hex | 0D | No | Optional end byte (implementation-specific) |

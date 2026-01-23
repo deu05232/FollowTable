@@ -1,0 +1,17 @@
+<table>
+  <caption>BusinessProcess — Integrated Data Center Internal Correlation and Data Enrichment for Traceability</caption>
+  <thead>
+    <tr><th>Layer</th><th>Activity</th><th>Typical Data</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Input</td><td>Normalize identifiers across sources</td><td>Container No., Booking No., BL No., Voyage No.</td></tr>
+    <tr><td>De-duplicate and order events by time</td><td>Event time, location code, source system</td></tr>
+    <tr><td rowspan="3">Processing</td><td>Match using predefined keys</td><td>Key maps (carrier+voyage+container)</td></tr>
+    <tr><td>Enrich with reference/master data</td><td>Port codes, terminal codes, party codes</td></tr>
+    <tr><td>Compute derived status</td><td>Milestone state, ETA/ETD, exception flags</td></tr>
+    <tr><td rowspan="2">Storage</td><td>Persist processed traceability dataset</td><td>Operational store + historical archive</td></tr>
+    <tr><td>Set dataset availability for later use</td><td>Availability flag, version, lineage metadata</td></tr>
+    <tr><td>Outputs (Internal)</td><td>Publish to internal topic / cache</td><td>Internal event bus messages, cache entries</td></tr>
+    <tr><td>Explicit Non-Goal</td><td colspan="2">Does not describe request-response or push distribution to external business entities; only internal processing and combination.</td></tr>
+  </tbody>
+</table>

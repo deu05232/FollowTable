@@ -1,0 +1,28 @@
+<table>
+  <caption>Parameters and settings for the population synthesis.</caption>
+  <tr><th>Quantity</th><th>value</th></tr>
+  <tr><th>Initial disk profile</th><td>Eq. LABEL:eq:newprofile</td></tr>
+  <tr><th>Disk viscosity parameter α</th><td>7× 10^(-3)</td></tr>
+  <tr><th>Inner radius of computational disk</th><td>0.1 AU</td></tr>
+  <tr><th>Outer radius of computational disk</th><td>free</td></tr>
+  <tr><th>Gas surface density at inner radius</th><td>falls to 0</td></tr>
+  <tr><th>New photoevaporation model</th><td>included</td></tr>
+  <tr><th>Irradiation for disk temperature profile</th><td>included</td></tr>
+  <tr><th>Rockline</th><td>not included</td></tr>
+  <tr><th>Iceline</th><td>included</td></tr>
+  <tr><th>Embryo starting mass</th><td>0.6</td></tr>
+  <tr><th>Core density</th><td>variable</td></tr>
+  <tr><th>Radioactive luminosity</th><td>included</td></tr>
+  <tr><th>Envelope type</th><td>primordial H _(2) /He</td></tr>
+  <tr><th>Accretion shock luminosity treatment</th><td>cold accretion</td></tr>
+  <tr><th>dl/dr in the envelope</th><td>zero</td></tr>
+  <tr><th>Grain opacity reduction factor</th><td>0.003</td></tr>
+  <tr><th>Deuterium burning</th><td>not included</td></tr>
+  <tr><th>Envelope evaporation</th><td>not included</td></tr>
+  <tr><th>Type I migration</th><td>non-isothermal</td></tr>
+  <tr><th>Type I migration reduction factor</th><td>none</td></tr>
+  <tr><th>Transition criterion type I to type II</th><td>Crida et al. [ cridamorbidelli2006 ]</td></tr>
+  <tr><th>Stellar mass</th><td>1 M_()</td></tr>
+  <tr><th>Simulation duration</th><td>10 Gyrs</td></tr>
+  <tr><th>Number of embryos per disk</th><td>1</td></tr>
+</table>

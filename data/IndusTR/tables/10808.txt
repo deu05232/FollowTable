@@ -1,0 +1,16 @@
+<table>
+  <caption>Still Image File Format Code Table (Extended)</caption>
+  <thead>
+    <tr><th>Code</th><th>Name</th><th>Description</th><th>Common Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>01</td><td>BMP</td><td>Uncompressed or lightly compressed bitmap image.</td><td>Raw capture / compatibility</td></tr>
+    <tr><td>02</td><td>GIF</td><td>Indexed-color image format; supports simple animation.</td><td>Low-color graphics</td></tr>
+    <tr><td>03</td><td>JPEG/JPG</td><td>Lossy compressed still image format.</td><td>General snapshots</td></tr>
+    <tr><td>04</td><td>PNG</td><td>Lossless compression; supports alpha transparency.</td><td>UI overlays / evidence images</td></tr>
+    <tr><td>05</td><td>TIFF</td><td>Flexible container; often lossless; supports high bit depth.</td><td>Archiving / forensic export</td></tr>
+    <tr><td>06</td><td>WEBP</td><td>Modern format supporting lossy/lossless and alpha.</td><td>Web transport efficiency</td></tr>
+    <tr><td>07</td><td>HEIF/HEIC</td><td>High efficiency still image container based on HEVC.</td><td>Mobile capture</td></tr>
+    <tr><td>08</td><td>RAW (DNG)</td><td>Sensor raw data container, minimally processed.</td><td>High-fidelity acquisition</td></tr>
+  </tbody>
+</table>

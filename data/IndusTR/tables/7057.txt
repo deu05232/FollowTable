@@ -1,0 +1,7 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Attribute definitions (without VR)</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Detector Type</td><td>(0018,7004)</td><td>1</td><td>2</td><td>Type of detector used to acquire projection data</td></tr>
+  <tr><td>Exposure Mode</td><td>(0018,115A)</td><td>1</td><td>1</td><td>Continuous or pulsed exposure</td></tr>
+  <tr><td>Number of Frames</td><td>(0028,0008)</td><td>1</td><td>1</td><td>Number of frames in the multi-frame image</td></tr>
+</table>

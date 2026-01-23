@@ -1,0 +1,14 @@
+<table>
+  <caption>MQTT Connectivity Lab Setup for Logistics M2M (Test Environment Requirements)</caption>
+  <thead>
+    <tr><th>Environment Item</th><th>Requirement</th><th>Acceptable Range</th><th>Measurement Tool</th><th>Sampling Frequency</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Network Latency</td><td>Simulated WAN delay</td><td>20–300 ms</td><td>NetEm</td><td>Per test run</td><td>Profile-based</td></tr>
+    <tr><td>Packet Loss</td><td>Impairment injection</td><td>0–5%</td><td>Traffic shaper</td><td>Per scenario</td><td>Random loss</td></tr>
+    <tr><td>Bandwidth</td><td>Uplink cap</td><td>128 kbps–10 Mbps</td><td>iPerf3</td><td>Hourly</td><td>LTE simulation</td></tr>
+    <tr><td>Device Count</td><td>Concurrent clients</td><td>50–10,000</td><td>Load generator</td><td>Per run</td><td>Ramp-up required</td></tr>
+    <tr><td>Broker Version</td><td>MQTT broker build</td><td>v3.1.1 / v5.0</td><td>Release manifest</td><td>Per change</td><td>Pin versions</td></tr>
+    <tr><td>Time Sync</td><td>NTP offset</td><td>< 50 ms</td><td>Chrony</td><td>Daily</td><td>Audit logs</td></tr>
+  </tbody>
+</table>

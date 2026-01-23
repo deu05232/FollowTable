@@ -1,0 +1,22 @@
+<table>
+  <caption>AR Environment Understanding API — Spatial Mapping / Reconstruction Interface Parameters</caption>
+  <thead>
+    <tr><th>Interface Call</th><th>Parameter</th><th>Type</th><th>Direction</th><th>AR Environment Meaning</th><th>What the Call Expects / Produces</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_createDenseSpatialMap</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle (defines the tracked world and mapping state)</td><td>Must be an initialized session with environment mapping enabled</td></tr>
+    <tr><td>ArSession_createDenseSpatialMap</td><td>out_dense_spatial_map</td><td>ArDenseSpatialMap *</td><td>out</td><td>Dense reconstruction artifact (mesh/geometry representation of the environment)</td><td>API outputs a dense map object bound to the current session</td></tr>
+    <tr><td>ArSession_createSparseSpatialMap</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle</td><td>Uses current tracking to build a sparse map structure</td></tr>
+    <tr><td>ArSession_createSparseSpatialMap</td><td>out_sparse_spatial_map</td><td>ArSparseSpatialMap *</td><td>out</td><td>Sparse mapping artifact (feature/point-based environment representation)</td><td>API outputs a sparse map object capturing environment structure</td></tr>
+    <tr><td>ArFrame_acquireReconstructionForFrame</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle</td><td>Associates the reconstruction with the correct world origin</td></tr>
+    <tr><td>ArFrame_acquireReconstructionForFrame</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame state used to sample current environment understanding results</td><td>Frame must correspond to the same session</td></tr>
+    <tr><td>ArFrame_acquireReconstructionForFrame</td><td>out_reconstruction</td><td>ArDenseSpatialMap *</td><td>out</td><td>Frame-aligned dense reconstruction artifact (current snapshot)</td><td>API returns the reconstruction representation for that frame</td></tr>
+    <tr><td>ArDenseSpatialMap_getMeshSummary</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle</td><td>Used to interpret map coordinates in the session world space</td></tr>
+    <tr><td>ArDenseSpatialMap_getMeshSummary</td><td>dense_spatial_map</td><td>ArDenseSpatialMap *</td><td>in</td><td>Dense reconstruction artifact</td><td>Provides the mesh/geometry source for summary statistics</td></tr>
+    <tr><td>ArDenseSpatialMap_getMeshSummary</td><td>out_vertex_count</td><td>int32</td><td>out</td><td>Environment mesh size (how detailed the reconstruction is)</td><td>API writes the number of vertices representing the environment</td></tr>
+    <tr><td>ArDenseSpatialMap_getMeshSummary</td><td>out_triangle_count</td><td>int32</td><td>out</td><td>Environment mesh complexity</td><td>API writes triangle count for the reconstructed surface</td></tr>
+    <tr><td>ArSparseSpatialMap_getPointCloudInfo</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle</td><td>Ensures point cloud is interpreted in the correct world frame</td></tr>
+    <tr><td>ArSparseSpatialMap_getPointCloudInfo</td><td>sparse_spatial_map</td><td>ArSparseSpatialMap *</td><td>in</td><td>Sparse mapping artifact</td><td>Supplies the feature/point representation of the environment</td></tr>
+    <tr><td>ArSparseSpatialMap_getPointCloudInfo</td><td>out_point_count</td><td>int32</td><td>out</td><td>Number of tracked environment feature points</td><td>API writes the point count currently available in the map</td></tr>
+  </tbody>
+</table>

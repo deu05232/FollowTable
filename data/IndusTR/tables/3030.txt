@@ -1,0 +1,11 @@
+<table>
+  <caption>Production Equipment Settings for Punching and Bending Packaging Container Metal Accessories</caption>
+  <tr><th>Process Step</th><th>Machine Type</th><th>Key Setting</th><th>Typical Value</th><th>Monitoring Method</th><th>Acceptance Criteria</th></tr>
+  <tr><td>Blanking</td><td>CNC shear</td><td>Blade clearance</td><td>0.10 mm</td><td>Feeler gauge</td><td>No burr > 0.2 mm</td></tr>
+  <tr><td>Punching</td><td>Turret punch press</td><td>Stroke rate</td><td>220 spm</td><td>PLC log</td><td>Stable within ±5%</td></tr>
+  <tr><td>Punching</td><td>Turret punch press</td><td>Punch-to-die clearance</td><td>8% of sheet thickness</td><td>Tool setup sheet</td><td>No double-hit marks</td></tr>
+  <tr><td>Bending</td><td>Press brake</td><td>Backgauge repeatability</td><td>±0.02 mm</td><td>Gauge R&R</td><td>Cpk ≥ 1.33</td></tr>
+  <tr><td>Bending</td><td>Press brake</td><td>Forming speed</td><td>12 mm/s</td><td>Machine HMI</td><td>No cracking at bend line</td></tr>
+  <tr><td>Surface</td><td>Galvanizing line</td><td>Bath temperature</td><td>455 °C</td><td>Thermocouple</td><td>Within ±5 °C</td></tr>
+  <tr><td>Inspection</td><td>Vision system</td><td>Sampling frequency</td><td>1 per 200 pcs</td><td>SPC chart</td><td>Out-of-control = stop</td></tr>
+</table>

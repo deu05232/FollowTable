@@ -1,0 +1,14 @@
+<table>
+  <caption>Alignment Accuracy Summary for Solder Mask Direct Imaging Exposure Models</caption>
+  <thead>
+    <tr><th>Equipment family</th><th>Model</th><th>Basic resolution (μm)</th><th>Outer-layer alignment accuracy (μm)</th><th>Double-sided alignment accuracy (μm)</th><th>Registration mode</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Solder mask direct imaging exposure models</td><td>SMDI-40R</td><td>40</td><td>±10</td><td>±18</td><td>Camera fiducial + global scaling</td></tr>
+    <tr><td>SMDI-40E</td><td>40</td><td>±9</td><td>±16</td><td>Enhanced fiducial recognition</td></tr>
+    <tr><td>SMDI-50R</td><td>50</td><td>±12</td><td>±20</td><td>Camera fiducial + global scaling</td></tr>
+    <tr><td>SMDI-50P</td><td>50</td><td>±11</td><td>±18</td><td>Per-field local compensation</td></tr>
+    <tr><td>SMDI-60R</td><td>60</td><td>±15</td><td>±24</td><td>Camera fiducial + global scaling</td></tr>
+    <tr><td>SMDI-60P</td><td>60</td><td>±13</td><td>±22</td><td>Per-field local compensation</td></tr>
+  </tbody>
+</table>

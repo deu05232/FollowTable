@@ -1,0 +1,14 @@
+<table>
+  <caption>Composite Mass Model for Galaxy Clusters: Dark Matter Halo Profile Plus Stellar and Gas Components</caption>
+  <thead>
+    <tr><th>Cluster</th><th>DM profile</th><th>c200</th><th>r_s (kpc)</th><th>M200 (10^14 Msun)</th><th>Stellar component</th><th>M*/L (solar)</th><th>Gas fraction f_gas(r<r500)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CL-A</td><td>NFW</td><td>4.6</td><td>310</td><td>7.8</td><td>BCG Hernquist</td><td>3.2</td><td>0.11</td></tr>
+    <tr><td>CL-B</td><td>Einasto (α=0.18)</td><td>5.1</td><td>270</td><td>6.9</td><td>BCG de Vaucouleurs</td><td>4.0</td><td>0.09</td></tr>
+    <tr><td>CL-C</td><td>NFW</td><td>3.9</td><td>360</td><td>9.4</td><td>Stellar disk+bulge</td><td>2.6</td><td>0.13</td></tr>
+    <tr><td>CL-D</td><td>gNFW (γ=0.8)</td><td>6.0</td><td>220</td><td>5.5</td><td>BCG Hernquist</td><td>3.6</td><td>0.10</td></tr>
+    <tr><td>CL-E</td><td>Burkert</td><td>—</td><td>410</td><td>8.1</td><td>BCG Sersic (n=4)</td><td>3.8</td><td>0.12</td></tr>
+    <tr><td>CL-F</td><td>NFW</td><td>4.2</td><td>330</td><td>7.2</td><td>BCG Hernquist</td><td>3.1</td><td>0.08</td></tr>
+  </tbody>
+</table>

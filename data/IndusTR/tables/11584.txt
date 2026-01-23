@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Optical PHY Compliance Limits (VCSEL/SR-type Link Budget Parameters)</caption>
+  <thead>
+    <tr><th>Requirement</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Measurement / Test Context</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Average optical output power</td><td>Pavg</td><td>-7.0</td><td>-3.0</td><td>+2.5</td><td>dBm</td><td>Measured at optical connector; 850 nm class VCSEL; PRBS31; transmitter enabled</td></tr>
+    <tr><td>Optical modulation amplitude</td><td>OMA</td><td>-4.0</td><td></td><td></td><td>dBm</td><td>Computed from P1 and P0 levels; extinction ratio per row below; measured at connector</td></tr>
+    <tr><td>Extinction ratio</td><td>ER</td><td>6.0</td><td>9.0</td><td></td><td>dB</td><td>ER = 10·log10(P1/P0); measured with calibrated optical receiver; pattern PRBS31</td></tr>
+    <tr><td>Optical wavelength</td><td>λ</td><td>830</td><td>850</td><td>860</td><td>nm</td><td>Measured with optical spectrum analyzer at nominal operating temperature (0–70 °C)</td></tr>
+    <tr><td>Receiver sensitivity (BER ≤ 1e-12)</td><td>PRXsens</td><td></td><td>-15.0</td><td>-12.0</td><td>dBm</td><td>At receiver input; stressed eye with specified jitter; PRBS31; reference dispersion per test setup</td></tr>
+    <tr><td>Receiver overload (BER ≤ 1e-12)</td><td>PRXovl</td><td>-1.0</td><td></td><td></td><td>dBm</td><td>At receiver input; same pattern as sensitivity; must not exceed overload-induced BER limit</td></tr>
+    <tr><td>Optical return loss tolerance</td><td>ORL</td><td></td><td></td><td>12</td><td>dB</td><td>Defined for reflective events in link; measured with OTDR/reflectometer per test method</td></tr>
+    <tr><td>Transmit OFF-state average power</td><td>Poff</td><td></td><td></td><td>-30</td><td>dBm</td><td>Laser disabled; measured at connector; ensures low leakage during reset/power-down</td></tr>
+  </tbody>
+</table>

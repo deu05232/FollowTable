@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Camera Rendering Matrix & Viewport Parameters</caption>
+  <thead>
+    <tr><th>Render Parameter</th><th>Type</th><th>Dimension</th><th>Typical Values</th><th>Used For</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>view_matrix</td><td>float[16]</td><td>4x4</td><td>Row-major/Column-major (engine-specific)</td><td>Transforms world coordinates into camera space.</td></tr>
+    <tr><td>projection_matrix</td><td>float[16]</td><td>4x4</td><td>Perspective</td><td>Projects camera space to clip space.</td></tr>
+    <tr><td>camera_pose_position</td><td>float[3]</td><td>vec3</td><td>(x,y,z) meters</td><td>Camera position for rendering alignment with tracking.</td></tr>
+    <tr><td>camera_pose_rotation</td><td>float[4]</td><td>quat</td><td>(x,y,z,w)</td><td>Camera orientation for rendering.</td></tr>
+    <tr><td>viewport_x</td><td>int32</td><td>px</td><td>0–4096</td><td>Viewport left coordinate in pixels.</td></tr>
+    <tr><td>viewport_y</td><td>int32</td><td>px</td><td>0–4096</td><td>Viewport bottom coordinate in pixels.</td></tr>
+    <tr><td>viewport_width</td><td>int32</td><td>px</td><td>320–4096</td><td>Viewport width.</td></tr>
+    <tr><td>viewport_height</td><td>int32</td><td>px</td><td>240–4096</td><td>Viewport height.</td></tr>
+  </tbody>
+</table>

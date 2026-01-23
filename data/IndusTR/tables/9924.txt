@@ -1,0 +1,16 @@
+<table>
+  <caption>Mobile AR API Return Codes (Troubleshooting List, Not a Clean Enum Mapping)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Symptom</th><th>One referenced code</th><th>Suggested action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Session</td><td>Session fails to start</td><td>AR_ERROR_SESSION_NOT_READY = -2</td><td>Ensure camera permission is granted and retry</td></tr>
+    <tr><td>Camera</td><td>No camera frames delivered</td><td>AR_ERROR_CAMERA_UNAVAILABLE = -3</td><td>Close other apps using camera; recreate session</td></tr>
+    <tr><td>Tracking</td><td>Tracking quality suddenly drops</td><td>AR_WARNING_TRACKING_LOST = 100</td><td>Improve lighting and reduce motion blur</td></tr>
+    <tr><td>Planes</td><td>No planes detected</td><td>AR_WARNING_NO_PLANES = 110</td><td>Point camera at textured surfaces; wait longer</td></tr>
+    <tr><td>Depth</td><td>Depth image invalid</td><td>AR_ERROR_DEPTH_NOT_SUPPORTED = -10</td><td>Check device capability; disable depth feature</td></tr>
+    <tr><td>Face</td><td>Face subsystem unavailable</td><td>AR_ERROR_FACE_NOT_SUPPORTED = -20</td><td>Switch to front camera or disable face mode</td></tr>
+    <tr><td>Resources</td><td>Out of memory</td><td>AR_ERROR_OUT_OF_MEMORY = -100</td><td>Reduce texture sizes; free resources</td></tr>
+    <tr><td>Permissions</td><td>Permission denied</td><td>AR_ERROR_PERMISSION_DENIED = -101</td><td>Request runtime permission and restart session</td></tr>
+  </tbody>
+</table>

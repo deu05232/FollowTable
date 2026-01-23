@@ -1,0 +1,15 @@
+<table>
+  <caption>GDP-based Energy Intensity Indicators for Beautiful China Construction (Secondary Indicators)</caption>
+  <thead>
+    <tr><th>Category</th><th>Indicator (Unit)</th><th>Indicator Code</th><th>Definition (GDP-based)</th><th>Why it matters for low-carbon development</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Energy efficiency of economic growth</td><td>Energy consumption per unit of GDP (tce per 10,000 CNY)</td><td>C44-A</td><td>Total final energy consumption (converted to tons of standard coal equivalent) divided by GDP in the same year and comparable prices.</td><td>Directly measures how much energy the economy needs to generate one unit of output; declining values indicate improved energy efficiency and reduced energy-related emissions pressure.</td></tr>
+    <tr><td>Electricity consumption per unit of GDP (kWh per 10,000 CNY)</td><td>C44-B</td><td>Total electricity consumption divided by GDP in the same year and comparable prices.</td><td>Captures electrification and efficiency dynamics; useful for diagnosing whether economic growth relies on electricity-intensive production and whether power-sector decarbonization translates into lower intensity.</td></tr>
+    <tr><td>Industrial energy consumption per unit of industrial value added (tce per 10,000 CNY)</td><td>C44-C</td><td>Energy use of industrial enterprises above designated size divided by industrial value added (in comparable prices).</td><td>Isolates the key sector driving energy demand; improvements often reflect upgrading, technological progress, and elimination of outdated capacity.</td></tr>
+    <tr><td rowspan="2">Change over time</td><td>Year-on-year decline rate of energy intensity (%)</td><td>C44-D</td><td>(Energy intensity in base year − energy intensity in current year) / energy intensity in base year × 100%.</td><td>Shows the speed of efficiency gains; aligns with policy targets that emphasize annual reductions in energy intensity.</td></tr>
+    <tr><td>Five-year cumulative decline rate of energy intensity (%)</td><td>C44-E</td><td>(Energy intensity in the first year of a five-year period − energy intensity in the last year) / energy intensity in the first year × 100%.</td><td>Enables evaluation against medium-term plans (e.g., Five-Year Plans) and supports accountability for sustained low-carbon transition.</td></tr>
+    <tr><td rowspan="2">Measurement notes (metadata)</td><td>GDP price basis requirement (qualifier)</td><td>NOTE-1</td><td>GDP should be expressed in comparable prices (constant price) to avoid inflation-driven distortions in intensity indicators.</td><td>Ensures the indicator reflects real efficiency changes rather than nominal GDP fluctuations.</td></tr>
+    <tr><td>Energy conversion basis (qualifier)</td><td>NOTE-2</td><td>Energy should be converted using a unified standard coal equivalent coefficient system for cross-year comparability.</td><td>Maintains consistency across fuels and over time, strengthening the credibility of energy-intensity comparisons.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Mapping of Fire Resistance Rating Codes to Temperature-Rise Curve Families (Short-to-Extended Duration)</caption>
+  <thead>
+    <tr><th>Temperature-rise curve family</th><th>Curve identifier (prefix)</th><th>0.25 h</th><th>0.50 h</th><th>0.75 h</th><th>1.00 h</th><th>1.50 h</th><th>2.00 h</th><th>3.00 h</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cellulosic (standard building fire)</td><td>Fp</td><td>Fp0.25</td><td>Fp0.50</td><td>Fp0.75</td><td>Fp1.00</td><td>Fp1.50</td><td>Fp2.00</td><td>Fp3.00</td></tr>
+    <tr><td>Hydrocarbon (rapid growth pool fire)</td><td>Ft</td><td>Ft0.25</td><td>Ft0.50</td><td>Ft0.75</td><td>Ft1.00</td><td>Ft1.50</td><td>Ft2.00</td><td>Ft3.00</td></tr>
+    <tr><td>Petrochemical (enhanced hydrocarbon severity)</td><td>Fs</td><td>Fs0.25</td><td>Fs0.50</td><td>Fs0.75</td><td>Fs1.00</td><td>Fs1.50</td><td>Fs2.00</td><td>Fs3.00</td></tr>
+    <tr><td>RABT (tunnel-type rapid heating)</td><td>Fb</td><td>Fb0.25</td><td>Fb0.50</td><td>Fb0.75</td><td>Fb1.00</td><td>Fb1.50</td><td>Fb2.00</td><td>Fb3.00</td></tr>
+  </tbody>
+</table>

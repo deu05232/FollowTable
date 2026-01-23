@@ -1,0 +1,6 @@
+# Reviews API
+
+| Name | comment | id | rating | reviewer.name | sku | submissionTime | title |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Description | comment left by the reviewer | unique review identifier | average "score" or ratings as submitted by reviewers | name of the reviewer | SKU identifier for a product | review submission time | title of the review |
+| Type | string | integer | float | string | long | date | string |

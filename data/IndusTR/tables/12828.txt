@@ -1,0 +1,14 @@
+<table>
+  <caption>Version Negotiation Supported Versions (Catalog Using Vx.y.z Only)</caption>
+  <thead>
+    <tr><th>Entry</th><th>Role</th><th>Supported Version Label</th><th>Minimum Compatible</th><th>Maximum Compatible</th><th>Comparison Rule</th><th>Outcome If Peer Proposes Higher</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Charger</td><td>V1.0.0</td><td>V1.0.0</td><td>V2.0.0</td><td>Numeric compare on x.y.z</td><td>Continue negotiation with expected version</td></tr>
+    <tr><td>2</td><td>Charger</td><td>V1.2.0</td><td>V1.0.0</td><td>V2.0.0</td><td>Numeric compare on x.y.z</td><td>Continue negotiation with expected version</td></tr>
+    <tr><td>3</td><td>Charger</td><td>V2.0.0</td><td>V1.0.0</td><td>V2.0.0</td><td>Numeric compare on x.y.z</td><td>Success if peer matches; else continue</td></tr>
+    <tr><td>4</td><td>Vehicle</td><td>V1.1.0</td><td>V1.0.0</td><td>V2.0.0</td><td>Numeric compare on x.y.z</td><td>Continue negotiation</td></tr>
+    <tr><td>5</td><td>Vehicle</td><td>V1.9.3</td><td>V1.0.0</td><td>V2.0.0</td><td>Numeric compare on x.y.z</td><td>Continue negotiation</td></tr>
+    <tr><td>6</td><td>Vehicle</td><td>V2.0.0</td><td>V1.0.0</td><td>V2.0.0</td><td>Numeric compare on x.y.z</td><td>Enter function negotiation if success</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table>
+  <caption>VR Positioning Pipeline Modes and Quality Levels</caption>
+  <thead>
+    <tr><th>Data Type</th><th>Enum Value</th><th>Description</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">vrTrackingMode</td><td>VR_TRACKING_MODE_3DOF=0x00</td><td>Orientation-only tracking</td><td>Media playback, seated</td></tr>
+    <tr><td>VR_TRACKING_MODE_6DOF=0x01</td><td>Full pose tracking</td><td>Room-scale interaction</td></tr>
+    <tr><td>VR_TRACKING_MODE_HYBRID=0x02</td><td>3DOF with intermittent positional updates</td><td>Power-saving mobile</td></tr>
+    <tr><td>0x03~0xFF</td><td>Reserved</td><td>Future extensions</td><td>N/A</td></tr>
+    <tr><td rowspan="5">vrTrackingQuality</td><td>VR_TRACKING_QUALITY_INVALID=0</td><td>No valid tracking</td><td>Sensor blocked</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_LOW=1</td><td>Large drift, unstable</td><td>Low light</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_MEDIUM=2</td><td>Usable but drifting</td><td>Temporary recovery</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_HIGH=3</td><td>Stable tracking</td><td>Normal operation</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_ULTRA=4</td><td>Best achievable</td><td>Calibration complete</td></tr>
+    <tr><td rowspan="4">vrRelocalizationState</td><td>VR_RELOCALIZATION_NOT_STARTED=0</td><td>Relocalization not started</td><td>Startup</td></tr>
+    <tr><td>VR_RELOCALIZATION_RUNNING=1</td><td>Searching map</td><td>After tracking loss</td></tr>
+    <tr><td>VR_RELOCALIZATION_SUCCEEDED=2</td><td>Recovered tracking</td><td>Resume gameplay</td></tr>
+    <tr><td>VR_RELOCALIZATION_FAILED=3</td><td>Unable to recover</td><td>Prompt user</td></tr>
+  </tbody>
+</table>

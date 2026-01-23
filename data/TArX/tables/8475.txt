@@ -1,0 +1,18 @@
+<table>
+  <caption>Derived strong-coupling figures of merit from optomechanical coupling parameters (example calculation set)</caption>
+  <thead>
+    <tr><th>System</th><th>Given coupling parameters</th><th>κ/2π</th><th>Γm/2π</th><th>Coupling ratios</th><th>Normal-mode splitting expected?</th><th>Strong-regime classification</th><th>Assumptions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Photonic crystal cavity</td><td>g0/2π = 1.0 MHz</td><td rowspan="2">90 MHz</td><td rowspan="2">0.10 MHz</td><td>G/κ = 1.33</td><td>Yes (2G > κ)</td><td>Strong coupling (G > κ, Γm)</td><td rowspan="2">G extracted at operating photon number; κ is loaded linewidth</td></tr>
+    <tr><td>G/2π = 120 MHz</td><td>G/Γm = 1200</td><td>Yes (G ≫ Γm)</td><td>Coherent exchange-dominated</td></tr>
+    <tr><td rowspan="2">Silicon microdisk</td><td>g0/2π = 35 kHz</td><td rowspan="2">5.0 MHz</td><td rowspan="2">0.0025 MHz</td><td>G/κ = 1.60</td><td>Likely (2G > κ)</td><td>Strong coupling achievable</td><td rowspan="2">Assumes stable red-detuned drive for linearization</td></tr>
+    <tr><td>G/2π = 8.0 MHz</td><td>G/Γm = 3200</td><td>Yes</td><td>High cooperativity implied</td></tr>
+    <tr><td rowspan="2">Fabry–Pérot + membrane</td><td>g0/2π = 0.095 kHz</td><td rowspan="2">0.25 MHz</td><td rowspan="2">0.0008 MHz</td><td>G/κ = 1.20</td><td>Marginal-to-yes</td><td>Near strong coupling</td><td rowspan="2">Neglects technical noise broadening</td></tr>
+    <tr><td>G/2π = 0.30 MHz</td><td>G/Γm = 375</td><td>Yes if linewidths unchanged</td><td>Coherent swapping possible</td></tr>
+    <tr><td rowspan="2">Silica microtoroid</td><td>g0/2π = 3.2 kHz</td><td rowspan="2">6.5 MHz</td><td rowspan="2">0.018 MHz</td><td>G/κ = 0.17</td><td>No</td><td>Not strong coupling</td><td rowspan="2">Illustrates that high-Q alone may not yield G > κ</td></tr>
+    <tr><td>G/2π = 1.1 MHz</td><td>G/Γm = 61</td><td>Weak-to-intermediate</td><td>High C possible without entering G > κ</td></tr>
+    <tr><td rowspan="2">Microwave drumhead</td><td>g0/2π = 0.22 kHz</td><td rowspan="2">1.4 MHz</td><td rowspan="2">0.00012 MHz</td><td>G/κ = 0.61</td><td>No</td><td>Intermediate coupling</td><td rowspan="2">κ dominated by external coupling; Γm very small</td></tr>
+    <tr><td>G/2π = 0.85 MHz</td><td>G/Γm = 7083</td><td>Not necessarily</td><td>Large cooperativity but not strong-coupling-by-κ</td></tr>
+  </tbody>
+</table>

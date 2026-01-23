@@ -1,0 +1,15 @@
+<table>
+  <caption>Common Service Description Model (CSDM) - High-Level Section Overview</caption>
+  <thead>
+    <tr><th>Section ID</th><th>Section Name</th><th>Purpose</th><th>Typical Content</th><th>Mandatory</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>BasicInformation</td><td>Identify and classify the service</td><td>Category, keywords, version, registration date</td><td>Yes</td><td>Does not enumerate individual fields</td></tr>
+    <tr><td>2</td><td>ServiceFunction</td><td>Describe what the service does</td><td>Functional description, preconditions, results</td><td>Yes</td><td>May contain multiple nested elements</td></tr>
+    <tr><td>3</td><td>ServiceProvider</td><td>Describe the provider organization</td><td>Organization name, identifier, contact</td><td>No</td><td>Provider-specific</td></tr>
+    <tr><td>4</td><td>ServiceInterface</td><td>Expose callable interfaces</td><td>Interface name, operations, parameters</td><td>Conditional</td><td>Depends on whether the service is callable</td></tr>
+    <tr><td>5</td><td>ServiceQuality</td><td>Declare quality/SLAs</td><td>Statements, measurement methods, periods</td><td>Conditional</td><td>Quality data is often optional</td></tr>
+    <tr><td>6</td><td>Restriction</td><td>Describe usage restrictions</td><td>Consumer conditions, constraints</td><td>Conditional</td><td>Used for access control/eligibility</td></tr>
+    <tr><td>7</td><td>MessageModel</td><td>Describe message structures</td><td>Message name, parameters, parameter types</td><td>Optional</td><td>Used when messaging is involved</td></tr>
+  </tbody>
+</table>

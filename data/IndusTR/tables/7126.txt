@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration Data and References</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Calibration Information Sequence</td><td>(0014,30A0)</td><td>SQ</td><td>1</td><td>2</td><td>Container for all calibration-related content used to correct raw detector response.</td></tr>
+  <tr><td>>Calibration Type</td><td>(0014,30A1)</td><td>CS</td><td>1</td><td>1</td><td>Identifies the calibration category (e.g., OFFSET, GAIN, BAD_PIXEL, NONUNIFORMITY).</td></tr>
+  <tr><td>>Offset Calibration Sequence</td><td>(0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence describing offset (dark) calibration inputs and references.</td></tr>
+  <tr><td>>>Offset Calibration File</td><td>(0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Offset calibration image acquired with no-radiation exposure (dark field) used to compute offset correction.</td></tr>
+  <tr><td>>>Offset Calibration DateTime</td><td>(0014,3051)</td><td>DT</td><td>1</td><td>3</td><td>Date and time when the offset calibration data were acquired.</td></tr>
+  <tr><td>>Gain Calibration Sequence</td><td>(0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence describing gain (flat-field) calibration inputs and references.</td></tr>
+  <tr><td>>>Gain Calibration File</td><td>(0014,3061)</td><td>OB</td><td>1</td><td>1</td><td>Gain/flat-field calibration image used to compute pixel-wise gain correction.</td></tr>
+  <tr><td>>>Gain Calibration Correction Factor</td><td>(0014,3062)</td><td>FD</td><td>1</td><td>3</td><td>Overall multiplicative factor applied as part of gain normalization (if applicable).</td></tr>
+  <tr><td>>Calibration Data Identifier</td><td>(0014,30A2)</td><td>LO</td><td>1</td><td>3</td><td>Identifier or version label of the calibration dataset used for this image.</td></tr>
+  <tr><td>>Calibration File URI</td><td>(0014,30A3)</td><td>UT</td><td>1</td><td>3</td><td>URI/path reference to externally stored calibration data used during processing.</td></tr>
+  <tr><td>>Referenced Calibration SOP Instance UID</td><td>(0014,30A4)</td><td>UI</td><td>1</td><td>3</td><td>Reference to a stored object containing calibration frames or calibration metadata.</td></tr>
+</table>

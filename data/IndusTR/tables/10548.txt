@@ -1,0 +1,16 @@
+<table>
+  <caption>Terrestrial Eco-Meteorological Disaster Phenomena Code Log (Mixed with Meteorological Measurements)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Record Content</th><th>Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+    <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td></tr>
+    <tr><td>3</td><td>Disaster/abnormal ecological phenomenon code</td><td>N_CODE</td><td>Characters(4)</td><td>Controlled list reference</td></tr>
+    <tr><td>4</td><td>Air temperature</td><td>TA</td><td>Number(5,2)</td><td>Unit: °C</td></tr>
+    <tr><td>5</td><td>Relative humidity</td><td>RH</td><td>Number(5,2)</td><td>Unit: %</td></tr>
+    <tr><td>6</td><td>Wind speed</td><td>WS</td><td>Number(6,2)</td><td>Unit: m/s</td></tr>
+    <tr><td>7</td><td>Precipitation (hourly)</td><td>PRE_1H</td><td>Number(6,1)</td><td>Unit: mm</td></tr>
+    <tr><td>8</td><td>Visibility</td><td>VIS</td><td>Number(7,1)</td><td>Unit: m</td></tr>
+  </tbody>
+</table>

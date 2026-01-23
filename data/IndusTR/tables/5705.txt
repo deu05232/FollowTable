@@ -1,0 +1,15 @@
+<table>
+  <caption>Operational Electrical Tolerance Limits for a Low-Voltage Shore Power Box (Daily Operation)</caption>
+  <thead>
+    <tr><th>Operating parameter</th><th>Normal operating point (reference)</th><th>Permissible steady-state deviation</th><th>Permissible transient deviation</th><th>Maximum recovery time (back within steady-state band)</th><th>Notes / applicability</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AC input voltage (line-to-line)</td><td>Un (rated)</td><td>+5% / −10%</td><td>±20%</td><td>1.5 s</td><td>Applies during continuous supply and load changes</td></tr>
+    <tr><td>AC input frequency</td><td>fn (rated)</td><td>±4%</td><td>±10%</td><td>5 s</td><td>Includes generator frequency drift</td></tr>
+    <tr><td>Voltage unbalance (3‑phase)</td><td>0%</td><td>≤2%</td><td>≤5%</td><td>10 s</td><td>Unbalance defined as negative-sequence / positive-sequence (%)</td></tr>
+    <tr><td>Total harmonic distortion of voltage (THDv)</td><td>—</td><td>≤8%</td><td>≤12%</td><td>3 s</td><td>At PCC of the shore connection</td></tr>
+    <tr><td>Short supply interruption (no-voltage ride-through)</td><td>100% Un</td><td>Not applicable</td><td>0% Un for ≤0.1 s</td><td>≤2 s</td><td>Equipment shall restore normal operation after interruption ends</td></tr>
+    <tr><td>Step load change impact on output voltage regulation</td><td>Rated output</td><td>±3%</td><td>±10%</td><td>1.0 s</td><td>For a single step change up to 50% rated load</td></tr>
+    <tr><td>DC control/auxiliary supply voltage (if provided)</td><td>24 Vdc</td><td>±10%</td><td>±20%</td><td>0.5 s</td><td>Applies to PLC/monitoring circuits powered by auxiliary DC</td></tr>
+  </tbody>
+</table>

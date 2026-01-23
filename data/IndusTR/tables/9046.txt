@@ -1,0 +1,16 @@
+<table>
+  <caption>Standardized Chemical Fiber Output: Fixed Conversion Multipliers by Product (No Benchmark Dependency)</caption>
+  <thead>
+    <tr><th>Product</th><th>Specification / Grade</th><th>Reported Unit</th><th>Standard Output Unit</th><th>Conversion Coefficient (fixed)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Polyester FDY</td><td>Bright</td><td>t</td><td>t (standard)</td><td>1.00</td><td>Single constant multiplier</td></tr>
+    <tr><td>Semi-dull</td><td>t</td><td>t (standard)</td><td>1.02</td><td>Single constant multiplier</td></tr>
+    <tr><td rowspan="2">Polyester DTY</td><td>SIM</td><td>t</td><td>t (standard)</td><td>0.98</td><td>Does not reference linear density</td></tr>
+    <tr><td>HIM</td><td>t</td><td>t (standard)</td><td>1.05</td><td>Does not reference benchmark</td></tr>
+    <tr><td>Nylon 6 POY</td><td>General</td><td>t</td><td>t (standard)</td><td>1.01</td><td>Lookup-only</td></tr>
+    <tr><td>Acrylic staple fiber</td><td>Regular</td><td>t</td><td>t (standard)</td><td>0.97</td><td>Lookup-only</td></tr>
+    <tr><td>Viscose staple fiber</td><td>Regular</td><td>t</td><td>t (standard)</td><td>1.03</td><td>Lookup-only</td></tr>
+    <tr><td>Spandex filament</td><td>General</td><td>t</td><td>t (standard)</td><td>1.10</td><td>No conditional rule provided</td></tr>
+  </tbody>
+</table>

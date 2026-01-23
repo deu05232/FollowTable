@@ -1,0 +1,15 @@
+<table>
+  <caption>Fixed Sequences and Test Cases for Traditional Mongolian Control Characters</caption>
+  <thead>
+    <tr><th>ID</th><th>Fixed (Valid) Character Sequence</th><th>Intended Render</th><th>Closest Invalid Variant</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FS-01</td><td>[MVS] + U+1820</td><td>fixed glyph A</td><td>U+1820 + [MVS]</td><td>Swap order breaks shaping</td></tr>
+    <tr><td>FS-02</td><td>[MVS] + U+1820 + U+1834 + U+1820</td><td>fixed glyph B</td><td>[MVS][MVS] + U+1820 + U+1834 + U+1820</td><td>Duplicate control character</td></tr>
+    <tr><td>FS-03</td><td>U+182D + FVS1</td><td>ga variant</td><td>FVS1 + U+182D</td><td>Selector must follow base</td></tr>
+    <tr><td>FS-04</td><td>U+1828 + ZWJ + U+1820</td><td>joined pair</td><td>U+1828 + ZWNJ + U+1820</td><td>Wrong join control changes form</td></tr>
+    <tr><td>FS-05</td><td>U+1820 + NNBSP + U+1820</td><td>word gap</td><td>U+1820 + SPACE + U+1820</td><td>Typography mismatch</td></tr>
+    <tr><td>FS-06</td><td>U+1820 + NIRUGU</td><td>elongation</td><td>U+1820 + NIRUGU + NIRUGU</td><td>Over-elongation</td></tr>
+    <tr><td>FS-07</td><td>U+1820 + ZWSP + U+1820</td><td>optional break</td><td>ZWSP + U+1820</td><td>Orphan break control</td></tr>
+  </tbody>
+</table>

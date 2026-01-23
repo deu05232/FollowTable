@@ -1,0 +1,11 @@
+<table>
+  <caption>Enhanced IR intensity determination quick reference: curved-band DT plus PTa and pattern flags (mixed)</caption>
+  <tr><th>Pattern indicator</th><th>Parameter</th><th>Bin / category</th><th>Suggested value</th></tr>
+  <tr><td>Curved band</td><td>Wrap angle (radians)</td><td>[0.20,0.40)</td><td>DT 1.5</td></tr>
+  <tr><td>Curved band</td><td>Wrap angle (radians)</td><td>[0.40,0.55]</td><td>DT 2.5</td></tr>
+  <tr><td>Curved band</td><td>Wrap angle (radians)</td><td>[0.60,0.75]</td><td>DT 3.0</td></tr>
+  <tr><td>Curved band</td><td>Wrap angle (radians)</td><td>[0.80,1.00]</td><td>DT 3.5</td></tr>
+  <tr><td>Administrative</td><td>PTa</td><td>1.5 / 2.5 / 3.5 / 4.0 / 5.0 / 6.0</td><td>Use as presentation scale</td></tr>
+  <tr><td>Flags</td><td>Shear pattern present</td><td>S / none</td><td>Apply shear workflow if S</td></tr>
+  <tr><td>Flags</td><td>Embedded center / eye</td><td>9 / none</td><td>Switch workflow if 9</td></tr>
+</table>

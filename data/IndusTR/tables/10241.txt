@@ -1,0 +1,10 @@
+<table>
+  <caption>ArSession_getAllTrackables parameters</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_trackable_list</td><td>ArTrackableList *</td><td>Receives a list containing all current trackables</td></tr>
+  <tr><td>out_size</td><td>int32_t *</td><td>Receives the number of elements in the returned list</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Timestamp (ns) when the list snapshot was taken</td></tr>
+  <tr><td>include_subsumed</td><td>bool</td><td>Whether to include subsumed trackables</td></tr>
+  <tr><td>out_status</td><td>ArStatus *</td><td>Operation status code</td></tr>
+</table>

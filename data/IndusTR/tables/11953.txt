@@ -1,0 +1,10 @@
+<table>
+  <caption>Capture-device and contact-mode elements for a fingerprint evaluation database</caption>
+  <tr><th>No.</th><th>Element</th><th>Example of Element Content</th></tr>
+  <tr><td>1</td><td>Acquisition device type</td><td>Optical sensor, Capacitive sensor, Ultrasonic sensor, Contactless camera</td></tr>
+  <tr><td>2</td><td>Contact mode</td><td>Contact-based, Contactless</td></tr>
+  <tr><td>3</td><td>Acquisition procedure</td><td>Flat, Rolled, Multi-impression sequence</td></tr>
+  <tr><td>4</td><td>Platen/surface condition</td><td>Clean, Smudged, Wet, Scratched</td></tr>
+  <tr><td>5</td><td>Capture guidance</td><td>Operator-assisted, Self-service kiosk, No guidance</td></tr>
+  <tr><td>6</td><td>Quality measures linked to sensing</td><td>Contrast/brightness, Ridge clarity, Background noise, Partial capture</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>BusinessProcess — Cargo Tracking Event Message Collection and Acknowledgement</caption>
+  <thead>
+    <tr><th>Section</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purpose</td><td>Collect raw tracking-related EDI/API event messages from logistics parties and persist them as source records.</td></tr>
+    <tr><td>Actors</td><td>Carrier, Terminal Operator, Freight Forwarder, Customs Broker, Integrated Data Center</td></tr>
+    <tr><td>Trigger</td><td>A party emits a new event message (e.g., Gate-In, Loaded, Departed, Arrived).</td></tr>
+    <tr><td>Input Message Types (Examples)</td><td>EDI 315 Status DetailsANSI 214 Shipment StatusUN/EDIFACT IFTSTATerminal gate event API payload</td></tr>
+    <tr><td>Collection Steps</td><td>Sender submits raw message to data center intake endpoint.Data center validates schema and authentication.Data center stores message in a raw-event queue.Data center returns receipt/ACK to sender.</td></tr>
+    <tr><td>Data Center Output</td><td>ACK/receipt only (message ID, timestamp, basic validation result).</td></tr>
+    <tr><td>Notes / Exclusions</td><td>No outward distribution of consolidated tracking information to business entities; focus is on ingestion and acknowledgement.</td></tr>
+  </tbody>
+</table>

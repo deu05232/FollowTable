@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced Infrared (EIR) Tropical Cyclone Intensity Lookup: Eye Pattern DT and Intensity Outputs</caption>
+  <thead>
+    <tr><th>Observed EIR Eye Pattern Cue</th><th>Eye Temp Category (E)</th><th>Surrounding Ring Temp Category (S)</th><th>Eye–Surrounding Contrast (E−S)</th><th>DT (Data T-number) from Lookup</th><th>Adj. Rule (if applicable)</th><th>Final DT Used</th><th>Estimated CI (Current Intensity) T-number</th><th>Implied Vmax (kt)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Warm eye clearly defined, cold surrounding ring</td><td>W</td><td>B</td><td>Very High</td><td>6.0</td><td>If ring is White (W) then DT +0.5</td><td>6.0</td><td>6.0</td><td>115</td></tr>
+    <tr><td>Warm eye with moderate cold ring</td><td>OW</td><td>LG</td><td>High</td><td>5.5</td><td>null</td><td>5.5</td><td>5.5</td><td>102</td></tr>
+    <tr><td>Neutral eye, strong cold ring</td><td>MG</td><td>DG</td><td>Moderate</td><td>5.0</td><td>null</td><td>5.0</td><td>5.0</td><td>90</td></tr>
+    <tr><td>Cool eye, moderate ring</td><td>DG</td><td>MG</td><td>Low</td><td>4.5</td><td>null</td><td>4.5</td><td>4.5</td><td>77</td></tr>
+    <tr><td>Eye intermittently visible (ragged), cold ring broken</td><td>LG</td><td>LG</td><td>Low</td><td>4.0</td><td>If eye intermittency > 50% of frames then DT −0.5</td><td>3.5</td><td>3.5</td><td>55</td></tr>
+    <tr><td>Embedded eye-like feature (pinhole), very cold ring</td><td>OW</td><td>W</td><td>Very High</td><td>6.5</td><td>Apply DT +0.5 when S = W</td><td>7.0</td><td>6.5</td><td>127</td></tr>
+    <tr><td>Eye obscured by convection (no reliable eye temp)</td><td>—</td><td>B</td><td>—</td><td>3.5</td><td>Use embedded-center rule: CI = DT + 0.5</td><td>3.5</td><td>4.0</td><td>65</td></tr>
+  </tbody>
+</table>

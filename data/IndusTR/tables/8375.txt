@@ -1,0 +1,16 @@
+<table>
+  <caption>Permissible metrological error limits (%) for active energy measurement across accuracy classes</caption>
+  <thead>
+    <tr><th rowspan="2">Operating point</th><th rowspan="2">Current range (relative)</th><th rowspan="2">Power factor (cosφ)</th><th colspan="4">Allowable indication error limit (±%) by accuracy class</th></tr>
+    <tr><th>Class 0.2</th><th>Class 0.5</th><th>Class 1</th><th>Class 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fundamental active energy</td><td>Imin ≤ I < 0.05·Iref</td><td>1.0</td><td>±0.25</td><td>±0.60</td><td>±1.20</td><td>±2.40</td></tr>
+    <tr><td>Fundamental active energy</td><td>0.05·Iref ≤ I < 0.10·Iref</td><td>1.0</td><td>±0.20</td><td>±0.50</td><td>±1.00</td><td>±2.00</td></tr>
+    <tr><td>Fundamental active energy</td><td>0.10·Iref ≤ I ≤ Imax</td><td>1.0</td><td>±0.15</td><td>±0.40</td><td>±0.80</td><td>±1.60</td></tr>
+    <tr><td>Fundamental active energy</td><td>0.10·Iref ≤ I ≤ Imax</td><td>0.5L</td><td>±0.20</td><td>±0.50</td><td>±1.00</td><td>±2.00</td></tr>
+    <tr><td>Fundamental active energy</td><td>0.10·Iref ≤ I ≤ Imax</td><td>0.8C</td><td>±0.20</td><td>±0.55</td><td>±1.10</td><td>±2.20</td></tr>
+    <tr><td>Harmonic-active energy (single harmonic)</td><td>0.10·Iref ≤ I ≤ Imax</td><td>1.0</td><td>±0.30</td><td>±0.75</td><td>±1.50</td><td>±3.00</td></tr>
+    <tr><td>Combined-harmonic active energy</td><td>0.10·Iref ≤ I ≤ Imax</td><td>1.0</td><td>±0.40</td><td>±1.00</td><td>±2.00</td><td>±4.00</td></tr>
+  </tbody>
+</table>

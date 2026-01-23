@@ -1,0 +1,8 @@
+<table>
+  <caption>Microservice Registration API Definition</caption>
+  <tr><td>API Name</td><td>Microservice Registration API</td></tr>
+  <tr><td>API Description</td><td>Obtain the definition information of the newly added microservice</td></tr>
+  <tr><td>API Method</td><td>POST</td></tr>
+  <tr><td>Parameter Description</td><td>Must include at least: User ID (string userID), authentication parameter (string access_token), microservice name (stringsevName), microservice description (string sevDes), data center address (string dataUrl)</td></tr>
+  <tr><td>Return Value</td><td>Returns the required microservice information data</td></tr>
+</table>

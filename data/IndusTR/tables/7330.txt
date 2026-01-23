@@ -1,0 +1,8 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Inspection Setup Attributes</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Inspection Procedure</td><td>(0014,6010)</td><td>CS</td><td>1</td><td>2</td><td>Procedure category used to perform the inspection (e.g., technique family or method class)</td></tr>
+  <tr><td>Inspection Technique</td><td>(0014,6011)</td><td>LO</td><td>1</td><td>2</td><td>Named technique applied during the inspection, aligned with the referenced method guidance</td></tr>
+  <tr><td>Referenced Standard Identifier</td><td>(0014,6012)</td><td>ST</td><td>1</td><td>2</td><td>Identifier of the governing standard used to define acceptance and method requirements</td></tr>
+  <tr><td>Acceptance Criteria Description</td><td>(0014,6013)</td><td>UT</td><td>1</td><td>2</td><td>Text description of the acceptance criteria that the inspection is evaluated against</td></tr>
+</table>

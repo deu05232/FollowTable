@@ -1,0 +1,14 @@
+<table>
+  <caption>Electronic Code Resolver URI Structure for Agricultural Inputs (Primary and Extended Parameter Pairs)</caption>
+  <thead>
+    <tr><th>Network service address (base URL)</th><th>Primary identifier parameter pair (required)</th><th>Extended identifier parameter pairs (optional)</th><th>Example resolvable identifier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">https://resolver.agri.example/id/</td><td>01=GTIN (N14)</td><td>21=Serial (X..20)</td><td>https://resolver.agri.example/id/01/09506000123459/21/ABC12345</td></tr>
+    <tr><td>01=GTIN (N14)</td><td>10=Batch/Lot (X..20)</td><td>https://resolver.agri.example/id/01/09506000123459/10/LOT2026A</td></tr>
+    <tr><td>01=GTIN (N14)</td><td>30=Variable quantity (N..8); 240=Additional product ID/attribute (X..30)</td><td>https://resolver.agri.example/id/01/09506000123459/30/25/240/FERT-GRANULAR</td></tr>
+    <tr><td rowspan="3">https://lookup.agri.example/ai/</td><td>01=GTIN (N14)</td><td>240=Attribute/variant (X..30)</td><td>https://lookup.agri.example/ai/01/09506000123459/240/HERBICIDE-2L</td></tr>
+    <tr><td>01=GTIN (N14)</td><td>21=Serial (X..20); 240=Attribute/variant (X..30)</td><td>https://lookup.agri.example/ai/01/09506000123459/21/SN0009981/240/SEED-TREAT</td></tr>
+    <tr><td>01=GTIN (N14)</td><td>10=Batch/Lot (X..20); 30=Variable quantity (N..8)</td><td>https://lookup.agri.example/ai/01/09506000123459/10/LOT88B/30/100</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table>
+  <caption>APDU Response Status Words (SW1/SW2) — Common Outcomes and Debug Actions</caption>
+  <thead>
+    <tr><th>SW1</th><th>SW2</th><th>Meaning</th><th>Typical Cause</th><th>Recommended Next Step</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>90</td><td>00</td><td>Success</td><td>Command executed successfully</td><td>Parse response data (if any) and continue flow</td></tr>
+    <tr><td>61</td><td>XX</td><td>More response data available</td><td>Card has additional bytes to return; XX indicates length (or 00 meaning unknown/maximum)</td><td>Send GET RESPONSE with Le=XX (or Le=256 if XX=00)</td></tr>
+    <tr><td>6C</td><td>XX</td><td>Wrong expected length (Le)</td><td>Terminal requested an Le not accepted; XX indicates correct Le</td><td>Resend same APDU with Le=XX</td></tr>
+    <tr><td>62</td><td>83</td><td>Warning: selected file invalidated</td><td>File/application state issue; operation succeeded with warning</td><td>Log warning; consider re-selecting AID/DF and verifying state</td></tr>
+    <tr><td>63</td><td>CX</td><td>Verification failed, attempts remaining</td><td>PIN/credential check failed; X is remaining tries</td><td>Stop retries if low; prompt user and retry with correct PIN</td></tr>
+    <tr><td>67</td><td>00</td><td>Wrong length (Lc/Le formatting)</td><td>APDU length fields inconsistent or missing required length</td><td>Rebuild APDU length fields; verify Lc matches data bytes</td></tr>
+    <tr><td>69</td><td>82</td><td>Security status not satisfied</td><td>Required authentication/secure messaging not established</td><td>Perform required authentication (VERIFY/EXTERNAL AUTH) or enable secure channel</td></tr>
+    <tr><td>69</td><td>85</td><td>Conditions of use not satisfied</td><td>Command not allowed in current life-cycle/state</td><td>Check application state; SELECT correct AID/DF; ensure preconditions are met</td></tr>
+    <tr><td>6A</td><td>82</td><td>File/application not found</td><td>Wrong AID/FID or selection path</td><td>Verify AID/FID bytes; ensure correct selection sequence</td></tr>
+    <tr><td>6A</td><td>86</td><td>Incorrect P1/P2</td><td>Parameter bytes not supported for this command</td><td>Confirm P1/P2 per spec; try supported options; fix endian/offset errors</td></tr>
+    <tr><td>6D</td><td>00</td><td>Instruction code not supported (INS)</td><td>INS not implemented by card/application</td><td>Confirm selected application supports the command; check INS value</td></tr>
+    <tr><td>6E</td><td>00</td><td>Class not supported (CLA)</td><td>CLA not accepted (e.g., secure messaging bits, logical channel)</td><td>Use correct CLA; check channel and SM bits; retry on basic channel</td></tr>
+    <tr><td>6F</td><td>00</td><td>No precise diagnosis</td><td>Generic internal error</td><td>Collect full trace; retry once; if persistent, escalate with logs</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>ArTrackableList_GetItem and List-Handle Parameters (Trackable Retrieval by Index)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Data Type</th><th>Direction</th><th>What It Is Used For</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArTrackableList_GetItem</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session context for resolving list contents.</td></tr>
+    <tr><td>ArTrackableList_GetItem</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>Handle to a collection of trackables produced by a query.</td></tr>
+    <tr><td>ArTrackableList_GetItem</td><td>index</td><td>int32_t</td><td>in</td><td>Zero-based index into the list.</td></tr>
+    <tr><td>ArTrackableList_GetItem</td><td>out_trackable</td><td>ArTrackable **</td><td>out</td><td>Receives the trackable pointer located atindex.</td></tr>
+    <tr><td>ArTrackableList_GetItem</td><td>out_status</td><td>ArStatus *</td><td>out</td><td>Returns success/failure of the retrieval.</td></tr>
+    <tr><td>ArTrackableList_GetItem</td><td>out_is_valid_index</td><td>bool *</td><td>out</td><td>Indicates whetherindexis within bounds.</td></tr>
+  </tbody>
+</table>

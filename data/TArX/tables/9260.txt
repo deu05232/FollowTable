@@ -1,0 +1,14 @@
+<table>
+  <caption>Example radial temperature profile constraints within Earth's core (adiabatic geotherm anchored at the ICB)</caption>
+  <thead>
+    <tr><th>Region</th><th>Radius (km)</th><th>Depth reference</th><th>Temperature (K)</th><th>Constraint type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Inner core</td><td>0</td><td>Center</td><td>6600</td><td>Derived from adiabatic profile anchored at ICB</td></tr>
+    <tr><td>800</td><td>Within inner core</td><td>6200</td><td>Profile point (explicit T value)</td></tr>
+    <tr><td>Inner-core boundary (ICB)</td><td>1221</td><td>ICB</td><td>5700</td><td>Primary constraint (melting/solidus at ICB)</td></tr>
+    <tr><td rowspan="2">Outer core</td><td>2000</td><td>Mid outer core</td><td>5000</td><td>Profile point (explicit T value)</td></tr>
+    <tr><td>3000</td><td>Near CMB</td><td>4100</td><td>Profile point approaching CMB temperature</td></tr>
+    <tr><td>Core–mantle boundary (CMB)</td><td>3480</td><td>CMB</td><td>4000</td><td>Implied by adiabat consistent with ICB constraint</td></tr>
+  </tbody>
+</table>

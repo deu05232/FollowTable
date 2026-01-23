@@ -1,0 +1,15 @@
+<table>
+  <caption>Simulation parameters matching the experimental values from [ Louge_Keast_2001 ] .</caption>
+  <tr><th>Grain diameter</th><th>D=2.968 (mm)</th></tr>
+  <tr><th>Grain mass (glass density ρ_(g) )</th><td>m=3.42· 10^(-5) (kg)</td></tr>
+  <tr><th>Gravity</th><td>g=9.81(m/s^(2))</td></tr>
+  <tr><th>Grain/grain normal restitution</th><td>e_(n)^(gg)=0.972</td></tr>
+  <tr><th>Grain/grain tangential restitution</th><td>e_(t)^(gg)=0.25</td></tr>
+  <tr><th>Grain/wall normal restitution</th><td>e_(n)^(gw)=0.8</td></tr>
+  <tr><th>Grain/wall tangential restitution</th><td>e_(t)^(gw)=0.35</td></tr>
+  <tr><th>Grain(glass)/grain friction</th><td>μ^(gg)=0.33</td></tr>
+  <tr><th>Grain(glass)/wall(aluminum)</th><td>μ^(gw)=0.596</td></tr>
+  <tr><th>Grain/grain spring stiffness</th><td>k_(n)^(gg)=2· 10^(5)\,(mg/D)</td></tr>
+  <tr><th colspan="2">Grain/wall k_(n)^(gw)=k_(n)^(gg) (glass Young modulus = aluminum)</th></tr>
+  <tr><th>Integration time step</th><td>dt=10^(-4) ( )</td></tr>
+</table>

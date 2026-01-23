@@ -1,0 +1,15 @@
+<table>
+  <caption>User Terminal I/O Field Format Constraints (Lengths and Ranges Without Explanations)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Statement</th><th>Field</th><th>Type</th><th>Length / Format</th><th>Valid Range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>UT_MSG_TX</td><td>Sender ID</td><td>Unsigned integer</td><td>Up to 48 bits</td><td>1–281474976710655</td></tr>
+    <tr><td>2</td><td>UT_MSG_TX</td><td>Recipient ID</td><td>Unsigned integer</td><td>24 bits</td><td>1–16777215</td></tr>
+    <tr><td>3</td><td>UT_MSG_TX</td><td>Time</td><td>Numeric string</td><td>hhmmss.ss (9 chars)</td><td>000000.00–235959.99</td></tr>
+    <tr><td>4</td><td>UT_MSG_TX</td><td>Service type</td><td>Enum</td><td>1 digit</td><td>1–2</td></tr>
+    <tr><td>5</td><td>UT_OUT_BEAM_CFG</td><td>Output rate</td><td>Unsigned integer</td><td>1–4 digits</td><td>10–3600</td></tr>
+    <tr><td>6</td><td>UT_SILENCE_CTRL</td><td>Frequency point</td><td>Enum</td><td>1 digit</td><td>0–2</td></tr>
+    <tr><td>7</td><td>UT_SILENCE_CTRL</td><td>Silence address count</td><td>Unsigned integer</td><td>1–2 digits</td><td>1–63</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Domestic Service Personnel Service Record Data Items</caption>
+  <tr><td>Description Item</td><td>Data Type</td><td>Constraint/Condition</td><td>Attribute Description</td><td>Value Domain</td></tr>
+  <tr><td>Service Record Information</td><td>Composite</td><td>Required</td><td>A set of information related to the service records of service personnel</td><td></td></tr>
+  <tr><td>Service Duration</td><td>String</td><td>Required</td><td>Duration of on-site service provided by service personnel (unit: hours)</td><td>Free text</td></tr>
+  <tr><td>Service Photos</td><td>Binary Stream</td><td>Optional</td><td>Photos of the service personnel during service provision</td><td>May be in GIF, JPEG, PNG, etc. formats</td></tr>
+  <tr><td>Positive Review Rate</td><td>String</td><td>Required</td><td>Proportion of positive reviews from customers for service personnel (unit: %)</td><td>Free text</td></tr>
+  <tr><td>Complaint Rate</td><td>String</td><td>Required</td><td>Proportion of complaints received by service personnel (unit: %)</td><td>Free text</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Coordinate System Convention Enumeration (Hands & Planes)</caption>
+  <thead>
+    <tr><th>Convention</th><th>Constant (Name = Value)</th><th>Axis Notes</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>World right-handed (Y up)</td><td>AR_COORDINATE_CONVENTION_RH_Y_UP = 0</td><td>+X right, +Y up, -Z forward</td><td>World-space anchors</td></tr>
+    <tr><td>World left-handed (Y up)</td><td>AR_COORDINATE_CONVENTION_LH_Y_UP = 1</td><td>+X right, +Y up, +Z forward</td><td>Engine integration</td></tr>
+    <tr><td>Camera view space</td><td>AR_COORDINATE_CONVENTION_CAMERA_VIEW = 2</td><td>Origin at camera, Z forward depends on API</td><td>Pose-to-view transforms</td></tr>
+    <tr><td>Screen normalized (0..1)</td><td>AR_COORDINATE_CONVENTION_SCREEN_NORMALIZED = 3</td><td>(0,0) bottom-left by default</td><td>2D overlays</td></tr>
+    <tr><td>Texture UV (0..1)</td><td>AR_COORDINATE_CONVENTION_TEXTURE_UV = 4</td><td>(0,0) top-left by default</td><td>Camera feed sampling</td></tr>
+    <tr><td>OpenGL clip space</td><td>AR_COORDINATE_CONVENTION_GL_CLIP = 5</td><td>-1..1 with Y up</td><td>Rendering pipeline</td></tr>
+    <tr><td>Metal clip space</td><td>AR_COORDINATE_CONVENTION_METAL_CLIP = 6</td><td>-1..1 with Y down typical</td><td>Rendering pipeline</td></tr>
+  </tbody>
+</table>

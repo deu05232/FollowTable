@@ -1,0 +1,17 @@
+<table>
+  <caption>Video/Image Classification Codes (Mixed: Event Types + Object/Quality/File Format)</caption>
+  <thead>
+    <tr><th>Code</th><th>Group</th><th>Item</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>EV003</td><td>Event</td><td>Fighting</td><td>Detected fighting/assault behavior</td></tr>
+    <tr><td>EV012</td><td>Event</td><td>Illegal Parking</td><td>Vehicle remains in no-parking zone beyond threshold</td></tr>
+    <tr><td>EV021</td><td>Event</td><td>Smoke</td><td>Smoke plume detected in scene</td></tr>
+    <tr><td>OBJ02</td><td>Object</td><td>Person</td><td>Target classification: human</td></tr>
+    <tr><td>OBJ03</td><td>Object</td><td>Motor Vehicle</td><td>Target classification: car/truck/bus</td></tr>
+    <tr><td>Q1</td><td>Quality</td><td>Extremely Poor</td><td>Image quality assessment level</td></tr>
+    <tr><td>Q2</td><td>Quality</td><td>Poor</td><td>Image quality assessment level</td></tr>
+    <tr><td>FMT01</td><td>Format</td><td>BMP</td><td>Still image encoding format</td></tr>
+    <tr><td>FMT03</td><td>Format</td><td>JPEG/JPG</td><td>Still image encoding format</td></tr>
+  </tbody>
+</table>

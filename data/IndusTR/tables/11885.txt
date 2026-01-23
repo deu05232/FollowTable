@@ -1,0 +1,11 @@
+<table>
+  <caption>Surface Defect Acceptance Limits by Area Class and Wall Thickness (Ductile Iron Castings)</caption>
+  <tr><th rowspan="2">Area classification</th><th rowspan="2">Wall thickness range t (mm)</th><th colspan="3">Maximum acceptable defect</th><th rowspan="2">Disposition</th></tr>
+  <tr><th>Max defect length (mm)</th><th>Max defect depth h (mm)</th><th>Max cumulative area (mm²)</th></tr>
+  <tr><td rowspan="2">Critical area (Class A)</td><td>t ≤ 30</td><td>15</td><td>< 3%t</td><td>800</td><td>Repair not permitted</td></tr>
+  <tr><td>30 < t ≤ 80</td><td>20</td><td>< 3%t</td><td>1200</td><td>Repair by approved procedure</td></tr>
+  <tr><td rowspan="2">Intermediate area (Class B)</td><td>t ≤ 30</td><td>25</td><td>< 5%t</td><td>1500</td><td>Repair allowed</td></tr>
+  <tr><td>30 < t ≤ 80</td><td>35</td><td>< 5%t</td><td>2500</td><td>Repair allowed</td></tr>
+  <tr><td rowspan="2">Non-critical area (Class C)</td><td>t ≤ 30</td><td>50</td><td>< 8%t</td><td>3500</td><td>Use-as-is allowed</td></tr>
+  <tr><td>30 < t ≤ 80</td><td>60</td><td>< 8%t</td><td>5000</td><td>Use-as-is allowed</td></tr>
+</table>

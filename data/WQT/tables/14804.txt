@@ -1,0 +1,10 @@
+# Email server settings for multiple providers (includes Outlook.com among others)
+
+| Provider | Incoming server | Incoming port/security | Outgoing server | Outgoing port/security |
+| --- | --- | --- | --- | --- |
+| Outlook.com | imap-mail.outlook.com | 993 / SSL | smtp-mail.outlook.com | 587 / TLS |
+| Gmail | imap.gmail.com | 993 / SSL | smtp.gmail.com | 587 / TLS |
+| Yahoo Mail | imap.mail.yahoo.com | 993 / SSL | smtp.mail.yahoo.com | 587 / TLS |
+| iCloud Mail | imap.mail.me.com | 993 / SSL | smtp.mail.me.com | 587 / TLS |
+| AOL Mail | imap.aol.com | 993 / SSL | smtp.aol.com | 587 / TLS |
+| Proton Mail Bridge | 127.0.0.1 | 1143 / STARTTLS | 127.0.0.1 | 1025 / STARTTLS |

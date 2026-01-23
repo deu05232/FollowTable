@@ -1,0 +1,14 @@
+<table>
+  <caption>Information Container Type Enumeration (Value-to-Meaning Mapping)</caption>
+  <thead>
+    <tr><th>Category</th><th>Value</th><th>Type Name</th><th>Human-readable Description</th><th>Typical Contents</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Container Kind</td><td>0</td><td>Model Container</td><td>Stores only model elements and their relationships.</td><td>IFC fragments, object graphs</td></tr>
+    <tr><td>Container Kind</td><td>1</td><td>Rule Container</td><td>Stores rule definitions used for model validation and checking.</td><td>Constraint scripts, rule sets</td></tr>
+    <tr><td>Container Kind</td><td>2</td><td>Mixed Container</td><td>Stores mixed assets such as documents, drawings, and models.</td><td>PDF, DWG, IFC</td></tr>
+    <tr><td>Container Kind</td><td>3</td><td>Document Container</td><td>Stores document-only files intended for review workflows.</td><td>PDF, DOCX</td></tr>
+    <tr><td>Container Kind</td><td>4</td><td>Drawing Container</td><td>Stores CAD drawings primarily for downstream drafting usage.</td><td>DWG, DXF</td></tr>
+    <tr><td>Container Kind</td><td>5</td><td>Archive Container</td><td>Stores packaged deliverables as archives.</td><td>ZIP, 7z</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Message Directory with Minimal Payload Notes (Not a Full Parameter Breakdown)</caption>
+  <thead>
+    <tr><th>Message ID (PGI)</th><th>Message Name</th><th>Payload Summary</th><th>Primary SPNs Referenced</th><th>Cycle Time</th><th>Source-Destination</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x01</td><td>Phase request</td><td>Contains phase code and request flag (details elsewhere)</td><td>2501, 2502</td><td>—</td><td>Charger-Vehicle</td></tr>
+    <tr><td>0x02</td><td>Vehicle confirmation result</td><td>Contains confirm result and error class (details elsewhere)</td><td>2503, 2504</td><td>—</td><td>Vehicle-Charger</td></tr>
+    <tr><td>0x03</td><td>Charger abort</td><td>Contains abort type and abort reason</td><td>2510, 2511</td><td>—</td><td>Charger-Vehicle</td></tr>
+    <tr><td>0x07</td><td>Charger electronic lock status</td><td>Contains lock status byte</td><td>2520</td><td>1000 ms / 50 ms on change</td><td>Charger-Vehicle</td></tr>
+    <tr><td>0x09</td><td>Wake-up</td><td>Contains wake-up flag byte</td><td>2530</td><td>1000 ms</td><td>Vehicle-Charger</td></tr>
+    <tr><td>0x0E</td><td>Fault summary</td><td>Contains fault bitmap (length varies)</td><td>2540</td><td>200 ms</td><td>Vehicle-Charger</td></tr>
+    <tr><td>0x11</td><td>Stop request</td><td>Contains stop cause and timestamp (details elsewhere)</td><td>2550, 2551</td><td>—</td><td>Vehicle-Charger</td></tr>
+  </tbody>
+</table>

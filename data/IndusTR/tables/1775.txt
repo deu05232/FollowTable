@@ -1,0 +1,10 @@
+<table>
+  <caption>Traction Battery Reserved Field Message (PGN5888) Format</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1</td><td>1 byte</td><td>3491</td><td>Traction battery reserved field 1</td><td>Optional</td></tr>
+  <tr><td>2</td><td>1 byte</td><td>3492</td><td>Traction battery reserved field 2</td><td>Optional</td></tr>
+  <tr><td>3</td><td>1 byte</td><td>3493</td><td>Traction battery reserved field 3SAC</td><td>Optional</td></tr>
+  <tr><td>4</td><td>1 byte</td><td>3494</td><td>Traction battery reserved field 4</td><td>Optional</td></tr>
+  <tr><td colspan="4">……</td><td>Optional</td></tr>
+  <tr><td>16</td><td>1 byte</td><td>3506</td><td>Traction battery reserved field 16</td><td>Optional</td></tr>
+</table>

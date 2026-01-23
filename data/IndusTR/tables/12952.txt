@@ -1,0 +1,8 @@
+<table>
+  <caption>Casting structure design checklist (feature-by-feature do/don't)</caption>
+  <tr><th>Feature / Situation</th><th>Proper Design</th><th>Improper Design</th><th>Notes (risk & why)</th></tr>
+  <tr><td>Sharp internal corner</td><td>Add a generous fillet radius and keep the transition smooth</td><td>Keep a sharp corner or sudden step</td><td>Sharp corners concentrate stress and can lead to cracks; smooth transitions reduce risk</td></tr>
+  <tr><td>Rib thickness vs wall thickness</td><td>Keep rib thickness around 0.6–0.8× the wall thickness</td><td>Make ribs as thick as the wall or thicker</td><td>Over-thick ribs can create hot spots and cause shrinkage cavities</td></tr>
+  <tr><td>Intersection of multiple walls</td><td>Blend intersections with gradual transitions; avoid bulky nodes</td><td>Create a heavy intersection lump</td><td>Heavy intersections solidify last and are prone to shrinkage defects</td></tr>
+  <tr><td>Bosses around adjacent holes</td><td>Align small neighboring bosses into the same plane when possible</td><td>Stack bosses at different heights without need</td><td>Unnecessary height differences complicate feeding and increase defect risk</td></tr>
+</table>

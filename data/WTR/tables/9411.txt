@@ -1,0 +1,12 @@
+# How We Built the Dividend Screen (Methodology + Example Metrics Table)
+
+| Step | Filter Description | Threshold | Why It Matters | Example Ticker | Example Dividend Yield | Example Payout Ratio |
+|---:|---|---|---|---|---:|---:|
+| 1 | Universe selection | US large-cap | Liquidity and stability | JNJ | 3.0% | 62% |
+| 2 | Dividend yield screen | >= 3.5% | Income focus | MO | 9.1% | 80% |
+| 3 | Payout ratio cap | <= 80% | Sustainability | CVX | 4.1% | 55% |
+| 4 | Dividend growth check | 5Y CAGR >= 3% | Inflation hedge | PG | 2.5% | 65% |
+| 5 | Balance sheet quality | Net debt/EBITDA <= 3.0x | Risk control | VZ | 6.7% | 62% |
+| 6 | Volatility constraint | Beta <= 1.1 | Drawdown control | KO | 3.1% | 75% |
+| 7 | Valuation sanity | Forward P/E <= 18 | Avoid overpaying | IBM | 3.9% | 63% |
+| 8 | Final ranking | Composite score | Tie-breakers | O | 5.6% | 75% |

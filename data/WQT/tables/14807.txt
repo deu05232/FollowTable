@@ -1,0 +1,12 @@
+# Multi-Provider Mail Server Ports and Security (Outlook.com Included)
+
+| Provider | Protocol | Server | Port | Security |
+| --- | --- | --- | --- | --- |
+| Outlook.com / Hotmail | IMAP | imap-mail.outlook.com | 993 | SSL/TLS |
+| Outlook.com / Hotmail | POP3 | pop-mail.outlook.com | 995 | SSL/TLS |
+| Outlook.com / Hotmail | SMTP | smtp-mail.outlook.com | 587 | STARTTLS |
+| Gmail | IMAP | imap.gmail.com | 993 | SSL/TLS |
+| Gmail | SMTP | smtp.gmail.com | 587 | STARTTLS |
+| Yahoo Mail | IMAP | imap.mail.yahoo.com | 993 | SSL/TLS |
+| Yahoo Mail | SMTP | smtp.mail.yahoo.com | 465 | SSL/TLS |
+| iCloud Mail | IMAP | imap.mail.me.com | 993 | SSL/TLS |

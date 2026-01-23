@@ -1,0 +1,15 @@
+<table>
+  <caption>Table: Fitted restitution parameters by material pair (viscoelastic power-law model)</caption>
+  <thead>
+    <tr><th>Material Pair</th><th>Model Form</th><th>e0 (reference)</th><th>v_ref (m/s)</th><th>k</th><th>Valid v Range (m/s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Steel–Steel</td><td>e(v)=e0 − k·ln(v/v_ref)</td><td>0.96</td><td>1.0</td><td>0.030</td><td>0.1–5</td></tr>
+    <tr><td>Steel–Aluminum</td><td>e(v)=e0 − k·ln(v/v_ref)</td><td>0.84</td><td>1.0</td><td>0.055</td><td>0.1–3</td></tr>
+    <tr><td>Steel–Glass</td><td>e(v)=e0 − k·ln(v/v_ref)</td><td>0.93</td><td>1.0</td><td>0.035</td><td>0.1–4</td></tr>
+    <tr><td>Steel–Rubber</td><td>e(v)=e0·(v/v_ref)^(-k)</td><td>0.70</td><td>1.0</td><td>0.18</td><td>0.1–2</td></tr>
+    <tr><td>Aluminum–Aluminum</td><td>e(v)=e0 − k·ln(v/v_ref)</td><td>0.76</td><td>1.0</td><td>0.060</td><td>0.1–2</td></tr>
+    <tr><td>Wood (oak)–Steel</td><td>e(v)=e0·(v/v_ref)^(-k)</td><td>0.62</td><td>1.0</td><td>0.10</td><td>0.1–2</td></tr>
+    <tr><td>Polycarbonate–Steel</td><td>e(v)=e0·(v/v_ref)^(-k)</td><td>0.58</td><td>1.0</td><td>0.12</td><td>0.1–2</td></tr>
+  </tbody>
+</table>

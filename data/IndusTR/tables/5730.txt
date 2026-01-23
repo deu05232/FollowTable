@@ -1,0 +1,8 @@
+<table>
+  <caption>AR Hit Test: Parameter Reference for Collision-style Checks</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>AR session used to perform the hit test</td></tr>
+  <tr><td>ray_origin</td><td>ArPose *</td><td>Pose representing where the ray starts (e.g., camera pose)</td></tr>
+  <tr><td>ray_direction</td><td>float[3]</td><td>Normalized direction for the ray cast used for collision-like queries</td></tr>
+  <tr><td>out_hit_result_list</td><td>ArHitResultList **</td><td>Receives the list of hit results found along the ray</td></tr>
+</table>

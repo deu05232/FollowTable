@@ -1,0 +1,17 @@
+# List of Intel chipsets
+> 8xx chipsets
+
+| Chipset | Part Number | ATA | SATA | RAID Level | USB | PCI |
+| --- | --- | --- | --- | --- | --- | --- |
+| ICH | 82801AA | UDMA 66/33 | No | No | v1.1, 2 ports | Rev 2.2, 6 PCI slots |
+| ICH0 | 82801AB | UDMA 33 | No | No | v1.1, 2 ports | Rev 2.2, 4 PCI slots |
+| ICH2 | 82801BA | UDMA 100/66/33 | No | No | v1.1, 4 ports | Rev 2.2, 6 PCI slots |
+| ICH2-M | 82801BAM | UDMA 100/66/33 | No | No | v1.1, 2 ports | Rev 2.2, 2 PCI slots |
+| ICH3-S | 82801CA | UDMA 100/66/33 | No | No | v1.1, 6 ports | Rev 2.2, 6 PCI slots |
+| ICH3-M | 82801CAM | UDMA 100/66/33 | No | No | v1.1, 2 ports | Rev 2.2, 2 PCI slots |
+| ICH4 | 82801DB | UDMA 100/66/33 | No | No | v2.0, 6 ports | Rev 2.2, 6 PCI slots |
+| ICH4-M | 82801DBM | UDMA 100/66/33 | No | No | v2.0, 4 ports | Rev 2.2, 3 PCI slots |
+| ICH5 | 82801EB | UDMA 100/66/33 | SATA 1.5 Gbit/s, 2 ports | No | v2.0, 8 ports | Rev 2.3, 6 PCI slots |
+| ICH5R | 82801ER | UDMA 100/66/33 | SATA 1.5 Gbit/s, 2 ports | RAID0, RAID1 | v2.0, 6 ports | Rev 2.3, 6 PCI slots |
+| ICH5-M | 82801EBM | UDMA 100/66/33 | No | No | v2.0, 4 ports | Rev 2.3, 4 PCI slots |
+| 6300ESB | 6300ESB | UDMA 100/66/33 | SATA 1.5 Gbit/s, 2 ports | RAID0, RAID1 | v2.0, 4 ports | Rev 2.2, 4 PCI slots, Rev 1.0, 2 PCI-X slots + 2 PCI-X devices |

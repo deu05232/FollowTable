@@ -1,0 +1,15 @@
+<table>
+  <caption>Encrypted Message Packaging for APDU TERMINAL SEND (Ciphertext/IDs)</caption>
+  <thead>
+    <tr><th>Frame Type</th><th>Field</th><th>Length (byte)</th><th>Source</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Intermediate Frame</td><td>Address (Unicast/Broadcast/Multicast ID)</td><td>6</td><td>Terminal</td><td>Recipient identifier selected by message type</td></tr>
+    <tr><td>Sequence Counter</td><td>2</td><td>Terminal</td><td>Incremented per frame</td></tr>
+    <tr><td>Message Ciphertext Chunk</td><td>240</td><td>Terminal</td><td>First 240 bytes of encrypted payload</td></tr>
+    <tr><td rowspan="4">End Frame</td><td>Address (Unicast/Broadcast/Multicast ID)</td><td>6</td><td>Terminal</td><td>Recipient identifier selected by message type</td></tr>
+    <tr><td>Sequence Counter</td><td>2</td><td>Terminal</td><td>Final sequence number</td></tr>
+    <tr><td>Message Ciphertext Final</td><td>0..240</td><td>Terminal</td><td>Remaining ciphertext bytes</td></tr>
+    <tr><td>CRC16</td><td>2</td><td>Terminal</td><td>Checksum over header + ciphertext</td></tr>
+  </tbody>
+</table>

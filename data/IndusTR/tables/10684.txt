@@ -1,0 +1,14 @@
+<table>
+  <caption>Gateway Authentication and Identifier Binding Parameters</caption>
+  <thead>
+    <tr><th>Endpoint</th><th>Purpose</th><th>HTTP Method</th><th>Required Credentials</th><th>Required Identity Fields</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>/api/gateway/auth/bind</td><td>Authenticate and bind identifiers to a gateway</td><td>POST</td><td>access_token, userID</td><td>gatewayID, gatewaySerial</td><td>Device fields are not accepted; gateway-only binding.</td></tr>
+    <tr><td>/api/gateway/auth/refresh</td><td>Refresh gateway session</td><td>POST</td><td>access_token, refresh_token</td><td>gatewayID</td><td>Rotates gateway session keys.</td></tr>
+    <tr><td>/api/gateway/identifier/save</td><td>Save gateway identifier template</td><td>POST</td><td>access_token, userID</td><td>gatewayID, classfyID, templateVersion</td><td>Template attributes sent as JSON.</td></tr>
+    <tr><td>/api/gateway/identifier/list</td><td>List gateway identifiers</td><td>GET</td><td>access_token</td><td>gatewayID</td><td>Pagination supported.</td></tr>
+    <tr><td>/api/gateway/auth/revoke</td><td>Revoke gateway credentials</td><td>POST</td><td>access_token, userID</td><td>gatewayID</td><td>Invalidates gateway token binding.</td></tr>
+    <tr><td>/api/gateway/audit/logs</td><td>Fetch gateway auth audit logs</td><td>GET</td><td>access_token</td><td>gatewayID, timeRange</td><td>For compliance review.</td></tr>
+  </tbody>
+</table>

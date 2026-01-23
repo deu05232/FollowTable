@@ -1,0 +1,14 @@
+<table>
+  <caption>Sampling Plan Metrics for Synthesized Frequency Source Inspections (AQL/LTPD Oriented)</caption>
+  <thead>
+    <tr><th>Inspection Lot Size</th><th>Inspection Item</th><th>Inspection Level (IL)</th><th>Sample Size (n)</th><th>Acceptance Number (Ac)</th><th>Rejection Number (Re)</th><th>AQL</th><th>LTPD</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2–50</td><td>External visual inspection</td><td>II</td><td>8</td><td>0</td><td>1</td><td>0.65</td><td>2.5</td><td>Normal inspection</td></tr>
+    <tr><td>51–150</td><td>Marking inspection</td><td>II</td><td>13</td><td>0</td><td>1</td><td>0.65</td><td>2.5</td><td>Combine with visual</td></tr>
+    <tr><td>151–500</td><td>Dimensions</td><td>S-3</td><td>20</td><td>1</td><td>2</td><td>1.0</td><td>5.0</td><td>Critical dimensions only</td></tr>
+    <tr><td>501–1200</td><td>Electrical characteristics at 25°C</td><td>II</td><td>32</td><td>1</td><td>2</td><td>0.65</td><td>2.5</td><td>Record failures by mode</td></tr>
+    <tr><td>1201–3200</td><td>Solderability</td><td>S-2</td><td>13</td><td>0</td><td>1</td><td>1.5</td><td>6.5</td><td>Only when applicable</td></tr>
+    <tr><td>3201–10000</td><td>Endurance (life test)</td><td>S-1</td><td>5</td><td>0</td><td>1</td><td>2.5</td><td>10</td><td>Destructive; reduced frequency</td></tr>
+  </tbody>
+</table>

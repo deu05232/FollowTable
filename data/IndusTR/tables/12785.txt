@@ -1,0 +1,17 @@
+<table>
+  <caption>Exchange Header Envelope Package — Header & Payload Relationship Map (Descriptive, Missing Required/Optional)</caption>
+  <thead>
+    <tr><th>Level</th><th>Element</th><th>English Name</th><th>Parent Element</th><th>Cardinality Hint</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Envelope</td><td>Envelope</td><td>-</td><td>1..1</td><td>Top-level container that wraps header, parties, references, and payload metadata.</td></tr>
+    <tr><td>2</td><td>Header</td><td>Header</td><td>Envelope</td><td>1..1</td><td>Header component used for identification and creation timing.</td></tr>
+    <tr><td>3</td><td>Header Identifier</td><td>Header Identifier</td><td>Header</td><td>single</td><td>Identifier value for the header instance.</td></tr>
+    <tr><td>3</td><td>Header Creation Date Time</td><td>Header Creation Date Time</td><td>Header</td><td>single</td><td>Timestamp indicating when the envelope/header was created.</td></tr>
+    <tr><td>2</td><td>External Reference</td><td>External Reference</td><td>Envelope</td><td>0..n</td><td>Reference to an external object such as a URI or document link.</td></tr>
+    <tr><td>3</td><td>External Reference Identifier</td><td>External Reference Identifier</td><td>External Reference</td><td>single</td><td>Identifier or URI of the external reference object.</td></tr>
+    <tr><td>2</td><td>Payload</td><td>Payload</td><td>Envelope</td><td>0..n</td><td>Payload metadata describing documents carried in the exchange.</td></tr>
+    <tr><td>3</td><td>Payload Identifier</td><td>Payload Identifier</td><td>Payload</td><td>single</td><td>Identifier that specifies the payload instance.</td></tr>
+    <tr><td>3</td><td>Payload Document Type Code</td><td>Payload Document Type Code</td><td>Payload</td><td>single</td><td>Classification code for the payload document type.</td></tr>
+  </tbody>
+</table>

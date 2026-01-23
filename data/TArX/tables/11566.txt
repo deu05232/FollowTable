@@ -1,0 +1,15 @@
+<table>
+  <caption>Simulated planetary system initial conditions including a fictitious planet (non-Solar System)</caption>
+  <thead>
+    <tr><th rowspan="2">Run ID</th><th rowspan="2">Planet label</th><th colspan="4">Orbital parameters</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Mass (M_J)</th><th>Semimajor axis (AU)</th><th>Eccentricity (e)</th><th>Inclination (deg)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Sim-A</td><td>Planet b</td><td>1.10</td><td>1.85</td><td>0.03</td><td>0.5</td><td>Giant planet</td></tr>
+    <tr><td>Planet c</td><td>0.42</td><td>3.20</td><td>0.12</td><td>1.2</td><td>Ice-giant analog</td></tr>
+    <tr><td>Planet g (fictitious)</td><td>0.05</td><td>0.75</td><td>0.20</td><td>2.0</td><td>Added for stability tests</td></tr>
+    <tr><td rowspan="3">Sim-B</td><td>Planet b</td><td>0.90</td><td>2.10</td><td>0.08</td><td>0.8</td><td>Giant planet</td></tr>
+    <tr><td>Planet d</td><td>0.15</td><td>5.60</td><td>0.04</td><td>1.6</td><td>Outer companion</td></tr>
+    <tr><td>Planet g (fictitious)</td><td>0.02</td><td>1.10</td><td>0.30</td><td>3.5</td><td>Fictitious planet</td></tr>
+  </tbody>
+</table>

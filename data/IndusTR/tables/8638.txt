@@ -1,0 +1,15 @@
+<table>
+  <caption>Efficiency Grade Requirements by Rated Output Power Band (External Power Supply)</caption>
+  <thead>
+    <tr><th rowspan="2">Efficiency Grade</th><th rowspan="2">Rated Output Power Band (Po, W)</th><th colspan="2">Minimum Average Efficiency (Operating State)</th><th rowspan="2">Max Active Power in No-Load (W)</th><th rowspan="2">Min Power Factor at Rated Load</th></tr>
+    <tr><th>At 115 V Input</th><th>At 230 V Input</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Grade 1</td><td>0 < Po ≤ 1</td><td>0.50 × Po + 0.110</td><td>0.49 × Po + 0.180</td><td>0.060</td><td>—</td></tr>
+    <tr><td>1 < Po ≤ 10</td><td>0.080 × ln(Po) - 0.0012 × Po + 0.665</td><td>0.078 × ln(Po) - 0.0011 × Po + 0.682</td><td>0.060</td><td>—</td></tr>
+    <tr><td>10 < Po ≤ 49</td><td>0.082 × ln(Po) - 0.0010 × Po + 0.672</td><td>0.080 × ln(Po) - 0.0010 × Po + 0.688</td><td>0.060</td><td>—</td></tr>
+    <tr><td>49 < Po ≤ 250</td><td>0.910</td><td>0.915</td><td>0.080</td><td>0.930</td></tr>
+    <tr><td>250 < Po ≤ 500</td><td>0.915</td><td>0.920</td><td>0.100</td><td>0.940</td></tr>
+    <tr><td>500 < Po ≤ 1000</td><td>0.920</td><td>0.925</td><td>0.120</td><td>0.950</td></tr>
+  </tbody>
+</table>

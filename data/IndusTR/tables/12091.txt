@@ -1,0 +1,16 @@
+<table>
+  <caption>Compliance Matrix for Intrusion Detector Features by Security Grade</caption>
+  <thead>
+    <tr><th rowspan="2">Requirement</th><th colspan="4">Security Grade</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Grade 1</th><th>Grade 2</th><th>Grade 3</th><th>Grade 4</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intrusion alarm output</td><td>M</td><td>M</td><td>M</td><td>M</td><td>Mandatory alarm relay</td></tr>
+    <tr><td>Tamper switch</td><td>OP</td><td>M</td><td>M</td><td>M</td><td>Cover open detection</td></tr>
+    <tr><td>Power supply supervision</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>Low voltage reporting</td></tr>
+    <tr><td>Event log retention</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>Minimum 100 events</td></tr>
+    <tr><td>Environmental sealing (IP rating)</td><td>OP</td><td>OP</td><td>OP</td><td>M</td><td>Outdoor use</td></tr>
+    <tr><td>Encrypted communication</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>AES or equivalent</td></tr>
+    <tr><td>Self-test interval</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>At least once per 24 h</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Per-atom magnetocrystalline anisotropy energy (MAE) of cobalt under different lattice strains and orientations.</caption>
+  <thead>
+    <tr><th>Sample / Condition</th><th>Crystal / Geometry</th><th>Strain or Lattice Condition</th><th>MAE (meV/atom)</th><th>Easy Axis</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Bulk Co (reference)</td><td>hcp (0001)</td><td>unstrained</td><td>0.06</td><td>c-axis</td><td>Typical bulk hcp value reported in DFT literature</td></tr>
+    <tr><td>Bulk Co</td><td>hcp (0001)</td><td>+1% biaxial tensile</td><td>0.10</td><td>c-axis</td><td>Increased orbital moment anisotropy under tensile strain</td></tr>
+    <tr><td>Bulk Co</td><td>hcp (0001)</td><td>-1% biaxial compressive</td><td>0.03</td><td>c-axis</td><td>Reduced MAE compared to unstrained</td></tr>
+    <tr><td>Co slab (thick limit)</td><td>fcc (001)</td><td>pseudomorphic to fcc lattice</td><td>-0.02</td><td>in-plane</td><td>Negative sign indicates in-plane preference</td></tr>
+    <tr><td>Co slab (thick limit)</td><td>fcc (111)</td><td>pseudomorphic to fcc lattice</td><td>0.01</td><td>out-of-plane</td><td>Small MAE close to zero</td></tr>
+    <tr><td>Co nanoregion (model)</td><td>hcp-like</td><td>local distortion (c/a +2%)</td><td>0.14</td><td>c-axis</td><td>Demonstrates sensitivity to c/a ratio</td></tr>
+    <tr><td>Co under SOC scaling</td><td>hcp (0001)</td><td>SOC × 0.8</td><td>0.04</td><td>c-axis</td><td>MAE decreases with reduced SOC strength</td></tr>
+  </tbody>
+</table>

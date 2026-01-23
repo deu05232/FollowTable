@@ -1,0 +1,8 @@
+<table>
+  <caption>VR positioning interface data types: vrPositionableDeviceType enum</caption>
+  <tr><th>Data Type</th><th>Enum Value</th><th>Description</th></tr>
+  <tr><td rowspan="4">vrPositionableDeviceType</td><td>VR_POSITIONABLE_DEVICE_TYPE_HMD=0x00</td><td>Head-mounted display device</td></tr>
+  <tr><td>VR_POSITIONABLE_DEVICE_TYPE_CONTROLLER=0x01</td><td>Hand controller device</td></tr>
+  <tr><td>VR_POSITIONABLE_DEVICE_TYPE_TRACKER=0x02</td><td>External tracker / tag device</td></tr>
+  <tr><td>0x03~0xFF</td><td>Reserved</td></tr>
+</table>

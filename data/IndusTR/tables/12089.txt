@@ -1,0 +1,15 @@
+<table>
+  <caption>Transient Immunity and ESD Stress Test Matrix for Autonomous Driving Recorder</caption>
+  <thead>
+    <tr><th>Test Case</th><th>Phenomenon</th><th>Waveform / Pulse</th><th>Test Level</th><th>Amplitude</th><th>Rise Time</th><th>Repetition Rate</th><th>Dwell / Duration</th><th>Acceptance Requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>EMC-01</td><td>ISO pulse 1</td><td>12 V line transient</td><td>Level III</td><td>-100 V</td><td>1 µs</td><td>1 Hz</td><td>500 pulses</td><td>No functional loss; logging resumes</td></tr>
+    <tr><td>EMC-02</td><td>ISO pulse 2a</td><td>Supply interruption</td><td>Level III</td><td>+50 V</td><td>1 µs</td><td>1 Hz</td><td>500 pulses</td><td>No unexpected reset</td></tr>
+    <tr><td>EMC-03</td><td>ISO pulse 2b</td><td>Inductive switching</td><td>Level III</td><td>+50 V</td><td>1 µs</td><td>1 Hz</td><td>500 pulses</td><td>No corrupted records</td></tr>
+    <tr><td>EMC-04</td><td>ISO pulse 3a</td><td>Fast transient</td><td>Level II</td><td>-150 V</td><td>5 ns</td><td>5 kHz</td><td>1 min</td><td>Temporary degradation allowed</td></tr>
+    <tr><td>EMC-05</td><td>ISO pulse 3b</td><td>Fast transient</td><td>Level II</td><td>+150 V</td><td>5 ns</td><td>5 kHz</td><td>1 min</td><td>Temporary degradation allowed</td></tr>
+    <tr><td>EMC-06</td><td>ESD contact</td><td>IEC 61000-4-2</td><td>±8 kV</td><td>±8 kV</td><td>0.7–1 ns</td><td>1/s</td><td>10 discharges/point</td><td>No permanent damage</td></tr>
+    <tr><td>EMC-07</td><td>ESD air</td><td>IEC 61000-4-2</td><td>±15 kV</td><td>±15 kV</td><td>0.7–1 ns</td><td>1/s</td><td>10 discharges/point</td><td>No permanent damage</td></tr>
+  </tbody>
+</table>

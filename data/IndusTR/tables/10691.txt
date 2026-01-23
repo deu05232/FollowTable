@@ -1,0 +1,7 @@
+<table>
+  <caption>Basic business party registration details for the Exchange Header Envelope</caption>
+  <tr><td>Data Field</td><td>English Name</td><td>Constraints</td><td>Maximum Occurrences</td><td>Data Type</td><td>Definition</td></tr>
+  <tr><td>Legal Entity Name</td><td>Legal Entity Name</td><td>Mandatory</td><td>1</td><td>String</td><td>Registered legal name of the trading party represented in the envelope</td></tr>
+  <tr><td>Registration Identifier</td><td>Registration Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Company registration or incorporation identifier used to identify the party</td></tr>
+  <tr><td>Business Activity Description Text</td><td>Business Activity Text</td><td>Optional</td><td>N</td><td>String</td><td>Short description of the party’s main business activities relevant to the exchange</td></tr>
+</table>

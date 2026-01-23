@@ -1,0 +1,19 @@
+<table>
+  <caption>Roadside Hazard Alert (RHS) Data Fields Centered on RSU Location</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Meaning</th><th>Unit/Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">RSU Identification</td><td>RSU_ID</td><td>Identifier of RSU issuing the hazard alert</td><td>UINT32</td></tr>
+    <tr><td>Operator_ID</td><td>Road operator identifier</td><td>STRING</td></tr>
+    <tr><td>Device_Certificate_ID</td><td>Certificate identifier used for signing</td><td>STRING</td></tr>
+    <tr><td rowspan="3">RSU Location</td><td>RSU_Ref_Position_LatLon</td><td>RSU reference position (latitude, longitude)</td><td>deg,deg</td></tr>
+    <tr><td>RSU_Ref_Position_Alt</td><td>RSU reference altitude</td><td>m</td></tr>
+    <tr><td>Road_Segment_Reference</td><td>Segment reference relative to RSU position</td><td>STRING</td></tr>
+    <tr><td rowspan="3">Time</td><td>Event_Timestamp</td><td>Time the event was detected/reported by RSU</td><td>ms</td></tr>
+    <tr><td>Valid_From</td><td>Start of validity window</td><td>ms</td></tr>
+    <tr><td>Valid_To</td><td>End of validity window</td><td>ms</td></tr>
+    <tr><td rowspan="2">Hazard</td><td>Hazard_Type</td><td>Type of hazard</td><td>ENUM</td></tr>
+    <tr><td>Severity_Level</td><td>Severity indicator</td><td>ENUM(0-5)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Total edge lengths and routing performances for the Boston road example depicted in Fig. LABEL:boston_example . The total edge lengths and the GSN/SP distances are shown in an arbitrary unit.</caption>
+  <tr><th>network</th><th>length</th><th>routing performance</th></tr>
+  <tr><th>original [Fig. LABEL:boston_example (a)]</th><td>1.038× 10^(5)</td><td>6.820 (GSN steps)</td></tr>
+  <tr><th></th><td></td><td>4.619× 10^(3) (GSN distance)</td></tr>
+  <tr><th></th><td></td><td>5.716 (SP steps)</td></tr>
+  <tr><th></th><td></td><td>4.259× 10^(3) (SP distance)</td></tr>
+  <tr><th>MST [Fig. LABEL:boston_example (b)]</th><td>3.818× 10^(4)</td><td>25.78 (GSN steps)</td></tr>
+  <tr><th></th><td></td><td>1.413× 10^(4) (GSN distance)</td></tr>
+  <tr><th></th><td></td><td>17.02 (SP steps)</td></tr>
+  <tr><th></th><td></td><td>8.173× 10^(3) (SP distance)</td></tr>
+  <tr><th>GSNH [Fig. LABEL:boston_example (c)]</th><td>1.036× 10^(5)</td><td>5.266 (GSN steps)</td></tr>
+  <tr><th>GSNE [Fig. LABEL:boston_example (d)]</th><td>1.029× 10^(5)</td><td>4.228× 10^(3) (GSN distance)</td></tr>
+  <tr><th>SPNH [Fig. LABEL:boston_example (e)]</th><td>1.037× 10^(5)</td><td>3.950 (SP steps)</td></tr>
+  <tr><th>SPNE [Fig. LABEL:boston_example (f)]</th><td>1.029× 10^(5)</td><td>4.103× 10^(3) (SP distance)</td></tr>
+</table>

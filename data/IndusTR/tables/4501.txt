@@ -1,0 +1,9 @@
+<table>
+  <caption>Key Container Information List Structure Definition</caption>
+  <tr><td>Field Name</td><td>Meaning</td></tr>
+  <tr><td>keyPairCount</td><td>Total number of key container information entries</td></tr>
+  <tr><td>containerName</td><td>Key container name</td></tr>
+  <tr><td>containerNameLen</td><td>Length of the key container name</td></tr>
+  <tr><td>keyUsage</td><td>Key usage, 1: encryption; 2: signature; 3: key exchange</td></tr>
+  <tr><td>keyType</td><td>Key type, 1: SM2; 2: RSA1024 (security risk exists); 3: RSA2048; 4: RSA3072; 5: RSA4096; 6: SM9 (the definition of the SM9 cryptographic algorithm shall comply with Appendix B)</td></tr>
+</table>

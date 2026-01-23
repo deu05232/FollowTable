@@ -1,0 +1,16 @@
+<table>
+  <caption>Harmonic Energy Measurement Test Setup Matrix (Classes Mentioned, Limits Not Central)</caption>
+  <thead>
+    <tr><th rowspan="2">Waveform ID</th><th rowspan="2">Crest factor</th><th rowspan="2">THD (%)</th><th rowspan="2">Load condition</th><th rowspan="2">Power factor reference</th><th colspan="3">Applicable accuracy class (informative)</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WF-A</td><td>1.8</td><td>5</td><td>Balanced (single-phase)</td><td>cosφ = 1.0</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>WF-B</td><td>2.5</td><td>15</td><td>Balanced (three-phase)</td><td>cosφ = 0.5L</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>WF-C</td><td>3.0</td><td>25</td><td>Unbalanced</td><td>cosφ = 0.8C</td><td>Recommended</td><td>Recommended</td><td>Optional</td></tr>
+    <tr><td>WF-D</td><td>2.0</td><td>10</td><td>Low current (Imin–Ir)</td><td>cosφ = 1.0</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>WF-E</td><td>4.0</td><td>40</td><td>Near Imax</td><td>cosφ = 1.0</td><td>Conditional</td><td>Conditional</td><td>Conditional</td></tr>
+    <tr><td>WF-F</td><td>2.2</td><td>12</td><td>Transformer-connected</td><td>cosφ = 1.0</td><td>Yes</td><td>Yes</td><td>Yes</td></tr>
+    <tr><td>WF-G</td><td>3.5</td><td>30</td><td>Balanced</td><td>cosφ = 0.5L</td><td>Recommended</td><td>Recommended</td><td>Optional</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal Qualification Test Matrix for Beidou Monitoring Terminals</caption>
+  <thead>
+    <tr><th>Test group</th><th>Test item</th><th>Parameter</th><th>Setpoint</th><th>Duration / cycles</th><th>Pass / fail rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Thermal</td><td>Thermal cycling</td><td>Temperature range (°C)</td><td>-30 to +65</td><td>10 cycles</td><td>No enclosure cracking; boots normally</td></tr>
+    <tr><td>Thermal cycling</td><td>Dwell time (min)</td><td>45</td><td>Per plateau</td><td>No data loss in log</td></tr>
+    <tr><td rowspan="2">Electrical</td><td>Power interruption</td><td>Off time (ms)</td><td>50</td><td>100 events</td><td>Auto-recover within 5 s</td></tr>
+    <tr><td>Surge immunity</td><td>Impulse voltage (V)</td><td>600</td><td>5 positive + 5 negative</td><td>No permanent malfunction</td></tr>
+    <tr><td rowspan="2">Mechanical</td><td>Shock</td><td>Peak acceleration (g)</td><td>30</td><td>18 pulses</td><td>No loosened fasteners</td></tr>
+    <tr><td>Shock</td><td>Pulse width (ms)</td><td>11</td><td>Per pulse</td><td>Connectors remain seated</td></tr>
+    <tr><td>Ingress</td><td>Dust test</td><td>Dust concentration (kg/m³)</td><td>2</td><td>8 h</td><td>No dust deposition affecting operation</td></tr>
+    <tr><td>EMC</td><td>Radiated RF immunity</td><td>Field strength (V/m)</td><td>10</td><td>80–1000 MHz sweep</td><td>No positioning dropouts > 1 s</td></tr>
+  </tbody>
+</table>

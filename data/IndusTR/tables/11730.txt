@@ -1,0 +1,17 @@
+<table>
+  <caption>Energy Consumption Test Workflow for Copiers/MFDs (Off, Ready, Sleep, Auto-Off)</caption>
+  <thead>
+    <tr><th>Step</th><th>Starting state</th><th>Tester action</th><th>Target device mode/state during step</th><th>What to record at end of step</th><th>Record unit / format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Off (connected to mains)</td><td>Connect device to power meter; reset/zero meter; confirm no jobs queued and all covers closed.</td><td>Off</td><td>Cumulative energy over baseline interval; elapsed time; notes on stability</td><td>Wh; min; text</td></tr>
+    <tr><td>2</td><td>Off</td><td>Measure for a fixed interval (e.g., 10 min) without touching the device; confirm reading stabilizes.</td><td>Off</td><td>Average power and cumulative energy for the interval</td><td>W (avg); Wh</td></tr>
+    <tr><td>3</td><td>Off</td><td>Turn device power on; wait until it indicates Ready (or until power draw stabilizes if no indicator).</td><td>Transitioning to Ready</td><td>Time to Ready; energy consumed during warm-up</td><td>min:s; Wh</td></tr>
+    <tr><td>4</td><td>Ready</td><td>Hold idle with no user input; start timing until the unit enters its first low-power state automatically.</td><td>Ready → Sleep level 1 (if supported)</td><td>Default delay time to Sleep level 1; power at Sleep level 1 once stable</td><td>min; W</td></tr>
+    <tr><td>5</td><td>Sleep level 1</td><td>Continue idling to allow deeper sleep (if the product supports multiple sleep levels); do not disturb the device.</td><td>Sleep level 1 → Sleep level 2 (optional)</td><td>Additional delay time to Sleep level 2; power at Sleep level 2 once stable</td><td>min; W</td></tr>
+    <tr><td>6</td><td>Any sleep level</td><td>Wake device using the specified stimulus (e.g., press Wake/Start or send a network ping/job as defined); stop timing when Ready returns.</td><td>Sleep → Ready</td><td>Wake time; energy during wake transition; Ready-state power after stabilization</td><td>s; Wh; W</td></tr>
+    <tr><td>7</td><td>Ready</td><td>Trigger automatic power-down feature if enabled by waiting for auto-off, or manually invoke the lowest-power state permitted by the test plan.</td><td>Ready/Sleep → Auto-off (or lowest-power state)</td><td>Delay time to auto-off; power in auto-off/lowest-power state</td><td>min; W</td></tr>
+    <tr><td>8</td><td>Auto-off (or lowest-power)</td><td>Measure steady-state power for a fixed interval (e.g., 5–10 min) with no interaction.</td><td>Auto-off / lowest-power</td><td>Average power over interval; cumulative energy; stability notes</td><td>W (avg); Wh; text</td></tr>
+    <tr><td>9</td><td>On or any low-power state</td><td>Return device to Off (if a hard off switch exists); if no manual off, document and retain lowest-power measurement instead.</td><td>Off (or documented substitute state)</td><td>Off-state power (POFF or equivalent); method used to achieve off</td><td>W; text</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,39 @@
+<table>
+  <caption>Column 2 shows the simulated radial velocities obtained from a single planet model (Table LABEL:tab:simcomp ) using equation ( LABEL:full_expression ). A Gaussian noise with μ = 0.0 ⁢ m ⁢ s - 1 and σ = 2.0 ⁢ m ⁢ s - 1 has been added to each radial velocity term. Columns 3 is obtained by adding the radial velocity from a second planet (see Table LABEL:tab:simcomp ) to each term in column 2, thus creating a mock radial velocity data for a two planet system. The measurement uncertainties (Gaussian distribution with μ = 2.0 ⁢ m ⁢ s - 1 and σ = 0.5 ⁢ m ⁢ s - 1 ) are shown in columns 4 and 5.</caption>
+  <tr><th>JD(-2451000)</th><th>RV(ms^(-1))</th><th>Error(ms^(-1))</th><th>RV(ms^(-1))</th><th>Error(ms^(-1))</th></tr>
+  <tr><td></td><th>1-planet</th><th></th><th>2-planets</th><td></td></tr>
+  <tr><td>1400.15200</td><td>-17.90</td><td>2.1</td><td>-25.30</td><td>2.1</td></tr>
+  <tr><td>1413.87749</td><td>-18.50</td><td>2.8</td><td>-18.20</td><td>2.8</td></tr>
+  <tr><td>1434.46573</td><td>-30.00</td><td>1.4</td><td>-22.50</td><td>1.4</td></tr>
+  <tr><td>1455.05396</td><td>-33.00</td><td>2.0</td><td>-26.20</td><td>2.0</td></tr>
+  <tr><td>1489.36769</td><td>-41.10</td><td>2.1</td><td>-52.70</td><td>2.1</td></tr>
+  <tr><td>1496.23043</td><td>-41.30</td><td>2.4</td><td>-50.80</td><td>2.4</td></tr>
+  <tr><td>1503.09318</td><td>-45.50</td><td>1.7</td><td>-51.20</td><td>1.7</td></tr>
+  <tr><td>1564.85788</td><td>-47.60</td><td>1.7</td><td>-45.30</td><td>1.7</td></tr>
+  <tr><td>1571.72063</td><td>-44.20</td><td>2.0</td><td>-46.80</td><td>2.0</td></tr>
+  <tr><td>1585.44612</td><td>-39.40</td><td>1.6</td><td>-50.70</td><td>1.6</td></tr>
+  <tr><td>1592.30886</td><td>-33.60</td><td>1.9</td><td>-44.70</td><td>1.9</td></tr>
+  <tr><td>1612.89710</td><td>-14.50</td><td>1.9</td><td>-14.70</td><td>1.9</td></tr>
+  <tr><td>1619.75984</td><td>-6.17</td><td>1.9</td><td>-3.07</td><td>1.9</td></tr>
+  <tr><td>1654.07357</td><td>38.20</td><td>2.4</td><td>45.30</td><td>2.4</td></tr>
+  <tr><td>1688.38729</td><td>61.90</td><td>1.6</td><td>50.30</td><td>1.6</td></tr>
+  <tr><td>1695.25004</td><td>64.90</td><td>1.7</td><td>54.90</td><td>1.7</td></tr>
+  <tr><td>1715.83827</td><td>74.00</td><td>2.9</td><td>75.30</td><td>2.9</td></tr>
+  <tr><td>1722.70102</td><td>73.70</td><td>2.7</td><td>78.00</td><td>2.7</td></tr>
+  <tr><td>1736.42651</td><td>70.20</td><td>1.8</td><td>78.00</td><td>1.8</td></tr>
+  <tr><td>1743.28925</td><td>72.70</td><td>2.6</td><td>81.10</td><td>2.6</td></tr>
+  <tr><td>1770.74024</td><td>67.30</td><td>2.3</td><td>65.50</td><td>2.3</td></tr>
+  <tr><td>1777.60298</td><td>65.10</td><td>2.0</td><td>57.80</td><td>2.0</td></tr>
+  <tr><td>1784.46573</td><td>66.20</td><td>2.7</td><td>55.20</td><td>2.7</td></tr>
+  <tr><td>1798.19122</td><td>61.90</td><td>2.4</td><td>53.40</td><td>2.4</td></tr>
+  <tr><td>1811.91671</td><td>56.70</td><td>1.9</td><td>56.00</td><td>1.9</td></tr>
+  <tr><td>1818.77945</td><td>56.20</td><td>2.2</td><td>58.80</td><td>2.2</td></tr>
+  <tr><td>1832.50494</td><td>51.00</td><td>1.7</td><td>58.20</td><td>1.7</td></tr>
+  <tr><td>1901.13239</td><td>32.80</td><td>1.6</td><td>25.90</td><td>1.6</td></tr>
+  <tr><td>1907.99514</td><td>32.40</td><td>2.0</td><td>29.60</td><td>2.0</td></tr>
+  <tr><td>1921.72063</td><td>29.80</td><td>2.2</td><td>33.70</td><td>2.2</td></tr>
+  <tr><td>1928.58337</td><td>33.90</td><td>3.7</td><td>40.10</td><td>3.7</td></tr>
+  <tr><td>1935.44612</td><td>29.10</td><td>2.9</td><td>36.80</td><td>2.9</td></tr>
+  <tr><td>1962.89710</td><td>19.00</td><td>2.2</td><td>22.40</td><td>2.2</td></tr>
+  <tr><td>1969.75984</td><td>17.40</td><td>2.2</td><td>16.30</td><td>2.2</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Session Control and Handshake CAN Messages (Who Sends What, When)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Source → Destination</th><th>Bus Addressing Type</th><th>DLC (Bytes)</th><th>Nominal Period (ms)</th><th>Timeout / Validity (ms)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Link Setup</td><td>CHM</td><td>Charger Handshake Message</td><td>9728</td><td>002600h</td><td>6</td><td>Charger → Vehicle</td><td>Peer-to-peer (DA specific)</td><td>3</td><td>250</td><td>1000</td></tr>
+    <tr><td>BHM</td><td>Vehicle Handshake Message</td><td>9984</td><td>002700h</td><td>6</td><td>Vehicle → Charger</td><td>Peer-to-peer (DA specific)</td><td>2</td><td>250</td><td>1000</td></tr>
+    <tr><td rowspan="2">Identification</td><td>CRM</td><td>Charger Identification Message</td><td>256</td><td>000100h</td><td>6</td><td>Charger → BMS</td><td>Peer-to-peer (DA specific)</td><td>8</td><td>250</td><td>1000</td></tr>
+    <tr><td>BRM</td><td>Battery Identification Message</td><td>512</td><td>000200h</td><td>6</td><td>BMS/Vehicle → Charger</td><td>Peer-to-peer (DA specific)</td><td>8</td><td>250</td><td>1000</td></tr>
+    <tr><td rowspan="2">Parameter Exchange</td><td>BCP</td><td>Vehicle Charging Parameter Message</td><td>1536</td><td>000600h</td><td>7</td><td>Vehicle → Charger</td><td>Peer-to-peer (DA specific)</td><td>13</td><td>500</td><td>2000</td></tr>
+    <tr><td>CML</td><td>Charger Max Output Capability Message</td><td>2048</td><td>000800h</td><td>6</td><td>Charger → Vehicle</td><td>Peer-to-peer (DA specific)</td><td>8</td><td>250</td><td>1000</td></tr>
+    <tr><td>Time Base</td><td>CTS</td><td>Charger Time Synchronization Message</td><td>1792</td><td>000700h</td><td>6</td><td>Charger → Vehicle</td><td>Peer-to-peer (DA specific)</td><td>7</td><td>500</td><td>2000</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Command D4H — Set Temperature Alarm Thresholds Frame Format</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th>HighLimit_L</th><th>HighLimit_H</th><th>LowLimit_L</th><th>LowLimit_H</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>01H</td><td>D4H</td><td>0004H</td><td>2CH</td><td>01H</td><td>F4H</td><td>00H</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>02H</td><td>D4H</td><td>0004H</td><td>20H</td><td>01H</td><td>E0H</td><td>00H</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>03H</td><td>D4H</td><td>0004H</td><td>30H</td><td>01H</td><td>00H</td><td>01H</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td colspan="10">Note: HighLimit and LowLimit are signed fixed-point values encoded in low/high bytes.</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>04H</td><td>D4H</td><td>0004H</td><td>10H</td><td>01H</td><td>D0H</td><td>00H</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>05H</td><td>D4H</td><td>0004H</td><td>40H</td><td>01H</td><td>F0H</td><td>00H</td><td>xxxxH</td><td>0DH</td></tr>
+</table>

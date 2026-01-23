@@ -1,0 +1,8 @@
+<table>
+  <caption>Mobile Device Augmented Reality System Vertex Data Format Enumeration</caption>
+  <tr><td>ARVertexFormat Values</td><td>Description</td></tr>
+  <tr><td>ARVERTEX_FORMAT_UNKNOWN=-1</td><td>Invalid vertex data</td></tr>
+  <tr><td>ARVERTEX_FORMAT_3D_POSITION=0</td><td>Vertex data contains 3 float values representing the point coordinates</td></tr>
+  <tr><td>ARVERTEX_FORMAT_3D_POSITION_NORMAL=1</td><td>Vertex data contains 6 float values representing the point coordinates and the plane normal vector through the point</td></tr>
+  <tr><td>ARVERTEX_FORMAT_3D_POSITION_NORMAL_COLOR=2</td><td>Vertex data contains 10 float values representing the point coordinates, the plane normal vector through the point, and the point RGBA data</td></tr>
+</table>

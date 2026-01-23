@@ -1,0 +1,18 @@
+<table>
+  <caption>Terrestrial Eco-Meteorological Station Human-Induced Ecological Event Record (Coded)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Field</th><th>Field Code</th><th>Data Type</th><th>Format / Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station identifier</td><td>ST_ID</td><td>VARCHAR(32)</td><td>Unique station code</td></tr>
+    <tr><td>2</td><td>Observation timestamp</td><td>OBS_TIME</td><td>DATETIME</td><td>YYYY-MM-DD hh:mm:ss</td></tr>
+    <tr><td>3</td><td>Human-induced event group</td><td>HIE_GRP</td><td>CHAR(2)</td><td>Controlled: LU=Land use; PL=Pollution; EX=Extraction; IN=Infrastructure; OT=Other</td></tr>
+    <tr><td>4</td><td>Human-induced event code</td><td>HIE_CODE</td><td>CHAR(2)</td><td>Coded label for the human-induced event (e.g., WW-style controlled code)</td></tr>
+    <tr><td>4.1</td><td>Human-induced event name</td><td>HIE_NAME</td><td>VARCHAR(120)</td><td>Display name aligned to HIE_CODE</td></tr>
+    <tr><td>5</td><td>Impact class</td><td>IMPACT_CL</td><td>CHAR(1)</td><td>1=minor; 2=moderate; 3=severe; 9=unknown</td></tr>
+    <tr><td>6</td><td>Affected ecosystem compartment</td><td>ECO_COMP</td><td>CHAR(2)</td><td>VE=vegetation; SO=soil; WA=water; FA=fauna; AT=atmosphere</td></tr>
+    <tr><td>7</td><td>Evidence source</td><td>EVID_SRC</td><td>CHAR(1)</td><td>1=on-site photo; 2=survey record; 3=authority report; 4=remote imagery</td></tr>
+    <tr><td>8</td><td>Record version</td><td>REC_VER</td><td>VARCHAR(10)</td><td>Schema/version tag for pipeline validation</td></tr>
+    <tr><td>9</td><td>Remarks</td><td>REMARK</td><td>VARCHAR(300)</td><td>Optional free text</td></tr>
+  </tbody>
+</table>

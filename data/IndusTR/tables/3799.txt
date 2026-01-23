@@ -1,0 +1,16 @@
+<table>
+  <caption>Comber Alarm Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Draft winding cotton</td><td>Draft WindingCotton</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>1</td><td>—</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Thin sliver</td><td>ThinSliver</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>—</td><td>丨</td><td>—</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0902</td><td>Insufficient negative pressure</td><td>NegativePressureShortage</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>丨</td><td>1</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Fly channel</td><td>FlyChannel</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>—</td><td></td><td>—</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Not pressurized</td><td>Unpressurization</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>—</td><td>—</td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Inverter fault</td><td>InverterFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>Circuit breaker</td><td>CircuitBreaker</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>—</td><td></td><td>—</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Table trumpet</td><td>TableTrumpet</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>1</td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0908</td><td>Can change timeout</td><td>CanChangingTimeout</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>丨</td><td>1</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Lap exhausted</td><td>LapExhaustion</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090A</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>/</td><td>1</td><td>1</td></tr>
+</table>

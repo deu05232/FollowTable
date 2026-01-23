@@ -1,0 +1,15 @@
+<table>
+  <caption>Global Lunar Albedo Estimates (Bond and Geometric) from Multiple Studies</caption>
+  <thead>
+    <tr><th>Study / Source</th><th>Year</th><th>Albedo Type</th><th>Wavelength / Band</th><th>Reported Albedo</th><th>Uncertainty</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Apollo-era photometry synthesis</td><td>1972</td><td>Bond</td><td>Broadband (visible)</td><td>0.11</td><td>±0.01</td><td>Disk-integrated estimate</td></tr>
+    <tr><td>Earthshine inversion (global)</td><td>1998</td><td>Bond</td><td>0.4–0.7 μm</td><td>0.12</td><td>±0.02</td><td>Full Moon geometry</td></tr>
+    <tr><td>Telescopic phase-curve fit</td><td>2006</td><td>Geometric</td><td>V band</td><td>0.136</td><td>±0.005</td><td>Phase-function corrected</td></tr>
+    <tr><td>Spacecraft radiometry summary</td><td>2010</td><td>Bond</td><td>Broadband (solar)</td><td>0.10</td><td>±0.02</td><td>Mean of mission products</td></tr>
+    <tr><td>Thermal model constraint</td><td>2015</td><td>Bond</td><td>Bolometric</td><td>0.11</td><td>±0.01</td><td>Used in energy-balance modeling</td></tr>
+    <tr><td>Review compilation</td><td>2020</td><td>Geometric</td><td>Visible</td><td>0.13</td><td>±0.01</td><td>Summary across literature</td></tr>
+    <tr><td>Recommended nominal value</td><td>2024</td><td>Bond</td><td>Bolometric</td><td>0.11</td><td>—</td><td>Single overall value for simulations</td></tr>
+  </tbody>
+</table>

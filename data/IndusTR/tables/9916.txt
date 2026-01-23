@@ -1,0 +1,7 @@
+<table>
+  <caption>Transport-layer multi-packet data transfer PDU layout (example with sequence/total/byte-count)</caption>
+  <tr><th>Section</th><th>Header field (transport)</th><th>What it represents</th><th>Data-area content (transport framing)</th></tr>
+  <tr><td>Fixed header</td><td>Priority + addressing portion</td><td>Routing/identity for the frame</td><td>—</td></tr>
+  <tr><td>First frame of a transfer</td><td>Format/PGN portion</td><td>Indicates this is a multi-frame transfer</td><td>Frame sequence number set to the first position, plus fields describing how many frames will follow and the total byte count for the full message</td></tr>
+  <tr><td>Following frames</td><td>Same header structure</td><td>Continues the same transfer</td><td>Frame sequence number increments each frame; remaining bytes carry the segmented payload for the transfer with padding bytes if needed at the end</td></tr>
+</table>

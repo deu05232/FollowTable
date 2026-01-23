@@ -1,0 +1,10 @@
+<table>
+  <caption>Winding Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Winding Speed</td><td>Winding</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2000.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0301</td><td>Winding Length</td><td>Winding</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~50000.00</td><td>m</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0302</td><td>Roll Diameter</td><td>Rolling</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~5.00</td><td>m</td><td>1</td><td>／</td></tr>
+  <tr><td>0X0303</td><td>Winding Tension</td><td>WindingTension</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2000.00</td><td>N</td><td></td><td></td></tr>
+  <tr><td>0X0304</td><td>Pressing Arm Pressure</td><td>Pressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X0305</td><td>Expandable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

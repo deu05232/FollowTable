@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced IR Tropical Cyclone Intensity: Wrap Metric to DT with Pattern Cross-References</caption>
+  <thead>
+    <tr><th>Pattern Category</th><th>Wrap Metric</th><th>DT</th><th>Extra Rule / Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Curved band</td><td>Wrap angle (rad) 0.20–0.39</td><td>1.5</td><td>If band is White (W), add +0.5 DT</td></tr>
+    <tr><td>Curved band</td><td>Wrap angle (rad) 0.40–0.54</td><td>2.5</td><td>Use when band is continuous for ≥120° arc</td></tr>
+    <tr><td>Curved band</td><td>Wrap angle (rad) 0.55–0.69</td><td>3.0</td><td>Prefer best-defined primary band</td></tr>
+    <tr><td>Curved band</td><td>Wrap angle (rad) 0.70–0.89</td><td>3.5</td><td>If eye feature begins, consider eye pattern instead</td></tr>
+    <tr><td>Eye pattern</td><td>Wrap angle (rad) ≥ 0.90</td><td>Use Eye Table</td><td>Transition threshold: eye may be present</td></tr>
+    <tr><td>Shear pattern</td><td>Wrap metric not applicable</td><td>See Shear DT</td><td>Do not estimate DT from wrap metric</td></tr>
+    <tr><td>Embedded center</td><td>Wrap metric not applicable</td><td>See Embedded Rules</td><td>Use embedded-center distance criteria</td></tr>
+  </tbody>
+</table>

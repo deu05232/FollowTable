@@ -1,0 +1,17 @@
+<table>
+  <caption>ΔG of Solvation / Hydration for Small Molecules and Ions Under Stated Conditions</caption>
+  <thead>
+    <tr><th>Solvation type</th><th>Solute</th><th>Solvent</th><th>Standard state</th><th>T (K)</th><th>P (bar)</th><th>ΔG (kJ/mol)</th><th>Method / comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="4">Hydration (aqueous)</th><td>Na+</td><td>H2O(l)</td><td>1 mol/L → 1 mol/L</td><td>298</td><td>1</td><td>-365</td><td>Representative single-ion hydration free energy</td></tr>
+    <tr><td>K+</td><td>H2O(l)</td><td>1 mol/L → 1 mol/L</td><td>298</td><td>1</td><td>-295</td><td>Same convention as above</td></tr>
+    <tr><td>Cl−</td><td>H2O(l)</td><td>1 mol/L → 1 mol/L</td><td>298</td><td>1</td><td>-340</td><td>Single-ion convention; sign indicates favorable hydration</td></tr>
+    <tr><td>Mg2+</td><td>H2O(l)</td><td>1 mol/L → 1 mol/L</td><td>298</td><td>1</td><td>-1830</td><td>Strongly favorable due to high charge density</td></tr>
+    <tr><th rowspan="3">Solvation (organic)</th><td>Ethanol (C2H5OH)</td><td>n-Hexane</td><td>1 mol/L → 1 mol/L</td><td>298</td><td>1</td><td>+6.0</td><td>Unfavorable transfer into nonpolar solvent</td></tr>
+    <tr><td>Acetone</td><td>Water</td><td>1 mol/L → 1 mol/L</td><td>298</td><td>1</td><td>-15.0</td><td>Favorable mixing / hydration contribution</td></tr>
+    <tr><td>Benzene</td><td>Water</td><td>1 mol/L → 1 mol/L</td><td>298</td><td>1</td><td>+3.5</td><td>Hydrophobic; positive solvation free energy</td></tr>
+    <tr><th rowspan="2">Temperature dependence</th><td>Na+ (hydration)</td><td>H2O(l)</td><td>1 mol/L → 1 mol/L</td><td>310</td><td>1</td><td>-355</td><td>Example of ΔG(T) reported at a second temperature</td></tr>
+    <tr><td>Acetone (solvation)</td><td>Water</td><td>1 mol/L → 1 mol/L</td><td>310</td><td>1</td><td>-13.5</td><td>Illustrative temperature-shift in solvation ΔG</td></tr>
+  </tbody>
+</table>

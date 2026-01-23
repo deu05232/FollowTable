@@ -1,0 +1,14 @@
+<table>
+  <caption>The hydration free energy of acetamide. (a) The Helmholtz hydration free energy Δ ⁢ F for the current work, as calculated by the Bennett Acceptance Ratio, and the RMS hysteresis error. The Δ ⁢ F statistical errors are calculated by the bootstrap method. (b) Published values of the Gibbs free energy Δ ⁢ G , obtained both computationally and experimentally. All computational results utilize the OPLS-AA force field for the solute acetamide. Also noted are the water model and free energy estimator (TI: Thermodynamic Integration; FEP: Free Energy Perturbation; BAR: Bennett Acceptance Ratio)</caption>
+  <tr><th colspan="3">(a) Acetamide Free Energy of Hydration: Current Work</th></tr>
+  <tr><th></th><td>Δ F (kcal/mol)</td><td>ε_(RMS) (kcal/mol)</td></tr>
+  <tr><th>No Replica Exchange</th><td>-8.35 ± 0.051</td><td>0.120</td></tr>
+  <tr><th>Replica Exchange</th><td>-8.14 ± 0.053</td><td>0.023</td></tr>
+  <tr><th colspan="3">(b) Acetamide Free Energy of Hydration: Literature</th></tr>
+  <tr><th></th><td>Δ G (kcal/mol)</td><td>Details</td></tr>
+  <tr><th>MacCallum and Tieleman [ maccallum:2003 ]</th><td>-8.25 ± 0.26</td><td>TIP4P, TI</td></tr>
+  <tr><th>Shirts et al. [ shirts:2003b ]</th><td>-8.20 ± 0.03</td><td>TIP3P, TI</td></tr>
+  <tr><th>Chang et al. [ chang:2007 ]</th><td>-8.54 ± 0.1 - 0.3</td><td>TIP4P, BAR</td></tr>
+  <tr><th>Udier-Blagović et al. [ udier:2004 ]</th><td>-9.65 ± 0.3 - 0.5</td><td>TIP4P, FEP</td></tr>
+  <tr><th>Experimental [ wolfenden:1978 ]</th><td>-9.54</td><td></td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Extension Unit State Payload (State Byte Bit Definition)</caption>
+  <thead>
+    <tr><th>Bit</th><th>Name</th><th>Type</th><th>Value = 0</th><th>Value = 1</th><th>Application Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>RUN</td><td>Boolean</td><td>Stopped</td><td>Running</td><td>Current motor/fan running state reported by the extension unit</td></tr>
+    <tr><td>1</td><td>AUTO</td><td>Boolean</td><td>Manual mode</td><td>Auto mode</td><td>Whether the unit is executing automatic grain-conditioning logic</td></tr>
+    <tr><td>2</td><td>HEATER</td><td>Boolean</td><td>Off</td><td>On</td><td>Heater/conditioning output enabled</td></tr>
+    <tr><td>3</td><td>ALARM</td><td>Boolean</td><td>No alarm</td><td>Alarm active</td><td>Any active fault condition affecting operation</td></tr>
+    <tr><td>4</td><td>SENSOR_OK</td><td>Boolean</td><td>Sensor fault</td><td>Sensor normal</td><td>Overall grain temperature/humidity sensor health status</td></tr>
+    <tr><td>5</td><td>REMOTE_EN</td><td>Boolean</td><td>Local control</td><td>Remote control enabled</td><td>Whether commands from the controller are accepted</td></tr>
+    <tr><td>6</td><td>RESERVED</td><td>Boolean</td><td>—</td><td>—</td><td>Reserved for future use; set to 0 when transmitting</td></tr>
+    <tr><td>7</td><td>RESERVED</td><td>Boolean</td><td>—</td><td>—</td><td>Reserved for future use; set to 0 when transmitting</td></tr>
+    <tr><td colspan="6">Hierarchy / note:This table defines thepayloadbyte “State” carried in the message body; additional units may report the same byte layout.</td></tr>
+  </tbody>
+</table>

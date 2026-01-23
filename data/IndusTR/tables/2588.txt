@@ -1,0 +1,11 @@
+<table>
+  <caption>Extrusion Line Settings for Manufacturing Polyethylene Pipes (Process Sheet)</caption>
+  <tr><th>No.</th><th>Process Zone</th><th>Parameter</th><th>Setpoint</th><th>Allowed Drift</th><th>Recording Frequency</th><th>Responsible Role</th></tr>
+  <tr><td>1</td><td>Extruder barrel</td><td>Zone 1 temperature (°C)</td><td>185</td><td>±5</td><td>Hourly</td><td>Operator</td></tr>
+  <tr><td>2</td><td>Extruder barrel</td><td>Zone 2 temperature (°C)</td><td>195</td><td>±5</td><td>Hourly</td><td>Operator</td></tr>
+  <tr><td>3</td><td>Extruder barrel</td><td>Zone 3 temperature (°C)</td><td>205</td><td>±5</td><td>Hourly</td><td>Operator</td></tr>
+  <tr><td>4</td><td>Die head</td><td>Die temperature (°C)</td><td>210</td><td>±3</td><td>Hourly</td><td>Supervisor</td></tr>
+  <tr><td>5</td><td>Haul-off</td><td>Line speed (m/min)</td><td>2.2</td><td>±0.2</td><td>Per batch</td><td>Operator</td></tr>
+  <tr><td>6</td><td>Cooling tank</td><td>Water temperature (°C)</td><td>18</td><td>±2</td><td>Hourly</td><td>Maintenance</td></tr>
+  <tr><td>7</td><td>Cutter</td><td>Cut length (m)</td><td>6.0</td><td>±0.01</td><td>Per batch</td><td>QA</td></tr>
+</table>

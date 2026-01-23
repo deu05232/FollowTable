@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Link-Level Control Words (LLCW): Full On-the-Wire Control-Word Symbol Sequences</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>Control-Word Sequence (comma-delimited symbols / fields)</th><th>Notes (what the fields represent)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SKIP</td><td>Comma,LLCW,SKIP,SKIPK28.7,D14.6,D31.3,D31.3</td><td>Periodic skip for elastic buffer / rate matching; last two symbols are fixed D31.3.</td></tr>
+    <tr><td>IDLE</td><td>Comma,LLCW,IDLE,IDLEK28.7,D14.6,D15.6,D15.6</td><td>Sent when link is up but no word is available from upper sublayers.</td></tr>
+    <tr><td>INIT1</td><td>Init Comma,LLCW,INIT1,INIT1K28.5,D14.6,D6.2,D6.2</td><td>Initialization handshake word; D6.2 is a neutral character.</td></tr>
+    <tr><td>INIT2</td><td>Init Comma,LLCW,INIT2,INIT2K28.5,D14.6,D5.2,D5.2</td><td>Second initialization handshake word; uses a different fixed neutral pair than INIT1.</td></tr>
+    <tr><td>INIT3</td><td>Init Comma,LLCW,INIT3,INIT3K28.5,D14.6,D4.2,D4.2</td><td>Third initialization handshake word; symbol pair differs to distinguish step/state.</td></tr>
+    <tr><td>LINKDOWN</td><td>Init Comma,LLCW,LINKDOWN,LINKDOWNK28.5,D14.6,D3.2,D3.2</td><td>Indicates local link-down / reset indication during initialization or recovery.</td></tr>
+  </tbody>
+</table>

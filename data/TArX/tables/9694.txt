@@ -1,0 +1,16 @@
+<table>
+  <caption>Optical Properties and Derived Birefringence Metrics of Materials (mixed properties)</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th rowspan="2">Wavelength (nm)</th><th colspan="2">Refractive index</th><th rowspan="2">Critical angle (deg)</th><th rowspan="2">Dielectric permittivity (approx.)</th><th rowspan="2">Derived birefringence angle (deg)</th><th rowspan="2">Remark</th></tr>
+    <tr><th>n_o</th><th>n_e</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Calcite</td><td>633</td><td>1.658</td><td>1.486</td><td>37.1</td><td>8.7</td><td>18.0</td><td>Angle computed from n_o,n_e model</td></tr>
+    <tr><td>Quartz</td><td>532</td><td>1.544</td><td>1.553</td><td>40.3</td><td>4.5</td><td>1.2</td><td>Primarily refractive-index table</td></tr>
+    <tr><td>Sapphire</td><td>405</td><td>1.780</td><td>1.772</td><td>34.0</td><td>9.4</td><td>0.9</td><td>Includes critical angle and permittivity</td></tr>
+    <tr><td>YVO4</td><td>1064</td><td>1.944</td><td>2.156</td><td>30.9</td><td>12.0</td><td>4.6</td><td>Derived axis-tilt angle, not measured Δn table</td></tr>
+    <tr><td>LiNbO3</td><td>1550</td><td>2.211</td><td>2.138</td><td>26.9</td><td>28.0</td><td>3.1</td><td>Mixed electrical/optical properties</td></tr>
+    <tr><td>Teflon (PTFE)</td><td>589</td><td>1.350</td><td>—</td><td>55.9</td><td>2.1</td><td>0.0</td><td>Isotropic; angle reported as 0</td></tr>
+    <tr><td>GaAs</td><td>1000</td><td>3.48</td><td>—</td><td>16.6</td><td>12.9</td><td>2.0</td><td>Angle inferred from fit parameters</td></tr>
+  </tbody>
+</table>

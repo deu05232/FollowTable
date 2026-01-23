@@ -1,0 +1,46 @@
+<table>
+  <caption>Camera Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Camera Identifier</td><td>sxjbz</td><td>c20</td><td>Camera code; should comply with the coding rules specified in E.1 of GB/T 28181—2022</td><td></td></tr>
+  <tr><td>2</td><td>Camera Name</td><td>sxjmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>3</td><td>Installation Location Administrative Division Code</td><td>azddxzqhdm</td><td>c6</td><td>Should use the 6-digit numeric code in GB/T 2260</td><td></td></tr>
+  <tr><td>4</td><td>Installation Location Basic-level Organization Administrative Division Code</td><td>azddjczzxzqhdm</td><td>c6</td><td>Should comply with the coding rules specified in C.1</td><td></td></tr>
+  <tr><td>5</td><td>Manufacturer Name</td><td>csmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>6</td><td>Camera Model</td><td>sxjxh</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>7</td><td>MAC Address</td><td>macdz</td><td>c17</td><td></td><td></td></tr>
+  <tr><td>8</td><td>Camera Power Supply Mode Code</td><td>sxjgdfsdm</td><td>cl</td><td>Should comply with D.1</td><td></td></tr>
+  <tr><td>9</td><td>Video/Image Acquisition Device Structural Type Code</td><td>sptxcjsbjglxdm</td><td>c1</td><td>Should comply with D.2; multiple values allowed</td><td></td></tr>
+  <tr><td>10</td><td>Video/Image Mobile Acquisition Device Type Code</td><td>sptxydcjsblxdm</td><td>cl</td><td>Should comply with D.3</td><td></td></tr>
+  <tr><td>11</td><td>Video/Image Focused Target Type Code</td><td>sptxgzmblxdm</td><td>c2</td><td>Should comply with D.4; multiple values allowed</td><td></td></tr>
+  <tr><td>12</td><td>Camera Fill Light Type Code</td><td>s xjbglxdm</td><td>c1</td><td>Should comply with D.5</td><td></td></tr>
+  <tr><td>13</td><td>Video/Image Acquisition Device Imaging Type Code</td><td>sptxcjsbcxlxdm</td><td>cl</td><td>Should comply with D.6; multiple values allowed</td><td></td></tr>
+  <tr><td>14</td><td>Camera Lens Horizontal Field of View</td><td>sxjjtspscj</td><td>n.5,2</td><td>Unit: degrees (°); value range (0.00, 360.00]</td><td></td></tr>
+  <tr><td>15</td><td>Camera Lens Vertical Field of View</td><td>s xjjtczscj</td><td>n.5,2</td><td>Unit: degrees (°); value range (0.00, 360.00]</td><td></td></tr>
+  <tr><td>16</td><td>Camera Visible Distance</td><td>sxjksjl</td><td>n..6</td><td>Unit: meters (m)</td><td></td></tr>
+  <tr><td>17</td><td>Camera Video Encoding Format Code</td><td>sxjspbmgsdm</td><td>c2</td><td>Complies with D.7; multiple values allowed</td><td></td></tr>
+  <tr><td>18</td><td>Supported Camera Resolution</td><td>sxjzcfbl</td><td>c..17</td><td>e.g., “1 920×1 080”; multiple values allowed</td><td></td></tr>
+  <tr><td>19</td><td>Installation Location_Earth Longitude</td><td>azdd_dqjd</td><td>n10,6</td><td>WGS-84 coordinate system</td><td></td></tr>
+  <tr><td>20</td><td>Installation Location_Earth Latitude</td><td>azdd_dqwd</td><td>n10,6</td><td>WGS-84 coordinate system</td><td></td></tr>
+  <tr><td>21</td><td>Video/Image Acquisition Device Indoor/Outdoor Type Code</td><td>sptxcjsbsnwlx-dm</td><td>cl</td><td>Should comply with D.8</td><td></td></tr>
+  <tr><td>22</td><td>Camera Installation Location</td><td>sxjazdd</td><td>c..400</td><td>For city or rural locations, see the location positioning description in Chapter 6 (geocoding rules) of GB/T 30428.3-2016; for national or provincial highways, the installation location should preferably be “road name or number + location stake number”</td><td></td></tr>
+  <tr><td>23</td><td>Video/Image Acquisition Device Acquisition Position Type Code</td><td>sptxcjsbcjbwlx-dm</td><td>c3..7</td><td>Should comply with D.9; multiple values allowed</td><td></td></tr>
+  <tr><td>24</td><td>Site Nickname</td><td>dwsc</td><td>c..100</td><td>If there are landmark buildings/venues near the installation location, or the installation location is at a commonly agreed place, the landmark name and place nickname may be filled in</td><td></td></tr>
+  <tr><td>25</td><td>Video/Image Acquisition Device Security Capability Level Code</td><td>sptxcjsbaqnld-jdm</td><td>c1</td><td>Should comply with D.10</td><td></td></tr>
+  <tr><td>26</td><td>Cryptographic Module Identifier</td><td>mmmkbz</td><td>n22</td><td>Should comply with Appendix B of GB 35114—2017</td><td></td></tr>
+  <tr><td>27</td><td>Camera_Installation_Date/Time</td><td>sxj_az_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>28</td><td>Camera_Activation_Date/Time</td><td>sxj_qy_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>29</td><td>Maintenance Expiry_Date/Time</td><td>wbdq_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>30</td><td>Planned Deactivation_Date/Time</td><td>jhty_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>31</td><td>Software/Hardware Version Information</td><td>ryjbxx</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>32</td><td>Managing_Organization Name</td><td>gl_dwmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>33</td><td>Constructing_Organization Name</td><td>cj_dwmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>34</td><td>Maintenance_Organization Name</td><td>wh_dwmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>35</td><td>IPv4 Address</td><td>ipv4dz</td><td>c8..15</td><td>Should comply with Section 3.2 of IETF RFC 791—1981</td><td></td></tr>
+  <tr><td>36</td><td>IPv6 Address</td><td>ipv6dz</td><td>c2..39</td><td>Should comply with Chapter 2 of IETF RFC 4291—2006</td><td></td></tr>
+  <tr><td>37</td><td>Platform Access Identifier</td><td>jrptbz</td><td>c20</td><td>Code of the platform accessed directly or indirectly; should comply with the coding rules specified in E.1 of GB/T 28181—2022; multiple values allowed</td><td></td></tr>
+  <tr><td>38</td><td>Acquisition System Identifier</td><td>cjxtbz</td><td>c20</td><td>Code of the acquisition system accessed directly; should comply with the coding rules specified in E.1 of GB/T 28181—2022</td><td></td></tr>
+  <tr><td>39</td><td>Sub-device_Judgment Identifier</td><td>zsb_pdbz</td><td>cl</td><td>Whether it is a sub-device of a device; should comply with D.11</td><td></td></tr>
+  <tr><td>40</td><td>Camera Acquisition Horizontal Direction Code</td><td>sxjcjspfxdm</td><td>cl</td><td>Should comply with D.12</td><td></td></tr>
+  <tr><td>41</td><td>Camera Acquisition Vertical Direction Code</td><td>s xjcjczfxdm</td><td>cl</td><td>Should comply with D.13</td><td></td></tr>
+  <tr><td>42</td><td>Video/Image Acquisition Device Operating Status</td><td>sptxcjsbgzzt</td><td>cl</td><td>Should comply with D.14</td><td></td></tr>
+</table>

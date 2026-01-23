@@ -1,0 +1,7 @@
+<table>
+  <caption>Industrial instrument intelligent requirements by category (diagnostics and prediction focused)</caption>
+  <tr><th>Instrument Category</th><th>Intelligent Capability Expectations</th><th>Operational Signals / Evidence Used</th></tr>
+  <tr><td>Measuring Instruments</td><td>Detects sensor drift and process-variable anomalies; estimates confidence of readings; recommends corrective actions when confidence drops</td><td>Signal stability metrics, noise level, process-variable rate-of-change, loop current behavior</td></tr>
+  <tr><td>Analytical Instruments</td><td>Automatically adapts analysis models over time; flags out-of-spec trends early; predicts maintenance windows for key components</td><td>Historical calibration results, baseline shift indicators, pattern deviations during online analysis</td></tr>
+  <tr><td>Actuators</td><td>Recognizes operating-condition changes and retunes control behavior; detects sticking or overload precursors; forecasts wear-related performance loss</td><td>Torque/thrust signatures, travel response profiles, command-vs-feedback mismatch patterns</td></tr>
+</table>

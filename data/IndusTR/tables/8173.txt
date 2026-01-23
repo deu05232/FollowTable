@@ -1,0 +1,15 @@
+<table>
+  <caption>Baseline basic error limit (%) for DC energy meter verification devices across load points and operating ranges</caption>
+  <thead>
+    <tr><th rowspan="2">Operating condition</th><th rowspan="2">Applicable range</th><th colspan="5">Device accuracy class — Basic error limit (%)</th></tr>
+    <tr><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Rated voltage operation</td><td>U = (0.8 to 1.2)·Un, I = 0.1·Imaxto Imax</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>U = (0.8 to 1.2)·Un, I = 0.05·Imaxto 0.1·Imax</td><td>±0.012</td><td>±0.024</td><td>±0.055</td><td>±0.105</td><td>±0.210</td></tr>
+    <tr><td>U = (0.8 to 1.2)·Un, I = 0.01·Imaxto 0.05·Imax</td><td>±0.020</td><td>±0.040</td><td>±0.080</td><td>±0.150</td><td>±0.300</td></tr>
+    <tr><td rowspan="2">Low-voltage operation</td><td>U = (0.10 to 0.80)·Un, I = 0.1·Imaxto Imax</td><td>±0.015</td><td>±0.030</td><td>±0.060</td><td>±0.110</td><td>±0.220</td></tr>
+    <tr><td>U = (0.10 to 0.80)·Un, I = 0.01·Imaxto 0.1·Imax</td><td>±0.025</td><td>±0.050</td><td>±0.100</td><td>±0.180</td><td>±0.350</td></tr>
+    <tr><td>High-voltage operation</td><td>U = (1.20 to 1.50)·Un, I = 0.1·Imaxto Imax</td><td>±0.015</td><td>±0.030</td><td>±0.060</td><td>±0.110</td><td>±0.220</td></tr>
+  </tbody>
+</table>

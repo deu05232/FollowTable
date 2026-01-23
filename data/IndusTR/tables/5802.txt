@@ -1,0 +1,16 @@
+<table>
+  <caption>Battery Pack Mechanical Shock Test Matrix (Half-Sine Pulses)</caption>
+  <thead>
+    <tr><th rowspan="2">Severity Level</th><th rowspan="2">Orientation</th><th colspan="3">Pulse Definition</th><th colspan="2">Execution</th></tr>
+    <tr><th>Peak Acceleration (g)</th><th>Pulse Width (ms)</th><th>Waveform</th><th>Pulses per Direction</th><th>Interval Between Pulses (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Level 1</td><td>+X</td><td>10</td><td>11</td><td>Half-sine</td><td>3</td><td>60</td></tr>
+    <tr><td>Level 1</td><td>-X</td><td>10</td><td>11</td><td>Half-sine</td><td>3</td><td>60</td></tr>
+    <tr><td>Level 2</td><td>+Y</td><td>20</td><td>8</td><td>Half-sine</td><td>3</td><td>60</td></tr>
+    <tr><td>Level 2</td><td>-Y</td><td>20</td><td>8</td><td>Half-sine</td><td>3</td><td>60</td></tr>
+    <tr><td>Level 3</td><td>+Z</td><td>30</td><td>6</td><td>Half-sine</td><td>3</td><td>90</td></tr>
+    <tr><td>Level 3</td><td>-Z</td><td>30</td><td>6</td><td>Half-sine</td><td>3</td><td>90</td></tr>
+    <tr><td>Level 4</td><td>+X/+Y/+Z</td><td>50</td><td>4</td><td>Half-sine</td><td>1 each</td><td>120</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>AR session configuration retrieval parameters (mixes session with out_config)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Existing augmented reality session pointer</td></tr>
+  <tr><td>out_config</td><td>ArConfig *</td><td>Receives a configuration object associated with the session</td></tr>
+  <tr><td>config_type</td><td>ArConfigType</td><td>Selects which configuration category to retrieve</td></tr>
+  <tr><td>include_defaults</td><td>bool</td><td>Whether default values should be included in the returned config</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Receives the timestamp when the config snapshot was taken</td></tr>
+  <tr><td>error_code</td><td>ArStatus *</td><td>Receives status for the config retrieval call</td></tr>
+</table>

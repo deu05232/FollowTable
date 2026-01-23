@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental influence coefficients and error variation due to temperature for harmonic conditions (no harmonic energy error limits)</caption>
+  <thead>
+    <tr><th rowspan="2">Influence quantity</th><th rowspan="2">Variation range</th><th rowspan="2">Waveform / harmonic condition</th><th colspan="3">Average temperature coefficient (%/K) by class</th><th colspan="3">Limit of error variation (%) by class</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>5 °C to 55 °C</td><td>Composite waveform (THD 20%)</td><td>0.03</td><td>0.06</td><td>0.12</td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Ambient temperature</td><td>-10 °C to 70 °C</td><td>Single harmonic h=5</td><td>0.04</td><td>0.08</td><td>0.15</td><td>±0.2</td><td>±0.4</td><td>±1.0</td></tr>
+    <tr><td>Relative humidity</td><td>30% to 95%</td><td>Composite waveform (THD 30%)</td><td>0.00</td><td>0.00</td><td>0.00</td><td>±0.1</td><td>±0.2</td><td>±0.6</td></tr>
+    <tr><td>Supply voltage</td><td>0.9 Un to 1.1 Un</td><td>Single harmonic h=3</td><td>0.00</td><td>0.00</td><td>0.00</td><td>±0.15</td><td>±0.3</td><td>±0.8</td></tr>
+    <tr><td>Frequency</td><td>47 Hz to 53 Hz</td><td>Composite waveform (THD 10%)</td><td>0.00</td><td>0.00</td><td>0.00</td><td>±0.05</td><td>±0.1</td><td>±0.3</td></tr>
+    <tr><td>Magnetic field</td><td>0 A/m to 400 A/m</td><td>Single harmonic h=7</td><td>0.00</td><td>0.00</td><td>0.00</td><td>±0.2</td><td>±0.4</td><td>±1.2</td></tr>
+  </tbody>
+</table>

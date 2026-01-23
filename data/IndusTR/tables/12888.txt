@@ -1,0 +1,16 @@
+<table>
+  <caption>Surveillance API Codes (Mixed: Event Values + Subscribe/Operate Commands)</caption>
+  <thead>
+    <tr><th>Code</th><th>Type</th><th>Name</th><th>Meaning / Usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>OP01</td><td>Operation</td><td>Subscribe</td><td>Start receiving alarms/events for a channel</td></tr>
+    <tr><td>OP02</td><td>Operation</td><td>Unsubscribe</td><td>Stop receiving alarms/events for a channel</td></tr>
+    <tr><td>OP10</td><td>Operation</td><td>GetDeviceCatalog</td><td>Query device/channel list</td></tr>
+    <tr><td>OP20</td><td>Operation</td><td>QueryHistory</td><td>Request historical records by time range</td></tr>
+    <tr><td>EV001</td><td>Event</td><td>Person Passing</td><td>Person crossing the configured line</td></tr>
+    <tr><td>EV002</td><td>Event</td><td>Vehicle Passing</td><td>Vehicle crossing the configured line</td></tr>
+    <tr><td>EV050</td><td>Event</td><td>Loitering</td><td>Target stays in area longer than threshold</td></tr>
+    <tr><td>EV090</td><td>Event</td><td>Object Left Behind</td><td>New static object appears and remains</td></tr>
+  </tbody>
+</table>

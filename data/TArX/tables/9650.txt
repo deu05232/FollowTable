@@ -1,0 +1,14 @@
+<table>
+  <caption>Instrument/Survey Metadata for Trifid Nebula Imaging and Spectroscopy (Exposure, Resolution, Calibration)</caption>
+  <thead>
+    <tr><th>Dataset</th><th>Band/Line</th><th>Central wavelength (µm) / Energy (keV)</th><th>Instrument</th><th>Exposure (ks)</th><th>Pixel scale (arcsec/pix)</th><th>PSF/Beam (arcsec)</th><th>Photometric/Flux calibration uncertainty (%)</th><th>Processing note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Spitzer/GLIMPSE</td><td>IRAC Ch1</td><td>3.6 µm</td><td>IRAC</td><td>2.4</td><td>1.2</td><td>1.7</td><td>3</td><td>Mosaicked tiles</td></tr>
+    <tr><td>Spitzer/GLIMPSE</td><td>IRAC Ch2</td><td>4.5 µm</td><td>IRAC</td><td>2.4</td><td>1.2</td><td>1.7</td><td>3</td><td>Artifact mitigation</td></tr>
+    <tr><td>2MASS</td><td>Ks</td><td>2.16 µm</td><td>2MASS camera</td><td>7.8</td><td>2.0</td><td>2.5</td><td>2</td><td>All-sky pipeline</td></tr>
+    <tr><td>ROSAT</td><td>0.1–2.4 keV</td><td>1.0 keV (nominal)</td><td>PSPC</td><td>18.0</td><td>0.5</td><td>25</td><td>10</td><td>Vignetting corrected</td></tr>
+    <tr><td>ASCA</td><td>0.5–10 keV</td><td>2.0 keV (nominal)</td><td>SIS+GIS</td><td>35.0</td><td>0.25</td><td>90</td><td>12</td><td>Screened event lists</td></tr>
+    <tr><td>Herschel</td><td>PACS 70</td><td>70 µm</td><td>PACS</td><td>1.5</td><td>1.4</td><td>5.6</td><td>5</td><td>High-pass filtered</td></tr>
+  </tbody>
+</table>

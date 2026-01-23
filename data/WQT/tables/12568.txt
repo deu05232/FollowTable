@@ -1,0 +1,12 @@
+# Citibank Routing Numbers by State Including Legacy Bank Exceptions (EAB) and Branch Rules
+
+| State/Region | Primary Routing Number | Exception / Legacy Customer Note | Wire Detail |
+|---|---:|---|---|
+| New York | 021000089 | Former EAB customers may use 021001486 | Wire sometimes follows legacy mapping |
+| Virginia & Washington DC | 254070116 | Branch-specific setup may apply | Incoming wire: 254070116 |
+| Nevada (Las Vegas branches 27/29/30/56) | 122401710 | Branch-number exception list applies | Incoming wire: 322271724 |
+| Nevada (other branches) | 322271724 | No branch exception | Wire: 322271724 |
+| Maryland | 052002166 | Some business products differ | Incoming wire: 254070116 |
+| California (Northern) | 321171184 | Product-dependent routing variations | Wire: verify by account type |
+| Florida | 266086554 | Legacy account conversions may vary | Wire: may be same as primary |
+| Delaware | 021272655 | Multi-state routing grouping | Wire: may be same as primary |

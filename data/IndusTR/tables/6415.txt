@@ -1,0 +1,6 @@
+<table>
+  <caption>Message timing and retry behavior by information type</caption>
+  <tr><th>Information Type</th><th>Acknowledgment Needed</th><th>Retry Strategy</th><th>Default Total Transmission Time/ms</th><th>Notes</th></tr>
+  <tr><td>Short message requiring acknowledgment</td><td>Yes</td><td>Retry until timeout</td><td>1000</td><td>Used for control/handshake messages</td></tr>
+  <tr><td>Short message not requiring acknowledgment</td><td>No</td><td>No retry</td><td>—</td><td>Used for periodic status updates</td></tr>
+</table>

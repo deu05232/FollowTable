@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Optical Transceiver Interface Requirements (850 nm MMF) — Transmitter Specifications</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Test/Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Optical output</td><td>Average optical output power</td><td>Pout</td><td>-6.0</td><td>-3.0</td><td>+2.5</td><td>dBm</td><td>At module output, continuous operation</td></tr>
+    <tr><td>Optical modulation amplitude (OMA)</td><td>OMA</td><td>-2.0</td><td>0.0</td><td>+3.0</td><td>dBm</td><td>Measured with reference receiver, PRBS pattern</td></tr>
+    <tr><td>Optical power in OFF state</td><td>Poff</td><td>—</td><td>—</td><td>-30</td><td>dBm</td><td>Laser disabled / TX idle state</td></tr>
+    <tr><td>Extinction ratio</td><td>ER</td><td>5.0</td><td>8.0</td><td>—</td><td>dB</td><td>Ratio of optical “1” to “0” levels</td></tr>
+    <tr><td>Optical center wavelength</td><td>λc</td><td>840</td><td>850</td><td>860</td><td>nm</td><td>VCSEL-based source</td></tr>
+    <tr><td>Spectral width (RMS)</td><td>ΔλRMS</td><td>—</td><td>0.65</td><td>1.00</td><td>nm</td><td>Characterization limit for MMF links</td></tr>
+    <tr><td rowspan="2">Reflections</td><td>Optical return loss tolerance</td><td>ORL</td><td>—</td><td>—</td><td>12</td><td>dB</td><td>Maximum allowed reflected power at module interface</td></tr>
+    <tr><td>Transmitter reflectance (maximum)</td><td>Rtx</td><td>—</td><td>—</td><td>-12</td><td>dB</td><td>Equivalent to minimum return loss at TX port</td></tr>
+  </tbody>
+</table>

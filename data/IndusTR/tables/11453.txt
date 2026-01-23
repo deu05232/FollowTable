@@ -1,0 +1,20 @@
+<table>
+  <caption>Road Traffic Safety Early Warning Message — Core Data Fields (with Time vs Non-Time Separation)</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Requirements or Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Message Identification</td><td>1</td><td>Early Warning ID</td><td>Character</td><td>36</td><td>No</td><td>Yes</td><td>Globally unique identifier (e.g., UUID)</td></tr>
+    <tr><td>2</td><td>Warning Category Code</td><td>Character</td><td>4</td><td>No</td><td>Yes</td><td>Code list for warning category (accident / construction / control / hazard / event)</td></tr>
+    <tr><td>3</td><td>Severity Level</td><td>Integer</td><td>1</td><td>No</td><td>Yes</td><td>1–5, where 5 indicates the most severe impact</td></tr>
+    <tr><td rowspan="4">Time Fields (Date/Time)</td><td>4</td><td>Message Generation Time</td><td>Date</td><td>16</td><td>No</td><td>Yes</td><td>Timestamp when the warning message is created</td></tr>
+    <tr><td>5</td><td>Message Receipt Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Timestamp when the platform receives the warning</td></tr>
+    <tr><td>6</td><td>Event Start Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Actual or observed start time of the traffic-impacting condition</td></tr>
+    <tr><td>7</td><td>Estimated Recovery / End Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Estimated time when traffic conditions return to normal</td></tr>
+    <tr><td rowspan="3">Location & Road Context</td><td>8</td><td>Administrative Division Code</td><td>Character</td><td>10</td><td>Yes</td><td>Yes</td><td>County-level or above administrative division code</td></tr>
+    <tr><td>9</td><td>Road Name</td><td>Character</td><td>128</td><td>Yes</td><td>Yes</td><td>Name of road/expressway/urban arterial</td></tr>
+    <tr><td>10</td><td>Location Description</td><td>Character</td><td>1000</td><td>Yes</td><td>Yes</td><td>Human-readable location description (intersection, landmark, direction)</td></tr>
+    <tr><td rowspan="2">Impact Description</td><td>11</td><td>Impact Type</td><td>Character</td><td>4</td><td>Yes</td><td>Yes</td><td>Lane closure / slow traffic / full closure / detour etc.</td></tr>
+    <tr><td>12</td><td>Warning Text</td><td>Character</td><td>1000</td><td>Yes</td><td>Yes</td><td>Textual early warning content for end users</td></tr>
+  </tbody>
+</table>

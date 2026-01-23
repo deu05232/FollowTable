@@ -1,0 +1,7 @@
+<table>
+  <caption>Tire device telegram layout for PLC communication (format-focused)</caption>
+  <tr><th>No.</th><th>Telegram segment</th><th>Data type</th><th>Bit length</th><th>Scaling factor</th><th>Transmission remark</th></tr>
+  <tr><td>1</td><td>Segment header</td><td>UINT</td><td>16</td><td>1</td><td>Fixed header marker</td></tr>
+  <tr><td>2</td><td>Status word</td><td>UINT</td><td>16</td><td>1</td><td>Bit-field packed</td></tr>
+  <tr><td>3</td><td>Analog buffer</td><td>INT</td><td>16</td><td>0.1</td><td>Scaled integer transport</td></tr>
+</table>

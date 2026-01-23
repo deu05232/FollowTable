@@ -1,0 +1,10 @@
+<table>
+  <caption>Drying Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Front machine speed</td><td>FrontSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0301</td><td>Cylinder screen speed</td><td>CylinderSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0302</td><td>Drying zone temperature</td><td>DryingZoneTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~300.00</td><td>℃</td><td>1</td><td></td></tr>
+  <tr><td>0X0303</td><td>Dehumidification fan speed</td><td>DehumidifyingFanSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>一</td><td></td></tr>
+  <tr><td>0X0304</td><td>Cylinder screen fan speed</td><td>CylinderFanSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5 000.00</td><td>r/min</td><td>一</td><td></td></tr>
+  <tr><td>0X0305</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>一</td><td></td></tr>
+</table>

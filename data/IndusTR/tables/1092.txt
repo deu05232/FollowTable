@@ -1,0 +1,8 @@
+<table>
+  <caption>Multi-frame Image Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Number of Frames</td><td>（0028,0008)</td><td>IS</td><td>1</td><td>1</td><td>Number of frames in the multi-frame image</td></tr>
+  <tr><td>Frame Increment Pointer</td><td>（0028,0009)</td><td>AT</td><td>1</td><td>1</td><td>Attribute that specifies the logical sequence ordering method for each frame in a multi-frame image</td></tr>
+  <tr><td>Frame Time</td><td>(0018,1063)</td><td>DS</td><td>1</td><td>1</td><td>Time interval between each frame, in milliseconds (ms)</td></tr>
+  <tr><td>Frame Time Vector</td><td>(0018,1065)</td><td>DS</td><td>1-N</td><td>1</td><td>An array containing the real-time incremental frame times for the multi-frame image, in milliseconds (ms)</td></tr>
+</table>

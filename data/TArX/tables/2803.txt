@@ -1,0 +1,16 @@
+<table>
+  <caption>Materials properties used for modeling.</caption>
+  <tr><th></th><th>T (K)</th><th>HfC</th><th>W</th><th>Au</th></tr>
+  <tr><th rowspan="2">C ( 10^(6) J/(m ^((3)) K)) [ Pierson96 , NISTChemWebBook , Takahashi86 ]</th><th>300</th><td>2.29</td><td>2.55</td><td>2.48</td></tr>
+  <tr><th>1000</th><td>3.48</td><td>2.89</td><td>2.88</td></tr>
+  <tr><th rowspan="2">C_() ( 10^(4) J/(m ^((3)) K)) [ Ihara76 , Lin08 ]</th><th>300</th><td>3.81</td><td>3.46</td><td>2.02</td></tr>
+  <tr><th>1000</th><td>8.42</td><td>9.88</td><td>6.73</td></tr>
+  <tr><th rowspan="2">(W/(m K)) [ Wuchina04 ] ^((,)) [ CRC92 ]</th><th>300</th><td>20.7</td><td>171</td><td>317</td></tr>
+  <tr><th>1000</th><td>27.0</td><td>117</td><td>270</td></tr>
+  <tr><th>_(,0) (W/(m K)) [ CRC92 ] ^((,)) [ Christensen07 ]</th><th></th><td>—</td><td>136</td><td>318</td></tr>
+  <tr><th>g_(-ph) ( 10^(16) W/(m ^((3)) K)) [ Lin08 ]</th><th></th><td>6.85</td><td>19.1</td><td>2.61</td></tr>
+  <tr><th rowspan="2">ε_() [ Fluck82 ] ^((,)) [ CRC92 ] ^((,)) [ Johnson72 ]</th><th>Re[]</th><td>9.49</td><td>5.2</td><td>-24</td></tr>
+  <tr><th>Im[]</th><td>-8.48</td><td>-19.4</td><td>-1.5</td></tr>
+  <tr><th>β ( polarization)</th><th></th><td>0.8</td><td>0.6</td><td>0.037</td></tr>
+  <tr><th>β ( polarization)</th><th></th><td>0.95</td><td>0.7</td><td>0.047</td></tr>
+</table>

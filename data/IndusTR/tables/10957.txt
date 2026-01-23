@@ -1,0 +1,14 @@
+<table>
+  <caption>Per-signal Phase-Bias Flags (Generic Across Constellations)</caption>
+  <thead>
+    <tr><th>Constellation</th><th>Signal ID / Tracking Mode Field</th><th>DF (Signal ID)</th><th>Integer Indicator Flag</th><th>DF (Int)</th><th>Wide-Lane Integer Indicator</th><th>DF (WL)</th><th>Bias Value Present Flag</th><th>Bias Discontinuity Indicator</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GPS</td><td>GPS Signal and Tracking Mode</td><td>DF380 (uint5)</td><td>Signal Integer Indicator</td><td>DF483 (uint1)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484 (bit2)</td><td>PB_PRESENT (bool)</td><td>PB_DISC (uint2)</td></tr>
+    <tr><td>GLONASS</td><td>GLONASS Signal and Tracking Mode</td><td>DF381 (uint5)</td><td>Signal Integer Indicator</td><td>DF483 (uint1)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484 (bit2)</td><td>PB_PRESENT (bool)</td><td>PB_DISC (uint2)</td></tr>
+    <tr><td>Galileo</td><td>Galileo Signal and Tracking Mode</td><td>DF382 (uint5)</td><td>Signal Integer Indicator</td><td>DF483 (uint1)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484 (bit2)</td><td>PB_PRESENT (bool)</td><td>PB_DISC (uint2)</td></tr>
+    <tr><td>BDS</td><td>BDS Signal and Tracking Mode</td><td>DF603 (uint5)</td><td>Signal Integer Indicator</td><td>DF483 (uint1)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484 (bit2)</td><td>PB_PRESENT (bool)</td><td>PB_DISC (uint2)</td></tr>
+    <tr><td>QZSS</td><td>QZSS Signal and Tracking Mode</td><td>DF4QZ (uint5)</td><td>Signal Integer Indicator</td><td>DF483 (uint1)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484 (bit2)</td><td>PB_PRESENT (bool)</td><td>PB_DISC (uint2)</td></tr>
+    <tr><td>SBAS</td><td>SBAS Signal and Tracking Mode</td><td>DF4SB (uint5)</td><td>Signal Integer Indicator</td><td>DF483 (uint1)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484 (bit2)</td><td>PB_PRESENT (bool)</td><td>PB_DISC (uint2)</td></tr>
+  </tbody>
+</table>

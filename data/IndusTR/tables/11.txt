@@ -1,0 +1,14 @@
+<table>
+  <caption>1Gbit s–10Gbit s SpaceFibre Optical Transmitter Electrical-to-Optical Characteristics</caption>
+  <tr><td>Parameter</td><td>Symbol</td><td>Minimum</td><td>Typical</td><td>Maximum</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>Average optical output power</td><td>PouT</td><td>-5</td><td></td><td>+3</td><td>dBm</td><td>850 nm VCSEL,10GBASE-SR @ 10.3125 Gbit/ s</td></tr>
+  <tr><td>Optical output power - OFF state</td><td>P oUT-0FF</td><td></td><td></td><td>-30</td><td>dBm</td><td>See 52.5 in IEEE Std 802.3-2022</td></tr>
+  <tr><td>Optical return loss tolerance</td><td></td><td></td><td></td><td>12</td><td>dB</td><td>See 52.5 in IEEE Std 802.3-2022</td></tr>
+  <tr><td>Extinction ratio</td><td>ER</td><td>3</td><td>5</td><td></td><td>dB</td><td>See 52.5 in IEEE Std 802.3-2022</td></tr>
+  <tr><td>Optical wavelength</td><td>λoUT</td><td>840</td><td>850</td><td>860</td><td>nm</td><td>See 52.5 in IEEE Std 802.3-2022</td></tr>
+  <tr><td>Spectral width, RMS value</td><td></td><td>丨</td><td>丨</td><td>0.4</td><td>nm</td><td></td></tr>
+  <tr><td>Relative intensity noise</td><td>RIN</td><td></td><td></td><td>-128</td><td>dB/Hz</td><td>See 52.5 in IEEE Std 802.3-2022</td></tr>
+  <tr><td>Transmitter differential-mode input impedance</td><td>ZIN</td><td>90</td><td>100</td><td>110</td><td>2</td><td>Internal AC coupling</td></tr>
+  <tr><td>Differential-mode input voltage</td><td>Vin_d</td><td>A180</td><td>一</td><td>800</td><td>mVpp</td><td>CML,100 Ω</td></tr>
+  <tr><td>Transmitter eye mask template definition</td><td>(X1,X2,X3,Y1,Y2,Y3)</td><td></td><td></td><td>（0.25,0.40,0.45,0.25,0.28,0.40)</td><td></td><td>Actual mask values, not maximum values</td></tr>
+</table>

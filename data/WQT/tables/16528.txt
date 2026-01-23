@@ -1,0 +1,8 @@
+# # Microsoft email domains  DNS and routing records (MX SPF) for Outlook.com mail flow
+
+| Domain | Record purpose | Host/value pattern | Notes |
+| --- | --- | --- | --- |
+| outlook.com | Mail routing | MX points to Microsoft | Used for domain-level delivery |
+| hotmail.com | Sender policy | SPF includes Microsoft | Helps prevent spoofing |
+| live.com | Verification | TXT token value | Used for ownership checks |
+| custom domain | Autodiscover | CNAME to Microsoft endpoint | Client discovery support |

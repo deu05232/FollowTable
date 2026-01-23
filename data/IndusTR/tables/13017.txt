@@ -1,0 +1,15 @@
+<table>
+  <caption>Crosswalk of Public Security Video/Image Fields to Internal Registry Elements (ID-dominant)</caption>
+  <thead>
+    <tr><th>Seq</th><th>Entity</th><th>Field Name</th><th>Local Field Code</th><th>Registry Element ID</th><th>Registry Version</th><th>External Catalog Ref</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Camera</td><td>Camera Identifier</td><td>CAM_ID</td><td>DE01307</td><td>v2.1</td><td>CAT-GB28181-E1</td><td>Mapped to internal master list</td></tr>
+    <tr><td>2</td><td>Camera</td><td>Camera Name</td><td>CAM_NAME</td><td>DE00859</td><td>v2.1</td><td>CAT-PS-0012</td><td>Free-text label</td></tr>
+    <tr><td>3</td><td>Video Segment</td><td>Video Segment Identifier</td><td>SEG_ID</td><td>DE01411</td><td>v2.0</td><td>CAT-VID-0007</td><td>Cross-reference only</td></tr>
+    <tr><td>4</td><td>Person Object</td><td>Person Object Identifier</td><td>PER_OBJ_ID</td><td>DE01308</td><td>v2.1</td><td>CAT-OBJ-0101</td><td>Used for join operations</td></tr>
+    <tr><td>5</td><td>Moving Target</td><td>Moving Target Type Code</td><td>MT_TYPE</td><td>DE01502</td><td>v1.9</td><td>CAT-MT-0003</td><td>Enumeration located in registry</td></tr>
+    <tr><td>6</td><td>Item Object</td><td>Item Object Identifier</td><td>ITEM_OBJ_ID</td><td>DE01621</td><td>v2.0</td><td>CAT-ITEM-0044</td><td>Identifier mapping only</td></tr>
+    <tr><td>7</td><td>Repository</td><td>Repository Identifier</td><td>REPO_ID</td><td>DE02007</td><td>v2.2</td><td>CAT-REP-0001</td><td>Storage system reference</td></tr>
+  </tbody>
+</table>

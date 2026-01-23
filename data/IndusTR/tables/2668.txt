@@ -1,0 +1,10 @@
+<table>
+  <caption>Hospital Imaging Department Unit Energy Consumption Code Table (Cross-Domain)</caption>
+  <tr><th>Code</th><th>Department</th><th>Energy Metric</th><th>Unit</th><th>Notes</th></tr>
+  <tr><td>E01</td><td>Radiology MRI</td><td>Energy per scan</td><td>kWh/scan</td><td>Includes cooling</td></tr>
+  <tr><td>E02</td><td>Radiology CT</td><td>Energy per scan</td><td>kWh/scan</td><td>Contrast protocol dependent</td></tr>
+  <tr><td>E03</td><td>Ultrasound</td><td>Energy per session</td><td>kWh/session</td><td>Portable units vary</td></tr>
+  <tr><td>E04</td><td>X-Ray</td><td>Energy per exposure</td><td>Wh/exposure</td><td>Low duty cycle</td></tr>
+  <tr><td>E05</td><td>PACS Archive</td><td>Energy per TB-month</td><td>kWh/TB·month</td><td>Storage tiering</td></tr>
+  <tr><td>E06</td><td>Imaging Workstations</td><td>Energy per workstation-day</td><td>kWh/day</td><td>Idle policy sensitive</td></tr>
+</table>

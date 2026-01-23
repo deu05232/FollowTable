@@ -1,0 +1,14 @@
+<table>
+  <caption>Authentication Requirements by Endpoint (Explicit API Method and Token Parameter)</caption>
+  <thead>
+    <tr><th>Endpoint</th><th>API Method</th><th>Auth Parameter</th><th>Auth Location</th><th>Additional Required Parameters (examples)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>/v1/gateways/register</td><td>POST</td><td>access_token</td><td>Query or Header</td><td>userID, gatewName, commCode</td></tr>
+    <tr><td>/v1/devices/{devID}</td><td>GET</td><td>access_token</td><td>Header</td><td>userID, devID</td></tr>
+    <tr><td>/v1/devices/authenticate</td><td>POST</td><td>access_token</td><td>Body</td><td>userID, devID, devSign</td></tr>
+    <tr><td>/v1/material/forms</td><td>POST</td><td>access_token</td><td>Header</td><td>userID, materialName</td></tr>
+    <tr><td>/v1/microservices</td><td>POST</td><td>access_token</td><td>Query</td><td>userID, sevName, dataUrl</td></tr>
+    <tr><td>/v1/gateways/{gatewID}/identifier</td><td>POST</td><td>access_token</td><td>Body</td><td>userID, gatewID, templateVersion</td></tr>
+  </tbody>
+</table>

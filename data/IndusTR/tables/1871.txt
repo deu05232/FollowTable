@@ -1,0 +1,28 @@
+<table>
+  <caption>Warp Knitting Machine Equipment Power System Alarm Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>System Power Off</td><td>PowerOffAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>External power failure of the system</td><td></td></tr>
+  <tr><td>0X0901</td><td>System Power-On Alarm</td><td>PowerOnAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>System power supply not ready</td><td></td></tr>
+  <tr><td>0X0902</td><td>Power Supply Fault</td><td>PowerError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Power supply phase sequence or voltage fault</td><td></td></tr>
+  <tr><td>0X0903</td><td>Main Inverter Fault</td><td>MainInverterError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0904</td><td>Oil Level Fault</td><td>OillevelError</td><td>0</td><td>VAR</td><td>ROC</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0905</td><td>Oil Pressure Fault</td><td>OilPressureError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X0906</td><td>Oil Control Circuit Fault</td><td>OilControlError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0907</td><td>Oil Temperature Detection Fault</td><td>OilTemperatureSensorError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0908</td><td>Cabinet Temperature Detection Fault</td><td>CabinetTemperatureSensorError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0909</td><td>Oil Temperature Too High</td><td>OilTemperatureOvertop</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Oil temperature too high prohibits starting</td><td></td></tr>
+  <tr><td>0X090A</td><td>Oil Temperature Too Low</td><td>OilTemperatureLower</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Oil temperature too low prohibits starting</td><td></td></tr>
+  <tr><td>0X090B</td><td>Improper Oil Control Parameter Settings</td><td>OilControlParameterError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X090C</td><td>Emergency Stop</td><td>EmergencyStop</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Emergency stop button locked</td><td></td></tr>
+  <tr><td>0X090D</td><td>Beam Fault</td><td>BeamError</td><td>0</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Beam servo alarm</td><td></td></tr>
+  <tr><td>0X090E</td><td>Pattern Drive Fault</td><td>PatternDriveError</td><td>0</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Shogging servo alarm</td><td></td></tr>
+  <tr><td>0X090F</td><td>Jacquard DC Power Supply Fault</td><td>JacquardDirectCurrentSupplyError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Jacquard DC200 V power supply fault</td><td></td></tr>
+  <tr><td>0X0710</td><td>Jacquard Process Data Error</td><td>JacquardNumeroPatternError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Jacquard has no pattern data</td><td></td></tr>
+  <tr><td>0X0711</td><td>Jacquard Unit Fault</td><td>JacquardComponentObjectModelError</td><td>0</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Jacquard unit communication fault</td><td></td></tr>
+  <tr><td>0X0712</td><td>Air Pressure Alarm</td><td>AirPressureAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td></td><td>Air pressure too high or too low</td><td></td></tr>
+  <tr><td>0X0713</td><td>Binding Yarn Break Fault</td><td>Binding YarnBreakAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>一</td><td></td><td>Photoelectric air-blowing auto-stop detects binding yarn break</td><td>丨</td></tr>
+  <tr><td>0X0714</td><td>Metal Detector Alarm</td><td>MetalDetectorAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td></td><td>Detect broken needles</td><td></td></tr>
+  <tr><td>0X0715</td><td>Safety Light Curtain Alarm</td><td>LightBarryAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0716</td><td>Safety Door Alarm</td><td>SafetyDoorAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0717</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td>1</td><td></td><td></td><td></td></tr>
+</table>

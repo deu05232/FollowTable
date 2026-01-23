@@ -1,0 +1,6 @@
+<table>
+  <caption>Session Key Generation and External Public Key Encryption Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GenerateKeyWithEPK( void * hSymmKeyObj, unsigned char * pucPublicKey,</td></tr>
+  <tr><td></td><td>unsigned intuiPublicKeyLen, unsigned char * pucSymmKey, unsigned int uiSymmKeyLen, void * * phKeyHandle)</td></tr>
+  <tr><td>Description</td><td>Generate a session key and encrypt it with an external public key for output</td></tr>
+</table>

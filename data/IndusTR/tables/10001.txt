@@ -1,0 +1,20 @@
+<table>
+  <caption>APDU Exchange Reference: Command Header, Data Layout, and Common Status Words</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Typical Value (HEX)</th><th>Length (bytes)</th><th>Description</th><th>Related SW1/SW2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Command Header</td><td>CLA</td><td>80</td><td>1</td><td>Proprietary class for terminal commands</td><td>6E 00 (CLA not supported)</td></tr>
+    <tr><td>INS</td><td>D0</td><td>1</td><td>Example instruction for a user-terminal operation</td><td>6D 00 (INS not supported)</td></tr>
+    <tr><td>P1</td><td>00</td><td>1</td><td>Parameter 1: operation mode selector</td><td>6A 86 (incorrect P1/P2)</td></tr>
+    <tr><td>P2</td><td>00 / 01</td><td>1</td><td>Parameter 2: addressing mode (unicast/multicast)</td><td>6A 86 (incorrect P1/P2)</td></tr>
+    <tr><td rowspan="3">Command Body</td><td>Lc</td><td>00-FF</td><td>1</td><td>Length of data field</td><td>67 00 (wrong length)</td></tr>
+    <tr><td>Data</td><td>Multicast ID</td><td>6</td><td>Destination identifier</td><td>6A 80 (incorrect data)</td></tr>
+    <tr><td>Le</td><td>00</td><td>1</td><td>Expected length of response data</td><td>6C XX (wrong Le)</td></tr>
+    <tr><td rowspan="5">Response</td><td>SW1/SW2</td><td>90 00</td><td>2</td><td>Success</td><td>90 00</td></tr>
+    <tr><td>SW1/SW2</td><td>67 00</td><td>2</td><td>Wrong length (Lc)</td><td>67 00</td></tr>
+    <tr><td>SW1/SW2</td><td>6A 86</td><td>2</td><td>Incorrect P1/P2</td><td>6A 86</td></tr>
+    <tr><td>SW1/SW2</td><td>6D 00</td><td>2</td><td>INS not supported</td><td>6D 00</td></tr>
+    <tr><td>SW1/SW2</td><td>6E 00</td><td>2</td><td>CLA not supported</td><td>6E 00</td></tr>
+  </tbody>
+</table>

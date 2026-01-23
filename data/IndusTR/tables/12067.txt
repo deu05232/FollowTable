@@ -1,0 +1,17 @@
+<table>
+  <caption>Information Container API - Create Container Request Parameters</caption>
+  <thead>
+    <tr><th>Field</th><th>Location</th><th>Type</th><th>Required</th><th>Constraints / Validation</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>path</td><td>string</td><td>Yes</td><td>Non-empty; length 1-64; pattern: ^[A-Za-z0-9_-]+$</td><td>Project identifier</td></tr>
+    <tr><td>parentContainerId</td><td>body</td><td>string</td><td>No</td><td>Nullable; when present must be a valid container id; length 1-64</td><td>Optional parent container (for hierarchy)</td></tr>
+    <tr><td>name</td><td>body</td><td>string</td><td>Yes</td><td>Non-empty; maxLength 128</td><td>Container name</td></tr>
+    <tr><td>type</td><td>body</td><td>enum</td><td>Yes</td><td>Allowed: MODEL | RULE | MIXED</td><td>Container type</td></tr>
+    <tr><td>description</td><td>body</td><td>string</td><td>No</td><td>maxLength 512</td><td>Human-readable description</td></tr>
+    <tr><td>tags</td><td>body</td><td>array<string></td><td>No</td><td>Up to 20 items; each item maxLength 32; uniqueItems=true</td><td>Labels for filtering/search</td></tr>
+    <tr><td>metadata</td><td>body</td><td>object</td><td>No</td><td>Arbitrary JSON object; total keys <= 50</td><td>Custom key-value attributes</td></tr>
+    <tr><td>refs</td><td>body</td><td>array<ref></td><td>No</td><td>Each ref requires {refType, refId}; maxItems 100</td><td>Links to other information containers</td></tr>
+    <tr><td>idempotencyKey</td><td>header</td><td>string</td><td>No</td><td>Length 8-64; recommended for retry safety</td><td>Idempotency token</td></tr>
+  </tbody>
+</table>

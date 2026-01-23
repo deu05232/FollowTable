@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Frame Environment Understanding Parameters (Light Estimation + Spatial Mapping)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="3">Light Estimation (per-frame)</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>Frame handle for the current camera image</td></tr>
+    <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Receives the light-estimate object for this frame</td></tr>
+    <tr><td>out_main_light_direction</td><td>float[3] *</td><td>Receives normalized main directional light vector (x,y,z)</td></tr>
+    <tr><td>out_main_light_intensity</td><td>float[3] *</td><td>Receives RGB intensity for main directional light</td></tr>
+    <tr><td colspan="3">Geometry / Mapping Outputs</td></tr>
+    <tr><td>out_sparse_spatial_map</td><td>ArSparseSpatialMap **</td><td>Receives a sparse spatial map used for relocalization and mapping</td></tr>
+    <tr><td>out_dense_spatial_map</td><td>ArDenseSpatialMap **</td><td>Receives a dense reconstruction object for meshing/occlusion</td></tr>
+  </tbody>
+</table>

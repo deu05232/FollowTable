@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Ligature Behavior by Word Position (Non-Isolated Focus)</caption>
+  <thead>
+    <tr><th>Base Sequence</th><th>Initial (Glyph/ID)</th><th>Medial (Glyph/ID)</th><th>Final (Glyph/ID)</th><th>Isolated (Glyph/ID)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>U+182A + U+1820</td><td>ᠪ- / 0102</td><td>-ᠪ- / 0103</td><td>-ᠪ / 0104</td><td>ᠪ / 0101</td><td>Shows position-dependent shaping across the word</td></tr>
+    <tr><td>U+182B + U+1821</td><td>ᠫ- / 010C</td><td>-ᠫ- / 010D</td><td>-ᠫ / 010E</td><td>ᠫ / 010B</td><td>Lists four word positions as primary items</td></tr>
+    <tr><td>U+182D + U+1821</td><td>ᠭ- / 0116</td><td>-ᠭ- / 0117</td><td>-ᠭ / 0118</td><td>ᠭ / 0115</td><td>Includes non-isolated forms prominently</td></tr>
+    <tr><td>U+183A + U+1820</td><td>ᠺ- / 0134</td><td>-ᠺ- / 0135</td><td>-ᠺ / 0136</td><td>ᠺ / 0133</td><td>Not an ID-based isolated-only mapping list</td></tr>
+    <tr><td>U+183B + U+1821</td><td>ᠻ- / 013E</td><td>-ᠻ- / 013F</td><td>-ᠻ / 0140</td><td>ᠻ / 013D</td><td>Behavior table, not conversion-rule table</td></tr>
+    <tr><td>U+1858 + U+1820</td><td>ᡘ- / 016A</td><td>-ᡘ- / 016B</td><td>-ᡘ / 016C</td><td>ᡘ / 0169</td><td>Positions are the main structure</td></tr>
+    <tr><td>U+1892 + U+1821</td><td>ᢒ- / 0194</td><td>-ᢒ- / 0195</td><td>-ᢒ / 0196</td><td>ᢒ / 0193</td><td>Still mixes all positions</td></tr>
+  </tbody>
+</table>

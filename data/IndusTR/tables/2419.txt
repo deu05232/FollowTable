@@ -1,0 +1,10 @@
+<table>
+  <caption>Data Platform API Endpoints for Beidou Monitoring Terminal Telemetry Ingestion</caption>
+  <tr><th>Endpoint</th><th>Method</th><th>Authentication</th><th>Request Fields</th><th>Rate Limit</th><th>Success Response</th></tr>
+  <tr><td>/api/v1/telemetry/upload</td><td>POST</td><td>HMAC-SHA256</td><td>deviceId,timestamp,payload</td><td>60 rpm</td><td>200 OK + jobId</td></tr>
+  <tr><td>/api/v1/device/register</td><td>POST</td><td>Bearer Token</td><td>sn,model,fwVersion</td><td>30 rpm</td><td>201 Created</td></tr>
+  <tr><td>/api/v1/device/heartbeat</td><td>POST</td><td>Bearer Token</td><td>deviceId,uptime,battery</td><td>120 rpm</td><td>204 No Content</td></tr>
+  <tr><td>/api/v1/alerts/create</td><td>POST</td><td>Bearer Token</td><td>deviceId,level,message</td><td>20 rpm</td><td>202 Accepted</td></tr>
+  <tr><td>/api/v1/firmware/check</td><td>GET</td><td>Bearer Token</td><td>deviceId,currentVersion</td><td>30 rpm</td><td>200 OK + latest</td></tr>
+  <tr><td>/api/v1/reports/daily</td><td>GET</td><td>Bearer Token</td><td>deviceId,date</td><td>10 rpm</td><td>200 OK + url</td></tr>
+</table>

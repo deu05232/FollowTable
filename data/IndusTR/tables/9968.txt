@@ -1,0 +1,17 @@
+<table>
+  <caption>Scoring Rule for Freight Hub Connectivity (Line-haul/Feeder Hubs) per Million Residents</caption>
+  <thead>
+    <tr><th>City size tier</th><th>Connected freight hubs per million residents (units)</th><th>Score</th><th>Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Mega city (≥10 million)</td><td>≥1.0</td><td>60</td><td>Meets hub availability benchmark</td></tr>
+    <tr><td>0.5–0.99</td><td>45</td><td>Partially meets benchmark</td></tr>
+    <tr><td><0.5</td><td>Score = 60 × (value / 1.0)</td><td>Scaled score</td></tr>
+    <tr><td rowspan="3">Very large city (5–10 million)</td><td>≥0.8</td><td>60</td><td>Meets hub availability benchmark</td></tr>
+    <tr><td>0.4–0.79</td><td>45</td><td>Partially meets benchmark</td></tr>
+    <tr><td><0.4</td><td>Score = 60 × (value / 0.8)</td><td>Scaled score</td></tr>
+    <tr><td rowspan="3">Large city (1–5 million)</td><td>≥0.6</td><td>60</td><td>Meets hub availability benchmark</td></tr>
+    <tr><td>0.3–0.59</td><td>45</td><td>Partially meets benchmark</td></tr>
+    <tr><td><0.3</td><td>Score = 60 × (value / 0.6)</td><td>Scaled score</td></tr>
+  </tbody>
+</table>

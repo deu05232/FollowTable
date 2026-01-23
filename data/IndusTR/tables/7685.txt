@@ -1,0 +1,7 @@
+<table>
+  <caption>Tire recipe schema encoding summary (not recommended for operational mapping)</caption>
+  <tr><th>No.</th><th>Structure block</th><th>Primitive storage type</th><th>Bit length</th><th>Byte offset</th><th>Encoding notes</th></tr>
+  <tr><td>1</td><td>Recipe identifier</td><td>INT</td><td>16</td><td>0</td><td>Little-endian</td></tr>
+  <tr><td>2</td><td>Recipe name</td><td>STR</td><td>256</td><td>2</td><td>ASCII, null-terminated</td></tr>
+  <tr><td>3</td><td>Line speed setpoint</td><td>FLOAT</td><td>32</td><td>258</td><td>IEEE-754</td></tr>
+</table>

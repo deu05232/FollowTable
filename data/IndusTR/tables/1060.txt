@@ -1,0 +1,17 @@
+<table>
+  <caption>Mobile Device Augmented Reality System Cloud Anchor State Enumeration</caption>
+  <tr><td>ARCloudAnchorState Values</td><td>Description</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_NONE=0</td><td>This anchor is not a cloud anchor</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_TASK_IN_PROGRESS=1</td><td>Hosting or resolving in progress</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_SUCCESS= 2</td><td>Hosting or resolving succeeded</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_INTERNAL=-1</td><td>Internal error occurred during hosting or resolving</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_NOT_AUTHORIZED=-2</td><td>Hosting or resolving was not authorized</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_SERVICE_UNAVAILABLE=-3</td><td>Service currently unavailable</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_RESOURCE_EXHAUSTED=-4</td><td>Resources have been exhausted</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_HOSTING_DATASET_PROCESS-ING_FAILED=-5</td><td>Cloud anchor data error; cannot host</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_CLOUD_ID_NOT_FOUND=-6</td><td>The cloud anchor ID was not found</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_RESOLVING_LOCALIZATION_NO_MATCH=-7</td><td>Resolving failed; environment could not be matched</td></tr>
+  <tr><td>SACARCLOUD_ANCHOR_STATE_ERROR_RESOLVING_SDK_VERSION_TOO_OLD=-8</td><td>The SDK version for resolving the anchor is too old</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_RESOLVING_SDK_VERSION_TOO_NEW=-9</td><td>The SDK version for resolving the anchor is too new</td></tr>
+  <tr><td>ARCLOUD_ANCHOR_STATE_ERROR_UNKNOWN=-11</td><td>Unknown error</td></tr>
+</table>

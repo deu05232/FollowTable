@@ -1,0 +1,7 @@
+<table>
+  <caption>Service Function and Execution Condition Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Function Description</td><td>functionDescription</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Describes the service's functions</td></tr>
+  <tr><td>Preconditions</td><td>precondition</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Description or identifier of the necessary conditions required to execute the service</td></tr>
+  <tr><td>Result</td><td>result</td><td>C.2000</td><td>0</td><td>N</td><td></td><td>Description or identifier of the service execution result</td></tr>
+</table>

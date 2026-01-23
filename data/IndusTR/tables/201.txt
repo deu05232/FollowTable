@@ -1,0 +1,8 @@
+<table>
+  <caption>Basic Business Information Entity of Exchange Header Envelope Package Envelope</caption>
+  <tr><td>Data Field</td><td>English Name</td><td>Constraints</td><td>Maximum Occurrences</td><td>Data Type</td><td>Definition</td></tr>
+  <tr><td>Envelope Version Identifier</td><td>Envelope Version Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Version identifier of the current XHE</td></tr>
+  <tr><td>Envelope Customization Identifier</td><td>Envelope CustomizationIdentifier</td><td>Optional</td><td>1</td><td>String</td><td>Customization identifier for XHE customization or special purposes, etc.</td></tr>
+  <tr><td>Envelope Profile Identifier</td><td>Envelope Profile Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Profile specified in the XHE customization identifier</td></tr>
+  <tr><td>Envelope Profile Execution Identifier</td><td>Envelope Profile Execution</td><td>Optional</td><td>1</td><td>String</td><td>Instance specified in the XHE custom profile</td></tr>
+</table>

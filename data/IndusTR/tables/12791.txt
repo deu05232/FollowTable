@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal-Side Application File: Broadcast and Multicast Identity Entries</caption>
+  <thead>
+    <tr><th>Category</th><th>Identifier Field</th><th>Length (bytes)</th><th>Scope / Meaning</th><th>Status / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Broadcast</td><td>Broadcast ID 1</td><td>6</td><td>Group broadcast identifier for general service announcements.</td><td>Active when Status = 0x00.</td></tr>
+    <tr><td>Broadcast</td><td>Broadcast ID 2</td><td>6</td><td>Management broadcast identifier used for administrative notifications.</td><td>Active when Status = 0x00.</td></tr>
+    <tr><td>Broadcast</td><td>Broadcast ID 3</td><td>6</td><td>Emergency broadcast identifier reserved for high-priority messages.</td><td>Reserved values may be operator-defined.</td></tr>
+    <tr><td>Multicast</td><td>Multicast ID 1</td><td>6</td><td>Multicast group identifier for a subscribed content group.</td><td>Reclaimed when Status = 0x01.</td></tr>
+    <tr><td>Multicast</td><td>Multicast ID 2</td><td>6</td><td>Secondary multicast group identifier for alternate service grouping.</td><td>Optional entry; absent if length is 0.</td></tr>
+    <tr><td>Multicast</td><td>Multicast ID 3</td><td>6</td><td>Temporary multicast identifier for time-limited campaigns.</td><td>Expires based on Valid-Until timestamp (stored elsewhere).</td></tr>
+    <tr><td>Common</td><td>ID Status</td><td>1</td><td>Status flag associated with the above broadcast/multicast IDs.</td><td>0x00=in use; 0x01=reclaimed; 0x02=blocked.</td></tr>
+  </tbody>
+</table>

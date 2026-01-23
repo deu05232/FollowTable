@@ -1,0 +1,17 @@
+<table>
+  <caption>Positioning/Relocalization/Working Status Enums for VR Tracking</caption>
+  <thead>
+    <tr><th>Enum Type</th><th>Value</th><th>Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">vrHMDRelocalizationMode</td><td>0x00</td><td>VR_HMD_RELOCALIZATION_MODE_LOCAL</td><td>Relocalize within local map</td></tr>
+    <tr><td>0x01</td><td>VR_HMD_RELOCALIZATION_MODE_GLOBAL</td><td>Relocalize against global reference</td></tr>
+    <tr><td>0x02</td><td>VR_HMD_RELOCALIZATION_MODE_RESERVED</td><td>Reserved</td></tr>
+    <tr><td rowspan="3">vrControllerPositioningMode</td><td>0x00</td><td>VR_CONTROLLER_POSITIONING_MODE_3DOF_IMU_ONLY</td><td>IMU orientation-only tracking</td></tr>
+    <tr><td>0x01</td><td>VR_CONTROLLER_POSITIONING_MODE_6DOF_ELECTROMAGNETIC</td><td>6DOF electromagnetic tracking</td></tr>
+    <tr><td>0x02</td><td>VR_CONTROLLER_POSITIONING_MODE_6DOF_ULTRASONIC</td><td>6DOF ultrasonic tracking</td></tr>
+    <tr><td rowspan="3">vrHMDPositioningSystemWorkingStatus</td><td>0x00</td><td>VR_HMD_POSITIONING_SYSTEM_WORKINGSTATUS_START</td><td>Power-on state</td></tr>
+    <tr><td>0x01</td><td>VR_HMD_POSITIONING_SYSTEM_WORKINGSTATUS_STANDBY</td><td>Standby state</td></tr>
+    <tr><td>0x02</td><td>VR_HMD_POSITIONING_SYSTEM_WORKINGSTATUS_INITIALIZATION</td><td>Initialization state</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameter Definitions for PGI 0x01 (Phase Request) Message Payload</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Field Name</th><th>Length</th><th>Data Type / Encoding</th><th>Parameter Type</th><th>Description and Allowed Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE (unsigned)</td><td>PIDType</td><td>Fixed value: 0x01</td></tr>
+    <tr><td>2</td><td>Requested Phase</td><td>1 byte</td><td>BYTE (enum)</td><td>PhaseReqType</td><td>Requested charging phase/state: 0x00 = reserved; 0x01 = Handshake/Init; 0x02 = Parameter exchange; 0x03 = Pre-charge; 0x04 = Charging; 0x05 = Charge termination; 0xFF = invalid/unknown</td></tr>
+    <tr><td>3</td><td>Requested Action</td><td>1 byte</td><td>BYTE (bit field)</td><td>ActionFlagsType</td><td>Bit0: start/enter requested phase (0=no, 1=yes); Bit1: keep-alive request (0=no, 1=yes); Bits2-7: reserved, set to 0</td></tr>
+    <tr><td>4</td><td>Timeout Value</td><td>2 bytes</td><td>UINT16, little-endian</td><td>TimeoutMsType</td><td>Maximum time (ms) the sender allows for the counterpart to respond/transition. Range: 0–60000; 0 means “no explicit timeout provided”.</td></tr>
+    <tr><td>5</td><td>Protocol Version</td><td>3 bytes</td><td>BYTE[3] (major.minor.patch)</td><td>ProtoVerType</td><td>Protocol version in 3 bytes: BYTE1=patch, BYTE2=minor, BYTE3=major (e.g., 0x00 0x01 0x01 represents v1.1.0).</td></tr>
+    <tr><td>6</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>ReservedType</td><td>Reserved for future use; sender sets to 0x00; receiver ignores if non-zero.</td></tr>
+  </tbody>
+</table>

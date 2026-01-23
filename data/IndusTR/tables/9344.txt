@@ -1,0 +1,10 @@
+<table>
+  <caption>Parameters for querying spherical harmonics lighting from the current frame</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_sh_coefficients_27</td><td>float *</td><td>Pointer that receives 27 spherical harmonics coefficients (RGB * 9)</td></tr>
+  <tr><td>out_main_light_direction_3</td><td>float *</td><td>Pointer that receives the main light direction</td></tr>
+  <tr><td>out_main_light_intensity_3</td><td>float *</td><td>Pointer that receives the main light intensity</td></tr>
+  <tr><td>out_valid</td><td>ArBool *</td><td>Whether lighting values are valid for the current frame</td></tr>
+</table>

@@ -1,0 +1,5 @@
+<table>
+  <caption>Run times for integrating the 5-body system for 200 million years on a 2.8Ghz pentium 4, for Mercury 6.2 with timesteps of 16 and 8 days, for NBI, and for Taylor-1.4 in double and long double precision.</caption>
+  <tr><th>integrator</th><th>WH dt=16d</th><th>WH dt=8d</th><th>NBI</th><th>Taylor-1.4 double</th><th>Taylor-1.4 long double</th></tr>
+  <tr><th>time (hours)</th><td>13</td><td>26</td><td>40</td><td>100</td><td>150</td></tr>
+</table>

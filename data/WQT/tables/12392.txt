@@ -1,0 +1,10 @@
+# Hybrid deployment with Office 365  DNS records plus a note about coexistence (mixed-focus table)
+
+| Item | Example value | What it impacts |
+| --- | --- | --- |
+| MX record | contoso-com.mail.protection.outlook.com | Routes inbound mail toward Microsoft 365 |
+| Autodiscover CNAME | autodiscover.contoso.com -> autodiscover.outlook.com | Helps clients locate mailbox settings |
+| SPF (TXT) | v=spf1 include:spf.protection.outlook.com -all | Reduces spoofing and improves deliverability |
+| Free/busy sharing outcome | N/A | Allows on-premises and Microsoft 365 users to see each other’s availability |
+| Calendar sharing outcome | N/A | Enables cross-organization calendar sharing behaviors |
+| Outlook connection detail | IMAP 993 / SMTP 587 | Client protocol/port settings for mailbox access |

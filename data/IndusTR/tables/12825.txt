@@ -1,0 +1,15 @@
+<table>
+  <caption>Protocol Version Number Layout for Link-Layer Negotiation — 3-Byte Structure and Examples</caption>
+  <thead>
+    <tr><th>Byte Index (within ProtocolVersionType)</th><th>Symbol</th><th>Size</th><th>Meaning</th><th>Comparison Rule</th><th>Example Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BYTE1</td><td>Major</td><td>1 byte</td><td>Major protocol revision</td><td>Compare numerically first</td><td>0x02 (for V2.x.y)</td></tr>
+    <tr><td>BYTE2</td><td>Minor</td><td>1 byte</td><td>Minor revision within the same major version</td><td>Compare numerically if BYTE1 equal</td><td>0x00 (for V2.0.y)</td></tr>
+    <tr><td>BYTE3</td><td>Provisional</td><td>1 byte</td><td>Provisional/patch revision</td><td>Compare numerically if BYTE1 and BYTE2 equal</td><td>0x05 (for V2.0.5)</td></tr>
+    <tr><td>BYTE1–BYTE3</td><td>ProtocolVersionType</td><td>3 bytes</td><td>Version tuple encoded as three discrete bytes</td><td>Lexicographic numeric (Major, then Minor, then Provisional)</td><td>0x01 0x02 0x03 → V1.2.3</td></tr>
+    <tr><td>BYTE1–BYTE3</td><td>ExpectedVersion</td><td>3 bytes</td><td>Version proposed/expected when negotiation continues</td><td>Used as next-step candidate</td><td>0x02 0x01 0x00 → V2.1.0</td></tr>
+    <tr><td>BYTE1–BYTE3</td><td>AgreedVersion</td><td>3 bytes</td><td>Version committed when negotiation succeeds</td><td>Must match on both sides</td><td>0x02 0x00 0x00 → V2.0.0</td></tr>
+    <tr><td>BYTE1–BYTE3</td><td>InvalidVersion</td><td>3 bytes</td><td>Sent when negotiation fails</td><td>Receiver treats as invalid</td><td>0xFF 0xFF 0xFF</td></tr>
+  </tbody>
+</table>

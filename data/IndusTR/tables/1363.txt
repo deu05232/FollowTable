@@ -1,0 +1,10 @@
+<table>
+  <caption>Relationship Between Laser-Cutting Kerf Width and Material Thickness</caption>
+  <tr><td>Material thickness</td><td>Kerf width</td></tr>
+  <tr><td>0.1≤a≤0.5</td><td>≤0.01+0.05a</td></tr>
+  <tr><td>0.5<a≤1.0</td><td>≤0.01+0.1aWd</td></tr>
+  <tr><td>1.0<a≤6.0</td><td>≤0.1+0.1a</td></tr>
+  <tr><td>6.0<a≤40.0</td><td>≤0.6+0.05a</td></tr>
+  <tr><td>40.0<a≤60.0</td><td>≤2.0+0.02a</td></tr>
+  <tr><td colspan="2">Note: a is the thickness of the workpiece being processed.</td></tr>
+</table>

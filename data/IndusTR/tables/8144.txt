@@ -1,0 +1,14 @@
+<table>
+  <caption>Fault Codes Combined with Algorithmic Self-Optimization and Adaptive Learning Features</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Fault Code</th><th>Explicit Fault Item</th><th>Algorithmic Self-Optimization Feature (Not Allowed)</th><th>Learning Data Used</th><th>Auto-Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Measuring Instruments</td><td>F-110</td><td>Data verification error</td><td>Auto-adjust digital filter window to minimize residual error after fault clearance</td><td>Last 7 days PV variance and noise spectrum</td><td>Re-tune filter; update internal model coefficients</td></tr>
+    <tr><td>F-111</td><td>Sensor fault</td><td>Self-calibrate zero/span using adaptive baseline estimation</td><td>Historical zero drift and ambient temperature profile</td><td>Apply adaptive offset; store new calibration parameters</td></tr>
+    <tr><td rowspan="2">Analytical Instruments</td><td>A-210</td><td>Optics contamination</td><td>Automatically re-weight spectral bands and re-train regression model to recover accuracy</td><td>Spectral history + lab reference samples</td><td>Re-train model; push updated coefficients</td></tr>
+    <tr><td>A-211</td><td>Calibration failure</td><td>Online learning to select calibration schedule and optimize convergence thresholds</td><td>Past calibration outcomes and environmental conditions</td><td>Change schedule; optimize thresholds</td></tr>
+    <tr><td rowspan="2">Actuators</td><td>E-320</td><td>Input signal abnormality</td><td>Adaptive control gains selection to maintain stability under signal quality changes</td><td>Command/feedback residuals and stiction estimator output</td><td>Auto-tune gains; update control policy</td></tr>
+    <tr><td>E-321</td><td>Position sensor fault</td><td>Use learned virtual sensor model to estimate position and continue operation</td><td>Historical torque-current-position signatures</td><td>Switch to virtual sensing; refine model online</td></tr>
+  </tbody>
+</table>

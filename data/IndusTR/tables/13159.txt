@@ -1,0 +1,14 @@
+<table>
+  <caption>ArTrackable_getPose (per-trackable pose query) — Parameter Reference</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th><th>Direction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Pointer to the active AR session used to resolve coordinate spaces.</td><td>in</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>Handle/pointer to the specific trackable whose pose is being requested.</td><td>in</td></tr>
+    <tr><td>timestamp_ns</td><td>int64_t</td><td>Timestamp (nanoseconds) at which the pose should be sampled (e.g., from the current frame).</td><td>in</td></tr>
+    <tr><td>reference_space</td><td>ArPoseReferenceSpace</td><td>Which coordinate space the returned pose is expressed in (e.g., world, local).</td><td>in</td></tr>
+    <tr><td>out_pose</td><td>ArPose *</td><td>Output pose object that will be populated with translation and rotation for the trackable.</td><td>out</td></tr>
+    <tr><td>out_pose_status</td><td>ArStatus *</td><td>Optional status output indicating whether the pose was successfully resolved.</td><td>out</td></tr>
+  </tbody>
+</table>

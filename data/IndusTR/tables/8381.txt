@@ -1,0 +1,17 @@
+<table>
+  <caption>SpaceFibre Optical Parameters (Receiver Metrics Bundled with General Optics)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter</th><th>Symbol</th><th>Min</th><th>Typ</th><th>Max</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Receiver</td><td>Receiver sensitivity</td><td>PRX</td><td>-16.0</td><td>-15.0</td><td>-13.5</td><td>dBm</td><td>BER=1e-12, PRBS31</td></tr>
+    <tr><td>Receiver overload</td><td>PRX_OVL</td><td>-1.0</td><td>0.0</td><td>+1.0</td><td>dBm</td><td>BER=1e-12, PRBS31</td></tr>
+    <tr><td>Receiver optical return loss tolerance</td><td>ORL_RX</td><td></td><td></td><td>12</td><td>dB</td><td>Worst-case reflection tolerance</td></tr>
+    <tr><td>Receiver wavelength</td><td>λRX</td><td>830</td><td>850</td><td>860</td><td>nm</td><td>Module-dependent</td></tr>
+    <tr><td>Receiver rise/fall time (electrical)</td><td>tr/tf</td><td></td><td></td><td>35</td><td>ps</td><td>Informative, depends on TIA</td></tr>
+    <tr><td>Receiver jitter tolerance</td><td>JTOL</td><td></td><td></td><td>0.35</td><td>UI</td><td>At specified stress pattern</td></tr>
+    <tr><td rowspan="3">General optical / TX-coupled</td><td>Extinction ratio (link assumption)</td><td>ER</td><td>6</td><td>8</td><td></td><td>dB</td><td>Used when deriving OMA sensitivity</td></tr>
+    <tr><td>Transmitter average output power</td><td>PTX</td><td>-5.0</td><td>-2.0</td><td>+3.0</td><td>dBm</td><td>Included for full link budget</td></tr>
+    <tr><td>Optical modulation amplitude</td><td>OMA</td><td>-4.0</td><td>-2.5</td><td>-1.0</td><td>dBm</td><td>Referenced at transmitter output</td></tr>
+  </tbody>
+</table>

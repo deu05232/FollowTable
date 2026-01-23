@@ -1,0 +1,10 @@
+<table>
+  <caption>Reliability Stress Test Sequence (Reliability-Only Flow) for Synthesized Frequency Sources</caption>
+  <tr><th>Step</th><th>Reliability Test</th><th>Purpose</th><th>Key Condition</th><th>Pass/Fail Criterion</th></tr>
+  <tr><td>1</td><td>High-temperature storage</td><td>Storage robustness</td><td>24 h at maximum storage temperature</td><td>No functional failure after recovery; parameters within limits</td></tr>
+  <tr><td>2</td><td>Burn-in / operating life</td><td>Early failure screening</td><td>168 h at elevated temperature, rated supply</td><td>No parametric drift beyond detail specification</td></tr>
+  <tr><td>3</td><td>Temperature cycling</td><td>Thermal fatigue resistance</td><td>10 cycles between min/max operating temperatures</td><td>No mechanical damage; electrical compliance maintained</td></tr>
+  <tr><td>4</td><td>Electrical endurance</td><td>Long-duration stability</td><td>2 000 h continuous operation</td><td>Meets electrical characteristics at each checkpoint</td></tr>
+  <tr><td>5</td><td>Humidity endurance</td><td>Moisture sensitivity</td><td>240 h steady-state humidity</td><td>No corrosion; marking legible; compliance maintained</td></tr>
+  <tr><td>6</td><td>Solderability after aging</td><td>Assembly robustness</td><td>Preconditioning then solder wetting test</td><td>Wetting coverage meets requirement</td></tr>
+</table>

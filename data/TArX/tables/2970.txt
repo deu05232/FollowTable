@@ -1,0 +1,25 @@
+<table>
+  <caption>Constraints used for the global fit, and the main inputs involved (more information can be found in ref. [ CKMfitterwebsite ] ). The lattice inputs are our own averages obtained as described in the text.</caption>
+  <tr><th>CKM</th><th>Process</th><th colspan="4">Observables</th><th colspan="3">Theoretical inputs</th></tr>
+  <tr><th>|V_(ud)|</th><th>0^(+)0^(+) transitions</th><td>|V_(ud)|_(nucl)</td><td>=</td><td>0.97425± 0.00022</td><td>[ Hardy:2008gy ]</td><td colspan="3">Nuclear matrix elements</td></tr>
+  <tr><th>|V_(us)|</th><th>Kν</th><td>|V_(us)|_(semi)f_(+)(0)</td><td>=</td><td>0.2163± 0.0005</td><td>[ FlaviaNet ]</td><td>f_(+)(0)</td><td>=</td><td>0.9632± 0.0028± 0.0051</td></tr>
+  <tr><th></th><th>Keν_(e)</th><td>B(Keν_(e))</td><td>=</td><td>(1.584± 0.0020)· 10^(-5)</td><td>[ PDG ]</td><td>f_(K)</td><td>=</td><td>156.3± 0.3± 1.9 MeV</td></tr>
+  <tr><th></th><th>Kμν_(μ)</th><td>B(Kμν_(μ))</td><td>=</td><td>0.6347± 0.0018</td><td>[ FlaviaNet ]</td><td></td><td></td><td></td></tr>
+  <tr><th></th><th>τKν_(τ)</th><td>B(τKν_(τ))</td><td>=</td><td>0.00696± 0.00023</td><td>[ PDG ]</td><td></td><td></td><td></td></tr>
+  <tr><th>|V_(us)|/|V_(ud)|</th><th>Kμν/μν</th><td>{B(Kμν_(μ))}{B(μν_(μ))}</td><td>=</td><td>(1.3344± 0.0041)· 10^(-2)</td><td>[ FlaviaNet ]</td><td>f_(K)/f_()</td><td>=</td><td>1.205± 0.001± 0.010</td></tr>
+  <tr><th></th><th>τKν/τν</th><td>{B(τKν_(τ))}{B(τν_(τ% ))}</td><td>=</td><td>(6.53± 0.11)· 10^(-2)</td><td>[ Banerjee:2008hg ]</td><td></td><td></td><td></td></tr>
+  <tr><th>|V_(cd)|</th><th>Dμν</th><td>B(Dμν)</td><td>=</td><td>(3.82± 0.32± 0.09)· 10^(-4)</td><td>[ CLEO:2008sq ]</td><td>f_(D_s)/f_(D)</td><td>=</td><td>1.186± 0.005± 0.010</td></tr>
+  <tr><th>|V_(cs)|</th><th>D_(s)τν</th><td>B(D_(s)τν)</td><td>=</td><td>(5.29± 0.28)· 10^(-2)</td><td>[ Asner:2010qj ]</td><td>f_(D_s)</td><td>=</td><td>251.3± 1.2± 4.5 MeV</td></tr>
+  <tr><th></th><th>D_(s)μν</th><td>B(D_(s)μν_(μ))</td><td>=</td><td>(5.90± 0.33)· 10^(-3)</td><td>[ Asner:2010qj ]</td><td></td><td></td><td></td></tr>
+  <tr><th>|V_(ub)|</th><th>semileptonic decays</th><td>|V_(ub)|_(semi)</td><td>=</td><td>(3.92± 0.09± 0.45)· 10^(-3)</td><td>[ Asner:2010qj ]</td><td colspan="3">form factors, shape functions</td></tr>
+  <tr><th></th><th>Bτν</th><td>B(Bτν)</td><td>=</td><td>(1.68± 0.31)· 10^(-4)</td><td>[ CKMfitterwebsite ]</td><td>f_(B_s)</td><td>=</td><td>231± 3± 15 MeV</td></tr>
+  <tr><th></th><th></th><td></td><td></td><td></td><td></td><td>f_(B_s)/f_(B)</td><td>=</td><td>1.209± 0.007± 0.023</td></tr>
+  <tr><th>|V_(cb)|</th><th>semileptonic decays</th><td>|V_(cb)|_(semi)</td><td>=</td><td>(40.89± 0.38± 0.59)· 10^(-3)</td><td>[ Asner:2010qj ]</td><td colspan="3">form factors, OPE matrix elements</td></tr>
+  <tr><th>α</th><th>B , ρ , ρρ</th><td colspan="3">branching ratios, CP asymmetries</td><td>[ Asner:2010qj ]</td><td colspan="3">isospin symmetry</td></tr>
+  <tr><th>β</th><th>B(c)K</th><td>(2β)_([c)]</td><td>=</td><td>0.678± 0.020</td><td>[ Asner:2010qj ]</td><td></td><td></td><td></td></tr>
+  <tr><th>γ</th><th>BD^((*))K^((*))</th><td colspan="3">inputs for the 3 methods</td><td>[ Asner:2010qj ]</td><td colspan="3">GGSZ, GLW, ADS methods</td></tr>
+  <tr><th>V_(tq)^(*)V_{tq^()</th><th>Δ m_(d)</th><td>Δ m_(d)</td><td>=</td><td>0.507± 0.005 ps ^((-1))</td><td>[ Asner:2010qj ]</td><td>_(B_s)/_(B_d)</td><td>=</td><td>1.01± 0.01± 0.03</td></tr>
+  <tr><th></th><th>Δ m_(s)</th><td>Δ m_(s)</td><td>=</td><td>17.77± 0.12 ps ^((-1))</td><td>[ Abulencia:2006ze ]</td><td>_(B_s)</td><td>=</td><td>1.28± 0.02± 0.03</td></tr>
+  <tr><th>V_(tq)^(*)V_(tq^(),V_{cq)^(*)V_{cq^()</th><th>ε_(K)</th><td>|ε_(K)|</td><td>=</td><td>(2.229± 0.010)· 10^(-3)</td><td>[ PDG ]</td><td>_(K)</td><td>=</td><td>0.730± 0.004± 0.036</td></tr>
+  <tr><th></th><th></th><td></td><td></td><td></td><td></td><td>_(ε)</td><td>=</td><td>0.940± 0.013± 0.023</td></tr>
+</table>

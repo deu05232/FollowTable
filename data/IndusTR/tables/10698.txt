@@ -1,0 +1,15 @@
+<table>
+  <caption>XHE Header Envelope - Packaging Identifiers, Profiles, and Business Scope Snapshot</caption>
+  <thead>
+    <tr><th>Area</th><th>Data Field</th><th>English Name</th><th>Constraints</th><th>Max Occurrences</th><th>Data Type</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Business Snapshot</td><td>Business Scope Code</td><td>Business Scope Code</td><td>Mandatory</td><td>N</td><td>String</td><td>Dedicated code describing the business scope associated with the party for this envelope.</td></tr>
+    <tr><td>Business Scope Description Text</td><td>Business Scope Description Text</td><td>Mandatory</td><td>N</td><td>String</td><td>Description of scope parameters in human-readable form.</td></tr>
+    <tr><td rowspan="5">Packaging / Technical</td><td>Header Identifier</td><td>Header Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Identifier that uniquely identifies the header within the envelope package.</td></tr>
+    <tr><td>Header UUID</td><td>Header UUID</td><td>Optional</td><td>1</td><td>String</td><td>Universally unique identifier assigned to the header.</td></tr>
+    <tr><td>Envelope Profile Identifier</td><td>Envelope Profile Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Profile identifier indicating packaging rules and conformance profile.</td></tr>
+    <tr><td>Envelope Version Identifier</td><td>Envelope Version Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Version identifier of the envelope structure.</td></tr>
+    <tr><td>Header Creation Date Time</td><td>Header Creation Date Time</td><td>Mandatory</td><td>1</td><td>Date Time</td><td>Date and time when the header/envelope instance was created.</td></tr>
+  </tbody>
+</table>

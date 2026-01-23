@@ -1,0 +1,18 @@
+<table>
+  <caption>Ionospheric Harmonic Correction Block: Framing, Epoch, and Segmentation (Mixed With Minimal Model Info)</caption>
+  <thead>
+    <tr><th>Block</th><th>Field</th><th>Data Field ID</th><th>Type</th><th>Bits</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Header</td><td>Message type number</td><td>DF002</td><td>uint12</td><td>12</td><td>Message identifier</td></tr>
+    <tr><td>Reference station ID</td><td>DF008</td><td>uint12</td><td>12</td><td>Station reference</td></tr>
+    <tr><td>GPS epoch time</td><td>DF385</td><td>uint20</td><td>20</td><td>Epoch of parameters</td></tr>
+    <tr><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Update cadence</td></tr>
+    <tr><td>Multiple message indicator</td><td>DF393</td><td>bit(1)</td><td>1</td><td>1 = more blocks follow</td></tr>
+    <tr><td rowspan="3">Segmentation</td><td>Message sequence number</td><td>DF409</td><td>uint5</td><td>5</td><td>Sequence within epoch</td></tr>
+    <tr><td>Total number of blocks</td><td>DF410</td><td>uint5</td><td>5</td><td>Total blocks transmitted</td></tr>
+    <tr><td>Block index</td><td>DF411</td><td>uint5</td><td>5</td><td>Index of current block</td></tr>
+    <tr><td rowspan="2">Model (very limited)</td><td>Spherical harmonic function degree</td><td>DF474</td><td>uint4</td><td>4</td><td>Max degree</td></tr>
+    <tr><td>Spherical harmonic function order</td><td>DF475</td><td>uint4</td><td>4</td><td>Max order</td></tr>
+  </tbody>
+</table>

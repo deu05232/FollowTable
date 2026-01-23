@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Fault Management Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.5</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics M2M Terminal Fault Management</td></tr>
+  <tr><td>Test Objective</td><td>Verify the logistics M2M terminal fault management function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can be logged in normally; 2. Normal connection to the server; 3. UI buttons and input boxes can be used normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Log in to the portal as the platform administrator, query fault information for a certain time period; and use the fault cause as a query condition, submit and count the occurrence frequency of this type of fault. 2. Log in to the portal as the customer administrator, query fault information for a certain time period; and use the fault cause as a query condition, submit and count the occurrence frequency of this type of fault. 3. Log in to the portal as the application system administrator, query fault information for a certain time period; and use the fault cause as a query condition, submit and count the occurrence frequency of this type of fault</td></tr>
+  <tr><td>Pass Criteria</td><td>Platform administrators, customer administrators, and application system administrators can query terminal fault information for a certain time period through the portal and perform statistics on the fault information</td></tr>
+  <tr><td>Notes</td><td>SZIC</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>SVM predictions for evaluation set using \PS photometry: the confusion matrix (first in absolute numbers, and second in fractions normalized to 1) with true classes in rows.</caption>
+  <tr><th>True classes</th><th>N_(tot)</th><th>Star</th><th>Galaxy</th><th>Quasar</th></tr>
+  <tr><th>Star</th><td>449</td><td>381</td><td>21</td><td>47</td></tr>
+  <tr><th></th><td></td><td>0.849</td><td>0.047</td><td>0.104</td></tr>
+  <tr><th>Galaxy</th><td>4750</td><td>38</td><td>4605</td><td>107</td></tr>
+  <tr><th></th><td></td><td>0.008</td><td>0.970</td><td>0.022</td></tr>
+  <tr><th>Quasar</th><td>550</td><td>47</td><td>44</td><td>459</td></tr>
+  <tr><th></th><td></td><td>0.085</td><td>0.080</td><td>0.835</td></tr>
+</table>

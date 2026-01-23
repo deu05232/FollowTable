@@ -1,0 +1,8 @@
+<table>
+  <caption>VR positioning interface data types: vrTrackingOrigin enum</caption>
+  <tr><th>Data Type</th><th>Enum Value</th><th>Description</th></tr>
+  <tr><td rowspan="4">vrTrackingOrigin</td><td>VR_TRACKING_ORIGIN_EYE_LEVEL=0x00</td><td>Tracking origin at user eye level</td></tr>
+  <tr><td>VR_TRACKING_ORIGIN_FLOOR_LEVEL=0x01</td><td>Tracking origin at floor level</td></tr>
+  <tr><td>VR_TRACKING_ORIGIN_STAGE=0x02</td><td>Fixed stage / room-scale origin</td></tr>
+  <tr><td>0x03~0xFF</td><td>Reserved</td></tr>
+</table>

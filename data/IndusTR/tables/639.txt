@@ -1,0 +1,12 @@
+<table>
+  <caption>Flat Knitting Machine Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Pattern Name</td><td>PatternName</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Name of the pattern knitted by the equipment</td><td></td></tr>
+  <tr><td>0X0201</td><td>Style Name</td><td>StyleName</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>、</td></tr>
+  <tr><td>0X0202</td><td>Material Composition</td><td>MaterialComposition</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>丨</td><td></td><td></td></tr>
+  <tr><td>0X0203</td><td>Yarn Fineness</td><td>YarnFineness</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>1</td><td>tex</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0204</td><td>Dimensions</td><td>Dimensions</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>一</td><td>cm</td><td>丨</td><td></td></tr>
+  <tr><td>0X0205</td><td>Weft Density</td><td>WeftDensity</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>一</td><td>Wales/cm</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0206</td><td>Warp Density</td><td>WarpDensity</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td>Courses/cm</td><td></td><td></td></tr>
+  <tr><td>0X0207</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

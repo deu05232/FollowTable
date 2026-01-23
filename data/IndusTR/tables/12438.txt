@@ -1,0 +1,8 @@
+<table>
+  <caption>vrMotionData fields used in VR positioning</caption>
+  <tr><th>Data Type</th><th>Field</th><th>Field Type</th><th>Description</th></tr>
+  <tr><td rowspan="4">vrMotionData</td><td>velocity_x</td><td>double</td><td>Velocity on X axis (m/s)</td></tr>
+  <tr><td>velocity_y</td><td>double</td><td>Velocity on Y axis (m/s)</td></tr>
+  <tr><td>velocity_z</td><td>double</td><td>Velocity on Z axis (m/s)</td></tr>
+  <tr><td>accel_magnitude</td><td>double</td><td>Acceleration magnitude (m/s^2)</td></tr>
+</table>

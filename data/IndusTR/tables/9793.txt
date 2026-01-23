@@ -1,0 +1,15 @@
+<table>
+  <caption>Conformance requirements for last-coefficient group parsing (chroma and derived limits)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Test requirements</th><th>Derivation / dependency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>last_cg_pos</td><td>Traverse all combinations of binIdx in [0,7] and IsChroma in {0,1}; additionally, when IsChroma = 1, cover only even binIdx values</td><td>Mixes IsChroma with binIdx and adds conditional filtering</td></tr>
+    <tr><td>last_cg0_flag</td><td>When last_cg_pos > 0, traverse last_cg0_flag equals 0 to 1; otherwise last_cg0_flag must equal 1</td><td>Depends on last_cg_pos</td></tr>
+    <tr><td>last_cg_x</td><td>Traverse last_cg_x equals 0 to maxVal, where maxVal is derived from Table 100 of GB/T 33475.2—2024 and depends on log2TrafoSize</td><td>Reference-driven + derived limit</td></tr>
+    <tr><td>last_cg_y</td><td>When IsChroma = 0, traverse last_cg_y equals 0 to maxValY; when IsChroma = 1, traverse last_cg_y equals 0 to maxValC</td><td>Chroma-dependent max values</td></tr>
+    <tr><td>last_sig_coeff_x_prefix</td><td>Traverse all binary symbol string cases in Table 101 of GB/T 33475.2—2024</td><td>Details moved outside table</td></tr>
+    <tr><td>last_sig_coeff_y_prefix</td><td>When last_sig_coeff_x_prefix > 2, traverse y_prefix equals 0 to 3; else traverse y_prefix equals 0 to 1</td><td>Cross-element branching</td></tr>
+    <tr><td>last_scan_pos_flag</td><td>Traverse combinations of (IsChroma, scan_order_idx, last_scan_pos_flag) for all allowed scan_order_idx values</td><td>Combination coverage, not a simple enumeration-only requirement</td></tr>
+  </tbody>
+</table>

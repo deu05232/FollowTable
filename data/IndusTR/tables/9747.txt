@@ -1,0 +1,7 @@
+<table>
+  <caption>Backend Integration Checklist (Phases and Notes)</caption>
+  <tr><th>Phase</th><th>What to do</th><th>Notes</th></tr>
+  <tr><td>Graph Capture</td><td>Collect the framework graph and identify supported ops</td><td>May involve subgraph partitioning</td></tr>
+  <tr><td>Compilation</td><td>Lower graph IR and generate executable artifacts</td><td>Choose caching strategy</td></tr>
+  <tr><td>Runtime</td><td>Run executables and manage device resources</td><td>Handle synchronization</td></tr>
+</table>

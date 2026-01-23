@@ -1,0 +1,17 @@
+<table>
+  <caption>Measurement Log Template: Sequential Actions and Records for Copier/MFD Power Modes</caption>
+  <thead>
+    <tr><th>Sequence</th><th>Starting mode</th><th>Stimulus / action applied by tester</th><th>Mode expected at end</th><th>Stabilization criterion</th><th>Measurements to record</th><th>Units</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>Off</td><td>Reset meter; begin baseline logging with device untouched for the defined interval.</td><td>Off</td><td>Power variation within a narrow band for ≥60 s (define threshold in report)</td><td>Average power; cumulative energy; interval duration</td><td>W; Wh; min</td></tr>
+    <tr><td>B</td><td>Off</td><td>Switch device on; allow warm-up to complete.</td><td>Ready</td><td>Ready indicator ON or power/current reaches stable plateau</td><td>Warm-up time; warm-up energy; peak power (optional)</td><td>s or min; Wh; W</td></tr>
+    <tr><td>C</td><td>Ready</td><td>Idle with no input; start timer to first low-power entry.</td><td>Sleep level 1 (or stays Ready)</td><td>Mode indicator changes or stable low-power plateau observed</td><td>Delay-to-sleep (T1); steady Sleep1 power (PS1)</td><td>min; W</td></tr>
+    <tr><td>D</td><td>Sleep level 1</td><td>Continue idle to deeper sleep (if present).</td><td>Sleep level 2 (optional)</td><td>Second mode change or new stable plateau</td><td>Additional delay (T2); steady Sleep2 power (PS2)</td><td>min; W</td></tr>
+    <tr><td>E</td><td>Sleep (any level)</td><td>Wake using defined method (e.g., press Start/Wake).</td><td>Ready</td><td>Ready indicator ON and steady Ready power</td><td>Wake time; energy during wake; Ready steady power (PREADY)</td><td>s; Wh; W</td></tr>
+    <tr><td>F</td><td>Ready</td><td>Initiate a short functional event if required by protocol (e.g., print 1 page) then return to idle.</td><td>Ready</td><td>Job complete and power returns to Ready plateau</td><td>Job energy (optional); time to return to Ready</td><td>Wh; s</td></tr>
+    <tr><td>G</td><td>Ready</td><td>Allow automatic power-down (auto-off) to occur, or document that feature is not supported.</td><td>Auto-off / lowest-power</td><td>Stable lowest-power plateau for ≥60 s</td><td>Delay-to-auto-off (TAO); lowest-power steady power (PLOW)</td><td>min; W</td></tr>
+    <tr><td>H</td><td>Auto-off / lowest-power</td><td>Log power for a fixed measurement window without interaction.</td><td>Auto-off / lowest-power</td><td>Continuous stability throughout window</td><td>Window average power; cumulative energy; window duration</td><td>W; Wh; min</td></tr>
+    <tr><td>I</td><td>On (any state)</td><td>Switch to Off (hard off) if available; otherwise keep lowest-power state and annotate limitation.</td><td>Off (or substitute)</td><td>Stable off/substitute plateau</td><td>Off power (POFF) or substitute value; notes on switch availability</td><td>W; text</td></tr>
+  </tbody>
+</table>

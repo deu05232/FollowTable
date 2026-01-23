@@ -1,0 +1,10 @@
+<table>
+  <caption>Operator Extension Interfaces for Framework Adaptation</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Register Kernel</td><td>REGISTER_KERNEL</td><td>Required</td><td>Register accelerator kernels for framework operators</td></tr>
+  <tr><td>Register Layout Converter</td><td>register_layout_converter</td><td>Optional</td><td>Register data layout conversion rules for an operator implementation</td></tr>
+  <tr><td>Register Op Version</td><td>register_op_version</td><td>Optional</td><td>Register operator versioning metadata for compatibility checks</td></tr>
+  <tr><td>Query Kernel Support</td><td>query_kernel_support</td><td>Optional</td><td>Query whether a given operator type has a registered kernel</td></tr>
+  <tr><td>Unregister Kernel</td><td>unregister_kernel</td><td>Optional</td><td>Remove a previously registered kernel implementation</td></tr>
+  <tr><td>List Custom Ops</td><td>list_custom_ops</td><td>Optional</td><td>List registered custom operators for packaging and debugging</td></tr>
+</table>

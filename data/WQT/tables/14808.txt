@@ -1,0 +1,10 @@
+# Outgoing mail security options for Outlook.com SMTP
+
+| SMTP Server | Port | Connection security | Notes |
+| --- | --- | --- | --- |
+| smtp-mail.outlook.com | 587 | STARTTLS (TLS) | Recommended for most clients |
+| smtp-mail.outlook.com | 465 | SSL/TLS | Use if client requires implicit SSL |
+| smtp-mail.outlook.com | 25 | STARTTLS (TLS) | May be blocked by ISPs; use only if needed |
+| smtp-mail.outlook.com | 587 | null | Not recommended |
+| smtp-mail.outlook.com | 465 | null | Not supported on most clients |
+| smtp-mail.outlook.com | 2525 | STARTTLS (TLS) | Alternative port (client dependent) |

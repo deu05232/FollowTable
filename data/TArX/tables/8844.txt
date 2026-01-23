@@ -1,0 +1,16 @@
+<table>
+  <caption>Theoretical traffic-flow relationships, symbols, and qualitative regimes (no empirical outcome columns)</caption>
+  <thead>
+    <tr><th rowspan="2">Concept</th><th rowspan="2">Primary formula / definition</th><th rowspan="2">Symbols used</th><th colspan="2">Qualitative regime description</th><th rowspan="2">Assumptions / caveats</th></tr>
+    <tr><th>Typical shape</th><th>Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fundamental diagram</td><td>q(ρ) = ρ · v(ρ)</td><td>q: flow, ρ: density, v: speed</td><td>Concave unimodal curve</td><td>Capacity at the maximum of q(ρ)</td><td>Stationarity assumed</td></tr>
+    <tr><td>Greenshields speed law</td><td>v(ρ) = v_f (1 - ρ/ρ_j)</td><td>v_f: free speed, ρ_j: jam density</td><td>Linear decrease</td><td>Simple transition from free to jam</td><td>Often unrealistic near capacity</td></tr>
+    <tr><td>Triangular FD (Newell/Daganzo)</td><td>q(ρ)=min(v_f ρ, w(ρ_j-ρ))</td><td>w: congestion wave speed</td><td>Piecewise linear</td><td>Separates free and congested branches</td><td>Requires calibrated parameters</td></tr>
+    <tr><td>Shockwave speed</td><td>s = (q2 - q1)/(ρ2 - ρ1)</td><td>(q1,ρ1),(q2,ρ2): states</td><td>Can be ±</td><td>Backward waves in congestion</td><td>Discontinuity idealization</td></tr>
+    <tr><td>Time-to-collision</td><td>TTC = (x_lead - x)/(v - v_lead)</td><td>x: position, v: speed</td><td>Threshold-based indicator</td><td>Safety surrogate, not a flow outcome</td><td>Undefined if v ≤ v_lead</td></tr>
+    <tr><td>Queue discharge model</td><td>q_out ≈ s_sat · g/C</td><td>s_sat: sat. flow, g: green, C: cycle</td><td>Piecewise periodic</td><td>Signal control conceptualization</td><td>Neglects spillback dynamics</td></tr>
+    <tr><td>Stability criterion (car-following)</td><td>∂a/∂v < 0 and ∂a/∂gap > 0</td><td>a: acceleration law</td><td>Stable/unstable regions</td><td>Explains oscillation growth</td><td>Local linearization only</td></tr>
+  </tbody>
+</table>

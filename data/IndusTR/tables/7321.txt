@@ -1,0 +1,10 @@
+<table>
+  <caption>Device-Specific Constraints and Placement Rules for Basic Math Ops</caption>
+  <tr><th>Operator</th><th>Placement Rule</th><th>Supported Devices</th><th>Min Compute Capability</th><th>Alignment Requirement</th><th>Preferred Data Type</th><th>Error on Mismatch</th></tr>
+  <tr><td>Add</td><td>Same-device only</td><td>CPU,GPU</td><td>GPU: 7.0</td><td>16-byte</td><td>FP16 on GPU</td><td>Yes</td></tr>
+  <tr><td>Sub</td><td>Same-device only</td><td>CPU,GPU</td><td>GPU: 6.1</td><td>16-byte</td><td>FP32 on CPU</td><td>Yes</td></tr>
+  <tr><td>Mul</td><td>Auto-place to accelerator</td><td>GPU,NPU</td><td>GPU: 8.0</td><td>32-byte</td><td>INT8 on NPU</td><td>Yes</td></tr>
+  <tr><td>Div</td><td>Prefer CPU for small shapes</td><td>CPU,GPU</td><td>GPU: 7.5</td><td>16-byte</td><td>FP32</td><td>No (warn)</td></tr>
+  <tr><td>Pow</td><td>CPU-only unless compiled</td><td>CPU</td><td>N/A</td><td>8-byte</td><td>FP64</td><td>Yes</td></tr>
+  <tr><td>Mod</td><td>CPU-only</td><td>CPU</td><td>N/A</td><td>8-byte</td><td>INT32</td><td>Yes</td></tr>
+</table>

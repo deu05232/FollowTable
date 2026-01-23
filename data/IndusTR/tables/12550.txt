@@ -1,0 +1,14 @@
+<table>
+  <caption>Logistics M2M Platform Onboarding/Offboarding Test Script — Detailed Execution</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Function Being Tested</th><th>Environment Setup</th><th>Execution Steps</th><th>CLI/API Commands</th><th>Verification Intent</th><th>Pass Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>S1</td><td>Terminal Registration</td><td>Provision SIM profile; set APN = m2m.logistics; enable MQTT broker in staging</td><td>1) Power on device 2) Connect to Wi-Fi 3) Open onboarding page 4) Enter serial and ICCID 5) Click Register</td><td>POST /api/v1/terminals/register</td><td>Ensure a new terminal can be onboarded and appears in inventory</td><td>Device shows status = Active and has assigned tenant</td></tr>
+    <tr><td>S2</td><td>Terminal Login</td><td>Create test user "ops1"; role = Operator; reset password policy</td><td>1) Navigate to login screen 2) Enter ops1 credentials 3) Click Sign in 4) Accept terms</td><td>POST /api/v1/auth/login</td><td>Ensure terminal session is created and token is issued</td><td>Access token returned; session visible in console</td></tr>
+    <tr><td>S3</td><td>Terminal Logout</td><td>Ensure terminal has active session; clear local cache disabled</td><td>1) Open menu 2) Click Logout 3) Confirm logout dialog 4) Reopen app</td><td>POST /api/v1/auth/logout</td><td>Ensure terminal session is terminated and cannot call APIs</td><td>Further API calls return 401; console shows session ended</td></tr>
+    <tr><td>S4</td><td>Terminal Deregistration</td><td>Device is active; enable deregistration permission for ops1</td><td>1) Open device details 2) Click Deregister 3) Type reason 4) Confirm 5) Refresh device list</td><td>DELETE /api/v1/terminals/{id}</td><td>Ensure device is removed from tenant scope and cannot reconnect</td><td>Device disappears from list; reconnect attempt rejected</td></tr>
+    <tr><td>S5</td><td>Platform Information Maintenance</td><td>Seed business profile fields; enable editing in admin console</td><td>1) Go to Settings 2) Open Business Info 3) Edit address 4) Upload logo 5) Click Save</td><td>PUT /api/v1/platform/profile</td><td>Ensure business information can be updated and persisted</td><td>Reload shows updated values; audit trail records change</td></tr>
+    <tr><td>S6</td><td>Access Fault Handling</td><td>Inject auth failure via test flag; set network latency 800ms</td><td>1) Trigger login 2) Simulate token expiry 3) Retry request 4) Observe prompt 5) Capture logs</td><td>PATCH /api/v1/test/inject?fault=auth_expired</td><td>Ensure the platform handles access faults with clear errors</td><td>User gets actionable message; retries follow policy</td></tr>
+  </tbody>
+</table>

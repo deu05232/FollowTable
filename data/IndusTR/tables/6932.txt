@@ -1,0 +1,15 @@
+<table>
+  <caption>Raw Material Categories vs Activation Sources in Additive Manufacturing (Powder-Based Focus)</caption>
+  <thead>
+    <tr><th rowspan="2">Raw material category</th><th colspan="5">Activation source</th></tr>
+    <tr><th>Laser</th><th>Electron beam</th><th>Plasma beam</th><th>Arc / wire arc</th><th>Other (binder / thermal / jetting)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metals (powder)</td><td>Laser Powder Bed Fusion (LPBF); Laser Directed Energy Deposition (L-DED, powder)</td><td>Electron Beam Powder Bed Fusion (EB-PBF); Electron Beam DED (EB-DED, powder)</td><td>Plasma Powder Deposition (plasma DED)</td><td>—</td><td>Binder Jetting (metal); Cold Spray AM (solid-state); Bound Metal Extrusion (MEX + debind/sinter)</td></tr>
+    <tr><td>Polymers (powder)</td><td>Selective Laser Sintering (SLS)</td><td>—</td><td>—</td><td>—</td><td>Multi Jet Fusion (MJF, IR heating + fusing agent); High-Speed Sintering (HSS, IR); Binder Jetting (polymer)</td></tr>
+    <tr><td>Ceramics (powder)</td><td>Laser Sintering / Laser Melting of ceramics (experimental); Laser DED (ceramic powder, niche)</td><td>—</td><td>Plasma Spraying / Plasma Deposition AM (ceramic)</td><td>—</td><td>Binder Jetting (ceramic); Material Extrusion of ceramic-filled feedstock (debind/sinter)</td></tr>
+    <tr><td>Sand / mineral aggregates (powder)</td><td>—</td><td>—</td><td>—</td><td>—</td><td>Binder Jetting (sand molds/cores)</td></tr>
+    <tr><td>Metal–ceramic composites (powder blends)</td><td>LPBF of MMC blends (application-dependent)</td><td>EB-PBF of MMC blends (limited)</td><td>Plasma powder deposition of composites</td><td>—</td><td>Binder Jetting (composite green parts); Bound Powder Extrusion (composite)</td></tr>
+    <tr><td>Functionally graded powders (multi-material)</td><td>Laser DED (graded composition)</td><td>Electron Beam DED (graded composition)</td><td>Plasma DED (graded composition)</td><td>—</td><td>—</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,26 @@
+<table>
+  <caption>SOF XML Signature Service Interfaces — Signature Field Extraction from Signed XML</caption>
+  <thead>
+    <tr><th>Prototype</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BSTR SOF_GetXMLSignatureField(BSTR SignedXML, LONG FieldType, LONG Index)</td><td>Extract a specific signature-related field from a signed XML document (e.g., digest value, signature value, canonicalization algorithm, reference URI).</td></tr>
+    <tr><td rowspan="10">Parameters</td><td>SignedXML(Signed XML containing one or more <Signature> nodes)</td></tr>
+    <tr><td>FieldType(Field selector)</td></tr>
+    <tr><td>1: OriginalXML (unsigned payload if embedded)</td></tr>
+    <tr><td>2: ReferenceURI (the URI attribute of a Reference)</td></tr>
+    <tr><td>3: DigestValue (Base64 digest of referenced data)</td></tr>
+    <tr><td>4: DigestMethod (e.g., SHA256/SM3 OID or URI)</td></tr>
+    <tr><td>5: SignatureValue (Base64 signature value)</td></tr>
+    <tr><td>6: SignatureMethod (e.g., RSA/SM2 algorithm identifier)</td></tr>
+    <tr><td>7: CanonicalizationMethod (C14N algorithm identifier)</td></tr>
+    <tr><td>Index(0-based signature index when multiple signatures exist)</td></tr>
+    <tr><td rowspan="3">Return Value</td><td>Requested field string (success)</td></tr>
+    <tr><td>Empty string (field not found)</td></tr>
+    <tr><td>NULL / error text (parsing failure)</td></tr>
+    <tr><td rowspan="4">Notes</td></tr>
+    <tr><td>This API focuses on parsing/inspection of signed XML rather than certificate inventory or certificate extension retrieval.</td></tr>
+    <tr><td>Useful for building audit logs, debugging canonicalization/digest mismatches, and extracting SignatureValue for detached verification.</td></tr>
+    <tr><td>For full cryptographic validation, pair with an XML signature verification API.</td></tr>
+  </tbody>
+</table>

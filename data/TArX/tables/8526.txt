@@ -1,0 +1,16 @@
+<table>
+  <caption>Foreground Lensing Galaxies and Their Impact on Distant Cluster Imaging (including magnification bias and shear fields)</caption>
+  <thead>
+    <tr><th rowspan="2">Foreground lens galaxy</th><th colspan="2">Geometry</th><th colspan="2">Imaging impact on background clusters</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Lens redshift z_l</th><th>Typical source redshift z_s range</th><th>Mean magnification μ</th><th>External shear γ_ext</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NGC 4993 (field elliptical)</td><td>0.0098</td><td>0.8–2.0</td><td>1.05</td><td>0.02</td><td>Low-z deflector; small but non-zero shear on wide-field imaging</td></tr>
+    <tr><td>SDSS J0957+561 G1</td><td>0.355</td><td>1.0–2.5</td><td>1.30</td><td>0.08</td><td>Classic lens environment; can distort cluster member morphology in projection</td></tr>
+    <tr><td>SLACS J0956+5100</td><td>0.240</td><td>0.6–1.5</td><td>1.18</td><td>0.05</td><td>Strong-lens galaxy; used as calibration for weak-lensing pipelines</td></tr>
+    <tr><td>HSC J1152+0047</td><td>0.460</td><td>1.2–3.0</td><td>1.42</td><td>0.11</td><td>High shear; may contaminate cluster mass reconstruction if not masked</td></tr>
+    <tr><td>CFHTLS J1419+5326</td><td>0.620</td><td>1.5–3.5</td><td>1.55</td><td>0.14</td><td>Foreground lens increases observed surface density of high-z galaxies (magnification bias)</td></tr>
+    <tr><td>DES J0408−5354 G</td><td>0.597</td><td>1.5–2.8</td><td>1.33</td><td>0.09</td><td>Multi-plane effects can mimic cluster substructure in imaging</td></tr>
+    <tr><td>Abell 1689 BCG (as a lens galaxy)</td><td>0.183</td><td>2.0–6.0</td><td>2.10</td><td>0.18</td><td>Strong magnification near core; boosts detectability of distant cluster galaxies</td></tr>
+  </tbody>
+</table>

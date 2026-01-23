@@ -1,0 +1,17 @@
+<table>
+  <caption>Video and Image Analysis Type Code Table</caption>
+  <tr><td>Code</td><td>Name</td><td>Description</td></tr>
+  <tr><td>01</td><td>Moving Target Detection</td><td>Detection and extraction of moving targets in video and images</td></tr>
+  <tr><td>02</td><td>Target Classification</td><td>Target category recognition in video and images</td></tr>
+  <tr><td>03</td><td>Target Color Detection</td><td>Target color recognition in video and images</td></tr>
+  <tr><td>04</td><td>Person Detection</td><td>Detection and extraction of persons in video and images</td></tr>
+  <tr><td>10</td><td>Motor Vehicle Detection</td><td>Detection and extraction of motor vehicles in video and images</td></tr>
+  <tr><td>11</td><td>Motor Vehicle Comparison</td><td>Similarity comparison and analysis between motor vehicle images and motor vehicle images to be compared</td></tr>
+  <tr><td>12</td><td>Traffic Flow Statistics</td><td>Use video and images to analyze the number of vehicles passing the collection location</td></tr>
+  <tr><td>13</td><td>Pedestrian Flow Statistics</td><td>Use video and images to analyze the number of pedestrians passing the collection location</td></tr>
+  <tr><td>14</td><td>Density Detection</td><td>Use video and images to analyze the number of targets such as vehicles and persons in the collection area, the image area occupancy rate, etc.</td></tr>
+  <tr><td>15</td><td>Motor Vehicle License Plate Recognition</td><td>Recognize attributes such as the license plate number and color of motor vehicles in video and images</td></tr>
+  <tr><td>16</td><td>Motor Vehicle Basic Attribute Recognition</td><td>Recognize attributes such as the make, brand, and color of motor vehicles in video and images</td></tr>
+  <tr><td>17</td><td>Motor Vehicle Individual Attribute Recognition</td><td>Recognize personalized appearance feature attributes of motor vehicles in video and images</td></tr>
+  <tr><td>18</td><td>Abandoned Object Detection</td><td>Use video and images to detect and extract abandoned objects in the collection area</td></tr>
+</table>

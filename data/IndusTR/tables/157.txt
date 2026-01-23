@@ -1,0 +1,10 @@
+<table>
+  <caption>Augmented Reality Camera Tracking Failure Reason Enumeration</caption>
+  <tr><td>Camera tracking failure reason description</td><td>Reference name and value</td></tr>
+  <tr><td>Camera tracking is normal</td><td>AR_TRACKING_FAILURE_REASON_NONE = 0</td></tr>
+  <tr><td>Camera tracking is lost due to poor internal state</td><td>AR_TRACKING_FAILURE_REASON_BAD_STATE = 1</td></tr>
+  <tr><td>Camera tracking is lost due to insufficient light</td><td>AR_TRACKING_FAILURE_REASON_INSUFFICIENT_LIGHT = 2</td></tr>
+  <tr><td>Camera tracking is lost due to excessive motion</td><td>AR_TRACKING_FAILURE_REASON_EXCESSIVE_MOTION = 3</td></tr>
+  <tr><td>Camera tracking is lost due to insufficient visual features</td><td>AR_TRACKING_FAILURE_REASON_INSUFFICIENT_FEATURES = 4</td></tr>
+  <tr><td>Camera tracking is paused due to camera being unavailable</td><td>AR_TRACKING_FAILURE_REASON_CAMERA_UNAVAILABLE = 5</td></tr>
+</table>

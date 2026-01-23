@@ -1,0 +1,10 @@
+<table>
+  <caption>Energy Consumption Benchmarks for 'Frequency Source' Equipment in Telecom Base Stations (Cross-Domain)</caption>
+  <tr><th>Site Type</th><th>Frequency Source Equipment</th><th>Operating Mode</th><th>Average Power (W)</th><th>Peak Power (W)</th><th>Measurement Window</th><th>Notes</th></tr>
+  <tr><td>Urban macro</td><td>Timing/Frequency Source Rack</td><td>Normal</td><td>320</td><td>480</td><td>24 h</td><td>Includes cooling fans</td></tr>
+  <tr><td>Urban macro</td><td>Timing/Frequency Source Rack</td><td>Backup</td><td>190</td><td>260</td><td>24 h</td><td>GPS holdover enabled</td></tr>
+  <tr><td>Rural macro</td><td>Timing/Frequency Source Shelf</td><td>Normal</td><td>210</td><td>300</td><td>24 h</td><td>Low traffic</td></tr>
+  <tr><td>Indoor small cell</td><td>Sync/Frequency Source Module</td><td>Normal</td><td>85</td><td>120</td><td>8 h</td><td>AC adapter losses included</td></tr>
+  <tr><td>Edge data center</td><td>Grandmaster Clock</td><td>Normal</td><td>540</td><td>720</td><td>24 h</td><td>Redundant PSU</td></tr>
+  <tr><td>Edge data center</td><td>Grandmaster Clock</td><td>Eco</td><td>410</td><td>560</td><td>24 h</td><td>Reduced fan curve</td></tr>
+</table>

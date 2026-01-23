@@ -1,0 +1,8 @@
+<table>
+  <tr><th>Abbrev.</th><th>Description</th><th>Complexity</th><th>/Refs.</th></tr>
+  <tr><th>SOPHIA</th><td>SOPHIA software with full kinematics</td><td>Monte Carlo method, ~~3000× T_(-C)</td><td></td></tr>
+  <tr><th>BW</th><td>Resonances with full Breit-Wigner description; direct production with full response function; simple kinematics</td><td>Double integration, 45 IT, ~~120× T_(-C)</td><td>LABEL:sec:photo incl. multi-pion from LABEL:sec:mp2</td></tr>
+  <tr><th>Sim-A</th><td>Simplified model with factorized response function and resonance treatment A ( δ -function approximation)</td><td>Single integration, 49 IT, ~~(3-4)× T_(-C)</td><td>LABEL:sec:simplemodels with LABEL:sec:sima and LABEL:sec:mp2</td></tr>
+  <tr><th>Sim-B</th><td>Simplified model with factorized response function and resonance treatment B (step function approximation)</td><td>Single integration, 23 IT, ~~(2-3)× T_(-C)</td><td>LABEL:sec:simplemodels with LABEL:sec:simb and LABEL:sec:mp2</td></tr>
+  <tr><th>Sim-C</th><td>Simplified model with factorized response function and resonance treatment B; simplified multi-pion production</td><td>Single integration, 10 IT, T_(-C)</td><td>LABEL:sec:simplemodels with LABEL:sec:simb and LABEL:sec:mp1</td></tr>
+</table>

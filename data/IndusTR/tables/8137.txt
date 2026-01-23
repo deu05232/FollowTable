@@ -1,0 +1,10 @@
+<table>
+  <caption>Configuration and stored identification data requirements for smart instruments (includes a small fault-code section)</caption>
+  <tr><th>Instrument Category</th><th>Primary Requirement Focus</th><th>Details</th></tr>
+  <tr><td>Measuring instruments</td><td>Configurable parameters</td><td>Range limits, display units, filtering, damping coefficient, alarm thresholds</td></tr>
+  <tr><td>Measuring instruments</td><td>Stored device info</td><td>Serial number, firmware version, configuration snapshot history</td></tr>
+  <tr><td>Analytical instruments</td><td>Calibration parameters</td><td>Calibration mode, calibration record fields, access permissions</td></tr>
+  <tr><td>Actuators</td><td>Control parameters</td><td>Remote/local control, travel limits, torque settings, output parameters</td></tr>
+  <tr><td>All categories</td><td>Fault code (brief)</td><td>Provide a minimal set of fault codes as part of general requirements</td></tr>
+  <tr><td>All categories</td><td>Reason this table exists</td><td>Emphasizes configuration and identification data rather than diagnostics</td></tr>
+</table>

@@ -1,0 +1,7 @@
+# DLNA streaming features table (protocol-centric, not format-centric)
+
+| Player/App | Discovery method support | Streaming transport methods | Playlist/metadata handling focus | Notes |
+| --- | --- | --- | --- | --- |
+| App X | SSDP/UPnP discovery | HTTP, RTSP | Emphasizes library browsing | Mentions DLNA compliance but not playable codecs |
+| App Y | UPnP discovery | HTTP, HLS | Emphasizes subscription feeds | Lists network protocols, no media formats |
+| Device Z | SSDP discovery | HTTP, MMS | Emphasizes connection modes | Focus is transport compatibility |

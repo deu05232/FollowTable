@@ -1,0 +1,11 @@
+<table>
+  <caption>vrPose and vrMotionData combined (pose + motion mixed)</caption>
+  <tr><th>Data Structure</th><th>Field</th><th>Type</th><th>Description</th></tr>
+  <tr><td rowspan="3">vrPose</td><td>time_stamp</td><td>int64_t</td><td>Pose timestamp</td></tr>
+  <tr><td>orientation</td><td>vrQuaternion</td><td>Orientation quaternion</td></tr>
+  <tr><td>position</td><td>vr3DPoint</td><td>Position point</td></tr>
+  <tr><td rowspan="4">vrMotionData</td><td>velocity_x</td><td>double</td><td>X-axis velocity (m/s)</td></tr>
+  <tr><td>velocity_y</td><td>double</td><td>Y-axis velocity (m/s)</td></tr>
+  <tr><td>velocity_z</td><td>double</td><td>Z-axis velocity (m/s)</td></tr>
+  <tr><td>angular_velocity_z</td><td>double</td><td>Z-axis angular velocity (rad/s)</td></tr>
+</table>

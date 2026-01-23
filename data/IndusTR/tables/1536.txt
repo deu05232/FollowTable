@@ -1,0 +1,9 @@
+<table>
+  <caption>Service Security Mechanism Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Security Type</td><td>safetyType</td><td>C..256</td><td>M</td><td>N</td><td></td><td>Describes the security type adopted by the service</td></tr>
+  <tr><td>User Authentication Mechanism Description</td><td>userAuthenticationDescription</td><td>C..ul</td><td>0</td><td>N</td><td></td><td>Describes the user identity authentication mechanism</td></tr>
+  <tr><td>User Access Control Mechanism Description</td><td>userAccessControlDescription</td><td>C..ul</td><td>0</td><td>N</td><td></td><td>Describes the user's access control mechanism</td></tr>
+  <tr><td>Confidentiality Handling Mechanism Description</td><td>confidentialityDescription</td><td>C..ul</td><td>0</td><td>N</td><td></td><td>Describes the service's confidentiality handling mechanism</td></tr>
+  <tr><td>Integrity Handling Mechanism Description</td><td>integrityDescription</td><td>C..ul</td><td>0</td><td>N</td><td></td><td>Describes the service's integrity handling mechanism</td></tr>
+</table>

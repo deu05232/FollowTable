@@ -1,0 +1,15 @@
+<table>
+  <caption>Observation log for Chandrasekhar-mass Type Ia supernova model comparison runs</caption>
+  <thead>
+    <tr><th rowspan="2">Campaign</th><th rowspan="2">Target / Model Tag</th><th colspan="5">Instrument & Setup</th><th colspan="2">Scheduling</th></tr>
+    <tr><th>Telescope</th><th>Instrument</th><th>Mode</th><th>Filter/Grating</th><th>Exposure (s)</th><th>Epoch (days)</th><th>Seeing (FWHM arcsec)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Run A</td><td>Ch-mass DDT-1</td><td>VLT</td><td>FORS2</td><td>Imaging</td><td>B</td><td>300</td><td>-5</td><td>0.9</td></tr>
+    <tr><td>Ch-mass DDT-2</td><td>VLT</td><td>FORS2</td><td>Imaging</td><td>V</td><td>300</td><td>-3</td><td>1.1</td></tr>
+    <tr><td rowspan="2">Run B</td><td>Ch-mass Defl-1</td><td>Gemini-N</td><td>GMOS</td><td>Spectroscopy</td><td>R400</td><td>1800</td><td>+2</td><td>0.7</td></tr>
+    <tr><td>Ch-mass Defl-2</td><td>Gemini-N</td><td>GMOS</td><td>Spectroscopy</td><td>B600</td><td>1200</td><td>+5</td><td>0.8</td></tr>
+    <tr><td rowspan="2">Run C</td><td>Ch-mass Det-1</td><td>Keck I</td><td>LRIS</td><td>Spectroscopy</td><td>600/4000</td><td>900</td><td>+10</td><td>0.6</td></tr>
+    <tr><td>Ch-mass Det-2</td><td>Keck I</td><td>LRIS</td><td>Imaging</td><td>g</td><td>240</td><td>+12</td><td>0.9</td></tr>
+  </tbody>
+</table>

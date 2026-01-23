@@ -1,0 +1,16 @@
+<table>
+  <caption>Fuel-Specific Parameter Set for CO2 Calculation (As-Received Properties and Derived Energy/Carbon Parameters)</caption>
+  <thead>
+    <tr><th>Fuel Type</th><th>Basis</th><th>Moisture (wt%)</th><th>Ash (wt%)</th><th>Net Calorific Value (GJ/t)</th><th>Carbon Content per Unit Energy (tC/TJ)</th><th>Oxidation Rate (%)</th><th>Carbon-to-CO2 Conversion Factor (tCO2/tC)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hard coal (imported blend)</td><td>As received</td><td>8</td><td>10</td><td>23.5</td><td>25.6</td><td>93</td><td>3.667</td></tr>
+    <tr><td>Hard coal (domestic)</td><td>As received</td><td>12</td><td>15</td><td>20.8</td><td>26.0</td><td>92</td><td>3.667</td></tr>
+    <tr><td>Lignite</td><td>As received</td><td>35</td><td>12</td><td>10.2</td><td>27.4</td><td>96</td><td>3.667</td></tr>
+    <tr><td>Fuel oil (No. 6)</td><td>As fired</td><td>0.5</td><td>0.1</td><td>40.0</td><td>21.1</td><td>99</td><td>3.667</td></tr>
+    <tr><td>Diesel oil</td><td>As fired</td><td>0.1</td><td>0.01</td><td>43.1</td><td>20.2</td><td>99</td><td>3.667</td></tr>
+    <tr><td>LPG</td><td>As fired</td><td>0</td><td>0</td><td>46.5</td><td>17.3</td><td>99</td><td>3.667</td></tr>
+    <tr><td>Natural gas</td><td>Dry gas</td><td>N/A</td><td>N/A</td><td>50.0</td><td>15.3</td><td>99.5</td><td>3.667</td></tr>
+    <tr><td>Landfill gas (50% CH4 / 50% CO2)</td><td>Dry gas</td><td>N/A</td><td>N/A</td><td>18.0</td><td>14.9</td><td>98</td><td>3.667</td></tr>
+  </tbody>
+</table>

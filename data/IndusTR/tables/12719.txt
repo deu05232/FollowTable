@@ -1,0 +1,11 @@
+<table>
+  <caption>SM9 service interfaces organized by parameter name (not by function)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Where it appears</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>hAppHandle</td><td>SAF_SM9Encrypt / SAF_SM9Decrypt / SAF_SM9Sign / SAF_SM9Verify / SAF_ImportSM9MasterPublicKey</td><td>Application interface handle</td></tr>
+    <tr><td>uiMasterPublicKeyIndex</td><td>SAF_SM9Encrypt / SAF_SM9Verify / SAF_SM9GenerateAgreementDataAndKey</td><td>Index of the SM9 master public key</td></tr>
+    <tr><td>pucUserID</td><td>SAF_SM9Encrypt / SAF_SM9Verify / SAF_SM9KeyDecapsulate</td><td>User identity data</td></tr>
+  </tbody>
+</table>

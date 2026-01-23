@@ -1,0 +1,20 @@
+<table>
+  <caption>GNSS SSR Phase Bias Payload Fields (Common + Per-Signal Block)</caption>
+  <thead>
+    <tr><th>Level</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Notes / Encoding</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td><td>Identifies SSR message type</td></tr>
+    <tr><td>Header</td><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Encoded update interval index</td></tr>
+    <tr><td>Header</td><td>Multiple Message Indicator</td><td>DF388</td><td>bit(1)</td><td>1</td><td>0=last, 1=more messages follow</td></tr>
+    <tr><td>Header</td><td>SSR Provider ID</td><td>DF414</td><td>uint16</td><td>16</td><td>Provider identifier</td></tr>
+    <tr><td>Header</td><td>SSR Solution ID</td><td>DF415</td><td>uint4</td><td>4</td><td>Solution identifier</td></tr>
+    <tr><td>Satellite Block</td><td>Satellite ID</td><td>DF068</td><td>uint6</td><td>6</td><td>GNSS-dependent satellite number mapping</td></tr>
+    <tr><td>Satellite Block</td><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td><td>Npb; count of per-signal phase-bias entries</td></tr>
+    <tr><td>Satellite Block</td><td>Yaw Angle</td><td>DF480</td><td>uint9</td><td>9</td><td>Scaled yaw; interpretation per spec</td></tr>
+    <tr><td>Per-Signal (repeats Npb)</td><td>Signal and Tracking Mode</td><td>DF380</td><td>uint5</td><td>5</td><td>Signal identifier + tracking mode coding</td></tr>
+    <tr><td>Per-Signal (repeats Npb)</td><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>Integer property flag for phase bias</td></tr>
+    <tr><td>Per-Signal (repeats Npb)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>Wide-lane integer indicator bits</td></tr>
+    <tr><td>Per-Signal (repeats Npb)</td><td>Signal Phase Bias</td><td>DF485</td><td>int20</td><td>20</td><td>Signed fixed-point phase bias (scaling per spec)</td></tr>
+  </tbody>
+</table>

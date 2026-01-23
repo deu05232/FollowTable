@@ -1,0 +1,14 @@
+<table>
+  <caption>Beidou Monitoring Terminal EMC Compliance Test Conditions (Conducted & Radiated)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Port / Interface</th><th>Frequency range</th><th>Limit / Level</th><th>Detector / Bandwidth</th><th>Operating mode</th><th>Test duration</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Conducted emissions</td><td>DC power port</td><td>150 kHz–30 MHz</td><td>QP/AV per CISPR 25 Class 3</td><td>9 kHz</td><td>Tracking + data upload</td><td>5 min scan</td></tr>
+    <tr><td>Radiated emissions</td><td>Enclosure</td><td>30 MHz–1 GHz</td><td>Per GB/T automotive component limit</td><td>120 kHz</td><td>GNSS receiving</td><td>10 min scan</td></tr>
+    <tr><td>Radiated immunity</td><td>Enclosure</td><td>80–1000 MHz</td><td>10 V/m, 1 kHz AM 80%</td><td>N/A</td><td>Navigation + logging</td><td>3 min per step</td></tr>
+    <tr><td>EFT/Burst immunity</td><td>DC power port</td><td>5/50 ns</td><td>±2 kV, 5 kHz</td><td>N/A</td><td>Idle + acquisition</td><td>1 min per polarity</td></tr>
+    <tr><td>ESD immunity</td><td>User I/O & enclosure</td><td>Contact/Air</td><td>±6 kV contact, ±8 kV air</td><td>N/A</td><td>Normal operation</td><td>10 discharges/point</td></tr>
+    <tr><td>Surge immunity</td><td>DC power port</td><td>1.2/50 μs</td><td>±1 kV line-to-ground</td><td>N/A</td><td>Powered, load connected</td><td>5 pulses/polarity</td></tr>
+  </tbody>
+</table>

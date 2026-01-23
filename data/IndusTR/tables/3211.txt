@@ -1,0 +1,10 @@
+<table>
+  <caption>SpaceFibre PHY Compliance Test — Laboratory Setup and Environmental Conditions (Not Results)</caption>
+  <tr><th>Test Item</th><th>Instrument</th><th>Configuration</th><th>Ambient Temp</th><th>Supply Condition</th><th>Cable/Fixture</th><th>Remark</th></tr>
+  <tr><td>Eye diagram capture</td><td>Sampling oscilloscope</td><td>20 GHz, 50 Ω termination</td><td>23 ± 2 °C</td><td>3.3 V nominal</td><td>12-inch coax + SMA fixture</td><td>Use PRBS pattern generator</td></tr>
+  <tr><td>BER measurement</td><td>BERT</td><td>PRBS31, error counter enabled</td><td>23 ± 2 °C</td><td>3.3 V nominal</td><td>Loopback board rev C</td><td>Log 10 min per point</td></tr>
+  <tr><td>Jitter decomposition</td><td>Phase noise analyzer</td><td>PLL BW = 1 MHz</td><td>23 ± 2 °C</td><td>3.3 V nominal</td><td>Low-noise clock input</td><td>RJ/DJ separation</td></tr>
+  <tr><td>Optical power check</td><td>Optical power meter</td><td>850 nm head, auto-range</td><td>23 ± 2 °C</td><td>Module bias per vendor</td><td>LC adapter</td><td>Calibrate before run</td></tr>
+  <tr><td>ESD pre-check</td><td>ESD simulator</td><td>HBM gun, 150 pF/330 Ω</td><td>23 ± 2 °C</td><td>Device unpowered</td><td>Grounded mat</td><td>Safety interlock</td></tr>
+  <tr><td>Thermal sweep</td><td>Temperature chamber</td><td>-20 to +70 °C profile</td><td>—</td><td>3.3 V nominal</td><td>Feedthrough panel</td><td>Stabilize 20 min/step</td></tr>
+</table>

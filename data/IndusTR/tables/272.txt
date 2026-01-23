@@ -1,0 +1,6 @@
+<table>
+  <caption>Charger Electronic Lock Status Message Data Field Structure</caption>
+  <tr><td>Sequence No.</td><td>Parameter Content</td><td>Length</td><td>Data Type</td><td>Parameter Type</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x07</td></tr>
+  <tr><td>2</td><td>Electronic Lock Status</td><td>1 byte</td><td>BYTE</td><td>LatchingStatus Type</td><td>Charger electronic lock status information: 0x00: unlocked; OxAA: locked; OxFF: unreliable (sent during initialization or when the electronic lock action cannot confirm the status)</td></tr>
+</table>

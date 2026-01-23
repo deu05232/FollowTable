@@ -1,0 +1,9 @@
+<table>
+  <caption>AR Session creation parameters (extended)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>env</td><td>void *</td><td>Handle/pointer to the runtime environment used by the AR SDK</td></tr>
+  <tr><td>context</td><td>void *</td><td>Application or platform context passed into the session creation routine</td></tr>
+  <tr><td>features</td><td>ArSessionFeature *</td><td>List of requested session features to enable at creation time</td></tr>
+  <tr><td>feature_count</td><td>int32_t</td><td>Number of elements in the features list</td></tr>
+  <tr><td>out_session_pointer</td><td>ArSession **</td><td>Output parameter that receives the address of the newly allocated session</td></tr>
+</table>

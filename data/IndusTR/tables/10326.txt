@@ -1,0 +1,15 @@
+<table>
+  <caption>Augmented Image Tracking: State and Tracking Method Variants</caption>
+  <thead>
+    <tr><th>Section</th><th>Constant</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">ImageTrackingState</td><td>AR_IMAGE_TRACKING_STATE_TRACKING</td><td>0</td><td>Image is currently tracked</td></tr>
+    <tr><td>AR_IMAGE_TRACKING_STATE_LIMITED</td><td>1</td><td>Tracking quality is limited</td></tr>
+    <tr><td>AR_IMAGE_TRACKING_STATE_STOPPED</td><td>2</td><td>Tracking has stopped</td></tr>
+    <tr><td rowspan="4">ImageTrackingMethod</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_NOT_TRACKING</td><td>0</td><td>No tracking for the image</td></tr>
+    <tr><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_FULL_TRACKING</td><td>1</td><td>Tracked using camera image</td></tr>
+    <tr><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_LAST_KNOWN_POSE</td><td>2</td><td>Using last known pose</td></tr>
+    <tr><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_SUBSAMPLED</td><td>3</td><td>Tracked with reduced updates</td></tr>
+  </tbody>
+</table>

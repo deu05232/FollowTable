@@ -1,0 +1,10 @@
+<table>
+  <caption>Output voltage amplitude accuracy table (includes harmonic and fundamental conditions together)</caption>
+  <tr><th>Output condition</th><th>Voltage range</th><th>Amplitude setting resolution</th><th>Maximum permissible amplitude error</th></tr>
+  <tr><td>Fundamental component only</td><td>30 V–300 V</td><td>0.1 V</td><td>±0.1%</td></tr>
+  <tr><td>With harmonics (2nd–50th enabled)</td><td>30 V–300 V</td><td>0.1 V</td><td>±0.15%</td></tr>
+  <tr><td>With harmonics (high distortion)</td><td>30 V–300 V</td><td>0.1 V</td><td>±0.2%</td></tr>
+  <tr><td>Rated supply variation test</td><td>0.9Upn–1.1Upn</td><td>N/A</td><td>N/A</td></tr>
+  <tr><td>Frequency deviation test</td><td>49 Hz–51 Hz</td><td>0.01 Hz</td><td>±0.02%</td></tr>
+  <tr><td>General note</td><td colspan="3">Applies to the device in normal output mode</td></tr>
+</table>

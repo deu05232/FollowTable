@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Recognition Categories for Detected Targets</caption>
+  <thead>
+    <tr><th>Detection Domain</th><th>Constant</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">ARObjectRecognitionCategory</td><td>AR_OBJECT_CATEGORY_UNKNOWN</td><td>-1</td><td>Uncategorized or unknown object type</td></tr>
+    <tr><td>AR_OBJECT_CATEGORY_FACE</td><td>0</td><td>Recognized as a face target</td></tr>
+    <tr><td>AR_OBJECT_CATEGORY_BODY</td><td>1</td><td>Recognized as a full/upper body target</td></tr>
+    <tr><td rowspan="4">ARImageRecognitionCategory</td><td>AR_IMAGE_CATEGORY_NONE</td><td>0</td><td>No recognized image target</td></tr>
+    <tr><td>AR_IMAGE_CATEGORY_QR</td><td>1</td><td>QR code target</td></tr>
+    <tr><td>AR_IMAGE_CATEGORY_POSTER</td><td>2</td><td>Poster/planar image target</td></tr>
+    <tr><td>AR_IMAGE_CATEGORY_PRODUCT_LABEL</td><td>3</td><td>Packaged product label target</td></tr>
+    <tr><td rowspan="3">ARSceneUnderstandingLabel</td><td>AR_SCENE_LABEL_FLOOR</td><td>10</td><td>Semantic label: floor</td></tr>
+    <tr><td>AR_SCENE_LABEL_WALL</td><td>11</td><td>Semantic label: wall</td></tr>
+    <tr><td>AR_SCENE_LABEL_TABLE</td><td>12</td><td>Semantic label: table</td></tr>
+  </tbody>
+</table>

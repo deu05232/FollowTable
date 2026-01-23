@@ -1,0 +1,7 @@
+<table>
+  <caption>Augmented Image Height Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>augmented_image</td><td>ArAugmentedImage *</td><td>Augmented image pointer</td></tr>
+  <tr><td>out_extent_z</td><td>float *</td><td>Pointer to the height value in meters</td></tr>
+</table>

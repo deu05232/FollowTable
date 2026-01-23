@@ -1,0 +1,6 @@
+<table>
+  <caption>Description of Parameters for Creating Camera Intrinsics</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_camera_intrinsics</td><td>ArCameraIntrinsics **</td><td>Pointer to an ArCameraIntrinsics pointer, used to receive the address of the newly created camera intrinsics object</td></tr>
+</table>

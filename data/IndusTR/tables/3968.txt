@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of Parameters for Getting Camera Config Filter Capture Frame Rate</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>filter</td><td>ArCameraConfigFilter *</td><td>Camera config filter pointer</td></tr>
+  <tr><td>out_fps_filters</td><td>uint32_t *</td><td>Target camera capture frame rate status pointer</td></tr>
+</table>

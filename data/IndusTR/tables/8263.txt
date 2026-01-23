@@ -1,0 +1,15 @@
+<table>
+  <caption>Table X1 — AC-3 prospective/ultimate current mapping for short-circuit performance</caption>
+  <thead>
+    <tr><th>Rated operational current range (Ie), A</th><th>Prospective current γ, kA</th><th>Ultimate breaking current Icu, kA</th><th>Assumed U/Ue</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1 ≤ Ie ≤ 9</td><td>0.50</td><td>0.55</td><td>1.0</td><td>Values for coordination check</td></tr>
+    <tr><td>9 < Ie ≤ 16</td><td>0.60</td><td>0.65</td><td>1.0</td><td>Prospective current based on test circuit</td></tr>
+    <tr><td>16 < Ie ≤ 25</td><td>0.90</td><td>1.00</td><td>1.0</td><td>Single value per range</td></tr>
+    <tr><td>25 < Ie ≤ 63</td><td>1.50</td><td>1.60</td><td>1.0</td><td>No switching sequence defined</td></tr>
+    <tr><td>63 < Ie ≤ 80</td><td>2.00</td><td>2.20</td><td>1.0</td><td>No number of operations specified</td></tr>
+    <tr><td>80 < Ie ≤ 125</td><td>2.50</td><td>2.80</td><td>1.0</td><td>Range-to-value lookup only</td></tr>
+    <tr><td>125 < Ie ≤ 160</td><td>3.00</td><td>3.30</td><td>1.0</td><td>Test timing not provided</td></tr>
+  </tbody>
+</table>

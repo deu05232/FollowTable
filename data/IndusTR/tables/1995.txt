@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Environment Scanning Test Method  Lab Setup and Acceptance Checklist</caption>
+  <tr><th>Test Item</th><th>Requirement</th><th>Instrument</th><th>Environment</th><th>Acceptance Criteria</th></tr>
+  <tr><td>Illuminance</td><td>300–500 lux</td><td>Lux meter</td><td>Indoor, no flicker</td><td>Within range for 10 min</td></tr>
+  <tr><td>Texture coverage</td><td>Varied patterns</td><td>Printed targets</td><td>Walls + floor</td><td>No large blank regions</td></tr>
+  <tr><td>Motion path</td><td>Figure-8 walk</td><td>Stopwatch</td><td>3 m x 3 m area</td><td>Complete within 60 s</td></tr>
+  <tr><td>Device thermal</td><td>< 42°C surface</td><td>IR thermometer</td><td>22°C ambient</td><td>No throttling observed</td></tr>
+  <tr><td>Calibration</td><td>IMU + camera</td><td>Calibration rig</td><td>Stable mount</td><td>Reprojection error < 1.5 px</td></tr>
+  <tr><td>Logging</td><td>Capture session logs</td><td>Profiler tools</td><td>USB tethered</td><td>Logs uploaded successfully</td></tr>
+</table>

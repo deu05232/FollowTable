@@ -1,0 +1,20 @@
+<table>
+  <caption>The Q,R extracted from the data in Nikonov and Young’s paper [ Nikonov2012 ] for various logic devices. The devices above the horizontal line have τ = τ p ⁢ u while those below it have τ ≥ τ p ⁢ u . Devices which claim to switch Q < 100 ⁢ e and R < 1 ⁢ k ⁢ Ω are shaded. The effect of parasitic and noise Q,R may be more pronounced in these devices. The acronyms used are as follows: CMOS-HP (Si MOSFET high performance), CMOS-LP (Si MOSFET low power), HomJTFET (Homojuntion III-V tunneling FET), HetJTFET(Heterojunction TFET), gnrTFET (Graphene nanoribbon TFET), GpnJ (Graphene pn-junction), BisFET (Bilayer pseudospin FET), SpinFET (Sughara-Tanaka SpinFET), STT/DW (Spin torque domain wall), STMG (Spin torque majority gate), STT-triad (Spin transfer torque triad), STOlogic (Spin torque oscillator), ASL(All spin logic), SWD (Spin wave device), NML (Nanomagnetic logic); e : Charge of an electron (1.6 × 10 19 C), h : Plank’s constant</caption>
+  <tr><td>Device</td><td>State</td><td>Voltage</td><td>Delay ( τ )</td><td>Pulse width</td><td>Eτ=Q^(2)R(τ/τ_(pu))</td><td>Charge</td><td>Resistance</td></tr>
+  <tr><td></td><td>Variable</td><td>V( _(DD) ) V</td><td>ps</td><td>( τ_(pu) ) ps</td><td>h</td><td>(Q) e</td><td>(R) Ω</td></tr>
+  <tr><td>CMOS-HP</td><td>Charge</td><td>0.73</td><td>0.25</td><td>0.25</td><td>7.4 × 10^(3)</td><td>168</td><td>6.8 × 10^(3)</td></tr>
+  <tr><td>CMOS-LP</td><td>Charge</td><td>0.3</td><td>92.08</td><td>92.08</td><td>4.6 × 10^(5)</td><td>69</td><td>2.5 × 10^(6)</td></tr>
+  <tr><td>HomJTFET</td><td>Charge</td><td>0.2</td><td>3.27</td><td>3.27</td><td>4.8 × 10^(3)</td><td>31</td><td>1.3 × 10^(5)</td></tr>
+  <tr><td>HetJTFET</td><td>Charge</td><td>0.4</td><td>0.33</td><td>0.33</td><td>2.0 × 10^(3)</td><td>61</td><td>1.3 × 10^(4)</td></tr>
+  <tr><td>gnrTFET</td><td>Charge</td><td>0.25</td><td>0.79</td><td>0.79</td><td>1.8 × 10^(3)</td><td>38</td><td>3.2 × 10^(4)</td></tr>
+  <tr><td>GpnJ</td><td>Charge</td><td>0.7</td><td>2.17</td><td>2.17</td><td>4.7 × 10^(5)</td><td>127</td><td>7.4 × 10^(3)</td></tr>
+  <tr><td>BisFET</td><td>Exciton</td><td>0.6</td><td>1.36</td><td>1.36</td><td>4.5 × 10^(4)</td><td>230</td><td>2.2 × 10^(4)</td></tr>
+  <tr><td>SpinFET</td><td>Charge</td><td>0.7</td><td>1.02</td><td>1.02</td><td>4.6 × 10^(4)</td><td>269</td><td>1.7 × 10^(4)</td></tr>
+  <tr><td>STT/DW</td><td>Spin</td><td>0.01</td><td>1762.90</td><td>1762.90</td><td>3.0 × 10^(8)</td><td>6.9 × 10^(4)</td><td>1.6 × 10^(3)</td></tr>
+  <tr><td>STOlogic</td><td>Spin</td><td>0.01</td><td>1000.00</td><td>1000.00</td><td>5.3 × 10^(8)</td><td>2.2 × 10^(5)</td><td>284</td></tr>
+  <tr><td>ASL</td><td>Spin</td><td>0.01</td><td>205.16</td><td>205.16</td><td>3.4 × 10^(7)</td><td>6.8 × 10^(4)</td><td>190</td></tr>
+  <tr><td>STMG</td><td>Spin</td><td>0.1</td><td>297.61</td><td>0.25</td><td>6.2 × 10^(5)</td><td>86</td><td>1.8 × 10^(3)</td></tr>
+  <tr><td>STT-triad</td><td>Spin</td><td>0.1</td><td>298.03</td><td>0.67</td><td>4.9 × 10^(6)</td><td>682</td><td>615</td></tr>
+  <tr><td>SWD</td><td>Spin</td><td>0.1</td><td>297.61</td><td>0.25</td><td>6.2 × 10^(5)</td><td>86</td><td>1.8 × 10^(3)</td></tr>
+  <tr><td>NML</td><td>Spin</td><td>0.1</td><td>400.00</td><td>0.36</td><td>1.2 × 10^(7)</td><td>1.2 × 10^(3)</td><td>1.8 × 10^(3)</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Receiver Log Event Codes During Ionospheric Correction Decoding</caption>
+  <tr><th>Event Code</th><th>Severity</th><th>Trigger</th><th>Suggested Action</th><th>Related Token</th></tr>
+  <tr><td>IONO-001</td><td>INFO</td><td>Message DF002 recognized</td><td>None</td><td>DF002</td></tr>
+  <tr><td>IONO-014</td><td>WARN</td><td>Epoch time jump detected</td><td>Check time sync</td><td>DF385</td></tr>
+  <tr><td>IONO-033</td><td>WARN</td><td>Update interval mismatch</td><td>Verify broadcaster</td><td>DF391</td></tr>
+  <tr><td>IONO-052</td><td>ERROR</td><td>Coefficient block CRC fail</td><td>Request retransmission</td><td>DF489</td></tr>
+  <tr><td>IONO-053</td><td>ERROR</td><td>Accuracy block missing</td><td>Fallback model</td><td>DF490</td></tr>
+  <tr><td>IONO-077</td><td>INFO</td><td>Thin-shell height applied</td><td>None</td><td>DF473</td></tr>
+  <tr><td>IONO-101</td><td>DEBUG</td><td>Decoder buffer resized</td><td>Increase memory</td><td>N/A</td></tr>
+</table>

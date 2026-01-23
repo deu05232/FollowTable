@@ -1,0 +1,14 @@
+<table>
+  <caption>Corpus Index  Occurrence Counts of Mongolian Control Characters in a News Dataset</caption>
+  <thead>
+    <tr><th>Control Character (label)</th><th>Code Point</th><th>Total Tokens</th><th>Documents Containing</th><th>Top Source Domain</th><th>Most Common Neighbor Pattern</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NIRUGU</td><td>U+180A</td><td>12,430</td><td>1,904</td><td>news.example.mn</td><td>letter + NIRUGU + letter</td></tr>
+    <tr><td>FVS1</td><td>U+180B</td><td>8,221</td><td>1,112</td><td>gov.example.mn</td><td>letter + FVS1</td></tr>
+    <tr><td>FVS2</td><td>U+180C</td><td>2,015</td><td>403</td><td>blog.example.mn</td><td>letter + FVS2</td></tr>
+    <tr><td>FVS3</td><td>U+180D</td><td>679</td><td>155</td><td>wiki.example.mn</td><td>letter + FVS3</td></tr>
+    <tr><td>Vowel Separator</td><td>U+180E</td><td>95</td><td>41</td><td>archive.example.mn</td><td>letter + VS + suffix</td></tr>
+    <tr><td>MVS</td><td>U+180E (legacy tag)</td><td>0</td><td>0</td><td>N/A</td><td>N/A</td></tr>
+  </tbody>
+</table>

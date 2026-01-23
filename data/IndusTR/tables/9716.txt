@@ -1,0 +1,16 @@
+<table>
+  <caption>Waste-Type Parameters for Baseline Landfill Methane Emissions (MSW Incineration Projects)</caption>
+  <thead>
+    <tr><th rowspan="2">Waste type</th><th colspan="3">Activity data</th><th colspan="5">Landfill decay / methane parameters</th><th rowspan="2">Baseline landfill emissions input note</th></tr>
+    <tr><th>Share of MSW stream (w/w)</th><th>Total MSW diverted (t/yr)</th><th>Waste mass by type Wj (t/yr)</th><th>DOCj (fraction of wet weight)</th><th>DOCf (fraction)</th><th>MCF (fraction)</th><th>k (1/yr)</th><th>(1 - e^{-k}) term (annual)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Paper & cardboard</td><td>0.22</td><td>120000</td><td>26400</td><td>0.40</td><td>0.50</td><td>1.0</td><td>0.06</td><td>0.0583</td><td>Used with F, OX, (16/12), and GWP to compute BE per waste type</td></tr>
+    <tr><td>Food waste</td><td>0.34</td><td>120000</td><td>40800</td><td>0.15</td><td>0.50</td><td>1.0</td><td>0.17</td><td>0.1565</td><td>Higher k reflects faster decay; same structure as other waste types</td></tr>
+    <tr><td>Garden / yard waste</td><td>0.10</td><td>120000</td><td>12000</td><td>0.20</td><td>0.50</td><td>1.0</td><td>0.10</td><td>0.0952</td><td>DOCj differs from food waste; otherwise identical parameter set</td></tr>
+    <tr><td>Textiles</td><td>0.05</td><td>120000</td><td>6000</td><td>0.24</td><td>0.50</td><td>1.0</td><td>0.08</td><td>0.0769</td><td>Per-waste-type DOCj and k explicitly shown for QA/QC</td></tr>
+    <tr><td>Wood</td><td>0.03</td><td>120000</td><td>3600</td><td>0.43</td><td>0.50</td><td>1.0</td><td>0.03</td><td>0.0296</td><td>Slow decay; lower k reduces annual methane generation term</td></tr>
+    <tr><td>Rubber & leather</td><td>0.02</td><td>120000</td><td>2400</td><td>0.39</td><td>0.50</td><td>1.0</td><td>0.04</td><td>0.0392</td><td>Shows how less-common fractions are handled without aggregating</td></tr>
+    <tr><td>Diapers / sanitary waste</td><td>0.04</td><td>120000</td><td>4800</td><td>0.24</td><td>0.50</td><td>1.0</td><td>0.12</td><td>0.1131</td><td>Included as separate waste stream with its own DOCj and k</td></tr>
+  </tbody>
+</table>

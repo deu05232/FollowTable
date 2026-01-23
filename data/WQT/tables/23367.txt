@@ -1,0 +1,10 @@
+# Blood Pressure Categories Using a Single Composite Score (MAP PP Based)
+
+| Clinical label | Composite metric used | Threshold range | Typical SBP/DBP example | Comment |
+| --- | --- | --- | --- | --- |
+| Low perfusion | Mean arterial pressure (MAP) | <65 mm Hg | 90/50 | Uses calculated value |
+| Normal hemodynamics | MAP | 70–100 mm Hg | 120/80 | Not a direct SBP/DBP bucket |
+| High afterload | MAP | 101–110 mm Hg | 140/90 | Composite-based staging |
+| Very high afterload | MAP | 111–130 mm Hg | 170/110 | Composite-based staging |
+| Wide pulse pressure | Pulse pressure (PP) | >60 mm Hg | 160/90 | Focus on PP not SBP/DBP ranges |
+| Hypertensive emergency risk | MAP | >130 mm Hg | 200/120 | Requires clinical context |

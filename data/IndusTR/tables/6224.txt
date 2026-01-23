@@ -1,0 +1,16 @@
+<table>
+  <caption>Conformance bitstream test checklist for intra prediction and mode signalling syntax elements</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Condition / context</th><th>Test requirements (explicit value ranges)</th><th>Notes for test-case construction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">intra_luma_pred_mode</td><td>When intra prediction is used for luma</td><td>Traverse cases where the value of intra_luma_pred_mode equals 0 to 67</td><td>Include boundary values 0 and 67, plus at least one mid value.</td></tr>
+    <tr><td>When a reduced mode set is signalled</td><td>Traverse cases where the value of intra_luma_pred_mode equals 0 to 34</td><td>Keep the range explicit for the reduced-mode profile.</td></tr>
+    <tr><td>intra_chroma_pred_mode</td><td>When chroma is present</td><td>Traverse cases where the value of intra_chroma_pred_mode equals 0 to 5</td><td>Cover all values 0..5 at least once across the suite.</td></tr>
+    <tr><td>mip_flag</td><td>For blocks eligible for MIP</td><td>Traverse cases where the value of mip_flag equals 0 to 1</td><td>Test both disabled and enabled.</td></tr>
+    <tr><td>mip_transposed_flag</td><td>When mip_flag equals 1</td><td>Traverse cases where the value of mip_transposed_flag equals 0 to 1</td><td>Pair with mip_mode_id values below.</td></tr>
+    <tr><td>mip_mode_id</td><td>When mip_flag equals 1</td><td>Traverse cases where the value of mip_mode_id equals 0 to 15</td><td>Ensure boundary coverage (0 and 15).</td></tr>
+    <tr><td>bdpcm_flag</td><td>For BDPCM-capable intra blocks</td><td>Traverse cases where the value of bdpcm_flag equals 0 to 1</td><td>Include both values with otherwise identical coding settings where possible.</td></tr>
+    <tr><td>bdpcm_dir_flag</td><td>When bdpcm_flag equals 1</td><td>Traverse cases where the value of bdpcm_dir_flag equals 0 to 1</td><td>0 and 1 should be exercised under the same block size if allowed.</td></tr>
+  </tbody>
+</table>

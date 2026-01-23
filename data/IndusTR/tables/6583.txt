@@ -1,0 +1,17 @@
+<table>
+  <caption>Cybersecurity Incident Report Elements (Time Fields Mixed With Severity and Classification)</caption>
+  <thead>
+    <tr><th>Section</th><th>Information Item</th><th>Definition / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Timing</td><td>Occurrence Time</td><td>When the incident actually occurred (ISO 8601 timestamp recommended).</td></tr>
+    <tr><td>Discovery Time</td><td>When the incident was first detected by any party (record timezone; seconds precision if available).</td></tr>
+    <tr><td>First-Seen Time</td><td>Earliest time the indicator or behavior was observed in telemetry.</td></tr>
+    <tr><td>Containment Time</td><td>When containment actions first prevented further spread or impact.</td></tr>
+    <tr><td rowspan="3">Classification</td><td>Incident Type</td><td>Category of incident (e.g., malware, intrusion, data leak).</td></tr>
+    <tr><td>Severity Level</td><td>Critical/High/Medium/Low based on business impact criteria.</td></tr>
+    <tr><td>Affected Asset Type</td><td>Server/endpoint/cloud account/application, etc.</td></tr>
+    <tr><td rowspan="2">Context</td><td>Threat Source</td><td>Suspected source (IP/domain/country/actor).</td></tr>
+    <tr><td>Compliance Impact</td><td>Whether reporting triggers regulatory or contractual obligations.</td></tr>
+  </tbody>
+</table>

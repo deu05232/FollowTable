@@ -1,0 +1,17 @@
+<table>
+  <caption>Power Distributor Output Verification with Cable Insulation/Continuity (Pre-Launch)</caption>
+  <thead>
+    <tr><th>Group</th><th>Test Point</th><th>Expected</th><th>Measured</th><th>Units</th><th>Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Power Distributor Outputs</td><td>Output ports count</td><td>4</td><td>4</td><td>pcs</td><td>PASS</td></tr>
+    <tr><td>Port X1 voltage</td><td>12.0</td><td>11.9</td><td>V</td><td>PASS</td></tr>
+    <tr><td>Port X1 current</td><td>1.5</td><td>1.6</td><td>A</td><td>PASS</td></tr>
+    <tr><td>Port X2 voltage</td><td>12.0</td><td>12.2</td><td>V</td><td>PASS</td></tr>
+    <tr><td>Port X2 current</td><td>1.5</td><td>1.4</td><td>A</td><td>PASS</td></tr>
+    <tr><td>Port X3 voltage</td><td>12.0</td><td>11.8</td><td>V</td><td>PASS</td></tr>
+    <tr><td rowspan="3">Wiring Integrity</td><td>Cable 1 continuity resistance</td><td>≤ 0.5</td><td>0.9</td><td>Ω</td><td>FAIL</td></tr>
+    <tr><td>Cable 1 insulation resistance (node-node)</td><td>≥ 20</td><td>15</td><td>MΩ</td><td>FAIL</td></tr>
+    <tr><td>Cable 2 continuity resistance</td><td>≤ 0.5</td><td>0.3</td><td>Ω</td><td>PASS</td></tr>
+  </tbody>
+</table>

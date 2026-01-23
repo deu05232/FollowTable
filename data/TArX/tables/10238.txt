@@ -1,0 +1,15 @@
+<table>
+  <caption>Atmospheric absorber mixing ratios for Earth-like planet scenarios (oxidizing to CO2-rich): idealized bulk composition sets</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Interpretation</th><th>N2</th><th>O2</th><th>CO2</th><th>H2O</th><th>CH4</th><th>O3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E-Modern</td><td>Earth-like oxidizing (modern analog)</td><td>0.780</td><td>0.209</td><td>4.0×10-4</td><td>0.010</td><td>1.8×10-6</td><td>1.0×10-7</td></tr>
+    <tr><td>E-Preindustrial</td><td>Lower CO2, slightly lower CH4</td><td>0.781</td><td>0.209</td><td>2.8×10-4</td><td>0.010</td><td>8.0×10-7</td><td>8.0×10-8</td></tr>
+    <tr><td>E-LowO2</td><td>Weakly oxidizing (reduced O2)</td><td>0.965</td><td>0.010</td><td>2.0×10-3</td><td>0.020</td><td>1.0×10-5</td><td>1.0×10-9</td></tr>
+    <tr><td>E-HighCO2</td><td>CO2-enriched terrestrial (dense greenhouse)</td><td>0.700</td><td>0.200</td><td>0.090</td><td>0.010</td><td>1.0×10-6</td><td>1.0×10-7</td></tr>
+    <tr><td>E-CO2Dominant</td><td>CO2-dominated rocky planet (still “Earth-sized” class)</td><td>0.030</td><td>0.000</td><td>0.960</td><td>0.010</td><td>1.0×10-8</td><td>0</td></tr>
+    <tr><td>E-Wet</td><td>Humid Earth-like (higher water vapor)</td><td>0.760</td><td>0.209</td><td>4.0×10-4</td><td>0.030</td><td>1.8×10-6</td><td>1.0×10-7</td></tr>
+    <tr><td colspan="2">Units</td><td colspan="6">All values are volume mixing ratios; scenarios are composition-only sets (no climate, orbital, or instrument parameters).</td></tr>
+  </tbody>
+</table>

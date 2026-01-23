@@ -1,0 +1,14 @@
+<table>
+  <caption>Beam Pumping Unit Commissioning Functional Test Matrix (Load/Duration-Based, No Document Clauses)</caption>
+  <thead>
+    <tr><th>Test group</th><th>Test item</th><th>Applied load level</th><th>Run duration</th><th>Data to record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Electrical</td><td>Start/stop cycling</td><td>No-load</td><td>20 cycles</td><td>Inrush current, start time</td></tr>
+    <tr><td>Overcurrent trip verification</td><td>Simulated trip</td><td>15 min</td><td>Trip setting, reset behavior</td></tr>
+    <tr><td rowspan="2">Mechanical</td><td>Balance performance observation</td><td>50% rated torque</td><td>4 h</td><td>Motor current trend, stroke smoothness</td></tr>
+    <tr><td>Endurance run</td><td>100% rated torque</td><td>24 h</td><td>Gearbox temp, vibration, noise</td></tr>
+    <tr><td rowspan="2">Safety</td><td>Emergency stop function</td><td>Normal operating</td><td>10 trials</td><td>Stop time, brake engagement</td></tr>
+    <tr><td>Guarding verification</td><td>Not applicable</td><td>Walkdown</td><td>All guards installed; no pinch points exposed</td></tr>
+  </tbody>
+</table>

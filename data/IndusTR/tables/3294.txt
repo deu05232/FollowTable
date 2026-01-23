@@ -1,0 +1,10 @@
+<table>
+  <caption>Test Environment Requirements for AR Frame Capture Validation</caption>
+  <tr><th>Test Item</th><th>Requirement</th><th>Instrument</th><th>Sampling</th><th>Acceptance Criteria</th></tr>
+  <tr><td>Ambient Illumination</td><td>300–500 lux</td><td>Lux meter</td><td>1 Hz</td><td>Within range for 10 min</td></tr>
+  <tr><td>Color Temperature</td><td>5000K ± 300K</td><td>Color meter</td><td>0.5 Hz</td><td>Stable drift < 2%</td></tr>
+  <tr><td>Device Temperature</td><td>20–35°C</td><td>Thermocouple</td><td>1 Hz</td><td>No thermal throttling</td></tr>
+  <tr><td>Frame Rate Target</td><td>30 FPS</td><td>Frame logger</td><td>Per frame</td><td>P95 frame time < 40 ms</td></tr>
+  <tr><td>Motion Pattern</td><td>0.5 m/s linear</td><td>Motion rig</td><td>Per run</td><td>Repeatability > 95%</td></tr>
+  <tr><td>Camera Focus</td><td>Locked</td><td>App setting</td><td>Per run</td><td>No focus hunting events</td></tr>
+</table>

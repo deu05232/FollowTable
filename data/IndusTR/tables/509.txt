@@ -1,0 +1,15 @@
+<table>
+  <caption>Detector Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Detector Type</td><td>(0018,7004)</td><td>CS</td><td>1</td><td>2</td><td>Type of detector used to acquire projection data</td></tr>
+  <tr><td>Scintillator Material</td><td>(0018,7006)</td><td>CS</td><td>1</td><td>2</td><td>Material type of the detector scintillator layer</td></tr>
+  <tr><td>Detector Array</td><td>（0018,7005)</td><td>CS</td><td>1</td><td>3</td><td>Array configuration of the detector</td></tr>
+  <tr><td>Detector Mode</td><td>(0018,7008)</td><td>LT</td><td>1</td><td>3</td><td>Text description of the detector operating mode</td></tr>
+  <tr><td>Detector ID</td><td>(0018,700A)</td><td>SH</td><td>1</td><td>3</td><td>Serial number of the detector used to acquire projection data</td></tr>
+  <tr><td>Detector Manufacturer</td><td>（0018,702A)</td><td>LO</td><td>1</td><td>3</td><td>Name of the detector manufacturer</td></tr>
+  <tr><td>Detector Model</td><td>(0018,702B)</td><td>LO</td><td>1</td><td>3</td><td>Model name of the detector manufacturer</td></tr>
+  <tr><td>Imaging Area</td><td>（0018,7020)</td><td>DS</td><td>2</td><td>3</td><td>Effective imaging area, expressed as length multiplied by width, in millimeters (mm)</td></tr>
+  <tr><td>SAC Pixel Size</td><td>(0018,7022)</td><td>DS</td><td>2</td><td>1</td><td>Physical distance between centers of adjacent detector elements, in millimeters (mm)</td></tr>
+  <tr><td>AD Conversion Bit Depth</td><td>(0014,360A)</td><td>IS</td><td>1</td><td>1</td><td>Analog-to-digital conversion bit depth of the detector, in bits (bit)</td></tr>
+  <tr><td>Temperature</td><td>(0014,3028)</td><td>DS</td><td>1</td><td>3</td><td>Temperature acquired by the sensor, in degrees Celsius (℃)</td></tr>
+</table>

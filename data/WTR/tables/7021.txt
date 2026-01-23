@@ -1,0 +1,11 @@
+# Cloud Benchmark VM Types and Host CPU Configuration (Notebooks used only as clients)
+
+| Environment | Instance Type | Host CPU | vCPU Count | Memory | Storage | Network | Client Device Used |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| AWS EC2 | c5.4xlarge | Intel Xeon Platinum 8124M (Skylake) | 16 | 32 GB | EBS-only | Up to 10 Gbps | Dell XPS 13 (client only) |
+| AWS EC2 | m5.2xlarge | Intel Xeon Platinum 8175M | 8 | 32 GB | EBS-only | Up to 10 Gbps | Lenovo ThinkPad T14 (client only) |
+| Google Cloud | n2-standard-8 | Intel Xeon Platinum 8253C | 8 | 32 GB | Persistent Disk | 10 Gbps | HP EliteBook 840 (client only) |
+| Azure | D8s v5 | Intel Xeon Platinum 8370C | 8 | 32 GB | Premium SSD | Up to 12.5 Gbps | Asus ZenBook 14 (client only) |
+| OpenStack (private) | compute.large | AMD EPYC 7452 | 16 | 64 GB | Ceph RBD | 25 Gbps | Acer Swift 3 (client only) |
+| VMware vSphere | VM-Perf-01 | Intel Xeon E5-2697 v4 | 12 | 48 GB | SAN | 10 Gbps | MacBook Air (client only) |
+| Bare-metal lab | node-07 | AMD EPYC 7742 | 64 | 256 GB | NVMe RAID | 40 Gbps | Surface Laptop (client only) |

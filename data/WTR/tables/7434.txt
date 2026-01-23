@@ -1,0 +1,12 @@
+# Common BitTorrent Download Sources and File Types (How People Obtain Torrents)
+
+| Source Type | Examples | Typical Link Format | What You Get | Safety Considerations | Notes |
+|---|---|---|---|---|---|
+| Torrent Indexing Sites | 1337x; Nyaa; LimeTorrents | .torrent / magnet | Metadata + trackers | Fake uploads possible | Not a client |
+| Private Trackers | IPTorrents; HDBits | .torrent | Curated torrents | Ratio rules, invites | Community controlled |
+| DHT Bootstrapping | Public DHT nodes | magnet | Peer discovery | Privacy concerns | Works without trackers |
+| RSS Feeds | Tracker RSS; site RSS | URL to .torrent | Automated fetching | Depends on source | Often paired with automation |
+| Usenet Bridges | NZB-to-torrent tools | varies | Converted metadata | Legality varies | Not typical BitTorrent usage |
+| Direct Magnet Lists | Pastebins; forums | magnet | Magnet URIs | High risk of malware | Unverified sources |
+| Streaming Scrapers | Add-ons that fetch magnets | magnet | On-demand links | Add-on trust issues | Grey-area ecosystem |
+| File Sharing Communities | Discord; IRC XDCC links | URL/magnet | Shared links | Trust-based | Mixed reliability |

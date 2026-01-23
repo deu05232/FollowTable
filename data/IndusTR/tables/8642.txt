@@ -1,0 +1,14 @@
+<table>
+  <caption>No-Load Power Limit and Standby Compliance by Efficiency Grade</caption>
+  <thead>
+    <tr><th>Efficiency Grade</th><th>Product Category</th><th>Rated Output Power Range (W)</th><th>Max No-Load Active Power (W)</th><th>Max Standby Power (W)</th><th>Test Condition</th><th>Pass/Fail Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Grade 1</td><td>External AC/DC Adapter</td><td>0 < Po ≤ 49</td><td>0.060</td><td>0.100</td><td>230 V / 50 Hz</td><td>Measured value ≤ limit</td></tr>
+    <tr><td>External AC/DC Adapter</td><td>49 < Po ≤ 250</td><td>0.080</td><td>0.150</td><td>230 V / 50 Hz</td><td>Measured value ≤ limit</td></tr>
+    <tr><td rowspan="2">Grade 2</td><td>External AC/DC Adapter</td><td>0 < Po ≤ 49</td><td>0.075</td><td>0.120</td><td>230 V / 50 Hz</td><td>Measured value ≤ limit</td></tr>
+    <tr><td>External AC/DC Adapter</td><td>49 < Po ≤ 250</td><td>0.100</td><td>0.180</td><td>230 V / 50 Hz</td><td>Measured value ≤ limit</td></tr>
+    <tr><td rowspan="2">Grade 3</td><td>External AC/DC Adapter</td><td>0 < Po ≤ 49</td><td>0.100</td><td>0.200</td><td>230 V / 50 Hz</td><td>Measured value ≤ limit</td></tr>
+    <tr><td>Grade 3</td><td>External AC/DC Adapter</td><td>49 < Po ≤ 250</td><td>0.150</td><td>0.250</td><td>230 V / 50 Hz</td><td>Measured value ≤ limit</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Emergency Management Beidou System Environmental Information Query Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Task ID</td><td>25</td><td colspan="3">See 6.1.10</td><td>1</td></tr>
+  <tr><td>2</td><td>Information Category</td><td>4</td><td>Integer</td><td></td><td>0~4</td><td>0——Disaster；1--Meteorology；2-Water resources;3-—-Supply point;4--Other</td></tr>
+  <tr><td>3</td><td>Area Range</td><td>101</td><td colspan="3">See 6.1.9</td><td>Fixed circular area range</td></tr>
+</table>

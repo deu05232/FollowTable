@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Camera API Parameters: Set Clip Planes and Exposure</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Handles</td><td>session</td><td>ArSession *</td><td>Active AR session.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>Camera to configure.</td></tr>
+    <tr><td>config</td><td>ArCameraConfig *</td><td>Existing camera configuration object to apply.</td></tr>
+    <tr><td rowspan="2">Clip Planes</td><td>near_plane</td><td>float</td><td>Near clipping plane distance.</td></tr>
+    <tr><td>far_plane</td><td>float</td><td>Far clipping plane distance.</td></tr>
+    <tr><td rowspan="2">Exposure</td><td>exposure_compensation</td><td>float</td><td>Exposure compensation value.</td></tr>
+    <tr><td>auto_exposure_enabled</td><td>bool</td><td>Enable/disable auto exposure.</td></tr>
+  </tbody>
+</table>

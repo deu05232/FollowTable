@@ -1,0 +1,15 @@
+<table>
+  <caption>Curved-Band Wrap Angle (degrees) to DT Conversion Table (Enhanced IR) with Optional Grayscale Category Offsets</caption>
+  <thead>
+    <tr><th>Wrap angle range (degrees)</th><th>Equivalent geometry cue</th><th>DT (lookup)</th><th>Optional grayscale offset (apply after lookup)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>10–20°</td><td>Incipient arc; curvature barely evident</td><td>1.0</td><td>W: +0.5; B: +0.0</td><td>Use only if the arc is continuous and anchored to the circulation center</td></tr>
+    <tr><td>20–35°</td><td>Short curved band segment</td><td>1.5</td><td>W: +0.5; LG: +0.0</td><td>If multiple short segments exist, use the segment with the coldest top</td></tr>
+    <tr><td>35–50°</td><td>Clear spiral curvature around the center</td><td>2.0</td><td>W: +0.5; MG: −0.5</td><td>Do not mix offsets from different grayscale segments</td></tr>
+    <tr><td>50–70°</td><td>Well-defined spiral wrap</td><td>2.5</td><td>W: +0.5; DG: +0.0</td><td>DT uncertainty increases if the band is fragmented</td></tr>
+    <tr><td>70–90°</td><td>Strong wrap; near semicircle impression</td><td>3.0</td><td>W: +0.5; MG: −0.5</td><td>Prefer the longest continuous arc for wrap measurement</td></tr>
+    <tr><td>90–115°</td><td>Very strong wrap; approaching closed structure</td><td>3.5</td><td>W: +0.5; any warmer-than-LG band: −0.5</td><td>If an eye-like warm spot is present, switch to eye-pattern method</td></tr>
+    <tr><td>>115°</td><td>Wrap exceeds curved-band regime</td><td>—</td><td>—</td><td>Exclude from curved-band DT table; use eye-pattern analysis instead</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Transport-Layer PDU Cheat Sheet (Single-Frame and Segmented Formats Together)</caption>
+  <tr><th>Format</th><th>P</th><th>PF</th><th>PS</th><th>SA</th><th>Data Field Summary</th></tr>
+  <tr><td>Single-frame message</td><td>0x04</td><td>0x35</td><td>Destination Address</td><td>Source Address</td><td>8 bytes application data; pad with 0xFF if needed</td></tr>
+  <tr><td>Single-frame message</td><td>0x06</td><td>0x36</td><td>Destination Address</td><td>Source Address</td><td>8 bytes application data; pad with 0xFF if needed</td></tr>
+  <tr><td>Segmented transfer (first frame)</td><td>0x06</td><td>0x36</td><td>Destination Address</td><td>Source Address</td><td>Seq=0, Total Frames, Total Bytes, then payload</td></tr>
+  <tr><td>Segmented transfer (consecutive)</td><td>0x06</td><td>0x36</td><td>Destination Address</td><td>Source Address</td><td>Seq>0, then payload</td></tr>
+  <tr><td>LM_ACK control</td><td>0x03</td><td>0x37</td><td>Destination Address</td><td>Source Address</td><td>ACK type + receive window info</td></tr>
+  <tr><td>LM_NACK control</td><td>0x03</td><td>0x37</td><td>Destination Address</td><td>Source Address</td><td>NACK type, remaining bytes set to 0xFF</td></tr>
+</table>

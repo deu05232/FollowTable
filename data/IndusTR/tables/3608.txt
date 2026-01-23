@@ -1,0 +1,22 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type 2 (Orbit and Ranging Accuracy) Parameter Description Table</caption>
+  <tr><td>Field</td><td colspan="2">Name</td><td>Length/bit</td><td>Scale factor</td><td>Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>MesTypeID</td><td colspan="2">Message type</td><td>6</td><td>1</td><td>0~63</td><td>Two</td><td>See Table 5</td></tr>
+  <tr><td>Epoch time</td><td colspan="2">Epoch time</td><td>17</td><td>1</td><td>0~86399</td><td>S</td><td>BeiDou Time seconds-of-day count</td></tr>
+  <tr><td>Reserved bits</td><td colspan="2">Reserved bits</td><td>4</td><td>1</td><td>0~15</td><td></td><td></td></tr>
+  <tr><td>IOD SSR</td><td colspan="2">SSR issue of data</td><td>2</td><td>1</td><td>0~3</td><td></td><td>Changes when system configuration changes</td></tr>
+  <tr><td>Field</td><td colspan="2">Name</td><td>Length/bit</td><td>Scale factor</td><td>Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td rowspan="8">Orbit correction parameters (Satellite 1)</td><td colspan="2">Sat Slot</td><td>9</td><td>1</td><td>1~255</td><td></td><td>Mask position number</td></tr>
+  <tr><td colspan="2">IODN</td><td>10</td><td>1</td><td></td><td></td><td>Basic navigation message issue of data</td></tr>
+  <tr><td colspan="2">IOD Corr</td><td>3</td><td>1</td><td>0~7</td><td></td><td>Correction issue of data</td></tr>
+  <tr><td colspan="2">Radial correction</td><td>15*</td><td>0.001 6</td><td>±26.212 8</td><td>m</td><td></td></tr>
+  <tr><td colspan="2">Along-track correction</td><td>13*</td><td>0.006 4</td><td>±26.208</td><td>m</td><td></td></tr>
+  <tr><td colspan="2">Cross-track correction</td><td>13 *</td><td>0.0064</td><td>±26.208</td><td>m</td><td></td></tr>
+  <tr><td rowspan="2">URAI</td><td>URAcLAss</td><td>3</td><td>1</td><td>0~7</td><td></td><td rowspan="2">User range accuracy index of this satellite</td></tr>
+  <tr><td>URAvALUE</td><td>3</td><td>1</td><td>0~7</td><td></td></tr>
+  <tr><td>…</td><td colspan="2">…</td><td>：</td><td>：</td><td>…</td><td>…</td><td>…</td></tr>
+  <tr><td>Orbit correction parameters (Satellite 6)</td><td colspan="2"></td><td>69</td><td></td><td></td><td></td><td>Orbit correction values of the sixth satellite in this message type</td></tr>
+  <tr><td>Reserved bits</td><td colspan="2"></td><td>19</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>CRC</td><td colspan="2">Check bits</td><td>24</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td colspan="8">Note: * indicates two's complement.</td></tr>
+</table>

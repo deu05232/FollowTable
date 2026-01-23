@@ -1,0 +1,17 @@
+<table>
+  <caption>Step-by-Step Protocol for Measuring Power/Energy in Off, Ready, and Sleep States (Average Power Method)</caption>
+  <thead>
+    <tr><th>Step</th><th>Initial state</th><th>Action to perform</th><th>What to record (end of step)</th><th>Unit</th><th>Mode being measured</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Off</td><td>Verify the device is configured to factory-default power management (no special energy-saving overrides). Ensure no print/copy/fax jobs are queued.</td><td>Device configuration confirmation</td><td>text</td><td>Preparation</td></tr>
+    <tr><td>2</td><td>Off</td><td>Start a measurement window: reset energy counter and start timer while the device remains OFF.</td><td>Window start time (Tstart_off)</td><td>hh:mm:ss</td><td>Off</td></tr>
+    <tr><td>3</td><td>Off</td><td>Maintain OFF state for N minutes (N ≥ 5). Do not touch the device.</td><td>Energy used in window (Eoff_window) and duration (toff_window)</td><td>Wh; min</td><td>Off</td></tr>
+    <tr><td>4</td><td>Off</td><td>Compute average OFF power from the window (Poff_avg = Eoff_window / (toff_window in hours)).</td><td>Average off power (Poff_avg)</td><td>W</td><td>Off</td></tr>
+    <tr><td>5</td><td>Off</td><td>Switch device ON and wait until READY indication appears (or until power stabilizes to a steady “ready” level).</td><td>Observed ready time (Tready_reached)</td><td>hh:mm:ss</td><td>Transition (Off→Ready)</td></tr>
+    <tr><td>6</td><td>Ready</td><td>Reset energy counter; measure READY for N minutes (N ≥ 5) with no user interaction.</td><td>Energy used in window (Eready_window) and duration (tready_window)</td><td>Wh; min</td><td>Ready</td></tr>
+    <tr><td>7</td><td>Ready</td><td>Compute average READY power (Pready_avg = Eready_window / (tready_window in hours)).</td><td>Average ready power (Pready_avg)</td><td>W</td><td>Ready</td></tr>
+    <tr><td>8</td><td>Ready</td><td>Stop interacting and allow the device to enter SLEEP by default timeout. When sleep is reached, reset energy counter and measure for N minutes (N ≥ 5).</td><td>Sleep entry delay (tdelay_sleep), Esleep_window, tsleep_window</td><td>min; Wh; min</td><td>Sleep</td></tr>
+    <tr><td>9</td><td>Sleep</td><td>Compute average SLEEP power (Psleep_avg = Esleep_window / (tsleep_window in hours)). If deeper sleep levels occur, repeat Step 8–9 for each level.</td><td>Average sleep power (Psleep_avg) and, if applicable, Psleep_level_i</td><td>W</td><td>Sleep / Sleep level i</td></tr>
+  </tbody>
+</table>

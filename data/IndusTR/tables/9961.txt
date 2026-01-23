@@ -1,0 +1,16 @@
+<table>
+  <caption>Company Qualification Indicator: Number of Urban Freight Enterprises Rated AAA and Above (Scoring by City Tier)</caption>
+  <thead>
+    <tr><th>City size tier</th><th>AAA+ enterprises (units)</th><th>Score</th><th>Scoring rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Mega city (≥10 million)</td><td>≥10</td><td>100</td><td>Full score threshold</td></tr>
+    <tr><td><10</td><td>Score = 100 × (value / 10)</td><td>Proportional</td></tr>
+    <tr><td rowspan="2">Very large city (5–10 million)</td><td>≥8</td><td>100</td><td>Full score threshold</td></tr>
+    <tr><td><8</td><td>Score = 100 × (value / 8)</td><td>Proportional</td></tr>
+    <tr><td rowspan="2">Large city (1–5 million)</td><td>≥5</td><td>100</td><td>Full score threshold</td></tr>
+    <tr><td><5</td><td>Score = 100 × (value / 5)</td><td>Proportional</td></tr>
+    <tr><td rowspan="2">Medium city (0.5–1 million)</td><td>≥3</td><td>100</td><td>Full score threshold</td></tr>
+    <tr><td><3</td><td>Score = 100 × (value / 3)</td><td>Proportional</td></tr>
+  </tbody>
+</table>

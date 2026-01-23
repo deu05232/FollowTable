@@ -1,0 +1,20 @@
+<table>
+  <caption>Stepwise Emission Reduction Accounting for MSW Incineration Projects (Baseline vs. Project)</caption>
+  <thead>
+    <tr><th rowspan="2">Component</th><th rowspan="2">Symbol</th><th colspan="2">How it is computed</th><th rowspan="2">Units</th><th rowspan="2">Included in total?</th></tr>
+    <tr><th>Baseline side</th><th>Project side</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Landfill emissions avoided by diverting MSW</td><td>BE_MSW</td><td>Estimated methane/CO2 from landfill disposal of diverted waste (using approved landfill model)</td><td>0 (diverted waste not landfilled)</td><td>tCO2e</td><td>Yes (baseline credit)</td></tr>
+    <tr><td>Displaced grid electricity emissions</td><td>BE_EG</td><td>Grid EF × net electricity exported assumed displaced</td><td>0 (counted as baseline displacement benefit, not a project emission)</td><td>tCO2e</td><td>Yes (baseline credit)</td></tr>
+    <tr><td>Displaced heat (steam/hot water) emissions</td><td>BE_HG</td><td>Heat EF × useful heat exported assumed displaced</td><td>0</td><td>tCO2e</td><td>Yes (baseline credit)</td></tr>
+    <tr><td>Total baseline emissions</td><td>BE</td><td>BE = BE_MSW + BE_EG + BE_HG</td><td>—</td><td>tCO2e</td><td>—</td></tr>
+    <tr><td>On-site auxiliary electricity consumption</td><td>PE_EC</td><td>0</td><td>Grid EF × electricity imported for plant operation</td><td>tCO2e</td><td>Yes (project emission)</td></tr>
+    <tr><td>On-site fossil fuel consumption (start-up/support)</td><td>PE_FC</td><td>0</td><td>Fuel use × fuel EF (CO2, CH4, N2O as applicable)</td><td>tCO2e</td><td>Yes</td></tr>
+    <tr><td>Direct stack fossil CO2 from waste incineration</td><td>PE_COM,CO2</td><td>0</td><td>Fossil fraction of carbon oxidized × 44/12 (method-specific)</td><td>tCO2e</td><td>Yes</td></tr>
+    <tr><td>Direct stack non-CO2 (CH4 and N2O)</td><td>PE_COM,CH4N2O</td><td>0</td><td>Measured/estimated CH4 and N2O × GWP</td><td>tCO2e</td><td>Yes</td></tr>
+    <tr><td>Wastewater/wet APC residues (if applicable)</td><td>PE_WW</td><td>0</td><td>CH4 from wastewater treatment (if in boundary) × GWP</td><td>tCO2e</td><td>Conditional</td></tr>
+    <tr><td>Total project emissions</td><td>PE</td><td>—</td><td>PE = PE_EC + PE_FC + PE_COM,CO2 + PE_COM,CH4N2O + PE_WW</td><td>tCO2e</td><td>—</td></tr>
+    <tr><td>Emission reductions</td><td>ER</td><td colspan="2">ER = BE − PE</td><td>tCO2e</td><td>Reporting output</td></tr>
+  </tbody>
+</table>

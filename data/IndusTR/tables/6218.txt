@@ -1,0 +1,15 @@
+<table>
+  <caption>Bitstream Conformance Checklist (Pointers to External Range Definitions)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>What to test</th><th>Range definition source</th><th>How to enumerate</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>aec_lcu_stuffing_bit</td><td>Validate legal values and boundary cases</td><td>See 7.3.6 and Table 21</td><td>Use the normative decoding constraints</td></tr>
+    <tr><td>split_flag</td><td>Cover all partition decisions for each block size</td><td>See 7.5.10; block sizes in Table 12</td><td>Iterate sizes listed in Table 12</td></tr>
+    <tr><td>transform_split_flag</td><td>Cover transform tree branching under intra/inter</td><td>See 7.5.11 and 8.3.2.4</td><td>Traverse the decision tree per clause</td></tr>
+    <tr><td>sao_interval_offset_abs</td><td>Cover all offset magnitudes defined by standard</td><td>See Table 73</td><td>Enumerate all entries in Table 73</td></tr>
+    <tr><td>last_cg_x</td><td>Validate coordinate constraints per block geometry</td><td>maxVal defined in Table 100</td><td>For each geometry, traverse all maxVal cases</td></tr>
+    <tr><td>cu_type_index</td><td>Cover all CABAC bin string encodings</td><td>See Table 80–82</td><td>Traverse all listed binary strings</td></tr>
+    <tr><td>b_pu_type_index</td><td>Cover PU type codes under each CU type</td><td>See Table 86–88</td><td>Traverse mapped codes per CU type</td></tr>
+  </tbody>
+</table>

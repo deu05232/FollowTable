@@ -1,0 +1,17 @@
+<table>
+  <caption>Information Container API - Update Container Status Request Parameters</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Data Type</th><th>Required</th><th>Description</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Path</td><td>projectId</td><td>string</td><td>Yes</td><td>Unique identifier of the project.</td><td>Same as project scope in other endpoints</td></tr>
+    <tr><td>Path</td><td>containerId</td><td>string</td><td>Yes</td><td>Unique identifier of the container to be updated.</td><td>Target container</td></tr>
+    <tr><td>Body</td><td>status</td><td>integer</td><td>Yes</td><td>Target lifecycle status to set on the container.</td><td>Server validates allowable transitions</td></tr>
+    <tr><td>Body</td><td>reason</td><td>string</td><td>No</td><td>Reason for status change.</td><td>Useful for auditing</td></tr>
+    <tr><td>Body</td><td>effectiveAt</td><td>string (date-time)</td><td>No</td><td>Schedule the status change to take effect at a specific time.</td><td>ISO 8601, e.g., 2026-01-19T10:00:00Z</td></tr>
+    <tr><td>Body</td><td>notify</td><td>boolean</td><td>No</td><td>Whether to notify subscribers of the container.</td><td>Default: false</td></tr>
+    <tr><td>Body</td><td>operator</td><td>object</td><td>No</td><td>Optional operator information for traceability.</td><td>See nested fields below</td></tr>
+    <tr><td>Body.operator</td><td>operatorId</td><td>string</td><td>Yes (if operator is provided)</td><td>Identifier of the user/system performing the action.</td><td>Non-empty string</td></tr>
+    <tr><td>Body.operator</td><td>operatorName</td><td>string</td><td>No</td><td>Display name of the operator.</td><td>For logs/UI only</td></tr>
+  </tbody>
+</table>

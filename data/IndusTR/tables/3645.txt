@@ -1,0 +1,29 @@
+<table>
+  <caption>Blowroom-Carding Combined Machine Alarm Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Emergency stop</td><td>EmergencyStop</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Inverter</td><td>Inverter</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td>、</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0902</td><td>Servo</td><td>Servo</td><td>0</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Motor overheating</td><td>MotorOverheating</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Motor overload</td><td>MotorOverload</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Communication</td><td>Communication</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>Underspeed</td><td>Underspeed</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Metal detection</td><td>MetalDetection</td><td>0</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0908</td><td>Limit switch</td><td>LimitSwitch</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Fire alarm</td><td>FireAlarm</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090A</td><td>Duct blockage</td><td>DuctBlockage</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090B</td><td>SAC dust filtering</td><td>DustFiltering</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090C</td><td>Main control system</td><td>MainControlSystem</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090D</td><td>Plucker alarm</td><td>PluckerAlarm</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090E</td><td>Opener alarm</td><td>OpenerAlarm</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090F</td><td>Mixer alarm</td><td>MixerAlarm</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0910</td><td>Scutcher alarm</td><td>ScutcherAlarm</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0911</td><td>Duct pressure overlimit</td><td>DuctPressureOverlimit</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0912</td><td>Flat carding machine alarm</td><td>FlatCardingMachineAlarm</td><td>M</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0913</td><td>Sliver break</td><td>BrokenSliver</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0914</td><td>Cotton web too thick</td><td>ThickCottonWeb</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>—</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0915</td><td>Cotton layer too thick</td><td>ThickCottonLayer</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>—</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0916</td><td>Foreign matter</td><td>ForeignMatter</td><td>0</td><td>ARRAY</td><td>RO</td><td>Boolean</td><td>丨</td><td></td><td>—</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0917</td><td>No spare can</td><td>NoSpareCan</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0918</td><td>Extensible data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>—</td><td>—</td><td>1</td><td>1</td></tr>
+</table>

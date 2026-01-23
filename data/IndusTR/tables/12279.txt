@@ -1,0 +1,15 @@
+<table>
+  <caption>Carbonate Process Emission Parameters (Stoichiometric CO2 Factors, Purity and Decomposition)</caption>
+  <thead>
+    <tr><th>Material Group</th><th>Carbonate Raw Material</th><th>Main Carbonate Species</th><th>Stoichiometric CO2 Factor</th><th>Factor Unit</th><th>Typical Carbonate Purity (%)</th><th>Typical Decomposition Rate (%)</th><th>Notes (Parameter Context)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Carbonate Minerals / Reagents</td><td>Limestone</td><td>CaCO3</td><td>0.440</td><td>tCO2/t CaCO3</td><td>95</td><td>98</td><td>Calcination releases CO2 from CaCO3</td></tr>
+    <tr><td>Dolomite</td><td>CaMg(CO3)2</td><td>0.477</td><td>tCO2/t carbonate</td><td>92</td><td>97</td><td>Two carbonate groups; higher CO2 per tonne than CaCO3</td></tr>
+    <tr><td>Magnesite</td><td>MgCO3</td><td>0.522</td><td>tCO2/t MgCO3</td><td>90</td><td>95</td><td>Lower molecular weight mineral drives higher factor</td></tr>
+    <tr><td>Soda ash</td><td>Na2CO3</td><td>Na2CO3</td><td>0.415</td><td>tCO2/t Na2CO3</td><td>99</td><td>100</td><td>Often used as a flux; near-complete decomposition assumed</td></tr>
+    <tr><td>Potash</td><td>K2CO3</td><td>K2CO3</td><td>0.318</td><td>tCO2/t K2CO3</td><td>98</td><td>100</td><td>Stoichiometric factor based on molecular weights</td></tr>
+    <tr><td>Strontianite</td><td>SrCO3</td><td>SrCO3</td><td>0.298</td><td>tCO2/t SrCO3</td><td>97</td><td>99</td><td>Higher mineral molecular weight reduces factor</td></tr>
+    <tr><td>Witherite</td><td>BaCO3</td><td>BaCO3</td><td>0.223</td><td>tCO2/t BaCO3</td><td>96</td><td>99</td><td>Heavy cation yields lower CO2 per tonne</td></tr>
+  </tbody>
+</table>

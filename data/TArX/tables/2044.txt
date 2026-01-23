@@ -1,0 +1,6 @@
+<table>
+  <caption>Summary of AIMD simulations results, for liquid water at 1.0 g/cm 3 and 340 K, using the PBE functional. We compare results with a DZP basis using a confining pressure of 0.2 GPa with a run of 20 ps, and a TZP basis using a confining pressure of 0.2 GPa with a run of 15 ps. Temperature T (K), pressure P (kbar), energy drift during the simulation E d ⁢ r ⁢ i ⁢ f ⁢ t (10 - 6 a.u./atom/ps), self diffusion coefficient D (10 - 5 cm 2 /s), height of first peak g O ⁢ O m ⁢ a ⁢ x , height of first minimum g O ⁢ O m ⁢ i ⁢ n and position of first maximum r O ⁢ O m ⁢ a ⁢ x (Å) of the O-O radial distribution function are compared.</caption>
+  <tr><th>Basis</th><th>T</th><th>P</th><th>E_(drift)</th><th>D</th><th>g^(max)_(OO)</th><th>g^(min)_(OO)</th><th>r^(max)_(OO)</th></tr>
+  <tr><th>DZP</th><th>353</th><td>4.5</td><td>-1.5</td><td>1.23</td><td>2.87</td><td>0.58</td><td>2.75</td></tr>
+  <tr><th>TZP</th><th>365</th><td>5.8</td><td>-2.3</td><td>1.20</td><td>2.85</td><td>0.50</td><td>2.73</td></tr>
+</table>

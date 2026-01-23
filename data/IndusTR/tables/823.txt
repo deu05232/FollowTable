@@ -1,0 +1,11 @@
+<table>
+  <caption>Knitting Equipment Definition Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0000</td><td>Equipment Number</td><td>MachineNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0001</td><td>Equipment Name</td><td>MachineName</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>一</td><td>一</td><td>一</td><td>丨</td></tr>
+  <tr><td>0X0002</td><td>Equipment Type</td><td>MachineType</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0003</td><td>Manufacturer</td><td>Manufacturer</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td>1</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0004</td><td>Production Date</td><td>ProductionDate</td><td>0</td><td>VAR</td><td>RO</td><td>DateTime</td><td>一</td><td>1</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0005</td><td>Installed Power</td><td>InstalledPower</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~200.00</td><td>kW</td><td>一</td><td></td></tr>
+  <tr><td>0X0006</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>一</td><td>1</td><td>1</td><td>一</td><td></td></tr>
+</table>

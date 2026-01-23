@@ -1,0 +1,7 @@
+<table>
+  <caption>AR camera image parameters (focus on numeric tuning/settings)</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>exposure_compensation</td><td>float</td><td>Numeric exposure adjustment applied to the camera stream</td></tr>
+  <tr><td>white_balance_kelvin</td><td>int32_t</td><td>Target white balance value expressed in Kelvin</td></tr>
+  <tr><td>near_plane</td><td>float</td><td>Near clipping plane distance used for rendering alignment</td></tr>
+</table>

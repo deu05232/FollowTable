@@ -1,0 +1,10 @@
+<table>
+  <caption>ArTrackable_getTrackingStateEx parameters</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>trackable</td><td>ArTrackable *</td><td>Trackable object pointer</td></tr>
+  <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>Pointer to the trackable's tracking state</td></tr>
+  <tr><td>out_last_tracked_timestamp_ns</td><td>int64_t *</td><td>Pointer to the last time (ns) the trackable was observed as TRACKING</td></tr>
+  <tr><td>out_state_age_ms</td><td>int32_t *</td><td>Pointer to the age (ms) of the current tracking state</td></tr>
+  <tr><td>out_is_prediction</td><td>bool *</td><td>Whether the returned state is predicted rather than directly observed</td></tr>
+</table>

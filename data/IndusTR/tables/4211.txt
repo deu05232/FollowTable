@@ -1,0 +1,7 @@
+<table>
+  <caption>Example Table of Hierarchical Relationships of X-ray Tube Sequence Attributes</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>X-ray Tube Sequence</td><td>(0014,3200)</td><td>SQ</td><td>1</td><td>2C</td><td></td></tr>
+  <tr><td>>X-ray Tube Type</td><td>(300A,0214)</td><td>CS</td><td>1</td><td>2</td><td>X-ray tube manufacturing type</td></tr>
+  <tr><td>>Maximum Tube Voltage</td><td>(0014,3204)</td><td>DS</td><td>1</td><td>3</td><td>Nominal maximum tube voltage of the X-ray tube, in kilovolts (kV)</td></tr>
+</table>

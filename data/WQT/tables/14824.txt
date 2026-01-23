@@ -1,0 +1,11 @@
+# Prerequisites Checklist by SharePoint Scenario (Focused on .NET and Windows Components Only)
+
+| SharePoint scenario | Supported Windows versions | Required .NET Framework | IIS/Windows features | PowerShell | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Single-server (evaluation) | Windows Server 2012 R2 64-bit | .NET 4.5.1 | IIS, ASP.NET, WCF Activation | Windows PowerShell 4.0+ | Ensure latest cumulative updates |
+| Single-server (production) | Windows Server 2008 R2 SP1 64-bit | .NET 4.5 | IIS, HTTP Activation, Web Management Tools | Windows PowerShell 3.0+ | Validate OS patch level |
+| Web front-end (multi-tier) | Windows Server 2012 64-bit | .NET 4.5 | IIS, Static Content, Default Document | PowerShell 4.0+ | Use consistent feature baseline |
+| Application tier (services) | Windows Server 2012 R2 64-bit | .NET 4.5.1 | WCF Services, Message Queuing (optional) | PowerShell 4.0+ | Service apps may require extra features |
+| Search tier | Windows Server 2012 R2 64-bit | .NET 4.5.1 | IIS, WCF Activation | PowerShell 4.0+ | Add additional disk for index |
+| Database server | Windows Server 2012 R2 64-bit | .NET 4.5.1 | (N/A) | PowerShell 4.0+ | Focus on OS components only |
+| Office Online integration node | Windows Server 2012 R2 64-bit | .NET 4.5.1 | IIS prerequisites | PowerShell 4.0+ | Requires TLS configuration |

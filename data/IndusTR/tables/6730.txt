@@ -1,0 +1,17 @@
+<table>
+  <caption>Component-Level Dimensional Fits and Limits for Incoming Rolling-Bearing Parts (Example Acceptance Criteria by Part)</caption>
+  <thead>
+    <tr><th>Component</th><th>Fit / tolerance requirement (what to check)</th><th>Limit type</th><th>Recommended inspection method</th><th>Reject if</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Shaft washer (thrust bearing stack)</td><td>Shaft seat tolerance: h10 (per component specification)</td><td>Fit class</td><td>Micrometer / go-no-go ring gauge</td><td>Measured shaft seat outside h10 zone or poor seating marks</td></tr>
+    <tr><td>Thrust needle roller and cage assembly</td><td>Shaft seat tolerance: h8 (per component specification)</td><td>Fit class</td><td>Micrometer; trial assembly on reference shaft</td><td>Interference/looseness inconsistent with h8 fit; cage rubs</td></tr>
+    <tr><td>Thrust needle roller bearing assembly with thrust washer</td><td>Shaft seat tolerance: h8 (per component specification)</td><td>Fit class</td><td>Micrometer; functional rotation check</td><td>Binding during rotation or axial wobble beyond internal spec</td></tr>
+    <tr><td>Housing bore (outer ring seat)</td><td>Housing bore tolerance per drawing (e.g., H7 for typical locating fit)</td><td>Fit class</td><td>Bore gauge; roundness check</td><td>Bore out of tolerance or out-of-round beyond drawing limit</td></tr>
+    <tr><td>Inner ring chamfer</td><td>Chamfer size per drawing; must clear shaft fillet radius</td><td>Dimensional limit</td><td>Optical comparator / chamfer gauge</td><td>Chamfer undersize causing interference with shaft shoulder</td></tr>
+    <tr><td>Outer ring corner radius</td><td>Corner radius per drawing; must match housing shoulder</td><td>Dimensional limit</td><td>Radius gauge / profile projector</td><td>Radius incorrect leading to incomplete seating</td></tr>
+    <tr><td>Rolling elements (balls/rollers)</td><td>Hardness uniformity: max hardness difference within lot ≤ specified internal limit</td><td>Specified limit</td><td>Hardness tester (sampled per plan)</td><td>Hardness spread exceeds limit or any piece outside target range</td></tr>
+    <tr><td>Inner/outer rings (heat treated)</td><td>Case/core structure per spec; no grinding burn allowed</td><td>Qualitative + limit</td><td>Nital etch / Barkhausen / microstructure check</td><td>Burn indications, abnormal microstructure, or surface cracks observed</td></tr>
+    <tr><td>Seal (rubber contact type)</td><td>Seal lip hardness (Shore A) within specified range; lip runout within limit</td><td>Specified limit</td><td>Durometer; dial indicator runout check</td><td>Hardness out of range, lip damaged, or runout exceeds limit</td></tr>
+  </tbody>
+</table>

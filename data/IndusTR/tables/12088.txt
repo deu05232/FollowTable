@@ -1,0 +1,14 @@
+<table>
+  <caption>Power Supply Tolerance and Brownout/Overvoltage Recording Unit (Datalogger ECU)</caption>
+  <thead>
+    <tr><th>Test ID</th><th>Operating Mode</th><th>Nominal Supply (V)</th><th>Undervoltage Threshold (V)</th><th>Overvoltage Threshold (V)</th><th>Allowed Ripple (mVpp)</th><th>Sample Rate for Supply Monitor</th><th>Measurement Accuracy</th><th>Pass/Fail Criterion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PS-01</td><td>Normal logging</td><td>12</td><td>9.0</td><td>16.0</td><td>300</td><td>1 kHz</td><td>±1% FS</td><td>No reset; no data loss beyond 1 s</td></tr>
+    <tr><td>PS-02</td><td>Crank</td><td>12</td><td>6.5</td><td>16.0</td><td>500</td><td>2 kHz</td><td>±1.5% FS</td><td>Continuous operation or controlled shutdown</td></tr>
+    <tr><td>PS-03</td><td>Jump start</td><td>12</td><td>9.0</td><td>24.0</td><td>500</td><td>1 kHz</td><td>±1% FS</td><td>No permanent damage</td></tr>
+    <tr><td>PS-04</td><td>24 V vehicle variant</td><td>24</td><td>16.0</td><td>32.0</td><td>400</td><td>1 kHz</td><td>±1% FS</td><td>Logging continues within spec</td></tr>
+    <tr><td>PS-05</td><td>Load dump</td><td>12</td><td>9.0</td><td>40.0</td><td>800</td><td>5 kHz</td><td>±2% FS</td><td>Withstand pulse; recover automatically</td></tr>
+    <tr><td>PS-06</td><td>Cold start</td><td>12</td><td>7.0</td><td>16.0</td><td>600</td><td>2 kHz</td><td>±1.5% FS</td><td>No corrupted files; safe state permitted</td></tr>
+  </tbody>
+</table>

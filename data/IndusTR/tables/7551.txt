@@ -1,0 +1,32 @@
+<table>
+  <caption>SM9 Key Agreement (Sponsor) — Generate Agreement Data and Initial Session Key Handle</caption>
+  <thead>
+    <tr><th>Item</th><th>Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Prototype</td><td>int SAF_SM9GenerateAgreementDataAndKey(
+    void          *hSymmKeyObj,
+    unsigned int   uiMasterPublicKeyIndex,
+    unsigned int   uiKeyBits,
+    const unsigned char *pucSponsorID,
+    unsigned int   uiSponsorIDLength,
+    unsigned char *pucSponsorTmpPublicKey,
+    unsigned int  *puiSponsorTmpPublicKeyLen,
+    const unsigned char *pucResponseTmpPublicKey,
+    unsigned int   uiResponseTmpPublicKeyLen,
+    void         **phKeyHandle);</td></tr>
+    <tr><td>Purpose</td><td>Compute/derive the negotiated SM9 session key on the sponsor side using both parties' IDs and temporary public keys, and return a session key handle plus the sponsor temporary public key.</td></tr>
+    <tr><td>Rules</td><td>The SM9 key agreement computation SHALL follow GB/T 41389. This interface MUST NOT be used for SM9 encryption, signature, key encapsulation, or key import.</td></tr>
+    <tr><td rowspan="10">Agreement-related parameters</td><td>hSymmKeyObj[in] — Symmetric algorithm object used by the implementation to materialize the negotiated key.</td></tr>
+    <tr><td>uiMasterPublicKeyIndex[in] — Index of SM9 encryption master public key used in key agreement.</td></tr>
+    <tr><td>uiKeyBits[in] — Desired negotiated session key length in bits (e.g., 128/256).</td></tr>
+    <tr><td>pucSponsorID[in] — Sponsor identity bytes used by SM9 KDF/confirmation.</td></tr>
+    <tr><td>uiSponsorIDLength[in] — Length of sponsor ID in bytes.</td></tr>
+    <tr><td>pucSponsorTmpPublicKey[out] — Buffer receiving sponsor ephemeral/temporary public key (SM9 point encoding).</td></tr>
+    <tr><td>puiSponsorTmpPublicKeyLen[in,out] — On input: buffer size; on output: actual sponsor temporary public key length.</td></tr>
+    <tr><td>pucResponseTmpPublicKey[in] — Responder ephemeral/temporary public key received from responder.</td></tr>
+    <tr><td>uiResponseTmpPublicKeyLen[in] — Length of responder temporary public key.</td></tr>
+    <tr><td>phKeyHandle[out] — Returned handle to the negotiated session key (for subsequent symmetric use).</td></tr>
+    <tr><td>Return value</td><td>0 on success; non-zero on failure (e.g., invalid ID/key lengths, invalid temporary public key encoding, agreement computation failure).</td></tr>
+  </tbody>
+</table>

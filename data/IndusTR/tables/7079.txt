@@ -1,0 +1,21 @@
+<table>
+  <caption>Association Specification: Machinery Subsidy Application to Dealer/Vendor Master (Purchase Validation)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Machinery Dealer/Vendor Master Table</td></tr>
+    <tr><td>Business Purpose</td><td>Validate seller identity on the application and support audit trails for subsidized purchases</td></tr>
+    <tr><td>Association Type</td><td>Foreign Key Association (Many Applications to One Vendor)</td></tr>
+    <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+    <tr><td>Table Name 2</td><td>Machinery Dealer/Vendor Master Table</td></tr>
+    <tr><td>Join Keys (Table 1 → Table 2)</td><td>application.vendor_id → vendor.vendor_id</td></tr>
+    <tr><td>Alternative Join Keys</td><td>application.vendor_tax_id → vendor.tax_id; application.vendor_license_no → vendor.license_no</td></tr>
+    <tr><td>Cardinality</td><td>Application (N) → Vendor (1)</td></tr>
+    <tr><td>Referential Integrity Rules</td><td>vendor_id is required when purchase_channel = 'Dealer'; must exist in Vendor Master</td></tr>
+    <tr><td>Workflow Stage</td><td>Application Submission / Eligibility Review</td></tr>
+    <tr><td>Common Filters</td><td>application.fiscal_year, application.county_code, vendor.status = 'Active'</td></tr>
+    <tr><td>Typical Fields Used from Vendor Master</td><td>vendor_name, business_address, bank_account_masked, compliance_rating</td></tr>
+    <tr><td>Notes</td><td>Supports cross-check with invoice issuer; helps detect duplicate/blacklisted sellers</td></tr>
+  </tbody>
+</table>

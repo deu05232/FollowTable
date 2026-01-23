@@ -1,0 +1,15 @@
+<table>
+  <caption>ATLAS AMBT1: minimum-bias analyses used, tuned observables, ranges, plus track/vertex selection and detector-level requirements</caption>
+  <thead>
+    <tr><th rowspan="2">ATLAS minimum-bias analysis sample</th><th rowspan="2">Observable tuned</th><th rowspan="2">Tuning / kinematic range</th><th colspan="4">Reconstruction / selection inputs (extra)</th></tr>
+    <tr><th>Track type</th><th>pT threshold</th><th>|η| acceptance</th><th>Primary-vertex requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.9 TeV MB, INEL, pT > 100 MeV</td><td>dN_ch/dη</td><td>|η| < 2.5</td><td>Pixel tracks</td><td>> 100 MeV</td><td>< 2.5</td><td>≥ 1 PV</td></tr>
+    <tr><td>0.9 TeV MB, n_ch ≥ 1, pT > 500 MeV</td><td>1/N dN/dpT</td><td>0.5–6 GeV</td><td>ID tracks</td><td>> 500 MeV</td><td>< 2.5</td><td>≥ 1 PV</td></tr>
+    <tr><td>0.9 TeV MB, n_ch ≥ 6, pT > 500 MeV</td><td>⟨pT⟩ vs N_ch</td><td>N_ch ≥ 20</td><td>Full tracks</td><td>> 500 MeV</td><td>< 2.5</td><td>≥ 2 tracks in PV</td></tr>
+    <tr><td>7 TeV MB, n_ch ≥ 2, pT > 100 MeV</td><td>dN_ch/dη</td><td>|η| < 2.5</td><td>Pixel tracks</td><td>> 100 MeV</td><td>< 2.5</td><td>≥ 1 PV</td></tr>
+    <tr><td>7 TeV MB, n_ch ≥ 1, pT > 500 MeV</td><td>1/N dN/dpT</td><td>0.5–10 GeV</td><td>ID tracks</td><td>> 500 MeV</td><td>< 2.5</td><td>≥ 1 PV</td></tr>
+    <tr><td>7 TeV MB, n_ch ≥ 6, pT > 500 MeV</td><td>Charged-particle multiplicity N_ch</td><td>N_ch: 6–80</td><td>Full tracks</td><td>> 500 MeV</td><td>< 2.5</td><td>Beam-spot constrained PV</td></tr>
+  </tbody>
+</table>

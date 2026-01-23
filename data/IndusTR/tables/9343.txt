@@ -1,0 +1,10 @@
+<table>
+  <caption>Parameters for exporting a sparse spatial map along with optional light estimate metadata</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>sparse_spatial_map</td><td>ArSparseSpatialMap *</td><td>Sparse spatial map object pointer</td></tr>
+  <tr><td>out_map_bytes</td><td>uint8_t **</td><td>Receives pointer to serialized map data</td></tr>
+  <tr><td>out_map_size</td><td>int32_t *</td><td>Receives size of serialized map data in bytes</td></tr>
+  <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Optional light estimate attached as metadata to the export</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Timestamp associated with the exported data</td></tr>
+</table>

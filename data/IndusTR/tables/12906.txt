@@ -1,0 +1,16 @@
+<table>
+  <caption>Roadside Cooperative Driving Broadcast - Data Item Checklist</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Field Name</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Generation Time</td><td>ms</td></tr>
+    <tr><td>2</td><td>RSU ID</td><td>—</td></tr>
+    <tr><td>3</td><td>RSU Location - Latitude</td><td>deg</td></tr>
+    <tr><td>4</td><td>RSU Location - Longitude</td><td>deg</td></tr>
+    <tr><td>5</td><td>RSU Heading</td><td>deg</td></tr>
+    <tr><td>6</td><td>RSU Status Flags</td><td>bitmask</td></tr>
+    <tr><td>7</td><td>Managed Lane Count</td><td>count</td></tr>
+    <tr><td>8</td><td>SAGRSU ID</td><td>—</td></tr>
+  </tbody>
+</table>

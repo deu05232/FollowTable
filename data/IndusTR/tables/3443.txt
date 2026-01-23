@@ -1,0 +1,14 @@
+<table>
+  <caption>Administrative Collection Detail Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>Collection Type</td><td>CollType</td><td>C1</td><td>O: Tax Collection;1: Resource Fee Collection；2: Construction Funds Collection;3: Sewage Discharge Fee Collection；4: Late Payment Fee Collection;5: Collections stipulated by other laws and regulations；9: Other</td><td>Multiple selections allowed</td></tr>
+  <tr><td>Collection Content</td><td>CollCont</td><td>C..2000</td><td></td><td></td></tr>
+  <tr><td>Collection Date</td><td>CollDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Collecting Authority Code</td><td>CollAuthNo</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Collecting Authority</td><td>CollAuth</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Remarks</td><td>Remark</td><td>C..ul</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit</td><td>DataDept</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit Code</td><td>DataDeptUniSCID</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Data Aggregation Unit</td><td>S_Ext_FromNode</td><td>C.100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

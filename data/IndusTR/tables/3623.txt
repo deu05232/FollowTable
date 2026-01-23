@@ -1,0 +1,8 @@
+<table>
+  <caption>Bilinear Operation Function Backward Interface (Input Tensor 2 and Weight) Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Output Tensor Gradient</td><td>Input</td><td>Required</td><td>Indicates the gradient of the output tensor in the forward interface. The output tensor is a tensor with shape [N,..，out_features]</td></tr>
+  <tr><td>Input Tensor 2</td><td>Input</td><td>Required</td><td>The first input tensor of the bilinear operation; its shape is conventionally [N,.，in_features2], i.e., input tensor 2 in the forward interface</td></tr>
+  <tr><td>Weight Tensor</td><td>Input</td><td>Required</td><td>The weight of the bilinear operation, a tensor with shape [out_features，in_featuresl，in_features2], i.e., the weight tensor in the forward interface</td></tr>
+  <tr><td>Input Tensor 1 Gradient</td><td>Output</td><td>Required</td><td>Indicates the gradient of input tensor 1 in the forward interface. Input tensor 1 is the first input tensor of the bilinear operation; its shape is conventionally [N,...，in_featuresl]</td></tr>
+</table>

@@ -1,0 +1,13 @@
+# Core Differentiation Rules (Algebraic Combinations)
+
+| Rule / Pattern | Original expression (in x) | Differentiated form (d/dx) |
+| --- | --- | --- |
+| Constant rule | c | 0 |
+| Constant multiple | c·f(x) | c·f'(x) |
+| Sum of two terms | f(x) + g(x) | f'(x) + g'(x) |
+| Difference of two terms | f(x) − g(x) | f'(x) − g'(x) |
+| Product rule | f(x)·g(x) | f'(x)·g(x) + f(x)·g'(x) |
+| Quotient rule | f(x)/g(x) | (f'(x)·g(x) − f(x)·g'(x)) / (g(x))^2 |
+| Power of x (n constant) | x^n | n·x^(n−1) |
+| Reciprocal as power | 1/x = x^(−1) | −1/x^2 |
+| Square root as power | √x = x^(1/2) | 1/(2√x) |

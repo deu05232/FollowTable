@@ -1,0 +1,9 @@
+<table>
+  <caption>Parameter List for the Forward Interface of the Tensor Diagonal Element Summation Operation Function</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Element types include integers and floating-point numbers</td></tr>
+  <tr><td>Diagonal Offset</td><td>Input</td><td>Optional</td><td>The position of the diagonal in the 2D plane, i.e., the offset relative to the main diagonal. 0 represents the main diagonal, negative numbers represent diagonals to the lower-left of the main diagonal, positive numbers represent diagonals to the upper-right of the main diagonal, default is 0</td></tr>
+  <tr><td>First Dimension of the 2D Plane</td><td>Input</td><td>Optional</td><td>The first dimension of the 2D plane where the diagonal is located</td></tr>
+  <tr><td>Second Dimension of the 2D Plane</td><td>Input</td><td>Optional</td><td>The second dimension of the 2D plane where the diagonal is located</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Represents the computation result; the data type is the same as the input tensor</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Notification Interface Load Test Plan (Callbacks & Subscriptions)</caption>
+  <tr><th>Scenario</th><th>Target Endpoint</th><th>Concurrency</th><th>Request Rate (RPS)</th><th>Duration</th><th>Success Criteria</th><th>Tools</th></tr>
+  <tr><td>Single Status Notification Burst</td><td>/notify/status</td><td>200</td><td>800</td><td>15 min</td><td>p95 < 300 ms, error < 0.5%</td><td>k6</td></tr>
+  <tr><td>Cancel Status Subscription Spike</td><td>/subscription/cancel</td><td>100</td><td>300</td><td>10 min</td><td>p95 < 400 ms, error < 1%</td><td>JMeter</td></tr>
+  <tr><td>Batch Status Subscription Steady</td><td>/subscription/batch</td><td>150</td><td>250</td><td>30 min</td><td>No throttling; stable memory</td><td>Gatling</td></tr>
+  <tr><td>Message Sending Throughput</td><td>/message/send</td><td>500</td><td>1200</td><td>20 min</td><td>p99 < 800 ms</td><td>Locust</td></tr>
+  <tr><td>Retry Storm Simulation</td><td>/notify/status</td><td>300</td><td>1000</td><td>10 min</td><td>Queue depth < 10k</td><td>k6</td></tr>
+  <tr><td>Auth Failure Rate</td><td>/message/send</td><td>50</td><td>100</td><td>10 min</td><td>401 handled; no crash</td><td>Postman + Newman</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>ATLAS AMBT1 tuning inputs: minimum-bias samples with observables, ranges, and Monte Carlo generator parameters</caption>
+  <thead>
+    <tr><th rowspan="2">ATLAS minimum-bias analysis sample</th><th rowspan="2">Observable tuned</th><th rowspan="2">Tuning / kinematic range</th><th colspan="3">Generator settings used (for the tune)</th></tr>
+    <tr><th>PDF</th><th>pT0Ref (GeV)</th><th>ColourReconnection</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.9 TeV MB, n_ch ≥ 6, pT > 500 MeV</td><td>dN_ch/dη</td><td>|η| < 2.5</td><td>CTEQ6L1</td><td>2.20</td><td>on</td></tr>
+    <tr><td>0.9 TeV MB, n_ch ≥ 6, pT > 500 MeV</td><td>⟨pT⟩ vs N_ch</td><td>N_ch ≥ 20</td><td>CTEQ6L1</td><td>2.20</td><td>on</td></tr>
+    <tr><td>0.9 TeV MB, n_ch ≥ 6, pT > 500 MeV</td><td>1/N dN/dpT</td><td>pT ≥ 5.0 GeV</td><td>CTEQ6L1</td><td>2.20</td><td>on</td></tr>
+    <tr><td>7 TeV MB, n_ch ≥ 2, pT > 100 MeV</td><td>dN_ch/dη</td><td>|η| < 2.5</td><td>MRST LO*</td><td>2.60</td><td>on</td></tr>
+    <tr><td>7 TeV MB, n_ch ≥ 2, pT > 100 MeV</td><td>1/N dN/dpT</td><td>0.1 < pT < 10 GeV</td><td>MRST LO*</td><td>2.60</td><td>on</td></tr>
+    <tr><td>7 TeV MB, n_ch ≥ 6, pT > 500 MeV</td><td>Transverse-region ΣpT density</td><td>pT^lead: 1–10 GeV</td><td>MRST LO*</td><td>2.60</td><td>off</td></tr>
+  </tbody>
+</table>

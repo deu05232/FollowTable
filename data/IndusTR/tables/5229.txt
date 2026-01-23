@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Obtain Symmetric Encryption Decryption Algorithm Interface Definition</caption>
+  <tr><td>Prototype</td><td>LONG SOF_GetEncryptMethod()</td></tr>
+  <tr><td>Description</td><td>Obtain the symmetric encryption/decryption algorithm currently used by the component</td></tr>
+  <tr><td>Parameters</td><td>None</td></tr>
+  <tr><td rowspan="2">Return value</td><td>Identifier of the encryption algorithm currently used(Success)</td></tr>
+  <tr><td>0(The encryption algorithm is not currently set)</td></tr>
+</table>

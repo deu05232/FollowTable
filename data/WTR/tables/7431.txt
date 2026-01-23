@@ -1,0 +1,14 @@
+# BitTorrent Client Applications (Desktop & Mobile) Comparison
+
+| Client | Primary platforms | License | Built-in search | Remote control / Web UI | Notable features | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| qBittorrent | Windows, macOS, Linux | GPLv2 (Open Source) | Yes (search plugins) | Yes (Web UI) | No-ads UI, RSS, sequential download, IP filtering | Often recommended as a lightweight alternative to ad-supported clients |
+| Transmission | macOS, Linux, *unofficial* Windows builds | GPL (Open Source) | No | Yes (Web UI) | Very lightweight, simple UI, good for seedboxes/NAS | Minimal feature set compared with power-user clients |
+| Deluge | Windows, macOS, Linux | GPL (Open Source) | Via plugins | Yes (daemon + thin clients) | Plugin system, headless daemon mode | Flexible for server-style setups |
+| µTorrent (uTorrent) | Windows, macOS | Proprietary (free/paid) | Yes (varies by version) | Yes (remote features vary) | Wide availability, scheduler, streaming (some versions) | Historically popular; watch for bundled offers/ads depending on build |
+| BitTorrent (Mainline client) | Windows, macOS, Android | Proprietary | Yes (varies by version) | Limited | Integration with BitTorrent ecosystem features | Distinct from “BitTorrent protocol”; this is a specific client app |
+| Vuze | Windows, macOS, Linux | GPL + optional proprietary components | Yes (via plugins) | Yes (remote/Web UI via plugins) | Powerful UI, plugins, media features | Heavier resource usage than minimal clients |
+| Tixati | Windows, Linux | Proprietary (free) | No | Yes (Web interface) | Detailed bandwidth/peer views, event logging | Power-user oriented interface |
+| BiglyBT | Windows, macOS, Linux | GPL (Open Source) | Yes | Yes | Fork/continuation of Vuze-style feature set without ads | Feature-rich alternative for advanced users |
+| LibreTorrent | Android | GPL (Open Source) | No | No | Material UI, battery-friendly, selective file download | Mobile-focused client |
+| Flud | Android | Proprietary (free/paid) | No | No | Simple UI, sequential download | Common Android option; features depend on version |

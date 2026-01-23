@@ -1,0 +1,22 @@
+<table>
+  <caption>VR System Working Mode Setting APIs</caption>
+  <tr><td>Interface Description</td><td>Interface Name</td></tr>
+  <tr><td>Set the system power consumption mode</td><td>bool vrConfigSetSystemCostMode(vrConfig *config，const vrSystemCostMode *mode)</td></tr>
+  <tr><td>Set the system sleep mode</td><td>bool vrConfigSetSystemDormancyMode(vrConfig *config，const vrSystemDormancy-Mode *mode)</td></tr>
+  <tr><td>Set the system shutdown mode</td><td>bool vrConfigSetSystemShutDownMode(vrConfig *config，const vrSystemShutDown-Mode *mode)</td></tr>
+  <tr><td>Set the HMD positioning working mode</td><td>bool vrConfigSetHMDPositioningMode(vrConfig *config，const vrHMDPositioning-Mode *mode)</td></tr>
+  <tr><td>Set the HMD relocalization working mode</td><td>bool vrConfigSetHMDRelocalizationMode(vrConfig *config，const vrHMDRelocaliza-tionMode *mode)</td></tr>
+  <tr><td>Set the controller positioning working mode</td><td>bool vrConfigSetControllerPositioningMode(vrConfig *config，const vrControllerPosi-tioningMode *mode)</td></tr>
+  <tr><td>Set the controller interaction mode</td><td>bool vrConfigSetControllerInteractiveMode(vrConfig *config，const vrControllerInterac-tiveMode *mode)</td></tr>
+  <tr><td>Set the HMD positioning working status</td><td>bool vrConfigSetHMDPositionSystemWorkingStatus(vrConfig *config，const vrHMD-PositionSystemWorkingStatus *status)</td></tr>
+  <tr><td>Set the HMD cloud sync status</td><td>bool vrConfigSetHMDCloudSyncStatus(vrConfig *config，const vrHMDCloudSyncSta-tus *status)</td></tr>
+  <tr><td>Set the target LED status</td><td>bool vrLEDSetStatus(const vrLED *led，const vrLEDStatus led_status)</td></tr>
+  <tr><td>Set the target SonicUnit status</td><td>bool vrSonicUnitSetStatus(const vrSonicUnit *sonicUnit,const vrSonicUnitStatus soni-cUnit_status)</td></tr>
+  <tr><td>Set the controller positioning working status</td><td>bool vrConfigSetControllerPositionSystemWorkingStatus(vrConfig *config，const vr-ControllerPositionSystem WorkingStatus status ）</td></tr>
+  <tr><td>Set dormancy timer</td><td>bool vrConfigSetDormancyTime(const float time)</td></tr>
+  <tr><td>Set controller vibration parameters</td><td>bool vrControllerSetVibration(const float vibrate)</td></tr>
+  <tr><td>Reboot control (please add an API to get device_id)</td><td>bool vrDeviceRebootDevice(const int32_t device_id)</td></tr>
+  <tr><td>Shutdown control</td><td>bool vrDeviceShutDownDevice(const int32_t device_id)</td></tr>
+  <tr><td>Stationary lock setting</td><td>bool vrDeviceStationaryLock(const int32_t device_id,const uint8_t lock_state)</td></tr>
+  <tr><td>Set the system power consumption mode</td><td>bool vrConfigSetSystemCostMode(vrConfig *config，const vrSystemCostMode *mode)</td></tr>
+</table>

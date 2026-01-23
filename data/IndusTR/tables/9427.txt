@@ -1,0 +1,15 @@
+<table>
+  <caption>Construction Machinery OID Delegation: Third-Party Nodes Combined with Enterprise Identifier Construction</caption>
+  <thead>
+    <tr><th>Layer</th><th>Allocation / Rule</th><th>Example Value</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Field OID root</td><td>Construction machinery field node approved by national registry</td><td>1.2.156.3514</td><td>Top-level root for this sector</td></tr>
+    <tr><td>Third-party organization range</td><td>Reserved range for third-party organizations (sequential issuance)</td><td>2001–10000</td><td>Delegated to external organizations</td></tr>
+    <tr><td>Third-party organization node (sample)</td><td>One node assigned to a certification / registry body</td><td>2018</td><td>Example third-party node assignment</td></tr>
+    <tr><td>Enterprise identifier (USCC)</td><td>Enterprise code used to build a full identifier under third-party node</td><td>91350100MA2Y9C7X3Q</td><td>Enterprise identifier mixed into the same table</td></tr>
+    <tr><td>Product / asset number</td><td>Product serial allocated by the enterprise</td><td>CM-EXC-0000451</td><td>Product numbering example</td></tr>
+    <tr><td>Full OID assembly</td><td>Concatenate: root + third-party + enterprise + product</td><td>1.2.156.3514.2018.91350100MA2Y9C7X3Q.CM-EXC-0000451</td><td>Shows full identifier construction</td></tr>
+    <tr><td>Validation rule</td><td>Check-digit / format validation for enterprise code</td><td>GB/T-style check (illustrative)</td><td>Enterprise validation distracts from delegation</td></tr>
+  </tbody>
+</table>

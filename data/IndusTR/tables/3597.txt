@@ -1,0 +1,15 @@
+<table>
+  <caption>Basic Information Table of Industrial Cellular Terminal Communication Relationships</caption>
+  <tr><td>Focus Item5AC</td><td>Actual Information</td><td>Unit</td><td>Necessity</td><td>Description</td></tr>
+  <tr><td>Communication Relationship Identifier</td><td></td><td>丨</td><td>Required</td><td>Identifier assigned for this application (incremental, unique)</td></tr>
+  <tr><td>Focus Item</td><td>Actual Information</td><td>Unit</td><td>Necessity</td><td>Description</td></tr>
+  <tr><td>Communication Relationship Name</td><td></td><td>1</td><td>Optional</td><td>Business name of the application in the industry</td></tr>
+  <tr><td>Name and Identifier of Communication Sender</td><td></td><td></td><td>Required</td><td>Name and identifier of the cellular device that sends data in the communication relationship</td></tr>
+  <tr><td>Name and Identifier of Communication Receiver</td><td></td><td></td><td>Required</td><td>Name and identifier of the cellular device that receives data in the communication relationship</td></tr>
+  <tr><td>Clock Synchronization Accuracy/Non-Clock-Based Synchronization Accuracy</td><td></td><td>ms</td><td>Optional</td><td>Clock synchronization accuracy: the maximum deviation between the clocks of any two terminal devices. Terminal devices include cellular terminal devices and wired terminal devices. Non-time synchronization accuracy: the maximum jitter of cyclic behavior of any two terminal devices; cyclic behavior is established by triggering periodic events</td></tr>
+  <tr><td>Transmission Period</td><td></td><td>ms</td><td>Optional</td><td>In this communication relationship, the time interval for periodic application data transmission in the industrial application; do not fill in this item for non-periodic services</td></tr>
+  <tr><td>Application Data Volume</td><td></td><td>byte</td><td>Optional</td><td>In this communication relationship, the range of the maximum data volume of the application to be transmitted within a certain period of time. For periodic services, this certain period of time is the transmission period</td></tr>
+  <tr><td>E2E Latency</td><td></td><td>ms</td><td>Optional</td><td>Expected duration for application data to be transmitted from the source to the destination. To ensure timeliness, it should be at least less than the transmission period</td></tr>
+  <tr><td>Application Reliability</td><td></td><td>km/h</td><td>Optional</td><td>The ratio of the number of successfully transmitted packets to the total number of transmitted packets. Successful transmission means the application data packet arrives at the receiving end while meeting transmission requirements</td></tr>
+  <tr><td>Survival Time</td><td></td><td>ms</td><td>Optional</td><td>Maximum time that the industrial application can continue to run without receiving the expected message</td></tr>
+</table>

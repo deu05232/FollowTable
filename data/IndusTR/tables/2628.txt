@@ -1,0 +1,14 @@
+<table>
+  <caption>Glossary  Cooperative Driving Terms and Acronyms (Non-data-item Definitions)</caption>
+  <thead>
+    <tr><th>Term</th><th>Full Name</th><th>Description</th><th>Typical Layer</th><th>Example Usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>RSU</td><td>Roadside Unit</td><td>Fixed infrastructure node for V2X communications</td><td>Infrastructure</td><td>RSU broadcasts advisory messages</td></tr>
+    <tr><td>OBU</td><td>On-board Unit</td><td>Vehicle-mounted V2X communication device</td><td>Vehicle</td><td>OBU receives SPaT</td></tr>
+    <tr><td>SPaT</td><td>Signal Phase and Timing</td><td>Traffic signal state and timing information</td><td>Application</td><td>Used for eco-driving</td></tr>
+    <tr><td>MAP</td><td>MAP Data</td><td>Intersection geometry and lane connectivity</td><td>Application</td><td>Lane-level navigation</td></tr>
+    <tr><td>CPM</td><td>Collective Perception Message</td><td>Shared perception of detected objects</td><td>Application</td><td>Sensor fusion</td></tr>
+    <tr><td>CAM</td><td>Cooperative Awareness Message</td><td>Periodic status broadcast</td><td>Application</td><td>Awareness beacons</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+# CIDR Prefix and Subnet Mask Cheat Sheet (IPv4 Planning Reference)
+
+| CIDR prefix | Subnet mask | Total addresses | Usable hosts (typical) | Common use |
+|---|---|---:|---:|---|
+| /20 | 255.255.240.0 | 4096 | 4094 | Medium campus block |
+| /21 | 255.255.248.0 | 2048 | 2046 | Branch aggregation |
+| /22 | 255.255.252.0 | 1024 | 1022 | Site subnet |
+| /23 | 255.255.254.0 | 512 | 510 | Larger VLAN |
+| /24 | 255.255.255.0 | 256 | 254 | Standard LAN subnet |
+| /25 | 255.255.255.128 | 128 | 126 | Split /24 |
+| /26 | 255.255.255.192 | 64 | 62 | Small VLAN |
+| /27 | 255.255.255.224 | 32 | 30 | Point-to-point / small segments |
+| /28 | 255.255.255.240 | 16 | 14 | DMZ micro-segment |
+| /29 | 255.255.255.248 | 8 | 6 | Provider handoff |
+| /30 | 255.255.255.252 | 4 | 2 | Legacy point-to-point |
+| /31 | 255.255.255.254 | 2 | 2 | Point-to-point (RFC 3021) |

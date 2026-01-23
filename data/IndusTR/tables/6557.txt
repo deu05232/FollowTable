@@ -1,0 +1,15 @@
+<table>
+  <caption>Enumerations for User Terminal I/O Statements (Codes Only, No Meanings)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Statement</th><th>Parameter</th><th>Allowed Codes</th><th>Default</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>UT_NET_MGMT_IN</td><td>Network management information type</td><td>1, 2, 3, 4</td><td>1</td></tr>
+    <tr><td>2</td><td>UT_MSG_SEND</td><td>Service type / emergency flag</td><td>1, 2</td><td>2</td></tr>
+    <tr><td>3</td><td>UT_RF_CFG</td><td>Station frequency point</td><td>0, 1, 2</td><td>0</td></tr>
+    <tr><td>4</td><td>UT_SILENCE_CTRL</td><td>Silence start/stop flag</td><td>0, 1</td><td>0</td></tr>
+    <tr><td>5</td><td>UT_REPORT</td><td>Report type</td><td>1, 2, 3</td><td>3</td></tr>
+    <tr><td>6</td><td>UT_OUT_BEAM_CFG</td><td>Signal branch</td><td>1, 2, 3</td><td>3</td></tr>
+    <tr><td>7</td><td>UT_OUT_BEAM_CFG</td><td>Outbound beam ID</td><td>0–64</td><td>64</td></tr>
+  </tbody>
+</table>

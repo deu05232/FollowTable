@@ -1,0 +1,11 @@
+# .NET Framework and Client OS Compatibility for SharePoint-related Tools (Not a SharePoint Installation Scenario Checklist)
+
+| Client/Server OS | Architecture | Preinstalled .NET version | Supported .NET upgrade path | Typical use with SharePoint | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Windows 8.1 | 32-bit/64-bit/ARM | .NET 4.5.1 | Upgrade to 4.6+ | Admin tools, browser testing | Client OS only |
+| Windows 8 | 32-bit/64-bit/ARM | .NET 4.5 | Upgrade to 4.6+ | Admin tools | Client OS only |
+| Windows 7 SP1 | 32-bit/64-bit | Not included | Install 4.5+ | Legacy admin workstation | Requires SP1 patches |
+| Windows Vista SP2 | 32-bit/64-bit | Not included | Install 4.0/4.5 (varies) | Legacy workstation | Not recommended |
+| Windows Server 2012 R2 | 64-bit | .NET 4.5.1 | Upgrade to 4.6+ | Host OS generally | Baseline for many apps |
+| Windows Server 2012 | 64-bit | .NET 4.5 | Upgrade to 4.6+ | Host OS generally | Patch-dependent |
+| Windows Server 2008 R2 SP1 | 64-bit | Not included | Install 4.5+ | Legacy host OS | Requires updates |

@@ -1,0 +1,15 @@
+<table>
+  <caption>Electric Compressor Technical Requirements (Mixed Qualification Table)</caption>
+  <thead>
+    <tr><th>Requirement area</th><th>Test / Metric</th><th>Operating speed (r/min)</th><th>Target / Limit</th><th>Unit</th><th>Noise class</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Acoustics</td><td>Sound pressure level, A-weighted</td><td>2000</td><td>≤ 65</td><td>dB(A)</td><td>Class B</td><td>Measured at 1 m in semi-anechoic room</td></tr>
+    <tr><td>Sound pressure level, A-weighted</td><td>5000</td><td>≤ 74</td><td>dB(A)</td><td>Class B</td><td>Microphone height aligned with compressor centerline</td></tr>
+    <tr><td>Sound pressure level, A-weighted</td><td>8000</td><td>≤ 82</td><td>dB(A)</td><td>Class B</td><td>Speed held within ±1%</td></tr>
+    <tr><td rowspan="2">Electrical withstand</td><td>DC hipot test voltage</td><td>—</td><td>1400</td><td>V</td><td>—</td><td>Apply for 60 s</td></tr>
+    <tr><td>Leakage current</td><td>—</td><td>≤ 2</td><td>mA</td><td>—</td><td>At rated voltage</td></tr>
+    <tr><td rowspan="2">Internal cleanliness</td><td>Total mass of internal impurities</td><td>—</td><td>≤ 35</td><td>mg</td><td>—</td><td>Filter method, post-assembly</td></tr>
+    <tr><td>Largest particle size</td><td>—</td><td>≤ 300</td><td>µm</td><td>—</td><td>Optical inspection</td></tr>
+  </tbody>
+</table>

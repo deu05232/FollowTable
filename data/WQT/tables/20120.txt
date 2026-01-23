@@ -1,0 +1,9 @@
+# Selected IPv4 special-use ranges (CIDR + purpose)
+
+| Address block (CIDR) | Purpose | Reference |
+| --- | --- | --- |
+| 0.0.0.0/8 | "this" network / invalid as destination | RFC 6890 |
+| 10.0.0.0/8 | Private network | RFC 1918 |
+| 100.64.0.0/10 | Shared address space (CGNAT) | RFC 6598 |
+| 127.0.0.0/8 | Loopback | RFC 6890 |
+| 169.254.0.0/16 | Link-local | RFC 3927 |

@@ -1,0 +1,10 @@
+<table>
+  <caption>CI CD Pipeline Steps for Deploying the Information Container Service</caption>
+  <tr><th>Stage</th><th>Tool</th><th>Command/Job</th><th>Artifact</th><th>Timeout (min)</th><th>Owner</th></tr>
+  <tr><td>Checkout</td><td>Git</td><td>git clone</td><td>Source</td><td>5</td><td>DevOps</td></tr>
+  <tr><td>Build</td><td>Maven</td><td>mvn package</td><td>JAR</td><td>15</td><td>Backend</td></tr>
+  <tr><td>Unit Test</td><td>JUnit</td><td>mvn test</td><td>Reports</td><td>20</td><td>Backend</td></tr>
+  <tr><td>Containerize</td><td>Docker</td><td>docker build</td><td>Image</td><td>20</td><td>DevOps</td></tr>
+  <tr><td>Deploy</td><td>Kubernetes</td><td>helm upgrade</td><td>Release</td><td>30</td><td>DevOps</td></tr>
+  <tr><td>Smoke Test</td><td>Postman/Newman</td><td>newman run</td><td>Logs</td><td>15</td><td>QA</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>AR HitResultList Creation and Lifetime Management API (Container-focused)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResultList_create</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle used to allocate the list container</td></tr>
+    <tr><td>ArHitResultList_create</td><td>out_hit_result_list</td><td>ArHitResultList **</td><td>out</td><td>Receives address of the newly created hit-result list</td></tr>
+    <tr><td>ArHitResultList_destroy</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Destroys the list container and releases memory</td></tr>
+    <tr><td>ArHitResultList_clear</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Removes all items; does not return collision outcome data</td></tr>
+    <tr><td>ArHitResultList_reserve</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Ensures capacity for at least N results (implementation-dependent)</td></tr>
+    <tr><td>ArHitResultList_reserve</td><td>capacity</td><td>int32_t</td><td>in</td><td>Requested capacity</td></tr>
+    <tr><td>ArHitResultList_isEmpty</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Checks if the container holds any items</td></tr>
+    <tr><td>ArHitResultList_isEmpty</td><td>out_is_empty</td><td>int32_t *</td><td>out</td><td>1 if empty, 0 otherwise</td></tr>
+  </tbody>
+</table>

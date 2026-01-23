@@ -1,0 +1,17 @@
+<table>
+  <caption>Measured birefringence (Δn) of optical crystals under specified wavelengths and temperatures.</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th rowspan="2">Crystal class / cut</th><th colspan="2">Measurement conditions</th><th colspan="2">Measured birefringence</th><th rowspan="2">Method / note</th></tr>
+    <tr><th>Wavelength (nm)</th><th>Temperature (°C)</th><th>Δn (dimensionless)</th><th>Uncertainty (±)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Quartz (SiO2)</td><td>Uniaxial (+), Z-cut</td><td>632.8</td><td>23</td><td>0.00910</td><td>0.00005</td><td>Sénarmont compensator</td></tr>
+    <tr><td>Quartz (SiO2)</td><td>Uniaxial (+), Z-cut</td><td>1064</td><td>23</td><td>0.00874</td><td>0.00006</td><td>Sénarmont compensator</td></tr>
+    <tr><td>Calcite (CaCO3)</td><td>Uniaxial (−), X-cut</td><td>532</td><td>20</td><td>0.173</td><td>0.002</td><td>Ellipsometry (phase retardation)</td></tr>
+    <tr><td>Calcite (CaCO3)</td><td>Uniaxial (−), X-cut</td><td>633</td><td>20</td><td>0.169</td><td>0.002</td><td>Ellipsometry (phase retardation)</td></tr>
+    <tr><td>MgF2</td><td>Uniaxial (+), a-cut</td><td>405</td><td>25</td><td>0.0128</td><td>0.0002</td><td>Polarimetric retardation</td></tr>
+    <tr><td>MgF2</td><td>Uniaxial (+), a-cut</td><td>633</td><td>25</td><td>0.0119</td><td>0.0002</td><td>Polarimetric retardation</td></tr>
+    <tr><td>Sapphire (Al2O3)</td><td>Uniaxial (−), c-cut</td><td>532</td><td>22</td><td>0.0084</td><td>0.0001</td><td>Interferometric phase shift</td></tr>
+    <tr><td>Sapphire (Al2O3)</td><td>Uniaxial (−), c-cut</td><td>1064</td><td>22</td><td>0.0080</td><td>0.0001</td><td>Interferometric phase shift</td></tr>
+  </tbody>
+</table>

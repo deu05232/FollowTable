@@ -1,0 +1,17 @@
+<table>
+  <caption>Material Conveying & Tank Routing Plan (Batch Feeding) for Tire Line</caption>
+  <thead>
+    <tr><th>Plan Section</th><th>No.</th><th>Field Name</th><th>Type</th><th>Length (bit)</th><th>Example / Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Conveying Plan Header</td><td>1</td><td>Conveying Plan Number</td><td>STR</td><td>User-defined</td><td>CP-2026-001</td><td>Identifier for material movement plan</td></tr>
+    <tr><td>2</td><td>Source Tank Group</td><td>INT</td><td>16</td><td>1~32</td><td>Conveying line / tank group index</td></tr>
+    <tr><td>3</td><td>Source Tank Type</td><td>INT</td><td>16</td><td>1=Pressure tank, 2=Silo</td><td>Defines source container category</td></tr>
+    <tr><td>4</td><td>Destination Hopper ID</td><td>INT</td><td>16</td><td>1~64</td><td>Target hopper/bin at the line</td></tr>
+    <tr><td>5</td><td>Routing Valve Path</td><td>STR</td><td>User-defined</td><td>V1->V3->V8</td><td>Valve sequence for routing</td></tr>
+    <tr><td>6</td><td>Conveying Start Condition</td><td>STR</td><td>User-defined</td><td>HopperLow=TRUE</td><td>Trigger condition for transfer</td></tr>
+    <tr><td>7</td><td>Max Transfer Time</td><td>FLOAT</td><td>32</td><td>10~600 s</td><td>Timeout for conveying operation</td></tr>
+    <tr><td rowspan="2">Batching Details</td><td>8</td><td>Target Transfer Mass</td><td>FLOAT</td><td>32</td><td>0.5~200.0 kg</td><td>Planned mass to move for the batch</td></tr>
+    <tr><td>9</td><td>Post-Transfer Purge Time</td><td>FLOAT</td><td>32</td><td>0~60 s</td><td>Line purge duration after transfer</td></tr>
+  </tbody>
+</table>

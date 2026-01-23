@@ -1,0 +1,10 @@
+<table>
+  <caption>Font Production Inputs — Glyph Source Assets and Build Parameters for Mongolian OpenType Fonts</caption>
+  <tr><th>Asset/Parameter</th><th>Description</th><th>Recommended Setting</th><th>File/Tool</th><th>Validation Check</th></tr>
+  <tr><td>Glyph Source Format</td><td>Master outlines for all glyphs</td><td>UFO v3</td><td>Glyphs / RoboFont</td><td>Contour direction consistency</td></tr>
+  <tr><td>Units per Em</td><td>Font coordinate grid resolution</td><td>1000</td><td>FontMake</td><td>Ascender/descender bounds</td></tr>
+  <tr><td>Vertical Metrics</td><td>Baseline and line gap tuning</td><td>ascent=880, descent=-220</td><td>ttx</td><td>OS/2 and hhea match</td></tr>
+  <tr><td>GSUB Feature File</td><td>OpenType substitutions specification</td><td>Split by script module</td><td>feaLib</td><td>Compilation without warnings</td></tr>
+  <tr><td>Anchors for Mark Positioning</td><td>Attachment points for marks</td><td>Use consistent naming</td><td>FontTools</td><td>MarkToBase coverage</td></tr>
+  <tr><td>Build Pipeline</td><td>Automation steps</td><td>UFO → OTF → WOFF2</td><td>Makefile/CI</td><td>Binary diff within tolerance</td></tr>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Refueling Audit Trail and Document Linkage</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Event Identification</td><td>1</td><td>Business Document ID</td><td>Character</td><td>an..30</td><td>Primary document identifier for the refueling event</td></tr>
+    <tr><td>Event Identification</td><td>2</td><td>Refueling Event ID</td><td>Character</td><td>an..32</td><td>Unique ID for the event record (may differ from workflow document ID)</td></tr>
+    <tr><td>Event Details</td><td>3</td><td>Refueling Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time the fuel was dispensed</td></tr>
+    <tr><td>Event Details</td><td>4</td><td>Refueling Station Identifier</td><td>Character</td><td>an..30</td><td>Station/organization identifier used by the platform</td></tr>
+    <tr><td>Event Details</td><td>5</td><td>Station Transaction Serial Number</td><td>Character</td><td>an..40</td><td>Serial number printed by the station or POS</td></tr>
+    <tr><td>Audit Information</td><td>6</td><td>Record Creation Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>When the refueling record was created in the platform</td></tr>
+    <tr><td>Audit Information</td><td>7</td><td>Submitted For Audit Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>When the event entered the audit workflow</td></tr>
+    <tr><td>Audit Information</td><td>8</td><td>Audit Result</td><td>Character</td><td>an..20</td><td>Audit outcome (Approved/Rejected/Returned)</td></tr>
+    <tr><td>Audit Information</td><td>9</td><td>Audit Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time the audit decision was made</td></tr>
+    <tr><td>Audit Information</td><td>10</td><td>Audit Comment</td><td>Character</td><td>an..200</td><td>Reason or notes for the audit decision</td></tr>
+  </tbody>
+</table>

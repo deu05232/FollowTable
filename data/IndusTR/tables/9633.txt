@@ -1,0 +1,15 @@
+<table>
+  <caption>Tire Building Line Quality Inspection and Defect Classification Summary</caption>
+  <thead>
+    <tr><th>No.</th><th>Inspection Station</th><th>Measured Feature</th><th>Defect Class</th><th>Severity Level</th><th>Acceptance Criteria</th><th>Disposition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Green Tire Visual Check</td><td>Sidewall appearance</td><td>Contamination / Smear</td><td>Minor</td><td>No visible smear > 10 mm</td><td>Rework</td></tr>
+    <tr><td>2</td><td>Bead Area Camera</td><td>Bead alignment</td><td>Bead misplacement</td><td>Major</td><td>Offset ≤ 1.0 mm</td><td>Reject</td></tr>
+    <tr><td>3</td><td>Ply Splice Scanner</td><td>Splice overlap</td><td>Underlap / Overlap</td><td>Major</td><td>Overlap 2–5 mm</td><td>Hold for review</td></tr>
+    <tr><td>4</td><td>Tread Placement Vision</td><td>Tread centering</td><td>Off-center tread</td><td>Critical</td><td>Center deviation ≤ 0.8 mm</td><td>Reject</td></tr>
+    <tr><td>5</td><td>Innerliner Leak Test</td><td>Pressure decay</td><td>Leak indication</td><td>Critical</td><td>Decay ≤ 2 kPa / 30 s</td><td>Reject</td></tr>
+    <tr><td>6</td><td>Uniformity Machine</td><td>RFV / LFV</td><td>Non-uniformity</td><td>Major</td><td>RFV ≤ target band</td><td>Grade & sort</td></tr>
+    <tr><td>7</td><td>X-ray Inspection</td><td>Internal structure</td><td>Foreign object / Separation</td><td>Critical</td><td>No foreign object > threshold</td><td>Reject</td></tr>
+  </tbody>
+</table>

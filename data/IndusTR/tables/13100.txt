@@ -1,0 +1,14 @@
+<table>
+  <caption>Tsunami Warning Sign Identifiers (Color) with Response Levels and Operational Triggers</caption>
+  <thead>
+    <tr><th>Code</th><th>Sign (Static Identifier)</th><th>Color</th><th>Basic Meaning</th><th>Response Level</th><th>Operational Trigger / Process Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TS-01</td><td>TSUNAMI_BLUE</td><td>Blue</td><td>Advisory: potential tsunami risk</td><td>Level IV</td><td>Start enhanced monitoring; issue coastal watch bulletin</td></tr>
+    <tr><td>TS-02</td><td>TSUNAMI_YELLOW</td><td>Yellow</td><td>Warning: tsunami possible</td><td>Level III</td><td>Prepare evacuation routes; activate harbor broadcast system</td></tr>
+    <tr><td>TS-03</td><td>TSUNAMI_ORANGE</td><td>Orange</td><td>Severe warning: tsunami likely</td><td>Level II</td><td>Initiate partial evacuation; close vulnerable coastal facilities</td></tr>
+    <tr><td>TS-04</td><td>TSUNAMI_RED</td><td>Red</td><td>Emergency: destructive tsunami imminent/ongoing</td><td>Level I</td><td>Full evacuation; suspend marine operations; continuous siren alerts</td></tr>
+    <tr><td>TS-05</td><td>TSUNAMI_RED_PLUS</td><td>Red</td><td>Extreme emergency: multiple waves expected</td><td>Level I+</td><td>Maintain exclusion zones; deploy rescue staging after wave passage</td></tr>
+    <tr><td>TS-06</td><td>TSUNAMI_ALL_CLEAR</td><td>Blue</td><td>All clear / downgrade notice</td><td>De-escalation</td><td>Return-to-port coordination; stand down response teams</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+# Hybrid Deployment Building Blocks and What They Enable (On-Premises Exchange + Microsoft 365)
+
+| Hybrid component / configuration | Purpose in a hybrid deployment | Coexistence behavior it enables |
+| --- | --- | --- |
+| Directory synchronization (e.g., Entra ID Connect) | Sync identities and attributes between on-premises AD and Microsoft 365. | Users can find and address recipients across both environments; supports a more unified GAL experience. |
+| Hybrid mail flow connectors | Define trusted transport path between on-premises Exchange and Exchange Online. | Reliable cross-environment mail routing and consistent transport behavior (rather than treating it as generic external SMTP). |
+| Federation / OAuth trust (depending on version) | Establish cross-org trust for service-to-service features. | Cross-premises free/busy and richer sharing experiences between mailboxes on different sides. |
+| Autodiscover / client redirection strategy | Help clients locate the correct mailbox location during coexistence and after moves. | Users keep using familiar clients while mailboxes move; less need for manual profile reconfiguration during staged migration. |
+| Remote move migration endpoint | Allows Exchange Online to move mailboxes from on-premises Exchange. | Staged mailbox migration with minimal downtime; coexistence while some users are cloud and others remain on-prem. |
+| Hybrid configuration wizard (HCW) outputs | Automates creation of relationships, connectors, and org settings. | Makes cross-premises features work consistently and reduces “two separate orgs” behavior. |
+| Shared SMTP domains / accepted domains alignment | Coordinate which side is authoritative for domains and routing decisions. | Users can share the same email domain across both sides while mailboxes exist in different locations. |
+| Centralized vs decentralized transport choice | Decide whether outbound/inbound mail routes via on-premises, cloud, or both. | Enables scenarios like keeping on-prem gateways/compliance tools while still hosting some mailboxes in Microsoft 365.

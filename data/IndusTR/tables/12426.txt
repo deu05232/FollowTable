@@ -1,0 +1,20 @@
+<table>
+  <caption>Caption Presentation and Timing Descriptor Syntax (No Framing Focus)</caption>
+  <thead>
+    <tr><th>Descriptor Block</th><th>Field</th><th>Type</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>time_information(){</td><td>time_reference</td><td>u(2)</td><td>Selects timing reference</td></tr>
+    <tr><td>time_information(){</td><td>time_format</td><td>u(2)</td><td>Defines timestamp units</td></tr>
+    <tr><td>time_information(){</td><td>time_value</td><td>u(32)</td><td>Timestamp value</td></tr>
+    <tr><td>display_description(){</td><td>display_direction</td><td>u(2)</td><td>Reading direction</td></tr>
+    <tr><td>display_description(){</td><td>horizontal_justification</td><td>u(2)</td><td>Left/center/right alignment</td></tr>
+    <tr><td>display_description(){</td><td>vertical_justification</td><td>u(2)</td><td>Top/middle/bottom alignment</td></tr>
+    <tr><td>style_description(){</td><td>font_id</td><td>u(8)</td><td>Selects font</td></tr>
+    <tr><td>style_description(){</td><td>bold_flag</td><td>u(1)</td><td>Bold on/off</td></tr>
+    <tr><td>style_description(){</td><td>underline_flag</td><td>u(1)</td><td>Underline on/off</td></tr>
+    <tr><td>color_description(){</td><td>foreground_color_red</td><td>u(8)</td><td>Foreground color R</td></tr>
+    <tr><td>color_description(){</td><td>foreground_color_green</td><td>u(8)</td><td>Foreground color G</td></tr>
+    <tr><td>color_description(){</td><td>foreground_color_blue</td><td>u(8)</td><td>Foreground color B</td></tr>
+  </tbody>
+</table>

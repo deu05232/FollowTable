@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Electrical Physical Layer — Receiver Input Compliance Limits (AC-Coupled Differential)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Test / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Differential input peak-to-peak voltage</td><td>VIN,DIFF(pp)</td><td>200</td><td>800</td><td>1200</td><td>mVpp</td><td>Measured at receiver pins with 100 Ω differential termination</td></tr>
+    <tr><td>Common-mode input voltage range</td><td>VCM</td><td>0.7</td><td>0.9</td><td>1.1</td><td>V</td><td>Applicable for CML/SLVS-style inputs</td></tr>
+    <tr><td>Differential input impedance (terminated)</td><td>ZDIFF</td><td>90</td><td>100</td><td>110</td><td>Ω</td><td>Static resistance across the differential pair</td></tr>
+    <tr><td>Input return loss (receiver)</td><td>RLRX</td><td>10</td><td>12</td><td></td><td>dB</td><td>Minimum return loss over the specified operating band</td></tr>
+    <tr><td>Receiver sensitivity (electrical)</td><td>VSENS</td><td></td><td>150</td><td>250</td><td>mVpp</td><td>At target BER using PRBS pattern; measured differentially</td></tr>
+    <tr><td>Input differential jitter tolerance (sinusoidal)</td><td>JTOL</td><td>0.15</td><td>0.25</td><td></td><td>UI</td><td>Worst-case tolerance at low-frequency corner; UI relative to unit interval</td></tr>
+    <tr><td>Maximum allowable deterministic jitter at input</td><td>DJMAX</td><td></td><td></td><td>0.20</td><td>UI</td><td>Port-to-port compliance bound</td></tr>
+    <tr><td>Maximum allowable random jitter (RMS) at input</td><td>RJRMS</td><td></td><td></td><td>0.02</td><td>UI</td><td>RMS random component at receiver decision point</td></tr>
+  </tbody>
+</table>

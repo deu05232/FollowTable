@@ -1,0 +1,17 @@
+<table>
+  <caption>CSDM Service Basic Information Data Elements (Field-Level Mapping)</caption>
+  <thead>
+    <tr><th>Element (English)</th><th>Model Path</th><th>Data Type / Format</th><th>Mandatory</th><th>Repeatability (Max Occurrences)</th><th>Allowed Values / Range</th><th>Plain-Language Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>serviceName</td><td>Service.BasicInformation.serviceName</td><td>String (1..128)</td><td>Mandatory</td><td>1</td><td>UTF-8 text; no leading/trailing spaces recommended</td><td>The human-readable name used to identify the service in a catalog.</td></tr>
+    <tr><td>serviceIdentifier</td><td>Service.BasicInformation.serviceIdentifier</td><td>String (1..64)</td><td>Mandatory</td><td>1</td><td>Pattern:[A-Z0-9][A-Z0-9_-]{2,63}</td><td>A stable, system-friendly key for integrations and deduplication.</td></tr>
+    <tr><td>serviceCategory</td><td>Service.BasicInformation.serviceCategory</td><td>Code (string)</td><td>Mandatory</td><td>1</td><td>One of: Business, IT, Data, Integration, API</td><td>High-level classification for filtering and reporting.</td></tr>
+    <tr><td>serviceSummary</td><td>Service.BasicInformation.serviceSummary</td><td>String (0..512)</td><td>Optional</td><td>1</td><td>Free text</td><td>A short description explaining what the service does and why it exists.</td></tr>
+    <tr><td>keywords</td><td>Service.BasicInformation.keywords</td><td>String (1..64)</td><td>Optional</td><td>N</td><td>Each keyword unique within the service</td><td>Search terms that help users discover the service in the catalog.</td></tr>
+    <tr><td>version</td><td>Service.BasicInformation.version</td><td>String</td><td>Mandatory</td><td>1</td><td>Semantic version pattern recommended:MAJOR.MINOR.PATCH</td><td>The model or service record version for lifecycle tracking.</td></tr>
+    <tr><td>lifecycleStatus</td><td>Service.BasicInformation.lifecycleStatus</td><td>Enum</td><td>Mandatory</td><td>1</td><td>Draft, Active, Deprecated, Retired</td><td>Indicates whether the service is available for use and how it should be treated.</td></tr>
+    <tr><td>registrationDate</td><td>Service.BasicInformation.registrationDate</td><td>Date (YYYY-MM-DD)</td><td>Mandatory</td><td>1</td><td>Must be a valid calendar date</td><td>The date the service record was first registered in the catalog.</td></tr>
+    <tr><td>lastUpdatedDate</td><td>Service.BasicInformation.lastUpdatedDate</td><td>DateTime (ISO 8601)</td><td>Optional</td><td>1</td><td>e.g.,2026-01-19T10:30:00Z</td><td>The timestamp of the most recent change to the catalog entry.</td></tr>
+  </tbody>
+</table>

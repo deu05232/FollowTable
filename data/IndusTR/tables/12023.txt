@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Session Creation Call - Return Codes and Error Semantics</caption>
+  <thead>
+    <tr><th>Code Name</th><th>Numeric Value</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AR_SUCCESS</td><td>0</td><td>Session creation/initialization succeeded</td></tr>
+    <tr><td>AR_ERROR_INVALID_ARGUMENT</td><td>-1</td><td>One or more arguments were invalid (e.g., null pointers)</td></tr>
+    <tr><td>AR_ERROR_UNSUPPORTED_DEVICE</td><td>-2</td><td>Device does not support required AR capabilities</td></tr>
+    <tr><td>AR_ERROR_PERMISSION_DENIED</td><td>-3</td><td>Camera or motion permissions are missing</td></tr>
+    <tr><td>AR_ERROR_RESOURCE_EXHAUSTED</td><td>-4</td><td>Insufficient resources to allocate the session</td></tr>
+    <tr><td>AR_ERROR_FATAL</td><td>-5</td><td>Unrecoverable failure during session initialization</td></tr>
+    <tr><td>AR_ERROR_NOT_INITIALIZED</td><td>-6</td><td>Runtime environment/context not initialized before call</td></tr>
+  </tbody>
+</table>

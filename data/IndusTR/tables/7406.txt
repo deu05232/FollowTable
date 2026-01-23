@@ -1,0 +1,8 @@
+<table>
+  <caption>Administrative management enterprise data items (registry identifiers and system representation)</caption>
+  <tr><td>Data Item</td><td>System Attribute</td><td>Representation</td><td>Allowed Values</td><td>Notes</td></tr>
+  <tr><td>Registered enterprise name</td><td>ent_name</td><td>Text, up to 100 chars</td><td></td><td>Official name used for registration</td></tr>
+  <tr><td>Unified social credit identifier</td><td>usc_code</td><td>Text, 18 chars</td><td>0-9, A-Z</td><td>Unique registry identifier</td></tr>
+  <tr><td>Legal representative (full name)</td><td>legal_rep</td><td>Text, up to 50 chars</td><td></td><td>Person responsible per registration</td></tr>
+  <tr><td>Registration authority code</td><td>reg_auth_code</td><td>Text, up to 20 chars</td><td></td><td>Code of the registering authority</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>AWG Channel Grid with Power/Heater and Operating Wavelength Notes (Mixed Spec Table)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter</th><th>Unit</th><th>Specification</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Channel Grid</td><td>Channel Spacing</td><td>GHz</td><td>100</td><td>DWDM grid option</td></tr>
+    <tr><td>Channel Grid</td><td>Alternate Spacing</td><td>GHz</td><td>50</td><td>Higher channel density</td></tr>
+    <tr><td>Channel Grid</td><td>Band 1 Frequency Range</td><td>THz</td><td>196.00–194.10</td><td>Example sub-band</td></tr>
+    <tr><td>Channel Grid</td><td>Band 2 Frequency Range</td><td>THz</td><td>193.40–191.50</td><td>Example sub-band</td></tr>
+    <tr><td>Optical</td><td>Operating Wavelength Range</td><td>nm</td><td>Per Appendix A</td><td>Statement-level requirement</td></tr>
+    <tr><td>Variant</td><td>Number of Channels</td><td>ch</td><td>24 / 48 / 96</td><td>Depends on spacing and band plan</td></tr>
+    <tr><td>Electrical</td><td>Power Supply Voltage</td><td>V</td><td>4.75–5.25</td><td>Required for heater control</td></tr>
+    <tr><td>Electrical</td><td>Heater Drive Current</td><td>A</td><td>≤2.5</td><td>At set temperature</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Carding Web-Forming Equipment Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Carding Machine Set Speed</td><td>CardingMachineSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~500.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0201</td><td>Carding Machine Weight Setting</td><td>CardingMachineWeightSetting</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~200.00</td><td>g/m</td><td></td><td></td></tr>
+  <tr><td>0X0202</td><td>Cotton Hopper Set Pressure</td><td>SetPressureOfTheCottonBasket</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~3000.00</td><td>Pa</td><td>/</td><td></td></tr>
+  <tr><td>0X0203</td><td>Cotton Hopper Fan Set Speed</td><td>SetSpeedOfHopperFan</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0204</td><td>Cotton Feeding Curtain Set Speed</td><td>SettingSpeedOfCottonFeedingCurtain</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>m/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0205</td><td>Main Cylinder Set Speed</td><td>MainCylinderSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~2 000.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0206</td><td>Main Work Roll Set Speed</td><td>Main WorkRollSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~500.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0207</td><td>Main Stripping Roll Set Speed</td><td>Main WorkRollSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0208</td><td>Doffer Set Speed</td><td>DolphSets TheSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~500.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0209</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>1</td><td></td><td>1</td><td></td><td>One</td></tr>
+</table>

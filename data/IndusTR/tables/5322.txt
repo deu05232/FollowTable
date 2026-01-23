@@ -1,0 +1,15 @@
+<table>
+  <caption>Spunlace Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Front Machine Speed</td><td>FrontSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0301</td><td>Web Support Speed</td><td>NetSupportSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0302</td><td>Drum Speed</td><td>DrumSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0303</td><td>Rolling Mill Pressure</td><td>RollingPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10.00</td><td>MPa</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0304</td><td>Suction Fan Speed</td><td>SuctionFanSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0305</td><td>Dehydration Fan Speed</td><td>DehydrationF anSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0306</td><td>Rolling Mill Speed</td><td>RollingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0307</td><td>Lifting Web Pump Frequency</td><td>FrequencyOfLiftingPump</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~5 000.00</td><td>r/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0308</td><td>Water Pressure Value</td><td>WaterPressureValue</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>MPa</td><td>1</td><td>/</td></tr>
+  <tr><td>0X0309</td><td>Suction Vacuum Degree</td><td>SuctionVacuum</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~50000.00</td><td>Pa</td><td>一</td><td></td></tr>
+  <tr><td>0X030A</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>ROSAC</td><td></td><td></td><td>1</td><td>1</td><td>1</td></tr>
+</table>

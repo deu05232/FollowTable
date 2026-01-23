@@ -1,0 +1,8 @@
+<table>
+  <caption>Default parameter values used in the simulations. The protein area is chosen as A p = ( 4 ⁢ a ) 2 (giving a protein diameter of a p ∼ 10 nm), the D 0 value qualitatively reflects the motion of band 3 protein dimers on the surface of human red blood cells [ Brown_prl ] , and η w stands for the viscosity of water. For simplicity we assume that both bilayer and protein saddle-splay moduli are equal in magnitude but opposite in sign to the corresponding bending moduli.</caption>
+  <tr><td>parameter</td><td>box</td><td>lattice</td><td></td><td>protein</td><td>temperature</td><td>bare protein</td><td>bilayer</td><td>protein</td><td>saddle-splay</td><td>protein</td><td>solvent</td></tr>
+  <tr><td></td><td>dimension</td><td>spacing</td><td></td><td>area</td><td></td><td>diffusion</td><td>bending</td><td>bending</td><td>moduli</td><td>spontaneous</td><td>viscosity</td></tr>
+  <tr><td></td><td></td><td></td><td></td><td></td><td></td><td>coefficient</td><td>modulus</td><td>modulus</td><td></td><td>curvature</td><td></td></tr>
+  <tr><td>symbol</td><td>L</td><td>a</td><td>M=</td><td>A_()</td><td>T</td><td>D_(0)</td><td>K_()</td><td>K_()</td><td>K^()_((p))</td><td>C_()</td><td></td></tr>
+  <tr><td>value</td><td>250nm</td><td>2.5nm</td><td>100</td><td>100 {}^(2)</td><td>300 {}</td><td>5.0 {μ{}^(2){{}}</td><td>5 k_()T</td><td>40 k_()T</td><td>-K_((p))</td><td>0.1 {}^(-1)</td><td>_() =0.001 {}·{}</td></tr>
+</table>

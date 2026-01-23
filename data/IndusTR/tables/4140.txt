@@ -1,0 +1,8 @@
+<table>
+  <caption>Emergency Management Beidou System Upgrade Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>File ID</td><td>16</td><td>Integer</td><td>1～65 535</td><td>Corresponds to the upgrade file transfer ID</td></tr>
+  <tr><td>2</td><td>Number of Packets</td><td>16</td><td>Integer</td><td>1~65 535</td><td></td></tr>
+  <tr><td>3</td><td>Packet Sequence No.</td><td>16</td><td>Integer</td><td>1～65 535</td><td></td></tr>
+  <tr><td>4</td><td>Data</td><td>N×8</td><td>Integer</td><td>丨</td><td>Upgrade data, where N is the data byte length</td></tr>
+</table>

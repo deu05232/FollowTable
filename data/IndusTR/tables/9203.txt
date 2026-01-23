@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Feature Capability Mode Enums (Lighting, Face, Depth)</caption>
+  <thead>
+    <tr><th>Feature</th><th>Mode Description</th><th>Constant (Name = Value)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Light Estimation</td><td>Disable light estimation</td><td>AR_LIGHT_ESTIMATION_MODE_DISABLED = 0</td><td>No intensity/color correction</td></tr>
+    <tr><td>Light Estimation</td><td>Ambient intensity (RGB correction)</td><td>AR_LIGHT_ESTIMATION_MODE_AMBIENT_INTENSITY = 1</td><td>Basic lighting hints</td></tr>
+    <tr><td>Light Estimation</td><td>Environmental HDR</td><td>AR_LIGHT_ESTIMATION_MODE_ENVIRONMENTAL_HDR = 2</td><td>HDR spherical harmonics</td></tr>
+    <tr><td>Face Augmentation</td><td>Disable face augmentation</td><td>AR_AUGMENTED_FACE_MODE_DISABLED = 0</td><td>No face mesh generated</td></tr>
+    <tr><td>Face Augmentation</td><td>3D face mesh</td><td>AR_AUGMENTED_FACE_MODE_MESH3D = 2</td><td>Provides vertex/index buffers</td></tr>
+    <tr><td>Depth</td><td>Depth disabled</td><td>AR_DEPTH_MODE_DISABLED = 0</td><td>No depth map</td></tr>
+    <tr><td>Depth</td><td>Automatic depth</td><td>AR_DEPTH_MODE_AUTOMATIC = 1</td><td>May affect performance</td></tr>
+  </tbody>
+</table>

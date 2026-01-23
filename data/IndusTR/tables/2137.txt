@@ -1,0 +1,14 @@
+<table>
+  <caption>Audio Bitstream Storage Layout and Naming Convention (Repository Guide)</caption>
+  <thead>
+    <tr><th>Directory</th><th>Purpose</th><th>Filename Pattern</th><th>Example</th><th>Retention</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>/streams/reference/</td><td>Golden assets</td><td>{scene}_{ch}_sr{rate}_br{kbps}.bin</td><td>movie_6_sr48k_br192k.bin</td><td>Permanent</td></tr>
+    <tr><td>/streams/customer/</td><td>Customer submissions</td><td>{vendor}_{id}_v{ver}.bin</td><td>acme_014_v2.bin</td><td>180 days</td></tr>
+    <tr><td>/logs/decoder/</td><td>Decode logs</td><td>{build}_{date}.log</td><td>win_msvc_20260115.log</td><td>90 days</td></tr>
+    <tr><td>/reports/</td><td>Summary exports</td><td>{suite}_{runid}.xlsx</td><td>smoke_7F21.xlsx</td><td>1 year</td></tr>
+    <tr><td>/metrics/</td><td>Performance data</td><td>{device}_{runid}.csv</td><td>pixel8_7F21.csv</td><td>1 year</td></tr>
+    <tr><td>/tools/</td><td>Utilities</td><td>{tool}_{version}.py</td><td>parser_1.4.2.py</td><td>Permanent</td></tr>
+  </tbody>
+</table>

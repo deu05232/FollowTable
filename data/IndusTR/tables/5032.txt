@@ -1,0 +1,15 @@
+<table>
+  <caption>RSA Signature Verification Operation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_RsaVerifySign( void * hAppHandle, unsigned int uiHashAlgorithmID,</td></tr>
+  <tr><td>Description</td><td>unsigned int uiInDataLen, unsigned char * pucSignData, unsigned int uiSignDataLen) PKCS #1-compliant signature verification operation</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application handle)</td></tr>
+  <tr><td>uiHashAlgorithmID[in](HASH algorithm)</td></tr>
+  <tr><td>pucPublicKey[in](DER-encoded public key)</td></tr>
+  <tr><td>uiPublicKeyLen[in](DER-encoded public key length)</td></tr>
+  <tr><td>pucInData[in](original data to be signed)</td></tr>
+  <tr><td>uiInDataLen[in](length of the original data to be signed)</td></tr>
+  <tr><td>SACpucSignData[in](DER-encoded signature data)</td></tr>
+  <tr><td>uiSignDataLen[in](signature data length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

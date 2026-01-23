@@ -1,0 +1,16 @@
+<table>
+  <caption>Packet Layout for Command C7h (Set Multi-Device Thresholds) — EC0…ECn Structured Payload</caption>
+  <thead>
+    <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th colspan="8">Data Segment (Payload)</th><th>CRC-16</th><th>End Symbol</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>55h AAh 55h AAh</td><td>1 byte</td><td>C7h</td><td>xxxxh</td><td>DevCount</td><td>Mode</td><td>EC0</td><td>EC1</td><td>...</td><td>EC(n-1)</td><td>ECn</td><td>2 bytes</td><td>0Dh 0Ah</td></tr>
+    <tr><td colspan="4">Payload element</td><td colspan="8">Definition</td><td colspan="2">Encoding rule</td></tr>
+    <tr><td colspan="4">DevCount</td><td colspan="8">Number of target devices (n+1)</td><td colspan="2">1 byte, valid range 01h…40h</td></tr>
+    <tr><td colspan="4">Mode</td><td colspan="8">Threshold mode selector</td><td colspan="2">00h=absolute, 01h=delta-to-baseline</td></tr>
+    <tr><td colspan="4">EC0…ECn</td><td colspan="8">Per-device threshold/status byte array, one byte per device</td><td colspan="2">ECi maps to device i in ascending address order</td></tr>
+    <tr><td colspan="4">ECi bit layout (common)</td><td colspan="8">b7..b6=type, b5=enable, b4..b0=value index</td><td colspan="2">Example: 0b10_1_00101</td></tr>
+    <tr><td colspan="4">Length</td><td colspan="8">Total payload bytes</td><td colspan="2">Length = 2 + DevCount (DevCount + Mode + EC array)</td></tr>
+    <tr><td colspan="13">Note: This frame explicitly carries a variable-length payload organized as a byte rangeEC0…ECn, which is intended for packing multiple device parameters in one command.</td></tr>
+  </tbody>
+</table>

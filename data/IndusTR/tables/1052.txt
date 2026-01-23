@@ -1,0 +1,21 @@
+<table>
+  <caption>Mobile Augmented Reality System API Return Result Code Enumeration</caption>
+  <tr><td>ARResult Value</td><td>Description</td></tr>
+  <tr><td>ARRESULT_SUCCESS=0</td><td>Success or correct</td></tr>
+  <tr><td>ARRESULT_ERROR_INVALID_ARGUMENT=-1</td><td>Contains invalid arguments</td></tr>
+  <tr><td>ARRESULT_ERROR_FATAL=- 2</td><td>Fatal error</td></tr>
+  <tr><td>ARRESULT_ERROR_SESSION_PAUSED=-3</td><td>Current operation ARSession paused state error</td></tr>
+  <tr><td>ARRESULT_ERROR_SESSION_NOT_PAUSED=-4</td><td>Current operation ARSession not paused state error</td></tr>
+  <tr><td>ARRESULT_ERROR_NOT_TRACKING=-5</td><td>Error caused by not currently being in tracking state</td></tr>
+  <tr><td>ARRESULT_ERROR_TEXTURE_NOT_SET=-6</td><td>Error caused by texture parameter not set</td></tr>
+  <tr><td>ARRESULT_ERROR_UNSUPPORTED_VIDEOFORMAT=-7</td><td>Specified video format not supported error</td></tr>
+  <tr><td>ARRESULT_ERROR_CAMERA_NOT_AVAILABLE=-8</td><td>Camera service not available error</td></tr>
+  <tr><td>ARRESULT_ERROR_CAMERA_PERMISSION_NOT_GRANTED=-9</td><td>Error caused by camera service not authorized</td></tr>
+  <tr><td>ARRESULT_ERROR_UNSUPPORTED_CONFIG=-10</td><td>Error caused by the configured option not supported</td></tr>
+  <tr><td>ARRESULT_ERROR_RESOURCE_EXHAUSTED=-11</td><td>Error caused by no available resources</td></tr>
+  <tr><td>ARRESULT_ERROR_CLOUD_ANCHORS_NOT_CONFIGURED=-12</td><td>Error caused by cloud anchor mode not configured</td></tr>
+  <tr><td>ARRESULT_ERROR_ANCHOR_NOT_SUPPORTED_FOR_HOST-ING=-13</td><td>Error caused by this anchor not supporting hosting</td></tr>
+  <tr><td>ARRESULT_ERROR_DEVICE_UNSUPPORT=-14</td><td>Error caused by the mobile device not supporting augmented reality</td></tr>
+  <tr><td>ARRESULT_ERROR_ALGORITHM_UNSUPPORT=-15</td><td>Error caused by using an unsupported algorithm</td></tr>
+  <tr><td>ARRESULT_ERROR_APPLICATION_AUTHORIZED=-16</td><td>Error caused by the application not authorized to use augmented reality features</td></tr>
+</table>

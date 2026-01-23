@@ -1,0 +1,11 @@
+<table>
+  <caption>Mixed metrological requirements: harmonic active energy limits with influence quantities and temperature effects</caption>
+  <tr><th rowspan="2">Test topic</th><th rowspan="2">Condition / range</th><th rowspan="2">Reference factor</th><th colspan="3">Harmonic active energy error limit (%) by class</th><th colspan="2">Temperature coefficient / variation</th></tr>
+  <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th><th>Avg. temp. coeff. (%/K)</th><th>Allowed error variation (%)</th></tr>
+  <tr><td>Single-harmonic active energy</td><td>10 mA ≤ Ih < 0.1 Imax</td><td>cosh = 1.0</td><td>±2.0H</td><td>±3.0H</td><td>±12.0H</td><td>0.05</td><td>±0.2</td></tr>
+  <tr><td>Combined-harmonic active energy</td><td>Balanced load, waveform set A</td><td>Waveform type A</td><td>±0.6</td><td>±1.2</td><td>±4.0</td><td>0.05</td><td>±0.2</td></tr>
+  <tr><td>Fundamental active energy</td><td>0.1 Imax ≤ I ≤ Imax</td><td>cosφ = 1.0</td><td>±0.5</td><td>±1.0</td><td>±2.0</td><td>0.03</td><td>±0.1</td></tr>
+  <tr><td>Ambient temperature influence</td><td>−10 °C to +55 °C</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.08</td><td>±0.5</td></tr>
+  <tr><td>Supply voltage influence</td><td>0.9 Un to 1.1 Un</td><td>—</td><td colspan="3">(Harmonic limits applicable above)</td><td>—</td><td>±0.3</td></tr>
+  <tr><td>Frequency influence</td><td>45 Hz to 55 Hz</td><td>—</td><td colspan="3">(Harmonic limits applicable above)</td><td>—</td><td>±0.2</td></tr>
+</table>

@@ -1,0 +1,28 @@
+<table>
+  <caption>Pearson product-moment correlation coefficients between 6 centrality predictors and restaurant count against traffic flow in Shanghai. Traffic flow is further separated into rush hour (6AM - 10AM and 4PM - 7PM) and non-rush hour for comparisons.</caption>
+  <tr><th colspan="4">Shanghai - Pearson’s r (Node-based/KDE)</th></tr>
+  <tr><th>No Interpolation</th><td>Non-Rush Hour</td><td>Rush Hour</td><td>Overall</td></tr>
+  <tr><th>Degree</th><td>0.253/0.404</td><td>0.273/0.413</td><td>0.261/0.408</td></tr>
+  <tr><th>Closeness</th><td>0.339/0.466</td><td>0.367/0.474</td><td>0.35/0.47</td></tr>
+  <tr><th>Geodesic betweenness</th><td>0.153/0.505</td><td>0.173/0.516</td><td>0.16/0.51</td></tr>
+  <tr><th>Shortest-path</th><td>0.322/0.642</td><td>0.35/0.637</td><td>0.333/0.641</td></tr>
+  <tr><th>Fastest-path</th><td>0.262/0.684</td><td>0.29/0.676</td><td>0.272/0.683</td></tr>
+  <tr><th>Node-weighted fastest-path</th><td>0.289/0.634</td><td>0.311/0.622</td><td>0.297/0.631</td></tr>
+  <tr><th>Restaurant</th><td>0.256/0.44</td><td>0.276/0.436</td><td>0.263/0.44</td></tr>
+  <tr><th>Fastest-Path Interpolation</th><td></td><td></td><td></td></tr>
+  <tr><th>Degree</th><td>0.265/0.439</td><td>0.269/0.438</td><td>0.267/0.439</td></tr>
+  <tr><th>Closeness</th><td>0.418/0.501</td><td>0.414/0.496</td><td>0.418/0.5</td></tr>
+  <tr><th>Geodesic betweenness</th><td>0.167/0.568</td><td>0.179/0.577</td><td>0.171/0.572</td></tr>
+  <tr><th>Shortest-path</th><td>0.387/0.646</td><td>0.388/0.631</td><td>0.389/0.642</td></tr>
+  <tr><th>Fastest-path</th><td>0.481/0.744</td><td>0.476/0.724</td><td>0.48/0.738</td></tr>
+  <tr><th>Node-weighted fastest-path</th><td>0.491/0.674</td><td>0.472/0.641</td><td>0.486/0.664</td></tr>
+  <tr><th>Restaurant</th><td>0.329/0.39</td><td>0.321/0.377</td><td>0.328/0.386</td></tr>
+  <tr><th>Routing-Service Interpolation</th><td></td><td></td><td></td></tr>
+  <tr><th>Degree</th><td>0.313/0.505</td><td>0.309/0.507</td><td>0.312/0.506</td></tr>
+  <tr><th>Closeness</th><td>0.552/0.583</td><td>0.55/0.586</td><td>0.552/0.584</td></tr>
+  <tr><th>Geodesic betweenness</th><td>0.086/0.429</td><td>0.089/0.425</td><td>0.087/0.428</td></tr>
+  <tr><th>Shortest-path</th><td>0.484/0.751</td><td>0.478/0.746</td><td>0.483/0.75</td></tr>
+  <tr><th>Fastest-path</th><td>0.43/0.814</td><td>0.427/0.807</td><td>0.43/0.812</td></tr>
+  <tr><th>Node-weighted fastest-path</th><td>0.528/0.832</td><td>0.515/0.817</td><td>0.525/0.828</td></tr>
+  <tr><th>Restaurant</th><td>0.438/0.444</td><td>0.433/0.438</td><td>0.438/0.443</td></tr>
+</table>

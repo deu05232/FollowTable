@@ -1,0 +1,15 @@
+<table>
+  <caption>Operating Parameter Limits by Test Scenario (Low-Voltage Shore Power Box)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Condition / scenario</th><th>Parameter observed</th><th>Applied level</th><th>Acceptance criterion</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Power-on functional test</td><td>Cold start</td><td>Output voltage stability</td><td>Rated Un</td><td>No trip; output present</td><td>Stability not expressed as tolerance</td></tr>
+    <tr><td>Warm start</td><td>Output frequency</td><td>Rated fn</td><td>No alarm</td><td>Only pass/fail</td></tr>
+    <tr><td rowspan="2">EMC immunity</td><td>ESD contact discharge</td><td>Controller reset behavior</td><td>8 kV</td><td>May reset; auto-restart allowed</td><td>No recovery-time bound per parameter</td></tr>
+    <tr><td>Radiated RF</td><td>Meter display fluctuation</td><td>10 V/m</td><td>Temporary degradation allowed</td><td>Deviation not quantified</td></tr>
+    <tr><td>Mechanical vibration</td><td>General ship vibration</td><td>Connector retention</td><td>2–100 Hz sweep</td><td>No loosening</td><td>Mechanical focus</td></tr>
+    <tr><td>Dielectric withstand</td><td>Between live parts and enclosure</td><td>Insulation performance</td><td>2×Un or 500 VDC</td><td>No breakdown</td><td>Construction verification</td></tr>
+    <tr><td>Thermal endurance</td><td>Rated current for 2 h</td><td>Terminal temperature rise</td><td>I = In</td><td>ΔT within class limit</td><td>Does not state electrical tolerance</td></tr>
+  </tbody>
+</table>

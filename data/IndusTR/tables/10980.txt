@@ -1,0 +1,15 @@
+<table>
+  <caption>Common Service Description Model — Interface & Message Parameters (Requirement Embedded in Text Only)</caption>
+  <thead>
+    <tr><th>Artifact</th><th>Element</th><th>Type/Format</th><th>Max Occurs</th><th>Description (includes requirement text)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Interface</td><td>interfaceName</td><td>string (1..128)</td><td>1</td><td>Required. Name of the interface.</td></tr>
+    <tr><td>Interface</td><td>operationName</td><td>string (1..128)</td><td>N</td><td>Required when at least one operation is exposed; one row per operation.</td></tr>
+    <tr><td>Interface</td><td>operationSupportTransaction</td><td>boolean (true/false)</td><td>N</td><td>Conditional: must be present for each operationName; indicates transaction support.</td></tr>
+    <tr><td>Message</td><td>messageName</td><td>string (1..128)</td><td>1</td><td>Mandatory for message definitions.</td></tr>
+    <tr><td>Message</td><td>parameterName</td><td>string (1..128)</td><td>N</td><td>Optional; include for each parameter.</td></tr>
+    <tr><td>Message</td><td>parameterType</td><td>string (1..128)</td><td>N</td><td>Conditional: if parameterName exists then parameterType must also exist.</td></tr>
+    <tr><td>Message</td><td>parameterDescription</td><td>string (0..256)</td><td>N</td><td>Optional free-text description of the parameter.</td></tr>
+  </tbody>
+</table>

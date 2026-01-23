@@ -1,0 +1,10 @@
+# Platforms and supported compilers
+
+| compiler | MinGW-2.0 | Cygnus Cygwin 1.3.x | Open Watcom C/C++ and Fortran 1.0 | Borland C++ Compiler 5.5 | Digital Mars C/C++ Compilers | Intel(R) C++/Fortran Compiler 7.1 | Microsoft Visual C++ Version 6.0 | Compaq Visual Fortran Version 6 | gcc-2.95.2-mingw32 (MSVCRT) | gcc-2.95.2-mingw32 (CRTDLL) | gcc-2.95.2-cygb20 | gcc-2.95.2-uwin / AT&T UWIN 3.x |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| abbr. *1 | MinGW | cygwin | watcom | bcc | dmc | Intel | vcpp | vf | mingw32m | mingw32 | cygb20 | uwin |
+| FORTRAN | g77 | g77 | wfl386 | n/a | n/a | ifl | n/a | df | g77 | g77 | g77 | g77 |
+| C / C++ | gcc / g++ | gcc / g++ | wcl386 | bcc32 | sc | icl | cl | n/a | gcc / g++ | gcc / g++ | gcc / g++ | gcc / g++ |
+| f2c | n/a | n/a | n/a | avail. | avail. | avail. | avail. | n/a | n/a | n/a | n/a | n/a |
+| free | yes | yes | yes | yes | yes | no | no | no | yes | yes | yes | *5 |
+| notes |  |  |  |  |  | *2 |  |  | *3 | *3 | *4 | *6 |

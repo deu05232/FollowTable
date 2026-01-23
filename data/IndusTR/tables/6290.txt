@@ -1,0 +1,17 @@
+<table>
+  <caption>Pre-Release Electrical Health Check — Battery, Buses, and Loads</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Check Item</th><th>Planned / Design</th><th>Observed / Test</th><th>Unit</th><th>Pass/Fail</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Main Battery</td><td>Open-Circuit Voltage (OCV)</td><td>28.0 ± 0.5</td><td>27.9</td><td>V</td><td>Pass</td><td>Measured after 10 min rest</td></tr>
+    <tr><td>Battery Internal Resistance</td><td>≤ 120</td><td>105</td><td>mΩ</td><td>Pass</td><td>4-wire measurement</td></tr>
+    <tr><td>Voltage Under 2 A Load</td><td>≥ 26.5</td><td>26.8</td><td>V</td><td>Pass</td><td>Load applied for 30 s</td></tr>
+    <tr><td rowspan="3">Power Bus</td><td>Primary Bus Voltage (VBUS)</td><td>28.0 ± 1.0</td><td>28.3</td><td>V</td><td>Pass</td><td>At distribution input</td></tr>
+    <tr><td>Bus Ripple (Peak-to-Peak)</td><td>≤ 200</td><td>85</td><td>mVpp</td><td>Pass</td><td>Scope bandwidth limit 20 MHz</td></tr>
+    <tr><td>Inrush Current at Power-On</td><td>≤ 8.0</td><td>6.2</td><td>A</td><td>Pass</td><td>Max during first 200 ms</td></tr>
+    <tr><td rowspan="3">Payload Loads</td><td>Avionics Load Current (steady-state)</td><td>1.0–1.8</td><td>1.4</td><td>A</td><td>Pass</td><td>Nominal mode</td></tr>
+    <tr><td>Comms Load Current (TX active)</td><td>≤ 2.5</td><td>2.1</td><td>A</td><td>Pass</td><td>During 10 s continuous TX</td></tr>
+    <tr><td>Heater Circuit Resistance</td><td>8–12</td><td>9.6</td><td>Ω</td><td>Pass</td><td>Measured at harness connector</td></tr>
+  </tbody>
+</table>

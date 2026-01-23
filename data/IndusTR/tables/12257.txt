@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal-to-Card APDU Command Header (Example: INS D0h - Data Update)</caption>
+  <thead>
+    <tr><th>APDU Part</th><th>Header Field</th><th>Hex Value</th><th>Meaning / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Header (mandatory)</td><td>CLA</td><td>80</td><td>Proprietary class byte used by the terminal application</td></tr>
+    <tr><td>INS</td><td>D0</td><td>Instruction: Data Update / Write-type command</td></tr>
+    <tr><td>P1</td><td>00</td><td>Parameter 1: default / reserved</td></tr>
+    <tr><td>P2</td><td>00</td><td>Parameter 2: default / base mode selector</td></tr>
+    <tr><td rowspan="2">Length fields (command framing)</td><td>Lc</td><td>Variable</td><td>Number of data bytes sent in command data field</td></tr>
+    <tr><td>Le</td><td>00 or absent</td><td>Expected response length (if used); 00 often denotes maximum in short Le conventions</td></tr>
+    <tr><td rowspan="2">APDU format summary</td><td>Header Bytes Order</td><td>CLA INS P1 P2</td><td>Exact on-wire header layout</td></tr>
+    <tr><td>Header Hex Sequence</td><td>80 D0 00 00</td><td>Convenient at-a-glance header composition</td></tr>
+  </tbody>
+</table>

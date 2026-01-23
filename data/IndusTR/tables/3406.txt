@@ -1,0 +1,10 @@
+<table>
+  <caption>XHE Message Gateway — Server Hardware & Capacity Planning Sheet</caption>
+  <tr><th>Node Role</th><th>CPU</th><th>Memory (GB)</th><th>Storage</th><th>Network</th><th>Target Throughput (msg/s)</th></tr>
+  <tr><td>Ingress Gateway</td><td>16 vCPU</td><td>64</td><td>2x1TB NVMe</td><td>2x10GbE</td><td>450</td></tr>
+  <tr><td>Validation Worker</td><td>32 vCPU</td><td>128</td><td>2x2TB NVMe</td><td>2x10GbE</td><td>900</td></tr>
+  <tr><td>Envelope Router</td><td>24 vCPU</td><td>96</td><td>2x1TB NVMe</td><td>2x25GbE</td><td>700</td></tr>
+  <tr><td>Payload Store</td><td>16 vCPU</td><td>128</td><td>20TB RAID</td><td>2x10GbE</td><td>120</td></tr>
+  <tr><td>Audit/Log Node</td><td>8 vCPU</td><td>32</td><td>8TB HDD</td><td>1x10GbE</td><td>—</td></tr>
+  <tr><td>DR Replica</td><td>16 vCPU</td><td>64</td><td>12TB RAID</td><td>1x10GbE</td><td>—</td></tr>
+</table>

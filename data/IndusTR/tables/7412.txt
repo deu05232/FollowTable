@@ -1,0 +1,8 @@
+<table>
+  <caption>Enterprise administrative profile data dictionary (identity-focused)</caption>
+  <tr><td>Information Item</td><td>Technical Field</td><td>Storage Type</td><td>Domain</td><td>Description</td></tr>
+  <tr><td>Enterprise name</td><td>ENT_NAME</td><td>VARCHAR(100)</td><td></td><td>Registered name</td></tr>
+  <tr><td>Unified social credit code</td><td>USC</td><td>CHAR(18)</td><td>0-9, A-Z</td><td>Unique identifier</td></tr>
+  <tr><td>Legal representative</td><td>LEGAL_REP</td><td>VARCHAR(50)</td><td></td><td>Representative recorded in registry</td></tr>
+  <tr><td>Registered address code</td><td>REG_ADDR_CODE</td><td>VARCHAR(12)</td><td></td><td>Standardized address code for registry use</td></tr>
+</table>

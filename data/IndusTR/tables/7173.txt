@@ -1,0 +1,14 @@
+<table>
+  <caption>Power Supply Voltage Limits and Operating Conditions for the Data Recorder</caption>
+  <thead>
+    <tr><th>Nominal Supply (V)</th><th>Minimum Operating Voltage (V)</th><th>Maximum Operating Voltage (V)</th><th>Recommended Test Voltage (V)</th><th>Allowable Ripple (mVpp)</th><th>Cranking Dip Duration (ms)</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>12</td><td>8.5</td><td>16.0</td><td>13.5 ± 0.2</td><td>≤ 300</td><td>200</td><td>No reset; logging resumes within 1 s</td></tr>
+    <tr><td>12</td><td>6.0</td><td>16.0</td><td>9.0 ± 0.2</td><td>≤ 500</td><td>500</td><td>No data corruption; event flagged</td></tr>
+    <tr><td>24</td><td>16.0</td><td>32.0</td><td>28.0 ± 0.2</td><td>≤ 300</td><td>200</td><td>No reset; logging resumes within 1 s</td></tr>
+    <tr><td>24</td><td>10.0</td><td>36.0</td><td>24.0 ± 0.2</td><td>≤ 500</td><td>500</td><td>No data corruption; event flagged</td></tr>
+    <tr><td>48</td><td>36.0</td><td>60.0</td><td>54.0 ± 0.5</td><td>≤ 300</td><td>200</td><td>No reset; logging resumes within 1 s</td></tr>
+    <tr><td>48</td><td>24.0</td><td>60.0</td><td>48.0 ± 0.5</td><td>≤ 600</td><td>700</td><td>No data corruption; event flagged</td></tr>
+  </tbody>
+</table>

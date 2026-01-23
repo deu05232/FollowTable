@@ -1,0 +1,21 @@
+<table>
+  <caption>Rotor Spinning Machine Process Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Left Side Spinning Count</td><td>LeftSideSpinningCount</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>10.00~300.00</td><td>tex</td><td>One</td><td>丨</td></tr>
+  <tr><td>0X0201</td><td>Left Side Rotor Speed</td><td>LeftSideRotorSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>30 000.00～200 000.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X0202</td><td>Left Side Twist</td><td>LeftSideTwist</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>100.00~2 000.00</td><td>捻/m</td><td></td><td></td></tr>
+  <tr><td>0X0203</td><td>Left Side Carding Speed</td><td>LeftSideCardingSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>3 000.00～10 000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0204</td><td>Left Side Sliver Weight</td><td>LeftSideSliverWeight</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>10.00~50.00</td><td>g/5m</td><td></td><td></td></tr>
+  <tr><td>0X0205</td><td>Left Side Tension Coefficient</td><td>LeftSideTensionCoefficient</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.60~1.50</td><td></td><td></td><td></td></tr>
+  <tr><td>0X0206</td><td>Left Side Winding Angle</td><td>LeftSideWindingAngle</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>20.00~40.00</td><td>（）</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0207</td><td>Right Side Spinning Count</td><td>RightSideSpinningCount</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>10.00~300.00</td><td>tex</td><td></td><td></td></tr>
+  <tr><td>0X0208</td><td>Right Side Rotor Speed</td><td>RightSideRotorSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~200 000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0209</td><td>Right Side Twist</td><td>RightSideTwist</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>100.00~2000.00</td><td>捻/m</td><td></td><td></td></tr>
+  <tr><td>0X020A</td><td>Right Side Carding Speed</td><td>RightSideCardingSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~10 000.00</td><td>r/min</td><td></td><td>丨</td></tr>
+  <tr><td>0X020B</td><td>Right Side Sliver Weight</td><td>RightSideSliverWeight</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>10.00~50.00</td><td>g/5m</td><td>One</td><td>1</td></tr>
+  <tr><td>0X020C</td><td>Right Side Tension Coefficient</td><td>RightSideTensionCoefficient</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.60~1.50</td><td></td><td></td><td></td></tr>
+  <tr><td>0X020D</td><td>Right Side Winding Angle</td><td>RightSide WindingAngle</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>20.00~40.00</td><td>（）</td><td>One</td><td>One</td></tr>
+  <tr><td>0X020E</td><td>Process Negative Pressure</td><td>ProcessNegativePressure</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~8000.00</td><td>Pa</td><td></td><td>丨</td></tr>
+  <tr><td>0X020F</td><td>Negative Pressure for Impurity Removal</td><td>NegativePressureForImpurityRemoval</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~3000.00</td><td>Pa</td><td></td><td></td></tr>
+  <tr><td>0X0210</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>One</td><td>One</td><td>1</td><td>One</td><td>丨</td></tr>
+</table>

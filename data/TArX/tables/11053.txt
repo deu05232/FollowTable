@@ -1,0 +1,16 @@
+<table>
+  <caption>Interface magnetic anisotropy energy for Co-based multilayers relevant to spin-transfer torque devices (per interface cell and per area)</caption>
+  <thead>
+    <tr><th rowspan="2">Heterostructure</th><th rowspan="2">Co interlayer thickness (ML)</th><th colspan="2">Interface anisotropy energy</th><th colspan="2">Converted (area-normalized)</th><th rowspan="2">Device relevance</th></tr>
+    <tr><th>Eani(eV per 1×1 cell)</th><th>Sign (PMA if +)</th><th>Eani(mJ/m2)</th><th>Assumed area (Å2)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cu/Co/Cu</td><td>1</td><td>0.090</td><td>+</td><td>0.58</td><td>2.50</td><td>spin valve reference stack</td></tr>
+    <tr><td>Cu/Co/Cu</td><td>2</td><td>0.060</td><td>+</td><td>0.38</td><td>2.50</td><td>thickness dependence</td></tr>
+    <tr><td>Cu/Co/Cu</td><td>3</td><td>0.030</td><td>+</td><td>0.19</td><td>2.50</td><td>reduced PMA</td></tr>
+    <tr><td>Pt/Co</td><td>1</td><td>0.140</td><td>+</td><td>0.90</td><td>2.50</td><td>common STT/PMA electrode</td></tr>
+    <tr><td>Co/MgO</td><td>1</td><td>0.110</td><td>+</td><td>0.70</td><td>2.50</td><td>MTJ free layer interface</td></tr>
+    <tr><td>Ir/Co/Pt</td><td>1</td><td>0.160</td><td>+</td><td>1.02</td><td>2.50</td><td>enhanced interfacial anisotropy</td></tr>
+    <tr><td>AlOx/Co</td><td>1</td><td>-0.020</td><td>-</td><td>-0.13</td><td>2.50</td><td>in-plane tendency</td></tr>
+  </tbody>
+</table>

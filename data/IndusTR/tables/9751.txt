@@ -1,0 +1,21 @@
+<table>
+  <caption>Graph Compilation and Execution Provider Interfaces for Backend Adaptation</caption>
+  <thead>
+    <tr><th>Interface Name</th><th>Expected Symbol / Entry</th><th>Required/Optional</th><th>Short Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Capability Query</td><td>query_supported_ops</td><td>Optional</td><td>Report which operators/attributes are supported so the framework can partition or fallback.</td></tr>
+    <tr><td>Subgraph Partitioning</td><td>partition_graph</td><td>Optional</td><td>Detect supported subgraphs and return partitions for offload and fusion decisions.</td></tr>
+    <tr><td>IR Import</td><td>import_framework_ir</td><td>Required</td><td>Convert framework graph/IR into backend-consumable intermediate representation.</td></tr>
+    <tr><td>Backend Compile</td><td>compile_ir</td><td>Required</td><td>Compile imported IR into a backend executable artifact (binary, engine, or plan).</td></tr>
+    <tr><td>Executable Serialize</td><td>serialize_executable</td><td>Optional</td><td>Serialize compiled artifacts for caching or deployment.</td></tr>
+    <tr><td>Executable Deserialize</td><td>deserialize_executable</td><td>Optional</td><td>Load previously serialized artifacts to skip compilation.</td></tr>
+    <tr><td>Executable Create</td><td>create_executable</td><td>Required</td><td>Instantiate a runnable executable from compiled artifacts and allocate persistent resources.</td></tr>
+    <tr><td>Executable Destroy</td><td>destroy_executable</td><td>Required</td><td>Release resources held by the executable instance.</td></tr>
+    <tr><td>Shape Inference / Specialization</td><td>specialize_for_shapes</td><td>Optional</td><td>Specialize or recompile for concrete input shapes / dynamic shape ranges.</td></tr>
+    <tr><td>Workspace Size Query</td><td>get_workspace_size</td><td>Optional</td><td>Return temporary workspace requirements for an execution given input shapes and dtypes.</td></tr>
+    <tr><td>Run / Enqueue</td><td>execute</td><td>Required</td><td>Execute the compiled graph on a given stream using provided input/output buffers.</td></tr>
+    <tr><td>Profiling Hooks</td><td>collect_profiling_data</td><td>Optional</td><td>Expose per-op or per-graph timing/counters for performance analysis.</td></tr>
+    <tr><td>Error Reporting</td><td>get_last_error</td><td>Optional</td><td>Provide backend-specific error messages to improve debuggability and integration logs.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>SOF Certificate Application Service Interfaces (Certificate Query, Signing, Verification, XML Signature Parsing)</caption>
+  <thead>
+    <tr><th>Interface / Function</th><th>Prototype (Signature)</th><th>Purpose</th><th>Key Inputs</th><th>Outputs / Return</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SOF_GetCertInfoByOid</td><td>BSTR SOF_GetCertInfoByOid(BSTR Base64Cert, BSTR Oid)</td><td>Read a certificate extension/value by OID from a Base64 certificate.</td><td>Base64Cert;Oid(e.g.,1.2.156.x.x)</td><td>BSTRvalue string (format depends on extension)</td><td>Query custom extensions, policy identifiers, or device-binding fields.</td></tr>
+    <tr><td>SOF_GetCertInfo</td><td>BSTR SOF_GetCertInfo(BSTR Base64Cert, LONG InfoType)</td><td>Retrieve common certificate fields using an info selector.</td><td>Base64Cert;InfoType(e.g., Subject, Issuer, SerialNo; implementation-defined)</td><td>BSTRrequested field as string</td><td>Display certificate details in UI or for audit logs.</td></tr>
+    <tr><td>SOF_SignDataXML</td><td>BSTR SOF_SignDataXML(BSTR CertID, BSTR InData)</td><td>Digitally sign XML data using the private key referenced by CertID.</td><td>CertID;InData(XML string)</td><td>BSTRXML signature result</td><td>XML-centric protocols; signature profile may depend on RSA/SM2.</td></tr>
+    <tr><td>SOF_SignHashData</td><td>BSTR SOF_SignHashData(BSTR CertID, BSTR Base64HashData, LONG HashAlg)</td><td>Sign a precomputed digest value (hash) rather than raw data.</td><td>CertID;Base64HashData;HashAlg(e.g., SHA256/SM3)</td><td>BSTRsignature value (Base64)</td><td>Used when the app performs hashing and canonicalization itself.</td></tr>
+    <tr><td>SOF_VerifySignedHashData</td><td>BOOL SOF_VerifySignedHashData(BSTR Base64Cert, BSTR Base64HashData, BSTR SignValue, LONG HashAlg)</td><td>Verify a signature over a digest using the signer certificate.</td><td>Base64Cert;Base64HashData;SignValue;HashAlg</td><td>BOOL(true if signature is valid)</td><td>Server-side or client-side validation of signed digests.</td></tr>
+    <tr><td>SOF_getXMLSignatureInfo</td><td>java.lang.String SOF_getXMLSignatureInfo(java.lang.String xmlSignedData, short type)</td><td>Parse an XML signature blob to extract components (original XML, digest, signature, certificate, algorithms).</td><td>xmlSignedData;type(1..6 selects field)</td><td>Stringextracted value based ontype</td><td>Debugging/inspection and interoperability checks for XML signature output.</td></tr>
+    <tr><td>SOF_VerifySignedDataXML</td><td>BOOL SOF_VerifySignedDataXML(BSTR XmlSignedData)</td><td>Verify an XML signature package (including locating embedded cert if present).</td><td>XmlSignedData</td><td>BOOLverification result</td><td>One-shot validation when the signed XML contains all required elements.</td></tr>
+  </tbody>
+</table>

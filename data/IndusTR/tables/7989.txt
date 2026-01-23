@@ -1,0 +1,18 @@
+<table>
+  <caption>SM9 Key Agreement Interfaces (Prototype Split Into Parameter Cells)</caption>
+  <thead>
+    <tr><th>API</th><th>Return Type</th><th>Function Name</th><th>Parameters (split across cells)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Key Agreement</td><td>int</td><td>SAF_SM9GenerateAgreementData</td><td>(void *hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char* pucResponsorID, unsigned int uiResponsorIDLen, unsigned char* pucSponsorTmpPublicKey, unsigned int* puiSponsorTmpPublicKeyLen, void **phAgreementHandle)</td></tr>
+    <tr><td>Key Agreement</td><td>int</td><td>SAF_SM9GenerateAgreementDataAndKey</td><td>(void *hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char* pucSponsorID, unsigned int uiSponsorIDLength, unsigned char* pucSponsorTmpPublicKey, unsigned int* puiSponsorTmpPublicKeyLen, unsigned char* pucResponseTmpPublicKey, unsigned int uiResponseTmpPublicKeyLen, void **phKeyHandle)</td></tr>
+    <tr><td>Key Agreement</td><td>int</td><td>SAF_SM9KeyDecapsulate</td><td>(void *hSymmKeyObj, unsigned int uiKeyBits, unsigned char* pucKeyPackage, unsigned int ulKeyPackageLen, void **phKeyHandle)</td></tr>
+    <tr><td>Rules</td><td colspan="3">All procedures follow GB/T 41389. Call GenerateAgreementData first, then GenerateAgreementDataAndKey to derive a session key.</td></tr>
+    <tr><td rowspan="6">Parameter Hints</td><td colspan="3">hSymmKeyObj: symmetric algorithm object handle.</td></tr>
+    <tr><td colspan="3">uiMasterPublicKeyIndex: encryption master public key index.</td></tr>
+    <tr><td colspan="3">uiKeyBits: requested session key length in bits.</td></tr>
+    <tr><td colspan="3">pucSponsorTmpPublicKey/pucResponseTmpPublicKey: temporary public keys.</td></tr>
+    <tr><td colspan="3">phAgreementHandle/phKeyHandle: output handles.</td></tr>
+    <tr><td colspan="3">puiSponsorTmpPublicKeyLen: in/out length field.</td></tr>
+  </tbody>
+</table>

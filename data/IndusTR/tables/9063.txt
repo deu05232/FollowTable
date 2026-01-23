@@ -1,0 +1,16 @@
+<table>
+  <caption>Traditional Mongolian Ligature Behavior — Font & Rendering Implementation Matrix (No explicit bracketed sequences)</caption>
+  <thead>
+    <tr><th rowspan="2">Presentation Form ID</th><th rowspan="2">Position</th><th colspan="4">Engine / Font Behavior</th><th rowspan="2">Expected Result</th></tr>
+    <tr><th>OpenType Feature</th><th>Font Requirement</th><th>Shaper</th><th>Fallback</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0101</td><td>Isolated</td><td>liga</td><td>Legacy Mongolian font</td><td>HarfBuzz</td><td>Use nominal glyph</td><td>Ligature glyph appears</td></tr>
+    <tr><td>010B</td><td>Initial</td><td>rlig</td><td>Variation-aware font</td><td>Uniscribe</td><td>Use default join</td><td>Preferred initial form</td></tr>
+    <tr><td>0115</td><td>Isolated</td><td>rlig</td><td>Variation-aware font</td><td>CoreText</td><td>Suppress ligature</td><td>Base glyph shown</td></tr>
+    <tr><td>0133</td><td>Isolated</td><td>liga</td><td>Any</td><td>Pango</td><td>Contextual alternate</td><td>Alternate may appear</td></tr>
+    <tr><td>013D</td><td>Isolated</td><td>rlig</td><td>Legacy Mongolian font</td><td>DirectWrite</td><td>Use nominal glyph</td><td>Mandatory ligature in some fonts</td></tr>
+    <tr><td>0169</td><td>Medial</td><td>calt</td><td>Any</td><td>HarfBuzz</td><td>Ignore calt</td><td>Medial join preserved</td></tr>
+    <tr><td>0193</td><td>Final</td><td>liga</td><td>Any</td><td>Uniscribe</td><td>Fallback join</td><td>Final flourish variant</td></tr>
+  </tbody>
+</table>

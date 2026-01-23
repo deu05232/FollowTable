@@ -1,0 +1,13 @@
+<table>
+  <caption>PKCS #7 Signed Data Parsing Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Parse_Pkcs7_SignedData(void * hAppHandle,unsigned int nType,unsigned char * pucDerP7SignedData,unsigned int uiDerP7SignedDataLen,unsigned char * pucInfo,unsigned int * puiInfoLen)</td></tr>
+  <tr><td>Description</td><td>Parse PKCS #7-format signed data</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>hAppHandle[in](Application interface handle)</td></tr>
+  <tr><td>nType[in](Parsing type, 1: version number; 2: algorithm type, RSA or SM2, 3: signed plaintext, 4: signing certificate, 5: signature value)</td></tr>
+  <tr><td>pucDerP7SignedData[in](DER-encoded PKCS #7 signed data)</td></tr>
+  <tr><td>uiDerP7SignedDataLen[in](Length of DER-encoded PKCS #7 signed data)</td></tr>
+  <tr><td>pucInfo[out]（Parsed information）</td></tr>
+  <tr><td>puiInfoLen[in,out](Length of parsed information)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non0(Failure; return the error code defined in Table C.1, and shall comply with the provisions of Appendix C)</td></tr>
+</table>

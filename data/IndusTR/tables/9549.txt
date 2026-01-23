@@ -1,0 +1,8 @@
+<table>
+  <caption>Deep learning framework adaptation table (negative): API surface listing without requiredness</caption>
+  <tr><th>Integration point</th><th>What it does</th><th>Inputs/outputs overview</th><th>Common configuration knobs</th></tr>
+  <tr><td>Graph engine initialization</td><td>Creates a runtime context for graph compilation</td><td>Config object in, context handle out</td><td>Device selection, memory pool size</td></tr>
+  <tr><td>Graph generation</td><td>Builds the computation graph representation</td><td>Framework program in, graph object out</td><td>Enable constant folding, control-flow handling</td></tr>
+  <tr><td>Model creation/build entry</td><td>Produces a hardware-executable model artifact</td><td>Graph/IR in, executable handle out</td><td>Cache directory, optimization level</td></tr>
+  <tr><td>Model destruction/cleanup</td><td>Releases device resources</td><td>Executable handle in, status out</td><td>Deferred free, debug leak checks</td></tr>
+</table>

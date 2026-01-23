@@ -1,0 +1,16 @@
+<table>
+  <caption>Generic Rayleigh–Mie scattering fit coefficients for polarized phase curves (not tied to a specific planet)</caption>
+  <thead>
+    <tr><th>Model family</th><th>Wavelength (nm)</th><th>Particle effective radius (µm)</th><th>Single-scattering albedo ω</th><th>Asymmetry parameter g</th><th>Q/I fit coefficient a0</th><th>Q/I fit coefficient a1</th><th>U/I fit coefficient b0</th><th>U/I fit coefficient b1</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Rayleigh</td><td>450</td><td><< 0.1</td><td>1.00</td><td>0.00</td><td>-0.020</td><td>0.110</td><td>0.000</td><td>0.000</td></tr>
+    <tr><td>Rayleigh</td><td>550</td><td><< 0.1</td><td>1.00</td><td>0.00</td><td>-0.018</td><td>0.095</td><td>0.000</td><td>0.000</td></tr>
+    <tr><td>Mie (haze)</td><td>550</td><td>0.20</td><td>0.95</td><td>0.65</td><td>-0.010</td><td>0.060</td><td>-0.002</td><td>0.010</td></tr>
+    <tr><td>Mie (haze)</td><td>700</td><td>0.20</td><td>0.95</td><td>0.65</td><td>-0.008</td><td>0.052</td><td>-0.002</td><td>0.009</td></tr>
+    <tr><td>Mie (cloud)</td><td>550</td><td>1.00</td><td>0.90</td><td>0.80</td><td>-0.004</td><td>0.030</td><td>-0.001</td><td>0.006</td></tr>
+    <tr><td>Mie (cloud)</td><td>700</td><td>1.00</td><td>0.90</td><td>0.80</td><td>-0.003</td><td>0.026</td><td>-0.001</td><td>0.005</td></tr>
+    <tr><td>Mixed (Rayleigh+Mie)</td><td>550</td><td>0.30</td><td>0.92</td><td>0.55</td><td>-0.012</td><td>0.070</td><td>-0.001</td><td>0.008</td></tr>
+    <tr><td>Mixed (Rayleigh+Mie)</td><td>900</td><td>0.30</td><td>0.92</td><td>0.55</td><td>-0.009</td><td>0.058</td><td>-0.001</td><td>0.007</td></tr>
+  </tbody>
+</table>

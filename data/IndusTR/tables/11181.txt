@@ -1,0 +1,16 @@
+<table>
+  <caption>Transport-Layer ACK/NACK Control PDU Payload Format (Byte Positions 0–7)</caption>
+  <thead>
+    <tr><th>Byte Index (from start of TP payload)</th><th>Field Name</th><th>Size (bytes)</th><th>Valid Values</th><th>Description (wire meaning)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Control Code</td><td>1</td><td>0x01=ACK, 0x02=NACK</td><td>Indicates whether the receiver is acknowledging (ACK) or rejecting/requesting retransmission (NACK).</td></tr>
+    <tr><td>1</td><td>Starting FSN Requested (SFSN)</td><td>1</td><td>0..255</td><td>First frame sequence number the receiver expects next (ACK) or wants retransmitted from (NACK).</td></tr>
+    <tr><td>2</td><td>Frame Count Requested (FCR)</td><td>1</td><td>0..255</td><td>Number of consecutive frames requested starting at SFSN. For ACK, may represent the window being accepted; for NACK, the missing span.</td></tr>
+    <tr><td>3</td><td>Reason / Status</td><td>1</td><td>0x00=OK, 0x01=CRC error, 0x02=Timeout, 0x03=Out of order, 0x04=Buffer full</td><td>Additional status qualifier. When Control Code=ACK, typically 0x00. When NACK, indicates why retransmission is needed.</td></tr>
+    <tr><td>4</td><td>App Parameter Group ID (optional)</td><td>1</td><td>0x00..0xFF</td><td>If present, identifies which segmented parameter group this ACK/NACK refers to. If unused, set to 0xFF.</td></tr>
+    <tr><td>5</td><td>Reserved / Pad</td><td>1</td><td>0xFF</td><td>Reserved for future use; transmit as 0xFF.</td></tr>
+    <tr><td>6</td><td>Reserved / Pad</td><td>1</td><td>0xFF</td><td>Reserved for future use; transmit as 0xFF.</td></tr>
+    <tr><td>7</td><td>Reserved / Pad</td><td>1</td><td>0xFF</td><td>Reserved for future use; transmit as 0xFF.</td></tr>
+  </tbody>
+</table>

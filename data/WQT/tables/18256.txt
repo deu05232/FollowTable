@@ -1,0 +1,11 @@
+# BitTorrent Clients and Their Underlying Engines   Libraries
+
+| BitTorrent client | Built on library/engine | Programming language | GUI type | Plugin system | Target audience | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Deluge | libtorrent (Rasterbar) | Python | Desktop GUI | Yes | Power users | Often paired with daemon mode |
+| qBittorrent | libtorrent (Rasterbar) | C++ | Desktop GUI | Limited | General users | Similar UX to µTorrent |
+| Flood (for rTorrent) | rTorrent backend | JavaScript | Web UI | Yes | Server/seedbox users | Requires rTorrent |
+| WebTorrent Desktop | WebTorrent | JavaScript | Desktop GUI | No | Streaming-focused | Uses WebRTC in browser version |
+| BiglyBT | Azureus/Vuze core | Java | Desktop GUI | Yes | Advanced users | Fork lineage from Vuze |
+| Tixati | Custom engine | C++ | Desktop GUI | No | General users | Proprietary core |
+| Transmission | libtransmission | C | Desktop GUI | No | Lightweight users | Engine used by multiple UIs |

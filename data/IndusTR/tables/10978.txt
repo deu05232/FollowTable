@@ -1,0 +1,16 @@
+<table>
+  <caption>Common Service Description Model (CSDM) — Service Basic Information Field List</caption>
+  <thead>
+    <tr><th>Section</th><th>Field (English Name)</th><th>Data Type / Format</th><th>Requirement (M/0/C)</th><th>Max Occurs</th><th>Value Domain / Notes</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">BasicInformation</td><td>serviceName</td><td>C..128</td><td>M</td><td>1</td><td>-</td><td>Public name of the service</td></tr>
+    <tr><td>serviceCategory</td><td>C..64</td><td>M</td><td>1</td><td>Controlled vocabulary</td><td>Category/classification of the service</td></tr>
+    <tr><td>serviceCode</td><td>C..64</td><td>0</td><td>1</td><td>Organization-defined</td><td>Unique code/identifier for the service</td></tr>
+    <tr><td>version</td><td>C..32</td><td>M</td><td>1</td><td>Semantic versioning recommended</td><td>Service description version</td></tr>
+    <tr><td>registrationDate</td><td>D</td><td>M</td><td>1</td><td>YYYY-MM-DD</td><td>Date the service is registered/published</td></tr>
+    <tr><td>keyword</td><td>C..64</td><td>0</td><td>N</td><td>-</td><td>Search keywords for the service</td></tr>
+    <tr><td>description</td><td>C..2000</td><td>M</td><td>1</td><td>-</td><td>Short service overview</td></tr>
+    <tr><td>status</td><td>C..16</td><td>C</td><td>1</td><td>When provided, must be one of: draft, active, deprecated</td><td>Lifecycle status of the service</td></tr>
+  </tbody>
+</table>

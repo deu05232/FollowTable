@@ -1,0 +1,8 @@
+# Comparison of BitTorrent clients (Applications) — Cross-platform availability and packaging
+
+| Client | Desktop OS coverage | Mobile OS coverage | Command-line availability | Packaging / installer style | Hardware / device focus |
+| --- | --- | --- | --- | --- | --- |
+| qBittorrent | Commonly available on major desktop operating systems | Not primarily focused on mobile | Usually offers a desktop-focused app; CLI is not the main focus | Distributed via installers and package managers | Desktop/laptop usage |
+| Transmission | Available on several desktop operating systems | Mobile availability varies by ecosystem | May provide remote/headless usage depending on build | Often shipped with OS distributions and app bundles | Desktop and low-power devices |
+| Deluge | Available across multiple desktop operating systems | Not primarily focused on mobile | Often used in headless/server-style setups | Commonly installed via package managers | Desktop and home server usage |
+| aria2 | Runs on many desktop/server operating systems | Mobile usage depends on wrappers | Strong command-line orientation | Typically installed via package managers | Server and power-user workflows |

@@ -1,0 +1,16 @@
+<table>
+  <caption>Utility Inputs/Outputs and Disposal Streams in Ancillary Systems Supporting Chemical Fiber Production Lines (Example Activity Data Items)</caption>
+  <thead>
+    <tr><th>Utility / support service</th><th>Ancillary system boundary (what the support system includes)</th><th>Measured activity data (inputs)</th><th>Delivered utilities / outputs to workshops</th><th>Waste streams requiring disposal</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Steam (LP/MP/HP)</td><td>Fuel reception, boiler, water treatment, steam header</td><td>Fuel mass/energy; boiler make-up water; electricity; boiler additives</td><td>Steam flow by pressure level; condensate returned</td><td>Boiler blowdown wastewater; flue-gas cleaning residues (if equipped)</td></tr>
+    <tr><td>Nitrogen</td><td>N2 generation (PSA/membrane) + storage + pipeline</td><td>Electricity; compressed air feed; adsorption media replacement rate</td><td>Nitrogen volume; purity; pressure</td><td>Spent adsorbent; vented purge gas</td></tr>
+    <tr><td>Compressed air</td><td>Compressors, dryers, receivers, distribution</td><td>Electricity; cooling water; lubricant oil; dryer purge losses</td><td>Compressed air volume; dew point</td><td>Oily condensate; waste oil and used filters</td></tr>
+    <tr><td>Electricity</td><td>Grid connection, transformers, internal distribution</td><td>Purchased electricity (kWh); peak demand; backup generator diesel (if any)</td><td>Electricity supplied to spinning/polymer units</td><td>Spent batteries; transformer oil (maintenance waste)</td></tr>
+    <tr><td>Process water</td><td>Raw water intake + pretreatment + demin/softening</td><td>Water withdrawal; chemicals (acid/alkali, coagulant); electricity; RO reject rate</td><td>Demineralized/process water volume</td><td>RO concentrate/brine; spent cartridges/resins</td></tr>
+    <tr><td>Cooling water</td><td>Cooling tower and circulation loop</td><td>Make-up water; pump and fan electricity; biocide/inhibitors; blowdown volume</td><td>Cooled water supply temperature/flow</td><td>Cooling tower blowdown wastewater; drift losses (water/chemicals)</td></tr>
+    <tr><td>Wastewater treatment</td><td>Equalization, neutralization, biological treatment, sludge handling</td><td>Influent flow; COD/BOD load; neutralizing agents; aeration electricity; polymer</td><td>Treated effluent meeting discharge limits</td><td>Wastewater sludge (hazardous/non-hazardous); screening grit</td></tr>
+    <tr><td>General & hazardous waste logistics</td><td>On-site storage, labeling, transport to disposal</td><td>Container/packaging use; transport distance; disposal service type (incineration/landfill)</td><td>—</td><td>Hazardous waste (solvent-contaminated materials, oily waste); non-hazardous waste (packaging)</td></tr>
+  </tbody>
+</table>

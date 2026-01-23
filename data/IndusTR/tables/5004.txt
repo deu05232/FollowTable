@@ -1,0 +1,8 @@
+<table>
+  <caption>Production Process Inspection Record Data Table</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Description</td><td>Data Type</td><td>Data Format</td><td>Example</td></tr>
+  <tr><td>1</td><td>Production process name</td><td>Name of the food production process</td><td>C</td><td>C..100</td><td>High-pressure sterilization</td></tr>
+  <tr><td>2</td><td>Inspection time</td><td>Time of inspection of the production process</td><td>YYYYMMDDhhmmss</td><td>Complies with relevant requirements of GB/T 7408</td><td>2023082009:00:00</td></tr>
+  <tr><td>3</td><td>Inspector name</td><td>Name of the person inspecting the production process</td><td>C</td><td>C..30</td><td>Zhang ××</td></tr>
+  <tr><td>4</td><td>Inspection nature</td><td>Nature of the inspection of the production process</td><td>C</td><td>C..100</td><td></td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Calibration Parameters for PDU Frame Capture & Decode Bench</caption>
+  <thead>
+    <tr><th>Instrument</th><th>Channel</th><th>Calibration Item</th><th>Setting</th><th>Interval</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Logic Analyzer</td><td>CH1</td><td>Threshold</td><td>1.65 V</td><td>6 months</td><td>CAL-LA-2401</td></tr>
+    <tr><td>Logic Analyzer</td><td>CH2</td><td>Sample rate</td><td>50 MS/s</td><td>6 months</td><td>CAL-LA-2402</td></tr>
+    <tr><td>Oscilloscope</td><td>CH1</td><td>Bandwidth limit</td><td>20 MHz</td><td>12 months</td><td>CAL-OSC-1107</td></tr>
+    <tr><td>CAN Interface</td><td>Port A</td><td>Bit timing</td><td>500 kbit/s</td><td>12 months</td><td>CAL-CAN-0312</td></tr>
+    <tr><td>Time Source</td><td>—</td><td>Drift</td><td>< 1 ppm</td><td>12 months</td><td>CAL-TIME-0009</td></tr>
+    <tr><td>Power Supply</td><td>OUT1</td><td>Ripple</td><td>< 10 mVpp</td><td>12 months</td><td>CAL-PSU-2210</td></tr>
+  </tbody>
+</table>

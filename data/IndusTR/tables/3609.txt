@@ -1,0 +1,20 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type 3 (Inter-Signal Bias) Parameter Description Table</caption>
+  <tr><td>Field</td><td>Name</td><td>Length/bit</td><td>Scale factor</td><td>Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>MesTypeID</td><td>Message type</td><td>6</td><td>1</td><td>0~63</td><td>1</td><td>See Table 5</td></tr>
+  <tr><td>Epoch time</td><td>Epoch time</td><td>17</td><td>1</td><td>0~863 99</td><td>S</td><td>BeiDou Time seconds-of-day count</td></tr>
+  <tr><td>Reserved bits</td><td>Reserved bits</td><td>4</td><td>1</td><td>0~15</td><td></td><td></td></tr>
+  <tr><td>IOD SSR</td><td>SSR issue of data</td><td>2</td><td>1</td><td>0~3</td><td></td><td>Changes when system configuration changes</td></tr>
+  <tr><td>Number of satellites</td><td>Number of satellites</td><td>5</td><td>1</td><td>0~31</td><td></td><td>Number of satellites contained in this message</td></tr>
+  <tr><td rowspan="8">Inter-signal bias for Satellite 1</td><td>SatSlot</td><td>9</td><td>1</td><td>1~255</td><td></td><td>Position of Satellite 1 in the mask</td></tr>
+  <tr><td>Number of inter-signal biases</td><td>4</td><td>1</td><td></td><td></td><td>Number of code biases included for Satellite 1</td></tr>
+  <tr><td>Signal and tracking mode 1</td><td>4</td><td>1</td><td>0~15</td><td></td><td>Signal branch and processing mode corresponding to the 1st code bias</td></tr>
+  <tr><td>Inter-signal bias 1</td><td>12 *</td><td>0.017</td><td>±35.746</td><td>m</td><td>Value of the 1st code bias</td></tr>
+  <tr><td>Signal and tracking mode 2</td><td>4</td><td>1</td><td>0~15</td><td></td><td>Signal branch and processing mode corresponding to the 2nd code bias</td></tr>
+  <tr><td>Inter-signal bias 2</td><td>12*</td><td>0.017</td><td>±35.746</td><td>m</td><td>Value of the 2nd code bias</td></tr>
+  <tr><td>......</td><td>......</td><td>…</td><td>......</td><td>......</td><td>......</td></tr>
+  <tr><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td><td>......</td></tr>
+  <tr><td></td><td>One</td><td>/</td><td></td><td></td><td>One</td><td>One</td></tr>
+  <tr><td>CRC</td><td>Check bits</td><td>24</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td colspan="7">Note: * indicates two's complement.</td></tr>
+</table>

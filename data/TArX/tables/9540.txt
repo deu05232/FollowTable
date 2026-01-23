@@ -1,0 +1,18 @@
+<table>
+  <caption>Earth–Moon System: Dimensionless Coefficients and Normalized Parameters (No Units)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Earth</th><th>Moon</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Shape/Rotation</td><td>Flattening (f)</td><td>0.00335</td><td>0.00125</td><td>Dimensionless</td></tr>
+    <tr><td>J2</td><td>0.0010826</td><td>0.0002027</td><td>Second zonal harmonic</td></tr>
+    <tr><td>Normalized spin rate (ω/ω0)</td><td>1.000</td><td>0.037</td><td>Normalized to an arbitrary ω0</td></tr>
+    <tr><td rowspan="3">Orbit/Tides</td><td>Eccentricity (e)</td><td>0.0167</td><td>0.0549</td><td>Dimensionless</td></tr>
+    <tr><td>Love number (k2)</td><td>0.30</td><td>0.024</td><td>Dimensionless tidal response</td></tr>
+    <tr><td>Tidal Q</td><td>12</td><td>38</td><td>Quality factor (dimensionless)</td></tr>
+    <tr><td rowspan="2">Interior</td><td>Core radius fraction (Rc/R)</td><td>0.55</td><td>0.20</td><td>Ratio, no units</td></tr>
+    <tr><td>Moment of inertia factor (C/MR^2)</td><td>0.3308</td><td>0.393</td><td>Dimensionless</td></tr>
+    <tr><td rowspan="2">Albedo/Optics</td><td>Geometric albedo (pV)</td><td>0.367</td><td>0.136</td><td>Unitless reflectance</td></tr>
+    <tr><td>Phase integral (q)</td><td>0.30</td><td>0.39</td><td>Dimensionless</td></tr>
+  </tbody>
+</table>

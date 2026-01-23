@@ -1,0 +1,25 @@
+<table>
+  <caption>Enterprise Basic Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C.50</td><td></td><td></td></tr>
+  <tr><td>Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>Document Number</td><td>CerNo</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Name</td><td>QuaCertName</td><td>C..50</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Number</td><td>QuaCertNo</td><td>C.20</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Valid From</td><td>QuaCertEffDateFrom</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Valid To</td><td>QuaCertEffDateTo</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Issue Date</td><td>QuaCertIssuDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Issuing Authority</td><td>QuaCertIssuDep</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Status</td><td>QuaCertStatus</td><td>B</td><td>Valid；Invalid</td><td></td></tr>
+  <tr><td>Qualification Level Name</td><td>QuaLevTitle</td><td>C..50</td><td></td><td>The name of the industry qualification level. Enterprise qualifications include the enterprise's personnel quality, technical and management level, engineering equipment, capital and performance, contracting and operating capability, and construction performance, etc.</td></tr>
+  <tr><td>Qualification Certificate Number</td><td>QuaLevCertNo</td><td>C.20</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Valid From</td><td>QuaLevCertEffDateFrom</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Valid To</td><td>QuaLevCertEffDateTo</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Issue Date</td><td>QuaLevCertIssuDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Issuing Authority</td><td>QuaLevCertIssuDep</td><td></td><td></td><td></td></tr>
+  <tr><td>Qualification Certificate Status</td><td>QuaLevCertStatus</td><td>B</td><td>Valid;Invalid</td><td></td></tr>
+  <tr><td>Data Aggregation Unit</td><td>S_Ext_FromNode</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

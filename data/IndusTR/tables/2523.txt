@@ -1,0 +1,14 @@
+<table>
+  <caption>Energy Consumption Benchmark for a Cotton Polyester Spinning Workshop (Utility KPI Dashboard)</caption>
+  <thead>
+    <tr><th>Area</th><th>KPI</th><th>Unit</th><th>Target</th><th>Typical range</th><th>Data source</th><th>Reporting cycle</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Carding</td><td>Specific electricity consumption</td><td>kWh/100 kg sliver</td><td>14.0</td><td>13.0–16.5</td><td>Sub-meter</td><td>Monthly</td></tr>
+    <tr><td>Drawing</td><td>Specific electricity consumption</td><td>kWh/100 kg sliver</td><td>3.8</td><td>3.2–4.6</td><td>Sub-meter</td><td>Monthly</td></tr>
+    <tr><td>Ring spinning</td><td>Specific electricity consumption</td><td>kWh/100 kg yarn</td><td>32.0</td><td>28.0–36.0</td><td>MES</td><td>Monthly</td></tr>
+    <tr><td>Winding</td><td>Specific electricity consumption</td><td>kWh/100 kg yarn</td><td>6.5</td><td>5.5–8.0</td><td>MES</td><td>Monthly</td></tr>
+    <tr><td>Humidification</td><td>Steam consumption</td><td>kg steam/100 kg yarn</td><td>18</td><td>15–25</td><td>Boiler log</td><td>Monthly</td></tr>
+    <tr><td>Compressed air</td><td>Air usage</td><td>Nm³/100 kg yarn</td><td>42</td><td>35–55</td><td>Compressor PLC</td><td>Monthly</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Ionospheric Spherical-Harmonic Correction Message Header and Timing Fields</caption>
+  <thead>
+    <tr><th>Category</th><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Bits</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Message Framing</td><td>Message type number</td><td>DF002</td><td>uint12</td><td>12</td><td>Identifies the message type</td></tr>
+    <tr><td>Provider ID</td><td>DF003</td><td>uint16</td><td>16</td><td>Service provider identifier</td></tr>
+    <tr><td>Solution ID</td><td>DF004</td><td>uint4</td><td>4</td><td>Solution stream identifier</td></tr>
+    <tr><td>CRC / parity</td><td>DF005</td><td>bit(24)</td><td>24</td><td>Transmission integrity</td></tr>
+    <tr><td rowspan="4">Timing / Cadence</td><td>GPS epoch time</td><td>DF385</td><td>uint20</td><td>20</td><td>Time of applicability</td></tr>
+    <tr><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Update cadence indicator</td></tr>
+    <tr><td>IOD SSR</td><td>DF413</td><td>uint4</td><td>4</td><td>Issue of data for SSR</td></tr>
+    <tr><td>Multiple message indicator</td><td>DF393</td><td>bit(1)</td><td>1</td><td>Continuation/segmentation flag</td></tr>
+    <tr><td rowspan="2">Message Size</td><td>Message length</td><td>DF006</td><td>uint10</td><td>10</td><td>Payload size in bits/bytes</td></tr>
+    <tr><td>Reserved</td><td>DF007</td><td>bit(2)</td><td>2</td><td>Reserved for future use</td></tr>
+  </tbody>
+</table>

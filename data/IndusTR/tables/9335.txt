@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Lighting Estimation Retrieval Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">context</td><td>ArSession *</td><td>AR session handle used to query light estimation</td></tr>
+    <tr><td>ArFrame *</td><td>Frame providing the camera image/time for which lighting is estimated</td></tr>
+    <tr><td>ArLightEstimate *</td><td>Pre-allocated light-estimate object that will be populated for this frame</td></tr>
+    <tr><td>out_state</td><td>ArLightEstimateState *</td><td>Returns whether the estimate is valid/ready for the frame</td></tr>
+    <tr><td>out_average_intensity</td><td>float *</td><td>Returns a normalized average pixel intensity estimate</td></tr>
+    <tr><td>out_color_correction_rgba</td><td>float[4] *</td><td>Returns color correction factors (R,G,B,A) derived from the light estimate</td></tr>
+    <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Returns the frame timestamp used for the light estimate</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Trifid Nebula distance estimates and derived scales (compiled from heterogeneous methods).</caption>
+  <thead>
+    <tr><th rowspan="2">Method / Tracer</th><th rowspan="2">Quoted distance to Trifid</th><th rowspan="2">Uncertainty / Range</th><th colspan="2">Derived quantities (assuming stated distance)</th><th rowspan="2">Notes</th></tr>
+    <tr><th>1 arcmin scale</th><th>Distance modulus</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Main-sequence fitting (cluster)</td><td>2.7 kpc</td><td>±0.3 kpc</td><td>0.79 pc</td><td>12.16 mag</td><td>Commonly adopted for core mass estimates</td></tr>
+    <tr><td>Gaia parallax (OB members)</td><td>2.3 kpc</td><td>2.1–2.6 kpc</td><td>0.67 pc</td><td>11.81 mag</td><td>Parallax systematics may broaden range</td></tr>
+    <tr><td>Kinematic (CO, LSR velocity)</td><td>1.9 kpc</td><td>1.7–2.2 kpc</td><td>0.55 pc</td><td>11.39 mag</td><td>Near/far ambiguity resolved to near</td></tr>
+    <tr><td>Extinction jump (3D dust)</td><td>2.6 kpc</td><td>2.4–2.8 kpc</td><td>0.76 pc</td><td>12.07 mag</td><td>Distance to major dust layer toward M20</td></tr>
+    <tr><td>Literature consensus (review)</td><td>2.5 kpc</td><td>2.0–2.8 kpc</td><td>0.73 pc</td><td>11.99 mag</td><td>Aggregated from multiple papers</td></tr>
+    <tr><td>Adopted for luminosity conversion</td><td>2.7 kpc</td><td>(fixed)</td><td>0.79 pc</td><td>12.16 mag</td><td>L ∝ d² scaling used in X-ray/IR work</td></tr>
+  </tbody>
+</table>

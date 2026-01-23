@@ -1,0 +1,11 @@
+<table>
+  <caption>Fire Test Laboratory Environmental Conditions and Instrument Calibration Plan (General)</caption>
+  <tr><th>Item</th><th>Requirement</th><th>Target</th><th>Allowed tolerance</th><th>Frequency</th><th>Record ID</th><th>Responsible role</th></tr>
+  <tr><td>Ambient temperature</td><td>Controlled during specimen conditioning</td><td>23</td><td>±2</td><td>Daily</td><td>ENV-T-01</td><td>Lab technician</td></tr>
+  <tr><td>Relative humidity</td><td>Controlled during conditioning</td><td>50</td><td>±5</td><td>Daily</td><td>ENV-RH-01</td><td>Lab technician</td></tr>
+  <tr><td>Furnace thermocouples</td><td>Calibration against reference</td><td>Type K</td><td>±1.5</td><td>Monthly</td><td>CAL-TC-12</td><td>Metrology engineer</td></tr>
+  <tr><td>Pressure transducer</td><td>Zero/span verification</td><td>0–5</td><td>±0.5%</td><td>Quarterly</td><td>CAL-PT-07</td><td>Metrology engineer</td></tr>
+  <tr><td>Data acquisition</td><td>Time synchronization</td><td>NTP locked</td><td>±1 s</td><td>Weekly</td><td>CAL-DAQ-03</td><td>QA officer</td></tr>
+  <tr><td>Specimen scale</td><td>Mass calibration</td><td>0–50</td><td>±0.02</td><td>Monthly</td><td>CAL-SC-09</td><td>Metrology engineer</td></tr>
+  <tr><td>Camera system</td><td>Focus/field-of-view check</td><td>Clear image</td><td>—</td><td>Per test</td><td>CAL-CAM-02</td><td>Test operator</td></tr>
+</table>

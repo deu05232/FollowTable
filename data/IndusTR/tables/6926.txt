@@ -1,0 +1,16 @@
+<table>
+  <caption>Feedstock Classification with Post-Processing and Machine Brand Details (Includes Forbidden Non-Activation Content)</caption>
+  <thead>
+    <tr><th rowspan="2">Raw material category</th><th colspan="3">Activation source</th><th rowspan="2">Typical post-processing (forbidden focus)</th><th rowspan="2">Example machine/vendor (forbidden focus)</th></tr>
+    <tr><th>Laser</th><th>Electron beam</th><th>Arc</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metal materials</td><td>LPBF; Laser DED</td><td>EB-PBF; EB-DED</td><td>WAAM</td><td>Stress relief; HIP; machining</td><td>EOS M 290; Arcam EBM; Lincoln Electric</td></tr>
+    <tr><td>Organic polymer materials</td><td>SLS; MJF (radiant/IR variants)</td><td></td><td></td><td>Depowdering; dyeing</td><td>EOS P 396; HP 5200</td></tr>
+    <tr><td>Photocurable resin</td><td>SLA; DLP</td><td></td><td></td><td>UV post-cure; solvent rinse</td><td>3D Systems; Formlabs</td></tr>
+    <tr><td>Inorganic non-metallic materials (ceramics)</td><td>Laser sintering of ceramics; L-DED ceramic slurry</td><td></td><td></td><td>Debinding; furnace sintering</td><td>3DCeram; Lithoz</td></tr>
+    <tr><td>Biomaterials</td><td>Laser DED (Ti alloys); SLS (bio-polymers)</td><td>EB-PBF (Ti-6Al-4V)</td><td></td><td>Cleaning; sterilization</td><td>GE Additive; Arcam</td></tr>
+    <tr><td>Sand / foundry aggregates</td><td></td><td></td><td></td><td>Curing; infiltration</td><td>ExOne</td></tr>
+    <tr><td>Wax / investment casting patterns</td><td>Material jetting (wax)</td><td></td><td></td><td>Shell building; burnout</td><td>Solidscape</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Parameters of the 256 3 particle, scale-free simulations. The r1 simulations represent glass initial conditions and r2 simulations are grid starts.</caption>
+  <tr><th>simulation</th><th>ε/L</th><th>Δ^(2)(k_(),a=1)</th><th>a_()</th><th>a_()</th><th>timesteps</th><th>energy error</th><th>output values of a</th></tr>
+  <tr><td>n=-2 r1</td><td>0.00025</td><td>0.133</td><td>0.025</td><td>0.62</td><td>831</td><td>0.04 %</td><td>0.025,0.1,0.2,0.3,0.4,0.5,0.6,0.62</td></tr>
+  <tr><td>n=-2 r2</td><td>0.00025</td><td>0.133</td><td>0.025</td><td>0.55</td><td>904</td><td>0.04 %</td><td>0.025,0.1,0.2,0.3,0.4,0.5,0.55</td></tr>
+  <tr><td>n=-1.5 r1</td><td>0.00023</td><td>0.046</td><td>0.010</td><td>0.96</td><td>991</td><td>0.16 %</td><td>0.01,0.25,0.315,0.4,0.5,0.63,0.794,0.96</td></tr>
+  <tr><td>n=-1.5 r2</td><td>0.00023</td><td>0.046</td><td>0.010</td><td>1.00</td><td>915</td><td>0.16 %</td><td>0.01,0.25,0.315,0.4,0.5,0.63,0.794,1.0</td></tr>
+  <tr><td>n=-1 r1</td><td>0.00023</td><td>0.017</td><td>0.010</td><td>0.83</td><td>991</td><td>0.31 %</td><td>0.01,0.25,0.315,0.4,0.5,0.63,0.794,0.83</td></tr>
+  <tr><td>n=-1 r2</td><td>0.00023</td><td>0.017</td><td>0.010</td><td>1.00</td><td>815</td><td>0.31 %</td><td>0.01,0.25,0.315,0.4,0.5,0.63,0.794,1.0</td></tr>
+  <tr><td>n=0 r1</td><td>0.00025</td><td>0.003</td><td>0.025</td><td>0.66</td><td>1 443</td><td>0.50 %</td><td>0.025,0.1,0.2,0.3,0.4,0.5,0.6,0.66</td></tr>
+  <tr><td>n=0 r2</td><td>0.00025</td><td>0.003</td><td>0.025</td><td>0.50</td><td>1 239</td><td>0.50 %</td><td>0.025,0.1,0.2,0.3,0.4,0.5</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>AWG Channel Plan Constraints (ITU Grid Mapping Options)</caption>
+  <thead>
+    <tr><th>Grid Option</th><th>Channel Spacing</th><th>Channel Count</th><th>Center Frequency Range</th><th>Example Start/Stop ITU Channels</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Option A (Dense C-band)</td><td>50 GHz</td><td>40</td><td>193.10–191.15 THz</td><td>CH 21 → CH -18 (50 GHz grid)</td></tr>
+    <tr><td>Option B (Standard C-band)</td><td>100 GHz</td><td>20</td><td>196.00–194.10 THz</td><td>CH 60 → CH 41 (100 GHz grid)</td></tr>
+    <tr><td>Option C (Extended split-band)</td><td>100 GHz</td><td>40</td><td>196.00–194.05 THz (Band 1); 193.40–191.45 THz (Band 2)</td><td>Band 1: CH 60 → CH 39; Band 2: CH 34 → CH 15</td></tr>
+    <tr><td>Option D (System-aligned lower C-band)</td><td>50 GHz</td><td>48</td><td>192.95–190.60 THz</td><td>CH 18 → CH -29 (50 GHz grid)</td></tr>
+    <tr><td>Option E (High-count planning)</td><td>50 GHz</td><td>88</td><td>196.10–191.75 THz</td><td>CH 62 → CH -25 (50 GHz grid)</td></tr>
+    <tr><td>Option F (Mixed spacing family)</td><td>100/50 GHz</td><td>32</td><td>193.90–192.35 THz (100 GHz region); 192.30–191.55 THz (50 GHz region)</td><td>100 GHz: CH 42 → CH 27; 50 GHz: CH 6 → CH -9</td></tr>
+  </tbody>
+</table>

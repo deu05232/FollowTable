@@ -1,0 +1,10 @@
+<table>
+  <caption>GLONASS Satellite-Level Fields Mixed with Phase Bias Context</caption>
+  <tr><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>GLONASS Satellite Number</td><td>DF040</td><td>uint6</td><td>6</td></tr>
+  <tr><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Yaw Angle</td><td>DF480</td><td>uint9</td><td>9</td></tr>
+  <tr><td>GLONASS Signal and Its Tracking Mode</td><td>DF381</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td></tr>
+  <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td></tr>
+</table>

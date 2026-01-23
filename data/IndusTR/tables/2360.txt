@@ -1,0 +1,14 @@
+<table>
+  <caption>Certificate Application Backend — HSM Appliance Hardware Specifications (Reference Build)</caption>
+  <thead>
+    <tr><th>Component</th><th>Model</th><th>Quantity</th><th>Key Specs</th><th>Compliance</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>HSM</td><td>HSM-X2000</td><td>2</td><td>3,000 TPS; SM2/RSA; FIPS 140-2 L3</td><td>FIPS 140-2</td><td>Active/Active</td></tr>
+    <tr><td>CPU</td><td>Xeon Silver 4314</td><td>2</td><td>16C/32T</td><td>N/A</td><td>Application nodes</td></tr>
+    <tr><td>Memory</td><td>DDR4 ECC</td><td>256 GB</td><td>3200 MT/s</td><td>N/A</td><td>Per node</td></tr>
+    <tr><td>Storage</td><td>NVMe SSD</td><td>2 TB</td><td>RAID1</td><td>N/A</td><td>Low latency</td></tr>
+    <tr><td>NIC</td><td>10GbE</td><td>2</td><td>SR-IOV enabled</td><td>N/A</td><td>Internal VLAN</td></tr>
+    <tr><td>Load Balancer</td><td>LB-VA</td><td>1</td><td>L7 routing, mTLS</td><td>N/A</td><td>Public entry</td></tr>
+  </tbody>
+</table>

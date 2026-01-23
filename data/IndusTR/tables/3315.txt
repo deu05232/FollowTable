@@ -1,0 +1,10 @@
+<table>
+  <caption>Test Method Summary — CAN Bus Conformance & Timing Verification Conditions</caption>
+  <tr><th>Test ID</th><th>Test Objective</th><th>Instrument</th><th>Bus Speed</th><th>Sample Rate</th><th>Environment</th><th>Pass/Fail Rule</th></tr>
+  <tr><td>TM-01</td><td>Verify arbitration and ACK behavior</td><td>CANalyzer</td><td>250 kbps</td><td>1 MS/s</td><td>23±2°C</td><td>No ACK errors in 10,000 frames</td></tr>
+  <tr><td>TM-02</td><td>Measure inter-frame spacing</td><td>Oscilloscope</td><td>250 kbps</td><td>500 MS/s</td><td>23±2°C</td><td>IFS ≥ 3 bit times</td></tr>
+  <tr><td>TM-03</td><td>Bit timing tolerance scan</td><td>CAN FD analyzer</td><td>Nominal 250 kbps</td><td>2 MS/s</td><td>-20°C / 60°C</td><td>Stable communication across ±1.5% clock drift</td></tr>
+  <tr><td>TM-04</td><td>EMC immunity during communication</td><td>RF chamber</td><td>250 kbps</td><td>—</td><td>10 V/m</td><td>Frame error rate ≤ 0.01%</td></tr>
+  <tr><td>TM-05</td><td>Bus load stress test</td><td>Traffic generator</td><td>250 kbps</td><td>—</td><td>23±2°C</td><td>No watchdog reset within 2 h</td></tr>
+  <tr><td>TM-06</td><td>Timestamp accuracy validation</td><td>Time interval counter</td><td>—</td><td>—</td><td>23±2°C</td><td>Timestamp deviation ≤ 1 ms</td></tr>
+</table>

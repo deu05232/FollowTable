@@ -1,0 +1,14 @@
+<table>
+  <caption>Key Elements for Building a Gait Recognition Algorithm Evaluation Database</caption>
+  <tr><td>No.</td><td>Element</td><td>Example of Element Content</td></tr>
+  <tr><td>1</td><td>Gender</td><td>Male, Female</td></tr>
+  <tr><td>2</td><td>Acquisition Method</td><td>Visible light, Infrared</td></tr>
+  <tr><td>3</td><td>Body Completeness</td><td>Complete, Incomplete</td></tr>
+  <tr><td>4</td><td>Motion State</td><td>Natural walking, Other</td></tr>
+  <tr><td>5</td><td>Body Resolution</td><td>Pixel values of body image length and width</td></tr>
+  <tr><td>6</td><td>Image Sharpness</td><td>Sharp, Blurry</td></tr>
+  <tr><td>7</td><td>Ambient Lighting</td><td>Strong light, Low light, Backlight</td></tr>
+  <tr><td>8</td><td>Viewing Angle</td><td>Multi-view</td></tr>
+  <tr><td>9</td><td>Gait Cycle</td><td>The number of action cycles in which each foot completes the sequence from heel-off (lifting) to heel-strike (landing)</td></tr>
+  <tr><td>SA1</td><td>Sequence Length</td><td>The number of consecutive image frames extracted within at least two gait cycles</td></tr>
+</table>

@@ -1,0 +1,6 @@
+# twisted.names.dns.Record_HINFO : API documentation
+
+| Instance Variable | Instance Variable | Instance Variable | Method | Method | Method | Method | Method |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| cpu | os | ttl | __init__ | encode | decode | __eq__ | __hash__ |
+| Specifies the CPU type. (type: str) | Specifies the OS. (type: str) | The maximum number of seconds which this record should be cached. (type: int) | Undocumented | Write a representation of this object to the given file object. | Reconstruct an object from data read from the given file object. | Undocumented | Undocumented |

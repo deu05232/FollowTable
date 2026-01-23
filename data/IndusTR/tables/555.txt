@@ -1,0 +1,11 @@
+<table>
+  <caption>ENCRYPTDATA Command Message APDU Header Field Definition</caption>
+  <tr><td>Code</td><td>Value/Description (HEX Encoding)</td></tr>
+  <tr><td>CLA</td><td>80</td></tr>
+  <tr><td>INS</td><td>C4</td></tr>
+  <tr><td>P1</td><td>Bit 7: 1 indicates end frame mode; 0 indicates intermediate frame mode. When Bit 7 is 0, Bits 6 to 0 are the frame sequence number, incrementing sequentially starting from 0x01 within the range 0x01 to 0x7F and can be counted cyclically</td></tr>
+  <tr><td>P2</td><td>00</td></tr>
+  <tr><td>LcC</td><td>Length of data to be encrypted</td></tr>
+  <tr><td>CDATA</td><td>Data to be encrypted</td></tr>
+  <tr><td>Le</td><td>Not present</td></tr>
+</table>

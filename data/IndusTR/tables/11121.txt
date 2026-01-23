@@ -1,0 +1,17 @@
+<table>
+  <caption>Chiller and Rooftop Unit Efficiency Summary (APF vs IPLV/EER) by Cooling Capacity</caption>
+  <thead>
+    <tr><th rowspan="2">Equipment category</th><th rowspan="2">Condenser type</th><th rowspan="2">Cooling capacity range</th><th colspan="2">APF</th><th colspan="2">IPLV</th><th colspan="2">EER (full load)</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Benchmark</th><th>Requirement</th><th>Benchmark</th><th>Requirement</th><th>Benchmark</th><th>Requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Packaged rooftop unit</td><td rowspan="2">Air-cooled</td><td>10–25 kW</td><td>4.1</td><td>3.8</td><td>3.7</td><td>3.4</td><td>3.2</td><td>3.0</td><td>Includes economizer option</td></tr>
+    <tr><td>25–50 kW</td><td>3.9</td><td>3.6</td><td>3.6</td><td>3.3</td><td>3.1</td><td>2.9</td><td>Standard fan power</td></tr>
+    <tr><td rowspan="2">Water-cooled</td><td>25–50 kW</td><td>4.4</td><td>4.0</td><td>4.5</td><td>4.1</td><td>3.6</td><td>3.3</td><td>Cooling tower assumed</td></tr>
+    <tr><td>50–100 kW</td><td>4.2</td><td>3.9</td><td>4.3</td><td>4.0</td><td>3.5</td><td>3.2</td><td>Variable-speed drives</td></tr>
+    <tr><td rowspan="4">Chiller</td><td rowspan="2">Air-cooled</td><td>100–200 kW</td><td>3.7</td><td>3.4</td><td>4.0</td><td>3.7</td><td>2.9</td><td>2.7</td><td>Part-load weighting applies</td></tr>
+    <tr><td>200–400 kW</td><td>3.6</td><td>3.3</td><td>3.9</td><td>3.6</td><td>2.8</td><td>2.6</td><td>AHRI test condition</td></tr>
+    <tr><td rowspan="2">Water-cooled</td><td>200–400 kW</td><td>4.3</td><td>4.0</td><td>6.2</td><td>5.8</td><td>4.8</td><td>4.4</td><td>Includes pump allowance</td></tr>
+    <tr><td>400–800 kW</td><td>4.1</td><td>3.8</td><td>6.0</td><td>5.6</td><td>4.6</td><td>4.2</td><td>Cooling tower approach 3°C</td></tr>
+  </tbody>
+</table>

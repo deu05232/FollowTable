@@ -1,0 +1,15 @@
+<table>
+  <caption>Ingress Protection & Reliability Checks Including Monitoring Performance KPIs (Beidou Terminal)</caption>
+  <thead>
+    <tr><th>Section</th><th>Requirement item</th><th>Standard / condition</th><th>Parameter</th><th>Acceptance criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Enclosure protection</td><td>IP rating (in-cab terminal)</td><td>GB/T 4208:2017</td><td>Target IP65</td><td>No harmful ingress under IP65 verification</td></tr>
+    <tr><td>IP rating (out-of-cab terminal)</td><td>GB/T 4208:2017</td><td>Target IP66</td><td>No harmful ingress under IP66 verification</td></tr>
+    <tr><td>Water jet check (supporting note)</td><td>Per IPX6 method</td><td>100 L/min, 3 min</td><td>No water penetration affecting operation</td></tr>
+    <tr><td rowspan="4">Field operation KPIs (non-test)</td><td>Operation status monitoring accuracy</td><td>Field evaluation</td><td>≥ 98%</td><td>Meets monitoring accuracy threshold</td></tr>
+    <tr><td>Operation depth monitoring error</td><td>Field evaluation</td><td>≤ 2 cm</td><td>Meets depth error limit</td></tr>
+    <tr><td>Missed-seed count monitoring error rate</td><td>Field evaluation</td><td>≤ 2%</td><td>Meets missed-seed error limit</td></tr>
+    <tr><td>GNSS operating capability</td><td>BDS-only open service</td><td>Capability statement</td><td>Must operate normally</td><td>Supports operation under BDS-only reception</td></tr>
+  </tbody>
+</table>

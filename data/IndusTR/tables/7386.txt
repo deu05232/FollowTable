@@ -1,0 +1,16 @@
+<table>
+  <caption>Project-Side GHG Emissions Breakdown for MSW Incineration (PE): Electricity, Fuels, and Stack Gases</caption>
+  <thead>
+    <tr><th>Project emission component</th><th>Symbol</th><th>Activity data (example fields)</th><th>Emission factor / parameter (example fields)</th><th>Calculation (illustrative)</th><th>Result (tCO2e)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Electricity consumption (grid import)</td><td>PE_EC</td><td>kWh_import</td><td>EF_grid (tCO2e/MWh)</td><td>PE_EC = (kWh_import/1000) × EF_grid</td><td>E</td></tr>
+    <tr><td>Fossil fuel consumption (auxiliary burners, start-up fuel)</td><td>PE_FC</td><td>Fuel_i (mass or volume)</td><td>NCV_i, EF_CO2,i, oxidation factor</td><td>PE_FC = Σi (Fuel_i × NCV_i × EF_CO2,i × OF_i)</td><td>F</td></tr>
+    <tr><td>Combustion-related fossil CO2 from waste (fossil carbon fraction in waste)</td><td>PE_COM,CO2</td><td>Waste_j (t), dry matter ratio_j</td><td>Fossil carbon content_j, combustion efficiency</td><td>PE_COM,CO2 = Σj (Waste_j × DM_j × FCC_j × EFF_j × 44/12)</td><td>G</td></tr>
+    <tr><td rowspan="2">Combustion-related non-CO2 stack gases</td><td>PE_COM,CH4</td><td>Waste throughput (t) or energy input</td><td>EF_CH4 (tCH4/t-waste) and GWP_CH4</td><td>PE_COM,CH4 = Activity × EF_CH4 × GWP_CH4</td><td>H1</td></tr>
+    <tr><td>PE_COM,N2O</td><td>Waste throughput (t) or energy input</td><td>EF_N2O (tN2O/t-waste) and GWP_N2O</td><td>PE_COM,N2O = Activity × EF_N2O × GWP_N2O</td><td>H2</td></tr>
+    <tr><td>Subtotal: combustion non-CO2 gases</td><td>PE_COM,nonCO2</td><td colspan="3">PE_COM,nonCO2 = H1 + H2</td><td>H = H1 + H2</td></tr>
+    <tr><td>On-site wastewater / residue handling methane (if applicable)</td><td>PE_WW</td><td>Wastewater COD (kg) or sludge handled (t)</td><td>EF_CH4, recovery factor, GWP_CH4</td><td>PE_WW = Activity × EF × (1 − Recovery) × GWP</td><td>I</td></tr>
+    <tr><td>Total project emissions</td><td>PE</td><td colspan="3">PE = PE_EC + PE_FC + PE_COM,CO2 + PE_COM,nonCO2 + PE_WW</td><td>J = E + F + G + H + I</td></tr>
+  </tbody>
+</table>

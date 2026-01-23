@@ -1,0 +1,14 @@
+<table>
+  <caption>SOF User Authentication & Password Management Interfaces</caption>
+  <thead>
+    <tr><th>Function</th><th>Description</th><th>Account/Credential Inputs</th><th>Password Fields</th><th>Related Certificate Handle</th><th>Callbacks</th><th>Typical Return</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SOF_Login</td><td>Authenticate user for certificate operations</td><td>CertID</td><td>PassWd</td><td>CertID</td><td>cb, ctx</td><td>SessionStatus</td></tr>
+    <tr><td>ChangeUserPassword</td><td>Change password protecting certificate container</td><td>CertID</td><td>OldPassWd, NewPassWd</td><td>CertID</td><td>cb, ctx</td><td>Success/Failure</td></tr>
+    <tr><td>SOF_UnlockUser</td><td>Unlock user after retries exceeded</td><td>CertID, AdminCode</td><td>NewPassWd</td><td>CertID</td><td>cb, ctx</td><td>UnlockResult</td></tr>
+    <tr><td>SOF_GetRetryCounter</td><td>Query remaining PIN/password attempts</td><td>CertID</td><td>null</td><td>CertID</td><td>null</td><td>RemainingAttempts</td></tr>
+    <tr><td>SOF_ResetPasswordByPUK</td><td>Reset password using PUK</td><td>CertID</td><td>PUK, NewPassWd</td><td>CertID</td><td>cb, ctx</td><td>ResetResult</td></tr>
+    <tr><td>SOF_Logout</td><td>End authenticated session</td><td>CertID</td><td>null</td><td>CertID</td><td>null</td><td>LogoutStatus</td></tr>
+  </tbody>
+</table>

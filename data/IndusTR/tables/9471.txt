@@ -1,0 +1,14 @@
+<table>
+  <caption>Information Container Category Enumeration</caption>
+  <thead>
+    <tr><th>Value</th><th>Category</th><th>Applies To</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Model</td><td>Model-only payload</td><td>Container stores model entities and relationships</td></tr>
+    <tr><td>1</td><td>Rule</td><td>Rule payload</td><td>Container stores rule statements and validation scripts</td></tr>
+    <tr><td>2</td><td>Mixed</td><td>Documents/files</td><td>Container stores drawings, documents, and attachments</td></tr>
+    <tr><td>3</td><td>LinkSet</td><td>Reference-heavy</td><td>Container primarily used for cross-container linking</td></tr>
+    <tr><td>4</td><td>Archive</td><td>Read-only</td><td>Container used for historical snapshots</td></tr>
+    <tr><td>5</td><td>Temporary</td><td>Draft</td><td>Container used for transient work-in-progress data</td></tr>
+  </tbody>
+</table>

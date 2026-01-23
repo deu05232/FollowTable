@@ -1,0 +1,15 @@
+<table>
+  <caption>Roadside V2X Hardware Bill of Materials for Special-Area Deployments</caption>
+  <thead>
+    <tr><th>Component</th><th>Model</th><th>Key Spec</th><th>Qty per Site</th><th>Power (W)</th><th>Compliance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>RSU (Roadside Unit)</td><td>RSU-5G-CV2X</td><td>3GPP Rel-16</td><td>2</td><td>35</td><td>ETSI ITS-G5 / C-V2X</td></tr>
+    <tr><td>Edge Compute Node</td><td>ECN-410</td><td>8-core CPU, 32GB RAM</td><td>1</td><td>120</td><td>IEC 62368-1</td></tr>
+    <tr><td>HD Camera</td><td>CAM-4K-IR</td><td>4K@30fps, IR</td><td>4</td><td>12</td><td>ONVIF Profile S</td></tr>
+    <tr><td>LiDAR</td><td>LDR-64</td><td>64-beam, 200m</td><td>1</td><td>28</td><td>IP67</td></tr>
+    <tr><td>GNSS Base Station</td><td>RTK-BS2</td><td>RTK, multi-band</td><td>1</td><td>18</td><td>NTRIP</td></tr>
+    <tr><td>Network Switch</td><td>SW-POE-24</td><td>24-port PoE+</td><td>1</td><td>90</td><td>IEEE 802.3at</td></tr>
+    <tr><td>UPS</td><td>UPS-1K</td><td>1kVA, 30min</td><td>1</td><td>—</td><td>UL 1778</td></tr>
+  </tbody>
+</table>

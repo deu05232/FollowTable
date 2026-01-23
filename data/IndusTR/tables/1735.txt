@@ -1,0 +1,11 @@
+<table>
+  <caption>Terminal Initialization Vector File Content</caption>
+  <tr><td>Data Item</td><td>Length (bytes)</td><td>Description</td></tr>
+  <tr><td>Index number of initialization vector V_1</td><td>6</td><td>Index number of the default initialization vector (No. 1)</td></tr>
+  <tr><td>Initialization vector V_1</td><td>16</td><td>Default initialization vector (No. 1)</td></tr>
+  <tr><td>Index number of initialization vector V_2</td><td>6</td><td>Index number of the backup initialization vector (No. 2)</td></tr>
+  <tr><td>Initialization vector V_2</td><td>16</td><td>Backup initialization vector (No. 2)</td></tr>
+  <tr><td>......</td><td></td><td>......</td></tr>
+  <tr><td>Index number of initialization vector V_5</td><td>6</td><td>Index number of the backup initialization vector (No. 5)</td></tr>
+  <tr><td>Initialization vector V_5</td><td>16</td><td>Backup initialization vector (No. 5)</td></tr>
+</table>

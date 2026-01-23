@@ -1,0 +1,12 @@
+<table>
+  <caption>Return Values for Method to Obtain Granary Grain Condition Detection Equipment Status Data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short Name</td><td>Data Type</td><td>Data Format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Granary Bin No.</td><td>ajbh</td><td>Character</td><td>a.3</td><td rowspan="8"></td></tr>
+  <tr><td>2</td><td>Acquisition Type</td><td>cjlx</td><td>Character</td><td>a.30</td></tr>
+  <tr><td>3</td><td>Equipment Manufacturer</td><td>sbcj</td><td>Character</td><td>a.50</td></tr>
+  <tr><td>4</td><td>Sub-unit No.</td><td>fh</td><td>Numeric</td><td>n..4</td></tr>
+  <tr><td>5</td><td>Acquisition Point No.</td><td>cjdbh</td><td>Numeric</td><td>n..4</td></tr>
+  <tr><td>6</td><td>Equipment Status</td><td>sbzt</td><td>Character</td><td>a.30</td></tr>
+  <tr><td>7</td><td>Signal Strength</td><td>xhqd</td><td>Numeric</td><td>n..4</td></tr>
+  <tr><td>8</td><td>Battery Voltage</td><td>dcdy</td><td>Numeric</td><td>n..4</td></tr>
+</table>

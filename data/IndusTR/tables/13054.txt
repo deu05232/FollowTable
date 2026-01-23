@@ -1,0 +1,16 @@
+<table>
+  <caption>Harmonic Generation Capability Limits (Current Injection Mode)</caption>
+  <thead>
+    <tr><th>Item</th><th>Condition / Sub-item</th><th>Limit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Supported harmonic order range</td><td>Integer harmonics</td><td>2nd to 63rd</td></tr>
+    <tr><td rowspan="2">Harmonic amplitude range (per harmonic)</td><td>Relative to fundamental current I1</td><td>0% to 70%</td></tr>
+    <tr><td>Minimum adjustable step (amplitude)</td><td>0.1% of I1</td></tr>
+    <tr><td rowspan="2">Peak constraint after superposition</td><td>Composite waveform peak (instantaneous)</td><td>Shall not exceed 1.35 × Imax</td></tr>
+    <tr><td>Applicable when multiple harmonics are enabled simultaneously</td><td>Yes</td></tr>
+    <tr><td>Maximum number of simultaneously enabled harmonic orders</td><td>—</td><td>Up to 25 orders</td></tr>
+    <tr><td>Harmonic phase setting range</td><td>Per harmonic</td><td>0° to 360°</td></tr>
+    <tr><td>Harmonic phase setting resolution</td><td>Per harmonic</td><td>0.1°</td></tr>
+  </tbody>
+</table>

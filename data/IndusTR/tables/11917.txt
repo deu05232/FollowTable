@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre Control Words plus Running Disparity / Neutral Character Notes</caption>
+  <thead>
+    <tr><th>Control Word</th><th>Full Symbol Sequence</th><th>Used For</th><th>Neutral / Running Disparity Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>INIT1</td><td>Init Comma, LLCW, INIT1, INIT1_ID, K28.5, D14.6, D6.2, D6.2</td><td>Initialization handshake step; establishes early link bring-up behavior</td><td>D6.2 is neutral (RD=0); K28.5 comma has RD-dependent encodings</td></tr>
+    <tr><td>IDLE</td><td>Comma, LLCW, IDLE, IDLE_ID, K28.7, D14.6, D15.6, D15.6</td><td>Maintains connection when no payload is supplied</td><td>D15.6 toggles as needed; receiver checks RD continuity</td></tr>
+    <tr><td>SKIP</td><td>Comma, LLCW, SKIP, SKIP_ID, K28.7, D14.6, D31.3, D31.3</td><td>Rate matching for elastic buffer operation</td><td>Inserted periodically to accommodate ppm offset; RD must remain valid</td></tr>
+    <tr><td>PAD</td><td>Comma, Fill, Fill, Fill, K28.7, K27.7, K27.7, K27.7</td><td>Multi-channel padding; marks padding word by repeated fill symbols</td><td>K27.7 may be sent as +RD or -RD variant; must preserve disparity budget</td></tr>
+    <tr><td>ALIGN</td><td>Comma, ALIGN, LANES, iLANES, K28.7, D23.3, D0.0–D31.7, D0.0–D31.7</td><td>Lane alignment and integrity verification for multi-lane links</td><td>iLANES inversion check is orthogonal to RD; decoder still verifies RD</td></tr>
+    <tr><td>ACK</td><td>Comma, ACK, SEQ_NUM, CRC, K28.7, D2.5, D0.0–D31.7, D0.0–D31.7</td><td>Positive acknowledgment with CRC for integrity</td><td>CRC bytes may produce RD excursions; transmitter manages RD via 8b/10b</td></tr>
+    <tr><td>RXERR</td><td>Error, Reserved, Reserved, Reserved, K0.0, D0.0, D0.0, D0.0</td><td>Indicates decoding error / replaces corrupted received words</td><td>K0.0 has “not applicable” RD semantics in many summaries</td></tr>
+  </tbody>
+</table>

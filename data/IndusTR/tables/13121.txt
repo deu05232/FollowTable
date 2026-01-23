@@ -1,0 +1,14 @@
+<table>
+  <caption>Environmental & transportation test matrix including prohibited recovery/handling and non-environmental checks (mixed focus)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Referenced standard</th><th>Power state</th><th>Key limits (temp/RH or mechanical)</th><th>Accuracy / instrumentation</th><th>Exposure duration / cycles</th><th>Recovery / post-test handling (included)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cold start (operating)</td><td>IEC 60068-2-1</td><td>Power ON</td><td>-10°C (typical)</td><td>±3°C</td><td>8 h soak</td><td>Warm to 25°C for 2 h before load test</td></tr>
+    <tr><td>High temperature storage</td><td>IEC 60068-2-2</td><td>Power OFF</td><td>60°C</td><td>±2°C</td><td>16 h</td><td>Do not energize until surface temp < 35°C</td></tr>
+    <tr><td>Damp heat steady state</td><td>IEC 60068-2-78</td><td>Power OFF</td><td>40°C / 95%RH (no visible condensation)</td><td>±2°C, ±3%RH</td><td>48 h</td><td>Dry by forced air; remove internal condensation before hipot</td></tr>
+    <tr><td>Mechanical shock (packaged)</td><td>IEC 60068-2-27</td><td>Power OFF</td><td>Half-sine, 15 g</td><td>Accelerometer class 1</td><td>18 shocks</td><td>Inspect packaging; retighten terminals after test</td></tr>
+    <tr><td>Random vibration (transport)</td><td>IEC 60068-2-64</td><td>Power OFF</td><td>PSD 0.04 g^2/Hz (example)</td><td>FFT analyzer; calibration required</td><td>30 min/axis</td><td>Re-seat connectors and re-run self-test</td></tr>
+    <tr><td>Non-environmental: DC withstand</td><td>IEC 61800-5-1</td><td>Power OFF</td><td>2.5 kVdc</td><td>Voltage ±3%</td><td>60 s</td><td>Discharge capacitors for 5 min before touch</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+# SharePoint Server installation  example farm roles and baseline hardware (CPU RAM)
+
+| Farm role / deployment scenario | Typical usage | CPU recommendation | Memory recommendation |
+| --- | --- | --- | --- |
+| Single-server (evaluation or dev) | Lightweight testing with limited services | 64-bit, 4 cores | 16–24 GB |
+| Front-end web server | Handles web requests in a multi-tier farm | 64-bit, 4–8 cores | 12–16 GB |
+| Application server | Runs service applications (Search, etc.) | 64-bit, 8 cores | 16–32 GB |
+| Database server | Hosts SQL instance for the farm | 64-bit, 8+ cores | 32 GB+ |

@@ -1,0 +1,11 @@
+# Carrier Band Support Matrix for Popular Used Phones (availability implied, but no price columns)
+
+| Phone model | Region variant | LTE bands | 5G bands | Dual SIM | eSIM | Carrier certification notes | VoLTE/VoWiFi | Known activation caveats |
+|---|---|---|---|---|---|---|---|---|
+| iPhone 11 | Global | Wide multi-band | N/A | Yes (some) | Yes | Generally certified | Yes/Yes | Activation lock must be removed |
+| Samsung Galaxy S20 | US unlocked | Extensive | Sub‑6 | Yes | Yes | Certification depends on carrier | Yes/Yes | Some carriers block non-whitelisted IMEIs |
+| Google Pixel 5 | US | Extensive | Sub‑6 | Yes | Yes | Usually passes | Yes/Yes | Bootloader status may affect updates |
+| OnePlus 8 | EU | Extensive | Sub‑6 (limited) | Yes | No | Not always certified | Yes/Partial | Carrier-specific APN setup |
+| Xiaomi Redmi Note 10 | Global | Mid-range band set | N/A | Yes | No | Often not certified | Partial/No | Missing key bands in some countries |
+| Huawei P30 | Global | Extensive | N/A | Yes | No | Certification varies | Partial/Partial | Google services depend on model year |
+| Nokia 7.2 | Global | Moderate | N/A | Yes | No | Generally OK | Yes/Partial | Some MVNOs require manual provisioning |

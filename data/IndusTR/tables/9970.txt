@@ -1,0 +1,20 @@
+<table>
+  <caption>Scoring Rules for Dedicated Curbside Freight Loading/Unloading Bays per Million Residents</caption>
+  <thead>
+    <tr><th>City size</th><th>Indicator definition</th><th>Loading/unloading bays per million residents (spaces)</th><th>Score</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Mega city (≥10 million)</td><td rowspan="4">Marked curbside freight bays that allow short-stop loading/unloading for urban delivery vehicles (excluding long-term truck parking lots)</td><td>≥120</td><td>100</td></tr>
+    <tr><td>80–119</td><td>85</td></tr>
+    <tr><td>40–79</td><td>70</td></tr>
+    <tr><td><40</td><td>Score = 70 × (value / 40)</td></tr>
+    <tr><td rowspan="4">Very large city (5–10 million)</td><td rowspan="4">Same as above</td><td>≥90</td><td>100</td></tr>
+    <tr><td>60–89</td><td>85</td></tr>
+    <tr><td>30–59</td><td>70</td></tr>
+    <tr><td><30</td><td>Score = 70 × (value / 30)</td></tr>
+    <tr><td rowspan="4">Large city (1–5 million)</td><td rowspan="4">Same as above</td><td>≥60</td><td>100</td></tr>
+    <tr><td>40–59</td><td>85</td></tr>
+    <tr><td>20–39</td><td>70</td></tr>
+    <tr><td><20</td><td>Score = 70 × (value / 20)</td></tr>
+  </tbody>
+</table>

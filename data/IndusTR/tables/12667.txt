@@ -1,0 +1,10 @@
+<table>
+  <caption>Network service address patterns for agricultural input product identifiers (primary and extended parameter pairs)</caption>
+  <tr><th>Network service address</th><th>Primary identifier parameter pair</th><th>Extended identifier parameter pair (1)</th><th>Extended identifier parameter pair (2)</th></tr>
+  <tr><td>https://resolver.example/agri/</td><td>01/N14</td><td>21/X..20 (serial)</td><td>240=N4 (attribute)</td></tr>
+  <tr><td>https://resolver.example/agri/</td><td>01/N14</td><td>10/X..20 (batch/lot)</td><td>240=N4 (attribute)</td></tr>
+  <tr><td>https://id.example/lookup</td><td>00/N1...N18</td><td>21/X..20 (serial)</td><td>—</td></tr>
+  <tr><td>https://id.example/lookup</td><td>01/N14</td><td>30=N1N2...Ng (variable quantity)</td><td>240=N4 (attribute)</td></tr>
+  <tr><td>http://service.example/resolve</td><td>01/N14</td><td>—</td><td>240=N4 (attribute)</td></tr>
+  <tr><td>http://service.example/resolve</td><td>00/N1...N18</td><td>—</td><td>—</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>ARIllumination and Light Estimation Status Enums</caption>
+  <thead>
+    <tr><th>Category</th><th>Constant</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">ARIlluminationEstimateState</td><td>ARILLUMINATION_ESTIMATE_STATE_NOT_VALID</td><td>0</td><td>Light estimation results are temporarily unavailable</td></tr>
+    <tr><td>ARILLUMINATION_ESTIMATE_STATE_VALID</td><td>1</td><td>Light estimation results are available</td></tr>
+    <tr><td>ARILLUMINATION_ESTIMATE_STATE_CALIBRATING</td><td>2</td><td>Estimating light, calibration still in progress</td></tr>
+    <tr><td rowspan="3">ARLightConfidence</td><td>AR_LIGHT_CONFIDENCE_LOW</td><td>0</td><td>Low confidence in the estimated lighting</td></tr>
+    <tr><td>AR_LIGHT_CONFIDENCE_MEDIUM</td><td>1</td><td>Moderate confidence in the estimated lighting</td></tr>
+    <tr><td>AR_LIGHT_CONFIDENCE_HIGH</td><td>2</td><td>High confidence in the estimated lighting</td></tr>
+  </tbody>
+</table>

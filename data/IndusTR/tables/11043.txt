@@ -1,0 +1,11 @@
+<table>
+  <caption>Visual Cheat Sheet for Traditional Mongolian Control Characters (Glyph-Oriented)</caption>
+  <tr><th>Control Character</th><th>Typical Display Shape in Context</th><th>Where It Appears (Visual)</th><th>Common Typographic Mistake (Visual)</th><th>Notes About Look</th></tr>
+  <tr><td>NIRUGU</td><td>Thin vertical separator-like mark between strokes</td><td>Often seen near medial joins in narrow words</td><td>Inserted as a visible bar that breaks the word</td><td>May resemble punctuation in some fonts</td></tr>
+  <tr><td>MVS</td><td>Causes alternate glyph selection; final tail changes</td><td>Final position of certain consonants</td><td>Expecting a visible symbol for MVS</td><td>Effect differs by font; may look identical in some UI</td></tr>
+  <tr><td>FVS1</td><td>Switches the shape of a medial form</td><td>Between base letter and following vowel</td><td>Using stylistic alternates instead of correct selector</td><td>Some fonts exaggerate curvature</td></tr>
+  <tr><td>FVS2</td><td>Another alternate form; round vs angular</td><td>Mostly in suffix-like segments</td><td>Choosing a different font to "fix" the appearance</td><td>Not reliable for validation by eye</td></tr>
+  <tr><td>FVS3</td><td>Rare alternate; looks closer to historical forms</td><td>Seen in proper names in some editions</td><td>Replacing with a visible hyphen-like mark</td><td>Highly font-dependent</td></tr>
+  <tr><td>ZWJ</td><td>Forces joining; strokes connect more tightly</td><td>Between letters that otherwise separate</td><td>Adding a space to simulate separation</td><td>Usually invisible; only the join changes</td></tr>
+  <tr><td>ZWNJ</td><td>Prevents joining; a slight visual gap appears</td><td>Between letters that should not connect</td><td>Using a different glyph variant to imitate non-join</td><td>Gap width depends on renderer</td></tr>
+</table>

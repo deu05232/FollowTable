@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Frame Data Interface Parameters (Mixed Outputs Including Depth)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">ArFrame_acquireData</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>in</td><td>Current frame handle.</td></tr>
+    <tr><td>out_depth_image</td><td>ArImage **</td><td>out</td><td>Receives the address of the depth image for the current frame.</td></tr>
+    <tr><td>out_camera_image</td><td>ArImage **</td><td>out</td><td>Receives the address of the CPU camera image (e.g., YUV).</td></tr>
+    <tr><td>out_texture_id</td><td>uint32_t *</td><td>out</td><td>Receives the GPU texture name for the camera stream.</td></tr>
+    <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>out</td><td>Receives the estimated lighting information.</td></tr>
+  </tbody>
+</table>

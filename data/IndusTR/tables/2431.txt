@@ -1,0 +1,10 @@
+<table>
+  <caption>Digital Radiography (DR) vs. Digital Radiography (Industrial Printing) — Cross-domain Terminology Table</caption>
+  <tr><th>Term</th><th>Meaning in Medical/Industrial NDT DR</th><th>Meaning in Printing Industry</th><th>Typical Unit</th><th>Common Data Field</th><th>Notes</th></tr>
+  <tr><td>Exposure</td><td>X-ray exposure settings</td><td>Ink exposure to UV curing</td><td>mAs / s</td><td>Job exposure time</td><td>Different physics</td></tr>
+  <tr><td>Detector</td><td>Flat panel detector</td><td>Optical densitometer sensor</td><td>—</td><td>Sensor ID</td><td>Homonym</td></tr>
+  <tr><td>Resolution</td><td>Spatial resolution of radiograph</td><td>Print DPI resolution</td><td>lp/mm / dpi</td><td>Output DPI</td><td>Not interchangeable</td></tr>
+  <tr><td>Calibration</td><td>Detector gain/offset calibration</td><td>Color profile calibration</td><td>—</td><td>ICC profile</td><td>Different standards</td></tr>
+  <tr><td>Artifact</td><td>Imaging artifact in radiographs</td><td>Print banding artifact</td><td>—</td><td>Defect code</td><td>Same word, different root cause</td></tr>
+  <tr><td>Module</td><td>DICOM information module</td><td>Software plugin for RIP</td><td>—</td><td>Plugin version</td><td>Cross-domain</td></tr>
+</table>

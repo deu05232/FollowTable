@@ -1,0 +1,10 @@
+<table>
+  <caption>Calibration Schedule for Message Analyzer Used in Maritime Satcom Testing</caption>
+  <tr><th>Instrument</th><th>Model</th><th>Calibration Item</th><th>Interval</th><th>Acceptance Criteria</th><th>Record ID</th></tr>
+  <tr><td>Protocol analyzer</td><td>PA-800</td><td>Timestamp accuracy</td><td>12 months</td><td>±1 ms</td><td>CAL-PA-2025-001</td></tr>
+  <tr><td>Protocol analyzer</td><td>PA-800</td><td>Bit error injection rate</td><td>12 months</td><td>Within ±5%</td><td>CAL-PA-2025-002</td></tr>
+  <tr><td>Signal generator</td><td>SG-1200</td><td>Frequency accuracy</td><td>6 months</td><td>±0.5 ppm</td><td>CAL-SG-2025-014</td></tr>
+  <tr><td>Power meter</td><td>PM-60</td><td>Sensor linearity</td><td>12 months</td><td>±0.2 dB</td><td>CAL-PM-2025-008</td></tr>
+  <tr><td>Oscilloscope</td><td>DSO-500</td><td>Timebase drift</td><td>12 months</td><td>±2 ppm</td><td>CAL-DSO-2025-006</td></tr>
+  <tr><td>GPSDO</td><td>G-Disciplined</td><td>1PPS alignment</td><td>6 months</td><td>±50 ns</td><td>CAL-GPSDO-2025-003</td></tr>
+</table>

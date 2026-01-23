@@ -1,0 +1,14 @@
+<table>
+  <caption>Generic Frame Envelope (Start/Addr/Cmd/Len/CRC/End Only) for Grain Monitoring Network</caption>
+  <thead>
+    <tr><th>Frame Type</th><th>Start Symbol</th><th>KADDL</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Command Request</td><td>55H AAH 55H AAH</td><td>00H–FFH</td><td>00H–FFH</td><td>0000H–FFFFH</td><td>CRC16</td><td>0DH 0AH</td><td>Controller → Sub-unit</td></tr>
+    <tr><td>Command Response</td><td>55H AAH 55H AAH</td><td>00H–FFH</td><td>00H–FFH</td><td>0000H–FFFFH</td><td>CRC16</td><td>0DH 0AH</td><td>Sub-unit → Controller</td></tr>
+    <tr><td>Alarm Report</td><td>55H AAH 55H AAH</td><td>00H–FFH</td><td>00H–FFH</td><td>0000H–FFFFH</td><td>CRC16</td><td>0DH 0AH</td><td>Sub-unit → Controller</td></tr>
+    <tr><td>Broadcast</td><td>55H AAH 55H AAH</td><td>00H</td><td>00H–FFH</td><td>0000H–FFFFH</td><td>CRC16</td><td>0DH 0AH</td><td>Controller → All nodes</td></tr>
+    <tr><td>Maintenance</td><td>55H AAH 55H AAH</td><td>FEH</td><td>00H–FFH</td><td>0000H–FFFFH</td><td>CRC16</td><td>0DH 0AH</td><td>Service tool ↔ Device</td></tr>
+    <tr><td>Reserved</td><td>55H AAH 55H AAH</td><td>FFH</td><td>00H–FFH</td><td>0000H–FFFFH</td><td>CRC16</td><td>0DH 0AH</td><td>Future use</td></tr>
+  </tbody>
+</table>

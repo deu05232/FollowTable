@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Session Metadata Message Definitions (Non-Termination Focus)</caption>
+  <thead>
+    <tr><th>Start Byte/Bit</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>7 bytes</td><td>2901</td><td>Session timestamp (YYYY-MM-DD hh:mm:ss) used for general logging</td><td>Optional</td></tr>
+    <tr><td>8</td><td>2 bytes</td><td>2902</td><td>Session sequence number (increments every message)</td><td>Optional</td></tr>
+    <tr><td>10</td><td>3 bytes</td><td>2903</td><td>Communication protocol version (major/minor/patch)</td><td>Mandatory</td></tr>
+    <tr><td>13</td><td>4 bytes</td><td>2904</td><td>Charger unique identifier (manufacturer assigned)</td><td>Optional</td></tr>
+    <tr><td>17</td><td>2 bytes</td><td>2905</td><td>Vehicle unique identifier (hashed)</td><td>Optional</td></tr>
+    <tr><td>19</td><td>1 byte</td><td>2906</td><td>Message acknowledgement code (0x00 OK / 0x01 Retry)</td><td>Optional</td></tr>
+    <tr><td>20</td><td>1 byte</td><td>2907</td><td>Reserved</td><td>Optional</td></tr>
+  </tbody>
+</table>

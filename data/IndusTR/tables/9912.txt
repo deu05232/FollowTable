@@ -1,0 +1,25 @@
+<table>
+  <caption>Transport-Layer Acknowledgement / Abort / Broadcast Announce PDU Data-Field Encoding</caption>
+  <thead>
+    <tr><th>PDU Kind</th><th>Byte Offset</th><th>Size</th><th>Header/Data Field Element</th><th>Encoding</th><th>Wire Meaning</th><th>Parsing Notes (payload/framing semantics)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">ACK (End-of-Message Acknowledgement)</td><td>0</td><td>1 byte</td><td>Control</td><td>0x13 (example)</td><td>Indicates successful receipt of all segments for a transfer</td><td rowspan="5">This is a transport-layer ACK whose payload is not application data. Use it to close a multi-frame transaction and confirm reassembly completeness.</td></tr>
+    <tr><td>1</td><td>2 bytes</td><td>ReceivedMessageSize</td><td>uint16 LE</td><td>Total bytes reassembled and accepted</td><td>Compare to RTS/BAM TotalMessageSize to validate completeness</td></tr>
+    <tr><td>3</td><td>1 byte</td><td>ReceivedPackets</td><td>uint8</td><td>Total packets received</td><td>Should match TotalPackets announced</td></tr>
+    <tr><td>4</td><td>1 byte</td><td>TransferID / PGN LSB (profile-dependent)</td><td>uint8</td><td>Identifies which transfer is being acknowledged</td><td>Some profiles use a 3-byte transfer identifier; others reuse a message identifier carried elsewhere</td></tr>
+    <tr><td>5</td><td>3 bytes</td><td>TransferID (remaining) / Reserved</td><td>bytes</td><td>Additional transfer identification or padding</td><td>If not used, bytes are 0xFF</td></tr>
+    <tr><td rowspan="6">NACK / ABORT (Negative Acknowledgement / Termination)</td><td>0</td><td>1 byte</td><td>Control</td><td>0x14 (example)</td><td>Transfer failed or was aborted</td><td rowspan="6">This payload explicitly represents an error/abort at transport layer. The key parse points are ReasonCode and the optional sequence cursor, which tells what should be resent or where it stopped.</td></tr>
+    <tr><td>1</td><td>1 byte</td><td>ReasonCode</td><td>enum</td><td>Why reception failed (e.g., timeout, out-of-sequence, resources)</td><td>Parser should map code → handling strategy</td></tr>
+    <tr><td>2</td><td>1 byte</td><td>NextExpectedPacket</td><td>1..255 or 0xFF</td><td>First missing packet number (if applicable)</td><td>If 0xFF, packet-level cursor not provided</td></tr>
+    <tr><td>3</td><td>2 bytes</td><td>ExpectedMessageSize</td><td>uint16 LE or 0xFFFF</td><td>Expected total bytes</td><td>May be present to confirm which transfer is being rejected</td></tr>
+    <tr><td>5</td><td>3 bytes</td><td>TransferID / Message Identifier</td><td>3 bytes</td><td>Identifies the transfer being aborted</td><td>Use with source/destination addressing to correlate to an in-flight RTS/CTS</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>Termination rule</td><td>Immediate</td><td>Sender stops sending remaining DATA packets</td><td>Receiver discards partial reassembly buffer for that TransferID</td></tr>
+    <tr><td rowspan="6">BAM (Broadcast Announce Message) Header</td><td>0</td><td>1 byte</td><td>Control</td><td>0x20 (example)</td><td>Announces broadcast multi-frame transfer (no CTS windowing)</td><td rowspan="6">BAM is transport framing that shifts flow control behavior: after BAM header, sender streams DATA packets 1..N without CTS/ACK handshake (implementation-dependent whether an ACK exists).</td></tr>
+    <tr><td>1</td><td>2 bytes</td><td>TotalMessageSize</td><td>uint16 LE</td><td>Total bytes in the broadcast message</td><td>Used to compute last-packet effective length</td></tr>
+    <tr><td>3</td><td>1 byte</td><td>TotalPackets</td><td>uint8</td><td>How many DATA packets will follow</td><td>Receiver pre-allocates reassembly and expects PacketNumber 1..TotalPackets</td></tr>
+    <tr><td>4</td><td>1 byte</td><td>Reserved</td><td>0xFF</td><td>Unused</td><td>Kept for format alignment</td></tr>
+    <tr><td>5</td><td>3 bytes</td><td>BroadcastMessageID</td><td>3 bytes</td><td>Identifies what the reassembled message represents</td><td>Transport parser uses it to dispatch the completed payload to the next layer</td></tr>
+    <tr><td>—</td><td>—</td><td>—</td><td>Follow-up</td><td>DATA packets</td><td>Segmented packets follow using DATA format (with PacketNumber)</td><td>DATA payload bytes are concatenated until TotalMessageSize is reached</td></tr>
+  </tbody>
+</table>

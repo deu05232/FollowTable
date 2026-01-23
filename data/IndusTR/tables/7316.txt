@@ -1,0 +1,14 @@
+<table>
+  <caption>Add Operator Tensor Interface Parameters</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Role</th><th>Required</th><th>Tensor/Object</th><th>Shape / Constraint</th><th>DType Rules</th><th>Output Specification</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>X</td><td>Input</td><td>Yes</td><td>Tensor</td><td>Any rank; must be broadcast-compatible with Y</td><td>int*, uint*, float*, complex*; X and Y must share the same dtype (or be safely castable per policy)</td><td>Output has broadcasted shape</td></tr>
+    <tr><td>Y</td><td>Input</td><td>Yes</td><td>Tensor</td><td>Any rank; must be broadcast-compatible with X</td><td>Same as X</td><td>Output has broadcasted shape</td></tr>
+    <tr><td>Broadcasting</td><td>Attribute</td><td>No</td><td>N/A</td><td>Uses standard N-D broadcasting (align trailing dims; dim sizes equal or 1)</td><td>N/A</td><td>Determines output shape</td></tr>
+    <tr><td>Alpha</td><td>Attribute</td><td>No</td><td>Scalar</td><td>Scalar multiplier applied to Y before add: out = X + Alpha * Y</td><td>Same numeric domain as X/Y</td><td>Does not change shape</td></tr>
+    <tr><td>Out</td><td>Output</td><td>Yes</td><td>Tensor</td><td>Shape = broadcast(X.shape, Y.shape)</td><td>DType = resolved dtype from inputs (typically same as X/Y)</td><td>Elementwise sum</td></tr>
+    <tr><td>In-place Allowed</td><td>Contract</td><td>No</td><td>N/A</td><td>Out may alias X if permitted by framework; otherwise distinct storage</td><td>N/A</td><td>Semantics identical</td></tr>
+  </tbody>
+</table>

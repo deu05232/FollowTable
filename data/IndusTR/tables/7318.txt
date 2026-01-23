@@ -1,0 +1,7 @@
+<table>
+  <caption>Basic math operator interface parameters (tensor contract focused)</caption>
+  <tr><td>Interface item</td><td>Direction</td><td>Tensor-level constraint</td><td>Notes</td></tr>
+  <tr><td>Main operand tensor</td><td>Input</td><td>Must be a tensor; shape must be compatible with the secondary operand (broadcasting allowed if the operator supports it)</td><td>Used as the primary value source</td></tr>
+  <tr><td>Secondary operand tensor</td><td>Input</td><td>Must be broadcast-compatible with the main operand; same element type as the main operand unless casting is specified by the operator</td><td>Can be a scalar tensor if supported</td></tr>
+  <tr><td>Result tensor</td><td>Output</td><td>Element type follows the operator’s type rules; shape equals the broadcasted shape of inputs</td><td>Produced by the operator</td></tr>
+</table>

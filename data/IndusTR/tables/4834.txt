@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameter Description for Defining Anchor Pose</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>pose</td><td>ArPose *</td><td>Pose pointer</td></tr>
+  <tr><td>out_anchor</td><td>ArAnchor **</td><td>Pointer to an ArAnchor pointer, used to receive the newly allocated anchor address</td></tr>
+</table>

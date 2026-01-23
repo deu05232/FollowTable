@@ -1,0 +1,17 @@
+<table>
+  <caption>Association Specification: Agricultural Insurance Policy Details ↔ Claim Settlement Disbursement Records</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Policy-to-ClaimDisbursement Link</td></tr>
+    <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+    <tr><td>Table Name 1</td><td>Agricultural Insurance Underwriting Policy Details Table</td></tr>
+    <tr><td>Table Name 2</td><td>Agricultural Insurance Claim Settlement Disbursement Records Table</td></tr>
+    <tr><td>Join Keys (Table 1)</td><td>policy_id, underwriting_batch_no</td></tr>
+    <tr><td>Join Keys (Table 2)</td><td>policy_id, underwriting_batch_no</td></tr>
+    <tr><td>Cardinality</td><td>1 Policy : N Disbursements</td></tr>
+    <tr><td>Direction</td><td>Policy Details → Claim Disbursement Records</td></tr>
+    <tr><td>Business Purpose</td><td>Trace insurance claim payouts and settlement batches back to the originating policy record</td></tr>
+  </tbody>
+</table>

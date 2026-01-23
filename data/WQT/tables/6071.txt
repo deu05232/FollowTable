@@ -1,0 +1,17 @@
+# List of Intel chipsets
+> 9xx chipsets and 3/4 Series chipsets
+
+| Chipset | Code Name | Part numbers | South Bridge | Release Date | Supported Processors | FSB (MT/s) | Memory Types | Max. Memory | Parity/ECC | Graphics | TDP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 910GL | Grantsdale-GL | 82910GL (GMCH) | ICH6 | September 2004 | Pentium 4, Celeron, Celeron D | 533 | DDR 333/400 | 2 GB | No/No | Integrated GMA 900 | 16.3 W |
+| 915P | Grantsdale | 82915P (MCH) | ICH6 | June 2004 | Pentium 4, Celeron D | 533/800 | DDR 333/400 DDR2 400/533 | 4 GB | No/No | PCI Express ×16 | 16.3 W |
+| 915PL | Grantsdale-PL | 82915PL (MCH) | ICH6 | March 2005 | Pentium 4, Celeron D | 533/800 | DDR 333/400 | 2 GB | No/No | PCI Express ×16 | 16.3 W |
+| 915G | Grantsdale-G | 82915G (GMCH) | ICH6 | June 2004 | Pentium 4, Celeron D | 533/800 | DDR 333/400 DDR2 400/533 | 4 GB | No/No | PCI Express ×16 Integrated GMA 900 | 16.3 W |
+| 915GL | Grantsdale-GL | 82915GL (GMCH) | ICH6 | March 2005 | Pentium 4, Celeron D | 533/800 | DDR 333/400 | 4 GB | No/No | Integrated GMA 900 | 16.3 W |
+| 915GV | Grantsdale-GV | 82915GV (GMCH) | ICH6 | June 2004 | Pentium 4, Celeron D | 533/800 | DDR 333/400 DDR2 400/533 | 4 GB | No/No | Integrated GMA 900 | 16.3 W |
+| 925X | Alderwood | 82925X (MCH) | ICH6 | June 2004 | Pentium 4, Pentium 4 EE | 800 | DDR2 400/533 | 4 GB [*] | Yes/Yes | PCI Express ×16 | 12.3 W |
+| 925XE | Alderwood-XE | 82925XE (MCH) | ICH6 | November 2004 | Pentium 4, Pentium 4 EE | 800/1066 | DDR2 400/533 | 4 GB [*] | Yes/Yes | PCI Express ×16 | 13.3 W |
+| 955X | Lakeport-X | 82955X (MCH) | ICH7/ICH7R | April 2005 | Pentium 4, Pentium 4 EE, Pentium D, Pentium XE | 800/1066 | DDR2 533/667 | 8 GB | Yes/Yes | PCI Express ×16 | 13.5 W |
+| 945P | Lakeport | 82945P (MCH) | ICH7/ICH7R | May 2005 | Pentium 4, Pentium D, Celeron D, Core 2 Extreme, Core 2 Duo | 533/800/1066 | DDR2 400/533/667 | 4 GB [*] | No/No | PCI Express ×16 | 15.2 W |
+| 945PL | Lakeport-PL | 82945PL (MCH) | ICH7 | March 2006 | Pentium 4, Pentium D, Celeron D | 533/800 | DDR2 400/533 | 2 GB [*] | No/No | PCI Express ×16 | 15.2 W |
+| 945G | Lakeport-G | 82945G (GMCH) | ICH7/ICH7R | May 2005 | Pentium 4, Pentium D, Celeron D, Core 2 Extreme, Core 2 Duo | 533/800/1066 | DDR2 400/533/667 | 4 GB [*] | No/No | PCI Express ×16 Integrated GMA 950 | 22.2 W |

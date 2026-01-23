@@ -1,0 +1,15 @@
+<table>
+  <caption>Speed-Indexed Maximum Input Current and Power Limits for Electric Compressors (DC Supply)</caption>
+  <thead>
+    <tr><th rowspan="2">Requirement item</th><th rowspan="2">Limit class</th><th colspan="2">2000 r/min</th><th colspan="2">5000 r/min</th><th colspan="2">8000 r/min</th></tr>
+    <tr><th>Imax (A)</th><th>Pmax (kW)</th><th>Imax (A)</th><th>Pmax (kW)</th><th>Imax (A)</th><th>Pmax (kW)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Steady-state input limit</td><td>Class A</td><td>45</td><td>2.5</td><td>65</td><td>3.6</td><td>85</td><td>4.8</td></tr>
+    <tr><td>Class B</td><td>55</td><td>3.0</td><td>75</td><td>4.2</td><td>95</td><td>5.4</td></tr>
+    <tr><td>Class C</td><td>65</td><td>3.6</td><td>90</td><td>5.0</td><td>110</td><td>6.2</td></tr>
+    <tr><td rowspan="2">Peak (10 s) input limit</td><td>Class B</td><td>80</td><td>4.3</td><td>110</td><td>6.0</td><td>140</td><td>7.6</td></tr>
+    <tr><td>Class C</td><td>95</td><td>5.1</td><td>130</td><td>7.1</td><td>165</td><td>9.0</td></tr>
+    <tr><td colspan="8">Test note: Limits apply at rated DC voltage ±10% and coolant inlet temperature (25±5) °C; measured after thermal stabilization at each nominal speed.</td></tr>
+  </tbody>
+</table>

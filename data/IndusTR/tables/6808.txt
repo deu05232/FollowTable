@@ -1,0 +1,15 @@
+<table>
+  <caption>Business Process Matrix — Trade Logistics Tracking & Traceability (Collection, Processing, Distribution)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Trigger</th><th>Main Actor</th><th>Input / Source</th><th>Internal Action</th><th>External Output (if any)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Collect EDI Messages</td><td>Carrier submits EDI 315/318</td><td>Carrier / Freight Forwarder</td><td>Shipment event messages</td><td>Validate format and acknowledge receipt</td><td>Receipt acknowledgement to sender</td></tr>
+    <tr><td>Collect Terminal Events</td><td>Gate-in / gate-out scan</td><td>Terminal Operator</td><td>Gate event feed</td><td>Normalize event codes</td><td>null (stored internally)</td></tr>
+    <tr><td>Process / Correlate</td><td>Hourly batch job</td><td>Integrated Data Center</td><td>Collected EDI + scans</td><td>Match by container number, booking, BL</td><td>null (data becomes available)</td></tr>
+    <tr><td>Exception Derivation</td><td>Missing milestone detected</td><td>Integrated Data Center</td><td>Event timeline</td><td>Compute delay and exception reason</td><td>Exception flag for later distribution</td></tr>
+    <tr><td>Distribute on Request</td><td>Consignee requests status</td><td>Integrated Data Center</td><td>API query parameters</td><td>Authorize and fetch latest timeline</td><td>Status response (milestones, ETA, exception)</td></tr>
+    <tr><td>Proactive Notifications</td><td>Vessel departed / customs released</td><td>Integrated Data Center</td><td>New correlated event</td><td>Build notification payload</td><td>Push update to shipper/consignee</td></tr>
+    <tr><td>Audit & Retention</td><td>Daily compliance run</td><td>Integrated Data Center</td><td>Access logs</td><td>Archive and purge per policy</td><td>Compliance report to regulator (optional)</td></tr>
+  </tbody>
+</table>

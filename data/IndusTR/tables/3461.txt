@@ -1,0 +1,24 @@
+<table>
+  <caption>Air-Jet Vortex Spinning Machine Alarm Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Actuator Fault</td><td>ActuatorF ault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Start Initialization Fault</td><td>StartInitializationF ault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>I</td><td>I</td><td>|</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0902</td><td>Motor Overheating</td><td>MotorOverheating</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Main Switch Device Disconnected</td><td>BrokenMainSwitch</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Low Main Negative Pressure</td><td>LowMainNegativePressure</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Low Auxiliary Negative Pressure</td><td>LowAuxiliaryNegativePressure</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>Emergency Stop</td><td>EmergencyStop</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Low Total Pressure</td><td>LowTotalPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>I</td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0908</td><td>Excessive Frequency of Impurity Removal</td><td>ExcessiveFrequencyOfImpurityRemoval</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Bobbin Storage Fault</td><td>BobbingStorageFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>I</td><td></td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090A</td><td>Debugging Button Fault</td><td>DebuggingButtonFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090B</td><td>Bobbin Not in Starting Position</td><td>BobbinNotInStartingPosition</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090C</td><td>Joint Trolley Red Light On</td><td>JointTrolleyRedLightOn</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090D</td><td>Joint Trolley Communication Exception</td><td>JointTrolleyCommunicationException</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090E</td><td>Communication Exception Between Doffer Trolley and Host</td><td>CommunicationBetweenDofferAndHostException</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>|</td><td></td><td>|</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090F</td><td>Abnormal Bobbin on the Conveyor Belt of the Doffer Trolley</td><td>BobbinOnTheConveyorBeltOfDofferException</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>I</td><td>I</td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0910</td><td>Safety Chain Broken</td><td>SafetyChainBroken</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>|</td><td>|</td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0911</td><td>Yarn Storage Roller Speed Too Fast</td><td>FastRotatingSpeedOfYarnStorageRoller</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0912</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>|</td><td>|</td><td>|</td><td>|</td><td>1</td></tr>
+</table>

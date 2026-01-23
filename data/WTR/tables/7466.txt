@@ -1,0 +1,13 @@
+# Carrier Network Sunset Schedule and VoLTE Requirements Impacting Older Phones (US Operators)
+
+| Carrier | Legacy network | Sunset milestone | VoLTE required | Minimum OS/support note | Device eligibility check method | Typical consequence for older phones |
+| --- | --- | --- | --- | --- | --- | --- |
+| AT&T | 3G UMTS/HSPA | 2022 | Yes | HD Voice whitelist policies vary | IMEI checker | Calls/SMS fail on non-approved devices |
+| Verizon | CDMA/EVDO | 2022 | Yes | LTE-only activation | Online compatibility tool | Non-VoLTE devices cannot be activated |
+| T-Mobile | 3G UMTS | 2022 | Yes | Band support matters (2/4/12/66/71) | SIM test + IMEI check | Coverage gaps or no calling |
+| US Cellular | CDMA | 2022 | Yes | Market-dependent | Store check | Activation rejected |
+| Rogers (CA) | 3G | 2025 (market roll-down) | Yes | Region-specific | IMEI tool | Reduced service in some areas |
+| Vodafone (UK) | 3G | 2024 | Yes | Wi-Fi calling depends on firmware | Account portal | No voice without VoLTE |
+| Telstra (AU) | 3G | 2024 | Yes | Emergency calling requirements | IMEI checker | Devices blocked from network |
+| Orange (FR) | 2G/3G (partial) | 2025+ | Yes | Gradual refarm | Customer support | Intermittent connectivity |
+| Deutsche Telekom (DE) | 3G | 2021–2022 | Yes | IMS profile needed | SIM + device list | Voice issues on older imports |

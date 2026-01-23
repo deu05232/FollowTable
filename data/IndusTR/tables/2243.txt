@@ -1,0 +1,10 @@
+<table>
+  <caption>Build Pipeline Configuration for AR Runtime (CI CD Matrix)</caption>
+  <tr><th>Stage</th><th>Runner OS</th><th>Compiler/SDK</th><th>Build Flags</th><th>Artifacts</th><th>Quality Gate</th></tr>
+  <tr><td>Lint</td><td>Ubuntu 22.04</td><td>clang-tidy 16</td><td>-Werror</td><td>lint-report.xml</td><td>0 new warnings</td></tr>
+  <tr><td>Unit Tests</td><td>Windows 11</td><td>MSVC 19.38</td><td>/O2</td><td>test-results.trx</td><td>>= 95% pass</td></tr>
+  <tr><td>Android Build</td><td>Ubuntu 22.04</td><td>NDK r26</td><td>-DARM64=ON</td><td>aar, symbols.zip</td><td>size < 50MB</td></tr>
+  <tr><td>iOS Build</td><td>macOS 14</td><td>Xcode 15</td><td>-DENABLE_METAL=ON</td><td>xcframework</td><td>no codesign errors</td></tr>
+  <tr><td>Integration Tests</td><td>Ubuntu 22.04</td><td>Python 3.11</td><td>-DHEADLESS=ON</td><td>logs.tar.gz</td><td>0 critical crashes</td></tr>
+  <tr><td>Release</td><td>macOS 14</td><td>Fastlane</td><td>--store</td><td>release-notes.md</td><td>manual approval</td></tr>
+</table>

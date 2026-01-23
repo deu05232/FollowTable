@@ -1,0 +1,17 @@
+<table>
+  <caption>Enterprise Operational Status and Risk Monitoring Indicators</caption>
+  <thead>
+    <tr><th>Data Item Name</th><th>Field Name</th><th>Data Type and Format</th><th>Value Domain</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Monitoring Record ID</td><td>MonRecID</td><td>C..32</td><td></td><td>Unique identifier of a monitoring record</td></tr>
+    <tr><td>Reporting Period</td><td>ReportPeriod</td><td>C..7</td><td>YYYY-MM</td><td>Monthly period for monitoring</td></tr>
+    <tr><td>Operating Status</td><td>OpStatus</td><td>C..30</td><td>Normal; Suspended; Closed; Relocated</td><td>Current operational status</td></tr>
+    <tr><td>Abnormal List Flag</td><td>AbnormalFlag</td><td>C..1</td><td>Y; N</td><td>Whether the enterprise is listed as abnormal</td></tr>
+    <tr><td>Abnormal Reason Code</td><td>AbnormalReasonCode</td><td>C..20</td><td></td><td>Reason code for abnormal listing</td></tr>
+    <tr><td>Risk Level</td><td>RiskLevel</td><td>C..10</td><td>Low; Medium; High</td><td>Risk rating from monitoring model</td></tr>
+    <tr><td>Tax Arrears Indicator</td><td>TaxArrearsInd</td><td>C..1</td><td>Y; N</td><td>Whether tax arrears are detected</td></tr>
+    <tr><td>Outstanding Case Count</td><td>OutstandingCaseCnt</td><td>N(6)</td><td></td><td>Number of open supervision cases</td></tr>
+    <tr><td>Last Update Time</td><td>LastUpdateTime</td><td>DT(YYYY-MM-DD hh:mm:ss)</td><td></td><td>Timestamp of the latest update</td></tr>
+  </tbody>
+</table>

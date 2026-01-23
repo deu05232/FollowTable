@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Hit Result Data Accessors for UI Feedback (Distance, Pose, and Orientation)</caption>
+  <thead>
+    <tr><th>Function / Accessor</th><th>Input</th><th>Output</th><th>Description</th><th>UI Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResult_getDistance()</td><td>ArSession* session; ArHitResult* hit</td><td>float* out_distance_m</td><td>Returns the hit distance from the ray origin to the intersection point (meters).</td><td>Scale warning intensity by proximity; show distance label.</td></tr>
+    <tr><td>ArHitResult_getHitPose()</td><td>ArSession* session; ArHitResult* hit</td><td>ArPose* out_pose</td><td>Returns the full pose (position + orientation) of the hit in world space.</td><td>Place an indicator at the collision point.</td></tr>
+    <tr><td>ArPose_getTranslation()</td><td>ArPose* pose</td><td>float out_t_xyz[3]</td><td>Reads translation (x,y,z) from the pose in world coordinates.</td><td>Render 3D marker / anchor UI in space.</td></tr>
+    <tr><td>ArPose_getRotationQuaternion()</td><td>ArPose* pose</td><td>float out_q_xyzw[4]</td><td>Reads rotation quaternion (x,y,z,w) from the pose.</td><td>Orient decals/arrows to match surface.</td></tr>
+    <tr><td>ArHitResult_getNormalWorld()</td><td>ArSession* session; ArHitResult* hit</td><td>float out_normal_xyz[3]</td><td>Returns an estimated surface normal at the hit point in world space (if available).</td><td>Angle-based warnings; align UI to surface normal.</td></tr>
+    <tr><td>ArHitResult_getConfidence()</td><td>ArSession* session; ArHitResult* hit</td><td>float* out_confidence_0_1</td><td>Returns hit reliability/confidence (0..1) derived from tracking quality.</td><td>Fade or de-emphasize low-confidence indicators.</td></tr>
+    <tr><td>ArHitResult_getTimeStampNs()</td><td>ArSession* session; ArHitResult* hit</td><td>int64_t* out_timestamp_ns</td><td>Returns the timestamp associated with the hit result.</td><td>Reject stale hits; smooth UI updates over time.</td></tr>
+  </tbody>
+</table>

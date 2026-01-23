@@ -1,0 +1,15 @@
+<table>
+  <caption>Additive Manufacturing Feedstock-to-Process Classification (Activation Embedded in Process Names)</caption>
+  <thead>
+    <tr><th>Material category</th><th>Feedstock form</th><th>Representative AM process (combined name)</th><th>Typical machine family</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Metals</td><td>Powder</td><td>Laser Powder Bed Fusion (LPBF)</td><td>PBF</td><td>Energy source is implied in the process title</td></tr>
+    <tr><td>Wire</td><td>Wire Arc Additive Manufacturing (WAAM)</td><td>DED</td><td>Activation is embedded (arc) rather than separated</td></tr>
+    <tr><td rowspan="2">Polymers</td><td>Filament</td><td>Fused Deposition Modeling (FDM)</td><td>Material extrusion</td><td>Heating method not separated into a column</td></tr>
+    <tr><td>Photopolymer resin</td><td>Stereolithography (SLA)</td><td>Vat photopolymerization</td><td>Light-based curing implied in acronym</td></tr>
+    <tr><td rowspan="2">Ceramics</td><td>Powder + binder</td><td>Ceramic Binder Jetting</td><td>Binder jetting</td><td>Chemical/curing steps not separated as activation columns</td></tr>
+    <tr><td>Green slurry</td><td>Digital Light Processing (DLP) ceramic printing</td><td>Vat photopolymerization</td><td>Activation not broken out</td></tr>
+    <tr><td>Composites</td><td>Short-fiber filament</td><td>Composite FFF / FDM</td><td>Material extrusion</td><td>Process name bundles material + activation</td></tr>
+  </tbody>
+</table>

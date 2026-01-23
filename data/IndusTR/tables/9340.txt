@@ -1,0 +1,16 @@
+<table>
+  <caption>Directional Light Extraction From Light-Estimate Object</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Handles</td><td>session</td><td>ArSession *</td><td>AR session handle owning the light-estimate object</td></tr>
+    <tr><td>light_estimate</td><td>ArLightEstimate *</td><td>Light-estimate object to read directional lighting from</td></tr>
+    <tr><td rowspan="3">Direction</td><td>out_main_light_direction</td><td>float[3] *</td><td>Returns main directional light direction vector (x,y,z)</td></tr>
+    <tr><td>out_main_light_direction_confidence</td><td>float *</td><td>Returns confidence value for the direction estimate (0..1)</td></tr>
+    <tr><td>out_directional_light_count</td><td>int32_t *</td><td>Returns number of directional lights represented (typically 1)</td></tr>
+    <tr><td rowspan="3">Intensity / Color</td><td>out_main_light_intensity_lux</td><td>float *</td><td>Returns main directional light intensity in lux-like units</td></tr>
+    <tr><td>out_main_light_color_rgb</td><td>float[3] *</td><td>Returns estimated main light color (R,G,B)</td></tr>
+    <tr><td>out_ambient_spherical_harmonics</td><td>float[27] *</td><td>Returns 3-band spherical harmonics coefficients for ambient lighting</td></tr>
+  </tbody>
+</table>

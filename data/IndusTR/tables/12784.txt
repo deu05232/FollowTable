@@ -1,0 +1,15 @@
+<table>
+  <caption>Exchange Header Envelope Package — Basic Business Information Entity (Field Semantics and Examples)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field</th><th>English Name</th><th>Data Type</th><th>Example Value</th><th>Definition</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Business Information</td><td>Business Scope Code</td><td>Business Scope Code</td><td>String</td><td>BS-TRD</td><td>Code used to indicate the scope of business covered by the exchange.</td><td>Often aligned to a controlled code list.</td></tr>
+    <tr><td>Business Scope Description Text</td><td>Business Scope Text</td><td>String</td><td>Domestic trading of goods</td><td>Human-readable description of the business scope parameters.</td><td>May be localized.</td></tr>
+    <tr><td>Business Category Code</td><td>Business Category Code</td><td>String</td><td>CAT-A01</td><td>Classification for the business domain or category.</td><td>Useful for routing/analytics.</td></tr>
+    <tr><td>Business Process Identifier</td><td>Business Process Identifier</td><td>String</td><td>PROC-INV-001</td><td>Identifier for the business process associated with the message exchange.</td><td>May map to internal workflow IDs.</td></tr>
+    <tr><td rowspan="3">Party</td><td>Identity Number</td><td>Identity Number</td><td>String</td><td>CN91330105XXXX</td><td>Identifier number of the sender or receiver organization.</td><td>Could be tax ID / registration number.</td></tr>
+    <tr><td>Party Name</td><td>Party Name</td><td>String</td><td>Acme Trading Ltd.</td><td>Legal or display name for the party participating in the exchange.</td><td>Should match registration records.</td></tr>
+    <tr><td>Contact Email</td><td>Contact Email</td><td>String</td><td>ops@acme.example</td><td>Email address for operational contact regarding this exchange.</td><td>Used for notifications.</td></tr>
+  </tbody>
+</table>

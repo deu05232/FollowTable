@@ -1,0 +1,10 @@
+<table>
+  <caption>Example binary fields for Agricultural Inputs Product Electronic Code (F/P/C/I/S)</caption>
+  <tr><th>Field</th><th>Example (binary)</th><th>Bit length</th><th>Comment</th></tr>
+  <tr><td>Header</td><td>00110000</td><td>8</td><td>Fixed header</td></tr>
+  <tr><td>F</td><td>011</td><td>3</td><td>Filter value</td></tr>
+  <tr><td>P</td><td>010</td><td>3</td><td>Partition</td></tr>
+  <tr><td>C</td><td>00000000000000000001</td><td>20</td><td>Company prefix (example length)</td></tr>
+  <tr><td>I</td><td>000000000000000000000001</td><td>24</td><td>Item code portion (example length)</td></tr>
+  <tr><td>S</td><td>00000000000000000000000000000000000001</td><td>38</td><td>Serial number</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Audio Codec Conformance Test Vectors — Core Decoder Streams by Sampling Rate</caption>
+  <thead>
+    <tr><th rowspan="2">Test ID</th><th rowspan="2">Profile / Feature</th><th colspan="3">Bitstream filename by sampling rate</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CT-CORE-001</td><td>LC baseline, 24 kbps</td><td>core_001_sr32k_br24k.avsa</td><td>core_001_sr44k1_br24k.avsa</td><td>core_001_sr48k_br24k.avsa</td></tr>
+    <tr><td>CT-CORE-002</td><td>LC baseline, 32 kbps</td><td>core_002_sr32k_br32k.avsa</td><td>core_002_sr44k1_br32k.avsa</td><td>core_002_sr48k_br32k.avsa</td></tr>
+    <tr><td>CT-CORE-003</td><td>LC baseline, 48 kbps</td><td>core_003_sr32k_br48k.avsa</td><td>core_003_sr44k1_br48k.avsa</td><td>core_003_sr48k_br48k.avsa</td></tr>
+    <tr><td>CT-CORE-004</td><td>SBR-enabled, 64 kbps</td><td>core_004_sbr_sr32k_br64k.avsa</td><td>core_004_sbr_sr44k1_br64k.avsa</td><td>core_004_sbr_sr48k_br64k.avsa</td></tr>
+    <tr><td>CT-CORE-005</td><td>Parametric stereo, 80 kbps</td><td>core_005_ps_sr32k_br80k.avsa</td><td>core_005_ps_sr44k1_br80k.avsa</td><td>core_005_ps_sr48k_br80k.avsa</td></tr>
+    <tr><td>CT-CORE-006</td><td>Robustness (error concealment), 32 kbps</td><td>core_006_ec_sr32k_br32k.avsa</td><td>core_006_ec_sr44k1_br32k.avsa</td><td>core_006_ec_sr48k_br32k.avsa</td></tr>
+    <tr><td>CT-CORE-007</td><td>DRC metadata present, 48 kbps</td><td>core_007_drc_sr32k_br48k.avsa</td><td>core_007_drc_sr44k1_br48k.avsa</td><td>core_007_drc_sr48k_br48k.avsa</td></tr>
+  </tbody>
+</table>

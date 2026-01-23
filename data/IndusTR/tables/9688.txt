@@ -1,0 +1,15 @@
+<table>
+  <caption>Fire Curve Selection Guidance and Rating Description (Narrative Labels Instead of Code-Style Durations)</caption>
+  <thead>
+    <tr><th>Fire temperature history</th><th>Typical application</th><th>Test exposure duration</th><th>Reported rating format</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cellulosic building fire</td><td>Offices, residential buildings</td><td>30 min</td><td>"30-minute rating"</td><td>Often aligned with building code fire tests</td></tr>
+    <tr><td>Cellulosic building fire</td><td>Public buildings</td><td>60 min</td><td>"1-hour rating"</td><td>May be reported as REI 60 depending on system</td></tr>
+    <tr><td>Hydrocarbon jet/pool fire</td><td>Oil & gas equipment</td><td>90 min</td><td>"90-minute hydrocarbon"</td><td>Higher heat flux; rapid temperature rise</td></tr>
+    <tr><td>Hydrocarbon jet/pool fire</td><td>Process areas</td><td>120 min</td><td>"2-hour hydrocarbon"</td><td>Common for structural steel in refineries</td></tr>
+    <tr><td>Petrochemical fire</td><td>Chemical plants</td><td>180 min</td><td>"3-hour petrochemical"</td><td>May include different curve parameters by standard</td></tr>
+    <tr><td>RABT tunnel fire</td><td>Rail tunnels</td><td>60 min</td><td>"RABT 60"</td><td>Peak/hold/decay profile is standard-specific</td></tr>
+    <tr><td>RWS tunnel fire</td><td>Road tunnels</td><td>120 min</td><td>"RWS 120"</td><td>Very severe curve; long high-temperature phase</td></tr>
+  </tbody>
+</table>

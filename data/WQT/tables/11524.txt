@@ -1,0 +1,11 @@
+# Codec Feature Checklist for Common DLNA Profiles (No Container Mapping)
+
+| Codec family | Profile | Level | B-frames | CABAC | 4:2:2 | 10-bit | Max reference frames | Typical use case |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| H.264/AVC | Baseline | 3.0 | No | No | No | No | 4 | Low-power mobile playback |
+| H.264/AVC | Main | 4.0 | Yes | Yes | No | No | 6 | Broadcast-like encoding |
+| H.264/AVC | High | 4.1 | Yes | Yes | No | No | 6 | Blu-ray style encodes |
+| MPEG-2 Video | Main | High | Yes | N/A | No | No | N/A | Legacy DVD/TV streams |
+| VC-1 | Advanced | 3 | Yes | N/A | No | No | N/A | Older HD content |
+| AAC | LC | N/A | N/A | N/A | N/A | N/A | N/A | General-purpose audio |
+| MP3 | Layer III | N/A | N/A | N/A | N/A | N/A | N/A | Legacy audio |

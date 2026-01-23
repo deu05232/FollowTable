@@ -1,0 +1,14 @@
+<table>
+  <caption>Version Negotiation Addressing Matrix (Node IDs, PGNs, and Direction)</caption>
+  <thead>
+    <tr><th>Direction</th><th>Sender Node</th><th>Sender Address (SA)</th><th>Receiver Node</th><th>Receiver Address (PS)</th><th>PF</th><th>DP</th><th>EDP</th><th>Priority (P)</th><th>Identifier Type</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Request</td><td>Vehicle</td><td>0x56</td><td>Charger</td><td>0xF4</td><td>0x39</td><td>0</td><td>0</td><td>0x3</td><td>29-bit</td><td>Vehicle initiates addressing to charger</td></tr>
+    <tr><td>Response</td><td>Charger</td><td>0xF4</td><td>Vehicle</td><td>0x56</td><td>0x38</td><td>0</td><td>0</td><td>0x3</td><td>29-bit</td><td>Charger replies to vehicle</td></tr>
+    <tr><td>Retry (same endpoints)</td><td>Vehicle</td><td>0x56</td><td>Charger</td><td>0xF4</td><td>0x39</td><td>0</td><td>0</td><td>0x3</td><td>29-bit</td><td>Used when no response is observed</td></tr>
+    <tr><td>Broadcast (diagnostic)</td><td>Charger</td><td>0xF4</td><td>All nodes</td><td>0xFF</td><td>0x3A</td><td>0</td><td>0</td><td>0x3</td><td>29-bit</td><td>Addressing-only; payload ignored</td></tr>
+    <tr><td>Broadcast (diagnostic)</td><td>Vehicle</td><td>0x56</td><td>All nodes</td><td>0xFF</td><td>0x3B</td><td>0</td><td>0</td><td>0x3</td><td>29-bit</td><td>Addressing-only; payload ignored</td></tr>
+    <tr><td>Reserved</td><td>Charger</td><td>0xF4</td><td>Reserved</td><td>0x00</td><td>0x3C</td><td>0</td><td>0</td><td>0x3</td><td>29-bit</td><td>Do not use in version negotiation</td></tr>
+  </tbody>
+</table>

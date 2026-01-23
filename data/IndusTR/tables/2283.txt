@@ -1,0 +1,14 @@
+<table>
+  <caption>Building Water Use Intensity Benchmarks for Hospitals (Cross-Domain Reference)</caption>
+  <thead>
+    <tr><th>Hospital Type</th><th>Bed Count</th><th>Water Use Intensity (m³/bed·year)</th><th>Hot Water Share (%)</th><th>Peak Hour Factor</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>General hospital</td><td>300</td><td>220</td><td>18</td><td>1.6</td><td>Includes laundry and kitchens</td></tr>
+    <tr><td>General hospital</td><td>800</td><td>240</td><td>20</td><td>1.7</td><td>High outpatient volume</td></tr>
+    <tr><td>Specialty hospital</td><td>200</td><td>190</td><td>15</td><td>1.5</td><td>Lower surgical load</td></tr>
+    <tr><td>Children's hospital</td><td>350</td><td>260</td><td>22</td><td>1.8</td><td>Higher sanitation demand</td></tr>
+    <tr><td>Rehabilitation center</td><td>150</td><td>160</td><td>12</td><td>1.4</td><td>Lower process water demand</td></tr>
+    <tr><td>Teaching hospital</td><td>600</td><td>255</td><td>21</td><td>1.75</td><td>Research labs included</td></tr>
+  </tbody>
+</table>

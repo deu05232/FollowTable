@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal Message/Report Addressing Parameters (Uplink & Downlink)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Common</td><td>Sender ID</td><td>1–16,777,215</td><td></td><td>Originating intranet user identifier used to label the source endpoint.</td></tr>
+    <tr><td>Common</td><td>Recipient ID</td><td>1–16,777,215</td><td></td><td>Destination intranet user identifier used to select the receiving endpoint.</td></tr>
+    <tr><td>Uplink (Terminal → Network)</td><td>Inbound User ID</td><td>1–16,777,215</td><td></td><td>User identifier carried in inbound statements for routing/association within the network.</td></tr>
+    <tr><td>Uplink (Terminal → Network)</td><td>User Inbound Sequence Number</td><td>0–1,023</td><td></td><td>Sequence tag assigned by terminal for matching acknowledgements and de-duplication.</td></tr>
+    <tr><td>Uplink (Terminal → Network)</td><td>Station Entry Sequence Number (LSB5)</td><td>0–31</td><td></td><td>Lower 5 bits of the inbound sequence number used for compact station-side correlation.</td></tr>
+    <tr><td>Downlink (Network → Terminal)</td><td>Message Reference Number</td><td>0–65,535</td><td></td><td>Network-provided reference used to identify a specific delivered record.</td></tr>
+    <tr><td>Downlink (Network → Terminal)</td><td>Conversation / Session ID</td><td>0–255</td><td></td><td>Optional session identifier to group messages between the same endpoints.</td></tr>
+  </tbody>
+</table>

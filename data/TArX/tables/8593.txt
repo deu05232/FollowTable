@@ -1,0 +1,16 @@
+<table>
+  <caption>Symbolic Yukawa-sector parameters in the Standard Model (lambda-style, linked to observables rather than explicit fermion-by-fermion numeric y_f values).</caption>
+  <thead>
+    <tr><th>Fermion sector</th><th>Symbolic parameterization</th><th>Related observable(s)</th><th>Tree-level relation (schematic)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Up-type quarks</td><td>λu, λc, λt</td><td>mu, mc, mt</td><td>mu_i∝ λu_iv</td><td>No explicit numeric yfvalues provided</td></tr>
+    <tr><td>Yu(3×3 matrix)</td><td>CKM mixing, quark masses</td><td>VCKMarises from diagonalizing Yu, Yd</td><td>Matrix elements left symbolic</td></tr>
+    <tr><td>λtt(effective)</td><td>Loop-sensitive Higgs observables</td><td>Amp ∝ λtt2</td><td>Effective coupling used instead of yt</td></tr>
+    <tr><td rowspan="2">Down-type quarks</td><td>λd, λs, λb</td><td>md, ms, mb</td><td>md_i∝ λd_iv</td><td>Parameter names only</td></tr>
+    <tr><td>λbb(effective)</td><td>B physics (e.g., b → sγ)</td><td>Obs ∝ λttλbb</td><td>Observable-tied, not numeric Yukawas</td></tr>
+    <tr><td rowspan="2">Charged leptons</td><td>λe, λμ, λτ</td><td>me, mμ, mτ</td><td>mℓ∝ λℓv</td><td>No numbers; symbolic only</td></tr>
+    <tr><td>Ye(matrix)</td><td>Lepton masses</td><td>Diagonalize Ye</td><td>Structure-only summary</td></tr>
+    <tr><td>Neutrinos</td><td>Yνor κ/Λ</td><td>mν, mixing</td><td>mν∼ κ v2/Λ</td><td>Higher-dimensional operator notation</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,22 @@
+<table>
+  <caption>Temperature scaling of spin relaxation length in graphene extracted from Hanle precession fits (example dataset).</caption>
+  <thead>
+    <tr><th>Model/fit setting</th><th>Temperature (K)</th><th>Spin relaxation length λs (μm)</th><th>Spin lifetime τs (ps)</th><th>Fit quality (R²)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="7">Bloch diffusion + isotropic τs</th><td>15</td><td>7.4</td><td>980</td><td>0.994</td></tr>
+    <tr><td>40</td><td>6.8</td><td>910</td><td>0.993</td></tr>
+    <tr><td>80</td><td>6.0</td><td>820</td><td>0.992</td></tr>
+    <tr><td>120</td><td>5.3</td><td>740</td><td>0.990</td></tr>
+    <tr><td>180</td><td>4.5</td><td>640</td><td>0.989</td></tr>
+    <tr><td>240</td><td>3.9</td><td>560</td><td>0.988</td></tr>
+    <tr><td>300</td><td>3.3</td><td>500</td><td>0.987</td></tr>
+    <tr><th rowspan="7">Bloch diffusion + anisotropic τs (check)</th><td>15</td><td>7.1</td><td>950</td><td>0.993</td></tr>
+    <tr><td>40</td><td>6.6</td><td>890</td><td>0.992</td></tr>
+    <tr><td>80</td><td>5.8</td><td>800</td><td>0.991</td></tr>
+    <tr><td>120</td><td>5.1</td><td>720</td><td>0.989</td></tr>
+    <tr><td>180</td><td>4.4</td><td>630</td><td>0.988</td></tr>
+    <tr><td>240</td><td>3.8</td><td>550</td><td>0.987</td></tr>
+    <tr><td>300</td><td>3.2</td><td>495</td><td>0.986</td></tr>
+  </tbody>
+</table>

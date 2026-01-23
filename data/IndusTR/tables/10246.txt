@@ -1,0 +1,14 @@
+<table>
+  <caption>ArTrackable_getTrackingState (Trackable Tracking-State Query)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Pointer to the current AR session.</td></tr>
+    <tr><td>trackable</td><td>const ArTrackable *</td><td>in</td><td>Trackable handle whose tracking state will be queried.</td></tr>
+    <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>out</td><td>Receives the trackable's tracking state (e.g., TRACKING, PAUSED, STOPPED).</td></tr>
+    <tr><td>out_last_updated_ns</td><td>int64_t *</td><td>out</td><td>Receives the timestamp (nanoseconds) when the state was last updated.</td></tr>
+    <tr><td>out_confidence</td><td>float *</td><td>out</td><td>Receives an optional confidence score associated with the current state.</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>out</td><td>Receives the status code indicating success or reason for failure.</td></tr>
+  </tbody>
+</table>

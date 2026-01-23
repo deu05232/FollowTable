@@ -1,0 +1,15 @@
+<table>
+  <caption>Energy Tariff and Operating Cost Assumptions for Chiller Plant Financial Modeling</caption>
+  <thead>
+    <tr><th>Cost Item</th><th>Unit</th><th>Peak</th><th>Off-peak</th><th>Assumed Annual Hours</th><th>Model Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Electricity price</td><td>USD/kWh</td><td>0.18</td><td>0.09</td><td>—</td><td>Time-of-use tariff</td></tr>
+    <tr><td>Demand charge</td><td>USD/kW·month</td><td>12.0</td><td>12.0</td><td>—</td><td>Applied to max 15-min demand</td></tr>
+    <tr><td>Water price</td><td>USD/m³</td><td>1.60</td><td>1.60</td><td>—</td><td>Make-up water</td></tr>
+    <tr><td>Maintenance labor</td><td>USD/hour</td><td>45</td><td>45</td><td>120</td><td>Preventive maintenance</td></tr>
+    <tr><td>Filter/consumables</td><td>USD/year</td><td colspan="2">1,200</td><td>—</td><td>Includes drier cores</td></tr>
+    <tr><td>Service contract</td><td>USD/year</td><td colspan="2">6,800</td><td>—</td><td>Remote monitoring included</td></tr>
+    <tr><td>Downtime allowance</td><td>% of capex</td><td colspan="2">0.5%</td><td>—</td><td>Financial contingency</td></tr>
+  </tbody>
+</table>

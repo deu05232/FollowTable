@@ -1,0 +1,14 @@
+<table>
+  <caption>Recovery Procedure Matrix After Storage/Transport Environmental Stress for Speed-Control Equipment</caption>
+  <thead>
+    <tr><th>Exposure type</th><th>Unpacking rule</th><th>Dry-out / dehumidification step</th><th>Electrical safety checks before power</th><th>Functional verification to run</th><th>Documentation to record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Low-temperature storage</td><td>Keep packaged until surface is dry</td><td>Room-air equilibration; no heaters allowed</td><td>Measure insulation resistance; verify PE continuity</td><td>Run no-load start/stop cycle</td><td>Record any frost marks</td></tr>
+    <tr><td>High-temperature storage</td><td>Unpack after cooling to ambient</td><td>null unless indicator shows moisture</td><td>Check capacitor bulging; visual PCB inspection</td><td>Run fan self-test and keypad test</td><td>Log internal temperature at power-on</td></tr>
+    <tr><td>High-humidity storage</td><td>Open package in dry room only</td><td>Forced-air drying for 2 h</td><td>Check leakage current; verify protective relay</td><td>Run low-speed regulation test</td><td>Photo record of corrosion points</td></tr>
+    <tr><td>Condensation exposure</td><td>Do not unpack outdoors</td><td>Blow dry inside enclosure; replace desiccant</td><td>Hi-pot test postponed until fully dry</td><td>Run gate-drive diagnostic</td><td>Write condensation removal method</td></tr>
+    <tr><td>Shock during transport</td><td>Inspect foam and corner protectors</td><td>If wet, dry per condensation protocol</td><td>Check terminal torque; verify fuse integrity</td><td>Run acceleration/deceleration profile</td><td>Note packaging deformation</td></tr>
+    <tr><td>Vibration during transport</td><td>Unpack and re-seat plug-in boards</td><td>Replace moisture indicator card if tripped</td><td>Check connector seating; re-torque busbars</td><td>Run auto-tune with motor disconnected</td><td>Record loosening findings</td></tr>
+  </tbody>
+</table>

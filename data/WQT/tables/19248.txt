@@ -1,0 +1,12 @@
+# MacBook model names matched to serial-number prefixes (no comma-style model identifiers)
+
+| MacBook model (marketing name) | Example serial prefix | Production location hint | Notes |
+| --- | --- | --- | --- |
+| MacBook (13-inch, Mid 2010) | C02F | China (example) | Prefixes vary by batch |
+| MacBook (13-inch, Late 2009) | 4512 | Cork (example) | Older 11-char formats exist |
+| MacBook (13-inch, Mid 2009) | W892 | Taiwan (example) | Not a unique model key |
+| MacBook Pro (13-inch, Late 2011) | C17H | China (example) | Serial required for warranty lookup |
+| MacBook Pro (13-inch, Mid 2012) | C2DN | China (example) | Prefix maps to factory/week, not model id |
+| MacBook Air (11-inch, Early 2015) | C02Q | China (example) | Multiple configs share prefixes |
+| MacBook Air (13-inch, Early 2014) | C02L | China (example) | Prefixes overlap across years |
+| MacBook (12-inch, Retina, Early 2016) | C02T | China (example) | Use full serial for exact config |

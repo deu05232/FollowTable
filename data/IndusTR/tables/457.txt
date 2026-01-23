@@ -1,0 +1,8 @@
+<table>
+  <caption>Dense Tensor Creation with Multinomial Distribution Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Represents the input probability values as a tensor with floating-point type</td></tr>
+  <tr><td>Number of Samples</td><td>Input</td><td>Optional</td><td>Represents the number of samples; default value is 1</td></tr>
+  <tr><td>Sampling Method</td><td>Input</td><td>Optional</td><td>Indicates whether sampling is with replacement; default is yes</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Random tensor following a multinomial distribution, with the same shape and data type as the input</td></tr>
+</table>

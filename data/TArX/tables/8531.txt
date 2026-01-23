@@ -1,0 +1,16 @@
+<table>
+  <caption>Wide-field Imaging Artifacts Introduced by Foreground Lensing Galaxies in High-z Cluster Searches (no lens-system properties)</caption>
+  <thead>
+    <tr><th rowspan="2">Survey field</th><th rowspan="2">Foreground lens population</th><th colspan="3">Observed effect on distant cluster imaging</th><th rowspan="2">Mitigation used</th></tr>
+    <tr><th>Spurious richness boost (%)</th><th>Arc-like feature rate (per deg²)</th><th>Centroid shift (arcsec)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Field A (g,r,i)</td><td>Massive ellipticals (z≈0.2–0.4)</td><td>+12</td><td>3.1</td><td>0.6</td><td>Masking around bright galaxies</td></tr>
+    <tr><td>Field B (r,i,z)</td><td>Group-scale lenses (z≈0.3–0.6)</td><td>+20</td><td>5.4</td><td>1.1</td><td>Shear-map subtraction</td></tr>
+    <tr><td>Field C (i,z,Y)</td><td>Edge-on disk lenses (z≈0.1–0.3)</td><td>+6</td><td>1.8</td><td>0.4</td><td>PSF/galaxy light modeling</td></tr>
+    <tr><td>Field D (g,r,i,z)</td><td>Cluster-member lenses in foreground structure</td><td>+15</td><td>4.0</td><td>0.9</td><td>Photometric redshift reweighting</td></tr>
+    <tr><td>Field E (r,i)</td><td>Isolated strong lenses (mixed z)</td><td>+9</td><td>2.6</td><td>0.7</td><td>Visual arc veto + ML classifier</td></tr>
+    <tr><td>Field F (i,z)</td><td>Luminous red galaxies (LRGs)</td><td>+18</td><td>4.7</td><td>1.3</td><td>Simulated injection/recovery calibration</td></tr>
+    <tr><td>Field G (g,r,i)</td><td>Satellite subhalo perturbers</td><td>+4</td><td>1.2</td><td>0.3</td><td>Multi-object fitting</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Registration Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.1</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Registration</td></tr>
+  <tr><td>Test Objective</td><td>Verify the logistics terminal registration function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can be logged in normally; 2. Normal connection to the server; 3. UI buttons and input boxes can be used normally; 4. Logistics terminals that have an ordering/subscription relationship established with the platform can work normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Enter the Logistics Terminal Management screen and click Register; 2. Enter information such as the terminal serial number, the IMEI of the communication module, IMSI, status, etc., then click Register; 3. View the list of registered logistics terminals</td></tr>
+  <tr><td>Pass Criteria</td><td>The platform returns a registration success message, and the list of registered logistics terminals can be viewed</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

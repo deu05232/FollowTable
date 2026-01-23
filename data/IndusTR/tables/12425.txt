@@ -1,0 +1,19 @@
+<table>
+  <caption>CEA-708 Caption Window Style Attributes (Formatting-Oriented)</caption>
+  <thead>
+    <tr><th>Field / Flag</th><th>Bits</th><th>Values / Meaning</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>fill_color</td><td>u(8)</td><td>Index into color table</td><td>Background fill</td></tr>
+    <tr><td>fill_opacity</td><td>u(2)</td><td>0=solid,1=flash,2=translucent,3=transparent</td><td>Visual only</td></tr>
+    <tr><td>border_type</td><td>u(2)</td><td>0=none,1=raised,2=depressed,3=uniform</td><td>Edge rendering</td></tr>
+    <tr><td>border_color</td><td>u(8)</td><td>Index into color table</td><td>Visual only</td></tr>
+    <tr><td>word_wrap_flag</td><td>u(1)</td><td>0=off, 1=on</td><td>Layout behavior</td></tr>
+    <tr><td>print_direction</td><td>u(2)</td><td>0=LTR,1=RTL,2=TTB,3=BTT</td><td>Presentation direction</td></tr>
+    <tr><td>scroll_direction</td><td>u(2)</td><td>0=bottom-to-top,1=top-to-bottom,2=right-to-left,3=left-to-right</td><td>Presentation motion</td></tr>
+    <tr><td>justify</td><td>u(2)</td><td>0=left,1=right,2=center,3=full</td><td>Text alignment</td></tr>
+    <tr><td>effect_speed</td><td>u(4)</td><td>Ticks per step</td><td>Animation timing</td></tr>
+    <tr><td>effect_direction</td><td>u(2)</td><td>0=left,1=right,2=up,3=down</td><td>Animation direction</td></tr>
+    <tr><td>display_effect</td><td>u(3)</td><td>0=snap,1=fade,2=wipe,3=fly,4-7=reserved</td><td>Visual transition</td></tr>
+  </tbody>
+</table>

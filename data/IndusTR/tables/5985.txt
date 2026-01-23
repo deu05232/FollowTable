@@ -1,0 +1,16 @@
+<table>
+  <caption>Instant Messaging Service - Notification API Callback/Response Fields</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>Type</th><th>Presence</th><th>Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Processing Result</td><td>returnResult</td><td>String (1..64)</td><td>Y</td><td>OK | ERROR</td><td>Callback processing outcome</td></tr>
+    <tr><td>resultDescription</td><td>String (0..2000)</td><td>N</td><td>Free text</td><td>Reason or details about processing result</td></tr>
+    <tr><td>httpStatus</td><td>Integer</td><td>N</td><td>200 | 400 | 500</td><td>HTTP status returned by receiver</td></tr>
+    <tr><td rowspan="3">Acknowledgement</td><td>ackId</td><td>String (1..64)</td><td>N</td><td>ack-9f2c</td><td>Acknowledgement identifier</td></tr>
+    <tr><td>ackTime</td><td>DateTime</td><td>N</td><td>ISO-8601</td><td>Time acknowledgement generated</td></tr>
+    <tr><td>signatureValid</td><td>Boolean</td><td>N</td><td>true | false</td><td>Whether signature verification passed</td></tr>
+    <tr><td rowspan="2">Limits</td><td>rateLimitRemaining</td><td>Integer</td><td>N</td><td>0..10000</td><td>Remaining quota after processing</td></tr>
+    <tr><td>nextAllowedAt</td><td>DateTime</td><td>N</td><td>ISO-8601</td><td>When requests can be retried</td></tr>
+  </tbody>
+</table>

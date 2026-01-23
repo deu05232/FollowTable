@@ -1,0 +1,12 @@
+<table>
+  <caption>Image Feature Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="5">vrImageFeatureData</td><td>int32_t point_cloud_id</td><td>Point cloud ID</td></tr>
+  <tr><td>int32_tbelong_frame_id</td><td>Associated image ID</td></tr>
+  <tr><td>int32_tbelong_camera_id</td><td>Associated camera ID</td></tr>
+  <tr><td>int64_t time_stamp</td><td>Data timestamp</td></tr>
+  <tr><td>vector<vr2DPoint></td><td>Array of 2D image feature points participating in positioning and tracking</td></tr>
+  <tr><td rowspan="2">vrImageFeatureData</td><td>vector<int32_t point_id></td><td>Array of IDs of 2D image feature points participating in positioning and tracking</td></tr>
+  <tr><td>vector<vr3DPoint></td><td>Array of spatial points in 3D space mapped from 2D image feature points participating in positioning and tracking</td></tr>
+  <tr><td></td><td>vector<int32_t 3DPoint_id></td><td>Array of IDs of spatial points in 3D space mapped from 2D image feature points participating in positioning and tracking</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Performances of BNS runs. Columns: grid configuration, number of processor, cpu memory, total runtime, average speed. Runs last to t = 5000 ( 1666 ⁢ M ) on LRZ Munich. The numbers include LORENE initial data interpolation and checkpointing.</caption>
+  <tr><th>Grid</th><th>nproc</th><th>mem [Gb]</th><th>time [CPU hr]</th><th>speed [M/hr]</th></tr>
+  <tr><td>H0</td><td>32</td><td>90</td><td>192</td><td>8.7</td></tr>
+  <tr><td>H1</td><td>32</td><td>96</td><td>268</td><td>6.2</td></tr>
+  <tr><td>H2</td><td>128</td><td>120</td><td>254</td><td>6.5</td></tr>
+  <tr><td>H3</td><td>128</td><td>165</td><td>480</td><td>3.5</td></tr>
+</table>

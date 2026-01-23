@@ -1,0 +1,19 @@
+<table>
+  <caption>Server-side COM Component - Certificate Trust List Management Interfaces</caption>
+  <tr><td>No.</td><td>Clause No.</td><td>Interface Name</td><td>Function</td></tr>
+  <tr><td>1</td><td>7.3.2</td><td>SOF_SetCertTrustList</td><td>Set certificate trust list</td></tr>
+  <tr><td>2</td><td>7.3.3</td><td>SOF_GetCertTrustListAltNames</td><td>Query certificate trust list aliases</td></tr>
+  <tr><td>3</td><td>7.3.4</td><td>SOF_GetCertTrustList</td><td>Query certificate trust list</td></tr>
+  <tr><td>4</td><td>7.3.5</td><td>SOF_DelCertTrustList</td><td>Delete certificate trust list</td></tr>
+  <tr><td>5</td><td>7.3.6</td><td>SOF_InitCertAppPolicy</td><td>Initialize application policy</td></tr>
+  <tr><td>6</td><td>7.3.7</td><td>SOF_SetSignMethod</td><td>Set signature algorithm</td></tr>
+  <tr><td>7</td><td>7.3.8</td><td>SOF_GetSignMethod</td><td>Obtain the current signature algorithm</td></tr>
+  <tr><td>8</td><td>7.3.9</td><td>SOF_SetEncryptMethod</td><td>Set encryption algorithm</td></tr>
+  <tr><td>9</td><td>7.3.10</td><td>SOF_GetEncryptMethod</td><td>Obtain encryption algorithm SAC</td></tr>
+  <tr><td>10</td><td>7.3.36</td><td>SOF_GetLastError</td><td>Obtain the latest error code</td></tr>
+  <tr><td>11</td><td>7.3.11</td><td>SOF_GetServerCertificate</td><td>Obtain server certificate</td></tr>
+  <tr><td>12</td><td>7.3.13</td><td>SOF_GetCertInfo</td><td>Obtain certificate information</td></tr>
+  <tr><td>13</td><td>7.3.14</td><td>SOF_GetCertInfoByOid</td><td>Obtain certificate extension information</td></tr>
+  <tr><td>14</td><td>7.3.15</td><td>SOF_ValidateCert</td><td>Validate certificate validity</td></tr>
+  <tr><td>15</td><td>7.3.16</td><td>SOF_SignData</td><td>Data signing</td></tr>
+</table>

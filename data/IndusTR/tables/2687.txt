@@ -1,0 +1,14 @@
+<table>
+  <caption>Incoming Raw Material Quality Checks for Electrical Insulation Components</caption>
+  <thead>
+    <tr><th>Material</th><th>Inspection Item</th><th>Target Range</th><th>Test Method (Internal)</th><th>Sampling Plan</th><th>Disposition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Epoxy Resin</td><td>Viscosity (mPa·s)</td><td>3,000–4,500</td><td>WI-QC-EPX-01</td><td>ANSI/ASQ Z1.4, AQL 1.0</td><td>Hold if out of range</td></tr>
+    <tr><td>Hardener</td><td>Amine value (mgKOH/g)</td><td>260–320</td><td>WI-QC-HAR-02</td><td>Lot-based</td><td>Reject if out of spec</td></tr>
+    <tr><td>Polyimide Film</td><td>Thickness (µm)</td><td>48–52</td><td>Micrometer</td><td>5 pcs / lot</td><td>Accept with Cpk ≥ 1.33</td></tr>
+    <tr><td>FR-4 Core</td><td>Glass transition Tg (°C)</td><td>≥ 165</td><td>DSC</td><td>1 panel / lot</td><td>Accept</td></tr>
+    <tr><td>Silicone Rubber</td><td>Hardness (Shore A)</td><td>50–60</td><td>Durometer</td><td>3 pcs / lot</td><td>Rework possible</td></tr>
+    <tr><td>Adhesive Tape</td><td>Peel strength (N/25mm)</td><td>≥ 8</td><td>Peel test jig</td><td>3 rolls / lot</td><td>Accept</td></tr>
+  </tbody>
+</table>

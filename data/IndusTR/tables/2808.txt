@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Setup – Test Environment and Instrument Calibration for Rivet Inspection</caption>
+  <thead>
+    <tr><th>Item</th><th>Requirement</th><th>Target</th><th>Allowed Range</th><th>Instrument</th><th>Calibration Interval</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>Controlled</td><td>23°C</td><td>23±2°C</td><td>Thermohygrometer</td><td>12 months</td><td>LAB-ENV-07</td></tr>
+    <tr><td>Relative humidity</td><td>Controlled</td><td>50%</td><td>50±10%</td><td>Thermohygrometer</td><td>12 months</td><td>LAB-ENV-07</td></tr>
+    <tr><td>Force gauge zero check</td><td>Before each use</td><td>0 N</td><td>±0.5 N</td><td>Digital force gauge</td><td>Daily</td><td>CAL-FG-21</td></tr>
+    <tr><td>Tensile tester verification</td><td>Class 1</td><td>ISO 7500-1</td><td>—</td><td>Universal testing machine</td><td>6 months</td><td>CAL-UTM-03</td></tr>
+    <tr><td>Micrometer calibration</td><td>Grade 0 blocks</td><td>0–25 mm</td><td>±2 μm</td><td>Micrometer</td><td>6 months</td><td>CAL-MIC-14</td></tr>
+    <tr><td>Surface roughness tester</td><td>Reference specimen</td><td>Ra 1.6</td><td>±10%</td><td>Profilometer</td><td>12 months</td><td>CAL-SUR-09</td></tr>
+  </tbody>
+</table>

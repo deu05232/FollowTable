@@ -1,0 +1,16 @@
+<table>
+  <caption>Mixed Conformance Inputs (Sampling Rate Embedded in Filenames, Not as Side-by-Side Columns)</caption>
+  <thead>
+    <tr><th>No.</th><th>Test case</th><th>Sampling rate</th><th>Bitstream filename</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>SC-01</td><td>32 kHz</td><td>sc01_sr32k_br24k.avsa</td></tr>
+    <tr><td>2</td><td>SC-01</td><td>44.1 kHz</td><td>sc01_sr44p1k_br24k.avsa</td></tr>
+    <tr><td>3</td><td>SC-01</td><td>48 kHz</td><td>sc01_sr48k_br24k.avsa</td></tr>
+    <tr><td>4</td><td>ES-02</td><td>32 kHz</td><td>es02_sr32k_br80k.avsa</td></tr>
+    <tr><td>5</td><td>ES-02</td><td>44.1 kHz</td><td>es02_sr44p1k_br80k.avsa</td></tr>
+    <tr><td>6</td><td>ES-02</td><td>48 kHz</td><td>es02_sr48k_br80k.avsa</td></tr>
+    <tr><td>7</td><td>TS-71</td><td>44.1 kHz</td><td>ts71_sr44p1k_br256k.avsa</td></tr>
+    <tr><td>8</td><td>TS-71</td><td>48 kHz</td><td>ts71_sr48k_br256k.avsa</td></tr>
+  </tbody>
+</table>

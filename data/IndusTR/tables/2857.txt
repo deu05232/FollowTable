@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Test Setup and Calibration Schedule for GNSS Beidou Terminals</caption>
+  <tr><th>Instrument</th><th>Model</th><th>Calibration Interval</th><th>Reference Standard</th><th>Environment</th><th>Record ID Format</th></tr>
+  <tr><td>GNSS Signal Simulator</td><td>Spirent GSS7000</td><td>12 months</td><td>Traceable to ISO/IEC 17025</td><td>23±2°C, 40–60%RH</td><td>CAL-GNSS-YYYY-NNN</td></tr>
+  <tr><td>Spectrum Analyzer</td><td>R&S FSV</td><td>12 months</td><td>Factory calibration</td><td>23±2°C</td><td>CAL-RF-YYYY-NNN</td></tr>
+  <tr><td>Temperature Chamber</td><td>ESPEC PL-3</td><td>6 months</td><td>IEC chamber verification</td><td>Unpowered setup</td><td>CAL-TEMP-YYYY-NNN</td></tr>
+  <tr><td>Vibration Shaker</td><td>LDS V875</td><td>6 months</td><td>ISO 16063</td><td>Rigid fixture</td><td>CAL-VIB-YYYY-NNN</td></tr>
+  <tr><td>Power Analyzer</td><td>Yokogawa WT3000</td><td>12 months</td><td>National metrology institute</td><td>23±2°C</td><td>CAL-PWR-YYYY-NNN</td></tr>
+  <tr><td>ESD Gun</td><td>EM Test NX30</td><td>12 months</td><td>IEC 61000-4-2 verification</td><td>Grounded bench</td><td>CAL-ESD-YYYY-NNN</td></tr>
+</table>

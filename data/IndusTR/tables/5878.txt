@@ -1,0 +1,15 @@
+<table>
+  <caption>Instant Messaging Notification Request Parameters (Header + Identifiers)</caption>
+  <thead>
+    <tr><th>Field Group</th><th>Parameter Name</th><th>Data Type / Format</th><th>Required</th><th>Max Occurrences</th><th>Constraints / Value Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Operation</td><td>interfaceOperation</td><td>String (C..64)</td><td>M</td><td>1</td><td>Must be "NOTIFY"</td><td>Interface operation for notification request.</td></tr>
+    <tr><td>Identifiers</td><td>initiatorNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty; unique user/service identifier</td><td>Identifier of the entity initiating the notification.</td></tr>
+    <tr><td>Identifiers</td><td>recipientNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty; must refer to an existing recipient</td><td>Identifier of the notification recipient.</td></tr>
+    <tr><td>Delivery</td><td>notificationTimestamp</td><td>String (ISO-8601, e.g., 2026-01-19T10:15:30Z)</td><td>O</td><td>1</td><td>UTC recommended; if present must be valid ISO-8601</td><td>Time when the notification event occurred.</td></tr>
+    <tr><td>Delivery</td><td>notificationID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Idempotency key; must be unique per initiator within 24h</td><td>Client-generated identifier for deduplication/tracking.</td></tr>
+    <tr><td>Routing</td><td>recipientAddress</td><td>String (C..256)</td><td>O</td><td>1</td><td>May be SIP URI / user@domain / phone-like string; ASCII</td><td>Optional explicit address for routing the notification.</td></tr>
+    <tr><td>Content Meta</td><td>notificationType</td><td>String (C..32)</td><td>O</td><td>1</td><td>Allowed: MESSAGE, TYPING, READ_RECEIPT, PRESENCE</td><td>High-level type of notification.</td></tr>
+  </tbody>
+</table>

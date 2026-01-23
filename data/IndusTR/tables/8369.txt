@@ -1,0 +1,16 @@
+<table>
+  <caption>Calibration Results Summary Across Accuracy Classes (Measured Errors, No Allowable Limits)</caption>
+  <thead>
+    <tr><th rowspan="2">Test point</th><th rowspan="2">Current range</th><th rowspan="2">Power factor</th><th colspan="3">Measured indication error (%)</th><th rowspan="2">Remarks</th></tr>
+    <tr><th>Class 0.2 device</th><th>Class 0.5 device</th><th>Class 1 device</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>P1</td><td>10 mA–50 mA</td><td>1.0</td><td>+0.06</td><td>+0.11</td><td>+0.28</td><td>After warm-up</td></tr>
+    <tr><td>P2</td><td>50 mA–0.2Imax</td><td>1.0</td><td>+0.03</td><td>+0.09</td><td>+0.21</td><td>Nominal voltage</td></tr>
+    <tr><td>P3</td><td>0.2Imax–0.8Imax</td><td>0.5L</td><td>-0.08</td><td>-0.17</td><td>-0.45</td><td>Inductive load</td></tr>
+    <tr><td>P4</td><td>0.2Imax–0.8Imax</td><td>0.8C</td><td>+0.10</td><td>+0.20</td><td>+0.55</td><td>Capacitive load</td></tr>
+    <tr><td>P5</td><td>Imin–Ir</td><td>1.0</td><td>+0.12</td><td>+0.30</td><td>+0.90</td><td>Low current</td></tr>
+    <tr><td>P6</td><td>Ir–Imax</td><td>1.0</td><td>-0.05</td><td>-0.14</td><td>-0.35</td><td>Near rated</td></tr>
+    <tr><td>P7</td><td>Ir–Imax</td><td>0.5L</td><td>-0.09</td><td>-0.22</td><td>-0.60</td><td>High burden</td></tr>
+  </tbody>
+</table>

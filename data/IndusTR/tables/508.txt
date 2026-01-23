@@ -1,0 +1,11 @@
+<table>
+  <caption>Detector Image Acquisition Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Acquisition Duration</td><td>(0018,9073)</td><td>FD</td><td>1</td><td>3</td><td>Time required to complete acquisition, in milliseconds (ms)</td></tr>
+  <tr><td>Exposure Mode</td><td>(0018,115A)</td><td>CS</td><td>1</td><td>1</td><td>Continuous or pulsed exposure</td></tr>
+  <tr><td>Detector Pixel Binning</td><td>(0018,701A)</td><td>DS</td><td>2</td><td>1</td><td>Number of detector elements used to generate a single image pixel</td></tr>
+  <tr><td>Detector Gain</td><td>（0018,6000)</td><td>DS</td><td>1</td><td>1</td><td>Set value of detector gain</td></tr>
+  <tr><td>Integration Time</td><td>(0014,3011)</td><td>DS</td><td>1</td><td>1</td><td>Time for the detector to acquire one frame, in milliseconds (ms)</td></tr>
+  <tr><td>Number of Integrated Frames</td><td>(0014,3012)</td><td>DS</td><td>1</td><td>1</td><td>Number of frames required to form one image</td></tr>
+  <tr><td>Scan Sampling Speed</td><td>（0014,3200)</td><td>DS</td><td>1</td><td>1C</td><td>Relative motion speed between the detector and the object when acquiring images with a linear array detector, in centimeters per second (cm/s)</td></tr>
+</table>

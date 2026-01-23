@@ -1,0 +1,10 @@
+<table>
+  <caption>Camera Calibration Lab Setup Requirements for AR Experiments</caption>
+  <tr><th>Requirement</th><th>Target Value</th><th>Allowed Tolerance</th><th>Instrument</th><th>Frequency</th><th>Remarks</th></tr>
+  <tr><td>Ambient Illumination</td><td>300 lux</td><td>±20 lux</td><td>Lux meter</td><td>Before each run</td><td>Avoid flicker sources</td></tr>
+  <tr><td>Color Temperature</td><td>5500 K</td><td>±300 K</td><td>Color meter</td><td>Weekly</td><td>Daylight simulation</td></tr>
+  <tr><td>Checkerboard Distance</td><td>1.5 m</td><td>±0.1 m</td><td>Laser rangefinder</td><td>Each session</td><td>Ensure full FOV coverage</td></tr>
+  <tr><td>Tripod Leveling</td><td>0.0°</td><td>±0.2°</td><td>Digital level</td><td>Each setup</td><td>Prevent pitch/roll bias</td></tr>
+  <tr><td>Frame Capture Rate</td><td>60 fps</td><td>±1 fps</td><td>High-speed logger</td><td>Monthly</td><td>Verify dropped frames</td></tr>
+  <tr><td>IMU Time Sync Error</td><td>< 2 ms</td><td>—</td><td>Timestamp analyzer</td><td>Quarterly</td><td>Align sensor fusion</td></tr>
+</table>

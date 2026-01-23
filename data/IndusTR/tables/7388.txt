@@ -1,0 +1,16 @@
+<table>
+  <caption>Project Emissions Items Mixed with Baseline Displacement Credits (Electricity/Heat)</caption>
+  <thead>
+    <tr><th>Category</th><th>Component</th><th>Symbol</th><th>Computation</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Project emissions</td><td>Purchased electricity</td><td>PE_EC</td><td>PE_EC = EC_y × EF_grid,y</td><td>tCO2e</td></tr>
+    <tr><td>Auxiliary fossil fuel</td><td>PE_FC</td><td>PE_FC = Σ_f (FC_f,y × EF_f)</td><td>tCO2e</td></tr>
+    <tr><td>Stack CO2 from waste combustion</td><td>PE_CO2</td><td>PE_CO2 = Σ_j (W_j,y × C_content,j × OX_j) × 44/12</td><td>tCO2e</td></tr>
+    <tr><td>Stack CH4 and N2O</td><td>PE_CH4N2O</td><td>PE_CH4N2O = CH4_y×GWP_CH4 + N2O_y×GWP_N2O</td><td>tCO2e</td></tr>
+    <tr><td rowspan="3">Baseline credits (displacement)</td><td>Displaced grid electricity (credit)</td><td>BE_EG</td><td>BE_EG = EG_export,y × EF_grid,disp</td><td>tCO2e</td></tr>
+    <tr><td>Displaced heat (credit)</td><td>BE_HG</td><td>BE_HG = Heat_export,y × EF_heat,disp</td><td>tCO2e</td></tr>
+    <tr><td>Avoided landfill methane (credit)</td><td>BE_LF</td><td>BE_LF = CH4_avoided,y × GWP_CH4</td><td>tCO2e</td></tr>
+    <tr><td>Total (netted)</td><td>Net ER</td><td>ER</td><td>ER = (BE_EG + BE_HG + BE_LF) - (PE_EC + PE_FC + PE_CO2 + PE_CH4N2O)</td><td>tCO2e</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>《BusinessProcess》On-demand Tracking Query Response from Integrated Data Center</caption>
+  <tr><td>Preconditions</td><td>Tracking events have been consolidated and are searchable by shipment ID, container number, or booking reference.</td></tr>
+  <tr><td>Start Time</td><td>A business entity submits a query for current cargo status and route milestones.</td></tr>
+  <tr><td>Input</td><td>Query parameters (identifier, time range, requesting party credentials)</td></tr>
+  <tr><td>Scenario</td><td>The integrated data center validates the requester, checks whether relevant tracking data can be provided, retrieves the latest status and event history, and returns a response message. If authorization fails or data is unavailable, the center returns a failure response with an error code and records the outcome.</td></tr>
+  <tr><td>End Time</td><td>The requester receives the response and the data center logs the transaction.</td></tr>
+  <tr><td>Outputs</td><td>Tracking query response (success/failure) with status details</td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Tire Specification Structure (Grouped Fields Under One Structure)</caption>
+  <tr><th>Serial No.</th><th>Data Structure Name</th><th>Data Type</th><th>Data Length (bit)</th><th>Description</th></tr>
+  <tr><td>1</td><td rowspan="5">Tire Specification</td><td>INT</td><td>16</td><td>Green tire code</td></tr>
+  <tr><td>2</td><td>STR</td><td>User-defined</td><td>Specification</td></tr>
+  <tr><td>3</td><td>STR</td><td>User-defined</td><td>Tread pattern</td></tr>
+  <tr><td>4</td><td>INT</td><td>16</td><td>Bead diameter code</td></tr>
+  <tr><td>5</td><td>STR</td><td>User-defined</td><td>Sidewall marking</td></tr>
+</table>

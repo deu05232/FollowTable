@@ -1,0 +1,7 @@
+<table>
+  <caption>Charger identification message (CRM) payload signals</caption>
+  <tr><th>Start Byte or Bit</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Transmission Option</th></tr>
+  <tr><td>1</td><td>4 bytes</td><td>2601</td><td>Charger manufacturer ID</td><td>Required</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>2602</td><td>Charger model identifier</td><td>Required</td></tr>
+  <tr><td>7</td><td>2 bytes</td><td>2603</td><td>Charger serial number fragment</td><td>Optional</td></tr>
+</table>

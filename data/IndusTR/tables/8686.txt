@@ -1,0 +1,15 @@
+<table>
+  <caption>Vehicle Abort Message (PID 0x04) — Application-Layer Payload Parameter Definition</caption>
+  <thead>
+    <tr><th>Level</th><th>Seq. No.</th><th>Field Name</th><th>Offset (Byte)</th><th>Length</th><th>Data Type</th><th>Allowed/Encoding</th><th>Notes / Constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>1</td><td>Parameter Group Identifier (PID)</td><td>0</td><td>1 byte</td><td>UINT8</td><td>Fixed: 0x04</td><td>Identifies the message as Vehicle Abort</td></tr>
+    <tr><td rowspan="2">Abort Code</td><td>2</td><td>Abort Type</td><td>1</td><td>1 byte</td><td>UINT8</td><td>Enum (EndCodeType)</td><td>High-level abort category signaled by the vehicle</td></tr>
+    <tr><td>3</td><td>Abort Code</td><td>2</td><td>1 byte</td><td>UINT8</td><td>Enum (EndCodeType)</td><td>Specific abort code; receivers should handle unknown values safely</td></tr>
+    <tr><td rowspan="2">Abort Reason</td><td>4</td><td>Abort Reason</td><td>3</td><td>2 bytes</td><td>UINT16</td><td>Little-endian (EndReasonType)</td><td>Encoded reason value describing why the vehicle aborted</td></tr>
+    <tr><td>5</td><td>Reserved</td><td>5</td><td>1 byte</td><td>UINT8</td><td>0xFF = not available; 0x00 = none</td><td>Reserved filler to keep a fixed payload size; transmit 0x00 unless otherwise specified</td></tr>
+    <tr><td>Validation</td><td>6</td><td>Reason Range Check</td><td>—</td><td>Rule</td><td>—</td><td>0x0000–0xFFFF</td><td>All values allowed at encoding level; application may restrict to known set</td></tr>
+    <tr><td>Integrity</td><td>7</td><td>Payload Length</td><td>—</td><td>Constant</td><td>—</td><td>6 bytes total</td><td>PID(1) + Type(1) + Code(1) + Reason(2) + Reserved(1)</td></tr>
+  </tbody>
+</table>

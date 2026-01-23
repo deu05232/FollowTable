@@ -1,0 +1,7 @@
+<table>
+  <caption>Definition of Stored Data Fields for the Agricultural Inputs Product Electronic Code in RFID Tags</caption>
+  <tr><td>Element string name</td><td>Application identifier</td><td>Format of the application identifier data field</td><td>Optional/Mandatory</td></tr>
+  <tr><td>Global Trade Item Number</td><td>01</td><td>N14</td><td>Mandatory</td></tr>
+  <tr><td>Serial number</td><td>21</td><td>X..20b</td><td>Mandatory</td></tr>
+  <tr><td colspan="4">N: numeric characters, N14: 14 numeric characters, fixed length. b X: any character in Table B.1; X..20: up to 20 arbitrary characters in GB/T 1988, variable length.</td></tr>
+</table>

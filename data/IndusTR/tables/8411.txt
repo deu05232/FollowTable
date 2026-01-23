@@ -1,0 +1,14 @@
+<table>
+  <caption>Alarm and Fault Code Dictionary for Tire Line Equipment</caption>
+  <thead>
+    <tr><th>Alarm ID</th><th>Subsystem</th><th>Alarm Name</th><th>Severity</th><th>Trigger Condition (Signal)</th><th>Latch</th><th>Operator Message</th><th>Recommended Action</th><th>Reset Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A001</td><td>Weighing</td><td>Scale Overload</td><td>High</td><td>LoadCell_Value > MaxLimit</td><td>Yes</td><td>Scale overload detected</td><td>Remove material, check scale</td><td>LoadCell_Value <= MaxLimit and Reset_Cmd=1</td></tr>
+    <tr><td>A014</td><td>Conveyor</td><td>Belt Slip</td><td>Medium</td><td>Speed_Actual < 0.8 * Speed_Cmd for 3s</td><td>Yes</td><td>Conveyor belt slipping</td><td>Inspect belt tension and motor</td><td>Slip cleared and Reset_Cmd=1</td></tr>
+    <tr><td>A032</td><td>Cutter</td><td>Motor Overcurrent</td><td>High</td><td>Motor_Current > OverCurrentLimit</td><td>Yes</td><td>Cutter motor overcurrent</td><td>Check blade jam and wiring</td><td>Current normal and Reset_Cmd=1</td></tr>
+    <tr><td>A041</td><td>Safety</td><td>Guard Door Open</td><td>High</td><td>GuardDoor_Closed=0</td><td>No</td><td>Safety door is open</td><td>Close guard door</td><td>GuardDoor_Closed=1</td></tr>
+    <tr><td>A058</td><td>Pneumatics</td><td>Air Pressure Low</td><td>Medium</td><td>Air_Pressure < LowLimit</td><td>Yes</td><td>Plant air pressure low</td><td>Check compressor and valves</td><td>Air_Pressure >= LowLimit and Reset_Cmd=1</td></tr>
+    <tr><td>A077</td><td>MES Interface</td><td>Recipe Download Timeout</td><td>Low</td><td>MES_Download_Req=1 and Download_Done=0 for 10s</td><td>No</td><td>MES download timeout</td><td>Check network and retry</td><td>Download_Done=1 or Req cleared</td></tr>
+  </tbody>
+</table>

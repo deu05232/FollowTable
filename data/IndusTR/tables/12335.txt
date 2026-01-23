@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Session Handle (No Creation Inputs) — Basic Session Parameter Only</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Opaque pointer to an AR session instance used by subsequent API calls.</td></tr>
+    <tr><td colspan="4">Notes: This signature assumes the session has already been created elsewhere and provides no runtime/environment/context information.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Same session handle reused across frames; no initialization arguments are present.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Represents the current active session; not sufficient to construct a new one.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Handle-only parameter; does not indicate ownership or allocation behavior.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Used to access tracking state; creation details are intentionally omitted.</td></tr>
+  </tbody>
+</table>

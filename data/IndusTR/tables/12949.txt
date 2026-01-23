@@ -1,0 +1,16 @@
+<table>
+  <caption>Casting Structure Design Checklist: Proper vs Improper Geometry by Feature (Hot Spots, Ribs, Junctions, Bosses)</caption>
+  <thead>
+    <tr><th>Feature / Situation</th><th>Proper Design (Do)</th><th>Improper Design (Avoid)</th><th>Defect Risk</th><th>Intended Fix / Rationale</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wall thickness transition</td><td>Use gradual tapers and blended transitions between thick and thin sections</td><td>Sudden section jumps (step changes) between thick and thin walls</td><td>Hot spots → shrinkage cavity / sink; thermal stress cracking</td><td>Reduce feeding difficulty and stress by smoothing the thermal gradient</td></tr>
+    <tr><td>Internal corner at L-junction</td><td>Add generous fillet radii on both inside and outside corners</td><td>Sharp inside corners or knife-edge corners</td><td>Cracks; poor metal flow; local shrinkage</td><td>Fillets lower stress concentration and improve solidification pattern</td></tr>
+    <tr><td>T-junction / cross intersection of walls</td><td>Core-out or pocket the intersection; keep intersection diameter limited; blend transitions</td><td>Fully solid, bulky intersection with large central mass</td><td>Shrinkage cavity at junction; porosity cluster</td><td>Remove excess mass to avoid a hot spot and improve feeding</td></tr>
+    <tr><td>Rib thickness vs wall thickness</td><td>Keep rib thickness modest relative to nominal wall; use multiple thin ribs if needed</td><td>Ribs as thick as (or thicker than) the base wall</td><td>Shrinkage/sinks along rib root; warpage</td><td>Thin ribs stiffen without creating hot spots at the rib root</td></tr>
+    <tr><td>Rib termination and blending</td><td>Feather/relieve rib ends; blend rib-to-wall with fillets</td><td>Rib ends terminate abruptly into the wall with sharp roots</td><td>Cracking at rib end; stress raiser; localized shrinkage</td><td>Smooth load transfer and reduce thermal/stress concentration</td></tr>
+    <tr><td>Boss design on a thin wall</td><td>Use cored boss or hollow boss; connect with gussets/ribs rather than thick pads</td><td>Solid boss sitting on a thick pad on a thin wall</td><td>Sink marks; shrinkage cavity under boss; distortion</td><td>Hollowing and gusseting reduces mass and improves solidification balance</td></tr>
+    <tr><td>Adjacent bosses / hole group</td><td>Merge small adjacent bosses into a common pad or same plane when feasible</td><td>Multiple isolated small bosses at different heights close together</td><td>Uneven solidification; machining variability; hot spots</td><td>Combine features to simplify feeding and reduce local thick regions</td></tr>
+    <tr><td>Large flat area</td><td>Add shallow stiffening ribs or gentle crowning; maintain uniform thickness</td><td>Large flat thin plate with no stiffening; thickness varies across the panel</td><td>Warping; distortion; vibration issues</td><td>Stiffeners control deformation and keep cooling more uniform</td></tr>
+  </tbody>
+</table>

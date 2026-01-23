@@ -1,0 +1,15 @@
+<table>
+  <caption>Point-Type Heat Fire Detectors — Rate-of-Rise Response Time Limits with Preconditioning and Airflow Constraints</caption>
+  <thead>
+    <tr><th rowspan="2">Detector class</th><th colspan="2">Rise rate: 3 °C/min</th><th colspan="2">Rise rate: 20 °C/min</th><th rowspan="2">Initial temperature (°C)</th><th rowspan="2">Airflow temperature (°C)</th><th rowspan="2">Exposure duration (min)</th></tr>
+    <tr><th>Lower limit (s)</th><th>Upper limit (s)</th><th>Lower limit (s)</th><th>Upper limit (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A1</td><td>80</td><td>820</td><td>10</td><td>140</td><td>5 ± 2</td><td>50 ± 2</td><td>30</td></tr>
+    <tr><td>A2</td><td>90</td><td>900</td><td>12</td><td>160</td><td>5 ± 2</td><td>50 ± 2</td><td>30</td></tr>
+    <tr><td>B</td><td>120</td><td>1020</td><td>15</td><td>180</td><td>20 ± 2</td><td>65 ± 2</td><td>30</td></tr>
+    <tr><td>C</td><td>150</td><td>1200</td><td>18</td><td>210</td><td>20 ± 2</td><td>65 ± 2</td><td>30</td></tr>
+    <tr><td>D</td><td>180</td><td>1320</td><td>20</td><td>240</td><td>20 ± 2</td><td>80 ± 2</td><td>30</td></tr>
+    <tr><td>E</td><td>210</td><td>1500</td><td>25</td><td>270</td><td>20 ± 2</td><td>80 ± 2</td><td>30</td></tr>
+  </tbody>
+</table>

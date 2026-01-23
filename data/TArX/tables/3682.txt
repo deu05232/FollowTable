@@ -1,0 +1,13 @@
+<table>
+  <caption>Explored parameter space for the fitting based on simulated thermal annealing (for details see Sect. LABEL:fitting )</caption>
+  <tr><th></th><th colspan="2">Approach 1</th><th colspan="2">Approach 2</th><th colspan="2">Approach 3</th><th colspan="2">Approach 4</th><th></th></tr>
+  <tr><th>Parameter</th><th>Range</th><th># values</th><th>Range</th><th># values</th><th>Range</th><th># values</th><th>Range</th><th># values</th><th>distribution</th></tr>
+  <tr><th>R_() [AU]</th><td>3 – 100</td><th>817</th><td>3 – 100</td><th>817</th><td>3 – 100</td><th>817</th><td>3 – 100</td><th>817</th><td>temp</td></tr>
+  <tr><th>R_() [AU]</th><td>5 – 300</td><th>671</th><td>5 – 300</td><th>671</th><td>5 – 300</td><th>671</th><td>5 – 300</td><th>671</th><td>temp</td></tr>
+  <tr><th>α</th><td>-2.0 – 3.5</td><th>56</th><td>fixed</td><th>1</th><td>fixed</td><th>1</th><td>fixed</td><th>1</th><td>linear</td></tr>
+  <tr><th>a_() [ ]</th><td>0.2 – 20.0</td><th>448</th><td>0.2 – 20.0</td><th>448</th><td>0.2 – 20.0</td><th>448</th><td>0.2 – 20.0</td><th>448</th><td>logarithmic</td></tr>
+  <tr><th>a_() [ ]</th><td>fixed</td><th>1</th><td>fixed</td><th>1</th><td>fixed</td><th>1</th><td>1.0 – 1000.0</td><th>674</th><td>logarithmic</td></tr>
+  <tr><th>γ</th><td>2.0 – 5.0</td><th>31</th><td>2.0 – 10.0</td><th>81</th><td>fixed</td><th>1</th><td>fixed</td><th>1</th><td>linear</td></tr>
+  <tr><th>M_() [ M_() ]</th><td>free</td><th>…</th><td>free</td><th>…</th><td>free</td><th>…</th><td>free</td><th>…</th><td>continuous</td></tr>
+  <tr><th>Composition</th><td>0%, 50% ice</td><th>2</th><td>0%, 50% ice</td><th>2</th><td>0%, 50% ice</td><th>2</th><td>0%, 50% ice</td><th>2</th><td>…</td></tr>
+</table>

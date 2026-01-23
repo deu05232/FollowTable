@@ -1,0 +1,15 @@
+<table>
+  <caption>Shrinkage-Cavity Risk at Wall Intersections and Local Thick Sections (Geometry-Based Rules)</caption>
+  <thead>
+    <tr><th>Geometry feature</th><th>Recommended design (shrinkage-focused)</th><th>High-risk design (hot spot / shrinkage cavity)</th><th>Why it helps (solidification shrinkage mechanism)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>T-junction (two walls meet)</td><td>Use a gradual transition fillet; keep the maximum inscribed circle at the junction ≤ 1.5×S (wall thickness)</td><td>Sharp junction with a large local mass; inscribed circle > 1.5×S</td><td>Limits local thermal modulus so the junction does not freeze last and form a shrinkage cavity</td></tr>
+    <tr><td>Cross-junction (4-way intersection)</td><td>Split into two staged intersections with a necked transition; avoid a single large central node</td><td>Single bulky node where four walls merge</td><td>Reduces the central hot spot that solidifies last and feeds poorly</td></tr>
+    <tr><td>Boss on a wall (mounting pad)</td><td>Hollow/relieve the boss (cored or drilled later); blend with large fillet and keep boss base thickness close to wall thickness</td><td>Solid boss with a thick base on a thin wall</td><td>Prevents a thick section attached to a thin wall that creates a hot spot and shrinkage void at the boss root</td></tr>
+    <tr><td>Wall step change</td><td>Use tapered thickness change over a transition length ≥ 3×S; add radii at both sides</td><td>Abrupt step from thin to thick</td><td>Abrupt thickening creates a last-to-freeze region and shrinkage cavity at the step</td></tr>
+    <tr><td>Thick pad / local reinforcement area</td><td>Replace with ribs or a pocketed pad; keep local section increase ≤ 20% over surrounding wall</td><td>Large solid pad with >20–30% thickness increase</td><td>Controls local solidification time; avoids isolated feeding demand and internal voids</td></tr>
+    <tr><td>Inside corner of an L-shape</td><td>Use generous internal fillet radius (e.g., R ≥ 0.5×S) and avoid thick corner buildup</td><td>Small radius inside corner that accumulates metal</td><td>Corner accumulation becomes a hot spot and promotes shrinkage porosity</td></tr>
+    <tr><td>Multiple features meeting (boss + rib + wall)</td><td>Stagger feature roots; thin each root and blend separately</td><td>All roots meet at one point, creating a node</td><td>Node becomes the last-to-freeze hot spot; shrinkage cavity risk increases sharply</td></tr>
+  </tbody>
+</table>

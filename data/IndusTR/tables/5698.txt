@@ -1,0 +1,15 @@
+<table>
+  <caption>Construction and Wiring Requirements for Low-Voltage Shore Power Box</caption>
+  <thead>
+    <tr><th>Subsystem / component</th><th>Requirement</th><th>Limit / minimum</th><th>Reference remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Main terminals</td><td>Stud size versus rated current</td><td>Up to 200 A: M6</td><td>Mechanical interface</td></tr>
+    <tr><td>Stud size versus rated current</td><td>200–630 A: M8; 630–1000 A: M10</td><td>Mechanical interface</td></tr>
+    <tr><td rowspan="2">Conductors</td><td>Phase conductor cross-section S (Cu)</td><td>S ≤ 16 mm²</td><td>Selection rule</td></tr>
+    <tr><td>Protective earthing conductor Q (Cu)</td><td>If S ≤ 16 mm²: 1.5 mm² ≤ Q = S; if 16<S≤35: Q=16 mm²; if S>35: Q=S/2</td><td>Safety bonding</td></tr>
+    <tr><td rowspan="2">Marking / identification</td><td>Phase sequence installation position</td><td>L1 top/front/left; L2 middle; L3 bottom/back/right</td><td>Example mapping</td></tr>
+    <tr><td>Conductor color</td><td>L1: Green; L2: Yellow; L3: Red; PE: Green/Yellow</td><td>Labeling requirement</td></tr>
+    <tr><td>Enclosure</td><td>Accessible metal parts bonding</td><td>Mandatory PE connection</td><td>Construction detail</td></tr>
+  </tbody>
+</table>

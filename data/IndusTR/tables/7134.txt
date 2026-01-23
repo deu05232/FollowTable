@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration with Hardware Identification (Out of Scope Mix)</caption>
+  <thead>
+    <tr><th>Group</th><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Calibration</td><td>Offset Calibration Sequence</td><td>(0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence describing the offset calibration data applied by the system.</td></tr>
+    <tr><td>Calibration > Item</td><td>Offset Calibration File</td><td>(0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Binary content of the offset calibration image.</td></tr>
+    <tr><td>Calibration</td><td>Gain Calibration Sequence</td><td>(0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence describing the gain calibration data applied by the system.</td></tr>
+    <tr><td>Hardware</td><td>Detector Type</td><td>(0018,7004)</td><td>CS</td><td>1</td><td>2</td><td>Type of detector used to acquire projection data.</td></tr>
+    <tr><td>Hardware</td><td>Scintillator Material</td><td>(0018,7006)</td><td>CS</td><td>1</td><td>2</td><td>Material type of the detector scintillator layer.</td></tr>
+    <tr><td>Hardware</td><td>X-ray Source ID</td><td>(0014,3203)</td><td>LO</td><td>1</td><td>3</td><td>Identifier of the X-ray source.</td></tr>
+    <tr><td>Hardware</td><td>X-ray Source Manufacturer</td><td>(300A,0216)</td><td>LO</td><td>1</td><td>3</td><td>Name of the X-ray source manufacturer.</td></tr>
+  </tbody>
+</table>

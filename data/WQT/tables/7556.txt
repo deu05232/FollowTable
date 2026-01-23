@@ -1,0 +1,11 @@
+# GUID Partition Table
+> Operating systems support
+
+| OS family | Version or edition | Platform | Read and write support | Boot support | Note |
+| --- | --- | --- | --- | --- | --- |
+| FreeBSD | Since 7.0 | IA-32 , x86-64 , ARM | Yes | Yes | In a hybrid configuration, both GPT and MBR partition identifiers may be used. |
+| Linux | Most of the x86 Linux distributions Fedora 8+ and Ubuntu 8.04+ [12] | IA-32 , x86-64 | Yes | Yes | New tools such as gdisk, [13] GNU Parted , [14] [15] util-linux v2.23+ fdisk , [16] [17] Syslinux , GRUB 0.96 + patches and GRUB 2 have been GPT-enabled. |
+| OS X | Since 10.4.0 (some features since 10.4.6) [18] | IA-32 , x86-64 , PowerPC | Yes | Yes | Only Intel Macintosh computers can boot from GPT. |
+| MidnightBSD | Since 0.4-CURRENT | IA-32 , x86-64 | Yes | Requires BIOS | In a hybrid configuration, both GPT and MBR partition identifiers may be used. |
+| Solaris | Since Solaris 10 | IA-32 , x86-64 , SPARC | Yes | Yes | [19] |
+| HP-UX | Since HP-UX 11.20 | IA-64 | Yes | Yes | [20] |

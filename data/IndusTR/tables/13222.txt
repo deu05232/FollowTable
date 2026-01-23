@@ -1,0 +1,14 @@
+<table>
+  <caption>Logistics M2M Business Console Test Matrix (Platform Administration Emphasis)</caption>
+  <thead>
+    <tr><th>Feature Area</th><th>Test Case ID</th><th>Test Item</th><th>Test Sub-item</th><th>Test Steps (Summary)</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Console Account Management</td><td>6.1.2.7-A</td><td>Logistics M2M Application Platform Management</td><td>Console User Provisioning</td><td>Create user, assign role, reset password</td><td>User can sign in and sees menus per role</td></tr>
+    <tr><td>6.1.2.7-B</td><td>Logistics M2M Application Platform Management</td><td>Console SSO Configuration</td><td>Configure IdP, enable SSO, test login</td><td>SSO login succeeds; local login disabled when configured</td></tr>
+    <tr><td rowspan="2">Business Configuration</td><td>6.1.2.8-A</td><td>Logistics M2M Application Platform Management</td><td>Pricing/Plan Configuration</td><td>Update plan, publish changes</td><td>New plan visible and applied to billing preview</td></tr>
+    <tr><td>6.1.2.8-B</td><td>Logistics M2M Application Platform Management</td><td>Notification Template Maintenance</td><td>Edit templates, send test message</td><td>Templates saved; test notification delivered</td></tr>
+    <tr><td rowspan="2">Integration Monitoring</td><td>6.1.2.9-A</td><td>Logistics M2M Application Platform Management</td><td>Partner API Key Rotation</td><td>Rotate keys, revoke old key</td><td>Old key rejected; new key accepted; rotation logged</td></tr>
+    <tr><td>6.1.2.9-B</td><td>Logistics M2M Application Platform Management</td><td>Integration Health Dashboard</td><td>Open dashboard, check status, drill into errors</td><td>Health indicators match generated faults and show remediation tips</td></tr>
+  </tbody>
+</table>

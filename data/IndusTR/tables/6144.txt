@@ -1,0 +1,14 @@
+<table>
+  <caption>APDU Command Header Constants (CLA/INS/P1/P2) for Terminal Messaging</caption>
+  <thead>
+    <tr><th>Operation</th><th>CLA (HEX)</th><th>INS (HEX)</th><th>P1 (HEX)</th><th>P2 (HEX)</th><th>Le</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SELECT Application</td><td>00</td><td>A4</td><td>04</td><td>00</td><td>00</td><td>Select by AID</td></tr>
+    <tr><td>GET CHALLENGE</td><td>00</td><td>84</td><td>00</td><td>00</td><td>08</td><td>Request 8-byte random</td></tr>
+    <tr><td>EXTERNAL AUTHENTICATE</td><td>00</td><td>82</td><td>00</td><td>00</td><td>00</td><td>Send cryptogram in data field</td></tr>
+    <tr><td>TERMINAL SEND FRAME</td><td>80</td><td>F2</td><td>00</td><td>00</td><td>00</td><td>Intermediate frame supported</td></tr>
+    <tr><td>TERMINAL SEND END</td><td>80</td><td>F2</td><td>00</td><td>01</td><td>00</td><td>End frame mode</td></tr>
+    <tr><td>TERMINAL GET STATUS</td><td>80</td><td>F3</td><td>00</td><td>00</td><td>02</td><td>Returns status bytes in response data</td></tr>
+  </tbody>
+</table>

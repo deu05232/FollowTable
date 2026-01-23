@@ -1,0 +1,17 @@
+<table>
+  <caption>VR System Configuration Parameter Retrieval APIs</caption>
+  <tr><td>Interface Description</td><td>Interface Name</td></tr>
+  <tr><td>Get configuration instance</td><td>bool vrConfigGetConfig(vrConfig *config)</td></tr>
+  <tr><td>Get the system power consumption mode</td><td>bool vrConfigGetSystemCostMode(const vrConfig *config，vrSystemCostMode *mode)</td></tr>
+  <tr><td>Get the system sleep mode</td><td>bool vrConfigGetSystemDormancyMode(const vrConfig *config，vrSystemDormancy-Mode *mode)</td></tr>
+  <tr><td>Get the system shutdown mode</td><td>bool vrConfigGetSystemShutDownMode(const vrConfig *config，vrSystemShutDown-Mode *mode)</td></tr>
+  <tr><td>Get the HMD positioning working mode</td><td>bool vrConfigGetHMDPositioningMode(const vrConfig *config，vrHMDPositioning-Mode *mode)</td></tr>
+  <tr><td>Get the HMD relocalization working mode</td><td>bool vrConfigGetHMDRelocalizationMode(const vrConfig *config，vrHMDRelocaliza-tionMode *mode)</td></tr>
+  <tr><td>Get the controller positioning working mode</td><td>bool vrConfigGetControllerPositioningMode(const vrConfig *config，vrControllerPosi-tioningMode *mode)</td></tr>
+  <tr><td>Get the controller interaction mode</td><td>bool vrConfigGetControllerInteractiveMode(const vrConfig *config，vrControllerInterac-tiveMode *mode)</td></tr>
+  <tr><td>Get the HMD positioning working status</td><td>bool vrConfigGetHMDPositionSystemWorkingStatus(const vrConfig *config，vrHMD-PositionSystemWorkingStatus *status ）</td></tr>
+  <tr><td>Get the HMD cloud sync status</td><td>bool vrConfigGetHMDCloudSyncStatus(const vrConfig *config，vrHMDCloudSyncSta-tus *status)</td></tr>
+  <tr><td>Get the controller positioning working status</td><td>bool vrConfigGetControllerPositionSystem WorkingStatus(const vrConfig *config，vrCon-trollerPositionSystemWorkingStatus *status)</td></tr>
+  <tr><td>Get the device basic information</td><td>bool vrConfigGetSystemInfo(const vrConfig *config，vrSystemInfo *system_info)</td></tr>
+  <tr><td>Get the dormancy countdown setting</td><td>bool vrConfigGetDormancyTime(const vrConfig *config，int32_t *system_info)</td></tr>
+</table>

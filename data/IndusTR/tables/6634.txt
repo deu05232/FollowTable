@@ -1,0 +1,10 @@
+<table>
+  <caption>SSR Ionospheric SH Message Header plus Coefficient Snippet (mixed content)</caption>
+  <tr><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>Message type number</td><td>DF002</td><td>uint12</td><td>12</td></tr>
+  <tr><td>GPS epoch time</td><td>DF385</td><td>uint20</td><td>20</td></tr>
+  <tr><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td></tr>
+  <tr><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>uint8</td><td>8</td></tr>
+  <tr><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>uint8</td><td>8</td></tr>
+  <tr><td>Total</td><td>-</td><td>-</td><td>52</td></tr>
+</table>

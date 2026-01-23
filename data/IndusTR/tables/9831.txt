@@ -1,0 +1,15 @@
+<table>
+  <caption>Post-Process Tire Inspection and Grading Summary (Not Real-Time Control)</caption>
+  <thead>
+    <tr><th>No.</th><th>Inspection Station</th><th>Measured Attribute (Input)</th><th>Method / Sensor</th><th>Result / Grade (Output)</th><th>Acceptance Rule</th><th>Downstream Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>X-ray Foreign Object Check</td><td>Foreign object size, location</td><td>X-ray imaging + CV model</td><td>Grade A/B/C</td><td>A: none; B: <2 mm; C: ≥2 mm</td><td>Sort to rework / scrap bin</td></tr>
+    <tr><td>2</td><td>Uniformity Test</td><td>Radial force variation (RFV)</td><td>Uniformity machine load cells</td><td>RFV class 1–5</td><td>Class 1: RFV ≤ 60 N; Class 5: RFV > 140 N</td><td>Assign market channel</td></tr>
+    <tr><td>3</td><td>Dynamic Balance</td><td>Imbalance (g·cm)</td><td>Spindle accelerometer</td><td>Pass/Fail</td><td>Pass: ≤ 35 g·cm</td><td>Add balance mark / reject</td></tr>
+    <tr><td>4</td><td>Visual Sidewall Check</td><td>Sidewall scuff, bubbles</td><td>Operator + vision camera</td><td>Defect code</td><td>Bubble > 3 mm = reject</td><td>Hold for review</td></tr>
+    <tr><td>5</td><td>Bead Area Measurement</td><td>Bead diameter, concentricity</td><td>Laser gauge</td><td>Pass/Fail</td><td>Diameter tolerance ±0.5 mm</td><td>Release / quarantine</td></tr>
+    <tr><td>6</td><td>Final Audit Sampling</td><td>Overall appearance score</td><td>Checklist scoring</td><td>Audit score</td><td>Score ≥ 90 required</td><td>Lot disposition decision</td></tr>
+    <tr><td>7</td><td>Label Verification</td><td>Barcode / DOT text</td><td>Scanner + OCR</td><td>Matched/Mismatched</td><td>100% match required</td><td>Re-label / block shipment</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Tire Building Quality Gate Logic (Green Tire Inspection Outcomes)</caption>
+  <thead>
+    <tr><th>No.</th><th>Building Step</th><th>Inspection Signal Inputs</th><th>Decision / Rule</th><th>Output (Quality Only)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Innerliner Splice Check</td><td>Overlap width (mm), splice image, operator ID</td><td>If overlap width < 2.0 mm OR splice gap > 0.5 mm then reject</td><td>PASS / FAIL</td><td>Records defect code IL-SPL-01</td></tr>
+    <tr><td>2</td><td>Bead Seating Verification</td><td>Bead seat camera score, bead angle (deg)</td><td>If camera score < 0.80 OR bead angle out of range then rework</td><td>REWORK / ACCEPT</td><td>Stores bead seating snapshot</td></tr>
+    <tr><td>3</td><td>Ply Alignment Audit</td><td>Laser edge position (mm), ply center offset (mm)</td><td>Compute offset; compare to tolerance band</td><td>Alignment grade (A/B/C)</td><td>Grade used for traceability</td></tr>
+    <tr><td>4</td><td>Belt Placement Review</td><td>Belt edge distance (mm), belt symmetry index</td><td>If symmetry index > limit then downgrade</td><td>Quality class (OK / Watch / Scrap)</td><td>No control action issued</td></tr>
+    <tr><td>5</td><td>Sidewall Component Presence</td><td>RFID presence flag, vision presence score</td><td>Flag missing component when RFID absent AND score < 0.6</td><td>Missing-component alarm event</td><td>Alarm is informational only</td></tr>
+    <tr><td>6</td><td>Green Tire Weight Check</td><td>Scale weight (kg), recipe nominal (kg)</td><td>Compute deviation = actual - nominal</td><td>Deviation report (+/-)</td><td>Logged to MES as measurement</td></tr>
+    <tr><td>7</td><td>Final Green Tire Decision</td><td>All prior gate results, defect list</td><td>Reject if any critical defect; else accept</td><td>FINAL DISPOSITION (ACCEPT / REJECT)</td><td>Stops at grading only</td></tr>
+  </tbody>
+</table>

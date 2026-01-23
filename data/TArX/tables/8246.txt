@@ -1,0 +1,16 @@
+<table>
+  <caption>Earth–Moon System: Transit/Timing Metrics with Selected Physical Parameters</caption>
+  <thead>
+    <tr><th rowspan="2">Scenario</th><th colspan="2">Basic Physical</th><th colspan="5">Transit / Orbital Timing Metrics</th></tr>
+    <tr><th>Radius (km)</th><th>Geometric albedo (V)</th><th>Relative velocity (km/s)</th><th>Transit duration (hours)</th><th>TTV amplitude (s)</th><th>Orbital period (days)</th><th>Eccentricity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Earth (reference)</td><td>6371</td><td>0.30</td><td>29.78</td><td>13.1</td><td>0</td><td>365.256</td><td>0.0167</td></tr>
+    <tr><td>Moon (reference)</td><td>1737.4</td><td>0.12</td><td>1.02</td><td>—</td><td>—</td><td>27.322</td><td>0.0549</td></tr>
+    <tr><td>Earth+Moon, edge-on</td><td>6371 / 1737</td><td>0.30 / 0.12</td><td>29.8</td><td>13.2</td><td>910</td><td>365.256</td><td>0.0167</td></tr>
+    <tr><td>Earth+Moon, inclined</td><td>6371 / 1737</td><td>0.30 / 0.12</td><td>29.8</td><td>12.6</td><td>650</td><td>365.256</td><td>0.0167</td></tr>
+    <tr><td>High-e Moon orbit</td><td>1737.4</td><td>0.12</td><td>1.05</td><td>—</td><td>1400</td><td>27.322</td><td>0.10</td></tr>
+    <tr><td>Low-e Moon orbit</td><td>1737.4</td><td>0.12</td><td>0.99</td><td>—</td><td>500</td><td>27.322</td><td>0.01</td></tr>
+    <tr><td>Fast-transit geometry</td><td>6371</td><td>0.30</td><td>35.0</td><td>10.8</td><td>300</td><td>365.256</td><td>0.0167</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Single-Pass HASH Operation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Hash(void * hAppHandle,unsigned int uiAlgoType,unsigned char *pucInData,unsigned int uiInDataLen,unsigned char * pucPublicKey,unsigned int uiPublicKeyLen,unsigned char * pucID,unsigned int uiIDLen,unsigned char * pucOutData,unsigned int * puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>HASH operation; perform HASH operation on data of a given length</td></tr>
+  <tr><td rowspan="9">Parameters</td><td>hAppHandle[in](application handle)uiAlgoType[in](HASH algorithm)</td></tr>
+  <tr><td>pucInData[in](input data)</td></tr>
+  <tr><td>uiInDataLen[in](input data length)</td></tr>
+  <tr><td>pucPublicKey[in](signer public key. Valid when uiAlgoType is SGD_SM3)</td></tr>
+  <tr><td>uiPublicKeyLen[in](signer public key length)</td></tr>
+  <tr><td>pucID[in](signer ID value, valid when uiAlgoType is SGD_SM3)</td></tr>
+  <tr><td>uiIDLen[in](signer ID length, valid when uiAlgoType is SGD_SM3)</td></tr>
+  <tr><td>pucOutData[out](HASH)</td></tr>
+  <tr><td>puiOutDataLen[out](HASH length)</td></tr>
+</table>

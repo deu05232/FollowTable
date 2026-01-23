@@ -1,0 +1,15 @@
+<table>
+  <caption>Forging Design Review Checklist (Qualitative Compliance Table)</caption>
+  <thead>
+    <tr><th>Checklist Item</th><th>What to Look For</th><th>Pass/Fail Criterion</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Avoid re-entrant geometry</td><td>Undercuts, hooks, trapped features</td><td>Fail if any undercut requires side action</td><td>Prefer open shapes that allow straight die separation.</td></tr>
+    <tr><td>Prefer simple parting line</td><td>Split line follows maximum outline</td><td>Pass if split line is continuous and stable</td><td>Complex split lines increase mismatch risk.</td></tr>
+    <tr><td>Provide smooth transitions</td><td>Blends between bosses, ribs, walls</td><td>Fail if abrupt steps are present</td><td>Use generous blends to improve flow.</td></tr>
+    <tr><td>Minimize deep pockets</td><td>Blind cavities and narrow recesses</td><td>Fail if cavity is difficult to vent/fill</td><td>Shallow features forge more reliably.</td></tr>
+    <tr><td>Control section changes</td><td>Large variation of mass distribution</td><td>Fail if heavy-to-light change is sudden</td><td>Balance flow to avoid folds and underfill.</td></tr>
+    <tr><td>Ensure ejection feasibility</td><td>Vertical walls and snag points</td><td>Pass if part releases without scraping</td><td>Geometry should not lock into the die.</td></tr>
+    <tr><td>Maintain symmetry when possible</td><td>Axial or planar symmetry</td><td>Pass if forging loads are balanced</td><td>Improves stability and reduces die shift.</td></tr>
+  </tbody>
+</table>

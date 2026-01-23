@@ -1,0 +1,9 @@
+<table>
+  <caption>Classification matrix for objects of R = 23 in setups A and C as derived from Monte-Carlo simulations. An input vector containing a true number distribution of objects among the three object classes would be mapped by this matrix onto a classified distribution among four classes. Numbers below 0.005 are left blank.</caption>
+  <tr><th>R=23</th><th colspan="3">true class, setup A</th><th colspan="3">true class, setup C</th></tr>
+  <tr><th>classified as</th><th>star</th><th>galaxy</th><th>quasar</th><th>star</th><th>galaxy</th><th>quasar</th></tr>
+  <tr><th>star</th><td>0.98</td><td></td><td></td><td>0.96</td><td></td><td>0.03</td></tr>
+  <tr><th>galaxy</th><td>0.01</td><td>0.95</td><td>0.01</td><td>0.01</td><td>0.92</td><td>0.01</td></tr>
+  <tr><th>quasar</th><td></td><td>0.01</td><td>0.94</td><td></td><td></td><td>0.84</td></tr>
+  <tr><th>unclassified</th><td>0.01</td><td>0.04</td><td>0.05</td><td>0.03</td><td>0.08</td><td>0.12</td></tr>
+</table>

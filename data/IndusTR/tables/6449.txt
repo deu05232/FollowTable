@@ -1,0 +1,14 @@
+<table>
+  <caption>Hydrostatic Stress–Time Regression Lookup for PE Pipe (Reference Mapping Only)</caption>
+  <thead>
+    <tr><th>Material Grade</th><th>Test Temperature (°C)</th><th>Hoop Stress (MPa)</th><th>Minimum Time to Failure (h)</th><th>Regression Form</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PE80</td><td>80</td><td>5.40</td><td>≥165</td><td>log t = A - B·log σ</td><td>Lookup point only</td></tr>
+    <tr><td>PE80</td><td>80</td><td>5.30</td><td>≥256</td><td>log t = A - B·log σ</td><td>Lookup point only</td></tr>
+    <tr><td>PE80</td><td>80</td><td>5.20</td><td>≥399</td><td>log t = A - B·log σ</td><td>Lookup point only</td></tr>
+    <tr><td>PE100</td><td>80</td><td>6.00</td><td>≥165</td><td>log t = A - B·log σ</td><td>Extrapolation not permitted</td></tr>
+    <tr><td>PE100</td><td>80</td><td>5.80</td><td>≥256</td><td>log t = A - B·log σ</td><td>Lookup point only</td></tr>
+    <tr><td>PE100</td><td>80</td><td>5.60</td><td>≥399</td><td>log t = A - B·log σ</td><td>Lookup point only</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Expected power consumption of irradiated DSSDs</caption>
+  <tr><th>Fluence</th><th colspan="2">V _(op) (V)</th><th>Leakage Current</th><th colspan="2">R _(int) @ V _(op) (G Ω )</th><th>Power Consumption</th></tr>
+  <tr><td>n _(eq) cm ^((-2))</td><td></td><td></td><td>@ -10 ^((0)) C(nA)</td><td></td><td></td><td>V _(op) × I _(leak) ( μ W mm ^((-1)) )</td></tr>
+  <tr><td></td><td>Measured</td><td>Simulated</td><td></td><td>Measured</td><td>Simulated</td><td></td></tr>
+  <tr><td>3.03 × 10 ^((12))</td><td>60 ± 5</td><td>55</td><td>346</td><td>0.2 ± 0.05</td><td>1</td><td>8.10 × 10 ^((-2))</td></tr>
+  <tr><td>3.93 × 10 ^((12))</td><td>64 ± 5</td><td>62</td><td>448</td><td>0.1 ± 0.05</td><td>1.5</td><td>11.20 × 10 ^((-2))</td></tr>
+  <tr><td>11.20 × 10 ^((12))</td><td>8 ± 2</td><td>20</td><td>1250</td><td>0.1 ± 0.05</td><td>0.6</td><td>3.90 × 10 ^((-2))</td></tr>
+  <tr><td>20.60 × 10 ^((12))</td><td>120 ± 10</td><td>105</td><td>2420</td><td>0.1 ± 0.05</td><td>0.2</td><td>113.44 × 10 ^((-2))</td></tr>
+</table>

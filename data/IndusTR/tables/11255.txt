@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Depth Image Acquisition (Current Frame)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession*</td><td>Active AR session handle used to validate feature availability for depth.</td></tr>
+    <tr><td>frame</td><td>ArFrame*</td><td>Current camera frame from which the depth image is requested.</td></tr>
+    <tr><td>depth_type</td><td>ArDepthType</td><td>Selects which depth to retrieve (e.g., AUTOMATIC, RAW_DEPTH, SMOOTHED_DEPTH).</td></tr>
+    <tr><td>timestamp_ns</td><td>int64_t*</td><td>Optional output; receives the depth image timestamp in nanoseconds for frame pairing.</td></tr>
+    <tr><td>out_depth_image</td><td>ArImage**</td><td>Output pointer that receives the address of the depth ArImage for this frame.</td></tr>
+    <tr><td>out_depth_confidence</td><td>ArImage**</td><td>Optional output; receives a confidence image aligned to the returned depth image.</td></tr>
+    <tr><td>out_status</td><td>ArStatus*</td><td>Optional output; receives status indicating success or why depth is unavailable for this frame.</td></tr>
+  </tbody>
+</table>

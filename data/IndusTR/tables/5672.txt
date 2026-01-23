@@ -1,0 +1,14 @@
+<table>
+  <caption>Query-Parameter Formatting Rules for Resolving Agricultural Input Product Electronic Codes</caption>
+  <thead>
+    <tr><th>Identifier family</th><th>Resolver URL template</th><th>Required query parameters</th><th>Optional query parameters</th><th>Encoding / escaping rule</th><th>Example request</th><th>Example response location</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AI-based (GTIN + Serial)</td><td>https://resolve.example/ai</td><td>01=N14</td><td>21=X..20; 10=X..20b</td><td>URL-encode non-alphanumerics in 21/10</td><td>https://resolve.example/ai?01=01234567890128&21=SN%2F001</td><td>HTTP 302 Location: /item/01234567890128</td></tr>
+    <tr><td>SSCC-style</td><td>https://resolve.example/sscc</td><td>00=N18</td><td>02=N14; 37=N..</td><td>Numeric only; left-pad with zeros if shorter</td><td>https://resolve.example/sscc?00=123456789012345678</td><td>HTTP 200 JSON: {"ok":true}</td></tr>
+    <tr><td>EPC URN in one field</td><td>https://resolve.example/epc</td><td>epc=urn:epc:id:*</td><td>format=json|xml</td><td>Colon ':' must be percent-encoded when used in path</td><td>https://resolve.example/epc?epc=urn:epc:id:sgtin:0614141.112345.400</td><td>HTTP 301 Location: /epc/...</td></tr>
+    <tr><td>Digital Link style</td><td>https://id.example/01/{gtin}</td><td>Path includes N14</td><td>21=serial; 240=attr</td><td>Path segment must be canonical (14 digits)</td><td>https://id.example/01/01234567890128?21=SN9&240=7</td><td>HTTP 303 Location: /product/...</td></tr>
+    <tr><td>Partitioned lookup</td><td>https://resolve.example/partition</td><td>companyPrefix=C</td><td>itemRef=I; serial=S</td><td>Base10 fields; separated by '.'</td><td>https://resolve.example/partition?companyPrefix=0614141&itemRef=112345&serial=400</td><td>HTTP 200 HTML page</td></tr>
+    <tr><td>Bulk query</td><td>https://resolve.example/bulk</td><td>ids[]=...</td><td>limit=N..; cursor=token</td><td>Repeat ids[] for each identifier</td><td>https://resolve.example/bulk?ids[]=01:01234567890128&ids[]=00:123456789012345678</td><td>HTTP 206 Partial Content</td></tr>
+  </tbody>
+</table>

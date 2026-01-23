@@ -1,0 +1,16 @@
+<table>
+  <caption>Operational Time Aggregation and Processing Category Codes for Satellite Products</caption>
+  <thead>
+    <tr><th>Category</th><th>Code</th><th>Definition</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Orbit-based granule</td><td>ORBIT</td><td>Native swath/orbit segment</td><td>L1 swath distribution</td></tr>
+    <tr><td>Sub-hourly composite</td><td>SUBHR</td><td>Aggregation within < 60 minutes</td><td>Rapid-scan imagery packaging</td></tr>
+    <tr><td>Hourly</td><td>HOURLY</td><td>60-minute aggregation window</td><td>Cloud/precip composites</td></tr>
+    <tr><td>Daily</td><td>DAILY</td><td>Calendar-day aggregation</td><td>Daily maps/summary files</td></tr>
+    <tr><td>Pentad (5-day)</td><td>PENTAD</td><td>5-day mean/accumulation</td><td>Climate monitoring</td></tr>
+    <tr><td>Monthly</td><td>MONTHLY</td><td>Monthly mean/accumulation</td><td>Climate archives</td></tr>
+    <tr><td>Reprocessed</td><td>REPROC</td><td>Retrospective re-run of algorithm/version</td><td>Consistent long-term series</td></tr>
+    <tr><td>Near-real-time</td><td>NRT</td><td>Low-latency operational stream</td><td>Nowcasting support</td></tr>
+  </tbody>
+</table>

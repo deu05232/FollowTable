@@ -1,0 +1,14 @@
+<table>
+  <caption>Example Allocation Map for Construction-Machinery OID Subnodes (Recipient-Oriented View)</caption>
+  <thead>
+    <tr><th>Parent OID Node</th><th>Allocated Segment (Node or Range)</th><th>Recipient Category</th><th>Typical Recipient / Authority</th><th>Allocation Rule / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">1.2.156.3514</td><td>1001</td><td>Existing identification system</td><td>Handle-based resolver operators</td><td>Single node reserved for Handle system mapping</td></tr>
+    <tr><td>1002</td><td>Existing identification system</td><td>Ecode registry / ecosystem</td><td>Single node reserved for Ecode mapping</td></tr>
+    <tr><td>1003</td><td>Existing identification system</td><td>Unified Social Credit Code (USCC) authority / users</td><td>Single node reserved for USCC-based identifiers</td></tr>
+    <tr><td>1100–1299</td><td>Industry standards bodies</td><td>Industry association / standards committee</td><td>Range allocated per standard; subnodes assigned by the standards body</td></tr>
+    <tr><td>1300–1599</td><td>Government / regulators</td><td>Supervisory agencies (e.g., inspection, safety)</td><td>Range reserved for regulatory supervision and public-service identifiers</td></tr>
+    <tr><td>2001–10000</td><td>Third-party organizations</td><td>Testing labs, certification bodies, platform operators</td><td>Issued sequentially upon application; each org manages its own sub-branches</td></tr>
+  </tbody>
+</table>

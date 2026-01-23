@@ -1,0 +1,15 @@
+<table>
+  <caption>Logistics M2M Platform Operations – Access Fault Handling & Integration Maintenance Cases</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Module</th><th>Area</th><th>Sub-item</th><th>Test Objective</th><th>Severity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>6.3.2.1</td><td>Application Platform Management</td><td>Integration</td><td>Application Access Fault Management – Timeout</td><td>Verify platform detects upstream timeout and raises an access-fault event</td><td>High</td></tr>
+    <tr><td>6.3.2.2</td><td>Application Platform Management</td><td>Integration</td><td>Application Access Fault Management – Retry Policy</td><td>Verify retry/backoff policy is applied and stops after threshold</td><td>High</td></tr>
+    <tr><td>6.3.2.3</td><td>Application Platform Management</td><td>Integration</td><td>Callback Endpoint Health Check</td><td>Verify health check marks endpoint unhealthy and suppresses callbacks</td><td>Medium</td></tr>
+    <tr><td>6.3.2.4</td><td>Application Platform Management</td><td>Ops</td><td>Fault Ticket Creation for Access Failures</td><td>Verify automatic fault ticket is created with correct context fields</td><td>Medium</td></tr>
+    <tr><td>6.3.2.5</td><td>Application Platform Management</td><td>Ops</td><td>Fault Ticket Escalation Rules</td><td>Verify escalation occurs when SLA threshold is exceeded</td><td>Medium</td></tr>
+    <tr><td>6.3.2.6</td><td>Application Platform Management</td><td>Ops</td><td>Integration Config Maintenance – Update Credentials</td><td>Verify updating integration credentials takes effect without service restart</td><td>High</td></tr>
+    <tr><td>6.3.2.7</td><td>Application Platform Management</td><td>Ops</td><td>Access Fault Dashboard Filtering</td><td>Verify filtering by partner/system displays correct fault counts and details</td><td>Low</td></tr>
+  </tbody>
+</table>

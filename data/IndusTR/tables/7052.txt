@@ -1,0 +1,13 @@
+<table>
+  <caption>QZSS Phase-Bias Per-Signal Entry Field Definitions</caption>
+  <thead>
+    <tr><th>Field Group</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Description / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Per-signal phase-bias entry (repeated N times)</td><td>QZSS Signal and Its Tracking Mode</td><td>DF6QZ</td><td>uint5</td><td>5</td><td>Identifies the signal+tracking-mode codepoint used for this bias entry</td></tr>
+    <tr><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>1 = phase-bias is integer-resolvable for this signal</td></tr>
+    <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>Wide-lane integer flag state for this signal</td></tr>
+    <tr><td>Signal Discontinuity Counter</td><td>DF485</td><td>uint4</td><td>4</td><td>Increments when bias for this signal changes discontinuously</td></tr>
+    <tr><td>Signal Phase Bias Correction</td><td>DF486</td><td>int20</td><td>20</td><td>Signed phase-bias value for the identified signal (scaling defined by profile)</td></tr>
+  </tbody>
+</table>

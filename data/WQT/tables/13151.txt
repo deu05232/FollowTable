@@ -1,0 +1,14 @@
+# IPv4 Special-Use Blocks (Private, Loopback, Link-Local, Documentation, Benchmarking)
+
+| Category | CIDR block | Start IP | End IP | Typical use / notes |
+| --- | --- | --- | --- | --- |
+| Private (RFC1918) | 10.0.0.0/8 | 10.0.0.0 | 10.255.255.255 | Internal addressing; not routed on the public Internet |
+| Private (RFC1918) | 172.16.0.0/12 | 172.16.0.0 | 172.31.255.255 | Internal addressing; common in enterprise networks |
+| Private (RFC1918) | 192.168.0.0/16 | 192.168.0.0 | 192.168.255.255 | Internal addressing; common in home/SOHO routers |
+| Loopback | 127.0.0.0/8 | 127.0.0.0 | 127.255.255.255 | Host-local loopback (e.g., 127.0.0.1); never forwarded |
+| Link-local (APIPA) | 169.254.0.0/16 | 169.254.0.0 | 169.254.255.255 | Auto-config when DHCP fails; not routed beyond local link |
+| Documentation (TEST-NET-1) | 192.0.2.0/24 | 192.0.2.0 | 192.0.2.255 | Examples in docs; should not appear on the public Internet |
+| Documentation (TEST-NET-2) | 198.51.100.0/24 | 198.51.100.0 | 198.51.100.255 | Examples in docs; avoid using in real networks |
+| Documentation (TEST-NET-3) | 203.0.113.0/24 | 203.0.113.0 | 203.0.113.255 | Examples in docs; safe for sample configs |
+| Benchmark testing | 198.18.0.0/15 | 198.18.0.0 | 198.19.255.255 | Device/benchmark tests; not for public routing |
+| Shared address space (CGNAT) | 100.64.0.0/10 | 100.64.0.0 | 100.127.255.255 | Carrier-grade NAT between ISP and subscribers; not globally routed |

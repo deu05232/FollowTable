@@ -1,0 +1,7 @@
+# Default gateway
+> Examples
+
+| Network ID | Network mask | Gateway | Interface (examples; may vary) | Cost (decreases the TTL ) |
+| --- | --- | --- | --- | --- |
+| 0.0.0.0 (default route) | 0.0.0.0 | 10.1.1.1 | eth0 (Ethernet 1st adapter) | 10 |
+| 192.168.1.0 | 255.255.255.0 | 192.168.1.96 | eth1 (Ethernet 2nd adapter) | 10 |

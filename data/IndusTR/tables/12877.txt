@@ -1,0 +1,17 @@
+<table>
+  <caption>Top-Combustion Hot Blast Stove Burner Nozzle and Mixing Requirements (Typical Design Window)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Parameter</th><th>Recommended range / option</th><th>Notes for tuning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Burner nozzle & injection</td><td>Gas nozzle exit velocity (m/s)</td><td>18–30</td><td>Higher velocity improves entrainment but can increase pressure loss</td></tr>
+    <tr><td>Combustion-air nozzle exit velocity (m/s)</td><td>16–28</td><td>Match momentum ratio to stabilize flame</td></tr>
+    <tr><td>Number of gas orifices (pcs)</td><td>12–24</td><td>Multi-orifice to promote rapid mixing in top-combustion chamber</td></tr>
+    <tr><td>Orifice diameter (mm)</td><td>6–14</td><td>Select to meet velocity targets at available pressure</td></tr>
+    <tr><td rowspan="3">Flow distribution</td><td>Air-to-gas momentum ratio (ρ·v²)</td><td>0.8–1.3</td><td>Keep near 1 for symmetric jet penetration</td></tr>
+    <tr><td>Flow maldistribution between sectors (%)</td><td>≤ ±5</td><td>Uneven distribution can cause local overheating and instability</td></tr>
+    <tr><td>Swirl number (dimensionless)</td><td>0.3–0.7</td><td>Moderate swirl helps flame anchoring; excessive swirl may cause blow-off</td></tr>
+    <tr><td rowspan="2">Combustion stability</td><td>Excess air ratio (λ)</td><td>1.03–1.12</td><td>Balance efficiency vs CO/NOx and flame stability</td></tr>
+    <tr><td>Allowable burner pressure drop (kPa)</td><td>3–12</td><td>Enough to control jets and mixing without excessive fan duty</td></tr>
+  </tbody>
+</table>

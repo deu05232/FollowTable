@@ -1,0 +1,15 @@
+<table>
+  <caption>Data Retrieval Method Codes for Test Records</caption>
+  <thead>
+    <tr><th>Method Code</th><th>Method Name</th><th>Applies To</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R</td><td>Rated Value</td><td>Nominal specification</td><td>Use when documenting nameplate values.</td></tr>
+    <tr><td>MIN</td><td>Minimum Observed</td><td>Test result</td><td>Lower bound during verification.</td></tr>
+    <tr><td>MAX</td><td>Maximum Observed</td><td>Test result</td><td>Upper bound during verification.</td></tr>
+    <tr><td>AVG</td><td>Average</td><td>Sample set</td><td>Mean of repeated measurements.</td></tr>
+    <tr><td>P95</td><td>95th Percentile</td><td>Statistical summary</td><td>Percentile-based retrieval.</td></tr>
+    <tr><td>CAL</td><td>Calculated</td><td>Derived field</td><td>Computed from other data elements.</td></tr>
+    <tr><td>EST</td><td>Estimated</td><td>Engineering judgment</td><td>Used when direct measurement is unavailable.</td></tr>
+  </tbody>
+</table>

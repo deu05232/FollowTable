@@ -1,0 +1,16 @@
+<table>
+  <caption>Modality-Specific Capture Setup Fields to Record (Face/Iris/Fingerprint/Voice)</caption>
+  <thead>
+    <tr><th>Modality</th><th>Key Capture-Setup Metadata</th><th>Typical Values / Examples</th><th>Why It Matters for Evaluation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Face (visible)</td><td>Lighting configuration; background; camera position</td><td>Indoor office; mixed lighting; backlit window; camera at eye level vs low angle</td><td>Controls shadows, glare, and pose distribution that drive recognition error</td></tr>
+    <tr><td>Face (NIR)</td><td>NIR wavelength & power; active illumination pattern</td><td>850 nm LED ring; 940 nm flood; power level in mW</td><td>Changes reflectance and robustness under low light; impacts cross-sensor matching</td></tr>
+    <tr><td>Iris (NIR)</td><td>Imaging mode; standoff distance; pupil dilation conditions</td><td>Reflection mode; 20–40 cm; dark booth vs ambient light</td><td>Affects iris texture visibility, occlusion, and specular highlights</td></tr>
+    <tr><td>Palm/Vein (NIR)</td><td>Transmission vs reflection; hand placement aid</td><td>Transmission with backlight panel; reflection with top LEDs; guide pegs present/absent</td><td>Determines vein contrast and repeatability of hand pose</td></tr>
+    <tr><td>Fingerprint (contact-based)</td><td>Sensor type; platen condition; pressure control</td><td>Optical/capacitive/ultrasonic; clean vs smudged platen; pressure range</td><td>Directly influences ridge clarity, distortion, and artifacts</td></tr>
+    <tr><td>Fingerprint (contactless)</td><td>Working distance; depth/3D capture; illumination</td><td>5–15 cm; stereo depth on/off; ring light vs ambient-only</td><td>Impacts scale, blur, and 3D-to-2D ridge reconstruction quality</td></tr>
+    <tr><td>Voice</td><td>Channel; microphone placement; codec</td><td>Telephone (8 kHz); VoIP (16 kHz); far-field mic 1–3 m; AAC/Opus</td><td>Channel mismatch and compression artifacts dominate verification performance</td></tr>
+    <tr><td>Gait (video)</td><td>View angle; frame rate; walking surface</td><td>Side-view 90° vs 45°; 25/60 fps; treadmill vs corridor</td><td>Changes silhouette dynamics and motion blur distribution</td></tr>
+  </tbody>
+</table>

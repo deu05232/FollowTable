@@ -1,0 +1,16 @@
+<table>
+  <caption>Multicast/Broadcast Group Configuration Fields in Terminal-Side Application File</caption>
+  <thead>
+    <tr><th>Group Type</th><th>Entry</th><th>Field</th><th>Length (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Multicast</td><td rowspan="2">Multicast ID1</td><td>Multicast Group ID</td><td>6</td><td>Primary multicast group identifier</td></tr>
+    <tr><td>KeyID for Multicast ID1</td><td>1</td><td>Sub-key selector bound to the multicast group</td></tr>
+    <tr><td rowspan="2">Multicast ID2</td><td>Multicast Group ID</td><td>6</td><td>Secondary multicast group identifier</td></tr>
+    <tr><td>Status of Multicast ID2</td><td>1</td><td>00=in use, 01=reclaimed</td></tr>
+    <tr><td rowspan="4">Broadcast</td><td rowspan="2">Broadcast ID1</td><td>Broadcast Group ID</td><td>6</td><td>Group broadcast identifier for service messages</td></tr>
+    <tr><td>KeyID for Broadcast ID1</td><td>1</td><td>Broadcast key selector bound to Broadcast ID1</td></tr>
+    <tr><td rowspan="2">Broadcast ID2</td><td>Management Broadcast ID</td><td>6</td><td>Broadcast identifier used for management terminal announcements</td></tr>
+    <tr><td>Update Policy</td><td>1</td><td>00=local only, 01=network managed</td></tr>
+  </tbody>
+</table>

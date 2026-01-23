@@ -1,0 +1,15 @@
+<table>
+  <caption>Online Service Endpoint Matrix for Agricultural Input Product Code Lookup</caption>
+  <thead>
+    <tr><th>Provider</th><th>Base URL</th><th>Endpoint path</th><th>Primary parameter</th><th>Secondary parameters</th><th>Response fields</th><th>Status codes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AgriResolver A</td><td>https://a.agri-resolver.example</td><td>/v2/resolve</td><td>01=N14</td><td>21=X..20; 10=X..20b</td><td>name, brand, netContent</td><td>200/404/429</td></tr>
+    <tr><td>AgriResolver B</td><td>https://b.agri-resolver.example</td><td>/lookup/item</td><td>00=N18</td><td>17=YYMMDD; 30=N..</td><td>itemStatus, expiryDate</td><td>200/400/404</td></tr>
+    <tr><td>GS1 Proxy</td><td>https://proxy.example</td><td>/gs1/ai</td><td>ai=01&value=N14</td><td>qualifier=21; format=json</td><td>epcisMasterDataLink</td><td>200/401/500</td></tr>
+    <tr><td>Regional Directory</td><td>http://dir.agri.example</td><td>/service/query</td><td>key=01</td><td>v=N14; attr=240</td><td>company, address</td><td>200/403/404</td></tr>
+    <tr><td>Partner ERP</td><td>https://erp.partner.example</td><td>/api/items</td><td>gtin=N14</td><td>serial=X..20; lot=X..20b</td><td>inventory, location</td><td>200/409/500</td></tr>
+    <tr><td>Mobile Redirect</td><td>https://m.agri.example</td><td>/r</td><td>id=urn:epc:id:sgtin:*</td><td>to=html|json</td><td>redirectUrl</td><td>302/404</td></tr>
+    <tr><td>Audit Service</td><td>https://audit.agri.example</td><td>/events</td><td>epc=urn:epc:id:*</td><td>from=ts; to=ts</td><td>eventList</td><td>200/422/503</td></tr>
+  </tbody>
+</table>

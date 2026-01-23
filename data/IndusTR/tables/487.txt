@@ -1,0 +1,6 @@
+<table>
+  <caption>Description of Response Parameters for Batch Status Notification Interface</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>Return Result</td><td>returnResult</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Whether successful</td></tr>
+  <tr><td>Result Description</td><td>resultDescription</td><td>C..2000</td><td>M</td><td>1</td><td>One</td><td>Result description</td></tr>
+</table>

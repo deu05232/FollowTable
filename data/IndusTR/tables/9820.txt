@@ -1,0 +1,16 @@
+<table>
+  <caption>ArHitResult Handle Allocation and Reference Utilities</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResult_create</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session used for allocation</td></tr>
+    <tr><td>ArHitResult_create</td><td>out_hit_result</td><td>ArHitResult **</td><td>out</td><td>Receives address of a newly created hit result handle</td></tr>
+    <tr><td>ArHitResult_destroy</td><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Releases the hit result handle</td></tr>
+    <tr><td>ArHitResult_acquireReference</td><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Source hit result handle</td></tr>
+    <tr><td>ArHitResult_acquireReference</td><td>out_hit_result</td><td>ArHitResult **</td><td>out</td><td>Receives an additional reference to the same hit result</td></tr>
+    <tr><td>ArHitResult_releaseReference</td><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Releases a previously acquired reference</td></tr>
+    <tr><td>ArHitResult_setDebugLabel</td><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Target hit result handle</td></tr>
+    <tr><td>ArHitResult_setDebugLabel</td><td>label</td><td>const char *</td><td>in</td><td>Optional label for debugging/logging</td></tr>
+  </tbody>
+</table>

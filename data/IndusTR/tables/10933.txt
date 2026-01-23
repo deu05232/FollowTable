@@ -1,0 +1,15 @@
+<table>
+  <caption>Framework-to-Hardware Integration: Graph Engine Lifecycle plus Operator Kernel Registration</caption>
+  <thead>
+    <tr><th>Category</th><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Graph Engine Lifecycle</td><td>Initialize Graph Engine</td><td>graph_engine_initialize</td><td>Optional</td><td>Create and initialize the graph engine instance</td></tr>
+    <tr><td>Graph Engine Lifecycle</td><td>Generate Computation Graph</td><td>graph_engine_generate</td><td>Required</td><td>Generate an executable computation graph from framework graph representation</td></tr>
+    <tr><td>Graph Engine Lifecycle</td><td>Validate Graph</td><td>graph_engine_validate</td><td>Optional</td><td>Run structural checks and capability verification before compilation/execution</td></tr>
+    <tr><td>Graph Engine Lifecycle</td><td>Finalize Graph Engine</td><td>graph_engine_finalize</td><td>Optional</td><td>Finalize engine, stop background threads, and release global resources</td></tr>
+    <tr><td>Operator Adaptation</td><td>Register Operator Kernel</td><td>REGISTER_KERNEL</td><td>Required</td><td>Register device-specific kernel function for a framework operator</td></tr>
+    <tr><td>Operator Adaptation</td><td>Register Custom Op Schema</td><td>REGISTER_OP_SCHEMA</td><td>Optional</td><td>Declare operator signature, attributes, and shape inference rules</td></tr>
+    <tr><td>Operator Adaptation</td><td>Register Kernel Selector</td><td>register_kernel_selector</td><td>Optional</td><td>Provide runtime selection logic among multiple kernels for the same operator</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Allometric Biomass Model Equations and Estimated Parameters for Fir (Mixed Forms)</caption>
+  <tr><th rowspan="2">Model ID</th><th rowspan="2">Species group</th><th rowspan="2">Population</th><th rowspan="2">Model form</th><th colspan="4">Estimated parameters</th><th rowspan="2">Notes</th></tr>
+  <tr><th>a</th><th>b</th><th>c</th><th>d</th></tr>
+  <tr><td>M1</td><td>Fir</td><td>I</td><td>Univariate: W = a·DBH^b</td><td>0.031</td><td>2.41</td><td>—</td><td>—</td><td>Power model</td></tr>
+  <tr><td>M2</td><td>Fir</td><td>I</td><td>Bivariate: W = a·DBH^b·H^c</td><td>0.018</td><td>2.15</td><td>0.88</td><td>—</td><td>Includes height</td></tr>
+  <tr><td>M3</td><td>Fir</td><td>II</td><td>Univariate: W = a·DBH^b</td><td>0.045</td><td>2.28</td><td>—</td><td>—</td><td>Power model</td></tr>
+  <tr><td>M4</td><td>Fir</td><td>II</td><td>Bivariate: W = a·DBH^b·H^c</td><td>0.012</td><td>2.36</td><td>0.71</td><td>—</td><td>Includes height</td></tr>
+  <tr><td>M5</td><td>Fir</td><td>III</td><td>Complex: W = a·DBH^b·H^c·ρ^d</td><td>0.009</td><td>2.10</td><td>0.64</td><td>0.52</td><td>Includes wood density</td></tr>
+  <tr><td>M6</td><td>Fir</td><td>III</td><td>Complex: W = a·exp(b·DBH + c·H)</td><td>0.002</td><td>0.083</td><td>0.041</td><td>—</td><td>Exponential form</td></tr>
+</table>

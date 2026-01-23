@@ -1,0 +1,15 @@
+<table>
+  <caption>Oil-Free Magnetic-Levitation Centrifugal Chiller/Heat Pump — Efficiency Rating Index Definitions (Not Operating Points)</caption>
+  <thead>
+    <tr><th>Index</th><th>Symbol</th><th>Formula</th><th>Units</th><th>Applicable Mode</th><th>Notes / What is Included</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cooling COP</td><td>COPc</td><td>Qc / Pin</td><td>kW/kW</td><td>Cooling</td><td>Pin includes compressor motor + controls</td></tr>
+    <tr><td>Heating COP</td><td>COPh</td><td>Qh / Pin</td><td>kW/kW</td><td>Heating</td><td>Qh measured on load side</td></tr>
+    <tr><td>Energy Efficiency Ratio</td><td>EER</td><td>Qc / Pin</td><td>kW/kW</td><td>Cooling</td><td>Sometimes expressed as Btu/Wh in other documents</td></tr>
+    <tr><td>Integrated Part Load Value</td><td>IPLV</td><td>0.01A + 0.42B + 0.45C + 0.12D</td><td>kW/kW</td><td>Cooling</td><td>A/B/C/D are performance values at specified loads</td></tr>
+    <tr><td>Non-Standard Part Load Value</td><td>NPLV</td><td>0.01A + 0.42B + 0.45C + 0.12D</td><td>kW/kW</td><td>Cooling</td><td>Uses manufacturer-selected leaving water temperature</td></tr>
+    <tr><td>Input Power</td><td>Pin</td><td>U·I·PF</td><td>kW</td><td>Cooling/Heating</td><td>Measured at unit terminals</td></tr>
+    <tr><td>Capacity</td><td>Q</td><td>m·cp·ΔT</td><td>kW</td><td>Cooling/Heating</td><td>Determined from water-side measurements</td></tr>
+  </tbody>
+</table>

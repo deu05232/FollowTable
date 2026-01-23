@@ -1,0 +1,16 @@
+<table>
+  <caption>Bitstream Conformance Coverage Rules (Flag-Dependent Conditions)</caption>
+  <thead>
+    <tr><th>Syntax element</th><th>Coverage rule (context-dependent)</th><th>Trigger / gating conditions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">split_flag</td><td>Exercise both values but only at CTU boundaries where recursion depth permits</td><td>Only whenSizeInBitindicates CTU size > minimum CU size</td></tr>
+    <tr><td>Force transitions between 0 and 1 across neighboring CUs</td><td>Only whenIntraCuFlag=0 andSliceTypeis not I</td></tr>
+    <tr><td rowspan="2">transform_split_flag</td><td>Cover (0,1) combinations across TU depths and block shapes</td><td>Only whencbf_luma=1 andMaxTbLog2Sizeallows splitting</td></tr>
+    <tr><td>Include cases where signaling is inferred and therefore not coded</td><td>WhenimplicitTbSplit=1 (derived from SPS/PPS and block size)</td></tr>
+    <tr><td>sao_merge_type_index</td><td>Test merge type under all neighbor availability permutations</td><td>All combinations ofSaoMergeLeftAvailandSaoMergeUpAvail, plus boundary tiles</td></tr>
+    <tr><td>b_pu_type_index</td><td>Cover partition types conditioned on CU type and prediction constraints</td><td>Whencu_type_index=2 use one subset; otherwise use another subset dependent onaffineFlag</td></tr>
+    <tr><td>last_cg_pos</td><td>Verify last coefficient group position coding for luma vs chroma paths</td><td>Depends onIsChroma, scan order, and whether transform skip is active</td></tr>
+    <tr><td>aec_lcu_stuffing_bit</td><td>Check stuffing behavior only when CABAC termination requires alignment</td><td>Depends oncabac_alignment_one_bitand end-of-slice conditions</td></tr>
+  </tbody>
+</table>

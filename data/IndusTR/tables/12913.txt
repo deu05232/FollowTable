@@ -1,0 +1,15 @@
+<table>
+  <caption>Pass-Through Special-Area Scenarios — Connectivity & Monitoring-Centric Environment Matrix</caption>
+  <thead>
+    <tr><th rowspan="2">Scenario</th><th colspan="2">Road Context (brief)</th><th rowspan="2">Primary V2X / Telematics Stack</th><th rowspan="2">Monitoring / Sensing Equipment</th><th rowspan="2">Network Performance Targets</th><th rowspan="2">Data & Security Requirements</th><th rowspan="2">Roadside Guidance (secondary)</th></tr>
+    <tr><th>Geometry & Surface</th><th>Weather / Lighting</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Tunnel pass-through</td><td>Straight; 2 lanes; concrete; dry</td><td>Day; clear</td><td>C-V2X PC5 + LTE/5G uplink; MEC handover</td><td>Tunnel CCTV + RADAR; in-vehicle front camera logging</td><td>Latency < 20 ms; packet loss < 1%</td><td>Encrypted telemetry; pseudonym certificates; OTA time sync</td><td>Minimal: reflective delineators</td></tr>
+    <tr><td>School / hospital zone pass-through</td><td>Urban single lane; asphalt; dry</td><td>Day; cloudy</td><td>RSU at crosswalk; SPaT/MAP broadcast</td><td>Roadside LIDAR + video analytics (pedestrian heatmap)</td><td>Availability 99.9%; uplink > 5 Mbps</td><td>Privacy mask for faces/plates; retention 30 days</td><td>Warning sign present</td></tr>
+    <tr><td>Toll station pass-through</td><td>Multi-lane; concrete; dry</td><td>Night; illuminated</td><td>ETC DSRC + 5G backhaul</td><td>ANPR cameras; weigh-in-motion sensors</td><td>Transaction success > 99.5%</td><td>PCI-like tokenization; secure element required</td><td>Lane arrows (limited)</td></tr>
+    <tr><td>Roundabout pass-through</td><td>Roundabout; 2 lanes; asphalt</td><td>Day; sunny</td><td>Broadcast hazard beacons; cooperative awareness</td><td>Roadside radar tracking; RSU time-to-collision estimator</td><td>Beacon rate 10 Hz; jitter < 5 ms</td><td>Signed messages; key rotation weekly</td><td>Guide sign (brief)</td></tr>
+    <tr><td>Bus stop pass-through</td><td>Curbside bay; asphalt; dry</td><td>Dusk; low light</td><td>Bus-to-infrastructure priority messages</td><td>Stop-area cameras; passenger counting sensors</td><td>Uplink > 2 Mbps; delay < 50 ms</td><td>Access control lists; audit logs mandatory</td><td>Bus stop sign (brief)</td></tr>
+    <tr><td>Interchange bridge pass-through</td><td>Elevated; 2 lanes; dry</td><td>Day; windy</td><td>5G SA + GNSS-RTK correction stream</td><td>Structural health IoT sensors; wind sensors to RSU</td><td>RTK age < 1 s; continuity 99%</td><td>Integrity monitoring; tamper alerts</td><td>Delineators only</td></tr>
+  </tbody>
+</table>

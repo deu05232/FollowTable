@@ -1,0 +1,7 @@
+<table>
+  <caption>SOF component interface: Export encryption certificate (Java binding)</caption>
+  <tr><td>Prototype</td><td>java.lang.String SOF_exportEncryptCert(java.lang.String certId)</td></tr>
+  <tr><td>Description</td><td>Return the Base64-encoded encryption certificate string for the specified certificate identifier.</td></tr>
+  <tr><td rowspan="1">Parameters</td><td>certId (unique certificate identifier)</td></tr>
+  <tr><td>Return Value</td><td>Base64-encoded encryption certificate string</td></tr>
+</table>

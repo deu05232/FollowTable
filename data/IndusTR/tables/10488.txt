@@ -1,0 +1,20 @@
+<table>
+  <caption>Caption Styling and Color Attributes (Focus on Visual Appearance)</caption>
+  <thead>
+    <tr><th>Style / Color Element</th><th>Bit-width / Encoding</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>font_style</td><td>u(3)</td><td>Typeface variant selection</td></tr>
+    <tr><td>font_size</td><td>u(2)</td><td>Small/standard/large</td></tr>
+    <tr><td>italics_flag</td><td>u(1)</td><td>Italic rendering</td></tr>
+    <tr><td>underline_flag</td><td>u(1)</td><td>Underline rendering</td></tr>
+    <tr><td>edge_type</td><td>u(3)</td><td>Outline/drop shadow style</td></tr>
+    <tr><td>fg_color_r</td><td>u(8)</td><td>Foreground red channel</td></tr>
+    <tr><td>fg_color_g</td><td>u(8)</td><td>Foreground green channel</td></tr>
+    <tr><td>fg_color_b</td><td>u(8)</td><td>Foreground blue channel</td></tr>
+    <tr><td>bg_color_r</td><td>u(8)</td><td>Background red channel</td></tr>
+    <tr><td>bg_color_g</td><td>u(8)</td><td>Background green channel</td></tr>
+    <tr><td>bg_color_b</td><td>u(8)</td><td>Background blue channel</td></tr>
+    <tr><td>opacity</td><td>u(2)</td><td>Transparency level</td></tr>
+  </tbody>
+</table>

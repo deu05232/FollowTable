@@ -1,0 +1,14 @@
+<table>
+  <caption>Leak-Tightness Verification Plan for Transport Packages (Includes Impact Preconditions)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Verification method</th><th>Preconditioning test</th><th>Water exposure condition</th><th>Duration</th><th>Depth / pressure / intensity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Lid seal</td><td>Helium leak test</td><td>Free drop</td><td>Post-drop immersion</td><td>8 h</td><td>1.0 m depth</td></tr>
+    <tr><td>Dye penetrant check</td><td>Puncture</td><td>Spray exposure</td><td>60 min</td><td>50 mm/h</td></tr>
+    <tr><td rowspan="2">Valve assembly</td><td>Pressure hold</td><td>Crush / punch-through</td><td>Immersion under hydrostatic head</td><td>1 h</td><td>200 m equivalent head</td></tr>
+    <tr><td>Mass loss measurement</td><td>Vibration + handling shocks</td><td>Standing water contact (partial submersion)</td><td>24 h</td><td>0.3 m depth</td></tr>
+    <tr><td rowspan="2">Body weld</td><td>Ultrasonic inspection</td><td>9 m drop (most damaging)</td><td>Spray + drainage observation</td><td>90 min</td><td>60 mm/h</td></tr>
+    <tr><td>Visual inspection</td><td>Puncture bar drop</td><td>Immersion</td><td>8 h</td><td>0.9 m depth</td></tr>
+  </tbody>
+</table>

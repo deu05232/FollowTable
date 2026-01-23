@@ -1,0 +1,10 @@
+<table>
+  <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Subsidized Product Catalog Table (with Disbursement Fields Mixed In)</td></tr>
+  <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+  <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+  <tr><td>Table Name 2</td><td>Subsidized Product Catalog Table</td></tr>
+  <tr><td>Join Key Field 1</td><td>product_code</td></tr>
+  <tr><td>Join Key Field 2</td><td>county_code</td></tr>
+  <tr><td>Additional Linked Attributes</td><td>disbursement_status, disbursement_date, disbursement_amount</td></tr>
+  <tr><td>Relationship Notes</td><td>Primarily a catalog relationship but includes payout-related attributes, making it a mixed reference/transaction view.</td></tr>
+</table>

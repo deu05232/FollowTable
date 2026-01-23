@@ -1,0 +1,14 @@
+<table>
+  <caption>CC Sequence Traversal Syntax (Container Framing Only)</caption>
+  <thead>
+    <tr><th>Syntax</th><th>Descriptor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>cc_sequence(){</td><td></td></tr>
+    <tr><td>do {</td><td>Loop over consecutive samples</td></tr>
+    <tr><td>cc_sample()</td><td>One CC sample container</td></tr>
+    <tr><td>} while (next_bits(32) == CC_SAMPLE_START_CODE)</td><td>Continue if another sample start code is present</td></tr>
+    <tr><td>/* stop condition: next_bits(32) != CC_SAMPLE_START_CODE */</td><td>Exit when start code not found</td></tr>
+    <tr><td>}</td><td></td></tr>
+  </tbody>
+</table>

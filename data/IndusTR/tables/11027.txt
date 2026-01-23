@@ -1,0 +1,7 @@
+<table>
+  <caption>Traction battery limits message (parameter sequence format)</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Description</th></tr>
+  <tr><td>1</td><td>Max allowable cell voltage</td><td>2 bytes</td><td>BYTE[2]</td><td>Upper limit for single cell charging voltage</td></tr>
+  <tr><td>2</td><td>Max allowable charging current</td><td>2 bytes</td><td>BYTE[2]</td><td>Upper limit for charging current</td></tr>
+  <tr><td>3</td><td>Nominal total energy</td><td>2 bytes</td><td>BYTE[2]</td><td>Nominal energy of the traction battery</td></tr>
+</table>

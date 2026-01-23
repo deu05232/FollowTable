@@ -1,0 +1,15 @@
+<table>
+  <caption>Version Negotiation Parameter Dictionary — Enumerations, Sentinels, and Encoding Rules (Data Link Layer)</caption>
+  <thead>
+    <tr><th>Parameter / Concept</th><th>Wire Size (bytes)</th><th>Type</th><th>Value / Range</th><th>Wire Encoding Rule</th><th>Effect on Negotiation Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CAN Transport Type</td><td>1</td><td>UINT8 (enum)</td><td>0x00, 0x01, 0x02</td><td>Single-octet enumeration.</td><td>Communicates link transport capability. Must not be used as the sole discriminator for version agreement.</td></tr>
+    <tr><td>Negotiation Result Code</td><td>1</td><td>UINT8 (enum)</td><td>0x00=Continue; 0x01=Success; 0x02=Fail</td><td>Single-octet enumeration with reserved extensions in 0x03–0xFF.</td><td>Defines whether the accompanying version bytes represent an expected version, the agreed version, or a failure sentinel.</td></tr>
+    <tr><td>Protocol Version Number (tuple)</td><td>3</td><td>UINT8[3]</td><td>Major, Minor, Patch each 0x00–0xFE (typical)</td><td>Three separate unsigned bytes: [Major, Minor, Patch]. Numeric comparison is byte-wise by components (major first, then minor, then patch) unless specified otherwise by higher spec.</td><td>Primary object of negotiation; carried in every version handshake payload.</td></tr>
+    <tr><td>Protocol Version Example</td><td>3</td><td>UINT8[3]</td><td>[0x02, 0x00, 0x00]</td><td>Encodes V2.0.0 directly as hex bytes, not ASCII and not BCD.</td><td>Provides a concrete on-the-wire example of encoding for implementers.</td></tr>
+    <tr><td>Failure Sentinel Version</td><td>3</td><td>UINT8[3]</td><td>0xFF 0xFF 0xFF</td><td>All-ones three-byte value.</td><td>When Result Code indicates failure, the version bytes must be set to 0xFFFFFF to unambiguously represent negotiation failure on the wire.</td></tr>
+    <tr><td>Success Representation</td><td>4 (1+3)</td><td>Composite</td><td>Result=0x01 and Version=[agreed]</td><td>Result code and version tuple form a composite representation.</td><td>Receiver shall treat the version tuple as the agreed protocol version only when Result=0x01.</td></tr>
+    <tr><td>Continue Representation</td><td>4 (1+3)</td><td>Composite</td><td>Result=0x00 and Version=[expected]</td><td>Result code and version tuple form a composite representation.</td><td>Receiver shall treat the version tuple as the sender’s expected/next proposed version only when Result=0x00.</td></tr>
+  </tbody>
+</table>

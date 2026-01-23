@@ -1,0 +1,7 @@
+<table>
+  <caption>Emergency Management BeiDou System Early Warning Transfer Notice Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Disaster Type</td><td>8</td><td>Integer</td><td></td><td>1~255</td><td>The disaster type code shall comply with the provisions of A.3</td></tr>
+  <tr><td>2</td><td>Safety Radius</td><td>20</td><td>Integer</td><td>m</td><td>1~1 048 575</td><td></td></tr>
+  <tr><td>3</td><td>Transfer Information</td><td>N×8</td><td>Character</td><td colspan="2">丨</td><td>Variable length, N is the byte length of the transfer information</td></tr>
+</table>

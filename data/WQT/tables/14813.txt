@@ -1,0 +1,11 @@
+# Outlook.com (Hotmail) POP3 IMAP SMTP Ports vs. SSL TLS Requirements (Clean Matrix)
+
+| Service | Port | Connection Security | SSL/TLS Requirement | Typical Client Setting |
+|---|---:|---|---|---|
+| POP3 | 995 | SSL/TLS (implicit) | Required | SSL/TLS enabled |
+| POP3 | 110 | STARTTLS (TLS upgrade) | Optional / if supported | STARTTLS (if available) |
+| IMAP | 993 | SSL/TLS (implicit) | Required | SSL/TLS enabled |
+| IMAP | 143 | STARTTLS (TLS upgrade) | Optional / if supported | STARTTLS (if available) |
+| SMTP | 587 | STARTTLS (TLS upgrade) | Required in practice | TLS / STARTTLS |
+| SMTP | 465 | SSL/TLS (implicit) | Required | SSL/TLS enabled |
+| SMTP | 25 | STARTTLS (TLS upgrade) | Optional / network-dependent | STARTTLS (if available) |

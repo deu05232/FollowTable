@@ -1,0 +1,12 @@
+<table>
+  <caption>Emergency Management BeiDou System Task Issuance Message Data Format</caption>
+  <tr><td>Serial No.</td><td colspan="2">Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td colspan="2">Task ID</td><td>25</td><td colspan="3">See 6.1.10</td><td>1</td></tr>
+  <tr><td>2</td><td colspan="2">Task Name Length</td><td>8</td><td>Integer</td><td>Byte</td><td>1~255</td><td></td></tr>
+  <tr><td>3</td><td colspan="2">Task Name</td><td>NX8</td><td>Character</td><td>Byte</td><td></td><td>Variable length, N is the task name length</td></tr>
+  <tr><td>4</td><td colspan="2">Number of Locations</td><td>4</td><td>Integer</td><td>Count</td><td>1~15</td><td>Number of location information items included in this message</td></tr>
+  <tr><td>5</td><td rowspan="3">Task Location 1~N</td><td>Longitude</td><td>39</td><td colspan="3">See 6.1.1</td><td rowspan="3">N is the number of task locations SAC</td></tr>
+  <tr><td>6</td><td>Latitude</td><td>38</td><td colspan="3">See 6.1.2</td></tr>
+  <tr><td>7</td><td>Elevation</td><td>29</td><td colspan="3">See 6.1.3</td></tr>
+  <tr><td>8</td><td colspan="2">Task Content</td><td>N×8</td><td>Character</td><td colspan="2"></td><td>Variable length, N is the task content byte length</td></tr>
+</table>

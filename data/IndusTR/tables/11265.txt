@@ -1,0 +1,10 @@
+<table>
+  <caption>AR frame parameters for retrieving the camera color image (not depth)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_color_image</td><td>ArImage **</td><td>Pointer to pointer to ArImage to receive the address of the camera color image</td></tr>
+  <tr><td>out_exposure_time_ns</td><td>int64_t *</td><td>Receives the exposure time used for the color image</td></tr>
+  <tr><td>out_sensitivity_iso</td><td>int32_t *</td><td>Receives the sensor sensitivity used for the color image</td></tr>
+  <tr><td>out_white_balance_mode</td><td>int32_t *</td><td>Receives the white balance mode code for the color image</td></tr>
+</table>

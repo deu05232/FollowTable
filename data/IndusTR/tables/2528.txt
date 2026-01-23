@@ -1,0 +1,14 @@
+<table>
+  <caption>Energy Consumption Benchmarks for Cooperative Driving Data Centers (kWh per Rack)</caption>
+  <thead>
+    <tr><th>Site Type</th><th>Rack Density</th><th>Average Power (kW)</th><th>PUE</th><th>Cooling Type</th><th>Annual Energy (MWh)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Edge Micro-DC</td><td>4 racks</td><td>18</td><td>1.25</td><td>Direct expansion</td><td>197</td></tr>
+    <tr><td>City Edge Hub</td><td>20 racks</td><td>95</td><td>1.30</td><td>In-row cooling</td><td>1082</td></tr>
+    <tr><td>Regional Hub</td><td>80 racks</td><td>380</td><td>1.35</td><td>Chilled water</td><td>4325</td></tr>
+    <tr><td>National Core</td><td>200 racks</td><td>980</td><td>1.40</td><td>Chilled water</td><td>11187</td></tr>
+    <tr><td>GPU Analytics Cluster</td><td>40 racks</td><td>420</td><td>1.45</td><td>Liquid cooling</td><td>4781</td></tr>
+    <tr><td>Backup Site</td><td>10 racks</td><td>42</td><td>1.28</td><td>Direct expansion</td><td>474</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+# Comparison of BitTorrent libraries  core protocol feature support
+
+| BitTorrent library | DHT support | Peer exchange | Magnet URI handling | uTP support | IPv6 support | Encryption support | WebRTC support |
+|---|---|---|---|---|---|---|---|
+| libtorrent (Rasterbar) | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| MonoTorrent | Yes | Yes | Yes | Partial | Yes | Yes | No |
+| libTorrent (Rakshasa) | Yes | Yes | Yes | No | Partial | Yes | No |
+| WebTorrent | No | No | Yes | N/A | Yes | N/A | Yes |
+| Transmission (libtransmission) | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| libtorrent-rs | Yes | Yes | Yes | Yes | Yes | Yes | No |

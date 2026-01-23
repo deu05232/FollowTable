@@ -1,0 +1,10 @@
+<table>
+  <caption>Format of the data published by the NSSO</caption>
+  <tr><td>Expenditure</td><td>Average expenditure</td><td>Number of Households</td><td>Number of persons</td></tr>
+  <tr><td>Classes</td><td>for the Class</td><td>per 1000 households</td><td>Per 1000 Persons</td></tr>
+  <tr><td>z_(0)-z_(1)</td><td>_(1)</td><td>nh_(1)</td><td>np_(1)</td></tr>
+  <tr><td>z_(1)-z_(2)</td><td>_(2)</td><td>nh_(2)</td><td>np_(2)</td></tr>
+  <tr><td>⋮</td><td>⋮</td><td>⋮</td><td>⋮</td></tr>
+  <tr><td>z_(k-1)-z_(k)</td><td>_(k)</td><td>nh_(k)</td><td>np_(k)</td></tr>
+  <tr><td>Total</td><td></td><td>_(i=1)^(k)nh_(i)N_(h)=1000</td><td>_(i=1)^(k)np_(i)N_(p)</td></tr>
+</table>

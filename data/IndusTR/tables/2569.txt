@@ -1,0 +1,14 @@
+<table>
+  <caption>Environmental Stress Screening (ESS) Profile for DC Verification Equipment (Production Process)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Stress Type</th><th>Setpoint / Range</th><th>Ramp Rate</th><th>Dwell Time</th><th>Sample Size</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ESS-01</td><td>Thermal cycling</td><td>-10 °C to +55 °C</td><td>2 °C/min</td><td>30 min/step</td><td>100%</td><td>No functional failure</td></tr>
+    <tr><td>ESS-02</td><td>Burn-in</td><td>40 °C</td><td>—</td><td>72 h</td><td>100%</td><td>No reboot; no alarms</td></tr>
+    <tr><td>ESS-03</td><td>Vibration</td><td>5–500 Hz, 0.5 g</td><td>—</td><td>20 min/axis</td><td>10%</td><td>No loose parts</td></tr>
+    <tr><td>ESS-04</td><td>Humidity soak</td><td>60 °C / 90% RH</td><td>—</td><td>24 h</td><td>10%</td><td>No condensation damage</td></tr>
+    <tr><td>ESS-05</td><td>Hi-pot test</td><td>1.5 kVAC, 60 s</td><td>—</td><td>60 s</td><td>100%</td><td>No breakdown</td></tr>
+    <tr><td>ESS-06</td><td>Functional check</td><td>Self-test routine</td><td>—</td><td>15 min</td><td>100%</td><td>All tests pass</td></tr>
+  </tbody>
+</table>

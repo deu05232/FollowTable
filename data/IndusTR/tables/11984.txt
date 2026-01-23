@@ -1,0 +1,14 @@
+<table>
+  <caption>PGI 0x07 Electronic Lock Status — Behavioral and Diagnostics Summary</caption>
+  <thead>
+    <tr><th>Parameter Group Identifier (PGI)</th><th>Message</th><th>Description</th><th>Trigger Condition</th><th>Recommended Repetition</th><th>Error Handling</th><th>Sender → Receiver</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Conveys whether the connector is logically locked/unlocked</td><td>On state change; also during initialization</td><td>3 frames @ 50 ms on change; otherwise 1000 ms</td><td>If status is uncertain, report as unreliable and retry lock sensing</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Used by receiver to decide whether to allow power transfer</td><td>Before enabling DC contactors</td><td>At least once before contactor close</td><td>If missing for > 2 s, receiver should request status or fail-safe</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Receiver may log transitions for compliance reporting</td><td>Every transition</td><td>N/A</td><td>Log with timestamp and session id</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Interaction with wake-up</td><td>When peer is not fully awake</td><td>Send after wake-up sequence</td><td>If peer not awake, continue periodic advertising</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Security note</td><td>During abnormal lock sensor readings</td><td>N/A</td><td>Treat repeated unreliable states as tamper indication</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Compatibility</td><td>Interoperability with older versions</td><td>N/A</td><td>Fallback to safe default if peer rejects status message</td><td>Charger → Vehicle</td></tr>
+  </tbody>
+</table>

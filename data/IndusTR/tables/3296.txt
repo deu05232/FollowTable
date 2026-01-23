@@ -1,0 +1,10 @@
+<table>
+  <caption>Test Environment Requirements for Information Container API Validation</caption>
+  <tr><th>Item</th><th>Requirement</th><th>Recommended</th><th>Measurement</th><th>Frequency</th><th>Notes</th></tr>
+  <tr><td>Network Latency</td><td>≤ 80 ms</td><td>≤ 40 ms</td><td>p95 RTT</td><td>Per test run</td><td>Same region preferred</td></tr>
+  <tr><td>Packet Loss</td><td>≤ 0.5%</td><td>≤ 0.1%</td><td>ICMP/TCP</td><td>Daily</td><td>Exclude maintenance windows</td></tr>
+  <tr><td>Client Runtime</td><td>Java 11+</td><td>Java 17</td><td>Version check</td><td>Per build</td><td>Use LTS</td></tr>
+  <tr><td>Clock Drift</td><td>≤ 200 ms</td><td>≤ 50 ms</td><td>NTP offset</td><td>Hourly</td><td>Enable NTP</td></tr>
+  <tr><td>TLS Configuration</td><td>TLS 1.2+</td><td>TLS 1.3</td><td>Handshake audit</td><td>Per release</td><td>Disable weak ciphers</td></tr>
+  <tr><td>Data Seeding</td><td>Required</td><td>Automated</td><td>Seed script</td><td>Per run</td><td>Reset after tests</td></tr>
+</table>

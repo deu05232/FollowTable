@@ -1,0 +1,14 @@
+<table>
+  <caption>IMU Calibration Parameter Type Enumeration</caption>
+  <tr><td>Data Type</td><td>Enum Value</td><td>Description</td></tr>
+  <tr><td rowspan="5">vrCorrectionType</td><td>VR_CORRECTION_TYPE_IMU_ACC_BIAS=0x00</td><td>IMU accelerometer bias value</td></tr>
+  <tr><td>VR_CORRECTION_TYPE_IMU_ACC_SCALE=0x01</td><td>IMU accelerometer scale factor</td></tr>
+  <tr><td>VR_CORRECTION_TYPE_IMU_ACC_MISALIGNMENT=0x02</td><td>IMU accelerometer non-orthogonality matrix</td></tr>
+  <tr><td>VR_CORRECTION_TYPE_IMU_GYRO_BIAS=0x03</td><td>IMU gyroscope bias value</td></tr>
+  <tr><td>VR_CORRECTION_TYPE_IMU_GYRO_SCALE=0x04</td><td>IMU gyroscope scale factor</td></tr>
+  <tr><td rowspan="5">vrCorrectionType</td><td>VR_CORRECTION_TYPE_IMU_GYRO_MISALIGNMENT=0x05</td><td>IMU gyroscope non-orthogonality matrix</td></tr>
+  <tr><td>VR_CORRECTION_TYPE_MAG_BIAS=0x06</td><td>Magnetometer bias value</td></tr>
+  <tr><td>VR_CORRECTION_TYPE_MAG_SCALE=0x07</td><td>Magnetometer scale factor</td></tr>
+  <tr><td>VR_CORRECTION_TYPE_MAG_MISALIGNMENT=0x08</td><td>Magnetometer non-orthogonality matrix</td></tr>
+  <tr><td>Ox09~0xFF</td><td>Reserved</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Open API Authentication Overview (No Endpoint Comparison)</caption>
+  <thead>
+    <tr><th>Security Topic</th><th>What It Means</th><th>Fields Mentioned</th><th>Where It Applies</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Access Token</td><td>Bearer token used to authorize requests</td><td>access_token</td><td>All Open APIs</td></tr>
+    <tr><td>API Key</td><td>Application identifier sometimes required in headers</td><td>x-api-key</td><td>Partner integrations</td></tr>
+    <tr><td>Timestamp</td><td>Prevents replay attacks; included in signature base string</td><td>timestamp</td><td>Signed requests</td></tr>
+    <tr><td>Nonce</td><td>Random value combined with timestamp</td><td>nonce</td><td>Signed requests</td></tr>
+    <tr><td>Request Signature</td><td>HMAC over canonical request</td><td>signature, sign_method</td><td>High-security endpoints</td></tr>
+    <tr><td>Token Expiration</td><td>Defines validity window and refresh rules</td><td>expires_in, refresh_token</td><td>OAuth flows</td></tr>
+    <tr><td>Permission Scopes</td><td>Limits operations by granted scope</td><td>scope</td><td>Role-based access</td></tr>
+  </tbody>
+</table>

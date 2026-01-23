@@ -1,0 +1,18 @@
+<table>
+  <caption>CC Data Unit Syntax (Container-Level Payload Layout)</caption>
+  <thead>
+    <tr><th>CC payload element / structural marker</th><th>Bit-width / encoding</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>cc_data_unit()</td><td>Syntax structure (ordered fields)</td></tr>
+    <tr><td>cc_data_unit_start_code</td><td>f(32) (fixed 32-bit start code)</td></tr>
+    <tr><td>cc_data_unit_version</td><td>u(8)</td></tr>
+    <tr><td>cc_data_unit_size</td><td>u(16) (bytes of following payload)</td></tr>
+    <tr><td>cc_count</td><td>u(8) (number of cc_sample() that follow)</td></tr>
+    <tr><td>for(i=0; i<cc_count; i++) cc_sample()</td><td>Repeated sequence of nested syntax units</td></tr>
+    <tr><td>cc_data_unit_crc_flag</td><td>u(1)</td></tr>
+    <tr><td>reserved</td><td>u(7)</td></tr>
+    <tr><td>if(cc_data_unit_crc_flag==1) cc_data_unit_crc</td><td>u(16) (CRC over unit payload)</td></tr>
+    <tr><td>byte_alignment()</td><td>Padding to next byte boundary (if needed)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>SPN definitions for charger stop / termination diagnostics (extended)</caption>
+  <tr><th>Start byte or bit</th><th>Length</th><th>SPN</th><th>SPN definition</th><th>Send option</th></tr>
+  <tr><td>1</td><td>1 byte</td><td>3530</td><td>Charging stop category (normal stop / fault stop / user stop)</td><td>Mandatory</td></tr>
+  <tr><td>2</td><td>2 bytes</td><td>3531</td><td>Charging stop reason code (enumeration per termination reason list)</td><td>Mandatory</td></tr>
+  <tr><td>4</td><td>2 bytes</td><td>3532</td><td>Charging stop fault code (fault identifier reported at stop)</td><td>Optional</td></tr>
+  <tr><td>6</td><td>1 byte</td><td>3533</td><td>Charging stop error severity (info/warn/error)</td><td>Optional</td></tr>
+  <tr><td>7</td><td>1 byte</td><td>3534</td><td>Stop confirmation flag (charger confirmed session end)</td><td>Mandatory</td></tr>
+  <tr><td>8</td><td>1 byte</td><td>3535</td><td>Retry-permitted indicator after stop</td><td>Optional</td></tr>
+</table>

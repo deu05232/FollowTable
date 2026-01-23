@@ -1,0 +1,9 @@
+<table>
+  <caption>Service Provider Organization Information Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Number of Occurrences</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>Name</td><td>name</td><td>C..128</td><td>0</td><td>1</td><td></td><td>Name of the organization providing the service</td></tr>
+  <tr><td>Unified Social Credit Code</td><td>unifiedSocialCreditCode</td><td>C18</td><td>0</td><td>1</td><td>Complies with GB 32100</td><td>Unified Social Credit Code of the service provider</td></tr>
+  <tr><td>Contact</td><td>contact</td><td>C..128</td><td>0</td><td>1</td><td></td><td>Name of the contact person</td></tr>
+  <tr><td>Contact Information</td><td>phone</td><td>C..20</td><td>0</td><td>1</td><td></td><td>Contact information of the contact person</td></tr>
+  <tr><td>Email Address</td><td>e-mail</td><td>C..128</td><td>0</td><td>1</td><td></td><td>Email address of the contact person</td></tr>
+</table>

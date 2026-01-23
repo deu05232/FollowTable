@@ -1,0 +1,14 @@
+<table>
+  <caption>Single-photon optomechanical coupling (g0) per optical mode and strong-coupling indicators</caption>
+  <thead>
+    <tr><th>Optical mode family</th><th>Mode label</th><th>Wavelength (nm)</th><th>Optical linewidth κ/2π (MHz)</th><th>Mechanical frequency Ωm/2π (MHz)</th><th>Single-photon coupling g0/2π (kHz)</th><th>Resolved-sideband? (Ωm>κ)</th><th>Strong-coupling heuristic (g0/κ)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">TE-like</td><td>TE(21,1)</td><td>1550</td><td>420</td><td>520</td><td>38</td><td>Yes</td><td>9.0e-5</td></tr>
+    <tr><td>TE(18,2)</td><td>1542</td><td>610</td><td>520</td><td>29</td><td>No</td><td>4.8e-5</td></tr>
+    <tr><td>TE(16,3)</td><td>1536</td><td>350</td><td>520</td><td>41</td><td>Yes</td><td>1.2e-4</td></tr>
+    <tr><td rowspan="3">TM-like</td><td>TM(19,1)</td><td>1560</td><td>780</td><td>520</td><td>24</td><td>No</td><td>3.1e-5</td></tr>
+    <tr><td>TM(17,2)</td><td>1554</td><td>500</td><td>520</td><td>33</td><td>Yes</td><td>6.6e-5</td></tr>
+    <tr><td>TM(15,3)</td><td>1548</td><td>290</td><td>520</td><td>46</td><td>Yes</td><td>1.6e-4</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Knitting Equipment Process File Attribute Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Pattern Variety Name</td><td>PatternName</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>一</td><td>丨</td><td></td><td></td></tr>
+  <tr><td>0X0201</td><td>File Number</td><td>FileNumber</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td>Number of the current process file in the local folder</td><td></td></tr>
+  <tr><td>0X0202</td><td>File Name</td><td>FileName</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0203</td><td>Weft Laying Parameter</td><td>WeftLayingParameter</td><td>0</td><td>ARRAY</td><td>RO</td><td>Float</td><td></td><td></td><td></td><td>Array[0]:Weft laying angle; Array[1]:Weft laying width</td></tr>
+  <tr><td>0X0204</td><td>Take-Up Density</td><td>TakeUpDensity</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>丨</td><td>Courses/cm</td><td></td><td></td></tr>
+  <tr><td>0X0205</td><td>Batching Density</td><td>BatchingDensity</td><td>0</td><td>VAR</td><td>RO</td><td>Byte</td><td>0/1</td><td>Courses/cm</td><td></td><td></td></tr>
+  <tr><td>0X0206</td><td>Gram Weight</td><td>GramWeight</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td>g/m²</td><td>Weight per unit area</td><td></td></tr>
+  <tr><td>0X0207</td><td>Speed</td><td>Speed</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>1</td><td>r/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0208</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td>1</td><td></td><td></td></tr>
+</table>

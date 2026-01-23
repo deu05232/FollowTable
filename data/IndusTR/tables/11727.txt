@@ -1,0 +1,14 @@
+<table>
+  <caption>Copier/MFD Energy Test Procedure with Power-Supply Acceptance Criteria (Mixed Workflow)</caption>
+  <thead>
+    <tr><th>Step</th><th>Device state</th><th>Action to perform</th><th>What to record (units)</th><th>Pass/quality limits included</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Off</td><td>Connect DUT to power analyzer; zero/reset integration; keep DUT in off mode for stabilization.</td><td>Integrated energy over 5 min (Wh); average power (W)</td><td>Mains voltage must be 230 V ± 1%; frequency 50 Hz ± 0.5 Hz</td></tr>
+    <tr><td>2</td><td>Off</td><td>Start logging; verify supply remains within tolerance during the interval.</td><td>Supply voltage (V); frequency (Hz); THD (%)</td><td>Total harmonic distortion (THD) ≤ 3%</td></tr>
+    <tr><td>3</td><td>Ready</td><td>Power on DUT; wait until ready indicator is stable; begin measurement window.</td><td>Time to ready (s); average power in ready (W)</td><td>Line voltage sag during warm-up ≤ 5%</td></tr>
+    <tr><td>4</td><td>Sleep</td><td>Allow DUT to enter default sleep; do not interact with controls; measure for a fixed interval.</td><td>Sleep power (W); sleep energy over 10 min (Wh)</td><td>Frequency drift during sleep ≤ 0.2 Hz</td></tr>
+    <tr><td>5</td><td>Deep sleep (if applicable)</td><td>Wait for next sleep level; repeat measurement.</td><td>Deep-sleep power (W); interval length (min)</td><td>Voltage unbalance ≤ 1%</td></tr>
+    <tr><td>6</td><td>Reporting</td><td>Summarize results and include a power-quality log as an appendix.</td><td>Min/Max V (V); Min/Max f (Hz); THD range (%)</td><td>Reject run if any limit exceeded</td></tr>
+  </tbody>
+</table>

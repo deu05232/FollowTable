@@ -1,0 +1,11 @@
+<table>
+  <caption>Emergency Management BeiDou System Position Request Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Sending Frequency</td><td>18</td><td>Integer</td><td>s</td><td>1~262 143</td><td>Time interval for the receiving end to send position information</td></tr>
+  <tr><td>2</td><td>Number of Positions</td><td>5</td><td>Integer</td><td>Count</td><td>1~31</td><td>Number of position points for requesting local or other device position reports</td></tr>
+  <tr><td>3</td><td>End Time</td><td>34</td><td colspan="3">See 6.1.8</td><td>Time to terminate position reporting; all zeros indicate no end time</td></tr>
+  <tr><td>4</td><td>Sending Identifier</td><td>1</td><td>Integer</td><td></td><td>0~1</td><td>0--Send by area scope: Area Scope field is valid, no Number of Users, Card No. 1~N fields; 1--Send by user card number: Number of Users, Card No. 1~N fields are valid, no Area Scope field</td></tr>
+  <tr><td>5</td><td>Area Scope</td><td colspan="4">See 6.1.9</td><td></td></tr>
+  <tr><td>6</td><td>Number of Users</td><td>4</td><td>Integer</td><td>Count</td><td>1~15</td><td>Number of card numbers included in Card No. 1~N</td></tr>
+  <tr><td>7</td><td>Card No. 1~N</td><td>24</td><td>Integer</td><td></td><td></td><td>BeiDou card number of the Emergency Management BeiDou application terminal whose position information needs to be obtained; N is the number of users</td></tr>
+</table>

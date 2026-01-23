@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Sparse Spatial Map Creation and Update Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session handle</td></tr>
+    <tr><td>map_config</td><td>ArSparseMapConfig *</td><td>Configuration for sparse map generation</td></tr>
+    <tr><td>out_sparse_spatial_map</td><td>ArSparseSpatialMap **</td><td>Receives the newly created sparse spatial map object</td></tr>
+    <tr><td>enable_loop_closure</td><td>bool</td><td>Whether to attempt loop closure during mapping</td></tr>
+    <tr><td>max_keyframes</td><td>int32_t</td><td>Maximum number of keyframes stored in the map</td></tr>
+    <tr><td>out_keyframe_count</td><td>int32_t *</td><td>Receives the current keyframe count</td></tr>
+    <tr><td>out_point_count</td><td>int32_t *</td><td>Receives the number of sparse points in the map</td></tr>
+    <tr><td>out_points</td><td>float **</td><td>Receives pointer to point cloud (x,y,z) array</td></tr>
+    <tr><td>out_point_confidence</td><td>float **</td><td>Receives per-point confidence values</td></tr>
+  </tbody>
+</table>

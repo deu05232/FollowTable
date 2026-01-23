@@ -1,0 +1,15 @@
+<table>
+  <caption>Special-Area Pass-Through — Telematics Deployment Checklist by Site Type</caption>
+  <thead>
+    <tr><th>Site Type</th><th>Connectivity Topology</th><th>RSU / Gateway Placement</th><th>Backhaul & Power</th><th>Monitoring Coverage Plan</th><th>Data Pipeline / Cloud Integration</th><th>Diagnostics & Maintenance</th><th>Roadway Context (minimal)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Exit ramp</td><td>5G macro + edge node; dual-SIM fallback</td><td>RSU at gore + mid-ramp repeater</td><td>Fiber preferred; UPS 2h</td><td>2 cameras for merge + 1 radar</td><td>Stream to cloud; event tagging API</td><td>Remote reboot; monthly firmware</td><td>Ramp, 2 lanes, dry</td></tr>
+    <tr><td>Ramp entrance</td><td>C-V2X PC5 with MEC aggregation</td><td>RSU at merge nose</td><td>Microwave backhaul; solar backup</td><td>Overhead camera; loop detector</td><td>Kafka ingest; map update feed</td><td>Health checks every 5 min</td><td>Merge area, dry</td></tr>
+    <tr><td>Tunnel</td><td>Leaky feeder + 5G small cells</td><td>Repeater every 250 m</td><td>Dedicated power; redundant routes</td><td>CCTV every 100 m</td><td>Real-time incident analytics</td><td>Quarterly lens cleaning</td><td>Straight, 2 lanes</td></tr>
+    <tr><td>Toll station</td><td>DSRC + 5G backhaul</td><td>Lane-level gateway per booth</td><td>Grid + generator</td><td>ANPR + transaction sensors</td><td>Billing system integration</td><td>Spare parts on-site</td><td>Multi-lane, dry</td></tr>
+    <tr><td>Bus stop</td><td>Wi-Fi 6 + LTE uplink for buses</td><td>AP on shelter + pole gateway</td><td>PoE; battery buffer</td><td>Crowd camera + Bluetooth counts</td><td>Passenger heatmap dashboard</td><td>Weekly log review</td><td>Curbside stop</td></tr>
+    <tr><td>School zone</td><td>RSU with SPaT/MAP + LTE</td><td>At crosswalk signal cabinet</td><td>Fiber; surge protection</td><td>Vision-based pedestrian detection</td><td>Alert distribution to apps</td><td>After-hours patching</td><td>Urban street</td></tr>
+    <tr><td>Roundabout</td><td>Broadcast beacons + LTE backhaul</td><td>Central island cabinet</td><td>Grid; weatherproof enclosure</td><td>Radar tracking for entries</td><td>Trajectory logging store</td><td>Calibration quarterly</td><td>Roundabout</td></tr>
+  </tbody>
+</table>

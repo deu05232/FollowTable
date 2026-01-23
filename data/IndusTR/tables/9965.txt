@@ -1,0 +1,10 @@
+<table>
+  <caption>Joint distribution station coverage and scoring for small and medium cities</caption>
+  <tr><th>City size</th><th>Joint distribution stations per million population (units)</th><th>Score</th></tr>
+  <tr><td>Medium city (500k and above but below 1 million)</td><td>≥ 12</td><td>60</td></tr>
+  <tr><td>Medium city (500k and above but below 1 million)</td><td>< 12</td><td>Score calculated according to Formula (5)</td></tr>
+  <tr><td>Small city (200k and above but below 500k)</td><td>≥ 8</td><td>60</td></tr>
+  <tr><td>Small city (200k and above but below 500k)</td><td>< 8</td><td>Score calculated according to Formula (5)</td></tr>
+  <tr><td>County-level city</td><td>≥ 5</td><td>60</td></tr>
+  <tr><td>County-level city</td><td>< 5</td><td>Score calculated according to Formula (5)</td></tr>
+</table>

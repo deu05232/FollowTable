@@ -1,0 +1,17 @@
+<table>
+  <caption>Image/Video Processing Workflow State Codes</caption>
+  <thead>
+    <tr><th>State Group</th><th>Code</th><th>State Name</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Ingest</td><td>201</td><td>Queued</td><td>Waiting to be ingested</td></tr>
+    <tr><td>202</td><td>Ingesting</td><td>Ingestion in progress</td></tr>
+    <tr><td>203</td><td>Paused</td><td>Temporarily stopped by operator/system</td></tr>
+    <tr><td>204</td><td>Ingest Failed</td><td>Ingestion ended with errors</td></tr>
+    <tr><td rowspan="3">Analysis</td><td>221</td><td>Analyzing</td><td>Running detection/recognition</td></tr>
+    <tr><td>222</td><td>Analysis Completed</td><td>Analysis results available</td></tr>
+    <tr><td>223</td><td>Analysis Cancelled</td><td>Cancelled before completion</td></tr>
+    <tr><td rowspan="2">Delivery</td><td>241</td><td>Delivering</td><td>Sending to downstream client</td></tr>
+    <tr><td>242</td><td>Delivered</td><td>Delivery finished successfully</td></tr>
+  </tbody>
+</table>

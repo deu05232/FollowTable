@@ -1,0 +1,17 @@
+<table>
+  <caption>Association Specification: Agricultural Insurance Insured Household List ↔ Insurance Premium Invoice Ledger</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Household-to-PremiumInvoice Link</td></tr>
+    <tr><td>Association Type</td><td>Single Primary Key Association</td></tr>
+    <tr><td>Table Name 1</td><td>Agricultural Insurance Underwriting Insured Household List Table</td></tr>
+    <tr><td>Table Name 2</td><td>Agricultural Insurance Premium Invoice Ledger Table</td></tr>
+    <tr><td>Join Keys (Table 1)</td><td>insured_household_id</td></tr>
+    <tr><td>Join Keys (Table 2)</td><td>insured_household_id</td></tr>
+    <tr><td>Cardinality</td><td>1 Household : N Premium Invoices</td></tr>
+    <tr><td>Direction</td><td>Insured Household List → Premium Invoice Ledger</td></tr>
+    <tr><td>Business Purpose</td><td>Track premium billing and invoicing for insured households under underwriting policies</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Deliverable Service BOM Relationship Attributes (Extended)</caption>
+  <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  <tr><td>1</td><td>Parent Part No.</td><td>Identifier of the functional component that acts as the parent item in the service BOM</td></tr>
+  <tr><td>2</td><td>Child Part No.</td><td>Identifier of the functional component that acts as the child item under the parent</td></tr>
+  <tr><td>3</td><td>Quantity</td><td>Number of child items required for one parent item</td></tr>
+  <tr><td>4</td><td>Unit of Measure</td><td>Unit used for the quantity (e.g., EA, SET)</td></tr>
+  <tr><td>5</td><td>Effectivity</td><td>Condition under which the relationship is valid (e.g., model range or configuration)</td></tr>
+</table>

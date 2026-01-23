@@ -1,0 +1,15 @@
+<table>
+  <caption>Generic Serial Frame Skeleton for Grain Condition Monitoring Bus (Header/Trailer Only)</caption>
+  <thead>
+    <tr><th>Segment</th><th>Field</th><th>Bytes</th><th>Encoding / Example</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Start Marker</td><td>4</td><td>55 AA 55 AA</td><td>Fixed preamble</td></tr>
+    <tr><td>Header</td><td>Unit Address (KADDL)</td><td>1</td><td>00–FF</td><td>Sub-unit / extension unit address</td></tr>
+    <tr><td>Header</td><td>Command</td><td>1</td><td>A2 / A3 / C3</td><td>Command identifier only</td></tr>
+    <tr><td>Header</td><td>Length</td><td>2</td><td>0000–FFFF</td><td>Payload length (no payload described here)</td></tr>
+    <tr><td>Integrity</td><td>CRC-16</td><td>2</td><td>Modbus-CRC16</td><td>Error checking</td></tr>
+    <tr><td>Trailer</td><td>End Marker</td><td>1</td><td>0D</td><td>Frame terminator</td></tr>
+    <tr><td>Transport</td><td>Inter-frame Gap</td><td>—</td><td>≥ 3.5 chars</td><td>Timing requirement</td></tr>
+  </tbody>
+</table>

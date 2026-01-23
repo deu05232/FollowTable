@@ -1,0 +1,14 @@
+<table>
+  <caption>Post-test recovery and handling checklist for variable-frequency speed regulation units (environmental & transport tests)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Referenced standard</th><th>Immediate actions after exposure</th><th>Recovery environment</th><th>Minimum recovery time</th><th>Pass/fail acceptance after recovery</th><th>Notes (condensation & cleaning)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cold (non-operating)</td><td>GB/T 2423.1 / IEC 60068-2-1</td><td>Keep power OFF; wipe external moisture; inspect cracks</td><td>15–35°C, 25–75%RH, 86–106 kPa</td><td>≥ 2 h</td><td>Functional run + insulation check after recovery</td><td>Do not energize until moisture is removed</td></tr>
+    <tr><td>Dry heat (operating)</td><td>GB/T 2423.2 / IEC 60068-2-2</td><td>Cool down naturally; verify fan filters; log alarms</td><td>20–30°C, 30–60%RH</td><td>≥ 1 h</td><td>No derating alarms; stable speed regulation</td><td>Replace clogged filters before re-test</td></tr>
+    <tr><td>Damp heat (steady state)</td><td>GB/T 2423.4 / IEC 60068-2-78</td><td>Dry with airflow; open covers if permitted</td><td>20–30°C, ≤ 60%RH</td><td>≥ 4 h</td><td>Dielectric strength test after drying</td><td>Remove internal condensation prior to hipot</td></tr>
+    <tr><td>Shock (packaged)</td><td>GB/T 2423.5 / IEC 60068-2-27</td><td>Inspect packaging damage; photograph dents</td><td>Ambient room conditions</td><td>≥ 0.5 h</td><td>No loose parts; terminals intact</td><td>Re-torque fasteners if needed</td></tr>
+    <tr><td>Vibration (transport)</td><td>GB/T 2423.10 / IEC 60068-2-6</td><td>Check connectors; re-seat boards; verify labels</td><td>Ambient room conditions</td><td>≥ 1 h</td><td>Communication ports operational</td><td>Record any connector fretting</td></tr>
+    <tr><td>Drop / free fall (packaged)</td><td>GB/T 2423.8 / IEC 60068-2-32</td><td>Open package; check corner protectors</td><td>Ambient room conditions</td><td>≥ 0.5 h</td><td>No deformation affecting installation</td><td>Replace packaging before shipment</td></tr>
+  </tbody>
+</table>

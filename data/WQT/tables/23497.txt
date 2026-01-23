@@ -1,0 +1,18 @@
+# Common DLNA Media Format Classes (Video   Audio   Image) and Typical File Extensions
+
+| Media type | DLNA format class (common name) | Codec (essentials) | Container / wrapper | Typical file extensions | Short notes |
+|---|---|---|---|---|---|
+| Video | MPEG_PS_PAL / MPEG_PS_NTSC | MPEG-2 Video + MPEG-1 Layer II (MP2) audio | MPEG-PS | .mpg, .mpeg, .vob | Classic “DVD-like” program stream; widely interoperable in DLNA setups |
+| Video | MPEG_TS_SD / MPEG_TS_HD | MPEG-2 Video + AAC/MP2/AC-3 (varies by device) | MPEG-TS | .ts, .m2t, .mts | Often used for broadcast/AVCHD transport streams; support can vary by audio codec |
+| Video | AVC_MP4_BL / AVC_MP4_MP | H.264/AVC (Baseline/Main profiles) + AAC-LC | MP4 (ISO BMFF) | .mp4, .m4v | One of the most common DLNA-friendly combinations for modern TVs/players |
+| Video | AVC_TS_MP_HD | H.264/AVC + AC-3/AAC (varies) | MPEG-TS | .ts, .m2ts | Frequently seen with camcorder and broadcast sources; may depend on audio compatibility |
+| Video | WMV9 | VC-1/WMV9 video + WMA audio | ASF | .wmv, .asf | More common in Windows-centric ecosystems; not universal on non-MS devices |
+| Video | MPEG4_P2_ASF | MPEG-4 Part 2 (Simple/Advanced Simple) + MP3/WMA (varies) | ASF | .asf | Legacy “MPEG-4” support; sometimes used for older encodes |
+| Audio | LPCM | Linear PCM | WAV | .wav | Very compatible but large files; multichannel support varies |
+| Audio | MP3 | MPEG-1/2 Layer III | MP3 / MPEG audio | .mp3 | Usually the safest audio choice across DLNA renderers |
+| Audio | AAC_LC | AAC Low Complexity | MP4 or ADTS | .m4a, .aac | Common for mobile/streaming libraries; some renderers prefer .m4a/MP4 wrapping |
+| Audio | WMA | Windows Media Audio | ASF | .wma | Support varies; common on some TVs/receivers but not guaranteed |
+| Image | JPEG | JPEG (baseline) | JFIF | .jpg, .jpeg | The most universally supported DLNA image format |
+| Image | PNG | PNG | PNG | .png | Frequently supported; alpha channel handling may differ |
+| Image | GIF | GIF | GIF | .gif | Often supported for still images; animated GIF behavior varies |
+| Image | TIFF | TIFF | TIFF | .tif, .tiff | Less consistent support; may fail on lightweight renderers |

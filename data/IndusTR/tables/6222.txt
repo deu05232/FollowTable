@@ -1,0 +1,15 @@
+<table>
+  <caption>Conformance Bitstream Coverage Matrix (Cross-References for Syntax Elements)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Test requirement (coverage rule)</th><th>Primary reference</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>sao_merge_flag</td><td>Traverse all cases in Table 74</td><td>GB/T 33475.2—2024, Table 74</td><td>Enumerate binary symbol strings per table</td></tr>
+    <tr><td>sao_merge_type_index</td><td>Traverse all binary symbol string cases in Table 74</td><td>GB/T 33475.2—2024, Table 74</td><td>Dependent on merge availability</td></tr>
+    <tr><td>b_pu_type_index</td><td>Traverse all cases in Table 86 and Table 87</td><td>GB/T 33475.2—2024, Table 86/87</td><td>Conditioned by PU partitioning</td></tr>
+    <tr><td>cu_type_index</td><td>Traverse all binary symbol string cases in Table 80–82</td><td>GB/T 33475.2—2024, Table 80/81/82</td><td>Includes CABAC bin strings</td></tr>
+    <tr><td>transform_split_flag</td><td>See clause 8.3.2.4 and traverse all combinations described there</td><td>GB/T 33475.2—2024, 8.3.2.4</td><td>Implementation should follow clause-defined decision tree</td></tr>
+    <tr><td>last_cg_x</td><td>Use maxVal from Table 100; traverse all values defined by that table</td><td>GB/T 33475.2—2024, Table 100</td><td>maxVal depends on block size and chroma format</td></tr>
+    <tr><td>split_flag</td><td>Traverse all cases specified in section 7.5.10; include edge cases</td><td>GB/T 33475.2—2024, 7.5.10</td><td>No direct numeric range stated here</td></tr>
+  </tbody>
+</table>

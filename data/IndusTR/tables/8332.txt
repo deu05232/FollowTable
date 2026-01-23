@@ -1,0 +1,15 @@
+<table>
+  <caption>Beidou Receiver Navigation Capability and Signal Tracking Requirements</caption>
+  <thead>
+    <tr><th>Module</th><th>Capability Item</th><th>Test Condition</th><th>Requirement</th><th>Acceptance Evidence</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Signal acquisition</td><td>Cold start TTFF</td><td>BDS open service, open-sky, 25°C</td><td>≤ 45 s</td><td>Average of 10 trials</td></tr>
+    <tr><td>Warm start TTFF</td><td>Ephemeris valid, open-sky</td><td>≤ 20 s</td><td>Average of 10 trials</td></tr>
+    <tr><td>Hot start TTFF</td><td>Power-off 5 min, open-sky</td><td>≤ 5 s</td><td>Average of 10 trials</td></tr>
+    <tr><td rowspan="2">Tracking</td><td>Minimum tracking sensitivity</td><td>Static, RF attenuator sweep</td><td>≤ -160 dBm</td><td>No loss of lock for 60 s</td></tr>
+    <tr><td>Reacquisition time after blockage</td><td>Signal blocked 10 s then restored</td><td>≤ 3 s</td><td>95% success rate</td></tr>
+    <tr><td rowspan="2">Navigation output</td><td>1PPS timing accuracy</td><td>Lab reference clock</td><td>≤ 50 ns (RMS)</td><td>Measured over 30 min</td></tr>
+    <tr><td>Velocity accuracy</td><td>Dynamic route test</td><td>≤ 0.1 m/s (RMS)</td><td>Compared to reference IMU</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Final Tire Inspection Process Data Processing Logic Information Table</caption>
+  <tr><td>No.</td><td>Process Name</td><td>Description</td><td>Input</td><td>Output</td><td>Processing Method</td></tr>
+  <tr><td></td><td>1 X-ray Inspection Grading Algorithm</td><td>Determine multiple defects that affect tire quality, such as foreign objects, misalignment, and separation lines, through X-ray image data</td><td>X-ray images, grading criteria</td><td>Tire classification and grading</td><td>Vision algorithms, deep learning algorithms</td></tr>
+  <tr><td>2</td><td>Tire Uniformity and Dynamic Balance Inspection</td><td>Inspect tire uniformity and dynamic balance data</td><td>Sensor data</td><td>Uniformity parameters, dynamic balance parameters</td><td>Use the uniformity/dynamic algorithm to calculate core parameters and output them to the software</td></tr>
+  <tr><td>3</td><td>Sidewall Bulge Detection Algorithm</td><td>Determine the size of a sidewall bulge using sidewall 3D data</td><td>3D camera acquisition data</td><td>Bulge area</td><td>Determine bulge defects according to the decision rules</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Intrusion Detector Technical Specs by Frequency Band and Beam Type</caption>
+  <thead>
+    <tr><th rowspan="2">Band code</th><th rowspan="2">Frequency range (GHz)</th><th colspan="2">Ranging performance</th><th colspan="2">Angle performance</th><th rowspan="2">Typical use</th></tr>
+    <tr><th>Range resolution (m)</th><th>Range accuracy (m)</th><th>Azimuth accuracy (°)</th><th>Elevation accuracy (°)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>L</td><td>1–2</td><td>15</td><td>≤20</td><td>≤2.0</td><td>≤3.0</td><td>Wide-area perimeter</td></tr>
+    <tr><td>S</td><td>2–4</td><td>10</td><td>≤15</td><td>≤1.5</td><td>≤2.5</td><td>General surveillance</td></tr>
+    <tr><td>C</td><td>4–8</td><td>5</td><td>≤10</td><td>≤1.0</td><td>≤2.0</td><td>Balanced coverage</td></tr>
+    <tr><td>X</td><td>8–12</td><td>3</td><td>≤8</td><td>≤0.8</td><td>≤1.5</td><td>Higher precision</td></tr>
+    <tr><td>Ku</td><td>12–18</td><td>2</td><td>≤5</td><td>≤0.6</td><td>≤1.2</td><td>Focused sectors</td></tr>
+    <tr><td>K</td><td>18–27</td><td>1</td><td>≤3</td><td>≤0.5</td><td>≤1.0</td><td>Short-range tracking</td></tr>
+    <tr><td>Ka</td><td>27–40</td><td>0.5</td><td>≤2</td><td>≤0.4</td><td>≤0.8</td><td>Fine localization</td></tr>
+  </tbody>
+</table>

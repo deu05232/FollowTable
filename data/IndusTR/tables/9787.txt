@@ -1,0 +1,14 @@
+<table>
+  <caption>Bitstream conformance value coverage requirements for selected SAO-related syntax elements (range/enumeration only)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Test requirements (explicit value coverage)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">SAO (Sample Adaptive Offset)</td><td>sao_mode: Traverse cases where the value of sao_mode equals 0 to 2</td></tr>
+    <tr><td>sao_type_idx: Traverse cases where the value of sao_type_idx equals 0 to 3</td></tr>
+    <tr><td>sao_offset_abs: Traverse cases where the value of sao_offset_abs equals 0 to 7</td></tr>
+    <tr><td rowspan="3">SAO band/edge parameters</td><td>sao_band_position: Traverse cases where the value of sao_band_position equals 0 to 31</td></tr>
+    <tr><td>sao_eo_class: Traverse cases where the value of sao_eo_class equals 0 to 4</td></tr>
+    <tr><td>sao_offset_sign: Traverse cases where the value of sao_offset_sign equals 0 to 1</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Energy Consumption Test Procedure (Copiers & MFDs): Off-to-Ready-to-Sleep Measurement Sequence</caption>
+  <thead>
+    <tr><th>Step</th><th>Initial state</th><th>Action to perform</th><th>What to record (end of step)</th><th>Unit</th><th>Mode being measured</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Device disconnected from meter</td><td>Connect device to power meter and mains. Reset/zero the meter energy counter. Keep device OFF (manual switch OFF if available).</td><td>Start time (T0)</td><td>hh:mm:ss</td><td>Preparation</td></tr>
+    <tr><td>2</td><td>Off</td><td>Measure OFF mode for a fixed interval (minimum 5 min) without interacting with the device.</td><td>Cumulative energy (Eoff) and elapsed time (toff)</td><td>Wh; min</td><td>Off</td></tr>
+    <tr><td>3</td><td>Off</td><td>Turn device ON. Wait until the device indicates READY or until power stabilizes at a steady level.</td><td>Time to ready (tready)</td><td>min</td><td>Transition (Off→Ready)</td></tr>
+    <tr><td>4</td><td>Ready</td><td>Measure READY mode for a fixed interval (e.g., 5 min) with no jobs and no user interaction.</td><td>Cumulative energy (Eready) and elapsed time (tready_meas)</td><td>Wh; min</td><td>Ready</td></tr>
+    <tr><td>5</td><td>Ready</td><td>Allow device to enter SLEEP using the default automatic timeout. Do not press keys or open covers during the wait.</td><td>Default delay to sleep (tdelay_sleep)</td><td>min</td><td>Transition (Ready→Sleep)</td></tr>
+    <tr><td>6</td><td>Sleep</td><td>Measure SLEEP mode for a fixed interval (minimum 5 min). Keep the device undisturbed.</td><td>Cumulative energy (Esleep) and elapsed time (tsleep)</td><td>Wh; min</td><td>Sleep</td></tr>
+    <tr><td>7</td><td>Sleep</td><td>If additional sleep levels exist, continue waiting until the next deeper sleep level is reached; then measure again for a fixed interval. Repeat for each level observed.</td><td>For each level i: cumulative energy (Esleep_i) and elapsed time (tsleep_i)</td><td>Wh; min</td><td>Sleep level i</td></tr>
+    <tr><td>8</td><td>Any measured mode complete</td><td>End the run. Save meter readings and device settings used (e.g., sleep timeout values if changed).</td><td>Final meter energy reading (Efinal) and test notes</td><td>Wh; text</td><td>End</td></tr>
+  </tbody>
+</table>

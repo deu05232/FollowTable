@@ -1,0 +1,15 @@
+<table>
+  <caption>SM9 Key Agreement  Generate Agreement Data Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_SM9GenerateAgreementData（void         * hSymmKeyObj,unsigned intuiMasterPublicKeyIndex,unsigned intuiKeyBits,unsigned char* pucResponsorID,unsigned intuiResponsorIDLen,unsigned char* pucSponsorTmpPublicKey,unsigned int* puiSponsorTmpPublicKeyLen,void         **phAgreementHandle);</td></tr>
+  <tr><td>Rules</td><td>Use the SM9 key agreement algorithm to generate agreement parameters for computing the session key, and return the sponsor's temporary SM9 key pair public key and the agreement handle. The SM9 computation process shall comply with GB/T 41389. To negotiate a session key, the sponsor shall first call this function to compute the session key.</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hSymmKeyObj［in］(symmetric algorithm object)</td></tr>
+  <tr><td>uiMasterKeyIndex[in](index value of the encryption master public key)</td></tr>
+  <tr><td>uiKeyBits[in](required negotiated key length)</td></tr>
+  <tr><td>pucResponsorID[in](DER-encoded responder identity)</td></tr>
+  <tr><td>uiResponsorIDLen［in](length of the DER-encoded responder identity)</td></tr>
+  <tr><td>pucSponsorTmpPublicKey[out](buffer pointer used to store the returned DER-encoded sponsor temporary public key)</td></tr>
+  <tr><td>puiSponsorTmpPublicKeyLen［in,out]（input: buffer length; output: actual length of the returned DER-encoded sponsor temporary public key)</td></tr>
+  <tr><td>phAgreementHandle[out](returned key agreement handle)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0 (success)</td></tr>
+  <tr><td>non-zero (failure; returns the error code defined in Table C.1 and shall comply with Appendix C)</td></tr>
+</table>

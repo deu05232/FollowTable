@@ -1,0 +1,16 @@
+<table>
+  <caption>AAC Conformance Reference Bitstreams (Parallel Sampling-Rate Variants by Test Case)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Case ID</th><th rowspan="2">Content / Profile Focus</th><th colspan="3">Reference Bitstream (same content, different sampling rates)</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TC-A01</td><td>LC stereo, sine sweep, 24 kbps</td><td>a01_lc_stereo_sweep_sr32k_br24k.avsa</td><td>a01_lc_stereo_sweep_sr44k1_br24k.avsa</td><td>a01_lc_stereo_sweep_sr48k_br24k.avsa</td></tr>
+    <tr><td>TC-A02</td><td>LC stereo, sine sweep, 32 kbps</td><td>a02_lc_stereo_sweep_sr32k_br32k.avsa</td><td>a02_lc_stereo_sweep_sr44k1_br32k.avsa</td><td>a02_lc_stereo_sweep_sr48k_br32k.avsa</td></tr>
+    <tr><td>TC-A03</td><td>LC stereo, music excerpt, 48 kbps</td><td>a03_lc_stereo_music_sr32k_br48k.avsa</td><td>a03_lc_stereo_music_sr44k1_br48k.avsa</td><td>a03_lc_stereo_music_sr48k_br48k.avsa</td></tr>
+    <tr><td>TC-A04</td><td>HE-AAC v1, stereo, speech, 64 kbps</td><td>a04_hev1_stereo_speech_sr32k_br64k.avsa</td><td>a04_hev1_stereo_speech_sr44k1_br64k.avsa</td><td>a04_hev1_stereo_speech_sr48k_br64k.avsa</td></tr>
+    <tr><td>TC-A05</td><td>HE-AAC v2, parametric stereo, 80 kbps</td><td>a05_hev2_ps_sr32k_br80k.avsa</td><td>a05_hev2_ps_sr44k1_br80k.avsa</td><td>a05_hev2_ps_sr48k_br80k.avsa</td></tr>
+    <tr><td>TC-A06</td><td>LC multichannel (5.1), ambience, 192 kbps</td><td>a06_lc_51_ambience_sr32k_br192k.avsa</td><td>a06_lc_51_ambience_sr44k1_br192k.avsa</td><td>a06_lc_51_ambience_sr48k_br192k.avsa</td></tr>
+    <tr><td>TC-A07</td><td>LC stereo, transient castanets, 256 kbps</td><td>a07_lc_stereo_transient_sr32k_br256k.avsa</td><td>a07_lc_stereo_transient_sr44k1_br256k.avsa</td><td>a07_lc_stereo_transient_sr48k_br256k.avsa</td></tr>
+  </tbody>
+</table>

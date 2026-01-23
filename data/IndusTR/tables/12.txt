@@ -1,0 +1,20 @@
+<table>
+  <caption>1Gbit s–3.125Gbit s SpaceFibre Driver and Receiver Basic Characteristics</caption>
+  <tr><td colspan="2">Parameter</td><td>Value</td><td>Description</td></tr>
+  <tr><td colspan="2">Bit rate</td><td>(1± 0.000 1) Gbit/s(1.25±0.000 125) Gbit/s(2 ± 0.000 2) Gbit/s(2.5± 0.000 25) Gbit/s(3.125 ± 0.000 312 5) Gbit/s</td><td>Standard bit rates. Other bit rates within the 1Gbit/s–3.125Gbit/s range may also be used</td></tr>
+  <tr><td colspan="2" rowspan="5">Symbol period (nominal)</td><td>1 000 ps</td><td>1 Gbit/s</td></tr>
+  <tr><td>800 ps</td><td>1.25 Gbit/s</td></tr>
+  <tr><td>500 ps</td><td>2 Gbit/s</td></tr>
+  <tr><td>400 ps</td><td>2.5 Gbit/s</td></tr>
+  <tr><td>320 ps</td><td>3.125 Gbit/s</td></tr>
+  <tr><td colspan="2">Output amplitude differential peak-to-peak</td><td>1 600 mV max800 mV min</td><td></td></tr>
+  <tr><td colspan="2">Input threshold (differential)</td><td>±100 mV max</td><td>The specific threshold depends on the serializer/deserializer used</td></tr>
+  <tr><td colspan="2">Load</td><td>80Ω~120Ω</td><td>Nominal value 100Ω</td></tr>
+  <tr><td rowspan="2">Near-end jitter value</td><td>Total</td><td>≤ ±0.175 UI(average-to-peak)</td><td rowspan="4">Total jitter is specified at a 10-1 BER level, i.e., at this jitter level the expected BER is 10-12</td></tr>
+  <tr><td>Deterministic component</td><td>≤±0.085 UI(average-to-peak)</td></tr>
+  <tr><td rowspan="2">Far-end jitter value</td><td>Total</td><td>≤±0.275 UI (average-to-peak)</td></tr>
+  <tr><td>Deterministic component</td><td>≤±0.185 UI(average-to-peak)</td></tr>
+  <tr><td colspan="2">Signal coupling</td><td>AC</td><td>Place 100nF–200 nF capacitors at the near end and far end</td></tr>
+  <tr><td colspan="2">Differential-mode input return loss</td><td>≥10 dB</td><td>100Ω reference, 100 MHz to 0.5× bit rate</td></tr>
+  <tr><td colspan="2">Common-mode input return loss</td><td>≥6dB</td><td>25Ω reference</td></tr>
+</table>

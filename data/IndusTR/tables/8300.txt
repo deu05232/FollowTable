@@ -1,0 +1,14 @@
+<table>
+  <caption>Sampling-Rate Coverage Summary (Nested List, Not Split Into Separate Rate Columns)</caption>
+  <thead>
+    <tr><th>Content family</th><th>Operating condition</th><th>Bitstream file identifiers (comma-separated)</th><th>Decoder mode</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Music</td><td>Low bitrate</td><td>musF1_sr32k_br32k.avsa, musF1_sr44p1k_br32k.avsa, musF1_sr48k_br32k.avsa</td><td>LC</td></tr>
+    <tr><td>Medium bitrate</td><td>musF1_sr32k_br80k.avsa, musF1_sr44p1k_br80k.avsa, musF1_sr48k_br80k.avsa</td><td>LC</td></tr>
+    <tr><td>High bitrate</td><td>musF2_sr32k_br192k.avsa, musF2_sr44p1k_br192k.avsa, musF2_sr48k_br192k.avsa</td><td>HQ</td></tr>
+    <tr><td rowspan="2">Speech</td><td>Clean</td><td>spF3_sr32k_br24k.avsa, spF3_sr44p1k_br24k.avsa, spF3_sr48k_br24k.avsa</td><td>LC</td></tr>
+    <tr><td>Noisy</td><td>spF4_sr32k_br48k.avsa, spF4_sr44p1k_br48k.avsa, spF4_sr48k_br48k.avsa</td><td>Robust</td></tr>
+    <tr><td>Effects</td><td>Transient</td><td>fxF5_sr32k_br96k.avsa, fxF5_sr44p1k_br96k.avsa, fxF5_sr48k_br96k.avsa</td><td>HQ</td></tr>
+  </tbody>
+</table>

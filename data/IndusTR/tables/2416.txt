@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Governance Metadata for Urban–Rural Pension Insurance Dataset (Version Control Log)</caption>
+  <thead>
+    <tr><th>Dataset Name</th><th>Table ID</th><th>Owner Department</th><th>Refresh Frequency</th><th>Last Updated</th><th>Change Summary</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>URRPI_BenefitRecipients</td><td>URRPI_01</td><td>Benefits Division</td><td>Monthly</td><td>2025-11-30</td><td>Added field: payment_channel</td></tr>
+    <tr><td>URRPI_Contributions</td><td>URRPI_02</td><td>Collection Division</td><td>Daily</td><td>2025-12-15</td><td>Adjusted validation rules for ID number</td></tr>
+    <tr><td>URRPI_Deaths</td><td>URRPI_03</td><td>Operations Division</td><td>Quarterly</td><td>2025-10-01</td><td>Replaced ICD mapping reference</td></tr>
+    <tr><td>URRPI_PensionPayments</td><td>URRPI_04</td><td>Finance Division</td><td>Monthly</td><td>2025-12-01</td><td>New partition key: county_code</td></tr>
+    <tr><td>URRPI_ActuarialModelInputs</td><td>URRPI_05</td><td>Actuarial Unit</td><td>Annual</td><td>2025-08-20</td><td>Updated survival curve parameter source</td></tr>
+    <tr><td>URRPI_ReferenceCodes</td><td>URRPI_99</td><td>IT Office</td><td>As needed</td><td>2025-12-28</td><td>Added new payment status codes</td></tr>
+  </tbody>
+</table>

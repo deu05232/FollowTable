@@ -1,0 +1,15 @@
+<table>
+  <caption>Surface Finish Grades and Post-Processing Options for Cast Components</caption>
+  <thead>
+    <tr><th>As-Cast Grade</th><th>Typical Ra Range (µm)</th><th>Post-Process Option</th><th>Material Removal (mm)</th><th>Achievable Ra (µm)</th><th>Primary Limitation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>G25</td><td>12.5–25</td><td>Shot blasting</td><td>0–0.1</td><td>10–20</td><td>Does not correct waviness</td></tr>
+    <tr><td>G12.5</td><td>6.3–12.5</td><td>Vibratory finishing</td><td>0.1–0.3</td><td>4–8</td><td>Edge rounding risk</td></tr>
+    <tr><td>G6.3</td><td>3.2–6.3</td><td>Light machining</td><td>0.5–1.0</td><td>1.6–3.2</td><td>Requires machining allowance</td></tr>
+    <tr><td>G3.2</td><td>1.6–3.2</td><td>Finish machining</td><td>1.0–2.5</td><td>0.8–1.6</td><td>Tool access constraints</td></tr>
+    <tr><td>G1.6</td><td>0.8–1.6</td><td>Grinding</td><td>0.2–0.8</td><td>0.2–0.8</td><td>Thermal burn possible</td></tr>
+    <tr><td>—</td><td>—</td><td>Polishing / lapping</td><td>0.05–0.2</td><td>0.05–0.2</td><td>High cost, local only</td></tr>
+    <tr><td>—</td><td>—</td><td>Coating (paint/plating)</td><td>0</td><td>Dependent on coating</td><td>Does not change base roughness</td></tr>
+  </tbody>
+</table>

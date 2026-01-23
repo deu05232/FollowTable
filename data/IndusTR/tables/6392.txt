@@ -1,0 +1,16 @@
+<table>
+  <caption>Knitting Machine Interface Data Dictionary — Production Timing & Energy Counters</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0300</td><td>Downtime</td><td>Downtime</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>>= 0</td><td>s</td><td>Accumulated pause time for the current piece during knitting</td></tr>
+    <tr><td>0x0301</td><td>Last Piece Downtime</td><td>LastPieceDowntime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>= 0</td><td>s</td><td>Pause time for the previous completed piece</td></tr>
+    <tr><td>0x0302</td><td>Running Time</td><td>RunningTime</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>>= 0</td><td>min</td><td>Total active knitting run time for the current job</td></tr>
+    <tr><td>0x0500</td><td>Total Power Consumption</td><td>PowerConsumption</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>>= 0</td><td>kWh</td><td>Cumulative energy consumption counter</td></tr>
+    <tr><td>0x0501</td><td>Current Shift Power Consumption</td><td>CurrentShiftElectricityConsumption</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>= 0</td><td>kWh</td><td>Energy consumption accumulated in the current shift</td></tr>
+    <tr><td>0x0502</td><td>Power Meter Status</td><td>PowerMeterStatus</td><td>O</td><td>VAR</td><td>RO</td><td>Byte</td><td>0..3</td><td>-</td><td>Status of the energy meter (e.g., 0=OK, 1=NoData, 2=Fault, 3=Calibrating)</td></tr>
+    <tr><td>0x0503</td><td>Resettable Energy Counters Supported</td><td>EnergyResetSupported</td><td>O</td><td>VAR</td><td>RO</td><td>Boolean</td><td>true/false</td><td>-</td><td>Indicates whether energy counters can be reset by command</td></tr>
+    <tr><td>0x0504</td><td>Peak Demand (15 min)</td><td>PeakDemand15Min</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>= 0</td><td>W</td><td>Maximum average power over a 15-minute window</td></tr>
+  </tbody>
+</table>

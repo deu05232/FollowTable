@@ -1,0 +1,20 @@
+<table>
+  <caption>Cold Storage and Low-Temperature Start Test Setup for Variable Frequency Speed Regulation Equipment (Temperature-Only)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter</th><th>Requirement</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Preconditioning</td><td>Test basis</td><td>GB/T 2423.1, Test Ad (cold)</td><td>Procedure adapted for cabinet-type VFD</td></tr>
+    <tr><td>Specimen state</td><td>Complete equipment with control panel</td><td>Shipping covers removed</td></tr>
+    <tr><td>Power status</td><td>Power disconnected</td><td>Discharge DC link before placement</td></tr>
+    <tr><td>Stabilization</td><td>Until temperature stabilizes</td><td>Measured at heat sink point</td></tr>
+    <tr><td rowspan="4">Exposure</td><td>Chamber temperature</td><td>-25 °C ± 2 °C</td><td>Or manufacturer minimum, whichever is lower</td></tr>
+    <tr><td>Rate of change</td><td>1 K/min max</td><td>To avoid thermal shock</td></tr>
+    <tr><td>Exposure duration</td><td>16 h ± 1 h</td><td>Timer starts after stabilization</td></tr>
+    <tr><td>Monitoring points</td><td>Drive heat sink / enclosure air</td><td>At least 2 sensors</td></tr>
+    <tr><td rowspan="3">Low-temperature start</td><td>Power status</td><td>Power connected after exposure</td><td>Start within 5 min</td></tr>
+    <tr><td>Load condition</td><td>Rated current 50%</td><td>Motor coupled or simulated load</td></tr>
+    <tr><td>Pass/fail</td><td>No fault trip; output frequency stable</td><td>Record alarms</td></tr>
+    <tr><td>Recovery</td><td>Return to 20 °C–25 °C</td><td>Functional re-check</td><td>No condensation handling specified</td></tr>
+  </tbody>
+</table>

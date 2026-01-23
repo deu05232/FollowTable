@@ -1,0 +1,15 @@
+<table>
+  <caption>Functional Test Matrix - Logistics M2M Terminal Online & Authentication</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Test Item</th><th>Test Sub-item</th><th>Preconditions</th><th>Test Steps (Terminal Side)</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>6.1.1.9</td><td>Logistics M2M Terminal Management</td><td>Terminal Bring-Online (Network Attach)</td><td>Terminal has valid SIM/eSIM and APN; device clock is correct</td><td>1) Power on terminal2) Attach to cellular network3) Report online heartbeat to platform</td><td>Terminal status becomes Online; first heartbeat is accepted and recorded</td></tr>
+    <tr><td>6.1.1.10</td><td>Logistics M2M Terminal Management</td><td>Terminal Authentication (Credential Verification)</td><td>Terminal is online; device has device ID + secret/certificate provisioned</td><td>1) Initiate authentication handshake2) Send device ID and signature/cert3) Wait for auth response</td><td>Authentication succeeds; session token is issued; terminal marked as Authenticated</td></tr>
+    <tr><td>6.1.1.11</td><td>Logistics M2M Terminal Management</td><td>Authentication Failure (Invalid Secret)</td><td>Terminal online; device secret is intentionally incorrect</td><td>1) Start auth handshake2) Send wrong signature/secret3) Observe response and retry behavior</td><td>Authentication is rejected; no session token; retry follows configured backoff</td></tr>
+    <tr><td>6.1.1.12</td><td>Logistics M2M Terminal Management</td><td>Token Refresh During Active Session</td><td>Terminal authenticated; token nearing expiration</td><td>1) Send refresh request before expiry2) Continue sending telemetry during refresh window</td><td>New token is granted; telemetry is uninterrupted; session remains valid</td></tr>
+    <tr><td>6.1.1.13</td><td>Logistics M2M Terminal Management</td><td>Duplicate Login Handling (Same Device ID)</td><td>Device A authenticated; Device B uses same device ID</td><td>1) Device B attempts authentication using same ID2) Observe both devices' session states</td><td>System enforces policy (reject B or kick A); terminal-side receives clear reason code</td></tr>
+    <tr><td>6.1.1.14</td><td>Logistics M2M Terminal Management</td><td>Heartbeat Timeout & Offline Transition</td><td>Terminal authenticated; heartbeat interval configured</td><td>1) Stop sending heartbeat2) Wait beyond timeout threshold</td><td>Terminal state transitions to Offline; next reconnect triggers re-authentication if required</td></tr>
+    <tr><td>6.1.1.15</td><td>Logistics M2M Terminal Management</td><td>Reconnect After Network Loss</td><td>Terminal previously authenticated; network drop can be simulated</td><td>1) Drop network connectivity2) Restore connectivity3) Terminal reconnects and resumes session/reauth</td><td>Terminal reconnects per policy; buffered messages are resent or discarded per QoS rules</td></tr>
+  </tbody>
+</table>

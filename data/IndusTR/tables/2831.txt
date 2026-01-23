@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Test Environment Requirements for SSR Ionospheric Correction Validation</caption>
+  <tr><th>Parameter</th><th>Recommended Range</th><th>Measurement Instrument</th><th>Sampling Interval</th><th>Notes</th></tr>
+  <tr><td>Ambient temperature</td><td>20–25 °C</td><td>Thermometer (Class A)</td><td>10 min</td><td>Stabilize before runs</td></tr>
+  <tr><td>Relative humidity</td><td>30–60 %</td><td>Hygrometer</td><td>10 min</td><td>Avoid condensation</td></tr>
+  <tr><td>RF shielding attenuation</td><td>≥ 60 dB</td><td>Spectrum analyzer</td><td>Per session</td><td>Test chamber required</td></tr>
+  <tr><td>GNSS simulator power</td><td>-130 to -110 dBm</td><td>Power meter</td><td>1 s</td><td>Calibrate cables</td></tr>
+  <tr><td>Network latency</td><td>≤ 100 ms</td><td>Ping/iperf</td><td>1 s</td><td>Affects real-time streams</td></tr>
+  <tr><td>Time reference stability</td><td>≤ 1e-11</td><td>Frequency counter</td><td>1 min</td><td>Holdover checks</td></tr>
+</table>

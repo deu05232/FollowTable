@@ -1,0 +1,16 @@
+<table>
+  <caption>Sterilization Process Type Codes and Human-Readable Names (Sanitary Equipment Metadata)</caption>
+  <thead>
+    <tr><th>Sterilization Type Code</th><th>Sterilization Type Name</th><th>Primary Agent</th><th>Common Equipment</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SA</td><td>Steam sterilization (gravity displacement)</td><td>Moist heat</td><td>Steam sterilizer/autoclave</td><td>General-purpose for heat-stable items</td></tr>
+    <tr><td>SB</td><td>Steam sterilization (pre-vacuum)</td><td>Moist heat</td><td>Pre-vacuum autoclave</td><td>Improved air removal for porous loads</td></tr>
+    <tr><td>SC</td><td>Dry heat sterilization</td><td>Hot air</td><td>Dry heat oven</td><td>For oils/powders; longer cycles</td></tr>
+    <tr><td>SD</td><td>Ethylene oxide (EtO) gas sterilization</td><td>Gas</td><td>EtO sterilizer</td><td>For heat/moisture-sensitive devices</td></tr>
+    <tr><td>SE</td><td>Low-temperature hydrogen peroxide plasma sterilization</td><td>Plasma/oxidant</td><td>Plasma sterilizer</td><td>Material compatibility constraints</td></tr>
+    <tr><td>SF</td><td>Radiation sterilization</td><td>Ionizing radiation</td><td>Gamma/e-beam processing unit</td><td>Typically industrial processing</td></tr>
+    <tr><td>SG</td><td>Formaldehyde low-temperature steam sterilization</td><td>Chemical + steam</td><td>LTSF sterilizer</td><td>Specialized process; ventilation needed</td></tr>
+    <tr><td>SH</td><td>Liquid chemical sterilization (peracetic acid)</td><td>Liquid chemical</td><td>Liquid chemical sterilizer (endoscope)</td><td>Often used for immersible devices</td></tr>
+  </tbody>
+</table>

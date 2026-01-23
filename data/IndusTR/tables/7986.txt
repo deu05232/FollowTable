@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Cryptographic Service Interfaces — Encryption/Decryption Prototypes (Complete Signatures)</caption>
+  <thead>
+    <tr><th>Category</th><th>Function Prototype (complete)</th><th>Return</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Encryption</td><td>int SAF_SM9Encrypt(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned int ulAlgID, unsigned char *pIV, unsigned int ulIVLen, unsigned char *pucData, unsigned int uiDataLength, unsigned char *pucEncData, unsigned int *pulEncDataLen);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9EncryptWithContainer(void *hAppHandle, unsigned char *pucContainerName, unsigned int uiContainerLen, unsigned int ulAlgID, unsigned char *pIV, unsigned int ulIVLen, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned char *pucData, unsigned int uiDataLength, unsigned char *pucEncData, unsigned int *pulEncDataLen);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9WrapEncryptedData(void *hAppHandle, unsigned char *pucEncData, unsigned int ulEncDataLen, unsigned char *pucWrappedBlob, unsigned int *pulWrappedBlobLen);</td><td>int</td></tr>
+    <tr><td rowspan="3">Decryption</td><td>int SAF_SM9Decrypt(void *hAppHandle, unsigned char *pucContainerName, unsigned int uiContainerLen, unsigned char *pucEncData, unsigned int ulEncDataLen, unsigned char *pucData, unsigned int *puiDataLength);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9DecryptWithUserID(void *hAppHandle, unsigned char *pucContainerName, unsigned int uiContainerLen, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned char *pucEncData, unsigned int ulEncDataLen, unsigned char *pucData, unsigned int *puiDataLength);</td><td>int</td></tr>
+    <tr><td>int SAF_SM9UnwrapEncryptedData(void *hAppHandle, unsigned char *pucWrappedBlob, unsigned int ulWrappedBlobLen, unsigned char *pucEncData, unsigned int *pulEncDataLen);</td><td>int</td></tr>
+  </tbody>
+</table>

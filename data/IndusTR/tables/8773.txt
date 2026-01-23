@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre PHY Mode-Dependent Line Timing and Encoding Summary</caption>
+  <thead>
+    <tr><th>Mode</th><th>Nominal Bit Rate</th><th>Unit Interval (UI)</th><th>Encoding / Scrambling</th><th>Comma / Sync Pattern</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>M1</td><td>2.5</td><td>400</td><td>8b/10b + scrambler</td><td>K28.5-based</td><td>Startup uses training then normal traffic</td></tr>
+    <tr><td>M2</td><td>3.125</td><td>320</td><td>8b/10b + scrambler</td><td>K28.5-based</td><td>Receiver CDR optimized for mid-rate</td></tr>
+    <tr><td>M3</td><td>5.0</td><td>200</td><td>64b/66b + self-synchronous scrambling</td><td>Sync header 01/10</td><td>Higher throughput; tighter jitter budget</td></tr>
+    <tr><td>M4</td><td>6.25</td><td>160</td><td>64b/66b + self-synchronous scrambling</td><td>Sync header 01/10</td><td>Typical baseline for many implementations</td></tr>
+    <tr><td>M5</td><td>10.0</td><td>100</td><td>64b/66b + self-synchronous scrambling</td><td>Sync header 01/10</td><td>Requires improved equalization</td></tr>
+    <tr><td>M6</td><td>12.5</td><td>80</td><td>64b/66b + self-synchronous scrambling</td><td>Sync header 01/10</td><td>Short-reach focus; careful PCB design</td></tr>
+    <tr><td>M7</td><td>25.0</td><td>40</td><td>64b/66b + self-synchronous scrambling</td><td>Sync header 01/10</td><td>Advanced channel required</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Air Pollutant Removal Coefficients by Ecosystem Type (Per-area Annual Intensities)</caption>
+  <thead>
+    <tr><th colspan="3">Ecosystem Type</th><th colspan="3">Removal Intensity Parameters</th></tr>
+    <tr><th>Level I</th><th>Level II</th><th>Level III</th><th>SO2 Removal</th><th>NOx Removal</th><th>PM10 Removal</th></tr>
+    <tr><th></th><th></th><th></th><th>t/(km²·yr)</th><th>t/(km²·yr)</th><th>t/(km²·yr)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Forest Ecosystem</td><td rowspan="2">Broadleaf forest</td><td>Evergreen broadleaf</td><td>6.10</td><td>3.70</td><td>12.40</td></tr>
+    <tr><td>Deciduous broadleaf</td><td>3.60</td><td>2.50</td><td>8.90</td></tr>
+    <tr><td>Coniferous forest</td><td>Cold-temperate conifer</td><td>4.80</td><td>3.10</td><td>10.20</td></tr>
+    <tr><td rowspan="2">Grassland Ecosystem</td><td>Typical grassland</td><td>Steppe</td><td>1.20</td><td>0.90</td><td>3.10</td></tr>
+    <tr><td>Meadow</td><td>Alpine meadow</td><td>1.40</td><td>1.00</td><td>3.40</td></tr>
+    <tr><td rowspan="2">Wetland Ecosystem</td><td>Marsh</td><td>Reed marsh</td><td>1.90</td><td>1.40</td><td>4.60</td></tr>
+    <tr><td>Lacustrine wetland</td><td>Lake fringe</td><td>1.70</td><td>1.30</td><td>4.20</td></tr>
+  </tbody>
+</table>

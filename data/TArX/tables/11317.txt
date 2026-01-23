@@ -1,0 +1,15 @@
+<table>
+  <caption>AMBT1 tuning inputs: track-based and event-shape distributions with the fit (tuning) intervals</caption>
+  <thead>
+    <tr><th>Analysis block</th><th>Observable / distribution name</th><th>Definition (short)</th><th>Tuning range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Charged-particle spectra</td><td>dNch/dη</td><td>Charged-particle density vs η</td><td>-2.5 ≤ η ≤ 2.5</td></tr>
+    <tr><td>(1/N) dN/dpT</td><td>Normalized pTspectrum</td><td>0.5 ≤ pT≤ 20 GeV</td></tr>
+    <tr><td>P(Nch)</td><td>Multiplicity distribution</td><td>1 ≤ Nch≤ 70</td></tr>
+    <tr><td rowspan="2">Correlation observables</td><td>⟨pT⟩(Nch)</td><td>Mean pTin bins of Nch</td><td>1 ≤ Nch≤ 40</td></tr>
+    <tr><td>C(Δη) = (1/N) dN/dΔη</td><td>Two-particle separation in pseudorapidity</td><td>0 ≤ Δη ≤ 5</td></tr>
+    <tr><td rowspan="2">Underlying event vs pTlead</td><td>Transverse Nchdensity</td><td>Nchper unit η–φ in transverse region</td><td>2 ≤ pTlead≤ 15 GeV</td></tr>
+    <tr><td>Transverse ΣpTdensity</td><td>ΣpTper unit η–φ in transverse region</td><td>2 ≤ pTlead≤ 15 GeV</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Charging Status (CCS/BCS) - SPN-Oriented Signal List by Bit Position</caption>
+  <thead>
+    <tr><th>Message</th><th>PGN (Dec)</th><th>SPN</th><th>Byte</th><th>Bit</th><th>Bit Length</th><th>Signal Definition</th><th>Transmit Condition</th><th>Value Range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">CCS</td><td rowspan="3">4608</td><td>SPN 3400</td><td>1</td><td>0</td><td>16</td><td>Charger Output Voltage</td><td>Always</td><td>0..1000 V</td></tr>
+    <tr><td>SPN 3401</td><td>3</td><td>0</td><td>16</td><td>Charger Output Current</td><td>Always</td><td>0..500 A</td></tr>
+    <tr><td>SPN 3402</td><td>5</td><td>0</td><td>8</td><td>Charger State</td><td>On change</td><td>0=Idle;1=Run;2=Fault</td></tr>
+    <tr><td rowspan="3">BCS</td><td rowspan="3">4352</td><td>SPN 3500</td><td>1</td><td>0</td><td>16</td><td>Battery Voltage (Measured)</td><td>Always</td><td>0..1000 V</td></tr>
+    <tr><td>SPN 3501</td><td>3</td><td>0</td><td>16</td><td>Battery Current (Measured)</td><td>Always</td><td>-500..500 A</td></tr>
+    <tr><td>SPN 3502</td><td>5</td><td>0</td><td>8</td><td>Charging Permission</td><td>On change</td><td>0=No;1=Yes</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Assessment Inputs for Ecosystem Regulation Services by Ecosystem Type (Runoff & Water Retention)</caption>
+  <thead>
+    <tr><th rowspan="2">Ecosystem Type</th><th colspan="3">Key Parameters</th><th colspan="2">Model Inputs</th></tr>
+    <tr><th>Runoff Coefficient (C)</th><th>Infiltration Factor (IF)</th><th>Surface Roughness (n)</th><th>Water Retention Capacity (WRC, mm)</th><th>Reference Formula / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Forest</td><td>0.10–0.25</td><td>0.60–0.85</td><td>0.25–0.40</td><td>120–250</td><td>Retention = P × (1 − C) × IF</td></tr>
+    <tr><td>Shrubland</td><td>0.18–0.35</td><td>0.45–0.70</td><td>0.18–0.30</td><td>80–160</td><td>Retention = P × (1 − C) × IF</td></tr>
+    <tr><td>Grassland</td><td>0.20–0.40</td><td>0.40–0.65</td><td>0.12–0.22</td><td>60–140</td><td>IF adjusted by root density class</td></tr>
+    <tr><td>Cropland</td><td>0.30–0.55</td><td>0.25–0.55</td><td>0.10–0.18</td><td>30–90</td><td>C varies with tillage and residue cover</td></tr>
+    <tr><td>Wetland (marsh/swamp)</td><td>0.05–0.20</td><td>0.70–0.95</td><td>0.30–0.60</td><td>200–400</td><td>Include storage term: WRC + ponding depth</td></tr>
+    <tr><td>Open Water (lakes/reservoirs)</td><td>0.90–1.00</td><td>0.00–0.10</td><td>0.01–0.03</td><td>0–20</td><td>Dominant process: evaporation; retention not applied</td></tr>
+    <tr><td>Urban / Built-up</td><td>0.60–0.95</td><td>0.05–0.20</td><td>0.01–0.05</td><td>0–30</td><td>Apply imperviousness correction to C</td></tr>
+  </tbody>
+</table>

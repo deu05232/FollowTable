@@ -1,0 +1,11 @@
+<table>
+  <caption>AR Collision/Hit Testing Glossary (Concept Overview Instead of Exact API Parameters)</caption>
+  <tr><th>Term</th><th>Meaning</th><th>Used In</th><th>Notes</th></tr>
+  <tr><td>Hit Test</td><td>Raycast from screen point into the tracked world</td><td>Placement, selection</td><td>May return multiple candidate intersections</td></tr>
+  <tr><td>Hit Result</td><td>One intersection candidate from a hit test</td><td>Object placement</td><td>Often includes pose and distance</td></tr>
+  <tr><td>Hit Result List</td><td>Ordered collection of hit results</td><td>Sorting/filtering</td><td>Typically sorted by distance</td></tr>
+  <tr><td>Pose</td><td>Position and orientation in world coordinates</td><td>Anchors, rendering</td><td>Represented as translation + quaternion</td></tr>
+  <tr><td>Distance</td><td>Scalar from ray origin to intersection point</td><td>Ranking hits</td><td>Units depend on world scale (usually meters)</td></tr>
+  <tr><td>Trackable</td><td>Detected real-world entity (plane/point/image)</td><td>Hit association</td><td>Hit results may reference a trackable type</td></tr>
+  <tr><td>Collision Shape</td><td>Geometric proxy for physics/contact tests</td><td>Physics layer</td><td>Separate from AR hit testing in many engines</td></tr>
+</table>

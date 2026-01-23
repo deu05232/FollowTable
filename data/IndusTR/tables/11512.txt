@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Camera Acquisition and Release API Parameter Roles</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Type</th><th>Direction</th><th>Role at Boundary</th><th>What the Output Represents / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_acquireCamera</td><td>session</td><td>ArSession*</td><td>IN</td><td>Session handle used to locate the current camera stream context</td><td>Must be a valid, running AR session</td></tr>
+    <tr><td>ArSession_acquireCamera</td><td>out_camera</td><td>ArCamera**</td><td>OUT</td><td>Destination that receives a newly acquired camera handle</td><td>On success, *out_camera points to an ArCamera representing the current frame camera</td></tr>
+    <tr><td>ArFrame_acquireCamera</td><td>session</td><td>ArSession*</td><td>IN</td><td>Session handle that owns the frame</td><td>Must match the session that produced the frame</td></tr>
+    <tr><td>ArFrame_acquireCamera</td><td>frame</td><td>ArFrame*</td><td>IN</td><td>Frame handle from which to obtain camera state</td><td>Camera corresponds to this frame's tracking/capture state</td></tr>
+    <tr><td>ArFrame_acquireCamera</td><td>out_camera</td><td>ArCamera**</td><td>OUT</td><td>Destination that receives the acquired camera handle</td><td>Returned camera is tied to the frame; release when done</td></tr>
+    <tr><td>ArCamera_release</td><td>camera</td><td>ArCamera*</td><td>IN</td><td>Handle to release (decrement refcount / free)</td><td>After release, camera must not be used</td></tr>
+    <tr><td>ArCamera_release</td><td>session</td><td>ArSession*</td><td>IN</td><td>Owning session used to validate/route the release</td><td>Some APIs require the session for lifetime bookkeeping</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Video/Image Event Category Code Table (Detailed Events)</caption>
+  <thead>
+    <tr><th>Code</th><th>Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>004</td><td>Intrusion</td><td>Object/person enters a restricted area</td></tr>
+    <tr><td>005</td><td>Loitering</td><td>Person stays in an area beyond a defined duration threshold</td></tr>
+    <tr><td>006</td><td>Object Left Behind</td><td>Unattended item detected and persists for a configured time</td></tr>
+    <tr><td>007</td><td>Object Removed</td><td>Previously present object disappears from a monitored zone</td></tr>
+    <tr><td>008</td><td>Running</td><td>Person running detected in the scene</td></tr>
+    <tr><td>009</td><td>Fall Down</td><td>Person falls and remains on the ground</td></tr>
+    <tr><td>010</td><td>Tailgating</td><td>Multiple persons pass through an access point on one authorization</td></tr>
+    <tr><td>011</td><td>Reverse Direction</td><td>Target moves opposite to the allowed direction</td></tr>
+  </tbody>
+</table>

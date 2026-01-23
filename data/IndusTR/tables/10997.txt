@@ -1,0 +1,17 @@
+<table>
+  <caption>Terminal-Side Application File Layout (Mixed Sizes: Some Byte Lengths Missing or Non-Numeric)</caption>
+  <thead>
+    <tr><th>Offset</th><th>Field Name</th><th>Size (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x00</td><td>File Header Magic</td><td>4</td><td>Constant marker identifying the file type.</td></tr>
+    <tr><td>0x04</td><td>Layout Version</td><td>1</td><td>Version of the terminal application file format.</td></tr>
+    <tr><td>0x05</td><td>User ID</td><td>6</td><td>Unique user identifier bound to the terminal.</td></tr>
+    <tr><td>0x0B</td><td>IMEI (BCD)</td><td>8</td><td>Device identity encoded as BCD digits.</td></tr>
+    <tr><td>0x13</td><td>Broadcast ID List</td><td>variable</td><td>One or more broadcast IDs and their associated key IDs.</td></tr>
+    <tr><td>0x??</td><td>Multicast Records</td><td>(depends on count)</td><td>Multicast ID, key reference, and status per record.</td></tr>
+    <tr><td>0x??</td><td>IV Default (V1)</td><td>16</td><td>Default initialization vector.</td></tr>
+    <tr><td>0x??</td><td>IV Backup (V2)</td><td></td><td>Backup initialization vector; size not specified here.</td></tr>
+    <tr><td>0x??</td><td>Integrity Tag</td><td>n/a</td><td>Integrity protection value appended at the end.</td></tr>
+  </tbody>
+</table>

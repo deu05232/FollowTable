@@ -1,0 +1,21 @@
+<table>
+  <caption>Fluorescent and Recombination X-ray Emission Features (Energies in keV)</caption>
+  <thead>
+    <tr><th>Feature Class</th><th>Element</th><th>Line / Complex</th><th>Photon Energy (keV)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="4">Fluorescence (K-shell)</th><td>Si</td><td>Si Kα</td><td>1.740</td><td>Neutral/low-ionization material; reflection</td></tr>
+    <tr><td>S</td><td>S Kα</td><td>2.308</td><td>Often seen in reflection-dominated spectra</td></tr>
+    <tr><td>Fe</td><td>Fe Kα</td><td>6.400</td><td>Neutral Fe; commonly reported in AGN/XRBs</td></tr>
+    <tr><td>Fe</td><td>Fe Kβ</td><td>7.058</td><td>Usually accompanies Fe Kα</td></tr>
+    <tr><th rowspan="3">Ionized Fe K features</th><td>Fe</td><td>Fe XXV (He-like) resonance line</td><td>6.700</td><td>Thermal/photoinized; part of Fe XXV complex</td></tr>
+    <tr><td>Fe</td><td>Fe XXVI (H-like) Lyα</td><td>6.966</td><td>Very high ionization parameter or temperature</td></tr>
+    <tr><td>Fe</td><td>Fe K edge (neutral)</td><td>7.112</td><td>Absorption edge; included here as a spectral feature energy</td></tr>
+    <tr><th rowspan="6">Radiative Recombination Continua (RRC)</th><td>C</td><td>C VI RRC edge</td><td>0.490</td><td>Sharp edge in photoionized plasmas; width indicates electron temperature</td></tr>
+    <tr><td>N</td><td>N VII RRC edge</td><td>0.667</td><td>Often paired with N VII Lyα emission</td></tr>
+    <tr><td>O</td><td>O VIII RRC edge</td><td>0.871</td><td>Photoionized emission regions</td></tr>
+    <tr><td>Ne</td><td>Ne X RRC edge</td><td>1.361</td><td>High-ionization recombination feature</td></tr>
+    <tr><td>Mg</td><td>Mg XII RRC edge</td><td>1.958</td><td>Common in high-resolution soft X-ray spectra</td></tr>
+    <tr><td>Si</td><td>Si XIV RRC edge</td><td>2.666</td><td>Indicates highly ionized silicon</td></tr>
+  </tbody>
+</table>

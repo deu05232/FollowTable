@@ -1,0 +1,6 @@
+<table>
+  <caption>Internal Mixer Process Data Processing Logic Information Table</caption>
+  <tr><td>No.</td><td>Process Name</td><td>Description</td><td>Input</td><td>Output</td><td>Processing Method</td></tr>
+  <tr><td>1</td><td>Constant-Temperature Rubber Mixing</td><td>Measure the actual temperature of the compound, adjust the main motor speed", upper ram pressure, and temperature-control valve opening to achieve constant-temperature mixing</td><td>“Actual temperature value" comes from real-time feedback; “temperature setpoint” comes from the recipe</td><td>Main motor speed, upper ram pressure or position, temperature-control valve opening</td><td>First adjust the main motor speed to the set value, then regulate the upper ram pressure or position and the temperature-control valve opening b based on the temperature</td></tr>
+  <tr><td colspan="6">a is executed by the upstream auxiliary machine control system description. Executed by the internal mixer control system.</td></tr>
+</table>

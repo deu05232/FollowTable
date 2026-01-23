@@ -1,0 +1,14 @@
+# Non-RFC1918 special-use IPv4 ranges (selected IANA special-purpose blocks)
+
+| Category | CIDR block | Explicit range | Reserved for / purpose |
+| --- | --- | --- | --- |
+| "This network" (software) | 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | Used to refer to the current network; only valid as a source address in some contexts |
+| Loopback | 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Host loopback testing; packets should not leave the local host |
+| Link-local | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Self-assigned addressing when no DHCP is available (APIPA); not routed |
+| Documentation (TEST-NET-1) | 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Example addresses for documentation and sample configurations |
+| Documentation (TEST-NET-2) | 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | Example addresses for documentation and sample configurations |
+| Documentation (TEST-NET-3) | 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | Example addresses for documentation and sample configurations |
+| Shared address space (CGNAT) | 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | ISP subscriber space for carrier-grade NAT between customer and provider |
+| Benchmark testing | 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | Performance testing of inter-network devices; not intended for public routing |
+| Multicast | 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Multicast delivery (one-to-many); special routing and group management behavior |
+| Limited broadcast | 255.255.255.255/32 | 255.255.255.255 | Local network broadcast; never forwarded by routers |

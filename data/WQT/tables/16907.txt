@@ -1,0 +1,14 @@
+# Hybrid Mail Flow Connector Endpoints and Ports (On-Prem vs Office 365)
+
+| Mail flow element | On-premises-only | After Hybrid with Office 365 | Port / Protocol |
+| --- | --- | --- | --- |
+| Inbound SMTP endpoint | mail.contoso.com | contoso-com.mail.protection.outlook.com | 25 / SMTP |
+| Outbound smart host | isp.relay.example.net | smtp.office365.com | 587 / SMTP + STARTTLS |
+| TLS certificate name | mail.contoso.com | *.mail.protection.outlook.com | X.509 |
+| Receive connector binding | 0.0.0.0:25 | 0.0.0.0:25 | 25 / SMTP |
+| Send connector address space | * | *.mail.protection.outlook.com | SMTP |
+| Hybrid transport servers | EXCH01, EXCH02 | EXCH01 + EOP | SMTP |
+| Firewall allow list | Partner IP ranges | Microsoft 365 EOP IP ranges | Network ACL |
+| Message size limit | 25 MB | 35 MB | Transport setting |
+| SMTP auth requirement | Anonymous/internal | Certificate-based + OAuth (optional) | Auth |
+| Queue visibility | Local Exchange queues | Local + EOP message trace | Monitoring |

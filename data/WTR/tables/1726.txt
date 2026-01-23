@@ -1,0 +1,7 @@
+# iPod Accessory Protocol
+
+| Fieldname | Header | Length | Mode | Command | Parameter | Checksum |
+| --- | --- | --- | --- | --- | --- | --- |
+| Size (Byte) | 2 | 1 | 1 | 2 | 0..n | 1 |
+| Value | 0xFF 0x55 | sizeof mode + command + parameter | The mode the command is refering to (Look at "List of Modes" below) | The two byte command | Optional Parameter, depending on the command | 0x100 - sum of all between B and D Frames |
+| FrameName | A and B | C | Between C and D | Between C and D | Between C and D | D |

@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Environmental Requirements for Tire QA Testing</caption>
+  <thead>
+    <tr><th>Test Area</th><th>Temperature Setpoint</th><th>Humidity Setpoint</th><th>Stabilization Time</th><th>Air Cleanliness</th><th>Monitoring Frequency</th><th>Nonconformance Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Uniformity Room</td><td>23 ± 2°C</td><td>50 ± 5%</td><td>≥ 4 h</td><td>ISO 8</td><td>Every 30 min</td><td>Hold tests and recondition samples</td></tr>
+    <tr><td>Dynamic Balance Area</td><td>23 ± 2°C</td><td>50 ± 10%</td><td>≥ 2 h</td><td>General</td><td>Hourly</td><td>Recalibrate if drift is confirmed</td></tr>
+    <tr><td>X-ray Room</td><td>20–26°C</td><td>≤ 60%</td><td>≥ 1 h</td><td>ISO 8</td><td>Daily log</td><td>Stop inspection if condensation occurs</td></tr>
+    <tr><td>Rubber Physical Lab</td><td>23 ± 2°C</td><td>50 ± 5%</td><td>≥ 8 h</td><td>ISO 9</td><td>Every 60 min</td><td>Repeat conditioning and retest</td></tr>
+    <tr><td>Compound Aging Room</td><td>70 ± 1°C</td><td>N/A</td><td>≥ 24 h</td><td>General</td><td>Per batch</td><td>Quarantine batch if excursion > 30 min</td></tr>
+    <tr><td>Metrology Bench</td><td>20 ± 1°C</td><td>45 ± 10%</td><td>≥ 2 h</td><td>ISO 8</td><td>Every 15 min</td><td>Re-measure after stabilization</td></tr>
+  </tbody>
+</table>

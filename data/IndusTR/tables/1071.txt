@@ -1,0 +1,8 @@
+<table>
+  <caption>Modify Information Container Status Input Parameters</caption>
+  <tr><td>Parameter Name</td><td>Chinese Name</td><td>Data Type</td><td>Required</td><td>Remarks</td></tr>
+  <tr><td>projectId</td><td>Project Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the project</td></tr>
+  <tr><td>containerId</td><td>Container Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the container</td></tr>
+  <tr><td>status</td><td>Container Status</td><td>int</td><td>Yes</td><td>Target status to be modified, definition see Table 19</td></tr>
+  <tr><td>checkCode</td><td>Check Code</td><td>string</td><td>Yes</td><td>Check code, obtained from the container check interface</td></tr>
+</table>

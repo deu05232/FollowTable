@@ -1,0 +1,15 @@
+<table>
+  <caption>Tropical Cyclone Intensity Bulletin — Communication Header Field Rules (Operational Message Format)</caption>
+  <thead>
+    <tr><th>Header Field</th><th>Field Length</th><th>Allowed Values</th><th>Example</th><th>Validation Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WMO TTAAii</td><td>6</td><td>KNHCxx, RJTDxx, etc.</td><td>KNHC01</td><td>Must match issuing center registry</td></tr>
+    <tr><td>Issuance time</td><td>6</td><td>DDHHMM (UTC)</td><td>171200</td><td>Minute must be 00/30</td></tr>
+    <tr><td>Storm identifier</td><td>4</td><td>AL##, WP##, IO##</td><td>AL05</td><td>Two-digit basin sequence</td></tr>
+    <tr><td>Message version</td><td>2</td><td>00–99</td><td>03</td><td>Increment on correction</td></tr>
+    <tr><td>Latitude/Longitude</td><td>9</td><td>DD.D[N/S] DDD.D[E/W]</td><td>25.3N 071.8W</td><td>One decimal place required</td></tr>
+    <tr><td>Max wind field</td><td>5</td><td>KT or MS</td><td>065KT</td><td>Units must be declared</td></tr>
+    <tr><td>Remark flags</td><td>8</td><td>TEST, COR, AMD</td><td>COR</td><td>Optional; must be uppercase</td></tr>
+  </tbody>
+</table>

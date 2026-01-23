@@ -1,0 +1,13 @@
+<table>
+  <caption>Charging Stage Message Categories and Attributes</caption>
+  <tr><td>Message Code</td><td>Message Name</td><td>PGN (Dec)</td><td>PGN (Hex)</td><td>Priority</td><td>Data Length (BYTE)</td><td>Message Period</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>BCL</td><td>Battery Charging Demand Message</td><td>4096</td><td>001000H</td><td>6</td><td>5</td><td>50ms</td><td>Vehicle - Charger</td></tr>
+  <tr><td>BCS</td><td>Overall Battery Charging Status Message</td><td>4352</td><td>001100H</td><td>7</td><td>9</td><td>250ms</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CCS</td><td>Charger Charging Status Message</td><td>4608</td><td>001200H</td><td>6</td><td>7</td><td>50 ms</td><td>Charger - Vehicle</td></tr>
+  <tr><td>BSM</td><td>Vehicle Status Information Message</td><td>4864</td><td>001300H</td><td>6</td><td>7</td><td>250ms</td><td>Vehicle - Charger</td></tr>
+  <tr><td>BMV</td><td>Traction Battery Cell Voltage Message</td><td>5376</td><td>001500H</td><td>7</td><td>Variable</td><td>10s</td><td>Vehicle - Charger</td></tr>
+  <tr><td>BMT</td><td>Traction Battery Temperature Message</td><td>5632</td><td>001600H</td><td>7</td><td>Variable</td><td>10s</td><td>Vehicle - Charger</td></tr>
+  <tr><td>BSP</td><td>Traction Battery Reserved Message</td><td>5888</td><td>001700H</td><td>7</td><td>Variable</td><td>10 s</td><td>Vehicle - Charger</td></tr>
+  <tr><td>BST</td><td>Vehicle Charge Abort Message</td><td>6400</td><td>001900H</td><td>4</td><td>4</td><td>10 ms</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CST</td><td>Charger Charge Abort Message</td><td>6656</td><td>001A00H</td><td>4</td><td>4</td><td>10 ms</td><td>Charger - Vehicle</td></tr>
+</table>

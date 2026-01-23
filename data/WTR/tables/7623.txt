@@ -1,0 +1,12 @@
+# Model Portfolio Allocation Mix (Global Balanced) — Target Weights and Rebalance Bands
+
+| Sleeve | Asset Class | Instrument Type | Representative Holding | Ticker | Target Weight (%) | Min Band (%) | Max Band (%) | Rebalance Trigger |
+|---|---|---|---|---|---:|---:|---:|---|
+| Core | U.S. Equity | ETF | Total Market ETF | VTI | 28 | 25 | 31 | Quarterly |
+| Core | International Equity | ETF | Developed ex-US ETF | VEA | 18 | 15 | 21 | Quarterly |
+| Satellite | Emerging Markets | ETF | EM Equity ETF | VWO | 7 | 5 | 9 | Quarterly |
+| Core | U.S. Bonds | ETF | Aggregate Bond ETF | AGG | 22 | 19 | 25 | Quarterly |
+| Satellite | TIPS | ETF | Inflation-Protected ETF | TIP | 5 | 3 | 7 | Quarterly |
+| Diversifier | Real Estate | REIT ETF | U.S. REIT ETF | VNQ | 6 | 4 | 8 | Quarterly |
+| Diversifier | Commodities | ETC/ETF | Broad Commodities | DBC | 4 | 2 | 6 | Quarterly |
+| Liquidity | Cash | MMF | Treasury Money Market | VMFXX | 10 | 8 | 12 | Monthly |

@@ -1,0 +1,15 @@
+<table>
+  <caption>Shear-Pattern DT from CDO Offset Distance with Embedded CF and Center-Position Rules</caption>
+  <thead>
+    <tr><th rowspan="2">Measure from visible imagery</th><th colspan="5">Offset distance: center to CDO edge (nmi)</th><th colspan="2">CF (Cloud feature number)</th><th rowspan="2">Center-position note</th></tr>
+    <tr><th>>90</th><th>60–90</th><th>45–60</th><th>30–45</th><th><30</th><th>CDO diameter (deg)</th><th>CF value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DT lookup</td><td>1.0–1.5</td><td>1.5–2.0</td><td>2.0–2.5</td><td>2.5–3.0</td><td>3.0–3.5</td><td>>2.25</td><td>5.0</td><td>If low-level center exposed, reduce DT by 0.5</td></tr>
+    <tr><td>DT nominal</td><td>1.0</td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td><td>1.75–2.25</td><td>4.5</td><td>If center relocated, recompute distance</td></tr>
+    <tr><td>Confidence band</td><td>±0.5</td><td>±0.5</td><td>±0.5</td><td>±0.5</td><td>±0.5</td><td>1.25–1.75</td><td>3.5</td><td>Use best-fit center in visible swirl</td></tr>
+    <tr><td>DT cap guidance</td><td>Max 2.0</td><td>Max 2.5</td><td>Max 3.0</td><td>Max 3.5</td><td>Max 4.0</td><td>0.75–1.25</td><td>2.5</td><td>If CDO boundary ragged, use CF track</td></tr>
+    <tr><td>Alternate tie-break</td><td>Prefer PT</td><td>Prefer PT</td><td>Prefer DT</td><td>Prefer DT</td><td>Prefer DT</td><td><0.75</td><td>2.0</td><td>When CF < DT, set final T = CF</td></tr>
+    <tr><td>Final-number hint</td><td colspan="5">Final T-number may follow CF when convection is transient</td><td colspan="2">CF used as stabilizer</td><td>Apply only with 6-hour persistence</td></tr>
+  </tbody>
+</table>

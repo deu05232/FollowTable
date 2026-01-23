@@ -1,0 +1,11 @@
+<table>
+  <caption>Authentication/Control Key Roles for Application File Operations</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Administrator control key</td><td>Application-defined</td><td>Grants permission to rotate all subordinate keys and approve emergency re-key</td></tr>
+  <tr><td>Operator maintenance key</td><td>Application-defined</td><td>Grants permission to update non-security records; protects maintenance write commands</td></tr>
+  <tr><td>Application authentication key</td><td>Application-defined</td><td>Computes authentication code for uplink reports; used for mutual authentication challenge response</td></tr>
+  <tr><td>Audit signing key</td><td>Application-defined</td><td>Signs audit log entries to provide tamper evidence</td></tr>
+  <tr><td>Key-management scope</td><td>1</td><td>00: local only; 01: group; 02: global</td></tr>
+  <tr><td>Key privilege flags</td><td>2</td><td>Bit0: key update; Bit1: file update; Bit2: export prohibited; Bit3: derive allowed</td></tr>
+  <tr><td>Key status</td><td>1</td><td>00: enabled; 01: disabled; 02: pending activation</td></tr>
+</table>

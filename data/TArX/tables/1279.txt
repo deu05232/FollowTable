@@ -1,0 +1,22 @@
+<table>
+  <caption>Pulsar parameters. Parameters listed in the top section are held fixed in the timing fit that produces the parameters listed in the middle section (SOM). The position and proper motion values are from the USNO NOMAD optical catalog [ zml+04 ] . With the exceptions of DM, P , and eccentricity, uncertainties on timing quantities are twice the formal 1 ⁢ σ errors returned by the pulsar timing analysis program. The DM of the source varies substantially: around orbital phase 0.3 it occasionally increases by ∼ 0.15 ⁢ pc ⁢ cm - 3 , and we observe apparent orbit-to-orbit variations as large as ∼ 0.01 ⁢ pc ⁢ cm - 3 . Our estimate of the eccentricity is approximate because DM variations limit the orbital coverage of usable timing data. Our estimate for P ˙ is approximate because it is highly covariant with pulsar position; it was estimated by fitting for P ˙ while varying the position according to the optical uncertainties listed above. We have not subtracted Shklovskii or galactic accelerations. The flux density and spectral index are estimated using standard system temperature and gain values for the GBT and the Parkes telescope. The flux density is subject to substantial variability intrinsic to the pulsar (we have observed brightening by a factor ∼ 4 within minutes), as well as interstellar scintillation; for this reason we estimated the spectral index using the simultaneous 600 ⁢ MHz and 3000 ⁢ MHz Parkes observations. Spin-down luminosity and magnetic field upper limits are calculated from the 3 ⁢ σ upper limit on P ˙ using the standard formulae E ˙ = 3.95 × 10 31 ⁢ erg ⁢ s - 1 ⁢ ( P ˙ / 10 - 15 ) ⁢ ( P / 1 ⁢ s ) - 3 and B = 3.2 × 10 19 ⁢ G ⁢ P ⁢ P ˙ .</caption>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><th>Right ascension ( α ; J2000)</th><td>10^({h)23^({m)47.687(3)^({s)</td></tr>
+  <tr><th>Declination ( δ ; J2000)</th><td>00°s 38^()41.15(7)^()</td></tr>
+  <tr><th>Proper motion in α ( μ_(α) )</th><td>10(1)\;\;^(-1)</td></tr>
+  <tr><th>Proper motion in δ ( μ_(δ) )</th><td>-16(2)\;\;^(-1)</td></tr>
+  <tr><th>Epoch (MJD)</th><td>54802</td></tr>
+  <tr><th>Dispersion Measure</th><td>14.325(10)\;\;^(-3)</td></tr>
+  <tr><th>Pulsar period ( P )</th><td>1.6879874440059(4)\;</td></tr>
+  <tr><th>Pulsar period derivative ( )</th><td>1.2(8)× 10^(-20)</td></tr>
+  <tr><th>Orbital period ( P_(b) )</th><td>0.1980962019(6)\;</td></tr>
+  <tr><th>Orbital period derivative ( _(b) )</th><td>2.5(4)× 10^(-10)</td></tr>
+  <tr><th>Orbital period second derivative ( _(b) )</th><td>-5.21(14)× 10^(-11)\;^(-1)</td></tr>
+  <tr><th>Time of ascending node (MJD)</th><td>54801.97065348(9)</td></tr>
+  <tr><th>ai</th><td>0.3433494(3)\;-s</td></tr>
+  <tr><th>Eccentricity</th><td>2× 10^(-5)</td></tr>
+  <tr><th>1600\; flux density</th><td>~ 14\;</td></tr>
+  <tr><th>Spectral index ( α ; Sν^(-α) )</th><td>~-2.8</td></tr>
+  <tr><th>Surface magnetic field</th><td><3× 10^(8)\;</td></tr>
+  <tr><th>Spin-down luminosity</th><td><3× 10^(35)\;\;^(-1)</td></tr>
+</table>

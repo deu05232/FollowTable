@@ -1,0 +1,16 @@
+<table>
+  <caption>Acoustic shear viscosity and bulk (volume) viscosity of selected fluids at 298 K and 1 atm</caption>
+  <thead>
+    <tr><th rowspan="2">Fluid</th><th colspan="2">Viscosity parameters used in acoustics</th><th rowspan="2">Notes (attenuation modeling)</th></tr>
+    <tr><th>Shear viscosity, μ (mPa·s)</th><th>Bulk/volume viscosity, ζ (mPa·s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Water (liquid)</td><td>0.89</td><td>2.9</td><td>ζ contributes to compressional (longitudinal) wave absorption</td></tr>
+    <tr><td>Ethanol (liquid)</td><td>1.07</td><td>1.6</td><td>μ and ζ enter viscous loss term in acoustic attenuation</td></tr>
+    <tr><td>Glycerol (liquid)</td><td>950</td><td>1200</td><td>High μ yields strong viscous damping in ultrasound</td></tr>
+    <tr><td>Air (gas)</td><td>0.018</td><td>0.035</td><td>ζ affects classical absorption alongside thermal conduction</td></tr>
+    <tr><td>Carbon dioxide (gas)</td><td>0.015</td><td>0.090</td><td>Elevated ζ linked to internal relaxation losses</td></tr>
+    <tr><td>Nitrogen (gas)</td><td>0.017</td><td>0.040</td><td>Bulk viscosity used in Stokes–Kirchhoff attenuation</td></tr>
+    <tr><td>Argon (gas)</td><td>0.022</td><td>0.000</td><td>Monatomic gas: ζ ≈ 0 in many models</td></tr>
+  </tbody>
+</table>

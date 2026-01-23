@@ -1,0 +1,10 @@
+<table>
+  <caption>Parameters for configuring session depth mode and creating a dense spatial map</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>config</td><td>ArConfig *</td><td>Config pointer</td></tr>
+  <tr><td>depth_mode</td><td>ArDepthMode</td><td>Depth sensing mode type</td></tr>
+  <tr><td>mesh_resolution</td><td>float</td><td>Target resolution of the reconstructed mesh</td></tr>
+  <tr><td>out_dense_spatial_map</td><td>ArDenseSpatialMap **</td><td>Receives pointer to the newly created dense reconstruction object</td></tr>
+  <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>Receives current tracking state after configuration</td></tr>
+</table>

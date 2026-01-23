@@ -1,0 +1,15 @@
+<table>
+  <caption>P2-Dependent Payload Layout for Multicast Management APDUs</caption>
+  <thead>
+    <tr><th>Case</th><th>P2 (HEX)</th><th>Data Field</th><th>Offset (byte)</th><th>Length (byte)</th><th>Encoding</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Join Multicast Group</td><td rowspan="2">00</td><td>Multicast ID</td><td>0</td><td>6</td><td>Binary</td><td>Identifier of the multicast group to join</td></tr>
+    <tr><td>Group-join Password</td><td>6</td><td>8</td><td>ASCII/Binary</td><td>Authentication secret for joining</td></tr>
+    <tr><td>Leave Multicast Group</td><td>01</td><td>Multicast ID</td><td>0</td><td>6</td><td>Binary</td><td>Identifier of the multicast group to leave</td></tr>
+    <tr><td rowspan="2">Update Join Credentials</td><td rowspan="2">02</td><td>Multicast ID</td><td>0</td><td>6</td><td>Binary</td><td>Target multicast group</td></tr>
+    <tr><td>New Group-join Password</td><td>6</td><td>8</td><td>ASCII/Binary</td><td>Replacement join password</td></tr>
+    <tr><td>Query Group Info</td><td>03</td><td>Multicast ID</td><td>0</td><td>6</td><td>Binary</td><td>Group identifier used for lookup</td></tr>
+    <tr><td>Reserved</td><td>FF</td><td>—</td><td>—</td><td>—</td><td>—</td><td>Not used / future expansion</td></tr>
+  </tbody>
+</table>

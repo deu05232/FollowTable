@@ -1,0 +1,14 @@
+<table>
+  <caption>Hi-Pot Test Setup Checklist (Procedure Controls, Not Requirements)</caption>
+  <thead>
+    <tr><th>Step</th><th>Control Item</th><th>Setting</th><th>Acceptance (Process)</th><th>Record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Ambient temperature</td><td>20–26 °C</td><td>Within range</td><td>Lab log</td></tr>
+    <tr><td>2</td><td>Relative humidity</td><td>30–60 %RH</td><td>Within range</td><td>Lab log</td></tr>
+    <tr><td>3</td><td>Ramp-up time</td><td>5 s</td><td>No abrupt steps</td><td>Test report</td></tr>
+    <tr><td>4</td><td>Dwell time</td><td>60 s</td><td>Stable output</td><td>Test report</td></tr>
+    <tr><td>5</td><td>Leakage current limit</td><td>5 mA</td><td>Trip if exceeded</td><td>Instrument trace</td></tr>
+    <tr><td>6</td><td>Discharge time</td><td>≥ 10 s</td><td>Residual voltage < 60 V</td><td>Safety checklist</td></tr>
+  </tbody>
+</table>

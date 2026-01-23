@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Link Management and Flow-Control Word Definitions (Complete Symbol Sequences)</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>Full Symbol Sequence (in order)</th><th>Primary Use / Diagnostic Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ACTIVE (Activation Control Word)</td><td>Comma, ACTIVE, ACT_LS, ACT_MSKK28.7, D0.1, D0.0–D31.7, D0.0–D31.7</td><td>Unidirectional channel activation/initialization indication; conveys per-channel active-state bitmap fields.</td></tr>
+    <tr><td>ALIGN (Alignment Control Word)</td><td>Comma, ALIGN, LANES, iLANESK28.7, D23.3, D0.0–D31.7, D0.0–D31.7</td><td>Multi-channel lane alignment; includes lane-count and lane-number information with an inverted copy for integrity checking.</td></tr>
+    <tr><td>ACK (Acknowledgment Control Word)</td><td>Comma, ACK, SEQ_NUM, CRCK28.7, D2.5, D0.0–D31.7, D0.0–D31.7</td><td>Positive acknowledgment of correctly received frame/FCT; carries acknowledged sequence number and CRC for integrity.</td></tr>
+    <tr><td>NACK (Negative Acknowledgment Control Word)</td><td>Comma, NACK, SEQ_NUM, CRCK28.7, D27.5, D0.0–D31.7, D0.0–D31.7</td><td>Negative acknowledgment indicating error/out-of-order reception; carries last-acknowledged sequence number and CRC.</td></tr>
+    <tr><td>FULL (Error-Recovery Buffer Full Control Word)</td><td>Comma, FULL, SEQ_NUM, CRCK28.7, D15.3, D0.0–D31.7, D0.0–D31.7</td><td>Signals error-recovery buffer is full; prompts peer to advance acknowledgments to free space; includes sequence number and CRC.</td></tr>
+    <tr><td>RXERR (Receive Error Indication Control Word)</td><td>Error, Reserved, Reserved, ReservedK0.0, D0.0, D0.0, D0.0</td><td>Decoder error replacement word; used to substitute any received word detected as erroneous, especially before receiver is ready.</td></tr>
+  </tbody>
+</table>

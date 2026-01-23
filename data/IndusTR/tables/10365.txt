@@ -1,0 +1,17 @@
+<table>
+  <caption>Surveillance Radar Grading Levels — Antenna and Beamforming Design Targets</caption>
+  <thead>
+    <tr><th rowspan="2">Design attribute</th><th colspan="3">Grading level</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Basic</th><th>Standard</th><th>Advanced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Peak antenna gain (dBi)</td><td>≥ 32</td><td>≥ 35</td><td>≥ 38</td><td>Main-lobe gain target at center frequency</td></tr>
+    <tr><td>Horizontal 3 dB beamwidth (deg)</td><td>≤ 0.70</td><td>≤ 0.50</td><td>≤ 0.35</td><td>Azimuth beam shaping requirement</td></tr>
+    <tr><td>Vertical 3 dB beamwidth (deg)</td><td>≤ 10.0</td><td>≤ 8.0</td><td>≤ 6.0</td><td>Elevation coverage vs. sidelobe trade-off</td></tr>
+    <tr><td>First sidelobe level (dB)</td><td>≤ -18</td><td>≤ -22</td><td>≤ -26</td><td>Relative to main-lobe peak</td></tr>
+    <tr><td>Azimuth amplitude taper</td><td>Cosine</td><td>Taylor 25 dB</td><td>Taylor 30 dB</td><td>Taper used to control sidelobes</td></tr>
+    <tr><td>Polarization</td><td>Single (H)</td><td>Dual (H/V)</td><td>Dual + selectable</td><td>Feed network capability</td></tr>
+    <tr><td>Element spacing (in wavelengths)</td><td>≤ 0.60</td><td>≤ 0.55</td><td>≤ 0.50</td><td>Controls grating lobes</td></tr>
+    <tr><td>Radiated pattern stability (dB over temp)</td><td>≤ 1.5</td><td>≤ 1.0</td><td>≤ 0.7</td><td>Mechanical/thermal stability requirement</td></tr>
+  </tbody>
+</table>

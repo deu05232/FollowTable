@@ -1,0 +1,16 @@
+<table>
+  <caption>Official Vehicle Management Platform — Trip Request Fields (Type-Only Overview)</caption>
+  <thead>
+    <tr><th>No.</th><th>Field Name</th><th>General Type</th><th>Technical Definition (storage-oriented)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>request_id</td><td>String</td><td>Unique identifier for a trip request record, stored as a text value.</td><td>Primary key</td></tr>
+    <tr><td>2</td><td>applicant_name</td><td>String</td><td>Name of the person submitting the request, stored as text.</td><td></td></tr>
+    <tr><td>3</td><td>requesting_department</td><td>String</td><td>Department label captured at request time, stored as text.</td><td></td></tr>
+    <tr><td>4</td><td>start_time</td><td>DateTime</td><td>Planned trip start time stored as a datetime value.</td><td></td></tr>
+    <tr><td>5</td><td>end_time</td><td>DateTime</td><td>Planned trip end time stored as a datetime value.</td><td></td></tr>
+    <tr><td>6</td><td>passenger_count</td><td>Number</td><td>Number of passengers recorded for the trip request, stored as a numeric value.</td><td></td></tr>
+    <tr><td>7</td><td>destination</td><td>String</td><td>Destination description stored as text.</td><td></td></tr>
+    <tr><td>8</td><td>approval_status</td><td>Enum</td><td>Approval state stored as an enumerated value.</td><td>e.g., Pending/Approved/Rejected</td></tr>
+  </tbody>
+</table>

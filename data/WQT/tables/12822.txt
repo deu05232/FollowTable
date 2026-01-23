@@ -1,0 +1,12 @@
+# Web browsers — Platform support and security standards features (high-level)
+
+| Browser | Desktop OS support | Mobile OS support | Default auto-updates | DRM (Encrypted Media Extensions) | Built-in tracking protection | Web standards note |
+| --- | --- | --- | --- | --- | --- | --- |
+| Google Chrome | Windows, macOS, Linux | Android, iOS | Yes | Yes | Partial (via settings/features) | Broad HTML5/CSS/JS support |
+| Microsoft Edge | Windows, macOS, Linux | Android, iOS | Yes | Yes | Yes | Chromium-based; modern standards coverage |
+| Mozilla Firefox | Windows, macOS, Linux | Android, iOS | Yes | Yes (optional component) | Yes (Enhanced Tracking Protection) | Independent engine (Gecko); strong standards focus |
+| Apple Safari | macOS | iOS/iPadOS | Yes (with OS updates) | Yes | Yes (Intelligent Tracking Prevention) | WebKit-based; platform-optimized |
+| Opera | Windows, macOS, Linux | Android, iOS | Yes | Yes | Partial | Chromium-based; feature-rich UI |
+| Brave | Windows, macOS, Linux | Android, iOS | Yes | Yes | Yes (default) | Chromium-based; privacy features enabled by default |
+| Vivaldi | Windows, macOS, Linux | Android | Yes | Yes | Partial | Chromium-based; advanced customization |
+| Tor Browser | Windows, macOS, Linux | Android | Yes | No (typically disabled) | Yes (aggressive) | Firefox ESR-based; hardened settings may reduce site compatibility |

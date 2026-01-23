@@ -1,0 +1,15 @@
+<table>
+  <caption>Integrated Data Center: Outbound Tracking/Traceability Data Exchange Patterns and Returned Payload</caption>
+  <thead>
+    <tr><th>Step Focus (Outbound Only)</th><th>Trigger Condition</th><th>Requester / Recipient Entity</th><th>Exchange Pattern</th><th>Request Keys Presented</th><th>Returned Data Elements</th><th>Return Status / Error Returned</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Provide cargo status</td><td>External party submits status request</td><td>Importer (consignee)</td><td>API request-response</td><td>Container ID + voyage number</td><td>Status code, location (UN/LOCODE), event time, next milestone prediction</td><td>200 OK / 404 Unknown shipment</td></tr>
+    <tr><td>Provide traceability proof</td><td>External party requests evidence for an event</td><td>Regulated warehouse operator</td><td>Portal download</td><td>Event ID + shipment reference</td><td>Event provenance (source system, sender role), immutable event hash, audit timestamp</td><td>Granted / Denied (authorization)</td></tr>
+    <tr><td>Push exception alert</td><td>Delay threshold exceeded (ETA shift > X hours)</td><td>Freight forwarder</td><td>Webhook callback</td><td>Subscription ID</td><td>Exception type, impacted milestones, revised ETA, recommended action code</td><td>Delivered / Retry (5xx)</td></tr>
+    <tr><td>Provide customs-related milestone visibility</td><td>Broker requests release visibility</td><td>Customs broker</td><td>API request-response</td><td>B/L number</td><td>Release status indicator, hold reason category (if any), last update time</td><td>Success / Temporarily unavailable</td></tr>
+    <tr><td>Push arrival notice</td><td>Vessel arrival event becomes available for a subscribed shipment</td><td>Terminal operator</td><td>EDI message outbound</td><td>Subscription (terminal-shipment mapping)</td><td>Arrival milestone, berth/terminal code, discharge window, container list delta</td><td>Sent / NACK (format error)</td></tr>
+    <tr><td>Provide end-to-end milestone history</td><td>Customer requests a full trace</td><td>Exporter (shipper)</td><td>API request-response</td><td>Booking number</td><td>Ordered milestone history with timestamps, locations, and responsible party role per event</td><td>Success / Partial (missing events flagged)</td></tr>
+    <tr><td>Distribute periodic status snapshot</td><td>Scheduled cutoff (e.g., every 6 hours)</td><td>3PL service provider</td><td>File distribution (SFTP)</td><td>Subscribed shipment list ID</td><td>Snapshot table of current status, last event time, exception flags, ETA per shipment</td><td>File available / Transfer failed</td></tr>
+  </tbody>
+</table>

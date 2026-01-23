@@ -1,0 +1,15 @@
+<table>
+  <caption>CAN Charging Messages with SPN / Byte-Level Payload Layout (BCL/BCS/CCS)</caption>
+  <thead>
+    <tr><th>Message Code</th><th>PGN (Dec/Hex)</th><th>DLC</th><th>Periodicity (ms)</th><th>Byte / Bit Range</th><th>SPN</th><th>Signal Name</th><th>Scaling / Unit</th><th>Source - Destination</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BCL</td><td>4096 / 0x001000</td><td>5</td><td>50</td><td>Byte1 bits0..7</td><td>2901</td><td>Requested Charge Current</td><td>0.1 A/bit</td><td>Vehicle - Charger</td></tr>
+    <tr><td>BCL</td><td>4096 / 0x001000</td><td>5</td><td>50</td><td>Byte2 bits0..7</td><td>2902</td><td>Requested Charge Voltage</td><td>0.1 V/bit</td><td>Vehicle - Charger</td></tr>
+    <tr><td>BCL</td><td>4096 / 0x001000</td><td>5</td><td>50</td><td>Byte3 bits0..3</td><td>2903</td><td>Charge Mode</td><td>enum</td><td>Vehicle - Charger</td></tr>
+    <tr><td>BCS</td><td>4352 / 0x001100</td><td>9</td><td>250</td><td>Byte1..2</td><td>2910</td><td>Battery Voltage</td><td>0.1 V/bit</td><td>Vehicle - Charger</td></tr>
+    <tr><td>BCS</td><td>4352 / 0x001100</td><td>9</td><td>250</td><td>Byte3..4</td><td>2911</td><td>Battery Current</td><td>0.1 A/bit</td><td>Vehicle - Charger</td></tr>
+    <tr><td>CCS</td><td>4608 / 0x001200</td><td>7</td><td>50</td><td>Byte1</td><td>2920</td><td>Charger Output Voltage</td><td>0.1 V/bit</td><td>Charger - Vehicle</td></tr>
+    <tr><td>CCS</td><td>4608 / 0x001200</td><td>7</td><td>50</td><td>Byte2</td><td>2921</td><td>Charger Output Current</td><td>0.1 A/bit</td><td>Charger - Vehicle</td></tr>
+  </tbody>
+</table>

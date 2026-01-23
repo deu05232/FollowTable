@@ -1,0 +1,11 @@
+<table>
+  <caption>Single-Block Base64 Encoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Base64_Encode(unsigned char * pucInData,unsigned int uiInDataLen,unsigned char * pucOutData,unsigned int * puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>Perform Base64 encoding on the input data; the encoding format refers to IETFRFC4648</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>pucInData[in](data before encoding)</td></tr>
+  <tr><td>uiInDataLen[in](data length before encoding)</td></tr>
+  <tr><td>pucOutData[out](encoded data)</td></tr>
+  <tr><td>puiOutDataLen[in,out](encoded data length)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0(success)</td></tr>
+  <tr><td>Non-0(failure, return the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

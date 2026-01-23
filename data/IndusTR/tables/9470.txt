@@ -1,0 +1,10 @@
+<table>
+  <caption>Content Operation Parameters with Embedded Reference Object</caption>
+  <tr><th>Parameter Name</th><th>Chinese Name</th><th>Data Type</th><th>Required</th><th>Remarks</th></tr>
+  <tr><td>projectId</td><td>Project Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the project</td></tr>
+  <tr><td>containerId</td><td>Container Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the container</td></tr>
+  <tr><td>contentId</td><td>Content Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the content</td></tr>
+  <tr><td>ref</td><td>Reference</td><td>ref</td><td>No</td><td>Optional link to another container as part of the content operation</td></tr>
+  <tr><td>name</td><td>Name</td><td>string</td><td>No</td><td>Content name</td></tr>
+  <tr><td>checksum</td><td>Checksum</td><td>string</td><td>No</td><td>Integrity checksum for the content payload</td></tr>
+</table>

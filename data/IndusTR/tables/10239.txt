@@ -1,0 +1,14 @@
+<table>
+  <caption>ARCore C API: Get Tracking State with Anchor Output</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>Trackable object pointer</td></tr>
+    <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>Out-parameter returning the current tracking state</td></tr>
+    <tr><td>out_anchor_list</td><td>ArAnchorList *</td><td>Out-parameter returning anchors attached to the trackable</td></tr>
+    <tr><td>out_anchor_count</td><td>int32_t *</td><td>Out-parameter returning number of anchors produced</td></tr>
+    <tr><td>include_detached</td><td>bool</td><td>Whether to include anchors no longer tracked</td></tr>
+  </tbody>
+</table>

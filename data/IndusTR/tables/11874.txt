@@ -1,0 +1,14 @@
+<table>
+  <caption>Power Supply Grade Requirements by Output Power Range (No Explicit No-Load Limit)</caption>
+  <thead>
+    <tr><th>Energy Efficiency Grade</th><th>Rated Output Power Range (Po), W</th><th>Minimum Average Efficiency in Active Mode</th><th>Minimum Power Factor (PF) at Rated Load</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Grade 1</td><td>0 < Po ≤ 1</td><td>0.50×Po + 0.120</td><td>Not required</td><td>Efficiency formula for low-power adapters</td></tr>
+    <tr><td>1 < Po ≤ 10</td><td>0.070×ln(Po) - 0.0010×Po + 0.675</td><td>Not required</td><td>Active-mode average efficiency requirement</td></tr>
+    <tr><td>10 < Po ≤ 49</td><td>0.082×ln(Po) - 0.0012×Po + 0.695</td><td>0.90</td><td>PF begins to apply for mid-power range</td></tr>
+    <tr><td>49 < Po ≤ 100</td><td>0.905</td><td>0.93</td><td>Fixed minimum efficiency threshold</td></tr>
+    <tr><td>100 < Po ≤ 250</td><td>0.910</td><td>0.93</td><td>Fixed minimum efficiency threshold</td></tr>
+    <tr><td>250 < Po ≤ 500</td><td>0.915</td><td>0.95</td><td>High-power PF tightened</td></tr>
+  </tbody>
+</table>

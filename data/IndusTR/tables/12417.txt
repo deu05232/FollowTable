@@ -1,0 +1,16 @@
+<table>
+  <caption>CC Sample Parsing Decision Tree (Start Code, Type Switch, and Payload Termination)</caption>
+  <thead>
+    <tr><th>Step</th><th>Field / action</th><th>Syntax</th><th>Purpose in framing</th><th>Branch / repetition</th><th>Boundary rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Peek for sample boundary</td><td>next_bits(32)</td><td>Decide if a new CC_sample starts</td><td>If equals CC_sample_start_code → parse sample</td><td>If not equal → stop parsing samples in current sequence</td></tr>
+    <tr><td>2</td><td>Read CC_sample_start_code</td><td>f(32)</td><td>Hard synchronization marker</td><td>No branch</td><td>Defines the exact start of this sample</td></tr>
+    <tr><td>3</td><td>Read CC_type</td><td>u(8)</td><td>Select payload grammar</td><td>switch(CC_type)</td><td>Type controls which structures appear next</td></tr>
+    <tr><td>4</td><td>Parse time_information (optional)</td><td>if(present) time_information()</td><td>Temporal association for the sample</td><td>Presence decided by CC_type or a payload flag</td><td>Ends after its fixed/flag-driven fields; then continue to next element</td></tr>
+    <tr><td>5</td><td>Parse caption_units list</td><td>do { caption_unit() } while(more_units)</td><td>Repeated units inside the sample payload</td><td>more_units derived from a length field or an end marker</td><td>Iteration stops when remaining_payload_bytes == 0 or unit_end_flag == 1</td></tr>
+    <tr><td>6</td><td>caption_unit()</td><td>unit_type + unit_data</td><td>Sub-container within payload</td><td>unit_type selects unit_data syntax</td><td>unit_data length is explicit (unit_length) or implied by unit_type</td></tr>
+    <tr><td>7</td><td>Sample payload termination</td><td>payload_end</td><td>Defines where next sample may begin</td><td>Return to Step 1</td><td>Payload ends at declared length, or when next_bits(32) matches the next start_code (transport permitting)</td></tr>
+    <tr><td>8</td><td>Sequence termination</td><td>sequence_end</td><td>Stop condition for CC_sequence()</td><td>Exit outer loop</td><td>Triggered by failed start_code lookahead or end_of_stream</td></tr>
+  </tbody>
+</table>

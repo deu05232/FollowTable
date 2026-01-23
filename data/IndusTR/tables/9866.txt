@@ -1,0 +1,18 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Transmitter RF Requirements (Test Checklist)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Unit</th><th>Test Conditions</th><th>Required Limit (Pass/Fail)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Operating frequency (Channel A)</td><td>MHz</td><td>Device configured to nominal channel; steady carrier measurement</td><td>161.975 MHz nominal</td></tr>
+    <tr><td>Operating frequency (Channel B)</td><td>MHz</td><td>Device configured to nominal channel; steady carrier measurement</td><td>162.025 MHz nominal</td></tr>
+    <tr><td>Carrier frequency error</td><td>Hz</td><td>Normal environment (e.g., 15–35 °C, rated supply)</td><td>−500 Hz ≤ Fe ≤ +500 Hz</td></tr>
+    <tr><td>Carrier frequency error</td><td>Hz</td><td>Extreme environment (temperature and supply at declared limits)</td><td>−1 500 Hz ≤ Fe ≤ +1 500 Hz</td></tr>
+    <tr><td>Transmit power (conducted)</td><td>W</td><td>Measured at RF connector, 50 Ω load</td><td>2.0 W nominal; 1.6 W to 2.5 W</td></tr>
+    <tr><td>Transmission duration per burst</td><td>ms</td><td>One complete transmission burst including ramp-up/down</td><td>≤ 108 ms</td></tr>
+    <tr><td>Adjacent channel power (ACP)</td><td>dBc</td><td>Measured in adjacent 25 kHz channel, same power state</td><td>≤ −70 dBc</td></tr>
+    <tr><td>Spurious emissions (conducted)</td><td>dBm</td><td>30 MHz–1 GHz, outside necessary bandwidth</td><td>≤ −36 dBm</td></tr>
+    <tr><td>Spurious emissions (conducted)</td><td>dBm</td><td>1 GHz–4 GHz, outside necessary bandwidth</td><td>≤ −30 dBm</td></tr>
+    <tr><td>Transmit duty cycle (time-averaged)</td><td>%</td><td>Worst-case configuration over 1 minute observation</td><td>≤ 10 %</td></tr>
+  </tbody>
+</table>

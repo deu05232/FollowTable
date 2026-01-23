@@ -1,0 +1,10 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration Attributes (Detector & Flat-Field)</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Detector Calibration Sequence</td><td>(0014,3070)</td><td>SQ</td><td>1</td><td>2</td><td>Container for detector calibration-related items</td></tr>
+  <tr><td>>Calibration DateTime</td><td>(0014,3071)</td><td>DT</td><td>1</td><td>2</td><td>Date and time when the calibration was performed</td></tr>
+  <tr><td>>Calibration Method</td><td>(0014,3072)</td><td>CS</td><td>1</td><td>2</td><td>Method used for the calibration (e.g., offset, gain, flat-field)</td></tr>
+  <tr><td>>Flat Field Correction File</td><td>(0014,3073)</td><td>OB</td><td>1</td><td>3</td><td>Binary content of the flat-field correction data</td></tr>
+  <tr><td>>Calibration Validity</td><td>(0014,3074)</td><td>CS</td><td>1</td><td>3</td><td>Indicates whether the calibration is valid for this acquisition</td></tr>
+  <tr><td>>Calibration Notes</td><td>(0014,3075)</td><td>LT</td><td>1</td><td>3</td><td>Free-text notes about the calibration procedure</td></tr>
+</table>

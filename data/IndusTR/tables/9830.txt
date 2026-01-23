@@ -1,0 +1,14 @@
+<table>
+  <caption>Mixer Constant-Temperature Control and Energy/Viscosity Feedback Loops</caption>
+  <thead>
+    <tr><th>Loop ID</th><th>Mixing Phase</th><th>Measured Input (Sensor)</th><th>Recipe / Target</th><th>Error / Condition</th><th>Decision Logic</th><th>Controlled Output (Command)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MX-01</td><td>Ram loading & plasticizing</td><td>Compound temperature T (RTD, °C)</td><td>Tspfrom recipe (°C)</td><td>e = Tsp− T</td><td>PID on temperature; prioritize fast correction when |e|>ΔT</td><td>Cooling/heating valve opening utemp(%)</td></tr>
+    <tr><td>MX-02</td><td>High-shear mixing</td><td>Motor torque τ (Nm) and rotor speed ω (rpm)</td><td>Target specific energy Esp(kWh/ton)</td><td>E = ∫(τ·ω)dt; e = Esp− E</td><td>Energy-based trim: if e>0 keep speed; if e<0 reduce speed to avoid over-mixing</td><td>Main motor speed setpoint ωsp(rpm)</td></tr>
+    <tr><td>MX-03</td><td>Temperature overshoot prevention</td><td>Temperature rate dT/dt (°C/s)</td><td>dT/dt limit from recipe</td><td>if dT/dt > limit</td><td>Rule + PID override: reduce shear immediately, then hand back to PID</td><td>Motor speed override Δω and ram pressure setpoint Pram(bar)</td></tr>
+    <tr><td>MX-04</td><td>Fill factor / ram position control</td><td>Ram position x (mm) and chamber pressure p (bar)</td><td>Recipe ram position xsp/ pressure psp</td><td>ex, ep</td><td>Two-variable control: keep pressure within band while tracking position</td><td>Hydraulic valve command uram(%)</td></tr>
+    <tr><td>MX-05</td><td>Discharge readiness stabilization</td><td>Temperature T and viscosity proxy (torque ripple RMS)</td><td>Recipe discharge temp Tdisand torque-ripple band</td><td>if T≈Tdisbut torque ripple high</td><td>Extend mixing with lower speed until ripple returns to band (anti-variability loop)</td><td>Low-speed setpoint ωholdand valve opening trim</td></tr>
+    <tr><td>MX-06</td><td>Cooling water control</td><td>Jacket inlet/outlet ΔTw(°C) and flow (L/min)</td><td>Recipe ΔTw,spand flow limits</td><td>e = ΔTw,sp− ΔTw</td><td>PI on ΔTwwith flow constraint</td><td>Water valve command uw(%) / pump speed setpoint</td></tr>
+  </tbody>
+</table>

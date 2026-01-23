@@ -1,0 +1,14 @@
+<table>
+  <caption>Detected Scene Objects Summary (Person/Vehicle/Item as Primary Rows)</caption>
+  <thead>
+    <tr><th>Object No.</th><th>Object Category</th><th>Object Label</th><th>First Seen Time</th><th>Last Seen Time</th><th>Main Color</th><th>Bounding Box (x,y,w,h)</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Person</td><td>Suspected male</td><td>2025-03-01T10:15:12Z</td><td>2025-03-01T10:18:02Z</td><td>Black</td><td>128,90,86,214</td><td>Carrying bag</td></tr>
+    <tr><td>2</td><td>Vehicle</td><td>Sedan</td><td>2025-03-01T10:15:45Z</td><td>2025-03-01T10:17:20Z</td><td>White</td><td>360,142,172,183</td><td>Plate unclear</td></tr>
+    <tr><td>3</td><td>Item</td><td>Backpack</td><td>2025-03-01T10:15:20Z</td><td>2025-03-01T10:18:00Z</td><td>Blue</td><td>170,210,65,90</td><td>Associated with Object 1</td></tr>
+    <tr><td>4</td><td>Person</td><td>Female</td><td>2025-03-01T10:16:05Z</td><td>2025-03-01T10:16:50Z</td><td>Red</td><td>240,95,78,205</td><td>Walking opposite direction</td></tr>
+    <tr><td>5</td><td>Vehicle</td><td>Motorcycle</td><td>2025-03-01T10:16:30Z</td><td>2025-03-01T10:18:10Z</td><td>Black</td><td>410,180,120,110</td><td>Fast moving</td></tr>
+    <tr><td>6</td><td>Scene</td><td>Entrance zone</td><td>2025-03-01T10:15:10Z</td><td>2025-03-01T10:18:40Z</td><td>N/A</td><td>0,0,1920,1080</td><td>Region of interest</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>High Definition Video Sampling Structure Requirements</caption>
+  <tr><td>Serial No.</td><td>Item</td><td>Parameter value</td></tr>
+  <tr><td>1</td><td>Number of effective samples per line</td><td>1920</td></tr>
+  <tr><td>2</td><td>Effective scanning lines per frame</td><td>1080</td></tr>
+  <tr><td>3</td><td>Sampling structure</td><td>Orthogonal sampling</td></tr>
+  <tr><td>4</td><td>Pixel shape</td><td>Square pixel</td></tr>
+  <tr><td>5</td><td>Picture aspect ratio</td><td>16:9</td></tr>
+  <tr><td>6</td><td>Scanning lines per frame</td><td>1125 lines</td></tr>
+  <tr><td>7</td><td>Vertical scanning type</td><td>Progressive or 2:1 interlaced scanning</td></tr>
+  <tr><td>8</td><td>Vertical scanning frequency</td><td>Interlaced 50 fields, progressive 24/25 frames</td></tr>
+  <tr><td>9</td><td>Sampling frequency</td><td>Luminance 74.25 MHz, chrominance 37.125 MHz</td></tr>
+  <tr><td>10</td><td>Quantization levels</td><td>8 bit or 10 bit</td></tr>
+  <tr><td>11</td><td>R, G, B levels</td><td>-35 mV~735mV</td></tr>
+  <tr><td>12</td><td>Y signal level</td><td>-7 mV~721 mV</td></tr>
+  <tr><td>13</td><td>Difference between black level and blanking level</td><td>0 mV~50 mV</td></tr>
+  <tr><td>14</td><td>Encoding</td><td>Complies with GB/T 33475.2</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Acceptance Disposition Matrix for Steel Wire Rope Lots (Decision Rules by Failure Count)</caption>
+  <thead>
+    <tr><th rowspan="2">Inspection scheme</th><th rowspan="2">Lot size</th><th colspan="3">Number of nonconforming results allowed</th><th rowspan="2">Disposition</th><th rowspan="2">Follow-up action</th></tr>
+    <tr><th>Visual / surface</th><th>Mechanical tests</th><th>Dimensional checks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Normal</td><td>1–10</td><td>≤1</td><td>0</td><td>≤1</td><td>Accept</td><td>No action</td></tr>
+    <tr><td>11–50</td><td>≤2</td><td>0</td><td>≤2</td><td>Accept</td><td>Increase sampling next lot</td></tr>
+    <tr><td>Normal</td><td>>50</td><td>≤3</td><td>0</td><td>≤3</td><td>Accept</td><td>Audit supplier process</td></tr>
+    <tr><td rowspan="2">Tightened</td><td>1–10</td><td>0</td><td>0</td><td>≤1</td><td>Accept</td><td>Maintain tightened for 3 lots</td></tr>
+    <tr><td>11–50</td><td>≤1</td><td>0</td><td>≤1</td><td>Conditional accept</td><td>Sort and rework affected reels</td></tr>
+    <tr><td rowspan="2">Reduced</td><td>1–10</td><td>≤2</td><td>0</td><td>≤2</td><td>Accept</td><td>Return to normal after 1 lot</td></tr>
+    <tr><td>11–50</td><td>≤3</td><td>0</td><td>≤3</td><td>Accept</td><td>Skip one mechanical test item</td></tr>
+    <tr><td>Any</td><td>Any</td><td>>3</td><td>≥1</td><td>>3</td><td>Reject</td><td>100% screening or scrap lot</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>User Terminal Application File: Plain Identifier Directory (No Security Material)</caption>
+  <thead>
+    <tr><th>Category</th><th>Identifier Name</th><th>Length (bytes)</th><th>Format</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">User</td><td>User ID</td><td>6</td><td>Binary</td><td>Primary user identifier</td></tr>
+    <tr><td>User Group ID</td><td>6</td><td>Binary</td><td>Logical grouping identifier (no key mapping)</td></tr>
+    <tr><td>Role Code</td><td>1</td><td>Enum</td><td>00: user; 01: operator; 02: supervisor</td></tr>
+    <tr><td rowspan="3">Device</td><td>Terminal ID</td><td>8</td><td>HEX</td><td>Vendor-specific terminal identifier</td></tr>
+    <tr><td>MAC Address</td><td>6</td><td>Binary</td><td>Network interface address</td></tr>
+    <tr><td>Bluetooth Address</td><td>6</td><td>Binary</td><td>Bluetooth controller address</td></tr>
+    <tr><td rowspan="2">Application</td><td>Application Instance ID</td><td>16</td><td>UUID</td><td>Unique app instance identifier</td></tr>
+    <tr><td>Installation ID</td><td>12</td><td>ASCII</td><td>Installer-generated tracking identifier</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>High-Altitude Scientific Balloon Pre-Release Avionics Interface Checkout Record</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Test Point / Interface Detail</th><th>Expected Value</th><th>Measured Value</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Command & Data Handling</td><td>Primary flight computer Ethernet link (FC ETH0 ↔ Payload Switch)</td><td>Link up, 100 Mbps full-duplex</td><td>Link up, 100 Mbps full-duplex</td><td>No packet loss during 60 s ping test</td></tr>
+    <tr><td>Telemetry UART port (FC UART2) idle level</td><td>3.3 V TTL idle HIGH</td><td>3.28 V idle HIGH</td><td>Within tolerance</td></tr>
+    <tr><td>Time sync (GPS PPS to FC input)</td><td>PPS amplitude 3.0–3.3 V, period 1.000 s</td><td>3.12 V, 1.000 s</td><td>Stable over 5 min</td></tr>
+    <tr><td rowspan="3">RF / Tracking</td><td>Primary telemetry transmitter output power (RF OUT)</td><td>30 dBm ± 1 dB</td><td>29.6 dBm</td><td>Measured at attenuator output</td></tr>
+    <tr><td>Antenna VSWR (Telemetry antenna port)</td><td>≤ 2.0:1 at assigned frequency</td><td>1.6:1</td><td>Connector torqued to spec</td></tr>
+    <tr><td>Beacon ID modulation check</td><td>Correct callsign + 1 Hz tone</td><td>Correct callsign + 1.01 Hz tone</td><td>Minor tone offset acceptable</td></tr>
+    <tr><td rowspan="2">Power</td><td>Main bus voltage at avionics distribution (VBUS)</td><td>28.0 V ± 1.0 V</td><td>27.7 V</td><td>Battery at 93% SOC</td></tr>
+    <tr><td>Avionics current draw at standby (IBUS)</td><td>≤ 2.5 A</td><td>2.2 A</td><td>All payload heaters OFF</td></tr>
+    <tr><td rowspan="2">Environmental Sensors</td><td>External temperature sensor (I2C addr 0x48) reading at ambient</td><td>Ambient ± 2 °C (reference thermometer)</td><td>22.4 °C vs ref 21.8 °C</td><td>Δ=0.6 °C</td></tr>
+    <tr><td>Pressure sensor zero check (sealed reference cap)</td><td>101.3 kPa ± 1.0 kPa at sea level</td><td>100.9 kPa</td><td>Cal date valid</td></tr>
+  </tbody>
+</table>

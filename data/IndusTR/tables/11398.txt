@@ -1,0 +1,22 @@
+<table>
+  <caption>Transport Handling Impact (Unpackaged Unit) — Shock/Bump Requirements and Power State Declaration</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Test overview</td><td>Test type</td><td>Handling shock / bump (transport handling simulation)</td></tr>
+    <tr><td>Standard reference</td><td>IEC 60068-2-29 (Bump) or equivalent transport-handling bump method</td></tr>
+    <tr><td>Objective</td><td>Assess robustness against repeated handling impacts when transported between workstations or warehouses</td></tr>
+    <tr><td rowspan="2">Specimen condition</td><td>Packaging state</td><td>Unpackaged (equipment in bare condition, mounted on its intended baseplate or brackets)</td></tr>
+    <tr><td>Power condition</td><td>Power disconnected; all connectors unmated and protected with caps</td></tr>
+    <tr><td rowspan="5">Impact parameters</td><td>Waveform</td><td>Half-sine</td></tr>
+    <tr><td>Peak acceleration</td><td>50 m/s² (≈5 g)</td></tr>
+    <tr><td>Pulse duration</td><td>6 ms</td></tr>
+    <tr><td>Repetition rate</td><td>10–30 bumps per minute</td></tr>
+    <tr><td>Number of impacts</td><td>1,000 total (distributed equally across ±X, ±Y, ±Z)</td></tr>
+    <tr><td rowspan="2">Mounting & orientation</td><td>Mounting method</td><td>Rigidly fixed to a test fixture representative of installation; fixture secured to bump machine table</td></tr>
+    <tr><td>Orientation plan</td><td>Sequence: +X/−X, +Y/−Y, +Z/−Z; rotate specimen/fixture to achieve each axis</td></tr>
+    <tr><td rowspan="2">Post-test checks</td><td>Visual inspection</td><td>No loosened terminals, cracked housings, or displaced heat sinks; labels remain legible</td></tr>
+    <tr><td>Electrical safety verification</td><td>After test (still de-energized), verify insulation resistance and protective earth continuity meet limits before any power reconnection</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+<table>
+  <caption>Definition of four CA-models KKW-1 – KKW-4</caption>
+  <tr><td>Dynamical part of all KKW-models</td></tr>
+  <tr><td>_(n+1)=(0,(v_(free),v_(s),n,v_(c),n)),g% _(n)=x_(,n)-x_(n)-d ,</td></tr>
+  <tr><td>v_(s),n=g_(n)/τ,v_(c),n=\{[]llv_(n)+% aτ&\, $g_(n)>D_(n)-d$,\\ v_(n)+aτ(v_(,n)-v_(n))&\, $g_(n)≤ D_(n)-d$,\\ .</td></tr>
+  <tr><td>v_(free) , d , τ and a are constants.</td></tr>
+  <tr><td>Stochastical part of all KKW-models</td></tr>
+  <tr><td>v_(n+1)=(0,({_(n+1)+aτ_(n),v_(n)+aτ,v_(free),v_% {s,n}})) , x_(n+1)=x_(n)+v_(n+1)τ ,</td></tr>
+  <tr><td>_(n)=\{[]ll-1&$r</td></tr>
+  <tr><td>Specifications of synchronization distance D_(n) and noise _(n)</td></tr>
+  <tr><td>for CA-model KKW-1 (cf. Fig. LABEL:NaSch_Diagram (b)):</td></tr>
+  <tr><td>D_(n)=d+kv_(n)τ,p_(b)(v_(n))=\{[]llp_(0)&% $v_(n)=0$\\ p&$v_(n)>0$.,p_(a)(v_(n))=\{% array[]llp_(a1)&$v_(n)</td></tr>
+  <tr><td>constant parameters: k , p_(0) , p , p_(a1) , p_(a2) , v_(p) .</td></tr>
+  <tr><td>for CA-model KKW-2 (cf. Fig. LABEL:FlowDensity (a)):</td></tr>
+  <tr><td>D_(n)=d+v_(n)τ+β v_(n)^(2)/2a,p_(b)(v_(n))=\{% array[]llp_(0)&$v_(n)=0$\\ p&$v_(n)>0$\\ . ,</td></tr>
+  <tr><td>constant parameters: β , p_(0) , p , p_(a) .</td></tr>
+  <tr><td>for CA-model KKW-3 (cf. Fig. LABEL:FlowDensity (a)):</td></tr>
+  <tr><td>D_(n)=d+v_(n)τ+β v_(n)^(2)/2a,p_(b)(v_(n))=\{% array[]llp_(0)&$v_(n)=0$\\ p&$0</td></tr>
+  <tr><td>constant parameters: p_(a)=0 , β , p_(0) , p .</td></tr>
+  <tr><td>for CA-model KKW-4 (cf. Fig. LABEL:FlowDensity (b)):</td></tr>
+  <tr><td>D_(n)=d_(1)+kv_(n)τ,p_(b)(v_(n))=\{[]llp_(0)% &$v_(n)=0$\\ p&$v_(n)>0$. ,</td></tr>
+  <tr><td>constant parameters: d_(1)</td></tr>
+</table>

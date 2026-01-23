@@ -1,0 +1,16 @@
+<table>
+  <caption>Terrestrial Eco-meteorological Observation Records — Field Representation (Types and Lengths)</caption>
+  <thead>
+    <tr><th>Section</th><th>No.</th><th>Field Name</th><th>Field Code</th><th>Storage Type</th><th>Length/Precision</th><th>Unit / Format / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Station</td><td>1</td><td>Station Name</td><td>STATION_NAME</td><td>NVARCHAR</td><td>150</td><td>Variable-length Unicode text, max 150 characters</td></tr>
+    <tr><td>Station</td><td>2</td><td>Station Code</td><td>STATION_ID</td><td>VARCHAR</td><td>16</td><td>Alphanumeric identifier</td></tr>
+    <tr><td>Time</td><td>3</td><td>Observation Time (UTC)</td><td>OBS_TIME_UTC</td><td>DATETIME</td><td>—</td><td>ISO 8601 compatible</td></tr>
+    <tr><td>Meteorology</td><td>4</td><td>Air Temperature</td><td>T_AIR</td><td>DECIMAL</td><td>5,2</td><td>Unit: °C</td></tr>
+    <tr><td>Meteorology</td><td>5</td><td>Relative Humidity</td><td>RH</td><td>DECIMAL</td><td>5,2</td><td>Unit: %</td></tr>
+    <tr><td>Radiation</td><td>6</td><td>Global Solar Radiation</td><td>SW_GLOBAL</td><td>DECIMAL</td><td>7,1</td><td>Unit: W/m²</td></tr>
+    <tr><td>Ecology</td><td>7</td><td>Phenological Stage</td><td>PHENO_STAGE</td><td>VARCHAR</td><td>30</td><td>Text label stored directly (not a referenced code list)</td></tr>
+    <tr><td>Quality</td><td>8</td><td>Quality Flag</td><td>QC_FLAG</td><td>CHAR</td><td>1</td><td>0=OK, 1=Suspect, 2=Bad</td></tr>
+  </tbody>
+</table>

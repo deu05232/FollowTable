@@ -1,0 +1,7 @@
+<table>
+  <caption>Indicator Calculation Reference Table (derivation-oriented)</caption>
+  <tr><th>Indicator name</th><th>Required input data fields</th><th>Normalization approach description</th><th>Derivation / assumptions</th></tr>
+  <tr><td>Freight hubs connected to line-haul/feeder</td><td>Total hubs; resident population</td><td>Divide by population (million persons)</td><td>Assume uniform demand distribution; apply boundary conditions before scoring</td></tr>
+  <tr><td>AAA-rated freight distribution enterprises</td><td>AAA+ enterprise count; city administrative boundary</td><td>Use raw count by city size group</td><td>Qualification threshold defined by rating standard; exceptions handled case-by-case</td></tr>
+  <tr><td>Last-mile joint distribution stations</td><td>Station count; resident population</td><td>Divide by population (million persons)</td><td>Exclude non-operational stations; adjust for temporary closures</td></tr>
+</table>

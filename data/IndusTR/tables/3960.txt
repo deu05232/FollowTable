@@ -1,0 +1,11 @@
+<table>
+  <caption>Definition of Basic Fields for Semantic Unit Annotation</caption>
+  <tr><td>Field Name</td><td>Data Type</td><td>Annotation Content</td><td>Remarks</td></tr>
+  <tr><td>Semantic Unit Identifier</td><td>String</td><td>Semantic unit start-character ID</td><td>See the setup of character identifiers in Table 1</td></tr>
+  <tr><td>Semantic Unit Type</td><td>String</td><td>Entity/Action/Thing/Event</td><td></td></tr>
+  <tr><td>Semantic Unit</td><td>String</td><td>The content of the semantic unit in the original text</td><td></td></tr>
+  <tr><td>Parameter Type</td><td>String</td><td>That is, the type of feature quantity</td><td>Parameter types include various arguments such as attribute, property, capability, aspect, category, restriction, status, count, value, frequency, reference, and time, space, etc.</td></tr>
+  <tr><td>Parameter Name</td><td>String</td><td>The name of the parameter dimension</td><td>For example: color, quality, form, etc.</td></tr>
+  <tr><td>Parameter Value</td><td>String</td><td>That is, the value taken within the above dimension</td><td>For example: red, excellent, minimalist, etc.</td></tr>
+  <tr><td>Timestamp</td><td>Time</td><td>The time when the parameter is true</td><td>When there is no time in the original text for which the parameter is true, the news release publication time or the information source release time should be used</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Power Supply Energy Efficiency Grade Indicators — No-load Active Power Limit and Rated Power Factor</caption>
+  <thead>
+    <tr><th rowspan="2">Energy Efficiency Grade</th><th rowspan="2">Rated Output Power Range (P0), W</th><th colspan="2">Idle / No-load Constraint</th><th rowspan="2">Minimum Power Factor (PF) at Rated Load</th></tr>
+    <tr><th>Maximum Active Power in No-load State, W</th><th>Test Condition Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Grade 1</td><td>0 < P0 ≤ 1</td><td>0.040</td><td>No-load, output disconnected</td><td>—</td></tr>
+    <tr><td>1 < P0 ≤ 10</td><td>0.050</td><td>No-load, output disconnected</td><td>—</td></tr>
+    <tr><td>10 < P0 ≤ 50</td><td>0.060</td><td>No-load, output disconnected</td><td>—</td></tr>
+    <tr><td>50 < P0 ≤ 150</td><td>0.075</td><td>No-load, output disconnected</td><td>0.93</td></tr>
+    <tr><td>150 < P0 ≤ 250</td><td>0.085</td><td>No-load, output disconnected</td><td>0.95</td></tr>
+    <tr><td>250 < P0 ≤ 500</td><td>0.100</td><td>No-load, output disconnected</td><td>0.95</td></tr>
+  </tbody>
+</table>

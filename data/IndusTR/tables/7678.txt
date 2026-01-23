@@ -1,0 +1,7 @@
+<table>
+  <caption>Green tire code storage specification (schema-only)</caption>
+  <tr><th>No.</th><th>Field block</th><th>Storage type</th><th>Bit length</th><th>Default value</th><th>Storage description</th></tr>
+  <tr><td>1</td><td>Green tire code</td><td>INT</td><td>16</td><td>0</td><td>Unsigned integer in internal buffer</td></tr>
+  <tr><td>2</td><td>Tread pattern text</td><td>STR</td><td>128</td><td>""</td><td>Fixed-length string storage</td></tr>
+  <tr><td>3</td><td>Specification text</td><td>STR</td><td>256</td><td>""</td><td>Fixed-length string storage</td></tr>
+</table>

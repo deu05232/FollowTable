@@ -1,0 +1,11 @@
+<table>
+  <caption>CAN Identifier Allocation Register (PF PS Address Map for Multiple Services)</caption>
+  <tr><th>Service</th><th>PF (Hex)</th><th>PS (Hex)</th><th>Source Address (SA)</th><th>Destination</th><th>Update Rate</th><th>Remarks</th></tr>
+  <tr><td>Status broadcast</td><td>0x20</td><td>0xFF</td><td>0x56</td><td>All nodes</td><td>1 Hz</td><td>Periodic heartbeat</td></tr>
+  <tr><td>Metering report</td><td>0x21</td><td>0xF4</td><td>0x56</td><td>Charger</td><td>2 Hz</td><td>Energy counters</td></tr>
+  <tr><td>Alarm notification</td><td>0x22</td><td>0xF4</td><td>0x56</td><td>Charger</td><td>On event</td><td>Latched until cleared</td></tr>
+  <tr><td>Remote control</td><td>0x23</td><td>0x56</td><td>0xF4</td><td>Vehicle</td><td>On demand</td><td>Requires authorization</td></tr>
+  <tr><td>Diagnostics</td><td>0x24</td><td>0xF4</td><td>0x56</td><td>Charger</td><td>0.2 Hz</td><td>Extended payload</td></tr>
+  <tr><td>Time sync</td><td>0x25</td><td>0xFF</td><td>0xF4</td><td>All nodes</td><td>0.1 Hz</td><td>UTC seconds</td></tr>
+  <tr><td>Vendor-specific</td><td>0x3E</td><td>0xF4</td><td>0x56</td><td>Charger</td><td>Varies</td><td>Do not use in conformance tests</td></tr>
+</table>

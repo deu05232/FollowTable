@@ -1,0 +1,15 @@
+<table>
+  <caption>Operational Deviations and Compliance Checklist for Shore Power Interface (Including Wiring/Hardware and EMC Items)</caption>
+  <thead>
+    <tr><th rowspan="2">Section</th><th rowspan="2">Check item</th><th colspan="3">Voltage/Frequency deviation behavior</th><th rowspan="2">Wiring/Hardware/EMC requirement (excluded)</th></tr>
+    <tr><th>Steady-state</th><th>Transient</th><th>Recovery</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Electrical operation</td><td>Voltage deviation at PCC</td><td>+5% / -8%</td><td>±18% (≤1 s)</td><td>≤2 s</td><td>Phase identification per color code and terminal labels</td></tr>
+    <tr><td>Frequency deviation at PCC</td><td>±4%</td><td>±9% (≤2 s)</td><td>≤6 s</td><td>EMC immunity: ESD, radiated RF, conducted LF</td></tr>
+    <tr><td rowspan="2">Mechanical interface</td><td>Terminal stud size</td><td colspan="3">N/A</td><td>M6 (≤200 A), M8 (200–630 A), M10 (630–1000 A)</td></tr>
+    <tr><td>Conductor/earthing sizing</td><td colspan="3">N/A</td><td>PE conductor cross-section: Q=S (S≤16), 16 (16<S≤35), S/2 (S>35)</td></tr>
+    <tr><td rowspan="2">Safety tests</td><td>Insulation resistance</td><td colspan="3">N/A</td><td>≥1 MΩ; test voltage 500 VDC (250<U≤690 V)</td></tr>
+    <tr><td>Withstand voltage</td><td colspan="3">N/A</td><td>Dielectric test: 2×Un for 60 s</td></tr>
+  </tbody>
+</table>

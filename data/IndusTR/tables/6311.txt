@@ -1,0 +1,17 @@
+<table>
+  <caption>Business Process — Tracking Information Request, Access Control, and Multi-Party Distribution</caption>
+  <thead>
+    <tr><th>Lifecycle Element</th><th>Condition / Action</th><th>Roles (Requester → Hub → Provider)</th><th>Data Movement / Interfaces</th><th>Resulting State / Response</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Preconditions</td><td>The hub has stored validated tracking events and has an access policy for each shipment (who can see what).</td><td>Shared Data Hub; Carrier; Shipper/Consignee; Freight Forwarder</td><td>Access-control lists; shipment subscription registry</td><td>Shipment data is marked as “queryable” with scoped visibility.</td></tr>
+    <tr><td>Start Trigger</td><td>A requester initiates a tracking query OR the hub detects a condition requiring proactive notification (delay, customs hold, transshipment risk).</td><td>Requester (Shipper/Forwarder/Consignee); Shared Data Hub</td><td>API query / portal request; event-driven rule engine trigger</td><td>Hub opens a request workflow and assigns a request ID.</td></tr>
+    <tr><td>Step 1 — Request Submission</td><td>Requester submits identifiers (container, booking, B/L) and desired scope (timeline, last known status, documents).</td><td>Requester → Shared Data Hub</td><td>REST/EDI request payload; requester credentials</td><td>Hub validates schema and authenticates the requester.</td></tr>
+    <tr><td>Step 2 — Authorization & Redaction</td><td>Hub checks permission and applies data minimization (e.g., hide shipper details for non-authorized parties).</td><td>Shared Data Hub</td><td>Policy decision point; attribute-based access control</td><td>Either proceeds, returns “not authorized,” or returns partial/redacted view.</td></tr>
+    <tr><td>Step 3 — Data Assembly</td><td>Hub assembles the tracking timeline and computed status (current milestone, exceptions, ETA).</td><td>Shared Data Hub</td><td>Timeline store query; analytics/enrichment services</td><td>Builds a response bundle with provenance (event source, timestamps).</td></tr>
+    <tr><td>Step 4 — External Verification (Conditional)</td><td>If required (e.g., customs release status), hub requests confirmation from a public agency system.</td><td>Shared Data Hub ↔ Public Agency (Customs/Port Authority)</td><td>B2G interface; status lookup message; agency reply</td><td>Hub appends verified regulatory status and records evidence/audit.</td></tr>
+    <tr><td>Step 5 — Distribution to Requester</td><td>Hub delivers the requested tracking information and an operation result (success/partial/failure) with reason codes.</td><td>Shared Data Hub → Requester</td><td>API response / EDI delivery; correlation request ID</td><td>Requester receives timeline; hub logs delivery and updates access metrics.</td></tr>
+    <tr><td>Step 6 — Proactive Fan-out (Optional)</td><td>For subscribed parties, hub publishes updates when new events arrive or when thresholds are crossed.</td><td>Shared Data Hub → Subscribers (Carrier, Forwarder, Shipper, Consignee)</td><td>Webhook/event bus; push notification; periodic report</td><td>Subscriber state updated; hub records notification outcomes (delivered/failed).</td></tr>
+    <tr><td>End Condition / Output</td><td>The request workflow closes when information is delivered (or denied) and the hub persists an audit trail.</td><td>Shared Data Hub; Requester; (Optional) Agency</td><td>Audit log; delivery receipt; denial record</td><td>Case closed with final status and retention timer for compliance.</td></tr>
+  </tbody>
+</table>

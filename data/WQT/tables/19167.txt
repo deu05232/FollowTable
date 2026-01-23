@@ -1,0 +1,13 @@
+# Intel Platform Controller Hub (PCH) Part Number Index for Windows 10 Deployment
+
+| PCH Part Number | Common name | Generation hint | Package | Related CPU era | Typical OEM use | Windows 10 deployment note |
+|---|---|---|---|---|---|---|
+| 82801AA | ICH | Legacy | BGA | Pentium III era | Old desktops | Requires legacy storage/USB considerations |
+| 82801BA | ICH2 | Legacy | BGA | Pentium III era | Value PCs | Windows 10 possible but driver gaps likely |
+| 82801DB | ICH4 | Legacy | BGA | Pentium 4 era | Early 2000s | ACPI/USB stack may be limiting |
+| 82801GB | ICH7 | Legacy | BGA | Core Duo era | Corporate fleets | Better than earlier ICH, still legacy |
+| 82801IB | ICH9 | Legacy | BGA | Core 2 era | Business desktops | Often workable with generic Win10 drivers |
+| BD82H61 | H61 PCH | 6-series | BGA | Sandy Bridge | Budget desktops | Common Windows 10 retrofits |
+| BD82Q67 | Q67 PCH | 6-series | BGA | Sandy Bridge | Business | ME/INF packages helpful |
+| SLJ4P | Z97 PCH | 9-series | BGA | Haswell | Enthusiast | Strong Windows 10 support |
+| SR2C4 | Z170 PCH | 100-series | BGA | Skylake | Mainstream | Strong Windows 10 support |

@@ -1,0 +1,10 @@
+<table>
+  <caption>Emergency Management BeiDou System Team Assembly Message Data Format</caption>
+  <tr><td>Serial No.</td><td colspan="2">Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td colspan="2">Task ID</td><td>25</td><td colspan="3">See 6.1.10</td><td></td></tr>
+  <tr><td>2</td><td colspan="2">Assembly Time</td><td>34</td><td colspan="3">See 6.1.8</td><td></td></tr>
+  <tr><td>3</td><td rowspan="3">Assembly Location</td><td>Longitude</td><td>39</td><td colspan="3">See 6.1.1</td><td rowspan="3">N is the number of task locations</td></tr>
+  <tr><td>4</td><td>Latitude</td><td>38</td><td colspan="3">See 6.1.2</td></tr>
+  <tr><td>5</td><td>Elevation</td><td>29</td><td colspan="3">See 6.1.3</td></tr>
+  <tr><td>6</td><td colspan="2">Assembly Requirement Content</td><td>N×8</td><td>Character</td><td colspan="2"></td><td>Variable length, N is the byte length of the assembly requirement content</td></tr>
+</table>

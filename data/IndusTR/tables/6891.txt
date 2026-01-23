@@ -1,0 +1,15 @@
+<table>
+  <caption>Service BOM Structure Combined with Spare Parts Recommendation</caption>
+  <thead>
+    <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parent Part No.</td><td>Upper-level functional component code</td></tr>
+    <tr><td>2</td><td>Child Part No.</td><td>Lower-level functional component code</td></tr>
+    <tr><td>3</td><td>Quantity</td><td>Quantity of the child part used in the parent</td></tr>
+    <tr><td>4</td><td>Spare Part Name</td><td>Name of recommended spare part for service stocking</td></tr>
+    <tr><td>5</td><td>Recommended Spare Quantity</td><td>Suggested spare quantity for the child part</td></tr>
+    <tr><td>6</td><td>Wear-and-Tear Indicator</td><td>Whether the child part is considered wear-and-tear</td></tr>
+    <tr><td>7</td><td>Estimated Service Life</td><td>Expected life of the wear-and-tear child part (hours/cycles)</td></tr>
+  </tbody>
+</table>

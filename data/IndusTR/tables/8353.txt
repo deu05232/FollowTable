@@ -1,0 +1,7 @@
+<table>
+  <caption>Plane detection capabilities by feature description</caption>
+  <tr><th>Capability description</th><th>What it helps with</th><th>Reference name and value</th></tr>
+  <tr><td>Detect horizontal surfaces</td><td>Helps place objects on tables and floors.</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL = 1</td></tr>
+  <tr><td>Detect vertical surfaces</td><td>Helps anchor content to walls and doors.</td><td>AR_PLANE_FINDING_MODE_VERTICAL = 2</td></tr>
+  <tr><td>Disable plane detection</td><td>Reduces processing; placement relies on other methods.</td><td>AR_PLANE_FINDING_MODE_DISABLED = 0</td></tr>
+</table>

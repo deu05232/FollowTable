@@ -1,0 +1,10 @@
+<table>
+  <caption>Authentication Service Deployment Topology (Components and Ports)</caption>
+  <tr><th>Component</th><th>Runtime</th><th>Default Port</th><th>Protocol</th><th>Notes</th></tr>
+  <tr><td>API Gateway</td><td>Kubernetes</td><td>8443</td><td>HTTPS</td><td>Ingress terminates TLS</td></tr>
+  <tr><td>Auth Server</td><td>VM</td><td>9443</td><td>HTTPS</td><td>Issues access tokens</td></tr>
+  <tr><td>Redis Cache</td><td>Container</td><td>6379</td><td>TCP</td><td>Token cache</td></tr>
+  <tr><td>Audit Logger</td><td>Container</td><td>9200</td><td>HTTP</td><td>Elasticsearch endpoint</td></tr>
+  <tr><td>Device Registry</td><td>VM</td><td>8080</td><td>HTTP</td><td>Internal network only</td></tr>
+  <tr><td>WAF</td><td>Appliance</td><td>443</td><td>HTTPS</td><td>Optional layer</td></tr>
+</table>

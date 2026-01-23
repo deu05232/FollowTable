@@ -1,0 +1,21 @@
+<table>
+  <caption>Where CKM constraints enter global fits: mapping of observables to CKM combinations and dominant experimental channels</caption>
+  <thead>
+    <tr><th>Constraint category</th><th>Observable / measurement</th><th>Dominant decay or process</th><th>CKM dependence (schematic)</th><th>Key theory input</th><th>Typical outcome (what is extracted)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">First-row normalization</td><td>Superallowed Ft values</td><td>0+→0+nuclear β decays</td><td>|Vud|</td><td>Radiative + isospin corrections</td><td>|Vud| (direct)</td></tr>
+    <tr><td>Kaon semileptonic widths</td><td>K→πℓν (Ke3, Kμ3)</td><td>|Vus|·f+(0)</td><td>Form factor f+(0) (lattice/ChPT)</td><td>|Vus| (direct)</td></tr>
+    <tr><td rowspan="2">Leptonic decay ratios</td><td>Muon mode ratio</td><td>K→μν vs π→μν</td><td>|Vus/Vud|·(fK/fπ)</td><td>Decay constants ratio fK/fπ(lattice)</td><td>|Vus/Vud| (direct)</td></tr>
+    <tr><td>Tau strange width</td><td>τ→Xsν</td><td>|Vus| (inclusive)</td><td>Finite-energy sum rules, perturbative QCD</td><td>|Vus| (alternate determination)</td></tr>
+    <tr><td rowspan="2">Tree-level b→c</td><td>Zero-recoil normalization</td><td>B→D*ℓν</td><td>|Vcb|·F(1)</td><td>Form factor F(1) (lattice/HQET)</td><td>|Vcb| (exclusive)</td></tr>
+    <tr><td>Inclusive semileptonic moments</td><td>B→Xcℓν</td><td>|Vcb| (inclusive rate)</td><td>Heavy-quark expansion parameters</td><td>|Vcb| (inclusive)</td></tr>
+    <tr><td rowspan="2">Tree-level b→u</td><td>Differential spectrum</td><td>B→πℓν</td><td>|Vub|·f+(q2)</td><td>Form factors (lattice/LCSR)</td><td>|Vub| (exclusive)</td></tr>
+    <tr><td>Endpoint / shape-function region</td><td>B→Xuℓν</td><td>|Vub| (partial rate)</td><td>Shape functions, perturbative matching</td><td>|Vub| (inclusive)</td></tr>
+    <tr><td rowspan="2">Neutral meson mixing</td><td>Mass difference Δmd</td><td>Bd–B̄dmixing</td><td>|Vtd Vtb*|</td><td>Bag parameter, decay constant (lattice)</td><td>|Vtd| (with |Vtb|≈1)</td></tr>
+    <tr><td>Ratio Δms/Δmd</td><td>Bs–B̄svs Bd–B̄d</td><td>|Vts/Vtd|</td><td>SU(3)-breaking ratio ξ (lattice)</td><td>|Vts/Vtd| (reduced theory uncertainty)</td></tr>
+    <tr><td rowspan="2">CP-violating constraints</td><td>Time-dependent asymmetry</td><td>B→J/ψ KS</td><td>sin(2β)</td><td>Penguin pollution control (small)</td><td>Unitarity triangle angle β</td></tr>
+    <tr><td>Direct CPV in kaons</td><td>εKfrom K0–K̄0</td><td>Im[(Vts Vtd*)2]</td><td>Short-distance QCD, B̂K(lattice)</td><td>Constraint on (ρ̄, η̄)</td></tr>
+    <tr><td>Direct |Vtb|</td><td>Single-top cross section</td><td>pp→t + X (t-channel, s-channel, tW)</td><td>|Vtb|</td><td>SM production modeling + PDFs</td><td>|Vtb| without assuming 3×3 unitarity</td></tr>
+  </tbody>
+</table>

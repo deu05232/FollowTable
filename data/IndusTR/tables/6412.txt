@@ -1,0 +1,14 @@
+<table>
+  <caption>Application-layer message field definition — Vehicle Abort (PGID/PID = 0x04)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Field / Parameter</th><th>Byte Offset</th><th>Length (bytes)</th><th>Data Type</th><th>Allowed Values / Encoding</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parameter Group Identifier</td><td>0</td><td>1</td><td>BYTE</td><td>Fixed: 0x04</td><td>Identifies this message as “Vehicle Abort”.</td></tr>
+    <tr><td>2</td><td>Abort Category</td><td>1</td><td>1</td><td>BYTE (ENUM)</td><td>0x01=Safety; 0x02=Communication; 0x03=Hardware; 0x04=User request; 0xFF=Unknown</td><td>High-level classification of the abort.</td></tr>
+    <tr><td>3</td><td>Abort Reason Code</td><td>2</td><td>2</td><td>UINT16 (LE)</td><td>0x0000=No reason; 0x0001=Emergency stop; 0x0002=Isolation fault; 0x0003=Overtemperature; 0x0004=Overvoltage; 0x0005=Overcurrent; 0xFFFF=Not available</td><td>Detailed reason code. Little-endian encoding.</td></tr>
+    <tr><td>4</td><td>Recommended Action</td><td>4</td><td>1</td><td>BYTE (ENUM)</td><td>0x00=null; 0x01=Stop charging; 0x02=Retry allowed; 0x03=Service required</td><td>What the receiver should do after abort.</td></tr>
+    <tr><td>5</td><td>Reserved</td><td>5</td><td>1</td><td>BYTE</td><td>Fixed: 0xFF</td><td>Reserved for future use; transmit as 0xFF, ignore on receipt.</td></tr>
+    <tr><td>6</td><td>Checksum</td><td>6</td><td>1</td><td>BYTE</td><td>0x00–0xFF</td><td>Optional simple checksum over bytes 0–5 (implementation-defined).</td></tr>
+  </tbody>
+</table>

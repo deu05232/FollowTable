@@ -1,0 +1,11 @@
+<table>
+  <caption>Make and Break Capacity Conditions for Different Utilization Categories</caption>
+  <tr><td rowspan="2">Utilization category</td><td rowspan="2">Rated operational current A</td><td colspan="3">Making conditions a</td><td colspan="3">Making and breaking (on/off) conditions</td><td rowspan="2">Energizing time S</td><td rowspan="2">De-energizing time S</td><td rowspan="2">Number of operating cycles</td></tr>
+  <tr><td>I/Ie</td><td>U/Ue</td><td>cos ±0.05</td><td>Ic/Ie</td><td>U/Ue</td><td>cosΦ ±0.05</td></tr>
+  <tr><td rowspan="2">AC-3</td><td>1≤100</td><td rowspan="2">10</td><td rowspan="4">1.05b</td><td>0.45</td><td rowspan="2">8</td><td rowspan="4">1.05</td><td>0.45</td><td rowspan="4">0.05</td><td rowspan="4">d</td><td rowspan="4">50</td></tr>
+  <tr><td>I>100</td><td>0.35</td><td>0.35</td></tr>
+  <tr><td rowspan="2">AC-4</td><td>1≤100</td><td rowspan="2">12</td><td>0.45</td><td rowspan="2">10</td><td>0.45</td></tr>
+  <tr><td>1>100</td><td>0.35</td><td>0.35</td></tr>
+  <tr><td colspan="11">The permissible tolerances of the test parameters shall comply with the provisions of Table 18 in GB/T 14048.1—2023. Note: I is the making current, expressed as the symmetrical AC RMS value; Ic is the making and breaking current, expressed as the symmetrical AC RMS value; Ie is the rated operational current; U is the applied voltage; Ur is the power-frequency recovery voltage; Ue is the rated operational voltage; cosΦ is the power factor of the test circuit.</td></tr>
+  <tr><td colspan="11">a If the manufacturer agrees, the making test may be carried out together with the making and breaking test. In this case, the multiple of the making current is I/Ie, the breaking current is Ic/Ie, the control supply voltage for 25 operating cycles is 110% of the rated control supply voltage Uc, and for the other 25 cycles it is 75% of Uc. b For U/Ue, an error of ±20% is permitted. c The 0.05 s listed in the table is the minimum value; the maximum energizing time shall not exceed 0.2 s. If the contacts have fully closed before re-opening, a time less than 0.05 s is permitted; likewise, if the user and manufacturer agree, the maximum energizing time may also be extended. d The de-energizing time shall comply with the provisions of Table 12.</td></tr>
+</table>

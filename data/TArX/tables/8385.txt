@@ -1,0 +1,14 @@
+<table>
+  <caption>ATP-Dependent Membrane Transport Cycle: Transition Rates and Flux Metrics</caption>
+  <thead>
+    <tr><th>State transition</th><th>Description</th><th>k_forward (s^-1)</th><th>k_reverse (s^-1)</th><th>Turnover (s^-1)</th><th>Ion flux (ions/s)</th><th>ΔG_ATP (kJ/mol)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>E1 + ATP → E1·ATP</th><td>ATP binding</td><td>180</td><td>35</td><td>42</td><td>1.8e6</td><td>-52</td></tr>
+    <tr><th>E1·ATP → E1~P + ADP</th><td>Phosphorylation</td><td>95</td><td>12</td><td>39</td><td>1.7e6</td><td>-52</td></tr>
+    <tr><th>E1~P → E2~P</th><td>Conformational change</td><td>70</td><td>25</td><td>34</td><td>1.5e6</td><td>-51</td></tr>
+    <tr><th>E2~P → E2 + Pi</th><td>Dephosphorylation</td><td>55</td><td>18</td><td>31</td><td>1.4e6</td><td>-51</td></tr>
+    <tr><th>E2 → E1</th><td>Reset step</td><td>40</td><td>22</td><td>28</td><td>1.2e6</td><td>-50</td></tr>
+    <tr><th>Net cycle</th><td>Overall transport cycle</td><td>—</td><td>—</td><td>29</td><td>1.3e6</td><td>-51</td></tr>
+  </tbody>
+</table>

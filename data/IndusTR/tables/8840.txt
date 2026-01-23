@@ -1,0 +1,14 @@
+<table>
+  <caption>Segmentation/Reassembly Control Fields and Receiver State (FSN/TF/TML Driven)</caption>
+  <thead>
+    <tr><th>Receiver Event</th><th>Observed Fields</th><th>Validation</th><th>State Update</th><th>Missing-Frame Handling</th><th>Completion Condition</th><th>Recommended Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Receive first segment</td><td>FSN=0, TF, TML</td><td>TF >= 2 and TML > 0; TML consistent with TF</td><td>Create reassembly context keyed by message ID (e.g., source+dest+PGN)</td><td>Initialize missing set = {1..TF-1}</td><td>Not complete</td><td>Start timer; accept payload bytes into buffer[0..]</td></tr>
+    <tr><td>Receive middle segment</td><td>FSN in [1..TF-2]</td><td>Context exists; FSN not already received</td><td>Mark FSN received; write bytes at computed offset</td><td>If gaps remain, keep timer running</td><td>Not complete</td><td>Optionally send selective ACK for contiguous range</td></tr>
+    <tr><td>Receive last segment</td><td>FSN=TF-1</td><td>Context exists; FSN valid; segment length does not exceed remaining bytes</td><td>Write final bytes; ignore 0xFF padding beyond TML</td><td>If still missing earlier frames, wait/retry</td><td>Complete when all FSN received AND bytes == TML</td><td>Deliver reassembled payload upward; clear context</td></tr>
+    <tr><td>Duplicate segment</td><td>FSN repeats</td><td>FSN already marked received</td><td>No change (idempotent)</td><td>No change</td><td>Unchanged</td><td>Drop silently or count statistics</td></tr>
+    <tr><td>Out-of-range FSN</td><td>FSN >= TF (or TF unknown)</td><td>Invalid unless no context and FSN=0</td><td>Do not create/modify context</td><td>N/A</td><td>Never completes</td><td>Discard; optionally raise error</td></tr>
+    <tr><td>Reassembly timeout</td><td>Context timer expired</td><td>Some FSN still missing</td><td>Abort context; free buffer</td><td>N/A</td><td>Incomplete</td><td>Request retransmission (if supported) or report failure</td></tr>
+  </tbody>
+</table>

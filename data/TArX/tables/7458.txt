@@ -1,0 +1,12 @@
+<table>
+  <caption>Parameters used in the simulations. The surface tension has been obtained in a planar geometry, by integrating the lateral part of the pressure tensor in normal direction. The characteristic fluid parameters are given in model units [m.u.] and in real units (MKS), where N m ≃ 3 . Note, that the time step Δ ⁢ t for the numerical integration of the MDPD equations is 2 orders of magnitude larger than Δ ⁢ t in a comparable MD simulation.</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>m.u.</th><th>MKS</th></tr>
+  <tr><th>Fluid particle density</th><td></td><td>6.00</td><td>(1000/^(3))</td></tr>
+  <tr><th>Interaction range (attr.)</th><td></td><td>1.0</td><td>(0.82)</td></tr>
+  <tr><th>Interaction range (rep.)</th><td></td><td>0.75</td><td></td></tr>
+  <tr><th>Amplitude of</th><td></td><td>6.00</td><td></td></tr>
+  <tr><th>Compress.</th><td>p/ρ</td><td>45± 2</td><td></td></tr>
+  <tr><th>Surface Tension</th><td></td><td>7.51± 0.04</td><td>(0.138/m)</td></tr>
+  <tr><th>Viscosity</th><td></td><td>7.41± 0.06</td><td>(0.0003\,s)</td></tr>
+  <tr><th>MDPD time step</th><td>Δ t</td><td>0.02</td><td>76 fs</td></tr>
+</table>

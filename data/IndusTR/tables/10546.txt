@@ -1,0 +1,17 @@
+<table>
+  <caption>Eco-Meteorological Event Code Record with Station Profile and Contact Fields</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Record Content</th><th>Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station code</td><td>ST_CODE</td><td>Characters(20)</td><td>Controlled station identifier</td></tr>
+    <tr><td>2</td><td>Station full name</td><td>ST_NAME</td><td>Variable characters(150)</td><td>Text</td></tr>
+    <tr><td>3</td><td>Station alias</td><td>ST_ALIAS</td><td>Variable characters(100)</td><td>Text</td></tr>
+    <tr><td>4</td><td>Station address</td><td>ST_ADDRESS</td><td>Variable characters(300)</td><td>Street/number</td></tr>
+    <tr><td>5</td><td>Observation time</td><td>OBS_TIME</td><td>Date</td><td>YYYY-MM-DD</td></tr>
+    <tr><td>6</td><td>Human-caused ecological event code</td><td>H_EVT_CODE</td><td>Characters(2)</td><td>Controlled list reference (e.g., B.25)</td></tr>
+    <tr><td>7</td><td>Observer name</td><td>OBSERVER</td><td>Variable characters(60)</td><td>Person in charge</td></tr>
+    <tr><td>8</td><td>Observer phone</td><td>OBSERVER_TEL</td><td>Variable characters(30)</td><td>Telephone number</td></tr>
+    <tr><td>9</td><td>Remarks</td><td>REMARK</td><td>Variable characters(200)</td><td>Free text</td></tr>
+  </tbody>
+</table>

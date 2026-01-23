@@ -1,0 +1,10 @@
+<table>
+  <caption>Mixed traversal requirements: explicit ranges plus conditional branching</caption>
+  <tr><th>Syntax element name</th><th>Test requirements</th></tr>
+  <tr><td>slice_qp_delta</td><td>Traverse cases where the value of slice_qp_delta equals -12 to 12</td></tr>
+  <tr><td>cu_qp_delta_abs</td><td>When CuQpDeltaEnabledFlag equals 1, traverse cases where the value of cu_qp_delta_abs equals 0 to 5; otherwise skip parsing</td></tr>
+  <tr><td>intra_mip_transposed_flag</td><td>Traverse cases where the value of intra_mip_transposed_flag equals 0 to 1, and traverse combinations with mip_flag</td></tr>
+  <tr><td>partition_mode</td><td>When IntraCuFlag equals 1, traverse cases where the value of partition_mode equals 0 to 3; when IntraCuFlag equals 0, traverse cases where the value of partition_mode equals 0 to 7</td></tr>
+  <tr><td>chroma_qp_offset</td><td>Traverse cases where the value of chroma_qp_offset equals -3 to 3, and traverse combinations with ChromaFormatIdc</td></tr>
+  <tr><td>tu_split_flag</td><td>Traverse cases where the value of tu_split_flag equals 0 to 1, and traverse combinations with tu_size</td></tr>
+</table>

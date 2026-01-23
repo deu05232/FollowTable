@@ -1,0 +1,10 @@
+<table>
+  <caption>Ground Processing Pipeline Configuration Parameters for Satellite Product Generation</caption>
+  <tr><th>Pipeline Stage</th><th>Parameter</th><th>Default Value</th><th>Unit</th><th>Applies To</th><th>Remarks</th></tr>
+  <tr><td>Ingestion</td><td>max_file_size</td><td>4096</td><td>MB</td><td>HDF packages</td><td>Reject larger files</td></tr>
+  <tr><td>Calibration</td><td>calibration_mode</td><td>OBC-assisted</td><td>-</td><td>Radiance</td><td>Uses onboard calibration</td></tr>
+  <tr><td>Georeferencing</td><td>geo_grid</td><td>0.02</td><td>deg</td><td>FDI</td><td>Target grid resolution</td></tr>
+  <tr><td>Compositing</td><td>mosaic_overlap</td><td>12</td><td>pixels</td><td>MOS</td><td>Blend zone width</td></tr>
+  <tr><td>Compression</td><td>codec</td><td>DEFLATE</td><td>-</td><td>Archive</td><td>Lossless</td></tr>
+  <tr><td>Export</td><td>delivery_protocol</td><td>HTTPS</td><td>-</td><td>All</td><td>Signed URLs enabled</td></tr>
+</table>

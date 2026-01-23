@@ -1,0 +1,14 @@
+<table>
+  <caption>Authentication Parameter Matrix for Protected Endpoints (Minimum Required Identity + Token)</caption>
+  <thead>
+    <tr><th>Endpoint Category</th><th>API Method</th><th>Caller Identity Parameter</th><th>Credential Parameter</th><th>Credential Representation</th><th>Transport</th><th>Validation Rules</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Device lookup</td><td>GET</td><td>userID (string)</td><td>access_token (string)</td><td>Opaque token or JWT string</td><td>Query parameter</td><td>userID must match token subject; token not expired.</td></tr>
+    <tr><td>Device operations</td><td>POST</td><td>userID (string)</td><td>access_token (string)</td><td>Bearer token string</td><td>Header: Authorization</td><td>Requires write scope; reject if token missing prefix "Bearer".</td></tr>
+    <tr><td>Gateway management</td><td>POST</td><td>userID (string)</td><td>access_token (string)</td><td>String (min length 16)</td><td>Either Header or Query (choose one)</td><td>Do not provide in both places; prefer header when available.</td></tr>
+    <tr><td>Material/form submission</td><td>POST</td><td>userID (string)</td><td>access_token (string)</td><td>JWT string (base64url segments)</td><td>Header: Authorization</td><td>Clock skew tolerated ±300s when JWT contains iat/exp.</td></tr>
+    <tr><td>Authentication/handshake calls</td><td>POST</td><td>userID (string)</td><td>access_token (string)</td><td>Temporary token string</td><td>Query parameter</td><td>Token single-use; invalid after first successful call.</td></tr>
+    <tr><td>Service registration / admin</td><td>POST</td><td>userID (string)</td><td>access_token (string)</td><td>Bearer token string</td><td>Header: Authorization</td><td>Must include admin scope; audit log recorded for userID.</td></tr>
+  </tbody>
+</table>

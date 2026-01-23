@@ -1,0 +1,14 @@
+<table>
+  <caption>PGI 0x02 Vehicle Confirmation Result Message Field Layout</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Byte Offset (Start)</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Byte 1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x02</td></tr>
+    <tr><td>2</td><td>Byte 2</td><td>Confirmation Result Code</td><td>1 byte</td><td>BYTE</td><td>ConfirmResultType</td><td>Overall confirmation result: 0x00 = reject; 0x01 = accept; 0xFF = invalid/unavailable.</td></tr>
+    <tr><td>3</td><td>Byte 3</td><td>Reject/Status Detail Code</td><td>1 byte</td><td>BYTE</td><td>ConfirmDetailType</td><td>Additional detail when result is reject (implementation-specific mapping); 0x00 when accepted.</td></tr>
+    <tr><td>4</td><td>Byte 4</td><td>Vehicle State Flags</td><td>1 byte</td><td>BYTE</td><td>VehStateFlagsType</td><td>Bit-coded state flags (byte-sized field on the wire). Unused bits set to 0.</td></tr>
+    <tr><td>5</td><td>Byte 5</td><td>Echoed Session Sequence Counter</td><td>1 byte</td><td>BYTE</td><td>SeqCounterType</td><td>Echo of the requester counter to bind this confirmation to a specific request.</td></tr>
+    <tr><td>6</td><td>Byte 6</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>ReservedType</td><td>Set to 0x00 on transmit; ignore on receive.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameter Description for Getting Depth Sensor Usage of the Camera Config</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>camera_config</td><td>ArCameraConfig *</td><td>Camera config pointer</td></tr>
+  <tr><td>out_depth_sensor_usage</td><td>uint32_t *</td><td>Pointer to depth sensor usage configuration information</td></tr>
+</table>

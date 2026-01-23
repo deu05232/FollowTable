@@ -1,0 +1,22 @@
+<table>
+  <caption>Test requirements for binarized syntax elements in the video coding bitstream (aec lcu stuffing bit, shape of partition index and b pu type index)</caption>
+  <tr><td>Syntax element name</td><td>Test requirements</td></tr>
+  <tr><td>aec_lcu_stuffing_bit</td><td>Traverse cases where the value of aec_lcu_stuffing_bit equals 0 to 1</td></tr>
+  <tr><td>shape_of_partition_index</td><td>Traverse cases where the value of shape_of_partition_index equals 0 to 2</td></tr>
+  <tr><td>b_pu_type_index</td><td>Traverse all binary symbol string cases in Table 86 and Table 87 of GB/T 33475.2—2024</td></tr>
+  <tr><td>b_pu_type_min_index</td><td>Traverse all binary symbol string cases in Table 88 of GB/T 33475.2—2024</td></tr>
+  <tr><td>f_pu_type_index</td><td>Traverse all binary symbol string cases in Table 89 and Table 90 of GB/T 33475.2—2024</td></tr>
+  <tr><td>weighted_skip_mode</td><td>Traverse cases where the value of weighted_skip_mode equals 0 to RefPicNum-1</td></tr>
+  <tr><td>cu_subtype_index</td><td>Traverse cases where the value of cu_subtype_index equals 0 to 4</td></tr>
+  <tr><td>b_pu_type_index2</td><td>Traverse all binary symbol string cases in Table 91 of GB/T 33475.2—2024</td></tr>
+  <tr><td>f_pu_type_index2</td><td>Traverse cases where the value of f_pu_type_index2 equals 0 to 1</td></tr>
+  <tr><td>intra_pu_type_index</td><td>Traverse all binary symbol string cases in Table 92 of GB/T 33475.2—2024</td></tr>
+  <tr><td>intra_luma_pred_mode</td><td>Traverse all binary symbol string cases in Table 93 of GB/T 33475.2—2024</td></tr>
+  <tr><td>intra_chroma_pred_mode</td><td>Traverse cases where the value of intra_chroma_pred_mode equals 0 to 4; if the value of isRedundant is 1, the value of intra_chroma_pred_mode shall not be 4</td></tr>
+  <tr><td>pu_reference_index</td><td>Traverse cases where the value of pu_reference_index equals 0 to RefPicNum-1</td></tr>
+  <tr><td>dir_multi_hypothesis_mode</td><td>Traverse all binary symbol string cases in Table 96 of GB/T 33475.2—2024</td></tr>
+  <tr><td>mv_diff_x_abs</td><td>Traverse the following three cases: A. synElVal is less than 3; B. synElVal is greater than or equal to 3 and synElVal is odd, the first four bits of the binary symbol string are 1110, and the subsequent bits are the order-0 Exp-Golomb code corresponding to (synElVal-3)/2; C. synElVal is greater than 3 and synElVal is even, the first four bits of the binary symbol string are 1111, and the subsequent bits are the order-0 Exp-Golomb code corresponding to (synElVal-3)/2</td></tr>
+  <tr><td>mv_diff_x_sign</td><td>Traverse cases where the value of mv_diff_x_sign equals 0 to 1</td></tr>
+  <tr><td>mv_diff_y_abs</td><td>Traverse the following three cases: A. synElVal is less than 3; B. synElVal is greater than or equal to 3 and synElVal is odd, the first four bits of the binary symbol string are 1110, and the subsequent bits are the order-0 Exp-Golomb code corresponding to (synElVal-3)/2; C. synElVal is greater than 3 and synElVal is even, the first four bits of the binary symbol string are 1111, and the subsequent bits are the order-0 Exp-Golomb code corresponding to (synElVal-3)/2</td></tr>
+  <tr><td>mv_diff_y_sign</td><td>Traverse cases where the value of mv_diff_y_sign equals 0 to 1</td></tr>
+</table>

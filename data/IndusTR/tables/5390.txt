@@ -1,0 +1,6 @@
+<table>
+  <caption>TT Event Association Relationship Definition</caption>
+  <tr><td colspan="2">Multiplicity Min   Max</td><td>Association</td><td>Description</td></tr>
+  <tr><td>0</td><td>n</td><td>TT_Event.Occurrence.TT_Location</td><td>TT location where the event occurred</td></tr>
+  <tr><td>0</td><td>n</td><td>TT_Event.Occurrence.Delimited_Period</td><td>Delimited time period during which the TT event occurred</td></tr>
+</table>

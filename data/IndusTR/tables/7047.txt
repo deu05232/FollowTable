@@ -1,0 +1,15 @@
+<table>
+  <caption>Galileo Phase-Bias Elements with Attitude and Signal Indicators</caption>
+  <thead>
+    <tr><th>Layer</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Satellite layer</td><td>Galileo Satellite Number</td><td>DF252</td><td>uint6</td><td>6</td><td>per-satellite</td></tr>
+    <tr><td>Satellite layer</td><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td><td>per-satellite</td></tr>
+    <tr><td>Attitude layer</td><td>Yaw Angle</td><td>DF480</td><td>uint9</td><td>9</td><td>per-satellite</td></tr>
+    <tr><td>Signal layer</td><td>Galileo Signal and Its Tracking Mode</td><td>DF382</td><td>uint5</td><td>5</td><td>repeated N</td></tr>
+    <tr><td>Signal layer</td><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>repeated N</td></tr>
+    <tr><td>Signal layer</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>repeated N</td></tr>
+    <tr><td>Signal layer</td><td>Signal Quality Flag</td><td>DF486</td><td>uint2</td><td>2</td><td>repeated N</td></tr>
+  </tbody>
+</table>

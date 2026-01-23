@@ -1,0 +1,14 @@
+<table>
+  <caption>PGI 0x01 Phase Request Message Field Layout</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Byte Offset (Start)</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Byte 1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x01</td></tr>
+    <tr><td>2</td><td>Byte 2</td><td>Requested Phase</td><td>1 byte</td><td>BYTE</td><td>PhaseIDType</td><td>Requested charging phase/state code used to drive the next protocol step (e.g., handshake, parameter configuration, charging, stop).</td></tr>
+    <tr><td>3</td><td>Byte 3</td><td>Response Timeout</td><td>1 byte</td><td>BYTE</td><td>TimeoutType</td><td>Timeout value in 10 ms units for waiting the counterpart response; 0x00 indicates default timeout.</td></tr>
+    <tr><td>4</td><td>Byte 4</td><td>Session Sequence Counter</td><td>1 byte</td><td>BYTE</td><td>SeqCounterType</td><td>Monotonic counter incremented per new phase request to correlate request/ack pairs.</td></tr>
+    <tr><td>5</td><td>Byte 5</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>ReservedType</td><td>Set to 0x00 on transmit; ignore on receive.</td></tr>
+    <tr><td>6</td><td>Byte 6</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>ReservedType</td><td>Set to 0x00 on transmit; ignore on receive.</td></tr>
+  </tbody>
+</table>

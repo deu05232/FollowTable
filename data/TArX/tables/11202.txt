@@ -1,0 +1,15 @@
+<table>
+  <caption>Electron Velocity as a Function of Distance from an Interface (Material Comparison)</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th rowspan="2">Interface / reference</th><th colspan="3">Electron velocity profile</th><th rowspan="2">Qualitative regime</th></tr>
+    <tr><th>Near (d<d1)</th><th>Intermediate (d1≤d<d2)</th><th>Far (d≥d2)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gold (Au)</td><td>Metal/oxide interface</td><td>v(d)∝d</td><td>v(d)=vF·tanh(d/ℓ)</td><td>v(d)→vF</td><td>Ballistic → quasi-ballistic → bulk-like</td></tr>
+    <tr><td>Silicon (Si)</td><td>Si/SiO2 interface</td><td>v(d)=μ·E(d)</td><td>E(d)=E0/(1+d/d0)</td><td>v(d)≈μ·E0·d0/d</td><td>Field-limited drift near interface</td></tr>
+    <tr><td>Gallium Nitride (GaN)</td><td>Heterojunction</td><td>v(d)=v_sat·(d/d1)</td><td>v(d)=v_sat</td><td>v(d)=v_sat-β·ln(d/d2)</td><td>Saturation then slow relaxation</td></tr>
+    <tr><td>Graphite</td><td>Surface</td><td>v(d)~1/d</td><td>v(d) decreases with d</td><td>v(d) reaches constant baseline</td><td>Surface-dominated transport</td></tr>
+    <tr><td>Silver (Ag)</td><td>Grain boundary plane</td><td>v(d)=v0+γ/d</td><td>v(d)=v0+γ/d2</td><td>v(d)≈v0</td><td>Scattering decreases away from boundary</td></tr>
+    <tr><td>ITO (Indium Tin Oxide)</td><td>Electrode boundary</td><td>v(d)=a·exp(-d/λ)</td><td>v(d)=a·exp(-d/λ)+b</td><td>v(d)→b</td><td>Exponential approach to asymptote</td></tr>
+  </tbody>
+</table>

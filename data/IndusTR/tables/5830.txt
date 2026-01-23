@@ -1,0 +1,15 @@
+<table>
+  <caption>Gas-by-Gas Target Concentrations and Alarm/Indication Requirements for Combustible Gas Detection Devices</caption>
+  <thead>
+    <tr><th>No.</th><th>Target Gas</th><th>Test Gas Description</th><th>Required Mass Concentration</th><th>Unit Scale</th><th>Alarm Action Requirement</th><th>Gas-Specific Performance Requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Methane</td><td>Methane in air</td><td>5</td><td>1×10-2g/m³</td><td>Audible/visual alarm shall activate at specified concentration</td><td>Indication accuracy: within ±10% of specified concentration</td></tr>
+    <tr><td>2</td><td>Isobutane</td><td>i-C4H10 in air</td><td>20</td><td>1×10-2g/m³</td><td>Audible/visual alarm shall activate at specified concentration</td><td>Overload recovery operating time ≤ 10 s</td></tr>
+    <tr><td>3</td><td>Ethanol</td><td>C2H5OH vapor in air</td><td>10</td><td>1×10-2g/m³</td><td>Audible/visual alarm shall activate at specified concentration</td><td>Overload recovery operating time ≤ 10 s</td></tr>
+    <tr><td>4</td><td>Hydrogen sulfide (flammable range applicable)</td><td>H2S in air</td><td>1.4</td><td>1×10-2g/m³</td><td>Alarm shall latch until concentration falls below 0.8× specified concentration (if latching mode enabled)</td><td>T90 response time ≤ 30 s</td></tr>
+    <tr><td>5</td><td>Ammonia (flammable at high concentration)</td><td>NH3 in air</td><td>12</td><td>1×10-2g/m³</td><td>Alarm shall activate; reset permitted only when below reset threshold</td><td>Repeatability ≤ 5% across 3 exposures</td></tr>
+    <tr><td>6</td><td>Propylene</td><td>C3H6 in air</td><td>14</td><td>1×10-2g/m³</td><td>Alarm shall activate at specified concentration</td><td>Zero drift ≤ ±5% of specified concentration over 8 h</td></tr>
+    <tr><td>7</td><td>Toluene vapor</td><td>C7H8 vapor in air</td><td>25</td><td>1×10-2g/m³</td><td>Alarm shall activate at specified concentration</td><td>Response time (T90) ≤ 45 s</td></tr>
+  </tbody>
+</table>

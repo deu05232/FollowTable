@@ -1,0 +1,16 @@
+<table>
+  <caption>Carbonate Decomposition CO2 Factors (Material-Level Single Factors)</caption>
+  <thead>
+    <tr><th rowspan="2">Process Material Class</th><th rowspan="2">Carbonate</th><th rowspan="2">Formula</th><th colspan="2">Collapsed Emission Factors</th><th rowspan="2">Default Decomposition Assumption</th><th rowspan="2">Notes</th></tr>
+    <tr><th>EF (tCO2/t material)</th><th>EF (kgCO2/kg)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Lime & Fluxes</td><td>Limestone</td><td>CaCO3</td><td>0.440</td><td>440</td><td>100%</td><td>Typical kiln calcination</td></tr>
+    <tr><td>Dolomite</td><td>CaMg(CO3)2</td><td>0.477</td><td>477</td><td>100%</td><td>As received basis</td></tr>
+    <tr><td>Magnesite</td><td>MgCO3</td><td>0.522</td><td>522</td><td>100%</td><td>Mineral feedstock</td></tr>
+    <tr><td rowspan="2">Soda & Alkalis</td><td>Soda ash</td><td>Na2CO3</td><td>0.415</td><td>415</td><td>100%</td><td>Thermal decomposition route</td></tr>
+    <tr><td>Potash</td><td>K2CO3</td><td>0.318</td><td>318</td><td>100%</td><td>Use-specific</td></tr>
+    <tr><td rowspan="2">Specialty Carbonates</td><td>Strontianite</td><td>SrCO3</td><td>0.297</td><td>297</td><td>100%</td><td>Ceramics</td></tr>
+    <tr><td>Witherite</td><td>BaCO3</td><td>0.223</td><td>223</td><td>100%</td><td>Glass additives</td></tr>
+  </tbody>
+</table>

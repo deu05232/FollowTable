@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Environment Understanding: Plane Tracking Interface Parameters (Input Pointers Only)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArPlaneTracker_configure</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArPlaneTracker_configure</td><td>config</td><td>ArConfig *</td><td>in</td><td>Configuration used to enable/disable plane detection modes.</td></tr>
+    <tr><td>ArPlaneTracker_setMode</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArPlaneTracker_setMode</td><td>plane_mode</td><td>ArPlaneMode</td><td>in</td><td>Plane detection mode (horizontal/vertical).</td></tr>
+    <tr><td>ArPlaneTracker_update</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArPlaneTracker_update</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Current frame used to update plane tracking.</td></tr>
+    <tr><td>ArPlane_getPolygon</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArPlane_getPolygon</td><td>plane</td><td>ArPlane *</td><td>in</td><td>Plane object to query.</td></tr>
+    <tr><td>ArPlane_getExtent</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArPlane_getExtent</td><td>plane</td><td>ArPlane *</td><td>in</td><td>Plane object to query.</td></tr>
+  </tbody>
+</table>

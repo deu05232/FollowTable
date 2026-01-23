@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameter test requirements for coding units and prediction units in the video coding bitstream</caption>
+  <tr><td>Parameter name</td><td>Test requirements</td></tr>
+  <tr><td>cu_type_index</td><td>This value shall be greater than or equal to 0 and less than or equal to 6. This value shall be consistent with the current picture's PictureStructure and picture type</td></tr>
+  <tr><td>shape_of_partition_index</td><td>This value shall be greater than or equal to 0 and less than or equal to 2</td></tr>
+  <tr><td>b_pu_type_index</td><td>When cu_type_index equals 2, this value shall be greater than or equal to 0 and less than or equal to 3. When cu_type_index does not equal 2, this value shall be greater than or equal to 0 and less than or equal to 15</td></tr>
+  <tr><td>b_pu_type_min_index</td><td>This value shall be greater than or equal to 0 and less than or equal to 3. If the current coding unit is a simplified coding unit, the value of BPuTypeIndex equals the value of b_pu_type_min_index; otherwise, the value of BPuTypeIndex equals the value of b_pu_type_index</td></tr>
+  <tr><td>f_pu_type_index</td><td>When cu_type_index equals 2, this value shall be greater than or equal to 0 and less than or equal to 1. When cu_type_index does not equal 2, this value shall be greater than or equal to 0 and less than or equal to 3</td></tr>
+  <tr><td>weighted_skip_mode</td><td>This value shall be greater than or equal to 0 and less than or equal to (RefPicNum-1)</td></tr>
+  <tr><td>cu_subtype_index</td><td>This value shall be greater than or equal to 0 and less than or equal to 4</td></tr>
+  <tr><td>b_pu_type_index2[i]</td><td>This value shall be greater than or equal to 0 and less than or equal to 4</td></tr>
+  <tr><td>f_pu_type_index2[i]</td><td>This value shall be greater than or equal to 0 and less than or equal to 1; if the values of FPuTypeIndex2[i] for all prediction units of the current coding unit are all 0, then the value of FFourPuTypeIndex2 is 0; otherwise, the value of FFourPuTypeIndex2 is 1</td></tr>
+  <tr><td>dir_multi_hypothesis_mode</td><td>This value shall be greater than or equal to 0 and less than or equal to 8</td></tr>
+</table>

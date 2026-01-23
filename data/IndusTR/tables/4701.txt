@@ -1,0 +1,12 @@
+<table>
+  <caption>Message Authentication Code Single-Block Operation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Mac(void*hKeyHandle,unsigned char * pucInData,unsigned int uiInDataLen,unsigned char * pucOutData,unsigned int * puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>Single-block data message authentication code operation</td></tr>
+  <tr><td rowspan="5">Parameters</td><td>hKeyHandle[in](symmetric algorithm key handle)</td></tr>
+  <tr><td>pucInData[in](input data)</td></tr>
+  <tr><td>uiInDataLen[in](input data length)</td></tr>
+  <tr><td>pucOutData[out](output MAC)</td></tr>
+  <tr><td>puiOutDataLen[out](MAC length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Annex C)</td></tr>
+</table>

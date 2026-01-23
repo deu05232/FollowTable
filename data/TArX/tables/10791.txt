@@ -1,0 +1,16 @@
+<table>
+  <caption>Electrophysiology readouts and ATP consumption per spike (derived energy estimate included)</caption>
+  <thead>
+    <tr><th>Temperature (°C)</th><th>Firing rate (Hz)</th><th>Na+ entry (pmol/cm^2/spike)</th><th>ATP molecules per spike (×10^9/cm^2)</th><th>ATP consumption rate (pmol/cm^2/s)</th><th>Estimated energy per spike (nJ/cm^2)</th><th>Method note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>6</td><td>70</td><td>12.0</td><td>2.8</td><td>3.2</td><td>0.14</td><td>Energy computed using -50 kJ/mol per ATP</td></tr>
+    <tr><td>8</td><td>85</td><td>11.5</td><td>2.6</td><td>3.6</td><td>0.13</td><td>Includes overlap correction of ionic currents</td></tr>
+    <tr><td>10</td><td>105</td><td>11.0</td><td>2.4</td><td>4.2</td><td>0.12</td><td>Derived from electrophysiology simulation output</td></tr>
+    <tr><td>12</td><td>125</td><td>10.6</td><td>2.3</td><td>4.8</td><td>0.12</td><td>Assumes constant free energy per ATP</td></tr>
+    <tr><td>14</td><td>150</td><td>10.2</td><td>2.2</td><td>5.5</td><td>0.11</td><td>Couples Na+/K+ pump cost to spike load</td></tr>
+    <tr><td>16</td><td>180</td><td>9.8</td><td>2.1</td><td>6.3</td><td>0.11</td><td>Mostly transport/velocity-style outputs</td></tr>
+    <tr><td>18</td><td>205</td><td>9.5</td><td>2.0</td><td>7.0</td><td>0.10</td><td>Electrophysiology-centric table</td></tr>
+    <tr><td>18.5</td><td>215</td><td>9.4</td><td>2.0</td><td>7.2</td><td>0.10</td><td>Rounded values</td></tr>
+  </tbody>
+</table>

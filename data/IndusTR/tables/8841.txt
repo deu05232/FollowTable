@@ -1,0 +1,17 @@
+<table>
+  <caption>Segmented Data Frames with Acknowledged Short Message Identifier (Data + ACK Reference)</caption>
+  <thead>
+    <tr><th>Frame Category</th><th>Field</th><th>Byte Offset</th><th>Size (bits)</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Segmented Data - First Frame</td><td>Frame Sequence Number</td><td>0</td><td>8</td><td>0 (first frame)</td></tr>
+    <tr><td>Total Number of Frames</td><td>1</td><td>8</td><td>Count of frames in transfer</td></tr>
+    <tr><td>Total Number of Bytes</td><td>2-3</td><td>16</td><td>Total payload bytes across all frames</td></tr>
+    <tr><td>Reserved / Pad</td><td>4-7</td><td>32</td><td>Set to 0xFF</td></tr>
+    <tr><td rowspan="2">Segmented Data - Consecutive Frames</td><td>Frame Sequence Number</td><td>0</td><td>8</td><td>1..N</td></tr>
+    <tr><td>Application Parameter Group Continuation</td><td>1-7</td><td>56</td><td>Remaining bytes, pad 0xFF in last frame</td></tr>
+    <tr><td rowspan="3">ACK Message (Reference)</td><td>ACK Code</td><td>0</td><td>8</td><td>0x00 = ACK</td></tr>
+    <tr><td>Acknowledged Short Message PG Identifier</td><td>2</td><td>8</td><td>First byte of application layer PG being acknowledged</td></tr>
+    <tr><td>Unused / Pad</td><td>1,3-7</td><td>56</td><td>0xFF</td></tr>
+  </tbody>
+</table>

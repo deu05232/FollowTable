@@ -1,0 +1,17 @@
+<table>
+  <caption>Per-Hit Spatial Readouts for AR Collision Indicators (World and Screen Space)</caption>
+  <thead>
+    <tr><th>Category</th><th>Accessor</th><th>Input</th><th>Output</th><th>What You Get</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Core hit measurements</td><td>ArHitResult_getDistance()</td><td>ArSession* session; ArHitResult* hit</td><td>float* out_distance_m</td><td>Scalar distance to the collision point.</td></tr>
+    <tr><td>ArHitResult_getPointWorld()</td><td>ArSession* session; ArHitResult* hit</td><td>float out_point_xyz[3]</td><td>World-space collision point (x,y,z).</td></tr>
+    <tr><td>ArHitResult_getPose()</td><td>ArSession* session; ArHitResult* hit</td><td>ArPose* out_pose</td><td>World-space pose at the hit (position + orientation).</td></tr>
+    <tr><td rowspan="2">Derived for UI placement</td><td>ArCamera_worldToScreen()</td><td>ArCamera* camera; float world_xyz[3]</td><td>float out_uv_px[2]</td><td>2D screen coordinates for a world-space hit point.</td></tr>
+    <tr><td>ArCamera_getViewProjection()</td><td>ArCamera* camera</td><td>float out_vp_4x4[16]</td><td>View-projection matrix to project hit points for overlay rendering.</td></tr>
+    <tr><td rowspan="2">Orientation cues</td><td>ArHitResult_getSurfaceNormalWorld()</td><td>ArSession* session; ArHitResult* hit</td><td>float out_normal_xyz[3]</td><td>Surface normal at hit point (world-space), if provided.</td></tr>
+    <tr><td>ArPose_getUpVector()</td><td>ArPose* pose</td><td>float out_up_xyz[3]</td><td>Up vector derived from pose orientation.</td></tr>
+    <tr><td rowspan="2">Stability / filtering</td><td>ArHitResult_getTrackingState()</td><td>ArSession* session; ArHitResult* hit</td><td>ArTrackingState* out_state</td><td>Tracking state relevant to hit stability.</td></tr>
+    <tr><td>ArHitResult_getErrorRadius()</td><td>ArSession* session; ArHitResult* hit</td><td>float* out_sigma_m</td><td>Estimated spatial uncertainty radius for the hit point.</td></tr>
+  </tbody>
+</table>

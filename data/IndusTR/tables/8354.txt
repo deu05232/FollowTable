@@ -1,0 +1,18 @@
+<table>
+  <caption>Acceptable Supply Quality Limits for a Low-Voltage Shore Power Box (Energized Operation)</caption>
+  <thead>
+    <tr><th rowspan="2">Parameter</th><th colspan="2">Steady-State Acceptable Range</th><th colspan="2">Transient / Disturbance Ride-Through</th></tr>
+    <tr><th>Permissible Deviation</th><th>Duration</th><th>Permissible Deviation</th><th>Recovery / Stabilization Time</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AC supply voltage (phase-to-phase or phase-to-neutral as applicable)</td><td>+5% / −8% of Un</td><td>Continuous</td><td>±15% of Un</td><td>≤ 2.0 s to return within steady-state band</td></tr>
+    <tr><td>Supply frequency</td><td>±4% of fn</td><td>Continuous</td><td>±8% of fn</td><td>≤ 6 s to return within steady-state band</td></tr>
+    <tr><td>Voltage unbalance (negative-sequence / average)</td><td>≤ 2%</td><td>Continuous</td><td>≤ 4%</td><td>≤ 10 s to return to ≤ 2%</td></tr>
+    <tr><td>Total harmonic distortion (THD) of voltage</td><td>≤ 5%</td><td>Continuous</td><td>≤ 8%</td><td>≤ 60 s to return to ≤ 5%</td></tr>
+    <tr><td>Individual voltage harmonic (any one order)</td><td>≤ 3%</td><td>Continuous</td><td>≤ 5%</td><td>≤ 60 s to return to ≤ 3%</td></tr>
+    <tr><td>Short interruption (0 V)</td><td>Not permitted</td><td>N/A</td><td>≤ 0.10 s ride-through without malfunction</td><td>Automatic recovery ≤ 5 s after restoration</td></tr>
+    <tr><td>Voltage dip to 70% of Un</td><td>Not applicable</td><td>N/A</td><td>Down to 70% Un for ≤ 0.50 s</td><td>Return to normal operation ≤ 3 s after event</td></tr>
+    <tr><td>Voltage swell to 110% of Un</td><td>Not applicable</td><td>N/A</td><td>Up to 110% Un for ≤ 0.20 s</td><td>Return within steady-state band ≤ 2 s</td></tr>
+    <tr><td>Step load change (output current step) and regulation</td><td>Output voltage regulation within ±3%</td><td>During steady load</td><td>Output deviation within ±10% after step change</td><td>Settling ≤ 1.5 s to ±3%</td></tr>
+  </tbody>
+</table>

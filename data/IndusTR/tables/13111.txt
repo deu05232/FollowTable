@@ -1,0 +1,14 @@
+<table>
+  <caption>Sample Node Block Handout Ledger for Participants Under 1.2.156.3514 (Ranges Only)</caption>
+  <thead>
+    <tr><th>OID Prefix</th><th>Recipient (Example Name)</th><th>Recipient Category</th><th>Allocated Node Range (Start–End)</th><th>Block Size (Count)</th><th>Status</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">1.2.156.3514</td><td>Legacy-ID Gateway Program</td><td>Existing identification system integrator</td><td>1001–1200</td><td>200</td><td>Reserved</td><td>For mapping historical IDs into the OID tree</td></tr>
+    <tr><td>Hangzhou OID Service Center</td><td>Third-party organization</td><td>2001–2600</td><td>600</td><td>Assigned</td><td>May issue sub-nodes to client enterprises under this block</td></tr>
+    <tr><td>Beijing Construction Equipment Registry</td><td>Third-party organization</td><td>2601–3200</td><td>600</td><td>Assigned</td><td>Independent allocation within its span; no overlap with other centers</td></tr>
+    <tr><td>Shandong Heavy Machinery Group</td><td>Manufacturer (OEM)</td><td>10001–12500</td><td>2500</td><td>Assigned</td><td>Used for product lines and unit-level identifiers</td></tr>
+    <tr><td>South China Hydraulic Components Co.</td><td>Parts & component supplier</td><td>30001–31250</td><td>1250</td><td>Assigned</td><td>For serialized components and batches</td></tr>
+    <tr><td>National Construction Machinery Test Lab</td><td>Testing / certification body</td><td>50001–50300</td><td>300</td><td>Assigned</td><td>For test report identifiers and certification objects</td></tr>
+  </tbody>
+</table>

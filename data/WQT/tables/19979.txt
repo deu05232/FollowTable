@@ -1,0 +1,12 @@
+# Windows OS Compatibility Across Intel Platforms (Windows 7 8.1 10 11)
+
+| Intel Platform | Example CPU/Chipset | Windows 7 | Windows 8.1 | Windows 10 | Windows 11 | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sandy Bridge + 6 Series | Core i5-2500K + Z68 | Yes | Yes | Yes | No | Legacy iGPU drivers may vary |
+| Haswell + 8 Series | Core i5-4590 + H81 | Yes | Yes | Yes | No | TPM 2.0 not standard |
+| Skylake + 100 Series | Core i5-6500 + Z170 | Limited | Limited | Yes | No | OEM support varies |
+| Kaby Lake + 200 Series | Core i5-7600 + B250 | No | No | Yes | No | Newer CPU policy for older OS |
+| Coffee Lake + 300 Series | Core i5-8400 + B360 | No | No | Yes | Limited | Win11 CPU whitelist issue |
+| Comet Lake + 400 Series | Core i7-10700 + Z490 | No | No | Yes | Yes | With TPM 2.0 enabled |
+| Alder Lake + 600 Series | Core i5-12600K + Z690 | No | No | Yes | Yes | Hybrid cores |
+| Atom/Braswell | Celeron N3050 | No | Limited | Yes | No | Driver availability dependent |

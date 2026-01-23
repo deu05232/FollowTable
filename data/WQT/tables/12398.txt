@@ -1,0 +1,13 @@
+# Outlook POP IMAP SMTP Settings for Mixed On-Premises and Microsoft 365 Mailboxes
+
+| Client | Mailbox Location | Protocol | Server | Port | Encryption | Auth | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Outlook (Windows) | Microsoft 365 | IMAP | outlook.office365.com | 993 | SSL/TLS | Modern Auth | IMAP access to cloud mailbox |
+| Outlook (Windows) | On-premises Exchange | IMAP | imap.contoso.com | 993 | SSL/TLS | Basic/Modern | Depends on on-prem IMAP enablement |
+| Outlook (Mac) | Microsoft 365 | POP3 | outlook.office365.com | 995 | SSL/TLS | Basic/Modern | POP not recommended for enterprise |
+| iOS Mail | Microsoft 365 | SMTP | smtp.office365.com | 587 | STARTTLS | Modern Auth | Requires SMTP AUTH enabled |
+| Android Mail | On-premises Exchange | SMTP | smtp.contoso.com | 587 | STARTTLS | Basic | Often restricted internally |
+| Thunderbird | Microsoft 365 | IMAP | outlook.office365.com | 993 | SSL/TLS | OAuth2 | Third-party client configuration |
+| Thunderbird | Microsoft 365 | SMTP | smtp.office365.com | 587 | STARTTLS | OAuth2 | Paired with IMAP for send/receive |
+| Generic Client | Microsoft 365 | POP3 | outlook.office365.com | 995 | SSL/TLS | Basic/Modern | Legacy option only |
+| Generic Client | On-premises Exchange | POP3 | pop.contoso.com | 995 | SSL/TLS | Basic | Must be enabled on Exchange servers |

@@ -1,0 +1,11 @@
+# Differentiability and Continuity Properties of Common Functions
+
+| Function | Differentiable Where? | Derivative (if exists) | Continuous Class | Lipschitz? | Bounded? | Monotone Intervals |
+| --- | --- | --- | --- | --- | --- | --- |
+| f(x)=c | All real x | 0 | C∞ | Yes | Yes | Constant |
+| f(x)=x | All real x | 1 | C∞ | Yes | No | Increasing on ℝ |
+| f(x)=|x| | x≠0 | sgn(x) for x≠0 | C0 (not C1) | Yes | No | Decreasing on (-∞,0], increasing on [0,∞) |
+| f(x)=H(x) (Heaviside) | Nowhere in classical sense | 0 for x≠0 | Discontinuous at 0 | No | Yes | Non-decreasing |
+| f(x)=sqrt(x) | x>0 | 1/(2sqrt(x)) | C∞ on (0,∞) | No | No | Increasing on [0,∞) |
+| f(x)=ln x | x>0 | 1/x | C∞ on (0,∞) | No | No | Increasing on (0,∞) |
+| f(x)=1/(1+x^2) | All real x | -2x/(1+x^2)^2 | C∞ | Yes | Yes | Increasing on (-∞,0], decreasing on [0,∞) |

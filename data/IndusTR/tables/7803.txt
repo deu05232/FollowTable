@@ -1,0 +1,14 @@
+<table>
+  <caption>ArCameraConfigList_getItem (AR Camera Config Retrieval via Output Pointer)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Represents</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Active AR session used to validate/route the call.</td></tr>
+    <tr><td>camera_config_list</td><td>const ArCameraConfigList *</td><td>List object that contains available camera configurations discovered for the current session.</td></tr>
+    <tr><td>index</td><td>int32_t</td><td>Zero-based position of the desired camera configuration within the list.</td></tr>
+    <tr><td>out_camera_config</td><td>ArCameraConfig *</td><td>Output object that will be populated/assigned to represent the camera configuration atindex.</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>Optional output status code filled by the API to indicate success or the reason for failure.</td></tr>
+    <tr><td>out_is_valid</td><td>bool *</td><td>Optional output flag set to true if the returned config is valid for the current session state.</td></tr>
+  </tbody>
+</table>

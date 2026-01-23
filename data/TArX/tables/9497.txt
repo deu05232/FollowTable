@@ -1,0 +1,14 @@
+<table>
+  <caption>Cosmology parameter grid with fixed h (no uncertainties)</caption>
+  <thead>
+    <tr><th colspan="2">Model block</th><th>Ωm</th><th>ΩΛ</th><th>h</th><th>H0 (derived)</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="3">Flat ΛCDM</th><td>Run A</td><td>0.30</td><td>0.70</td><td>0.70</td><td>70</td><td>Fixed h used for comparison</td></tr>
+    <tr><td>Run B</td><td>0.26</td><td>0.74</td><td>0.70</td><td>70</td><td>Same h across runs</td></tr>
+    <tr><td>Run C</td><td>0.34</td><td>0.66</td><td>0.70</td><td>70</td><td>Point value only</td></tr>
+    <tr><th rowspan="3">Open CDM</th><td>Run D</td><td>0.30</td><td>0.00</td><td>0.65</td><td>65</td><td>Chosen fixed value</td></tr>
+    <tr><td>Run E</td><td>0.40</td><td>0.00</td><td>0.65</td><td>65</td><td>No confidence range provided</td></tr>
+    <tr><td>Run F</td><td>0.50</td><td>0.00</td><td>0.65</td><td>65</td><td>Deterministic grid</td></tr>
+  </tbody>
+</table>

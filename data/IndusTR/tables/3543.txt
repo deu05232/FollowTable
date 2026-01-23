@@ -1,0 +1,8 @@
+<table>
+  <caption>Augmented Face Mesh Normal Vectors Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>5Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>face</td><td>ArAugmentedFace *</td><td>Augmented face pointer</td></tr>
+  <tr><td>out_normals</td><td>float **</td><td>Pointer to a pointer to 3D normal vector coordinates, to receive the address where the normal vector coordinate points are stored</td></tr>
+  <tr><td>out_number_of_normals</td><td>int32_t *</td><td>Pointer to the number of normal vectors in the current face mesh</td></tr>
+</table>

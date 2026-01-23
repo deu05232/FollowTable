@@ -1,0 +1,15 @@
+<table>
+  <caption>Parameters for a Variable-Restitution Impact Model by Impacted Material (Piecewise Linear e(v))</caption>
+  <thead>
+    <tr><th rowspan="2">Impacted material</th><th rowspan="2">Material code</th><th colspan="3">Restitution-related parameters</th><th rowspan="2">Valid velocity range (m/s)</th></tr>
+    <tr><th>e0 (low-speed limit)</th><th>v_ref (m/s)</th><th>slope k (1/m)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Titanium (sonotrode-grade)</td><td>Ti</td><td>0.90</td><td>1.2</td><td>-0.18</td><td>0.1–3.0</td></tr>
+    <tr><td>Steel (bearing steel)</td><td>St</td><td>0.88</td><td>1.2</td><td>-0.16</td><td>0.1–3.0</td></tr>
+    <tr><td>Aluminum (sample-grade)</td><td>Al</td><td>0.62</td><td>0.2</td><td>-0.55</td><td>0.05–1.5</td></tr>
+    <tr><td>Copper (OFHC)</td><td>Cu</td><td>0.70</td><td>0.4</td><td>-0.38</td><td>0.05–2.0</td></tr>
+    <tr><td>Polycarbonate</td><td>PC</td><td>0.56</td><td>0.3</td><td>-0.30</td><td>0.05–2.0</td></tr>
+    <tr><td>PMMA (acrylic)</td><td>PMMA</td><td>0.68</td><td>0.6</td><td>-0.22</td><td>0.05–2.5</td></tr>
+  </tbody>
+</table>

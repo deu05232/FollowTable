@@ -1,0 +1,14 @@
+<table>
+  <caption>Microservice Access Token Requirements for Service Registration</caption>
+  <thead>
+    <tr><th>API</th><th>Description</th><th>Method</th><th>Authentication Parameters (Required)</th><th>Service Identity Fields (Required)</th><th>Optional Fields</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>/api/service/register</td><td>Register a new microservice</td><td>POST</td><td>access_token, userID</td><td>serviceName, serviceVersion</td><td>sevDes</td></tr>
+    <tr><td>/api/service/update</td><td>Update microservice definition</td><td>POST</td><td>access_token</td><td>serviceID, serviceName</td><td>dataUrl</td></tr>
+    <tr><td>/api/service/keys/issue</td><td>Issue service API keys</td><td>POST</td><td>access_token, userID</td><td>serviceID</td><td>keyTTL</td></tr>
+    <tr><td>/api/service/keys/revoke</td><td>Revoke service API keys</td><td>POST</td><td>access_token</td><td>serviceID, keyID</td><td>reason</td></tr>
+    <tr><td>/api/service/status</td><td>Query microservice status</td><td>GET</td><td>access_token</td><td>serviceID</td><td>includeHealth</td></tr>
+    <tr><td>/api/service/audit</td><td>Get service registration audit</td><td>GET</td><td>access_token</td><td>serviceID, timeRange</td><td>operator</td></tr>
+  </tbody>
+</table>

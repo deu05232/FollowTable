@@ -1,0 +1,14 @@
+# Cisco IOS XE Ethernet Ring Protection (ERP) Configuration Commands and Licensing Notes
+
+| Item | Example | Category | What It Controls | Licensing / Cost Notes | Applies To |
+|---|---|---|---|---|---|
+| Enter privileged mode | enable | Command | Access level | Included with device purchase | IOS XE routers |
+| Enter config mode | configure terminal | Command | Global configuration | No per-user subscription | ASR 900 |
+| Create ERP ring | ethernet ring g8032 ring1 | Command | G.8032 ring instance | Feature availability varies by image | Carrier Ethernet |
+| Configure port0 | port0 interface fastethernet 0/1/0 | Command | Ring port assignment | Hardware-dependent | ASR 900 |
+| Configure port1 | port1 interface fastethernet 0/1/1 | Command | Ring port assignment | Hardware-dependent | ASR 900 |
+| Exclusion VLAN list | exclusion-list vlan-ids 2 | Command | VLANs not protected | No separate ERP software pricing | Metro Ethernet |
+| Inclusion VLAN list | inclusion-list vlan-ids 11 | Command | VLANs protected | No per-seat cost | Metro Ethernet |
+| APS channel level | aps-channel / level 5 | Command | Protection switching signaling | Feature part of networking stack | G.8032 |
+| RPL role | rpl port0 neighbor | Command | Ring protection link role | No SaaS tier | Ring nodes |
+| Save & exit | end | Command | Return to EXEC | N/A | IOS XE |

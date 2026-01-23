@@ -1,0 +1,25 @@
+<table>
+  <caption>SM2 Key Agreement Parameters Generation Function Definition</caption>
+  <tr><td colspan="2">int SAF_GenerateAgreementDataWithSM2（ void * hSymmKeyObj, unsigned int uiISKIndex, Prototype</td></tr>
+  <tr><td rowspan="4">Description</td><td>unsigned int uiKeyBits, unsigned char * pucSponsorID,</td></tr>
+  <tr><td>unsigned int uiSponsorIDLength,</td></tr>
+  <tr><td>unsigned char * pucSponsorPublicKey,</td></tr>
+  <tr><td>unsigned int * puiSponsorPublicKeyLen,</td></tr>
+  <tr><td rowspan="5">void * * phAgreementHandle)</td><td>unsigned char * pucSponsorTmpPublicKey,</td></tr>
+  <tr><td>unsigned int * puiSponsorTmpPublicKeyLen,</td></tr>
+  <tr><td>Using the SM2 key agreement algorithm, generate agreement parameters for computing the session key, and return the SM2 public key at the specified index position,</td></tr>
+  <tr><td>the public key of the temporary SM2 key pair and the agreement handle</td></tr>
+  <tr><td>hSymmKeyObj[in](symmetric algorithm object）</td></tr>
+  <tr><td rowspan="9">Parameters</td><td>uiISKIndex[in](index value of the encryption private key stored inside the cryptographic device; this private key is used to participate in key agreement)</td></tr>
+  <tr><td></td></tr>
+  <tr><td>uiKeyBits[in](required agreed key length)</td></tr>
+  <tr><td>pucSponsorID[in](initiator ID value participating in key agreement)</td></tr>
+  <tr><td>uiSponsorIDLength[in]（initiator ID length）</td></tr>
+  <tr><td>pucSponsorPublicKey[out](returned initiator SM2 public key)</td></tr>
+  <tr><td>puiSponsorPublicKeyLen[in,out](returned initiator SM2 public key length）</td></tr>
+  <tr><td>pucSponsorTmpPublicKey[out](returned initiator temporary SM2 public key)</td></tr>
+  <tr><td>puiSponsorTmpPublicKeyLen[in,out](returned initiator temporary SM2 public key length） phAgreementHandle[out](returned key agreement handle)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+  <tr><td>Rules</td><td>To negotiate a session key, the initiator of the agreement shall first call this function to compute the agreement parameters. The computation process of the agreement parameters shall follow the requirements of GB/T35276</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Runtime API Arguments: Identifier and Type Index</caption>
+  <thead>
+    <tr><th>Module</th><th>Function</th><th>Parameter</th><th>Type</th><th>Qualifier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Session</td><td>ArSession_create</td><td>env</td><td>void*</td><td>const</td></tr>
+    <tr><td>Session</td><td>ArSession_create</td><td>context</td><td>void*</td><td>const</td></tr>
+    <tr><td>Session</td><td>ArSession_create</td><td>out_session</td><td>ArSession**</td><td>nullable</td></tr>
+    <tr><td>Config</td><td>ArSession_getConfig</td><td>session</td><td>ArSession*</td><td>non-null</td></tr>
+    <tr><td>Config</td><td>ArSession_getConfig</td><td>out_config</td><td>ArConfig*</td><td>non-null</td></tr>
+    <tr><td>Features</td><td>ArSession_setFeatures</td><td>session</td><td>ArSession*</td><td>non-null</td></tr>
+    <tr><td>Features</td><td>ArSession_setFeatures</td><td>features</td><td>ArSessionFeature*</td><td>nullable</td></tr>
+    <tr><td>Lifecycle</td><td>ArSession_destroy</td><td>session</td><td>ArSession*</td><td>non-null</td></tr>
+  </tbody>
+</table>

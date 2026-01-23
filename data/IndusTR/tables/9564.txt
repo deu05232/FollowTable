@@ -1,0 +1,14 @@
+<table>
+  <caption>Urban Green Freight Distribution Scoring Sheet (Formula-Oriented Version)</caption>
+  <thead>
+    <tr><th>Indicator ID</th><th>Indicator (Operational Name)</th><th>Formula No.</th><th>Variables & Definitions</th><th>Computation Steps (Main Notes)</th><th>Output (Score)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CAP-01</td><td>Public distribution centers per million population</td><td>F(3)</td><td>N_cdc (centers); P (population, million)</td><td>1) Normalize: I=N_cdc/P; 2) Compare to threshold; 3) Apply piecewise scoring</td><td>S=60 if I≥1; else S=60×I/1</td></tr>
+    <tr><td>CAP-02</td><td>Line-haul/feeder-connected freight hubs per million population</td><td>F(1)</td><td>N_hub; P; w_hub</td><td>1) I=N_hub/P; 2) Clamp to [0,1]; 3) Score=S_max×I</td><td>S=60×min(1,I/0.8)</td></tr>
+    <tr><td>CAP-03</td><td>Last-mile joint distribution stations per million population</td><td>F(5)</td><td>N_sta; P; k</td><td>1) I=N_sta/P; 2) If I≥30 then full score; 3) Otherwise linear interpolation</td><td>S=60 if I≥30; else S=2×I</td></tr>
+    <tr><td>CAP-04</td><td>Temporary truck parking spaces per million population</td><td>F(7)</td><td>N_park; P; α</td><td>1) I=N_park/P; 2) Convert using logistic curve; 3) Round to integer</td><td>S=100/(1+e^{-0.2(I-25)})</td></tr>
+    <tr><td>CAP-05</td><td>AAA-and-above rated urban freight distribution enterprises (count)</td><td>F(13)</td><td>N_AAA; β; city_class</td><td>1) Select city_class coefficient; 2) Compute S=β×N_AAA; 3) Cap at 100</td><td>S=min(100,12.5×N_AAA)</td></tr>
+    <tr><td>CAP-06</td><td>Service coverage of urban distribution network (%)</td><td>F(21)</td><td>C (covered communities); T (total communities)</td><td>1) Coverage= C/T; 2) Map to score by quartiles; 3) Record</td><td>S=25/50/75/100 by quartile</td></tr>
+  </tbody>
+</table>

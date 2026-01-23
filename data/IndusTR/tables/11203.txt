@@ -1,0 +1,9 @@
+<table>
+  <caption>Terrestrial eco-meteorological station observation data format (soil and flux measurements)</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Format/Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td>YYYY-MM-DD</td></tr>
+  <tr><td>3</td><td>Soil temperature (5 cm)</td><td>ST05</td><td>Number(5,2)</td><td>Unit: °C</td></tr>
+  <tr><td>4</td><td>Volumetric soil moisture (5 cm)</td><td>SM05</td><td>Number(6,3)</td><td>Unit: m³/m³</td></tr>
+  <tr><td>5</td><td>CO₂ flux</td><td>FCO2</td><td>Number(8,3)</td><td>Unit: μmol m⁻² s⁻¹</td></tr>
+</table>

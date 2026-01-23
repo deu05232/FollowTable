@@ -1,0 +1,10 @@
+<table>
+  <caption>Optical Link Parameters Summary (TX/RX Mixed: Power, ER, Sensitivity, Wavelength)</caption>
+  <tr><th>Category</th><th>Parameter</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Comment</th></tr>
+  <tr><td>Transmitter</td><td>Average optical output power</td><td>Pout</td><td>-6</td><td>-3</td><td>+2</td><td>dBm</td><td>850 nm VCSEL</td></tr>
+  <tr><td>Transmitter</td><td>Extinction ratio</td><td>ER</td><td>5</td><td>8</td><td></td><td>dB</td><td>Measured at nominal modulation</td></tr>
+  <tr><td>Receiver</td><td>Sensitivity</td><td>PIN</td><td></td><td>-18</td><td>-15</td><td>dBm</td><td>BER=1e-12, PRBS=2^7-1</td></tr>
+  <tr><td>Receiver</td><td>Overload (max input)</td><td>PIN</td><td>-1</td><td></td><td>0</td><td>dBm</td><td>BER=1e-12</td></tr>
+  <tr><td>Optics</td><td>Optical wavelength</td><td>λ</td><td>830</td><td>850</td><td>860</td><td>nm</td><td>Receiver compatible range</td></tr>
+  <tr><td>Optics</td><td>Optical return loss tolerance</td><td>ORL</td><td></td><td></td><td>12</td><td>dB</td><td>Connector/back-reflection</td></tr>
+</table>

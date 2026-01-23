@@ -1,0 +1,14 @@
+<table>
+  <caption>Emergency Management Beidou System Aerial Vehicle Other Aircraft Position Report Message Data Format</caption>
+  <tr><td>Serial No.</td><td colspan="2">Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td colspan="2">Number of Users</td><td>4</td><td>Integer</td><td></td><td>1~15</td><td>The number of Emergency Management Beidou application terminals included in this message</td></tr>
+  <tr><td>2</td><td></td><td>Card Number</td><td>24</td><td>Integer</td><td>SAC</td><td>1~16 777 215</td><td>The positioning time of this position information</td></tr>
+  <tr><td>3</td><td></td><td>Time</td><td>34</td><td colspan="3">See 6.1.8</td><td rowspan="8">N is the number of users</td></tr>
+  <tr><td>4</td><td rowspan="2">Users 1~N Position</td><td>Longitude</td><td>39</td><td colspan="3">See 6.1.1</td></tr>
+  <tr><td>5</td><td>Latitude</td><td>38</td><td colspan="3">See 6.1.2</td></tr>
+  <tr><td>6</td><td rowspan="3">Information</td><td>Altitude</td><td>29</td><td colspan="3">See 6.1.3</td></tr>
+  <tr><td>7</td><td>Speed</td><td>13</td><td colspan="3">See 6.1.4</td></tr>
+  <tr><td>8</td><td>Heading Angle</td><td>12</td><td colspan="3">See 6.1.5</td></tr>
+  <tr><td>9</td><td rowspan="2"></td><td>Roll Angle</td><td>12</td><td colspan="3">See 6.1.6</td></tr>
+  <tr><td>10</td><td>Pitch Angle</td><td>12</td><td colspan="3">See 6.1.7</td></tr>
+</table>

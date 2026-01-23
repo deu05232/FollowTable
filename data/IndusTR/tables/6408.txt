@@ -1,0 +1,15 @@
+<table>
+  <caption>Over-the-Air Message 60 — Field Definitions (Narrative, No Bit Allocation Column)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value Range / Encoding</th><th>Description</th><th>Mandatory</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>Fixed value: 60</td><td>Identifies this as Message 60</td><td>Yes</td></tr>
+    <tr><td>Relay Indicator</td><td>0..3</td><td>Number of relay hops applied by a repeater</td><td>Yes</td></tr>
+    <tr><td>Device MMSI</td><td>000000000..999999999</td><td>MMSI of the broadcasting device</td><td>Yes</td></tr>
+    <tr><td>Autonomy Mode</td><td>0=Manual, 1=Assisted, 2=Autonomous, 3=Reserved</td><td>Operational autonomy status of the unit</td><td>Yes</td></tr>
+    <tr><td>Position Source</td><td>0=GNSS, 1=Dead reckoning, 2=External, 3=Unknown</td><td>Indicates how position was obtained</td><td>No</td></tr>
+    <tr><td>Timestamp</td><td>UTC seconds within minute</td><td>Time reference for the report</td><td>No</td></tr>
+    <tr><td>Spare</td><td>Set to zero</td><td>Reserved for future use</td><td>No</td></tr>
+  </tbody>
+</table>

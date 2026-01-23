@@ -1,0 +1,14 @@
+<table>
+  <caption>Terminal-Side Application File - Key Hierarchy, Permissions, and Update Records</caption>
+  <thead>
+    <tr><th>Key Class</th><th>Key Name</th><th>KeyID</th><th>Length (bytes)</th><th>Update Permission</th><th>Storage Field</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Control Keys</td><td>Master Control Key</td><td>0x01</td><td>16</td><td>Can update all keys</td><td>K_CTRL_1</td><td>Protects and authorizes the key update process</td></tr>
+    <tr><td>Maintenance Key</td><td>0x02</td><td>16</td><td>Can update files</td><td>K_CTRL_2</td><td>Protects the application file update procedure</td></tr>
+    <tr><td rowspan="2">Authentication</td><td>Authentication Key</td><td>0x10</td><td>16</td><td>Update by master control key only</td><td>K_AUTH</td><td>Used to compute uplink authentication codes</td></tr>
+    <tr><td>On-demand Key</td><td>0x11</td><td>16</td><td>Update by master control key only</td><td>K_OD</td><td>Used for on-demand access control</td></tr>
+    <tr><td rowspan="2">Update Records</td><td>Last Key Update Timestamp</td><td>N/A</td><td>8</td><td>N/A</td><td>K_UPD_TS</td><td>UTC timestamp of last successful key update</td></tr>
+    <tr><td>Key Update Result Code</td><td>N/A</td><td>1</td><td>N/A</td><td>K_UPD_RC</td><td>00=OK, 01=Denied, 02=Invalid signature, 03=Rollback</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Proof-of-concept Test: Dark Matter-only Simulations of A Galactic Halo of M vir ≃ 1.7 × 10 11 ⁢ M ⊙ at z = 0</caption>
+  <tr><th></th><th>Particle-based Codes</th><th>Grid-based Codes</th></tr>
+  <tr><th>Participating codes (Section LABEL:proof-of-concept-codes ) a</th><th>Gadget-2/3 , Gasoline , Pkdgrav-2</th><th>Art-II , Enzo , Ramses</th></tr>
+  <tr><th rowspan="2">Gravitational force resolution (Section LABEL:proof-of-concept-setup )</th><td>Force softening of 322 comoving pc until z=9 , then</td><td>Finest cell size of 326 comoving pc with</td></tr>
+  <tr><td>322 proper pc from z=9 to z=0</td><td>adaptive refinement on a particle over-density of 4</td></tr>
+  <tr><th rowspan="3">Variations in softening (Section LABEL:gadget )</th><td>Constant force softening for Gadget-cfs</td><td></td></tr>
+  <tr><td>(i.e., 322 comoving pc from z=100 to z=0 ), and</td><td>Not applicable</td></tr>
+  <tr><td>Adaptive force softening for Gadget-afs</td><td></td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>VR Positioning Device Interfaces (Function Calls Overview)</caption>
+  <thead>
+    <tr><th>Category</th><th>API Function</th><th>Prototype</th><th>Returns</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Device discovery</td><td>Enumerate positionable devices</td><td>bool vrDeviceEnumeratePositionables(vrPositionableDevice **out_list, int32_t *out_count)</td><td>true on success</td><td>Allocates/returns a list of devices</td></tr>
+    <tr><td>Free device list</td><td>void vrDeviceFreePositionables(vrPositionableDevice *list)</td><td>—</td><td>Caller releases memory</td></tr>
+    <tr><td rowspan="2">Device info</td><td>Get device type</td><td>bool vrDeviceGetPositionableDeviceType(const vrPositionableDevice *device, vrPositionableDeviceType *out_type)</td><td>true on success</td><td>Writes an enum value to out_type</td></tr>
+    <tr><td>Get serial number</td><td>bool vrDeviceGetPositionableDeviceSerial(const vrPositionableDevice *device, char *out_serial, int32_t capacity)</td><td>true on success</td><td>NUL-terminated UTF-8</td></tr>
+    <tr><td rowspan="3">Pose & motion</td><td>Get pose</td><td>bool vrDeviceGetPositionablePose(const vrPositionableDevice *device, vrPose *out_pose)</td><td>true on success</td><td>Pose in tracking space</td></tr>
+    <tr><td>Get motion data</td><td>bool vrDeviceGetPositionableMotion(const vrPositionableDevice *device, vrMotionData *out_motion)</td><td>true on success</td><td>Linear/angular velocity & acceleration</td></tr>
+    <tr><td>Get pose + motion</td><td>bool vrDeviceGetPositionableDeviceMotionPose(const vrPositionableDevice *device, vrPose *pose, vrMotionData *motion)</td><td>true on success</td><td>Combined query for convenience</td></tr>
+    <tr><td rowspan="2">Tracking control</td><td>Recenter tracking origin</td><td>bool vrTrackingRecenter(vrHMDRelocalizationMode mode)</td><td>true on success</td><td>Uses a relocalization mode enum</td></tr>
+    <tr><td>Set controller positioning mode</td><td>bool vrControllerSetPositioningMode(vrControllerPositioningMode mode)</td><td>true on success</td><td>Switches 3DoF/6DoF source</td></tr>
+  </tbody>
+</table>

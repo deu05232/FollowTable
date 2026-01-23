@@ -1,0 +1,14 @@
+<table>
+  <caption>Calibration Log for Evaluation Survey Instruments (Laboratory Record)</caption>
+  <thead>
+    <tr><th>Instrument</th><th>Model</th><th>Calibration Date</th><th>Environment</th><th>Acceptance Criteria</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Digital Voice Recorder</td><td>VR-800</td><td>2025-03-12</td><td>23±2°C, RH 45–55%</td><td>SNR ≥ 60 dB</td><td>Pass</td></tr>
+    <tr><td>Tablet for Field Surveys</td><td>TS-11</td><td>2025-03-18</td><td>Wi-Fi 5 GHz, RSSI ≥ -65 dBm</td><td>Packet loss ≤ 1%</td><td>Pass</td></tr>
+    <tr><td>Portable Scanner</td><td>PS-200</td><td>2025-04-02</td><td>Illuminance 500 lx</td><td>DPI error ≤ 2%</td><td>Pass</td></tr>
+    <tr><td>GPS Tracker (site visits)</td><td>GTR-9</td><td>2025-04-09</td><td>Open sky, PDOP ≤ 2.5</td><td>Position error ≤ 3 m</td><td>Pass</td></tr>
+    <tr><td>Network Time Sync</td><td>NTP-A1</td><td>2025-04-21</td><td>LAN latency ≤ 10 ms</td><td>Offset ≤ 50 ms</td><td>Pass</td></tr>
+    <tr><td>Secure USB Token</td><td>SUT-4</td><td>2025-05-05</td><td>Firmware v2.3</td><td>Key generation test OK</td><td>Pass</td></tr>
+  </tbody>
+</table>

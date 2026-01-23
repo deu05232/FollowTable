@@ -1,0 +1,17 @@
+<table>
+  <caption>PKCS #7 Signed Data Decoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Pkcs7_DecodeSignedData(void * hAppHandle,unsigned char * pucDerP7SignedData,unsigned int uiDerP7SignedDataLen,unsigned char *pucSignerCertificate,unsigned int *puiSignerCertificateLen,unsigned int *puiDigestAlgorithms,unsigned char * pucData,unsigned int * puiDataLen,unsigned char * pucSign,unsigned int * puiSignLen)</td></tr>
+  <tr><td>Description</td><td>Decode PKCS #7-format signed data</td></tr>
+  <tr><td rowspan="10">Parameters</td><td>hAppHandle[in](Application interface handle)</td></tr>
+  <tr><td>pucDerP7SignedData[in](Signed data)                             SAC</td></tr>
+  <tr><td>uiDerP7SignedDataLen[in](Length of signed data)</td></tr>
+  <tr><td>pucSignerCertificate[out](Signer certificate）</td></tr>
+  <tr><td>puiSignerCertificateLen[in,out](Signer certificate length)</td></tr>
+  <tr><td>puiDigestAlgorithms[out](HASH algorithm）</td></tr>
+  <tr><td>pucData[out](Signed data payload)</td></tr>
+  <tr><td>puiDataLen[in,out](Length of signed data payload)</td></tr>
+  <tr><td>pucSign[out](Signature value)</td></tr>
+  <tr><td>puiSignLen[in,out](Length of signature value)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non0(Failure; return the error code defined in Table C.1, and shall comply with the provisions of Appendix C)</td></tr>
+</table>

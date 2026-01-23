@@ -1,0 +1,16 @@
+<table>
+  <caption>AMBT1 tuning inputs from ATLAS minimum-bias measurements: per-sample tuned distributions and ranges</caption>
+  <thead>
+    <tr><th>ATLAS minimum-bias analysis sample (AMBT1 input)</th><th>√s</th><th>Sample selection (summary)</th><th>Tuned observable (distribution)</th><th>Tuning / kinematic range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Low-pTinclusive minimum-bias</td><td rowspan="2">0.9 TeV</td><td rowspan="2">nch≥ 1; pT> 100 MeV; |η| < 2.5</td><td>dNch/dη</td><td>-2.5 < η < 2.5</td></tr>
+    <tr><td>dNch/dpT</td><td>0.1 ≤ pT≤ 2.0 GeV</td></tr>
+    <tr><td rowspan="2">Higher-pTphase space (reduced diffraction)</td><td rowspan="2">0.9 TeV</td><td rowspan="2">nch≥ 6; pT> 500 MeV; |η| < 2.5</td><td>P(nch)</td><td>6 ≤ nch≤ 50</td></tr>
+    <tr><td>dNch/dη</td><td>-2.5 < η < 2.5</td></tr>
+    <tr><td rowspan="2">Minimum-bias with leading-track requirement (UE-like)</td><td rowspan="2">0.9 TeV</td><td rowspan="2">nch≥ 6; pT> 500 MeV; |η| < 2.5; pTlead≥ 1.0 GeV</td><td>Nchin transverse region vs pTlead</td><td>1.0 ≤ pTlead≤ 10 GeV</td></tr>
+    <tr><td>ΣpTin transverse region vs pTlead</td><td>1.0 ≤ pTlead≤ 10 GeV</td></tr>
+    <tr><td>Mean pTvs multiplicity</td><td>0.9 TeV</td><td>nch≥ 6; pT> 500 MeV; |η| < 2.5</td><td><pT>(nch)</td><td>6 ≤ nch≤ 30</td></tr>
+    <tr><td>Central density point (η≈0) from minimum-bias</td><td>7 TeV</td><td>nch≥ 1; pT> 100 MeV; |η| < 0.2</td><td>(dNch/dη)|η=0</td><td>|η| < 0.2</td></tr>
+  </tbody>
+</table>

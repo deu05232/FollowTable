@@ -1,0 +1,18 @@
+<table>
+  <caption>Repository / Knowledge-base Linkage Identifiers for Public Security Video & Image Records</caption>
+  <thead>
+    <tr><th>Module</th><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Repository</td><td>1</td><td>Repository Identifier</td><td>kfbz</td><td>c48</td><td>Unique identifier of the storage repository holding the record.</td></tr>
+    <tr><td>2</td><td>Repository Title</td><td>kfbt</td><td>c..200</td><td>Human-readable title of the repository/collection.</td></tr>
+    <tr><td>3</td><td>Repository Record Identifier</td><td>kfjlid</td><td>c64</td><td>Identifier of the record within the repository index.</td></tr>
+    <tr><td>4</td><td>Data Sharing Package Identifier</td><td>gxbzbz</td><td>c40</td><td>Identifier for a published sharing package/batch.</td></tr>
+    <tr><td rowspan="4">Knowledge Base</td><td>5</td><td>Knowledge-base Entity Identifier</td><td>zskstid</td><td>c48</td><td>Identifier of the linked entity in a knowledge base.</td></tr>
+    <tr><td>6</td><td>Entity Type Code</td><td>stlxdm</td><td>c2</td><td>Type of the linked entity (person, vehicle, place, etc.).</td></tr>
+    <tr><td>7</td><td>Relationship Assertion Identifier</td><td>gxduanyanid</td><td>c48</td><td>Identifier of the asserted relation between record and entity.</td></tr>
+    <tr><td>8</td><td>Case Link Identifier</td><td>ajglid</td><td>c48</td><td>Identifier of the associated case/case-file link in the system.</td></tr>
+    <tr><td rowspan="2">Governance</td><td>9</td><td>Catalog Item Identifier</td><td>mlxmID</td><td>c32</td><td>Identifier of the catalog entry used for governance and inventory.</td></tr>
+    <tr><td>10</td><td>Data Lineage Node Identifier</td><td>sjxyjdID</td><td>c48</td><td>Identifier for lineage tracking node; administrative metadata.</td></tr>
+  </tbody>
+</table>

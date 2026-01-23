@@ -1,0 +1,13 @@
+<table>
+  <caption>Client Script Interface - Signature Verification and Parsing Interfaces</caption>
+  <tr><td>Serial No.</td><td>Clause No.</td><td>Interface Name</td><td>Function</td></tr>
+  <tr><td>27</td><td>7.1.27</td><td>SOF_VerifySignedDataXML</td><td>Verify XML data signature</td></tr>
+  <tr><td>28</td><td>7.1.34</td><td>SOF_VerifySignedHashData</td><td>Verify digest data signature</td></tr>
+  <tr><td>29</td><td>7.1.25</td><td>SOF_GetInfoFromSignedMessage</td><td>Parse message signature</td></tr>
+  <tr><td>30</td><td>7.1.28</td><td>SOF_GetXMLSignatureInfo</td><td>Parse XML data signature</td></tr>
+  <tr><td>31</td><td>7.1.21</td><td>SOF_EncryptData</td><td>Data encryption</td></tr>
+  <tr><td>32</td><td>7.1.22</td><td>SOF_DecryptData</td><td>Data decryption</td></tr>
+  <tr><td>33</td><td>7.1.31</td><td>SOF_HashData</td><td>Compute data digest</td></tr>
+  <tr><td>34</td><td>7.1.32</td><td>SOF_HashFile</td><td>Compute file digest</td></tr>
+  <tr><td>35</td><td>7.1.29</td><td>SOF_GenRandom</td><td>Generate random number</td></tr>
+</table>

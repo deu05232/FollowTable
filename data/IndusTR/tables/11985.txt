@@ -1,0 +1,15 @@
+<table>
+  <caption>Wire-Level Notes for Application Messages (PGI/Transport/Timing)</caption>
+  <thead>
+    <tr><th>PGI</th><th>On-Wire Frame Type</th><th>Payload Size (bytes)</th><th>Endianness Assumption</th><th>Padding Rule</th><th>Checksum/CRC</th><th>Segmentation</th><th>Timing/Retry</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x01</td><td>Single-frame</td><td>8</td><td>Little-endian for multi-byte values</td><td>Pad unused bytes with 0xFF</td><td>Provided by lower layer</td><td>Not used</td><td>Retry up to 3 times if no ACK within 1000 ms</td></tr>
+    <tr><td>0x02</td><td>Single-frame</td><td>8</td><td>Little-endian</td><td>Pad with 0xFF</td><td>Provided by lower layer</td><td>Not used</td><td>Send once; re-send on request</td></tr>
+    <tr><td>0x03</td><td>Single-frame</td><td>8</td><td>Little-endian</td><td>Pad with 0xFF</td><td>Provided by lower layer</td><td>Not used</td><td>Requires ACK; timeout 1000 ms</td></tr>
+    <tr><td>0x04</td><td>Single-frame</td><td>8</td><td>Little-endian</td><td>Pad with 0xFF</td><td>Provided by lower layer</td><td>Not used</td><td>Requires ACK; timeout 1000 ms</td></tr>
+    <tr><td>0x05</td><td>Single-frame</td><td>8</td><td>Little-endian</td><td>Pad with 0xFF</td><td>Provided by lower layer</td><td>Not used</td><td>1000 ms steady; burst 50 ms ×3 on change</td></tr>
+    <tr><td>0x06</td><td>Single-frame</td><td>8</td><td>Little-endian</td><td>Pad with 0xFF</td><td>Provided by lower layer</td><td>Not used</td><td>1000 ms steady; burst 50 ms ×3 on change</td></tr>
+    <tr><td>0x07</td><td>Single-frame</td><td>8</td><td>Little-endian</td><td>Pad with 0xFF</td><td>Provided by lower layer</td><td>Not used</td><td>1000 ms steady; burst 50 ms ×3 on change</td></tr>
+  </tbody>
+</table>

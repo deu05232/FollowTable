@@ -1,0 +1,6 @@
+# Flexible Netflow Configuration Guide, Cisco IOS Release 12.2SY - Configuring CPU Friendly NetFlow Export [Cisco IOS Software Releases 12.2 SY] - Cisco
+
+|   | Step 1 | Step 2 | Step 3 | Step 4 | Step 5 |
+| --- | --- | --- | --- | --- | --- |
+| Command or Action | enable Example: Router> enable | configure terminal Example: Router# configure terminal | flow hardware [egress | export threshold total-cpu-threshold-percentage [ linecard linecard-threshold-percentage ] | usage notify{input | output} [table-threshold-percentage seconds]] Example: Router(config)# flow hardware export threshold 25 linecard 25 | end Example: Router(config)# end | show platform flow [aging | {export | usage | table-contention {aggregate | detailed | summary} }[instance | module] | {ip | ipv6} [ count | destination | instance | module | multicast | protocol | source] | {layer2 | mpls } [ count | instance | module ]] Example: Router# show platform flow export |
+| Purpose | Enables privileged EXEC mode. Enter your password if prompted. | Enters global configuration mode. | Configures the CPU utilization threshold up to which NetFlow export is permitted. | Ends the current configuration session and returns to privileged EXEC mode. | Verifies the configuration of the CPU utilization threshold. |

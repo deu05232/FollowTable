@@ -1,0 +1,17 @@
+<table>
+  <caption>Spherical-Harmonic Ionospheric Message — DF Codes Shown as Non-Numeric Aliases</caption>
+  <thead>
+    <tr><th>Field Name</th><th>DF Code</th><th>Data Type</th><th>Bits</th><th>Hierarchy</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Model configuration</td><td>CFG-A</td><td>group</td><td>-</td><td>Parent</td></tr>
+    <tr><td>Ionospheric thin-shell height</td><td>DF-THIN-SHELL</td><td>uint8</td><td>8</td><td>Child of Model configuration</td></tr>
+    <tr><td>Spherical harmonic function degree</td><td>DF-DEG</td><td>uint4</td><td>4</td><td>Child of Model configuration</td></tr>
+    <tr><td>Spherical harmonic function order</td><td>DF-ORD</td><td>uint4</td><td>4</td><td>Child of Model configuration</td></tr>
+    <tr><td>Coefficient block</td><td>COEF-BLOCK</td><td>group</td><td>-</td><td>Parent</td></tr>
+    <tr><td>Spherical harmonic cosine coefficient (correction)</td><td>DF-COS-CORR</td><td>int16</td><td>16</td><td>Child of Coefficient block</td></tr>
+    <tr><td>Spherical harmonic sine coefficient (correction)</td><td>DF-SIN-CORR</td><td>int16</td><td>16</td><td>Child of Coefficient block</td></tr>
+    <tr><td>Spherical harmonic cosine coefficient (accuracy)</td><td>DF-COS-ACC</td><td>uint8</td><td>8</td><td>Child of Coefficient block</td></tr>
+    <tr><td>Spherical harmonic sine coefficient (accuracy)</td><td>DF-SIN-ACC</td><td>uint8</td><td>8</td><td>Child of Coefficient block</td></tr>
+  </tbody>
+</table>

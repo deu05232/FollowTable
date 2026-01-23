@@ -1,0 +1,7 @@
+<table>
+  <caption>AR session focus mode enumeration values</caption>
+  <tr><th>Enum value</th><th>Meaning</th></tr>
+  <tr><td>AR_FOCUS_MODE_FIXED = 0</td><td>Keeps a fixed focus distance; does not actively refocus during the session.</td></tr>
+  <tr><td>AR_FOCUS_MODE_AUTO = 1</td><td>Continuously adjusts focus to improve tracking and rendering clarity.</td></tr>
+  <tr><td>AR_FOCUS_MODE_CONTINUOUS_PICTURE = 2</td><td>Prioritizes photo-like continuous focus behavior for the camera stream.</td></tr>
+</table>

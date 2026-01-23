@@ -1,0 +1,11 @@
+<table>
+  <caption>SI SP Self-service Interface Terminal Management Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.3.3.1</td></tr>
+  <tr><td>Test Item</td><td>SI/SP Self-service Interface Functions</td></tr>
+  <tr><td>Test Sub-item</td><td>Terminal Management</td></tr>
+  <tr><td>Test Objective</td><td>Verify the terminal management functions of the industry SI/SP administrator through the portal</td></tr>
+  <tr><td>Preconditions</td><td>1. Log in to the system using an SI/SP administrator account; 2. The page displays normally; 3. Input fields and buttons can be operated normally; 4. The system is normally connected to the server; 5. At least two terminals have been successfully connected under this administrator account</td></tr>
+  <tr><td>Test Steps SAC</td><td>1. Log in to the system, enter the SI/SP self-service interface, select Terminal Management, and the interface automatically displays the existing terminal list under the current SI/SP administrator account; 2. Select Terminal Information Query to enter the query interface; 3. Enter query item information such as service code, terminal serial number, and terminal static status on the interface, then click OK; 4. Return to the SI/SP self-service - terminal management interface, select Terminal Working Status Query to enter the query interface; 5. Enter query item information such as terminal serial number on the interface, then click OK; 6. Return to the SI/SP self-service - terminal management interface, select a terminal record, then select Terminal Working Status Query; 7. Return to the SI/SP self-service - terminal management interface, select a terminal record, then select Terminal Arrears Query to enter the terminal arrears information display interface</td></tr>
+  <tr><td>Pass Criteria</td><td>Support managing terminals through the portal, including terminal information query, terminal working status query, terminal arrears query, etc.</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

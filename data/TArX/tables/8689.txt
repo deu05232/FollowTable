@@ -1,0 +1,16 @@
+<table>
+  <caption>Critical temperature reported as normalized ratios (Tc/μ and Tc/ρ) for several superconducting model variants</caption>
+  <thead>
+    <tr><th rowspan="2">Model / Sample</th><th colspan="3">Normalized critical temperature</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Tc/μ</th><th>Tc/ρ</th><th>Tc/ρ1/2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Holographic s-wave (m2=0, κ2=0.00)</td><td>0.0460</td><td>—</td><td>—</td><td>Baseline backreaction</td></tr>
+    <tr><td>Holographic s-wave (m2=0, κ2=0.10)</td><td>0.0295</td><td>—</td><td>—</td><td>Mid backreaction</td></tr>
+    <tr><td>Holographic s-wave (m2=0, κ2=0.20)</td><td>0.0189</td><td>—</td><td>—</td><td>Strong backreaction</td></tr>
+    <tr><td>Scaling-dimension study (Δ=2, η=0.0)</td><td>—</td><td>0.1170</td><td>—</td><td>Analytic Tc/ρ</td></tr>
+    <tr><td>Scaling-dimension study (Δ=2, η=0.2)</td><td>—</td><td>0.1384</td><td>—</td><td>Analytic Tc/ρ</td></tr>
+    <tr><td>Finite-size run (p=3, N=100)</td><td>—</td><td>—</td><td>0.118</td><td>Units of ρ1/2</td></tr>
+    <tr><td>Finite-size run (p=3, N=10)</td><td>—</td><td>—</td><td>0.107</td><td>Units of ρ1/2</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>IPLV/NPLV Performance Test Items and Selection Rules (Focus on Metrics, Not Part-Load Operating Conditions)</caption>
+  <thead>
+    <tr><th rowspan="2">Subsystem</th><th rowspan="2">Parameter</th><th rowspan="2">Unit</th><th colspan="2">Requirement / Selection rule</th></tr>
+    <tr><th>IPLV</th><th>NPLV</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Evaporator</td><td>Leaving water temperature reference</td><td>°C</td><td>Fixed at 7.0</td><td>User-selected reference</td></tr>
+    <tr><td>Leaving water temperature at part load</td><td>°C</td><td>Same as 100% load value</td><td>Same as selected reference</td></tr>
+    <tr><td rowspan="2">Condenser / heat source</td><td>Entering water temperature rule</td><td>°C</td><td>Follow standard rating procedure</td><td>Follow local rating appendix</td></tr>
+    <tr><td>Entering air condition rule (air-cooled)</td><td>°C</td><td>Use prescribed bin method</td><td>Use prescribed bin method</td></tr>
+    <tr><td>Measurement</td><td>Capacity tolerance</td><td>%</td><td>±2.0</td><td>±2.0</td></tr>
+    <tr><td>Calculation</td><td>Weighted part-load factor set</td><td>-</td><td>Use 100/75/50/25% weights</td><td>Use 100/75/50/25% weights</td></tr>
+  </tbody>
+</table>

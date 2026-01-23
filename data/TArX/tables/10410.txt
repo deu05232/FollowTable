@@ -1,0 +1,18 @@
+<table>
+  <caption>Side-by-Side Traffic Model Statistics for Freeway Merge: Queues, Delay, and Deviation Metrics</caption>
+  <thead>
+    <tr><th>Traffic model</th><th>On-ramp max queue (veh)</th><th>On-ramp max queue duration (min)</th><th>Mainline mean delay (s/veh)</th><th>Max density (veh/km/lane)</th><th>Travel time RMSE (s)</th><th>Avg relative deviation D</th></tr>
+  </thead>
+  <tbody>
+    <tr><th colspan="7">Two-phase / conventional models</th></tr>
+    <tr><td>IDM</td><td>152</td><td>31.0</td><td>44</td><td>96</td><td>18.2</td><td>0.043</td></tr>
+    <tr><td>OVM</td><td>141</td><td>28.5</td><td>41</td><td>92</td><td>19.6</td><td>0.048</td></tr>
+    <tr><td>CTM (LWR)</td><td>165</td><td>35.2</td><td>49</td><td>101</td><td>21.0</td><td>0.051</td></tr>
+    <tr><th colspan="7">Stochastic / cellular-automaton models</th></tr>
+    <tr><td>NaSch</td><td>118</td><td>24.1</td><td>53</td><td>105</td><td>23.8</td><td>0.060</td></tr>
+    <tr><td>NSM</td><td>109</td><td>22.6</td><td>50</td><td>103</td><td>22.9</td><td>0.057</td></tr>
+    <tr><th colspan="7">Gas-kinetic / higher-order models</th></tr>
+    <tr><td>GFM</td><td>134</td><td>27.4</td><td>39</td><td>90</td><td>17.1</td><td>0.038</td></tr>
+    <tr><td>T3</td><td>128</td><td>26.0</td><td>37</td><td>88</td><td>16.4</td><td>0.036</td></tr>
+  </tbody>
+</table>

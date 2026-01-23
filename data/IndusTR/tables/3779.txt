@@ -1,0 +1,6 @@
+<table>
+  <caption>Client Account Opening Questionnaire Question Field Definitions</caption>
+  <tr><td>Serial No.</td><td>Field Identifier</td><td>Field Chinese Name</td><td>Field Type</td><td>Field Length</td><td>Nullable</td><td>Value Description</td></tr>
+  <tr><td>1</td><td>question_id</td><td>Question ID</td><td>C</td><td>4</td><td>N</td><td>Each futures exchange has its own unique question definitions; the questions here shall be consistent with the futures exchange applied for earlier</td></tr>
+  <tr><td>2</td><td>content</td><td>Question Content</td><td>C</td><td>50</td><td>N</td><td></td></tr>
+</table>

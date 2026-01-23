@@ -1,0 +1,16 @@
+<table>
+  <caption>IM Notification Delivery - Response Status Fields (Server to Client)</caption>
+  <thead>
+    <tr><th>Operation</th><th>Parameter Name</th><th>Type/Format</th><th>Mandatory</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SEND_NOTIFICATION</td><td>returnResult</td><td>String (C..64)</td><td>Y</td><td>Whether the notification was accepted</td></tr>
+    <tr><td>SEND_NOTIFICATION</td><td>resultDescription</td><td>String (C..2000)</td><td>Y</td><td>Result details</td></tr>
+    <tr><td>SEND_NOTIFICATION</td><td>deliveryStatus</td><td>Enum (QUEUED|DELIVERED|FAILED)</td><td>Y</td><td>Final/temporary delivery state</td></tr>
+    <tr><td>SEND_NOTIFICATION</td><td>failureReason</td><td>String (C..256)</td><td>N</td><td>Why delivery failed (if applicable)</td></tr>
+    <tr><td>SEND_NOTIFICATION</td><td>acceptedAt</td><td>DateTime (ISO-8601)</td><td>N</td><td>Time accepted by the gateway</td></tr>
+    <tr><td>SEND_NOTIFICATION</td><td>deliveredAt</td><td>DateTime (ISO-8601)</td><td>N</td><td>Time delivered to recipient</td></tr>
+    <tr><td>SEND_NOTIFICATION</td><td>messageId</td><td>String (C..64)</td><td>Y</td><td>Server-generated message identifier</td></tr>
+    <tr><td>SEND_NOTIFICATION</td><td>quotaRemaining</td><td>Integer</td><td>N</td><td>Remaining quota after processing</td></tr>
+  </tbody>
+</table>

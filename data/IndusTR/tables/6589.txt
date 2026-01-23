@@ -1,0 +1,18 @@
+<table>
+  <caption>Security News / Threat Intel Report Fields (Time Items Mixed With Source, Target, and Compliance)</caption>
+  <thead>
+    <tr><th>Category</th><th>Information Item</th><th>Details</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Timing</td><td>Time of Occurrence</td><td>When the news or event first appeared publicly (capture original timezone if known).</td></tr>
+    <tr><td>Ingestion Time</td><td>When the item was ingested into the monitoring platform.</td></tr>
+    <tr><td>Last Updated Time</td><td>When the report/article/IOC set was last modified.</td></tr>
+    <tr><td>Reporting Time</td><td>When the organization filed the internal/external report.</td></tr>
+    <tr><td rowspan="3">Attribution</td><td>Information Source</td><td>Publisher, feed name, or originating organization.</td></tr>
+    <tr><td>Threat Source</td><td>Suspected actor/country/IP/domain/C2, if applicable.</td></tr>
+    <tr><td>Threat Target</td><td>Targeted industries, geographies, orgs, or assets.</td></tr>
+    <tr><td rowspan="2">Content</td><td>Information Summary</td><td>Short narrative of what happened.</td></tr>
+    <tr><td>IOC Types</td><td>IP/domain/hash/URL/email, etc.</td></tr>
+    <tr><td>Compliance</td><td>Regulatory Reference</td><td>Any cited requirement or reporting obligation mentioned.</td></tr>
+  </tbody>
+</table>

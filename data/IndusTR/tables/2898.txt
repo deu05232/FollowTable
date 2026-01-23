@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Equipment Settings for Filter Vessel Assembly Line (Reference)</caption>
+  <thead>
+    <tr><th>Workstation</th><th>Equipment</th><th>Key Setting</th><th>Target Value</th><th>Tolerance</th><th>Record Frequency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>W1</td><td>FRP filament winder</td><td>Winding speed (rpm)</td><td>32</td><td>±2</td><td>Per shift</td></tr>
+    <tr><td>W2</td><td>Resin mixing unit</td><td>Resin:hardener ratio</td><td>100:28</td><td>±1</td><td>Per batch</td></tr>
+    <tr><td>W3</td><td>Curing oven</td><td>Cure temperature (°C)</td><td>85</td><td>±3</td><td>Per batch</td></tr>
+    <tr><td>W4</td><td>Hydrostatic tester</td><td>Test pressure (MPa)</td><td>1.2</td><td>±0.05</td><td>Per unit</td></tr>
+    <tr><td>W5</td><td>Torque tools</td><td>Flange bolt torque (N·m)</td><td>48</td><td>±4</td><td>Per unit</td></tr>
+    <tr><td>W6</td><td>Label printer</td><td>Barcode format</td><td>Code-128</td><td>N/A</td><td>Per unit</td></tr>
+  </tbody>
+</table>

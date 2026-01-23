@@ -1,0 +1,14 @@
+<table>
+  <caption>ArCamera_getImageIntrinsics (AR Camera Intrinsics Returned Through Output Object)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Represents</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Active AR session associated with the camera whose intrinsics are being queried.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>Camera handle providing the current camera state for the frame.</td></tr>
+    <tr><td>out_intrinsics</td><td>ArCameraIntrinsics *</td><td>Output intrinsics object that the API fills with focal length, principal point, and distortion model parameters.</td></tr>
+    <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Optional output timestamp (nanoseconds) indicating when the intrinsics are valid/estimated for the camera image stream.</td></tr>
+    <tr><td>out_source</td><td>ArIntrinsicsSource *</td><td>Optional output enum describing whether intrinsics come from calibration, runtime estimation, or a fallback.</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>Optional output status code written by the API.</td></tr>
+  </tbody>
+</table>

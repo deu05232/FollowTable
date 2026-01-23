@@ -1,0 +1,17 @@
+<table>
+  <caption>Photometric ratio-based calibration factors for converting between instrument passbands (not transport).</caption>
+  <thead>
+    <tr><th rowspan="2">Instrument</th><th colspan="2">Conversion to V-band</th><th rowspan="2">Reference star</th></tr>
+    <tr><th>Filter</th><th>Count-rate Ratio (Filter/V)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">UV/Optical Telescope (example)</td><td>B</td><td>0.41</td><td>Vega</td></tr>
+    <tr><td>U</td><td>0.47</td><td>Vega</td></tr>
+    <tr><td>UVW1</td><td>1.68</td><td>Vega</td></tr>
+    <tr><td rowspan="3">CCD Camera (lab setup)</td><td>g'</td><td>0.93</td><td>BD+17 4708</td></tr>
+    <tr><td>r'</td><td>0.74</td><td>BD+17 4708</td></tr>
+    <tr><td>i'</td><td>0.61</td><td>BD+17 4708</td></tr>
+    <tr><td rowspan="2">Handheld Photometer</td><td>Neutral density ND1</td><td>0.10</td><td>Internal lamp</td></tr>
+    <tr><td>Neutral density ND2</td><td>0.01</td><td>Internal lamp</td></tr>
+  </tbody>
+</table>

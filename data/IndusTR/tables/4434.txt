@@ -1,0 +1,14 @@
+<table>
+  <caption>Information Element Description for Express Delivery and Logistics Service Providers</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Value Range</td><td>Remarks</td></tr>
+  <tr><td>03</td><td>Express delivery and logistics service provider information</td><td>Composite</td><td>M</td><td></td><td></td></tr>
+  <tr><td>03.1</td><td>Express delivery and logistics service provider name</td><td>C1..200</td><td>M</td><td></td><td></td></tr>
+  <tr><td>03.2</td><td>Express delivery and logistics service provider business license</td><td>BY</td><td>M</td><td>May be in GIF, JPEG, PNG and other formats</td><td></td></tr>
+  <tr><td>03.3</td><td>Express delivery and logistics business permit documents</td><td>BY</td><td>M</td><td>May be in GIF, JPEG, PNG and other formats</td><td>Business permit documents required for providing express delivery and logistics services, such as express business, road transport, value-added telecommunications business, etc.</td></tr>
+  <tr><td>03.4</td><td>Express delivery and logistics business permit number</td><td>C1..50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>03.5</td><td>Coverage scope</td><td>C.ul</td><td>M</td><td></td><td>Scope of express delivery and logistics services</td></tr>
+  <tr><td>03.6</td><td>Committed timeliness</td><td>C..ul</td><td>M</td><td></td><td></td></tr>
+  <tr><td>03.7</td><td>Freight rate standard</td><td>C..ul</td><td>M</td><td></td><td></td></tr>
+  <tr><td>03.8</td><td>List of prohibited delivery items</td><td>C..ul</td><td>M</td><td></td><td></td></tr>
+  <tr><td>03.9</td><td>Compensation policy</td><td>C..ul</td><td>M</td><td></td><td>Basis and standard description for compensation in cases such as loss, damage, or shortage of contents during express delivery and logistics services</td></tr>
+</table>

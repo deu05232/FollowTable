@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Control Marks: Visual Outcomes (No Code-Point Sequences)</caption>
+  <thead>
+    <tr><th>Rule / Situation</th><th>Control Character Mentioned</th><th>Expected Display Behavior</th><th>Common Rendering Symptom</th><th>Used?</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Word-medial joining looks broken</td><td>MVS (Mongolian Variation Selector)</td><td>More consistent joining</td><td>Unexpected gap before a tooth</td><td>Sometimes</td></tr>
+    <tr><td>Final glyph looks "too rounded"</td><td>FVS1 / FVS2</td><td>Alternative final form</td><td>Final stroke changes shape</td><td>Preferred</td></tr>
+    <tr><td>Suffix attaches oddly</td><td>NIRUGU</td><td>Suffix should attach smoothly</td><td>Suffix appears separated</td><td>Sometimes</td></tr>
+    <tr><td>Tooth sequence appears merged</td><td>ZWJ</td><td>Prevent unwanted ligature</td><td>Over-merged vertical strokes</td><td>Yes</td></tr>
+    <tr><td>Vowel tail is missing</td><td>ZWNJ</td><td>Break joining to show tail</td><td>Tail disappears in some fonts</td><td>No</td></tr>
+    <tr><td>Initial form looks like medial</td><td>Word boundary (spaces/punctuation)</td><td>Correct initial shaping</td><td>Initial rendered as medial</td><td>Ensure</td></tr>
+    <tr><td>Ambiguous dotted form</td><td>FVS3</td><td>Use dotted variant</td><td>Dots appear/disappear</td><td>Optional</td></tr>
+  </tbody>
+</table>

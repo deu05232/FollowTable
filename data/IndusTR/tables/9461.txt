@@ -1,0 +1,16 @@
+<table>
+  <caption>Acceptance Limits by Connection Type Only (Aggregated Classes, No Side-by-Side Class Columns)</caption>
+  <thead>
+    <tr><th rowspan="2">Test condition</th><th rowspan="2">Current and power factor</th><th colspan="2">Acceptance limit (all accuracy classes combined)</th></tr>
+    <tr><th>Direct-connected instrument</th><th>Instrument connected via transformer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Repeatability</td><td>Imin ≤ I < Itr; PF = 1.0</td><td>≤ 0.15%</td><td>≤ 0.15%</td></tr>
+    <tr><td>Repeatability</td><td>Itr ≤ I ≤ Imax; PF = 1.0</td><td>≤ 0.10%</td><td>≤ 0.10%</td></tr>
+    <tr><td>Error variation vs current (single harmonic)</td><td>Ih = 0.4Imax; cosφ = 1.0</td><td>±2.0H</td><td>±2.5H</td></tr>
+    <tr><td>Error variation vs current (single harmonic)</td><td>Ih = 0.4Imax; cosφ = 0.5L</td><td>±3.5H</td><td>±4.0H</td></tr>
+    <tr><td>Variation due to load increase/decrease</td><td>0.1I ≤ I ≤ Imax; PF = 1.0</td><td>≤ 0.25%</td><td>≤ 0.25%</td></tr>
+    <tr><td>Frequency variation influence</td><td>I = 4I; HPF = 10.5L</td><td>≤ 1.0%</td><td>≤ 1.2%</td></tr>
+    <tr><td>Reverse phase sequence influence</td><td>I = I; HPF = 1.0</td><td>≤ 1.5%</td><td>≤ 1.5%</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Phase Bias Fields with Identifiers but Ambiguous/Non-Implementable Types</caption>
+  <thead>
+    <tr><th>Layer</th><th>Field Name</th><th>Field ID</th><th>Type</th><th>Bits</th><th>Encoding Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message Type Number</td><td>DF002</td><td>number</td><td>12</td><td>Integer (exact unsigned/signed not stated)</td></tr>
+    <tr><td>Header</td><td>Satellite ID</td><td>DF0xx</td><td>enum</td><td>6</td><td>System-dependent PRN mapping</td></tr>
+    <tr><td>Header</td><td>Number of Phase Biases</td><td>DF479</td><td>integer</td><td>5</td><td>Count of bias entries</td></tr>
+    <tr><td>Bias[i]</td><td>Signal and Tracking Mode</td><td>DF38x</td><td>code</td><td>5</td><td>Lookup table required</td></tr>
+    <tr><td>Bias[i]</td><td>Signal Integer Indicator</td><td>DF483</td><td>flag(s)</td><td>1</td><td>Boolean-like indicator</td></tr>
+    <tr><td>Bias[i]</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>flags</td><td>2</td><td>Two-bit status (not declared as bit-field)</td></tr>
+    <tr><td>Bias[i]</td><td>Phase Bias Value</td><td>DF485</td><td>scaled</td><td>14</td><td>Scale and signedness not provided</td></tr>
+    <tr><td>Bias[i]</td><td>Phase Bias Quality</td><td>DF487</td><td>float?</td><td>6</td><td>Unclear quantization</td></tr>
+    <tr><td>Bias[i]</td><td>Discontinuity Counter</td><td>DF486</td><td>counter</td><td>4</td><td>Wrap behavior unspecified</td></tr>
+  </tbody>
+</table>

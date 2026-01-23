@@ -1,0 +1,10 @@
+<table>
+  <caption>APDU Command Header Reference (CLA/INS/P1/P2) Mixed With Status Words</caption>
+  <tr><th>Item</th><th>Field</th><th>Example Value (HEX)</th><th>Description</th></tr>
+  <tr><td>1</td><td>CLA</td><td>80</td><td>Proprietary class</td></tr>
+  <tr><td>2</td><td>INS</td><td>D0</td><td>Example instruction code</td></tr>
+  <tr><td>3</td><td>P1</td><td>00</td><td>Parameter 1</td></tr>
+  <tr><td>4</td><td>P2</td><td>00</td><td>Parameter 2</td></tr>
+  <tr><td>5</td><td>SW1/SW2</td><td>90 00</td><td>Success status returned after execution</td></tr>
+  <tr><td>6</td><td>SW1/SW2</td><td>6A 86</td><td>Parameter error</td></tr>
+</table>

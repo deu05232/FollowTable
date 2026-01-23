@@ -1,0 +1,16 @@
+<table>
+  <caption>Compound Conveying Plan Table (Structure-centered, Not a Per-signal Dictionary)</caption>
+  <thead>
+    <tr><th>Seq</th><th>Data Structure Name</th><th>Field Name</th><th>Data Type</th><th>Bit Length</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="8">ConveyingPlan</td><td>PlanNo</td><td>STR</td><td>User-defined</td><td>Conveying plan identifier</td></tr>
+    <tr><td>2</td><td>LineNo</td><td>INT</td><td>16</td><td>Conveying line number</td></tr>
+    <tr><td>3</td><td>SourceTankGroup</td><td>INT</td><td>16</td><td>Source tank group number</td></tr>
+    <tr><td>4</td><td>SourceTankType</td><td>INT</td><td>16</td><td>1: pressure-feed tank, 2: silo, 3: tote</td></tr>
+    <tr><td>5</td><td>TargetHopperNo</td><td>INT</td><td>16</td><td>Target hopper index</td></tr>
+    <tr><td>6</td><td>BatchWeight</td><td>FLOAT</td><td>32</td><td>Planned batch weight</td></tr>
+    <tr><td>7</td><td>Priority</td><td>INT</td><td>16</td><td>Dispatch priority (larger is higher)</td></tr>
+    <tr><td>8</td><td>PlanEnable</td><td>BOOL</td><td>1</td><td>Enable/disable the plan</td></tr>
+  </tbody>
+</table>

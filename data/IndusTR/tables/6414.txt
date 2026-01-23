@@ -1,0 +1,16 @@
+<table>
+  <caption>Application Message Overview (PGI List, Timing, and Routing)</caption>
+  <thead>
+    <tr><th>Parameter Group Identifier</th><th>Message Name</th><th>Direction</th><th>Ack Required</th><th>Nominal Cycle Time</th><th>Burst On Change</th><th>Source - Destination</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x01</td><td>Phase request</td><td>Charger → Vehicle</td><td>Yes</td><td>On event</td><td>3 frames @ 50 ms</td><td>Charger - Vehicle</td></tr>
+    <tr><td>0x02</td><td>Vehicle confirmation result</td><td>Vehicle → Charger</td><td>Yes</td><td>On event</td><td>3 frames @ 50 ms</td><td>Vehicle - Charger</td></tr>
+    <tr><td>0x03</td><td>Charger abort</td><td>Charger → Vehicle</td><td>Yes</td><td>—</td><td>Retry until timeout</td><td>Charger - Vehicle</td></tr>
+    <tr><td>0x04</td><td>Vehicle abort</td><td>Vehicle → Charger</td><td>Yes</td><td>—</td><td>Retry until timeout</td><td>Vehicle - Charger</td></tr>
+    <tr><td>0x05</td><td>DC power supply contactor status</td><td>Charger → Vehicle</td><td>No</td><td>1000 ms</td><td>3 frames @ 50 ms when changed</td><td>Charger - Vehicle</td></tr>
+    <tr><td>0x06</td><td>Vehicle power supply contactor status</td><td>Vehicle → Charger</td><td>No</td><td>1000 ms</td><td>3 frames @ 50 ms when changed</td><td>Vehicle - Charger</td></tr>
+    <tr><td>0x07</td><td>Charger electronic lock status</td><td>Charger → Vehicle</td><td>No</td><td>1000 ms</td><td>3 frames @ 50 ms when changed</td><td>Charger - Vehicle</td></tr>
+    <tr><td>0x09</td><td>Wake-up indication</td><td>Vehicle → Charger</td><td>No</td><td>500 ms</td><td>Stop after wake-up confirmed</td><td>Vehicle - Charger</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>ArHitResult_acquire - Parameter Reference (Create/retain a hit result object)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Pointer to the active AR session owning the hit test resources.</td></tr>
+    <tr><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Hit result list produced by a hit test call; used as the source container.</td></tr>
+    <tr><td>index</td><td>int32_t</td><td>in</td><td>Zero-based index of the hit withinhit_result_list.</td></tr>
+    <tr><td>out_hit_result</td><td>ArHitResult *</td><td>out</td><td>Receives a handle to the hit result atindex. The returned object can be queried for pose/distance/trackable.</td></tr>
+    <tr><td>out_distance_meters</td><td>float *</td><td>out</td><td>Optional. If non-null, receives the hit distance from the ray origin (meters).</td></tr>
+    <tr><td>out_pose</td><td>ArPose *</td><td>out</td><td>Optional. If non-null, receives the hit pose in world coordinates.</td></tr>
+  </tbody>
+</table>

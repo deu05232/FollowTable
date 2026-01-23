@@ -1,0 +1,16 @@
+<table>
+  <caption>Parameter description of the \xspec model \modname .</caption>
+  <tr><td>Parameter</td><td>Units</td><td>Description</td></tr>
+  <tr><td>kT_(bb)</td><td>(keV)</td><td>Seed photon blackbody temperature</td></tr>
+  <tr><td>kT_(e)</td><td>(keV)</td><td>Electron temperature</td></tr>
+  <tr><td>τ</td><td></td><td>Optical depth of the accretion column</td></tr>
+  <tr><td></td><td></td><td>Index of the velocity profile (Eq. [ LABEL:beta_tau ])</td></tr>
+  <tr><td>β_(0)</td><td></td><td>Terminal velocity at the NS surface</td></tr>
+  <tr><td></td><td></td><td>(Eq. [ LABEL:beta_tau ])</td></tr>
+  <tr><td>r_(0)</td><td></td><td>Radius of the accretion column in</td></tr>
+  <tr><td></td><td></td><td>units of the NS radius</td></tr>
+  <tr><td>A</td><td></td><td>Albedo at the NS surface</td></tr>
+  <tr><td>Flag</td><td></td><td>=1 , β(τ) from equation ( LABEL:beta_tau )</td></tr>
+  <tr><td></td><td></td><td>=2 , β(τ) from equation ( LABEL:beta_proptau )</td></tr>
+  <tr><td>Norm</td><td></td><td>R^(2)_(km)/D^(2)_(10)</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Transport ACK/NACK Control PDU — High-Level Layout (Payload Not Expanded)</caption>
+  <thead>
+    <tr><th>Region</th><th>Byte Range</th><th>Field</th><th>Length</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>0</td><td>P</td><td>1</td><td>Priority/flags byte</td></tr>
+    <tr><td>Header</td><td>1</td><td>PF</td><td>1</td><td>0x37 indicates transport control</td></tr>
+    <tr><td>Header</td><td>2</td><td>PS</td><td>1</td><td>Destination address</td></tr>
+    <tr><td>Header</td><td>3</td><td>SA</td><td>1</td><td>Source address</td></tr>
+    <tr><td>Payload</td><td>4</td><td>Control Type</td><td>1</td><td>1=ACK, 2=NACK</td></tr>
+    <tr><td>Payload</td><td>5-10</td><td>Control Parameters</td><td>6</td><td>Parameters for ACK/NACK (e.g., starting frame, totals), encoded per implementation</td></tr>
+    <tr><td>Padding</td><td>11</td><td>Pad</td><td>1</td><td>0xFF when unused</td></tr>
+    <tr><td>Payload</td><td>4-11</td><td>Data Field</td><td>8</td><td>Shown as a block for brevity</td></tr>
+  </tbody>
+</table>

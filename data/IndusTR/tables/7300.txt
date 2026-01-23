@@ -1,0 +1,15 @@
+<table>
+  <caption>Electric Compressor Test Conditions — Vibration Acceptance Criteria by Mounting Orientation</caption>
+  <thead>
+    <tr><th rowspan="2">Mounting orientation</th><th rowspan="2">Axis</th><th rowspan="2">Frequency (Hz)</th><th rowspan="2">Amplitude (mm) / Acceleration (g)</th><th rowspan="2">Sweep period (min)</th><th colspan="2">Acceptance criteria</th><th rowspan="2">Instrumentation</th></tr>
+    <tr><th>Operational</th><th>Post-test</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vertical</td><td>X</td><td>5–60</td><td>0.5 mm</td><td>4</td><td>No stall</td><td>No leakage</td><td>Tri-ax accelerometer</td></tr>
+    <tr><td>Vertical</td><td>Y</td><td>60–250</td><td>2.0 g</td><td>2</td><td>No abnormal noise</td><td>No loosened fasteners</td><td>Microphone + accelerometer</td></tr>
+    <tr><td>Vertical</td><td>Z</td><td>250–500</td><td>3.5 g</td><td>2</td><td>Current ripple < 5%</td><td>Insulation resistance pass</td><td>Current probe</td></tr>
+    <tr><td>Horizontal</td><td>X</td><td>5–60</td><td>0.8 mm</td><td>4</td><td>No stall</td><td>No housing crack</td><td>Tri-ax accelerometer</td></tr>
+    <tr><td>Horizontal</td><td>Y</td><td>60–250</td><td>2.5 g</td><td>2</td><td>No functional reset</td><td>Connector intact</td><td>Event logger</td></tr>
+    <tr><td>Horizontal</td><td>Z</td><td>250–500</td><td>4.0 g</td><td>2</td><td>Speed drop < 10%</td><td>No oil seepage</td><td>Tachometer</td></tr>
+  </tbody>
+</table>

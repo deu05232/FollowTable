@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Camera Configuration Creation and Selection Parameters</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Create / Destroy</td><td>session</td><td>ArSession *</td><td>Augmented reality session pointer used to allocate config objects</td></tr>
+    <tr><td>out_camera_config</td><td>ArCameraConfig **</td><td>Receives newly created camera config object</td></tr>
+    <tr><td>out_config_list</td><td>ArCameraConfigList **</td><td>Receives list handle for enumerating supported configs</td></tr>
+    <tr><td>config_to_destroy</td><td>ArCameraConfig *</td><td>Config object to be released</td></tr>
+    <tr><td rowspan="4">Choose / Apply</td><td>camera_config</td><td>ArCameraConfig *</td><td>Camera configuration to apply to the session</td></tr>
+    <tr><td>focus_mode</td><td>ArFocusMode</td><td>Sets autofocus behavior for the camera stream</td></tr>
+    <tr><td>target_fps_range</td><td>ArFpsRange</td><td>Preferred FPS range for the selected stream</td></tr>
+    <tr><td>depth_mode</td><td>ArDepthMode</td><td>Enables or disables depth stream for the session</td></tr>
+    <tr><td rowspan="2">Filter</td><td>filter</td><td>ArCameraConfigFilter *</td><td>Filter object used to constrain config enumeration</td></tr>
+    <tr><td>desired_image_format</td><td>ArImageFormat</td><td>Requested output pixel format for camera frames</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Worldwide Broadcast and NAVAREA METAREA Area Address Code Field Format</caption>
+  <tr><td>Serial No.</td><td>Field Name</td><td>Bits</td><td>Valid Range</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>X1</td><td>2</td><td>0~2</td><td></td></tr>
+  <tr><td>2</td><td>X2</td><td>4</td><td>0~9</td><td></td></tr>
+  <tr><td colspan="2">Total</td><td>6</td><td></td><td>X1X composite code; 00: worldwide broadcast; 01~21: NAVAREA/METAREA number; 22~63: unused</td></tr>
+</table>

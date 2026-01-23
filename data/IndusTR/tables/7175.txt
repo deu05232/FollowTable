@@ -1,0 +1,17 @@
+<table>
+  <caption>Land Eco-meteorological Station Metadata (Labels and Units Without Storage Specification)</caption>
+  <thead>
+    <tr><th>Section</th><th>Item No.</th><th>Metadata Field</th><th>Field Code</th><th>Unit / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Identification</td><td>1</td><td>Station name</td><td>D_NAME</td><td>Official full name used on reports</td></tr>
+    <tr><td>2</td><td>Station alias</td><td>D_ALIAS</td><td>Common short name</td></tr>
+    <tr><td>3</td><td>Station address</td><td>D_ADDRESS</td><td>Administrative address text</td></tr>
+    <tr><td>4</td><td>Station code</td><td>D_CODE</td><td>Assigned by local authority</td></tr>
+    <tr><td rowspan="3">Location</td><td>5</td><td>Latitude</td><td>LAT</td><td>Degrees (WGS84)</td></tr>
+    <tr><td>6</td><td>Longitude</td><td>LON</td><td>Degrees (WGS84)</td></tr>
+    <tr><td>7</td><td>Elevation</td><td>ALT</td><td>m</td></tr>
+    <tr><td rowspan="2">Operation</td><td>8</td><td>Start date</td><td>START_DATE</td><td>YYYY-MM-DD</td></tr>
+    <tr><td>9</td><td>Status</td><td>STATUS</td><td>active/inactive</td></tr>
+  </tbody>
+</table>

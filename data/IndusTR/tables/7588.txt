@@ -1,0 +1,16 @@
+<table>
+  <caption>Plane Detection vs. Intersection Query Modes Reference</caption>
+  <thead>
+    <tr><th>Section</th><th>Enum Constant</th><th>Value</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Plane Finding Mode</td><td>AR_PLANE_FINDING_MODE_DISABLED</td><td>0</td><td>Disable plane search</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL</td><td>1</td><td>Find horizontal planes</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_VERTICAL</td><td>2</td><td>Find vertical planes</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL_AND_VERTICAL</td><td>3</td><td>Find both plane orientations</td></tr>
+    <tr><td rowspan="4">ARQueryMode (Intersection)</td><td>ARQUERY_MODE_POLYGON_ONLY</td><td>0</td><td>Intersections against polygon planes only</td></tr>
+    <tr><td>ARQUERY_MODE_POLYGON_AND_HORIZONPLANE</td><td>1</td><td>Polygon + infinite horizontal plane</td></tr>
+    <tr><td>ARQUERY_MODE_POLYGON_PERSISTENCE</td><td>2</td><td>Polygon prioritized; also infinite plane</td></tr>
+    <tr><td>ARQUERY_MODE_DEPTH_AWARE</td><td>3</td><td>Intersection queries consider depth when available</td></tr>
+  </tbody>
+</table>

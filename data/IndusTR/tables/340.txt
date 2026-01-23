@@ -1,0 +1,7 @@
+<table>
+  <caption>Common Service Identifier and Name Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Number of Occurrences</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>Service Chinese Name</td><td>serviceCName</td><td>C.100</td><td>M</td><td>1</td><td></td><td>Chinese name of the service</td></tr>
+  <tr><td>Service English Name</td><td>serviceEName</td><td>C.200</td><td>M</td><td>1</td><td></td><td>English name of the service</td></tr>
+  <tr><td>Service Identifier</td><td>serviceID</td><td>C..600</td><td>C</td><td>1</td><td></td><td>Unique identifier of the service, composed according to certain rules. When the service is registered with the registry center, the registry center should set the service identifier</td></tr>
+</table>

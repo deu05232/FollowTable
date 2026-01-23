@@ -1,0 +1,10 @@
+<table>
+  <caption>ArTrackable_getTypeAndAnchors parameters</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>trackable</td><td>ArTrackable *</td><td>Trackable object pointer</td></tr>
+  <tr><td>out_trackable_type</td><td>ArTrackableType *</td><td>Pointer to the trackable's type</td></tr>
+  <tr><td>out_anchor_list</td><td>ArAnchorList *</td><td>Receives anchors currently attached to the trackable</td></tr>
+  <tr><td>out_anchor_count</td><td>int32_t *</td><td>Receives the number of anchors returned</td></tr>
+  <tr><td>out_status</td><td>ArStatus *</td><td>Operation status code</td></tr>
+</table>

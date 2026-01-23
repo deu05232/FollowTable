@@ -1,0 +1,7 @@
+<table>
+  <caption>Application-layer messages with timing and endpoint details</caption>
+  <tr><th>Identifier</th><th>Message purpose</th><th>Acknowledgment expectation</th><th>Repetition / period rule</th><th>Endpoint pair</th></tr>
+  <tr><td>0x05</td><td>DC power supply circuit contactor status</td><td>No acknowledgment</td><td>1000 ms normally; 50 ms burst for 3 frames on change</td><td>Charger → Vehicle</td></tr>
+  <tr><td>0x06</td><td>Vehicle power supply circuit contactor status</td><td>No acknowledgment</td><td>1000 ms normally; 50 ms burst for 3 frames on change</td><td>Vehicle → Charger</td></tr>
+  <tr><td>0x04</td><td>Vehicle abort</td><td>Requires acknowledgment</td><td>One-shot with 1000 ms transmission window</td><td>Vehicle → Charger</td></tr>
+</table>

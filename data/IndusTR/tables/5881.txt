@@ -1,0 +1,15 @@
+<table>
+  <caption>Notification Request Parameters (Mixed with Subscription Fields)</caption>
+  <thead>
+    <tr><th>Parameter Group</th><th>Field Name</th><th>Data Type / Format</th><th>Required</th><th>Max Occurs</th><th>Constraints / Value Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Notification</td><td>interfaceOperation</td><td>String (C..64)</td><td>M</td><td>1</td><td>NOTIFY</td><td>Operation for notification request</td></tr>
+    <tr><td>Notification</td><td>initiatorNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Identifier of the notification initiator</td></tr>
+    <tr><td>Notification</td><td>recipientNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Identifier of the notification recipient</td></tr>
+    <tr><td>Notification</td><td>notificationTimestamp</td><td>DateTime (ISO-8601)</td><td>O</td><td>1</td><td>e.g., 2026-01-19T12:30:00Z</td><td>Time when notification is produced</td></tr>
+    <tr><td>Subscription</td><td>subscriberID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Non-empty if present</td><td>Subscriber identifier (subscription request field)</td></tr>
+    <tr><td>Subscription</td><td>subscribedToID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Non-empty if present</td><td>Subscribed-to identifier (subscription request field)</td></tr>
+    <tr><td>User Condition</td><td>userConditions</td><td>String (C..256)</td><td>O</td><td>1</td><td>Free text</td><td>Constraints for eligible users (non-notification)</td></tr>
+  </tbody>
+</table>

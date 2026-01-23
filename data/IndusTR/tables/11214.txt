@@ -1,0 +1,15 @@
+<table>
+  <caption>Spherical-Harmonic Ionospheric Correction — Field Name to DF Identifier Mapping (Decoder-Oriented)</caption>
+  <thead>
+    <tr><th>Block</th><th>Field Name (as in message)</th><th>DF Identifier</th><th>Encoding</th><th>Bit Length</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header / Model</td><td>Ionospheric thin-shell height</td><td>DF473</td><td>Unsigned integer</td><td>8</td></tr>
+    <tr><td>Header / Model</td><td>Spherical harmonic function degree</td><td>DF474</td><td>Unsigned integer</td><td>4</td></tr>
+    <tr><td>Header / Model</td><td>Spherical harmonic function order</td><td>DF475</td><td>Unsigned integer</td><td>4</td></tr>
+    <tr><td>Coefficient set</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>Signed integer</td><td>16</td></tr>
+    <tr><td>Coefficient set</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>Signed integer</td><td>16</td></tr>
+    <tr><td>Quality / Accuracy</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>Unsigned integer</td><td>8</td></tr>
+    <tr><td>Quality / Accuracy</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>Unsigned integer</td><td>8</td></tr>
+  </tbody>
+</table>

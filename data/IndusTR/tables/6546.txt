@@ -1,0 +1,14 @@
+<table>
+  <caption>Final Product Uniformity & Balance Inspection Calculation Outputs (Non-Control)</caption>
+  <thead>
+    <tr><th>No.</th><th>Inspection Logic Item</th><th>Purpose</th><th>Inputs (Sensors/Measurements)</th><th>Outputs (Metrics/Results)</th><th>Computation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>RadialForceVariationCalc</td><td>Compute RFV metrics for tire uniformity report</td><td>Load cell force signal; speed encoder; sampling clock</td><td>RFV peak-to-peak; harmonics (1H/2H)</td><td>FFT + peak extraction</td></tr>
+    <tr><td>2</td><td>LateralForceVariationCalc</td><td>Compute LFV metrics to assess lateral non-uniformity</td><td>Lateral force sensor; encoder angle</td><td>LFV peak-to-peak; phase angle</td><td>Angle-synchronous averaging</td></tr>
+    <tr><td>3</td><td>ConicityEstimator</td><td>Estimate conicity for grading and matching</td><td>Lateral force signal; tire speed</td><td>Conicity value; direction</td><td>Regression on force vs. speed</td></tr>
+    <tr><td>4</td><td>DynamicBalanceUnbalanceCalc</td><td>Calculate static/dynamic unbalance for balance classification</td><td>Vibration accelerometer; spindle speed; radius parameter</td><td>Unbalance magnitude; correction angle</td><td>Order tracking + vector computation</td></tr>
+    <tr><td>5</td><td>RunoutMeasurementAggregator</td><td>Aggregate radial/lateral runout from probes</td><td>Runout probe signals; angle encoder</td><td>Radial runout; lateral runout; max deviation</td><td>Min/max over one revolution</td></tr>
+    <tr><td>6</td><td>InspectionGradeDecision</td><td>Assign grade based on inspection thresholds</td><td>RFV/LFV/conicity/unbalance/runout metrics; grade limits</td><td>Grade (A/B/C); reject flag</td><td>Rule-based decision table</td></tr>
+  </tbody>
+</table>

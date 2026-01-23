@@ -1,0 +1,10 @@
+# Outlook.com SMTP settings alongside DNS records (mixed configuration topics)
+
+| Category | Setting | Example value |
+| --- | --- | --- |
+| SMTP server | Hostname | smtp-mail.outlook.com |
+| SMTP | Port / Encryption | 587 / TLS |
+| DNS | MX record | example-com.mail.protection.outlook.com |
+| DNS | SPF (TXT) | v=spf1 include:spf.protection.outlook.com -all |
+| DNS | DKIM selector 1 | selector1-example-com._domainkey |
+| DNS | DMARC | v=DMARC1; p=none; rua=mailto:dmarc@example.com |

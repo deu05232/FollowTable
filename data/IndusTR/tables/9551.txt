@@ -1,0 +1,8 @@
+<table>
+  <caption>Deep learning framework adaptation table (negative): operator kernel registration oriented</caption>
+  <tr><th>Operator</th><th>Kernel registration step</th><th>Kernel signature summary</th><th>Dispatch condition</th><th>Registration notes</th></tr>
+  <tr><td>Conv2D</td><td>Add kernel entry to registry</td><td>Input/weight/bias tensors and stride/padding attributes</td><td>Use accelerator when layout is NHWC</td><td>Separate kernels per data type</td></tr>
+  <tr><td>MatMul</td><td>Bind kernel implementation</td><td>Two input tensors with optional transpose flags</td><td>Use accelerator when shapes are aligned</td><td>Fallback kernel required for edge cases</td></tr>
+  <tr><td>ReLU</td><td>Register elementwise kernel</td><td>Single tensor in/out</td><td>Always dispatch to accelerator</td><td>Fuse when possible</td></tr>
+  <tr><td>BatchNorm</td><td>Register training/inference kernels</td><td>Input tensor plus running mean/variance</td><td>Accelerator only for inference path</td><td>Training path may stay on CPU</td></tr>
+</table>

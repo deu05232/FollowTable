@@ -1,0 +1,10 @@
+<table>
+  <caption>Asymptotic behavior of the distribution function f ⁢ ( c ) for one-dimensional systems in the quasi-elastic limit. In general, the result depends on the order of limits. Order A corresponds to take first α → 1 - and then | c | → ∞ , whereas order B refers to the reverse order, i.e. first | c | → ∞ and then α → 1 - . The first/second footnote in the second column gives the reference where the result for order A/B was obtained.</caption>
+  <tr><th>State</th><th>System</th><th>Order A</th><th>Order B</th></tr>
+  <tr><th>Free cooling</th><th>Hard spheres</th><td>12[δ(c-1)+δ(c+1)]</td><td>e^(-a|c|)</td></tr>
+  <tr><th></th><th>Maxwell model</th><td>c^(-4)</td><td>c^(-4)</td></tr>
+  <tr><th>White noise</th><th>Hard spheres</th><td>e^(-a|c|^{3)</td><td>e^(-a|c|^{3/2)</td></tr>
+  <tr><th></th><th>Maxwell model</th><td>e^(-ac^{2)</td><td>e^(-a|c|)</td></tr>
+  <tr><th>Gravity thermostat</th><th>Hard spheres</th><td>12[δ(c-1)+δ(c+1)]</td><td>e^(-ac^{2)</td></tr>
+  <tr><th></th><th>Maxwell model</th><td>12[δ(c-1)+δ(c+1)]</td><td>e^(-a|c|)</td></tr>
+</table>

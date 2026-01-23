@@ -1,0 +1,15 @@
+<table>
+  <caption>Rule-based car-following update scheme and qualitative interpretation of each component</caption>
+  <thead>
+    <tr><th rowspan="2">Rule ID</th><th rowspan="2">Update step (symbolic)</th><th rowspan="2">Condition / trigger</th><th colspan="2">Qualitative traffic interpretation</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Expected effect</th><th>Phenomenon referenced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R0</td><td>v(t+Δt) = min(v(t)+aΔt, v_max)</td><td>Free acceleration if headway is large</td><td>Drivers speed up smoothly</td><td>Free flow stabilization</td><td>Uses a hard speed cap</td></tr>
+    <tr><td>R1</td><td>v(t+Δt) = min(v(t), g(t)/Δt)</td><td>Gap-limited motion</td><td>Avoids collisions by respecting spacing</td><td>Formation of moving bottlenecks</td><td>Gap g(t) treated deterministically</td></tr>
+    <tr><td>R2</td><td>with prob. p: v(t+Δt)=max(v(t+Δt)-1,0)</td><td>Randomization / hesitation</td><td>Captures imperfect driving</td><td>Stop-and-go onset</td><td>Stochastic slow-to-start variant possible</td></tr>
+    <tr><td>R3</td><td>x(t+Δt) = x(t) + v(t+Δt)Δt</td><td>Position update every time step</td><td>Vehicle advances according to chosen speed</td><td>Wave propagation in queues</td><td>Discrete time lattice optional</td></tr>
+    <tr><td>R4</td><td>if merging: v := min(v, v_lead)</td><td>Lane-change / merge constraint</td><td>Courtesy yields reduce conflicts</td><td>Capacity drop at ramps</td><td>Qualitative ramp metering analogy</td></tr>
+    <tr><td>R5</td><td>if jam detected: apply slow-to-start delay</td><td>Restart from standstill</td><td>Drivers react late after stopping</td><td>Wide jam persistence</td><td>Introduces hysteresis behavior</td></tr>
+  </tbody>
+</table>

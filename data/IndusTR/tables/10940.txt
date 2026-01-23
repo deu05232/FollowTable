@@ -1,0 +1,18 @@
+<table>
+  <caption>Lifecycle Interfaces for Hardware-Executable Model Creation and Destruction</caption>
+  <thead>
+    <tr><th>Lifecycle Stage</th><th>Interface Name</th><th>Recommended English Name</th><th>Required/Optional</th><th>Purpose</th><th>Key Inputs</th><th>Key Outputs</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Validation</td><td>Validate Model Graph</td><td>validate_model_graph</td><td>Optional</td><td>Check operator coverage, shapes/dtypes constraints, and partition feasibility before creating an executable model.</td><td>FrameworkGraph, DeviceCapabilities</td><td>ValidationReport, SupportedSubgraphs</td></tr>
+    <tr><td>Validate Cached Executable</td><td>validate_model_cache</td><td>Optional</td><td>Confirm a cached executable is compatible with the current driver/firmware and runtime settings.</td><td>CacheKey, RuntimeVersionInfo</td><td>CacheValidityResult</td></tr>
+    <tr><td rowspan="2">Creation / Loading</td><td>Create Executable Model</td><td>create_executable_model</td><td>Required</td><td>Build or load a hardware-executable model instance; may use caching.</td><td>FrameworkGraph, CompileOptions, CacheContext</td><td>ExecutableModelHandle</td></tr>
+    <tr><td>Load Executable Model From Cache</td><td>load_executable_model</td><td>Optional</td><td>Load a previously serialized executable model without rebuilding.</td><td>CacheBlob, DeviceId</td><td>ExecutableModelHandle</td></tr>
+    <tr><td rowspan="2">Initialization</td><td>Initialize Model Runtime Resources</td><td>initialize_model</td><td>Required</td><td>Allocate runtime resources (streams, constant buffers), bind device context, and prepare for execution.</td><td>ExecutableModelHandle, DeviceContext</td><td>InitializedModelHandle</td></tr>
+    <tr><td>Finalize Model Runtime Resources</td><td>finalize_model</td><td>Required</td><td>Release resources allocated during initialization (but keep the executable object if needed).</td><td>InitializedModelHandle</td><td>Status</td></tr>
+    <tr><td rowspan="2">Serialization</td><td>Serialize Executable Model</td><td>serialize_model</td><td>Optional</td><td>Export an executable model to a binary blob for caching and deployment.</td><td>ExecutableModelHandle, SerializeOptions</td><td>CacheBlob</td></tr>
+    <tr><td>Get Cache Key</td><td>get_model_cache_key</td><td>Optional</td><td>Generate a stable identifier for caching based on graph signature and device/runtime versions.</td><td>FrameworkGraph, RuntimeVersionInfo</td><td>CacheKey</td></tr>
+    <tr><td rowspan="2">Destruction</td><td>Destroy Executable Model</td><td>destroy_executable_model</td><td>Required</td><td>Destroy the executable model object and all resources it owns.</td><td>ExecutableModelHandle</td><td>Status</td></tr>
+    <tr><td>Destroy Validation Report</td><td>destroy_validation_report</td><td>Optional</td><td>Free validation report resources if the API returns heap-owned structures.</td><td>ValidationReport</td><td>Status</td></tr>
+  </tbody>
+</table>

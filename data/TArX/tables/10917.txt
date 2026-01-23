@@ -1,0 +1,15 @@
+<table>
+  <caption>Detailed Breakdown of Fission Energy Budget by Isotope (Including Isomer Excitation and Barrier Corrections)</caption>
+  <thead>
+    <tr><th rowspan="2">Fissioning isotope</th><th colspan="4">Energy terms (MeV per fission)</th><th rowspan="2">Reported subtotal (MeV)</th><th rowspan="2">Comments</th></tr>
+    <tr><th>Fission Q-value</th><th>Neutron-capture release</th><th>Barrier correction</th><th>Isomer excitation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>U-235</td><td>193.2</td><td>8.6</td><td>+0.9</td><td>2.7</td><td>205.4</td><td>Subtotal includes barrier + isomer</td></tr>
+    <tr><td>U-238</td><td>194.7</td><td>10.9</td><td>+1.1</td><td>2.6</td><td>209.3</td><td>Explicitly lists forbidden terms</td></tr>
+    <tr><td>Pu-239</td><td>195.4</td><td>11.3</td><td>+0.8</td><td>2.8</td><td>210.3</td><td>Energy budget not limited to per-fission total</td></tr>
+    <tr><td>Pu-241</td><td>196.0</td><td>11.8</td><td>+0.7</td><td>2.9</td><td>211.4</td><td>Adds excitation energy term</td></tr>
+    <tr><td>Pu-240</td><td>194.9</td><td>11.1</td><td>+0.8</td><td>2.2</td><td>209.0</td><td>Contains barrier correction</td></tr>
+    <tr><td>U-239</td><td>191.5</td><td>9.9</td><td>+1.3</td><td>2.1</td><td>204.8</td><td>Nonstandard isotope included with barrier/isomer</td></tr>
+  </tbody>
+</table>

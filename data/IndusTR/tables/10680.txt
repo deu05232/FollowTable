@@ -1,0 +1,15 @@
+<table>
+  <caption>Device Profile Retrieval API - Authentication and Filters</caption>
+  <thead>
+    <tr><th>Field</th><th>Type</th><th>Required</th><th>Location</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>API Name</td><td>string</td><td>Yes</td><td>—</td><td>Device Profile Retrieval API</td></tr>
+    <tr><td>API Method</td><td>string</td><td>Yes</td><td>—</td><td>GET</td></tr>
+    <tr><td>access_token</td><td>string</td><td>Yes</td><td>Header</td><td>OAuth access token used to authorize the request</td></tr>
+    <tr><td>deviceId</td><td>string</td><td>No</td><td>Query</td><td>Optional filter: return only the specified device profile</td></tr>
+    <tr><td>status</td><td>string</td><td>No</td><td>Query</td><td>Optional filter: device status (ACTIVE, INACTIVE)</td></tr>
+    <tr><td>fields</td><td>string</td><td>No</td><td>Query</td><td>Comma-separated list of profile fields to include in response</td></tr>
+    <tr><td>includeLastSeen</td><td>boolean</td><td>No</td><td>Query</td><td>Whether to include last seen timestamp</td></tr>
+  </tbody>
+</table>

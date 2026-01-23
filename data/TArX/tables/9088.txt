@@ -1,0 +1,16 @@
+<table>
+  <caption>Rheological and thermal physical properties for bone-related tissues and biomaterials</caption>
+  <thead>
+    <tr><th rowspan="2">Tissue type</th><th colspan="2">Flow/viscous properties</th><th colspan="2">Thermal properties</th><th rowspan="2">Measurement note</th></tr>
+    <tr><th>Dynamic viscosity (Pa·s)</th><th>Kinematic viscosity (m^2/s)</th><th>Specific heat capacity (kJ/(kg·K))</th><th>Thermal conductivity (W/(m·K))</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Bone marrow (human, ~37°C)</td><td>0.02–0.08</td><td>(2–8)×10^-5</td><td>2.0–3.2</td><td>0.20–0.35</td><td>Non-Newtonian; shear-rate dependent ranges</td></tr>
+    <tr><td>Blood (for reference within marrow spaces, ~37°C)</td><td>0.003–0.004</td><td>(2.5–4.0)×10^-6</td><td>3.6–3.9</td><td>0.50–0.55</td><td>Assumed Newtonian at high shear</td></tr>
+    <tr><td>Synovial fluid (joint-adjacent, ~37°C)</td><td>0.05–0.30</td><td>(4–25)×10^-5</td><td>3.8–4.1</td><td>0.45–0.55</td><td>Strongly shear-thinning</td></tr>
+    <tr><td>Cartilage interstitial fluid (approx.)</td><td>0.001–0.003</td><td>(0.9–2.7)×10^-6</td><td>4.0–4.2</td><td>0.55–0.65</td><td>Often modeled as water-like</td></tr>
+    <tr><td>Cortical bone (effective, bulk)</td><td>N/A</td><td>N/A</td><td>1.2–1.6</td><td>0.35–0.55</td><td>Solid; viscosity not applicable</td></tr>
+    <tr><td>Trabecular bone (effective, bulk)</td><td>N/A</td><td>N/A</td><td>1.3–2.0</td><td>0.15–0.35</td><td>Porous solid; properties depend on BV/TV</td></tr>
+    <tr><td>PMMA bone cement (freshly mixed)</td><td>50–300</td><td>(3–20)×10^-2</td><td>1.1–1.5</td><td>0.18–0.25</td><td>Viscosity increases during polymerization</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Minimum Efficiency Formula by Rated Power Bucket (with Logarithmic Term) for Efficiency Grades</caption>
+  <thead>
+    <tr><th>Efficiency Grade</th><th>Rated Output Power Bucket (Po, W)</th><th>Min Avg Efficiency @ Low Line (decimal)</th><th>Min Avg Efficiency @ High Line (decimal)</th><th>PF Requirement (Rule)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Grade 1</td><td>0 < Po ≤ 1</td><td>0.515 × Po + 0.100</td><td>0.505 × Po + 0.165</td><td>No PF requirement</td><td>Applies to single-voltage products</td></tr>
+    <tr><td>1 < Po ≤ 20</td><td>0.077 × ln(Po) - 0.0011 × Po + 0.660</td><td>0.075 × ln(Po) - 0.0011 × Po + 0.675</td><td>No PF requirement</td><td>Log term for small supplies</td></tr>
+    <tr><td>20 < Po ≤ 49</td><td>0.080 × ln(Po) - 0.0010 × Po + 0.670</td><td>0.078 × ln(Po) - 0.0010 × Po + 0.685</td><td>No PF requirement</td><td>Average over defined load points</td></tr>
+    <tr><td>49 < Po ≤ 250</td><td>0.908</td><td>0.913</td><td>PF ≥ 0.93 at rated load</td><td>PF evaluated at 100% load only</td></tr>
+    <tr><td>250 < Po ≤ 500</td><td>0.912</td><td>0.918</td><td>PF ≥ 0.94 at rated load</td><td>PF evaluated at 100% load only</td></tr>
+    <tr><td>500 < Po ≤ 1000</td><td>0.916</td><td>0.922</td><td>PF ≥ 0.95 at rated load</td><td>PF evaluated at 100% load only</td></tr>
+  </tbody>
+</table>

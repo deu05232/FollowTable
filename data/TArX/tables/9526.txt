@@ -1,0 +1,14 @@
+<table>
+  <caption>AMBT1 tuning inputs and reconstruction/selection requirements used in the same studies</caption>
+  <thead>
+    <tr><th>Study block</th><th>Energy (TeV)</th><th>Observable / target</th><th>Distribution / range</th><th>Physics phase space</th><th>Reconstruction / selection rule</th><th>Selection flag</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Minimum-bias charged multiplicity</td><td>0.9</td><td>dNch/dη at η=0</td><td>|η| < 0.5</td><td>pT > 100 MeV</td><td>Track quality: ≥1 pixel hit and ≥6 SCT hits</td><td>YES</td></tr>
+    <tr><td>Minimum-bias charged multiplicity</td><td>7</td><td>dNch/dη</td><td>-2.5 < η < 2.5</td><td>pT > 500 MeV</td><td>Primary-vertex association required</td><td>YES</td></tr>
+    <tr><td>pT spectrum</td><td>0.9</td><td>(1/Nevt) dNch/dpT</td><td>0.1–10 GeV</td><td>|η| < 2.5</td><td>Impact parameter cuts: |d0| < 1.5 mm, |z0·sinθ| < 1.5 mm</td><td>YES</td></tr>
+    <tr><td>Underlying event proxy</td><td>7</td><td>⟨pT⟩ vs Nch</td><td>Nch = 1–60</td><td>pT > 500 MeV</td><td>Trigger: MBTS required</td><td>YES</td></tr>
+    <tr><td>Multiplicity tails</td><td>7</td><td>P(Nch)</td><td>Nch = 0–120</td><td>|η| < 2.5</td><td>Event cleaning applied (beam background veto)</td><td>YES</td></tr>
+    <tr><td>Systematic cross-check</td><td>0.9</td><td>dNch/dη (alternative)</td><td>-2.0 < η < 2.0</td><td>pT > 100 MeV</td><td>Track selection tightened: χ2/ndf < 3</td><td>YES</td></tr>
+  </tbody>
+</table>

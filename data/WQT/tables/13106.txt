@@ -1,0 +1,12 @@
+# Administrative Distance by Vendor Platform and Device Family
+
+| Vendor / Platform | Model / OS | Route Source Example | Default AD Value |
+| --- | --- | --- | ---: |
+| Cisco | IOS XE (Catalyst 9k) | OSPF | 110 |
+| Cisco | IOS XR (ASR/CSR) | iBGP | 200 |
+| Juniper | Junos (MX Series) | Static | 5 |
+| Juniper | Junos (SRX Series) | Direct | 0 |
+| Arista | EOS (7050X) | eBGP | 20 |
+| MikroTik | RouterOS (CCR) | RIP | 120 |
+| Huawei | VRP (NE Series) | IS-IS | 115 |
+| Palo Alto | PAN-OS (PA-52xx) | OSPF | 110 |

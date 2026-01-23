@@ -1,0 +1,14 @@
+<table>
+  <caption>ARDepthMode Enumeration Values (Mobile AR SDK)</caption>
+  <thead>
+    <tr><th>ARDepthMode Value</th><th>Numeric</th><th>Behavior / What it does</th><th>Typical use case</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ARDEPTH_MODE_DISABLED</td><td>0</td><td>Depth processing is turned off; the session will not provide per-pixel depth information.</td><td>Max performance / lowest latency</td></tr>
+    <tr><td>ARDEPTH_MODE_AUTOMATIC</td><td>1</td><td>The runtime selects the best available depth source for the device and current tracking state.</td><td>Default choice when you just want “depth if possible”</td></tr>
+    <tr><td>ARDEPTH_MODE_RAW_DEPTH</td><td>2</td><td>Provides raw depth values (minimal filtering); can be noisy and may include invalid pixels.</td><td>Custom filtering, research, precise control</td></tr>
+    <tr><td>ARDEPTH_MODE_SMOOTHED_DEPTH</td><td>3</td><td>Provides depth with temporal/spatial smoothing to reduce noise at the cost of some lag.</td><td>Occlusion and stable rendering</td></tr>
+    <tr><td>ARDEPTH_MODE_PERSON_OCCLUSION</td><td>4</td><td>Produces a depth/segmentation output optimized for occluding virtual content behind people.</td><td>Human occlusion effects</td></tr>
+    <tr><td>ARDEPTH_MODE_ENVIRONMENTAL_DEPTH</td><td>5</td><td>Generates depth for the surrounding scene geometry (walls, floors, furniture) for occlusion and placement.</td><td>Scene occlusion and physics interactions</td></tr>
+  </tbody>
+</table>

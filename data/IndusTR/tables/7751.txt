@@ -1,0 +1,17 @@
+<table>
+  <caption>Technical Detection and Localization Thresholds for Ground Vibration Perimeter Intrusion Detectors (Geophone-Based)</caption>
+  <thead>
+    <tr><th rowspan="2">Metric</th><th rowspan="2">Unit</th><th colspan="3">Installation Condition</th></tr>
+    <tr><th>Soft soil</th><th>Compacted soil</th><th>Concrete edge</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Effective detection radius (walking human)</td><td>m</td><td>≥12</td><td>≥10</td><td>≥6</td></tr>
+    <tr><td>Minimum detectable ground velocity (RMS, 10–60 Hz)</td><td>mm/s</td><td>≤0.20</td><td>≤0.25</td><td>≤0.35</td></tr>
+    <tr><td>Frequency band used for intrusion classification</td><td>Hz</td><td>10–60</td><td>10–80</td><td>15–100</td></tr>
+    <tr><td>Sensor-to-sensor spacing for continuous coverage</td><td>m</td><td>≤8</td><td>≤7</td><td>≤5</td></tr>
+    <tr><td>Alarm decision time (signal onset to alarm)</td><td>ms</td><td>≤800</td><td>≤700</td><td>≤600</td></tr>
+    <tr><td>Localization accuracy along fence line (1D)</td><td>m</td><td>≤3.0</td><td>≤2.5</td><td>≤2.0</td></tr>
+    <tr><td>false alarm rate due to wind (8 m/s), per 24 h per 100 m</td><td>events</td><td>≤2</td><td>≤2</td><td>≤3</td></tr>
+    <tr><td>Vibration shock survivability (half-sine pulse, 11 ms)</td><td>g</td><td>≥30</td><td>≥30</td><td>≥50</td></tr>
+  </tbody>
+</table>

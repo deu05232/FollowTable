@@ -1,0 +1,15 @@
+<table>
+  <caption>Decoder Conformance Inputs (Grouped by Bitstream Set, Not by Sampling-Rate Columns)</caption>
+  <thead>
+    <tr><th>No.</th><th>Conformance group</th><th>Test bitstream set (single file)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Core</td><td>ts_core_mdct_baseline_01.avsa</td><td>Single set entry (no per-rate variants shown)</td></tr>
+    <tr><td>2</td><td>Core</td><td>ts_core_mdct_baseline_02.avsa</td><td>Single set entry</td></tr>
+    <tr><td>3</td><td>MCR</td><td>ts_mcr_profileA_case03.avsa</td><td>Single set entry</td></tr>
+    <tr><td>4</td><td>MCR</td><td>ts_mcr_profileA_case04.avsa</td><td>Single set entry</td></tr>
+    <tr><td>5</td><td>Block switching</td><td>ts_blockswitch_case05_32kbps.avsa</td><td>Bitrate-oriented naming only</td></tr>
+    <tr><td>6</td><td>HOA</td><td>ts_hoa_3rd_order_case06_meta.avsa</td><td>Metadata stress</td></tr>
+    <tr><td>7</td><td>Object</td><td>ts_obj_bed_5p1_case07.avsa</td><td>Channel layout focus</td></tr>
+  </tbody>
+</table>

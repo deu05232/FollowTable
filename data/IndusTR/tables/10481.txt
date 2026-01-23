@@ -1,0 +1,21 @@
+<table>
+  <caption>Official Vehicle Master Registry (Core Identification, Asset, and Responsible Unit)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identity</td><td>Vehicle Master ID</td><td>Character</td><td>an..36</td><td>Unique internal identifier for the vehicle record (UUID or equivalent)</td></tr>
+    <tr><td>Identity</td><td>License Plate Number</td><td>Character</td><td>an..15</td><td>Official vehicle plate number used for external identification</td></tr>
+    <tr><td>Identity</td><td>VIN (Vehicle Identification Number)</td><td>Character</td><td>an..20</td><td>Globally unique vehicle identifier</td></tr>
+    <tr><td>Asset</td><td>Asset ID</td><td>Numeric</td><td>n..30</td><td>Vehicle asset identifier registered in the asset management system</td></tr>
+    <tr><td>Asset</td><td>Asset Category Code</td><td>Character</td><td>an..20</td><td>Category code for government assets (aligned to internal/GB/T code rules)</td></tr>
+    <tr><td>Vehicle</td><td>Brand</td><td>Character</td><td>an..30</td><td>Vehicle brand as shown on registration documents</td></tr>
+    <tr><td>Vehicle</td><td>Model</td><td>Character</td><td>an..30</td><td>Vehicle model as shown on registration documents</td></tr>
+    <tr><td>Vehicle</td><td>Vehicle Type</td><td>Character</td><td>an..20</td><td>e.g., sedan, MPV, SUV, bus, special-purpose</td></tr>
+    <tr><td>Ownership</td><td>Motor Vehicle Owner</td><td>Character</td><td>an..50</td><td>Owner information registered on the vehicle license</td></tr>
+    <tr><td>Organization</td><td>Owning Department</td><td>Character</td><td>an..60</td><td>Department that holds ownership/asset accountability</td></tr>
+    <tr><td>Organization</td><td>Using Organization</td><td>Character</td><td>an..60</td><td>Organization/unit that primarily uses the vehicle</td></tr>
+    <tr><td>Organization</td><td>Responsible Unit Code</td><td>Character</td><td>an..30</td><td>Code of the unit responsible for management workflow routing</td></tr>
+    <tr><td>Status</td><td>Vehicle Status</td><td>Character</td><td>an..20</td><td>In service / idle / transferred / scrapped</td></tr>
+  </tbody>
+</table>

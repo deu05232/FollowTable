@@ -1,0 +1,16 @@
+<table>
+  <caption>Mode-by-Mode Power and Energy Recording Sheet (Off / Ready / Sleep / Active) for Copier and MFD Testing</caption>
+  <thead>
+    <tr><th>Test segment</th><th>Device mode</th><th>Operator action (how to set the mode)</th><th>Start timestamp</th><th>End timestamp</th><th>Average power to record</th><th>Unit</th><th>Cumulative energy to record</th><th>Unit</th><th>Notes to write down</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>Off</td><td>Leave device in Off mode; do not touch control panel; verify meter logging is running.</td><td>hh:mm</td><td>hh:mm</td><td>P_OFF(avg)</td><td>W</td><td>E_OFF</td><td>Wh</td><td>Any periodic spikes observed (yes/no), meter sampling interval</td></tr>
+    <tr><td>B</td><td>On / Warm-up</td><td>Switch main power on; wait until Ready is indicated (or power stabilizes).</td><td>hh:mm</td><td>hh:mm</td><td>P_WARMUP(avg)</td><td>W</td><td>E_WARMUP</td><td>Wh</td><td>Ready indicator method used (LED, display message, or power plateau)</td></tr>
+    <tr><td>C</td><td>Ready</td><td>Keep device idle in Ready; ensure no network jobs are received.</td><td>hh:mm</td><td>hh:mm</td><td>P_READY(avg)</td><td>W</td><td>E_READY</td><td>Wh</td><td>Ambient interruptions (door open, alerts), if any</td></tr>
+    <tr><td>D</td><td>Sleep (Level 1)</td><td>Allow device to enter default Sleep; do not alter factory timer settings.</td><td>hh:mm</td><td>hh:mm</td><td>P_SLEEP1(avg)</td><td>W</td><td>E_SLEEP1</td><td>Wh</td><td>Time to enter sleep from Ready (min) and indicator used</td></tr>
+    <tr><td>E</td><td>Sleep (Level 2) (if present)</td><td>Continue waiting for deeper sleep level; do not interact with device.</td><td>hh:mm</td><td>hh:mm</td><td>P_SLEEP2(avg)</td><td>W</td><td>E_SLEEP2</td><td>Wh</td><td>Record if second level not available (N/A)</td></tr>
+    <tr><td>F</td><td>Active (print/copy job)</td><td>Run a defined workload (document name, pages, simplex/duplex). Start timing at job start.</td><td>hh:mm</td><td>hh:mm</td><td>P_ACTIVE(avg)</td><td>W</td><td>E_ACTIVE</td><td>Wh</td><td>Workload details (pages, coverage assumption, job source)</td></tr>
+    <tr><td>G</td><td>Recovery to Ready</td><td>After job completes, stop interaction and wait until Ready returns.</td><td>hh:mm</td><td>hh:mm</td><td>P_RECOVERY(avg)</td><td>W</td><td>E_RECOVERY</td><td>Wh</td><td>Time from job end to Ready (min)</td></tr>
+    <tr><td>H</td><td>Ready-to-Sleep transition</td><td>Without further input, let the device time out back to Sleep.</td><td>hh:mm</td><td>hh:mm</td><td>P_TRANSITION(avg)</td><td>W</td><td>E_TRANSITION</td><td>Wh</td><td>Total idle-to-sleep delay time (min)</td></tr>
+  </tbody>
+</table>

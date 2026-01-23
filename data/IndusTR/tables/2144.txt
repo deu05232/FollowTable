@@ -1,0 +1,14 @@
+<table>
+  <caption>Augmented Reality Session Crash Reports Summary (Operational Log Index)</caption>
+  <thead>
+    <tr><th>Incident ID</th><th>Date</th><th>App Version</th><th>Device Model</th><th>Symptom</th><th>Resolution Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AR-CR-10291</td><td>2025-02-11</td><td>3.8.0</td><td>Pixel 7</td><td>Session creation fails intermittently</td><td>Mitigated</td></tr>
+    <tr><td>AR-CR-10305</td><td>2025-02-14</td><td>3.8.0</td><td>Galaxy S23</td><td>Tracking loss after resume</td><td>Open</td></tr>
+    <tr><td>AR-CR-10344</td><td>2025-02-20</td><td>3.8.1</td><td>iPhone 14</td><td>Black camera feed in AR view</td><td>Fixed</td></tr>
+    <tr><td>AR-CR-10377</td><td>2025-02-27</td><td>3.8.1</td><td>Pixel 8</td><td>Occasional ANR during session pause</td><td>Investigating</td></tr>
+    <tr><td>AR-CR-10402</td><td>2025-03-03</td><td>3.8.2</td><td>Xiaomi 13</td><td>Config retrieval returns null</td><td>Fixed</td></tr>
+    <tr><td>AR-CR-10431</td><td>2025-03-08</td><td>3.8.2</td><td>OnePlus 11</td><td>Memory spike when destroying session</td><td>Open</td></tr>
+  </tbody>
+</table>

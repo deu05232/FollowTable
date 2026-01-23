@@ -1,0 +1,10 @@
+<table>
+  <caption>Abort Reason Code Definitions (Used by Charger Abort and Vehicle Abort)</caption>
+  <tr><th>Reason Code (HEX)</th><th>Reason Name</th><th>Applies To</th><th>Description</th><th>Recommended Action</th></tr>
+  <tr><td>0x0001</td><td>User Stop</td><td>Charger, Vehicle</td><td>Termination requested by user operation</td><td>End session and report to UI</td></tr>
+  <tr><td>0x0002</td><td>Over-Temperature</td><td>Charger</td><td>Charger temperature above limit</td><td>Disable output, cool down</td></tr>
+  <tr><td>0x0003</td><td>Insulation Fault</td><td>Vehicle</td><td>Vehicle detected insulation abnormality</td><td>Stop charging, prompt service</td></tr>
+  <tr><td>0x0004</td><td>Communication Timeout</td><td>Charger, Vehicle</td><td>No valid response within timeout window</td><td>Abort and retry handshake if allowed</td></tr>
+  <tr><td>0x0005</td><td>Contactor Failure</td><td>Charger, Vehicle</td><td>Contactor state inconsistent with command</td><td>Abort and lock out</td></tr>
+  <tr><td>0x0006</td><td>Emergency Stop</td><td>Charger</td><td>Emergency stop input asserted</td><td>Immediate shutdown</td></tr>
+</table>

@@ -1,0 +1,69 @@
+<table>
+  <caption>SM9 Encryption/Decryption Service Interface Definitions (Copyable Prototypes + Parameter Mapping)</caption>
+  <thead>
+    <tr><th>Function Prototype (copyable)</th><th>Rule / Description</th><th>Inputs (in)</th><th>Outputs (out)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>int SAF_SM9Encrypt(
+    void *hAppHandle,
+    unsigned int uiMasterPublicKeyIndex,
+    const unsigned char *pucUserID,
+    unsigned int uiUserIDLen,
+    unsigned int ulAlgID,
+    const unsigned char *pIV,
+    unsigned int ulIVLen,
+    const unsigned char *pucPlainData,
+    unsigned int uiPlainDataLen,
+    unsigned char *pucEncData,
+    unsigned int *puiEncDataLen
+);</td><td>Encrypts plaintext to ciphertext using SM9 identity-based encryption for the specified user identity and the encryption master public key (by index). The SM9 computation process shall comply with GB/T 41389.</td><td>hAppHandle: application interface handleuiMasterPublicKeyIndex: index of encryption master public keypucUserID: user identity (DER-encoded or raw ID per implementation)uiUserIDLen: length of user identityulAlgID: symmetric algorithm identifier used with SM9 KDF outputpIV: initialization vector (if required by ulAlgID)ulIVLen: IV lengthpucPlainData: plaintext bufferuiPlainDataLen: plaintext length</td><td>pucEncData: ciphertext output buffer (SM9 ciphertext structure/encoding per vendor spec)puiEncDataLen: in: buffer size; out: ciphertext length</td></tr>
+    <tr><td>int SAF_SM9Decrypt(
+    void *hAppHandle,
+    const unsigned char *pucContainerName,
+    unsigned int uiContainerLen,
+    const unsigned char *pucEncData,
+    unsigned int ulEncDataLen,
+    unsigned char *pucPlainData,
+    unsigned int *puiPlainDataLen
+);</td><td>Decrypts ciphertext using the SM9 user encryption key material in the specified container (user private key bound to identity). The SM9 computation process shall comply with GB/T 41389.</td><td>hAppHandle: application interface handlepucContainerName: key container nameuiContainerLen: container name lengthpucEncData: ciphertext bufferulEncDataLen: ciphertext length</td><td>pucPlainData: plaintext output bufferpuiPlainDataLen: in: buffer size; out: plaintext length</td></tr>
+    <tr><td>int SAF_SM9EncryptEx(
+    void *hAppHandle,
+    const unsigned char *pucMasterPublicKey,
+    unsigned int uiMasterPublicKeyLen,
+    const unsigned char *pucUserID,
+    unsigned int uiUserIDLen,
+    unsigned int ulAlgID,
+    const unsigned char *pIV,
+    unsigned int ulIVLen,
+    const unsigned char *pucPlainData,
+    unsigned int uiPlainDataLen,
+    unsigned char *pucEncData,
+    unsigned int *puiEncDataLen
+);</td><td>Encrypts plaintext using an explicitly provided SM9 encryption master public key blob (rather than an index). Intended for scenarios where the caller manages master public key distribution. The SM9 computation process shall comply with GB/T 41389.</td><td>hAppHandle: application interface handlepucMasterPublicKey: master public key bytesuiMasterPublicKeyLen: master public key lengthpucUserID: user identityuiUserIDLen: user identity lengthulAlgID: symmetric algorithm identifierpIV: IV (if required)ulIVLen: IV lengthpucPlainData: plaintext bufferuiPlainDataLen: plaintext length</td><td>pucEncData: ciphertext output bufferpuiEncDataLen: in/out ciphertext length</td></tr>
+    <tr><td>int SAF_SM9DecryptEx(
+    void *hAppHandle,
+    void *hUserDecryptKey,
+    const unsigned char *pucEncData,
+    unsigned int ulEncDataLen,
+    unsigned char *pucPlainData,
+    unsigned int *puiPlainDataLen
+);</td><td>Decrypts ciphertext using a caller-supplied SM9 user decryption key handle (instead of a container name). Useful when user private key material is obtained/loaded by a separate API. The SM9 computation process shall comply with GB/T 41389.</td><td>hAppHandle: application interface handlehUserDecryptKey: handle to SM9 user decryption private keypucEncData: ciphertext bufferulEncDataLen: ciphertext length</td><td>pucPlainData: plaintext output bufferpuiPlainDataLen: in: buffer size; out: plaintext length</td></tr>
+    <tr><td>int SAF_SM9CiphertextInfo(
+    const unsigned char *pucEncData,
+    unsigned int ulEncDataLen,
+    unsigned int *puiAlgID,
+    unsigned int *puiIVLen,
+    unsigned int *puiEncPayloadLen
+);</td><td>Parses an SM9 ciphertext blob to extract metadata needed for buffer sizing and algorithm dispatch. Does not decrypt; only interprets the ciphertext encoding used by the service. (Helper service interface aligned to concrete encrypt/decrypt workflows.)</td><td>pucEncData: ciphertext bufferulEncDataLen: ciphertext length</td><td>puiAlgID: extracted symmetric algorithm identifierpuiIVLen: extracted IV lengthpuiEncPayloadLen: extracted encrypted payload length</td></tr>
+    <tr><td>int SAF_SM9EncryptInit(
+    void *hAppHandle,
+    unsigned int uiMasterPublicKeyIndex,
+    const unsigned char *pucUserID,
+    unsigned int uiUserIDLen,
+    unsigned int ulAlgID,
+    const unsigned char *pIV,
+    unsigned int ulIVLen,
+    void **phEncryptCtx
+);</td><td>Initializes a streaming or multi-part SM9 encryption operation. Intended for large data. The SM9 computation process shall comply with GB/T 41389.</td><td>hAppHandle: application interface handleuiMasterPublicKeyIndex: index of encryption master public keypucUserID: user identityuiUserIDLen: user identity lengthulAlgID: symmetric algorithm identifierpIV: IV (if required)ulIVLen: IV length</td><td>phEncryptCtx: returns encryption context handle</td></tr>
+  </tbody>
+</table>

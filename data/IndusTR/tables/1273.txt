@@ -1,0 +1,15 @@
+<table>
+  <caption>Polygon Area Address Code Field Format</caption>
+  <tr><td>Serial No.</td><td>Field Name</td><td>Bits</td><td>Valid Range</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>Number of Points</td><td>5</td><td>1~21</td><td>Indicates the number of points</td></tr>
+  <tr><td>2</td><td>Latitude Degrees</td><td>7</td><td>0~90</td><td>Unit: ()</td></tr>
+  <tr><td>3</td><td>Latitude Minutes</td><td>6</td><td>0~59</td><td>Unit: ()</td></tr>
+  <tr><td>4</td><td>Latitude Minutes Decimal</td><td>10</td><td>0~999</td><td>Unit: 1/1000(')</td></tr>
+  <tr><td>5</td><td>North/South Latitude</td><td>1</td><td>0~1</td><td>0: north latitude; 1: south latitude</td></tr>
+  <tr><td>6</td><td>Longitude Degrees</td><td>8</td><td>0~180</td><td>Unit: (°)</td></tr>
+  <tr><td>7</td><td>Longitude Minutes</td><td>6</td><td>0~59</td><td>Unit: ()</td></tr>
+  <tr><td>8</td><td>Longitude Minutes Decimal</td><td>10</td><td>0~999</td><td>Unit: 1/1000()</td></tr>
+  <tr><td>9</td><td>East/West Longitude</td><td>1</td><td>0~1</td><td>0: east longitude; 1: west longitude</td></tr>
+  <tr><td>10</td><td>:</td><td>…</td><td>:</td><td>Lat/long of other points, up to 19 points</td></tr>
+  <tr><td colspan="2">Total</td><td></td><td></td><td>Variable length, supports up to 20 points, maximum length 985 bits</td></tr>
+</table>

@@ -1,0 +1,22 @@
+<table>
+  <caption>Initial conditions of the performed simulations showing the total (baryonic + dark matter) mass of the halo, the virial radius, the density of the HII region, magnetic field strength at a radius of 80 pc, the scaling relation between the magnetic field and the gas density, whether a core collapse supernova (SN) or a pair instability supernova (PISN) is used, and whether cooling is applied or not.</caption>
+  <tr><td>Run</td><td>M_()halo</td><td>R _()vir</td><td>n_()HII</td><td>|B| (80 pc)</td><td>p</td><td>SN/PISN</td><td>Cooling</td></tr>
+  <tr><td></td><td>[M _() ]</td><td>[pc]</td><td>[cm ^((-3)) ]</td><td>[nGs]</td><td>( Bρ^({p) )</td><td></td><td></td></tr>
+  <tr><td>M1_B1_SN</td><td>1.8· 10^(5)</td><td>78</td><td>0.1</td><td>10 ^((-2))</td><td>1.0</td><td>SN</td><td>yes</td></tr>
+  <tr><td>M1_B1_PISN</td><td>1.8· 10^(5)</td><td>78</td><td>0.1</td><td>10 ^((-2))</td><td>1.0</td><td>PISN</td><td>yes</td></tr>
+  <tr><td>M2_B1_noSN</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>none</td><td>yes</td></tr>
+  <tr><td>M2_B1_SN</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>SN</td><td>yes</td></tr>
+  <tr><td>M2_B1_PISN a</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>PISN</td><td>yes</td></tr>
+  <tr><td>M2_B1_5PISN</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>5 × PISN</td><td>yes</td></tr>
+  <tr><td>M2_B2_SN</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>1</td><td>1.0</td><td>SN</td><td>yes</td></tr>
+  <tr><td>M2_B2_PISN</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>1</td><td>1.0</td><td>PISN</td><td>yes</td></tr>
+  <tr><td>M2_B3_PISN</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>10 ^((2))</td><td>1.0</td><td>PISN</td><td>yes</td></tr>
+  <tr><td>M2_B4_PISN</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>1.4· 10^(3)</td><td>0.5</td><td>PISN</td><td>yes</td></tr>
+  <tr><td>M3_B1_SN</td><td>9.6· 10^(7)</td><td>634</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>SN</td><td>yes</td></tr>
+  <tr><td>M3_B1_PISN</td><td>9.6· 10^(7)</td><td>634</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>PISN</td><td>yes</td></tr>
+  <tr><td>M3_B1_5PISN</td><td>9.6· 10^(7)</td><td>634</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>5 × PISN</td><td>yes</td></tr>
+  <tr><td>M2_B1_SN_ad</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>SN</td><td>no</td></tr>
+  <tr><td>M2_B1_PISN_ad</td><td>4.2· 10^(6)</td><td>223</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>PISN</td><td>no</td></tr>
+  <tr><td>M3_B1_SN_ad</td><td>9.6· 10^(7)</td><td>634</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>SN</td><td>no</td></tr>
+  <tr><td>M3_B1_PISN_ad</td><td>9.6· 10^(7)</td><td>634</td><td>1.0</td><td>10 ^((-2))</td><td>1.0</td><td>PISN</td><td>no</td></tr>
+</table>

@@ -1,0 +1,5 @@
+<table>
+  <caption>Vehicle Charge-Ready Status Message (PGN2304) Format</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1</td><td>1 byte</td><td>2829</td><td>Whether the vehicle is ready for charging (<0x00>: vehicle is not ready for charging; <0xAA>: vehicle has completed charging preparation; <0xFF>: invalid) (When the vehicle cannot determine the current ready status, it may send an invalid value to ensure the communication channel remains normal)</td><td>Mandatory</td></tr>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Visible-Light Rule Table: DT from Shear Offset Distance (CSC-to-Center)</caption>
+  <thead>
+    <tr><th>Measured feature (explicit distance bins)</th><th>> 120 nmi</th><th>[90, 120] nmi</th><th>[60, 90) nmi</th><th>[45, 60) nmi</th><th>[30, 45) nmi</th><th>< 30 nmi</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Shortest distance from the shear-pattern cloud system (CSC) edge to the TC center</td><td>Very large shear displacement</td><td>Large displacement</td><td>Moderate displacement</td><td>Small-to-moderate displacement</td><td>Small displacement</td><td>CSC near/over center</td></tr>
+    <tr><td>DT (Data T-number contribution)</td><td>0.5</td><td>1.0</td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td></tr>
+    <tr><td>PT guidance (if used as initial pattern estimate)</td><td>1.0</td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td><td>3.5</td></tr>
+    <tr><td>Intensity parameter output (example: CI baseline)</td><td>CI = DT</td><td>CI = DT</td><td>CI = DT</td><td>CI = DT</td><td>CI = DT</td><td>CI = DT</td></tr>
+    <tr><td>Notes</td><td colspan="6">Use only when shear pattern is the dominant visible-light scene; measure along the shortest line from CSC boundary to the analyzed center.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,6 @@
+<table>
+  <caption>Error Message Categories and Attributes</caption>
+  <tr><td>Message Code</td><td>Message Name</td><td>PGN (Dec)</td><td>PGN (Hex)</td><td>Priority</td><td>Data Length (BYTE)</td><td>Message Period (ms)</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>BEM</td><td>Vehicle Error Message</td><td>7680</td><td>001E00H</td><td>2</td><td>4</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CEM</td><td>Charger Error Message</td><td>7936</td><td>001F00H</td><td>2</td><td>4</td><td>250</td><td>Charger - Vehicle</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>BCS message SPN/byte layout (field definitions)</caption>
+  <tr><th>Start Byte or Bit</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Transmission Option</th></tr>
+  <tr><td>1</td><td>2 bytes</td><td>2901</td><td>Charging voltage feedback</td><td>Required</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>2902</td><td>Charging current feedback</td><td>Required</td></tr>
+  <tr><td>5</td><td>1 byte</td><td>2903</td><td>Charging stage</td><td>Required</td></tr>
+</table>

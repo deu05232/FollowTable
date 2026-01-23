@@ -1,0 +1,76 @@
+<table>
+  <caption>Energy Type Categories and Codes</caption>
+  <tr><td>Energy type category</td><td>Category code</td><td>Energy type item</td><td>Item code</td></tr>
+  <tr><td rowspan="6">Raw coal</td><td rowspan="6">01</td><td>Other raw coal a</td><td>00</td></tr>
+  <tr><td>Raw coal                  SAC</td><td>01</td></tr>
+  <tr><td>Anthracite</td><td>02</td></tr>
+  <tr><td>Coking bituminous coal</td><td>03</td></tr>
+  <tr><td>General bituminous coal</td><td>04</td></tr>
+  <tr><td>Lignite</td><td>05</td></tr>
+  <tr><td rowspan="2">Washed coking coal</td><td rowspan="2">06</td><td>Washed coking coal</td><td>00</td></tr>
+  <tr><td>Washed coking coal (for coking)</td><td>01</td></tr>
+  <tr><td>Washed coking coal</td><td>06</td><td>Washed coking coal (for power)</td><td>02</td></tr>
+  <tr><td rowspan="3">Other washed coal</td><td rowspan="3">07</td><td>Other washed coal</td><td>00</td></tr>
+  <tr><td>Washed middlings</td><td>01</td></tr>
+  <tr><td>Coal slime</td><td>02</td></tr>
+  <tr><td rowspan="5">Coal products</td><td rowspan="5">08</td><td>Coal products</td><td>00</td></tr>
+  <tr><td>Briquette</td><td>01</td></tr>
+  <tr><td>Coal powder</td><td>02</td></tr>
+  <tr><td>Coal-water slurry</td><td>03</td></tr>
+  <tr><td>Other coal products</td><td>04</td></tr>
+  <tr><td rowspan="2">Coke</td><td rowspan="2">09</td><td>Coke</td><td>00</td></tr>
+  <tr><td>Semi-coke</td><td>01</td></tr>
+  <tr><td rowspan="3">Other coking products</td><td rowspan="3">10</td><td>Other coking products</td><td>00</td></tr>
+  <tr><td>Coal tar</td><td>01</td></tr>
+  <tr><td>Crude benzene</td><td>02</td></tr>
+  <tr><td>Coke oven gas</td><td>11</td><td>Coke oven gas</td><td>00</td></tr>
+  <tr><td>Blast furnace gas</td><td>12</td><td>Blast furnace gas</td><td>00</td></tr>
+  <tr><td>Converter gas</td><td>13</td><td>Converter gas</td><td>00</td></tr>
+  <tr><td rowspan="5">Other coal gas</td><td rowspan="5">SAC   14</td><td>Producer gas</td><td>00</td></tr>
+  <tr><td>Semi-coke furnace gas</td><td>01</td></tr>
+  <tr><td>Calcium carbide furnace gas</td><td>02</td></tr>
+  <tr><td>Cracked gas</td><td>03</td></tr>
+  <tr><td>Other coal gas</td><td>04</td></tr>
+  <tr><td rowspan="3">Natural gas</td><td rowspan="3">15</td><td>Natural gas</td><td>00</td></tr>
+  <tr><td>Gas-field natural gas</td><td>01</td></tr>
+  <tr><td>Associated natural gas</td><td>02</td></tr>
+  <tr><td>Liquefied natural gas</td><td>16</td><td>Liquefied natural gas</td><td>00</td></tr>
+  <tr><td rowspan="3">Other fuel gas</td><td rowspan="3">17</td><td>Coalbed methane</td><td>00</td></tr>
+  <tr><td>Hydrogen</td><td>01</td></tr>
+  <tr><td>Other fuel gas</td><td>02</td></tr>
+  <tr><td>Crude oil</td><td>18</td><td>Crude oil</td><td>00</td></tr>
+  <tr><td>Gasoline</td><td>19</td><td>Gasoline</td><td>00</td></tr>
+  <tr><td>Kerosene</td><td>20</td><td>Kerosene</td><td>00</td></tr>
+  <tr><td>Diesel</td><td>21</td><td>Diesel</td><td>00</td></tr>
+  <tr><td>Fuel oil</td><td>22</td><td>Fuel oil</td><td>00</td></tr>
+  <tr><td>Liquefied petroleum gas</td><td>23</td><td>Liquefied petroleum gas</td><td>00</td></tr>
+  <tr><td>Refinery dry gas</td><td>24</td><td>Refinery dry gas</td><td>00</td></tr>
+  <tr><td>Naphtha</td><td>25</td><td>Naphtha</td><td>00</td></tr>
+  <tr><td>Lubricating oil</td><td>26</td><td>Lubricating oil</td><td>00</td></tr>
+  <tr><td>Paraffin</td><td>27</td><td>Paraffin</td><td>00</td></tr>
+  <tr><td>Solvent oil</td><td>28</td><td>Solvent oil</td><td>00</td></tr>
+  <tr><td>Petroleum coke</td><td>29</td><td>Petroleum coke</td><td>00</td></tr>
+  <tr><td rowspan="3">Asphalt</td><td rowspan="3">30</td><td>Petroleum asphalt</td><td>00</td></tr>
+  <tr><td>Coal tar asphalt</td><td>01</td></tr>
+  <tr><td>Asphalt</td><td>02</td></tr>
+  <tr><td>Other petroleum products</td><td>31</td><td>Other petroleum products</td><td>00</td></tr>
+  <tr><td>Heat</td><td>32</td><td>Heat</td><td>00</td></tr>
+  <tr><td rowspan="7">Electricity</td><td rowspan="7">33</td><td>Electricity</td><td>00</td></tr>
+  <tr><td>Electricity (thermal power generation)</td><td>01</td></tr>
+  <tr><td>Electricity (hydropower generation)</td><td>02</td></tr>
+  <tr><td>Electricity (nuclear power generation)</td><td>03</td></tr>
+  <tr><td>Electricity (other renewable energy generation)</td><td>04</td></tr>
+  <tr><td>Electricity (waste-to-energy generation)</td><td>05</td></tr>
+  <tr><td>Electricity (generation from waste heat and pressure)</td><td>06</td></tr>
+  <tr><td>Coal gangue (for fuel)</td><td>34</td><td>Coal gangue (for fuel)</td><td>00</td></tr>
+  <tr><td>Municipal solid waste (for fuel)</td><td>35</td><td>Municipal solid waste (for fuel)</td><td>00</td></tr>
+  <tr><td rowspan="5">Biomass waste (for fuel)</td><td rowspan="5">36</td><td>Biomass waste (for fuel)</td><td>00</td></tr>
+  <tr><td>Straw</td><td>01</td></tr>
+  <tr><td>Firewood</td><td>02</td></tr>
+  <tr><td>Biogas</td><td>03</td></tr>
+  <tr><td>Other biomass waste</td><td>04</td></tr>
+  <tr><td>Waste heat and pressure</td><td>37</td><td>Waste heat and pressure</td><td>00</td></tr>
+  <tr><td>Other industrial waste (for fuel)</td><td>38</td><td>Other industrial waste (for fuel)</td><td>00</td></tr>
+  <tr><td>Other fuels</td><td>39</td><td>Other fuels</td><td>00</td></tr>
+  <tr><td colspan="4">“Refers to mixed use of two or more types of raw coal, applicable to situations where real-time monitoring cannot be performed separately.</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Shock and Drop Test Requirements by Device Category (Fixed/Movable/Portable)</caption>
+  <thead>
+    <tr><th>Device Category</th><th>Test Scenario</th><th>Pulse Shape</th><th>Pulse Duration (ms)</th><th>Peak Acceleration (m/s²)</th><th>Number of Shocks</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fixed device</td><td>Operational shock</td><td>Half-sine</td><td>6</td><td>300</td><td>3 per axis</td><td>No alarm latching; no loss of calibration</td></tr>
+    <tr><td>Fixed device</td><td>Transportation shock</td><td>Half-sine</td><td>11</td><td>500</td><td>2 per axis</td><td>No enclosure cracking; functional check pass</td></tr>
+    <tr><td>Movable device</td><td>Operational shock</td><td>Half-sine</td><td>6</td><td>500</td><td>3 per axis</td><td>Reading deviation ≤ ±5% FS after test</td></tr>
+    <tr><td>Movable device</td><td>Handling drop</td><td>Drop</td><td>—</td><td>Equivalent to 1 m drop</td><td>6 faces</td><td>Alarm sound level not reduced; display intact</td></tr>
+    <tr><td>Portable device</td><td>Operational shock</td><td>Half-sine</td><td>6</td><td>800</td><td>3 per axis</td><td>No false alarm; self-test pass</td></tr>
+    <tr><td>Portable device</td><td>Handling drop</td><td>Drop</td><td>—</td><td>Equivalent to 1.5 m drop</td><td>6 faces + 12 edges</td><td>No hazardous deformation; gas inlet unobstructed</td></tr>
+  </tbody>
+</table>

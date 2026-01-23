@@ -1,0 +1,10 @@
+<table>
+  <caption>Telecommunications Network Phase Bias Format (SyncE PTP) Field Mapping</caption>
+  <tr><th>Protocol</th><th>Field Name</th><th>Field Length</th><th>Encoding</th><th>Meaning</th><th>Typical Range</th></tr>
+  <tr><td>IEEE 1588v2</td><td>correctionField</td><td>64 bits</td><td>Signed integer</td><td>Residence time correction</td><td>±1 ms</td></tr>
+  <tr><td>IEEE 1588v2</td><td>logMessageInterval</td><td>8 bits</td><td>int8</td><td>Message rate exponent</td><td>-7..4</td></tr>
+  <tr><td>SyncE</td><td>SSM QL</td><td>4 bits</td><td>Nibble</td><td>Quality level</td><td>0..15</td></tr>
+  <tr><td>PTP TLV</td><td>TimeError</td><td>32 bits</td><td>uint32</td><td>Estimated time error</td><td>0..1e9 ns</td></tr>
+  <tr><td>PTP TLV</td><td>PhaseOffset</td><td>48 bits</td><td>Signed fixed-point</td><td>Phase bias relative to master</td><td>±10 µs</td></tr>
+  <tr><td>NTP</td><td>Root Dispersion</td><td>32 bits</td><td>16.16 fixed</td><td>Max error</td><td>0..65535 s</td></tr>
+</table>

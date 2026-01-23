@@ -1,0 +1,15 @@
+<table>
+  <caption>Ultrasound System Settings and Derived Sound Speed Assumptions (Head Imaging Protocol)</caption>
+  <thead>
+    <tr><th>Protocol section</th><th>Region / layer</th><th>Assumed sound speed (m/s)</th><th>How obtained</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">System default</td><td>All tissues (global)</td><td>1540</td><td>Vendor default</td><td>Used for time-to-depth conversion</td></tr>
+    <tr><td>Coupling gel</td><td>1480</td><td>Nominal value</td><td>Not patient-specific</td></tr>
+    <tr><td rowspan="3">Head model</td><td>Scalp</td><td>1540</td><td>Assumed</td><td>Generic soft tissue</td></tr>
+    <tr><td>Skull (layered model)</td><td>2800–3200</td><td>Chosen for focusing</td><td>Optimization parameter; not reported as measured bone property</td></tr>
+    <tr><td>Brain</td><td>1545</td><td>Assumed</td><td>Generic brain value</td></tr>
+    <tr><td rowspan="2">Quality checks</td><td>Phantom plastic</td><td>2400</td><td>Manufacturer spec</td><td>Calibration only</td></tr>
+    <tr><td>Water bath</td><td>1482</td><td>Reference</td><td>Temperature-dependent</td></tr>
+  </tbody>
+</table>

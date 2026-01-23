@@ -1,0 +1,18 @@
+<table>
+  <caption>Acoustic properties of argon gas at 300 K (single-fluid detailed property sheet).</caption>
+  <thead>
+    <tr><th>Category</th><th>Property</th><th>Symbol</th><th>Value</th><th>Units</th><th>Conditions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Thermodynamic</td><td>Molar mass</td><td>M</td><td>39.948</td><td>g/mol</td><td>pure Ar</td></tr>
+    <tr><td>Gas constant (specific)</td><td>R</td><td>208.13</td><td>J/(kg·K)</td><td>R=R_u/M</td></tr>
+    <tr><td>Ratio of specific heats</td><td>γ</td><td>1.667</td><td>–</td><td>monoatomic</td></tr>
+    <tr><td>Density</td><td>ρ</td><td>1.62</td><td>kg/m^3</td><td>300 K, 1 atm</td></tr>
+    <tr><td rowspan="3">Transport</td><td>Dynamic viscosity</td><td>μ</td><td>2.25e-5</td><td>Pa·s</td><td>300 K</td></tr>
+    <tr><td>Thermal conductivity</td><td>k</td><td>0.0177</td><td>W/(m·K)</td><td>300 K</td></tr>
+    <tr><td>Prandtl number</td><td>Pr</td><td>0.67</td><td>–</td><td>approx.</td></tr>
+    <tr><td rowspan="3">Acoustics</td><td>Speed of sound</td><td>c</td><td>323</td><td>m/s</td><td>c=√(γRT)</td></tr>
+    <tr><td>Acoustic impedance</td><td>Z</td><td>523</td><td>Pa·s/m</td><td>Z=ρc</td></tr>
+    <tr><td>Bulk modulus (adiabatic)</td><td>K</td><td>1.69e5</td><td>Pa</td><td>K=γp</td></tr>
+  </tbody>
+</table>

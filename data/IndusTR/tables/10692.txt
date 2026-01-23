@@ -1,0 +1,17 @@
+<table>
+  <caption>Business Scope Details by Trading Party (Scope Code and Description Mapping)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field</th><th>English Name</th><th>Constraints</th><th>Maximum Occurrences</th><th>Data Type</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Party Identification</td><td>Identity Number</td><td>Identity Number</td><td>Mandatory</td><td>1</td><td>String</td><td>Identifier number of the sender or receiver (business-facing party identifier).</td></tr>
+    <tr><td>Identity Scheme Code</td><td>Identity Scheme Code</td><td>Optional</td><td>1</td><td>String</td><td>Code that indicates the identification scheme used for the identity number.</td></tr>
+    <tr><td>Business Entity Name</td><td>Business Entity Name</td><td>Mandatory</td><td>1</td><td>String</td><td>Official business name associated with the identity number.</td></tr>
+    <tr><td>Business Entity Type Code</td><td>Business Entity Type Code</td><td>Optional</td><td>1</td><td>String</td><td>Code describing the type of entity (e.g., financial institution, corporate).</td></tr>
+    <tr><td rowspan="5">Business Scope</td><td>Business Scope Code</td><td>Business Scope Code</td><td>Mandatory</td><td>N</td><td>String</td><td>Dedicated code for the standard information of business scope.</td></tr>
+    <tr><td>Business Scope Description Text</td><td>Business Scope Description Text</td><td>Mandatory</td><td>N</td><td>String</td><td>Descriptive text such as business scope parameters.</td></tr>
+    <tr><td>Scope Jurisdiction Code</td><td>Scope Jurisdiction Code</td><td>Optional</td><td>N</td><td>String</td><td>Code identifying the jurisdiction in which the scope is valid.</td></tr>
+    <tr><td>Permitted Activity Code</td><td>Permitted Activity Code</td><td>Optional</td><td>N</td><td>String</td><td>Code for an activity permitted under the stated business scope.</td></tr>
+    <tr><td>Permitted Activity Description</td><td>Permitted Activity Description</td><td>Optional</td><td>N</td><td>String</td><td>Description of the permitted activity under the business scope.</td></tr>
+  </tbody>
+</table>

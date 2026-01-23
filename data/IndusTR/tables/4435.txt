@@ -1,0 +1,26 @@
+<table>
+  <caption>Information Element Description for In-Platform Operators on E-commerce Platforms</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Value Range</td><td>Remarks</td></tr>
+  <tr><td>02</td><td>In-platform operator information on an e-commerce platform</td><td>Composite</td><td>M</td><td></td><td>An in-platform operator whose primary business model is live-stream marketing is referred to as a livestream room operator</td></tr>
+  <tr><td>02.1</td><td>Store name</td><td>C1..200</td><td>M</td><td></td><td>If the primary business model is live-stream marketing, it may be referred to as the livestream room name</td></tr>
+  <tr><td>02.2</td><td>Operator name</td><td>C1..200</td><td>M</td><td></td><td>If the operator is a non-natural person, it shall be consistent with the enterprise name registered on the business license; if the operator is a natural person, it shall be consistent with the provided personal identity information</td></tr>
+  <tr><td>02.3</td><td>Operating brand</td><td>C1..30</td><td>0</td><td></td><td></td></tr>
+  <tr><td>02.4</td><td>Business license</td><td>BY</td><td>C</td><td>May be in GIF, JPEG, PNG and other formats</td><td>If the in-platform operator is a non-natural person, this information element is mandatory</td></tr>
+  <tr><td>02.5</td><td>Unified Social Credit Code</td><td>C18</td><td>C</td><td>Complies with the coding rules of the Unified Social Credit Code in GB 32100</td><td>If the in-platform operator is a non-natural person, this information element is mandatory</td></tr>
+  <tr><td>02.6</td><td>Legal representative ID document of the operator</td><td>BY</td><td>C</td><td>May be in GIF, JPEG, PNG and other formats</td><td>If the in-platform operator is a natural person, this information element is mandatory</td></tr>
+  <tr><td>02.7</td><td>Real name of live-stream marketing personnel</td><td>C1..200SAG</td><td>C</td><td></td><td>If the live-stream marketing personnel is the livestream room operator, this information element is mandatory</td></tr>
+  <tr><td>02.8</td><td>ID number of live-stream marketing personnel</td><td>C18</td><td>C</td><td></td><td>If the live-stream marketing personnel is the livestream room operator, this information element is mandatory</td></tr>
+  <tr><td>02.9</td><td>Business license of the service organization for live-stream marketing personnel</td><td>BY</td><td>C</td><td>May be in GIF, JPEG, PNG and other formats</td><td>If the live-stream marketing personnel has an affiliated live-stream marketing service organization, this information element is mandatory</td></tr>
+  <tr><td>02.10</td><td>Contact address</td><td>C1..200</td><td>0</td><td></td><td></td></tr>
+  <tr><td>02.11</td><td>Operator contact information</td><td>C..ul</td><td>0</td><td></td><td>Customer service phone, online instant service, etc. of the in-platform operator</td></tr>
+  <tr><td>02.12</td><td>Operator business filing status</td><td>BY</td><td>C</td><td>May be in GIF, JPEG, PNG and other formats</td><td>In accordance with relevant laws and regulations, if the business directly operated by the in-platform operator requires filing, this information element is mandatory</td></tr>
+  <tr><td>02.13</td><td>Business permit documents</td><td>BY</td><td>C</td><td>May be in GIF, JPEG, PNG and other formats</td><td>In accordance with relevant laws and regulations, if the business of the in-platform operator requires relevant operating permits, this information element is mandatory</td></tr>
+  <tr><td>02.14</td><td>Business permit content</td><td>C.. ul</td><td>0</td><td></td><td>In accordance with relevant laws and regulations, content such as the name and number of the business permit obtained by the in-platform operator</td></tr>
+  <tr><td>02.15</td><td>Telephone for reporting illegal and harmful information</td><td>C1..50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>02.16</td><td>Telephone for consumer rights protection</td><td>C1..50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>02.17</td><td>Introduction to in-platform operator</td><td>C.lul</td><td>0</td><td></td><td>Introduction to the business scope, etc. of the in-platform operator on the e-commerce platform</td></tr>
+  <tr><td>02.18</td><td>Credit evaluation status of in-platform operator</td><td>C..ul</td><td>M</td><td></td><td>Description of the credit evaluation status of the in-platform operator on the e-commerce platform</td></tr>
+  <tr><td>02.19</td><td>Transaction service rules</td><td>C..ul</td><td>0</td><td></td><td>Description of the transaction service content committed by the in-platform operator itself</td></tr>
+  <tr><td>02.20</td><td>After-sales policy</td><td>C..ul</td><td>0</td><td></td><td></td></tr>
+  <tr><td>02.21</td><td>Service outlets</td><td>C..ul</td><td>0</td><td></td><td></td></tr>
+</table>

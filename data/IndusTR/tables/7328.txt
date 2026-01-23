@@ -1,0 +1,8 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Detector and Readout Details</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Detector Housing Material</td><td>(0018,7050)</td><td>LO</td><td>1</td><td>3</td><td>Material used for the detector housing construction</td></tr>
+  <tr><td>Readout Mode</td><td>(0018,7052)</td><td>CS</td><td>1</td><td>3</td><td>Mode used to read out the detector signal during image acquisition</td></tr>
+  <tr><td>Detector Element Spacing</td><td>(0018,7054)</td><td>DS</td><td>2</td><td>3</td><td>Spacing between detector elements used to form the image</td></tr>
+  <tr><td>Imaging Plate Handling Notes</td><td>(0018,7056)</td><td>UT</td><td>1</td><td>3</td><td>Operational notes specific to the imaging plate or detector handling</td></tr>
+</table>

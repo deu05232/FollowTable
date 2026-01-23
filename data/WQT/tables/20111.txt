@@ -1,0 +1,12 @@
+# IPv4 Non-Public Address Space — Subnet Mask View (No CIDR Column)
+
+| Category | Network address | Subnet mask | Scope | Notes |
+| --- | --- | --- | --- | --- |
+| Private (RFC 1918) | 10.0.0.0 | 255.0.0.0 | Private | Enterprise/consumer LANs |
+| Private (RFC 1918) | 172.16.0.0 | 255.240.0.0 | Private | Often used in VLANs |
+| Private (RFC 1918) | 192.168.0.0 | 255.255.0.0 | Private | Home networks |
+| Loopback | 127.0.0.0 | 255.0.0.0 | Host | Local stack testing |
+| Link-local | 169.254.0.0 | 255.255.0.0 | Link | APIPA/zeroconf |
+| Shared space | 100.64.0.0 | 255.192.0.0 | Provider | CGN deployments |
+| Documentation | 198.51.100.0 | 255.255.255.0 | Documentation | TEST-NET-2 |
+| Documentation | 203.0.113.0 | 255.255.255.0 | Documentation | TEST-NET-3 |

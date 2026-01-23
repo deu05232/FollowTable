@@ -1,0 +1,18 @@
+<table>
+  <caption>Terrestrial Eco-meteorological Station Administrative Profile (Field Dictionary)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Field Code</th><th>Data Type</th><th>Format/Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Station Identity</td><td>Station name</td><td>D_NAME</td><td>VARCHAR(100)</td><td></td><td>Official community-level station name</td></tr>
+    <tr><td>Station Identity</td><td>Station alias</td><td>D_ALIAS</td><td>VARCHAR(100)</td><td></td><td>Alternative local name</td></tr>
+    <tr><td>Location</td><td>Province</td><td>ADMIN_PROV</td><td>VARCHAR(50)</td><td></td><td>Administrative province</td></tr>
+    <tr><td>Location</td><td>City/Prefecture</td><td>ADMIN_CITY</td><td>VARCHAR(50)</td><td></td><td>Administrative city</td></tr>
+    <tr><td>Location</td><td>County/District</td><td>ADMIN_CNTY</td><td>VARCHAR(50)</td><td></td><td>Administrative county</td></tr>
+    <tr><td>Geospatial</td><td>Latitude</td><td>LAT</td><td>DECIMAL(9,6)</td><td>deg</td><td>WGS84 latitude</td></tr>
+    <tr><td>Geospatial</td><td>Longitude</td><td>LON</td><td>DECIMAL(9,6)</td><td>deg</td><td>WGS84 longitude</td></tr>
+    <tr><td>Geospatial</td><td>Elevation</td><td>ELEV</td><td>DECIMAL(7,2)</td><td>m</td><td>Station elevation above sea level</td></tr>
+    <tr><td>Site</td><td>Land cover type</td><td>LC_TYPE</td><td>CHAR(4)</td><td>Code list</td><td>Vegetation/land-use category code</td></tr>
+    <tr><td>Site</td><td>Protection status</td><td>PROTECT</td><td>CHAR(2)</td><td>Code list</td><td>Protected area flag/category</td></tr>
+  </tbody>
+</table>

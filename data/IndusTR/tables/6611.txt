@@ -1,0 +1,15 @@
+<table>
+  <caption>Vehicle Verification (Authentication) Response Fields</caption>
+  <thead>
+    <tr><th>Section</th><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authentication Correlation</td><td>Verification Transaction ID</td><td>vehicleVerifySeq</td><td>string</td><td>Unique sequence for vehicle verification, used to correlate request/response. Max 64 characters.</td><td>Yes</td></tr>
+    <tr><td>Authentication Outcome</td><td>Verification Result</td><td>verifyResult</td><td>integer</td><td>0: Verified; 1: Rejected; 2: Pending manual review; 3: Timeout.</td><td>Yes</td></tr>
+    <tr><td>Authentication Outcome</td><td>Rejection Reason Code</td><td>rejectCode</td><td>integer</td><td>1001: VIN not found; 1002: Plate mismatch; 1003: Vehicle model not supported; 1004: Certificate invalid; 1005: Vehicle not in service.</td><td>No</td></tr>
+    <tr><td>Authentication Outcome</td><td>Rejection Reason Message</td><td>rejectMessage</td><td>string</td><td>Human-readable details for debugging/integration, max 100 characters.</td><td>No</td></tr>
+    <tr><td>Binding Validation</td><td>Matched VIN</td><td>matchedVin</td><td>string</td><td>The VIN that the platform verified (echoed back). Helps detect formatting/normalization issues.</td><td>No</td></tr>
+    <tr><td>Binding Validation</td><td>Matched Plate Number</td><td>matchedPlateNo</td><td>string</td><td>The plate number recognized by the platform after normalization (if provided in request).</td><td>No</td></tr>
+    <tr><td>Security</td><td>Auth Evidence Token</td><td>authToken</td><td>string</td><td>Short-lived token proving vehicle verification succeeded; must be attached to subsequent swap-control calls.</td><td>No</td></tr>
+  </tbody>
+</table>

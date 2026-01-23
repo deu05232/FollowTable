@@ -1,0 +1,14 @@
+<table>
+  <caption>Fixed Wrapper Format for Grain Condition Monitoring Requests/Responses (No Application Payload Breakdown)</caption>
+  <thead>
+    <tr><th>Frame Type</th><th>Start Symbol</th><th>KADDL</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Heartbeat Request</td><td>55 AA 55 AA</td><td>Device ID</td><td>A2</td><td>0000</td><td>CRC16</td><td>0D</td></tr>
+    <tr><td>Heartbeat Response</td><td>55 AA 55 AA</td><td>Device ID</td><td>A2</td><td>0000</td><td>CRC16</td><td>0D</td></tr>
+    <tr><td>Status Poll Request</td><td>55 AA 55 AA</td><td>Device ID</td><td>A3</td><td>0000</td><td>CRC16</td><td>0D</td></tr>
+    <tr><td>Status Poll Response</td><td>55 AA 55 AA</td><td>Device ID</td><td>A3</td><td>0000</td><td>CRC16</td><td>0D</td></tr>
+    <tr><td>Control Write Request</td><td>55 AA 55 AA</td><td>Device ID</td><td>C3</td><td>xxxx</td><td>CRC16</td><td>0D</td></tr>
+    <tr><td>Control Write Response</td><td>55 AA 55 AA</td><td>Device ID</td><td>C3</td><td>0000</td><td>CRC16</td><td>0D</td></tr>
+  </tbody>
+</table>

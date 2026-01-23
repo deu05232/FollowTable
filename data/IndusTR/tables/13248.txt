@@ -1,0 +1,15 @@
+<table>
+  <caption>Calibration Bookkeeping and Identification Fields for Intelligent Instruments (By Category)</caption>
+  <thead>
+    <tr><th>Category</th><th>Subcategory</th><th>Calibration / Identification Record Fields</th><th>Retention Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Measuring Instruments</td><td>Level Instruments</td><td>As-left/as-found values, zero/span trim history, instrument tag, asset ID, calibration certificate number, reference standard ID</td><td>Keep last 10 calibration events</td></tr>
+    <tr><td>Flow Instruments</td><td>K-factor, totalizer rollover value, firmware build number, sensor serial, installation date, configuration revision, checksum</td><td>Keep full life-cycle</td></tr>
+    <tr><td>Pressure Instruments</td><td>Impulse line configuration note, LRV/URV, damping, alarm setpoints, calibration timestamp, operator account</td><td>Keep last 5 years</td></tr>
+    <tr><td rowspan="2">Analytical Instruments</td><td>Conductivity Analyzers</td><td>Cell constant, temperature compensation mode, solution ID, calibration buffers list, last service ticket ID, audit trail hash</td><td>Keep last 200 entries</td></tr>
+    <tr><td>Oxygen Analyzers</td><td>Sensor age, span gas concentration, gas cylinder ID, calibration mode used, maintenance date, software license key ID</td><td>Keep last 2 years</td></tr>
+    <tr><td rowspan="2">Actuators</td><td>Electric/Electro-hydraulic Actuators</td><td>Commissioning report ID, travel calibration map, torque calibration factors, configuration image version, controller serial number</td><td>Keep latest version only</td></tr>
+    <tr><td>Pneumatic Positioners</td><td>I/P range, supply pressure setting, bench-set values, valve tag, position feedback scaling, characterization curve file ID</td><td>Keep last 3 revisions</td></tr>
+  </tbody>
+</table>

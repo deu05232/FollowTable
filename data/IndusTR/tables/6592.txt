@@ -1,0 +1,21 @@
+<table>
+  <caption>Time Elements to Capture in Cybersecurity Incident Reports</caption>
+  <thead>
+    <tr><th>Timing Field</th><th>Definition (What it Represents)</th><th>How Time Is Recorded / Units</th><th>Notes / Constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Event Occurrence Time</td><td>When the incident activity actually happened (start time if a point-in-time is not known)</td><td>ISO 8601 timestamp with timezone (e.g., 2026-01-19T10:15:30Z)</td><td>If only date is known, record date and mark precision</td></tr>
+    <tr><td>Event End Time</td><td>When the incident activity stopped (if known)</td><td>ISO 8601 timestamp with timezone</td><td>Optional; required when duration matters</td></tr>
+    <tr><td>Detection Time</td><td>When monitoring/control first detected indicators</td><td>ISO 8601 timestamp; include timezone</td><td>Different from human discovery/triage start</td></tr>
+    <tr><td>Discovery Time (Human Confirmed)</td><td>When an analyst/user first recognized it as a security issue</td><td>ISO 8601 timestamp; include timezone</td><td>Use for “time-to-discovery” metrics</td></tr>
+    <tr><td>Ticket Creation Time</td><td>When the incident ticket/case was created in the system</td><td>System-generated timestamp (ISO 8601); store original system timezone</td><td>Not the same as discovery time</td></tr>
+    <tr><td>Containment Start Time</td><td>When containment actions began</td><td>ISO 8601 timestamp</td><td>Useful for time-to-contain</td></tr>
+    <tr><td>Containment Complete Time</td><td>When containment was considered effective/complete</td><td>ISO 8601 timestamp</td><td>Pair with start time to compute containment duration</td></tr>
+    <tr><td>Eradication Complete Time</td><td>When root cause/artifacts were removed</td><td>ISO 8601 timestamp</td><td>Optional; define criteria internally</td></tr>
+    <tr><td>Recovery Start Time</td><td>When service restoration began</td><td>ISO 8601 timestamp</td><td>Especially for outage-related incidents</td></tr>
+    <tr><td>Recovery Complete Time</td><td>When service returned to normal operations</td><td>ISO 8601 timestamp</td><td>Used for MTTR calculations</td></tr>
+    <tr><td>Customer/Regulator Notification Time</td><td>When external notification was sent (if applicable)</td><td>ISO 8601 timestamp</td><td>Capture per notification channel if multiple</td></tr>
+    <tr><td>Time Precision</td><td>Declared precision of any recorded time</td><td>Enumerated: second / minute / hour / day / unknown</td><td>Prevents false accuracy when only approximate</td></tr>
+    <tr><td>Time Source</td><td>Where the timestamp came from (log, SIEM, user report, etc.)</td><td>Enumerated; optional free-text</td><td>Helps reconcile conflicting times</td></tr>
+  </tbody>
+</table>

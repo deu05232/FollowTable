@@ -1,0 +1,16 @@
+<table>
+  <caption>Calibration Grid for GRB Isotropic Luminosity Estimation (No Per-Burst Outputs)</caption>
+  <thead>
+    <tr><th>Step</th><th>Quantity</th><th>Symbol</th><th>Range / Grid</th><th>Unit</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">1</td><td>Observer-frame energy band</td><td>E1–E2</td><td>15–150</td><td>keV</td><td>Instrument passband definition</td></tr>
+    <tr><td>Spectral model choice</td><td>Model</td><td>Power law / Band</td><td>—</td><td>Controls k-correction</td></tr>
+    <tr><td rowspan="2">2</td><td>Photon index grid</td><td>Γ</td><td>1.2, 1.4, 1.6, 1.8, 2.0</td><td>—</td><td>Used to bracket unknown spectra</td></tr>
+    <tr><td>Peak energy grid</td><td>Epeak</td><td>50, 100, 200, 400, 800</td><td>keV</td><td>Band-function curvature sampling</td></tr>
+    <tr><td rowspan="2">3</td><td>Redshift grid</td><td>z</td><td>0.1–10 (Δz=0.1)</td><td>—</td><td>Rest-frame conversion sweep</td></tr>
+    <tr><td>Cosmology</td><td>(H0, ΩM, ΩΛ)</td><td>(70, 0.3, 0.7)</td><td>km s^-1 Mpc^-1, —, —</td><td>Compute luminosity distance</td></tr>
+    <tr><td rowspan="2">4</td><td>Flux bounds</td><td>Fmin–Fmax</td><td>1e-9–1e-5</td><td>erg s^-1 cm^-2</td><td>Sensitivity / saturation limits</td></tr>
+    <tr><td>Derived luminosity bounds</td><td>Liso,min–Liso,max</td><td>1e48–1e54</td><td>erg s^-1</td><td>Clipping range (not burst-specific)</td></tr>
+  </tbody>
+</table>

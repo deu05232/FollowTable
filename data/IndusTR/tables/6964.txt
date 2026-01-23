@@ -1,0 +1,15 @@
+<table>
+  <caption>Electricity Consumption and Grid Emission Factors by Region (Accounting Parameters)</caption>
+  <thead>
+    <tr><th>Activity</th><th>Grid Region</th><th>Reporting Year</th><th>Electricity (MWh)</th><th>Default EF (tCO2/MWh)</th><th>Market-Based? (Y/N)</th><th>Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased electricity</td><td>North Grid</td><td>2024</td><td>1000</td><td>0.612</td><td>N</td><td>National grid default</td></tr>
+    <tr><td>Purchased electricity</td><td>South Grid</td><td>2024</td><td>800</td><td>0.734</td><td>N</td><td>National grid default</td></tr>
+    <tr><td>Exported electricity</td><td>North Grid</td><td>2024</td><td>150</td><td>0.612</td><td>N</td><td>Same as import EF</td></tr>
+    <tr><td>Exported electricity</td><td>South Grid</td><td>2024</td><td>120</td><td>0.734</td><td>N</td><td>Same as import EF</td></tr>
+    <tr><td>Purchased electricity</td><td>East Grid</td><td>2024</td><td>600</td><td>0.689</td><td>Y</td><td>Supplier residual mix</td></tr>
+    <tr><td>Purchased electricity</td><td>West Grid</td><td>2024</td><td>500</td><td>0.655</td><td>N</td><td>National grid default</td></tr>
+    <tr><td>Transmission losses (optional)</td><td>National average</td><td>2024</td><td>—</td><td>0.020</td><td>N</td><td>Add-on factor</td></tr>
+  </tbody>
+</table>

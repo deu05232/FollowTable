@@ -1,0 +1,15 @@
+<table>
+  <caption>Minimal RSU Reference Position Dataset (RSU-Centric)</caption>
+  <thead>
+    <tr><th>No.</th><th>RSU Field</th><th>Meaning</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>timestamp</td><td>Generation time of the RSU reference record</td><td>ms</td></tr>
+    <tr><td>2</td><td>rsuId</td><td>RSU identifier</td><td>-</td></tr>
+    <tr><td>3</td><td>refLat</td><td>RSU reference latitude</td><td>deg</td></tr>
+    <tr><td>4</td><td>refLon</td><td>RSU reference longitude</td><td>deg</td></tr>
+    <tr><td>5</td><td>refPosDatum</td><td>Geodetic datum used for the reference position</td><td>e.g., WGS-84</td></tr>
+    <tr><td>6</td><td>refPosSource</td><td>How the reference position was obtained</td><td>survey | gps | configured</td></tr>
+    <tr><td>7</td><td>refPosUpdateInterval</td><td>Expected update interval of the reference record</td><td>s</td></tr>
+  </tbody>
+</table>

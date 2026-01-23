@@ -1,0 +1,10 @@
+<table>
+  <caption>IP Plate Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Manufacturer</td><td>(0014,3402)</td><td>LO</td><td>1</td><td>3</td><td>Name of the IP plate manufacturer</td></tr>
+  <tr><td>IP Plate Type</td><td>(0018,1260)</td><td>SH</td><td>1</td><td>2</td><td>Manufacturer-defined IP plate model</td></tr>
+  <tr><td>IP Plate Serial Number</td><td>(0018,1004)</td><td>LO</td><td>1</td><td>2</td><td>Factory serial number provided by the IP plate manufacturer</td></tr>
+  <tr><td>IP Plate Size</td><td>(0018,1262)</td><td>CS</td><td>1</td><td>3</td><td>Physical size of the trimmed IP plate, in millimeters (mm)</td></tr>
+  <tr><td>Cassette Orientation</td><td>(0018,1402)</td><td>CS</td><td>1</td><td>3</td><td>Placement orientation of the cassette for correct image display</td></tr>
+  <tr><td>Cassette Size</td><td>(0018,1403)</td><td>CS</td><td>1</td><td>3</td><td>Cassette size is expressed as the product of the row dimension and column dimension, in millimeters (mm)</td></tr>
+</table>

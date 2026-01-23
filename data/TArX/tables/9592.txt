@@ -1,0 +1,15 @@
+<table>
+  <caption>Lattice parameters and cohesive energies of layered materials computed with and without van der Waals corrections.</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th colspan="2">Method</th><th colspan="2">a (Å)</th><th colspan="2">c (Å)</th><th colspan="2">Cohesive energy (eV/atom)</th></tr>
+    <tr><th>Base DFT</th><th>DFT-D3</th><th>Base DFT</th><th>DFT-D3</th><th>Base DFT</th><th>DFT-D3</th><th>Base DFT</th><th>DFT-D3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Graphite</td><td>PBE</td><td>PBE-D3</td><td>2.468</td><td>2.467</td><td>7.11</td><td>6.72</td><td>-7.39</td><td>-7.52</td></tr>
+    <tr><td>h-BN</td><td>PBE</td><td>PBE-D3</td><td>2.512</td><td>2.511</td><td>7.02</td><td>6.66</td><td>-7.11</td><td>-7.25</td></tr>
+    <tr><td>MoS2</td><td>PBE</td><td>PBE-D3</td><td>3.188</td><td>3.186</td><td>13.14</td><td>12.39</td><td>-6.32</td><td>-6.44</td></tr>
+    <tr><td>WS2</td><td>PBE</td><td>PBE-D3</td><td>3.185</td><td>3.183</td><td>13.20</td><td>12.42</td><td>-6.41</td><td>-6.55</td></tr>
+    <tr><td>Black phosphorus</td><td>PBE</td><td>PBE-TS</td><td>3.33</td><td>3.32</td><td>11.50</td><td>10.98</td><td>-5.10</td><td>-5.22</td></tr>
+    <tr><td>SnSe</td><td>PBE</td><td>PBE-D3</td><td>4.26</td><td>4.25</td><td>11.98</td><td>11.36</td><td>-4.31</td><td>-4.42</td></tr>
+  </tbody>
+</table>

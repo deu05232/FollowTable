@@ -1,0 +1,12 @@
+<table>
+  <caption>Comparison of MC09c and AMBT1 parameters. The ranges of the parameter variations scanned are also given. The parameters declared as ‘fixed’ were fixed to the values obtained after an initial pass of the tuning.</caption>
+  <tr><th>Parameter</th><th>Related model</th><th>MC09c value</th><th>scanning range</th><th>AMBT1 value</th></tr>
+  <tr><td>PARP(90)</td><td>MPI (energy extrapolation)</td><td>0.2487</td><td>0.18-0.28</td><td>0.250</td></tr>
+  <tr><td>PARP(82)</td><td>MPI ( p_(T)^({min) )</td><td>2.31</td><td>2.1-2.5</td><td>2.292</td></tr>
+  <tr><td>PARP(84)</td><td>MPI matter overlap (core size)</td><td>0.7</td><td>0.0-1.0</td><td>0.651</td></tr>
+  <tr><td>PARP(83)</td><td>MPI matter overlap (fraction in core)</td><td>0.8</td><td>fixed</td><td>0.356</td></tr>
+  <tr><td>PARP(78)</td><td>CR strength</td><td>0.224</td><td>0.2-0.6</td><td>0.538</td></tr>
+  <tr><td>PARP(77)</td><td>CR suppression</td><td>0.0</td><td>0.25-1.15</td><td>1.016</td></tr>
+  <tr><td>PARP(93)</td><td>Primordial k_()</td><td>5.0</td><td>fixed</td><td>10.0</td></tr>
+  <tr><td>PARP(62)</td><td>ISR cut-off</td><td>1.0</td><td>fixed</td><td>1.025</td></tr>
+</table>

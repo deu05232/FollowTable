@@ -1,0 +1,17 @@
+<table>
+  <caption>Video Image Focused Moving Target Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Moving Target Identifier</td><td>ydmbbz</td><td>c..8</td><td>Moving target code in the video/image</td><td>One</td></tr>
+  <tr><td>2</td><td>Moving Target Type Code</td><td>ydmblxdm</td><td>c2</td><td>Codes complying with D.4 excluding 06 and 07</td><td></td></tr>
+  <tr><td>3</td><td>Top-left Corner_X Coordinate</td><td>zsj_xzb</td><td>n..8</td><td>X coordinate of the top-left corner of the moving target bounding rectangle, unit: pixel; with the top-left pixel of the image as the origin, rightward is the positive X-axis direction, and downward is the positive Y-axis direction</td><td></td></tr>
+  <tr><td>4</td><td>Top-left Corner_Y Coordinate</td><td>zsj_yzb</td><td>n..8</td><td>Y coordinate of the top-left corner of the moving target bounding rectangle, unit: pixel</td><td></td></tr>
+  <tr><td>5</td><td>Bottom-right Corner_X Coordinate</td><td>yxj_xzb</td><td>n..8</td><td>X coordinate of the bottom-right corner of the moving target bounding rectangle, unit: pixel</td><td></td></tr>
+  <tr><td>6</td><td>Bottom-right Corner_Y Coordinate</td><td>yxj_yzb</td><td>n..8</td><td>Y coordinate of the bottom-right corner of the moving target bounding rectangle, unit: pixel</td><td></td></tr>
+  <tr><td>7</td><td>Appearance_Date/Time</td><td>cx_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>8</td><td>Disappearance_Date/Time</td><td>xs_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>9</td><td>Target Activity Status Code</td><td>mbhdztdm</td><td>cl</td><td>Should comply with D.35</td><td></td></tr>
+  <tr><td>10</td><td>Video/Image Moving Target Speed</td><td>sptxydmbsd</td><td>n..8</td><td>Unit: pixels per second (pixel/s)</td><td></td></tr>
+  <tr><td>11</td><td>Moving Target Motion Direction</td><td>ydmbydfx</td><td>n..3</td><td>Target motion direction (degrees), valid range [0,360); 0 to the right horizontally, angle increases counterclockwise</td><td></td></tr>
+  <tr><td>12</td><td>Video Segment Identifier</td><td>sppdbz</td><td>c41</td><td>Code of the video segment containing the moving target; should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>13</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Code of the image containing the moving target; should comply with the coding rules specified in C.2</td><td></td></tr>
+</table>

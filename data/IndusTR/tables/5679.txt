@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Session / Lifecycle State Enum Options (Constant Names and Integer Values)</caption>
+  <thead>
+    <tr><th>Session state description</th><th>Constant name and assigned value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Session is not initialized</td><td>AR_SESSION_STATE_UNINITIALIZED = 0</td></tr>
+    <tr><td>Session is created but not yet running</td><td>AR_SESSION_STATE_READY = 1</td></tr>
+    <tr><td>Session is running and producing frames</td><td>AR_SESSION_STATE_RUNNING = 2</td></tr>
+    <tr><td>Session is paused (no new tracking updates)</td><td>AR_SESSION_STATE_PAUSED = 3</td></tr>
+    <tr><td>Session is resuming after pause</td><td>AR_SESSION_STATE_RESUMING = 4</td></tr>
+    <tr><td>Session has encountered an unrecoverable error</td><td>AR_SESSION_STATE_ERROR = 5</td></tr>
+    <tr><td>Session has been stopped and resources released</td><td>AR_SESSION_STATE_STOPPED = 6</td></tr>
+  </tbody>
+</table>

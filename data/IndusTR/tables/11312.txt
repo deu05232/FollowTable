@@ -1,0 +1,11 @@
+<table>
+  <caption>Refueling + GPS Position Capture Data Items</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Business Document ID</td><td>Character</td><td>an..30</td><td>Refueling record identifier</td></tr>
+  <tr><td>2</td><td>Refueling Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Fueling time</td></tr>
+  <tr><td>3</td><td>Refueling Organization Name</td><td>Character</td><td>an..60</td><td>Fueling station</td></tr>
+  <tr><td>4</td><td>Terminal ID</td><td>Character</td><td>an..50</td><td>Positioning terminal installed in the vehicle</td></tr>
+  <tr><td>5</td><td>Positioning Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when GPS position was captured</td></tr>
+  <tr><td>6</td><td>Longitude</td><td>Numeric</td><td>n..10,4</td><td>Longitude at refueling moment</td></tr>
+  <tr><td>7</td><td>Latitude</td><td>Numeric</td><td>n..10,4</td><td>Latitude at refueling moment</td></tr>
+</table>

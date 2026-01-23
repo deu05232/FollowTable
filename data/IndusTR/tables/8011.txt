@@ -1,0 +1,14 @@
+<table>
+  <caption>Authentication Parameters for Common OpenAPI Endpoints (Method Not Split Out)</caption>
+  <thead>
+    <tr><th>Endpoint</th><th>Request Summary</th><th>Required Authentication Parameter(s)</th><th>Other Required Parameters</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>/gateway/identifier/save</td><td>Create identifier; call uses POST with bearer access_token in header.</td><td>access_token</td><td>userID, gatewID, classfyID, templateVersion</td></tr>
+    <tr><td>/material/form/save</td><td>Submit form; send POST including access_token.</td><td>access_token</td><td>userID, MaterialName</td></tr>
+    <tr><td>/device/security/auth</td><td>Verify device; POST requires access_token and signature.</td><td>access_token</td><td>userID, devID, devSign</td></tr>
+    <tr><td>/microservice/register</td><td>Register service; request is POST with access_token.</td><td>access_token</td><td>userID, sevName, sevDes, dataUrl</td></tr>
+    <tr><td>/device/query</td><td>Fetch device info; request uses GET with access_token as query parameter.</td><td>access_token</td><td>userID, devID</td></tr>
+    <tr><td>/edge-gateway/create</td><td>Create gateway; POST requires access_token.</td><td>access_token</td><td>userID, gatewName, commCode, commUrl, iotType</td></tr>
+  </tbody>
+</table>

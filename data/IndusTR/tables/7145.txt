@@ -1,0 +1,8 @@
+<table>
+  <tr><td>Prototype</td><td>BSTR SOF_ExportCertAndExtInfo(BSTR CertID, BSTR Oid)</td></tr>
+  <tr><td>Description</td><td>Export the Base64-encoded signing certificate for CertID and also return the selected extension value identified by Oid.</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>Oid (extension object identifier)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>Result (success; "Base64Cert||ExtValue")</td></tr>
+  <tr><td>Error (failure)</td></tr>
+</table>

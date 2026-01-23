@@ -1,0 +1,15 @@
+<table>
+  <caption>Caption Payload Structures: CC_sequence_description and CC_sample_description</caption>
+  <tr><th>Syntax structure</th><th>Field</th><th>Descriptor / bit-width</th><th>Notes</th></tr>
+  <tr><td rowspan="4">CC_sequence_description()</td><td>CC_sequence_start_code</td><td>f(32)</td><td>Marks start of a caption sequence</td></tr>
+  <tr><td>sequence_id</td><td>u(16)</td><td>Identifier for grouping samples</td></tr>
+  <tr><td>sample_count</td><td>u(8)</td><td>Number of CC_sample_description() entries following</td></tr>
+  <tr><td>for(i=0; i<sample_count; i++) CC_sample_description()</td><td>loop</td><td>Repeats caption samples within the sequence</td></tr>
+  <tr><td rowspan="7">CC_sample_description()</td><td>CC_sample_start_code</td><td>f(32)</td><td>Matches the sample start code pattern</td></tr>
+  <tr><td>CC_type</td><td>u(8)</td><td>Caption coding type / profile selector</td></tr>
+  <tr><td>caption_data_flag</td><td>u(1)</td><td>1: caption payload present</td></tr>
+  <tr><td>reserved</td><td>u(7)</td><td>Set to '1' or '0' per spec</td></tr>
+  <tr><td>caption_data_length</td><td>u(16)</td><td>Byte length of the caption payload</td></tr>
+  <tr><td>if(caption_data_flag==1) caption_string_description()</td><td>conditional</td><td>Core caption text container</td></tr>
+  <tr><td>CRC_16</td><td>u(16)</td><td>Optional integrity check for sample payload</td></tr>
+</table>

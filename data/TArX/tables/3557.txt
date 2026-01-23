@@ -1,0 +1,11 @@
+<table>
+  <caption>Standard deviations of the estimated parameters for different estimation scenarios. For each of the different scenarios we calculate the ratio between the actual performance and the optimal Cramér Rao lower bound.</caption>
+  <tr><th>Run</th><th></th><th>Δ_(x)</th><th>Δ_(y)</th><th>Δ_(z)</th><th>Δχ_(o)</th><th>Δχ_(e)</th></tr>
+  <tr><th></th><th>CR bound</th><th>0.019%</th><th>0.046%</th><th>0.139%</th><th>0.083%</th><th>0.263%</th></tr>
+  <tr><th rowspan="2">1</th><th>σ</th><td>0.028%</td><td>0.067%</td><td>0.156%</td><td>0.084%</td><td>0.557%</td></tr>
+  <tr><th>CR ratio</th><td>1.47</td><td>1.45</td><td>1.12</td><td>1.01</td><td>2.11</td></tr>
+  <tr><th rowspan="2">2</th><th>σ</th><td>0.123%</td><td>0.132%</td><td>0.162%</td><td>0.176%</td><td>0.632%</td></tr>
+  <tr><th>CR ratio</th><td>6.47</td><td>2.86</td><td>1.17</td><td>2.12</td><td>2.40</td></tr>
+  <tr><th rowspan="2">3</th><th>σ</th><td>0.331%</td><td>0.215%</td><td>0.445%</td><td>0.553%</td><td>6.557%</td></tr>
+  <tr><th>CR ratio</th><td>17.42</td><td>4.67</td><td>3.20</td><td>6.66</td><td>24.93</td></tr>
+</table>

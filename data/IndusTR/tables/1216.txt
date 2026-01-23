@@ -1,0 +1,19 @@
+<table>
+  <caption>Performance Parameters of Electrocardiograph</caption>
+  <tr><td>Data Element Identifier</td><td>Data Element Name</td><td>Special Data Entity Constraint Conditions</td></tr>
+  <tr><td>H1052A0000          SAC</td><td>Measurement Function</td><td>B</td></tr>
+  <tr><td>H1053A0000</td><td>Built-in Calibration Voltage Error</td><td>B</td></tr>
+  <tr><td>H1034A0000</td><td>Voltage Measurement Error</td><td>B</td></tr>
+  <tr><td>H1054A0000</td><td>Heart Rate Measurement Error</td><td>B</td></tr>
+  <tr><td>H1035A0000</td><td>Amplitude-Frequency Characteristics</td><td>B</td></tr>
+  <tr><td>H1055A0000</td><td>Number of Recording Channels</td><td>B</td></tr>
+  <tr><td>H1056A0000</td><td>Case Storage Capacity</td><td>B</td></tr>
+  <tr><td>H1057A0000</td><td>Input Circuit Impedance</td><td>A</td></tr>
+  <tr><td>H1058A0000</td><td>Electrocardiograph Time Constant</td><td>A</td></tr>
+  <tr><td>H1059A0000</td><td>Common Mode Rejection Ratio</td><td>A</td></tr>
+  <tr><td>H1060A0000</td><td>Polarization Voltage Withstand</td><td>A</td></tr>
+  <tr><td>H1061A0000</td><td>Frequency Response</td><td>A</td></tr>
+  <tr><td>H1062A0000</td><td>Gain</td><td>A</td></tr>
+  <tr><td>H1063A0000</td><td>External Communication Interface Type</td><td>A</td></tr>
+  <tr><td colspan="3">Note: Filling in “A” in the table indicates that the corresponding data element is optional; filling in “B” indicates that the corresponding data element is mandatory.</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Mechanical Robustness Tests for Point-Type Heat Detectors (Drop, Vibration, Impact)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Specimen state</th><th>Parameter</th><th>Requirement</th><th>Acceptance criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Drop test</td><td rowspan="2">De-energized</td><td>Number of drops</td><td>3</td><td rowspan="2">No cracking; no loose parts; functional after test</td></tr>
+    <tr><td>Drop height (mm)</td><td>1500</td></tr>
+    <tr><td rowspan="2">Vibration (sinusoidal)</td><td rowspan="2">Energized</td><td>Frequency range (Hz)</td><td>10–150</td><td rowspan="2">No spurious alarm; no permanent damage</td></tr>
+    <tr><td>Acceleration (m/s²)</td><td>5</td></tr>
+    <tr><td rowspan="2">Impact (pendulum)</td><td rowspan="2">De-energized</td><td>Impact energy (J)</td><td>0.5</td><td rowspan="2">Enclosure intact; no displacement affecting performance</td></tr>
+    <tr><td>Number of impacts</td><td>5</td></tr>
+    <tr><td>Mounting strength</td><td>De-energized</td><td>Pull force (N)</td><td>50 for 60 s</td><td>No detachment; no deformation</td></tr>
+    <tr><td>Ingress protection check</td><td>De-energized</td><td>Dust exposure time (h)</td><td>8</td><td>No dust interfering with operation</td></tr>
+  </tbody>
+</table>

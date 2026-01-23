@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame APIs (Typedef-Based Pointer Aliases Hide Pointer-to-Pointer)</caption>
+  <thead>
+    <tr><th>API</th><th>Parameter</th><th>Type</th><th>Dir</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_acquireCameraImage</td><td>session</td><td>ArSessionPtr</td><td>in</td><td>Session handle (alias)</td></tr>
+    <tr><td>ArFrame_acquireCameraImage</td><td>frame</td><td>ArFramePtr</td><td>in</td><td>Frame handle (alias)</td></tr>
+    <tr><td>ArFrame_acquireCameraImage</td><td>out_image</td><td>ArImageHandleOut</td><td>out</td><td>Receives camera image handle (alias hides **)</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>out_depth_image</td><td>ArImageHandleOut</td><td>out</td><td>Receives depth image handle (alias hides **)</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>out_light_estimate</td><td>ArLightEstimatePtr</td><td>out</td><td>Receives light estimate (alias hides *)</td></tr>
+    <tr><td>ArFrame_getAndroidSensorPose</td><td>out_pose</td><td>ArPosePtr</td><td>out</td><td>Receives pose (alias hides *)</td></tr>
+    <tr><td>ArFrame_getCameraTextureName</td><td>out_texture_id</td><td>UInt32Out</td><td>out</td><td>Receives texture name (alias hides *)</td></tr>
+  </tbody>
+</table>

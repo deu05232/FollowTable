@@ -1,0 +1,7 @@
+# pcd8544 based displays (serdisplib)
+
+| identifier | ROTATE | INVERT | DELAY | CONTRAST | BACKLIGHT | WIRING |
+| --- | --- | --- | --- | --- | --- | --- |
+| short | ROT | INV |  |  | BG | WIRE |
+| remark | rotate display (1 == 180 degrees) | invert display | delay after each write/read operation. 0 .. no delay 1 .. one call of gettimeofday() >1 .. delay at least x nanoseconds | set display contrast | switch background light on or off | pre-defined or customisable wiring |
+| default | 0 | 0 | 0 | 5 | 1 | LPH7366: 0 PCD8544: 1 LPH7690: 1 |

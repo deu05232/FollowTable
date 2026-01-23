@@ -1,0 +1,7 @@
+<table>
+  <caption>Instrument categories vs intelligent alarm/diagnosis logic requirements</caption>
+  <tr><th>Instrument Category</th><th>Diagnosis / Alarm Logic Behavior</th><th>Resulting Output to Users</th></tr>
+  <tr><td>Pressure / Level / Temperature Devices</td><td>Classifies abnormal states and records root-cause candidates; maintains a per-abnormality confidence score</td><td>Ranked suspected causes, time-stamped events, confidence indicators</td></tr>
+  <tr><td>Flow Devices</td><td>Identifies abnormal patterns based on principle-specific signal features and differentiates process issues vs installation issues</td><td>Alarm type, likely source, recommended verification steps</td></tr>
+  <tr><td>Analytical Devices</td><td>Performs trend-based early-warning and deviation detection using historical baselines</td><td>Deviation alerts, trend summaries, early-warning thresholds</td></tr>
+</table>

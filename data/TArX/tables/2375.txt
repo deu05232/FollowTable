@@ -1,0 +1,16 @@
+<table>
+  <caption>The hierarchical organization of real-world networks. For each multi-level classification of a network with n nodes and l links, we report the total number of modules m together with the number of modules with more than one percent of all nodes, the per-node average depth ⟨ d ⟩ , the per-node average size of the lowest-level module ⟨ s b ⟩ , and the compression gain over a two-level clustering Δ ⁢ C . The 16 networks are ordered by the compression gain, which provides information about how hierarchical the organization is.</caption>
+  <tr><th>Network</th><th>n</th><th>l</th><th>m ( ¿ 100 )</th><th>d</th><th>s_(b)</th><th>Δ C</th></tr>
+  <tr><th>California roads [ leskovec2008community ]</th><td>2.0M</td><td>5.5M</td><td>0.45M (0)</td><td>4.8</td><td>6.3</td><td>36%</td></tr>
+  <tr><th>Google web ^(({d)) [ leskovec2008community ]</th><td>0.74M</td><td>5.1M</td><td>73k (34)</td><td>4.5</td><td>0.67k</td><td>16%</td></tr>
+  <tr><th>Stanford web ^(({d)) [ leskovec2008community ]</th><td>0.28M</td><td>2.3M</td><td>35k (41)</td><td>4.9</td><td>0.20k</td><td>15%</td></tr>
+  <tr><th>Call graph ^(({wd)) [ ourdata ]</th><td>2.5k</td><td>7.2k</td><td>0.91k (53)</td><td>4.7</td><td>8.3</td><td>8.0%</td></tr>
+  <tr><th>Coauthorships ^(({w)) [ ourdata ]</th><td>0.55k</td><td>1.3k</td><td>94 (55)</td><td>3.3</td><td>9.5</td><td>5.7%</td></tr>
+  <tr><th>Human diseases ^(({w)) [ goh2007human ]</th><td>1.3k</td><td>1.5k</td><td>0.62k (23)</td><td>2.5</td><td>5.4</td><td>4.5%</td></tr>
+  <tr><th>Global air traffic [ guimera2005worldwide ]</th><td>3.9k</td><td>14k</td><td>0.53k (27)</td><td>3.0</td><td>46</td><td>2.3%</td></tr>
+  <tr><th>Stockholm roads ^(({*)) [ rosvall2005networks ]</th><td>11k</td><td>23k</td><td>1.0k (19)</td><td>3.1</td><td>16</td><td>1.7%</td></tr>
+  <tr><th>Journal citations ^(({wd)) [ rosvall2010mapping ]</th><td>7.9k</td><td>1.1M</td><td>0.21k (32)</td><td>3.3</td><td>0.16k</td><td>1.6%</td></tr>
+  <tr><th>Political blogs ^(({wd)) [ ourdata ]</th><td>1.1k</td><td>13k</td><td>0.28k (13)</td><td>2.8</td><td>75</td><td>0.0%</td></tr>
+  <tr><th>US airports ^(({wd)) [ USairports ]</th><td>0.50k</td><td>18k</td><td>14 (9)</td><td>2.0</td><td>0.14k</td><td>0.0%</td></tr>
+  <tr><th>C. Elegans brain ^(({wd)) [ watts1998collective ]</th><td>0.30k</td><td>2.3k</td><td>22 (18)</td><td>2.0</td><td>35</td><td>0.0%</td></tr>
+</table>

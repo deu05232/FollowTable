@@ -1,0 +1,16 @@
+<table>
+  <caption>Entity Relationship Overview Without Key-Type Classification</caption>
+  <thead>
+    <tr><th>Area</th><th>Entity/Table</th><th>Connected Entity/Table</th><th>Key Fields Mentioned</th><th>Cardinality</th><th>Implementation Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Insurance</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Business Lines Table</td><td>line_code</td><td>Many-to-one</td><td>Use line_code to enrich policy records</td></tr>
+    <tr><td>Insurance</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Underwriting Insured Household List Table</td><td>policy_no, household_id</td><td>One-to-many</td><td>Household list expands policy granularity</td></tr>
+    <tr><td>Insurance</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Claim Business Details Table</td><td>policy_no</td><td>One-to-many</td><td>Claims may require filtering by claim_status</td></tr>
+    <tr><td>Subsidy</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Invoice Information Table</td><td>application_id</td><td>One-to-one (expected)</td><td>Validate duplicates before join</td></tr>
+    <tr><td>Subsidy</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table</td><td>application_id, pay_round</td><td>One-to-many</td><td>Aggregate disbursements by application_id</td></tr>
+    <tr><td>Catalog</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Subsidized Product Catalog Table</td><td>product_code</td><td>Many-to-one</td><td>Join for subsidy eligibility attributes</td></tr>
+    <tr><td>Catalog</td><td>Machinery Item Catalog Table</td><td>Subsidized Product Catalog Table</td><td>product_sku</td><td>Many-to-one</td><td>Map machinery items to subsidized products</td></tr>
+    <tr><td>Cross-domain</td><td>Agricultural Insurance Underwriting Insured Household List Table</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>household_id, region_code</td><td>Many-to-many</td><td>Use for participation analysis across programs</td></tr>
+  </tbody>
+</table>

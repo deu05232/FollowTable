@@ -1,0 +1,20 @@
+<table>
+  <caption>CC Sequence Parsing Flow (Control-Flow Only)</caption>
+  <thead>
+    <tr><th>Syntax Element</th><th>Notation / Flow</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CC_sequence()</td><td>{</td></tr>
+    <tr><td>initialize_state</td><td>set defaults; clear buffers</td></tr>
+    <tr><td>do</td><td>{</td></tr>
+    <tr><td>peek_next_bits</td><td>next_bits(32)</td></tr>
+    <tr><td>while condition</td><td>while (next_bits(32) == CC_sample_start_code)</td></tr>
+    <tr><td>parse sample</td><td>CC_sample()</td></tr>
+    <tr><td>if branch</td><td>if (CC_type != 2)</td></tr>
+    <tr><td>parse style</td><td>style_description()</td></tr>
+    <tr><td>else branch</td><td>else skip_style()</td></tr>
+    <tr><td>end do</td><td>}</td></tr>
+    <tr><td>repeat</td><td>until end_of_stream</td></tr>
+    <tr><td>CC_sequence()</td><td>}</td></tr>
+  </tbody>
+</table>

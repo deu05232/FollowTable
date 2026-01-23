@@ -1,0 +1,14 @@
+<table>
+  <caption>Example Allocation of Continuous Node Ranges Under the Construction Machinery OID Prefix (1.2.156.3514)</caption>
+  <thead>
+    <tr><th>OID Prefix</th><th>Recipient / Participant Type</th><th>Allocated Node Range (Start–End)</th><th>Block Size (Count)</th><th>Typical Use</th><th>Allocation Rule / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">1.2.156.3514</td><td>Existing identification systems (legacy schemes)</td><td>1001–2000</td><td>1000</td><td>Carry legacy identifiers (e.g., handle-like or internal schemes)</td><td>Range reserved for legacy compatibility; sub-registrants managed by the industry authority</td></tr>
+    <tr><td>Third-party organizations (service providers)</td><td>2001–10000</td><td>8000</td><td>OID service providers allocating nodes to enterprises/products they serve</td><td>Issued sequentially within the range; each recipient receives a unique node</td></tr>
+    <tr><td>Manufacturers (construction machinery OEMs)</td><td>10001–30000</td><td>20000</td><td>Company-level OID nodes for OEM-issued identifiers</td><td>Allocated in blocks to accommodate large product catalogs</td></tr>
+    <tr><td>Parts & component suppliers</td><td>30001–45000</td><td>15000</td><td>Component traceability and part numbering</td><td>Continuous span reserved; may be subdivided per supplier internally</td></tr>
+    <tr><td>Leasing / fleet operators</td><td>45001–50000</td><td>5000</td><td>Asset management identifiers (equipment units)</td><td>Range supports fleet-level registration and lifecycle events</td></tr>
+    <tr><td>Testing / certification bodies</td><td>50001–52000</td><td>2000</td><td>Conformity certificates, inspection reports, lab-issued IDs</td><td>Separate block to avoid overlap with commercial issuers</td></tr>
+  </tbody>
+</table>

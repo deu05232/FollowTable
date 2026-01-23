@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Optical Transceiver Interface Requirements (850 nm MMF) — Receiver Specifications</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Test/Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Optical input</td><td>Receiver sensitivity (OMA)</td><td>Psens_OMA</td><td>—</td><td>-18.5</td><td>-16.0</td><td>dBm</td><td>At target BER, with specified ER and pattern</td></tr>
+    <tr><td>Receiver sensitivity (average power)</td><td>Psens_AVG</td><td>—</td><td>-20.0</td><td>-17.5</td><td>dBm</td><td>Equivalent average power sensitivity (informative)</td></tr>
+    <tr><td>Receiver overload (average power)</td><td>Povl</td><td>0.0</td><td>+1.0</td><td>—</td><td>dBm</td><td>Maximum input before BER degrades</td></tr>
+    <tr><td>Receiver input wavelength range</td><td>λrx</td><td>830</td><td>—</td><td>860</td><td>nm</td><td>Compatible with 850 nm sources</td></tr>
+    <tr><td>Maximum input reflectance (minimum return loss)</td><td>Rrx</td><td>—</td><td>—</td><td>-12</td><td>dB</td><td>Return loss at RX port (reflection limit)</td></tr>
+    <tr><td rowspan="3">Electrical output (from optical receiver)</td><td>LOS assert threshold (optical power)</td><td>Plos_a</td><td>-30</td><td>-26</td><td>-22</td><td>dBm</td><td>Optical power below which LOS is asserted</td></tr>
+    <tr><td>LOS deassert threshold (optical power)</td><td>Plos_d</td><td>-28</td><td>-24</td><td>-20</td><td>dBm</td><td>Optical power above which LOS clears</td></tr>
+    <tr><td>LOS hysteresis</td><td>HLOS</td><td>1.0</td><td>2.0</td><td>6.0</td><td>dB</td><td>Difference between assert and deassert thresholds</td></tr>
+  </tbody>
+</table>

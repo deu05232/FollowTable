@@ -1,0 +1,14 @@
+<table>
+  <caption>Test items list — Special-area traversal (aggregated, not split into sub-scenarios)</caption>
+  <thead>
+    <tr><th>Category</th><th>Name</th><th>Description</th><th>Road Layer</th><th>Traffic Facility Layer</th><th>Traffic Control Layer</th><th>Lighting & Weather</th><th>Traffic Operation</th><th>Monitoring & Comms</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Safe and Civilized Driving Capability</td><td rowspan="6">Pass through special areas</td><td>Validate stable control and compliance while traversing any special segment.</td><td>Representative segment; asphalt; dry</td><td>—</td><td>Basic signs/markings</td><td>Day; clear</td><td>Motor vehicles</td><td>HD map; positioning base station</td></tr>
+    <tr><td>Includes multiple special segments grouped into one item.</td><td>Representative segment; asphalt; wet</td><td>—</td><td>Temporary control</td><td>Day; rain</td><td>Stop-and-go</td><td>On-board sensors; no V2X</td></tr>
+    <tr><td>Focus on speed adaptation and lane-keeping.</td><td>Representative segment; cement; dry</td><td>—</td><td>Guide signs</td><td>Night; street lighting</td><td>Low traffic</td><td>Roadside CCTV</td></tr>
+    <tr><td>Focus on merging/yielding behavior when applicable.</td><td>Representative segment; asphalt; dry</td><td>—</td><td>Yield control possible</td><td>Day; cloudy</td><td>Mixed</td><td>V2X available</td></tr>
+    <tr><td>Focus on interactions with public transport and pedestrians.</td><td>Representative segment; asphalt; dry</td><td>Roadside bay possible</td><td>Dedicated lane signage possible</td><td>Day; clear</td><td>Buses/pedestrians present</td><td>On-board video; roadside sensors</td></tr>
+    <tr><td>Focus on communication/positioning availability changes.</td><td>Representative segment</td><td>—</td><td>—</td><td>Dusk; fog</td><td>Low visibility</td><td>GNSS degraded; map-only fallback</td></tr>
+  </tbody>
+</table>

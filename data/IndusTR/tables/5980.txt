@@ -1,0 +1,15 @@
+<table>
+  <caption>Video/Image Subscription and Billing Action Codes</caption>
+  <thead>
+    <tr><th>Code</th><th>Action</th><th>Trigger</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>10</td><td>Subscribe</td><td>User request</td><td>Start receiving video/image notifications</td></tr>
+    <tr><td>11</td><td>Unsubscribe</td><td>User request</td><td>Stop receiving notifications</td></tr>
+    <tr><td>12</td><td>Cancel Pending</td><td>System</td><td>Cancellation requested but not confirmed</td></tr>
+    <tr><td>13</td><td>Resume Subscription</td><td>User request</td><td>Re-activate a previously stopped subscription</td></tr>
+    <tr><td>14</td><td>Renew</td><td>Billing cycle</td><td>Extend subscription period</td></tr>
+    <tr><td>15</td><td>Refund Requested</td><td>User request</td><td>Initiate refund workflow</td></tr>
+    <tr><td>16</td><td>Refund Completed</td><td>Finance</td><td>Refund has been processed</td></tr>
+  </tbody>
+</table>

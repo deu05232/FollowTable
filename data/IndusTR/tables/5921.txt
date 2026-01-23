@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Frame Output Parameters (Pointer Levels Shown as Counts Instead of Asterisks)</caption>
+  <thead>
+    <tr><th>Interface</th><th>Output Parameter</th><th>Type (Pointer Level)</th><th>Allocation Hint</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_acquireCameraImage</td><td>out_image</td><td>ArImage (ptrLevel=2)</td><td>API fills handle</td><td>Returned image must be released by caller</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>out_depth_image</td><td>ArImage (ptrLevel=2)</td><td>API fills handle</td><td>Depth image may be unavailable on some devices</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>out_light_estimate</td><td>ArLightEstimate (ptrLevel=1)</td><td>Caller provides object</td><td>Must be created before the call</td></tr>
+    <tr><td>ArFrame_getAndroidSensorPose</td><td>out_pose</td><td>ArPose (ptrLevel=1)</td><td>Caller provides object</td><td>Pose updated for current frame</td></tr>
+    <tr><td>ArFrame_getCameraTextureName</td><td>out_texture_id</td><td>uint32_t (ptrLevel=1)</td><td>Caller provides storage</td><td>Receives GL texture name</td></tr>
+    <tr><td>ArFrame_getUpdatedAnchors</td><td>out_anchor_list</td><td>ArAnchorList (ptrLevel=1)</td><td>Caller provides list</td><td>List populated with updated anchors</td></tr>
+  </tbody>
+</table>

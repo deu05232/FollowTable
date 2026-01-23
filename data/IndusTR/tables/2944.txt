@@ -1,0 +1,10 @@
+<table>
+  <caption>Mobile Device Sensor Bill of Materials for AR-Capable Handsets</caption>
+  <tr><th>Component</th><th>Example Part</th><th>Supplier</th><th>Key Spec</th><th>Power (mW)</th><th>Notes</th></tr>
+  <tr><td>IMU (6-axis)</td><td>ICM-42688</td><td>TDK InvenSense</td><td>2,000 dps gyro</td><td>3.2</td><td>Factory calibrated</td></tr>
+  <tr><td>RGB Camera</td><td>IMX586</td><td>Sony</td><td>48 MP</td><td>350</td><td>Rolling shutter</td></tr>
+  <tr><td>ToF Depth</td><td>VL53L5</td><td>ST</td><td>8x8 zones</td><td>200</td><td>Indoor optimized</td></tr>
+  <tr><td>Magnetometer</td><td>LIS2MDL</td><td>ST</td><td>±50 gauss</td><td>1.0</td><td>Needs soft-iron calibration</td></tr>
+  <tr><td>GNSS</td><td>u-blox M10</td><td>u-blox</td><td>L1/L5</td><td>25</td><td>Assisted GNSS supported</td></tr>
+  <tr><td>Microphone Array</td><td>3-mic module</td><td>Knowles</td><td>Beamforming</td><td>15</td><td>For voice UI</td></tr>
+</table>

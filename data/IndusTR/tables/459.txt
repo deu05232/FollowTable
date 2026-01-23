@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of Parameters for Creating an Augmented Reality Session</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>env</td><td>void *</td><td>Pointer representing the runtime environment</td></tr>
+  <tr><td>context</td><td>void *</td><td>Pointer representing the runtime context</td></tr>
+  <tr><td>out_session_pointer</td><td>ArSession **</td><td>Pointer to an ArSession pointer, used to receive the address of the newly allocated session</td></tr>
+</table>

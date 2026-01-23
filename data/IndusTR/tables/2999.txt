@@ -1,0 +1,10 @@
+<table>
+  <caption>Process Parameters for Bamboo Charcoal Carbonization (Kiln Settings and Control Ranges)</caption>
+  <tr><th>Process Step</th><th>Parameter</th><th>Typical Setpoint</th><th>Control Range</th><th>Instrument</th><th>Sampling Frequency</th></tr>
+  <tr><td>Drying</td><td>Inlet air temperature</td><td>110 °C</td><td>90–130 °C</td><td>Thermocouple</td><td>Continuous</td></tr>
+  <tr><td>Pyrolysis</td><td>Peak temperature</td><td>650 °C</td><td>600–750 °C</td><td>Thermocouple</td><td>Continuous</td></tr>
+  <tr><td>Pyrolysis</td><td>Heating rate</td><td>2.5 °C/min</td><td>1.0–4.0 °C/min</td><td>PLC</td><td>Per batch</td></tr>
+  <tr><td>Activation (optional)</td><td>Steam flow</td><td>18 kg/h</td><td>10–25 kg/h</td><td>Flow meter</td><td>Per batch</td></tr>
+  <tr><td>Cooling</td><td>End temperature</td><td>80 °C</td><td>60–100 °C</td><td>Thermocouple</td><td>Per batch</td></tr>
+  <tr><td>Screening</td><td>Mesh size</td><td>20 mesh</td><td>10–40 mesh</td><td>Sieve shaker</td><td>Per lot</td></tr>
+</table>

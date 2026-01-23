@@ -1,0 +1,24 @@
+<table>
+  <caption>Evaluation Database Recording Template for Biometric Samples (Subject, Sensor, Environment, and Labeling)</caption>
+  <thead>
+    <tr><th>Group</th><th>Element</th><th>What it represents</th><th>Example / allowed values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Subject descriptors</td><td>Demographics (age range)</td><td>Coarse age bucket to analyze demographic performance differences.</td><td><18, 18–30, 31–45, 46–60, >60</td></tr>
+    <tr><td>Demographics (gender)</td><td>Self-reported gender label (if collected) for fairness analysis.</td><td>Female, Male, Non-binary, Prefer not to say</td></tr>
+    <tr><td>Skin tone category</td><td>Skin tone label for face/hand modalities to study bias and illumination sensitivity.</td><td>Fitzpatrick I–VI; or Light/Medium/Dark</td></tr>
+    <tr><td>Accessories / occlusions</td><td>Presence of items that occlude biometric regions.</td><td>Glasses, Mask, Hat, Beard, null</td></tr>
+    <tr><td rowspan="5">Sensor & capture</td><td>Sensor modality configuration</td><td>Specific capture configuration for the modality.</td><td>Face: RGB video; Iris: NIR still; Voice: far-field mic</td></tr>
+    <tr><td>Acquisition device category</td><td>High-level device class to enable cross-device evaluation.</td><td>Phone camera, DSLR, Dedicated iris camera, Fingerprint reader, Microphone array</td></tr>
+    <tr><td>Illumination source</td><td>Active/passive lighting and source type used during capture.</td><td>Ambient only; IR LED ring; Flash on; Diffuse panel</td></tr>
+    <tr><td>Capture distance / working range</td><td>Distance between subject and sensor at capture time.</td><td>0 cm (touch); 20–40 cm; 0.5–1.5 m</td></tr>
+    <tr><td>Number of samples per attempt</td><td>Count of frames/images/utterances collected per attempt.</td><td>Single image; 10-frame burst; 3-second audio clip</td></tr>
+    <tr><td rowspan="4">Environment</td><td>Acquisition environment type</td><td>General scene category to stratify results.</td><td>Indoor office, Indoor public, Outdoor, Vehicle cabin</td></tr>
+    <tr><td>Background characteristics</td><td>Background complexity affecting detection/segmentation.</td><td>Plain wall; Cluttered; Moving people</td></tr>
+    <tr><td>Noise / interference sources</td><td>External factors degrading signal quality.</td><td>Glare; Motion; Wind; Audio chatter; Electromagnetic interference</td></tr>
+    <tr><td>Temperature / humidity (if relevant)</td><td>Environmental conditions that can affect sensors/skin/ridges/voice.</td><td>18–22°C; 40–60% RH; Cold outdoor</td></tr>
+    <tr><td rowspan="3">Labeling & evaluation</td><td>Ground-truth verification</td><td>How identity truth was verified during collection.</td><td>Government ID check; Operator verification; Prior enrollment confirmation</td></tr>
+    <tr><td>Attack presentation flag</td><td>Whether the sample is bona fide or a presentation attack for PAD testing.</td><td>Bona fide; Printed photo; Replay; Silicone finger; Voice conversion</td></tr>
+    <tr><td>Consent / data governance tag</td><td>Record of consent scope and usage constraints for evaluation sharing.</td><td>Research-only; Commercial allowed; Withdrawn; IRB protocol ID</td></tr>
+  </tbody>
+</table>

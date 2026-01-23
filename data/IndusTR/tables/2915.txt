@@ -1,0 +1,11 @@
+<table>
+  <caption>Manufacturing Process Parameters for Transport Package Assembly (Welding, Torque, Coating)</caption>
+  <tr><th>Process Step</th><th>Parameter</th><th>Target Value</th><th>Tolerance</th><th>Tooling</th><th>Inspection Point</th><th>Record ID</th></tr>
+  <tr><td>Shell welding</td><td>Heat input (kJ/mm)</td><td>1.2</td><td>±0.2</td><td>GMAW</td><td>Weld bead profile</td><td>WP-001</td></tr>
+  <tr><td>Closure bolting</td><td>Bolt torque (N·m)</td><td>210</td><td>±10</td><td>Torque wrench</td><td>Torque trace</td><td>WP-014</td></tr>
+  <tr><td>Seal installation</td><td>Compression set (%)</td><td>18</td><td>≤2</td><td>Press fixture</td><td>Gap measurement</td><td>WP-022</td></tr>
+  <tr><td>Coating</td><td>Dry film thickness (µm)</td><td>120</td><td>±15</td><td>Spray booth</td><td>DFT gauge</td><td>WP-033</td></tr>
+  <tr><td>Helium leak check</td><td>Test pressure (kPa)</td><td>50</td><td>±5</td><td>Mass spectrometer</td><td>Leak rate log</td><td>WP-041</td></tr>
+  <tr><td>Foam curing</td><td>Cure temperature (°C)</td><td>65</td><td>±3</td><td>Oven</td><td>Hardness</td><td>WP-057</td></tr>
+  <tr><td>Final assembly</td><td>Dimensional check (mm)</td><td>As drawing</td><td>±0.5</td><td>CMM</td><td>Fit-up</td><td>WP-060</td></tr>
+</table>

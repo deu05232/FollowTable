@@ -1,0 +1,10 @@
+# Exchange hybrid deployment prerequisites checklist (not focused on before after coexistence outcomes)
+
+| Prerequisite area | Example requirement | Notes |
+| --- | --- | --- |
+| Exchange version | Supported Exchange Server version | Must meet hybrid support requirements |
+| Certificates | Public SSL certificate | Used for secure services between environments |
+| Autodiscover | Working endpoint | Required for many hybrid features |
+| Federation/Trust | Configured trust method | Enables organization relationship features |
+| Network access | Required ports open | Allows hybrid connectors/services to communicate |
+| Identity | Matching or federated sign-in | Impacts user authentication experience |

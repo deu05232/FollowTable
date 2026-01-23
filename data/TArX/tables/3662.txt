@@ -1,0 +1,13 @@
+<table>
+  <caption>Summary of the Microgate HVC characteristics. This controller is directly connected to the ARGOS slope computer, allowing an higher speed of control of the steering mirror.</caption>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Number of channels</td><td>6 independent channels with strain gauge position feedback</td></tr>
+  <tr><td>Output voltage</td><td>090V standard, 0125V maximum</td></tr>
+  <tr><td>Output current</td><td>60mA continuous, 120mA peak</td></tr>
+  <tr><td>Output power</td><td>7.5W continuous, 15W peak, each channel</td></tr>
+  <tr><td>Actuator capacitance</td><td>up to 20μ F</td></tr>
+  <tr><td>SG bandwidth</td><td>26.5kHz</td></tr>
+  <tr><td>Interfaces</td><td>one input port summed to the regular actuator command and amplified 12×</td></tr>
+  <tr><td></td><td>one output signal replicating the actuator output voltage with gain 0.1V/V</td></tr>
+  <tr><td></td><td>one low impedance strain gage diagnostic output with gain 400V/V</td></tr>
+</table>

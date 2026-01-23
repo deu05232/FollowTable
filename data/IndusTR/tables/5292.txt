@@ -1,0 +1,15 @@
+<table>
+  <caption>Soil-Water Layer Observation Station Basic Parameter Format</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Description</td></tr>
+  <tr><td>1</td><td>Observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>2</td><td>Station alias</td><td>D_ALIAS</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>3</td><td>Station address</td><td>D_ADDRESS</td><td>Variable characters(300)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>4</td><td>Soil layer equipment latitude</td><td>D_AT</td><td>Number(6,4)</td><td>East longitude 10, West longitude 1</td></tr>
+  <tr><td>5</td><td>Soil layer equipment longitude</td><td>D_LOMG</td><td>Number(7,4)</td><td>North latitude 10, South latitude 1</td></tr>
+  <tr><td>6</td><td>Soil layer equipment altitude</td><td>D_ALT</td><td>Number(5,1)</td><td>Unit：m</td></tr>
+  <tr><td>7</td><td>Water body equipment latitude</td><td>D_AT</td><td>Number(6,4)</td><td>East longitude 10, West longitude 1</td></tr>
+  <tr><td>8</td><td>Water body equipment longitude</td><td>D_LOMG</td><td>Number(7,4)</td><td>North latitude 10, South latitude 1</td></tr>
+  <tr><td>9</td><td>Water body equipment altitude</td><td>D_ALT</td><td>Number(5,1)</td><td>Unit：m</td></tr>
+  <tr><td>10</td><td>Station establishment date</td><td>D_CREATE_DT</td><td>Date</td><td></td></tr>
+  <tr><td>11</td><td>Decommissioning date</td><td>D_END_DT</td><td>Date</td><td></td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Fault Code Expectations and Self-Testable Fault Items for Smart Measuring Instruments</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Subcategory</th><th>Fault Code</th><th>Fault Item (Self-Testable)</th><th>Typical Trigger / Condition</th><th>Expected Instrument Response</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Measuring Instruments</td><td rowspan="3">Pressure / Level / Temperature</td><td>MI-P01</td><td>Primary sensor open/short</td><td>ADC out-of-range; sensor continuity check fails</td><td>Set fault flag; freeze output or drive to configured fail-safe</td></tr>
+    <tr><td>MI-P02</td><td>Internal reference drift / calibration checksum error</td><td>Reference check exceeds tolerance; checksum mismatch</td><td>Raise fault; mark measurement invalid; log event</td></tr>
+    <tr><td>MI-P03</td><td>Electronics hardware fault</td><td>Self-test of amplifier/ADC fails</td><td>Raise fault; inhibit measurement update; log code</td></tr>
+    <tr><td rowspan="4">Flow (all principles)</td><td>MI-F01</td><td>Signal quality low</td><td>SNR below threshold for N cycles</td><td>Raise warning/fault; retain last good value; log</td></tr>
+    <tr><td>MI-F02</td><td>Data integrity / verification error</td><td>RAM/flash CRC check fails</td><td>Raise fault; attempt safe restart; log code</td></tr>
+    <tr><td>MI-F03</td><td>Loop current/output feedback fault</td><td>Measured output deviates from commanded output</td><td>Raise fault; clamp output; provide diagnostic code</td></tr>
+    <tr><td>MI-F04</td><td>Communication interface fault</td><td>Bus timeout or framing error rate exceeds limit</td><td>Raise fault; maintain local measurement; log code</td></tr>
+  </tbody>
+</table>

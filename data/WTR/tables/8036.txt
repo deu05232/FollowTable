@@ -1,0 +1,14 @@
+# BitTorrent Blocking and Rate-Limit Rules by Network Provider (Ports, DPI Triggers, and Exceptions)
+
+| Provider | Network Type | Default P2P Ports Blocked | DPI Trigger | Rate Limit (Mbps) | Exceptions (Whitelists) | Customer Action Required |
+| --- | --- | --- | --- | --- | --- | --- |
+| University Dorm Net A | Campus LAN | 6881-6999 | P2P handshake | 1 | null | Request exemption ticket |
+| Corporate Guest Wi-Fi | Enterprise WLAN | All unknown UDP | High-conn count | 0.5 | Business apps | Accept AUP |
+| Mobile Carrier X | LTE/5G | Random high ports | Sustained upstream | 2 | Video streaming | Use approved plans |
+| Satellite ISP Y | Satellite | 6881-6999 | P2P signatures | 0.2 | null | Off-peak only |
+| Regional Cable Z | Cable | null | Congestion heuristics | 5 | CDN partners | Optional add-on |
+| ISP Alpha | DSL | 51413 | Port match | 3 | null | Change port number |
+| ISP Beta | Fiber | null | DPI + SNI | 10 | Encrypted VPN | Use VPN service |
+| Public Library Wi-Fi | Public WLAN | All P2P | Policy rules | 0 | null | Not permitted |
+| Hotel Network | Hospitality | Common P2P | Connection bursts | 1 | null | Captive portal |
+| Community Mesh | Wireless mesh | null | Fair-use quota | 2 | null | Monthly cap |

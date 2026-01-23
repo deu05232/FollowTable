@@ -1,0 +1,8 @@
+# # Outlook.com (Hotmail) IMAP SMTP connection details for email clients
+
+| Connection direction | Server endpoint | Typical port | Security requirement |
+| --- | --- | --- | --- |
+| Incoming (IMAP) | imap-mail.outlook.com | 993 | SSL/TLS |
+| Outgoing (SMTP) | smtp-mail.outlook.com | 587 | STARTTLS/TLS |
+| Outgoing (SMTP alt) | smtp-mail.outlook.com | 465 | SSL/TLS |
+| Incoming (POP) | pop-mail.outlook.com | 995 | SSL/TLS |

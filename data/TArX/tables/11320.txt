@@ -1,0 +1,15 @@
+<table>
+  <caption>ATLAS AMBT1 tune: observables/distributions and tuning ranges used in the input dataset (minimum-bias and underlying-event)</caption>
+  <thead>
+    <tr><th>Input category</th><th>Analysis / dataset</th><th>Observable / distribution</th><th>Tuning range (used in tune)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Minimum-bias (charged particles)</td><td>ATLAS pp, √s = 0.9 TeV (MB)</td><td>Charged-particle multiplicity distribution, P(Nch)</td><td>Nch= 1–60</td></tr>
+    <tr><td>ATLAS pp, √s = 0.9 TeV (MB)</td><td>Pseudorapidity density, dNch/dη</td><td>|η| < 2.5</td></tr>
+    <tr><td>ATLAS pp, √s = 7 TeV (MB)</td><td>Transverse-momentum spectrum, (1/N) dN/dpT</td><td>pT= 0.5–10 GeV</td></tr>
+    <tr><td>ATLAS pp, √s = 7 TeV (MB)</td><td>Mean pTvs multiplicity, ⟨pT⟩(Nch)</td><td>Nch= 1–40</td></tr>
+    <tr><td rowspan="3">Underlying event</td><td>ATLAS UE (leading track)</td><td>Transverse-region charged multiplicity density, (1/ΔηΔφ) dNch/dηdφ</td><td>pTlead= 1–20 GeV</td></tr>
+    <tr><td>ATLAS UE (leading track)</td><td>Transverse-region scalar ΣpTdensity, (1/ΔηΔφ) dΣpT/dηdφ</td><td>pTlead= 1–20 GeV</td></tr>
+    <tr><td>ATLAS UE (toward/away regions)</td><td>Charged multiplicity vs Δφ to leading track, dNch/dΔφ</td><td>Δφ = 0–π</td></tr>
+  </tbody>
+</table>

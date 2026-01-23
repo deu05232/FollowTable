@@ -1,0 +1,17 @@
+<table>
+  <caption>Probabilities to diffuse from one site i to another site f , for both the blood and the osseous networks. The abbreviation vasc., int. pore. and biom. stand for vascularized, interconnected pore and biomaterial respectively. See text for the interpretation of α , β and the parameters q l . When a situation is impossible, it is indicated by - , while the parameter q l is zero when there is no transformation possible.</caption>
+  <tr><th colspan="4">Blood network</th><th colspan="4">Osseous network</th></tr>
+  <tr><th>Site i</th><th>Link</th><th>Site f</th><th>q_(l)</th><th>Site i</th><th>Link</th><th>Site f</th><th>q_(l)</th></tr>
+  <tr><th>vas.</th><th>vasc.</th><td>vas.</td><td>0</td><th>bone</th><th>vasc.</th><td>bone</td><td>β\ q_(o)</td></tr>
+  <tr><th></th><th>int. pore</th><td></td><td>q_(v)</td><th></th><th>int. pore</th><td></td><td>0</td></tr>
+  <tr><th></th><th>biom.</th><td></td><td>β\ q_(r)</td><th></th><th>biom.</th><td></td><td>0</td></tr>
+  <tr><th></th><th>bone</th><td></td><td>β\ q_(o)</td><th></th><th>bone</th><td></td><td>0</td></tr>
+  <tr><th>vas.</th><th>vasc.</th><td>pore</td><td>-</td><th>bone</th><th>vasc.</th><td>biom.</td><td>q_(b)\ q_(o)</td></tr>
+  <tr><th></th><th>int. pore</th><td></td><td>α\ q_(v)</td><th></th><th>int. pore</th><td></td><td>0</td></tr>
+  <tr><th></th><th>biom.</th><td></td><td>q_(r)</td><th></th><th>biom.</th><td></td><td>0</td></tr>
+  <tr><th></th><th>bone</th><td></td><td>q_(o)</td><th></th><th>bone</th><td></td><td>-</td></tr>
+  <tr><th>vas</th><th>vasc.</th><td>biom.</td><td>-</td><th></th><th></th><td></td><td></td></tr>
+  <tr><th></th><th>int. pore</th><td></td><td>-</td><th></th><th></th><td></td><td></td></tr>
+  <tr><th></th><th>biom.</th><td></td><td>α\ q_(r)</td><th></th><th></th><td></td><td></td></tr>
+  <tr><th></th><th>bone</th><td></td><td>q_(r)\ q_(o)</td><th></th><th></th><td></td><td></td></tr>
+</table>

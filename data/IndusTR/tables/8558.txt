@@ -1,0 +1,17 @@
+<table>
+  <caption>Augmented Reality Enum Mappings (Name-Value as Pair Strings)</caption>
+  <thead>
+    <tr><th>Category</th><th>Entry</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Tracking Failure Reason</td><td>(NONE, 0)</td><td>Camera tracking is normal</td></tr>
+    <tr><td>(BAD_STATE, 1)</td><td>Tracking lost due to poor internal state</td></tr>
+    <tr><td>(INSUFFICIENT_LIGHT, 2)</td><td>Tracking lost due to insufficient light</td></tr>
+    <tr><td rowspan="3">2D Coordinates</td><td>(TEXTURE_TEXELS, 0)</td><td>2D coordinate system of GPU texture</td></tr>
+    <tr><td>(TEXTURE_NORMALIZED, 1)</td><td>Normalized 2D coordinate system of GPU texture</td></tr>
+    <tr><td>(IMAGE_PIXELS, 2)</td><td>2D coordinate system of CPU image</td></tr>
+    <tr><td rowspan="3">Augmented Image Tracking</td><td>(NOT_TRACKING, 0)</td><td>Augmented image not tracked</td></tr>
+    <tr><td>(FULL_TRACKING, 1)</td><td>Tracked using the camera image</td></tr>
+    <tr><td>(LAST_KNOWN_POSE, 2)</td><td>Cannot track; use last known pose</td></tr>
+  </tbody>
+</table>

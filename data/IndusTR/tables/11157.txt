@@ -1,0 +1,15 @@
+<table>
+  <caption>Traffic Accident Alert Timing Elements (Point-in-Time Fields)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Constraints / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Accident Report Received Time</td><td>DateTime</td><td>16</td><td>No</td><td>Yes</td><td>Shall use a unified timestamp format (e.g., YYYYMMDDhhmm); time zone shall be specified by the system profile; must be earlier than or equal to Alert Release Time.</td></tr>
+    <tr><td>2</td><td>Alert Release Time</td><td>DateTime</td><td>16</td><td>No</td><td>Yes</td><td>Time when the accident warning is issued; shall be later than or equal to Accident Report Received Time.</td></tr>
+    <tr><td>3</td><td>On-site Verification Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>No</td><td>If provided, shall be later than or equal to Accident Report Received Time.</td></tr>
+    <tr><td>4</td><td>First Response Dispatch Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>No</td><td>If provided, shall be later than or equal to Accident Report Received Time; may be earlier than On-site Verification Time.</td></tr>
+    <tr><td>5</td><td>Lane Blockage Confirmed Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>If provided, shall be later than or equal to On-site Verification Time (if present); supports partial updates.</td></tr>
+    <tr><td>6</td><td>Accident Cleared Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>Time when the accident scene is cleared; shall be later than or equal to Lane Blockage Confirmed Time (if present).</td></tr>
+    <tr><td>7</td><td>Traffic Fully Recovered Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>Actual time traffic returns to normal; shall be later than or equal to Accident Cleared Time (if present).</td></tr>
+  </tbody>
+</table>

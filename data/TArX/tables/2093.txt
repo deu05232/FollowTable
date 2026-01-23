@@ -1,0 +1,15 @@
+<table>
+  <caption>Elastic mesh registration, regularization and quality optimization times, in seconds. For both bone and skin layers: final surface representation mean errors, number of nodes corrected by the repair procedure in each layer and nodal displacements amplitudes, in millimeters.</caption>
+  <tr><td></td><td>Mean</td><td>Max</td><td>σ</td></tr>
+  <tr><td>Elastic registration (sec)</td><td>32</td><td>96</td><td>19</td></tr>
+  <tr><td>Regularity (sec)</td><td>28</td><td>50</td><td>12</td></tr>
+  <tr><td>Quality (sec)</td><td>4</td><td>21</td><td>2</td></tr>
+  <tr><td>Bone</td><td></td><td></td><td></td></tr>
+  <tr><td>Surface err. (mm)</td><td>0.6</td><td>13.8</td><td>0.5</td></tr>
+  <tr><td>Moved nodes / 1715</td><td>39.8</td><td>105</td><td>23.9</td></tr>
+  <tr><td>Displacements (mm)</td><td>0.8</td><td>3.8</td><td>0.5</td></tr>
+  <tr><td>Skin</td><td></td><td></td><td></td></tr>
+  <tr><td>Surface err. (mm)</td><td>0.4</td><td>23.5</td><td>0.4</td></tr>
+  <tr><td>Moved nodes / 2180</td><td>7.6</td><td>45</td><td>10.3</td></tr>
+  <tr><td>Displacements (mm)</td><td>0.3</td><td>3.1</td><td>0.2</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Security Level Requirements for Intrusion Detector Event Handling</caption>
+  <tr><td>Event</td><td>Security level 1</td><td>Security level 2</td><td>Security level 3</td><td>Security level 4</td></tr>
+  <tr><td>Intrusion</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Tamper</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Low voltage</td><td>OP</td><td>OP</td><td>M</td><td>M</td></tr>
+  <tr><td>Power failure</td><td>OP</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Obstruction</td><td>OP</td><td>OP</td><td>M</td><td>M</td></tr>
+  <tr><td colspan="5">M=Mandatory function. OP=Optional function</td></tr>
+  <tr><td colspan="5">”Not applicable when powered by a switching power supply or when no power supply is required. bApplies to ultrasonic intrusion detectors, microwave intrusion detectors, passive infrared intrusion detectors, and combined intrusion detectors.</td></tr>
+</table>

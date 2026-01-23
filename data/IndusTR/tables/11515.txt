@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Camera Projection & Clipping Configuration Knobs</caption>
+  <thead>
+    <tr><th>Setting</th><th>Type</th><th>Typical Range</th><th>Default</th><th>Effect on AR View</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>near_clip_m</td><td>float</td><td>0.01–0.3</td><td>0.1</td><td>Controls the near plane; smaller values reduce clipping up close but may reduce depth precision.</td></tr>
+    <tr><td>far_clip_m</td><td>float</td><td>10–2000</td><td>1000</td><td>Controls the far plane; larger values extend visible range but can reduce depth precision.</td></tr>
+    <tr><td>vertical_fov_deg</td><td>float</td><td>30–120</td><td>60</td><td>Defines the vertical field of view used for projection.</td></tr>
+    <tr><td>aspect_ratio</td><td>float</td><td>0.5–3.0</td><td>1.7778</td><td>Width/height ratio for the projection matrix.</td></tr>
+    <tr><td>lens_distortion_k1</td><td>float</td><td>-0.5–0.5</td><td>0.0</td><td>Radial distortion coefficient applied in rendering correction.</td></tr>
+    <tr><td>lens_distortion_k2</td><td>float</td><td>-0.5–0.5</td><td>0.0</td><td>Second-order radial distortion coefficient.</td></tr>
+    <tr><td>principal_point_x_px</td><td>float</td><td>0–4096</td><td>960</td><td>X coordinate of principal point in pixels.</td></tr>
+    <tr><td>principal_point_y_px</td><td>float</td><td>0–4096</td><td>540</td><td>Y coordinate of principal point in pixels.</td></tr>
+  </tbody>
+</table>

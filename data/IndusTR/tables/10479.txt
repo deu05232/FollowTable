@@ -1,0 +1,7 @@
+<table>
+  <caption>Official Vehicle Maintenance Work Order Timeline Fields (Event-Oriented)</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Work Order Reference</td><td>Character</td><td>an..40</td><td>Identifier for a single repair order</td></tr>
+  <tr><td>2</td><td>Check-in Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when the vehicle was delivered for service</td></tr>
+  <tr><td>3</td><td>Completion Timestamp</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when the repair was completed</td></tr>
+</table>

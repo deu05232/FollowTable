@@ -1,0 +1,16 @@
+<table>
+  <caption>Metrological Performance Error Budget Under Environmental Influences (Illustrative)</caption>
+  <thead>
+    <tr><th rowspan="2">Influence factor</th><th rowspan="2">Test condition / range</th><th rowspan="2">Reference / note</th><th colspan="3">Observed drift / correction coefficient</th><th rowspan="2">Pass/Fail criterion</th></tr>
+    <tr><th>Model</th><th>Value</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>10 °C → 40 °C</td><td>Stabilize 30 min at each point</td><td>Linear tempco</td><td>0.015</td><td>%/K</td><td>Within manufacturer spec</td></tr>
+    <tr><td>Humidity</td><td>20%RH → 90%RH</td><td>No condensation allowed</td><td>Humidity sensitivity</td><td>0.05</td><td>%</td><td>No functional failure</td></tr>
+    <tr><td>Supply voltage</td><td>0.9Un → 1.1Un</td><td>Sinusoidal, 50/60 Hz</td><td>Line regulation</td><td>0.10</td><td>%</td><td>Indication stable</td></tr>
+    <tr><td>Frequency</td><td>45 Hz → 65 Hz</td><td>Rated burden applied</td><td>Freq. coefficient</td><td>0.02</td><td>%/Hz</td><td>Meets functional check</td></tr>
+    <tr><td>Mechanical vibration</td><td>10–150 Hz, 0.5 g</td><td>IEC 60068 sweep</td><td>Vibration influence</td><td>0.30</td><td>%</td><td>No reset / no dropout</td></tr>
+    <tr><td>Magnetic field</td><td>0–3 mT</td><td>Orientation averaged</td><td>Field susceptibility</td><td>0.25</td><td>%</td><td>No visible saturation</td></tr>
+    <tr><td>Warm-up time</td><td>0–60 min</td><td>After power-on</td><td>Exponential settling</td><td>0.40</td><td>%</td><td>Reading monotonic</td></tr>
+  </tbody>
+</table>

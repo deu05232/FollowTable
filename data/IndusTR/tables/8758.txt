@@ -1,0 +1,16 @@
+<table>
+  <caption>Beidou Monitoring Terminal Monitoring Functions and Measurable Output Requirements</caption>
+  <thead>
+    <tr><th>No.</th><th>Function Area</th><th>Device Expected Behavior</th><th>Measurable Acceptance Threshold</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="3">Operational status monitoring</td><td>Identify and report operation status changes (start/stop, working/non-working)</td><td>Status recognition accuracy ≥ 98%</td></tr>
+    <tr><td>2</td><td>Detect operation depth for tillage/land preparation activities</td><td>Depth monitoring error ≤ 2 cm</td></tr>
+    <tr><td>3</td><td>Detect missed-seed count for precision single-seed sowing</td><td>Missed-seed monitoring error rate ≤ 2%</td></tr>
+    <tr><td>4</td><td rowspan="2">Data reporting and continuity</td><td>Upload monitoring records to platform during operation</td><td>Reporting interval ≤ 5 s (configurable)</td></tr>
+    <tr><td>5</td><td>Prevent loss of records during temporary network outage</td><td>Local buffering capacity ≥ 10,000 records; automatic backfill after link recovery</td></tr>
+    <tr><td>6</td><td rowspan="2">Position integrity for monitoring</td><td>Flag invalid positioning outputs used for monitoring calculations</td><td>Invalid position flagging latency ≤ 2 s</td></tr>
+    <tr><td>7</td><td>Maintain monitoring calculations with valid positioning updates</td><td>Valid position output rate ≥ 1 Hz during monitoring</td></tr>
+    <tr><td>8</td><td>Event logging</td><td>Record key events (power on/off, GNSS lost/regained, configuration changes)</td><td>Event timestamp resolution ≤ 1 s; log retention ≥ 30 days</td></tr>
+  </tbody>
+</table>

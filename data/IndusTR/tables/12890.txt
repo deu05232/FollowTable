@@ -1,0 +1,16 @@
+<table>
+  <caption>Video & Image Event Type Codes (Behavioral / Incident Semantics)</caption>
+  <thead>
+    <tr><th>Code</th><th>Event Name</th><th>Category</th><th>Typical Scene Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>101</td><td>Vehicle Passing</td><td>Traffic</td><td>A motor vehicle traverses the monitored zone or virtual line</td></tr>
+    <tr><td>102</td><td>Person Passing</td><td>Traffic</td><td>A person walks through the monitored zone or crosses a tripwire</td></tr>
+    <tr><td>103</td><td>Loitering</td><td>Behavior</td><td>Person remains within an area longer than a configured threshold</td></tr>
+    <tr><td>104</td><td>Running</td><td>Behavior</td><td>Person moves at a speed pattern consistent with running</td></tr>
+    <tr><td>105</td><td>Fighting</td><td>Violence</td><td>Physical altercation detected (pushing, punching, grappling)</td></tr>
+    <tr><td>106</td><td>Fall / Collapse</td><td>Safety</td><td>Person falls to the ground or collapses and remains down</td></tr>
+    <tr><td>107</td><td>Intrusion</td><td>Perimeter</td><td>Entry into a restricted region (zone-based intrusion)</td></tr>
+    <tr><td>108</td><td>Object Left Behind</td><td>Security</td><td>Unattended object appears and stays in the scene</td></tr>
+  </tbody>
+</table>

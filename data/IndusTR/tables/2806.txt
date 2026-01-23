@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Setup Requirements for Digital Radiography Image Quality Evaluation (Environment & Instruments)</caption>
+  <tr><th>Category</th><th>Requirement</th><th>Target Value</th><th>Acceptable Range</th><th>Measurement Tool</th><th>Rationale</th></tr>
+  <tr><td>Ambient Temperature</td><td>Stable lab temperature</td><td>22 °C</td><td>20–24 °C</td><td>Calibrated thermometer</td><td>Reduces detector drift</td></tr>
+  <tr><td>Relative Humidity</td><td>Humidity control</td><td>45%</td><td>30–60%</td><td>Hygrometer</td><td>Prevents condensation</td></tr>
+  <tr><td>Room Illumination</td><td>Low-light reading</td><td>< 30 lux</td><td>0–50 lux</td><td>Lux meter</td><td>Avoids visual bias</td></tr>
+  <tr><td>Monitor Calibration</td><td>Grayscale standard</td><td>DICOM GSDF</td><td>Conformant</td><td>Photometer</td><td>Consistency across readers</td></tr>
+  <tr><td>Phantom</td><td>IQI / step wedge</td><td>Al 10-step</td><td>Per procedure</td><td>Certified phantom</td><td>Repeatability</td></tr>
+  <tr><td>Timing</td><td>Warm-up before test</td><td>30 min</td><td>20–40 min</td><td>Timer</td><td>Stabilizes electronics</td></tr>
+</table>

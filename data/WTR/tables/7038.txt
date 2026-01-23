@@ -1,0 +1,12 @@
+# iPod Sync & Library Management Tools Compatibility Matrix
+
+| Tool | Platform | Supported iPod Lines | iTunes Library Import | Playlist Sync | Firmware Restore | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| iTunes | macOS/Windows | classic, nano, shuffle, touch | Yes | Yes | Yes | Official Apple solution |
+| Finder (macOS Catalina+) | macOS | touch, nano (limited) | Yes | Partial | Yes | Device management moved from iTunes |
+| MusicBee | Windows | nano, classic (selected) | Yes | Yes | No | Requires device plugin for some models |
+| Winamp (Legacy) | Windows | classic, nano (older gens) | Partial | Partial | No | Depends on third-party iPod support |
+| Rhythmbox | Linux | nano, classic, shuffle (varies) | Partial | Yes | No | Requires libgpod for many devices |
+| gtkpod | Linux/macOS | classic, nano, shuffle (varies) | Partial | Yes | No | Community-maintained |
+| CopyTrans Manager | Windows | touch, nano, shuffle (varies) | No | Yes | No | Focused on music transfer |
+| iMazing | macOS/Windows | touch, iPhone/iPad | Yes | Yes | Partial | More iOS-focused than iPod classic |

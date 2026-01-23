@@ -1,0 +1,151 @@
+<table>
+  <caption>Agricultural Machinery Purchase and Application Subsidy Fund Data Structure Table</caption>
+  <tr><td>Table No.</td><td>Data Table Name</td><td>Identifier</td><td>Data Element Name</td><td>New Field Code</td></tr>
+  <tr><td rowspan="12">0101</td><td rowspan="12">Agricultural Machinery Purchase and Application Subsidy Fund Information Table</td><td>010101</td><td>Subsidy Fund Year</td><td>BTZJND</td></tr>
+  <tr><td>010102</td><td>Administrative Division Code</td><td>XZQHDM</td></tr>
+  <tr><td>010103</td><td>Administrative Division Name</td><td>XZQHMC</td></tr>
+  <tr><td>010104</td><td>Superior Indicator Document No.</td><td>SJZBWH</td></tr>
+  <tr><td>010105</td><td>Funds Allocated by Superior Indicator</td><td>SJZBFPZJ</td></tr>
+  <tr><td>010106</td><td>Of which: Central Fiscal Subsidy Funds</td><td>QZZYCZBTZJ</td></tr>
+  <tr><td>010107</td><td>Matching Funds at This Level</td><td>BJPTZJ</td></tr>
+  <tr><td>010108</td><td>Total Actual Subsidy Funds Used</td><td>SJSYBTZJZE</td></tr>
+  <tr><td>010109</td><td>Of which: Actual Central Fiscal Funds Used</td><td>QZSJSYZYCZZJ</td></tr>
+  <tr><td>010110</td><td>Total Funds Actually Subsidizing Farmers</td><td>SJBTNHZJZE</td></tr>
+  <tr><td>010111</td><td>SAC Actual Number of Farmers Subsidized</td><td>SJBTNHSL</td></tr>
+  <tr><td>010112</td><td>Total Funds Actually Subsidizing Agricultural Production and Operation Organizations</td><td>SJBTNYSCJYZZZJZE</td></tr>
+  <tr><td rowspan="3">0101</td><td rowspan="3">Agricultural Machinery Purchase and Application Subsidy Fund Information Table</td><td>010113</td><td>Actual Number of Agricultural Production and Operation Organizations Subsidized</td><td>SJBTNYSCJYZZSL</td></tr>
+  <tr><td>010114</td><td>Actual Number of Machines Subsidized</td><td>SJBTJJSL</td></tr>
+  <tr><td>010115</td><td>Total Carried-over Balance Funds</td><td>JZJYZJZE</td></tr>
+  <tr><td colspan="2" rowspan="31">Agricultural Machinery Purchase and Application Subsidy Application Form 0102</td><td>010201</td><td>Subsidy Application Year</td><td>BTSQND</td></tr>
+  <tr><td>010102</td><td>Administrative Division Code</td><td>XZQHDM</td></tr>
+  <tr><td>010202</td><td>Application ID</td><td>SQID</td></tr>
+  <tr><td>010203</td><td>Subsidized Product ID</td><td>BTCPID</td></tr>
+  <tr><td>010204</td><td>Manufacturer ID</td><td>SCQYID</td></tr>
+  <tr><td>010205</td><td>Dealer ID</td><td>JXSID</td></tr>
+  <tr><td>010206</td><td>ID Document Number</td><td>ZJHM</td></tr>
+  <tr><td>010207</td><td>Province</td><td>SHENG</td></tr>
+  <tr><td>010208</td><td>City</td><td>SHI</td></tr>
+  <tr><td>010209</td><td>County</td><td>XIAN</td></tr>
+  <tr><td>010210</td><td>Township</td><td>XIANG</td></tr>
+  <tr><td>010211</td><td>Village</td><td>CUN</td></tr>
+  <tr><td>010212</td><td>Purchaser Type</td><td>GJZLX</td></tr>
+  <tr><td>010213</td><td>ID Document Type</td><td>ZJLX</td></tr>
+  <tr><td>010214</td><td>Name</td><td>XMHMC</td></tr>
+  <tr><td>010215</td><td>Household Member Gender</td><td>JTCYXB</td></tr>
+  <tr><td>010216</td><td>Applicant Address</td><td>SQRDZ</td></tr>
+  <tr><td>010217</td><td>Current Residence</td><td>XJZD</td></tr>
+  <tr><td>010218</td><td>Contact Information</td><td>LXFS</td></tr>
+  <tr><td>010219</td><td>Machine No.</td><td>JBH</td></tr>
+  <tr><td>010220</td><td>Machine Major Category</td><td>JDL</td></tr>
+  <tr><td>010221</td><td>Machine Subcategory</td><td>JXL</td></tr>
+  <tr><td>010222</td><td>Machine Category</td><td>JPM</td></tr>
+  <tr><td>010223</td><td>Tier Name</td><td>FDMC</td></tr>
+  <tr><td>010224</td><td>Tier No.</td><td>FDBH</td></tr>
+  <tr><td>010225</td><td>Machine Model</td><td>JXH</td></tr>
+  <tr><td>010226</td><td>Manufacturer Name</td><td>SCQYMC</td></tr>
+  <tr><td>010227</td><td>Dealer Name</td><td>JXSMC</td></tr>
+  <tr><td>010228</td><td>Quantity</td><td>SL</td></tr>
+  <tr><td>010229</td><td>Per-unit National Subsidy</td><td>DTGB</td></tr>
+  <tr><td>010230</td><td>Per-unit Provincial Subsidy</td><td>DTSB</td></tr>
+  <tr><td colspan="2" rowspan="12">Agricultural Machinery Purchase and Application Subsidy Application Form 0102</td><td>010231</td><td>Per-unit Municipal Subsidy</td><td>DTSHIB</td></tr>
+  <tr><td>010232</td><td>Per-unit County Subsidy</td><td>DTXB</td></tr>
+  <tr><td>010233</td><td>Final Total Sales Amount</td><td>ZZXSZJE</td></tr>
+  <tr><td>010234</td><td>Application Settlement Batch</td><td>SQJSPC</td></tr>
+  <tr><td>010235</td><td>Void Flag</td><td>ZFBZ</td></tr>
+  <tr><td>010236</td><td>Settlement Batch</td><td>JSPC</td></tr>
+  <tr><td>010237</td><td>Dealer Entry Time</td><td>JXSLRSJ</td></tr>
+  <tr><td>010238</td><td>Purchase Time</td><td>GJSJ</td></tr>
+  <tr><td>010239</td><td>Full-price Purchase Flag</td><td>QJGJBZ</td></tr>
+  <tr><td>010240</td><td>Account Opening Bank</td><td>ZHKHH</td></tr>
+  <tr><td>010241</td><td>Bank Account No.</td><td>YHZH</td></tr>
+  <tr><td>010242</td><td>Whether to Push to the One-Card Platform</td><td>SFTSYKTPT</td></tr>
+  <tr><td rowspan="17">0103</td><td rowspan="17">Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table</td><td>010301</td><td>Subsidy Disbursement Year</td><td>BTFFND</td></tr>
+  <tr><td>010102</td><td>Administrative Division Code</td><td>XZQHDM</td></tr>
+  <tr><td>010206</td><td>ID Document Number</td><td>ZJHM</td></tr>
+  <tr><td>010213</td><td>ID Document Type</td><td>ZJLX</td></tr>
+  <tr><td>010214</td><td>Name</td><td>XMHMC</td></tr>
+  <tr><td>010302</td><td>Amount Actually Paid</td><td>SFJE</td></tr>
+  <tr><td>010303</td><td>Disbursement Time</td><td>FFSJ</td></tr>
+  <tr><td>010304</td><td>Payee Bank Account No.</td><td>SKYHZH</td></tr>
+  <tr><td>010305</td><td>Payee Bank</td><td>SKYH</td></tr>
+  <tr><td>010306</td><td>Transaction Time</td><td>JYSJ</td></tr>
+  <tr><td>010307</td><td>Funds Receipt Time</td><td>DZSJ</td></tr>
+  <tr><td>010308</td><td>Bank Transaction Note</td><td>YHJYFY</td></tr>
+  <tr><td>010309</td><td>Disbursing Unit Name</td><td>FFDWMC</td></tr>
+  <tr><td>010310</td><td>Payment Status</td><td>ZFZT</td></tr>
+  <tr><td>010311</td><td>Payer Bank Name</td><td>FKFYHMC</td></tr>
+  <tr><td>010312</td><td>Payer Bank Account No.</td><td>FKFYHZH</td></tr>
+  <tr><td>010313</td><td>Payer Account Name</td><td>FKFZHMC</td></tr>
+  <tr><td rowspan="5">0104</td><td rowspan="5">Agricultural Machinery Purchase and Application Subsidy Invoice Information Table</td><td>010202</td><td>Application ID</td><td>SQID</td></tr>
+  <tr><td>010401</td><td>Invoice No.</td><td>FPH</td></tr>
+  <tr><td>010402</td><td>Buyer Name</td><td>GMFMC</td></tr>
+  <tr><td>010403</td><td>Seller Name</td><td>XSFMC</td></tr>
+  <tr><td>010404</td><td>Invoice Amount</td><td>FPJE</td></tr>
+  <tr><td rowspan="3">0104</td><td rowspan="3">Agricultural Machinery Purchase and Application Subsidy Invoice Information Table</td><td>010405</td><td>Invoice Tax Amount</td><td>FPSE</td></tr>
+  <tr><td>010406</td><td>Total Price and Tax</td><td>JSHJ</td></tr>
+  <tr><td>010407</td><td>Invoice Issuance Time</td><td>KPSJ</td></tr>
+  <tr><td rowspan="8">0105</td><td rowspan="8">Machine Category Table</td><td>010501</td><td>Machine Category Year</td><td>JJPMND</td></tr>
+  <tr><td>010102</td><td>Administrative Division Code</td><td>XZQHDM</td></tr>
+  <tr><td>010502</td><td>Machine Category No.</td><td>JJPMBH</td></tr>
+  <tr><td>010220</td><td>Machine Major Category</td><td>JDL</td></tr>
+  <tr><td>010221</td><td>Machine Subcategory</td><td>JXL</td></tr>
+  <tr><td>010222</td><td>Machine Category</td><td>JPM</td></tr>
+  <tr><td>010503</td><td>Enable Flag</td><td>QYBZ</td></tr>
+  <tr><td>010504</td><td>Review Flag</td><td>SHBZ</td></tr>
+  <tr><td colspan="2" rowspan="23">Subsidized Product Catalog Table 0106</td><td>010601</td><td>Subsidized Product Catalog Year</td><td>BTCPMLND</td></tr>
+  <tr><td>010102</td><td>Administrative Division Code</td><td>XZQHDM</td></tr>
+  <tr><td>010203</td><td>Subsidized Product ID</td><td>BTCPID</td></tr>
+  <tr><td>010502</td><td>Machine Category No.</td><td>JPMBH</td></tr>
+  <tr><td>010219</td><td>Machine No.</td><td>JJBH</td></tr>
+  <tr><td>010220</td><td>Machine Major Category</td><td>JJDL</td></tr>
+  <tr><td>010221</td><td>Machine Subcategory</td><td>JXL</td></tr>
+  <tr><td>010222</td><td>Machine Category</td><td>JPM</td></tr>
+  <tr><td>010223</td><td>Tier Name</td><td>FDMC</td></tr>
+  <tr><td>010602</td><td>Product Name</td><td>CPMC</td></tr>
+  <tr><td>010224</td><td>Tier No.</td><td>FDBH</td></tr>
+  <tr><td>010603</td><td>Central Subsidy Amount</td><td>ZYBTJE</td></tr>
+  <tr><td>010604</td><td>Central Subsidy Amount for Special Counties</td><td>TSXZYBTJE</td></tr>
+  <tr><td>010605</td><td>Provincial Subsidy Amount</td><td>SBTJE</td></tr>
+  <tr><td>010606</td><td>Provincial Subsidy Amount for Special Counties</td><td>TSXSBTJE</td></tr>
+  <tr><td>010607</td><td>Municipal Subsidy Amount</td><td>SHIBTJE</td></tr>
+  <tr><td>010608</td><td>Municipal Subsidy Amount for Special Counties</td><td>TSXSHIBTJE</td></tr>
+  <tr><td>010609</td><td>County Subsidy Amount</td><td>XBTJE</td></tr>
+  <tr><td>010610</td><td>County Subsidy Amount for Special Counties</td><td>TSXXBTJE</td></tr>
+  <tr><td>010611</td><td>Machine Drive Type</td><td>ZJQDXS</td></tr>
+  <tr><td>010612</td><td>Configuration Parameters</td><td>PZCS</td></tr>
+  <tr><td>010613</td><td>Power</td><td>GL</td></tr>
+  <tr><td>010614</td><td>Detailed Configuration Parameters</td><td>XXPZCS</td></tr>
+  <tr><td rowspan="5">0106</td><td rowspan="5">Subsidized Product Catalog Table</td><td>010615</td><td>Whether Equipped with Power Machinery</td><td>SFPBDLJX</td></tr>
+  <tr><td>010616</td><td>Rated Feed Rate</td><td>BDWRL</td></tr>
+  <tr><td>010617</td><td>Minimum Operating Mass</td><td>ZXSYZL</td></tr>
+  <tr><td>010618</td><td>Number of Harvesting Rows</td><td>SGHS</td></tr>
+  <tr><td>010619</td><td>Void Review</td><td>ZFSH</td></tr>
+  <tr><td colspan="2" rowspan="28">Manufacturer/Dealer Information Table 0107</td><td>010204</td><td>Manufacturer ID</td><td>SCQYID</td></tr>
+  <tr><td>010205</td><td>Dealer ID</td><td>JXSID</td></tr>
+  <tr><td>010701</td><td>Dealer/Manufacturer Identification Flag</td><td>JXSSCQYBBBZ</td></tr>
+  <tr><td>010702</td><td>Unit Name</td><td>DWMC</td></tr>
+  <tr><td>010703</td><td>Account Opening Bank Name</td><td>KHYHMC</td></tr>
+  <tr><td>010704</td><td>Corporate Account Name</td><td>QYKHMC</td></tr>
+  <tr><td>010705</td><td>Corporate Account No.</td><td>QYZH</td></tr>
+  <tr><td>010706</td><td>Company Address</td><td>QYDZ</td></tr>
+  <tr><td>010707</td><td>Email</td><td>DZYJ</td></tr>
+  <tr><td>010708</td><td>Legal Representative</td><td>FR</td></tr>
+  <tr><td>010709</td><td>Legal Representative ID No.</td><td>FRSFZH</td></tr>
+  <tr><td>010710</td><td>Legal Representative Contact Information</td><td>FRLXFS</td></tr>
+  <tr><td>010711</td><td>Financial Officer in Charge</td><td>CWFZR</td></tr>
+  <tr><td>010712</td><td>Financial Officer in Charge Contact Information</td><td>CWFZRLXFS</td></tr>
+  <tr><td>010713</td><td>Sales Officer in Charge</td><td>XSFZR</td></tr>
+  <tr><td>010714</td><td>Sales Officer in Charge Contact Information</td><td>XSFZRLXFS</td></tr>
+  <tr><td>010715</td><td>Status</td><td>ZT</td></tr>
+  <tr><td>010716</td><td>Business License No.</td><td>YYZH</td></tr>
+  <tr><td>010717</td><td>Organization Code Certificate No.</td><td>ZZJGDMZH</td></tr>
+  <tr><td>010718</td><td>Tax Registration Certificate No.</td><td>SWDJZH</td></tr>
+  <tr><td>010719</td><td>Registration Time</td><td>ZCSJ</td></tr>
+  <tr><td>010720</td><td>Registration Authority</td><td>ZCJG</td></tr>
+  <tr><td>010721</td><td>Registered Capital</td><td>ZCZJ</td></tr>
+  <tr><td>010722</td><td>Number of Business Personnel</td><td>JYRS</td></tr>
+  <tr><td>010723</td><td>Number of After-sales Service Personnel</td><td>SHFWRS</td></tr>
+  <tr><td>010724</td><td>Total Personnel</td><td>ZRS</td></tr>
+  <tr><td>010725</td><td>Business Premises</td><td>JYCS</td></tr>
+  <tr><td>010726</td><td>After-sales Service Outlet</td><td>SHFWD</td></tr>
+</table>

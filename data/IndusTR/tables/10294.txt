@@ -1,0 +1,16 @@
+<table>
+  <caption>Casting Structural Design Specification: Recommended vs Not Recommended (Cores, Holes, Bosses & Machining Allowance)</caption>
+  <thead>
+    <tr><th>Design topic</th><th>Recommended (Proper)</th><th>Not recommended (Improper)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Use of cores</td><td>Minimize cores by redesigning geometry (open pockets, split features, simplify undercuts)</td><td>Rely on deep/complex cores for routine features</td></tr>
+    <tr><td>Core print / support</td><td>Provide adequate core prints and stable support surfaces</td><td>Small/insufficient core prints leading to core shift</td></tr>
+    <tr><td>Blind holes vs through holes</td><td>Prefer through holes or accessible pockets when function allows</td><td>Deep blind holes that require long slender cores</td></tr>
+    <tr><td>Sand removal / venting</td><td>Add cleanout/vent holes for enclosed cavities; ensure sand can be removed</td><td>Sealed cavities with no vent/cleanout path (trapped sand/gas)</td></tr>
+    <tr><td>Boss height and mass</td><td>Keep bosses short and cored/relieved; use ribs to carry load</td><td>Tall solid bosses creating heavy sections and hot spots</td></tr>
+    <tr><td>Bolt hole pads / adjacent bosses</td><td>Merge nearby pads into a common plane or connect with ribs</td><td>Separate isolated pads at different levels causing hotspots and machining complexity</td></tr>
+    <tr><td>Machining allowance</td><td>Specify adequate machining allowance and locate datum/machined pads on stable sections</td><td>No machining allowance on surfaces intended for machining</td></tr>
+    <tr><td>Tool access for machining</td><td>Add machining flats/flanges for tool run-out and clearance where needed</td><td>Machine directly against rough cast surfaces without clearance (tool wear/poor finish)</td></tr>
+  </tbody>
+</table>

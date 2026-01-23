@@ -1,0 +1,15 @@
+<table>
+  <caption>Summary of our preliminary simulations testing the SNR parameters. The first six runs test the background profiles and radiative cooling. The last four simulation runs are variations of SNR6, where meaningful astrophysical parameters are tested.</caption>
+  <tr><th>Shortname</th><th>Description</th><th>Parameter Details</th></tr>
+  <tr><td>SNR1</td><td>Supernova only</td><td>SNR defaults and: ρ -profile = 0, v-prof = 0, Cooling=off</td></tr>
+  <tr><td>SNR2</td><td>Supernova only</td><td>SNR defaults and: ρ -profile = 1, v-prof = 0, Cooling=off</td></tr>
+  <tr><td>SNR3</td><td>Supernova only</td><td>SNR defaults and: ρ -profile = 0, v-prof = 1, Cooling=off</td></tr>
+  <tr><td>SNR4</td><td>Supernova only</td><td>SNR defaults and: ρ -profile = 1, v-prof = 1, Cooling=off</td></tr>
+  <tr><td>SNR5</td><td>Supernova only</td><td>SNR defaults and: ρ -profile = 0, v-prof = 1, Cooling=on</td></tr>
+  <tr><td>SNR6</td><td>Supernova only</td><td>SNR defaults and: ρ -profile = 1, v-prof = 1, Cooling=on</td></tr>
+  <tr><td>SNR6b</td><td>Supernova only</td><td>As SNR6 but: E_(blast)=10^(50)\, ergs</td></tr>
+  <tr><td>SNR6c</td><td>Supernova only</td><td>As SNR6 but: n_(0)=0.1\,cm^(-3)</td></tr>
+  <tr><td>SNR6d</td><td>Supernova only</td><td>As SNR6 but: M_(ej)=10 M _()</td></tr>
+  <tr><td>SNR6e</td><td>Supernova only</td><td>As SNR6 but: T_(bg)=10^(2)\, Kelvin</td></tr>
+  <tr><td colspan="3">SNR default parameters: M_(ej)=5 M _() , n_(0)=1\,cm^(-3) , E_(blast)=10^(51)\, ergs, T_(bg)=10^(4) Kelvin, =40 pc</td></tr>
+</table>

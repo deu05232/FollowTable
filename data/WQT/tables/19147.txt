@@ -1,0 +1,14 @@
+# Exchange Hybrid Connector Parameters (On-Premises to Exchange Online)
+
+| Connector type | Parameter | Typical value | Where set | Purpose |
+| --- | --- | --- | --- | --- |
+| Inbound (from EXO) | Sender domains | *.mail.protection.outlook.com | Exchange Admin Center | Accept mail from EXO |
+| Inbound (from EXO) | TLS certificate name | mail.contoso.com | EAC / PowerShell | Enforce TLS identity |
+| Inbound (from EXO) | Require TLS | true | EAC / PowerShell | Secure transport |
+| Outbound (to EXO) | Smart host | contoso-com.mail.protection.outlook.com | EAC / PowerShell | Route to EXO |
+| Outbound (to EXO) | TLS domain | mail.protection.outlook.com | EAC / PowerShell | Validates EXO TLS |
+| Outbound (to EXO) | DNS routing enabled | false | EAC / PowerShell | Use smart host instead |
+| Outbound (to EXO) | Scoped connector | true | EAC / PowerShell | Limits to hybrid traffic |
+| Outbound (to EXO) | Address spaces | contoso.com | EAC / PowerShell | Determines routing |
+| Transport | Max message size | 35 MB | Org config | Common hybrid limit |
+| Transport | Protocol logging | Enabled | Server config | Troubleshooting |

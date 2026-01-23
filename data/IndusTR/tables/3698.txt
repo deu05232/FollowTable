@@ -1,0 +1,14 @@
+<table>
+  <caption>Carding Web-Forming Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Web Output Speed</td><td>CardingMachineSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~500.00</td><td>m/min</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0301</td><td>Web Output Basis Weight</td><td>WeightOfCardingMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~200.00</td><td>g</td><td>One</td><td></td></tr>
+  <tr><td>0X0302</td><td>Cotton Hopper Pressure</td><td>HopperPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3 000.00</td><td>Pa</td><td>1</td><td></td></tr>
+  <tr><td>0X0303</td><td>Cotton Hopper Fan Speed</td><td>HopperFanSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~5 000.00</td><td>r/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0304</td><td>Cotton Feeding Curtain Speed</td><td>CottonFeedingCurtainSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0305</td><td>Main Cylinder Speed</td><td>MainCylinderSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2000.00</td><td>m/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0306</td><td>Main Work Roll Speed</td><td>MainWorkRollSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~500.00</td><td>m/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0307</td><td>Main Stripping Roll Speed</td><td>SpeedOfMainStrippingRoll</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0308</td><td>Doffer Speed</td><td>DolphSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~500.00</td><td>m/min</td><td>One</td><td></td></tr>
+  <tr><td>0X0309</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+</table>

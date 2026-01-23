@@ -1,0 +1,7 @@
+<table>
+  <caption>Bead Building Station Signals (Data Item Dictionary)</caption>
+  <tr><th>Serial No.</th><th>Data Item Name</th><th>Data Item Description</th><th>Alias</th><th>Data Type</th><th>Length (bit)</th><th>Value Range</th><th>Value Meaning</th><th>Logical Relationship with Other Data Items</th></tr>
+  <tr><td>1</td><td>Bead feeder clamp status</td><td>Status feedback of the bead feeder clamp (open/closed)</td><td>BF clamp status</td><td>INT</td><td>16</td><td>0/1/2</td><td>0: open; 1: closed; 2: fault</td><td>Valid when Bead feeder enable = 1</td></tr>
+  <tr><td>2</td><td>Bead feeder enable</td><td>Enable command for bead feeder subsystem</td><td>BF enable</td><td>INT</td><td>16</td><td>0/1</td><td>0: disable; 1: enable</td><td>When 0, clamp status should remain 0 (open)</td></tr>
+  <tr><td>3</td><td>Bead positioning pressure</td><td>Pressure sensor value used during bead positioning</td><td>Bead pos pressure</td><td>FLOAT</td><td>32</td><td>0.00~1.00 MPa</td><td>Higher value indicates higher pneumatic pressure</td><td>Must be within range before Bead seat confirm = 1</td></tr>
+</table>

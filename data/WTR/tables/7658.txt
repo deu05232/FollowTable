@@ -1,0 +1,8 @@
+# Google product review widget cookie and tracking configuration
+
+| Tracker component | What it stores | Why it exists | Typical lifetime | Sharing/third-party context |
+| --- | --- | --- | --- | --- |
+| Review widget identifier | Session identifiers | Load review module consistently | Short | Often third-party |
+| Preference token | Display preferences | Remember sort/filter choices | Medium | May be shared |
+| Fraud detection marker | Risk signals | Reduce spam reviews | Medium | Can involve vendors |
+| Consent state | User consent status | Respect privacy controls | Medium | Policy-driven |

@@ -1,0 +1,9 @@
+<table>
+  <caption>This table succinctly lists the requirements of the low pass filters employed in Equation \eref CFBb.</caption>
+  <tr><th>Properties</th><th>Mathematical Expression</th></tr>
+  <tr><th>Normalized</th><td>g =1</td></tr>
+  <tr><th>Nonnegative</th><td>g()>0,\,</td></tr>
+  <tr><th>Decreasing</th><td>|_(1)|≥|_(2)|g(_(1))≥ g(_(2))</td></tr>
+  <tr><th>Symmetric</th><td>|_(1)|=|_(2)|g(_(1))=g(_(2))</td></tr>
+  <tr><th>Fourier Decay</th><td>_(||∞)||()=0</td></tr>
+</table>

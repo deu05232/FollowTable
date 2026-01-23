@@ -1,0 +1,14 @@
+<table>
+  <caption>Cyclic Thermal Conditioning Sequence for Fire Extinguisher Valves (Group A vs Group B)</caption>
+  <thead>
+    <tr><th>Cycle</th><th>Step</th><th>Group A setpoint (°C)</th><th>Group B setpoint (°C)</th><th>Hold time (h)</th><th>Acceptance check after step</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">1</td><td>1</td><td>Valve Tmin ± 2</td><td>60 ± 2</td><td>24 ± 1</td><td>Visual leakage check</td></tr>
+    <tr><td>2</td><td>20 ± 5</td><td>20 ± 5</td><td>24 ± 1</td><td>Record pressure/weight change</td></tr>
+    <tr><td>3</td><td>60 ± 2</td><td>Valve Tmin ± 2</td><td>24 ± 1</td><td>Operate valve once at end of soak</td></tr>
+    <tr><td rowspan="3">2</td><td>4</td><td>Valve Tmin ± 2</td><td>60 ± 2</td><td>8 ± 1</td><td>Quick leak screening</td></tr>
+    <tr><td>5</td><td>20 ± 5</td><td>20 ± 5</td><td>16 ± 1</td><td>Stabilization period</td></tr>
+    <tr><td>6</td><td>60 ± 2</td><td>Valve Tmin ± 2</td><td>8 ± 1</td><td>Final inspection before next test</td></tr>
+  </tbody>
+</table>

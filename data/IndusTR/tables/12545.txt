@@ -1,0 +1,15 @@
+<table>
+  <caption>Functional Coverage Inventory — Logistics M2M Terminal Lifecycle & Remote Actions</caption>
+  <thead>
+    <tr><th>Area</th><th>Capability Under Test</th><th>Verification Intent</th><th>Typical Outcome / Evidence</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Onboarding / Offboarding</td><td>Terminal Registration (device onboarding)</td><td>Confirm a new terminal can be enrolled and becomes manageable by the platform</td><td>Terminal appears in inventory with a unique identifier and manageable state</td></tr>
+    <tr><td>Terminal Deregistration (device offboarding)</td><td>Confirm a terminal can be removed and no longer accepts platform control or reporting</td><td>Terminal status becomes decommissioned; control commands are rejected</td></tr>
+    <tr><td>Terminal Re-enrollment</td><td>Confirm a previously deregistered terminal can be registered again without duplicate identity conflicts</td><td>Single active record; prior record archived or replaced per policy</td></tr>
+    <tr><td rowspan="2">Access / Session</td><td>Terminal Login (authentication)</td><td>Confirm the terminal can authenticate and establish a session to the platform</td><td>Session established; online status updated</td></tr>
+    <tr><td>Terminal Logout (session termination)</td><td>Confirm the terminal can terminate its session and is marked offline appropriately</td><td>Session closed; offline status and last-seen timestamp updated</td></tr>
+    <tr><td rowspan="2">Remote Actions</td><td>Remote Control Command Dispatch</td><td>Confirm the platform can send a remote action and the terminal acknowledges receipt</td><td>Command queued → delivered → acknowledged states are observable</td></tr>
+    <tr><td>Remote Parameter Update</td><td>Confirm remote configuration changes are applied and reflected in the terminal-reported configuration</td><td>New parameters visible in terminal report and platform audit record</td></tr>
+  </tbody>
+</table>

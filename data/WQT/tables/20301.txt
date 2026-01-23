@@ -1,0 +1,11 @@
+# Special-use IPv4 address blocks (excluding RFC1918) with scope and purpose
+
+| CIDR block | Address range | Common name | Scope | Typical purpose |
+| --- | --- | --- | --- | --- |
+| 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | "This network" | Software/host | Only valid as a source to refer to the local network |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared address space | Provider/ISP | Carrier-grade NAT between provider and subscribers |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Host | Local loopback testing and inter-process networking |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local | Link | Auto-config when no DHCP is available |
+| 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | TEST-NET-1 | Documentation | Examples in docs and training materials |
+| 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | TEST-NET-2 | Documentation | Examples in docs and training materials |
+| 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | TEST-NET-3 | Documentation | Examples in docs and training materials |

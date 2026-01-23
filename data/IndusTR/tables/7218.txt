@@ -1,0 +1,10 @@
+<table>
+  <caption>When to use vs not use control characters (general guidance table)</caption>
+  <tr><th>Control Character</th><th>When Used (description)</th><th>Example Sequence (valid)</th><th>When Not Used (description)</th></tr>
+  <tr><td>NIRUGU</td><td>Used to select a specific joining/shape in certain contexts</td><td>[U+1820][NIRUGU][U+1821]</td><td>Not used when default shaping is sufficient</td></tr>
+  <tr><td>MVS</td><td>Used to request a particular glyph variant</td><td>[MVS][U+1820]</td><td>Not used when the base glyph is unambiguous</td></tr>
+  <tr><td>U+180E</td><td>Used as a format control in limited legacy contexts</td><td>[U+180E][U+1820]</td><td>Not used in modern normalized text</td></tr>
+  <tr><td>FVS</td><td>Used only for documented free-variation cases</td><td>[FVS][U+1828]</td><td>Not used outside the documented set</td></tr>
+  <tr><td>NIRUGU</td><td>Used consistently within a defined orthographic pattern</td><td>[U+182D][NIRUGU][U+1820]</td><td>Not used as a general separator</td></tr>
+  <tr><td>MVS</td><td>Used immediately before the base letter</td><td>[MVS][U+1821]</td><td>Not used as trailing marker</td></tr>
+</table>

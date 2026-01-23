@@ -1,0 +1,14 @@
+<table>
+  <caption>Transport-Layer Segmented PDU (Multi-Frame) On-Wire Layout</caption>
+  <thead>
+    <tr><th>Frame Type</th><th>Frame Seq No. (FSN)</th><th>Total Frames (TF)</th><th>Total Message Length (TML)</th><th>Segment Payload Bytes</th><th>Padding Rule</th><th>Reassembly Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>First segment</td><td>0</td><td>Present (1 byte)</td><td>Present (2 bytes, little-endian)</td><td>0..(MaxData-3)</td><td>Pad unused bytes with 0xFF</td><td>Receiver allocates buffer of TML and expects TF segments total</td></tr>
+    <tr><td>Middle segment</td><td>1..(TF-2)</td><td>Not present</td><td>Not present</td><td>0..MaxData</td><td>No padding unless required by link layer</td><td>Byte offset = FSN * MaxData - 3 (because first segment carries TF+TML)</td></tr>
+    <tr><td>Last segment</td><td>(TF-1)</td><td>Not present</td><td>Not present</td><td>0..MaxData</td><td>If final segment shorter than MaxData, pad trailing bytes with 0xFF</td><td>Reassembly completes when accumulated payload bytes == TML</td></tr>
+    <tr><td>Single-frame (unsegmented)</td><td>Not used</td><td>Not used</td><td>Not used</td><td>0..MaxData</td><td>Pad to fixed frame size if applicable</td><td>Not a segmented transfer; shown only for contrast</td></tr>
+    <tr><td>Retransmitted segment</td><td>Same as original</td><td>Same rule as original</td><td>Same rule as original</td><td>Same as original</td><td>Same as original</td><td>Receiver should ignore duplicates if segment with same FSN already accepted</td></tr>
+    <tr><td>Out-of-order arrival</td><td>Any</td><td>As above</td><td>As above</td><td>As above</td><td>As above</td><td>Receiver buffers by FSN; may request missing range via control/ACK mechanism</td></tr>
+  </tbody>
+</table>

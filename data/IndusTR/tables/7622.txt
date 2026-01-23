@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Hit Test Raycast API (single-pointer outputs only)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Exact C/C++ Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_hitTestRay</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArFrame_hitTestRay</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Current frame providing camera state.</td></tr>
+    <tr><td>ArFrame_hitTestRay</td><td>ray_origin</td><td>const float[3]</td><td>in</td><td>World-space ray origin (x,y,z).</td></tr>
+    <tr><td>ArFrame_hitTestRay</td><td>ray_direction</td><td>const float[3]</td><td>in</td><td>Normalized world-space ray direction.</td></tr>
+    <tr><td>ArFrame_hitTestRay</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Pre-allocated hit result list to be filled.</td></tr>
+    <tr><td>ArFrame_hitTestRay</td><td>out_num_results</td><td>int32_t *</td><td>out</td><td>Number of hits written into the list.</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>hit_result_list</td><td>const ArHitResultList *</td><td>in</td><td>List containing results.</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>index</td><td>int32_t</td><td>in</td><td>Index within the list.</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>out_hit</td><td>ArHitResult *</td><td>out</td><td>Caller-allocated hit result object to receive the item.</td></tr>
+  </tbody>
+</table>

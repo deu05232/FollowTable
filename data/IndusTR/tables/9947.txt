@@ -1,0 +1,21 @@
+<table>
+  <caption>Framework-to-Backend Graph/Compiler Integration Points with Required vs Optional Status</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Interface Name</th><th>Suggested API Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Op coverage & partitioning</td><td>Operator Support Query</td><td>is_op_supported(op_signature)</td><td>Required</td><td>Return whether an operator (shape/dtype/attrs) is supported; enables graph partitioning.</td></tr>
+    <tr><td>Subgraph Partition</td><td>partition_graph(graph)</td><td>Required</td><td>Split framework graph into supported subgraphs and fallback segments.</td></tr>
+    <tr><td>Fusion Pattern Registry</td><td>register_fusion_patterns()</td><td>Optional</td><td>Register backend-specific fusion patterns to improve performance; not necessary for correctness.</td></tr>
+    <tr><td rowspan="4">Lowering / compilation</td><td>IR Export (Framework Graph to Backend IR)</td><td>export_backend_ir(graph_subgraph)</td><td>Required</td><td>Serialize a supported subgraph into a backend-consumable IR/module.</td></tr>
+    <tr><td>Compile IR to Executable</td><td>compile(ir_module, compile_options)</td><td>Required</td><td>Produce a runnable binary/engine for the target hardware.</td></tr>
+    <tr><td>Compilation Cache Key</td><td>get_cache_key(ir_module, options)</td><td>Optional</td><td>Enables engine caching and reuse across runs.</td></tr>
+    <tr><td>Shape Specialization / Auto-Tuning</td><td>tune_and_specialize(ir_module, sample_inputs)</td><td>Optional</td><td>Optional phase for performance tuning; can be deferred.</td></tr>
+    <tr><td rowspan="4">Executable lifecycle</td><td>Load Executable</td><td>executable_load(blob)</td><td>Optional</td><td>Load a precompiled executable from storage; useful for deployment scenarios.</td></tr>
+    <tr><td>Create Executable Instance</td><td>executable_create(ir_or_blob)</td><td>Required</td><td>Create an executable handle and allocate persistent resources.</td></tr>
+    <tr><td>Run / Enqueue</td><td>executable_run(handle, inputs, outputs, stream)</td><td>Required</td><td>Execute the compiled subgraph on the device.</td></tr>
+    <tr><td>Destroy Executable</td><td>executable_destroy(handle)</td><td>Required</td><td>Release executable resources.</td></tr>
+    <tr><td rowspan="2">Debug & validation</td><td>IR Dump</td><td>dump_ir(ir_module, path)</td><td>Optional</td><td>Export IR for debugging and regression tracking.</td></tr>
+    <tr><td>Numerical Validation Hook</td><td>validate_outputs(ref, actual, tolerance)</td><td>Optional</td><td>Convenience hook for bring-up; not required in production runtime.</td></tr>
+  </tbody>
+</table>

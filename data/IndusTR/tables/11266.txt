@@ -1,0 +1,14 @@
+<table>
+  <caption>ArFrame AcquireDepthImage Parameters (Depth-only output, ArImage** receiver)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>AR session handle used to validate and manage the returned depth image.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>Frame handle from which the depth image will be acquired.</td></tr>
+    <tr><td>acquire_mode</td><td>ArAcquireMode</td><td>Acquisition semantics for the depth image (e.g., ACQUIRE, TRY_ACQUIRE). Determines whether the call blocks or returns immediately.</td></tr>
+    <tr><td>out_depth_image</td><td>ArImage **</td><td>Output: pointer-to-pointer that receives the address of the depth image (depth buffer) for this frame.</td></tr>
+    <tr><td>out_is_updated</td><td>int32_t *</td><td>Receives 1 if the returned depth image is newer than the previously acquired one, otherwise 0.</td></tr>
+    <tr><td>out_release_fence_fd</td><td>int *</td><td>Optional output fence file descriptor signaling when the depth buffer is safe to read (if supported).</td></tr>
+  </tbody>
+</table>

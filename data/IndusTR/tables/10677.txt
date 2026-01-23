@@ -1,0 +1,7 @@
+<table>
+  <caption>Device Authentication Status Query API</caption>
+  <tr><th>API Name</th><td>Device Authentication Status Query API</td></tr>
+  <tr><th>API Description</th><td>Query the latest authentication result for a device</td></tr>
+  <tr><th>API Method</th><td>GET</td></tr>
+  <tr><th>Parameter Description</th><td>Must include at least: User ID (string userID), authentication parameter (string access_token), device ID (string devID), page (int page), pageSize (int pageSize)</td></tr>
+</table>

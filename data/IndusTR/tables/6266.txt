@@ -1,0 +1,16 @@
+<table>
+  <caption>Laser Source Category vs Cut-Edge Acceptance Limits for Stainless Steel (Qualification Matrix)</caption>
+  <thead>
+    <tr><th rowspan="2">Laser source category</th><th rowspan="2">Wavelength band</th><th rowspan="2">Mode</th><th colspan="4">Finished-edge acceptance criteria (max allowable)</th><th rowspan="2">Typical inspection method</th></tr>
+    <tr><th>Kerf width (mm)</th><th>Edge roughness Rz (µm)</th><th>Dross height (mm)</th><th>Perpendicularity error (mm/10 mm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fiber (Yb)</td><td>1.03–1.09 µm</td><td>CW</td><td>0.20</td><td>18</td><td>0.08</td><td>0.05</td><td>Microscope + stylus</td></tr>
+    <tr><td>CO2</td><td>10.6 µm</td><td>CW</td><td>0.28</td><td>25</td><td>0.12</td><td>0.08</td><td>Microscope + stylus</td></tr>
+    <tr><td>Nd:YAG</td><td>1.064 µm</td><td>Pulsed</td><td>0.24</td><td>22</td><td>0.10</td><td>0.07</td><td>Microscope + profilometer</td></tr>
+    <tr><td>Green DPSS</td><td>532 nm</td><td>Pulsed</td><td>0.18</td><td>16</td><td>0.06</td><td>0.05</td><td>Optical profilometry</td></tr>
+    <tr><td>UV (355 nm)</td><td>355 nm</td><td>Pulsed</td><td>0.14</td><td>12</td><td>0.03</td><td>0.04</td><td>Optical profilometry</td></tr>
+    <tr><td>Ultrashort pulse</td><td>1030 nm</td><td>fs/ps</td><td>0.10</td><td>8</td><td>0.01</td><td>0.03</td><td>White-light interferometry</td></tr>
+    <tr><td colspan="8">Note: Values shown are example qualification limits for comparing source categories; actual limits depend on material, thickness, and assist gas.</td></tr>
+  </tbody>
+</table>

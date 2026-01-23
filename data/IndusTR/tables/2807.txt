@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Setup Requirements for Validating User Terminal I O Statements (Environment & Calibration)</caption>
+  <tr><th>Category</th><th>Item</th><th>Requirement</th><th>Typical Value</th><th>Calibration Interval</th></tr>
+  <tr><td>Environment</td><td>Ambient temperature</td><td>Stable</td><td>23 ± 2 °C</td><td>n/a</td></tr>
+  <tr><td>Environment</td><td>Relative humidity</td><td>Non-condensing</td><td>40%~60%</td><td>n/a</td></tr>
+  <tr><td>Power</td><td>DC supply ripple</td><td>< 50 mVp-p</td><td>20 mVp-p</td><td>12 months</td></tr>
+  <tr><td>Instrumentation</td><td>Logic analyzer sample rate</td><td>> 10x baud</td><td>5 MSa/s</td><td>12 months</td></tr>
+  <tr><td>Instrumentation</td><td>Time reference</td><td>UTC traceable</td><td>GPSDO</td><td>6 months</td></tr>
+  <tr><td>Interfaces</td><td>Serial port settings</td><td>Fixed for tests</td><td>115200-8-N-1</td><td>n/a</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Logistics M2M Test Coverage Matrix (Item-Level Coverage Without Concrete Actions)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Functional Coverage</th><th>Negative Tests</th><th>Boundary Tests</th><th>Security Checks</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Logistics M2M Terminal Management</td><td>Covered</td><td>Partial</td><td>Partial</td><td>Planned</td><td>Validated at a high level; actions not enumerated</td></tr>
+    <tr><td>Terminal Fault Management</td><td>Covered</td><td>Covered</td><td>Partial</td><td>N/A</td><td>Focus on fault lifecycle</td></tr>
+    <tr><td>Terminal Remote Operations</td><td>Partial</td><td>Planned</td><td>Planned</td><td>Planned</td><td>Remote features grouped as one item</td></tr>
+    <tr><td>Logistics M2M Application Platform Management</td><td>Covered</td><td>Partial</td><td>Partial</td><td>Partial</td><td>Business info & configuration rolled up</td></tr>
+    <tr><td>Application Access Fault Management</td><td>Partial</td><td>Partial</td><td>N/A</td><td>N/A</td><td>Access issues handled as a module bucket</td></tr>
+    <tr><td>Monitoring & Alerting</td><td>Planned</td><td>Planned</td><td>Planned</td><td>Partial</td><td>To be detailed later</td></tr>
+    <tr><td>Audit & Logging</td><td>Planned</td><td>N/A</td><td>N/A</td><td>Covered</td><td>Retention/export not broken down</td></tr>
+    <tr><td>Reporting & Analytics</td><td>Partial</td><td>N/A</td><td>Partial</td><td>N/A</td><td>Reports treated as a single functional block</td></tr>
+  </tbody>
+</table>

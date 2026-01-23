@@ -1,0 +1,9 @@
+<table>
+  <caption>Basic Business Information Entity of Exchange Header Envelope Package External Reference</caption>
+  <tr><td>Data Field</td><td>English Name</td><td>Constraints</td><td>Maximum Occurrences</td><td>Data Type</td><td>Definition</td></tr>
+  <tr><td>External Reference Identifier</td><td>External Reference Identifie</td><td>Mandatory</td><td>1</td><td>String</td><td>Identifier or URI of the external reference object</td></tr>
+  <tr><td>External Reference Availability Start Date Time</td><td>External Reference AvailabilityStart Date Time</td><td>Optional</td><td>1</td><td>Date Time</td><td>Start date and time when the information is available</td></tr>
+  <tr><td>External Reference Availability End Date Time</td><td>External Reference AvailabilityEnd Date Time</td><td>Optional</td><td>1</td><td>Date Time</td><td>End date and time when the information is available</td></tr>
+  <tr><td>External Reference Username</td><td>External Reference Name</td><td>Optional</td><td>1</td><td>String</td><td>Username for accessing the external reference</td></tr>
+  <tr><td>External Reference Password</td><td>External Reference Password</td><td>Optional</td><td>1</td><td>String</td><td>Password required to access the external reference information</td></tr>
+</table>

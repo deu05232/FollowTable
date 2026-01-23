@@ -1,0 +1,18 @@
+<table>
+  <caption>Main parameters of the model.</caption>
+  <tr><td>Assumed parameters</td><td>Value</td></tr>
+  <tr><td>M_() : black hole mass [ M_() ]</td><td>9</td></tr>
+  <tr><td>R_() : corona radius [cm]</td><td>220R_()</td></tr>
+  <tr><td>T_(e) : electron temperature [K]</td><td>10^(9) ⋆</td></tr>
+  <tr><td>T_(i) : ion temperature [K]</td><td>10^(12) ⋆</td></tr>
+  <tr><td>E_() : X-ray spectrum cutoff [keV]</td><td>132</td></tr>
+  <tr><td>α : X-ray spectrum power law index</td><td>1.49</td></tr>
+  <tr><td>kT : disk characteristic temperature [keV]</td><td>0.08 ⋆⋆</td></tr>
+  <tr><td>n_(i),ne : plasma density [cm ^((-3)) ]</td><td>~ 10^(12)</td></tr>
+  <tr><td>B_() : magnetic field [G]</td><td>~ 10^(5)</td></tr>
+  <tr><td>v_() : reconnection speed [c]</td><td>0.5</td></tr>
+  <tr><td>: acceleration efficiency</td><td>0.08</td></tr>
+  <tr><td>Free parameters</td><td>Value</td></tr>
+  <tr><td>q : fraction of power injected in relativistic particles</td><td>0.12</td></tr>
+  <tr><td>a : hadron-to-lepton energy ratio</td><td>100</td></tr>
+</table>

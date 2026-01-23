@@ -1,0 +1,10 @@
+<table>
+  <caption>Galileo Phase Bias Message Header and Timing Fields</caption>
+  <tr><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td></tr>
+  <tr><td>Galileo Epoch Time (TOW)</td><td>DF385</td><td>uint17</td><td>17</td></tr>
+  <tr><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td></tr>
+  <tr><td>Multiple Message Indicator</td><td>DF388</td><td>uint1</td><td>1</td></tr>
+  <tr><td>IOD SSR</td><td>DF413</td><td>uint4</td><td>4</td></tr>
+  <tr><td>SSR Provider ID</td><td>DF414</td><td>uint16</td><td>16</td></tr>
+</table>

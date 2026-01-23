@@ -1,0 +1,9 @@
+<table>
+  <caption>Conversion table from lattice to physical units in case of diffusive scaling, i.e. Δ ⁢ x = ϵ and Δ ⁢ t = ϵ 2 with ϵ = Δ ⁢ x / L = 1 / N and N the number of mesh points along one axis. Quantities in lattice units are readily computed in the code, but they are mesh-dependent. Corresponding quantities in physical units are mesh-independent and can be computed during post-processing. In the text, in case of ambiguity, quantities in physical units are denoted by over-bar.</caption>
+  <tr><th>Quantity</th><th>Lattice units</th><th>Physical units</th></tr>
+  <tr><th>Pressure</th><td>p=1/3\,_(i)f_(i)</td><td>=(p-p_(0))/ε^(2)</td></tr>
+  <tr><th>Velocity</th><td>=_(i){}_(i)f_(i)/_(i)f_(i)</td><td>{}=/ε</td></tr>
+  <tr><th>Force by Eqs. ( LABEL:MEA4 , LABEL:MEA6 )</th><td>{}=_(i){}_(i)_(i)</td><td>Δ{{}}=({}-{}_(0% ))/ε^(2)</td></tr>
+  <tr><th>Torque by Eqs. ( LABEL:MEA5 , LABEL:MEA7 )</th><td>{}=_(i)({}-{% x}_(c))×_(i)</td><td>{{}}=</td></tr>
+  <tr><th>Temperature</th><td>T=_(i)g_(i)</td><td>=T</td></tr>
+</table>

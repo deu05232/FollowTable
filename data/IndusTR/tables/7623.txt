@@ -1,0 +1,7 @@
+<table>
+  <caption>AR collision distance query (returns numeric distance, no double pointers)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit test object pointer</td></tr>
+  <tr><td>out_distance_meters</td><td>float *</td><td>Receives the distance to the collision point</td></tr>
+</table>

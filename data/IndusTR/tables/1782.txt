@@ -1,0 +1,15 @@
+<table>
+  <caption>Transmitter Technical Characteristics of Non-AIS Class B Equipment</caption>
+  <tr><td>Parameter Name</td><td>Unit</td><td>Test Conditions</td><td>Requirement</td></tr>
+  <tr><td>Frequency</td><td>MHzG</td><td></td><td>160.9</td></tr>
+  <tr><td>Transmission Duration</td><td>ms</td><td></td><td>≤108</td></tr>
+  <tr><td rowspan="2">Carrier Frequency Error</td><td rowspan="2">Hz</td><td>Normal Environment</td><td>-500≤Fe≤500</td></tr>
+  <tr><td>Extreme Environment</td><td>-1000≤Fe≤1000</td></tr>
+  <tr><td rowspan="4">Time-Slot Modulation Mask</td><td rowspan="4">dBc</td><td>-12 kHz<△fb<12 kHz</td><td>≤</td></tr>
+  <tr><td>-62.5 kHz<△fb＜-25 kHz</td><td>≤-36</td></tr>
+  <tr><td>25 kHz<△f<62.5 kHz</td><td>≤-36</td></tr>
+  <tr><td>Other Carrier Offset Frequencies</td><td>Signal power below the solid line shown in Figure 5</td></tr>
+  <tr><td rowspan="2">Spurious Emissions</td><td rowspan="2">dBm</td><td>9 kHz~1 GHz</td><td><-36</td></tr>
+  <tr><td>1 GHz~4 GHz</td><td><-30</td></tr>
+  <tr><td colspan="4">a Carrier frequency error. b Carrier offset frequency.</td></tr>
+</table>

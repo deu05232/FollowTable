@@ -1,0 +1,19 @@
+<table>
+  <caption>Combined Environmental Class Column for Gas Detection/Alarm Devices (Classes Merged into One Field)</caption>
+  <tr><th rowspan="2">Device Type</th><th rowspan="2">Test Parameter</th><th rowspan="2">Environmental Class (Combined)</th><th rowspan="2">Test Condition</th></tr>
+  <tr></tr>
+  <tr><td rowspan="7">Fixed devices</td><td>High temperature</td><td>Class I/II/III/V</td><td>40°C (I); 55°C (II,III); 70°C (V), 16 h</td></tr>
+  <tr><td>Low temperature</td><td>Class I/II/III/V</td><td>5°C (I); −10°C (II,III); −25°C (V), 16 h</td></tr>
+  <tr><td>Damp heat (cyclic)</td><td>Class I/II/III/V</td><td>25→55°C, 95%RH, 2 cycles (all classes)</td></tr>
+  <tr><td>Vibration</td><td>Class I vs Others</td><td>10–150 Hz, 2 m/s² (I); 5 m/s² (II/III/V)</td></tr>
+  <tr><td>Mechanical shock</td><td>Class I/II/III/V</td><td>Pulse 6 ms; peak acceleration per mass formula (all classes)</td></tr>
+  <tr><td>Power supply variation</td><td>Class I/II/III/V</td><td>±10% rated voltage, 30 min</td></tr>
+  <tr><td>EMC immunity</td><td>Class I/II/III/V</td><td>Radiated 10 V/m, 80–1000 MHz</td></tr>
+  <tr><td rowspan="7">Movable devices</td><td>High temperature</td><td>Class I/II/III/V</td><td>40°C (I); 55°C (II,III); 70°C (V), 8 h</td></tr>
+  <tr><td>Low temperature</td><td>Class I/II/III/V</td><td>5°C (I); −10°C (II,III); −25°C (V), 8 h</td></tr>
+  <tr><td>Damp heat (steady)</td><td>Class I/II/III/V</td><td>40°C, 93%RH, 24 h</td></tr>
+  <tr><td>Vibration</td><td>Class I vs Others</td><td>10–150 Hz, 2 m/s² (I); 5 m/s² (II/III/V)</td></tr>
+  <tr><td>Shock</td><td>Class I/II/III/V</td><td>6 ms, 15 g, 3 shocks/axis</td></tr>
+  <tr><td>Transport simulation</td><td>Class I/II/III/V</td><td>Random vibration profile, 60 min</td></tr>
+  <tr><td>Display legibility</td><td>Class I/II/III/V</td><td>Readability after fogging test</td></tr>
+</table>

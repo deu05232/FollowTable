@@ -1,0 +1,15 @@
+<table>
+  <caption>System Configuration Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="11">vrSystemConfig</td><td>vrSystemInfo</td><td>System basic information, see Table 6</td></tr>
+  <tr><td>vrSystemCostMode</td><td>System power consumption mode, see Table 7</td></tr>
+  <tr><td>vrSystemDormancyMode</td><td>System sleep mode, see Table 8</td></tr>
+  <tr><td>vrSystemShutDownMode</td><td>System shutdown mode, see Table 9</td></tr>
+  <tr><td>vrHMDPositioningMode</td><td>HMD positioning mode, see Table 10</td></tr>
+  <tr><td>vrHMDRelocalizationMode</td><td>HMD relocalization mode, see Table 11</td></tr>
+  <tr><td>vrControllerPositioningMode</td><td>Controller positioning mode, see Table 12</td></tr>
+  <tr><td>vrControllerInteractiveMode</td><td>Controller interaction mode, see Table 13</td></tr>
+  <tr><td>vrHMDCloudSyncStatus</td><td>Synchronization status between the HMD and the cloud server, see Table 34</td></tr>
+  <tr><td>int32_tdormancy_time</td><td>System sleep timing parameter</td></tr>
+  <tr><td>vrBaseConfig</td><td>Base station configuration, see Table 14</td></tr>
+</table>

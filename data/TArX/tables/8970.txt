@@ -1,0 +1,12 @@
+<table>
+  <caption>Fitted restitution model parameters by impacted material</caption>
+  <thead>
+    <tr><th>Impacted material</th><th>e0 (low-speed limit)</th><th>v_ref (m/s)</th><th>Model form</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Steel</td><td>0.92</td><td>1.0</td><td>e(v)=e0/(1+v/v_ref)</td></tr>
+    <tr><td>Aluminum</td><td>0.70</td><td>0.6</td><td>e(v)=e0/(1+v/v_ref)</td></tr>
+    <tr><td>Titanium</td><td>0.86</td><td>0.9</td><td>e(v)=e0/(1+v/v_ref)</td></tr>
+    <tr><td>Brass</td><td>0.78</td><td>0.7</td><td>e(v)=e0/(1+v/v_ref)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Process Parameters for PDU Interface Module (Not Protocol Fields)</caption>
+  <thead>
+    <tr><th>Process Step</th><th>Machine</th><th>Key Parameter</th><th>Target</th><th>Tolerance</th><th>Inspection Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PCB Reflow</td><td>8-zone oven</td><td>Peak temperature</td><td>245°C</td><td>±5°C</td><td>Thermocouple profile</td></tr>
+    <tr><td>PCB Reflow</td><td>8-zone oven</td><td>Time above liquidus</td><td>55 s</td><td>±10 s</td><td>Profile log</td></tr>
+    <tr><td>Conformal Coating</td><td>Spray coater</td><td>Film thickness</td><td>35 µm</td><td>±10 µm</td><td>Micrometer</td></tr>
+    <tr><td>ICT Test</td><td>In-circuit tester</td><td>Open/short threshold</td><td>10 Ω</td><td>±2 Ω</td><td>ICT report</td></tr>
+    <tr><td>Final Assembly</td><td>Torque driver</td><td>Fastener torque</td><td>0.8 N·m</td><td>±0.1 N·m</td><td>Torque audit</td></tr>
+    <tr><td>Burn-in</td><td>Thermal chamber</td><td>Duration</td><td>8 h</td><td>±1 h</td><td>Chamber log</td></tr>
+  </tbody>
+</table>

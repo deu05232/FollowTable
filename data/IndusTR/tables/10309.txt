@@ -1,0 +1,15 @@
+<table>
+  <caption>Combined Test Conditions by Unit Type (Source Side Given as Dry/Wet Bulb for Air/Evaporative Types)</caption>
+  <thead>
+    <tr><th rowspan="2">Condition type</th><th rowspan="2">Unit type</th><th colspan="2">Load side</th><th colspan="2">Heat source side</th></tr>
+    <tr><th>Entering water temp (°C)</th><th>Leaving water temp (°C)</th><th>Entering dry-bulb (°C)</th><th>Entering wet-bulb (°C)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Nominal cooling</td><td>Air-cooled</td><td>12</td><td>7</td><td>35</td><td>24</td></tr>
+    <tr><td>Evaporative-cooled</td><td>12</td><td>7</td><td>35</td><td>24</td></tr>
+    <tr><td>Air-cooled (high ambient)</td><td>12</td><td>7</td><td>43</td><td>30</td></tr>
+    <tr><td rowspan="2">Nominal heating</td><td>Air-source heating</td><td>40</td><td>45</td><td>7</td><td>6</td></tr>
+    <tr><td>Air-source heating (low ambient)</td><td>40</td><td>45</td><td>-7</td><td>-8</td></tr>
+    <tr><td>Defrost check</td><td>Air-source heating</td><td>40</td><td>45</td><td>2</td><td>1</td></tr>
+  </tbody>
+</table>

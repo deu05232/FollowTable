@@ -1,0 +1,15 @@
+<table>
+  <caption>Temporal Aggregation and Coverage Tokens Used in Satellite Product Metadata</caption>
+  <thead>
+    <tr><th>Token</th><th>Meaning</th><th>Typical Coverage</th><th>Aggregation Method</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ORBIT</td><td>Orbital granule</td><td>Single pass</td><td>null</td><td>Swath-based scene</td></tr>
+    <tr><td>SCENE</td><td>Scene-level subset</td><td>Regional</td><td>null</td><td>Not necessarily full orbit</td></tr>
+    <tr><td>HOURLY</td><td>Hourly composite</td><td>1 hour</td><td>Max/Mean</td><td>Often used for cloud/precip composites</td></tr>
+    <tr><td>3HOURLY</td><td>3-hourly composite</td><td>3 hours</td><td>Mean</td><td>Synoptic interval product</td></tr>
+    <tr><td>DAILY</td><td>Daily aggregate</td><td>24 hours</td><td>Sum/Mean</td><td>Daily totals for precipitation</td></tr>
+    <tr><td>MONTHLY</td><td>Monthly aggregate</td><td>Calendar month</td><td>Mean</td><td>Climatology-ready time scale</td></tr>
+    <tr><td>ANNUAL</td><td>Yearly aggregate</td><td>Calendar year</td><td>Mean</td><td>Long-term summaries</td></tr>
+  </tbody>
+</table>

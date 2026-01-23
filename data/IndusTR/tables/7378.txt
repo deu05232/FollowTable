@@ -1,0 +1,15 @@
+<table>
+  <caption>Test Environment Setup Grid for Efficiency Verification (Air Temperatures, Humidity, and Airflow)</caption>
+  <thead>
+    <tr><th rowspan="2">Test grade</th><th rowspan="2">Parameter</th><th rowspan="2">Return-air category</th><th colspan="5">Operating condition points</th></tr>
+    <tr><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Common</td><td>Return-air dry-bulb (°C)</td><td>Standard return air</td><td>35</td><td>35</td><td>35</td><td>35</td><td>35</td></tr>
+    <tr><td>Return-air dry-bulb (°C)</td><td>Low return air</td><td>24</td><td>24</td><td>24</td><td>24</td><td>24</td></tr>
+    <tr><td>Return-air relative humidity (%)</td><td>Standard return air</td><td>40</td><td>45</td><td>50</td><td>55</td><td>60</td></tr>
+    <tr><td>Supply-air dry-bulb (°C)</td><td>Standard return air</td><td>18</td><td>18</td><td>18</td><td>18</td><td>18</td></tr>
+    <tr><td>External static pressure (Pa)</td><td>All</td><td>50</td><td>80</td><td>100</td><td>120</td><td>150</td></tr>
+    <tr><td>Airflow setting</td><td>All</td><td>Rated</td><td>Rated</td><td>Rated</td><td>Rated</td><td>Rated</td></tr>
+  </tbody>
+</table>

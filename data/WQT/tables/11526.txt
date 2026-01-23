@@ -1,0 +1,12 @@
+# DLNA Capability Negotiation Fields (DIDL-Lite   UPnP Metadata Keys) for Media Items
+
+| Metadata field | Example value | Where used | Purpose | Typical pitfalls | Affects playback? |
+| --- | --- | --- | --- | --- | --- |
+| protocolInfo | http-get:*:video/mpeg:DLNA.ORG_PN=MPEG_TS_SD_EU | DIDL-Lite item | Declares transport+MIME+DLNA flags | Server may misreport PN token | Indirectly |
+| DLNA.ORG_PN | AVC_MP4_BL_L3.0_AAC | protocolInfo attributes | Profile name token | Token not recognized by some clients | Yes |
+| DLNA.ORG_OP | 01 | protocolInfo attributes | Indicates time-seek, range support | Wrong flags can break seeking | Indirectly |
+| DLNA.ORG_CI | 0/1 | protocolInfo attributes | Conversion indicator (transcoded or not) | Clients may refuse CI=1 | Indirectly |
+| DLNA.ORG_FLAGS | 01700000000000000000000000000000 | protocolInfo attributes | Feature bitmask | Hard to generate correctly | Indirectly |
+| mime-type | video/mp4 | HTTP header / protocolInfo | Media type label | MIME mismatch causes hiding | Yes |
+| res@duration | 0:42:10.000 | DIDL-Lite res | Duration metadata | Missing duration affects UI | No |
+| res@resolution | 1920x1080 | DIDL-Lite res | Display/selection metadata | Incorrect resolution may confuse clients | Sometimes |

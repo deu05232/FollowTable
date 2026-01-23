@@ -1,0 +1,15 @@
+<table>
+  <caption>Enumerated Header Field Types for Ship Earth Station Service Application</caption>
+  <thead>
+    <tr><th>Field Type Value</th><th>Field Type Name</th><th>Applies To</th><th>Direction</th><th>Required Header Fields</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Normal Position Report</td><td>Position reporting</td><td>Inbound</td><td>Service Identifier, Field Type, Message Sequence Number</td><td>Default reporting frame</td></tr>
+    <tr><td>1</td><td>EGC Information Broadcast</td><td>EGC</td><td>Outbound</td><td>Service Identifier, Field Type, Message Sequence Number</td><td>EGC payload defined elsewhere</td></tr>
+    <tr><td>2</td><td>Distress Alarm Receipt Confirmation</td><td>Distress</td><td>Outbound</td><td>Service Identifier, Field Type, Message Serial Number</td><td>Confirmation of distress relay</td></tr>
+    <tr><td>3</td><td>Distress Alarm Test Acknowledgement</td><td>Distress</td><td>Outbound</td><td>Service Identifier, Field Type, Message Serial Number</td><td>Test-only acknowledgement</td></tr>
+    <tr><td>4</td><td>Cancel Real Alarm Acknowledgement</td><td>Distress</td><td>Outbound</td><td>Service Identifier, Field Type, Message Serial Number</td><td>For genuine alarm cancel</td></tr>
+    <tr><td>5</td><td>Cancel false Alarm Acknowledgement</td><td>Distress</td><td>Outbound</td><td>Service Identifier, Field Type, Message Serial Number</td><td>For false alarm cancel</td></tr>
+    <tr><td>6</td><td>Search-and-Rescue Position Request</td><td>SAR</td><td>Outbound</td><td>Service Identifier, Field Type, Message Sequence Number</td><td>Triggers inbound position report</td></tr>
+  </tbody>
+</table>

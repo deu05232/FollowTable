@@ -1,0 +1,15 @@
+<table>
+  <caption>Beidou Terminal Functional Performance Acceptance for Agricultural Operations</caption>
+  <thead>
+    <tr><th>No.</th><th>Operation Type</th><th>Performance Item</th><th>Test Method</th><th>Acceptance Criterion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>All operations</td><td>Operation status recognition accuracy</td><td>Compare device output vs. manual annotation (N=500 events)</td><td>≥ 98%</td></tr>
+    <tr><td>2</td><td>Tillage / land preparation</td><td>Depth estimation error</td><td>Reference depth gauge, 30 runs</td><td>≤ 2 cm</td></tr>
+    <tr><td>3</td><td>Seeding</td><td>Missed-seed count error rate</td><td>Bench test, 1,000 seed cycles</td><td>≤ 2%</td></tr>
+    <tr><td>4</td><td>Spraying</td><td>Section control response time</td><td>Trigger on/off command, measure response</td><td>≤ 300 ms</td></tr>
+    <tr><td>5</td><td>Harvesting</td><td>Work-area calculation error</td><td>Compare against surveyed field area</td><td>≤ 1.0%</td></tr>
+    <tr><td>6</td><td>Transport / logistics</td><td>Tracking update interval stability</td><td>Observe periodic reporting over 2 h</td><td>1 s ± 0.1 s</td></tr>
+    <tr><td>7</td><td>All operations</td><td>Data integrity (missing records)</td><td>Count gaps in uploaded records</td><td>≤ 0.5%</td></tr>
+  </tbody>
+</table>

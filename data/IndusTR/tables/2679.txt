@@ -1,0 +1,10 @@
+<table>
+  <caption>I O Statement Parameters for Hospital Patient Terminals (Nurse Call System)</caption>
+  <tr><th>Serial No.</th><th>Field</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>1</td><td>Bed ID</td><td>1~512</td><td>n/a</td><td>Unique bed identifier within ward</td></tr>
+  <tr><td>2</td><td>Call priority</td><td>1~5</td><td>n/a</td><td>1: routine, 5: emergency</td></tr>
+  <tr><td>3</td><td>Room number</td><td>100~999</td><td>n/a</td><td>Room identifier</td></tr>
+  <tr><td>4</td><td>Acknowledgment timeout</td><td>5~300</td><td>s</td><td>Time to escalate if not acknowledged</td></tr>
+  <tr><td>5</td><td>Audio channel</td><td>1~2</td><td>n/a</td><td>1: handset, 2: speaker</td></tr>
+  <tr><td>6</td><td>Event code</td><td>0~255</td><td>n/a</td><td>Device event type</td></tr>
+</table>

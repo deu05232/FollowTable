@@ -1,0 +1,16 @@
+<table>
+  <caption>Auxiliary System Benchmark Table: Utilities Consumption and Waste Outputs per Functional Unit of Chemical Fiber Plant Support Operations</caption>
+  <thead>
+    <tr><th>Support-system area</th><th>Functional unit (FU)</th><th>Key activity data (inputs)</th><th>Key activity data (outputs)</th><th>Notes / boundary conditions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Steam & condensate network</td><td>1 t steam delivered (at header)</td><td>Fuel to boiler (MJ), boiler feedwater (m3), electricity (kWh), water-treatment chemicals (kg)</td><td>Steam (t), condensate returned (t), blowdown (m3), CO2 (kg)</td><td>Exclude steam used directly in fiber reaction/spinning step descriptions; include only generation/distribution losses</td></tr>
+    <tr><td>Compressed air</td><td>1,000 Nm3 compressed air</td><td>Electricity (kWh), cooling water (m3), lubricating oil (L), replacement filters (pcs)</td><td>Compressed air (Nm3), condensate to WWTP (m3), waste oil/filters (kg)</td><td>Instrument air drying included; end-use at main line not detailed</td></tr>
+    <tr><td>Nitrogen utility</td><td>1,000 Nm3 N2 supplied</td><td>Electricity (kWh) and/or liquid N2 (kg), compressed air to PSA (Nm3)</td><td>Nitrogen (Nm3), vent/purge (Nm3), spent adsorbent (kg, periodic)</td><td>Generation method recorded (PSA vs liquid); no main-process inerting recipe included</td></tr>
+    <tr><td>Power distribution</td><td>1 MWh delivered to utility consumers</td><td>Purchased electricity (MWh), transformer oil top-up (L)</td><td>Delivered electricity (MWh), losses (kWh), waste oil (kg, periodic)</td><td>Covers switchgear/transformers for utility island only</td></tr>
+    <tr><td>Water supply & conditioning</td><td>1 m3 treated water</td><td>Raw water (m3), electricity (kWh), coagulant/flocculant (kg), acid/alkali (kg)</td><td>Treated water (m3), backwash (m3), treatment sludge (kg wet)</td><td>Includes pretreatment/softening/RO if present; excludes product-line wash recipes</td></tr>
+    <tr><td>Wastewater treatment</td><td>1 m3 wastewater treated</td><td>Influent wastewater (m3), electricity (kWh), nutrients/neutralizer (kg), polymer (kg)</td><td>Effluent (m3), sludge cake (kg), biogas/off-gas CO2 (kg), odor control waste carbon (kg)</td><td>Applicable to mixed plant wastewater; focus is WWTP operations not upstream generation</td></tr>
+    <tr><td>Solid waste handling (waste yarn & packaging)</td><td>1 t solid waste managed</td><td>Electricity (kWh), baling wire/film (kg), forklift diesel/electricity (L/kWh)</td><td>Baled waste yarn (t), recyclables (t), residuals to landfill/incineration (t)</td><td>Only handling/logistics; excludes main-line yield calculations</td></tr>
+    <tr><td>Hazardous waste management</td><td>1 t hazardous waste shipped</td><td>Packaging (drums/IBC, pcs), absorbent (kg), electricity (kWh)</td><td>Hazardous waste to licensed disposal (t), contaminated absorbents (kg)</td><td>Waste categories: spent oil, solvent residues, WWTP hazardous sludge, spent activated carbon</td></tr>
+  </tbody>
+</table>

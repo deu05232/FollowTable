@@ -1,0 +1,17 @@
+<table>
+  <caption>Surveillance Radar Performance Levels — Tracking Accuracy and Update Requirements</caption>
+  <thead>
+    <tr><th rowspan="2">Metric</th><th colspan="3">Threshold</th></tr>
+    <tr><th>Basic</th><th>Standard</th><th>Advanced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Azimuth measurement accuracy (deg, 1σ)</td><td>≤ 0.6</td><td>≤ 0.4</td><td>≤ 0.25</td></tr>
+    <tr><td>Range measurement accuracy (m, 1σ)</td><td>≤ 20</td><td>≤ 12</td><td>≤ 6</td></tr>
+    <tr><td>Elevation measurement accuracy (deg, 1σ)</td><td>≤ 1.2</td><td>≤ 0.8</td><td>≤ 0.5</td></tr>
+    <tr><td>Velocity (Doppler) accuracy (m/s, 1σ)</td><td>≤ 1.0</td><td>≤ 0.6</td><td>≤ 0.3</td></tr>
+    <tr><td>Track update interval (s)</td><td>≤ 6</td><td>≤ 4</td><td>≤ 2</td></tr>
+    <tr><td>Track initiation time (s)</td><td>≤ 30</td><td>≤ 20</td><td>≤ 10</td></tr>
+    <tr><td>false track rate (per min)</td><td>≤ 0.5</td><td>≤ 0.2</td><td>≤ 0.05</td></tr>
+    <tr><td>Minimum detectable radial speed (m/s)</td><td>≥ 2</td><td>≥ 1</td><td>≥ 0.5</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Atmospheric-Layer Community-Level Observation Station Astronomical Phenomena, Phenology, and Abnormal Ecological Events Data Format</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Format/Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>3</td><td>Astronomical phenomena, phenological phenomena, and natural disasters/abnormal ecological events a</td><td>N_NAME</td><td>Characters(4)</td><td>In the VVVV format of Table B.24</td></tr>
+  <tr><td>4</td><td>Occurrence time</td><td>N_T1</td><td>Date</td><td></td></tr>
+  <tr><td>5</td><td>End time</td><td>N_T2</td><td>Date</td><td></td></tr>
+  <tr><td>6</td><td>Impact level / phenological indicator</td><td>N_NAME_I</td><td>Characters(1)</td><td>In the D format of Table B.29</td></tr>
+  <tr><td>7</td><td>Early warning information for natural disasters and abnormal ecological events, etc.</td><td>N_NAME_W</td><td>Variable characters(1 000)</td><td rowspan="2">Data type for variable-length character data</td></tr>
+  <tr><td>8</td><td>Remarks</td><td>N_NAME_R</td><td>Variable characters(1 000)</td></tr>
+  <tr><td colspan="5">Abnormal ecological events are limited to wildlife, free-ranging animals, and natural disasters/astronomical phenomena, etc.</td></tr>
+</table>

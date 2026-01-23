@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Set Signature Algorithm Interface Definition</caption>
+  <tr><td>Prototype</td><td>LONG SOF_SetSignMethod(LONG SignMethod)</td></tr>
+  <tr><td>Description</td><td>Set the signature algorithm used by the interface during signing and signature verification operations</td></tr>
+  <tr><td>Parameters</td><td>SignMethod (signature algorithm identifier, shall comply with the provisions of GB/T 33560)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>SOR_OK (success)</td></tr>
+  <tr><td>Others (failure, return the error code compliant with the definition in Table A.1)</td></tr>
+</table>

@@ -1,0 +1,11 @@
+# iPod Dock Connector   USB Accessory Protocol Command Reference by Model Family
+
+| iPod Family | Typical Connector | Transport | Command ID (Hex) | Payload Length | Checksum Rule | Accessory Use Case |
+|---|---|---|---|---:|---|---|
+| iPod classic | 30‑pin dock | Serial | 0x00 0x01 | 2..n | 0x100 - sum | Remote control button events |
+| iPod nano | 30‑pin dock | Serial | 0x00 0x02 | 0..n | 0x100 - sum | Metadata request |
+| iPod shuffle | USB | HID-like | 0x01 0x10 | 1..8 | CRC8 | Basic playback control |
+| iPod touch | 30‑pin dock | USB | 0x02 0x20 | 4..n | CRC16 | Authentication handshake |
+| iPod touch (Lightning era) | Lightning | USB | 0x02 0x21 | 4..n | CRC16 | Accessory auth + transport |
+| iPod mini | 30‑pin dock | Serial | 0x00 0x03 | 0..n | 0x100 - sum | Playlist navigation |
+| iPod (with video) | 30‑pin dock | Serial | 0x00 0x04 | 2..n | 0x100 - sum | Video-out accessory control |

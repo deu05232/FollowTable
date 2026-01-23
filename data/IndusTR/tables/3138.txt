@@ -1,0 +1,10 @@
+<table>
+  <caption>Road Traffic Early Warning Data Center Hardware Bill of Materials (BOM)</caption>
+  <tr><th>Item</th><th>Component</th><th>Model</th><th>Key Spec</th><th>Quantity</th><th>Unit</th><th>Notes</th></tr>
+  <tr><td>1</td><td>Rack Server</td><td>RS-6200</td><td>2×24-core CPU, 256GB RAM</td><td>4</td><td>pcs</td><td>Application cluster</td></tr>
+  <tr><td>2</td><td>Database Server</td><td>DB-840</td><td>2×32-core CPU, 512GB RAM</td><td>2</td><td>pcs</td><td>Primary/standby</td></tr>
+  <tr><td>3</td><td>Storage Array</td><td>SA-300</td><td>200TB usable, RAID-6</td><td>1</td><td>set</td><td>Event history</td></tr>
+  <tr><td>4</td><td>Network Switch</td><td>SW-48X</td><td>48×10GbE</td><td>2</td><td>pcs</td><td>Core switching</td></tr>
+  <tr><td>5</td><td>Firewall</td><td>FW-900</td><td>20Gbps throughput</td><td>2</td><td>pcs</td><td>HA pair</td></tr>
+  <tr><td>6</td><td>GPS Time Sync</td><td>TS-100</td><td>NTP/PTP, 1µs accuracy</td><td>1</td><td>set</td><td>Timestamp alignment</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Light Propagation Speed by Medium (dimensionless v/c only)</caption>
+  <thead>
+    <tr><th>Group</th><th>Medium</th><th>v/c (dimensionless)</th><th>Wavelength Band</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="2">Reference</th><td>Vacuum</td><td>1.0000</td><td>All</td><td>Baseline</td></tr>
+    <tr><td>Air (sea level)</td><td>0.9997</td><td>Visible</td><td>Slightly less than vacuum</td></tr>
+    <tr><th rowspan="2">Liquids</th><td>Seawater</td><td>0.746</td><td>Visible</td><td>Salinity increases n</td></tr>
+    <tr><td>Glycerol</td><td>0.521</td><td>Visible</td><td>High refractive index liquid</td></tr>
+    <tr><th rowspan="3">Solids</th><td>Acrylic (PMMA)</td><td>0.671</td><td>Visible</td><td>Common plastic</td></tr>
+    <tr><td>Polystyrene</td><td>0.637</td><td>Visible</td><td>Polymer optics</td></tr>
+    <tr><td>Sapphire</td><td>0.527</td><td>Visible</td><td>Crystal, anisotropic in reality</td></tr>
+  </tbody>
+</table>

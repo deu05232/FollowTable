@@ -1,0 +1,6 @@
+<table>
+  <caption>Fishing Gear Information Data Element Definition</caption>
+  <tr><td>Multiplicity</td><td>Business Term (Chinese)</td><td>Business Term (English)</td><td>Relationship</td><td>Type</td><td>Description</td></tr>
+  <tr><td>0..1</td><td>Type</td><td>Type</td><td>Attribute</td><td>Code</td><td>Type of the fishing gear, represented as a code</td></tr>
+  <tr><td>0..n</td><td>Role</td><td>Role</td><td>Attribute</td><td>Code</td><td>Code specifying the role of the fishing gear, such as main gear, auxiliary gear</td></tr>
+</table>

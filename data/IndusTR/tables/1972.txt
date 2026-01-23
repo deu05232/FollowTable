@@ -1,0 +1,10 @@
+<table>
+  <caption>3D Mapping Pipeline Compute Resources (Build-Time Configuration)</caption>
+  <tr><th>Stage</th><th>Recommended GPU</th><th>VRAM (GB)</th><th>CPU Threads</th><th>RAM (GB)</th><th>Typical Duration</th></tr>
+  <tr><td>Image preprocessing</td><td>Any</td><td>2</td><td>8</td><td>16</td><td>5–15 min</td></tr>
+  <tr><td>Feature extraction</td><td>NVIDIA RTX 3060</td><td>12</td><td>12</td><td>32</td><td>20–60 min</td></tr>
+  <tr><td>SfM optimization</td><td>NVIDIA RTX 4070</td><td>12</td><td>16</td><td>64</td><td>30–120 min</td></tr>
+  <tr><td>MVS densification</td><td>NVIDIA RTX 4090</td><td>24</td><td>24</td><td>128</td><td>1–6 h</td></tr>
+  <tr><td>Mesh extraction</td><td>NVIDIA RTX 4080</td><td>16</td><td>16</td><td>64</td><td>20–90 min</td></tr>
+  <tr><td>Texture baking</td><td>NVIDIA RTX 4070</td><td>12</td><td>12</td><td>64</td><td>15–60 min</td></tr>
+</table>

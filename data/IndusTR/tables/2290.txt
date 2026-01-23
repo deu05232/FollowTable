@@ -1,0 +1,14 @@
+<table>
+  <caption>CAN Bus Physical Layer Compliance Test Conditions (ISO 11898-2)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Bus Speed</th><th>Termination</th><th>Ambient Temp</th><th>Supply Voltage</th><th>Load Condition</th><th>Pass/Fail Criterion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Differential output voltage</td><td>500 kbps</td><td>2 × 120Ω</td><td>25°C</td><td>5.0 V</td><td>No external load</td><td>2.0–3.0 V</td></tr>
+    <tr><td>Common-mode voltage</td><td>500 kbps</td><td>2 × 120Ω</td><td>25°C</td><td>5.0 V</td><td>No external load</td><td>-2.0–+7.0 V</td></tr>
+    <tr><td>Signal symmetry</td><td>250 kbps</td><td>2 × 120Ω</td><td>-20°C</td><td>5.0 V</td><td>1 m cable</td><td>< 10%</td></tr>
+    <tr><td>Propagation delay</td><td>500 kbps</td><td>2 × 120Ω</td><td>70°C</td><td>5.0 V</td><td>40 m cable</td><td>< 200 ns</td></tr>
+    <tr><td>EMI immunity</td><td>500 kbps</td><td>2 × 120Ω</td><td>25°C</td><td>5.0 V</td><td>Bulk current injection</td><td>No frame errors</td></tr>
+    <tr><td>ESD robustness</td><td>N/A</td><td>N/A</td><td>25°C</td><td>Unpowered</td><td>Contact ±8 kV</td><td>No permanent damage</td></tr>
+  </tbody>
+</table>

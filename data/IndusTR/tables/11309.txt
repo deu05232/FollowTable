@@ -1,0 +1,18 @@
+<table>
+  <caption>GPS Telemetry and Location Tracking Records (Raw Terminal Data)</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Terminal ID</td><td>Character</td><td>an..50</td><td>Identifier of the positioning terminal installed in the vehicle</td></tr>
+    <tr><td>2</td><td>Vehicle ID</td><td>Character</td><td>an..30</td><td>Vehicle associated with the terminal record</td></tr>
+    <tr><td>3</td><td>Positioning Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Timestamp of the GPS sample</td></tr>
+    <tr><td>4</td><td>Longitude</td><td>Numeric</td><td>n..10,6</td><td>Longitude in WGS-84 after conversion</td></tr>
+    <tr><td>5</td><td>Latitude</td><td>Numeric</td><td>n..10,6</td><td>Latitude in WGS-84 after conversion</td></tr>
+    <tr><td>6</td><td>Speed</td><td>Numeric</td><td>n..6,2</td><td>Vehicle speed (km/h)</td></tr>
+    <tr><td>7</td><td>Heading</td><td>Numeric</td><td>n..6,2</td><td>Direction angle (degrees)</td></tr>
+    <tr><td>8</td><td>Ignition Status</td><td>Code</td><td>n..1</td><td>0=OFF, 1=ON</td></tr>
+    <tr><td>9</td><td>Mileage (Odometer)</td><td>Numeric</td><td>n..10,1</td><td>Accumulated mileage reported by terminal</td></tr>
+    <tr><td>10</td><td>Geo-fence Event Type</td><td>Code</td><td>n..2</td><td>Enter/Exit geo-fence event code</td></tr>
+  </tbody>
+</table>

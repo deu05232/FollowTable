@@ -1,0 +1,12 @@
+# IPv4 CIDR Quick Reference (Subnetting Mechanics Cheat Sheet)
+
+| CIDR Prefix | Subnet Mask | Wildcard Mask | Total Addresses | Usable Hosts (Typical) | Increment (Block Size) |
+|---|---|---|---:|---:|---:|
+| /8 | 255.0.0.0 | 0.255.255.255 | 16,777,216 | 16,777,214 | 1 in 1st octet |
+| /10 | 255.192.0.0 | 0.63.255.255 | 4,194,304 | 4,194,302 | 64 in 2nd octet |
+| /12 | 255.240.0.0 | 0.15.255.255 | 1,048,576 | 1,048,574 | 16 in 2nd octet |
+| /16 | 255.255.0.0 | 0.0.255.255 | 65,536 | 65,534 | 1 in 3rd octet |
+| /24 | 255.255.255.0 | 0.0.0.255 | 256 | 254 | 1 in 4th octet |
+| /27 | 255.255.255.224 | 0.0.0.31 | 32 | 30 | 32 in 4th octet |
+| /30 | 255.255.255.252 | 0.0.0.3 | 4 | 2 | 4 in 4th octet |
+| /32 | 255.255.255.255 | 0.0.0.0 | 1 | 1 | N/A |

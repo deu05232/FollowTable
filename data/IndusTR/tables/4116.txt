@@ -1,0 +1,6 @@
+<table>
+  <caption>Emergency Management BeiDou System Task Short Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Task ID</td><td>25</td><td colspan="3">See 6.1.10</td><td></td></tr>
+  <tr><td>2</td><td>Short Message Content</td><td>N×8</td><td>Character</td><td colspan="2">I</td><td>Variable length, N is the short message content byte length</td></tr>
+</table>

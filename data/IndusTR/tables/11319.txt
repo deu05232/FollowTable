@@ -1,0 +1,13 @@
+<table>
+  <caption>Refueling Records with GPS Trace and Positioning Metadata</caption>
+  <tr><th>Section</th><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  <tr><td>Refueling Event</td><td>1</td><td>Business Document ID</td><td>Character</td><td>an..30</td><td>Workflow document identifier</td></tr>
+  <tr><td>Refueling Event</td><td>2</td><td>Refueling Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time of refueling</td></tr>
+  <tr><td>Refueling Event</td><td>3</td><td>Refueling Organization Name</td><td>Character</td><td>an..80</td><td>Station/organization performing refueling</td></tr>
+  <tr><td>Refueling Event</td><td>4</td><td>Invoice Number</td><td>Character</td><td>an..40</td><td>Fuel receipt/invoice identifier</td></tr>
+  <tr><td>Positioning</td><td>5</td><td>Terminal ID</td><td>Character</td><td>an..50</td><td>On-board positioning terminal identifier</td></tr>
+  <tr><td>Positioning</td><td>6</td><td>Positioning Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>GPS timestamp captured near fueling</td></tr>
+  <tr><td>Positioning</td><td>7</td><td>Longitude</td><td>Numeric</td><td>n..10,6</td><td>Geodetic coordinate</td></tr>
+  <tr><td>Positioning</td><td>8</td><td>Latitude</td><td>Numeric</td><td>n..10,6</td><td>Geodetic coordinate</td></tr>
+  <tr><td>Positioning</td><td>9</td><td>Location Accuracy</td><td>Numeric</td><td>n..6,2</td><td>Accuracy in meters</td></tr>
+</table>

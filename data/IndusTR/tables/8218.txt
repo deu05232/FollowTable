@@ -1,0 +1,14 @@
+<table>
+  <caption>ArHitResult Data Accessors (Distance, Pose, Trackable, and Type)</caption>
+  <thead>
+    <tr><th>Function</th><th>Primary Input</th><th>Output</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResult_getDistance</td><td>ArHitResult* hit_result</td><td>float* out_distance</td><td>Returns the hit distance along the ray in meters.</td></tr>
+    <tr><td>ArHitResult_getHitPose</td><td>ArSession* session, ArHitResult* hit_result</td><td>ArPose* out_pose</td><td>Writes the pose of the intersection in world coordinates.</td></tr>
+    <tr><td>ArHitResult_acquireTrackable</td><td>ArSession* session, ArHitResult* hit_result</td><td>ArTrackable** out_trackable</td><td>Acquires the trackable that was hit (caller must later release).</td></tr>
+    <tr><td>ArHitResult_getTrackableType</td><td>ArSession* session, ArHitResult* hit_result</td><td>ArTrackableType* out_type</td><td>Returns the type of the underlying trackable (e.g., plane, point, mesh).</td></tr>
+    <tr><td>ArHitResult_getConfidence</td><td>ArHitResult* hit_result</td><td>float* out_confidence</td><td>Optional confidence score for the hit test result (0..1 when supported).</td></tr>
+    <tr><td>ArHitResult_getTimeStampNs</td><td>ArHitResult* hit_result</td><td>int64_t* out_timestamp_ns</td><td>Timestamp of the hit result, useful for correlating with frame data.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Component File Decryption Interface Definition</caption>
+  <tr><td>Prototype</td><td>LONG SOF_DecryptFile(BSTR CertID,BSTR InFile,BSTR OutFile)</td></tr>
+  <tr><td>Description</td><td>Decrypt a file using the private key corresponding to the certificate; the ciphertext file format is data type B</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>CertID(Unique identifier of the certificate corresponding to the decryption key; pass an empty string if not required)</td></tr>
+  <tr><td>InFile(Full path of the ciphertext file to be decrypted)</td></tr>
+  <tr><td>OutFile(Full path to save the plaintext file)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>SAR_OK(Success)</td></tr>
+  <tr><td>Other(Failure, returns the error code defined in Table A.1)</td></tr>
+  <tr><td>File rules</td><td>The full path of the ciphertext file to be decrypted and the full path to save the plaintext file refer to files on the host running this interface, not server-side files</td></tr>
+</table>

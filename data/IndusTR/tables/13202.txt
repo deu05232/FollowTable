@@ -1,0 +1,8 @@
+<table>
+  <caption>Basic math operator interface parameters (tensor length required)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Supported numeric types; default is float32</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>CPU/GPU/NPU; default is CPU</td></tr>
+  <tr><td>Tensor Length</td><td>Input</td><td>Required</td><td>Length of the 1-D tensor (or max range value); must be > 0</td></tr>
+  <tr><td>Round Mode</td><td>Input</td><td>Optional</td><td>Rounding behavior for integer conversions</td></tr>
+</table>

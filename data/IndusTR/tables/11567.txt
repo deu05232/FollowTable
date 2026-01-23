@@ -1,0 +1,10 @@
+<table>
+  <caption>Charging Communication CAN Messages (Mixed with SPN Payload Definitions)</caption>
+  <tr><th>Message Code</th><th>PGN (Dec)</th><th>Priority</th><th>Message Period (ms)</th><th>Start Byte</th><th>SPN</th><th>SPN Definition</th></tr>
+  <tr><td>BCP</td><td>1536</td><td>7</td><td>500</td><td>1</td><td>2816</td><td>Max allowable cell charging voltage</td></tr>
+  <tr><td>BCP</td><td>1536</td><td>7</td><td>500</td><td>3</td><td>2817</td><td>Maximum allowable charging current</td></tr>
+  <tr><td>BCP</td><td>1536</td><td>7</td><td>500</td><td>5</td><td>2818</td><td>Nominal total energy of the traction battery</td></tr>
+  <tr><td>CRM</td><td>256</td><td>6</td><td>250</td><td>1</td><td>2600</td><td>Protocol version number</td></tr>
+  <tr><td>BCS</td><td>4352</td><td>7</td><td>250</td><td>1</td><td>3101</td><td>#1 Cell Battery Voltage</td></tr>
+  <tr><td>BCS</td><td>4352</td><td>7</td><td>250</td><td>3</td><td>3102</td><td>#2 Cell Battery Voltage</td></tr>
+</table>

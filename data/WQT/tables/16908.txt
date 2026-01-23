@@ -1,0 +1,8 @@
+# Office 365 and Exchange hybrid  Outlook connection settings commonly used
+
+| Setting item | Example value | What it is used for |
+| --- | --- | --- |
+| Autodiscover endpoint | autodiscover.contoso.com | Helps clients locate the mailbox service. |
+| Incoming protocol | IMAP or POP | Client retrieval method. |
+| Incoming port | 993 / 995 | Port used for encrypted incoming connections. |
+| Outgoing server | smtp.office365.com | Server used to send mail from the client. |

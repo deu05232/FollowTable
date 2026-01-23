@@ -1,0 +1,14 @@
+<table>
+  <caption>Closed-Loop Temperature Control Logic for Internal Mixer (Sensor-to-Actuator Mapping)</caption>
+  <thead>
+    <tr><th>Loop ID</th><th>Controlled Variable (Measured Value)</th><th>Sensor / Source</th><th>Target (Recipe Setpoint)</th><th>Control Computation</th><th>Updated Actuator Command</th><th>Update Timing</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>T-01</td><td>Compound temperature (°C)</td><td>Mixer thermocouple (real-time PV)</td><td>Mixing temperature setpoint (°C)</td><td>e = SP − PV; PID(e) with output limits</td><td>Temperature-control valve opening (%)</td><td>Every 200 ms (continuous loop)</td></tr>
+    <tr><td>T-02</td><td>Compound temperature (°C)</td><td>Mixer thermocouple (real-time PV)</td><td>Mixing temperature setpoint (°C)</td><td>PID(e) + feedforward bias from motor load (optional)</td><td>Main motor speed setpoint (rpm)</td><td>Every 200 ms (continuous loop)</td></tr>
+    <tr><td>T-03</td><td>Compound temperature (°C)</td><td>Mixer thermocouple (real-time PV)</td><td>Mixing temperature setpoint (°C)</td><td>Two-degree-of-freedom PID: P on error, I on error, D on PV</td><td>Upper ram pressure setpoint (bar)</td><td>Every 500 ms (continuous loop)</td></tr>
+    <tr><td>T-04</td><td>Cooling water outlet temperature (°C)</td><td>Water outlet RTD (real-time PV)</td><td>Outlet temperature setpoint (°C)</td><td>e = SP − PV; PI(e)</td><td>Cooling water valve opening (%)</td><td>Every 500 ms (continuous loop)</td></tr>
+    <tr><td>T-05</td><td>Compound temperature rate-of-change (°C/s)</td><td>Derived: d(PV)/dt from thermocouple</td><td>Max allowed slope (°C/s)</td><td>Slope limiter: if PV_slope > SP_slope then reduce output</td><td>Motor speed trim (rpm delta)</td><td>Every 200 ms (continuous loop)</td></tr>
+    <tr><td>T-06</td><td>Compound temperature (°C)</td><td>Mixer thermocouple (real-time PV)</td><td>Mixing temperature setpoint (°C)</td><td>Output selection: valve-first until near SP, then split-range with motor trim</td><td>Split-range commands: valve opening (%) + motor speed (rpm)</td><td>Every 200 ms (continuous loop)</td></tr>
+  </tbody>
+</table>

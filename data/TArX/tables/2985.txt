@@ -1,0 +1,11 @@
+<table>
+  <caption>The basic models and their underlying assumptions. Contacts are assumed to form and break at some rate which can vary from zero (permanent) to infinite (fleeting). Depending on the process governing contact formation, we may know the actual degree k of an individual or we may know its expected degree.</caption>
+  <tr><th>Model</th><th>Contact Duration</th><th>Heterogeneity type</th></tr>
+  <tr><th>Configuration Model (CM)</th><td>Permanent</td><td>Actual degree k</td></tr>
+  <tr><th>Mixed Poisson (MP)</th><td>Permanent</td><td>Expected degree</td></tr>
+  <tr><th>Dynamic Variable-Degree (DVD)</th><td>Finite</td><td>Expected degree</td></tr>
+  <tr><th>Dynamic Fixed-Degree (DFD)</th><td>Finite</td><td>Actual degree k</td></tr>
+  <tr><th>Mean Field Social Heterogeneity (MFSH)</th><td>Fleeting</td><td>Contact rate k or</td></tr>
+  <tr><th>Dormant Contact (DC)</th><td>Finite active and dormant</td><td>Maximum degree k_(m)</td></tr>
+  <tr><th>Mass Action (MA)</th><td>Fleeting</td><td>None</td></tr>
+</table>

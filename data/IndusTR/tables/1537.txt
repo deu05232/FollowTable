@@ -1,0 +1,8 @@
+<table>
+  <caption>Service Summary Information Entity Structure Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Description</td></tr>
+  <tr><td>Basic Information</td><td>BasicInformation</td><td>M</td><td>1</td><td>Basic information about the service, including service category, commonly used keywords, version, registration date, and other content</td></tr>
+  <tr><td>Service Function</td><td>ServiceFunction</td><td>M</td><td>1</td><td>Describes the service's functions, including functional description, preconditions for execution, and results</td></tr>
+  <tr><td>Service Provider</td><td>ServiceProvider</td><td>0</td><td>1</td><td>Relevant information about the service provider</td></tr>
+  <tr><td>Service Update Information</td><td>InformationOfServiceUpdate</td><td>0</td><td>1</td><td>Provides information related to service updates</td></tr>
+</table>

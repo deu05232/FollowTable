@@ -1,0 +1,15 @@
+<table>
+  <caption>A summary of the orders at which various physical effects occur. The parameter α is the tidal expansion parameter (stellar radius)/(orbital separation), and ϵ is the strength of internal gravity in each star, ϵ = (stellar mass)/(stellar radius). A perturbation to the orbital motion is said to scale as α n ⁢ ϵ m if the ratio of the perturbing force to the Newtonian orbital force is of this order. Similarly, the distortion of each star is said to be of order α n ⁢ ϵ m if the dimensionless measure of distortion ( I x ⁢ x - I y ⁢ y ) / I x ⁢ x is of this order. Note that to post-1-Newtonian order, all the physical effects scale the same way with α as their Newtonian counterparts. The pattern for the stellar modes is repeated at all higher orders in ϵ . The entries in the orbital motion columns can be deduced from the entries in the stellar modes columns; if δ ⁢ ℰ is the energy transferred between the stellar modes and the orbital motion, then the fractional change in the orbital motion is ∼ L ⁢ δ ⁢ ℰ / M 2 , while the fractional distortion of the star is ∼ R ⁢ δ ⁢ ℰ / M 2 , one power of α smaller.</caption>
+  <tr><th></th><th>Newtonian : O(ε^(0))</th><th></th><th></th><th>O(ε)</th><th></th></tr>
+  <tr><th>Tidal order</th><th>Orbital motion</th><th>Stellar modes</th><th></th><th>Orbital motion</th><th>Stellar modes</th></tr>
+  <tr><th>O(α^(0))</th><th></th><th></th><th></th><th>Newtonian orbit</th><th></th></tr>
+  <tr><th>O(α^(1))</th><td>|</td><td>static spherical star</td><td></td><td></td><td>static spherical star</td></tr>
+  <tr><th>O(α^(2))</th><td>No change in orbit</td><td></td><td></td><td>post-1-Newtonian</td><td></td></tr>
+  <tr><th>O(α^(3))</th><td>|</td><td></td><td></td><td>point particle orbit</td><td></td></tr>
+  <tr><th>O(α^(4))</th><td></td><td>tidal deformation</td><td></td><td></td><td>post-1 deformation</td></tr>
+  <tr><th>O(α^(5))</th><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><th>O(α^(6))</th><td>Orbit responds</td><td></td><td></td><td>orbit modified</td><td></td></tr>
+  <tr><th>O(α^(7))</th><td>to tidal coupling</td><td>first change</td><td></td><td>|</td><td>post-1 correction to</td></tr>
+  <tr><th>O(α^(7))</th><td>|</td><td>in central density</td><td></td><td>|</td><td>change in central density</td></tr>
+  <tr><th>O(α^(8))</th><td>|</td><td>|</td><td></td><td>|</td><td>|</td></tr>
+</table>

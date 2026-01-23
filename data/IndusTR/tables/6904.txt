@@ -1,0 +1,7 @@
+<table>
+  <caption>Overall charging status message (BCS) payload signals</caption>
+  <tr><th>Start Byte or Bit</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Send Option</th></tr>
+  <tr><td>1</td><td>1 byte</td><td>3100</td><td>Charging stage indicator</td><td>Required</td></tr>
+  <tr><td>2</td><td>2 bytes</td><td>3104</td><td>Measured pack voltage</td><td>Required</td></tr>
+  <tr><td>4</td><td>2 bytes</td><td>3105</td><td>Measured pack current</td><td>Required</td></tr>
+</table>

@@ -1,0 +1,11 @@
+# Portable CPU and Cooling Compatibility Matrix (Laptop Netbook + Cooler Models)
+
+| Portable CPU | Device Type | TDP (W) | Recommended Cooler/Heatsink Model | Fan Size | Thermal Paste | Notes |
+|---|---|---:|---|---|---|---|
+| Intel Atom N270 | Netbook | 2.5 | Mini-Heatsink HS-27 | 30 mm | Included | Passive-friendly chassis |
+| Intel Core i5-8250U | Laptop | 15 | Slim Cooler SC-80 | 50 mm | Required | Low-profile heatpipe |
+| Intel Core i7-9750H | Laptop | 45 | Dual-Fan Module DF-975 | 2x60 mm | Included | For gaming laptop designs |
+| AMD Ryzen 5 3500U | Laptop | 15 | Standard Module SM-35U | 50 mm | Required | Single heatpipe |
+| AMD Ryzen 7 4800H | Laptop | 45 | Dual-Heatpipe DH-48H | 2x60 mm | Included | Higher sustained boost |
+| Intel Core i7-1165G7 | Laptop | 12–28 | Vapor Chamber VC-1165 | 55 mm | Required | For thin-and-light |
+| Apple M1 | Laptop | ~10 | Custom Module CM-M1 | N/A | N/A | Vendor-specific design |

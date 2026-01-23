@@ -1,0 +1,11 @@
+<table>
+  <caption>Header Envelope (Email) — SMTP Message Header Field Reference</caption>
+  <tr><th>Header Field</th><th>RFC Reference</th><th>Required</th><th>Cardinality</th><th>Data Type</th><th>Description</th></tr>
+  <tr><td>Message-ID</td><td>RFC 5322</td><td>Recommended</td><td>1</td><td>String</td><td>Unique identifier for an email</td></tr>
+  <tr><td>Date</td><td>RFC 5322</td><td>Yes</td><td>1</td><td>Date-Time</td><td>Message origination date</td></tr>
+  <tr><td>From</td><td>RFC 5322</td><td>Yes</td><td>1</td><td>Mailbox</td><td>Author of the message</td></tr>
+  <tr><td>To</td><td>RFC 5322</td><td>No</td><td>0..N</td><td>Mailbox</td><td>Primary recipients</td></tr>
+  <tr><td>Subject</td><td>RFC 5322</td><td>No</td><td>0..1</td><td>String</td><td>Topic of the message</td></tr>
+  <tr><td>Received</td><td>RFC 5321/5322</td><td>No</td><td>0..N</td><td>String</td><td>Trace information added by MTAs</td></tr>
+  <tr><td>Content-Type</td><td>MIME</td><td>No</td><td>0..1</td><td>String</td><td>Media type of the body</td></tr>
+</table>

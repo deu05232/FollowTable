@@ -1,0 +1,7 @@
+<table>
+  <caption>Comparison of the average consumed CPU-time per event of both TLTs.</caption>
+  <tr><th>Decision time</th><th>prototype TLT</th><th>new TLT</th></tr>
+  <tr><th>events, n_(pix)≤ 25</th><td>25 ms</td><td>3.7 ms</td></tr>
+  <tr><th>events, n_(pix)>25</th><td>109 ms</td><td>0.05 ms</td></tr>
+  <tr><th>all events</th><td>26 ms</td><td>3.5 ms</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Catalog of Harmonic and Disturbance Test Names for Active Energy Meters (No Accuracy Limits)</caption>
+  <thead>
+    <tr><th>Test name</th><th>Disturbance / influence quantity</th><th>Applicable meter type</th><th>Reference waveform</th><th>Harmonic set</th><th>Duration</th><th>Acceptance observation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Single-harmonic injection</td><td>Current harmonic added to fundamental</td><td>Direct-connected</td><td>Sine + 5th</td><td>5th at 10% of I</td><td>60 s</td><td>Register stability check</td></tr>
+    <tr><td>Single-harmonic injection</td><td>Current harmonic added to fundamental</td><td>CT-operated</td><td>Sine + 7th</td><td>7th at 20% of I</td><td>60 s</td><td>No missing pulses</td></tr>
+    <tr><td>Combined harmonics (Annex-style)</td><td>Multiple odd harmonics</td><td>Direct-connected</td><td>Waveform A</td><td>3rd+5th+7th</td><td>120 s</td><td>No reset / no freeze</td></tr>
+    <tr><td>Frequency variation under harmonics</td><td>Fundamental frequency shift</td><td>All</td><td>Waveform B</td><td>5th dominant</td><td>5 min</td><td>Display remains readable</td></tr>
+    <tr><td>Phase sequence reversal</td><td>Reverse phase sequence</td><td>Polyphase</td><td>Balanced</td><td>null</td><td>2 min</td><td>No alarm latch</td></tr>
+    <tr><td>Load change with harmonics</td><td>Step change in current</td><td>All</td><td>Waveform C</td><td>11th dominant</td><td>10 steps</td><td>No communication loss</td></tr>
+    <tr><td>Unbalanced harmonic loading</td><td>Single-phase harmonic</td><td>Polyphase</td><td>Waveform D</td><td>3rd dominant</td><td>3 min</td><td>Event log created</td></tr>
+    <tr><td>DC component superimposed</td><td>DC offset in current</td><td>All</td><td>Sine + DC</td><td>DC 0.5% of I</td><td>60 s</td><td>No overheating</td></tr>
+  </tbody>
+</table>

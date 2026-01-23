@@ -1,0 +1,10 @@
+<table>
+  <caption>User terminal identification fields for message correlation (ID-only)</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>1</td><td>Message ID</td><td>0~4 294 967 295</td><td></td><td>Identifier of a message instance</td></tr>
+  <tr><td>2</td><td>Sender ID</td><td>1~281 474 976 710 655</td><td></td><td>Sender address (may include extended addressing)</td></tr>
+  <tr><td>3</td><td>Recipient ID</td><td>1~16 777 215</td><td></td><td>Recipient intranet address</td></tr>
+  <tr><td>4</td><td>Ack correlation ID</td><td>0~4 294 967 295</td><td></td><td>Identifier used to match an acknowledgment to the original message</td></tr>
+  <tr><td>5</td><td>Terminal ID checksum</td><td>0~255</td><td></td><td>Checksum byte for verifying the ID field</td></tr>
+  <tr><td>6</td><td>Address domain ID</td><td>0~255</td><td></td><td>Domain identifier that scopes the addressing space</td></tr>
+</table>

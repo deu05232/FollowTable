@@ -1,0 +1,14 @@
+# Exchange Server Hybrid Deployment  Capability Changes from On-Premises Only to Hybrid with Office 365
+
+| Service area / capability | On-premises only (before hybrid) | Hybrid with Office 365 (after hybrid is configured) |
+|---|---|---|
+| Organization relationship & trust | No cross-tenant org relationship; coexistence limited to local Exchange org. | Organization relationship established enabling cross-environment coexistence features. |
+| Mail flow (inbound/outbound routing options) | Mail flows only within on-prem transport; internet mail uses on-prem connectors/gateways. | Centralized transport (route via on-prem) or cloud-first routing supported; connectors coordinate mail flow across both. |
+| Shared SMTP address space | Typically single authoritative location (on-prem) for the domain. | Shared/partial domain supported so recipients can exist on-prem or in Exchange Online under the same SMTP domain. |
+| Free/busy calendar visibility | Free/busy visible only among on-prem mailboxes. | Cross-premises free/busy between on-prem and Exchange Online mailboxes. |
+| MailTips & recipient info | MailTips/recipient resolution limited to objects in on-prem directory. | MailTips and certain recipient info can be surfaced across environments via hybrid relationship. |
+| Messaging records management / compliance scope | Policies apply only to on-prem mailboxes and archives. | Policies can be designed to cover both sides; coexistence enables staged migration while maintaining compliance posture. |
+| Mailbox moves | Mailbox moves are local (between on-prem databases) using on-prem tooling only. | Remote mailbox moves supported (on-prem <-> Exchange Online) enabling staged/hybrid migrations. |
+| Outlook on the web (OWA) experience | Users access only the on-prem OWA URL; no cross-redirect. | Cross-premises OWA redirection supported so users land in the correct environment seamlessly. |
+| Unified Messaging / voicemail integration | UM (if deployed) is on-prem only and tied to on-prem mailboxes. | UM coexistence scenarios possible (depending on version/strategy), enabling migrations without breaking voicemail for all users at once. |
+| Administration model | Exchange Admin Center/PowerShell manage only on-prem org. | Split administration: on-prem Exchange tools plus Exchange Online admin; some objects managed from on-prem during coexistence. |

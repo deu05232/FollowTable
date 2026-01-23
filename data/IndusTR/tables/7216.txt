@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian: Fixed (Canonical) Control-Character Sequences Used in Standards</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Control Pattern Name</th><th>Fixed Glyph Sequence</th><th>Fixed Character Sequence</th><th>Normalization Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>MVS Prefix Pattern</td><td>MVS + A</td><td>[U+180E]+[U+1820]</td><td>Keep as-is for legacy compatibility</td></tr>
+    <tr><td>2</td><td>FVS1 After Base</td><td>A + FVS1</td><td>[U+1820]+[U+180B]</td><td>Do not reorder variation selector</td></tr>
+    <tr><td>3</td><td>FVS2 After Base</td><td>E + FVS2</td><td>[U+1821]+[U+180C]</td><td>Selector immediately follows base</td></tr>
+    <tr><td>4</td><td>FVS3 After Base</td><td>I + FVS3</td><td>[U+1822]+[U+180D]</td><td>Rare; but sequence is canonical</td></tr>
+    <tr><td>5</td><td>NIRUGU After Base</td><td>A + NIRUGU</td><td>[U+1820]+[U+180A]</td><td>Used in specific orthographies</td></tr>
+    <tr><td>6</td><td>ZWJ Joining Pattern</td><td>A + ZWJ + E</td><td>[U+1820]+[U+200D]+[U+1821]</td><td>Only for shaping control</td></tr>
+    <tr><td>7</td><td>ZWNJ Breaking Pattern</td><td>A + ZWNJ + E</td><td>[U+1820]+[U+200C]+[U+1821]</td><td>Breaks joining when required</td></tr>
+  </tbody>
+</table>

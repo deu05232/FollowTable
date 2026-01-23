@@ -1,0 +1,10 @@
+<table>
+  <caption>Operator Runtime Benchmark Report (Arithmetic Ops) on Different Devices</caption>
+  <tr><th>Operator</th><th>Input Shape</th><th>Data Type</th><th>Device</th><th>Latency (ms)</th><th>Throughput (GB/s)</th></tr>
+  <tr><td>Add</td><td>[1024,1024]</td><td>FP32</td><td>GPU</td><td>0.18</td><td>320</td></tr>
+  <tr><td>Sub</td><td>[1024,1024]</td><td>FP32</td><td>GPU</td><td>0.19</td><td>315</td></tr>
+  <tr><td>Mul</td><td>[1024,1024]</td><td>FP16</td><td>NPU</td><td>0.10</td><td>540</td></tr>
+  <tr><td>Div</td><td>[1024,1024]</td><td>FP32</td><td>CPU</td><td>3.40</td><td>22</td></tr>
+  <tr><td>Mod</td><td>[4096]</td><td>INT32</td><td>CPU</td><td>0.75</td><td>1.2</td></tr>
+  <tr><td>Pow</td><td>[256,256]</td><td>FP32</td><td>GPU</td><td>0.65</td><td>48</td></tr>
+</table>

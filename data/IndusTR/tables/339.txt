@@ -1,0 +1,9 @@
+<table>
+  <caption>Coastal Warning Area Address Code Field Format</caption>
+  <tr><td>Serial No.</td><td>Field Name</td><td>Bits</td><td>Valid Range</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>X1</td><td>2</td><td>0~2</td><td>—</td></tr>
+  <tr><td>2</td><td>X2</td><td>4</td><td>0~9</td><td></td></tr>
+  <tr><td>3</td><td>Coastal Warning Area Number (Bl)</td><td>8</td><td>A~Z (range after UTF-8 encoding)</td><td>Corresponding coastal warning area</td></tr>
+  <tr><td>4</td><td>Coastal Warning Designator (B)</td><td>8</td><td>A~Z (range after UTF-8 encoding)</td><td>A: navigation warning; B: meteorological warning; C: ice report; D: SAR-related information and piracy warning; E: weather forecast; L: other navigation warnings; others unused</td></tr>
+  <tr><td colspan="2">Total</td><td>22</td><td></td><td>X1XBB composite code</td></tr>
+</table>

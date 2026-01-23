@@ -1,0 +1,15 @@
+<table>
+  <caption>Side-by-side comparison of traffic flow models using a single numeric prediction error metric (RMSE of speed, km/h).</caption>
+  <thead>
+    <tr><th>Model family</th><th>Traffic model</th><th>RMSE (speed) [km/h]</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="3">Car-following</th><td>IDM</td><td>5.8</td></tr>
+    <tr><td>OVM</td><td>6.6</td></tr>
+    <tr><td>Gipps</td><td>7.3</td></tr>
+    <tr><th rowspan="2">Macroscopic</th><td>LWR (first-order)</td><td>8.9</td></tr>
+    <tr><td>METANET</td><td>7.7</td></tr>
+    <tr><th rowspan="2">Cellular automaton</th><td>NaSch</td><td>9.5</td></tr>
+    <tr><td>Slow-to-Start NaSch</td><td>8.6</td></tr>
+  </tbody>
+</table>

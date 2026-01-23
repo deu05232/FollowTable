@@ -1,0 +1,20 @@
+<table>
+  <caption>Cooperative Driving Vehicle Message (CDVM) — Core Data Items Checklist</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item (Field)</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Vehicle ID</td><td>N/A</td></tr>
+    <tr><td>2</td><td>Message Sequence Number</td><td>N/A</td></tr>
+    <tr><td>3</td><td>Timestamp</td><td>ms</td></tr>
+    <tr><td>4</td><td>Vehicle Position / Latitude</td><td>deg</td></tr>
+    <tr><td>5</td><td>Vehicle Position / Longitude</td><td>deg</td></tr>
+    <tr><td>6</td><td>Vehicle Position / Elevation</td><td>m</td></tr>
+    <tr><td>7</td><td>Speed</td><td>m/s</td></tr>
+    <tr><td>8</td><td>Heading</td><td>deg</td></tr>
+    <tr><td>9</td><td>Longitudinal Acceleration</td><td>m/s^2</td></tr>
+    <tr><td>10</td><td>Yaw Rate</td><td>deg/s</td></tr>
+    <tr><td>11</td><td>Vehicle Length</td><td>m</td></tr>
+    <tr><td>12</td><td>Vehicle Width</td><td>m</td></tr>
+  </tbody>
+</table>

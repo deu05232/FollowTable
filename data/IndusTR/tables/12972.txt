@@ -1,0 +1,15 @@
+<table>
+  <caption>Mains Supply Conditions and Power Quality Limits for Copier/MFD Energy Testing</caption>
+  <thead>
+    <tr><th rowspan="2">Device Class</th><th colspan="2">Supply Voltage</th><th colspan="2">Frequency</th><th rowspan="2">Voltage THD (%)</th><th rowspan="2">Current THD (%)</th><th rowspan="2">Crest Factor (max)</th><th rowspan="2">Flicker (Pst)</th></tr>
+    <tr><th>Nominal (V)</th><th>Allowable Deviation</th><th>Nominal (Hz)</th><th>Allowable Deviation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Small copier/MFD (≤ 1.0 kW)</td><td>230</td><td>±1%</td><td>50</td><td>±0.2</td><td>≤ 2</td><td>≤ 8</td><td>≤ 3.0</td><td>≤ 1.0</td></tr>
+    <tr><td>Medium copier/MFD (> 1.0 to 1.8 kW)</td><td>230</td><td>±2%</td><td>50</td><td>±0.5</td><td>≤ 3</td><td>≤ 10</td><td>≤ 3.5</td><td>≤ 1.0</td></tr>
+    <tr><td>Large MFD (> 1.8 kW)</td><td>230</td><td>±3%</td><td>50</td><td>±0.5</td><td>≤ 5</td><td>≤ 12</td><td>≤ 4.0</td><td>≤ 1.0</td></tr>
+    <tr><td>North America supply option</td><td>120</td><td>±2%</td><td>60</td><td>±0.2</td><td>≤ 3</td><td>≤ 10</td><td>≤ 3.0</td><td>≤ 1.0</td></tr>
+    <tr><td>Japan supply option</td><td>100</td><td>±2%</td><td>50/60</td><td>±0.2</td><td>≤ 3</td><td>≤ 10</td><td>≤ 3.0</td><td>≤ 1.0</td></tr>
+    <tr><td>Generator-backed supply (if used)</td><td>Per nominal</td><td>±1%</td><td>Per nominal</td><td>±0.1</td><td>≤ 2</td><td>≤ 8</td><td>≤ 3.0</td><td>≤ 0.5</td></tr>
+  </tbody>
+</table>

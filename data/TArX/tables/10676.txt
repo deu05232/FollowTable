@@ -1,0 +1,16 @@
+<table>
+  <caption>Equation-of-state parameter grid used to interpret timing residuals in pulsating-variable binaries</caption>
+  <thead>
+    <tr><th rowspan="2">Binary Target</th><th rowspan="2">Variable-Star Label</th><th rowspan="2">Observed Timing Signal</th><th colspan="6">EOS / Compact-object Inference Columns</th></tr>
+    <tr><th>Model Set</th><th>Polytrope Γ</th><th>Pressure at 2ρsat(MeV fm−3)</th><th>Mmax(M☉)</th><th>Binding Energy (1053erg)</th><th>ΔR (km) from prior</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CEP-BIN-01</td><td>Cepheid-like</td><td>O−C residuals</td><td>Piecewise-Poly</td><td>2.7</td><td>85</td><td>2.05</td><td>2.9</td><td>+0.4</td></tr>
+    <tr><td>RRL-BIN-02</td><td>RRc-like</td><td>Arrival-time jitter</td><td>Skyrme</td><td>—</td><td>78</td><td>2.10</td><td>3.1</td><td>−0.2</td></tr>
+    <tr><td>DSCT-BIN-03</td><td>δ Scuti-like</td><td>Phase modulation</td><td>RMF</td><td>—</td><td>92</td><td>2.30</td><td>3.4</td><td>+0.8</td></tr>
+    <tr><td>GDOR-BIN-04</td><td>γ Dor-like</td><td>Frequency splitting hint</td><td>Hyperonic</td><td>2.4</td><td>70</td><td>1.95</td><td>2.6</td><td>−0.6</td></tr>
+    <tr><td>MIRA-BIN-05</td><td>Mira-like</td><td>Light-time effect</td><td>Quark-hybrid</td><td>1.9</td><td>110</td><td>2.00</td><td>3.0</td><td>+1.1</td></tr>
+    <tr><td>SR-BIN-06</td><td>Semiregular-like</td><td>Slow trend</td><td>Finite-T (LS)</td><td>—</td><td>88</td><td>2.04</td><td>2.8</td><td>+0.2</td></tr>
+    <tr><td>ROAP-BIN-07</td><td>roAp-like</td><td>High-frequency timing</td><td>APR-like</td><td>—</td><td>95</td><td>2.20</td><td>3.2</td><td>−0.1</td></tr>
+  </tbody>
+</table>

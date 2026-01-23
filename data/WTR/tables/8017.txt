@@ -1,0 +1,14 @@
+# BitTorrent Clients (Desktop & Mobile) — Feature Comparison
+
+| Client | Primary OS / Platform | License | Built-in Search | Remote Control (Web/UI/API) | Magnet Link Support | DHT/PEX | Encryption | Notes |
+|---|---|---|---|---|---|---|---|---|
+| qBittorrent | Windows / macOS / Linux | GPLv2 (Open Source) | Yes (search plugins) | Yes (Web UI) | Yes | Yes | Yes | Lightweight, popular alternative to adware clients |
+| Transmission | macOS / Linux (Windows ports exist) | MIT (Open Source) | No | Yes (RPC / Web clients available) | Yes | Yes | Yes | Minimal UI; common on Linux and NAS devices |
+| Deluge | Windows / macOS / Linux | GPLv3 (Open Source) | No | Yes (Web UI) | Yes | Yes | Yes | Modular architecture; daemon + thin client options |
+| µTorrent (uTorrent) | Windows / macOS / Android | Proprietary (Freeware) | Yes | Yes (Web UI) | Yes | Yes | Yes | Historically popular; feature-rich but proprietary |
+| BitTorrent (Mainline) | Windows / macOS / Android | Proprietary (Freeware) | Yes | Yes (Remote features vary by version) | Yes | Yes | Yes | Official-branded client family (varies by build) |
+| Vuze | Windows / macOS / Linux | GPL (core) + proprietary components | Yes | Yes (remote plugins) | Yes | Yes | Yes | Heavier client with extensive plugins |
+| Tixati | Windows / Linux | Proprietary (Freeware) | No | Yes (Web UI) | Yes | Yes | Yes | Detailed peer/traffic views; no ads in many builds |
+| BiglyBT | Windows / macOS / Linux | GPLv2 (Open Source) | Yes | Yes (Web UI / API) | Yes | Yes | Yes | Community-driven fork lineage; feature-packed |
+| Flud | Android | Proprietary (Freemium) | No | Limited (share/intents) | Yes | Yes | Yes | Android-focused UI; background controls |
+| LibreTorrent | Android | GPLv3 (Open Source) | No | Limited | Yes | Yes | Yes | Material-style UI; open-source Android client |

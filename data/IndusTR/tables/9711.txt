@@ -1,0 +1,17 @@
+<table>
+  <caption>Viscose fiber inventory table including chemical recipe steps plus utility and waste outputs</caption>
+  <thead>
+    <tr><th>Section</th><th>Workshop / step</th><th>Inputs (materials & utilities)</th><th>Outputs (products & wastes)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Main production system</td><td>Steeping</td><td>Dissolving pulp, caustic soda, water, electricity</td><td>Alkali cellulose, wastewater</td></tr>
+    <tr><td>Pressing & shredding</td><td>Electricity, compressed air, lubricants</td><td>Shredded alkali cellulose, oily waste</td></tr>
+    <tr><td>Aging</td><td>Electricity, ventilation air</td><td>Aged alkali cellulose, VOC traces</td></tr>
+    <tr><td>Xanthation</td><td>Carbon disulfide (CS2), nitrogen purge, electricity</td><td>Cellulose xanthate, CS2 emissions (to abatement)</td></tr>
+    <tr><td>Dissolving & ripening</td><td>Process water, additives, steam for temperature control</td><td>Viscose dope, spent filters (hazardous)</td></tr>
+    <tr><td>Spinning & washing</td><td>Sulfuric acid, zinc sulfate, steam, water, electricity</td><td>Viscose fiber, sodium sulfate byproduct, wastewater</td></tr>
+    <tr><td rowspan="3">Auxiliary & ancillary system</td><td>Steam & power plant</td><td>Coal/natural gas, boiler feedwater, electricity (aux), chemicals</td><td>Steam, ash, flue gas (CO2, SOx/NOx)</td></tr>
+    <tr><td>Off-gas treatment (CS2)</td><td>Electricity, activated carbon, caustic scrubber solution</td><td>Recovered solvent, spent carbon (hazardous), scrubber blowdown</td></tr>
+    <tr><td>Wastewater treatment</td><td>Electricity, coagulant, nutrients</td><td>Treated effluent, sludge, odor emissions</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>User terminal I/O statement addressing fields (ID-only)</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>1</td><td>Sender ID</td><td>1~16 777 215</td><td></td><td>Originating terminal intranet address</td></tr>
+  <tr><td>2</td><td>Recipient ID</td><td>1~16 777 215</td><td></td><td>Destination terminal intranet address</td></tr>
+  <tr><td>3</td><td>Relay/User ID</td><td>1~16 777 215</td><td></td><td>Intermediate or assigned user identifier used for routing</td></tr>
+  <tr><td>4</td><td>Group ID</td><td>1~65 535</td><td></td><td>Logical group identifier for group addressing</td></tr>
+  <tr><td>5</td><td>Session ID</td><td>0~4 294 967 295</td><td></td><td>Identifier used to correlate request and response</td></tr>
+  <tr><td>6</td><td>Inbound sequence number</td><td>0~65 535</td><td></td><td>Sequence identifier attached to inbound records</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Correction factor for cooling system for unit product energy consumption of combined-cycle power generating units</caption>
+  <tr><td colspan="2">Cooling mode</td><td>Correction factor</td></tr>
+  <tr><td rowspan="2">Once-through cooling</td><td>H≤10</td><td>1.000</td></tr>
+  <tr><td>H>10</td><td>（H-10)XWxb1.000+H×W</td></tr>
+  <tr><td rowspan="2">Circulating cooling</td><td>Mechanical draft cooling tower</td><td>Wj11.000+W</td></tr>
+  <tr><td>Natural draft cooling tower</td><td>1.002</td></tr>
+  <tr><td>Air cooling</td><td></td><td>1.025</td></tr>
+  <tr><td colspan="3">Note: H is the vertical distance from the centerline of the circulating water pump inlet to the centerline of the condenser inlet water pipe, in meters (m); Wxb is the electricity consumption of the circulating water pump during the statistical period, in megawatt-hours (MW·h); Wjl is the electricity consumption of the mechanical draft cooling tower during the statistical period, in megawatt-hours (MW·h).</td></tr>
+</table>

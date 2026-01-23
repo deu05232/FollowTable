@@ -1,0 +1,15 @@
+<table>
+  <caption>Low-Voltage Shore Power Box Acceptance Matrix: Voltage/Frequency Deviation plus Thermal and Vibration Constraints</caption>
+  <thead>
+    <tr><th rowspan="2">Subsystem</th><th rowspan="2">Item</th><th colspan="3">Operating tolerance behavior</th><th colspan="2">Environmental/other limits (excluded by instruction)</th></tr>
+    <tr><th>Steady-state deviation</th><th>Transient deviation</th><th>Recovery time</th><th>Temperature rise limit (K)</th><th>Vibration test band</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Power conversion</td><td>Output voltage</td><td>+6% / -10%</td><td>±20%</td><td>1.5 s</td><td>Accessible enclosure: 25 K</td><td>13.2–100 Hz, ±6.9 m/s²</td></tr>
+    <tr><td>Output frequency</td><td>±5%</td><td>±10%</td><td>5 s</td><td>Metal handle: 10 K</td><td>2.0–13.2 Hz, ±1 mm</td></tr>
+    <tr><td rowspan="2">Control & protection</td><td>Under/over-voltage trip delay</td><td>Within ±2% setpoint drift</td><td>±15% for ≤0.5 s</td><td>3 s</td><td>Insulated handle: 20 K</td><td>13.2–100 Hz, ±6.9 m/s²</td></tr>
+    <tr><td>Frequency ride-through</td><td>±4%</td><td>±8% for ≤2 s</td><td>4 s</td><td>Terminal hotspot: 30 K</td><td>2.0–13.2 Hz, ±1 mm</td></tr>
+    <tr><td rowspan="2">Installation</td><td>Supply cable sizing reference</td><td colspan="3">N/A</td><td>Conductor max temp: 90°C</td><td>Mounting vibration category: General</td></tr>
+    <tr><td>Protective earthing</td><td colspan="3">N/A</td><td>Earthing conductor per cross-section table</td><td>Shock/vibration per IEC profile</td></tr>
+  </tbody>
+</table>

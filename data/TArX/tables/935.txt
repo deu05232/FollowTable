@@ -1,0 +1,19 @@
+<table>
+  <caption>Results of the KMM analysis for partitioning the data into 7 ( top ) and 5 ( bottom ) substructures. See Figure LABEL:kmmplot for the spatial and velocity distributions of the 5 partition results.</caption>
+  <tr><th>8</th><th colspan="3">Initial Inputs</th><th colspan="4">KMM Outputs</th></tr>
+  <tr><th>Group</th><th>( ,, )</th><th>( σ_(x),σ_(y),σ_(v) )</th><th>N_(gal)</th><th>(,,)</th><th>( σ_(x),σ_(y),σ_(v) )</th><th>N_(gal)</th><th>Rate ( \% )</th></tr>
+  <tr><th colspan="8">7 substructures</th></tr>
+  <tr><td>KMM1</td><td>(138, 388, 444)</td><td>(103, 64, 175)</td><td>9</td><td>(150, 383, 432)</td><td>(145, 121, 167)</td><td>12</td><td>100</td></tr>
+  <tr><td>KMM2</td><td>(-1125, 550, -1816)</td><td>(320, 283, 318)</td><td>11</td><td>( -890, 346, -1887)</td><td>(419, 224, 254)</td><td>14</td><td>100</td></tr>
+  <tr><td>KMM3</td><td>(-431,-444, -996)</td><td>(62,134, 221)</td><td>7</td><td>( -462, -427, -1008)</td><td>(44, 139, 160)</td><td>6</td><td>100</td></tr>
+  <tr><td>KMM4</td><td>(-869,-63, -607)</td><td>(134, 116, 383)</td><td>12</td><td>( -924, -58, -672)</td><td>(146, 120, 257)</td><td>12</td><td>100</td></tr>
+  <tr><td>KMM5</td><td>(1563, 513,-642)</td><td>(200, 139, 233)</td><td>11</td><td>(1650, 533, -769)</td><td>(180, 132, 208)</td><td>10</td><td>98</td></tr>
+  <tr><td>KMM6</td><td>(2150, 1213, -236)</td><td>(155, 249, 170)</td><td>9</td><td>(2037, 1429, -317)</td><td>(401, 459, 220)</td><td>15</td><td>96</td></tr>
+  <tr><td>KMM7</td><td>(0, 0, 2)</td><td>(1236, 979, 738)</td><td>262</td><td>( -96, 93, 133)</td><td>(1211, 1016, 682)</td><td>252</td><td>98</td></tr>
+  <tr><td>5 substructures KMM1</td><td>(138 388, 444)</td><td>(103, 64, 175)</td><td>9</td><td>(151, 382, 432)</td><td>(145, 121, 166)</td><td>12</td><td>100</td></tr>
+  <tr><td>KMM2</td><td>(-1125, 550, -1816)</td><td>(320, 283, 318)</td><td>11</td><td>(-890, 346, -1886)</td><td>(419, 224, 255)</td><td>14</td><td>100</td></tr>
+  <tr><td>KMM(3+4)</td><td>(-720, -200, -777)</td><td>(239,223, 321)</td><td>19</td><td>(-684, -249, -867)</td><td>(304, 264, 211))</td><td>16</td><td>94</td></tr>
+  <tr><td>KMM(5+6)</td><td>(1884, 849, -608)</td><td>(323, 421, 246)</td><td>20</td><td>(1831, 900, -753)</td><td>(348, 452, 328)</td><td>17</td><td>99</td></tr>
+  <tr><td>KMM7</td><td>(0, 0, 2)</td><td>(1236, 979, 738)</td><td>262</td><td>(-32, 138, 127)</td><td>(1250, 1028, 663)</td><td>262</td><td>98</td></tr>
+  <tr><td>The units of ,,σ_(x) and σ_(y) are kpc, and the units of and σ_(v) are .</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>

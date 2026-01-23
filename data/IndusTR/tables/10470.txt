@@ -1,0 +1,15 @@
+<table>
+  <caption>Overall Test Sequence Overview for Frequency Synthesizer Modules (Screening + Routine + Reliability)</caption>
+  <thead>
+    <tr><th>Step No.</th><th>Stage</th><th>Test / Inspection</th><th>Reference</th><th>Typical Condition</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Incoming</td><td>Documentation review</td><td>Internal WI-001</td><td>Lot traveler + COC check</td><td>Administrative gate</td></tr>
+    <tr><td>2</td><td>Incoming</td><td>External visual inspection</td><td>IEC 60068-2-17 (guidance)</td><td>10× visual; marking readability</td><td>Reject if damage found</td></tr>
+    <tr><td>3</td><td>In-process</td><td>Dimensional verification</td><td>Drawing rev. D</td><td>Critical dims measured</td><td>Sampling plan AQL 1.0</td></tr>
+    <tr><td>4</td><td>Electrical</td><td>Functional test at 25 °C</td><td>Spec section 5.3</td><td>Nominal Vdd; default settings</td><td>Measure spurs and phase noise</td></tr>
+    <tr><td>5</td><td>Environmental</td><td>High-temperature storage</td><td>IEC 60068-2-2</td><td>125 °C for 24 h</td><td>Recovery 2 h at RT</td></tr>
+    <tr><td>6</td><td>Reliability</td><td>Endurance (operating life)</td><td>Company REL-STD-02</td><td>2000 h biased operation; periodic readouts</td><td>One item among many stages</td></tr>
+    <tr><td>7</td><td>Final</td><td>Final electrical retest</td><td>Spec section 5.3</td><td>25 °C; limits as initial</td><td>Compare drift vs baseline</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Cluster model parameters and priors. Inequalities denote uniform prior probability between the given limits, whilst ( a ± b ) indicates a Gaussian prior centred on a with variance b 2 .</caption>
+  <tr><th>Dataset</th><th>Model</th><th>Parameters</th><th>Truth</th><th>Priors</th></tr>
+  <tr><th>Both</th><th></th><th>x_(0),y_(0)</th><th>0.0,0.0</th><th>(0± 1) arcmin</th></tr>
+  <tr><td>Gravitational</td><td>Both</td><td>M_(200)</td><td>7.0× 10^(14)h^(-1)_()</td><td>0</td></tr>
+  <tr><td>lensing</td><td></td><td>c_(200)</td><td>4</td><td>0</td></tr>
+  <tr><td>SZ effect</td><td>Both</td><td>M_(gas)</td><td>4.9× 10^(13)h^(-2)_()</td><td>0</td></tr>
+  <tr><td></td><td></td><td>T</td><td>8 keV</td><td>(8± 2) keV</td></tr>
+  <tr><td></td><td>Beta</td><td>r_(c)</td><td>200h^(-1) kpc</td><td>0</td></tr>
+  <tr><td></td><td>only</td><td>β</td><td>0.667</td><td>0.3<β<1.5</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Deep Learning Framework Model Lifecycle Management Interfaces</caption>
+  <tr><td>Interface Name</td><td>English Name</td><td>Required/Optional</td><td>Interface Description</td></tr>
+  <tr><td>Validate Model</td><td>validate_program/validate_model</td><td>Optional</td><td>Collect statistics on the list of operators in the computation graph that are supported by the hardware, complete subgraph detection and fusion at the framework level. Since this list can be implemented via framework-level hardcoding, this interface is optional</td></tr>
+  <tr><td>Create Model</td><td>create_program/create_model</td><td>Required</td><td>Generate and return a hardware-executable model based on the intermediate representation of the framework-level graph; optionally supports a caching mechanism, i.e., directly load the hardware-executable model from cache</td></tr>
+  <tr><td>Destroy Model</td><td>destroy_program/destroy_model</td><td>Required</td><td>Destroy the generated hardware-executable model and all resources it has allocated</td></tr>
+  <tr><td>Execute Model</td><td>execute_program/execute_model</td><td>Required</td><td>Based on input and output information (including memory addresses and dimensions), invoke the vendor interface to run the hardware-executable model</td></tr>
+</table>

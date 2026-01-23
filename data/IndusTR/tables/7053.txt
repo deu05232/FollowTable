@@ -1,0 +1,14 @@
+<table>
+  <caption>QZSS Phase Bias: Per-Signal Tracking-Mode and Integer Indicators (Signal Block)</caption>
+  <thead>
+    <tr><th>Item</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Signal identification</td><td>QZSS Signal and Its Tracking Mode</td><td>DF6A0</td><td>uint5</td><td>5</td><td>Per-signal code/tracking-mode selector</td></tr>
+    <tr><td>Reserved for signal-specific extension</td><td>DF6A1</td><td>bit(1)</td><td>1</td><td>Keep for forward compatibility</td></tr>
+    <tr><td rowspan="2">Integer properties</td><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>0 = not integer, 1 = integer</td></tr>
+    <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>00/01/10/11 wide-lane integer status</td></tr>
+    <tr><td rowspan="2">Parsing support</td><td>Signal Block Repetition Index</td><td>DF6A2</td><td>uint4</td><td>4</td><td>Index within the repeated per-signal block</td></tr>
+    <tr><td>Signal Block CRC Hint</td><td>DF6A3</td><td>uint3</td><td>3</td><td>Optional integrity hint for decoder implementations</td></tr>
+  </tbody>
+</table>

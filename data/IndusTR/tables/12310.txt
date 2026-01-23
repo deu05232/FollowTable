@@ -1,0 +1,14 @@
+<table>
+  <caption>PE-HD Recyclability Compliance Checklist — Clauses, Evidence, and Audit Records</caption>
+  <thead>
+    <tr><th>Design condition / topic</th><th>Requirement text (abridged)</th><th>Evidence to collect</th><th>Test report required?</th><th>Applicable clause reference</th><th>Audit frequency</th><th>Notes when requirement cannot be verified</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Base resin identification</td><td>Material shall be PE-HD grade suitable for recycling streams</td><td>Supplier CoA + resin ID sheet</td><td>Yes (ID confirmation)</td><td>EN 13430, §6.1</td><td>Per lot</td><td>If CoA missing, perform FTIR and retain records</td></tr>
+    <tr><td>Additives disclosure</td><td>All additives shall be declared and traceable</td><td>Full formulation disclosure</td><td>No</td><td>Internal Spec PEHD-AD-01, §2</td><td>Quarterly</td><td>If NDA prevents disclosure, escalate to compliance officer</td></tr>
+    <tr><td>Colorant selection</td><td>Colorants must not impede optical sorting</td><td>Color masterbatch datasheet</td><td>Yes (NIR sorting test)</td><td>APR Design Guide, §4.3</td><td>Semiannual</td><td>If uncertain, run sorter trial and document results</td></tr>
+    <tr><td>Labels and inks</td><td>Labels should be compatible with PE-HD recycling</td><td>Label polymer spec + ink SDS</td><td>Yes (wash-off test)</td><td>RecyClass, §7.2</td><td>Per design change</td><td>If ink system unknown, request third-party statement</td></tr>
+    <tr><td>Accessories / closures</td><td>Components shall be designed for separation or compatibility</td><td>BOM + component marking photos</td><td>Yes (density separation trial)</td><td>ISO 18604, §8</td><td>Annual</td><td>If separation not demonstrated, add pilot recycling report</td></tr>
+    <tr><td>Recycled-content claim</td><td>Claims shall be substantiated and traceable</td><td>Chain-of-custody documents</td><td>Yes (mass balance audit)</td><td>ISO 22095, §9</td><td>Annual</td><td>If documentation incomplete, suspend claim pending audit</td></tr>
+  </tbody>
+</table>

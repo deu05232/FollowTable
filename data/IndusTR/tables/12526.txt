@@ -1,0 +1,14 @@
+<table>
+  <caption>Validation Checklist: Allowed vs Disallowed Code-Point Patterns for Traditional Mongolian Control Characters</caption>
+  <thead>
+    <tr><th>Check No.</th><th>Target control character</th><th>Allowed pattern (explicit sequence)</th><th>Disallowed pattern (explicit sequence)</th><th>Typical validator action</th><th>Reason (typing rule)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>C1</td><td>U+180B..U+180D (MVS)</td><td>[U+1820][U+180B] / [U+1821][U+180C] (MVS directly after a Mongolian letter)</td><td>[U+180B][U+1820] (MVS leading), [U+0020][U+180C] (after space)</td><td>Reject or remove leading/stray MVS</td><td>MVS must immediately follow its base character.</td></tr>
+    <tr><td>C2</td><td>U+180B..U+180D (MVS)</td><td>[U+1820][U+180B][U+1820] (single MVS on one base)</td><td>[U+1820][U+180B][U+180C][U+1820] (stacked selectors)</td><td>Normalize to a single selector or reject</td><td>Multiple variation selectors on one base are not a practical valid encoding.</td></tr>
+    <tr><td>C3</td><td>U+200D (ZWJ)</td><td>[U+1820][U+200D][U+1821] (between Mongolian letters)</td><td>[U+200D] alone, [U+200D][U+0020], [U+0020][U+200D]</td><td>Reject isolated ZWJ; trim around spaces</td><td>ZWJ is for shaping inside a word, not as a standalone/control at token boundaries.</td></tr>
+    <tr><td>C4</td><td>U+180A (NIRUGU)</td><td>[U+1820][U+180A][U+1828] (inside a Mongolian word)</td><td>[U+180A][U+0020], [U+0020][U+180A], [U+180A] (standalone)</td><td>Flag as invalid placement</td><td>NIRUGU is not whitespace/punctuation; it must occur in-word.</td></tr>
+    <tr><td>C5</td><td>U+180E (MONGOLIAN VOWEL SEPARATOR)</td><td>[U+1820][U+180E][U+1820] (legacy-internal placement only)</td><td>[U+180E] at start/end, [U+1820][U+180E][U+0020]</td><td>Warn (legacy), optionally remove if policy forbids</td><td>U+180E is typically legacy; avoid using it as a general separator.</td></tr>
+    <tr><td>C6</td><td>Combined controls (ordering)</td><td>[U+1820][U+180B][U+200D][U+1821] (selector follows base; ZWJ sits between letters)</td><td>[U+1820][U+200D][U+180B][U+1821] (MVS not directly after base), [U+180B][U+200D][U+1820]</td><td>Reject or reorder according to policy</td><td>Maintain canonical-like order: base + MVS, and ZWJ only between letters.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Casting Structure Design Specification — Geometry Rules for Cracking and Machining (Includes Some Shrinkage Notes)</caption>
+  <thead>
+    <tr><th>Geometry Rule</th><th>Target Failure Mode</th><th>Recommendation</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Avoid sharp internal corners</td><td>Cracking</td><td>Add fillet radius > 2× wall thickness where possible</td><td>Primarily to reduce stress concentration during cooling</td></tr>
+    <tr><td>Uniform wall thickness</td><td>Shrinkage cavities</td><td>Reduce isolated thick pads; core out thick regions</td><td>Thick sections form hot spots and shrinkage void risk</td></tr>
+    <tr><td>Machining stock on datum faces</td><td>Machining / tool wear</td><td>Add machining allowance and pads</td><td>Ensures clean-up of rough cast surface</td></tr>
+    <tr><td>Rib thickness ratio</td><td>Shrinkage sink/void</td><td>Rib thickness 0.5–0.7× wall; taper rib ends</td><td>Controls local solidification time</td></tr>
+    <tr><td>Long thin walls</td><td>Hot tearing / cracking</td><td>Add relief slots or change gating direction</td><td>Reduce restraint during contraction</td></tr>
+    <tr><td>Boss around fastener hole</td><td>Assembly / tolerance stack-up</td><td>Add flat seating surface and datum features</td><td>Improves repeatability for mating parts</td></tr>
+    <tr><td>Intersection of 3+ ribs</td><td>Shrinkage cavities + cracking</td><td>Stagger ribs; add radii; avoid mass concentration</td><td>Mixed guidance; addresses multiple modes</td></tr>
+  </tbody>
+</table>

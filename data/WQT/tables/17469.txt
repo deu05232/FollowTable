@@ -1,0 +1,11 @@
+# Bluetooth Power Consumption Scenarios and Estimated Battery Runtime (Generic, Not Product-Specific)
+
+| Use scenario | Radio mode | Typical current draw (mA) | Example battery capacity (mAh) | Estimated runtime (hours) | Assumptions |
+| --- | --- | --- | --- | --- | --- |
+| Music streaming (SBC) | Classic Bluetooth | 18 | 60 | 3.3 | Continuous playback |
+| Music streaming (AAC) | Classic Bluetooth | 22 | 60 | 2.7 | Higher decode load |
+| Calls (HFP) | Classic Bluetooth | 15 | 60 | 4.0 | Mic active |
+| Idle connected | BLE | 1.5 | 60 | 40.0 | Periodic keep-alive |
+| ANC on + music | Classic Bluetooth | 30 | 60 | 2.0 | DSP + ANC |
+| Transparency + music | Classic Bluetooth | 28 | 60 | 2.1 | DSP load |
+| Mixed day (30% music) | Mixed | 10 | 60 | 6.0 | Weighted average |

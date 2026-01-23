@@ -1,0 +1,14 @@
+<table>
+  <caption>Recorded Signals and EMC Immunity Pulse Performance Criteria</caption>
+  <thead>
+    <tr><th>Category</th><th>Recorded Data Item</th><th>Min Recording Frequency</th><th>Unit</th><th>Capability Range</th><th>Resolution</th><th>Accuracy</th><th>EMC Test Pulse</th><th>Immunity Level</th><th>Acceptance During Pulse</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vehicle state</td><td>Steering wheel angle</td><td>20 Hz</td><td>deg</td><td>-720–720</td><td>0.1</td><td>±1.0</td><td>Pulse 1</td><td>III</td><td>No missing records > 100 ms</td></tr>
+    <tr><td>Vehicle state</td><td>Yaw rate</td><td>50 Hz</td><td>deg/s</td><td>-250–250</td><td>0.1</td><td>±2%</td><td>Pulse 2a</td><td>III</td><td>Allow max 1 sample drop per second</td></tr>
+    <tr><td>Vehicle dynamics</td><td>Brake pedal position</td><td>10 Hz</td><td>%</td><td>0–100</td><td>1</td><td>±3</td><td>Pulse 2b</td><td>III</td><td>Recorder must flag EMI event</td></tr>
+    <tr><td>ADAS control</td><td>Autonomous mode status</td><td>5 Hz</td><td>enum</td><td>OFF/READY/ACTIVE/FAULT</td><td>N/A</td><td>No error</td><td>Pulse 3a</td><td>II</td><td>State transitions shall be monotonic</td></tr>
+    <tr><td>Perception</td><td>Perceived object ID</td><td>10 Hz</td><td>N/A</td><td>Enterprise-defined</td><td>N/A</td><td>No error</td><td>Pulse 3b</td><td>II</td><td>No duplicate IDs during disturbance</td></tr>
+    <tr><td>System health</td><td>Recorder supply voltage</td><td>1 Hz</td><td>V</td><td>6–18</td><td>0.1</td><td>±0.2</td><td>Pulse 5</td><td>III</td><td>Logging continues; brownout counter increments</td></tr>
+  </tbody>
+</table>

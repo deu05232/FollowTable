@@ -1,0 +1,9 @@
+<table>
+  <caption>The fraction of the energy dissipated through artificial viscosity for models of supersonic turbulence. Ratio R is defined by Eq. ( LABEL:ratio ). Model labels correspond to those of Table 1 of Mac Low et al. (1998). A is the RMS Alfvén Mach number.</caption>
+  <tr><th colspan="9">Comparison of Ratios</th></tr>
+  <tr><th>run</th><td>B</td><td>C</td><td>D</td><td>N</td><td>P</td><td>Q</td><td>J</td><td>L</td></tr>
+  <tr><th>grid</th><td>64 ^((3))</td><td>128 ^((3))</td><td>256 ^((3))</td><td>64 ^((3))</td><td>128 ^((3))</td><td>256 ^((3))</td><td>64 ^((3))</td><td>256 ^((3))</td></tr>
+  <tr><th>physics</th><td>Hydro</td><td>Hydro</td><td>Hydro</td><td>MHD</td><td>MHD</td><td>MHD</td><td>MHD</td><td>MHD</td></tr>
+  <tr><th>A</th><td>∞</td><td>∞</td><td>∞</td><td>1</td><td>1</td><td>1</td><td>5</td><td>5</td></tr>
+  <tr><th>R</th><td>0.62</td><td>0.68</td><td>0.68</td><td>0.38</td><td>0.36</td><td>0.35</td><td>0.59</td><td>0.49</td></tr>
+</table>

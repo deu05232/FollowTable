@@ -1,0 +1,16 @@
+<table>
+  <caption>Terrestrial Eco-meteorological Station Metadata — Field Types and Lengths</caption>
+  <thead>
+    <tr><th>No.</th><th>Field Name</th><th>Field Code</th><th>Storage Type</th><th>Length/Precision</th><th>Unit / Format / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station Name</td><td>STATION_NAME</td><td>VARCHAR</td><td>200</td><td>Variable-length text, max 200 characters</td></tr>
+    <tr><td>2</td><td>Station Code</td><td>STATION_ID</td><td>CHAR</td><td>12</td><td>Fixed-length identifier; left padded with zeros if needed</td></tr>
+    <tr><td>3</td><td>Station Alias</td><td>STATION_ALIAS</td><td>VARCHAR</td><td>100</td><td>Optional</td></tr>
+    <tr><td>4</td><td>Administrative Region</td><td>ADMIN_REGION</td><td>VARCHAR</td><td>120</td><td>Province/State + City/County</td></tr>
+    <tr><td>5</td><td>Latitude</td><td>LAT</td><td>DECIMAL</td><td>9,6</td><td>Degrees, WGS84; range -90 to 90</td></tr>
+    <tr><td>6</td><td>Longitude</td><td>LON</td><td>DECIMAL</td><td>9,6</td><td>Degrees, WGS84; range -180 to 180</td></tr>
+    <tr><td>7</td><td>Elevation</td><td>ELEV</td><td>DECIMAL</td><td>7,2</td><td>Unit: m</td></tr>
+    <tr><td>8</td><td>Station Status</td><td>STATUS</td><td>VARCHAR</td><td>20</td><td>e.g., ACTIVE / INACTIVE / MAINTENANCE</td></tr>
+  </tbody>
+</table>

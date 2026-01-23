@@ -1,0 +1,7 @@
+<table>
+  <caption>Traditional Mongolian control characters: correct vs incorrect sequences (code-point level)</caption>
+  <tr><th>Usage scenario</th><th>Correct underlying sequence (copyable)</th><th>Common incorrect or non-used alternative</th><th>Incorrect underlying sequence (copyable)</th></tr>
+  <tr><td>Using a selector with a base letter</td><td>[MVS]+[U+1820]</td><td>Omitting the selector</td><td>[U+1820]</td></tr>
+  <tr><td>Selector placed before a multi-letter cluster</td><td>[MVS]+[U+1820]+[U+1834]+[U+1820]</td><td>Selector inserted in the middle of the cluster</td><td>[U+1820]+[MVS]+[U+1834]+[U+1820]</td></tr>
+  <tr><td>Selector with longer fixed sequence</td><td>[MVS]+[U+1820]+[U+1834]+[U+1820]+[U+182D]+[U+1820]</td><td>Extra selector added</td><td>[MVS]+[MVS]+[U+1820]+[U+1834]+[U+1820]+[U+182D]+[U+1820]</td></tr>
+</table>

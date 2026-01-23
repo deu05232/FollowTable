@@ -1,0 +1,16 @@
+<table>
+  <caption>Instant Messaging Service API Request Parameters — Presence Notification (Request)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Field Name</th><th>Type/Format</th><th>Required</th><th>Max Occurrences</th><th>Value Range / Examples</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Interface Operation</td><td>interfaceOperation</td><td>String (1..64)</td><td>M</td><td>1</td><td>PRESENCE_NOTIFY | PRESENCE_QUERY</td><td>Action being invoked; drives routing and validation.</td></tr>
+    <tr><td>Action Performer ID</td><td>actorUserId</td><td>String (1..64)</td><td>M</td><td>1</td><td>e.g., user-12345</td><td>User who performs the request (initiator/actor).</td></tr>
+    <tr><td>Target User ID</td><td>targetUserId</td><td>String (1..64)</td><td>M</td><td>1</td><td>e.g., user-67890</td><td>User affected by the action (recipient/target).</td></tr>
+    <tr><td>Presence State</td><td>presenceState</td><td>String (1..16)</td><td>M</td><td>1</td><td>ONLINE | OFFLINE | AWAY | BUSY</td><td>Presence value to publish or request.</td></tr>
+    <tr><td>Client Timestamp</td><td>clientTimestamp</td><td>DateTime (ISO-8601)</td><td>O</td><td>1</td><td>2026-01-19T12:34:56Z</td><td>Time when client generated the request.</td></tr>
+    <tr><td>Correlation ID</td><td>correlationId</td><td>String (1..64)</td><td>O</td><td>1</td><td>uuid-like</td><td>Used for tracing and idempotency correlation.</td></tr>
+    <tr><td>Notification Channel</td><td>notifyChannel</td><td>String (1..16)</td><td>O</td><td>1</td><td>PUSH | WEBHOOK | NONE</td><td>Preferred downstream notification mechanism (request-side hint).</td></tr>
+    <tr><td>Recipients (Optional Grouping)</td><td>recipientList.recipientId</td><td>String (1..64)</td><td>O</td><td>50</td><td>user-111, user-222</td><td>When broadcasting, list of target users (hierarchical repeating field).</td></tr>
+  </tbody>
+</table>

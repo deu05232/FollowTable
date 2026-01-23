@@ -1,0 +1,15 @@
+<table>
+  <caption>Projection box light source requirements by component type (LED dimensions mixed with drivers and filament references)</caption>
+  <thead>
+    <tr><th rowspan="2">Component</th><th rowspan="2">Variant</th><th colspan="3">Key dimensions (mm)</th><th rowspan="2">Electrical / family note</th></tr>
+    <tr><th>x1</th><th>x2</th><th>f</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">LED light source</td><td>Product LED light source</td><td>25.0</td><td>19.0</td><td>4.5</td><td>Driver required: 9–16 V</td></tr>
+    <tr><td>Standard LED light source</td><td>25.0</td><td>19.0</td><td>4.5</td><td>Driver required: 9–16 V</td></tr>
+    <tr><td rowspan="2">Filament light source (reference)</td><td>Product filament light source</td><td>24.5</td><td>18.5</td><td>4.0</td><td>Family: PC16W</td></tr>
+    <tr><td>Standard filament light source</td><td>24.0</td><td>18.0</td><td>4.0</td><td>Family: PC16W</td></tr>
+    <tr><td>Control electronics</td><td>PWM dimmer board</td><td>30.0</td><td>12.0</td><td>—</td><td>Not part of light source form-factor</td></tr>
+    <tr><td>Mechanical</td><td>Bracket clearance</td><td>2.0</td><td>2.0</td><td>—</td><td>Applies to housing, not LED package</td></tr>
+  </tbody>
+</table>

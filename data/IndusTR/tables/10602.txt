@@ -1,0 +1,15 @@
+<table>
+  <caption>AWG Package and Reliability Requirements (Non-Channel-Plan Specs)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Unit</th><th>Requirement</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Optical Interface</td><td>Fiber Type</td><td>-</td><td>SMF-28 compatible</td><td>Standard single-mode fiber</td></tr>
+    <tr><td>Connector</td><td>-</td><td>LC/APC</td><td>Return-loss oriented</td></tr>
+    <tr><td>Insertion Loss (typ.)</td><td>dB</td><td>≤ 4.5</td><td>Measured at room temperature</td></tr>
+    <tr><td rowspan="2">Mechanical</td><td>Package Size (L×W×H)</td><td>mm</td><td>60 × 45 × 8</td><td>Excluding fiber pigtails</td></tr>
+    <tr><td>Fiber Pigtail Length</td><td>m</td><td>1.0</td><td>Customer configurable</td></tr>
+    <tr><td rowspan="2">Reliability</td><td>Storage Temperature</td><td>°C</td><td>-40 to +85</td><td>Non-operating</td></tr>
+    <tr><td>Operating Temperature</td><td>°C</td><td>0 to +70</td><td>Ambient</td></tr>
+  </tbody>
+</table>

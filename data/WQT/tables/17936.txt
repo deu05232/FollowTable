@@ -1,0 +1,16 @@
+# Administrative Distance Reference  Default Preferences with Expanded Protocol Names
+
+| Category | Route Source / Protocol (Full Name) | Default Administrative Distance |
+| --- | --- | ---: |
+| Local and static | Directly connected network | 0 |
+| Local and static | Static route (standard) | 1 |
+| Local and static | Static route (floating; example value) | 10 |
+| IGP (distance vector) | Routing Information Protocol (RIP) | 120 |
+| IGP (link state) | Open Shortest Path First (OSPF) | 110 |
+| IGP (link state) | Intermediate System-to-Intermediate System (IS-IS) | 115 |
+| IGP (Cisco hybrid) | Enhanced Interior Gateway Routing Protocol (EIGRP) internal | 90 |
+| IGP (Cisco hybrid) | Enhanced Interior Gateway Routing Protocol (EIGRP) external | 170 |
+| Legacy IGP | Interior Gateway Routing Protocol (IGRP) | 100 |
+| EGP | Border Gateway Protocol (BGP) external | 20 |
+| EGP | Border Gateway Protocol (BGP) internal | 200 |
+| Miscellaneous | Dynamic Mobile Network Routing (DMNR) | 3 |

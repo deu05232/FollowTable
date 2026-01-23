@@ -1,0 +1,16 @@
+<table>
+  <caption>Closed-loop Control I/O for Tire Curing Press and Thermal/Pressure Regulation</caption>
+  <thead>
+    <tr><th>No.</th><th>Curing Step / Control Loop</th><th>Feedback Inputs (Measured Signals)</th><th>Targets (Recipe / Schedule Inputs)</th><th>Computation / Control Logic</th><th>Outputs (Setpoints / Actuator Commands)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Press Closing Force Control</td><td>Main ram pressure transducer, platen position, clamp limit switches</td><td>Closing pressure target, close position target, force ramp rate</td><td>Ramp generation + pressure/position cascade control + interlock checks</td><td>Hydraulic proportional valve current setpoint, close/hold command</td></tr>
+    <tr><td>2</td><td>Steam Chamber Pressure Regulation</td><td>Steam pressure sensor, steam flow meter (optional)</td><td>Steam pressure setpoint profile (time-based)</td><td>Profile lookup (time/step) + PID on pressure</td><td>Steam inlet valve opening command, steam exhaust valve trim</td></tr>
+    <tr><td>3</td><td>Bladder Inflation Pressure Control</td><td>Bladder pressure sensor, inflation line pressure</td><td>Bladder pressure setpoint (per step), inflate/deflate thresholds</td><td>Two-mode control (fill/hold) + hysteresis + PID hold</td><td>Inflation valve command, vent valve command, hold valve setpoint</td></tr>
+    <tr><td>4</td><td>Mold Temperature Control (Heating Medium)</td><td>Mold thermocouples (zones), inlet/outlet temperature, heater current feedback</td><td>Mold temperature setpoints by zone, max dT/dt limit</td><td>Zone PID + anti-windup + rate limiting</td><td>Heating valve opening setpoints per zone, heater power command</td></tr>
+    <tr><td>5</td><td>Cure Time / Step Sequencing</td><td>Step timer, press state signals (closed confirmed), pressure stable flags</td><td>Recipe step table (durations, step order), allowed transitions</td><td>State machine + step transition conditions + timeout handling</td><td>Step index output, enable signals for each loop, sequence complete flag</td></tr>
+    <tr><td>6</td><td>Exhaust / Vacuum Control (if equipped)</td><td>Vacuum pressure sensor, vent temperature, valve position feedback</td><td>Vacuum level target, exhaust window timing</td><td>Windowed vacuum control + leak detection (rate-of-rise)</td><td>Vacuum pump start/stop command, vacuum valve setpoint, vent valve command</td></tr>
+    <tr><td>7</td><td>Cooling / Post-cure Pressure Release</td><td>Mold temperature, steam/bladder pressure feedback, platen position</td><td>Cooling target temperature, depressurization ramp profile</td><td>Ramp-down scheduling + coordinated valve timing + safety constraints</td><td>Steam shutoff command, bladder vent command, cooling valve opening setpoint</td></tr>
+    <tr><td>8</td><td>Alarm Handling / Safe Output Fallback</td><td>Overpressure, overtemperature, sensor fault diagnostics, door interlocks</td><td>Trip limits (recipe/standards), reset conditions</td><td>Limit comparison + fault classification + latch + safe-state mapping</td><td>Emergency vent command, heater disable command, press inhibit output</td></tr>
+  </tbody>
+</table>

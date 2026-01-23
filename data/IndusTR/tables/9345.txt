@@ -1,0 +1,10 @@
+<table>
+  <caption>Parameters for retrieving ambient color temperature from a light estimate</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>light_estimate</td><td>ArLightEstimate *</td><td>Light estimation object pointer</td></tr>
+  <tr><td>out_color_temperature_kelvin</td><td>float *</td><td>Pointer that receives estimated ambient color temperature in Kelvin</td></tr>
+  <tr><td>out_color_correction_rgba</td><td>float *</td><td>Pointer that receives a 4-float color correction (RGBA)</td></tr>
+  <tr><td>out_valid</td><td>ArBool *</td><td>Whether the estimate values are valid for the current frame</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Timestamp of the light estimate in nanoseconds</td></tr>
+</table>

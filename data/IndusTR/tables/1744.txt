@@ -1,0 +1,17 @@
+<table>
+  <caption>Test requirements for binarized syntax elements in the video coding bitstream (last cg pos, last cg0 flag and last cg x)</caption>
+  <tr><td>Syntax element name</td><td>Test requirements</td></tr>
+  <tr><td>last_cg_pos</td><td>Traverse cases where the value of last_cg_pos equals 0 to 3</td></tr>
+  <tr><td>last_cgO_flag</td><td>Traverse cases where the value of last_cgO_flag equals 0 to 1</td></tr>
+  <tr><td>last_cg_x</td><td>Traverse cases where the value of last_cg_x equals 0 to maxVal, where the value of maxVal is determined by Table 100 of GB/T 33475.2—2024</td></tr>
+  <tr><td>last_cg_y_minusl</td><td>Traverse cases where the value of last_cg_y_minusl equals 0 to maxVal, where the value of maxVal is determined by Table 100 of GB/T 33475.2—2024</td></tr>
+  <tr><td>last_cg_y</td><td>Traverse cases where the value of last_cg_y equals 0 to maxVal, where the value of maxVal is determined by Table 100 of GB/T 33475.2—2024</td></tr>
+  <tr><td>nonzero_cg_flag</td><td>Traverse cases where the value of nonzero_cg_flag equals 0 to 1</td></tr>
+  <tr><td>last_coeff_pos_x</td><td>Traverse cases where the value of last_coeff_pos_x equals 0 to 3</td></tr>
+  <tr><td>last_coeff_pos_y</td><td>Traverse cases where the value of last_coeff_pos_y equals 0 to 3</td></tr>
+  <tr><td>coeff_level_minusl_band</td><td>Traverse cases where the value of coeff_level_minusl_band equals 0 to 1</td></tr>
+  <tr><td>When CoeffLevelMinuslBand is 0: coeff_level_minusl_pos_in_band</td><td>Traverse cases where, when CoeffLevelMinuslBand is 0, the value of coeff_level_minusl_pos_in_band equals 0 to 31</td></tr>
+  <tr><td>When CoeffLevelMinuslBand is 1: coeff_level_minusl_pos_in_band</td><td>There exists a value of coeff_level_minusl_pos_in_band when CoeffLevelMinuslBand is 1, and it can be correctly parsed using the order-0 Exp-Golomb code</td></tr>
+  <tr><td>coeff_sign</td><td>Traverse cases where the value of coeff_sign equals 0 to 1</td></tr>
+  <tr><td>coeff_run</td><td>Traverse cases where the value of coeff_run equals 0 to CoeffPosInCG</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>ARPixelBufferFormat Enumeration (Image/Data Representation)</caption>
+  <tr><th>Enum Value (Name = Number)</th><th>Bit Depth / Channels</th><th>Meaning</th></tr>
+  <tr><td>AR_PIXEL_BUFFER_FORMAT_UNKNOWN = -1</td><td>N/A</td><td>Unrecognized or invalid pixel buffer format.</td></tr>
+  <tr><td>AR_PIXEL_BUFFER_FORMAT_RGBA8888 = 0</td><td>8-bit x4</td><td>Color buffer in RGBA order; common for GPU textures.</td></tr>
+  <tr><td>AR_PIXEL_BUFFER_FORMAT_BGRA8888 = 1</td><td>8-bit x4</td><td>Color buffer in BGRA order; often used by native camera pipelines.</td></tr>
+  <tr><td>AR_PIXEL_BUFFER_FORMAT_RGB565 = 2</td><td>16-bit packed</td><td>Packed RGB format with reduced precision to save bandwidth.</td></tr>
+  <tr><td>AR_PIXEL_BUFFER_FORMAT_YUV420SP_NV12 = 3</td><td>8-bit luma + chroma</td><td>Bi-planar YUV format (NV12) used for camera frames/encoding.</td></tr>
+  <tr><td>AR_PIXEL_BUFFER_FORMAT_YUV420SP_NV21 = 4</td><td>8-bit luma + chroma</td><td>Bi-planar YUV format (NV21) commonly produced by Android camera.</td></tr>
+  <tr><td>AR_PIXEL_BUFFER_FORMAT_DEPTH16 = 5</td><td>16-bit</td><td>Depth buffer format for per-pixel depth values.</td></tr>
+</table>

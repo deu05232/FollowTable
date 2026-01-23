@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Performance Measurement Unit Codes (Flow/Time/Frequency)</caption>
+  <thead>
+    <tr><th>Category</th><th>Unit Code</th><th>Unit Name</th><th>Typical Metric</th><th>Status</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Flow rate</td><td>LPM</td><td>Liter per Minute</td><td>Faucet discharge</td><td>Active</td><td>Use for aerator performance tests</td></tr>
+    <tr><td>Flow rate</td><td>GPM</td><td>Gallon per Minute</td><td>Shower flow</td><td>Active</td><td>US customary reporting</td></tr>
+    <tr><td>Flow rate</td><td>LPS</td><td>Liter per Second</td><td>Flush valve peak</td><td>Active</td><td>Engineering-only; avoid for consumer labels</td></tr>
+    <tr><td>Time</td><td>SEC</td><td>Second</td><td>Auto shutoff delay</td><td>Active</td><td>For sensor faucet timeout</td></tr>
+    <tr><td>Time</td><td>MIN</td><td>Minute</td><td>Cycle duration</td><td>Active</td><td>Cleaning cycle length</td></tr>
+    <tr><td>Frequency</td><td>HZ</td><td>Hertz</td><td>AC supply frequency</td><td>Active</td><td>Relevant only for powered units</td></tr>
+    <tr><td>Frequency</td><td>KHZ</td><td>Kilohertz</td><td>Ultrasonic sensor carrier</td><td>Special</td><td>Appears in some proximity sensor specs</td></tr>
+  </tbody>
+</table>

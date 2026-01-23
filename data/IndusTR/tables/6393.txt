@@ -1,0 +1,15 @@
+<table>
+  <caption>Let-off / Jacquard Parameters Dictionary (Mixed Type Placeholders)</caption>
+  <thead>
+    <tr><th>Group</th><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Attribute Type</th><th>Access</th><th>Data Type</th><th>Data Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Let-off</td><td>0x0C10</td><td>Warp Let-off Speed</td><td>WarpLetOffSpeed</td><td>VAR</td><td>RW</td><td>Int32</td><td>0~5000</td><td>rpm</td><td>Commanded let-off speed</td></tr>
+    <tr><td>Let-off</td><td>0x0C11</td><td>Beam i Diameter</td><td>BeamiDiameter</td><td>ARRAY</td><td>RW</td><td>—</td><td>10~20000</td><td>mm</td><td>Per-beam diameter value</td></tr>
+    <tr><td>Let-off</td><td>0x0C12</td><td>Beam i Tension</td><td>BeamiTension</td><td>ARRAY</td><td>RW</td><td></td><td>0~100</td><td>%</td><td>Target tension per beam</td></tr>
+    <tr><td>Jacquard</td><td>0x0E10</td><td>Guide Bar i Total Needles</td><td>JacquardiTotalNeedles</td><td>ARRAY</td><td>RO</td><td>Int32</td><td>0~10000</td><td></td><td>Needle count per guide bar</td></tr>
+    <tr><td>Jacquard</td><td>0x0E11</td><td>Guide Bar i Offset Times</td><td>JacquardiTriggerTimes</td><td>ARRAY</td><td>RO</td><td>one</td><td>1,2,4</td><td></td><td>Number of offsets per cycle</td></tr>
+    <tr><td>Jacquard</td><td>0x0E12</td><td>Guide Bar i 1st Offset Angle</td><td>JacquardiTriggerAngle1</td><td>ARRAY</td><td>RO</td><td>-</td><td>0~360</td><td>deg</td><td>Primary trigger angle</td></tr>
+    <tr><td>Jacquard</td><td>0x0E13</td><td>Guide Bar i Enable</td><td>JacquardiEnable</td><td>ARRAY</td><td>RW</td><td>—</td><td>0/1</td><td></td><td>Enable/disable per guide bar</td></tr>
+  </tbody>
+</table>

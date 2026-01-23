@@ -1,0 +1,16 @@
+<table>
+  <caption>Context Index Mapping for SAO and Partition Signaling (Entropy-Coding Oriented)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Bin index (binIdx)</th><th>Context condition (category/flags)</th><th>ctxIdx computation</th><th>Probability state set</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>sao_merge_type_index</td><td>0</td><td>SaoMergeLeftAvai | SaoMergeUpAvai</td><td>ctxIdx = ctxOff + (SaoMergeLeftAvai?1:0) + (SaoMergeUpAvai?2:0)</td><td>SAO_MERGE_CTX</td></tr>
+    <tr><td>sao_merge_type_index</td><td>1</td><td>SaoMergeLeftAvai & SaoMergeUpAvai</td><td>ctxIdx = ctxOff + 3</td><td>SAO_MERGE_CTX</td></tr>
+    <tr><td>sao_mode</td><td>0</td><td>SliceType, IsChroma</td><td>ctxIdx = ctxOff + (SliceType==I?0:1) + (IsChroma?2:0)</td><td>SAO_MODE_CTX</td></tr>
+    <tr><td>sao_mode</td><td>1</td><td>PrevCtuSaoEnabledFlag</td><td>ctxIdx = ctxOff + (PrevCtuSaoEnabledFlag?1:0)</td><td>SAO_MODE_CTX</td></tr>
+    <tr><td>shape_of_partition_index</td><td>0</td><td>CuPredMode, SizeInBit</td><td>ctxIdx = ctxOff + (CuPredMode==INTRA) + (SizeInBit>=3)</td><td>PART_SHAPE_CTX</td></tr>
+    <tr><td>shape_of_partition_index</td><td>1</td><td>CuPredMode, BtDepth</td><td>ctxIdx = ctxOff + (BtDepth>=2) + (CuPredMode==INTER)</td><td>PART_SHAPE_CTX</td></tr>
+    <tr><td>b_pu_type_index</td><td>0..2</td><td>cu_type_index, IntraCuFlag</td><td>ctxIdx = ctxOff + (cu_type_index==2?2:0) + (IntraCuFlag?1:0)</td><td>PU_TYPE_CTX</td></tr>
+    <tr><td>last_cg0_flag</td><td>0</td><td>IsChroma, ScanIdx</td><td>ctxIdx = ctxOff + (IsChroma?1:0) + (ScanIdx==0?0:2)</td><td>LAST_CG0_CTX</td></tr>
+  </tbody>
+</table>

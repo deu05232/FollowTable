@@ -1,0 +1,8 @@
+<table>
+  <caption>Correction Factor for Local Coldest-Month Air Temperature</caption>
+  <tr><td>Average temperature of the coldest month ℃</td><td>Correction factor</td></tr>
+  <tr><td>-5</td><td>1.000</td></tr>
+  <tr><td>-5<≤0</td><td>1.000+0.002×(t+5)</td></tr>
+  <tr><td>0<t</td><td>1.010</td></tr>
+  <tr><td colspan="2">Note: t is the average temperature of the coldest month.</td></tr>
+</table>

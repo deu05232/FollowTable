@@ -1,0 +1,15 @@
+<table>
+  <caption>Administrative Management – Enterprise Master Data Items (Narrative-Only List)</caption>
+  <thead>
+    <tr><th>Data Item</th><th>Meaning / Narrative Description</th><th>Typical Source Document</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Enterprise Name</td><td>Registered legal name of the enterprise used for administrative filings and public disclosure.</td><td>Business license</td><td>May include punctuation and regional qualifiers.</td></tr>
+    <tr><td>Unified Social Credit Code</td><td>Official 18-character identifier assigned to an enterprise for unified registration management.</td><td>National registration record</td><td>Should be stored as string; no leading zero trimming.</td></tr>
+    <tr><td>Legal Representative</td><td>Natural person who legally represents the enterprise in administrative matters.</td><td>Registration application</td><td>May differ from actual controller.</td></tr>
+    <tr><td>Registered Address</td><td>Address recorded in the registration system as the primary domicile.</td><td>Business license</td><td>Can be updated via change registration.</td></tr>
+    <tr><td>Business Scope</td><td>Approved business activities and limitations as filed with authorities.</td><td>Registration approval</td><td>Often long text; may include standardized phrases.</td></tr>
+    <tr><td>Establishment Date</td><td>Date the enterprise was legally established/approved.</td><td>Registration record</td><td>Use ISO-8601 date representation.</td></tr>
+    <tr><td>Registration Authority</td><td>Administrative body responsible for the enterprise registration record.</td><td>Registration record</td><td>May be represented by full organization name.</td></tr>
+  </tbody>
+</table>

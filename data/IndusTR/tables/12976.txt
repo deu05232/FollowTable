@@ -1,0 +1,8 @@
+<table>
+  <caption>Test bench power source specification checklist for copier/MFD energy consumption testing</caption>
+  <tr><th>Specification area</th><th>What is being specified</th><th>Requirement</th><th>Deviation/limit</th><th>Reason for controlling it</th></tr>
+  <tr><td>Supply</td><td>Nominal voltage</td><td>Per regional mains</td><td>Limited deviation allowed</td><td>Keep readings comparable across runs</td></tr>
+  <tr><td>Supply</td><td>Nominal frequency</td><td>Per regional mains</td><td>Limited deviation allowed</td><td>Avoid measurement drift</td></tr>
+  <tr><td>Power quality</td><td>Harmonic distortion</td><td>Below threshold</td><td>Maximum limit applies</td><td>Reduce interference in analyzer readings</td></tr>
+  <tr><td>Supply</td><td>Transient behavior</td><td>No large dips</td><td>Event limit applies</td><td>Prevent false mode transitions</td></tr>
+</table>

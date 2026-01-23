@@ -1,0 +1,5 @@
+<table>
+  <caption>Emergency Management BeiDou Terminal Emergency Key Destruction Acknowledgement Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Key Destruction Acknowledgement</td><td>1</td><td>Integer</td><td>0~1</td><td>0-   Management information matches, key will be destroyed; 1-   Management information does not match, do not destroy key</td></tr>
+</table>

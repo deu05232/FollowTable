@@ -1,0 +1,16 @@
+<table>
+  <caption>AMBT1 tuning: fit-quality contributions organized by generator parameter blocks and scan windows</caption>
+  <thead>
+    <tr><th rowspan="2">Parameter block</th><th rowspan="2">Included parameter IDs</th><th colspan="2">Scan window</th><th rowspan="2">Dominant constraint source</th><th rowspan="2">Δχ² contribution</th></tr>
+    <tr><th>Low</th><th>High</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MPI scale</td><td>82</td><td>1.20</td><td>3.70</td><td>Multiplicity normalization</td><td>+12.4</td></tr>
+    <tr><td>MPI energy scaling</td><td>90, 89</td><td>0.18 (90), 1500 (89)</td><td>0.34 (90), 2500 (89)</td><td>Cross-energy consistency</td><td>+7.9</td></tr>
+    <tr><td>Color reconnection</td><td>78, 77</td><td>0.00 (78), 0.20 (77)</td><td>0.70 (78), 1.00 (77)</td><td>pT-spectrum soft tail</td><td>+5.1</td></tr>
+    <tr><td>Matter profile</td><td>83</td><td>1.00</td><td>2.00</td><td>High-multiplicity tail</td><td>+3.6</td></tr>
+    <tr><td>Primordial kT (aux)</td><td>91</td><td>0.8</td><td>2.5</td><td>Low-pT broadening</td><td>+2.2</td></tr>
+    <tr><td>Hadronization (aux)</td><td>PARJ(21)</td><td>0.28</td><td>0.45</td><td>Fragmentation pT</td><td>+1.7</td></tr>
+    <tr><td colspan="6">Hierarchy:Core tune blocks (MPI scale/energy) → Secondary (CR, profile) → Auxiliary (kT, hadronization)</td></tr>
+  </tbody>
+</table>

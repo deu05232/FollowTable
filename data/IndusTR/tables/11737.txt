@@ -1,0 +1,10 @@
+<table>
+  <caption>Protocol steps for measuring Active (printing/copying) energy during a standardized job</caption>
+  <tr><th>Step</th><th>Initial state</th><th>Action to perform</th><th>Record (at end of step)</th><th>Measurement unit</th><th>Possible measurement state</th></tr>
+  <tr><td>1</td><td>Ready</td><td>Load paper and ensure default settings are used; verify the device is in the ready state.</td><td>Job configuration notes</td><td>text</td><td>Ready</td></tr>
+  <tr><td>2</td><td>Ready</td><td>Zero the energy counter on the power meter and start logging.</td><td>Meter start time</td><td>min</td><td>Ready</td></tr>
+  <tr><td>3</td><td>Ready</td><td>Initiate the standardized job (e.g., a multi-page copy/print run) and let it complete without user interruption.</td><td>Total job time</td><td>s</td><td>Active</td></tr>
+  <tr><td>4</td><td>Active</td><td>When the last sheet exits, continue logging until the device returns to the ready state.</td><td>Recovery time to Ready</td><td>s</td><td>Ready</td></tr>
+  <tr><td>5</td><td>Ready</td><td>Stop logging and record cumulative energy for the entire job cycle.</td><td>Cumulative energy, EJOB</td><td>W·h</td><td>Ready</td></tr>
+  <tr><td>6</td><td>Ready</td><td>Repeat the job cycle if required for repeatability and note any anomalies.</td><td>Repeat count / anomalies</td><td>text</td><td>Active/Ready</td></tr>
+</table>

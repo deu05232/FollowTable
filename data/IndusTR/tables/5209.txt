@@ -1,0 +1,15 @@
+<table>
+  <caption>SM2 Public Key Encryption Operation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Sm2PublicKeyEnc(void * hAppHandle,unsigned char * pucPublicKey,unsigned int uiPublicKeyLen,unsigned int uiAlgorithmID,unsigned char * pucInData,unsigned int uiInDataLen,unsigned char * pucOutData,unsigned int * puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>SM2 public key encryption operation</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application handle)</td></tr>
+  <tr><td>pucPublicKey[in](DER-encoded public key)</td></tr>
+  <tr><td>uiPublicKeyLen[in](DER-encoded public key length)</td></tr>
+  <tr><td>uiAlgorithmID[in](SM2 algorithm identifier)</td></tr>
+  <tr><td>pucInData[in](input data)</td></tr>
+  <tr><td>uiInDataLen[in](input data length)</td></tr>
+  <tr><td>pucOutData[out](output data, DER-encoded)</td></tr>
+  <tr><td>puiOutDataLen[in,out](output data length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success）</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Formula-Based Assessment Inputs for Ecosystem Regulation (Water & Climate)</caption>
+  <thead>
+    <tr><th>Ecosystem Unit</th><th>Service Focus</th><th>Fitted Expression / Model String</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Temperate Mixed Forest Zone</td><td>Runoff regulation</td><td>Q = 2.13·ln(P) − 0.67·ln(S) + 1.05</td><td>P: precipitation, S: slope</td></tr>
+    <tr><td>Subtropical Evergreen Broadleaf Forest</td><td>Carbon sequestration</td><td>C = 0.89·NDVI^2 + 1.24·NDVI + 0.31</td><td>NDVI-based fit</td></tr>
+    <tr><td>Alpine Meadow</td><td>Soil water retention</td><td>W = 5.7·e^(−0.03·T) + 0.12</td><td>T: mean annual temperature</td></tr>
+    <tr><td>Semi-arid Grassland</td><td>Wind erosion control</td><td>E = 12.4 − 3.6·ln(V) + 0.9·U</td><td>V: cover index, U: wind speed</td></tr>
+    <tr><td>Coastal Wetland</td><td>Storm surge attenuation</td><td>A = 1.8·H^(0.6) · exp(−0.02·D)</td><td>H: wave height, D: vegetation density</td></tr>
+    <tr><td>Reservoir Catchment (Eastern Plains)</td><td>Evaporation</td><td>ET0 = 0.0023·(Tmean+17.8)·(Tmax−Tmin)^0.5·Ra</td><td>Hargreaves-type</td></tr>
+    <tr><td>Karst Plateau Shrubland</td><td>Infiltration regulation</td><td>I = 0.41 + 0.08·ln(Ksat) − 0.02·BD</td><td>Ksat: conductivity, BD: bulk density</td></tr>
+  </tbody>
+</table>

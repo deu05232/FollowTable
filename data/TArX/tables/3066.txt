@@ -1,0 +1,10 @@
+<table>
+  <caption>Analysis of the time-scale filtering procedure in Sect. LABEL:SS:P on medical ultrasound signals. The control-parameter between distance- and decay-criteria is α = 1 / 2 . The number is parenthesis on the 2. row is the spatial error in percent relative to size of the signal.</caption>
+  <tr><th>Signal:</th><th>Tumor</th><th>Blood - vessel</th><th>Liver</th><th>phantom</th></tr>
+  <tr><td>False connections (\%) :</td><td>4.8</td><td>4.7</td><td>6.2</td><td>4.2</td></tr>
+  <tr><td>Spatial error in pixels:</td><td>12.4 (2.5)</td><td>12.9 (2.5)</td><td>12.2 (2.8)</td><td>20.3 (7.4)</td></tr>
+  <tr><td>False connections between scale 32 and 16 :</td><td>2.5</td><td>4.4</td><td>8.5</td><td>4.2</td></tr>
+  <tr><td>False connections between scale 16 and 8 :</td><td>5.4</td><td>5.2</td><td>9.0</td><td>8.0</td></tr>
+  <tr><td>False connections between scale 8 and 4 :</td><td>6.2</td><td>5.7</td><td>8.2</td><td>5.0</td></tr>
+  <tr><td>False connections between scale 4 and 2 :</td><td>4.8</td><td>4.5</td><td>6.0</td><td>1.7</td></tr>
+</table>

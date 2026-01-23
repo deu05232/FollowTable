@@ -1,0 +1,7 @@
+# Compare Models - Cisco
+
+|   | Ports | Maximum Ports Per Chassis | Oversubscription | Switching Bandwidth | Multihop Fibre Channel over Ethernet (FCoE) | FICON Support | Intelligent Fabric Services | Intelligent Fabric Applications |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 32 or 48-port Advanced 8 Gbps FC Modules | 32 or 48-port 1/2/4/8-Gbps FC or 24-port 10-Gbps FC | 528 8-Gbps FC | 32-port, line rate; 48-port, 1.5:1, Line rate with arbitrated local switching enabled | 8.4 Tbps per chassis | - | 1/2/4/8/10-Gbps FICON | VSAN, IVR, 16 port channels, Cisco VMpath | - |
+| 8-port 10 Gbps FCoE Module | 8-port 10-Gbps FCoE | 88 10-Gbps FCoE | Line rate | 80 Gbps per line card | Compatible with Cisco Nexus 5000 and 7000 Series Switches |  | VSAN, IVR, 16 port channels | - |
+| 16-port Storage Services Node | 16 fixed 1-Gbps Ethernet | One module per MDS 9500 or 9222i chassis | - | - | - | - | VSAN, IVR, 16 port channels | Four service engines: Integrated FCIP, Advanced FCIP (FCIP compression, IPsec encryption, FCIP write acceleration), Cisco I/O Accelerator, Storage media encryption with a software license |

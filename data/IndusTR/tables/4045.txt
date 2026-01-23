@@ -1,0 +1,25 @@
+<table>
+  <caption>Drawing Frame Alarm Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Motor Overload</td><td>MotorOverload</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Sliver Broken at the Rear of Machine</td><td>SliverBrokenAtTheRearOfMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td></td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0902</td><td>Roller Lapped</td><td>RollerLapped</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>|</td><td></td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Condenser Blocked</td><td>CondenserBlocked</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>|</td><td>|</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Coiler Tube Blocked</td><td>CoilerTubeBlocked</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>|</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Under-pressure Air Source</td><td>Under-pressureAirSource</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>I</td><td></td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>No Working Sliver Can</td><td>NoSliverCan</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td></td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Overfull Sliver Can</td><td>OverfullSliverCan</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0908</td><td>Door Cover Open</td><td>DoorCoverOpen</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>I</td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Autoleveller Alarm</td><td>AutolevellerAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090A</td><td>Servo Fault</td><td>ServoFault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090B</td><td>Autoleveller Fault</td><td>AutolevellerF ault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090C</td><td>Stop Button Locked</td><td>StopButtonLocked</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td></td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090D</td><td>Cradle Not Tightened</td><td>CradleNotTighten</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>I</td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090E</td><td>Scraping Fault</td><td>ScrapingFault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>|</td><td></td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X090FSAG</td><td>Directional Fault</td><td>DirectionalFault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0910</td><td>Can Changer Fault</td><td>CanChangerF ault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0911</td><td>Spare Can Shortage</td><td>SpareCanShortage</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0912</td><td>Insufficient Suction Box Pressure</td><td>SuctionBoxUnderpressure</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0913</td><td>Can Supplying Fault</td><td>SupplyingCanF ault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>I</td><td>I</td><td>I</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0914</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td></td><td></td><td>|</td><td>1</td></tr>
+</table>

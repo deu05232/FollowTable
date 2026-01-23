@@ -1,0 +1,34 @@
+<table>
+  <caption>BDS Ground-Based Augmentation System Authorized Service Message Group Data Format</caption>
+  <tr><td>Service Content</td><td>Message Group</td><td>Message Name</td><td>Message Type</td><td>Remarks</td></tr>
+  <tr><td rowspan="14">Spatial Reference Information</td><td rowspan="6">Reference Station and Antenna Message Group</td><td>Reference Station ARP Message</td><td>1005</td><td rowspan="7">For message type format see GB/T 37018—2018</td></tr>
+  <tr><td>Reference Station ARP and Antenna Height Message</td><td>1006</td></tr>
+  <tr><td>Antenna Descriptor Message</td><td>1007</td></tr>
+  <tr><td>Antenna Descriptor and Serial Number Message</td><td>1008</td></tr>
+  <tr><td>Physical Reference Station Position Message</td><td>1032</td></tr>
+  <tr><td>Antenna and Receiver Information Message</td><td>1033</td></tr>
+  <tr><td>Coordinate Projection Parameter Message Group</td><td>Helmert/Molodensky Message</td><td>1021</td></tr>
+  <tr><td rowspan="6">Coordinate Projection Parameter Message Group</td><td>Molodensky-Badekas Message</td><td>1022</td><td rowspan="6"></td></tr>
+  <tr><td>Ellipsoidal Grid Projection Residual Message</td><td>1023</td></tr>
+  <tr><td>Planar Grid Projection Residual Message</td><td>1024</td></tr>
+  <tr><td>Projection parameters, message for projection types other than Lambert Conformal Conic (2SP) and Transverse Mercator (including other messages such as Gauss-Krüger projection)</td><td>1025</td></tr>
+  <tr><td>Projection parameters, Lambert Conformal Conic projection type (2SP) message</td><td>1026</td></tr>
+  <tr><td>Projection parameters, projection type (Oblique Mercator projection) message</td><td>1027</td></tr>
+  <tr><td>Velocity Field Message Group</td><td>Velocity Field Message</td><td>2101</td><td>Custom message 2101</td></tr>
+  <tr><td rowspan="6">Differential Data</td><td rowspan="2">Regional RTD Differential Message Group</td><td rowspan="2">RTD Differential Data Message Group</td><td>41</td><td rowspan="2">For message type format see GB/T 37018—2018</td></tr>
+  <tr><td>42</td></tr>
+  <tr><td rowspan="2">Regional Differential Data Product Message Group</td><td rowspan="2">BDS Differential Data Message (MSM1-MSM4)</td><td>1121</td><td rowspan="2">For message type format see RTCM 10403.3</td></tr>
+  <tr><td>1124</td></tr>
+  <tr><td>Network RTK Residual Message Group</td><td>BDS Network RTK Residual MessageS</td><td>1353</td><td rowspan="2">For message type format see GB/T 37018—2018</td></tr>
+  <tr><td>Network FKP Gradient Message Group</td><td>SBDS Network FKP Gradient Message</td><td>1354</td></tr>
+  <tr><td rowspan="3">Atmospheric Model Parameters</td><td rowspan="3">Ionospheric and Geometric Correction Message Group</td><td>BDS Ionospheric Correction Message</td><td>1350</td><td rowspan="3"></td></tr>
+  <tr><td>BDS Geometric Correction Message</td><td>1351</td></tr>
+  <tr><td>BDS Geometric and Ionospheric Correction Message</td><td>1352</td></tr>
+  <tr><td rowspan="5">Reference Station Observation Data</td><td rowspan="5">Observation Data Message Group</td><td rowspan="5">BDS Observation Data Message (MSM5-MSM7)</td><td>1121</td><td rowspan="7">For message type format see RTCM 10403.3</td></tr>
+  <tr><td>1124</td></tr>
+  <tr><td>1125</td></tr>
+  <tr><td>1126</td></tr>
+  <tr><td>1127</td></tr>
+  <tr><td rowspan="2">Other Authorized Information</td><td rowspan="2">Other Data Message Group</td><td>System Parameter Message</td><td>1013</td></tr>
+  <tr><td>Text String Message</td><td>1029</td></tr>
+</table>

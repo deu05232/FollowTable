@@ -1,0 +1,11 @@
+<table>
+  <caption>ArFrame Convert 2D Coordinate System Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>input_coordinates</td><td>ArCoordinates2dType</td><td>Currently used 2D coordinate system</td></tr>
+  <tr><td>number_of_vertices</td><td>int32_t</td><td>Number of 2D vertices to convert</td></tr>
+  <tr><td>vertices_2d</td><td>float *</td><td>Input 2D vertices to be transformed</td></tr>
+  <tr><td>output_coordinates</td><td>ArCoordinates2dType</td><td>2D coordinate system to convert to</td></tr>
+  <tr><td>out_vertices_2d</td><td>float *</td><td>Pointer to the transformed 2D coordinate points</td></tr>
+</table>

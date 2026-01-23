@@ -1,0 +1,13 @@
+<table>
+  <caption>DEM simulation parameters</caption>
+  <tr><td>Tumbler diameter D (cm)</td><td>10, 14</td></tr>
+  <tr><td>Particle diameter d (mm)</td><td>2</td></tr>
+  <tr><td>Particle density ρ (kg m ^((-3)) )</td><td>1308 [ DrakeShreveJRheol1986 , FoersterPhysFluids1994 , SchaferDippelWolf1996 ]</td></tr>
+  <tr><td>Friction coefficient μ</td><td>0.7</td></tr>
+  <tr><td>Restitution coefficient e</td><td>0.87</td></tr>
+  <tr><td>Fill fraction f</td><td>20%-70%</td></tr>
+  <tr><td>Collision time Δ t (s)</td><td>10^(-4) [ Ristow2000 , CampbellJFM2002 , SilbertPRL2007 ]</td></tr>
+  <tr><td>Integration time step (s)</td><td>Δ t/50=2· 10^(-6) [ SchaferDippelWolf1996 ]</td></tr>
+  <tr><td>Stiffness coefficient k_(n) (N m ^((-1)) )</td><td>7.32· 10^(4) [ SchaferDippelWolf1996 ]</td></tr>
+  <tr><td>Damping coefficient γ_(n) (kg s ^((-1)) )</td><td>0.206</td></tr>
+</table>

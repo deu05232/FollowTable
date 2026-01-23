@@ -1,0 +1,8 @@
+<table>
+  <caption>Battery swap process timeline for a single order</caption>
+  <tr><th>Step</th><th>Event</th><th>Description</th></tr>
+  <tr><td>1</td><td>Create order</td><td>Generate swap order number and allocate queue position</td></tr>
+  <tr><td>2</td><td>Vehicle arrives</td><td>Verify VIN and plate number</td></tr>
+  <tr><td>3</td><td>Start swapping</td><td>Equipment begins swapping procedure</td></tr>
+  <tr><td>4</td><td>Finish swapping</td><td>Report result and failure info if any</td></tr>
+</table>

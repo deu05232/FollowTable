@@ -1,0 +1,26 @@
+<table>
+  <caption>Model parameters used in simulations</caption>
+  <tr><td>Vehicle motion in road lane:</td></tr>
+  <tr><td>τ_(safe)=τ= 1, d=7.5\ m/δ x , δ x= 0.01 m,</td></tr>
+  <tr><td>v_(free)(g)=[v_(free)^((max))(1-d/(g+d)),v_(free)^(% (min))] ,</td></tr>
+  <tr><td>v^((max))_(free)≈ 38.9\ {ms^(-1)/δ v ( v^((max))_(free)= 140 km/h),</td></tr>
+  <tr><td>v_(free)^((min))\ {ms^(-1)/δ v is constant found from the system of equations:</td></tr>
+  <tr><td>v^((free))_(min)=g^((free))_(min)/τ and v^((free))_(min)=v_(free)(g^((free))_(min))</td></tr>
+  <tr><td>( v^((min))_(free)≈ 70 km/h), b=1\ {ms^(-2)/δ a , δ v=0.01\ {ms^(-1) ,</td></tr>
+  <tr><td>δ a=0.01\ {ms^(-2) , k= 3, p_(1)= 0.3, φ_(0)=1 , p_(b)=0.1 ,</td></tr>
+  <tr><td>p^((0))=0.005 , p_(2)(v_(n))=0.48+0.32(v_(n)-v_(21)) ,</td></tr>
+  <tr><td>p_(0)(v_(n))=0.575+0.125(1,v_(n)/v_(01)) ,</td></tr>
+  <tr><td>a^((b))(v_(n))=0.2a+</td></tr>
+  <tr><td>+0.8a(0,(1,(v_(22)-v_(n))/Δ v_(22)) ,</td></tr>
+  <tr><td>a^((0))=0.2a , =1.8 , a^((a))=0 ,</td></tr>
+  <tr><td>v_(22)=12.5\ {ms^(-1)/δ v , Δ v_(22)=2.778\ {ms^(-1)/δ v ,</td></tr>
+  <tr><td>v_(01)=10\ {ms^(-1)/δ v , v_(21)=15\ {ms^(-1)/δ v , a= 0.5 {ms^(-2)/δ a .</td></tr>
+  <tr><td>Lane changing:</td></tr>
+  <tr><td>δ_(1)=1 {ms^(-1)/δ v , L_(a)=150\ m/δ x ,</td></tr>
+  <tr><td>p_(c)=0.2 , λ=0.75 , Δ v^((1))=2 {ms^(-1)/δ v .</td></tr>
+  <tr><td>On-ramp bottleneck model (see Fig. 16.2 of the book [ KernerBook ] ):</td></tr>
+  <tr><td>λ_(b)= 0.75, v_(free\ on)=22.2\ {ms^(-1)/δ v ,</td></tr>
+  <tr><td>Δ v^((2))_(r)= 5 {ms^(-1)/δ v</td></tr>
+  <tr><td>L_(r)=1\ km/δ x , Δ v^((1))_(r)=10\ {ms^(-1)/δ v ,</td></tr>
+  <tr><td>L_(m)= 0.3 km/δ x .</td></tr>
+</table>

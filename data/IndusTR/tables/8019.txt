@@ -1,0 +1,14 @@
+<table>
+  <caption>OpenAPI Auth Inputs by Resource (No Explicit API Method Field)</caption>
+  <thead>
+    <tr><th>Resource</th><th>Endpoint</th><th>Auth Scheme</th><th>Auth Parameter Name</th><th>Location</th><th>Minimum Required Fields</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gateway</td><td>/gateway/identifier/save</td><td>OAuth2 Bearer</td><td>access_token</td><td>Header</td><td>userID, gatewID, classfyID</td></tr>
+    <tr><td>Material</td><td>/material/form/save</td><td>OAuth2 Bearer</td><td>access_token</td><td>Header</td><td>userID, MaterialName</td></tr>
+    <tr><td>Device</td><td>/device/security/auth</td><td>OAuth2 Bearer + Signature</td><td>access_token</td><td>Header</td><td>userID, devID, devSign</td></tr>
+    <tr><td>Microservice</td><td>/microservice/register</td><td>OAuth2 Bearer</td><td>access_token</td><td>Header</td><td>userID, sevName, dataUrl</td></tr>
+    <tr><td>Device</td><td>/device/query</td><td>OAuth2 Bearer</td><td>access_token</td><td>Query</td><td>userID, devID</td></tr>
+    <tr><td>Gateway</td><td>/edge-gateway/create</td><td>OAuth2 Bearer</td><td>access_token</td><td>Header</td><td>userID, gatewName, commUrl, iotType</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Vehicle Version Negotiation Data Field (Extended Semantics)</caption>
+  <tr><th>Field</th><th>Offset (byte)</th><th>Length</th><th>Type</th><th>Allowed Values / Format</th><th>Description</th></tr>
+  <tr><td>CAN Type</td><td>0</td><td>1</td><td>BYTE</td><td>0x00 CAN2.0B; 0x01 CAN FD; 0x02 CAN XL</td><td>Indicates the CAN physical/data link capability used by the sender; shall not be used alone to decide the negotiation result.</td></tr>
+  <tr><td>Negotiation Result</td><td>1</td><td>1</td><td>BYTE</td><td>0x00 Continue; 0x01 Successful; 0x02 Failed</td><td>Sender’s current determination for version negotiation.</td></tr>
+  <tr><td>Protocol Version (Major)</td><td>2</td><td>1</td><td>BYTE</td><td>0x00–0xFF</td><td>Major version number component.</td></tr>
+  <tr><td>Protocol Version (Minor)</td><td>3</td><td>1</td><td>BYTE</td><td>0x00–0xFF</td><td>Minor version number component.</td></tr>
+  <tr><td>Protocol Version (Patch/Provisional)</td><td>4</td><td>1</td><td>BYTE</td><td>0x00–0xFF; if Result=0x02 then 0xFF</td><td>Provisional version component; when negotiation fails, the full 3-byte version may be set to 0xFF 0xFF 0xFF.</td></tr>
+  <tr><td>Reserved</td><td>5</td><td>1</td><td>BYTE</td><td>0x00</td><td>Reserved for future use; shall be set to 0x00 by sender and ignored by receiver.</td></tr>
+</table>

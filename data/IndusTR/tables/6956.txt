@@ -1,0 +1,16 @@
+<table>
+  <caption>Carbonate-Specific Parameters for Process-Emissions Estimation (Purity and Decomposition Adjustments)</caption>
+  <thead>
+    <tr><th>Carbonate material</th><th>Formula</th><th>Default CO2 factor (pure carbonate)</th><th>Unit</th><th>Typical purity range</th><th>Default decomposition rate</th><th>Adjusted CO2 factor (at 95% purity & default decomposition)</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Limestone</td><td>CaCO3</td><td>0.440</td><td>tCO2/t</td><td>90–99%</td><td>100%</td><td>0.418</td><td>tCO2/t material</td></tr>
+    <tr><td>Dolomite (as carbonate input)</td><td>CaMg(CO3)2</td><td>0.477</td><td>tCO2/t</td><td>85–98%</td><td>100%</td><td>0.453</td><td>tCO2/t material</td></tr>
+    <tr><td>Magnesite</td><td>MgCO3</td><td>0.522</td><td>tCO2/t</td><td>90–98%</td><td>100%</td><td>0.496</td><td>tCO2/t material</td></tr>
+    <tr><td>Soda ash</td><td>Na2CO3</td><td>0.415</td><td>tCO2/t</td><td>97–99.8%</td><td>100%</td><td>0.394</td><td>tCO2/t material</td></tr>
+    <tr><td>Potash</td><td>K2CO3</td><td>0.318</td><td>tCO2/t</td><td>90–99%</td><td>100%</td><td>0.302</td><td>tCO2/t material</td></tr>
+    <tr><td>Strontianite</td><td>SrCO3</td><td>0.298</td><td>tCO2/t</td><td>90–98%</td><td>100%</td><td>0.283</td><td>tCO2/t material</td></tr>
+    <tr><td>Witherite</td><td>BaCO3</td><td>0.223</td><td>tCO2/t</td><td>90–98%</td><td>100%</td><td>0.212</td><td>tCO2/t material</td></tr>
+    <tr><td>Basic copper carbonate (malachite, simplified)</td><td>Cu2CO3(OH)2</td><td>0.198</td><td>tCO2/t</td><td>80–95%</td><td>95%</td><td>0.179</td><td>tCO2/t material</td></tr>
+  </tbody>
+</table>

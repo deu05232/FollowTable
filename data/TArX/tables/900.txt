@@ -1,0 +1,11 @@
+<table>
+  <caption>Effective thermal conductivities of a plain weave fabric without porosity in [Wm - 1 K - 1 ]</caption>
+  <tr><td></td><td>Fiber tow</td><td colspan="6">Thermal conductivity</td></tr>
+  <tr><td></td><td>volume</td><td colspan="2">Eqs. ( LABEL:eq:woven_mt )&( LABEL:eq:warp )</td><td colspan="2">Eq. ( LABEL:eq:woven_mt-3ph )</td><td colspan="2">Eqs. ( LABEL:eq:woven_mt )&( LABEL:eq:warp-hist )</td></tr>
+  <tr><td>Method</td><td>fraction</td><td>warp/fill</td><td>trans.</td><td>warp/fill</td><td>trans.</td><td>warp/fill</td><td>trans.</td></tr>
+  <tr><td>MT</td><td>0.53</td><td>8.18</td><td>3.08</td><td>7.93</td><td>3.07</td><td>8.14</td><td>3.16</td></tr>
+  <tr><td>Eq. ( LABEL:eq:Eshelby_heuristics )</td><td>0.78</td><td>9.23</td><td>2.37</td><td>8.68</td><td>2.34</td><td>9.18</td><td>2.48</td></tr>
+  <tr><td>MT</td><td>0.53</td><td>8.35</td><td>2.94</td><td>8.26</td><td>2.92</td><td>8.31</td><td>3.02</td></tr>
+  <tr><td>Eq. ( LABEL:eq:Eshelby_measured )</td><td>0.78</td><td>9.35</td><td>2.30</td><td>9.15</td><td>2.27</td><td>9.29</td><td>2.42</td></tr>
+  <tr><td>3D FEM</td><td>0.53</td><td>8.13</td><td>3.18</td><td colspan="4">-</td></tr>
+</table>

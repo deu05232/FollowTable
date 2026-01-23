@@ -1,0 +1,12 @@
+<table>
+  <caption>Closable Caption Sequence Syntax Structure Table</caption>
+  <tr><td>CC Sequence Syntax</td><td>Descriptor</td></tr>
+  <tr><td>CC_sequence(){</td><td></td></tr>
+  <tr><td>do{</td><td></td></tr>
+  <tr><td>while((next_bits(32）== CC_sample_start_code)）{</td><td></td></tr>
+  <tr><td>CC_sample()</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>}while(next_bits(32）！= CC_sequence_end_code)</td><td></td></tr>
+  <tr><td>CC_sequence_end_code</td><td>f(32)</td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Conversion Rules for Chemical Fiber Output (Single-Column Rules Without Split by Benchmark)</caption>
+  <thead>
+    <tr><th>Product</th><th>Benchmark Linear Density (dtex)</th><th>Conversion Coefficient Rule (General)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Spandex</td><td>44.4</td><td>If actual linear density is not provided, use 1; otherwise use Benchmark / nominal linear density</td><td>No separate case columns</td></tr>
+    <tr><td>Partially Oriented Yarn (POY)</td><td>273</td><td>Use Benchmark / actual linear density</td><td>Applies to all densities</td></tr>
+    <tr><td>Fully Drawn Yarn (FDY)</td><td>167</td><td>Use Benchmark / actual linear density</td><td>Applies to all densities</td></tr>
+    <tr><td>Draw Textured Yarn (DTY)</td><td>167</td><td>Use Benchmark / actual linear density</td><td>Applies to all densities</td></tr>
+    <tr><td>Polypropylene BCF</td><td>3200</td><td>Use Benchmark / actual linear density</td><td>Applies to all densities</td></tr>
+    <tr><td>Viscose staple fiber</td><td>1.67</td><td>Use Benchmark / actual linear density</td><td>Applies to all densities</td></tr>
+  </tbody>
+</table>

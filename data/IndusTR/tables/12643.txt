@@ -1,0 +1,15 @@
+<table>
+  <caption>Eye Feature Adjustment Rules Using Qualitative Descriptors (No Distance/Diameter Bins)</caption>
+  <thead>
+    <tr><th>Eye condition category</th><th>Visible-light description</th><th>Ring completeness</th><th>Eye temperature proxy (qualitative)</th><th>Adjustment rule</th><th>Parameter affected</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E-A</td><td>Indistinct eye intermittently visible</td><td>Broken</td><td>Warm hint</td><td>Subtract 0.5</td><td>E-no</td></tr>
+    <tr><td>E-B</td><td>Ragged eye with multiple cloud filaments</td><td>Broken</td><td>Neutral</td><td>Subtract 1.0</td><td>E-no</td></tr>
+    <tr><td>E-C</td><td>Clear eye but surrounded by uneven CDO</td><td>Mostly closed</td><td>Warm</td><td>Add 0.5</td><td>E-no</td></tr>
+    <tr><td>E-D</td><td>Clear, round eye in smooth CDO</td><td>Closed</td><td>Warm</td><td>Add 1.0</td><td>E-no</td></tr>
+    <tr><td>E-E</td><td>Pinhole-like eye appearance</td><td>Closed</td><td>Very warm</td><td>Add 1.5</td><td>E-no</td></tr>
+    <tr><td>E-F</td><td>Eye obscured by cirrus blow-off</td><td>Unknown</td><td>Cold</td><td>No adjustment</td><td>E-no</td></tr>
+    <tr><td>E-G</td><td>Eye disappears during diurnal convective burst</td><td>Unknown</td><td>Cold</td><td>Use previous E-no</td><td>E-no</td></tr>
+  </tbody>
+</table>

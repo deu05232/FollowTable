@@ -1,0 +1,12 @@
+# RFC1918 Private Addressing with Common Subnetting Patterns (Operations View)
+
+| RFC1918 parent | Common child subnet | Child range example | Approx. hosts | Operational intent |
+|---|---|---|---:|---|
+| 10.0.0.0/8 | 10.0.0.0/16 | 10.0.0.0 – 10.0.255.255 | 65,534 | Site-wide internal addressing |
+| 10.0.0.0/8 | 10.1.0.0/16 | 10.1.0.0 – 10.1.255.255 | 65,534 | Second site block |
+| 10.0.0.0/8 | 10.10.0.0/16 | 10.10.0.0 – 10.10.255.255 | 65,534 | Data center addressing |
+| 172.16.0.0/12 | 172.16.0.0/16 | 172.16.0.0 – 172.16.255.255 | 65,534 | Campus segment |
+| 172.16.0.0/12 | 172.20.0.0/16 | 172.20.0.0 – 172.20.255.255 | 65,534 | Regional office |
+| 192.168.0.0/16 | 192.168.1.0/24 | 192.168.1.0 – 192.168.1.255 | 254 | User VLAN |
+| 192.168.0.0/16 | 192.168.10.0/24 | 192.168.10.0 – 192.168.10.255 | 254 | Voice VLAN |
+| 192.168.0.0/16 | 192.168.100.0/24 | 192.168.100.0 – 192.168.100.255 | 254 | Lab network |

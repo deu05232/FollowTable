@@ -1,0 +1,11 @@
+<table>
+  <caption>AR Hit Testing UI Checklist and Interaction Guidelines (Not an API Parameter Reference)</caption>
+  <tr><th>UI Element / Concept</th><th>Recommended Behavior</th><th>Reason</th><th>Common Pitfall</th></tr>
+  <tr><td>Crosshair / Reticle</td><td>Snap to nearest detected plane when confidence is high</td><td>Improves perceived stability</td><td>Reticle jitter when tracking is limited</td></tr>
+  <tr><td>Tap to Place</td><td>Require a confirmed surface before placement</td><td>Avoids placing objects in mid-air</td><td>Placing on estimated surfaces without feedback</td></tr>
+  <tr><td>Drag to Move</td><td>Use screen-space drag with smoothing</td><td>Prevents sudden jumps</td><td>Directly mapping finger delta to world delta</td></tr>
+  <tr><td>Occlusion Feedback</td><td>Show silhouette when object is partially occluded</td><td>Maintains user awareness</td><td>Users think object disappeared</td></tr>
+  <tr><td>Collision Visualization</td><td>Debug-draw bounding boxes in dev builds</td><td>Speeds up tuning</td><td>Leaving debug visuals enabled in release</td></tr>
+  <tr><td>Hit Test Filtering</td><td>Prefer plane hits over feature points for placement</td><td>More stable anchors</td><td>Picking noisy points in low texture scenes</td></tr>
+  <tr><td>Latency Handling</td><td>Throttle hit tests to frame rate and reuse last valid result</td><td>Reduces CPU spikes</td><td>Running multiple hit tests per frame per finger</td></tr>
+</table>

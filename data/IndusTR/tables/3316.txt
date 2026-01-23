@@ -1,0 +1,14 @@
+<table>
+  <caption>Test Method  Environmental Conditions for Transport-Layer PDU Conformance Testing</caption>
+  <thead>
+    <tr><th>Condition</th><th>Parameter</th><th>Setpoint</th><th>Stabilization Time</th><th>Measurement Tool</th><th>Acceptance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient</td><td>Temperature</td><td>23°C</td><td>30 min</td><td>Calibrated thermometer</td><td>±2°C</td></tr>
+    <tr><td>Ambient</td><td>Relative Humidity</td><td>45%</td><td>30 min</td><td>Hygrometer</td><td>±10%</td></tr>
+    <tr><td>Cold soak</td><td>Temperature</td><td>-40°C</td><td>60 min</td><td>Chamber sensor</td><td>±3°C</td></tr>
+    <tr><td>Hot soak</td><td>Temperature</td><td>85°C</td><td>60 min</td><td>Chamber sensor</td><td>±3°C</td></tr>
+    <tr><td>Vibration</td><td>Frequency range</td><td>10–500 Hz</td><td>—</td><td>Shaker controller</td><td>Per profile</td></tr>
+    <tr><td>EMC</td><td>Radiated immunity</td><td>20 V/m</td><td>—</td><td>EMC receiver</td><td>No reset</td></tr>
+  </tbody>
+</table>

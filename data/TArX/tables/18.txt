@@ -1,0 +1,15 @@
+<table>
+  <caption>Shell model parameters used in the calculation. [ gulp , poten ] The short-range repulsive potential is assumed to be a two-body Buckingham type: for S-I and S-II, V ⁢ ( r ) = A ⁢ exp ⁡ ( - r / ρ ) - C / r 6 ; for B, V ⁢ ( r ) = A ⁢ exp ⁡ ( - ( r - r 0 ) / ρ ) - C / r 6 . The parameter k represents the spring constant between core and shell. Rows in which atomic symbols have a star (*) are for the B model. The label ‘shell’ denotes a potential that acts on the central position of the shell, while ‘bshell’ denotes an interaction that acts on the radius of the shell which was fixed at 1.2 Å. An extra parameter in B model is k = BSM 351.439 eVÅ - 2 . The equilibrium shell radius r 0 is 1.1315 Å after optimization.</caption>
+  <tr><th></th><th>Z _(core) (e)</th><th>Z _(shell) (e)</th><th>k (eV)</th></tr>
+  <tr><th>O</th><td>0.9345</td><td>-2.9345</td><td>51.712</td></tr>
+  <tr><th>Mg</th><td>2</td><td>-</td><td>-</td></tr>
+  <tr><th>Fe</th><td>-1.1682</td><td>3.1682</td><td>69.562</td></tr>
+  <tr><th>O ^((*))</th><td>0.8</td><td>-2.8</td><td>46.1524</td></tr>
+  <tr><th>Mg ^((*))</th><td>2</td><td>-</td><td>-</td></tr>
+  <tr><th></th><td>A (eV)</td><td>ρ (Å)</td><td>C (eV · Å ^((6)) )</td></tr>
+  <tr><th>O shell-O shell</th><td>22764.3</td><td>0.149</td><td>20.37</td></tr>
+  <tr><th>Mg core-O shell</th><td>1346.6</td><td>0.2984</td><td>0.0</td></tr>
+  <tr><th>Fe shell-O shell</th><td>1231.2</td><td>0.3086</td><td>0.0</td></tr>
+  <tr><th>O ^((*)) shell-O ^((*)) shell</th><td>0.0</td><td>0.3</td><td>54.038</td></tr>
+  <tr><th>Mg ^((*)) core-O ^((*)) bshell</th><td>28.7374</td><td>0.3092</td><td>0.0</td></tr>
+</table>

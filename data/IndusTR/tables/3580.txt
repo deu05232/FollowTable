@@ -1,0 +1,10 @@
+<table>
+  <caption>Base64 Object Decoding Finalization Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Base64_DecodeFinal(void * hBase64Obj,unsigned char* pucOutData,unsigned int* puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>Finalize data decoding through the Base64 object; the encoding format refers to IETFRFC4648</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>hBase64Obj[in](Base64 object)</td></tr>
+  <tr><td>pucOutData[out](decoded data)</td></tr>
+  <tr><td>puiOutDataLen[in,out](returns the length of the decoded data)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

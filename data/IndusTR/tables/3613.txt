@@ -1,0 +1,16 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type 5 Parameter Definition</caption>
+  <tr><td>Field</td><td>Name</td><td>Length/bit</td><td>Scale factor</td><td>Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>MesTypeID</td><td>Message type</td><td>6</td><td>1</td><td>0~63</td><td></td><td>See Table 5</td></tr>
+  <tr><td>Epoch time</td><td>Epoch time</td><td>17</td><td>1</td><td>0~86399</td><td>S</td><td>BeiDou time seconds-of-day count</td></tr>
+  <tr><td>Reserved bits</td><td>Reserved bits</td><td>4</td><td>1</td><td>0~15</td><td>1</td><td></td></tr>
+  <tr><td>IOD SSR</td><td>SSR issue of data</td><td>2</td><td>1</td><td>0~3</td><td>一</td><td>Changes when system configuration changes</td></tr>
+  <tr><td>IODP</td><td>Mask issue of data</td><td>4</td><td>1</td><td>0~15</td><td></td><td>Mask issue of data</td></tr>
+  <tr><td>SubType2</td><td>Subtype 2</td><td>3</td><td>1</td><td>0~7</td><td></td><td>Identifies satellite number</td></tr>
+  <tr><td rowspan="2">URAI(Satellite 1)</td><td>URAcLAss</td><td>3</td><td>1</td><td>0~7</td><td></td><td rowspan="2">User range accuracy index of satellite No. 1 in this type</td></tr>
+  <tr><td>URAvALUE</td><td>3</td><td>1</td><td>0~7</td><td>一</td></tr>
+  <tr><td>..</td><td>…</td><td>.…</td><td></td><td>.</td><td>.…</td><td>…</td></tr>
+  <tr><td>URAI（Satellite 70）</td><td></td><td>6</td><td>1</td><td></td><td></td><td>User range accuracy index of satellite No. 70 in this type</td></tr>
+  <tr><td>Reserved bits</td><td>Reserved bits</td><td>6</td><td></td><td></td><td></td><td>Reserved bits</td></tr>
+  <tr><td>CRC</td><td>Check bits</td><td>24</td><td></td><td></td><td></td><td></td></tr>
+</table>

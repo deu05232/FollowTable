@@ -1,0 +1,22 @@
+<table>
+  <caption>Radiation Source Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>X-ray Source ID</td><td>（0014,3203)</td><td>LO</td><td>1</td><td>3</td><td>Identifier of the X-ray source</td></tr>
+  <tr><td>X-ray Source Manufacturer</td><td>(300A,0216)</td><td>LO</td><td>1</td><td>3</td><td>Name of the X-ray source manufacturer</td></tr>
+  <tr><td>X-ray Tube Sequence</td><td>（0014,3200)</td><td>SQ</td><td>1</td><td>2C</td><td></td></tr>
+  <tr><td>>X-ray Tube Type</td><td>(300A,0214)</td><td>CS</td><td>1</td><td>2</td><td>Manufacturing type of the X-ray tube</td></tr>
+  <tr><td>>Maximum Tube Voltage</td><td>（0014,3204)</td><td>DS</td><td>1</td><td>3</td><td>Nominal maximum tube voltage of the X-ray tube, in kilovolts (kV)</td></tr>
+  <tr><td>>Maximum Tube Current</td><td>（0014,3206)</td><td>IS</td><td>1</td><td>3</td><td>Nominal maximum tube current of the X-ray tube, in milliamperes (mA)</td></tr>
+  <tr><td>>Source Power</td><td>(0018,1170)</td><td>IS</td><td>1</td><td>3</td><td>Nominal power of the X-ray tube, in watts (W)</td></tr>
+  <tr><td>>Anode Target Material</td><td>(0018,1191)</td><td>CS</td><td>1</td><td>3</td><td>Anode target material, including tungsten, molybdenum, rhodium, etc.</td></tr>
+  <tr><td>>Focal Spot Size</td><td>（0018,1190)</td><td>DS</td><td>1</td><td>1</td><td>Nominal focal spot size of the X-ray tube, in millimeters (mm)</td></tr>
+  <tr><td>>Radiation Angle</td><td>(0014,5112)</td><td>DS</td><td>1</td><td>3</td><td>Radiation angle during X-ray tube output, in degrees (°)</td></tr>
+  <tr><td>Pulse Width</td><td>(0014,4022)</td><td>CS</td><td>1</td><td>2C</td><td>Pulse width set during exposure, in nanoseconds (ns)</td></tr>
+  <tr><td>Gamma-ray Source Sequence</td><td>（0014,3220)</td><td>SQ</td><td>1</td><td>2C</td><td></td></tr>
+  <tr><td>>Gamma-ray Source Name</td><td>（300A,0226)</td><td>LO</td><td>1</td><td>1</td><td>Gamma-ray source, including Ir192, Co60, Cs37, Se75</td></tr>
+  <tr><td>>Half-life</td><td>（300A,0228)</td><td>DS</td><td>1</td><td>1</td><td>Isotope half-life, in days (d)</td></tr>
+  <tr><td>Source Size</td><td>（300A,0218)</td><td>DS</td><td>1</td><td>2</td><td>Overall dimensions of the isotope, in millimeters (mm)</td></tr>
+  <tr><td>>Source Activity</td><td>(300A,022B)</td><td>CS</td><td>1</td><td>2</td><td>Isotope activity measured for the gamma-ray source, in curies (Ci)</td></tr>
+  <tr><td>>Source Activity Reference Date</td><td>(300A,022C)</td><td>DA</td><td>1</td><td>3</td><td>Date when source activity (300A,022B) was measured</td></tr>
+  <tr><td>>Source Activity Reference Time</td><td>(300A,022E)</td><td>TM</td><td>1</td><td>3</td><td>Time when source activity (300A,022B) was measured</td></tr>
+</table>

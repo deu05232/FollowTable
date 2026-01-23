@@ -1,0 +1,12 @@
+# Outlook.com   Hotmail Manual Email Server Settings (POP3, IMAP, SMTP) with Ports
+
+| Protocol | Purpose | Server hostname | Port | Encryption | Authentication / Notes |
+| --- | --- | --- | --- | --- | --- |
+| POP3 | Incoming mail (download) | pop-mail.outlook.com | 995 | SSL/TLS | Username = full email address; app password may be required if MFA is enabled |
+| IMAP4 | Incoming mail (sync) | imap-mail.outlook.com | 993 | SSL/TLS | Recommended over POP for multi-device sync |
+| SMTP (STARTTLS) | Outgoing mail (send) | smtp-mail.outlook.com | 587 | STARTTLS (TLS) | Requires SMTP AUTH; username = full email address |
+| SMTP (SSL/TLS) | Outgoing mail (send) | smtp-mail.outlook.com | 465 | SSL/TLS | Alternative when the app requires implicit SSL |
+| POP3 (non-encrypted) | Incoming mail (legacy) | pop-mail.outlook.com | 110 | null | Not recommended; many clients/providers block plain POP |
+| SMTP (non-encrypted) | Outgoing mail (legacy) | smtp-mail.outlook.com | 25 | null / (opportunistic TLS) | Often blocked by ISPs; use 587/465 instead |
+| IMAP (non-encrypted) | Incoming mail (legacy) | imap-mail.outlook.com | 143 | STARTTLS | Use 993 if possible |
+| SMTP submission (modern) | Outgoing mail (send) | smtp.office365.com | 587 | STARTTLS (TLS) | Sometimes used by Microsoft accounts in certain clients/tenants; still requires auth |

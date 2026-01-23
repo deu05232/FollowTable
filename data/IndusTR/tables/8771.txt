@@ -1,0 +1,18 @@
+<table>
+  <caption>SpaceFibre Electrical Physical Layer — Transmitter Output Requirements (Differential Pair)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Conditions / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Differential output peak-to-peak voltage</td><td>VOUT,DIFF(pp)</td><td>400</td><td>900</td><td>1400</td><td>mVpp</td><td>Measured into 100 Ω differential load</td></tr>
+    <tr><td>Single-ended output swing</td><td>VOUT,SE(pp)</td><td>200</td><td>450</td><td>700</td><td>mVpp</td><td>One leg to common-mode reference</td></tr>
+    <tr><td>Output common-mode voltage</td><td>VCM,OUT</td><td>0.75</td><td>0.90</td><td>1.05</td><td>V</td><td>Steady-state common-mode level</td></tr>
+    <tr><td>Rise time (20–80%)</td><td>tR</td><td>20</td><td>45</td><td>80</td><td>ps</td><td>Measured at transmitter pins; de-embedded fixture</td></tr>
+    <tr><td>Fall time (20–80%)</td><td>tF</td><td>20</td><td>45</td><td>80</td><td>ps</td><td>Same methodology as rise time</td></tr>
+    <tr><td>Output differential impedance</td><td>ZOUT,DIFF</td><td>85</td><td>100</td><td>115</td><td>Ω</td><td>Small-signal differential source impedance</td></tr>
+    <tr><td>Intra-pair skew (P-to-N)</td><td>tSKEW</td><td></td><td>2</td><td>8</td><td>ps</td><td>Static skew between the two conductors of the pair</td></tr>
+    <tr><td>Transmitter output jitter (total)</td><td>JTOT</td><td></td><td></td><td>0.30</td><td>UI</td><td>Total jitter at specified BER extrapolation point</td></tr>
+    <tr><td>Near-end eye closure penalty (normalized)</td><td>X1</td><td></td><td></td><td>0.18</td><td>UI</td><td>Near-end limit; expressed in UI for direct eye-mask comparison</td></tr>
+    <tr><td>Far-end eye closure penalty (normalized)</td><td>X2</td><td></td><td></td><td>0.42</td><td>UI</td><td>Far-end limit; expressed in UI</td></tr>
+  </tbody>
+</table>

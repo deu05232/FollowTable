@@ -1,0 +1,17 @@
+<table>
+  <caption>Amber Body Parameter Thresholds by Axis (Intervals and Cutoffs Only)</caption>
+  <thead>
+    <tr><th>Axis</th><th>Band ID</th><th>Lower Bound</th><th>Upper Bound</th><th>Unit/Scale</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hue (H)</td><td>H1</td><td>10R</td><td>2.5YR</td><td>Munsell</td><td>reddish boundary</td></tr>
+    <tr><td>Hue (H)</td><td>H2</td><td>2.5YR</td><td>7.5YR</td><td>Munsell</td><td>orange region</td></tr>
+    <tr><td>Hue (H)</td><td>H3</td><td>7.5YR</td><td>2.5Y</td><td>Munsell</td><td>orange-yellow region</td></tr>
+    <tr><td>Value (V)</td><td>V1</td><td>2.0</td><td>3.0</td><td>Munsell V</td><td>low value cutoff</td></tr>
+    <tr><td>Value (V)</td><td>V2</td><td>4.0</td><td>5.0</td><td>Munsell V</td><td>mid value cutoff</td></tr>
+    <tr><td>Value (V)</td><td>V3</td><td>6.0</td><td>8.0</td><td>Munsell V</td><td>high value cutoff</td></tr>
+    <tr><td>Chroma (C)</td><td>C1</td><td>2</td><td>6</td><td>Munsell C</td><td>low chroma cutoff</td></tr>
+    <tr><td>Chroma (C)</td><td>C2</td><td>8</td><td>12</td><td>Munsell C</td><td>medium chroma cutoff</td></tr>
+    <tr><td>Chroma (C)</td><td>C3</td><td>12</td><td>16</td><td>Munsell C</td><td>high chroma cutoff</td></tr>
+  </tbody>
+</table>

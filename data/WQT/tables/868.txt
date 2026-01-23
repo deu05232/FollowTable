@@ -1,0 +1,11 @@
+# Nested RAID levels
+> Comparison
+
+| Level | Description | Minimum number of drives [a] | Space efficiency | Fault tolerance | Array failure rate [b] | Read performance | Write performance |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| RAID 01 | Block-level striping, and mirroring without parity | 4 (nested) 3 (hybrid) | Unknown | Unknown | Unknown | Unknown | Unknown |
+| RAID 03 | Block-level striping, and byte-level striping with dedicated parity | 6 | Unknown | Unknown | Unknown | Unknown | Unknown |
+| RAID 10 | Mirroring without parity, and block-level striping | 4 | stripes / n | m − 1 drive failures per span [c] | Unknown | n × [d] | ( n / spans ) × |
+| RAID 50 | Block-level striping with distributed parity, and block-level striping | 6 | Unknown | Unknown | Unknown | Unknown | Unknown |
+| RAID 60 | Block-level striping with double distributed parity, and block-level striping | 8 | Unknown | Unknown | Unknown | Unknown | Unknown |
+| RAID 100 | Mirroring without parity, and two levels of block-level striping | 8 | Unknown | Unknown | Unknown | Unknown | Unknown |

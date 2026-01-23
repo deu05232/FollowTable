@@ -1,0 +1,10 @@
+<table>
+  <caption>Minimum Recording Specifications — Vehicle Positioning & Motion State Signals</caption>
+  <tr><th>Serial No.</th><th>Data Name</th><th>Level</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Minimum Recording Data Capability Range</th><th>Minimum Recording Resolution</th><th>Minimum Recording Accuracy</th><th>Data Description</th></tr>
+  <tr><td>1</td><td>GNSS latitude</td><td>A</td><td>10 Hz</td><td>deg</td><td>-90 ~ 90</td><td>0.000001</td><td>Defined by the enterprise; should match actual positioning capability</td><td>Recorded value should be the output used by the autonomous driving function</td></tr>
+  <tr><td>2</td><td>GNSS longitude</td><td>A</td><td>10 Hz</td><td>deg</td><td>-180 ~ 180</td><td>0.000001</td><td>Defined by the enterprise; should match actual positioning capability</td><td>Recorded value should be the output used by the autonomous driving function</td></tr>
+  <tr><td>3</td><td>GNSS altitude</td><td>A</td><td>10 Hz</td><td>m</td><td>-500 ~ 9000</td><td>0.1</td><td>Defined by the enterprise; should match actual positioning capability</td><td></td></tr>
+  <tr><td>4</td><td>Vehicle yaw rate</td><td>A</td><td>10 Hz</td><td>deg/s</td><td>-250 ~ 250</td><td>0.1</td><td>±10% of the sensor detection range</td><td>Positive direction follows the vehicle coordinate definition</td></tr>
+  <tr><td>5</td><td>Steering wheel angle</td><td>A</td><td>10 Hz</td><td>deg</td><td>-720 ~ 720</td><td>1</td><td>±10% of the sensor detection range</td><td></td></tr>
+  <tr><td>6</td><td>Brake pedal position</td><td>A</td><td>10 Hz</td><td>%</td><td>0 ~ 100</td><td>1</td><td>±10% of the sensor detection range</td><td></td></tr>
+</table>

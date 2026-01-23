@@ -1,0 +1,8 @@
+<table>
+  <caption>Cryptographic Service Environment Cleanup Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Finalize(void * hAppHandle)</td></tr>
+  <tr><td>Description</td><td>Clear the application program space</td></tr>
+  <tr><td>Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success）</td></tr>
+  <tr><td>Non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

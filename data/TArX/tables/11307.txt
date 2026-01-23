@@ -1,0 +1,15 @@
+<table>
+  <caption>Simulated Solar System: hypothetical additional planets and modified orbital eccentricities</caption>
+  <thead>
+    <tr><th>Category</th><th>Body</th><th>Scenario</th><th>Semimajor axis (AU)</th><th>Eccentricity (e)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Known planets (modified)</td><td>Earth</td><td>High-e test</td><td>1.000</td><td>0.10</td><td>Artificially increased for stability study</td></tr>
+    <tr><td>Mars</td><td>Damped-e test</td><td>1.524</td><td>0.02</td><td>Reduced vs. nominal</td></tr>
+    <tr><td>Jupiter</td><td>Resonance sweep</td><td>5.203</td><td>0.12</td><td>Forced by migration model</td></tr>
+    <tr><td>Neptune</td><td>Scattered</td><td>30.07</td><td>0.25</td><td>Post-instability state</td></tr>
+    <tr><td rowspan="3">Fictional / added bodies</td><td>Planet X</td><td>Outer perturber</td><td>400</td><td>0.60</td><td>Hypothetical distant planet</td></tr>
+    <tr><td>Vulcan</td><td>Interior planet</td><td>0.18</td><td>0.03</td><td>Fictitious intra-Mercurial body</td></tr>
+    <tr><td>Planet Nine</td><td>Detached orbit</td><td>600</td><td>0.40</td><td>Speculative object</td></tr>
+  </tbody>
+</table>

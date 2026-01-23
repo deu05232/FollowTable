@@ -1,0 +1,16 @@
+<table>
+  <caption>Basic Math Operator Interface (ReduceSum) - Includes Axis Array and Output Tensor</caption>
+  <thead>
+    <tr><th>Field</th><th>Category</th><th>Optional/Required</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Supported Data Types</td><td>Environment</td><td>Optional</td><td>fp16/fp32/int32/int64; default fp32</td></tr>
+    <tr><td>Target Device Type</td><td>Environment</td><td>Optional</td><td>CPU/GPU/NPU; default CPU</td></tr>
+    <tr><td>Input Rank Constraint</td><td>Metadata</td><td>Required</td><td>Rank must be 1..8</td></tr>
+    <tr><td>KeepDims</td><td>Metadata</td><td>Optional</td><td>If true, reduced axes are kept with size 1</td></tr>
+    <tr><td>Axis Array</td><td>Operand</td><td>Required</td><td>List of axes to reduce; values in [-rank, rank-1]; must be unique after normalization</td></tr>
+    <tr><td>Axis Array Length</td><td>Operand</td><td>Required</td><td>Number of elements in Axis Array; must be 1..rank</td></tr>
+    <tr><td>Input Tensor</td><td>Operand</td><td>Required</td><td>Tensor to reduce; dtype must be supported</td></tr>
+    <tr><td>Output Tensor</td><td>Operand</td><td>Required</td><td>Reduced tensor; shape depends on Axis Array and KeepDims</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,19 @@
+<table>
+  <caption>Short-circuit breaking performance test requirements for contactor-based motor starters (Type 2 coordination)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current Ie (A)</th><th colspan="2">Short-circuit breaking requirement</th><th colspan="4">Test set-up factors</th></tr>
+    <tr><th>Prospective current Ip (kA)</th><th>Ultimate breaking current Icu (kA)</th><th>U/Ue</th><th>cosφ</th><th>Energizing time (s)</th><th>Interval time (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 9</td><td>0.5</td><td>0.5</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td></tr>
+    <tr><td>> 9 to 16</td><td>0.6</td><td>0.6</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td></tr>
+    <tr><td>> 16 to 32</td><td>1.0</td><td>1.0</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td></tr>
+    <tr><td>> 32 to 63</td><td>1.5</td><td>1.5</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td></tr>
+    <tr><td>> 63 to 80</td><td>2.0</td><td>2.0</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td></tr>
+    <tr><td>> 80 to 125</td><td>2.5</td><td>2.5</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td></tr>
+    <tr><td>> 125 to 160</td><td>3.0</td><td>3.0</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="7">Number of tests: 3 at each specified kA level. Test objective: verify short-circuit breaking performance of the starter/contactor assembly at the stated prospective current.</td></tr>
+  </tfoot>
+</table>

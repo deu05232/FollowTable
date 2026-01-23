@@ -1,0 +1,10 @@
+<table>
+  <caption>Message Delivery Webhook Environment Requirements (Lab & Network)</caption>
+  <tr><th>Requirement Category</th><th>Item</th><th>Recommended Value</th><th>Minimum Value</th><th>Verification Method</th><th>Applies To</th><th>Remarks</th></tr>
+  <tr><td>Network</td><td>Outbound Bandwidth</td><td>≥ 50 Mbps</td><td>≥ 10 Mbps</td><td>iPerf / ISP report</td><td>Webhook receiver</td><td>Spikes expected during retries</td></tr>
+  <tr><td>Network</td><td>Public IP Stability</td><td>Static IP</td><td>Stable NAT</td><td>Change log</td><td>Receiver endpoint</td><td>Allowlist-friendly</td></tr>
+  <tr><td>Security</td><td>TLS Version</td><td>TLS 1.2+</td><td>TLS 1.2</td><td>SSL scan</td><td>All endpoints</td><td>Disable weak ciphers</td></tr>
+  <tr><td>System</td><td>Clock Skew</td><td>< 500 ms</td><td>< 2 s</td><td>NTP audit</td><td>Signature validation</td><td>Affects timestamp checks</td></tr>
+  <tr><td>Compute</td><td>CPU / Memory</td><td>4 vCPU / 8 GB</td><td>2 vCPU / 4 GB</td><td>Monitoring</td><td>Receiver service</td><td>Depends on throughput</td></tr>
+  <tr><td>Logging</td><td>Retention</td><td>30 days</td><td>7 days</td><td>Log policy</td><td>Operations</td><td>Needed for dispute handling</td></tr>
+</table>

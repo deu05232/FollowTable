@@ -1,0 +1,15 @@
+<table>
+  <caption>Smart Capability Requirements by Instrument Category (with detailed sub-types)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Sub-type / Principle</th><th>Required Smart Capabilities (Description)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Measuring Instruments</td><td>Pressure Transmitters (Differential)</td><td>Support auto-zero and square-root extraction; configurable damping and range; digital communication for parameter read/write; abnormal impulse-line blockage detection; event logging with timestamp.</td></tr>
+    <tr><td>Flow Meters (Vortex)</td><td>Signal quality monitoring (amplitude distribution); detect condensation and water-hammer risk; provide diagnostic confidence score; store totalized flow and diagnostic history; remote firmware/parameter management.</td></tr>
+    <tr><td>Temperature Instruments (RTD/Thermocouple)</td><td>Sensor-type auto-recognition; drift estimation and calibration reminders; out-of-range and open-circuit diagnostics; configurable filtering; remote configuration and audit trail.</td></tr>
+    <tr><td rowspan="2">Analytical Instruments</td><td>Gas Analyzers</td><td>Adaptive algorithm tuning using historical samples; automatic calibration scheduling; trend analysis and anomaly detection; user access control; maintenance prediction and consumable-life estimation.</td></tr>
+    <tr><td>Liquid Analyzers (pH/Conductivity)</td><td>Auto-compensation based on temperature and process state; self-cleaning cycle management; calibration wizard with traceability records; alarm rationalization; remote diagnostics and report export.</td></tr>
+    <tr><td rowspan="2">Actuators</td><td>Electric Actuators</td><td>Valve signature capture; torque/thrust learning; stuck-valve detection; remote/local mode management; event/alarm logging; configurable open/close limits and travel characterization.</td></tr>
+    <tr><td>Electro-hydraulic Actuators</td><td>Hydraulic pressure/temperature monitoring; leakage detection; torque curve analytics; communication health monitoring; predictive maintenance counters; configurable control profiles.</td></tr>
+  </tbody>
+</table>

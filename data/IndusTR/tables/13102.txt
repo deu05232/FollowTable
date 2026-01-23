@@ -1,0 +1,14 @@
+<table>
+  <caption>Construction Machinery OID Branch: Non-Contiguous and Overlapping Node Mentions</caption>
+  <thead>
+    <tr><th>OID Prefix</th><th>Recipient</th><th>Nodes Mentioned</th><th>Allocation Style</th><th>Issue</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">1.2.156.3514</td><td>Legacy ID System A</td><td>1001, 1003</td><td>Selected points</td><td>No continuous range shown</td></tr>
+    <tr><td>Legacy ID System B</td><td>1002</td><td>Single point</td><td>No block boundaries</td></tr>
+    <tr><td>Third-party Org Alpha</td><td>2011, 2015, 2099</td><td>Scattered examples</td><td>Not a span; size unclear</td></tr>
+    <tr><td>Third-party Org Beta</td><td>3001, 4500</td><td>Non-contiguous points</td><td>Does not indicate reserved interval</td></tr>
+    <tr><td>Third-party Org Gamma</td><td>9000, 9500, 9999</td><td>Point set</td><td>Still not a start–end allocation</td></tr>
+    <tr><td>Research Metadata Node</td><td>1</td><td>Single point</td><td>Not participant range allocation</td></tr>
+  </tbody>
+</table>

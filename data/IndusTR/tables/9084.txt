@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Camera Intrinsics Retrieval Mixed With Clipping and Pose Outputs</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Active AR session handle</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>Camera handle used for the current frame</td></tr>
+    <tr><td>out_intrinsics</td><td>ArCameraIntrinsics *</td><td>Receives the camera intrinsics object</td></tr>
+    <tr><td>out_image_width</td><td>int32_t *</td><td>Receives the image width associated with the intrinsics</td></tr>
+    <tr><td>out_image_height</td><td>int32_t *</td><td>Receives the image height associated with the intrinsics</td></tr>
+    <tr><td>near_plane</td><td>float</td><td>Near clipping plane distance for rendering</td></tr>
+    <tr><td>far_plane</td><td>float</td><td>Far clipping plane distance for rendering</td></tr>
+    <tr><td>out_camera_pose</td><td>ArPose *</td><td>Receives the camera pose in world coordinates</td></tr>
+  </tbody>
+</table>

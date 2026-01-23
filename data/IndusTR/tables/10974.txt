@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitary Equipment Device Family and Use-Case Classification (Not Spec Parameters)</caption>
+  <thead>
+    <tr><th>Data Element Identifier</th><th>Data Element Name</th><th>Classification / Options</th><th>Constraint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SE4101</td><td>Intended Use Environment</td><td>Hospital ward / Operating room / Laboratory / Ambulance</td><td>B</td></tr>
+    <tr><td>SE4102</td><td>Target Object Category</td><td>Hands / Instruments / Surfaces / Liquids / Waste</td><td>B</td></tr>
+    <tr><td>SE4103</td><td>Applicable Disinfectant Type</td><td>Alcohol / Chlorine-based / Peroxide / Quaternary ammonium</td><td>A</td></tr>
+    <tr><td>SE4104</td><td>Consumable System Type</td><td>Cartridge / Bottle / Bulk tank</td><td>A</td></tr>
+    <tr><td>SE4105</td><td>Maintenance Class</td><td>User-serviceable / Technician required / Factory only</td><td>A</td></tr>
+    <tr><td>SE4106</td><td>Connectivity Type</td><td>null / USB / Wi-Fi / Ethernet</td><td>A</td></tr>
+    <tr><td>SE4107</td><td>Regulatory Classification</td><td>Class I / Class II / Class III (region-dependent)</td><td>A</td></tr>
+    <tr><td>SE4108</td><td>Workflow Integration Mode</td><td>Standalone / Central monitoring / Building management system</td><td>A</td></tr>
+  </tbody>
+</table>

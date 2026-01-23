@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Process Parameters for Starter Assembly Line (Station Settings)</caption>
+  <thead>
+    <tr><th>Station</th><th>Process step</th><th>Machine model</th><th>Setting</th><th>Control limit</th><th>Sampling frequency</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>S01</td><td>Coil winding</td><td>WIND-X3</td><td>Turns: 1250</td><td>±10 turns</td><td>1/lot</td><td>PR-01</td></tr>
+    <tr><td>S02</td><td>Contact riveting</td><td>RIV-220</td><td>Force: 3.2 kN</td><td>±0.2 kN</td><td>1/shift</td><td>PR-02</td></tr>
+    <tr><td>S03</td><td>Spring preload</td><td>SPG-CAL</td><td>Preload: 18 N</td><td>±1 N</td><td>1/shift</td><td>PR-03</td></tr>
+    <tr><td>S04</td><td>Torque tightening</td><td>TQ-900</td><td>1.8 N·m</td><td>+0.2/-0.1</td><td>10 pcs/shift</td><td>PR-04</td></tr>
+    <tr><td>S05</td><td>Grease application</td><td>GRS-15</td><td>0.25 g</td><td>±0.05 g</td><td>1/lot</td><td>PR-05</td></tr>
+    <tr><td>S06</td><td>End-of-line functional check</td><td>EOL-TEST</td><td>Coil pick-up check</td><td>Pass/Fail</td><td>100%</td><td>PR-06</td></tr>
+  </tbody>
+</table>

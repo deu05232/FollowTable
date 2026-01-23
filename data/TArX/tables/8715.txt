@@ -1,0 +1,15 @@
+<table>
+  <caption>Material-Dependent Coefficient of Restitution for Sphere-on-Plate Impacts (Room Temperature)</caption>
+  <thead>
+    <tr><th rowspan="2">Impacted material (plate)</th><th rowspan="2">Counterface (sphere)</th><th colspan="2">Normal coefficient of restitution, e</th><th rowspan="2">Impact velocity range (m/s)</th><th rowspan="2">Test notes</th></tr>
+    <tr><th>e at 0.5 m/s</th><th>e at 1.5 m/s</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Steel (AISI 52100)</td><td>Steel</td><td>0.78</td><td>0.63</td><td>0.3–2.0</td><td>Polished, dry contact</td></tr>
+    <tr><td>Aluminum (6061-T6)</td><td>Steel</td><td>0.62</td><td>0.43</td><td>0.3–2.0</td><td>Higher plasticity reduces rebound</td></tr>
+    <tr><td>Titanium (Ti-6Al-4V)</td><td>Steel</td><td>0.66</td><td>0.49</td><td>0.3–2.0</td><td>Intermediate dissipation</td></tr>
+    <tr><td>Brass (C36000)</td><td>Steel</td><td>0.58</td><td>0.39</td><td>0.3–2.0</td><td>More damping than Al</td></tr>
+    <tr><td>Glass (soda-lime)</td><td>Steel</td><td>0.84</td><td>0.76</td><td>0.3–2.0</td><td>Brittle, low plastic loss</td></tr>
+    <tr><td>Rubber (neoprene)</td><td>Steel</td><td>0.32</td><td>0.22</td><td>0.3–2.0</td><td>Viscoelastic losses dominate</td></tr>
+  </tbody>
+</table>

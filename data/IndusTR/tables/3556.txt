@@ -1,0 +1,7 @@
+<table>
+  <caption>Augmented Reality Pose Matrix Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>pose</td><td>ArPose *</td><td>Pose pointer</td></tr>
+  <tr><td>out_matrix_col_major_4×4</td><td>float *</td><td>Output pointer to the converted 4×4 matrix</td></tr>
+</table>

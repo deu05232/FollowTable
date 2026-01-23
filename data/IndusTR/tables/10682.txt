@@ -1,0 +1,7 @@
+<table>
+  <caption>Device Security Authentication + Material Form Save API</caption>
+  <tr><th>API Name</th><td>Device Security Authentication + Material Form Save API</td></tr>
+  <tr><th>API Description</th><td>Authenticate a device and save a production material form under that device context</td></tr>
+  <tr><th>API Method</th><td>POST</td></tr>
+  <tr><th>Parameter Description</th><td>Must include at least: User ID (string userID), authentication parameter (string access_token), device ID (string devID), signature (string devSign), form name (string materialName), form version (string formVer), template ID (string tplID)</td></tr>
+</table>

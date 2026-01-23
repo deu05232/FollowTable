@@ -1,0 +1,10 @@
+<table>
+  <caption>Cell voltage monitoring message definition (with extra charging limits)</caption>
+  <tr><th>Start byte or bit</th><th>Length</th><th>SPN</th><th>SPN definition</th><th>Send option</th></tr>
+  <tr><td>1</td><td>2 bytes</td><td>3101</td><td>#1 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>3102</td><td>#2 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>3103</td><td>#3 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>7</td><td>2 bytes</td><td>3104</td><td>#4 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>9</td><td>2 bytes</td><td>2816</td><td>Maximum allowable charging voltage of a single traction battery cell</td><td>Required</td></tr>
+  <tr><td>11</td><td>2 bytes</td><td>2817</td><td>Maximum allowable charging current</td><td>Required</td></tr>
+</table>

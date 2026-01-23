@@ -1,0 +1,17 @@
+<table>
+  <caption>Enterprise Registry Core Identification Data Elements</caption>
+  <thead>
+    <tr><th>Data Item</th><th>System Field Name</th><th>Storage Type / Length</th><th>Value Constraints</th><th>Notes (Identity Purpose)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Registered Entity Name (Official)</td><td>reg_ent_name</td><td>VARCHAR(200)</td><td>UTF-8; not null</td><td>Primary legal name used in registry recognition</td></tr>
+    <tr><td>Unified Social Credit Code (USCC)</td><td>uscc</td><td>CHAR(18)</td><td>18 characters; uppercase letters + digits</td><td>Unique national identifier for the enterprise</td></tr>
+    <tr><td>Registration Number</td><td>reg_no</td><td>VARCHAR(30)</td><td>Nullable (legacy); digits/letters</td><td>Legacy identifier used by some systems alongside USCC</td></tr>
+    <tr><td>Organization Code</td><td>org_code</td><td>CHAR(9)</td><td>Format: 8 chars + check digit</td><td>Historical identifier; may appear in older datasets</td></tr>
+    <tr><td>Legal Representative Name</td><td>legal_rep_name</td><td>VARCHAR(60)</td><td>UTF-8</td><td>Key identity attribute linking the entity to a responsible person</td></tr>
+    <tr><td>Legal Representative ID Type</td><td>legal_rep_id_type</td><td>VARCHAR(20)</td><td>Enum: IDCard, Passport, Other</td><td>Describes the identifier type for the legal representative</td></tr>
+    <tr><td>Legal Representative ID Number</td><td>legal_rep_id_no</td><td>VARCHAR(32)</td><td>Alphanumeric; masked storage allowed</td><td>Identifier for the person associated with the enterprise record</td></tr>
+    <tr><td>Registered Address (Text)</td><td>reg_address</td><td>VARCHAR(300)</td><td>UTF-8</td><td>Registry address used for identity/contact purposes</td></tr>
+    <tr><td>Registry Authority Code</td><td>reg_auth_code</td><td>VARCHAR(18)</td><td>Government code set</td><td>Identifies which authority registered the enterprise</td></tr>
+  </tbody>
+</table>

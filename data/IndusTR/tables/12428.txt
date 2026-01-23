@@ -1,0 +1,20 @@
+<table>
+  <caption>Caption Text Styling Descriptor (Fonts, Emphasis, and Color)</caption>
+  <thead>
+    <tr><th>Syntax Element</th><th>Type</th><th>Range / Enumeration</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>style_id</td><td>u(8)</td><td>0..255</td><td>Style entry identifier</td></tr>
+    <tr><td>font_id</td><td>u(7)</td><td>0..127</td><td>Selects font family</td></tr>
+    <tr><td>font_size</td><td>u(2)</td><td>0=small,1=standard,2=large,3=reserved</td><td>Glyph scaling</td></tr>
+    <tr><td>italics_flag</td><td>u(1)</td><td>0/1</td><td>Italic rendering</td></tr>
+    <tr><td>underline_flag</td><td>u(1)</td><td>0/1</td><td>Underline rendering</td></tr>
+    <tr><td>bold_flag</td><td>u(1)</td><td>0/1</td><td>Bold rendering</td></tr>
+    <tr><td>edge_type</td><td>u(3)</td><td>0=none,1=raised,2=depressed,3=uniform,4-7=reserved</td><td>Text edge effect</td></tr>
+    <tr><td>foreground_color</td><td>u(8)</td><td>Color index</td><td>Text color</td></tr>
+    <tr><td>foreground_opacity</td><td>u(2)</td><td>0=solid,1=flash,2=translucent,3=transparent</td><td>Opacity of text</td></tr>
+    <tr><td>background_color</td><td>u(8)</td><td>Color index</td><td>Background behind glyphs</td></tr>
+    <tr><td>background_opacity</td><td>u(2)</td><td>0=solid,1=flash,2=translucent,3=transparent</td><td>Opacity behind text</td></tr>
+    <tr><td>edge_color</td><td>u(8)</td><td>Color index</td><td>Edge/shadow color</td></tr>
+  </tbody>
+</table>

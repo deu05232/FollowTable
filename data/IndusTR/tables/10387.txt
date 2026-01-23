@@ -1,0 +1,19 @@
+<table>
+  <caption>Administrative Management Data Dictionary — Enterprise Registration & Profile Elements</caption>
+  <thead>
+    <tr><th>Category</th><th>Data Item Name</th><th>Field Name</th><th>Data Type / Format</th><th>Value Domain</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Registration Identity</td><td>Enterprise Name</td><td>EntName</td><td>VARCHAR(100)</td><td></td><td>Official registered name of the enterprise</td></tr>
+    <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>CHAR(18)</td><td>18-character code</td><td>National unified identifier</td></tr>
+    <tr><td>Registration Number</td><td>RegNo</td><td>VARCHAR(30)</td><td></td><td>Legacy registration identifier (if applicable)</td></tr>
+    <tr><td>Organization Code</td><td>OrgCode</td><td>CHAR(9)</td><td>XXXXXXXX-X</td><td>Organization code where still collected</td></tr>
+    <tr><td rowspan="4">Responsible Persons</td><td>Legal Representative Name</td><td>LeRepName</td><td>VARCHAR(50)</td><td></td><td>Full name of legal representative</td></tr>
+    <tr><td>Legal Representative ID Type</td><td>LeRepIDType</td><td>VARCHAR(20)</td><td>IDCard/Passport/Other</td><td>Document type used for identification</td></tr>
+    <tr><td>Legal Representative ID Number</td><td>LeRepIDNo</td><td>VARCHAR(30)</td><td></td><td>Identification document number</td></tr>
+    <tr><td>Contact Person</td><td>ContactName</td><td>VARCHAR(50)</td><td></td><td>Primary liaison for administrative matters</td></tr>
+    <tr><td rowspan="3">Administrative Attributes</td><td>Enterprise Type</td><td>EntType</td><td>VARCHAR(30)</td><td>LLC/JSC/SoleProp/Partnership/Other</td><td>Legal form / organizational type</td></tr>
+    <tr><td>Business Status</td><td>BizStatus</td><td>VARCHAR(20)</td><td>Active/Suspended/Deregistered</td><td>Current operating/registration status</td></tr>
+    <tr><td>Date of Establishment</td><td>EstabDate</td><td>DATE</td><td>YYYY-MM-DD</td><td>Incorporation/establishment date</td></tr>
+  </tbody>
+</table>

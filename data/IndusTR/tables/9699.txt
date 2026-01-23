@@ -1,0 +1,18 @@
+<table>
+  <caption>Auxiliary and Ancillary Production System Activity Data for Chemical Fiber Plants (Plant-Wide Utilities and Waste Handling)</caption>
+  <thead>
+    <tr><th>Subsystem (shared plant support)</th><th>Typical unit operations / equipment</th><th>Key input activity data tracked</th><th>Key output flows / waste streams</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Steam and condensate system</td><td>Boiler house / steam generation</td><td>Fuel (natural gas, coal, fuel oil) use; boiler feedwater; boiler chemicals (phosphate, oxygen scavenger); electricity for fans/pumps</td><td>Steam (low/medium/high pressure); flue gas; boiler blowdown (wastewater); ash/slag (if solid fuel)</td></tr>
+    <tr><td>Condensate return & deaeration</td><td>Make-up water volume; condensate return rate; deaerator steam; chemical dosing</td><td>Recovered condensate; vent losses; wastewater from drains</td></tr>
+    <tr><td rowspan="2">Compressed air system</td><td>Air compressors and aftercoolers</td><td>Electricity consumption; cooling water; lubricant oil; intake air flow</td><td>Compressed air to workshops; condensate (oily water); waste oil / oily rags</td></tr>
+    <tr><td>Air drying & distribution</td><td>Desiccant or refrigerant dryer electricity; desiccant replacement; purge air</td><td>Dry compressed air; spent desiccant; noise/heat losses</td></tr>
+    <tr><td>Nitrogen generation & distribution</td><td>PSA / membrane nitrogen unit</td><td>Electricity; compressed air feed; nitrogen purity setpoint; filter elements</td><td>Nitrogen to process/inerting; vented off-gas; spent filters</td></tr>
+    <tr><td rowspan="2">Water supply and cooling utilities</td><td>Raw water treatment (softening/RO)</td><td>Raw water intake; electricity; chemicals (coagulant, antiscalant, acid/alkali); cartridge filters</td><td>Product water (process/boiler make-up); reject brine; spent filters (solid waste)</td></tr>
+    <tr><td>Cooling water / cooling tower</td><td>Circulating pump electricity; make-up water; biocide and corrosion inhibitor; blowdown rate</td><td>Cooled water to users; cooling tower drift; blowdown wastewater (high TDS)</td></tr>
+    <tr><td>Power and distribution</td><td>Transformers, switchgear, plant lighting</td><td>Purchased electricity; internal power losses; backup generator fuel (if any)</td><td>Delivered electricity to units; waste batteries; spent oils (transformer/gear)</td></tr>
+    <tr><td rowspan="2">Wastewater and waste management</td><td>Wastewater collection & treatment (phys-chem/biological)</td><td>Influent flow and COD/BOD; electricity for aeration; reagents (lime, polymer); nutrients; sludge dewatering energy</td><td>Treated effluent; dewatered sludge (hazardous/non-hazardous); off-gas/odor</td></tr>
+    <tr><td>Solid and hazardous waste handling</td><td>Waste segregation, storage, transport</td><td>Packaging materials; liners; transport distance; incineration/landfill service</td><td>Disposed hazardous waste; disposed general waste; recovered recyclables</td></tr>
+  </tbody>
+</table>

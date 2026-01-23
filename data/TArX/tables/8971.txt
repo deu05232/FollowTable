@@ -1,0 +1,14 @@
+<table>
+  <caption>Material-dependent coefficients of restitution (dry, room-temperature impacts) and fitted model parameters</caption>
+  <thead>
+    <tr><th>Material</th><th>Common contact pair (example)</th><th>Representative COR at low speed e0</th><th>Fit parameter: e_inf (high-speed limit)</th><th>Fit parameter: v_c (m/s)</th><th>Fit form</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Steel</td><td>Steel-on-steel</td><td>0.90</td><td>0.45</td><td>1.2</td><td>e(v)=e_inf+(e0-e_inf)·exp(-v/v_c)</td><td>Higher hardness; tends to remain relatively bouncy at low v</td></tr>
+    <tr><td>Aluminum</td><td>Al-on-steel</td><td>0.75</td><td>0.30</td><td>0.9</td><td>e(v)=e_inf+(e0-e_inf)·exp(-v/v_c)</td><td>More plastic dissipation than steel</td></tr>
+    <tr><td>Titanium</td><td>Ti-on-steel</td><td>0.82</td><td>0.38</td><td>1.0</td><td>e(v)=e_inf+(e0-e_inf)·exp(-v/v_c)</td><td>Intermediate behavior between steel and aluminum</td></tr>
+    <tr><td>Glass</td><td>Glass-on-glass</td><td>0.93</td><td>0.55</td><td>1.4</td><td>e(v)=e_inf+(e0-e_inf)·exp(-v/v_c)</td><td>Brittle; high e at gentle impacts</td></tr>
+    <tr><td>Rubber</td><td>Rubber-on-steel</td><td>0.80</td><td>0.10</td><td>0.6</td><td>e(v)=e_inf+(e0-e_inf)·exp(-v/v_c)</td><td>Strong viscoelastic losses; e drops quickly with v</td></tr>
+    <tr><td>PTFE (Teflon)</td><td>PTFE-on-steel</td><td>0.55</td><td>0.05</td><td>0.5</td><td>e(v)=e_inf+(e0-e_inf)·exp(-v/v_c)</td><td>Soft polymer; typically low rebound</td></tr>
+  </tbody>
+</table>

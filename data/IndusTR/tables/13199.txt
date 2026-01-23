@@ -1,0 +1,11 @@
+<table>
+  <caption>Basic Math Operator Interface Parameters (Unary Neg/Abs/Sqrt/Exp)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Unary operator input. Shape is explicitly provided viarank,dims[](dimension size array), andlayout(e.g., NCHW/NHWC/ND). Layout is used to interpret dimension semantics when applicable.</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Unary operator output. By default, output shape matches input shape exactly (same rank, dims[] and layout), unless an operator-specific rule states otherwise.</td></tr>
+  <tr><td>Tensor Shape</td><td>Input</td><td>Required</td><td>Dedicated tensor shape field used for interface compatibility checks: includes tensor dimensions (rank), dimension size array (dims[]), and layout information. If layout is not provided, the default layout is assumed.</td></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Element type of input/output (e.g., float16/float32/int32/complex). If omitted, defaults to floating-point real numbers or is inferred from the input tensor.</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Target device for execution (CPU/GPU/NPU/FPGA/ASIC, etc.). Defaults to CPU or runtime default.</td></tr>
+  <tr><td>In-place Allowed</td><td>Input</td><td>Optional</td><td>Whether output may alias the input buffer. When enabled, shape metadata must still match exactly to ensure safe in-place execution.</td></tr>
+  <tr><td>Rounding / Math Mode</td><td>Input</td><td>Optional</td><td>Optional computation mode (e.g., fast-math). Does not change tensor shape; only affects numeric behavior.</td></tr>
+</table>

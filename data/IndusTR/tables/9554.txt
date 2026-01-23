@@ -1,0 +1,11 @@
+<table>
+  <caption>Minimum vs optional adaptation interfaces for deploying a framework on an accelerator</caption>
+  <tr><th>Adaptation interface area</th><th>Requiredness</th><th>What it covers</th><th>When you would implement it</th></tr>
+  <tr><td>Executable model build</td><td>Required</td><td>Compile/assemble an executable model from the framework-side representation</td><td>Always, to run any graph on hardware</td></tr>
+  <tr><td>Executable model lifecycle</td><td>Required</td><td>Resource allocation, teardown, and handle management for the built artifact</td><td>Always, to avoid leaks and support repeated runs</td></tr>
+  <tr><td>Graph capture / graph generation</td><td>Required</td><td>Produce a stable computation graph object that compilation and partitioning can consume</td><td>When the framework uses graph mode or needs ahead-of-time build</td></tr>
+  <tr><td>Initialization & shutdown hooks</td><td>Optional</td><td>One-time setup/cleanup for the integration runtime</td><td>When startup cost or global settings matter</td></tr>
+  <tr><td>IR construction helpers</td><td>Optional</td><td>Transform framework graph into a compiler-friendly IR to enable optimizations</td><td>When you rely on compiler passes rather than direct codegen</td></tr>
+  <tr><td>IR lowering helpers</td><td>Optional</td><td>Lower high-level IR into target-level IR for backend code generation</td><td>When multiple backends share a common lowering pipeline</td></tr>
+  <tr><td>Compatibility checking</td><td>Optional</td><td>Analyze operator support and split graphs into supported subgraphs</td><td>When partial offload or mixed execution is needed</td></tr>
+</table>

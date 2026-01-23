@@ -1,0 +1,13 @@
+<table>
+  <caption>SAMSI Exoplanet Working Group Reference Priors</caption>
+  <tr><td>Model Parameter</td><td>Variable</td><td>Prior Distribution</td><td>Minimum</td><td>Maximum</td></tr>
+  <tr><td>Amplitude of jitter</td><td>s</td><td>{(s+s_(0))^(-1){(1.+_()s_(0))}</td><td>0 m/s</td><td>K_()</td></tr>
+  <tr><td colspan="5">Parameters for each velocity reference</td></tr>
+  <tr><td>Velocity offset</td><td>C_(j)</td><td>1C_()-C_()</td><td>- K_()</td><td>K_()</td></tr>
+  <tr><td colspan="5">Parameters for each planet</td></tr>
+  <tr><td>Orbital period</td><td>P_(i)</td><td>{P_(i)^(-1)(P_()/P_())</td><td>1 d</td><td>10^(3) yr</td></tr>
+  <tr><td>Velocity semi-amplitude</td><td>K_(i)</td><td>{(K_(i)+K_(0))^(-1){[1.+_()K_(0)(_(% )P_(i))^(1/3)]}</td><td>0 m/s</td><td>K_() (_()P_(i))^({1)3}</td></tr>
+  <tr><td>Orbital eccentricity</td><td>e_(i)</td><td>1</td><td>0</td><td>1</td></tr>
+  <tr><td>Argument of periastron</td><td>ω_(i)</td><td>12</td><td>0</td><td>2</td></tr>
+  <tr><td>Orbital phase</td><td>M_(i)</td><td>12</td><td>0</td><td>2</td></tr>
+</table>

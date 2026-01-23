@@ -1,0 +1,16 @@
+<table>
+  <caption>Traditional Mongolian Mandatory Ligature Conversions (Glyph-Only Reference)</caption>
+  <tr><th>Position in Word</th><th>Presentation Form No.</th><th>ID</th><th>Glyph</th><th>Conversion Rules</th><th>Notes</th></tr>
+  <tr><td rowspan="6">Isolated</td><td>1</td><td>02B1</td><td>G1</td><td>Ligature-A</td><td>Use default substitution</td></tr>
+  <tr><td>2</td><td>02B2</td><td>G2</td><td>Ligature-B</td><td>Context-dependent</td></tr>
+  <tr><td>3</td><td>02B3</td><td>G3</td><td>Ligature-C</td><td>Preferred in UI fonts</td></tr>
+  <tr><td>4</td><td>02B4</td><td>G4</td><td>Ligature-D</td><td>Do not use in legacy text</td></tr>
+  <tr><td>5</td><td>02B5</td><td>G5</td><td>Ligature-E</td><td>Requires shaping engine</td></tr>
+  <tr><td>6</td><td>02B6</td><td>G6</td><td>Ligature-F</td><td>Rare form</td></tr>
+  <tr><td rowspan="6">Initial</td><td>1</td><td>02C1</td><td>I1</td><td>Init-Lig-A</td><td>Font-specific behavior</td></tr>
+  <tr><td>2</td><td>02C2</td><td>I2</td><td>Init-Lig-B</td><td>May conflict with stylistic set</td></tr>
+  <tr><td>3</td><td>02C3</td><td>I3</td><td>Init-Lig-C</td><td>Modern only</td></tr>
+  <tr><td>4</td><td>02C4</td><td>I4</td><td>Init-Lig-D</td><td>Deprecated mapping</td></tr>
+  <tr><td>5</td><td>02C5</td><td>I5</td><td>Init-Lig-E</td><td>See appendix</td></tr>
+  <tr><td>6</td><td>02C6</td><td>I6</td><td>Init-Lig-F</td><td>Not standardized</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Augmented Face Region Pose Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>face</td><td>ArAugmentedFace *</td><td>Augmented face pointer</td></tr>
+  <tr><td>region_type</td><td>ArAugmentedFaceRegionType</td><td>Augmented face region type</td></tr>
+  <tr><td>out_pose</td><td>ArPose *</td><td>Pose information pointer</td></tr>
+</table>

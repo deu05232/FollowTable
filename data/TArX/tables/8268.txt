@@ -1,0 +1,17 @@
+<table>
+  <caption>Reflectance (Albedo) of Exoplanet Surface Endmembers and Laboratory Samples (NIR Bands)</caption>
+  <thead>
+    <tr><th rowspan="2">Surface Endmember</th><th colspan="3">Spectral Albedo</th><th colspan="3">Material / Sample Properties</th><th rowspan="2">Notes</th></tr>
+    <tr><th>J</th><th>H</th><th>K</th><th>Grain Size (µm)</th><th>Porosity (vol%)</th><th>Source Type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Basaltic regolith</td><td>0.18</td><td>0.22</td><td>0.24</td><td>75</td><td>35</td><td>Laboratory powder</td><td>Dark mafic surface</td></tr>
+    <tr><td>Feldspathic (anorthosite)</td><td>0.45</td><td>0.52</td><td>0.55</td><td>60</td><td>40</td><td>Laboratory powder</td><td>Lunar highlands analog</td></tr>
+    <tr><td>Ultramafic (olivine-rich)</td><td>0.30</td><td>0.48</td><td>0.58</td><td>90</td><td>30</td><td>Modeled mixture</td><td>Strong NIR reflectance</td></tr>
+    <tr><td>Metal-rich (sulfide)</td><td>0.14</td><td>0.20</td><td>0.23</td><td>50</td><td>25</td><td>Laboratory powder</td><td>High absorption bands</td></tr>
+    <tr><td>Hydrated silicates</td><td>0.22</td><td>0.25</td><td>0.20</td><td>45</td><td>50</td><td>Modeled mixture</td><td>Water features reduce K</td></tr>
+    <tr><td>Water ice (fine)</td><td>0.80</td><td>0.78</td><td>0.60</td><td>20</td><td>55</td><td>Laboratory slab</td><td>High J/H, lower K</td></tr>
+    <tr><td>Water ice (coarse)</td><td>0.65</td><td>0.60</td><td>0.40</td><td>250</td><td>45</td><td>Laboratory slab</td><td>Grain-size darkening</td></tr>
+    <tr><td>Tholin-like organics</td><td>0.06</td><td>0.05</td><td>0.04</td><td>30</td><td>60</td><td>Laboratory film</td><td>Very low reflectance</td></tr>
+  </tbody>
+</table>

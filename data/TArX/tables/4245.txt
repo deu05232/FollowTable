@@ -1,0 +1,69 @@
+<table>
+  <caption>\CFHTLenS Catalogue columns: Quantities with a _ x at the end of their name are present for all available filters, i.e. x ∈ { u * , g ′ , r ′ , i ′ , y ′ , z ′ } .</caption>
+  <tr><th>column name</th><th>description</th><th>programme</th><th>unit</th></tr>
+  <tr><td>id</td><td>Unique object identification ID.</td><td></td><td></td></tr>
+  <tr><td>field</td><td>Name of the pointing.</td><td></td><td></td></tr>
+  <tr><td>SeqNr</td><td>Running number within pointing</td><td></td><td></td></tr>
+  <tr><td>Xpos</td><td>Centroid x-pixel position in the pointing</td><td></td><td>pix</td></tr>
+  <tr><td>Ypos</td><td>Centroid y-pixel position in the pointing</td><td></td><td>pix</td></tr>
+  <tr><td>ALPHA_J2000</td><td>Centroid sky position right ascension</td><td></td><td>deg</td></tr>
+  <tr><td>DELTA_J2000</td><td>Centroid sky position declination</td><td></td><td>deg</td></tr>
+  <tr><td>n_exposures_detec</td><td>Number of individual exposures contributing to the object’s position.</td><td></td><td></td></tr>
+  <tr><td>BackGr</td><td>Background counts at centroid position</td><td></td><td>counts</td></tr>
+  <tr><td>Level</td><td>Detection threshold above background.</td><td></td><td>counts</td></tr>
+  <tr><td>MU_MAX</td><td>Peak surface brightness above background</td><td></td><td>mag · arcsec ^((-2))</td></tr>
+  <tr><td>MU_THRESHOLD</td><td>Detection threshold above background.</td><td></td><td>mag · arcsec ^((-2))</td></tr>
+  <tr><td>MaxVal</td><td>Peak flux above background</td><td></td><td>counts</td></tr>
+  <tr><td>Flag</td><td>extraction flags.</td><td></td><td></td></tr>
+  <tr><td>A_WORLD</td><td>Profile RMS along major axis.</td><td></td><td>deg</td></tr>
+  <tr><td>B_WORLD</td><td>Profile RMS along minor axis.</td><td></td><td>deg</td></tr>
+  <tr><td>THETA_J2000</td><td>Position angle (east of north).</td><td></td><td>deg</td></tr>
+  <tr><td>ERRA_WORLD</td><td>World RMS position error along major axis.</td><td></td><td>deg</td></tr>
+  <tr><td>ERRB_WORLD</td><td>World RMS position error along minor axis.</td><td></td><td>deg</td></tr>
+  <tr><td>ERRTHETA_J2000</td><td>J2000 error ellipse position angle</td><td></td><td>deg</td></tr>
+  <tr><td>FWHM_IMAGE</td><td>FWHM assuming a gaussian object profile</td><td></td><td>pix</td></tr>
+  <tr><td>FWHM_WORLD</td><td>FWHM assuming a gaussian object profile</td><td></td><td>deg</td></tr>
+  <tr><td>FLUX_RADIUS</td><td>Half-light radius.</td><td></td><td>pixels</td></tr>
+  <tr><td>CLASS_STAR</td><td>star-galaxy classifier</td><td></td><td></td></tr>
+  <tr><td>MASK</td><td>CFHTLenS mask value at the object’s position</td><td></td><td></td></tr>
+  <tr><td>ISOAREA_WORLD</td><td>Isophotal area above analysis threshold</td><td></td><td>deg ^((2))</td></tr>
+  <tr><td>NIMAFLAGS_ISO</td><td>Number of flagged pixels</td><td></td><td></td></tr>
+  <tr><td>Z_B</td><td>BPZ redshift estimate; peak of posterior probability distribution</td><td></td><td></td></tr>
+  <tr><td>Z_B_MIN</td><td>Lower bound of the 95% confidence interval of Z_B</td><td></td><td></td></tr>
+  <tr><td>Z_B_MAX</td><td>Upper bound of the 95% confidence interval of Z_B</td><td></td><td></td></tr>
+  <tr><td>T_B</td><td>Spectral type corresponding to Z_B</td><td></td><td></td></tr>
+  <tr><td>ODDS</td><td>Empirical ODDS of Z_B</td><td></td><td></td></tr>
+  <tr><td>Z_ML</td><td>BPZ maximum likelihood redshift</td><td></td><td></td></tr>
+  <tr><td>T_ML</td><td>Spectral type corresponding to Z_ML</td><td></td><td></td></tr>
+  <tr><td>CHI_SQUARED_BPZ</td><td>χ^(2) value associated with Z_B</td><td></td><td></td></tr>
+  <tr><td>BPZ_FILT</td><td>Filters with good photometry ( BPZ ); bit-coded mask</td><td></td><td></td></tr>
+  <tr><td>NBPZ_FILT</td><td>Number of filters with good photometry ( BPZ )</td><td></td><td></td></tr>
+  <tr><td>BPZ_NONDETFILT</td><td>Filters with faint photometry (not used in BPZ ); bit-coded mask</td><td></td><td></td></tr>
+  <tr><td>NBPZ_NONDETFILT</td><td>Number of filters with faint photometry ( BPZ )</td><td></td><td></td></tr>
+  <tr><td>BPZ_FLAGFILT</td><td>Filters with flagged photometry ( BPZ ); bit-coded mask</td><td></td><td></td></tr>
+  <tr><td>NBPZ_FLAGFILT</td><td>Number of flagged filters ( BPZ )</td><td></td><td></td></tr>
+  <tr><td>LP_Mx</td><td>Absolute rest-frame magnitude in the x -band</td><td></td><td>mag</td></tr>
+  <tr><td>star_flag</td><td>Star-galaxy separator ( 0= galaxy, 1= star)</td><td></td><td></td></tr>
+  <tr><td>LP_log10_SM_MED</td><td>Logarithm of the stellar mass</td><td></td><td>_(10)(M_())</td></tr>
+  <tr><td>LP_log10_SM_INF</td><td>Lower bound of the logarithm of the stellar mass</td><td></td><td>_(10)(M_())</td></tr>
+  <tr><td>LP_log10_SM_SUP</td><td>Upper bound of the logarithm of the stellar mass</td><td></td><td>_(10)(M_())</td></tr>
+  <tr><td>PZ_full</td><td>Vector containing the posterior photo-z probability in steps of Δ_(z)=0.05 .</td><td></td><td></td></tr>
+  <tr><td>MAG_x</td><td>estimated total magnitude in the x -band</td><td></td><td>mag</td></tr>
+  <tr><td>MAGERR_x</td><td>Magnitude error in the x -band</td><td></td><td>mag</td></tr>
+  <tr><td>IMAFLAGS_ISO_x</td><td>x -band FLAG-image logically OR’ed flags values</td><td></td><td></td></tr>
+  <tr><td>MAG_LIM_x</td><td>1- σ limiting magnitude in the x -band</td><td></td><td>mag</td></tr>
+  <tr><td>EXTINCTION_x</td><td>Galactic extinction in the x -band</td><td></td><td>mag</td></tr>
+  <tr><td>KRON_RADIUS</td><td>Scaling radius of the ellipse for magnitude measurements w.r.t.</td><td></td><td></td></tr>
+  <tr><td></td><td>A_WORLD and B_WORLD</td><td></td><td></td></tr>
+  <tr><td>weight</td><td>weight</td><td></td><td></td></tr>
+  <tr><td>fitclass</td><td>fit class</td><td></td><td></td></tr>
+  <tr><td>scalelength</td><td>galaxy model scalelength</td><td></td><td>pix</td></tr>
+  <tr><td>bulge-fraction</td><td>galaxy model bulge-fraction</td><td></td><td></td></tr>
+  <tr><td>model-flux</td><td>galaxy model flux</td><td></td><td>ADU</td></tr>
+  <tr><td>SNratio</td><td>data S/N ratio</td><td></td><td></td></tr>
+  <tr><td>PSF-e1, PSF-e2</td><td>PSF mean ellipticity components 1 and 2</td><td></td><td></td></tr>
+  <tr><td>PSF-Strehl-ratio</td><td>PSF pseudo-Strehl ratio</td><td></td><td></td></tr>
+  <tr><td>e1, e2</td><td>galaxy e1, e2 expectation values</td><td></td><td></td></tr>
+  <tr><td>n-exposures-used</td><td>Number of exposures used in measurement</td><td></td><td></td></tr>
+  <tr><td>PSF-e<1,2>-exp</td><td>PSF model e1, e2 on each exposure i ( i=1,n )</td><td></td><td></td></tr>
+</table>

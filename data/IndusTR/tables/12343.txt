@@ -1,0 +1,14 @@
+<table>
+  <caption>ArSession_create: Function Signature Parameters (Environment/Context In, Session Out)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Runtime Inputs</td><td>env</td><td>void *</td><td>in</td><td>Pointer to the runtime environment used by the AR API binding.</td></tr>
+    <tr><td>Runtime Inputs</td><td>context</td><td>void *</td><td>in</td><td>Pointer to the platform/application context required to initialize the AR session.</td></tr>
+    <tr><td>Output</td><td>out_session</td><td>ArSession **</td><td>out</td><td>Receives the address of the newly created session instance (written by the function).</td></tr>
+    <tr><td>Optional Runtime Inputs</td><td>allocator</td><td>const ArAllocator *</td><td>in</td><td>Optional custom allocator; if NULL, the default allocator is used.</td></tr>
+    <tr><td>Output</td><td>out_status</td><td>ArStatus *</td><td>out</td><td>Optional status/result code written by the creation call; may be NULL if not needed.</td></tr>
+    <tr><td>Notes</td><td>thread</td><td>const char *</td><td>in</td><td>Optional debug tag indicating the calling thread/name for diagnostics during session creation.</td></tr>
+  </tbody>
+</table>

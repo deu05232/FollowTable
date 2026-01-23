@@ -1,0 +1,21 @@
+<table>
+  <caption>CKM matrix elements (|Vij|) with primary experimental inputs / decay channels</caption>
+  <thead>
+    <tr><th>CKM entry</th><th>Representative magnitude</th><th>Typical uncertainty</th><th>Primary experimental source (decay / process)</th><th>Example observable used</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>|Vud|</td><td>0.974</td><td>~3×10−4</td><td>Superallowed nuclear β decays (0+→0+)</td><td>Corrected Ft values</td><td>Radiative + isospin-breaking corrections applied</td></tr>
+    <tr><td>|Vus|</td><td>0.225</td><td>~1–2×10−3</td><td>Semileptonic kaon decays K→πℓν (Kℓ3)</td><td>Γ(Kℓ3) ∝ |Vus|2f+(0)2</td><td>Requires lattice/ChPT input for form factor</td></tr>
+    <tr><td>|Vus| / |Vud|</td><td>0.231</td><td>~1×10−3</td><td>Leptonic ratio K→μν vs π→μν (Kμ2/πμ2)</td><td>Γ(K→μν)/Γ(π→μν)</td><td>Depends on fK/fπfrom lattice</td></tr>
+    <tr><td>|Vub|</td><td>0.0038</td><td>~(5–10)%</td><td>Exclusive semileptonic B decays B→πℓν</td><td>Differential rate dΓ/dq2with form factors</td><td>Form factors from lattice/LCSR</td></tr>
+    <tr><td>|Vub|</td><td>0.0041</td><td>~(5–10)%</td><td>Inclusive semileptonic decays B→Xuℓν</td><td>Partial rates in restricted phase space</td><td>Uses heavy-quark expansion + shape functions</td></tr>
+    <tr><td>|Vcd|</td><td>0.225</td><td>~(2–5)%</td><td>Neutrino (anti)ν charm production on nucleons</td><td>Opposite-sign dimuon events (νN→μcX)</td><td>Also constrained by D→πℓν</td></tr>
+    <tr><td>|Vcs|</td><td>0.973</td><td>~(1–2)%</td><td>W decays at LEP/Tevatron/LHC</td><td>W→cs tagging, hadronic branching fractions</td><td>Often combined with unitarity assumptions in global fits</td></tr>
+    <tr><td>|Vcs|</td><td>0.97</td><td>~(1–2)%</td><td>Charm semileptonic decays D→Kℓν</td><td>Γ(D→Kℓν) with form factors</td><td>Form factors from lattice; complementary to W decays</td></tr>
+    <tr><td>|Vcb|</td><td>0.041</td><td>~(1–2)%</td><td>Exclusive semileptonic decays B→D*ℓν (and B→Dℓν)</td><td>Extrapolation to zero recoil (w→1)</td><td>Normalization from lattice HQET inputs</td></tr>
+    <tr><td>|Vcb|</td><td>0.042</td><td>~(1–2)%</td><td>Inclusive semileptonic decays B→Xcℓν</td><td>Total rate moments (lepton energy, hadronic mass)</td><td>Uses heavy-quark expansion; scheme-dependent</td></tr>
+    <tr><td>|Vtd|</td><td>0.0085</td><td>~(5–10)%</td><td>Bd–B̄dmixing</td><td>Δmd∝ |Vtd Vtb*|2</td><td>Needs hadronic matrix element (lattice)</td></tr>
+    <tr><td>|Vts|</td><td>0.040</td><td>~(3–8)%</td><td>Bs–B̄smixing</td><td>Δms∝ |Vts Vtb*|2</td><td>Often quoted via ratio Δms/Δmd</td></tr>
+    <tr><td>|Vtb|</td><td>0.999</td><td>~(1–5)%</td><td>Single-top production (t-channel, s-channel, tW)</td><td>σ(single-top) ∝ |Vtb|2</td><td>Does not require 3×3 unitarity if measured directly</td></tr>
+  </tbody>
+</table>

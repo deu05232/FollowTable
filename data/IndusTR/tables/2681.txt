@@ -1,0 +1,14 @@
+<table>
+  <caption>Imaging Hardware Calibration Parameters (Biometric Sensors)</caption>
+  <thead>
+    <tr><th>Device Type</th><th>Calibration Item</th><th>Default Setting</th><th>Acceptable Tolerance</th><th>Calibration Interval</th><th>Record ID Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fingerprint Scanner</td><td>Optical gain</td><td>1.20</td><td>±0.05</td><td>Monthly</td><td>FP-CAL-YYYYMM</td></tr>
+    <tr><td>Palmprint Camera</td><td>Focus position</td><td>320 steps</td><td>±10 steps</td><td>Weekly</td><td>PP-CAL-YYYYMMDD</td></tr>
+    <tr><td>Face Camera</td><td>White balance</td><td>5600 K</td><td>±200 K</td><td>Per setup</td><td>FACE-CAL-SEQ</td></tr>
+    <tr><td>Iris Camera</td><td>NIR exposure</td><td>4.0 ms</td><td>±0.5 ms</td><td>Weekly</td><td>IRIS-CAL-SEQ</td></tr>
+    <tr><td>Vein Imaging Module</td><td>LED current</td><td>180 mA</td><td>±15 mA</td><td>Bi-weekly</td><td>VEIN-CAL-YYYYWW</td></tr>
+    <tr><td>All Devices</td><td>Geometric distortion</td><td>< 1.5%</td><td>±0.3%</td><td>Quarterly</td><td>GEN-CAL-YYYYQ</td></tr>
+  </tbody>
+</table>

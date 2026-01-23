@@ -1,0 +1,16 @@
+<table>
+  <caption>Additive Manufacturing Feedstock Categories vs Non‑Laser Activation Sources (Primarily Chemical/Thermal)</caption>
+  <thead>
+    <tr><th rowspan="2">Raw material category</th><th colspan="4">Activation source (non-laser-centered)</th></tr>
+    <tr><th>Chemical energy</th><th>Resistive/Induction heat</th><th>UV/IR (broad heating/curing)</th><th>Other</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metals (powder)</td><td>Metal binder jetting (chemical binder + furnace sintering)</td><td>Heated compaction + sintering route</td><td></td><td></td></tr>
+    <tr><td>Metals (wire)</td><td></td><td>Wire feed + resistive hot-wire deposition</td><td></td><td>Arc-based wire deposition</td></tr>
+    <tr><td>Polymers (thermoplastics)</td><td></td><td>Heated-nozzle material extrusion (FDM/FFF)</td><td></td><td></td></tr>
+    <tr><td>Polymers (photopolymers)</td><td></td><td></td><td>UV DLP vat photopolymerization</td><td>LED mask curing</td></tr>
+    <tr><td>Ceramics</td><td>Ceramic binder jetting + debind/sinter</td><td>Heated lamination + post-sinter</td><td></td><td></td></tr>
+    <tr><td>Composites</td><td>Resin infusion + chemical cure in printed preforms</td><td>Heated consolidation of fiber tapes</td><td>UV curing of composite resins</td><td></td></tr>
+    <tr><td>Biomaterials / hydrogels</td><td>Enzymatic/chemical crosslinking bioprinting</td><td>Thermal gelation printing</td><td>UV crosslinking (lamp)</td><td></td></tr>
+  </tbody>
+</table>

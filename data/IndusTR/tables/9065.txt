@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Mandatory Ligature Conversion Rules (Medial) — Explicit Unicode Sequence Patterns</caption>
+  <thead>
+    <tr><th rowspan="2">Position in Word</th><th colspan="3">Presentation Form</th><th colspan="2" rowspan="2">Conversion Patterns (Bracketed Unicode Sequences)</th></tr>
+    <tr><th>No.</th><th>ID</th><th>Glyph</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Medial</td><td rowspan="2">1</td><td rowspan="2">02B7</td><td rowspan="2">PF-A</td><td>①</td><td>[WB]?+[U+1820|U+1821]+[U+1828]+[U+1820|U+1821]+[WB]?</td></tr>
+    <tr><td>②</td><td>[WB]?+[U+1820|U+1821]+[U+1828]+[U+1820|U+1821]+[FVS1]+[WB]?</td></tr>
+    <tr><td rowspan="2">2</td><td rowspan="2">02B8</td><td rowspan="2">PF-B</td><td>①</td><td>[WB]?+[U+1820|U+1821]+[U+182C]+[U+1820|U+1821]+[WB]?</td></tr>
+    <tr><td>②</td><td>[WB]?+[U+1820|U+1821]+[U+182C]+[U+1820|U+1821]+[FVS1]+[WB]?</td></tr>
+    <tr><td rowspan="2">3</td><td rowspan="2">02B9</td><td rowspan="2">PF-C</td><td>①</td><td>[WB]?+[U+1820|U+1821]+[U+182D]+([U+180B|U+180C])?+[U+1820|U+1821]+[WB]?</td></tr>
+    <tr><td>②</td><td>[WB]?+[U+1820|U+1821]+[U+182D]+([U+180B|U+180C])?+[U+1820|U+1821]+[FVS1]+[WB]?</td></tr>
+  </tbody>
+</table>

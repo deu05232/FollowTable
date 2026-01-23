@@ -1,0 +1,10 @@
+<table>
+  <caption>Typical Process Gas Purity and Flow Settings for 4H-SiC CVD Epitaxy (Recipe Summary)</caption>
+  <tr><th>Process Step</th><th>Gas</th><th>Purity Grade</th><th>Flow (sccm)</th><th>Carrier Gas</th><th>Pressure (Torr)</th><th>Temperature (°C)</th><th>Notes</th></tr>
+  <tr><td>Pre-bake</td><td>H2</td><td>6N</td><td>15000</td><td>H2</td><td>80</td><td>1250</td><td>Surface conditioning</td></tr>
+  <tr><td>Ramp</td><td>H2</td><td>6N</td><td>18000</td><td>H2</td><td>90</td><td>1500</td><td>Stabilization</td></tr>
+  <tr><td>Growth</td><td>SiH4</td><td>5N</td><td>25</td><td>H2</td><td>100</td><td>1580</td><td>Silicon precursor</td></tr>
+  <tr><td>Growth</td><td>C3H8</td><td>5N</td><td>12</td><td>H2</td><td>100</td><td>1580</td><td>Carbon precursor</td></tr>
+  <tr><td>Doping</td><td>N2</td><td>5N</td><td>2.5</td><td>H2</td><td>100</td><td>1580</td><td>n-type control</td></tr>
+  <tr><td>Cool</td><td>H2</td><td>6N</td><td>8000</td><td>H2</td><td>60</td><td>900</td><td>Controlled cooldown</td></tr>
+</table>

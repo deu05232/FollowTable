@@ -1,0 +1,12 @@
+# Forward rate agreement
+> FRAs Notation
+
+| Notation | Effective Date from now | Termination Date from now | Underlying Rate |
+| --- | --- | --- | --- |
+| 1 x 4 | 1 month | 4 months | 4-1 = 3 months LIBOR |
+| 1 x 7 | 1 month | 7 months | 7-1 = 6 months LIBOR |
+| 0 x 3 | Today (SPOT) | 3 months | 3-0 = 3 months LIBOR |
+| 3 x 6 | 3 months | 6 months | 6-3 = 3 months LIBOR |
+| 3 x 9 | 3 months | 9 months | 9-3 = 6 months LIBOR |
+| 6 x 12 | 6 months | 12 months | 12-6 = 6 months LIBOR |
+| 12 x 18 | 12 months | 18 months | 18-12 = 6 months LIBOR |

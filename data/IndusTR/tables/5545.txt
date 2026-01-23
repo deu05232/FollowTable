@@ -1,0 +1,11 @@
+<table>
+  <caption>Trusted Root CA Certificate Addition Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_AddTrustedRootCaCertificate(void * hAppHandle,unsigned char * pucCertificate,unsigned int uiCertificateLen,unsigned int uiIndex)</td></tr>
+  <tr><td>Description</td><td>Add a trusted CA root certificate</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucCertificate[in](DER-encoded certificate)</td></tr>
+  <tr><td>uiCertificateLen[in](certificate length)uiIndex[out](CA root certificate index)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non-0(Failure, returns the error code defined in Table C.1, shall comply with the provisions of Annex C)</td></tr>
+  <tr><td>Remarks</td><td>This function is limited to administrators only</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>AR hit result list utilities (size-only output parameter)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result_list</td><td>ArHitResultList *</td><td>Hit test list object pointer</td></tr>
+  <tr><td>out_count</td><td>int32_t *</td><td>Receives the number of hit results in the list</td></tr>
+</table>

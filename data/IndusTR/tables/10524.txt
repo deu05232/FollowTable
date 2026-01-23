@@ -1,0 +1,30 @@
+<table>
+  <caption>Caption Sequence with Timing Metadata Blocks</caption>
+  <thead>
+    <tr><th>Syntax structure</th><th>Field</th><th>Descriptor / bits</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">CC_sequence()</td><td>sequence_start_code</td><td>f(32)</td></tr>
+    <tr><td>sequence_id</td><td>u(16)</td></tr>
+    <tr><td>do { CC_sample() } while(next_bits(32)==cc_sample_start_code)</td><td>loop</td></tr>
+    <tr><td>time_information()</td><td>var</td></tr>
+    <tr><td>sequence_end_code</td><td>f(32)</td></tr>
+    <tr><td>reserved</td><td>u(4)</td></tr>
+    <tr><td>sequence_extension_length</td><td>u(12)</td></tr>
+    <tr><td rowspan="9">time_information()</td><td>time_reference</td><td>u(2)</td></tr>
+    <tr><td>time_format</td><td>u(2)</td></tr>
+    <tr><td>pts_90k</td><td>u(33)</td></tr>
+    <tr><td>dts_90k</td><td>u(33)</td></tr>
+    <tr><td>frame_rate_code</td><td>u(4)</td></tr>
+    <tr><td>drop_frame_flag</td><td>u(1)</td></tr>
+    <tr><td>clock_offset</td><td>i(16)</td></tr>
+    <tr><td>time_zone</td><td>u(6)</td></tr>
+    <tr><td>time_valid</td><td>u(1)</td></tr>
+    <tr><td rowspan="6">CC_sample()</td><td>cc_sample_start_code</td><td>f(32)</td></tr>
+    <tr><td>cc_type</td><td>u(8)</td></tr>
+    <tr><td>cc_payload_length</td><td>u(16)</td></tr>
+    <tr><td>caption_string()</td><td>var</td></tr>
+    <tr><td>stuffing_bytes</td><td>bslbf</td></tr>
+    <tr><td>crc_16</td><td>u(16)</td></tr>
+  </tbody>
+</table>

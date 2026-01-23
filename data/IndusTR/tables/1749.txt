@@ -1,0 +1,10 @@
+<table>
+  <caption>Test requirements for context-selection syntax elements in the video coding bitstream (split flag, cu type index and transform split flag)</caption>
+  <tr><td>Syntax element name</td><td>Test requirements</td></tr>
+  <tr><td>split_flag</td><td>Traverse various values of SizeInBit</td></tr>
+  <tr><td>cu_type_index</td><td>Traverse cases where binIdx equals 0 to 5</td></tr>
+  <tr><td>transform_split_flag</td><td>Traverse combinations of various values of IntraCuFlag and SizeInBit</td></tr>
+  <tr><td>ctp_uv</td><td>Traverse all combinations where binIdx equals 0 to 2 and IntraCuFlag equals 0 to 1</td></tr>
+  <tr><td>ctp_y</td><td>Traverse all combinations in 8.3.3.2.10 of GB/T 33475.2—2024 where a equals 0 to 1 and b equals 0 to 1</td></tr>
+  <tr><td>cu_qp_delta</td><td>Traverse combinations of binIdx and PreviousDeltaQP</td></tr>
+</table>

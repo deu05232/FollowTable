@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Frame Data Retrieval Call Parameters and Returned Outputs (Reference)</caption>
+  <thead>
+    <tr><th>Frame-level API Call</th><th>Key Input Arguments</th><th>Output You Receive (filled/returned)</th><th>Output Type</th><th>Notes (Frame-produced result focus)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_getCamera</td><td>session: ArSession*; frame: ArFrame*</td><td>out_camera</td><td>ArCamera**</td><td>Returns the per-frame camera handle representing the current camera state.</td></tr>
+    <tr><td>ArFrame_getTimestamp</td><td>session: ArSession*; frame: ArFrame*</td><td>out_timestamp_ns</td><td>int64_t*</td><td>Monotonic timestamp for the frame; useful for sync with sensor/renderer.</td></tr>
+    <tr><td>ArFrame_getCameraImage</td><td>session: ArSession*; frame: ArFrame*</td><td>out_image</td><td>ArImage**</td><td>CPU image for the current frame when available; may require proper configuration.</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>session: ArSession*; frame: ArFrame*</td><td>out_depth_image</td><td>ArImage**</td><td>Depth image produced for the frame (if depth is enabled/available).</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>session: ArSession*; frame: ArFrame*</td><td>out_light_estimate</td><td>ArLightEstimate*</td><td>Lighting estimation object associated with the current frame.</td></tr>
+    <tr><td>ArFrame_getUpdatedTrackables</td><td>session: ArSession*; frame: ArFrame*; filter: ArTrackableType</td><td>out_trackable_list</td><td>ArTrackableList*</td><td>List populated with trackables whose state changed this frame.</td></tr>
+    <tr><td>ArFrame_getPointCloud</td><td>session: ArSession*; frame: ArFrame*</td><td>out_point_cloud</td><td>ArPointCloud**</td><td>Point cloud handle for the frame; typically needs release when done.</td></tr>
+    <tr><td>ArFrame_getCameraPose</td><td>session: ArSession*; frame: ArFrame*</td><td>out_pose</td><td>ArPose*</td><td>Pose object filled with the camera/sensor pose in this frame.</td></tr>
+  </tbody>
+</table>

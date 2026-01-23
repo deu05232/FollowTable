@@ -1,0 +1,10 @@
+<table>
+  <caption>Manufacturing Process Parameters for User Terminal Baseband Board Assembly (SMT)</caption>
+  <tr><th>Step</th><th>Process</th><th>Key Parameter</th><th>Target</th><th>Tolerance</th><th>Notes</th></tr>
+  <tr><td>1</td><td>Solder paste printing</td><td>Stencil thickness (mm)</td><td>0.12</td><td>±0.01</td><td>Type-4 paste</td></tr>
+  <tr><td>2</td><td>Pick-and-place</td><td>Placement accuracy (mm)</td><td>0.05</td><td>±0.02</td><td>Vision aligned</td></tr>
+  <tr><td>3</td><td>Reflow</td><td>Peak temp (°C)</td><td>245</td><td>±5</td><td>Lead-free</td></tr>
+  <tr><td>4</td><td>Reflow</td><td>Time above liquidus (s)</td><td>60</td><td>±10</td><td>SAC305</td></tr>
+  <tr><td>5</td><td>AOI</td><td>False call rate (%)</td><td><2.0</td><td>n/a</td><td>Per panel</td></tr>
+  <tr><td>6</td><td>Functional test</td><td>UART loopback (baud)</td><td>115200</td><td>±0</td><td>Fixture-based</td></tr>
+</table>

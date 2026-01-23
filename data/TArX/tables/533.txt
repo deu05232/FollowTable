@@ -1,0 +1,10 @@
+<table>
+  <caption>Relevant parameters for the planets. See http://nssdc.gsfc.nasa.gov/planetary/factsheet/. λ for Eq. LABEL:odeForYSimple (at the equator, ξ = 0 ) estimated from thermal inertia, solar day, and the other parameters. It is particularly small for Earth thanks to rapid rotation and the high heat capacity of water covering most of the surface.</caption>
+  <tr><th>Planet</th><th>solar constant</th><th>albedo</th><th>solar day</th><th>T_(eff)</th><th>T_(ave)</th><th>Difference</th><th>λ</th></tr>
+  <tr><td></td><th>(W/m ^((2)) )</th><th></th><th>(Earth days)</th><th>(K)</th><th>(K)</th><th>(K)</th><td></td></tr>
+  <tr><td>Mercury</td><td>9127</td><td>0.12</td><td>176</td><td>434</td><td>?</td><td>?</td><td>11</td></tr>
+  <tr><td>Venus</td><td>2615</td><td>0.75</td><td>117</td><td>232</td><td>737</td><td>505</td><td>0.7</td></tr>
+  <tr><td>Earth</td><td>1367</td><td>0.306</td><td>1</td><td>255</td><td>288</td><td>33</td><td>0.04</td></tr>
+  <tr><td>Moon</td><td>1367</td><td>0.11</td><td>29.53</td><td>270</td><td>253</td><td>-17</td><td>20</td></tr>
+  <tr><td>Mars</td><td>589</td><td>0.25</td><td>1.03</td><td>210</td><td>210</td><td>0</td><td>0.2</td></tr>
+</table>

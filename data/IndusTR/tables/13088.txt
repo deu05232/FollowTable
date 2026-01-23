@@ -1,0 +1,14 @@
+<table>
+  <caption>Green Tide Warning Sign Identifiers (Color) with Monitoring Plan and Response Escalation</caption>
+  <thead>
+    <tr><th>Ref No.</th><th>Static Identifier</th><th>Color</th><th>Basic Meaning</th><th>Monitoring Frequency</th><th>Escalation / Response Level</th><th>Operational Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GT-10</td><td>GREENTIDE_BLUE</td><td>Blue</td><td>Early indication; low impact expected</td><td>Weekly</td><td>Pre-response (Watch)</td><td>Collect satellite imagery; verify with nearshore sampling</td></tr>
+    <tr><td>GT-20</td><td>GREENTIDE_YELLOW</td><td>Yellow</td><td>Notice; bloom developing</td><td>Every 72 hours</td><td>Level III</td><td>Issue monitoring & early warning bulletin; coordinate with fisheries</td></tr>
+    <tr><td>GT-30</td><td>GREENTIDE_ORANGE</td><td>Orange</td><td>Warning; bloom expanding</td><td>Every 24 hours</td><td>Level II</td><td>Deploy cleanup resources; restrict aquaculture intake as needed</td></tr>
+    <tr><td>GT-40</td><td>GREENTIDE_RED</td><td>Red</td><td>Severe warning; major ecological/economic impact likely</td><td>Every 6 hours</td><td>Level I</td><td>Activate emergency command; prioritize shoreline protection zones</td></tr>
+    <tr><td>GT-41</td><td>GREENTIDE_RED_EXT</td><td>Red</td><td>Prolonged severe event</td><td>Continuous</td><td>Level I (sustained)</td><td>Maintain incident reporting; adjust closure areas dynamically</td></tr>
+    <tr><td>GT-90</td><td>GREENTIDE_TERMINATION</td><td>Blue</td><td>Termination / downgrade</td><td>Every 72 hours</td><td>De-escalation</td><td>Stand down response teams; continue post-event assessments</td></tr>
+  </tbody>
+</table>

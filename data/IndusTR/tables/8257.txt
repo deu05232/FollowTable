@@ -1,0 +1,15 @@
+<table>
+  <caption>Limits of Error Change Under Influence Quantities (Not Tied to Output Voltage/Current Ranges)</caption>
+  <thead>
+    <tr><th rowspan="2">Influence quantity</th><th rowspan="2">Specified range / condition</th><th colspan="5">Permitted change of error (%)</th></tr>
+    <tr><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>15 °C to 30 °C (Class 0.05 and above); 5 °C to 40 °C (Class 0.05 and below)</td><td>±0.01</td><td>±0.02</td><td>±0.05</td><td>±0.10</td><td>±0.20</td></tr>
+    <tr><td>Relative humidity</td><td>10% to 75% RH</td><td>±0.005</td><td>±0.010</td><td>±0.030</td><td>±0.050</td><td>±0.100</td></tr>
+    <tr><td>Power supply variation</td><td>DC auxiliary supply ±10%</td><td>±0.005</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td></tr>
+    <tr><td>Warm-up time</td><td>After 30 min stabilization</td><td>±0.003</td><td>±0.005</td><td>±0.010</td><td>±0.020</td><td>±0.050</td></tr>
+    <tr><td>Electromagnetic field</td><td>3 V/m, 80 MHz to 1 GHz</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>Mechanical vibration</td><td>0.5 g, 10 Hz to 55 Hz</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+  </tbody>
+</table>

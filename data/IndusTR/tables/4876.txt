@@ -1,0 +1,8 @@
+<table>
+  <caption>Passenger Weighting Factor Mapping Table for Air Conditioning Energy Consumption Calculation</caption>
+  <tr><td>Passenger load%</td><td>Corresponding simulated passenger load%</td><td>Passenger weighting factor Wx%</td></tr>
+  <tr><td>0~35</td><td>0</td><td>Wx1</td></tr>
+  <tr><td>36~75</td><td>50</td><td>Wx2</td></tr>
+  <tr><td>76~100</td><td>100</td><td>Wx3</td></tr>
+  <tr><td colspan="3">Note 1: Passenger weighting factors refer to the proportions under the three simulated passenger loads of 0, 50% and 100% during operation; the sum of the three is 100%. Note 2: Passenger weighting factors are determined according to the actual line passenger-load proportions.</td></tr>
+</table>

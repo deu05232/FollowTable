@@ -1,0 +1,16 @@
+<table>
+  <caption>Orbital and relativistic correction terms used in ephemeris fitting (perihelion precession, period drift, and range-rate constraints).</caption>
+  <thead>
+    <tr><th>Body</th><th>GR precession</th><th>Solar J2precession</th><th>Shapiro delay coefficient</th><th>Period correction</th><th>Allowed range of ṙ/r</th><th>Fit flag</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mercury</td><td>43.00</td><td>0.025</td><td>1.000</td><td>5.7×10-2</td><td>[-0.9, 4.1]×10-32</td><td>used</td></tr>
+    <tr><td>Venus</td><td>8.62</td><td>0.002</td><td>0.998</td><td>8.0×10-8</td><td>[-0.5, 2.6]×10-31</td><td>used</td></tr>
+    <tr><td>Earth</td><td>3.84</td><td>0.001</td><td>0.999</td><td>1.1×10-4</td><td>[-0.2, 1.8]×10-31</td><td>used</td></tr>
+    <tr><td>Mars</td><td>1.35</td><td>0.0003</td><td>0.997</td><td>2.4×10-5</td><td>[-0.1, 1.2]×10-31</td><td>used</td></tr>
+    <tr><td>Jupiter</td><td>0.06</td><td>0.00001</td><td>0.992</td><td>3.2×10-6</td><td>[-0.3, 3.0]×10-30</td><td>used</td></tr>
+    <tr><td>Saturn</td><td>0.014</td><td>0.000003</td><td>0.990</td><td>1.1×10-6</td><td>[-0.4, 3.7]×10-30</td><td>used</td></tr>
+    <tr><td>Uranus</td><td>0.002</td><td>0.0000005</td><td>0.988</td><td>2.0×10-7</td><td>[-0.6, 5.5]×10-30</td><td>optional</td></tr>
+    <tr><td>Neptune</td><td>0.0007</td><td>0.0000002</td><td>0.987</td><td>8.0×10-8</td><td>[-0.8, 7.9]×10-30</td><td>optional</td></tr>
+  </tbody>
+</table>

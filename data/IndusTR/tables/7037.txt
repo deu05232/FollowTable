@@ -1,0 +1,14 @@
+<table>
+  <caption>SOF Service Interfaces (REST/HTTP Endpoints Mapping)</caption>
+  <thead>
+    <tr><th>Operation</th><th>HTTP Endpoint</th><th>Method</th><th>Request (JSON)</th><th>Response</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GetUserList</td><td>/api/sof/users</td><td>GET</td><td>{}</td><td>200 OK: {"users":[{"cn":"Username1","certId":"..."}]}</td></tr>
+    <tr><td>ExportUserCert</td><td>/api/sof/cert/export</td><td>POST</td><td>{"certId":"..."}</td><td>200 OK: {"base64Cert":"..."}</td></tr>
+    <tr><td>GetCertInfoByOid</td><td>/api/sof/cert/extension</td><td>POST</td><td>{"base64Cert":"...","oid":"1.2.156.xxx"}</td><td>200 OK: {"value":"..."}</td></tr>
+    <tr><td>SignDataXML</td><td>/api/sof/sign/xml</td><td>POST</td><td>{"certId":"...","inData":"<xml>...</xml>"}</td><td>200 OK: {"signedXml":"..."}</td></tr>
+    <tr><td>VerifySignedHashData</td><td>/api/sof/verify/hash</td><td>POST</td><td>{"base64Cert":"...","base64HashData":"...","signValue":"...","hashAlg":1}</td><td>200 OK: {"valid":true}</td></tr>
+    <tr><td>Login</td><td>/api/sof/login</td><td>POST</td><td>{"certId":"...","password":"..."}</td><td>200 OK: {"authenticated":true}</td></tr>
+  </tbody>
+</table>

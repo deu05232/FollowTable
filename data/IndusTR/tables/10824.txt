@@ -1,0 +1,17 @@
+<table>
+  <caption>Template for Accounting CO2 Emissions from Purchased and Exported Electricity by Source</caption>
+  <thead>
+    <tr><th>Transaction Type</th><th>Electricity Source</th><th>Period</th><th>Electricity (MWh)</th><th>CO2 Emission Factor (tCO2/MWh)</th><th>Calculated Emissions (tCO2)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased</td><td>Grid electricity</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Purchased</td><td>Supplier-specific (contract)</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Purchased</td><td>Renewable PPA (if applicable)</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported</td><td>To grid</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported</td><td>To neighboring facility</td><td></td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported</td><td>Other</td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="7">If multiple electricity sources have different emission factors, list them in separate rows. Calculated Emissions (tCO2) = Electricity (MWh) × CO2 Emission Factor (tCO2/MWh).</td></tr>
+  </tfoot>
+</table>

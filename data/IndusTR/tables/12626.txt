@@ -1,0 +1,17 @@
+<table>
+  <caption>Version Negotiation PDU Header / Addressing Layout (Points to Payload Elsewhere)</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Field</th><th>Bit Length</th><th>Example Value</th><th>Meaning</th><th>Where Negotiation Parameters Are Defined</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Priority (P)</td><td>3</td><td>0b011</td><td>Traffic priority</td><td rowspan="7">See Payload Parameter Table (external reference)</td></tr>
+    <tr><td>0</td><td>Extended Data Page (EDP)</td><td>1</td><td>0</td><td>EDP flag</td></tr>
+    <tr><td>0</td><td>Data Page (DP)</td><td>1</td><td>0</td><td>DP flag</td></tr>
+    <tr><td>1</td><td>PDU Format (PF)</td><td>8</td><td>0x38</td><td>Message family identifier</td></tr>
+    <tr><td>2</td><td>PDU Specific (PS)</td><td>8</td><td>0xF4</td><td>Destination address</td></tr>
+    <tr><td>3</td><td>Source Address (SA)</td><td>8</td><td>0x56</td><td>Source address</td></tr>
+    <tr><td>4..11</td><td>Data Field</td><td>64</td><td>—</td><td>Payload bytes</td></tr>
+    <tr><td>12</td><td>CRC (if used)</td><td>16</td><td>0x0000</td><td>Optional integrity check</td><td>Not applicable</td></tr>
+    <tr><td>14</td><td>Inter-frame gap</td><td>—</td><td>—</td><td>Timing requirement</td><td>Not applicable</td></tr>
+  </tbody>
+</table>

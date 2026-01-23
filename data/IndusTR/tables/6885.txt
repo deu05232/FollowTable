@@ -1,0 +1,16 @@
+<table>
+  <caption>Preventive Maintenance Inspection Checklist (No BOM Hierarchy)</caption>
+  <thead>
+    <tr><th>Section</th><th>No.</th><th>Inspection Item</th><th>Component Area</th><th>Frequency</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Safety</td><td>1</td><td>Verify emergency stop operation</td><td>Control panel</td><td>Monthly</td><td>Stops within specified time</td></tr>
+    <tr><td>2</td><td>Check protective covers</td><td>External guards</td><td>Monthly</td><td>No cracks; all fasteners present</td></tr>
+    <tr><td>3</td><td>Inspect grounding continuity</td><td>Electrical system</td><td>Quarterly</td><td>Resistance within limit</td></tr>
+    <tr><td rowspan="3">Mechanical</td><td>4</td><td>Measure vibration level</td><td>Drive assembly</td><td>Quarterly</td><td>Below threshold</td></tr>
+    <tr><td>5</td><td>Check belt tension</td><td>Transmission</td><td>Monthly</td><td>Within spec range</td></tr>
+    <tr><td>6</td><td>Inspect lubrication points</td><td>Bearings</td><td>Monthly</td><td>No dry points; grease condition OK</td></tr>
+    <tr><td rowspan="2">Software</td><td>7</td><td>Validate firmware version</td><td>Controller</td><td>Semi-annual</td><td>Matches approved baseline</td></tr>
+    <tr><td>8</td><td>Review error logs</td><td>Controller</td><td>Monthly</td><td>No recurring critical faults</td></tr>
+  </tbody>
+</table>

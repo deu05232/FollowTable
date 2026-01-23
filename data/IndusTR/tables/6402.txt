@@ -1,0 +1,20 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Message 60 Payload Layout (Field-by-Field Bit Allocation)</caption>
+  <thead>
+    <tr><th>Message Parameter</th><th>Length (bit)</th><th>Description / Encoding</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 60 (fixed value 60)</td></tr>
+    <tr><td>Repeat Indicator</td><td>2</td><td>Number of retransmissions (0 = default)</td></tr>
+    <tr><td>Source MMSI</td><td>30</td><td>MMSI of broadcasting device (as per MMSI coding rules)</td></tr>
+    <tr><td>Autonomous Equipment Type</td><td>4</td><td>Equipment category code (e.g., 0–15)</td></tr>
+    <tr><td rowspan="2">Position</td><td>25</td><td>Longitude in 1/10000 minute, two's complement</td></tr>
+    <tr><td>24</td><td>Latitude in 1/10000 minute, two's complement</td></tr>
+    <tr><td>Course Over Ground (COG)</td><td>12</td><td>0–359.9 degrees, 0.1° resolution (4095 = not available)</td></tr>
+    <tr><td>Speed Over Ground (SOG)</td><td>10</td><td>0–102.2 knots, 0.1 kn resolution (1023 = not available)</td></tr>
+    <tr><td>Heading (HDG)</td><td>9</td><td>0–359 degrees (511 = not available)</td></tr>
+    <tr><td>Timestamp</td><td>6</td><td>UTC second (0–59; 60 = not available)</td></tr>
+    <tr><td>RAIM Flag</td><td>1</td><td>Receiver Autonomous Integrity Monitoring in use (0/1)</td></tr>
+    <tr><td>Communication State</td><td>19</td><td>Slot/ITDMA state (per comm-state encoding)</td></tr>
+  </tbody>
+</table>

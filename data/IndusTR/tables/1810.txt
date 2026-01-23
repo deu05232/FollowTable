@@ -1,0 +1,7 @@
+<table>
+  <caption>Vehicle Charging Demand Message (PGN4096) Format</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1</td><td>2 bytes</td><td>3072</td><td>Vehicle interface charging voltage demand (V)</td><td>Mandatory</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>3073</td><td>Vehicle interface charging current demand (A), i.e., the total vehicle charging current demand input to the vehicle charging inlet</td><td>Mandatory</td></tr>
+  <tr><td>5</td><td>1 byte</td><td>3074</td><td>Charging mode (0x01: constant-voltage charging; 0x02: constant-current charging)</td><td>Mandatory</td></tr>
+</table>

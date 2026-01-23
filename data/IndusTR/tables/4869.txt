@@ -1,0 +1,21 @@
+<table>
+  <caption>Parking Entry Record Data Elements</caption>
+  <tr><td>Internal Identifier</td><td>Chinese Name</td><td>Definition</td><td>Data Type</td><td>Data Format</td><td>Value Range</td><td>Unit of Measure</td><td>Remarks</td></tr>
+  <tr><td>05010001</td><td>Entry Record ID</td><td>Entry Record ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>05010002</td><td>Parking Lot ID</td><td>Parking Lot ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>05010003</td><td>Parking Lot Name</td><td>Parking Lot Name</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>05010004</td><td>License Plate Type</td><td>License Plate Type</td><td>Character</td><td>nl</td><td>1    Yellow plate; 2   Blue plate; 3   Black plate; 4   White plate; 5   Green plate; 6-   -Temporary plate; 9-   -Other</td><td></td><td></td></tr>
+  <tr><td>05010005</td><td>License Plate Number</td><td>License Plate Number</td><td>Character</td><td>an..10</td><td></td><td></td><td></td></tr>
+  <tr><td>05010006</td><td>Parking Type</td><td>Parking Type</td><td>Character</td><td>nl</td><td>1-   -Fixed vehicle; 2-   Time-package vehicle; 3   Temporary vehicle; 9-   -Other</td><td></td><td></td></tr>
+  <tr><td>05010007</td><td>Entry Time</td><td>Entry Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td><td></td></tr>
+  <tr><td>05010008</td><td>Entry Method</td><td>Entry Method</td><td>Character</td><td>nl</td><td>1   Video entry; 2   Geomagnetic entry; 3   Handheld device entry; 4    All-in-one card entry; 5-   Self-service entry; 9-   -Other</td><td></td><td></td></tr>
+  <tr><td>05010009</td><td>Entrance/Exit ID</td><td>Entrance/Exit ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>05010010</td><td>Entrance/Exit Name</td><td>Entrance/Exit Name</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>05010011</td><td>Acquisition Device Type</td><td>Acquisition Device Type</td><td>Character</td><td>n2</td><td>01—Camera; 02-—Geomagnetic; 03—Parking meter; 04- -ETC; 05-—Handheld device; 06-  All-in-one card; 07-  -Vehicle owner's mobile phone; 99-—Other</td><td></td><td></td></tr>
+  <tr><td>05010012</td><td>Parking Space Record Time</td><td>Parking Space Record Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td><td></td></tr>
+  <tr><td>05010013</td><td>Entry Image</td><td>Image Content</td><td>Character</td><td>an..100</td><td></td><td></td><td>Image URL access address</td></tr>
+  <tr><td>05010014</td><td>Parking Space ID</td><td>Parking Space ID SAC</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>05010015</td><td>Operator</td><td>Operator</td><td>Character</td><td>nl</td><td>1    Booth toll collector; 2-   Remote duty staff; 3   On-street parking administrator; 9-   -Other</td><td></td><td></td></tr>
+  <tr><td>05010016</td><td>Operator ID</td><td>Operator ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>05010017</td><td>Description</td><td>Description</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+</table>

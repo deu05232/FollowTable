@@ -1,0 +1,15 @@
+<table>
+  <caption>SDSS ugriz-based Colour-Colour Cuts Mapped to Rainbow Names (Observation-oriented)</caption>
+  <thead>
+    <tr><th>Rainbow label</th><th>Primary SDSS band</th><th>Colour index (u−g)</th><th>Colour index (g−r)</th><th>Colour index (r−i)</th><th>Typical selection criterion</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Violet</td><td>u</td><td>< 0.6</td><td>—</td><td>—</td><td>u−g < 0.6</td><td>UV-excess objects</td></tr>
+    <tr><td>Indigo</td><td>u/g</td><td>0.6–1.0</td><td>< 0.0</td><td>—</td><td>(u−g) in [0.6,1.0] and g−r < 0</td><td>Blue continuum</td></tr>
+    <tr><td>Blue</td><td>g</td><td>1.0–1.4</td><td>−0.2–0.2</td><td>—</td><td>g−r between −0.2 and 0.2</td><td>Star/galaxy separation aid</td></tr>
+    <tr><td>Green</td><td>g/r</td><td>—</td><td>0.2–0.5</td><td>—</td><td>0.2 ≤ g−r ≤ 0.5</td><td>Broad optical locus</td></tr>
+    <tr><td>Yellow</td><td>r</td><td>—</td><td>0.5–0.8</td><td>0.0–0.2</td><td>g−r > 0.5 and r−i < 0.2</td><td>Moderately red objects</td></tr>
+    <tr><td>Orange</td><td>r/i</td><td>—</td><td>0.8–1.2</td><td>0.2–0.4</td><td>g−r > 0.8 and 0.2 ≤ r−i ≤ 0.4</td><td>Redder stellar locus</td></tr>
+    <tr><td>Red</td><td>i/z</td><td>—</td><td>> 1.2</td><td>> 0.4</td><td>g−r > 1.2 and r−i > 0.4</td><td>Very red / dusty candidates</td></tr>
+  </tbody>
+</table>

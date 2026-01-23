@@ -1,0 +1,16 @@
+<table>
+  <caption>Knitting Machine Runtime Status & Time Counters (Signal Dictionary)</caption>
+  <thead>
+    <tr><th>Index</th><th>Signal Name</th><th>Signal English Name</th><th>Access</th><th>Value Type</th><th>Engineering Unit</th><th>Valid Range</th><th>Description</th><th>Coded Values / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0310</td><td>Machine Run State</td><td>RunState</td><td>RO</td><td>UInt16 (enum)</td><td>-</td><td>0..6</td><td>Overall operating state used for HMI/PLC logic.</td><td>0=Stopped; 1=Running; 2=Paused; 3=FaultStop; 4=EmergencyStop; 5=Starting; 6=Stopping</td></tr>
+    <tr><td>0x0311</td><td>Auto/Manual Mode</td><td>OperationMode</td><td>RO</td><td>UInt8 (enum)</td><td>-</td><td>0..2</td><td>Current control mode of the machine.</td><td>0=Manual; 1=Auto; 2=Jog</td></tr>
+    <tr><td>0x0312</td><td>Current Run Time</td><td>CurrentRunTime</td><td>RO</td><td>UInt32</td><td>s</td><td>0..4,294,967,295</td><td>Accumulated running time since the last transition into Running state.</td><td>Resets when RunState changes from Running to any non-running state.</td></tr>
+    <tr><td>0x0313</td><td>Current Pause Time</td><td>CurrentPauseTime</td><td>RO</td><td>UInt32</td><td>s</td><td>0..4,294,967,295</td><td>Accumulated time in Paused state for the current cycle/piece.</td><td>Counts only when RunState=Paused.</td></tr>
+    <tr><td>0x0314</td><td>Total Running Time</td><td>TotalRunningTime</td><td>RO</td><td>UInt64</td><td>min</td><td>0..18,446,744,073,709,551,615</td><td>Lifetime accumulated running minutes.</td><td>Non-resettable unless factory service.</td></tr>
+    <tr><td>0x0315</td><td>Total Downtime</td><td>TotalDowntime</td><td>RO</td><td>UInt64</td><td>min</td><td>0..18,446,744,073,709,551,615</td><td>Lifetime accumulated non-running time excluding power-off.</td><td>Counts when RunState in {Stopped,Paused,FaultStop,EmergencyStop}.</td></tr>
+    <tr><td>0x0316</td><td>Last Stop Reason</td><td>LastStopReason</td><td>RO</td><td>UInt16 (enum)</td><td>-</td><td>0..10</td><td>Reason code for the most recent transition from Running to a stop state.</td><td>0=null; 1=OperatorStop; 2=ProgramEnd; 3=YarnBreak; 4=NeedleBreak; 5=Overload; 6=DoorOpen; 7=E-Stop; 8=PowerLoss; 9=SensorFault; 10=Unknown</td></tr>
+    <tr><td>0x0317</td><td>Cycle Elapsed Time</td><td>CycleElapsedTime</td><td>RO</td><td>UInt32</td><td>s</td><td>0..4,294,967,295</td><td>Time elapsed for the current production cycle/piece.</td><td>Resets at cycle start trigger.</td></tr>
+  </tbody>
+</table>

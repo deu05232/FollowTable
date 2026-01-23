@@ -1,0 +1,10 @@
+<table>
+  <caption>API Test Environment Requirements for Battery Swap Integration (Lab Conditions)</caption>
+  <tr><th>Requirement</th><th>Recommended Value</th><th>Allowed Range</th><th>Verification Method</th><th>Rationale</th></tr>
+  <tr><td>Network latency (RTT)</td><td>≤ 80 ms</td><td>0–150 ms</td><td>Ping/Traceroute</td><td>Avoids timeout false positives</td></tr>
+  <tr><td>Packet loss</td><td>≤ 0.1%</td><td>0–1%</td><td>iPerf3</td><td>Ensures stable callbacks</td></tr>
+  <tr><td>Clock synchronization</td><td>NTP enabled</td><td>± 1 s drift</td><td>NTP status check</td><td>Accurate order timeline</td></tr>
+  <tr><td>TLS version</td><td>TLS 1.2+</td><td>1.2–1.3</td><td>SSL scan</td><td>Security compliance</td></tr>
+  <tr><td>JSON encoding</td><td>UTF-8</td><td>UTF-8 only</td><td>Payload validation</td><td>Avoids parsing issues</td></tr>
+  <tr><td>Request timeout</td><td>8 s</td><td>3–15 s</td><td>Load test</td><td>Balances reliability and UX</td></tr>
+</table>

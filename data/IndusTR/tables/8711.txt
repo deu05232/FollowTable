@@ -1,0 +1,16 @@
+<table>
+  <caption>Landfill Baseline Emissions Method (Aggregated Parameters, No Waste-Type Rows)</caption>
+  <thead>
+    <tr><th>Parameter Group</th><th>Symbol</th><th>Value</th><th>Unit</th><th>Applies To</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Waste Quantity</td><td>Q_waste,t</td><td>150000</td><td>t/year</td><td>All MSW</td><td>Total waste diverted to incineration</td></tr>
+    <tr><td>Organic Degradable Carbon</td><td>DOC</td><td>0.15</td><td>fraction</td><td>All MSW</td><td>Weighted average over composition</td></tr>
+    <tr><td>Decay Rate</td><td>k</td><td>0.065</td><td>1/year</td><td>All MSW</td><td>Single default for the site</td></tr>
+    <tr><td>Methane Correction Factor</td><td>MCF</td><td>1.0</td><td>fraction</td><td>All MSW</td><td>Managed anaerobic landfill</td></tr>
+    <tr><td>Methane Fraction in LFG</td><td>F</td><td>0.5</td><td>fraction</td><td>All MSW</td><td>Default IPCC value</td></tr>
+    <tr><td>Oxidation Factor</td><td>OX</td><td>0.1</td><td>fraction</td><td>All MSW</td><td>Surface oxidation assumed</td></tr>
+    <tr><td>CH4 to CO2e</td><td>GWP_CH4</td><td>28</td><td>tCO2e/tCH4</td><td>All MSW</td><td>100-year GWP</td></tr>
+    <tr><td>Landfill Gas Capture</td><td>R</td><td>0.35</td><td>fraction</td><td>All MSW</td><td>Average capture efficiency</td></tr>
+  </tbody>
+</table>

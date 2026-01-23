@@ -1,0 +1,23 @@
+<table>
+  <caption>Dissociation energies of the four water hexamers obtained from various electronic structure approaches: MP2/CBS; diffusion quantum Monte Carlo (DMC); CCSD(T) with a triple- ζ basis set (Ref. [ hexamer_ccsdt ] ); 12 different DFT exchange-correlation functionals computed, unless indicated otherwise, with an aug-cc-pV5Z basis set; and HF at the CBS limit. The most stable isomer from each method is indicated in bold and the relative energies of the other isomers are given in parenthesis. Mean errors (ME) and mean absolute errors (MAE) in dissociation energies, averaged over the four hexamers in comparison with MP2 and DMC are also given. All structures were optimized consistently with MP2, HF and each DFT functional with an aug-cc-pVTZ basis set except for the DMC calculations which used the MP2 structures. DFT xc functionals are arranged here with increasing value of MAE from MP2. All values are in meV/H 2 O (1kcal/mol = 43.3641 meV).</caption>
+  <tr><th></th><th></th><th></th><th></th><th></th><th colspan="2">MP2</th><th colspan="2">DMC</th></tr>
+  <tr><th>Method</th><th>Prism</th><th>Cage</th><th>Book</th><th>Cyclic</th><th>MAE</th><th>ME</th><th>MAE</th><th>ME</th></tr>
+  <tr><th>MP2</th><td>332.3</td><td>331.9 (0.4)</td><td>330.2 (2.1)</td><td>324.1 (8.2)</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  <tr><th>DMC</th><td>331.9</td><td>329.5 (2.4)</td><td>327.8 (4.1)</td><td>320.8 (11.1)</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  <tr><th>CCSD(T)</th><td>347.6</td><td>345.5 (2.1)</td><td>338.9 (8.7)</td><td>332.5 (15.1)</td><td>—</td><td>—</td><td>—</td><td>—</td></tr>
+  <tr><th>PBE0</th><td>322.9 (8.0)</td><td>325.3 (5.7)</td><td>330.9</td><td>330.8 (0.1)</td><td>5.9</td><td>-2.1</td><td>6.6</td><td>0.0</td></tr>
+  <tr><th>mPWLYP</th><td>323.2 (10.4)</td><td>325.9 (7.7)</td><td>333.6</td><td>333.3 (0.3)</td><td>6.9</td><td>-0.6</td><td>7.7</td><td>1.5</td></tr>
+  <tr><th>X3LYP</th><td>317.2 (8.8)</td><td>319.2 (6.8)</td><td>325.8 (0.2)</td><td>326.0</td><td>8.5</td><td>-7.6</td><td>7.1</td><td>-5.5</td></tr>
+  <tr><th>PBE1W</th><td>315.2 (6.9)</td><td>314.8 (7.3)</td><td>322.1</td><td>321.5 (0.6)</td><td>11.3</td><td>-11.3</td><td>9.5</td><td>-9.1</td></tr>
+  <tr><th>PBE</th><td>336.1 (9.5)</td><td>339.4 (6.2)</td><td>345.6</td><td>344.1 (1.5)</td><td>11.7</td><td>11.7</td><td>13.8</td><td>13.8</td></tr>
+  <tr><th>B98</th><td>305.3 (7.3)</td><td>306.8 (5.8)</td><td>312.6</td><td>312.5 (0.1)</td><td>20.4</td><td>-20.4</td><td>18.2</td><td>-18.2</td></tr>
+  <tr><th>TPSS</th><td>303.9 (12.8)</td><td>302.8 (13.9)</td><td>313.6 (3.1)</td><td>316.7</td><td>20.4</td><td>-20.4</td><td>18.3</td><td>-18.3</td></tr>
+  <tr><th>PW91</th><td>351.4 (10.2)</td><td>354.7 (6.9)</td><td>361.6</td><td>360.3 (1.3)</td><td>27.3</td><td>27.3</td><td>29.5</td><td>29.5</td></tr>
+  <tr><th>BP86</th><td>294.9 (13.6)</td><td>297.4 (11.1)</td><td>308.5</td><td>306.6 (1.9)</td><td>27.8</td><td>-27.8</td><td>25.7</td><td>-25.7</td></tr>
+  <tr><th>B3LYP</th><td>294.4 (12.3)</td><td>297.1 (9.6)</td><td>305.1 (1.6)</td><td>306.7</td><td>28.8</td><td>-28.8</td><td>26.7</td><td>-26.7</td></tr>
+  <tr><th>XLYP</th><td>287.9 (10.0)</td><td>286.9 (11.0)</td><td>296.3 (1.6)</td><td>297.9</td><td>37.4</td><td>-37.4</td><td>35.3</td><td>-35.3</td></tr>
+  <tr><th>BLYP</th><td>273.6 (16.2)</td><td>277.4 (12.4)</td><td>287.5 (2.3)</td><td>289.8</td><td>47.6</td><td>-47.6</td><td>45.4</td><td>-45.4</td></tr>
+  <tr><th>BLYP</th><td>273.6 (16.2)</td><td>277.3 (12.5)</td><td>287.4 (2.4)</td><td>289.8</td><td>47.6</td><td>-47.6</td><td>45.5</td><td>-45.5</td></tr>
+  <tr><th>BLYP</th><td>272.1 (17.6)</td><td>276.0 (13.7)</td><td>286.7 (3.0)</td><td>289.7</td><td>48.5</td><td>-48.5</td><td>46.4</td><td>-46.4</td></tr>
+  <tr><th>HF</th><td>222.9 (12.2)</td><td>224.4 (10.7)</td><td>230.6 (4.5)</td><td>235.1</td><td>101.4</td><td>-101.4</td><td>99.3</td><td>-99.3</td></tr>
+</table>

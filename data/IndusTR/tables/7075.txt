@@ -1,0 +1,20 @@
+<table>
+  <caption>Association Specification: Application Table Linked to Disbursement Information (Payout Confirmation)</caption>
+  <thead>
+    <tr><th>Layer</th><th>Attribute</th><th>Application Table (Source)</th><th>Disbursement Information Table (Target)</th><th>Constraint / Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Overview</td><td>Relationship Name</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table</td><td>Application-to-Disbursement Link</td></tr>
+    <tr><td>Relationship Overview</td><td>Association Type</td><td>Composite Primary Key Association</td><td>—</td><td>Supports multiple disbursement installments per application</td></tr>
+    <tr><td>Key Structure</td><td>Application PK</td><td>application_id</td><td>—</td><td>Primary identifier of the application</td></tr>
+    <tr><td>Key Structure</td><td>Disbursement Composite PK</td><td>—</td><td>(application_id, disbursement_seq)</td><td>One-to-many payouts via sequence number</td></tr>
+    <tr><td>Foreign Key Mapping</td><td>FK Constraint</td><td>application_id</td><td>application_id</td><td>Disbursement.application_id → Application.application_id</td></tr>
+    <tr><td>Cardinality</td><td>Source to Target</td><td>1</td><td>0..N</td><td>An application may have zero payouts until approved; then one or more disbursements</td></tr>
+    <tr><td>Financial Controls</td><td>Amount Reconciliation</td><td>approved_subsidy_amount</td><td>disbursement_amount</td><td>SUM(disbursement_amount) ≤ approved_subsidy_amount; equality required when application is closed</td></tr>
+    <tr><td>Financial Controls</td><td>Banking Match</td><td>beneficiary_account_no</td><td>payee_account_no</td><td>Accounts must match unless an authorized payee override record exists</td></tr>
+    <tr><td>Process Controls</td><td>Status Dependency</td><td>application_status</td><td>disbursement_status</td><td>Disbursement allowed only when application_status in {"Approved","Eligible for Payment"}</td></tr>
+    <tr><td>Process Controls</td><td>Timeline Rule</td><td>approval_date</td><td>disbursed_at</td><td>disbursed_at must be on/after approval_date; no back-dated payouts</td></tr>
+    <tr><td>Auditability</td><td>Traceability Fields</td><td>application_no</td><td>payment_reference_no</td><td>Payment reference must be unique per (application_id, disbursement_seq)</td></tr>
+    <tr><td>Data Governance</td><td>Update/Delete Action</td><td>application_id</td><td>(application_id, disbursement_seq)</td><td>On application deletion: restrict if any disbursement exists; otherwise cascade allowed before payment stage</td></tr>
+  </tbody>
+</table>

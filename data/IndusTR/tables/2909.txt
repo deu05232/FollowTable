@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Process Parameters for On-board Unit (OBU) PCB Assembly</caption>
+  <thead>
+    <tr><th>Step</th><th>Process</th><th>Parameter</th><th>Target</th><th>Tolerance</th><th>Equipment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Solder Paste Printing</td><td>Squeegee speed</td><td>45 mm/s</td><td>±5 mm/s</td><td>DEK Horizon</td></tr>
+    <tr><td>2</td><td>Pick & Place</td><td>Placement accuracy</td><td>±30 μm</td><td>±10 μm</td><td>ASM SIPLACE</td></tr>
+    <tr><td>3</td><td>Reflow</td><td>Peak temperature</td><td>245 °C</td><td>±5 °C</td><td>Heller 1809</td></tr>
+    <tr><td>4</td><td>Reflow</td><td>Time above liquidus</td><td>55 s</td><td>±10 s</td><td>Heller 1809</td></tr>
+    <tr><td>5</td><td>AOI Inspection</td><td>False call rate</td><td>< 0.8%</td><td>—</td><td>Koh Young Zenith</td></tr>
+    <tr><td>6</td><td>Functional Test</td><td>RF output check</td><td>23 dBm</td><td>±1 dB</td><td>Keysight N9918A</td></tr>
+  </tbody>
+</table>

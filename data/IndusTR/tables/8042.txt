@@ -1,0 +1,15 @@
+<table>
+  <caption>Key-to-Action Matrix for Terminal Application File and Key Update Flows</caption>
+  <thead>
+    <tr><th>Action / Protected Procedure</th><th>Master Control Key (MCK)</th><th>Maintenance Key (MTK)</th><th>Authentication Key (AK)</th><th>Key Encryption Key (KEK)</th><th>File Integrity Key (FIK)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Update cryptographic keys (install/replace)</td><td>Authorize</td><td>Not allowed</td><td>Not allowed</td><td>Protect transport (wrap/unwrap)</td><td>Optional integrity check of package</td></tr>
+    <tr><td>Update application files (download/replace)</td><td>Optional policy gate</td><td>Authorize</td><td>Not allowed</td><td>Not required</td><td>Verify file/package MAC</td></tr>
+    <tr><td>Delete application file</td><td>Optional policy gate</td><td>Authorize</td><td>Not allowed</td><td>Not required</td><td>Not required</td></tr>
+    <tr><td>Modify file parameters / access control flags</td><td>Optional policy gate</td><td>Authorize</td><td>Not allowed</td><td>Not required</td><td>Optional integrity check</td></tr>
+    <tr><td>Compute uplink authentication code (message MAC)</td><td>Not allowed</td><td>Not allowed</td><td>Compute</td><td>Not required</td><td>Not required</td></tr>
+    <tr><td>Verify protected command authenticity</td><td>Optional (for key-management commands)</td><td>Optional (for file-management commands)</td><td>Verify (uplink)</td><td>Not required</td><td>Not required</td></tr>
+    <tr><td>Secure key import confidentiality</td><td>Authorize import</td><td>Not allowed</td><td>Not allowed</td><td>Provide confidentiality (wrap)</td><td>Optional integrity check</td></tr>
+  </tbody>
+</table>

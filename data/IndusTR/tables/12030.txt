@@ -1,0 +1,5 @@
+<table>
+  <caption>AR session parameter for query-only utilities</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Session handle consumed by query utilities that do not allocate or initialize a session</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>SPN 2600: Charger Communication Protocol Version (Single-Item Definition)</caption>
+  <thead>
+    <tr><th>Start Byte</th><th>Bit</th><th>Length</th><th>SPN</th><th>Name</th><th>Data Type</th><th>Encoding</th><th>Allowed Values / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>0</td><td>1 byte</td><td>2600</td><td>Protocol Version - Byte1 (Patch)</td><td>UINT8</td><td>Hex</td><td>Current patch = 0x00</td></tr>
+    <tr><td>2</td><td>0</td><td>1 byte</td><td>2600</td><td>Protocol Version - Byte2 (Minor)</td><td>UINT8</td><td>Hex</td><td>Current minor = 0x01</td></tr>
+    <tr><td>3</td><td>0</td><td>1 byte</td><td>2600</td><td>Protocol Version - Byte3 (Major)</td><td>UINT8</td><td>Hex</td><td>Current major = 0x01</td></tr>
+    <tr><td>1</td><td>0</td><td>3 bytes</td><td>2600</td><td>Protocol Version (Composite)</td><td>BYTE[3]</td><td>BYTE3.BYTE2.BYTE1</td><td>Fixed: 0x01 0x01 0x00 (V1.1.0)</td></tr>
+    <tr><td>4</td><td>0</td><td>1 byte</td><td>2600</td><td>Reserved</td><td>UINT8</td><td>Hex</td><td>Set to 0xFF</td></tr>
+    <tr><td>5</td><td>0</td><td>1 byte</td><td>2600</td><td>Reserved</td><td>UINT8</td><td>Hex</td><td>Set to 0xFF</td></tr>
+  </tbody>
+</table>

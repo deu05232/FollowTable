@@ -1,0 +1,15 @@
+<table>
+  <caption>Rule Adjustment Notes for Visible-Light Intensity Estimation (Narrative Conditions Only)</caption>
+  <thead>
+    <tr><th>Situation</th><th>What You Might See</th><th>Recommended Action</th><th>Common Pitfall</th><th>Reviewer Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>High solar zenith angle</td><td>Long shadows, reduced contrast in low clouds</td><td>Delay classification until better lighting if possible</td><td>Misreading shadow edges as band boundaries</td><td>Prefer midday passes</td></tr>
+    <tr><td>Thin cirrus canopy</td><td>Core appears smooth/featureless, eye may be hidden</td><td>Annotate uncertainty; check for parallax</td><td>Assuming an eye when none is confirmed</td><td>Cross-check IR if available</td></tr>
+    <tr><td>Rapid convective burst</td><td>Sudden bright tower near center</td><td>Do not overreact to single-frame burst</td><td>Inflating intensity due to transient convection</td><td>Require persistence</td></tr>
+    <tr><td>Multiple low-level swirls</td><td>Several small vortices under the convection</td><td>Choose the most consistent center over time</td><td>Center jumps cause inconsistent tracking</td><td>Use motion continuity</td></tr>
+    <tr><td>Land interaction</td><td>Band breaks near coastline; dry air intrusion</td><td>Flag as potentially weakening; document environment</td><td>Attributing weakening to shear alone</td><td>Note terrain effects</td></tr>
+    <tr><td>Strong environmental shear</td><td>Convection displaced; exposed low-level center</td><td>Emphasize displacement in narrative report</td><td>Confusing shear pattern with curved-band wrap</td><td>Document direction of shear</td></tr>
+    <tr><td>Uncertain band definition</td><td>Band edges are fuzzy, multiple arc candidates</td><td>Record alternative interpretations</td><td>Cherry-picking the largest arc</td><td>Keep an audit trail</td></tr>
+  </tbody>
+</table>

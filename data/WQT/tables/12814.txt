@@ -1,0 +1,14 @@
+# Comparison of web browsers — Rendering engine, UI engine, and extension model
+
+| Browser | Vendor / Maintainer | Rendering engine | JavaScript engine | Extension ecosystem | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Google Chrome | Google | Blink | V8 | Chrome Web Store | Chromium-based; frequent stable releases |
+| Microsoft Edge | Microsoft | Blink | V8 | Microsoft Add-ons (Chromium) | Replaced EdgeHTML with Chromium engine |
+| Mozilla Firefox | Mozilla | Gecko | SpiderMonkey | Firefox Add-ons | Uses WebExtensions with some Firefox-specific APIs |
+| Apple Safari | Apple | WebKit | JavaScriptCore | Safari Extensions | Uses WebKit; tightly integrated with Apple platforms |
+| Opera | Opera Software | Blink | V8 | Chrome Web Store + Opera Add-ons | Chromium-based; includes built-in feature set |
+| Brave | Brave Software | Blink | V8 | Chrome Web Store | Chromium-based; privacy-focused defaults |
+| Vivaldi | Vivaldi Technologies | Blink | V8 | Chrome Web Store | Chromium-based; highly configurable UI |
+| Tor Browser | The Tor Project | Gecko (ESR) | SpiderMonkey | Limited/curated | Firefox ESR-based; hardened for anonymity |
+| UC Browser | UCWeb | Blink (varies by version) | V8 (varies) | Limited / proprietary | Mobile-first; implementation details vary by platform |
+| Samsung Internet | Samsung | Blink | V8 | Galaxy Store / WebExtensions (limited) | Android browser based on Chromium |

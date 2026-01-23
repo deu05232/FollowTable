@@ -1,0 +1,15 @@
+<table>
+  <caption>Equation-Style Combination of Project Emission Components for MSW Incineration (Reporting Template)</caption>
+  <thead>
+    <tr><th>Line</th><th>Component</th><th>Symbol</th><th>Computation approach</th><th>Units</th><th>Notes / typical data source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Electricity imported from grid</td><td>PE_EC</td><td>PE_EC = Σm(EC_m × EF_grid,m)</td><td>tCO2e/yr</td><td>Monthly meter readings (m) and grid EF by period</td></tr>
+    <tr><td>2</td><td>Stationary fossil fuel CO2</td><td>PE_FC_CO2</td><td>PE_FC_CO2 = Σf(FC_f × NCV_f × EF_CO2,f)</td><td>tCO2/yr</td><td>Fuel purchase records; country/IPCC default EFs</td></tr>
+    <tr><td>3</td><td>Stationary fossil fuel CH4</td><td>PE_FC_CH4</td><td>PE_FC_CH4 = Σf(FC_f × EF_CH4,f) × GWP_CH4</td><td>tCO2e/yr</td><td>Default EF_CH4,f by fuel/technology</td></tr>
+    <tr><td>4</td><td>Stationary fossil fuel N2O</td><td>PE_FC_N2O</td><td>PE_FC_N2O = Σf(FC_f × EF_N2O,f) × GWP_N2O</td><td>tCO2e/yr</td><td>Default EF_N2O,f by fuel/technology</td></tr>
+    <tr><td>5</td><td>Waste-combustion fossil CO2</td><td>PE_COM_CO2</td><td>PE_COM_CO2 = Σj(W_j × DW_j × CFossil_j × OXID_j × 44/12)</td><td>tCO2/yr</td><td>Waste composition surveys; fossil carbon share per fraction</td></tr>
+    <tr><td>6</td><td>Waste-combustion CH4 and N2O</td><td>PE_COM_CH4N2O</td><td>PE_COM_CH4N2O = (W_total × EF_CH4,inc × GWP_CH4) + (W_total × EF_N2O,inc × GWP_N2O)</td><td>tCO2e/yr</td><td>Stack testing or default incineration EFs</td></tr>
+    <tr><td>7</td><td>Total project emissions</td><td>PE</td><td>PE = PE_EC + (PE_FC_CO2 + PE_FC_CH4 + PE_FC_N2O) + PE_COM_CO2 + PE_COM_CH4N2O</td><td>tCO2e/yr</td><td>Equation-style aggregation for reporting</td></tr>
+  </tbody>
+</table>

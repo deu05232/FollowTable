@@ -1,0 +1,12 @@
+# ERP Implementation Timeline by Phase (Project Plan Without Budget Figures)
+
+| Phase | Typical Duration (Weeks) | Key Activities | Primary Roles | Main Deliverables | Common Risks |
+|---|---:|---|---|---|---|
+| Discovery | 2–6 | Process mapping, scope definition | PM, BA, Solution Architect | Requirements baseline | Scope creep |
+| Solution Design | 3–8 | Fit-gap, target design | Functional Leads, Architect | Design specs | Underestimated complexity |
+| Build & Configure | 6–20 | Configuration, extensions | Developers, Consultants | Config workbook, custom code | Technical debt |
+| Data Migration | 4–16 | Mapping, cleansing, loads | Data Lead, SME | Loaded master/transactional data | Poor data quality |
+| Integration | 4–14 | API/EDI integration | Integration Engineer | Interfaces, monitoring | Latency/failures |
+| Testing | 4–12 | SIT/UAT, defect fixes | QA, Business Users | Test scripts, sign-off | Incomplete test coverage |
+| Training | 2–8 | Train-the-trainer, materials | Trainer, SMEs | Training guides | Low adoption |
+| Go-live & Hypercare | 2–10 | Cutover, support | Support Team | Stabilized operations | Production incidents |

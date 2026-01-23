@@ -1,0 +1,8 @@
+<table>
+  <caption>Recommended fillet radius and corner radius limits for die-forged structural features</caption>
+  <tr><th>Feature size range (local thickness)</th><th>Minimum internal fillet radius (limit-style guidance)</th><th>Minimum external corner radius (limit-style guidance)</th><th>Notes tied to metal flow / die filling</th></tr>
+  <tr><td>≤ 6 mm</td><td>≥ 1.5 mm</td><td>≥ 2.0 mm</td><td>Smaller radii raise flow resistance and risk laps</td></tr>
+  <tr><td>> 6 to 12 mm</td><td>≥ 2.0 mm</td><td>≥ 3.0 mm</td><td>Use larger radii near junctions to reduce stress concentration</td></tr>
+  <tr><td>> 12 to 25 mm</td><td>≥ 3.0 mm</td><td>≥ 4.0 mm</td><td>Helps reduce die wear and improves filling</td></tr>
+  <tr><td>> 25 mm</td><td>≥ 4.0 mm</td><td>≥ 6.0 mm</td><td>Prefer gradual transitions to avoid fold defects</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Knitting Machine State Duration Counters Dictionary (Runtime vs Pause)</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0320</td><td>Run State Duration</td><td>RunStateDuration</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Time accumulated while the controller state indicates active knitting (RUN).</td><td>Counts only when state=RUN</td></tr>
+    <tr><td>0x0321</td><td>Pause State Duration</td><td>PauseStateDuration</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Time accumulated while the controller state indicates paused knitting (PAUSE).</td><td>Counts only when state=PAUSE</td></tr>
+    <tr><td>0x0322</td><td>Stop State Duration</td><td>StopStateDuration</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Time accumulated while the machine is stopped (STOP).</td><td>Counts only when state=STOP</td></tr>
+    <tr><td>0x0323</td><td>Idle State Duration</td><td>IdleStateDuration</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Time accumulated when the machine is powered but not knitting and not in RUN/PAUSE.</td><td>Counts only when state=IDLE</td></tr>
+    <tr><td>0x0324</td><td>Runtime Ratio</td><td>RuntimeRatio</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.0~1.0</td><td>ratio</td><td>RunStateDuration divided by (RunStateDuration + PauseStateDuration + StopStateDuration) for the same window.</td><td></td></tr>
+    <tr><td>0x0325</td><td>Downtime Ratio</td><td>DowntimeRatio</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.0~1.0</td><td>ratio</td><td>(PauseStateDuration + StopStateDuration) divided by total monitored time for the same window.</td><td></td></tr>
+    <tr><td>0x0326</td><td>Duration Counter Reset Timestamp</td><td>DurationCounterResetTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int64</td><td>>=0</td><td>ms</td><td>Unix timestamp (ms) when state-duration counters were last reset.</td><td></td></tr>
+    <tr><td>0x0327</td><td>Monitoring Window Length</td><td>DurationWindowLength</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=1</td><td>min</td><td>Configured window length used to compute ratios from duration counters.</td><td></td></tr>
+  </tbody>
+</table>

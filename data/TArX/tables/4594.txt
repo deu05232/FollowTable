@@ -1,0 +1,21 @@
+<table>
+  <caption>Parameters used in the analysis and their assumed priors. In the prior columns a single number n stands for a fixed value, [ a , b ] stands for a flat prior, μ ± σ means a Gaussian prior of mean μ and standard deviation σ .</caption>
+  <tr><td>Type</td><td>Symbol</td><td>Definition</td><td>Prior without CMB</td><td>Prior with CMB</td></tr>
+  <tr><td>Cosmology</td><td>h</td><td>Dimensionless Hubble parameter</td><td>0.7</td><td>[0.4,0.9]</td></tr>
+  <tr><td></td><td>n_(s)</td><td>Scalar spectral index</td><td>0.96</td><td>[0.5,1.5]</td></tr>
+  <tr><td></td><td>Ω_(b)</td><td>Baryon energy density</td><td>0.04397</td><td>[0.01,0.2]</td></tr>
+  <tr><td></td><td>Ω_(c)</td><td>Cold dark matter energy density</td><td>[0.1,0.9]</td><td>[0.1,0.9]</td></tr>
+  <tr><td></td><td>(10^(10)A_(s))</td><td>Amplitude of primordial perturbations</td><td>[0.1,6.0]</td><td>[0.1,6.0]</td></tr>
+  <tr><td></td><td>τ</td><td>Optical depth</td><td>0.09</td><td>[0.01,0.125]</td></tr>
+  <tr><td></td><td></td><td>Primordial non-Gaussianity amplitude</td><td>[-900,900]</td><td>[-900,900]</td></tr>
+  <tr><td>Scaling relation</td><td>N_(1)N_()|M_(1)</td><td>Richness at M_(1)=1.3· 10^(14)_()</td><td>[1.0,4.0]</td><td>[1.0,4.0]</td></tr>
+  <tr><td></td><td>N_(2)N_()|M_(2)</td><td>Richness at M_(2)=1.3· 10^(15)_()</td><td>[1.0,4.0]</td><td>[1.0,4.0]</td></tr>
+  <tr><td></td><td>σ_(M|N_)</td><td>Scatter</td><td>0.45± 0.1</td><td>0.45± 0.1</td></tr>
+  <tr><td>Nuisance</td><td>β</td><td>Weak lensing mass measurements bias</td><td>1.0± 0.06</td><td>1.0± 0.06</td></tr>
+  <tr><td></td><td>B</td><td>Scatter on bias derived from mass function</td><td>1.0± 0.15</td><td>1.0± 0.15</td></tr>
+  <tr><td></td><td></td><td>Non-linear correction to power spectrum</td><td>[0.0,50.0]</td><td>[0.0,50.0]</td></tr>
+  <tr><td></td><td>σ_(z)</td><td>Photo-Z errors</td><td>[0,120]</td><td>[0,120]</td></tr>
+  <tr><td></td><td>A_(SZ)</td><td>Amplitude of CMB SZ template</td><td>1</td><td>[0,2]</td></tr>
+  <tr><td>Derived</td><td>Ω_(m)</td><td>Total matter energy density</td><td>—</td><td>—</td></tr>
+  <tr><td></td><td>σ_(8)</td><td>Amplitude of density perturbations</td><td>—</td><td>—</td></tr>
+</table>

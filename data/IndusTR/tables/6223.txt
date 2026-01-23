@@ -1,0 +1,16 @@
+<table>
+  <caption>Conformance bitstream test checklist for inter prediction, motion information, and reference signalling syntax elements</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Condition / context</th><th>Test requirements (explicit value ranges)</th><th>Notes for test-case construction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>inter_pred_idc</td><td>When the current block is inter-coded</td><td>Traverse cases where the value of inter_pred_idc equals 0 to 2</td><td>0/1/2 should appear; include at least one case per value.</td></tr>
+    <tr><td>merge_flag</td><td>When merge mode is allowed</td><td>Traverse cases where the value of merge_flag equals 0 to 1</td><td>Cover both non-merge and merge paths.</td></tr>
+    <tr><td>merge_idx</td><td>When merge_flag equals 1</td><td>Traverse cases where the value of merge_idx equals 0 to 7</td><td>Exercise boundary indices 0 and 7.</td></tr>
+    <tr><td>mmvd_flag</td><td>When merge_flag equals 1 and MMVD is enabled</td><td>Traverse cases where the value of mmvd_flag equals 0 to 1</td><td>Include both values with fixed merge_idx when feasible.</td></tr>
+    <tr><td>ref_idx_l0</td><td>When inter_pred_idc indicates list0 is used</td><td>Traverse cases where the value of ref_idx_l0 equals 0 to 14</td><td>Keep reference list length consistent across cases for comparability.</td></tr>
+    <tr><td>ref_idx_l1</td><td>When inter_pred_idc indicates list1 is used</td><td>Traverse cases where the value of ref_idx_l1 equals 0 to 14</td><td>Include at least one case where ref_idx_l1 equals 0 and one where it equals 14.</td></tr>
+    <tr><td>mvd_coding_mode</td><td>When motion vector difference is present</td><td>Traverse cases where the value of mvd_coding_mode equals 0 to 1</td><td>Exercise both coding modes with the same motion direction if allowed.</td></tr>
+    <tr><td>motion_vector_precision_idc</td><td>When motion vectors are signalled</td><td>Traverse cases where the value of motion_vector_precision_idc equals 0 to 3</td><td>Explicitly cover 0..3 to ensure different precision levels are tested.</td></tr>
+  </tbody>
+</table>

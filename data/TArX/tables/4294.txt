@@ -1,0 +1,12 @@
+<table>
+  <caption>The calculated ground state properties of orthorhombic black phosphorus at ambient pressure. a , b and c are the lattice parameters, V the volume of the orthorhombic unit cell, and u and v the internal crystallographic parameters. CAPZ denotes the LDA parametrization of Refs. \onlinecite Ceperley,PPerdew, PW91 and PBE the GGA parametrization of Refs. \onlinecite Wang,Perdew, respectively. For the van der Waals parametrization, the parametrizations of Ref. \onlinecite OBS (OBS), Ref. \onlinecite TS (TS) and Ref. \onlinecite Grimme (Grimme) are considered. Also included are the results of the LDA calculations by Ahuja [ Rajeev2003 ] with the Hedin-Lundqvist parametrization (LDA-HL) [ HL ] .</caption>
+  <tr><td>Method</td><td>XC</td><td>a(Å)</td><td>b(Å)</td><td>c(Å)</td><td>V(Å ^((3)) )</td><td>u</td><td>v</td></tr>
+  <tr><td>DFT</td><td>LDA-CAPZ</td><td>3.28</td><td>10.10</td><td>4.07</td><td>134.9</td><td>0.1059</td><td>0.0711</td></tr>
+  <tr><td></td><td>LDA-HL ^((a))</td><td>3.24</td><td>10.19</td><td>4.24</td><td>140.0</td><td>0.1013</td><td>0.0789</td></tr>
+  <tr><td></td><td>GGA-PW91</td><td>3.29</td><td>11.07</td><td>4.52</td><td>164.5</td><td>0.0950</td><td>0.0871</td></tr>
+  <tr><td></td><td>GGA-PBE</td><td>3.28</td><td>11.22</td><td>4.54</td><td>167.1</td><td>0.0935</td><td>0.0876</td></tr>
+  <tr><td>DFT-D</td><td>GGA-PW91-OBS</td><td>3.29</td><td>10.63</td><td>4.41</td><td>154.1</td><td>0.0996</td><td>0.0832</td></tr>
+  <tr><td></td><td>GGA-PBE-TS</td><td>3.29</td><td>10.82</td><td>4.39</td><td>156.3</td><td>0.0979</td><td>0.0830</td></tr>
+  <tr><td></td><td>GGA-PBE-Grimme</td><td>3.30</td><td>10.43</td><td>4.40</td><td>151.3</td><td>0.1017</td><td>0.0833</td></tr>
+  <tr><td>Exp ^((b))</td><td></td><td>3.3133</td><td>10.473</td><td>4.374</td><td>151.77</td><td>0.1034</td><td>0.0806</td></tr>
+</table>

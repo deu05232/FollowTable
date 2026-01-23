@@ -1,0 +1,16 @@
+<table>
+  <caption>Instant Messaging Service API Request Parameters — Relationship/Subscription Action (Request)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Field Name</th><th>Type/Format</th><th>Required</th><th>Max Occurrences</th><th>Value Range / Examples</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Interface Operation</td><td>interfaceOperation</td><td>String (1..64)</td><td>M</td><td>1</td><td>SUBSCRIBE | UNSUBSCRIBE | BLOCK | UNBLOCK</td><td>Operation to execute for relationship management.</td></tr>
+    <tr><td>Requester (Actor) ID</td><td>requesterId</td><td>String (1..64)</td><td>M</td><td>1</td><td>user-abc</td><td>The user initiating the action (subscriber/actor).</td></tr>
+    <tr><td>Target ID</td><td>targetId</td><td>String (1..64)</td><td>M</td><td>1</td><td>user-def</td><td>The user being subscribed to / blocked (target).</td></tr>
+    <tr><td>Relationship Type</td><td>relationshipType</td><td>String (1..32)</td><td>O</td><td>1</td><td>PRESENCE | MESSAGES | ALL</td><td>Scope of subscription/relationship change.</td></tr>
+    <tr><td>Reason (Optional)</td><td>reason</td><td>String (0..256)</td><td>O</td><td>1</td><td>"user request"</td><td>Free text reason for auditing (request-side).</td></tr>
+    <tr><td>Request Metadata</td><td>metadata.clientId</td><td>String (1..64)</td><td>O</td><td>1</td><td>android-app-01</td><td>Client identifier (hierarchical field group).</td></tr>
+    <tr><td>Request Metadata</td><td>metadata.ipAddress</td><td>String (7..45)</td><td>O</td><td>1</td><td>192.0.2.1</td><td>Client IP for logging/rate limiting.</td></tr>
+    <tr><td>Request Metadata</td><td>metadata.userAgent</td><td>String (0..256)</td><td>O</td><td>1</td><td>"MyIMSDK/2.1"</td><td>User agent string for diagnostics.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>GLONASS Phase Bias Information 1266 Single-Satellite Phase Bias Field Definitions</caption>
+  <tr><td>Data Field Name</td><td>Data Field Number</td><td></td><td>Number of Bits</td></tr>
+  <tr><td>GLONASS Signal and Its Tracking Mode</td><td>DF381</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td></tr>
+  <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td></tr>
+  <tr><td>Signal Discontinuity Counter</td><td>DF485</td><td>uint4</td><td>4</td></tr>
+  <tr><td>Phase Bias</td><td>DF482</td><td>int20</td><td>20</td></tr>
+  <tr><td>Total</td><td>一</td><td>一</td><td>32</td></tr>
+</table>

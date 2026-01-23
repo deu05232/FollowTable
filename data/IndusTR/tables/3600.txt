@@ -1,0 +1,22 @@
+<table>
+  <caption>Basic Mathematics Operator Interface Classification List</caption>
+  <tr><td>Category</td><td>Name</td></tr>
+  <tr><td>Tensor Creation and Destruction</td><td>Create dense tensor by copying existing data, create dense tensor by referencing existing data, create all-zero dense tensor, create dense tensor with specified values, create uninitialized tensor, create contiguous-memory tensor, create dense tensor with uniformly distributed random numbers, create dense tensor with normally distributed random numbers, create dense tensor with Bernoulli distribution, create dense tensor with multinomial distribution, create dense tensor with a numeric sequence, create dense tensor with uniformly distributed linear space, create sparse tensor, create quantized tensor, copy tensor, create tensor by copying diagonal elements, destroy tensor</td></tr>
+  <tr><td>Tensor Query and Check</td><td>Shape query, finite check, infinity check, NaN check, element count check, rank query, contiguous-memory check</td></tr>
+  <tr><td>Tensor Transformation</td><td>Convert data type, change tensor shape, expand dimensions, remove dimensions, tensor transpose, tensor split, tensor merge, tensor stack, tensor unstack, tensor slicing, tensor repeat, tensor padding, tensor reverse transform, tensor cyclic roll transform, tensor shape clipping, tensor value clipping, tensor gather, tensor scatter update, expand tensor, flatten tensor, tensor flip, tensor sign check, conditional combination tensor, 1D tensor expansion, tensor selection</td></tr>
+  <tr><td>Arithmetic Operations</td><td>Tensor addition operation, tensor subtraction operation, tensor multiplication operation, tensor multiply-add operation, tensor division operation, tensor floor division operation, tensor true division operation, tensor modulo operation, tensor element-wise maximum, tensor element-wise minimum, tensor absolute value operation, tensor reciprocal operation, tensor diagonal element summation operation</td></tr>
+  <tr><td>Comparison Operations</td><td>Check whether tensors are equal, check whether tensors are not equal, check whether tensor is greater than, check whether tensor is greater than or equal to, check whether tensor is less than, check whether tensor is less than or equal to, check whether tensor values are close</td></tr>
+  <tr><td>Logical Operations</td><td>Tensor "logical AND" operation, tensor "logical OR" operation, tensor "logical NOT" operation, tensor "logical XOR" operation</td></tr>
+  <tr><td>Bitwise Operations</td><td>Bitwise "AND" operation, bitwise "OR" operation, bitwise “XOR" operation, bitwise invert operation, bitwise left shift operation, bitwise right shift operation</td></tr>
+  <tr><td>Power Operations</td><td>Power, square root, reciprocal square root, square</td></tr>
+  <tr><td>Rounding Operations</td><td>Floor, ceil, truncate, round to nearest, general rounding</td></tr>
+  <tr><td>Trigonometric Functions</td><td>Sine function, cosine function, tangent function, arcsine function, arccosine function, arctangent function</td></tr>
+  <tr><td>Hyperbolic Functions</td><td>Hyperbolic sine function, hyperbolic cosine function, hyperbolic tangent function, inverse hyperbolic sine function, inverse hyperbolic cosine function, inverse hyperbolic tangent function</td></tr>
+  <tr><td>Exponential and Logarithmic Functions</td><td>Exponential function, exponential function extension, natural logarithm function, natural logarithm function extension, base-10 logarithm function, base-2 logarithm function</td></tr>
+  <tr><td>Reduction Operations</td><td>Reduction, prefix sum</td></tr>
+  <tr><td>Indexing Operations</td><td>Argmax, argmin, sorting indices, Top K indices, nonzero indices</td></tr>
+  <tr><td>Complex Number Operations</td><td>Complex number construction, complex conjugate, get imaginary part, get real part</td></tr>
+  <tr><td>Signal Processing</td><td>Fast Fourier transform, fast inverse Fourier transform</td></tr>
+  <tr><td>Linear Algebra Operations</td><td>Matrix multiplication, vector inner product, LU decomposition, Cholesky decomposition, QR decomposition, SVD singular value decomposition, solve linear system, least squares, matrix inverse, eigenvalues and eigenvectors, matrix norm, linear operation, bilinear operation</td></tr>
+  <tr><td>Interpolation Operations</td><td>Interpolation operation</td></tr>
+</table>

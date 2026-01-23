@@ -1,0 +1,9 @@
+<table>
+  <caption>PKCS #7 Digested Data Decoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Pkcs7_DecodeDigestedData(void * hAppHandle,unsigned int uiDigestAlgorithm,unsigned char * pucDerP7DigestedData,unsigned int puiDerP7DigestedDataLen,ACunsigned char * pucData,unsigned int * puiDataLen,unsigned char * pucDigest,unsigned int * puiDigestLen)</td></tr>
+  <tr><td>Description</td><td>Parse the plaintext and digest value from a data packet compliant with the PKCS #7 digested-data format</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>hAppHandle[in](Application interface handle)</td></tr>
+  <tr><td>uiDigestAlgorithm[in](Hash algorithm identifier)</td></tr>
+  <tr><td>pucDerP7DigestedData[in](Data packet compliant with the PKCS #7 digested-data format)</td></tr>
+  <tr><td>puiDerP7DigestedDataLen[in](Length of the data packet compliant with the PKCS #7 digested-data format)</td></tr>
+</table>

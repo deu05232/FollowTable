@@ -1,0 +1,19 @@
+<table>
+  <caption>Association Specification: Application Table Linked to Invoice Information (Audit Trail Focus)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Application Table (Source)</th><th>Invoice Information Table (Target)</th><th>Rule / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Overview</td><td>Relationship Name</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Invoice Information Table</td><td>Application-to-Invoice Link</td></tr>
+    <tr><td>Relationship Overview</td><td>Association Type</td><td>Single Primary Key Association</td><td>—</td><td>One application can reference one or multiple invoices depending on jurisdiction configuration</td></tr>
+    <tr><td>Keys</td><td>Primary Key (PK)</td><td>application_id</td><td>invoice_id</td><td>PKs are unique within their respective tables</td></tr>
+    <tr><td>Keys</td><td>Foreign Key (FK)</td><td>invoice_id (nullable if invoice pending)</td><td>invoice_id</td><td>Application.invoice_id → Invoice.invoice_id</td></tr>
+    <tr><td>Cardinality</td><td>Source to Target</td><td>1..1</td><td>0..1</td><td>Application may exist before invoice upload; invoice becomes mandatory at purchase-proof stage</td></tr>
+    <tr><td>Integrity Constraints</td><td>Required Match</td><td>application_id</td><td>invoice_id</td><td>If invoice_id is present in application, a matching invoice record must exist</td></tr>
+    <tr><td>Integrity Constraints</td><td>Uniqueness Constraint</td><td>invoice_id</td><td>invoice_id</td><td>Invoice.invoice_id must not be linked to multiple distinct applications (unless policy allows split applications)</td></tr>
+    <tr><td>Audit & Timing</td><td>Event Trigger</td><td>invoice_uploaded_at</td><td>issued_at</td><td>Invoice issuance date must be on/before invoice upload timestamp</td></tr>
+    <tr><td>Audit & Timing</td><td>Validation Rule</td><td>purchase_amount</td><td>invoice_total_amount</td><td>purchase_amount must equal or be derivable from invoice_total_amount (after approved deductions)</td></tr>
+    <tr><td>Audit & Timing</td><td>Status Dependency</td><td>application_status</td><td>invoice_status</td><td>When application_status in {"Under Review","Approved"}, invoice_status should be {"Valid"}</td></tr>
+    <tr><td>Data Governance</td><td>Update/Delete Action</td><td>invoice_id</td><td>invoice_id</td><td>On invoice deletion: restrict if referenced by an approved application; otherwise set application.invoice_id = NULL</td></tr>
+  </tbody>
+</table>

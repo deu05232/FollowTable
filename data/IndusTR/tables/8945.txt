@@ -1,0 +1,10 @@
+<table>
+  <caption>vrPose members and validity semantics</caption>
+  <tr><th>Data Type</th><th>Member</th><th>Type</th><th>Description</th></tr>
+  <tr><td rowspan="6">vrPose</td><td>time_stamp</td><td>int64_t</td><td>Timestamp of the pose sample</td></tr>
+  <tr><td>orientation</td><td>vrQuaternion</td><td>Orientation component</td></tr>
+  <tr><td>position</td><td>vr3DPoint</td><td>Position component</td></tr>
+  <tr><td>orientation_valid</td><td>bool</td><td>Whether orientation is valid for this sample</td></tr>
+  <tr><td>position_valid</td><td>bool</td><td>Whether position is valid for this sample</td></tr>
+  <tr><td>tracking_state</td><td>uint32_t</td><td>Implementation-defined tracking state code attached to the pose</td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Equipment Effectiveness Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0400</td><td>Production Efficiency</td><td>ProductionEfficiency</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0401</td><td>Mechanical Efficiency</td><td>MechanicalEfficiency</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>1</td><td></td></tr>
+  <tr><td>0X0402</td><td>Left Side Efficiency</td><td>LeftSideEfficiency</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0403</td><td>Right Side Efficiency</td><td>RightSideEficiency</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>1</td><td></td></tr>
+  <tr><td>0X0404</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

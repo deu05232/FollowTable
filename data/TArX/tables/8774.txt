@@ -1,0 +1,15 @@
+<table>
+  <caption>Optical cavity modes: optomechanical coupling parameters and optical quality factors (strong-coupling screening table)</caption>
+  <thead>
+    <tr><th>Optical mode label</th><th>Polarization family</th><th>Wavelength (nm)</th><th>Loaded Q</th><th>Intrinsic Qi</th><th>Coupling rate G/2π (GHz/nm)</th><th>Single-photon g0/2π (kHz)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TE(31,2)</td><td>TE</td><td>1550</td><td>8.2×10^5</td><td>3.1×10^5</td><td>52</td><td>34</td><td>High-Q reference mode</td></tr>
+    <tr><td>TE(27,3)</td><td>TE</td><td>1551</td><td>4.1×10^5</td><td>2.9×10^5</td><td>49</td><td>32</td><td>Similar coupling, lower loaded Q</td></tr>
+    <tr><td>TE(24,4)</td><td>TE</td><td>1549</td><td>2.3×10^5</td><td>1.0×10^5</td><td>46</td><td>30</td><td>Lower Qi; check absorption</td></tr>
+    <tr><td>TM(22,1)</td><td>TM</td><td>1550</td><td>6.0×10^5</td><td>2.2×10^5</td><td>41</td><td>27</td><td>TM family tends to lower G</td></tr>
+    <tr><td>TM(19,2)</td><td>TM</td><td>1552</td><td>3.2×10^5</td><td>1.6×10^5</td><td>38</td><td>25</td><td>More external coupling inferred</td></tr>
+    <tr><td>TE(18,1)</td><td>TE</td><td>1548</td><td>1.1×10^6</td><td>6.5×10^5</td><td>44</td><td>29</td><td>Best Qi; good for strong-coupling attempt</td></tr>
+    <tr><td>Hybrid(16,3)</td><td>TE/TM-mixed</td><td>1553</td><td>2.7×10^5</td><td>0.9×10^5</td><td>55</td><td>36</td><td>Large G but lower Qi</td></tr>
+  </tbody>
+</table>

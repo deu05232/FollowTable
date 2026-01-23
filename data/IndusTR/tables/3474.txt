@@ -1,0 +1,14 @@
+<table>
+  <caption>Airlaid Web-Forming Equipment Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Feed Roll Speed</td><td>FeedRollSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0201</td><td>Cylinder Set Speed</td><td>CylinderSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~2000.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0202</td><td>Dust Cage Set Speed</td><td>DustCageSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>One</td><td></td></tr>
+  <tr><td>0X0203</td><td>Web Output Set Speed</td><td>SetTheOutboundSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0204</td><td>Single-Layer Web Basis Weight Deviation</td><td>GrammageDeviationOfSingleLayerWeb</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>-10.00~10.00</td><td>%</td><td>丨</td><td></td></tr>
+  <tr><td>0X0205</td><td>Suction Fan Set Speed</td><td>SuctionF anSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0206</td><td>Dust Removal Fan Set Speed</td><td>DustRemovalFanSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0207</td><td>Web Basis Weight</td><td>NetWeight</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>20.00~2 000.00</td><td>g/m²</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0208</td><td>Fiber Length</td><td>FiberLength</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>5.00~75.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X0209</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

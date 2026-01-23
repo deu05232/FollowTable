@@ -1,0 +1,17 @@
+<table>
+  <caption>Vehicle Admission & Start Authorization — Identity + Queue + Equipment Constraints</caption>
+  <thead>
+    <tr><th>Category</th><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Vehicle Identity</td><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>VIN, length 17</td><td>Yes</td></tr>
+    <tr><td>License plate number</td><td>plateNum</td><td>string</td><td>Full plate number</td><td>No</td></tr>
+    <tr><td>Vehicle product model</td><td>vehicleType</td><td>string</td><td>National standard vehicle model</td><td>No</td></tr>
+    <tr><td rowspan="3">Authorization/Verification</td><td>Authentication token</td><td>authToken</td><td>string</td><td>Token issued by platform for start permission</td><td>Yes</td></tr>
+    <tr><td>Verification status</td><td>verifyStat</td><td>integer</td><td>0: Verified; 1: Not verified; 2: Expired</td><td>Yes</td></tr>
+    <tr><td>Verification message</td><td>verifyMsg</td><td>string</td><td>Human-readable detail, max 80 chars</td><td>No</td></tr>
+    <tr><td rowspan="3">Swap Operations</td><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>Station/cabinet identifier that enforces the restriction</td><td>Yes</td></tr>
+    <tr><td>Reserved vehicle queue position</td><td>positionNo</td><td>integer</td><td>Queue position used for swap scheduling</td><td>Yes</td></tr>
+    <tr><td>Battery swap order number</td><td>swapOrderNo</td><td>string</td><td>Swap transaction id associated with admission</td><td>No</td></tr>
+  </tbody>
+</table>

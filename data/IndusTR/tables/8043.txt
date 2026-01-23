@@ -1,0 +1,10 @@
+<table>
+  <caption>Key Purpose Mapping for Secure Messaging in the Terminal Application</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Uplink MAC key</td><td>Application-defined</td><td>Generates message authentication code for uplink frames</td></tr>
+  <tr><td>Downlink MAC key</td><td>Application-defined</td><td>Verifies message authentication code for downlink frames</td></tr>
+  <tr><td>Payload encryption key</td><td>Application-defined</td><td>Encrypts application payload for confidentiality</td></tr>
+  <tr><td>Bootstrap key</td><td>Application-defined</td><td>Initial trust anchor used to establish session keys during provisioning</td></tr>
+  <tr><td>Key export permission</td><td>1</td><td>00: not exportable; 01: exportable under secure channel</td></tr>
+  <tr><td>Key rotation permission</td><td>1</td><td>00: rotation prohibited; 01: rotation permitted by authorized entity</td></tr>
+</table>

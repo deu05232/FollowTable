@@ -1,0 +1,12 @@
+<table>
+  <caption>Photodetector Assembly Electrical Performance Limits (Room Temperature)</caption>
+  <tr><th>Parameter name</th><th>Symbol</th><th>Conditions</th><th>Minimum</th><th>Maximum</th><th>Unit</th></tr>
+  <tr><td>Supply voltage</td><td>VDD</td><td>Measured at module input</td><td>3.10</td><td>3.50</td><td>V</td></tr>
+  <tr><td>Bias voltage (photodiode)</td><td>VR</td><td>Reverse bias, functional range</td><td>1.0</td><td>8.0</td><td>V</td></tr>
+  <tr><td>Dark current</td><td>ID</td><td>VR = 5 V, no illumination</td><td>0.0</td><td>50</td><td>nA</td></tr>
+  <tr><td>Responsivity</td><td>R</td><td>λ = 1310 nm, PIN mode</td><td>0.85</td><td>1.05</td><td>A/W</td></tr>
+  <tr><td>Bandwidth (−3 dB)</td><td>f3dB</td><td>RL = 50 Ω, small-signal</td><td>0.30</td><td>2.50</td><td>GHz</td></tr>
+  <tr><td>Output noise current density</td><td>in</td><td>f = 10 MHz, RL = 50 Ω</td><td>0.5</td><td>3.0</td><td>pA/√Hz</td></tr>
+  <tr><td>Optical input power (linear operation)</td><td>Pin</td><td>λ = 1310 nm</td><td>-30</td><td>-3</td><td>dBm</td></tr>
+  <tr><td>Return loss at electrical output</td><td>RLout</td><td>100 MHz to 2 GHz</td><td>10</td><td>25</td><td>dB</td></tr>
+</table>

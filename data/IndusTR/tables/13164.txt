@@ -1,0 +1,16 @@
+<table>
+  <caption>BusinessProcess — Container Gate-In Event Capture (Export Terminal)</caption>
+  <thead>
+    <tr><th>Field</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Preconditions</td><td>Export booking and shipping instructions exist; the container has a valid container number and seal number; the truck appointment (or gate slot) is confirmed; the terminal operating system (TOS) can receive EDI/API messages from the carrier/forwarder/haulier.</td></tr>
+    <tr><td>Start Time</td><td>When the truck arrives at the export terminal gate and the gate clerk/automated gate system initiates the check-in transaction.</td></tr>
+    <tr><td>Scenario</td><td>The haulier presents container and booking references (e.g., booking number, equipment number).The terminal validates eligibility (cut-off time, booking match, hazard declarations, customs hold flags).Gate system captures event data: gate-in timestamp, truck/driver ID, container number, seal, weight (if available), damage notes, and OCR images.TOS assigns a yard location (stack/row/slot) and creates a receipt confirmation.The terminal publishes a tracking milestone (e.g.,Container Gate-In) to the integrated tracking platform and/or sends EDI messages (e.g., CODECO/COARRI variants) to the carrier and other authorized parties.</td></tr>
+    <tr><td>Inputs</td><td>Booking/shipping instructions; container master data; appointment data; regulatory flags (customs/port security); gate OCR/inspection observations.</td></tr>
+    <tr><td>Outputs</td><td>Gate-in confirmation; yard location assignment; tracking milestone record; exception/hold notice if validation fails.</td></tr>
+    <tr><td>Key Data Elements</td><td>Container ID; booking ID; event code; event time; location (terminal gate); haulier ID; seal; weight; condition code; hold status.</td></tr>
+    <tr><td>Participants</td><td>Terminal operator; haulier; ocean carrier; freight forwarder; integrated data center (tracking platform).</td></tr>
+    <tr><td>Exceptions</td><td>Invalid booking/cut-off missed; mismatch between container and booking; customs/security hold; unreadable OCR; overweight; hazardous cargo documentation missing.</td></tr>
+  </tbody>
+</table>

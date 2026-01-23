@@ -1,0 +1,15 @@
+<table>
+  <caption>Third-Party OID Node Assignment Example: Step-by-Step Identifier Composition (Includes Forbidden Component Breakdown)</caption>
+  <thead>
+    <tr><th>Step</th><th>Component Item</th><th>Meaning</th><th>Example Value</th><th>Result After Step</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Construction machinery field node</td><td>Top-level OID node for the industry</td><td>1.2.156.3514</td><td>1.2.156.3514</td></tr>
+    <tr><td>2</td><td>Third-party organization node</td><td>A single third-party node selected from the third-party space</td><td>2011</td><td>1.2.156.3514.2011</td></tr>
+    <tr><td>3</td><td>Service domain code</td><td>Code for the service line within the third party</td><td>2</td><td>1.2.156.3514.2011.2</td></tr>
+    <tr><td>4</td><td>Enterprise under service</td><td>Enterprise identifier maintained by the third party</td><td>ENT-1001</td><td>1.2.156.3514.2011.2.ENT-1001</td></tr>
+    <tr><td>5</td><td>Product number</td><td>Third-party assigned product identifier</td><td>PRD-00000077</td><td>1.2.156.3514.2011.2.ENT-1001.PRD-00000077</td></tr>
+    <tr><td>6</td><td>Attribute item</td><td>Key-value style attribute code</td><td>BATTERY-VOLT</td><td>1.2.156.3514.2011.2.ENT-1001.PRD-00000077.BATTERY-VOLT</td></tr>
+    <tr><td>7</td><td>Attribute value</td><td>Actual value of the attribute</td><td>24V</td><td>1.2.156.3514.2011.2.ENT-1001.PRD-00000077.BATTERY-VOLT.24V</td></tr>
+  </tbody>
+</table>

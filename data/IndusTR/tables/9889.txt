@@ -1,0 +1,18 @@
+<table>
+  <caption>CC Sample Decision Tree (Branching Without Bit/Field Coding Forms)</caption>
+  <thead>
+    <tr><th>Step</th><th>Decision / Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Read start code marker (validate)</td></tr>
+    <tr><td>2</td><td>If marker invalid: resync by scanning forward</td></tr>
+    <tr><td>3</td><td>Read CC_type</td></tr>
+    <tr><td>4</td><td>If CC_type == 0: treat as reserved, skip payload</td></tr>
+    <tr><td>5</td><td>If CC_type == 1: parse display_description then caption_string</td></tr>
+    <tr><td>6</td><td>If CC_type == 2: parse time_information only</td></tr>
+    <tr><td>7</td><td>If CC_type == 3: parse style_description then color_description</td></tr>
+    <tr><td>8</td><td>Loop until no further samples are detected</td></tr>
+    <tr><td>9</td><td>On parse error: abort current sample and continue</td></tr>
+    <tr><td>10</td><td>Emit decoded caption events to renderer</td></tr>
+  </tbody>
+</table>

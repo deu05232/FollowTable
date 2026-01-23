@@ -1,0 +1,11 @@
+<table>
+  <caption>Terrestrial ecological meteorological station directory format (includes location and contact fields)</caption>
+  <tr><th>Serial No.</th><th>Record Content</th><th>Record Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Station alias</td><td>D_ALIAS</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>3</td><td>Station address</td><td>D_ADDRESS</td><td>Variable characters(300)</td><td>Variable-length character data</td></tr>
+  <tr><td>4</td><td>Longitude</td><td>D_LON</td><td>Number(9,6)</td><td>Degrees</td></tr>
+  <tr><td>5</td><td>Latitude</td><td>D_LAT</td><td>Number(9,6)</td><td>Degrees</td></tr>
+  <tr><td>6</td><td>Contact phone</td><td>D_PHONE</td><td>Variable characters(30)</td><td></td></tr>
+  <tr><td>7</td><td>Managing organization</td><td>D_ORG</td><td>Variable characters(200)</td><td></td></tr>
+</table>

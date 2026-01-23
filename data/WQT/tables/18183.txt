@@ -1,0 +1,10 @@
+# Reusable BitTorrent Libraries  Protocol Feature Support and Developer-Facing Interfaces (Library-only)
+
+| BitTorrent library | Exposes embedding API | DHT support | Magnet URI support | Peer Exchange (PEX) | µTP support | WebRTC data channels | Intended integration style | License | First release / latest release line |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| libtorrent (Rasterbar) | Yes (C++ API) | Yes | Yes | Yes | Yes | No | Embedded engine for desktop/server apps | BSD-style | First: 2005-09 / Latest: 2.0.x |
+| MonoTorrent | Yes (.NET API) | Yes | Yes | Yes | Partial/Yes (version-dependent) | No | Embedded engine for .NET apps/services | MIT | First: 2006-09 / Latest: 2.0.x |
+| WebTorrent | Yes (Node/browser API) | Limited (primarily tracker/WebRTC-centric) | Yes | Limited | No | Yes | JS library for browser + Node integrations | MIT | First: 2013-12 / Latest: 2.x |
+| anacrolix/torrent | Yes (Go API) | Yes | Yes | Yes | Yes | No | Go service/daemon embedding, custom clients | MPL-2.0 | First: 2015-xx / Latest: 1.x |
+| libtransmission (Transmission) | Yes (C API) | Yes | Yes | Yes | Yes | No | Embed into C/C++ apps with a stable core | GPL-2.0-or-later | First: 2005-xx / Latest: 4.0.x |
+| libtorrent-rakshasa | Yes (C++ API) | Yes | Yes | Yes | No/Unknown | No | Unix-focused embedding for lightweight tooling | GPL-2.0-or-later | First: 2004-07 / Latest: 0.13.x |

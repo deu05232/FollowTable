@@ -1,0 +1,13 @@
+<table>
+  <caption>CRL-Based Certificate Status Verification Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_VerifyCertificateByCrl(void * hAppHandle,unsigned char * pucUsrCertificate,unsigned int uiUsrCertificateLen,unsigned char * pucDerCrl,unsigned int uiDerCrlLen,unsigned char * pucRevokeDate)</td></tr>
+  <tr><td>Description</td><td>Verify whether the user certificate has been revoked based on the CRL file</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucUsrCertificate[in](DER-encoded certificate)</td></tr>
+  <tr><td>uiUsrCertificateLen[in](certificate length)</td></tr>
+  <tr><td>pucDerCrl[in](DER-encoded CRL)</td></tr>
+  <tr><td>uiDerCrlLen[in](CRL length)</td></tr>
+  <tr><td>pucRevokeDate[out](if the certificate is valid, this parameter is not returned; if the certificate is revoked, the revocation date is returned, format: YYYY-MM-DD HH:MM:SS)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0（success）</td></tr>
+  <tr><td>Non-0(failure, return the error code in Appendix C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

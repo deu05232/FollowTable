@@ -1,0 +1,17 @@
+<table>
+  <caption>Transportation and Handling Environmental Robustness Requirements for Point Heat Detectors</caption>
+  <thead>
+    <tr><th rowspan="2">Test category</th><th rowspan="2">Condition</th><th colspan="2">Exposure</th><th rowspan="2">Specimen operating mode</th><th rowspan="2">Pass/fail criteria</th></tr>
+    <tr><th>Level</th><th>Duration</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Cold storage (non-operating)</td><td>Ambient temperature</td><td>-25 °C</td><td>24 h</td><td>De-energized</td><td>No cracking; insulation resistance within spec</td></tr>
+    <tr><td>Recovery</td><td>+20 °C</td><td>2 h</td><td>De-energized</td><td>Normal appearance after recovery</td></tr>
+    <tr><td rowspan="2">Heat storage (non-operating)</td><td>Ambient temperature</td><td>+70 °C</td><td>48 h</td><td>De-energized</td><td>No warping; markings legible</td></tr>
+    <tr><td>Recovery</td><td>+20 °C</td><td>2 h</td><td>De-energized</td><td>Functional check allowed after recovery</td></tr>
+    <tr><td rowspan="2">Humidity (non-operating)</td><td>Relative humidity</td><td>93 %RH</td><td>96 h</td><td>De-energized</td><td>No corrosion; no condensation inside housing</td></tr>
+    <tr><td>Temperature during humidity</td><td>+40 °C</td><td>96 h</td><td>De-energized</td><td>Dielectric withstand test passes</td></tr>
+    <tr><td rowspan="2">Shock (handling)</td><td>Half-sine shock</td><td>15 g / 11 ms</td><td>18 shocks</td><td>De-energized</td><td>No loose components; enclosure intact</td></tr>
+    <tr><td>Axes</td><td>3 axes</td><td>6 each</td><td>De-energized</td><td>Continuity check passes</td></tr>
+  </tbody>
+</table>

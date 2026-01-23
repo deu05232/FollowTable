@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting Machine Interface - Alarm & Event Dictionary (Draft)</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0600</td><td>Alarm Active</td><td>AlarmActive</td><td>M</td><td>VAR</td><td>RO</td><td>—</td><td>0/1</td><td></td><td>Whether any alarm is currently active</td><td>0: No alarm, 1: Alarm present</td></tr>
+    <tr><td>0x0601</td><td>Alarm Code</td><td>AlarmCode</td><td>M</td><td>VAR</td><td>RO</td><td></td><td>1~9999</td><td></td><td>Numeric alarm identifier</td><td></td></tr>
+    <tr><td>0x0602</td><td>Alarm Severity</td><td>AlarmSeverity</td><td>0</td><td>VAR</td><td>RO</td><td>one</td><td>Info/Warning/Critical</td><td></td><td>Severity category for the alarm</td><td>Info, Warning, Critical</td></tr>
+    <tr><td>0x0603</td><td>Alarm Text</td><td>AlarmText</td><td>0</td><td>VAR</td><td>RO</td><td>-</td><td></td><td></td><td>Human readable alarm message</td><td></td></tr>
+    <tr><td>0x0604</td><td>Alarm Timestamp</td><td>AlarmTimestamp</td><td>0</td><td>VAR</td><td>RO</td><td>—</td><td>ISO-8601</td><td></td><td>Time when the alarm was raised</td><td></td></tr>
+    <tr><td>0x0605</td><td>Alarm History</td><td>AlarmHistory</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td></td><td>Recent alarm records</td><td>List of recent alarms</td></tr>
+    <tr><td>0x0606</td><td>Acknowledge Required</td><td>AckRequired</td><td>0</td><td>VAR</td><td>RO</td><td>—</td><td>0/1</td><td></td><td>Whether operator acknowledgement is needed</td><td></td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,13 @@
+# Hybrid Deployment Checklist  Prerequisites and Administrative Tasks Around Exchange-Microsoft 365 Integration
+
+| Area | Before Hybrid Deployment | After Hybrid Deployment |
+| --- | --- | --- |
+| Directory synchronization | Not configured | Azure AD Connect installed and syncing |
+| Certificates | Self-signed or internal CA only | Public certificate assigned to Exchange services |
+| Firewall / ports | Limited inbound publishing | 443 published for EWS/Autodiscover; SMTP as required |
+| Federation trust | Not created | Federation trust configured |
+| Organization relationship | Not present | Organization relationship created |
+| OAuth configuration | Not configured | OAuth for modern hybrid features configured |
+| HCW execution | Not run | Hybrid Configuration Wizard completed |
+| Mail flow connectors | null for Microsoft 365 | Inbound/outbound connectors created |
+| Monitoring & logging | Basic on-prem monitoring | Message trace and hybrid health monitoring enabled |

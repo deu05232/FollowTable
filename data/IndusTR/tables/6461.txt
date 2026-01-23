@@ -1,0 +1,16 @@
+<table>
+  <caption>Regional Address Format — NAVAREA/METAREA Geographic Subdivision Code (Coordinate-Oriented Interpretation)</caption>
+  <thead>
+    <tr><th>Row No.</th><th>Element</th><th>Size (bits)</th><th>Allowed Values</th><th>Geographic Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Zone Class</td><td>2</td><td>0–3</td><td>0=Global; 1=Ocean region; 2=Coastal region; 3=Inland region</td></tr>
+    <tr><td>2</td><td>Area Index (Tens)</td><td>4</td><td>0–9</td><td>Tens digit used to derive a NAVAREA/METAREA number</td></tr>
+    <tr><td>3</td><td>Area Index (Ones)</td><td>4</td><td>0–9</td><td>Ones digit used to derive a NAVAREA/METAREA number</td></tr>
+    <tr><td>4</td><td>Latitude Band</td><td>3</td><td>0–7</td><td>Coarse latitude banding for subdividing the area</td></tr>
+    <tr><td>5</td><td>Longitude Band</td><td>3</td><td>0–7</td><td>Coarse longitude banding for subdividing the area</td></tr>
+    <tr><td>6</td><td>Reserved</td><td>2</td><td>0</td><td>Set to zero</td></tr>
+    <tr><td>7</td><td>Optional Corner Point Present</td><td>1</td><td>0–1</td><td>0=no corner refinement; 1=corner refinement follows</td></tr>
+    <tr><td>8</td><td>Corner Refinement (Minutes)</td><td>6</td><td>0–59</td><td>Refines boundary by minutes when present</td></tr>
+  </tbody>
+</table>

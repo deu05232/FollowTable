@@ -1,0 +1,8 @@
+<table>
+  <caption>Base Station Type Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumeration Value</td><td>Description</td></tr>
+  <tr><td rowspan="4">vrBaseType</td><td>VR_BASE_TYPE_DISCO=0x00</td><td>Acousto-optic positioning</td></tr>
+  <tr><td>VR_BASE_TYPE_ULTRASONIC=0x01</td><td>Ultrasonic</td></tr>
+  <tr><td>VR_BASE_TYPE_LASE=0x02</td><td>Laser</td></tr>
+  <tr><td>0x03~0xFF</td><td>Reserved</td></tr>
+</table>

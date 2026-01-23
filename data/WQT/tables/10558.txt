@@ -1,0 +1,13 @@
+# OS-Level Memory Ceilings by Windows Server Version (Planning Reference)
+
+| Windows Server version | Edition | Max RAM (x64) | Notes |
+| --- | --- | --- | --- |
+| Windows Server 2008 R2 | Standard | 32 GB | OS memory ceiling, not app sizing |
+| Windows Server 2008 R2 | Enterprise | 2 TB | Depends on SKU |
+| Windows Server 2008 R2 | Datacenter | 2 TB | Depends on SKU |
+| Windows Server 2012 | Foundation | 32 GB | Lower ceiling |
+| Windows Server 2012 | Essentials | 64 GB | Lower ceiling |
+| Windows Server 2012 | Standard | 4 TB | Higher ceiling |
+| Windows Server 2012 | Datacenter | 4 TB | Higher ceiling |
+| Windows Server 2016 | Standard | 24 TB | Varies by release |
+| Windows Server 2016 | Datacenter | 24 TB | Varies by release |

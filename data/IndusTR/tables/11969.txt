@@ -1,0 +1,15 @@
+<table>
+  <caption>Self-service Portal Management Function Test Coverage (Customer Administrator)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Portal Role (Management Side)</th><th>Management Area</th><th>Management Action</th><th>Verification Intent</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SSP-CUST-TM-01</td><td>Customer Administrator</td><td>Terminal Management</td><td>Register terminal</td><td>Validate that the portal can create a new terminal record with mandatory attributes</td><td>Terminal is created and appears in terminal list with correct status</td></tr>
+    <tr><td>SSP-CUST-TM-02</td><td>Customer Administrator</td><td>Terminal Management</td><td>Update terminal profile</td><td>Validate editing terminal metadata (name, model, tags) through self-service interface</td><td>Changes persist and audit log records the update</td></tr>
+    <tr><td>SSP-CUST-TM-03</td><td>Customer Administrator</td><td>Terminal Management</td><td>Disable / enable terminal</td><td>Validate lifecycle state change for a terminal</td><td>Terminal state toggles and access is enforced accordingly</td></tr>
+    <tr><td>SSP-CUST-ASM-01</td><td>Customer Administrator</td><td>Application System Management</td><td>Create application system</td><td>Validate creation of an application system with identifiers and endpoints</td><td>Application system is created and visible to the customer scope</td></tr>
+    <tr><td>SSP-CUST-ASM-02</td><td>Customer Administrator</td><td>Application System Management</td><td>Rotate application credentials</td><td>Validate regeneration/rotation of client secret or API key from portal</td><td>New credential is issued; old credential becomes invalid per policy</td></tr>
+    <tr><td>SSP-CUST-SRM-01</td><td>Customer Administrator</td><td>Subscription Relationship Management</td><td>Create subscription relationship</td><td>Validate binding an application system to a service offering/plan</td><td>Subscription becomes active and reflected in subscription list</td></tr>
+    <tr><td>SSP-CUST-SRM-02</td><td>Customer Administrator</td><td>Subscription Relationship Management</td><td>Terminate subscription relationship</td><td>Validate termination/cancel flow including effective date handling</td><td>Subscription status changes to terminated and access is revoked after effective time</td></tr>
+  </tbody>
+</table>

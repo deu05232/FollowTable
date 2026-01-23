@@ -1,0 +1,8 @@
+# Cloudscaling and KT - Private cloud validation using benchmarking
+
+| Cloud | KT | KT | GoGrid | Terremark | Rackspace | Amazon EC2 | Amazon EC2 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Server | 16GB/3x2GHz | 32GB/6x2GHz | 8gb | 16gb-8vpu | 16gb | m2.2xlarge | m2.xlarge |
+| CPU | Xeon L5640 2.27 GHz [3 cores] | Xeon L5640 2.27 GHz [6 cores] | Xeon E5450 2.99 GHz [6 cores] | AMD 8389 2.91 GHz [8 cores] | AMD 2374 HE 2.20 GHz [4 cores] | Xeon X5550 2.67 GHz [4 cores] | Xeon X5550 2.67 GHz [2 cores] |
+| Memory | 16 GB | 32 GB | 8 GB | 16 GB | 16 GB | 34.2 | 17.1 |
+| IOP | 127.05 | 125.31 | 122.62 | 112.59 | 100.15 | 96.22 | 87.87 |

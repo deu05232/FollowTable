@@ -1,0 +1,15 @@
+<table>
+  <caption>Input parameters to Monte Carlo simulations. Power-law distribution indices are given by γ for the equation d ⁢ N / d ⁢ x ∝ x γ , where d ⁢ N / d ⁢ x is the number density as a function of the variable x . Stellar PDMF indices correspond to the mass range: M * / M ⊙ ≤ 1.0 and M * / M ⊙ > 1.0 respectively. Stellar IMF indices correspond to the mass range: M * / M ⊙ ≤ 1.0 , 1.0 < M * / M ⊙ ≤ 2.0 , and M * > 2.0 ⁢ M ⊙ respectively. The stellar age distribution is a histogram based on a volume-limited sample of well-characterized stars within 40 pcs. The metallicity distribution is a function of age and has dispersion σ [Fe/H] = 0.18 dex. The maximal extent of planet semimajor axes, a = a ~ , is scaled according to stellar mass. The planet eccentricity distribution is applicable to long-period planets discovered by the RV method.</caption>
+  <tr><td>Parameter</td><td>Description</td><td>Probability Distribution</td><td>Reference</td></tr>
+  <tr><td colspan="4">Stars</td></tr>
+  <tr><td>mass</td><td>broken power-law</td><td>γ_({)}=-1.35,-5.2</td><td>[ reid_02 ]</td></tr>
+  <tr><td></td><td></td><td>γ_({)}=-1.25,-2.0,-2.3</td><td>[ miller_scalo_79 ]</td></tr>
+  <tr><td>age</td><td>histogram</td><td>piece-wise, empirical</td><td>[ nordstrom_04 ]</td></tr>
+  <tr><td>metallicity</td><td>sliding Gaussian</td><td>σ_({[Fe/H])}=0.18 dex</td><td>[ reid_07 ]</td></tr>
+  <tr><td colspan="4">Planets</td></tr>
+  <tr><td>mass</td><td>power-law</td><td>γ_({)}=-1.4 , \;\;γ_({)}=-1.4,-1.0</td><td>[ johnson_09_review ]</td></tr>
+  <tr><td>semimajor axis</td><td>maximal extent</td><td>=35,120 AU</td><td>[ dodson_09 ]</td></tr>
+  <tr><td></td><td>power-law</td><td>a_({)}=(M_(*)/2.5M_())^(4/9)</td><td>[ kennedy_08 ]</td></tr>
+  <tr><td></td><td>power-law</td><td>γ=0,-0.61</td><td>[ cumming_08 ]</td></tr>
+  <tr><td>eccentricity</td><td>linear</td><td>dn_(p)/de=1-e</td><td>[ johnson_09_review ]</td></tr>
+</table>

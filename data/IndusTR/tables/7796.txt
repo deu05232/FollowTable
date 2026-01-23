@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Camera Texture Rendering Parameters (GPU/Viewport Focus)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>AR session used to update camera texture coordinates.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>in</td><td>Camera handle providing the background image stream.</td></tr>
+    <tr><td>texture_id</td><td>uint32_t</td><td>in</td><td>OpenGL/Metal texture identifier bound to the camera image.</td></tr>
+    <tr><td>viewport_width</td><td>int32_t</td><td>in</td><td>Viewport width in pixels for background rendering.</td></tr>
+    <tr><td>viewport_height</td><td>int32_t</td><td>in</td><td>Viewport height in pixels for background rendering.</td></tr>
+    <tr><td>out_uv_transform</td><td>float[9]</td><td>out</td><td>3x3 UV transform matrix used for sampling the camera texture.</td></tr>
+    <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>out</td><td>Timestamp of the texture update for synchronization.</td></tr>
+  </tbody>
+</table>

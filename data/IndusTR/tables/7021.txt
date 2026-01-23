@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced IR Shear Pattern: Distance Between Deep-Gray Cloud Area and CSC Ranges to DT (Degrees and Nautical Miles)</caption>
+  <thead>
+    <tr><th rowspan="2">Distance bin</th><th colspan="2">Distance thresholds</th><th rowspan="2">DT (lookup)</th><th rowspan="2">Applicability constraints</th></tr>
+    <tr><th>Degrees (°)</th><th>Nautical miles (nmi)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Bin A (very large separation)</td><td>> 1.25</td><td>> 75</td><td>1.5</td><td>Use only when the system is clearly shear-dominated (exposed/partially exposed center).</td></tr>
+    <tr><td>Bin B</td><td>(0.75, 1.25]</td><td>(45, 75]</td><td>2.0</td><td>Deep-gray area displaced but still connected to central overcast.</td></tr>
+    <tr><td>Bin C</td><td>(0.50, 0.75]</td><td>(30, 45]</td><td>2.5</td><td>Shear present; convection closer to CSC.</td></tr>
+    <tr><td>Bin D</td><td>(0.33, 0.50]</td><td>(20, 30]</td><td>3.0</td><td>Moderate shear; convection frequently cycles near CSC.</td></tr>
+    <tr><td>Bin E (tight separation)</td><td>[0.20, 0.33]</td><td>[12, 20]</td><td>3.5</td><td>Near-center convection; ensure the feature is DG-classified consistently.</td></tr>
+    <tr><td>Bin F (extremely tight)</td><td>< 0.20</td><td>< 12</td><td>4.0</td><td>If an eye emerges, transition to eye/embedded-center analysis instead of shear table.</td></tr>
+  </tbody>
+</table>

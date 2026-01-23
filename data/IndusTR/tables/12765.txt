@@ -1,0 +1,16 @@
+<table>
+  <caption>Visible-Light Eye and CDO Geometry to Eye Number (E-no) and Intensity Estimate</caption>
+  <thead>
+    <tr><th rowspan="2">Eye/Center feature</th><th rowspan="2">Eye diameter (nmi)</th><th rowspan="2">Eye circularity index (0–1)</th><th rowspan="2">CDO diameter (degrees latitude)</th><th rowspan="2">Eye clarity score (1–5)</th><th colspan="2">Estimated intensity parameters</th></tr>
+    <tr><th>E-no</th><th>Approx. 1-min wind (kt)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>No closed eye (embedded center)</td><td>—</td><td>—</td><td>0.75–1.25</td><td>1–2</td><td>3.0</td><td>45</td></tr>
+    <tr><td>Intermittent/broken eye</td><td>10–20</td><td>0.50–0.70</td><td>1.00–1.50</td><td>2–3</td><td>4.0</td><td>65</td></tr>
+    <tr><td>Small, distinct eye</td><td>8–15</td><td>0.75–0.90</td><td>1.25–1.75</td><td>4</td><td>5.0</td><td>90</td></tr>
+    <tr><td>Round, clear eye within smooth CDO</td><td>12–25</td><td>≥0.90</td><td>1.50–2.25</td><td>5</td><td>6.0</td><td>115</td></tr>
+    <tr><td>Large eye (stable but wider)</td><td>30–45</td><td>≥0.85</td><td>1.50–2.25</td><td>4–5</td><td>5.5</td><td>102</td></tr>
+    <tr><td>Ragged eye (cloudy/irregular)</td><td>20–40</td><td>0.60–0.80</td><td>1.25–2.00</td><td>3</td><td>4.5</td><td>77</td></tr>
+    <tr><td>Pinhole eye (very small, very clear)</td><td><8</td><td>≥0.92</td><td>>2.00</td><td>5</td><td>6.5</td><td>127</td></tr>
+  </tbody>
+</table>

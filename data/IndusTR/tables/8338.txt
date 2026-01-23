@@ -1,0 +1,9 @@
+<table>
+  <caption>Humidity and Condensation Reliability Test for Beidou Monitoring Terminals</caption>
+  <tr><th>Test item</th><th>Test parameter</th><th>Test condition</th><th>Specific requirements</th></tr>
+  <tr><td rowspan="2">Damp heat (steady state)</td><td>Temperature / °C</td><td>40</td><td rowspan="2">Powered on; after the test, no functional failure and no corrosion affecting operation</td></tr>
+  <tr><td>Relative humidity / %RH</td><td>95</td></tr>
+  <tr><td>Duration / h</td><td>96</td><td>Maintain continuous operation</td><td>Record any communication interruption; functions must recover without manual intervention</td></tr>
+  <tr><td rowspan="2">Condensation check</td><td>Transition</td><td>25→40 °C</td><td rowspan="2">No internal water accumulation that leads to malfunction</td></tr>
+  <tr><td>Cycles</td><td>5</td></tr>
+</table>

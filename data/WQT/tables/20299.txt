@@ -1,0 +1,11 @@
+# RFC1918 Private IPv4 Address Space Summary (Enterprise LAN Use)
+
+| Private block (RFC1918) | CIDR | Address range | Typical use inside organizations | Notes |
+|---|---|---|---|---|
+| 10/8 | 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Large enterprise internal networks | Routable only within private domains |
+| 172.16/12 | 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | Departmental/internal subnets | Often used with NAT at the edge |
+| 192.168/16 | 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | Home/SOHO LANs | Common default for consumer routers |
+| 10/8 (example split) | 10.0.0.0/9 | 10.0.0.0 – 10.127.255.255 | Internal segment A | Example planning split, still RFC1918 |
+| 10/8 (example split) | 10.128.0.0/9 | 10.128.0.0 – 10.255.255.255 | Internal segment B | Example planning split, still RFC1918 |
+| 192.168/16 (example) | 192.168.0.0/24 | 192.168.0.0 – 192.168.0.255 | Small office VLAN | Example subnet carved from RFC1918 |
+| 172.16/12 (example) | 172.20.0.0/16 | 172.20.0.0 – 172.20.255.255 | Data center pod | Example subnet carved from RFC1918 |

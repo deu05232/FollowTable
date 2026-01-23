@@ -1,0 +1,16 @@
+<table>
+  <caption>Candidate Gear/Pinion Materials and Elastic Modulus for Pumpjack Drivetrain Gear Mesh Calculations</caption>
+  <thead>
+    <tr><th rowspan="2">Material family</th><th rowspan="2">Typical grade / example</th><th colspan="2">Elastic modulus (E)</th><th rowspan="2">Common use in gear pair</th><th rowspan="2">Notes for mesh stiffness/contact stress work</th></tr>
+    <tr><th>E (GPa)</th><th>E (MPa)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Alloy steel</td><td>42CrMo (AISI 4140)</td><td>206</td><td>2.06×10^5</td><td>Pinion or gear</td><td>Baseline steel modulus used in Hertz/contact and mesh stiffness models</td></tr>
+    <tr><td>Carburizing steel</td><td>20CrMnTi</td><td>206</td><td>2.06×10^5</td><td>Pinion (often) / gear</td><td>High surface hardness after carburizing; core remains tough</td></tr>
+    <tr><td>Ni-Cr-Mo carburizing steel</td><td>17CrNiMo6</td><td>206</td><td>2.06×10^5</td><td>Pinion (high load)</td><td>Good hardenability; supports deep case for heavy duty mesh</td></tr>
+    <tr><td>Nodular cast iron</td><td>QT700-2</td><td>165</td><td>1.65×10^5</td><td>Gear (often)</td><td>Lower modulus reduces mesh stiffness vs steel; affects load sharing and deflection</td></tr>
+    <tr><td>Malleable cast iron</td><td>EN-GJMB</td><td>172</td><td>1.72×10^5</td><td>Gear</td><td>Intermediate stiffness; sometimes used where damping is desired</td></tr>
+    <tr><td>Gray cast iron</td><td>HT250</td><td>151</td><td>1.51×10^5</td><td>Gear (light/legacy)</td><td>Lowest modulus here; generally avoided for high-contact-stress meshes</td></tr>
+    <tr><td>Through-hardening steel</td><td>40Cr (AISI 5140)</td><td>206</td><td>2.06×10^5</td><td>Gear</td><td>Often paired with a harder pinion; modulus same as other steels</td></tr>
+  </tbody>
+</table>

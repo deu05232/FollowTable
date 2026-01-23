@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Cryptographic Service Data Decryption Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_SM9Decrypt(void           * hAppHandle,unsigned char* pucContainerName,unsigned intuiContainerLen,unsigned char* pucEncData,unsigned intulEncDataLen,unsigned char* pucData,unsigned int *puiDataLength) ;</td></tr>
+  <tr><td>Rules</td><td>Use the SM9 user encryption key pair (including the user private key and user identity) to decrypt data. The SM9 computation process shall comply with GB/T 41389.</td></tr>
+  <tr><td rowspan="7">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name)</td></tr>
+  <tr><td>uiContainerLen[in](key container name length)</td></tr>
+  <tr><td>pucEncData ［in](DER-encoded ciphertext data)</td></tr>
+  <tr><td>ulEncDataLen[in](length of the DER-encoded ciphertext data)</td></tr>
+  <tr><td>pucData[out](buffer pointer used to store decrypted data)</td></tr>
+  <tr><td>puiDataLength[in,out](input: buffer length; output: actual length of decrypted data)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0 (success)</td></tr>
+  <tr><td>non-zero (failure; returns the error code defined in Table C.1 and shall comply with Appendix C)</td></tr>
+</table>

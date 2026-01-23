@@ -1,0 +1,10 @@
+<table>
+  <caption>Acquisition and sensor-condition elements to record for a face recognition evaluation set</caption>
+  <tr><th>No.</th><th>Element</th><th>Example of Element Content</th></tr>
+  <tr><td>1</td><td>Spectral band / modality</td><td>Visible (RGB), Near-infrared (NIR), Short-wave infrared (SWIR)</td></tr>
+  <tr><td>2</td><td>Capture device category</td><td>Smartphone front camera, CCTV camera, Depth camera</td></tr>
+  <tr><td>3</td><td>Capture distance</td><td>0.3 m, 1 m, 3 m, 10 m</td></tr>
+  <tr><td>4</td><td>Illumination condition</td><td>Uniform indoor light, Backlit, Low-light, Interfering light sources</td></tr>
+  <tr><td>5</td><td>Motion / stability during capture</td><td>Still, Mild head motion, Walking, Fast motion</td></tr>
+  <tr><td>6</td><td>Image quality artifacts</td><td>Defocus blur, Motion blur, Rolling-shutter distortion, Sensor noise</td></tr>
+</table>

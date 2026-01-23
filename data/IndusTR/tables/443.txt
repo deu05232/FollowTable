@@ -1,0 +1,13 @@
+<table>
+  <caption>Definition of iGMAS Ionospheric Delay Correction Spherical Harmonic Function Accuracy Message Header Fields</caption>
+  <tr><td>Data Field Name</td><td>Data Field ID</td><td>Data Type</td><td>Number of Bits</td></tr>
+  <tr><td>Message type number</td><td>DF002</td><td>unit12</td><td>12</td></tr>
+  <tr><td>GPS epoch time</td><td>DF385</td><td>unit20</td><td>20</td></tr>
+  <tr><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td></tr>
+  <tr><td>Multiple message indicator</td><td>DF388</td><td>bit(1)</td><td>1</td></tr>
+  <tr><td>IOD SSR</td><td>DF413</td><td>unit4</td><td>4</td></tr>
+  <tr><td>SSR Provider ID</td><td>DF414</td><td>unit16</td><td>16</td></tr>
+  <tr><td>SSR Solution ID</td><td>DF415</td><td>unit4</td><td>4</td></tr>
+  <tr><td>Number of ionospheric thin shells</td><td>DF472</td><td>unit2</td><td>2</td></tr>
+  <tr><td>Total</td><td>-</td><td>-</td><td>63</td></tr>
+</table>

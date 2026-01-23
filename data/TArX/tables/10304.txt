@@ -1,0 +1,18 @@
+<table>
+  <caption>Acoustic-relevant material properties of distilled water (single-fluid parameter list).</caption>
+  <thead>
+    <tr><th>Property</th><th>Symbol</th><th>Value</th><th>Units</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Density</td><td>ρ</td><td>998.2</td><td>kg/m^3</td><td>~20 °C, 1 atm</td></tr>
+    <tr><td>Dynamic viscosity</td><td>μ</td><td>1.002e-3</td><td>Pa·s</td><td>Newtonian</td></tr>
+    <tr><td>Kinematic viscosity</td><td>ν</td><td>1.004e-6</td><td>m^2/s</td><td>ν=μ/ρ</td></tr>
+    <tr><td>Speed of sound</td><td>c</td><td>1482</td><td>m/s</td><td>Adiabatic</td></tr>
+    <tr><td>Bulk modulus</td><td>K</td><td>2.20e9</td><td>Pa</td><td>K≈ρc^2</td></tr>
+    <tr><td>Compressibility</td><td>β</td><td>4.55e-10</td><td>1/Pa</td><td>β=1/K</td></tr>
+    <tr><td>Thermal conductivity</td><td>k</td><td>0.598</td><td>W/(m·K)</td><td></td></tr>
+    <tr><td>Specific heat (constant pressure)</td><td>c_p</td><td>4182</td><td>J/(kg·K)</td><td></td></tr>
+    <tr><td>Ratio of specific heats</td><td>γ</td><td>1.01</td><td>–</td><td>Approx. for liquid water</td></tr>
+    <tr><td>Surface tension</td><td>σ</td><td>0.0728</td><td>N/m</td><td>Air-water interface</td></tr>
+  </tbody>
+</table>

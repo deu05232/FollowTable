@@ -1,0 +1,10 @@
+<table>
+  <caption>SpaceFibre Link Bring-Up and Acceptance Test Checklist (Lab Procedure Log)</caption>
+  <tr><th>Test ID</th><th>Setup Condition</th><th>Instrument / Tool</th><th>Procedure Step</th><th>Pass Criteria</th><th>Recorded Result</th></tr>
+  <tr><td>LB-01</td><td>Single-lane, 2.5 Gbps, 1 m cable</td><td>BERT + pattern generator</td><td>Run PRBS31 for 10^12 bits</td><td>BER < 1e-12</td><td>1.7e-13</td></tr>
+  <tr><td>LB-02</td><td>4-lane, deskew enabled</td><td>High-speed scope</td><td>Capture eye diagram per lane</td><td>Eye height > 80 mV</td><td>92–105 mV</td></tr>
+  <tr><td>LB-03</td><td>Receiver elastic buffer active</td><td>Protocol analyzer</td><td>Inject ppm clock offset (+100 ppm)</td><td>No link drop in 30 min</td><td>Pass</td></tr>
+  <tr><td>LB-04</td><td>Reset asserted then released</td><td>GPIO script</td><td>Measure time to Ready state</td><td>< 250 ms</td><td>173 ms</td></tr>
+  <tr><td>LB-05</td><td>Long cable, 10 m</td><td>Scope + TDR</td><td>Verify impedance discontinuities</td><td>< 10% reflection</td><td>6%</td></tr>
+  <tr><td>LB-06</td><td>Thermal chamber 0–70°C</td><td>Chamber controller</td><td>Sweep temperature while streaming</td><td>No CRC alarms</td><td>Pass</td></tr>
+</table>

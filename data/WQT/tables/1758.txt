@@ -1,0 +1,16 @@
+# List of Intel chipsets
+> 4xx chipsets
+
+| Chipset | Code Name | Part numbers | South Bridge | Release Date | Processors [a] | FSB | SMP | Memory types | Max. memory | Memory banks | Parity/ECC | PCI support | AGP support |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 450KX | Mars | 82451KX, 82452KX, 82453KX, 82454KX | SIO, SIO.A (ISA) PCEB/ESC (EISA) | November 1995 | Pentium Pro | 60/66 MHz | Yes | FPM | 1 GB |  | Both | 2.0 | No |
+| 450GX | Orion | 82451GX, 82452GX, 82453GX, 82454GX | SIO.A (ISA) PCEB/ESC (EISA) | November 1995 | Pentium Pro | 60/66 MHz | Yes (up to four) | FPM | 8 GB |  | Both | 2.0 | No |
+| 440FX | Natoma | 82441FX, 82442FX | PIIX3 (ISA) PCEB/ESC (EISA) | May 1996 | Pentium Pro/Pentium II | 60/66 MHz | Yes | FPM/EDO/ BEDO | 1 GB | 4 | Both | 2.1 | No |
+| 440LX | Balboa | 82443LX | PIIX4 | August 1997 | Pentium II/Celeron | 66 MHz | Yes | FPM/EDO/SDRAM | 1 GB EDO/512 MB SDRAM | 4 | Both | 2.1 | AGP 2× |
+| 440EX | n/a | 82443EX | PIIX4E | April 1998 | Celeron/Pentium II | 66 MHz | No | EDO/SDRAM | 256 MB | 2 | Neither | 2.1 | AGP 2× |
+| 440BX | Seattle | 82443BX | PIIX4E | April 1998 | Pentium II/III, Celeron | 66/100 MHz | Yes | EDO/SDRAM | 1 GB | 4 | Both | 2.1 (64-bit optional) | AGP 2× |
+| 440GX | n/a | 82443GX | PIIX4E | June 1998 | Pentium II/III, Xeon | 100 MHz | Yes | SDRAM | 2 GB | 4 | Both | 2.1 | AGP 2× |
+| 450NX | n/a | 82451NX, 82452NX, 82453NX, 82454NX | PIIX4E | June 1998 | Pentium II/III, Xeon | 100 MHz | Yes (up to four) | FPM/EDO | 8 GB | 4 | Both | 2.1 (64-bit optional) | No |
+| 440ZX/440ZX-66 | n/a | 82443ZX | PIIX4E | November 1998 | Celeron, Pentium II/III | 66/100 MHz (440ZX), 66 MHz (440ZX-66) | No | SDRAM | 512 MB | 2 | Neither | 2.1 | AGP 2× |
+| 440ZX-M | n/a | 82443ZX-M | PIIX4M |  | Pentium III/mobile Celeron | 66/100 MHz | No | SDRAM | 256 MB | 2 | Neither | 2.1 | AGP 2× |
+| 440MX | Banister | 82443MX | Same chip |  | Pentium II/III, mobile Celeron | 66/100 MHz | No | SDRAM | 512 MB | 2 | Neither | 2.2 | No |

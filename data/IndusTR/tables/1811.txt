@@ -1,0 +1,8 @@
+<table>
+  <caption>Vehicle Charging Statistics Message (PGN4608) Format</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1</td><td>2 bytes</td><td>3081</td><td>Current measured vehicle interface voltage (V)</td><td>Mandatory</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>3082</td><td>Current measured vehicle interface current (A)</td><td>Mandatory</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>3083</td><td>Cumulative charging time (min)</td><td>Mandatory</td></tr>
+  <tr><td>7.1</td><td>2 bits</td><td>3929</td><td>Charging permitted (<00>: pause; <01>: permit)</td><td>Mandatory</td></tr>
+</table>

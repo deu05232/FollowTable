@@ -1,0 +1,15 @@
+<table>
+  <caption>Transportation & Handling Environmental Tests for Variable-Frequency Speed Regulation Units (Packaging State Included)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Referenced standard / method</th><th>Test setup (packaging / mounting)</th><th>Power connection state</th><th>Severity (key limits)</th><th>Measurement accuracy / control</th><th>Exposure duration / cycles</th><th>Acceptance focus (condition-related)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Shock (half-sine)</td><td>GB/T 2423.5 (Test Ea)</td><td>With transport packaging; secured on shock table</td><td>Power disconnected</td><td>Peak 150 m/s²; pulse 11 ms; 3 shocks per direction</td><td>Acceleration ±10%</td><td>18 shocks (6 directions × 3)</td><td>No mechanical damage affecting safety/clearance</td></tr>
+    <tr><td>Random vibration (transport)</td><td>IEC 60068-2-64</td><td>With packaging; strapped to fixture</td><td>Power disconnected</td><td>5–200 Hz; 0.5 g RMS</td><td>PSD ±3 dB</td><td>60 min per axis (3 axes)</td><td>Fasteners/terminals remain secure</td></tr>
+    <tr><td>Sinusoidal vibration (sweep)</td><td>IEC 60068-2-6</td><td>With packaging or bare unit (as specified)</td><td>Power disconnected</td><td>10–55 Hz; 0.35 mm amplitude</td><td>Frequency ±1%</td><td>2 h per axis</td><td>No resonance-induced structural failure</td></tr>
+    <tr><td>Free fall (package drop)</td><td>IEC 60068-2-31</td><td>Packaged unit; drop onto rigid surface</td><td>Power disconnected</td><td>Drop height 0.5 m</td><td>Height ±2 cm</td><td>1 drop per face (6 faces)</td><td>Packaging protects product against impact</td></tr>
+    <tr><td>Bump (repetitive shock)</td><td>IEC 60068-2-29</td><td>With packaging; mounted to bump machine</td><td>Power disconnected</td><td>100 m/s²; 6 ms</td><td>Acceleration ±10%</td><td>1000 bumps per axis (3 axes)</td><td>No loosening of internal assemblies</td></tr>
+    <tr><td>Cold transport / storage</td><td>GB/T 2423.1 (Test Ad)</td><td>With packaging; stabilized in chamber</td><td>Power disconnected</td><td>-25 °C (or manufacturer minimum, whichever is lower)</td><td>±2 °C</td><td>16 h</td><td>Condition verification for shipment in cold climate</td></tr>
+    <tr><td>Hot transport / storage (dry heat)</td><td>GB/T 2423.2 (Test Bd)</td><td>With packaging; chamber conditioning</td><td>Power disconnected</td><td>55 °C (or manufacturer maximum, whichever is higher); absolute humidity ≤ 20 g/m³</td><td>±2 °C</td><td>16 h</td><td>Condition verification for warehouse/container heat</td></tr>
+  </tbody>
+</table>

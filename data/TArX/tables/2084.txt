@@ -1,0 +1,13 @@
+<table>
+  <caption>Sources of astrometric uncertainty</caption>
+  <tr><th>Absolute plate scale</th><th>pre-imaging (seeing limited) can give better than 10 ^((-4)) accuracy (i.e. 5 mas over 50 field).</th></tr>
+  <tr><td>Sampling & pixel scale</td><td>no measurable errors if pixel scale does not exceed 3 mas pix ^((-1)) (note that a finer scale is beneficial for highly crowded fields).</td></tr>
+  <tr><td>Instrumental distortions</td><td>are measured to 0.01 pixel in many current instruments. For MICADO, calibration with an internal mask will reduce this error to ~ 30 μ as.</td></tr>
+  <tr><td>Telescope instabilities</td><td>plate scale, rotation, etc., are low order effects that can be absorbed into a coordinate transformation.</td></tr>
+  <tr><td>Achromatic differential refraction</td><td>this large ~ 10 mas effect is linear and so is removed by a coordinate transformation.</td></tr>
+  <tr><td>Chromatic differential refraction</td><td>produces ~ 1 mas scale effects that depend on the source colour. A tunable ADC can reduce it to < 20 μ as in most cases.</td></tr>
+  <tr><td>AO instrumental & atmospheric effects</td><td>shift the relative positions of the NGS used by the AO system. MAORY uses 3 NGS and so this is expected to be a low-order effect. Since they are slow effects, they can also be removed by tracking the barycentre of each NGS.</td></tr>
+  <tr><td>Differential tilt jitter</td><td>introduces errors of ~ 100 μ as into diffraction limited E-ELT observations. It scales as t^(-1/2) and can be integrated down to ~ 10 μ as within about 30 min.</td></tr>
+  <tr><td>PSF variations</td><td>even with MCAO the PSF changes across the field of view. Measurements on simulated PSFs indicate this should intrdouce errors of < 10 μ as.</td></tr>
+  <tr><td>Galaxies as astrometric references</td><td>galaxies are spatially resolved, but making use of their detailed internal structure enables one to reach ~ 20 μ as accuracy with deep integrations.</td></tr>
+</table>

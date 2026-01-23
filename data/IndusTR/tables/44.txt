@@ -1,0 +1,14 @@
+<table>
+  <caption>AVS2 Lossless Audio Coding Test Sequence Parameter Table</caption>
+  <tr><td>File name</td><td>Content</td><td>Number of channels</td><td>Sampling rate / word length (kHz/bit)</td><td>Entropy coding type</td><td>subblksize (Golomb-rice coding sub-block size)</td><td>sbk_no Number of arithmetic-coded blocks</td><td>Wavelet level</td><td>Multichannel decorrelation</td><td>LPC order traversal</td><td>Test metric</td></tr>
+  <tr><td>AVS_LL2001</td><td>Mixed</td><td>2</td><td>32/844.1/1648/16,48/2496/24,192/2497/24</td><td>0</td><td>Not applicable</td><td>1,2,4,8℃</td><td>0</td><td>Required</td><td>Required</td><td>Bit-exact</td></tr>
+  <tr><td>AVS_LL2002</td><td>Mixed</td><td>2</td><td>32/844.1/1648/16，48/2496/24，192/2497/24</td><td>1</td><td>2,4,8,16,32b</td><td>Not applicable</td><td>0/1d (should have 1)</td><td>Not applicable</td><td>Required</td><td>Bit-exact</td></tr>
+  <tr><td>AVS_LL2003</td><td>Mixed</td><td>2</td><td>32/844.1/1648/16，48/2496/24，192/24</td><td>0,1</td><td>Not applicable</td><td>Not applicable</td><td>0/1d</td><td>Required</td><td>Not applicable</td><td>Bit-exact</td></tr>
+  <tr><td>AVS_LL2004</td><td>Mixed</td><td>2</td><td>32/844.1/1648/16，48/2496/24,192/24</td><td>0,1a</td><td>Not applicable</td><td>Not applicable</td><td>0</td><td>Not applicable</td><td>Not applicable</td><td>Bit-exact</td></tr>
+  <tr><td>AVS_LL6001</td><td>Mixed</td><td>6</td><td>48/2496/24,192/24</td><td>0</td><td>Not applicable</td><td>1,2,4,8℃</td><td>0</td><td>Required</td><td>Required</td><td>Bit-exact</td></tr>
+  <tr><td>AVS_LL6002</td><td>Mixed</td><td>6</td><td>48/2496/24，192/24</td><td>1</td><td>Should have 2,4,8,16,32</td><td>Not applicable</td><td>0/1d</td><td>Not applicable</td><td>Required</td><td>Bit-exact</td></tr>
+  <tr><td>AVS_LL6003</td><td>Mixed</td><td>6</td><td>48/2496/24，192/24</td><td>0,1</td><td>Not applicable</td><td>Not applicable</td><td>0/1d</td><td>Required</td><td>Not applicable</td><td>Bit-exact</td></tr>
+  <tr><td>AVS_LL6004</td><td>Mixed</td><td>6</td><td>48/2496/24,192/24</td><td>0,1²</td><td>Not applicable</td><td>Not applicable</td><td>0</td><td>Not applicable</td><td>Not applicable</td><td>Bit-exact</td></tr>
+  <tr><td colspan="11">Note 1: Regarding LPC order traversal in the test points, it is necessary to test to the extreme cases, i.e., traverse from the minimum LPC order 1 to the maximum order 127, to ensure coverage of every test point. Note 2: For those without an LPC order traversal requirement, since the LPC order is not a test point, no specific definition is given.</td></tr>
+  <tr><td colspan="11">® Entropy coding types that should be included. b Golomb-rice coding sub-block sizes that should be included. ‘ The sbk_no number of arithmetic-coded blocks that should be included. d Wavelet level 1 should be included.</td></tr>
+</table>

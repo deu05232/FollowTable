@@ -1,0 +1,10 @@
+<table>
+  <caption>Object Tracking in Warehouse Robotics  Trackable Inventory Tag Parameters</caption>
+  <tr><th>Parameter</th><th>Unit</th><th>Typical Value</th><th>Allowed Range</th><th>Sensor Source</th><th>Notes</th></tr>
+  <tr><td>tag_id_length</td><td>chars</td><td>12</td><td>8–24</td><td>RFID reader</td><td>Alphanumeric only</td></tr>
+  <tr><td>read_distance</td><td>m</td><td>3.0</td><td>0.5–8.0</td><td>UHF RFID</td><td>Affected by metal shelves</td></tr>
+  <tr><td>scan_interval</td><td>ms</td><td>200</td><td>50–1000</td><td>Controller</td><td>Higher increases throughput</td></tr>
+  <tr><td>lost_tag_timeout</td><td>s</td><td>5</td><td>1–30</td><td>Software</td><td>Declare missing after timeout</td></tr>
+  <tr><td>position_accuracy</td><td>cm</td><td>15</td><td>5–50</td><td>UWB</td><td>Requires anchors</td></tr>
+  <tr><td>update_topic</td><td>string</td><td>/inventory/trackables</td><td>N/A</td><td>ROS</td><td>Publish updates for MES</td></tr>
+</table>

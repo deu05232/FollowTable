@@ -1,0 +1,15 @@
+<table>
+  <caption>Instant Messaging API - Subscription Request Parameters</caption>
+  <thead>
+    <tr><th>Parameter (English Name)</th><th>Data Type / Format</th><th>Mandatory</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>interfaceOperation</td><td>string (1..64)</td><td>Yes</td><td>Operation to execute (e.g., SUBSCRIBE, UNSUBSCRIBE).</td></tr>
+    <tr><td>subscriberId</td><td>string (1..64)</td><td>Yes</td><td>User ID of the subscriber (the actor who initiates the subscription).</td></tr>
+    <tr><td>subscribedToId</td><td>string (1..64)</td><td>Yes</td><td>User ID being subscribed to (target user).</td></tr>
+    <tr><td>subscriptionType</td><td>string (1..32)</td><td>No</td><td>Subscription category (e.g., presence, roster, typing).</td></tr>
+    <tr><td>clientRequestId</td><td>string (1..64)</td><td>No</td><td>Client-generated idempotency token for safe retries.</td></tr>
+    <tr><td>timestamp</td><td>string (date-time, RFC 3339)</td><td>No</td><td>Request creation time used for auditing and replay protection.</td></tr>
+    <tr><td>reason</td><td>string (0..256)</td><td>No</td><td>Optional message/reason attached to the subscription request.</td></tr>
+  </tbody>
+</table>

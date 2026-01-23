@@ -1,0 +1,12 @@
+<table>
+  <caption>Data Frame Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="8">vrFrame</td><td>int32_t frame_id</td><td>Data frame ID</td></tr>
+  <tr><td>int64_t timestamp</td><td>Timestamp</td></tr>
+  <tr><td>Vector<vrImage></td><td>Image data, see Table 46</td></tr>
+  <tr><td>Vector<vrPose></td><td>Pose data of localizable devices, see Table 50</td></tr>
+  <tr><td>Vector<float quality></td><td>Array of pose estimation quality evaluation results for localizable devices</td></tr>
+  <tr><td>Vector<vrMotionData></td><td>Array of motion state data of localizable devices, see Table 56</td></tr>
+  <tr><td>Vector<vrImageFeatureData></td><td>Image set feature data corresponding to the image array, see Table 52</td></tr>
+  <tr><td>Vector<vrPlane></td><td>Array of virtual plane data detected by the positioning device, see Table 53</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Tire manufacturing inspection processes (outputs shown as pass/fail and grades)</caption>
+  <tr><th>No.</th><th>Process Name</th><th>Description</th><th>Input</th><th>Output</th><th>Processing Method</th></tr>
+  <tr><td>1</td><td>Bead Area Visual Check</td><td>Check bead area appearance for common defects</td><td>Camera images, defect rules</td><td>Pass/Fail, defect label</td><td>Rule-based vision inspection</td></tr>
+  <tr><td>2</td><td>Tread Surface Defect Grading</td><td>Grade tread surface defects based on image features</td><td>Line-scan images, grading criteria</td><td>Grade (A/B/C), defect type</td><td>Feature extraction + classifier</td></tr>
+  <tr><td>3</td><td>Final Tire Quality Decision</td><td>Combine multiple inspection results into a final decision</td><td>Inspection records, thresholds</td><td>Accept/Reject</td><td>Decision logic and thresholds</td></tr>
+</table>

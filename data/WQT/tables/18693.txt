@@ -1,0 +1,11 @@
+# Differentiation Rules in Multivariable Calculus (Jacobian Gradient Forms)
+
+| Rule name | Pattern | Result | Notes |
+| --- | --- | --- | --- |
+| Sum (vector) | f(x)+g(x) | ∇(f+g)=∇f+∇g | x∈R^n |
+| Product (scalar-field) | f(x)g(x) | ∇(fg)=f∇g+g∇f | f,g scalar |
+| Quotient (scalar-field) | f(x)/g(x) | ∇(f/g)=(g∇f-f∇g)/g^2 | g≠0 |
+| Chain rule (Jacobian) | y=f(u), u=g(x) | J_{y,x}=J_{y,u} J_{u,x} | matrix product |
+| Directional derivative | D_v f(x) | ∇f(x)·v | ||v||=1 often |
+| Hessian of sum | f(x)+g(x) | H(f+g)=H(f)+H(g) | H is n×n |
+| Quadratic form grad | x^T A x | ∇(x^T A x)=(A+A^T)x | A constant |

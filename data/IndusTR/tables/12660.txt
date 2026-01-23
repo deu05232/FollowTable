@@ -1,0 +1,11 @@
+<table>
+  <caption>Binary bit layout and decimal capacity for agricultural inputs product item code (including header and partitions)</caption>
+  <tr><th>Section</th><th>Description</th><th>Bit length (binary)</th><th>Example value</th></tr>
+  <tr><td>Header</td><td>Fixed header</td><td>8</td><td>0011 0000</td></tr>
+  <tr><td>Filter (F)</td><td>Filter value</td><td>3</td><td>011</td></tr>
+  <tr><td>Partition (P)</td><td>Partition value</td><td>3</td><td>010</td></tr>
+  <tr><td>Company prefix (C)</td><td>Company prefix field</td><td>24</td><td>00012345</td></tr>
+  <tr><td>Item code (I)</td><td>Agricultural inputs product item code</td><td>24</td><td>00067890</td></tr>
+  <tr><td>Serial (S)</td><td>Serial number field</td><td>38</td><td>000000000001</td></tr>
+  <tr><td>Total</td><td>Total bits</td><td>100</td><td>—</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Display Description Syntax (control-flow view)</caption>
+  <tr><th>Display Description Syntax</th><th>Notes</th></tr>
+  <tr><td>display_description(){</td><td>Begin display description block</td></tr>
+  <tr><td>if(display_direction changes){</td><td>Update the layout state</td></tr>
+  <tr><td>if(horizontal_justification changes){</td><td>Recompute alignment</td></tr>
+  <tr><td>}</td><td>End block</td></tr>
+</table>

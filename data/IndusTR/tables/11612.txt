@@ -1,0 +1,10 @@
+<table>
+  <caption>Auxiliary and engineering code list for meteorological satellite processing (includes radiance calibration items)</caption>
+  <tr><th>Auxiliary Item</th><th>Code</th><th>Description</th></tr>
+  <tr><td>On-board calibration data</td><td>OBC</td><td>Calibration packets from the instrument</td></tr>
+  <tr><td>Engineering telemetry</td><td>ENGIN</td><td>Subsystem status and engineering values</td></tr>
+  <tr><td>Geolocation information</td><td>GEO</td><td>Navigation/earth-location support data</td></tr>
+  <tr><td>Radiance Calibration Coefficients</td><td>RCC</td><td>Coefficients used to calibrate radiance (support data, not a product field)</td></tr>
+  <tr><td>Scan Time Correction</td><td>STC</td><td>Timing correction lookup</td></tr>
+  <tr><td>Quality Flags</td><td>QFLG</td><td>General QC flags for processing chains</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Instrument cross-channel scaling ratios used for detector calibration, not transport-property ratios.</caption>
+  <tr><th>Channel</th><th>Scaling ratio to baseline</th><th>Baseline channel</th><th>Reason for scaling</th></tr>
+  <tr><td>Channel 1</td><td>0.88</td><td>Channel 0</td><td>response drift correction</td></tr>
+  <tr><td>Channel 2</td><td>1.12</td><td>Channel 0</td><td>gain matching</td></tr>
+  <tr><td>Channel 3</td><td>0.97</td><td>Channel 0</td><td>flat-field adjustment</td></tr>
+</table>

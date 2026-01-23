@@ -1,0 +1,22 @@
+<table>
+  <caption>Bilingual Glossary for Navigation Logbook Entries (Time, Position, Course & Remarks)</caption>
+  <thead>
+    <tr><th>Section</th><th>No.</th><th>Logbook label (Chinese)</th><th>Logbook label (English)</th><th>Example value format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Date & Time</td><td>1</td><td>日期</td><td>Date</td><td>YYYY-MM-DD</td></tr>
+    <tr><td>2</td><td>时区</td><td>Time Zone</td><td>UTC+8 / UTC±00</td></tr>
+    <tr><td>3</td><td>时间（船时）</td><td>Time (Ship's Time)</td><td>0800 / 1200 / 1600</td></tr>
+    <tr><td>4</td><td>值班时间</td><td>Watch Period</td><td>0000–0400</td></tr>
+    <tr><td rowspan="4">Navigation</td><td>5</td><td>航向</td><td>Course</td><td>true / Gyro</td></tr>
+    <tr><td>6</td><td>航速</td><td>Speed</td><td>kn</td></tr>
+    <tr><td>7</td><td>位置（纬度/经度）</td><td>Position (Lat/Long)</td><td>DD°MM.N′ N / DD°MM.N′ E</td></tr>
+    <tr><td>8</td><td>里程（航程）</td><td>Distance Run</td><td>nm</td></tr>
+    <tr><td rowspan="3">Weather & Sea</td><td>9</td><td>风向</td><td>Wind Direction</td><td>N / NE / variable</td></tr>
+    <tr><td>10</td><td>风力</td><td>Wind Force</td><td>Beaufort 4</td></tr>
+    <tr><td>11</td><td>海况</td><td>Sea State</td><td>Slight / Moderate</td></tr>
+    <tr><td rowspan="3">Remarks</td><td>12</td><td>备注</td><td>Remarks</td><td>Free text</td></tr>
+    <tr><td>13</td><td>异常情况记录</td><td>Record of Abnormal Events</td><td>Free text with time</td></tr>
+    <tr><td>14</td><td>采取措施</td><td>Action Taken</td><td>Free text</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,24 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Message 63 Position/Intent Message Field Layout</caption>
+  <thead>
+    <tr><th>Message Field / Parameter</th><th>Bit Length</th><th>Requirement / Encoding Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 63; shall be fixed to 63</td></tr>
+    <tr><td>Repeat Indicator</td><td>2</td><td>Relay indicator; shall be 0 for non-relayed transmissions</td></tr>
+    <tr><td>Source MMSI</td><td>30</td><td>MMSI of the broadcasting device; encode as unsigned integer; leading zeros permitted</td></tr>
+    <tr><td>Navigation Status</td><td>4</td><td>0 = under way; 1 = at anchor; 2 = not under command; 15 = not available; values not supported shall be sent as 15</td></tr>
+    <tr><td>Rate of Turn</td><td>8</td><td>Two’s complement; 0 = no turn; 127 = turn information not available</td></tr>
+    <tr><td>Speed Over Ground</td><td>10</td><td>Unsigned; units 0.1 knot; 1023 = not available</td></tr>
+    <tr><td>Position Accuracy</td><td>1</td><td>0 = low (>10 m); 1 = high (≤10 m)</td></tr>
+    <tr><td>Longitude</td><td>28</td><td>Signed two’s complement in 1/10 000 minute; 0x6791AC0 (all ones pattern) may be used for not available</td></tr>
+    <tr><td>Latitude</td><td>27</td><td>Signed two’s complement in 1/10 000 minute; not-available encoding shall be used when invalid</td></tr>
+    <tr><td>Course Over Ground</td><td>12</td><td>Unsigned; units 0.1 degree; 3600 = not available</td></tr>
+    <tr><td>true Heading</td><td>9</td><td>0–359 degrees; 511 = not available</td></tr>
+    <tr><td>Timestamp</td><td>6</td><td>UTC second (0–59); 60 = not available; 61 = manual input; 62 = dead reckoning; 63 = inoperative</td></tr>
+    <tr><td>Maneuver Indicator</td><td>2</td><td>0 = not available; 1 = no special maneuver; 2 = special maneuver; 3 = reserved (send 0)</td></tr>
+    <tr><td>Spare</td><td>3</td><td>Set to zero</td></tr>
+    <tr><td>RAIM / Integrity Flag</td><td>1</td><td>0 = not in use; 1 = in use</td></tr>
+    <tr><td>Communication State</td><td>19</td><td>Bitfield describing slot/timeout state; receiver shall parse as a 19-bit unsigned field per MAC rules</td></tr>
+  </tbody>
+</table>

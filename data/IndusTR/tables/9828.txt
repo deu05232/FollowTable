@@ -1,0 +1,15 @@
+<table>
+  <caption>Extrusion Die Control Loops with Gauge R&R and Defect Classification Outputs</caption>
+  <thead>
+    <tr><th>Module</th><th>Item</th><th>Measured Value</th><th>Target / Recipe</th><th>Corrective Command Updated</th><th>Analytics / Inspection Output</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Feedback control</td><td>Die pressure control</td><td>Melt pressure transducer (MPa)</td><td>Pressure setpoint (MPa)</td><td>Screw speed setpoint (rpm)</td><td>-</td><td>PID pressure loop</td></tr>
+    <tr><td>Extrudate width control</td><td>Width gauge (mm)</td><td>Width recipe (mm)</td><td>Knife-gap setpoint (mm)</td><td>-</td><td>Model-based correction</td></tr>
+    <tr><td>Extrudate weight-per-length control</td><td>Metering scale (g/m)</td><td>WPL recipe (g/m)</td><td>Extruder speed command (%)</td><td>-</td><td>PI + moving average</td></tr>
+    <tr><td>Temperature control</td><td>Barrel thermocouples (°C)</td><td>Zone temperature recipe (°C)</td><td>Heater duty cycle (%)</td><td>-</td><td>PID per zone</td></tr>
+    <tr><td rowspan="3">Measurement analytics</td><td>Gauge R&R evaluation</td><td>Repeated width/thickness samples</td><td>GRR acceptance limits</td><td>-</td><td>%GRR, ndc, bias</td><td>MSA study results</td></tr>
+    <tr><td>Defect classification</td><td>Profile scan + camera image</td><td>Defect thresholds</td><td>-</td><td>Class label (edge wave/void), confidence</td><td>Random forest classifier</td></tr>
+    <tr><td>SPC alerts</td><td>Control chart statistics</td><td>UCL/LCL</td><td>-</td><td>Out-of-control alarm, hold lot code</td><td>Western Electric rules</td></tr>
+  </tbody>
+</table>

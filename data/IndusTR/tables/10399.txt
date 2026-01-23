@@ -1,0 +1,16 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Message 60 Field Layout (Bit-Level Definition)</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Start Bit</th><th>Length (bit)</th><th>Encoding / Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message ID</td><td>1</td><td>6</td><td>Fixed: 60</td><td>Identifies message type</td></tr>
+    <tr><td>Repeat Indicator</td><td>7</td><td>2</td><td>0 = default</td><td>Relay count indicator</td></tr>
+    <tr><td>Source MMSI</td><td>9</td><td>30</td><td>Integer; per MMSI coding rules</td><td>Identifier of transmitting station</td></tr>
+    <tr><td>Sequence Number</td><td>39</td><td>2</td><td>0–3</td><td>Message sequence control</td></tr>
+    <tr><td>Spare</td><td>41</td><td>2</td><td>Set to 0</td><td>Reserved</td></tr>
+    <tr><td>Autonomous Mode Flag</td><td>43</td><td>1</td><td>0 = manual, 1 = autonomous</td><td>Operation mode indicator</td></tr>
+    <tr><td>Payload Type</td><td>44</td><td>4</td><td>0–15</td><td>Indicates payload interpretation</td></tr>
+    <tr><td>CRC</td><td>48</td><td>16</td><td>CCITT-16</td><td>Error detection code</td></tr>
+  </tbody>
+</table>

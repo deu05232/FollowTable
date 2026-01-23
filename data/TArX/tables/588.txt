@@ -1,0 +1,18 @@
+<table>
+  <caption>Constraining the warping ϵ of the simulation boxes using the method outlined in the text for the dark matter and galaxies. All the warps are reported in per cent. The first group of numbers demonstrate that we correctly recover the warping, except for large warps where the model is known to be no longer accurate; a simple iterative procedure would work in such cases. The remaining numbers demonstrate that these results are insensitive to the particular choices of the bias and k cut-off, except for extremely restrictive cases.</caption>
+  <tr><th></th><th></th><th></th><th colspan="3">Dark Matter</th><th colspan="3">Galaxies</th></tr>
+  <tr><th>Warp</th><th>n</th><th>k_(max)</th><td>ε</td><td>σ_(ε)</td><td>χ^(2)_(dof)</td><td>ε</td><td>σ_(ε)</td><td>χ^(2)_(dof)</td></tr>
+  <tr><th>0</th><th>3</th><th>0.2</th><td>0.0</td><td>1.0</td><td>0.93</td><td>0.1</td><td>0.9</td><td>0.91</td></tr>
+  <tr><th>1</th><th>3</th><th>0.2</th><td>0.9</td><td>1.0</td><td>0.94</td><td>1.1</td><td>1.0</td><td>0.92</td></tr>
+  <tr><th>2</th><th>3</th><th>0.2</th><td>2.1</td><td>1.0</td><td>0.97</td><td>2.3</td><td>1.0</td><td>1.01</td></tr>
+  <tr><th>3</th><th>3</th><th>0.2</th><td>3.2</td><td>1.1</td><td>0.94</td><td>3.2</td><td>1.0</td><td>1.00</td></tr>
+  <tr><th>5</th><th>3</th><th>0.2</th><td>5.4</td><td>1.3</td><td>0.96</td><td>5.2</td><td>1.0</td><td>1.08</td></tr>
+  <tr><th>10</th><th>3</th><th>0.2</th><td>9.9</td><td>1.6</td><td>1.29</td><td>9.3</td><td>1.1</td><td>1.82</td></tr>
+  <tr><th>1</th><th>3</th><th>0.1</th><td>0.9</td><td>2.1</td><td>1.03</td><td>1.2</td><td>2.2</td><td>1.13</td></tr>
+  <tr><th>1</th><th>3</th><th>0.2</th><td>0.9</td><td>1.0</td><td>0.94</td><td>1.1</td><td>1.0</td><td>0.92</td></tr>
+  <tr><th>1</th><th>3</th><th>0.3</th><td>0.9</td><td>1.0</td><td>0.69</td><td>1.8</td><td>0.7</td><td>0.69</td></tr>
+  <tr><th>1</th><th>0</th><th>0.2</th><td>0.9</td><td>1.0</td><td>0.89</td><td>-3.9</td><td>0.6</td><td>1.99</td></tr>
+  <tr><th>1</th><th>1</th><th>0.2</th><td>1.0</td><td>1.0</td><td>0.92</td><td>0.5</td><td>2.0</td><td>0.94</td></tr>
+  <tr><th>1</th><th>2</th><th>0.2</th><td>0.9</td><td>1.0</td><td>0.94</td><td>1.1</td><td>1.0</td><td>0.92</td></tr>
+  <tr><th>1</th><th>3</th><th>0.2</th><td>0.9</td><td>1.1</td><td>1.02</td><td>1.1</td><td>1.0</td><td>0.98</td></tr>
+</table>

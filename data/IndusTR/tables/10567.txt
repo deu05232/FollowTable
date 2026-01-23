@@ -1,0 +1,15 @@
+<table>
+  <caption>Open API Authentication Parameter Matrix (No Endpoints Listed)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Location</th><th>Type</th><th>Required</th><th>Example</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>access_token</td><td>Header</td><td>string</td><td>Yes</td><td>Bearer eyJhbGciOi...</td><td>OAuth access token used for authorization</td></tr>
+    <tr><td>userID</td><td>Query/Body</td><td>string</td><td>Yes</td><td>u_10293</td><td>Requester user identifier</td></tr>
+    <tr><td>x-api-key</td><td>Header</td><td>string</td><td>Sometimes</td><td>9f2c1a...</td><td>App key for partner channels</td></tr>
+    <tr><td>timestamp</td><td>Query/Body</td><td>int64</td><td>Sometimes</td><td>1700000000</td><td>Unix timestamp for signed requests</td></tr>
+    <tr><td>nonce</td><td>Query/Body</td><td>string</td><td>Sometimes</td><td>e7b1f0c2</td><td>Random string to prevent replay</td></tr>
+    <tr><td>signature</td><td>Header</td><td>string</td><td>Sometimes</td><td>HMACSHA256:...</td><td>Request signature computed from canonical string</td></tr>
+    <tr><td>sign_method</td><td>Query/Body</td><td>string</td><td>Sometimes</td><td>HMAC-SHA256</td><td>Algorithm used to generate signature</td></tr>
+  </tbody>
+</table>

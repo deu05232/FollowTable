@@ -1,0 +1,10 @@
+<table>
+  <caption>Terminal Application File: Device/Subscriber Identifier Fields (with key references)</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>IMEI</td><td>8</td><td>Terminal equipment identifier (BCD-encoded)</td></tr>
+  <tr><td>User ID</td><td>6</td><td>Subscriber identifier used by the service platform</td></tr>
+  <tr><td>User management module unique ID</td><td>9</td><td>Diversification factor for deriving on-demand keys</td></tr>
+  <tr><td>Associated KeyID</td><td>1</td><td>Key identifier referenced when deriving authentication material</td></tr>
+  <tr><td>Provisioning region code</td><td>2</td><td>Region/tenant indicator for enrollment</td></tr>
+  <tr><td>Account status</td><td>1</td><td>00: active; 01: suspended; 02: closed</td></tr>
+</table>

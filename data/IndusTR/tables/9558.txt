@@ -1,0 +1,15 @@
+<table>
+  <caption>Indicator Calculation Logbook for Urban Freight Capacity (Variable-Centric)</caption>
+  <thead>
+    <tr><th>City Tier</th><th>Variable Symbol</th><th>Meaning</th><th>Unit</th><th>Data Source Note</th><th>Substitution Example</th><th>Formula Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mega (≥10M)</td><td>P</td><td>Population</td><td>million persons</td><td>Statistical yearbook</td><td>P=12.4</td><td>Used in F(1), F(3), F(5), F(7)</td></tr>
+    <tr><td>Mega (≥10M)</td><td>N_cdc</td><td>Number of public distribution centers</td><td>units</td><td>Transport authority registry</td><td>N_cdc=9</td><td>F(3)</td></tr>
+    <tr><td>Very large (5–10M)</td><td>N_hub</td><td>Number of line-haul/feeder-connected hubs</td><td>units</td><td>Platform operator report</td><td>N_hub=6</td><td>F(1)</td></tr>
+    <tr><td>Large (1–5M)</td><td>N_sta</td><td>Number of last-mile joint distribution stations</td><td>units</td><td>District survey</td><td>N_sta=42</td><td>F(5)</td></tr>
+    <tr><td>Large (1–5M)</td><td>N_park</td><td>Temporary truck parking spaces</td><td>spaces</td><td>Parking management system</td><td>N_park=310</td><td>F(7)</td></tr>
+    <tr><td>Medium (0.5–1M)</td><td>N_AAA</td><td>AAA-and-above qualified enterprises</td><td>units</td><td>Certification body list</td><td>N_AAA=4</td><td>F(13)</td></tr>
+    <tr><td>Small (<0.5M)</td><td>C,T</td><td>Covered vs total communities (coverage ratio)</td><td>count</td><td>GIS/administrative grid</td><td>C=180, T=260</td><td>F(21)</td></tr>
+  </tbody>
+</table>

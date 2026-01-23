@@ -1,0 +1,5 @@
+# EBNF Syntax: Verilog 2001
+
+| Terminal | ALPHA | ALPHANUM | ANY_CHAR_EXCEPT_NEWLINE | ANY_CHAR_EXCEPT_WHITESPACE | COMMENT_TEXT | NEWLINE | WHITESPACE |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Used in | simple_identifier | simple_identifier | string | escaped_identifier | long_comment / short_comment | short_comment | escaped_identifier |

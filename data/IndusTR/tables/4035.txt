@@ -1,0 +1,10 @@
+<table>
+  <caption>Domestic Service Personnel Service Intention Data Items</caption>
+  <tr><td>Description Item</td><td>Data Type</td><td>Constraint/Condition</td><td>Attribute Description</td><td>Value Domain</td></tr>
+  <tr><td>Service Intention Information</td><td>Composite</td><td>Required</td><td>A set of information related to the service intention of service personnel</td><td>-</td></tr>
+  <tr><td>Intended Position</td><td>String</td><td>Required</td><td>Intended service position of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Intended Time</td><td>String</td><td>Optional</td><td>Intended time of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Intended Location</td><td>String</td><td>Optional</td><td>Intended location of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Work Content</td><td>String</td><td>Required</td><td>Intended work content of the service personnel</td><td>Free text</td></tr>
+  <tr><td>Salary Range</td><td>String</td><td>Optional</td><td>Intended salary range of the service personnel</td><td>Free text</td></tr>
+</table>

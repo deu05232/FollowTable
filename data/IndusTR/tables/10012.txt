@@ -1,0 +1,11 @@
+<table>
+  <caption>User Terminal APDU Command Definition (Includes Response Codes and Payload Fields)</caption>
+  <tr><th>Category</th><th>Element</th><th>Example</th><th>Meaning</th></tr>
+  <tr><td>Command</td><td>CLA</td><td>80</td><td>Command class</td></tr>
+  <tr><td>Command</td><td>INS</td><td>F2</td><td>Instruction</td></tr>
+  <tr><td>Command</td><td>P1</td><td>00</td><td>Parameter 1</td></tr>
+  <tr><td>Command</td><td>P2</td><td>01</td><td>Parameter 2 variant</td></tr>
+  <tr><td>Data</td><td>Multicast ID</td><td>6 bytes</td><td>Group identifier</td></tr>
+  <tr><td>Response</td><td>SW1/SW2</td><td>90 00</td><td>Success</td></tr>
+  <tr><td>Response</td><td>SW1/SW2</td><td>6A 86</td><td>P1/P2 error</td></tr>
+</table>

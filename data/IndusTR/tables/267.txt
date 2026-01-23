@@ -1,0 +1,13 @@
+<table>
+  <caption>Cell Battery Voltage Message (PGN5376) Format</caption>
+  <tr><td>Start Byte or Bit</td><td>Length</td><td>SPN</td><td>SPN Definition</td><td>Send Option</td></tr>
+  <tr><td>1</td><td>2 bytes</td><td>3101</td><td>#1 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>3102</td><td>#2 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>3103</td><td>#3 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>7</td><td>2 bytes</td><td>3104</td><td>#4 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>9</td><td>2 bytes</td><td>3105</td><td>#5 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>11</td><td>2 bytes</td><td>3106</td><td>#6 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td colspan="4">......</td><td>Optional</td></tr>
+  <tr><td>509</td><td>2 bytes</td><td>3355</td><td>#255 Cell Battery Voltage</td><td>Optional</td></tr>
+  <tr><td>511</td><td>2 bytes</td><td>3356</td><td>#256 Cell Battery Voltage</td><td>Optional</td></tr>
+</table>

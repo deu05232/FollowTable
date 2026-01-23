@@ -1,0 +1,14 @@
+<table>
+  <caption>Regional Address Coding for Ship Earth Station Messages — Composite Bit Fields and Allowed Values</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Composite / Subfield</th><th>Bit Length</th><th>Bit Position</th><th>Valid Range</th><th>Meaning / Mapping</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Region Address Type</td><td>2</td><td>Addr[15..14]</td><td>0..3</td><td>0=Worldwide; 1=NAVAREA/METAREA; 2=Coastal Warning Area; 3=Reserved.</td></tr>
+    <tr><td>2</td><td>NAVAREA Tens Digit (X1)</td><td>2</td><td>Addr[13..12]</td><td>0..2</td><td>High-order digit for NAVAREA/METAREA number.</td></tr>
+    <tr><td>3</td><td>NAVAREA Ones Digit (X2)</td><td>4</td><td>Addr[11..8]</td><td>0..9</td><td>Low-order digit for NAVAREA/METAREA number.</td></tr>
+    <tr><td>4</td><td>Subregion / Extension</td><td>5</td><td>Addr[7..3]</td><td>0..31</td><td>Optional extension for sub-areas; 0 indicates “not used”.</td></tr>
+    <tr><td>5</td><td>Reserved</td><td>3</td><td>Addr[2..0]</td><td>0..7</td><td>Must be set to 0; receivers shall ignore if nonzero.</td></tr>
+    <tr><td>6</td><td>Composite NAVAREA/METAREA Code (X1X2)</td><td>6</td><td>Addr[13..8]</td><td>00..21; 22..63 reserved</td><td>00=Worldwide broadcast; 01..21=valid NAVAREA/METAREA number; 22..63 unused.</td></tr>
+  </tbody>
+</table>

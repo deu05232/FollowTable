@@ -1,0 +1,10 @@
+<table>
+  <caption>Mobile AR Camera Crash Error Telemetry Snapshot</caption>
+  <tr><th>Error Code</th><th>Module</th><th>Trigger</th><th>Occurrence Rate</th><th>Top Device</th><th>Mitigation</th></tr>
+  <tr><td>AR_CAM_101</td><td>Camera Config</td><td>Unsupported resolution</td><td>0.8%</td><td>Pixel 6</td><td>Fallback to nearest config</td></tr>
+  <tr><td>AR_CAM_203</td><td>Pose Tracking</td><td>Insufficient features</td><td>1.6%</td><td>Galaxy S22</td><td>Prompt for better lighting</td></tr>
+  <tr><td>AR_CAM_317</td><td>Intrinsics</td><td>Null intrinsics handle</td><td>0.2%</td><td>OnePlus 10</td><td>Guard checks + retry</td></tr>
+  <tr><td>AR_CAM_402</td><td>Session</td><td>Permission denied</td><td>2.3%</td><td>Xiaomi 13</td><td>Preflight permission flow</td></tr>
+  <tr><td>AR_CAM_511</td><td>Image Stream</td><td>Texture binding failed</td><td>0.4%</td><td>iPhone 13</td><td>Reset GL context</td></tr>
+  <tr><td>AR_CAM_708</td><td>Filter</td><td>Invalid filter state</td><td>0.1%</td><td>Pixel 7</td><td>Recreate filter object</td></tr>
+</table>

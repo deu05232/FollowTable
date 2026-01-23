@@ -1,0 +1,16 @@
+<table>
+  <caption>Opto-Electrical Performance Specifications for Photodetector Assembly (APD Receiver)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Test Conditions</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Spectral response range</td><td>λ</td><td>Guaranteed detection band</td><td>900</td><td>—</td><td>1700</td><td>nm</td></tr>
+    <tr><td>Responsivity @ 1310 nm</td><td>R</td><td>VR = 0.95·VBR, Pin = 10 µW</td><td>0.85</td><td>0.95</td><td>—</td><td>A/W</td></tr>
+    <tr><td>Responsivity @ 1550 nm</td><td>R</td><td>VR = 0.95·VBR, Pin = 10 µW</td><td>0.75</td><td>0.85</td><td>—</td><td>A/W</td></tr>
+    <tr><td>Avalanche multiplication factor</td><td>M</td><td>VR: 0.90·VBR to 0.98·VBR, λ = 1310 nm</td><td>4</td><td>8</td><td>18</td><td>—</td></tr>
+    <tr><td>Dark current</td><td>ID</td><td>VR = 0.95·VBR, no illumination</td><td>—</td><td>—</td><td>80</td><td>nA</td></tr>
+    <tr><td>Noise equivalent power</td><td>NEP</td><td>λ = 1550 nm, BW = 1 Hz, VR = 0.95·VBR</td><td>—</td><td>—</td><td>6.0</td><td>pW/√Hz</td></tr>
+    <tr><td>3 dB electrical bandwidth</td><td>f3dB</td><td>RL = 50 Ω, λ = 1310 nm</td><td>1.0</td><td>—</td><td>—</td><td>GHz</td></tr>
+    <tr><td>Linearity (output current vs. optical power)</td><td>—</td><td>λ = 1550 nm</td><td>—</td><td>—</td><td>±5</td><td>%</td></tr>
+  </tbody>
+</table>

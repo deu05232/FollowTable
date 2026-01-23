@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Ligature Presentation Forms (Initial/Medial/Final Only; Isolated Omitted)</caption>
+  <thead>
+    <tr><th>Presentation Form ID</th><th>Glyph</th><th>Word Position</th><th>Trigger Sequence</th><th>Conversion Rule Pattern</th><th>Priority</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0102</td><td>P-</td><td>Initial</td><td>U+182A + U+1820</td><td>[WB]+[U+182A]+[U+1820|U+1821]</td><td>High</td></tr>
+    <tr><td>0103</td><td>-P-</td><td>Medial</td><td>U+182A + U+1820</td><td>[U+182A]+[U+1820|U+1821]</td><td>High</td></tr>
+    <tr><td>0104</td><td>-P</td><td>Final</td><td>U+182A + U+1820</td><td>[U+182A]+[U+1820|U+1821]+[WB]</td><td>High</td></tr>
+    <tr><td>0134</td><td>中-</td><td>Initial</td><td>U+183A + U+1820</td><td>[WB]+[U+183A]+[U+1820|U+1821]</td><td>Medium</td></tr>
+    <tr><td>0135</td><td>-中-</td><td>Medial</td><td>U+183A + U+1820</td><td>[U+183A]+[U+1820|U+1821]</td><td>Medium</td></tr>
+    <tr><td>0136</td><td>-中</td><td>Final</td><td>U+183A + U+1820</td><td>[U+183A]+[U+1820|U+1821]+[WB]</td><td>Medium</td></tr>
+    <tr><td>0194</td><td>9-</td><td>Initial</td><td>U+1892 + U+1820</td><td>[WB]+[U+1892]+[U+1820|U+1821]</td><td>Low</td></tr>
+  </tbody>
+</table>

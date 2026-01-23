@@ -1,0 +1,7 @@
+<table>
+  <caption>Pose Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="3">vrPose</td><td>int64_t time_stamp</td><td>Pose data timestamp</td></tr>
+  <tr><td>vrQuaternion</td><td>Orientation data, rotation quaternion</td></tr>
+  <tr><td>vr3DPoint</td><td>Position data, 3D position point</td></tr>
+</table>

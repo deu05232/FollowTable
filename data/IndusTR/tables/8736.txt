@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Codes — Measurement Units with Power Supply Modes (Mixed Domain)</caption>
+  <thead>
+    <tr><th>Code</th><th>Name</th><th>Domain</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>V</td><td>Volt</td><td>Unit</td><td>Electrical potential</td></tr>
+    <tr><td>kV</td><td>Kilovolt</td><td>Unit</td><td>10^3 volts</td></tr>
+    <tr><td>Hz</td><td>Hertz</td><td>Unit</td><td>Frequency</td></tr>
+    <tr><td>LPM</td><td>Liter per Minute</td><td>Unit</td><td>Flow rate</td></tr>
+    <tr><td>AC</td><td>AC Power Supply</td><td>PowerSupplyMode</td><td>Mains alternating current</td></tr>
+    <tr><td>DC</td><td>DC Power Supply</td><td>PowerSupplyMode</td><td>Direct current source</td></tr>
+    <tr><td>BAT</td><td>Battery Power Supply</td><td>PowerSupplyMode</td><td>Internal battery</td></tr>
+  </tbody>
+</table>

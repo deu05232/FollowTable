@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental Noise Emission Declaration for Chiller Units (Sound Limits and Corrections)</caption>
+  <thead>
+    <tr><th rowspan="2">Unit type</th><th rowspan="2">Rated cooling capacity range (kW)</th><th colspan="2">Declared noise emission (dB(A))</th><th rowspan="2">Tonality correction Kt (dB)</th><th rowspan="2">Uncertainty U (dB)</th></tr>
+    <tr><th>Sound power LwA</th><th>Sound pressure LpA</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Air-cooled screw</td><td>100 < CC ≤ 300</td><td>92</td><td>76</td><td>2</td><td>3</td></tr>
+    <tr><td>300 < CC ≤ 700</td><td>95</td><td>79</td><td>2</td><td>3</td></tr>
+    <tr><td rowspan="2">Water-cooled centrifugal</td><td>300 < CC ≤ 800</td><td>88</td><td>72</td><td>1</td><td>2</td></tr>
+    <tr><td>800 < CC ≤ 1500</td><td>90</td><td>74</td><td>1</td><td>2</td></tr>
+    <tr><td rowspan="2">Magnetic bearing</td><td>200 < CC ≤ 600</td><td>86</td><td>70</td><td>0</td><td>2</td></tr>
+    <tr><td>CC > 600</td><td>87</td><td>71</td><td>0</td><td>2</td></tr>
+  </tbody>
+</table>

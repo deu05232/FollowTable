@@ -1,0 +1,11 @@
+<table>
+  <caption>Network Transport Configuration for Real-Time SSR Ionospheric Streams</caption>
+  <tr><th>Parameter</th><th>Default</th><th>Allowed Values</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>Transport protocol</td><td>NTRIP v2</td><td>NTRIP/UDP/TCP</td><td>-</td><td>Streaming method</td></tr>
+  <tr><td>Mountpoint name</td><td>IGMAS_IONO_SH</td><td>String</td><td>-</td><td>Service identifier</td></tr>
+  <tr><td>Port</td><td>2101</td><td>1–65535</td><td>-</td><td>Network port</td></tr>
+  <tr><td>Reconnect backoff</td><td>5</td><td>1–60</td><td>s</td><td>Retry strategy</td></tr>
+  <tr><td>Max message rate</td><td>1</td><td>0.1–10</td><td>Hz</td><td>Throttle setting</td></tr>
+  <tr><td>Payload framing</td><td>RTCM</td><td>RTCM/Custom</td><td>-</td><td>Binary framing only</td></tr>
+  <tr><td>Encryption</td><td>None</td><td>None/TLS</td><td>-</td><td>Link security</td></tr>
+</table>

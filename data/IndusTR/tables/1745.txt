@@ -1,0 +1,11 @@
+<table>
+  <caption>Test requirements for binarized syntax elements in the video coding bitstream (split flag, cu type index and transform split flag)</caption>
+  <tr><td>Syntax element name</td><td>Test requirements</td></tr>
+  <tr><td>split_flag</td><td>Traverse cases where the value of split_flag equals 0 to 1</td></tr>
+  <tr><td>cu_type_index</td><td>Traverse all binary symbol string cases in Table 80, Table 81, and Table 82 of GB/T 33475.2—2024</td></tr>
+  <tr><td>transform_split_flag</td><td>Traverse cases where the value of transform_split_flag equals 0 to 1</td></tr>
+  <tr><td>ctp_zero_flag</td><td>Traverse cases where the value of ctp_zero_flag equals 0 to 1</td></tr>
+  <tr><td>ctp_uv</td><td>Traverse all binary symbol string cases in Table 98 of GB/T 33475.2—2024</td></tr>
+  <tr><td>ctp_y</td><td>Traverse cases of ctp_y values</td></tr>
+  <tr><td>cu_qp_delta</td><td>Traverse cases where cu_qp_delta is positive, negative, and 0</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Decay scheme details for metastable and beta-decaying nuclides (including daughters, Q-values, and characteristic radiation).</caption>
+  <thead>
+    <tr><th rowspan="2">Parent nuclide</th><th rowspan="2">Half-life</th><th colspan="3">Decay branching</th><th colspan="2">Key emitted radiation</th></tr>
+    <tr><th>Branch</th><th>Daughter</th><th>BR</th><th>Type</th><th>Energy (keV)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Tc-99m</td><td>6.01 h</td><td>Isomeric transition</td><td>Tc-99</td><td>~99.9%</td><td>γ</td><td>140.5</td></tr>
+    <tr><td>Tc-99m</td><td>6.01 h</td><td>Internal conversion</td><td>Tc-99</td><td><0.2%</td><td>e− (IC)</td><td>~120 (typ.)</td></tr>
+    <tr><td>F-18</td><td>109.77 min</td><td>β+</td><td>O-18</td><td>~96.9%</td><td>γ (annihilation)</td><td>511</td></tr>
+    <tr><td>F-18</td><td>109.77 min</td><td>EC</td><td>O-18</td><td>~3.1%</td><td>X-ray/Auger</td><td>~0.5–1 (typ.)</td></tr>
+    <tr><td>Sr-90</td><td>28.79 y</td><td>β−</td><td>Y-90</td><td>~100%</td><td>β−</td><td>Endpoint ~546</td></tr>
+    <tr><td>Y-90</td><td>64.1 h</td><td>β−</td><td>Zr-90</td><td>~100%</td><td>β−</td><td>Endpoint ~2280</td></tr>
+    <tr><td>K-40</td><td>1.248E9 y</td><td>β−</td><td>Ca-40</td><td>~89.3%</td><td>β−</td><td>Endpoint ~1311</td></tr>
+    <tr><td>K-40</td><td>1.248E9 y</td><td>EC</td><td>Ar-40</td><td>~10.7%</td><td>γ</td><td>1460.8</td></tr>
+  </tbody>
+</table>

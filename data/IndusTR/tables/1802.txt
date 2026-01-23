@@ -1,0 +1,29 @@
+<table>
+  <caption>VR Positioning Device Status Information Retrieval Interface</caption>
+  <tr><td>Interface Description</td><td>Interface Name</td></tr>
+  <tr><td>Get positioning device list</td><td>bool vrDeviceGetPositionableDeviceList(vrPositionableDevice **device，int32_t*out_size)</td></tr>
+  <tr><td>Get positioning device type</td><td>bool vrDeviceGetPositionableDeviceType(const vrPositionableDevice *device，vrPositionableDeviceType *type)</td></tr>
+  <tr><td>Get positioning device pose and motion status</td><td>bool vrDeviceGetPositionableDeviceMotionPose(const vrPositionableDevice *de- vice，vrPose *pose，vrMotionData *motion）</td></tr>
+  <tr><td>Get current Frame Id list</td><td>bool vrFrameGetFrameIdList(int32_t **id_list,int32_t *out_size)</td></tr>
+  <tr><td>Get Frame instance corresponding to ID</td><td>bool vrFrameGetFrame(const int32_t frame_id,vrFrame *frame)</td></tr>
+  <tr><td>Get latest Frame instance</td><td>bool vrFrameGetCurrentFrame(vrFrame *frame）</td></tr>
+  <tr><td>Get camera image data of the target frame</td><td>bool vrFrameAcquireCameraImage(const vrFrame *frame,const int32_t cam-era_id,vrImage **out_image,int32_t *out_size)</td></tr>
+  <tr><td>Get point cloud data of the target frame</td><td>bool vrFrameAcquirePointCloud(const vrFrame *frame，vrPointCloud**out_point_cloud,int32_t *out_size)</td></tr>
+  <tr><td>Get the pose of the target frame and its estimation quality</td><td>bool vrFrameGetPose(const vrFrame *frame，vrPose *out_pose，float *quality)</td></tr>
+  <tr><td>Get timestamp of the target frame</td><td>bool vrFrameGetTimestamp(const vrFrame *frame,int64_t *out_timestamp_ns)</td></tr>
+  <tr><td>Get plane instance list and count</td><td>bool vrFrameGetPlaneList(const vrFrame *frame,vrPlane **out_plane_list,int32_t *out_size)</td></tr>
+  <tr><td>Get plane type</td><td>bool vrPlaneGetPlaneType(const vrPlane *plane,vrPlaneType *out_type)</td></tr>
+  <tr><td>Get plane normal vector</td><td>bool vrPlaneGetNormal(const vrPlane *plane,vrPosition* out_plane_normal)</td></tr>
+  <tr><td>Get plane center pose</td><td>bool vrPlaneGetCenterPose(const vrPlane *plane，vrPose*center_pose）</td></tr>
+  <tr><td>Get the extent size of the plane bounding box</td><td>bool vrPlaneGetExtent(const vrPlane *plane,float* out_extent_xyz)</td></tr>
+  <tr><td>Get the number of vertex coordinates of the plane boundary polygon, each vertex contains 3 floating-point values</td><td>bool vrPlaneGetPolygon3DSize(const vrPlane *plane,vrPosition **position_list,int32_t *out_size)</td></tr>
+  <tr><td>Determine whether the given point is within the plane bounding box</td><td>bool vrPlaneIsPoseInExtent(const vrPlane *plane,const vrPose* pose,int*out_pose_in_extents）</td></tr>
+  <tr><td>Determine whether the given point is within the plane polygon</td><td>bool vrPlaneIsPoseInPolygon(const vrPlane *plane，const vrPose* pose,int*out_pose_in_polygon)</td></tr>
+  <tr><td>Get controller list</td><td>bool vrControllerGetControllerList(vrControllerList *controller_list,int32_t*out_size)</td></tr>
+  <tr><td>Get controller Id list</td><td>bool vrControllerGetControllerIdList(const vrControllerList *controller_list,int32_t **id_list,int32_t *out_size)</td></tr>
+  <tr><td>Get controller instance corresponding to ID</td><td>bool vrControllerGetController(const vrControllerList *controller_list，constint32_t controller_id，vrController *controller)</td></tr>
+  <tr><td>Get target controller type</td><td>bool vrControllerGetType(const vrController *controller，vrControllerType*type)</td></tr>
+  <tr><td>Get target controller pose</td><td>bool vrControllerGetPose(const vrController *controller，vrPose *pose，float*quality)</td></tr>
+  <tr><td>Get sensor instance corresponding to ID</td><td>bool vrSensorGetSensor(const int32_t sensor_id,vrSensor *sensor)</td></tr>
+  <tr><td>Get sensor data</td><td>bool vrSensorGetSensorData(const vrSensor *sensor，uint8_t **data,int32_t*data_size)</td></tr>
+</table>

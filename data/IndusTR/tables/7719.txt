@@ -1,0 +1,14 @@
+<table>
+  <caption>SOF XML Signing Service Interface Matrix (Inputs/Outputs)</caption>
+  <thead>
+    <tr><th>API</th><th>Purpose</th><th>Primary Inputs</th><th>Primary Outputs</th><th>Algorithm Selectors</th><th>Signature/Digest Payload Fields</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SOF_SignDataXML</td><td>Generate XML digital signature</td><td>CertID, InXml</td><td>SignedXml</td><td>SignAlg</td><td>CanonicalizedXml, DigestValue, SignatureValue</td><td>Produces enveloped signature</td></tr>
+    <tr><td>SOF_VerifySignedHashData</td><td>Verify signature over digest</td><td>Base64Cert, Base64HashData, SignValue</td><td>Boolean</td><td>HashAlg</td><td>HashDigest, SignatureValue</td><td>SignValue is Base64(A)</td></tr>
+    <tr><td>SOF_getXMLSignatureInfo</td><td>Extract signature-related parts</td><td>XmlSignedData, Type</td><td>RequestedPart</td><td>DigestAlg, SignatureAlg</td><td>OriginalXml, DigestValue, SignatureValue</td><td>Type controls returned field</td></tr>
+    <tr><td>SOF_SignHashData</td><td>Sign a precomputed digest</td><td>CertID, Base64HashData</td><td>SignValue</td><td>HashAlg</td><td>HashDigest, SignatureValue</td><td>For detached data flows</td></tr>
+    <tr><td>SOF_VerifyDataXML</td><td>Verify signed XML document</td><td>SignedXml</td><td>Boolean</td><td>SignatureAlg</td><td>SignedInfo, ReferenceDigest</td><td>Rejects invalid reference URIs</td></tr>
+    <tr><td>SOF_GetSignedXmlReference</td><td>Read reference digest from XML signature</td><td>SignedXml</td><td>Base64Digest</td><td>DigestAlg</td><td>ReferenceDigestValue</td><td>Useful for audit logs</td></tr>
+  </tbody>
+</table>

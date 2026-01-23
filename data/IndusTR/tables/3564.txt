@@ -1,0 +1,7 @@
+<table>
+  <caption>Automatic Winding Machine Quality Control Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0B00</td><td>Joints/10 km</td><td>Joint/10 km</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~20.00</td><td>pcs</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0B01</td><td>Defects cut/100 km</td><td>Cutting/100 km</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~200.00</td><td>pcs</td><td>/</td><td>一</td></tr>
+  <tr><td>0X0B02</td><td>Extensible data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

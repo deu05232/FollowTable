@@ -1,0 +1,15 @@
+# FTPmail
+> Basic commands used
+
+| Command | Function |
+| --- | --- |
+| help | Returns a help file. |
+| open [site[user[password]]] | Connect to site. |
+| cd path | Change directory to path specified. |
+| ls [path] | List the contents of the directory. |
+| dir [path] | List the contents of the directory |
+| get file | Get a file, the path to save can also be *mentioned. |
+| size max[ K \| M ] | Size when file is split before sending, the max size is Kb\|Mb. |
+| mode binary | Binary mode: archives, binary files. |
+| mode ascii | ASCII mode: nothing but ASCII text. |
+| quit | End of ftp-by-email message. |

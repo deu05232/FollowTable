@@ -1,0 +1,10 @@
+<table>
+  <caption>Calibration and Quality Control Schedule for ICP-OES Rare Earth Runs</caption>
+  <tr><th>QC Item</th><th>Frequency</th><th>Acceptance Criteria</th><th>Corrective Action</th><th>Record</th></tr>
+  <tr><td>Wavelength calibration check</td><td>Daily</td><td>Peak shift < 0.005 nm</td><td>Recalibrate optics</td><td>Instrument log</td></tr>
+  <tr><td>Background correction check</td><td>Per batch</td><td>Background drift < 5%</td><td>Re-optimize view/alignment</td><td>Batch sheet</td></tr>
+  <tr><td>Continuing calibration verification (CCV)</td><td>Every 10 samples</td><td>Recovery 90–110%</td><td>Recalibrate and rerun affected samples</td><td>QC chart</td></tr>
+  <tr><td>Method blank</td><td>Every batch</td><td>Below reporting limit</td><td>Investigate contamination</td><td>Blank report</td></tr>
+  <tr><td>Spike recovery</td><td>Every batch</td><td>80–120%</td><td>Review digestion and matrix effects</td><td>Spike worksheet</td></tr>
+  <tr><td>Internal standard stability</td><td>Continuous</td><td>Signal drift < 20%</td><td>Check nebulizer/pump</td><td>Control chart</td></tr>
+</table>

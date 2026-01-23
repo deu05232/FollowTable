@@ -1,0 +1,16 @@
+<table>
+  <caption>CAN Charging Communication Message Directory (Session Control & Setup)</caption>
+  <thead>
+    <tr><th>Group</th><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Data Length (Byte)</th><th>Periodicity (ms)</th><th>Source Node</th><th>Destination Node</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Handshake</td><td>CHS</td><td>Charger Handshake Status</td><td>10048</td><td>0x002740</td><td>6</td><td>3</td><td>250</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>VHS</td><td>Vehicle Handshake Status</td><td>10112</td><td>0x002780</td><td>6</td><td>2</td><td>250</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td>SID</td><td>Session Identification</td><td>320</td><td>0x000140</td><td>6</td><td>8</td><td>500</td><td>Charger</td><td>BMS</td></tr>
+    <tr><td rowspan="2">Time / Sync</td><td>CTS</td><td>Charger Time Synchronization</td><td>1824</td><td>0x000720</td><td>6</td><td>7</td><td>500</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>VTS</td><td>Vehicle Time Acknowledge</td><td>1888</td><td>0x000760</td><td>6</td><td>3</td><td>500</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td rowspan="2">Capabilities</td><td>CMP</td><td>Charger Maximum Power Capability</td><td>2080</td><td>0x000820</td><td>6</td><td>8</td><td>250</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>VCP</td><td>Vehicle Charging Parameters</td><td>1568</td><td>0x000620</td><td>7</td><td>13</td><td>500</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td rowspan="1">Control</td><td>SCR</td><td>Start/Stop Charge Request</td><td>5120</td><td>0x001400</td><td>5</td><td>2</td><td>1000</td><td>Vehicle</td><td>Charger</td></tr>
+  </tbody>
+</table>

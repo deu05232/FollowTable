@@ -1,0 +1,16 @@
+<table>
+  <caption>Addressing-Only PDU Format (Destination/Source + Generic Data Field)</caption>
+  <thead>
+    <tr><th>Byte Index</th><th>Bits</th><th>Field Name</th><th>Allowed Values</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>7..5</td><td>P</td><td>0..7</td><td>Priority</td></tr>
+    <tr><td>0</td><td>4</td><td>EDP</td><td>0/1</td><td>Extended data page</td></tr>
+    <tr><td>0</td><td>3</td><td>DP</td><td>0/1</td><td>Data page</td></tr>
+    <tr><td>1</td><td>7..0</td><td>PF</td><td>0x00..0xFF</td><td>PDU format selector</td></tr>
+    <tr><td>2</td><td>7..0</td><td>PS</td><td>0x00..0xFF</td><td>Destination address</td></tr>
+    <tr><td>3</td><td>7..0</td><td>SA</td><td>0x00..0xFF</td><td>Source address</td></tr>
+    <tr><td>4..11</td><td>7..0</td><td>DATA[0..7]</td><td>0x00..0xFF</td><td>Opaque application data bytes</td></tr>
+    <tr><td>12..</td><td>7..0</td><td>(optional padding)</td><td>0xFF</td><td>Padding to fixed frame length</td></tr>
+  </tbody>
+</table>

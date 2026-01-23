@@ -1,0 +1,10 @@
+<table>
+  <caption>ARPlaneDetectionMode options for surface discovery</caption>
+  <tr><th>ARPlaneDetectionMode Value</th><th>Description</th></tr>
+  <tr><td>AR_PLANE_DETECTION_NONE = 0</td><td>Do not detect planes</td></tr>
+  <tr><td>AR_PLANE_DETECTION_HORIZONTAL = 1</td><td>Detect horizontal surfaces</td></tr>
+  <tr><td>AR_PLANE_DETECTION_VERTICAL = 2</td><td>Detect vertical surfaces</td></tr>
+  <tr><td>AR_PLANE_DETECTION_ANY = 3</td><td>Detect any supported plane type</td></tr>
+  <tr><td>AR_PLANE_DETECTION_LARGE = 4</td><td>Prioritize large, stable planes</td></tr>
+  <tr><td>AR_PLANE_DETECTION_FAST = 5</td><td>Prioritize quick plane discovery over stability</td></tr>
+</table>

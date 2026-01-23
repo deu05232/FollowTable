@@ -1,0 +1,7 @@
+<table>
+  <caption>Emergency Management BeiDou System Remote Tuning Transparent Transmission Command Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Number of Execution Card Numbers</td><td>8</td><td>Integer</td><td>pcs</td><td>0~255</td><td>The number of execution card numbers included in this message. When the number of execution card numbers is ０, there is no Card No. 1～N field, and all terminals that receive the command need to execute the command</td></tr>
+  <tr><td>2</td><td>Card No. 1～N</td><td>N×24</td><td>Integer</td><td></td><td>1~16 777 215</td><td>Respond if the user's monitored execution card number list contains the card number of its own emergency management BeiDou application terminal</td></tr>
+  <tr><td>3</td><td>Content</td><td>N×8</td><td>Integer</td><td colspan="2">I</td><td>N is the byte length of the content</td></tr>
+</table>

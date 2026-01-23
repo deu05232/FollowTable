@@ -1,0 +1,11 @@
+<table>
+  <caption>Acceptance criteria table combining harmonic active energy limits with fundamental active energy accuracy by load</caption>
+  <tr><th rowspan="2">Load condition</th><th rowspan="2">Current range</th><th rowspan="2">Power factor</th><th colspan="3">Fundamental active energy error limit (%)</th><th colspan="3">Combined-harmonic active energy error limit (%)</th></tr>
+  <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  <tr><td>Balanced (single-phase)</td><td>Imin ≤ I < 0.1 Imax</td><td>cosφ = 1.0</td><td>±1.0</td><td>±2.0</td><td>±4.0</td><td>±2.5</td><td>±4.0</td><td>±12.0</td></tr>
+  <tr><td>Balanced (single-phase)</td><td>0.1 Imax ≤ I ≤ Imax</td><td>cosφ = 1.0</td><td>±0.5</td><td>±1.0</td><td>±2.0</td><td>±1.5</td><td>±2.5</td><td>±8.0</td></tr>
+  <tr><td>Balanced (single-phase)</td><td>0.1 Imax ≤ I ≤ Imax</td><td>cosφ = 0.5L</td><td>±1.0</td><td>±2.0</td><td>±4.0</td><td>±2.0</td><td>±3.5</td><td>±10.0</td></tr>
+  <tr><td>Unbalanced load</td><td>Imin ≤ I < 0.1 Imax</td><td>cosφ = 1.0</td><td>±1.5</td><td>±3.0</td><td>±6.0</td><td>±3.0</td><td>±5.0</td><td>±15.0</td></tr>
+  <tr><td>Unbalanced load</td><td>0.1 Imax ≤ I ≤ Imax</td><td>cosφ = 0.8C</td><td>±1.5</td><td>±3.0</td><td>±6.0</td><td>±2.5</td><td>±4.5</td><td>±12.0</td></tr>
+  <tr><td>Transformer-operated</td><td>0.05 Ir ≤ I ≤ Ir</td><td>cosφ = 1.0</td><td>±0.7</td><td>±1.4</td><td>±2.8</td><td>±1.8</td><td>±3.0</td><td>±9.0</td></tr>
+</table>

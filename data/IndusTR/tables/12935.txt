@@ -1,0 +1,31 @@
+<table>
+  <caption>Regional Broadcast Address Encoding for Ship Earth Stations (Worldwide vs NAVAREA/METAREA vs Reserved)</caption>
+  <thead>
+    <tr><th>Composite Code Range (6-bit)</th><th>Meaning</th><th>NAVAREA/METAREA No.</th><th>Implementation Notes (Area-Selection Logic)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Worldwide broadcast</td><td>—</td><td>No regional filtering; treat as global.</td></tr>
+    <tr><td>1</td><td>Regional broadcast</td><td>1</td><td>Map to NAVAREA/METAREA 1.</td></tr>
+    <tr><td>2</td><td>Regional broadcast</td><td>2</td><td>Map to NAVAREA/METAREA 2.</td></tr>
+    <tr><td>3</td><td>Regional broadcast</td><td>3</td><td>Map to NAVAREA/METAREA 3.</td></tr>
+    <tr><td>4</td><td>Regional broadcast</td><td>4</td><td>Map to NAVAREA/METAREA 4.</td></tr>
+    <tr><td>5</td><td>Regional broadcast</td><td>5</td><td>Map to NAVAREA/METAREA 5.</td></tr>
+    <tr><td>6</td><td>Regional broadcast</td><td>6</td><td>Map to NAVAREA/METAREA 6.</td></tr>
+    <tr><td>7</td><td>Regional broadcast</td><td>7</td><td>Map to NAVAREA/METAREA 7.</td></tr>
+    <tr><td>8</td><td>Regional broadcast</td><td>8</td><td>Map to NAVAREA/METAREA 8.</td></tr>
+    <tr><td>9</td><td>Regional broadcast</td><td>9</td><td>Map to NAVAREA/METAREA 9.</td></tr>
+    <tr><td>10</td><td>Regional broadcast</td><td>10</td><td>Map to NAVAREA/METAREA 10.</td></tr>
+    <tr><td>11</td><td>Regional broadcast</td><td>11</td><td>Map to NAVAREA/METAREA 11.</td></tr>
+    <tr><td>12</td><td>Regional broadcast</td><td>12</td><td>Map to NAVAREA/METAREA 12.</td></tr>
+    <tr><td>13</td><td>Regional broadcast</td><td>13</td><td>Map to NAVAREA/METAREA 13.</td></tr>
+    <tr><td>14</td><td>Regional broadcast</td><td>14</td><td>Map to NAVAREA/METAREA 14.</td></tr>
+    <tr><td>15</td><td>Regional broadcast</td><td>15</td><td>Map to NAVAREA/METAREA 15.</td></tr>
+    <tr><td>16</td><td>Regional broadcast</td><td>16</td><td>Map to NAVAREA/METAREA 16.</td></tr>
+    <tr><td>17</td><td>Regional broadcast</td><td>17</td><td>Map to NAVAREA/METAREA 17.</td></tr>
+    <tr><td>18</td><td>Regional broadcast</td><td>18</td><td>Map to NAVAREA/METAREA 18.</td></tr>
+    <tr><td>19</td><td>Regional broadcast</td><td>19</td><td>Map to NAVAREA/METAREA 19.</td></tr>
+    <tr><td>20</td><td>Regional broadcast</td><td>20</td><td>Map to NAVAREA/METAREA 20.</td></tr>
+    <tr><td>21</td><td>Regional broadcast</td><td>21</td><td>Map to NAVAREA/METAREA 21.</td></tr>
+    <tr><td>22–63</td><td>Unused / reserved</td><td>—</td><td>Reject or treat as invalid for area selection.</td></tr>
+  </tbody>
+</table>

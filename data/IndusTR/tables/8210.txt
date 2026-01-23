@@ -1,0 +1,12 @@
+<table>
+  <caption>AR Hit-Test Result Interface (Mixed With Session Setup and Rendering)</caption>
+  <tr><th>API / Field</th><th>Type</th><th>Purpose</th><th>Returns / Notes</th></tr>
+  <tr><td>ArSession_configure</td><td>function</td><td>Configure tracking, plane finding, and lighting</td><td>Generic session setup (not hit-specific)</td></tr>
+  <tr><td>ArSession_resume</td><td>function</td><td>Start / resume the AR session</td><td>Generic lifecycle</td></tr>
+  <tr><td>ArFrame_acquireCamera</td><td>function</td><td>Access camera intrinsics / pose</td><td>Not a hit-test result</td></tr>
+  <tr><td>ArHitResult_getDistance</td><td>function</td><td>Read hit distance along the ray</td><td>float (meters)</td></tr>
+  <tr><td>ArHitResult_getHitPose</td><td>function</td><td>Get pose at intersection</td><td>ArPose (position + rotation)</td></tr>
+  <tr><td>ArHitResult_acquireTrackable</td><td>function</td><td>Get trackable behind the hit</td><td>ArTrackable*</td></tr>
+  <tr><td>ArCamera_getProjectionMatrix</td><td>function</td><td>Projection for rendering</td><td>Unrelated to collision hit detection</td></tr>
+  <tr><td>ArSession_setDisplayGeometry</td><td>function</td><td>Update viewport rotation/size</td><td>UI/display plumbing</td></tr>
+</table>

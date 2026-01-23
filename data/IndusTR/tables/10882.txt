@@ -1,0 +1,15 @@
+<table>
+  <caption>Functional Capability Requirements for Beidou Monitoring Terminals (BDS Operation, Positioning, and Data Interfaces)</caption>
+  <thead>
+    <tr><th>Capability item / terminal type</th><th>Required capability level</th><th>Required limit / criterion</th><th>Notes (requirement focus)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BDS open-service standalone operation</td><td>Mandatory</td><td>Must operate normally using only BDS open service signals</td><td>No dependence on other GNSS for baseline operation</td></tr>
+    <tr><td>Time to first fix (TTFF) – cold start</td><td>Mandatory</td><td>≤ 45 s</td><td>From power-on with no prior ephemeris</td></tr>
+    <tr><td>Time to first fix (TTFF) – hot start</td><td>Mandatory</td><td>≤ 5 s</td><td>From power-on with valid aiding data</td></tr>
+    <tr><td>Position output update rate</td><td>Configurable requirement</td><td>≥ 1 Hz (default); supports up to 5 Hz</td><td>Capability requirement for real-time monitoring scenarios</td></tr>
+    <tr><td>Data interface – serial communication</td><td>Mandatory</td><td>Supports RS-232 and/or RS-485</td><td>Interface shall provide continuous positioning/status output</td></tr>
+    <tr><td>Data interface – network communication</td><td>Optional (project dependent)</td><td>Supports at least one of: 4G/LTE, Ethernet</td><td>For remote reporting and OTA management</td></tr>
+    <tr><td>Firmware upgrade / maintenance</td><td>Mandatory</td><td>Supports local upgrade; remote upgrade if networked</td><td>Ensures maintainability over service life</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Satellite Attitude/Yaw and Identification Block for Phase Bias Context</caption>
+  <thead>
+    <tr><th>Constellation</th><th>Satellite Number Field</th><th>Satellite Number (DF)</th><th>Yaw Angle Field</th><th>Yaw Angle (DF)</th><th>Bits</th><th>Ancillary Count Field</th><th>Count (DF)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GPS</td><td>GPS Satellite Number</td><td>DF068</td><td>SAC Yaw Angle</td><td>DF480</td><td>9</td><td>Number of Phase Biases</td><td>DF479</td></tr>
+    <tr><td>Galileo</td><td>Galileo Satellite Number</td><td>DF252</td><td>Yaw Angle</td><td>DF480</td><td>9</td><td>Number of Phase Biases</td><td>DF479</td></tr>
+    <tr><td>GLONASS</td><td>GLONASS Satellite Slot Number</td><td>DF0GG</td><td>Yaw Angle</td><td>DF480</td><td>9</td><td>Number of Phase Biases</td><td>DF479</td></tr>
+    <tr><td>BDS</td><td>BDS Satellite Number</td><td>DF0BB</td><td>Yaw Angle</td><td>DF480</td><td>9</td><td>Number of Phase Biases</td><td>DF479</td></tr>
+    <tr><td>QZSS</td><td>QZSS Satellite Number</td><td>DF0QZ</td><td>Yaw Angle</td><td>DF480</td><td>9</td><td>Number of Phase Biases</td><td>DF479</td></tr>
+    <tr><td>SBAS</td><td>SBAS Satellite Number</td><td>DF0SB</td><td>Yaw Angle</td><td>DF480</td><td>9</td><td>Number of Phase Biases</td><td>DF479</td></tr>
+  </tbody>
+</table>

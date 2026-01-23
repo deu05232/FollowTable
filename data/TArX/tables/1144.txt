@@ -1,0 +1,10 @@
+<table>
+  <caption>Dimensionless numbers relevant to simulation of the statics and dynamics of a fiber suspension and the specific values used in the test simulations. When flow is applied (not in this work), one should be particularly mindful of the Mach and Reynolds numbers, which are reported here for the case of shear flow with shear rate γ ˙ . Recommended upper limits for Stokes flow are given. The Peclet number may be smaller or larger than 1, depending on experimental conditions.</caption>
+  <tr><th>property</th><th>definition</th><th>value</th></tr>
+  <tr><td>dimensionless persistence length</td><td>l_(p)^(*)=l_(p)/L</td><td>1</td></tr>
+  <tr><td>hydrodynamic aspect ratio</td><td>p=L/(2a_(h))</td><td>64</td></tr>
+  <tr><td>dimensionless mesh size</td><td>^(*)=/L</td><td>0.055 - 0.32</td></tr>
+  <tr><td>Compressibility effects</td><td>=γl_(p)/c_(s)</td><td><0.1</td></tr>
+  <tr><td>Inertial vs. viscous forces</td><td>=γl_(p)^(2)/ν</td><td><0.1</td></tr>
+  <tr><td>Convective vs. Brownian motion</td><td>=γτ_(r)</td><td></td></tr>
+</table>

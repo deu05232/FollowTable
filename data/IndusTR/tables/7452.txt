@@ -1,0 +1,15 @@
+<table>
+  <caption>User Terminal Message Header Parameters (Send/Receive Addressing and Identifiers)</caption>
+  <thead>
+    <tr><th>Field No.</th><th>Parameter Name</th><th>Value Range</th><th>Unit</th><th>Meaning / Validation Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sender ID</td><td>1–281474976710655</td><td>-</td><td>Originating address. Can represent an intranet or extranet sender; reject 0.</td></tr>
+    <tr><td>2</td><td>Recipient ID</td><td>1–16777215</td><td>-</td><td>Destination intranet address; reject 0 and values above 16777215.</td></tr>
+    <tr><td>3</td><td>Message Type</td><td>1–6</td><td>-</td><td>1: short message; 2: position report; 3: network management; 4: acknowledgement; 5: broadcast; 6: test/diagnostic.</td></tr>
+    <tr><td>4</td><td>Emergency Flag</td><td>0–1</td><td>-</td><td>0: normal; 1: emergency/SAR priority handling.</td></tr>
+    <tr><td>5</td><td>Sequence Number</td><td>0–255</td><td>-</td><td>Per-sender rolling counter for de-duplication; wrap after 255.</td></tr>
+    <tr><td>6</td><td>Station Entry Sequence (LSB5)</td><td>0–31</td><td>-</td><td>Lower 5 bits of the inbound sequence number (binary). Used for station-side correlation.</td></tr>
+    <tr><td>7</td><td>UTC Time</td><td>000000.00–235959.99</td><td>hhmmss.ss</td><td>Fixed 6 digits left of decimal; pad leading zeros; must be valid UTC time-of-day.</td></tr>
+  </tbody>
+</table>

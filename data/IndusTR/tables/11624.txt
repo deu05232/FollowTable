@@ -1,0 +1,16 @@
+<table>
+  <caption>Satellite Data File/Format and Packaging Code List</caption>
+  <thead>
+    <tr><th>Category</th><th>Format / Package Name</th><th>Code</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Container</td><td>Hierarchical Data Format v5</td><td>HDF5</td><td>Multidimensional arrays and metadata</td></tr>
+    <tr><td>Container</td><td>Network Common Data Form</td><td>NC</td><td>Gridded geoscience datasets</td></tr>
+    <tr><td>Earth observation</td><td>GeoTIFF</td><td>TIF</td><td>Raster images with georeferencing</td></tr>
+    <tr><td>Remote sensing</td><td>BUFR</td><td>BUFR</td><td>Binary messages for observational data exchange</td></tr>
+    <tr><td>Remote sensing</td><td>GRIB2</td><td>GRB2</td><td>Binary grids for meteorological fields</td></tr>
+    <tr><td>Archiving</td><td>Tape ARchive</td><td>TAR</td><td>Packaging multiple files</td></tr>
+    <tr><td>Compression</td><td>Gzip</td><td>GZ</td><td>Lossless compression wrapper</td></tr>
+    <tr><td>Compression</td><td>Zstandard</td><td>ZST</td><td>High-performance compression</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+<table>
+  <caption>Results of the modeling of the X-ray spectrum. We fit a cutoff photon powerlaw spectrum N ⁢ ( E ) = N o ⁢ E - Γ ⁢ e - ( E - E o ) / E w and a sum of a bremsstrahlung of temperature T br and black body spectrum of temperature T bb and radius R to the data before and after the burst. For the burst, we fix the parameters of either the cutoff power law or the bremsstrahlung component to the values found after the burst, and fit for a blackbody added to these. The absorption column is fixed at the value of \nh = 3.4 × 10 21 ⁢ \cmsq found by Christian & Swank (1997). For each model we give the total flux in the range observed with the WFC, i.e. 2-28 keV, as well as, for comparison with earlier observations, in the range of 1.4-11 keV.</caption>
+  <tr><th>cutoff power law</th><th>before</th><th>after</th></tr>
+  <tr><th>χ_(ν)^(2) (dof)</th><td>0.9 (23)</td><td>0.9 (23)</td></tr>
+  <tr><th>Γ</th><td>1.84 ± 0.07</td><td>1.55 ± 0.06</td></tr>
+  <tr><th>E_(o) (keV)</th><td>9.4 ± 1.1</td><td>6.2 ± 0.4</td></tr>
+  <tr><th>E_(w) (keV)</th><td>3.6 ± 1.7</td><td>6.9 ± 0.7</td></tr>
+  <tr><th>F_(2-28) ( 10^(-9) )</th><td>3.44 ± 0.10</td><td>4.31 ± 0.08</td></tr>
+  <tr><th>F_(1.4-11) ( 10^(-9) )</th><td>3.53 ± 0.06</td><td>3.91 ± 0.04</td></tr>
+  <tr><th>brems plus black body</th><td>before</td><td>after</td></tr>
+  <tr><th>χ_(ν)^(2) (dof)</th><td>1.1 (23)</td><td>1.0 (23)</td></tr>
+  <tr><th>kT_(br) (keV)</th><td>7.8 ± 0.6</td><td>8.0 ± 1.3</td></tr>
+  <tr><th>kT_(bb) (keV)</th><td>0.</td><td>1.6 ± 0.2</td></tr>
+  <tr><th>R (km)</th><td>0.</td><td>3.8 ± 0.9</td></tr>
+  <tr><th>F_(2-28) ( 10^(-9) )</th><td>3.80 ± 0.09</td><td>4.32 ± 0.10</td></tr>
+  <tr><th>F_(1.4-11) ( 10^(-9) )</th><td>3.40 ± 0.05</td><td>3.87 ± 0.04</td></tr>
+  <tr><th>added blackbody for burst</th><td>+ cutoff</td><td>+ brems</td></tr>
+  <tr><th>χ_(ν)^(2) (dof)</th><td>1.3 (25)</td><td>1.3 (25)</td></tr>
+  <tr><th>kT_(bb) (keV)</th><td>1.70 ± 0.05</td><td>1.69 ± 0.04</td></tr>
+  <tr><th>R (km)</th><td>6.1 ± 0.3</td><td>7.2 ± 0.3</td></tr>
+  <tr><th>F_(2-28) ( 10^(-9) )</th><td>7.42 ± 0.05</td><td>7.43 ± 0.05</td></tr>
+  <tr><th>F_(1.4-11) ( 10^(-9) )</th><td>6.76 ± 0.04</td><td>6.71 ± 0.04</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Catalog Mapping Table: Surveillance Metadata Fields vs. Registry Codes (Cross-reference dominant)</caption>
+  <thead>
+    <tr><th>Row</th><th>Record Type</th><th>Field Label</th><th>System A Field ID</th><th>System B Element ID</th><th>National Registry ID</th><th>Lookup Table ID</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Camera</td><td>Installation Location Admin Division</td><td>A-LOC-006</td><td>B-ELEM-1120</td><td>DE02260</td><td>LKP-GB2260</td><td>Location is resolved via lookup</td></tr>
+    <tr><td>2</td><td>Camera</td><td>Manufacturer Name</td><td>A-MFG-001</td><td>B-ELEM-1003</td><td>DE01003</td><td>LKP-ORG</td><td>Mapped to organization dictionary</td></tr>
+    <tr><td>3</td><td>Algorithm</td><td>Algorithm Type</td><td>A-ALG-002</td><td>B-ELEM-1008</td><td>DE02020</td><td>LKP-ALGTYPE</td><td>Enumeration maintained elsewhere</td></tr>
+    <tr><td>4</td><td>Video Segment</td><td>Collection Method</td><td>A-SEG-010</td><td>B-ELEM-1402</td><td>DE01324</td><td>LKP-COLLECT</td><td>Reference-only mapping</td></tr>
+    <tr><td>5</td><td>Object</td><td>Object Identifier</td><td>A-OBJ-001</td><td>B-ELEM-1501</td><td>DE01308</td><td>LKP-OBJID</td><td>Join key across systems</td></tr>
+    <tr><td>6</td><td>Object</td><td>Appearance Date/Time</td><td>A-OBJ-020</td><td>B-ELEM-1510</td><td>DE03002</td><td>LKP-DATETIME</td><td>Semantic mapping only</td></tr>
+    <tr><td>7</td><td>Repository</td><td>Repository Identifier</td><td>A-REP-001</td><td>B-ELEM-1600</td><td>DE01307</td><td>LKP-REPO</td><td>Storage reference mapping</td></tr>
+  </tbody>
+</table>

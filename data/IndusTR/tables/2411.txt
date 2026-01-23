@@ -1,0 +1,10 @@
+<table>
+  <caption>Crosswalk of Internal Project Codes to GIS Layer Names (Geomorphology Mapping)</caption>
+  <tr><th>Project Code</th><th>GIS Layer Name</th><th>Geometry Type</th><th>Attribute Field</th><th>Value Domain</th><th>Notes</th></tr>
+  <tr><td>GMU_LYR_01</td><td>macro_units</td><td>Polygon</td><td>macro_class</td><td>text</td><td>Macromorphology labels stored as strings</td></tr>
+  <tr><td>GMU_LYR_02</td><td>slope_lines</td><td>Line</td><td>slope_deg</td><td>0–90</td><td>Derived from DEM</td></tr>
+  <tr><td>GMU_LYR_03</td><td>process_points</td><td>Point</td><td>proc_mode</td><td>coded</td><td>e.g., deposition/erosion flags</td></tr>
+  <tr><td>GMU_LYR_04</td><td>submarine_forms</td><td>Polygon</td><td>env_zone</td><td>coded</td><td>Shelf/Slope/Basin labels</td></tr>
+  <tr><td>GMU_LYR_05</td><td>legend_table</td><td>Table</td><td>legend_id</td><td>integer</td><td>Links to map layout</td></tr>
+  <tr><td>GMU_LYR_06</td><td>survey_tracks</td><td>Line</td><td>team</td><td>text</td><td>Field campaign tracklog</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Initial-condition masses for a Solar System-like N-body experiment including a fictitious extra planet (masses are for simulated bodies, not actual planets).</caption>
+  <thead>
+    <tr><th rowspan="2">Body</th><th colspan="2">Mass</th><th colspan="2">Orbit parameters</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Mass (M⊕)</th><th>Mass (MJup)</th><th>a (AU)</th><th>e</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mercury*</td><td>0.030</td><td>0.000094</td><td>0.39</td><td>0.21</td><td>Scaled test mass (not real Mercury)</td></tr>
+    <tr><td>Venus*</td><td>0.50</td><td>0.00157</td><td>0.72</td><td>0.02</td><td>Mass reduced for stability</td></tr>
+    <tr><td>Earth*</td><td>0.60</td><td>0.00189</td><td>1.00</td><td>0.00</td><td>Mass reduced for stability</td></tr>
+    <tr><td>Mars*</td><td>0.05</td><td>0.00016</td><td>1.52</td><td>0.09</td><td>Scaled test mass</td></tr>
+    <tr><td>Planet X (fictitious)</td><td>5.0</td><td>0.0157</td><td>1.85</td><td>0.05</td><td>Inserted hypothetical planet</td></tr>
+    <tr><td>Jupiter*</td><td>120</td><td>0.378</td><td>5.20</td><td>0.04</td><td>Lowered mass giant</td></tr>
+    <tr><td>Saturn*</td><td>60</td><td>0.189</td><td>9.58</td><td>0.06</td><td>Lowered mass giant</td></tr>
+  </tbody>
+</table>

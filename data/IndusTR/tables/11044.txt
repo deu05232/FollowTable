@@ -1,0 +1,7 @@
+<table>
+  <caption>Ionospheric Delay Correction (Spherical Harmonics) — additional coefficient fields</caption>
+  <tr><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>Spherical harmonic function cosine coefficient (correction information) — scale factor</td><td>DF476A</td><td>uint8</td><td>8</td></tr>
+  <tr><td>Spherical harmonic function sine coefficient (correction information) — scale factor</td><td>DF477A</td><td>uint8</td><td>8</td></tr>
+  <tr><td>Spherical harmonic function coefficient block index</td><td>DF478A</td><td>uint6</td><td>6</td></tr>
+</table>

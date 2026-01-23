@@ -1,0 +1,14 @@
+<table>
+  <caption>Press-Fit Production Line — Tooling & Machine Setup Parameters (Not Product Dimensions)</caption>
+  <thead>
+    <tr><th>Station</th><th>Equipment</th><th>Key Setting</th><th>Value</th><th>Unit</th><th>Control Method</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Tube Cutting Saw</td><td>Blade Speed</td><td>2800</td><td>rpm</td><td>VFD</td><td>For stainless tube</td></tr>
+    <tr><td>2</td><td>Chamfering Unit</td><td>Chamfer Angle</td><td>15</td><td>deg</td><td>Fixed jig</td><td>Edge deburr</td></tr>
+    <tr><td>3</td><td>Hydraulic Press</td><td>Press Force</td><td>55</td><td>kN</td><td>Closed-loop</td><td>Depends on DN</td></tr>
+    <tr><td>4</td><td>Crimp Jaw Set</td><td>Jaw Closing Time</td><td>1.2</td><td>s</td><td>PLC</td><td>Cycle time</td></tr>
+    <tr><td>5</td><td>Leak Test Bench</td><td>Test Pressure</td><td>1.6</td><td>MPa</td><td>Manual</td><td>Hold 60 s</td></tr>
+    <tr><td>6</td><td>Marking Laser</td><td>Power</td><td>30</td><td>W</td><td>Recipe</td><td>Batch code</td></tr>
+  </tbody>
+</table>

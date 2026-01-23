@@ -1,0 +1,14 @@
+<table>
+  <caption>SI SP Self-service Interface Subscription Relationship Management Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.3.3.2</td></tr>
+  <tr><td>Test Item</td><td>SI/SP Self-service Interface Functions</td></tr>
+  <tr><td>Test Sub-item</td><td>Subscription Relationship Management</td></tr>
+  <tr><td>Test Objective</td><td>Verify the subscription relationship management functions of the SI/SP administrator through the portal</td></tr>
+  <tr><td rowspan="4">Preconditions</td><td>1. Log in to the system using an SI/SP administrator account;</td></tr>
+  <tr><td>2. The page displays normally;</td></tr>
+  <tr><td>3. Input fields and buttons can be operated normally;</td></tr>
+  <tr><td>4. The system is normally connected to the server; 5. There is at least one subscription relationship record under this SI/SP administrator account</td></tr>
+  <tr><td>Test Steps</td><td>1. Log in to the system, enter the SI/SP self-service interface, select Subscription Relationship Management, and the interface automatically displays the list of existing subscription relationships under the current account; 2. Select one subscription relationship record to view and enter the subscription relationship information interface</td></tr>
+  <tr><td>Pass Criteria</td><td>The administrator can query subscription information through the portal. Display items include: subscription relationship ID, service name, subscription status, subscription start time, subscription end time, and the terminal information list under the subscription relationship</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

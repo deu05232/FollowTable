@@ -1,0 +1,22 @@
+<table>
+  <caption>Warp Knitting Machine Equipment Main Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0100</td><td>Machine Model</td><td>MachineType</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>Two</td></tr>
+  <tr><td>0X0101</td><td>Nominal Width</td><td>NominalWidth</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>丨</td><td>mm</td><td>1</td><td>1</td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0102</td><td>Gauge</td><td>Gauge</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td>Number of needles per 25.4 mm on the needle bed</td><td></td></tr>
+  <tr><td>0X0103</td><td>Production Date</td><td>ProductionDate</td><td>M</td><td>VAR</td><td>RO</td><td>Datetime</td><td>丨</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0104</td><td>Total Guide Bars</td><td>TotalGuideBars</td><td>M</td><td>VAR</td><td>RO</td><td>Int16</td><td></td><td>pcs</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0105</td><td>Ground Guide Bars</td><td>GroundGuideBars</td><td>M</td><td>VAR</td><td>RO</td><td>Int16</td><td></td><td>pcs</td><td>One</td><td>One</td></tr>
+  <tr><td>0X0106</td><td>Jacquard Guide Bars</td><td>JacquardGuideBars</td><td>M</td><td>VAR</td><td>RO</td><td>Int16</td><td>0~16</td><td>pcs</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0107</td><td>Warp Beam Numbers</td><td>WarpBeamNumbers</td><td>M</td><td>VAR</td><td>RO</td><td>Int16</td><td></td><td>beam</td><td>1</td><td></td></tr>
+  <tr><td>0X0108</td><td>Hardware Version Number</td><td>SysHardwareVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0109</td><td>Control System Manufacturer</td><td>ControlSysCompany</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td>丨</td><td>丨</td><td>One</td></tr>
+  <tr><td>0X010A</td><td>Master Control Version</td><td>MasterControlVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Master control version number</td><td></td></tr>
+  <tr><td>0X010B</td><td>Servo Version</td><td>ServoVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Servo version number</td><td>One</td></tr>
+  <tr><td>0X010C</td><td>HMI Version</td><td>Human-MachineVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td></td><td>HMI version number</td><td>1</td></tr>
+  <tr><td>0X010D</td><td>Yarn Feeding Type</td><td>YarnFeedingType</td><td>M</td><td>VAR</td><td>RO</td><td>Byte</td><td>SAC</td><td></td><td></td><td>0: single-speed yarn feeding 1: multi-speed yarn feeding</td></tr>
+  <tr><td>0X010E</td><td>Shogging Type</td><td>PatternDriveType</td><td>M</td><td>VAR</td><td>RO</td><td>Byte</td><td></td><td></td><td></td><td>0: mechanical shogging 1: electronic shogging</td></tr>
+  <tr><td>0X010F</td><td>Jacquard Type</td><td>JacquardType</td><td>M</td><td>VAR</td><td>RO</td><td>Byte</td><td></td><td></td><td></td><td>0: no jacquard jacquard pattern 1: with jacquard jacquard pattern</td></tr>
+  <tr><td>0X0110</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td></td><td></td><td>One</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Instant Messaging Service - Message Send Request Parameters</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>C..64</td><td>M</td><td>1</td><td>SEND_MESSAGE</td><td>Action invoked by the client</td></tr>
+  <tr><td>Sender ID</td><td>senderID</td><td>C..64</td><td>M</td><td>1</td><td>One</td><td>Identifier of the user who sends the message</td></tr>
+  <tr><td>Receiver ID</td><td>receiverID</td><td>C..64</td><td>M</td><td>1</td><td>One</td><td>Identifier of the user who receives the message</td></tr>
+  <tr><td>Message Content</td><td>messageContent</td><td>C..2000</td><td>M</td><td>1</td><td></td><td>Text payload provided by the client</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Indirect Energy Use (Scope 2) — Purchased and Exported Electricity CO2 Emissions Summary by Source</caption>
+  <thead>
+    <tr><th>Accounting Flow</th><th>Electricity Source / Contract Type</th><th>Activity Amount</th><th>Unit</th><th>CO2 Emission Factor</th><th>Emission Factor Unit</th><th>Calculated CO2 Emissions</th><th>CO2 Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Purchased</td><td>Grid electricity (Location-based)</td><td></td><td>MWh</td><td></td><td>tCO2/MWh</td><td></td><td>tCO2</td><td>Use regional/national grid factor for the reporting year</td></tr>
+    <tr><td>Supplier-specific (Market-based)</td><td></td><td>MWh</td><td></td><td>tCO2/MWh</td><td></td><td>tCO2</td><td>Based on contractual instrument / supplier disclosure</td></tr>
+    <tr><td>Renewable PPA (Market-based)</td><td></td><td>MWh</td><td></td><td>tCO2/MWh</td><td></td><td>tCO2</td><td>Enter factor per contract methodology</td></tr>
+    <tr><td>On-site generation purchased from a third party (behind-the-meter)</td><td></td><td>MWh</td><td></td><td>tCO2/MWh</td><td></td><td>tCO2</td><td>If treated as purchased electricity for accounting</td></tr>
+    <tr><td rowspan="2">Exported</td><td>Electricity exported to grid</td><td></td><td>MWh</td><td></td><td>tCO2/MWh</td><td></td><td>tCO2</td><td>Use factor consistent with reporting approach (e.g., grid factor)</td></tr>
+    <tr><td>Electricity exported to neighboring facility</td><td></td><td>MWh</td><td></td><td>tCO2/MWh</td><td></td><td>tCO2</td><td>Document boundary and recipient</td></tr>
+    <tr><td colspan="9">If purchased/exported electricity has multiple sources with different emission factors, list each source on its own row and calculate CO2 = Activity Amount × CO2 Emission Factor.</td></tr>
+  </tbody>
+</table>

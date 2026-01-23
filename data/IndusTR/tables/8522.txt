@@ -1,0 +1,18 @@
+<table>
+  <caption>Hardware Interfaces and Storage Specification for Autonomous Driving Data Recording System</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Item</th><th>Specification</th><th>Unit</th><th>Requirement Level</th><th>Verification Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Storage</td><td>Usable capacity</td><td>≥ 256</td><td>GB</td><td>Mandatory</td><td>Inspection</td></tr>
+    <tr><td>Write endurance</td><td>≥ 1,000</td><td>TBW</td><td>Mandatory</td><td>Vendor datasheet</td></tr>
+    <tr><td>Data retention (unpowered)</td><td>≥ 10</td><td>years</td><td>Recommended</td><td>Vendor datasheet</td></tr>
+    <tr><td rowspan="3">Connectivity</td><td>Vehicle network</td><td>CAN / CAN FD</td><td>-</td><td>Mandatory</td><td>Interface test</td></tr>
+    <tr><td>External data offload</td><td>1000BASE-T</td><td>-</td><td>Mandatory</td><td>Throughput test</td></tr>
+    <tr><td>GNSS input</td><td>UART / SPI</td><td>-</td><td>Optional</td><td>Integration test</td></tr>
+    <tr><td rowspan="2">Compute</td><td>CPU</td><td>Quad-core ARM</td><td>-</td><td>Recommended</td><td>Inspection</td></tr>
+    <tr><td>RAM</td><td>≥ 4</td><td>GB</td><td>Recommended</td><td>Inspection</td></tr>
+    <tr><td rowspan="2">Power</td><td>Quiescent current</td><td>≤ 5</td><td>mA</td><td>Recommended</td><td>Bench measurement</td></tr>
+    <tr><td>Reverse polarity protection</td><td>Supported</td><td>-</td><td>Mandatory</td><td>Functional test</td></tr>
+  </tbody>
+</table>

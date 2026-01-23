@@ -1,0 +1,16 @@
+<table>
+  <caption>Group-Based Inspection Matrix for Synthesized Frequency Sources (Includes Forbidden Sampling/Acceptance Columns)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Item</th><th colspan="5">Inspection Group</th><th rowspan="2">AQL</th><th rowspan="2">LTPD</th><th rowspan="2">Sample Size (n)</th><th rowspan="2">Acceptance (Ac/Re)</th></tr>
+    <tr><th>Group A</th><th>Group B</th><th>Group C</th><th>Group D</th><th>Group E</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>External visual inspection</td><td>X</td><td></td><td></td><td></td><td></td><td>0.65</td><td>2.5</td><td>13</td><td>0/1</td></tr>
+    <tr><td>Marking inspection</td><td>X</td><td></td><td></td><td></td><td></td><td>0.65</td><td>2.5</td><td>13</td><td>0/1</td></tr>
+    <tr><td>Dimensions (critical)</td><td></td><td>X</td><td></td><td></td><td></td><td>1.0</td><td>5.0</td><td>20</td><td>1/2</td></tr>
+    <tr><td>Electrical characteristics at 25°C</td><td>X</td><td></td><td>X</td><td></td><td></td><td>0.65</td><td>2.5</td><td>32</td><td>1/2</td></tr>
+    <tr><td>Solderability</td><td></td><td>X</td><td></td><td></td><td></td><td>1.5</td><td>6.5</td><td>13</td><td>0/1</td></tr>
+    <tr><td>High-temperature storage</td><td></td><td></td><td>X</td><td></td><td>X</td><td>2.5</td><td>10</td><td>10</td><td>0/1</td></tr>
+    <tr><td>Electrical endurance (operational life)</td><td></td><td></td><td></td><td>X</td><td>X</td><td>2.5</td><td>10</td><td>5</td><td>0/1</td></tr>
+  </tbody>
+</table>

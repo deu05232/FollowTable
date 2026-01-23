@@ -1,0 +1,8 @@
+<table>
+  <caption>Quaternion Data Structure</caption>
+  <tr><td>Data Structure Name</td><td>Parameter Name</td><td>Data Type</td><td>Description</td></tr>
+  <tr><td rowspan="4">vrQuaternion</td><td>W</td><td>double</td><td>cos(0/2)</td></tr>
+  <tr><td>X</td><td>double</td><td>-sin(0/2)×vx</td></tr>
+  <tr><td>y</td><td>double</td><td>-sin(0/2)Xvy</td></tr>
+  <tr><td>Z</td><td>double</td><td>sin(0/2)Xvz</td></tr>
+</table>

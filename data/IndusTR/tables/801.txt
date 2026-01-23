@@ -1,0 +1,6 @@
+<table>
+  <caption>Input Parameters for Retrieving the Information Container Metadata List</caption>
+  <tr><td>Parameter Name</td><td>Chinese Name</td><td>Data Type</td><td>Required</td><td>Remarks</td></tr>
+  <tr><td>projectId</td><td>Project Identifier</td><td>string</td><td>Yes</td><td>The unique identifier of the project</td></tr>
+  <tr><td>containerType</td><td>Container Type</td><td>int</td><td>Optional</td><td>The container type; the value range should meet the requirements of Table 17</td></tr>
+</table>

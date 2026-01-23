@@ -1,0 +1,15 @@
+<table>
+  <caption>Bit-Level Layout of Agricultural Inputs Electronic Code (SAC Data Area) — Fixed-Length Example Profile</caption>
+  <thead>
+    <tr><th>Segment</th><th>Sub-segment</th><th>Bit length</th><th>Bit positions (MSB→LSB)</th><th>Binary notes / constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Header constant</td><td>8</td><td>0–7</td><td>8-bit header identifying the code type/profile</td></tr>
+    <tr><td>Data area (SAC)</td><td>Filter (F)</td><td>3</td><td>8–10</td><td>3-bit filter value used for high-level classification</td></tr>
+    <tr><td>Data area (SAC)</td><td>Partition (P)</td><td>3</td><td>11–13</td><td>3-bit partition selects prefix/item split scheme</td></tr>
+    <tr><td rowspan="2">Data area (SAC)</td><td>Company prefix (C)</td><td>24</td><td>14–37</td><td>Fixed 24-bit prefix in this profile</td></tr>
+    <tr><td>Item reference (I)</td><td>20</td><td>38–57</td><td>Fixed 20-bit item code in this profile</td></tr>
+    <tr><td>Serial (S)</td><td>Serial number</td><td>38</td><td>58–95</td><td>Fixed 38-bit serial field (binary integer)</td></tr>
+    <tr><td colspan="2">Total</td><td>96</td><td>0–95</td><td>Total bits for this fixed-length example profile</td></tr>
+  </tbody>
+</table>

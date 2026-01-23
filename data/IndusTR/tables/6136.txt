@@ -1,0 +1,18 @@
+<table>
+  <caption>Video Analytics & Vendor Metadata for Public Security Image/Video Records</caption>
+  <thead>
+    <tr><th>Category</th><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Vendor/Device</td><td>1</td><td>Vendor Name</td><td>gysmc</td><td>c..100</td><td>Name of the vendor providing the analytics solution.</td></tr>
+    <tr><td>2</td><td>Device Model</td><td>sbxh</td><td>c..50</td><td>Model name/number of the processing device.</td></tr>
+    <tr><td>3</td><td>Firmware Version</td><td>gjbb</td><td>c..30</td><td>Firmware/software build of the device running analytics.</td></tr>
+    <tr><td>4</td><td>SDK Identifier</td><td>sdkbz</td><td>c..40</td><td>Identifier of the vendor SDK used for parsing/analysis.</td></tr>
+    <tr><td rowspan="4">Algorithm</td><td>5</td><td>Algorithm Type Code</td><td>sflxdm</td><td>c2</td><td>Type/category of the algorithm (e.g., detection, re-ID).</td></tr>
+    <tr><td>6</td><td>Algorithm Version</td><td>sfbb</td><td>c..20</td><td>Version of the deployed algorithm model.</td></tr>
+    <tr><td>7</td><td>Model Checksum</td><td>mxjy</td><td>c32</td><td>Checksum/hash for verifying model integrity.</td></tr>
+    <tr><td>8</td><td>Confidence Threshold</td><td>xdz</td><td>n(3,2)</td><td>Threshold used to accept detections; configuration metadata.</td></tr>
+    <tr><td rowspan="2">Processing</td><td>9</td><td>Inference Hardware Type</td><td>tyjqlx</td><td>c2</td><td>CPU/GPU/NPU category used for inference.</td></tr>
+    <tr><td>10</td><td>Post-processing Pipeline ID</td><td>hcllbz</td><td>c24</td><td>Identifier of the post-processing pipeline configuration.</td></tr>
+  </tbody>
+</table>

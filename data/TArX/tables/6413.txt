@@ -1,0 +1,9 @@
+<table>
+  <caption>Simulations done for the scaling test. All runs used the same mass- and length resolution of 1.03 × 10 9 ⁢ h - 1 ⁢ M ⊙ and 5 ⁢ h - 1 ⁢ kpc , respectively, and were started at z init = 49 . The runs used equal settings for force accuracy and time integration parameters, and all were asked to produce the same number of outputs, at which point they also did group finding, power spectrum estimation and two-point correlation function computation.</caption>
+  <tr><th>Name</th><th>N_(CPU)</th><th>N_(part)</th><th>N_(FFT)</th><th>L_(box)\;[h^(-1)Mpc]</th></tr>
+  <tr><td>S4</td><td>4</td><td>100^(3)</td><td>128^(3)</td><td>23.1</td></tr>
+  <tr><td>S8</td><td>8</td><td>146^(3)</td><td>192^(3)</td><td>33.8</td></tr>
+  <tr><td>S16</td><td>16</td><td>216^(3)</td><td>256^(3)</td><td>50.0</td></tr>
+  <tr><td>S32</td><td>32</td><td>318^(3)</td><td>384^(3)</td><td>73.6</td></tr>
+  <tr><td>S64</td><td>64</td><td>464^(3)</td><td>576^(3)</td><td>108.0</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Session Configuration Parameters (Lighting Estimation Mode with Reconstruction Options)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>config</td><td>ArConfig *</td><td>Session configuration handle</td></tr>
+    <tr><td colspan="3">Lighting</td></tr>
+    <tr><td>light_estimation_mode</td><td>ArLightEstimationMode</td><td>Selects ambient/directional light estimation behavior</td></tr>
+    <tr><td>enable_hdr_lighting</td><td>ArBool</td><td>Enables HDR light estimation pipeline (if supported)</td></tr>
+    <tr><td colspan="3">Mapping / Reconstruction (Non-lighting)</td></tr>
+    <tr><td>dense_reconstruction_mode</td><td>ArDenseReconstructionMode</td><td>Controls dense mesh/pointcloud reconstruction</td></tr>
+    <tr><td>spatial_map_update_mode</td><td>ArSpatialMapUpdateMode</td><td>Controls spatial map update frequency</td></tr>
+    <tr><td>enable_plane_detection</td><td>ArBool</td><td>Turns on plane detection for geometry understanding</td></tr>
+  </tbody>
+</table>

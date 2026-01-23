@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental Compliance and Refrigerant Requirements for CRAC Units</caption>
+  <thead>
+    <tr><th rowspan="2">Unit type</th><th rowspan="2">Cooling method</th><th colspan="3">Refrigerant & environmental metrics</th><th colspan="2">Compliance / operating limits</th><th rowspan="2">Service note</th></tr>
+    <tr><th>Refrigerant</th><th>GWP (AR4)</th><th>Charge limit (kg)</th><th>Min/Max ambient (°C)</th><th>Leak detection setpoint (ppm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Room-level CRAC</td><td>Air-cooled DX</td><td>R410A</td><td>2088</td><td>18</td><td>-10 / 45</td><td>500</td><td>Quarterly inspection</td></tr>
+    <tr><td>In-row unit</td><td>Water-cooled DX</td><td>R32</td><td>675</td><td>12</td><td>5 / 40</td><td>600</td><td>Ventilation interlock required</td></tr>
+    <tr><td>Perimeter unit</td><td>Air-cooled DX</td><td>R454B</td><td>466</td><td>14</td><td>-5 / 46</td><td>450</td><td>Use compatible oil</td></tr>
+    <tr><td>Economizer-integrated</td><td>Glycol economizer composite</td><td>N/A</td><td>N/A</td><td>N/A</td><td>-20 / 35</td><td>N/A</td><td>Glycol concentration verified</td></tr>
+    <tr><td>Heat-pipe assisted</td><td>Heat pipe composite</td><td>R134a</td><td>1430</td><td>10</td><td>0 / 45</td><td>550</td><td>Recover refrigerant before service</td></tr>
+    <tr><td>Chilled-water CRAH</td><td>Chilled-water</td><td>N/A</td><td>N/A</td><td>N/A</td><td>5 / 40</td><td>N/A</td><td>Water quality per spec</td></tr>
+  </tbody>
+</table>

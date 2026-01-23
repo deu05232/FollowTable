@@ -1,0 +1,9 @@
+<table>
+  <tr><td>Prototype</td><td>BSTR SOF_SignXMLDocument(BSTR CertID, BSTR XmlPlainText, LONG SignAlg)</td></tr>
+  <tr><td>Description</td><td>Create an XML digital signature over the provided XML document and return the signed XML. The signature algorithm is selected by SignAlg and may map to RSA or SM2 profiles depending on the certificate.</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>XmlPlainText (original XML document to be signed)</td></tr>
+  <tr><td>SignAlg (signature algorithm identifier)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>SignedXml (success; XML signature result as a string)</td></tr>
+  <tr><td>ErrorMessage (failure; implementation-defined)</td></tr>
+</table>

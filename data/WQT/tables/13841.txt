@@ -1,0 +1,12 @@
+# DNS Poisoning Indicators When Accessing Selected Blocked Domains in Mainland China
+
+| Domain Tested | Intended Service | Service Type | Poisoned Response IP (Example) | Correct IP (Outside China) | TTL Observed | Resolver Used | Indicator |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| google.com | Google Search | Search | 64.233.189.99 | 142.250.72.14 | 5s | ISP DNS | Mismatched A record |
+| youtube.com | YouTube | Video streaming | 203.98.7.65 | 142.250.191.78 | 1s | ISP DNS | Rapid TTL + unreachable |
+| facebook.com | Facebook | Social network | 31.13.72.36 | 157.240.229.35 | 10s | ISP DNS | Inconsistent answers |
+| wikipedia.org | Wikipedia | Knowledge base | 198.35.26.96 | 208.80.154.224 | 3s | ISP DNS | Wrong AS/geo |
+| x.com | X (Twitter) | Social network | 104.244.42.1 | 104.244.42.65 | 2s | ISP DNS | Partial poisoning |
+| instagram.com | Instagram | Social network | 31.13.88.174 | 157.240.2.174 | 6s | ISP DNS | Connection reset after resolve |
+| dropbox.com | Dropbox | Cloud storage | 199.47.217.22 | 162.125.8.18 | 4s | ISP DNS | Incorrect CNAME chain |
+| telegram.org | Telegram | Messaging | 149.154.167.99 | 149.154.167.99 | 60s | ISP DNS | Reachability blocked at TCP |

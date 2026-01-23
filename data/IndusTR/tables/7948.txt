@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Environment Understanding: CreatePlaneDetector Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Active AR session.</td></tr>
+    <tr><td>config</td><td>ArPlaneDetectorConfig *</td><td>Configuration describing plane finding mode and limits.</td></tr>
+    <tr><td>out_plane_detector</td><td>ArPlaneDetector **</td><td>Output: receives the address of a newly created plane detector object.</td></tr>
+    <tr><td>out_supported_modes</td><td>ArPlaneFindingMode **</td><td>Output: receives an array pointer listing supported plane-finding modes.</td></tr>
+    <tr><td>out_supported_mode_count</td><td>int32_t *</td><td>Output: receives the number of entries in out_supported_modes.</td></tr>
+    <tr><td>allocator</td><td>ArAllocator *</td><td>Optional custom allocator used by the implementation when creating outputs.</td></tr>
+  </tbody>
+</table>

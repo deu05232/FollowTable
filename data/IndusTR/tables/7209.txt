@@ -1,0 +1,10 @@
+<table>
+  <caption>Invalid NIRUGU placements in Traditional Mongolian (negative examples)</caption>
+  <tr><th>Rendered Form (schematic)</th><th>Invalid Character Sequence</th><th>Why It Is Invalid</th></tr>
+  <tr><td>…</td><td>[U+1820][NIRUGU]</td><td>NIRUGU cannot terminate this stem position</td></tr>
+  <tr><td>…</td><td>[NIRUGU][U+1820]</td><td>NIRUGU cannot precede the base letter here</td></tr>
+  <tr><td>…</td><td>[U+182D][NIRUGU][U+182D]</td><td>Repeated NIRUGU inside the same cluster is disallowed</td></tr>
+  <tr><td>…</td><td>[U+1820][U+180E][NIRUGU]</td><td>Control characters cannot be combined in this order</td></tr>
+  <tr><td>…</td><td>[U+1828][NIRUGU][U+180B]</td><td>NIRUGU cannot be followed by this variation/format control</td></tr>
+  <tr><td>…</td><td>[U+1834][NIRUGU][U+1820][NIRUGU]</td><td>Multiple NIRUGU usages in one sequence violate shaping rules</td></tr>
+</table>

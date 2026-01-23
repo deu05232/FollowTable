@@ -1,0 +1,10 @@
+<table>
+  <caption>Controller Positioning Mode Enum</caption>
+  <tr><td>Data Type</td><td>Enum Value</td><td>Description</td></tr>
+  <tr><td rowspan="6">vrControllerPositioningMode</td><td>VR_CONTROLLER_POSITIONING_MODE_3DOF_IMU_ONLY=0x00</td><td>IMU orientation mode</td></tr>
+  <tr><td>VR_CONTROLLER_POSITIONING_MODE_6DOF_ELECTROMAGNETIC=0x01</td><td>Electromagnetic pose mode</td></tr>
+  <tr><td>VR_CONTROLLER_POSITIONING_MODE_6DOF_ULTRASONIC=0x02</td><td>Ultrasonic pose mode</td></tr>
+  <tr><td>VR_CONTROLLER_POSITIONING_MODE_6DOF_COPUTER_VISION=0x03</td><td>Computer vision pose mode</td></tr>
+  <tr><td>VR_CONTROLLER_POSITIONING_MODE_6DOF_OUSIDE_IN_DISCO=0x04</td><td>Outside-in acoustic-light pose mode</td></tr>
+  <tr><td>0x05~0xFF</td><td>Reserved</td></tr>
+</table>

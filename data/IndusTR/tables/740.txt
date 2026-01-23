@@ -1,0 +1,17 @@
+<table>
+  <caption>HMD Positioning System Working Status Enum</caption>
+  <tr><td>Data Type</td><td>Enum Value</td><td>Description</td></tr>
+  <tr><td rowspan="3">vrHMDPositioningSystem WorkingStatus</td><td>VR_HMD_POSITIONING_SYSTEM_WORKINGSTATU_START=0x00</td><td>Power-on state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_STANDBY=0x01</td><td>Standby state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_INITIALIZATION=0x02</td><td>Initialization state</td></tr>
+  <tr><td rowspan="10">vrHMDPositioningSystemWorkingStatus</td><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_TRACKING=0x03</td><td>Positioning tracking state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_TRACKING_PAUSED=0x04</td><td>Positioning tracking paused state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_TRACKING_RESUME=0x05</td><td>Positioning tracking resumed state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_RELOCALIZATION=0x06</td><td>Relocalization tracking state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKINGSTATU_TRACKING_STOPPED=0x07</td><td>Tracking stopped state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKINGSTATU_TRACKING_FALED=0x08</td><td>Tracking failed state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_DORMANCY=0x09</td><td>Sleep state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_REBOOT=0x0A</td><td>Reboot state</td></tr>
+  <tr><td>VR_HMD_POSITIONING_SYSTEM_WORKING_STATU_SHUT_DOWN=0x0B</td><td>Shutdown state</td></tr>
+  <tr><td>0x0C~0xFF</td><td>Reserved</td></tr>
+</table>

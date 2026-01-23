@@ -1,0 +1,10 @@
+<table>
+  <caption>Knitting equipment data dictionary — piece-level timing counters</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0320</td><td>Piece Start Timestamp</td><td>PieceStartTimestamp</td><td>0</td><td>VAR</td><td>RO</td><td>Int64</td><td></td><td>ms</td><td>Timestamp when the current piece starts knitting</td><td></td></tr>
+  <tr><td>0X0321</td><td>Piece End Timestamp</td><td>PieceEndTimestamp</td><td>0</td><td>VAR</td><td>RO</td><td>Int64</td><td></td><td>ms</td><td>Timestamp when the current piece finishes knitting</td><td></td></tr>
+  <tr><td>0X0322</td><td>Piece Running Time</td><td>PieceRunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Active knitting duration for the current piece</td><td></td></tr>
+  <tr><td>0X0323</td><td>Piece Downtime</td><td>PieceDowntime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Paused duration during knitting for the current piece</td><td></td></tr>
+  <tr><td>0X0324</td><td>Stop Count</td><td>StopCount</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~100000</td><td>count</td><td>Number of stop events during the current piece</td><td></td></tr>
+  <tr><td>0X0325</td><td>Average Stop Duration</td><td>AvgStopDuration</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~3600</td><td>s</td><td>Average duration per stop event for the current piece</td><td></td></tr>
+</table>

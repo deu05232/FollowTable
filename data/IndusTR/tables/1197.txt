@@ -1,0 +1,9 @@
+<table>
+  <caption>Parameters for Battery Swap Reservation Vehicle Information</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>Per GB/T 27930, length 17 characters</td><td>Yes</td></tr>
+  <tr><td>License plate number</td><td>plateNum</td><td>string</td><td>Full vehicle license plate number</td><td>Fragrant</td></tr>
+  <tr><td>Reserved vehicle queue position</td><td>positionNo</td><td>integer</td><td>Battery swap queue position</td><td>Yes</td></tr>
+  <tr><td>Notification time</td><td>notificationTIme</td><td>DateTimeZ</td><td>Time when queue information is pushed</td><td>Yes</td></tr>
+  <tr><td>Queue change type</td><td>type</td><td>integer</td><td>1: Swap immediately; 2: Prepare to swap; 3: Reservation missed; 4: Reservation missed recovery; 50–99: Custom</td><td>Fragrant</td></tr>
+</table>

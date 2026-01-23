@@ -1,0 +1,8 @@
+# # Administrative Distance Reference (with configuration examples)
+
+| Route Source | Example configuration / command |
+| --- | --- |
+| OSPF | `router ospf 1` then `network 10.0.0.0 0.0.0.255 area 0` |
+| RIP | `router rip` then `version 2` |
+| External BGP | `router bgp 65001` then `neighbor 192.0.2.1 remote-as 65002` |
+| Static route | `ip route 203.0.113.0 255.255.255.0 192.0.2.254` |

@@ -1,0 +1,8 @@
+<table>
+  <caption>Catch Characteristic Data Element Definition</caption>
+  <tr><td>Multiplicity</td><td>Business Term (Chinese)</td><td>Business Term (English)</td><td>Relationship</td><td>Type</td><td>Description</td></tr>
+  <tr><td>0..n</td><td>Identifier</td><td>Identification</td><td>Attribute</td><td>Identifier</td><td>Identifier of the catch characteristic</td></tr>
+  <tr><td>0..n</td><td>Value</td><td>Value</td><td>Attribute</td><td>Value</td><td>Measured value of the catch characteristic</td></tr>
+  <tr><td>0..n</td><td>Type</td><td>Type</td><td>Attribute</td><td>Code</td><td>Code specifying the catch characteristic type</td></tr>
+  <tr><td>0..n</td><td>Description</td><td>Description</td><td>Attribute</td><td>Code</td><td>Code specifying the description of the catch characteristic</td></tr>
+</table>

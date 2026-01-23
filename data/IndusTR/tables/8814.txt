@@ -1,0 +1,14 @@
+<table>
+  <caption>Environmental Test Conditions for Variable Frequency Speed Regulation Equipment (Temperature–Humidity Severity)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Standard / method</th><th>Power status</th><th>Temperature (°C)</th><th>Humidity requirement</th><th>Duration</th><th>Conditioning / recovery</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Damp heat, steady state (severe)</td><td>IEC 60068-2-78 (Test Cab)</td><td>Power disconnected</td><td>40 ± 2</td><td>Relative humidity: 93% ± 3% (no condensation on DUT)</td><td>96 h</td><td>Recover 2 h at 23 °C ± 2 °C, 45%–55% RH</td></tr>
+    <tr><td>Damp heat, cyclic</td><td>IEC 60068-2-30 (Test Db)</td><td>Power disconnected</td><td>25 ↔ 55 (cycle)</td><td>Relative humidity: 95% (upper level); condensation allowed during part of cycle</td><td>2 cycles (24 h each)</td><td>Wipe/air-dry visible moisture before re-energizing</td></tr>
+    <tr><td>High temperature + limited moisture (drying control)</td><td>IEC 60068-2-2 (Test Bb) + humidity limit</td><td>Power disconnected</td><td>70</td><td>Absolute humidity ≤ 20 g/m³ (equivalent RH limit depends on temperature)</td><td>16 h</td><td>Recover 1 h at 15–35 °C, 25%–75% RH</td></tr>
+    <tr><td>Low temperature storage with humidity control</td><td>IEC 60068-2-1 (Test Ab) + humidity limit</td><td>Power disconnected</td><td>-25</td><td>Relative humidity ≤ 75% (to prevent frost on surfaces)</td><td>16 h</td><td>Warm-up to ambient for 2 h before functional check</td></tr>
+    <tr><td>Operating climatic range verification</td><td>Manufacturer requirement (type test)</td><td>Power connected</td><td>0 to 40</td><td>Relative humidity: 5%–95% RH, non-condensing</td><td>4 h soak at each corner</td><td>Functional test at end of each soak</td></tr>
+    <tr><td>Salt mist pre-conditioning (humidity-controlled chamber)</td><td>IEC 60068-2-11</td><td>Power disconnected</td><td>35</td><td>Chamber humidity: ≥ 85% RH during exposure</td><td>48 h</td><td>Dry recovery 24 h at 23 °C ± 2 °C, 45%–55% RH</td></tr>
+  </tbody>
+</table>

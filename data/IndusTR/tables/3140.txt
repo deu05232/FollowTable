@@ -1,0 +1,10 @@
+<table>
+  <caption>Road Traffic Safety Early Warning Message Routing Rules (Integration Gateway)</caption>
+  <tr><th>Rule ID</th><th>Trigger Condition</th><th>Source Channel</th><th>Destination</th><th>Protocol</th><th>Retry Policy</th><th>Retention</th></tr>
+  <tr><td>R-001</td><td>Severity >= High</td><td>Incident Stream</td><td>Mobile App Push</td><td>HTTPS</td><td>3 retries / 5 min</td><td>7 days</td></tr>
+  <tr><td>R-002</td><td>Road closure = true</td><td>Control Center</td><td>Variable Message Signs</td><td>MQTT</td><td>5 retries / 10 min</td><td>24 hours</td></tr>
+  <tr><td>R-003</td><td>Weather visibility < 200m</td><td>Weather Feed</td><td>Broadcast Radio</td><td>SFTP</td><td>2 retries / 15 min</td><td>3 days</td></tr>
+  <tr><td>R-004</td><td>Construction planned start in 2h</td><td>Work Zone System</td><td>Traveler Info Website</td><td>REST</td><td>4 retries / 5 min</td><td>30 days</td></tr>
+  <tr><td>R-005</td><td>Queue length > 1km</td><td>Detector Network</td><td>Police Dispatch</td><td>AMQP</td><td>1 retry / 1 min</td><td>14 days</td></tr>
+  <tr><td>R-006</td><td>Any alert</td><td>All</td><td>Data Lake</td><td>Kafka</td><td>Unlimited (DLQ)</td><td>180 days</td></tr>
+</table>

@@ -1,0 +1,12 @@
+# Activation Functions Cheat Sheet (Equations and Derivatives)
+
+| Name | Equation | Derivative w.r.t. x | Typical use | Output range |
+| --- | --- | --- | --- | --- |
+| ReLU | max(0, x) | 0 (x<0), 1 (x>0) | Deep nets | [0, ∞) |
+| Leaky ReLU | max(αx, x) | α (x<0), 1 (x>0) | Avoid dead ReLUs | (-∞, ∞) |
+| ELU | x (x>0), α(e^x-1) (x≤0) | 1 (x>0), α e^x (x≤0) | Smooth negative side | (-α, ∞) |
+| Softplus | ln(1+e^x) | 1/(1+e^{-x}) | Smooth ReLU | (0, ∞) |
+| Sigmoid | 1/(1+e^{-x}) | σ(x)(1-σ(x)) | Probabilities | (0,1) |
+| Tanh | (e^x-e^{-x})/(e^x+e^{-x}) | 1 - tanh^2(x) | Zero-centered | (-1,1) |
+| Swish | x·σ(x) | σ(x) + x·σ(x)(1-σ(x)) | Modern CNNs | (-∞, ∞) |
+| GELU (approx.) | 0.5x(1+tanh(√(2/π)(x+0.044715x^3))) | (complex) | Transformers | (-∞, ∞) |

@@ -1,0 +1,10 @@
+<table>
+  <caption>MDFT-Domain MCR Quantization Parameter Configuration Table</caption>
+  <tr><td>Bitrate Indexbitrate_index</td><td>MCR Bitratemcr_rate</td><td>MDFT Block LengthstLen</td><td>Number of Spectral Subbandssfb_num</td><td>Vector Dimensionvq_dim</td><td>Quantization Bitsvq_bit</td><td>Quantization Codebookmcr_mag_cbook</td></tr>
+  <tr><td>0x10</td><td>24 kb/s</td><td>256</td><td>15</td><td>3</td><td>9</td><td>cb_mag_512_3</td></tr>
+  <tr><td>0x11</td><td>32 kb/s</td><td>256</td><td>18</td><td>3</td><td>10</td><td>cb_mag_1024_3</td></tr>
+  <tr><td>0x12</td><td>48 kb/s</td><td>256</td><td>18</td><td>3</td><td>9</td><td>cb_mag_512_3</td></tr>
+  <tr><td>0x10</td><td>24 kb/s</td><td>2048</td><td>36</td><td>3</td><td>9</td><td>cb_mag_512_3</td></tr>
+  <tr><td>0x11</td><td>32 kb/s</td><td>2048</td><td>48</td><td>3</td><td>10</td><td>cb_mag_1024_3</td></tr>
+  <tr><td>0x12</td><td>48 kb/s</td><td>2048</td><td>48</td><td>3</td><td>9</td><td>cb_mag_512_3</td></tr>
+</table>

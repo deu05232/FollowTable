@@ -1,0 +1,14 @@
+<table>
+  <caption>Tire Manufacturing MES Cost Center Billing Summary (FY2025)</caption>
+  <thead>
+    <tr><th>Cost Center</th><th>Process Area</th><th>Billing Item</th><th>Unit</th><th>Standard Rate (USD)</th><th>Billing Cycle</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CC-110</td><td>Rubber Mixing</td><td>Internal batch processing fee</td><td>Batch</td><td>48.00</td><td>Monthly</td><td>Includes utilities allocation</td></tr>
+    <tr><td>CC-120</td><td>Extrusion/Calendaring</td><td>Line setup charge</td><td>Setup</td><td>210.00</td><td>Per event</td><td>Applied when recipe family changes</td></tr>
+    <tr><td>CC-130</td><td>Tire Building</td><td>Work-order handling</td><td>WO</td><td>12.50</td><td>Monthly</td><td>ERP-to-MES interface service</td></tr>
+    <tr><td>CC-140</td><td>Curing</td><td>Press utilization fee</td><td>Hour</td><td>35.00</td><td>Weekly</td><td>Based on runtime counter</td></tr>
+    <tr><td>CC-150</td><td>Final Inspection</td><td>Quality release administration</td><td>Lot</td><td>18.00</td><td>Monthly</td><td>Per released lot</td></tr>
+    <tr><td>CC-160</td><td>Warehousing</td><td>Pallet storage</td><td>Pallet-day</td><td>1.20</td><td>Monthly</td><td>Excludes outbound freight</td></tr>
+  </tbody>
+</table>

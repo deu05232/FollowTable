@@ -1,0 +1,17 @@
+<table>
+  <caption>Stepwise Backwash Procedure Setpoints for Filter Bed Cleaning (Category Comparison)</caption>
+  <thead>
+    <tr><th>Filtration category</th><th>Backwash stage</th><th>Backwash method</th><th>Air rate (scour) [m³/(m²·h)]</th><th>Water intensity [L/(m²·s)]</th><th>Expected bed expansion (%)</th><th>Stage duration (min)</th><th>Notes / stop criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Rapid sand filter</td><td>1. Air scour</td><td>Air only</td><td>50–65</td><td>0</td><td>0</td><td>2–4</td><td>Uniform bubbling across bed</td></tr>
+    <tr><td>2. Air + water wash</td><td>Air + water</td><td>35–50</td><td>8–12</td><td>15–30</td><td>4–6</td><td>Continue until turbidity trend drops</td></tr>
+    <tr><td>3. Water-only rinse</td><td>Water only</td><td>0</td><td>12–16</td><td>25–40</td><td>3–6</td><td>End when effluent is clear</td></tr>
+    <tr><td rowspan="3">Dual-media filter (anthracite + sand)</td><td>1. Air scour</td><td>Air only</td><td>55–70</td><td>0</td><td>0</td><td>2–4</td><td>Avoid media mixing beyond design</td></tr>
+    <tr><td>2. Air + water wash</td><td>Air + water</td><td>40–55</td><td>10–14</td><td>20–40</td><td>5–7</td><td>Check for carryover at troughs</td></tr>
+    <tr><td>3. Water-only rinse</td><td>Water only</td><td>0</td><td>12–16</td><td>30–50</td><td>3–6</td><td>Stop when rinse-to-waste turbidity stabilizes</td></tr>
+    <tr><td rowspan="3">Manganese sand filter</td><td>1. Pre-wet</td><td>Water only (low rate)</td><td>0</td><td>4–6</td><td>5–10</td><td>2–3</td><td>Prevent bed cracking</td></tr>
+    <tr><td>2. Water backwash</td><td>Water only</td><td>0</td><td>16–20</td><td>20–35</td><td>10–15</td><td>Maintain stable expansion (no boil)</td></tr>
+    <tr><td>3. Water rinse</td><td>Water only</td><td>0</td><td>10–14</td><td>15–25</td><td>3–5</td><td>Stop when color/solids disappear</td></tr>
+  </tbody>
+</table>

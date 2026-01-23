@@ -1,0 +1,14 @@
+<table>
+  <caption>Strong-Coupling Phase Diagram Parameters for a 2D Hubbard Model (Unrelated to Optomechanics)</caption>
+  <thead>
+    <tr><th>Regime</th><th>U/t</th><th>Temperature (T/t)</th><th>Observable</th><th>Method</th><th>Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Weak coupling</td><td>2</td><td>0.10</td><td>Double occupancy</td><td>DMFT</td><td>Metallic</td></tr>
+    <tr><td>Intermediate coupling</td><td>6</td><td>0.08</td><td>AF correlation length</td><td>DQMC</td><td>Pseudogap onset</td></tr>
+    <tr><td>Strong coupling</td><td>12</td><td>0.05</td><td>Spin stiffness</td><td>Strong-coupling expansion</td><td>Mott-like</td></tr>
+    <tr><td>Strong coupling</td><td>16</td><td>0.03</td><td>Charge gap</td><td>Series expansion</td><td>Insulating</td></tr>
+    <tr><td>Strong coupling (Heisenberg limit)</td><td>24</td><td>0.02</td><td>Exchange J=4t^2/U</td><td>Effective model</td><td>J/t=0.67</td></tr>
+    <tr><td>Strong coupling (finite doping)</td><td>14</td><td>0.04</td><td>Compressibility</td><td>DQMC</td><td>Suppressed</td></tr>
+  </tbody>
+</table>

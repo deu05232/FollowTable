@@ -1,0 +1,15 @@
+<table>
+  <caption>Acknowledged Message Payload: Application Identifier & Status Codes (Higher-Layer Semantics)</caption>
+  <thead>
+    <tr><th>Byte</th><th>Field</th><th>Size</th><th>Example</th><th>Interpretation</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>App Identifier</td><td>1</td><td>0x10</td><td>Identifies the application subsystem being acknowledged</td><td>Not a transport ACK/NACK primitive; semantic mapping is application-defined</td></tr>
+    <tr><td>1</td><td>Function ID</td><td>1</td><td>0x03</td><td>Function within the subsystem</td><td>Used to route to the correct handler</td></tr>
+    <tr><td>2</td><td>Object ID</td><td>2</td><td>0x012C</td><td>Target object/entity reference</td><td>Higher-layer addressing inside the application</td></tr>
+    <tr><td>4</td><td>Status Code</td><td>1</td><td>0x00</td><td>0x00=OK, 0x01=Busy, 0x02=Denied, 0x03=NotFound</td><td>Application result status</td></tr>
+    <tr><td>5</td><td>Error Detail</td><td>1</td><td>0x05</td><td>Subreason for the status code</td><td>Vendor/application specific</td></tr>
+    <tr><td>6</td><td>Retry After</td><td>2</td><td>0x001E</td><td>Suggested retry time in seconds</td><td>Policy hint, not transport flow control</td></tr>
+    <tr><td>8</td><td>Reserved</td><td>0..8</td><td>0xFF...</td><td>Padding/reserved bytes</td><td>May be filled with 0xFF</td></tr>
+  </tbody>
+</table>

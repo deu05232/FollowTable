@@ -1,0 +1,13 @@
+<table>
+  <caption>Timing results for cloud explosion tests.</caption>
+  <tr><th></th><th></th><th colspan="4">Time [sec]</th></tr>
+  <tr><th>Method</th><th>E</th><th>Total</th><th>Gravity ^((a))</th><th>Hydro</th><th>Others</th></tr>
+  <tr><th>Ind</th><th>0.5</th><td>1264</td><td>498~(138)</td><td>550</td><td>216</td></tr>
+  <tr><th>FAST</th><th>0.5</th><td>972</td><td>175~(16)</td><td>568</td><td>229</td></tr>
+  <tr><th>Ind</th><th>1</th><td>1034</td><td>396~(100)</td><td>458</td><td>180</td></tr>
+  <tr><th>FAST</th><th>1</th><td>799</td><td>135~(15)</td><td>482</td><td>182</td></tr>
+  <tr><th>Ind</th><th>2</th><td>941</td><td>358~(92)</td><td>438</td><td>145</td></tr>
+  <tr><th>FAST</th><th>2</th><td>719</td><td>112~(14)</td><td>451</td><td>156</td></tr>
+  <tr><th>Ind</th><th>10</th><td>1018</td><td>383~(106)</td><td>466</td><td>169</td></tr>
+  <tr><th>FAST</th><th>10</th><td>758</td><td>89~(13)</td><td>484</td><td>185</td></tr>
+</table>

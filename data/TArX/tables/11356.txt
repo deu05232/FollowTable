@@ -1,0 +1,10 @@
+<table>
+  <caption>Ratios used in an electrical measurement setup: voltage-divider ratio, amplifier gain, and thermometry calibration factors for a Wiedemann–Franz experiment.</caption>
+  <tr><th>Component / calibration item</th><th>Ratio / factor</th><th>Condition</th><th>Notes</th></tr>
+  <tr><td>Voltage divider</td><td>1:1000</td><td>DC</td><td>Used for lock-in input protection</td></tr>
+  <tr><td>Preamplifier gain</td><td>10×</td><td>AC, 17 Hz</td><td>Signal conditioning</td></tr>
+  <tr><td>Thermometer calibration</td><td>0.87</td><td>0.1–1 K</td><td>Scale factor vs reference</td></tr>
+  <tr><td>Heater power calibration</td><td>1.05</td><td>0.1 K</td><td>Correction factor</td></tr>
+  <tr><td>Contact resistance estimate</td><td>0.12</td><td>Low T</td><td>Relative ratio to sample resistance</td></tr>
+  <tr><td>Lead thermal short factor</td><td>0.93</td><td>Low T</td><td>Wiring correction</td></tr>
+</table>

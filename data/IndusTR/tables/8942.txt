@@ -1,0 +1,14 @@
+<table>
+  <caption>vrPose Structure Definition (Payload Fields and Types)</caption>
+  <thead>
+    <tr><th>Structure</th><th>Field</th><th>Type</th><th>Units / Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">vrPose</td><td>time_stamp</td><td>int64_t</td><td>nanoseconds</td><td>Monotonic timestamp captured with the pose sample.</td></tr>
+    <tr><td>position</td><td>vr3DPoint</td><td>meters</td><td>3D translation of the tracked object in the reference coordinate system.</td></tr>
+    <tr><td>orientation</td><td>vrQuaternion</td><td>unit quaternion</td><td>Rotation represented as a quaternion (normalized).</td></tr>
+    <tr><td>reference_space</td><td>vrCoordinateSpaceId</td><td>uint32_t</td><td>opaque id</td><td>Identifies which space the pose is expressed in (e.g., local, stage). Payload-level reference marker, not a mode enum.</td></tr>
+    <tr><td>confidence</td><td>float</td><td>0.0–1.0</td><td>Tracking confidence for this pose sample.</td></tr>
+    <tr><td>valid_flags</td><td>uint32_t</td><td>bitmask</td><td>Indicates which fields are valid in this sample (e.g., position valid, orientation valid).</td></tr>
+  </tbody>
+</table>

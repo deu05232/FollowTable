@@ -1,0 +1,9 @@
+<table>
+  <caption>Key Container Information Enumeration Memory Free Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_EnumkeyContainerInfoFree(void * hAppHandle,SGD_KEYCONTAINERINFO_ENUMLIST * keyContainerInfo)</td></tr>
+  <tr><td>Description</td><td>Free the memory allocated in the SAF_EnumKeyContainerInfo function</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>keyContainerInfo[in] (key container information)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0 (success)</td></tr>
+  <tr><td>Non-0 (failure, returns the error code defined in Table C.1, shall comply with Appendix C)</td></tr>
+</table>

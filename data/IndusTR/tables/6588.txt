@@ -1,0 +1,15 @@
+<table>
+  <caption>Security Compliance Defect Checklist (Requirements vs Current State)</caption>
+  <thead>
+    <tr><th>Control Domain</th><th>Requirement ID</th><th>Requirement Statement</th><th>Current Value</th><th>Evidence</th><th>Gap Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Access Control</td><td>AC-01</td><td>MFA must be enabled for privileged accounts</td><td>Partially enabled</td><td>IAM report export</td><td>Admin group lacks MFA</td></tr>
+    <tr><td>Logging</td><td>LG-02</td><td>Centralized logs must be retained for 180 days</td><td>90 days</td><td>SIEM retention setting</td><td>Retention below policy</td></tr>
+    <tr><td>Vulnerability Mgmt</td><td>VM-03</td><td>Critical vulnerabilities must be patched within 7 days</td><td>Average 18 days</td><td>Scanner dashboard</td><td>SLA violations</td></tr>
+    <tr><td>Network Security</td><td>NS-04</td><td>Inbound traffic must be restricted by allowlist</td><td>Open to Internet</td><td>Firewall rule review</td><td>Unnecessary exposure</td></tr>
+    <tr><td>Data Protection</td><td>DP-05</td><td>Sensitive data must be encrypted at rest</td><td>Not encrypted</td><td>Database config</td><td>Encryption disabled</td></tr>
+    <tr><td>Incident Response</td><td>IR-06</td><td>IR plan must be reviewed annually</td><td>Last review 2 years ago</td><td>Policy document</td><td>Review overdue</td></tr>
+    <tr><td>Asset Management</td><td>AM-07</td><td>All assets must have an owner assigned</td><td>Unknown owners exist</td><td>CMDB export</td><td>Ownership gaps</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+# # Derivatives with domain range and smoothness annotations (property-heavy)
+
+| Expression | Derivative | Valid domain notes | Typical value range | Smoothness/regularity |
+| --- | --- | --- | --- | --- |
+| x^n | n x^(n−1) | all real x (integer n) | depends on n | smooth |
+| ln(x) | 1/x | x>0 | (−∞, ∞) | smooth |
+| |x| | x/|x| (x≠0) | all real x | [0, ∞) | not differentiable at 0 |
+| 1/x | −1/x^2 | x≠0 | (−∞, 0)∪(0, ∞) | smooth on each side |

@@ -1,0 +1,18 @@
+<table>
+  <caption>Imaging impact of lensing galaxies on distant cluster members: observed vs. de-lensed photometry using μ</caption>
+  <thead>
+    <tr><th rowspan="2">Source ID</th><th rowspan="2">Candidate group</th><th rowspan="2">z (phot)</th><th rowspan="2">mobs(F160W)</th><th colspan="2">Magnification factor (μ)</th><th rowspan="2">mint(de-lensed)</th><th rowspan="2">S/N change (qualitative)</th><th rowspan="2">Comment</th></tr>
+    <tr><th>μ</th><th>μ uncertainty (1σ)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CLcand-A1</td><td>Overdensity A</td><td>2.0</td><td>24.10</td><td>1.31</td><td>±0.06</td><td>24.40</td><td>moderate boost</td><td>Near lens light; careful subtraction needed</td></tr>
+    <tr><td>CLcand-A2</td><td>Overdensity A</td><td>2.2</td><td>24.55</td><td>1.52</td><td>±0.08</td><td>24.99</td><td>moderate boost</td><td>Likely member; consistent colors</td></tr>
+    <tr><td>CLcand-A3</td><td>Overdensity A</td><td>1.8</td><td>25.05</td><td>1.18</td><td>±0.04</td><td>25.23</td><td>small boost</td><td>Outside strong-lensing region</td></tr>
+    <tr><td>CLcand-B1</td><td>Overdensity B</td><td>3.0</td><td>24.30</td><td>2.10</td><td>±0.17</td><td>25.11</td><td>large boost</td><td>Arclet-like; μ dominates detectability</td></tr>
+    <tr><td>CLcand-B2</td><td>Overdensity B</td><td>2.7</td><td>24.92</td><td>1.86</td><td>±0.12</td><td>25.60</td><td>large boost</td><td>Close to critical curve; higher systematics</td></tr>
+    <tr><td>CLcand-B3</td><td>Overdensity B</td><td>2.9</td><td>25.35</td><td>2.45</td><td>±0.25</td><td>26.32</td><td>very large boost</td><td>Candidate multiple images; verify parity</td></tr>
+    <tr><td>CLcand-C1</td><td>Overdensity C</td><td>1.6</td><td>23.95</td><td>1.12</td><td>±0.03</td><td>24.07</td><td>small boost</td><td>Lensing minor; cluster detection mostly intrinsic</td></tr>
+    <tr><td>CLcand-C2</td><td>Overdensity C</td><td>1.7</td><td>24.70</td><td>1.27</td><td>±0.05</td><td>24.97</td><td>moderate boost</td><td>Useful for completeness correction</td></tr>
+    <tr><td>CLcand-C3</td><td>Overdensity C</td><td>1.5</td><td>25.10</td><td>1.39</td><td>±0.07</td><td>25.46</td><td>moderate boost</td><td>De-lensed magnitude affects luminosity function</td></tr>
+  </tbody>
+</table>

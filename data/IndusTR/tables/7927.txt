@@ -1,0 +1,15 @@
+<table>
+  <caption>VR Positioning API Enum: vrTrackingResult</caption>
+  <thead>
+    <tr><th>Data Type</th><th>Enum Value</th><th>Description</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">vrTrackingResult</td><td>VR_TRACKING_RESULT_UNINITIALIZED=0x00</td><td>Tracking not initialized</td><td>Pose is not valid</td></tr>
+    <tr><td>VR_TRACKING_RESULT_OK=0x01</td><td>Tracking is valid</td><td>6DoF pose can be consumed</td></tr>
+    <tr><td>VR_TRACKING_RESULT_LIMITED=0x02</td><td>Tracking is limited</td><td>May be 3DoF or degraded accuracy</td></tr>
+    <tr><td>VR_TRACKING_RESULT_LOST=0x03</td><td>Tracking lost</td><td>Last known pose may be stale</td></tr>
+    <tr><td>VR_TRACKING_RESULT_RELOCALIZING=0x04</td><td>Relocalization in progress</td><td>Expect pose jumps when it completes</td></tr>
+    <tr><td>VR_TRACKING_RESULT_CALIBRATING=0x05</td><td>Calibration running</td><td>Coordinate system may change</td></tr>
+    <tr><td>0x06~0xFF</td><td>Reserved</td><td>Do not use</td></tr>
+  </tbody>
+</table>

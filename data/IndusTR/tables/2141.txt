@@ -1,0 +1,10 @@
+<table>
+  <caption>Augmented Reality Device Compatibility Matrix (OS   Chipset   Camera Requirements)</caption>
+  <tr><th>Device Family</th><th>Minimum OS</th><th>Supported Chipsets</th><th>Rear Camera Requirement</th><th>Depth Sensor</th></tr>
+  <tr><td>Android Mid-range</td><td>Android 11</td><td>Snapdragon 7xx</td><td>12MP, OIS optional</td><td>Optional</td></tr>
+  <tr><td>Android Flagship</td><td>Android 12</td><td>Snapdragon 8xx</td><td>12MP+, OIS recommended</td><td>Recommended</td></tr>
+  <tr><td>iOS</td><td>iOS 15</td><td>A13 or newer</td><td>Wide camera required</td><td>TrueDepth for face tracking</td></tr>
+  <tr><td>Tablet</td><td>iPadOS 15</td><td>A12Z or newer</td><td>Wide camera required</td><td>Optional</td></tr>
+  <tr><td>XR Headset</td><td>Vendor OS 2.0</td><td>XR2 class</td><td>Stereo cameras</td><td>Required</td></tr>
+  <tr><td>Development Board</td><td>Linux 5.10</td><td>ARM64 SoC</td><td>USB3 UVC camera</td><td>Optional</td></tr>
+</table>

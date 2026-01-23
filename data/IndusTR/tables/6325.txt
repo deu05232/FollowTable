@@ -1,0 +1,17 @@
+<table>
+  <caption>Table X. Standardized laboratory operating conditions for oil-free magnetic-levitation centrifugal chiller/heat pump (cooling mode) across multiple heat-source configurations</caption>
+  <thead>
+    <tr><th rowspan="2">Condition point</th><th rowspan="2">Load ratio</th><th rowspan="2">Operating mode</th><th colspan="4">Load side (chilled water loop)</th><th colspan="4">Heat source side (varies by configuration)</th></tr>
+    <tr><th>Inlet water temp (°C)</th><th>Outlet water temp (°C)</th><th>Flow rate (m³/(h·kW))</th><th>ΔT (K)</th><th>Configuration</th><th>Inlet condition</th><th>Outlet condition</th><th>Circulation level</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A1</td><td>100%</td><td>Nominal cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Water-cooled</td><td>Entering water 30°C</td><td>Leaving water 35°C</td><td>0.215 m³/(h·kW)</td></tr>
+    <tr><td>A2</td><td>100%</td><td>Nominal cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Groundwater</td><td>Entering water 18°C</td><td>Leaving water 23°C</td><td>0.103 m³/(h·kW)</td></tr>
+    <tr><td>A3</td><td>100%</td><td>Nominal cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Buried-pipe (ground loop)</td><td>Entering water 25°C</td><td>Leaving water 30°C</td><td>0.215 m³/(h·kW)</td></tr>
+    <tr><td>A4</td><td>100%</td><td>Nominal cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Surface-water</td><td>Entering water 25°C</td><td>Leaving water 30°C</td><td>0.215 m³/(h·kW)</td></tr>
+    <tr><td>B1</td><td>75%</td><td>Part-load cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Water-cooled</td><td>Entering water 28°C</td><td>Leaving water 33°C</td><td>0.215 m³/(h·kW)</td></tr>
+    <tr><td>B2</td><td>75%</td><td>Part-load cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Buried-pipe (ground loop)</td><td>Entering water 23°C</td><td>Leaving water 28°C</td><td>0.215 m³/(h·kW)</td></tr>
+    <tr><td>C1</td><td>50%</td><td>Low-load cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Air-cooled (dry)</td><td>Entering air DB 35°C</td><td>—</td><td>Airflow fixed to rated (per kW)</td></tr>
+    <tr><td>C2</td><td>50%</td><td>Low-load cooling</td><td>12</td><td>7</td><td>0.172</td><td>5</td><td>Evaporative-cooled</td><td>Entering air DB/WB 35/24°C</td><td>—</td><td>Airflow fixed to rated (per kW)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Smart Diagnostic, Prediction, and Auto-Decision Functions Across Instrument Types (Minimum Expected Behaviors)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Operational Context</th><th>Required Intelligent Capabilities (examples)</th><th>Typical Outputs to Operator/Control System</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Measuring Instruments</td><td>Startup & commissioning</td><td>Run automated self-check sequence; detect installation issues (e.g., wrong impulse-line routing, reversed DP ports, empty-pipe condition) using live signal heuristics; adapt filter/damping suggestion based on noise level.</td><td>Pass/fail checklist, detected issue type, recommended corrective action, severity</td></tr>
+    <tr><td>Measuring Instruments</td><td>Steady-state operation</td><td>Continuous abnormality detection for process variable behavior (spikes, stuck values, drift); identify likely root cause class (process vs. sensor vs. wiring) using multi-feature classification.</td><td>Alarm with diagnosis label, confidence, supporting indicators</td></tr>
+    <tr><td>Measuring Instruments</td><td>Harsh environment changes</td><td>Automatic compensation or model selection under temperature extremes; learn baseline noise signature per operating region and adjust thresholds to maintain detection sensitivity.</td><td>Adaptive threshold status, compensation active flag, health index trend</td></tr>
+    <tr><td>Analytical Instruments</td><td>Online analysis cycle</td><td>Detect outliers and sample anomalies; perform trend learning to recognize normal operating patterns; automatically schedule re-run/validation when confidence is low.</td><td>Data quality score, anomaly flags, auto-rerun decision record</td></tr>
+    <tr><td>Analytical Instruments</td><td>Long-term performance</td><td>Predict remaining useful life of key components (light source, pump, column, membranes) from performance metrics; recommend maintenance window to minimize downtime.</td><td>RUL estimate, maintenance recommendation, risk level</td></tr>
+    <tr><td>Actuators</td><td>Valve movement events</td><td>Detect abnormal torque/thrust signatures (stiction, obstruction, cavitation-induced vibration); adapt control parameters to reduce overshoot and oscillation; identify “valve stuck” early and decide safe fallback state.</td><td>Diagnostic event, suggested tuning change, safe-state action</td></tr>
+    <tr><td>Actuators</td><td>Control loop optimization</td><td>Automated decision-making for loop/valve optimization (e.g., adjust gain scheduling, deadband compensation) based on historical closed-loop performance; learn optimal settings per regime.</td><td>Optimization report, applied parameter change summary, before/after KPI</td></tr>
+  </tbody>
+</table>

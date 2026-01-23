@@ -1,0 +1,10 @@
+<table>
+  <caption>Explicit range traversal requirements for loop filter syntax elements</caption>
+  <tr><th>Syntax element name</th><th>Test requirements</th></tr>
+  <tr><td>deblocking_filter_disable_flag</td><td>Traverse cases where the value of deblocking_filter_disable_flag equals 0 to 1</td></tr>
+  <tr><td>beta_offset_div2</td><td>Traverse cases where the value of beta_offset_div2 equals -6 to 6</td></tr>
+  <tr><td>tc_offset_div2</td><td>Traverse cases where the value of tc_offset_div2 equals -6 to 6</td></tr>
+  <tr><td>lf_ref_delta_present_flag</td><td>Traverse cases where the value of lf_ref_delta_present_flag equals 0 to 1</td></tr>
+  <tr><td>lf_ref_delta_idx</td><td>Traverse cases where the value of lf_ref_delta_idx equals 0 to 3</td></tr>
+  <tr><td>lf_mode_delta_flag</td><td>Traverse cases where the value of lf_mode_delta_flag equals 0 to 1</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Default Waste-Specific DOC, Degradable Carbon Fractions and Dry-Weight Conversion Factors (Landfill Replacement Module)</caption>
+  <thead>
+    <tr><th rowspan="2">Waste Type</th><th colspan="5">Waste Property Coefficients</th><th rowspan="2">Notes</th></tr>
+    <tr><th>DOC (% of wet)</th><th>DOCf (fraction)</th><th>MCF (fraction)</th><th>Dry Weight Ratio</th><th>Fossil Carbon Share (fraction)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Paper</td><td>0.40</td><td>0.50</td><td>1.00</td><td>0.90</td><td>0.05</td><td>High biodegradable carbon</td></tr>
+    <tr><td>Textiles</td><td>0.24</td><td>0.50</td><td>1.00</td><td>0.80</td><td>0.50</td><td>Mixed fossil/biogenic content</td></tr>
+    <tr><td>Food Waste</td><td>0.15</td><td>0.50</td><td>1.00</td><td>0.30</td><td>0.00</td><td>High moisture content</td></tr>
+    <tr><td>Wood</td><td>0.43</td><td>0.50</td><td>1.00</td><td>0.75</td><td>0.00</td><td>Slowly degradable</td></tr>
+    <tr><td>Yard Waste</td><td>0.20</td><td>0.50</td><td>1.00</td><td>0.45</td><td>0.00</td><td>Seasonal variability</td></tr>
+    <tr><td>Leather/Rubber</td><td>0.39</td><td>0.50</td><td>1.00</td><td>0.90</td><td>0.65</td><td>High fossil fraction possible</td></tr>
+    <tr><td>Plastics</td><td>0.00</td><td>0.00</td><td>1.00</td><td>0.98</td><td>1.00</td><td>Non-degradable; fossil-based</td></tr>
+  </tbody>
+</table>

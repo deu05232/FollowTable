@@ -1,0 +1,10 @@
+<table>
+  <caption>ARTrackingFailureReasonPlus enumeration (extended reasons)</caption>
+  <tr><th>Camera tracking failure reason description</th><th>Reference name and value</th></tr>
+  <tr><td>No failure detected</td><td>AR_TRACKING_FAILURE_REASON_PLUS_NONE = 0</td></tr>
+  <tr><td>Insufficient light for tracking</td><td>AR_TRACKING_FAILURE_REASON_PLUS_INSUFFICIENT_LIGHT = 1</td></tr>
+  <tr><td>Excessive motion causes blur</td><td>AR_TRACKING_FAILURE_REASON_PLUS_EXCESSIVE_MOTION = 2</td></tr>
+  <tr><td>Not enough visual features in the scene</td><td>AR_TRACKING_FAILURE_REASON_PLUS_INSUFFICIENT_FEATURES = 3</td></tr>
+  <tr><td>Camera is obstructed or covered</td><td>AR_TRACKING_FAILURE_REASON_PLUS_CAMERA_OBSTRUCTED = 4</td></tr>
+  <tr><td>Internal error or bad state</td><td>AR_TRACKING_FAILURE_REASON_PLUS_BAD_STATE = 5</td></tr>
+</table>

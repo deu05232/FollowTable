@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Component Interface Definition for Certificate Logout</caption>
+  <tr><td>Prototype</td><td>function SOF_Logout(CertID,cb,ctx)</td></tr>
+  <tr><td>Description</td><td>Exit the logged-in state</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>cb (callback function)</td></tr>
+  <tr><td>ctx (parameters required by the callback function)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>true (success)</td></tr>
+  <tr><td>false (failure; use SOF_GetLastError to obtain an error code as defined in Table A.1)</td></tr>
+  <tr><td>Security Rules</td><td>Certificate logout indicates releasing the private key usage permission corresponding to the certificate user. After logout, when calling interfaces such as signing and decryption that require private key usage permission to operate normally, you should successfully call the SOF_Login interface again to obtain private key usage permission</td></tr>
+</table>

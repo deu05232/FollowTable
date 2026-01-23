@@ -1,0 +1,9 @@
+<table>
+  <caption>Energy efficiency grade compliance indicators (no-load active power focus, Grade 2 example)</caption>
+  <tr><th>Energy Efficiency Grade</th><th>Rated Output Power Range (Po) W</th><th>Minimum Average Efficiency in Operating State (decimal)</th><th>Maximum Active Power in No-Load State W</th><th>Minimum Power Factor (PF) in Rated State</th></tr>
+  <tr><td rowspan="5">Grade 2</td><td>0<Po≤1</td><td>0.49×Po+0.090</td><td>0.080</td><td></td></tr>
+  <tr><td>1<Po≤10</td><td>0.060×ln(Po)+0.630</td><td>0.080</td><td></td></tr>
+  <tr><td>10<Po≤49</td><td>0.070×ln(Po)-0.0010×Po+0.660</td><td>0.080</td><td></td></tr>
+  <tr><td>49<Po≤250</td><td>0.895</td><td>0.100</td><td>0.920</td></tr>
+  <tr><td>250<Po≤500</td><td>0.900</td><td>0.120</td><td>0.930</td></tr>
+</table>

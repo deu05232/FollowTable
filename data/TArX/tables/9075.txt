@@ -1,0 +1,17 @@
+<table>
+  <caption>Atmospheric and Limb-Darkening Input Parameters for Alpha Centauri A and B (No Mass/Radius/Luminosity)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Alpha Cen A</th><th>Alpha Cen B</th><th>Unit</th><th>Application</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Effective temperature</td><td>Teff</td><td>5820</td><td>5260</td><td>K</td><td>Atmosphere model selection</td></tr>
+    <tr><td>Surface gravity</td><td>log g</td><td>4.34</td><td>4.51</td><td>dex</td><td>Line formation</td></tr>
+    <tr><td>Metallicity</td><td>[Fe/H]</td><td>+0.22</td><td>+0.24</td><td>dex</td><td>Opacity scaling</td></tr>
+    <tr><td>Microturbulence</td><td>ξ</td><td>1.0</td><td>0.9</td><td>km s^-1</td><td>Spectral synthesis</td></tr>
+    <tr><td>Macroturbulence</td><td>ζ</td><td>3.5</td><td>2.5</td><td>km s^-1</td><td>Line broadening</td></tr>
+    <tr><td>Projected rotation</td><td>v sin i</td><td>2.1</td><td>1.3</td><td>km s^-1</td><td>Line broadening</td></tr>
+    <tr><td>Limb-darkening (linear)</td><td>u</td><td>0.62</td><td>0.71</td><td>—</td><td>Interferometric diameter fitting</td></tr>
+    <tr><td>Limb-darkening (quadratic)</td><td>a,b</td><td>0.29, 0.33</td><td>0.34, 0.29</td><td>—</td><td>Light-curve/visibility modeling</td></tr>
+    <tr><td>Bolometric correction</td><td>BC_V</td><td>-0.08</td><td>-0.28</td><td>mag</td><td>Photometric conversions</td></tr>
+  </tbody>
+</table>

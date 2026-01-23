@@ -1,0 +1,21 @@
+<table>
+  <caption>Video Image Focused Item Object Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Item Object Identifier</td><td>wpdxbz</td><td>c48</td><td>Should comply with the coding rules specified in C.3; item objects in an image should preferably have identifiers generated in order from left to right and from top to bottom</td><td></td></tr>
+  <tr><td>2</td><td>Associated Person Object Identifier</td><td>glrydxbz</td><td>c48</td><td>Code of the person object carrying the item object; should comply with the coding rules specified in C.3</td><td></td></tr>
+  <tr><td>3</td><td>Associated Motor Vehicle Object Identifier</td><td>gljdcdxbz</td><td>c48</td><td>Code of the motor vehicle object carrying the item object; should comply with the coding rules specified in C.3</td><td></td></tr>
+  <tr><td>4</td><td>Associated Non-motor Vehicle Object Identifier</td><td>glfjdcdxbz</td><td>c48</td><td>Code of the non-motor vehicle object carrying the item object; should comply with the coding rules specified in C.3</td><td></td></tr>
+  <tr><td>5</td><td>Source Identifier</td><td>lybz</td><td>c41</td><td>Code of the video segment or image used to collect the item object; should comply with the coding rules specified in C.2; multiple values allowed</td><td></td></tr>
+  <tr><td>6</td><td>Item Object Collection Method Code</td><td>SACwpdxcjfsdm</td><td>cl</td><td>Should comply with D.16</td><td></td></tr>
+  <tr><td>7</td><td>Top-left Corner_X Coordinate</td><td>zsj_xzb</td><td>n..8</td><td>With the top-left pixel of the image as the origin, rightward is the positive X-axis direction, and downward is the positive Y-axis direction; X coordinate of the top-left corner of the item thumbnail border box, unit: pixel</td><td></td></tr>
+  <tr><td>8</td><td>Top-left Corner_Y Coordinate</td><td>zsj_yzb</td><td>n..8</td><td>Y coordinate of the top-left corner of the item thumbnail border box, unit: pixel</td><td></td></tr>
+  <tr><td>9</td><td>Bottom-right Corner_X Coordinate</td><td>yxj_xzb</td><td>n.8</td><td>X coordinate of the bottom-right corner of the item thumbnail border box, unit: pixel</td><td></td></tr>
+  <tr><td>10</td><td>Bottom-right Corner_Y Coordinate</td><td>yxj_yzb</td><td>n.8</td><td>Y coordinate of the bottom-right corner of the item thumbnail border box, unit: pixel</td><td></td></tr>
+  <tr><td>11</td><td>Position Mark_Date/Time</td><td>wzbj_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>12</td><td>Appearance_Date/Time</td><td>cx_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>13</td><td>Disappearance_Date/Time</td><td>xs_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>14</td><td>Item Object Name</td><td>wpdxmc</td><td>c..100</td><td>Name of the labeled item</td><td></td></tr>
+  <tr><td>15</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Code of the item thumbnail or the full image containing the item; should comply with the coding rules specified in C.2; multiple values allowed</td><td></td></tr>
+  <tr><td>16</td><td>Item Object Color Code</td><td>wpdxysdm</td><td>cl</td><td>Should comply with D.26</td><td></td></tr>
+  <tr><td>17</td><td>Item Feature_Brief Description</td><td>wptz_jyqk</td><td>.ul</td><td>Description of the labeled item features</td><td></td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Logistics M2M Fault Handling Functional Test Runbook — Operator Actions Dominant</caption>
+  <thead>
+    <tr><th>Test ID</th><th>Module</th><th>Fault Type</th><th>Trigger Method</th><th>Operator Actions (Detailed)</th><th>Verification Intent</th><th>Artifacts to Collect</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FH-001</td><td>Terminal Management</td><td>Heartbeat Lost</td><td>Disable modem for 5 minutes</td><td>1) Open Monitoring 2) Filter by tenant 3) Select device 4) Click View Timeline 5) Export events 6) Acknowledge alarm</td><td>Verify the platform raises an alarm and marks the terminal as Offline</td><td>Alarm screenshot; exported CSV; device timeline JSON</td></tr>
+    <tr><td>FH-002</td><td>Terminal Management</td><td>Command Timeout</td><td>Throttle network to 10kbps and send remote reboot</td><td>1) Send Reboot 2) Wait 120s 3) Click Retry 4) Open audit log 5) Note request IDs</td><td>Verify retries and timeout status are recorded consistently</td><td>Audit log entries; request IDs; timeout metrics</td></tr>
+    <tr><td>FH-003</td><td>Platform Access</td><td>Authentication Failure</td><td>Use expired token</td><td>1) Call protected API 2) Observe error 3) Clear cache 4) Re-login 5) Re-run API call</td><td>Verify the platform returns functional error and supports recovery via re-auth</td><td>HTTP traces; response bodies; console screenshots</td></tr>
+    <tr><td>FH-004</td><td>Platform Maintenance</td><td>Profile Update Conflict</td><td>Edit same field from two sessions</td><td>1) Open two browsers 2) Change business name in A 3) Save 4) Save in B 5) Compare messages</td><td>Verify conflict handling prevents silent overwrite</td><td>Conflict message captures; audit diffs</td></tr>
+    <tr><td>FH-005</td><td>Onboarding</td><td>Duplicate Registration</td><td>Register same serial twice</td><td>1) Register device 2) Attempt second registration 3) Check inventory 4) Query by serial 5) Record response</td><td>Verify duplicate registration is rejected with clear reason</td><td>API response; inventory screenshot</td></tr>
+    <tr><td>FH-006</td><td>Offboarding</td><td>Residual Access After Deregistration</td><td>Deregister then attempt remote command</td><td>1) Deregister device 2) Wait 30s 3) Send Remote Lock 4) Refresh command list 5) Inspect error details</td><td>Verify deregistered terminals cannot receive remote actions</td><td>Command error logs; device state history</td></tr>
+  </tbody>
+</table>

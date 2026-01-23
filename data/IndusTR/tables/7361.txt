@@ -1,0 +1,14 @@
+<table>
+  <caption>Instant Messaging API - Response Result Fields (Status-Oriented)</caption>
+  <thead>
+    <tr><th>Field (English)</th><th>Type/Format</th><th>Mandatory</th><th>Meaning</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>returnResult</td><td>string (C..64)</td><td>Yes</td><td>Whether the operation is successful</td><td>OK</td></tr>
+    <tr><td>resultDescription</td><td>string (C..2000)</td><td>Yes</td><td>Human-readable result description</td><td>Subscribed successfully</td></tr>
+    <tr><td>resultCode</td><td>string (C..32)</td><td>Yes</td><td>Machine-readable code for client handling</td><td>IM-200</td></tr>
+    <tr><td>retryAfterSeconds</td><td>integer</td><td>No</td><td>Suggested retry delay when throttled</td><td>30</td></tr>
+    <tr><td>serverTimestamp</td><td>string (date-time)</td><td>No</td><td>Server time when response was generated</td><td>2026-01-19T10:15:30Z</td></tr>
+    <tr><td>traceId</td><td>string (uuid)</td><td>No</td><td>Trace identifier for troubleshooting</td><td>0f1c2a3b-4d5e-6789-a012-3456789abcde</td></tr>
+  </tbody>
+</table>

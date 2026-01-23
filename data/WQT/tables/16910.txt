@@ -1,0 +1,13 @@
+# User-Facing Behavior in Exchange Hybrid  What Users Notice Before vs After Connecting On-Prem Exchange to Office 365
+
+| User-facing scenario | On-premises only (before hybrid) | Hybrid with Office 365 (after connection) |
+|---|---|---|
+| Searching the Global Address List (GAL) | Users see only on-prem recipients unless separately synchronized/created. | Users can discover recipients across both environments (on-prem and Exchange Online) as part of a unified address experience. |
+| Scheduling meetings (availability lookup) | Availability lookup works only for on-prem mailboxes. | Cross-environment availability lookup works when scheduling with cloud or on-prem attendees. |
+| Sending to a colleague who is “moved to the cloud” | Requires manual knowledge/temporary addresses if directories are not unified; may cause NDRs during migration. | Same SMTP domain works; routing knows whether mailbox is on-prem or in Exchange Online, reducing misdelivery/NDR risk. |
+| Shared mailbox access across environments | Shared mailbox access is limited to mailboxes hosted on-prem. | Coexistence allows access patterns to continue while users/shared mailboxes migrate at different times (subject to permissions and migration state). |
+| Delegation (Send As / Full Access) | Delegation works within on-prem boundaries; cross-org delegation not applicable. | Some cross-premises delegation scenarios become possible/maintainable during staged moves (within supported hybrid coexistence limits). |
+| Outlook on the web login experience | Users must use the on-prem OWA endpoint; wrong endpoint leads to errors/confusion. | Users can be redirected to the correct OWA (on-prem or Exchange Online) based on mailbox location. |
+| MailTips and message warnings | MailTips only reflect on-prem mailbox properties (e.g., mailbox full, out-of-office within on-prem). | MailTips can span both environments, improving user feedback when emailing cross-environment recipients. |
+| Mailbox migration downtime perception | Large moves often require maintenance windows when moving between servers/orgs. | Online remote moves enable staged migrations with minimized perceived downtime and better end-user continuity. |
+| Cross-environment calendaring features | Limited to on-prem calendaring features only. | Hybrid relationship enables richer coexistence for calendaring across cloud/on-prem during migration. |

@@ -1,0 +1,13 @@
+<table>
+  <caption>Equipment Information Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Software Name</td><td>（0014,1100)</td><td>LO</td><td>1</td><td>1</td><td>Name of the device software</td></tr>
+  <tr><td>Software Version</td><td>（0018,1020)</td><td>LO</td><td>1-N</td><td>1</td><td>Identifier of the software version</td></tr>
+  <tr><td>Manufacturer</td><td>（0008,0070)</td><td>LO</td><td>1</td><td>2</td><td>Device manufacturer</td></tr>
+  <tr><td>Model Name</td><td>（0008,1090)</td><td>LO</td><td>1</td><td>2</td><td>Device model name</td></tr>
+  <tr><td>Device Serial Number</td><td>（0018,1000)</td><td>LO</td><td>1</td><td>2</td><td>Factory serial number assigned by the device manufacturer</td></tr>
+  <tr><td>Device ID</td><td>（0008,1010)</td><td>SH</td><td>1</td><td>2</td><td>User-defined name used to distinguish the device</td></tr>
+  <tr><td>Department Name</td><td>（0008,1040)</td><td>LO</td><td>1</td><td>3</td><td>Department using the device</td></tr>
+  <tr><td>Motion Device ID</td><td>（0018,1008)</td><td>LO</td><td>1</td><td>3</td><td>Serial number of the gantry, scanning system, or positioner that generated the instance</td></tr>
+  <tr><td>Operating System Version</td><td>(0014,1102)</td><td>LO</td><td>1</td><td>3</td><td>Computer operating system version on which the device software runs</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>RFID Tag Memory Map and Reserved User Bank Allocation for Agrochemical Packaging</caption>
+  <thead>
+    <tr><th>Memory bank</th><th>Start address (word)</th><th>Length (words)</th><th>Access password</th><th>Kill password</th><th>Typical usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Reserved</td><td>0x00</td><td>4</td><td>32-bit</td><td>32-bit</td><td>Security credentials</td></tr>
+    <tr><td>EPC</td><td>0x02</td><td>8</td><td>N/A</td><td>N/A</td><td>EPC storage (96-bit typical)</td></tr>
+    <tr><td>TID</td><td>0x00</td><td>6</td><td>N/A</td><td>N/A</td><td>Chip identifier</td></tr>
+    <tr><td>User</td><td>0x00</td><td>32</td><td>N/A</td><td>N/A</td><td>MSDS pointer, batch document hash</td></tr>
+    <tr><td>Lock bits</td><td>0x1A</td><td>1</td><td>N/A</td><td>N/A</td><td>Per-bank lock configuration</td></tr>
+    <tr><td>CRC + PC</td><td>0x00</td><td>2</td><td>N/A</td><td>N/A</td><td>Protocol control words</td></tr>
+  </tbody>
+</table>

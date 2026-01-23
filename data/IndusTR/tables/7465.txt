@@ -1,0 +1,24 @@
+<table>
+  <caption>Core Data Elements for Cooperative Driving Vehicle Status Message</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Description</th><th>Unit / Format</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Vehicle Identification</td><td>VehicleID</td><td>Globally unique vehicle identifier used by the application</td><td>string (UUID / temporary ID)</td><td>Yes</td></tr>
+    <tr><td>VehicleType</td><td>Vehicle class (passenger car, truck, bus, motorcycle, etc.)</td><td>enum</td><td>No</td></tr>
+    <tr><td>PlateHash</td><td>Hashed plate token for optional correlation (privacy-preserving)</td><td>string</td><td>No</td></tr>
+    <tr><td>CoopGroupID</td><td>Platoon / cooperation group identifier if applicable</td><td>string</td><td>No</td></tr>
+    <tr><td rowspan="5">Vehicle Location (Absolute)</td><td>Latitude</td><td>WGS-84 latitude of the vehicle reference point</td><td>deg</td><td>Yes</td></tr>
+    <tr><td>Longitude</td><td>WGS-84 longitude of the vehicle reference point</td><td>deg</td><td>Yes</td></tr>
+    <tr><td>Altitude</td><td>Ellipsoidal altitude</td><td>m</td><td>No</td></tr>
+    <tr><td>Heading</td><td>Vehicle heading (0..359.99)</td><td>deg</td><td>No</td></tr>
+    <tr><td>PositionConfidence</td><td>Estimated horizontal position accuracy</td><td>m</td><td>No</td></tr>
+    <tr><td rowspan="4">Time</td><td>MessageTimestamp</td><td>Time when the message was generated</td><td>ms since epoch</td><td>Yes</td></tr>
+    <tr><td>GNSSFixTime</td><td>Time of the GNSS position fix used for the location fields</td><td>ms since epoch</td><td>No</td></tr>
+    <tr><td>LatencyBudget</td><td>Maximum acceptable end-to-end latency for this message</td><td>ms</td><td>No</td></tr>
+    <tr><td>TimeConfidence</td><td>Estimated time accuracy</td><td>ms</td><td>No</td></tr>
+    <tr><td rowspan="3">Motion</td><td>Speed</td><td>Vehicle speed over ground</td><td>m/s</td><td>No</td></tr>
+    <tr><td>AccelerationLongitudinal</td><td>Longitudinal acceleration</td><td>m/s^2</td><td>No</td></tr>
+    <tr><td>YawRate</td><td>Yaw rate</td><td>deg/s</td><td>No</td></tr>
+  </tbody>
+</table>

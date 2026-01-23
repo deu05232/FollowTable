@@ -1,0 +1,16 @@
+<table>
+  <caption>Tire Smart Factory PLC Tag Layout (Bit-Level Encoding Reference)</caption>
+  <thead>
+    <tr><th>Tag Group</th><th>Signal / Field</th><th>Primitive Type</th><th>Bit Length</th><th>Byte Order</th><th>Scaling (Raw→Eng)</th><th>Offset</th><th>Storage Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Curing Press</td><td>Press_ID</td><td>UINT</td><td>16</td><td>Little-endian</td><td>1</td><td>0</td><td>Unsigned identifier stored in word[0]</td></tr>
+    <tr><td>Chamber_Temp_Raw</td><td>INT</td><td>16</td><td>Little-endian</td><td>0.1</td><td>-100</td><td>Temp = raw*0.1-100</td></tr>
+    <tr><td>CycleTime_ms</td><td>UDINT</td><td>32</td><td>Little-endian</td><td>1</td><td>0</td><td>Milliseconds counter</td></tr>
+    <tr><td rowspan="3">Extruder</td><td>ScrewSpeed_RPM</td><td>UINT</td><td>16</td><td>Big-endian</td><td>0.01</td><td>0</td><td>Stored in holding register 40110</td></tr>
+    <tr><td>HeadPressure_kPa</td><td>UINT</td><td>16</td><td>Big-endian</td><td>0.1</td><td>0</td><td>Clamp to 0..6553.5 kPa</td></tr>
+    <tr><td>AlarmWord</td><td>BITFIELD</td><td>16</td><td>N/A</td><td>N/A</td><td>N/A</td><td>b0=EStop, b1=OverTemp, b2=OverPressure, others reserved</td></tr>
+    <tr><td rowspan="2">Barcode / Trace</td><td>GT_Code_ASCII</td><td>CHAR[24]</td><td>192</td><td>N/A</td><td>N/A</td><td>N/A</td><td>ASCII padded with 0x20</td></tr>
+    <tr><td>CRC16</td><td>UINT</td><td>16</td><td>N/A</td><td>N/A</td><td>N/A</td><td>CRC-16/IBM for payload bytes</td></tr>
+  </tbody>
+</table>

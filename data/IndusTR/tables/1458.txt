@@ -1,0 +1,5 @@
+<table>
+  <caption>SM9 Key Agreement Session Key Calculation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_SM9GenerateKey（ void unsigned char* pucResponseTmpPublicKey, unsigned int uiResponseTmpPublicKeyLen, void</td><td>* hAgreementHandle,</td></tr>
+  <tr><td>Rules</td><td>Key handle, the SM9 operation process shall comply with GB/T41389</td><td>**phKeyHandle); Use the SM9 key agreement algorithm, use its own agreement handle and the responder's agreement parameters to calculate the session key, and return the session secret</td></tr>
+</table>

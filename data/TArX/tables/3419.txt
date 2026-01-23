@@ -1,0 +1,17 @@
+<table>
+  <caption>Result of the Kolmogorov-Smirnov tests for our sample. DB(Jak) are the events classified as dark according to the definition of Jakobsson et al. (2004), while DB(vdH) are the dark events following van der Horst et al. (2009).</caption>
+  <tr><th>Samples</th><th>D</th><th>P</th></tr>
+  <tr><td>z_(DB(Jak)) vs. z_(all)</td><td>0.062</td><td>0.999</td></tr>
+  <tr><td>z_(DB(vdH)) vs. z_(all)</td><td>0.122</td><td>0.999</td></tr>
+  <tr><td>z_(DB(Jak)) vs. z_(no-DB(Jak))</td><td>0.065</td><td>0.999</td></tr>
+  <tr><td>z_(DB(vdH)) vs. z_(no-DB(vdH))</td><td>0.119</td><td>0.999</td></tr>
+  <tr><td>z_(DB(Jak)) vs. z_(DB(vdH))</td><td>0.116</td><td>0.999</td></tr>
+  <tr><td>Observed frame</td><td></td><td></td></tr>
+  <tr><td>f _(X,11h,DB) vs f _(X,11h,no-DB)</td><td>0.517</td><td>0.010</td></tr>
+  <tr><td>f _(O,11h,DB) vs f _(O,11h,no-DB)</td><td>0.767</td><td>2.14 × 10^(-5)</td></tr>
+  <tr><td>Rest frame</td><td></td><td></td></tr>
+  <tr><td>L _(X,11h,DB) vs L _(X,11h,no-DB)</td><td>0.461</td><td>0.076</td></tr>
+  <tr><td>E _(iso,DB) vs E _(iso,no-DB)</td><td>0.375</td><td>0.240</td></tr>
+  <tr><td>E _(peak,DB) vs E _(peak,no-DB)</td><td>0.225</td><td>0.840</td></tr>
+  <tr><td>L _(iso,DB) vs L _(iso,no-DB)</td><td>0.350</td><td>0.314</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Version Negotiation Result Handling Matrix (Actions, Timers, Next Messages)</caption>
+  <thead>
+    <tr><th>Negotiation Result Code</th><th>Semantic Meaning</th><th>Receiver Action</th><th>Transmit Back</th><th>Timer Started</th><th>Abort Condition</th><th>Next Stage</th><th>Fallback Procedure</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x00</td><td>Continue negotiation</td><td>Compare version, adjust expected version downward if needed</td><td>VER_NEG_REQ (updated version)</td><td>T_NEG (10 s)</td><td>T_NEG expired</td><td>Remain in version negotiation</td><td>Enter legacy communication procedure</td></tr>
+    <tr><td>0x01</td><td>Negotiation successful</td><td>Lock negotiated version; stop changing version field</td><td>VER_NEG_ACK or periodic success</td><td>T_NEXT (10 s)</td><td>No next-stage message before T_NEXT</td><td>Function negotiation if version ≥ 2.0.0</td><td>Enter legacy communication procedure</td></tr>
+    <tr><td>0x02</td><td>Negotiation failed</td><td>Stop negotiation immediately</td><td>null</td><td>null</td><td>Immediate</td><td>Exit to fallback</td><td>Enter legacy communication procedure</td></tr>
+    <tr><td>0x03</td><td>Reserved</td><td>Treat as protocol error</td><td>Error indication</td><td>T_ERR (1 s)</td><td>Error repeats 3 times</td><td>Terminate session</td><td>Manual reset required</td></tr>
+    <tr><td>0x04</td><td>Reserved</td><td>Ignore frame</td><td>null</td><td>null</td><td>—</td><td>Remain in current state</td><td>null</td></tr>
+    <tr><td>0xFF</td><td>Vendor-specific</td><td>Handle by vendor extension</td><td>Vendor response</td><td>T_VS (5 s)</td><td>Vendor procedure timeout</td><td>Vendor-defined</td><td>Vendor-defined</td></tr>
+  </tbody>
+</table>

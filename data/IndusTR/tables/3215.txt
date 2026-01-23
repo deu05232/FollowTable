@@ -1,0 +1,10 @@
+<table>
+  <caption>Spare Parts & Maintenance Schedule — Charger Communication Subsystem</caption>
+  <tr><th>Part No.</th><th>Description</th><th>Recommended Stock</th><th>MTBF (h)</th><th>Inspection Interval</th><th>Replacement Rule</th><th>Service Action</th></tr>
+  <tr><td>SP-101</td><td>CAN cable harness</td><td>10</td><td>40000</td><td>6 months</td><td>Replace if insulation damage observed</td><td>Visual inspection</td></tr>
+  <tr><td>SP-102</td><td>Communication control board</td><td>2</td><td>30000</td><td>12 months</td><td>Replace after 3 critical faults</td><td>Board swap</td></tr>
+  <tr><td>SP-103</td><td>Electronic lock actuator</td><td>3</td><td>25000</td><td>12 months</td><td>Replace if torque below threshold</td><td>Functional test</td></tr>
+  <tr><td>SP-104</td><td>Wake-up relay</td><td>5</td><td>50000</td><td>12 months</td><td>Replace on contact resistance > 100 mΩ</td><td>Measure resistance</td></tr>
+  <tr><td>SP-105</td><td>Seal gasket (connector)</td><td>20</td><td>20000</td><td>6 months</td><td>Replace if cracked or compressed</td><td>Re-seat connector</td></tr>
+  <tr><td>SP-106</td><td>Firmware update cable</td><td>1</td><td>—</td><td>As needed</td><td>N/A</td><td>Tooling inventory</td></tr>
+</table>

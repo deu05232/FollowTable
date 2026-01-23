@@ -1,0 +1,6 @@
+<table>
+  <caption>Emergency Management Beidou Terminal Monitoring Alarm Message Data Format</caption>
+  <tr><td>No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Alarm Level</td><td>8</td><td>Integer</td><td></td><td>1~4</td><td>1-   Red warning; 2   Orange warning; 3-Yellow warning; 4-   Blue warning</td></tr>
+  <tr><td>2</td><td>Content</td><td>N×8</td><td>Character</td><td colspan="2"></td><td>Variable length; N is the byte length of the content</td></tr>
+</table>

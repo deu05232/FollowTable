@@ -1,0 +1,11 @@
+<table>
+  <caption>CC Packet Header Syntax (Framing Fields Only)</caption>
+  <tr><th>Syntax element</th><th>Descriptor</th></tr>
+  <tr><td>cc_packet(){</td><td></td></tr>
+  <tr><td>cc_packet_start_code</td><td>f(32)</td></tr>
+  <tr><td>cc_packet_version</td><td>u(4)</td></tr>
+  <tr><td>cc_packet_length</td><td>u(16)</td></tr>
+  <tr><td>cc_packet_flags</td><td>u(8)</td></tr>
+  <tr><td>cc_sequence()</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

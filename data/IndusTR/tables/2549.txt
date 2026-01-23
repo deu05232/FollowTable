@@ -1,0 +1,14 @@
+<table>
+  <caption>Energy Management Interface — Building HVAC Monitoring System (BACnet Point List)</caption>
+  <thead>
+    <tr><th>Point Name</th><th>BACnet Object</th><th>Instance</th><th>Data Type</th><th>Units</th><th>Writable</th><th>Polling Rate</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>OutdoorTemp</td><td>analogInput</td><td>3001</td><td>REAL</td><td>°C</td><td>No</td><td>5 s</td><td>Outdoor air temperature</td></tr>
+    <tr><td>OutdoorRH</td><td>analogInput</td><td>3002</td><td>REAL</td><td>%</td><td>No</td><td>5 s</td><td>Outdoor air humidity</td></tr>
+    <tr><td>SupplyFanCmd</td><td>binaryOutput</td><td>4101</td><td>BOOLEAN</td><td>N/A</td><td>Yes</td><td>1 s</td><td>Supply fan start/stop</td></tr>
+    <tr><td>AlarmSummary</td><td>binaryInput</td><td>5201</td><td>BOOLEAN</td><td>N/A</td><td>No</td><td>10 s</td><td>Aggregated alarms</td></tr>
+    <tr><td>ZoneSetpoint</td><td>analogValue</td><td>6103</td><td>REAL</td><td>°C</td><td>Yes</td><td>2 s</td><td>Zone temperature setpoint</td></tr>
+    <tr><td>EnergyCounter</td><td>analogInput</td><td>9001</td><td>UINT32</td><td>kWh</td><td>No</td><td>60 s</td><td>Electrical energy consumption</td></tr>
+  </tbody>
+</table>

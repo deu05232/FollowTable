@@ -1,0 +1,19 @@
+<table>
+  <caption>Pre-Launch Wiring Integrity Test (Continuity, Insulation, Connector Pinout)</caption>
+  <thead>
+    <tr><th>Harness/Connector</th><th>Pin/Net</th><th>Test Type</th><th>Acceptance Criteria</th><th>Measured</th><th>Pass/Fail</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Harness H1 (PDU to Avionics)</td><td>J1-1 to J2-1 (VBUS+)</td><td>Continuity resistance</td><td>≤ 0.20 Ω</td><td></td><td></td><td></td></tr>
+    <tr><td>J1-2 to J2-2 (GND)</td><td>Continuity resistance</td><td>≤ 0.20 Ω</td><td></td><td></td><td></td></tr>
+    <tr><td>VBUS+ to GND</td><td>Insulation resistance @ 500 VDC</td><td>≥ 50 MΩ</td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="3">Harness H2 (Telemetry Radio)</td><td>J3-3 to J4-3 (+12V)</td><td>Continuity resistance</td><td>≤ 0.30 Ω</td><td></td><td></td><td></td></tr>
+    <tr><td>J3-5 to J4-5 (RF_CTRL)</td><td>Continuity + short-to-adjacent pins</td><td>Cont. ≤ 1.0 Ω; Shorts ≥ 10 MΩ</td><td></td><td></td><td></td></tr>
+    <tr><td>+12V to chassis</td><td>Insulation resistance @ 250 VDC</td><td>≥ 20 MΩ</td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="3">Umbilical Disconnect</td><td>Disconnect switch contacts</td><td>Contact resistance</td><td>≤ 0.05 Ω</td><td></td><td></td><td></td></tr>
+    <tr><td>Mate/unmate verification</td><td>Continuity state change</td><td>Open > 1 MΩ when released</td><td></td><td></td><td></td></tr>
+    <tr><td>Shield to chassis bond</td><td>Bond resistance</td><td>≤ 0.10 Ω</td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="2">Cable Label/Pinout Sanity</td><td>Connector keying and pin map</td><td>Visual + meter verify</td><td>Matches ICD; no swapped pairs</td><td></td><td></td><td></td></tr>
+    <tr><td>Strain relief tug test (electrical)</td><td>Continuity during light flex</td><td>No intermittent opens (0 drops)</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Elastic moduli and isotropic (direction-averaged) acoustic velocities for iron and iron-based compositions.</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th rowspan="2">Condition</th><th colspan="3">Elastic properties</th><th colspan="2">Isotropic sound speed (km/s)</th><th rowspan="2">Derived from</th></tr>
+    <tr><th>Density ρ (kg/m^3)</th><th>Bulk modulus K (GPa)</th><th>Shear modulus G (GPa)</th><th>c_L (avg)</th><th>c_T (avg)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fe</td><td>α-bcc, 300 K</td><td>7870</td><td>170</td><td>82</td><td>5.92</td><td>3.23</td><td>K,G,ρ isotropic formulas</td></tr>
+    <tr><td>Fe</td><td>γ-fcc, 1200 K</td><td>7400</td><td>150</td><td>65</td><td>5.20</td><td>2.96</td><td>K,G,ρ isotropic formulas</td></tr>
+    <tr><td>Fe-12Cr</td><td>ferritic, 300 K</td><td>7800</td><td>175</td><td>80</td><td>5.98</td><td>3.20</td><td>Homogenized alloy</td></tr>
+    <tr><td>Fe-18Cr-8Ni</td><td>austenitic, 300 K</td><td>7900</td><td>160</td><td>75</td><td>5.55</td><td>3.08</td><td>Stainless steel (avg)</td></tr>
+    <tr><td>Fe-3Si</td><td>electrical steel, 300 K</td><td>7850</td><td>180</td><td>85</td><td>6.10</td><td>3.30</td><td>Isotropic approximation</td></tr>
+    <tr><td>Fe-5Mn</td><td>TWIP-like, 300 K</td><td>7800</td><td>155</td><td>70</td><td>5.40</td><td>3.00</td><td>Isotropic approximation</td></tr>
+    <tr><td>Fe-1C</td><td>martensitic, 300 K</td><td>7800</td><td>165</td><td>78</td><td>5.80</td><td>3.16</td><td>Effective medium avg</td></tr>
+  </tbody>
+</table>

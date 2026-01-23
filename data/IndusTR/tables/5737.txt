@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Swap Interface — Request Headers & Security Rules (Field Summary Without Explicit Types)</caption>
+  <thead>
+    <tr><th>Field</th><th>Location</th><th>Required</th><th>Rule</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>operatorId</td><td>Header</td><td>Yes</td><td>Operator identifier assigned by platform</td><td>OP001</td></tr>
+    <tr><td>reqId</td><td>Header</td><td>Yes</td><td>Unique request identifier (idempotency key)</td><td>OP001-20260101-00001</td></tr>
+    <tr><td>timestamp</td><td>Header</td><td>Yes</td><td>Client request time, must be within allowed window</td><td>2026-01-01T12:00:00Z</td></tr>
+    <tr><td>nonce</td><td>Header</td><td>Yes</td><td>Random string to prevent replay</td><td>k92jd8s1</td></tr>
+    <tr><td>sign</td><td>Header</td><td>Yes</td><td>Signature of sorted parameters using shared secret</td><td>9F3A...C21</td></tr>
+    <tr><td>contentType</td><td>Header</td><td>No</td><td>Request body encoding</td><td>application/json</td></tr>
+    <tr><td>version</td><td>Header</td><td>No</td><td>Interface version negotiated with platform</td><td>v1</td></tr>
+  </tbody>
+</table>

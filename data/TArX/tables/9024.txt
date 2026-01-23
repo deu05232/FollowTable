@@ -1,0 +1,20 @@
+<table>
+  <caption>Computational Hemodynamics Setup for Pulsatile Human Arterial Flow (Solver and Runtime Settings)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Value</th><th>Unit</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Time integration</td><td>Time step (Δt)</td><td>1.0</td><td>µs</td><td>Chosen for CFL stability</td></tr>
+    <tr><td>Cardiac-cycle duration (T)</td><td>0.80</td><td>s</td><td>Used as simulation horizon</td></tr>
+    <tr><td>Steps per cycle (T/Δt)</td><td>800000</td><td>steps</td><td>Derived quantity</td></tr>
+    <tr><td>Number of cycles simulated</td><td>3</td><td>cycles</td><td>To reach periodic steady state</td></tr>
+    <tr><td rowspan="3">Spatial discretization</td><td>Mesh elements</td><td>2.5e6</td><td>elements</td><td>Tetrahedral mesh</td></tr>
+    <tr><td>Near-wall prism layers</td><td>10</td><td>layers</td><td>Boundary-layer resolution</td></tr>
+    <tr><td>Minimum cell size</td><td>0.05</td><td>mm</td><td>At stenosis throat</td></tr>
+    <tr><td rowspan="3">Blood model</td><td>Density (ρ)</td><td>1055</td><td>kg/m³</td><td>Newtonian approximation</td></tr>
+    <tr><td>Dynamic viscosity (μ)</td><td>0.0035</td><td>Pa·s</td><td>37°C</td></tr>
+    <tr><td>Inlet mean velocity</td><td>0.25</td><td>m/s</td><td>Mean value only (not a waveform)</td></tr>
+    <tr><td rowspan="2">Performance</td><td>Wall-clock time per cycle</td><td>14</td><td>h</td><td>On 32 CPU cores</td></tr>
+    <tr><td>Peak memory</td><td>96</td><td>GB</td><td>Including checkpoints</td></tr>
+  </tbody>
+</table>

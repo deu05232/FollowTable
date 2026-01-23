@@ -1,0 +1,15 @@
+<table>
+  <caption>Do/Don't Checklist for Traditional Mongolian Control Characters (Names Only, No Explicit Code Points)</caption>
+  <thead>
+    <tr><th>No.</th><th>Control Character Mentioned</th><th>Do (Guideline)</th><th>Don't (Common Mistake)</th><th>Example (Rendered Only)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Mongolian NIRUGU</td><td>Use it to separate suffix components when required by orthography</td><td>Replace it with a hyphen or a normal space</td><td>ᠪᠢᠴᠢᠭ ᠨᠢᠷᠤᠭᠤ ᠳᠠᠢ</td></tr>
+    <tr><td>2</td><td>MVS</td><td>Insert the variation selector only where the standard spelling demands it</td><td>Scatter selectors to "fix" font rendering randomly</td><td>ᠬᠡᠯᠡᠨ (preferred shape)</td></tr>
+    <tr><td>3</td><td>FVS1/FVS2/FVS3</td><td>Follow dictionary-encoded variants for proper nouns</td><td>Assume all fonts support the same variant behavior</td><td>ᠴᠢᠩᠭᠢᠰ</td></tr>
+    <tr><td>4</td><td>ZWJ</td><td>Use to enforce joining in special contexts (rare)</td><td>Use it as a general-purpose "fix-joining" tool</td><td>ᠮᠣᠩᠭᠣᠯᠬᠡᠯᠡ</td></tr>
+    <tr><td>5</td><td>ZWNJ</td><td>Use to prevent unwanted joining across morpheme boundaries</td><td>Use it between every letter to stop shaping</td><td>ᠬᠠᠷ᠎ᠠ (non-joining look)</td></tr>
+    <tr><td>6</td><td>NBSP</td><td>Use between title + name to prevent line breaks in UI labels</td><td>Use as a substitute for regular space everywhere</td><td>ᠬᠠᠭᠠᠨ ᠪᠠᠭ᠎ᠠᠲᠤᠷ</td></tr>
+    <tr><td>7</td><td>Soft hyphen</td><td>Avoid unless required by a legacy layout system</td><td>Insert to "help" line breaks inside a word</td><td>ᠮᠣᠩᠭᠣᠯᠰᠤ (with hidden break)</td></tr>
+  </tbody>
+</table>

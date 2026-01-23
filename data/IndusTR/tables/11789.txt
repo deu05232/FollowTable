@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced IR Geospatial Spacing Rules for Curved Band and Embedded Center Fixes</caption>
+  <thead>
+    <tr><th>Fix Type</th><th>Cloud Feature Used</th><th>Minimum Separation (deg)</th><th>Minimum Separation (nmi)</th><th>Search Radius (deg)</th><th>Search Radius (nmi)</th><th>Max Allowed Offset (deg)</th><th>Max Allowed Offset (nmi)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Curved band</td><td>DG arc endpoint</td><td>0.60</td><td>36</td><td>1.50</td><td>90</td><td>0.30</td><td>18</td></tr>
+    <tr><td>Curved band</td><td>MG arc midpoint</td><td>0.55</td><td>33</td><td>1.25</td><td>75</td><td>0.28</td><td>17</td></tr>
+    <tr><td>Embedded center</td><td>CSC centroid</td><td>0.50</td><td>30</td><td>1.00</td><td>60</td><td>0.25</td><td>15</td></tr>
+    <tr><td>Embedded center</td><td>W/OW coldest pixel</td><td>0.45</td><td>27</td><td>0.90</td><td>54</td><td>0.22</td><td>13</td></tr>
+    <tr><td>Shear pattern</td><td>DG cloud mass edge</td><td>0.40</td><td>24</td><td>0.80</td><td>48</td><td>0.20</td><td>12</td></tr>
+    <tr><td>Eye pattern</td><td>Eye centroid to ring</td><td>0.35</td><td>21</td><td>0.70</td><td>42</td><td>0.18</td><td>11</td></tr>
+    <tr><td>Central dense overcast</td><td>CDO boundary</td><td>0.30</td><td>18</td><td>0.60</td><td>36</td><td>0.15</td><td>9</td></tr>
+  </tbody>
+</table>

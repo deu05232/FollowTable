@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Frame Depth Image Retrieval with Output Buffer Interface</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession*</td><td>AR session pointer required to access depth APIs.</td></tr>
+    <tr><td>frame</td><td>ArFrame*</td><td>Frame handle representing the current camera image.</td></tr>
+    <tr><td>depth_format</td><td>ArImageFormat</td><td>Requested depth image format (e.g., DEPTH16, FLOAT32).</td></tr>
+    <tr><td>out_width</td><td>int32_t*</td><td>Output; receives the width of the returned depth image in pixels.</td></tr>
+    <tr><td>out_height</td><td>int32_t*</td><td>Output; receives the height of the returned depth image in pixels.</td></tr>
+    <tr><td>out_row_stride</td><td>int32_t*</td><td>Output; receives the row stride in bytes/pixels for iterating the depth buffer.</td></tr>
+    <tr><td>out_depth_image</td><td>ArImage**</td><td>Output pointer used to receive the depth ArImage associated with this frame.</td></tr>
+    <tr><td>out_release_fence</td><td>void**</td><td>Optional output; synchronization primitive indicating when the depth image can be safely read.</td></tr>
+  </tbody>
+</table>

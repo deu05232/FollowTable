@@ -1,0 +1,15 @@
+<table>
+  <caption>Tunnel area: pass-through plus unrelated parking and reversing tasks</caption>
+  <thead>
+    <tr><th rowspan="2">Scenario Block</th><th rowspan="2">Special-area Subtype</th><th colspan="5">Layered Scenario Elements</th></tr>
+    <tr><th>Road Layer</th><th>Signs/Markings Layer</th><th>Lighting/Weather Layer</th><th>Traffic Operation Layer</th><th>Monitoring/Communication Layer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pass through</td><td>Tunnel</td><td>Straight tunnel segment; one-way two lanes; asphalt; dry; emergency bay present</td><td>Tunnel entrance warning sign; speed limit sign; lane lines with reflective studs</td><td>Daytime outside; tunnel lighting on; transition zone glare control</td><td>Medium traffic; no lane change recommended in tunnel</td><td>Incident detection cameras; V2X RSU; HD map + positioning beacons</td></tr>
+    <tr><td>Pass through</td><td>Tunnel</td><td>Curved tunnel segment; one-way two lanes; wet surface</td><td>Chevron boards; variable speed limit display</td><td>Night; heavy rain outside; tunnel illumination normal</td><td>Stop-and-go possible; minimum headway enforced</td><td>Smoke sensors; emergency call boxes; vehicle-cloud uplink</td></tr>
+    <tr><td>Unrelated task</td><td>Tunnel</td><td>Emergency bay shoulder widened for stopping</td><td>Emergency bay markings; stop line at bay entrance</td><td>Night; clear</td><td>Vehicle pulls over and performs parallel parking in emergency bay</td><td>Operator voice communication; camera records parking maneuver</td></tr>
+    <tr><td>Unrelated task</td><td>Tunnel</td><td>Maintenance lay-by; low speed area</td><td>Temporary cones; “work zone” sign</td><td>Dusk; foggy outside</td><td>Vehicle performs three-point turn / reversing to exit lay-by</td><td>Work-zone V2X messages; telemetry upload</td></tr>
+    <tr><td>Unrelated task</td><td>Tunnel</td><td>Portal area shoulder</td><td>Pedestrian crossing marking at portal service area</td><td>Daytime; sunny</td><td>Vehicle yields, then executes U-turn (not a pass-through behavior)</td><td>Roadside camera + manual monitoring</td></tr>
+    <tr><td>Pass through</td><td>Tunnel</td><td>Long tunnel; one-way three lanes; dry</td><td>Overheight detection sign; lane guidance arrows</td><td>Daytime; cloudy; lighting continuous</td><td>Heavy trucks present; steady flow</td><td>Overheight sensor alarm feed; RSU; GNSS repeater</td></tr>
+  </tbody>
+</table>

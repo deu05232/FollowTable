@@ -1,0 +1,12 @@
+<table>
+  <tr><th>No. of parameters</th><th>Trans. prob.</th><th>Obs.</th><th>Influence</th><th>Total</th><th colspan="2">m</th></tr>
+  <tr><th>Model ()</th><td>matrix</td><td>density</td><td>structure</td><td></td><td>1</td><td>2</td></tr>
+  <tr><th>Conventional HMM</th><td>k(k-1)</td><td>km</td><td>-</td><td>k(k+m-1)</td><td>4</td><td>6</td></tr>
+  <tr><th>First-Order AR-HMM</th><td>k(k-1)</td><td>k(m+1)</td><td>-</td><td>k(k+m)</td><td>6</td><td>8</td></tr>
+  <tr><th>IO-HMM</th><td>k(k-1)</td><td>km</td><td>(-1)</td><td>(k(k+m-1)+-1)</td><td>10</td><td>14</td></tr>
+  <tr><th>Coupled Fact. HMM</th><td>k(k-1)</td><td>km</td><td>(-1)</td><td>(k(k+m-1)+-1)</td><td>10</td><td>14</td></tr>
+  <tr><th>Coupled HMM [ brand_oliver_pentland ]</th><td>(+k)(k-1)</td><td>km</td><td>(+k)(-1)</td><td>(+k)(+k-2)</td><td>10</td><td>12</td></tr>
+  <tr><th></th><td></td><td></td><td></td><td>+km</td><td></td><td></td></tr>
+  <tr><th>Coupled HMM [ zhong_ghosh ]</th><td>2(+k)(k-1)</td><td>km</td><td>2(+k)(-1)</td><td>2(+k)(+k-2)+km</td><td>18</td><td>20</td></tr>
+  <tr><th>Proposed Model</th><td>k(k-1)</td><td>km</td><td>k(-1)</td><td>k(k+m-1)</td><td>8</td><td>10</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>4H-SiC Epitaxial Wafer Stack Design Targets (Buffer & Drift Layer)</caption>
+  <tr><th>Wafer Diameter</th><th>Polytype</th><th>Off-axis Angle (deg)</th><th>Buffer Layer Thickness Target (µm)</th><th>Buffer Layer Doping Target (cm^-3)</th><th>Drift Layer Thickness Target (µm)</th><th>Drift Layer Doping Target (cm^-3)</th><th>Ramp Profile Notes</th></tr>
+  <tr><td>76.2 mm</td><td>4H</td><td>4.0</td><td>0.6</td><td>1.0E18 (N)</td><td>8</td><td>8.0E15</td><td>Linear ramp buffer→drift</td></tr>
+  <tr><td>100.0 mm</td><td>4H</td><td>4.0</td><td>0.8</td><td>8.0E17 (N)</td><td>10</td><td>7.0E15</td><td>Two-step ramp optional</td></tr>
+  <tr><td>150.0 mm</td><td>4H</td><td>4.0</td><td>1.0</td><td>6.0E17 (N)</td><td>12</td><td>6.0E15</td><td>Hold for 60 s at transition</td></tr>
+  <tr><td>200.0 mm</td><td>4H</td><td>4.0</td><td>1.2</td><td>5.0E17 (N)</td><td>15</td><td>5.0E15</td><td>Smooth ramp to reduce slip</td></tr>
+  <tr><td>150.0 mm</td><td>4H</td><td>8.0</td><td>1.0</td><td>7.0E17 (N)</td><td>10</td><td>1.2E16</td><td>Higher tilt for step-flow</td></tr>
+  <tr><td>200.0 mm</td><td>4H</td><td>8.0</td><td>1.2</td><td>6.0E17 (N)</td><td>12</td><td>1.0E16</td><td>Higher tilt, lower thickness</td></tr>
+</table>

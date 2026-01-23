@@ -1,0 +1,5 @@
+<table>
+  <caption>SAF_SM9Verify (truncated prototype)</caption>
+  <tr><th>Prototype</th><td>int SAF_SM9Verify(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned char *pucData, unsigned int uiDataLength, ... );</td></tr>
+  <tr><th>Rules</th><td>Verify a signature using the SM9 signature master public key. The SM9 computation process shall comply with GB/T 41389.</td></tr>
+</table>

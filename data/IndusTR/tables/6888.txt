@@ -1,0 +1,15 @@
+<table>
+  <caption>Service BOM Relationship with Delivered Product Identification</caption>
+  <thead>
+    <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parent Part No.</td><td>Code of the functional component serving as the parent item</td></tr>
+    <tr><td>2</td><td>Child Part No.</td><td>Code of the functional component serving as the child item</td></tr>
+    <tr><td>3</td><td>Quantity</td><td>Quantity of the child item in the parent assembly</td></tr>
+    <tr><td>4</td><td>Product Serial Number</td><td>Serial number of the delivered finished product where this relationship applies</td></tr>
+    <tr><td>5</td><td>Product Model</td><td>Model of the delivered finished product</td></tr>
+    <tr><td>6</td><td>Product Name</td><td>Name/marketing name of the delivered finished product</td></tr>
+    <tr><td>7</td><td>Effectivity Date</td><td>Date range when the relationship is valid for the delivered product</td></tr>
+  </tbody>
+</table>

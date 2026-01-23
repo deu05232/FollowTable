@@ -1,0 +1,13 @@
+<table>
+  <caption>Rubber Mixing Process Conveying Plan Data Structure Table</caption>
+  <tr><td>Serial No.</td><td>Data Structure Name</td><td>Data Type</td><td>Data Length (bit)</td><td>Description</td></tr>
+  <tr><td>1</td><td rowspan="9">Conveying Plan Table</td><td>STR</td><td>User-defined</td><td>Conveying plan number</td></tr>
+  <tr><td>2</td><td>INT</td><td>16</td><td>Source tank group (conveying line number)</td></tr>
+  <tr><td>3</td><td>INT</td><td>16</td><td>Source tank type (1: pressure-feed tank, 2: silo)</td></tr>
+  <tr><td>4</td><td>INT</td><td>16</td><td>Source tank number (when source tank type is 1: 99; when source tank type is 2: silo number)</td></tr>
+  <tr><td>5</td><td>INT</td><td>16</td><td>Target production line/machine number</td></tr>
+  <tr><td>6</td><td>INT</td><td>16</td><td>Target tank group (reserved)</td></tr>
+  <tr><td>7</td><td>INT</td><td>16</td><td>Target tank type (1: day tank, 2: silo)</td></tr>
+  <tr><td>8</td><td>INT</td><td>16</td><td>Target tank number (when target tank type is 1: day tank number; when target tank type is 2: silo number)</td></tr>
+  <tr><td>9</td><td>STR</td><td>User-defined</td><td>Material name corresponding to the bin</td></tr>
+</table>

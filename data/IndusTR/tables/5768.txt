@@ -1,0 +1,19 @@
+<table>
+  <caption>Knitting Machine Time Metrics Dictionary (Lifecycle and Resettable Counters)</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="11">Accumulated duration counters (reset policies)</td></tr>
+    <tr><td>0x0320</td><td>Lifetime Running Time</td><td>LifetimeRunningTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int64</td><td>>=0</td><td>h</td><td>Total accumulated running time since installation (non-resettable).</td><td></td></tr>
+    <tr><td>0x0321</td><td>Lifetime Downtime</td><td>LifetimeDowntime</td><td>O</td><td>VAR</td><td>RO</td><td>Int64</td><td>>=0</td><td>h</td><td>Total accumulated downtime since installation (non-resettable).</td><td></td></tr>
+    <tr><td>0x0322</td><td>Daily Running Time</td><td>DailyRunningTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>0..1440</td><td>min</td><td>Accumulated running time for the current production day (resets at day boundary).</td><td></td></tr>
+    <tr><td>0x0323</td><td>Daily Downtime</td><td>DailyDowntime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>0..1440</td><td>min</td><td>Accumulated downtime for the current production day (resets at day boundary).</td><td></td></tr>
+    <tr><td>0x0324</td><td>Since-Reset Running Time</td><td>SinceResetRunningTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Accumulated running time since the last counter reset.</td><td></td></tr>
+    <tr><td>0x0325</td><td>Since-Reset Downtime</td><td>SinceResetDowntime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Accumulated downtime since the last counter reset.</td><td></td></tr>
+    <tr><td colspan="11">Event-to-event elapsed time</td></tr>
+    <tr><td>0x0326</td><td>Time Since Last Start</td><td>TimeSinceLastStart</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Elapsed time since the most recent transition into running.</td><td></td></tr>
+    <tr><td>0x0327</td><td>Time Since Last Stop</td><td>TimeSinceLastStop</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Elapsed time since the most recent stop event.</td><td></td></tr>
+    <tr><td>0x0328</td><td>Last Downtime Duration</td><td>LastDowntimeDuration</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Duration of the most recently completed downtime interval.</td><td></td></tr>
+  </tbody>
+</table>

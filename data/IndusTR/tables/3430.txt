@@ -1,0 +1,14 @@
+<table>
+  <caption>API Request Parameter Definition for Obtaining Authorization Random Number</caption>
+  <tr><td>Field Name</td><td>Field Description</td><td>Constraint</td><td>Data Type</td><td>Length</td><td>Description</td></tr>
+  <tr><td>codeContent</td><td>Code value information</td><td>Required</td><td>String</td><td></td><td>Provided by its APP</td></tr>
+  <tr><td>deviceId</td><td>Unified identity authentication tokenSNO</td><td>Optional</td><td>String</td><td></td><td>Provided by its APP</td></tr>
+  <tr><td>requestCode</td><td>Requester code</td><td>Required</td><td>String</td><td></td><td>Is a 6-digit administrative division code</td></tr>
+  <tr><td>requestJgID</td><td>Unified Social Credit Code</td><td>Optional</td><td>String</td><td>18</td><td>Unified Social Credit Code of the scanning organization</td></tr>
+  <tr><td>requestJgjc</td><td>Short name of the scanning organization</td><td>Optional</td><td>String</td><td></td><td>Short name of the scanning organization</td></tr>
+  <tr><td>requestJgqc</td><td>Full name of the scanning organization</td><td>Optional</td><td>String</td><td></td><td>Full name of the scanning organization</td></tr>
+  <tr><td>ylkkzx</td><td>Extensible item</td><td>Optional</td><td>String</td><td></td><td>Reserved extensible item (organized using delimiters)</td></tr>
+  <tr><td>certificateIds</td><td>License identifier</td><td>Optional</td><td>String</td><td></td><td>License identifier or identifier list returned by searching the national platform electronic license system interface; this license identifier has validity period and usage count limits</td></tr>
+  <tr><td>permissions</td><td>Authorized operation permissions</td><td>Optional</td><td>String   SG</td><td>SG</td><td>Operation permission or permission list, optionally filled by the authorizing subject. Each permission can select one or more of: 1 query, 2 download, 3 information retrieval, 4 license verification, etc.</td></tr>
+  <tr><td>authorizedSubject</td><td>Authorized subject</td><td>Optional</td><td>String</td><td></td><td>Optionally filled by the authorizing subject. To grant other natural persons or organizations the ability to query or download electronic licenses, fill in the other person's name or the organization name</td></tr>
+</table>

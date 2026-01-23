@@ -1,0 +1,10 @@
+<table>
+  <caption>Autonomous Driving Data Recorder — Logging Signals Combined with EMC Immunity Test Pulses</caption>
+  <tr><th>Category</th><th>Parameter</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Range / Level</th><th>Resolution</th><th>Accuracy</th><th>Description</th></tr>
+  <tr><td>Recorded signal</td><td>Vehicle longitudinal acceleration</td><td>10 Hz</td><td>m/s²</td><td>-20 ~ 20</td><td>1</td><td>±10% of sensor range</td><td></td></tr>
+  <tr><td>Recorded signal</td><td>Perceived object type</td><td>10 Hz</td><td>Not applicable</td><td>Defined by the enterprise</td><td>Not applicable</td><td>Matches perception capability</td><td></td></tr>
+  <tr><td>Recorded signal</td><td>Autonomous driving function status</td><td>2 Hz</td><td>Not applicable</td><td>0/1/2/3/4</td><td>Not applicable</td><td>No error</td><td></td></tr>
+  <tr><td>EMC test</td><td>Test pulse 1</td><td>Not applicable</td><td>Not applicable</td><td>Immunity level III</td><td>Not applicable</td><td>Not applicable</td><td>Functional status meets the requirement during the pulse</td></tr>
+  <tr><td>EMC test</td><td>Test pulse 2a</td><td>Not applicable</td><td>Not applicable</td><td>Immunity level III</td><td>Not applicable</td><td>Not applicable</td><td></td></tr>
+  <tr><td>EMC test</td><td>Test pulse 2b</td><td>Not applicable</td><td>Not applicable</td><td>Immunity level III</td><td>Not applicable</td><td>Not applicable</td><td></td></tr>
+</table>

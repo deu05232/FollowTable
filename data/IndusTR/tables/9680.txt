@@ -1,0 +1,15 @@
+<table>
+  <caption>High-Altitude Balloon Pre-Release Test Actions and Sign-Off Sheet</caption>
+  <thead>
+    <tr><th>Test Area</th><th>Test Point</th><th>Acceptance Criteria (Text)</th><th>Result (Pass/Fail)</th><th>Technician</th><th>Date/Time</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Electrical</td><td>Emergency power supply start</td><td>Starts within allowable time window</td><td>PASS</td><td>A. Rivera</td><td>2026-01-18 09:10</td><td>No abnormal noise</td></tr>
+    <tr><td>Power distributor port X1</td><td>Voltage present at output</td><td>PASS</td><td>A. Rivera</td><td>2026-01-18 09:18</td><td>Load connected</td></tr>
+    <tr><td>Cable continuity (Cable 1)</td><td>Continuity confirmed end-to-end</td><td>PASS</td><td>L. Chen</td><td>2026-01-18 09:35</td><td>Wiggle test stable</td></tr>
+    <tr><td rowspan="2">RF / Tracking</td><td>Radar transponder beacon</td><td>Beacon detectable on ground station</td><td>PASS</td><td>L. Chen</td><td>2026-01-18 10:05</td><td>SNR acceptable</td></tr>
+    <tr><td>GPS lock</td><td>3D fix obtained</td><td>PASS</td><td>L. Chen</td><td>2026-01-18 10:12</td><td>Fix in 42 s</td></tr>
+    <tr><td rowspan="2">Mechanical</td><td>Mounting screws (Equipment 1)</td><td>Installed and safety-marked</td><td>PASS</td><td>M. Davis</td><td>2026-01-18 10:40</td><td>Paint marks applied</td></tr>
+    <tr><td>Flange connection</td><td>No visible gap; hardware secured</td><td>PASS</td><td>M. Davis</td><td>2026-01-18 10:55</td><td>Re-check after transport</td></tr>
+  </tbody>
+</table>

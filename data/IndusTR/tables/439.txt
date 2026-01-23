@@ -1,0 +1,10 @@
+<table>
+  <caption>Definition of Encoded Data Fields for Agricultural Inputs Trade Item Electronic Codes</caption>
+  <tr><td>Element string name</td><td>Application identifier</td><td>Format of the application identifier data field</td><td>Optional/Mandatory</td></tr>
+  <tr><td>Global Trade Item Number</td><td>01</td><td>N14</td><td>Mandatory</td></tr>
+  <tr><td>Batch/Lot number</td><td>10</td><td>X..20b</td><td>Optional</td></tr>
+  <tr><td>Serial number</td><td>21</td><td>X..20</td><td>Optional</td></tr>
+  <tr><td>Expiration date</td><td>17</td><td>N</td><td>Optional</td></tr>
+  <tr><td>Agricultural inputs product category code</td><td>240</td><td>N4</td><td>Optional</td></tr>
+  <tr><td colspan="4">aN: numeric characters, N14: 14 numeric characters, fixed length. bX: characters are written in accordance with the requirements specified in GB/T 1988, up to 20 arbitrary characters written as required, variable length. 'For the agricultural inputs product category code, see Appendix A.</td></tr>
+</table>

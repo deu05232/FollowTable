@@ -1,0 +1,10 @@
+# Websites blocked in mainland China with notes on blocking technique and workarounds
+
+| Website | Domain | Common Blocking Symptom | Suspected Method | Typical Workaround Mentioned |
+| --- | --- | --- | --- | --- |
+| YouTube | youtube.com | Connection reset / timeout | IP blocking / SNI filtering | VPN |
+| Facebook | facebook.com | Timeout | DNS poisoning / IP blocking | Alternate DNS + VPN |
+| Twitter (X) | twitter.com | Timeout | IP blocking | VPN |
+| Wikipedia | wikipedia.org | Intermittent access | URL filtering | Mirror sites |
+| Google Search | google.com | Redirect / reset | DNS poisoning | HTTPS-based tools |
+| Dropbox | dropbox.com | Timeout | IP blocking | VPN |

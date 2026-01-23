@@ -1,0 +1,8 @@
+<table>
+  <caption>Sanitary equipment parameter registry fields and constraint qualifiers</caption>
+  <tr><th>Registry field</th><th>Meaning</th><th>Constraint qualifier</th><th>Submission status</th></tr>
+  <tr><td>Infusion rate range</td><td>Declared rate range for the device</td><td>Must be expressed in mL/h</td><td>Mandatory</td></tr>
+  <tr><td>Energy range</td><td>Declared shock energy range</td><td>Must follow standard coding set</td><td>Mandatory</td></tr>
+  <tr><td>Operating frequency</td><td>Declared frequency setting</td><td>Required only when applicable</td><td>Conditional</td></tr>
+  <tr><td>Testing speed</td><td>Declared throughput</td><td>Must be supported by test report reference</td><td>Mandatory</td></tr>
+</table>

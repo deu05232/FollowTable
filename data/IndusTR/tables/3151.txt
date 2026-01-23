@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 API Test Method  Laboratory Environment and Instrument Calibration Requirements</caption>
+  <thead>
+    <tr><th>Item</th><th>Requirement</th><th>Tolerance</th><th>Instrument</th><th>Calibration Interval</th><th>Record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient Temperature</td><td>23°C</td><td>±2°C</td><td>Thermometer</td><td>12 months</td><td>ENV-TEMP-LOG</td></tr>
+    <tr><td>Relative Humidity</td><td>45%</td><td>±10%</td><td>Hygrometer</td><td>12 months</td><td>ENV-RH-LOG</td></tr>
+    <tr><td>EMI Noise Floor</td><td>< -90 dBm</td><td>±3 dB</td><td>Spectrum Analyzer</td><td>6 months</td><td>EMI-REPORT</td></tr>
+    <tr><td>Clock Accuracy</td><td>±20 ppm</td><td>±5 ppm</td><td>Frequency Counter</td><td>6 months</td><td>CLK-CAL</td></tr>
+    <tr><td>Randomness Tool</td><td>NIST SP 800-22 suite</td><td>N/A</td><td>Software</td><td>Per release</td><td>RNG-RESULT</td></tr>
+    <tr><td>Traffic Capture</td><td>Full packet logging</td><td>N/A</td><td>Network Sniffer</td><td>Per project</td><td>PCAP</td></tr>
+  </tbody>
+</table>

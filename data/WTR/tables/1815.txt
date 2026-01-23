@@ -1,0 +1,6 @@
+# CPU Registers
+
+| Number | 0 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 12 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Name | INT | ADDRL | ADDRS | IBUS | DBUS | SYSCALL | BKPT | RI | OVF |
+| Description | External interrupt | Address error exception (load or instruction fetch) | Address error exception (store) | Bus error on instruction fetch | Bus error on data load or store | Syscall exception | Breakpoint exception | Reserved instruction exception | Arithmetic overflow exception |

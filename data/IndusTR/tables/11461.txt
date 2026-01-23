@@ -1,0 +1,7 @@
+<table>
+  <caption>Road traffic safety early warning — Weather hazard release time fields</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Weather Warning Type</td><td>Character</td><td>4</td><td>No</td><td>Yes</td><td>Code list maintained by the issuing authority</td></tr>
+  <tr><td>2</td><td>Warning Issue Time</td><td>Date</td><td>16</td><td>No</td><td>Yes</td><td>Shall follow the unified time format specification</td></tr>
+  <tr><td>3</td><td>Warning Expiration Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>May be empty if unknown at release time</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>AR tracking quality enumeration values</caption>
+  <tr><th>Enum value</th><th>Meaning</th></tr>
+  <tr><td>AR_TRACKING_QUALITY_NONE = 0</td><td>No reliable tracking is available.</td></tr>
+  <tr><td>AR_TRACKING_QUALITY_LIMITED = 1</td><td>Tracking is working but accuracy may be reduced due to environment or motion.</td></tr>
+  <tr><td>AR_TRACKING_QUALITY_NORMAL = 2</td><td>Tracking is stable and suitable for placing content.</td></tr>
+</table>

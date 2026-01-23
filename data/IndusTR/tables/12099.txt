@@ -1,0 +1,15 @@
+<table>
+  <caption>Curing Press Post-Process Inspection and Classification Table</caption>
+  <thead>
+    <tr><th>No.</th><th>Curing / Post-Curing Stage</th><th>Measurement Inputs</th><th>Computation</th><th>Output (Inspection Result)</th><th>Disposition Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Mold Temperature Audit</td><td>Mold surface temp map (°C), target band</td><td>Calculate max-min spread, mean deviation</td><td>Temp uniformity index</td><td>Flag as out-of-spec if index > limit</td></tr>
+    <tr><td>2</td><td>Bladder Leak Check</td><td>Pressure decay curve, time window</td><td>Fit decay slope</td><td>Leak status (OK / Leak Suspected)</td><td>Send maintenance ticket if Leak Suspected</td></tr>
+    <tr><td>3</td><td>Cure State Estimation</td><td>Time, press log, compound ID</td><td>Estimate cure ratio using model</td><td>Cure ratio (%)</td><td>Mark as undercured if < threshold</td></tr>
+    <tr><td>4</td><td>Visual Surface Defect Scan</td><td>Camera images, defect library</td><td>Vision classification</td><td>Defect type list</td><td>Reject if critical defect appears</td></tr>
+    <tr><td>5</td><td>Uniformity Machine Measurement</td><td>Radial force variation, lateral force variation</td><td>Compute RFV/LFV metrics</td><td>Uniformity grade (A/B/C/D)</td><td>Downgrade if grade worse than B</td></tr>
+    <tr><td>6</td><td>Dynamic Balance Check</td><td>Imbalance vector, speed sweep</td><td>Calculate imbalance magnitude</td><td>Balance classification (Pass / Fail)</td><td>Route Fail to correction cell</td></tr>
+    <tr><td>7</td><td>Final Quality Release</td><td>All inspection outputs, spec limits</td><td>Rules engine aggregation</td><td>Quality release status</td><td>Release / Hold / Scrap</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,32 @@
+<table>
+  <caption>Battery Swap Interface Payload Examples (Contains Forbidden Nested Objects Instead of Field Checklist)</caption>
+  <thead>
+    <tr><th>API</th><th>Direction</th><th>Example JSON Payload</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>/swap/auth</td><td>Request</td><td>{
+  "header": {"msgId": "A1001", "timestamp": "2026-01-19T10:00:00Z"},
+  "body": {"vehicleAuthSeq": "OP001-00000001", "vinCode": "L1234567890123456", "plateNum": "ABC123"}
+}</td><td>Shows nested header/body structure</td></tr>
+    <tr><td>/swap/auth</td><td>Response</td><td>{
+  "header": {"msgId": "A1001", "timestamp": "2026-01-19T10:00:01Z"},
+  "body": {"SuccStat": 0, "failReasonMsg": ""}
+}</td><td>SuccStat is a result indicator</td></tr>
+    <tr><td>/swap/order/create</td><td>Request</td><td>{
+  "header": {"msgId": "O2001", "timestamp": "2026-01-19T10:05:00Z"},
+  "body": {"swapOrderNo": "OP001-00000099", "batterySwapEquipmentId": "EQ-889900", "vinCode": "L1234567890123456"}
+}</td><td>Contains order and equipment identifiers</td></tr>
+    <tr><td>/swap/order/create</td><td>Response</td><td>{
+  "header": {"msgId": "O2001", "timestamp": "2026-01-19T10:05:02Z"},
+  "body": {"succStat": 1, "failReasonCode": 2, "failReasonMsg": "Equipment offline"}
+}</td><td>Error example with failReasonCode/msg</td></tr>
+    <tr><td>/swap/queue</td><td>Response</td><td>{
+  "header": {"msgId": "Q3001", "timestamp": "2026-01-19T10:06:00Z"},
+  "body": {"positionNo": 7, "estimatedWaitMin": 12}
+}</td><td>Includes derived value estimatedWaitMin</td></tr>
+    <tr><td>/swap/order/status</td><td>Response</td><td>{
+  "header": {"msgId": "S4001", "timestamp": "2026-01-19T10:20:00Z"},
+  "body": {"swapOrderNo": "OP001-00000099", "orderState": "COMPLETED", "succStat": 0}
+}</td><td>Order state is illustrative</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Interface Definition for Retrieving the List of Users with Installed Certificates</caption>
+  <tr><td>Prototype</td><td>BSTR SOF_GetUserList(</td></tr>
+  <tr><td>Description</td><td>Obtain the list of users for currently installed certificates</td></tr>
+  <tr><td>Parameters</td><td>None</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>Certificate list [success; returns a certificate list string in the format: Username1||CertID1&&&Username2||CertID2&&&. Different certificate list return values may be obtained depending on the certificate application policy. In the certificate list, the username represents the certificate Common Name (CN). CertID is the unique certificate identifier; its format is implementation-defined and should include items such as container name, application name, device serial number, etc. Using CertID, the unique signing certificate and encryption certificate should be located, and the corresponding user keys should be used]</td></tr>
+  <tr><td>Empty string (failure, or no certificate user list currently exists; use SOF_GetLastError to obtain an error code as defined in Table A.1)</td></tr>
+</table>

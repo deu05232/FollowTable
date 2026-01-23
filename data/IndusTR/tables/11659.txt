@@ -1,0 +1,15 @@
+<table>
+  <caption>Polling/Heartbeat Command Frame Map (Header-Only Operations)</caption>
+  <thead>
+    <tr><th>Operation</th><th>Direction</th><th>Command (Hex)</th><th>Length (Hex)</th><th>Data Segment</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Heartbeat</td><td>Controller → Sub-unit</td><td>A2</td><td>0000</td><td>null</td><td>Keep-alive / link check</td></tr>
+    <tr><td>Status Poll</td><td>Controller → Sub-unit</td><td>A3</td><td>0000</td><td>null</td><td>Request that device reports status later</td></tr>
+    <tr><td>Address Scan</td><td>Controller → Bus</td><td>B0</td><td>0000</td><td>null</td><td>Discover online sub-units</td></tr>
+    <tr><td>Time Sync Trigger</td><td>Controller → Sub-unit</td><td>B1</td><td>0000</td><td>null</td><td>Trigger device to use preconfigured time</td></tr>
+    <tr><td>Clear Alarm Latch</td><td>Controller → Sub-unit</td><td>B2</td><td>0000</td><td>null</td><td>Clear latched alarm flags</td></tr>
+    <tr><td>Factory Reset Request</td><td>Controller → Sub-unit</td><td>BF</td><td>0000</td><td>null</td><td>Request reset (no parameters in-frame)</td></tr>
+    <tr><td colspan="6">Frame format for all rows: Start Symbol + KADDL + Command + Length + CRC-16 + End Symbol.</td></tr>
+  </tbody>
+</table>

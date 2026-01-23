@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Equipment Settings for Fire Extinguisher Cylinder Hydrostatic Forming Line</caption>
+  <thead>
+    <tr><th>Machine Station</th><th>Parameter</th><th>Setpoint</th><th>Tolerance</th><th>Monitoring Frequency</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Blank Heating</td><td>Furnace temperature</td><td>980 ℃</td><td>± 15 ℃</td><td>Every batch</td><td>Steel grade-dependent</td></tr>
+    <tr><td>Press Forming</td><td>Forming pressure</td><td>210 bar</td><td>± 10 bar</td><td>Hourly</td><td>Die wear impacts drift</td></tr>
+    <tr><td>Quenching</td><td>Water flow rate</td><td>65 L/min</td><td>± 5 L/min</td><td>Shift</td><td>Maintain hardness spec</td></tr>
+    <tr><td>Necking</td><td>Spindle speed</td><td>1,200 rpm</td><td>± 50 rpm</td><td>Shift</td><td>Thread quality control</td></tr>
+    <tr><td>Powder Coating</td><td>Line speed</td><td>2.2 m/min</td><td>± 0.2 m/min</td><td>Daily</td><td>Film thickness target</td></tr>
+    <tr><td>Curing Oven</td><td>Cure time</td><td>18 min</td><td>± 2 min</td><td>Daily</td><td>Color and adhesion</td></tr>
+  </tbody>
+</table>

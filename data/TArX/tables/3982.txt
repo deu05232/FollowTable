@@ -1,0 +1,17 @@
+<table>
+  <caption>Model parameters used by BASE.</caption>
+  <tr><th></th><th></th><th></th><th colspan="2">Widest</th><th></th><th></th><th colspan="3">Data Types b</th></tr>
+  <tr><th>Symbol</th><th>Designation</th><th>Unit</th><th colspan="2">Prior Support</th><th>Cyclic a</th><th>Prior Type</th><th>AM</th><th>RV</th><th>AM+RV</th></tr>
+  <tr><td></td><td>eccentricity</td><td>1</td><td>[0 ,</td><td>1)</td><td></td><td>uniform</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>orbital frequency</td><td></td><td>(0 ,</td><td>1]</td><td></td><td>Jeffreys</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>mean anomaly at over 2</td><td>1</td><td>[0 ,</td><td>1)</td><td></td><td>uniform</td><td></td><td></td><td></td></tr>
+  <tr><td>,</td><td>argument of periapsis c</td><td></td><td>[0 ,</td><td>2)</td><td></td><td>uniform</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>inclination</td><td></td><td>[0 ,</td><td>)</td><td></td><td>uniform</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>position angle of the ascending node e</td><td></td><td>[0 ,</td><td>2)</td><td></td><td>uniform</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>.27semi-major axis of orbit of secondary around primary over distance</td><td></td><td>[-3 ,</td><td>-5] f</td><td></td><td>Jeffreys</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>parallax</td><td></td><td>(0 ,</td><td>0.77] g</td><td></td><td>Jeffreys</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>RV offset</td><td></td><td colspan="2">—</td><td></td><td>uniform</td><td></td><td></td><td></td></tr>
+  <tr><td>,_(i)</td><td>RV semi-amplitude d</td><td></td><td colspan="2">≥ 0</td><td></td><td>mod. Jeffreys</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>standard deviation of additional AM noise</td><td></td><td colspan="2">≥ 0</td><td></td><td>mod. Jeffreys</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>standard deviation of additional RV noise</td><td></td><td colspan="2">≥ 0</td><td></td><td>mod. Jeffreys</td><td></td><td></td><td></td></tr>
+</table>

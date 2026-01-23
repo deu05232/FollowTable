@@ -1,0 +1,16 @@
+<table>
+  <caption>CAN Frame Bit Timing and Stuff Bit Rules During Version Negotiation Exchange</caption>
+  <thead>
+    <tr><th>Layer Aspect</th><th>Parameter</th><th>Typical Value</th><th>Unit</th><th>Encoding / Bits</th><th>Applies To</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Physical/Data Link</td><td>Nominal Bit Rate</td><td>500</td><td>kbit/s</td><td>N/A</td><td>All negotiation frames</td><td>Arbitration phase speed</td></tr>
+    <tr><td>Physical/Data Link</td><td>Data Bit Rate</td><td>2000</td><td>kbit/s</td><td>N/A</td><td>CAN FD only</td><td>Data phase speed; not payload semantics</td></tr>
+    <tr><td>Data Link</td><td>Sample Point</td><td>80</td><td>%</td><td>N/A</td><td>All negotiation frames</td><td>Controller configuration</td></tr>
+    <tr><td>Data Link</td><td>Bit Stuffing</td><td>Enabled</td><td>Boolean</td><td>After 5 identical bits insert 1 inverse bit</td><td>All negotiation frames</td><td>Affects on-the-wire representation</td></tr>
+    <tr><td>Data Link</td><td>CRC Length</td><td>15</td><td>bits</td><td>CRC-15 (classic CAN)</td><td>CAN2.0B frames</td><td>Integrity check; unrelated to negotiation fields</td></tr>
+    <tr><td>Data Link</td><td>ACK Slot</td><td>Dominant</td><td>bit</td><td>1 bit</td><td>Receiver behavior</td><td>Receiver asserts ACK if frame received OK</td></tr>
+    <tr><td>Data Link</td><td>Intermission</td><td>3</td><td>bits</td><td>Fixed recessive</td><td>All negotiation frames</td><td>Minimum idle between frames</td></tr>
+    <tr><td>Error Handling</td><td>Active Error Flag</td><td>6</td><td>bits</td><td>Dominant sequence</td><td>Error state</td><td>Error signaling, not negotiation outcome</td></tr>
+  </tbody>
+</table>

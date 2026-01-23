@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Test Setup Conditions for Electric Compressor Noise Measurement (Environment & Instrument Calibration)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Requirement</th><th>Typical Setting</th><th>Instrument</th><th>Calibration Interval</th><th>Reference Document</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>20–30 °C</td><td>23 °C</td><td>Environmental chamber</td><td>12 months</td><td>Lab WI-ACOU-01</td></tr>
+    <tr><td>Relative humidity</td><td>30–70 %RH</td><td>45 %RH</td><td>Hygrometer</td><td>6 months</td><td>Lab WI-ACOU-01</td></tr>
+    <tr><td>Background noise</td><td>At least 10 dB below DUT</td><td>28 dB(A)</td><td>Sound level meter</td><td>12 months</td><td>ISO 3744 (setup)</td></tr>
+    <tr><td>Microphone position radius</td><td>Per hemisphere layout</td><td>1.0 m</td><td>Microphone array</td><td>Before each test</td><td>ISO 3744 (layout)</td></tr>
+    <tr><td>Sampling duration</td><td>Minimum acquisition time</td><td>30 s</td><td>DAQ system</td><td>12 months</td><td>Lab WI-ACOU-02</td></tr>
+    <tr><td>Tachometer verification</td><td>Speed error limit</td><td>±0.5%</td><td>Laser tachometer</td><td>6 months</td><td>Metrology CAL-12</td></tr>
+  </tbody>
+</table>

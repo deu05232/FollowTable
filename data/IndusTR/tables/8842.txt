@@ -1,0 +1,12 @@
+<table>
+  <caption>Segmented Transfer Data Frames: Header Fields and Segment Payload Rules</caption>
+  <tr><th>Component</th><th>Value/Range</th><th>Applies To</th><th>Meaning</th></tr>
+  <tr><td>PF</td><td>0x36</td><td>All segmented data frames</td><td>Identifies segmented transfer data frame</td></tr>
+  <tr><td>PS</td><td>Destination Address</td><td>All segmented data frames</td><td>Receiver of the segmented message</td></tr>
+  <tr><td>SA</td><td>Source Address</td><td>All segmented data frames</td><td>Sender of the segmented message</td></tr>
+  <tr><td>Sequence Number</td><td>0..255</td><td>All segmented data frames</td><td>0 indicates first frame; >0 indicates consecutive frame</td></tr>
+  <tr><td>Total Frames</td><td>1..255</td><td>First frame only</td><td>Total number of frames in this transfer</td></tr>
+  <tr><td>Total Bytes</td><td>0..65535</td><td>First frame only</td><td>Total payload size before padding</td></tr>
+  <tr><td>Payload per frame</td><td>4 bytes (seq=0), 7 bytes (seq>0)</td><td>All segmented data frames</td><td>How many payload bytes are carried in each frame type</td></tr>
+  <tr><td>Padding</td><td>0xFF</td><td>Last frame when needed</td><td>Fill unused bytes in the final frame</td></tr>
+</table>

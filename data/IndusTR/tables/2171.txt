@@ -1,0 +1,10 @@
+<table>
+  <caption>Battery Swap Message Trace Log Index (Event Metadata Only)</caption>
+  <tr><th>Trace ID</th><th>Timestamp (UTC)</th><th>Service</th><th>Endpoint</th><th>HTTP Code</th><th>Notes</th></tr>
+  <tr><td>trc-9f21a</td><td>2026-01-12T08:10:22Z</td><td>swap-order</td><td>/v1/order/create</td><td>200</td><td>swapOrderNo present in payload</td></tr>
+  <tr><td>trc-9f21b</td><td>2026-01-12T08:11:04Z</td><td>swap-queue</td><td>/v1/queue/push</td><td>202</td><td>batterySwapEquipmentId observed</td></tr>
+  <tr><td>trc-9f21c</td><td>2026-01-12T08:12:40Z</td><td>swap-status</td><td>/v1/order/status/push</td><td>500</td><td>vinCode included; upstream error</td></tr>
+  <tr><td>trc-9f21d</td><td>2026-01-12T08:13:10Z</td><td>swap-status</td><td>/v1/order/status/push</td><td>200</td><td>SuccStat=0 returned</td></tr>
+  <tr><td>trc-9f21e</td><td>2026-01-12T08:15:55Z</td><td>auth</td><td>/v1/token</td><td>401</td><td>Invalid client credentials</td></tr>
+  <tr><td>trc-9f21f</td><td>2026-01-12T08:17:03Z</td><td>swap-order</td><td>/v1/order/create</td><td>429</td><td>Rate limit triggered</td></tr>
+</table>

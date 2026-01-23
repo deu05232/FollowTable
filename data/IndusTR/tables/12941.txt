@@ -1,0 +1,14 @@
+<table>
+  <caption>Maintenance Planning Matrix for Deliverable Service Items</caption>
+  <thead>
+    <tr><th>Plan ID</th><th>Maintainable Item</th><th>Item Type (LRU/LMP/LRI)</th><th>Inspection Task</th><th>Interval (Hours)</th><th>Estimated Service Life (Months)</th><th>Required Tools</th><th>Required Spares</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MP-001</td><td>Fan Assembly</td><td>LRU</td><td>Check vibration</td><td>500</td><td>36</td><td>Vibration meter</td><td>Fan belt</td></tr>
+    <tr><td>MP-002</td><td>Heat Exchanger</td><td>LMP</td><td>Leak test</td><td>1000</td><td>60</td><td>Pressure kit</td><td>O-ring set</td></tr>
+    <tr><td>MP-003</td><td>Control PCB</td><td>LRI</td><td>Firmware health check</td><td>750</td><td>48</td><td>ESD mat</td><td>PCB fuse</td></tr>
+    <tr><td>MP-004</td><td>Pump Unit</td><td>LRU</td><td>Flow rate verification</td><td>600</td><td>30</td><td>Flow meter</td><td>Seal kit</td></tr>
+    <tr><td>MP-005</td><td>Filter Cartridge</td><td>LRI</td><td>Replace when clogged</td><td>250</td><td>12</td><td>Wrench set</td><td>Filter cartridge</td></tr>
+    <tr><td>MP-006</td><td>Power Supply</td><td>LRU</td><td>Thermal inspection</td><td>800</td><td>54</td><td>IR camera</td><td>Thermal paste</td></tr>
+  </tbody>
+</table>

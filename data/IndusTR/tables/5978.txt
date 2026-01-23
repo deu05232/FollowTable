@@ -1,0 +1,16 @@
+<table>
+  <caption>Video/Image Content Category Code Table (Event & Scene Types)</caption>
+  <thead>
+    <tr><th>Code</th><th>Category</th><th>Subcategory</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>101</td><td>Traffic</td><td>Vehicle Passing</td><td>Detected vehicle traversing the monitored area.</td></tr>
+    <tr><td>102</td><td>Traffic</td><td>Illegal Parking</td><td>Vehicle remains stationary in a restricted zone beyond threshold time.</td></tr>
+    <tr><td>103</td><td>Traffic</td><td>Wrong-way Driving</td><td>Vehicle moving against permitted direction.</td></tr>
+    <tr><td>201</td><td>People</td><td>Person Passing</td><td>Detected person traversing the monitored area.</td></tr>
+    <tr><td>202</td><td>People</td><td>Intrusion</td><td>Person enters a defined restricted region.</td></tr>
+    <tr><td>203</td><td>People</td><td>Fighting</td><td>Physical conflict behavior detected (pushing, hitting, etc.).</td></tr>
+    <tr><td>301</td><td>Safety</td><td>Fire/Smoke</td><td>Fire flame or smoke plume detected in the scene.</td></tr>
+    <tr><td>302</td><td>Safety</td><td>Object Left Behind</td><td>Unattended object remains in place beyond threshold time.</td></tr>
+  </tbody>
+</table>

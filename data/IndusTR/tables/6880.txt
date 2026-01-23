@@ -1,0 +1,18 @@
+<table>
+  <caption>Filtering Trackables by Category and Reading List Results (C API)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_getAllTrackables</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArSession_getAllTrackables</td><td>filter_type</td><td>ArTrackableType</td><td>in</td><td>Category/type filter used to select trackables.</td></tr>
+    <tr><td>ArSession_getAllTrackables</td><td>out_trackable_list</td><td>ArTrackableList *</td><td>out</td><td>Receives a list containing trackables matchingfilter_type.</td></tr>
+    <tr><td>ArTrackableList_getSize</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle.</td></tr>
+    <tr><td>ArTrackableList_getSize</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>List previously filled by the API.</td></tr>
+    <tr><td>ArTrackableList_getSize</td><td>out_size</td><td>int32_t *</td><td>out</td><td>Filled with number of elements in the list.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>List returned by a filtering call.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>index</td><td>int32_t</td><td>in</td><td>Element index to fetch.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>out_trackable</td><td>ArTrackable **</td><td>out</td><td>Receives the trackable pointer atindexfor subsequent queries.</td></tr>
+  </tbody>
+</table>

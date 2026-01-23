@@ -1,0 +1,12 @@
+# Cloud VM Instance Specs — Server CPUs Mentioned (Not Laptop Hardware)
+
+| Provider | Instance/Node | CPU | vCPU/Cores | Memory | Intended use |
+| --- | --- | --- | --- | --- | --- |
+| Amazon EC2 | m2.2xlarge | Intel Xeon X5550 @ 2.67 GHz | 4 | 34.2 GB | Compute node |
+| Rackspace Cloud | Performance 16GB | AMD Opteron 2374 @ 2.20 GHz | 4 | 16 GB | VM host |
+| GoGrid | 8GB | Intel Xeon E5450 @ 2.99 GHz | 6 | 8 GB | Virtual server |
+| Terremark | 16GB-8vpu | AMD 8389 @ 2.91 GHz | 8 | 16 GB | Cloud server |
+| BlueLock | 16GB-8cpu | Intel Xeon X5550 @ 2.67 GHz | 8 | 16 GB | Private cloud |
+| KT | 32GB | Intel Xeon L5640 @ 2.27 GHz | 6 | 32 GB | Benchmarking |
+| DigitalOcean | CPU-Optimized | “Intel Xeon” (unspecified) | 8 | 16 GB | Droplets |
+| Azure | D-series | “Intel Xeon” (varies) | 4 | 16 GB | VM instance |

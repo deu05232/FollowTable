@@ -1,0 +1,12 @@
+# IPv4 Special-Use Ranges — Hyphenated Range Field (No Explicit CIDR)
+
+| Special-use type | Address range (start - end) | Global routing | Notes |
+| --- | --- | --- | --- |
+| Private | 10.0.0.0 - 10.255.255.255 | No | RFC 1918 private space |
+| Private | 172.16.0.0 - 172.31.255.255 | No | RFC 1918 private space |
+| Private | 192.168.0.0 - 192.168.255.255 | No | RFC 1918 private space |
+| Loopback | 127.0.0.0 - 127.255.255.255 | No | Local host only |
+| Link-local | 169.254.0.0 - 169.254.255.255 | No | Autoconfiguration |
+| Shared (CGNAT) | 100.64.0.0 - 100.127.255.255 | No | ISP subscriber space |
+| Documentation | 198.51.100.0 - 198.51.100.255 | No | TEST-NET-2 |
+| Reserved | 240.0.0.0 - 255.255.255.254 | No | Reserved for future use |

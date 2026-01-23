@@ -1,0 +1,10 @@
+<table>
+  <caption>Battery pack electrical safety checks after abuse testing (insulation and leakage)</caption>
+  <tr><th>Check item</th><th>Measurement method</th><th>Test point</th><th>Condition</th><th>Acceptance criterion</th><th>Notes</th></tr>
+  <tr><td>Insulation resistance</td><td>DC megohmmeter</td><td>HV+ to chassis</td><td>500 VDC, 60 s</td><td>≥ 100 MΩ</td><td>Pre- and post-test</td></tr>
+  <tr><td>Insulation resistance</td><td>DC megohmmeter</td><td>HV- to chassis</td><td>500 VDC, 60 s</td><td>≥ 100 MΩ</td><td>Pre- and post-test</td></tr>
+  <tr><td>Leakage current</td><td>Clamp meter</td><td>Chassis ground</td><td>Nominal voltage, 5 min</td><td>≤ 5 mA</td><td>Powered condition</td></tr>
+  <tr><td>Dielectric withstand</td><td>Hipot test</td><td>HV circuit to enclosure</td><td>2.5 kV, 60 s</td><td>No breakdown</td><td>Record waveform</td></tr>
+  <tr><td>Ground continuity</td><td>Micro-ohmmeter</td><td>Pack case to ground stud</td><td>10 A</td><td>≤ 100 mΩ</td><td>Connector engaged</td></tr>
+  <tr><td>BMS fault status</td><td>Diagnostic readout</td><td>CAN report</td><td>After test</td><td>No critical fault latched</td><td>Log DTCs</td></tr>
+</table>

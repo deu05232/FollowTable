@@ -1,0 +1,14 @@
+# Exchange Market Microstructure  Tick Size and Trading Mechanism Overview
+
+| Exchange | Market Model | Auction Phases | Lot Size | Tick Size Rule (Illustrative) |
+|---|---|---|---|---|
+| NYSE | Hybrid (auction + continuous) | Open/Close auctions | 1 share | Price-tiered ticks |
+| NASDAQ | Dealer/quote-driven + continuous | Open/Close crosses | 1 share | Sub-dollar increments vary |
+| LSE | Order-driven | Opening/Closing auctions | 1 share | Tick table by price bands |
+| TSE | Order-driven | Opening/Closing auctions | 100 shares (common) | Tick by price range |
+| HKEX | Order-driven | Opening auction session | Board lot varies | Tick by price range |
+| SSE | Order-driven | Call auctions at open/close | 100 shares | Tick by price range |
+| TSX | Order-driven | Opening auction | 1 share | Tick by price bands |
+| ASX | Order-driven | Opening/Closing auctions | 1 share | Tick by security/price |
+| SGX | Order-driven | Open/Close auctions | 1 share | Tick by price bands |
+| B3 | Order-driven | Opening auction | 1 share | Tick by price bands |

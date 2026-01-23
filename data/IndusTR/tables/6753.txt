@@ -1,0 +1,19 @@
+<table>
+  <caption>Instant Messaging Service API – SendMessage Request Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type / Format</th><th>M/O</th><th>Max Occurs</th><th>Allowed Values / Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>interfaceOperation</td><td>String (C..64)</td><td>M</td><td>1</td><td>SEND_MESSAGE</td><td>Operation identifier for the API call.</td></tr>
+    <tr><td>senderID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Unique ID of the message sender.</td></tr>
+    <tr><td>recipientID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Unique ID of the message recipient.</td></tr>
+    <tr><td>messageType</td><td>String (C..16)</td><td>M</td><td>1</td><td>TEXT | IMAGE | FILE</td><td>Payload category used to interpret messageContent.</td></tr>
+    <tr><td>messageContent</td><td>String (C..4096)</td><td>M</td><td>1</td><td>Depends on messageType</td><td>Message body (e.g., text or URL/reference).</td></tr>
+    <tr><td>clientMessageID</td><td>String (C..64)</td><td>O</td><td>1</td><td>UUID-like recommended</td><td>Client-generated idempotency key for deduplication.</td></tr>
+    <tr><td>timestamp</td><td>DateTime (ISO-8601)</td><td>O</td><td>1</td><td>e.g., 2026-01-19T12:30:00Z</td><td>Client-side send time for trace/debug.</td></tr>
+    <tr><td>deliveryReceiptRequested</td><td>Boolean</td><td>O</td><td>1</td><td>true | false</td><td>Whether the client requests delivery receipts.</td></tr>
+    <tr><td>metadata</td><td>Object</td><td>O</td><td>1</td><td>JSON object</td><td>Free-form extension data (implementation-specific).</td></tr>
+    <tr><td>metadata.priority</td><td>Integer</td><td>O</td><td>1</td><td>0..10</td><td>Optional priority hint (higher means more urgent).</td></tr>
+    <tr><td>metadata.replyToMessageID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Non-empty</td><td>If set, indicates the message this message replies to.</td></tr>
+  </tbody>
+</table>

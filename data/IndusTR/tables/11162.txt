@@ -1,0 +1,10 @@
+<table>
+  <caption>Traffic Accident Handling Milestones — Time Data Items</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Emergency Service Dispatch Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Time emergency services were dispatched; format shall comply with 6.2</td></tr>
+  <tr><td>2</td><td>Police Arrival Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Time police arrived on site; format shall comply with 6.2</td></tr>
+  <tr><td>3</td><td>Tow Truck Arrival Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Time tow truck arrived; format shall comply with 6.2</td></tr>
+  <tr><td>4</td><td>Accident Clearance Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Time the accident was cleared; format shall comply with 6.2</td></tr>
+  <tr><td>5</td><td>Partial Traffic Recovery Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Time partial traffic recovered; format shall comply with 6.2</td></tr>
+  <tr><td>6</td><td>Final Closure Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Time the warning record was closed; format shall comply with 6.2</td></tr>
+</table>

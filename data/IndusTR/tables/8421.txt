@@ -1,0 +1,15 @@
+<table>
+  <caption>Tire Building Machine Command & Status Signal Map</caption>
+  <thead>
+    <tr><th>Index</th><th>Signal Group</th><th>Tag Name</th><th>Alias</th><th>Direction</th><th>Data Type</th><th>Bit Length</th><th>Value Range</th><th>Meaning</th><th>Interlock / Relation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="3">Drum Control</td><td>Drum_Start_Cmd</td><td>Drum start</td><td>DO</td><td>INT</td><td>16</td><td>0/1</td><td>0=Stop, 1=Start</td><td>Enabled when GuardDoor_Closed=1</td></tr>
+    <tr><td>2</td><td>Drum_Stop_Cmd</td><td>Drum stop</td><td>DO</td><td>INT</td><td>16</td><td>0/1</td><td>0=No action, 1=Stop</td><td>Overrides Drum_Start_Cmd</td></tr>
+    <tr><td>3</td><td>Drum_Run_Status</td><td>Drum running</td><td>DI</td><td>INT</td><td>16</td><td>0/1/2</td><td>0=Stopped, 1=Running, 2=Fault</td><td>Fault triggers Alarm_DrumFault</td></tr>
+    <tr><td>4</td><td rowspan="2">Conveyor</td><td>Conveyor_Jog_Cmd</td><td>Jog</td><td>DO</td><td>INT</td><td>16</td><td>0/1</td><td>Manual jog command</td><td>Only in Manual_Mode=1</td></tr>
+    <tr><td>5</td><td>Conveyor_Speed_Actual</td><td>Speed feedback</td><td>AI</td><td>FLOAT</td><td>32</td><td>0~50 m/min</td><td>Measured belt speed</td><td>Used for speed tracking</td></tr>
+    <tr><td>6</td><td rowspan="2">Safety</td><td>GuardDoor_Closed</td><td>Door closed</td><td>DI</td><td>INT</td><td>16</td><td>0/1</td><td>1=Closed</td><td>Required for motion enable</td></tr>
+    <tr><td>7</td><td>EStop_Status</td><td>E-stop</td><td>DI</td><td>INT</td><td>16</td><td>0/1</td><td>1=Pressed</td><td>All outputs forced off when 1</td></tr>
+  </tbody>
+</table>

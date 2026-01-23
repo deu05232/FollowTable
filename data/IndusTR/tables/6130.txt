@@ -1,0 +1,16 @@
+<table>
+  <caption>Capture Context for Segments with Bounding Box Geometry and Target Identifiers</caption>
+  <thead>
+    <tr><th>Layer</th><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Acquisition</td><td>1</td><td>Video Segment Identifier</td><td>segId</td><td>c41</td><td>Identifier for the video segment</td></tr>
+    <tr><td>Acquisition</td><td>2</td><td>Collection Method Code</td><td>collectMethod</td><td>c1</td><td>Collection method for the segment</td></tr>
+    <tr><td>Acquisition</td><td>3</td><td>Capture Location Type Code</td><td>locType</td><td>c3..7</td><td>Location type of capture</td></tr>
+    <tr><td>Target/Object (Forbidden)</td><td>4</td><td>Moving Target Identifier</td><td>movingTargetId</td><td>c..64</td><td>Identifier for a tracked target in the segment</td></tr>
+    <tr><td>Geometry (Forbidden)</td><td>5</td><td>Top-left Corner X Coordinate</td><td>bboxX1</td><td>n..10,2</td><td>X coordinate of bounding box top-left corner</td></tr>
+    <tr><td>Geometry (Forbidden)</td><td>6</td><td>Top-left Corner Y Coordinate</td><td>bboxY1</td><td>n..10,2</td><td>Y coordinate of bounding box top-left corner</td></tr>
+    <tr><td>Geometry (Forbidden)</td><td>7</td><td>Bottom-right Corner X Coordinate</td><td>bboxX2</td><td>n..10,2</td><td>X coordinate of bounding box bottom-right corner</td></tr>
+    <tr><td>Geometry (Forbidden)</td><td>8</td><td>Bottom-right Corner Y Coordinate</td><td>bboxY2</td><td>n..10,2</td><td>Y coordinate of bounding box bottom-right corner</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitary Equipment Classification and Operating Modes (Non-Performance Focus)</caption>
+  <thead>
+    <tr><th>Data Element Identifier</th><th>Data Element Name</th><th>Allowed Values / Description</th><th>Constraint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SE2001</td><td>Sanitary Equipment Category</td><td>Hand hygiene / Surface disinfection / Waste handling / Water treatment</td><td>B</td></tr>
+    <tr><td>SE2002</td><td>Device Type</td><td>Wall-mounted / Mobile cart / Desktop / Built-in</td><td>B</td></tr>
+    <tr><td>SE2003</td><td>Disinfection Principle</td><td>Chemical dosing / UV-C irradiation / Ozone / Thermal</td><td>B</td></tr>
+    <tr><td>SE2004</td><td>Operating Mode</td><td>Manual / Automatic / Scheduled</td><td>B</td></tr>
+    <tr><td>SE2005</td><td>Therapy/Processing Mode</td><td>Continuous / Batch / Pulse</td><td>A</td></tr>
+    <tr><td>SE2006</td><td>Control Interface Type</td><td>Buttons / Touchscreen / Foot pedal / Remote</td><td>A</td></tr>
+    <tr><td>SE2007</td><td>Alarm Type</td><td>Visual / Audible / Network notification</td><td>A</td></tr>
+    <tr><td>SE2008</td><td>Installation Location</td><td>Clean room / Ward / CSSD / Laboratory</td><td>A</td></tr>
+  </tbody>
+</table>

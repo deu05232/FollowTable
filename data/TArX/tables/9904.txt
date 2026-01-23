@@ -1,0 +1,15 @@
+<table>
+  <caption>DFT Setup Summary and Resulting Band Gaps (no direct/indirect labeling)</caption>
+  <thead>
+    <tr><th>Material</th><th>Exchange-Correlation</th><th>Plane-Wave Cutoff (eV)</th><th>k-mesh</th><th>U (eV)</th><th>Computed Band Gap Eg (eV)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Si</td><td>PBE</td><td>450</td><td>8×8×8</td><td>0</td><td>0.62</td></tr>
+    <tr><td>Ge</td><td>PBE</td><td>450</td><td>8×8×8</td><td>0</td><td>0.00</td></tr>
+    <tr><td>GaAs</td><td>PBE</td><td>500</td><td>10×10×10</td><td>0</td><td>0.35</td></tr>
+    <tr><td>GaN</td><td>PBE+U</td><td>520</td><td>8×8×6</td><td>4</td><td>2.10</td></tr>
+    <tr><td>ZnO</td><td>PBE+U</td><td>520</td><td>8×8×6</td><td>7</td><td>1.25</td></tr>
+    <tr><td>CdSe</td><td>PBE</td><td>450</td><td>8×8×8</td><td>0</td><td>0.55</td></tr>
+    <tr><td>InP</td><td>PBE</td><td>500</td><td>10×10×10</td><td>0</td><td>0.48</td></tr>
+  </tbody>
+</table>

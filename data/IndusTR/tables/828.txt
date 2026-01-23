@@ -1,0 +1,6 @@
+<table>
+  <caption>Knitting Equipment Working Status Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0700</td><td>Equipment Working Status</td><td>MachineWorkingState</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td>0: Power off 1: Power on 2: Running 3: Waiting 4: Maintenance 5: Alarm</td></tr>
+  <tr><td>0X0701</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>丨</td><td>1</td><td>丨</td><td>1</td></tr>
+</table>

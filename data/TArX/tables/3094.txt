@@ -1,0 +1,11 @@
+<table>
+  <caption>Experimental results for C p of water (Ref. \onlinecite angell82) and ice Ih (Ref. \onlinecite feistel05) are compared with PIMD results at 271 K and 1 atm. The calculated C p has been decomposed into potential ( C p ⁢ 1 and C p ⁢ 2 ) and kinetic ( C p ⁢ 3 and C p ⁢ 4 ) energy contributions. The numerical estimation of C p ⁢ 4 from the data derived from DINS experiments is also given. The employed unit is J mol - 1 K - 1 .</caption>
+  <tr><th></th><th>water</th><th>ice</th></tr>
+  <tr><th>C_(p) experimental</th><td>76.1</td><td>37.4</td></tr>
+  <tr><th>C_(p) PIMD</th><td>71.4 ± 2</td><td>36.1 ± 0.8</td></tr>
+  <tr><th>C_(p1)(V_(intra))</th><td>-9.0 ± 0.4</td><td>-7.4 ± 0.2</td></tr>
+  <tr><th>C_(p2)(V_(inter))</th><td>66.3 ± 1</td><td>31.6 ± 0.5</td></tr>
+  <tr><th>C_(p3)(K_(O))</th><td>10.3 ± 0.2</td><td>9.9 ± 0.05</td></tr>
+  <tr><th>C_(p4)(K_(H))</th><td>3.7 ± 0.2</td><td>2.0 ± 0.05</td></tr>
+  <tr><th>C_(p4)(K_(H), DINS)</th><td>-10^(4)</td><td>-</td></tr>
+</table>

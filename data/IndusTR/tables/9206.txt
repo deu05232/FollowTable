@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Tracking Failure Reason Enumeration (Runtime Diagnostics)</caption>
+  <thead>
+    <tr><th>Failure reason description</th><th>Constant name</th><th>Assigned value</th><th>Runtime hint / likely fix</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>No failure; tracking is healthy</td><td>AR_TRACKING_FAILURE_NONE</td><td>0</td><td>No action needed</td></tr>
+    <tr><td>Insufficient visual features (scene too blank)</td><td>AR_TRACKING_FAILURE_INSUFFICIENT_FEATURES</td><td>1</td><td>Point at textured areas; move slowly</td></tr>
+    <tr><td>Excessive motion (blur / fast movement)</td><td>AR_TRACKING_FAILURE_EXCESSIVE_MOTION</td><td>2</td><td>Reduce speed; stabilize device</td></tr>
+    <tr><td>Insufficient illumination (too dark)</td><td>AR_TRACKING_FAILURE_INSUFFICIENT_LIGHT</td><td>3</td><td>Increase lighting; enable torch if available</td></tr>
+    <tr><td>Camera obstruction (covered/dirty lens)</td><td>AR_TRACKING_FAILURE_CAMERA_OBSTRUCTED</td><td>4</td><td>Clean lens; remove obstruction</td></tr>
+    <tr><td>Camera permission missing or revoked</td><td>AR_TRACKING_FAILURE_PERMISSION_DENIED</td><td>5</td><td>Request permission; guide user to settings</td></tr>
+    <tr><td>Sensor/IMU unavailable or unstable</td><td>AR_TRACKING_FAILURE_SENSOR_UNAVAILABLE</td><td>6</td><td>Retry; check device compatibility</td></tr>
+    <tr><td>Resource constraint / thermal throttling</td><td>AR_TRACKING_FAILURE_RESOURCE_LIMIT</td><td>7</td><td>Lower workload; cool device; reduce background load</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,20 @@
+<table>
+  <caption>SOF Component – XML Signature Output Interface (Enveloped XMLDSIG)</caption>
+  <thead>
+    <tr><th>Item</th><th>Details</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Prototype</td><td>BSTR SOF_SignXMLDocument(BSTR CertID, BSTR XmlDoc, LONG SignMode, LONG CanonicalizationAlg, LONG SignatureAlg)</td></tr>
+    <tr><td>Purpose</td><td>Create an XML Digital Signature (XMLDSIG) over the input XML and return the signed XML containing a <ds:Signature> element.</td></tr>
+    <tr><td>Description</td><td>This interface is dedicated to producing XML signature output (no verification/parsing). The returned value is an XML document that embeds the signature (enveloped signature) and can be persisted or transmitted as-is.</td></tr>
+    <tr><td rowspan="5">Parameters</td><td>CertID: Unique certificate identifier used to locate the signing key container.</td></tr>
+    <tr><td>XmlDoc: UTF-8 XML string to be signed.</td></tr>
+    <tr><td>SignMode: 1=enveloped (insert <ds:Signature> into XmlDoc); 2=detached (return signature-only XML referencing external data).</td></tr>
+    <tr><td>CanonicalizationAlg: 1=C14N 1.0; 2=Exclusive C14N (per W3C XML-EXC-C14N).</td></tr>
+    <tr><td>SignatureAlg: 1=RSA-SHA256; 2=RSA-SHA1; 3=SM2-SM3.</td></tr>
+    <tr><td rowspan="4">Return Value</td><td>Success: Signed XML string (Base64 not used; returns raw XML).</td></tr>
+    <tr><td>Failure: Empty string; error retrievable via component error interface (implementation-defined).</td></tr>
+    <tr><td>Signature Standards / Notes</td><td>RSA signatures follow W3C XML Signature / RFC 3275 conventions; SM2/SM3 signatures follow GB/T 25061 related signature-result conventions when applicable.</td></tr>
+    <tr><td>Output Structure</td><td>The output includes <ds:SignedInfo>, <ds:SignatureValue>, and <ds:KeyInfo> (certificate may be embedded depending on policy).</td></tr>
+  </tbody>
+</table>

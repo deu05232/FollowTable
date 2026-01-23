@@ -1,0 +1,15 @@
+<table>
+  <caption>Purchased Electricity Emissions Reporting Worksheet (by Grid Region and Supplier)</caption>
+  <thead>
+    <tr><th>Reporting Period</th><th>Facility / Site</th><th>Grid Region</th><th>Supplier / Product</th><th>Electricity Purchased (MWh)</th><th>Electricity Exported (MWh)</th><th>Emission Factor (tCO2/MWh)</th><th>Calculated Emissions (tCO2)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2025-Q1</td><td>Plant A</td><td>WECC</td><td>Utility Standard</td><td></td><td></td><td>0.38</td><td></td><td>Market-based</td></tr>
+    <tr><td>2025-Q1</td><td>Plant A</td><td>WECC</td><td>Renewable Contract</td><td></td><td></td><td>0.05</td><td></td><td>REC bundled</td></tr>
+    <tr><td>2025-Q1</td><td>Plant B</td><td>RFC</td><td>Utility Standard</td><td></td><td></td><td>0.44</td><td></td><td>Location-based</td></tr>
+    <tr><td>2025-Q2</td><td>Plant A</td><td>WECC</td><td>Utility Standard</td><td></td><td></td><td>0.37</td><td></td><td>Updated factor</td></tr>
+    <tr><td>2025-Q2</td><td>Plant B</td><td>RFC</td><td>Utility Standard</td><td></td><td></td><td>0.43</td><td></td><td>Updated factor</td></tr>
+    <tr><td>2025-Q2</td><td>HQ Office</td><td>NYISO</td><td>Utility Standard</td><td></td><td></td><td>0.28</td><td></td><td>Estimated</td></tr>
+    <tr><td>2025-Q2</td><td>Warehouse</td><td>MISO</td><td>Utility Standard</td><td></td><td></td><td>0.50</td><td></td><td>Estimated</td></tr>
+  </tbody>
+</table>

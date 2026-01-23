@@ -1,0 +1,15 @@
+<table>
+  <caption>Open API Authentication Inputs (Header vs Query) — Parameter Requirements</caption>
+  <thead>
+    <tr><th>Auth Component</th><th>Parameter Name</th><th>Where to Send</th><th>Type / Format</th><th>Required</th><th>Example Value</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Caller identity</td><td>userID</td><td>Query parameter</td><td>string (1-64 chars)</td><td>Yes</td><td>"u_102938"</td><td>Platform user identifier for the caller.</td></tr>
+    <tr><td>Token credential</td><td>access_token</td><td>Header: Authorization</td><td>string (Bearer token)</td><td>Yes</td><td>"Bearer eyJhbGciOi..."</td><td>Must be sent with every request to protected endpoints.</td></tr>
+    <tr><td>Token credential (alt)</td><td>access_token</td><td>Query parameter</td><td>string (opaque token)</td><td>Conditional</td><td>"7f4c2a..."</td><td>Allowed only if the client cannot set headers; do not send both header and query versions.</td></tr>
+    <tr><td>Request integrity</td><td>nonce</td><td>Header: X-Nonce</td><td>string (8-32 chars)</td><td>Recommended</td><td>"n0nce-88421"</td><td>Unique per request; helps prevent replay.</td></tr>
+    <tr><td>Request integrity</td><td>timestamp</td><td>Header: X-Timestamp</td><td>string (ISO-8601) or int (epoch seconds)</td><td>Recommended</td><td>"2026-01-19T10:11:12Z"</td><td>Used with nonce for freshness validation.</td></tr>
+    <tr><td>Client identity (application)</td><td>client_id</td><td>Header: X-Client-Id</td><td>string (UUID or slug)</td><td>Optional</td><td>"app-3b0d2b9a"</td><td>Only required for app-scoped tokens or multi-tenant routing.</td></tr>
+    <tr><td>Authorization scope</td><td>scope</td><td>Query parameter</td><td>string (space-delimited)</td><td>Optional</td><td>"device.read gateway.write"</td><td>Used when requesting/refreshing tokens; not needed for most resource calls.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Radiation and Radiative-Flux Satellite Product Codes (Surface & TOA)</caption>
+  <thead>
+    <tr><th>Category</th><th>Data Name</th><th>Code</th><th>Description</th><th>Typical Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Surface longwave</td><td>Surface Downwelling Longwave Radiation</td><td>SDLW</td><td>Downward longwave radiative flux at the surface</td><td>W m-2</td></tr>
+    <tr><td>Surface Upwelling Longwave Radiation</td><td>SULW</td><td>Upward longwave radiative flux emitted from the surface</td><td>W m-2</td></tr>
+    <tr><td>Surface Net Longwave Radiation</td><td>SNLW</td><td>Net longwave flux at surface (upwelling minus downwelling)</td><td>W m-2</td></tr>
+    <tr><td rowspan="3">Surface shortwave</td><td>Surface Downwelling Shortwave Radiation</td><td>SDSW</td><td>Downward solar (shortwave) flux reaching the surface</td><td>W m-2</td></tr>
+    <tr><td>Surface Upwelling Shortwave Radiation</td><td>SUSW</td><td>Reflected shortwave flux leaving the surface</td><td>W m-2</td></tr>
+    <tr><td>Surface Net Shortwave Radiation</td><td>SNSW</td><td>Net shortwave flux at surface (downwelling minus upwelling)</td><td>W m-2</td></tr>
+    <tr><td rowspan="4">Top-of-atmosphere (TOA)</td><td>TOA Outgoing Longwave Radiation</td><td>TOLR</td><td>Outgoing terrestrial longwave flux at TOA</td><td>W m-2</td></tr>
+    <tr><td>TOA Reflected Shortwave Radiation</td><td>TRSW</td><td>Reflected solar shortwave flux at TOA</td><td>W m-2</td></tr>
+    <tr><td>TOA Incoming Solar Radiation</td><td>TISR</td><td>Incident solar irradiance at TOA (insolation)</td><td>W m-2</td></tr>
+    <tr><td>TOA Net Radiation</td><td>TNET</td><td>Net radiative flux at TOA (incoming minus outgoing)</td><td>W m-2</td></tr>
+  </tbody>
+</table>

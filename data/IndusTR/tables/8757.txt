@@ -1,0 +1,18 @@
+<table>
+  <caption>Beidou Monitoring Terminal Environmental Stress & Reliability Test Conditions</caption>
+  <thead>
+    <tr><th>Test item</th><th>Parameter</th><th>Condition / Setup</th><th>Duration</th><th>Power state</th><th>Acceptance check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">High-temperature operating test</td><td>Chamber temperature (°C)</td><td>+70</td><td rowspan="2">16 h</td><td rowspan="2">Powered ON (rated)</td><td rowspan="2">No reboot; basic functions verified after test</td></tr>
+    <tr><td>Stabilization time</td><td>2 h soak before timing</td></tr>
+    <tr><td rowspan="2">Low-temperature operating test</td><td>Chamber temperature (°C)</td><td>-25</td><td rowspan="2">12 h</td><td rowspan="2">Powered ON</td><td rowspan="2">No abnormal shutdown; quick self-check after test</td></tr>
+    <tr><td>Thermal ramp (°C/min)</td><td>1</td></tr>
+    <tr><td rowspan="2">Damp heat steady-state</td><td>Temperature / RH</td><td>+40°C / 95%RH</td><td rowspan="2">48 h</td><td rowspan="2">Powered OFF</td><td rowspan="2">Visual inspection; functional check after recovery</td></tr>
+    <tr><td>Recovery</td><td>24 h at room ambient</td></tr>
+    <tr><td rowspan="2">Salt spray (corrosion)</td><td>NaCl concentration</td><td>5%</td><td rowspan="2">96 h</td><td rowspan="2">Powered OFF</td><td rowspan="2">No severe corrosion; enclosure sealing check</td></tr>
+    <tr><td>Chamber temperature (°C)</td><td>+35</td></tr>
+    <tr><td rowspan="2">Thermal cycling (storage)</td><td>Temperature range (°C)</td><td>-40 to +85</td><td rowspan="2">10 cycles</td><td rowspan="2">Powered OFF</td><td rowspan="2">Functional verification after cycling</td></tr>
+    <tr><td>Dwell time per extreme</td><td>2 h</td></tr>
+  </tbody>
+</table>

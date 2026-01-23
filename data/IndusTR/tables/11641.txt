@@ -1,0 +1,7 @@
+<table>
+  <caption>Information container interface fields (no required column)</caption>
+  <tr><th>Field Name</th><th>Data Type</th><th>Remarks</th></tr>
+  <tr><td>projectId</td><td>string</td><td>The unique identifier of the project</td></tr>
+  <tr><td>containerId</td><td>string</td><td>The unique identifier of the container</td></tr>
+  <tr><td>status</td><td>int</td><td>Target status to be modified</td></tr>
+</table>

@@ -1,0 +1,6 @@
+<table>
+  <caption>Logistics M2M platform test cases with environment and data setup emphasized</caption>
+  <tr><th>Test Case</th><th>Module</th><th>What is being checked</th><th>Environment / Setup</th><th>Test Data Needed</th><th>Validation Notes</th></tr>
+  <tr><td>6.1.2.1</td><td>Application Platform Management</td><td>Business information maintenance</td><td>Staging tenant; role permissions configured; DB seeded</td><td>Sample company profile; address list; contact set</td><td>Verify updates are persisted and displayed</td></tr>
+  <tr><td>6.1.2.3</td><td>Application Platform Management</td><td>Business access fault management</td><td>Fault injection enabled; logging level set to debug</td><td>Malformed access token; invalid callback URL</td><td>Verify faults are detected and recorded</td></tr>
+</table>

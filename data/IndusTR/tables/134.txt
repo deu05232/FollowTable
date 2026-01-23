@@ -1,0 +1,19 @@
+<table>
+  <caption>Atmospheric-Layer Community-Level Observation Station Real-Time Rolling Radiation Data Format</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>2</td><td>Record time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>3</td><td>Total irradiance</td><td>AJA</td><td>Number(4)</td><td>Unit: W/m²</td></tr>
+  <tr><td>4</td><td>Net irradiance</td><td>AJE</td><td>Number(4)</td><td>Unit: W/m²</td></tr>
+  <tr><td>5</td><td>Direct irradiance</td><td>AJC</td><td>Number(4)</td><td>Unit: W/m</td></tr>
+  <tr><td>6</td><td>Diffuse irradiance</td><td>AJD</td><td>Number(4)</td><td>Unit: W/m</td></tr>
+  <tr><td>7</td><td>Reflected irradiance</td><td>AJB</td><td>Number(4)</td><td>Unit: W/m²</td></tr>
+  <tr><td>8</td><td>Ultraviolet irradiance</td><td>AJF</td><td>Number(4)</td><td>Unit: mW/m²</td></tr>
+  <tr><td>9</td><td>UVA irradiance</td><td>AJG</td><td>Number(4)</td><td>Unit: mW/m²</td></tr>
+  <tr><td>10</td><td>UVB irradiance</td><td>AJH</td><td>Number(4)</td><td>Unit: mW/m²</td></tr>
+  <tr><td>11</td><td>Atmospheric longwave irradiance</td><td>AJJ</td><td>Number(4)</td><td>Unit: W/m²</td></tr>
+  <tr><td>12</td><td>Terrestrial longwave irradiance</td><td>AJK</td><td>Number(4)</td><td>Unit: W/m²</td></tr>
+  <tr><td>13</td><td>Photosynthetically active photon flux density</td><td>AJI</td><td>Number(4)</td><td>Unit: μmol/(m²·s)</td></tr>
+  <tr><td>14</td><td>Sunshine present within the minute</td><td>AKA</td><td>Number(1)</td><td>No unit / 0 = no sunshine, 1 = sunshine</td></tr>
+  <tr><td colspan="5">The day boundary for radiation and sunshine observations is calculated statistically by time zone time and classified separately.</td></tr>
+</table>

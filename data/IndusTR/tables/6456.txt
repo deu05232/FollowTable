@@ -1,0 +1,8 @@
+<table>
+  <caption>Inbound Acknowledgement Frame — Message Header Fields (Extended)</caption>
+  <tr><th>Serial No.</th><th>Field Name</th><th>Number of Bits</th><th>Valid Range</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Service Identifier</td><td>16</td><td>0xCC00</td><td>BDMSS ship earth station service application</td></tr>
+  <tr><td>2</td><td>Field Type</td><td>4</td><td>5</td><td>5: Emergency priority polling acknowledgement; others unused</td></tr>
+  <tr><td>3</td><td>Message Serial Number</td><td>32</td><td>—</td><td>Same as the replied message serial number</td></tr>
+  <tr><td>4</td><td>Result Code</td><td>2</td><td>0~3</td><td>0: accepted; 1: rejected; 2: format error; 3: reserved</td></tr>
+</table>

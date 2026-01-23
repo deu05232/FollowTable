@@ -1,0 +1,6 @@
+<table>
+  <caption>Interface Summary (Multiple Interfaces Combined in One Row)</caption>
+  <tr><th>Interface Name(s)</th><th>English Name(s)</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Create Model; Destroy Model</td><td>create_model; destroy_model</td><td>Required</td><td>Create and tear down a hardware-executable model and its resources</td></tr>
+  <tr><td>Initialize Graph Engine; Deinitialize Graph Engine</td><td>graph_engine_initialize; graph_engine_finalize</td><td>Optional</td><td>Setup and teardown of the graph engine lifecycle</td></tr>
+</table>

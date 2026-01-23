@@ -1,0 +1,11 @@
+<table>
+  <caption>Extracted temperature scaling of spin diffusion length in graphene: power-law fits and representative values.</caption>
+  <tr><th rowspan="2">Regime / fit</th><th rowspan="2">Temperature range (K)</th><th rowspan="2">Model for λs(T)</th><th rowspan="2">Fit exponent (n)</th><th colspan="4">Representative λs(μm)</th></tr>
+  <tr><th>50 K</th><th>100 K</th><th>200 K</th><th>300 K</th></tr>
+  <tr><th>Low-T (impurity-dominated)</th><td>30–120</td><td>λs(T)=λ0(T/100 K)-n</td><td>0.25</td><td>4.6</td><td>4.2</td><td>—</td><td>—</td></tr>
+  <tr><th>Intermediate-T (mixed)</th><td>120–220</td><td>λs(T)=λ0(T/200 K)-n</td><td>0.55</td><td>—</td><td>—</td><td>2.9</td><td>—</td></tr>
+  <tr><th>High-T (phonon-assisted)</th><td>220–300</td><td>λs(T)=λ0(T/300 K)-n</td><td>0.95</td><td>—</td><td>—</td><td>2.6</td><td>2.1</td></tr>
+  <tr><th>Single power-law (overall)</th><td>50–300</td><td>λs(T)=A·T-n</td><td>0.78</td><td>4.3</td><td>3.7</td><td>2.7</td><td>2.2</td></tr>
+  <tr><th>Piecewise linear (reported points)</th><td>50–300</td><td>Tabulated λs(T) points</td><td>—</td><td>4.4</td><td>3.8</td><td>2.8</td><td>2.3</td></tr>
+  <tr><th>Uncertainty (typ.)</th><td>50–300</td><td>± (from fit / device spread)</td><td>—</td><td>±0.3</td><td>±0.3</td><td>±0.2</td><td>±0.2</td></tr>
+</table>

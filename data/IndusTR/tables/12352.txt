@@ -1,0 +1,15 @@
+<table>
+  <caption>Meteorological Data File Format Identifiers and Typical Filename Extensions</caption>
+  <thead>
+    <tr><th>Format Name</th><th>Format Code</th><th>Typical Extension</th><th>Container/Standard</th><th>Common Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Advanced Weather-satellite Exchange Format</td><td>AWX</td><td>.awx</td><td>Binary</td><td>Legacy distribution of satellite imagery</td></tr>
+    <tr><td>Hierarchical Data Format</td><td>HDF</td><td>.hdf</td><td>HDF4/HDF5</td><td>Swath and gridded products</td></tr>
+    <tr><td>Network Common Data Form</td><td>NC</td><td>.nc</td><td>netCDF</td><td>Climate and reanalysis products</td></tr>
+    <tr><td>GRIdded Binary</td><td>GRIB</td><td>.grb/.grib2</td><td>WMO</td><td>NWP model fields</td></tr>
+    <tr><td>BUFR</td><td>BUFR</td><td>.bufr</td><td>WMO</td><td>Observational reports and soundings</td></tr>
+    <tr><td>GeoTIFF</td><td>GTIF</td><td>.tif</td><td>TIFF</td><td>Map-projected imagery export</td></tr>
+    <tr><td>JPEG 2000</td><td>JP2</td><td>.jp2</td><td>ISO/IEC</td><td>Compressed browse images</td></tr>
+  </tbody>
+</table>

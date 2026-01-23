@@ -1,0 +1,16 @@
+<table>
+  <caption>Cooperative Driving Application Payload (RSU Reference + Detected Vehicles)</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Data Item</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">RSU Reference</td><td>1</td><td>Timestamp</td><td>ms</td><td>Message generation time</td></tr>
+    <tr><td>2</td><td>RSU ID</td><td>-</td><td>Unique RSU identifier</td></tr>
+    <tr><td>3</td><td>RSU Reference Latitude</td><td>deg</td><td>WGS-84</td></tr>
+    <tr><td>4</td><td>RSU Reference Longitude</td><td>deg</td><td>WGS-84</td></tr>
+    <tr><td rowspan="4">Vehicle Observation</td><td>5</td><td>Vehicle ID</td><td>-</td><td>Temporary object ID</td></tr>
+    <tr><td>6</td><td>Vehicle Latitude</td><td>deg</td><td>Estimated position</td></tr>
+    <tr><td>7</td><td>Vehicle Longitude</td><td>deg</td><td>Estimated position</td></tr>
+    <tr><td>8</td><td>Vehicle Speed</td><td>m/s</td><td>Derived from tracking</td></tr>
+  </tbody>
+</table>

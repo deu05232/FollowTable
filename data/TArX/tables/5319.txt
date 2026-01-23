@@ -1,0 +1,11 @@
+<table>
+  <caption>Number of events remaining after each analysis cut. All of these cuts are commutative, the order indicating the order in which the cuts are applied in the analysis. Detector stability cuts remove periods of live-time when the liquid level, gas pressure, or grid voltages were out of nominal ranges. The single scatter cut keeps only events containing one S1 and one S2 pulse, representative of expected elastic scattering of WIMPs. S1 and S2 energy cuts keep only those events in the WIMP search energy range. Additionally, the S2 energy threshold of 200 phe removes single-extracted-electron-type events and events with unreliable position reconstruction. Periods of live-time with high rates of single electron backgrounds are then removed. The fiducial volume cut selects only those events with reconstructed radius less than 18 cm, and electron drift time between 38 and 305 μ s. The final number of events in the WIMP search profile likelihood is 160. A more detailed description of the cuts is provided in the above paper.</caption>
+  <tr><th>Cut</th><th>Events Remaining</th></tr>
+  <tr><th>all triggers</th><td>83,673,413</td></tr>
+  <tr><th>detector stability</th><td>82,918,902</td></tr>
+  <tr><th>single scatter</th><td>6,585,686</td></tr>
+  <tr><th>S1 energy ( 2-30~ phe)</th><td>26,824</td></tr>
+  <tr><th>S2 energy ( 200-3300~ phe)</th><td>20,989</td></tr>
+  <tr><th>single electron background</th><td>19,796</td></tr>
+  <tr><th>fiducial volume</th><td>160</td></tr>
+</table>

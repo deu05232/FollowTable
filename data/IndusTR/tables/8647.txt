@@ -1,0 +1,15 @@
+<table>
+  <caption>Insulation coordination requirements by voltage range (basic/supplementary vs reinforced)</caption>
+  <thead>
+    <tr><th rowspan="2">Line-to-neutral working voltage (AC RMS or DC), V</th><th colspan="2">Clearance (mm)</th><th colspan="2">Dielectric test voltage (60 s AC), V</th><th colspan="2">Impulse withstand (1.2/50 µs), V</th></tr>
+    <tr><th>Basic & supplementary</th><th>Reinforced</th><th>Basic & supplementary</th><th>Reinforced</th><th>Basic & supplementary</th><th>Reinforced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 50</td><td>0.5</td><td>1.0</td><td>1000</td><td>2000</td><td>1500</td><td>3000</td></tr>
+    <tr><td>> 50 to 150</td><td>0.8</td><td>1.6</td><td>1500</td><td>3000</td><td>2500</td><td>5000</td></tr>
+    <tr><td>> 150 to 300</td><td>1.5</td><td>3.0</td><td>2000</td><td>4000</td><td>4000</td><td>8000</td></tr>
+    <tr><td>> 300 to 600</td><td>3.0</td><td>6.0</td><td>2500</td><td>5000</td><td>6000</td><td>12000</td></tr>
+    <tr><td>> 600 to 1000</td><td>5.5</td><td>11.0</td><td>3000</td><td>6000</td><td>8000</td><td>16000</td></tr>
+    <tr><td>> 1000 to 1500</td><td>8.0</td><td>16.0</td><td>3500</td><td>7000</td><td>12000</td><td>24000</td></tr>
+  </tbody>
+</table>

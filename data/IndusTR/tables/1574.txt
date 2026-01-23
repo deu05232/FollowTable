@@ -1,0 +1,7 @@
+<table>
+  <caption>SpaceFibre Bus Standard Data and Control Character Definitions</caption>
+  <tr><td>Name</td><td>Symbol</td><td>Function</td></tr>
+  <tr><td>Data Data</td><td>D0.0～D31.7</td><td>Each SpaceFibre character contains one byte of data. The data byte 0x00 is denoted by the symbol D0.0, the data byte 0x01 is denoted by the symbol D01.0, and so on, and the data byte 0xFF is denoted by the symbol D31.7</td></tr>
+  <tr><td>End-of-Packet EOP (Valid)</td><td>K29.7</td><td>Represents the SpaceFibre end-of-packet EOP. It may occur at any point in the data field within a data frame, indicating the end of a SpaceFibre packet. The data byte immediately following EOP is the first byte of the next packet</td></tr>
+  <tr><td>Error End-of-Packet EEP</td><td>K30.7</td><td>Represents an erroneous end of a SpaceFibre packet (EEP). It may occur at any point in the data field within a data frame, indicating that a SpaceFibre packet has terminated with an error. The data byte immediately following EEP is the first byte of the next packet</td></tr>
+</table>

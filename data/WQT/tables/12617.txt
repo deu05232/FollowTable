@@ -1,0 +1,12 @@
+# Intel Chipset + CPU Family Pairing Guide for Windows 10 (No Exact CPU Models Listed)
+
+| PC platform tier | CPU family (not SKU) | Typical chipsets | Typical form factor | Windows 10 support | Why this pairing is common |
+|---|---|---|---|---|---|
+| Budget desktop | Pentium / Celeron (LGA1151 era) | H110, B150, H170 | Mini tower/SFF | Supported | Low cost, basic IO |
+| Mainstream desktop | Core i3/i5 (6th/7th Gen) | B250, H270 | ATX/mATX | Supported | Balanced cost/performance |
+| Enthusiast desktop | Core i7 (Haswell era) | Z87, Z97 | ATX | Supported | Overclocking features |
+| Business desktop | Core i5/i7 (8th/9th Gen) | Q370, B360 | SFF/USFF | Supported | Manageability and stability |
+| Thin-and-light laptop | Core U-series (Haswell/Broadwell) | Mobile PCH (varies) | Ultrabook | Supported | Power efficiency |
+| Workstation | Xeon E5 family | C602/C612 | Tower workstation | Supported | ECC/IO needs |
+| Embedded/IoT | Atom family | SoC platform | Fanless boxes | Mixed | Long lifecycle SKUs |
+| Legacy upgrade | Core 2 Duo/Quad | 3/4-series chipsets | Old desktops | Limited | Driver and OEM BIOS constraints |

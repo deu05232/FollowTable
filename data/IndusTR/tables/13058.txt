@@ -1,0 +1,16 @@
+<table>
+  <caption>Harmonic Signal Generation Capability (Voltage & Current Channels)</caption>
+  <thead>
+    <tr><th>Item</th><th>Voltage Harmonics (U)</th><th>Current Harmonics (I)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Supported harmonic orders</td><td>2nd to 63rd (individual order selectable)</td><td>2nd to 63rd (individual order selectable)</td></tr>
+    <tr><td>Even/odd harmonic support</td><td>Both even and odd</td><td>Both even and odd</td></tr>
+    <tr><td>Harmonic amplitude range (as % of fundamental)</td><td>0% to 50% of U1 per selected order</td><td>0% to 80% of I1 per selected order</td></tr>
+    <tr><td>Amplitude setting step</td><td>0.1% of U1</td><td>0.1% of I1</td></tr>
+    <tr><td>Harmonic phase setting range</td><td>0° to 359.9° per order</td><td>0° to 359.9° per order</td></tr>
+    <tr><td>Phase setting step</td><td>0.1°</td><td>0.1°</td></tr>
+    <tr><td>Limit after waveform superposition</td><td>Peak of phase-voltage waveform shall not exceed 450 V</td><td>Peak current after superposition shall not exceed 1.35 × Imax</td></tr>
+    <tr><td>Max number of simultaneously enabled harmonics</td><td>Up to 10 orders per phase</td><td>Up to 10 orders per phase</td></tr>
+  </tbody>
+</table>

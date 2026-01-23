@@ -1,0 +1,13 @@
+<table>
+  <caption>Certificate Information Parsing Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GetCertificateInfo(void * hAppHandle,unsigned char * pucCertificate,unsigned int uiCertificateLen,unsigned int uiInfoType,unsigned char * pucInfo,unsigned int * puiInfoLen)</td></tr>
+  <tr><td>Description</td><td>Parse the certificate and obtain information in the certificate</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucCertificate[in](DER-encoded certificate)</td></tr>
+  <tr><td>uiCertificateLen[in](certificate length)</td></tr>
+  <tr><td>uiInfoType[in](specified certificate parsing identifier, shall comply with the provisions of GB/T33560)</td></tr>
+  <tr><td>pucInfo[out](obtained certificate information)</td></tr>
+  <tr><td>puiInfoLen[in,out](length of obtained certificate information)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Annex C)</td></tr>
+</table>

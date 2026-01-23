@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Session Creation and Immediate Configuration Output Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>env</td><td>void *</td><td>in</td><td>Pointer representing the runtime environment (JNIEnv-like handle).</td></tr>
+    <tr><td>context</td><td>void *</td><td>in</td><td>Pointer representing the platform runtime context.</td></tr>
+    <tr><td>install_behavior</td><td>ArInstallBehavior</td><td>in</td><td>Controls whether the runtime may prompt/install required AR components.</td></tr>
+    <tr><td>out_session</td><td>ArSession **</td><td>out</td><td>Receives the newly allocated session instance pointer.</td></tr>
+    <tr><td>out_config</td><td>ArConfig **</td><td>out</td><td>Receives a default configuration object created alongside the session.</td></tr>
+    <tr><td>out_supported_features</td><td>ArSessionFeature *</td><td>out</td><td>Returns the resolved feature set enabled for the created session.</td></tr>
+  </tbody>
+</table>

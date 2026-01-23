@@ -1,0 +1,20 @@
+<table>
+  <caption>PKCS #7 Signed Enveloped Data Decoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Pkcs7_DecodeData(void * hAppHandle,unsigned char * pucDecContainerName,unsigned int uiDecContainerNameLen,unsigned int uiDecKeyUsage,unsigned char * pucDerP7Data,unsigned int uiDerP7DataLen,unsigned char * pucData,unsigned int * puiDataLen,unsigned char * pucSignerCertificate,unsigned int * puiSignerCertificateLen,unsigned int *puiDigestAlgorithmsunsigned char * pucSignedData,unsigned int * puiSignedDataLen)</td></tr>
+  <tr><td>Description</td><td>Decode PKCS #7-format signed enveloped data</td></tr>
+  <tr><td rowspan="13">Parameters</td><td>hAppHandle[in](Application interface handle)</td></tr>
+  <tr><td>pucDecContainerName[in](Key container name of the private key for decryption）</td></tr>
+  <tr><td>uiDecContainerNameLen[in](Length of the key container name of the private key for decryption)</td></tr>
+  <tr><td>uiDecKeyUsage[in](Intended use of the private key for decryption)</td></tr>
+  <tr><td>pucDerP7Data[in](Encoded data)</td></tr>
+  <tr><td>uiDerP7DataLen[in](Length of encoded data)</td></tr>
+  <tr><td>pucData[out](Plaintext to be signed)</td></tr>
+  <tr><td>puiDataLen[in,out](Length of plaintext to be signed)</td></tr>
+  <tr><td>pucSignerCertificate[out]（Signer certificate）</td></tr>
+  <tr><td>puiSignerCertificateLen[in,out](Signer certificate length)</td></tr>
+  <tr><td>puiDigestAlgorithms[out](HASH algorithm）</td></tr>
+  <tr><td>pucSignedData[out](Base64-encoded signature value)</td></tr>
+  <tr><td>puiSignedDataLen[in,out](Signature value length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non0(Failure; return the error code defined in Table C.1, and shall comply with the provisions of Appendix C)</td></tr>
+</table>

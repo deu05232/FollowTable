@@ -1,0 +1,15 @@
+<table>
+  <caption>ArTrackableList_GetSize / ArTrackableList_Clear Parameters (Generic List Operations)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Data Type</th><th>Direction</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArTrackableList_GetSize</td><td>session</td><td>ArSession *</td><td>in</td><td>Session needed to validate and access the list.</td></tr>
+    <tr><td>ArTrackableList_GetSize</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>The trackable list whose element count is queried.</td></tr>
+    <tr><td>ArTrackableList_GetSize</td><td>out_size</td><td>int32_t *</td><td>out</td><td>Receives the number of elements intrackable_list.</td></tr>
+    <tr><td>ArTrackableList_GetSize</td><td>out_status</td><td>ArStatus *</td><td>out</td><td>Reports whether size retrieval succeeded.</td></tr>
+    <tr><td>ArTrackableList_Clear</td><td>session</td><td>ArSession *</td><td>in</td><td>Session used to validate the list operation.</td></tr>
+    <tr><td>ArTrackableList_Clear</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>List handle to clear/remove all entries from.</td></tr>
+    <tr><td>ArTrackableList_Clear</td><td>out_status</td><td>ArStatus *</td><td>out</td><td>Indicates whether the list was cleared successfully.</td></tr>
+  </tbody>
+</table>

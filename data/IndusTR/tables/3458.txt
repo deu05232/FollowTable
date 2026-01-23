@@ -1,0 +1,190 @@
+<table>
+  <caption>Agricultural Insurance Fiscal Fund Payment Data Structure Table</caption>
+  <tr><td>Table No.</td><td>Data Table Name</td><td>Identifier</td><td>Data Element Name</td><td>New Field Code</td></tr>
+  <tr><td rowspan="12">0201</td><td rowspan="12">Agricultural Insurance Fiscal Fund Payment Table</td><td>020101</td><td>Indicator Document No.</td><td>ZBWH</td></tr>
+  <tr><td>020102</td><td>Subsidy Year</td><td>BTND</td></tr>
+  <tr><td>010207</td><td>Province</td><td>SHENG</td></tr>
+  <tr><td>010208</td><td>City</td><td>SHI</td></tr>
+  <tr><td>010209</td><td>County</td><td>XIAN</td></tr>
+  <tr><td>020103</td><td>County Code</td><td>XIANDM</td></tr>
+  <tr><td>020104</td><td>Central Fiscal Subsidy Amount</td><td>ZYCZBTJE</td></tr>
+  <tr><td>020105</td><td>Provincial Fiscal Subsidy Amount</td><td>SJCZBTJE</td></tr>
+  <tr><td>020106</td><td>Municipal Fiscal Subsidy Amount</td><td>SHIJCZBTJE</td></tr>
+  <tr><td>020107</td><td>County-level Fiscal Subsidy Amount</td><td>XIANJCZBTJE</td></tr>
+  <tr><td>020108</td><td>Budget Unit Code</td><td>YSDWDM</td></tr>
+  <tr><td>020109</td><td>Budget Unit Name</td><td>YSDWMC</td></tr>
+  <tr><td rowspan="3">0201</td><td rowspan="3">Agricultural Insurance Fiscal Fund Payment Table</td><td>020110</td><td>Expenditure Functional Classification Item</td><td>ZCGNFLKM</td></tr>
+  <tr><td>020111</td><td>Actual Disbursed Amount</td><td>SJBFJE</td></tr>
+  <tr><td>020112</td><td>Carried-over Balance Amount</td><td>JZJYJE</td></tr>
+  <tr><td colspan="2" rowspan="27">Agricultural Insurance Business Type Table 0202</td><td>020201</td><td>Insurance Company Name</td><td>BXGSMC</td></tr>
+  <tr><td>020202</td><td>Name of Province Where Business Is Conducted</td><td>KZYWSZSMC</td></tr>
+  <tr><td>020203</td><td>Insurance Product Code</td><td>XZDM</td></tr>
+  <tr><td>020204</td><td>Risk Category Code</td><td>XLDM</td></tr>
+  <tr><td>020205</td><td>Risk Category Name</td><td>XLMC</td></tr>
+  <tr><td>020206</td><td>Insurance Product Name</td><td>XZMC</td></tr>
+  <tr><td>020207</td><td>Insurance Period</td><td>BXZQ</td></tr>
+  <tr><td>020208</td><td>Insurance Product Subsidy Level Code</td><td>XZBTCJDM</td></tr>
+  <tr><td>020209</td><td>Insurance Product Subsidy Level Name</td><td>XZBTCJMC</td></tr>
+  <tr><td>020210</td><td>Insurance Product Unit of Measure</td><td>XZJLDW</td></tr>
+  <tr><td>020211</td><td>Sum Insured</td><td>BXJE</td></tr>
+  <tr><td>020212</td><td>Premium Rate</td><td>BXFL</td></tr>
+  <tr><td>020213</td><td>Premium Rate Implementation Start Date</td><td>BXFLSSQSRQ</td></tr>
+  <tr><td>020214</td><td>Premium Rate Implementation End Date</td><td>BXFLSSZZRQ</td></tr>
+  <tr><td>020215</td><td>Insurance Product Effective Date</td><td>XZSXRQ</td></tr>
+  <tr><td>020216</td><td>Agriculture-related Flag</td><td>SNBZ</td></tr>
+  <tr><td>020217</td><td>Sales Region Code</td><td>XSQYDM</td></tr>
+  <tr><td>020218</td><td>Sales Geographic Scope</td><td>XSDYFW</td></tr>
+  <tr><td>020219</td><td>Sales Region Name</td><td>XSQYMC</td></tr>
+  <tr><td>020220</td><td>Central Fiscal Premium Subsidy Ratio</td><td>ZYCZBFBTBL</td></tr>
+  <tr><td>020221</td><td>Provincial Fiscal Premium Subsidy Ratio</td><td>SJCZBFBTBL</td></tr>
+  <tr><td>020222</td><td>Municipal Fiscal Premium Subsidy Ratio</td><td>SHIJCZBFBTBL</td></tr>
+  <tr><td>020223</td><td>County-level Fiscal Premium Subsidy Ratio</td><td>XIANJCZBFBTBL</td></tr>
+  <tr><td>020224</td><td>Farmer Self-paid Premium Ratio</td><td>NHZJBFBL</td></tr>
+  <tr><td>020225</td><td>Other Source Premium Contribution Ratio</td><td>QTLYBFCDBL</td></tr>
+  <tr><td>020226</td><td>Insurance Product Category Flag</td><td>XZLBBZ</td></tr>
+  <tr><td>020227</td><td>Validity Flag</td><td>YXBZ</td></tr>
+  <tr><td rowspan="4">0203</td><td rowspan="4">Agricultural Insurance Underwriting Policy Detail Table</td><td>020301</td><td>Policy No.</td><td>BDHA9</td></tr>
+  <tr><td>020302</td><td>Policy Year</td><td>BDND</td></tr>
+  <tr><td>020201</td><td>Insurance Company Name</td><td>BXGSMC</td></tr>
+  <tr><td>010207</td><td>Province</td><td>SHENG</td></tr>
+  <tr><td colspan="2" rowspan="34">SAC Agricultural Insurance Underwriting 0203 Policy Detail Table</td><td>010208</td><td>City</td><td>SHI</td></tr>
+  <tr><td>010209</td><td>County</td><td>XIAN</td></tr>
+  <tr><td>020303</td><td>Township Code</td><td>XIANGZDM</td></tr>
+  <tr><td>010210</td><td>Township</td><td>XIANG</td></tr>
+  <tr><td>020304</td><td>Policy Issuing Organization Code</td><td>BDCDJGDM</td></tr>
+  <tr><td>020305</td><td>Policy Issuing Organization Name</td><td>BDCDJGMC</td></tr>
+  <tr><td>020306</td><td>Major Category Insurance Product Code</td><td>DLXZDM</td></tr>
+  <tr><td>020307</td><td>Major Category Insurance Product Name</td><td>DLXZMC</td></tr>
+  <tr><td>020203</td><td>Insurance Product Code</td><td>XZDM</td></tr>
+  <tr><td>020206</td><td>Insurance Product Name</td><td>XZMC</td></tr>
+  <tr><td>020308</td><td>Insured Subject Detailed Name</td><td>BDXXMC</td></tr>
+  <tr><td>020309</td><td>Policy Location Address</td><td>BDZLDZ</td></tr>
+  <tr><td>020310</td><td>Policy Location Coordinates</td><td>BDZLZB</td></tr>
+  <tr><td>020311</td><td>Coverage Start Date</td><td>QBRQ</td></tr>
+  <tr><td>020312</td><td>Coverage End Date</td><td>ZBRQ</td></tr>
+  <tr><td>020313</td><td>Insurance Days</td><td>BXTS</td></tr>
+  <tr><td>020314</td><td>Sum Insured per Unit</td><td>DWBE</td></tr>
+  <tr><td>020315</td><td>Rate</td><td>FL</td></tr>
+  <tr><td>020316</td><td>Premium per Unit</td><td>DWBF</td></tr>
+  <tr><td>020210</td><td>Insurance Product Unit of Measure</td><td>XZJLDW</td></tr>
+  <tr><td>020317</td><td>Insured Quantity</td><td>TBSL</td></tr>
+  <tr><td>020318</td><td>Breeding Variety Identification Code</td><td>YZPZSBM</td></tr>
+  <tr><td>020319</td><td>Signed Premium</td><td>QDBF</td></tr>
+  <tr><td>020220</td><td>Central Fiscal Premium Subsidy Ratio</td><td>ZYCZBFBTBL</td></tr>
+  <tr><td>020320</td><td>Central Fiscal Premium Subsidy Amount Payable</td><td>ZYCZBFYBTJE</td></tr>
+  <tr><td>020321</td><td>Central Fiscal Premium Subsidy Amount Actually Subsidized</td><td>ZYCZBFSJBTJE</td></tr>
+  <tr><td>020221</td><td>Provincial Fiscal Premium Subsidy Ratio</td><td>SJCZBFBTBL</td></tr>
+  <tr><td>020322</td><td>Provincial Fiscal Premium Subsidy Amount Payable</td><td>SJCZBFYBTJE</td></tr>
+  <tr><td>020323</td><td>Provincial Fiscal Premium Subsidy Amount Actually Subsidized</td><td>SJCZBFSJBTJE</td></tr>
+  <tr><td>020222</td><td>Municipal Fiscal Premium Subsidy Ratio</td><td>SHIJCZBFBTBL</td></tr>
+  <tr><td>020324</td><td>Municipal Fiscal Premium Subsidy Amount Payable</td><td>SHIJCZBFYBTJE</td></tr>
+  <tr><td>020325</td><td>Municipal Fiscal Premium Subsidy Amount Actually Subsidized</td><td>SHIJCZBFSJBTJE</td></tr>
+  <tr><td>020223</td><td>County-level Fiscal Premium Subsidy Ratio</td><td>XIANJCZBFBTBL</td></tr>
+  <tr><td>020326</td><td>County-level Fiscal Premium Subsidy Amount Payable</td><td>XIANJCZBFYBTJE</td></tr>
+  <tr><td colspan="2" rowspan="16">Agricultural Insurance Underwriting 0203 Policy Detail Table</td><td>020327</td><td>County-level Fiscal Premium Subsidy Amount Actually Subsidized</td><td>XIANJCZBFSJBTJE</td></tr>
+  <tr><td>020224</td><td>Farmer Self-paid Premium Ratio</td><td>NHZJBFBL</td></tr>
+  <tr><td>020328</td><td>Farmer Self-paid Premium Amount</td><td>NHZJBFJE</td></tr>
+  <tr><td>020329</td><td>Other Source Subsidy Ratio</td><td>QTLYBTBL</td></tr>
+  <tr><td>020330</td><td>Other Source Subsidy Amount Payable</td><td>QTLYYBTJE</td></tr>
+  <tr><td>020331</td><td>Other Source Subsidy Amount Actually Subsidized</td><td>QTLYSJBTJE</td></tr>
+  <tr><td>020332</td><td>Name of Policyholder/Organizer</td><td>TBRTBZZZMC</td></tr>
+  <tr><td>020333</td><td>Organization Code</td><td>ZUZJGDM</td></tr>
+  <tr><td>020334</td><td>ID Document Type Code</td><td>ZJLXDM</td></tr>
+  <tr><td>010206</td><td>ID Document Number</td><td>ZJHM</td></tr>
+  <tr><td>010218</td><td>Contact Information</td><td>LXFS</td></tr>
+  <tr><td>020337</td><td>Assigned Agent</td><td>GSYWY</td></tr>
+  <tr><td>020338</td><td>Handler</td><td>JBR</td></tr>
+  <tr><td>020339</td><td>Entry Date</td><td>LRRQ</td></tr>
+  <tr><td>020340</td><td>Operator</td><td>CZR</td></tr>
+  <tr><td>020341</td><td>Initial Reviewer</td><td>CSR</td></tr>
+  <tr><td colspan="2" rowspan="18">Agricultural Insurance Underwriting 0204 Household Enrollment List Table</td><td>020401</td><td>List No.</td><td>QDH</td></tr>
+  <tr><td>020201</td><td>Insurance Company Name</td><td>BXGSMC</td></tr>
+  <tr><td>010207</td><td>Province</td><td>SHENG</td></tr>
+  <tr><td>010208</td><td>City</td><td>SHI</td></tr>
+  <tr><td>010209</td><td>County</td><td>XIAN</td></tr>
+  <tr><td>010210</td><td>Township</td><td>XIANG</td></tr>
+  <tr><td>020303</td><td>Township Code</td><td>XIANGZDM</td></tr>
+  <tr><td>020305</td><td>Policy Issuing Organization Name</td><td>BDCDJGMC</td></tr>
+  <tr><td>020301</td><td>Policy No.</td><td>BDH</td></tr>
+  <tr><td>020402</td><td>Total Number of Insured Households</td><td>ZTBHS</td></tr>
+  <tr><td>020403</td><td>Name of Household Insured Person or Organization</td><td>FHBBXRXMHZZMC</td></tr>
+  <tr><td>020334</td><td>ID Document Type Code</td><td>ZJLXDM</td></tr>
+  <tr><td>010206</td><td>ID Document Number</td><td>ZJHM</td></tr>
+  <tr><td>010241</td><td>Bank Account No.</td><td>YHZH</td></tr>
+  <tr><td>010703</td><td>Account Opening Bank Name</td><td>KHYHMC</td></tr>
+  <tr><td>020404</td><td>Address of Household Insured Person</td><td>FHBBXRDZ</td></tr>
+  <tr><td>020405</td><td>Mobile Number</td><td>SJHM</td></tr>
+  <tr><td>020210</td><td>Insurance Product Unit of Measure</td><td>XZJLDW</td></tr>
+  <tr><td rowspan="5">0204</td><td rowspan="5">Agricultural Insurance Underwriting Household Enrollment List Table</td><td>020317</td><td>Insured Quantity</td><td>TBSL</td></tr>
+  <tr><td>020314</td><td>Sum Insured per Unit</td><td>DWBE</td></tr>
+  <tr><td>020211</td><td>Sum Insured</td><td>BXJE</td></tr>
+  <tr><td>020212</td><td>Premium Rate</td><td>BXFL</td></tr>
+  <tr><td>020406</td><td>Premium</td><td>BXF</td></tr>
+  <tr><td colspan="2" rowspan="29">SAC Agricultural Insurance Claims 0205 Business Detail Table</td><td>020501</td><td>Report No.</td><td>BAH</td></tr>
+  <tr><td>020201</td><td>Insurance Company Name</td><td>BXGSMC</td></tr>
+  <tr><td>010207</td><td>Province</td><td>SHENG</td></tr>
+  <tr><td>010208</td><td>City</td><td>SHI</td></tr>
+  <tr><td>010209</td><td>County</td><td>XIAN</td></tr>
+  <tr><td>010210</td><td>Township</td><td>XIANG</td></tr>
+  <tr><td>020303</td><td>Township Code</td><td>XIANGZDM</td></tr>
+  <tr><td>020305</td><td>Policy Issuing Organization Name</td><td>BDCDJGMC</td></tr>
+  <tr><td>020301</td><td>Policy No.</td><td>BDH</td></tr>
+  <tr><td>020401</td><td>List No.</td><td>QDH</td></tr>
+  <tr><td>020502</td><td>Case No.</td><td>LAH</td></tr>
+  <tr><td>020503</td><td>Date of Loss</td><td>CXRQ</td></tr>
+  <tr><td>020504</td><td>Loss Cause Major Category Code</td><td>CXYYDLDM</td></tr>
+  <tr><td>020505</td><td>Loss Cause Major Category Name</td><td>CXYYDLMC</td></tr>
+  <tr><td>020506</td><td>Loss Cause Detail Code</td><td>CXYYMXDM</td></tr>
+  <tr><td>020507</td><td>Loss Cause Detail Name</td><td>CXYYMXMC</td></tr>
+  <tr><td>020508</td><td>Detailed Location of Insured Subject</td><td>BXBDXXZLWZ</td></tr>
+  <tr><td>020509</td><td>Report Date</td><td>BARQ</td></tr>
+  <tr><td>020203</td><td>Insurance Product Code</td><td>XZDM</td></tr>
+  <tr><td>020206</td><td>Insurance Product Name</td><td>XZMC</td></tr>
+  <tr><td>020510</td><td>Damaged Subject Matter</td><td>SSBD</td></tr>
+  <tr><td>020511</td><td>Reported Product Unit</td><td>BAXZDW</td></tr>
+  <tr><td>020512</td><td>Reported Loss Quantity</td><td>BSSL</td></tr>
+  <tr><td>020513</td><td>Insured Name</td><td>BBXRMC</td></tr>
+  <tr><td>020514</td><td>Insured ID Document Number</td><td>BBXRZJHM</td></tr>
+  <tr><td>020515</td><td>Reporter Name</td><td>BARXM</td></tr>
+  <tr><td>020516</td><td>Reporter Phone</td><td>BARDH</td></tr>
+  <tr><td>020517</td><td>Survey Date</td><td>CKRQ</td></tr>
+  <tr><td>020518</td><td>Case Filing Date</td><td>LARQ</td></tr>
+  <tr><td colspan="2" rowspan="21">Agricultural Insurance Claims 0205 Business Detail Table</td><td>020519</td><td>Loss Quantity</td><td>CXSL</td></tr>
+  <tr><td>020318</td><td>Breeding Variety Identification Code</td><td>YZPZSBM</td></tr>
+  <tr><td>020520</td><td>Case Filing Amount</td><td>LAJE</td></tr>
+  <tr><td>020521</td><td>Name of Survey/Loss Assessor</td><td>KCDSRXM</td></tr>
+  <tr><td>020522</td><td>ID Document Number of Survey/Loss Assessor</td><td>KCDSRZJHM</td></tr>
+  <tr><td>020523</td><td>Case Filing Handling Status</td><td>LACLQK</td></tr>
+  <tr><td>020524</td><td>Reason for Abnormal Case Filing</td><td>WZCLAYY</td></tr>
+  <tr><td>020525</td><td>Settled Payment Amount</td><td>YJPFJE</td></tr>
+  <tr><td>020526</td><td>Settled Payment Product Unit</td><td>YJPFXZDW</td></tr>
+  <tr><td>020527</td><td>Settled Payment Product Quantity</td><td>YJPFXZSL</td></tr>
+  <tr><td>020528</td><td>Settled Payment Beneficiary Household</td><td>YJPFSYH</td></tr>
+  <tr><td>020529</td><td>Outstanding Payment Amount</td><td>WJPFJE</td></tr>
+  <tr><td>020530</td><td>Outstanding Payment Product Unit</td><td>WJPFXZDW</td></tr>
+  <tr><td>020531</td><td>Outstanding Payment Product Quantity</td><td>WJPFXZSL</td></tr>
+  <tr><td>020532</td><td>Outstanding Payment Beneficiary Household</td><td>WJPFSYH</td></tr>
+  <tr><td>020533</td><td>Case Closure Amount</td><td>JAJE</td></tr>
+  <tr><td>020534</td><td>Indemnity Payment Method</td><td>PKZFFS</td></tr>
+  <tr><td>020535</td><td>Case Closure Date</td><td>JARQ</td></tr>
+  <tr><td>020536</td><td>Report Cancellation Date</td><td>BAZXRQ</td></tr>
+  <tr><td>020537</td><td>Case Filing Cancellation Date</td><td>LAZXRQ</td></tr>
+  <tr><td>020538</td><td>Case Status</td><td>AJZT</td></tr>
+  <tr><td colspan="2" rowspan="13">Agricultural Insurance Claims 0206 Payee Information Detail Table</td><td>020501</td><td>Report No.</td><td>BAH</td></tr>
+  <tr><td>020301</td><td>Policy No.</td><td>BDH</td></tr>
+  <tr><td>010207</td><td>Province</td><td>SHENG</td></tr>
+  <tr><td>010208</td><td>City                                 SAC</td><td>SHI</td></tr>
+  <tr><td>010209</td><td>County</td><td>XIAN</td></tr>
+  <tr><td>020303</td><td>Township Code</td><td>XIANGZDM</td></tr>
+  <tr><td>010210</td><td>Township</td><td>XIANG</td></tr>
+  <tr><td>020305</td><td>Policy Issuing Organization Name</td><td>BDCDJGMC</td></tr>
+  <tr><td>020601</td><td>Payee (Person/Unit) Name</td><td>LKRHDWMC</td></tr>
+  <tr><td>020334</td><td>ID Document Type Code</td><td>ZJLXDM</td></tr>
+  <tr><td>010206</td><td>ID Document Number</td><td>ZJHM</td></tr>
+  <tr><td>020602</td><td>Whether Payee Is the Insured</td><td>SFWBXRLK</td></tr>
+  <tr><td>020603</td><td>Reason for Not Being the Insured</td><td>FBBXRYY</td></tr>
+  <tr><td rowspan="4">0206</td><td rowspan="4">Agricultural Insurance Claims Payee Information Detail Table</td><td>010703</td><td>Account Opening Bank Name</td><td>KHYHMC</td></tr>
+  <tr><td>020604</td><td>Bank Card Number</td><td>YHKH</td></tr>
+  <tr><td>020605</td><td>Payee Amount</td><td>LKJE</td></tr>
+  <tr><td>020606</td><td>Indemnity Payment Date</td><td>PKZFRQ</td></tr>
+</table>

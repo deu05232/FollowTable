@@ -1,0 +1,15 @@
+<table>
+  <caption>Operational Parameters Checklist with Constraint Codes (Not Performance-Focused)</caption>
+  <thead>
+    <tr><th>Device</th><th>Parameter</th><th>Constraint Code</th><th>Mandatory Status</th><th>Exception Rule</th><th>Audit Evidence Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Infusion Pump</td><td>Infusion Mode</td><td>X-REQ-01</td><td>B</td><td>Allowed to omit if single-mode device</td><td>Device label photo</td></tr>
+    <tr><td>Infusion Pump</td><td>Infusion Accuracy</td><td>X-REQ-02</td><td>B</td><td>Omit if accuracy not specified by vendor</td><td>IFU excerpt</td></tr>
+    <tr><td>Defibrillator</td><td>Defibrillation Waveform</td><td>X-REQ-03</td><td>A</td><td>Provide only if biphasic supported</td><td>Test report reference</td></tr>
+    <tr><td>Therapeutic Apparatus</td><td>Modulation Degree</td><td>X-REQ-04</td><td>A</td><td>Not applicable for fixed-frequency models</td><td>Specification sheet</td></tr>
+    <tr><td>Ventilator</td><td>Control Mode</td><td>X-REQ-05</td><td>B</td><td>Exclude for purely pneumatic systems</td><td>Declaration of conformity</td></tr>
+    <tr><td>Biochemical Analyzer</td><td>Test Items</td><td>X-REQ-06</td><td>B</td><td>May list panels instead of analytes</td><td>Menu certificate</td></tr>
+    <tr><td>Traction Bed</td><td>Traction Bed Type</td><td>X-REQ-07</td><td>B</td><td>No exceptions</td><td>Catalog page</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Terrestrial eco-meteorological observation: abnormal ecological event record (code-only payload) data format</caption>
+  <tr><th>Serial No.</th><th>Record Content</th><th>Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>3</td><td>Abnormal ecological event code</td><td>AE_CODE</td><td>Characters(4)</td><td>In the VVVV format of Table B.xx (controlled list)</td></tr>
+  <tr><td>4</td><td>Event subtype code</td><td>AE_SUB</td><td>Characters(2)</td><td>In the SS format of Table B.xx</td></tr>
+  <tr><td>5</td><td>Event verification status</td><td>AE_VER</td><td>Characters(1)</td><td>0=unverified, 1=verified</td></tr>
+  <tr><td>6</td><td>Reporting channel</td><td>AE_CH</td><td>Characters(1)</td><td>R=routine, E=emergency</td></tr>
+</table>

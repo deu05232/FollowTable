@@ -1,0 +1,18 @@
+<table>
+  <caption>Projection Box Light Source: Control Zoning and Luminance Uniformity Settings (with limited reference dimensions)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Code</th><th>Setting / Value</th><th>Units</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Mechanical reference</td><td>Reference window width</td><td>Wref</td><td>24.0</td><td>mm</td><td>Nominal; not tied to viewing direction</td></tr>
+    <tr><td>Reference window height</td><td>Href</td><td>G</td><td>7.0</td><td>mm</td><td>Nominal; for packaging only</td></tr>
+    <tr><td>Mounting datum offset</td><td>Odat</td><td>O</td><td>1.2</td><td>mm</td><td>Manufacturing target, not a coded fit requirement</td></tr>
+    <tr><td rowspan="5">Performance control</td><td>Number of luminance control sub-areas</td><td>Nzone</td><td>6</td><td>count</td><td>Used for deviation control</td></tr>
+    <tr><td>Sub-area layout</td><td>Layout</td><td>L</td><td>3×2</td><td>-</td><td>Matrix arrangement</td></tr>
+    <tr><td>Maximum allowed luminance deviation</td><td>ΔLmax</td><td>D</td><td>15</td><td>%</td><td>Across full projection field</td></tr>
+    <tr><td>Drive current setpoint</td><td>Iset</td><td>I</td><td>350</td><td>mA</td><td>Electrical control parameter</td></tr>
+    <tr><td>PWM dimming frequency</td><td>fpwm</td><td>F</td><td>200</td><td>Hz</td><td>Flicker/thermal tradeoff</td></tr>
+    <tr><td rowspan="2">Environmental</td><td>Heat-sink temperature limit</td><td>Tlim</td><td>85</td><td>°C</td><td>Reliability protection</td></tr>
+    <tr><td>Ambient operating range</td><td>Tamb</td><td>TA</td><td>-20 to 60</td><td>°C</td><td>System level constraint</td></tr>
+  </tbody>
+</table>

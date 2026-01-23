@@ -1,0 +1,15 @@
+<table>
+  <caption>Starter Overload Withstand / Thermal Stress Test (No Making & Breaking Duty Details)</caption>
+  <thead>
+    <tr><th rowspan="2">Utilization category</th><th rowspan="2">Rated operational current range (A)</th><th colspan="4">Overload withstand test conditions</th><th rowspan="2">Pass criteria</th></tr>
+    <tr><th>Test current (×Ie)</th><th>Max test current (A)</th><th>Energizing time (s)</th><th>Rest interval (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">AC-3</td><td>1–32</td><td>8 × Ie</td><td>256</td><td>10</td><td>180</td><td>No welding; functional check after cool-down</td></tr>
+    <tr><td>33–63</td><td>8 × Ie</td><td>504</td><td>10</td><td>180</td><td>No insulation breakdown; contact resistance within limit</td></tr>
+    <tr><td>64–100</td><td>8 × Ie</td><td>800</td><td>10</td><td>180</td><td>No mechanical damage; latch must reset</td></tr>
+    <tr><td>101–160</td><td>6 × Ie</td><td>960</td><td>10</td><td>180</td><td>Trip function (if present) remains calibrated</td></tr>
+    <tr><td>161–250</td><td>6 × Ie</td><td>1500</td><td>10</td><td>180</td><td>Temperature rise within specified limits</td></tr>
+    <tr><td>251–400</td><td>6 × Ie</td><td>2400</td><td>10</td><td>180</td><td>Dielectric withstand after test</td></tr>
+  </tbody>
+</table>

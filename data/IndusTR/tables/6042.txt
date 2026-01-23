@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Lighting Estimation Query Parameters (Signature-Style)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Data Type</th><th>Used For</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>AR session context; required for accessing per-session resources used by lighting estimation.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>Frame whose lighting estimate is requested; ties the result to a specific camera exposure/time.</td></tr>
+    <tr><td>estimation_mode</td><td>ArLightEstimationMode</td><td>Specifies the type of lighting info requested (e.g., ambient intensity only vs. environmental HDR).</td></tr>
+    <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Output object populated with lighting data for the provided frame.</td></tr>
+    <tr><td>out_valid</td><td>int32_t *</td><td>Output flag indicating whether the returned estimate is valid for this frame (0/1).</td></tr>
+    <tr><td>out_main_light_direction</td><td>float[3] *</td><td>Output main light direction vector (when supported), enabling directional shading consistent with the frame.</td></tr>
+    <tr><td>out_main_light_intensity</td><td>float[3] *</td><td>Output RGB intensity of the main directional light (when supported), used for physically based lighting.</td></tr>
+  </tbody>
+</table>

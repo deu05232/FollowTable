@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Session Configuration Guide (Descriptions with Mixed Identifiers)</caption>
+  <thead>
+    <tr><th>Configuration Topic</th><th>Decision Notes (Plain English)</th><th>SDK Hint / Identifier</th><th>Impact</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intersection Queries</td><td>Choose polygon-only when you only care about detected bounded surfaces; it avoids querying infinite planes.</td><td>ARQueryMode: polygonOnly</td><td>More conservative hits</td></tr>
+    <tr><td>Intersection Queries</td><td>Enable horizon plane when you want a stable ground-like plane even beyond the detected polygon bounds.</td><td>ARQueryMode: polygonAndHorizon</td><td>More hits on ground</td></tr>
+    <tr><td>Intersection Queries</td><td>Persistence mode favors the detected polygon but can fall back to an infinite plane for continuity.</td><td>ARQueryMode: polygonPersistence</td><td>Smoother placement</td></tr>
+    <tr><td>Image Handling</td><td>Prefer luminance-only when you mainly run edge/feature detection and want lower bandwidth.</td><td>Pixel format: LUMINANCE8</td><td>Lower memory</td></tr>
+    <tr><td>Image Handling</td><td>Use RG16 when your pipeline expects two-channel data; ensure shaders interpret channels correctly.</td><td>Pixel format: RG16</td><td>Higher fidelity</td></tr>
+    <tr><td>Tracking Lifecycle</td><td>Manual mode is useful if you want to delay heavy tracking until onboarding finishes.</td><td>RunMode = MANUAL</td><td>More control</td></tr>
+    <tr><td>Lighting</td><td>If estimation is not valid, consider keeping virtual lights neutral to avoid flicker.</td><td>IlluminationState: NOT_VALID</td><td>Prevents popping</td></tr>
+  </tbody>
+</table>

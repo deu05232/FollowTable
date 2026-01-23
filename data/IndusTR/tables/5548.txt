@@ -1,0 +1,14 @@
+<table>
+  <caption>Trusted Root CA Certificate Retrieval Function Definition</caption>
+  <tr><td rowspan="4">Prototype</td><td>int SAF_GetRootCaCertificate(</td></tr>
+  <tr><td>void * hAppHandle,</td></tr>
+  <tr><td>unsigned int uiIndex,</td></tr>
+  <tr><td>unsigned char * pucCertificate,</td></tr>
+  <tr><td>Description</td><td>Get the CA root certificate at the specified location</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>uiIndex[in](root certificate index)</td></tr>
+  <tr><td>pucCertificate[out](DER-encoded certificate）</td></tr>
+  <tr><td>puiCertificateLen[in,out](certificate length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non-0(Failure, returns the error code defined in Table C.1, shall comply with the provisions of Annex C)</td></tr>
+</table>

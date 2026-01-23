@@ -1,0 +1,15 @@
+<table>
+  <caption>SOF Component Certificate Application Service Interfaces — Certificate Password and Login Operations</caption>
+  <thead>
+    <tr><th>Operation</th><th>Prototype</th><th>Description</th><th>Parameters</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">User Authentication</td><td>function SOF_Login(CertID, PassWd, cb, ctx)</td><td>Verify the certificate password to authenticate the user session.</td><td>CertID; PassWd; cb; ctx</td><td>Used before private-key operations; no XML signature semantics.</td></tr>
+    <tr><td>function SOF_Logout(CertID, cb, ctx)</td><td>Terminate an authenticated session associated with the certificate container.</td><td>CertID; cb; ctx</td><td>Clears cached PIN state.</td></tr>
+    <tr><td rowspan="3">Password Management</td><td>function ChangeUserPassword(CertID, OldPassWd, NewPassWd, cb, ctx)</td><td>Change the certificate password/PIN for the specified container.</td><td>CertID; OldPassWd; NewPassWd; cb; ctx</td><td>Administrative operation; not related to XML signature parsing.</td></tr>
+    <tr><td>function UnlockUserPIN(CertID, AdminCode, NewPassWd, cb, ctx)</td><td>Unlock a locked user PIN using an administrative code and set a new password.</td><td>CertID; AdminCode; NewPassWd; cb; ctx</td><td>May require device policy support.</td></tr>
+    <tr><td>function GetPasswordRetryCounter(CertID)</td><td>Query remaining password retry attempts for the certificate container.</td><td>CertID</td><td>Returns integer counter.</td></tr>
+    <tr><td rowspan="2">Session Utilities</td><td>function IsLoggedIn(CertID)</td><td>Check whether the user is authenticated for the given certificate container.</td><td>CertID</td><td>Boolean-like return.</td></tr>
+    <tr><td>function SetPINCacheTimeout(LONG seconds)</td><td>Configure how long the PIN is cached after login.</td><td>seconds</td><td>Affects subsequent key usage.</td></tr>
+  </tbody>
+</table>

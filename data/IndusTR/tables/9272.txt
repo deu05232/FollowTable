@@ -1,0 +1,15 @@
+<table>
+  <caption>Perpendicularity Accuracy Requirements by Thickness Range (General Laser Cutting)</caption>
+  <thead>
+    <tr><th>Thickness range a (mm)</th><th>Accuracy grade</th><th>Overall perpendicularity tolerance u (mm)</th><th>Measurement length L (mm)</th><th>Sampling plan</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.1 ≤ a ≤ 1.0</td><td>0</td><td>≤ 0.05 + 0.002a</td><td>100</td><td>5 cuts / batch</td></tr>
+    <tr><td>0.1 ≤ a ≤ 1.0</td><td>I</td><td>≤ 0.10 + 0.015a</td><td>100</td><td>5 cuts / batch</td></tr>
+    <tr><td>1.0 < a ≤ 6.0</td><td>0</td><td>≤ 0.06 + 0.003a</td><td>200</td><td>3 cuts / batch</td></tr>
+    <tr><td>1.0 < a ≤ 6.0</td><td>I</td><td>≤ 0.12 + 0.020a</td><td>200</td><td>3 cuts / batch</td></tr>
+    <tr><td>6.0 < a ≤ 20.0</td><td>I</td><td>≤ 0.18 + 0.025a</td><td>300</td><td>3 cuts / batch</td></tr>
+    <tr><td>6.0 < a ≤ 20.0</td><td>II</td><td>≤ 0.25 + 0.030a</td><td>300</td><td>3 cuts / batch</td></tr>
+    <tr><td colspan="5">Note: a is the workpiece thickness. Requirements are stated by thickness range and grade, not by laser type.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>EPC/URI Encoding for Agricultural Input Product Instance (GTIN + Serial) with GS1 AI Element Strings</caption>
+  <thead>
+    <tr><th>Layer</th><th>Element string name</th><th>Application identifier (AI)</th><th>Data field format</th><th>Typical EPC/URI token</th><th>Example value</th><th>Mandatory</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Primary identifier</td><td>Global Trade Item Number (GTIN)</td><td>01</td><td>N14</td><td>gtin=</td><td>09506000123457</td><td>Mandatory</td></tr>
+    <tr><td>Primary identifier</td><td>Serial number</td><td>21</td><td>X..20</td><td>ser=</td><td>SN-AGRI-0000459</td><td>Mandatory</td></tr>
+    <tr><td>Extended identifier</td><td>Batch/Lot number</td><td>10</td><td>X..20</td><td>lot=</td><td>LOT2026A01</td><td>Optional</td></tr>
+    <tr><td>Extended identifier</td><td>Production date</td><td>11</td><td>N6 (YYMMDD)</td><td>prod=</td><td>260115</td><td>Optional</td></tr>
+    <tr><td>Extended identifier</td><td>Best before date</td><td>15</td><td>N6 (YYMMDD)</td><td>bb=</td><td>270630</td><td>Optional</td></tr>
+    <tr><td>Extended identifier</td><td>Net weight (kg)</td><td>310n</td><td>N6 (n = decimal places)</td><td>netw_kg=</td><td>3102:001250 (12.50 kg)</td><td>Optional</td></tr>
+    <tr><td>Extended identifier</td><td>Additional product identification</td><td>240</td><td>X..30</td><td>addl=</td><td>FERT-NPK-20-20-20</td><td>Optional</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="7">Notes: N = numeric; X = alphanumeric (variable length). In EPC/URI implementations, systems often map AIs to stable query parameter names (e.g., gtin, ser, lot) while preserving the original AI semantics.</td></tr>
+  </tfoot>
+</table>

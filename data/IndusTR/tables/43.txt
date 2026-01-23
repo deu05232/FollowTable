@@ -1,0 +1,20 @@
+<table>
+  <caption>AIS Class B Equipment Transmitter Technical Characteristics</caption>
+  <tr><td>Parameter Name</td><td>Unit</td><td>Test Conditions</td><td>Requirement</td></tr>
+  <tr><td>Frequency</td><td>MHz</td><td></td><td>160.9</td></tr>
+  <tr><td>Baud Rate</td><td>b/s</td><td></td><td>9 600</td></tr>
+  <tr><td>Training Sequence</td><td>bit</td><td></td><td>24</td></tr>
+  <tr><td>Transmit Stabilization Time</td><td>ms</td><td>Transmit power reaches within ±20% of the nominal value and the frequency stabilizes within ±1 kHz of the nominal value</td><td>≤1.0</td></tr>
+  <tr><td>Transmit Power Fall Time</td><td>ps</td><td></td><td>≤832</td></tr>
+  <tr><td>Transmission Duration</td><td>ms</td><td></td><td>≤26.67</td></tr>
+  <tr><td rowspan="2">Carrier Frequency Error</td><td rowspan="2">Hz</td><td>Normal Environment</td><td>-500≤Fe≤500</td></tr>
+  <tr><td>Extreme Environment</td><td>-1000≤Fe≤1000</td></tr>
+  <tr><td rowspan="4">Time-Slot Modulation Mask</td><td rowspan="4">dBc</td><td>-10 kHz<△fb<10 kHz</td><td>≤</td></tr>
+  <tr><td>-62.5kHz<△fb<-25kHz</td><td>≤-36</td></tr>
+  <tr><td>25kHz<△fb<62.5kHz</td><td>≤-36</td></tr>
+  <tr><td>Other Carrier Offset Frequencies</td><td>Signal power below the solid line shown in Figure 4</td></tr>
+  <tr><td>Output Power and Time Mask</td><td></td><td></td><td>Shall comply with the requirements of ITU-RM.2135</td></tr>
+  <tr><td rowspan="2">Spurious Emissions</td><td rowspan="2">dBm</td><td>9 kHz~1 GHz</td><td><-36</td></tr>
+  <tr><td>1GHz~4 GHz</td><td><-30</td></tr>
+  <tr><td colspan="4">a Carrier frequency error. b Carrier offset frequency.</td></tr>
+</table>

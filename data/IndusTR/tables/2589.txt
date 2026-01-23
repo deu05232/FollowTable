@@ -1,0 +1,11 @@
+<table>
+  <caption>Extrusion Line Setup Sheet for Polyethylene Geomembrane Manufacturing (Process Window)</caption>
+  <tr><th>Process Step</th><th>Control Item</th><th>Unit</th><th>Setpoint</th><th>Allowed Deviation</th><th>Notes</th></tr>
+  <tr><td>Extruder Zone 1</td><td>Barrel Temperature</td><td>°C</td><td>165</td><td>±5</td><td>Prevent surging</td></tr>
+  <tr><td>Extruder Zone 2</td><td>Barrel Temperature</td><td>°C</td><td>175</td><td>±5</td><td>Stable melt</td></tr>
+  <tr><td>Extruder Zone 3</td><td>Barrel Temperature</td><td>°C</td><td>185</td><td>±5</td><td>Dispersing carbon black</td></tr>
+  <tr><td>Die</td><td>Die Temperature</td><td>°C</td><td>195</td><td>±3</td><td>Uniform thickness</td></tr>
+  <tr><td>Calender</td><td>Roll Gap</td><td>mm</td><td>1.50</td><td>±0.05</td><td>Depends on target gauge</td></tr>
+  <tr><td>Haul-off</td><td>Line Speed</td><td>m/min</td><td>3.2</td><td>±0.4</td><td>Affects surface finish</td></tr>
+  <tr><td>Cooling</td><td>Chill Roll Temperature</td><td>°C</td><td>22</td><td>±2</td><td>Control shrinkage</td></tr>
+</table>

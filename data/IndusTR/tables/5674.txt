@@ -1,0 +1,8 @@
+<table>
+  <caption>ARSessionState enumeration members (name/value with meaning)</caption>
+  <tr><th>Session state description</th><th>Reference name and value</th></tr>
+  <tr><td>Session not initialized</td><td>AR_SESSION_STATE_UNINITIALIZED = 0</td></tr>
+  <tr><td>Session is running normally</td><td>AR_SESSION_STATE_RUNNING = 1</td></tr>
+  <tr><td>Session is paused</td><td>AR_SESSION_STATE_PAUSED = 2</td></tr>
+  <tr><td>Session encountered a fatal error</td><td>AR_SESSION_STATE_FATAL_ERROR = 3</td></tr>
+</table>

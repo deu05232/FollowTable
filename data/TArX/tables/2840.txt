@@ -1,0 +1,19 @@
+<table>
+  <caption>Default parameters for energy harvesting simulations.</caption>
+  <tr><th colspan="2">Material and capacitor parameters</th></tr>
+  <tr><th>L_(1)^() , L_(2)^() , L_(3)^()</th><td>[0.1]m , [0.2]m , [5· 10^(-5)]m</td></tr>
+  <tr><th>C_(10) , C_(20) , C_(30)</th><td>[139840]Pa , [-6570]Pa , [1057]Pa</td></tr>
+  <tr><th>_(r)</th><td>[3.1]</td></tr>
+  <tr><th>σ_(DC)</th><td>[10^(-13)]{}</td></tr>
+  <tr><th>R_(CE)</th><td>[1000]Ω</td></tr>
+  <tr><th>γ</th><td>[10^(6)]s/Pa</td></tr>
+  <tr><th colspan="2">Driving parameters</th></tr>
+  <tr><th colspan="2">f_(A)=[1]N , f_(0)=[2]N , t_(C)=[10]s</th></tr>
+  <tr><th colspan="2">Circuit parameters</th></tr>
+  <tr><th>U_(In,Max)</th><td>[651]V</td></tr>
+  <tr><th>R_(In) , R_(Out)</th><td>[10^(6)]Ω , [3.83· 10^(7)]Ω</td></tr>
+  <tr><th>t_(1) , t_(2) , t_(C)=2/ω</th><td></td></tr>
+  <tr><th colspan="2">Limiting parameters</th></tr>
+  <tr><th>λ_(Max)</th><td>5</td></tr>
+  <tr><th>E_(Max)</th><td>[20]{Vm^(-1)</td></tr>
+</table>

@@ -1,0 +1,19 @@
+# Laptop CPU Suffix Guide (What Mobile Processor Suffixes Typically Indicate)
+
+| Vendor | Suffix / label | Typical laptop segment | Typical TDP class (W) | Common core count range | Notes focused on CPU behavior |
+| --- | --- | --- | --- | --- | --- |
+| Intel | Y | Fanless ultra-mobile | ~4.5–9 | 2–4 | Prioritizes efficiency; lower sustained clocks |
+| Intel | U | Thin-and-light | ~10–15 | 2–10 | Balanced efficiency; common in ultrabooks |
+| Intel | P | Thin-and-light performance (varies by generation) | ~20–28 | 4–14 | Higher sustained power than U in many gens |
+| Intel | H | High-performance laptop | ~35–45 | 4–24 | Higher boost and sustained performance |
+| Intel | HK | Unlocked H-series | ~45+ | 4–24 | Overclock-capable on supported platforms |
+| Intel | HX | Enthusiast / desktop-class laptop | ~55+ | 8–24 | Often higher power limits; performance-focused |
+| Intel | G1/G4/G7 | Graphics tier tag (mobile) | (varies with U/P/Y) | (not CPU cores) | Indicates relative iGPU capability within a series |
+| AMD | U | Thin-and-light | ~10–25 | 4–8 | Efficiency-oriented; strong integrated graphics often |
+| AMD | HS | Performance thin-and-light | ~35 | 6–8 | Similar to H but tuned for thinner designs |
+| AMD | H | High-performance laptop | ~35–45 | 6–8 | Higher power envelope than U |
+| AMD | HX | Enthusiast laptop | ~45+ | 8–16 | Higher power limits; top-tier mobile SKUs |
+| AMD | GE (older) | Low-power mobile (legacy) | ~15–35 | 2–4 | Older designation seen on some mobile generations |
+| Qualcomm | (e.g., "cx") | Arm-based laptops | ~5–15 | 4–8 | Emphasis on efficiency; performance depends on SoC |
+| Apple | M (base) | Mac laptops (fanless or light cooling) | (platform-managed) | 8–12 (CPU) | Unified memory SoC; efficiency/performance cores |
+| Apple | Pro/Max | Pro-class Mac laptops | (platform-managed) | 10–16 (CPU) | More CPU/GPU resources; higher sustained performance |

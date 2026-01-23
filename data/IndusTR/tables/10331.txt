@@ -1,0 +1,14 @@
+<table>
+  <caption>XR Tracking State Enumeration (Core Diagnostics)</caption>
+  <thead>
+    <tr><th>Tracking state</th><th>Constant name</th><th>Numeric value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Tracking is normal</td><td>XR_TRACKING_STATE_TRACKING</td><td>0</td></tr>
+    <tr><td>Tracking is paused</td><td>XR_TRACKING_STATE_PAUSED</td><td>1</td></tr>
+    <tr><td>Tracking is stopped</td><td>XR_TRACKING_STATE_STOPPED</td><td>2</td></tr>
+    <tr><td>Tracking is limited (reduced fidelity)</td><td>XR_TRACKING_STATE_LIMITED</td><td>3</td></tr>
+    <tr><td>Tracking state is unknown / not yet available</td><td>XR_TRACKING_STATE_UNKNOWN</td><td>4</td></tr>
+    <tr><td>Tracking is relocalizing</td><td>XR_TRACKING_STATE_RELOCALIZING</td><td>5</td></tr>
+  </tbody>
+</table>

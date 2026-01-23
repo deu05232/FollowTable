@@ -1,0 +1,16 @@
+<table>
+  <caption>Basic error limit for DC energy meter verification devices by output voltage and current ranges</caption>
+  <thead>
+    <tr><th rowspan="2">Output voltage range</th><th rowspan="2">Output current range</th><th colspan="5">Device accuracy class — Basic error limit (%)</th></tr>
+    <tr><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">0.5 V to 60 V</td><td>1 mA to 50 mA</td><td>±0.015</td><td>±0.030</td><td>±0.070</td><td>±0.120</td><td>±0.250</td></tr>
+    <tr><td>50 mA to 2 A</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>2 A to Imax</td><td>±0.012</td><td>±0.025</td><td>±0.055</td><td>±0.105</td><td>±0.210</td></tr>
+    <tr><td rowspan="2">60 V to 600 V</td><td>10 mA to 1 A</td><td>±0.012</td><td>±0.024</td><td>±0.055</td><td>±0.105</td><td>±0.210</td></tr>
+    <tr><td>1 A to Imax</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td rowspan="2">600 V to 1500 V</td><td>10 mA to 0.5 A</td><td>±0.013</td><td>±0.026</td><td>±0.060</td><td>±0.110</td><td>±0.220</td></tr>
+    <tr><td>0.5 A to Imax</td><td>±0.011</td><td>±0.022</td><td>±0.052</td><td>±0.102</td><td>±0.205</td></tr>
+  </tbody>
+</table>

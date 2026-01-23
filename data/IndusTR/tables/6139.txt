@@ -1,0 +1,15 @@
+<table>
+  <caption>Video Segment Acquisition Context Metadata (Ingest Subset)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Video Segment Identifier</td><td>video_seg_id</td><td>c41</td><td>Unique identifier for a collected video segment; used as the ingest primary key</td><td></td></tr>
+    <tr><td>2</td><td>Collection Method Code</td><td>collect_method_cd</td><td>c1</td><td>Code for how the segment was acquired (e.g., fixed CCTV, mobile device, uploaded file); kept at segment level</td><td></td></tr>
+    <tr><td>3</td><td>Capture Location Type Code</td><td>capture_loc_type_cd</td><td>c3..7</td><td>Type of place where the segment was captured (e.g., road, community, indoor public area)</td><td></td></tr>
+    <tr><td>4</td><td>Capture Administrative Division Code</td><td>capture_admin_div_cd</td><td>c6</td><td>6-digit administrative division code for the capture location; aligned to national division coding practice</td><td></td></tr>
+    <tr><td>5</td><td>Capture Start Date/Time</td><td>capture_start_dt</td><td>d18</td><td>Start timestamp of the segment capture</td><td></td></tr>
+    <tr><td>6</td><td>Capture End Date/Time</td><td>capture_end_dt</td><td>d18</td><td>End timestamp of the segment capture</td><td></td></tr>
+    <tr><td>7</td><td>Source Device Identifier</td><td>source_device_id</td><td>c20</td><td>Identifier of the device that captured the segment (camera, recorder, or mobile terminal)</td><td></td></tr>
+  </tbody>
+</table>

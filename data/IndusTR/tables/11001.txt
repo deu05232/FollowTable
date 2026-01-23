@@ -1,0 +1,7 @@
+<table>
+  <caption>User Terminal Application File Information — Field Sizes Expressed as Ranges</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Initialization vector index</td><td>4–6</td><td>Index number used to reference an initialization vector</td></tr>
+  <tr><td>Initialization vector</td><td>8–16</td><td>IV value stored in the file</td></tr>
+  <tr><td>KeyID</td><td>1</td><td>Key identifier</td></tr>
+</table>

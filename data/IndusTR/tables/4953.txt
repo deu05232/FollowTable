@@ -1,0 +1,7 @@
+<table>
+  <caption>Plane X-Axis Boundary Length Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session                 SAC</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>plane</td><td>ArPlane *</td><td>Plane pointer</td></tr>
+  <tr><td>out_extent_x</td><td>float *</td><td>Boundary length pointer</td></tr>
+</table>

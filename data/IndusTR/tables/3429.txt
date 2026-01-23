@@ -1,0 +1,8 @@
+<table>
+  <caption>API Request Parameter Definition for Changing Electronic License Authorization Status</caption>
+  <tr><td>Field Name</td><td>Field Description</td><td>Constraint</td><td>Data Type</td><td>Length</td><td>Description</td></tr>
+  <tr><td>certKey</td><td>Token returned by unified identity authentication</td><td>Required</td><td>String</td><td></td><td>This Token contains certKey used to identify identity information</td></tr>
+  <tr><td>tokenSNO</td><td>Unified identity authentication tokenSNO</td><td>Required</td><td>String</td><td>一</td><td>tokenSNO issued by unified identity authentication</td></tr>
+  <tr><td>status</td><td>Electronic license authorization status</td><td>Required</td><td>String</td><td>1</td><td>1: enable authorization; 0: disable authorization</td></tr>
+  <tr><td>certificateIds</td><td>License list</td><td>Required</td><td>String</td><td></td><td>List of license identifiers (certificateIds)</td></tr>
+</table>

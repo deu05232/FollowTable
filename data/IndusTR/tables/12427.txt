@@ -1,0 +1,20 @@
+<table>
+  <caption>Caption Screen Layout and Placement Parameters (Presentation Layer)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Bits</th><th>Typical Values</th><th>Impact</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>safe_area_left</td><td>u(8)</td><td>0..255</td><td>Left margin for rendering</td></tr>
+    <tr><td>safe_area_top</td><td>u(8)</td><td>0..255</td><td>Top margin for rendering</td></tr>
+    <tr><td>safe_area_right</td><td>u(8)</td><td>0..255</td><td>Right margin for rendering</td></tr>
+    <tr><td>safe_area_bottom</td><td>u(8)</td><td>0..255</td><td>Bottom margin for rendering</td></tr>
+    <tr><td>default_row_count</td><td>u(5)</td><td>1..31</td><td>Grid height used for placement</td></tr>
+    <tr><td>default_column_count</td><td>u(6)</td><td>1..63</td><td>Grid width used for placement</td></tr>
+    <tr><td>anchor_horizontal</td><td>u(8)</td><td>0..255</td><td>Horizontal anchor position</td></tr>
+    <tr><td>anchor_vertical</td><td>u(8)</td><td>0..255</td><td>Vertical anchor position</td></tr>
+    <tr><td>anchor_point</td><td>u(4)</td><td>0=top-left ... 8=center ...</td><td>How anchor is interpreted</td></tr>
+    <tr><td>z_order</td><td>u(3)</td><td>0..7</td><td>Overlapping priority</td></tr>
+    <tr><td>visible_flag</td><td>u(1)</td><td>0/1</td><td>Show/hide window</td></tr>
+    <tr><td>alpha</td><td>u(8)</td><td>0..255</td><td>Global transparency</td></tr>
+  </tbody>
+</table>

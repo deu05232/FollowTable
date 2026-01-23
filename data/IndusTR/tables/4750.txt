@@ -1,0 +1,7 @@
+<table>
+  <caption>Net Laying Equipment Quality Control Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0B00</td><td>Unevenness (CV Value)</td><td>Unevenness</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10.00</td><td>%</td><td>Fiber weight fluctuation</td><td>Display Value</td></tr>
+  <tr><td>0X0B01</td><td>Overlapping Edge Width</td><td>OverlappingEdgeWidth</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~20.00</td><td>cm</td><td>Overlapping width</td><td>Set Value</td></tr>
+  <tr><td>0X0B02</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>1</td><td>One</td><td>1</td><td>1</td></tr>
+</table>

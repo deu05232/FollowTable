@@ -1,0 +1,21 @@
+<table>
+  <caption>Information Element Description for E-commerce Platform Operator Information</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Value Range</td><td>Remarks</td></tr>
+  <tr><td>01</td><td>E-commerce platform operator information</td><td>Composite</td><td>M</td><td></td><td></td></tr>
+  <tr><td>01.1</td><td>Business license</td><td>BY</td><td>M</td><td>May be in GIF, JPEG, PNG and other formats</td><td></td></tr>
+  <tr><td>01.2</td><td>Unified Social Credit Code</td><td>C18</td><td>M</td><td>Complies with the coding rules of the Unified Social Credit Code in GB 32100</td><td>A unique, lifelong, immutable entity identification code issued by the competent government authority to legal persons and other organizations</td></tr>
+  <tr><td>01.3</td><td>Domicile</td><td>C1..200</td><td>M</td><td></td><td></td></tr>
+  <tr><td>01.4</td><td>Platform contact information</td><td>C..ul</td><td>M</td><td></td><td>Customer service phone, online instant service, etc. of the e-commerce platform operator</td></tr>
+  <tr><td>01.5</td><td>Internet information service business operating permit number</td><td>C1..50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>01.6</td><td>Value-added telecommunications business operating permit</td><td>BY</td><td>M</td><td>May be in GIF, JPEG, PNG and other formats</td><td>Photo of the business permit for telecommunications and information services provided using public network infrastructure</td></tr>
+  <tr><td>01.7</td><td>Value-added telecommunications business operating permit number</td><td>C1.50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>01.8</td><td>Security filing number for international interconnection of computer information networks</td><td>C14</td><td>M</td><td></td><td></td></tr>
+  <tr><td>01.9</td><td>E-commerce platform operation filing status</td><td>BY</td><td>C</td><td>May be in GIF, JPEG, PNG and other formats</td><td>In accordance with relevant laws and regulations, if the business operated by the e-commerce platform operator requires filing, this information element is mandatory</td></tr>
+  <tr><td>01.10</td><td>E-commerce platform operating permit documents</td><td>BY</td><td>C</td><td>May be in GIF, JPEG, PNG and other formats</td><td>In accordance with relevant laws and regulations, if the business directly operated by the e-commerce platform operator itself requires operating permits, this information element is mandatory</td></tr>
+  <tr><td>01.11</td><td>E-commerce platform operating permit content</td><td>C. ul</td><td>0</td><td></td><td>In accordance with relevant laws and regulations, content such as the name and number of the operating permit obtained by the e-commerce platform operator</td></tr>
+  <tr><td>01.12</td><td>Telephone for reporting illegal and harmful information</td><td>C1.50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>01.13</td><td>Telephone for consumer rights protection</td><td>C1..50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>01.14</td><td>Introduction to e-commerce platform operator</td><td>C.ul</td><td>0</td><td></td><td>Introduction to the business scope, etc. of the e-commerce platform operator</td></tr>
+  <tr><td>01.15</td><td>Platform service rules</td><td>C..ul</td><td>M</td><td></td><td>Information regarding the e-commerce platform operator's service agreement, transaction rules, rights and privacy protection policies, marketing management and service rules, etc.</td></tr>
+  <tr><td>01.16</td><td>Platform credit evaluation status</td><td>C..ul</td><td>0</td><td></td><td></td></tr>
+</table>

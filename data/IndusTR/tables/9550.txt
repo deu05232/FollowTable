@@ -1,0 +1,8 @@
+<table>
+  <caption>Deep learning framework adaptation table (negative): focuses on naming/identifier mappings</caption>
+  <tr><th>Component</th><th>Human-facing label</th><th>Code identifier</th><th>Alias / legacy identifier</th><th>Notes on naming</th></tr>
+  <tr><td>Model build entry</td><td>Create Model</td><td>create_model</td><td>create_program</td><td>Keep backward compatibility for older integrations</td></tr>
+  <tr><td>Model teardown</td><td>Destroy Model</td><td>destroy_model</td><td>destroy_program</td><td>Consistent verb-object pattern preferred</td></tr>
+  <tr><td>Graph generation</td><td>Graph Generation</td><td>graph_engine_generate</td><td>graph_generate</td><td>Prefix depends on submodule layout</td></tr>
+  <tr><td>IR lowering hook</td><td>Lower IR</td><td>lower_ir</td><td>ir_lower</td><td>Avoid collisions with compiler internal names</td></tr>
+</table>

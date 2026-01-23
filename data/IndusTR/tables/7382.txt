@@ -1,0 +1,10 @@
+<table>
+  <caption>Combined table: baseline avoided landfill emissions together with project emissions subtotal (mixed content)</caption>
+  <tr><th>Module</th><th>Item</th><th>Symbol</th><th>tCO2e</th><th>Notes</th></tr>
+  <tr><td>Baseline</td><td>Avoided landfill emissions</td><td>BE_MSW</td><td>...</td><td>Calculated using DOC and decay parameters</td></tr>
+  <tr><td>Baseline</td><td>Displaced grid electricity emissions</td><td>BE_EG</td><td>...</td><td>Grid EF × exported electricity</td></tr>
+  <tr><td>Baseline</td><td>Displaced heat supply emissions</td><td>BE_HG</td><td>...</td><td>Heat EF × exported heat</td></tr>
+  <tr><td>Project</td><td>Electricity consumption emissions</td><td>PE_EC</td><td>...</td><td>Metered import electricity × grid EF</td></tr>
+  <tr><td>Project</td><td>Auxiliary fossil fuel emissions</td><td>PE_FC</td><td>...</td><td>Fuel use × NCV × EF</td></tr>
+  <tr><td>Total</td><td>Baseline minus Project</td><td>ER</td><td>...</td><td>Includes both baseline and project terms</td></tr>
+</table>

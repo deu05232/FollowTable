@@ -1,0 +1,15 @@
+<table>
+  <caption>Enterprise Data Elements for Administrative Management (Uses Internal Aliases Instead of Field Identifiers)</caption>
+  <thead>
+    <tr><th>Section</th><th>Item Name</th><th>Internal Alias</th><th>Data Type</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identity</td><td>Enterprise Name</td><td>core.name</td><td>VARCHAR(100)</td><td>Alias used by the integration team.</td></tr>
+    <tr><td>Identity</td><td>Unified Social Credit Code</td><td>core.usc</td><td>CHAR(18)</td><td>Not the official field code; internal shorthand.</td></tr>
+    <tr><td>Identity</td><td>Legal Representative</td><td>core.legalRep</td><td>VARCHAR(50)</td><td>CamelCase internal alias.</td></tr>
+    <tr><td>Registration</td><td>Registered Address</td><td>reg.addr.full</td><td>VARCHAR(255)</td><td>Concatenated address string.</td></tr>
+    <tr><td>Registration</td><td>Establishment Date</td><td>reg.estDate</td><td>DATE</td><td>Stored in local timezone.</td></tr>
+    <tr><td>Operations</td><td>Business Scope</td><td>ops.scopeText</td><td>TEXT</td><td>Free-form text.</td></tr>
+    <tr><td>Governance</td><td>Registration Authority</td><td>gov.regAuth</td><td>VARCHAR(120)</td><td>Internal authority dictionary key may exist.</td></tr>
+  </tbody>
+</table>

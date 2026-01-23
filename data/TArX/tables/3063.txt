@@ -1,0 +1,26 @@
+<table>
+  <caption>Comparison of chemical shielding results, using embedded clusters and GIPAW-PBC from QE and \Ref ref:Middlemiss2010. The principle values of the oxygen chemical shielding tensor are presented for the TiO 2 molecule and rutile, cubic ST, cubic BT, and tetragonal PT. All values are from GGA calculations. Embedded cluster results are labeled as C- n , where n is is the number of QM atoms in the cluster. The GIPAW-PBC and C-65 calculations were done with relativistic PBE, while the C-21 calculations were done with non-relativistic PW91.</caption>
+  <tr><td></td><td>σ_(x)</td><td>σ_(y)</td><td>σ_(z)</td><td>σ_(iso)</td></tr>
+  <tr><td colspan="5">TiO _(2) (molecule)</td></tr>
+  <tr><td>Gaussian</td><td>-1803</td><td>-801</td><td>148</td><td>-819</td></tr>
+  <tr><td>GIPAW</td><td>-1826</td><td>-811</td><td>146</td><td>-830</td></tr>
+  <tr><td colspan="5">TiO _(2) (rutile)</td></tr>
+  <tr><td>C-99</td><td>-499</td><td>-380</td><td>-306</td><td>-395</td></tr>
+  <tr><td>GIPAW</td><td>-483</td><td>-380</td><td>-296</td><td>-386</td></tr>
+  <tr><td colspan="5">SrTiO _(3) (cubic)</td></tr>
+  <tr><td>C-21</td><td>-353</td><td>-353</td><td>46</td><td>-220</td></tr>
+  <tr><td>C-65</td><td>-403</td><td>-403</td><td>27</td><td>-260</td></tr>
+  <tr><td>GIPAW</td><td>-429</td><td>-429</td><td>7</td><td>-284 / -287</td></tr>
+  <tr><td colspan="5">BaTiO _(3) (cubic)</td></tr>
+  <tr><td>C-21</td><td>-414</td><td>-414</td><td>49</td><td>-260</td></tr>
+  <tr><td>C-65</td><td>-483</td><td>-483</td><td>22</td><td>-315</td></tr>
+  <tr><td>GIPAW</td><td>-529</td><td>-529</td><td>-31</td><td>-363 / -379</td></tr>
+  <tr><td colspan="5">PbTiO _(3) -axial O (P4mm)</td></tr>
+  <tr><td>C-21</td><td>-562</td><td>-562</td><td>123</td><td>-334</td></tr>
+  <tr><td>C-65</td><td>-599</td><td>-599</td><td>67</td><td>-377</td></tr>
+  <tr><td>GIPAW</td><td>-630</td><td>-630</td><td>77</td><td>-394</td></tr>
+  <tr><td colspan="5">PbTiO _(3) -equatorial O (P4mm)</td></tr>
+  <tr><td>C-21</td><td>-286</td><td>-228</td><td>-32</td><td>-182</td></tr>
+  <tr><td>C-65</td><td>-365</td><td>-277</td><td>-35</td><td>-226</td></tr>
+  <tr><td>GIPAW</td><td>-398</td><td>-284</td><td>-23</td><td>-235</td></tr>
+</table>

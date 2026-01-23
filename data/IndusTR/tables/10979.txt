@@ -1,0 +1,19 @@
+<table>
+  <caption>Common Service Description Model (CSDM) — Service Provider & Contact Field List</caption>
+  <thead>
+    <tr><th>Section</th><th>Field (English Name)</th><th>Data Type / Format</th><th>Requirement (M/0/C)</th><th>Max Occurs</th><th>Value Domain / Notes</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="9">ServiceProvider</td><td>providerName</td><td>C..128</td><td>M</td><td>1</td><td>-</td><td>Name of the organization providing the service</td></tr>
+    <tr><td>providerType</td><td>C..32</td><td>0</td><td>1</td><td>e.g., government, enterprise, institution</td><td>Type of service provider</td></tr>
+    <tr><td>unifiedSocialCreditCode</td><td>C18</td><td>0</td><td>1</td><td>CN GB 32100 (if applicable)</td><td>Unified social credit code of the provider</td></tr>
+    <tr><td>legalRepresentative</td><td>C..64</td><td>0</td><td>1</td><td>-</td><td>Legal representative of the provider</td></tr>
+    <tr><td>contactName</td><td>C..128</td><td>M</td><td>1</td><td>-</td><td>Primary contact person</td></tr>
+    <tr><td>contactPhone</td><td>C..32</td><td>C</td><td>1</td><td>Required when contactName exists</td><td>Phone number for contacting the provider</td></tr>
+    <tr><td>contactEmail</td><td>C..128</td><td>0</td><td>1</td><td>RFC 5322 style</td><td>Email address for contacting the provider</td></tr>
+    <tr><td>address</td><td>C..256</td><td>0</td><td>1</td><td>-</td><td>Mailing/office address</td></tr>
+    <tr><td>website</td><td>URI</td><td>0</td><td>1</td><td>https://...</td><td>Provider official website</td></tr>
+    <tr><td rowspan="2">SupportChannels</td><td>supportChannel</td><td>C..32</td><td>0</td><td>N</td><td>e.g., phone, email, portal</td><td>Supported customer/support channels</td></tr>
+    <tr><td>supportHours</td><td>C..64</td><td>C</td><td>1</td><td>Required when supportChannel includes phone</td><td>Hours of availability for support</td></tr>
+  </tbody>
+</table>

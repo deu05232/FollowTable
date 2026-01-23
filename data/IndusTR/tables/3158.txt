@@ -1,0 +1,14 @@
+<table>
+  <caption>SOF Component Build Pipeline — Compilation Toolchain and Artifacts</caption>
+  <thead>
+    <tr><th>Stage</th><th>Tool</th><th>Version</th><th>Primary Output</th><th>Target OS</th><th>Artifact Path</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Checkout</td><td>Git</td><td>2.43</td><td>Source Tree</td><td>Any</td><td>/workspace/src</td></tr>
+    <tr><td>Compile</td><td>MSVC</td><td>v143</td><td>SOFComponent.dll</td><td>Windows</td><td>/dist/win/x64</td></tr>
+    <tr><td>Compile</td><td>GCC</td><td>11.4</td><td>libsofcomponent.so</td><td>Linux</td><td>/dist/linux/x64</td></tr>
+    <tr><td>Package</td><td>WiX Toolset</td><td>3.14</td><td>MSI Installer</td><td>Windows</td><td>/dist/installers</td></tr>
+    <tr><td>Sign</td><td>SignTool</td><td>10.0</td><td>Signed Binaries</td><td>Windows</td><td>/dist/signed</td></tr>
+    <tr><td>Publish</td><td>Artifactory</td><td>7.x</td><td>Release Bundle</td><td>Any</td><td>/repo/sof</td></tr>
+  </tbody>
+</table>

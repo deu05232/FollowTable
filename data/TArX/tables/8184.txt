@@ -1,0 +1,15 @@
+<table>
+  <caption>Comparison of traffic simulation models with one numeric performance metric each (Mean Absolute Percentage Error of flow, %).</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Traffic model</th><th>MAPE (flow) [%]</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="4">Freeway bottleneck</th><td>CTM (Cell Transmission Model)</td><td>6.1</td></tr>
+    <tr><td>Second-order Payne-Whitham</td><td>5.4</td></tr>
+    <tr><td>Three-phase (Kerner-consistent)</td><td>4.6</td></tr>
+    <tr><td>Gas-kinetic (GKT)</td><td>4.9</td></tr>
+    <tr><th rowspan="3">Urban arterial</th><td>Microsim: Wiedemann 99</td><td>7.8</td></tr>
+    <tr><td>Microsim: IDM</td><td>6.9</td></tr>
+    <tr><td>Queue-based point model</td><td>8.3</td></tr>
+  </tbody>
+</table>

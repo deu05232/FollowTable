@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Physical Layer Timing & Data-Rate Tolerance — Explicit Min/Max Bounds</caption>
+  <thead>
+    <tr><th>Operating Mode</th><th>Requirement Item</th><th>Symbol</th><th>Minimum</th><th>Nominal</th><th>Maximum</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">4.000 Gbit/s class</td><td>Line bit rate</td><td>RLINE</td><td>3.9996</td><td>4.0000</td><td>4.0004</td><td>Gbit/s</td><td>Clock tolerance expressed as explicit bounds</td></tr>
+    <tr><td>Unit interval (UI)</td><td>UI</td><td>249.975</td><td>250.000</td><td>250.025</td><td>ps</td><td>UI = 1/RLINE, bounds derived from rate tolerance</td></tr>
+    <tr><td rowspan="2">5.000 Gbit/s class</td><td>Line bit rate</td><td>RLINE</td><td>4.9995</td><td>5.0000</td><td>5.0005</td><td>Gbit/s</td><td>Clock tolerance expressed as explicit bounds</td></tr>
+    <tr><td>Unit interval (UI)</td><td>UI</td><td>199.980</td><td>200.000</td><td>200.020</td><td>ps</td><td>UI = 1/RLINE, bounds derived from rate tolerance</td></tr>
+    <tr><td rowspan="2">6.250 Gbit/s class</td><td>Line bit rate</td><td>RLINE</td><td>6.249375</td><td>6.250000</td><td>6.250625</td><td>Gbit/s</td><td>Clock tolerance expressed as explicit bounds</td></tr>
+    <tr><td>Unit interval (UI)</td><td>UI</td><td>159.984</td><td>160.000</td><td>160.016</td><td>ps</td><td>UI = 1/RLINE, bounds derived from rate tolerance</td></tr>
+  </tbody>
+</table>

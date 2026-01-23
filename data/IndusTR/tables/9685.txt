@@ -1,0 +1,19 @@
+<table>
+  <caption>Pre-Release Power Distribution & Harness Electrical Verification (Expected vs Measured)</caption>
+  <thead>
+    <tr><th>Assembly</th><th>Port / Cable ID</th><th>Check Item</th><th>Expected Value</th><th>Measured Value</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Power Distribution Unit (PDU)</td><td>PDU-X1 (28V OUT)</td><td>Output voltage (no-load)</td><td>28.0 V ± 1.0 V</td><td>28.3 V</td><td>Bench supply set to 29 V</td></tr>
+    <tr><td>PDU-X1 (28V OUT)</td><td>Output voltage (2 A load)</td><td>≥ 27.0 V</td><td>27.5 V</td><td>Load bank 2.0 A</td></tr>
+    <tr><td>PDU-X2 (12V OUT)</td><td>Output voltage (1 A load)</td><td>12.0 V ± 0.5 V</td><td>12.1 V</td><td>Regulator stable</td></tr>
+    <tr><td>PDU-X3 (5V OUT)</td><td>Ripple (scope, 20 MHz BW)</td><td>≤ 50 mVp-p</td><td>34 mVp-p</td><td>Measured at connector pins</td></tr>
+    <tr><td rowspan="3">Harness Continuity</td><td>Cable-H1 (PDU-X1 ↔ FC-PWR)</td><td>End-to-end resistance</td><td>≤ 0.20 Ω</td><td>0.08 Ω</td><td>4-wire method</td></tr>
+    <tr><td>Cable-H2 (PDU-X2 ↔ TX-PWR)</td><td>End-to-end resistance</td><td>≤ 0.20 Ω</td><td>0.11 Ω</td><td>Pass</td></tr>
+    <tr><td>Cable-H3 (PDU-X3 ↔ Sensor Hub)</td><td>End-to-end resistance</td><td>≤ 0.30 Ω</td><td>0.14 Ω</td><td>Pass</td></tr>
+    <tr><td rowspan="2">Insulation</td><td>Cable-H1</td><td>Insulation to chassis @500 VDC</td><td>≥ 100 MΩ</td><td>320 MΩ</td><td>Dry conditions</td></tr>
+    <tr><td>Cable-H2</td><td>Insulation between power and return @500 VDC</td><td>≥ 100 MΩ</td><td>210 MΩ</td><td>No leakage observed</td></tr>
+    <tr><td rowspan="2">Grounding</td><td>Chassis bond (PDU case ↔ gondola frame)</td><td>Bond resistance</td><td>≤ 0.10 Ω</td><td>0.03 Ω</td><td>Star washer installed</td></tr>
+    <tr><td>Shield drain (RF coax shield ↔ frame)</td><td>DC continuity</td><td>Continuity present (≤ 0.05 Ω)</td><td>0.02 Ω</td><td>Single-point ground verified</td></tr>
+  </tbody>
+</table>

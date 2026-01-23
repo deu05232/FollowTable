@@ -1,0 +1,16 @@
+<table>
+  <caption>Service BOM Relationship Matrix (Parent/Child Part Numbers)</caption>
+  <thead>
+    <tr><th>Relationship ID</th><th>Parent Part No.</th><th>Child Part No.</th><th>Child Role</th><th>Quantity</th><th>Effectivity</th><th>Change Ref</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>REL-0001</td><td>DLV-SVC-0001</td><td>DLV-SVC-KIT-0100</td><td>Service Kit</td><td>1</td><td>All</td><td>ECN-24-015</td></tr>
+    <tr><td>REL-0002</td><td>DLV-SVC-KIT-0100</td><td>DLV-SVC-FLTR-0101</td><td>Filter Element</td><td>2</td><td>Model-A</td><td>ECN-24-015</td></tr>
+    <tr><td>REL-0003</td><td>DLV-SVC-KIT-0100</td><td>DLV-SVC-SEAL-0102</td><td>Seal</td><td>2</td><td>Model-A</td><td>ECN-24-015</td></tr>
+    <tr><td>REL-0004</td><td>DLV-SVC-0001</td><td>DLV-SVC-ASSY-0200</td><td>Replaceable Assembly</td><td>1</td><td>All</td><td>ECN-24-021</td></tr>
+    <tr><td>REL-0005</td><td>DLV-SVC-ASSY-0200</td><td>DLV-SVC-MTR-0201</td><td>Motor</td><td>1</td><td>Serial 1000-1999</td><td>ECN-24-021</td></tr>
+    <tr><td>REL-0006</td><td>DLV-SVC-ASSY-0200</td><td>DLV-SVC-BRG-0202</td><td>Bearing</td><td>2</td><td>Serial 1000-1999</td><td>ECN-24-021</td></tr>
+    <tr><td>REL-0007</td><td>DLV-SVC-ASSY-0200</td><td>DLV-SVC-FAN-0203</td><td>Fan</td><td>1</td><td>Serial 2000-2999</td><td>ECN-25-004</td></tr>
+    <tr><td>REL-0008</td><td>DLV-SVC-0001</td><td>DLV-SVC-SW-0300</td><td>Software Package</td><td>1</td><td>All</td><td>ECN-25-009</td></tr>
+  </tbody>
+</table>

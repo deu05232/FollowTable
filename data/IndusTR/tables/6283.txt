@@ -1,0 +1,7 @@
+<table>
+  <caption>Operating condition matrix for beam pumping unit test bench setup</caption>
+  <tr><th>Condition group</th><th>Load setting description</th><th>Target run time</th><th>Stop criteria</th></tr>
+  <tr><td>A</td><td>Moderate load run (steady torque)</td><td>6 h</td><td>Overheating alarm</td></tr>
+  <tr><td>B</td><td>Rated load run (steady torque)</td><td>2 h</td><td>Abnormal vibration threshold</td></tr>
+  <tr><td>C</td><td>Overload run (short duration)</td><td>0.25 h</td><td>Torque limiter trips</td></tr>
+</table>

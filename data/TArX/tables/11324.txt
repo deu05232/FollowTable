@@ -1,0 +1,15 @@
+<table>
+  <caption>Generator parameter scan ranges explored for the AMBT1 tune (example scan grid).</caption>
+  <thead>
+    <tr><th rowspan="2">Parameter</th><th rowspan="2">Description</th><th colspan="3">Scan definition</th><th rowspan="2">Units</th></tr>
+    <tr><th>Min</th><th>Max</th><th>Step</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PARP(82)</td><td>MPI pT0 reference scale</td><td>1.2</td><td>3.5</td><td>0.1</td><td>GeV</td></tr>
+    <tr><td>PARP(90)</td><td>Energy evolution exponent</td><td>0.10</td><td>0.35</td><td>0.01</td><td>—</td></tr>
+    <tr><td>PARP(78)</td><td>Colour reconnection strength</td><td>0.0</td><td>0.8</td><td>0.05</td><td>—</td></tr>
+    <tr><td>PARP(83)</td><td>MPI matter overlap parameter</td><td>1.2</td><td>2.2</td><td>0.05</td><td>—</td></tr>
+    <tr><td>PARP(84)</td><td>MPI matter overlap parameter</td><td>0.2</td><td>1.0</td><td>0.05</td><td>—</td></tr>
+    <tr><td>PARP(89)</td><td>Reference energy for pT0</td><td>1.8</td><td>7.0</td><td>—</td><td>TeV</td></tr>
+  </tbody>
+</table>

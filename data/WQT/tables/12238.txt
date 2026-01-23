@@ -1,0 +1,11 @@
+# Impedance Models of Basic Circuit Elements vs Frequency
+
+| Circuit element | Symbol | Impedance Z(ω) | Magnitude behavior | Typical use |
+| --- | --- | --- | --- | --- |
+| Resistor | R | R | Constant with frequency | Current limiting |
+| Capacitor | C | 1/(jωC) | Decreases as ω increases | Filtering, coupling |
+| Inductor | L | jωL | Increases as ω increases | Chokes, filters |
+| Series RLC | R+L+C | R + j(ωL - 1/(ωC)) | Resonant peak | Tuned circuits |
+| Parallel RC | R||C | 1/(1/R + jωC) | Frequency-dependent | Timing networks |
+| Transmission line (lossless) | TL | jZ0 tan(βl) | Periodic vs frequency | RF matching |
+| Warburg element | W | σ/√(jω) | Diffusion-like | Electrochemistry EIS |

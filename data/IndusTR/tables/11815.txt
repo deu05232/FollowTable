@@ -1,0 +1,14 @@
+<table>
+  <caption>Secondary Indicators for Beautiful China Construction (Air Quality) — Measurement & Monitoring Focus</caption>
+  <thead>
+    <tr><th>Indicator Code</th><th>Indicator Name (Unit)</th><th>Definition (Brief)</th><th>Calculation Formula</th><th>Monitoring Instruments / Stations</th><th>Data Collection Method</th><th>Reporting Frequency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>C15</td><td>Cumulative decline rate of PM2.5 concentration in cities (%)</td><td>Change in annual mean PM2.5 versus base year.</td><td>(PM2.5_base − PM2.5_year) / PM2.5_base × 100%</td><td>National air quality monitoring stations; beta attenuation monitors</td><td>Hourly readings aggregated to daily and annual means; outlier removal per QA/QC rules</td><td>Annual</td></tr>
+    <tr><td>C16</td><td>Days with good air quality in cities (days)</td><td>Number of days meeting “good” AQI criteria.</td><td>Count(AQI ≤ threshold)</td><td>Automatic AQI analyzers; meteorological sensors</td><td>Daily AQI computed from pollutant sub-indices; station-network averaging</td><td>Monthly / Annual</td></tr>
+    <tr><td>C17</td><td>NO2 annual mean concentration (µg/m³)</td><td>Average NO2 level over a year.</td><td>Σ(NO2_hourly)/N</td><td>Chemiluminescence NOx analyzer</td><td>Continuous monitoring; zero/span checks; calibration log required</td><td>Annual</td></tr>
+    <tr><td>C18</td><td>O3 (8h) 90th percentile (µg/m³)</td><td>High-end ozone exposure metric.</td><td>P90(O3_8h_max)</td><td>UV photometric ozone analyzer</td><td>Compute daily max 8h mean; then percentile across year</td><td>Annual</td></tr>
+    <tr><td>C19</td><td>SO2 annual mean concentration (µg/m³)</td><td>Average SO2 level over a year.</td><td>Σ(SO2_hourly)/N</td><td>UV fluorescence SO2 analyzer</td><td>Continuous monitoring; data completeness ≥ 75% rule</td><td>Annual</td></tr>
+    <tr><td>C20</td><td>PM10 annual mean concentration (µg/m³)</td><td>Average PM10 level over a year.</td><td>Σ(PM10_daily)/N</td><td>TEOM / beta gauge particulate monitor</td><td>Daily mean computed from valid hours; instrument maintenance record attached</td><td>Annual</td></tr>
+  </tbody>
+</table>

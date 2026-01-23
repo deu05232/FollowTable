@@ -1,0 +1,15 @@
+<table>
+  <caption>Starter performance test requirements by rated operational current range (electrical magnitude focus)</caption>
+  <thead>
+    <tr><th rowspan="2">Utilization category</th><th rowspan="2">Rated operational current range (A)</th><th colspan="3">Making conditions</th><th colspan="3">Breaking conditions</th><th rowspan="2">Number of tests</th><th rowspan="2">Notes</th></tr>
+    <tr><th>I/ Ie</th><th>U/ Ue</th><th>cosφ (±0.05)</th><th>Ic/ Ie</th><th>U/ Ue</th><th>cosφ (±0.05)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">AC-3</td><td>1–16</td><td>6</td><td>1.00</td><td>0.65</td><td>1</td><td>1.00</td><td>0.65</td><td>3</td><td>Magnitude-only; no duty timing shown</td></tr>
+    <tr><td>>16–32</td><td>6</td><td>1.00</td><td>0.55</td><td>1</td><td>1.00</td><td>0.55</td><td>3</td><td>Includes power factor only</td></tr>
+    <tr><td>>32–63</td><td>8</td><td>1.05</td><td>0.45</td><td>1</td><td>1.05</td><td>0.45</td><td>3</td><td>No energizing/de-energizing durations</td></tr>
+    <tr><td>>63–100</td><td>8</td><td>1.05</td><td>0.35</td><td>1</td><td>1.05</td><td>0.35</td><td>3</td><td>Prospective current not listed</td></tr>
+    <tr><td>>100–250</td><td>10</td><td>1.05</td><td>0.35</td><td>1</td><td>1.05</td><td>0.35</td><td>3</td><td>Electrical ratios only</td></tr>
+    <tr><td>>250–630</td><td>10</td><td>1.10</td><td>0.30</td><td>1</td><td>1.10</td><td>0.30</td><td>3</td><td>Does not specify on/off interval</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Service/Status Control Words: Full Control-Word Field Lists (Comma-Separated Symbol Pattern)</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>Control-Word Sequence (comma-delimited symbols / fields)</th><th>Notes (what the fields represent)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ACK</td><td>Comma,ACK,SEQ_NUM,CRCK28.7,D2.5,D0.0-D31.7,D0.0-D31.7</td><td>Frame acknowledgment; SEQ_NUM + CRC fields verify ordering/integrity.</td></tr>
+    <tr><td>NACK</td><td>Comma,NACK,SEQ_NUM,CRCK28.7,D27.5,D0.0-D31.7,D0.0-D31.7</td><td>Negative acknowledgment; indicates the last correctly received sequence number.</td></tr>
+    <tr><td>FULL</td><td>Comma,FULL,SEQ_NUM,CRCK28.7,D15.3,D0.0-D31.7,D0.0-D31.7</td><td>Error-recovery buffer full indication; SEQ_NUM anchors recovery state.</td></tr>
+    <tr><td>EMPTY</td><td>Comma,EMPTY,SEQ_NUM,CRCK28.7,D16.3,D0.0-D31.7,D0.0-D31.7</td><td>Companion status word to indicate recovery/buffer empty (distinct fixed D-code).</td></tr>
+    <tr><td>BUSY</td><td>Comma,BUSY,SEQ_NUM,CRCK28.7,D17.3,D0.0-D31.7,D0.0-D31.7</td><td>Status word indicating temporary busy/backpressure (distinct fixed D-code).</td></tr>
+    <tr><td>HEARTBEAT</td><td>Comma,HEARTBEAT,SEQ_NUM,CRCK28.7,D18.3,D0.0-D31.7,D0.0-D31.7</td><td>Periodic liveness/status indication while retaining the same 7-symbol control-word shape.</td></tr>
+  </tbody>
+</table>

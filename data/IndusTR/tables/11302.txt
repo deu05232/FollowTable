@@ -1,0 +1,14 @@
+<table>
+  <caption>Temperature Conditioning Program for Portable Fire Extinguishers (Three-Stage Stabilization)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Temperature setpoint (°C)</th><th>Tolerance (°C)</th><th>Soak duration (h)</th><th>Cycle requirement</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Minimum operating temperature (Tmin)</td><td>±2</td><td>24 ± 1</td><td>null</td><td>Extinguisher stabilized at Tmin before functional checks</td></tr>
+    <tr><td>2</td><td>20</td><td>±5</td><td>24 (minimum)</td><td>null</td><td>Ambient conditioning step between low and high temperature exposure</td></tr>
+    <tr><td>3</td><td>60</td><td>±2</td><td>24 ± 1</td><td>null</td><td>High-temperature stabilization prior to subsequent evaluations</td></tr>
+    <tr><td>4</td><td>20</td><td>±5</td><td>12</td><td>Optional (1 repeat)</td><td>Optional return-to-ambient step if the program requires an additional verification at 20±5</td></tr>
+    <tr><td>5</td><td>Minimum operating temperature (Tmin)</td><td>±2</td><td>12</td><td>Optional (1 repeat)</td><td>Optional final low-temperature confirmation soak</td></tr>
+    <tr><td>6</td><td>60</td><td>±2</td><td>12</td><td>Optional (1 repeat)</td><td>Optional final high-temperature confirmation soak</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal-Side Debug Mapping: APDU Status Words to Actionable Outcomes</caption>
+  <thead>
+    <tr><th>SW1</th><th>SW2</th><th>Outcome</th><th>What It Usually Means</th><th>Debug Checks (Terminal)</th><th>Next Step</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>90</td><td>00</td><td>OK</td><td>Operation completed</td><td>Confirm response data length matches expectation</td><td>Proceed to next APDU in workflow</td></tr>
+    <tr><td>62</td><td>82</td><td>Warning</td><td>End of file/record reached before Le bytes returned</td><td>Check if reading past available data</td><td>Treat as partial data; stop iteration or adjust offset</td></tr>
+    <tr><td>63</td><td>CX</td><td>Retryable warning</td><td>Verification failed; X retries remaining</td><td>Ensure PIN/key entry correct; check secure channel status</td><td>Prompt user and retry up to X times; lockout handling when X=0</td></tr>
+    <tr><td>64</td><td>00</td><td>State uncertain</td><td>No precise diagnosis; execution state may be unchanged</td><td>Check transport integrity; avoid double-spend operations</td><td>Query status if available; otherwise retry with idempotent command</td></tr>
+    <tr><td>65</td><td>81</td><td>Non-retryable failure</td><td>Memory or internal write failure</td><td>Check power stability; ensure atomic update procedure</td><td>Abort; require recovery/provisioning flow</td></tr>
+    <tr><td>68</td><td>81</td><td>Not supported</td><td>Logical channel not supported / function not supported</td><td>Check channel management; confirm feature availability</td><td>Fallback to basic channel or alternative command</td></tr>
+    <tr><td>6D</td><td>00</td><td>Wrong instruction</td><td>INS not supported by the selected application</td><td>Verify application selection; confirm INS for target module version</td><td>Select correct AID or use supported INS; update compatibility matrix</td></tr>
+    <tr><td>6E</td><td>00</td><td>Wrong class</td><td>CLA not supported</td><td>Check ISO/GP proprietary class; secure messaging bits</td><td>Adjust CLA (including SM bits) and resend</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Hydrostatic Strength Test Execution Plan (Procedure-Focused) for PE Pipes</caption>
+  <thead>
+    <tr><th>Step No.</th><th>Operation</th><th>Detailed Procedure</th><th>Control / Calibration Reference</th><th>Operator Checkpoint</th><th>Method ID</th><th>Documentation Output</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Specimen cutting</td><td>Cut pipe sections to required length; deburr ends</td><td>WI-QC-12 (Cutting & Deburring)</td><td>Verify no visible scratches</td><td>PROC-HS-001</td><td>Cut log HS-CUT</td></tr>
+    <tr><td>2</td><td>End closure installation</td><td>Install end caps; tighten per torque table</td><td>CAL-TQ-05 (Torque wrench)</td><td>Leak check at low pressure</td><td>PROC-HS-001</td><td>Assembly checklist HS-ASM</td></tr>
+    <tr><td>3</td><td>Filling and venting</td><td>Fill with water; vent air pockets until continuous flow</td><td>WI-QC-18 (Venting)</td><td>No trapped air observed</td><td>PROC-HS-001</td><td>Venting record HS-VNT</td></tr>
+    <tr><td>4</td><td>Temperature conditioning</td><td>Place in bath; stabilize until temperature uniformity achieved</td><td>CAL-TEMP-02 (Bath probe mapping)</td><td>Record bath stability trend</td><td>PROC-HS-001</td><td>Bath chart HS-TMP</td></tr>
+    <tr><td>5</td><td>Pressurization</td><td>Increase pressure at specified ramp rate; avoid overshoot</td><td>CAL-PRS-11 (Pressure transducer)</td><td>Confirm ramp profile within tolerance</td><td>ISO 1167-2</td><td>Pressure-time trace HS-PRS</td></tr>
+    <tr><td>6</td><td>Hold period</td><td>Maintain set pressure; monitor leaks and deformation</td><td>WI-QC-22 (Monitoring)</td><td>Log observations every 10 min</td><td>ISO 1167-2</td><td>Hold log HS-HLD</td></tr>
+    <tr><td>7</td><td>Depressurize and inspect</td><td>Depressurize gradually; remove specimen; visual inspection</td><td>WI-QC-30 (Post-test inspection)</td><td>Photograph any anomalies</td><td>PROC-HS-001</td><td>Inspection report HS-INSP</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Minimal AR Session Argument List (Session Handle Only, No Initialization Context)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter</th><th>Type</th><th>In/Out</th><th>Details</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Inputs</td><td>session</td><td>ArSession *</td><td>in</td><td>Pre-created session handle obtained from an unspecified entry point.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Used to call lifecycle methods (pause/resume) without creation metadata.</td></tr>
+    <tr><td rowspan="2">Outputs</td><td>session</td><td>ArSession *</td><td>out</td><td>Documented as an output handle, but no allocator/creator or environment arguments are defined.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>out</td><td>Implied to be filled by the callee, yet lacks required context pointers to do so.</td></tr>
+    <tr><td rowspan="2">Remarks</td><td colspan="4">This table intentionally omits environment/context pointers and any explicit create function signature.</td></tr>
+    <tr><td colspan="4">As written, it does not explain how the session comes into existence.</td></tr>
+  </tbody>
+</table>

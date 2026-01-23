@@ -1,0 +1,11 @@
+# Outlook.com   Hotmail Autodiscover and Exchange ActiveSync Endpoints (Not POP IMAP SMTP)
+
+| Configuration field | Value | Where used | Port | Security | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Autodiscover URL | https://autodiscover.outlook.com/autodiscover/autodiscover.xml | Outlook/Apple Mail auto setup | 443 | HTTPS | Used to fetch settings automatically |
+| OAuth authorization endpoint | https://login.microsoftonline.com/common/oauth2/v2.0/authorize | Modern authentication | 443 | HTTPS | Not a mail protocol server |
+| OAuth token endpoint | https://login.microsoftonline.com/common/oauth2/v2.0/token | Modern authentication | 443 | HTTPS | Not SMTP/IMAP |
+| Exchange ActiveSync (EAS) server | outlook.office365.com | Mobile sync (EAS) | 443 | HTTPS | For EAS clients, not POP/IMAP |
+| Exchange Web Services (EWS) URL | https://outlook.office365.com/EWS/Exchange.asmx | Apps/integrations | 443 | HTTPS | Not SMTP |
+| MAPI over HTTP endpoint | outlook.office365.com | Outlook desktop connectivity | 443 | HTTPS | Not POP/IMAP/SMTP |
+| Graph API base | https://graph.microsoft.com/v1.0 | API access | 443 | HTTPS | Programmatic access, not mail client settings |

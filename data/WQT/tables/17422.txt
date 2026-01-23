@@ -1,0 +1,12 @@
+# Planar Tilings and Lattices  Rotation Orders in Unit Cells
+
+| Tiling / lattice type | Fundamental region | Rotation centers in the unit cell | Rotation orders present | Common notation |
+| --- | --- | --- | --- | --- |
+| Square tiling | right isosceles triangle | corners, edge midpoints, cell center | 4, 2 | {4,4} |
+| Triangular tiling | 30-60-90 triangle | vertices and face-centers | 6, 3, 2 | {3,6} |
+| Hexagonal tiling | equilateral triangle | vertices and edge intersections | 3, 2 | {6,3} |
+| Kagome tiling | triangle + hexagon decomposition | multiple sites per cell | 6, 3, 2 | (3,6,3,6) |
+| Snub square tiling | irregular fundamental region | mixed centers | 4, 2 | (3,3,3,4,4) |
+| Cairo pentagonal tiling | pentagonal fundamental region | sparse rotation centers | 2 | (5,4,5,4) |
+| Rhombille tiling | 60° rhombus | vertices and rhombus centers | 3, 2 | dual of {3,6} |
+| Semi-regular trihexagonal tiling | triangle/hexagon | vertices | 6, 3, 2 | (3,6,3,6) |

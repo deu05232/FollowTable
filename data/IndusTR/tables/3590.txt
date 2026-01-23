@@ -1,0 +1,14 @@
+<table>
+  <caption>Basic Data Table of Drivers and Attendants</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Name</td><td>Character</td><td>an..30</td><td></td></tr>
+  <tr><td>2</td><td>Gender</td><td>Character</td><td>nl</td><td>Complies with GB/T 2261.1 gender code rules</td></tr>
+  <tr><td>3</td><td>Political Affiliation</td><td>Character</td><td>n2</td><td>Complies with GB/T4762 code rules</td></tr>
+  <tr><td>4</td><td>Date of Birth</td><td>Date</td><td>YYYYMMDD</td><td>Date of Birth</td></tr>
+  <tr><td>5</td><td>ID Document Number</td><td>Character</td><td>an..20</td><td>ID number of a valid document; among them, the resident identity card number should comply with GB11643 requirements</td></tr>
+  <tr><td>6</td><td>Phone</td><td>Character</td><td>an..18</td><td></td></tr>
+  <tr><td>7</td><td>Personnel Category</td><td>Character</td><td>an..20</td><td>Civil servant, support staff, staff of public institutions administered as civil servants, other public institution staff, seconded staff, contract-employed staff, labor dispatch staff, other staff</td></tr>
+  <tr><td>8</td><td>Date of Starting Work</td><td>Date</td><td>YYYYMMDD</td><td></td></tr>
+  <tr><td>9</td><td>Start Date of Current Position</td><td>Date</td><td>YYYYMMDD</td><td></td></tr>
+  <tr><td>10</td><td>Home Address</td><td>Character</td><td>an..100</td><td></td></tr>
+</table>

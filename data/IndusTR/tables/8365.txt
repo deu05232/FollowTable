@@ -1,0 +1,15 @@
+<table>
+  <caption>Operating Voltage and Frequency Deviation Limits for Low-Voltage Shore Power Box (Acceptance Check Only)</caption>
+  <thead>
+    <tr><th rowspan="2">Operating parameter</th><th colspan="2">Steady-state deviation (normal operation)</th><th colspan="2">Transient deviation (disturbance event)</th></tr>
+    <tr><th>Allowable range</th><th>Minimum duration to be considered steady-state</th><th>Maximum deviation</th><th>Maximum recovery time to steady-state band</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AC output voltage (line-to-line)</td><td>+5% / -10% of Un</td><td>≥ 10 s</td><td>± 18% of Un</td><td>1.0 s</td></tr>
+    <tr><td>AC output voltage (line-to-neutral, if applicable)</td><td>+5% / -10% of Un</td><td>≥ 10 s</td><td>± 18% of Un</td><td>1.0 s</td></tr>
+    <tr><td>Output frequency</td><td>± 4%</td><td>≥ 10 s</td><td>± 9%</td><td>4.0 s</td></tr>
+    <tr><td>Voltage unbalance (phase-to-phase deviation)</td><td>≤ 2%</td><td>≥ 10 s</td><td>≤ 5%</td><td>5.0 s</td></tr>
+    <tr><td>Frequency rate of change (RoCoF)</td><td>≤ 0.5 Hz/s</td><td>≥ 10 s</td><td>≤ 2.0 Hz/s</td><td>2.0 s</td></tr>
+    <tr><td>Recovery criterion (definition)</td><td colspan="4">Recovery time is measured from the end of the disturbance until the parameter returns within the stated steady-state deviation band.</td></tr>
+  </tbody>
+</table>

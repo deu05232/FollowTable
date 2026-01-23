@@ -1,0 +1,15 @@
+<table>
+  <caption>Meteorological Satellite File/Format and Packaging Codes</caption>
+  <thead>
+    <tr><th>Format / Package Name</th><th>Short Code</th><th>Typical Use in Satellite Workflows</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Network Common Data Form</td><td>NC</td><td>Gridded geophysical data distribution</td><td>Common for L2/L3 exports</td></tr>
+    <tr><td>Hierarchical Data Format 5</td><td>H5</td><td>Swath and multi-group data products</td><td>Often used for instrument-level packaging</td></tr>
+    <tr><td>BUFR (Binary Universal Form for the Representation of meteorological data)</td><td>BUFR</td><td>Operational meteorological data exchange</td><td>May carry satellite-derived observations</td></tr>
+    <tr><td>GRIdded Binary</td><td>GRIB2</td><td>NWP-ready gridded fields</td><td>Dissemination format, not a product type</td></tr>
+    <tr><td>JPEG 2000</td><td>JP2</td><td>Compressed imagery distribution</td><td>Common in quicklook imagery</td></tr>
+    <tr><td>GeoTIFF</td><td>TIF</td><td>GIS-ready raster outputs</td><td>Georeferenced image container</td></tr>
+    <tr><td>Portable Network Graphics</td><td>PNG</td><td>Browse imagery / thumbnails</td><td>Visualization-only</td></tr>
+  </tbody>
+</table>

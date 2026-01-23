@@ -1,0 +1,16 @@
+<table>
+  <caption>Configurable Intrusion Detector Options: Maximum Detection Distance and Location Precision</caption>
+  <thead>
+    <tr><th rowspan="2">Model / option</th><th rowspan="2">Sensing modality</th><th colspan="2">Detection capability</th><th colspan="2">Target location output</th></tr>
+    <tr><th>Max detection distance (m)</th><th>Probability of detection (%)</th><th>Position error (m, CEP)</th><th>Bearing error (deg)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ID-100</td><td>Microwave bistatic</td><td>800</td><td>95</td><td>6</td><td>1.0</td></tr>
+    <tr><td>ID-100 + High-gain antenna</td><td>Microwave bistatic</td><td>1200</td><td>95</td><td>5</td><td>0.8</td></tr>
+    <tr><td>ID-220</td><td>mmWave FMCW</td><td>250</td><td>97</td><td>0.7</td><td>0.5</td></tr>
+    <tr><td>ID-220 + Multi-sensor fusion</td><td>mmWave + IMU/vision fusion</td><td>250</td><td>98</td><td>0.4</td><td>0.3</td></tr>
+    <tr><td>ID-350</td><td>Thermal imaging analytics</td><td>600</td><td>92</td><td>4</td><td>1.5</td></tr>
+    <tr><td>ID-410</td><td>3D LiDAR</td><td>90</td><td>99</td><td>0.12</td><td>0.2</td></tr>
+    <tr><td>ID-500</td><td>Seismic ground sensor</td><td>40</td><td>90</td><td>3 (radial)</td><td>N/A</td></tr>
+  </tbody>
+</table>

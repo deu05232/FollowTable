@@ -1,0 +1,12 @@
+<table>
+  <caption>Definition of the initial conditions used in the simulations in this work.</caption>
+  <tr><td>Simulation</td><td>Mach number a</td><td>Resolution</td><td>Comment</td></tr>
+  <tr><td>mc-64</td><td>5</td><td>64^(3)</td><td>-</td></tr>
+  <tr><td>mc-128</td><td>5</td><td>128^(3)</td><td>-</td></tr>
+  <tr><td>mc-256</td><td>5</td><td>256^(3)</td><td>-</td></tr>
+  <tr><td>mc-512</td><td>5</td><td>512^(3)</td><td>-</td></tr>
+  <tr><td>ambi-512</td><td>5</td><td>512^(3)</td><td>r_(H)=0</td></tr>
+  <tr><td>hall-512</td><td>5</td><td>512^(3)</td><td>r_(A)=0</td></tr>
+  <tr><td>mhd-512</td><td>5</td><td>512^(3)</td><td>Ideal MHD</td></tr>
+  <tr><td>fr-512</td><td>5</td><td>512^(3)</td><td>As mc-512 but for fixed resistivities</td></tr>
+</table>

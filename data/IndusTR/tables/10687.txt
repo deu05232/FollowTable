@@ -1,0 +1,18 @@
+<table>
+  <caption>Open API - Device Proof-of-Identity Authentication Endpoint (Pre-shared Key HMAC)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter</th><th>Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Request</td><td>endpoint</td><td>string</td><td>Yes</td><td>/v1/auth/device/psk/verify</td></tr>
+    <tr><td>Request</td><td>method</td><td>string</td><td>Yes</td><td>POST</td></tr>
+    <tr><td>Headers</td><td>access_token</td><td>string</td><td>Yes</td><td>Bearer token authorizing the verification call</td></tr>
+    <tr><td>Body</td><td>device_id</td><td>string</td><td>Yes</td><td>Device identifier bound to the pre-shared secret</td></tr>
+    <tr><td>Body</td><td>nonce</td><td>string</td><td>Yes</td><td>One-time random value to prevent replay</td></tr>
+    <tr><td>Body</td><td>timestamp</td><td>integer</td><td>Yes</td><td>Unix epoch seconds for freshness validation</td></tr>
+    <tr><td>Body</td><td>payload_hash</td><td>string</td><td>Yes</td><td>SHA-256 hash of canonical payload that is being authenticated</td></tr>
+    <tr><td>Body</td><td>hmac</td><td>string</td><td>Yes</td><td>HMAC over (device_id + nonce + timestamp + payload_hash) using the device PSK</td></tr>
+    <tr><td>Body</td><td>hmac_alg</td><td>string</td><td>Yes</td><td>HMAC algorithm, e.g., HMAC-SHA256</td></tr>
+    <tr><td>Body</td><td>key_id</td><td>string</td><td>No</td><td>Optional identifier for the PSK slot/version used by the device</td></tr>
+  </tbody>
+</table>

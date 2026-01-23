@@ -1,0 +1,15 @@
+<table>
+  <caption>Sample Log Sources and Collection Agents for Security Monitoring</caption>
+  <thead>
+    <tr><th>Log Source</th><th>Collection Method</th><th>Agent/Protocol</th><th>Default Port</th><th>Retention Recommendation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Firewall</td><td>Network</td><td>Syslog (RFC5424)</td><td>514/UDP</td><td>180 days</td></tr>
+    <tr><td>Windows Servers</td><td>Host</td><td>WEF / Winlogbeat</td><td>5985/TCP</td><td>365 days</td></tr>
+    <tr><td>Linux Servers</td><td>Host</td><td>Auditd / Filebeat</td><td>5044/TCP</td><td>365 days</td></tr>
+    <tr><td>EDR Telemetry</td><td>Cloud API</td><td>REST API</td><td>443/TCP</td><td>90 days</td></tr>
+    <tr><td>Web Proxy</td><td>Network</td><td>Syslog</td><td>514/UDP</td><td>180 days</td></tr>
+    <tr><td>DNS Resolver</td><td>Network</td><td>dnstap</td><td>6000/TCP</td><td>30 days</td></tr>
+    <tr><td>Identity Provider</td><td>Cloud API</td><td>SAML/OAuth logs</td><td>443/TCP</td><td>180 days</td></tr>
+  </tbody>
+</table>

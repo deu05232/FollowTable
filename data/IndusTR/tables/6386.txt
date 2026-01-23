@@ -1,0 +1,7 @@
+<table>
+  <caption>Knitting Equipment Data Dictionary — Maintenance Counters (typed attributes)</caption>
+  <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  <tr><td>0X0600</td><td>Needle Service Hours</td><td>NeedleServiceHours</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~200000</td><td>h</td><td>Total operating hours since last needle replacement</td><td></td></tr>
+  <tr><td>0X0601</td><td>Lubrication Remaining</td><td>LubricationRemaining</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~100</td><td>%</td><td>Estimated remaining lubrication level</td><td></td></tr>
+  <tr><td>0X0602</td><td>Maintenance Required</td><td>MaintenanceRequired</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>0/1</td><td></td><td>Whether maintenance is currently required</td><td>0: No 1: Yes</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Table Y — Electric compressor performance and endurance acceptance criteria at defined operating points</caption>
+  <thead>
+    <tr><th rowspan="2">Operating point</th><th rowspan="2">Test condition</th><th colspan="4">Requirement thresholds</th></tr>
+    <tr><th>Minimum cooling COP (W/W)</th><th>Minimum volumetric efficiency (%)</th><th>Maximum input power (kW)</th><th>Maximum discharge temperature (°C)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>OP1 (low speed)</td><td>2000 r/min; suction 0.30 MPa, 10°C; discharge 1.40 MPa; ambient 35°C</td><td>≥ 2.2</td><td>≥ 70</td><td>≤ 2.5</td><td>≤ 120</td></tr>
+    <tr><td>OP2 (nominal)</td><td>5000 r/min; suction 0.30 MPa, 10°C; discharge 1.60 MPa; ambient 35°C</td><td>≥ 2.0</td><td>≥ 72</td><td>≤ 4.5</td><td>≤ 125</td></tr>
+    <tr><td>OP3 (high speed)</td><td>8000 r/min; suction 0.30 MPa, 10°C; discharge 1.80 MPa; ambient 35°C</td><td>≥ 1.8</td><td>≥ 68</td><td>≤ 6.5</td><td>≤ 135</td></tr>
+    <tr><td>OP4 (high load / high ambient)</td><td>6500 r/min; suction 0.32 MPa, 20°C; discharge 2.00 MPa; ambient 50°C</td><td>≥ 1.6</td><td>≥ 65</td><td>≤ 7.0</td><td>≤ 145</td></tr>
+    <tr><td>Endurance retention</td><td>After 1000 h endurance (rated voltage; 30%–100% speed cycling); re-test at OP2</td><td>≥ 95% of initial</td><td>≥ 95% of initial</td><td>≤ 105% of initial</td><td>≤ initial + 10</td></tr>
+    <tr><td>Start/stop robustness</td><td>30,000 start-stop cycles; OP2 re-test</td><td>≥ 97% of initial</td><td>≥ 97% of initial</td><td>≤ 103% of initial</td><td>≤ initial + 8</td></tr>
+    <tr><td colspan="6">Note:Initial values are measured on the same unit prior to durability testing under identical instrumentation and refrigerant charge.</td></tr>
+  </tbody>
+</table>

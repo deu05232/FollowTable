@@ -1,0 +1,23 @@
+<table>
+  <caption>Recommended Metadata Schema for Biometric Samples (Demographics + Capture Conditions + Protocol)</caption>
+  <thead>
+    <tr><th>Section</th><th>Metadata Field</th><th>Data Type / Allowed Values</th><th>Example Entry</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Subject Demographics & Traits</td><td>Subject ID</td><td>String (pseudonymous)</td><td>S000183</td></tr>
+    <tr><td>Ethnicity / Ancestry (self-reported)</td><td>Enum + "Unknown"</td><td>Asian</td></tr>
+    <tr><td>Height Band</td><td>Enum</td><td>170–179 cm</td></tr>
+    <tr><td>Weight Band / BMI Band</td><td>Enum</td><td>BMI 25–29.9</td></tr>
+    <tr><td>Visible Scars / Marks (region)</td><td>Multi-select</td><td>Face: left cheek</td></tr>
+    <tr><td rowspan="6">Capture Setup</td><td>Sensor Model</td><td>String</td><td>CamX Pro v2</td></tr>
+    <tr><td>Sensor Position / Distance</td><td>Enum</td><td>0.5–1.0 m</td></tr>
+    <tr><td>Pose Instruction</td><td>Enum</td><td>Frontal; Neutral expression</td></tr>
+    <tr><td>Lighting Source Type</td><td>Enum</td><td>LED indoor</td></tr>
+    <tr><td>Background Type</td><td>Enum</td><td>Plain wall</td></tr>
+    <tr><td>Audio Channel (for voice)</td><td>Enum</td><td>Telephone</td></tr>
+    <tr><td rowspan="4">Collection Protocol</td><td>Acquisition Operator Type</td><td>Enum</td><td>Trained staff</td></tr>
+    <tr><td>Number of Attempts</td><td>Integer</td><td>3</td></tr>
+    <tr><td>Time Since Enrollment</td><td>Enum</td><td>30–90 days</td></tr>
+    <tr><td>Consent / Usage Tier</td><td>Enum</td><td>Research-only</td></tr>
+  </tbody>
+</table>

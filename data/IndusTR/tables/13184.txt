@@ -1,0 +1,18 @@
+<table>
+  <caption>Concentration–Evaporation–Prilling/Drying Section – Process Control Windows for Ammonium Nitrate</caption>
+  <thead>
+    <tr><th>Unit operation</th><th>Control point</th><th>Acceptable range</th><th>What operators watch for</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Primary evaporation</td><td>Evaporator vacuum (MPa, gauge)</td><td>-0.080–-0.045</td><td>Stable boiling; drifting to less vacuum can push temperature up</td></tr>
+    <tr><td>AN melt concentration after primary evaporation (% w/w)</td><td>92–96</td><td>Controls load to final concentrator and melt viscosity</td></tr>
+    <tr><td>Recirculation flow stability (% of design)</td><td>70–110</td><td>Avoids dry-out and fouling; supports heat-transfer stability</td></tr>
+    <tr><td rowspan="2">Final concentration / melt finishing</td><td>Final AN melt concentration (% w/w)</td><td>98.0–99.5</td><td>Supports prilling/granulation quality without excessive crystallization</td></tr>
+    <tr><td>Melt temperature to prill tower / granulator (°C)</td><td>155–170</td><td>Maintains proper droplet formation and prevents premature solidification</td></tr>
+    <tr><td rowspan="3">Prilling / granulation and drying air</td><td>Prill tower top air temperature (°C)</td><td>40–70</td><td>Controls cooling rate and prill surface condition</td></tr>
+    <tr><td>Dryer inlet air temperature (°C)</td><td>95–145</td><td>Keeps drying capacity stable while avoiding overheating</td></tr>
+    <tr><td>Product discharge moisture (% w/w)</td><td>0.10–0.30</td><td>Prevents caking and supports storage stability</td></tr>
+    <tr><td rowspan="2">Coating / conditioning</td><td>Coating agent tank temperature (°C)</td><td>75–105</td><td>Ensures pumpable viscosity and uniform coating</td></tr>
+    <tr><td>Coating addition rate (% w/w on product)</td><td>0.20–0.60</td><td>Controls anti-caking performance without over-coating</td></tr>
+  </tbody>
+</table>

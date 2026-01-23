@@ -1,0 +1,21 @@
+<table>
+  <caption>Battery Swap Order Create/Start Interface - Request & Response Field Checklist</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Definition/Key</th><th>Data Type</th><th>Meaning</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Request</td><td>Battery Swap Order Number</td><td>swapOrderNo</td><td>string</td><td>Unique order identifier; recommended format: operatorId + unique serial; max 64 chars.</td><td>Yes</td></tr>
+    <tr><td>Operator ID</td><td>operatorId</td><td>string</td><td>ID of the operator/platform initiating the order.</td><td>Yes</td></tr>
+    <tr><td>Battery Swap Station ID</td><td>stationId</td><td>string</td><td>Identifier of the battery swap station where the service is performed.</td><td>Yes</td></tr>
+    <tr><td>Battery Swap Equipment Code</td><td>batterySwapEquipmentId</td><td>string</td><td>Unique identifier of the swap equipment/cabinet under the platform.</td><td>Yes</td></tr>
+    <tr><td>Vehicle Identification Number</td><td>vinCode</td><td>string</td><td>VIN, 17 characters, per GB/T 27930; used to restrict start authorization to this vehicle.</td><td>Yes</td></tr>
+    <tr><td>Requested Start Time (UTC)</td><td>startTime</td><td>string (date-time)</td><td>Requested time to start the swap transaction (ISO-8601 recommended).</td><td>No</td></tr>
+    <tr><td>Idempotency Key</td><td>requestId</td><td>string</td><td>Client-generated request identifier to deduplicate retries.</td><td>No</td></tr>
+    <tr><td rowspan="6">Response</td><td>Operation Result</td><td>succStat</td><td>integer</td><td>Result code of the request processing (e.g., 0 success; 1 failure).</td><td>Yes</td></tr>
+    <tr><td>Failure Code</td><td>failReasonCode</td><td>integer</td><td>Standardized failure reason code when succStat indicates failure.</td><td>Conditional (required if succStat=1)</td></tr>
+    <tr><td>Failure Message</td><td>failReasonMsg</td><td>string</td><td>Human-readable failure description; max 50 chars recommended.</td><td>Conditional (required if succStat=1)</td></tr>
+    <tr><td>Server Timestamp (UTC)</td><td>serverTime</td><td>string (date-time)</td><td>Time when the platform generated the response.</td><td>No</td></tr>
+    <tr><td>Order Status</td><td>orderStatus</td><td>integer</td><td>Current order state after processing (e.g., created/started/queued).</td><td>No</td></tr>
+    <tr><td>Queue Position</td><td>positionNo</td><td>integer</td><td>Queue position assigned to the vehicle/order if the station uses queuing.</td><td>No</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Uniformity test measurement channel definitions with rules (example)</caption>
+  <tr><th>No.</th><th>Channel / data item</th><th>What it represents in the test</th><th>Permitted values / range</th><th>How to interpret the value</th><th>Relationship to other signals</th></tr>
+  <tr><td>1</td><td>Test pressure stable flag</td><td>Marks that inflation pressure has reached and held the target for acquisition</td><td>0/1</td><td>0=Not stable; 1=Stable</td><td>When TRUE, enables acquisition of "Radial force" and "Lateral force" samples</td></tr>
+  <tr><td>2</td><td>Inflation pressure</td><td>Measured pressure at the inflation head during the uniformity run</td><td>0.0~500.0 kPa</td><td>Values outside range indicate sensor fault or line leak</td><td>If below target, "Test pressure stable flag" must remain FALSE</td></tr>
+  <tr><td>3</td><td>Acquisition mode</td><td>Selects how the measurement data stream is produced</td><td>0/1/2</td><td>0=Off; 1=Manual; 2=Auto</td><td>Auto mode requires "Test pressure stable flag"=TRUE before switching on sampling</td></tr>
+</table>

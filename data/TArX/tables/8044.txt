@@ -1,0 +1,9 @@
+<table>
+  <caption>Expected rates of cosmic muons in ATLAS for various requirements on the muon trajectory, as obtained from a full simulation of the detector inside the pit.</caption>
+  <tr><th>topology</th><th>rate (Hz)</th><th>comments</th></tr>
+  <tr><th>through-going muons</th><td>~ 25</td><td>muons giving hits on top and bottom RPC’s</td></tr>
+  <tr><th></th><td></td><td>and in inner detector</td></tr>
+  <tr><th>close to interaction vertex</th><td>~ 0.5</td><td>muons passing within |z|<60 cm and R<20 cm</td></tr>
+  <tr><th></th><td></td><td>from the interaction centre</td></tr>
+  <tr><th>useful for ECAL calibration</th><td>~ 0.5</td><td>muons with |z|<20 cm, E_(cell)>100 MeV</td></tr>
+</table>

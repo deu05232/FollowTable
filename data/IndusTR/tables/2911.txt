@@ -1,0 +1,10 @@
+<table>
+  <caption>Manufacturing Process Parameters for PPE Coating, Dyeing, and Injection Molding Lines</caption>
+  <tr><th>No.</th><th>Process step</th><th>Equipment</th><th>Setpoint temperature</th><th>Line speed</th><th>Dwell time</th><th>Key control item</th><th>Record frequency</th></tr>
+  <tr><td>1</td><td>Textile pre-treatment</td><td>Continuous washer</td><td>60°C</td><td>18 m/min</td><td>6 min</td><td>Conductivity</td><td>Per batch</td></tr>
+  <tr><td>2</td><td>Coating application</td><td>Knife-over-roll coater</td><td>45°C</td><td>12 m/min</td><td>—</td><td>Wet pick-up</td><td>Hourly</td></tr>
+  <tr><td>3</td><td>Drying/curing</td><td>Hot-air oven</td><td>160°C</td><td>10 m/min</td><td>3 min</td><td>Oven profile</td><td>Shiftly</td></tr>
+  <tr><td>4</td><td>Injection molding</td><td>250T press</td><td>230°C</td><td>—</td><td>38 s</td><td>Hold pressure</td><td>Every 2 hours</td></tr>
+  <tr><td>5</td><td>Ultrasonic welding</td><td>20 kHz welder</td><td>—</td><td>—</td><td>1.2 s</td><td>Amplitude</td><td>Hourly</td></tr>
+  <tr><td>6</td><td>Final packaging</td><td>Sealing machine</td><td>175°C</td><td>22 packs/min</td><td>—</td><td>Seal integrity</td><td>Per lot</td></tr>
+</table>

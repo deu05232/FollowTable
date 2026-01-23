@@ -1,0 +1,14 @@
+<table>
+  <caption>Charging Communication CAN Message Directory (Session Setup & Identification)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Message Code</th><th>Human-Readable Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>DLC (Bytes)</th><th>Typical Period (ms)</th><th>Source → Destination</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Handshake</td><td>CHM</td><td>Charger Handshake Message</td><td>9728</td><td>0x2600</td><td>6</td><td>3</td><td>250</td><td>Charger → Vehicle</td></tr>
+    <tr><td>BHM</td><td>Vehicle Handshake Message</td><td>9984</td><td>0x2700</td><td>6</td><td>2</td><td>250</td><td>Vehicle → Charger</td></tr>
+    <tr><td>CTS</td><td>Charger Time Synchronization Information Message</td><td>1792</td><td>0x0700</td><td>6</td><td>7</td><td>500</td><td>Charger → Vehicle</td></tr>
+    <tr><td rowspan="3">Identification & Capability</td><td>CRM</td><td>Charger Identification Message</td><td>256</td><td>0x0100</td><td>6</td><td>8</td><td>250</td><td>Charger → BMS</td></tr>
+    <tr><td>BCP</td><td>Vehicle Charging Parameter Message</td><td>1536</td><td>0x0600</td><td>7</td><td>13</td><td>500</td><td>Vehicle → Charger</td></tr>
+    <tr><td>CML</td><td>Charger Maximum Output Capability Message</td><td>2048</td><td>0x0800</td><td>6</td><td>8</td><td>250</td><td>Charger → Vehicle</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Broadcast IDs maintained by the user terminal application (non-identity fields)</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Broadcast ID3</td><td>6</td><td>Broadcast group identifier used for message distribution.</td></tr>
+  <tr><td>KeyID corresponding to Broadcast ID3</td><td>1</td><td>Broadcast key identifier associated with Broadcast ID3.</td></tr>
+  <tr><td>Broadcast permission flag</td><td>1</td><td>Indicates whether broadcast reception is enabled for this entry.</td></tr>
+</table>

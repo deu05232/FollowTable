@@ -1,0 +1,30 @@
+<table>
+  <caption>Client COM Component - Basic Management and Authentication Interfaces</caption>
+  <tr><td>Serial No.</td><td>Clause No.</td><td>Interface Name</td><td>Function</td></tr>
+  <tr><td>1</td><td>7.1.2</td><td>SOF_GetVersion</td><td>Obtain interface version number</td></tr>
+  <tr><td>2</td><td>7.1.9</td><td>SOF_Login</td><td>Verify certificate password</td></tr>
+  <tr><td>3</td><td>7.1.10</td><td>SOF_GetPinRetryCount</td><td>Obtain remaining retry count for the certificate password</td></tr>
+  <tr><td>4</td><td>7.1.11</td><td>SOF_ChangePassWd</td><td>Change certificate password</td></tr>
+  <tr><td>5</td><td>7.1.15</td><td>SOF_GetDeviceInfo</td><td>Obtain device information</td></tr>
+  <tr><td>6</td><td>7.1.30</td><td>SOF_GetLastError</td><td>Obtain the latest error code</td></tr>
+  <tr><td>7</td><td>7.1.35</td><td>SOF_Logout</td><td>Certificate user logout</td></tr>
+  <tr><td>8</td><td>7.1.36</td><td>SOF_IsLogin</td><td>Detect certificate user login status</td></tr>
+  <tr><td>9</td><td>7.1.3</td><td>SOF_SetSignMethod</td><td>Set signature algorithm</td></tr>
+  <tr><td>10</td><td>7.1.4</td><td>SOF_GetSignMethod</td><td>Obtain current signature algorithm</td></tr>
+  <tr><td>11</td><td>7.1.5</td><td>SOF_SetEncryptMethod</td><td>Set encryption algorithm</td></tr>
+  <tr><td>12</td><td>7.1.6</td><td>SOF_GetEncryptMethod</td><td>Obtain encryption algorithm</td></tr>
+  <tr><td>13</td><td>7.1.7</td><td>SOF_GetUserList</td><td>Obtain certificate list</td></tr>
+  <tr><td>14</td><td>7.1.8</td><td>SOF_ExportUserCert</td><td>Export user signature certificate</td></tr>
+  <tr><td>15</td><td>7.1.12</td><td>SOF_ExportExChangeUserCert</td><td>Export user encryption certificate</td></tr>
+  <tr><td>16</td><td>7.1.13</td><td>SOF_GetCertInfo</td><td>Obtain certificate information</td></tr>
+  <tr><td>17</td><td>7.1.14</td><td>SOF_GetCertInfoByOid</td><td>Obtain certificate extension information</td></tr>
+  <tr><td>18</td><td>7.1.16</td><td>SOF_ValidateCert</td><td>Validate certificate validity</td></tr>
+  <tr><td>19</td><td>7.1.17</td><td>SOF_SignData</td><td>Data signature</td></tr>
+  <tr><td>20</td><td>7.1.19</td><td>SOF_SignFile</td><td>File signature</td></tr>
+  <tr><td>21</td><td>7.1.23</td><td>SOF_SignMessage</td><td>Message signature</td></tr>
+  <tr><td>22</td><td>7.1.26</td><td>SOF_SignDataXML</td><td>XML data signature</td></tr>
+  <tr><td>23</td><td>7.1.33</td><td>SOF_SignHashData</td><td>Digest data signature</td></tr>
+  <tr><td>24</td><td>7.1.18</td><td>SOF_VerifySignedData</td><td>Verify data signature</td></tr>
+  <tr><td>25</td><td>7.1.20</td><td>SOF_VerifySignedFile</td><td>Verify file signature</td></tr>
+  <tr><td>26</td><td>7.1.24</td><td>SOF_VerifySignedMessage</td><td>Verify message signature</td></tr>
+</table>

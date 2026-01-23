@@ -1,0 +1,9 @@
+<table>
+  <caption>Attribute Type Definition Table</caption>
+  <tr><td>Type</td><td>Definition</td></tr>
+  <tr><td>1</td><td>Required and the value shall not be zero-length</td></tr>
+  <tr><td>1C</td><td>Required and the value shall not be zero-length when the condition is met; shall not be present when the condition is not met</td></tr>
+  <tr><td>2</td><td>Required and the value may be zero-length</td></tr>
+  <tr><td>2C</td><td>Required and the value may be zero-length when the condition is met; shall not be present when the condition is not met</td></tr>
+  <tr><td>3</td><td>Optional</td></tr>
+</table>

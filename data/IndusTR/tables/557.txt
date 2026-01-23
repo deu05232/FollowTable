@@ -1,0 +1,8 @@
+<table>
+  <caption>Edge Gateway Creation API Definition</caption>
+  <tr><td>API Name</td><td>Edge Gateway Creation API</td></tr>
+  <tr><td>API Description</td><td>Create an edge gateway and store gateway information</td></tr>
+  <tr><td>API Method</td><td>POST</td></tr>
+  <tr><td>Parameter Description</td><td>Must include at least: User ID (string userID), authentication parameter (string access_token), gateway name (string gate-wName), communication protocol code (stringcommCode), communication protocol address (string commUrl), gateway type code (string iotType)</td></tr>
+  <tr><td>Return Value</td><td>Returns whether it was successful</td></tr>
+</table>

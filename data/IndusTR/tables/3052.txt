@@ -1,0 +1,14 @@
+<table>
+  <caption>Production Line Calibration and Test Equipment Settings for Data Recorder End of Line EoL</caption>
+  <thead>
+    <tr><th>Station</th><th>Equipment</th><th>Model</th><th>Setting/Range</th><th>Calibration Interval</th><th>Acceptance Criteria</th><th>Operator Role</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>EoL-01</td><td>Power supply</td><td>PSU-6000</td><td>9–32 V, current limit 8 A</td><td>6 months</td><td>Voltage error ≤0.5%</td><td>Line technician</td></tr>
+    <tr><td>EoL-02</td><td>CAN/LIN analyzer</td><td>BusScope X2</td><td>CAN FD 500k/2M, termination 120Ω</td><td>12 months</td><td>No frame loss in 60 s</td><td>QA</td></tr>
+    <tr><td>EoL-03</td><td>Thermal chamber</td><td>TempPro-80</td><td>-20°C to +70°C soak 30 min</td><td>12 months</td><td>Stability ±1°C</td><td>QA</td></tr>
+    <tr><td>EoL-04</td><td>Flash programmer</td><td>SecureProg 5</td><td>Write verify enabled</td><td>3 months</td><td>Verify pass 100%</td><td>Line technician</td></tr>
+    <tr><td>EoL-05</td><td>Vibration table</td><td>Vibe-3Axis</td><td>Random 10–500 Hz</td><td>12 months</td><td>Fixture resonance check</td><td>Reliability</td></tr>
+    <tr><td>EoL-06</td><td>Barcode scanner</td><td>ScanIT 2D</td><td>Code128/QR</td><td>12 months</td><td>Read success ≥99.5%</td><td>Warehouse</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>SM9 service workflow examples (narrative-oriented)</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Steps described</th><th>Why it matters</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Encrypt then decrypt</td><td>Describe preparing identity, encrypting data, then decrypting on receiver</td><td>Shows a typical application flow</td></tr>
+    <tr><td>Sign then verify</td><td>Describe producing a signature and later verifying it</td><td>Explains authenticity and integrity goals</td></tr>
+    <tr><td>Key agreement</td><td>Describe sponsor/responder message exchange conceptually</td><td>Explains session key establishment intent</td></tr>
+  </tbody>
+</table>

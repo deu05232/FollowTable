@@ -1,0 +1,15 @@
+<table>
+  <caption>Assignment Standards — Single-Point Cutoffs for Selected Aquatic Indicators</caption>
+  <thead>
+    <tr><th>Indicator</th><th>Threshold Type</th><th>Cutoff Value</th><th>Rule (Text)</th><th>Assigned Index Score</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Macrophyte Index (%)</td><td>Single fixed value</td><td>50</td><td>If value ≥ 50, assign full score</td><td>100</td></tr>
+    <tr><td>Macrophyte Index (%)</td><td>Single fixed value</td><td>15</td><td>If value < 15, assign low score</td><td>20</td></tr>
+    <tr><td>Pollutant Index</td><td>Single fixed value</td><td>1.0</td><td>If value ≤ 1.0, assign full score</td><td>100</td></tr>
+    <tr><td>Pollutant Index</td><td>Single fixed value</td><td>5.0</td><td>If value > 5.0, assign zero</td><td>0</td></tr>
+    <tr><td>Trophic State Index</td><td>Single fixed value</td><td>70</td><td>If value > 70, mark as eutrophic</td><td>40</td></tr>
+    <tr><td>Habitat Disturbance Index (%)</td><td>Single fixed value</td><td>30</td><td>If value > 30, reduce score</td><td>60</td></tr>
+    <tr><td>Ecological Flow Days (%)</td><td>Single fixed value</td><td>90</td><td>If value ≥ 90, assign full score</td><td>100</td></tr>
+  </tbody>
+</table>

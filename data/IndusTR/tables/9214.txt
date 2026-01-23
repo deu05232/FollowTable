@@ -1,0 +1,15 @@
+<table>
+  <caption>Ultrasonic Acceptance Criteria by Section Thickness for Ductile Iron Castings</caption>
+  <thead>
+    <tr><th rowspan="2">Inspection area thickness t (mm)</th><th colspan="4">UT evaluation settings / acceptance limits</th><th rowspan="2">Area classification</th></tr>
+    <tr><th>Back-wall echo attenuation (dB) max</th><th>Reference FBH diameter (mm) max</th><th>Echo height above noise (dB) max</th><th>Scanning sensitivity (dB)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>t ≤ 20</td><td>12</td><td>3.0</td><td>6</td><td>+10</td><td>Critical</td></tr>
+    <tr><td>20 < t ≤ 40</td><td>14</td><td>4.0</td><td>6</td><td>+12</td><td>Critical</td></tr>
+    <tr><td>40 < t ≤ 60</td><td>16</td><td>5.0</td><td>6</td><td>+14</td><td>Critical</td></tr>
+    <tr><td>60 < t ≤ 80</td><td>18</td><td>6.0</td><td>8</td><td>+16</td><td>Non-critical</td></tr>
+    <tr><td>80 < t ≤ 120</td><td>20</td><td>7.0</td><td>8</td><td>+18</td><td>Non-critical</td></tr>
+    <tr><td>t > 120</td><td>22</td><td>8.0</td><td>10</td><td>+20</td><td>Non-critical</td></tr>
+  </tbody>
+</table>

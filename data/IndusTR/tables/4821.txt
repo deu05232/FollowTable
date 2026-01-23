@@ -1,0 +1,21 @@
+<table>
+  <caption>PKCS #7 Signed Enveloped Data Encoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Pkcs7_EncodeData(void *hAppHandle,unsigned char * pucSignContainerName,unsigned int uiSignContainerNameLen,unsigned int uiSignKeyUsage,unsigned char * pucSignerCertificate,unsigned int uiSignerCertificateLen,unsigned int uiDigestAlgorithms,unsigned char * pucEncCertificate,unsigned int uiEncCertificateLen,unsigned int uiSymmAlgorithm,unsigned char * pucData,unsigned int uiDataLen,unsigned char * pucDerP7Data,unsigned int * puiDerP7DataLen)</td></tr>
+  <tr><td>Description</td><td>Encode PKCS#7-format signed enveloped data</td></tr>
+  <tr><td rowspan="14">Parameters</td><td>hAppHandle[in](Application interface handle)</td></tr>
+  <tr><td>pucSignContainerName[in](Key container name of the signing private key）</td></tr>
+  <tr><td>uiSignContainerNameLen[in](Length of the key container name of the signing private key)</td></tr>
+  <tr><td>uiSignKeyUsage[in](Intended use of the private key）</td></tr>
+  <tr><td>pucSignerCertificate[in](Signer certificate）</td></tr>
+  <tr><td>uiSignerCertificateLen[in](Signer certificate length)</td></tr>
+  <tr><td>uiDigestAlgorithms[in](HASH algorithm）</td></tr>
+  <tr><td>pucEncCertificate[in]（Recipient certificate）</td></tr>
+  <tr><td>uiEncCertificateLen[in](Recipient certificate length)</td></tr>
+  <tr><td>uiSymmAlgorithm[in](Symmetric algorithm parameters）</td></tr>
+  <tr><td>pucData[in](Plaintext to be signed)</td></tr>
+  <tr><td>uiDataLen[in](Length of plaintext to be signed)</td></tr>
+  <tr><td>pucDerP7Data[out](Encoded data)</td></tr>
+  <tr><td>puiDerP7DataLen[in,out](Length of encoded data)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（Success）</td></tr>
+  <tr><td>Non0(Failure; return the error code defined in Table C.1, and shall comply with the provisions of Appendix C)</td></tr>
+</table>

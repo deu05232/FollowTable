@@ -1,0 +1,64 @@
+<table>
+  <caption>Chemical surface reactions r assumed to form the solid materials s. The efficiency of the reaction is limited by the collision rate of the key species, which has the lowest abundance among the reactants. The notation \half in the r.h.s. column means that only every second collision (and sticking) event initiates one reaction (see ν r key in Eqs. LABEL:eq:chinet and LABEL:eq:verbrauch ). Data sources for the supersaturation ratios (and saturation vapour pressures): (1) Helling & Woitke (2006); (2) Nuth & Ferguson (2006); (3) Sharp & Huebner (1990)</caption>
+  <tr><th>Index r</th><th>Solid s</th><th>Surface reaction</th><th>Key species</th></tr>
+  <tr><th>1</th><th>TiO _(2) [s]</th><td>TiO _(2) TiO _(2) [s]</td><td>TiO _(2)</td></tr>
+  <tr><th>2</th><th>rutile</th><td>Ti + 2 H _(2) O TiO _(2) [s] + 2 H _(2)</td><td>Ti</td></tr>
+  <tr><th>3</th><th>(1)</th><td>TiO + H _(2) O TiO _(2) [s] + H _(2)</td><td>TiO</td></tr>
+  <tr><th>4</th><th></th><td>TiS + 2 H _(2) O TiO _(2) [s] + H _(2) S + H _(2)</td><td>TiS</td></tr>
+  <tr><th>5</th><th>SiO _(2) [s]</th><td>SiO _(2) SiO _(2) [s]</td><td>SiO _(2)</td></tr>
+  <tr><th>6</th><th>silica</th><td>SiO + H _(2) O SiO _(2) [s] + H _(2)</td><td>SiO</td></tr>
+  <tr><th>7</th><th>(3)</th><td>SiS + 2 H _(2) O SiO _(2) [s] + H _(2) S + H _(2)</td><td>SiS</td></tr>
+  <tr><th>8</th><th>SiO[s]</th><td>SiO SiO[s]</td><td>SiO</td></tr>
+  <tr><th>9</th><th>silicon mono-oxide</th><td>SiO _(2) + H _(2) SiO[s] + H _(2) O</td><td>SiO _(2)</td></tr>
+  <tr><th>10</th><th>(2)</th><td>SiS + H _(2) O SiO[s] + H _(2) S</td><td>SiS</td></tr>
+  <tr><th>11</th><th>Fe[s]</th><td>Fe Fe[s]</td><td>Fe</td></tr>
+  <tr><th>12</th><th>solid iron</th><td>FeO + H _(2) Fe[s] + H _(2) O</td><td>FeO</td></tr>
+  <tr><th>13</th><th>(1)</th><td>FeS + H _(2) Fe[s] + H _(2) S</td><td>FeS</td></tr>
+  <tr><th>14</th><th></th><td>Fe(OH) _(2) + H _(2) Fe[s] + 2 H _(2) O</td><td>Fe(OH) _(2)</td></tr>
+  <tr><th>15</th><th>FeO[s]</th><td>FeO FeO[s]</td><td>FeO</td></tr>
+  <tr><th>16</th><th>iron (II) oxide</th><td>Fe + H _(2) O FeO[s] + H _(2)</td><td>Fe</td></tr>
+  <tr><th>17</th><th>(3)</th><td>FeS + H _(2) O FeO[s] + H _(2) S</td><td>FeS</td></tr>
+  <tr><th>18</th><th></th><td>Fe(OH) _(2) FeO[s] + H _(2)</td><td>Fe(OH) _(2)</td></tr>
+  <tr><th>19</th><th>FeS[s]</th><td>FeS FeS[s]</td><td>FeS</td></tr>
+  <tr><th>20</th><th>iron sulphide</th><td>Fe + H _(2) S FeS[s] + H _(2)</td><td>Fe</td></tr>
+  <tr><th>21</th><th>(3)</th><td>FeO + H _(2) S FeS[s] + H _(2) O</td><td>\{ FeO, H _(2) S \}</td></tr>
+  <tr><th>22</th><th></th><td>Fe(OH) _(2) + H _(2) S FeS[s] + 2 H _(2) O</td><td>\{ Fe(OH) _(2) , H _(2) S \}</td></tr>
+  <tr><th>23</th><th>Fe _(2) O _(3) [s]</th><td>2 Fe + 3 H _(2) O Fe _(2) O _(3) [s] + 3 H _(2)</td><td>Fe</td></tr>
+  <tr><th>24</th><th>iron (III) oxide</th><td>2 FeO + H _(2) O Fe _(2) O _(3) [s] + H _(2)</td><td>FeO</td></tr>
+  <tr><th>25</th><th>(3)</th><td>2 FeS + 3 H _(2) O Fe _(2) O _(3) [s] + 2 H _(2) S + H _(2)</td><td>FeS</td></tr>
+  <tr><th>26</th><th></th><td>2 Fe(OH) _(2) Fe _(2) O _(3) [s] + H _(2) O + H _(2)</td><td>Fe(OH) _(2)</td></tr>
+  <tr><th>27</th><th>MgO[s]</th><td>MgO MgO[s]</td><td>MgO</td></tr>
+  <tr><th>28</th><th>periclase</th><td>Mg + H _(2) O MgO[s] + H _(2)</td><td>Mg</td></tr>
+  <tr><th>29</th><th>(3)</th><td>2 MgOH 2 MgO[s] + H _(2)</td><td>MgOH</td></tr>
+  <tr><th>30</th><th></th><td>Mg(OH) _(2) MgO[s] + H _(2) O</td><td>Mg(OH) _(2)</td></tr>
+  <tr><th>31</th><th>MgSiO _(3) [s]</th><td>Mg + SiO + 2 H _(2) O MgSiO _(3) [s] + H _(2)</td><td>\{ Mg, SiO \}</td></tr>
+  <tr><th>32</th><th>enstatite</th><td>Mg + SiS + 3 H _(2) O MgSiO _(3) [s] + H _(2) S + 2 H _(2)</td><td>\{ Mg, SiS \}</td></tr>
+  <tr><th>33</th><th>(3)</th><td>2 MgOH + 2 SiO + 2 H _(2) O 2 MgSiO _(3) [s] + 3 H _(2)</td><td>\{ MgOH, SiO \}</td></tr>
+  <tr><th>34</th><th></th><td>2 MgOH + 2 SiS + 2 H _(2) O 2 MgSiO _(3) [s] + 2 H _(2) S + 2 H _(2)</td><td>\{ MgOH, SiS \}</td></tr>
+  <tr><th>35</th><th></th><td>Mg(OH) _(2) + SiO 2 MgSiO _(3) [s] + H _(2)</td><td>\{ Mg(OH) _(2) , SiO \}</td></tr>
+  <tr><th>36</th><th></th><td>Mg(OH) _(2) + SiS + H _(2) O MgSiO _(3) [s] + H _(2) S+ H _(2)</td><td>\{ Mg(OH) _(2) , SiS \}</td></tr>
+  <tr><th>37</th><th>Mg _(2) SiO _(4) [s]</th><td>2 Mg + SiO + 3 H _(2) O Mg _(2) SiO _(4) [s] + 3 H _(2)</td><td>\{ Mg, SiO \}</td></tr>
+  <tr><th>38</th><th>forsterite</th><td>2 MgOH + SiO + H _(2) O Mg _(2) SiO _(4) [s] + 2 H _(2)</td><td>\{ MgOH, SiO \}</td></tr>
+  <tr><th>39</th><th>(3)</th><td>2 Mg(OH) _(2) + SiO Mg _(2) SiO _(4) [s] + H _(2) O + H _(2)</td><td>\{ Mg(OH) _(2) , SiO \}</td></tr>
+  <tr><th>40</th><th></th><td>2 Mg + SiS + 4 H _(2) O Mg _(2) SiO _(4) [s] + H _(2) S + 3 H _(2)</td><td>\{ Mg, SiS}</td></tr>
+  <tr><th>41</th><th></th><td>2 MgOH + SiS + 2 H _(2) O Mg _(2) SiO _(4) [s] + H _(2) S + 2 H _(2)</td><td>\{ MgOH, SiS}</td></tr>
+  <tr><th>42</th><th></th><td>2 Mg(OH) _(2) + SiS Mg _(2) SiO _(4) [s] + H _(2) + H _(2) S</td><td>\{ Mg(OH) _(2) , SiS}</td></tr>
+  <tr><th>43</th><th>Al _(2) O _(3) [s]</th><td>2 Al + 3 H _(2) O Al _(2) O _(3) [s] + 3 H _(2)</td><td>Al</td></tr>
+  <tr><th>44</th><th>aluminia</th><td>2 AlOH + H _(2) O Al _(2) O _(3) [s] + 2 H _(2)</td><td>AlOH</td></tr>
+  <tr><th>45</th><th>(3)</th><td>2 AlH + 3 H _(2) O Al _(2) O _(3) [s] + 4 H _(2)</td><td>AlH</td></tr>
+  <tr><th>46</th><th></th><td>Al _(2) O + 2 H _(2) O Al _(2) O _(3) [s] + 2 H _(2)</td><td>Al _(2) O</td></tr>
+  <tr><th>47</th><th></th><td>2 AlS + 3 H _(2) O Al _(2) O _(3) [s] + 2 H _(2) S + H _(2)</td><td>AlS</td></tr>
+  <tr><th>48</th><th></th><td>2 AlO _(2) H Al _(2) O _(3) [s] + H _(2) O</td><td>AlO _(2) H</td></tr>
+  <tr><th>49</th><th>CaTiO _(3) [s]</th><td>Ca + TiO + 2 H _(2) O CaTiO _(3) [s] + 2 H _(2)</td><td>\{ Ca, TiO \}</td></tr>
+  <tr><th>50</th><th>perovskite</th><td>Ca + TiO _(2) + H _(2) O CaTiO _(3) [s] + H _(2)</td><td>\{ Ca, TiO _(2)\}</td></tr>
+  <tr><th>51</th><th>(3)</th><td>Ca + Ti + 3 H _(2) O CaTiO _(3) [s] + 3 H _(2)</td><td>\{ Ca, Ti \}</td></tr>
+  <tr><th>52</th><th></th><td>CaO + Ti + 2 H _(2) O CaTiO _(3) [s] + 2 H _(2)</td><td>\{ CaO, Ti \}</td></tr>
+  <tr><th>53</th><th></th><td>CaO + TiO + H _(2) O CaTiO _(3) [s] + H _(2)</td><td>\{ CaO, TiO \}</td></tr>
+  <tr><th>54</th><th></th><td>CaO + TiO _(2) CaTiO _(3) [s]</td><td>\{ CaO, TiO _(2)\}</td></tr>
+  <tr><th>55</th><th></th><td>CaS + Ti + 3 H _(2) O CaTiO _(3) [s] + H _(2) S + H _(2)</td><td>\{ CaS, Ti \}</td></tr>
+  <tr><th>56</th><th></th><td>CaS + TiO + 2 H _(2) O CaTiO _(3) [s] + H _(2) S + 2 H _(2)</td><td>\{ CaS, TiO \}</td></tr>
+  <tr><th>57</th><th></th><td>CaS + TiO _(2) + H _(2) O CaTiO _(3) [s] + H _(2) S</td><td>\{ CaS, TiO _(2)\}</td></tr>
+  <tr><th>58</th><th></th><td>Ca(OH) _(2) + Ti + H _(2) O CaTiO _(3) [s] + 2 H _(2)</td><td>\{ Ca(OH) _(2) , Ti \}</td></tr>
+  <tr><th>59</th><th></th><td>Ca(OH) _(2) + TiO CaTiO _(3) [s] + H _(2)</td><td>\{ Ca(OH) _(2) , TiO \}</td></tr>
+  <tr><th>60</th><th></th><td>Ca(OH) _(2) + TiO _(2) CaTiO _(3) [s] + H _(2) O</td><td>(OH)_(2),TiO_(2)\</td></tr>
+</table>

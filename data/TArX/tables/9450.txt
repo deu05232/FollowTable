@@ -1,0 +1,16 @@
+<table>
+  <caption>Instrument Setup and Spectral Coverage for X-ray Emission-Spectra Measurements</caption>
+  <thead>
+    <tr><th rowspan="2">Facility</th><th rowspan="2">Detector/Grating</th><th colspan="3">Coverage</th><th colspan="2">Resolution</th><th rowspan="2">Mode</th></tr>
+    <tr><th>Bandpass (keV)</th><th>Channel width (eV)</th><th>Effective area peak (cm^2)</th><th>FWHM at 1 keV (eV)</th><th>R = E/ΔE</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Chandra</td><td>HETG/ACIS-S</td><td>0.4–10</td><td>1.0</td><td>25</td><td>12</td><td>80</td><td>TE</td></tr>
+    <tr><td>XMM-Newton</td><td>RGS</td><td>0.35–2.5</td><td>0.5</td><td>140</td><td>2</td><td>500</td><td>Spectroscopy</td></tr>
+    <tr><td>XMM-Newton</td><td>EPIC-pn</td><td>0.15–15</td><td>5.0</td><td>1200</td><td>80</td><td>12</td><td>Imaging</td></tr>
+    <tr><td>NuSTAR</td><td>FPM</td><td>3–79</td><td>40</td><td>900</td><td>400</td><td>2.5</td><td>Pointed</td></tr>
+    <tr><td>Swift</td><td>XRT</td><td>0.3–10</td><td>10</td><td>110</td><td>140</td><td>7</td><td>PC/WT</td></tr>
+    <tr><td>NICER</td><td>XTI</td><td>0.2–12</td><td>10</td><td>1900</td><td>85</td><td>12</td><td>Timing</td></tr>
+    <tr><td>eROSITA</td><td>TM</td><td>0.2–10</td><td>5</td><td>2400</td><td>70</td><td>14</td><td>Survey</td></tr>
+  </tbody>
+</table>

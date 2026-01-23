@@ -1,0 +1,12 @@
+<table>
+  <caption>AIS Class B Equipment Attribute Report Message Format</caption>
+  <tr><td>Message Parameter</td><td>Length (bit)</td><td>Description and Requirements</td></tr>
+  <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 60, fixed at 60</td></tr>
+  <tr><td>Relay Indicator</td><td>2</td><td>Used by the repeater to indicate the number of times the message has been relayed, fixed at 0</td></tr>
+  <tr><td>Broadcasting Device MMSI</td><td>30</td><td>MMSI of the broadcasting device; the encoding rules shall comply with the requirements of 6.4.1</td></tr>
+  <tr><td>Submessage Number</td><td>2</td><td>Messages 1–60 in Part A, messages 1–60 in Part B, fixed at 1</td></tr>
+  <tr><td>Broadcast Mode</td><td>1</td><td>0—broadcast; 1 addressed</td></tr>
+  <tr><td>Receiving Device MMSI</td><td>0/30</td><td>When the broadcast mode is broadcast, this field length is 0; when the broadcast mode is addressed, this field length is 30</td></tr>
+  <tr><td>Device Attribute Data</td><td>127/97</td><td>When the broadcast mode is broadcast, this field length is 127; when the broadcast mode is addressed, this field length is 97. The format and content of the device attribute data are specified by the user</td></tr>
+  <tr><td>Total Length</td><td>168</td><td>Occupies 1 time slot</td></tr>
+</table>

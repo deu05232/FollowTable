@@ -1,0 +1,12 @@
+<table>
+  <caption>Rubber Mixing Weighing Equipment Speed Parameter Data Structure Table</caption>
+  <tr><td>Serial No.</td><td>Data Structure Name</td><td>Data Type</td><td>Data Length (bit)</td><td>Description</td></tr>
+  <tr><td>1</td><td rowspan="8">Weighing Parameters</td><td>FLOAT</td><td>32</td><td>High-speed value</td></tr>
+  <tr><td>2</td><td>FLOAT</td><td>32</td><td>Medium-speed value</td></tr>
+  <tr><td>3</td><td>FLOAT</td><td>32</td><td>Low-speed value</td></tr>
+  <tr><td>4</td><td>FLOAT</td><td>32</td><td>High-to-medium changeover weight value</td></tr>
+  <tr><td>5</td><td>FLOAT</td><td>32</td><td>Medium-to-low changeover weight value</td></tr>
+  <tr><td>6</td><td>FLOAT</td><td>32</td><td>Target gate-closing weight value</td></tr>
+  <tr><td>7</td><td>FLOAT</td><td>32</td><td>Jog speed value</td></tr>
+  <tr><td>8</td><td>FLOAT</td><td>32</td><td>Jog time (s)</td></tr>
+</table>

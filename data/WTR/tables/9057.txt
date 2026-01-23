@@ -1,0 +1,11 @@
+# Google Product Reviews — How Ratings Are Collected and Moderated (Process Overview)
+
+| Component | What it does | Example signal | Where it appears | User control | Notes |
+|---|---|---|---|---|---|
+| Review submission | Accepts text reviews | Review text length | Product page | Edit/delete | May require sign-in |
+| Star rating input | Captures star value | 1–5 stars widget | Product page | Can update | Not a comparative table |
+| Verification | Flags verified buyers | Purchase confirmation | Review badge | Limited | Criteria can vary |
+| Moderation | Removes policy-violating content | Spam detection | Review feed | Appeal option | Not a score summary |
+| Aggregation | Calculates average rating | Mean/median | Snippet cards | null | Depends on data volume |
+| Sorting | Orders reviews | Most helpful / newest | Review section | Sort dropdown | Can bias perceived quality |
+| Reporting | Lets users report abuse | Abuse report | Review UI | Report button | Administrative action |

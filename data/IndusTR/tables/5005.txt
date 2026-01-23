@@ -1,0 +1,14 @@
+<table>
+  <caption>Production Site Environmental Monitoring Data Table</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Description</td><td>Data Type</td><td>Data Format</td><td>Example</td></tr>
+  <tr><td>1</td><td>Production site name</td><td>Name of the production site</td><td>C</td><td>C..100</td><td>Cutting room packaging table</td></tr>
+  <tr><td>2</td><td>Ambient temperature</td><td>Temperature of the production site</td><td>C</td><td>C..100</td><td>20℃</td></tr>
+  <tr><td>3</td><td>Ambient humidity</td><td>Humidity of the production site</td><td>C</td><td>C..100</td><td>50%RH</td></tr>
+  <tr><td>4</td><td>Ambient air cleanliness</td><td>Air cleanliness level of the production site</td><td>C</td><td>C..1000</td><td>Good</td></tr>
+  <tr><td>5</td><td>Production environment illuminance</td><td>Illuminance of the production site environment</td><td>C</td><td>C..100</td><td>Lighting intensity not less than 220 lx</td></tr>
+  <tr><td>6</td><td>Production site condition record</td><td>Photo of the production site condition record, or a scanned copy of the record file</td><td>BY</td><td>Binary data file</td><td></td></tr>
+  <tr><td>7</td><td>Changing room condition record</td><td>Photo of the changing room record, or a scanned copy of the record file</td><td>BY</td><td>Binary data file</td><td></td></tr>
+  <tr><td>8</td><td>Name of production site condition record personnel</td><td>Name of the person recording the conditions of the production site</td><td>C</td><td>C..30</td><td>Zhang ××</td></tr>
+  <tr><td>9</td><td>Verification result</td><td>Whether the production site environment is as recorded</td><td>B</td><td>True/False</td><td>True</td></tr>
+  <tr><td>10</td><td>Verifier name</td><td>Name of the person verifying the production site environment</td><td>C</td><td>C..30</td><td>Zhang ××</td></tr>
+</table>

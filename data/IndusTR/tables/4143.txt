@@ -1,0 +1,8 @@
+<table>
+  <caption>Emergency Management Beidou Terminal Inspection Report Message Data Format</caption>
+  <tr><td>No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Inspection Date</td><td>17</td><td colspan="3">See 6.1.8</td><td>Includes only the three fields: year, month, and day</td></tr>
+  <tr><td>2</td><td>Operator Name Length</td><td>5</td><td>Integer</td><td>Byte</td><td>1~31</td><td></td></tr>
+  <tr><td>3</td><td>Operator</td><td>NX8</td><td>Character</td><td></td><td></td><td>Length N is the operator name length</td></tr>
+  <tr><td>4</td><td>Inspected Entity Name</td><td>12</td><td>Integer</td><td>一</td><td>1~255</td><td>The organization code shall comply with the provisions of A.1</td></tr>
+</table>

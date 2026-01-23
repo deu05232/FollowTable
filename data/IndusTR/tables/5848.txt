@@ -1,0 +1,11 @@
+<table>
+  <caption>ARHandTrackingGestureType Enumeration (Content-Specific Hand Features)</caption>
+  <tr><th>Enum Value (Name = Number)</th><th>Meaning</th><th>Confidence Hint</th></tr>
+  <tr><td>AR_HAND_GESTURE_TYPE_UNKNOWN = -1</td><td>No valid gesture detected.</td><td>Low</td></tr>
+  <tr><td>AR_HAND_GESTURE_TYPE_OPEN_PALM = 0</td><td>Open palm facing the camera.</td><td>Medium</td></tr>
+  <tr><td>AR_HAND_GESTURE_TYPE_FIST = 1</td><td>Closed fist gesture.</td><td>Medium</td></tr>
+  <tr><td>AR_HAND_GESTURE_TYPE_PINCH = 2</td><td>Pinch detected between thumb and index finger.</td><td>High</td></tr>
+  <tr><td>AR_HAND_GESTURE_TYPE_POINT = 3</td><td>Index finger pointing gesture.</td><td>Medium</td></tr>
+  <tr><td>AR_HAND_GESTURE_TYPE_V_SIGN = 4</td><td>Two-finger V sign gesture.</td><td>Low</td></tr>
+  <tr><td>AR_HAND_GESTURE_TYPE_OK = 5</td><td>Thumb and index forming an OK circle.</td><td>Low</td></tr>
+</table>

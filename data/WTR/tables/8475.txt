@@ -1,0 +1,12 @@
+# Cloud VM Instance Comparison by CPU, Memory, and Hourly Price
+
+| Provider | Instance Type | vCPU / Processor | Memory (GB) | Storage | Network | Region | On-Demand Price (USD/hr) |
+|---|---|---|---:|---|---|---|---:|
+| Amazon EC2 | m6i.large | 2 vCPU (Intel Xeon Scalable) | 8 | EBS-only | Up to 12.5 Gbps | us-east-1 | 0.096 |
+| Amazon EC2 | c7g.large | 2 vCPU (AWS Graviton3) | 4 | EBS-only | Up to 12.5 Gbps | us-east-1 | 0.072 |
+| Google Cloud | e2-standard-4 | 4 vCPU (Intel/AMD varying) | 16 | Balanced PD | Up to 10 Gbps | us-central1 | 0.134 |
+| Microsoft Azure | D4s v5 | 4 vCPU (Intel Xeon Platinum) | 16 | Premium SSD | Up to 12 Gbps | eastus | 0.192 |
+| Oracle Cloud | VM.Standard.E4.Flex | 4 OCPU (AMD EPYC) | 32 | Block Volume | Up to 10 Gbps | us-phoenix-1 | 0.160 |
+| DigitalOcean | General Purpose 8GB | 2 vCPU (Intel/AMD) | 8 | 50GB NVMe | 5 Gbps | nyc3 | 0.095 |
+| Hetzner Cloud | CPX31 | 4 vCPU (AMD EPYC) | 8 | 160GB NVMe | 20 TB traffic | nbg1 | 0.041 |
+| OVHcloud | b2-30 | 8 vCPU (Intel Xeon) | 30 | 400GB SSD | 500 Mbps | GRA | 0.120 |

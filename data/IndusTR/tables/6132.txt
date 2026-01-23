@@ -1,0 +1,10 @@
+<table>
+  <caption>Image Segment Collection Context Data Items</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  <tr><td>1</td><td>Image Segment Identifier</td><td>tppdbz</td><td>c41</td><td>Identifier for an image segment; follows the specified coding rules</td><td></td></tr>
+  <tr><td>2</td><td>Image Segment Collection Method Code</td><td>tppdcjfsdm</td><td>c1</td><td>Code indicating how the segment was collected</td><td></td></tr>
+  <tr><td>3</td><td>Image Segment Collection Location Type Code</td><td>tppdcjwzlxdm</td><td>c3..7</td><td>Code indicating the capture location type</td><td></td></tr>
+  <tr><td>4</td><td>Installation Location Administrative Division Code</td><td>azddxzqhdm</td><td>c6</td><td>6-digit administrative division code for the capture location</td><td></td></tr>
+  <tr><td>5</td><td>Capture_Date/Time</td><td>cj_rqsj</td><td>d18</td><td>Date and time when the segment was captured</td><td></td></tr>
+  <tr><td>6</td><td>Capture Site Name</td><td>cjddmc</td><td>c..100</td><td>Name/label of the capture site</td><td></td></tr>
+</table>

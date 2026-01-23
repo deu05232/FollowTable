@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal Uplink Report Statement Parameters (Addressing + RF/Mode Mix)</caption>
+  <thead>
+    <tr><th>No.</th><th>Parameter</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sender ID</td><td>1–16,777,215</td><td>-</td><td>Originating terminal (intranet) identifier used as source address</td></tr>
+    <tr><td>2</td><td>Recipient ID</td><td>1–16,777,215</td><td>-</td><td>Destination user identifier for routing</td></tr>
+    <tr><td>3</td><td>Uplink sequence number</td><td>0–65,535</td><td>-</td><td>Monotonic tag for matching acknowledgements and de-duplication</td></tr>
+    <tr><td>4</td><td>Network management message type</td><td>1–4</td><td>-</td><td>1: power-on; 2: silence request; 3: emergency SAR; 4: comm-fail confirm</td></tr>
+    <tr><td>5</td><td>RF frequency point</td><td>0–2</td><td>-</td><td>0: auto; 1: Lf1; 2: Lf2</td></tr>
+    <tr><td>6</td><td>Operating mode flag</td><td>0–3</td><td>-</td><td>0: normal; 1: test; 2: maintenance; 3: factory</td></tr>
+    <tr><td>7</td><td>Output rate</td><td>10–3600</td><td>0.1 s</td><td>Reporting interval; e.g., 300 means 30 s</td></tr>
+  </tbody>
+</table>

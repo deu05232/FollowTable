@@ -1,0 +1,15 @@
+# Default Administrative Distance (AD) Values for Common Route Sources (Reference List)
+
+| Route source / protocol | Default administrative distance |
+| --- | --- |
+| Directly connected | 0 |
+| Static route | 1 |
+| EIGRP summary route | 5 |
+| External BGP (eBGP) | 20 |
+| Internal EIGRP | 90 |
+| IGRP | 100 |
+| OSPF | 110 |
+| IS-IS | 115 |
+| RIP | 120 |
+| External EIGRP | 170 |
+| Internal BGP (iBGP) | 200 |

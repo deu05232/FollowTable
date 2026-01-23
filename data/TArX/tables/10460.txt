@@ -1,0 +1,16 @@
+<table>
+  <caption>Strong-coupling checklist for optomechanical devices (geometry-first summary, no coupling figures)</caption>
+  <thead>
+    <tr><th rowspan="2">Platform</th><th colspan="2">Optical cavity geometry</th><th colspan="3">Mechanical mode properties</th><th rowspan="2">Notes on “strong regime” discussion</th></tr>
+    <tr><th>Cavity length (mm)</th><th>Mode volume (arb.)</th><th>Resonance fm(MHz)</th><th>Effective mass (pg)</th><th>Qm</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Membrane-in-the-middle</td><td>50</td><td>1.0</td><td>0.10</td><td>50000</td><td>1.0×107</td><td>Often discussed for quantum measurement; coupling depends on positioning</td></tr>
+    <tr><td>Photonic crystal nanobeam</td><td>0.02</td><td>0.05</td><td>3.20</td><td>120</td><td>3.0×106</td><td>Small mass and large fmhelp; optical loss can limit regime</td></tr>
+    <tr><td>Microtoroid RBM</td><td>0.10</td><td>0.20</td><td>0.49</td><td>40000</td><td>2.0×105</td><td>High optical Q possible; mechanical Q varies with clamping</td></tr>
+    <tr><td>Fabry–Pérot with levitated particle</td><td>30</td><td>0.8</td><td>0.15</td><td>10</td><td>5.0×108</td><td>Strong-coupling claims usually rely on ultra-low decoherence</td></tr>
+    <tr><td>Microwave-to-optical transducer (hybrid)</td><td>5</td><td>0.6</td><td>10.0</td><td>800</td><td>1.0×105</td><td>Strong regime phrased in cooperativity; optical part may be limiting</td></tr>
+    <tr><td>Ring resonator with flexural mode</td><td>0.50</td><td>0.30</td><td>2.00</td><td>2000</td><td>8.0×105</td><td>Geometry easy to scale; stability constraints common</td></tr>
+    <tr><td>Whispering-gallery bottle resonator</td><td>2.0</td><td>0.25</td><td>60.0</td><td>200000</td><td>1.0×104</td><td>Large fmpossible; device-to-device spread is significant</td></tr>
+  </tbody>
+</table>

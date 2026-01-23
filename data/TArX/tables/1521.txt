@@ -1,0 +1,10 @@
+<table>
+  <caption>Parameters of the adaptive smoothing algorithm with typical numerical values used in this paper. The spatial and temporal smoothing widths are chosen as half of the average inter-detector spacing Δ ⁢ x and sampling time δ ⁢ t , respectively.</caption>
+  <tr><th>Parameter</th><th>Value</th></tr>
+  <tr><td>Smoothing width in space coordinate σ</td><td>Δ x/2</td></tr>
+  <tr><td>Smoothing width in time coordinate τ</td><td>Δ t/2</td></tr>
+  <tr><td>Propagation velocity of perturbations in free traffic c_()</td><td>[70]km/h</td></tr>
+  <tr><td>Propagation velocity of perturbations in congested traffic c_()</td><td>[-15]km/h</td></tr>
+  <tr><td>Crossover from congested to free traffic V_()</td><td>[60]km/h</td></tr>
+  <tr><td>Transition width between congested and free traffic Δ V</td><td>[20]km/h</td></tr>
+</table>

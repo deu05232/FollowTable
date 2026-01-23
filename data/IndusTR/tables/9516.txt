@@ -1,0 +1,19 @@
+<table>
+  <caption>SpaceFibre Special Characters and Control Fields: Symbol Encoding and Wire-Level Semantics</caption>
+  <thead>
+    <tr><th>Item</th><th>Category</th><th>On-the-wire encoding / symbol</th><th>Where it appears (examples)</th><th>Protocol-level meaning / use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>COMMA</td><td>Framing / delimiter</td><td>K28.5 (Comma character)</td><td>Start of many control words and block headers (e.g., Init Comma, Comma, …)</td><td>Character alignment and control-word delimiting; helps receivers find word boundaries.</td></tr>
+    <tr><td>Init Comma</td><td>Initialization delimiter</td><td>Init Comma (Comma used in init context)</td><td>Initialization control words (e.g., INIT1 sequences)</td><td>Marks initialization handshake traffic; used during link bring-up.</td></tr>
+    <tr><td>EOP (Valid End-of-Packet)</td><td>Packet delimiter</td><td>K29.7</td><td>Data field within a data frame</td><td>Terminates a SpaceFibre packet successfully; next data byte begins the next packet.</td></tr>
+    <tr><td>EEP (Error End-of-Packet)</td><td>Packet delimiter (error)</td><td>K30.7</td><td>Data field within a data frame</td><td>Terminates a SpaceFibre packet with error; next data byte begins the next packet.</td></tr>
+    <tr><td>Fill padding</td><td>Padding character</td><td>K27.7</td><td>PAD control word after K28.7 (e.g., …, K28.7, K27.7, K27.7, K27.7)</td><td>Padding for multi-channel operation; used to keep lanes filled/balanced without conveying payload.</td></tr>
+    <tr><td>RXERROR marker</td><td>Error symbol</td><td>K0.0</td><td>RXERR control word (e.g., …, K0.0, D0.0, D0.0, D0.0)</td><td>Signals a receive/decoder error condition at the symbol/word level.</td></tr>
+    <tr><td>ACTIVE token</td><td>Control token (field value)</td><td>D0.1</td><td>ACTIVE control word payload region</td><td>Identifies ACTIVE control word content (channel activation/initialization context).</td></tr>
+    <tr><td>ACK token</td><td>Control token (field value)</td><td>D2.5</td><td>ACK control word payload region</td><td>Identifies ACK control word content (positive acknowledgment semantics).</td></tr>
+    <tr><td>SEQ_NUM field (concept)</td><td>Control field</td><td>SEQ_NUM encoded as data symbols D[0..31].[0..7] (8-bit)</td><td>ACK / NACK / FULL control words</td><td>Sequence number used for ordering and retransmission/error recovery bookkeeping at protocol level (acknowledgment reference).</td></tr>
+    <tr><td>CRC field (concept)</td><td>Control field</td><td>CRC encoded as data symbols D[0..31].[0..7] (8-bit)</td><td>ACK / NACK / FULL control words (CRC byte)</td><td>Integrity check for the control word contents (detects corruption of SEQ_NUM etc.).</td></tr>
+    <tr><td>Generic data byte</td><td>Data character</td><td>D0.0 … D31.7</td><td>Data frames; also used as field carriers inside control words</td><td>Represents payload bytes (0x00…0xFF) or encodes control fields when used inside control words.</td></tr>
+  </tbody>
+</table>

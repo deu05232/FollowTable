@@ -1,0 +1,11 @@
+<table>
+  <caption>XHE Envelope Processing Pipeline — Job Steps & Runtime Parameters</caption>
+  <tr><th>Step ID</th><th>Pipeline Stage</th><th>Parameter</th><th>Default</th><th>Allowed Range</th><th>Notes</th></tr>
+  <tr><td>1</td><td>Intake</td><td>maxRequestSizeMB</td><td>20</td><td>1–200</td><td>Applies before parsing</td></tr>
+  <tr><td>2</td><td>Parsing</td><td>xmlParserMode</td><td>strict</td><td>strict|lenient</td><td>Lenient logs warnings</td></tr>
+  <tr><td>3</td><td>Validation</td><td>schemaCacheTTLMinutes</td><td>60</td><td>5–1440</td><td>Cache for XSD/JSON schema</td></tr>
+  <tr><td>4</td><td>Routing</td><td>routeLookupTimeoutMs</td><td>150</td><td>50–2000</td><td>Directory service call</td></tr>
+  <tr><td>5</td><td>Persistence</td><td>payloadRetentionDays</td><td>30</td><td>1–365</td><td>Storage policy</td></tr>
+  <tr><td>6</td><td>Dispatch</td><td>retryBackoffSeconds</td><td>10</td><td>1–600</td><td>Exponential backoff supported</td></tr>
+  <tr><td>7</td><td>Audit</td><td>logLevel</td><td>INFO</td><td>DEBUG|INFO|WARN|ERROR</td><td>Security policy may override</td></tr>
+</table>

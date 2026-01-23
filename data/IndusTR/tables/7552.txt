@@ -1,0 +1,23 @@
+<table>
+  <caption>SM9 Key Agreement (Sponsor) — Generate Agreement Parameters and Create Agreement Handle</caption>
+  <thead>
+    <tr><th>Item</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Function</td><td>SAF_SM9GenerateAgreementData</td></tr>
+    <tr><td>Prototype</td><td>int SAF_SM9GenerateAgreementData(
+    void          *hSymmKeyObj,
+    unsigned int   uiEncMasterPubKeyIndex,
+    unsigned int   uiKeyBits,
+    unsigned char *pucSponsorID,
+    unsigned int   uiSponsorIDLen,
+    unsigned char *pucSponsorTmpPublicKey,
+    unsigned int  *puiSponsorTmpPublicKeyLen,
+    void         **phAgreementHandle);</td></tr>
+    <tr><td>Description</td><td>Generates the sponsor-side ephemeral agreement parameters for SM9 key agreement and outputs an agreement handle used in the follow-up step that derives the session key.</td></tr>
+    <tr><td>Inputs</td><td>hSymmKeyObj(in): Symmetric algorithm object bound to the device/session.uiEncMasterPubKeyIndex(in): Index of the SM9 encryption master public key used by the agreement scheme.uiKeyBits(in): Target session key bit length (e.g., 128/192/256).pucSponsorID(in): Sponsor identity bytes (DER-encoded or raw, per implementation).uiSponsorIDLen(in): Length of sponsor identity.</td></tr>
+    <tr><td>Outputs</td><td>pucSponsorTmpPublicKey(out): Sponsor ephemeral public key to be sent to responder.puiSponsorTmpPublicKeyLen(in/out): On input, buffer size; on output, actual ephemeral public key length.phAgreementHandle(out): Opaque agreement context/handle for subsequent key derivation.</td></tr>
+    <tr><td>Return Value</td><td>0: successNon-zero: failure (invalid parameters, buffer too small, key index not found, internal error)</td></tr>
+    <tr><td>Notes</td><td>This function doesnotoutput a session key directly; it prepares parameters and returns an agreement handle.Caller must preservephAgreementHandleuntil key derivation completes; implementation may require explicit handle release.</td></tr>
+  </tbody>
+</table>

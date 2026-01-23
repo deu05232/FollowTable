@@ -1,0 +1,16 @@
+<table>
+  <caption>Tire Line Historian Storage Map (Word/Bit Allocation Table)</caption>
+  <thead>
+    <tr><th>Area</th><th>Word Address</th><th>Bit Range</th><th>Stored Field</th><th>Data Type</th><th>Bit Length</th><th>Compression</th><th>Retention (days)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Weighing Station</td><td>W200</td><td>0..15</td><td>Weigh_State</td><td>UINT</td><td>16</td><td>Delta</td><td>90</td><td>State stored as raw word</td></tr>
+    <tr><td>W201</td><td>0..15</td><td>NetWeight_Raw</td><td>INT</td><td>16</td><td>Delta</td><td>180</td><td>Scale raw counts</td></tr>
+    <tr><td>W202</td><td>0..31</td><td>Weigh_Time_ms</td><td>UDINT</td><td>32</td><td>null</td><td>365</td><td>Time in milliseconds</td></tr>
+    <tr><td rowspan="3">Cutter Section</td><td>W310</td><td>0</td><td>Cutter_Run</td><td>BOOL</td><td>1</td><td>RLE</td><td>30</td><td>Bit packed</td></tr>
+    <tr><td>W310</td><td>1</td><td>Cutter_Alarm</td><td>BOOL</td><td>1</td><td>RLE</td><td>30</td><td>Bit packed</td></tr>
+    <tr><td>W311</td><td>0..15</td><td>Cutter_Speed_Raw</td><td>UINT</td><td>16</td><td>Delta</td><td>90</td><td>RPM*100</td></tr>
+    <tr><td rowspan="2">Uniformity Test</td><td>W500</td><td>0..15</td><td>InflationPressure_Raw</td><td>INT</td><td>16</td><td>Delta</td><td>365</td><td>kPa*10, two's complement</td></tr>
+    <tr><td>W501</td><td>0..7</td><td>ResultCode</td><td>UINT</td><td>8</td><td>null</td><td>365</td><td>Low byte used, high byte reserved</td></tr>
+  </tbody>
+</table>

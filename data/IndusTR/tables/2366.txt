@@ -1,0 +1,15 @@
+<table>
+  <caption>Change Management Checklist for Network Configuration Updates</caption>
+  <thead>
+    <tr><th>Checklist Item</th><th>Owner</th><th>Required Artifact</th><th>Approval Needed</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Change Request Created</td><td>Network Engineer</td><td>CR Ticket ID</td><td>Yes</td><td>Pending</td></tr>
+    <tr><td>Risk Assessment Completed</td><td>Security Officer</td><td>Risk Form</td><td>Yes</td><td>Pending</td></tr>
+    <tr><td>Maintenance Window Scheduled</td><td>NOC</td><td>Calendar Invite</td><td>No</td><td>Planned</td></tr>
+    <tr><td>Backup Config Exported</td><td>Network Engineer</td><td>Config Backup File</td><td>No</td><td>Planned</td></tr>
+    <tr><td>Rollback Plan Documented</td><td>Network Engineer</td><td>Rollback Steps</td><td>Yes</td><td>Draft</td></tr>
+    <tr><td>Post-change Validation</td><td>QA</td><td>Test Results</td><td>Yes</td><td>Not Started</td></tr>
+    <tr><td>Stakeholder Notification</td><td>IT Manager</td><td>Email Notice</td><td>No</td><td>Not Started</td></tr>
+  </tbody>
+</table>

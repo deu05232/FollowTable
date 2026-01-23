@@ -1,0 +1,25 @@
+<table>
+  <caption>User Terminal Application File: Key Set Directory and Access Control Attributes</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Key Set Header</td><td>Key set identifier (KSID)</td><td>2</td><td>Identifier of the key set used by secure messaging and key management procedures</td></tr>
+    <tr><td>Key set version</td><td>1</td><td>Monotonic counter indicating the current active version of the key set</td></tr>
+    <tr><td>Active key slot index</td><td>1</td><td>Slot number (0..7) pointing to the currently active operational key material</td></tr>
+    <tr><td>Key derivation context ID</td><td>2</td><td>Reference to a diversification/derivation context; used when deriving session keys</td></tr>
+    <tr><td>Access control policy ID</td><td>2</td><td>Reference to an access policy defining which command types can use/update keys</td></tr>
+    <tr><td>Key usage bitmap</td><td>2</td><td>Bitmask for allowed uses (enc, mac, key-wrap, auth, decrypt-only, etc.)</td></tr>
+    <tr><td rowspan="7">Key Records (per slot)</td><td>Key slot i: KeyID</td><td>1</td><td>Key identifier within the application file; used in commands to select the key</td></tr>
+    <tr><td>Key slot i: Key index number</td><td>6</td><td>Index/handle referencing protected key storage (e.g., secure element/keystore index)</td></tr>
+    <tr><td>Key slot i: Key role</td><td>1</td><td>00=Master control, 01=Maintenance, 02=Authentication, 03=Encryption, 04=Key-wrapping</td></tr>
+    <tr><td>Key slot i: Algorithm suite</td><td>1</td><td>01=AES-128, 02=AES-256, 03=SM4, 11=HMAC-SHA256, 12=CMAC-AES</td></tr>
+    <tr><td>Key slot i: Key status</td><td>1</td><td>00=active, 01=backup, 02=revoked, 03=pending activation</td></tr>
+    <tr><td>Key slot i: Update permission</td><td>1</td><td>Which controlling key role is required to update this key (e.g., master control only)</td></tr>
+    <tr><td>Key slot i: Anti-rollback counter</td><td>4</td><td>Counter checked during key update to prevent downgrade to older key material</td></tr>
+    <tr><td rowspan="4">Access Control (File-level)</td><td>Secure messaging required flag</td><td>1</td><td>Whether read/write of key references requires secure messaging (enc+mac)</td></tr>
+    <tr><td>Read access condition</td><td>1</td><td>00=never, 01=authenticated user, 02=mutual auth, 03=secure messaging only</td></tr>
+    <tr><td>Write access condition</td><td>1</td><td>00=never, 01=maintenance key, 02=master control key, 03=mutual auth + SM</td></tr>
+    <tr><td>Key exportability flag</td><td>1</td><td>00=non-exportable (only index stored), 01=wrapped export allowed, 02=plain export allowed (discouraged)</td></tr>
+  </tbody>
+</table>

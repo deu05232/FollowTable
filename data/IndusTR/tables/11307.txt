@@ -1,0 +1,20 @@
+<table>
+  <caption>Valve Thermal Conditioning Profile (A/B Alternating Temperature Cycles)</caption>
+  <thead>
+    <tr><th>Cycle</th><th>Step</th><th>Valve group</th><th>Temperature setpoint (°C)</th><th>Tolerance (°C)</th><th>Hold time (h)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">1</td><td>1</td><td>A</td><td>Valve minimum operating temperature (Tmin)</td><td>±2</td><td>24 ± 1</td></tr>
+    <tr><td>2</td><td>A</td><td>20</td><td>±5</td><td>24 ± 1</td></tr>
+    <tr><td>3</td><td>A</td><td>60</td><td>±2</td><td>24 ± 1</td></tr>
+    <tr><td rowspan="3">1</td><td>1</td><td>B</td><td>60</td><td>±2</td><td>24 ± 1</td></tr>
+    <tr><td>2</td><td>B</td><td>20</td><td>±5</td><td>24 ± 1</td></tr>
+    <tr><td>3</td><td>B</td><td>Valve minimum operating temperature (Tmin)</td><td>±2</td><td>24 ± 1</td></tr>
+    <tr><td rowspan="3">2</td><td>1</td><td>A</td><td>60</td><td>±2</td><td>12</td></tr>
+    <tr><td>2</td><td>A</td><td>20</td><td>±5</td><td>12</td></tr>
+    <tr><td>3</td><td>A</td><td>Valve minimum operating temperature (Tmin)</td><td>±2</td><td>12</td></tr>
+    <tr><td rowspan="3">2</td><td>1</td><td>B</td><td>Valve minimum operating temperature (Tmin)</td><td>±2</td><td>12</td></tr>
+    <tr><td>2</td><td>B</td><td>20</td><td>±5</td><td>12</td></tr>
+    <tr><td>3</td><td>B</td><td>60</td><td>±2</td><td>12</td></tr>
+  </tbody>
+</table>

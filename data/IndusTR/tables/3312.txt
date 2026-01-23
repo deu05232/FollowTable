@@ -1,0 +1,14 @@
+<table>
+  <caption>Test Method Setup — Dimensional Inspection Conditions for Piping Fittings</caption>
+  <thead>
+    <tr><th>Test ID</th><th>Inspection Item</th><th>Instrument</th><th>Resolution</th><th>Ambient Temp (°C)</th><th>Humidity (%)</th><th>Sampling Plan</th><th>Acceptance Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DM-01</td><td>Outside Diameter (OD)</td><td>Digital Caliper</td><td>0.01 mm</td><td>20 ± 2</td><td>45–65</td><td>AQL 1.0 / Level II</td><td>Max deviation per drawing</td></tr>
+    <tr><td>DM-02</td><td>Structural Length (L)</td><td>Vernier Caliper</td><td>0.02 mm</td><td>20 ± 2</td><td>45–65</td><td>5 pcs per batch</td><td>Cpk ≥ 1.33</td></tr>
+    <tr><td>DM-03</td><td>Thread Gauge Check</td><td>Go/No-Go Gauge</td><td>Class A</td><td>20 ± 2</td><td>45–65</td><td>100% for first article</td><td>No-go must not pass</td></tr>
+    <tr><td>DM-04</td><td>Angle Verification</td><td>Digital Protractor</td><td>0.1°</td><td>20 ± 2</td><td>45–65</td><td>3 pcs per lot</td><td>±1° tolerance</td></tr>
+    <tr><td>DM-05</td><td>Roundness</td><td>CMM</td><td>0.001 mm</td><td>20 ± 1</td><td>40–60</td><td>1 pc per 2000</td><td>Per GD&T</td></tr>
+    <tr><td>DM-06</td><td>Surface Defect Scan</td><td>Borescope</td><td>N/A</td><td>18–28</td><td>30–70</td><td>Random</td><td>No cracks allowed</td></tr>
+  </tbody>
+</table>

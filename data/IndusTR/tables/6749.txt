@@ -1,0 +1,14 @@
+<table>
+  <caption>IM Subscribe API - Request Fields (Names and Descriptions Only)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>interfaceOperation</td><td>string</td><td>Operation to perform (e.g., SUBSCRIBE, UNSUBSCRIBE).</td><td>SUBSCRIBE</td></tr>
+    <tr><td>subscriberId</td><td>string</td><td>Identifier of the subscriber initiating the request.</td><td>user_10001</td></tr>
+    <tr><td>subscribedToId</td><td>string</td><td>Identifier of the target being subscribed to.</td><td>user_20002</td></tr>
+    <tr><td>userConditions</td><td>string</td><td>Eligibility constraints for users who can use the service.</td><td>age>=18</td></tr>
+    <tr><td>requestId</td><td>string</td><td>Client-generated id for tracing and idempotency.</td><td>req-9f1c2</td></tr>
+    <tr><td>timestamp</td><td>string (ISO-8601)</td><td>Client time when the request was created.</td><td>2026-01-19T09:30:00Z</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Notification Subscription Interface Parameters (Mixed: Notification + Subscribe)</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>C..64</td><td>M</td><td>1</td><td>NOTIFY</td><td>Operation type</td></tr>
+  <tr><td>Notification Initiator ID</td><td>initiatorNotificationID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Initiator for the notification</td></tr>
+  <tr><td>Notification Recipient ID</td><td>recipientNotificationID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Recipient for the notification</td></tr>
+  <tr><td>Subscriber ID</td><td>subscriberID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>User who subscribes</td></tr>
+  <tr><td>Subscribed-to ID</td><td>subscribedToID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Target being subscribed to</td></tr>
+  <tr><td>User Conditions</td><td>userConditions</td><td>C..128</td><td>O</td><td>1</td><td></td><td>Eligibility conditions for using the service</td></tr>
+</table>

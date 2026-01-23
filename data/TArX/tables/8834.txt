@@ -1,0 +1,16 @@
+<table>
+  <caption>AMBT1 generator-parameter scan summary used in ATLAS minimum-bias tuning (by parameter ID)</caption>
+  <thead>
+    <tr><th rowspan="2">Parameter ID</th><th rowspan="2">Parameter name</th><th colspan="2">Scan range</th><th rowspan="2">Step / sampling</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Min</th><th>Max</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>82</td><td>PARP(82) (MPI pT0 reference)</td><td>1.10</td><td>3.60</td><td>LH grid</td><td>Energy-dependent in fit</td></tr>
+    <tr><td>78</td><td>PARP(78) (color reconnection strength)</td><td>0.00</td><td>0.70</td><td>uniform</td><td>Global scan</td></tr>
+    <tr><td>83</td><td>PARP(83) (matter distribution)</td><td>1.00</td><td>2.00</td><td>uniform</td><td>Global scan</td></tr>
+    <tr><td>90</td><td>PARP(90) (pT0 energy scaling)</td><td>0.15</td><td>0.35</td><td>uniform</td><td>Controls sqrt(s) dependence</td></tr>
+    <tr><td>77</td><td>PARP(77) (CR suppression)</td><td>0.20</td><td>1.00</td><td>uniform</td><td>Tuned with UE-sensitive shapes</td></tr>
+    <tr><td>89</td><td>PARP(89) (reference energy)</td><td>1000</td><td>2500</td><td>fixed set</td><td>Used with PARP(90)</td></tr>
+    <tr><td colspan="6">Hierarchy:MPI-related (82,90,89) → CR-related (78,77) → Matter profile (83)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting Machine Data Dictionary — Pattern / Fabric File Metadata Register Map</caption>
+  <thead>
+    <tr><th>Index</th><th>Field Name</th><th>English Name</th><th>Access</th><th>Value Type</th><th>Max Length</th><th>Description</th><th>Example</th><th>Coded Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0200</td><td>Pattern Variety Name</td><td>PatternName</td><td>RO</td><td>String</td><td>64</td><td>Name of the currently selected pattern/variety.</td><td>"Rib_2x2"</td><td></td></tr>
+    <tr><td>0x0201</td><td>Pattern File Number</td><td>FileNumber</td><td>RO</td><td>Int32</td><td></td><td>Numeric identifier of the pattern file in storage.</td><td>1042</td><td></td></tr>
+    <tr><td>0x0202</td><td>Pattern File Name</td><td>FileName</td><td>RO</td><td>String</td><td>128</td><td>File name of the loaded pattern program.</td><td>"P1042.JAQ"</td><td></td></tr>
+    <tr><td>0x0203</td><td>Pattern Revision</td><td>PatternRevision</td><td>RO</td><td>String</td><td>16</td><td>Revision tag stored in the pattern header.</td><td>"v3.7"</td><td></td></tr>
+    <tr><td>0x0204</td><td>Fabric Article Code</td><td>FabricArticleCode</td><td>RO</td><td>String</td><td>32</td><td>Customer/article identifier linked to the pattern.</td><td>"A-7781"</td><td></td></tr>
+    <tr><td>0x0205</td><td>Stitch Library Name</td><td>StitchLibrary</td><td>RO</td><td>String</td><td>64</td><td>Library used by the pattern to reference stitches/loops.</td><td>"LIB_STD"</td><td></td></tr>
+    <tr><td>0x0206</td><td>Pattern Checksum</td><td>PatternCRC</td><td>RO</td><td>UInt32</td><td></td><td>CRC/checksum of pattern content for integrity checks.</td><td>3891219940</td><td></td></tr>
+  </tbody>
+</table>

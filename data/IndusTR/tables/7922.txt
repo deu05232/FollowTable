@@ -1,0 +1,7 @@
+<table>
+  <caption>Positioning interfaces and return types</caption>
+  <tr><th>Interface Description</th><th>Interface Name</th><th>Return/Output Types</th></tr>
+  <tr><td>Get device pose</td><td>bool vrDeviceGetPositionableDeviceMotionPose(...)</td><td>vrPose, vrMotionData</td></tr>
+  <tr><td>Get device type</td><td>bool vrDeviceGetPositionableDeviceType(...)</td><td>vrPositionableDeviceType</td></tr>
+  <tr><td>Get system status</td><td>bool vrHmdGetPositioningSystemStatus(...)</td><td>vrHMDPositioningSystemWorkingStatus</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Backend Platform Operations Tests for Logistics M2M (Non-terminal Scenarios)</caption>
+  <thead>
+    <tr><th>Category</th><th>Test Case ID</th><th>Test Item</th><th>Test Sub-item</th><th>Precondition</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Data Governance</td><td>6.1.2.5-A</td><td>Logistics M2M Application Platform Management</td><td>Data Retention Policy Maintenance</td><td>Operator has console access</td><td>Retention rules saved and applied to historical records</td></tr>
+    <tr><td>6.1.2.5-B</td><td>Logistics M2M Application Platform Management</td><td>Data Export Management</td><td>Report templates exist</td><td>Exports generated with correct filters and audit trail</td></tr>
+    <tr><td>6.1.2.5-C</td><td>Logistics M2M Application Platform Management</td><td>Audit Log Review</td><td>Audit logging enabled</td><td>Admin can search audit logs and download evidence</td></tr>
+    <tr><td rowspan="3">Service Reliability</td><td>6.1.2.6-A</td><td>Logistics M2M Application Platform Management</td><td>Integration Circuit Breaker Handling</td><td>Third-party endpoint unstable</td><td>Circuit breaker opens/closes per policy and alerts are raised</td></tr>
+    <tr><td>6.1.2.6-B</td><td>Logistics M2M Application Platform Management</td><td>Message Queue Backlog Handling</td><td>MQ has simulated backlog</td><td>Platform drains backlog and reports lag metrics in console</td></tr>
+    <tr><td>6.1.2.6-C</td><td>Logistics M2M Application Platform Management</td><td>Service Configuration Rollback</td><td>New config deployed</td><td>Rollback restores prior configuration without data loss</td></tr>
+  </tbody>
+</table>

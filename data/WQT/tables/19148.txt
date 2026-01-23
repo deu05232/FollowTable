@@ -1,0 +1,13 @@
+# Exchange Server Hybrid Deployment with Microsoft 365 (Office 365)  Capability Changes Before vs After
+
+| Category | Feature/Behavior | Before hybrid deployment (on-prem only) | After hybrid deployment (hybrid with Microsoft 365) |
+|---|---|---|---|
+| Sharing & collaboration | Calendar free/busy visibility | Availability information is only available within the on-prem Exchange org. | Availability can be queried across on-prem and cloud mailboxes (cross-premises free/busy). |
+| Sharing & collaboration | Mailbox move experience | Moving a mailbox typically requires third-party migration tools or export/import, with user disruption. | Admins can perform cross-premises mailbox moves using Exchange hybrid move endpoints (remote moves). |
+| Mail flow | Internet mail routing | All outbound/inbound mail routes via on-prem public IPs and on-prem connectors/gateways. | Mail flow can be routed via Exchange Online Protection (EOP) and hybrid connectors; route can be centralized or split. |
+| Mail flow | Internal message delivery between users | All internal messages are delivered and resolved only within the on-prem organization. | Messages are delivered seamlessly between on-prem and cloud recipients using trusted connectors and unified addressing. |
+| Client access | Outlook profile and Autodiscover behavior | Autodiscover points users only to on-prem endpoints; profile stays on-prem even after mailbox changes. | Autodiscover can direct users to on-prem or cloud endpoints; profiles update appropriately when mailbox is moved. |
+| Identity & sign-in | User authentication model | Users authenticate only against on-prem AD; no cloud sign-in dependency for mail. | Users commonly authenticate via synced identities (Azure AD Connect) and may use ADFS or cloud auth for Microsoft 365 services. |
+| Admin & compliance | Unified management scope | Exchange Admin Center/PowerShell manage only on-prem mailboxes and settings. | Admins manage a mixed environment (on-prem + Exchange Online) with coordinated settings and hybrid configuration wizard artifacts. |
+| Address book | Global Address List (GAL) consistency | The GAL is limited to on-prem objects unless manually synchronized/exported. | Directory synchronization enables a consistent address list across on-prem and cloud (mail users, contacts, groups). |
+| Messaging features | Cross-premises delegation | Delegation and shared mailbox access generally works only within the on-prem boundary. | Delegation and shared access can work across premises with supported hybrid scenarios (subject to feature constraints). |

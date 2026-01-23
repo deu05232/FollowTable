@@ -1,0 +1,16 @@
+<table>
+  <caption>Waste-Type CO2 Emissions Accounting for MSW Incineration (Biogenic vs Fossil Carbon)</caption>
+  <thead>
+    <tr><th rowspan="2">Waste Type</th><th colspan="3">Composition / Carbon Inputs</th><th colspan="2">Oxidation & Efficiency</th><th rowspan="2">Waste-Type Incineration CO2 (tCO2/yr) Expression</th></tr>
+    <tr><th>Wet Mass (t/yr)</th><th>Dry Matter Fraction</th><th>Fossil Carbon Fraction of Dry Matter</th><th>Oxidation Factor</th><th>Combustion Efficiency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Plastics</td><td></td><td>0.95</td><td>0.75</td><td>1.00</td><td>0.99</td><td>PEj,CO2 = Massj × DryFrac × FossilCFrac × Oxid × Eff × 44/12</td></tr>
+    <tr><td>Synthetic Textiles</td><td></td><td>0.85</td><td>0.50</td><td>1.00</td><td>0.99</td><td>PEj,CO2 = Massj × DryFrac × FossilCFrac × Oxid × Eff × 44/12</td></tr>
+    <tr><td>Paper / Cardboard</td><td></td><td>0.90</td><td>0.05</td><td>1.00</td><td>0.99</td><td>PEj,CO2 = Massj × DryFrac × FossilCFrac × Oxid × Eff × 44/12</td></tr>
+    <tr><td>Wood</td><td></td><td>0.85</td><td>0.02</td><td>1.00</td><td>0.99</td><td>PEj,CO2 = Massj × DryFrac × FossilCFrac × Oxid × Eff × 44/12</td></tr>
+    <tr><td>Food Waste</td><td></td><td>0.30</td><td>0.00</td><td>1.00</td><td>0.99</td><td>PEj,CO2 = Massj × DryFrac × FossilCFrac × Oxid × Eff × 44/12</td></tr>
+    <tr><td>Rubber / Leather</td><td></td><td>0.75</td><td>0.20</td><td>1.00</td><td>0.99</td><td>PEj,CO2 = Massj × DryFrac × FossilCFrac × Oxid × Eff × 44/12</td></tr>
+    <tr><td>Composites / Mixed Residuals</td><td></td><td>0.70</td><td>0.30</td><td>1.00</td><td>0.99</td><td>PEj,CO2 = Massj × DryFrac × FossilCFrac × Oxid × Eff × 44/12</td></tr>
+  </tbody>
+</table>

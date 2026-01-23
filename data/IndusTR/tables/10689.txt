@@ -1,0 +1,14 @@
+<table>
+  <caption>Open API Authentication Parameters for Device-Bound Endpoints (Token + Device Identity)</caption>
+  <thead>
+    <tr><th>Endpoint / API Name</th><th>Method</th><th>Access Token Required</th><th>Device Identifier Required</th><th>Device Credential Required</th><th>Where to Send</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Device Security Authentication</td><td>POST</td><td>access_token</td><td>devID</td><td>devSign (device certificate/signature)</td><td>Body (JSON)</td><td>Used to prove device identity; requires both device ID and device credential.</td></tr>
+    <tr><td>Device Query</td><td>GET</td><td>access_token</td><td>devID</td><td>(optional) nonce + signature</td><td>Query string</td><td>When device data is privacy-sensitive, signature may be enforced by policy.</td></tr>
+    <tr><td>Device Telemetry Upload</td><td>POST</td><td>access_token</td><td>devID</td><td>devSign (HMAC/RSA signature)</td><td>Header + Body</td><td>Signature is calculated over timestamp + payload hash.</td></tr>
+    <tr><td>Device Command Acknowledge</td><td>POST</td><td>access_token</td><td>devID</td><td>devSign</td><td>Body (JSON)</td><td>Confirms command execution is coming from the bound device.</td></tr>
+    <tr><td>Device Firmware Update Check</td><td>GET</td><td>access_token</td><td>devID</td><td>devCert (certificate fingerprint) OR devSign</td><td>Query string</td><td>Provides firmware eligibility; device credential prevents spoofing.</td></tr>
+    <tr><td>Device Session Refresh</td><td>POST</td><td>access_token</td><td>devID</td><td>devSign + timestamp</td><td>Body (JSON)</td><td>Rotates session keys; timestamp prevents replay attacks.</td></tr>
+  </tbody>
+</table>

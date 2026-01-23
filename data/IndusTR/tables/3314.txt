@@ -1,0 +1,11 @@
+<table>
+  <caption>Test Method Setup — No-Load and Load Loss Measurement Conditions (Laboratory Checklist)</caption>
+  <tr><th>Test Item</th><th>Requirement</th><th>Typical Setting</th><th>Unit</th><th>Reference Instrument</th><th>Notes</th></tr>
+  <tr><td>Ambient temperature</td><td>Stabilized</td><td>20 ± 5</td><td>°C</td><td>Calibrated thermometer</td><td>Record every 15 min</td></tr>
+  <tr><td>Supply frequency</td><td>Nominal</td><td>50</td><td>Hz</td><td>Frequency counter</td><td>Maintain within ±0.1 Hz</td></tr>
+  <tr><td>Voltage waveform</td><td>Low distortion</td><td>THD < 3</td><td>%</td><td>Power quality analyzer</td><td>Filter if needed</td></tr>
+  <tr><td>Measurement uncertainty</td><td>Declared</td><td>≤ 0.5</td><td>%</td><td>Wattmeter class 0.2</td><td>Include CT/PT errors</td></tr>
+  <tr><td>Temperature correction</td><td>Apply to load loss</td><td>To 75</td><td>°C</td><td>Resistance bridge</td><td>Use winding resistance</td></tr>
+  <tr><td>Cooling condition</td><td>As specified</td><td>ONAN/ONAF</td><td>-</td><td>Fan status indicator</td><td>Record fan operation</td></tr>
+  <tr><td>Short-circuit test</td><td>Safety interlock</td><td>Enabled</td><td>-</td><td>Interlock panel</td><td>Trip threshold verified</td></tr>
+</table>

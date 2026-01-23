@@ -1,0 +1,17 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Frequency Accuracy, Spurious Emissions, and Timing Requirements</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Unit</th><th>Test Scenario / Conditions</th><th>Limit / Allowable Range</th><th>Applicable Frequency Range / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Carrier frequency error</td><td>Hz</td><td>Normal environment; rated supply</td><td>-500 to +500</td><td>Measured on assigned channel at steady state</td></tr>
+    <tr><td>Carrier frequency error</td><td>Hz</td><td>Extreme temperature</td><td>-800 to +800</td><td>-20 °C to +55 °C after stabilization</td></tr>
+    <tr><td>Carrier frequency drift during a burst</td><td>Hz</td><td>Normal environment; within one transmission burst</td><td>≤ 200 (peak-to-peak)</td><td>Evaluated over the burst duration</td></tr>
+    <tr><td>Adjacent channel power (ACP)</td><td>dBc</td><td>Normal environment; nominal power</td><td>≤ -60</td><td>Measured at ±25 kHz offset using specified RBW</td></tr>
+    <tr><td>Spurious emissions (conducted, in-band exclusion applied)</td><td>dBm</td><td>Normal environment; transmitter on</td><td>≤ -36</td><td>30 MHz to 1 GHz; measured at RF port</td></tr>
+    <tr><td>Spurious emissions (conducted, above 1 GHz)</td><td>dBm</td><td>Normal environment; transmitter on</td><td>≤ -30</td><td>1 GHz to 4 GHz</td></tr>
+    <tr><td>Harmonic emissions (2nd and 3rd)</td><td>dBc</td><td>Normal environment; nominal power</td><td>≤ -60</td><td>Relative to carrier power</td></tr>
+    <tr><td>Transmission duration (single burst)</td><td>ms</td><td>Normal environment; any message burst</td><td>≤ 108</td><td>Duration from ramp-up start to ramp-down end</td></tr>
+    <tr><td>Tx duty cycle (average)</td><td>%</td><td>Worst-case access pattern; 1-minute observation window</td><td>≤ 5</td><td>For autonomous operation mode</td></tr>
+  </tbody>
+</table>

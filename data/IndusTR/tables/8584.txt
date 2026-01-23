@@ -1,0 +1,20 @@
+<table>
+  <caption>Public Security Video/Image Information Data Items — Video Segment & Key Frame Metadata Fields</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Item Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Video Segment Identifier</td><td>sppdbz</td><td>c41</td><td>Unique identifier for a video segment; should comply with the coding rules specified in Annex C.2</td><td></td></tr>
+    <tr><td>2</td><td>Associated Camera Identifier</td><td>sxjbz</td><td>c20</td><td>Camera code associated with the segment; coding may follow GB/T 28181</td><td></td></tr>
+    <tr><td>3</td><td>Video Segment Start Date/Time</td><td>sppdks_rqsj</td><td>d18</td><td>Start timestamp of the segment</td><td></td></tr>
+    <tr><td>4</td><td>Video Segment End Date/Time</td><td>sppdjs_rqsj</td><td>d18</td><td>End timestamp of the segment</td><td></td></tr>
+    <tr><td>5</td><td>Segment Duration</td><td>sppdsc</td><td>n..10</td><td>Duration in milliseconds</td><td></td></tr>
+    <tr><td>6</td><td>Video Encoding Format</td><td>sppdbmgs</td><td>c..20</td><td>Video codec/encoding (e.g., H.264/H.265)</td><td></td></tr>
+    <tr><td>7</td><td>Frame Rate</td><td>zpl</td><td>n..6</td><td>Frames per second</td><td></td></tr>
+    <tr><td>8</td><td>Resolution</td><td>fbl</td><td>c..20</td><td>Resolution in the form of width×height</td><td></td></tr>
+    <tr><td>9</td><td>Key Frame Identifier</td><td>gjzpbz</td><td>c48</td><td>Identifier of a key frame extracted from the segment</td><td></td></tr>
+    <tr><td>10</td><td>Key Frame Timestamp</td><td>gjzp_rqsj</td><td>d18</td><td>Timestamp corresponding to the key frame</td><td></td></tr>
+    <tr><td>11</td><td>Key Frame File URI</td><td>gjzpwjdz</td><td>c..512</td><td>Storage/transfer address (URI/URL) of the key frame image</td><td></td></tr>
+    <tr><td>12</td><td>Segment File URI</td><td>sppdwjdz</td><td>c..512</td><td>Storage/transfer address (URI/URL) of the segment file</td><td></td></tr>
+  </tbody>
+</table>

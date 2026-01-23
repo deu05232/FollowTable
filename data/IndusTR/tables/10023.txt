@@ -1,0 +1,15 @@
+<table>
+  <caption>End-of-Charge Summary (Termination Item is Minor Among Cell Measurements)</caption>
+  <thead>
+    <tr><th>Start Byte</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1 byte</td><td>SPN 3601</td><td>State of Charge (%) at termination</td><td>Mandatory</td></tr>
+    <tr><td>2</td><td>2 bytes</td><td>SPN 3602</td><td>Minimum cell voltage (V)</td><td>Mandatory</td></tr>
+    <tr><td>4</td><td>2 bytes</td><td>SPN 3603</td><td>Maximum cell voltage (V)</td><td>Mandatory</td></tr>
+    <tr><td>6</td><td>2 bytes</td><td>SPN 3101</td><td>Cell #1 voltage</td><td>Optional</td></tr>
+    <tr><td>8</td><td>2 bytes</td><td>SPN 3102</td><td>Cell #2 voltage</td><td>Optional</td></tr>
+    <tr><td>10</td><td>2 bytes</td><td>SPN 3103</td><td>Cell #3 voltage</td><td>Optional</td></tr>
+    <tr><td>12</td><td>1 byte</td><td>SPN 3521</td><td>Charging termination reason</td><td>Optional</td></tr>
+  </tbody>
+</table>

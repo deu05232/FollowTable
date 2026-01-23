@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Component Hash Data Signature Verification Interface Definition</caption>
+  <tr><td>Prototype</td><td>boolean SOF_verifySignedHashData(java.lang.String base64Cert, java.lang.String base64HashData,java.lang.String signValue,long hashAlg)</td></tr>
+  <tr><td>Description</td><td>Hash data signature verification. The signature value is Base64-encoded data type A. If the SM2 algorithm is used to verify the signature, the base64HashData parameter is the digest value of the SM3 algorithm and shall be calculated according to the preprocessing procedure specified in GB/T 35276</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>base64Cert(Base64-encoded signer's certificate）</td></tr>
+  <tr><td>base64HashData(Base64-encoded digest value)</td></tr>
+  <tr><td>signValue(Base64-encoded signature value)</td></tr>
+  <tr><td>hashAlg(Hash algorithm, shall comply with GB/T 33560)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>true(Success)</td></tr>
+  <tr><td>false(Failure, error code defined in Table A.1 can be obtained via SOF_getLastError)</td></tr>
+</table>

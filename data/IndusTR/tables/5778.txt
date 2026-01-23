@@ -1,0 +1,14 @@
+<table>
+  <caption>Aquatic Ecological Health Assessment Index Components: Background, Definitions, and Interpretation Notes</caption>
+  <thead>
+    <tr><th>Component</th><th>Indicator</th><th>Definition / Background</th><th>Typical Data Source</th><th>Interpretation Notes</th><th>Common Management / Restoration Actions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hydrology</td><td>Lake Inflow Variability Index</td><td>Describes inter-annual fluctuation of lake inflow relative to a baseline period; reflects regulation and climate variability.</td><td>Hydrometric stations; modelled inflow series</td><td>Higher values often imply stronger alteration; local context (dams, diversions) can dominate signal.</td><td>Adjust reservoir operation rules; reduce diversion peaks; implement environmental flow releases.</td></tr>
+    <tr><td>Connectivity</td><td>River Longitudinal Connectivity Index</td><td>Proxy for fragmentation by in-channel barriers; may be expressed as barrier density per 100 km.</td><td>Barrier inventory; remote sensing; field survey</td><td>Consider passability and seasonal operation; not all barriers equally impactful.</td><td>Remove obsolete barriers; build fish passages; retrofit culverts.</td></tr>
+    <tr><td>Water Quality</td><td>Pollutant Index</td><td>Composite pressure index summarizing exceedance of key pollutants (e.g., nutrients, organics, toxicants).</td><td>Routine water quality monitoring</td><td>May be biased by sampling frequency; pollutant selection changes comparability.</td><td>Source control; wastewater upgrades; agricultural BMPs.</td></tr>
+    <tr><td>Habitat</td><td>Habitat Disturbance Index</td><td>Integrated measure of shoreline hardening, dredging, land-use pressure, and riparian degradation.</td><td>Land-use maps; shoreline survey</td><td>High disturbance can mask biological recovery even when water quality improves.</td><td>Riparian buffers; shoreline naturalization; limit dredging.</td></tr>
+    <tr><td>Biota</td><td>Macrophyte Index</td><td>Percentage-based macrophyte condition/coverage metric used to reflect littoral habitat quality.</td><td>Transect surveys; drone imagery</td><td>Strongly seasonal; invasive species can inflate coverage without improving health.</td><td>Invasive control; habitat enhancement; reduce turbidity.</td></tr>
+    <tr><td>Eutrophication</td><td>Trophic State Index</td><td>Scaled index summarizing nutrient enrichment and algal biomass (e.g., Chl-a, TP, SD).</td><td>Water chemistry + Secchi depth</td><td>Short-term blooms may overstate long-term state; stratification matters.</td><td>Nutrient load reduction; internal load management; aeration where appropriate.</td></tr>
+  </tbody>
+</table>

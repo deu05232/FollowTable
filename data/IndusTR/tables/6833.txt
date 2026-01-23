@@ -1,0 +1,20 @@
+<table>
+  <caption>Charging Communication CAN Message List with Byte-Level Field Breakdown (Includes Signal Definitions)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Message Code</th><th>Message Name</th><th>PGN (Hex)</th><th>Priority</th><th>DLC</th><th>Byte</th><th>Field / SPN</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Handshake</td><td rowspan="2">CHM</td><td rowspan="2">Charger Handshake Message</td><td rowspan="2">002600H</td><td rowspan="2">6</td><td rowspan="2">3</td><td>1-3</td><td>SPN 2600</td><td>Protocol version bytes</td></tr>
+    <tr><td>Reserved</td><td>SPN 2601</td><td>Reserved for future use</td></tr>
+    <tr><td rowspan="2">Handshake</td><td rowspan="2">BHM</td><td rowspan="2">Vehicle Handshake Message</td><td rowspan="2">002700H</td><td rowspan="2">6</td><td rowspan="2">2</td><td>1</td><td>SPN 2602</td><td>Vehicle handshake status</td></tr>
+    <tr><td>2</td><td>SPN 2603</td><td>Vehicle capability flags</td></tr>
+    <tr><td rowspan="2">Parameter</td><td rowspan="2">BCP</td><td rowspan="2">Vehicle Charging Parameter Message</td><td rowspan="2">000600H</td><td rowspan="2">7</td><td rowspan="2">13</td><td>1-2</td><td>SPN 2816</td><td>Max cell charging voltage</td></tr>
+    <tr><td>3-4</td><td>SPN 2817</td><td>Max allowable charging current</td></tr>
+    <tr><td rowspan="2">Status</td><td rowspan="2">BCS</td><td rowspan="2">Overall Battery Charging Status Message</td><td rowspan="2">001100H</td><td rowspan="2">7</td><td rowspan="2">9</td><td>1</td><td>SPN 3001</td><td>Charge state</td></tr>
+    <tr><td>2</td><td>SPN 3002</td><td>Fault summary</td></tr>
+    <tr><td rowspan="2">Status</td><td rowspan="2">CCS</td><td rowspan="2">Charger Charging Status Message</td><td rowspan="2">001200H</td><td rowspan="2">6</td><td rowspan="2">7</td><td>1</td><td>SPN 3010</td><td>Charger enable state</td></tr>
+    <tr><td>2</td><td>SPN 3011</td><td>Output power status</td></tr>
+    <tr><td rowspan="2">Error</td><td rowspan="2">CEM</td><td rowspan="2">Charger Error Message</td><td rowspan="2">001F00H</td><td rowspan="2">2</td><td rowspan="2">4</td><td>1-2</td><td>SPN 3200</td><td>Error category</td></tr>
+    <tr><td>3-4</td><td>SPN 3201</td><td>Error detail code</td></tr>
+  </tbody>
+</table>

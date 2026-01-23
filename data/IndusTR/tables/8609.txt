@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Camera Configuration List Retrieval Function Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">session</td><td rowspan="2">ArSession *</td><td rowspan="2">in</td><td>Active AR session used to query supported camera configurations.</td></tr>
+    <tr><td colspan="3">Notes:Must be a valid session created by the runtime.</td></tr>
+    <tr><td rowspan="2">camera_config_filter</td><td rowspan="2">const ArCameraConfigFilter *</td><td rowspan="2">in</td><td>Filter object describing desired camera config constraints (e.g., target FPS, depth, facing).</td></tr>
+    <tr><td colspan="3">Notes:May be NULL to indicate no filtering.</td></tr>
+    <tr><td rowspan="2">out_camera_config_list</td><td rowspan="2">ArCameraConfigList **</td><td rowspan="2">out</td><td>Receives the address of a newly created camera config list object.</td></tr>
+    <tr><td colspan="3">Allocation:Callee allocates; caller must later destroy the list with the appropriate API call.</td></tr>
+    <tr><td rowspan="2">out_count</td><td rowspan="2">int32_t *</td><td rowspan="2">out</td><td>Receives the number of configurations stored in the returned list.</td></tr>
+    <tr><td colspan="3">Notes:Written only on success.</td></tr>
+    <tr><td rowspan="2">out_status</td><td rowspan="2">ArStatus *</td><td rowspan="2">out</td><td>Receives a status code indicating success/failure.</td></tr>
+    <tr><td colspan="3">Notes:Useful for distinguishing invalid session vs. unsupported features.</td></tr>
+  </tbody>
+</table>

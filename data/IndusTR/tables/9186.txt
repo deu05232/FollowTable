@@ -1,0 +1,17 @@
+<table>
+  <caption>Common Service Description Model (CSDM) — ServiceInterface & Message Element Definitions</caption>
+  <thead>
+    <tr><th>Element (English Name)</th><th>Type / Format</th><th>Mandatory</th><th>Max Occurrences</th><th>Allowed Values / Domain</th><th>Short Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>interfaceId</td><td>String (1..64)</td><td>No</td><td>1</td><td>UUID or provider-defined</td><td>Stable identifier of an interface for reference and versioning.</td></tr>
+    <tr><td>interfaceName</td><td>String (1..128)</td><td>Yes</td><td>1</td><td>Free text</td><td>Human-readable name of the service interface.</td></tr>
+    <tr><td>protocol</td><td>Enum</td><td>Yes</td><td>1</td><td>HTTP | HTTPS | SOAP | MQ</td><td>Protocol used to access the interface.</td></tr>
+    <tr><td>endpointUrl</td><td>URI</td><td>No</td><td>1</td><td>RFC 3986 URI</td><td>Network address for invoking the interface (if applicable).</td></tr>
+    <tr><td>operationName</td><td>String (1..128)</td><td>Yes</td><td>N</td><td>Free text</td><td>Name of an operation under the interface (repeatable).</td></tr>
+    <tr><td>operationSupportTransaction</td><td>Boolean</td><td>Yes</td><td>N</td><td>true | false</td><td>Indicates whether the corresponding operation supports transactions; occurrence count should align with operationName.</td></tr>
+    <tr><td>messageName</td><td>String (1..128)</td><td>Yes</td><td>1</td><td>Free text</td><td>Name of the message associated with an operation (e.g., request/response).</td></tr>
+    <tr><td>parameterName</td><td>String (1..128)</td><td>No</td><td>N</td><td>Free text</td><td>Name of a message parameter (repeatable).</td></tr>
+    <tr><td>parameterType</td><td>String (1..128)</td><td>Conditional</td><td>N</td><td>Primitive or structured type name</td><td>Type of the parameter; required when parameterName is present and should align by position/count.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Charger Timeout Status Parameters for Receiving Vehicle Messages</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1.1</td><td>2 bits</td><td>3921</td><td>Timeout for receiving Vehicle Identification Message (BRM) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>2.1</td><td>2 bits</td><td>3922</td><td>Timeout for receiving Vehicle Charging Parameters Message (BCP) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>2.3</td><td>2 bits</td><td>3923</td><td>Timeout for receiving Vehicle Charge-Ready Status Message (BRO) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>3.1</td><td>2 bits</td><td>3924</td><td>Timeout for receiving Battery Overall Charging Status Message (BCS) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>3.3</td><td>2 bits</td><td>3925</td><td>Timeout for receiving Battery Charging Demand Message (BCL) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>3.5</td><td>2 bits</td><td>3926</td><td>Timeout for receiving Vehicle Charging Termination Message (BST) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>4.1</td><td>2 bits</td><td>3927</td><td>Timeout for receiving Vehicle Statistics Data Message (BSD) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>4.3</td><td>2 bits</td><td>3928</td><td>Timeout for receiving Vehicle Status Information Message (BSM) (<00>: normal; <01>: timeout; <10>: untrusted state)</td><td>Mandatory</td></tr>
+  <tr><td>4.5</td><td>4 bits</td><td>3930</td><td>Reserved bits</td><td>Optional</td></tr>
+</table>

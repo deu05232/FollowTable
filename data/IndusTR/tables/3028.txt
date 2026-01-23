@@ -1,0 +1,14 @@
+<table>
+  <caption>Production Equipment Settings for Ladder Assembly Line (Process Parameters)</caption>
+  <thead>
+    <tr><th>Workstation</th><th>Equipment</th><th>Key Setting</th><th>Target Value</th><th>Control Method</th><th>Calibration Frequency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WS-01</td><td>Rail Cutting Saw</td><td>Blade speed</td><td>3,200 rpm</td><td>PLC</td><td>Monthly</td></tr>
+    <tr><td>WS-02</td><td>Rung Punch Press</td><td>Punch force</td><td>18 kN</td><td>Load cell feedback</td><td>Quarterly</td></tr>
+    <tr><td>WS-03</td><td>Rivet Station</td><td>Rivet set force</td><td>6.5 kN</td><td>Force-displacement curve</td><td>Weekly</td></tr>
+    <tr><td>WS-04</td><td>Adhesive Dispenser</td><td>Dispense volume</td><td>0.8 ml/joint</td><td>Gravimetric check</td><td>Weekly</td></tr>
+    <tr><td>WS-05</td><td>Anodizing Line</td><td>Film thickness</td><td>12–15 μm</td><td>Eddy current gauge</td><td>Daily</td></tr>
+    <tr><td>WS-06</td><td>Final Packing</td><td>Carton compression</td><td>≥ 4.0 kN</td><td>Sampling test</td><td>Per batch</td></tr>
+  </tbody>
+</table>

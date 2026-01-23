@@ -1,0 +1,8 @@
+<table>
+  <caption>Deliverable Service BOM relationship mapping (example attributes)</caption>
+  <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  <tr><td>1</td><td>Service Assembly Identifier</td><td>Identifier of the higher-level serviced assembly used as the breakdown starting point</td></tr>
+  <tr><td>2</td><td>Sub-Item Identifier</td><td>Identifier of the lower-level item associated with the higher-level assembly</td></tr>
+  <tr><td>3</td><td>Relationship Quantity</td><td>Number of sub-items associated with the higher-level assembly in the deliverable service structure</td></tr>
+  <tr><td>4</td><td>Relationship Type</td><td>Semantic of the linkage, such as direct component, replaceable unit, or kit member</td></tr>
+</table>

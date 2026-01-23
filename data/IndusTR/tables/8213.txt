@@ -1,0 +1,16 @@
+<table>
+  <caption>AR HitResult Handle Allocation and Copy Operations (Object creation oriented)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResult_create</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session used to allocate a hit result object</td></tr>
+    <tr><td>ArHitResult_create</td><td>out_hit_result</td><td>ArHitResult **</td><td>out</td><td>Receives address of the newly created hit result handle</td></tr>
+    <tr><td>ArHitResult_destroy</td><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Releases the hit result handle</td></tr>
+    <tr><td>ArHitResult_copy</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle</td></tr>
+    <tr><td>ArHitResult_copy</td><td>src_hit_result</td><td>ArHitResult *</td><td>in</td><td>Source hit result to copy from</td></tr>
+    <tr><td>ArHitResult_copy</td><td>dst_hit_result</td><td>ArHitResult *</td><td>in</td><td>Destination hit result handle to copy into</td></tr>
+    <tr><td>ArHitResult_isValid</td><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Checks whether the handle is valid (does not reveal hit distance/pose)</td></tr>
+    <tr><td>ArHitResult_isValid</td><td>out_is_valid</td><td>int32_t *</td><td>out</td><td>1 if valid, 0 otherwise</td></tr>
+  </tbody>
+</table>

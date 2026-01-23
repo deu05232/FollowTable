@@ -1,0 +1,14 @@
+<table>
+  <caption>Ironing Appliance Grade Matrix: Steam Attenuation vs. Non-Steam Performance</caption>
+  <thead>
+    <tr><th>Indicator Group</th><th>Indicator</th><th>Unit</th><th>Grade AAAAA</th><th>Grade AAAA</th><th>Grade AAA</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Steam Attenuation</td><td>Steam output attenuation ratio (Wd)</td><td>%</td><td>Wd ≤ 10</td><td>10 < Wd ≤ 20</td><td>Wd > 20</td></tr>
+    <tr><td>Evaporation rate attenuation ratio (Rd)</td><td>%</td><td>Rd ≤ 15</td><td>15 < Rd ≤ 30</td><td>30 < Rd ≤ 40</td></tr>
+    <tr><td rowspan="2">Thermal Control</td><td>Temperature control stability (S)</td><td>%</td><td>S ≤ 3</td><td>3 < S ≤ 6</td><td>6 < S ≤ 10</td></tr>
+    <tr><td>Warm-up time to setpoint (Tw)</td><td>s</td><td>Tw ≤ 40</td><td>40 < Tw ≤ 70</td><td>Tw > 70</td></tr>
+    <tr><td rowspan="2">Soleplate</td><td>Soleplate scratch resistance (Rsp)</td><td>mm</td><td>Rsp ≤ 0.15</td><td>0.15 < Rsp ≤ 0.30</td><td>Rsp > 0.30</td></tr>
+    <tr><td>Soleplate smoothness (Ssp)</td><td>N</td><td>Ssp ≤ 2.0</td><td>2.0 < Ssp ≤ 2.5</td><td>Ssp > 2.5</td></tr>
+  </tbody>
+</table>

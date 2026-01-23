@@ -1,0 +1,11 @@
+# Browser Families Combined  Platform Support Overview
+
+| Browser group (single cell) | Desktop OS support | Mobile OS support | Rendering engines commonly used | Notes |
+| --- | --- | --- | --- | --- |
+| Chromium-based (Chrome, Edge, Opera, Brave, Vivaldi) | Windows, macOS, Linux | Android (varies), iOS (WebKit wrapper) | Blink | Grouped because they share a codebase |
+| Firefox family (Firefox, Waterfox, LibreWolf) | Windows, macOS, Linux | Android, iOS (WebKit wrapper) | Gecko | Privacy-focused forks included |
+| WebKit browsers (Safari, GNOME Web, Orion) | macOS (varies), Linux (varies) | iOS/iPadOS | WebKit | Apple platform emphasis |
+| Legacy/Trident (Internet Explorer, older EdgeHTML builds) | Windows | null | Trident/EdgeHTML | Mostly discontinued |
+| Niche/lightweight (Midori, Falkon, K-Meleon) | Windows (some), Linux (some) | Limited/none | Mixed | Availability differs by distro |
+| Embedded/console (Silk, PlayStation Browser, Oculus Browser) | Limited | Limited | Mixed | Device-specific |
+| Regional bundles (UC Browser, QQ Browser, Baidu Browser) | Windows (some), macOS (some) | Android/iOS | Mixed | Often bundled with services |

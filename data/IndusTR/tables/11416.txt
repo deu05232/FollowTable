@@ -1,0 +1,15 @@
+<table>
+  <caption>Overload withstand test electrical conditions for starters by rated operational current (timing omitted)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current range (A)</th><th rowspan="2">Test current definition</th><th rowspan="2">Maximum test current (A)</th><th colspan="2">Supply conditions</th><th rowspan="2">Permitted temperature rise (K)</th><th rowspan="2">Measurement points</th></tr>
+    <tr><th>U/ Ue</th><th>Frequency (Hz)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1–32</td><td>8 × Ie</td><td>256</td><td>1.00</td><td>50/60</td><td>55</td><td>Terminals, coil, contacts</td></tr>
+    <tr><td>>32–63</td><td>8 × Ie</td><td>504</td><td>1.00</td><td>50/60</td><td>55</td><td>Terminals, coil, contacts</td></tr>
+    <tr><td>>63–100</td><td>8 × Ie</td><td>800</td><td>1.00</td><td>50/60</td><td>55</td><td>Terminals, busbars</td></tr>
+    <tr><td>>100–250</td><td>6 × Ie</td><td>1500</td><td>1.00</td><td>50/60</td><td>50</td><td>Main path, terminals</td></tr>
+    <tr><td>>250–630</td><td>6 × Ie</td><td>3780</td><td>1.00</td><td>50/60</td><td>50</td><td>Main path, terminals</td></tr>
+    <tr><td>>630–800</td><td>6 × Ie (min 5040 A)</td><td>5040</td><td>1.00</td><td>50/60</td><td>45</td><td>Main path, terminals</td></tr>
+  </tbody>
+</table>

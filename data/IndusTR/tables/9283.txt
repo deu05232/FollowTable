@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Swap Failure Codes and Human-Readable Explanations</caption>
+  <thead>
+    <tr><th>Failure Code</th><th>Failure Name</th><th>HTTP Status</th><th>Failure Message Template</th><th>Typical Cause</th><th>Client Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1001</td><td>ORDER_NOT_FOUND</td><td>404</td><td>Swap order does not exist</td><td>swapOrderNo is unknown or expired</td><td>Verify order number and resend</td></tr>
+    <tr><td>1002</td><td>ORDER_STATE_INVALID</td><td>409</td><td>Swap order status does not allow this operation</td><td>Order already completed/cancelled</td><td>Query order status; do not retry</td></tr>
+    <tr><td>2001</td><td>DEVICE_OFFLINE</td><td>503</td><td>Swap cabinet is offline</td><td>Equipment unreachable</td><td>Retry later or switch equipment</td></tr>
+    <tr><td>2002</td><td>DEVICE_BUSY</td><td>429</td><td>Swap cabinet is busy</td><td>Another swap in progress</td><td>Backoff and retry</td></tr>
+    <tr><td>3001</td><td>AUTH_FAILED</td><td>401</td><td>Vehicle authentication failed</td><td>VIN not authorized</td><td>Re-authenticate vehicle</td></tr>
+    <tr><td>3002</td><td>SECURITY_CHECK_FAILED</td><td>403</td><td>Security validation failed</td><td>Signature/timestamp invalid</td><td>Fix signing and time sync</td></tr>
+    <tr><td>9000</td><td>INTERNAL_ERROR</td><td>500</td><td>Internal server error</td><td>Platform exception</td><td>Contact platform support</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>ETL Mapping Sheet for Enterprise Administrative Data Integration (Process Transformation)</caption>
+  <tr><th>Source System</th><th>Source Field</th><th>Target Field</th><th>Transformation Rule</th><th>Validation</th></tr>
+  <tr><td>Business Registry</td><td>company_name</td><td>EntName</td><td>Trim + collapse spaces</td><td>Not null</td></tr>
+  <tr><td>Business Registry</td><td>credit_code</td><td>UniSCID</td><td>Uppercase</td><td>Regex: ^[0-9A-Z]{18}$</td></tr>
+  <tr><td>HR Filing</td><td>legal_person</td><td>LeRep</td><td>Normalize punctuation</td><td>Length ≤ 50</td></tr>
+  <tr><td>Case System</td><td>case_id</td><td>CaseID</td><td>Prefix 'ADM-' + source id</td><td>Unique</td></tr>
+  <tr><td>Document Center</td><td>upload_time</td><td>IngestTime</td><td>Convert to ISO-8601</td><td>Must be UTC</td></tr>
+  <tr><td>Portal</td><td>contact_email</td><td>ContactEmail</td><td>Lowercase</td><td>Email format</td></tr>
+</table>

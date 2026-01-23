@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental Vibration and Shock Qualification for Gas Alarm Devices (by Installation Type)</caption>
+  <thead>
+    <tr><th rowspan="2">Device type</th><th rowspan="2">Test category</th><th colspan="3">Severity / condition</th><th rowspan="2">Acceptance criteria</th></tr>
+    <tr><th>Class I</th><th>Class II</th><th>Class III / V</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Fixed detector</td><td>Sinusoidal vibration</td><td>10–150 Hz, 2 m/s², 10 min/axis</td><td>10–150 Hz, 5 m/s², 10 min/axis</td><td>10–150 Hz, 5 m/s², 20 min/axis</td><td>No functional failure; no loose parts</td></tr>
+    <tr><td>Random vibration</td><td>0.02 g²/Hz, 30 min/axis</td><td>0.04 g²/Hz, 30 min/axis</td><td>0.05 g²/Hz, 60 min/axis</td><td>Alarm output remains stable; no reset</td></tr>
+    <tr><td>Mechanical shock</td><td>6 ms, 150 m/s², 3 shocks/dir</td><td>6 ms, 300 m/s², 3 shocks/dir</td><td>6 ms, 500 m/s², 3 shocks/dir</td><td>No damage; self-test passes</td></tr>
+    <tr><td rowspan="3">Portable detector</td><td>Drop test</td><td>1.0 m to steel plate (6 faces)</td><td>1.2 m to steel plate (6 faces)</td><td>1.5 m to steel plate (6 faces)</td><td>Enclosure intact; display readable</td></tr>
+    <tr><td>Temperature cycling</td><td>-10°C to 40°C, 5 cycles</td><td>-20°C to 55°C, 5 cycles</td><td>-25°C to 70°C, 5 cycles</td><td>Zero drift within manufacturer spec</td></tr>
+    <tr><td>Humidity endurance</td><td>93%RH, 40°C, 48 h</td><td>93%RH, 55°C, 48 h</td><td>93%RH, 70°C, 72 h</td><td>No condensation-related failure</td></tr>
+  </tbody>
+</table>

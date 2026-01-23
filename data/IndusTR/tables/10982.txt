@@ -1,0 +1,15 @@
+<table>
+  <caption>Common Service Description Model — Service Provider Field Dictionary (No Requirement Flags)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Data Type</th><th>Cardinality</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ServiceProvider</td><td>providerName</td><td>string (1..128)</td><td>1..1</td><td>Legal name of the organization providing the service</td></tr>
+    <tr><td>ServiceProvider</td><td>providerIdentifier</td><td>string (1..64)</td><td>0..1</td><td>Internal or external identifier of the provider</td></tr>
+    <tr><td>ServiceProvider</td><td>unifiedSocialCreditCode</td><td>string (18)</td><td>0..1</td><td>Unified Social Credit Code (China), if applicable</td></tr>
+    <tr><td>ServiceProvider</td><td>contactPerson</td><td>string (1..128)</td><td>0..1</td><td>Primary contact person name</td></tr>
+    <tr><td>ServiceProvider</td><td>contactEmail</td><td>string (email)</td><td>0..1</td><td>Email for service-related inquiries</td></tr>
+    <tr><td>ServiceProvider</td><td>contactPhone</td><td>string (1..32)</td><td>0..1</td><td>Telephone number for inquiries</td></tr>
+    <tr><td>ServiceProvider</td><td>providerAddress</td><td>string (1..256)</td><td>0..1</td><td>Registered address of the provider</td></tr>
+  </tbody>
+</table>

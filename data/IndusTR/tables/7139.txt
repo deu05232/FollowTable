@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Certificate Lifecycle and Export Interfaces</caption>
+  <tr><th>Interface</th><th>Prototype</th><th>Purpose</th><th>Key Parameters</th></tr>
+  <tr><td>Export Signing Certificate</td><td>BSTR SOF_ExportUserCert(BSTR CertID)</td><td>Export the user's signing certificate in Base64 format.</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>Export Encryption Certificate</td><td>BSTR SOF_ExportEncryptCert(BSTR CertID)</td><td>Export the user's encryption certificate in Base64 format.</td><td>CertID</td></tr>
+  <tr><td>Get User List</td><td>BSTR SOF_GetUserList()</td><td>List installed certificate users and their CertID mappings.</td><td>null</td></tr>
+  <tr><td>Query Extension by OID</td><td>BSTR SOF_GetCertInfoByOid(BSTR Base64Cert, BSTR Oid)</td><td>Read certificate extension value by OID.</td><td>Base64Cert, Oid</td></tr>
+  <tr><td>Login / PIN Verify</td><td>BOOL SOF_Login(BSTR CertID, BSTR PassWd)</td><td>Authenticate user by verifying certificate password/PIN.</td><td>CertID, PassWd</td></tr>
+  <tr><td>Change Password</td><td>BOOL SOF_ChangeUserPassword(BSTR CertID, BSTR OldPassWd, BSTR NewPassWd)</td><td>Change certificate password/PIN for the specified CertID.</td><td>CertID, OldPassWd, NewPassWd</td></tr>
+  <tr><td>Notes</td><td colspan="3">These interfaces support certificate lifecycle management and user/session flows; they do not generate XML signatures.</td></tr>
+</table>

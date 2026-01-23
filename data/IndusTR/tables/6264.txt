@@ -1,0 +1,14 @@
+<table>
+  <caption>Finished Cut Surface Quality Limits by Acceptance Grade (Dimensional, Form & Edge Defects)</caption>
+  <thead>
+    <tr><th>Acceptance grade</th><th>Overall dimensional tolerance (mm)</th><th>Perpendicularity / squareness max u (mm)</th><th>Kerf taper max (mm per 10 mm thickness)</th><th>Cut-edge roughness Rz max (µm)</th><th>Maximum dross height (mm)</th><th>Allowed micro-burrs / striations (qualitative check)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Grade 0 (Precision)</td><td>±0.03</td><td>0.05</td><td>0.03</td><td>10</td><td>0.05</td><td>null visible to the unaided eye</td></tr>
+    <tr><td>Grade 1 (High)</td><td>±0.05</td><td>0.10</td><td>0.05</td><td>15</td><td>0.10</td><td>Very slight, does not catch a fingernail</td></tr>
+    <tr><td>Grade 2 (Standard)</td><td>±0.10</td><td>0.25</td><td>0.10</td><td>25</td><td>0.25</td><td>Minor, removable by light deburring</td></tr>
+    <tr><td>Grade 3 (General)</td><td>±0.20</td><td>0.40</td><td>0.20</td><td>40</td><td>0.50</td><td>Noticeable, deburring required</td></tr>
+    <tr><td>Grade 4 (Rough)</td><td>±0.40</td><td>0.70</td><td>0.35</td><td>60</td><td>1.00</td><td>Pronounced striations allowed; function must be verified</td></tr>
+    <tr><td>Grade 5 (Non-critical)</td><td>±0.80</td><td>1.20</td><td>0.60</td><td>90</td><td>1.50</td><td>Heavy striations acceptable for non-critical edges</td></tr>
+  </tbody>
+</table>

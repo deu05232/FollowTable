@@ -1,0 +1,11 @@
+<table>
+  <caption>Actuator fault code table focusing on self-testable electrical and position-related faults</caption>
+  <tr><th>Actuator Category</th><th>Fault Code</th><th>Self-testable Fault Item</th><th>Diagnostic Hint</th></tr>
+  <tr><td>Electric actuator</td><td>A01</td><td>Position sensor fault</td><td>Position feedback out of range during calibration sweep</td></tr>
+  <tr><td>Electric actuator</td><td>A02</td><td>Motor overcurrent</td><td>Current exceeds limit for defined time window</td></tr>
+  <tr><td>Electric actuator</td><td>A03</td><td>Main voltage abnormal</td><td>DC bus undervoltage/overvoltage detected by monitor IC</td></tr>
+  <tr><td>Electric actuator</td><td>A04</td><td>Input signal abnormality</td><td>Command signal missing or inconsistent with mode</td></tr>
+  <tr><td>Electro-hydraulic actuator</td><td>H11</td><td>Valve driver hardware fault</td><td>Output stage self-check fails at startup</td></tr>
+  <tr><td>Electro-hydraulic actuator</td><td>H12</td><td>Configuration error</td><td>Parameter set incompatible with actuator travel range</td></tr>
+  <tr><td>Electro-hydraulic actuator</td><td>H13</td><td>Communication interface fault</td><td>Bus watchdog timeout during heartbeat test</td></tr>
+</table>

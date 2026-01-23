@@ -1,0 +1,16 @@
+<table>
+  <caption>Traditional Mongolian Control Characters: Mixed Invalid vs Valid Sequences (Debug Matrix)</caption>
+  <thead>
+    <tr><th>Control Character</th><th>Rendered Display</th><th>Sequence (Hex/Notation)</th><th>Status</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MVS</td><td>qa (variant)</td><td>U+182C U+180E U+180E</td><td>Invalid</td><td>Duplicate MVS in a row</td></tr>
+    <tr><td>ZWJ</td><td>na (joined)</td><td>U+1828 U+200D U+1820</td><td>Valid</td><td>Joiner between letters</td></tr>
+    <tr><td>NNBSP</td><td>word·break</td><td>U+1820 U+202F U+1820</td><td>Valid</td><td>Non-breaking narrow space for typography</td></tr>
+    <tr><td>FVS1</td><td>ga (alt)</td><td>U+182D U+180B</td><td>Valid</td><td>Selector after base letter</td></tr>
+    <tr><td>FVS2</td><td>ga (alt)</td><td>U+180C U+182D</td><td>Invalid</td><td>Selector before base letter</td></tr>
+    <tr><td>NIRUGU</td><td>— (elongation)</td><td>U+180A U+180A U+1820</td><td>Invalid</td><td>Repeated elongation mark</td></tr>
+    <tr><td>ZWJ</td><td>(invisible)</td><td>U+200D</td><td>Invalid</td><td>Isolated joiner without surrounding letters</td></tr>
+    <tr><td>MVS</td><td>i (variant)</td><td>U+1822 U+180E</td><td>Valid</td><td>Single MVS after a base letter</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Network Address Book — Charger Vehicle Node IDs and Deployment Notes</caption>
+  <tr><th>Site</th><th>Node</th><th>Logical Address</th><th>Physical Label</th><th>Interface</th><th>Firmware Build</th><th>Commissioning Date</th><th>Notes</th></tr>
+  <tr><td>Lab-A</td><td>Charger-01</td><td>0xA1</td><td>EVSE-A1</td><td>CAN</td><td>v1.1.0-rc3</td><td>2025-09-10</td><td>Bench power supply</td></tr>
+  <tr><td>Lab-A</td><td>Vehicle-Sim</td><td>0xB2</td><td>EVSIM-B2</td><td>CAN</td><td>v2.0.4</td><td>2025-09-11</td><td>HIL environment</td></tr>
+  <tr><td>Pilot-1</td><td>Charger-07</td><td>0xA7</td><td>EVSE-A7</td><td>CAN</td><td>v1.1.0</td><td>2025-10-02</td><td>Outdoor cabinet</td></tr>
+  <tr><td>Pilot-1</td><td>Vehicle-03</td><td>0xB3</td><td>EV-03</td><td>CAN</td><td>v3.2.1</td><td>2025-10-03</td><td>Customer test car</td></tr>
+  <tr><td>Pilot-2</td><td>Charger-12</td><td>0xAC</td><td>EVSE-AC</td><td>CAN</td><td>v1.1.1</td><td>2025-11-15</td><td>High humidity area</td></tr>
+  <tr><td>Pilot-2</td><td>Vehicle-11</td><td>0xB8</td><td>EV-11</td><td>CAN</td><td>v3.2.2</td><td>2025-11-16</td><td>Telemetry enabled</td></tr>
+</table>

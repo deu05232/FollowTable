@@ -1,0 +1,9 @@
+<table>
+  <caption>Atmosphere Layer Community-Level Observation Station Ecological Scene Multimedia Data Name Format</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>3</td><td>Image data name</td><td>V_IMAGEPATH</td><td>Variable characters(800)</td><td>Separate multiple names with semicolons</td></tr>
+  <tr><td>4</td><td>Video data name</td><td>V_VIDEOPATH</td><td>Variable characters(800)</td><td>Separate multiple names with semicolons</td></tr>
+  <tr><td>5</td><td>Audio data name</td><td>V_AUDIOPATH</td><td>Variable characters(800)</td><td>Separate multiple names with semicolons</td></tr>
+</table>

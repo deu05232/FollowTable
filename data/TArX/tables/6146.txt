@@ -1,0 +1,11 @@
+<table>
+  <caption>Summary of models of our simulations. The initial number of particles is 301 and the mean mass injection rate is 2.5 × 10 - 11 ⁢ ρ - 11 ⁢ M ⊙ ⁢ \rmn ⁢ y ⁢ r - 1 in all simulations. The first column represents the model. The second column is the polytropic exponent Γ and the third column is the number of SPH particles at the end of the run, which is given in units of P \rmn ⁢ o ⁢ r ⁢ b in the fourth column. The viscosity parameters adopted are given in the fifth column and the sixth column is the inner radius of the simulation region. The seventh column is the number of injected particles for one orbital period. The last two columns are the number of accreted particles for the last one orbital period and the corresponding mean accretion rate, respectively.</caption>
+  <tr><th>Model</th><th>Polytropic exponent</th><th>N_()</th><th>Run time</th><th>Viscosity parameters</th><th>Inner boundary</th><th>N_()</th><th>N_()</th><th>_()</th></tr>
+  <tr><th></th><th>Γ</th><th>(final)</th><th>(P_())</th><th></th><th>r_()/a</th><th></th><th></th><th>(ρ_(-11)M_()^(-1))</th></tr>
+  <tr><th>1</th><th>1.2</th><td>45687</td><td>8</td><td>α_()=0.1</td><td>3.0× 10^(-3)</td><td>8657</td><td>2990</td><td>8.3× 10^(-12)</td></tr>
+  <tr><th>2</th><th>1.2</th><td>35821</td><td>8</td><td>α_()=0.1</td><td>5.0× 10^(-3)</td><td>8717</td><td>4054</td><td>1.1× 10^(-11)</td></tr>
+  <tr><th>3</th><th>12.845276pt()</th><td>39295</td><td>8</td><td>α_()=0.1</td><td>5.0× 10^(-3)</td><td>8844</td><td>2676</td><td>7.4× 10^(-12)</td></tr>
+  <tr><th>4</th><th>5/32.845276pt()</th><td>20118</td><td>8</td><td>α_()=0.1</td><td>5.0× 10^(-3)</td><td>8594</td><td>6851</td><td>1.9× 10^(-11)</td></tr>
+  <tr><th>5</th><th>1.2</th><td>47730</td><td>8</td><td>α_()=1,β_()=2</td><td>5.0× 10^(-3)</td><td>8705</td><td>2671</td><td>7.5× 10^(-12)</td></tr>
+  <tr><th>6</th><th>1.2</th><td>17488</td><td>1</td><td>α_()=0.1</td><td>5.0× 10^(-3)</td><td>34778</td><td>16829</td><td>1.2× 10^(-11)</td></tr>
+</table>

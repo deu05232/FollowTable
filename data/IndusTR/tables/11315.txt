@@ -1,0 +1,18 @@
+<table>
+  <caption>Refueling Business Record (Core Event Fields)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Business Document ID</td><td>Character</td><td>an..30</td><td>Unique identifier of the refueling workflow document</td></tr>
+    <tr><td>2</td><td>Refueling Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Timestamp when the fuel transaction occurred</td></tr>
+    <tr><td>3</td><td>Refueling Organization Code</td><td>Character</td><td>an..20</td><td>Code of the refueling organization/station</td></tr>
+    <tr><td>4</td><td>Refueling Organization Name</td><td>Character</td><td>an..60</td><td>Name of the refueling organization/station</td></tr>
+    <tr><td>5</td><td>Fuel Product Type</td><td>Character</td><td>an..20</td><td>Fuel category (e.g., Gasoline 92/95/98, Diesel 0#)</td></tr>
+    <tr><td>6</td><td>Fuel Volume</td><td>Numeric</td><td>n..10,2</td><td>Volume dispensed (L)</td></tr>
+    <tr><td>7</td><td>Unit Price</td><td>Numeric</td><td>n..10,4</td><td>Unit price at the time of refueling</td></tr>
+    <tr><td>8</td><td>Total Amount</td><td>Numeric</td><td>n..12,2</td><td>Total payable amount for this refueling event</td></tr>
+    <tr><td>9</td><td>Receipt/Invoice Number</td><td>Character</td><td>an..40</td><td>External receipt or invoice identifier corresponding to the event</td></tr>
+    <tr><td>10</td><td>Payment Method</td><td>Character</td><td>an..20</td><td>Payment channel (e.g., Fuel Card, Cashless, Cash)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+<table>
+  <caption>User Terminal Application File (UTAF) — Key/Vector and Group Identifier Blocks</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Size (bytes)</th><th>Plain meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Initialization Vectors</td><td>IV1 Index</td><td>6</td><td>Index/serial number for the primary initialization vector (used to select the correct IV in protocols).</td></tr>
+    <tr><td>IV1 Value</td><td>16</td><td>Primary initialization vector bytes.</td></tr>
+    <tr><td>IV2 Index</td><td>6</td><td>Index/serial number for the backup initialization vector.</td></tr>
+    <tr><td>IV2 Value</td><td>16</td><td>Backup initialization vector bytes.</td></tr>
+    <tr><td rowspan="4">Multicast Master Keys</td><td>Multicast Master Key 1 Index</td><td>6</td><td>Index/serial number for multicast master key 1 (default).</td></tr>
+    <tr><td>Multicast Master Key 1 KeyID</td><td>1</td><td>Key identifier used to reference multicast master key 1 in messages.</td></tr>
+    <tr><td>Multicast Master Key 2 Index</td><td>6</td><td>Index/serial number for multicast master key 2 (backup).</td></tr>
+    <tr><td>Multicast Master Key 2 KeyID</td><td>1</td><td>Key identifier used to reference multicast master key 2 in messages.</td></tr>
+    <tr><td rowspan="3">Multicast Group Entry #1</td><td>Multicast ID1</td><td>6</td><td>Group multicast identifier stored on the terminal.</td></tr>
+    <tr><td>Multicast ID1 KeyID</td><td>1</td><td>Sub-key ID bound to Multicast ID1 for decrypt/auth operations.</td></tr>
+    <tr><td>Multicast ID1 Status</td><td>1</td><td>State flag for the entry (e.g., 0x00=in use, 0x01=reclaimed/invalid).</td></tr>
+    <tr><td rowspan="2">Broadcast Group Entry #1</td><td>Broadcast ID1</td><td>6</td><td>Broadcast group identifier used by the terminal.</td></tr>
+    <tr><td>Broadcast ID1 KeyID</td><td>1</td><td>Key identifier bound to Broadcast ID1.</td></tr>
+    <tr><td rowspan="2">Broadcast Group Entry #2</td><td>Broadcast ID2</td><td>6</td><td>Secondary broadcast identifier (often for management/administrative broadcast).</td></tr>
+    <tr><td>Broadcast ID2 KeyID</td><td>1</td><td>Key identifier bound to Broadcast ID2.</td></tr>
+  </tbody>
+</table>

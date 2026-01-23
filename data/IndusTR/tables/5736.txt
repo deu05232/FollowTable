@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Swap Business Interface — Result Codes and Messages (No Type Column)</caption>
+  <thead>
+    <tr><th>Code</th><th>Meaning</th><th>Scenario</th><th>Retry Suggestion</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Success</td><td>Generic response</td><td>No</td><td>Request accepted and processed</td></tr>
+    <tr><td>1</td><td>Failure</td><td>Generic response</td><td>Depends</td><td>See message field in payload</td></tr>
+    <tr><td>2</td><td>Order not found</td><td>Query/confirm order</td><td>No</td><td>swapOrderNo does not exist</td></tr>
+    <tr><td>3</td><td>Device offline</td><td>Start swap</td><td>Yes</td><td>batterySwapEquipmentId unreachable</td></tr>
+    <tr><td>4</td><td>VIN mismatch</td><td>Start swap</td><td>No</td><td>vinCode not authorized for this order</td></tr>
+    <tr><td>5</td><td>Signature invalid</td><td>All requests</td><td>No</td><td>Check appSecret / sign algorithm</td></tr>
+    <tr><td>6</td><td>Timestamp expired</td><td>All requests</td><td>Yes</td><td>Client clock drift too large</td></tr>
+  </tbody>
+</table>

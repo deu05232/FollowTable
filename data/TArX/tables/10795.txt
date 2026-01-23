@@ -1,0 +1,14 @@
+<table>
+  <caption>Standard-state Gibbs free energy change for ATP hydrolysis reported across common reference sources</caption>
+  <thead>
+    <tr><th>Reaction (biochemical form)</th><th>Condition / reference state</th><th>Reported energy release metric</th><th>Value (kJ/mol)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ATP + H2O → ADP + Pi + H+</td><td>Standard chemical (ΔG°)</td><td>ΔG°</td><td>-30.5</td><td>Textbook standard-state value</td></tr>
+    <tr><td>ATP + H2O → ADP + Pi</td><td>Biochemical standard (ΔG°′, pH 7)</td><td>ΔG°′</td><td>-30 to -32</td><td>Representative range used in biochemistry</td></tr>
+    <tr><td>ATP + H2O → ADP + Pi</td><td>Physiological-like (example intracellular ratios)</td><td>ΔG (actual)</td><td>-45 to -60</td><td>Depends on [ATP]/[ADP]/[Pi]</td></tr>
+    <tr><td>ATP → AMP + PPi</td><td>Biochemical standard (ΔG°′)</td><td>ΔG°′</td><td>-45 to -46</td><td>Alternative ATP conversion pathway</td></tr>
+    <tr><td>PPi + H2O → 2 Pi</td><td>Biochemical standard (ΔG°′)</td><td>ΔG°′</td><td>-19 to -21</td><td>Often coupled to ATP→AMP reactions</td></tr>
+    <tr><td>Overall: ATP + 2 H2O → AMP + 2 Pi</td><td>Biochemical standard (ΔG°′)</td><td>ΔG°′</td><td>-65 to -70</td><td>Sum of ATP→AMP+PPi and PPi hydrolysis</td></tr>
+  </tbody>
+</table>

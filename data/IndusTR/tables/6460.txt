@@ -1,0 +1,16 @@
+<table>
+  <caption>Regional Address Format — Circular Area Coordinate Elements (Ship Earth Station EGC)</caption>
+  <thead>
+    <tr><th>Item No.</th><th>Coordinate Component</th><th>Size (bits)</th><th>Allowed Values</th><th>Encoding Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Center Latitude Degrees</td><td>7</td><td>0–90</td><td>Unsigned magnitude in degrees</td></tr>
+    <tr><td>2</td><td>Center Latitude Hemisphere</td><td>1</td><td>0=N, 1=S</td><td>North/South selector</td></tr>
+    <tr><td>3</td><td>Center Latitude Minutes</td><td>6</td><td>0–59</td><td>Minutes of arc</td></tr>
+    <tr><td>4</td><td>Center Longitude Degrees</td><td>8</td><td>0–180</td><td>Unsigned magnitude in degrees</td></tr>
+    <tr><td>5</td><td>Center Longitude Hemisphere</td><td>1</td><td>0=E, 1=W</td><td>East/West selector</td></tr>
+    <tr><td>6</td><td>Center Longitude Minutes</td><td>6</td><td>0–59</td><td>Minutes of arc</td></tr>
+    <tr><td>7</td><td>Radius</td><td>10</td><td>1–1000</td><td>Radius in nautical miles (implementation-defined scaling)</td></tr>
+    <tr><td>8</td><td>Spare</td><td>3</td><td>0</td><td>Set to zero</td></tr>
+  </tbody>
+</table>

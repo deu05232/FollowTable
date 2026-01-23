@@ -1,0 +1,7 @@
+<table>
+  <caption>Road traffic safety early warning — Road segment static attributes (no time fields)</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Road Segment Identifier</td><td>Character</td><td>64</td><td>No</td><td>Yes</td><td>Unique identifier within the platform</td></tr>
+  <tr><td>2</td><td>Lane Count</td><td>Integer</td><td>2</td><td>Yes</td><td>Yes</td><td>Number of lanes in the segment</td></tr>
+  <tr><td>3</td><td>Speed Limit</td><td>Integer</td><td>3</td><td>Yes</td><td>Yes</td><td>Maximum allowed speed</td></tr>
+</table>

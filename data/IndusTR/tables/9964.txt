@@ -1,0 +1,16 @@
+<table>
+  <caption>Indicator Scoring for Public Distribution Centers (PDC) per Million Residents</caption>
+  <thead>
+    <tr><th>City size tier</th><th>PDC per million residents (units)</th><th>Score</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Mega city (≥10 million)</td><td>≥1.5</td><td>70</td><td>Full score threshold</td></tr>
+    <tr><td><1.5</td><td>Score = 70 × (value / 1.5)</td><td>Linear scaling</td></tr>
+    <tr><td rowspan="2">Very large city (5–10 million)</td><td>≥1.2</td><td>70</td><td>Full score threshold</td></tr>
+    <tr><td><1.2</td><td>Score = 70 × (value / 1.2)</td><td>Linear scaling</td></tr>
+    <tr><td rowspan="2">Large city (1–5 million)</td><td>≥0.9</td><td>70</td><td>Full score threshold</td></tr>
+    <tr><td><0.9</td><td>Score = 70 × (value / 0.9)</td><td>Linear scaling</td></tr>
+    <tr><td rowspan="2">Medium city (0.5–1 million)</td><td>≥0.6</td><td>70</td><td>Full score threshold</td></tr>
+    <tr><td><0.6</td><td>Score = 70 × (value / 0.6)</td><td>Linear scaling</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Refractive Index of Common Materials (with Forbidden Usage Notes and Links)</caption>
+  <thead>
+    <tr><th>Material</th><th>Refractive index (n)</th><th>Phase @ 20°C</th><th>Condition (λ, T)</th><th>Density (g/cm³)</th><th>Do-not-use note (forbidden)</th><th>External link (forbidden)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Air (dry)</td><td>1.00027</td><td>Gas</td><td>589 nm, 20°C</td><td>0.00120</td><td>Not for precision metrology without humidity correction</td><td>https://en.wikipedia.org/wiki/Refractive_index</td></tr>
+    <tr><td>Water</td><td>1.333</td><td>Liquid</td><td>589 nm, 20°C</td><td>0.998</td><td>Avoid if impurities exceed 1 ppm</td><td>https://refractiveindex.info</td></tr>
+    <tr><td>Fused silica</td><td>1.458</td><td>Solid</td><td>589 nm, 20°C</td><td>2.20</td><td>Do not use above 1000°C in this dataset</td><td>https://www.corning.com/optical-fibers</td></tr>
+    <tr><td>PMMA (acrylic)</td><td>1.490</td><td>Solid</td><td>589 nm, 20°C</td><td>1.18</td><td>Not recommended for UV below 300 nm</td><td>https://example.com/pmma-spec</td></tr>
+    <tr><td>Teflon (PTFE)</td><td>1.35</td><td>Solid</td><td>Visible, ~20°C</td><td>2.20</td><td>Do not use with certain solvents</td><td>https://example.com/ptfe</td></tr>
+    <tr><td>Helium (gas)</td><td>1.000036</td><td>Gas</td><td>589 nm, 20°C</td><td>0.00018</td><td>Not applicable at cryogenic densities</td><td>https://example.com/helium</td></tr>
+    <tr><td>Silicon</td><td>3.48</td><td>Solid</td><td>1550 nm, 20°C</td><td>2.33</td><td>Forbidden: includes vendor-only value</td><td>https://example.com/si-nk</td></tr>
+  </tbody>
+</table>

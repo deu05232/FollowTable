@@ -1,0 +1,11 @@
+# Administrative Distance for OSPF Route Types (Defaults)
+
+| OSPF Route Type | Default Administrative Distance | LSA/Origin | Typical Use |
+| --- | ---: | --- | --- |
+| Intra-area (O) | 110 | Type 1/2 | Internal area routes |
+| Inter-area (O IA) | 110 | Type 3 | ABR summary routes |
+| External Type 1 (E1) | 110 | Type 5 | External with internal cost added |
+| External Type 2 (E2) | 110 | Type 5 | External with fixed external cost |
+| NSSA External Type 1 (N1) | 110 | Type 7 | NSSA redistributed, E1 behavior |
+| NSSA External Type 2 (N2) | 110 | Type 7 | NSSA redistributed, E2 behavior |
+| Default route injected | 110 | Type 5/7 | 0.0.0.0/0 via ASBR/ABR |

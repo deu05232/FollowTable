@@ -1,0 +1,17 @@
+<table>
+  <caption>Summary of Fuel-Specific CO2 Emission Factors for Activity Data (Stationary Combustion)</caption>
+  <thead>
+    <tr><th>Fuel type (clearly identified item)</th><th>Unit for activity data</th><th>CO2 emission factor (tCO2/unit)</th><th>Reference basis</th><th>Oxidation factor (fraction)</th><th>Notes / typical use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Anthracite coal</td><td>t</td><td>2.90</td><td>Default (national inventory-style)</td><td>0.98</td><td>Boilers, kilns</td></tr>
+    <tr><td>Bituminous coal</td><td>t</td><td>2.42</td><td>Default</td><td>0.98</td><td>General industrial steam</td></tr>
+    <tr><td>Lignite (brown coal)</td><td>t</td><td>1.10</td><td>Default</td><td>0.98</td><td>Lower carbon intensity per tonne due to moisture/ash</td></tr>
+    <tr><td>Coke (metallurgical)</td><td>t</td><td>3.18</td><td>Default</td><td>0.99</td><td>Iron & steel, reductant/heat</td></tr>
+    <tr><td>Diesel oil</td><td>t</td><td>3.16</td><td>Default</td><td>0.99</td><td>Generators, mobile sources if treated as stationary</td></tr>
+    <tr><td>Gasoline</td><td>t</td><td>3.09</td><td>Default</td><td>0.99</td><td>Engines (if within organizational boundary)</td></tr>
+    <tr><td>Liquefied petroleum gas (LPG)</td><td>t</td><td>3.00</td><td>Default</td><td>0.995</td><td>Cooking/space heating</td></tr>
+    <tr><td>Natural gas</td><td>10^4 Nm³</td><td>21.60</td><td>Default</td><td>0.995</td><td>Pipeline gas; ensure dry gas basis</td></tr>
+    <tr><td>Fuel oil (residual)</td><td>t</td><td>3.12</td><td>Default</td><td>0.99</td><td>Industrial furnaces</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+# Practical DLNA Playback Matrix  Codec + Container Combos You’re Likely to Encounter
+
+| Media type | Concrete format/codec name | Container | Typical extensions | Typical profiles / variants | Practical DLNA notes |
+|---|---|---|---|---|---|
+| Video | H.264 (AVC) | MP4 | .mp4, .m4v | Baseline / Main (commonly supported) | Usually plays on many DLNA TVs; High profile and very high bitrates may fail on older renderers |
+| Video | H.264 (AVC) | Matroska | .mkv | Main/High (varies) | MKV is not a core DLNA container; some devices support it, many don’t (often requires transcoding) |
+| Video | MPEG-2 Video | MPEG Program Stream | .mpg, .mpeg | SD/DVD-style | High interoperability; good “fallback” encode for broad DLNA compatibility |
+| Video | MPEG-2 Video | MPEG Transport Stream | .ts, .m2ts | SD/HD transport | Common in broadcast/camcorder files; audio codec inside TS is a frequent compatibility bottleneck |
+| Video | MPEG-4 Part 2 (DivX/Xvid) | AVI | .avi | Simple / Advanced Simple | Still seen in older libraries; support varies widely across modern DLNA clients |
+| Video | VC-1 / WMV9 | ASF | .wmv, .asf | WMV9 Advanced Profile (varies) | Works on many Windows-friendly devices; less reliable on some non-Windows TVs/boxes |
+| Audio | MP3 | MP3 | .mp3 | CBR/VBR | Very safe choice; usually plays without fuss |
+| Audio | AAC (LC) | MP4 audio | .m4a | AAC-LC | Often supported; if a renderer rejects raw .aac, repackaging to .m4a can help |
+| Audio | HE-AAC | MP4 audio | .m4a | HE-AAC v1/v2 | Less consistently supported than AAC-LC in DLNA renderers; may require transcoding |
+| Audio | FLAC | FLAC | .flac | 16/24-bit (varies) | Not a baseline DLNA requirement; many modern devices support it, but not guaranteed |
+| Image | JPEG | JPEG | .jpg, .jpeg | Baseline JPEG | Most compatible image format across DLNA |
+| Image | PNG | PNG | .png | RGBA/truecolor | Frequently supported; very large PNGs may be slow on low-power renderers |
+| Image | BMP | BMP | .bmp | 24-bit (common) | Sometimes supported but inefficient; can be a compatibility fallback for simple still images |

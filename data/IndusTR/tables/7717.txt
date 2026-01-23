@@ -1,0 +1,14 @@
+<table>
+  <caption>SOF Signature Algorithm Parameter Reference (RSA/SM2/SM3)</caption>
+  <thead>
+    <tr><th>Operation</th><th>Alg Family</th><th>Alg Selector Column</th><th>Input Payload Columns</th><th>Output Columns</th><th>Encoding</th><th>Interoperability Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SignDigest</td><td>RSA</td><td>HashAlg</td><td>Base64HashData</td><td>SignValue</td><td>Base64(A)</td><td>Digest computed externally</td></tr>
+    <tr><td>VerifyDigest</td><td>RSA</td><td>HashAlg</td><td>Base64HashData, SignValue</td><td>VerifyResult</td><td>Base64(A)</td><td>Rejects wrong padding</td></tr>
+    <tr><td>SignXML</td><td>RSA</td><td>SignAlg</td><td>InXml, CanonMethod</td><td>SignedXml</td><td>XMLDSIG</td><td>Reference: RFC 3275</td></tr>
+    <tr><td>SignDigest</td><td>SM2</td><td>HashAlg</td><td>Base64HashData (SM3 preprocessed)</td><td>SignValue</td><td>ASN.1 DER then Base64</td><td>Preprocess per GB/T 35276</td></tr>
+    <tr><td>VerifyDigest</td><td>SM2</td><td>HashAlg</td><td>Base64HashData, SignValue</td><td>VerifyResult</td><td>ASN.1 DER then Base64</td><td>Uses SM3 digest value</td></tr>
+    <tr><td>ParseXmlSignature</td><td>Generic</td><td>type</td><td>xmlSignedData</td><td>DigestValue/SignatureValue</td><td>Base64 in XML</td><td>Type=2/3 returns digest/signature</td></tr>
+  </tbody>
+</table>

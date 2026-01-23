@@ -1,0 +1,7 @@
+<table>
+  <caption>Augmented Reality Pose Raw Data Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>pose</td><td>ArPose *</td><td>Pose pointer</td></tr>
+  <tr><td>out_pose_raw_7</td><td>float *</td><td>Pointer to a float[7] array composed of a rotation quaternion and a translation 3-vector</td></tr>
+</table>

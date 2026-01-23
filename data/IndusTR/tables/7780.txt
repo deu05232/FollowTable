@@ -1,0 +1,35 @@
+<table>
+  <caption>SM9 API Reference — SAF_SM9Encrypt (Detailed Parameter Contract)</caption>
+  <thead>
+    <tr><th>Item</th><th>Contract Detail</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Function</td><td>SAF_SM9Encrypt</td></tr>
+    <tr><td>Prototype</td><td>int SAF_SM9Encrypt(
+    void          *hAppHandle,
+    unsigned int   uiMasterPublicKeyIndex,
+    const unsigned char *pucUserID,
+    unsigned int   uiUserIDLen,
+    unsigned int   ulAlgID,
+    const unsigned char *pIV,
+    unsigned int   ulIVLen,
+    const unsigned char *pucPlainData,
+    unsigned int   uiPlainDataLen,
+    unsigned char *pucCipherData,
+    unsigned int  *puiCipherDataLen
+);</td></tr>
+    <tr><td>Return</td><td>0 on success; non-zero on failure (implementation-defined error codes).</td></tr>
+    <tr><td rowspan="9">Parameters</td><td>hAppHandle(IN): Application interface handle; must be a valid opened handle.</td></tr>
+    <tr><td>uiMasterPublicKeyIndex(IN): Index of the SM9 encryption master public key used for encryption.</td></tr>
+    <tr><td>pucUserID(IN): Pointer to user identity bytes (e.g., DER-encoded or raw identity per implementation).</td></tr>
+    <tr><td>uiUserIDLen(IN): Length ofpucUserIDin bytes.</td></tr>
+    <tr><td>ulAlgID(IN): Symmetric algorithm identifier used inside SM9 encryption (implementation-defined).</td></tr>
+    <tr><td>pIV(IN): Pointer to IV/nonce buffer; may be NULL if the selectedulAlgIDdoes not require an IV.</td></tr>
+    <tr><td>ulIVLen(IN): Length ofpIVin bytes; 0 ifpIVis NULL.</td></tr>
+    <tr><td>pucPlainData(IN): Pointer to plaintext input buffer.</td></tr>
+    <tr><td>uiPlainDataLen(IN): Length of plaintext in bytes.</td></tr>
+    <tr><td></td><td>pucCipherData(OUT): Output buffer receiving ciphertext package. Caller allocates; may call once with NULL to query required size if supported.</td></tr>
+    <tr><td></td><td>puiCipherDataLen(IN/OUT): IN: size ofpucCipherDatabuffer; OUT: actual ciphertext length returned.</td></tr>
+    <tr><td>Buffer/Length Mapping</td><td>pucPlainData↔uiPlainDataLenpucUserID↔uiUserIDLenpIV↔ulIVLenpucCipherData↔puiCipherDataLen</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Rendering Pipeline Performance Budget (Target Devices)</caption>
+  <tr><th>Pipeline Stage</th><th>Budget (ms)</th><th>Owner Module</th><th>Primary Metric</th><th>Typical Bottleneck</th></tr>
+  <tr><td>Camera capture</td><td>4.0</td><td>Camera HAL</td><td>Frame latency</td><td>ISP queue</td></tr>
+  <tr><td>Pose estimation</td><td>3.5</td><td>Tracking</td><td>Pose jitter</td><td>IMU sync</td></tr>
+  <tr><td>Plane detection</td><td>2.5</td><td>Perception</td><td>Recall</td><td>Feature sparsity</td></tr>
+  <tr><td>Lighting estimation</td><td>1.5</td><td>Rendering</td><td>Stability</td><td>Auto-exposure oscillation</td></tr>
+  <tr><td>Occlusion</td><td>2.0</td><td>Depth</td><td>Edge quality</td><td>Depth noise</td></tr>
+  <tr><td>Compositing</td><td>2.0</td><td>Renderer</td><td>GPU time</td><td>Fill rate</td></tr>
+</table>

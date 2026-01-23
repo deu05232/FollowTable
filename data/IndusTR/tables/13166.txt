@@ -1,0 +1,17 @@
+<table>
+  <caption>International Container Transport: Tracking & Traceability Data Elements by Event (Domain Overview)</caption>
+  <thead>
+    <tr><th>Chain Segment</th><th>Typical Event</th><th>Primary Actor</th><th>Key Data Captured</th><th>Common Identifier(s)</th><th>Outputs / Artifacts</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Export (Origin)</td><td>Booking confirmed</td><td>Carrier / Forwarder</td><td>Vessel schedule, booking no., cut-off times</td><td>Booking No., Shipper Ref</td><td>Booking confirmation notice</td></tr>
+    <tr><td>Export (Origin)</td><td>Empty container released</td><td>Depot / Carrier</td><td>Container no., condition, release timestamp</td><td>Container No.</td><td>Equipment interchange receipt (EIR)</td></tr>
+    <tr><td>Export (Origin)</td><td>Gate-in at terminal</td><td>Terminal</td><td>Gate-in time, truck ID, seal no., weight</td><td>Container No., Seal No.</td><td>Gate-in record</td></tr>
+    <tr><td>Export (Origin)</td><td>Customs export clearance</td><td>Customs / Broker</td><td>Declaration status, inspection flag, release time</td><td>Declaration No., Container No.</td><td>Release / hold message</td></tr>
+    <tr><td>Ocean Transport</td><td>Vessel departure</td><td>Carrier</td><td>ATD, vessel ID, voyage no.</td><td>Voyage No., B/L No.</td><td>Departure notice</td></tr>
+    <tr><td>Ocean Transport</td><td>Transshipment load/discharge</td><td>Terminal / Carrier</td><td>Load/discharge timestamps, port codes</td><td>Container No., Voyage No.</td><td>Transshipment event log</td></tr>
+    <tr><td>Import (Destination)</td><td>Vessel arrival</td><td>Carrier / Port Authority</td><td>ATA, berth assignment</td><td>Voyage No.</td><td>Arrival notice</td></tr>
+    <tr><td>Import (Destination)</td><td>Customs import clearance</td><td>Customs / Broker</td><td>Release status, duties paid, inspection results</td><td>Declaration No., B/L No.</td><td>Release message</td></tr>
+    <tr><td>Import (Destination)</td><td>Gate-out / delivery</td><td>Terminal / Trucking</td><td>Gate-out time, POD signature, damage notes</td><td>Container No., Delivery Order No.</td><td>Proof of delivery (POD)</td></tr>
+  </tbody>
+</table>

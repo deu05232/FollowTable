@@ -1,0 +1,15 @@
+<table>
+  <caption>Medical Device Type Codes Including Sanitation-Adjacent Devices</caption>
+  <thead>
+    <tr><th>Device Type Code</th><th>Device Type Name</th><th>Primary Function</th><th>Sanitation Relevance</th><th>Related Sterilization/Disinfection Type</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TB-QA</td><td>Cervical traction bed</td><td>Traction therapy</td><td>Low</td><td>N/A</td><td>Rehab equipment</td></tr>
+    <tr><td>TB-QB</td><td>Lumbar traction bed</td><td>Traction therapy</td><td>Low</td><td>N/A</td><td>Rehab equipment</td></tr>
+    <tr><td>MR-MH</td><td>Absorbance microplate reader</td><td>Lab analysis</td><td>Low</td><td>Surface wipe disinfection</td><td>Lab instrument</td></tr>
+    <tr><td>MR-MJ</td><td>Fluorescence microplate reader</td><td>Lab analysis</td><td>Low</td><td>Surface wipe disinfection</td><td>Lab instrument</td></tr>
+    <tr><td>MR-MK</td><td>Chemiluminescence microplate reader</td><td>Lab analysis</td><td>Low</td><td>Surface wipe disinfection</td><td>Lab instrument</td></tr>
+    <tr><td>ST-MG</td><td>Autoclave (high-pressure)</td><td>Sterilization</td><td>High</td><td>High-pressure steam</td><td>Sanitation equipment</td></tr>
+    <tr><td>ST-MA</td><td>Dry heat sterilizer</td><td>Sterilization</td><td>High</td><td>Hot air</td><td>Sanitation equipment</td></tr>
+  </tbody>
+</table>

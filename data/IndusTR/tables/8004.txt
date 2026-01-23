@@ -1,0 +1,12 @@
+<table>
+  <caption>Common Service Description Model - Operation Input/Output Message Mapping</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Domain</th><th>Description</th></tr>
+  <tr><td>Interface Name</td><td>interfaceName</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Name of the interface</td></tr>
+  <tr><td>Operation Name</td><td>operationName</td><td>C..128</td><td>M</td><td>N</td><td></td><td>Name of an operation in the interface</td></tr>
+  <tr><td>Input Message Name</td><td>inputMessageName</td><td>C..128</td><td>M</td><td>N</td><td></td><td>Message name used as input for the operation</td></tr>
+  <tr><td>Input Parameter Name</td><td>inputParameterName</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Name of an input parameter</td></tr>
+  <tr><td>Input Parameter Type</td><td>inputParameterType</td><td>C..128</td><td>C</td><td>N</td><td></td><td>Type of the input parameter; occurrence count consistent with inputParameterName</td></tr>
+  <tr><td>Output Message Name</td><td>outputMessageName</td><td>C..128</td><td>M</td><td>N</td><td></td><td>Message name returned by the operation</td></tr>
+  <tr><td>Output Parameter Name</td><td>outputParameterName</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Name of an output parameter</td></tr>
+  <tr><td>Output Parameter Type</td><td>outputParameterType</td><td>C..128</td><td>C</td><td>N</td><td></td><td>Type of the output parameter; occurrence count consistent with outputParameterName</td></tr>
+</table>

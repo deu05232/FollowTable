@@ -1,0 +1,9 @@
+<table>
+  <caption>Terrestrial eco-meteorological event and category coding data format (phenomena and scene labels)</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Format/Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td>YYYY-MM-DD</td></tr>
+  <tr><td>3</td><td>Phenological phenomenon label</td><td>P_CODE</td><td>Characters(4)</td><td>Code list reference</td></tr>
+  <tr><td>4</td><td>Natural disaster label</td><td>DIS_CODE</td><td>Characters(4)</td><td>Code list reference</td></tr>
+  <tr><td>5</td><td>Eco-meteorological scene label</td><td>SCN_CODE</td><td>Characters(4)</td><td>Code list reference</td></tr>
+</table>

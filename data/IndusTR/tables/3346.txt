@@ -1,0 +1,14 @@
+<table>
+  <caption>Ultrasonic Testing (UT) Setup and Calibration Parameters for Cast Components</caption>
+  <thead>
+    <tr><th>Item</th><th>Parameter</th><th>Recommended Setting</th><th>Tolerance</th><th>Calibration Block</th><th>Record Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Probe type</td><td>Dual-element straight beam</td><td>2 MHz</td><td>±0.5 MHz</td><td>V1/V2</td><td>Yes</td></tr>
+    <tr><td>Couplant</td><td>Viscosity</td><td>Medium gel</td><td>—</td><td>—</td><td>No</td></tr>
+    <tr><td>Gain</td><td>Reference gain</td><td>Set to 80% screen height</td><td>±3 dB</td><td>FBH 3 mm</td><td>Yes</td></tr>
+    <tr><td>Scanning speed</td><td>Manual scan speed</td><td>≤150 mm/s</td><td>—</td><td>—</td><td>No</td></tr>
+    <tr><td>DAC/TCG</td><td>Curve points</td><td>≥3 points</td><td>—</td><td>FBH series</td><td>Yes</td></tr>
+    <tr><td>Surface condition</td><td>Max roughness Ra</td><td>≤6.3 µm</td><td>—</td><td>—</td><td>Yes</td></tr>
+  </tbody>
+</table>

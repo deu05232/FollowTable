@@ -1,0 +1,15 @@
+<table>
+  <caption>Error Limits for Combined-Harmonic Active Energy by Test Waveform Definition and Harmonic Power Factor (Classes 0.5S, 1, 2)</caption>
+  <thead>
+    <tr><th rowspan="2">Waveform definition</th><th rowspan="2">Harmonic set (illustrative)</th><th rowspan="2">Harmonic power factor cosΦ</th><th colspan="3">Maximum permissible error for combined-harmonic active energy (%)</th></tr>
+    <tr><th>Class 0.5S</th><th>Class 1</th><th>Class 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WF-A: odd harmonics only, amplitude decreases with order</td><td>h = 3,5,7,9,11</td><td>1.0</td><td>±1.8</td><td>±2.8</td><td>±6.0</td></tr>
+    <tr><td>WF-A: odd harmonics only, amplitude decreases with order</td><td>h = 3,5,7,9,11</td><td>0.5 (lagging)</td><td>±2.5</td><td>±4.0</td><td>±8.0</td></tr>
+    <tr><td>WF-B: mixed odd/even harmonics, higher crest factor</td><td>h = 2,3,5,7,11,13</td><td>1.0</td><td>±2.0</td><td>±3.2</td><td>±7.0</td></tr>
+    <tr><td>WF-B: mixed odd/even harmonics, higher crest factor</td><td>h = 2,3,5,7,11,13</td><td>0.5 (lagging)</td><td>±2.8</td><td>±4.5</td><td>±9.0</td></tr>
+    <tr><td>WF-C: interharmonic-free, dominant 5th and 7th</td><td>h = 5,7 (dominant) + 3,9 (minor)</td><td>1.0</td><td>±1.6</td><td>±2.5</td><td>±5.5</td></tr>
+    <tr><td>WF-C: interharmonic-free, dominant 5th and 7th</td><td>h = 5,7 (dominant) + 3,9 (minor)</td><td>0.5 (lagging)</td><td>±2.3</td><td>±3.8</td><td>±8.0</td></tr>
+  </tbody>
+</table>

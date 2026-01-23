@@ -1,0 +1,10 @@
+<table>
+  <caption>Traffic Accident Early Warning Record — Time + Construction Scheduling Fields</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Traffic Accident Report Receipt Time</td><td>Date</td><td>16</td><td>No</td><td>Yes</td><td>Format shall comply with 6.2</td></tr>
+  <tr><td>2</td><td>Construction Name</td><td>Character</td><td>128</td><td>Yes</td><td>Yes</td><td>Road-occupying construction / closure construction, etc.</td></tr>
+  <tr><td>3</td><td>Construction Type</td><td>Character</td><td>4</td><td>Yes</td><td>Yes</td><td>Code shall comply with Table A.3</td></tr>
+  <tr><td>4</td><td>Planned Construction Start Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Format shall comply with 6.2</td></tr>
+  <tr><td>5</td><td>Estimated End Time of Traffic-Impacting Event</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Format shall comply with 6.2</td></tr>
+  <tr><td>6</td><td>Estimated Traffic Recovery Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Format shall comply with 6.2</td></tr>
+</table>

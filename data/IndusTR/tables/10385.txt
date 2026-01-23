@@ -1,0 +1,15 @@
+<table>
+  <caption>Administrative Enterprise Information Dictionary (Field Codes Replaced by Headings/Grouped Labels)</caption>
+  <thead>
+    <tr><th>Group Heading</th><th>Enterprise Data Item</th><th>Identifier Style</th><th>Format</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Basic Profile</td><td>Enterprise Name</td><td>See group code: BASIC_*</td><td>Up to 100 chars</td><td>"Acme Trading Co., Ltd."</td></tr>
+    <tr><td>Basic Profile</td><td>Unified Social Credit Code</td><td>See group code: BASIC_*</td><td>18 chars</td><td>"9132XXXXXXXXXXXXXX"</td></tr>
+    <tr><td>Basic Profile</td><td>Legal Representative</td><td>See group code: BASIC_*</td><td>Up to 50 chars</td><td>"Li Ming"</td></tr>
+    <tr><td>Registration Info</td><td>Registered Address</td><td>See group code: REG_*</td><td>Up to 255 chars</td><td>"No. 1, XX Road, City"</td></tr>
+    <tr><td>Registration Info</td><td>Establishment Date</td><td>See group code: REG_*</td><td>YYYY-MM-DD</td><td>"2016-08-12"</td></tr>
+    <tr><td>Registration Info</td><td>Registration Authority</td><td>See group code: REG_*</td><td>Up to 120 chars</td><td>"Municipal Market Supervision Bureau"</td></tr>
+    <tr><td>Operations</td><td>Business Scope</td><td>See group code: OPS_*</td><td>Long text</td><td>"General items: ..."</td></tr>
+  </tbody>
+</table>

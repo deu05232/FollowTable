@@ -1,0 +1,11 @@
+# Top Gear Test Track — Track Condition Adjustments and Lap-Time Normalization
+
+| Condition code | Description | Typical adjustment | Applied to | Example vehicle | Example raw lap | Example adjusted lap |
+| --- | --- | --- | --- | --- | --- | --- |
+| H | Hot track; heat affects grip and power | −2 s | Power Laps | Pagani Huayra | 01:14.0 | 01:12.0 |
+| MM | Mildly moist / damp patches | −2 s | Power Laps | BAC Mono | 01:16.3 | 01:14.3 |
+| M | Moist after a shower | −3 s | Power Laps | Ariel Atom V8 500 | 01:18.1 | 01:15.1 |
+| W | Wet / melted snow | −4 s | Power Laps | Nissan GT-R (2012) | 01:21.8 | 01:17.8 |
+| C | Cold ambient; tires struggle to warm | −1 s | Power Laps | Noble M600 | 01:18.7 | 01:17.7 |
+| X | Mixed conditions; partial drying line | −2 s (est.) | Power Laps | Koenigsegg CCX (with wing) | 01:19.6 | 01:17.6 |
+| DQ | Disqualified run (off-track / timing issue) | N/A | Power Laps | "Test mule" | N/A | N/A |

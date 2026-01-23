@@ -1,0 +1,7 @@
+<table>
+  <caption>Knitting machine setup parameters for beams and guides (configuration dictionary)</caption>
+  <tr><td>Index</td><td>Parameter</td><td>Parameter English</td><td>Writable</td><td>Data Type</td><td>Valid Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>0X0C10</td><td>Beam Outer Circumference</td><td>BeamOuterCircumference</td><td>RW</td><td>Int32</td><td>10~20000</td><td>mm</td><td>Initial outer circumference used for let-off calculation</td></tr>
+  <tr><td>0X0C11</td><td>Beam Inner Circumference</td><td>BeamInnerCircumference</td><td>RW</td><td>Int32</td><td>10~10000</td><td>mm</td><td>Initial inner circumference used for let-off calculation</td></tr>
+  <tr><td>0X0E10</td><td>Guide Offset Angle</td><td>GuideOffsetAngle</td><td>RW</td><td>Int32</td><td>0~360</td><td>deg</td><td>Guide bar offset angle setting</td></tr>
+</table>

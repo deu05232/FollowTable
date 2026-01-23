@@ -1,0 +1,11 @@
+# Network Application Signatures  BitTorrent and Other Protocol Classification Notes
+
+| Protocol/App Family | Example Product | Identification Clues | Known Misclassification | Affected Component | BitTorrent Client Example | Notes |
+|---|---|---|---|---|---|---|
+| BitTorrent | NBAR/IDS Signature | Peer-to-peer patterns | May be seen as HTTP | L7 classifier | BitComet | Signature-centric |
+| Conferencing | LiveMeeting | TLS tunnels | Seen as Lync | L7 classifier | — | Not torrent-specific |
+| Streaming | Hulu | Encrypted RTMPE | Seen as RTMP | L7 classifier | — | Unrelated |
+| Remote Access | LogMeIn | SSL encapsulation | Seen as SSL | L7 classifier | — | Unrelated |
+| Messaging | MS Lync | Login/chat | Seen as SSL | L7 classifier | — | Unrelated |
+| Virtual Worlds | Second Life | Voice traffic | Seen as SSL | L7 classifier | — | Unrelated |
+| BitTorrent | Traffic Patterns | DHT/PEX behaviors | Seen as HTTPS | Firewall/Proxy | qBittorrent | Still network-centric |

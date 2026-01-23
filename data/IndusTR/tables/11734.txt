@@ -1,0 +1,15 @@
+<table>
+  <caption>Operating Mode Definitions and Typical Power Ranges for Copiers and Multifunction Devices (No step-by-step workflow)</caption>
+  <thead>
+    <tr><th>Mode/State</th><th>Definition (summary)</th><th>Entry Condition</th><th>Exit Condition</th><th>Typical Power Range (W)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Off</td><td>Main power disconnected or soft-off with minimal electronics active</td><td>User presses power-off or disconnects mains</td><td>User presses power-on</td><td>0.0–1.0</td><td>Some devices cannot reach true zero</td></tr>
+    <tr><td>Ready</td><td>Device is idle but can start a job immediately</td><td>Warm-up completes</td><td>Sleep timer expires or job starts</td><td>20–120</td><td>May include periodic fuser cycling</td></tr>
+    <tr><td>Sleep (Level 1)</td><td>Reduced power with quick wake</td><td>Inactivity timer 1 expires</td><td>Wake event (panel/network)</td><td>1–30</td><td>Network may remain active</td></tr>
+    <tr><td>Deep Sleep (Level 2)</td><td>Further reduced power with longer wake</td><td>Inactivity timer 2 expires</td><td>Wake event</td><td>0.5–10</td><td>May disable some interfaces</td></tr>
+    <tr><td>Printing/Copying</td><td>Active job processing with imaging and fusing</td><td>Job starts</td><td>Job ends</td><td>300–1500</td><td>Highly dependent on speed and technology</td></tr>
+    <tr><td>Warm-up</td><td>Heaters ramp to operating temperature</td><td>Power-on or wake from deep sleep</td><td>Ready indicated</td><td>200–1200</td><td>Short duration but high energy draw</td></tr>
+    <tr><td>Auto-off</td><td>Low-power state approaching off but still connected</td><td>Extended inactivity</td><td>User wakes or scheduled event</td><td>0.2–5</td><td>Terminology varies by manufacturer</td></tr>
+  </tbody>
+</table>

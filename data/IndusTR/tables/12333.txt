@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Creation (Host Runtime Wiring) Parameters</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Host runtime</td><td>runtime_env</td><td>void *</td><td>in</td><td>Opaque pointer to the host runtime environment used to bootstrap the AR session.</td></tr>
+    <tr><td>Host runtime</td><td>runtime_context</td><td>void *</td><td>in</td><td>Opaque pointer to the host context (e.g., application/engine context) required during session initialization.</td></tr>
+    <tr><td>Creation options</td><td>create_flags</td><td>uint32_t</td><td>in</td><td>Bitmask controlling initialization behavior (validation level, debug hooks, or compatibility mode).</td></tr>
+    <tr><td>Creation options</td><td>requested_feature_count</td><td>uint32_t</td><td>in</td><td>Number of features requested at session creation time.</td></tr>
+    <tr><td>Creation options</td><td>requested_features</td><td>const ArSessionFeature *</td><td>in</td><td>Pointer to an array describing features/extensions requested at startup.</td></tr>
+    <tr><td>Diagnostics</td><td>out_missing_feature_count</td><td>uint32_t *</td><td>out</td><td>Receives the number of requested features that could not be enabled (optional; may be NULL).</td></tr>
+    <tr><td>Diagnostics</td><td>out_missing_features</td><td>ArSessionFeature *</td><td>out</td><td>Caller-provided buffer that receives the unsupported feature IDs (optional; may be NULL).</td></tr>
+    <tr><td>Output</td><td>out_session</td><td>ArSession **</td><td>out</td><td>Receives the newly created session handle/pointer on success.</td></tr>
+  </tbody>
+</table>

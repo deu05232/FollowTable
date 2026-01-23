@@ -1,0 +1,19 @@
+<table>
+  <caption>Mean Lunar Surface Reflectance by Terrain Class (No Latitude/Longitude)</caption>
+  <thead>
+    <tr><th>Hierarchy</th><th>Terrain / Unit</th><th>Typical Reflectance (0.55 μm)</th><th>Albedo Proxy Type</th><th>Sample Count</th><th>Std. Dev.</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Highlands</td><td>Feldspathic highlands</td><td>0.18</td><td>Bidirectional reflectance (normalized)</td><td>120</td><td>0.03</td><td>Bright anorthositic terrain</td></tr>
+    <tr><td>Swirl deposits</td><td>0.22</td><td>Reflectance ratio</td><td>18</td><td>0.02</td><td>Localized high-albedo features</td></tr>
+    <tr><td>Impact ejecta (fresh)</td><td>0.20</td><td>Geometric-albedo proxy</td><td>44</td><td>0.04</td><td>Higher reflectance due to immaturity</td></tr>
+    <tr><td>Impact ejecta (mature)</td><td>0.16</td><td>Geometric-albedo proxy</td><td>61</td><td>0.03</td><td>Darkens with space weathering</td></tr>
+    <tr><td>Crater rays</td><td>0.21</td><td>Reflectance ratio</td><td>30</td><td>0.05</td><td>Strongly angle-dependent</td></tr>
+    <tr><td>Highland regolith (average)</td><td>0.17</td><td>Lambert-equivalent albedo</td><td>200</td><td>0.03</td><td>Class average, not location-specific</td></tr>
+    <tr><td rowspan="5">Maria</td><td>Basaltic mare (low-Ti)</td><td>0.09</td><td>Lambert-equivalent albedo</td><td>150</td><td>0.02</td><td>Darker basalt plains</td></tr>
+    <tr><td>Basaltic mare (high-Ti)</td><td>0.07</td><td>Lambert-equivalent albedo</td><td>95</td><td>0.02</td><td>Typically lowest reflectance</td></tr>
+    <tr><td>Mare ridges</td><td>0.08</td><td>Reflectance (normalized)</td><td>33</td><td>0.02</td><td>Textural effects</td></tr>
+    <tr><td>Pyroclastic deposits</td><td>0.06</td><td>Geometric-albedo proxy</td><td>27</td><td>0.01</td><td>Very low reflectance mantling</td></tr>
+    <tr><td>Mare regolith (average)</td><td>0.08</td><td>Lambert-equivalent albedo</td><td>210</td><td>0.02</td><td>Class average, not location-specific</td></tr>
+  </tbody>
+</table>

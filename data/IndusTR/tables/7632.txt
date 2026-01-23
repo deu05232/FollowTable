@@ -1,0 +1,15 @@
+<table>
+  <caption>Fixed Character Stream Rules for Traditional Mongolian Control Characters (MVS, FVS1–FVS3, NNBSP)</caption>
+  <thead>
+    <tr><th>Rule / Pattern</th><th>Control Character(s)</th><th>Fixed Character Sequence (copyable)</th><th>Where it applies (context constraint)</th><th>Notes / Implementation hint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MVS before A/E to force non-default shape</td><td>MVS (U+180B)</td><td>[U+180B]+[U+1820] or [U+180B]+[U+1821]</td><td>At the start of a glyph sequence or immediately after a joining letter</td><td>Place MVS directly before the target vowel code point; do not insert ZWJ/space between them.</td></tr>
+    <tr><td>MVS inside a multi-letter stem (A … GA … A)</td><td>MVS (U+180B)</td><td>[U+180B]+[U+1820]+[U+1834]+[U+1820]</td><td>Within a word; the MVS affects the immediately following letter</td><td>Useful when the first vowel needs a specific positional form independent of surrounding joins.</td></tr>
+    <tr><td>MVS + A + GA + A + DA + A + BA (long fixed stream)</td><td>MVS (U+180B)</td><td>[U+180B]+[U+1820]+[U+1834]+[U+1820]+[U+182D]+[U+1820]+[U+182A]</td><td>Complex stems where multiple joins can change rendering</td><td>This is a “fully specified” stream pattern; keep the order exactly as written.</td></tr>
+    <tr><td>FVS1 attached to a single letter</td><td>FVS1 (U+180C)</td><td>[U+1828]+[U+180C]</td><td>Immediately after the base Mongolian letter</td><td>Variation selectors must directly follow the letter they modify.</td></tr>
+    <tr><td>FVS2 attached to a single letter</td><td>FVS2 (U+180D)</td><td>[U+182D]+[U+180D]</td><td>Immediately after the base Mongolian letter</td><td>Do not place combining marks or punctuation between the letter and the selector.</td></tr>
+    <tr><td>FVS3 attached to a single letter</td><td>FVS3 (U+180E)</td><td>[U+1834]+[U+180E]</td><td>Immediately after the base Mongolian letter</td><td>If the font does not support the selector, it may render as a dotted box but the stream is still valid.</td></tr>
+    <tr><td>NNBSP used to block unwanted joining between morphemes</td><td>NNBSP (U+202F)</td><td>[U+182E]+[U+202F]+[U+1820]</td><td>Between two Mongolian letters where you must prevent shaping across the boundary</td><td>NNBSP is a spacing character; it may behave differently from ZWJ/ZWNJ in some engines.</td></tr>
+  </tbody>
+</table>

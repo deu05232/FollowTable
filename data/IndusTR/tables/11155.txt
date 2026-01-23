@@ -1,0 +1,16 @@
+<table>
+  <caption>Road Works Early Warning Timing Elements (Non-Accident Event)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Constraints / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Work Zone Identifier</td><td>Character</td><td>32</td><td>No</td><td>Yes</td><td>Unique identifier for the planned road works notice</td></tr>
+    <tr><td>2</td><td>Work Zone Name</td><td>Character</td><td>256</td><td>Yes</td><td>Yes</td><td>Includes road name, section, nearby landmark</td></tr>
+    <tr><td>3</td><td>Planned Start Time</td><td>DateTime</td><td>16</td><td>No</td><td>Yes</td><td>Format: YYYYMMDDhhmm; shall comply with time encoding rule 6.2</td></tr>
+    <tr><td>4</td><td>Planned End Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>If unknown, leave null; otherwise must be later than Planned Start Time</td></tr>
+    <tr><td>5</td><td>Actual Start Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>No</td><td>Recorded when work begins; must not be earlier than Planned Start Time by more than 24h</td></tr>
+    <tr><td>6</td><td>Expected Clearance Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>Expected time when lanes are reopened; must be ≥ Actual Start Time</td></tr>
+    <tr><td>7</td><td>Lane Occupancy Schedule</td><td>Character</td><td>512</td><td>Yes</td><td>No</td><td>Hierarchy example: Phase1(22:00-06:00); Phase2(10:00-16:00)</td></tr>
+    <tr><td>8</td><td>Update Timestamp</td><td>DateTime</td><td>16</td><td>No</td><td>No</td><td>System-generated modification time</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Electric Compressor Test Conditions — Vibration Endurance Profile (Tri-axial)</caption>
+  <thead>
+    <tr><th rowspan="2">Operating mode</th><th colspan="3">Vibration direction</th><th rowspan="2">Frequency band (Hz)</th><th rowspan="2">Sweep period (min)</th><th rowspan="2">Acceleration (g RMS)</th><th rowspan="2">Acceptance criteria</th></tr>
+    <tr><th>Up/Down</th><th>Front/Rear</th><th>Left/Right</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Shipping simulation</td><td>X</td><td>X</td><td>X</td><td>10–200</td><td>5</td><td>1.5</td><td>No functional interruption</td></tr>
+    <tr><td>Vehicle idle</td><td>X</td><td></td><td>X</td><td>20–80</td><td>10</td><td>0.8</td><td>No abnormal noise</td></tr>
+    <tr><td>Road vibration</td><td>X</td><td>X</td><td>X</td><td>30–300</td><td>3</td><td>2.0</td><td>No visible damage</td></tr>
+    <tr><td>Resonance search</td><td>X</td><td>X</td><td>X</td><td>5–500</td><td>2</td><td>0.5</td><td>Record resonance peaks</td></tr>
+    <tr><td>Endurance vibration</td><td>X</td><td>X</td><td>X</td><td>50–250</td><td>2</td><td>3.0</td><td>Performance within ±10%</td></tr>
+    <tr><td>Post-test check</td><td></td><td></td><td></td><td>N/A</td><td>N/A</td><td>N/A</td><td>Leak-tight, insulation pass</td></tr>
+  </tbody>
+</table>

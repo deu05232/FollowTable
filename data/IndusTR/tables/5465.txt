@@ -1,0 +1,11 @@
+<table>
+  <caption>Thermal Bonding Equipment Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Hot roll set pressure</td><td>HotRollSetPressure</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~150.00</td><td>N/mm</td><td>丨</td><td></td></tr>
+  <tr><td>0X0201</td><td>Hot roll set temperature</td><td>HotRollSetTemperature</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~300.00</td><td>℃</td><td>丨</td><td></td></tr>
+  <tr><td>0X0202</td><td>Hot roll set line speed</td><td>HotRollSetLineSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1200.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0203</td><td>Hot air net curtain set speed</td><td>HotAirNetCurtainSettingSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~500.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0204</td><td>Hot air set temperature</td><td>HotAirSetTemperature</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~300.00</td><td>℃</td><td>丨</td><td></td></tr>
+  <tr><td>0X0205</td><td>Blower set speed</td><td>SetSpeedOfBlower</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5 000.00</td><td>r/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0206</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+</table>

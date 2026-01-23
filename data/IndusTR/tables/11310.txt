@@ -1,0 +1,18 @@
+<table>
+  <caption>Official Vehicle Staffing Quota & Allocation Reference</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Organization Code</td><td>Character</td><td>an..18</td><td>Unified organization identifier</td></tr>
+    <tr><td>2</td><td>Organization Name</td><td>Character</td><td>an..100</td><td>Unit name</td></tr>
+    <tr><td>3</td><td>Total Vehicle Staffing Quota</td><td>Numeric</td><td>n..10</td><td>Total approved official vehicle quota</td></tr>
+    <tr><td>4</td><td>Confidential Communications Vehicle Quota</td><td>Numeric</td><td>n..10</td><td>Approved quota for confidential communications vehicles</td></tr>
+    <tr><td>5</td><td>Emergency Support Vehicle Quota</td><td>Numeric</td><td>n..10</td><td>Approved quota for emergency support vehicles</td></tr>
+    <tr><td>6</td><td>Law Enforcement Vehicle Quota</td><td>Numeric</td><td>n..10</td><td>Approved quota for law enforcement duty</td></tr>
+    <tr><td>7</td><td>Leadership Service Vehicle Quota</td><td>Numeric</td><td>n..10</td><td>Approved quota for leadership service vehicles</td></tr>
+    <tr><td>8</td><td>Quota Approval Document No.</td><td>Character</td><td>an..40</td><td>Reference number of the approval document</td></tr>
+    <tr><td>9</td><td>Approval Effective Date</td><td>Date</td><td>YYYYMMDD</td><td>Date when the quota becomes effective</td></tr>
+    <tr><td>10</td><td>Remarks</td><td>Character</td><td>an..200</td><td>Additional notes</td></tr>
+  </tbody>
+</table>

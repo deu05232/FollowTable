@@ -1,0 +1,10 @@
+<table>
+  <caption>Initialization Vector Records and Key Indexes (not key-role focused)</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Index number of initialization vector V1</td><td>6</td><td>Index number of default IV</td></tr>
+  <tr><td>Initialization vector V1</td><td>16</td><td>Default IV value</td></tr>
+  <tr><td>Index number of initialization vector V2</td><td>6</td><td>Index number of backup IV</td></tr>
+  <tr><td>Initialization vector V2</td><td>16</td><td>Backup IV value</td></tr>
+  <tr><td>KeyID associated with IV set</td><td>1</td><td>Key identifier that selects which IV set is used</td></tr>
+  <tr><td>IV status</td><td>1</td><td>00: active; 01: deprecated; 02: reserved</td></tr>
+</table>

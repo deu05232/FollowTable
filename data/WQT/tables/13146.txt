@@ -1,0 +1,7 @@
+# # RFC1918 private IPv4 ranges by CIDR and purpose
+
+| Address block (CIDR) | Range | Label | Typical use |
+| --- | --- | --- | --- |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | 24-bit block | Enterprise private addressing |
+| 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | 20-bit block | Private addressing across multiple subnets |
+| 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | 16-bit block | Home / small office private LANs |

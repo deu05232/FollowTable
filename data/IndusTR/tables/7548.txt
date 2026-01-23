@@ -1,0 +1,10 @@
+<table>
+  <caption>SM9 Interface Summary: Sign/Verify with Agreement Notes (Mixed Topics)</caption>
+  <tr><th>Function</th><th>Prototype</th><th>Purpose</th></tr>
+  <tr><td>SAF_SM9Sign</td><td>int SAF_SM9Sign(void *hAppHandle, unsigned char *pucContainerName, unsigned int uiContainerLen, unsigned int uiMasterPublicKeyIndex, unsigned char *pucData, unsigned int uiDataLength, unsigned char *pucSignData, unsigned int *puiSignDataLen);</td><td>Generate SM9 signature.</td></tr>
+  <tr><td>SAF_SM9Verify</td><td>int SAF_SM9Verify(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned char *pucData, unsigned int uiDataLength, unsigned char *pucSignData, unsigned int uiSignDataLen);</td><td>Verify SM9 signature.</td></tr>
+  <tr><td>Note</td><td colspan="2">Some deployments may also use SM9 key agreement to negotiate a session key before protecting signed payloads.</td></tr>
+  <tr><td>Compliance</td><td colspan="2">GB/T 41389.</td></tr>
+  <tr><td>Parameters</td><td colspan="2">Includes container name, master public key index, user identity, and signature buffers.</td></tr>
+  <tr><td>Scope</td><td colspan="2">This table is a general SM9 interface summary and is not limited to key agreement.</td></tr>
+</table>

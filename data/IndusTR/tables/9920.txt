@@ -1,0 +1,14 @@
+<table>
+  <caption>ARTrackingQuality Enumeration</caption>
+  <thead>
+    <tr><th>Enum Value</th><th>Description</th><th>Implication</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AR_TRACKING_QUALITY_NOT_AVAILABLE = 0</td><td>Tracking quality cannot be determined (insufficient data or unsupported).</td><td>Defer placement/measurement features.</td></tr>
+    <tr><td>AR_TRACKING_QUALITY_BAD = 1</td><td>Tracking is unstable due to poor features, motion blur, or low light.</td><td>Ask user to slow movement / improve lighting.</td></tr>
+    <tr><td>AR_TRACKING_QUALITY_LIMITED = 2</td><td>Tracking works but with noticeable drift or intermittent pose updates.</td><td>Allow interaction but reduce precision-sensitive UX.</td></tr>
+    <tr><td>AR_TRACKING_QUALITY_GOOD = 3</td><td>Tracking is stable with reliable pose estimation.</td><td>Enable normal placement and interaction.</td></tr>
+    <tr><td>AR_TRACKING_QUALITY_EXCELLENT = 4</td><td>Tracking is highly stable with strong feature coverage.</td><td>Enable high-precision experiences (measurement, anchors).</td></tr>
+    <tr><td>AR_TRACKING_QUALITY_RELOCALIZING = 5</td><td>System is actively trying to re-localize to a known map/area.</td><td>Limit content updates until relocalization completes.</td></tr>
+  </tbody>
+</table>

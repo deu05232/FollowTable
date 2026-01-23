@@ -1,0 +1,16 @@
+<table>
+  <caption>Facility Indicator Scoring by City Size (Mixed Facility Types)</caption>
+  <thead>
+    <tr><th>City size tier</th><th>Indicator item</th><th>Per-capita threshold (per million population)</th><th>Full score</th><th>Scoring rule when below threshold</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Mega city (≥10 million)</td><td>Last-mile joint distribution stations</td><td>≥20 stations</td><td>60</td><td>If <20: Score = 60 × (Actual/20)</td></tr>
+    <tr><td>Temporary truck parking spaces</td><td>≥20 spaces</td><td>100</td><td>If <20: Score = 100 × (Actual/20)</td></tr>
+    <tr><td rowspan="2">Very large city (5–10 million)</td><td>Last-mile joint distribution stations</td><td>≥30 stations</td><td>60</td><td>If <30: Score = 60 × (Actual/30)</td></tr>
+    <tr><td>Public distribution centers</td><td>≥1.2 centers</td><td>60</td><td>If <1.2: Score calculated by Formula (3)</td></tr>
+    <tr><td rowspan="2">Large city (1–5 million)</td><td>Last-mile joint distribution stations</td><td>≥15 stations</td><td>60</td><td>If <15: Score = 60 × (Actual/15)</td></tr>
+    <tr><td>Line-haul/feeder-connected freight hubs</td><td>≥0.3 hubs</td><td>60</td><td>If <0.3: Score calculated by Formula (1)</td></tr>
+    <tr><td rowspan="2">Medium city (0.5–1 million)</td><td>Last-mile joint distribution stations</td><td>≥10 stations</td><td>60</td><td>If <10: Score = 60 × (Actual/10)</td></tr>
+    <tr><td>Temporary truck parking spaces</td><td>≥12 spaces</td><td>100</td><td>If <12: Score = 100 × (Actual/12)</td></tr>
+  </tbody>
+</table>

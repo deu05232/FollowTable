@@ -1,0 +1,7 @@
+<table>
+  <caption>Side-by-side comparison of gravitational force laws in Newtonian gravity vs bimetric gravity (same source mass and distance).</caption>
+  <tr><th>Setup</th><th>Newtonian gravity: F(r)</th><th>Bimetric gravity: F(r)</th><th>Notes</th></tr>
+  <tr><td>Point masses (m, M) separated by r</td><td>F = G m M / r^2</td><td>F = G_eff m M / r^2</td><td>G_eff depends on bimetric couplings</td></tr>
+  <tr><td>Weak-field with Yukawa-like correction</td><td>F = G m M / r^2</td><td>F = (G m M / r^2) · [1 + α · (1 + r/λ) · e^{-r/λ}]</td><td>α, λ set by massive mode</td></tr>
+  <tr><td>Inside uniform-density sphere (r < R)</td><td>F ∝ r</td><td>F ∝ r · (1 + δ(r))</td><td>δ(r) encodes deviation profile</td></tr>
+</table>

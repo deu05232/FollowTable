@@ -1,0 +1,14 @@
+<table>
+  <caption>Transport Layer Segmented Transfer Frames and Reliability Signaling (Data + ACK/NACK)</caption>
+  <thead>
+    <tr><th>Message Type</th><th>P</th><th>EDP</th><th>DP</th><th>PF</th><th>PS</th><th>SA</th><th>Data Byte 1</th><th>Data Byte 2</th><th>Data Byte 3</th><th>Data Byte 4</th><th>Data Byte 5</th><th>Data Byte 6</th><th>Data Byte 7</th><th>Data Byte 8</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Segmented Data - First Frame</td><td>0x06</td><td>0</td><td>0</td><td>0x36</td><td>Dest Addr</td><td>Src Addr</td><td>Seq=0</td><td>Total Frames</td><td colspan="2">Total Bytes (MSB, LSB)</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+    <tr><td>Segmented Data - Consecutive Frame</td><td>0x06</td><td>0</td><td>0</td><td>0x36</td><td>Dest Addr</td><td>Src Addr</td><td>Seq>0</td><td colspan="7">Application parameter group continuation (pad 0xFF if <8)</td></tr>
+    <tr><td>ACK (Positive Acknowledge)</td><td>0x03</td><td>0</td><td>0</td><td>0x37</td><td>Dest Addr</td><td>Src Addr</td><td>ACK</td><td>Start Seq Expected</td><td>Frames Accepted</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+    <tr><td>NACK (Negative Acknowledge)</td><td>0x03</td><td>0</td><td>0</td><td>0x37</td><td>Dest Addr</td><td>Src Addr</td><td>NACK</td><td>Error Code</td><td>Rejected Seq</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+    <tr><td>Flow Control (CTS)</td><td>0x03</td><td>0</td><td>0</td><td>0x37</td><td>Dest Addr</td><td>Src Addr</td><td>CTS</td><td>Next Seq To Send</td><td>Block Size</td><td>Separation Time</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+    <tr><td>Flow Control (WAIT)</td><td>0x03</td><td>0</td><td>0</td><td>0x37</td><td>Dest Addr</td><td>Src Addr</td><td>WAIT</td><td>Reason</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+  </tbody>
+</table>

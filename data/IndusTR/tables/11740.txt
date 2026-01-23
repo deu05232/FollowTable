@@ -1,0 +1,11 @@
+<table>
+  <caption>Step-by-step procedure for measuring Sleep Mode power and delay times (copier/MFD)</caption>
+  <tr><th>Step</th><th>Initial state</th><th>Action to perform</th><th>Record (at end of step)</th><th>Measurement unit</th><th>Possible measurement state</th></tr>
+  <tr><td>1</td><td>Ready</td><td>Confirm the device has completed warm-up and is stable in the ready state; do not start any job.</td><td>Ready stabilization time</td><td>min</td><td>Ready</td></tr>
+  <tr><td>2</td><td>Ready</td><td>Start the power meter logging; observe until power becomes stable for the ready state.</td><td>Ready power, PREADY</td><td>W</td><td>Ready</td></tr>
+  <tr><td>3</td><td>Ready</td><td>Leave the device idle and wait for the default transition into sleep mode.</td><td>Default delay time to Sleep 1</td><td>min</td><td>Sleep 1</td></tr>
+  <tr><td>4</td><td>Sleep 1</td><td>After entering Sleep 1, continue logging until the power reading is stable.</td><td>Sleep 1 power, PS1</td><td>W</td><td>Sleep 1</td></tr>
+  <tr><td>5</td><td>Sleep 1</td><td>If a deeper sleep level exists, keep the device idle and wait for the next automatic transition.</td><td>Additional delay time to Sleep 2</td><td>min</td><td>Sleep 2</td></tr>
+  <tr><td>6</td><td>Sleep 2</td><td>After entering Sleep 2, continue logging until the power reading is stable.</td><td>Sleep 2 power, PS2</td><td>W</td><td>Sleep 2</td></tr>
+  <tr><td>7</td><td>Sleep 2</td><td>Wake the device using the default method (e.g., control panel or opening a cover) without starting a print job.</td><td>Wake-up time to Ready</td><td>s</td><td>Ready</td></tr>
+</table>

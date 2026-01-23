@@ -1,0 +1,14 @@
+<table>
+  <caption>Link-Layer Version Negotiation Payload (Charger→Vehicle) — Byte-Level Parameters</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Field Name</th><th>Length (bytes)</th><th>Data Type</th><th>Allowed / Encoding</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>CANType</td><td>1</td><td>BYTE</td><td>0x00=CAN2.0B; 0x01=CAN FD; 0x02=CAN XL</td><td>Indicates the CAN physical/data-link capability used for the session. Shall not be used by the receiver to decide version negotiation outcome; higher protocol versions remain backward compatible.</td></tr>
+    <tr><td>1</td><td>VersionResultType</td><td>1</td><td>BYTE</td><td>0x00=Continue; 0x01=Success; 0x02=Fail</td><td>Charger-side result for the current negotiation step.</td></tr>
+    <tr><td>2</td><td>ProtocolVersion.Major (BYTE1)</td><td>1</td><td>BYTE</td><td>Unsigned integer (0x00–0xFF)</td><td>Major version number (BYTE1). Used for numerical comparison.</td></tr>
+    <tr><td>3</td><td>ProtocolVersion.Minor (BYTE2)</td><td>1</td><td>BYTE</td><td>Unsigned integer (0x00–0xFF)</td><td>Minor version number (BYTE2). Used for numerical comparison.</td></tr>
+    <tr><td>4</td><td>ProtocolVersion.Provisional (BYTE3)</td><td>1</td><td>BYTE</td><td>Unsigned integer (0x00–0xFF)</td><td>Provisional/patch version number (BYTE3). Example: (0x01,0x02,0x03) represents V1.2.3.</td></tr>
+    <tr><td>2–4</td><td>ProtocolVersionType (composite)</td><td>3</td><td>BYTE[3]</td><td>BYTE1=Major; BYTE2=Minor; BYTE3=Provisional</td><td>When VersionResultType=0x01 (Success), this is the agreed version. When VersionResultType=0x00 (Continue), this is the charger's expected version for the next comparison. When VersionResultType=0x02 (Fail), set all three bytes to 0xFF (i.e., 0xFF 0xFF 0xFF).</td></tr>
+  </tbody>
+</table>

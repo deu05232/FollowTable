@@ -1,0 +1,18 @@
+<table>
+  <caption>SM2-Based Signed Data Encoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_SM2_EncodeSignedData(void * hAppHandle,unsigned char * pucSignContainerName,unsigned int uiSignContainerNameLen,unsigned int uiSignKeyUsage,unsigned char * pucSignerCertificate,unsigned int uiSignerCertificateLen,unsigned int uiDigestAlgorithms,unsigned char * pucData,unsigned int uiDataLen,unsigned char * pucDerSignedData,unsigned int * puiDerSignedDataLen)</td></tr>
+  <tr><td>Description</td><td>Encode signed data based on the SM2 algorithm</td></tr>
+  <tr><td rowspan="11">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucSignContainerName[in](key container name of the signing private key）</td></tr>
+  <tr><td>uiSignContainerNameLen[in](key container name length of the signing private key)</td></tr>
+  <tr><td>uiSignKeyUsage[in](private key usage)</td></tr>
+  <tr><td>pucSignerCertificate[in](signer certificate）</td></tr>
+  <tr><td>uiSignerCertificateLen[in](signer certificate length)</td></tr>
+  <tr><td>uiDigestAlgorithms[in](HASH algorithm identifier)</td></tr>
+  <tr><td>pucData[in](data to be signed)</td></tr>
+  <tr><td>uiDataLen[in](data length to be signed)</td></tr>
+  <tr><td>pucDerSignedData[out]（DER-encoded SignedData signed data; the SignedData data format definition shall comply with GB/T35275)</td></tr>
+  <tr><td>puiDerSignedDataLen[in,out]（signed data length）</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0（success)</td></tr>
+  <tr><td>Non-0(failure, return the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Traffic models and their qualitative assumptions (no performance statistics)</caption>
+  <tr><th>Model</th><th>Model type</th><th>Driver behavior assumption</th><th>Stochasticity</th><th>Notes</th></tr>
+  <tr><th>IDM</th><td>Car-following</td><td>Desired time headway</td><td>Low</td><td>Continuous acceleration model</td></tr>
+  <tr><th>NaSch</th><td>Cellular automaton</td><td>Rule-based update</td><td>High</td><td>Discrete speed and space</td></tr>
+  <tr><th>GFM</th><td>Car-following</td><td>Generalized force terms</td><td>Medium</td><td>Can show stop-and-go waves</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Mixed requirements table (voltage/frequency deviations combined with insulation and earthing)</caption>
+  <tr><th>Requirement category</th><th>Item</th><th>Limit / specification</th><th>Notes</th></tr>
+  <tr><td>Operating parameters</td><td>AC voltage steady-state deviation</td><td>+6% / -10%</td><td>During normal operation</td></tr>
+  <tr><td>Operating parameters</td><td>Frequency steady-state deviation</td><td>±5%</td><td>During normal operation</td></tr>
+  <tr><td>Operating parameters</td><td>Voltage transient deviation</td><td>±20%</td><td>Recover ≤ 1.5 s</td></tr>
+  <tr><td>Insulation</td><td>Minimum insulation resistance</td><td>≥ 1 MΩ</td><td>At specified test condition</td></tr>
+  <tr><td>Insulation</td><td>DC test voltage</td><td>500 V</td><td>For 250<U≤690 V circuits</td></tr>
+  <tr><td>Earthing</td><td>Protective conductor cross-section (Cu)</td><td>As per phase conductor sizing rule</td><td>Minimum Q per selected S</td></tr>
+  <tr><td>Earthing</td><td>Bonding continuity</td><td>To be verified</td><td>Acceptance required</td></tr>
+</table>

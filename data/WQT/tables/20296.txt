@@ -1,0 +1,12 @@
+# Private IPv4 Blocks for Internal Use (NAT-Oriented Summary)
+
+| Block category | CIDR | Address range | Intended environment | Notes |
+|---|---|---|---|---|
+| Private LAN (RFC1918) | 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Corporate intranet | Usually NATed to a public IP |
+| Private LAN (RFC1918) | 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | Enterprise segments | Often subdivided by site |
+| Private LAN (RFC1918) | 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | Home/SOHO | Common default gateway: 192.168.0.1 |
+| Link-local (often treated as private) | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Zero-config LAN | Not routable across subnets |
+| CGNAT (service-provider internal) | 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | ISP subscriber addressing | Shared space behind carrier NAT |
+| “Documentation examples” | 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Manuals/training | Should not appear on the public Internet |
+| “Documentation examples” | 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | Tutorials | Test-only addresses |
+| “Documentation examples” | 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | Sample configs | Test-only addresses |

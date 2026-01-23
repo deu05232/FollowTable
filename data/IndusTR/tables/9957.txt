@@ -1,0 +1,6 @@
+<table>
+  <caption>AR Environment Understanding Parameters (session/frame handles only)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer used to query per-frame state</td></tr>
+</table>

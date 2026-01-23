@@ -1,0 +1,15 @@
+<table>
+  <caption>Reactor-averaged fission heat release with fuel fractions and non-fission corrections (example mid-cycle)</caption>
+  <thead>
+    <tr><th rowspan="2">Isotope</th><th colspan="2">Fuel / fission contribution</th><th colspan="3">Energy terms (MeV)</th></tr>
+    <tr><th>Fission fraction</th><th>Initial enrichment (%)</th><th>Total per fission E_f (MeV/fission)</th><th>Neutron-capture add-on E_nc (MeV)</th><th>Delayed β/γ term ΔE_βγ (MeV)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>U-235</td><td>0.55</td><td>3.5</td><td>202.0</td><td>8.6</td><td>0.35</td></tr>
+    <tr><td>U-238 (fast fission)</td><td>0.08</td><td>96.5</td><td>205.5</td><td>10.9</td><td>0.33</td></tr>
+    <tr><td>Pu-239</td><td>0.30</td><td>0.0</td><td>210.0</td><td>11.3</td><td>0.30</td></tr>
+    <tr><td>Pu-241</td><td>0.07</td><td>0.0</td><td>213.4</td><td>10.7</td><td>0.29</td></tr>
+    <tr><td>Am-241 (capture-dominated)</td><td><0.01</td><td>0.0</td><td>0.0</td><td>6.5</td><td>0.00</td></tr>
+    <tr><td>Subtotal (weighted)</td><td>1.00</td><td>—</td><td>206.2</td><td>10.0</td><td>0.31</td></tr>
+  </tbody>
+</table>

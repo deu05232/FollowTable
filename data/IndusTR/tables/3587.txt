@@ -1,0 +1,7 @@
+<table>
+  <caption>Base Station Working Status Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumeration Value</td><td>Description</td></tr>
+  <tr><td rowspan="3">vrBaseStatus</td><td>VR_BASE_STATUS_USE_ATTITUDE_ON=0x00</td><td>Attitude mode enabled</td></tr>
+  <tr><td>VR_BASE_STATUS_USE_ATTITUDE_OFF=0x01</td><td>Attitude mode disabled</td></tr>
+  <tr><td>0x02~0xFF</td><td>Reserved</td></tr>
+</table>

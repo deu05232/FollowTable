@@ -1,0 +1,25 @@
+<table>
+  <caption>Management System Certification Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td>Name of the certification applicant (certificate holder)</td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C.50</td><td></td><td></td></tr>
+  <tr><td>Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>Document Number</td><td>CerNo</td><td>C..18</td><td></td><td></td></tr>
+  <tr><td>Certification Certificate Number</td><td>AttCertNo</td><td>C..50</td><td></td><td></td></tr>
+  <tr><td>Certification Type</td><td>AttType</td><td>C1</td><td>1:Mandatory;2:Voluntary</td><td></td></tr>
+  <tr><td>Management System Category</td><td>ManaSysType</td><td>C..30</td><td></td><td>Including quality management system, environmental management system, occupational health and safety management system, etc.</td></tr>
+  <tr><td>Standards the Management System Conforms To</td><td>AccordedStand</td><td>C..200</td><td></td><td></td></tr>
+  <tr><td>Applicable Scope of the Management System</td><td>AppliedScope</td><td>C..2000</td><td></td><td></td></tr>
+  <tr><td>Initial Certificate Issue Date</td><td>FirstIssDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Current Certificate Issue Date</td><td>IssDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Certification Certificate Valid From</td><td>AttestCertFrom</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Certification Certificate Valid To</td><td>AttestCertTo</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Certification Certificate Surveillance/Verification Information</td><td>AttestCertExam</td><td>C..ul</td><td></td><td>Conclusions of the certification body’s staged surveillance/verification of the certification certificate</td></tr>
+  <tr><td>Certification Body Name</td><td>AttestOrgName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Certification Body Address</td><td>AttestOrgAdd</td><td>C..200</td><td></td><td></td></tr>
+  <tr><td>Person in Charge of the Certification Body</td><td>AttestOrgHead</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Contact Phone Number</td><td>Tel</td><td>C..20</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Unit</td><td>S_Ext_FromNode</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>SpaceFibre Training and Synchronization State Machine (Implementation States)</caption>
+  <tr><th>State</th><th>Entry Condition</th><th>Exit Condition</th><th>Timeout</th><th>Actions</th></tr>
+  <tr><td>RESET</td><td>Power-on or external reset</td><td>Reset deasserted</td><td>-</td><td>Clear counters; disable TX</td></tr>
+  <tr><td>TRAINING</td><td>Reset deasserted</td><td>Comma acquired + CDR locked</td><td>100 ms</td><td>Send training sequence</td></tr>
+  <tr><td>SYNC</td><td>CDR locked</td><td>Valid alignment for N words</td><td>50 ms</td><td>Deskew lanes; align word boundaries</td></tr>
+  <tr><td>READY</td><td>SYNC complete</td><td>Error threshold exceeded</td><td>-</td><td>Normal transmit/receive</td></tr>
+  <tr><td>RECOVERY</td><td>CRC alarms or decoder errors</td><td>Error rate returns to nominal</td><td>200 ms</td><td>Throttle traffic; request retransmit</td></tr>
+  <tr><td>FAIL</td><td>Repeated recovery failure</td><td>Manual reset</td><td>-</td><td>Log fault; hold link down</td></tr>
+</table>

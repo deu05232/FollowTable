@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Information Query Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.9</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Information Query</td></tr>
+  <tr><td>Test Objective</td><td>Verify the logistics terminal information query function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can be logged in normally; 2. Normal connection to the server; 3. UI buttons and input boxes can be used normally; 4. Logistics terminals that have an ordering/subscription relationship established with the platform can work normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Enter correct terminal login information on the logistics terminal to log in to the logistics platform; 2. Enter Logistics Terminal Information Query, and query by application business code, terminal serial number, terminal MSISDN, and terminal alias respectively; 3. View the query results</td></tr>
+  <tr><td>Pass Criteria</td><td>Terminal information such as terminal alias, terminal serial number, terminal MSISDN, terminal manufacturer, terminal owning user, business code of the applications subscribed by the terminal, terminal SMS traffic, terminal packet data traffic, terminal business data traffic, terminal management data traffic, terminal business usage charges, etc. can be queried</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

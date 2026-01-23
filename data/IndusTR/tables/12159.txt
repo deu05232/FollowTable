@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Trackable Metadata Retrieval Function Parameters</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Inputs</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session pointer.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Trackable to query for metadata.</td></tr>
+    <tr><td>metadata_key</td><td>ArTrackableMetadataKey</td><td>in</td><td>Which metadata entry to retrieve (for example, CLASSIFICATION, LABEL, or UID).</td></tr>
+    <tr><td rowspan="4">Outputs</td><td>out_data</td><td>void *</td><td>out</td><td>Caller-allocated buffer that receives the metadata bytes.</td></tr>
+    <tr><td>out_data_capacity</td><td>int32_t</td><td>in</td><td>Size of out_data in bytes.</td></tr>
+    <tr><td>out_data_size</td><td>int32_t *</td><td>out</td><td>Receives the number of bytes written to out_data (or required size if capacity is insufficient).</td></tr>
+    <tr><td>out_data_type</td><td>ArMetadataType *</td><td>out</td><td>Receives the type of the returned metadata (for example, STRING, INT32, FLOAT).</td></tr>
+  </tbody>
+</table>

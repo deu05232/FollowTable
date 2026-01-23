@@ -1,0 +1,16 @@
+<table>
+  <caption>Strong-coupling optomechanics checklist: coupling rates vs cavity performance metrics across representative platforms</caption>
+  <thead>
+    <tr><th rowspan="2">Platform / device class</th><th colspan="3">Optical cavity metrics</th><th colspan="4">Optomechanical coupling metrics</th><th rowspan="2">Strong-coupling figure of merit</th></tr>
+    <tr><th>Wavelength (nm)</th><th>Optical Q</th><th>κ/2π (MHz)</th><th>Ωm/2π (MHz)</th><th>G = dωc/dx /2π (GHz/nm)</th><th>g0/2π (kHz)</th><th>Cooperativity C0 = 4g0²/(κΓm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Silica microtoroid (RBM)</td><td>1550</td><td>3.0×10^7</td><td>6.5</td><td>50</td><td>8</td><td>0.9</td><td>0.3</td><td>Resolved-sideband, weak single-photon strong-coupling</td></tr>
+    <tr><td>SiN photonic-crystal nanobeam</td><td>1550</td><td>1.2×10^6</td><td>160</td><td>5.2</td><td>120</td><td>950</td><td>5.5</td><td>C0 > 1 (single-photon cooperativity regime)</td></tr>
+    <tr><td>Si microdisk (RBM)</td><td>1550</td><td>2.6×10^5</td><td>740</td><td>488</td><td>50</td><td>33</td><td>0.8</td><td>Near C0 ~ 1 with high-Qm mechanical mode</td></tr>
+    <tr><td>AlN microring (piezo-optomech hybrid)</td><td>1550</td><td>8.0×10^5</td><td>240</td><td>1000</td><td>15</td><td>120</td><td>2.0</td><td>High-frequency Ωm with moderate κ</td></tr>
+    <tr><td>Membrane-in-the-middle Fabry–Pérot</td><td>1064</td><td>5.0×10^6</td><td>28</td><td>0.10</td><td>0.0045</td><td>0.08</td><td>0.05</td><td>Strong coupling via linearized g = g0√n̄ (needs high n̄)</td></tr>
+    <tr><td>Superconducting microwave cavity (electromech)</td><td>6000 (equiv.)</td><td>1.0×10^5</td><td>50</td><td>10</td><td>2</td><td>250</td><td>10</td><td>g0 sizable; strong coupling achievable with low κ</td></tr>
+    <tr><td>Diamond OMC (phononic shield)</td><td>1550</td><td>9.0×10^5</td><td>210</td><td>6000</td><td>180</td><td>950</td><td>15</td><td>Single-photon strong-coupling-leaning (large g0, high Ωm)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Examples of correct vs incorrect use of Mongolian Variation Selectors (explicit code points)</caption>
+  <tr><th>Example (Rendered)</th><th>Correct Character Sequence (code points)</th><th>Incorrect Character Sequence (code points)</th></tr>
+  <tr><td>Example A</td><td>[U+1820]+[MVS]+[U+1821]</td><td>[U+1820]+[U+1821]</td></tr>
+  <tr><td>Example B</td><td>[U+182D]+[MVS]+[U+1820]</td><td>[U+182D]+[FVS1]+[U+1820]</td></tr>
+  <tr><td>Example C</td><td>[U+1828]+[MVS]+[U+1820]+[U+1834]</td><td>[U+1828]+[U+1820]+[U+1834]+[MVS]</td></tr>
+</table>

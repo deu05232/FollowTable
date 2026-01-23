@@ -1,0 +1,7 @@
+<table>
+  <caption>Charger handshake message parameter list (sequence-based)</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Description</th></tr>
+  <tr><td>1</td><td>Message Type</td><td>1 byte</td><td>BYTE</td><td>Handshake message identifier</td></tr>
+  <tr><td>2</td><td>Session ID</td><td>2 bytes</td><td>BYTE[2]</td><td>Charging session identifier</td></tr>
+  <tr><td>3</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>Set to 0xFF</td></tr>
+</table>

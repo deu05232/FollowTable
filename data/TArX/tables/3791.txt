@@ -1,0 +1,10 @@
+<table>
+  <caption>Ternary Shift operations used in a GTG</caption>
+  <tr><th>Shift gate</th><th>Its operation</th></tr>
+  <tr><th>Buffer</th><td>x = x</td></tr>
+  <tr><th>Single Shift</th><td>x = x+1</td></tr>
+  <tr><th>Dual Shift</th><td>x = x+2</td></tr>
+  <tr><th>Self Shift</th><td>x = 2x</td></tr>
+  <tr><th>Self Single Shift</th><td>x = 2x+1</td></tr>
+  <tr><th>Self Dual Shift</th><td>x = 2x+2</td></tr>
+</table>

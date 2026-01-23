@@ -1,0 +1,15 @@
+<table>
+  <caption>Spatial Mapping / Reconstruction API Call Signature (Buffer Mechanics Dominant)</caption>
+  <thead>
+    <tr><th>Argument</th><th>Type</th><th>Direction</th><th>Output Buffer Contract</th><th>Memory Ownership</th><th>Error/Return Handling</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>In</td><td>N/A</td><td>Not retained; must remain valid</td><td>Returns AR_SUCCESS/AR_ERROR_*; no exceptions</td></tr>
+    <tr><td>dense_map</td><td>ArDenseSpatialMap *</td><td>In</td><td>N/A</td><td>Borrowed handle</td><td>AR_ERROR_INVALID_HANDLE if mismatched session</td></tr>
+    <tr><td>out_vertices</td><td>float **</td><td>Out</td><td>API allocates vertex array; size returned separately</td><td>Caller must free via ArSession_free</td><td>On failure, *out_vertices set to NULL</td></tr>
+    <tr><td>out_vertex_count</td><td>int32_t *</td><td>Out</td><td>Writes number of vertices</td><td>Caller-owned scalar</td><td>Undefined if out_vertices is NULL</td></tr>
+    <tr><td>out_indices</td><td>uint32_t **</td><td>Out</td><td>API allocates index array</td><td>Caller must free via ArSession_free</td><td>May be NULL if mesh has no indices</td></tr>
+    <tr><td>out_index_count</td><td>int32_t *</td><td>Out</td><td>Writes number of indices</td><td>Caller-owned scalar</td><td>Only valid when out_indices != NULL</td></tr>
+    <tr><td>out_normals</td><td>float **</td><td>Out</td><td>Optional; allocate if non-NULL</td><td>Caller frees; same allocator as vertices</td><td>AR_ERROR_UNSUPPORTED if normals not available</td></tr>
+  </tbody>
+</table>

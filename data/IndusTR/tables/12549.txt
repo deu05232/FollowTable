@@ -1,0 +1,14 @@
+<table>
+  <caption>Logistics M2M Platform Functional Test Procedure — Terminal Remote Actions</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Capability Under Test</th><th>Verification Intent</th><th>Preconditions</th><th>Test Data</th><th>Step-by-step Actions</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FT-RA-001</td><td>Remote Reboot</td><td>Confirm the platform can reboot a terminal remotely and report completion</td><td>Terminal is online; operator role = Admin</td><td>Device ID = TRM-00021</td><td>1) Log in to console 2) Navigate to Terminal > Devices 3) Search TRM-00021 4) Click Actions 5) Click Reboot 6) Confirm dialog</td><td>Reboot command accepted; terminal reconnects within 3 minutes; audit log created</td></tr>
+    <tr><td>FT-RA-002</td><td>Remote Lock</td><td>Confirm the platform can lock a terminal and prevent normal operations</td><td>Terminal is online</td><td>Device ID = TRM-00034; reason = Theft</td><td>1) Open device details 2) Click Lock Device 3) Enter reason 4) Submit 5) Refresh status</td><td>Status becomes Locked; terminal UI shows locked banner; operation events blocked</td></tr>
+    <tr><td>FT-RA-003</td><td>Remote Unlock</td><td>Confirm the platform can unlock a previously locked terminal</td><td>Terminal state = Locked</td><td>Device ID = TRM-00034</td><td>1) Navigate to Locked Devices 2) Select TRM-00034 3) Click Unlock 4) Confirm 5) Verify state</td><td>Status becomes Active; terminal resumes operations; unlock event logged</td></tr>
+    <tr><td>FT-RA-004</td><td>Remote Configuration Push</td><td>Confirm configuration parameters can be delivered to the terminal</td><td>Terminal is online; config template exists</td><td>Template = "Fleet-Default"</td><td>1) Go to Configurations 2) Choose template 3) Click Deploy 4) Select devices 5) Click Start</td><td>Deployment shows Success; terminal reports applied version; rollback option available</td></tr>
+    <tr><td>FT-RA-005</td><td>Remote Firmware Upgrade</td><td>Confirm the platform can trigger firmware upgrade and track progress</td><td>Firmware package uploaded; terminal battery > 30%</td><td>Package = FW-2.3.7; Device ID = TRM-00052</td><td>1) Go to Firmware 2) Select FW-2.3.7 3) Click Upgrade 4) Choose TRM-00052 5) Confirm schedule</td><td>Progress updates shown; terminal reconnects on new version; upgrade log recorded</td></tr>
+    <tr><td>FT-RA-006</td><td>Remote Factory Reset</td><td>Confirm factory reset can be requested and acknowledged</td><td>Terminal is online; elevated permission enabled</td><td>Device ID = TRM-00077</td><td>1) Open TRM-00077 2) Click Factory Reset 3) Type "RESET" 4) Confirm 5) Observe state</td><td>Terminal deregisters and returns to onboarding state; reset event logged</td></tr>
+  </tbody>
+</table>

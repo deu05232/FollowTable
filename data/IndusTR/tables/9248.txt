@@ -1,0 +1,9 @@
+<table>
+  <caption>Road traffic safety early-warning data items — vehicle spill incident (timeline-focused)</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Incident Summary</td><td>Character</td><td>256</td><td>No</td><td>Yes</td><td>Brief description suitable for dispatch and display</td></tr>
+  <tr><td>2</td><td>Report Receipt Time</td><td>Date</td><td>16</td><td>No</td><td>Yes</td><td>When the report was received by the platform</td></tr>
+  <tr><td>3</td><td>On-Scene Start Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>When responders arrived / event handling began</td></tr>
+  <tr><td>4</td><td>Estimated Clearance Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Expected time to clear spill and restore traffic</td></tr>
+  <tr><td>5</td><td>Incident Location Description</td><td>Character</td><td>1000</td><td>No</td><td>Yes</td><td>Location expressed in standard road location description method</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Bill of Materials (BOM) for a DC Energy Meter Verification Device Controller</caption>
+  <thead>
+    <tr><th>Module</th><th>Component</th><th>Specification</th><th>Qty</th><th>Preferred Manufacturer</th><th>Part Number</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ADC board</td><td>24-bit ADC</td><td>8 ch, SPI, 2.5 V ref</td><td>2</td><td>Analog Devices</td><td>AD7177-2</td><td>For monitoring channels</td></tr>
+    <tr><td>Reference</td><td>Voltage reference</td><td>10.000 V, 2 ppm/°C</td><td>1</td><td>LT</td><td>LTZ1000</td><td>Ovenized module</td></tr>
+    <tr><td>Current output</td><td>Power MOSFET</td><td>100 V, 80 A</td><td>6</td><td>Infineon</td><td>IAUC120N10S5N</td><td>Paralleled stage</td></tr>
+    <tr><td>Timing</td><td>TCXO</td><td>10 MHz, ±0.5 ppm</td><td>1</td><td>Microchip</td><td>DSC6001</td><td>Clock source</td></tr>
+    <tr><td>Communication</td><td>Ethernet PHY</td><td>10/100BASE-TX</td><td>1</td><td>TI</td><td>DP83848</td><td>LAN interface</td></tr>
+    <tr><td>Safety</td><td>Fuse</td><td>Fast-acting, 5 A</td><td>4</td><td>Littelfuse</td><td>0217005.MXP</td><td>Input protection</td></tr>
+    <tr><td>Mechanical</td><td>Cooling fan</td><td>80 mm, 24 VDC</td><td>2</td><td>Delta</td><td>AFB0812H</td><td>Thermal management</td></tr>
+  </tbody>
+</table>

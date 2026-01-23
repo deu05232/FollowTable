@@ -1,0 +1,15 @@
+# Route Source Preference (Administrative Distance) Cheat Sheet for Mixed Vendors (Short Names)
+
+| Source Type | Label Used | Default Distance |
+| --- | --- | --- |
+| Directly connected | conn | 0 |
+| Static | static | 1 |
+| OSPF intra-area | OSPF | 110 |
+| OSPF external | OSPF E1/E2 | 110 |
+| IS-IS | ISIS | 115 |
+| RIP | RIP | 120 |
+| EIGRP internal | EIGRP | 90 |
+| EIGRP external | EIGRP ext | 170 |
+| BGP external | BGP | 20 |
+| BGP internal | iBGP | 200 |
+| Unknown | unknown | 255 |

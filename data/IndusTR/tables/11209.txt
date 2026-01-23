@@ -1,0 +1,15 @@
+<table>
+  <caption>Ionospheric Delay Correction (Spherical Harmonics) — Core Data Field Definitions and DF Codes</caption>
+  <thead>
+    <tr><th>Group</th><th>Field Name</th><th>DF Code</th><th>Data Type</th><th>Bits</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Model configuration</td><td>Ionospheric thin-shell height</td><td>DF473</td><td>uint8</td><td>8</td><td>Thin-shell model height indicator</td></tr>
+    <tr><td>Spherical harmonic function degree</td><td>DF474</td><td>uint4</td><td>4</td><td>Maximum degree (n)</td></tr>
+    <tr><td>Spherical harmonic function order</td><td>DF475</td><td>uint4</td><td>4</td><td>Maximum order (m)</td></tr>
+    <tr><td rowspan="2">Correction coefficients</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>int16</td><td>16</td><td>Cnm correction term</td></tr>
+    <tr><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>int16</td><td>16</td><td>Snm correction term</td></tr>
+    <tr><td rowspan="2">Coefficient accuracy</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>uint8</td><td>8</td><td>Accuracy indicator for cosine coefficient</td></tr>
+    <tr><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>uint8</td><td>8</td><td>Accuracy indicator for sine coefficient</td></tr>
+  </tbody>
+</table>

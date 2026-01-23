@@ -1,0 +1,22 @@
+<table>
+  <caption>CC Sample Syntax with Embedded Time and Layout Descriptors (Mixed)</caption>
+  <thead>
+    <tr><th>Syntax Element</th><th>Type</th><th>Condition / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CC_sample(){</td><td></td><td>Sample container</td></tr>
+    <tr><td>CC_sample_start_code</td><td>f(32)</td><td>0x47413934 (example)</td></tr>
+    <tr><td>CC_type</td><td>u(8)</td><td>Caption service / payload type</td></tr>
+    <tr><td>CC_data_length</td><td>u(16)</td><td>Bytes following in this sample</td></tr>
+    <tr><td>time_information(){</td><td></td><td>ANCILLARY: timing metadata (not framing)</td></tr>
+    <tr><td>time_reference</td><td>u(2)</td><td>e.g., 0=none, 1=PTS-based</td></tr>
+    <tr><td>time_format</td><td>u(2)</td><td>e.g., 0=ms, 1=frames</td></tr>
+    <tr><td>display_description(){</td><td></td><td>ANCILLARY: layout metadata (not framing)</td></tr>
+    <tr><td>display_direction</td><td>u(2)</td><td>0=LTR,1=RTL</td></tr>
+    <tr><td>horizontal_justification</td><td>u(2)</td><td>0=left,1=center,2=right</td></tr>
+    <tr><td>do{</td><td></td><td>Parse payload units</td></tr>
+    <tr><td>caption_unit()</td><td>var</td><td>Repeat until payload exhausted</td></tr>
+    <tr><td>}while(bytes_read < CC_data_length)</td><td></td><td>Stop condition</td></tr>
+    <tr><td>}</td><td></td><td>End CC_sample</td></tr>
+  </tbody>
+</table>

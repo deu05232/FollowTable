@@ -1,0 +1,15 @@
+<table>
+  <caption>OCSP-Based Certificate Status Query Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GetCertificateStateByOCSP(void *hAppHandle,unsigned char * pucOcspHostURL,unsigned int uiOcspHostURLLen,unsigned char * pucUsrCertificate,unsigned int uiUsrCertificateLen,unsigned char * pucCACertificate,unsigned int uiCACertificateLen,unsigned char * pucRevokeDate)</td></tr>
+  <tr><td>Description</td><td>Obtain the real-time status of the user certificate from OCSP</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucOcspHostURL[in](URL of the OCSP service)</td></tr>
+  <tr><td>uiOcspHostURLLen[in](URL length)</td></tr>
+  <tr><td>pucUsrCertificate[in](DER-encoded certificate)</td></tr>
+  <tr><td>uiUsrCertificateLen[in](certificate length)</td></tr>
+  <tr><td>pucCACertificate[in](DER-encoded issuer certificate）</td></tr>
+  <tr><td>uiCACertificateLen[in]（issuer certificate length)</td></tr>
+  <tr><td>pucRevokeDate[out](if the certificate is valid, this parameter is not returned; if the certificate is revoked, the revocation date is returned, format: YYYY-MM-DD HH:MM:SS)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0(success)</td></tr>
+  <tr><td>Non-0(failure, return the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Short Message Delivery Addressing and Correlation Fields</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Value Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Addressing</td><td>Source Address Type</td><td>0–1</td><td>0: intranet address; 1: extranet address (interpretation of the sender identifier).</td></tr>
+    <tr><td>Addressing</td><td>Sender ID</td><td>1–281,474,976,710,655</td><td>Sender identifier; may represent intranet or extranet address depending on source address type.</td></tr>
+    <tr><td>Addressing</td><td>Recipient ID</td><td>1–16,777,215</td><td>Recipient intranet user identifier (destination endpoint).</td></tr>
+    <tr><td>Correlation</td><td>Terminal Message Sequence Number</td><td>0–4,095</td><td>Per-terminal sequence used to uniquely tag each outbound submission for later matching.</td></tr>
+    <tr><td>Correlation</td><td>Network Delivery Sequence Number</td><td>0–4,095</td><td>Sequence number assigned on delivery to correlate downlink records to submissions.</td></tr>
+    <tr><td>Correlation</td><td>Station Entry Sequence Number (LSB5)</td><td>0–31</td><td>Compact sequence component used by the station for indexing/correlation.</td></tr>
+    <tr><td>Correlation</td><td>Acknowledgement Match Key</td><td>0–65,535</td><td>Key used to match an ACK/confirmation record to the original transmission.</td></tr>
+  </tbody>
+</table>

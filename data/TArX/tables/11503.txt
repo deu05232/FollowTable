@@ -1,0 +1,17 @@
+<table>
+  <caption>Effective Speed of Light vs Medium, with Transport/Collision Velocities Included</caption>
+  <thead>
+    <tr><th rowspan="2">Scenario</th><th colspan="3">Light-related columns</th><th colspan="2">Motion-related columns (to avoid)</th></tr>
+    <tr><th>Group index ng</th><th>Group velocity vg(m/s)</th><th>Delay per km (ms/km)</th><th>Carrier / platform speed (m/s)</th><th>Collision / jet speed (m/s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>Vacuum reference</th><td>1.000</td><td>2.998e8</td><td>0.00334</td><td>0</td><td>0</td></tr>
+    <tr><th>Seawater optical link</th><td>1.38</td><td>2.17e8</td><td>0.00461</td><td>12</td><td>0</td></tr>
+    <tr><th>Glass window (crown)</th><td>1.52</td><td>1.97e8</td><td>0.00508</td><td>0.3</td><td>0</td></tr>
+    <tr><th>Polymer (PMMA)</th><td>1.49</td><td>2.01e8</td><td>0.00498</td><td>30</td><td>0</td></tr>
+    <tr><th>Fiber in fast train</th><td>1.468</td><td>2.04e8</td><td>0.00490</td><td>83</td><td>0</td></tr>
+    <tr><th>Atmospheric path (turbulent)</th><td>1.0004</td><td>2.997e8</td><td>0.00334</td><td>20</td><td>0</td></tr>
+    <tr><th>High-energy lab target</th><td>1.10 (effective)</td><td>2.72e8</td><td>0.00368</td><td>0</td><td>1.5e7</td></tr>
+    <tr><th>Astrophysical jet medium</th><td>1.05 (effective)</td><td>2.86e8</td><td>0.00350</td><td>0</td><td>2.4e8</td></tr>
+  </tbody>
+</table>

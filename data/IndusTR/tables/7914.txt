@@ -1,0 +1,15 @@
+<table>
+  <caption>Conversion Coefficients for Polyester Filament Yarn Output (Standardized by Benchmark dtex)</caption>
+  <thead>
+    <tr><th rowspan="2">Filament yarn category</th><th rowspan="2">Benchmark linear density (dtex)</th><th colspan="2">Conversion coefficient rule</th></tr>
+    <tr><th>Actual (nominal) dtex ≤ benchmark</th><th>Actual (nominal) dtex > benchmark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>POY (Polyester)</td><td>250</td><td>Benchmark dtex / actual dtex</td><td>1</td></tr>
+    <tr><td>FDY (Polyester)</td><td>150</td><td>Benchmark dtex / actual dtex</td><td>1</td></tr>
+    <tr><td>DTY (Polyester, draw-textured)</td><td>180</td><td>Benchmark dtex / actual dtex</td><td>1</td></tr>
+    <tr><td>HOY (Polyester, high-oriented)</td><td>100</td><td>Benchmark dtex / actual dtex</td><td>1</td></tr>
+    <tr><td>ATY (Polyester, air-textured)</td><td>220</td><td>Benchmark dtex / actual dtex</td><td>1</td></tr>
+    <tr><td>Monofilament (Polyester)</td><td>500</td><td>Benchmark dtex / actual dtex</td><td>1</td></tr>
+  </tbody>
+</table>

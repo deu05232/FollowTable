@@ -1,0 +1,12 @@
+<table>
+  <caption>SM9 Cryptographic Service Import Master Public Key Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_ImportSM9MasterPublicKey(void           * hAppHandle,unsigned int   uiKeyIndex,unsigned int  uiKeyType,unsigned char* pucMasterPublickKey,unsigned int   uiMasterPublickKeyLen)</td></tr>
+  <tr><td>Description</td><td>Import the SM9 master public key to the specified index.</td></tr>
+  <tr><td rowspan="5">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>uiKeyIndex[in](master public key import index)</td></tr>
+  <tr><td>uiKeyType[in]（master public key type: 1: signature master public key; 2: encryption master public key)</td></tr>
+  <tr><td>pucMasterPublickKey [in](DER-encoded master public key data)</td></tr>
+  <tr><td>uiMasterPublickKeyLen［in](length of the DER-encoded master public key data)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0 (success)</td></tr>
+  <tr><td>non-zero (failure; returns the error code defined in Table C.1 and shall comply with Appendix C)</td></tr>
+</table>

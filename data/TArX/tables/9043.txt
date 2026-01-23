@@ -1,0 +1,14 @@
+<table>
+  <caption>Impact-Velocity-Dependent Restitution Coefficient Model (Polynomial Fit Parameters by Speed Range)</caption>
+  <thead>
+    <tr><th>Speed regime</th><th>Impact speed v range (m/s)</th><th>Model form</th><th>a0</th><th>a1</th><th>a2</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Regime I</td><td>0.00–0.20</td><td>e(v)=a0+a1 v+a2 v^2</td><td>0.95</td><td>-0.40</td><td>-0.10</td><td>Low-speed elastic regime</td></tr>
+    <tr><td>Regime II</td><td>0.20–0.50</td><td>e(v)=a0+a1 v+a2 v^2</td><td>0.88</td><td>-0.55</td><td>-0.05</td><td>Onset of plasticity</td></tr>
+    <tr><td>Regime III</td><td>0.50–1.00</td><td>e(v)=a0+a1 v+a2 v^2</td><td>0.78</td><td>-0.62</td><td>0.02</td><td>Mixed deformation</td></tr>
+    <tr><td>Regime IV</td><td>1.00–1.50</td><td>e(v)=a0+a1 v+a2 v^2</td><td>0.66</td><td>-0.58</td><td>0.04</td><td>Higher dissipation</td></tr>
+    <tr><td>Regime V</td><td>1.50–2.00</td><td>e(v)=a0+a1 v+a2 v^2</td><td>0.55</td><td>-0.46</td><td>0.03</td><td>Severe losses</td></tr>
+    <tr><td>Regime VI</td><td>2.00–3.00</td><td>e(v)=a0+a1 v+a2 v^2</td><td>0.44</td><td>-0.32</td><td>0.02</td><td>High-speed regime</td></tr>
+  </tbody>
+</table>

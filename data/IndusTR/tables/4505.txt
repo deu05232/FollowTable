@@ -1,0 +1,11 @@
+<table>
+  <caption>LED Device Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="2">vrLED</td><td>int32_t led_id</td><td>LED ID</td></tr>
+  <tr><td>enum vrLEDType</td><td>LED type, see Table 29</td></tr>
+  <tr><td rowspan="5">vrLED</td><td>int32_tbelong_device_id</td><td>ID of the device to which the LED belongs</td></tr>
+  <tr><td>enum vrLEDStatus</td><td>LED operating status, see Table 37</td></tr>
+  <tr><td>float led_brightness</td><td>LED brightness</td></tr>
+  <tr><td>vrLEDColor</td><td>LED color</td></tr>
+  <tr><td>float flash_period</td><td>LED strobe period</td></tr>
+</table>

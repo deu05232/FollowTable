@@ -1,0 +1,7 @@
+<table>
+  <caption>Augmented Reality Light Estimation Mode Enumeration</caption>
+  <tr><td>Light estimation feature category description</td><td>Reference naming and value assignment</td></tr>
+  <tr><td>Light estimation disabled</td><td>AR_LIGHT_ESTIMATION_MODE_DISABLED = 0</td></tr>
+  <tr><td>Light estimation enabled, generates a single-value intensity estimate and three (R,G,B) color correction values</td><td>AR_LIGHT_ESTIMATION_MODE_AMBIENT_INTENSITY = 1</td></tr>
+  <tr><td>Light estimation enabled, generates inferred ambient HDR light estimation in XYZ color space</td><td>AR_LIGHT_ESTIMATION_MODE_ENVIRONMENTAL_HDR = 2</td></tr>
+</table>

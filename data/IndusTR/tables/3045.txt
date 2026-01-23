@@ -1,0 +1,10 @@
+<table>
+  <caption>Production Line Work Instructions — Charger Controller PCB Assembly Steps</caption>
+  <tr><th>Step</th><th>Workstation</th><th>Operation</th><th>Key Equipment</th><th>Process Parameter</th><th>Acceptance Criteria</th><th>Record</th></tr>
+  <tr><td>1</td><td>Stencil Printing</td><td>Apply solder paste</td><td>DEK Horizon</td><td>Stencil thickness 120 μm</td><td>No bridging; coverage ≥ 85%</td><td>SPI report</td></tr>
+  <tr><td>2</td><td>Pick & Place</td><td>Place SMT components</td><td>Yamaha YSM20</td><td>Placement accuracy ±35 μm</td><td>Polarity correct; missing parts = 0</td><td>AOI log</td></tr>
+  <tr><td>3</td><td>Reflow</td><td>Reflow soldering</td><td>Heller 1809</td><td>Peak 245°C, 45–60 s above 217°C</td><td>IPC-A-610 Class 2</td><td>Reflow profile</td></tr>
+  <tr><td>4</td><td>Cleaning</td><td>Remove flux residues</td><td>Zestron inline</td><td>Wash 55°C, 8 min</td><td>Ionic contamination ≤ 1.56 μg/cm²</td><td>ROSE test</td></tr>
+  <tr><td>5</td><td>Conformal Coating</td><td>Apply coating</td><td>Nordson Asymtek</td><td>Thickness 50–80 μm</td><td>No bubbles; keep-out areas respected</td><td>Coating checklist</td></tr>
+  <tr><td>6</td><td>Final Test</td><td>Power-on + CAN smoke test</td><td>Custom fixture</td><td>12 V input; 1 A limit</td><td>Boot OK; basic CAN frames seen</td><td>FCT report</td></tr>
+</table>

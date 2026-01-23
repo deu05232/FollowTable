@@ -1,0 +1,11 @@
+<table>
+  <caption>Bill of Materials (BOM) for a 65W Switching Power Supply Adapter</caption>
+  <tr><th>Item</th><th>Component</th><th>Specification</th><th>Supplier Grade</th><th>Qty</th><th>Unit Cost (USD)</th><th>Notes</th></tr>
+  <tr><td>1</td><td>Primary MOSFET</td><td>650V, 7A, Rds(on) 0.85Ω</td><td>Industrial</td><td>1</td><td>0.42</td><td>TO-220F</td></tr>
+  <tr><td>2</td><td>Flyback Transformer</td><td>EE25, 100kHz, 65W</td><td>Custom</td><td>1</td><td>0.78</td><td>Triple insulated wire</td></tr>
+  <tr><td>3</td><td>Optocoupler</td><td>CTR 100–200%</td><td>Automotive</td><td>1</td><td>0.12</td><td>Feedback loop</td></tr>
+  <tr><td>4</td><td>Secondary Schottky Diode</td><td>60V, 10A</td><td>Industrial</td><td>2</td><td>0.09</td><td>Low Vf</td></tr>
+  <tr><td>5</td><td>Output Capacitor</td><td>2200µF, 25V, 105°C</td><td>Long-life</td><td>2</td><td>0.18</td><td>Ripple current 2.1A</td></tr>
+  <tr><td>6</td><td>Controller IC</td><td>QR flyback, 65k–130kHz</td><td>Commercial</td><td>1</td><td>0.35</td><td>Valley switching</td></tr>
+  <tr><td>7</td><td>Common-Mode Choke</td><td>2x 6mH</td><td>EMI</td><td>1</td><td>0.22</td><td>Input filter</td></tr>
+</table>

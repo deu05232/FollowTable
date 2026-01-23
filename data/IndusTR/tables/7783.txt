@@ -1,0 +1,15 @@
+<table>
+  <caption>SM9 Service APIs — Algorithm Overview and Compliance Notes (Non-signature Reference)</caption>
+  <thead>
+    <tr><th>API Area</th><th>Topic</th><th>Narrative Description</th><th>Compliance / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Encryption/Decryption</td><td>Identity-based encryption concept</td><td>Explains that SM9 ties encryption to a user identity string and a master public key, enabling IBE-style encryption without certificates.</td><td>Mentions GB/T 41389 alignment; does not define parameter contracts.</td></tr>
+    <tr><td>Signature/Verification</td><td>Identity-based signature concept</td><td>Describes signing as binding the signer identity and message to a signature verifiable with the master public key.</td><td>Implementation details are vendor-specific; refer to platform manual.</td></tr>
+    <tr><td>Key Agreement</td><td>Two-party agreement flow</td><td>Outlines sponsor/responder roles and the notion of temporary public keys exchanged to derive a session key.</td><td>Use approved KDF and enforce freshness checks.</td></tr>
+    <tr><td>Key Encapsulation</td><td>Encapsulation vs. encryption</td><td>Discusses using a key package to transport a symmetric key, distinct from transporting bulk ciphertext.</td><td>Validate key package encoding and length constraints.</td></tr>
+    <tr><td>Key Management</td><td>Master key material</td><td>Introduces master public key indexing and how systems may store it in secure modules.</td><td>Key import/export may require role-based authorization.</td></tr>
+    <tr><td>Error Handling</td><td>Return codes</td><td>General guidance on mapping nonzero returns to failure and logging securely without leaking sensitive info.</td><td>Avoid exposing user IDs and keys in logs.</td></tr>
+    <tr><td>Security Considerations</td><td>Side-channel and memory hygiene</td><td>Recommends constant-time operations in cryptographic modules and zeroization of sensitive buffers.</td><td>Follow local secure coding standards.</td></tr>
+  </tbody>
+</table>

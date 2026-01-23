@@ -1,0 +1,21 @@
+<table>
+  <caption>Return values for the method to obtain basic warehouse information data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short name</td><td>Data type</td><td>Data format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Affiliated storage area</td><td>sskq</td><td>Character</td><td>a..20</td><td rowspan="17">Meaning and type shall comply with the provisions of 6.1.4 in LS/T 1802—2016</td></tr>
+  <tr><td>2</td><td>Warehouse ID</td><td>cfbh</td><td>Character</td><td>a.3</td></tr>
+  <tr><td>3</td><td>Warehouse name</td><td>cfmc</td><td>Character</td><td>a..20</td></tr>
+  <tr><td>4</td><td>Warehouse type</td><td>cflx</td><td>Character</td><td>a.7</td></tr>
+  <tr><td>5</td><td>Warehouse structure</td><td>cfjg</td><td>Character</td><td>a..20</td></tr>
+  <tr><td>6</td><td>Building type</td><td>jzlx</td><td>Character</td><td>a..20</td></tr>
+  <tr><td>7</td><td>Warehouse length (diameter)</td><td>cfcdzj</td><td>Numeric</td><td>n..5,1</td></tr>
+  <tr><td>8</td><td>Warehouse width</td><td>cfkd</td><td>Numeric</td><td>n..5,1</td></tr>
+  <tr><td>9</td><td>Warehouse height</td><td>cfgd</td><td>Numeric</td><td>..5,1</td></tr>
+  <tr><td>10</td><td>Warehouse design capacity</td><td>cfsjcr</td><td>Numeric</td><td>n..8</td></tr>
+  <tr><td>11</td><td>Warehouse actual capacity</td><td>cfsjcr01</td><td>Numeric</td><td>..8</td></tr>
+  <tr><td>12</td><td>Commissioning date</td><td>qyrq</td><td>Date</td><td>YYYYMMDD</td></tr>
+  <tr><td>13</td><td>Warehouse status</td><td>cfzt</td><td>Character</td><td>a.1</td></tr>
+  <tr><td>14</td><td>Warehouse usage status</td><td>cfsyzt</td><td>Character</td><td>a.1</td></tr>
+  <tr><td>15</td><td>Canopy shed</td><td>zp</td><td>Numeric</td><td>a..15,2</td></tr>
+  <tr><td>16</td><td>Temporary bin</td><td>jyd</td><td>Numeric</td><td>a..15,2</td></tr>
+  <tr><td>17</td><td>Temporary warehouse</td><td>jyc</td><td>Numeric</td><td>a..15,2</td></tr>
+</table>

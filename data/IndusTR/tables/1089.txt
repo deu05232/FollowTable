@@ -1,0 +1,13 @@
+<table>
+  <caption>Motion State Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="9">vrMotionData</td><td>double velocity_x</td><td>Velocity on the X axis (unit: m/s)</td></tr>
+  <tr><td>double velocity_y</td><td>Velocity on the Y axis (unit: m/s)</td></tr>
+  <tr><td>double velocity_z</td><td>Velocity on the Z axis (unit: m/s)</td></tr>
+  <tr><td>double angular_velocity_x</td><td>Angular velocity on the X axis (unit: rad/s)</td></tr>
+  <tr><td>double angular_velocity_y</td><td>Angular velocity on the Y axis (unit: rad/s)</td></tr>
+  <tr><td>double angular_velocity_z</td><td>Angular velocity on the Z axis (unit: rad/s)</td></tr>
+  <tr><td>double accerleration_x</td><td>Acceleration on the X axis (unit: m/s)</td></tr>
+  <tr><td>double accerleration_y</td><td>Acceleration on the Y axis (unit: m/s)</td></tr>
+  <tr><td>double accerleration_z</td><td>Acceleration on the Z axis (unit: m/s)</td></tr>
+</table>

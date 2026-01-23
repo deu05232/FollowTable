@@ -1,0 +1,14 @@
+<table>
+  <caption>Knitting Machine Energy and Power Dictionary Items</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0X0510</td><td>Total Energy Consumption</td><td>TotalEnergyConsumption</td><td>0</td><td>VAR</td><td>RO</td><td>Int64</td><td>0~999999999</td><td>kW·h</td><td>Cumulative electrical energy consumed since last reset</td><td></td></tr>
+    <tr><td>0X0511</td><td>Current Shift Energy</td><td>ShiftEnergyConsumption</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~200000</td><td>kW·h</td><td>Electrical energy consumed in the current shift</td><td></td></tr>
+    <tr><td>0X0512</td><td>Instantaneous Power</td><td>InstantaneousPower</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0~200</td><td>kW</td><td>Real-time power draw of the main drive</td><td></td></tr>
+    <tr><td>0X0513</td><td>Reactive Power</td><td>ReactivePower</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>-200~200</td><td>kvar</td><td>Reactive power of the machine power circuit</td><td></td></tr>
+    <tr><td>0X0514</td><td>Power Factor</td><td>PowerFactor</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0~1</td><td>1</td><td>Calculated power factor</td><td></td></tr>
+    <tr><td>0X0515</td><td>Peak Demand</td><td>PeakDemand</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0~500</td><td>kW</td><td>Maximum demand recorded over a billing interval</td><td></td></tr>
+  </tbody>
+</table>

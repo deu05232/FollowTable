@@ -1,0 +1,14 @@
+# Intel 100 200 Series Chipsets for Skylake Kaby Lake Platforms — Side-by-Side (Windows 10 Friendly)
+
+| Chipset | Series | Segment | Platform codename | Release window | Supported CPU generations | Socket | Memory type | PCIe lanes (chipset) | Storage features | USB 3.x | Typical Windows 10 use-case |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| H110 | 100 | Desktop (Entry) | Sunrise Point | 2015 | 6th Gen Core (Skylake), some boards support 7th Gen (Kaby Lake) | LGA1151 | DDR4/DDR3L (board-dependent) | Up to 6 | Fewer SATA 6 Gb/s; limited expansion | USB 3.0 (limited) | Low-cost Win10 desktops; limited upgrade/I/O headroom |
+| B150 | 100 | Desktop (Business) | Sunrise Point | 2015 | 6th/7th Gen Core (with BIOS) | LGA1151 | DDR4/DDR3L | Up to 8 | More SATA and PCIe than H110 | USB 3.0 | Office Win10 systems needing more ports than H110 |
+| H170 | 100 | Desktop (Mainstream) | Sunrise Point | 2015 | 6th/7th Gen Core (with BIOS) | LGA1151 | DDR4/DDR3L | Up to 16 | More SATA; flexible expansion | USB 3.0 | Balanced Win10 builds with multiple drives/peripherals |
+| Z170 | 100 | Desktop (Enthusiast) | Sunrise Point | 2015 | 6th/7th Gen Core (with BIOS) | LGA1151 | DDR4/DDR3L | Up to 20 | RAID support typical; rich HSIO | USB 3.0 | Enthusiast Win10 systems; best expandability in 100 series |
+| Q170 | 100 | Desktop (Corporate) | Sunrise Point | 2015 | 6th/7th Gen Core (with BIOS) | LGA1151 | DDR4/DDR3L | Up to 20 | Business/corporate feature set varies by OEM | USB 3.0 | OEM corporate Win10 fleets; manageability-oriented |
+| C236 | 100 | Workstation/Server | Sunrise Point | 2015 | Xeon E3 v5/v6, Core 6th/7th (varies) | LGA1151 | DDR4 ECC/Non-ECC (platform dependent) | Up to 20 | SATA 6 Gb/s; RAID (SKU dependent) | USB 3.0 | Win10 Pro workstation builds needing ECC support |
+| B250 | 200 | Desktop (Business) | Union Point | 2017 | 6th/7th Gen Core | LGA1151 | DDR4/DDR3L | Up to 12 | More HSIO vs 100 series; NVMe via board | USB 3.0/3.1 Gen1 (common) | Practical Win10 upgrade target for Kaby Lake-era systems |
+| H270 | 200 | Desktop (Mainstream) | Union Point | 2017 | 6th/7th Gen Core | LGA1151 | DDR4/DDR3L | Up to 20 | More lanes for NVMe/SATA combos | USB 3.0/3.1 Gen1 | Win10 builds with multiple PCIe SSDs/peripherals |
+| Z270 | 200 | Desktop (Enthusiast) | Union Point | 2017 | 6th/7th Gen Core | LGA1151 | DDR4/DDR3L | Up to 24 | Strong multi-drive support; RAID typical | USB 3.0/3.1 Gen1 | High-end Win10 desktops with maximum chipset connectivity |
+| Q270 | 200 | Desktop (Corporate) | Union Point | 2017 | 6th/7th Gen Core | LGA1151 | DDR4/DDR3L | Up to 24 | Corporate feature set; OEM-dependent | USB 3.0/3.1 Gen1 | Enterprise Win10 deployments with longer lifecycle boards |

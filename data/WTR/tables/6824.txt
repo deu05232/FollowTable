@@ -1,0 +1,12 @@
+# iPod Accessory Protocol Command Summary (sample frames)
+
+| Mode | Command (Hex) | Name | Parameter Length | Example Parameter | Response | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0x00 | 0x0001 | Request Device Info | 0 | (none) | DeviceInfo | Used by docks to identify connected iPod |
+| 0x00 | 0x0004 | Get Play Status | 0 | (none) | StatusPacket | Returns play/pause, position, track index |
+| 0x02 | 0x0010 | Set Volume | 1 | 0x20 | ACK | Volume step mapping varies by firmware |
+| 0x02 | 0x0012 | Set EQ Preset | 1 | 0x03 | ACK | Preset IDs depend on iPod generation |
+| 0x04 | 0x0020 | Start iAP Session | 2 | 0x00 0x01 | SessionOK | Negotiates authentication and transport |
+| 0x04 | 0x0022 | Identify Accessories | 4 | 0x00 0x00 0x00 0x01 | AccessoryID | Used by Made for iPod devices |
+| 0x05 | 0x0100 | Database Query | n | Query bytes | QueryResult | iPod DB schema differs across models |
+| 0x06 | 0x0200 | Remote Control Keypress | 1 | 0x07 | ACK | Emulates next/prev/play keys |

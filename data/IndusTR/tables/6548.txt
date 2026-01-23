@@ -1,0 +1,14 @@
+<table>
+  <caption>Tire X-ray and Vision-Based Quality Grading Logic Blocks</caption>
+  <thead>
+    <tr><th>No.</th><th>Logic Block (Algorithm/Function)</th><th>Purpose</th><th>Inputs (Signals/Data)</th><th>Outputs</th><th>Notes / Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>XRayForeignObjectClassifier</td><td>Detect foreign objects inside the tire body for quality grading</td><td>X-ray image frames; exposure settings; defect library version</td><td>Foreign-object score; defect mask; grade label</td><td>Deep CNN + threshold rules</td></tr>
+    <tr><td>2</td><td>PlyMisalignmentDetector</td><td>Identify ply misalignment and separation lines in X-ray images</td><td>X-ray images; alignment reference template; tolerance limits</td><td>Misalignment angle; separation likelihood; pass/fail</td><td>Template matching + segmentation</td></tr>
+    <tr><td>3</td><td>Sidewall3DBulgeEstimator</td><td>Estimate sidewall bulge size from 3D scan data</td><td>3D point cloud; calibration matrix; ROI definition</td><td>Bulge area; bulge height; defect severity</td><td>Surface fitting + rule-based scoring</td></tr>
+    <tr><td>4</td><td>TreadSurfaceScratchRecognizer</td><td>Recognize scratches/cuts on tread surface for cosmetic inspection</td><td>Line-scan camera images; illumination level; scratch thresholds</td><td>Scratch count; max length; cosmetic grade</td><td>Edge detection + morphology</td></tr>
+    <tr><td>5</td><td>BarcodeAndLabelVerifier</td><td>Verify tire ID label readability and match with MES record</td><td>OCR image; MES expected ID; print timestamp</td><td>ID match status; verification report</td><td>OCR + checksum</td></tr>
+    <tr><td>6</td><td>FinalGradeAggregator</td><td>Aggregate multiple inspection results into final tire grade</td><td>Defect scores from prior blocks; grading policy table</td><td>Final grade; rework/scrap decision</td><td>Weighted scoring + rules</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>The calculated energy band gaps and band offsets: LDA and HSE06 refer to the present work (see text for details). For comparison we also include the results of earlier work using ab initio calculations [ Murayama1994 , Yeh1994 , Zanolli2007 ] or an Empirical Pseudopotential method [ De2010 ] . Experimental results for band offsets are from the optimal fit shown in Fig. LABEL:superlatt . ε gap - ZB is the band gap of zinc-blende phase while Δ ⁢ ε gap = ε gap - WZ - ε gap - ZB corresponds to the difference in band gap between the zinc-blende and wurtzite phases.</caption>
+  <tr><th></th><th>_(-ZB) (eV)</th><th>Δ_() (eV)</th><th>Δ E_() (meV)</th><th>Δ E_() (meV)</th></tr>
+  <tr><td>DFT-LDA [ Murayama1994 ]</td><td>0.614</td><td>+0.033</td><td>84</td><td>117</td></tr>
+  <tr><td>DFT-LDA [ Yeh1994 ]</td><td>0.44</td><td>+0.03</td><td>-</td><td>-</td></tr>
+  <tr><td>DFT-GW [ Zanolli2007 ]</td><td>1.133</td><td>+0.218</td><td>-</td><td>-</td></tr>
+  <tr><td>EP [ De2010 ]</td><td>1.519</td><td>-0.016</td><td>79.2</td><td>63.2</td></tr>
+  <tr><td>DFT-LDA</td><td>0.351</td><td>-0.044</td><td>114</td><td>70</td></tr>
+  <tr><td>DFT-HSE06</td><td>1.405</td><td>-0.021</td><td>122</td><td>101</td></tr>
+  <tr><td>experiment</td><td>1.51</td><td>-0.023</td><td>76± 12</td><td>53± 20</td></tr>
+</table>

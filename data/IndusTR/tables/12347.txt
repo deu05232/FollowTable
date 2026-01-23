@@ -1,0 +1,17 @@
+<table>
+  <caption>Two-Step AR Session Initialization: CreateInfo and Output Session Handle</caption>
+  <thead>
+    <tr><th>Structure</th><th>Field Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSessionCreateInfo</td><td>env</td><td>void *</td><td>Yes</td><td>Pointer to the host runtime environment used to allocate and initialize the session.</td></tr>
+    <tr><td>ArSessionCreateInfo</td><td>context</td><td>void *</td><td>Yes</td><td>Pointer to the host runtime context needed for platform integration during startup.</td></tr>
+    <tr><td>ArSessionCreateInfo</td><td>api_version</td><td>uint32_t</td><td>Yes</td><td>Requested API version for the session; creation fails if unsupported.</td></tr>
+    <tr><td>ArSessionCreateInfo</td><td>feature_list</td><td>const ArSessionFeature *</td><td>No</td><td>Optional pointer to a feature array requested at creation time.</td></tr>
+    <tr><td>ArSessionCreateInfo</td><td>feature_list_size</td><td>size_t</td><td>No</td><td>Number of entries in feature_list (0 if feature_list is NULL).</td></tr>
+    <tr><td>ArSessionCreateInfo</td><td>user_data</td><td>void *</td><td>No</td><td>Opaque pointer passed through for callbacks or app-level association.</td></tr>
+    <tr><td>ArSessionCreateInfo</td><td>allocator</td><td>const ArAllocator *</td><td>No</td><td>Optional custom allocator used during session object creation.</td></tr>
+    <tr><td>ArSessionCreate</td><td>create_info</td><td>const ArSessionCreateInfo *</td><td>Yes</td><td>Pointer to the initialization structure containing environment/context and startup options.</td></tr>
+    <tr><td>ArSessionCreate</td><td>out_session</td><td>ArSession **</td><td>Yes</td><td>Output parameter that receives the newly created session.</td></tr>
+  </tbody>
+</table>

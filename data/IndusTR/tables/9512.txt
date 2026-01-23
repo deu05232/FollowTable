@@ -1,0 +1,16 @@
+<table>
+  <caption>8b/10b Disparity Ledger for SpaceFibre Control/Termination Symbols (Documentation Aid)</caption>
+  <thead>
+    <tr><th>Symbol</th><th>Common SpaceFibre Use</th><th>On-the-wire Occurrence Context</th><th>Running Disparity Value</th><th>Disparity Transition (Prev→Next)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>K28.5 (Comma)</td><td>Comma/start marker</td><td>Leading symbol of many control words</td><td>+2 or -2</td><td>May force realignment depending on decoder state</td></tr>
+    <tr><td>K28.7</td><td>LLCW/CRC marker</td><td>Field marker within ACK/NACK/ACTIVE/ALIGN patterns</td><td>0</td><td>Neutral; often used to stabilize RD</td></tr>
+    <tr><td>K27.7</td><td>Fill</td><td>Padding sequences (PAD)</td><td>+2 or -2</td><td>Typically flips RD sign when repeated</td></tr>
+    <tr><td>K29.7</td><td>EOP</td><td>Packet termination in data stream</td><td>+2 or -2</td><td>Transition depends on preceding data symbol</td></tr>
+    <tr><td>K30.7</td><td>EEP</td><td>Error termination in data stream</td><td>+2 or -2</td><td>May be followed by resync/idle depending on link state</td></tr>
+    <tr><td>K0.0</td><td>RxError</td><td>Replacement for erroneous received words</td><td>Not applicable</td><td>Decoder inserts regardless of RD ledger</td></tr>
+    <tr><td>D14.6</td><td>Idle/Skip filler byte</td><td>Used inside IDLE/SKIP control words</td><td>-2 or +2</td><td>Chosen to manage RD excursions</td></tr>
+    <tr><td>D31.3</td><td>Skip payload byte</td><td>Used inside SKIP control word</td><td>-2 or +2</td><td>Can amplify RD if repeated without balancing</td></tr>
+  </tbody>
+</table>

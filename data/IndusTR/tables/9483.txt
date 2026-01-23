@@ -1,0 +1,14 @@
+<table>
+  <caption>Update Container Status API Fields</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Location</th><th>Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>path</td><td>string</td><td>Yes</td><td>Unique identifier of the project.</td></tr>
+    <tr><td>containerId</td><td>path</td><td>string</td><td>Yes</td><td>Unique identifier of the container.</td></tr>
+    <tr><td>status</td><td>body</td><td>integer</td><td>Yes</td><td>Target status to set for the container.</td></tr>
+    <tr><td>reason</td><td>body</td><td>string</td><td>No</td><td>Optional reason for status change.</td></tr>
+    <tr><td>operatorId</td><td>header</td><td>string</td><td>No</td><td>Identifier of the operator performing the action.</td></tr>
+    <tr><td>updatedAt</td><td>body</td><td>string(date-time)</td><td>No</td><td>Server time of the status update.</td></tr>
+  </tbody>
+</table>

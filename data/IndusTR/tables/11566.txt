@@ -1,0 +1,10 @@
+<table>
+  <caption>Charging Communication CAN Message List (Session Control and Status)</caption>
+  <tr><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Data Length (BYTE)</th><th>Message Period (ms)</th><th>Source Address - Destination Address</th></tr>
+  <tr><td>CST</td><td>Charging Session State Message</td><td>4864</td><td>001300H</td><td>6</td><td>8</td><td>100</td><td>Charger - Vehicle</td></tr>
+  <tr><td>VST</td><td>Vehicle Session Status Message</td><td>5120</td><td>001400H</td><td>7</td><td>8</td><td>100</td><td>Vehicle - Charger</td></tr>
+  <tr><td>RQC</td><td>Charge Request/Command Message</td><td>5376</td><td>001500H</td><td>6</td><td>6</td><td>50</td><td>Vehicle - Charger</td></tr>
+  <tr><td>ACK</td><td>Charger Acknowledgement Message</td><td>5632</td><td>001600H</td><td>6</td><td>3</td><td>50</td><td>Charger - Vehicle</td></tr>
+  <tr><td>STS</td><td>Charging Termination Status Message</td><td>5888</td><td>001700H</td><td>6</td><td>5</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>TRM</td><td>Charger Termination Message</td><td>6144</td><td>001800H</td><td>6</td><td>5</td><td>250</td><td>Charger - Vehicle</td></tr>
+</table>

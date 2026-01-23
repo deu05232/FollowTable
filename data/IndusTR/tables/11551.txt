@@ -1,0 +1,15 @@
+<table>
+  <caption>GDP-based Carbon Intensity Indicators (CO2 per GDP) Used in Beautiful China Construction Evaluation</caption>
+  <thead>
+    <tr><th>Category</th><th>Indicator (Unit)</th><th>Indicator Code</th><th>Definition (GDP-based)</th><th>Why it matters for low-carbon development</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Core carbon-efficiency indicators</td><td>CO2 emissions per unit of GDP (tCO2 per 10,000 CNY)</td><td>C1-A</td><td>Total territorial CO2 emissions from energy combustion and industrial processes divided by GDP in comparable prices.</td><td>Primary measure of decoupling between economic growth and CO2 emissions; declining intensity indicates greener growth.</td></tr>
+    <tr><td>Energy-related CO2 per unit of GDP (tCO2 per 10,000 CNY)</td><td>C1-B</td><td>CO2 emissions from fossil-fuel combustion only divided by GDP in comparable prices.</td><td>Targets the main controllable emissions channel through energy efficiency and fuel switching; useful when process emissions are tracked separately.</td></tr>
+    <tr><td>CO2 emissions per unit of value added in the secondary sector (tCO2 per 10,000 CNY)</td><td>C1-C</td><td>CO2 emissions attributable to the secondary sector divided by its value added (constant price).</td><td>Focuses on manufacturing and construction where mitigation potential is high; helps identify structural vs. efficiency-driven changes.</td></tr>
+    <tr><td rowspan="2">Change over time</td><td>Annual reduction rate of carbon intensity (%)</td><td>C1-D</td><td>(Carbon intensity in previous year − carbon intensity in current year) / carbon intensity in previous year × 100%.</td><td>Tracks year-to-year progress toward carbon peaking and intensity targets; supports performance evaluation.</td></tr>
+    <tr><td>Cumulative reduction rate of carbon intensity relative to a base year (%)</td><td>C1-E</td><td>(Carbon intensity in base year − carbon intensity in current year) / carbon intensity in base year × 100%.</td><td>Links directly to policy commitments expressed as reductions versus a benchmark year; clarifies long-term trend.</td></tr>
+    <tr><td rowspan="2">Accounting notes (metadata)</td><td>System boundary for emissions (qualifier)</td><td>NOTE-3</td><td>Specify whether emissions are territorial (production-based) and whether they include only CO2 or CO2-equivalent; for this indicator, use CO2 only.</td><td>Prevents mixing with non-CO2 gases or consumption-based accounting, ensuring consistency for carbon-intensity comparisons.</td></tr>
+    <tr><td>GDP deflator/constant price requirement (qualifier)</td><td>NOTE-4</td><td>Use constant-price GDP (or explicitly stated deflator method) when computing intensity.</td><td>Avoids artificial improvements due to inflation, making carbon-intensity change interpretable as real efficiency/structure improvement.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Photodetector Module Requirements Matrix (Performance + Packaging + Interface)</caption>
+  <thead>
+    <tr><th>Section</th><th>Item</th><th>Specification</th><th>Limit / Range</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Device Performance</td><td>Spectral response</td><td>λ range</td><td>400 to 1100</td><td>nm</td><td>short band</td></tr>
+    <tr><td>Device Performance</td><td>Spectral response</td><td>λ range</td><td>1260 to 1700</td><td>nm</td><td>long band</td></tr>
+    <tr><td>Device Performance</td><td>SOA optical gain</td><td>G</td><td>14 to 25</td><td>dB</td><td>Pin < -20 dBm</td></tr>
+    <tr><td>Device Performance</td><td>Optical return loss</td><td>ORL</td><td>≥ 26</td><td>dB</td><td>high return loss configuration</td></tr>
+    <tr><td rowspan="2">Package / Mechanical</td><td>Package type</td><td>Form factor</td><td>TO-can, hermetic</td><td>—</td><td>includes window</td></tr>
+    <tr><td>Package / Mechanical</td><td>Connector</td><td>Optical interface</td><td>LC/APC</td><td>—</td><td>keyed</td></tr>
+    <tr><td rowspan="2">Electrical Interface</td><td>Supply voltage</td><td>VDD</td><td>3.0 to 3.6</td><td>V</td><td>module electronics</td></tr>
+    <tr><td>Electrical Interface</td><td>Output type</td><td>—</td><td>Analog current output</td><td>—</td><td>requires transimpedance stage</td></tr>
+  </tbody>
+</table>

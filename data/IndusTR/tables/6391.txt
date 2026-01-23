@@ -1,0 +1,16 @@
+<table>
+  <caption>Knitting Machine Interface Data Dictionary — Device Identity & Firmware</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0100</td><td>Machine Model</td><td>MachineType</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>Non-empty</td><td>-</td><td>Commercial model identifier reported by the controller</td></tr>
+    <tr><td>0x0101</td><td>Nominal Width</td><td>NominalWidth</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>1..2000</td><td>mm</td><td>Nominal knitting width of the machine</td></tr>
+    <tr><td>0x0102</td><td>Needle Pitch</td><td>NeedlePitch</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>1..20</td><td>gauge</td><td>Needle pitch / gauge value used for the machine</td></tr>
+    <tr><td>0x0103</td><td>Controller Serial Number</td><td>ControllerSerialNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>Non-empty</td><td>-</td><td>Unique serial number of the main controller</td></tr>
+    <tr><td>0x0104</td><td>Firmware Version</td><td>FirmwareVersion</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>SemVer-like (e.g., 1.2.3)</td><td>-</td><td>Firmware version string reported by the device</td></tr>
+    <tr><td>0x0105</td><td>Hardware Revision</td><td>HardwareRevision</td><td>O</td><td>VAR</td><td>RO</td><td>String</td><td>Non-empty</td><td>-</td><td>Hardware revision identifier (PCB/board revision)</td></tr>
+    <tr><td>0x0106</td><td>Supported Languages</td><td>SupportedLanguages</td><td>O</td><td>ARRAY</td><td>RO</td><td>Array<String></td><td>ISO language tags</td><td>-</td><td>List of UI language codes supported by the HMI</td></tr>
+    <tr><td>0x0107</td><td>Manufacturing Date</td><td>ManufacturingDate</td><td>O</td><td>VAR</td><td>RO</td><td>String</td><td>YYYY-MM-DD</td><td>-</td><td>Date the machine was manufactured</td></tr>
+  </tbody>
+</table>

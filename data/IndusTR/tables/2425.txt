@@ -1,0 +1,10 @@
+<table>
+  <caption>Datacenter Storage Capacity Plan for Manufacturing Data (Non-domain Specific)</caption>
+  <tr><th>Storage Tier</th><th>Use Case</th><th>Technology</th><th>Raw Capacity (TB)</th><th>Retention</th><th>Backup Frequency</th><th>Estimated Monthly Cost (USD)</th></tr>
+  <tr><td>Hot</td><td>Real-time dashboards</td><td>NVMe SAN</td><td>120</td><td>30 days</td><td>Daily</td><td>9,800</td></tr>
+  <tr><td>Warm</td><td>MES/SCADA history</td><td>SATA SAN</td><td>350</td><td>180 days</td><td>Weekly</td><td>6,200</td></tr>
+  <tr><td>Cold</td><td>Quality traceability archive</td><td>Object Storage</td><td>900</td><td>5 years</td><td>Monthly</td><td>3,750</td></tr>
+  <tr><td>DR</td><td>Disaster recovery replica</td><td>Cloud bucket</td><td>500</td><td>30 days</td><td>Daily</td><td>4,100</td></tr>
+  <tr><td>Logs</td><td>Security & audit logs</td><td>Log platform</td><td>80</td><td>1 year</td><td>Daily</td><td>1,450</td></tr>
+  <tr><td>Dev/Test</td><td>Staging datasets</td><td>NAS</td><td>60</td><td>90 days</td><td>Weekly</td><td>620</td></tr>
+</table>

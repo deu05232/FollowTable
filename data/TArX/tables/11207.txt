@@ -1,0 +1,15 @@
+<table>
+  <caption>Typical Electron Drift Velocity in Common Conductors at 20°C (Single-Value per Material)</caption>
+  <thead>
+    <tr><th>Material</th><th>Category</th><th>Typical electron drift velocity (mm/s)</th><th>Assumed current density (A/mm²)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Copper (Cu)</td><td>Metal conductor</td><td>0.074</td><td>10</td><td>Representative room-temperature value</td></tr>
+    <tr><td>Aluminum (Al)</td><td>Metal conductor</td><td>0.23</td><td>10</td><td>Higher drift for similar current density due to lower carrier density</td></tr>
+    <tr><td>Silver (Ag)</td><td>Metal conductor</td><td>0.068</td><td>10</td><td>Comparable to copper under the same current density</td></tr>
+    <tr><td>Gold (Au)</td><td>Metal conductor</td><td>0.079</td><td>10</td><td>Typical engineering estimate</td></tr>
+    <tr><td>Tungsten (W)</td><td>Metal conductor</td><td>0.040</td><td>10</td><td>Lower drift typical under same current density assumption</td></tr>
+    <tr><td>Graphite</td><td>Semi-metal</td><td>0.50</td><td>10</td><td>Order-of-magnitude typical drift estimate</td></tr>
+    <tr><td>Silicon (n-type)</td><td>Semiconductor</td><td>2.0</td><td>10</td><td>Illustrative drift speed for moderately doped material</td></tr>
+  </tbody>
+</table>

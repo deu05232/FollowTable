@@ -1,0 +1,15 @@
+<table>
+  <caption>Response APDU Data Objects (Successful Reply Payload) for Messaging Commands</caption>
+  <thead>
+    <tr><th>Tag</th><th>Name</th><th>Length (byte)</th><th>Presence Condition</th><th>Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x01</td><td>Service Address (ID)</td><td>6</td><td>Returned when routing is resolved</td><td>Binary</td><td>Maps message type to corresponding service/user/group identifier</td></tr>
+    <tr><td>0x02</td><td>IMSI</td><td>9</td><td>Returned for USIM-associated sessions</td><td>BCD</td><td>IMSI value associated with the card</td></tr>
+    <tr><td>0x03</td><td>Frame Mode</td><td>1</td><td>Always present for segmented transfers</td><td>Enum</td><td>00=end frame, 01=intermediate frame</td></tr>
+    <tr><td>0x04</td><td>Payload Ciphertext</td><td>0–240</td><td>Present when encrypted payload is returned</td><td>Opaque</td><td>Encrypted message bytes; segmentation may apply</td></tr>
+    <tr><td>0x05</td><td>Remaining Length</td><td>2</td><td>Only when intermediate frame is used</td><td>UInt16</td><td>Number of bytes remaining to be fetched in subsequent frames</td></tr>
+    <tr><td>0x06</td><td>Sequence Counter</td><td>2</td><td>Optional</td><td>UInt16</td><td>Monotonic counter for response ordering</td></tr>
+    <tr><td>0x07</td><td>MAC</td><td>8</td><td>Optional (secure messaging)</td><td>Binary</td><td>Integrity check for the returned objects</td></tr>
+  </tbody>
+</table>

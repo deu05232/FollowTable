@@ -1,0 +1,14 @@
+<table>
+  <caption>Resolution and Stability by Current Range for Harmonic Current Generation (Test Device Electrical Specs)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Current interval</th><th>Setting resolution</th><th>Short-term stability (peak-to-peak)</th><th>Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Harmonic current setting performance</td><td>1 mA ≤ I < 10 mA</td><td>0.01 mA</td><td>0.05% of set value</td><td>Relative to Iset</td></tr>
+    <tr><td>10 mA ≤ I < 100 mA</td><td>0.1 mA</td><td>0.03% of set value</td><td>Relative to Iset</td></tr>
+    <tr><td>100 mA ≤ I < 1 A</td><td>1 mA</td><td>0.02% of set value</td><td>Relative to Iset</td></tr>
+    <tr><td>1 A ≤ I < 10 A</td><td>0.01 A</td><td>0.02% of set value</td><td>Relative to Iset</td></tr>
+    <tr><td>10 A ≤ I < 50 A</td><td>0.05 A</td><td>0.03% of set value</td><td>Relative to Iset</td></tr>
+    <tr><td>50 A ≤ I ≤ Imax</td><td>0.1 A</td><td>0.05% of set value</td><td>Relative to Iset</td></tr>
+  </tbody>
+</table>

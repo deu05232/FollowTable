@@ -1,0 +1,14 @@
+<table>
+  <caption>Building Sector Comprehensive Energy Quota (kWh m²·year) by Facility Type</caption>
+  <thead>
+    <tr><th>Facility Type</th><th>Climate Zone</th><th>Grade A</th><th>Grade B</th><th>Grade C</th><th>Assessment Boundary</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>General hospital</td><td>Cold</td><td>≤ 220</td><td>≤ 260</td><td>≤ 320</td><td>HVAC + lighting + plug loads</td></tr>
+    <tr><td>Data center</td><td>Temperate</td><td>≤ 480</td><td>≤ 560</td><td>≤ 680</td><td>PUE converted to kWh/m²</td></tr>
+    <tr><td>Office building</td><td>Hot summer/cold winter</td><td>≤ 85</td><td>≤ 100</td><td>≤ 125</td><td>Whole building</td></tr>
+    <tr><td>Shopping mall</td><td>Temperate</td><td>≤ 160</td><td>≤ 190</td><td>≤ 240</td><td>Common areas included</td></tr>
+    <tr><td>University classroom</td><td>Cold</td><td>≤ 55</td><td>≤ 70</td><td>≤ 90</td><td>Teaching hours normalized</td></tr>
+    <tr><td>Hotel</td><td>Hot</td><td>≤ 140</td><td>≤ 170</td><td>≤ 215</td><td>With laundry excluded</td></tr>
+  </tbody>
+</table>

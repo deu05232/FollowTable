@@ -1,0 +1,10 @@
+# Pediatric Blood Pressure Classification by Height Percentile
+
+| Height percentile | Clinical label | Systolic threshold (mm Hg) | Diastolic threshold (mm Hg) | Age reference |
+| --- | --- | --- | --- | --- |
+| <5th | Normal | <90th percentile | <90th percentile | 3–12 years |
+| <5th | Elevated | 90th–<95th percentile | 90th–<95th percentile | 3–12 years |
+| 5th–95th | Normal | <90th percentile | <90th percentile | 3–12 years |
+| 5th–95th | Elevated | 90th–<95th percentile | 90th–<95th percentile | 3–12 years |
+| >95th | Stage 1 hypertension | ≥95th–<95th+12 mm Hg | ≥95th–<95th+12 mm Hg | 3–12 years |
+| >95th | Stage 2 hypertension | ≥95th+12 mm Hg | ≥95th+12 mm Hg | 3–12 years |

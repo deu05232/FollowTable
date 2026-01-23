@@ -1,0 +1,16 @@
+<table>
+  <caption>Off-mode, standby, and networked standby power thresholds tied to energy efficiency grades for induction cookers</caption>
+  <thead>
+    <tr><th rowspan="2">Power mode</th><th rowspan="2">Typical user-visible state</th><th rowspan="2">Sub-condition</th><th colspan="3">Energy efficiency grade (maximum power, W)</th></tr>
+    <tr><th>Grade 1</th><th>Grade 2</th><th>Grade 3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Off mode</td><td>Switched off, plug-in, no indicators</td><td>Off with no display</td><td>≤ 0.2</td><td>≤ 0.3</td><td>≤ 0.5</td></tr>
+    <tr><td rowspan="2">Standby (no network)</td><td>Clock or status light on</td><td>Basic indicator only</td><td>≤ 0.5</td><td>≤ 0.8</td><td>≤ 1.2</td></tr>
+    <tr><td>Standby (no network)</td><td>Display panel active (time/status)</td><td>Enhanced display</td><td>≤ 0.8</td><td>≤ 1.2</td><td>≤ 1.8</td></tr>
+    <tr><td rowspan="2">Networked standby</td><td>App connected / smart control enabled</td><td>Remote wake allowed</td><td>≤ 2.0</td><td>≤ 2.5</td><td>≤ 3.0</td></tr>
+    <tr><td>Networked standby</td><td>Connected for updates only</td><td>No remote wake</td><td>≤ 1.5</td><td>≤ 2.0</td><td>≤ 2.5</td></tr>
+    <tr><td rowspan="2">Grade context (non-focus)</td><td>Efficiency grade definition</td><td>Grade determined by overall energy performance index</td><td colspan="3">Index includes heating and control losses</td></tr>
+    <tr><td>Test condition</td><td>Ambient 23°C, nominal supply voltage</td><td colspan="3">Applies to all grades</td></tr>
+  </tbody>
+</table>

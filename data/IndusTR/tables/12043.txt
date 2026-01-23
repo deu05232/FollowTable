@@ -1,0 +1,16 @@
+<table>
+  <caption>Deliverable Service BOM Relationship Fields (Parent-to-Child Link)</caption>
+  <thead>
+    <tr><th>No.</th><th>Field</th><th>Definition</th><th>Required</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>parent_item_id</td><td>Unique identifier of the parent item (assembly or serviceable unit) that owns the BOM relationship.</td><td>Yes</td><td>ASM-100045</td></tr>
+    <tr><td>2</td><td>parent_item_revision</td><td>Revision/version of the parent item used to determine the exact configuration context.</td><td>No</td><td>Rev C</td></tr>
+    <tr><td>3</td><td>child_item_id</td><td>Unique identifier of the child item that is linked to the parent in the service BOM.</td><td>Yes</td><td>PRT-778210</td></tr>
+    <tr><td>4</td><td>child_item_revision</td><td>Revision/version of the child item referenced by the relationship.</td><td>No</td><td>Rev 02</td></tr>
+    <tr><td>5</td><td>quantity_per_parent</td><td>Amount of the child used by one unit of the parent (quantity expressed as a numeric value).</td><td>Yes</td><td>2</td></tr>
+    <tr><td>6</td><td>quantity_uom</td><td>Unit of measure for the relationship quantity (e.g., EA, M, L).</td><td>Yes</td><td>EA</td></tr>
+    <tr><td>7</td><td>relationship_type</td><td>Type of BOM link describing how the child relates to the parent (e.g., component, kit, consumable).</td><td>No</td><td>Component</td></tr>
+    <tr><td>8</td><td>line_number</td><td>Ordering key for displaying/maintaining the BOM structure under the parent.</td><td>No</td><td>0010</td></tr>
+  </tbody>
+</table>

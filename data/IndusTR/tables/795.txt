@@ -1,0 +1,10 @@
+<table>
+  <caption>Input Parameters for Pushing Battery Swap Order Status</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Battery swap order number</td><td>s wapOrderNo</td><td>string</td><td>Format "Operator ID + unique number”, no more than 64 characters</td><td>Yes</td></tr>
+  <tr><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>Unique battery swap equipment code under the platform</td><td>Yes</td></tr>
+  <tr><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>Per GB/T 27930, length 17 characters</td><td>Yes</td></tr>
+  <tr><td>License plate number</td><td>plateNum</td><td>string</td><td>Full vehicle license plate number</td><td>Fragrant</td></tr>
+  <tr><td>Order status</td><td>orderStatus</td><td>SwapOrderStatusEnum</td><td>Shall comply with the provisions of A.3.2.4</td><td>Yes</td></tr>
+  <tr><td>Change time</td><td>happenTime</td><td>DateTimeZ</td><td>Time when the order status changed</td><td>Yes</td></tr>
+</table>

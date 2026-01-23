@@ -1,0 +1,14 @@
+<table>
+  <caption>ARHitTestRaycastType (Intersection Query Behavior)</caption>
+  <thead>
+    <tr><th>Raycast Constant</th><th>Value</th><th>What It Intersects</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AR_RAYCAST_TYPE_EXISTING_PLANE</td><td>0</td><td>Only already-detected planes (bounded polygon area).</td><td>Stable placement on tracked plane extents.</td></tr>
+    <tr><td>AR_RAYCAST_TYPE_EXISTING_PLANE_INFINITE</td><td>1</td><td>Detected planes extended to an infinite plane.</td><td>Useful when user taps outside current polygon bounds.</td></tr>
+    <tr><td>AR_RAYCAST_TYPE_ESTIMATED_PLANE</td><td>2</td><td>Estimated planes not yet fully tracked as polygons.</td><td>Faster placement but can drift/merge later.</td></tr>
+    <tr><td>AR_RAYCAST_TYPE_EXISTING_MESH</td><td>3</td><td>Reconstructed mesh triangles.</td><td>Best for complex geometry if mesh is enabled.</td></tr>
+    <tr><td>AR_RAYCAST_TYPE_EXISTING_POINT_CLOUD</td><td>4</td><td>Feature points / point cloud.</td><td>Fallback when no planes/mesh are available.</td></tr>
+    <tr><td>AR_RAYCAST_TYPE_ANY</td><td>5</td><td>Uses the best available target among planes/mesh/points.</td><td>Convenient default; may return mixed target types.</td></tr>
+  </tbody>
+</table>

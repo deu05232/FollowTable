@@ -1,0 +1,15 @@
+<table>
+  <caption>Command Data Field (C-APDU Body) Layout for Encrypted Messaging</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Field Name</th><th>Length (bytes)</th><th>Encoding</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Terminal ID</td><td>6</td><td>BCD</td><td>Identifier of the sending terminal</td></tr>
+    <tr><td>2</td><td>Session Counter</td><td>4</td><td>HEX</td><td>Monotonic counter for replay protection</td></tr>
+    <tr><td>3</td><td>Key Version</td><td>1</td><td>HEX</td><td>Selects which key set to use</td></tr>
+    <tr><td>4</td><td>IV</td><td>16</td><td>HEX</td><td>Initialization vector for the cipher</td></tr>
+    <tr><td>5</td><td>Ciphertext</td><td>0..240</td><td>Binary</td><td>Encrypted payload bytes</td></tr>
+    <tr><td>6</td><td>MAC</td><td>8</td><td>HEX</td><td>Message authentication code</td></tr>
+    <tr><td>7</td><td>Padding</td><td>0..15</td><td>Binary</td><td>ISO/IEC 7816 padding if required</td></tr>
+  </tbody>
+</table>

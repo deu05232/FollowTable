@@ -1,0 +1,11 @@
+<table>
+  <caption>Description of the model gas and ice giants used as inputs to the albedo spectra simulation. The separations and cloud types are noted. T int is a parameterizaton of the flux from the interior of the planet, due to its cooling with time (temperature in the absence of any incident flux). f s ⁢ e ⁢ d is the ratio of the microphysical sedimentation flux to the eddy sedimentation flux.</caption>
+  <tr><td></td><td colspan="3">Jupiters</td><td colspan="3">Neptunes</td><td></td><td></td></tr>
+  <tr><td></td><td colspan="3">g=25 ms ^((-2))</td><td colspan="3">g=10 ms ^((-2))</td><td></td><td></td></tr>
+  <tr><td>Separation</td><td>T_(int) (K)</td><td colspan="2">T_(eff) (K)</td><td>T_(int) (K)</td><td colspan="2">T_(eff) (K)</td><td>Clouds</td><td>f_(sed)</td></tr>
+  <tr><td></td><td></td><td>1×</td><td>3×</td><td></td><td>10×</td><td>30×</td><td></td><td></td></tr>
+  <tr><td>0.8 AU</td><td>100</td><td>274</td><td>282</td><td>50</td><td>285</td><td>292</td><td>None</td><td>-</td></tr>
+  <tr><td>2 AU</td><td>100</td><td>123</td><td>126</td><td>50</td><td>134</td><td>148</td><td>H _(2) O</td><td>6</td></tr>
+  <tr><td>5 AU</td><td>100</td><td>115</td><td>119</td><td>50</td><td>110</td><td>112</td><td>H _(2) O, NH _(3)</td><td>10</td></tr>
+  <tr><td>10 AU</td><td>100</td><td>107</td><td>109</td><td>50</td><td>81</td><td>82</td><td>H _(2) O, NH _(3)</td><td>10</td></tr>
+</table>

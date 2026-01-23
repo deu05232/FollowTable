@@ -1,0 +1,10 @@
+<table>
+  <caption>Terrestrial eco-meteorological station metadata data format (site descriptors and management info)</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Record Code</td><td>Data Type</td><td>Unit/Format/Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Station alias</td><td>D_ALIAS</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>3</td><td>Administrative region</td><td>D_REGION</td><td>Variable characters(100)</td><td>Region name</td></tr>
+  <tr><td>4</td><td>Latitude</td><td>D_LAT</td><td>Number(9,6)</td><td>Unit: degree</td></tr>
+  <tr><td>5</td><td>Longitude</td><td>D_LON</td><td>Number(9,6)</td><td>Unit: degree</td></tr>
+  <tr><td>6</td><td>Station contact person</td><td>D_CONTACT</td><td>Variable characters(100)</td><td>Person name</td></tr>
+</table>

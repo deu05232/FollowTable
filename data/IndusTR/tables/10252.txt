@@ -1,0 +1,19 @@
+<table>
+  <caption>AWG Heater Control and Power Budget (Non-Optical Requirements)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Parameter</th><th>Unit</th><th>Specification</th><th>Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Heater Driver</td><td>Max Heater Current</td><td>A</td><td>≤ 2.5</td><td>Continuous</td></tr>
+    <tr><td>Current Resolution</td><td>mA</td><td>1</td><td>Digital control step</td></tr>
+    <tr><td>Heater Voltage Compliance</td><td>V</td><td>0–6</td><td>Across heater load</td></tr>
+    <tr><td rowspan="3">Power</td><td>Supply Voltage</td><td>V</td><td>4.75–5.25</td><td>Ripple < 50 mVpp</td></tr>
+    <tr><td>Supply Current</td><td>A</td><td>≤ 3.0</td><td>All heaters enabled</td></tr>
+    <tr><td>Power Consumption</td><td>W</td><td>≤ 15</td><td>At 25°C ambient</td></tr>
+    <tr><td rowspan="3">Thermal Control</td><td>Set Temperature</td><td>°C</td><td>65–87</td><td>Factory default 75°C</td></tr>
+    <tr><td>TEC Peak Current</td><td>A</td><td>≤ 4.0</td><td>Start-up transient</td></tr>
+    <tr><td>Temperature Sensor Type</td><td>—</td><td>NTC 10k</td><td>Beta = 3435</td></tr>
+    <tr><td rowspan="2">Protection</td><td>Over-Current Trip</td><td>A</td><td>2.8</td><td>Latch-off</td></tr>
+    <tr><td>ESD Rating</td><td>kV</td><td>2</td><td>HBM</td></tr>
+  </tbody>
+</table>

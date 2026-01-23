@@ -1,0 +1,7 @@
+# DLNA device encoding parameter table (profiles levels dominate)
+
+| Device | Video profile/level constraints focus | Resolution/frame-rate constraints focus | Audio sampling/bit-depth constraints focus | Remarks |
+| --- | --- | --- | --- | --- |
+| TV A | Lists allowed AVC profiles/levels | Lists max resolution and fps | Lists allowed PCM/AAC sample rates | Mostly parameter constraints |
+| Player B | Lists MPEG-2 profile/level limits | Lists max bitrate and fps | Lists channel/bit-depth limits | Focus is limits, not format families |
+| Console C | Lists VC-1/H.264 level caps | Lists max resolution | Lists max channels/sample rates | Parameter-centric table |

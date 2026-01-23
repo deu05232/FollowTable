@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Parameter Configuration Functional Test Case</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.6</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Parameter Settings</td></tr>
+  <tr><td>Test Objective</td><td>Verify logistics terminal parameter configuration function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can log in normally; 2. It can connect to the server normally; 3. UI buttons and input boxes can be used normally; 4. Logistics terminals that have established a subscription relationship with the platform can work normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Enter correct terminal login information on the logistics terminal to log in to the logistics platform; 2. Initiate a parameter configuration query request on the logistics terminal; 3. Initiate a request to modify the queried terminal parameter configuration; 4. Initiate a parameter configuration query request again on the logistics terminal; 5. View the modified parameter configuration</td></tr>
+  <tr><td>Pass Criteria</td><td>1. Able to query the terminal's original parameter information; 2. After modifying the terminal parameters, querying again returns the modified terminal parameter information</td></tr>
+  <tr><td>Notes</td><td>Parameters related to communication with the platform are managed by the platform capability layer, while parameters related to services can be managed directly by the platform service layer, or managed indirectly by the platform service layer through the platform capability layer</td></tr>
+</table>

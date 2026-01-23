@@ -1,0 +1,17 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Detector Construction and Materials Attributes</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Detector Type</td><td>(0018,7004)</td><td>CS</td><td>1</td><td>2</td><td>Type of detector used to acquire projection data.</td></tr>
+    <tr><td>Detector Array</td><td>(0018,7005)</td><td>CS</td><td>1</td><td>3</td><td>Array configuration of the detector elements.</td></tr>
+    <tr><td>Scintillator Material</td><td>(0018,7006)</td><td>CS</td><td>1</td><td>2</td><td>Material type of the detector scintillator layer.</td></tr>
+    <tr><td>Detector Element Physical Size</td><td>(0018,7020)</td><td>DS</td><td>2</td><td>3</td><td>Physical size of one detector element (e.g., mm).</td></tr>
+    <tr><td>Detector Active Dimensions</td><td>(0018,7022)</td><td>IS</td><td>2</td><td>3</td><td>Number of active detector elements in the row and column directions.</td></tr>
+    <tr><td>Detector Manufacturer</td><td>(0018,7008)</td><td>LO</td><td>1</td><td>3</td><td>Name of the detector manufacturer.</td></tr>
+    <tr><td>Detector Model Name</td><td>(0018,700A)</td><td>LO</td><td>1</td><td>3</td><td>Manufacturer’s model name for the detector.</td></tr>
+    <tr><td>Detector Serial Number</td><td>(0018,1000)</td><td>LO</td><td>1</td><td>3</td><td>Serial number assigned by the manufacturer.</td></tr>
+    <tr><td>Detector ID</td><td>(0018,700C)</td><td>SH</td><td>1</td><td>3</td><td>Identifier of the detector used in the acquisition.</td></tr>
+  </tbody>
+</table>

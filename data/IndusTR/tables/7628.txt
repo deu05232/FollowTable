@@ -1,0 +1,6 @@
+<table>
+  <caption>Parameters for creating an ARCollisionQueryResult (out object)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_collision_result</td><td>ArCollisionQueryResult **</td><td>Pointer to a result pointer that receives the newly created collision query result object</td></tr>
+</table>

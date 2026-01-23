@@ -1,0 +1,10 @@
+<table>
+  <caption>Test Method Setup for Verifying Application File Read Write Reliability</caption>
+  <tr><th>Test Case</th><th>Environment</th><th>Tooling</th><th>Procedure Summary</th><th>Pass/Fail Rule</th><th>Record Fields</th></tr>
+  <tr><td>RW-01</td><td>25°C / 40% RH</td><td>PCSC reader + script</td><td>Write file, read back 100 cycles</td><td>0 mismatches</td><td>cycle_count, mismatch_pos</td></tr>
+  <tr><td>RW-02</td><td>-10°C / 20% RH</td><td>temp chamber</td><td>Write once, read 10 cycles</td><td>Read success rate ≥ 99%</td><td>read_ok, error_code</td></tr>
+  <tr><td>RW-03</td><td>60°C / 80% RH</td><td>temp/humidity chamber</td><td>Read file after 24h soak</td><td>CRC ok</td><td>crc_value, soak_time</td></tr>
+  <tr><td>RW-04</td><td>ESD ±8 kV air</td><td>ESD gun</td><td>Discharge then read file</td><td>No permanent failure</td><td>esd_level, reboot_needed</td></tr>
+  <tr><td>RW-05</td><td>Power glitch</td><td>programmable PSU</td><td>Interrupt during write</td><td>Atomicity preserved</td><td>glitch_ms, recovery_state</td></tr>
+  <tr><td>RW-06</td><td>EMI 10 V/m</td><td>EMC chamber</td><td>Read while radiated field applied</td><td>No data corruption</td><td>field_strength, corruption_flag</td></tr>
+</table>

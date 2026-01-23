@@ -1,0 +1,22 @@
+<table>
+  <caption>Tire Building Machine Parameter Set (Configuration Block Without Per-item Semantics)</caption>
+  <thead>
+    <tr><th>Set ID</th><th>Parameter Group</th><th>Parameter Name</th><th>Configured Value</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">TBM-SET-014</td><td rowspan="3">Carcass</td><td>DrumSpeed</td><td>12.5</td><td>rpm</td><td>Nominal drum rotation</td></tr>
+    <tr><td>BeadSetterDelay</td><td>0.80</td><td>s</td><td>Delay after bead clamp</td></tr>
+    <tr><td>LinerFeedTension</td><td>45</td><td>N</td><td>Target tension</td></tr>
+    <tr><td rowspan="2">Tread</td><td>TreadCenteringOffset</td><td>1.2</td><td>mm</td><td>Mechanical offset compensation</td></tr>
+    <tr><td>TreadSplicePressure</td><td>0.35</td><td>MPa</td><td>Splice roller pressure</td></tr>
+    <tr><td rowspan="2">Safety</td><td>GuardDoorBypass</td><td>OFF</td><td>-</td><td>Commissioning only</td></tr>
+    <tr><td>EStopResetMode</td><td>MANUAL</td><td>-</td><td>Reset policy</td></tr>
+    <tr><td rowspan="7">TBM-SET-015</td><td rowspan="3">Carcass</td><td>DrumSpeed</td><td>14.0</td><td>rpm</td><td>Higher throughput</td></tr>
+    <tr><td>BeadSetterDelay</td><td>0.65</td><td>s</td><td>Optimized delay</td></tr>
+    <tr><td>LinerFeedTension</td><td>50</td><td>N</td><td>Target tension</td></tr>
+    <tr><td rowspan="2">Tread</td><td>TreadCenteringOffset</td><td>0.8</td><td>mm</td><td>Different tooling</td></tr>
+    <tr><td>TreadSplicePressure</td><td>0.40</td><td>MPa</td><td>Splice roller pressure</td></tr>
+    <tr><td rowspan="2">Safety</td><td>GuardDoorBypass</td><td>OFF</td><td>-</td><td>Disabled</td></tr>
+    <tr><td>EStopResetMode</td><td>AUTO</td><td>-</td><td>Auto reset enabled</td></tr>
+  </tbody>
+</table>

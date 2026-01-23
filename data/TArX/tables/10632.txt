@@ -1,0 +1,16 @@
+<table>
+  <caption>Chandrasekhar-mass Deflagration Study: Input Parameter Grid (W7-like setups)</caption>
+  <thead>
+    <tr><th colspan="6">Parameter list (no per-run outcomes)</th></tr>
+    <tr><th>Parameter</th><th>Symbol</th><th>Units</th><th>Level A</th><th>Level B</th><th>Level C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Central density</td><td>ρc</td><td>109g cm-3</td><td>1.0</td><td>2.0</td><td>3.0</td></tr>
+    <tr><td>Carbon mass fraction</td><td>X(12C)</td><td>—</td><td>0.30</td><td>0.46</td><td>0.62</td></tr>
+    <tr><td>Metallicity tracer</td><td>X(22Ne)</td><td>—</td><td>0.00</td><td>0.02</td><td>0.06</td></tr>
+    <tr><td>Ignition kernels</td><td>Nign</td><td>count</td><td>1</td><td>5</td><td>30</td></tr>
+    <tr><td>Flame speed factor</td><td>fturb</td><td>—</td><td>0.5</td><td>1.0</td><td>1.5</td></tr>
+    <tr><td>DDT criterion density</td><td>ρDDT</td><td>107g cm-3</td><td>1.0</td><td>2.5</td><td>5.0</td></tr>
+    <tr><td>Grid resolution</td><td>Δx</td><td>km</td><td>8</td><td>4</td><td>2</td></tr>
+  </tbody>
+</table>

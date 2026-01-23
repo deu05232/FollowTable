@@ -1,0 +1,11 @@
+<table>
+  <caption>Sampling Plan and Compliance Inspection Schedule for Synthesized Frequency Sources (Lot Acceptance Focus)</caption>
+  <tr><th rowspan="2">Check Category</th><th rowspan="2">Inspection Item</th><th rowspan="2">Test Setup / Conditions</th><th rowspan="2">Requirement After Test</th><th colspan="4">Sampling / Acceptance Statistics</th></tr>
+  <tr><th>Lot Size Range</th><th>Sample Size (n)</th><th>Acceptance Number (Ac)</th><th>Rejection Number (Re)</th></tr>
+  <tr><td>Visual / Mechanical</td><td>Marking and label legibility</td><td>Ambient 23±5°C, 40–70% RH, 500 lx illumination</td><td>No missing or smeared marking</td><td>2–50</td><td>5</td><td>0</td><td>1</td></tr>
+  <tr><td>Visual / Mechanical</td><td>Connector integrity (SMA/N-type)</td><td>Manual mate/unmate 3 cycles, no tools</td><td>No cross-threading; coupling nut rotates smoothly</td><td>51–150</td><td>8</td><td>0</td><td>1</td></tr>
+  <tr><td>Electrical</td><td>Output frequency accuracy at 25°C</td><td>Warm-up 30 min; counter ref: 10 MHz GPSDO</td><td>Within ±1 ppm of set frequency</td><td>151–500</td><td>13</td><td>1</td><td>2</td></tr>
+  <tr><td>Electrical</td><td>Phase noise (1 kHz offset)</td><td>10 MHz carrier; analyzer RBW 1 Hz</td><td>≤ -100 dBc/Hz</td><td>501–1200</td><td>20</td><td>1</td><td>2</td></tr>
+  <tr><td>Electrical</td><td>Spurious emissions</td><td>Spectrum sweep 9 kHz–3 GHz, 50 Ω load</td><td>Spurs ≤ -60 dBc</td><td>1201–3200</td><td>32</td><td>2</td><td>3</td></tr>
+  <tr><td>Environmental / Electrical</td><td>Output level drift over temperature</td><td>-20°C, 25°C, +70°C; soak 20 min each</td><td>Drift ≤ 1.0 dB</td><td>3201–10000</td><td>50</td><td>3</td><td>4</td></tr>
+</table>

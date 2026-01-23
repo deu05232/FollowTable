@@ -1,0 +1,32 @@
+<table>
+  <caption>Input parameters, f env and related z 0 the height of the radius R 0 above the core surface R pl , the location of the transonic point R s , the corresponding Knudsen number K ⁢ n s at this location, the critical radius R c where K ⁢ n reaches 0.1, and the exobase distance R exo , as well as the thermal escape rate of hydrogen atoms over 3 π steradian in units of s - 1 and total loss during Δ ⁢ t of 90 Myr in units of EO H for protoplanet core masses of 0.1 M ⊕ , 0.5 M ⊕ , 1.0 M ⊕ , 2.0 M ⊕ , 3.0 M ⊕ , and 5 M ⊕ .</caption>
+  <tr><td>Core mass [ M_() ]</td><td>f_(env)</td><td>[%]</td><td>z_(0) [ R_() ]</td><td>R_(s) [ R_(0) ]</td><td>Kn_(s)</td><td>R_(c) [ R_(0) ]</td><td>R_(exo) [ R_(0) ]</td><td>L_(th) [s ^((-1)) ]</td><td>L_(Δ t) [EO _(H) ]</td></tr>
+  <tr><td>0.1</td><td>0.001</td><td>15</td><td>0.15</td><td>16.7</td><td>0.006</td><td>180</td><td>500</td><td>1.3× 10^(33)</td><td>40</td></tr>
+  <tr><td>0.1</td><td>0.001</td><td>40</td><td>0.15</td><td>12.8</td><td>0.004</td><td>200</td><td>880</td><td>1.8× 10^(33)</td><td>55.7</td></tr>
+  <tr><td>0.5</td><td>0.001</td><td>15</td><td>0.15</td><td>20.0</td><td>0.125</td><td>18</td><td>80</td><td>1.25× 10^(32)</td><td>3.9</td></tr>
+  <tr><td>0.5</td><td>0.001</td><td>40</td><td>0.15</td><td>14.0</td><td>0.05</td><td>25</td><td>170</td><td>3.0× 10^(32)</td><td>9.3</td></tr>
+  <tr><td>0.5</td><td>0.01</td><td>15</td><td>0.5</td><td>18</td><td>0.05</td><td>25</td><td>144</td><td>3.5× 10^(32)</td><td>10.8</td></tr>
+  <tr><td>0.5</td><td>0.01</td><td>40</td><td>0.5</td><td>12.4</td><td>0.02</td><td>41</td><td>280</td><td>7.7× 10^(32)</td><td>23.8</td></tr>
+  <tr><td>1</td><td>0.001</td><td>15</td><td>0.15</td><td>6.2</td><td>0.3</td><td>3.2</td><td>14</td><td>5.5× 10^(31)</td><td>1.73</td></tr>
+  <tr><td>1</td><td>0.001</td><td>40</td><td>0.15</td><td>5.0</td><td>0.16</td><td>3.7</td><td>16</td><td>9.8× 10^(31)</td><td>3</td></tr>
+  <tr><td>1</td><td>0.01</td><td>15</td><td>1</td><td>20.0</td><td>0.06</td><td>32</td><td>220</td><td>5.6× 10^(32)</td><td>17.3</td></tr>
+  <tr><td>1</td><td>0.01</td><td>40</td><td>1</td><td>14.0</td><td>0.02</td><td>47</td><td>300</td><td>1.3× 10^(33)</td><td>40.3</td></tr>
+  <tr><td>2</td><td>0.001</td><td>15</td><td>0.15</td><td>7.2</td><td>0.46</td><td>3</td><td>12</td><td>5.5 × 10^(31)</td><td>1.7</td></tr>
+  <tr><td>2</td><td>0.001</td><td>40</td><td>0.15</td><td>5.5</td><td>0.22</td><td>3.5</td><td>15</td><td>1.0× 10^(32)</td><td>3</td></tr>
+  <tr><td>2</td><td>0.01</td><td>15</td><td>1</td><td>6</td><td>0.15</td><td>4.6</td><td>20</td><td>2.0× 10^(32)</td><td>6</td></tr>
+  <tr><td>2</td><td>0.01</td><td>40</td><td>1</td><td>5</td><td>0.11</td><td>5.5</td><td>26</td><td>3.7 × 10^(32)</td><td>11.5</td></tr>
+  <tr><td>2</td><td>0.1</td><td>15</td><td>4</td><td>17.7</td><td>0.012</td><td>100</td><td>500</td><td>6.2 × 10^(33)</td><td>192</td></tr>
+  <tr><td>2</td><td>0.1</td><td>40</td><td>4</td><td>12.4</td><td>0.0045</td><td>140</td><td>700</td><td>1.3 × 10^(34)</td><td>403</td></tr>
+  <tr><td>3</td><td>0.001</td><td>15</td><td>1</td><td>6.6</td><td>0.2</td><td>4.2</td><td>19</td><td>1.8 × 10^(32)</td><td>5.6</td></tr>
+  <tr><td>3</td><td>0.001</td><td>40</td><td>1</td><td>5.35</td><td>0.11</td><td>5</td><td>23</td><td>3.5 × 10^(32)</td><td>10.9</td></tr>
+  <tr><td>3</td><td>0.01</td><td>15</td><td>1.35</td><td>6.4</td><td>0.16</td><td>4.9</td><td>22</td><td>2.6 × 10^(32)</td><td>8</td></tr>
+  <tr><td>3</td><td>0.01</td><td>40</td><td>1.35</td><td>5.2</td><td>0.08</td><td>5.9</td><td>28</td><td>5.0 × 10^(32)</td><td>15.5</td></tr>
+  <tr><td>3</td><td>0.1</td><td>15</td><td>4</td><td>20</td><td>0.03</td><td>60</td><td>320</td><td>3.5 × 10^(33)</td><td>108.5</td></tr>
+  <tr><td>3</td><td>0.1</td><td>40</td><td>4</td><td>14.8</td><td>0.01</td><td>90</td><td>480</td><td>8.4 × 10^(33)</td><td>260</td></tr>
+  <tr><td>5</td><td>0.001</td><td>15</td><td>1.2</td><td>7.7</td><td>0.3</td><td>4.2</td><td>17</td><td>2.0 × 10^(32)</td><td>6.2</td></tr>
+  <tr><td>5</td><td>0.001</td><td>40</td><td>1.2</td><td>5.9</td><td>0.13</td><td>5</td><td>23</td><td>4.0 × 10^(32)</td><td>12.4</td></tr>
+  <tr><td>5</td><td>0.01</td><td>15</td><td>1.5</td><td>7.5</td><td>0.23</td><td>4.5</td><td>19</td><td>2.6 × 10^(32)</td><td>8</td></tr>
+  <tr><td>5</td><td>0.01</td><td>40</td><td>1.5</td><td>5.7</td><td>0.11</td><td>5.5</td><td>25</td><td>5.2 × 10^(32)</td><td>16.1</td></tr>
+  <tr><td>5</td><td>0.1</td><td>15</td><td>4</td><td>6</td><td>0.06</td><td>8.5</td><td>45</td><td>1.3 × 10^(33)</td><td>40.3</td></tr>
+  <tr><td>5</td><td>0.1</td><td>40</td><td>4</td><td>5</td><td>0.03</td><td>8.5</td><td>57</td><td>2.4 × 10^(33)</td><td>74.4</td></tr>
+</table>

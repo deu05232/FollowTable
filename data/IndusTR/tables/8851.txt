@@ -1,0 +1,10 @@
+<table>
+  <caption>Transport PDU Formats: Segmented Data Frames and ACK/NACK Control Frames (Combined Reference)</caption>
+  <tr><th>PDU Type</th><th>PF</th><th>Key Data Bytes</th><th>What the Data Field Contains</th></tr>
+  <tr><td>Segmented Data - First Frame</td><td>0x36</td><td>B1..B4</td><td>Seq=0, Total Frames, Total Bytes (LSB/MSB), then payload</td></tr>
+  <tr><td>Segmented Data - Consecutive Frame</td><td>0x36</td><td>B1</td><td>Seq>0, then payload bytes</td></tr>
+  <tr><td>LM_ACK</td><td>0x37</td><td>B1..B3</td><td>ACK type, starting seq to be received, number of frames to be received</td></tr>
+  <tr><td>LM_NACK</td><td>0x37</td><td>B1</td><td>NACK type, remaining bytes set to 0xFF</td></tr>
+  <tr><td>Short Message ACK (SAC)</td><td>0x37</td><td>B1..B3</td><td>0x00 0x01 + identifier of acknowledged short message parameter group</td></tr>
+  <tr><td>Padding Rule</td><td>-</td><td>-</td><td>If the last frame is less than 8 bytes, pad unused bytes with 0xFF</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Nonlinear acoustics comparison by measurement configuration (rows are setups rather than materials)</caption>
+  <thead>
+    <tr><th rowspan="2">Setup / Sample ID</th><th colspan="2">Material under test</th><th colspan="3">Reported quantities</th></tr>
+    <tr><th>Material</th><th>Form factor</th><th>Sound speed (m/s)</th><th>Density (kg/m^3)</th><th>Nonlinearity metric reported</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Tank-A (25 mm path)</td><td>Water</td><td>Degassed liquid</td><td>1483</td><td>998</td><td>p2/p1 = 0.12 at 1 MHz</td></tr>
+    <tr><td>Tank-B (10 mm path)</td><td>Glycerol</td><td>Liquid</td><td>1900</td><td>1260</td><td>Shock formation distance (m) = 0.45</td></tr>
+    <tr><td>Solid-C (wafer)</td><td>Silicon</td><td>Single-crystal plate</td><td>8490</td><td>2331</td><td>Nonlinear coefficient β = 2.1 (definition not stated)</td></tr>
+    <tr><td>Solid-D (rod)</td><td>Pyrex glass</td><td>Rod</td><td>5640</td><td>2230</td><td>Third-order elastic constant C111 (GPa) = 780</td></tr>
+    <tr><td>Metal-E (bar)</td><td>Aluminum 6061</td><td>Extruded bar</td><td>6320</td><td>2700</td><td>B/A not reported</td></tr>
+    <tr><td>Poly-F (sheet)</td><td>PMMA</td><td>Sheet</td><td>2730</td><td>1180</td><td>Nonlinear parameter: "K" = 0.09 (vendor)</td></tr>
+    <tr><td>Elast-G (cast)</td><td>PDMS</td><td>Cast block</td><td>1050</td><td>965</td><td>Amplitude-dependent attenuation (dB/cm) = 1.8</td></tr>
+  </tbody>
+</table>

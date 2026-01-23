@@ -1,0 +1,16 @@
+<table>
+  <caption>MES Interface Payload Schema for Tire Line (Length-Oriented Field List)</caption>
+  <thead>
+    <tr><th>Message</th><th>Field Name</th><th>Wire Type</th><th>Max Length</th><th>Nullability</th><th>Default</th><th>Encoding</th><th>Index / Key</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">StartWorkOrder</td><td>work_order_no</td><td>VARCHAR</td><td>32</td><td>NOT NULL</td><td>""</td><td>UTF-8</td><td>PK(partial)</td></tr>
+    <tr><td>line_code</td><td>VARCHAR</td><td>16</td><td>NOT NULL</td><td>"L01"</td><td>UTF-8</td><td>IDX1</td></tr>
+    <tr><td>recipe_id</td><td>INT32</td><td>10</td><td>NULL</td><td>0</td><td>Binary</td><td>IDX2</td></tr>
+    <tr><td rowspan="3">ReportEquipmentSignal</td><td>tag_id</td><td>INT32</td><td>10</td><td>NOT NULL</td><td>0</td><td>Binary</td><td>PK(partial)</td></tr>
+    <tr><td>tag_value</td><td>VARBINARY</td><td>64</td><td>NOT NULL</td><td>0x00</td><td>Base64</td><td>N/A</td></tr>
+    <tr><td>timestamp</td><td>INT64</td><td>19</td><td>NOT NULL</td><td>0</td><td>Unix ms</td><td>IDX3</td></tr>
+    <tr><td rowspan="2">QualityResult</td><td>uniformity_json</td><td>TEXT</td><td>4096</td><td>NULL</td><td>NULL</td><td>UTF-8</td><td>N/A</td></tr>
+    <tr><td>signature</td><td>CHAR</td><td>64</td><td>NOT NULL</td><td>""</td><td>HEX</td><td>N/A</td></tr>
+  </tbody>
+</table>

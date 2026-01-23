@@ -1,0 +1,15 @@
+<table>
+  <caption>Comparison of biomass model evaluation metrics by species group (R² and RMSE only)</caption>
+  <thead>
+    <tr><th rowspan="2">No.</th><th rowspan="2">Tree species group</th><th rowspan="2">Population label</th><th colspan="2">Univariate model</th><th colspan="2">Bivariate model</th></tr>
+    <tr><th>R²</th><th>RMSE (kg)</th><th>R²</th><th>RMSE (kg)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Fir</td><td>I</td><td>0.842</td><td>19.2</td><td>0.851</td><td>18.7</td></tr>
+    <tr><td>2</td><td>Fir</td><td>II</td><td>0.879</td><td>24.8</td><td>0.895</td><td>23.5</td></tr>
+    <tr><td>3</td><td>Pine</td><td>I</td><td>0.801</td><td>21.9</td><td>0.816</td><td>20.6</td></tr>
+    <tr><td>4</td><td>Pine</td><td>II</td><td>0.833</td><td>26.3</td><td>0.844</td><td>25.1</td></tr>
+    <tr><td>5</td><td>Spruce</td><td>I</td><td>0.913</td><td>14.7</td><td>0.920</td><td>14.1</td></tr>
+    <tr><td>6</td><td>Broadleaf mix</td><td>III</td><td>0.766</td><td>30.4</td><td>0.781</td><td>29.1</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+# Activation Nonlinear Functions Cheat Sheet (with Range and Monotonicity Columns)
+
+| Function | Expression | Derivative | Output Range | Smoothness | Monotonic | Saturates? | Common Use |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Sigmoid | 1/(1+e^{-x}) | s(x)(1-s(x)) | (0,1) | C∞ | Yes | Yes | Binary probability |
+| Tanh | tanh(x) | 1-tanh^2(x) | (-1,1) | C∞ | Yes | Yes | Centered activations |
+| ReLU | max(0,x) | 0 (x<0), 1 (x>0) | [0,∞) | Not C1 | Yes | No | Deep nets |
+| Leaky ReLU | max(ax,x) | a (x<0), 1 (x>0) | (-∞,∞) | Not C1 | Yes | No | Avoid dead units |
+| Softplus | ln(1+e^x) | 1/(1+e^{-x}) | (0,∞) | C∞ | Yes | Mild | Smooth ReLU |
+| GELU (approx) | 0.5x(1+tanh(√(2/π)(x+0.044715x^3))) | Approx. expression | (-∞,∞) | C∞ (approx) | Yes | Mild | Transformers |
+| ELU | x (x>0), α(e^x-1) (x≤0) | 1 (x>0), αe^x (x≤0) | (-α,∞) | Not C1 at 0 | Yes | Yes | Faster learning |

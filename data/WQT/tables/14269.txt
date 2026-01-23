@@ -1,0 +1,12 @@
+# Outlook.com Email Connectivity Checklist (Focus on DNS and Domain Records)
+
+| Record type | Host/Name | Target/Value | Priority | Purpose | Applies to |
+|---|---|---|---:|---|---|
+| MX | @ | your-domain-com.mail.protection.outlook.com | 0 | Route inbound mail | Custom domain |
+| TXT | @ | v=spf1 include:spf.protection.outlook.com -all | 0 | SPF sender validation | Custom domain |
+| CNAME | autodiscover | autodiscover.outlook.com | 0 | Client auto-config | Custom domain |
+| CNAME | selector1._domainkey | selector1-yourdomain._domainkey.outlook.com | 0 | DKIM | Custom domain |
+| CNAME | selector2._domainkey | selector2-yourdomain._domainkey.outlook.com | 0 | DKIM | Custom domain |
+| TXT | _dmarc | v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com | 0 | DMARC policy | Custom domain |
+| SRV | _sip._tls | sipdir.online.lync.com | 100 | Skype/Teams discovery | Microsoft 365 |
+| SRV | _sipfederationtls._tcp | sipfed.online.lync.com | 100 | Federation | Microsoft 365 |

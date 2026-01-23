@@ -1,0 +1,22 @@
+<table>
+  <caption>Estimates of systematic effects for different components of the RICE analysis.</caption>
+  <tr><td>Group</td><td>Item</td><td>±</td></tr>
+  <tr><td>Event Generator (Sec. LABEL:sec:showerrate )</td><td>σ_(ν N)</td><td>20\%</td></tr>
+  <tr><td></td><td>(1-y)</td><td><5\%</td></tr>
+  <tr><td>EM pulse</td><td>shower simulation</td><td>10\%</td></tr>
+  <tr><td>(Sec. LABEL:sec:empulse )</td><td>spectrum</td><td>10\%</td></tr>
+  <tr><td></td><td>extrapolation: TeV → PeV</td><td>5\%</td></tr>
+  <tr><td></td><td>LPM effects</td><td>See text.</td></tr>
+  <tr><td>Propagation</td><td>attenuation ν<1 GHz</td><td>+0.3/-0.15 dB/100 m</td></tr>
+  <tr><td>(Sec. LABEL:sec:iceprop )</td><td>attenuation ν>1 GHz</td><td></td></tr>
+  <tr><td></td><td>index of refraction</td><td><1\%</td></tr>
+  <tr><td></td><td>reflections</td><td>small</td></tr>
+  <tr><td>Antenna and DAQ</td><td>overall channel response</td><td>3 dB</td></tr>
+  <tr><td>(Sec. LABEL:sec:atot )</td><td>overall channel timing</td><td>25/50 ns</td></tr>
+  <tr><td></td><td>on-line filter efficiency</td><td>5\%</td></tr>
+  <tr><td></td><td>dead time</td><td><5\%</td></tr>
+  <tr><td>Analysis</td><td>V_(eff)</td><td>8%</td></tr>
+  <tr><td>(Secs. LABEL:sec:veff , LABEL:sec:recon )</td><td>nearby vertex reconstruction</td><td>10 m</td></tr>
+  <tr><td></td><td>far vertex reconstruction</td><td>0.1 R</td></tr>
+  <tr><td></td><td>efficiency of analysis chain</td><td>5\%</td></tr>
+</table>

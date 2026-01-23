@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental & Electrical Compliance Matrix for Autonomous Driving Data Recorder</caption>
+  <thead>
+    <tr><th>Test Category</th><th>Test Item</th><th>Severity / Level</th><th>Setpoint / Range</th><th>Duration</th><th>Acceptance Criteria</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Electrical Supply</td><td>Operating voltage (12 V system)</td><td>Normal</td><td>9–16 V</td><td>Continuous</td><td>No reset; logging continues</td><td>Voltage ripple not included</td></tr>
+    <tr><td>Electrical Supply</td><td>Operating voltage (24 V system)</td><td>Normal</td><td>16–32 V</td><td>Continuous</td><td>No reset; logging continues</td><td>Applies to commercial vehicles</td></tr>
+    <tr><td>Transient Immunity</td><td>Pulse 1</td><td>Level III</td><td>-100 V</td><td>500 pulses</td><td>No data loss; auto-recovery allowed</td><td>ISO 7637-2 reference</td></tr>
+    <tr><td>Transient Immunity</td><td>Pulse 2a</td><td>Level III</td><td>+50 V</td><td>500 pulses</td><td>No permanent malfunction</td><td>Class B behavior permitted</td></tr>
+    <tr><td>Ingress Protection</td><td>Engine compartment enclosure</td><td>IP</td><td>IP5K6</td><td>Per standard</td><td>No water ingress affecting function</td><td>High-pressure spray</td></tr>
+    <tr><td>Ingress Protection</td><td>Cabin enclosure</td><td>IP</td><td>IP5K1</td><td>Per standard</td><td>No dripping water intrusion</td><td>Vertical drip</td></tr>
+    <tr><td>Thermal</td><td>Operating temperature</td><td>Range</td><td>-40°C to +85°C</td><td>2 h soak each</td><td>Meets functional requirements</td><td>Includes cold start</td></tr>
+  </tbody>
+</table>

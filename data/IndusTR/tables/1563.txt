@@ -1,0 +1,12 @@
+<table>
+  <caption>Source and Behavior Elements of Cybersecurity Threat Information</caption>
+  <tr><td>Information Item</td><td>Description</td></tr>
+  <tr><td>Threat Source</td><td>Source information of the cybersecurity threat, which may include propagation source IP/URL/domain name, command-and-control server IP address/domain name, callback URL, source country/region/entity/organization, etc.</td></tr>
+  <tr><td>Threat Target</td><td>Target information of the cybersecurity threat, which may include target country/region/industry/entity/organization/IP/domain name/URL, etc.</td></tr>
+  <tr><td>Threat Behavior</td><td>Behavior information of the cybersecurity threat, which may include typical behaviors, operating environment, local malicious behaviors, network malicious behaviors, etc.</td></tr>
+  <tr><td>Threat Severity Level</td><td>Should be classified into four levels: extremely severe, severe, relatively severe, and general. The receiving party should formulate specifications for the severity-level classification method for cybersecurity threat information; see GB/T20984</td></tr>
+  <tr><td>Impact Assessment</td><td>Potential scope of impact, harm consequences, likelihood of occurrence, and potential impact on business, etc.</td></tr>
+  <tr><td>Mitigation Information</td><td>Measures already taken by the reporting party and planned follow-up measures, as well as measures recommended for the receiving party / potentially affected parties / other relevant parties to take, etc.</td></tr>
+  <tr><td>Supporting Evidence</td><td>Analysis reports, sample files, etc. related to this cybersecurity threat</td></tr>
+  <tr><td>Related Information</td><td>Other cybersecurity information related to this cybersecurity threat, such as information on vulnerabilities leveraged by this cybersecurity threat, etc.</td></tr>
+</table>

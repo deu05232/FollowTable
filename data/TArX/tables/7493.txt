@@ -1,0 +1,9 @@
+<table>
+  <caption>Elements required for implementation of spin MZI</caption>
+  <tr><th>Optical Element</th><th>Electronic element</th><th>Unitary matrix</th></tr>
+  <tr><th>Polariser/Analyser</th><td>Ferromagnetic material which produces spin sub band splitting. The spin which is to be selectively transmitted should have _(0) parallel to</td><td>Depends on the angle of polarization. However mostly it is like a linear horizontal polarizer [[]cc1&0\\ 0&0]</td></tr>
+  <tr><th>Phase Shifter</th><td>• Rashba spin orbit interaction • Aharonov Bohm phase • Ferromagnetic material where _(0) is perpendicular to</td><td>The general matrix of a phase shifter which shifts the phase by is given by [[]cc(-i/2)&0\\ 0&1] (up to an unimportant global phase factor).</td></tr>
+  <tr><th>Polarizing Beam Splitter (PBS)</th><td>An arrangement with two beam splitters and a phase shifter. [ Radu ]</td><td>|σ;kcos|σ;k% +isin|σ;1-k For a beam splitter where σ gives the spin degree of freedom and k gives the orbital degree of freedom.</td></tr>
+  <tr><th>Wave guides</th><td>Electrons in 2-DEG</td><td></td></tr>
+  <tr><th>Beam Splitter</th><td>• Point contacts • Simple differentiating lines</td><td></td></tr>
+</table>

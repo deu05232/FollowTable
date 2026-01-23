@@ -1,0 +1,18 @@
+<table>
+  <caption>Comparison of Traffic Simulation Models Using Queue and Error Statistics (Urban Bottleneck Scenario)</caption>
+  <thead>
+    <tr><th>Traffic model</th><th>Mean queue length (veh)</th><th>Max queue length (veh)</th><th>Mean queue duration (min)</th><th>Max queue duration (min)</th><th>Speed RMSE (km/h)</th><th>Flow MAPE (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th colspan="7">Microscopic car-following models</th></tr>
+    <tr><td>IDM</td><td>58</td><td>148</td><td>9.2</td><td>27.5</td><td>6.1</td><td>8.9</td></tr>
+    <tr><td>OVM</td><td>51</td><td>131</td><td>8.5</td><td>24.0</td><td>5.3</td><td>7.4</td></tr>
+    <tr><td>Gipps</td><td>62</td><td>155</td><td>10.1</td><td>30.2</td><td>6.8</td><td>9.6</td></tr>
+    <tr><th colspan="7">Cellular automata / lattice-based models</th></tr>
+    <tr><td>NaSch</td><td>44</td><td>120</td><td>7.1</td><td>21.0</td><td>7.9</td><td>11.2</td></tr>
+    <tr><td>NSM</td><td>39</td><td>104</td><td>6.0</td><td>18.4</td><td>8.4</td><td>12.0</td></tr>
+    <tr><th colspan="7">Macroscopic / mesoscopic models</th></tr>
+    <tr><td>METANET</td><td>47</td><td>127</td><td>7.9</td><td>23.3</td><td>5.9</td><td>8.1</td></tr>
+    <tr><td>CTM (LWR)</td><td>53</td><td>140</td><td>8.8</td><td>26.1</td><td>6.5</td><td>9.0</td></tr>
+  </tbody>
+</table>

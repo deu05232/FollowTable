@@ -1,0 +1,10 @@
+<table>
+  <caption>Basic Math Operator Interface Parameters (Shape/Length-Centered Template)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Supported numeric types (e.g., int, uint, float, complex); default is float</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Execution target such as CPU/GPU/NPU/FPGA/ASIC; default is CPU</td></tr>
+  <tr><td>Tensor Rank</td><td>Input</td><td>Required</td><td>Number of dimensions in the tensor; must be >= 1</td></tr>
+  <tr><td>Tensor Shape</td><td>Input</td><td>Required</td><td>Array of dimension sizes; may include layout metadata if provided</td></tr>
+  <tr><td>Layout</td><td>Input</td><td>Optional</td><td>Memory layout identifier (e.g., default/row-major); used only when shape layout matters</td></tr>
+  <tr><td>Tensor Length</td><td>Input</td><td>Optional</td><td>Total number of elements when a 1-D length form is allowed; must be > 0 if provided</td></tr>
+</table>

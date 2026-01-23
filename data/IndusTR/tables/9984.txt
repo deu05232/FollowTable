@@ -1,0 +1,16 @@
+<table>
+  <caption>Harmonic Test Stimulus Matrix for Active Energy Meters (Dominated by Setup Parameters)</caption>
+  <thead>
+    <tr><th rowspan="2">Test ID</th><th rowspan="2">Operating point</th><th rowspan="2">Current level</th><th rowspan="2">Fundamental power factor</th><th colspan="3">Harmonic content</th><th rowspan="2">Phase angle method</th><th rowspan="2">Measurement window</th></tr>
+    <tr><th>THD(I) (%)</th><th>Dominant harmonic</th><th>Harmonic phase (deg)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>T-H01</td><td>Nominal load</td><td>Ib</td><td>1.0</td><td>5</td><td>5th</td><td>0</td><td>Fixed (0°)</td><td>10 cycles</td></tr>
+    <tr><td>T-H02</td><td>Light load</td><td>Imin</td><td>1.0</td><td>10</td><td>3rd</td><td>90</td><td>Quadrature</td><td>10 cycles</td></tr>
+    <tr><td>T-H03</td><td>High load</td><td>0.8 Imax</td><td>1.0</td><td>20</td><td>7th</td><td>180</td><td>Opposing (180°)</td><td>10 cycles</td></tr>
+    <tr><td>T-H04</td><td>Nominal load</td><td>Ib</td><td>0.5 lagging</td><td>10</td><td>5th</td><td>-30</td><td>Vector sum</td><td>20 cycles</td></tr>
+    <tr><td>T-H05</td><td>Load step up</td><td>0.1Ib → Ib</td><td>1.0</td><td>15</td><td>11th</td><td>0</td><td>Fixed (0°)</td><td>Transient capture</td></tr>
+    <tr><td>T-H06</td><td>Load step down</td><td>Ib → 0.1Ib</td><td>1.0</td><td>15</td><td>13th</td><td>0</td><td>Fixed (0°)</td><td>Transient capture</td></tr>
+    <tr><td>T-H07</td><td>Unbalanced</td><td>Ib (phase A only)</td><td>1.0</td><td>10</td><td>3rd</td><td>0</td><td>Per-phase injection</td><td>10 cycles</td></tr>
+  </tbody>
+</table>

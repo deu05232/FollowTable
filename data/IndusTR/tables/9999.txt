@@ -1,0 +1,16 @@
+<table>
+  <caption>APDU Command Header Reference for User Terminal Interface</caption>
+  <thead>
+    <tr><th>Field</th><th>Byte(s)</th><th>Typical Value (HEX)</th><th>Description</th><th>Notes / Constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CLA</td><td>1</td><td>80</td><td>Proprietary class for user terminal commands</td><td>May change with logical channel</td></tr>
+    <tr><td>INS</td><td>1</td><td>D0</td><td>Example: data-related command</td><td>Defines command semantics</td></tr>
+    <tr><td>INS</td><td>1</td><td>F2</td><td>Example: messaging-related command</td><td>Vendor specific</td></tr>
+    <tr><td>P1</td><td>1</td><td>00</td><td>Parameter 1</td><td>Used to select mode / subfunction</td></tr>
+    <tr><td>P2</td><td>1</td><td>00 / 01</td><td>Parameter 2</td><td>Often selects record type or option</td></tr>
+    <tr><td>Lc</td><td>1 or 3</td><td>00–FF</td><td>Length of command data</td><td>Extended length when 3 bytes</td></tr>
+    <tr><td>Data</td><td>Lc</td><td>—</td><td>Command payload bytes</td><td>Interpreted per INS/P1/P2</td></tr>
+    <tr><td>Le</td><td>0–3</td><td>00 / 01–FF</td><td>Expected length of response data</td><td>00 often means “maximum”</td></tr>
+  </tbody>
+</table>

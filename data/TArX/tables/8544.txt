@@ -1,0 +1,15 @@
+<table>
+  <caption>Polarimetric Instrument Setups Used in Planetary Imaging Campaigns (Not Planet-by-Planet Results)</caption>
+  <thead>
+    <tr><th>Instrument / Facility</th><th>Primary Target (Planet)</th><th>Band</th><th>Polarization Mode</th><th>Analyzer / Modulator</th><th>Typical Phase Angle Range (deg)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SPHERE/ZIMPOL</td><td>Jupiter</td><td>R/I</td><td>Linear</td><td>FLC modulator</td><td>0.5–11</td><td>High-contrast polarimetric imaging</td></tr>
+    <tr><td>HST/WFC3</td><td>Saturn</td><td>Visible</td><td>Linear</td><td>POL0/POL60/POL120</td><td>2–6</td><td>Disk-resolved mapping</td></tr>
+    <tr><td>VLT/FORS2</td><td>Venus</td><td>BVRI</td><td>Linear</td><td>Half-wave plate + Wollaston</td><td>30–160</td><td>Ground-based phase curve sampling</td></tr>
+    <tr><td>Keck/NIRC2</td><td>Uranus</td><td>H/K</td><td>Linear</td><td>Wire-grid polarizer</td><td>0.3–3</td><td>AO-assisted polarimetry</td></tr>
+    <tr><td>ALMA</td><td>Mars</td><td>mm</td><td>Linear/Circular</td><td>Dual-pol receivers</td><td>0–30</td><td>Continuum polarization constraints</td></tr>
+    <tr><td>SOFIA/HAWC+</td><td>Neptune</td><td>Far-IR</td><td>Linear</td><td>Polarimetric grid</td><td>0.2–2</td><td>Thermal emission polarimetry attempts</td></tr>
+    <tr><td>JWST/NIRCam (coronagraphy)</td><td>Exoplanet (generic)</td><td>Near-IR</td><td>—</td><td>No dedicated polarimetry</td><td>10–170</td><td>Included as non-polarimetric comparison</td></tr>
+  </tbody>
+</table>

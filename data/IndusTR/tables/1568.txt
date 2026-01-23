@@ -1,0 +1,17 @@
+<table>
+  <caption>SpaceFibre Bus K-Code Control Character Definitions</caption>
+  <tr><td>K-Code</td><td>Meaning</td><td>Running Disparity Value</td></tr>
+  <tr><td>K0.0</td><td>RxError</td><td>Not applicable</td></tr>
+  <tr><td>K28.0</td><td>EDF</td><td>0</td></tr>
+  <tr><td>K28.1</td><td>Unused</td><td>+2 or -2</td></tr>
+  <tr><td>K28.2</td><td>EBF</td><td>+2 or -2</td></tr>
+  <tr><td>K28.3</td><td>FCT</td><td>+2 or -2</td></tr>
+  <tr><td>K28.4</td><td>Unused</td><td>0</td></tr>
+  <tr><td>K28.5</td><td>Initialization Comma</td><td>+2 or -2</td></tr>
+  <tr><td>K28.6</td><td>Unused</td><td>+2 or -2</td></tr>
+  <tr><td>K28.7</td><td>Comma</td><td>0</td></tr>
+  <tr><td>K23.7</td><td>Unused</td><td>0</td></tr>
+  <tr><td>K27.7</td><td>Fill (Padding)</td><td>0</td></tr>
+  <tr><td>K29.7</td><td>End-of-Packet EOP</td><td>0</td></tr>
+  <tr><td>K30.7</td><td>Error End-of-Packet EEP</td><td>0</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>SOF Certificate Application Service Interfaces (Java Bindings Only)</caption>
+  <thead>
+    <tr><th>Interface</th><th>Java-style Prototype</th><th>Description</th><th>Parameters</th><th>Return</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SOF_getXMLSignatureInfo</td><td>java.lang.String SOF_getXMLSignatureInfo(java.lang.String xmlSignedData, short type)</td><td>Parse XML signature data and extract fields (original XML, digest, signature value, certificate, algorithms).</td><td>xmlSignedData: XML signature resulttype: 1=original XML; 2=digest; 3=signature; 4=certificate; 5=digest algorithm; 6=signature algorithm</td><td>java.lang.String</td></tr>
+    <tr><td>SOF_signDataXML</td><td>java.lang.String SOF_signDataXML(java.lang.String certId, java.lang.String inData)</td><td>Digitally sign XML-formatted data.</td><td>certId: unique certificate identifierinData: XML to be signed</td><td>java.lang.String (XML signature result)</td></tr>
+    <tr><td>SOF_verifySignedHashData</td><td>boolean SOF_verifySignedHashData(java.lang.String base64Cert, java.lang.String base64HashData, java.lang.String signValue, short hashAlg)</td><td>Verify signature over a digest value.</td><td>base64Cert: signer cert (Base64)base64HashData: digest (Base64)signValue: signature valuehashAlg: hash algorithm code</td><td>boolean</td></tr>
+    <tr><td>SOF_exportUserCert</td><td>java.lang.String SOF_exportUserCert(java.lang.String certId)</td><td>Export the signing certificate in Base64 form.</td><td>certId: unique certificate identifier</td><td>java.lang.String (Base64 cert)</td></tr>
+    <tr><td>SOF_getCertInfoByOid</td><td>java.lang.String SOF_getCertInfoByOid(java.lang.String base64Cert, java.lang.String oid)</td><td>Get certificate extension by OID.</td><td>base64Cert: certificate (Base64)oid: extension OID (e.g., 1.2.156.xxx)</td><td>java.lang.String</td></tr>
+    <tr><td>SOF_getUserList</td><td>java.lang.String SOF_getUserList()</td><td>List installed certificate users and IDs.</td><td>(none)</td><td>java.lang.String ("Username||CertID&&&...")</td></tr>
+  </tbody>
+</table>

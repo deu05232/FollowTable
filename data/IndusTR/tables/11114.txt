@@ -1,0 +1,8 @@
+<table>
+  <caption>Open API Call Authentication Requirements (Token + Caller Identity)</caption>
+  <tr><th>Item</th><th>Required Input</th><th>Notes</th></tr>
+  <tr><td>Caller identity</td><td>User ID (string)</td><td>Used to identify the caller account</td></tr>
+  <tr><td>Credential</td><td>Access token (string)</td><td>Sent with every request; treated as a bearer-like credential</td></tr>
+  <tr><td>Optional security context</td><td>Client nonce (string)</td><td>Only used when replay protection is enabled</td></tr>
+  <tr><td>Optional security context</td><td>Timestamp (string)</td><td>Used to validate request freshness</td></tr>
+</table>

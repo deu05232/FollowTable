@@ -1,0 +1,11 @@
+<table>
+  <caption>AR Frame Outputs for Rendering (Depth + Texture + Lighting + Pose)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Session context</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame context</td></tr>
+  <tr><td>out_depth_image</td><td>ArImage **</td><td>Pointer-to-pointer used to receive the depth image for the current frame</td></tr>
+  <tr><td>out_texture_id</td><td>uint32_t *</td><td>Receives the GPU texture name (ID) for the camera background</td></tr>
+  <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Receives lighting estimation for the frame</td></tr>
+  <tr><td>out_pose</td><td>ArPose *</td><td>Receives the device pose in world coordinates</td></tr>
+  <tr><td>out_anchor_list</td><td>ArAnchorList *</td><td>Receives detected/updated anchors for the frame</td></tr>
+</table>

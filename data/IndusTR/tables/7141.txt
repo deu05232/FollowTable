@@ -1,0 +1,16 @@
+<table>
+  <caption>SOF Component Certificate Application Service Interfaces — Certificate Inventory and Export APIs</caption>
+  <thead>
+    <tr><th>Category</th><th>Prototype</th><th>Description</th><th>Key Parameters</th><th>Return Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Certificate Listing</td><td>BSTR SOF_GetUserList()</td><td>Get the list of users and installed certificates (CN + CertID mapping).</td><td>null</td><td>String list: Username||CertID separated by &&&</td></tr>
+    <tr><td>BSTR SOF_GetCertListByPolicy(LONG policy)</td><td>Enumerate certificates filtered by application policy (signing/encryption/any).</td><td>policy: 0=any, 1=sign, 2=enc</td><td>CertID list</td></tr>
+    <tr><td>BSTR SOF_FindCertBySubject(BSTR subjectCN)</td><td>Search certificate containers by Subject CN and return matching CertIDs.</td><td>subjectCN</td><td>CertID list</td></tr>
+    <tr><td rowspan="3">Certificate Export</td><td>BSTR SOF_ExportUserCert(BSTR CertID)</td><td>Export the user signing certificate as Base64.</td><td>CertID</td><td>Base64Cert</td></tr>
+    <tr><td>BSTR SOF_ExportEncryptCert(BSTR CertID)</td><td>Export the user encryption certificate as Base64.</td><td>CertID</td><td>Base64Cert</td></tr>
+    <tr><td>BSTR SOF_ExportCertChain(BSTR CertID)</td><td>Export the certificate chain (leaf + intermediates) in Base64 bundle.</td><td>CertID</td><td>Base64 chain bundle</td></tr>
+    <tr><td rowspan="2">Certificate Metadata</td><td>BSTR SOF_GetCertSubject(BSTR Base64Cert)</td><td>Read Subject DN fields from a Base64-encoded certificate.</td><td>Base64Cert</td><td>Subject DN string</td></tr>
+    <tr><td>BSTR SOF_GetCertIssuer(BSTR Base64Cert)</td><td>Read Issuer DN fields from a Base64-encoded certificate.</td><td>Base64Cert</td><td>Issuer DN string</td></tr>
+  </tbody>
+</table>

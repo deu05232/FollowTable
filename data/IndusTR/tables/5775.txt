@@ -1,0 +1,10 @@
+<table>
+  <caption>Knitting equipment data dictionary — running time plus pattern file metadata (mixed section)</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0340</td><td>Running Time</td><td>RunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~1440</td><td>min</td><td>The time the machine runs for knitting</td><td></td></tr>
+  <tr><td>0X0341</td><td>Downtime</td><td>Downtime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>The time the current piece pauses knitting</td><td></td></tr>
+  <tr><td>0X0342</td><td>Pattern Variety Name</td><td>PatternName</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Name of the pattern variety currently in use</td><td></td></tr>
+  <tr><td>0X0343</td><td>File Number</td><td>FileNumber</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td>Number of the current process file in the local folder</td><td></td></tr>
+  <tr><td>0X0344</td><td>File Name</td><td>FileName</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Name of the current process file</td><td></td></tr>
+  <tr><td>0X0345</td><td>Reserve</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Extensible data field</td><td></td></tr>
+</table>

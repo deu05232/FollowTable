@@ -1,0 +1,7 @@
+<table>
+  <caption>Entropy-coding context notes to include in bitstream conformance checks</caption>
+  <tr><th>Element-related context</th><th>Description</th></tr>
+  <tr><td>Bypass/regular coding decision</td><td>Explains when the element is coded using bypass mode versus regular mode, focusing on the context usage conditions.</td></tr>
+  <tr><td>Stuffing-related context behavior</td><td>Lists which flags trigger stuffing behavior and how the decoder switches context states.</td></tr>
+  <tr><td>Context state update</td><td>Describes how context probabilities are updated after decoding, with emphasis on state transitions.</td></tr>
+</table>

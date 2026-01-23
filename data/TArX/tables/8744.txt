@@ -1,0 +1,15 @@
+<table>
+  <caption>Acoustic wave propagation parameters for bone: longitudinal wave speed, attenuation, and acoustic impedance by frequency band.</caption>
+  <thead>
+    <tr><th rowspan="2">Bone region</th><th rowspan="2">Frequency band</th><th colspan="3">Wave/ultrasound metrics</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Longitudinal sound speed (m/s)</th><th>Attenuation (dB/cm)</th><th>Acoustic impedance (MRayl)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Cortical bone</td><td>0.5–1 MHz</td><td>3500</td><td>12</td><td>7.0</td><td>Higher mineralization typically increases impedance</td></tr>
+    <tr><td>1–2 MHz</td><td>3450</td><td>18</td><td>6.9</td><td>Attenuation rises with frequency</td></tr>
+    <tr><td>2–5 MHz</td><td>3400</td><td>30</td><td>6.8</td><td>Representative range for diagnostic ultrasound</td></tr>
+    <tr><td rowspan="3">Trabecular bone</td><td>0.5–1 MHz</td><td>1800</td><td>6</td><td>3.2</td><td>Scattering contributes strongly to loss</td></tr>
+    <tr><td>1–2 MHz</td><td>1750</td><td>10</td><td>3.1</td><td>Lower effective impedance than cortical bone</td></tr>
+    <tr><td>2–5 MHz</td><td>1700</td><td>18</td><td>3.0</td><td>Bandwidth commonly used in QUS</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>vrPose field layout (no enum values)</caption>
+  <tr><th>Data Type</th><th>Field</th><th>Field Type</th><th>Description</th></tr>
+  <tr><td rowspan="4">vrPose</td><td>time_stamp</td><td>int64_t</td><td>Timestamp in microseconds</td></tr>
+  <tr><td>orientation</td><td>vrQuaternion</td><td>Rotation quaternion</td></tr>
+  <tr><td>position</td><td>vr3DPoint</td><td>3D position vector</td></tr>
+  <tr><td>valid</td><td>bool</td><td>Whether pose data is valid</td></tr>
+</table>

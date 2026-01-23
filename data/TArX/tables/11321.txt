@@ -1,0 +1,16 @@
+<table>
+  <caption>ATLAS minimum-bias observables and histogram windows used as constraints in the AMBT1 tune (expanded list).</caption>
+  <thead>
+    <tr><th>ATLAS dataset / analysis channel</th><th>Tuning observable (distribution)</th><th>Primary phase-space requirement</th><th>Tuning (histogram) range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">0.9 TeV minimum-bias (inclusive inelastic)</td><td>dNch/dη</td><td>pT> 500 MeV, Nch≥ 6</td><td>−2.5 ≤ η ≤ 2.5</td><td>Pseudorapidity spectrum</td></tr>
+    <tr><td>(1/Nev) dNch/dpT</td><td>pT> 500 MeV, Nch≥ 6</td><td>0.5 ≤ pT≤ 10 GeV</td><td>Charged-track pTspectrum</td></tr>
+    <tr><td>P(Nch) (charged multiplicity)</td><td>pT> 500 MeV</td><td>6 ≤ Nch≤ 60</td><td>Multiplicity tail used for MPI/UE constraints</td></tr>
+    <tr><td rowspan="3">7 TeV minimum-bias (inclusive inelastic)</td><td>dNch/dη</td><td>pT> 500 MeV, Nch≥ 6</td><td>−2.5 ≤ η ≤ 2.5</td><td>Same observable at higher √s</td></tr>
+    <tr><td>(1/Nev) dNch/dpT</td><td>pT> 500 MeV, Nch≥ 6</td><td>0.5 ≤ pT≤ 20 GeV</td><td>High-pTtail sensitivity</td></tr>
+    <tr><td>⟨pT⟩ vs Nch</td><td>pT> 500 MeV</td><td>6 ≤ Nch≤ 50</td><td>Correlation observable</td></tr>
+    <tr><td rowspan="2">0.9 TeV minimum-bias (alternative region)</td><td>dNch/dη</td><td>pT> 100 MeV, Nch≥ 20</td><td>−2.5 ≤ η ≤ 2.5</td><td>Low-pTsensitive region</td></tr>
+    <tr><td>P(Nch)</td><td>pT> 100 MeV</td><td>20 ≤ Nch≤ 120</td><td>High-multiplicity constraint</td></tr>
+  </tbody>
+</table>

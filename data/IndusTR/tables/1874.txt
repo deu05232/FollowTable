@@ -1,0 +1,13 @@
+<table>
+  <caption>Warp Knitting Machine Guide Bar Shogging Angle Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0D00</td><td>Guide Bar i Overlap Start Angle</td><td>GuideBariOverlapStartAngle</td><td>M</td><td>ARRAY</td><td>RO</td><td>Int32</td><td>0~360</td><td>（）</td><td>丨</td><td></td></tr>
+  <tr><td>0X0D01</td><td>Guide Bar i Overlap End Angle</td><td>GuideBariOverlapEndAngle</td><td>M</td><td>ARRAY</td><td>RO</td><td>Int32</td><td>0~360</td><td>（）</td><td>丨</td><td></td></tr>
+  <tr><td>0X0D02</td><td>Guide Bar i Underlap Start Angle</td><td>GuideBariUnderlapStartAngle</td><td>M</td><td>ARRAY</td><td>RO</td><td>Int32</td><td>0~360</td><td>（）</td><td>丨</td><td></td></tr>
+  <tr><td>0X0D03</td><td>Guide Bar i Underlap End Angle</td><td>GuideBariUnderlapEndAngle</td><td>M</td><td>ARRAY</td><td>RO</td><td>Int32</td><td>0~360</td><td>（）</td><td>丨</td><td></td></tr>
+  <tr><td>0X0D04</td><td>Guide Bar i Maximum Accumulated Underlap</td><td>GuideBariMaxAccumulationUnderlap</td><td>M</td><td>ARRAY</td><td>RO</td><td>Byte</td><td>0~200</td><td>Needles</td><td>1</td><td></td></tr>
+  <tr><td>0X0D05</td><td>Guide Bar i Maximum One-Step Underlap</td><td>GuideBariMaxOneStepUnderlap</td><td>M</td><td>ARRAY</td><td>RO</td><td>Byte</td><td>0~100</td><td>Needles</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0D06</td><td>Guide Bar i Current Course</td><td>GuideBariCurrentCourse</td><td>M</td><td>ARRAY</td><td>RO</td><td>Int32</td><td>1~65 535</td><td>1</td><td>1</td><td></td></tr>
+  <tr><td>0X0D07</td><td>Guide Bar i Current Course Chain Notation</td><td>GuideBariCurrentCourseChainNotation</td><td>M</td><td>ARRAY</td><td>RO</td><td>Byte</td><td>0~255</td><td></td><td>Numbers describe the warp yarn shogging pattern</td><td></td></tr>
+  <tr><td>0X0D08</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td>一</td><td>1</td><td></td></tr>
+</table>

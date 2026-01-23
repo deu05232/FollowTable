@@ -1,0 +1,14 @@
+<table>
+  <caption>Audio Decoder Build Pipeline (CI) Configuration Matrix</caption>
+  <thead>
+    <tr><th>Pipeline Stage</th><th>Runner OS</th><th>Compiler</th><th>Optimization Flags</th><th>Artifact Output</th><th>Trigger</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Static Analysis</td><td>Ubuntu 22.04</td><td>clang 17</td><td>-O0 -g</td><td>report.sarif</td><td>PR</td></tr>
+    <tr><td>Unit Tests</td><td>Windows 11</td><td>MSVC 19.39</td><td>/O2</td><td>unittest.xml</td><td>PR</td></tr>
+    <tr><td>Integration Smoke</td><td>Ubuntu 22.04</td><td>gcc 13</td><td>-O2</td><td>smoke.log</td><td>nightly</td></tr>
+    <tr><td>Packaging</td><td>macOS 14</td><td>clang 16</td><td>-O3</td><td>decoder.pkg</td><td>tag</td></tr>
+    <tr><td>SBOM Generation</td><td>Ubuntu 22.04</td><td>N/A</td><td>N/A</td><td>sbom.spdx.json</td><td>tag</td></tr>
+    <tr><td>Signing</td><td>Windows 11</td><td>N/A</td><td>N/A</td><td>signed.zip</td><td>release</td></tr>
+  </tbody>
+</table>

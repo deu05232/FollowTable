@@ -1,0 +1,15 @@
+<table>
+  <caption>Uniformity Test Station Control Signals with Ranges and Logic</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item Name</th><th>Description</th><th>Data Type</th><th>Length (bit)</th><th>Engineering Unit</th><th>Value Range</th><th>Value Meaning</th><th>Logical Relationship / Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>UF Inflation Pressure Feedback</td><td>Pressure sensor feedback at uniformity inflation head</td><td>INT</td><td>16</td><td>kPa</td><td>0~1200</td><td>Measured inflation pressure</td><td>Valid when UF_TestState=RUN</td></tr>
+    <tr><td>2</td><td>UF Target Pressure Setpoint</td><td>Target pressure for uniformity test</td><td>INT</td><td>16</td><td>kPa</td><td>300~900</td><td>Requested pressure value</td><td>Used by PID when UF_PressureControlEnable=1</td></tr>
+    <tr><td>3</td><td>Pressure Control Enable</td><td>Enable closed-loop pressure control</td><td>BOOL</td><td>1</td><td>-</td><td>0/1</td><td>0: open-loop; 1: PID enabled</td><td>Must be 1 before opening proportional valve</td></tr>
+    <tr><td>4</td><td>Spindle Speed Feedback</td><td>Measured spindle speed during test</td><td>INT</td><td>16</td><td>rpm</td><td>0~600</td><td>Actual spindle speed</td><td>Alarm if |FB-SP| > 30 rpm for 5 s</td></tr>
+    <tr><td>5</td><td>Safety Door Status</td><td>Interlock door closed status</td><td>BOOL</td><td>1</td><td>-</td><td>0/1</td><td>0: open; 1: closed</td><td>UF_TestStart permitted only if status=1</td></tr>
+    <tr><td>6</td><td>Test State</td><td>Uniformity station sequence state</td><td>INT</td><td>16</td><td>-</td><td>0~5</td><td>0: idle; 1: clamp; 2: inflate; 3: run; 4: deflate; 5: release</td><td>Transitions depend on pressure stable && spindle at speed</td></tr>
+    <tr><td>7</td><td>Data Acquisition Trigger</td><td>Trigger to start acquiring UF data</td><td>BOOL</td><td>1</td><td>-</td><td>0/1</td><td>1: start acquisition</td><td>TRUE when pressure stable AND state=RUN</td></tr>
+  </tbody>
+</table>

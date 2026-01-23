@@ -1,0 +1,8 @@
+<table>
+  <caption>Camera Type Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumerated Value</td><td>Description</td></tr>
+  <tr><td rowspan="4">vrCameraType</td><td>VR_CAMERA_TYPE_GENERAL_RGB=0x00</td><td>General RGB camera</td></tr>
+  <tr><td>VR_CAMERA_TYPE_FISHEYE=0x01</td><td>Fisheye camera</td></tr>
+  <tr><td>VR_CAMERA_DATA_TYPE_DEPTH=0x02</td><td>Depth camera</td></tr>
+  <tr><td>0x03~0xFF</td><td>Reserved</td></tr>
+</table>

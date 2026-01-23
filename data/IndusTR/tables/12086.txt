@@ -1,0 +1,20 @@
+<table>
+  <caption>Minimum Recording Requirements for Automated Driving System Status and Control Outputs</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item</th><th>Level</th><th>Minimum Recording Frequency</th><th>Unit / Scale</th><th>Minimum Recording Data Capability Range</th><th>Minimum Recording Resolution</th><th>Minimum Recording Accuracy / Reliability</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">ADS mode & HMI</td><td>ADS operational mode</td><td>A</td><td>10 Hz</td><td>Enum</td><td>0: Off; 1: Standby; 2: Active; 3: Minimal risk maneuver</td><td>Not applicable</td><td>Should have no error</td><td>Record the mode actually controlling the vehicle.</td></tr>
+    <tr><td>ADS engagement request from driver</td><td>A</td><td>10 Hz</td><td>Boolean</td><td>0: No; 1: Yes</td><td>Not applicable</td><td>Should have no error</td><td>Includes button/lever command mapped to engagement.</td></tr>
+    <tr><td>ADS disengagement reason code</td><td>A</td><td>10 Hz</td><td>Enum</td><td>Defined by the enterprise (minimum: driver request / system fault / ODD exit)</td><td>Not applicable</td><td>Should have no error</td><td>Reason must be consistent with event triggering disengagement.</td></tr>
+    <tr><td>Driver warning level</td><td>A</td><td>10 Hz</td><td>Enum</td><td>0: null; 1: Advisory; 2: Takeover request; 3: Emergency</td><td>Not applicable</td><td>Should have no error</td><td>Record the highest active warning level.</td></tr>
+    <tr><td>Takeover request (TOR) active flag</td><td>A</td><td>10 Hz</td><td>Boolean</td><td>0: Inactive; 1: Active</td><td>Not applicable</td><td>Should have no error</td><td>TOR refers to a request requiring driver intervention.</td></tr>
+    <tr><td>TOR time-to-deadline</td><td>A</td><td>10 Hz</td><td>s</td><td>0–30</td><td>0.1</td><td>±0.2 s</td><td>Time remaining until required driver action.</td></tr>
+    <tr><td rowspan="6">Control outputs</td><td>Steering wheel angle command</td><td>A</td><td>50 Hz</td><td>deg</td><td>-720–720</td><td>0.5</td><td>±2 deg</td><td>Commanded value issued by controller (not measured).</td></tr>
+    <tr><td>Steering torque command</td><td>B</td><td>50 Hz</td><td>N·m</td><td>-20–20</td><td>0.1</td><td>±10% of range</td><td>Record if available on control network.</td></tr>
+    <tr><td>Brake command (deceleration request)</td><td>A</td><td>50 Hz</td><td>m/s²</td><td>-10–0</td><td>0.1</td><td>±0.3 m/s²</td><td>Negative values represent deceleration.</td></tr>
+    <tr><td>Throttle / drive torque request</td><td>A</td><td>50 Hz</td><td>%</td><td>0–100</td><td>0.5</td><td>±3%</td><td>Normalized request after pedal mapping.</td></tr>
+    <tr><td>Target speed setpoint</td><td>B</td><td>10 Hz</td><td>km/h</td><td>0–200</td><td>1</td><td>±2 km/h</td><td>Setpoint used by longitudinal controller.</td></tr>
+    <tr><td>Target time headway</td><td>B</td><td>10 Hz</td><td>s</td><td>0.5–3.0</td><td>0.1</td><td>±0.2 s</td><td>Applicable when following a lead vehicle.</td></tr>
+  </tbody>
+</table>

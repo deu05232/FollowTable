@@ -1,0 +1,14 @@
+<table>
+  <caption>EDI Indicators with Survey Instruments and Expert Scoring Rubrics</caption>
+  <thead>
+    <tr><th>Pillar</th><th>Indicator Code</th><th>Indicator Topic</th><th>Aspect Assessed</th><th>Primary Instrument</th><th>Expert Scoring Rubric</th><th>Evidence Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Governance</td><td>A3.1</td><td>Supportive Policy Strength</td><td>Policy intensity and effectiveness of incentives and management measures.</td><td>Policy document review + stakeholder interviews</td><td>0–5 scale: 0=no policy; 3=multiple measures; 5=stable funding + evaluated outcomes</td><td>Official circulars, budget execution reports, interview transcripts.</td></tr>
+    <tr><td>Governance</td><td>A3.3</td><td>Market Integrity Mechanisms</td><td>Merchant qualification checks, consumer protection, complaint handling.</td><td>Platform compliance audit + mystery shopping</td><td>Score = 40% audit pass rate + 60% complaint resolution grade by experts</td><td>Audit logs, mystery shopping records, complaint system exports.</td></tr>
+    <tr><td>Inclusion</td><td>D2.2</td><td>Accessibility for Elderly & Special Needs</td><td>Usability, accessibility, and protection measures for vulnerable groups.</td><td>User testing sessions + assisted survey</td><td>Heuristic checklist (font size, voice assistance, refund accessibility), expert panel vote</td><td>Testing videos, survey forms, accessibility feature screenshots.</td></tr>
+    <tr><td>Inclusion</td><td>D2.3</td><td>Inter-area Development Balance</td><td>Fairness of facility distribution and online consumption across districts.</td><td>Administrative statistics + geospatial analysis</td><td>Gini coefficient mapped to 0–100 score; experts validate boundary cases</td><td>District-level datasets, GIS layers, validation memo.</td></tr>
+    <tr><td>Innovation</td><td>C2.1</td><td>Social Commerce Penetration</td><td>Adoption of social networks and livestream commerce models.</td><td>Platform API sampling + merchant survey</td><td>Rubric: livestream share, conversion rate banding; expert calibration workshop</td><td>API extracts, survey dataset, calibration notes.</td></tr>
+    <tr><td>Innovation</td><td>C2.3</td><td>Personalized Service Capability</td><td>Ability to deliver customization and personalized recommendations/services.</td><td>Enterprise self-report + third-party assessment</td><td>Score based on model maturity stages; expert review required for stage assignment</td><td>System architecture docs, assessment report, expert sign-off sheet.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Environmental Test Conditions for Metering Laboratory (Harmonic Measurement Area)</caption>
+  <tr><th>Parameter</th><th>Setpoint</th><th>Allowable Range</th><th>Measurement Device</th><th>Logging Interval</th><th>Remark</th></tr>
+  <tr><td>Ambient temperature</td><td>23 °C</td><td>20–26 °C</td><td>Thermo-hygrometer</td><td>5 min</td><td>Controlled by HVAC</td></tr>
+  <tr><td>Relative humidity</td><td>45 %RH</td><td>30–60 %RH</td><td>Thermo-hygrometer</td><td>5 min</td><td>Avoid condensation</td></tr>
+  <tr><td>Mains frequency</td><td>50 Hz</td><td>49.9–50.1 Hz</td><td>Frequency counter</td><td>1 min</td><td>UPS-backed</td></tr>
+  <tr><td>Supply voltage</td><td>230 V</td><td>220–240 V</td><td>Power analyzer</td><td>1 min</td><td>Stabilized source recommended</td></tr>
+  <tr><td>EMI level</td><td>—</td><td>< 3 V/m</td><td>Field strength meter</td><td>On demand</td><td>Shielded room</td></tr>
+  <tr><td>Vibration</td><td>—</td><td>< 0.5 m/s²</td><td>Accelerometer</td><td>On demand</td><td>Isolated bench</td></tr>
+</table>

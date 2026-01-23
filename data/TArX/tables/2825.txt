@@ -1,0 +1,25 @@
+<table>
+  <caption>Lattice constants a 0 (Å) obtained from PBE, HF, PBE0, HSE, and LC calculations. The ω parameter separates the short-range and long-range parts of the Coulomb interaction (see text). Experimental values are taken from Ref. \onlinecite heyd2005 for Ge, Si, β -GaN, C, and MgO, Ref. \onlinecite piskunob,hellwege for BaTiO 3 , Ref. \onlinecite heyd2004 for NaCl, LiCl, and LiF, and Ref. \onlinecite varotsos for Kr. The calculated mean relative error (MRE) and the mean absolute relative error (MARE) with respect to experimental values are also shown in per cent.</caption>
+  <tr><th colspan="13">a_(0)</th></tr>
+  <tr><th></th><td>PBE</td><td>HF</td><td>PBE0</td><td colspan="4">HSE</td><td colspan="4">LC</td><td>Expt.</td></tr>
+  <tr><th></th><td></td><td></td><td></td><td>ω =0.1</td><td>ω =0.2</td><td>ω =0.3</td><td>ω =0.4</td><td>ω =0.1</td><td>ω =0.2</td><td>ω =0.3</td><td>ω =0.4</td><td></td></tr>
+  <tr><th>Ge</th><td>5.589</td><td>5.574</td><td>5.615</td><td>5.546</td><td>5.556</td><td>5.566</td><td>5.571</td><td>5.579</td><td>5.534</td><td>5.508</td><td>5.490</td><td>5.652</td></tr>
+  <tr><th>Si</th><td>5.463</td><td>5.387</td><td>5.431</td><td>5.435</td><td>5.441</td><td>5.446</td><td>5.452</td><td>5.459</td><td>5.434</td><td>5.416</td><td>5.403</td><td>5.430</td></tr>
+  <tr><th>BaTiO _(3)</th><td>4.139</td><td>4.048</td><td>4.068</td><td>4.102</td><td>4.106</td><td>4.111</td><td>4.116</td><td>4.137</td><td>4.120</td><td>4.102</td><td>4.088</td><td>4.000</td></tr>
+  <tr><th>β -GaN</th><td>4.539</td><td>4.380</td><td>4.434</td><td>4.455</td><td>4.457</td><td>4.441</td><td>4.461</td><td>4.502</td><td>4.511</td><td>4.491</td><td>4.452</td><td>4.520</td></tr>
+  <tr><th>C</th><td>3.563</td><td>3.485</td><td>3.506</td><td>3.522</td><td>3.540</td><td>3.543</td><td>3.547</td><td>3.560</td><td>3.556</td><td>3.543</td><td>3.531</td><td>3.567</td></tr>
+  <tr><th>MgO</th><td>4.202</td><td>4.198</td><td>4.198</td><td>4.117</td><td>4.136</td><td>4.141</td><td>4.146</td><td>4.178</td><td>4.175</td><td>4.157</td><td>4.138</td><td>4.207</td></tr>
+  <tr><th>NaCl</th><td>5.541</td><td>5.416</td><td>5.444</td><td>5.500</td><td>5.505</td><td>5.509</td><td>5.514</td><td>5.525</td><td>5.503</td><td>5.487</td><td>5.472</td><td>5.595</td></tr>
+  <tr><th>LiCl</th><td>5.175</td><td>5.107</td><td>5.133</td><td>5.145</td><td>5.147</td><td>5.155</td><td>5.158</td><td>5.165</td><td>5.140</td><td>5.117</td><td>5.115</td><td>5.106</td></tr>
+  <tr><th>Kr</th><td>10.86</td><td>10.06</td><td>10.74</td><td>10.79</td><td>10.81</td><td>10.86</td><td>10.86</td><td>10.69</td><td>10.49</td><td>10.05</td><td>10.05</td><td>9.94</td></tr>
+  <tr><th>LiF</th><td>4.115</td><td>4.006</td><td>4.030</td><td>4.041</td><td>4.071</td><td>4.073</td><td>4.076</td><td>4.103</td><td>4.098</td><td>4.091</td><td>4.080</td><td>4.010</td></tr>
+  <tr><th colspan="13">All solids</th></tr>
+  <tr><th>MARE (%)</th><td>1.20</td><td>1.37</td><td>1.10</td><td>1.40</td><td>1.37</td><td>1.41</td><td>1.35</td><td>1.25</td><td>1.21</td><td>1.34</td><td>1.54</td><td></td></tr>
+  <tr><th>MRE (%)</th><td>0.68</td><td>- 1.10</td><td>- 0.49</td><td>- 0.47</td><td>- 0.22</td><td>- 0.16</td><td>- 0.03</td><td>0.40</td><td>0.10</td><td>- 0.27</td><td>- 0.62</td><td></td></tr>
+  <tr><th colspan="13">Group I (Ge, Si, GaN, BaTiO _(3) , C)</th></tr>
+  <tr><th>MARE (%)</th><td>1.15</td><td>1.75</td><td>1.20</td><td>1.44</td><td>1.34</td><td>1.40</td><td>1.32</td><td>1.17</td><td>1.13</td><td>1.33</td><td>1.62</td><td></td></tr>
+  <tr><th>MRE (%)</th><td>0.66</td><td>- 1.27</td><td>- 0.51</td><td>- 0.39</td><td>- 0.20</td><td>- 0.17</td><td>0.00</td><td>0.41</td><td>0.10</td><td>- 0.31</td><td>- 0.74</td><td></td></tr>
+  <tr><th colspan="13">Group II (MgO, NaCl, LiCl, LiF)</th></tr>
+  <tr><th>MARE (%)</th><td>1.26</td><td>0.88</td><td>0.99</td><td>1.34</td><td>1.41</td><td>1.41</td><td>1.39</td><td>1.35</td><td>1.32</td><td>1.34</td><td>1.44</td><td></td></tr>
+  <tr><th>MRE (%)</th><td>0.72</td><td>- 0.87</td><td>- 0.47</td><td>- 0.58</td><td>- 0.24</td><td>- 0.14</td><td>- 0.06</td><td>0.38</td><td>0.11</td><td>- 0.22</td><td>- 0.48</td><td></td></tr>
+</table>

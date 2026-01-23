@@ -1,0 +1,10 @@
+<table>
+  <caption>Video Processing Server Build-of-Materials (BOM) Table</caption>
+  <tr><th>Item No.</th><th>Component</th><th>Model</th><th>Qty</th><th>Unit Cost (USD)</th><th>Notes</th></tr>
+  <tr><td>1</td><td>CPU</td><td>Xeon-S 4310</td><td>2</td><td>620</td><td>Dual-socket</td></tr>
+  <tr><td>2</td><td>GPU</td><td>A40 48GB</td><td>2</td><td>4100</td><td>Inference acceleration</td></tr>
+  <tr><td>3</td><td>Memory</td><td>DDR4 64GB</td><td>8</td><td>140</td><td>ECC</td></tr>
+  <tr><td>4</td><td>Storage</td><td>NVMe 3.84TB</td><td>4</td><td>520</td><td>RAID 10</td></tr>
+  <tr><td>5</td><td>NIC</td><td>10GbE Dual Port</td><td>2</td><td>180</td><td>SR-IOV</td></tr>
+  <tr><td>6</td><td>Chassis</td><td>2U Rackmount</td><td>1</td><td>390</td><td>Redundant PSU</td></tr>
+</table>

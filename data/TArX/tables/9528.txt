@@ -1,0 +1,16 @@
+<table>
+  <caption>Light Propagation Metrics in Common Media (includes absorption and dispersion)</caption>
+  <thead>
+    <tr><th rowspan="2">Medium</th><th colspan="3">Speed / Refraction</th><th colspan="2">Optical Loss (Forbidden Extras)</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Refractive Index (n)</th><th>Speed Fraction (v/c)</th><th>Speed (m/s)</th><th>Absorption Coefficient (1/m)</th><th>Attenuation (dB/km)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vacuum</td><td>1.0000</td><td>1.0000</td><td>2.998×10^8</td><td>0</td><td>0</td><td>Reference baseline</td></tr>
+    <tr><td>Dry Air (STP)</td><td>1.0003</td><td>0.9997</td><td>2.997×10^8</td><td>1.0×10^-6</td><td>0.004</td><td>Weakly dispersive</td></tr>
+    <tr><td>Fresh Water (20°C)</td><td>1.333</td><td>0.750</td><td>2.25×10^8</td><td>0.010</td><td>43</td><td>Blue/green window varies</td></tr>
+    <tr><td>Sea Water</td><td>1.339</td><td>0.747</td><td>2.24×10^8</td><td>0.050</td><td>217</td><td>Higher loss due to salts</td></tr>
+    <tr><td>Fused Silica (Glass)</td><td>1.458</td><td>0.686</td><td>2.06×10^8</td><td>0.0002</td><td>0.87</td><td>Low-loss in telecom bands</td></tr>
+    <tr><td>Soda-Lime Glass</td><td>1.52</td><td>0.658</td><td>1.97×10^8</td><td>0.002</td><td>8.7</td><td>Common window glass</td></tr>
+    <tr><td>Diamond</td><td>2.42</td><td>0.413</td><td>1.24×10^8</td><td>0.00005</td><td>0.22</td><td>Strong refraction</td></tr>
+  </tbody>
+</table>

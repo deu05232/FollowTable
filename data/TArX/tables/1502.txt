@@ -1,0 +1,13 @@
+<table>
+  <caption>Error budget for two example data points. Each is for pinging from Hole 69 and receiving on String D. While the error contribution from the horizontal distance is nearly the same for all data points, the contribution from the pinger depth increases with depth. This is because the vertical distance between the pinger and sensor increases with depth, and the error contribution is proportional to this difference.</caption>
+  <tr><td></td><td>P wave</td><td>S wave</td></tr>
+  <tr><td>sensor depth (m)</td><td>500</td><td>140</td></tr>
+  <tr><td>pinger depth (m)</td><td>477</td><td>138</td></tr>
+  <tr><td>sound speed (m/s)</td><td>3889</td><td>1921</td></tr>
+  <tr><td>error due to horizontal distance (%)</td><td>0.54</td><td>0.57</td></tr>
+  <tr><td>error due to pinger depth (%)</td><td>0.72</td><td>0.06</td></tr>
+  <tr><td>error due to sensor depth (%)</td><td>0.29</td><td>0.02</td></tr>
+  <tr><td>error due to emission time (%)</td><td>0.15</td><td>0.08</td></tr>
+  <tr><td>error due to arrival time (%)</td><td>0.15</td><td>0.08</td></tr>
+  <tr><td>total error (%)</td><td>0.97</td><td>0.58</td></tr>
+</table>

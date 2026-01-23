@@ -1,0 +1,7 @@
+<table>
+  <caption>Battery swap notification fields (descriptions only, no Type column)</caption>
+  <tr><th>Name</th><th>Definition</th><th>Description</th><th>Required</th></tr>
+  <tr><td>Battery swap order number</td><td>swapOrderNo</td><td>Format "Operator ID + unique number", no more than 64 characters</td><td>Yes</td></tr>
+  <tr><td>Vehicle unique identification code</td><td>vinCode</td><td>Per GB/T 27930, length 17 characters</td><td>Yes</td></tr>
+  <tr><td>Operation result</td><td>succStat</td><td>0 success; 1 failure</td><td>Yes</td></tr>
+</table>

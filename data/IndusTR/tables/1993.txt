@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Camera Sensor BOM (Bill of Materials) for Prototype Build</caption>
+  <tr><th>Component</th><th>Part Number</th><th>Supplier</th><th>Key Spec</th><th>Qty</th><th>Notes</th></tr>
+  <tr><td>CMOS Image Sensor</td><td>IMX-ARX490</td><td>Sony</td><td>12.3 MP, rolling shutter</td><td>1</td><td>MIPI CSI-2</td></tr>
+  <tr><td>Lens Module</td><td>LNS-28MM-F2</td><td>Sunny Optical</td><td>F2.0, 28mm equiv.</td><td>1</td><td>IR cut included</td></tr>
+  <tr><td>ToF Depth Sensor</td><td>VL-AR53L5</td><td>ST</td><td>8x8 zones</td><td>1</td><td>For occlusion</td></tr>
+  <tr><td>IMU</td><td>ICM-42688</td><td>TDK InvenSense</td><td>6-axis, 2 kHz</td><td>1</td><td>Time sync required</td></tr>
+  <tr><td>ISP</td><td>ISP-X2</td><td>OmniTech</td><td>4K@60 processing</td><td>1</td><td>HDR pipeline</td></tr>
+  <tr><td>FPC Connector</td><td>JST-0.5MM-40</td><td>JST</td><td>0.5 mm pitch</td><td>2</td><td>Board-to-board</td></tr>
+</table>

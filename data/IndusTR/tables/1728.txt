@@ -1,0 +1,8 @@
+<table>
+  <caption>Tensor Reverse Transformation Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Represents the input tensor SAC</td></tr>
+  <tr><td>Reverse Position Array</td><td>Input</td><td>Required</td><td>Array specifying the axes of the reverse operation, counted from 0</td></tr>
+  <tr><td>Reverse Position Array Length</td><td>Input</td><td>Required</td><td>Represents the length of the reverse position array</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Represents the output tensor with the same shape and data type as the input tensor</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Endpoint Authorization Requirements (Auth Token Mentioned Inside Parameter Notes Only)</caption>
+  <thead>
+    <tr><th>API Name</th><th>Endpoint Path</th><th>Parameters (Notes)</th><th>Authorization Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gateway Identifier Save</td><td>/gateway/identifier/save</td><td>userID; gatewID; classfyID; templateVersion; templateAttribute (include access_token in the request header)</td><td>Requires OAuth2 token; token name appears in parameter notes.</td></tr>
+    <tr><td>Production Material Form Save</td><td>/material/form/save</td><td>userID; MaterialName (must provide access_token as header)</td><td>Bearer token required.</td></tr>
+    <tr><td>Device Security Authentication</td><td>/device/security/auth</td><td>userID; devID; devSign (access_token required)</td><td>Token plus device signature.</td></tr>
+    <tr><td>Microservice Registration</td><td>/microservice/register</td><td>userID; sevName; sevDes; dataUrl (access_token required)</td><td>OAuth2 required.</td></tr>
+    <tr><td>Device Query</td><td>/device/query</td><td>userID; devID (access_token required)</td><td>Token required for read operations.</td></tr>
+    <tr><td>Edge Gateway Creation</td><td>/edge-gateway/create</td><td>userID; gatewName; commCode; commUrl; iotType (access_token required)</td><td>Token required for create operations.</td></tr>
+  </tbody>
+</table>

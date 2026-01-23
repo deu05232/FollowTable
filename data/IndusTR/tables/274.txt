@@ -1,0 +1,5 @@
+<table>
+  <caption>Charger Handshake Message (PGN9728) Parameter Definition</caption>
+  <tr><td>Start Byte or Bit</td><td>Length</td><td>SPN</td><td>SPN Definition</td><td>Transmission Option</td></tr>
+  <tr><td>1</td><td>3 bytes</td><td>2600</td><td>Charger communication protocol version number. This appendix specifies the current version as V1.1.0, represented as: BYTE3: 00H; BYTE2: 01H; BYTE1: 01H</td><td>Required item</td></tr>
+</table>

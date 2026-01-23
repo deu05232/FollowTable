@@ -1,0 +1,13 @@
+<table>
+  <caption>CCP Application Perception Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Data</td><td>Unit</td></tr>
+  <tr><td>1</td><td>Timestamp</td><td>ms</td></tr>
+  <tr><td>2</td><td>Perception Source ID</td><td>Binary</td></tr>
+  <tr><td>3</td><td>Perception Source Location</td><td>（）</td></tr>
+  <tr><td>4</td><td>Object Type</td><td>Binary</td></tr>
+  <tr><td>5</td><td>Object Location (Latitude and Longitude)</td><td>（）</td></tr>
+  <tr><td>6</td><td>SAC Object Size</td><td>m</td></tr>
+  <tr><td>7</td><td>Object Impact Range</td><td>m</td></tr>
+  <tr><td>8</td><td>Object Motion Information</td><td>m/s</td></tr>
+  <tr><td colspan="3">Note 1: Perception sources include other vehicles and RSUs. Note 2: Objects include vehicles, VRUs, etc. Note 3: Object motion information includes the object's speed, four-axis acceleration, heading angle (driving direction angle), etc.</td></tr>
+</table>

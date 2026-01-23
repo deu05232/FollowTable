@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Platform Business Information Maintenance Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.2.1</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Application Platform Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics M2M Platform Information Maintenance</td></tr>
+  <tr><td>Test Objective</td><td>Verify the platform's business information maintenance capability</td></tr>
+  <tr><td>Preconditions SAC</td><td>1. The system can be logged in normally; 2. Normal connection to the server; 3. UI buttons and input boxes can be used normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Log in to the system as an administrator, enter Platform Application Management, and click Business Information Maintenance; 2. Select an industry customer and add, modify, delete, and query the industry customer information (company name, company ID, product code or customer code associated with the business system), the access status of the business system (allow access, prohibit access), basic communication parameters (server IP address, service port, device code, access password), and contact information of business system maintenance personnel (name, contact phone number, mobile number used to receive SMS, email)); 3. View the updated industry customer information</td></tr>
+  <tr><td>Pass Criteria</td><td>Industry customer information can be added, deleted, modified, and queried</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

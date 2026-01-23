@@ -1,0 +1,7 @@
+<table>
+  <caption>GENERATEAUTHCODE Command Data Field Definition</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Length byte</td><td>Description</td></tr>
+  <tr><td>1</td><td>Inbound information AAD</td><td>9</td><td>Contains the user ID and some communication parameters for additional authentication. It consists of user ID, length indicator, inbound sequence number, responding satellite number, responding beam number, and response time, totaling 72 bit</td></tr>
+  <tr><td>2</td><td>Terminal IMEI</td><td>8</td><td>For the definition of terminal IMEI, see 6.6</td></tr>
+  <tr><td>3</td><td>Terminal time</td><td>7</td><td>The time format is YYYYMMDDHHMMSS, using BCD encoding. Example: 16:06:26 on September 5, 2020 is represented as: 0x20200905160626. The terminal should take the current exact time (Beijing time zone UTC+8), then calculate the fuzzy time according to the time fuzzing algorithm in Appendix B, and transmit it as the terminal time to the USIM card</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Cell Voltage Report Message (CVR) Signal Definitions During Charging</caption>
+  <thead>
+    <tr><th>Start Byte</th><th>Length</th><th>SPN</th><th>Signal Name</th><th>Scaling</th><th>Unit</th><th>Send Option</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>2 bytes</td><td>3101</td><td>Cell #1 Voltage</td><td>0.001</td><td>V</td><td>Optional</td><td>Reported when available</td></tr>
+    <tr><td>3</td><td>2 bytes</td><td>3102</td><td>Cell #2 Voltage</td><td>0.001</td><td>V</td><td>Optional</td><td>Reported when available</td></tr>
+    <tr><td>5</td><td>2 bytes</td><td>3103</td><td>Cell #3 Voltage</td><td>0.001</td><td>V</td><td>Optional</td><td>Reported when available</td></tr>
+    <tr><td>7</td><td>2 bytes</td><td>3104</td><td>Cell #4 Voltage</td><td>0.001</td><td>V</td><td>Optional</td><td>Reported when available</td></tr>
+    <tr><td>9</td><td>2 bytes</td><td>3105</td><td>Cell #5 Voltage</td><td>0.001</td><td>V</td><td>Optional</td><td>Reported when available</td></tr>
+    <tr><td>11</td><td>2 bytes</td><td>3106</td><td>Cell #6 Voltage</td><td>0.001</td><td>V</td><td>Optional</td><td>Reported when available</td></tr>
+  </tbody>
+</table>

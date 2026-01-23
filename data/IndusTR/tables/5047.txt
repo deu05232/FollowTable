@@ -1,0 +1,11 @@
+<table>
+  <caption>Reduction Function Backward Interface Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Output Tensor Gradient</td><td>Input</td><td>Required</td><td>Represents the gradient of the output tensor in the forward interface. The output tensor is the computation result of the reduction operation</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Optional</td><td>Element types include signed integers, unsigned integers, floating-point real numbers, floating-point complex numbers, boolean, etc. That is, the input tensor in the forward interface</td></tr>
+  <tr><td>Reduction Type</td><td>Input</td><td>Optional</td><td>Represents the type of reduction, including sum, product, maximum, minimum, mean, logical AND, logical OR, logical XOR, bitwise AND, bitwise OR, bitwise XOR, etc. That is, the reduction type in the forward interface. Default: sum</td></tr>
+  <tr><td>Starting Address of Reduction Dimension Array</td><td>Input</td><td>Optional</td><td>The starting address of the axis array. The axis array indicates the dimensions to be reduced; its element type is int, and each element ranges in [O,rank(Input Tensor)]. When its value is NULL, all dimensions are reduced; when the axis array value is {k}, it means reducing the k-th dimension; when the axis array value is {P,...Q, it means reducing dimensions P.,.,Q simultaneously. That is, the starting address of the reduction dimension array in the forward interface. Default: NULL</td></tr>
+  <tr><td>Length of Reduction Dimension Array</td><td>Input</td><td>Optional</td><td>Number of elements in the reduction dimension array. The length of the reduction dimension array in the forward interface. Default: O</td></tr>
+  <tr><td>Keep Dimensions</td><td>Input</td><td>Optional</td><td>After reducing the specified dimensions, whether to keep the corresponding dimensions. If kept, the reduced dimension size is 1. That is, the keep-dim value in the forward interface. Default: false</td></tr>
+  <tr><td>Input Tensor Gradient</td><td>Output</td><td>Required</td><td>Represents the gradient of the input tensor in the forward interface. Input tensor element types include signed integers, unsigned integers, floating-point real numbers, floating-point complex numbers, boolean, etc</td></tr>
+</table>

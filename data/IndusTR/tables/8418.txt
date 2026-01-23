@@ -1,0 +1,18 @@
+<table>
+  <caption>Production Line Recipe + Motion/Alarm I/O Mapping</caption>
+  <thead>
+    <tr><th>Section</th><th>Item No.</th><th>Field / Signal Name</th><th>Type</th><th>Length (bit)</th><th>Range / Enum</th><th>Description</th><th>Related Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Recipe Setpoints</td><td>1</td><td>Recipe ID</td><td>INT</td><td>16</td><td>1~9999</td><td>Unique recipe number</td><td>Loaded before start</td></tr>
+    <tr><td>2</td><td>Recipe Name</td><td>STR</td><td>User-defined</td><td></td><td>Human-readable recipe name</td><td></td></tr>
+    <tr><td>3</td><td>Line Speed Setpoint</td><td>FLOAT</td><td>32</td><td>3.0~30.0 m/min</td><td>Target line speed for the recipe</td><td>Active in AUTO</td></tr>
+    <tr><td>4</td><td>Compound Code Set Value</td><td>STR</td><td>User-defined</td><td></td><td>Material code expected by the recipe</td><td>Verified at feed</td></tr>
+    <tr><td>5</td><td>Weigh Target</td><td>FLOAT</td><td>32</td><td>0.10~50.00 kg</td><td>Target batch weight</td><td>Used by scale loop</td></tr>
+    <tr><td>6</td><td>Weigh Tolerance</td><td>FLOAT</td><td>32</td><td>0~5%</td><td>Allowed deviation</td><td>Checked at discharge</td></tr>
+    <tr><td rowspan="4">Control I/O (Forbidden)</td><td>7</td><td>Cutter Motor Start/Stop</td><td>INT</td><td>16</td><td>0=Stop,1=Start,2=Run,3=Alarm</td><td>Motor command/status word for cutter</td><td>Triggered by weighing start</td></tr>
+    <tr><td>8</td><td>Conveyor Belt Enable</td><td>BOOL</td><td>1</td><td>0/1</td><td>Enables belt drive output</td><td>Interlocked with guard door</td></tr>
+    <tr><td>9</td><td>E-Stop Chain Healthy</td><td>BOOL</td><td>1</td><td>0/1</td><td>Safety chain feedback</td><td>Must be TRUE to run</td></tr>
+    <tr><td>10</td><td>Alarm Code</td><td>INT</td><td>16</td><td>1000~1999</td><td>Current alarm enumeration</td><td>Blocks recipe execution</td></tr>
+  </tbody>
+</table>

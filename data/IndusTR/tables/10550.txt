@@ -1,0 +1,17 @@
+<table>
+  <caption>Terrestrial Eco-Meteorological Station Abnormal Event Record (Mixed with Location & Severity)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Record Content</th><th>Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Observation station identifier</td><td>STATION_ID</td><td>Characters(20)</td><td>Unique station code</td></tr>
+    <tr><td>2</td><td>Observation time</td><td>OBS_TIME</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td></tr>
+    <tr><td>3</td><td>Event/phenomenon code</td><td>EVT_CODE</td><td>Characters(4)</td><td>Controlled list reference (e.g., B.24)</td></tr>
+    <tr><td>4</td><td>Event/phenomenon name</td><td>EVT_NAME</td><td>Variable characters(100)</td><td>Controlled vocabulary label</td></tr>
+    <tr><td>5</td><td>Station latitude</td><td>LAT</td><td>Number(8,5)</td><td>Unit: degree</td></tr>
+    <tr><td>6</td><td>Station longitude</td><td>LON</td><td>Number(8,5)</td><td>Unit: degree</td></tr>
+    <tr><td>7</td><td>Administrative region</td><td>ADMIN_REGION</td><td>Variable characters(120)</td><td>Province/City/County</td></tr>
+    <tr><td>8</td><td>Event severity grade</td><td>SEV_GRADE</td><td>Number(2)</td><td>1–5 classification</td></tr>
+    <tr><td>9</td><td>Estimated impacted area</td><td>IMPACT_AREA</td><td>Number(10,2)</td><td>Unit: ha</td></tr>
+  </tbody>
+</table>

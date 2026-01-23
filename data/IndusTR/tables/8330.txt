@@ -1,0 +1,16 @@
+<table>
+  <caption>Beidou Monitoring Terminal Positioning and Monitoring Performance Specifications</caption>
+  <thead>
+    <tr><th>Category</th><th>Metric</th><th>Test Scenario</th><th>Requirement</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">GNSS positioning</td><td>Time to First Fix (Cold)</td><td>Open-sky, 25°C</td><td>≤ 40 s</td><td>After 24 h power-off</td></tr>
+    <tr><td>Time to First Fix (Hot)</td><td>Open-sky, 25°C</td><td>≤ 5 s</td><td>After 5 min power-off</td></tr>
+    <tr><td>Horizontal positioning accuracy</td><td>Static, open-sky</td><td>≤ 1.5 m (95%)</td><td>SBAS off</td></tr>
+    <tr><td rowspan="3">Monitoring function</td><td>Status monitoring accuracy</td><td>Continuous operation</td><td>≥ 98%</td><td>Event labels aligned to ground truth</td></tr>
+    <tr><td>Operation depth error</td><td>Tillage simulation</td><td>≤ 2 cm</td><td>Depth reference: calibrated gauge</td></tr>
+    <tr><td>Missed-seed count error rate</td><td>Single-seed sowing bench test</td><td>≤ 2%</td><td>1,000 seed cycles</td></tr>
+    <tr><td rowspan="2">Communication</td><td>Upload latency</td><td>4G network, urban</td><td>≤ 3 s</td><td>95th percentile</td></tr>
+    <tr><td>Packet loss rate</td><td>4G network, drive test</td><td>≤ 1%</td><td>10 km route</td></tr>
+  </tbody>
+</table>

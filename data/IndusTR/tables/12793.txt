@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal Application File - Key Material and IV Registry</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item</th><th>Length (bytes)</th><th>Encoding</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Initialization Vectors</td><td>IV Index V_1</td><td>6</td><td>BCD</td><td>Index number for default initialization vector No.1</td></tr>
+    <tr><td>Initialization Vector V_1</td><td>16</td><td>Binary</td><td>Default IV used for message encryption/authentication</td></tr>
+    <tr><td>IV Index V_2</td><td>6</td><td>BCD</td><td>Index number for backup initialization vector No.2</td></tr>
+    <tr><td>Initialization Vector V_2</td><td>16</td><td>Binary</td><td>Backup IV used when default IV is invalid</td></tr>
+    <tr><td rowspan="4">Key Slots</td><td>Master Key Index</td><td>6</td><td>BCD</td><td>Index of the active master key slot</td></tr>
+    <tr><td>Master KeyID</td><td>1</td><td>UInt8</td><td>Identifier of the active master key</td></tr>
+    <tr><td>Key Update Counter</td><td>4</td><td>UInt32</td><td>Monotonic counter used during key rotation</td></tr>
+    <tr><td>Key Update Permission Flag</td><td>1</td><td>Bitfield</td><td>Controls whether remote key update is allowed</td></tr>
+  </tbody>
+</table>

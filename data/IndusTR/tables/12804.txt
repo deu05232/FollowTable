@@ -1,0 +1,16 @@
+<table>
+  <caption>Compliance Proofing Map for Green Insulation Materials: Calculation Methods, Templates, and Audit Notes</caption>
+  <thead>
+    <tr><th rowspan="2">Primary indicator</th><th rowspan="2">Secondary indicator</th><th rowspan="2">Metric context</th><th colspan="3">Proof / verification focus (dominant)</th><th rowspan="2">Typical nonconformities</th></tr>
+    <tr><th>Calculation method / formula</th><th>Required templates & attachments</th><th>Audit / site notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Resource attribute</td><td>Finished product volume per unit mass of raw material</td><td>Board / Pipe process yield reporting</td><td>Use monthly average: volume output / raw material mass; exclude rework</td><td>Yield report template, production log, scale calibration certificate</td><td>Auditor checks weighing scale seals; verify 3 consecutive days</td><td>Inconsistent units; missing calibration stickers</td></tr>
+    <tr><td>Ratio of solid waste used</td><td>Mass balance across raw material inputs</td><td>Mass balance worksheet; reconcile purchase vs. consumption</td><td>BOM, supplier invoices, warehouse issue slips</td><td>Spot-check inbound lots; verify traceability to batch code</td><td>Untraceable recycled feedstock origin</td></tr>
+    <tr><td rowspan="2">Energy attribute</td><td>Energy consumption per unit product</td><td>Plant-wide energy allocation to product lines</td><td>Allocate electricity by machine runtime; allocate steam by meter readings</td><td>Utility bills, runtime logs, allocation memo</td><td>Check whether allocation rule changed during the period</td><td>Allocation basis not approved; missing runtime records</td></tr>
+    <tr><td>Compressed air leakage management</td><td>Energy management practice evidence</td><td>Leak test protocol; count leaks per zone</td><td>Maintenance tickets, leak survey report</td><td>Walkthrough verifies tags and repairs closed out</td><td>Open tickets older than 90 days</td></tr>
+    <tr><td rowspan="2">Environmental attribute</td><td>Residual styrene content</td><td>Raw material compliance control</td><td>Follow supplier COA verification workflow; retain GC chromatograms</td><td>COA, chromatogram printouts, sample custody form</td><td>Auditor verifies sample sealing and labeling</td><td>Chromatograms missing; custody chain incomplete</td></tr>
+    <tr><td>Pentane blowing agent content</td><td>Incoming inspection & periodic confirmation</td><td>Confirm via GC method description and calibration curve</td><td>Method SOP, calibration records, external lab report</td><td>Check calibration validity dates; verify instrument ID</td><td>Expired calibration; method SOP not version-controlled</td></tr>
+    <tr><td>Management attribute</td><td>On-site assessment for wastewater utilization</td><td>Facility inspection</td><td>N/A (assessment checklist-based)</td><td>Inspection checklist, photos, corrective action report</td><td>Verify corrective action closure within 30 days</td><td>Repeat findings from previous audit</td></tr>
+  </tbody>
+</table>

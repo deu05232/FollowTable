@@ -1,0 +1,15 @@
+<table>
+  <caption>Conformance Bitstreams for Multichannel Program Material Across Sampling-Rate Conditions</caption>
+  <thead>
+    <tr><th rowspan="2">Program Material</th><th rowspan="2">Target Bitrate</th><th colspan="3">Bitstream File Identifier (Sampling Rate)</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">5.1 Bed + Objects</td><td>192 kbps</td><td>pm_51bed_obj_sr32k_br192k.avsa</td><td>pm_51bed_obj_sr44p1k_br192k.avsa</td><td>pm_51bed_obj_sr48k_br192k.avsa</td></tr>
+    <tr><td>384 kbps</td><td>pm_51bed_obj_sr32k_br384k.avsa</td><td>pm_51bed_obj_sr44p1k_br384k.avsa</td><td>pm_51bed_obj_sr48k_br384k.avsa</td></tr>
+    <tr><td rowspan="2">7.1 Program (Immersive)</td><td>256 kbps</td><td>pm_71_imm_sr32k_br256k.avsa</td><td>pm_71_imm_sr44p1k_br256k.avsa</td><td>pm_71_imm_sr48k_br256k.avsa</td></tr>
+    <tr><td>480 kbps</td><td>pm_71_imm_sr32k_br480k.avsa</td><td>pm_71_imm_sr44p1k_br480k.avsa</td><td>pm_71_imm_sr48k_br480k.avsa</td></tr>
+    <tr><td rowspan="2">HOA Scene (3rd Order)</td><td>640 kbps</td><td>pm_hoa3_sr32k_br640k_meta.avsa</td><td>pm_hoa3_sr44p1k_br640k_meta.avsa</td><td>pm_hoa3_sr48k_br640k_meta.avsa</td></tr>
+    <tr><td>640 kbps + 2 Objects</td><td>pm_hoa3_2obj_sr32k_br640k_meta.avsa</td><td>pm_hoa3_2obj_sr44p1k_br640k_meta.avsa</td><td>pm_hoa3_2obj_sr48k_br640k_meta.avsa</td></tr>
+  </tbody>
+</table>

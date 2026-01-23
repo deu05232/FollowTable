@@ -1,0 +1,7 @@
+<table>
+  <caption>Camera Shutter Mode Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumerated Value</td><td>Description</td></tr>
+  <tr><td rowspan="3">vrCameraShutterType</td><td>VR_CAMERA_SHUTTER_TYPE_GLOBAL=0x00</td><td>Global shutter</td></tr>
+  <tr><td>VR_CAMERA_SHUTTER_TYPE_ROLLING=0x01</td><td>Rolling shutter</td></tr>
+  <tr><td>0x04~0xFF</td><td>Reserved</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Specific Requirements for Instrument Functional Self-Test Features</caption>
+  <tr><td colspan="2">Instrument Category</td><td>Feature Requirements</td></tr>
+  <tr><td colspan="2">Measuring Instruments</td><td rowspan="2">Provide a fault code table with no fewer than 3 items; self-testable faults include: sensor fault, data verification error, circuit hardware fault</td></tr>
+  <tr><td colspan="2">Analytical Instruments</td></tr>
+  <tr><td rowspan="2">Actuators</td><td>Electric/Electro-hydraulic Actuators</td><td>Provide a fault code table with no fewer than 5 items; self-testable faults include: position sensor fault, configuration error, circuit hardware fault, input signal abnormality, main voltage abnormality</td></tr>
+  <tr><td>Pneumatic/Pneumatic-hydraulic Actuators and Their Matched Valve Positioners</td><td>Provide a fault code table with no fewer than 5 items; self-testable faults include: position sensor fault, configuration error, circuit hardware fault, input signal abnormality, air supply fault</td></tr>
+</table>

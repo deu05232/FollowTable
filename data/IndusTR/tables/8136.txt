@@ -1,0 +1,16 @@
+<table>
+  <caption>Adaptive / Learning Performance Requirements (Non-diagnostic Intelligence)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Capability Area</th><th>Requirement Item</th><th>Metric</th><th>Target</th><th>Evaluation Method</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Measuring Instruments</td><td>Multi-scenario Modeling</td><td>Scenario library support</td><td># of scenarios</td><td>>= 10</td><td>Bench test across media/conditions</td><td>Model selection automatic</td></tr>
+    <tr><td>Measuring Instruments</td><td>Dynamic Adaptation</td><td>Parameter adaptation latency</td><td>Seconds</td><td><= 5 s</td><td>Step change test</td><td>Applies during process changes</td></tr>
+    <tr><td>Measuring Instruments</td><td>Robustness</td><td>Accuracy at temperature extremes</td><td>% of nominal</td><td>Within nominal spec</td><td>Thermal cycling</td><td>No explicit fault reporting required</td></tr>
+    <tr><td>Analytical Instruments</td><td>Algorithm Optimization</td><td>Automatic tuning based on history</td><td>Accuracy gain</td><td>>= 2%</td><td>Before/after comparison</td><td>Optimization intervals configurable</td></tr>
+    <tr><td>Analytical Instruments</td><td>Pattern Learning</td><td>Trend extraction</td><td>Detection rate</td><td>>= 90%</td><td>Offline dataset replay</td><td>Focuses on process analytics</td></tr>
+    <tr><td>Analytical Instruments</td><td>Maintenance Prediction</td><td>Remaining useful life estimation</td><td>Prediction error</td><td><= 20%</td><td>Field data validation</td><td>Outputs maintenance window only</td></tr>
+    <tr><td>Actuators</td><td>Control Optimization</td><td>Valve/loop optimization</td><td>Overshoot reduction</td><td>>= 15%</td><td>Closed-loop test</td><td>Adaptive gain scheduling</td></tr>
+    <tr><td>Actuators</td><td>Auto-recognition</td><td>Operating condition classification</td><td>Classification accuracy</td><td>>= 95%</td><td>Labeled scenario tests</td><td>Used to select control model</td></tr>
+  </tbody>
+</table>

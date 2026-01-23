@@ -1,0 +1,14 @@
+<table>
+  <caption>SOC Tooling Requirements for Cybersecurity Reporting Workflows</caption>
+  <thead>
+    <tr><th>Tool Category</th><th>Example Tools</th><th>Minimum Specs</th><th>Deployment Model</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SIEM</td><td>Splunk / QRadar</td><td>2 TB/day ingest</td><td>On-prem/Cloud</td><td>Supports correlation rules</td></tr>
+    <tr><td>SOAR</td><td>Cortex XSOAR</td><td>50 playbooks</td><td>Cloud</td><td>Automates ticketing</td></tr>
+    <tr><td>Ticketing</td><td>Jira Service Mgmt</td><td>10k tickets/year</td><td>Cloud</td><td>Workflow approvals</td></tr>
+    <tr><td>Threat Intel Platform</td><td>MISP</td><td>500k IOCs</td><td>On-prem</td><td>Sharing controls</td></tr>
+    <tr><td>Case Management</td><td>TheHive</td><td>2k cases/year</td><td>On-prem</td><td>Evidence tracking</td></tr>
+    <tr><td>Forensics</td><td>Velociraptor</td><td>10k endpoints</td><td>Hybrid</td><td>Remote collection</td></tr>
+  </tbody>
+</table>

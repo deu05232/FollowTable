@@ -1,0 +1,8 @@
+<table>
+  <caption>VR Camera Configuration Parameter Retrieval APIs</caption>
+  <tr><td>Interface Description</td><td>Interface Name</td></tr>
+  <tr><td>Get the camera instance list</td><td>bool vrConfigGetCameraList(const vrConfig *config，vrCameraConfig **out_camera_list,int32_t *out_size)</td></tr>
+  <tr><td>Get the camera type</td><td>bool vrConfigGetCameraType(const vrCameraConfig *camera_config，vrCameraType*out_camera_type)</td></tr>
+  <tr><td>Get the camera frame rate variation range</td><td>bool vrConfigGetCameraFpsRange(const vrCameraConfig *camera_config，vrRange*fps_range)</td></tr>
+  <tr><td>Get the camera's current frame rate</td><td>bool vrConfigGetCameraFps(const vrCameraConfig *camera_config，int32_t *out_fps)</td></tr>
+</table>

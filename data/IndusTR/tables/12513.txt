@@ -1,0 +1,16 @@
+<table>
+  <caption>Quality Requirements for Cereal Seeds (Wheat, Barley, Oat, Rice) with Explicit Seed Class Rows</caption>
+  <thead>
+    <tr><th>Crop</th><th>Seed class</th><th>Varietal purity (%) min</th><th>Cleanliness (%) min</th><th>Germination (%) min</th><th>Moisture (%) max</th><th>Other crop seeds (seeds/kg) max</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wheat</td><td>Foundation seed</td><td>99.8</td><td>99.0</td><td>86</td><td>13.0</td><td>5</td></tr>
+    <tr><td>Wheat</td><td>Field seed</td><td>99.0</td><td>99.0</td><td>85</td><td>13.0</td><td>10</td></tr>
+    <tr><td>Barley</td><td>Foundation seed</td><td>99.8</td><td>99.0</td><td>85</td><td>13.0</td><td>5</td></tr>
+    <tr><td>Barley</td><td>Field seed</td><td>98.8</td><td>99.0</td><td>84</td><td>13.0</td><td>10</td></tr>
+    <tr><td>Oat</td><td>Foundation seed</td><td>99.2</td><td>98.0</td><td>86</td><td>13.0</td><td>8</td></tr>
+    <tr><td>Oat</td><td>Field seed</td><td>97.5</td><td>98.0</td><td>85</td><td>13.0</td><td>15</td></tr>
+    <tr><td>Rice</td><td>Foundation seed</td><td>99.9</td><td>99.0</td><td>85</td><td>13.0</td><td>3</td></tr>
+    <tr><td>Rice</td><td>Field seed</td><td>99.0</td><td>99.0</td><td>84</td><td>14.0</td><td>6</td></tr>
+  </tbody>
+</table>

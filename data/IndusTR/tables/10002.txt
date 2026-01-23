@@ -1,0 +1,10 @@
+<table>
+  <caption>APDU Response Codes (SW1/SW2) for Secure Messaging Scenarios</caption>
+  <tr><th>SW1</th><th>SW2</th><th>Meaning</th><th>Context</th></tr>
+  <tr><td>90</td><td>00</td><td>Success</td><td>Secure messaging accepted</td></tr>
+  <tr><td>69</td><td>88</td><td>SM data object incorrect</td><td>Malformed secure messaging wrapper</td></tr>
+  <tr><td>69</td><td>87</td><td>Expected SM data objects missing</td><td>Required MAC/enc fields absent</td></tr>
+  <tr><td>6A</td><td>80</td><td>Incorrect data</td><td>Decryption/MAC verification failed</td></tr>
+  <tr><td>63</td><td>00</td><td>Authentication failed</td><td>Check keys/counters</td></tr>
+  <tr><td>67</td><td>00</td><td>Wrong length</td><td>SM length fields inconsistent</td></tr>
+</table>

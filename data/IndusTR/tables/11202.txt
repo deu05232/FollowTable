@@ -1,0 +1,9 @@
+<table>
+  <caption>Terrestrial eco-meteorological station observation data format (meteorological variables)</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Format/Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Record time</td><td>D_TIME</td><td>Date</td><td>YYYY-MM-DD</td></tr>
+  <tr><td>3</td><td>Air temperature</td><td>TA</td><td>Number(5,2)</td><td>Unit: °C</td></tr>
+  <tr><td>4</td><td>Relative humidity</td><td>RH</td><td>Number(5,2)</td><td>Unit: %</td></tr>
+  <tr><td>5</td><td>Wind speed</td><td>WS</td><td>Number(5,2)</td><td>Unit: m/s</td></tr>
+</table>

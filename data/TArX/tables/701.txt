@@ -1,0 +1,18 @@
+<table>
+  <caption>Elements of the two-photon density matrix and details of their calculation by means of the quantum regression theorem. [ mandel:95 , gardiner:04 ] In absence of exciton spin scatterings, the only nonzero elements are ρ H ⁢ H , H ⁢ H ( 2 ) and ρ H ⁢ H , V ⁢ V ( 2 ) , and those obtained by interchanging H and V . The concurrence [ wooters:98 ] is given by the modulus of the ratio between the off-diagonal and diagonal element. [ akopian:06 , stevenson:06 ] The correlation function is unraveled to a sequence of conditional density matrices, which evolve under the condition that the system undergoes abrupt transitions. Note that ρ ( 2 ) is not properly normalized in case of filtering due to the loss of photons. In the entanglement of photons in different generations, [ reimer:07 , avron:08 ] we assume that the photons originating from the biexciton decay are delayed by some time t 0 . We use γ tot = γ r + γ d and c.c. for the complex conjugate of the preceding term.</caption>
+  <tr><th>Figure</th><th>Basis λμ</th><th>Time order</th><th>Decay path</th><th>ρ^((2))_(λλ,μμ)</th></tr>
+  <tr><td>Fig. 1a</td><td>H\!H</td><td>0≤ t_(r)≤ t_(b)</td><td>ρ_(uu)(t_(r))ρ_(xx)(t_(b)-t_(r))ρ_(gg)</td><td>12</td></tr>
+  <tr><td></td><td>HV</td><td>0≤ t_(r)≤ t_(b)</td><td>ρ_(uu)(t_(r))ρ_(xy)(t_(b)-t_(r))ρ_(gg)</td><td>{12γ_(r)γ_(r)+iδ}</td></tr>
+  <tr><td>Fig. 1d</td><td>H\!H</td><td>0≤τ_(r)≤τ_(r)^()≤τ_(b)≤τ_(b)^()</td><td>ρ_(uu)(τ_(r))ρ_(xu)(τ_(r)^()-τ_(r))ρ_(xx)(τ_(% b)-τ_(r)^())ρ_(gx)(τ_(b)^()-τ_(b))ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td>0≤τ_(r)^()≤τ_(r)≤τ_(b)≤τ_(b)^()</td><td>ρ_(uu)(τ_(r)^())ρ_(ux)(τ_(r)-τ_(r)^())ρ_(% xx)(τ_(b)-τ_(r))ρ_(gx)(τ_(b)^()-τ_(b))ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td>0≤τ_(r)≤τ_(b)≤τ_(r)^()≤τ_(b)^()</td><td>ρ_(uu)(τ_(r))ρ_(xu)(τ_(b)-τ_(r))ρ_(gu)(τ_(r)^(% )-τ_(b))ρ_(gx)(τ_(b)^()-τ_(r)^())ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td colspan="3">{(δω)^(2)81δω+iδ+3γ% _(tot)(1δω-iδ+γ_(tot)+1% δω+iδ+γ_(tot)+γ_(r){(δω+γ_% tot)(δω-iδ+γ_(tot))})+.c.</td></tr>
+  <tr><td></td><td>HV</td><td>0≤τ_(r)≤τ_(r)^()≤τ_(b)≤τ_(b)^()</td><td>ρ_(uu)(τ_(r))ρ_(xu)(τ_(r)^()-τ_(r))ρ_(xy)(τ_(% b)-τ_(r)^())ρ_(gy)(τ_(b)^()-τ_(b))ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td>0≤τ_(r)^()≤τ_(r)≤τ_(b)≤τ_(b)^()</td><td>ρ_(uu)(τ_(r)^())ρ_(uy)(τ_(r)-τ_(r)^())ρ_(% xy)(τ_(b)-τ_(r))ρ_(gy)(τ_(b)^()-τ_(b))ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td>0≤τ_(r)≤τ_(b)≤τ_(r)^()≤τ_(b)^()</td><td>ρ_(uu)(τ_(r))ρ_(xu)(τ_(b)-τ_(r))ρ_(gu)(τ_(r)^(% )-τ_(b))ρ_(gy)(τ_(b)^()-τ_(r)^())ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td></td><td colspan="2">{(δω)^(2)4γ_(r)(δω+i% δ+3γ_(tot))(δω+iδ+γ_(tot))(2% γ_(r)+iδ+1δω+γ_(tot))</td></tr>
+  <tr><td>Fig. 1e</td><td>H\!H</td><td>0≤ t_(r)-t_(0)≤ t_(b)</td><td>ρ_(uu)(t_(r)-t_(0))ρ_(xx)(t_(b)-t_(r)+t_(0))ρ_(gg)</td><td>12</td></tr>
+  <tr><td></td><td>HV</td><td>t_(0)≤ t_(r)≤ t_(b)</td><td>ρ_(uu)(t_(r)-t_(0))ρ_(xu)(t_(b)-t_(r))ρ_(xy)(t_(r)-t_(b)+t_(0))% ρ_(gy)(t_(b)-t_(r))ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td>t_(0)≤ t_(b)≤ t_(r)</td><td>ρ_(uu)(t_(b)-t_(0))ρ_(uy)(t_(r)-t_(b))ρ_(xy)(t_(b)-t_(r)+t_(0))% ρ_(xg)(t_(r)-t_(b))ρ_(gg)</td><td></td></tr>
+  <tr><td></td><td></td><td></td><td colspan="2">γ_(r)γ_(r)+2γ_(d)(e^(-γ_(r)t_0% )-e^(-2γ_(tot)t_0))</td></tr>
+</table>

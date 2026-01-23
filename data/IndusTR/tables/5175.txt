@@ -1,0 +1,9 @@
+<table>
+  <caption>Return values for the method to obtain granary bay grain storage early warning information data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short name</td><td>Data type</td><td>Data format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Bay ID</td><td>ajbh</td><td>Character</td><td>a.3</td><td rowspan="5"></td></tr>
+  <tr><td>2</td><td>Early warning type</td><td>yjilx</td><td>Character</td><td>a.10</td></tr>
+  <tr><td>3</td><td>Early warning level</td><td>yjib</td><td>Character</td><td>a.2</td></tr>
+  <tr><td>4</td><td>Early warning content</td><td>yjnr</td><td>Character</td><td>a.250</td></tr>
+  <tr><td>5</td><td>Early warning time</td><td>yjsj</td><td>DateTime</td><td>YYYYMMDDHHMMSS</td></tr>
+</table>

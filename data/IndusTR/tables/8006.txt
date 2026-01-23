@@ -1,0 +1,16 @@
+<table>
+  <caption>Consumer Eligibility, Access Policy, and Usage Restrictions (CSDM)</caption>
+  <thead>
+    <tr><th>Policy Item</th><th>Model Field</th><th>Type / Format</th><th>Required</th><th>Max Occurs</th><th>Example Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Eligible Consumer Category</td><td>eligibleConsumerCategory</td><td>string (0..128)</td><td>M</td><td>N</td><td>Government agencies</td><td>Defines the category of consumers allowed to use the service</td></tr>
+    <tr><td>Consumer Qualification</td><td>consumerQualification</td><td>string (0..256)</td><td>O</td><td>N</td><td>Licensed entity</td><td>Qualification requirements a consumer must meet</td></tr>
+    <tr><td>Authentication Requirement</td><td>authenticationRequirement</td><td>enum</td><td>M</td><td>1</td><td>OAuth2</td><td>General authentication scheme required to access the service</td></tr>
+    <tr><td>Authorization Scope Rule</td><td>authorizationScope</td><td>string (0..256)</td><td>O</td><td>N</td><td>read:records</td><td>High-level scopes a consumer must request</td></tr>
+    <tr><td>Usage Restriction</td><td>restrictionOnConsumer</td><td>string (0..256)</td><td>M</td><td>1</td><td>Non-commercial use only</td><td>Describes consumer-side constraints and restrictions</td></tr>
+    <tr><td>Rate Limit Policy</td><td>rateLimitPolicy</td><td>string (0..128)</td><td>O</td><td>1</td><td>1000/day</td><td>Limits service usage volume (policy-level)</td></tr>
+    <tr><td>Data Retention Requirement</td><td>dataRetention</td><td>string (0..128)</td><td>O</td><td>1</td><td>30 days</td><td>Constraints on how long consumers may retain returned data</td></tr>
+    <tr><td>Audit Requirement</td><td>auditRequirement</td><td>string (0..256)</td><td>O</td><td>1</td><td>Keep access logs</td><td>Audit/logging obligations for consumers</td></tr>
+  </tbody>
+</table>

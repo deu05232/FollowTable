@@ -1,0 +1,8 @@
+<table>
+  <caption>APDU command data layout for multicast join request</caption>
+  <tr><th>Item</th><th>Content field</th><th>Length (byte)</th><th>Notes</th></tr>
+  <tr><td>1</td><td>Terminal identifier</td><td>6</td><td>Unique ID used by the user terminal</td></tr>
+  <tr><td>2</td><td>Group identifier</td><td>6</td><td>Target multicast group</td></tr>
+  <tr><td>3</td><td>Join secret</td><td>8</td><td>Used to authenticate the join</td></tr>
+  <tr><td>4</td><td>Encrypted payload segment</td><td>240</td><td>First segment when payload exceeds one frame</td></tr>
+</table>

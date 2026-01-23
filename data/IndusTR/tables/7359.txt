@@ -1,0 +1,14 @@
+<table>
+  <caption>Instant Messaging - Subscribe Operation (Request Payload as JSON Blocks)</caption>
+  <thead>
+    <tr><th>Section</th><th>JSON Snippet</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Operation</td><td>{ "interfaceOperation": "SUBSCRIBE" }</td><td>Defines the action</td></tr>
+    <tr><td>User Pair</td><td>{ "subscriberID": "userA", "subscribedToID": "userB" }</td><td>Involved users</td></tr>
+    <tr><td>Notifications</td><td>{ "notify": { "recipientNotificationID": "userB", "initiatorNotificationID": "userA" } }</td><td>Nested object; not one-parameter-per-row</td></tr>
+    <tr><td>Conditions</td><td>{ "userConditions": ["age>=18", "verified=true"] }</td><td>Array form</td></tr>
+    <tr><td>Client Metadata</td><td>{ "client": { "platform": "iOS", "version": "1.2.3" } }</td><td>Grouped fields</td></tr>
+    <tr><td>Idempotency</td><td>{ "idempotencyKey": "9f1d..." }</td><td>Optional key</td></tr>
+  </tbody>
+</table>

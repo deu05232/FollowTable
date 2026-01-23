@@ -1,0 +1,16 @@
+<table>
+  <caption>Performance Thresholds for Flammable/Explosive Gas Alarm Devices (Alarm Setpoints, Response/Recovery, and Overload)</caption>
+  <thead>
+    <tr><th rowspan="2">Gas / Calibration Basis</th><th colspan="2">Alarm Threshold</th><th colspan="2">Time Performance Limits</th><th rowspan="2">Overload / Recovery Requirement</th></tr>
+    <tr><th>Low Alarm (LAL)</th><th>High Alarm (HAL)</th><th>T90 Response Time</th><th>Recovery Time (to <10% LAL)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Methane (CH4) in air</td><td>10% LEL</td><td>20% LEL</td><td>≤ 30 s</td><td>≤ 60 s</td><td>After 100% LEL exposure for 60 s, resumes normal detection ≤ 10 s without manual reset</td></tr>
+    <tr><td>Propane (C3H8) in air</td><td>10% LEL</td><td>20% LEL</td><td>≤ 35 s</td><td>≤ 90 s</td><td>After 100% LEL exposure for 60 s, reading returns within ±10% of reference in ≤ 5 min</td></tr>
+    <tr><td>Isobutane (i-C4H10) in air</td><td>10% LEL</td><td>25% LEL</td><td>≤ 30 s</td><td>≤ 90 s</td><td>Over-range indicated within 5 s at ≥ 100% LEL; recovery to normal ≤ 10 s after removal</td></tr>
+    <tr><td>Hydrogen (H2) in air</td><td>10% LEL</td><td>20% LEL</td><td>≤ 20 s</td><td>≤ 60 s</td><td>No false latch; returns to normal operation ≤ 30 s after purge</td></tr>
+    <tr><td>Ethanol vapor (C2H5OH) in air</td><td>10% LEL</td><td>20% LEL</td><td>≤ 45 s</td><td>≤ 120 s</td><td>After 2×HAL for 60 s, alarm clears only when concentration < 90% of LAL</td></tr>
+    <tr><td>Gasoline vapor (as iso-octane equivalent)</td><td>10% LEL</td><td>20% LEL</td><td>≤ 45 s</td><td>≤ 120 s</td><td>After 100% LEL exposure for 60 s, recovery ≤ 60 s and no permanent zero shift > 2% LEL</td></tr>
+    <tr><td>Generic LEL sensor verification gas (manufacturer specified)</td><td>Factory default: 10% LEL</td><td>Factory default: 20% LEL</td><td>≤ 60 s</td><td>≤ 180 s</td><td>Sensor fault/alarm if calibration cannot be achieved within ±5% LEL</td></tr>
+  </tbody>
+</table>

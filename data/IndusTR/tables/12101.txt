@@ -1,0 +1,6 @@
+<table>
+  <caption>Rubber compound quality monitoring (outputs are quality indices, not control setpoints)</caption>
+  <tr><th>No.</th><th>Process Name</th><th>Description</th><th>Input</th><th>Output</th><th>Processing Method</th></tr>
+  <tr><td>1</td><td>Mixing Consistency Evaluation</td><td>Evaluate batch-to-batch consistency of mixed rubber</td><td>Temperature curve, torque curve, batch ID</td><td>Consistency score, warning flag</td><td>Statistical comparison to reference batch</td></tr>
+  <tr><td>2</td><td>Mooney Viscosity Estimation</td><td>Estimate viscosity indicator from process signals</td><td>Motor load, mixing time, compound temperature</td><td>Estimated Mooney viscosity range</td><td>Regression model</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>DT Lookup from Curved-Band Wrap-Around Arc Angle in Visible Imagery (Radians)</caption>
+  <thead>
+    <tr><th rowspan="2">Observable measure from VIS imagery</th><th colspan="7">Wrap-around arc angle of the primary curved band (radians)</th></tr>
+    <tr><th>0.15–0.30</th><th>0.31–0.50</th><th>0.51–0.70</th><th>0.71–0.95</th><th>0.96–1.20</th><th>1.21–1.50</th><th>1.51–1.85</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Derived DT (lookup)</td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td><td>3.5</td><td>4.0</td><td>4.5</td></tr>
+    <tr><td>DT range option</td><td>1.0–1.5</td><td>1.5–2.0</td><td>2.0–2.5</td><td>2.5–3.0</td><td>3.0–3.5</td><td>3.5–4.0</td><td>4.0–4.5</td></tr>
+    <tr><td>How to measure arc angle</td><td colspan="7">Estimate the azimuthal wrap of the dominant curved band around the LLCC center; measure the central angle subtended by the band curvature in radians.</td></tr>
+    <tr><td>Eligibility check</td><td colspan="7">Use only when a single primary curved band is trackable in visible imagery and the center position is reliable.</td></tr>
+    <tr><td>Boundary rule</td><td colspan="7">If the observed angle spans two bins, use the bin corresponding to the larger wrap (higher DT).</td></tr>
+  </tbody>
+</table>

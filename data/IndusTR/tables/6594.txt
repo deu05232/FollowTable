@@ -1,0 +1,20 @@
+<table>
+  <caption>Timing Fields for Reporting Vulnerabilities and Security Findings</caption>
+  <thead>
+    <tr><th>Category (Finding Type)</th><th>Timing Field</th><th>Meaning</th><th>Format / Units</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vulnerability</td><td>Vulnerability Introduced Time</td><td>When the vulnerable code/config was first deployed (if known)</td><td>ISO 8601 with timezone; allow date-only</td><td>2025-12-01</td></tr>
+    <tr><td>Vulnerability</td><td>First Observed in Environment</td><td>Earliest time evidence shows it existed in the environment</td><td>ISO 8601 with timezone</td><td>2026-01-05T03:20:00Z</td></tr>
+    <tr><td>Vulnerability</td><td>Discovery Time</td><td>When the organization discovered the vulnerability/finding</td><td>Unix epoch seconds (integer) OR ISO 8601; must declare which</td><td>1705600000</td></tr>
+    <tr><td>Vulnerability</td><td>Validation/Confirmation Time</td><td>When the finding was confirmed as valid (not false positive)</td><td>ISO 8601 with timezone</td><td>2026-01-06T11:02:10+00:00</td></tr>
+    <tr><td>Vulnerability</td><td>Risk Acceptance Time</td><td>When a formal exception/acceptance decision was approved</td><td>ISO 8601 with timezone</td><td>2026-01-07T09:00:00Z</td></tr>
+    <tr><td>Vulnerability</td><td>Remediation Start Time</td><td>When patching/fix work began</td><td>ISO 8601 with timezone</td><td>2026-01-08T14:30:00Z</td></tr>
+    <tr><td>Vulnerability</td><td>Remediation Complete Time</td><td>When the fix was deployed/verified complete</td><td>ISO 8601 with timezone</td><td>2026-01-09T18:45:00Z</td></tr>
+    <tr><td>Vulnerability</td><td>Last Seen Time</td><td>Latest time the vulnerable condition was observed</td><td>ISO 8601 with timezone</td><td>2026-01-09T18:40:00Z</td></tr>
+    <tr><td>Security Finding</td><td>Scan Start Time</td><td>When the scan/job that produced the finding started</td><td>ISO 8601 with timezone</td><td>2026-01-06T00:00:00Z</td></tr>
+    <tr><td>Security Finding</td><td>Scan End Time</td><td>When the scan/job finished</td><td>ISO 8601 with timezone</td><td>2026-01-06T02:15:00Z</td></tr>
+    <tr><td>Security Finding</td><td>Report Generated Time</td><td>When the tool/report output was generated</td><td>ISO 8601 with timezone</td><td>2026-01-06T02:16:30Z</td></tr>
+    <tr><td>Security Finding</td><td>SLA Due Time</td><td>Deadline by which remediation should be complete</td><td>ISO 8601 with timezone</td><td>2026-02-05T00:00:00Z</td></tr>
+  </tbody>
+</table>

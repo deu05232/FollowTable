@@ -1,0 +1,15 @@
+<table>
+  <caption>Roundabout scenario elements mixed with non-pass-through intersection signal control tasks</caption>
+  <thead>
+    <tr><th rowspan="2">Test Item</th><th rowspan="2">Special-area Subtype</th><th colspan="5">Layered Scenario Elements</th></tr>
+    <tr><th>Road Layer</th><th>Signs/Markings Layer</th><th>Lighting/Weather Layer</th><th>Traffic Operation Layer</th><th>Monitoring/Communication Layer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pass through special areas</td><td>Roundabout</td><td>Single-lane roundabout; asphalt; dry; splitter island</td><td>Yield line; circulating arrows; roundabout guide signs</td><td>Daytime; sunny</td><td>Vehicles yield on entry; circulating priority</td><td>Roadside video; V2X RSU; HD map</td></tr>
+    <tr><td>Pass through special areas</td><td>Roundabout</td><td>Two-lane roundabout; dry; compact diameter</td><td>Lane selection arrows; “Yield” sign</td><td>Daytime; cloudy</td><td>Mixed traffic incl. buses; moderate density</td><td>Trajectory logging; positioning base station</td></tr>
+    <tr><td>Unrelated task</td><td>Roundabout</td><td>Approach leg converted to signalized intersection</td><td>Stop line; signal heads; pedestrian signals</td><td>Night; clear; street lighting</td><td>Proceed on green; protected left-turn phase timing evaluation</td><td>Signal controller SPaT broadcast; intersection radar</td></tr>
+    <tr><td>Unrelated task</td><td>Roundabout</td><td>Downstream intersection 200 m after exit</td><td>Queue detector markings; advanced stop box</td><td>Dusk; light rain</td><td>Red-light compliance and dilemma zone handling</td><td>Red-light enforcement camera; SPaT/MAP messages</td></tr>
+    <tr><td>Unrelated task</td><td>Roundabout</td><td>Crosswalk near exit</td><td>Zebra crossing; pedestrian push button</td><td>Daytime; fog</td><td>Pedestrian signal compliance testing (not roundabout yield behavior)</td><td>Pedestrian detection sensors; RSU messages</td></tr>
+    <tr><td>Pass through special areas</td><td>Roundabout</td><td>Two-lane roundabout; wet surface; high friction variation</td><td>Chevron markings at central island; speed advisory sign</td><td>Night; rainy; glare</td><td>Low-speed circulation; no stopping inside circle</td><td>Roadside cameras; friction sensor feed; vehicle-cloud</td></tr>
+  </tbody>
+</table>

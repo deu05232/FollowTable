@@ -1,0 +1,12 @@
+# Adult Blood Pressure Classification Thresholds (Clinic Quick Reference, mm Hg)
+
+| Category (Adults) | Systolic (mm Hg) | Diastolic (mm Hg) | How to classify a single reading |
+|---|---:|---:|---|
+| Hypotension | < 90 | or < 60 | If either number is below the hypotension cutoff |
+| Normal | < 120 | and < 80 | Both numbers must be in the normal range |
+| Elevated (High-normal) | 120–129 | and < 80 | Systolic elevated while diastolic remains <80 |
+| Prehypertension (legacy term) | 130–139 | or 80–89 | If either number falls in this band (older category) |
+| Stage 1 hypertension | 140–159 | or 90–99 | If either number is in stage 1 range |
+| Stage 2 hypertension | ≥ 160 | or ≥ 100 | If either number is in stage 2 range |
+| Hypertensive crisis (seek urgent care) | ≥ 180 | and/or ≥ 120 | Crisis if either number reaches this threshold |
+| Notes | — | — | Use the higher category when systolic and diastolic fall in different rows |

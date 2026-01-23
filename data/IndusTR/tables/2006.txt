@@ -1,0 +1,11 @@
+<table>
+  <caption>AR Session Logging Fields for Trackable Pipeline Diagnostics</caption>
+  <tr><th>Log Field</th><th>Type</th><th>Example</th><th>Emission Point</th><th>Severity</th><th>Description</th></tr>
+  <tr><td>session_id</td><td>UUID</td><td>8b6c...e21</td><td>On session start</td><td>INFO</td><td>Unique identifier for a run</td></tr>
+  <tr><td>trackable_count</td><td>int</td><td>12</td><td>Per frame</td><td>DEBUG</td><td>Number of currently observed trackables</td></tr>
+  <tr><td>cpu_ms</td><td>float</td><td>6.4</td><td>Per frame</td><td>DEBUG</td><td>CPU time used by tracking</td></tr>
+  <tr><td>gpu_ms</td><td>float</td><td>4.1</td><td>Per frame</td><td>DEBUG</td><td>GPU time used by rendering</td></tr>
+  <tr><td>tracking_state</td><td>string</td><td>TRACKING</td><td>On state change</td><td>INFO</td><td>High-level tracking status</td></tr>
+  <tr><td>error_code</td><td>int</td><td>3012</td><td>On failure</td><td>ERROR</td><td>Pipeline failure code</td></tr>
+  <tr><td>message</td><td>string</td><td>Target lost</td><td>On event</td><td>INFO</td><td>Human-readable diagnostic</td></tr>
+</table>

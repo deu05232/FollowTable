@@ -1,0 +1,14 @@
+<table>
+  <caption>Fault Codes as a Small Part of a Broader Diagnostic Coverage and Accuracy Catalog</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Diagnostic Topic</th><th>Coverage / Accuracy Requirement</th><th>Method / Data Source</th><th>Example Fault Codes (Minor Section)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Measuring Instruments</td><td>Process abnormality diagnosis accuracy</td><td>≥ 95% accuracy for single-abnormality classification</td><td>Trend analysis on PV, SNR, adhesion indicators</td><td>F-101 (sensor), F-120 (signal quality low)</td></tr>
+    <tr><td>Diagnostic coverage catalog</td><td>At least 20 diagnostic entries across power, loop current, communication, and process anomalies</td><td>Rule-based + statistical trend checks</td><td>F-103 (loop current), F-150 (comm degraded)</td></tr>
+    <tr><td rowspan="2">Analytical Instruments</td><td>Online drift detection</td><td>Detect drift within 30 min; false alarm ≤ 2%</td><td>Historical baseline + residual monitoring</td><td>A-202 (auto-cal failed), A-230 (baseline drift)</td></tr>
+    <tr><td>Maintenance prediction</td><td>Predict component replacement window with ≥ 80% confidence</td><td>Model-based health index from historical data</td><td>A-299 (predictive maintenance warning)</td></tr>
+    <tr><td rowspan="2">Actuators</td><td>Valve optimization / loop optimization</td><td>Reduce overshoot by ≥ 10% under varying loads</td><td>Adaptive tuning and friction estimation</td><td>E-301 (position sensor), E-340 (stiction suspected)</td></tr>
+    <tr><td>Abnormality diagnosis for motion profile</td><td>≥ 95% accuracy for stuck/over-torque classification</td><td>Signature analysis of current and torque curves</td><td>E-360 (over-torque), E-370 (stuck)</td></tr>
+  </tbody>
+</table>

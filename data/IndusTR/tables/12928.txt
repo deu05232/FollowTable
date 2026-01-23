@@ -1,0 +1,18 @@
+<table>
+  <caption>Geographic Area Definition Fields for Regional Targeting (Center Point + Polygon Boundary Points)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Bits</th><th>Valid Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Center Reference</td><td>Center Latitude Degrees</td><td>7</td><td>0–90</td><td>Integer degrees of center latitude.</td></tr>
+    <tr><td>Center Latitude Hemisphere</td><td>1</td><td>0–1</td><td>0 = North, 1 = South.</td></tr>
+    <tr><td>Center Longitude Degrees</td><td>8</td><td>0–180</td><td>Integer degrees of center longitude.</td></tr>
+    <tr><td>Center Longitude Hemisphere</td><td>1</td><td>0–1</td><td>0 = East, 1 = West.</td></tr>
+    <tr><td rowspan="6">Boundary Polygon</td><td>Number of Boundary Points</td><td>4</td><td>1–15</td><td>Count of polygon vertices following (max 15).</td></tr>
+    <tr><td>Point i Latitude Degrees</td><td>7</td><td>0–90</td><td>Integer degrees for vertex i latitude.</td></tr>
+    <tr><td>Point i Latitude Minutes</td><td>6</td><td>0–59</td><td>Minutes for vertex i latitude.</td></tr>
+    <tr><td>Point i Latitude Hemisphere</td><td>1</td><td>0–1</td><td>0 = North, 1 = South.</td></tr>
+    <tr><td>Point i Longitude Degrees</td><td>8</td><td>0–180</td><td>Integer degrees for vertex i longitude.</td></tr>
+    <tr><td>Point i Longitude Hemisphere</td><td>1</td><td>0–1</td><td>0 = East, 1 = West.</td></tr>
+  </tbody>
+</table>

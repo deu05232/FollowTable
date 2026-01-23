@@ -1,0 +1,8 @@
+<table>
+  <caption>List of de-excitation processes featured by the \geminipp model. The symbol Z represents the charge number of the emitted particle and Z switch can be chosen to be 2, 3 or 4.</caption>
+  <tr><th>Process</th><th>Model</th><th>Notes</th></tr>
+  <tr><td>light-particle evaporation</td><td>Hauser-Feshbach [ hauser-evaporation ]</td><td>Z≤ Z_()</td></tr>
+  <tr><td>binary decay</td><td>Moretto [ moretto-binarydecay ]</td><td>Z>Z_()</td></tr>
+  <tr><td>fission</td><td>Bohr-Wheeler [ bohr-fission ]</td><td>only in heavy systems</td></tr>
+  <tr><td>partition in fission</td><td>Rusanov [ rusanov-mass ]</td><td></td></tr>
+</table>

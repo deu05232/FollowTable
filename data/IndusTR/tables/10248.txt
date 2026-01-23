@@ -1,0 +1,14 @@
+<table>
+  <caption>ArTrackable_getType (Low-level Trackable Introspection)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Pointer to the active AR session that owns the trackable.</td></tr>
+    <tr><td>trackable</td><td>const ArTrackable *</td><td>in</td><td>Trackable handle to query.</td></tr>
+    <tr><td>out_trackable_type</td><td>ArTrackableType *</td><td>out</td><td>Receives the trackable's concrete type (e.g., plane, point, image, face).</td></tr>
+    <tr><td>out_is_valid</td><td>ArBool *</td><td>out</td><td>Receives whether the provided trackable handle is still valid for the current session.</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>out</td><td>Receives the call result status code for error handling.</td></tr>
+    <tr><td>debug_tag</td><td>const char *</td><td>in</td><td>Optional tag used to label the query in logs/profiling.</td></tr>
+  </tbody>
+</table>

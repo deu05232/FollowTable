@@ -1,0 +1,14 @@
+<table>
+  <caption>ARSessionRunMode Enumeration Values</caption>
+  <thead>
+    <tr><th>Enumeration Value (Name = Number)</th><th>Description</th><th>Runtime Impact</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ARSESSION_RUN_MODE_PAUSED = 0</td><td>The session is created but does not process camera frames or tracking updates.</td><td>Stops runtime processing until switched to a running mode.</td></tr>
+    <tr><td>ARSESSION_RUN_MODE_RUNNING = 1</td><td>The session processes incoming camera frames and produces tracking results.</td><td>Normal real-time AR execution.</td></tr>
+    <tr><td>ARSESSION_RUN_MODE_RUNNING_NO_PLANE_DETECTION = 2</td><td>The session runs tracking but disables plane finding during runtime.</td><td>Reduces plane-related computation; no new planes will be found.</td></tr>
+    <tr><td>ARSESSION_RUN_MODE_RUNNING_LOW_POWER = 3</td><td>The session runs with a low-power policy that may lower update frequency.</td><td>Trades responsiveness for battery/thermal limits.</td></tr>
+    <tr><td>ARSESSION_RUN_MODE_RUNNING_HIGH_ACCURACY = 4</td><td>The session runs with a high-accuracy policy prioritizing tracking quality.</td><td>May use more compute/battery to improve stability.</td></tr>
+    <tr><td>ARSESSION_RUN_MODE_STOPPED = 5</td><td>The session is stopped and releases runtime processing resources.</td><td>Ends AR processing; typically requires reconfiguration to resume.</td></tr>
+  </tbody>
+</table>

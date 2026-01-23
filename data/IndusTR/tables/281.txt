@@ -1,0 +1,7 @@
+<table>
+  <caption>Charger and Vehicle Power Circuit Contactor Status Message Parameters</caption>
+  <tr><td>Parameter Group Identifier</td><td>Message Description</td><td>Information Type</td><td>Cycle Time</td><td>Total Transmission Time/ms</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>0x05</td><td>DC power supply circuit contactor status</td><td>Short message not requiring acknowledgment</td><td>Sent with a 1000 ms period when the DC power supply circuit contactor status does not change; sent with a 50 ms period for 3 consecutive frames when a change occurs</td><td></td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x06</td><td>Vehicle power supply circuit contactor status</td><td>Short message not requiring acknowledgment</td><td>Sent with a 1000 ms period when the vehicle power supply circuit contactor status does not change; sent with a 50 ms period for 3 consecutive frames when a change occurs</td><td></td><td>Vehicle - Charger</td></tr>
+  <tr><td colspan="6">The timing logic of the 1000 ms cycle time and the 50 ms cycle time are independent of each other</td></tr>
+</table>

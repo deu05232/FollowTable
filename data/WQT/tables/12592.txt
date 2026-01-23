@@ -1,0 +1,12 @@
+# Peer-to-Peer Lending Underwriting  Expected Default Rates by Credit Score Band
+
+| Credit Score Band | Expected Annual Default Rate | Expected Annual Loss Rate | Typical Risk Tier Label | Commentary |
+| --- | --- | --- | --- | --- |
+| 780–850 | 0.5%–1.2% | 0.2%–0.8% | Super Prime | Historically lowest losses |
+| 740–779 | 1.0%–2.5% | 0.8%–1.8% | Prime | Strong repayment performance |
+| 700–739 | 2.0%–4.0% | 1.5%–3.0% | Near-Prime | Moderate sensitivity to shocks |
+| 660–699 | 4.0%–7.0% | 3.0%–5.5% | Mid-Tier | Losses increase meaningfully |
+| 620–659 | 7.0%–12.0% | 5.5%–9.5% | Subprime | Higher volatility |
+| 580–619 | 12.0%–20.0% | 9.5%–16.0% | Deep Subprime | Often excluded or priced high |
+| <580 | 20.0%+ | 16.0%+ | Very High Risk | Commonly rejected in practice |
+| No Score / Thin File | N/A | N/A | Unscorable | Alternative data sometimes used |

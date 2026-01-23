@@ -1,0 +1,8 @@
+<table>
+  <caption>AR session parameter list for quick reference</caption>
+  <tr><td>Parameter identifier</td><td>Type</td><td>Direction</td></tr>
+  <tr><td>env</td><td>void *</td><td>in</td></tr>
+  <tr><td>context</td><td>void *</td><td>in</td></tr>
+  <tr><td>out_config</td><td>ArConfig *</td><td>out</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>in</td></tr>
+</table>

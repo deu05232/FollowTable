@@ -1,0 +1,15 @@
+<table>
+  <caption>Laser Cutting Surface Integrity Requirements vs Material Thickness (Roughness, Striation Depth, HAZ)</caption>
+  <thead>
+    <tr><th>Material thickness a (mm)</th><th>Max cut-edge roughness Ra (µm)</th><th>Max striation depth (µm)</th><th>Max heat-affected zone (HAZ) width (mm)</th><th>Inspection note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.1 ≤ a ≤ 0.5</td><td>≤ 4</td><td>≤ 15</td><td>≤ 0.05</td><td rowspan="2">Ra measured parallel to cutting direction on exit side</td></tr>
+    <tr><td>0.5 < a ≤ 1.0</td><td>≤ 6</td><td>≤ 20</td><td>≤ 0.07</td></tr>
+    <tr><td>1.0 < a ≤ 3.0</td><td>≤ 8</td><td>≤ 30</td><td>≤ 0.10</td><td>Report worst of 3 traces</td></tr>
+    <tr><td>3.0 < a ≤ 6.0</td><td>≤ 10</td><td>≤ 45</td><td>≤ 0.15</td><td>Exclude piercing zone (first 3 mm)</td></tr>
+    <tr><td>6.0 < a ≤ 12.0</td><td>≤ 14</td><td>≤ 70</td><td>≤ 0.20</td><td>Metallographic HAZ measurement allowed</td></tr>
+    <tr><td>12.0 < a ≤ 20.0</td><td>≤ 18</td><td>≤ 95</td><td>≤ 0.30</td><td>Use same assist gas condition as production</td></tr>
+    <tr><td>20.0 < a ≤ 60.0</td><td>≤ 25</td><td>≤ 140</td><td>≤ 0.45</td><td>Applicable to carbon steel and stainless steel</td></tr>
+  </tbody>
+</table>

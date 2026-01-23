@@ -1,0 +1,19 @@
+<table>
+  <caption>AR Trackable Query Helpers (No Output Pointers Listed)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">ArTrackable_getAnchors</td><td>session</td><td>ArSession *</td><td>Yes</td><td>AR session pointer used for resolving handles.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>Yes</td><td>Trackable object to query anchors for.</td></tr>
+    <tr><td rowspan="2">ArTrackable_getTrackingState</td><td>session</td><td>ArSession *</td><td>Yes</td><td>AR session pointer.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>Yes</td><td>Trackable whose tracking state is requested.</td></tr>
+    <tr><td rowspan="2">ArTrackable_getType</td><td>session</td><td>ArSession *</td><td>Yes</td><td>AR session pointer.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>Yes</td><td>Trackable whose type is requested.</td></tr>
+    <tr><td rowspan="2">ArSession_getAllTrackables</td><td>session</td><td>ArSession *</td><td>Yes</td><td>AR session pointer.</td></tr>
+    <tr><td>filter_type</td><td>ArTrackableType</td><td>No</td><td>Optional type filter for returned trackables.</td></tr>
+    <tr><td rowspan="3">ArTrackableList_getItem</td><td>session</td><td>ArSession *</td><td>Yes</td><td>AR session pointer.</td></tr>
+    <tr><td>trackable_list</td><td>ArTrackableList *</td><td>Yes</td><td>List to read from.</td></tr>
+    <tr><td>index</td><td>int32_t</td><td>Yes</td><td>Element index.</td></tr>
+  </tbody>
+</table>

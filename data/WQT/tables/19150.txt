@@ -1,0 +1,14 @@
+# Hybrid Deployment Prerequisites and Configuration Checklist (Exchange + Microsoft 365)
+
+| Category | Setting | Example value | Notes |
+| --- | --- | --- | --- |
+| DNS | Autodiscover CNAME | autodiscover.contoso.com -> autodiscover.outlook.com | Required for hybrid Autodiscover behavior |
+| DNS | MX record | contoso-com.mail.protection.outlook.com | Routes inbound mail to EOP |
+| DNS | SPF TXT | v=spf1 include:spf.protection.outlook.com -all | Helps prevent spoofing |
+| Certificates | Public cert SAN | mail.contoso.com, autodiscover.contoso.com | Used by hybrid connectors |
+| Exchange | Hybrid Configuration Wizard | Enabled | Creates connectors and relationships |
+| Identity | Azure AD Connect | Enabled | Syncs users and attributes |
+| Network | Firewall outbound | TCP 443 to Microsoft 365 endpoints | Needed for OAuth and services |
+| Mail flow | Send connector | Outbound to Office 365 | Often created/updated by HCW |
+| Security | TLS settings | TLS 1.2 enforced | Recommended baseline |
+| Client | Outlook profile | Use Autodiscover | Client discovers mailbox location |

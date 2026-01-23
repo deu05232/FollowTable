@@ -1,0 +1,8 @@
+<table>
+  <caption>AR environment understanding function parameters (plumbing-heavy output mechanics)</caption>
+  <tr><td>Argument</td><td>Storage pattern</td><td>How the caller must manage it</td></tr>
+  <tr><td>session</td><td>opaque pointer</td><td>Must remain valid; do not free; pass by address only</td></tr>
+  <tr><td>out_env_map</td><td>pointer-to-pointer</td><td>Receives an allocated handle; caller must release; may be NULL; ownership transferred</td></tr>
+  <tr><td>out_light</td><td>pointer-to-pointer</td><td>Filled with a newly created object; check return codes before dereferencing</td></tr>
+  <tr><td>out_buffer</td><td>caller-allocated buffer</td><td>Provide size in bytes; function writes into the buffer; alignment requirements apply</td></tr>
+</table>

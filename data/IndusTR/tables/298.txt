@@ -1,0 +1,15 @@
+<table>
+  <caption>Circular or Sector Early Warning Area Address Code Field Format</caption>
+  <tr><td>Serial No.</td><td>Field Name</td><td>Number of Bits</td><td>Valid Range</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>Number of Points</td><td>4</td><td>1~15</td><td>Indicates the number of points, up to 15 points, others unused</td></tr>
+  <tr><td>2</td><td>Latitude Value</td><td>7</td><td>0~90</td><td>Unit:</td></tr>
+  <tr><td>3</td><td>Latitude Minute Value</td><td>6</td><td>0~59</td><td>Unit: ()</td></tr>
+  <tr><td>4</td><td>Decimal Digits of Latitude Minute Value</td><td>10</td><td>0~999</td><td>Unit: 1/1000(')</td></tr>
+  <tr><td>5</td><td>North/South Latitude</td><td>1</td><td>0~1</td><td>0: North latitude; 1: South latitude</td></tr>
+  <tr><td>6</td><td>Longitude Value</td><td>8</td><td>0~180</td><td>Unit:</td></tr>
+  <tr><td>7</td><td>Longitude Minute Value</td><td>6</td><td>0~59</td><td>Unit: ()</td></tr>
+  <tr><td>8</td><td>Decimal Digits of Longitude Minute Value</td><td>10</td><td>0~999</td><td>Unit: 1/1000(')</td></tr>
+  <tr><td>9</td><td>East/West Longitude</td><td>1</td><td>0~1</td><td>0: East longitude; 1: West longitude</td></tr>
+  <tr><td>10</td><td>…</td><td>…</td><td>…</td><td>Latitudes and longitudes of other points, up to 4 points</td></tr>
+  <tr><td colspan="2">Total</td><td></td><td></td><td>Variable length, supports up to 15, maximum length 739 bits</td></tr>
+</table>

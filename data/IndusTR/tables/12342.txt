@@ -1,0 +1,14 @@
+<table>
+  <caption>ArSession_allocateSession: Creation Call Parameters (Context In, New Session Handle Out)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Runtime Context</td><td>jni_env</td><td>JNIEnv *</td><td>in</td><td>JNI environment pointer required to interact with the runtime during session creation.</td></tr>
+    <tr><td>Runtime Context</td><td>app_activity</td><td>jobject</td><td>in</td><td>Android Activity (or equivalent) object used as the creation context.</td></tr>
+    <tr><td>Runtime Context</td><td>app_context</td><td>jobject</td><td>in</td><td>Application Context object providing lifecycle and system service access for initialization.</td></tr>
+    <tr><td>Output</td><td>out_session_ptr</td><td>ArSession **</td><td>out</td><td>On success, receives the pointer to the newly allocated AR session.</td></tr>
+    <tr><td>Optional Inputs</td><td>log_callback</td><td>ArLogCallback</td><td>in</td><td>Optional callback used only during creation to report initialization diagnostics.</td></tr>
+    <tr><td>Optional Inputs</td><td>user_data</td><td>void *</td><td>in</td><td>User pointer forwarded to log_callback; ignored if log_callback is NULL.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>EGC Ship Earth Station Message Frame Header and Regional Addressing Fields (Mixed)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Bits</th><th>Valid Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Service Identifier</td><td>16</td><td>0xCC00</td><td>Ship earth station service application identifier</td></tr>
+    <tr><td>Header</td><td>Field Type</td><td>4</td><td>0–15</td><td>0: position report; 1: EGC broadcast; others reserved</td></tr>
+    <tr><td>Header</td><td>Message Sequence Number</td><td>32</td><td>0–4294967295</td><td>Cyclic sequence number for outbound/inbound frames</td></tr>
+    <tr><td>Header</td><td>Priority</td><td>2</td><td>0–3</td><td>0: routine; 1: safety; 2: urgency; 3: distress</td></tr>
+    <tr><td>Address</td><td>Broadcast Mode</td><td>2</td><td>0–3</td><td>0: worldwide; 1: NAVAREA/METAREA; 2: coastal; 3: reserved</td></tr>
+    <tr><td>Address</td><td>NAVAREA/METAREA Number</td><td>6</td><td>1–21</td><td>Used when Broadcast Mode = 1</td></tr>
+    <tr><td>Address</td><td>Spare</td><td>2</td><td>0</td><td>Set to zero</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Format Definition of Long Message Control Frame</caption>
+  <tr><td>Protocol Data Unit</td><td>P</td><td>EDP</td><td>DP</td><td>PF</td><td>PS</td><td>SA</td><td colspan="8">Data Field</td></tr>
+  <tr><td>Placeholder bit</td><td>3</td><td>1</td><td>1</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td></tr>
+  <tr><td rowspan="3">Definition</td><td rowspan="3">0x03</td><td rowspan="3">0</td><td rowspan="3">SAC0</td><td rowspan="3">0x37</td><td rowspan="3">Destination Address</td><td rowspan="3">Source Address</td><td>LM_ACK:1</td><td>Starting Frame Sequence Number to Be Received</td><td>Total Number of Frames to Be Received</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>OxFF</td><td>0xFF</td></tr>
+  <tr><td>LM_NACK:2</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+  <tr><td>LM_EndofACK:3</td><td>Total Number of Frames Received</td><td colspan="2">Total Number of Bytes Received OxFF</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td colspan="15">LM_ACK(n,k) denotes a long message acknowledgement control frame with the starting frame sequence number to be received of n and the total number of frames to be received of k. k is the number of information frames that can be received (the smaller of the receiving capability and the remaining frames to be sent)</td></tr>
+</table>

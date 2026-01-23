@@ -1,0 +1,16 @@
+<table>
+  <caption>ISO-Style Grade Matrix for Laser Cut Edge Quality (Roughness and Striation)</caption>
+  <thead>
+    <tr><th rowspan="2">Edge Quality Grade</th><th colspan="2">Surface Profile</th><th colspan="2">Edge Defects</th></tr>
+    <tr><th>Rz limit (µm)</th><th>Striation depth (µm)</th><th>Micro-burr (mm)</th><th>Oxide / recast rating</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Grade 0</td><td>≤ 8 + 0.002a</td><td>≤ 15</td><td>≤ 0.03</td><td>null / very slight</td></tr>
+    <tr><td>Grade I</td><td>≤ 12 + 0.003a</td><td>≤ 25</td><td>≤ 0.06</td><td>Slight</td></tr>
+    <tr><td>Grade II</td><td>≤ 20 + 0.004a</td><td>≤ 40</td><td>≤ 0.10</td><td>Moderate</td></tr>
+    <tr><td>Grade III</td><td>≤ 35 + 0.006a</td><td>≤ 65</td><td>≤ 0.20</td><td>Noticeable</td></tr>
+    <tr><td>Grade IV</td><td>≤ 55 + 0.008a</td><td>≤ 90</td><td>≤ 0.35</td><td>Severe</td></tr>
+    <tr><td>Grade V</td><td>≤ 80 + 0.010a</td><td>≤ 120</td><td>≤ 0.50</td><td>Very severe</td></tr>
+    <tr><td colspan="5">Note: a = workpiece thickness (mm). This matrix is organized by grade, not by thickness bands.</td></tr>
+  </tbody>
+</table>

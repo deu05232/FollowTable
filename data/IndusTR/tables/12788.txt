@@ -1,0 +1,16 @@
+<table>
+  <caption>XHE Exchange Header/Envelope — Field Occurrence & Format Matrix (No Constraint Status)</caption>
+  <thead>
+    <tr><th>Block</th><th>Data Field</th><th>English Name</th><th>Max Occurrences</th><th>Format/Pattern</th><th>Data Type</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Envelope</td><td>Envelope Version Identifier</td><td>Envelope Version Identifier</td><td>1</td><td>\d+\.\d+(\.\d+)?</td><td>String</td><td>Version identifier of the exchange header envelope.</td></tr>
+    <tr><td>Envelope Customization Identifier</td><td>Envelope Customization Identifier</td><td>1</td><td>[A-Z0-9\-]{1,35}</td><td>String</td><td>Identifier used to indicate a customization or special profile variant.</td></tr>
+    <tr><td>Envelope Profile Identifier</td><td>Envelope Profile Identifier</td><td>1</td><td>[A-Z0-9\-]{1,35}</td><td>String</td><td>Profile referenced by the customization identifier.</td></tr>
+    <tr><td>Envelope Language Code</td><td>Envelope Language Code</td><td>1</td><td>[a-z]{2}(-[A-Z]{2})?</td><td>String</td><td>Language tag used for human-readable text in the envelope.</td></tr>
+    <tr><td rowspan="4">Header</td><td>Header Identifier</td><td>Header Identifier</td><td>1</td><td>[A-Z0-9\-]{1,50}</td><td>String</td><td>Identifier that uniquely identifies the header instance.</td></tr>
+    <tr><td>Header UUID</td><td>Header UUID</td><td>Header UUID</td><td>1</td><td>[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}</td><td>String</td><td>Universally unique identifier value for the header.</td></tr>
+    <tr><td>Header Creation Date Time</td><td>Header Creation Date Time</td><td>1</td><td>ISO-8601</td><td>Date Time</td><td>Date and time when the envelope/header was created.</td></tr>
+    <tr><td>Header Time Zone Offset</td><td>Header Time Zone Offset</td><td>1</td><td>[+-]\d{2}:\d{2}</td><td>String</td><td>Time zone offset applied to the creation timestamp.</td></tr>
+  </tbody>
+</table>

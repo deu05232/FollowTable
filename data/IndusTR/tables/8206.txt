@@ -1,0 +1,15 @@
+<table>
+  <caption>Temperature, Humidity, and Enclosure Robustness Tests for Flammable Gas Detection and Alarm Devices</caption>
+  <thead>
+    <tr><th>No.</th><th>Test item</th><th>Test condition</th><th>Duration</th><th>Sample state</th><th>Pass criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>High-temperature operation</td><td>55°C (powered, normal monitoring)</td><td>16 h</td><td>Alarm enabled</td><td>No fault; alarm indicator functions</td></tr>
+    <tr><td>2</td><td>Low-temperature operation</td><td>-10°C (powered, normal monitoring)</td><td>16 h</td><td>Alarm enabled</td><td>No fault; buzzer sound level within spec</td></tr>
+    <tr><td>3</td><td>High-temperature storage</td><td>70°C (unpowered)</td><td>24 h</td><td>Stored in package</td><td>Startup OK; no deformation</td></tr>
+    <tr><td>4</td><td>Low-temperature storage</td><td>-25°C (unpowered)</td><td>24 h</td><td>Stored in package</td><td>Startup OK; no cracking</td></tr>
+    <tr><td>5</td><td>Damp heat (steady state)</td><td>40°C, 93%RH</td><td>96 h</td><td>Powered intermittently</td><td>Insulation resistance meets limit</td></tr>
+    <tr><td>6</td><td>Ingress protection check</td><td>IP54 dust + water splash</td><td>Per method</td><td>Powered</td><td>No ingress causing malfunction</td></tr>
+    <tr><td>7</td><td>Salt mist (corrosion)</td><td>5% NaCl fog</td><td>48 h</td><td>Unpowered</td><td>No severe corrosion; labels legible</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Bitstream in Financial Markets  FIX Message Conformance Checklist (Unrelated Domain)</caption>
+  <tr><th>FIX Tag</th><th>Field Name</th><th>Required</th><th>Allowed Values</th><th>Length Limit</th><th>Validation Rule</th></tr>
+  <tr><td>35</td><td>MsgType</td><td>Yes</td><td>D, 8, F</td><td>1</td><td>Must match session-level expectations</td></tr>
+  <tr><td>49</td><td>SenderCompID</td><td>Yes</td><td>Alphanumeric</td><td>20</td><td>Must be registered in counterparty profile</td></tr>
+  <tr><td>56</td><td>TargetCompID</td><td>Yes</td><td>Alphanumeric</td><td>20</td><td>Must equal configured venue ID</td></tr>
+  <tr><td>34</td><td>MsgSeqNum</td><td>Yes</td><td>Positive integer</td><td>10</td><td>Monotonic increase per session</td></tr>
+  <tr><td>52</td><td>SendingTime</td><td>Yes</td><td>UTC timestamp</td><td>21</td><td>Must be within clock skew tolerance</td></tr>
+  <tr><td>10</td><td>CheckSum</td><td>Yes</td><td>000–255</td><td>3</td><td>Modulo-256 of message bytes</td></tr>
+</table>

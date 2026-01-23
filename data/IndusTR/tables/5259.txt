@@ -1,0 +1,12 @@
+<table>
+  <caption>Sensor Type Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumeration Value</td><td>Description</td></tr>
+  <tr><td rowspan="8">vrSensorType</td><td>VR_SENSOR_TYPE_IMU_ACC=0x00</td><td>Accelerometer</td></tr>
+  <tr><td>VR_SENSOR_TYPE_IMU_GYRO=0x01</td><td>Gyroscope</td></tr>
+  <tr><td>VR_SENSOR_TYPE_MAGNETIC=0x02</td><td>Magnetometer</td></tr>
+  <tr><td>VR_SENSOR_TYPE_GPS=0x03</td><td>GPS</td></tr>
+  <tr><td>VR_SENSOR_TYPE_AIR_PRESSURE=0x04</td><td>Barometer</td></tr>
+  <tr><td>VR_SENSOR_TYPE_BATTERY=0x05</td><td>Battery level sensor</td></tr>
+  <tr><td>VR_SENSOR_TYPE_ACOUSTIC=0x06</td><td>Acoustic sensor</td></tr>
+  <tr><td>Ox07~0xFF</td><td>Reserved</td></tr>
+</table>

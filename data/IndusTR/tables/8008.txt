@@ -1,0 +1,20 @@
+<table>
+  <caption>Operation Message and Parameter Definitions for Invocation (Common Service Description Model)</caption>
+  <thead>
+    <tr><th>Operation</th><th>Message</th><th>Parameter Name</th><th>Location</th><th>Type / Format</th><th>Required</th><th>Max Occurs</th><th>Value Domain</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">verifyCitizenIdentity</td><td rowspan="3">VerifyIdentityRequest</td><td>citizenId</td><td>body</td><td>string (C18)</td><td>M</td><td>1</td><td>GB 32100 compliant</td><td>Citizen identifier used for verification</td></tr>
+    <tr><td>fullName</td><td>body</td><td>string (C..128)</td><td>M</td><td>1</td><td>-</td><td>Legal name to be matched</td></tr>
+    <tr><td>consentToken</td><td>header</td><td>string (C..256)</td><td>0</td><td>1</td><td>-</td><td>User consent proof token when required by policy</td></tr>
+    <tr><td>VerifyIdentityResponse</td><td>verificationResult</td><td>body</td><td>enum</td><td>M</td><td>1</td><td>PASS|FAIL|PENDING</td><td>Final or interim outcome of verification</td></tr>
+    <tr><td rowspan="4">getVerificationStatus</td><td>StatusQueryRequest</td><td>requestId</td><td>path</td><td>string (UUID)</td><td>M</td><td>1</td><td>-</td><td>Identifier returned by verifyCitizenIdentity</td></tr>
+    <tr><td rowspan="3">StatusQueryResponse</td><td>status</td><td>body</td><td>enum</td><td>M</td><td>1</td><td>RECEIVED|PROCESSING|DONE|REVOKED</td><td>Processing status of the verification</td></tr>
+    <tr><td>lastUpdatedTime</td><td>body</td><td>string (date-time)</td><td>M</td><td>1</td><td>ISO 8601</td><td>Timestamp of the latest status update</td></tr>
+    <tr><td>reasonCode</td><td>body</td><td>string (C..64)</td><td>0</td><td>1</td><td>-</td><td>Optional reason when status is REVOKED or DONE with failure</td></tr>
+    <tr><td rowspan="4">createDeliveryOrder</td><td rowspan="3">CreateOrderRequest</td><td>orderIdempotencyKey</td><td>header</td><td>string (C..64)</td><td>M</td><td>1</td><td>-</td><td>Client-generated key to prevent duplicate order creation</td></tr>
+    <tr><td>recipientAddress</td><td>body</td><td>string (C..256)</td><td>M</td><td>1</td><td>-</td><td>Delivery destination address</td></tr>
+    <tr><td>documentType</td><td>body</td><td>enum</td><td>M</td><td>1</td><td>ID_CARD|LICENSE|CERTIFICATE</td><td>Type of document to be delivered</td></tr>
+    <tr><td>CreateOrderResponse</td><td>trackingNumber</td><td>body</td><td>string (C..64)</td><td>M</td><td>1</td><td>-</td><td>Carrier tracking number for the created delivery order</td></tr>
+  </tbody>
+</table>

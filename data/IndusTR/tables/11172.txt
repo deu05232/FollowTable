@@ -1,0 +1,7 @@
+<table>
+  <caption>Addressing and identifier breakdown for negotiation messages</caption>
+  <tr><td>Identifier part</td><td>Bit range</td><td>Purpose</td><td>Fixed value in this message</td><td>How receiver interprets it</td></tr>
+  <tr><td>Priority</td><td>28..26</td><td>Arbitration priority</td><td>0b011</td><td>Used for bus arbitration only</td></tr>
+  <tr><td>PF</td><td>15..8</td><td>Message family selector</td><td>0x39</td><td>Routes the frame to a handler</td></tr>
+  <tr><td>Destination</td><td>7..0</td><td>Receiver address</td><td>0x56</td><td>Filters the frame at link layer</td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>CAN Bus Cable Electrical Parameters</caption>
+  <tr><td rowspan="2">Parameter name</td><td colspan="3">Parameter value</td></tr>
+  <tr><td>Minimum</td><td>Nominal</td><td>Maximum</td></tr>
+  <tr><td>Impedance/Ω</td><td>95</td><td>120</td><td>140</td></tr>
+  <tr><td>Resistance per unit length/(mΩ/m)</td><td></td><td>70</td><td></td></tr>
+  <tr><td>Specified line delayb/(ns/m)</td><td></td><td>5</td><td></td></tr>
+  <tr><td colspan="4">”For the differential voltage at the receiving node, the influence of the wire resistance between the transmitting node and it should be considered. bFor bus delay, the transceiver delay and cable transmission delay should be considered, i.e., PROP_SEG is greater than 2 times the bus delay.</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Light Estimation API Parameters (Single-Pointer Outputs, No Double Pointers)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArLightEstimate_update</td><td>session</td><td>ArSession *</td><td>in</td><td>Session used to access camera/light state.</td></tr>
+    <tr><td>ArLightEstimate_update</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame providing image metadata for estimation.</td></tr>
+    <tr><td>ArLightEstimate_update</td><td>light_estimate</td><td>ArLightEstimate *</td><td>in/out</td><td>Caller-allocated light estimate object to be filled.</td></tr>
+    <tr><td>ArLightEstimate_getColorCorrection</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArLightEstimate_getColorCorrection</td><td>light_estimate</td><td>ArLightEstimate *</td><td>in</td><td>Light estimate to query.</td></tr>
+    <tr><td>ArLightEstimate_getColorCorrection</td><td>out_rgba</td><td>float *</td><td>out</td><td>Receives 4 floats of color correction (RGBA).</td></tr>
+    <tr><td>ArLightEstimate_getMainLightDirection</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArLightEstimate_getMainLightDirection</td><td>light_estimate</td><td>ArLightEstimate *</td><td>in</td><td>Light estimate to query.</td></tr>
+    <tr><td>ArLightEstimate_getMainLightDirection</td><td>out_direction</td><td>float *</td><td>out</td><td>Receives 3 floats for the directional light vector.</td></tr>
+  </tbody>
+</table>

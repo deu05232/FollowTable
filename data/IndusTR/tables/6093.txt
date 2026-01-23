@@ -1,0 +1,16 @@
+<table>
+  <caption>Basic Math Operator Interface (Add) - Mixed Shared Metadata and Operand Tensors</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Kind</th><th>Optional/Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Supported Data Types</td><td>Environment</td><td>Optional</td><td>int8/int16/int32/int64, uint8/uint16, fp16/fp32, complex64; default fp32</td></tr>
+    <tr><td>Target Device Type</td><td>Environment</td><td>Optional</td><td>CPU, GPU, NPU; default CPU</td></tr>
+    <tr><td>Tensor Layout</td><td>Metadata</td><td>Optional</td><td>NCHW, NHWC, ND; if omitted, backend default layout is used</td></tr>
+    <tr><td>Broadcasting Rule</td><td>Metadata</td><td>Optional</td><td>NumPy-style broadcasting; mismatched dimensions must be 1 or equal</td></tr>
+    <tr><td>Input Tensor A</td><td>Operand</td><td>Required</td><td>First addend tensor; shape must be broadcast-compatible with Input Tensor B</td></tr>
+    <tr><td>Input Tensor B</td><td>Operand</td><td>Required</td><td>Second addend tensor; shape must be broadcast-compatible with Input Tensor A</td></tr>
+    <tr><td>Output Tensor</td><td>Operand</td><td>Required</td><td>Result tensor; dtype follows type-promotion rules of the backend</td></tr>
+    <tr><td>Activation (Fused)</td><td>Operand</td><td>Optional</td><td>Optional fused activation applied to Output Tensor (e.g., RELU, TANH)</td></tr>
+  </tbody>
+</table>

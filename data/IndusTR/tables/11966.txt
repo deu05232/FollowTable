@@ -1,0 +1,15 @@
+<table>
+  <caption>Self-service Interface Management Test Matrix (SI/SP Administrator and Terminal Vendor Administrator)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Portal Role (Management Side)</th><th>Management Area</th><th>Management Action</th><th>Precondition</th><th>Verification Intent</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SSP-SISP-TM-01</td><td>SI/SP Administrator</td><td>Terminal Management</td><td>Query terminal inventory</td><td>At least 3 terminals exist under SI/SP scope</td><td>Validate that SI/SP admin can filter/search terminals by status and identifier</td><td>Search results match filter criteria and are limited to SI/SP scope</td></tr>
+    <tr><td>SSP-SISP-TM-02</td><td>SI/SP Administrator</td><td>Terminal Management</td><td>Assign terminal to customer</td><td>Terminal is unassigned; customer exists</td><td>Validate assignment workflow and ownership change visibility</td><td>Terminal shows correct customer association and permissions change accordingly</td></tr>
+    <tr><td>SSP-SISP-SRM-01</td><td>SI/SP Administrator</td><td>Subscription Relationship Management</td><td>Approve subscription request</td><td>Pending subscription request exists</td><td>Validate SI/SP approval operation for a customer subscription relationship</td><td>Status changes from pending to active; notification is issued</td></tr>
+    <tr><td>SSP-SISP-SRM-02</td><td>SI/SP Administrator</td><td>Subscription Relationship Management</td><td>Change subscription plan</td><td>Active subscription exists with upgrade options</td><td>Validate plan change and billing/effective-time rules at the portal layer</td><td>Plan is updated with correct effective date and reflected in subscription details</td></tr>
+    <tr><td>SSP-TV-TM-01</td><td>Terminal Vendor Administrator</td><td>Terminal Management</td><td>Publish terminal model</td><td>Vendor account is active; model data prepared</td><td>Validate vendor can publish a terminal model/specification for downstream selection</td><td>Model becomes available in catalog for allowed tenants</td></tr>
+    <tr><td>SSP-TV-TM-02</td><td>Terminal Vendor Administrator</td><td>Terminal Management</td><td>Deprecate terminal model</td><td>Model exists and is published</td><td>Validate deprecation process and impact on new registrations</td><td>Model marked deprecated; new registrations are blocked or warned per policy</td></tr>
+    <tr><td>SSP-TV-TM-03</td><td>Terminal Vendor Administrator</td><td>Terminal Management</td><td>Upload firmware package</td><td>Firmware package passes format checks</td><td>Validate firmware package management through vendor self-service interface</td><td>Package is stored, versioned, and visible for eligible terminals/models</td></tr>
+  </tbody>
+</table>

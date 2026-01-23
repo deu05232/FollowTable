@@ -1,0 +1,15 @@
+<table>
+  <caption>J1939 CAN 29-bit Identifier / Frame Field Diagram (Reference)</caption>
+  <thead>
+    <tr><th>Field</th><th>Abbrev.</th><th>Bit Length</th><th>Bit Position (MSB..LSB)</th><th>Description</th><th>Typical Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Priority</td><td>P</td><td>3</td><td>28..26</td><td>Arbitration priority</td><td>0..7</td></tr>
+    <tr><td>Extended Data Page</td><td>EDP</td><td>1</td><td>25</td><td>Extended DP selector</td><td>0</td></tr>
+    <tr><td>Data Page</td><td>DP</td><td>1</td><td>24</td><td>DP selector</td><td>0/1</td></tr>
+    <tr><td>PDU Format</td><td>PF</td><td>8</td><td>23..16</td><td>Determines PDU1/PDU2</td><td>0..255</td></tr>
+    <tr><td>PDU Specific</td><td>PS</td><td>8</td><td>15..8</td><td>Destination address (PDU1) or Group extension (PDU2)</td><td>0..255</td></tr>
+    <tr><td>Source Address</td><td>SA</td><td>8</td><td>7..0</td><td>Node source address</td><td>0..253</td></tr>
+    <tr><td>Data Field</td><td>DATA</td><td>0..64</td><td>—</td><td>Payload bytes</td><td>0..8 bytes (CAN)</td></tr>
+  </tbody>
+</table>

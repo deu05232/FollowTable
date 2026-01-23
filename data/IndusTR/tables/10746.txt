@@ -1,0 +1,15 @@
+<table>
+  <caption>Disinfection Process Parameter Codes (Units and Measurements)</caption>
+  <thead>
+    <tr><th>Parameter Code</th><th>Parameter Name</th><th>Unit Code</th><th>Unit Name</th><th>Example Range</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PR-TEMP</td><td>Process temperature</td><td>CEL</td><td>Celsius</td><td>40–95</td><td>Thermal disinfection</td></tr>
+    <tr><td>PR-TIME</td><td>Hold time</td><td>MIN</td><td>Minute</td><td>1–30</td><td>Washer-disinfector</td></tr>
+    <tr><td>PR-PRES</td><td>Chamber pressure</td><td>KPA</td><td>Kilopascal</td><td>100–250</td><td>Steam sterilization</td></tr>
+    <tr><td>PR-CONC</td><td>Chemical concentration</td><td>PCT</td><td>Percent</td><td>0.1–5</td><td>Chemical disinfection</td></tr>
+    <tr><td>PR-DOSE</td><td>UV dose</td><td>MJCM2</td><td>mJ/cm²</td><td>10–200</td><td>UV disinfection</td></tr>
+    <tr><td>PR-FLOW</td><td>Gas flow rate</td><td>SLM</td><td>Standard L/min</td><td>0.5–10</td><td>ETO sterilization</td></tr>
+    <tr><td>PR-HUM</td><td>Relative humidity</td><td>RH</td><td>%RH</td><td>30–80</td><td>ETO conditioning</td></tr>
+  </tbody>
+</table>

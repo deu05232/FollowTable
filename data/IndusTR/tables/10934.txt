@@ -1,0 +1,10 @@
+<table>
+  <caption>Framework Adaptation APIs for Executable Model Session Lifecycle</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Create Execution Session</td><td>create_session</td><td>Required</td><td>Create a session bound to a hardware-executable model and allocate runtime resources</td></tr>
+  <tr><td>Load Executable Model</td><td>load_executable_model</td><td>Optional</td><td>Load a cached hardware-executable model artifact and bind it to the session</td></tr>
+  <tr><td>Bind Inputs</td><td>bind_inputs</td><td>Required</td><td>Bind framework tensors to the input descriptors expected by the executable model</td></tr>
+  <tr><td>Run Session</td><td>run_session</td><td>Required</td><td>Launch execution of the executable model within the session</td></tr>
+  <tr><td>Release Execution Session</td><td>destroy_session</td><td>Required</td><td>Release session resources and detach the executable model</td></tr>
+  <tr><td>Finalize Runtime</td><td>runtime_finalize</td><td>Optional</td><td>Finalize runtime context after all sessions are destroyed</td></tr>
+</table>

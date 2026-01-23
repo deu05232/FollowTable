@@ -1,0 +1,22 @@
+<table>
+  <caption>Administrative Management Data Dictionary — Enterprise Address, Contact & Compliance Elements</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item Name</th><th>Field Name</th><th>Data Type / Format</th><th>Value Domain</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Registered Address</td><td>Registered Province</td><td>RegProv</td><td>VARCHAR(50)</td><td>Administrative division name</td><td>Province of registered address</td></tr>
+    <tr><td>Registered City</td><td>RegCity</td><td>VARCHAR(50)</td><td>Administrative division name</td><td>City of registered address</td></tr>
+    <tr><td>Registered District/County</td><td>RegDist</td><td>VARCHAR(50)</td><td>Administrative division name</td><td>District/county of registered address</td></tr>
+    <tr><td>Registered Detailed Address</td><td>RegAddr</td><td>VARCHAR(200)</td><td></td><td>Street and number for registered address</td></tr>
+    <tr><td rowspan="3">Operational Information</td><td>Business Scope</td><td>BizScope</td><td>TEXT</td><td></td><td>Approved scope of business activities</td></tr>
+    <tr><td>Operating Address</td><td>OpAddr</td><td>VARCHAR(200)</td><td></td><td>Primary actual operating location</td></tr>
+    <tr><td>Registered Capital (Amount)</td><td>RegCapAmt</td><td>DECIMAL(18,2)</td><td>>= 0</td><td>Registered capital numeric value</td></tr>
+    <tr><td rowspan="4">Contacts</td><td>Telephone Number</td><td>TelNo</td><td>VARCHAR(30)</td><td></td><td>Administrative contact telephone</td></tr>
+    <tr><td>Email Address</td><td>Email</td><td>VARCHAR(100)</td><td>Valid email</td><td>Administrative contact email</td></tr>
+    <tr><td>Postal Code</td><td>PostCode</td><td>CHAR(6)</td><td>000000-999999</td><td>Postal code of registered address</td></tr>
+    <tr><td>Official Website</td><td>WebsiteURL</td><td>VARCHAR(200)</td><td>URL</td><td>Enterprise official website address</td></tr>
+    <tr><td rowspan="3">Compliance & Filing</td><td>Taxpayer Identification Number</td><td>TaxID</td><td>VARCHAR(30)</td><td></td><td>Tax registration/taxpayer identifier</td></tr>
+    <tr><td>Industry Classification Code</td><td>IndClassCode</td><td>VARCHAR(10)</td><td>Standard industry codes</td><td>Industry category code for reporting</td></tr>
+    <tr><td>Last Annual Report Year</td><td>LastARYear</td><td>CHAR(4)</td><td>YYYY</td><td>Most recent annual report filing year</td></tr>
+  </tbody>
+</table>

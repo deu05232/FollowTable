@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 User Signature Key Pair Protection Structure Field Definitions</caption>
+  <tr><td>Field Name</td><td>Data Length (bytes)</td><td>Meaning</td></tr>
+  <tr><td>version</td><td>4</td><td>Version number</td></tr>
+  <tr><td>ulSymmAlgID</td><td>4</td><td>Symmetric algorithm identifier, limited to ECB mode</td></tr>
+  <tr><td>bits</td><td>4</td><td>Key bit length of the user encryption key pair</td></tr>
+  <tr><td>encryptedPriKey</td><td>SM9ref_MAX_LEN * 2</td><td>Ciphertext encrypted by the symmetric algorithm; the plaintext being encrypted is: the remaining part of the SM9 SignUserPrivateKey structure after removing the length</td></tr>
+  <tr><td>signMasterPubKey</td><td>SM9 SignMastPublicKey类型</td><td>KGC's signature master public key</td></tr>
+  <tr><td>tmpMasterPubKey</td><td>SM9 EncMastPublicKey 类型</td><td>Master public key of the key encapsulation data that generates the symmetric key</td></tr>
+  <tr><td>userIDLen</td><td>4</td><td>User identifier length</td></tr>
+  <tr><td>userID</td><td>256</td><td>User identifier; actual effective length is use-rIDLen</td></tr>
+  <tr><td>keyLen</td><td>4</td><td>Number of bits of the symmetric key</td></tr>
+  <tr><td>keyPackage</td><td>SM9KeyPackage类型</td><td>Key encapsulation data of the symmetric key that encrypts the user's encryption private key</td></tr>
+</table>

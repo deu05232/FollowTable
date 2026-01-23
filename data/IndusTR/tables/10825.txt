@@ -1,0 +1,17 @@
+<table>
+  <caption>Template for Accounting CO2 Emissions from Purchased and Exported Heat (Steam/Hot Water) by Supply Type</caption>
+  <thead>
+    <tr><th>Transaction Type</th><th>Heat Supply Type</th><th>Heat Medium</th><th>Heat (GJ)</th><th>CO2 Emission Factor (tCO2/GJ)</th><th>Calculated Emissions (tCO2)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased</td><td>District heating network</td><td>Steam</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Purchased</td><td>Third-party boiler house</td><td>Hot water</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Purchased</td><td>Supplier-specific contract</td><td>Steam</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported</td><td>To external customer</td><td>Steam</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported</td><td>To neighboring facility</td><td>Hot water</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported</td><td>Other</td><td></td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="7">If multiple heat sources have different emission factors, list them in separate rows. Calculated Emissions (tCO2) = Heat (GJ) × CO2 Emission Factor (tCO2/GJ).</td></tr>
+  </tfoot>
+</table>

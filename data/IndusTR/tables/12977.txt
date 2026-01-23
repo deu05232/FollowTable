@@ -1,0 +1,17 @@
+<table>
+  <caption>Typical Energy Consumption (TEC) Test Workflow for Copiers and Multifunction Devices</caption>
+  <thead>
+    <tr><th>Step</th><th>Initial device state</th><th>Operator action (what to do)</th><th>What to record (as the step proceeds)</th><th>Recorded reading / output name</th><th>Unit</th><th>Acceptance / stability check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Off (plugged in)</td><td>Connect device to a watt-hour meter. Reset meter to zero and start the test log (date, model, serial).</td><td>Start time; meter reset confirmed</td><td>Log start timestamp</td><td>hh:mm</td><td>Meter shows 0.000 kWh (or equivalent) after reset</td></tr>
+    <tr><td>2</td><td>Off</td><td>Measure OFF mode for a fixed interval (do not press any keys). Keep the device undisturbed.</td><td>End time; cumulative energy at end of interval</td><td>E_OFF (cumulative energy)</td><td>Wh</td><td>Power reading stable (e.g., change < 5% over last 1 min)</td></tr>
+    <tr><td>3</td><td>Off</td><td>Turn the main power ON. Wait until the device indicates Ready.</td><td>Time to Ready</td><td>t_READY</td><td>min</td><td>Ready indicator shown (or stable Ready power plateau)</td></tr>
+    <tr><td>4</td><td>Ready</td><td>Measure READY mode for a defined interval with no jobs running.</td><td>Interval duration; cumulative energy at end of interval</td><td>E_READY (cumulative energy)</td><td>Wh</td><td>Power stable for last minute of interval</td></tr>
+    <tr><td>5</td><td>Ready</td><td>Initiate the default transition to Sleep (do not change factory sleep delay). Do not interact with the device.</td><td>Time when Sleep is entered</td><td>t_SLEEP_ENTRY</td><td>hh:mm</td><td>Sleep indicator or steady lower-power plateau reached</td></tr>
+    <tr><td>6</td><td>Sleep</td><td>Measure SLEEP mode for a defined interval.</td><td>Interval duration; cumulative energy at end of interval</td><td>E_SLEEP (cumulative energy)</td><td>Wh</td><td>Power stable (e.g., within ±0.5 W for 1 min)</td></tr>
+    <tr><td>7</td><td>Sleep</td><td>Wake the device using a standard method (press Start, open/close cover, or send a print job—choose one and use it consistently).</td><td>Wake method used; time to Ready after wake</td><td>t_WAKE_TO_READY</td><td>min</td><td>Device returns to Ready indicator</td></tr>
+    <tr><td>8</td><td>Ready</td><td>Run a standardized job (e.g., 10 simplex pages) to represent active operation; then stop interaction.</td><td>Job description; pages completed; energy at end of job</td><td>E_ACTIVE_JOB (incremental energy)</td><td>Wh</td><td>Job completes without error</td></tr>
+    <tr><td>9</td><td>Post-job / idle</td><td>Allow device to return to Sleep by default settings.</td><td>Delay time from job completion to Sleep</td><td>t_IDLE_TO_SLEEP</td><td>min</td><td>Sleep entry observed and recorded</td></tr>
+  </tbody>
+</table>

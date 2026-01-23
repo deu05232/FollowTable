@@ -1,0 +1,10 @@
+<table>
+  <caption>Energy Efficiency Grade Schedule for Building Power Supply Systems (HVAC & Lighting)</caption>
+  <tr><th>System</th><th>Grade</th><th>Metric Name</th><th>Threshold</th><th>Unit</th><th>Assessment Period</th><th>Notes</th></tr>
+  <tr><td>Office HVAC</td><td>Grade 1</td><td>Seasonal Energy Efficiency Ratio (SEER)</td><td>≥ 6.0</td><td>-</td><td>Annual</td><td>Climate zone adjusted</td></tr>
+  <tr><td>Office HVAC</td><td>Grade 2</td><td>SEER</td><td>5.2–5.9</td><td>-</td><td>Annual</td><td>Minimum compliance</td></tr>
+  <tr><td>Lighting</td><td>Grade 1</td><td>Lighting Power Density (LPD)</td><td>≤ 7.5</td><td>W/m²</td><td>Monthly</td><td>Task lighting excluded</td></tr>
+  <tr><td>Lighting</td><td>Grade 2</td><td>LPD</td><td>7.6–9.0</td><td>W/m²</td><td>Monthly</td><td>Includes ballast losses</td></tr>
+  <tr><td>Data Center</td><td>Grade 1</td><td>PUE</td><td>≤ 1.30</td><td>-</td><td>Quarterly</td><td>Measured at UPS output</td></tr>
+  <tr><td>Data Center</td><td>Grade 2</td><td>PUE</td><td>1.31–1.50</td><td>-</td><td>Quarterly</td><td>IT load normalized</td></tr>
+</table>

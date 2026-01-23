@@ -1,0 +1,16 @@
+<table>
+  <caption>Electric Compressor Technical Limits by Voltage Class (No Speed Split)</caption>
+  <thead>
+    <tr><th rowspan="2">Requirement item</th><th colspan="3">Rated voltage class (VDC)</th></tr>
+    <tr><th>≤ 60</th><th>> 60 ~ 125</th><th>> 125 ~ 250</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Insulation resistance (MΩ) @ 500 VDC</td><td>≥ 20</td><td>≥ 50</td><td>≥ 100</td></tr>
+    <tr><td>Dielectric withstand (V, 60 s)</td><td>700</td><td>1400</td><td>2200</td></tr>
+    <tr><td>Leakage current limit (mA)</td><td>≤ 1.0</td><td>≤ 2.0</td><td>≤ 2.0</td></tr>
+    <tr><td>Over-voltage survival (V, 1 s)</td><td>900</td><td>1600</td><td>2500</td></tr>
+    <tr><td>Control supply tolerance (V)</td><td>9 ~ 16</td><td>18 ~ 32</td><td>180 ~ 260</td></tr>
+    <tr><td>EMC conducted emission limit (dBµV)</td><td>≤ 55</td><td>≤ 55</td><td>≤ 55</td></tr>
+    <tr><td>Thermal cut-off (housing, °C)</td><td>115</td><td>115</td><td>120</td></tr>
+  </tbody>
+</table>

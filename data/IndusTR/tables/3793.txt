@@ -1,0 +1,7 @@
+<table>
+  <caption>Cloud Anchor Identifier Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>anchor</td><td>ArAnchor *</td><td>Anchor pointer</td></tr>
+  <tr><td>out_cloud_anchor_id</td><td>char **</td><td>Pointer to the pointer to the cloud anchor ID of the anchor, used to receive the storage address of the cloud anchor ID</td></tr>
+</table>

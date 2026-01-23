@@ -1,0 +1,10 @@
+<table>
+  <caption>Parameters of the “adaptive smoothing method” defined by Eqs. \refkl zgen– \refkl vDecide, their interpretation, and their typical values.</caption>
+  <tr><th>Parameter</th><th>Typical Value</th><th>Meaning</th></tr>
+  <tr><td>σ</td><td>0.6 km</td><td>Range of spatial smoothing in x</td></tr>
+  <tr><td>τ</td><td>1.1 min</td><td>Range of temporal smoothing in t</td></tr>
+  <tr><td>c</td><td>80 km/h</td><td>Propagation velocity of perturbations in free traffic</td></tr>
+  <tr><td>c</td><td>-15 km/h</td><td>Propagation velocity of perturbations in congested traffic</td></tr>
+  <tr><td>V_(c)</td><td>60 km/h</td><td>Crossover from free to congested traffic</td></tr>
+  <tr><td>Δ V</td><td>20 km/h</td><td>Width of the transition region</td></tr>
+</table>

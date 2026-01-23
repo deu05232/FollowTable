@@ -1,0 +1,14 @@
+<table>
+  <caption>Satellite Visible-Light Product Catalog — File Naming Convention and Dataset Index</caption>
+  <thead>
+    <tr><th>Dataset ID</th><th>Product Name</th><th>File Name Pattern</th><th>Temporal Resolution</th><th>Spatial Resolution</th><th>Format</th><th>Availability</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GEO-VIS-L1B</td><td>Visible Radiance (L1B)</td><td>{sat}_{sensor}_VIS_L1B_{YYYYMMDDHHMM}.nc</td><td>10 min</td><td>1 km</td><td>NetCDF</td><td>2018–present</td></tr>
+    <tr><td>GEO-VIS-GEO</td><td>Georeferenced VIS (L2)</td><td>{sat}_VIS_L2G_{orbit}_{time}.h5</td><td>10 min</td><td>1 km</td><td>HDF5</td><td>2019–present</td></tr>
+    <tr><td>TC-TRACK</td><td>Tropical Cyclone Track</td><td>TC_TRACK_{basin}_{YYYY}.csv</td><td>6 h</td><td>N/A</td><td>CSV</td><td>1980–present</td></tr>
+    <tr><td>TC-INT</td><td>Intensity Best Track</td><td>TC_INTENSITY_{basin}_{YYYY}.csv</td><td>6 h</td><td>N/A</td><td>CSV</td><td>1980–present</td></tr>
+    <tr><td>QC-FLAG</td><td>Quality Flags</td><td>QC_{product}_{YYYYMM}.json</td><td>Monthly</td><td>N/A</td><td>JSON</td><td>2020–present</td></tr>
+    <tr><td>QUICKLOOK</td><td>PNG Quicklook</td><td>QL_VIS_{YYYYMMDDHHMM}.png</td><td>10 min</td><td>2 km</td><td>PNG</td><td>2018–present</td></tr>
+  </tbody>
+</table>

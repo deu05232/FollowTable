@@ -1,0 +1,10 @@
+<table>
+  <caption>Forbidden MVS (variation selector) patterns in Traditional Mongolian (invalid sequences)</caption>
+  <tr><th>Display Form (schematic)</th><th>Invalid Character Sequence</th><th>Error Pattern</th></tr>
+  <tr><td>…</td><td>[MVS][MVS][U+1820]</td><td>Multiple MVS in a row before a single base letter</td></tr>
+  <tr><td>…</td><td>[U+1820][MVS]</td><td>Dangling MVS at end of cluster</td></tr>
+  <tr><td>…</td><td>[U+1820][MVS][U+1821]</td><td>MVS applied across two base letters</td></tr>
+  <tr><td>…</td><td>[MVS][U+180E][U+1820]</td><td>MVS cannot be separated from base by format control</td></tr>
+  <tr><td>…</td><td>[U+182D][MVS][NIRUGU]</td><td>Selector used with an incompatible control character sequence</td></tr>
+  <tr><td>…</td><td>[U+1834][MVS][MVS][U+1820]</td><td>Repeated selector inside one syllable cluster</td></tr>
+</table>

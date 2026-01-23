@@ -1,0 +1,15 @@
+<table>
+  <caption>NavIC (IRNSS) Phase Bias: Signal-Level Indicator Fields for Decoding</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>Data Field Number</th><th>Type</th><th>Bits</th><th>Decoder Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Signal / tracking-mode</td><td>NavIC Signal and Its Tracking Mode</td><td>DF6B0</td><td>uint5</td><td>5</td><td>Selects signal ID + tracking mode</td></tr>
+    <tr><td>Signal Tracking Attribute</td><td>DF6B1</td><td>uint2</td><td>2</td><td>Optional refinement for per-signal processing</td></tr>
+    <tr><td>Signal Tracking Attribute Extension</td><td>DF6B2</td><td>bit(1)</td><td>1</td><td>Reserved/extension bit</td></tr>
+    <tr><td rowspan="2">Integer indicators</td><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>Integer ambiguity flag per signal</td></tr>
+    <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>Wide-lane integer classification per signal</td></tr>
+    <tr><td rowspan="2">Implementation aids</td><td>Per-Signal Block Length Hint</td><td>DF6B3</td><td>uint3</td><td>3</td><td>Helps validate repeated block parsing</td></tr>
+    <tr><td>Per-Signal Block Spare</td><td>DF6B4</td><td>bit(1)</td><td>1</td><td>Spare bit (set to 0)</td></tr>
+  </tbody>
+</table>

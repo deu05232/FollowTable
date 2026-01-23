@@ -1,0 +1,25 @@
+<table>
+  <caption>Transport-Layer Multi-Frame Transfer PDU Layout (RTS/CTS + Data Segments)</caption>
+  <thead>
+    <tr><th>Message Type</th><th>Header (byte/bit-level)</th><th>Byte Offset</th><th>Size</th><th>Field Name</th><th>Value / Encoding</th><th>Meaning</th><th>Payload / Data-Area Layout (how to parse)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">RTS (Request To Send)</td><td>Transport control</td><td>0</td><td>1 byte</td><td>Control</td><td>0x10 (example)</td><td>Start of multi-frame transfer; announces upcoming segmented payload</td><td rowspan="6">Data area carries segmentation metadata (not application parameters):Byte 0: Control (RTS)Bytes 1–2: TotalMessageSize (LSB first)Byte 3: TotalPacketsByte 4: MaxPacketsPerCTS (window)Bytes 5–7: Reserved (0xFF)</td></tr>
+    <tr><td>Total length</td><td>1</td><td>2 bytes</td><td>TotalMessageSize</td><td>uint16, little-endian</td><td>Total bytes of the reassembled message</td><td></td></tr>
+    <tr><td>Packet count</td><td>3</td><td>1 byte</td><td>TotalPackets</td><td>1..255</td><td>Number of data segments that will follow</td><td></td></tr>
+    <tr><td>Flow control</td><td>4</td><td>1 byte</td><td>MaxPacketsPerCTS</td><td>0..255</td><td>Receiver-advertised transmit window</td><td></td></tr>
+    <tr><td>Reserved</td><td>5</td><td>3 bytes</td><td>Reserved</td><td>0xFF 0xFF 0xFF</td><td>Padding / future use</td><td></td></tr>
+    <tr><td>Framing rule</td><td>—</td><td>—</td><td>—</td><td>Segmentation basis</td><td>7-byte payload per data segment</td><td>Each subsequent data PDU carries a sequence number + up to 7 data bytes</td><td></td></tr>
+    <tr><td rowspan="5">CTS (Clear To Send)</td><td>Transport control</td><td>0</td><td>1 byte</td><td>Control</td><td>0x11 (example)</td><td>Receiver grants permission to send next window of packets</td><td rowspan="5">Data area encodes acknowledgement/windowing:Byte 0: Control (CTS)Byte 1: PacketsAllowed (window size)Byte 2: NextPacketNumber (1-based)Bytes 3–7: Reserved (0xFF)</td></tr>
+    <tr><td>Window size</td><td>1</td><td>1 byte</td><td>PacketsAllowed</td><td>0..255</td><td>How many packets sender may transmit before waiting again</td><td></td></tr>
+    <tr><td>Sequence cursor</td><td>2</td><td>1 byte</td><td>NextPacketNumber</td><td>1..TotalPackets</td><td>First packet number the receiver expects next</td><td></td></tr>
+    <tr><td>Reserved</td><td>3</td><td>5 bytes</td><td>Reserved</td><td>0xFF…</td><td>Padding / future use</td><td></td></tr>
+    <tr><td>Framing rule</td><td>—</td><td>—</td><td>—</td><td>Windowing</td><td>Repeat CTS as needed</td><td>CTS can be sent multiple times to advance the permitted range</td><td></td></tr>
+    <tr><td rowspan="6">DATA (Segmented Data Packet)</td><td>Transport control</td><td>0</td><td>1 byte</td><td>Control</td><td>0x12 (example)</td><td>Conveys one segment of the multi-frame payload</td><td rowspan="6">Data area contains both framing and user bytes:Byte 0: Control (DATA)Byte 1: PacketNumber (1..TotalPackets)Bytes 2–8: SegmentData (0..7 bytes meaningful; last packet may be shorter)Padding: if fewer than 7 bytes, unused bytes set to 0xFF (or 0x00 by profile)</td></tr>
+    <tr><td>Sequence number</td><td>1</td><td>1 byte</td><td>PacketNumber</td><td>1..255</td><td>Segment index; used to reassemble in order</td><td></td></tr>
+    <tr><td>Segment bytes</td><td>2</td><td>7 bytes</td><td>SegmentData[0..6]</td><td>Opaque bytes</td><td>Chunk of the overall message; not interpreted at transport layer</td><td></td></tr>
+    <tr><td>Last-frame sizing</td><td>—</td><td>—</td><td>—</td><td>EffectiveDataLen</td><td>Derived</td><td>For last packet: EffectiveDataLen = TotalMessageSize − 7×(TotalPackets−1)</td><td></td></tr>
+    <tr><td>Reassembly rule</td><td>—</td><td>—</td><td>—</td><td>Concatenation</td><td>Packet 1 first</td><td>Receiver concatenates SegmentData in PacketNumber order until TotalMessageSize bytes reached</td><td></td></tr>
+    <tr><td>Error handling hint</td><td>—</td><td>—</td><td>—</td><td>Missing packet</td><td>Use NACK/BAM error PDU</td><td>If a packet number is missing, receiver requests retransmit via transport control message</td><td></td></tr>
+  </tbody>
+</table>

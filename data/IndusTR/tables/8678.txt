@@ -1,0 +1,16 @@
+<table>
+  <caption>Application Message Transmission Schedule (PGI 0x0A–0x11)</caption>
+  <thead>
+    <tr><th>Parameter Group Identifier</th><th>Message Name</th><th>Information Type</th><th>Cycle Time</th><th>Total Transmission Time (ms)</th><th>Source Address</th><th>Destination Address</th><th>Trigger Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0A</td><td>Battery precharge status</td><td>Short message (no acknowledgment)</td><td>1000</td><td>—</td><td>Vehicle</td><td>Charger</td><td>Periodic; on change send 3 frames at 50 ms</td></tr>
+    <tr><td>0x0B</td><td>Charger readiness</td><td>Short message (no acknowledgment)</td><td>500</td><td>—</td><td>Charger</td><td>Vehicle</td><td>Periodic</td></tr>
+    <tr><td>0x0C</td><td>Insulation monitoring result</td><td>Short message (ack required)</td><td>—</td><td>1000</td><td>Vehicle</td><td>Charger</td><td>Event-driven</td></tr>
+    <tr><td>0x0D</td><td>Charging permission</td><td>Short message (ack required)</td><td>—</td><td>1000</td><td>Charger</td><td>Vehicle</td><td>Event-driven</td></tr>
+    <tr><td>0x0E</td><td>Fault summary</td><td>Short message (no acknowledgment)</td><td>200</td><td>—</td><td>Vehicle</td><td>Charger</td><td>Periodic; on fault change send immediately</td></tr>
+    <tr><td>0x0F</td><td>Heartbeat</td><td>Short message (no acknowledgment)</td><td>100</td><td>—</td><td>Charger</td><td>Vehicle</td><td>Periodic while session active</td></tr>
+    <tr><td>0x10</td><td>Session keep-alive</td><td>Short message (no acknowledgment)</td><td>250</td><td>—</td><td>Vehicle</td><td>Charger</td><td>Periodic while session active</td></tr>
+    <tr><td>0x11</td><td>Stop request</td><td>Short message (ack required)</td><td>—</td><td>1000</td><td>Vehicle</td><td>Charger</td><td>User action / safety event</td></tr>
+  </tbody>
+</table>

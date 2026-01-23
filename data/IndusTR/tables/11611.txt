@@ -1,0 +1,15 @@
+<table>
+  <caption>Acquisition Time Window / Aggregation Period Codes for Satellite Collections</caption>
+  <thead>
+    <tr><th>Level</th><th>Time-period Label</th><th>Code</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Orbit-based</td><td>Swath / Orbit granule</td><td>ORBIT</td><td>Single pass segment along the satellite track</td></tr>
+    <tr><td>Sub-daily</td><td>15-minute composite</td><td>M15</td><td>Aggregated within 15-minute window</td></tr>
+    <tr><td>Sub-daily</td><td>Hourly</td><td>HOURLY</td><td>Aggregated by hour (e.g., 00–01 UTC)</td></tr>
+    <tr><td>Daily</td><td>Daily</td><td>DAILY</td><td>Aggregated by day (00–24 UTC)</td></tr>
+    <tr><td>Monthly</td><td>Monthly</td><td>MONTHLY</td><td>Aggregated by calendar month</td></tr>
+    <tr><td>Annual</td><td>Yearly</td><td>YEARLY</td><td>Aggregated by calendar year</td></tr>
+    <tr><td>Climatology</td><td>Multi-year climatology</td><td>CLIM</td><td>Average over a fixed multi-year baseline</td></tr>
+  </tbody>
+</table>

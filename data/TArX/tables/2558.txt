@@ -1,0 +1,11 @@
+<table>
+  <caption>Performance of CPU and GPU codes.</caption>
+  <tr><th>N_()</th><th>t_()</th><th>t_()</th><th>speed up</th><th>GPU performance</th></tr>
+  <tr><th></th><th>(sec)</th><th>(sec)</th><th>( {t_()}/{t_()} )</th><th>(GFLOPS)</th></tr>
+  <tr><th>256^(2)</th><td>5.15</td><td>0.040</td><td>128.75</td><td>57.0</td></tr>
+  <tr><th>512^(2)</th><td>34.94</td><td>0.186</td><td>187.85</td><td>98.1</td></tr>
+  <tr><th>1024^(2)</th><td>294.41</td><td>1.167</td><td>252.28</td><td>125.1</td></tr>
+  <tr><th>2048^(2)</th><td>2122.80</td><td>8.372</td><td>253.56</td><td>139.5</td></tr>
+  <tr><th>4096^(2)</th><td>15751.17</td><td>67.617</td><td>232.95</td><td>138.2</td></tr>
+  <tr><th>8192^(2)</th><td>120617.48</td><td>681.082</td><td>177.11</td><td>109.8</td></tr>
+</table>

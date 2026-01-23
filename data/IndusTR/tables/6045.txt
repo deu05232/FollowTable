@@ -1,0 +1,8 @@
+<table>
+  <caption>Frame normalized screen point parameters (inputs only, no out pointer)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>normalized_x</td><td>float</td><td>Normalized X position in the view (0..1)</td></tr>
+  <tr><td>normalized_y</td><td>float</td><td>Normalized Y position in the view (0..1)</td></tr>
+</table>

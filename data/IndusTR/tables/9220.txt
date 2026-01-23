@@ -1,0 +1,16 @@
+<table>
+  <caption>In-Process and Final Inspection Checklist for Rolling Bearings (Acceptance Limits per Characteristic)</caption>
+  <thead>
+    <tr><th>Process Step</th><th>Inspection Target (Characteristic)</th><th>Control Plan / Frequency</th><th>Acceptance Basis (Tolerance / Count / Rule)</th><th>Record / Evidence</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Grinding (rings)</td><td>Inner ring bore size (d) after grind</td><td>5 pcs every 2 hours</td><td>Within drawing tolerance; any out-of-tolerance reading = Stop & segregate batch</td><td>SPC chart + gauge log</td></tr>
+    <tr><td>Grinding (rings)</td><td>Outer ring outside diameter (D) after grind</td><td>5 pcs every 2 hours</td><td>Within drawing tolerance; 1 nonconforming piece triggers 100% recheck of last interval</td><td>SPC chart + recheck report</td></tr>
+    <tr><td>Superfinishing</td><td>Raceway surface roughness (Ra)</td><td>3 pcs per lot</td><td>Ra ≤ 0.05 µm; if any sample > 0.05 µm = Reject lot</td><td>Roughness tester printout</td></tr>
+    <tr><td>Assembly</td><td>Radial internal clearance (mounted)</td><td>8 pcs per lot</td><td>Measured clearance within specified class window; any value outside window = Reject lot</td><td>Clearance gauge sheet</td></tr>
+    <tr><td>Assembly</td><td>Cage rivet/fastener integrity (cage damage, loose rivet)</td><td>20 pcs per lot</td><td>Ac=0, Re=1 for loose/damaged cage (any found = Reject lot)</td><td>Visual inspection checklist</td></tr>
+    <tr><td>Cleaning</td><td>Residual contamination after wash</td><td>5 pcs per lot</td><td>Particle count ≤ 200 particles >25 µm per bearing; if exceeded in any sample = Reclean & resample</td><td>Contamination test report</td></tr>
+    <tr><td>Final</td><td>Noise / vibration level</td><td>13 pcs per lot</td><td>Overall vibration ≤ 1.8 mm/s (RMS) at test condition; any exceedance = Reject lot</td><td>NV test record</td></tr>
+    <tr><td>Final</td><td>Marking/traceability (laser mark legibility and correctness)</td><td>100% pieces</td><td>All required fields present and legible; any incorrect/missing mark = Reject piece</td><td>Marking audit log</td></tr>
+  </tbody>
+</table>

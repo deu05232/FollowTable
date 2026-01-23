@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Trackable Filtering Calls (Parameters Only, No Output Details)</caption>
+  <thead>
+    <tr><th>API</th><th>session</th><th>trackable_list</th><th>filter_type</th><th>filter_state</th><th>trackable</th><th>notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_getAllTrackables</td><td>ArSession*</td><td>ArTrackableList*</td><td>-</td><td>-</td><td>-</td><td>Caller must supply an existing list handle; table does not describe any filled outputs.</td></tr>
+    <tr><td>ArSession_getTrackablesByType</td><td>ArSession*</td><td>ArTrackableList*</td><td>ArTrackableType</td><td>-</td><td>-</td><td>Filters by category; treated as passing parameters only in this table.</td></tr>
+    <tr><td>ArSession_getTrackablesByState</td><td>ArSession*</td><td>ArTrackableList*</td><td>-</td><td>ArTrackingState</td><td>-</td><td>State filter parameter; no output pointer column is provided.</td></tr>
+    <tr><td>ArTrackableList_getAt</td><td>-</td><td>ArTrackableList*</td><td>-</td><td>-</td><td>ArTrackable*</td><td>Represents retrieving a handle; the table omits any out-parameter semantics.</td></tr>
+    <tr><td>ArTrackable_isPoseValid</td><td>ArSession*</td><td>-</td><td>-</td><td>-</td><td>ArTrackable*</td><td>Accepts a trackable; this table intentionally does not include an out_valid pointer.</td></tr>
+    <tr><td>ArTrackable_getTimestamp</td><td>ArSession*</td><td>-</td><td>-</td><td>-</td><td>ArTrackable*</td><td>Timestamp retrieval is mentioned but the return/out parameter is not shown.</td></tr>
+    <tr><td>ArTrackableList_clear</td><td>-</td><td>ArTrackableList*</td><td>-</td><td>-</td><td>-</td><td>Clears an existing list; no output values are produced.</td></tr>
+  </tbody>
+</table>

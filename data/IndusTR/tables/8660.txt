@@ -1,0 +1,15 @@
+<table>
+  <caption>Per-Frame Result Objects and How They Are Filled by AR Frame Calls</caption>
+  <thead>
+    <tr><th>Returned / Filled Output</th><th>Output Type</th><th>Provided By (Frame API)</th><th>What the Frame Produces</th><th>Common Follow-up Queries</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>out_anchor_list</td><td>ArAnchorList*</td><td>ArFrame_getUpdatedAnchors</td><td>Anchors updated during this frame are written into the list.</td><td>Iterate list; read tracking state per anchor; resolve pose.</td></tr>
+    <tr><td>out_light_estimate</td><td>ArLightEstimate*</td><td>ArFrame_getLightEstimate</td><td>Lighting estimate for the current frame (intensity / environmental data).</td><td>Query validity; retrieve pixel intensity and color correction.</td></tr>
+    <tr><td>out_texture_id</td><td>uint32_t*</td><td>ArFrame_getCameraTextureName</td><td>GL texture name populated for camera stream rendering.</td><td>Bind texture; confirm external texture target and update semantics.</td></tr>
+    <tr><td>out_image</td><td>ArImage**</td><td>ArFrame_acquireCameraImage</td><td>CPU-accessible camera image handle for the frame (when available).</td><td>Get format/planes; lock/iterate pixels; release image after use.</td></tr>
+    <tr><td>out_depth_image</td><td>ArImage**</td><td>ArFrame_acquireDepthImage</td><td>Depth image handle generated for this frame (if depth is supported).</td><td>Read depth format; convert to meters; release image after use.</td></tr>
+    <tr><td>out_point_cloud</td><td>ArPointCloud**</td><td>ArFrame_acquirePointCloud</td><td>Point cloud handle representing feature points seen this frame.</td><td>Get points/confidence; release point cloud; compare timestamps.</td></tr>
+    <tr><td>out_camera</td><td>ArCamera**</td><td>ArFrame_acquireCamera</td><td>Camera object for querying view/projection and tracking for this frame.</td><td>Get tracking state; retrieve pose; get intrinsics/projection matrices.</td></tr>
+  </tbody>
+</table>

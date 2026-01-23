@@ -1,0 +1,14 @@
+<table>
+  <caption>Definition of the initial conditions used in the simulations in this work.</caption>
+  <tr><td>Simulation</td><td>Mach number a</td><td>Resolution</td><td>Comment</td></tr>
+  <tr><td>mc-5-64</td><td>5</td><td>64^(3)</td><td>-</td></tr>
+  <tr><td>mc-5-128</td><td>5</td><td>128^(3)</td><td>-</td></tr>
+  <tr><td>mc-5-256</td><td>5</td><td>256^(3)</td><td>-</td></tr>
+  <tr><td>mc-5-512</td><td>5</td><td>512^(3)</td><td>-</td></tr>
+  <tr><td>mc-2.5-512</td><td>2.5</td><td>512^(3)</td><td>-</td></tr>
+  <tr><td>mc-10-512</td><td>10</td><td>512^(3)</td><td>-</td></tr>
+  <tr><td>ambi-5-512</td><td>5</td><td>512^(3)</td><td>r_(H)=0</td></tr>
+  <tr><td>hall-5-512</td><td>5</td><td>512^(3)</td><td>r_(A)=0</td></tr>
+  <tr><td>mhd-5-512</td><td>5</td><td>512^(3)</td><td>Ideal MHD</td></tr>
+  <tr><td>hd-5-256</td><td>5</td><td>256^(3)</td><td>Hydrodynamic</td></tr>
+</table>

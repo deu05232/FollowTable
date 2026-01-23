@@ -1,0 +1,15 @@
+<table>
+  <caption>Laboratory Test Conditions for Urban Logistics Facility Certification (Environmental Requirements)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Applicable facility</th><th>Ambient temperature (°C)</th><th>Relative humidity (%)</th><th>Instrument class</th><th>Sampling frequency</th><th>Acceptance note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Noise measurement</td><td>Distribution center</td><td>20 ± 5</td><td>30–70</td><td>Class 1 sound level meter</td><td>1 Hz</td><td>Wind speed < 5 m/s</td></tr>
+    <tr><td>PM2.5 monitoring</td><td>Truck yard</td><td>15–30</td><td>20–80</td><td>Laser particle counter</td><td>1 min</td><td>Background corrected</td></tr>
+    <tr><td>CO₂ concentration</td><td>Indoor sorting area</td><td>18–28</td><td>30–60</td><td>NDIR sensor</td><td>10 s</td><td>Zero calibration daily</td></tr>
+    <tr><td>Illuminance</td><td>Dock area</td><td>20 ± 5</td><td>30–70</td><td>Lux meter</td><td>Per point</td><td>Grid 2 m × 2 m</td></tr>
+    <tr><td>Energy meter verification</td><td>Charging zone</td><td>23 ± 2</td><td>45 ± 15</td><td>0.5S meter</td><td>Per run</td><td>Traceable to national standard</td></tr>
+    <tr><td>Weighing scale calibration</td><td>Dispatch bay</td><td>20 ± 2</td><td>40–60</td><td>Class III scale</td><td>Monthly</td><td>Use certified weights</td></tr>
+    <tr><td>GPS time sync check</td><td>Fleet system</td><td>10–35</td><td>20–80</td><td>Time server</td><td>Daily</td><td>NTP drift < 50 ms</td></tr>
+  </tbody>
+</table>

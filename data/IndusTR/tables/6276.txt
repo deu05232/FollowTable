@@ -1,0 +1,16 @@
+<table>
+  <caption>Minimum Recording Requirements — Localization & Positioning Data Items</caption>
+  <thead>
+    <tr><th>Category</th><th>Data Item</th><th>Requirement Level</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Minimum Recording Range / Capability</th><th>Minimum Resolution</th><th>Minimum Accuracy</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">GNSS</td><td>GNSS latitude</td><td>A</td><td>10 Hz</td><td>deg</td><td>-90 ~ 90</td><td>1e-6</td><td>≤ 2 m (open-sky) or defined by manufacturer</td><td>Geodetic latitude from the positioning solution.</td></tr>
+    <tr><td>GNSS longitude</td><td>A</td><td>10 Hz</td><td>deg</td><td>-180 ~ 180</td><td>1e-6</td><td>≤ 2 m (open-sky) or defined by manufacturer</td><td>Geodetic longitude from the positioning solution.</td></tr>
+    <tr><td>GNSS altitude</td><td>B</td><td>10 Hz</td><td>m</td><td>-500 ~ 9000</td><td>0.1</td><td>≤ 3 m or defined by manufacturer</td><td>Altitude above mean sea level (or ellipsoidal, as specified).</td></tr>
+    <tr><td rowspan="2">INS / Dead Reckoning</td><td>Vehicle yaw rate</td><td>A</td><td>50 Hz</td><td>deg/s</td><td>-250 ~ 250</td><td>0.1</td><td>±2% of full scale</td><td>Angular rate around the vertical axis used by localization/fusion.</td></tr>
+    <tr><td>Vehicle heading (course angle)</td><td>A</td><td>20 Hz</td><td>deg</td><td>0 ~ 360</td><td>0.1</td><td>±1.0 deg</td><td>Absolute/relative heading output used for trajectory estimation.</td></tr>
+    <tr><td rowspan="3">Map/Localization Output</td><td>Localization position X (vehicle coordinate / map frame)</td><td>A</td><td>20 Hz</td><td>m</td><td>Defined by manufacturer</td><td>0.01</td><td>≤ 0.5 m or defined by manufacturer</td><td>Fused position along the X axis in the selected reference frame.</td></tr>
+    <tr><td>Localization position Y (vehicle coordinate / map frame)</td><td>A</td><td>20 Hz</td><td>m</td><td>Defined by manufacturer</td><td>0.01</td><td>≤ 0.5 m or defined by manufacturer</td><td>Fused position along the Y axis in the selected reference frame.</td></tr>
+    <tr><td>Localization confidence</td><td>A</td><td>10 Hz</td><td>%</td><td>0 ~ 100</td><td>1</td><td>±5%</td><td>Quality/confidence indicator for the localization solution used by autonomy.</td></tr>
+  </tbody>
+</table>

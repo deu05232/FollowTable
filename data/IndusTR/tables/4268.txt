@@ -1,0 +1,14 @@
+<table>
+  <caption>Flight Active Optical Cable Assembly SpaceFibre Lane Signal Definition</caption>
+  <tr><td>Signal Name</td><td>Signal Type</td><td>Signal Function</td></tr>
+  <tr><td>TXp</td><td>CML+</td><td>Positive terminal for serial data transmit</td></tr>
+  <tr><td>TXn</td><td>CML-</td><td>Negative terminal for serial data transmit</td></tr>
+  <tr><td>RXp</td><td>CML+</td><td>Positive terminal for serial data receive</td></tr>
+  <tr><td>RXn</td><td>CML-</td><td>Negative terminal for serial data receive</td></tr>
+  <tr><td>NOSIG</td><td>LVTTL/LVCMOS</td><td>NoSignal indication</td></tr>
+  <tr><td>TX FAIL</td><td>LVTTL/LVCMOS</td><td>Transmitter fault indication</td></tr>
+  <tr><td>TX_EN</td><td>LVTTL/LVCMOS</td><td>Transmitter enable</td></tr>
+  <tr><td>RX_EN</td><td>LVTTL/LVCMOS</td><td>Receiver enable</td></tr>
+  <tr><td>PWR</td><td>3.3V power supply</td><td>(3.3±0.33)V, provides 1W power</td></tr>
+  <tr><td>GND</td><td>Ground</td><td>Ground</td></tr>
+</table>

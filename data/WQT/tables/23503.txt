@@ -1,0 +1,11 @@
+# HE-AAC Family Variants Knowing DLNA  Toolsets, Modes, and Profiles
+
+| Variant | Also Known As | Core Tools | Channel Modes | Typical Container | Comments |
+|---|---|---|---|---|---|
+| AAC-LC | Low Complexity AAC | AAC LC | Mono/Stereo/Multichannel | MP4/M4A | Baseline AAC mode |
+| HE-AAC v1 | AAC+ / eAAC | AAC LC + SBR | Stereo | MP4/M4A | Better at low bitrates |
+| HE-AAC v2 | eAAC+ v2 | AAC LC + SBR + PS | Stereo (parametric) | MP4/M4A | Often for very low bitrates |
+| xHE-AAC | Extended HE-AAC | USAC + SBR + PS | Stereo/Multichannel | MP4/M4A | Newer, device support varies |
+| ER AAC-LC | Error Resilient AAC | AAC LC (ER tools) | Mono/Stereo | MP4 | Broadcast/packet loss scenarios |
+| AAC-ELD | Enhanced Low Delay | AAC ELD | Mono/Stereo | MP4 | Low-latency comms |
+| AAC-SSR | Scalable Sample Rate | SSR toolset | Mono/Stereo | MP4 | Rare in consumer playback |

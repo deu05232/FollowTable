@@ -1,0 +1,16 @@
+<table>
+  <caption>Habitat Quality and Vegetation Structure Classes for Regulation Service Scoring</caption>
+  <thead>
+    <tr><th rowspan="2">Land Cover Class</th><th colspan="2">Vegetation Structure</th><th colspan="2">Regulation Service Score</th><th rowspan="2">Primary Driver</th></tr>
+    <tr><th>Canopy Cover (%)</th><th>Height Class (m)</th><th>Score (0-100)</th><th>Class</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Dense forest</td><td>70–100</td><td>>15</td><td>90</td><td>Excellent</td><td>Vegetation structure</td></tr>
+    <tr><td>Open forest</td><td>40–70</td><td>10–15</td><td>75</td><td>Good</td><td>Vegetation structure</td></tr>
+    <tr><td>Shrubland</td><td>20–40</td><td>2–5</td><td>55</td><td>Moderate</td><td>Vegetation structure</td></tr>
+    <tr><td>Grassland</td><td>10–30</td><td>0.3–1.0</td><td>40</td><td>Fair</td><td>Vegetation structure</td></tr>
+    <tr><td>Cropland</td><td>5–20</td><td>0.2–1.5</td><td>30</td><td>Poor</td><td>Management intensity</td></tr>
+    <tr><td>Urban</td><td>0–10</td><td><0.3</td><td>10</td><td>Very poor</td><td>Impervious surface</td></tr>
+    <tr><td>Wetland vegetation</td><td>30–80</td><td>0.5–3</td><td>70</td><td>Good</td><td>Vegetation structure</td></tr>
+  </tbody>
+</table>

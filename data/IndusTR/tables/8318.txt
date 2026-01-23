@@ -1,0 +1,15 @@
+<table>
+  <caption>Transportation Mechanical Stress Test Matrix for Packaged Variable-Frequency Drive Speed-Control Equipment</caption>
+  <thead>
+    <tr><th>Transport stress type</th><th>Packaging condition</th><th>Primary stress parameter</th><th>Peak level / spectrum</th><th>Direction / axis</th><th>Number of events or duration</th><th>Notes (stress conditions)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Shock (handling drop equivalent)</td><td>Packaged (as shipped)</td><td>Half-sine acceleration</td><td>150 m/s² (≈15 g), 11 ms</td><td>±X, ±Y, ±Z</td><td>3 shocks per direction (18 total)</td><td>Unit fixed on rigid test fixture</td></tr>
+    <tr><td>Shock (truck coupling impact)</td><td>Packaged (as shipped)</td><td>Trapezoidal pulse</td><td>100 m/s² (≈10 g), 20 ms</td><td>Longitudinal (X)</td><td>6 events</td><td>Simulates pallet impact</td></tr>
+    <tr><td>Random vibration (road transport)</td><td>Packaged (as shipped)</td><td>PSD (10–500 Hz)</td><td>0.01–0.04 g²/Hz, Grms 1.15</td><td>Vertical (Z)</td><td>2 h</td><td>Resonance search included in same run</td></tr>
+    <tr><td>Random vibration (rail transport)</td><td>Packaged (as shipped)</td><td>PSD (5–200 Hz)</td><td>0.005–0.02 g²/Hz, Grms 0.75</td><td>Vertical (Z)</td><td>3 h</td><td>Broader low-frequency content</td></tr>
+    <tr><td>Sinusoidal vibration (sweep)</td><td>Packaged (as shipped)</td><td>Frequency sweep</td><td>5–55 Hz, 0.35 mm (peak-to-peak)</td><td>Each axis</td><td>10 sweeps per axis</td><td>Sweep rate: 1 octave/min</td></tr>
+    <tr><td>Compression (stacking load)</td><td>Packaged (as shipped)</td><td>Static load</td><td>5.0 kN</td><td>Top-down</td><td>24 h</td><td>Represents warehouse stacking</td></tr>
+    <tr><td>Incline impact (horizontal shock)</td><td>Packaged (as shipped)</td><td>Impact velocity</td><td>1.7 m/s</td><td>Longitudinal (X)</td><td>2 impacts</td><td>Simulates truck start/stop impacts</td></tr>
+  </tbody>
+</table>

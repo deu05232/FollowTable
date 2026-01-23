@@ -1,0 +1,20 @@
+<table>
+  <caption>Freight Distribution Capacity Indicators: Certified Green Vehicles and Charging Support (Per-Capita Scoring)</caption>
+  <thead>
+    <tr><th>City size category</th><th>Measurable indicator (normalized)</th><th>Target / threshold</th><th>Evaluation result (score)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Mega city (≥10 million)</td><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>≥ 45</td><td>100</td></tr>
+    <tr><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>< 45</td><td>Score = 100 × (actual / 45)</td></tr>
+    <tr><td rowspan="2">Very large city (5–10 million)</td><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>≥ 55</td><td>100</td></tr>
+    <tr><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>< 55</td><td>Score = 100 × (actual / 55)</td></tr>
+    <tr><td rowspan="2">Large city (1–5 million)</td><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>≥ 65</td><td>100</td></tr>
+    <tr><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>< 65</td><td>Score = 100 × (actual / 65)</td></tr>
+    <tr><td rowspan="2">Medium city (0.5–1 million)</td><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>≥ 75</td><td>100</td></tr>
+    <tr><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>< 75</td><td>Score = 100 × (actual / 75)</td></tr>
+    <tr><td rowspan="2">Small city (<0.5 million)</td><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>≥ 85</td><td>100</td></tr>
+    <tr><td>New-energy urban delivery vehicles per 100,000 residents (vehicles/100k)</td><td>< 85</td><td>Score = 100 × (actual / 85)</td></tr>
+    <tr><td rowspan="2">All city sizes (supporting condition, optional add-on)</td><td>Public fast-charging points dedicated to freight vehicles per 100,000 residents (points/100k)</td><td>≥ 8</td><td>+10 bonus</td></tr>
+    <tr><td>Public fast-charging points dedicated to freight vehicles per 100,000 residents (points/100k)</td><td>< 8</td><td>Bonus = 10 × (actual / 8)</td></tr>
+  </tbody>
+</table>

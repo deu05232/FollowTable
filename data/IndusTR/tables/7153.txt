@@ -1,0 +1,15 @@
+<table>
+  <caption>SOF XML Signature Verification Service Interface (XMLDSig/SM2)</caption>
+  <tr><th>Item</th><th>Content</th></tr>
+  <tr><td>Prototype</td><td>BOOL SOF_VerifyDataXML(BSTR Base64Cert, BSTR SignedXML, LONG VerifyLevel)</td></tr>
+  <tr><td>Purpose</td><td>Verify the digital signature embedded in an XML document and return whether the signature is valid.</td></tr>
+  <tr><td>Description</td><td>Validates XML signature structure and cryptographic correctness. When RSA is used, the signature processing follows RFC 3275; when SM2 is used, it follows GB/T 25061. Supports checking reference digests and canonicalization.</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>Base64Cert (Base64-encoded signer certificate; optional when certificate is included in SignedXML)</td></tr>
+  <tr><td>SignedXML (XML document containing <ds:Signature>)</td></tr>
+  <tr><td>VerifyLevel (0: crypto only; 1: crypto + reference digest; 2: include certificate chain validation)</td></tr>
+  <tr><td>Reserved (implementation-defined)</td></tr>
+  <tr><td rowspan="3">Return Value</td><td>TRUE (signature valid)</td></tr>
+  <tr><td>FALSE (signature invalid)</td></tr>
+  <tr><td>On error, call SOF_GetLastError() for details</td></tr>
+  <tr><td>Notes</td><td>Does not generate signatures; verification-only API. Canonicalization method must match SignedXML.</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Tracking Outcome Enums (State + Failure Reason)</caption>
+  <thead>
+    <tr><th>Enum Group</th><th>Constant</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">TrackingState</td><td>AR_TRACKING_STATE_TRACKING</td><td>0</td><td>Tracking is normal</td></tr>
+    <tr><td>AR_TRACKING_STATE_PAUSED</td><td>1</td><td>Tracking is paused</td></tr>
+    <tr><td>AR_TRACKING_STATE_STOPPED</td><td>2</td><td>Tracking is stopped</td></tr>
+    <tr><td>AR_TRACKING_STATE_RELOCALIZING</td><td>3</td><td>Attempting to recover tracking</td></tr>
+    <tr><td rowspan="4">TrackingFailureReason</td><td>AR_TRACKING_FAILURE_REASON_NONE</td><td>0</td><td>No failure</td></tr>
+    <tr><td>AR_TRACKING_FAILURE_REASON_INSUFFICIENT_LIGHT</td><td>1</td><td>Too dark to track</td></tr>
+    <tr><td>AR_TRACKING_FAILURE_REASON_EXCESSIVE_MOTION</td><td>2</td><td>Motion blur / fast movement</td></tr>
+    <tr><td>AR_TRACKING_FAILURE_REASON_BAD_STATE</td><td>3</td><td>Internal state is invalid</td></tr>
+  </tbody>
+</table>

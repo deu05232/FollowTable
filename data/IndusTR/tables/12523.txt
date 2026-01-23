@@ -1,0 +1,14 @@
+<table>
+  <caption>Practical Rules for Traditional Mongolian Control Characters (NIRUGU, MVS, ZWJ) with Explicit Code-Point Sequences</caption>
+  <thead>
+    <tr><th>Rule ID</th><th>Control character(s)</th><th>When to use (typing/validation)</th><th>Recommended explicit sequence (code-point style)</th><th>Sequence to avoid (code-point style)</th><th>Expected effect / note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R1</td><td>U+180A (MONGOLIAN NIRUGU)</td><td>Use only inside Mongolian words where the orthographic rule requires NIRUGU; do not insert as a generic separator.</td><td>[U+1820][U+180A][U+182D] (example pattern: letter + NIRUGU + letter)</td><td>[U+1820][U+0020][U+180A][U+182D] (space + NIRUGU), or standalone [U+180A]</td><td>NIRUGU is not a word break; keep it within a token.</td></tr>
+    <tr><td>R2</td><td>U+180B..U+180D (MVS1..MVS3)</td><td>Use a Variation Selector only immediately after a Mongolian base letter that supports it; never after punctuation or spaces.</td><td>[U+1820][U+180B] (base letter + MVS1), or [U+1828][U+180C]</td><td>[U+180B] at start, or [U+0020][U+180C], or [U+180D][U+002E]</td><td>MVS must follow its base character directly.</td></tr>
+    <tr><td>R3</td><td>U+180B..U+180D (MVS1..MVS3)</td><td>At most one MVS per base letter; do not stack multiple selectors on the same character.</td><td>[U+1820][U+180B]</td><td>[U+1820][U+180B][U+180C] (stacked MVS), [U+1820][U+180B][U+180D]</td><td>Stacking variation selectors is invalid for practical input/normalization.</td></tr>
+    <tr><td>R4</td><td>U+200D (ZWJ)</td><td>Use ZWJ only where a specific joining behavior is needed (e.g., to force a particular shaped form) and only between Mongolian letters, not around spaces.</td><td>[U+1820][U+200D][U+1821] (letter + ZWJ + letter)</td><td>[U+200D][U+1820] (leading ZWJ), [U+1820][U+200D][U+0020] (ZWJ before space)</td><td>ZWJ should be internal to a word sequence.</td></tr>
+    <tr><td>R5</td><td>U+180E (MONGOLIAN VOWEL SEPARATOR)</td><td>If present in legacy content, keep it only in well-defined contexts; do not insert it as a general-purpose separator when typing modern text.</td><td>[U+1820][U+180E][U+1820] (legacy pattern: letter + U+180E + letter)</td><td>Standalone [U+180E], or repeated [U+180E][U+180E]</td><td>Often treated as deprecated/legacy; validate carefully.</td></tr>
+    <tr><td>R6</td><td>MVS + base letter (common fixed patterns)</td><td>When you must represent a fixed glyph variant, encode it as “MVS immediately after base letter” (not before it) using explicit code points.</td><td>[U+1820][U+180B][U+1834][U+1820] (example of an MVS-marked sequence)</td><td>[U+180B][U+1820][U+1834][U+1820] (MVS placed before base)</td><td>Order matters: selector follows the base character.</td></tr>
+  </tbody>
+</table>

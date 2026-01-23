@@ -1,0 +1,11 @@
+<table>
+  <caption>GENERATEAUTHCODE Command Message APDU Header Field Definition</caption>
+  <tr><td>Code</td><td>Value/Description (HEX Encoding)</td></tr>
+  <tr><td>CLA</td><td>80</td></tr>
+  <tr><td>INS</td><td>C2</td></tr>
+  <tr><td>P1</td><td>00</td></tr>
+  <tr><td>P2</td><td>00</td></tr>
+  <tr><td>Lc</td><td>18</td></tr>
+  <tr><td>DATA</td><td>Input data used to calculate the authentication code</td></tr>
+  <tr><td>Le</td><td>Not present</td></tr>
+</table>

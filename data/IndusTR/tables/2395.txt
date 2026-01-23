@@ -1,0 +1,10 @@
+<table>
+  <caption>Conformance Testing for Exchange Header Envelopes — Laboratory Environment Requirements</caption>
+  <tr><th>Test Item</th><th>Requirement</th><th>Target Value</th><th>Tolerance</th><th>Measurement Tool</th><th>Frequency</th></tr>
+  <tr><td>Ambient Temperature</td><td>Controlled</td><td>23°C</td><td>±2°C</td><td>Calibrated thermometer</td><td>Per test run</td></tr>
+  <tr><td>Relative Humidity</td><td>Controlled</td><td>45%</td><td>±10%</td><td>Hygrometer</td><td>Per test run</td></tr>
+  <tr><td>Time Synchronization</td><td>NTP locked</td><td>±50 ms</td><td>±50 ms</td><td>NTP monitor</td><td>Continuous</td></tr>
+  <tr><td>Network Latency</td><td>Emulated</td><td>80 ms</td><td>±20 ms</td><td>Network emulator</td><td>Per scenario</td></tr>
+  <tr><td>Packet Loss</td><td>Emulated</td><td>0.1%</td><td>±0.05%</td><td>Network emulator</td><td>Per scenario</td></tr>
+  <tr><td>Certificate Store</td><td>Isolated</td><td>Dedicated PKI</td><td>N/A</td><td>HSM/Key vault</td><td>Quarterly review</td></tr>
+</table>

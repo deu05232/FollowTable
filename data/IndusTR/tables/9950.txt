@@ -1,0 +1,8 @@
+<table>
+  <caption>Kernel Registration Interface Details</caption>
+  <tr><th>Item</th><th>Content</th></tr>
+  <tr><td>Interface Name</td><td>Operator Kernel Function Registration</td></tr>
+  <tr><td>Recommended English Name</td><td>REGISTER_KERNEL</td></tr>
+  <tr><td>Signature</td><td>REGISTER_KERNEL(op_type, backend, fn_ptr)</td></tr>
+  <tr><td>Description</td><td>Register the kernel function of a framework operator for a target backend</td></tr>
+</table>

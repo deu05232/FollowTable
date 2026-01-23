@@ -1,0 +1,14 @@
+# BitTorrent Clients for Headless   NAS   Server Use
+
+| Client | Runs headless (no GUI) | Management method | Typical OS / environments | License | Strengths | Caveats |
+| --- | --- | --- | --- | --- | --- | --- |
+| Transmission-daemon | Yes | Web UI, RPC API | Linux servers, Raspberry Pi, NAS | GPL (Open Source) | Very lightweight, easy to automate | Fewer built-in power features than some alternatives |
+| Deluge (daemon) | Yes | Thin client, Web UI, JSON-RPC | Linux/Windows servers | GPL (Open Source) | Plugin ecosystem, flexible | Requires a bit more setup than single-binary tools |
+| qBittorrent-nox | Yes | Web UI | Linux servers, containers | GPLv2 (Open Source) | Full qBittorrent features in headless mode | Web UI security/port exposure must be configured carefully |
+| rTorrent | Yes | CLI + SCGI; often with ruTorrent web front-end | Linux/seedboxes | GPL (Open Source) | Very efficient, mature seedbox choice | Setup can be complex; UI often depends on external front-ends |
+| aria2 (BitTorrent mode) | Yes | CLI, JSON-RPC | Linux/macOS/Windows | GPLv2 (Open Source) | Great for scripting; supports HTTP/FTP + BitTorrent | Sparse GUI; feature set differs from full torrent clients |
+| BitTorrent (Android) | No (mobile app) | App UI | Android devices | Proprietary | Simple mobile downloading | Not intended for server/headless scenarios |
+| Vuze (headless via plugins) | Partial | Web UI/plugins | Linux servers (advanced setups) | GPL + optional proprietary components | Feature-rich with plugins | Heavier resource usage; not the simplest headless option |
+| Tixati (Linux) | Limited (GUI-first) | Web interface (when enabled) | Linux desktops/servers | Proprietary (free) | Detailed controls and stats | Primarily designed as a GUI app; headless use depends on configuration |
+| BiglyBT | Limited (GUI-first) | Remote UI options | Windows/macOS/Linux | GPL (Open Source) | Powerful, modern fork with many features | More resource-intensive than minimal daemons |
+| LFTP (torrent via external tools) | No (not a torrent client) | CLI | Linux | GPL (Open Source) | Great for FTP/HTTP automation | Included here as a non-example: not a BitTorrent client |

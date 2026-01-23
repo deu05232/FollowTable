@@ -1,0 +1,22 @@
+<table>
+  <caption>Mandatory vs Optional Integration Interfaces for Adapting a Deep Learning Framework to a Hardware Backend (Runtime & Memory)</caption>
+  <thead>
+    <tr><th>Layer</th><th>Interface Name</th><th>Suggested API Name</th><th>Required/Optional</th><th>Purpose / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Device lifecycle</td><td>Backend Initialize</td><td>backend_init()</td><td>Required</td><td>Create global backend context; discover devices; set up logging and error handling.</td></tr>
+    <tr><td>Backend Finalize</td><td>backend_fini()</td><td>Required</td><td>Release global resources; flush pending work.</td></tr>
+    <tr><td>Get Device Properties</td><td>get_device_info(device_id)</td><td>Optional</td><td>Expose compute capability, memory limits, supported data types for scheduling/tuning.</td></tr>
+    <tr><td rowspan="3">Memory management</td><td>Device Allocate</td><td>device_malloc(bytes, alignment)</td><td>Required</td><td>Allocate device memory for tensors/activations/parameters.</td></tr>
+    <tr><td>Device Free</td><td>device_free(ptr)</td><td>Required</td><td>Free device memory.</td></tr>
+    <tr><td>Memory Pool / Caching Allocator</td><td>device_malloc_cached(...)</td><td>Optional</td><td>Improve performance by reusing buffers; not required for correctness.</td></tr>
+    <tr><td rowspan="3">Data transfer</td><td>Host-to-Device Copy</td><td>memcpy_h2d(dst_dev, src_host, bytes, stream)</td><td>Required</td><td>Load inputs/weights to device.</td></tr>
+    <tr><td>Device-to-Host Copy</td><td>memcpy_d2h(dst_host, src_dev, bytes, stream)</td><td>Required</td><td>Read outputs back to host.</td></tr>
+    <tr><td>Device-to-Device Copy</td><td>memcpy_d2d(dst_dev, src_dev, bytes, stream)</td><td>Optional</td><td>Useful for tensor reshuffling; can be emulated via kernels if necessary.</td></tr>
+    <tr><td rowspan="3">Execution control</td><td>Create Stream / Queue</td><td>stream_create()</td><td>Required</td><td>Framework needs an execution timeline abstraction for async ops.</td></tr>
+    <tr><td>Synchronize</td><td>stream_synchronize(stream)</td><td>Required</td><td>Ensure completion before reading results or reusing buffers.</td></tr>
+    <tr><td>Event / Timestamp Query</td><td>event_record(); event_elapsed_time(...)</td><td>Optional</td><td>Profiling and overlap analysis; not required for functional bring-up.</td></tr>
+    <tr><td rowspan="2">Error & diagnostics</td><td>Get Last Error</td><td>backend_get_last_error()</td><td>Optional</td><td>Improves debugging; can rely on return codes only.</td></tr>
+    <tr><td>Status Code Mapping</td><td>map_backend_status(code)</td><td>Optional</td><td>Translate backend errors into framework exceptions/messages.</td></tr>
+  </tbody>
+</table>

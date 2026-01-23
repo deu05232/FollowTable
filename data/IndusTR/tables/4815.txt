@@ -1,0 +1,13 @@
+<table>
+  <caption>PKCS #7 Digested Data Encoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Pkcs7_EncodeDigestedData(void * hAppHandle,unsigned int uiDigestAlgorithm,unsigned char * pucData,unsigned int puiDataLen,unsigned char * pucDerP7DigestedData,unsigned int * puiDerP7DigestedDataLen)</td></tr>
+  <tr><td>Description</td><td>Use the specified hash algorithm to compute the digest of the plaintext, and package it into a data packet compliant with the PKCS #7 digested-data format</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>hAppHandle[in](Application interface handle)</td></tr>
+  <tr><td>uiDigestAlgorithm[in](Hash algorithm identifier)</td></tr>
+  <tr><td>pucData[in](Plaintext data)</td></tr>
+  <tr><td>puiDataLen［in](Plaintext data length)</td></tr>
+  <tr><td>pucDerP7DigestedData[out](Data packet compliant with the PKCS #7 digested-data format)</td></tr>
+  <tr><td>puiDerP7DigestedDataLen[in,out](Length of the data packet compliant with the PKCS #7 digested-data format)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non0(Failure; return the error code defined in Table C.1, and shall comply with the provisions of Appendix C)</td></tr>
+</table>

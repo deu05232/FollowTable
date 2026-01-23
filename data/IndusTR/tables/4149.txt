@@ -1,0 +1,12 @@
+<table>
+  <caption>Emergency Management Beidou Terminal Safety Report Message Data Format</caption>
+  <tr><td>No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Terminal Serial Number</td><td>120</td><td>Character</td><td></td><td></td><td>15-character string; if less than 15 characters, pad leading zeros</td></tr>
+  <tr><td>2</td><td>Safety Report Type</td><td>8</td><td>Integer</td><td></td><td>0~1</td><td>0—Scheduled safety report; 1—Abnormal safety report</td></tr>
+  <tr><td>3</td><td>Longitude</td><td>39</td><td colspan="3">See 6.1.1</td><td></td></tr>
+  <tr><td>4</td><td>Latitude</td><td>38</td><td colspan="2">See 6.1.2</td><td></td><td></td></tr>
+  <tr><td>5</td><td>Altitude</td><td>29</td><td colspan="3">See 6.1.3</td><td></td></tr>
+  <tr><td>6</td><td>Power Supply Status</td><td>8</td><td>Integer</td><td></td><td></td><td>Includes power supply method and battery level"</td></tr>
+  <tr><td>7</td><td>Device Status</td><td>8</td><td>Integer</td><td></td><td></td><td>Includes link status, Beidou antenna status, and memory status</td></tr>
+  <tr><td colspan="7">. From right to left are bits 0 to 7. Bit 0 is the power supply method: 0 indicates battery, 1 indicates external power; bits 1 to 7 are the battery level, with a value range of 0% to 100%. When powered by external power, the battery level value is fixed at 0. b From right to left are bits 0 to 7. Bit 0 is the link status: 1 indicates abnormal, 0 indicates normal; bit 1 is the Beidou antenna status: 1 indicates abnormal, 0 indicates normal; bit 2 is the memory status: 1 indicates abnormal, 0 indicates normal; bits 3 to 7 are reserved bits, temporarily set to a fixed value of 0.</td></tr>
+</table>

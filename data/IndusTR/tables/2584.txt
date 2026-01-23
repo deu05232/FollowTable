@@ -1,0 +1,10 @@
+<table>
+  <caption>Error Budget Template for a Hospital Building Energy Submetering System (Non-Utility Metering)</caption>
+  <tr><th>Subsystem</th><th>Sensor Type</th><th>Typical Accuracy</th><th>Installation Factor</th><th>Maintenance Interval</th><th>Comment</th></tr>
+  <tr><td>HVAC electricity submeter</td><td>DIN-rail kWh meter</td><td>±1.0%</td><td>Panel wiring</td><td>12 months</td><td>Facility monitoring</td></tr>
+  <tr><td>Lighting circuits</td><td>CT + power transducer</td><td>±2.0%</td><td>CT polarity risk</td><td>12 months</td><td>Non-revenue grade</td></tr>
+  <tr><td>Medical equipment</td><td>Smart plug meter</td><td>±3.0%</td><td>User relocation</td><td>6 months</td><td>Portable loads</td></tr>
+  <tr><td>Generator fuel tracking</td><td>Flow meter</td><td>±1.5%</td><td>Temperature compensation</td><td>6 months</td><td>Not electric energy</td></tr>
+  <tr><td>Steam consumption</td><td>Vortex flow meter</td><td>±1.0%</td><td>Straight-pipe requirement</td><td>6 months</td><td>Thermal energy proxy</td></tr>
+  <tr><td>Water consumption</td><td>Ultrasonic water meter</td><td>±2.0%</td><td>Air bubbles sensitivity</td><td>6 months</td><td>Utility management</td></tr>
+</table>

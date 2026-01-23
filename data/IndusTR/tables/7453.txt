@@ -1,0 +1,15 @@
+<table>
+  <caption>User Terminal Output Scheduling and Reporting Cadence Parameters</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Parameter Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Periodic output enable</td><td>0~1</td><td>-</td><td>0: disabled; 1: enabled</td></tr>
+    <tr><td>2</td><td>Output interval</td><td>1~3600</td><td>s</td><td>Time between successive outputs</td></tr>
+    <tr><td>3</td><td>Startup delay</td><td>0~600</td><td>s</td><td>Delay after boot before first transmission</td></tr>
+    <tr><td>4</td><td>Daily active window</td><td>0~23</td><td>hour</td><td>Start hour of the active sending window (local time)</td></tr>
+    <tr><td>5</td><td>Max messages per window</td><td>0~255</td><td>count</td><td>0: unlimited; otherwise cap messages in the active window</td></tr>
+    <tr><td>6</td><td>Jitter randomization</td><td>0~30</td><td>s</td><td>Randomly offset each send time to reduce collisions</td></tr>
+    <tr><td>7</td><td>Retry backoff step</td><td>1~120</td><td>s</td><td>Incremental delay added per retry attempt</td></tr>
+  </tbody>
+</table>

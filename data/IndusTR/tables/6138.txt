@@ -1,0 +1,16 @@
+<table>
+  <caption>Video/Image Segment Acquisition Metadata (Mixed with Analytics and Device Details)</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Segment Context</td><td>1</td><td>Video Segment Identifier</td><td>videoSegId</td><td>c41</td><td>Unique identifier for a captured video segment</td><td></td></tr>
+    <tr><td>Segment Context</td><td>2</td><td>Image Segment Identifier</td><td>imageSegId</td><td>c41</td><td>Unique identifier for a captured image segment</td><td></td></tr>
+    <tr><td>Segment Context</td><td>3</td><td>Collection Method Code</td><td>collectMethodCode</td><td>c1</td><td>How the segment was collected (e.g., fixed camera, mobile capture)</td><td></td></tr>
+    <tr><td>Segment Context</td><td>4</td><td>Capture Location Type Code</td><td>captureLocTypeCode</td><td>c3..7</td><td>Location type where capture occurred</td><td></td></tr>
+    <tr><td>Segment Context</td><td>5</td><td>Administrative Division Code</td><td>adminDivCode</td><td>c6</td><td>6-digit GB/T 2260 style division code</td><td></td></tr>
+    <tr><td>Analytics (Forbidden)</td><td>6</td><td>Algorithm Version</td><td>algoVersion</td><td>c..20</td><td>Version of detection/recognition algorithm used</td><td></td></tr>
+    <tr><td>Device (Forbidden)</td><td>7</td><td>Manufacturer Name</td><td>manufacturerName</td><td>c..100</td><td>Device manufacturer</td><td></td></tr>
+    <tr><td>Object-level (Forbidden)</td><td>8</td><td>Person Object Identifier</td><td>personObjId</td><td>c48</td><td>Identifier of a detected person within the segment</td><td></td></tr>
+  </tbody>
+</table>

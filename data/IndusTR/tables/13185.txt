@@ -1,0 +1,16 @@
+<table>
+  <caption>Drying, Cooling, and Coating Section Indicators (Trip Points Only)</caption>
+  <thead>
+    <tr><th>Unit Operation</th><th>Measurement</th><th>Target/Limit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Pre-drying</td><td>Inlet air temperature (°C)</td><td>≥ 45</td><td>Minimum to prevent wet granules</td></tr>
+    <tr><td>Outlet air humidity (g/kg dry air)</td><td>≤ 18</td><td>One-sided moisture control</td></tr>
+    <tr><td>Dust collector differential pressure (kPa)</td><td>≤ 3.5</td><td>Trip if exceeded</td></tr>
+    <tr><td rowspan="3">Drying</td><td>Dryer exhaust temperature (°C)</td><td>≤ 140</td><td>Upper bound only (thermal safety)</td></tr>
+    <tr><td>Product moisture at dryer outlet (%)</td><td>≤ 0.30</td><td>Quality cutoff only</td></tr>
+    <tr><td>Dryer inlet air temperature (°C)</td><td>≥ 90</td><td>Minimum only</td></tr>
+    <tr><td rowspan="2">Cooling & Coating</td><td>Cooler discharge product temperature (°C)</td><td>≤ 45</td><td>Upper limit only</td></tr>
+    <tr><td>Coating agent tank temperature (°C)</td><td>≤ 110</td><td>Upper limit only</td></tr>
+  </tbody>
+</table>

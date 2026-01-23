@@ -1,0 +1,16 @@
+<table>
+  <caption>Reference Binding API Parameters (mixed with audit and pagination)</caption>
+  <thead>
+    <tr><th>Field</th><th>Type</th><th>Required</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>string</td><td>Yes</td><td>Project identifier</td></tr>
+    <tr><td>containerId</td><td>string</td><td>Yes</td><td>Source container identifier</td></tr>
+    <tr><td>refs</td><td>List<ref></td><td>Yes</td><td>References to target containers</td></tr>
+    <tr><td>operatorId</td><td>string</td><td>No</td><td>User performing the operation</td></tr>
+    <tr><td>operationTime</td><td>string (date-time)</td><td>No</td><td>Client-reported timestamp</td></tr>
+    <tr><td>comment</td><td>string</td><td>No</td><td>Change reason / audit note</td></tr>
+    <tr><td>page</td><td>int</td><td>No</td><td>Pagination page index for query-style calls</td></tr>
+    <tr><td>pageSize</td><td>int</td><td>No</td><td>Pagination size</td></tr>
+  </tbody>
+</table>

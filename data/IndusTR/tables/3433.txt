@@ -1,0 +1,12 @@
+<table>
+  <caption>API Response Parameter Definition for Querying Electronic License List</caption>
+  <tr><td>Data Item Name</td><td>Data Item Description</td><td>Constraint</td><td>Data Type</td><td>Length</td><td>Description</td></tr>
+  <tr><td>certificateID</td><td>License identifier</td><td>Required</td><td>String</td><td>一</td><td>Value encrypted by the national platform</td></tr>
+  <tr><td>certificateType</td><td>License type name</td><td>Required</td><td>String</td><td>21</td><td>License type name</td></tr>
+  <tr><td>certificateHolder</td><td>Certificate holder</td><td>Required</td><td>String</td><td></td><td>Masked information is returned. If the security level meets national requirements, unmasked data can be returned</td></tr>
+  <tr><td>certificateNumber</td><td>Certificate number</td><td>Required</td><td>String</td><td></td><td>Masked information is returned. If the security level meets national requirements, unmasked data can be returned</td></tr>
+  <tr><td>issueDate</td><td>Certificate issue date</td><td>SZ Required</td><td>CString</td><td></td><td>Masked information is returned. If the security level meets national requirements, unmasked data can be returned</td></tr>
+  <tr><td>issueDept</td><td>Certificate issuing authority</td><td>Required</td><td>String</td><td></td><td>Masked information is returned. If the security level meets national requirements, unmasked data can be returned</td></tr>
+  <tr><td>dataSource</td><td>Data source</td><td>Required</td><td>String</td><td></td><td>Data source</td></tr>
+  <tr><td>authFlag</td><td>Whether the current user is authorized</td><td>Required</td><td>String</td><td>1</td><td>0 means unauthorized, 1 means authorized</td></tr>
+</table>

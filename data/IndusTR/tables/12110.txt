@@ -1,0 +1,18 @@
+<table>
+  <caption>Beidou Monitoring Terminal Positioning & Timing Performance Requirements</caption>
+  <thead>
+    <tr><th>No.</th><th>Capability / Metric</th><th>Requirement (Measurable Threshold)</th><th>Notes / Applicability</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Horizontal position accuracy (open-sky)</td><td>≤ 2.5 m (95%)</td><td>Standalone BDS, standard mode</td></tr>
+    <tr><td>2</td><td>Vertical position accuracy (open-sky)</td><td>≤ 5.0 m (95%)</td><td>Standalone BDS, standard mode</td></tr>
+    <tr><td>3</td><td>Velocity accuracy</td><td>≤ 0.10 m/s (95%)</td><td>Ground speed output</td></tr>
+    <tr><td>4</td><td>Time accuracy (1PPS relative to UTC)</td><td>≤ 100 ns (1σ)</td><td>With valid positioning solution</td></tr>
+    <tr><td>5</td><td>Time to first fix (TTFF) – Cold start</td><td>≤ 60 s</td><td>After power-up with no aiding</td></tr>
+    <tr><td>6</td><td>Time to first fix (TTFF) – Warm start</td><td>≤ 30 s</td><td>Ephemeris not valid, almanac valid</td></tr>
+    <tr><td>7</td><td>Time to first fix (TTFF) – Hot start</td><td>≤ 5 s</td><td>Ephemeris valid</td></tr>
+    <tr><td>8</td><td>Reacquisition time after signal outage</td><td>≤ 3 s</td><td>After short blockage (≤10 s)</td></tr>
+    <tr><td>9</td><td>Position update rate</td><td>≥ 1 Hz</td><td>Continuous output mode</td></tr>
+    <tr><td>10</td><td>Availability of positioning output</td><td>≥ 99.0%</td><td>Measured over continuous operation period</td></tr>
+  </tbody>
+</table>

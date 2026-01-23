@@ -1,0 +1,15 @@
+<table>
+  <caption>Thermodynamic energy release for ATP-related conversions under standard and physiological conditions</caption>
+  <thead>
+    <tr><th rowspan="2">Reaction (ATP-related conversion)</th><th colspan="2">Standard-state Gibbs free energy change</th><th colspan="2">Typical cellular (effective) free energy change</th></tr>
+    <tr><th>ΔG°' (kJ/mol)</th><th>Notes</th><th>ΔG (kJ/mol)</th><th>Assumed ratio/condition (illustrative)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ATP + H2O → ADP + Pi</td><td>-30.5</td><td>Biochemical standard state (pH 7)</td><td>-50</td><td>[ATP]/([ADP][Pi]) ≈ 500</td></tr>
+    <tr><td>ATP + H2O → AMP + PPi</td><td>-45.6</td><td>ATP cleavage to AMP + pyrophosphate</td><td>-60</td><td>High-energy coupling reactions</td></tr>
+    <tr><td>PPi + H2O → 2 Pi</td><td>-19.2</td><td>Pyrophosphate hydrolysis</td><td>-25</td><td>Cytosolic PPi kept low</td></tr>
+    <tr><td>ATP + Pi → ADP + PPi</td><td>+14.3</td><td>Reverse of PPi-forming cleavage (endergonic)</td><td>+5</td><td>Depends strongly on metabolite levels</td></tr>
+    <tr><td>ADP + Pi → ATP + H2O</td><td>+30.5</td><td>ATP synthesis at standard state</td><td>+50</td><td>Requires coupling (e.g., pmf)</td></tr>
+    <tr><td>ATP + H2O → ADP + Pi (Mg2+-bound)</td><td>-28.0</td><td>Illustrates Mg2+ speciation effect</td><td>-45</td><td>MgATP dominates in cells</td></tr>
+  </tbody>
+</table>

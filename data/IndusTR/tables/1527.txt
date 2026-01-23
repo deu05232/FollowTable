@@ -1,0 +1,8 @@
+<table>
+  <caption>Service Basic Information Classification Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Number of Occurrences</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>Service Category</td><td>serviceCategory</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Category of the service</td></tr>
+  <tr><td>Keyword</td><td>keyword</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Words describing key characteristics of the service, used for service retrieval. Such as authentication, billing</td></tr>
+  <tr><td>Version</td><td>version</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Current version of the service, generally expressed in the form of v1.0, vl.1, v2.0</td></tr>
+  <tr><td>Registration Date</td><td>registerDate</td><td>YYYYMMDDhhmmss</td><td>C</td><td>1</td><td></td><td>When the service is registered with the registry center, the registry center should record the registration date</td></tr>
+</table>

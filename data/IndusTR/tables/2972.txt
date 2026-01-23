@@ -1,0 +1,10 @@
+<table>
+  <caption>Operator Kernel Registration — Compliance and Audit Evidence Inventory</caption>
+  <tr><th>Control ID</th><th>Control Description</th><th>Evidence Type</th><th>Retention Period</th><th>Storage Location</th><th>Owner</th></tr>
+  <tr><td>SEC-01</td><td>Source code change approval</td><td>Pull request record</td><td>3 years</td><td>Git hosting</td><td>Engineering</td></tr>
+  <tr><td>SEC-07</td><td>Artifact integrity verification</td><td>Checksum report</td><td>2 years</td><td>Artifact registry</td><td>Release</td></tr>
+  <tr><td>PRIV-03</td><td>Access logging for kernel packages</td><td>Audit logs</td><td>1 year</td><td>SIEM</td><td>Security</td></tr>
+  <tr><td>QA-12</td><td>Reproducible build policy</td><td>Build manifest</td><td>2 years</td><td>CI system</td><td>QA</td></tr>
+  <tr><td>COM-04</td><td>Third-party license tracking</td><td>SBOM</td><td>5 years</td><td>Compliance vault</td><td>Legal</td></tr>
+  <tr><td>OPS-09</td><td>Incident postmortems for releases</td><td>Postmortem report</td><td>3 years</td><td>Knowledge base</td><td>SRE</td></tr>
+</table>

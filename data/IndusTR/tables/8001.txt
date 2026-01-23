@@ -1,0 +1,11 @@
+<table>
+  <caption>Common Service Description Model - Interface Operation Security and Idempotency Attributes</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Domain</th><th>Description</th></tr>
+  <tr><td>Interface Name</td><td>interfaceName</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Name of the interface</td></tr>
+  <tr><td>Operation Name</td><td>operationName</td><td>C..128</td><td>M</td><td>N</td><td></td><td>Name of an operation in the interface</td></tr>
+  <tr><td>HTTP Method</td><td>httpMethod</td><td>C..16</td><td>0</td><td>N</td><td>GET,POST,PUT,DELETE,PATCH</td><td>HTTP method used to invoke the operation</td></tr>
+  <tr><td>Idempotency</td><td>idempotency</td><td>C..16</td><td>0</td><td>N</td><td>idempotent,non-idempotent</td><td>Whether repeated calls produce the same effect</td></tr>
+  <tr><td>Operation Supports Transactionality</td><td>operationSupportTransaction</td><td>BL</td><td>M</td><td>N</td><td>1,0 or true,false</td><td>Whether the operation supports transactionality; occurrence count consistent with operationName</td></tr>
+  <tr><td>Authentication Requirement</td><td>authRequired</td><td>BL</td><td>0</td><td>N</td><td>1,0 or true,false</td><td>Whether authentication is required to invoke the operation</td></tr>
+  <tr><td>Authorization Scope</td><td>authScope</td><td>C..128</td><td>C</td><td>N</td><td></td><td>Required authorization scope when authRequired is true; occurrence count consistent with operationName</td></tr>
+</table>

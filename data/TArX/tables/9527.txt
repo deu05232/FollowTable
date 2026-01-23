@@ -1,0 +1,15 @@
+<table>
+  <caption>Representative AMBT1 parameter scan ranges and the associated physics constraints (by energy and observable class).</caption>
+  <thead>
+    <tr><th>Generator parameter</th><th>Physics meaning</th><th>Scan range (AMBT1)</th><th>Energies constrained (TeV)</th><th>Main constraining observable(s)</th><th>Observable range used</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>pT0Ref</td><td>MPI regularisation scale at reference energy</td><td>1.5 … 3.0 GeV</td><td>0.9, 7</td><td>UE ΣpTdensity; Nchdensity</td><td>pTlead= 1 … 20 GeV</td></tr>
+    <tr><td>ecmPow</td><td>Energy scaling of MPI regularisation</td><td>0.10 … 0.35</td><td>0.9, 7</td><td>dNch/dη; UE activity vs pTlead</td><td>|η| < 2.5</td></tr>
+    <tr><td>coreFraction</td><td>Fraction of narrow matter core in overlap model</td><td>0.10 … 0.80</td><td>0.9</td><td>P(Nch)</td><td>Nch= 1 … 60</td></tr>
+    <tr><td>coreRadius</td><td>Radius of the matter core</td><td>0.20 … 0.80</td><td>0.9</td><td>P(Nch); <pT>(Nch)</td><td>Nch= 1 … 40</td></tr>
+    <tr><td>CRRange</td><td>Colour reconnection range/strength</td><td>0.0 … 6.0</td><td>0.9, 7</td><td><pT>(Nch); low-pTspectra</td><td>0.5 … 5 GeV</td></tr>
+    <tr><td>pTdamp</td><td>Damping scale for hard emissions affecting soft activity</td><td>0.5 … 2.0 GeV</td><td>7</td><td>UE ΣpTdensity</td><td>pTlead= 1 … 20 GeV</td></tr>
+    <tr><td>alphaS_MPI</td><td>Effective αsused in MPI/ISR model</td><td>0.10 … 0.16</td><td>0.9, 7</td><td>dNch/dη; dN/dpT</td><td>|η| < 2.5; 0.5 … 10 GeV</td></tr>
+  </tbody>
+</table>

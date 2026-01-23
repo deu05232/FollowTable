@@ -1,0 +1,8 @@
+<table>
+  <caption>Galileo phase-bias satellite block with attitude fields</caption>
+  <tr><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>Galileo Satellite Number</td><td>DF252</td><td>uint6</td><td>6</td></tr>
+  <tr><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Yaw Angle</td><td>DF480</td><td>uint9</td><td>9</td></tr>
+  <tr><td>Yaw Rate</td><td>DF4YY</td><td>int8</td><td>8</td></tr>
+</table>

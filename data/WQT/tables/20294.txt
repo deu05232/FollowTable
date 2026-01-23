@@ -1,0 +1,11 @@
+# IPv4 reserved special-purpose blocks commonly encountered in operations (non-RFC1918)
+
+| Block | Range | Category | Where you see it | Notes |
+| --- | --- | --- | --- | --- |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Localhost services | Not routed on the public Internet |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local | Devices without DHCP | Typically self-assigned |
+| 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Multicast | Streaming/routing protocols | Not unicast host addressing |
+| 240.0.0.0/4 | 240.0.0.0 – 255.255.255.255 | Reserved (future use) | Rare in normal networks | Historically reserved |
+| 192.0.0.0/24 | 192.0.0.0 – 192.0.0.255 | IETF protocol assignments | Special protocol endpoints | Used for specific protocol functions |
+| 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | Benchmark testing | Lab performance tests | For inter-network benchmark testing |
+| 255.255.255.255/32 | 255.255.255.255 | Limited broadcast | Local broadcast | Not forwarded by routers |

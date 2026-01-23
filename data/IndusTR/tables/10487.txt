@@ -1,0 +1,19 @@
+<table>
+  <caption>CEA-708 Window Presentation Parameters (Non-syntax Display Settings)</caption>
+  <thead>
+    <tr><th>Presentation / Screen Layout Element</th><th>Encoding / Range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>window_id</td><td>u(3)</td><td>Selects which on-screen window is affected</td></tr>
+    <tr><td>visible_flag</td><td>u(1)</td><td>Whether the window is shown</td></tr>
+    <tr><td>row_count</td><td>u(4)</td><td>Number of rows (layout)</td></tr>
+    <tr><td>column_count</td><td>u(6)</td><td>Number of columns (layout)</td></tr>
+    <tr><td>anchor_vertical</td><td>u(7)</td><td>Vertical screen anchor position</td></tr>
+    <tr><td>anchor_horizontal</td><td>u(8)</td><td>Horizontal screen anchor position</td></tr>
+    <tr><td>relative_positioning</td><td>u(1)</td><td>Relative vs absolute placement</td></tr>
+    <tr><td>z_order</td><td>u(3)</td><td>Layer order for overlapping windows</td></tr>
+    <tr><td>justify</td><td>u(2)</td><td>Text justification on screen</td></tr>
+    <tr><td>print_direction</td><td>u(2)</td><td>Direction text prints (visual behavior)</td></tr>
+    <tr><td>scroll_direction</td><td>u(2)</td><td>Scrolling direction (presentation)</td></tr>
+  </tbody>
+</table>

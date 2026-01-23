@@ -1,0 +1,9 @@
+<table>
+  <caption>Output Parameters for Creating an Information Container</caption>
+  <tr><td>Parameter Name</td><td>Chinese Name</td><td>Data Type</td><td>Required</td><td>Remarks</td></tr>
+  <tr><td>name</td><td>Container Name</td><td>string</td><td>Yes</td><td>Container name. Sorting and filtering field</td></tr>
+  <tr><td>description</td><td>Description</td><td>string</td><td>Optional</td><td>Detailed description information of the container</td></tr>
+  <tr><td>containerType</td><td>Container Type</td><td>int</td><td>Optional</td><td>The container type; the value range should meet the requirements of Table 17</td></tr>
+  <tr><td>contents</td><td>Content</td><td>List<content></td><td>Optional</td><td>List of the container's contents. The data structure of objects in the list should meet the requirements of Table 22</td></tr>
+  <tr><td>refs</td><td>References</td><td>List<ref></td><td>Optional</td><td>List of references to other information containers. The data structure of objects in the list should meet the requirements of Table 23</td></tr>
+</table>

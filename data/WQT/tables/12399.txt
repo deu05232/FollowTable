@@ -1,0 +1,10 @@
+# Outlook client configuration for Microsoft 365 and on-premises mailboxes (client-only details)
+
+| Setting | Microsoft 365 example | On-premises Exchange example |
+| --- | --- | --- |
+| Account type | Exchange / Microsoft 365 | Exchange |
+| Autodiscover URL | https://autodiscover.outlook.com/autodiscover/autodiscover.xml | https://autodiscover.contoso.com/autodiscover/autodiscover.xml |
+| IMAP server | outlook.office365.com | mail.contoso.com |
+| IMAP port | 993 | 993 |
+| SMTP server | smtp.office365.com | mail.contoso.com |
+| SMTP port | 587 | 587 |

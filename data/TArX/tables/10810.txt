@@ -1,0 +1,11 @@
+<table>
+  <caption>Experimental and calculated semiconductor band gaps (single Eg values only)</caption>
+  <tr><th>Material</th><th>Crystal structure</th><th>Method</th><th>Temperature (K)</th><th>Eg (eV)</th><th>Notes</th></tr>
+  <tr><td>Si</td><td>diamond</td><td>Experiment</td><td>300</td><td>1.12</td><td>Reference room-temperature gap</td></tr>
+  <tr><td>Ge</td><td>diamond</td><td>Experiment</td><td>300</td><td>0.67</td><td>Reference room-temperature gap</td></tr>
+  <tr><td>GaAs</td><td>zincblende</td><td>Experiment</td><td>300</td><td>1.42</td><td>Common III-V semiconductor</td></tr>
+  <tr><td>GaN</td><td>wurtzite</td><td>DFT+U</td><td>0</td><td>1.88</td><td>Representative computed value</td></tr>
+  <tr><td>CdTe</td><td>zincblende</td><td>DFT+U</td><td>0</td><td>1.48</td><td>Reported as direct in literature, but not split here</td></tr>
+  <tr><td>ZnSe</td><td>zincblende</td><td>DFT</td><td>0</td><td>2.70</td><td>Illustrative single-number gap</td></tr>
+  <tr><td>SiC</td><td>3C (zincblende)</td><td>DFT</td><td>0</td><td>2.39</td><td>Polytype dependent</td></tr>
+</table>

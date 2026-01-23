@@ -1,0 +1,6 @@
+<table>
+  <caption>Test requirements for context-selection syntax elements in the video coding bitstream (Bypass and Stuffing)</caption>
+  <tr><td>Syntax element name</td><td>Test requirements</td></tr>
+  <tr><td>Bypass 的 ctx</td><td>Traverse all cases in 8.3.3.1 of GB/T 33475.2—2024 where the value of BypassFlag is 1</td></tr>
+  <tr><td>Stuffing 的 ctx</td><td>Traverse all cases in 8.3.3.1 of GB/T 33475.2—2024 where the value of StuffingBitFlag is 1</td></tr>
+</table>

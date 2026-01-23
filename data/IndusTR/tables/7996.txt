@@ -1,0 +1,16 @@
+<table>
+  <caption>CSDM Operation Message Parameter Mapping (Operation-Level Input/Output)</caption>
+  <thead>
+    <tr><th>Operation Field (EN)</th><th>Applies To</th><th>Type / Format</th><th>Required</th><th>Max Occurrences</th><th>Constraint / Relationship</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>operationName</td><td>Operation</td><td>String (1..128)</td><td>Yes</td><td>1</td><td>Must exist in the parent interface</td><td>Operation to which the message definition belongs.</td></tr>
+    <tr><td>messageDirection</td><td>Message</td><td>Enum</td><td>Yes</td><td>2</td><td>IN and OUT per operation</td><td>Indicates whether the message is request (IN) or response (OUT).</td></tr>
+    <tr><td>messageName</td><td>Message</td><td>String (1..128)</td><td>Yes</td><td>2</td><td>One per direction</td><td>Name of the request/response message.</td></tr>
+    <tr><td>parameterName</td><td>Parameter</td><td>String (1..128)</td><td>No</td><td>N</td><td>When present, parameterType must also be present</td><td>Name of a message parameter.</td></tr>
+    <tr><td>parameterType</td><td>Parameter</td><td>String (1..128)</td><td>Conditional</td><td>N</td><td>Occurrence count must match parameterName</td><td>Data type of the parameter (primitive or complex reference).</td></tr>
+    <tr><td>parameterRequired</td><td>Parameter</td><td>Boolean</td><td>No</td><td>N</td><td>Defaults to false if omitted</td><td>Whether the parameter must be provided/returned.</td></tr>
+    <tr><td>parameterLocation</td><td>Parameter</td><td>Enum</td><td>No</td><td>N</td><td>header | path | query | body</td><td>Where the parameter is carried in the call.</td></tr>
+    <tr><td>parameterCardinality</td><td>Parameter</td><td>String</td><td>No</td><td>N</td><td>e.g., "1", "0..1", "0..*"</td><td>Cardinality constraint for repeated/optional parameters.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type 6 Parameter Definition</caption>
+  <tr><td>Field</td><td>Name</td><td>Length/bit</td><td>Scale factor</td><td>Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>MesTypeID</td><td>Message type</td><td>6</td><td>1</td><td>0~63</td><td></td><td>See Table 5</td></tr>
+  <tr><td>NumC</td><td>Number of satellites for clock corrections</td><td>5</td><td>1</td><td>0~22</td><td></td><td></td></tr>
+  <tr><td>NumO</td><td>Number of satellites for orbit corrections</td><td>3</td><td>1</td><td>0~6</td><td></td><td></td></tr>
+  <tr><td rowspan="5">Clock correction content section</td><td>Clock correction epoch time</td><td>17</td><td>1</td><td>0~86 399</td><td>s</td><td>BeiDou time seconds-of-day count</td></tr>
+  <tr><td>Reserved bits</td><td>4</td><td>1</td><td>0~15</td><td>1</td><td></td></tr>
+  <tr><td>IOD SSR</td><td>2</td><td>1</td><td>0~3</td><td>一</td><td>Changes when system configuration changes</td></tr>
+  <tr><td>IODP</td><td>4</td><td>1</td><td>0~15</td><td>1</td><td>Mask issue of data</td></tr>
+  <tr><td>Slot_S</td><td>9</td><td>1</td><td>0~255</td><td></td><td>Position of the first satellite in this message within the sequence of satellites whose masks are set to 1</td></tr>
+  <tr><td rowspan="3">Clock correction content section</td><td>Satellite 1 clock correction</td><td>18</td><td>1</td><td></td><td></td><td>Clock correction of satellite No. 1 in this type</td></tr>
+  <tr><td>.</td><td>.…</td><td>.</td><td>……</td><td>……</td><td>……</td></tr>
+  <tr><td>Satellite NumC clock correction</td><td>18</td><td>1</td><td></td><td></td><td>Clock correction of satellite No. NumC in this type</td></tr>
+  <tr><td rowspan="6">Orbit correction content section</td><td>Orbit correction epoch time</td><td>17</td><td>1</td><td>0~86399</td><td>S</td><td>BeiDou time seconds-of-day count</td></tr>
+  <tr><td>Reserved bits</td><td>4</td><td>1</td><td>0~15</td><td>一</td><td></td></tr>
+  <tr><td>IOD SSR</td><td>2</td><td>1</td><td>0~3</td><td></td><td>Changes when system configuration changes</td></tr>
+  <tr><td>Satellite 1 orbit correction</td><td>69</td><td>1</td><td></td><td></td><td>Orbit correction of satellite No. 1 in this type</td></tr>
+  <tr><td>…·</td><td>…</td><td></td><td>……</td><td>……</td><td>……</td></tr>
+  <tr><td>Satellite NumO orbit correction</td><td>69</td><td>1</td><td></td><td></td><td>Orbit correction of satellite No. NumO in this type</td></tr>
+  <tr><td>…</td><td>……</td><td>…</td><td>……</td><td>…</td><td>……</td><td>……</td></tr>
+  <tr><td>CRC</td><td>Check bits</td><td>24</td><td>一</td><td></td><td>一</td><td></td></tr>
+</table>

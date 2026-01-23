@@ -1,0 +1,15 @@
+<table>
+  <caption>Temperature Conditioning Sequence with Drop-Hammer Impact Requirements for Extinguisher Valves</caption>
+  <thead>
+    <tr><th rowspan="2">Step</th><th colspan="3">Thermal conditioning</th><th colspan="2">Mechanical impact (not allowed)</th></tr>
+    <tr><th>Setpoint (°C)</th><th>Hold time (h)</th><th>Cycles</th><th>Valve class</th><th>Drop-hammer height (m)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Valve minimum operating temperature (±2)</td><td>24±1</td><td rowspan="5">4</td><td>F75</td><td>0.35</td></tr>
+    <tr><td>2</td><td>20±5</td><td>≥24</td><td>F90</td><td>0.60</td></tr>
+    <tr><td>3</td><td>60±2</td><td>24±1</td><td>F110</td><td>0.75</td></tr>
+    <tr><td>4</td><td>20±5</td><td>8</td><td>FT90</td><td>0.60</td></tr>
+    <tr><td>5</td><td>Valve minimum operating temperature (±2)</td><td>8</td><td>FT110</td><td>0.90</td></tr>
+    <tr><td>Acceptance</td><td colspan="3">No leakage after each cycle</td><td colspan="2">Impact applied after step 3 of each cycle</td></tr>
+  </tbody>
+</table>

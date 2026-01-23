@@ -1,0 +1,14 @@
+<table>
+  <caption>Perpendicularity (Squareness) Tolerance Grades for Laser-Cut Edges</caption>
+  <thead>
+    <tr><th>Accuracy grade</th><th>Permitted perpendicularity deviation u (mm)</th><th>Applies over thickness a (mm)</th><th>Expression form</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Grade A0</td><td>u ≤ 0.04 + 0.002·a</td><td>0.5–20</td><td>Linear with thickness</td></tr>
+    <tr><td>Grade A1</td><td>u ≤ 0.08 + 0.003·a</td><td>0.5–40</td><td>Linear with thickness</td></tr>
+    <tr><td>Grade A2</td><td>u ≤ 0.18 + 0.006·a</td><td>1–60</td><td>Linear with thickness</td></tr>
+    <tr><td>Grade A3</td><td>u ≤ 0.30 + 0.010·a</td><td>3–80</td><td>Linear with thickness</td></tr>
+    <tr><td>Grade A4</td><td>u ≤ 0.50 + 0.015·a</td><td>6–100</td><td>Linear with thickness</td></tr>
+    <tr><td colspan="4">Note: u is the maximum out-of-square deviation of the cut edge relative to the plate surface.</td></tr>
+  </tbody>
+</table>

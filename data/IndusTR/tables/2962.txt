@@ -1,0 +1,10 @@
+<table>
+  <caption>Official Vehicle Management Platform — System Access Log Summary</caption>
+  <tr><th>Log ID</th><th>User Account</th><th>Login Time</th><th>IP Address</th><th>Action</th><th>Result</th><th>Latency (ms)</th></tr>
+  <tr><td>LOG-990120</td><td>fleet_admin_07</td><td>20240501103011</td><td>10.8.14.23</td><td>LOGIN</td><td>SUCCESS</td><td>184</td></tr>
+  <tr><td>LOG-990121</td><td>dispatcher_02</td><td>20240501104109</td><td>10.8.14.47</td><td>CREATE_DISPATCH</td><td>SUCCESS</td><td>612</td></tr>
+  <tr><td>LOG-990122</td><td>auditor_01</td><td>20240501105544</td><td>10.8.12.10</td><td>EXPORT_REPORT</td><td>DENIED</td><td>95</td></tr>
+  <tr><td>LOG-990123</td><td>driver_15</td><td>20240501110233</td><td>10.8.18.201</td><td>VIEW_TASK</td><td>SUCCESS</td><td>241</td></tr>
+  <tr><td>LOG-990124</td><td>fleet_admin_07</td><td>20240501111958</td><td>10.8.14.23</td><td>UPLOAD_INSURANCE</td><td>SUCCESS</td><td>1330</td></tr>
+  <tr><td>LOG-990125</td><td>dispatcher_02</td><td>20240501113302</td><td>10.8.14.47</td><td>LOGOUT</td><td>SUCCESS</td><td>76</td></tr>
+</table>

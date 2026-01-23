@@ -1,0 +1,15 @@
+<table>
+  <caption>Public Security Video/Image Exchange Fields — DE-Centric Register (No Explicit Item Identifiers)</caption>
+  <thead>
+    <tr><th>No.</th><th>Item Name</th><th>Notes</th><th>DE Code</th><th>Source Standard Clause</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Moving Target Identifier</td><td>Identifier assigned by the producer system</td><td>DE01400</td><td>Annex A</td></tr>
+    <tr><td>2</td><td>Moving Target Type Code</td><td>Type classification for the target</td><td>DE01401</td><td>Annex A</td></tr>
+    <tr><td>3</td><td>Top-left Corner_X Coordinate</td><td>Bounding box coordinate X</td><td>DE01410</td><td>Annex B</td></tr>
+    <tr><td>4</td><td>Top-left Corner_Y Coordinate</td><td>Bounding box coordinate Y</td><td>DE01411</td><td>Annex B</td></tr>
+    <tr><td>5</td><td>Bottom-right Corner_X Coordinate</td><td>Bounding box coordinate X2</td><td>DE01412</td><td>Annex B</td></tr>
+    <tr><td>6</td><td>Bottom-right Corner_Y Coordinate</td><td>Bounding box coordinate Y2</td><td>DE01413</td><td>Annex B</td></tr>
+    <tr><td>7</td><td>Repository Identifier</td><td>Identifier of the repository/storage node</td><td>DE01420</td><td>Annex C</td></tr>
+  </tbody>
+</table>

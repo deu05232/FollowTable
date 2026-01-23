@@ -1,0 +1,15 @@
+<table>
+  <caption>Computational Setup for Pulsatile Human Blood Flow Rate Simulation (Discretization and Runtime)</caption>
+  <thead>
+    <tr><th>Case ID</th><th>Vessel segment</th><th>Mesh elements (N)</th><th>Min cell size (mm)</th><th>Time-step coefficient (C_t)</th><th>Δt (µs)</th><th>Solver</th><th>CPU cores</th><th>Wall-clock time per cardiac cycle (min)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>C1</td><td>Ascending aorta</td><td>850000</td><td>0.18</td><td>0.30</td><td>40</td><td>FV</td><td>16</td><td>52</td></tr>
+    <tr><td>C2</td><td>Ascending aorta</td><td>1250000</td><td>0.12</td><td>0.25</td><td>30</td><td>FV</td><td>16</td><td>78</td></tr>
+    <tr><td>C3</td><td>Aortic arch</td><td>900000</td><td>0.16</td><td>0.35</td><td>45</td><td>Taylor-Galerkin</td><td>32</td><td>61</td></tr>
+    <tr><td>C4</td><td>Aortic arch</td><td>1600000</td><td>0.10</td><td>0.30</td><td>32</td><td>Taylor-Galerkin</td><td>32</td><td>104</td></tr>
+    <tr><td>C5</td><td>Femoral artery</td><td>620000</td><td>0.20</td><td>0.40</td><td>55</td><td>MacCormack</td><td>8</td><td>47</td></tr>
+    <tr><td>C6</td><td>Femoral artery</td><td>980000</td><td>0.14</td><td>0.35</td><td>45</td><td>MacCormack</td><td>8</td><td>73</td></tr>
+    <tr><td>C7</td><td>Carotid artery</td><td>540000</td><td>0.22</td><td>0.28</td><td>38</td><td>FV</td><td>8</td><td>39</td></tr>
+  </tbody>
+</table>

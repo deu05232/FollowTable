@@ -1,0 +1,14 @@
+<table>
+  <caption>Container Type Classification (Enum Values)</caption>
+  <thead>
+    <tr><th>Value</th><th>Type Name</th><th>Meaning</th><th>Typical Payload</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Model Container</td><td>Container storing only model information.</td><td>model/*.ifc</td><td>Used for model exchange.</td></tr>
+    <tr><td>1</td><td>Rule Container</td><td>Container storing rules and statements for validation.</td><td>rules/*.xml</td><td>Often references external rule standards.</td></tr>
+    <tr><td>2</td><td>Mixed Container</td><td>Container storing documents/drawings and other files.</td><td>docs/*</td><td>May include non-structured files.</td></tr>
+    <tr><td>3</td><td>Archive Container</td><td>Container used for long-term archiving.</td><td>archive/*.zip</td><td>Read-only in most deployments.</td></tr>
+    <tr><td>4</td><td>Temporary Container</td><td>Container used for transient processing.</td><td>tmp/*</td><td>Auto-expired by server policy.</td></tr>
+    <tr><td>5</td><td>Derived Container</td><td>Container generated from other containers.</td><td>derived/*</td><td>Derived semantics only; not an interface field spec.</td></tr>
+  </tbody>
+</table>

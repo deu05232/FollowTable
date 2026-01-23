@@ -1,0 +1,9 @@
+<table>
+  <caption>Material parameters for the device model.</caption>
+  <tr><th>Parameter</th><th>Material</th><th>Value</th></tr>
+  <tr><td>m^(*)/m_(0)</td><td>Al _(x) Ga _(1-x) As</td><td>0.067+0.083x</td></tr>
+  <tr><td>m^(*)/m_(0)</td><td>In _(y) Ga _(1-y) As</td><td>0.067-0.045y</td></tr>
+  <tr><td>V_(b) (meV)</td><td>Al _(x) Ga _(1-x) As / In _(y) Ga _(1-y) As</td><td>823x+640y</td></tr>
+  <tr><td>ε_(b)</td><td>Al _(x) Ga _(1-x) As</td><td>12.7-3.12x</td></tr>
+  <tr><td>ε_(w)</td><td>In _(y) Ga _(1-y) As</td><td>12.7+2y</td></tr>
+</table>

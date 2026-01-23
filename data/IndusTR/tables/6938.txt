@@ -1,0 +1,11 @@
+<table>
+  <caption>Photodetector Assembly Requirements (Narrative Constraints Embedded in Notes)</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>Requirement Statement</th><th>Unit</th><th>Verification Method</th></tr>
+  <tr><td>Spectral response window</td><td>λ</td><td>Must cover 1260–1700 when measured at 25 °C; if measured at 85 °C the usable band may shrink by up to 10 nm at each edge.</td><td>nm</td><td>Optical spectrum scan</td></tr>
+  <tr><td>Avalanche multiplication factor</td><td>M</td><td>Operate between 3 and 15 only when VR is within 0.90·VBR to 0.98·VBR and Pin is approximately 1 µW at 1310 nm; otherwise value is not valid.</td><td>1</td><td>Bias sweep</td></tr>
+  <tr><td>Optical return loss</td><td>ORL</td><td>For high return-loss assemblies, ORL should be at least 26; values lower than this are acceptable only if the mating connector reflectance is below −50 dB.</td><td>dB</td><td>ORL meter</td></tr>
+  <tr><td>Responsivity</td><td>R</td><td>At 1310 nm, responsivity is typically around 0.8; values outside this may occur depending on coupling loss and fiber alignment.</td><td>A/W</td><td>Calibrated power measurement</td></tr>
+  <tr><td>Operating case temperature</td><td>Tcase</td><td>Commercial grade operation is intended from −5 to +75; operation below −5 is allowed only for warm-start conditions with stabilization time ≥10 min.</td><td>°C</td><td>Thermal chamber</td></tr>
+  <tr><td>Storage humidity</td><td>RH</td><td>Keep below 95 and avoid condensation; if condensation occurs, dry-bake at 60 °C for 24 h before use.</td><td>%</td><td>Environmental inspection</td></tr>
+  <tr><td>Restricted substances</td><td>—</td><td>Lead and mercury content shall be ≤0.1% and cadmium shall be ≤0.01% by mass in homogeneous materials.</td><td>%</td><td>Material declaration</td></tr>
+</table>

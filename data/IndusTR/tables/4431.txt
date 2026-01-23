@@ -1,0 +1,13 @@
+<table>
+  <caption>Information Element Description for Consumer Information</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Value Range</td><td>Remarks</td></tr>
+  <tr><td>05</td><td>Consumer information</td><td>Composite</td><td>M</td><td></td><td></td></tr>
+  <tr><td>05.01</td><td>Mobile phone</td><td>C1..50</td><td>M</td><td></td><td>Mobile phone number used by the consumer when registering as a user on the e-commerce platform</td></tr>
+  <tr><td>05.02</td><td>Shipping address</td><td>C1..100</td><td>M</td><td></td><td></td></tr>
+  <tr><td>05.03</td><td>Contact phone</td><td>C1..50</td><td>M</td><td></td><td></td></tr>
+  <tr><td>05.04</td><td>Nickname</td><td>C1..20</td><td>0</td><td></td><td>Appellation used by the consumer when registering on the e-commerce platform</td></tr>
+  <tr><td>05.05</td><td>Membership level</td><td>C1..20</td><td>0</td><td></td><td>Consumer's level on the e-commerce platform</td></tr>
+  <tr><td>05.06</td><td>Consumer credit evaluation status</td><td>C..ul</td><td>0</td><td></td><td></td></tr>
+  <tr><td>05.07</td><td>Consumer name</td><td>C1..200</td><td>0</td><td></td><td>Consumer's real name verified through real-name authentication on the e-commerce platform</td></tr>
+  <tr><td>05.08</td><td>Email</td><td>C1..200</td><td>0</td><td></td><td></td></tr>
+</table>

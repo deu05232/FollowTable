@@ -1,0 +1,11 @@
+# Operational Notes for Special IPv4 Ranges (Routing Filtering Focus)
+
+| CIDR | Start–End range | Used for | Common filtering rule | Seen in practice |
+| --- | --- | --- | --- | --- |
+| 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | "This network" | Drop on ingress; invalid source | Rare (misconfigs) |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Private LAN | Drop at Internet edge | Very common |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | CGNAT shared space | Do not route on public peering | Common in ISP cores |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Drop if seen on wire | Sometimes appears as spoofing |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local | Block at L3 boundaries | Common on LAN segments |
+| 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Documentation | Blackhole if leaked | Occasional leaks |
+| 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | Benchmark testing | Keep internal-only | Niche lab use |

@@ -1,0 +1,19 @@
+<table>
+  <caption>AR Trackable Interface Parameters (Outputs Not Marked as out_)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">ArTrackable_getType</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Trackable handle.</td></tr>
+    <tr><td>trackable_type</td><td>ArTrackableType *</td><td>out</td><td>Receives the trackable type.</td></tr>
+    <tr><td rowspan="3">ArTrackable_getTrackingState</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Trackable handle.</td></tr>
+    <tr><td>tracking_state</td><td>ArTrackingState *</td><td>out</td><td>Receives the current tracking state.</td></tr>
+    <tr><td rowspan="3">ArSession_getAllTrackables</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>filter_type</td><td>ArTrackableType</td><td>in</td><td>Type filter applied to results.</td></tr>
+    <tr><td>trackable_list</td><td>ArTrackableList *</td><td>out</td><td>Receives a list handle of matching trackables.</td></tr>
+    <tr><td rowspan="2">ArTrackableList_getSize</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>List to inspect.</td></tr>
+    <tr><td>size</td><td>int32_t *</td><td>out</td><td>Receives element count.</td></tr>
+  </tbody>
+</table>

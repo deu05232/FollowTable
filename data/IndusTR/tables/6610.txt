@@ -1,0 +1,15 @@
+<table>
+  <caption>Vehicle Identity Parameters for Swap Authorization (Request)</caption>
+  <thead>
+    <tr><th>Section</th><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vehicle Identification</td><td>Vehicle Identification Number</td><td>vin</td><td>string</td><td>ISO 3779 VIN, fixed length 17. Used as the primary vehicle identifier for pre-swap authorization.</td><td>Yes</td></tr>
+    <tr><td>Vehicle Identification</td><td>License Plate Number</td><td>plateNo</td><td>string</td><td>Full license plate text (including region prefix). Recommended to transmit when VIN is present for cross-check.</td><td>No</td></tr>
+    <tr><td>Vehicle Identification</td><td>License Plate Color</td><td>plateColor</td><td>string</td><td>Enumerated text such asblue,yellow,green,white,black. Helps disambiguate plates across regions.</td><td>No</td></tr>
+    <tr><td>Vehicle Attributes</td><td>Vehicle Product Model</td><td>vehicleModel</td><td>string</td><td>Regulatory/standard vehicle model code (e.g., national product model). Used to validate vehicle eligibility for a station/cabinet.</td><td>No</td></tr>
+    <tr><td>Vehicle Attributes</td><td>Vehicle Category</td><td>vehicleCategory</td><td>string</td><td>Vehicle type classification such aspassenger,commercial,twoWheeler. Used for rule-based authorization.</td><td>No</td></tr>
+    <tr><td>Verification Aids</td><td>Vehicle Certificate Hash</td><td>vehicleCertHash</td><td>string</td><td>SHA-256 of a vehicle certificate/public key identifier. Used when VIN+plate requires cryptographic binding.</td><td>No</td></tr>
+    <tr><td>Verification Aids</td><td>Owner/Account Identifier</td><td>accountId</td><td>string</td><td>Platform account ID bound to the vehicle. Used to detect mismatch between vehicle identity and requesting user.</td><td>No</td></tr>
+  </tbody>
+</table>

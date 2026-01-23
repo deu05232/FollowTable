@@ -1,0 +1,7 @@
+<table>
+  <caption>Basic math operator interface parameters (size expressed as tensor length)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Supported types include int8/int16/int32/float16/float32; default is float32</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>CPU/GPU; default is CPU</td></tr>
+  <tr><td>Tensor Length</td><td>Input</td><td>Required</td><td>Number of elements in the input vector</td></tr>
+</table>

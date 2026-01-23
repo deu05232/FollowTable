@@ -1,0 +1,14 @@
+<table>
+  <caption>GRB Afterglow Timing Windows by Redshift Bin (Aggregated Summary)</caption>
+  <thead>
+    <tr><th>Redshift bin</th><th>N (bursts)</th><th>Median afterglow start delay (min)</th><th>Median afterglow end time (hr)</th><th>Typical instrument</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>z < 0.5</td><td>8</td><td>12</td><td>6</td><td>Swift/UVOT</td><td>Nearby events; faster follow-up on average</td></tr>
+    <tr><td>0.5 ≤ z < 1.0</td><td>15</td><td>18</td><td>8</td><td>Swift/XRT</td><td>Mixed optical detectability</td></tr>
+    <tr><td>1.0 ≤ z < 2.0</td><td>21</td><td>25</td><td>10</td><td>GROND</td><td>Longer scheduling delays common</td></tr>
+    <tr><td>2.0 ≤ z < 3.0</td><td>14</td><td>35</td><td>12</td><td>VLT</td><td>Lyman-α affects optical bands</td></tr>
+    <tr><td>3.0 ≤ z < 4.5</td><td>6</td><td>48</td><td>14</td><td>Gemini</td><td>Often requires NIR follow-up</td></tr>
+    <tr><td>z ≥ 4.5</td><td>3</td><td>70</td><td>18</td><td>Keck</td><td>Small-number statistics</td></tr>
+  </tbody>
+</table>

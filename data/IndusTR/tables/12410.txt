@@ -1,0 +1,15 @@
+<table>
+  <caption>SOF Certificate Application API — SOF_Login Interface Deep Dive</caption>
+  <thead>
+    <tr><th>Section</th><th>Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Prototype</td><td>function SOF_Login(CertID, PassWd, cb, ctx)</td></tr>
+    <tr><td>Purpose</td><td>User authentication by verifying the certificate password for the selected CertID.</td></tr>
+    <tr><td>Inputs</td><td>CertID (unique certificate identifier); PassWd (certificate PIN/password).</td></tr>
+    <tr><td>Outputs</td><td>Asynchronous callbackcbreceives status code and message;ctxis user context passed through.</td></tr>
+    <tr><td>Callback Contract</td><td>cb(status, message, ctx)where status=0 indicates success, non-zero indicates authentication failure or device error.</td></tr>
+    <tr><td>Notes</td><td>Wrong password attempts may lock the key container depending on local policy; ensure UI rate-limits retries.</td></tr>
+    <tr><td>Example</td><td>SOF_Login(certId, pin, function(s,m,c){ /* handle */ }, appCtx)</td></tr>
+  </tbody>
+</table>

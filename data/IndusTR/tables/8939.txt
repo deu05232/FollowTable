@@ -1,0 +1,10 @@
+<table>
+  <caption>vrPose (extended) field specification for VR positioning output</caption>
+  <tr><th>Data Type</th><th>Parameter Type</th><th>Description</th></tr>
+  <tr><td rowspan="6">vrPose</td><td>int64_t time_stamp</td><td>Timestamp for the pose sample (same time base as the device clock)</td></tr>
+  <tr><td>vrQuaternion orientation</td><td>Orientation as a rotation quaternion</td></tr>
+  <tr><td>vr3DPoint position</td><td>Position in tracking space as a 3D point</td></tr>
+  <tr><td>vr3DPoint position_confidence</td><td>Per-axis confidence or covariance proxy for position (implementation-defined)</td></tr>
+  <tr><td>double tracking_quality</td><td>Overall tracking quality score for the pose sample</td></tr>
+  <tr><td>uint32_t flags</td><td>Bit flags describing validity of pose components (e.g., position valid, orientation valid)</td></tr>
+</table>

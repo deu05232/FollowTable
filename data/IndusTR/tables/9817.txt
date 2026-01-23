@@ -1,0 +1,8 @@
+<table>
+  <caption>AR hit result list utilities (create, size, and destroy)</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_hit_result_list</td><td>ArHitResultList **</td><td>Receives the address of a newly created hit result list object</td></tr>
+  <tr><td>out_size</td><td>int32_t *</td><td>Receives the number of elements in the hit result list</td></tr>
+  <tr><td>hit_result_list</td><td>ArHitResultList *</td><td>Hit result list handle to be destroyed</td></tr>
+</table>

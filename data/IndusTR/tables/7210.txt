@@ -1,0 +1,10 @@
+<table>
+  <caption>NIRUGU usage: valid forms mixed with invalid examples (for reference)</caption>
+  <tr><th>Category</th><th>Rendered Form (schematic)</th><th>Character Sequence</th><th>Validity</th></tr>
+  <tr><td>Valid</td><td>…</td><td>[U+1820][NIRUGU][U+1821]</td><td>OK</td></tr>
+  <tr><td>Valid</td><td>…</td><td>[U+182D][NIRUGU][U+1820]</td><td>OK</td></tr>
+  <tr><td>Invalid</td><td>…</td><td>[NIRUGU][U+1820]</td><td>Not allowed</td></tr>
+  <tr><td>Invalid</td><td>…</td><td>[U+1820][U+180E][NIRUGU]</td><td>Not allowed</td></tr>
+  <tr><td>Valid</td><td>…</td><td>[U+1834][U+1820][NIRUGU]</td><td>OK</td></tr>
+  <tr><td>Invalid</td><td>…</td><td>[U+1828][NIRUGU][U+180B]</td><td>Not allowed</td></tr>
+</table>

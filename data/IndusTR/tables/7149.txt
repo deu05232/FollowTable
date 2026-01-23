@@ -1,0 +1,9 @@
+<table>
+  <tr><td>Prototype</td><td>LONG SOF_UserAuthAndRotatePwd(BSTR CertID, BSTR PassWd, BSTR NewPassWd)</td></tr>
+  <tr><td>Description</td><td>Authenticate the user by verifying the certificate password and, upon success, rotate the password to NewPassWd.</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>PassWd (current certificate password)</td></tr>
+  <tr><td>NewPassWd (new certificate password)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0 (success)</td></tr>
+  <tr><td>Non-zero (failure)</td></tr>
+</table>

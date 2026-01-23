@@ -1,0 +1,15 @@
+<table>
+  <caption>Self-service Interface Function Test Cases — Customer Administrator (Terminal + Application System)</caption>
+  <thead>
+    <tr><th>Module</th><th>Test Case ID</th><th>Role</th><th>Test Sub-item</th><th>Objective</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Terminal</td><td>SSP-CUST-TERM-10</td><td>Industry Customer Administrator</td><td>Terminal Management</td><td>Verify querying terminal inventory with filters (status/model)</td><td>Filtered list matches criteria</td></tr>
+    <tr><td>SSP-CUST-TERM-11</td><td>Industry Customer Administrator</td><td>Terminal Management</td><td>Verify binding terminal to an application instance</td><td>Terminal binding saved and visible in details</td></tr>
+    <tr><td>SSP-CUST-TERM-12</td><td>Industry Customer Administrator</td><td>Terminal Management</td><td>Verify exporting terminal list</td><td>Export file contains correct rows/columns</td></tr>
+    <tr><td>SSP-CUST-TERM-13</td><td>Industry Customer Administrator</td><td>Terminal Management</td><td>Verify terminal alarm acknowledgement in portal</td><td>Alarm state changes to acknowledged</td></tr>
+    <tr><td rowspan="3">Application</td><td>SSP-CUST-APP-20</td><td>Industry Customer Administrator</td><td>Application System Management</td><td>Verify creating an application system record</td><td>Application system created successfully</td></tr>
+    <tr><td>SSP-CUST-APP-21</td><td>Industry Customer Administrator</td><td>Application System Management</td><td>Verify updating application system configuration</td><td>Config changes persist after refresh</td></tr>
+    <tr><td>SSP-CUST-APP-22</td><td>Industry Customer Administrator</td><td>Application System Management</td><td>Verify deleting an application system</td><td>Record removed and audit log generated</td></tr>
+  </tbody>
+</table>

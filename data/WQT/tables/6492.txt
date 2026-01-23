@@ -1,0 +1,19 @@
+# Windows Media Video
+> Video compression formats
+
+| Public Name | FourCC | Description |
+| --- | --- | --- |
+| Microsoft MPEG-4 version 1 | MPG4 | Video for Windows -based codec. Non-standard MPEG-4 codec incompatible with the later standardized version of MPEG-4 Part 2 . |
+| Microsoft MPEG-4 version 2 | MP42 | VfW-based codec. Non-compliant with finalized MPEG-4 part 2 standard. |
+| Microsoft MPEG-4 version 3 | MP43 | VfW-based codec. Non-compliant with finalized MPEG-4 part 2 standard. Eventually locked for encoding only with ASF files (build 3688 and earlier could also encode to AVI). [21] |
+| Microsoft ISO MPEG-4 version 1 | MP4S | DirectX Media Objects (DMO)-based codec. MPEG-4 Simple Profile compliant. |
+| Microsoft ISO MPEG-4 version 1.1 | M4S2 | MPEG-4 Advanced Simple Profile compliant. [22] |
+| Windows Media Video 7 | WMV1 | DMO-based codec. |
+| Windows Media Screen 7 | MSS1 | DMO-based codec. Optimized for low-bitrate sequential screen captures or screencasts. Deprecated in favor of Windows Media 9 Screen codec. |
+| Windows Media Video 8 | WMV2 | DMO-based codec. |
+| Windows Media Video 9 | WMV3 | DMO-based codec. Video for Windows (VfW/VCM) version also available. [2] |
+| Windows Media Video 9 Screen | MSS2 | DMO-based codec. Optimized for low-bitrate sequential screen captures or screencasts. |
+| Windows Media Video 9.1 Image | WMVP | DMO-based codec. Optimized for encoding video from sequential bitmap images. Used, for instance, by Photo Story. |
+| Windows Media Video 9.1 Image V2 | WVP2 | DMO-based codec. Optimized for encoding video from sequential bitmap images. Used, for instance, by Photo Story. |
+| Windows Media Video 9 Advanced Profile | WMVA | DMO-based codec. Deprecated as non-VC-1-compliant. |
+| Windows Media Video 9 Advanced Profile | WVC1 | DMO-based codec. VC-1 compliant format. |

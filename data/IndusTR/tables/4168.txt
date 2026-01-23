@@ -1,0 +1,14 @@
+<table>
+  <caption>Engine alternating load test cycle specification</caption>
+  <tr><td>Cycle No.</td><td>Engine speed</td><td>Load/%</td><td>Cycle time/min</td><td>Notes</td></tr>
+  <tr><td>1</td><td>Idle n</td><td>0</td><td>2.25</td><td>Cycle transition completed within 15 s</td></tr>
+  <tr><td>2</td><td>Rated speed n,</td><td>100</td><td>10</td><td></td></tr>
+  <tr><td>3</td><td>Speed of maximum net torque nM</td><td>100</td><td>5</td><td>For turbocharged engines, use the mid-speed within the speed range of maximum net torque</td></tr>
+  <tr><td>4</td><td>Rated speed n,</td><td>100</td><td>5</td><td>For engines with exhaust gas recirculation (EGR), the speed at the highest EGR opening temperature may be selected instead; the load is selected based on measurements at the EGR temperature point</td></tr>
+  <tr><td rowspan="2">5</td><td>Speed at maximum boost pressure n BPmax</td><td>100</td><td>5</td><td>For turbocharged engines</td></tr>
+  <tr><td>Speed of maximum net torque nM</td><td>100</td><td>5</td><td>For naturally aspirated engines</td></tr>
+  <tr><td>6</td><td>Speed at maximum peak firing pressure n Pmax</td><td>100</td><td>5</td><td>Speed when the in-cylinder firing pressure is at its maximum</td></tr>
+  <tr><td>7</td><td>Highest continuous speed n con</td><td>100</td><td>5</td><td>With a full set of vehicle accessories, the highest speed at which the engine can stably output at full load</td></tr>
+  <tr><td>8</td><td>Idle ni</td><td>0</td><td>2.25</td><td>Cycle transition completed within 15s</td></tr>
+  <tr><td>9</td><td>Maximum no-load speed nimax</td><td>0</td><td>0.5</td><td>Cycle transition completed within 15s; with a full set of vehicle accessories, the highest speed the engine can reach under no-load condition</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Session Header and Protocol Identification Fields</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Length</th><th>Field</th><th>Encoding / Example</th><th>Protocol / Version Notes</th><th>Presence</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>2 bytes</td><td>Message ID</td><td>0x18 0x02</td><td>Identifier changes per protocol revision table</td><td>Mandatory</td></tr>
+    <tr><td>3</td><td>1 byte</td><td>Protocol Major Version</td><td>0x01</td><td>Major increments indicate breaking changes</td><td>Mandatory</td></tr>
+    <tr><td>4</td><td>1 byte</td><td>Protocol Minor Version</td><td>0x02</td><td>Minor increments indicate backward-compatible changes</td><td>Mandatory</td></tr>
+    <tr><td>5</td><td>1 byte</td><td>Protocol Patch Version</td><td>0x0A</td><td>Patch increments indicate bug-fix releases</td><td>Optional</td></tr>
+    <tr><td>6</td><td>4 bytes</td><td>Session Timestamp (UTC)</td><td>Unix time (seconds)</td><td>Timestamp epoch differs in legacy revisions</td><td>Optional</td></tr>
+    <tr><td>10</td><td>2 bytes</td><td>Header CRC</td><td>CRC-16/CCITT</td><td>CRC polynomial differs for v0.x vs v1.x</td><td>Mandatory</td></tr>
+    <tr><td>12</td><td>1 byte</td><td>Reserved</td><td>0xFF</td><td>Reserved for future protocol extension</td><td>Optional</td></tr>
+  </tbody>
+</table>

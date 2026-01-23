@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Interface Definitions: Key Agreement with Signature Verification and Signing</caption>
+  <thead>
+    <tr><th>Category</th><th>API Name</th><th>Prototype (C)</th><th>Notable Parameters</th><th>Output Handle/Data</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Key Agreement</td><td>Generate agreement data (sponsor)</td><td>int SAF_SM9GenerateAgreementData(void* hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char* pucResponsorID, unsigned int uiResponsorIDLen, unsigned char* pucSponsorTmpPublicKey, unsigned int* puiSponsorTmpPublicKeyLen, void** phAgreementHandle);</td><td>pucResponsorID,uiResponsorIDLenpucSponsorTmpPublicKey,puiSponsorTmpPublicKeyLen</td><td>phAgreementHandle</td></tr>
+    <tr><td>Compute negotiated session key (one-shot)</td><td>int SAF_SM9GenerateAgreementDataAndKey(void* hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char* pucSponsorID, unsigned int uiSponsorIDLength, unsigned char* pucSponsorTmpPublicKey, unsigned int* puiSponsorTmpPublicKeyLen, unsigned char* pucResponseTmpPublicKey, unsigned int uiResponseTmpPublicKeyLen, void** phKeyHandle);</td><td>pucSponsorID,uiSponsorIDLengthpucResponseTmpPublicKey,uiResponseTmpPublicKeyLen</td><td>phKeyHandle</td></tr>
+    <tr><td rowspan="4">SM9 Signature</td><td>Sign</td><td>int SAF_SM9Sign(void* hAppHandle, unsigned char* pucContainerName, unsigned int uiContainerLen, unsigned int uiMasterPublicKeyIndex, unsigned char* pucData, unsigned int uiDataLength, unsigned char* pucSignData, unsigned int* puiSignDataLen);</td><td>pucContainerNamepucData,uiDataLength</td><td>pucSignData,puiSignDataLen</td></tr>
+    <tr><td>Verify</td><td>int SAF_SM9Verify(void* hAppHandle, unsigned int uiMasterPublicKeyIndex, unsigned char* pucUserID, unsigned int uiUserIDLen, unsigned char* pucData, unsigned int uiDataLength, unsigned char* pucSignData, unsigned int uiSignDataLen);</td><td>pucUserID,uiUserIDLenpucSignData,uiSignDataLen</td><td>intstatus</td></tr>
+    <tr><td>Import signing master public key</td><td>int SAF_ImportSM9MasterPublicKey(void* hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, unsigned char* pucMasterPublicKey, unsigned int uiMasterPublicKeyLen);</td><td>uiKeyType(signature)pucMasterPublicKey</td><td>intstatus</td></tr>
+    <tr><td>Delete signature container</td><td>int SAF_DeleteContainer(void* hAppHandle, unsigned char* pucContainerName, unsigned int uiContainerLen);</td><td>pucContainerName,uiContainerLen</td><td>intstatus</td></tr>
+  </tbody>
+</table>

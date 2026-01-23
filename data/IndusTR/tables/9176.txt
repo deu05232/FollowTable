@@ -1,0 +1,15 @@
+<table>
+  <caption>Codec Conformance Vectors (Single Set Listing)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Profile</th><th>Bitstream Set (all sample rates)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CT-001</td><td>LC</td><td>ct001_core_set.avsa</td><td>Same container used for 32/44.1/48 kHz</td></tr>
+    <tr><td>CT-002</td><td>LC</td><td>ct002_transient_set.avsa</td><td>Transient handling stress</td></tr>
+    <tr><td>CT-003</td><td>HE</td><td>ct003_sbr_set.avsa</td><td>SBR tool enabled</td></tr>
+    <tr><td>CT-004</td><td>LC</td><td>ct004_coupling_set.avsa</td><td>Channel coupling checks</td></tr>
+    <tr><td>CT-005</td><td>LC</td><td>ct005_crc_error_set.avsa</td><td>Includes CRC error patterns</td></tr>
+    <tr><td>CT-006</td><td>HE</td><td>ct006_ps_set.avsa</td><td>Parametric stereo</td></tr>
+    <tr><td>CT-007</td><td>LC</td><td>ct007_bitalloc_set.avsa</td><td>Bit allocation corner cases</td></tr>
+  </tbody>
+</table>

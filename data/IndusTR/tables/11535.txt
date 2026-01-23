@@ -1,0 +1,9 @@
+<table>
+  <caption>AR environment understanding parameters (memory ownership and indirection emphasized)</caption>
+  <tr><td>Parameter</td><td>Indirection level</td><td>Ownership / lifetime notes</td></tr>
+  <tr><td>session</td><td>*</td><td>Borrowed reference; valid until session shutdown</td></tr>
+  <tr><td>config</td><td>*</td><td>Borrowed reference; must not be modified concurrently</td></tr>
+  <tr><td>out_dense_map</td><td>**</td><td>Function allocates and writes back the address; caller must later destroy the object</td></tr>
+  <tr><td>out_vertices</td><td>**</td><td>Points to memory owned by the map object; becomes invalid after map release</td></tr>
+  <tr><td>out_direction</td><td>*</td><td>Caller provides storage; value written on success</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Certificate-based SM2 Public Key Encryption Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Sm2PublicKeyEncByCert(void * hAppHandle,unsigned char * pucCertificate,unsigned int uiCertificateLen,unsigned int uiAlgorithmID,unsigned char * pucInData,unsigned int uiInDataLen,unsigned char * pucOutData,unsigned int * puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>Certificate-based SM2 public key encryption; the certificate is imported externally</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application handle)</td></tr>
+  <tr><td>pucCertificate[in](DER-encoded digital certificate)</td></tr>
+  <tr><td>uiCertificateLen[in](digital certificate length)</td></tr>
+  <tr><td>uiAlgorithmID[in](SM2 algorithm identifier)</td></tr>
+  <tr><td>pucInData[in](input data)</td></tr>
+  <tr><td>uiInDataLen[in](input data length)</td></tr>
+  <tr><td>pucOutData[out](output DER-encoded data)</td></tr>
+  <tr><td>puiOutDataLen[in,out](output data length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>Non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

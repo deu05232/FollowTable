@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre PHY Timing and Data-Rate Reference Values (Non-bounded Summary)</caption>
+  <thead>
+    <tr><th>Category</th><th>Item</th><th>Value</th><th>Unit</th><th>Notes / Operating rate mapping</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Line rate</td><td>Supported bit rates</td><td>2.5, 3.125, 5.0, 6.25</td><td>Gbit/s</td><td>Multiple rates shown in a single cell; engineering must select the applicable one</td></tr>
+    <tr><td>Rate tolerance</td><td>±100</td><td>ppm</td><td>Applies to all supported rates</td></tr>
+    <tr><td>Unit interval (UI)</td><td>Depends on rate</td><td>ps</td><td>UI = 1/bit rate (e.g., 400 ps @ 2.5G, 160 ps @ 6.25G)</td></tr>
+    <tr><td rowspan="3">Clocking</td><td>Reference clock</td><td>100</td><td>MHz</td><td>Common implementation choice</td></tr>
+    <tr><td>PLL bandwidth</td><td>1.5</td><td>MHz</td><td>Typical design target (not a limit)</td></tr>
+    <tr><td>Deterministic latency</td><td>Yes</td><td>—</td><td>Qualitative statement, not a numeric bound</td></tr>
+    <tr><td rowspan="2">Encoding</td><td>Scrambler polynomial</td><td>x^15 + x^14 + 1</td><td>—</td><td>Example polynomial</td></tr>
+    <tr><td>Comma / alignment</td><td>K28.5-like</td><td>—</td><td>Descriptive only</td></tr>
+  </tbody>
+</table>

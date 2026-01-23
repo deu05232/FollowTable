@@ -1,0 +1,16 @@
+<table>
+  <caption>SM9 API Quick List — One-line Purpose Only (No Prototypes / No Parameter Roles)</caption>
+  <thead>
+    <tr><th>Function Name</th><th>High-level Purpose</th><th>Typical Caller</th><th>Common Pitfalls (Narrative)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SAF_SM9Encrypt</td><td>Encrypt data to an identity using the encryption master public key.</td><td>Application</td><td>Choosing an incorrect identity encoding can cause interoperability issues.</td></tr>
+    <tr><td>SAF_SM9Decrypt</td><td>Decrypt ciphertext using the user private key stored in a container.</td><td>Application</td><td>Container name mismatches and policy restrictions are frequent causes of failure.</td></tr>
+    <tr><td>SAF_SM9Sign</td><td>Create an SM9 signature over input data.</td><td>Application</td><td>Ensure input data is the exact byte sequence expected by the verifier.</td></tr>
+    <tr><td>SAF_SM9Verify</td><td>Verify an SM9 signature using the signature master public key and user identity.</td><td>Application</td><td>Verification may fail if identity normalization differs between parties.</td></tr>
+    <tr><td>SAF_SM9GenerateAgreementData</td><td>Generate agreement parameters and an agreement handle for later key derivation.</td><td>Sponsor/Responder</td><td>Role confusion (sponsor vs responder) can lead to incompatible transcripts.</td></tr>
+    <tr><td>SAF_SM9GenerateAgreementDataAndKey</td><td>Generate agreement parameters and directly derive a session key handle.</td><td>Sponsor</td><td>Do not reuse temporary keys across sessions; it weakens forward secrecy.</td></tr>
+    <tr><td>SAF_SM9KeyDecapsulate</td><td>Recover a symmetric key from a key package and return a key handle.</td><td>Application</td><td>Key package parsing errors are common when lengths are not validated.</td></tr>
+    <tr><td>SAF_ImportSM9MasterPublicKey</td><td>Import a master public key into an indexed slot.</td><td>Administrator</td><td>Index collisions may overwrite existing configuration if not protected.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Intrusion Alarm System Requirements by Security Grade (Functions and Performance)</caption>
+  <thead>
+    <tr><th rowspan="2">Requirement item</th><th colspan="4">Security grade</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Grade 1</th><th>Grade 2</th><th>Grade 3</th><th>Grade 4</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intrusion event reporting</td><td>M</td><td>M</td><td>M</td><td>M</td><td>Mandatory for all grades</td></tr>
+    <tr><td>Tamper detection</td><td>OP</td><td>M</td><td>M</td><td>M</td><td>Higher grades require tamper</td></tr>
+    <tr><td>Low voltage indication</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>Battery-backed units</td></tr>
+    <tr><td>Boundary-crossing detection speed (m/s)</td><td>0.75</td><td>0.75</td><td>1.0</td><td>1.0</td><td>Test posture: upright</td></tr>
+    <tr><td>In-boundary movement speed (m/s)</td><td>0.10</td><td>0.10</td><td>0.30</td><td>0.30</td><td>Slow creep detection</td></tr>
+    <tr><td>Fast crossing speed (m/s)</td><td>3.0</td><td>3.0</td><td>6.0</td><td>6.0</td><td>High-speed pass-through</td></tr>
+    <tr><td>false alarm rate (per 24 h)</td><td>≤2</td><td>≤1</td><td>≤0.5</td><td>≤0.2</td><td>Typical lab condition</td></tr>
+  </tbody>
+</table>

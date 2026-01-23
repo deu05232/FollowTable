@@ -1,0 +1,7 @@
+<table>
+  <caption>Device Coding Data Format Specified by the Equipment Manufacturer</caption>
+  <tr><td>Message parameter</td><td>Length bit</td><td>Description and requirements</td></tr>
+  <tr><td>Equipment manufacturer code</td><td>18</td><td>From bit 42 (MSB) to bit 25, coded by the equipment manufacturer, composed of 3 6bitASCI</td></tr>
+  <tr><td>Device model code</td><td>4</td><td>From bit 24 to bit 21, indicates the device model code; 1—1st model, for subsequent new models, the device model code increments, after reaching 15 it restarts numbering from 1; 0—Not available</td></tr>
+  <tr><td>Device serial number</td><td>20</td><td>From bit 20 to bit 1 (LSB), indicates the device serial number, i.e., a traceable sequence number by the equipment manufacturer; when the serial number consists of digits, binary coding should be used; if the serial number includes graphics, the equipment manufacturer may define the coding method and describe the specific coding method in the user manual</td></tr>
+</table>

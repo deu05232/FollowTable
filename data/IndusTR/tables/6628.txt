@@ -1,0 +1,13 @@
+<table>
+  <caption>Ionospheric Delay Correction SH Coefficient Payload Fields (Correction vs Accuracy)</caption>
+  <thead>
+    <tr><th>Coefficient Group</th><th>Coefficient Type</th><th>Information Carried</th><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Bit Width</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Spherical harmonic coefficients</td><td>Cosine</td><td>Correction</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>int16</td><td>16</td></tr>
+    <tr><td>Sine</td><td>Correction</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>int16</td><td>16</td></tr>
+    <tr><td rowspan="2">Spherical harmonic coefficients</td><td>Cosine</td><td>Accuracy</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>uint8</td><td>8</td></tr>
+    <tr><td>Sine</td><td>Accuracy</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>uint8</td><td>8</td></tr>
+    <tr><td colspan="7">Note: Table lists only coefficient payload field definitions; non-coefficient setup (degree/order/thin-shell height) and generic SSR header fields are intentionally omitted.</td></tr>
+  </tbody>
+</table>

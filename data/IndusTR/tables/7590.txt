@@ -1,0 +1,14 @@
+<table>
+  <caption>Plane Finding / Detection Modes (ARPlaneFindingMode) - Enum Values and UI Mapping</caption>
+  <thead>
+    <tr><th>UI Option</th><th>Enum Constant</th><th>Value</th><th>What Gets Detected</th><th>Typical Debug Symptom When Mis-set</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Off</td><td>AR_PLANE_FINDING_MODE_DISABLED</td><td>0</td><td>No plane detection performed</td><td>No surfaces appear; only feature points (if shown)</td></tr>
+    <tr><td>Horizontal only</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL</td><td>1</td><td>Horizontal planes (floors, tables)</td><td>Walls won’t be found; only flat surfaces show up</td></tr>
+    <tr><td>Vertical only</td><td>AR_PLANE_FINDING_MODE_VERTICAL</td><td>2</td><td>Vertical planes (walls, doors)</td><td>Floors/tables won’t be found; placements feel “missing”</td></tr>
+    <tr><td>Horizontal + Vertical</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL_AND_VERTICAL</td><td>3</td><td>Both horizontal and vertical planes</td><td>More planes; may increase clutter if UI doesn’t filter by orientation</td></tr>
+    <tr><td>Horizontal (prefer upward-facing)</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL_UPWARD</td><td>4</td><td>Horizontal planes with upward normal emphasized</td><td>Ceilings might not appear even though horizontal is enabled</td></tr>
+    <tr><td>Horizontal (prefer downward-facing)</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL_DOWNWARD</td><td>5</td><td>Horizontal planes with downward normal emphasized</td><td>Floors/tables might be missed; ceilings more likely detected</td></tr>
+  </tbody>
+</table>

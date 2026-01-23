@@ -1,0 +1,9 @@
+<table>
+  <caption>Circular Weft Knitting Machine Fabric Quality Control Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0B00</td><td>Uneven Needle Line Density</td><td>SZICNeedleLine</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>丨</td><td></td><td>The stitch density of a wale differs from other wales</td><td></td></tr>
+  <tr><td>0X0B01</td><td>Poor Terry Loop Quality</td><td>TerryQuality</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td>1</td><td>一</td><td></td></tr>
+  <tr><td>0X0B02</td><td>Weft Skew</td><td>Skew</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>丨</td><td></td><td>A phenomenon in knitted fabric where courses are not perpendicular to wales</td><td></td></tr>
+  <tr><td>0X0B03</td><td>Dropped Stitch</td><td>DroppedStitch</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>丨</td><td></td><td>Unexpected unlooping of the stitch</td><td></td></tr>
+  <tr><td>0X0B04</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>丨</td><td>1</td><td></td></tr>
+</table>

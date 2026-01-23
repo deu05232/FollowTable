@@ -1,0 +1,7 @@
+<table>
+  <caption>User terminal application file — device/user identity fields</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>ICCID</td><td>10</td><td>Integrated Circuit Card Identifier of the SIM/UICC; BCD-encoded identifier used to uniquely label the card.</td></tr>
+  <tr><td>IMSI</td><td>8</td><td>International Mobile Subscriber Identity; BCD-encoded subscriber identifier stored for network identification.</td></tr>
+  <tr><td>MSISDN</td><td>8</td><td>Subscriber phone number in BCD format; used as a user-facing identifier associated with the subscription.</td></tr>
+</table>

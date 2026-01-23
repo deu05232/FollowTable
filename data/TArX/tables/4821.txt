@@ -1,0 +1,53 @@
+<table>
+  <caption>An exhaustive list of all parameters used in this study</caption>
+  <tr><td>Parameter</td><td>Fiducial Value</td><td>Plausible Range</td><td>Description</td></tr>
+  <tr><td></td><td></td><td></td><td>Gas Migration (section LABEL:sec:gasTransport )</td></tr>
+  <tr><td></td><td>1.5</td><td>0.5 – 4.5</td><td>(3/2) kinetic energy dissipation rate per scale-height crossing time</td></tr>
+  <tr><td>Q_(GI)</td><td>2</td><td>1–3</td><td>Marginally stable value of Q</td></tr>
+  <tr><td>T_()</td><td>7000 K</td><td>3000– 10^(4)</td><td>Gas temperature; sets the minimum gas velocity dispersion</td></tr>
+  <tr><td>α_(MRI)</td><td>0.01</td><td>0–0.1</td><td>Value of T_(rφ)/ρσ_(th)^(2) without gravitational instability</td></tr>
+  <tr><td></td><td></td><td></td><td>Rotation Curve (section LABEL:sec:rotCurve )</td></tr>
+  <tr><td>v_()</td><td>220 km s ^((-1))</td><td>180–250</td><td>Circular velocity in flat part of rotation curve</td></tr>
+  <tr><td>r_(b)</td><td>3 kpc</td><td>0–10 kpc</td><td>Radius where rotation curve transitions from powerlaw to flat</td></tr>
+  <tr><td>β_(0)</td><td>0.5</td><td>0–1</td><td>Powerlaw slope of v_(φ)(r) at small radii</td></tr>
+  <tr><td>n</td><td>2</td><td>1–5</td><td>Sharpness of the transition in the rotation curve</td></tr>
+  <tr><td></td><td></td><td></td><td>Star Formation (section LABEL:sec:SF )</td></tr>
+  <tr><td>ε_()</td><td>0.01</td><td>.003–.03</td><td>Star formation efficiency per freefall time in the Toomre regime</td></tr>
+  <tr><td>f_(H)_(2),min</td><td>0.03</td><td>.01–.1</td><td>Minimum f_(H)_(2) .</td></tr>
+  <tr><td>t_(SC)</td><td>2 Gyr</td><td>1–3 Gyr</td><td>Depletion time of H_(2) in the single cloud regime</td></tr>
+  <tr><td>f_(R)</td><td>0.54</td><td>.4+</td><td>Mass fraction of a zero-age stellar population not recycled to the ISM</td></tr>
+  <tr><td>μ</td><td>0.5</td><td>0–2</td><td>Galactic winds’ mass loading factor</td></tr>
+  <tr><td></td><td></td><td></td><td>Metallicity (section LABEL:sec:metallicity )</td></tr>
+  <tr><td>y</td><td>.054</td><td>.05–.07</td><td>Mass of metals yielded per mass locked in stellar remnants</td></tr>
+  <tr><td></td><td>0</td><td>0–1</td><td>Metallicity enhancement of galactic winds</td></tr>
+  <tr><td>Z_(IGM)</td><td>0.1Z_()=0.002</td><td>(.01 –1 )Z_()</td><td>Metallicity of initial and infalling baryons</td></tr>
+  <tr><td>k_(Z)</td><td>1</td><td>.3–3</td><td>Amplitude of metallicity diffusion relative to</td></tr>
+  <tr><td></td><td></td><td></td><td>Stellar Migration (appendix LABEL:app:stmig )</td></tr>
+  <tr><td>Q_()</td><td>2.5</td><td>2–3</td><td>Value of Q_(*) below which spiral instabilities will heat the stars</td></tr>
+  <tr><td>T_()</td><td>4</td><td>2–5</td><td>Number of local orbital times over which stars are heated by spiral instabilities</td></tr>
+  <tr><td></td><td></td><td></td><td>Accretion (section LABEL:sec:acc )</td></tr>
+  <tr><td>M_(h,0)</td><td>10^(12)M_()</td><td>-</td><td>Halo mass at z=0</td></tr>
+  <tr><td>Δω</td><td>0.5</td><td>0.1–1</td><td>Interval of ω~ z over which accretion rate is constant</td></tr>
+  <tr><td>r_()(z=0)</td><td>6.9 kpc</td><td>3–20 kpc</td><td>Scale length of new infalling gas</td></tr>
+  <tr><td>β_(z)</td><td>0.38</td><td>0–1</td><td>Scaling of efficiency with (1+z)</td></tr>
+  <tr><td>β_(M_h)</td><td>-0.25</td><td>-1–0</td><td>Scaling of efficiency with halo mass</td></tr>
+  <tr><td>ε_(0)</td><td>0.31</td><td>~ 0 - .5</td><td>Efficiency at M_(h)=10^(12)M_() , z=0</td></tr>
+  <tr><td>ε_(max)</td><td>1</td><td>0.5–1</td><td>Maximum value of efficiency</td></tr>
+  <tr><td></td><td></td><td></td><td>Initial Conditions (section LABEL:sec:IC )</td></tr>
+  <tr><td>α_(r)</td><td>1/3</td><td>0–1</td><td>Scaling of accretion scale length with halo mass</td></tr>
+  <tr><td>f_(g,0)</td><td>0.5</td><td>0.2–0.7</td><td>Initial gas fraction</td></tr>
+  <tr><td>f_(cool)</td><td>1</td><td>0.4–1</td><td>Fraction of f_(b)M_(h)(z=z_(relax)) contained in the initial disk</td></tr>
+  <tr><td>z_(relax)</td><td>2.5</td><td>2–3</td><td>z at which the simulation is initialized</td></tr>
+  <tr><td>φ_(0)</td><td>1</td><td>1–5</td><td>Initial ratio of stellar to gaseous velocity dispersion</td></tr>
+  <tr><td></td><td></td><td></td><td>Computational Domain (see F12)</td></tr>
+  <tr><td>x_(0)</td><td>.004</td><td>0Inner edge of domain as a fraction of R</td></tr>
+  <tr><td>R</td><td>40 kpc</td><td>10–100 kpc</td><td>Outer edge of domain</td></tr>
+  <tr><td>n_(x)</td><td>200</td><td>100</td><td>Number of radial cells</td></tr>
+  <tr><td>tol</td><td>10^(-4)</td><td>10^(-5)--x_(0)</td><td>Fastest change allowed in state variables, per orbital time at r=R</td></tr>
+  <tr><td></td><td></td><td></td><td>Cosmology (section LABEL:sec:acc )</td></tr>
+  <tr><td>Ω_(m)</td><td>0.258</td><td>-</td><td>Average present-day matter energy density as a fraction of the critical density</td></tr>
+  <tr><td>1-Ω_(m)-Ω_()</td><td>0</td><td>-</td><td>Deviation from a flat universe</td></tr>
+  <tr><td>f_(b)</td><td>0.17</td><td>-</td><td>Universal baryon fraction</td></tr>
+  <tr><td>H_(0)</td><td>72 km s ^((-1)) Mpc ^((-1))</td><td>-</td><td>Hubble’s constant</td></tr>
+  <tr><td>σ_(8)</td><td>.796</td><td>-</td><td>Normalization of the dark matter power spectrum</td></tr>
+</table>

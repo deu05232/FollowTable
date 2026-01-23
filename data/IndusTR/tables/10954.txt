@@ -1,0 +1,8 @@
+<table>
+  <caption>GPS phase-bias info — per-signal indicators (extended)</caption>
+  <tr><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>GPS Signal and Its Tracking Mode</td><td>DF380</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td></tr>
+  <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td></tr>
+  <tr><td>Signal Discontinuity Indicator</td><td>DF4XX</td><td>uint1</td><td>1</td></tr>
+</table>

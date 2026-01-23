@@ -1,0 +1,16 @@
+<table>
+  <caption>Instrumental polarization calibration and observing log for planetary polarimetry campaigns</caption>
+  <thead>
+    <tr><th>Run ID</th><th>Telescope / Instrument</th><th>Filter / Band</th><th>Modulator</th><th>Calibration target</th><th>Measured instrumental Q/I (%)</th><th>Measured instrumental U/I (%)</th><th>Seeing (arcsec)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R-01</td><td>3.6 m / Dual-beam polarimeter</td><td>R</td><td>Half-wave plate</td><td>Unpolarized standard HD 212311</td><td>0.07</td><td>-0.03</td><td>1.1</td><td>Nightly zero-point</td></tr>
+    <tr><td>R-02</td><td>3.6 m / Dual-beam polarimeter</td><td>R</td><td>Half-wave plate</td><td>Polarized standard HD 25443</td><td>0.12</td><td>0.05</td><td>0.9</td><td>Angle offset check</td></tr>
+    <tr><td>I-03</td><td>8.2 m / Imaging polarimeter</td><td>I</td><td>FLC modulator</td><td>Twilight sky</td><td>0.20</td><td>0.18</td><td>0.7</td><td>High S/N flat-field</td></tr>
+    <tr><td>H-04</td><td>8.2 m / NIR camera + pol</td><td>H</td><td>Wire-grid</td><td>Internal lamp</td><td>0.30</td><td>-0.10</td><td>0.6</td><td>Thermal background dominated</td></tr>
+    <tr><td>V-05</td><td>2.0 m / Photo-polarimeter</td><td>V</td><td>Rotating polaroid</td><td>Unpolarized standard HD 14069</td><td>0.05</td><td>0.01</td><td>1.4</td><td>Clouds intermittently</td></tr>
+    <tr><td>R-06</td><td>4.0 m / Spectropolarimeter</td><td>R (600–750 nm)</td><td>Dual-beam + retarder</td><td>Polarized standard HD 161056</td><td>-0.09</td><td>0.06</td><td>1.0</td><td>Wavelength-dependent IP</td></tr>
+    <tr><td>J-07</td><td>6.5 m / NIR imager + pol</td><td>J</td><td>Wire-grid</td><td>Twilight sky</td><td>0.15</td><td>0.12</td><td>0.8</td><td>Detector persistence check</td></tr>
+    <tr><td>V-08</td><td>1.5 m / Imaging polarimeter</td><td>V</td><td>Half-wave plate</td><td>Unpolarized standard HD 94851</td><td>0.06</td><td>-0.02</td><td>1.6</td><td>End-of-run verification</td></tr>
+  </tbody>
+</table>

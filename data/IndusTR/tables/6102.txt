@@ -1,0 +1,16 @@
+<table>
+  <caption>Elementwise Operator Spec (Operands + Broadcasting Semantics)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Operands</td><td>Left Input Tensor</td><td>Input</td><td>Required</td><td>Left operand tensor.</td></tr>
+    <tr><td>Operands</td><td>Right Input Tensor</td><td>Input</td><td>Required</td><td>Right operand tensor.</td></tr>
+    <tr><td>Operands</td><td>Output Tensor</td><td>Output</td><td>Required</td><td>Output tensor after computation.</td></tr>
+    <tr><td>Common Metadata</td><td>Data Type</td><td>Input</td><td>Optional</td><td>Supported: bool, int32, int64, fp16, fp32; default fp32.</td></tr>
+    <tr><td>Common Metadata</td><td>Device Type</td><td>Input</td><td>Optional</td><td>Supported: CPU, GPU; default CPU.</td></tr>
+    <tr><td>Shape Rules</td><td>Tensor Shape</td><td>Input</td><td>Optional</td><td>Shape metadata; operands must be broadcast-compatible per framework rules.</td></tr>
+    <tr><td>Shape Rules</td><td>Broadcast Mode</td><td>Input</td><td>Optional</td><td>Options: NUMPY, EXPLICIT; affects how dimensions of size 1 are expanded.</td></tr>
+    <tr><td>Shape Rules</td><td>Required Rank Range</td><td>Input</td><td>Optional</td><td>Valid rank: 0 to 8.</td></tr>
+  </tbody>
+</table>

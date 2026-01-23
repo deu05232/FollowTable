@@ -1,0 +1,7 @@
+<table>
+  <caption>HMD Cloud Sync Status Enumeration</caption>
+  <tr><td>Data Type</td><td>Enum Value</td><td>Description</td></tr>
+  <tr><td rowspan="3">vrHMDCloudSyncStatus</td><td>VR_HMD_CLOUD_SYNC_STATUS_SYNCED=0x01</td><td>HMD is synchronized with the cloud server</td></tr>
+  <tr><td>VR_HMD_CLOUD_SYNC_STATUS_ASYNC=0x01</td><td>HMD is not synchronized with the cloud server</td></tr>
+  <tr><td>0x02~0xFF</td><td>Reserved</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Pre-Release Power Distribution & Emergency Startup Cross-Check (High-Altitude Balloon)</caption>
+  <thead>
+    <tr><th>Section</th><th>Item</th><th>Expected</th><th>Measured</th><th>Units</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Power Distributor Outputs</td><td>Number of output ports</td><td>6</td><td>6</td><td>pcs</td><td>All ports labeled X1–X6</td></tr>
+    <tr><td>Port X1 voltage @ no-load</td><td>28.0</td><td>27.6</td><td>V</td><td>Within tolerance</td></tr>
+    <tr><td>Port X1 current @ 2A load</td><td>2.0</td><td>2.1</td><td>A</td><td>Stable</td></tr>
+    <tr><td>Port X2 voltage @ no-load</td><td>28.0</td><td>27.4</td><td>V</td><td>Slight drop observed</td></tr>
+    <tr><td>Port X2 current @ 2A load</td><td>2.0</td><td>2.0</td><td>A</td><td>OK</td></tr>
+    <tr><td>Port X3 voltage @ no-load</td><td>28.0</td><td>27.7</td><td>V</td><td>OK</td></tr>
+    <tr><td rowspan="3">Emergency Power Startup</td><td>Startup voltage</td><td>≥ 24.0</td><td>25.2</td><td>V</td><td>Battery warm</td></tr>
+    <tr><td>Startup current peak</td><td>≤ 12.0</td><td>13.5</td><td>A</td><td>Peak exceeds expected</td></tr>
+    <tr><td>Startup time to regulation</td><td>≤ 3.0</td><td>2.6</td><td>s</td><td>Pass</td></tr>
+  </tbody>
+</table>

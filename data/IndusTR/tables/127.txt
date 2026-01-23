@@ -1,0 +1,9 @@
+<table>
+  <caption>Association Relationship Table Between Agricultural Machinery Purchase Subsidy Applications and Machinery Item Catalog</caption>
+  <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Machinery Item Catalog Table</td></tr>
+  <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+  <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+  <tr><td>Table Name 2</td><td>Machinery Item Catalog Table</td></tr>
+  <tr><td>Relationship 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table.Subsidy Application Year-〉Machinery Item Catalog Table.Machinery Item Catalog Year</td></tr>
+  <tr><td>Relationship 2</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table.Administrative Division Code-〉Machinery Item Catalog Table.Administrative Division Code</td></tr>
+</table>

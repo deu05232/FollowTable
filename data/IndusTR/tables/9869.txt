@@ -1,0 +1,19 @@
+<table>
+  <caption>Class B Transmitter Time and Frequency Accuracy — Required Limits Under Stated Conditions</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Unit</th><th>Test Conditions</th><th>Required Limit (Pass/Fail)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Frequency Accuracy</td><td>Carrier frequency error (normal)</td><td>Hz</td><td>15–35 °C; rated supply; after warm-up</td><td>−500 to +500</td></tr>
+    <tr><td>Carrier frequency error (cold)</td><td>Hz</td><td>−15 °C; rated supply</td><td>−1 500 to +1 500</td></tr>
+    <tr><td>Carrier frequency error (hot)</td><td>Hz</td><td>+55 °C; rated supply</td><td>−1 500 to +1 500</td></tr>
+    <tr><td>Frequency step/setting resolution</td><td>kHz</td><td>Frequency programmed across supported channels</td><td>25 kHz channel raster</td></tr>
+    <tr><td rowspan="5">Transmission Timing</td><td>Burst transmission duration</td><td>ms</td><td>Measured from RF rise above threshold to fall below threshold</td><td>≤ 108</td></tr>
+    <tr><td>RF rise time</td><td>ms</td><td>10% to 90% envelope</td><td>≤ 2.0</td></tr>
+    <tr><td>RF fall time</td><td>ms</td><td>90% to 10% envelope</td><td>≤ 2.0</td></tr>
+    <tr><td>Transmit timing jitter (slot boundary)</td><td>µs</td><td>Relative to internal timing reference over 10 transmissions</td><td>≤ 50</td></tr>
+    <tr><td>Inter-burst off time</td><td>ms</td><td>Between consecutive bursts in worst-case pattern</td><td>≥ 10</td></tr>
+    <tr><td rowspan="2">Spectral Confinement</td><td>Occupied bandwidth (99%)</td><td>kHz</td><td>At nominal conducted power</td><td>≤ 16</td></tr>
+    <tr><td>Out-of-band emissions at ±25 kHz offset</td><td>dBc</td><td>Measured with specified RBW/VBW settings</td><td>≤ −60 dBc</td></tr>
+  </tbody>
+</table>

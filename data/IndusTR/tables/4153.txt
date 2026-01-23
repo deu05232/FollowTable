@@ -1,0 +1,11 @@
+<table>
+  <caption>Encrypted Session Key Import Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_ImportEncedKey(void         *hSymmKeyObj,unsigned char * pucSymmKey,unsigned intuiSymmKeyLen,void         ** phKeyHandle)</td></tr>
+  <tr><td>Description</td><td>Import an encrypted session key, decrypt it using the specified private key, generate a session key handle and output it</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>hSymmKeyObj[in](symmetric algorithm object）</td></tr>
+  <tr><td>pucSymmKey[in](input encrypted session key)</td></tr>
+  <tr><td>uiSymmKeyLen[in](input encrypted session key length)</td></tr>
+  <tr><td>phKeyHandle[out](output session key handle)</td></tr>
+  <tr><td rowspan="2">SAC Return Value</td><td>0(success)</td></tr>
+  <tr><td>Non-0(failure, return the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

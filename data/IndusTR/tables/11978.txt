@@ -1,0 +1,15 @@
+<table>
+  <caption>Application-Layer Message Overview by PGI (Status/Timing/Ack)</caption>
+  <thead>
+    <tr><th>Parameter Group Identifier (PGI)</th><th>Message Name</th><th>Purpose (High-Level)</th><th>Information Type</th><th>Requires Acknowledgment</th><th>Typical Cycle Time</th><th>Total Transmission Time (ms)</th><th>Source → Destination</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x01</td><td>Phase Request</td><td>Requests transition to the next charging phase</td><td>Short message</td><td>Yes</td><td>Event-driven</td><td>1000</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x02</td><td>Vehicle Confirmation Result</td><td>Reports confirmation decision for requested phase</td><td>Short message</td><td>Yes</td><td>Event-driven</td><td>1000</td><td>Vehicle → Charger</td></tr>
+    <tr><td>0x03</td><td>Charger Abort</td><td>Informs the vehicle that the charger aborted the session</td><td>Short message</td><td>Yes</td><td>On fault</td><td>1000</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x04</td><td>Vehicle Abort</td><td>Informs the charger that the vehicle aborted the session</td><td>Short message</td><td>Yes</td><td>On fault</td><td>1000</td><td>Vehicle → Charger</td></tr>
+    <tr><td>0x05</td><td>DC Contactor Status</td><td>Indicates DC power-supply contactor state</td><td>Short message</td><td>No</td><td>1000 ms steady / 50 ms on change (3 frames)</td><td>—</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x06</td><td>Vehicle Contactor Status</td><td>Indicates vehicle-side contactor state</td><td>Short message</td><td>No</td><td>1000 ms steady / 50 ms on change (3 frames)</td><td>—</td><td>Vehicle → Charger</td></tr>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Reports electronic locking mechanism state</td><td>Short message</td><td>No</td><td>1000 ms steady / 50 ms on change (3 frames)</td><td>—</td><td>Charger → Vehicle</td></tr>
+  </tbody>
+</table>

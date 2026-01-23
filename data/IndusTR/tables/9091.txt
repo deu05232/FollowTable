@@ -1,0 +1,10 @@
+<table>
+  <caption>ArSession_createCameraConfigFilter Parameters (includes intrinsics to be confusing)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_filter</td><td>ArCameraConfigFilter **</td><td>Receives the newly created camera config filter</td></tr>
+  <tr><td>intrinsics</td><td>ArCameraIntrinsics *</td><td>Optional intrinsics object used to derive a target aspect ratio</td></tr>
+  <tr><td>near</td><td>float</td><td>Near plane value used for rendering previews</td></tr>
+  <tr><td>out_width</td><td>int32_t *</td><td>Requested output width for the camera stream</td></tr>
+  <tr><td>out_height</td><td>int32_t *</td><td>Requested output height for the camera stream</td></tr>
+</table>

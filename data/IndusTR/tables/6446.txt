@@ -1,0 +1,14 @@
+<table>
+  <caption>Electrofusion Joint Peel Result Coding (Failure Mode Percentage Mapping)</caption>
+  <thead>
+    <tr><th>Joint Type</th><th>Test Temperature (°C)</th><th>Measured Brittle Peel (%)</th><th>Measured Ductile Peel (%)</th><th>Result Code</th><th>Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Electrofusion Socket</td><td>23</td><td>0–10</td><td>90–100</td><td>A</td><td>Predominantly ductile peel</td></tr>
+    <tr><td>Electrofusion Socket</td><td>23</td><td>10–20</td><td>80–90</td><td>B</td><td>Mixed peel behavior</td></tr>
+    <tr><td>Electrofusion Socket</td><td>23</td><td>20–33</td><td>67–80</td><td>C</td><td>Borderline mixed behavior</td></tr>
+    <tr><td>Electrofusion Saddle</td><td>23</td><td>0–25</td><td>75–100</td><td>A</td><td>Predominantly ductile peel</td></tr>
+    <tr><td>Electrofusion Saddle</td><td>23</td><td>25–50</td><td>50–75</td><td>B</td><td>Mixed peel behavior</td></tr>
+    <tr><td>Electrofusion Saddle</td><td>23</td><td>>50</td><td><50</td><td>D</td><td>High brittle peel proportion</td></tr>
+  </tbody>
+</table>

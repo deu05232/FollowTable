@@ -1,0 +1,10 @@
+<table>
+  <caption>Basic Math Operator Execution Target Matrix (Add/Sub/Mul/Div)</caption>
+  <tr><th>Operator</th><th>Execution Target</th><th>Preferred Device</th><th>Kernel Variant</th><th>Precision Mode</th><th>Workspace (MB)</th><th>Notes</th></tr>
+  <tr><td>Add</td><td>CPU</td><td>x86</td><td>Vectorized</td><td>FP32</td><td>0</td><td>Uses SIMD path when available</td></tr>
+  <tr><td>Add</td><td>GPU</td><td>CUDA</td><td>Fused</td><td>FP16</td><td>16</td><td>Enables tensor-core fast path</td></tr>
+  <tr><td>Sub</td><td>CPU</td><td>ARM</td><td>Scalar</td><td>FP32</td><td>0</td><td>Fallback implementation</td></tr>
+  <tr><td>Mul</td><td>NPU</td><td>VendorNPU-v2</td><td>Compiled</td><td>INT8</td><td>32</td><td>Requires calibration cache</td></tr>
+  <tr><td>Div</td><td>GPU</td><td>OpenCL</td><td>Standard</td><td>FP32</td><td>8</td><td>May be slower on small tensors</td></tr>
+  <tr><td>Mul</td><td>FPGA</td><td>Bitstream-A</td><td>Pipelined</td><td>INT16</td><td>64</td><td>Requires preloaded bitstream</td></tr>
+</table>

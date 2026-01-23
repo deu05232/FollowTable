@@ -1,0 +1,17 @@
+<table>
+  <caption>Gibbs Free Energy Change (ΔG) for Selected Reactions at Specified Temperature and Pressure</caption>
+  <thead>
+    <tr><th>Process category</th><th>Reaction / Process</th><th>Phase / medium</th><th>T (K)</th><th>P (bar)</th><th>ΔG (kJ/mol)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="3">Phase change</th><td>H2O(l) → H2O(g)</td><td>Pure substance</td><td>298</td><td>1</td><td>+8.6</td><td>Vaporization; standard-state approximation</td></tr>
+    <tr><td>H2O(s) → H2O(l)</td><td>Pure substance</td><td>273</td><td>1</td><td>0.0</td><td>At equilibrium melting point</td></tr>
+    <tr><td>CO2(s) → CO2(g)</td><td>Pure substance</td><td>194.7</td><td>1</td><td>0.0</td><td>At equilibrium sublimation point (approx.)</td></tr>
+    <tr><th rowspan="3">Acid–base</th><td>CH3COOH(aq) ⇌ CH3COO−(aq) + H+(aq)</td><td>Aqueous</td><td>298</td><td>1</td><td>+1.7</td><td>Computed from pKa ≈ 4.76: ΔG = 2.303RT·pKa</td></tr>
+    <tr><td>NH4+(aq) ⇌ NH3(aq) + H+(aq)</td><td>Aqueous</td><td>298</td><td>1</td><td>+30.6</td><td>Computed from pKa ≈ 9.25</td></tr>
+    <tr><td>H2CO3(aq) ⇌ HCO3−(aq) + H+(aq)</td><td>Aqueous</td><td>298</td><td>1</td><td>+36.4</td><td>Computed from pKa1 ≈ 6.35</td></tr>
+    <tr><th rowspan="3">Redox / formation</th><td>2 H2(g) + O2(g) → 2 H2O(l)</td><td>Standard states</td><td>298</td><td>1</td><td>-474.0</td><td>Overall reaction free-energy change</td></tr>
+    <tr><td>C(graphite) + O2(g) → CO2(g)</td><td>Standard states</td><td>298</td><td>1</td><td>-394.4</td><td>Formation-type reaction ΔG</td></tr>
+    <tr><td>H2(g) + 1/2 O2(g) → H2O(g)</td><td>Standard states</td><td>298</td><td>1</td><td>-228.6</td><td>Gas-phase water; reaction ΔG</td></tr>
+  </tbody>
+</table>

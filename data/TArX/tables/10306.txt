@@ -1,0 +1,15 @@
+<table>
+  <caption>Thermoviscous properties for acoustic modeling of gases and liquids (near 300 K unless noted)</caption>
+  <thead>
+    <tr><th>Fluid</th><th>Category</th><th>Temperature (K)</th><th>Density ρ (kg/m³)</th><th>Dynamic viscosity μ (Pa·s)</th><th>Bulk viscosity ζ (Pa·s)</th><th>Thermal conductivity k (W/m·K)</th><th>Specific heat cp(J/kg·K)</th><th>Ratio of heats γ</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Helium</td><td>Monatomic gas</td><td>300</td><td>0.164</td><td>1.96e-5</td><td>0</td><td>0.152</td><td>5193</td><td>1.66</td></tr>
+    <tr><td>Argon</td><td>Monatomic gas</td><td>300</td><td>1.63</td><td>2.23e-5</td><td>0</td><td>0.0177</td><td>520</td><td>1.67</td></tr>
+    <tr><td>Nitrogen</td><td>Diatomic gas</td><td>300</td><td>1.18</td><td>1.76e-5</td><td>6.0e-6</td><td>0.0260</td><td>1040</td><td>1.40</td></tr>
+    <tr><td>Carbon dioxide</td><td>Polyatomic gas</td><td>300</td><td>1.84</td><td>1.48e-5</td><td>1.0e-5</td><td>0.0166</td><td>844</td><td>1.30</td></tr>
+    <tr><td>Air (dry)</td><td>Gas mixture</td><td>300</td><td>1.18</td><td>1.85e-5</td><td>7.0e-6</td><td>0.0262</td><td>1007</td><td>1.40</td></tr>
+    <tr><td>Water</td><td>Liquid</td><td>298</td><td>997</td><td>8.90e-4</td><td>2.5e-3</td><td>0.60</td><td>4180</td><td>—</td></tr>
+    <tr><td>Glycerol</td><td>Liquid</td><td>298</td><td>1260</td><td>0.95</td><td>0.20</td><td>0.29</td><td>2400</td><td>—</td></tr>
+  </tbody>
+</table>

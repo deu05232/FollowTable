@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameter Definitions for PGI 0x02 (Vehicle Confirmation Result) Message Payload</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Field Name</th><th>Length</th><th>Data Type / Encoding</th><th>Parameter Type</th><th>Description and Allowed Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE (unsigned)</td><td>PIDType</td><td>Fixed value: 0x02</td></tr>
+    <tr><td>2</td><td>Confirmation Result</td><td>1 byte</td><td>BYTE (enum)</td><td>ConfirmResultType</td><td>Result of processing the last request: 0x00 = reject; 0x01 = accept; 0x02 = accept with warning; 0xFF = invalid/unknown</td></tr>
+    <tr><td>3</td><td>Reject / Warning Code</td><td>2 bytes</td><td>UINT16, little-endian</td><td>ConfirmCodeType</td><td>When Confirmation Result is 0x00 or 0x02, provides a code explaining the reason. 0x0000 means “no additional info”. Other values are implementation-defined but must be consistent across sender/receiver.</td></tr>
+    <tr><td>4</td><td>Echoed Requested Phase</td><td>1 byte</td><td>BYTE (enum)</td><td>PhaseReqType</td><td>The phase value being confirmed (echo of the counterpart’s Requested Phase). Used to bind the response to a specific request. Same coding as PhaseReqType.</td></tr>
+    <tr><td>5</td><td>Vehicle Status Flags</td><td>1 byte</td><td>BYTE (bit field)</td><td>VehStatusFlagsType</td><td>Bit0: vehicle ready (1=ready); Bit1: HV interlock OK (1=OK); Bit2: isolation OK (1=OK); Bit3: emergency stop active (1=active); Bits4-7: reserved, set to 0</td></tr>
+    <tr><td>6</td><td>Reserved</td><td>2 bytes</td><td>BYTE[2]</td><td>ReservedType</td><td>Reserved; sender sets to 0x00 0x00; receiver ignores if non-zero.</td></tr>
+  </tbody>
+</table>

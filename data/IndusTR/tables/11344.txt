@@ -1,0 +1,10 @@
+<table>
+  <caption>CAN extended frame identifier bit breakdown</caption>
+  <tr><th>Field</th><th>Bit Length</th><th>Description</th></tr>
+  <tr><td>Priority</td><td>3</td><td>Message priority bits</td></tr>
+  <tr><td>EDP</td><td>1</td><td>Extended data page</td></tr>
+  <tr><td>DP</td><td>1</td><td>Data page</td></tr>
+  <tr><td>PF</td><td>8</td><td>PDU format</td></tr>
+  <tr><td>PS</td><td>8</td><td>PDU specific</td></tr>
+  <tr><td>SA</td><td>8</td><td>Source address</td></tr>
+</table>

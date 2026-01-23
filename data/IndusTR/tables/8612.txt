@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameters for reading AR camera intrinsics dimensions</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>intrinsics</td><td>ArCameraIntrinsics *</td><td>Camera intrinsics pointer</td></tr>
+  <tr><td>out_width</td><td>int32_t *</td><td>Pointer to receive image width</td></tr>
+  <tr><td>out_height</td><td>int32_t *</td><td>Pointer to receive image height</td></tr>
+</table>

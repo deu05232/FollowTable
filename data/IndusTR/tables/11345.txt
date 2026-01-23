@@ -1,0 +1,16 @@
+<table>
+  <caption>Charging Communication CAN Message Directory (Session Control & Authentication)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Payload Length (bytes)</th><th>Message Period (ms)</th><th>Sender → Receiver</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Session Setup</td><td>CSM</td><td>Charge Session Management</td><td>9216</td><td>0x002400</td><td>6</td><td>6</td><td>250</td><td>Charger → Vehicle</td></tr>
+    <tr><td>VSM</td><td>Vehicle Session Management</td><td>9472</td><td>0x002500</td><td>6</td><td>6</td><td>250</td><td>Vehicle → Charger</td></tr>
+    <tr><td rowspan="2">Authentication</td><td>CAU</td><td>Charger Authentication Status</td><td>10240</td><td>0x002800</td><td>6</td><td>4</td><td>500</td><td>Charger → Vehicle</td></tr>
+    <tr><td>VAU</td><td>Vehicle Authentication Response</td><td>10496</td><td>0x002900</td><td>6</td><td>4</td><td>500</td><td>Vehicle → Charger</td></tr>
+    <tr><td rowspan="2">Interlocks</td><td>CIL</td><td>Charger Interlock/Contactor Command</td><td>10752</td><td>0x002A00</td><td>5</td><td>3</td><td>100</td><td>Charger → Vehicle</td></tr>
+    <tr><td>VIL</td><td>Vehicle Interlock/Contactor Feedback</td><td>11008</td><td>0x002B00</td><td>5</td><td>3</td><td>100</td><td>Vehicle → Charger</td></tr>
+    <tr><td rowspan="2">Keep-Alive</td><td>CKA</td><td>Charger Keep-Alive</td><td>11264</td><td>0x002C00</td><td>7</td><td>2</td><td>1000</td><td>Charger → Vehicle</td></tr>
+    <tr><td>VKA</td><td>Vehicle Keep-Alive</td><td>11520</td><td>0x002D00</td><td>7</td><td>2</td><td>1000</td><td>Vehicle → Charger</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Calibration Procedure Parameters for VR Tracking Cameras</caption>
+  <tr><th>Calibration Stage</th><th>Parameter</th><th>Setting</th><th>Unit</th><th>Tolerance</th><th>Recording</th></tr>
+  <tr><td>Intrinsic</td><td>Checkerboard Size</td><td>9x6</td><td>cells</td><td>N/A</td><td>calib_intrinsic.json</td></tr>
+  <tr><td>Intrinsic</td><td>Square Size</td><td>25</td><td>mm</td><td>±0.2</td><td>Target spec sheet</td></tr>
+  <tr><td>Extrinsic</td><td>Baseline Distance</td><td>1200</td><td>mm</td><td>±1</td><td>calib_extrinsic.json</td></tr>
+  <tr><td>Timing</td><td>Sync Pulse Width</td><td>10</td><td>ms</td><td>±0.5</td><td>oscilloscope screenshot</td></tr>
+  <tr><td>Lens</td><td>Focus Distance</td><td>2.0</td><td>m</td><td>±0.1</td><td>operator log</td></tr>
+  <tr><td>Verification</td><td>Reprojection Error</td><td>< 0.5</td><td>px</td><td>Pass/Fail</td><td>verification_report.pdf</td></tr>
+</table>

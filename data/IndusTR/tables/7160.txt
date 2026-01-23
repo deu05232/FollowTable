@@ -1,0 +1,14 @@
+<table>
+  <caption>Autonomous Driving Data Recorder: Logged Signals with Power Supply Constraints</caption>
+  <thead>
+    <tr><th>Group</th><th>Data Item</th><th>Min Recording Frequency</th><th>Unit</th><th>Capability Range</th><th>Resolution</th><th>Accuracy</th><th>Power Supply Requirement (UN=12 V)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vehicle dynamics</td><td>Vehicle speed</td><td>10 Hz</td><td>km/h</td><td>0–260</td><td>0.5</td><td>±5%</td><td>Usmin 9 V; Usmax 16 V</td><td>Must be derived from validated wheel speed/INS fusion</td></tr>
+    <tr><td>Vehicle dynamics</td><td>Longitudinal acceleration</td><td>50 Hz</td><td>m/s²</td><td>-30–30</td><td>0.1</td><td>±0.5</td><td>UA 14 ±0.2 V during bench test</td><td>Sensor timestamp aligned to GNSS time</td></tr>
+    <tr><td>Vehicle dynamics</td><td>Lateral acceleration</td><td>50 Hz</td><td>m/s²</td><td>-30–30</td><td>0.1</td><td>±0.5</td><td>UA 14 ±0.2 V during bench test</td><td>Axis defined per vehicle coordinate system</td></tr>
+    <tr><td>Localization</td><td>GNSS position (latitude/longitude)</td><td>10 Hz</td><td>deg</td><td>-90–90 / -180–180</td><td>1e-6</td><td>≤2 m CEP</td><td>Crank drop: operate down to 6 V for 50 ms</td><td>Record fix type and HDOP</td></tr>
+    <tr><td>Perception</td><td>Perceived object relative position X</td><td>20 Hz</td><td>m</td><td>0–200</td><td>0.2</td><td>≤1.0</td><td>Supply ripple < 200 mVpp</td><td>Include object ID linkage</td></tr>
+    <tr><td>Diagnostics</td><td>Recorder internal temperature</td><td>1 Hz</td><td>°C</td><td>-40–105</td><td>1</td><td>±2</td><td>Over-voltage protection at 18 V</td><td>Used for derating decisions</td></tr>
+  </tbody>
+</table>

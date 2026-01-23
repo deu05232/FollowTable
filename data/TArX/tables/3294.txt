@@ -1,0 +1,27 @@
+<table>
+  <caption>Table of modeling parameters, following [ wkt ] . The symbol # identifies an ice-phase species.</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>Value</th></tr>
+  <tr><th>Disk mass</th><td>M_(D)</td><td>0.01 M_()</td></tr>
+  <tr><th>Dust-to-gas mass ratio</th><td>ρ_(d)/ρ_(g)</td><td>0.01</td></tr>
+  <tr><th>Minimum dust grain size</th><td>a_()</td><td>0.1 μ m</td></tr>
+  <tr><th>Maximum dust grain size</th><td>a_()</td><td>10 μ m</td></tr>
+  <tr><th>Grain size power-law index</th><td>p</td><td>3.5</td></tr>
+  <tr><th>Grain material mass density</th><td>ρ_()</td><td>2.5 g · cm ^((-3))</td></tr>
+  <tr><th>Grain mass density</th><td>ρ_(d)</td><td>2.16× 10^(-26)· n_(H)\,</td></tr>
+  <tr><th>Grain number density</th><td>n_()</td><td>4.6× 10^(-14)· n_(H)</td></tr>
+  <tr><th>Local UV field strength</th><td>χ</td><td>10 ^((-3))</td></tr>
+  <tr><th>Dust opacity (UV, 100 nm)</th><td>_()</td><td>6.8 × 10^(3) cm ^((2)·) g ^((-1))</td></tr>
+  <tr><th>Cosmic ray ionization rate (H _(2) )</th><td>_({H_2)}</td><td>5× 10^(-17)\,{s^(-1)</td></tr>
+  <tr><th>Adsorption site area</th><td>A_()</td><td>6.67× 10^(-16) cm ^((2))</td></tr>
+  <tr><th>Number of active layers</th><td>N_()</td><td>2</td></tr>
+  <tr><th>Grain CR “duty-cycle”</th><td>f(70\,)</td><td>3.16× 10^(-19)</td></tr>
+  <tr><th>Grain albedo at 150 nm</th><td>ω</td><td>0.57</td></tr>
+  <tr><th>CO Photodesorption yield</th><td>Y_(i) (CO#)</td><td>2.7 × 10^(-3)</td></tr>
+  <tr><th>H _(2) O Photodesorption yield</th><td>Y_(i) (H _(2) O#)</td><td>1.3 × 10^(-3)</td></tr>
+  <tr><th>CH _(4) Photodesorption yield</th><td>Y_(i) (CH _(4) #)</td><td>10^(-3)</td></tr>
+  <tr><th>CO _(2) Photodesorption yield</th><td>Y_(i) (CO _(2) #)</td><td>10^(-3)</td></tr>
+  <tr><th>CO Adsorption energy</th><td>E_(i)^(b) (CO#)</td><td>960 K</td></tr>
+  <tr><th>H _(2) O Adsorption energy</th><td>E_(i)^(b) (H _(2) O#)</td><td>4800 K</td></tr>
+  <tr><th>CH _(4) Adsorption energy</th><td>E_(i)^(b) (CH _(4) #)</td><td>1100 K</td></tr>
+  <tr><th>CO _(2) Adsorption energy</th><td>E_(i)^(b) (CO _(2) #)</td><td>2000 K</td></tr>
+</table>

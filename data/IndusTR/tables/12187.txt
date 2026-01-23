@@ -1,0 +1,14 @@
+<table>
+  <caption>Curved-Band Method Lookup: Wrap-Angle Ranges (radians) to DT with Grayscale Adjustments</caption>
+  <thead>
+    <tr><th>Wrap angle indicator (radians)</th><th>Curved-band geometry description</th><th>Base DT</th><th>Grayscale modifier note</th><th>Workflow remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>[0.15, 0.30)</td><td>Very weak curvature; short arc around center</td><td>1.0</td><td>If the analyzed band is White (W), add +0.5 DT</td><td>Only use if the band can be traced continuously for the stated arc</td></tr>
+    <tr><td>[0.30, 0.45)</td><td>Weak curved band; partial wrap</td><td>1.5</td><td>If the band is Black (B) or colder, do not add any DT</td><td>Prefer the coldest continuous segment for the wrap estimate</td></tr>
+    <tr><td>[0.45, 0.60)</td><td>Moderate curvature; clear wrap begins</td><td>2.5</td><td>If the band is White (W), add +0.5 DT; if Light Gray (LG), +0.0</td><td>Use the dominant arc that best follows the circulation</td></tr>
+    <tr><td>[0.60, 0.80)</td><td>Strong curvature; spiral band wraps around center</td><td>3.0</td><td>If Medium Gray (MG) dominates the band, subtract −0.5 DT</td><td>When multiple arcs exist, pick the one with greatest curvature</td></tr>
+    <tr><td>[0.80, 1.00]</td><td>Very strong curvature; near-complete curved band</td><td>3.5</td><td>If White (W), add +0.5 DT; if Dark Gray (DG), +0.0</td><td>Upper end approaches eye-like structure but still curved-band category</td></tr>
+    <tr><td>> 1.00</td><td>Band wraps more than one full quadrant beyond near-complete wrap</td><td>—</td><td>—</td><td>Do not use curved-band lookup; transition to eye-pattern analysis</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,24 @@
+<table>
+  <caption>User Terminal Application File: Group/Multicast Security Mapping (Group IDs to Key/IV References)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Group Entry (repeated per group)</td><td>Group ID (GID)</td><td>6</td><td>Identifier for a broadcast/multicast group within the terminal application context</td></tr>
+    <tr><td>Group type</td><td>1</td><td>00=broadcast, 01=multicast, 02=management group</td></tr>
+    <tr><td>Associated KeyID</td><td>1</td><td>Identifier of the group traffic key (sub-key) used for encrypt/MAC of group messages</td></tr>
+    <tr><td>Key index number (key handle)</td><td>6</td><td>Index/handle pointing to the protected storage location of the referenced group key</td></tr>
+    <tr><td>IV index number</td><td>6</td><td>Index/handle referencing the initialization vector used for the group security context</td></tr>
+    <tr><td>Group status</td><td>1</td><td>00=in use, 01=reclaimed (not usable), 02=suspended, 03=pending key rotation</td></tr>
+    <tr><td rowspan="7">Rotation / Rekey Metadata</td><td>Current epoch number</td><td>4</td><td>Key epoch for replay protection and group rekey synchronization</td></tr>
+    <tr><td>Next KeyID (preloaded)</td><td>1</td><td>KeyID of the next group key to be activated during rotation</td></tr>
+    <tr><td>Next key index number</td><td>6</td><td>Index/handle for the next (backup) group key in protected storage</td></tr>
+    <tr><td>Rekey authorization KeyID</td><td>1</td><td>KeyID required to authenticate/authorize group rekey commands</td></tr>
+    <tr><td>IV update mode</td><td>1</td><td>00=fixed IV reference, 01=per-epoch IV reference, 02=derived IV (from epoch + salt)</td></tr>
+    <tr><td>IV salt (if derived)</td><td>8</td><td>Salt value used when deriving IVs for the group security context</td></tr>
+    <tr><td>Last rekey result</td><td>1</td><td>00=success, 01=auth failure, 02=rollback detected, 03=storage error</td></tr>
+    <tr><td rowspan="3">Policy References</td><td>Allowed cipher suite ID</td><td>1</td><td>Reference to a cipher suite policy for group traffic (e.g., AES-CCM, SM4-CBC+CMAC)</td></tr>
+    <tr><td>Minimum required security level</td><td>1</td><td>00=none, 01=MAC only, 02=ENC+MAC, 03=ENC+MAC+replay protection</td></tr>
+    <tr><td>Secure messaging binding</td><td>1</td><td>00=not bound, 01=bound to terminal secure channel, 02=bound to group secure context</td></tr>
+  </tbody>
+</table>

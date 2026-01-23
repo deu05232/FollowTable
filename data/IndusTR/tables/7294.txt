@@ -1,0 +1,14 @@
+<table>
+  <caption>Electric Compressor Endurance Test Duty Cycle and Refrigeration-Side Setpoints</caption>
+  <thead>
+    <tr><th>Cycle ID</th><th>Stage</th><th>Voltage (VDC)</th><th>Speed (r/min)</th><th>Evaporating temp (°C)</th><th>Condensing temp (°C)</th><th>Superheat (K)</th><th>Ambient temp (°C)</th><th>Run time (min)</th><th>Stop time (min)</th><th>Cycles (count)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">C1</td><td>Normal load</td><td>320</td><td>5000</td><td>0</td><td>55</td><td>10</td><td>30</td><td>8</td><td>2</td><td rowspan="2">2000</td></tr>
+    <tr><td>High ambient</td><td>320</td><td>5000</td><td>5</td><td>65</td><td>10</td><td>45</td><td>8</td><td>2</td></tr>
+    <tr><td rowspan="2">C2</td><td>Low voltage</td><td>260</td><td>4500</td><td>-5</td><td>50</td><td>12</td><td>20</td><td>6</td><td>4</td><td rowspan="2">1500</td></tr>
+    <tr><td>High speed burst</td><td>320</td><td>6500</td><td>-5</td><td>55</td><td>12</td><td>20</td><td>3</td><td>2</td></tr>
+    <tr><td rowspan="2">C3</td><td>Heat soak start</td><td>360</td><td>5500</td><td>0</td><td>70</td><td>8</td><td>60</td><td>10</td><td>5</td><td rowspan="2">800</td></tr>
+    <tr><td>Recovery</td><td>320</td><td>4000</td><td>0</td><td>55</td><td>8</td><td>35</td><td>10</td><td>5</td></tr>
+  </tbody>
+</table>

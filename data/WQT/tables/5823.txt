@@ -1,0 +1,21 @@
+# IPv4
+> Addressing
+
+| Range | Description | Reference |
+| --- | --- | --- |
+| 0.0.0.0/8 | Current network (only valid as source address) | RFC 6890 |
+| 10.0.0.0/8 | Private network | RFC 1918 |
+| 100.64.0.0/10 | Shared Address Space | RFC 6598 |
+| 127.0.0.0/8 | Loopback | RFC 6890 |
+| 169.254.0.0/16 | Link-local | RFC 3927 |
+| 172.16.0.0/12 | Private network | RFC 1918 |
+| 192.0.0.0/24 | IETF Protocol Assignments | RFC 6890 |
+| 192.0.2.0/24 | TEST-NET-1, documentation and examples | RFC 5737 |
+| 192.88.99.0/24 | IPv6 to IPv4 relay (includes 2002::/16) | RFC 3068 |
+| 192.168.0.0/16 | Private network | RFC 1918 |
+| 198.18.0.0/15 | Network benchmark tests | RFC 2544 |
+| 198.51.100.0/24 | TEST-NET-2, documentation and examples | RFC 5737 |
+| 203.0.113.0/24 | TEST-NET-3, documentation and examples | RFC 5737 |
+| 224.0.0.0/4 | IP multicast (former Class D network) | RFC 5771 |
+| 240.0.0.0/4 | Reserved (former Class E network) | RFC 1700 |
+| 255.255.255.255 | Broadcast | RFC 919 |

@@ -1,0 +1,5 @@
+<table>
+  <caption>Charger Charge-Ready Status Message (PGN2560) Format</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1</td><td>1 byte</td><td>2830</td><td>Whether the charger is ready for charging (<0x00>: charger has not completed charging preparation; <0xAA>: charger has completed charging preparation; <0xFF>: invalid) (When the charger cannot determine the current ready status, it may send an invalid value to ensure the communication channel remains normal)</td><td>Mandatory</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Command D4h — Set Fan Group Operating State (Payload Byte Map)</caption>
+  <thead>
+    <tr><th>Byte Index</th><th>Field</th><th>Size (bytes)</th><th>Allowed Values (hex)</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>FGID</td><td>1</td><td>01h–08h</td><td>Fan group ID to be controlled</td></tr>
+    <tr><td>1</td><td>State</td><td>1</td><td>00h / 01h / 02h</td><td>00h=Stop, 01h=Run, 02h=Auto</td></tr>
+    <tr><td>2</td><td>Mode</td><td>1</td><td>00h / 01h</td><td>00h=Manual override, 01h=Follow controller logic</td></tr>
+    <tr><td>3</td><td>SpeedPercent</td><td>1</td><td>00h–64h</td><td>Requested fan speed in percent (0–100)</td></tr>
+    <tr><td>4</td><td>RampTime_s</td><td>1</td><td>00h–3Ch</td><td>Soft-start/stop ramp time in seconds (0–60)</td></tr>
+    <tr><td>5</td><td>HoldTime_min</td><td>1</td><td>00h–3Ch</td><td>Minimum hold time in minutes (0–60)</td></tr>
+    <tr><td>6</td><td>Reserved</td><td>1</td><td>00h</td><td>Must be 00h</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Raw Material Types vs Energy/Activation Sources for Powder Bed Fusion (Laser Included)</caption>
+  <tr><th rowspan="2">Raw material type</th><th colspan="5">Activation source</th></tr>
+  <tr><th>Laser</th><th>Electron beam</th><th>Arc</th><th>Plasma</th><th>Chemical energy</th></tr>
+  <tr><td>Metal powder</td><td>Laser Powder Bed Fusion (LPBF)</td><td>Electron Beam Melting (EBM)</td><td>N/A (not typical PBF)</td><td>N/A (not typical PBF)</td><td>Binder Jetting + furnace sintering (chemical/binder route)</td></tr>
+  <tr><td>Polymer powder</td><td>Selective Laser Sintering (SLS)</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td></tr>
+  <tr><td>Ceramic powder</td><td>Laser sintering of ceramics (indirect/with additives)</td><td>N/A</td><td>N/A</td><td>N/A</td><td>Binder Jetting + debind/sinter</td></tr>
+  <tr><td>Composite powder (metal-ceramic)</td><td>Laser PBF for MMC feedstocks</td><td>EBM for selected composites</td><td>N/A</td><td>N/A</td><td>Reactive/binder-assisted consolidation</td></tr>
+  <tr><td>Sand / gypsum powder</td><td>N/A</td><td>N/A</td><td>N/A</td><td>N/A</td><td>Binder Jetting (chemical binder)</td></tr>
+  <tr><td>Wax / investment powder</td><td>Laser sintering (specialty)</td><td>N/A</td><td>N/A</td><td>N/A</td><td>Binder-assisted printing</td></tr>
+</table>

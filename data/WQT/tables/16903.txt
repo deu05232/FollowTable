@@ -1,0 +1,8 @@
+# Exchange hybrid deployment  user experience changes across the two states
+
+| User-facing scenario | Before hybrid deployment | After hybrid deployment |
+| --- | --- | --- |
+| Cross-environment free/busy | Only works within the on-premises environment. | Works between on-premises and Office 365 users. |
+| Moving a mailbox | Moves are only within on-premises infrastructure. | Mailboxes can be moved between on-premises and Office 365 as part of a staged transition. |
+| Shared address list visibility | Users see only the on-premises directory scope. | Users can be presented as part of a unified address experience across environments. |
+| Messaging continuity | Separate environments behave like distinct mail systems. | The two environments behave like one connected organization for core collaboration scenarios. |

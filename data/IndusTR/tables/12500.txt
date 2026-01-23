@@ -1,0 +1,19 @@
+<table>
+  <caption>Detailed Inspection Flow for Synthesized Frequency Sources (Group-by-Group Test List and Sequence)</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Inspection / Test Item</th><th>Key Conditions (Example)</th><th>Group Label</th><th>Common Output / Acceptance Focus</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Pre-seal visual inspection (workmanship)</td><td>100% visual; verify cleanliness and obvious defects</td><td>Group A</td><td>No cracks, contamination, or mis-assembly</td></tr>
+    <tr><td>2</td><td>External visual inspection and marking inspection</td><td>Marking legibility; part number/date code vs. specification</td><td>Group A</td><td>Correct marking and no external damage</td></tr>
+    <tr><td>3</td><td>Dynamic electrical characteristics at 25°C</td><td>Nominal supply; measure output frequency, phase noise, spurious</td><td>Group A</td><td>Meets limits in detail specification</td></tr>
+    <tr><td>4</td><td>Dimensions / package outline verification</td><td>Critical dimensions per drawing; gauge check</td><td>Group B</td><td>Within dimensional tolerances</td></tr>
+    <tr><td>5</td><td>Rated value inspection of electrical parameters</td><td>Room temp verification of key rated parameters</td><td>Group B</td><td>Rated values within limits</td></tr>
+    <tr><td>6</td><td>Solderability</td><td>Wetting balance or dip-and-look after conditioning</td><td>Group B</td><td>Wetting coverage meets requirement</td></tr>
+    <tr><td>7</td><td>Static electrical characteristics at 25°C</td><td>DC current, control logic levels, tuning sensitivity (example)</td><td>Group C</td><td>Static parameters within limits</td></tr>
+    <tr><td>8</td><td>Electrical characteristics at max/min operating temperatures</td><td>Operate at Tmin/Tmax; record frequency drift and start-up behavior</td><td>Group C</td><td>Meets temp-extreme limits</td></tr>
+    <tr><td>9</td><td>Electrical endurance (life test)</td><td>Powered operation for specified duration with interim readouts</td><td>Group D</td><td>Post-test electrical performance remains compliant</td></tr>
+    <tr><td>10</td><td>High-temperature storage (non-operating)</td><td>24 h (or per spec) at maximum storage temperature</td><td>Group E</td><td>No degradation beyond allowed drift</td></tr>
+    <tr><td>11</td><td>Temperature cycling</td><td>Specified cycles between low/high storage or operating temps</td><td>Group E</td><td>No mechanical/electrical failure after cycling</td></tr>
+  </tbody>
+</table>

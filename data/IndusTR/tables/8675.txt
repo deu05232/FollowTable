@@ -1,0 +1,14 @@
+<table>
+  <caption>Abort/Termination Exchange Timing and Addressing Overview</caption>
+  <thead>
+    <tr><th>Abort PGI</th><th>Abort Message</th><th>Source Address</th><th>Destination Address</th><th>ACK Timeout (ms)</th><th>Retry Count</th><th>Total Tx Window (ms)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x03</td><td>Charger Abort</td><td>0xA0 (Charger)</td><td>0xB0 (Vehicle)</td><td>1000</td><td>3</td><td>4000</td></tr>
+    <tr><td>0x04</td><td>Vehicle Abort</td><td>0xB0 (Vehicle)</td><td>0xA0 (Charger)</td><td>1000</td><td>3</td><td>4000</td></tr>
+    <tr><td>0x03</td><td>Charger Abort (Broadcast Fallback)</td><td>0xA0</td><td>0xFF (Broadcast)</td><td>—</td><td>0</td><td>1000</td></tr>
+    <tr><td>0x04</td><td>Vehicle Abort (Broadcast Fallback)</td><td>0xB0</td><td>0xFF (Broadcast)</td><td>—</td><td>0</td><td>1000</td></tr>
+    <tr><td>0x03</td><td>Charger Abort (Diagnostics Mode)</td><td>0xA1</td><td>0xB1</td><td>1500</td><td>2</td><td>4500</td></tr>
+    <tr><td>0x04</td><td>Vehicle Abort (Diagnostics Mode)</td><td>0xB1</td><td>0xA1</td><td>1500</td><td>2</td><td>4500</td></tr>
+  </tbody>
+</table>

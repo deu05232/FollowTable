@@ -1,0 +1,15 @@
+<table>
+  <caption>Mandatory Ligature Conversions (IDs Included) but Rules Not in Bracketed Word-Boundary Unicode Patterns</caption>
+  <thead>
+    <tr><th>Presentation Form ID</th><th>Glyph</th><th>Form Type</th><th>Conversion Rule (Regex-like)</th><th>Replacement</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0101</td><td>P</td><td>Isolated</td><td>^\u182A(?:\u1820|\u1821)$</td><td>U+182A U+1820</td><td>Uses caret/dollar instead of [WB] markers and lacks bracketed codepoint tokens</td></tr>
+    <tr><td>010B</td><td>9</td><td>Isolated</td><td>\b\u182B(?:\u1820|\u1821)\b</td><td>U+182B U+1820</td><td>Uses \b, not the required [WB]+[...] style</td></tr>
+    <tr><td>0115</td><td>3</td><td>Isolated</td><td>\u182D\u1821(\u180B)?</td><td>U+182D U+1821</td><td>Optional group shown, but not bracketed Unicode-sequence pattern</td></tr>
+    <tr><td>0133</td><td>中</td><td>Isolated</td><td>\b\u183A(\u1820|\u1821)\b</td><td>U+183A U+1820</td><td>Not expressed as [WB]+[U+....]+...+[WB]</td></tr>
+    <tr><td>013D</td><td>小</td><td>Isolated</td><td>^\u183B(\u1820|\u1821)(\u180B)?$</td><td>U+183B U+1820</td><td>Anchors used; missing the mandated bracketed tokenization</td></tr>
+    <tr><td>0169</td><td>3</td><td>Isolated</td><td>\b\u1858(?:\u1820|\u1821)(?:\u180B)?\b</td><td>U+1858 U+1820</td><td>Regex notation rather than required bracketed pattern format</td></tr>
+    <tr><td>0193</td><td>9</td><td>Isolated</td><td>\u1892(\u1820|\u1821)$</td><td>U+1892 U+1820</td><td>Missing explicit word-boundary markers in requested form</td></tr>
+  </tbody>
+</table>

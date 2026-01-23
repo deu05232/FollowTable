@@ -1,0 +1,8 @@
+<table>
+  <caption>Device Alarm Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Fault Message 1</td><td>FaultMessage 1</td><td>M</td><td>VAR</td><td>RO</td><td>Uint16</td><td>0000~FFFF</td><td>丨</td><td>丨</td><td>Circuit breaker or relay overload</td></tr>
+  <tr><td>0X0901</td><td>Fault Message 2</td><td>FaultMessage 2</td><td>M</td><td>VAR</td><td>RO</td><td>Uint16</td><td>0000~FFFF</td><td>丨</td><td>1</td><td>VFD fault</td></tr>
+  <tr><td>0X0902</td><td>Fault Message 3</td><td>FaultMessage 3</td><td>M</td><td>VAR</td><td>RO</td><td>Uint16</td><td>0000~FFFF</td><td></td><td></td><td>Other faults</td></tr>
+  <tr><td>0X0903</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>丨</td><td>1</td><td>1</td><td></td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Operator Kernel Registration Matrix for Hardware Backend</caption>
+  <thead>
+    <tr><th>Operator</th><th>Kernel Symbol</th><th>Registration Macro</th><th>Supported Data Types</th><th>Target Device</th><th>Performance Tier</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Conv2D</td><td>Conv2D_Kernel_V1</td><td>REGISTER_KERNEL</td><td>FP16, FP32</td><td>NPU</td><td>Fast</td><td>Uses Winograd when stride=1</td></tr>
+    <tr><td>MatMul</td><td>MatMul_Kernel_V3</td><td>REGISTER_KERNEL</td><td>FP16, INT8</td><td>NPU</td><td>Fast</td><td>INT8 requires calibration table</td></tr>
+    <tr><td>LayerNorm</td><td>LayerNorm_Kernel</td><td>REGISTER_KERNEL</td><td>FP16, FP32</td><td>NPU</td><td>Medium</td><td>Fuses scale+bias</td></tr>
+    <tr><td>ReLU</td><td>Relu_Kernel</td><td>REGISTER_KERNEL</td><td>FP16, FP32, INT8</td><td>NPU</td><td>Fast</td><td>Elementwise</td></tr>
+    <tr><td>Softmax</td><td>Softmax_Kernel</td><td>REGISTER_KERNEL</td><td>FP16, FP32</td><td>NPU</td><td>Medium</td><td>Stable softmax with max-subtraction</td></tr>
+    <tr><td>Transpose</td><td>Transpose_Kernel</td><td>REGISTER_KERNEL</td><td>FP16, FP32</td><td>NPU</td><td>Slow</td><td>Prefer layout-aware graph rewrite</td></tr>
+    <tr><td>Gather</td><td>Gather_Kernel</td><td>REGISTER_KERNEL</td><td>INT32 indices</td><td>NPU</td><td>Medium</td><td>Out-of-bound behavior matches framework</td></tr>
+  </tbody>
+</table>

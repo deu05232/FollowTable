@@ -1,0 +1,16 @@
+<table>
+  <caption>Mechanical Drawing Verification and Marking Rules for Synthesized Frequency Source Assemblies</caption>
+  <thead>
+    <tr><th>Section</th><th>Check Item</th><th>Reference Document</th><th>Tooling / Method</th><th>Limit / Requirement</th><th>Record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Overall outline dimensions</td><td>Assembly Drawing DWG-SFS-200</td><td>CMM measurement</td><td>Conform to drawing tolerances</td><td>Yes</td></tr>
+    <tr><td>2</td><td>Mounting hole diameter</td><td>DWG-SFS-200</td><td>Pin gauge</td><td>Ø3.20 mm ±0.05 mm</td><td>Yes</td></tr>
+    <tr><td>3</td><td>Mounting hole position</td><td>DWG-SFS-200</td><td>CMM measurement</td><td>true position ≤0.10 mm</td><td>Yes</td></tr>
+    <tr><td>4</td><td>Connector height above PCB</td><td>DWG-SFS-200</td><td>Height gauge</td><td>8.50 mm ±0.10 mm</td><td>Yes</td></tr>
+    <tr><td>5</td><td>Pin 1 indicator location</td><td>Marking Spec MS-SFS-01</td><td>Visual + photo</td><td>Indicator present and matches spec</td><td>Yes</td></tr>
+    <tr><td>6</td><td>Label content (P/N, S/N, lot)</td><td>MS-SFS-01</td><td>Scan / OCR</td><td>All fields correct and readable</td><td>Yes</td></tr>
+    <tr><td>7</td><td>ESD caution marking</td><td>MS-SFS-01</td><td>Visual</td><td>ESD symbol present, minimum 3 mm height</td><td>Optional</td></tr>
+    <tr><td>8</td><td>Finish appearance</td><td>Internal Spec FS-SFS-02</td><td>Visual under 1000 lx</td><td>No scratches deeper than 0.05 mm; no dents</td><td>Yes</td></tr>
+  </tbody>
+</table>

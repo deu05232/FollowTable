@@ -1,0 +1,10 @@
+<table>
+  <caption>vrPose with interface functions in the same reference (mixed content)</caption>
+  <tr><th>Category</th><th>Name</th><th>Signature/Type</th><th>Description</th></tr>
+  <tr><td>Struct field</td><td>vrPose.time_stamp</td><td>int64_t</td><td>Pose timestamp</td></tr>
+  <tr><td>Struct field</td><td>vrPose.orientation</td><td>vrQuaternion</td><td>Orientation quaternion</td></tr>
+  <tr><td>Struct field</td><td>vrPose.position</td><td>vr3DPoint</td><td>Position point</td></tr>
+  <tr><td>API</td><td>vrDeviceGetPositionableDeviceMotionPose</td><td>bool (..., vrPose *pose, vrMotionData *motion)</td><td>Get pose and motion</td></tr>
+  <tr><td>API</td><td>vrDeviceGetPositionableDeviceType</td><td>bool (..., vrPositionableDeviceType *type)</td><td>Get device type</td></tr>
+  <tr><td>API</td><td>vrDeviceGetPositionableDeviceList</td><td>bool (..., int32_t *out_size)</td><td>Get device list</td></tr>
+</table>

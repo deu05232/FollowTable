@@ -1,0 +1,15 @@
+<table>
+  <caption>Ground-segment processing pipeline configuration for enhanced IR imagery (operational settings)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Algorithm</th><th>Key Setting</th><th>Value</th><th>Unit</th><th>Version</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ingest</td><td>Packet de-framing</td><td>Max gap fill</td><td>2</td><td>packets</td><td>v3.2</td></tr>
+    <tr><td>Navigation</td><td>Star-tracker fusion</td><td>Attitude smoothing window</td><td>15</td><td>s</td><td>v1.9</td></tr>
+    <tr><td>Calibration</td><td>Two-point blackbody</td><td>BB temperature set</td><td>285/315</td><td>K</td><td>v2.1</td></tr>
+    <tr><td>Resampling</td><td>Grid remap</td><td>Output resolution</td><td>2</td><td>km</td><td>v4.0</td></tr>
+    <tr><td>Enhancement</td><td>Histogram equalization</td><td>Clip limit</td><td>0.010</td><td>—</td><td>v1.3</td></tr>
+    <tr><td>Quality control</td><td>Cloud mask check</td><td>Bad pixel threshold</td><td>0.5</td><td>%</td><td>v2.5</td></tr>
+    <tr><td>Archiving</td><td>Compression</td><td>Codec</td><td>JPEG2000</td><td>—</td><td>v3.0</td></tr>
+  </tbody>
+</table>

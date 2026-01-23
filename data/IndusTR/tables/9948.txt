@@ -1,0 +1,7 @@
+<table>
+  <caption>Framework Adaptation Interfaces (Runtime Execution)</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Load Executable Model</td><td>load_model</td><td>Required</td><td>Load a previously created hardware-executable model into the runtime for execution</td></tr>
+  <tr><td>Unload Executable Model</td><td>unload_model</td><td>Optional</td><td>Release a loaded executable model from the runtime</td></tr>
+  <tr><td>Execute Graph</td><td>execute_graph</td><td>Required</td><td>Run inference/training steps using the loaded model and provided inputs</td></tr>
+</table>

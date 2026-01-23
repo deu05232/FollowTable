@@ -1,0 +1,7 @@
+<table>
+  <caption>SM9 Signature Data Structure Field Definitions</caption>
+  <tr><td>Field Name</td><td>Data Length (bytes)</td><td>Meaning</td></tr>
+  <tr><td>h</td><td>SM9ref_MAX_LEN</td><td>H part of the signature result</td></tr>
+  <tr><td>X</td><td>SM9ref_MAX_LEN5AC</td><td>X coordinate of the point on the curve</td></tr>
+  <tr><td>y</td><td>SM9ref_MAX_LEN</td><td>Y coordinate of the point on the curve</td></tr>
+</table>

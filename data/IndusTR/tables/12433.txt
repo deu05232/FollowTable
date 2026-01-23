@@ -1,0 +1,16 @@
+<table>
+  <caption>VR Tracking Space and Pose Conversion APIs (Not Type Definitions)</caption>
+  <thead>
+    <tr><th>Module</th><th>Function</th><th>Inputs</th><th>Outputs</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Tracking space</td><td>vrTrackingGetOrigin</td><td>—</td><td>vrPose *out_origin</td><td>Query current tracking origin pose</td></tr>
+    <tr><td>vrTrackingSetOrigin</td><td>const vrPose *origin</td><td>bool</td><td>Override tracking origin</td></tr>
+    <tr><td>vrTrackingRecenter</td><td>vrHMDRelocalizationMode mode</td><td>bool</td><td>Recenter using local/global relocalization</td></tr>
+    <tr><td rowspan="3">Pose conversion</td><td>vrPoseTransform</td><td>const vrPose *in_pose, const vrPose *transform</td><td>vrPose *out_pose</td><td>Apply transform pose to pose</td></tr>
+    <tr><td>vrPoseToMatrix4x4</td><td>const vrPose *pose</td><td>float out_m[16]</td><td>Convert pose to column-major 4x4 matrix</td></tr>
+    <tr><td>vrMatrix4x4ToPose</td><td>const float m[16]</td><td>vrPose *out_pose</td><td>Convert 4x4 matrix to pose</td></tr>
+    <tr><td rowspan="2">Timing</td><td>vrDeviceGetPredictedPose</td><td>const vrPositionableDevice *device, double seconds_ahead</td><td>vrPose *out_pose</td><td>Predict future pose for rendering</td></tr>
+    <tr><td>vrDeviceGetPoseAtTime</td><td>const vrPositionableDevice *device, int64_t time_stamp</td><td>vrPose *out_pose</td><td>Interpolate/extrapolate pose at timestamp</td></tr>
+  </tbody>
+</table>

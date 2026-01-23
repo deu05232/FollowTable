@@ -1,0 +1,15 @@
+<table>
+  <caption>Ref Object (Information Container Reference) Parameter Specification</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Data Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>targetProjectId</td><td>string</td><td>Yes</td><td>Identifier of the project that owns the referenced container.</td></tr>
+    <tr><td>targetContainerId</td><td>string</td><td>Yes</td><td>Identifier of the referenced information container.</td></tr>
+    <tr><td>targetContainerVersion</td><td>string</td><td>No</td><td>Optional version tag of the referenced container (e.g., semantic version or revision id).</td></tr>
+    <tr><td>relationshipType</td><td>string</td><td>No</td><td>Relationship semantic between source and target (e.g., "dependsOn", "includes", "derivesFrom").</td></tr>
+    <tr><td>direction</td><td>string</td><td>No</td><td>Direction of the link from the perspective of the containing object ("outbound"/"inbound").</td></tr>
+    <tr><td>resolvePolicy</td><td>string</td><td>No</td><td>How the reference should be resolved (e.g., "latest", "pinned", "exactVersion").</td></tr>
+    <tr><td>requiredForValidation</td><td>boolean</td><td>No</td><td>Whether this link must be resolvable for validation to pass.</td></tr>
+  </tbody>
+</table>

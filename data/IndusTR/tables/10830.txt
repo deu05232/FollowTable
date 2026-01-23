@@ -1,0 +1,16 @@
+<table>
+  <caption>Satellite-Derived Cloud and Precipitation Product Codes</caption>
+  <thead>
+    <tr><th>Data Product Name</th><th>Short Code</th><th>Brief Description</th><th>Primary Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cloud Mask</td><td>CLM</td><td>Pixel-level classification of clear vs. cloudy scenes</td><td>Quality screening / cloud detection</td></tr>
+    <tr><td>Cloud Top Temperature</td><td>CTT</td><td>Estimated temperature at the cloud top derived from infrared brightness temperatures</td><td>Convective monitoring</td></tr>
+    <tr><td>Cloud Top Height</td><td>CTH</td><td>Retrieved cloud-top altitude/height using IR/CO2-slicing or multi-spectral methods</td><td>Cloud structure</td></tr>
+    <tr><td>Cloud Optical Thickness</td><td>COT</td><td>Optical depth of cloud layer inferred from visible/near-IR reflectances</td><td>Radiation and microphysics</td></tr>
+    <tr><td>Cloud Effective Radius</td><td>CER</td><td>Estimated particle effective radius for cloud droplets/ice crystals</td><td>Cloud microphysics</td></tr>
+    <tr><td>Cloud Water Path</td><td>CWP</td><td>Column-integrated condensed water amount (liquid/ice) for clouds</td><td>Hydrometeor loading</td></tr>
+    <tr><td>Precipitation Rate (Instantaneous)</td><td>PRR</td><td>Instantaneous precipitation intensity derived from multi-spectral/IR or microwave proxies</td><td>Rain monitoring</td></tr>
+    <tr><td>Convective Initiation Index</td><td>CII</td><td>Index indicating likelihood of convective development based on rapid cloud-top cooling and related signals</td><td>Nowcasting</td></tr>
+  </tbody>
+</table>

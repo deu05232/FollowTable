@@ -1,0 +1,13 @@
+# Mainland China Blocked Websites Catalog (with Blocking Technique Notes)
+
+| Website / Service | Domain | Example URL | Observed Block Type | Notes |
+|---|---|---|---|---|
+| Google Search | google.com | https://www.google.com | DNS poisoning / IP blocking | Intermittent reachability reported by users |
+| YouTube | youtube.com | https://www.youtube.com | SNI/keyword filtering | Video CDN endpoints often reset |
+| Facebook | facebook.com | https://www.facebook.com | IP blocking | Login endpoints frequently unreachable |
+| X (Twitter) | x.com | https://x.com | DNS poisoning | Previously twitter.com |
+| Wikipedia (all languages) | wikipedia.org | https://en.wikipedia.org | HTTPS interception / resets | Access varies by ISP |
+| Instagram | instagram.com | https://www.instagram.com | IP blocking | Shares infrastructure with Facebook |
+| WhatsApp | whatsapp.com | https://www.whatsapp.com | Protocol blocking | Messaging often disrupted |
+| Telegram | telegram.org | https://telegram.org | DPI keyword filtering | Some IP ranges blocked |
+| Dropbox | dropbox.com | https://www.dropbox.com | IP blocking | File sync often fails |

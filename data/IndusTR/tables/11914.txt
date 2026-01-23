@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre Control-Word Bitfield Layout (Diagram-Style, No Concrete Control Word Definitions)</caption>
+  <thead>
+    <tr><th>Bit Range</th><th>Field Name</th><th>Width (bits)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>31..24</td><td>COMMA</td><td>8</td><td>Comma/Sync marker position in the word</td></tr>
+    <tr><td>23..20</td><td>SBF</td><td>4</td><td>Sub-block format selector</td></tr>
+    <tr><td>19..18</td><td>bc</td><td>2</td><td>Block count / class indicator</td></tr>
+    <tr><td>17..16</td><td>B_TYPE</td><td>2</td><td>Block type discriminator</td></tr>
+    <tr><td>15..8</td><td>DATA_1</td><td>8</td><td>First data/control byte container</td></tr>
+    <tr><td>7..0</td><td>DATA_2</td><td>8</td><td>Second data/control byte container</td></tr>
+    <tr><td>—</td><td>CRC/Check</td><td>Varies</td><td>Optional integrity check depending on context</td></tr>
+  </tbody>
+</table>

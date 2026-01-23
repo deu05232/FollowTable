@@ -1,0 +1,16 @@
+<table>
+  <caption>Spherical-Harmonic Coefficient Fields (Mixed) with Reserved/Non-Coefficient Payload Elements</caption>
+  <thead>
+    <tr><th>Group</th><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Bit Width</th><th>Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Coeff</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>int16</td><td>16</td><td>Cnm correction term</td></tr>
+    <tr><td>Coeff</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>int16</td><td>16</td><td>Snm correction term</td></tr>
+    <tr><td>Coeff</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>uint8</td><td>8</td><td>Cnm accuracy indicator</td></tr>
+    <tr><td>Coeff</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>uint8</td><td>8</td><td>Snm accuracy indicator</td></tr>
+    <tr><td>Non-coeff</td><td>Message type number</td><td>DF002</td><td>uint12</td><td>12</td><td>Generic SSR header field</td></tr>
+    <tr><td>Non-coeff</td><td>GPS epoch time</td><td>DF385</td><td>uint20</td><td>20</td><td>Generic SSR timing field</td></tr>
+    <tr><td>Non-coeff</td><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Generic SSR timing field</td></tr>
+    <tr><td>Non-coeff</td><td>Reserved for future use</td><td>DF000</td><td>bit(6)</td><td>6</td><td>Padding/reserved bits</td></tr>
+  </tbody>
+</table>

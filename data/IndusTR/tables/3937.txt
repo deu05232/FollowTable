@@ -1,0 +1,17 @@
+<table>
+  <caption>Data Dictionary Index Number Coding Structure</caption>
+  <tr><td>Attribute Set Category</td><td>Attribute Set Data Dictionary</td><td>Parameter Set</td><td>Data Dictionary Index Number Range</td></tr>
+  <tr><td rowspan="2">Static attribute set</td><td rowspan="2">Device definition attribute set data dictionary</td><td>Device definition parameter set</td><td>0X0000~0X00FF</td></tr>
+  <tr><td>Device main parameter set</td><td>0X0100~0X01FF</td></tr>
+  <tr><td rowspan="10">Process attribute set</td><td>Device process attribute set data dictionary</td><td>Device process parameter set</td><td>0X0200~0X02FF</td></tr>
+  <tr><td rowspan="7">Device status attribute set data dictionary</td><td>Device operation monitoring parameter set</td><td>0X0300~0X03FF</td></tr>
+  <tr><td>Device efficiency parameter set</td><td>0X0400~0X04FF</td></tr>
+  <tr><td>Device energy parameter set</td><td>0X0500~0X05FF</td></tr>
+  <tr><td>Device carbon emission parameter set</td><td>0X0600~0X06FF</td></tr>
+  <tr><td>Device working status parameter set</td><td>0X0700~0X07FF</td></tr>
+  <tr><td>Device control status parameter set</td><td>0X0800~0X08FF</td></tr>
+  <tr><td>Device alarm parameter set</td><td>0X0900~0X09FF</td></tr>
+  <tr><td rowspan="2">Device production management attribute set data dictionary</td><td>Device production management parameter set</td><td>0X0A00~0X0AFF</td></tr>
+  <tr><td>Device quality control parameter set</td><td>0X0B00~0X0BFF</td></tr>
+  <tr><td>Extensible attribute set</td><td>Extensible attribute set data dictionary</td><td>Extensible attribute set</td><td>0X0C00~0X0FFF</td></tr>
+</table>

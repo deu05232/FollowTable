@@ -1,0 +1,16 @@
+<table>
+  <caption>SM9 Encryption API Overview (Narrative-Heavy, Fragmented Signature)</caption>
+  <thead>
+    <tr><th>Section</th><th>Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Function</td><td>SAF_SM9Encrypt</td></tr>
+    <tr><td>Call Fragment</td><td>int SAF_SM9Encrypt(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, ...)</td></tr>
+    <tr><td>Notes</td><td>This interface performs SM9 identity-based encryption. The caller should supply a user identity, algorithm identifier, IV (optional by algorithm), plaintext buffer, and receive ciphertext. The SM9 computation shall comply with GB/T 41389.</td></tr>
+    <tr><td>Inputs (summary)</td><td>hAppHandle, uiMasterPublicKeyIndex, user identity, algorithm id, IV, plaintext</td></tr>
+    <tr><td>Outputs (summary)</td><td>ciphertext buffer and length</td></tr>
+    <tr><td>Common Errors</td><td>Invalid container state; unsupported algorithm; insufficient output buffer.</td></tr>
+    <tr><td>Recommended Usage</td><td>Allocate output with a safe upper bound, call once to get required length, then call again to fill ciphertext.</td></tr>
+    <tr><td>Related Interfaces</td><td>SAF_SM9Decrypt, SAF_ImportSM9MasterPublicKey</td></tr>
+  </tbody>
+</table>

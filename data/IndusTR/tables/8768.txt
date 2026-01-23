@@ -1,0 +1,21 @@
+<table>
+  <caption>Evaporation–Concentration and Finishing (Prilling/Drying) Section Live Operating Condition Targets</caption>
+  <thead>
+    <tr><th>Area</th><th>Equipment</th><th>Operating Condition (Online)</th><th>Normal Operating Window</th><th>Alarm Setpoint</th><th>Typical Control Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Evaporation</td><td>1st-stage evaporator</td><td>Solution temperature (°C)</td><td>140–155</td><td>High 158</td><td>Steam to calandria / vacuum trim</td></tr>
+    <tr><td>1st-stage evaporator</td><td>Absolute pressure (MPa abs)</td><td>0.030–0.060</td><td>High 0.070</td><td>Vacuum ejector / condenser cooling</td></tr>
+    <tr><td>2nd-stage evaporator</td><td>Solution temperature (°C)</td><td>165–185</td><td>High 188</td><td>Steam split / vacuum trim</td></tr>
+    <tr><td>2nd-stage evaporator</td><td>Vapor outlet temperature (°C)</td><td>95–120</td><td>High 125</td><td>Condenser duty adjustment</td></tr>
+    <tr><td rowspan="3">Melt handling</td><td>Remelt tank</td><td>Melt temperature (°C)</td><td>150–160</td><td>High 165</td><td>Tank coil steam / recirculation rate</td></tr>
+    <tr><td>Remelt tank</td><td>Tank pressure (kPa g)</td><td>0–5</td><td>High 10</td><td>Vent control / condenser check</td></tr>
+    <tr><td>Melt pump discharge</td><td>Discharge pressure (MPa)</td><td>0.20–0.35</td><td>High 0.40</td><td>Pump speed / discharge valve</td></tr>
+    <tr><td rowspan="4">Prilling / drying</td><td>Prilling tower</td><td>Top air temperature (°C)</td><td>35–55</td><td>High 60</td><td>Air cooler bypass / fan rate</td></tr>
+    <tr><td>Dryer (pre-drying)</td><td>Inlet air temperature (°C)</td><td>45–70</td><td>High 75</td><td>Heater firing/steam valve</td></tr>
+    <tr><td>Dryer (main drying)</td><td>Inlet air temperature (°C)</td><td>95–140</td><td>High 145</td><td>Heater duty / airflow</td></tr>
+    <tr><td>Dryer</td><td>Exhaust gas temperature (°C)</td><td>55–85</td><td>High 90</td><td>Airflow and heater trim</td></tr>
+    <tr><td rowspan="2">Coating</td><td>Coating agent tank</td><td>Tank temperature (°C)</td><td>75–105</td><td>High 110</td><td>Tank heater control</td></tr>
+    <tr><td>Coating drum</td><td>Drum speed (rpm)</td><td>6–12</td><td>High 14</td><td>VFD speed setpoint</td></tr>
+  </tbody>
+</table>

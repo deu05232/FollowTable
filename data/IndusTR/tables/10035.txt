@@ -1,0 +1,14 @@
+<table>
+  <caption>Terminal I/O Addressing Parameters (User and Message Identifiers Only)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Field Name</th><th>Value Range</th><th>Format / Length</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sender ID</td><td>1–281474976710655</td><td>Up to 48-bit unsigned</td><td>Originating endpoint identifier; may represent an intranet or extranet address.</td></tr>
+    <tr><td>2</td><td>Recipient ID</td><td>1–16777215</td><td>24-bit unsigned</td><td>Destination endpoint identifier; intranet user address.</td></tr>
+    <tr><td>3</td><td>Inbound User ID</td><td>1–16777215</td><td>24-bit unsigned</td><td>User identifier used for inbound routing/association in the access network.</td></tr>
+    <tr><td>4</td><td>Outbound User ID</td><td>1–16777215</td><td>24-bit unsigned</td><td>User identifier used to label the outbound terminal endpoint in a transaction.</td></tr>
+    <tr><td>5</td><td>Message Sequence Number</td><td>0–65535</td><td>16-bit unsigned</td><td>End-to-end message identifier used to correlate requests and responses.</td></tr>
+    <tr><td>6</td><td>Station Entry Sequence Number</td><td>0–31</td><td>5-bit unsigned</td><td>Lower 5 bits of the inbound sequence identifier; used as a short addressing-related index.</td></tr>
+  </tbody>
+</table>

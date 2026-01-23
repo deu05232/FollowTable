@@ -1,0 +1,15 @@
+<table>
+  <caption>Cross-validation evaluation metrics for aboveground biomass models: simple vs complex model families by forest type</caption>
+  <thead>
+    <tr><th rowspan="2">No.</th><th rowspan="2">Forest type</th><th rowspan="2">Biomass component</th><th colspan="5">Simple model family (univariate)</th><th colspan="5">Complex model family (bivariate)</th></tr>
+    <tr><th>CV R²</th><th>CV RMSE (kg)</th><th>CV MPE (%)</th><th>Bias (kg)</th><th>AIC</th><th>CV R²</th><th>CV RMSE (kg)</th><th>CV MPE (%)</th><th>Bias (kg)</th><th>AIC</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Temperate conifer</td><td>Aboveground</td><td>0.861</td><td>16.4</td><td>9.6</td><td>-0.8</td><td>312.5</td><td>0.884</td><td>15.1</td><td>8.9</td><td>-0.3</td><td>298.7</td></tr>
+    <tr><td>2</td><td>Temperate conifer</td><td>Stem</td><td>0.842</td><td>14.8</td><td>10.2</td><td>-0.6</td><td>275.9</td><td>0.867</td><td>13.6</td><td>9.3</td><td>-0.2</td><td>262.1</td></tr>
+    <tr><td>3</td><td>Mixed forest</td><td>Aboveground</td><td>0.823</td><td>19.7</td><td>11.8</td><td>1.1</td><td>340.8</td><td>0.852</td><td>18.0</td><td>10.6</td><td>0.5</td><td>325.4</td></tr>
+    <tr><td>4</td><td>Mixed forest</td><td>Branches</td><td>0.776</td><td>12.9</td><td>14.4</td><td>0.7</td><td>228.3</td><td>0.812</td><td>11.8</td><td>12.9</td><td>0.3</td><td>214.6</td></tr>
+    <tr><td>5</td><td>Boreal conifer</td><td>Aboveground</td><td>0.892</td><td>13.2</td><td>8.1</td><td>-0.4</td><td>301.2</td><td>0.913</td><td>12.1</td><td>7.4</td><td>-0.1</td><td>287.9</td></tr>
+    <tr><td>6</td><td>Boreal conifer</td><td>Foliage</td><td>0.741</td><td>6.8</td><td>15.6</td><td>0.2</td><td>142.7</td><td>0.789</td><td>6.1</td><td>13.7</td><td>0.1</td><td>131.5</td></tr>
+  </tbody>
+</table>

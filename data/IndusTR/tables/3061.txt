@@ -1,0 +1,10 @@
+<table>
+  <caption>QA QC Checklist for Slope Angle Measurement and Terrain Profiling</caption>
+  <tr><th>Check Item</th><th>Instrument</th><th>Acceptance Criteria</th><th>Frequency</th><th>Record Template</th></tr>
+  <tr><td>Clinometer zero offset</td><td>Handheld clinometer</td><td>Offset ≤ 0.5°</td><td>Daily</td><td>QC-CLN-01</td></tr>
+  <tr><td>GNSS baseline validation</td><td>RTK GNSS</td><td>RMSE ≤ 2 cm</td><td>Per site</td><td>QC-RTK-07</td></tr>
+  <tr><td>Transect spacing</td><td>Total station</td><td>5–20 m depending on relief</td><td>Per transect</td><td>QC-TRN-03</td></tr>
+  <tr><td>DEM vertical accuracy</td><td>UAV photogrammetry</td><td>σz ≤ 10 cm</td><td>Per flight</td><td>QC-DEM-02</td></tr>
+  <tr><td>Outlier handling</td><td>Processing software</td><td>Remove points beyond 3σ</td><td>Per dataset</td><td>QC-PRC-05</td></tr>
+  <tr><td>Documentation completeness</td><td>Field notebook</td><td>All metadata fields filled</td><td>Per day</td><td>QC-DOC-01</td></tr>
+</table>

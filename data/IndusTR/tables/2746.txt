@@ -1,0 +1,10 @@
+<table>
+  <caption>Key Electronic Components Bill of Materials (BOM) for Beidou Monitoring Terminal Assembly</caption>
+  <tr><th>BOM Level</th><th>Component</th><th>Manufacturer</th><th>Part Number</th><th>Package</th><th>Qty/Unit</th><th>Notes</th></tr>
+  <tr><td>L1</td><td>GNSS RF Front-End</td><td>SkyRF</td><td>SRF-2291</td><td>QFN</td><td>1</td><td>SAW integrated</td></tr>
+  <tr><td>L1</td><td>4G LTE Modem</td><td>QuecTel</td><td>EC25</td><td>LGA</td><td>1</td><td>Cat 4</td></tr>
+  <tr><td>L2</td><td>MCU</td><td>ST</td><td>STM32F407</td><td>LQFP</td><td>1</td><td>168 MHz</td></tr>
+  <tr><td>L2</td><td>eMMC</td><td>Samsung</td><td>KLM8G1GETF</td><td>BGA</td><td>1</td><td>8 GB</td></tr>
+  <tr><td>L3</td><td>TVS Diode</td><td>Littelfuse</td><td>SMF5.0A</td><td>SOD-123</td><td>2</td><td>ESD protection</td></tr>
+  <tr><td>L3</td><td>DC/DC Converter</td><td>TI</td><td>TPS5430</td><td>SOIC</td><td>1</td><td>3A buck</td></tr>
+</table>

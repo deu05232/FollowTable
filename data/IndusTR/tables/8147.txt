@@ -1,0 +1,16 @@
+<table>
+  <caption>Industrial Instrument Configuration Parameter Matrix (Normal Operation Settings)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Sub-type</th><th>Parameter Group</th><th>Parameter</th><th>Typical Range / Options</th><th>User Configurable</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Measuring Instruments</td><td>Pressure Transmitter</td><td>Scaling</td><td>Upper Range Value (URV)</td><td>0.1–60 MPa</td><td>Yes</td><td>Engineering unit selectable</td></tr>
+    <tr><td>Measuring Instruments</td><td>Pressure Transmitter</td><td>Scaling</td><td>Lower Range Value (LRV)</td><td>0–59.9 MPa</td><td>Yes</td><td>Must be < URV</td></tr>
+    <tr><td>Measuring Instruments</td><td>Temperature Transmitter</td><td>Sensor</td><td>Sensor Type</td><td>Pt100 / K / J / T</td><td>Yes</td><td>IEC/ASTM mapping supported</td></tr>
+    <tr><td>Measuring Instruments</td><td>Flowmeter (Vortex)</td><td>Signal Processing</td><td>Damping Time Constant</td><td>0–60 s</td><td>Yes</td><td>Smoothing for stable display</td></tr>
+    <tr><td>Analytical Instruments</td><td>Gas Analyzer</td><td>User Management</td><td>Role-Based Access</td><td>Operator / Engineer / Admin</td><td>Yes</td><td>Password policy configurable</td></tr>
+    <tr><td>Analytical Instruments</td><td>pH Analyzer</td><td>Calibration</td><td>Calibration Mode</td><td>Auto / Semi-auto / Manual</td><td>Yes</td><td>Two-point calibration supported</td></tr>
+    <tr><td>Actuators</td><td>Electric Actuator</td><td>Control</td><td>Local/Remote Mode</td><td>Local / Remote</td><td>Yes</td><td>Mode switch via keypad or DI</td></tr>
+    <tr><td>Actuators</td><td>Electro-hydraulic Actuator</td><td>Output</td><td>Position Output Type</td><td>4–20 mA / Fieldbus</td><td>Yes</td><td>Selectable scaling and direction</td></tr>
+  </tbody>
+</table>

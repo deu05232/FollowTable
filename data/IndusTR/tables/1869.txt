@@ -1,0 +1,24 @@
+<table>
+  <caption>Walk-Test Requirements for Intrusion Detectors for Boundary-Crossing Detection</caption>
+  <tr><td>Test</td><td>Security level 1</td><td>Security level 2</td><td>Security level 3</td><td>Security level 4</td></tr>
+  <tr><td rowspan="3">Boundary-crossing detection speed and posture</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>1.0 m/s</td><td>1.0 m/s</td><td>1.0 m/s</td><td>1.0 m/s</td></tr>
+  <tr><td>Upright</td><td>Upright</td><td>Upright</td><td>Upright</td></tr>
+  <tr><td rowspan="3">In-boundary movement detection speed and posture</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>0.3 m/s</td><td>0.3 m/s</td><td>0.2 m/s</td><td>0.1 m/s</td></tr>
+  <tr><td>Upright</td><td>Upright</td><td>Upright</td><td>Upright</td></tr>
+  <tr><td rowspan="3">Fast movement detection speed and posture</td><td>OP</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>NA</td><td>2.0 m/s</td><td>2.5 m/s</td><td>3.0 m/s</td></tr>
+  <tr><td>NA</td><td>Upright</td><td>Upright</td><td>Upright</td></tr>
+  <tr><td rowspan="3">Intermittent movement detection speed and posture</td><td>OP</td><td>OP</td><td>M</td><td>M</td></tr>
+  <tr><td>NA</td><td>NA</td><td>1.0 m/s</td><td>1.0 m/s</td></tr>
+  <tr><td>NA</td><td>NA</td><td>Upright</td><td>Upright</td></tr>
+  <tr><td rowspan="4">Close-range detection (coverage angle ≤180°) distance, speed and posture</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>2.0m</td><td>2.0m</td><td>0.5m</td><td>0.5m</td></tr>
+  <tr><td>0.5 m/s</td><td>0.4 m/s</td><td>0.3 m/s</td><td>0.2 m/s</td></tr>
+  <tr><td>Upright</td><td>Upright</td><td>Crawling</td><td>Crawling</td></tr>
+  <tr><td rowspan="3">Axial movement detection (coverage angle >180) speed and posture</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>0.5 m/s</td><td>0.4 m/s</td><td>0.3 m/s</td><td>0.2 m/s</td></tr>
+  <tr><td>Upright</td><td>Upright</td><td>Upright</td><td>Upright</td></tr>
+  <tr><td colspan="5">M=Mandatory function. OP=Optional function. NA=Not applicable</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>AR session arguments summary without runtime meaning</caption>
+  <tr><td>Item</td><td>Signature type</td><td>Nullable</td></tr>
+  <tr><td>out_session_pointer</td><td>ArSession **</td><td>No</td></tr>
+  <tr><td>features</td><td>ArSessionFeature *</td><td>Yes</td></tr>
+  <tr><td>out_config</td><td>ArConfig *</td><td>No</td></tr>
+</table>

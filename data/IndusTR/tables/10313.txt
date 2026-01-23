@@ -1,0 +1,16 @@
+<table>
+  <caption>Performance Rating Condition Points (Source Side Expressed in Air Temperatures, Not Water Inlet/Flow)</caption>
+  <thead>
+    <tr><th rowspan="2">Condition point</th><th rowspan="2">Load ratio</th><th rowspan="2">Rating test</th><th colspan="2">Load side (water)</th><th colspan="2">Heat source side (air)</th></tr>
+    <tr><th>Leaving water temp (°C)</th><th>Flow per unit capacity (m³/(h·kW))</th><th>Entering dry-bulb (°C)</th><th>Entering wet-bulb (°C)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>100%</td><td>Nominal cooling</td><td>7</td><td>0.172</td><td>35</td><td>24</td></tr>
+    <tr><td>B</td><td>100%</td><td>Nominal heating</td><td>45</td><td>0.120</td><td>7</td><td>6</td></tr>
+    <tr><td>I</td><td>157%</td><td>Cooling (overload)</td><td>7</td><td>0.160</td><td>43</td><td>30</td></tr>
+    <tr><td>J</td><td>75%</td><td>Cooling (part load)</td><td>7</td><td>0.172</td><td>30</td><td>21</td></tr>
+    <tr><td>K</td><td>50%</td><td>Cooling (part load)</td><td>7</td><td>0.172</td><td>27</td><td>19</td></tr>
+    <tr><td>L</td><td>25%</td><td>Cooling (part load)</td><td>7</td><td>0.172</td><td>25</td><td>18</td></tr>
+    <tr><td>M</td><td>60%</td><td>Heating (part load)</td><td>45</td><td>0.120</td><td>2</td><td>1</td></tr>
+  </tbody>
+</table>

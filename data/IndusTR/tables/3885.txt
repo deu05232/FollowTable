@@ -1,0 +1,18 @@
+<table>
+  <caption>Correspondence Between Word Combinations and Semantic Unit Parameters</caption>
+  <tr><td>Word Combination</td><td>Semantic Unit Type</td><td>Semantic Unit</td><td>Parameter Type</td><td>Parameter Name</td><td>Parameter Value</td><td>Example</td></tr>
+  <tr><td>Adjective + Noun</td><td>Entity/Thing</td><td>Noun</td><td>Attribute</td><td>Supplement Attribute Name</td><td>Adjective</td><td>Table 11 Example 1</td></tr>
+  <tr><td>Noun 2 + Noun 1</td><td>Entity/Thing</td><td>Noun 1</td><td>Category</td><td>Supplement Category Name</td><td>Noun 2</td><td>Table 11 Example 2</td></tr>
+  <tr><td>Adverb + Adjective</td><td>Attribute</td><td>Adjective</td><td>Degree</td><td>Supplement Dimension Name</td><td>Adverb</td><td>Table 11 Example 3</td></tr>
+  <tr><td>Adverb + Action Verb</td><td>Action</td><td>Action Verb</td><td>Degree</td><td>Supplement Dimension Name</td><td>Adverb</td><td>Table 11 Example 4</td></tr>
+  <tr><td>Numeral + Noun</td><td>Entity/Thing</td><td>Noun</td><td>Status</td><td>“Count”</td><td>Numeral</td><td>Table 11 Example 1</td></tr>
+  <tr><td>Numeral + Action Verb</td><td>Action</td><td>Action Verb</td><td>Status</td><td>“Frequency”</td><td>Numeral</td><td></td></tr>
+  <tr><td>Numeral + Adjective</td><td>Attribute54C</td><td>Adjective</td><td>Status</td><td>“Value”</td><td>Numeral</td><td></td></tr>
+  <tr><td>Adjective + “的" + Thing</td><td>Property</td><td>Thing/Event</td><td>Property</td><td>Supplement Property Name</td><td>Adjective</td><td>Table 11 Example 5</td></tr>
+  <tr><td>Thing + “的" + Adjective</td><td>Property</td><td>Thing/Event</td><td>Property</td><td>Supplement Property Name</td><td>Adjective</td><td>Table 11 Example 6</td></tr>
+  <tr><td>Action/Thing + “的" + Thing</td><td>Entity/Thing</td><td>Noun</td><td>Restriction</td><td>Action/Thing Category</td><td>Action/Thing</td><td>Table 11 Example 7</td></tr>
+  <tr><td>Thing + “的” + Noun</td><td>Entity/Thing</td><td>Noun</td><td>Restriction</td><td>“Thing”</td><td>Thing</td><td>Table 11 Example 8</td></tr>
+  <tr><td>Independent Phrase + “的" + Gerund</td><td>Action</td><td>Corresponding Action Verb</td><td>Phrase</td><td>Independent Phrase Name</td><td>Independent Phrase</td><td>Table 11 Example 9</td></tr>
+  <tr><td>… + Host Word + Aspect Word</td><td>Entity/Thing</td><td>Host Word + Aspect Word</td><td colspan="3">Same as the semantic unit parameter identification for the above Entity/Thing type</td><td>Table 11 Example 10</td></tr>
+  <tr><td>… + Aspect Word 2 + Aspect Word 1</td><td>Entity/Thing</td><td>Aspect Word 2 + Aspect Word 1</td><td colspan="3">Same as the semantic unit parameter identification for the above Entity/Thing type</td><td>Table 11 Example 11</td></tr>
+</table>

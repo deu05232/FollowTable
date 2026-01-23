@@ -1,0 +1,23 @@
+<table>
+  <caption>Default Fuel Parameters for Stationary Combustion (NCV, Carbon Content, Oxidation Rate)</caption>
+  <thead>
+    <tr><th>Fuel Category</th><th>Fuel Type</th><th>Reference Unit</th><th>Net Calorific Value (GJ/unit)</th><th>Carbon Content per Unit Energy (tC/TJ)</th><th>Oxidation Rate (%)</th><th>Notes / Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Solid Fossil Fuels</td><td>Anthracite</td><td>t</td><td>26.8</td><td>26.5</td><td>94</td><td>High-rank coal</td></tr>
+    <tr><td>Bituminous coal</td><td>t</td><td>24.2</td><td>25.8</td><td>93</td><td>Steam coal</td></tr>
+    <tr><td>Sub-bituminous coal</td><td>t</td><td>18.9</td><td>26.2</td><td>92</td><td>Lower-rank coal</td></tr>
+    <tr><td>Lignite</td><td>t</td><td>11.4</td><td>27.0</td><td>96</td><td>Brown coal</td></tr>
+    <tr><td>Coke (metallurgical)</td><td>t</td><td>28.5</td><td>29.0</td><td>98</td><td>Iron & steel processes</td></tr>
+    <tr><td>Petroleum coke</td><td>t</td><td>31.5</td><td>27.5</td><td>99</td><td>Refining / cement kilns</td></tr>
+    <tr><td rowspan="6">Liquid Fossil Fuels</td><td>Crude oil</td><td>t</td><td>42.3</td><td>20.0</td><td>99</td><td>Upstream combustion</td></tr>
+    <tr><td>Gasoline</td><td>t</td><td>44.0</td><td>18.9</td><td>99</td><td>Transport / engines</td></tr>
+    <tr><td>Diesel oil</td><td>t</td><td>43.0</td><td>20.2</td><td>99</td><td>Stationary / mobile</td></tr>
+    <tr><td>Fuel oil (residual)</td><td>t</td><td>40.4</td><td>21.1</td><td>99</td><td>Boilers</td></tr>
+    <tr><td>LPG (propane/butane mix)</td><td>t</td><td>47.3</td><td>17.2</td><td>99</td><td>Industrial heat</td></tr>
+    <tr><td>Jet kerosene</td><td>t</td><td>43.5</td><td>19.6</td><td>99</td><td>Aviation fuel</td></tr>
+    <tr><td rowspan="3">Gaseous Fossil Fuels</td><td>Natural gas</td><td>10^3 Nm³</td><td>38.0</td><td>15.3</td><td>99.5</td><td>Pipeline quality</td></tr>
+    <tr><td>Coke oven gas</td><td>10^3 Nm³</td><td>18.5</td><td>13.0</td><td>99</td><td>Steelworks gas</td></tr>
+    <tr><td>Blast furnace gas</td><td>10^3 Nm³</td><td>3.2</td><td>29.5</td><td>99</td><td>Low-LHV process gas</td></tr>
+  </tbody>
+</table>

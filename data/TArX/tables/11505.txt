@@ -1,0 +1,16 @@
+<table>
+  <caption>Light Propagation Speed in Optical Fibers Under Different Wavelengths and Fiber Types</caption>
+  <thead>
+    <tr><th rowspan="2">Fiber Category</th><th rowspan="2">Example Fiber Type</th><th rowspan="2">Wavelength (nm)</th><th colspan="2">Effective Light Speed</th><th rowspan="2">Condition / Comment</th></tr>
+    <tr><th>Group Index (ng)</th><th>Group Velocity (vg= c/ng)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Silica telecom fiber</td><td>SMF-28-like (single-mode)</td><td>1310</td><td>1.467</td><td>0.682 c</td><td>Typical dispersion minimum region</td></tr>
+    <tr><td>Silica telecom fiber</td><td>SMF-28-like (single-mode)</td><td>1550</td><td>1.468</td><td>0.681 c</td><td>Typical low-loss window</td></tr>
+    <tr><td>Dispersion-shifted fiber</td><td>DSF (single-mode)</td><td>1550</td><td>1.470</td><td>0.680 c</td><td>Engineered dispersion profile</td></tr>
+    <tr><td>Polarization-maintaining fiber</td><td>PM fiber</td><td>1550</td><td>1.472</td><td>0.679 c</td><td>Stress rods slightly change effective index</td></tr>
+    <tr><td>Multimode fiber</td><td>OM2-like (50/125 µm)</td><td>850</td><td>1.480</td><td>0.676 c</td><td>Group index representative value</td></tr>
+    <tr><td>Plastic optical fiber</td><td>POF (PMMA core)</td><td>650</td><td>1.490</td><td>0.671 c</td><td>Higher n than silica, slower vg</td></tr>
+    <tr><td>Hollow-core fiber</td><td>HC-PBG / anti-resonant</td><td>1550</td><td>1.02</td><td>0.980 c</td><td>Light mostly propagates in air-like core</td></tr>
+  </tbody>
+</table>

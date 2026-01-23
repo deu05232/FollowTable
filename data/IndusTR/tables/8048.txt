@@ -1,0 +1,17 @@
+<table>
+  <caption>Terminal Application File: Subscriber & Network Identification Records</caption>
+  <thead>
+    <tr><th>Record Group</th><th>Field</th><th>Length (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">SIM/Subscriber</td><td>IMSI</td><td>8</td><td>International Mobile Subscriber Identity (BCD)</td></tr>
+    <tr><td>ICCID</td><td>10</td><td>SIM card identifier (BCD)</td></tr>
+    <tr><td>Subscriber Category</td><td>1</td><td>00: regular; 01: admin; 02: guest</td></tr>
+    <tr><td rowspan="4">Network</td><td>Home PLMN</td><td>3</td><td>Mobile country + network code</td></tr>
+    <tr><td>Serving Cell ID</td><td>4</td><td>Last registered cell identifier</td></tr>
+    <tr><td>APN Name</td><td>32</td><td>Configured access point name</td></tr>
+    <tr><td>Last Attach Timestamp</td><td>7</td><td>YYMMDDhhmmss format</td></tr>
+    <tr><td rowspan="2">Contacts</td><td>Emergency Contact ID</td><td>6</td><td>Reference identifier for emergency profile</td></tr>
+    <tr><td>Service Hotline</td><td>16</td><td>Operator support number</td></tr>
+  </tbody>
+</table>

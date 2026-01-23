@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Message CML (Charge Limits) — SPN Field Definitions</caption>
+  <thead>
+    <tr><th>Start Byte (Bit)</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Encoding / Notes</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1 (0)</td><td>2 bytes</td><td>2891</td><td>Requested maximum charging voltage (pack)</td><td>Unsigned; value = raw × 0.1 V</td><td>Mandatory</td></tr>
+    <tr><td>3 (0)</td><td>2 bytes</td><td>2892</td><td>Requested maximum charging current</td><td>Signed; value = raw × 0.1 A</td><td>Mandatory</td></tr>
+    <tr><td>5 (0)</td><td>2 bytes</td><td>2893</td><td>Target state of charge</td><td>Unsigned; value = raw × 0.1 %</td><td>Optional</td></tr>
+    <tr><td>7 (0)</td><td>1 byte</td><td>2894</td><td>Charging mode request</td><td>0x00=Constant Current; 0x01=Constant Voltage; 0xFF=Invalid</td><td>Optional</td></tr>
+    <tr><td>8 (0)</td><td>1 byte</td><td>2895</td><td>Energy transfer permission</td><td>0x00=Not permitted; 0x01=Permitted</td><td>Mandatory</td></tr>
+    <tr><td>9 (0)</td><td>2 bytes</td><td>2896</td><td>Maximum allowable connector temperature</td><td>Unsigned; value = raw × 1 °C; 0xFFFF=Not available</td><td>Optional</td></tr>
+    <tr><td>11 (0)</td><td>1 byte</td><td>2897</td><td>Charging stop request flag</td><td>0x00=No request; 0xAA=Request stop</td><td>Optional</td></tr>
+  </tbody>
+</table>

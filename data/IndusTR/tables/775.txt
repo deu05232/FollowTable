@@ -1,0 +1,22 @@
+<table>
+  <caption>Image Evaluation Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Image Resolution</td><td>（0018,1050)</td><td>DS</td><td>1</td><td>2</td><td>Measure of the minimum distance between two adjacent details that can be resolved in the image, in line pairs per millimeter (lp/mm)</td></tr>
+  <tr><td>Normalized Signal-to-Noise Ratio</td><td>（0014,5200)</td><td>IS</td><td>1-N</td><td>2</td><td>Value obtained by normalizing the signal-to-noise ratio using the basic spatial resolution</td></tr>
+  <tr><td>Contrast Sensitivity</td><td>（0014,5201)</td><td>CS</td><td>1</td><td>2</td><td>Minimum thickness difference of the specimen that can be recognized on the image, expressed as a percentage</td></tr>
+  <tr><td>Contrast-to-Noise Ratio</td><td>（0014,5202)</td><td>IS</td><td>1</td><td>2</td><td>Ratio of the difference between the mean signals of two regions in the digital image to the mean standard deviation of the signal level</td></tr>
+  <tr><td>Grayscale Range</td><td>（0028,1080)</td><td>CS</td><td>1</td><td>3</td><td>Image grayscale range</td></tr>
+  <tr><td>IQI Type</td><td>（0014,40A0)</td><td>LO</td><td>1-N</td><td>2</td><td>Type of the image quality indicator (IQI)</td></tr>
+  <tr><td>IQI Material</td><td>(0014,40A1)</td><td>LO</td><td>1-N</td><td>2</td><td>Material of the image quality indicator (IQI)</td></tr>
+  <tr><td>Evaluation Status</td><td>（300E,0002)</td><td>CS</td><td>1</td><td>3</td><td>Whether the image has been evaluated: (1) yes, (0) no</td></tr>
+  <tr><td>Evaluator</td><td>（300E,0008)</td><td>PN</td><td>1</td><td>2C</td><td>Name of the person who evaluated the image</td></tr>
+  <tr><td>Evaluation Date</td><td>（300E,0004)</td><td>DA</td><td>1</td><td>2C</td><td>Date when the image was evaluated</td></tr>
+  <tr><td>Evaluation Organization Name</td><td>（300E,0010)</td><td>CS</td><td>1</td><td>2C</td><td>Organization to which the evaluator belongs</td></tr>
+  <tr><td>Review Status</td><td>(0014,0101)</td><td>CS</td><td>1</td><td>3</td><td>Whether the image has been reviewed: (1) yes, (O) no</td></tr>
+  <tr><td>Reviewer</td><td>（0014,0104)</td><td>PN</td><td>1</td><td>2C</td><td>Name of the person who reviewed the image</td></tr>
+  <tr><td>Review Date</td><td>（0014,0102)</td><td>DA</td><td>1</td><td>2C</td><td>Date when the image was reviewed</td></tr>
+  <tr><td>Review Organization Name</td><td>(0014,0109)</td><td>CS</td><td>1</td><td>2C</td><td>Organization to which the reviewer belongs</td></tr>
+  <tr><td>Defect Type</td><td>(0014,1120)</td><td>LO</td><td>1</td><td>2</td><td>Text description of the defect type</td></tr>
+  <tr><td>Defect Measurement</td><td>(0014,1121)</td><td>ST</td><td>1</td><td>2</td><td>Measured size of the defect, in millimeters (mm)</td></tr>
+  <tr><td>Defect Remarks</td><td>(0014,1122)</td><td>LT</td><td>1</td><td>2</td><td>Defect remarks include information such as defect location and distribution</td></tr>
+</table>

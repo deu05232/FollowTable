@@ -1,0 +1,18 @@
+<table>
+  <caption>Service Coverage Indicators for Urban Green Freight Distribution (Population-Normalized Scoring)</caption>
+  <thead>
+    <tr><th>City size category</th><th>Measurable indicator (normalized)</th><th>Target / threshold</th><th>Evaluation result (score)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Mega city (≥10 million)</td><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>≥ 4.0</td><td>60</td></tr>
+    <tr><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>< 4.0</td><td>Score = 60 × (actual / 4.0)</td></tr>
+    <tr><td rowspan="2">Very large city (5–10 million)</td><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>≥ 4.5</td><td>60</td></tr>
+    <tr><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>< 4.5</td><td>Score = 60 × (actual / 4.5)</td></tr>
+    <tr><td rowspan="2">Large city (1–5 million)</td><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>≥ 5.0</td><td>60</td></tr>
+    <tr><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>< 5.0</td><td>Score = 60 × (actual / 5.0)</td></tr>
+    <tr><td rowspan="2">Medium city (0.5–1 million)</td><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>≥ 5.5</td><td>60</td></tr>
+    <tr><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>< 5.5</td><td>Score = 60 × (actual / 5.5)</td></tr>
+    <tr><td rowspan="2">Small city (<0.5 million)</td><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>≥ 6.0</td><td>60</td></tr>
+    <tr><td>Number of community pickup & delivery points per 10,000 residents (units/10k)</td><td>< 6.0</td><td>Score = 60 × (actual / 6.0)</td></tr>
+  </tbody>
+</table>

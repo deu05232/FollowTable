@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of Parameters for Retrieving the Trackable Object List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>filter_type</td><td>ArTrackableType</td><td>Trackable object type</td></tr>
+  <tr><td>out_trackable_list</td><td>ArTrackableList *</td><td>Pointer to the list of trackable objects that match the type</td></tr>
+</table>

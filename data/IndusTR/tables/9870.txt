@@ -1,0 +1,18 @@
+<table>
+  <caption>Class B Transmitter — Modulation Quality and Spectral Mask Test Table</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Unit</th><th>Test condition</th><th>Required limit / value (Class B transmitter)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Modulation type</td><td>—</td><td>Tx test mode; steady carrier with modulation applied</td><td>GMSK (constant-envelope) on AIS VHF channels</td></tr>
+    <tr><td>Symbol rate</td><td>sym/s</td><td>Measured from modulation waveform</td><td>9600</td></tr>
+    <tr><td>Frequency deviation (peak)</td><td>Hz</td><td>Using standard test sequence; measured at RF output</td><td>Within 4 000 to 5 000</td></tr>
+    <tr><td>Modulation accuracy (EVM equivalent)</td><td>%</td><td>Demodulated IQ compared to ideal reference at nominal power</td><td>≤ 5</td></tr>
+    <tr><td>Rise time (Tx keying envelope)</td><td>µs</td><td>10% to 90% of envelope; 50 Ω load</td><td>≤ 300</td></tr>
+    <tr><td>Fall time (Tx keying envelope)</td><td>µs</td><td>90% to 10% of envelope; 50 Ω load</td><td>≤ 300</td></tr>
+    <tr><td>Spectral mask — offset 12.5 kHz</td><td>dBc</td><td>Relative to carrier; RBW per test method</td><td>≤ −25</td></tr>
+    <tr><td>Spectral mask — offset 25 kHz</td><td>dBc</td><td>Relative to carrier; RBW per test method</td><td>≤ −45</td></tr>
+    <tr><td>Spectral mask — offset 50 kHz</td><td>dBc</td><td>Relative to carrier; RBW per test method</td><td>≤ −60</td></tr>
+    <tr><td>Out-of-band emissions</td><td>dBm</td><td>Outside necessary bandwidth; conducted measurement</td><td>≤ −36</td></tr>
+  </tbody>
+</table>

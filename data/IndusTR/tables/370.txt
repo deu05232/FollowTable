@@ -1,0 +1,11 @@
+<table>
+  <caption>Core Time and Type Elements of Cybersecurity Incident Information</caption>
+  <tr><td>Information Item</td><td>Description</td></tr>
+  <tr><td>Occurrence Time</td><td>Time when the cybersecurity incident occurred</td></tr>
+  <tr><td>Discovery Time</td><td>In seconds</td></tr>
+  <tr><td>Incident Type</td><td>Type of cybersecurity incident; see GB/T20986</td></tr>
+  <tr><td>Incident Severity Level</td><td>Depending on the harm severity of the cybersecurity incident, it can be classified into four levels: extremely severe, severe, relatively severe, and general. The receiving party should formulate specifications for the severity-level classification method for cybersecurity incident information; see GB/T20986</td></tr>
+  <tr><td>Incident Description</td><td>The receiving party should formulate an information-element specification for incident descriptions for each incident type respectively; extensions can be made using the extensible items in 4.2.4</td></tr>
+  <tr><td>Attacker Information</td><td>Attacker description, attacking IP, attacking organization, possible motives, etc.</td></tr>
+  <tr><td>Victim/Target Information</td><td>Affected IP, ports, URL, network assets, etc.</td></tr>
+</table>

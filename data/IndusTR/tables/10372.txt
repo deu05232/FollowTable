@@ -1,0 +1,15 @@
+<table>
+  <caption>I/O Interfaces, Communication, and Control Configuration (Harmonic Test Device)</caption>
+  <thead>
+    <tr><th>Module</th><th>Interface / Port</th><th>Quantity</th><th>Protocol / Standard</th><th>Configuration Details</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PC connection</td><td>Ethernet</td><td>1</td><td>TCP/IP</td><td>Static/DHCP supported</td></tr>
+    <tr><td>Local service</td><td>USB</td><td>2</td><td>USB 2.0</td><td>Firmware update / log export</td></tr>
+    <tr><td>Meter communication</td><td>RS-485</td><td>2</td><td>Modbus-RTU</td><td>1200–115200 bps</td></tr>
+    <tr><td>Optical probe</td><td>IEC 62056-21 optical head</td><td>1</td><td>IEC 62056-21</td><td>Readout / programming</td></tr>
+    <tr><td>Pulse input</td><td>S0 input</td><td>4</td><td>IEC 62053-31</td><td>Isolated, debounce configurable</td></tr>
+    <tr><td>Pulse output</td><td>S0 output</td><td>4</td><td>IEC 62053-31</td><td>Open-collector, programmable constant</td></tr>
+    <tr><td>Digital I/O</td><td>GPIO</td><td>8</td><td>TTL</td><td>Trigger / alarm mapping</td></tr>
+  </tbody>
+</table>

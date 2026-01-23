@@ -1,0 +1,10 @@
+<table>
+  <caption>Production Equipment Specification Sheet for Bitstream Analysis Workstations</caption>
+  <tr><th>Workstation Model</th><th>CPU</th><th>RAM</th><th>Storage</th><th>GPU</th><th>OS</th><th>Typical Use</th></tr>
+  <tr><td>QA-Node A1</td><td>Xeon W-2295</td><td>128 GB</td><td>2 TB NVMe</td><td>RTX 5000</td><td>Linux</td><td>Parallel decoding</td></tr>
+  <tr><td>QA-Node B2</td><td>EPYC 7443</td><td>256 GB</td><td>4 TB NVMe</td><td>—</td><td>Linux</td><td>Batch bitstream scans</td></tr>
+  <tr><td>QA-Node C3</td><td>Core i9-13900K</td><td>64 GB</td><td>1 TB NVMe</td><td>RTX 4080</td><td>Windows</td><td>GUI validation tools</td></tr>
+  <tr><td>QA-Node D4</td><td>EPYC 9654</td><td>512 GB</td><td>8 TB NVMe</td><td>A16</td><td>Linux</td><td>Cloud conformance farm</td></tr>
+  <tr><td>QA-Node E5</td><td>Xeon Silver 4316</td><td>128 GB</td><td>2 TB SSD</td><td>T4</td><td>Linux</td><td>CI regression</td></tr>
+  <tr><td>QA-Node F6</td><td>Core i7-12700</td><td>32 GB</td><td>1 TB SSD</td><td>—</td><td>Windows</td><td>Log review</td></tr>
+</table>

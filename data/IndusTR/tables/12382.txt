@@ -1,0 +1,20 @@
+<table>
+  <caption>Tire Curing Press PLC Interface Signal Dictionary (Runtime Signals)</caption>
+  <thead>
+    <tr><th>No.</th><th>Signal / Parameter Name</th><th>Description</th><th>Alias</th><th>Data Type</th><th>Bit Length</th><th>Allowed Range</th><th>Value Meaning</th><th>Related / Validation Logic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>CUR_Press_Cycle_State</td><td>Overall curing cycle state reported by press controller</td><td>Cycle State</td><td>UINT</td><td>16</td><td>0–8</td><td>0: idle; 1: loading; 2: closing; 3: heating; 4: pressurizing; 5: curing; 6: exhaust; 7: opening; 8: unloading</td><td>State progression must be monotonic except transitions to 0 on stop/fault</td></tr>
+    <tr><td>2</td><td>CUR_Mold_Temp_PV</td><td>Measured mold temperature (average of thermocouples)</td><td>Mold Temp PV</td><td>FLOAT</td><td>32</td><td>0.0–250.0 °C</td><td>Real value in °C</td><td>Alarm if PV > CUR_Mold_Temp_Hi or PV < CUR_Mold_Temp_Lo during curing</td></tr>
+    <tr><td>3</td><td>CUR_Mold_Temp_SP</td><td>Mold temperature setpoint for current cycle (runtime setpoint)</td><td>Mold Temp SP</td><td>FLOAT</td><td>32</td><td>120.0–220.0 °C</td><td>Real value in °C</td><td>Accepted only when CUR_Press_Cycle_State in {0,1}</td></tr>
+    <tr><td>4</td><td>CUR_Bladder_Pressure_PV</td><td>Measured bladder (internal) pressure</td><td>Bladder Press PV</td><td>FLOAT</td><td>32</td><td>0.0–3.5 MPa</td><td>Real value in MPa</td><td>If PV > CUR_Bladder_Press_Hi then trip and vent command asserted</td></tr>
+    <tr><td>5</td><td>CUR_Bladder_Press_Hi</td><td>High bladder pressure trip limit</td><td>Bladder Press High</td><td>FLOAT</td><td>32</td><td>0.5–3.5 MPa</td><td>Trip threshold (MPa)</td><td>Trip valid when CUR_Press_Cycle_State ≥ 4 (pressurizing or later)</td></tr>
+    <tr><td>6</td><td>CUR_Cure_Time_Remaining</td><td>Remaining cure time countdown for current cycle</td><td>Time Remain</td><td>UINT</td><td>32</td><td>0–7200 s</td><td>Seconds remaining</td><td>Must decrease each second while in state 5 (curing)</td></tr>
+    <tr><td>7</td><td>CUR_Door_Closed_SW</td><td>Safety door closed limit switch status</td><td>Door Closed</td><td>UINT</td><td>16</td><td>0–1</td><td>0: open; 1: closed</td><td>CUR_Close_Cmd allowed only if Door Closed=1 and CUR_EStop_Status=0</td></tr>
+    <tr><td>8</td><td>CUR_Close_Cmd</td><td>Command to close press (issued by MES/HMI or automation)</td><td>Close Cmd</td><td>UINT</td><td>16</td><td>0–2</td><td>0: no command; 1: request close; 2: close inhibited</td><td>If inhibited, provide reason via CUR_Inhibit_Code</td></tr>
+    <tr><td>9</td><td>CUR_Steam_Valve_Cmd</td><td>Steam valve command output</td><td>Steam Valve</td><td>UINT</td><td>16</td><td>0–2</td><td>0: closed; 1: open; 2: modulating (PID)</td><td>Modulating permitted only when CUR_Mold_Temp_PV valid and no sensor fault</td></tr>
+    <tr><td>10</td><td>CUR_Vent_Valve_Cmd</td><td>Vent/exhaust valve command output</td><td>Vent Valve</td><td>UINT</td><td>16</td><td>0–1</td><td>0: closed; 1: open</td><td>Forced open when overpressure trip active</td></tr>
+    <tr><td>11</td><td>CUR_EStop_Status</td><td>Emergency stop status for curing press cell</td><td>E-Stop</td><td>UINT</td><td>16</td><td>0–2</td><td>0: healthy; 1: pressed; 2: circuit fault</td><td>Any non-zero forces CUR_Close_Cmd to 0 and opens vent</td></tr>
+    <tr><td>12</td><td>CUR_Inhibit_Code</td><td>Reason code why a requested action is inhibited</td><td>Inhibit Code</td><td>UINT</td><td>16</td><td>0–99</td><td>0: none; 10: door open; 11: low air pressure; 12: E-stop active; 13: mold temp not ready; 14: hydraulic fault</td><td>Only meaningful when CUR_Close_Cmd=2 or when cycle cannot advance</td></tr>
+  </tbody>
+</table>

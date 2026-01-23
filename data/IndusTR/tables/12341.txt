@@ -1,0 +1,10 @@
+<table>
+  <caption>AR session parameter list focused on runtime inputs (no output session pointer)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>env</td><td>void *</td><td>Pointer representing the runtime environment</td></tr>
+  <tr><td>context</td><td>void *</td><td>Pointer representing the runtime context</td></tr>
+  <tr><td>install_requested</td><td>bool</td><td>Whether the caller requests installation/availability checks at startup</td></tr>
+  <tr><td>user_consent</td><td>bool</td><td>Whether the user has granted consent required for initializing the session</td></tr>
+  <tr><td>availability_hint</td><td>const char *</td><td>Optional hint string used during initialization checks</td></tr>
+  <tr><td>log_callback</td><td>void *</td><td>Optional callback pointer used to report initialization logs</td></tr>
+</table>

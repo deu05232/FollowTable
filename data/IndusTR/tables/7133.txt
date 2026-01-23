@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration and Device Identification Attributes</caption>
+  <thead>
+    <tr><th>Section</th><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Calibration</td><td>Offset Calibration Sequence</td><td>(0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence containing offset calibration artifacts and parameters.</td></tr>
+    <tr><td>Calibration > Item</td><td>> Offset Calibration File</td><td>(0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Offset calibration image acquired under no-radiation exposure conditions.</td></tr>
+    <tr><td>Calibration</td><td>Gain Calibration Sequence</td><td>(0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence containing gain calibration artifacts and parameters.</td></tr>
+    <tr><td>Calibration > Item</td><td>> Gain Calibration File</td><td>(0014,3070)</td><td>OB</td><td>1</td><td>1</td><td>Gain calibration image used to normalize detector response.</td></tr>
+    <tr><td>Calibration</td><td>Calibration DateTime</td><td>(0014,3080)</td><td>DT</td><td>1</td><td>3</td><td>Date and time when the calibration was performed.</td></tr>
+    <tr><td>Device Identification</td><td>Manufacturer</td><td>(0008,0070)</td><td>LO</td><td>1</td><td>2</td><td>Device manufacturer name.</td></tr>
+    <tr><td>Device Identification</td><td>Device Serial Number</td><td>(0018,1000)</td><td>LO</td><td>1</td><td>3</td><td>Manufacturer-assigned device serial number.</td></tr>
+  </tbody>
+</table>

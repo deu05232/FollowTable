@@ -1,0 +1,17 @@
+<table>
+  <caption>Service BOM Strict Parent–Child Breakdown (Quantity by Link)</caption>
+  <thead>
+    <tr><th>Parent Part No.</th><th>Child Part No.</th><th>Quantity</th><th>Lineage Path</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SV-SYS-2000</td><td>SV-CTRL-2100</td><td>1</td><td>SV-SYS-2000</td></tr>
+    <tr><td>SV-SYS-2000</td><td>SV-PWR-2200</td><td>1</td><td>SV-SYS-2000</td></tr>
+    <tr><td>SV-SYS-2000</td><td>SV-FLD-2300</td><td>1</td><td>SV-SYS-2000</td></tr>
+    <tr><td>SV-CTRL-2100</td><td>SV-CPU-2110</td><td>1</td><td>SV-SYS-2000 > SV-CTRL-2100</td></tr>
+    <tr><td>SV-CTRL-2100</td><td>SV-IOM-2120</td><td>2</td><td>SV-SYS-2000 > SV-CTRL-2100</td></tr>
+    <tr><td>SV-PWR-2200</td><td>SV-PSU-2210</td><td>1</td><td>SV-SYS-2000 > SV-PWR-2200</td></tr>
+    <tr><td>SV-PWR-2200</td><td>SV-FAN-2220</td><td>2</td><td>SV-SYS-2000 > SV-PWR-2200</td></tr>
+    <tr><td>SV-FLD-2300</td><td>SV-SNS-2310</td><td>3</td><td>SV-SYS-2000 > SV-FLD-2300</td></tr>
+    <tr><td>SV-FLD-2300</td><td>SV-TUB-2320</td><td>1</td><td>SV-SYS-2000 > SV-FLD-2300</td></tr>
+  </tbody>
+</table>

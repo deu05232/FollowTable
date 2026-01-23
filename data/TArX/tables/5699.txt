@@ -1,0 +1,13 @@
+<table>
+  <caption>Essential features of hadronic interaction models.</caption>
+  <tr><th>Model</th><th>VENUS</th><th>neXus</th><th>QGSJET</th><th>DPMJET</th><th>SIBYLL</th><th>HDPM</th></tr>
+  <tr><th>Version</th><td>4.12</td><td>2</td><td></td><td>II.4/II.5</td><td>1.6/2.1</td><td></td></tr>
+  <tr><th>Gribov-Regge</th><td>+</td><td>+</td><td>+</td><td>+</td><td></td><td></td></tr>
+  <tr><th>Mini-Jets</th><td></td><td>+</td><td>+</td><td>+</td><td>+</td><td></td></tr>
+  <tr><th>Sec. Interactions</th><td>+</td><td>+</td><td></td><td></td><td></td><td></td></tr>
+  <tr><th>N-N interaction</th><td>+</td><td>+</td><td>+</td><td>+</td><td></td><td></td></tr>
+  <tr><th>Superposition</th><td></td><td></td><td></td><td></td><td>+</td><td>+</td></tr>
+  <tr><th>Max. Energy (GeV)</th><td>2 · 10 ^((7))</td><td>2 · 10 ^((8))</td><td>> 10 ^((11))</td><td>> 10 ^((11))</td><td>> 10 ^((11))</td><td>10 ^((8))</td></tr>
+  <tr><th>Memory (Mbyte)</th><td>21</td><td>101</td><td>10</td><td>52</td><td>9</td><td>8</td></tr>
+  <tr><th>CPU-Time ^((1)) (min)</th><td>4.5</td><td>≈ 100</td><td>1.0</td><td>3.5</td><td>0.75</td><td>1.0</td></tr>
+</table>

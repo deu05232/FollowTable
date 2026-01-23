@@ -1,0 +1,10 @@
+<table>
+  <caption>Calibration Checklist for Contact-Heat Test Equipment (Hot Plate & Sensors)</caption>
+  <tr><th>Equipment item</th><th>Calibration point</th><th>Reference standard</th><th>Acceptance criteria</th><th>As-found</th><th>Status</th></tr>
+  <tr><td>Hot plate controller</td><td>100 ℃</td><td>Traceable thermometer</td><td>±2 ℃</td><td>+1.1 ℃</td><td>PASS</td></tr>
+  <tr><td>Hot plate controller</td><td>250 ℃</td><td>Traceable thermometer</td><td>±3 ℃</td><td>-2.4 ℃</td><td>PASS</td></tr>
+  <tr><td>Hot plate controller</td><td>350 ℃</td><td>Traceable thermometer</td><td>±4 ℃</td><td>+4.6 ℃</td><td>FAIL</td></tr>
+  <tr><td>Heat flux sensor</td><td>5 kW/m²</td><td>Reference sensor</td><td>±5 %</td><td>+3.2 %</td><td>PASS</td></tr>
+  <tr><td>Timer system</td><td>60 s</td><td>Time base</td><td>±0.2 s</td><td>+0.1 s</td><td>PASS</td></tr>
+  <tr><td>Data logger</td><td>Sampling interval</td><td>Internal clock</td><td>±0.5 %</td><td>-0.3 %</td><td>PASS</td></tr>
+</table>

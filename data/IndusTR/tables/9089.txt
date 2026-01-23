@@ -1,0 +1,10 @@
+<table>
+  <caption>ArCameraIntrinsics_getPrincipalPoint Parameters</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>camera_intrinsics</td><td>ArCameraIntrinsics *</td><td>Camera intrinsics object pointer</td></tr>
+  <tr><td>out_cx</td><td>float *</td><td>Pointer to the principal point X coordinate in pixels</td></tr>
+  <tr><td>out_cy</td><td>float *</td><td>Pointer to the principal point Y coordinate in pixels</td></tr>
+  <tr><td>coordinate_system</td><td>ArCoordinates2d</td><td>Image coordinate system used for the returned values</td></tr>
+  <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>Tracking state when the values were produced</td></tr>
+  <tr><td>reserved</td><td>void *</td><td>Reserved for future use</td></tr>
+</table>

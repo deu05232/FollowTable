@@ -1,0 +1,13 @@
+# Administrative Distance Defaults and How to Change Them (Reference)
+
+| Route Source | Default Administrative Distance | Example Command/Knob to Modify | Example Modified Value |
+| --- | ---: | --- | ---: |
+| Static | 1 | `ip route 0.0.0.0 0.0.0.0 203.0.113.1 200` | 200 |
+| Connected | 0 | N/A | N/A |
+| OSPF | 110 | `distance ospf 150` | 150 |
+| RIP | 120 | `distance 130` | 130 |
+| IS-IS | 115 | `distance 160` | 160 |
+| EIGRP (internal) | 90 | `distance eigrp 95 175` | 95 |
+| EIGRP (external) | 170 | `distance eigrp 95 175` | 175 |
+| eBGP | 20 | `distance bgp 25 200 200` | 25 |
+| iBGP | 200 | `distance bgp 25 200 200` | 200 |

@@ -1,0 +1,17 @@
+<table>
+  <caption>Tropospheric Delay Standard Polynomial Correction General Information Data Fields</caption>
+  <tr><td>Data field name</td><td>Data field number</td><td>Data type</td><td>Number of bits</td></tr>
+  <tr><td>Area type identifier</td><td>DF614</td><td>bit(2)</td><td>2</td></tr>
+  <tr><td>Area ID</td><td>DF615</td><td>uint6</td><td>6</td></tr>
+  <tr><td>Standard polynomial function order in the longitude direction</td><td>DF633</td><td>uint3</td><td>3</td></tr>
+  <tr><td>Standard polynomial function order in the latitude direction</td><td>DF634</td><td>uint3</td><td>3</td></tr>
+  <tr><td>Longitude of ground reference point</td><td>DF630  SAC</td><td>bit(15)</td><td>15</td></tr>
+  <tr><td>Latitude of ground reference point</td><td>DF631</td><td>bit(14)</td><td>14</td></tr>
+  <tr><td>Height of ground reference point</td><td>DF632</td><td>bit(14)</td><td>14</td></tr>
+  <tr><td>Initial coordinates of grid point</td><td>DF622</td><td>bit(29)</td><td>29</td></tr>
+  <tr><td>Grid-point step size (along longitude direction)</td><td>DF623</td><td>bit(9)</td><td>9</td></tr>
+  <tr><td>Grid-point step size (along latitude direction)</td><td>DF624</td><td>bit(9)</td><td>9</td></tr>
+  <tr><td>Number of grid intervals</td><td>DF625</td><td>bit(14)</td><td>14</td></tr>
+  <tr><td>Number of grid points</td><td>DF626</td><td>uint12</td><td>12</td></tr>
+  <tr><td>Total</td><td>—</td><td>1</td><td>130</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Error limits for harmonic active energy by harmonic order group and current range (comparison across classes 1, 2, 5)</caption>
+  <thead>
+    <tr><th rowspan="2">Current range</th><th rowspan="2">Harmonic order group</th><th rowspan="2">Harmonic power factor (cosφ)</th><th colspan="3">Error limit for harmonic active energy (%) by class</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Imin≤ I ≤ Itr</td><td>h = 2–9</td><td>1.0</td><td>±2.0H</td><td>±3.0H</td><td>±12.0H</td></tr>
+    <tr><td>Imin≤ I ≤ Itr</td><td>h = 11–17</td><td>1.0</td><td>±2.5H</td><td>±3.5H</td><td>±15.0H</td></tr>
+    <tr><td>Itr< I ≤ 0.4 Imax</td><td>h = 2–9</td><td>1.0</td><td>±1.0H</td><td>±2.0H</td><td>±6.0H</td></tr>
+    <tr><td>Itr< I ≤ 0.4 Imax</td><td>h = 11–17</td><td>1.0</td><td>±1.5H</td><td>±2.5H</td><td>±8.0H</td></tr>
+    <tr><td>0.4 Imax< I ≤ Imax</td><td>h = 2–9</td><td>1.0</td><td>±1.2H</td><td>±2.2H</td><td>±7.0H</td></tr>
+    <tr><td>0.4 Imax< I ≤ Imax</td><td>h = 11–17</td><td>1.0</td><td>±1.8H</td><td>±3.0H</td><td>±9.0H</td></tr>
+    <tr><td>Itr< I ≤ 0.4 Imax</td><td>h = 2–9</td><td>0.5 lag</td><td>±2.0H</td><td>±3.5H</td><td>±12.0H</td></tr>
+    <tr><td>Itr< I ≤ 0.4 Imax</td><td>h = 11–17</td><td>0.5 lag</td><td>±2.5H</td><td>±4.5H</td><td>±15.0H</td></tr>
+  </tbody>
+</table>

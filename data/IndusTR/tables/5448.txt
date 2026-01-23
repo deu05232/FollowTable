@@ -1,0 +1,9 @@
+<table>
+  <caption>Tensor Circular Roll Transformation Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Represents the input tensor</td></tr>
+  <tr><td>Roll Shift Array</td><td>Input</td><td>Required</td><td>Represents the length of the shifts parameter</td></tr>
+  <tr><td>Roll Shifts</td><td>Input</td><td>Required</td><td>Roll shift on each dimension</td></tr>
+  <tr><td>Axes to Roll</td><td>Input</td><td>Optional</td><td>Axes to roll, specifying multiple dimensions. Can be empty; in this case, the input tensor will perform the roll transformation as a 1D tensor. If not empty, the length must be the same as the length of the roll shifts, default is empty</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Output tensor, with the same shape and data type as the input tensor</td></tr>
+</table>

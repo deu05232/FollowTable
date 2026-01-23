@@ -1,0 +1,15 @@
+<table>
+  <caption>NAVAREA/METAREA Regional Broadcast Code Mapping Alongside Protocol Header Values</caption>
+  <thead>
+    <tr><th>Item</th><th>Code / Value</th><th>Bit Length</th><th>Meaning</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header: Service Identifier</td><td>0xCC00</td><td>16</td><td>Ship earth station service application</td><td>All frames</td></tr>
+    <tr><td>Header: Field Type</td><td>0</td><td>4</td><td>Position report request</td><td>Inbound control</td></tr>
+    <tr><td>Header: Field Type</td><td>1</td><td>4</td><td>EGC information broadcast</td><td>Outbound EGC</td></tr>
+    <tr><td>Address: Worldwide Broadcast</td><td>00b</td><td>2</td><td>Worldwide addressing</td><td>Regional broadcast</td></tr>
+    <tr><td>Address: NAVAREA/METAREA</td><td>01b + area(1–21)</td><td>2 + 6</td><td>Regional addressing by NAVAREA/METAREA number</td><td>Regional broadcast</td></tr>
+    <tr><td>Header: Message Sequence Number</td><td>0–4294967295</td><td>32</td><td>Cyclic identifier for the frame</td><td>All frames</td></tr>
+    <tr><td>Header: Spare/Reserved</td><td>0</td><td>n/a</td><td>Set to zero unless specified</td><td>All frames</td></tr>
+  </tbody>
+</table>

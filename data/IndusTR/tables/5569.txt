@@ -1,0 +1,10 @@
+<table>
+  <caption>VR Sensor Configuration Parameter Retrieval APIs</caption>
+  <tr><td>Interface Description</td><td>Interface Name</td></tr>
+  <tr><td>Get the sensor type</td><td>bool vrConfigGetSensorType(const vrSensorConfig *config， vrSensorType *out_sen-sor_type)</td></tr>
+  <tr><td>Get the sensor's current data update frequency</td><td>bool vrConfigGetSensorUpdateFrequency(const vrSensorConfig *sensor_config，int32_t*out_freq)</td></tr>
+  <tr><td>Get sensor extrinsics - pose difference relative to the camera</td><td>bool vrConfigGetSensorExtrinsicTransform(const vrSensorConfig *sensor_config，constint32_t camera_id,vrPosition *out_translation，vrQuaternion *out_quaternion)</td></tr>
+  <tr><td>Get the target sensor measurement range</td><td>bool vrConfigGetSensorMeasurementRange(const vrSensorConfig *sensor_config，vr-RangeList *range_list,int32_t *out_size)</td></tr>
+  <tr><td>Get the range instance corresponding to the index</td><td>bool vrRangeListGetRange(const vrRangeList *range_list,const int32_t index，vrRnage*range)</td></tr>
+  <tr><td>Get the range type</td><td>bool vrRangeGetType(const vrRange *range，vrRangeType *type)</td></tr>
+</table>

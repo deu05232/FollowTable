@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Supported Line Rates and Symbol Period Requirements</caption>
+  <thead>
+    <tr><th>Mode</th><th>Nominal Bit Rate</th><th>Bit Rate Tolerance</th><th>Nominal Symbol Period</th><th>UI (Unit Interval)</th><th>Clock Accuracy</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SF-1</td><td>2.5</td><td>±0.01%</td><td>400</td><td>1.0</td><td>±100</td><td>ps / UI / ppm</td><td>Entry-level lane rate</td></tr>
+    <tr><td>SF-2</td><td>5.0</td><td>±0.01%</td><td>200</td><td>1.0</td><td>±100</td><td>ps / UI / ppm</td><td>Mid-rate operation</td></tr>
+    <tr><td>SF-3</td><td>6.25</td><td>±0.01%</td><td>160</td><td>1.0</td><td>±100</td><td>ps / UI / ppm</td><td>Common multi-lane configuration</td></tr>
+    <tr><td>SF-4</td><td>10.0</td><td>±0.01%</td><td>100</td><td>1.0</td><td>±100</td><td>ps / UI / ppm</td><td>High-speed lane option</td></tr>
+    <tr><td>SF-5</td><td>12.5</td><td>±0.01%</td><td>80</td><td>1.0</td><td>±100</td><td>ps / UI / ppm</td><td>High-speed lane option</td></tr>
+    <tr><td>SF-6</td><td>25.0</td><td>±0.01%</td><td>40</td><td>1.0</td><td>±100</td><td>ps / UI / ppm</td><td>Advanced PHY mode</td></tr>
+  </tbody>
+</table>

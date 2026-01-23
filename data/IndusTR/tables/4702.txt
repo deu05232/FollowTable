@@ -1,0 +1,7 @@
+<table>
+  <caption>Metadata Test Requirements for Target Display Device and Content Metadata Extension</caption>
+  <tr><td>Metadata name</td><td>Test requirements</td></tr>
+  <tr><td>display_primaries_x[c],display_primaries_y[c]</td><td>Values should include the maximum value 5000 and minimum value 0 for the X and Y coordinates of the display device primaries</td></tr>
+  <tr><td>white_point_x，white_point_y</td><td>Values should include the maximum value 50000 and minimum value 0 for the X and Y coordinates of the display device standard white point</td></tr>
+  <tr><td>max_display_mastering_luminance,min_display_mastering_luminance,max_content_light_level,max_picture_average_light_level</td><td>Values should include the maximum value 65535 and minimum value 1</td></tr>
+</table>

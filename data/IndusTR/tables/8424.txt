@@ -1,0 +1,26 @@
+<table>
+  <caption>Weighing & Feeding Recipe Parameters (Batching Configuration Setpoints)</caption>
+  <thead>
+    <tr><th>No.</th><th>Structure / Parameter</th><th>Data Type</th><th>Length (bit)</th><th>Units</th><th>Range / Enum</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="4">Batch Recipe Header</td><td>INT</td><td>16</td><td>-</td><td>1..65535</td><td>Batch recipe ID</td></tr>
+    <tr><td>STR</td><td>User-defined</td><td>-</td><td>-</td><td>Batch recipe name</td></tr>
+    <tr><td>STR</td><td>User-defined</td><td>-</td><td>-</td><td>Target compound / formulation code</td></tr>
+    <tr><td>INT</td><td>16</td><td>-</td><td>0/1/2</td><td>Recipe mode (0=manual, 1=semi-auto, 2=auto)</td></tr>
+    <tr><td>2</td><td rowspan="6">Scale Target Setpoints(Nested)</td><td>FLOAT</td><td>32</td><td>kg</td><td>0.1–200.0</td><td>Target weight setpoint</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>kg</td><td>0.0–5.0</td><td>Coarse feed cutoff (transition to fine feed)</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>kg</td><td>0.0–2.0</td><td>Fine feed cutoff (stop feeding)</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>kg</td><td>0.0–1.0</td><td>In-flight compensation (anticipated overshoot)</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>s</td><td>0–30</td><td>Stable time requirement before accepting weight</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>s</td><td>0–60</td><td>Max feed time limit (configuration timeout)</td></tr>
+    <tr><td>3</td><td rowspan="5">Feeding Speed Setpoints</td><td>FLOAT</td><td>32</td><td>%</td><td>10–100</td><td>High-speed feeding output</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>%</td><td>5–80</td><td>Medium-speed feeding output</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>%</td><td>1–50</td><td>Low-speed feeding output</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>%</td><td>0–30</td><td>Dribble feed output (final top-up)</td></tr>
+    <tr><td>INT</td><td>16</td><td>-</td><td>0/1</td><td>Enable adaptive speed (0=off, 1=on)</td></tr>
+    <tr><td>4</td><td rowspan="3">Tolerance / Acceptance Setpoints</td><td>FLOAT</td><td>32</td><td>kg</td><td>0.0–2.0</td><td>Underweight tolerance (negative deviation limit)</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>kg</td><td>0.0–2.0</td><td>Overweight tolerance (positive deviation limit)</td></tr>
+    <tr><td>INT</td><td>16</td><td>-</td><td>0/1</td><td>Reject out-of-tolerance batch automatically (0=no, 1=yes)</td></tr>
+  </tbody>
+</table>

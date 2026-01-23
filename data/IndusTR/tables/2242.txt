@@ -1,0 +1,11 @@
+<table>
+  <caption>Build Environment for Framework Adaptation — Supported Toolchain and Dependency Versions</caption>
+  <tr><th>Component</th><th>Recommended Version</th><th>Minimum Version</th><th>Platform</th><th>Installation Channel</th><th>Notes</th></tr>
+  <tr><td>Compiler</td><td>LLVM 17.0</td><td>LLVM 15.0</td><td>Linux x86_64</td><td>apt/yum</td><td>Enable LTO for release builds</td></tr>
+  <tr><td>CMake</td><td>3.27</td><td>3.22</td><td>Linux/Windows</td><td>official installer</td><td>Required for generating build files</td></tr>
+  <tr><td>Python</td><td>3.11</td><td>3.9</td><td>Linux/Windows</td><td>conda</td><td>Used by packaging scripts</td></tr>
+  <tr><td>CUDA Toolkit</td><td>12.2</td><td>11.8</td><td>NVIDIA GPUs</td><td>NVIDIA repo</td><td>Only for GPU backend builds</td></tr>
+  <tr><td>OpenCL SDK</td><td>2023.04</td><td>2022.10</td><td>Cross-vendor</td><td>vendor site</td><td>Optional compute backend</td></tr>
+  <tr><td>Protobuf</td><td>24.3</td><td>21.0</td><td>Cross-platform</td><td>pip/vcpkg</td><td>Schema generation compatibility</td></tr>
+  <tr><td>Bazel</td><td>6.4</td><td>5.3</td><td>Linux</td><td>bazelisk</td><td>Only for select repositories</td></tr>
+</table>

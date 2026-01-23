@@ -1,0 +1,10 @@
+<table>
+  <caption>Instant Messaging Notification Request Parameters (Extended)</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>C..64</td><td>M</td><td>1</td><td>NOTIFY</td><td>Operation type for the notification request</td></tr>
+  <tr><td>Notification Initiator ID</td><td>initiatorNotificationID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>User ID that triggers the notification</td></tr>
+  <tr><td>Notification Recipient ID</td><td>recipientNotificationID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>User ID that receives the notification</td></tr>
+  <tr><td>Notification ID</td><td>notificationID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Unique ID of this notification event</td></tr>
+  <tr><td>Notification Type</td><td>notificationType</td><td>C..32</td><td>M</td><td>1</td><td></td><td>Category of notification (e.g., message, system)</td></tr>
+  <tr><td>Timestamp</td><td>notificationTimestamp</td><td>N..13</td><td>M</td><td>1</td><td></td><td>Client timestamp when the notification is generated</td></tr>
+</table>

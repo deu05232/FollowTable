@@ -1,0 +1,12 @@
+# iPod Accessory Protocol Message Layout (Lingo 0x00 Example)
+
+| Byte Offset | Field | Size (bytes) | Encoding | Allowed Values | Example | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| 0 | Sync | 2 | Hex | 0xFF 0x55 | FF 55 | Frame start |
+| 2 | Length | 2 | Big-endian | 0x0000–0xFFFF | 00 08 | Payload length |
+| 4 | Lingo ID | 1 | Hex | 0x00–0x1F | 00 | Protocol family |
+| 5 | Command ID | 1 | Hex | 0x00–0xFF | 12 | Command selector |
+| 6 | Transaction ID | 1 | Hex | 0x00–0xFF | 3A | Host transaction |
+| 7 | Payload | N | Binary | Command-specific | 01 02 03 | Variable |
+| 7+N | Checksum | 1 | Mod-256 | 0x00–0xFF | 9C | Sum over frame |
+| 8+N | End | 1 | Hex | 0x00 | 00 | Frame terminator (if used) |

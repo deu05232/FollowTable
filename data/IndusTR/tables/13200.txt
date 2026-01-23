@@ -1,0 +1,15 @@
+<table>
+  <caption>Basic Math Operator Interface Settings (Range/Length Oriented)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Direction</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Interval Start</td><td>Input</td><td>Optional</td><td>Start value for generating a sequence used by some operators</td></tr>
+    <tr><td>Interval End</td><td>Input</td><td>Optional</td><td>End value (exclusive) for generating a sequence</td></tr>
+    <tr><td>Step</td><td>Input</td><td>Optional</td><td>Increment between consecutive values; must be non-zero</td></tr>
+    <tr><td>Tensor Length</td><td>Input</td><td>Required</td><td>Length of the generated/processed tensor (number of elements); used instead of multi-dimensional shape</td></tr>
+    <tr><td>Max Elements</td><td>Input</td><td>Optional</td><td>Upper bound on Tensor Length for safety checks</td></tr>
+    <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Supported numeric types; default fp32</td></tr>
+    <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Execution target; default CPU</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Energy Efficiency Grade Indicators for Basic-Voltage Single-Output External Power Supplies</caption>
+  <tr><td>Energy Efficiency Grade</td><td>Rated Output Power Value (Po）W</td><td>Minimum Average Efficiency in Operating State (expressed as a decimal)</td><td>Maximum Active Power in No-Load State W</td><td>Minimum Power Factor (PF) in Rated State</td></tr>
+  <tr><td rowspan="4">Grade 1</td><td>0<Po≤1</td><td>0.51×Po+ 0.170</td><td>0.050</td><td></td></tr>
+  <tr><td>1<Po≤49</td><td>0.065×ln P。-0.000 9×Po+0.704</td><td>0.050</td><td></td></tr>
+  <tr><td>49<P≤250</td><td>0.915</td><td>0.075</td><td>0.930</td></tr>
+  <tr><td>250<Po≤500</td><td>0.920</td><td>0.075</td><td>0.950</td></tr>
+  <tr><td rowspan="4">Grade 2</td><td>0<Po≤1</td><td>0.51×Po+ 0.170</td><td>0.075</td><td></td></tr>
+  <tr><td>1<Po≤49</td><td>0.066Xln Po-0.001×Po+0.690</td><td>0.075</td><td></td></tr>
+  <tr><td>49<Po≤250</td><td>0.900</td><td>0.100</td><td></td></tr>
+  <tr><td>250<Po≤500</td><td>0.905</td><td>0.150</td><td></td></tr>
+  <tr><td rowspan="4">Grade 3</td><td>0<Po≤1</td><td>0.5×Po+ 0.160</td><td>0.100</td><td></td></tr>
+  <tr><td>1<P≤49</td><td>0.071×ln Po-0.001 4XPo+0.670</td><td>0.100</td><td></td></tr>
+  <tr><td>49<P≤250</td><td>0.880</td><td>0.210</td><td></td></tr>
+  <tr><td>250<Po≤500</td><td>0.880</td><td>0.500</td><td></td></tr>
+  <tr><td colspan="5">Note. The minimum power factor requirement in the rated state for Grade 1 energy efficiency only applies to power supplies with a rated output power value of not less than 75.W</td></tr>
+</table>

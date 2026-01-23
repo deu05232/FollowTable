@@ -1,0 +1,16 @@
+<table>
+  <caption>AR API Enumeration Definitions: Plane Detection and Pose Modes</caption>
+  <thead>
+    <tr><th>Enum Category</th><th>Description</th><th>Identifier and Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Plane Detection Mode</td><td>Plane detection disabled</td><td>AR_PLANE_DETECTION_MODE_DISABLED = 0</td></tr>
+    <tr><td>Detect horizontal planes</td><td>AR_PLANE_DETECTION_MODE_HORIZONTAL = 1</td></tr>
+    <tr><td>Detect vertical planes</td><td>AR_PLANE_DETECTION_MODE_VERTICAL = 2</td></tr>
+    <tr><td>Detect both horizontal and vertical planes</td><td>AR_PLANE_DETECTION_MODE_HORIZONTAL_AND_VERTICAL = 3</td></tr>
+    <tr><td rowspan="4">Pose Tracking Mode</td><td>Default pose tracking</td><td>AR_POSE_TRACKING_MODE_DEFAULT = 0</td></tr>
+    <tr><td>World tracking (6DoF)</td><td>AR_POSE_TRACKING_MODE_6DOF = 1</td></tr>
+    <tr><td>Rotation-only tracking (3DoF)</td><td>AR_POSE_TRACKING_MODE_3DOF = 2</td></tr>
+    <tr><td>External pose source (device/marker/IMU fusion)</td><td>AR_POSE_TRACKING_MODE_EXTERNAL = 3</td></tr>
+  </tbody>
+</table>

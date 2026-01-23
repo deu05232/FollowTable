@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre Control Words (Quick View) with 8b/10b Line-Coding State Emphasis</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>On-the-wire Symbol Sequence (Example)</th><th>Protocol-Level Function</th><th>Expected RD After Word</th><th>RD Constraint Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ACTIVE</td><td>Comma, ACTIVE, ACT_LS, ACT_MS, K28.7, Dxx.y, Dxx.y</td><td>Unidirectional channel initialization / announces active channels</td><td>RD+</td><td>Requires comma detection; subsequent symbols should maintain RD alternation</td></tr>
+    <tr><td>ALIGN</td><td>Comma, ALIGN, LANES, iLANES, K28.7, Dxx.y, Dxx.y</td><td>Multi-lane alignment and lane identity exchange</td><td>RD-</td><td>iLANES used for integrity; choose symbols to avoid long RD runs</td></tr>
+    <tr><td>PAD</td><td>Comma, Fill, Fill, Fill, K28.7, K27.7, K27.7</td><td>Multi-channel padding / gap filling</td><td>RD±</td><td>Fill characters can flip RD depending on previous state</td></tr>
+    <tr><td>SKIP</td><td>Comma, LLCW, SKIP, K28.7, D14.6, D31.3, D31.3</td><td>Elastic-buffer rate matching / periodic skip insertion</td><td>RD+</td><td>D14.6 often treated as neutral-ish for RD management</td></tr>
+    <tr><td>IDLE</td><td>Comma, LLCW, IDLE, K28.7, D14.6, D15.6, D15.6</td><td>Maintains link when no higher-layer word is available</td><td>RD-</td><td>IDLE patterns selected to keep transitions balanced</td></tr>
+    <tr><td>ACK</td><td>Comma, ACK, SEQ_NUM, K28.7, D2.5, Dxx.y, Dxx.y</td><td>Frame acknowledgment (correct reception/in-order)</td><td>RD±</td><td>CRC marker impacts RD planning; avoid illegal comma mid-word</td></tr>
+    <tr><td>NACK</td><td>Comma, NACK, SEQ_NUM, K28.7, D27.5, Dxx.y, Dxx.y</td><td>Negative acknowledgment (error/out-of-order recovery)</td><td>RD±</td><td>Receiver may resync depending on RD state following NACK</td></tr>
+  </tbody>
+</table>

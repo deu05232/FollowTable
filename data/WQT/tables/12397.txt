@@ -1,0 +1,13 @@
+# Outlook Manual Configuration for Microsoft 365 Mailboxes (IMAP POP SMTP Settings)
+
+| Setting | Before Hybrid Deployment | After Hybrid Deployment |
+| --- | --- | --- |
+| Account type used for connectivity | POP3 commonly used for basic mailbox access | IMAP used to access mailbox content across devices |
+| Incoming mail server | pop.office365.com | outlook.office365.com |
+| Incoming port | 995 (SSL) | 993 (SSL/TLS) |
+| Outgoing mail server | smtp.office365.com | smtp.office365.com |
+| Outgoing port | 587 (STARTTLS) | 587 (STARTTLS) |
+| Encryption | SSL for POP / TLS for SMTP | TLS for IMAP / TLS for SMTP |
+| Authentication | Basic username/password | Modern auth supported where available |
+| Autodiscover dependency | Not required for POP | Often used to simplify setup |
+| Client impact | Users manually enter server/port details | Users still may need manual settings when Autodiscover fails |

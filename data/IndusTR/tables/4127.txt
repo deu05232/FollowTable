@@ -1,0 +1,10 @@
+<table>
+  <caption>Emergency Management BeiDou Terminal Stopover Report Message Data Format</caption>
+  <tr><td>Serial No.</td><td colspan="2">Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td colspan="2">Task ID</td><td>25</td><td colspan="3">See 6.1.10</td><td></td></tr>
+  <tr><td>2</td><td rowspan="3">Stopover Location</td><td>Longitude</td><td>39</td><td colspan="3">See 6.1.1</td><td></td></tr>
+  <tr><td>3</td><td>Latitude</td><td>38</td><td colspan="3">See 6.1.2</td><td></td></tr>
+  <tr><td>4</td><td>Elevation</td><td>29</td><td colspan="3">See 6.1.3</td><td></td></tr>
+  <tr><td>5</td><td colspan="2">Stopover Time</td><td>34</td><td colspan="3">See 6.1.8</td><td></td></tr>
+  <tr><td>6</td><td colspan="2">Rest Type</td><td>1</td><td>Integer</td><td>1</td><td>0~1</td><td>0——Short rest;1   Long rest</td></tr>
+</table>

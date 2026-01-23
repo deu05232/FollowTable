@@ -1,0 +1,7 @@
+<table>
+  <caption>Payload packaging descriptors inside the Exchange Header Envelope</caption>
+  <tr><td>Data Field</td><td>English Name</td><td>Constraints</td><td>Maximum Occurrences</td><td>Data Type</td><td>Definition</td></tr>
+  <tr><td>Payload Identifier</td><td>Payload Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Identifier that specifies the payload instance carried by the envelope</td></tr>
+  <tr><td>Payload Document Type Code</td><td>Payload Document Type Code</td><td>Optional</td><td>1</td><td>String</td><td>Code indicating the document type of the payload</td></tr>
+  <tr><td>Payload Compression Method Text</td><td>Payload Compression Method Text</td><td>Optional</td><td>1</td><td>String</td><td>Text describing how the payload is compressed for transport</td></tr>
+</table>

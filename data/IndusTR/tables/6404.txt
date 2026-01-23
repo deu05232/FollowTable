@@ -1,0 +1,17 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Transmitter RF Conformance Requirements (Channel A/B)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Unit</th><th>Test Condition</th><th>Limit / Requirement</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Carrier frequency</td><td>MHz</td><td>Nominal</td><td>160.900</td><td>Center frequency setting</td></tr>
+    <tr><td>Channel spacing</td><td>kHz</td><td>Nominal</td><td>25</td><td>Adjacent channel plan</td></tr>
+    <tr><td>Modulation type</td><td>-</td><td>Nominal</td><td>GMSK</td><td>As specified by PHY</td></tr>
+    <tr><td>Baud rate</td><td>bit/s</td><td>Nominal</td><td>9600</td><td>Symbol rate</td></tr>
+    <tr><td>Occupied bandwidth</td><td>kHz</td><td>99% power</td><td>≤ 16</td><td>Measured with spectrum analyzer</td></tr>
+    <tr><td>Adjacent channel power</td><td>dBc</td><td>±25 kHz offset</td><td>≤ -70</td><td>Relative to carrier</td></tr>
+    <tr><td>Spurious emissions</td><td>dBm</td><td>30 MHz to 1 GHz</td><td>≤ -36</td><td>Radiated or conducted</td></tr>
+    <tr><td>Transmit power stability</td><td>dB</td><td>-15°C to +55°C</td><td>≤ 1.5</td><td>Across temperature range</td></tr>
+    <tr><td>TX burst duration</td><td>ms</td><td>Single burst</td><td>≤ 108</td><td>Frame timing constraint</td></tr>
+  </tbody>
+</table>

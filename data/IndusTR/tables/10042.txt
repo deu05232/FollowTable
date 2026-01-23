@@ -1,0 +1,10 @@
+<table>
+  <caption>Terminal output scheduling parameters with sender/recipient IDs included</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>1</td><td>Sender ID</td><td>1~16 777 215</td><td></td><td>Source address</td></tr>
+  <tr><td>2</td><td>Recipient ID</td><td>1~16 777 215</td><td></td><td>Destination address</td></tr>
+  <tr><td>3</td><td>Output rate</td><td>10~3 600</td><td>0.1 s</td><td>Reporting interval</td></tr>
+  <tr><td>4</td><td>UTC time</td><td>000000.00~235959.99</td><td></td><td>Time of transmission</td></tr>
+  <tr><td>5</td><td>Frequency point</td><td>0~2</td><td></td><td>0: automatic; 1: Lf1; 2: Lf2</td></tr>
+  <tr><td>6</td><td>Beam ID</td><td>0~64</td><td></td><td>Outbound beam selection</td></tr>
+</table>

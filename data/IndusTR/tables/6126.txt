@@ -1,0 +1,15 @@
+<table>
+  <caption>Template: Emission Factors for Purchased vs. Exported Electricity by Source</caption>
+  <thead>
+    <tr><th>Activity Line</th><th>Electricity Source / Contract Type</th><th>Electricity (MWh)</th><th>Emission Factor (tCO2/MWh)</th><th>Emissions (tCO2)</th><th>Factor Basis / Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Purchased</td><td>Grid average (national)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Supplier-specific (utility A)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Renewable tariff / EAC-backed</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="3">Exported</td><td>Export to grid (residual mix)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Export under PPA (counterparty factor)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Export to neighbor facility (metered)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td colspan="6">Instruction: If multiple electricity sources/contracts have different emission factors, add additional rows under the same activity line and apply Emissions = Electricity (MWh) × Emission Factor.</td></tr>
+  </tbody>
+</table>

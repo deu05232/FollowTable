@@ -1,0 +1,8 @@
+<table>
+  <caption>Sanitary equipment data elements with requirement flags (metadata-oriented)</caption>
+  <tr><th>Element identifier</th><th>Element description</th><th>Requirement flag</th><th>Constraint note</th></tr>
+  <tr><td>H1097A0000</td><td>Infusion accuracy</td><td>Mandatory</td><td>Required for regulatory submission</td></tr>
+  <tr><td>H1076A0000</td><td>Energy range</td><td>Mandatory</td><td>Must be recorded as a coded value</td></tr>
+  <tr><td>H1266A0000</td><td>Operating frequency</td><td>Optional</td><td>Only applicable to therapy devices</td></tr>
+  <tr><td>H1177A0000</td><td>Testing speed</td><td>Mandatory</td><td>Captured during device registration</td></tr>
+</table>

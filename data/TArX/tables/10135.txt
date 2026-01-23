@@ -1,0 +1,14 @@
+<table>
+  <caption>Simulated gamma-ray burst luminosity grid used in Monte Carlo studies (not tied to specific bursts).</caption>
+  <thead>
+    <tr><th>Grid ID</th><th>log10(L_iso) min [erg s^-1]</th><th>log10(L_iso) max [erg s^-1]</th><th>Distribution</th><th>log10(T90) range [s]</th><th>Redshift range</th><th>Spectral index range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MC-A</td><td>49.0</td><td>53.5</td><td>uniform in logL</td><td>-0.5 to 2.5</td><td>0.0–8.0</td><td>-1.2 to -2.5</td><td>baseline grid</td></tr>
+    <tr><td>MC-B</td><td>50.0</td><td>54.0</td><td>power-law (alpha=1.2)</td><td>0.0 to 2.7</td><td>0.0–10.0</td><td>-0.8 to -2.2</td><td>bright-end emphasis</td></tr>
+    <tr><td>MC-C</td><td>48.5</td><td>52.5</td><td>lognormal (sigma=0.6)</td><td>-0.3 to 2.0</td><td>0.0–5.0</td><td>-1.0 to -2.8</td><td>sub-luminous focus</td></tr>
+    <tr><td>MC-D</td><td>51.0</td><td>54.5</td><td>broken power-law</td><td>0.2 to 2.8</td><td>0.5–12.0</td><td>-0.9 to -2.3</td><td>includes evolution</td></tr>
+    <tr><td>MC-E</td><td>49.5</td><td>53.0</td><td>schechter-like</td><td>-0.2 to 2.4</td><td>0.0–7.0</td><td>-1.1 to -2.6</td><td>survey selection tests</td></tr>
+    <tr><td>MC-F</td><td>52.0</td><td>55.0</td><td>uniform in logL</td><td>0.0 to 3.0</td><td>1.0–15.0</td><td>-0.7 to -2.0</td><td>extreme high-z trials</td></tr>
+  </tbody>
+</table>

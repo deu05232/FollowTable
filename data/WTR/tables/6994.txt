@@ -1,0 +1,12 @@
+# BitTorrent Traffic Signatures and Network Classification Notes
+
+| Detector/Feature | Example Value | Affected Client/Family | Symptom | Workaround | Reference |
+| --- | --- | --- | --- | --- | --- |
+| DPI Rule | "bittorrent handshake" | BitComet-like clients | Misclassified as HTTP | Update signatures | NBAR2 pack note |
+| DPI Rule | "peer_id" pattern | uTorrent/BitTorrent | Throttling triggers | Enable encryption | ISP shaping guides |
+| Port Heuristic | TCP 6881-6889 | Generic BitTorrent | Blocked/limited ports | Randomize port | Router FAQ |
+| Protocol ID | "bt-dht" | DHT-enabled clients | Marked as P2P | Disable DHT | Enterprise policy |
+| TLS Heuristic | SSL-like flows | Some clients | Labeled as HTTPS | Inspect SNI | Security appliance |
+| Tracker Pattern | announce.php | Any tracker-based | Flagged as torrent traffic | Use magnet/DHT | Network ops |
+| Transport | uTP/UDP | uTorrent family | UDP shaping | Force TCP | Client setting |
+| Rate Behavior | many small flows | Generic BitTorrent | Congestion alarms | QoS rules | ISP docs |

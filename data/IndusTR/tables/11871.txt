@@ -1,0 +1,14 @@
+<table>
+  <caption>Idle/Standby Compliance Indicators for External Power Supplies (No-Load Power Cap Focus)</caption>
+  <thead>
+    <tr><th>Energy Efficiency Grade</th><th>Rated Output Power Range (Po), W</th><th>Minimum Average Efficiency in Operating State (decimal)</th><th>Maximum Active Power in No-Load State, W</th><th>Minimum Power Factor (PF) in Rated State</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Grade 1</td><td>0 < Po ≤ 0.5</td><td>0.56×Po + 0.085</td><td>0.040</td><td>(Not required)</td></tr>
+    <tr><td>0.5 < Po ≤ 1</td><td>0.53×Po + 0.095</td><td>0.040</td><td>(Not required)</td></tr>
+    <tr><td>1 < Po ≤ 10</td><td>0.080×ln(Po) − 0.0010×Po + 0.665</td><td>0.050</td><td>(Not required)</td></tr>
+    <tr><td>10 < Po ≤ 49</td><td>0.078×ln(Po) − 0.0011×Po + 0.675</td><td>0.050</td><td>(Not required)</td></tr>
+    <tr><td>49 < Po ≤ 250</td><td>0.910</td><td>0.075</td><td>0.930</td></tr>
+    <tr><td>250 < Po ≤ 500</td><td>0.915</td><td>0.085</td><td>0.940</td></tr>
+  </tbody>
+</table>

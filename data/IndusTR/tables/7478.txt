@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Power Supply Mode and Electrical Characteristics Codes</caption>
+  <thead>
+    <tr><th>Code</th><th>Meaning</th><th>Electrical Spec Focus</th><th>Status</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AC1</td><td>AC mains powered</td><td>Input: 100–120 V / 50–60 Hz</td><td>Active</td><td>Common for electric bidet seats and sensor faucets</td></tr>
+    <tr><td>AC2</td><td>AC mains powered</td><td>Input: 220–240 V / 50 Hz</td><td>Active</td><td>Regional variant; map by country/market</td></tr>
+    <tr><td>DCB</td><td>Battery powered</td><td>Input: 6 V DC</td><td>Active</td><td>Often for auto-flush valves</td></tr>
+    <tr><td>DCX</td><td>Low-voltage DC adapter</td><td>Input: 12 V DC</td><td>Active</td><td>Adapter required; do not treat as mains</td></tr>
+    <tr><td>USB</td><td>USB powered</td><td>Input: 5 V DC</td><td>Experimental</td><td>Only for small accessories</td></tr>
+    <tr><td>POE</td><td>Power over Ethernet</td><td>IEEE 802.3af</td><td>Rare</td><td>Seen in smart restroom controllers</td></tr>
+    <tr><td>NON</td><td>Non-powered (manual)</td><td>null</td><td>Active</td><td>Applies to purely mechanical fixtures</td></tr>
+  </tbody>
+</table>

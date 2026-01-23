@@ -1,0 +1,16 @@
+<table>
+  <caption>Insulation-Related Electrical Limits and Dielectric Withstand Acceptance Criteria (Low-Voltage Shore Power Box)</caption>
+  <thead>
+    <tr><th rowspan="2">Circuit Rated Voltage (Urms)</th><th colspan="2">Insulation Resistance (IR) Acceptance</th><th colspan="3">Dielectric Withstand Acceptance (Hi-Pot)</th></tr>
+    <tr><th>Test Voltage (DC)</th><th>Minimum IR</th><th>Test Voltage (AC, 50/60 Hz)</th><th>Duration</th><th>Pass/Fail Criterion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 120 V</td><td>250 VDC</td><td>≥ 2 MΩ</td><td>1.0 kVac</td><td>60 s</td><td>No breakdown; leakage current ≤ 5 mA</td></tr>
+    <tr><td>120 V < U ≤ 250 V</td><td>500 VDC</td><td>≥ 2 MΩ</td><td>1.5 kVac</td><td>60 s</td><td>No breakdown; leakage current ≤ 5 mA</td></tr>
+    <tr><td>250 V < U ≤ 500 V</td><td>500 VDC</td><td>≥ 1 MΩ</td><td>2.0 kVac</td><td>60 s</td><td>No breakdown; leakage current ≤ 5 mA</td></tr>
+    <tr><td>500 V < U ≤ 690 V</td><td>1000 VDC</td><td>≥ 1 MΩ</td><td>2.5 kVac</td><td>60 s</td><td>No breakdown; leakage current ≤ 5 mA</td></tr>
+    <tr><td>Control / auxiliary circuits (SELV/PELV where applicable)</td><td>250 VDC</td><td>≥ 5 MΩ</td><td>0.5 kVac</td><td>60 s</td><td>No breakdown; leakage current ≤ 2 mA</td></tr>
+    <tr><td>Between live parts and PE (protective earth)</td><td>As per rated circuit voltage above</td><td>As per rated circuit voltage above</td><td>Same as corresponding rated circuit</td><td>60 s</td><td>No flashover to PE; leakage within limit</td></tr>
+    <tr><td>After humidity conditioning (if specified)</td><td>500 VDC</td><td>≥ 0.5 MΩ</td><td>Same as corresponding rated circuit</td><td>60 s</td><td>No breakdown; leakage current within limit</td></tr>
+  </tbody>
+</table>

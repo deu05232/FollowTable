@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Test Setup Conditions and Instrumentation for EMC Validation of Autonomous Driving Data Recorder</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Instrument</th><th>Model</th><th>Configuration</th><th>Environmental Condition</th><th>Calibration Status</th><th>Reference Document</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Conducted transients coupling</td><td>Transient generator</td><td>TG-ISO-900</td><td>Coupling network 5 µH/50 Ω</td><td>23±2°C, 40–60% RH</td><td>Valid</td><td>ISO 7637-2 setup</td></tr>
+    <tr><td>ESD</td><td>ESD simulator</td><td>ESD-Pro 30</td><td>Contact/air discharge tips</td><td>23±2°C, 30–60% RH</td><td>Valid</td><td>IEC 61000-4-2 setup</td></tr>
+    <tr><td>Radiated immunity</td><td>Antenna + amplifier</td><td>RI-Amp 200</td><td>80–1000 MHz, 1% step</td><td>3 m chamber</td><td>Valid</td><td>IEC 61000-4-3 setup</td></tr>
+    <tr><td>Conducted immunity</td><td>CDN clamp</td><td>CDN-150</td><td>150 kHz–80 MHz</td><td>Ground plane bonded</td><td>Valid</td><td>IEC 61000-4-6 setup</td></tr>
+    <tr><td>Voltage dips</td><td>Dips/interruptions tester</td><td>VDI-12/24</td><td>Programmable sag profiles</td><td>23±2°C</td><td>Valid</td><td>IEC 61000-4-11 setup</td></tr>
+    <tr><td>Measurement of emissions</td><td>Spectrum analyzer</td><td>SA-9G</td><td>RBW 9 kHz / 120 kHz</td><td>Pre-scan mode</td><td>Valid</td><td>CISPR 25 setup</td></tr>
+  </tbody>
+</table>

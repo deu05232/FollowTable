@@ -1,0 +1,7 @@
+<table>
+  <caption>Device Attestation Challenge API</caption>
+  <tr><th>API Name</th><td>Device Attestation Challenge API</td></tr>
+  <tr><th>API Description</th><td>Issue a challenge that a device must sign to prove possession of its secure key</td></tr>
+  <tr><th>API Method</th><td>POST</td></tr>
+  <tr><th>Parameter Description</th><td>Must include at least: User ID (string userID), authentication parameter (string access_token), device ID (string devID), attestation key ID (string akID), device public key (string devPubKey), signature (string devSign), timestamp (string ts)</td></tr>
+</table>

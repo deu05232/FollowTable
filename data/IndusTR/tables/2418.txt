@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Logger Hardware Configuration Parameters (Field Deployment Template)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Key</th><th>Type</th><th>Allowed Range</th><th>Default</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Sampling interval</td><td>SAMPLE_SEC</td><td>Integer</td><td>1–3600</td><td>60</td><td>Seconds between samples</td></tr>
+    <tr><td>Logging interval</td><td>LOG_SEC</td><td>Integer</td><td>10–86400</td><td>300</td><td>Seconds between stored records</td></tr>
+    <tr><td>Time sync mode</td><td>NTP_MODE</td><td>Enum</td><td>OFF/NTP/GNSS</td><td>NTP</td><td>Clock synchronization source</td></tr>
+    <tr><td>UART baud rate</td><td>UART_BAUD</td><td>Integer</td><td>1200–115200</td><td>9600</td><td>Serial communication speed</td></tr>
+    <tr><td>Power save</td><td>PWR_SAVE</td><td>Enum</td><td>ON/OFF</td><td>ON</td><td>Low-power policy</td></tr>
+    <tr><td>Firmware version</td><td>FW_VER</td><td>String</td><td>—</td><td>1.8.4</td><td>Installed firmware build</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Visible-Light Satellite Image QA QC — Radiometric Calibration Checklist and Acceptance Criteria</caption>
+  <thead>
+    <tr><th>Check Item</th><th>Procedure</th><th>Metric</th><th>Acceptance Threshold</th><th>Sampling Frequency</th><th>Responsible Role</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Dark current correction</td><td>Acquire shutter frames and subtract</td><td>Residual bias (DN)</td><td>≤ 1.0 DN</td><td>Daily</td><td>Calibration engineer</td></tr>
+    <tr><td>Flat-field uniformity</td><td>Use diffuser panel sequence</td><td>Non-uniformity (%)</td><td>≤ 0.8%</td><td>Weekly</td><td>Payload team</td></tr>
+    <tr><td>Stray light evaluation</td><td>Off-limb scans at twilight</td><td>Stray light ratio</td><td>≤ 0.5%</td><td>Monthly</td><td>QA analyst</td></tr>
+    <tr><td>Geolocation accuracy</td><td>Match coastlines / landmarks</td><td>RMSE (km)</td><td>≤ 2.0 km</td><td>Per orbit</td><td>Ops center</td></tr>
+    <tr><td>Compression artifacts</td><td>PSNR computation</td><td>PSNR (dB)</td><td>≥ 38 dB</td><td>Per product batch</td><td>Data steward</td></tr>
+    <tr><td>Cloud mask sanity check</td><td>Random visual inspection</td><td>Flag error rate</td><td>≤ 2%</td><td>Weekly</td><td>Forecaster</td></tr>
+  </tbody>
+</table>

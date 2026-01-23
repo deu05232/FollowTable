@@ -1,0 +1,9 @@
+<table>
+  <caption>Return Value Parameters for Querying Daily Reconciliation File Download URL</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Bill Status</td><td>succStat</td><td>integer</td><td>0: Generated; 1: Not generated</td><td>Yes</td></tr>
+  <tr><td>Failure Reason</td><td>failReason</td><td>integer</td><td>0: None; 1: Bill not generated; 2: Bill does not exist</td><td>Yes</td></tr>
+  <tr><td>Daily Bill Serial No.</td><td>billsNo</td><td>string</td><td>Format "Operator ID_Date（yyyyMMdd)_Unique ID”, no more than 64 characters</td><td>Yes</td></tr>
+  <tr><td>File Path</td><td>billDownloadUrl</td><td>string</td><td>Reconciliation file download path, the file name is customized by both parties</td><td>Yes</td></tr>
+  <tr><td>Accounting Date</td><td>accountDate</td><td>string</td><td>Format “yyyy-MM-dd”</td><td>Yes</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Emergency Management Beidou System Resettlement Information Notification Message Data Format</caption>
+  <tr><td>Serial No.</td><td colspan="2">Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td colspan="2">Number of Resettlement Sites</td><td>8</td><td>Integer</td><td></td><td>1~255</td><td></td></tr>
+  <tr><td>2</td><td rowspan="2">Resettlement Site Information 1~N</td><td>Information Length</td><td>8</td><td>Integer</td><td></td><td>1~255</td><td></td></tr>
+  <tr><td>3</td><td>Information</td><td>N×8</td><td>Character</td><td colspan="2"></td><td>Variable length, where N is the information byte length</td></tr>
+</table>

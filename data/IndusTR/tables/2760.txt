@@ -1,0 +1,10 @@
+<table>
+  <caption>Knitting (Software) Data Dictionary for Loop Constructs</caption>
+  <tr><th>Index</th><th>Term</th><th>English Name</th><th>Data Type</th><th>Scope</th><th>Default</th><th>Description</th><th>Example</th></tr>
+  <tr><td>SW-0100</td><td>Loop counter</td><td>counter</td><td>Int32</td><td>Local</td><td>0</td><td>Number of iterations executed</td><td>for(i=0;i<n;i++)</td></tr>
+  <tr><td>SW-0101</td><td>Termination condition</td><td>condition</td><td>Boolean</td><td>Local</td><td>false</td><td>Expression that stops the loop</td><td>i<n</td></tr>
+  <tr><td>SW-0102</td><td>Step size</td><td>step</td><td>Int32</td><td>Local</td><td>1</td><td>Increment per iteration</td><td>i+=1</td></tr>
+  <tr><td>SW-0103</td><td>Break flag</td><td>breakFlag</td><td>Boolean</td><td>Local</td><td>false</td><td>Indicates loop interruption</td><td>break</td></tr>
+  <tr><td>SW-0104</td><td>Continue flag</td><td>continueFlag</td><td>Boolean</td><td>Local</td><td>false</td><td>Skips to next iteration</td><td>continue</td></tr>
+  <tr><td>SW-0105</td><td>Iterator source</td><td>iterable</td><td>String</td><td>Local</td><td>""</td><td>Collection being iterated</td><td>for x in list</td></tr>
+</table>

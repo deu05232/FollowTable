@@ -1,0 +1,14 @@
+<table>
+  <caption>Reference (ref) Kind Codes for Linking Information Containers</caption>
+  <thead>
+    <tr><th>Ref Category</th><th>Code</th><th>Kind Name</th><th>Description</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Link Type</td><td>10</td><td>Parent</td><td>Indicates the referenced container is the parent container.</td><td>ref.kind=Parent</td></tr>
+    <tr><td>Link Type</td><td>11</td><td>Child</td><td>Indicates the referenced container is a child container.</td><td>ref.kind=Child</td></tr>
+    <tr><td>Link Type</td><td>12</td><td>Revision</td><td>Points to a previous revision of the same container.</td><td>ref.kind=Revision</td></tr>
+    <tr><td>Link Type</td><td>13</td><td>Dependency</td><td>Points to a container that this container depends on.</td><td>ref.kind=Dependency</td></tr>
+    <tr><td>Link Type</td><td>14</td><td>Attachment</td><td>Points to an attachment container linked to this container.</td><td>ref.kind=Attachment</td></tr>
+    <tr><td>Link Type</td><td>15</td><td>External</td><td>Points to an external container reference outside the project scope.</td><td>ref.kind=External</td></tr>
+  </tbody>
+</table>

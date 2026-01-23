@@ -1,0 +1,14 @@
+<table>
+  <caption>Logistics M2M Platform Deployment Hardware Bill of Materials (BOM)</caption>
+  <thead>
+    <tr><th>Component</th><th>Specification</th><th>Qty</th><th>Purpose</th><th>Preferred Vendor</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Edge Gateway</td><td>8-core CPU, 16GB RAM, LTE fallback</td><td>2</td><td>Protocol aggregation</td><td>NorthPeak Electronics</td><td>Rack-mount</td></tr>
+    <tr><td>Database Server</td><td>32-core CPU, 128GB RAM, NVMe RAID</td><td>3</td><td>Telemetry storage</td><td>Atlas IoT Supply</td><td>HA cluster</td></tr>
+    <tr><td>Load Balancer</td><td>10GbE, L7 routing, WAF module</td><td>2</td><td>Traffic distribution</td><td>BlueHarbor Tech</td><td>Active-active</td></tr>
+    <tr><td>Message Broker</td><td>MQTT/AMQP appliance, 2TB SSD</td><td>2</td><td>Device messaging</td><td>Orion Fleet Devices</td><td>Geo-redundant</td></tr>
+    <tr><td>Storage</td><td>NAS 200TB, snapshots</td><td>1</td><td>Archive retention</td><td>Shoreline Components</td><td>Encrypted volumes</td></tr>
+    <tr><td>HSM</td><td>FIPS 140-2 Level 3</td><td>1</td><td>Key management</td><td>Q-Track Industries</td><td>Rotating keys</td></tr>
+  </tbody>
+</table>

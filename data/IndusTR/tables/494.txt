@@ -1,0 +1,12 @@
+<table>
+  <caption>Description of message communication information output statement parameters</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Value Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>1</td><td>Sender ID</td><td>1~281 474 976 710 655</td><td>一</td><td>Sender address, can be an intranet address or an extranet address"</td></tr>
+  <tr><td>2</td><td>Recipient ID</td><td>1~16 777 215</td><td></td><td>Recipient address, intranet address</td></tr>
+  <tr><td>3</td><td>Time</td><td>000 000.00～235 959.99</td><td></td><td>UTC time, hhmmss.ss. 6 fixed digits to the left of the decimal point; pad with leading 0 if insufficient</td></tr>
+  <tr><td>4</td><td>Encoding type</td><td>0~2</td><td></td><td>0: Chinese characters; 1: code; 2: mixed Chinese characters and ASCII codes</td></tr>
+  <tr><td>5</td><td>Data flag</td><td>0~1</td><td>一</td><td>O: instant, 1: mailbox</td></tr>
+  <tr><td>6</td><td>Communication length</td><td>4~14 000</td><td>bit</td><td>Total number of bits of the subsequent "communication data"; must not be empty</td></tr>
+  <tr><td>7</td><td>Communication data</td><td></td><td></td><td>When the encoding type is "0", the transmitted content is the computer internal code; each Chinese character is 14 bit, high bits first. When the encoding type is "1", the transmitted content is BCD code characters. When the encoding type is "2", Chinese character codes are mixed. The first byte of the communication data is fixed as "A4"; in order, take every 4 bit segment and convert it to a hexadecimal number, and represent each hexadecimal number in ASCII form. If the data length is not an integer multiple of 4 bit, pad 0 in the high bits to make it an integer multiple</td></tr>
+  <tr><td colspan="5">®Extranet address: the extranet address length is 48 bit, and the address space is 16 777 216～281474 976 710 655。</td></tr>
+</table>

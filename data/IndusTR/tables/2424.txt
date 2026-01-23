@@ -1,0 +1,14 @@
+<table>
+  <caption>Database Schema for Tree Biomass Records (Field Variables Dictionary)</caption>
+  <thead>
+    <tr><th>Field name</th><th>Data type</th><th>Unit</th><th>Allowed values</th><th>Description</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>species</td><td>VARCHAR</td><td>—</td><td>Fir/Spruce/Pine</td><td>Tree species label</td><td>Fir</td></tr>
+    <tr><td>dbh</td><td>DECIMAL</td><td>cm</td><td>0–200</td><td>Diameter at breast height</td><td>32.4</td></tr>
+    <tr><td>height</td><td>DECIMAL</td><td>m</td><td>0–80</td><td>Total tree height</td><td>18.7</td></tr>
+    <tr><td>plot_id</td><td>VARCHAR</td><td>—</td><td>Alphanumeric</td><td>Sampling plot identifier</td><td>PLT-07</td></tr>
+    <tr><td>biomass_total</td><td>DECIMAL</td><td>kg</td><td>0–5000</td><td>Total biomass response variable</td><td>412.6</td></tr>
+    <tr><td>model_notes</td><td>TEXT</td><td>—</td><td>Free text</td><td>Modeling comments (e.g., R2 stored elsewhere)</td><td>Outliers removed</td></tr>
+  </tbody>
+</table>

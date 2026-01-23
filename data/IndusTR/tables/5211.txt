@@ -1,0 +1,15 @@
+<table>
+  <caption>SM2 Signature Operation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Sm2Sign（void * hAppHandle,unsigned char * pucContainerName,unsigned int uiContainerNameLen,unsigned int uiAlgorithmID,unsigned char * pucInData，,unsigned int uiInDataLen,unsigned char * pucSignData,unsigned int * puiSignDataLen)</td></tr>
+  <tr><td>Description</td><td>Use the SM2 private key to perform a signature operation on data</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name）</td></tr>
+  <tr><td>uiContainerNameLen[in](key container name length）</td></tr>
+  <tr><td>uiAlgorithmID[in](signature algorithm identifier)</td></tr>
+  <tr><td>pucInData[in](signature plaintext)</td></tr>
+  <tr><td>uiInDataLen[in](length of the signature plaintext)</td></tr>
+  <tr><td>pucSignData[out](output DER-encoded signature data)</td></tr>
+  <tr><td>puiSignDataLen[in,out](output signature result data length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non-0(Failure, returns the error code defined in Table C.1, shall comply with the provisions of Annex C)</td></tr>
+</table>

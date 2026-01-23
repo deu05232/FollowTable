@@ -1,0 +1,17 @@
+<table>
+  <caption>Photoelectric Characteristics of PIN-Type Detector Assembly</caption>
+  <tr><td>Parameter name</td><td>Symbol</td><td>Conditions</td><td>Minimum</td><td>Maximum</td><td>Unit</td></tr>
+  <tr><td rowspan="2">Spectral response range</td><td rowspan="2">λ</td><td>Short wavelength</td><td>400</td><td>1100</td><td rowspan="2">nm</td></tr>
+  <tr><td>Long wavelength</td><td>1100</td><td>1700</td></tr>
+  <tr><td rowspan="2">Current responsivity</td><td rowspan="2">R</td><td>Long wavelength,λ=1 310 nm</td><td>0.8</td><td>—</td><td>A/W</td></tr>
+  <tr><td>Short wavelength,λ=850 nm</td><td>0.4</td><td>—</td><td>A/W</td></tr>
+  <tr><td>Minimum detectable optical power</td><td>S</td><td>VR=5V,V1,V2, modulation rate a</td><td>—</td><td>-60</td><td>dBm</td></tr>
+  <tr><td>ORL</td><td>1</td><td>λ</td><td>30</td><td>—</td><td>dB</td></tr>
+  <tr><td>Dark current</td><td>Id</td><td>VR=5V, no light</td><td>1</td><td>1</td><td>nA</td></tr>
+  <tr><td>Reverse bias voltage</td><td>VR</td><td></td><td>0</td><td>15</td><td>V</td></tr>
+  <tr><td>Receiver bandwidth(－3 dB)b</td><td>B</td><td>-3 dB,Vr=5V, input optical power of -30 dBm</td><td>0.3</td><td>1</td><td>GHz</td></tr>
+  <tr><td>Frequency response flatness</td><td>—</td><td>VR=5 V</td><td>—</td><td>3</td><td>dB</td></tr>
+  <tr><td>Second-order distortion</td><td>Cso</td><td>Vr=5V, input optical power of 0dBm,f1 and fb</td><td>-70</td><td>—</td><td>dBc</td></tr>
+  <tr><td>Third-order distortion</td><td>CTB</td><td>VR=5V, input optical power of 0dBm,f1 and f²b</td><td>-80</td><td>—</td><td>dBc</td></tr>
+  <tr><td colspan="6">a V1 and V2 shall comply with the requirements of 4.3.2 in GB/T 24365—2009; the modulation rate shall be selected according to the application scenario. b f1 and f² shall comply with the requirements of 4.3.13 and 4.3.14 in GB/T 24365—2009.</td></tr>
+</table>

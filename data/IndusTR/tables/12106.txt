@@ -1,0 +1,6 @@
+<table>
+  <caption>Tire uniformity reporting (outputs are measurement reports rather than actuator commands)</caption>
+  <tr><th>No.</th><th>Process Name</th><th>Description</th><th>Input</th><th>Output</th><th>Processing Method</th></tr>
+  <tr><td>1</td><td>Uniformity Measurement Summary</td><td>Summarize measured uniformity values for each tire</td><td>Force variation sensor data, tire ID</td><td>RFV, LFV, conicity report</td><td>Signal filtering and parameter extraction</td></tr>
+  <tr><td>2</td><td>Dynamic Balance Result Output</td><td>Generate imbalance result for downstream handling</td><td>Spindle vibration sensor data, speed</td><td>Imbalance value, correction suggestion</td><td>Spectrum analysis and calibration</td></tr>
+</table>

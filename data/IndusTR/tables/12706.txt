@@ -1,0 +1,15 @@
+<table>
+  <caption>Inspection Rules for Synthesized Frequency Sources — Electrical Behavior Checks (Operating Conditions and Compliance Limits)</caption>
+  <thead>
+    <tr><th>Check Category</th><th>Electrical Check</th><th>Operating / Environmental Conditions</th><th>Test Setup Notes</th><th>Post-Check Requirement (Compliance)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Electrical behavior</td><td>Output frequency accuracy</td><td>Vdd = nominal ± 1%; Ta = 25 °C; specified load</td><td>Measure with frequency counter locked to 10 MHz reference; warm-up per device spec</td><td>Frequency error within specified ppm limit at 25 °C</td></tr>
+    <tr><td>Frequency stability vs temperature</td><td>Ta swept from Tmin to Tmax (operating); soak ≥ 15 min at each point</td><td>Thermal chamber; measure after stabilization; same external reference</td><td>Stability (Δf/f) stays within temp-stability limit across range</td></tr>
+    <tr><td>Phase noise / jitter (time-domain)</td><td>Ta = 25 °C; Vdd nominal; output enabled</td><td>Phase noise analyzer or scope+jitter package; bandwidth per spec</td><td>Integrated jitter and/or phase-noise mask meets limit</td></tr>
+    <tr><td>Output amplitude / logic levels</td><td>Vdd nominal; Ta = 25 °C; load per interface (e.g., 50 Ω or CMOS input)</td><td>Oscilloscope with proper termination; measure VOH/VOL or swing</td><td>Amplitude and/or VOH/VOL within specified limits</td></tr>
+    <tr><td>Supply current (static and active)</td><td>Ta = 25 °C and Tmax; Vdd nominal; outputs toggling per spec</td><td>Measure ICC with DMM/shunt; include enable state definition</td><td>ICC does not exceed max limits in each operating state</td></tr>
+    <tr><td>Power-supply sensitivity (line regulation / pushing)</td><td>Vdd varied over allowed range; Ta = 25 °C</td><td>Programmable supply; monitor frequency deviation during Vdd steps</td><td>Frequency change vs Vdd within specified pushing limit</td></tr>
+    <tr><td>Start-up time / lock time (if PLL-based)</td><td>Cold start at Ta = 25 °C; Vdd ramp per spec</td><td>Trigger on Vdd; observe output valid/lock indicator or stability window</td><td>Start-up/lock time ≤ specified maximum; no false locking</td></tr>
+  </tbody>
+</table>

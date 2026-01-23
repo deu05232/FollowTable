@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre Electrical Transmitter/Receiver Interface Limits (Non-Optical)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Symbol</th><th>Min</th><th>Typ</th><th>Max</th><th>Unit</th><th>Conditions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Transmitter</td><td>Differential peak-to-peak output</td><td>VODpp</td><td>600</td><td>800</td><td>1000</td><td>mV</td><td>100 Ω differential load</td></tr>
+    <tr><td>Common-mode output voltage</td><td>VCOM</td><td>0.7</td><td>0.9</td><td>1.1</td><td>V</td><td>At DC</td></tr>
+    <tr><td>Pre-emphasis (de-emphasis)</td><td>PE</td><td>0</td><td>3</td><td>6</td><td>dB</td><td>Optional TX setting</td></tr>
+    <tr><td>Output return loss</td><td>RLTX</td><td>10</td><td></td><td></td><td>dB</td><td>Electrical return loss (not optical)</td></tr>
+    <tr><td rowspan="3">Receiver</td><td>Input differential sensitivity</td><td>VIDS</td><td>80</td><td></td><td></td><td>mV</td><td>BER target per system budget</td></tr>
+    <tr><td>Input overload</td><td>VIDO</td><td></td><td></td><td>1200</td><td>mV</td><td>Maximum differential input</td></tr>
+    <tr><td>Input return loss</td><td>RLRX</td><td>8</td><td></td><td></td><td>dB</td><td>Electrical return loss (not optical)</td></tr>
+  </tbody>
+</table>

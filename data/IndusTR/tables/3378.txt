@@ -1,0 +1,10 @@
+<table>
+  <caption>Video Image Analytics Pipeline Processing Configuration (Non-data-item Parameters)</caption>
+  <tr><th>Stage</th><th>Parameter</th><th>Default</th><th>Range</th><th>Unit</th><th>Remarks</th></tr>
+  <tr><td>Decode</td><td>Max concurrent streams</td><td>64</td><td>1–256</td><td>streams</td><td>GPU decoding recommended above 64</td></tr>
+  <tr><td>Detection</td><td>Confidence threshold</td><td>0.45</td><td>0.05–0.95</td><td>ratio</td><td>Lower increases recall</td></tr>
+  <tr><td>Tracking</td><td>Track timeout</td><td>1.5</td><td>0.5–10</td><td>seconds</td><td>Controls ID persistence</td></tr>
+  <tr><td>Embedding</td><td>Vector dimension</td><td>512</td><td>128–2048</td><td>dims</td><td>Model-dependent</td></tr>
+  <tr><td>Indexing</td><td>ANN recall target</td><td>0.92</td><td>0.70–0.99</td><td>ratio</td><td>Higher costs more memory</td></tr>
+  <tr><td>Export</td><td>Batch size</td><td>500</td><td>50–5000</td><td>records</td><td>Affects latency</td></tr>
+</table>

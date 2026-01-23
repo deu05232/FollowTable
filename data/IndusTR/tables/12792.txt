@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal-Side Application File: Device and Subscriber Identifiers</caption>
+  <thead>
+    <tr><th>Data Item</th><th>Length (bytes)</th><th>Encoding / Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Device Identifier (DeviceID)</td><td>8</td><td>BCD (16 nibbles, last nibble padded with 0xF if needed)</td><td>Unique terminal equipment identifier stored by the application for device binding and tracking.</td></tr>
+    <tr><td>Subscriber Identifier (UserID)</td><td>6</td><td>Binary</td><td>Unique user identity identifier used to associate the terminal application state with a specific subscriber.</td></tr>
+    <tr><td>Application Instance ID (AppInstanceID)</td><td>4</td><td>Unsigned integer (big-endian)</td><td>Identifier that distinguishes multiple application instances on the same device.</td></tr>
+    <tr><td>Account Identifier (AccountID)</td><td>8</td><td>ASCII (left padded with '0')</td><td>Operator-assigned account identifier used for provisioning and customer support lookup.</td></tr>
+    <tr><td>SIM/Module Identifier (ModuleID)</td><td>9</td><td>BCD</td><td>Unique identifier of the user management module; used as a stable module identity in terminal-side records.</td></tr>
+    <tr><td>Terminal Serial Number (TSN)</td><td>12</td><td>ASCII</td><td>Manufacturer serial number recorded for asset management and repair correlation.</td></tr>
+    <tr><td>Provisioning Profile ID (ProfileID)</td><td>2</td><td>Unsigned integer</td><td>Identifier of the provisioning profile currently applied to the terminal application.</td></tr>
+  </tbody>
+</table>

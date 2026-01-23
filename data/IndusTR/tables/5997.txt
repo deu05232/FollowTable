@@ -1,0 +1,15 @@
+<table>
+  <caption>Permissible Error Limits by Accuracy Class (Fundamental Active Energy, Reference Conditions)</caption>
+  <thead>
+    <tr><th rowspan="2">Accuracy class</th><th colspan="3">Percentage error limit (%) under reference conditions</th><th rowspan="2">Notes (application during testing)</th></tr>
+    <tr><th>cosΦ = 1.0</th><th>cosΦ = 0.5 (lagging)</th><th>cosΦ = 0.8 (leading)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.2</td><td>±0.20</td><td>±0.30</td><td>±0.30</td><td>Use at I within specified operating region; verify both lagging and leading PF.</td></tr>
+    <tr><td>0.5</td><td>±0.50</td><td>±0.75</td><td>±0.75</td><td>Common acceptance class for routine verification.</td></tr>
+    <tr><td>1</td><td>±1.00</td><td>±1.50</td><td>±1.50</td><td>Often used where larger uncertainty is acceptable.</td></tr>
+    <tr><td>2</td><td>±2.00</td><td>±3.00</td><td>±3.00</td><td>Check suitability if testing at low current near Imin.</td></tr>
+    <tr><td>5</td><td>±5.00</td><td>±7.50</td><td>±7.50</td><td>Typically for non-revenue or rough measurement applications.</td></tr>
+    <tr><td>10</td><td>±10.00</td><td>±15.00</td><td>±15.00</td><td>Only for indicative measurements; confirm instrument standard if applicable.</td></tr>
+  </tbody>
+</table>

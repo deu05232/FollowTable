@@ -1,0 +1,13 @@
+<table>
+  <caption>SM9 Cryptographic Service Import User Key Pair Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_ImportSM9UserKey(void            * hAppHandle,unsigned char* pucContainerName,unsigned int   uiContainerLen,unsigned int   uiKeyType,unsigned char* pUserKey,unsigned int   uiUserKeyLen）;</td></tr>
+  <tr><td>Description</td><td>Import the SM9 user identity and key into the specified key container.</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name)</td></tr>
+  <tr><td>uiContainerLen[in](key container name length)</td></tr>
+  <tr><td>uiKeyType[in]（user key protection structure type: 1: signature key key-encapsulation protection structure; 2: signature key digital envelope protection structure; 3: encryption key key-encapsulation protection structure; 4: encryption key digital envelope protection structure)</td></tr>
+  <tr><td>pUserKey[in](DER-encoded user key protection structure data)</td></tr>
+  <tr><td>uiUserKeyLen［in](length of the DER-encoded user key protection structure data)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0 (success)</td></tr>
+  <tr><td>non-zero (failure; returns the error code defined in Table C.1 and shall comply with Appendix C)</td></tr>
+</table>

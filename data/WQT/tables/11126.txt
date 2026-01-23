@@ -1,0 +1,8 @@
+# # Common derivative formulas with function-property columns (activation-style overview)
+
+| Function form | Derivative form | Output range | Continuity class | Monotonic behavior |
+| --- | --- | --- | --- | --- |
+| tanh(x) | 1 − tanh(x)^2 | (−1, 1) | Smooth | Increasing |
+| 1/(1+e^(−x)) | f(x)(1−f(x)) | (0, 1) | Smooth | Increasing |
+| max(0, x) | 0 for x<0; 1 for x>0 | [0, ∞) | Not differentiable at 0 | Non-decreasing |
+| sign(x) | 0 for x≠0 (undefined at 0) | {−1, 0, 1} | Discontinuous at 0 | Non-decreasing |

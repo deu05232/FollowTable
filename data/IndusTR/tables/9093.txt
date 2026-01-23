@@ -1,0 +1,15 @@
+<table>
+  <caption>Create Camera Config Filter and Also Fetch Intrinsics (Mixed Responsibilities)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Active AR session handle</td></tr>
+    <tr><td>out_filter</td><td>ArCameraConfigFilter **</td><td>Returns a newly created camera config filter handle</td></tr>
+    <tr><td>target_fps</td><td>int32_t</td><td>Desired camera capture frame rate for filtering</td></tr>
+    <tr><td>depth_enabled</td><td>ArBool</td><td>Whether depth stream is required for filtering</td></tr>
+    <tr><td>out_selected_config</td><td>ArCameraConfig **</td><td>Receives a config matching the filter constraints</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>Camera handle used after selecting config</td></tr>
+    <tr><td>out_intrinsics</td><td>ArCameraIntrinsics *</td><td>Receives the camera intrinsics object after config selection</td></tr>
+  </tbody>
+</table>

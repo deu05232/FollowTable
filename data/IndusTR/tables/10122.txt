@@ -1,0 +1,16 @@
+<table>
+  <caption>Random Vibration PSD Profile for Battery Pack Mounting (3-Axis Schedule)</caption>
+  <thead>
+    <tr><th rowspan="2">Frequency (Hz)</th><th colspan="3">Power Spectral Density (g²/Hz)</th><th rowspan="2">Notes</th></tr>
+    <tr><th>X Axis</th><th>Y Axis</th><th>Z Axis</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>5</td><td>0.010</td><td>0.008</td><td>0.012</td><td>Low-frequency corner</td></tr>
+    <tr><td>10</td><td>0.030</td><td>0.020</td><td>0.028</td><td>Ramp-up region</td></tr>
+    <tr><td>20</td><td>0.060</td><td>0.040</td><td>0.055</td><td>Constant PSD plateau</td></tr>
+    <tr><td>50</td><td>0.060</td><td>0.040</td><td>0.055</td><td>Plateau continues</td></tr>
+    <tr><td>100</td><td>0.040</td><td>0.030</td><td>0.035</td><td>Roll-off begins</td></tr>
+    <tr><td>200</td><td>0.020</td><td>0.015</td><td>0.018</td><td>High-frequency tail</td></tr>
+    <tr><td>500</td><td>0.008</td><td>0.006</td><td>0.007</td><td>Upper limit</td></tr>
+  </tbody>
+</table>

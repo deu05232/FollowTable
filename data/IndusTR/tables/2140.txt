@@ -1,0 +1,10 @@
+<table>
+  <caption>Augmented Reality (Education) Frame Model  Student Progress Data Interface</caption>
+  <tr><th>Field Name</th><th>Type</th><th>Description</th><th>Nullable</th><th>Example</th></tr>
+  <tr><td>session_id</td><td>UUID</td><td>Learning session identifier</td><td>No</td><td>c1b2...9f</td></tr>
+  <tr><td>frame_id</td><td>INT</td><td>Lesson frame index</td><td>No</td><td>12</td></tr>
+  <tr><td>outcome</td><td>STRING</td><td>Assessment outcome</td><td>Yes</td><td>"pass"</td></tr>
+  <tr><td>metadata</td><td>JSON</td><td>Question metadata payload</td><td>Yes</td><td>{"topic":"AR"}</td></tr>
+  <tr><td>anchor_points</td><td>INT</td><td>Points gained in module</td><td>No</td><td>5</td></tr>
+  <tr><td>light_estimate</td><td>FLOAT</td><td>Estimated attention score</td><td>Yes</td><td>0.73</td></tr>
+</table>

@@ -1,0 +1,25 @@
+<table>
+  <caption>SM9 Key Agreement (Responder) — Generate Agreement Data and Derive Session Key Handle</caption>
+  <thead>
+    <tr><th>Item</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Function</td><td>SAF_SM9GenerateAgreementDataAndKey</td></tr>
+    <tr><td>Prototype</td><td>int SAF_SM9GenerateAgreementDataAndKey(
+    void          *hSymmKeyObj,
+    unsigned int   uiEncMasterPubKeyIndex,
+    unsigned int   uiKeyBits,
+    unsigned char *pucResponderID,
+    unsigned int   uiResponderIDLen,
+    unsigned char *pucSponsorTmpPublicKey,
+    unsigned int   uiSponsorTmpPublicKeyLen,
+    unsigned char *pucResponderTmpPublicKey,
+    unsigned int  *puiResponderTmpPublicKeyLen,
+    void         **phKeyHandle);</td></tr>
+    <tr><td>Description</td><td>On the responder side, consumes the sponsor ephemeral public key, generates responder ephemeral public key, and derives the negotiated session key (returned as a key handle).</td></tr>
+    <tr><td>Inputs</td><td>hSymmKeyObj(in): Symmetric algorithm object used to create/hold the derived session key.uiEncMasterPubKeyIndex(in): Index of SM9 encryption master public key used by the key agreement.uiKeyBits(in): Session key bit length requested.pucResponderID(in): Responder identity bytes.uiResponderIDLen(in): Length of responder identity.pucSponsorTmpPublicKey(in): Sponsor ephemeral public key received over the wire.uiSponsorTmpPublicKeyLen(in): Length of sponsor ephemeral public key.</td></tr>
+    <tr><td>Outputs</td><td>pucResponderTmpPublicKey(out): Responder ephemeral public key to be sent back to sponsor.puiResponderTmpPublicKeyLen(in/out): Buffer size on input; actual responder ephemeral public key length on output.phKeyHandle(out): Handle/reference to derived session key stored in the device/cryptographic module.</td></tr>
+    <tr><td>Return Value</td><td>0: successNon-zero: failure (invalid peer key, unsupported uiKeyBits, buffer too small, key index missing)</td></tr>
+    <tr><td>Interoperability</td><td>Responder sendspucResponderTmpPublicKeyto sponsor for the sponsor-side key derivation step.The derived key is returned asphKeyHandle, enabling subsequent symmetric operations without exporting raw key material.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Meltblown Equipment Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Hopper set percentage</td><td>HopperSetPercentage</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0201</td><td>Hopper suction material setting time</td><td>HopperSuctionSettingTime</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~500.00</td><td>S</td><td>一</td><td></td></tr>
+  <tr><td>0X0202</td><td>Screw zone set temperature</td><td>SetTemperatureOfScrewZone</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>一</td><td></td></tr>
+  <tr><td>0X0203</td><td>Melt pipeline set temperature</td><td>MeltSipeSetTemperatures</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>丨</td><td>丨</td></tr>
+  <tr><td>0X0204</td><td>Spinning box set temperature</td><td>SpinningBoxSetTemperature</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0205</td><td>Spin pack heating zone set temperature</td><td>SetTemperatureOfHeatingZoneOfSpinPack</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>一</td><td></td></tr>
+  <tr><td>0X0206</td><td>Heating tank set temperature</td><td>SetTemperatureOfHeatingTank</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>丨</td><td>一</td></tr>
+  <tr><td>0X0207</td><td>Set pressure after filtration</td><td>SetPressureAfterFiltration</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td>1</td><td></td></tr>
+  <tr><td>0X0208</td><td>Metering pump set speed</td><td>SettingSpeedOfMeteringPump</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>r/min</td><td>一</td><td></td></tr>
+  <tr><td>0X0209</td><td>Drafting fan speed setting</td><td>SpeedSettingOfDraftingFan</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>丨</td><td>一</td></tr>
+  <tr><td>0X020A</td><td>Suction fan set speed</td><td>SetTheSpeedOfSuctionFan</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>丨</td><td>一</td></tr>
+  <tr><td>0X020B</td><td>Meltblown cold air set speed</td><td>Melt-blownColdAirSettingSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>1</td><td>一</td></tr>
+  <tr><td>0X020C</td><td>Meltblown cold air set temperature</td><td>SetTemperatureOfMeltblownColdAir</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>℃</td><td>一</td><td></td></tr>
+  <tr><td>0X020D</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>、</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+</table>

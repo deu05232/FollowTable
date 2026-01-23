@@ -1,0 +1,16 @@
+<table>
+  <caption>Return values for the method to obtain granary bay grain storage information data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short name</td><td>Data type</td><td>Data format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Affiliated bay ID</td><td>ajbh</td><td>Character</td><td>a.3</td><td></td></tr>
+  <tr><td>2</td><td>Grain storage nature</td><td>clxz</td><td>Character</td><td>a.3</td><td></td></tr>
+  <tr><td>3</td><td>Production year</td><td>scnf</td><td>Character</td><td>a.4</td><td></td></tr>
+  <tr><td>4</td><td>Place-of-origin code</td><td>cddm</td><td>Character</td><td>a.6</td><td></td></tr>
+  <tr><td>5</td><td>Variety code</td><td>pzdm</td><td>Character</td><td>a.7</td><td></td></tr>
+  <tr><td>6</td><td>Grade code</td><td>djdm</td><td>Character</td><td>a.2</td><td></td></tr>
+  <tr><td>7</td><td>Quantity</td><td>Sl</td><td>Numeric</td><td>n..8</td><td>1</td></tr>
+  <tr><td>8</td><td>Impurities</td><td>Zzhl</td><td>Numeric</td><td>..4</td><td>%</td></tr>
+  <tr><td>9</td><td>Inbound moisture</td><td>Rcsf</td><td>Numeric</td><td>n..4</td><td>%</td></tr>
+  <tr><td>10</td><td>Storage method</td><td>Ccfs</td><td>Character</td><td>a.30</td><td>II</td></tr>
+  <tr><td>11</td><td>Grain loading line height</td><td>zlxgd</td><td>Numeric</td><td>..4</td><td></td></tr>
+  <tr><td>12</td><td>Inbound date</td><td>rcrq</td><td>Date</td><td>YYYYMMDD</td><td></td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Reference Gas Coverage Checklist for Flammable/Explosive Gas Detectors (Alarm and Performance Values)</caption>
+  <thead>
+    <tr><th>No.</th><th>Flammable / Explosive Gas</th><th>Chemical Formula (typ.)</th><th>Specified Mass Concentration</th><th>Concentration Unit Basis</th><th>Alarm Setpoint Requirement</th><th>Performance Requirement Tied to Gas</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Methane</td><td>CH4</td><td>5</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>T90 response time ≤ 30 s at specified concentration</td></tr>
+    <tr><td>2</td><td>Propane</td><td>C3H8</td><td>15</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>Indication error ≤ ±10% of specified concentration</td></tr>
+    <tr><td>3</td><td>Isobutane (i-Butane-air mixture)</td><td>i-C4H10</td><td>20</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>Overload recovery operating time ≤ 10 s after high-concentration exposure</td></tr>
+    <tr><td>4</td><td>Hydrogen</td><td>H2</td><td>2</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>T90 response time ≤ 20 s at specified concentration</td></tr>
+    <tr><td>5</td><td>Carbon monoxide (flammable in air)</td><td>CO</td><td>1.2</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>Cross-sensitivity to methane: ≤ 10% of reading at methane test gas concentration</td></tr>
+    <tr><td>6</td><td>Gasoline vapor (C5–C12, calculated as octane)</td><td>—</td><td>30</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>Stability drift ≤ ±5% after 8 h continuous exposure at specified concentration</td></tr>
+    <tr><td>7</td><td>Ethanol (ethanol-air mixture)</td><td>C2H5OH</td><td>10</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>Overload recovery operating time ≤ 10 s</td></tr>
+    <tr><td>8</td><td>Acetylene</td><td>C2H2</td><td>8</td><td>1×10-3g/m³</td><td>Alarm at (1.0 ± 0.1) × specified concentration</td><td>Repeatability: ≤ 5% variation across 3 consecutive exposures</td></tr>
+  </tbody>
+</table>

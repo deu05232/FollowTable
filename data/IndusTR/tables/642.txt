@@ -1,0 +1,8 @@
+<table>
+  <caption>Format Definition of Long Message Information Frame</caption>
+  <tr><td>Protocol Data Unit</td><td>P</td><td>EDP</td><td>DP</td><td>PF</td><td>PS</td><td>SA</td><td colspan="8">Data Field</td></tr>
+  <tr><td>Placeholder bit</td><td>3</td><td>1</td><td>1</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td></tr>
+  <tr><td rowspan="2">Definition</td><td rowspan="2">0x06</td><td rowspan="2">0</td><td rowspan="2">0</td><td rowspan="2"></td><td rowspan="2"></td><td rowspan="2"></td><td>Frame Sequence Number: 0</td><td>Total Number of Frames</td><td colspan="2">Total Number of Bytes</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+  <tr><td>Frame Sequence Number: >0</td><td colspan="7">Application-layer parameter group; if the last frame is less than 8 bytes, pad with OxFF</td></tr>
+  <tr><td colspan="15">LM(O) denotes the long message information frame whose frame sequence number is ; LM(i) denotes the long message information frame whose frame sequence number is i(i>O). The total number of frames is the number of all frames transmitted including the application-layer parameter group, excluding LM(O). The total number of bytes is the length of the long message application-layer parameter group, excluding the frame sequence number and excluding the OxFF padding for the last frame being less than 8 bytes. Little-endian mode shall be used to transmit the total number of bytes</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>GPS Phase Bias Signal Block (Indicators Only)</caption>
+  <tr><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>GPS Signal and Its Tracking Mode</td><td>DF380</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td></tr>
+  <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td></tr>
+  <tr><td>Signal Phase Bias Validity</td><td>DF4A0</td><td>uint1</td><td>1</td></tr>
+  <tr><td>Signal Phase Bias Discontinuity Counter</td><td>DF4A1</td><td>uint4</td><td>4</td></tr>
+  <tr><td>Reserved for Future Signal Flags</td><td>DF4A2</td><td>bit(3)</td><td>3</td></tr>
+</table>

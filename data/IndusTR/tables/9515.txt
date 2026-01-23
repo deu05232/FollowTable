@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre Special Characters and 8b/10b Disparity Reference (Selected K/D Codes)</caption>
+  <thead>
+    <tr><th>Code Group</th><th>On-the-wire Symbol</th><th>Protocol Role (High-level)</th><th>Running Disparity (+/-)</th><th>Disparity Class</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>K-code</td><td>K28.5 (Comma)</td><td>Word boundary / alignment marker used to start control words</td><td>+2 or -2</td><td>Special (comma)</td></tr>
+    <tr><td>K-code</td><td>K28.7 (LLCW/CRC marker)</td><td>Control-word delimiter/marker used inside several control words</td><td>0</td><td>Neutral preferred</td></tr>
+    <tr><td>K-code</td><td>K27.7 (Fill)</td><td>Padding/Fill character used for PAD-style patterns</td><td>+2 or -2</td><td>Non-neutral</td></tr>
+    <tr><td>K-code</td><td>K29.7 (EOP)</td><td>End-of-packet indication inside data stream</td><td>+2 or -2</td><td>Termination</td></tr>
+    <tr><td>K-code</td><td>K30.7 (EEP)</td><td>Error end-of-packet indication</td><td>+2 or -2</td><td>Error termination</td></tr>
+    <tr><td>D-code</td><td>D2.5 (ACK)</td><td>Acknowledgment-related payload symbol used in ACK control word</td><td>+2 or -2</td><td>Data symbol</td></tr>
+    <tr><td>K-code</td><td>K0.0 (RxError)</td><td>Receive error indication replacement character</td><td>Not applicable</td><td>Error</td></tr>
+  </tbody>
+</table>

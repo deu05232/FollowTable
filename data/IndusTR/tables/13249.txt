@@ -1,0 +1,14 @@
+<table>
+  <caption>Configuration and Data-Record Requirements by Instrument Category (Smart Devices Context)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Instrument Type</th><th>Stored/Configured Items (Non-intelligent)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Measuring Instruments</td><td>Pressure Transmitters</td><td>Store tag ID, serial number, firmware version, last calibration date, LRV/URV, damping value, unit selection, HART address, alarm thresholds, and write-protection status</td></tr>
+    <tr><td>Temperature Transmitters</td><td>Store sensor type (RTD/TC), wiring mode, cold-junction settings, trim offsets, display formatting, min/max measured values log, and configuration checksum</td></tr>
+    <tr><td rowspan="2">Analytical Instruments</td><td>pH Analyzers</td><td>Store electrode slope/offset, buffer set IDs, calibration interval, operator ID, sample ID, timestamped calibration records, and reagent lot number</td></tr>
+    <tr><td>Gas Chromatographs</td><td>Store method files, column IDs, carrier gas settings, detector gain, run IDs, audit trail entries, and software/firmware revision history</td></tr>
+    <tr><td rowspan="2">Actuators</td><td>Electric Actuators</td><td>Store stroke limits, torque limits, local/remote mode, travel calibration coefficients, position feedback scaling, event counters, and parameter backup image</td></tr>
+    <tr><td>Electro-hydraulic Actuators</td><td>Store hydraulic pressure setpoints, valve curve tables, PID loop parameters, fail-safe configuration, and maintenance log identifiers</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Load combination cases and factors for in-place analysis of modular drilling rigs</caption>
+  <tr><td rowspan="2">Design load SAC</td><td colspan="4">Operating condition combination</td></tr>
+  <tr><td>Operating condition rated hook load</td><td>Operating condition rated rotary table load</td><td>Extreme storm condition</td><td>Seismic condition</td></tr>
+  <tr><td>Allowable stress increase factor</td><td>1.00</td><td>1.00</td><td>1.33</td><td>1.33</td></tr>
+  <tr><td>Structural self-weight</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+  <tr><td>Equipment dry weight</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+  <tr><td>Equipment variable load</td><td>100%</td><td>100%</td><td>75%</td><td>75%</td></tr>
+  <tr><td>Drilling fluid load</td><td>100%</td><td>100%</td><td>100%</td><td>100%</td></tr>
+  <tr><td>Live load</td><td>100%</td><td>100%</td><td>75%</td><td>75%</td></tr>
+  <tr><td>Operating condition wind load</td><td>100%</td><td>100%</td><td>0</td><td>0</td></tr>
+  <tr><td>Extreme condition wind load</td><td>0</td><td>0</td><td>100%</td><td>0</td></tr>
+  <tr><td>Seismic load</td><td>0</td><td>0</td><td>0</td><td>100%</td></tr>
+  <tr><td>Hook load</td><td>100%</td><td>0</td><td>0</td><td rowspan="3">100%a</td></tr>
+  <tr><td>Rotary table load</td><td>0</td><td>100%</td><td>100%</td></tr>
+  <tr><td>Stand load</td><td>100%</td><td>100%</td><td>100%</td></tr>
+  <tr><td colspan="5">"Here, the maximum combined capacity of the stand load and the hook load, and the maximum combined capacity of the stand load and the rotary table load are calculated separately, and the larger of the two is taken.</td></tr>
+</table>

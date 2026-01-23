@@ -1,0 +1,14 @@
+<table>
+  <caption>Enhanced IR Curved-Band and Eye Temperature Cross-Table (Wrap Angle Included)</caption>
+  <thead>
+    <tr><th>Wrap angle (rad)</th><th>DT from wrap</th><th>Eye-region Tb class</th><th>Surrounding ring Tb class</th><th>Eye correction to DT</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.20–0.39</td><td>1.5</td><td>W</td><td>OW</td><td>-0.5</td><td>Eye colder than ring suggests adjustment downward</td></tr>
+    <tr><td>0.40–0.54</td><td>2.5</td><td>B</td><td>DG</td><td>0.0</td><td>No eye-based correction</td></tr>
+    <tr><td>0.55–0.69</td><td>3.0</td><td>LG</td><td>MG</td><td>+0.5</td><td>Warm eye relative to ring increases DT</td></tr>
+    <tr><td>0.70–0.84</td><td>3.5</td><td>MG</td><td>LG</td><td>+0.5</td><td>Use only if a distinct eye is present</td></tr>
+    <tr><td>0.85–0.99</td><td>4.0</td><td>DG</td><td>OW</td><td>0.0</td><td>Transition zone; validate with eye pattern rules</td></tr>
+    <tr><td>≥1.00</td><td>Eye analysis</td><td>OW</td><td>OW</td><td>Use eye table</td><td>Wrap no longer primary discriminator</td></tr>
+  </tbody>
+</table>

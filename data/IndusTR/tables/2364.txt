@@ -1,0 +1,14 @@
+<table>
+  <caption>Change Log for Self-service Interface Management Module (Release Notes)</caption>
+  <thead>
+    <tr><th>Release</th><th>Date</th><th>Module</th><th>Change Type</th><th>Description</th><th>Ticket</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>v3.8.0</td><td>2025-10-03</td><td>Terminal Management</td><td>Fix</td><td>Resolved duplicate terminal registration edge case</td><td>INT-4421</td></tr>
+    <tr><td>v3.8.0</td><td>2025-10-03</td><td>Subscription Mgmt</td><td>Enhancement</td><td>Added bulk export for subscriptions</td><td>INT-4377</td></tr>
+    <tr><td>v3.8.1</td><td>2025-11-18</td><td>Portal UI</td><td>Fix</td><td>Fixed role-based menu rendering for SI/SP admin</td><td>UI-1982</td></tr>
+    <tr><td>v3.8.2</td><td>2025-12-09</td><td>Auth</td><td>Security</td><td>Rotated signing keys and updated OIDC metadata</td><td>SEC-774</td></tr>
+    <tr><td>v3.9.0</td><td>2026-01-05</td><td>Audit</td><td>Enhancement</td><td>Extended retention configuration to 180 days</td><td>AUD-553</td></tr>
+    <tr><td>v3.9.0</td><td>2026-01-05</td><td>API Gateway</td><td>Enhancement</td><td>Introduced per-tenant throttling policies</td><td>GW-1106</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+# China Filtering Indicators for Popular Blocked Domains (DNS and IP Evidence)
+
+| Domain | Service | DNS Response Behavior | Example Bogus IP | IP Range Flagged | Measurement Source |
+|---|---|---|---|---|---|
+| google.com | Google | Poisoned NXDOMAIN / wrong A record | 203.161.230.171 | Multiple | Probe network logs |
+| youtube.com | YouTube | Wrong A record | 74.125.127.102 | Google AS | Traceroute samples |
+| facebook.com | Facebook | Timeout / no answer | N/A | 31.13.0.0/16 | Resolver tests |
+| wikipedia.org | Wikipedia | Reset after SNI | N/A | 198.35.26.0/24 | TLS handshake tests |
+| x.com | X (Twitter) | Wrong A record | 59.24.3.173 | Various | DNS poisoning dataset |
+| instagram.com | Instagram | Timeout | N/A | 157.240.0.0/16 | Active probing |
+| dropbox.com | Dropbox | Wrong A record | 93.46.8.89 | 108.160.0.0/11 | DNS capture |
+| telegram.org | Telegram | IP block / reset | N/A | 149.154.0.0/16 | Connection resets |

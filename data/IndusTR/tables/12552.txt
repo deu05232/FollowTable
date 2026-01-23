@@ -1,0 +1,6 @@
+<table>
+  <caption>Procedure-oriented functional testing sheet for Logistics M2M terminal management</caption>
+  <tr><th>ID</th><th>Capability</th><th>Operator Actions</th><th>System Actions Observed</th><th>Pass/Fail Criteria</th></tr>
+  <tr><td>6.1.1.1</td><td>Terminal registration</td><td>Open registration screen; input identifiers; submit</td><td>Platform creates record; pushes config to device</td><td>Record exists; device receives config within SLA</td></tr>
+  <tr><td>6.1.1.8</td><td>Terminal remote control</td><td>Send remote command; confirm dispatch; poll status</td><td>Terminal acknowledges; command result returned</td><td>Status becomes completed and result matches</td></tr>
+</table>

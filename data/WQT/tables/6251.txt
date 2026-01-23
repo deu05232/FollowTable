@@ -1,0 +1,7 @@
+# Private network
+> Private IPv6 addresses
+
+| Prefix/L | Global ID (random) | Subnet ID | Interface ID | Address | Subnet |
+| --- | --- | --- | --- | --- | --- |
+| fd | xx:xxxx:xxxx | yyyy | zzzz:zzzz:zzzz:zzzz | fdxx:xxxx:xxxx:yyyy:zzzz:zzzz:zzzz:zzzz | fdxx:xxxx:xxxx:yyyy::/64 |
+| fd | 12:3456:789a | 0001 | 0000:0000:0000:0001 | fd12:3456:789a:1::1 | fd12:3456:789a:1::/64 |

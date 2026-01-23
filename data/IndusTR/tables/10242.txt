@@ -1,0 +1,10 @@
+<table>
+  <caption>ArTrackableList_filterByType parameters</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>in_trackable_list</td><td>ArTrackableList *</td><td>Input list of trackables to filter</td></tr>
+  <tr><td>filter_type</td><td>ArTrackableType</td><td>Only trackables of this type are kept</td></tr>
+  <tr><td>out_trackable_list</td><td>ArTrackableList *</td><td>Receives the filtered list</td></tr>
+  <tr><td>out_size</td><td>int32_t *</td><td>Receives the size of the filtered list</td></tr>
+  <tr><td>out_status</td><td>ArStatus *</td><td>Operation status code</td></tr>
+</table>

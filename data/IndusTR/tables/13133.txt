@@ -1,0 +1,15 @@
+<table>
+  <caption>Defect Area and Depth Acceptance Criteria by Inspection Zone Thickness (Ductile Iron Castings)</caption>
+  <thead>
+    <tr><th rowspan="2">Inspection zone thickness t (mm)</th><th colspan="2">Maximum allowable defect indication</th><th rowspan="2">Maximum count per 100 cm²</th><th rowspan="2">Disposition</th></tr>
+    <tr><th>Max area (mm²)</th><th>Max depth h</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>t < 20</td><td>800</td><td>< 5%t</td><td>3</td><td>Accept</td></tr>
+    <tr><td>20 ≤ t < 30</td><td>1200</td><td>< 5%t</td><td>3</td><td>Accept</td></tr>
+    <tr><td>30 ≤ t < 50</td><td>2000</td><td>< 5%t</td><td>2</td><td>Accept</td></tr>
+    <tr><td>50 ≤ t < 80</td><td>3200</td><td>< 5%t</td><td>2</td><td>Accept</td></tr>
+    <tr><td>80 ≤ t < 120</td><td>4500</td><td>< 4%t</td><td>1</td><td>Repair allowed</td></tr>
+    <tr><td>t ≥ 120</td><td>6000</td><td>< 4%t</td><td>1</td><td>Engineering review</td></tr>
+  </tbody>
+</table>

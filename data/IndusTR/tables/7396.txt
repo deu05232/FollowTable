@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Control Word Field Bit Layout (Conceptual)</caption>
+  <thead>
+    <tr><th>Control Word Type</th><th>Bits 0–7</th><th>Bits 8–15</th><th>Bits 16–23</th><th>Bits 24–31</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>LLCW (Link-Level Control Word)</td><td>COMMA</td><td>SBF</td><td>bc</td><td>B_TYPE</td><td>Header-like layout only</td></tr>
+    <tr><td>Data Word (Lane 0)</td><td>DATA1_LS</td><td>DATA1</td><td>DATA1</td><td>DATA1_MS</td><td>Illustrative grouping</td></tr>
+    <tr><td>Data Word (Lane 1)</td><td>DATA2_LS</td><td>DATA2</td><td>DATA2</td><td>DATA2_MS</td><td>Illustrative grouping</td></tr>
+    <tr><td>CRC-protected Control</td><td>COMMA</td><td>TYPE</td><td>SEQ_NUM</td><td>CRC</td><td>Shows fields, not symbols</td></tr>
+    <tr><td>Error Indication</td><td>ERROR</td><td>RESERVED</td><td>RESERVED</td><td>RESERVED</td><td>Does not define K/D symbols</td></tr>
+    <tr><td>Alignment-related</td><td>COMMA</td><td>ALIGN_ID</td><td>LANES</td><td>iLANES</td><td>Conceptual field naming</td></tr>
+  </tbody>
+</table>

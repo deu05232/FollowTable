@@ -1,0 +1,15 @@
+<table>
+  <caption>Self-service Portal Function Test Cases — Multi-role Comparison (Terminal + Other Areas)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Role</th><th>Test Item</th><th>Test Sub-item</th><th>Objective</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SSP-MULTI-001</td><td>Terminal Vendor</td><td>Terminal Vendor Self-service Interface Functions</td><td>Terminal Management</td><td>Verify vendor can register terminal batches via portal</td></tr>
+    <tr><td>SSP-MULTI-002</td><td>Terminal Vendor</td><td>Terminal Vendor Self-service Interface Functions</td><td>Terminal Management</td><td>Verify vendor can update terminal certification info</td></tr>
+    <tr><td>SSP-MULTI-003</td><td>Industry Customer Administrator</td><td>Customer Self-service Interface Functions</td><td>Terminal Management</td><td>Verify customer can view terminal status and last-seen time</td></tr>
+    <tr><td>SSP-MULTI-004</td><td>Industry Customer Administrator</td><td>Customer Self-service Interface Functions</td><td>Subscription Relationship Management</td><td>Verify customer can request subscription relationship changes</td></tr>
+    <tr><td>SSP-MULTI-005</td><td>Industry SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify SI/SP can transfer terminal ownership between tenants</td></tr>
+    <tr><td>SSP-MULTI-006</td><td>Industry SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Application System Management</td><td>Verify SI/SP can approve application system access</td></tr>
+    <tr><td>SSP-MULTI-007</td><td>Industry SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify SI/SP can bulk deactivate terminals</td></tr>
+  </tbody>
+</table>

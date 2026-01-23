@@ -1,0 +1,10 @@
+<table>
+  <caption>ARPlaneFindingState values for plane detection lifecycle</caption>
+  <tr><th>ARPlaneFindingState Value</th><th>Description</th></tr>
+  <tr><td>AR_PLANE_FINDING_STATE_STOPPED = 0</td><td>Plane finding is not running</td></tr>
+  <tr><td>AR_PLANE_FINDING_STATE_SCANNING = 1</td><td>Searching for candidate planes</td></tr>
+  <tr><td>AR_PLANE_FINDING_STATE_TRACKING = 2</td><td>Tracking detected planes</td></tr>
+  <tr><td>AR_PLANE_FINDING_STATE_LIMITED = 3</td><td>Plane finding is limited due to environment or motion</td></tr>
+  <tr><td>AR_PLANE_FINDING_STATE_PAUSED = 4</td><td>Temporarily paused by the system</td></tr>
+  <tr><td>AR_PLANE_FINDING_STATE_FAILED = 5</td><td>Plane finding encountered an unrecoverable error</td></tr>
+</table>

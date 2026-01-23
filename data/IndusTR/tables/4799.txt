@@ -1,0 +1,21 @@
+<table>
+  <caption>Operations Management Personnel Data Elements</caption>
+  <tr><td>Internal Identifier</td><td>Chinese Name</td><td>Definition</td><td>Data Type</td><td>Data Format</td><td>Value Range</td><td>Unit of Measure</td><td>Remarks</td></tr>
+  <tr><td>07010001</td><td>Operations Personnel ID</td><td>Operations Personnel ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>07010002</td><td>Name</td><td>Name</td><td>Character</td><td>an..20</td><td></td><td></td><td></td></tr>
+  <tr><td>07010003</td><td>Gender</td><td>Gender</td><td>Character</td><td>nl</td><td>0-  -Unknown gender; 1-  -Male; 2-—Female; 9-   Unspecified gender</td><td></td><td></td></tr>
+  <tr><td>07010004</td><td>Date of Birth</td><td>Date of Birth</td><td>Date</td><td>YYYYMMDD</td><td></td><td></td><td></td></tr>
+  <tr><td>07010005</td><td>ID Document Type</td><td>ID Document Type</td><td>Character</td><td>nl</td><td>1-   Resident ID card; 2-   Temporary ID card; 3-  Passport; 9——Other</td><td></td><td></td></tr>
+  <tr><td>07010006</td><td>ID Document Number</td><td>ID Document Number</td><td>Character</td><td>an..30</td><td></td><td></td><td></td></tr>
+  <tr><td>07010007</td><td>Education</td><td>Education</td><td>Character</td><td>an..20</td><td></td><td></td><td></td></tr>
+  <tr><td>07010008</td><td>Contact Phone</td><td>Contact Phone</td><td>Character</td><td>an..20</td><td></td><td></td><td></td></tr>
+  <tr><td>07010009</td><td>Employer Code</td><td>Employer Code</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>07010010</td><td>Employer Name</td><td>Employer Name</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>07010011</td><td>Department</td><td>Department</td><td>Character</td><td>an..20</td><td></td><td></td><td></td></tr>
+  <tr><td>07010012</td><td>Position</td><td>Position</td><td>Character</td><td>an..20</td><td></td><td></td><td></td></tr>
+  <tr><td>07010013</td><td>Employment Start Time</td><td>Hire Date</td><td>Date</td><td>YYYYMMDD</td><td></td><td></td><td></td></tr>
+  <tr><td>07010014</td><td>Termination Time</td><td>Termination Time</td><td>Date</td><td>YYYYMMDD</td><td></td><td></td><td></td></tr>
+  <tr><td>07010015</td><td>Personnel Status</td><td>Personnel Status</td><td>Character</td><td>nl</td><td>1-——Normal; 2-  Resigned; 3-  Off post; 9-Other</td><td></td><td></td></tr>
+  <tr><td>07010016</td><td>Data Update Time</td><td>Data Update Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td><td></td></tr>
+  <tr><td>07010017</td><td>Description</td><td>Description</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+</table>

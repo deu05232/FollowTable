@@ -1,0 +1,7 @@
+<table>
+  <caption>Mobile Device Augmented Reality System Plane Intersection Query Mode Enumeration</caption>
+  <tr><td>ARQueryMode Values</td><td>Description</td></tr>
+  <tr><td>ARQUERY_MODE_POLYGON_ONLY=0</td><td>Can only query intersections with polygon planes</td></tr>
+  <tr><td>ARQUERY_MODE_POLYGON_AND_HORIZONPLANE=1</td><td>Can query intersections with polygon planes and the entire infinite plane containing the horizontal polygon plane</td></tr>
+  <tr><td>ARQUERY_MODE_POLYGON_PERSISTENCE=2</td><td>Can query intersections with polygon planes and the infinite plane containing the polygon plane; polygon plane takes priority</td></tr>
+</table>

@@ -1,0 +1,42 @@
+<table>
+  <caption>Video Segment Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Video Segment Identifier</td><td>sppdbz</td><td>c41</td><td>Should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>2</td><td>Video Segment Collection Method Code</td><td>sppdcjfsdm</td><td>cl</td><td>Should comply with D.16</td><td></td></tr>
+  <tr><td>3</td><td>Video Segment Collection Location Type Code</td><td>sppdcjwzlxdm</td><td>c3..7</td><td>Should comply with D.9</td><td></td></tr>
+  <tr><td>4</td><td>Original Video Segment Identifier</td><td>yssppdbz</td><td>c41</td><td>Should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>5</td><td>Original Video URL</td><td>ysspurl</td><td>c.256</td><td>URL of the original video for the video segment</td><td></td></tr>
+  <tr><td>6</td><td>Video Segment_Storage Location</td><td>sppd_ccwz</td><td>c..256</td><td>Storage path of the video segment, using URI naming rules</td><td></td></tr>
+  <tr><td>7</td><td>Thumbnail_Storage Location</td><td>slt_ccwz</td><td>c..256</td><td>Storage path of the video segment thumbnail file, using URI naming rules</td><td></td></tr>
+  <tr><td>8</td><td>Video File Format Code</td><td>spwjgsdm</td><td>c2</td><td>Should comply with D.17</td><td></td></tr>
+  <tr><td>9</td><td>Video Encoding Format Code</td><td>spbmgsdm</td><td>c2</td><td>Should comply with D.7</td><td></td></tr>
+  <tr><td>10</td><td>Audio_Judgment Identifier</td><td>yp_pdbz</td><td>c1</td><td>Should comply with D.11</td><td></td></tr>
+  <tr><td>11</td><td>Audio Encoding Format Code</td><td>ypbmgsdm</td><td>c2</td><td>Should comply with D.18</td><td></td></tr>
+  <tr><td>12</td><td>Video Segment_Electronic File Name</td><td>sppd_dzwjmc</td><td>c..100</td><td>Chinese description of the video material name</td><td></td></tr>
+  <tr><td>13</td><td>Video Segment Duration</td><td>sppdsc</td><td>n..11</td><td>Unit: milliseconds (ms)</td><td></td></tr>
+  <tr><td>14</td><td>Video Segment_Start_Date/Time</td><td>sppd_ks_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>15</td><td>Video Segment_End_Date/Time</td><td>sppd_js_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>16</td><td>Width_Pixel Value</td><td>kd_xsz</td><td>n.8</td><td>Unit: pixel</td><td></td></tr>
+  <tr><td>17</td><td>Height_Pixel Value</td><td>gd_xsz</td><td>n.8</td><td>Unit: pixel</td><td></td></tr>
+  <tr><td>18</td><td>Video/Image Quality Level Code</td><td>sptxzldjdm</td><td>cl</td><td>Should comply with D.19</td><td></td></tr>
+  <tr><td>19</td><td>Video Processing_Judgment Identifier</td><td>spel_pdbz</td><td>cl</td><td>Should comply with D.11</td><td></td></tr>
+  <tr><td>20</td><td>Video Segment_Electronic File Size</td><td>sppd_dzwjdx</td><td>n..12</td><td>Unit: bytes (byte)</td><td></td></tr>
+  <tr><td>21</td><td>Video Segment_Acquisition Horizontal Direction Code</td><td>sppd_cspfxdm</td><td>cl</td><td>Should comply with D.12</td><td></td></tr>
+  <tr><td>22</td><td>Video Segment_Acquisition Vertical Direction Code</td><td>sppd_cjczfxdm</td><td>cl</td><td>Should comply with D.13</td><td></td></tr>
+  <tr><td>23</td><td>Video Segment_Electronic File Content</td><td>sppd_dzwjnr</td><td>bn</td><td></td><td></td></tr>
+  <tr><td>24</td><td>Collection_Date/Time</td><td>cj01_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>25</td><td>Video/Image Analysis Type Code</td><td>sptxfxlxdm</td><td>c2</td><td>Should comply with D.20</td><td></td></tr>
+  <tr><td>26</td><td>Video/Image Processing Type Code</td><td>sptxcllxdm</td><td>c2</td><td>Should comply with D.21</td><td></td></tr>
+  <tr><td>27</td><td>Video/Image Event Type Code</td><td>sptxsjlxdm</td><td>c3</td><td>Should comply with D.22</td><td></td></tr>
+  <tr><td>28</td><td>Video/Image Retrieval Type Code</td><td>sptxjslxdm</td><td>c2</td><td>Should comply with D.23</td><td></td></tr>
+  <tr><td>29</td><td>Title</td><td>bt      SAC</td><td>c..160</td><td>Chinese description of the video material name</td><td></td></tr>
+  <tr><td>30</td><td>Keywords</td><td>gjc</td><td>c..200</td><td>Words or phrases that can describe the main content of the video material and have retrieval significance</td><td></td></tr>
+  <tr><td>31</td><td>Shooting Location Administrative Division Code</td><td>psddxzqhdm</td><td>c6</td><td>Should use the full numeric code in GB/T 2260</td><td></td></tr>
+  <tr><td>32</td><td>Shooting Location Basic-level Organization Code</td><td>psddjczzdm</td><td>c6</td><td>Should comply with the coding rules specified in C.1</td><td></td></tr>
+  <tr><td>33</td><td>Shooting Location Name</td><td>psddmc</td><td>c..400</td><td>Name of the camera location at the start of shooting; should use the location positioning description in Chapter 6 (geocoding rules) of GB/T 30428.3—2016</td><td></td></tr>
+  <tr><td>34</td><td>Shooting Location_Earth Longitude</td><td>psdd_dqjd</td><td>n10,6</td><td>Camera location at the start of shooting; coordinate system: WGS-84</td><td></td></tr>
+  <tr><td>35</td><td>Shooting Location_Earth Latitude</td><td>psdd_dqwd</td><td>n10,6</td><td>Camera location at the start of shooting; coordinate system: WGS-84</td><td></td></tr>
+  <tr><td>36</td><td>Video Segment Hash Value</td><td>sppdhxz</td><td>c128/c256</td><td>MD5 algorithm (c128) or SM3 algorithm (c256)</td><td></td></tr>
+  <tr><td>37</td><td>Video Encryption_Judgment Identifier</td><td>spjm_pdbz</td><td>cl</td><td>Should comply with D.11</td><td>One</td></tr>
+  <tr><td>38</td><td>Video Signature_Judgment Identifier</td><td>spqm_pdbz</td><td>c1</td><td>Should comply with D.11</td><td>1</td></tr>
+</table>

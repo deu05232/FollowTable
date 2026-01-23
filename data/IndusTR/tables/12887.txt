@@ -1,0 +1,16 @@
+<table>
+  <caption>Subscription and Notification Action Codes for Video/Image Event Feed</caption>
+  <thead>
+    <tr><th>Code</th><th>Action Group</th><th>Action Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Subscription</td><td>Subscribe</td><td>Create a new subscription to a camera or event stream</td></tr>
+    <tr><td>2</td><td>Subscription</td><td>Unsubscribe</td><td>Remove an existing subscription</td></tr>
+    <tr><td>3</td><td>Subscription</td><td>Renew</td><td>Extend subscription validity period</td></tr>
+    <tr><td>4</td><td>Notification</td><td>Acknowledge</td><td>Mark a received message as acknowledged</td></tr>
+    <tr><td>5</td><td>Notification</td><td>Mute</td><td>Temporarily mute notifications for the subscription</td></tr>
+    <tr><td>6</td><td>Notification</td><td>Unmute</td><td>Resume notifications after muting</td></tr>
+    <tr><td>7</td><td>Notification</td><td>Resend</td><td>Request resend of the last N notifications</td></tr>
+    <tr><td>9</td><td>System</td><td>Other</td><td>Other non-specified actions</td></tr>
+  </tbody>
+</table>

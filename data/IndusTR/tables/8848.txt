@@ -1,0 +1,14 @@
+<table>
+  <caption>Transport Layer PDU Formats Summary (Single-Frame and Segmented Transfers)</caption>
+  <thead>
+    <tr><th>PDU Kind</th><th>When Used</th><th>Data Byte 1</th><th>Data Byte 2</th><th>Data Byte 3</th><th>Data Byte 4</th><th>Data Byte 5</th><th>Data Byte 6</th><th>Data Byte 7</th><th>Data Byte 8</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Single Frame Data</td><td>Payload length ≤ 7</td><td>App PG Byte0</td><td>App PG Byte1</td><td>App PG Byte2</td><td>App PG Byte3</td><td>App PG Byte4</td><td>App PG Byte5</td><td>App PG Byte6</td><td>Pad 0xFF</td></tr>
+    <tr><td>Segmented Transfer - First Frame</td><td>Start of multi-frame transfer</td><td>Seq=0</td><td>Total Frames</td><td>Total Bytes (MSB)</td><td>Total Bytes (LSB)</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+    <tr><td>Segmented Transfer - Consecutive Frame</td><td>Continuation</td><td>Seq>0</td><td>App PG ByteN</td><td>App PG ByteN+1</td><td>App PG ByteN+2</td><td>App PG ByteN+3</td><td>App PG ByteN+4</td><td>App PG ByteN+5</td><td>App PG ByteN+6</td></tr>
+    <tr><td>Segmented Transfer - Last Frame</td><td>Final fragment</td><td>Seq=Last</td><td colspan="7">Remaining bytes, then pad 0xFF</td></tr>
+    <tr><td>Abort / Cancel</td><td>Terminate transfer</td><td>ABORT</td><td>Reason Code</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+    <tr><td>Keepalive</td><td>Optional link maintenance</td><td>KA</td><td>Timer (ms/10)</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td><td>0xFF</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Terminal Beidou Satellite Positioning Performance Requirements</caption>
+  <tr><td>No.</td><td colspan="2">Performance parameter</td><td>Performance requirements</td></tr>
+  <tr><td>1</td><td colspan="2">Beidou system operating capability</td><td>It should be capable of normal operation when only receiving BDS open service signals</td></tr>
+  <tr><td rowspan="2">2</td><td rowspan="2">Time to first fix</td><td>Cold start time</td><td>≤45s</td></tr>
+  <tr><td>Hot start time</td><td>≤5s</td></tr>
+  <tr><td>3</td><td colspan="2">ZAC             Reacquisition time</td><td>≤5s</td></tr>
+  <tr><td rowspan="2">4</td><td rowspan="2">Sensitivity</td><td>Acquisition sensitivity</td><td>≤-137 dBm</td></tr>
+  <tr><td>Tracking sensitivity</td><td>≤-147 dBm</td></tr>
+  <tr><td>5</td><td rowspan="2">Horizontal positioning accuracy</td><td>Single point</td><td>≤2.5 m (RMSb)</td></tr>
+  <tr><td>6</td><td>RTK°</td><td>≤20cm</td></tr>
+  <tr><td>7</td><td colspan="2">Speed measurement accuracy</td><td>≤0.2 m/s (RMSb)</td></tr>
+  <tr><td colspan="4">aBDS: Beidou Satellite Navigation System (Beidou Navigation Satellite System). b RMS: root mean square. ‘RTK: real-time kinematic carrier-phase differential technology (real-time kinematic).</td></tr>
+</table>

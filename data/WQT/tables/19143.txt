@@ -1,0 +1,8 @@
+# # Exchange Server hybrid deployment  key capabilities before vs after (Office 365)
+
+| Capability | Before hybrid deployment | After hybrid deployment |
+| --- | --- | --- |
+| Mailbox location | All user mailboxes are hosted on-premises. | Some mailboxes can be hosted in Office 365 while others remain on-premises. |
+| Mail flow between environments | No native routing between on-premises and Office 365 organizations. | Mail can be routed between on-premises and Office 365 as part of a single messaging experience. |
+| Outlook Web App / Outlook on the web access | Users sign in only to the on-premises endpoint. | Users can access the appropriate endpoint depending on where their mailbox is hosted. |
+| Cross-premises delegation/sharing | Sharing is limited to on-premises users. | Sharing features can work across on-premises and Office 365 users. |

@@ -1,0 +1,11 @@
+# ISP BitTorrent Throttling Blocking Matrix (with Example Clients)
+
+| ISP | Country/Region | Limits BitTorrent Bandwidth | DPI/Traffic Shaping | Suggested Workaround | Example Client Mentioned | Notes |
+|---|---|---|---|---|---|---|
+| ExampleNet A | US | Yes | Yes | Encryption | qBittorrent | Network policy table |
+| ExampleNet B | UK | No | No | null | Transmission | ISP behavior focus |
+| ExampleNet C | CA | Yes | Yes | VPN | µTorrent | Not client-centered |
+| ExampleNet D | AU | Yes | Unknown | Port change | Deluge | Throttling discussion |
+| ExampleNet E | DE | No | No | null | Vuze | Mixes ISP + clients |
+| ExampleNet F | IN | Yes | Yes | VPN | BitComet | Primarily about throttling |
+| ExampleNet G | BR | Unknown | Unknown | Encryption | Tixati | Client names incidental |

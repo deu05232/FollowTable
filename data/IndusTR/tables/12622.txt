@@ -1,0 +1,11 @@
+<table>
+  <caption>PDU Header Layout for Version Negotiation Frames</caption>
+  <tr><th>Field</th><th>Bit Length</th><th>Example Value</th><th>Description</th></tr>
+  <tr><td>P</td><td>3</td><td>0x03</td><td>Priority field</td></tr>
+  <tr><td>EDP</td><td>1</td><td>0</td><td>Extended data page</td></tr>
+  <tr><td>DP</td><td>1</td><td>0</td><td>Data page</td></tr>
+  <tr><td>PF</td><td>8</td><td>0x38</td><td>PDU format</td></tr>
+  <tr><td>PS</td><td>8</td><td>0xF4</td><td>Destination address</td></tr>
+  <tr><td>SA</td><td>8</td><td>0x56</td><td>Source address</td></tr>
+  <tr><td>Data Field</td><td>64</td><td>—</td><td>Payload bytes; see the version negotiation parameter table for details</td></tr>
+</table>

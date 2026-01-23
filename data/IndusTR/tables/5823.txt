@@ -1,0 +1,16 @@
+<table>
+  <caption>Minimum Conductor Spacing on PCBs by Working Voltage and Altitude (Design Rules)</caption>
+  <thead>
+    <tr><th rowspan="2">Working voltage (AC RMS or DC) V</th><th colspan="3">Minimum spacing (mm)</th><th rowspan="2">Measurement path</th></tr>
+    <tr><th>Altitude ≤ 2000 m</th><th>Altitude 2000–5000 m</th><th>Altitude > 5000 m</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 30</td><td>0.10</td><td>0.14</td><td>0.20</td><td>Through air (clearance)</td></tr>
+    <tr><td>> 30 – 60</td><td>0.20</td><td>0.28</td><td>0.40</td><td>Through air (clearance)</td></tr>
+    <tr><td>> 60 – 120</td><td>0.40</td><td>0.56</td><td>0.80</td><td>Through air (clearance)</td></tr>
+    <tr><td>> 120 – 250</td><td>0.80</td><td>1.10</td><td>1.60</td><td>Through air (clearance)</td></tr>
+    <tr><td>> 250 – 300</td><td>1.00</td><td>1.40</td><td>2.00</td><td>Along surface (creepage)</td></tr>
+    <tr><td>> 300 – 600</td><td>2.00</td><td>2.80</td><td>4.00</td><td>Along surface (creepage)</td></tr>
+    <tr><td>> 600 – 1000</td><td>4.00</td><td>5.60</td><td>8.00</td><td>Along surface (creepage)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Material Acoustic Nonlinearity (Beta) with Device Model Configuration and Controller Parameters</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th rowspan="2">Nonlinearity parameter (β)</th><th colspan="4">Instrument/device model configuration (to be avoided)</th><th colspan="2">Performance/control parameters (to be avoided)</th></tr>
+    <tr><th>Synth patch</th><th>Oscillator waveform</th><th>Sample rate (kHz)</th><th>Buffer size (samples)</th><th>Vibrato depth (%)</th><th>Breath controller curve</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Seawater (3.5% salinity)</td><td>4.9</td><td>ClarinetPatch-A</td><td>Saw</td><td>48</td><td>256</td><td>8</td><td>Exp-2</td></tr>
+    <tr><td>Polycarbonate</td><td>7.1</td><td>FlutePatch-C</td><td>Triangle</td><td>96</td><td>512</td><td>12</td><td>Lin-1</td></tr>
+    <tr><td>Brass (CuZn30)</td><td>3.4</td><td>SaxPatch-B</td><td>Square</td><td>48</td><td>128</td><td>5</td><td>Exp-3</td></tr>
+    <tr><td>Glass (Soda-lime)</td><td>3.0</td><td>OboePatch-D</td><td>Sine</td><td>44.1</td><td>256</td><td>10</td><td>Lin-2</td></tr>
+    <tr><td>HDPE</td><td>8.5</td><td>BassoonPatch-E</td><td>Saw</td><td>48</td><td>1024</td><td>15</td><td>Log-1</td></tr>
+    <tr><td>Carbon steel (AISI 1045)</td><td>3.2</td><td>TrumpetPatch-F</td><td>Square</td><td>96</td><td>256</td><td>6</td><td>Exp-1</td></tr>
+  </tbody>
+</table>

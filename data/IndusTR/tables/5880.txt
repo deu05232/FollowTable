@@ -1,0 +1,15 @@
+<table>
+  <caption>Notification API - Response Codes and Result Payload</caption>
+  <thead>
+    <tr><th>Category</th><th>Field / Code</th><th>Type / Format</th><th>Required</th><th>Meaning</th><th>Constraints</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Result Payload</td><td>returnResult</td><td>String (C..64)</td><td>M</td><td>Overall success indicator</td><td>SUCCESS | FAIL</td><td>Returned only</td></tr>
+    <tr><td>Result Payload</td><td>resultDescription</td><td>String (C..2000)</td><td>O</td><td>Human-readable description</td><td>UTF-8 text</td><td>Returned only</td></tr>
+    <tr><td>Return Code</td><td>200</td><td>Integer</td><td>M</td><td>OK</td><td>N/A</td><td>Notification accepted</td></tr>
+    <tr><td>Return Code</td><td>400</td><td>Integer</td><td>M</td><td>Bad Request</td><td>N/A</td><td>Invalid request parameters</td></tr>
+    <tr><td>Return Code</td><td>401</td><td>Integer</td><td>M</td><td>Unauthorized</td><td>N/A</td><td>Authentication failed</td></tr>
+    <tr><td>Return Code</td><td>409</td><td>Integer</td><td>M</td><td>Conflict</td><td>N/A</td><td>Duplicate notification idempotency key</td></tr>
+    <tr><td>Return Code</td><td>500</td><td>Integer</td><td>M</td><td>Server Error</td><td>N/A</td><td>Unexpected failure</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,39 @@
+<table>
+  <tr><th>symbol</th><th>meaning</th><th>definition/relations</th><th>introduced in</th></tr>
+  <tr><td>, , γx</td><td>particle mass, classical radius, and Lorentz factor [ =p,,μ ]</td><td>=e^(2)/c^(2)</td><td>general</td></tr>
+  <tr><td>τx , τxRF</td><td>unstable particle lifetime [ =n,,μ ]</td><td>τx=γ_()τxRF</td><td>phothad:pcool</td></tr>
+  <tr><td>,</td><td>Lorentz factor of secondary particles at production, decay [2]</td><td>≤≈≤≈γ_(p)</td><td>phothad:pcool</td></tr>
+  <tr><td>, , , a</td><td>total photon density, density and power law index above</td><td>d=^(-a)\,d , ></td><td>phothad:pcool</td></tr>
+  <tr><td></td><td>threshold photon energy in proton RF for -production</td><td>APPENDIX:phothad:Etapi</td><td>phothad:pcool</td></tr>
+  <tr><td>,</td><td>characteristic Lorentz factor for power law approximation</td><td>=/2 , =/</td><td>phothad:pcool</td></tr>
+  <tr><td>,</td><td>pion production cooling time for γ_(p)= , effective inelasticity weighted cross section for power law photon spectrum</td><td>=[c]^(-1) , phothad:tpi, theory:tpib:lum, APPENDIX:phothad:Etapi</td><td>phothad:pcool</td></tr>
+  <tr><td>B ,</td><td>magnetic field, particle cyclotron frequency</td><td>=eB/c</td><td>phothad:pcool</td></tr>
+  <tr><td>,</td><td>particle synchrotron [ =,μ,p ] and adiabatic cooling time [1]</td><td>phothad:tsyn, =2|B/|</td><td>phothad:pcool</td></tr>
+  <tr><td>, , ,</td><td>total and specific photohadronic cooling times [1]</td><td>^(-1)=^(-1)+^(-1)+^(-1)</td><td>phothad:pcool</td></tr>
+  <tr><td></td><td>total proton cooling time scale</td><td>^(-1)=^(-1)+^(-1)+^(-1)</td><td>phothad:pcool</td></tr>
+  <tr><td>, , ,</td><td>rate of proton cooling relative to pion production</td><td>phothad:tcool/tpi</td><td>phothad:pcool</td></tr>
+  <tr><td>,</td><td>efficiency for neutrino production, from specific decay [2]</td><td>phothad:Xnu</td><td>phothad:pcool</td></tr>
+  <tr><td>, ,</td><td>total injected proton energy density, bolometric correction factor</td><td>phothad:Up</td><td>phothad:specshape</td></tr>
+  <tr><td>, s</td><td>maximum proton Lorentz factor, power law index</td><td>d_(p)γ_(p)^(-s)\,dγ_(p) , γ_(p)</td><td>phothad:specshape</td></tr>
+  <tr><td>_(ν)(E_(ν)) , , q</td><td>neutrino emission spectrum, cutoff energy, local spectral index</td><td>phothad:specnu</td><td>phothad:specshape</td></tr>
+  <tr><td>Γ , , φview ,</td><td>bulk Lorentz factor, velocity in units of c , viewing angle and Doppler factor of the emission region in observers frame</td><td>={1-Γ^(-2) , =[Γ(1-φview)]^(-1)</td><td>theory</td></tr>
+  <tr><td>, ,</td><td>observed duration of transient, luminosity at =</td><td>T= , =^(4) , theory:tics</td><td>theory</td></tr>
+  <tr><td>, ,</td><td>transient crossing, proton injection and radiative time scale</td><td>theory:Ttot</td><td>theory:times:causality</td></tr>
+  <tr><td>R , ,</td><td>linear size of transient emitter, \|= in line of sight, = projected</td><td>=c</td><td>theory</td></tr>
+  <tr><td>ρT ,</td><td>geometric correction factors</td><td>theory:Rlim, theory:lum</td><td>theory:times:causality</td></tr>
+  <tr><td>,</td><td>proton Larmor radius and time</td><td>=E_(p)/eB , =2/c</td><td>theory:Epmax</td></tr>
+  <tr><td>,</td><td>acceleration time scale, normalized to Larmor time</td><td>=</td><td>theory:Epmax</td></tr>
+  <tr><td>α , ,</td><td>magnetic field decay parameter, expansion velocity of transient</td><td>BR^(-α) , =/c</td><td>theory:Epmax:larmor</td></tr>
+  <tr><td>, ρL</td><td>Larmor limit for neutrino energy, correction factor</td><td>theory:Enumax:Larmor, ρL(13,1α)</td><td>theory:Epmax:larmor</td></tr>
+  <tr><td>,</td><td>neutrino cutoff energy limited by proton cooling [1]</td><td>theory:Enumax:psyn, theory:Enumax:pg</td><td>theory:Epmax</td></tr>
+  <tr><td></td><td>characteristic frequency for secondary particle decay [2]</td><td>=32/τsRF</td><td>theory:pimu</td></tr>
+  <tr><td>,</td><td>critical neutrino energies for secondary particle cooling [1] [2]</td><td>theory:Enumax:pimu:ad, theory:Enumax:pimu:syn</td><td>theory:pimu</td></tr>
+  <tr><td></td><td>neutrino energy in decay frame [2]</td><td>=</td><td>theory:pimu</td></tr>
+  <tr><td>,</td><td>dimensionless characteristic parameters of transient</td><td>theory:UpsT, theory:XiT</td><td>theory</td></tr>
+  <tr><td>, ,</td><td>magnetic, electron and photon energy density in emission region</td><td>=B^(2)/8 , ~</td><td>theory:modind:parspace</td></tr>
+  <tr><td>,</td><td>energy equipartition parameters</td><td>theory:eqBg, =/</td><td>theory:modind:parspace</td></tr>
+  <tr><td>, ,</td><td>“star-point” parameters [3], all specific proton cooling times =</td><td>theory:starpoint</td><td>theory:modind:parspace</td></tr>
+  <tr><td>() ,</td><td>neutrino energy limit and corresponding B for given [ =p, ] [2]</td><td>theory:Bpsyn– theory:Enumax:D:pimu</td><td>theory:modind:uplim</td></tr>
+  <tr><td></td><td>relative neutrino luminosity for =</td><td>theory:LRnumax:psyn, theory:LRnumax:ssyn</td><td>theory:modind:efficiencies</td></tr>
+  <tr><td>,</td><td>total energy budget of transient, corresponding maximum</td><td>theory:eqBgmax</td><td>theory:modind:efficiencies</td></tr>
+</table>

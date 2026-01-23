@@ -1,0 +1,9 @@
+<table>
+  <caption>vrTrackingQuality enum values</caption>
+  <tr><th>Data Type</th><th>Enum Value</th><th>Description</th></tr>
+  <tr><td rowspan="5">vrTrackingQuality</td><td>VR_TRACKING_QUALITY_UNAVAILABLE=0x00</td><td>No valid tracking result</td></tr>
+  <tr><td>VR_TRACKING_QUALITY_LOW=0x01</td><td>Low confidence pose</td></tr>
+  <tr><td>VR_TRACKING_QUALITY_MEDIUM=0x02</td><td>Usable pose with some drift</td></tr>
+  <tr><td>VR_TRACKING_QUALITY_HIGH=0x03</td><td>Stable, high confidence pose</td></tr>
+  <tr><td>0x04~0xFF</td><td>Reserved</td></tr>
+</table>

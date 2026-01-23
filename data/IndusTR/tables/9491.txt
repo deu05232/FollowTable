@@ -1,0 +1,14 @@
+<table>
+  <caption>Worked Example: Building a Full OID Identifier for a Construction-Machinery Enterprise Product</caption>
+  <thead>
+    <tr><th>Step</th><th>OID segment meaning</th><th>Example value</th><th>Where the value comes from</th><th>Resulting partial OID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Construction machinery field root</td><td>1.2.156.3514</td><td>National OID Registration Center</td><td>1.2.156.3514</td></tr>
+    <tr><td>2</td><td>Enterprise node (company code)</td><td>913203016770124928</td><td>Unified Social Credit Code (example)</td><td>1.2.156.3514.913203016770124928</td></tr>
+    <tr><td>3</td><td>Product family code</td><td>EXC</td><td>Manufacturer internal catalog (example)</td><td>1.2.156.3514.913203016770124928.EXC</td></tr>
+    <tr><td>4</td><td>Product model number</td><td>XE215C</td><td>Model naming rule (example)</td><td>1.2.156.3514.913203016770124928.EXC.XE215C</td></tr>
+    <tr><td>5</td><td>Serial number</td><td>2026-000047</td><td>Plant serial sequence (example)</td><td>1.2.156.3514.913203016770124928.EXC.XE215C.2026-000047</td></tr>
+    <tr><td>6</td><td>Optional metadata key</td><td>01.01002</td><td>Metadata dictionary (example)</td><td>1.2.156.3514.913203016770124928.EXC.XE215C.2026-000047.01.01002</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+# BitTorrent Ecosystem Reference (Clients, Trackers, Indexers, and VPN Tools)
+
+| Category | Name | Primary Use | Typical Platform | Notes |
+| --- | --- | --- | --- | --- |
+| Client | qBittorrent | Download/seeding | Windows/macOS/Linux | Popular open-source client |
+| Client | Transmission | Download/seeding | macOS/Linux | Often bundled with Linux distros |
+| Client | Deluge | Download/seeding | Windows/macOS/Linux | Plugin-based architecture |
+| Client | µTorrent | Download/seeding | Windows/macOS | Proprietary, lightweight |
+| Indexer | The Pirate Bay | Torrent indexing | Web | Content directory (not a client) |
+| Indexer | 1337x | Torrent indexing | Web | Search and browse torrents |
+| Tracker | OpenTrackr | Tracker service | Web/Server | Public tracker infrastructure |
+| Tracker | udp://tracker.opentrackr.org | Tracker URL | N/A | Example tracker endpoint |
+| VPN | Mullvad | Privacy/proxying | Windows/macOS/Linux | Not BitTorrent software itself |
+| VPN | Proton VPN | Privacy/proxying | Windows/macOS/Linux | Separate from BitTorrent client |
+| Media Player | VLC | Playback | Windows/macOS/Linux | Unrelated app category |
+| Utility | Jackett | Indexer proxy | Windows/Linux | Works with torrent indexers |

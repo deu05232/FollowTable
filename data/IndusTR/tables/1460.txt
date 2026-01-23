@@ -1,0 +1,18 @@
+<table>
+  <caption>SM9 Key Agreement  Generate Agreement Data and Compute Key Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_SM9GenerateAgreementDataAndKey（void         * hSymmKeyObj,unsigned intuiMasterPublicKeyIndex,unsigned intuiKeyBits,unsigned char* pucSponsorID,unsigned intuiSponsorIDLength,unsigned char* pucSponsorTmpPublicKey,unsigned int* puiSponsorTmpPublicKeyLen,unsigned char* pucResponseTmpPublicKey，unsigned intuiResponseTmpPublicKeyLen,void           **phKeyHandle);</td></tr>
+  <tr><td>Rules</td><td>Use the SM9 key agreement algorithm to generate agreement parameters and compute the session key, and return the generated agreement parameters and key handle. The SM9 computation process shall comply with GB/T 41389.</td></tr>
+  <tr><td rowspan="10">SAC Parameters</td><td>hSymmKeyObj［in]（symmetric algorithm object）</td></tr>
+  <tr><td>uiMasterKeyIndex[in](index value of the encryption master public key)</td></tr>
+  <tr><td>uiKeyBits[in](required negotiated key length)</td></tr>
+  <tr><td>pucSponsorID［in](DER-encoded sponsor identity)</td></tr>
+  <tr><td>uiSponsorIDLength［in](length of the DER-encoded sponsor identity)</td></tr>
+  <tr><td>pucSponsorTmpPublicKey［in](externally input DER-encoded sponsor temporary public key)</td></tr>
+  <tr><td>puiSponsorTmpPublicKeyLen［in](length of the externally input DER-encoded sponsor temporary public key)</td></tr>
+  <tr><td>pucResponseTmpPublicKey[in](buffer pointer used to store the returned DER-encoded responder temporary public key)</td></tr>
+  <tr><td>uiResponseTmpPublicKeyLen[in,out](input: buffer length; output: actual length of the returned DER-encoded responder temporary public key)</td></tr>
+  <tr><td>phKeyHandle[out](returned key handle)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0 (success)</td></tr>
+  <tr><td>non-zero (failure; returns the error code defined in Table C.1 and shall comply with Appendix C)</td></tr>
+  <tr><td>Remarks</td><td>This function is called by the responder.</td></tr>
+</table>

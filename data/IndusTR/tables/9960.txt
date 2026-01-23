@@ -1,0 +1,16 @@
+<table>
+  <caption>Frame & Session Handles Used by Environment Understanding Queries</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Used For</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Required handle passed into most calls</td><td>Must be initialized</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>Current frame context for queries</td><td>Acquired from update</td></tr>
+    <tr><td>out_frame_timestamp_ns</td><td>int64_t *</td><td>Receives the frame timestamp</td><td>Monotonic clock</td></tr>
+    <tr><td>out_tracking_state</td><td>ArTrackingState *</td><td>Receives camera tracking state</td><td>PAUSED/TRACKING/STOPPED</td></tr>
+    <tr><td>out_camera_pose</td><td>ArPose *</td><td>Receives camera pose for the frame</td><td>World coordinates</td></tr>
+    <tr><td>out_camera_intrinsics</td><td>ArCameraIntrinsics *</td><td>Receives intrinsics for projection</td><td>Focal length, principal point</td></tr>
+    <tr><td>out_image_metadata</td><td>ArImageMetadata *</td><td>Receives camera image metadata</td><td>ISO/exposure, etc.</td></tr>
+    <tr><td>out_gpu_texture_id</td><td>uint32_t *</td><td>Receives texture id for camera image</td><td>Rendering path dependent</td></tr>
+  </tbody>
+</table>

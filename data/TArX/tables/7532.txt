@@ -1,0 +1,16 @@
+<table>
+  <caption>LRDMC ground state energies (Hartree units) for carbon pseudoatom using various basis sets. The LRDMC value is a rigorous upper bound for the ground state energy. The limit a → 0 was obtained by using η = 1 + 3.2 ⁢ a 2 in Eq. LABEL:laplace . The 2-body Jastrow factor has the form reported in Eq. LABEL:two-body . The Jastrow and the AGP (or HF) geminals are expanded on a primitive gaussian basis denoted by ( n ⁢ s ⁢ m ⁢ p ) , where n ( m ) is the number of s-wave (p-wave) gaussian orbitals. Analogously, the number and type of contracted orbitals follow the slash symbol. In particular ( 6 ⁢ s ⁢ 6 ⁢ p ) / [ 1 ⁢ s ⁢ 1 ⁢ p ] denotes the standard HF Slater determinant. For comparison the HF energy obtained in the CBS limit is - 5.319505 Hartree.</caption>
+  <tr><th>Wave function</th><th>3-body J basis</th><th>AGP basis</th><th>VMC</th><th>LRDMC</th></tr>
+  <tr><td>AGP+2-body</td><td>-</td><td>(2s2p)</td><td>-5.266 (1)</td><td>-5.397(1)</td></tr>
+  <tr><td>AGP+2-body</td><td>-</td><td>(3s3p)</td><td>-5.392 (1)</td><td>-5.416(1)</td></tr>
+  <tr><td>AGP+2-body</td><td>-</td><td>(4s4p)</td><td>-5.4066(4)</td><td>-5.4178(3)</td></tr>
+  <tr><td>AGP+2-body</td><td>-</td><td>(5s5p)</td><td>-5.4095(3)</td><td>-5.4180(1)</td></tr>
+  <tr><td>AGP+2-body</td><td>-</td><td>(6s6p)</td><td>-5.4096(2)</td><td>-5.4181(1)</td></tr>
+  <tr><td>AGP+2-body</td><td>-</td><td>(5s5p1d)</td><td>-5.4096(2)</td><td>-5.4182(1)</td></tr>
+  <tr><td>AGP+2&3-body</td><td>(1s1p)</td><td>(5s5p)</td><td>-5.4103(2)</td><td>-5.4181(1)</td></tr>
+  <tr><td>HF</td><td>-</td><td>(6s6p)/[1s1p]</td><td>-5.3193(3)</td><td>-5.4107(3)</td></tr>
+  <tr><td>HF+2&3-body</td><td>(1s1p)</td><td>(6s6p)/[1s1p]</td><td>-5.3991(3)</td><td>-5.4107(2)</td></tr>
+  <tr><td>AGP+2&3-body</td><td>(2s)</td><td>(6s6p)/[2s1p]</td><td>-5.4075(2)</td><td>-5.4160(1)</td></tr>
+  <tr><td>AGP+2&3-body</td><td>(3s2p)</td><td>(4s5p)/[2s2p]</td><td>-5.4115(1)</td><td>-5.4182(1)</td></tr>
+  <tr><td>AGP+2&3-body</td><td>(3s2p)</td><td>(6s6p)</td><td>-5.4113(1)</td><td>-5.4183(1)</td></tr>
+</table>

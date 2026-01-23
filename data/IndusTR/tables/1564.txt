@@ -1,0 +1,8 @@
+<table>
+  <caption>SpaceFibre Bus Basic Character Format</caption>
+  <tr><td colspan="4">0                   7  8                15   16               23  24               31</td></tr>
+  <tr><td>COMMA</td><td>SBF</td><td>bc</td><td>B_TYPE</td></tr>
+  <tr><td>DATA 1LS</td><td>DATA 1</td><td>DATA 1</td><td>DATA 1 MS</td></tr>
+  <tr><td>DATA 2 LS</td><td>DATA 2</td><td>DATA 2</td><td>DATA 2 MS</td></tr>
+  <tr><td>Ebf</td><td>STATUS</td><td>SEQ_NUM</td><td>CRC</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Commissioning checklist limits for voltage and frequency deviations (shore power box)</caption>
+  <tr><th>Test scenario</th><th>Measured quantity</th><th>Acceptance limit</th><th>Time window / recovery requirement</th></tr>
+  <tr><td>No-load to 50% load step</td><td>Voltage deviation</td><td>Within +6% / -10%</td><td>Return within limit in ≤ 1.5 s</td></tr>
+  <tr><td>50% to 100% load step</td><td>Voltage transient deviation</td><td>Not exceeding ±20%</td><td>Return within limit in ≤ 1.5 s</td></tr>
+  <tr><td>Sudden load rejection</td><td>Voltage transient deviation</td><td>Not exceeding ±25%</td><td>Return within limit in ≤ 2.0 s</td></tr>
+  <tr><td>Normal operation</td><td>Frequency deviation</td><td>Within ±5%</td><td>—</td></tr>
+  <tr><td>Disturbance event</td><td>Frequency transient deviation</td><td>Not exceeding ±10%</td><td>Return within limit in ≤ 5 s</td></tr>
+  <tr><td>After disturbance</td><td>Frequency recovery</td><td>Within ±5%</td><td>≤ 5 s</td></tr>
+</table>

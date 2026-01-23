@@ -1,0 +1,14 @@
+<table>
+  <caption>Open API Endpoint Comparison: Authentication Field vs Required Inputs (Microservices and Materials)</caption>
+  <thead>
+    <tr><th>Endpoint Name</th><th>HTTP Method</th><th>Path</th><th>Auth Parameter (Required)</th><th>Other Required Parameters</th><th>Response Summary</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Microservice Register</td><td>POST</td><td>/openapi/v1/microservices</td><td>access_token (string)</td><td>userID (string), sevName (string), sevDes (string), dataUrl (string)</td><td>Returns created microserviceId</td></tr>
+    <tr><td>Microservice Detail</td><td>GET</td><td>/openapi/v1/microservices/{microserviceId}</td><td>access_token (string)</td><td>userID (string), microserviceId (string path)</td><td>Returns definition and metadata</td></tr>
+    <tr><td>Microservice Update</td><td>PUT</td><td>/openapi/v1/microservices/{microserviceId}</td><td>access_token (string)</td><td>userID (string), microserviceId (string path), sevName (string), sevDes (string)</td><td>Updates name/description</td></tr>
+    <tr><td>Production Material Form Save</td><td>POST</td><td>/openapi/v1/materials/forms</td><td>access_token (string)</td><td>userID (string), materialName (string), materialType (string)</td><td>Returns formId</td></tr>
+    <tr><td>Production Material Form Query</td><td>GET</td><td>/openapi/v1/materials/forms/{formId}</td><td>access_token (string)</td><td>userID (string), formId (string path)</td><td>Returns stored form content</td></tr>
+    <tr><td>Production Material Form Delete</td><td>DELETE</td><td>/openapi/v1/materials/forms/{formId}</td><td>access_token (string)</td><td>userID (string), formId (string path)</td><td>Deletes a form by ID</td></tr>
+  </tbody>
+</table>

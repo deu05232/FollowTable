@@ -1,0 +1,9 @@
+<table>
+  <caption>Message Categories and Attributes in the Charging Parameter Configuration Stage</caption>
+  <tr><td>Message Code</td><td>Message Name</td><td>PGN (Dec)</td><td>PGN (Hex)</td><td>Priority</td><td>Data Length (BYTE)</td><td>Message Period (ms)</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>BCP</td><td>Vehicle Charging Parameter Message</td><td>1536</td><td>000600H</td><td>7</td><td>13</td><td>500</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CTS</td><td>Charger Time Synchronization Information Message</td><td>1792</td><td>000700H</td><td>6</td><td>7</td><td>500</td><td>Charger - Vehicle</td></tr>
+  <tr><td>CML</td><td>Charger Maximum Output Capability Message</td><td>2048</td><td>000800H</td><td>6</td><td>8</td><td>250</td><td>Charger - Vehicle</td></tr>
+  <tr><td>BRO</td><td>Vehicle Charging Ready Status Message</td><td>2304</td><td>000900H</td><td>4</td><td>1</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CRO</td><td>Charger Output Ready Status Message</td><td>2560</td><td>000A00H</td><td>4</td><td>1</td><td>250</td><td>Charger - Vehicle</td></tr>
+</table>

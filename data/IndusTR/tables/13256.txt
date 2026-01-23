@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameter List and Versioning Matrix for Smart Industrial Instruments</caption>
+  <thead>
+    <tr><th>Instrument Group</th><th>Model/Type</th><th>Key Parameters (Static Setup)</th><th>Data Storage Items</th><th>Versioning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Measuring Instruments</td><td>Ultrasonic Flow Meter</td><td>Pipe diameter, transducer spacing, signal gain, output scaling, damping coefficient, display units</td><td>Daily totalized value, min/max log, configuration snapshot</td><td>Firmware v1.x/v2.x compatibility flag</td></tr>
+    <tr><td>Electromagnetic Flow Meter</td><td>Empty-pipe threshold, conductivity limit, electrode cleaning interval, alarm delay, pulse output settings</td><td>Electrode wear counter, event log IDs, parameter backup</td><td>Config schema revision number</td></tr>
+    <tr><td rowspan="2">Analytical Instruments</td><td>NIR Analyzer</td><td>Spectrum range, integration time, reference selection, temperature compensation coefficient, sampling interval</td><td>Sample batch IDs, spectral file index, calibration model ID</td><td>Model version and rollback record</td></tr>
+    <tr><td>TOC Analyzer</td><td>Oxidation mode, reagent dosing parameters, conductivity compensation, alarm setpoints</td><td>Reagent lot number, run history IDs, compliance report number</td><td>Software patch level</td></tr>
+    <tr><td rowspan="2">Actuators</td><td>Smart Valve Positioner</td><td>PID gains, deadband, characterization curve, split-range settings, travel limits</td><td>Cycle counters, configuration checksum, last tune timestamp</td><td>Parameter set version ID</td></tr>
+    <tr><td>Motorized Damper Actuator</td><td>Open/close times, torque limit, local/remote selection, feedback scaling</td><td>Maintenance record ID, alarm history index</td><td>Bootloader/firmware revision</td></tr>
+  </tbody>
+</table>

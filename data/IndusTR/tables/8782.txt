@@ -1,0 +1,15 @@
+<table>
+  <caption>ICP-OES Configuration for Oxide Impurities in Silica Sand (Wavelength, Plasma, and View Settings)</caption>
+  <thead>
+    <tr><th>Determination item (reported as oxide)</th><th>Primary emission line (nm)</th><th>Alternate line (nm)</th><th>Plasma power (kW)</th><th>Viewing mode</th><th>Notes (spectral interferences)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fe2O3</td><td>259.940</td><td>238.204</td><td>1.20</td><td>Axial</td><td>Possible overlap from Ti; verify background correction</td></tr>
+    <tr><td>Al2O3 (Al)</td><td>396.152</td><td>308.215</td><td>1.20</td><td>Axial</td><td>High Si matrix may require dilution</td></tr>
+    <tr><td>TiO2 (Ti)</td><td>334.941</td><td>323.452</td><td>1.25</td><td>Radial</td><td>Check for Fe line proximity in complex matrices</td></tr>
+    <tr><td>MgO (Mg)</td><td>279.553</td><td>285.213</td><td>1.10</td><td>Axial</td><td>Ionization effects; consider internal standard</td></tr>
+    <tr><td>CaO (Ca)</td><td>317.933</td><td>393.366</td><td>1.10</td><td>Radial</td><td>Use Ca 317.933 for higher concentrations</td></tr>
+    <tr><td>Na2O (Na)</td><td>589.592</td><td>568.263</td><td>1.00</td><td>Radial</td><td>Strong line; avoid detector saturation</td></tr>
+    <tr><td>K2O (K)</td><td>766.491</td><td>769.897</td><td>1.00</td><td>Radial</td><td>High background near 766 nm in some optics</td></tr>
+  </tbody>
+</table>

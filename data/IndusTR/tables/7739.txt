@@ -1,0 +1,10 @@
+<table>
+  <caption>Alarm handling and notification requirements for intrusion detectors</caption>
+  <tr><th>Item</th><th>Level 1</th><th>Level 2</th><th>Level 3</th><th>Level 4</th></tr>
+  <tr><td>Alarm transmission delay (requirement)</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Notification channels (local/remote)</td><td>Local</td><td>Local+Remote</td><td>Local+Remote</td><td>Local+Remote</td></tr>
+  <tr><td>Alarm acknowledgement required</td><td>OP</td><td>OP</td><td>M</td><td>M</td></tr>
+  <tr><td>Operator log required</td><td>OP</td><td>OP</td><td>M</td><td>M</td></tr>
+  <tr><td>Audible/visual indication</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Restore reporting</td><td>OP</td><td>M</td><td>M</td><td>M</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Abort Messages Timing and Addressing (No Payload Field Definitions)</caption>
+  <tr><th>PID</th><th>Abort Message</th><th>Acknowledgment</th><th>Retry Policy</th><th>Total Transmission Time/ms</th><th>Source - Destination</th></tr>
+  <tr><td>0x03</td><td>Charger abort</td><td>Required</td><td>Up to 3 retries</td><td>1000</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x04</td><td>Vehicle abort</td><td>Required</td><td>Up to 3 retries</td><td>1000</td><td>Vehicle - Charger</td></tr>
+  <tr><td>0x03</td><td>Charger abort</td><td>Required</td><td>No retry after hard fault</td><td>1000</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x04</td><td>Vehicle abort</td><td>Required</td><td>No retry after hard fault</td><td>1000</td><td>Vehicle - Charger</td></tr>
+  <tr><td>0x03</td><td>Charger abort</td><td>Required</td><td>Retry if reason is timeout</td><td>1000</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x04</td><td>Vehicle abort</td><td>Required</td><td>Retry if reason is timeout</td><td>1000</td><td>Vehicle - Charger</td></tr>
+</table>

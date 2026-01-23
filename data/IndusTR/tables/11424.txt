@@ -1,0 +1,16 @@
+<table>
+  <caption>Ultimate/prospective breaking current test matrix for starters (no duty-cycle timing)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current range (A)</th><th colspan="2">Short-circuit parameters</th><th rowspan="2">U/ Ue</th><th rowspan="2">cosφ (±0.05)</th><th rowspan="2">Number of operations</th><th rowspan="2">Acceptance criteria</th></tr>
+    <tr><th>Ultimate breaking current Icu (kA)</th><th>Prospective current Ip (kA)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤16</td><td>0.6</td><td>0.6</td><td>1.0</td><td>0.65</td><td>3</td><td>No welding; insulation OK</td></tr>
+    <tr><td>>16–32</td><td>1.0</td><td>1.0</td><td>1.0</td><td>0.65</td><td>3</td><td>No case rupture</td></tr>
+    <tr><td>>32–63</td><td>1.5</td><td>1.5</td><td>1.0</td><td>0.65</td><td>3</td><td>Contacts operable after test</td></tr>
+    <tr><td>>63–80</td><td>2.0</td><td>2.0</td><td>1.0</td><td>0.65</td><td>3</td><td>No sustained arcing</td></tr>
+    <tr><td>>80–125</td><td>2.5</td><td>2.5</td><td>1.0</td><td>0.65</td><td>3</td><td>Dielectric withstand passed</td></tr>
+    <tr><td>>125–250</td><td>4.0</td><td>4.0</td><td>1.0</td><td>0.65</td><td>3</td><td>Functional check passed</td></tr>
+    <tr><td>>250–630</td><td>6.0</td><td>6.0</td><td>1.0</td><td>0.65</td><td>3</td><td>No abnormal deformation</td></tr>
+  </tbody>
+</table>

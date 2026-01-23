@@ -1,0 +1,15 @@
+<table>
+  <caption>Forge-Friendly Structural Design Checks (Qualitative Do/Don't Examples)</caption>
+  <thead>
+    <tr><th>Feature/Zone</th><th>Unreasonable Structure (Don't)</th><th>Reasonable Structure (Do)</th><th>Explanation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Parting line location</td><td>Parting line crosses multiple small steps and pockets</td><td>Parting line follows the largest external contour</td><td>Reduces die mismatch risk and improves ejection; simplifies die closure.</td></tr>
+    <tr><td>Ribs & webs</td><td>Very thin isolated webs next to thick bosses</td><td>Uniform rib layout with gradual transitions</td><td>Improves material flow and avoids laps; encourages balanced filling.</td></tr>
+    <tr><td>Bosses</td><td>Tall narrow bosses with sharp shoulders</td><td>Shorter bosses with blended shoulders</td><td>Prevents underfill at the base and reduces stress in the die.</td></tr>
+    <tr><td>Pockets</td><td>Deep blind pockets with flat bottoms</td><td>Shallow pockets with radiused bottoms</td><td>Deep cavities hinder filling and increase risk of folds.</td></tr>
+    <tr><td>External corners</td><td>Square corners and abrupt breaks</td><td>Rounded corners and smooth blends</td><td>Smoother flow and longer die life.</td></tr>
+    <tr><td>Cross-section changes</td><td>Sudden jump in section thickness</td><td>Progressive change in section size</td><td>Avoids flow localization and defects.</td></tr>
+    <tr><td>Symmetry</td><td>Highly asymmetric mass distribution</td><td>Symmetric layout around the forging axis</td><td>Promotes uniform deformation and stable positioning.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Starter Protective Verification — Overload Withstand and Thermal Stress (with a small short-circuit reference)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current Ie (A)</th><th colspan="5">Overload withstand test (primary)</th><th colspan="3">Short-circuit reference (not the main requirement)</th></tr>
+    <tr><th>Test current (×Ie)</th><th>Minimum test current (A)</th><th>Duration (s)</th><th>Allowed temperature rise (K)</th><th>Acceptance criteria</th><th>Ultimate breaking current (kA)</th><th>U/Ue</th><th>cosφ</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 25</td><td>8×Ie</td><td>200</td><td>10</td><td>65</td><td>No welding; no damage</td><td>0.6</td><td>1.0</td><td>0.65</td></tr>
+    <tr><td>> 25 to 63</td><td>8×Ie</td><td>504</td><td>10</td><td>65</td><td>No welding; no damage</td><td>1.5</td><td>1.0</td><td>0.65</td></tr>
+    <tr><td>> 63 to 100</td><td>6×Ie</td><td>600</td><td>10</td><td>65</td><td>No welding; no damage</td><td>2.0</td><td>1.0</td><td>0.65</td></tr>
+    <tr><td>> 100 to 160</td><td>6×Ie</td><td>960</td><td>10</td><td>65</td><td>No welding; no damage</td><td>2.5</td><td>1.0</td><td>0.50</td></tr>
+    <tr><td>> 160 to 250</td><td>6×Ie</td><td>1500</td><td>10</td><td>65</td><td>No welding; no damage</td><td>3.0</td><td>1.0</td><td>0.50</td></tr>
+    <tr><td>> 250 to 400</td><td>4×Ie</td><td>1600</td><td>10</td><td>65</td><td>No welding; no damage</td><td>4.0</td><td>1.0</td><td>0.50</td></tr>
+  </tbody>
+</table>

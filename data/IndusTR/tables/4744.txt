@@ -1,0 +1,16 @@
+<table>
+  <caption>Needling Equipment Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Highest Position of the Mesh Stripping Plate</td><td>HighestPositionOfThe MeshStrippingPlate</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~6.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X0201</td><td>Lowest Position of the Mesh Stripping Plate</td><td>LowestPositionOfTheMeshStrippingPlate</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~6.00</td><td>mm</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0202</td><td>Highest Position of the Support Board</td><td>HighestPositionOf TheSupportBoard</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~6.00</td><td>mm</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0203</td><td>Lowest Position of the Support Board</td><td>LowestPositionOfTheSupportBoard</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~6.00</td><td>mm</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0204</td><td>Needling Depth</td><td>NeedlingDepth</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~10.00</td><td>mm</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0205</td><td>Needling Spindle Set Speed</td><td>NeedlingSpindleSettingSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~6 000.00</td><td>r/min</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0206</td><td>Input Set Speed</td><td>EnterTheSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~6 000.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0207</td><td>Output Set Speed</td><td>OutputSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~6000.00</td><td>m/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0208</td><td>Needling Frequency</td><td>NeedlingFrequency</td><td>M</td><td>VAR</td><td>RW</td><td>Uint16</td><td>0~5000</td><td>stitches/min</td><td>丨</td><td></td></tr>
+  <tr><td>OX0209</td><td>Needle Planting Density</td><td>NeedleDensity</td><td>M</td><td>VAR</td><td>RW</td><td>Uint16</td><td>0~50000</td><td>pcs/m</td><td>1</td><td></td></tr>
+  <tr><td>0X020A</td><td>Traverse Length</td><td>TraverseLength</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X020B</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td></td><td></td><td>1</td><td>1</td><td></td></tr>
+</table>

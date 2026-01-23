@@ -1,0 +1,6 @@
+<table>
+  <caption>Format Definition of Short Message Acknowledgement Control Frame Requiring Acknowledgement</caption>
+  <tr><td>Protocol Data Unit</td><td>P</td><td>EDP</td><td>DP</td><td>PF</td><td>PS</td><td>SA</td><td colspan="8">Data Field</td></tr>
+  <tr><td>Placeholder bit</td><td>3</td><td>1</td><td>1</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td></tr>
+  <tr><td>Definition SAC</td><td>0x03</td><td>0</td><td>0</td><td>0x37</td><td>Destination Address</td><td>Source Address</td><td>0x00</td><td>0x01</td><td>Identifier of the Acknowledged Short Message Parameter Group (first byte of the application layer)</td><td>0xFF</td><td></td><td></td><td></td><td>0xFF</td></tr>
+</table>

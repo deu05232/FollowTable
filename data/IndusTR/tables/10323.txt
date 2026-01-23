@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Session Tracking Outcome Enum (State-Only)</caption>
+  <thead>
+    <tr><th>Category</th><th>State description</th><th>Constant name</th><th>Numeric value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Tracking outcome</td><td>Tracking is successful</td><td>AR_SESSION_TRACKING_OUTCOME_SUCCESS</td><td>0</td></tr>
+    <tr><td>Tracking is lost</td><td>AR_SESSION_TRACKING_OUTCOME_LOST</td><td>1</td></tr>
+    <tr><td>Tracking is stopped</td><td>AR_SESSION_TRACKING_OUTCOME_STOPPED</td><td>2</td></tr>
+    <tr><td>Tracking is initializing</td><td>AR_SESSION_TRACKING_OUTCOME_INITIALIZING</td><td>3</td></tr>
+    <tr><td>Tracking is resuming</td><td>AR_SESSION_TRACKING_OUTCOME_RESUMING</td><td>4</td></tr>
+    <tr><td>Tracking is unavailable</td><td>AR_SESSION_TRACKING_OUTCOME_UNAVAILABLE</td><td>5</td></tr>
+  </tbody>
+</table>

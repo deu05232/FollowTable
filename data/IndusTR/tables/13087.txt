@@ -1,0 +1,14 @@
+<table>
+  <caption>Green Tide Emergency Response Levels vs Warning Colors (Response-Level Mapping)</caption>
+  <thead>
+    <tr><th>Hazard</th><th>Emergency Response Level</th><th>Activation Trigger</th><th>Color Sign Used</th><th>Sign Identifier</th><th>Primary Measures</th><th>Reporting Frequency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Green Tide</td><td>Level IV (Preparedness)</td><td>Early detection of algae bloom potential</td><td>Blue</td><td>GT-RESP-BL</td><td>Increase sampling; publish monitoring note</td><td>Weekly</td></tr>
+    <tr><td>Level III</td><td>Localized bloom observed</td><td>Yellow</td><td>GT-RESP-YE</td><td>Launch shoreline inspection; brief local agencies</td><td>Every 48 hours</td></tr>
+    <tr><td>Level II</td><td>Rapid expansion forecast</td><td>Orange</td><td>GT-RESP-OR</td><td>Deploy cleanup equipment; set collection sites</td><td>Daily</td></tr>
+    <tr><td>Level I</td><td>Severe impact to aquaculture/tourism</td><td>Red</td><td>GT-RESP-RE</td><td>Full emergency response; coordinate multi-agency operations</td><td>Twice daily</td></tr>
+    <tr><td>Post-event</td><td>Bloom receding</td><td>Yellow</td><td>GT-POST-YE</td><td>Continue limited monitoring; assess damage</td><td>Every 72 hours</td></tr>
+    <tr><td>Recovery</td><td>Normal conditions restored</td><td>Blue</td><td>GT-REC-BL</td><td>Close response; archive data; publish final report</td><td>Monthly</td></tr>
+  </tbody>
+</table>

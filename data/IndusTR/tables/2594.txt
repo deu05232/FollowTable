@@ -1,0 +1,10 @@
+<table>
+  <caption>Factory Acceptance Test (FAT) Instrumentation and Calibration Schedule for Surveillance Radar</caption>
+  <tr><th>Instrument</th><th>Purpose</th><th>Calibration Standard</th><th>Interval</th><th>Required Accuracy</th><th>Record ID</th></tr>
+  <tr><td>Spectrum analyzer</td><td>RF spectrum verification</td><td>ISO/IEC 17025</td><td>12 months</td><td>±1.0 dB</td><td>CAL-SA-12</td></tr>
+  <tr><td>Power meter</td><td>Transmit power check</td><td>NIST traceable</td><td>6 months</td><td>±0.5 dB</td><td>CAL-PM-06</td></tr>
+  <tr><td>Time interval counter</td><td>Timing/PRF verification</td><td>NIST traceable</td><td>12 months</td><td>±2 ppm</td><td>CAL-TIC-12</td></tr>
+  <tr><td>Antenna positioner</td><td>Beam pattern sweep</td><td>Manufacturer procedure</td><td>12 months</td><td>±0.1°</td><td>CAL-AP-12</td></tr>
+  <tr><td>Weather station</td><td>Environmental logging</td><td>WMO guidance</td><td>12 months</td><td>±0.5°C</td><td>CAL-WS-12</td></tr>
+  <tr><td>GPS disciplined oscillator</td><td>Frequency reference</td><td>GNSS timing spec</td><td>24 months</td><td>±1e-11</td><td>CAL-GPSDO-24</td></tr>
+</table>

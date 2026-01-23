@@ -1,0 +1,17 @@
+<table>
+  <caption>Nominal experimental parameters used for the sensitivity calculations presented in this paper.</caption>
+  <tr><td colspan="2">Parameter</td><td>Value</td><td>Comment</td><td>Reference</td></tr>
+  <tr><td rowspan="4">Reactor</td><td>Power</td><td>20 MW</td><td>NIST-like</td><td>[ NISTschedule ]</td></tr>
+  <tr><td>Shape</td><td>cylindrical</td><td>NIST-like</td><td>[ NISTschedule ]</td></tr>
+  <tr><td>Size</td><td>0.5 m radius, half-height</td><td>NIST-like</td><td>[ NISTschedule ]</td></tr>
+  <tr><td>Fuel</td><td>HEU</td><td>Research reactor fuel type</td><td>[ NISTschedule , HFIRschedule , ATRschedule ]</td></tr>
+  <tr><td rowspan="5">Detector</td><td>Dimensions</td><td>1 × 1 × 3 m</td><td>3 meters of available baseline</td><td>-</td></tr>
+  <tr><td>Efficiency</td><td>30%</td><td>In range of SBL exps. (10-50%)</td><td>[ Bugey , Rovno , Bowden ]</td></tr>
+  <tr><td>Proton density</td><td>6.39 × 10 ^((28){p){m^(3)</td><td>From Daya Bay GdLS</td><td>[ TDR ]</td></tr>
+  <tr><td>Position resolution</td><td>15 cm</td><td>Daya Bay-like</td><td>[ Bryce ]</td></tr>
+  <tr><td>Energy resolution</td><td>10%/</td><td>Daya Bay-like</td><td>[ DBNIM ]</td></tr>
+  <tr><td rowspan="4">Other</td><td>Run Time</td><td>1 year live-time</td><td>-</td><td>-</td></tr>
+  <tr><td>Closest distance</td><td>4 m</td><td>NIST-like</td><td>-</td></tr>
+  <tr><td>S:B ratio</td><td>1:1</td><td>In range of SBL exps. (1-25)</td><td>[ Bugey , Bowden , ILL ]</td></tr>
+  <tr><td>Background shape</td><td>1/E ^((2))</td><td>Similar to SBL experiments</td><td>[ ILL , Bowden , Bryce ]</td></tr>
+</table>

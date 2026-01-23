@@ -1,0 +1,15 @@
+<table>
+  <caption>Selection Priority of Network and Data Interfaces for Testing Copiers and Multi-function Devices</caption>
+  <tr><td>Priority order</td><td>Interface type</td></tr>
+  <tr><td>1</td><td>Ethernet interface－1Gb/s</td></tr>
+  <tr><td>2</td><td>Ethernet interface－100/10 Mb/s</td></tr>
+  <tr><td>3</td><td>WLAN</td></tr>
+  <tr><td>4</td><td>USB3.X</td></tr>
+  <tr><td>5</td><td>USB2.X</td></tr>
+  <tr><td>6</td><td>USB1.X</td></tr>
+  <tr><td>7</td><td>RS232</td></tr>
+  <tr><td>8</td><td>IEEE 1284</td></tr>
+  <tr><td>9</td><td>Other wired    priority order from highest to lowest speed</td></tr>
+  <tr><td>10</td><td>Other wireless-   priority from highest to lowest speed</td></tr>
+  <tr><td>11</td><td>If none of the above, test using any connection provided by the device (or none)</td></tr>
+</table>

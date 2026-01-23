@@ -1,0 +1,13 @@
+# Exchange Server Hybrid vs Non-Hybrid  Client and Collaboration Experience Comparison
+
+| User-facing area | Before hybrid (single on-prem Exchange org) | After hybrid (on-prem Exchange + Microsoft 365) |
+| --- | --- | --- |
+| Calendar sharing across all users | Calendar sharing works primarily within the on-prem organization. | Cross-premises calendar sharing enables on-prem and cloud users to see availability and (optionally) more details. |
+| Cross-premises mailbox search/discovery | Searches typically limited to on-prem mailboxes and archives. | Discovery can cover both on-prem and Exchange Online locations (depending on compliance tooling and configuration). |
+| Autodiscover / client redirection behavior | Clients discover only on-prem endpoints; no need to redirect users between platforms. | Clients may be redirected to Exchange Online for cloud mailboxes while still supporting on-prem mailboxes in the same org. |
+| Outlook/OWA experience consistency | Experience depends solely on the on-prem Exchange version/features. | Mixed experience: cloud mailbox users may get Microsoft 365 features while on-prem users keep on-prem capabilities, yet appear in one organization. |
+| Cross-premises delegation (assistant/manager) | Delegates and resource access usually confined to on-prem mailboxes. | Delegation scenarios can work across on-prem and cloud mailboxes (with some limitations based on feature and configuration). |
+| Resource booking (rooms/equipment) across environments | Resource discovery/booking is typically limited to on-prem resources. | Room/equipment visibility can span both environments, improving scheduling across the combined organization. |
+| Shared address book / recipient resolution | Users may experience separate directories or incomplete resolution for cloud objects. | Hybrid directory synchronization improves recipient resolution and a more unified Global Address List across on-prem and cloud. |
+| Mail routing transparency for users | Simple internal delivery within on-prem; external mail handled by on-prem edge/gateway. | Mail delivery can be routed through Exchange Online Protection or on-prem depending on transport choice; users can send to each other seamlessly across locations. |
+| Coexistence during migration | Not applicable; migration is an all-on-prem change. | Designed for coexistence: on-prem and cloud mailboxes can operate together while mailboxes are moved in phases. |

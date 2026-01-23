@@ -1,0 +1,9 @@
+<table>
+  <caption>《BusinessProcess》Tracking and Traceability Status Notification Distribution</caption>
+  <tr><td>Business Collaboration Name</td><td>Status Notification Distribution</td></tr>
+  <tr><td>Preconditions</td><td>The integrated data center has tracking/traceability data in an available state and has subscribed recipients (carriers, forwarders, importers/exporters) mapped to shipment identifiers.</td></tr>
+  <tr><td>Start Time</td><td>A milestone event is recorded (e.g., gate-in, vessel departure, customs release) and triggers an outbound notification rule.</td></tr>
+  <tr><td>Participants</td><td>Integrated data center; requesting/subscribed business entities</td></tr>
+  <tr><td>Scenario</td><td>The integrated data center matches the shipment identifier to eligible recipients, packages the latest cargo status and event details, and distributes the notification to business entities. Recipients return an acknowledgement or error message; the data center records the delivery result and may retry or mark the request as failed.</td></tr>
+  <tr><td>Outputs</td><td>Distributed tracking status message; acknowledgement/delivery status</td></tr>
+</table>

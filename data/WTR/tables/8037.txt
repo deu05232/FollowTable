@@ -1,0 +1,13 @@
+# BitTorrent Client Comparison (Desktop and Web UI Options)
+
+| Client | Primary Platform(s) | Interface Type | Licensing / Cost | Remote Control / Web UI | Notable Features | Built-in Search | Ads/Bundle Risk |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| qBittorrent | Windows, macOS, Linux | Desktop GUI | Open-source (GPL), Free | Yes (Web UI) | RSS filtering, sequential download, category/tags, encryption | Yes (plugin-based) | Low |
+| Transmission | macOS, Linux (GTK), BSD | Desktop GUI | Open-source, Free | Yes (Web UI/Remote) | Lightweight, simple queueing, magnet links | No | Low |
+| Deluge | Windows, macOS, Linux | Desktop GUI + daemon | Open-source, Free | Yes (daemon + web plugin) | Plugin system, thin client mode, scheduling | Via plugins | Low |
+| rTorrent + ruTorrent | Linux/Unix server | TUI/CLI + Web UI | Open-source, Free | Yes (ruTorrent) | Very low resource use, advanced automation, works well headless | Via ruTorrent plugins | Low |
+| BiglyBT | Windows, macOS, Linux | Desktop GUI | Open-source, Free | Limited (pairing/plugins) | Media playback preview, swarm merging, I2P support (plugin) | Yes | Low |
+| Vuze | Windows, macOS, Linux | Desktop GUI | Freemium (ad-supported options) | Yes | Extensive plugins, media tools, advanced controls | Yes | Medium |
+| Tixati | Windows, Linux | Desktop GUI | Freeware (closed-source) | Yes (web interface) | Detailed bandwidth/peer charts, portable mode | No | Low |
+| BitComet | Windows | Desktop GUI | Freeware (closed-source) | Limited | Long-term seeding features, HTTP/FTP downloading | Yes | Medium |
+| μTorrent (Classic) | Windows, macOS | Desktop GUI | Freemium | Limited (depending on version) | Very small footprint, scheduling, RSS | Yes | Medium-High |

@@ -1,0 +1,16 @@
+<table>
+  <caption>Hazardous Spot / Accident-Prone Section Monitoring Timetable</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Constraints / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Spot/Section Name</td><td>Character</td><td>256</td><td>No</td><td>Yes</td><td>Includes road name, intersection name, roadside, reference points</td></tr>
+    <tr><td>2</td><td>Risk Category</td><td>Character</td><td>4</td><td>No</td><td>Yes</td><td>Hazard classification code (non-accident event)</td></tr>
+    <tr><td>3</td><td>Monitoring Start Time</td><td>DateTime</td><td>16</td><td>No</td><td>No</td><td>Time when monitoring period begins; rule 6.2 applies</td></tr>
+    <tr><td>4</td><td>Monitoring End Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>No</td><td>If present, must be ≥ Monitoring Start Time</td></tr>
+    <tr><td>5</td><td>Peak-Risk Time Window</td><td>Character</td><td>64</td><td>Yes</td><td>Yes</td><td>Can be hierarchical: Weekdays(07:00-09:00;17:00-19:00); Weekend(10:00-12:00)</td></tr>
+    <tr><td>6</td><td>Last Hazard Assessment Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>No</td><td>Timestamp of latest assessment record</td></tr>
+    <tr><td>7</td><td>Next Scheduled Assessment Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>No</td><td>Must be later than Last Hazard Assessment Time</td></tr>
+    <tr><td>8</td><td>Publication Time</td><td>DateTime</td><td>16</td><td>No</td><td>Yes</td><td>Time when hazardous-spot warning is published</td></tr>
+  </tbody>
+</table>

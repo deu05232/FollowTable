@@ -1,0 +1,31 @@
+<table>
+  <caption>Vehicle Basic Information Data Table</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Motor Vehicle Owner</td><td>Character</td><td>an..50</td><td>Owner information registered on the motor vehicle driving license</td></tr>
+  <tr><td>2</td><td>Brand</td><td>Character</td><td>an..30</td><td>Brand/model registered on the motor vehicle driving license</td></tr>
+  <tr><td>3</td><td>Model</td><td>Character</td><td>an..30</td><td>Brand/model registered on the motor vehicle driving license</td></tr>
+  <tr><td>4</td><td>Vehicle Type</td><td>Character</td><td>an..30</td><td>Sedan, SUV, other small passenger vehicle, medium passenger vehicle, large passenger vehicle, truck, other</td></tr>
+  <tr><td>5</td><td>License Plate Number</td><td>Character</td><td>an..20</td><td>Plate number registered on the motor vehicle driving license</td></tr>
+  <tr><td>6</td><td>Chassis Number (VIN)</td><td>Character</td><td>an..17</td><td>Vehicle identification code registered on the motor vehicle driving license</td></tr>
+  <tr><td>7</td><td>Engine Number</td><td>Character</td><td>an..30</td><td>Engine number registered on the motor vehicle driving license</td></tr>
+  <tr><td>8</td><td>Transmission</td><td>Character</td><td>an..10</td><td>Automatic, manual</td></tr>
+  <tr><td>9</td><td>Powertrain Type</td><td>Character</td><td>n..50</td><td>Gasoline vehicle, diesel vehicle, battery electric vehicle, plug-in hybrid (including range-extended) vehicle, fuel cell vehicle, other</td></tr>
+  <tr><td>10</td><td>Fuel Type</td><td>Character</td><td>an..10</td><td>90#, 92#, 93#, 95#, 97#, 98# gasoline; 0#, 10#, 20#, 30#, 35#, 40#, 50#, 90# diesel, other</td></tr>
+  <tr><td>11</td><td>Fuel Tank Capacity</td><td>Numeric</td><td>n..10</td><td>Unit: liter</td></tr>
+  <tr><td>12</td><td>Emission Standard</td><td>Character</td><td>an..10</td><td>China I, China II, China III, China IV, China V, China V</td></tr>
+  <tr><td>13</td><td>Engine Displacement</td><td>Numeric</td><td>n..10</td><td>Unit: milliliter</td></tr>
+  <tr><td>14</td><td>Rated Passenger Capacity</td><td>Numeric</td><td>n..10</td><td>Rated passenger (person) capacity registered on the vehicle certificate of conformity</td></tr>
+  <tr><td>15</td><td>Body Color</td><td>Character</td><td>an..10</td><td>Body color registered on the vehicle certificate of conformity</td></tr>
+  <tr><td>16</td><td>Vehicle Weight</td><td>Numeric</td><td>n..10</td><td>Unit: kilogram</td></tr>
+  <tr><td>17</td><td>Production Type</td><td>Character</td><td>an..30</td><td>Domestic (independent brand), domestic (joint-venture brand), imported</td></tr>
+  <tr><td>18</td><td>Manufacturer</td><td>Character</td><td>an..30</td><td>Name of the vehicle manufacturing enterprise registered on the vehicle certificate of conformity</td></tr>
+  <tr><td>19</td><td>Date of Manufacture</td><td>Date</td><td>YYYYMMDD</td><td>Issue date registered on the vehicle certificate of conformity</td></tr>
+  <tr><td>20</td><td>Vehicle Purchase Date</td><td>Date</td><td>YYYYMMDD</td><td>Invoice date registered on the unified motor vehicle sales invoice</td></tr>
+  <tr><td>21</td><td>Registration Date</td><td>Date</td><td>YYYYMMDD</td><td>Registration date registered on the motor vehicle driving license</td></tr>
+  <tr><td>22</td><td>Usage Category</td><td>Character</td><td>an..30</td><td>Confidential communications vehicle, emergency support vehicle, law enforcement and duty vehicle, specialized professional/technical vehicle, in-kind support vehicle, administrative law enforcement vehicle, retired cadre support vehicle, business-use vehicle, other official vehicles</td></tr>
+  <tr><td>23</td><td>Whether the Vehicle Has Long-term Fixed-mounted Professional/Technical Equipment</td><td>Boolean</td><td>Yes/No</td><td></td></tr>
+  <tr><td>24</td><td>Name of Long-term Fixed-mounted Professional/Technical Equipment</td><td>Character</td><td>an..30</td><td></td></tr>
+  <tr><td>25</td><td>Using Department</td><td>Character</td><td>an..30</td><td></td></tr>
+  <tr><td>26</td><td>Quota Status</td><td>Character</td><td>n..10</td><td>Within quota, outside quota, quota not verified</td></tr>
+  <tr><td>27</td><td>Cumulative Mileage</td><td>Numeric</td><td>n..10</td><td>Unit: kilometer</td></tr>
+</table>

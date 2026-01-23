@@ -1,0 +1,12 @@
+# SharePoint Server 2016 2013 Hardware Baselines by Role (Minimum vs Recommended)
+
+| Server role (SharePoint farm) | When to use | Minimum CPU (cores) | Minimum RAM | Recommended CPU (cores) | Recommended RAM | Notes tied to SharePoint workload |
+| --- | --- | --- | --- | --- | --- | --- |
+| Single-server with local database (SharePoint + DB) | Dev / test only | 4 cores | 16 GB | 4–8 cores | 24–32 GB | Local DB increases memory pressure; not ideal for production |
+| Web Front End (WFE) | User-facing web requests | 4 cores | 8–12 GB | 8 cores | 16–32 GB | Add WFEs to scale out request throughput |
+| Application server | Service applications, workflows, timer jobs | 4 cores | 12 GB | 8–16 cores | 32–64 GB | More services enabled → more RAM/CPU needed |
+| Search (combined) | Small search footprint | 8 cores | 16–24 GB | 12–16 cores | 64 GB | Search is memory intensive; isolate if query/crawl grows |
+| Search (crawl/index dedicated) | Medium/large crawl + index | 12 cores | 32 GB | 16–24 cores | 64–128 GB | Index disk performance can dominate crawl/query |
+| SQL Server for SharePoint | Content DBs, service DBs | 4–8 cores | 16 GB | 16+ cores | 64–256 GB | SQL sizing is driven by DB size, IOPS, and concurrency |
+| Office Online Server (optional companion) | Rendering/editing Office docs | 4 cores | 8 GB | 8 cores | 16–32 GB | Not SharePoint itself but commonly paired; capacity impacts user experience |
+| Distributed Cache (if dedicated) | High-traffic social/auth cache | 8 cores | 16 GB | 8–12 cores | 32–48 GB | Cache allocation competes with OS/SharePoint; avoid undersizing |

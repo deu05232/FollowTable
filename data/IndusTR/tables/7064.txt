@@ -1,0 +1,16 @@
+<table>
+  <caption>Dynamic Object List Reported by Vehicle (Sample Fields)</caption>
+  <thead>
+    <tr><th>Group</th><th>Serial No.</th><th>Data Field</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Frame</td><td>1</td><td>Vehicle ID</td><td>-</td><td>Sender vehicle identifier</td></tr>
+    <tr><td>2</td><td>Timestamp</td><td>ms</td><td>Frame time</td></tr>
+    <tr><td>3</td><td>Vehicle Position (Latitude/Longitude)</td><td>deg</td><td>Ego position at frame time</td></tr>
+    <tr><td rowspan="5">Object[i]</td><td>4</td><td>Object ID</td><td>-</td><td>Tracked object identifier</td></tr>
+    <tr><td>5</td><td>Object Type</td><td>-</td><td>Vehicle/Pedestrian/Cyclist/etc.</td></tr>
+    <tr><td>6</td><td>Object Position (X/Y relative to vehicle)</td><td>m</td><td>Relative coordinates in ego frame</td></tr>
+    <tr><td>7</td><td>Object Velocity (Vx/Vy)</td><td>m/s</td><td>Relative velocity</td></tr>
+    <tr><td>8</td><td>Object Confidence</td><td>%</td><td>Detection confidence score</td></tr>
+  </tbody>
+</table>

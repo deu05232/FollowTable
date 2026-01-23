@@ -1,0 +1,7 @@
+<table>
+  <caption>Knitting Equipment Data Dictionary — Warp Let-off (missing types)</caption>
+  <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  <tr><td>0X0C10</td><td>Let-off Speed</td><td>LetoffSpeed</td><td>M</td><td>VAR</td><td>RW</td><td></td><td>0~5000</td><td>mm/min</td><td>Warp let-off speed setting</td><td></td></tr>
+  <tr><td>0X0C11</td><td>Beam Diameter</td><td>BeamDiameter</td><td>M</td><td>VAR</td><td>RW</td><td></td><td>10~20000</td><td>mm</td><td>Current beam diameter</td><td></td></tr>
+  <tr><td>0X0C12</td><td>Let-off Enabled</td><td>LetoffEnabled</td><td>M</td><td>VAR</td><td>RW</td><td>-</td><td>0/1</td><td></td><td>Enable/disable let-off</td><td>0: Off 1: On</td></tr>
+</table>

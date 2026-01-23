@@ -1,0 +1,12 @@
+<table>
+  <caption>Cybersecurity Incident Reporting Fields (Time-Metric Heavy)</caption>
+  <tr><th>Reporting Element</th><th>Explanation</th><th>Unit/Format</th></tr>
+  <tr><td>Time of Occurrence</td><td>When the incident is believed to have started (first observed or estimated start).</td><td>ISO 8601 timestamp</td></tr>
+  <tr><td>Discovery Time</td><td>Elapsed time between occurrence and detection, recorded as a numeric measurement.</td><td>seconds</td></tr>
+  <tr><td>Containment Time</td><td>Elapsed time from detection until containment actions stop further impact.</td><td>seconds</td></tr>
+  <tr><td>Eradication Time</td><td>Time spent removing the threat from affected systems after containment.</td><td>seconds</td></tr>
+  <tr><td>Recovery Time</td><td>Time required to restore services to normal operations after eradication.</td><td>seconds</td></tr>
+  <tr><td>Total Downtime</td><td>Aggregate service unavailability duration attributable to the incident.</td><td>minutes</td></tr>
+  <tr><td>MTTD (Mean Time to Detect)</td><td>Average detection latency across similar incidents.</td><td>hours</td></tr>
+  <tr><td>MTTR (Mean Time to Respond)</td><td>Average time from detection to response completion across incidents.</td><td>hours</td></tr>
+</table>

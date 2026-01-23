@@ -1,0 +1,7 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type 4 Data Frame Structure</caption>
+  <tr><td colspan="4"></td><td colspan="2">Transmit data stream order: MSB first</td><td colspan="5"></td></tr>
+  <tr><td colspan="3">486 bits</td><td colspan="8"></td></tr>
+  <tr><td></td><td></td><td>Reserved bits</td><td>IOD SSR</td><td>IODP</td><td>SubType2</td><td>URAI</td><td></td><td>URAI</td><td>Reserved bits</td><td>CRC</td></tr>
+  <tr><td>MesTypeID 6bits</td><td>Epoch time 17 bits</td><td>4 bits</td><td>2 bits</td><td>4 bits</td><td>3 bits</td><td>(Satellite 1) 6 bits</td><td></td><td>(Satellite 70） 6 bits</td><td>6 bits</td><td>24 bits</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>ArCamera_setNearFarPlanes Parameters (adds intrinsics but not intrinsics-focused)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>camera</td><td>ArCamera *</td><td>Camera pointer</td></tr>
+  <tr><td>near</td><td>float</td><td>Specify the near camera plane</td></tr>
+  <tr><td>far</td><td>float</td><td>Specify the far camera plane</td></tr>
+  <tr><td>intrinsics</td><td>ArCameraIntrinsics *</td><td>Intrinsics provided for reference but not modified</td></tr>
+  <tr><td>reserved</td><td>void *</td><td>Reserved for future use</td></tr>
+</table>

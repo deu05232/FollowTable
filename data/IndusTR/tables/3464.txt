@@ -1,0 +1,16 @@
+<table>
+  <caption>Air-Jet Vortex Spinning Machine Process Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Cheese Diameter</td><td>CheeseDiameter</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~300.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X0201</td><td>Main Fan Negative Pressure</td><td>NegativePressureOfMainFan</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>1 600.00～2 500.00</td><td>Pa</td><td>1</td><td>I</td></tr>
+  <tr><td>0X0202</td><td>Auxiliary Fan Negative Pressure</td><td>NegativePressureOfAuxiliaryF an</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>4 000.00～6 800.00</td><td>Pa</td><td>1</td><td>I</td></tr>
+  <tr><td>0X0203</td><td>Total Draft Multiple</td><td>TotalDraftMultiple</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>50.00~400.00</td><td>times</td><td>|</td><td></td></tr>
+  <tr><td>0X0204</td><td>Input Ratio</td><td>InputRatio</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.90~1.00</td><td>times</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0205</td><td>Tension Ratio</td><td>TensionRatio</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>1.00~1.05</td><td>times</td><td>1</td><td>|</td></tr>
+  <tr><td>0X0206</td><td>Coiling Ratio</td><td>CoilingRatio</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>1.00~1.05</td><td>times</td><td>1</td><td>|</td></tr>
+  <tr><td>0X0207</td><td>Spinning Count</td><td>SpinningCount</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>5.00~60.00</td><td>tex</td><td>|</td><td></td></tr>
+  <tr><td>0X0208</td><td>Yarn Storage Amount Control</td><td>YarnStorageControl</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~10.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X0209</td><td>Sliver Weight</td><td>SliverWeight</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>10.00~50.00</td><td>g/5m</td><td></td><td></td></tr>
+  <tr><td>0X020A</td><td>Winding Angle</td><td>WindingAngle</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>25.00~35.00</td><td>（）</td><td>I</td><td></td></tr>
+  <tr><td>0X020B</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>|</td><td>1</td><td>1</td><td>|</td><td>I</td></tr>
+</table>

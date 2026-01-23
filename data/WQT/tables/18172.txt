@@ -1,0 +1,10 @@
+# BitTorrent Libraries for Developers  API Surface, Language Bindings, and Target Platforms
+
+| BitTorrent library | Primary programming language | Public API type | Official language bindings | Supported OS targets | Packaging / distribution | License | Latest stable version (release date) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| libtorrent (Rasterbar) | C++ | Native C++ API | Python (Boost.Python), unofficial Go/Rust wrappers | Linux, Windows, macOS | CMake + system packages (varies by distro) | BSD-style (per project) | 2.0.10 (2024-xx-xx) |
+| MonoTorrent | C# (.NET) | .NET API (NuGet) | F# (via .NET), PowerShell usable | Windows, Linux, macOS (via .NET) | NuGet package | MIT | 2.0.x (2023-xx-xx) |
+| WebTorrent | JavaScript (Node.js) | Node.js module API | TypeScript typings (community/official typings) | Windows, Linux, macOS (Node), browser via bundlers | npm package | MIT | 2.x (2024-xx-xx) |
+| anacrolix/torrent | Go | Go package API | N/A (Go native) | Windows, Linux, macOS, *BSD | Go modules | MPL-2.0 | 1.x (2024-xx-xx) |
+| Transmission libtransmission | C | C library API | Limited/third-party bindings (e.g., Python) | Linux, Windows, macOS, *BSD | Autotools/CMake (varies by fork) | GPL-2.0-or-later | 4.0.x (2023-xx-xx) |
+| libtorrent-rakshasa (used by rTorrent) | C++ | C++ API | N/A | Linux, *BSD, macOS | Autotools | GPL-2.0-or-later | 0.13.x (2015-xx-xx) |

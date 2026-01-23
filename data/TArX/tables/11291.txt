@@ -1,0 +1,16 @@
+<table>
+  <caption>Mathematical Definitions of Queue Discharge and Shockwave Relations Used in Traffic Flow Analysis</caption>
+  <thead>
+    <tr><th>Concept</th><th>Symbol</th><th>Definition / Rule</th><th>Units</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Traffic flow</td><td>q</td><td>q = k · v</td><td>veh/h</td></tr>
+    <tr><td>Density</td><td>k</td><td>k = N / L</td><td>veh/km</td></tr>
+    <tr><td>Space-mean speed</td><td>v</td><td>v = L / T</td><td>km/h</td></tr>
+    <tr><td>Queue growth rate</td><td>r</td><td>r = q_in − q_out</td><td>veh/h</td></tr>
+    <tr><td>Shockwave speed</td><td>w</td><td>w = (q2 − q1) / (k2 − k1)</td><td>km/h</td></tr>
+    <tr><td>Discharge headway</td><td>h_d</td><td>h_d = 3600 / s</td><td>s/veh</td></tr>
+    <tr><td>Saturation flow</td><td>s</td><td>s = 3600 / h_d</td><td>veh/h/lane</td></tr>
+    <tr><td>Delay per vehicle</td><td>d</td><td>d = t_actual − t_free</td><td>s</td></tr>
+  </tbody>
+</table>

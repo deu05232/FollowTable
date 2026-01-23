@@ -1,0 +1,12 @@
+# DLNA Audio Codec Reference  AAC Family Profiles and Signaling
+
+| Codec | Variant | Typical Container | Object Type / Profile | Channels | Sample Rates | Notes |
+|---|---|---|---|---:|---|---|
+| AAC | LC | MP4 (.m4a) | MPEG-4 Audio LC | 1–6 | 8–48 kHz | Common in consumer devices |
+| HE-AAC | v1 (SBR) | MP4 / ADTS | HE-AAC | 1–2 | 16–48 kHz | Spectral Band Replication |
+| HE-AAC | v2 (SBR+PS) | MP4 / ADTS | HE-AAC v2 | 1–2 | 16–48 kHz | Parametric Stereo |
+| xHE-AAC | USAC | MP4 | xHE-AAC | 1–2 | 8–48 kHz | More adaptive at low bitrates |
+| AAC | Main | MP4 | AAC Main | 1–6 | 8–48 kHz | Less commonly supported |
+| AAC | SSR | MP4 | AAC SSR | 1–2 | 8–48 kHz | Rare in practice |
+| ALAC | Apple Lossless | MP4 (.m4a) | ALAC | 1–8 | 8–384 kHz | Not universally DLNA-friendly |
+| MP3 | MPEG-1 Layer III | MP3 | N/A | 1–2 | 32–48 kHz | Legacy ubiquitous |

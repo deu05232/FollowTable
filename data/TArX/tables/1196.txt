@@ -1,0 +1,14 @@
+<table>
+  <caption>Galaxy properties which are derived by VESPA. Where appropriate, quantities are corrected for fiber aperture.</caption>
+  <tr><th>Symbol</th><th>Units</th><th>Description</th></tr>
+  <tr><td>x_(α)</td><td>-</td><td>star formation fractions in bin α</td></tr>
+  <tr><td>u_(α)</td><td>M_()</td><td>stellar mass formed in bin α</td></tr>
+  <tr><td>m_(α)</td><td>M_()</td><td>recycled stellar mass in bin α</td></tr>
+  <tr><td>C_(αβ)</td><td>M_()^(2)</td><td>covariance matrix for the star formation fractions</td></tr>
+  <tr><td>Z_(α)</td><td>-</td><td>mass-weighted metallicity for bin α</td></tr>
+  <tr><td>C^(Z)_(αβ)</td><td>-</td><td>covariance matrix for the metallicities</td></tr>
+  <tr><td>M_(*)</td><td>M_()</td><td>recycled stellar mass in galaxy</td></tr>
+  <tr><td>M^(u)_(*)</td><td>M_()</td><td>total stellar mass formed in galaxy</td></tr>
+  <tr><td>τ_(V)^(ISM)</td><td>-</td><td>dust extinction due to the inter-stellar medium for all populations</td></tr>
+  <tr><td>τ_(V)^(BC)</td><td>-</td><td>dust extinction due to the birth cloud for young populations</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Class B AIS Message 61 Addressed Message Content and Identifiers</caption>
+  <thead>
+    <tr><th>Message Element</th><th>Length (bit)</th><th>Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>6</td><td>61</td><td>Identifies Message 61</td></tr>
+    <tr><td>Relay Indicator</td><td>2</td><td>0–3</td><td>Number of relays; normally 0</td></tr>
+    <tr><td>Source MMSI</td><td>30</td><td>000000000–999999999</td><td>MMSI of transmitting unit</td></tr>
+    <tr><td>Destination MMSI</td><td>30</td><td>000000000–999999999</td><td>Intended recipient MMSI</td></tr>
+    <tr><td>Sequence Number</td><td>2</td><td>0–3</td><td>Matches acknowledgements</td></tr>
+    <tr><td>Retransmit Flag</td><td>1</td><td>0/1</td><td>Indicates retransmission</td></tr>
+    <tr><td>Application Identifier</td><td>16</td><td>DAC/FI</td><td>Application payload selector</td></tr>
+    <tr><td>Application Data</td><td>Variable</td><td>N/A</td><td>Binary payload per application</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Interface Definition for Exporting a User Signing Certificate</caption>
+  <tr><td>Prototype</td><td>BSTR SOF_ExportUserCert(BSTR CertID)</td></tr>
+  <tr><td>Description</td><td>Retrieve the Base64-encoded signing certificate string based on the unique certificate identifier</td></tr>
+  <tr><td>Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>Base64-encoded signing certificate string (success)</td></tr>
+  <tr><td>Empty string (failure; use SOF_GetLastError to obtain an error code as defined in Table A.1)</td></tr>
+</table>

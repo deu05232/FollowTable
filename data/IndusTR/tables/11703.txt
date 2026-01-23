@@ -1,0 +1,14 @@
+<table>
+  <caption>Pass Through Special-Area Subtype: Highway Toll Plaza (Manual/ETC Lanes) Scenario Elements</caption>
+  <thead>
+    <tr><th>Zone</th><th>Road Layer</th><th>Signs/Markings Layer</th><th>Lighting & Weather Layer</th><th>Traffic Operation Layer</th><th>Monitoring/Communication Layer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Advance approach</td><td>Expressway mainline; 3 lanes; asphalt; dry; gentle downgrade</td><td>Advance guide signs for toll plaza; lane assignment signs (ETC/Manual); dashed lane lines</td><td>Daytime; cloudy; good visibility</td><td>Speed reduction begins; vehicles start selecting toll lane</td><td>RSU broadcast: toll plaza ahead; HD map landmark; GNSS stable</td></tr>
+    <tr><td>Diverge / lane selection</td><td>Lanes fan out from 3 to 8; widening pavement; painted gore areas</td><td>Chevron gore markings; lane arrows; “ETC Only” pavement text; flexible delineators</td><td>Daytime; light rain; wet pavement with spray</td><td>Frequent lane changes; queue formation possible; increased cut-in events</td><td>CCTV for lane-change area; queue length detection; VMS with lane status</td></tr>
+    <tr><td>ETC lane entry</td><td>Dedicated ETC lane with narrow channelization; speed hump absent; anti-skid surface</td><td>ETC gantry sign; lane-control signal (green arrow/red X); channelizing lines</td><td>Daytime; rain; reflective glare on markings</td><td>Low-speed pass-through (e.g., 20–40 km/h); no stopping expected</td><td>ETC DSRC/5.8GHz reader; vehicle ID verification; transaction status message to cloud</td></tr>
+    <tr><td>Manual booth lane</td><td>Booth island; stop line; short stacking area; curb and protective barriers</td><td>Stop line; booth number sign; “Stop” sign; pedestrian crossing marking (staff only)</td><td>Daytime; rain; localized canopy lighting under toll roof</td><td>Stop-and-go; payment dwell time; possible queue spillback</td><td>Booth camera; license plate recognition (LPR); intercom; payment system network link</td></tr>
+    <tr><td>Plaza throat / merge-out</td><td>Lanes taper from 8 back to 3; acceleration/merge area; wet surface</td><td>Merge arrows; dashed-to-solid lane lines; speed limit sign after booths</td><td>Daytime; rain easing to overcast; visibility moderate</td><td>Aggressive merging; gap acceptance critical; lane drop conflicts</td><td>Merge-area CCTV; lane-use control signals; V2I merge advisory message</td></tr>
+    <tr><td>Post-plaza recovery</td><td>Mainline restored; 3 lanes; drainage functioning; wet-to-damp pavement</td><td>Route confirmation signs; normal lane markings; variable speed sign</td><td>Daytime; overcast; improving surface friction</td><td>Traffic accelerates; platoons reform after toll processing</td><td>Traffic flow sensors; cloud reporting of plaza throughput; positioning map-match correction</td></tr>
+  </tbody>
+</table>

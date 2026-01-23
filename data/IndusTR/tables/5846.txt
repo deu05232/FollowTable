@@ -1,0 +1,14 @@
+<table>
+  <caption>ARCameraAutoFocusMode Enumeration Values</caption>
+  <thead>
+    <tr><th>Enumeration Value (Name = Number)</th><th>Description</th><th>When to Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AR_CAMERA_AUTOFOCUS_MODE_OFF = 0</td><td>Autofocus is disabled; focus distance is fixed by the device/driver defaults.</td><td>Use when focus must remain stable (e.g., fixed-distance captures).</td></tr>
+    <tr><td>AR_CAMERA_AUTOFOCUS_MODE_ON = 1</td><td>Autofocus is enabled continuously during the AR session.</td><td>General-purpose mode for stable tracking and clear video.</td></tr>
+    <tr><td>AR_CAMERA_AUTOFOCUS_MODE_ONESHOT = 2</td><td>Triggers autofocus once, then holds the resulting focus distance.</td><td>Use when you want a single refocus event without continuous hunting.</td></tr>
+    <tr><td>AR_CAMERA_AUTOFOCUS_MODE_MACRO = 3</td><td>Optimizes autofocus behavior for close-range subjects.</td><td>Use for tabletop/close-proximity experiences.</td></tr>
+    <tr><td>AR_CAMERA_AUTOFOCUS_MODE_SMOOTH = 4</td><td>Autofocus prioritizes smooth transitions to reduce visible focus jumps.</td><td>Use for video-like experiences where focus pumping is distracting.</td></tr>
+    <tr><td>AR_CAMERA_AUTOFOCUS_MODE_TRACK_SUBJECT = 5</td><td>Autofocus attempts to maintain focus on the primary tracked subject region.</td><td>Use when the user moves around a prominent target/object.</td></tr>
+  </tbody>
+</table>

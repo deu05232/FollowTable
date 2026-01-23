@@ -1,0 +1,8 @@
+<table>
+  <caption>vrPose field list for VR positioning</caption>
+  <tr><th>Data Type</th><th>Field</th><th>Field Type</th><th>Description</th></tr>
+  <tr><td rowspan="4">vrPose</td><td>time_stamp</td><td>int64_t</td><td>Pose timestamp</td></tr>
+  <tr><td>orientation</td><td>vrQuaternion</td><td>Rotation quaternion</td></tr>
+  <tr><td>position</td><td>vr3DPoint</td><td>3D position</td></tr>
+  <tr><td>status</td><td>uint32_t</td><td>Pose validity flags</td></tr>
+</table>

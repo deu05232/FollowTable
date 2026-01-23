@@ -1,0 +1,10 @@
+<table>
+  <caption>Data Link Layer Version Negotiation in TLS 1.3 (Cipher Suite Policy Matrix)</caption>
+  <tr><th>Profile</th><th>Min TLS Version</th><th>Max TLS Version</th><th>Supported Cipher Suites</th><th>Key Exchange</th><th>Certificate Type</th><th>Negotiation Rule</th></tr>
+  <tr><td>Web-Default</td><td>TLS 1.2</td><td>TLS 1.3</td><td>AES_128_GCM_SHA256, CHACHA20_POLY1305_SHA256</td><td>ECDHE</td><td>X.509</td><td>ClientHello/ServerHello selects strongest common</td></tr>
+  <tr><td>IoT-Restricted</td><td>TLS 1.2</td><td>TLS 1.2</td><td>AES_128_CCM_8_SHA256</td><td>ECDHE</td><td>Raw Public Key</td><td>No TLS 1.3 extensions permitted</td></tr>
+  <tr><td>Enterprise-Strict</td><td>TLS 1.3</td><td>TLS 1.3</td><td>AES_256_GCM_SHA384</td><td>ECDHE</td><td>X.509</td><td>Reject downgrade and legacy versions</td></tr>
+  <tr><td>Legacy-Compat</td><td>TLS 1.0</td><td>TLS 1.2</td><td>AES_128_CBC_SHA, AES_256_CBC_SHA</td><td>RSA</td><td>X.509</td><td>Allow legacy fallback</td></tr>
+  <tr><td>Test-InterOp</td><td>TLS 1.2</td><td>TLS 1.3</td><td>AES_128_GCM_SHA256</td><td>ECDHE</td><td>X.509</td><td>Prefer TLS 1.3 if supported</td></tr>
+  <tr><td>Airgap-Mode</td><td>TLS 1.2</td><td>TLS 1.2</td><td>AES_128_GCM_SHA256</td><td>ECDHE</td><td>X.509</td><td>Disable renegotiation</td></tr>
+</table>

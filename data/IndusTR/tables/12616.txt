@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Link Layer Version Negotiation Message Parameters (Charger-to-Vehicle, C2V)</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Field</th><th>Length (bytes)</th><th>Data Type</th><th>Allowed Values / Encoding</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>CAN Type</td><td>1</td><td>UINT8</td><td>0x00=CAN 2.0B; 0x01=CAN FD; 0x02=CAN XL</td><td>Indicates the sender’s CAN physical/data-link capability. Backward compatibility assumed.</td></tr>
+    <tr><td>1</td><td>Negotiation Result</td><td>1</td><td>UINT8</td><td>0x00=Continue negotiation; 0x01=Negotiation successful; 0x02=Negotiation failed</td><td>Result code carried in the message payload.</td></tr>
+    <tr><td>2</td><td>Protocol Version - Major</td><td>1</td><td>UINT8</td><td>0x00–0xFF</td><td>Part of Protocol Version Number (Major.Minor.Patch/Provisional).</td></tr>
+    <tr><td>3</td><td>Protocol Version - Minor</td><td>1</td><td>UINT8</td><td>0x00–0xFF</td><td>Part of Protocol Version Number.</td></tr>
+    <tr><td>4</td><td>Protocol Version - Provisional</td><td>1</td><td>UINT8</td><td>0x00–0xFF (0xFF with other bytes 0xFF indicates failure sentinel)</td><td>Part of Protocol Version Number; when result=0x02, the version field may be set to 0xFF 0xFF 0xFF.</td></tr>
+    <tr><td>2..4</td><td>Protocol Version Number (composite)</td><td>3</td><td>UINT8[3]</td><td>Example: [0x01,0x02,0x03] => V1.2.3; Failure sentinel: 0xFFFFFF</td><td>Composite view of bytes 2–4 for implementers that treat the version as a tuple.</td></tr>
+  </tbody>
+</table>

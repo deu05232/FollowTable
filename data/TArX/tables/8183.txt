@@ -1,0 +1,15 @@
+<table>
+  <caption>Urban traffic statistics by corridor and time period (queueing and flow measures, not side-by-side model error).</caption>
+  <thead>
+    <tr><th rowspan="2">Corridor</th><th rowspan="2">Time period</th><th colspan="2">Volume (veh/h)</th><th colspan="2">Speed (km/h)</th><th colspan="2">Queue</th></tr>
+    <tr><th>Mean</th><th>95th pct</th><th>Mean</th><th>Std</th><th>Max length (veh)</th><th>Max duration (min)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">A9 Westbound</td><td>AM peak</td><td>4200</td><td>5100</td><td>58</td><td>12</td><td>180</td><td>46</td></tr>
+    <tr><td>PM peak</td><td>3900</td><td>4800</td><td>62</td><td>10</td><td>140</td><td>35</td></tr>
+    <tr><td rowspan="2">Ring Road North</td><td>AM peak</td><td>3600</td><td>4450</td><td>51</td><td>15</td><td>210</td><td>55</td></tr>
+    <tr><td>PM peak</td><td>4100</td><td>5200</td><td>47</td><td>18</td><td>260</td><td>68</td></tr>
+    <tr><td rowspan="2">City Center Arterial</td><td>Midday</td><td>2200</td><td>3000</td><td>33</td><td>9</td><td>95</td><td>21</td></tr>
+    <tr><td>PM peak</td><td>2800</td><td>3600</td><td>28</td><td>11</td><td>150</td><td>39</td></tr>
+  </tbody>
+</table>

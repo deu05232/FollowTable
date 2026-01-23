@@ -1,0 +1,10 @@
+<table>
+  <caption>Space of physical parameters used to obtain the matrix of restitution for the linear-dashpot model. For the definition of impact velocity and eccentricity see \figRef fig:excCollSetup.</caption>
+  <tr><th></th><th>unit</th><th>min.</th><th>max.</th><th></th></tr>
+  <tr><td>k</td><td>[ 10^(3) N / m]</td><td>1</td><td>1000</td><td>spring constant</td></tr>
+  <tr><td>R</td><td>[m]</td><td>0.001</td><td>0.1</td><td>particle radius</td></tr>
+  <tr><td>ρ_(m)</td><td>[kg / m ^((3)) ]</td><td>250</td><td>3250</td><td>material density</td></tr>
+  <tr><td>γ</td><td>[kg / s]</td><td>0.01</td><td>1.25</td><td>dissipative parameter</td></tr>
+  <tr><td>v</td><td>[m / s]</td><td>0.001</td><td>25</td><td>impact velocity</td></tr>
+  <tr><td>d/l</td><td>-</td><td>0.01</td><td>0.99</td><td>eccentricity</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Information on the performance of the different numerical methods used for the computation of the evolution of the regular orbit R1, of two deviation vectors from it and of its SALI. The step size τ was always 0.05. The order used by the TIDES and TAYLOR methods is determined by these routines for each step τ and is constant for the whole integration.</caption>
+  <tr><th>integrator</th><th>method</th><th>CPU time</th><th>Relative energy error</th><th>order</th></tr>
+  <tr><td>SBAB _(2) C</td><td>TM</td><td>04m 02s</td><td>2× 10^(-8)</td><td>4</td></tr>
+  <tr><td>DOP853</td><td>δ=10^(-5)</td><td>09m 05s</td><td>7× 10^(-11)</td><td>8</td></tr>
+  <tr><td>DOP853</td><td>δ=10^(-16)</td><td>15m 58s</td><td>1× 10^(-11)</td><td>8</td></tr>
+  <tr><td>TIDES</td><td>δ=10^(-5)</td><td>15m 45s</td><td>4× 10^(-13)</td><td>10</td></tr>
+  <tr><td>TIDES</td><td>δ=10^(-16)</td><td>39m 39s</td><td>1× 10^(-16)</td><td>23</td></tr>
+  <tr><td>TAYLOR</td><td>δ=10^(-5)</td><td>15m 00s</td><td>4× 10^(-6)</td><td>7</td></tr>
+  <tr><td>TAYLOR</td><td>δ=10^(-16)</td><td>67m 01s</td><td>4× 10^(-13)</td><td>20</td></tr>
+</table>

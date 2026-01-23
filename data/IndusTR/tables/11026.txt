@@ -1,0 +1,7 @@
+<table>
+  <caption>Charging termination message fields (sequence-based, no SPN)</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Description</th></tr>
+  <tr><td>1</td><td>Termination Reason</td><td>1 byte</td><td>BYTE</td><td>Reason code for ending the charge</td></tr>
+  <tr><td>2</td><td>Fault Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>Fault code associated with termination</td></tr>
+  <tr><td>3</td><td>Error Reason</td><td>1 byte</td><td>BYTE</td><td>Error code associated with termination</td></tr>
+</table>

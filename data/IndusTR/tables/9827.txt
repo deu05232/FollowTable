@@ -1,0 +1,14 @@
+<table>
+  <caption>Extrusion Calender Gauge Control Loops (Width/Thickness/Weight Feedback to Gap/Speed Setpoints)</caption>
+  <thead>
+    <tr><th>Loop ID</th><th>Measured Value (PV)</th><th>Sensor / Source</th><th>Recipe Target (SP)</th><th>Error / Control Rule</th><th>Updated Setpoint / Command (MV)</th><th>Actuator / Equipment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>G-01</td><td>Sheet width (mm)</td><td>Laser width gauge (real-time)</td><td>Width recipe setpoint (mm)</td><td>Knife-gap_SP = f(SP − PV) (gain + bias, with clamp)</td><td>Knife-gap setpoint (mm)</td><td>Edge knife servo positioner</td></tr>
+    <tr><td>G-02</td><td>Sheet thickness (mm)</td><td>Beta/X-ray thickness gauge used as PV only (numeric thickness)</td><td>Thickness recipe setpoint (mm)</td><td>Roll-gap_SP = PID(SP − PV)</td><td>Roll-gap setpoint (mm)</td><td>Calender roll hydraulic gap actuator</td></tr>
+    <tr><td>G-03</td><td>Unit weight (g/m)</td><td>Meter-scale + encoder (mass/length PV)</td><td>Unit weight recipe setpoint (g/m)</td><td>Extruder_speed_SP = PI(SP − PV)</td><td>Extruder screw speed setpoint (rpm)</td><td>Extruder VFD / screw drive</td></tr>
+    <tr><td>G-04</td><td>Line speed (m/min)</td><td>Master line encoder (real-time)</td><td>Line speed recipe setpoint (m/min)</td><td>Speed_trim = PID(SP − PV)</td><td>Conveyor belt speed command (m/min)</td><td>Take-off conveyor drive</td></tr>
+    <tr><td>G-05</td><td>Floating roller position (mm)</td><td>Dancer position sensor (real-time)</td><td>Dancer center position setpoint (mm)</td><td>Tension via dancer: PI(SP − PV)</td><td>Downstream speed trim (m/min delta)</td><td>Haul-off/conveyor speed reference</td></tr>
+    <tr><td>G-06</td><td>Sheet thickness (mm)</td><td>Thickness gauge (real-time)</td><td>Thickness recipe setpoint (mm)</td><td>Cascade: outer PI(thickness error) outputs inner roll-gap SP</td><td>Cascade output: roll-gap inner SP (mm)</td><td>Calender gap actuator (inner loop)</td></tr>
+  </tbody>
+</table>

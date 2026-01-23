@@ -1,0 +1,16 @@
+<table>
+  <caption>Waste-Type Inputs for Direct CO2 from MSW Incineration (Biogenic vs Fossil Carbon Split)</caption>
+  <thead>
+    <tr><th rowspan="2">Waste type</th><th colspan="4">Mass and composition inputs</th><th colspan="2">Combustion / oxidation</th><th colspan="2">Carbon split</th><th rowspan="2">Project CO2 calculation input note</th></tr>
+    <tr><th>Wet mass treated (t/yr)</th><th>Dry matter ratio (fraction)</th><th>Carbon content of dry matter (fraction)</th><th>Non-carbon ash/inerts (fraction of dry)</th><th>Combustion efficiency (fraction)</th><th>Oxidation factor (fraction)</th><th>Fossil carbon share (fraction of carbon)</th><th>Biogenic carbon share (fraction of carbon)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Plastics</td><td>18000</td><td>0.95</td><td>0.75</td><td>0.05</td><td>0.995</td><td>1.00</td><td>0.98</td><td>0.02</td><td>Fossil CO2 dominated; inputs support PE from combustion per waste type</td></tr>
+    <tr><td>Textiles</td><td>6000</td><td>0.80</td><td>0.50</td><td>0.10</td><td>0.995</td><td>1.00</td><td>0.50</td><td>0.50</td><td>Mixed fossil/biogenic; shows explicit split needed for accounting</td></tr>
+    <tr><td>Paper & cardboard</td><td>26400</td><td>0.90</td><td>0.50</td><td>0.08</td><td>0.995</td><td>1.00</td><td>0.05</td><td>0.95</td><td>Mostly biogenic carbon; table separates fossil share for PE attribution</td></tr>
+    <tr><td>Rubber & leather</td><td>2400</td><td>0.85</td><td>0.65</td><td>0.15</td><td>0.990</td><td>0.99</td><td>0.90</td><td>0.10</td><td>Higher fossil share; includes both efficiency and oxidation inputs</td></tr>
+    <tr><td>Wood</td><td>3600</td><td>0.70</td><td>0.50</td><td>0.05</td><td>0.990</td><td>0.99</td><td>0.00</td><td>1.00</td><td>Biogenic-only example; still needs efficiencies to compute total CO2 formed</td></tr>
+    <tr><td>Food waste</td><td>40800</td><td>0.30</td><td>0.48</td><td>0.05</td><td>0.990</td><td>0.99</td><td>0.00</td><td>1.00</td><td>Low dry matter; shows why dry ratio is required by waste type</td></tr>
+    <tr><td>Diapers / sanitary waste</td><td>4800</td><td>0.60</td><td>0.55</td><td>0.20</td><td>0.990</td><td>0.99</td><td>0.30</td><td>0.70</td><td>Composite stream; table makes assumptions explicit for QA/QC</td></tr>
+  </tbody>
+</table>

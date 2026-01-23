@@ -1,0 +1,10 @@
+<table>
+  <caption>Data Quality Audit Method for Official Vehicle Platform (Validation Rules Catalog)</caption>
+  <tr><th>Rule ID</th><th>Target Field (Example)</th><th>Check Type</th><th>Rule Logic</th><th>Severity</th><th>Sampling Rate</th><th>Owner</th></tr>
+  <tr><td>DQ-001</td><td>Business Document ID</td><td>Format</td><td>Must match regex: ^[A-Z]{2}-\d{4}-\d{6}$</td><td>High</td><td>100%</td><td>Data Governance</td></tr>
+  <tr><td>DQ-002</td><td>Unified Social Credit Code</td><td>Checksum</td><td>Verify GB 32100 check digit</td><td>High</td><td>100%</td><td>Compliance</td></tr>
+  <tr><td>DQ-003</td><td>Refueling Time</td><td>Range</td><td>Cannot be later than system time</td><td>Medium</td><td>100%</td><td>Operations</td></tr>
+  <tr><td>DQ-004</td><td>Insurance Expiry Date</td><td>Consistency</td><td>Expiry Date > Start Date</td><td>High</td><td>100%</td><td>Risk Control</td></tr>
+  <tr><td>DQ-005</td><td>Applicant</td><td>Completeness</td><td>Not null for dispatch requests</td><td>Medium</td><td>10%</td><td>Fleet Admin</td></tr>
+  <tr><td>DQ-006</td><td>Repair Delivery Time</td><td>Timeliness</td><td>Must be recorded within 24h after handover</td><td>Low</td><td>5%</td><td>Maintenance Team</td></tr>
+</table>

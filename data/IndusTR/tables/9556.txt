@@ -1,0 +1,15 @@
+<table>
+  <caption>Runtime Integration Points with Emphasis on Naming Conventions and Binding Generation</caption>
+  <thead>
+    <tr><th>Component</th><th>Doc Name (Title Case)</th><th>C API Name (snake_case)</th><th>C++ Wrapper (CamelCase)</th><th>Python Module</th><th>Generated Binding File</th><th>Responsibility (Brief)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Runtime</td><td>Create Model</td><td>create_model</td><td>CreateModel</td><td>runtime.model</td><td>py_runtime_model.cc</td><td>Create a model handle</td></tr>
+    <tr><td>Runtime</td><td>Destroy Model</td><td>destroy_model</td><td>DestroyModel</td><td>runtime.model</td><td>py_runtime_model.cc</td><td>Release the model handle</td></tr>
+    <tr><td>Runtime</td><td>Set Inputs</td><td>set_inputs</td><td>SetInputs</td><td>runtime.io</td><td>py_runtime_io.cc</td><td>Bind input tensors</td></tr>
+    <tr><td>Runtime</td><td>Run</td><td>run</td><td>Run</td><td>runtime.exec</td><td>py_runtime_exec.cc</td><td>Launch execution</td></tr>
+    <tr><td>Runtime</td><td>Get Outputs</td><td>get_outputs</td><td>GetOutputs</td><td>runtime.io</td><td>py_runtime_io.cc</td><td>Fetch output tensors</td></tr>
+    <tr><td>Diagnostics</td><td>Get Last Error</td><td>get_last_error</td><td>GetLastError</td><td>runtime.errors</td><td>py_runtime_errors.cc</td><td>Return last error string</td></tr>
+    <tr><td>Build System</td><td>Export Symbols</td><td>export_symbols</td><td>ExportSymbols</td><td>build.tools</td><td>symbols.def</td><td>Ensure symbol visibility</td></tr>
+  </tbody>
+</table>

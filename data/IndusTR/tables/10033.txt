@@ -1,0 +1,15 @@
+<table>
+  <caption>Silent List Configuration and Addressing Identifiers</caption>
+  <thead>
+    <tr><th>Section</th><th>Item</th><th>Value Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Addressing</td><td>Controller ID</td><td>1–16777215</td><td>Issuer of the silence command (management terminal)</td></tr>
+    <tr><td>Target user ID (start)</td><td>1–16777215</td><td>First user ID included in the silence scope</td></tr>
+    <tr><td>Target user ID (end)</td><td>1–16777215</td><td>Last user ID included in the silence scope</td></tr>
+    <tr><td>Silence list sequence ID</td><td>0–255</td><td>Sequence identifier for list update tracking</td></tr>
+    <tr><td rowspan="3">Operational flags</td><td>Silence start/stop flag</td><td>0–1</td><td>0: start silence; 1: end silence</td></tr>
+    <tr><td>Frequency point</td><td>0–2</td><td>0: auto; 1: Lf1; 2: Lf2</td></tr>
+    <tr><td>Beam ID</td><td>0–64</td><td>0: no output; 1–63: beam; 64: all visible beams</td></tr>
+  </tbody>
+</table>

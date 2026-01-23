@@ -1,0 +1,16 @@
+<table>
+  <caption>Read Intrinsics With Additional Camera Exposure and Focus Controls</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Intrinsics</td><td>intrinsics</td><td>ArCameraIntrinsics *</td><td>Intrinsics object handle used for reading calibration values</td></tr>
+    <tr><td>out_focal_length</td><td>float[2]</td><td>Returns fx, fy in pixels</td></tr>
+    <tr><td>out_principal_point</td><td>float[2]</td><td>Returns cx, cy in pixels</td></tr>
+    <tr><td>out_image_dimensions</td><td>int32_t[2]</td><td>Returns width, height associated with the intrinsics</td></tr>
+    <tr><td rowspan="4">Non-intrinsics camera controls</td><td>out_exposure_time_ns</td><td>int64_t *</td><td>Returns current exposure time in nanoseconds</td></tr>
+    <tr><td>out_iso</td><td>int32_t *</td><td>Returns sensor sensitivity (ISO)</td></tr>
+    <tr><td>focus_mode</td><td>ArFocusMode</td><td>Sets or queries the focus mode</td></tr>
+    <tr><td>white_balance_mode</td><td>ArWhiteBalanceMode</td><td>Sets or queries the white balance mode</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Ammonium Nitrate Neutralization (AN Solution) – Operator Control Targets (Ranges)</caption>
+  <thead>
+    <tr><th>Process step / point</th><th>Control indicator</th><th>Acceptable operating range</th><th>Purpose / stability cue</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Ammonia feed to neutralizer</td><td>Gaseous ammonia temperature (°C)</td><td>65–95</td><td>Maintain stable reaction rate and avoid condensation issues</td></tr>
+    <tr><td>Gaseous ammonia pressure (MPa)</td><td>0.45–0.85</td><td>Supports steady dosing and mixing</td></tr>
+    <tr><td>Ammonia-to-acid molar ratio (NH3:HNO3)</td><td>0.98–1.02</td><td>Keeps near-stoichiometric neutralization (minimize free acid / free ammonia)</td></tr>
+    <tr><td rowspan="3">Neutralizer reactor</td><td>Neutralizer operating pressure (MPa)</td><td>0.28–0.40</td><td>Indicates stable hydraulics and vapor disengagement</td></tr>
+    <tr><td>Neutralizer outlet temperature (°C)</td><td>145–170</td><td>Confirms heat balance is in normal window</td></tr>
+    <tr><td>Neutralizer outlet pH (25 °C basis)</td><td>6.2–7.2</td><td>Tracks neutralization completeness and corrosion risk</td></tr>
+    <tr><td rowspan="2">AN solution to evaporation</td><td>AN solution concentration to evaporator (% w/w)</td><td>78–85</td><td>Ensures evaporator load is manageable and stable</td></tr>
+    <tr><td>AN solution feed temperature to evaporator (°C)</td><td>120–150</td><td>Improves evaporation stability and reduces flashing disturbances</td></tr>
+  </tbody>
+</table>

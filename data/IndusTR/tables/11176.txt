@@ -1,0 +1,16 @@
+<table>
+  <caption>Data Link Layer Version Negotiation Message Payload (Initiator Request)</caption>
+  <thead>
+    <tr><th>Field No.</th><th>Field Name</th><th>Size</th><th>Encoding</th><th>Allowed / Example Values</th><th>Negotiation Semantics</th><th>Sender Behavior</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Message Type</td><td>1 byte</td><td>UINT8</td><td>0x10 = VersionRequest</td><td>Identifies this payload as the initial version handshake request.</td><td>Set to 0x10 for every initiator request frame.</td></tr>
+    <tr><td>2</td><td>Capability Flags</td><td>1 byte</td><td>Bitmask (UINT8)</td><td>bit0: supports backward-compat; bit1: supports retry; bit2: strict-match-only; others = 0</td><td>Communicates how flexible the sender is during negotiation (e.g., whether it can downgrade).</td><td>Set bits according to implementation; receivers must ignore unknown bits.</td></tr>
+    <tr><td>3</td><td>Highest Supported Version</td><td>3 bytes</td><td>BYTE[3] (major, minor, patch)</td><td>Example: 0x02 0x01 0x00 = V2.1.0</td><td>The maximum protocol revision the sender can speak.</td><td>Populate with highest supported; used by peer to pick a common version.</td></tr>
+    <tr><td>4</td><td>Lowest Supported Version</td><td>3 bytes</td><td>BYTE[3] (major, minor, patch)</td><td>Example: 0x01 0x00 0x00 = V1.0.0</td><td>Defines the minimum revision acceptable; helps peer decide whether downgrade is possible.</td><td>If peer proposes below this value, negotiation should fail.</td></tr>
+    <tr><td>5</td><td>Preferred Version</td><td>3 bytes</td><td>BYTE[3] (major, minor, patch)</td><td>Example: 0x02 0x00 0x00 = V2.0.0</td><td>The version the sender would like to use if supported by both sides.</td><td>Typically equals Highest Supported Version unless interoperability requires a specific default.</td></tr>
+    <tr><td>6</td><td>Transaction ID</td><td>2 bytes</td><td>UINT16 (big-endian)</td><td>0x0001..0xFFFF</td><td>Correlates request/response pairs and supports retries without ambiguity.</td><td>Increment or randomize per attempt; peer echoes it in responses.</td></tr>
+    <tr><td>7</td><td>Retry Timeout</td><td>2 bytes</td><td>UINT16 (milliseconds, big-endian)</td><td>Example: 0x03E8 = 1000 ms</td><td>Hints how long the sender will wait before resending if no response.</td><td>Optional policy hint; receivers may ignore and use local timers.</td></tr>
+    <tr><td>8</td><td>Reserved</td><td>1 byte</td><td>UINT8</td><td>Must be 0x00</td><td>Reserved for future revisions while keeping backward compatibility.</td><td>Sender sets to 0x00; receiver ignores if non-zero but should not fail solely due to this field.</td></tr>
+  </tbody>
+</table>

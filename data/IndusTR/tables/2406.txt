@@ -1,0 +1,10 @@
+<table>
+  <caption>Cross-Domain Glossary — “Application Layer” Terms in Web API Messaging (Non-EV Context)</caption>
+  <tr><th>Term</th><th>Definition</th><th>Typical Protocol</th><th>Field Example</th><th>Type</th><th>Validation</th><th>Remarks</th></tr>
+  <tr><td>Application-layer message</td><td>Payload exchanged between client and server</td><td>HTTP/REST</td><td>POST /chargeSessions</td><td>JSON</td><td>Schema-based</td><td>Not related to vehicle/charger CAN</td></tr>
+  <tr><td>Parameter</td><td>Named attribute in a request</td><td>OpenAPI</td><td>sessionId</td><td>string</td><td>UUID format</td><td>API contract level</td></tr>
+  <tr><td>Definition</td><td>Formal description of fields</td><td>JSON Schema</td><td>properties.energyKWh</td><td>number</td><td>min/max</td><td>Web ecosystem</td></tr>
+  <tr><td>Message header</td><td>Metadata outside payload</td><td>HTTP</td><td>Authorization</td><td>string</td><td>Bearer token</td><td>Security-related</td></tr>
+  <tr><td>Acknowledgment</td><td>Response indicating processing result</td><td>HTTP</td><td>200 OK</td><td>status code</td><td>Range check</td><td>Not CAN ACK</td></tr>
+  <tr><td>Cycle time</td><td>Polling interval</td><td>Client timer</td><td>1000 ms</td><td>integer</td><td>≥ 100</td><td>Different meaning from bus periodic frames</td></tr>
+</table>

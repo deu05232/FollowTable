@@ -1,0 +1,15 @@
+<table>
+  <caption>Beidou Monitoring Terminal Vibration / Shock Test Setup Parameters</caption>
+  <thead>
+    <tr><th>Test item</th><th>Axis</th><th>Frequency range (Hz)</th><th>PSD / Acceleration level</th><th>Sweep rate / Duration</th><th>Mounting method</th><th>Power during test</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Random vibration</td><td>X</td><td>10–500</td><td>0.02 g²/Hz (10–200), 0.01 g²/Hz (200–500)</td><td>60 min</td><td>Rigid fixture, connector locked</td><td>OFF</td></tr>
+    <tr><td>Y</td><td>10–500</td><td>0.02 g²/Hz (10–200), 0.01 g²/Hz (200–500)</td><td>60 min</td><td>Rigid fixture, connector locked</td><td>OFF</td></tr>
+    <tr><td>Z</td><td>10–500</td><td>0.02 g²/Hz (10–200), 0.01 g²/Hz (200–500)</td><td>60 min</td><td>Rigid fixture, connector locked</td><td>OFF</td></tr>
+    <tr><td rowspan="2">Sine sweep vibration</td><td>All</td><td>5–300</td><td>5 m/s² (5–100), 10 m/s² (100–300)</td><td>1 oct/min, 20 sweeps</td><td>Floating plate + damping pad</td><td>ON</td></tr>
+    <tr><td>All</td><td>Resonance dwell</td><td>10 m/s² at resonance</td><td>10 min per resonance</td><td>Same as above</td><td>ON</td></tr>
+    <tr><td rowspan="2">Mechanical shock</td><td>±X/±Y/±Z</td><td>Half-sine pulse</td><td>30 g, 11 ms</td><td>3 shocks per direction</td><td>Foam-lined clamp</td><td>OFF</td></tr>
+    <tr><td>Drop test</td><td>Free drop height</td><td>1.0 m</td><td>6 faces + 12 edges</td><td>1 drop each</td><td>Packaged unit</td><td>OFF</td></tr>
+  </tbody>
+</table>

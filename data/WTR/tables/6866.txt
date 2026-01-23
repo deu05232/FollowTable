@@ -1,0 +1,9 @@
+# Cisco ERP (Ethernet Ring Protection) configuration steps (not enterprise ERP pricing)
+
+| Step | Command | Purpose |
+|---|---|---|
+| 1 | enable | Enter privileged EXEC mode |
+| 2 | configure terminal | Enter global configuration mode |
+| 3 | ethernet ring g8032 ring1 | Create the Ethernet ring |
+| 4 | port0 interface fastethernet 0/1/0 | Assign ring port0 |
+| 5 | open-ring | Configure open ring |

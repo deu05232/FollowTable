@@ -1,0 +1,16 @@
+<table>
+  <caption>Clear-Sky and All-Sky Radiative Flux Product Codes (LW/SW)</caption>
+  <thead>
+    <tr><th>Sky Condition</th><th>Level</th><th>Data Name</th><th>Code</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">All-sky</td><td rowspan="2">Surface</td><td>All-sky Surface Downwelling Shortwave Flux</td><td>AS_SFC_DSW</td><td>Surface downwelling shortwave flux under actual cloud conditions</td></tr>
+    <tr><td>All-sky Surface Downwelling Longwave Flux</td><td>AS_SFC_DLW</td><td>Surface downwelling longwave flux under actual cloud conditions</td></tr>
+    <tr><td rowspan="2">TOA</td><td>All-sky TOA Outgoing Longwave Flux</td><td>AS_TOA_OLW</td><td>Outgoing longwave flux at TOA for all-sky scenes</td></tr>
+    <tr><td>All-sky TOA Reflected Shortwave Flux</td><td>AS_TOA_RSW</td><td>Reflected shortwave flux at TOA for all-sky scenes</td></tr>
+    <tr><td rowspan="4">Clear-sky</td><td rowspan="2">Surface</td><td>Clear-sky Surface Downwelling Shortwave Flux</td><td>CS_SFC_DSW</td><td>Surface downwelling shortwave flux assuming cloud-free atmosphere</td></tr>
+    <tr><td>Clear-sky Surface Downwelling Longwave Flux</td><td>CS_SFC_DLW</td><td>Surface downwelling longwave flux under clear-sky conditions</td></tr>
+    <tr><td rowspan="2">TOA</td><td>Clear-sky TOA Outgoing Longwave Flux</td><td>CS_TOA_OLW</td><td>Outgoing longwave flux at TOA for clear-sky scenes</td></tr>
+    <tr><td>Clear-sky TOA Reflected Shortwave Flux</td><td>CS_TOA_RSW</td><td>Reflected shortwave flux at TOA for clear-sky scenes</td></tr>
+  </tbody>
+</table>

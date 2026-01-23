@@ -1,0 +1,15 @@
+<table>
+  <caption>Harmonic Voltage Output, Frequency Tracking, and Tolerance Summary</caption>
+  <thead>
+    <tr><th>Function</th><th>Condition / Interval</th><th>Output / Setting Range</th><th>Setting Resolution</th><th>Maximum Permissible Error</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fundamental voltage output</td><td>U (rms)</td><td>40 V to 320 V</td><td>0.1 V</td><td>±0.10% (relative)</td><td>Used as U1 reference for harmonic ratios</td></tr>
+    <tr><td>Harmonic order</td><td>—</td><td>2nd to 50th</td><td>1 order</td><td>—</td><td>Independent enable/disable per order</td></tr>
+    <tr><td>Harmonic voltage ratio</td><td>Per harmonic</td><td>0% to 40% of fundamental</td><td>0.1%</td><td>±0.10% (relative to U1)</td><td>Composite phase-voltage peak ≤ 420 V</td></tr>
+    <tr><td>Harmonic phase angle</td><td>Per harmonic</td><td>0° to 359.9°</td><td>0.1°</td><td>±0.3°</td><td>Referenced to fundamental voltage phase</td></tr>
+    <tr><td>Frequency output</td><td>f</td><td>45.00 Hz to 65.00 Hz</td><td>0.01 Hz</td><td>±0.02%</td><td>Supports off-nominal frequency harmonic tests</td></tr>
+    <tr><td>Frequency/phase coherency</td><td>With harmonics enabled</td><td>—</td><td>—</td><td>Phase jitter ≤ 0.2° (rms)</td><td>Ensures stable harmonic phase relationships</td></tr>
+    <tr><td>Amplitude repeatability</td><td>Repeated setting (same point)</td><td>—</td><td>—</td><td>≤0.05%</td><td>Repeatability of voltage amplitude setting</td></tr>
+  </tbody>
+</table>

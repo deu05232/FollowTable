@@ -1,0 +1,15 @@
+<table>
+  <caption>Table A: Link Container to Another Container (Request Body Fields)</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Type</th><th>Required</th><th>Description / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>string</td><td>Yes</td><td>Project identifier where the source container resides.</td></tr>
+    <tr><td>containerId</td><td>string</td><td>Yes</td><td>Identifier of the source information container (the container that will hold the link).</td></tr>
+    <tr><td>link</td><td>object (Reference)</td><td>Yes</td><td>Reference object that points to the target container. This field MUST follow the Reference object structure (see “Reference Object Fields” in the spec).</td></tr>
+    <tr><td>link.role</td><td>string</td><td>No</td><td>Optional semantic role of the link (e.g.,dependsOn,contains,derivedFrom).</td></tr>
+    <tr><td>link.direction</td><td>string</td><td>No</td><td>Link direction relative tocontainerId. Allowed:outbound/inbound/bidirectional.</td></tr>
+    <tr><td>link.meta</td><td>object</td><td>No</td><td>Implementation-defined metadata for the link; MUST NOT change how the reference resolves.</td></tr>
+    <tr><td>replaceExisting</td><td>boolean</td><td>No</td><td>Iftrue, replaces an existing link with the samelinktarget andlink.role.</td></tr>
+  </tbody>
+</table>

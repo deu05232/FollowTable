@@ -1,0 +1,23 @@
+<table>
+  <caption>VR Tracking System Working States and Error Codes</caption>
+  <thead>
+    <tr><th>Module</th><th>Data Type</th><th>Enum Value</th><th>Description</th><th>Recommended Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">HMD Positioning System</td><td rowspan="6">vrHMDWorkingStatus</td><td>VR_HMD_WORKING_STATUS_STARTUP=0x00</td><td>Power-on startup</td><td>Wait for initialization</td></tr>
+    <tr><td>VR_HMD_WORKING_STATUS_STANDBY=0x01</td><td>Standby/idle</td><td>Wake on user action</td></tr>
+    <tr><td>VR_HMD_WORKING_STATUS_INITIALIZING=0x02</td><td>Sensor calibration in progress</td><td>Keep device still</td></tr>
+    <tr><td>VR_HMD_WORKING_STATUS_TRACKING=0x03</td><td>Tracking active</td><td>Normal operation</td></tr>
+    <tr><td>VR_HMD_WORKING_STATUS_RELOCALIZING=0x04</td><td>Recovering map alignment</td><td>Improve lighting/texture</td></tr>
+    <tr><td>VR_HMD_WORKING_STATUS_ERROR=0x05</td><td>Fatal error state</td><td>Restart service</td></tr>
+    <tr><td rowspan="5">Controller</td><td rowspan="5">vrControllerLinkState</td><td>VR_CONTROLLER_LINK_DISCONNECTED=0</td><td>No link</td><td>Pair device</td></tr>
+    <tr><td>VR_CONTROLLER_LINK_CONNECTING=1</td><td>Connecting</td><td>Keep within range</td></tr>
+    <tr><td>VR_CONTROLLER_LINK_CONNECTED=2</td><td>Connected</td><td>Normal operation</td></tr>
+    <tr><td>VR_CONTROLLER_LINK_UPDATING=3</td><td>Firmware updating</td><td>Do not power off</td></tr>
+    <tr><td>VR_CONTROLLER_LINK_FAILED=4</td><td>Connection failed</td><td>Re-pair</td></tr>
+    <tr><td rowspan="4">Tracking Core</td><td rowspan="4">vrTrackingError</td><td>VR_TRACKING_ERROR_NONE=0</td><td>No error</td><td>null</td></tr>
+    <tr><td>VR_TRACKING_ERROR_CAMERA_LOST=1</td><td>Camera stream lost</td><td>Check permissions/cable</td></tr>
+    <tr><td>VR_TRACKING_ERROR_IMU_FAULT=2</td><td>IMU abnormal</td><td>Run diagnostics</td></tr>
+    <tr><td>VR_TRACKING_ERROR_MAP_CORRUPT=3</td><td>Map database corrupted</td><td>Clear and rebuild map</td></tr>
+  </tbody>
+</table>

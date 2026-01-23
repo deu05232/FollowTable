@@ -1,0 +1,14 @@
+<table>
+  <caption>Recognized output flags.</caption>
+  <tr><th>Flag</th><th>Description</th></tr>
+  <tr><th>norm</th><td>Norm, {ψ|ψ}</td></tr>
+  <tr><th>energy</th><td>Energy, E={ψ||ψ}</td></tr>
+  <tr><th>x_avg</th><td>Average position in x , =ψ|x|ψ</td></tr>
+  <tr><th>y_avg</th><td>Average position in y , =ψ|y|ψ</td></tr>
+  <tr><th>z_avg</th><td>Average position in z , =ψ|z|ψ</td></tr>
+  <tr><th>sx</th><td>Width in x , x^(2)-x^(2)</td></tr>
+  <tr><th>sy</th><td>Width in y , y^(2)-y^(2)</td></tr>
+  <tr><th>sz</th><td>Width in z , z^(2)-z^(2)</td></tr>
+  <tr><th>autocorrelation</th><td>Autocorrelation function, |ψ(0)|ψ(t)|^(2)</td></tr>
+  <tr><th>user_defined</th><td>User-defined observables (see Sec. LABEL:sec:user )</td></tr>
+</table>

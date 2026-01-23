@@ -1,0 +1,16 @@
+<table>
+  <caption>Internal Identifier Index for Video/Image Entities (Registry-reference heavy)</caption>
+  <thead>
+    <tr><th>No.</th><th>Entity Group</th><th>Data Item</th><th>Description</th><th>Public Security Internal Element ID</th><th>Parent Element ID</th><th>Reference Document Clause</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Video</td><td>Frame Sequence Number</td><td>Index of frame within segment</td><td>DE03001</td><td>DE01411</td><td>PS-VID §5.2.1</td></tr>
+    <tr><td>2</td><td>Video</td><td>Capture Timestamp</td><td>Time when frame was captured</td><td>DE03002</td><td>DE01411</td><td>PS-VID §5.2.2</td></tr>
+    <tr><td>3</td><td>Image</td><td>Image Hash Value</td><td>Digest for integrity checks</td><td>DE03110</td><td>DE02007</td><td>PS-IMG §6.1.3</td></tr>
+    <tr><td>4</td><td>Object</td><td>Bounding Box Top-left X</td><td>Horizontal coordinate</td><td>DE01521</td><td>DE01520</td><td>PS-OBJ §7.4.1</td></tr>
+    <tr><td>5</td><td>Object</td><td>Bounding Box Top-left Y</td><td>Vertical coordinate</td><td>DE01522</td><td>DE01520</td><td>PS-OBJ §7.4.1</td></tr>
+    <tr><td>6</td><td>Object</td><td>Object Category Code</td><td>Category reference</td><td>DE01502</td><td>DE01500</td><td>PS-OBJ §7.2.1</td></tr>
+    <tr><td>7</td><td>Repository</td><td>Repository Title</td><td>Display name of repository</td><td>DE00859</td><td>DE02007</td><td>PS-REP §4.1.2</td></tr>
+    <tr><td>8</td><td>Person</td><td>Known Identity Judgment Identifier</td><td>Judgment label reference</td><td>DE00742</td><td>DE01308</td><td>PS-PER §8.3.4</td></tr>
+  </tbody>
+</table>

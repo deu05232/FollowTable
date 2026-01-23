@@ -1,0 +1,18 @@
+<table>
+  <caption>Device Security Authentication API — Payload and Certificate Details</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter</th><th>Type</th><th>Required</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Auth</td><td>userID</td><td>string</td><td>Yes</td><td>Caller identity</td></tr>
+    <tr><td>Auth</td><td>access_token</td><td>string</td><td>Yes</td><td>Token credential</td></tr>
+    <tr><td>Device</td><td>devID</td><td>string</td><td>Yes</td><td>Device identifier</td></tr>
+    <tr><td>Certificates</td><td>devSign</td><td>string</td><td>Yes</td><td>Device certificate signature</td></tr>
+    <tr><td>Certificates</td><td>certIssuer</td><td>string</td><td>No</td><td>Certificate issuer name</td></tr>
+    <tr><td>Certificates</td><td>certSerialNumber</td><td>string</td><td>No</td><td>X.509 serial number</td></tr>
+    <tr><td>Certificates</td><td>certNotBefore</td><td>string</td><td>No</td><td>Validity start time (ISO-8601)</td></tr>
+    <tr><td>Certificates</td><td>certNotAfter</td><td>string</td><td>No</td><td>Validity end time (ISO-8601)</td></tr>
+    <tr><td>Operational</td><td>nonce</td><td>string</td><td>No</td><td>Random challenge for replay protection</td></tr>
+    <tr><td>Operational</td><td>signatureAlg</td><td>string</td><td>No</td><td>Signature algorithm, e.g., RSA-SHA256</td></tr>
+  </tbody>
+</table>

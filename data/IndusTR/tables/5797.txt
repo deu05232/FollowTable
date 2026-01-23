@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Session Per-Frame Update and Frame Output Parameters</caption>
+  <thead>
+    <tr><th>API Call</th><th>Parameter</th><th>Type</th><th>Pointer Semantics</th><th>Runtime Role / What It Represents</th><th>In/Out Direction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_setCameraTextureName</td><td>session</td><td>ArSession*</td><td>handle pointer</td><td>Session whose GPU camera texture binding will be updated.</td><td>In</td></tr>
+    <tr><td>ArSession_setCameraTextureName</td><td>texture_id</td><td>uint32_t</td><td>value</td><td>OpenGL/graphics texture name/id that the runtime will write the camera image into for this session.</td><td>In</td></tr>
+    <tr><td>ArSession_update</td><td>session</td><td>ArSession*</td><td>handle pointer</td><td>Session to advance by one frame; drives tracking, plane updates, and camera pose for the current render loop tick.</td><td>In</td></tr>
+    <tr><td>ArSession_update</td><td>out_frame</td><td>ArFrame*</td><td>output pointer to caller-allocated frame object</td><td>Caller-owned frame container that will be filled with per-frame results (camera pose, timestamp, trackable list) produced by the session update.</td><td>Out</td></tr>
+    <tr><td>ArFrame_acquireCamera</td><td>frame</td><td>ArFrame*</td><td>handle pointer</td><td>Frame whose camera object will be retrieved; ties camera state to a specific update result.</td><td>In</td></tr>
+    <tr><td>ArFrame_acquireCamera</td><td>out_camera</td><td>ArCamera**</td><td>pointer-to-pointer (acquires new reference)</td><td>Receives a camera handle associated with the frame; typically increments a reference count or returns a newly acquired resource that must be released.</td><td>Out</td></tr>
+    <tr><td>ArCamera_release</td><td>camera</td><td>ArCamera*</td><td>handle pointer</td><td>Camera handle to release when done; returns the acquired reference/resource back to the runtime.</td><td>In</td></tr>
+    <tr><td>ArFrame_getTimestamp</td><td>frame</td><td>const ArFrame*</td><td>const pointer (read-only)</td><td>Frame whose timestamp will be queried; identifies which update’s timing is being read.</td><td>In</td></tr>
+    <tr><td>ArFrame_getTimestamp</td><td>out_timestamp_ns</td><td>int64_t*</td><td>output pointer to value</td><td>Output location that receives the frame timestamp in nanoseconds; caller stores the value for sync with rendering or sensor fusion.</td><td>Out</td></tr>
+  </tbody>
+</table>

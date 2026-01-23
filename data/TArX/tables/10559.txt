@@ -1,0 +1,15 @@
+<table>
+  <caption>Table 1. Estimated gravitational force from the Universe’s dark-matter content under simplified spherical-uniform assumptions.</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Description</th><th>Assumed dark-matter mass M_DM (kg)</th><th>Assumed distance r (m)</th><th>Computed gravitational force F = G·M_DM·m_test / r^2 (N) for m_test = 1 kg</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>S1</td><td>Local group-scale contribution (toy model)</td><td>1.0e42</td><td>1.0e22</td><td>6.67e-13</td><td>Order-of-magnitude only</td></tr>
+    <tr><td>S2</td><td>Galaxy-halo scale contribution (toy model)</td><td>2.0e42</td><td>3.0e21</td><td>1.48e-11</td><td>Represents a nearby halo-like mass</td></tr>
+    <tr><td>S3</td><td>Cluster-scale contribution (toy model)</td><td>1.0e45</td><td>1.0e23</td><td>6.67e-12</td><td>Massive but farther away</td></tr>
+    <tr><td>S4</td><td>Supercluster-scale contribution (toy model)</td><td>5.0e45</td><td>5.0e23</td><td>1.33e-12</td><td>Larger r suppresses force</td></tr>
+    <tr><td>S5</td><td>Hubble-volume enclosed DM (uniform sphere approximation)</td><td>2.5e53</td><td>1.3e26</td><td>9.86e-10</td><td>Uses a horizon-scale r</td></tr>
+    <tr><td>S6</td><td>Hubble-volume enclosed DM (smaller effective r)</td><td>2.5e53</td><td>8.0e25</td><td>2.60e-09</td><td>Sensitivity to chosen scale</td></tr>
+    <tr><td colspan="6">Constants/assumptions: G = 6.674e-11 m^3 kg^-1 s^-2; test mass m_test = 1 kg; results are direct force values in newtons.</td></tr>
+  </tbody>
+</table>

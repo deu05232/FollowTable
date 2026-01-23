@@ -1,0 +1,22 @@
+<table>
+  <caption>Parameters used in the simulation of positron production and transport.</caption>
+  <tr><th colspan="2">Production</th></tr>
+  <tr><th>Undulator-photon beam shape</th><td>3-mm-diameter cylinder</td></tr>
+  <tr><th>Production-target material</th><td>Tungsten composite W-4Ni-3Cu-3Fe</td></tr>
+  <tr><th>Production-target thickness</th><td>0.81 mm (0.2 r.l.)</td></tr>
+  <tr><th>equiv. energy cutoff</th><td>200 μ m remaining path length</td></tr>
+  <tr><th colspan="2">Transport through solenoid SL and spectrometer D2</th></tr>
+  <tr><th>Vacuum-pipe diameter (solenoid)</th><td>36 mm</td></tr>
+  <tr><th>Vacuum (in vacuum chamber)</th><td>10^(-3) Torr</td></tr>
+  <tr><th>Energy-selection slit width</th><td>30 mm</td></tr>
+  <tr><th>Solenoid field map</th><td>SLAC measurement</td></tr>
+  <tr><th>Spectrometer field map</th><td>MERMAID calculation</td></tr>
+  <tr><th>Magnetic field (implementation method)</th><td>3-D linear interpolation</td></tr>
+  <tr><th>Tracking step length (in magnetic field)</th><td>100 μ m</td></tr>
+  <tr><th colspan="2">Transport from exit window of spectrometer to target T2</th></tr>
+  <tr><th>Exit-window diameter</th><td>48 mm</td></tr>
+  <tr><th>Reconversion-target material</th><td>Tungsten</td></tr>
+  <tr><th>Reconversion-target thickness</th><td>1.75 mm (0.5 r.l.)</td></tr>
+  <tr><th>Reconversion-target diameter</th><td>50 mm</td></tr>
+  <tr><th>equiv. energy cutoff</th><td>200 μ m remaining path length</td></tr>
+</table>

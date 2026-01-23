@@ -1,0 +1,16 @@
+<table>
+  <caption>Gamma-ray diagnostics by supernova explosion model (includes isotope lines and inferred energy release)</caption>
+  <thead>
+    <tr><th rowspan="2">Explosion model</th><th colspan="2">Dominant radioactive chain</th><th colspan="2">Representative gamma lines</th><th rowspan="2">Estimated decay power at +20 d (10^42 erg s^-1)</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Primary isotope</th><th>Mean lifetime (days)</th><th>Line 1 (keV)</th><th>Line 2 (keV)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>W7 (deflagration)</td><td>56Ni → 56Co</td><td>8.8</td><td>158</td><td>812</td><td>1.9</td><td>Classic 1D Chandrasekhar-mass model</td></tr>
+    <tr><td>DDT-a (delayed detonation)</td><td>56Co → 56Fe</td><td>111.3</td><td>847</td><td>1238</td><td>1.3</td><td>Higher line escape fraction assumed</td></tr>
+    <tr><td>HeD-S (sub-Chandra He det.)</td><td>57Ni → 57Co</td><td>2.0</td><td>127</td><td>1377</td><td>0.6</td><td>Short-lived component emphasized</td></tr>
+    <tr><td>MR0.8 (merger remnant)</td><td>44Ti → 44Sc</td><td>2.6e4</td><td>68</td><td>78</td><td>0.02</td><td>Late-time tracer; weak early signal</td></tr>
+    <tr><td>CC-15Msun (core-collapse)</td><td>26Al → 26Mg</td><td>1.0e9</td><td>1809</td><td>—</td><td>0.0001</td><td>Diffuse/galactic-scale contribution</td></tr>
+    <tr><td>IIP-lowE (faint IIP)</td><td>56Ni → 56Co</td><td>8.8</td><td>158</td><td>750</td><td>0.15</td><td>Strong trapping; low emergent flux</td></tr>
+    <tr><td>Magnetar-boosted</td><td>56Co → 56Fe</td><td>111.3</td><td>847</td><td>1238</td><td>3.5</td><td>Non-radioactive power source included</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table>
+  <caption>APDU Response Interpretation Cheat Sheet — Status Word Families and Terminal Handling</caption>
+  <thead>
+    <tr><th>Status Word Pattern</th><th>Example</th><th>Outcome Category</th><th>What It Usually Means</th><th>Terminal Handling Guidance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>90 00</td><td>9000</td><td>OK</td><td>Command completed successfully</td><td>Accept result; process response data; continue</td></tr>
+    <tr><td>61 XX</td><td>611A</td><td>Chained Response</td><td>More bytes available to be fetched (XX remaining)</td><td>Issue GET RESPONSE; loop until 9000 or error</td></tr>
+    <tr><td>6C XX</td><td>6C20</td><td>Recoverable</td><td>Wrong Le; card tells correct expected length XX</td><td>Resend same command with corrected Le=XX</td></tr>
+    <tr><td>62 XX</td><td>6283</td><td>Warning (Non-fatal)</td><td>Completed with warning (state-related, data may be unreliable)</td><td>Log warning; proceed cautiously; optionally re-select/retry read</td></tr>
+    <tr><td>63 CX</td><td>63C2</td><td>Warning (Retries)</td><td>Verification failed; X retries remaining</td><td>Throttle retries; prompt user; avoid lockout; retry only if correct credential available</td></tr>
+    <tr><td>67 00</td><td>6700</td><td>Formatting Error</td><td>Wrong length encoding or missing length</td><td>Validate APDU case (1/2/3/4); fix Lc/Le and resend</td></tr>
+    <tr><td>68 XX</td><td>6881</td><td>Transport/Channel</td><td>Function not supported / logical channel not supported</td><td>Try basic channel; adjust CLA channel bits; verify protocol support</td></tr>
+    <tr><td>69 XX</td><td>6982</td><td>Security/State</td><td>Security status or conditions of use not satisfied</td><td>Perform required authentication/secure messaging; ensure correct life-cycle state</td></tr>
+    <tr><td>6A XX</td><td>6A82</td><td>Parameter/Data Reference</td><td>Wrong parameters (P1/P2) or not found (file/app/data)</td><td>Verify selection context and addressing; correct P1/P2; confirm AID/FID exists</td></tr>
+    <tr><td>6B 00</td><td>6B00</td><td>Parameter Error</td><td>Wrong parameters (often wrong P1/P2 range)</td><td>Check allowed P1/P2 values; correct offsets and resend</td></tr>
+    <tr><td>6D 00</td><td>6D00</td><td>Unsupported INS</td><td>Instruction not supported in current application</td><td>Confirm SELECTed application; use supported INS; check spec version</td></tr>
+    <tr><td>6E 00</td><td>6E00</td><td>Unsupported CLA</td><td>Class byte not supported (SM/channel bits, proprietary class)</td><td>Try standard CLA; remove unsupported bits; verify logical channel usage</td></tr>
+    <tr><td>6F 00</td><td>6F00</td><td>Unspecified Failure</td><td>Internal error without details</td><td>Capture full APDU trace; retry once; if repeatable, escalate to vendor/card logs</td></tr>
+  </tbody>
+</table>

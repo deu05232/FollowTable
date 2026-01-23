@@ -1,0 +1,9 @@
+<table>
+  <caption>The refractive index of materials used as pressure medium in a DAC as reported by references [ MediaProp ] and [ HydrogenSilvera ] . The last column presents the pressure range of the data on which these fits are based. The dielectric function ε can be calculated by squaring the refractive index.</caption>
+  <tr><th>Material</th><th>Refractive index</th><th>P range (GPa)</th></tr>
+  <tr><th>He (fluid) [ MediaProp ]</th><td>n=0.8034+0.20256(1+P)^(0.12763)</td><td>0.08-11.5</td></tr>
+  <tr><th>He (solid) [ MediaProp ]</th><td>n=-0.1033+(1+P)^(0.052)</td><td>11.7-20.2</td></tr>
+  <tr><th>H _(2) [ HydrogenSilvera ]</th><td>[c]cn=-0.687343+0.00407826P\\ +1.86605(0.29605+P)^(0.0646222)</td><td>0-100</td></tr>
+  <tr><th>Ne (fluid) [ MediaProp ]</th><td>n=0.668+0.33(1+4.3P)^(0.076)</td><td>0.7-4.7</td></tr>
+  <tr><th>Ne (solid) [ MediaProp ]</th><td>n=0.9860+0.08597P^(0.1953)</td><td>5-27</td></tr>
+</table>

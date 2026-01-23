@@ -1,0 +1,15 @@
+<table>
+  <caption>Manufacturing Process Routing and Equipment Settings for Large Gear Machining</caption>
+  <thead>
+    <tr><th>Operation</th><th>Work Center</th><th>Machine Model</th><th>Key Setting</th><th>Target Value</th><th>Control Plan Ref.</th><th>Cycle Time (min)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>OP10</td><td>Rough turning</td><td>VTL-8000</td><td>Spindle speed (rpm)</td><td>18</td><td>CP-GEAR-01</td><td>240</td></tr>
+    <tr><td>OP20</td><td>Finish turning</td><td>VTL-8000</td><td>Feed (mm/rev)</td><td>0.45</td><td>CP-GEAR-02</td><td>310</td></tr>
+    <tr><td>OP30</td><td>Gear hobbing</td><td>HOB-40M</td><td>Hob shift (mm)</td><td>+1.2</td><td>CP-GEAR-03</td><td>520</td></tr>
+    <tr><td>OP40</td><td>Deburring</td><td>Manual station</td><td>Abrasive grade</td><td>P120</td><td>CP-GEAR-04</td><td>90</td></tr>
+    <tr><td>OP50</td><td>Heat treatment</td><td>Q&T Furnace</td><td>Austenitize temp (°C)</td><td>860</td><td>CP-HT-11</td><td>1,440</td></tr>
+    <tr><td>OP60</td><td>Shot blasting</td><td>SB-2000</td><td>Media size (mm)</td><td>0.8</td><td>CP-FIN-07</td><td>75</td></tr>
+    <tr><td>OP70</td><td>Painting</td><td>Booth PB-6</td><td>Dry film thickness (µm)</td><td>80</td><td>CP-PAINT-03</td><td>60</td></tr>
+  </tbody>
+</table>

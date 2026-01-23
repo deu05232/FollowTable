@@ -1,0 +1,18 @@
+<table>
+  <caption>Cybersecurity Event Timing Fields (Minimal Template Checklist)</caption>
+  <thead>
+    <tr><th>Time Field</th><th>Definition / What It Captures</th><th>Recommended Format / Units</th><th>Notes / Edge Cases</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Occurrence Time (Event Start)</td><td>When the security-relevant activity first began (earliest known moment).</td><td>UTC timestamp (ISO 8601, e.g., 2026-01-19T08:15:30Z)</td><td>If only approximate, record an estimate flag in notes and keep the original source statement.</td></tr>
+    <tr><td>Occurrence Time (Event End)</td><td>When the activity stopped or was last observed.</td><td>UTC timestamp (ISO 8601)</td><td>If ongoing, leave blank and update when closed; avoid using “now” as a value.</td></tr>
+    <tr><td>First Seen Time</td><td>First time the organization’s sensors/logs observed the indicator/activity.</td><td>UTC timestamp (ISO 8601) + source system clock</td><td>May differ from Occurrence Time if detection is delayed.</td></tr>
+    <tr><td>Last Seen Time</td><td>Most recent time the activity/indicator was observed.</td><td>UTC timestamp (ISO 8601)</td><td>Useful for recurring events; update as new sightings arrive.</td></tr>
+    <tr><td>Discovery Time</td><td>When a human/monitoring process recognized it as a security issue (triage start).</td><td>UTC timestamp (ISO 8601) or epoch seconds</td><td>Clarify whether “discovery” means alert creation, analyst acknowledgment, or ticket creation.</td></tr>
+    <tr><td>Detection Time</td><td>When a detection rule/alert actually fired in the detection system.</td><td>UTC timestamp (ISO 8601)</td><td>Often earlier than Discovery Time; keep both if possible.</td></tr>
+    <tr><td>Containment Time</td><td>When containment actions effectively stopped spread/impact (first effective control).</td><td>UTC timestamp (ISO 8601)</td><td>Record the earliest effective time, not the time the plan was approved.</td></tr>
+    <tr><td>Eradication Time</td><td>When the root cause/artifacts were removed (malware cleaned, access revoked, etc.).</td><td>UTC timestamp (ISO 8601)</td><td>If staged, record the milestone time for completion.</td></tr>
+    <tr><td>Recovery Time</td><td>When services/data returned to normal operations.</td><td>UTC timestamp (ISO 8601)</td><td>For partial recovery, note the recovery milestone being captured.</td></tr>
+    <tr><td>Closure Time</td><td>When the incident was formally closed in the tracking system.</td><td>UTC timestamp (ISO 8601)</td><td>Administrative; may be much later than Recovery Time.</td></tr>
+  </tbody>
+</table>

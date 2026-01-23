@@ -1,0 +1,12 @@
+# Compatibility Test Results by Test Suite Version (Multiple Browsers Combined)
+
+| Test suite version | Browsers tested (grouped) | Pass rate (avg) | Notable failures | Environment |
+| --- | --- | --- | --- | --- |
+| WebCompat Suite v1.0 | Chrome / Edge / Opera | 98% | Minor CSS grid quirks | Windows 11 |
+| WebCompat Suite v1.0 | Firefox / Waterfox | 95% | WebRTC edge cases | Windows 11 |
+| WebCompat Suite v1.0 | Safari / Orion | 93% | IndexedDB limits | macOS 14 |
+| WebCompat Suite v1.1 | Chrome / Edge / Opera | 99% | null significant | Windows 11 |
+| WebCompat Suite v1.1 | Firefox / Waterfox | 96% | Service worker caching | Windows 11 |
+| WebCompat Suite v1.1 | Safari / Orion | 94% | Web push variations | macOS 14 |
+| WebCompat Suite v1.2 | Chrome / Edge / Opera | 99% | null significant | Windows 11 |
+| WebCompat Suite v1.2 | Firefox / Waterfox | 97% | Media codecs fallback | Windows 11 |

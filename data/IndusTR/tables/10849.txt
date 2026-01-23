@@ -1,0 +1,14 @@
+<table>
+  <caption>A2H Heartbeat / Poll Frame (Header-only, No Payload)</caption>
+  <thead>
+    <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th><th>Timing (ms)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>55H AAH 55H AAH</td><td>00H–FFH</td><td>A2H</td><td>0000H</td><td>CRC16(Addr..Len)</td><td>0DH 0AH</td><td>1000</td></tr>
+    <tr><td>55H AAH 55H AAH</td><td>01H</td><td>A2H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>500</td></tr>
+    <tr><td>55H AAH 55H AAH</td><td>02H</td><td>A2H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>500</td></tr>
+    <tr><td>55H AAH 55H AAH</td><td>03H</td><td>A2H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>500</td></tr>
+    <tr><td>55H AAH 55H AAH</td><td>04H</td><td>A2H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>500</td></tr>
+    <tr><td>55H AAH 55H AAH</td><td>05H</td><td>A2H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>500</td></tr>
+  </tbody>
+</table>

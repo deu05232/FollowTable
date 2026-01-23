@@ -1,0 +1,8 @@
+<table>
+  <caption>Beidou monitoring terminal communication and positioning performance requirements</caption>
+  <tr><th>No.</th><th>Capability / performance aspect</th><th>Requirement</th><th>Notes / applicable scenario</th></tr>
+  <tr><td>1</td><td>Supported satellite service usage</td><td>Normal positioning and timing when only BDS open service signals are available</td><td>Standalone terminal operation</td></tr>
+  <tr><td>2</td><td>Position update behavior</td><td>Continuous output with a stable update interval suitable for monitoring</td><td>During normal operation</td></tr>
+  <tr><td>3</td><td>Time to first fix (TTFF)</td><td>Cold start ≤45 s; hot start ≤5 s</td><td>Default configuration</td></tr>
+  <tr><td>4</td><td>Status monitoring reliability</td><td>Accuracy ≥98%</td><td>Across supported operation modes</td></tr>
+</table>

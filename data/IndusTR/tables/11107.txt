@@ -1,0 +1,8 @@
+<table>
+  <caption>Device Security Authentication API - Certificate and Signature Data</caption>
+  <tr><th>Input Group</th><th>Field</th><th>Purpose</th></tr>
+  <tr><td>Auth</td><td>userID, access_token</td><td>Account-level authorization</td></tr>
+  <tr><td>Device identity</td><td>deviceId</td><td>Target device identifier</td></tr>
+  <tr><td>Crypto material</td><td>deviceCertificate</td><td>Certificate blob used to prove identity</td></tr>
+  <tr><td>Crypto material</td><td>deviceSignature</td><td>Signature computed over challenge data</td></tr>
+</table>

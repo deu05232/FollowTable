@@ -1,0 +1,20 @@
+<table>
+  <caption>Worked Example Layout: Summation of Project Emissions (PE) for an MSW Incineration Facility</caption>
+  <thead>
+    <tr><th>Category</th><th>Source within project boundary</th><th>Symbol</th><th>Input quantity</th><th>Unit</th><th>Applied factor(s)</th><th>Intermediate output</th><th>tCO2e contribution</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Purchased energy</td><td>Imported electricity for plant operations</td><td>PE_EC</td><td>Elec_import</td><td>MWh</td><td>EF_grid (tCO2e/MWh)</td><td>Elec_import × EF_grid</td><td>E</td></tr>
+    <tr><td>Imported steam/heat (only if purchased and inside boundary)</td><td>PE_IH</td><td>Heat_import</td><td>GJ</td><td>EF_heat (tCO2e/GJ)</td><td>Heat_import × EF_heat</td><td>E2</td></tr>
+    <tr><td rowspan="3">On-site fuels</td><td>Start-up diesel</td><td>PE_FC,diesel</td><td>Diesel</td><td>L</td><td>NCV, EF_CO2, OF</td><td>Diesel × NCV × EF_CO2 × OF</td><td>F1</td></tr>
+    <tr><td>Natural gas for auxiliary burner</td><td>PE_FC,gas</td><td>NG</td><td>Nm3</td><td>NCV, EF_CO2, OF</td><td>NG × NCV × EF_CO2 × OF</td><td>F2</td></tr>
+    <tr><td>Subtotal: fossil fuel combustion</td><td>All on-site fossil fuels</td><td>PE_FC</td><td colspan="3">PE_FC = F1 + F2</td><td>Sum fuels</td><td>F</td></tr>
+    <tr><td rowspan="3">Stack emissions from waste combustion</td><td>Fossil CO2 from waste (plastics, synthetic textiles, etc.)</td><td>PE_COM,CO2</td><td>Waste treated</td><td>t</td><td>Fossil carbon fraction, combustion efficiency, 44/12</td><td>Waste × parameters</td><td>G</td></tr>
+    <tr><td>Methane slip (CH4)</td><td>PE_COM,CH4</td><td>Waste treated</td><td>t</td><td>EF_CH4, GWP_CH4</td><td>Waste × EF_CH4 × GWP_CH4</td><td>H1</td></tr>
+    <tr><td>Nitrous oxide (N2O)</td><td>PE_COM,N2O</td><td>Waste treated</td><td>t</td><td>EF_N2O, GWP_N2O</td><td>Waste × EF_N2O × GWP_N2O</td><td>H2</td></tr>
+    <tr><td>Subtotal: non-CO2 stack gases</td><td>CH4 + N2O</td><td>PE_COM,nonCO2</td><td colspan="3">PE_COM,nonCO2 = H1 + H2</td><td>Addition</td><td>H</td></tr>
+    <tr><td>Other project processes</td><td>On-site wastewater treatment / leachate handling (if any)</td><td>PE_WW</td><td>COD or wastewater volume</td><td>kg or m3</td><td>EF_CH4, recovery, GWP</td><td>Activity × EF × (1−rec.) × GWP</td><td>I</td></tr>
+    <tr><td colspan="7">Project emissions subtotal (sum of all components)</td><td>PE = (E + E2) + F + G + H + I</td></tr>
+    <tr><td colspan="7">Check row: component-to-total reconciliation</td><td>Difference = PE − [(E+E2)+F+G+H+I] = 0</td></tr>
+  </tbody>
+</table>

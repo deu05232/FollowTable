@@ -1,0 +1,15 @@
+<table>
+  <caption>Information Container Categories and Allowed Status Values</caption>
+  <thead>
+    <tr><th>Group</th><th>Value</th><th>Name</th><th>Meaning</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Container Category</td><td>0</td><td>Model Container</td><td>Contains model information only</td><td>Used for model assets</td></tr>
+    <tr><td>1</td><td>Rule Container</td><td>Contains rule definitions only</td><td>Used for validation rules</td></tr>
+    <tr><td>2</td><td>Mixed Container</td><td>Contains documents/drawings/files</td><td>General purpose</td></tr>
+    <tr><td rowspan="4">Container Status</td><td>0</td><td>Draft</td><td>Not published yet</td><td>May be modified</td></tr>
+    <tr><td>1</td><td>Active</td><td>Available for use</td><td>Default operational state</td></tr>
+    <tr><td>2</td><td>Archived</td><td>Kept for record</td><td>Read-only in most clients</td></tr>
+    <tr><td>3</td><td>Deleted</td><td>Marked as deleted</td><td>May be recoverable</td></tr>
+  </tbody>
+</table>

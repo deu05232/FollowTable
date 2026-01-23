@@ -1,0 +1,15 @@
+<table>
+  <caption>Acceptance Criteria for PE Pipe Mechanical Performance (Pass/Fail with Test Conditions)</caption>
+  <thead>
+    <tr><th>No.</th><th>Property / Test</th><th>Acceptance threshold / Pass-Fail criterion</th><th>Temperature (°C)</th><th>Stress / Load / Pressure</th><th>Duration / Cycle</th><th>Pass indicator</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Burst pressure (short-term)</td><td>Measured burst pressure ≥ 4 × PN</td><td>20</td><td>Internal pressure ramp to burst</td><td>60–70 s hold window</td><td>Pass if ≥ 4×PN; Fail if < 4×PN</td></tr>
+    <tr><td>2</td><td>Hydrostatic strength (short-term)</td><td>No leakage and no visible damage</td><td>20</td><td>Hoop stress 12.0 MPa</td><td>100 h</td><td>Pass if no leakage/damage; Fail otherwise</td></tr>
+    <tr><td>3</td><td>Hydrostatic strength (elevated temperature)</td><td>No leakage and no visible damage</td><td>80</td><td>Hoop stress 5.4 MPa</td><td>165 h</td><td>Pass if no leakage/damage; Fail otherwise</td></tr>
+    <tr><td>4</td><td>External pressure resistance (fitting deformation)</td><td>Not flattened; no cracking; no leakage</td><td>23</td><td>External compressive load (per product class)</td><td>10 min</td><td>Pass if shape intact/no cracks/no leakage</td></tr>
+    <tr><td>5</td><td>Fusion joint tensile behavior (butt fusion)</td><td>Ductile failure = Pass; brittle failure = Fail</td><td>23</td><td>Tensile load to rupture</td><td>Until failure</td><td>Pass if ductile fracture mode</td></tr>
+    <tr><td>6</td><td>Electrofusion socket joint peel behavior</td><td>Peeled brittle failure percentage ≤ 33.3%</td><td>23</td><td>Peel loading</td><td>Single test set</td><td>Pass if ≤ 33.3%; Fail if > 33.3%</td></tr>
+    <tr><td>7</td><td>Electrofusion saddle joint peel behavior</td><td>Ld ≤ 50% AND Ad ≤ 25%</td><td>23</td><td>Peel loading</td><td>Single test set</td><td>Pass if both limits met</td></tr>
+  </tbody>
+</table>

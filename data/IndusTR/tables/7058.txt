@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Encodings Shown as SQL Types (VR Replaced)</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>SQL Data Type</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Detector Type</td><td>(0018,7004)</td><td>VARCHAR(16)</td><td>1</td><td>2</td><td>Type of detector used to acquire projection data</td></tr>
+    <tr><td>Scintillator Material</td><td>(0018,7006)</td><td>VARCHAR(16)</td><td>1</td><td>2</td><td>Material type of the detector scintillator layer</td></tr>
+    <tr><td>Detector Array</td><td>(0018,7005)</td><td>VARCHAR(16)</td><td>1</td><td>3</td><td>Array configuration of the detector</td></tr>
+    <tr><td>Acquisition Duration</td><td>(0018,9073)</td><td>DOUBLE</td><td>1</td><td>3</td><td>Time required to complete acquisition (ms)</td></tr>
+    <tr><td>Exposure Mode</td><td>(0018,115A)</td><td>VARCHAR(8)</td><td>1</td><td>1</td><td>Continuous or pulsed exposure</td></tr>
+    <tr><td>Detector Pixel Binning</td><td>(0018,701A)</td><td>DECIMAL(10,4)</td><td>2</td><td>1</td><td>Number of detector elements used to generate a single image pixel</td></tr>
+    <tr><td>Number of Frames</td><td>(0028,0008)</td><td>INTEGER</td><td>1</td><td>1</td><td>Number of frames in the multi-frame image</td></tr>
+  </tbody>
+</table>

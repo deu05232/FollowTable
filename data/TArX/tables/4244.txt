@@ -1,0 +1,8 @@
+<table>
+  <caption>CALIFA FITS file structure</caption>
+  <tr><th>HDU</th><th>Extension name</th><th>Format</th><th>Content</th></tr>
+  <tr><th>0</th><td>Primary</td><td>32-bit float</td><td>flux density in units of 10^(-16)\,\,^(-1)\,^(-2)\,^(-1)</td></tr>
+  <tr><th>1</th><td>ERROR</td><td>32-bit float</td><td>1σ error on the flux density</td></tr>
+  <tr><th>2</th><td>ERRWEIGHT</td><td>32-bit float</td><td>error weighting factor</td></tr>
+  <tr><th>3</th><td>BADPIX</td><td>8-bit integer</td><td>bad pixel flags (1=bad, 0=good)</td></tr>
+</table>

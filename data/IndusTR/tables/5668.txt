@@ -1,0 +1,16 @@
+<table>
+  <caption>Agricultural Input Product Code: Field Semantics and Size Constraints (Decimal & Binary Crosswalk)</caption>
+  <thead>
+    <tr><th>Field</th><th>What it Represents</th><th>Representation Type</th><th>Bit Length / Character Length</th><th>Fixed or Variable</th><th>Valid Pattern / Range</th><th>Example Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Scheme Header</td><td>Indicates code type for agricultural input products</td><td>Binary literal</td><td>8 bits</td><td>Fixed</td><td>0011 0000</td><td>0011 0000</td></tr>
+    <tr><td>Category Code</td><td>Top-level agricultural input product category</td><td>Unsigned integer (decimal-coded concept)</td><td>12 bits (supports up to 4095)</td><td>Fixed</td><td>1001–3600</td><td>1205</td></tr>
+    <tr><td>Sub-serial Number</td><td>Sequence within category (product-level running number)</td><td>Unsigned integer</td><td>26 bits</td><td>Fixed</td><td>0 000 001–9 999 999</td><td>0001234</td></tr>
+    <tr><td colspan="7">Composite Identifier (Category + Sub-serial)</td></tr>
+    <tr><td>Category+Sub-serial Payload</td><td>Concatenation forming the core product identifier payload</td><td>Binary concatenation</td><td>38 bits total</td><td>Fixed</td><td>Category(12) || Sub-serial(26)</td><td>1205 || 0001234</td></tr>
+    <tr><td>Check / Reserved</td><td>Future use for expansion or error-detection overlay (if enabled by profile)</td><td>Bit field</td><td>0–4 bits</td><td>Optional/Variable</td><td>All zeros unless profile assigns meaning</td><td>0000</td></tr>
+    <tr><td>Human-readable Formatting</td><td>How the same payload is displayed for users</td><td>Decimal with zero padding</td><td>Category: 4 digits; Sub-serial: 7 digits</td><td>Fixed</td><td>CCCC-SSSSSSS</td><td>1205-0001234</td></tr>
+    <tr><td>Max Capacity Summary</td><td>Upper bound implied by bit sizes</td><td>Capacity statement</td><td>Category: 2^12; Sub-serial: 2^26</td><td>N/A</td><td>Category up to 4095; Sub-serial up to 67,108,863</td><td>N/A</td></tr>
+  </tbody>
+</table>

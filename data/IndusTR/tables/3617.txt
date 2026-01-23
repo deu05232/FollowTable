@@ -1,0 +1,13 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type and Content Mapping Table</caption>
+  <tr><td>Message type (decimal)</td><td>Message content</td></tr>
+  <tr><td>1</td><td>Satellite mask</td></tr>
+  <tr><td>2</td><td>Satellite orbit corrections and user range accuracy index</td></tr>
+  <tr><td>3</td><td>Inter-signal bias corrections</td></tr>
+  <tr><td>4</td><td>Satellite clock offset corrections</td></tr>
+  <tr><td>5</td><td>User range accuracy index</td></tr>
+  <tr><td>6</td><td>Clock offset corrections and orbit corrections—Combination 1</td></tr>
+  <tr><td>7</td><td>Clock offset corrections and orbit corrections—Combination 2</td></tr>
+  <tr><td>8~62</td><td>Reserved</td></tr>
+  <tr><td>63</td><td>Empty message</td></tr>
+</table>

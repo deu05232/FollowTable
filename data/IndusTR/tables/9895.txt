@@ -1,0 +1,20 @@
+<table>
+  <caption>Caption String Grammar Skeleton (EBNF-Style, No Field Descriptors)</caption>
+  <thead>
+    <tr><th>Construct</th><th>Grammar / Structure</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>caption_string</td><td>::= "{" (token | control_code)* "}"</td></tr>
+    <tr><td>token</td><td>::= character | escaped_sequence</td></tr>
+    <tr><td>character</td><td>::= UnicodeScalarValue</td></tr>
+    <tr><td>escaped_sequence</td><td>::= "\\" ("n" | "t" | "\\" | "u" hex4)</td></tr>
+    <tr><td>control_code</td><td>::= set_style | set_color | set_position | clear</td></tr>
+    <tr><td>set_style</td><td>::= ""</td></tr>
+    <tr><td>style_attr</td><td>::= "bold" | "italic" | "underline" | "size"</td></tr>
+    <tr><td>set_color</td><td>::= ""</td></tr>
+    <tr><td>rgb_attr</td><td>::= "r=" number ",g=" number ",b=" number</td></tr>
+    <tr><td>set_position</td><td>::= ""</td></tr>
+    <tr><td>clear</td><td>::= ""</td></tr>
+    <tr><td>number</td><td>::= digit+</td></tr>
+  </tbody>
+</table>

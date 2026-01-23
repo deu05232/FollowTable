@@ -1,0 +1,13 @@
+<table>
+  <caption>Data Dictionary of Operation Monitoring Parameter Set for Cheese Conveying and Packing System</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Cheese type quantity</td><td>CheeseTypeQuantity</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~200</td><td></td><td>丨</td><td></td></tr>
+  <tr><td>0X0301</td><td>Cheese quantity loaded by manipulator</td><td>CheeseQuantityOf ManipulatorLoading</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65 535</td><td>pcs</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0302</td><td>Cheese quantity unloaded by manipulator</td><td>CheeseQuantityOfManipulatorUnloading</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65535</td><td>pcs</td><td>1</td><td></td></tr>
+  <tr><td>0X0303</td><td>Cheese quantity on conveyor track</td><td>CheeseQuantityOfConveyorTrack</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65 535</td><td>pcs</td><td>1</td><td></td></tr>
+  <tr><td>0X0304</td><td>Current number of formed packages (cartons)</td><td>RealtimeQuantityOfPackages</td><td>M</td><td>VAR</td><td>RO</td><td>UInt32</td><td>0~900000</td><td>packages (cartons)</td><td></td><td></td></tr>
+  <tr><td>0X0305</td><td>Current packaging form</td><td>RealtimePackagingMethod</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>0~3</td><td>一</td><td>一</td><td>0.Woven bag 1.Carton 2.Pallet 3.Shrink film</td></tr>
+  <tr><td>0X0306</td><td>Cheese quantity per package (carton)</td><td>CheeseQuantity/Packages</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~100</td><td>pcs</td><td>丨</td><td></td></tr>
+  <tr><td>0X0307</td><td>Cheese weight</td><td>CheeseWeight</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.03~5.00</td><td>kg</td><td>/</td><td></td></tr>
+  <tr><td>0X0308</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td>1</td><td>/</td><td></td></tr>
+</table>

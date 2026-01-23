@@ -1,0 +1,16 @@
+<table>
+  <caption>Saturation vapour pressure of water in air versus temperature (with optical transmission correction factors)</caption>
+  <thead>
+    <tr><th rowspan="2">Temperature (°C)</th><th rowspan="2">Saturation vapour pressure of H2O (Pa)</th><th colspan="2">Optical filter transmission (%)</th><th rowspan="2">Notes</th></tr>
+    <tr><th>L' band (3.4–4.1 μm)</th><th>M' band (4.5–5.0 μm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>-20</td><td>103</td><td>92.1</td><td>88.4</td><td>Includes atmospheric absorption proxy</td></tr>
+    <tr><td>-10</td><td>260</td><td>91.8</td><td>88.0</td><td>Transmission adjusted for H2O path</td></tr>
+    <tr><td>0</td><td>611</td><td>91.2</td><td>87.3</td><td>Air mass 1.0 assumed</td></tr>
+    <tr><td>10</td><td>1228</td><td>90.5</td><td>86.7</td><td>Instrument-specific correction</td></tr>
+    <tr><td>20</td><td>2338</td><td>89.7</td><td>85.9</td><td>Moderate humidity scenario</td></tr>
+    <tr><td>30</td><td>4246</td><td>88.6</td><td>84.8</td><td>Higher H2O absorption</td></tr>
+    <tr><td>40</td><td>7384</td><td>87.1</td><td>83.2</td><td>Warm/humid end</td></tr>
+  </tbody>
+</table>

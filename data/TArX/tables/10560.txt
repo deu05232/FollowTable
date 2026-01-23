@@ -1,0 +1,15 @@
+<table>
+  <caption>Table 2. Dark-matter gravitational effect reported as direct force/torque values in laboratory and astrophysical reference calculations.</caption>
+  <thead>
+    <tr><th>Category</th><th>Case ID</th><th>System / geometry</th><th>Dark-matter effect type</th><th>Reported value</th><th>Units</th><th>Measurement or estimate basis</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Laboratory torsion balance (illustrative)</td><td>L1</td><td>Torsion pendulum, small test mass offset 0.10 m</td><td>Torque</td><td>8.0e-21</td><td>N·m</td><td>Background DM field treated as constant acceleration</td></tr>
+    <tr><td>L2</td><td>Torsion pendulum, larger lever arm 0.20 m</td><td>Torque</td><td>1.6e-20</td><td>N·m</td><td>Same background field, torque scales with lever arm</td></tr>
+    <tr><td>L3</td><td>Cantilever micro-oscillator, effective lever arm 0.03 m</td><td>Force</td><td>3.0e-16</td><td>N</td><td>Equivalent force amplitude inferred from displacement</td></tr>
+    <tr><td rowspan="3">Astrophysical reference (toy conversions)</td><td>A1</td><td>1 kg test mass at r = 1.0e22 m from a DM concentration</td><td>Force</td><td>6.7e-13</td><td>N</td><td>Newtonian conversion F = G M/r^2</td></tr>
+    <tr><td>A2</td><td>1 kg test mass at r = 1.0e23 m from a DM concentration</td><td>Force</td><td>6.7e-15</td><td>N</td><td>Same mass as A1, tenfold larger distance</td></tr>
+    <tr><td>A3</td><td>Spinning apparatus, radius 0.50 m under uniform DM-induced differential force</td><td>Torque</td><td>2.5e-19</td><td>N·m</td><td>Torque estimated as τ ≈ F·r for an effective tangential force</td></tr>
+    <tr><td colspan="7">Note: All entries are expressed as direct force (N) or torque (N·m) values, suitable for comparing dark-matter gravitational effects without using percentages or parameter ratios.</td></tr>
+  </tbody>
+</table>

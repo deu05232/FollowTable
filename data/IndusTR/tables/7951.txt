@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Spatial Mapping Query Functions (Handle-Based Returns, No Output Double Pointers)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSpatialMap_getState</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArSpatialMap_getState</td><td>spatial_map</td><td>ArDenseSpatialMap *</td><td>in</td><td>Dense spatial map to query.</td></tr>
+    <tr><td>ArSpatialMap_getState</td><td>out_state</td><td>ArSpatialMapState *</td><td>out</td><td>Receives the current reconstruction state.</td></tr>
+    <tr><td>ArSpatialMap_getVertexCount</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArSpatialMap_getVertexCount</td><td>spatial_map</td><td>ArDenseSpatialMap *</td><td>in</td><td>Dense spatial map to query.</td></tr>
+    <tr><td>ArSpatialMap_getVertexCount</td><td>out_count</td><td>int32_t *</td><td>out</td><td>Receives number of vertices available.</td></tr>
+    <tr><td>ArSpatialMap_getIndexCount</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>ArSpatialMap_getIndexCount</td><td>spatial_map</td><td>ArDenseSpatialMap *</td><td>in</td><td>Dense spatial map to query.</td></tr>
+    <tr><td>ArSpatialMap_getIndexCount</td><td>out_count</td><td>int32_t *</td><td>out</td><td>Receives number of triangle indices available.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+# Neural Network Activation Functions and Their Derivatives
+
+| Activation | Expression f(x) | Derivative f'(x) | Notes |
+| --- | --- | --- | --- |
+| ReLU | max(0, x) | 0 (x<0), 1 (x>0) | Not differentiable at 0 |
+| Leaky ReLU | max(αx, x) | α (x<0), 1 (x>0) | α in (0,1) |
+| ELU | x (x>0), α(e^x−1) (x≤0) | 1 (x>0), αe^x (x≤0) | Smooth for x<0 |
+| Sigmoid | 1/(1+e^(−x)) | f(x)(1−f(x)) | Saturating |
+| Tanh | tanh(x) | 1−tanh^2(x) | Zero-centered |
+| Softplus | ln(1+e^x) | 1/(1+e^(−x)) | Smooth ReLU |
+| GELU (approx.) | x·σ(1.702x) | approx. σ(1.702x)+1.702xσ(1.702x)(1−σ(1.702x)) | Common in transformers |

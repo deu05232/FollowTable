@@ -1,0 +1,22 @@
+<table>
+  <caption>Parking Facility Equipment Data Elements</caption>
+  <tr><td>Internal Identifier</td><td>Chinese Name</td><td>Definition</td><td>Data Type</td><td>Data Format</td><td>Value Range</td><td>Unit of Measure</td><td>Remarks</td></tr>
+  <tr><td>04010001</td><td>Device Code Identifier</td><td>Device ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>04010002</td><td>Device Name</td><td>Device Name</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>04010003</td><td>Device Type</td><td>Device Type</td><td>Character</td><td>nl</td><td>Data collection devices; 2-  Intelligent control devices; 3-  Information publishing devices; 4-   Convenient payment devices; 5-  Edge devices; 6-  Charging devices; 9-  -Other devices</td><td></td><td></td></tr>
+  <tr><td>04010004</td><td>Location Attribute Category</td><td>Device location attribute category</td><td>Character</td><td>nl</td><td>1-   Entrance/exit-related devices; 2-  Parking space-related devices; 3-  Other devices inside the parking lot; 4-  Devices outside the parking lot</td><td></td><td></td></tr>
+  <tr><td>04010005</td><td>Location Description</td><td>Device location description</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>04010006</td><td>Longitude</td><td>Longitude</td><td>Numeric</td><td>n..12,8</td><td></td><td></td><td></td></tr>
+  <tr><td>04010007</td><td>Latitude</td><td>Latitude</td><td>Numeric</td><td>n..12,8</td><td></td><td></td><td></td></tr>
+  <tr><td>04010008</td><td>Associated Parking Lot ID</td><td>Associated Parking Lot ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>04010009</td><td>Entrance/Exit ID</td><td>Entrance/Exit ID</td><td>Character</td><td>an..40</td><td></td><td></td><td></td></tr>
+  <tr><td>04010010</td><td>Associated Parking Space ID</td><td>Associated Parking Space ID</td><td>Character</td><td>an..10</td><td></td><td></td><td></td></tr>
+  <tr><td>04010011</td><td>Device Manufacturer Name</td><td>Device Manufacturer Name</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>04010012</td><td>Brand</td><td>Brand</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>04010013</td><td>Model</td><td>Model</td><td>Character</td><td>an..40</td><td></td><td>SAG</td><td></td></tr>
+  <tr><td>04010014</td><td>Place of Origin</td><td>Place of Origin</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>04010015</td><td>Start of Use Time</td><td>Start of Use Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td><td></td></tr>
+  <tr><td>04010016</td><td>Device Service Scope Description</td><td>Device Service Scope Description</td><td>Character</td><td>an..100</td><td></td><td></td><td></td></tr>
+  <tr><td>04010017</td><td>Charging Type</td><td>Charging type of charging pile</td><td>Character</td><td>nl</td><td>Non-charging device; 2-  -DC fast charging; 3-  AC slow charging; 9- -Other</td><td></td><td></td></tr>
+  <tr><td>04010018</td><td>Device Status</td><td>Device Status</td><td>Character</td><td>nl</td><td>1-  -Online; 2——Offline; 3-—Fault; 9—Other</td><td></td><td></td></tr>
+</table>

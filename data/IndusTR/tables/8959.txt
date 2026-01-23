@@ -1,0 +1,15 @@
+<table>
+  <caption>Standby Power Limits by Energy Efficiency Grade for Smart Rice Cookers (Standby and Networked Standby)</caption>
+  <thead>
+    <tr><th rowspan="2">Operating state</th><th rowspan="2">Condition / feature</th><th colspan="3">Maximum standby power (W) by energy efficiency grade</th></tr>
+    <tr><th>Grade 1</th><th>Grade 2</th><th>Grade 3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Standby (no network mode)</td><td>No display or status indicator</td><td>≤ 0.40</td><td>≤ 0.60</td><td>≤ 0.90</td></tr>
+    <tr><td>With display or status indicator</td><td>≤ 0.60</td><td>≤ 0.80</td><td>≤ 1.20</td></tr>
+    <tr><td rowspan="2">Networked standby</td><td>Wi‑Fi / Ethernet enabled, maintains network connectivity</td><td>≤ 1.80</td><td>≤ 2.20</td><td>≤ 3.00</td></tr>
+    <tr><td>Bluetooth-only connection maintained</td><td>≤ 1.00</td><td>≤ 1.30</td><td>≤ 1.80</td></tr>
+    <tr><td>Off mode</td><td>Soft-off (electronic off) with plug connected</td><td>≤ 0.20</td><td>≤ 0.30</td><td>≤ 0.50</td></tr>
+    <tr><td>Delay start idle</td><td>Timer set, heating not active</td><td>≤ 0.70</td><td>≤ 0.90</td><td>≤ 1.30</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>AR session creation parameters (JNI-style) including output session pointer</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>env</td><td>void *</td><td>Pointer to the host runtime environment needed to call into the AR library</td></tr>
+  <tr><td>context</td><td>void *</td><td>Pointer to the application context used to bind the session to the app</td></tr>
+  <tr><td>out_session_pointer</td><td>ArSession **</td><td>Receives the address of the newly allocated AR session</td></tr>
+  <tr><td>error_code</td><td>ArStatus *</td><td>Optional output receiving the creation status</td></tr>
+  <tr><td>allocator</td><td>void *</td><td>Optional custom allocator used when creating the session</td></tr>
+  <tr><td>debug_tag</td><td>const char *</td><td>Optional tag to associate logs with this session creation call</td></tr>
+</table>

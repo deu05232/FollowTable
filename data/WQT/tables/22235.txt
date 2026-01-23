@@ -1,0 +1,12 @@
+# Single-Variable Differentiation  Combination Rules (Symbolic Patterns Only)
+
+| Category | Rule name | Pattern (given) | Derivative rule (result) | Notes/conditions |
+|---|---|---|---|---|
+| Linearity | Sum rule | d/dx [ f(x) + g(x) ] | f'(x) + g'(x) | f, g differentiable |
+| Linearity | Difference rule | d/dx [ f(x) - g(x) ] | f'(x) - g'(x) | f, g differentiable |
+| Linearity | Constant multiple rule | d/dx [ c·f(x) ] | c·f'(x) | c is a constant |
+| Products/Quotients | Product rule | d/dx [ f(x)·g(x) ] | f'(x)·g(x) + f(x)·g'(x) | f, g differentiable |
+| Products/Quotients | Quotient rule | d/dx [ f(x)/g(x) ] | (f'(x)·g(x) - f(x)·g'(x)) / (g(x))^2 | g(x) ≠ 0 |
+| Products/Quotients | Reciprocal (as a quotient special case) | d/dx [ 1/g(x) ] | -g'(x)/(g(x))^2 | g(x) ≠ 0 |
+| Nested structure | Chain rule | d/dx [ f(g(x)) ] | f'(g(x))·g'(x) | f differentiable at g(x); g differentiable at x |
+| Operator view | Linearity (combined statement) | d/dx [ a·f(x) + b·g(x) ] | a·f'(x) + b·g'(x) | a, b constants; f, g differentiable |

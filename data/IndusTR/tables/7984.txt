@@ -1,0 +1,6 @@
+<table>
+  <caption>SAF_SM9KeyEncapsulate interface definition</caption>
+  <tr><th>Prototype</th><td>int SAF_SM9KeyEncapsulate(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned int uiKeyBits, unsigned char *pucKeyPackage, unsigned int *puiKeyPackageLen, void **phKeyHandle);</td></tr>
+  <tr><th>Rules</th><td>Use the SM9 user identity and the encryption master public key to perform key encapsulation and output a key package and a session key handle. The SM9 computation process shall comply with GB/T 41389.</td></tr>
+  <tr><th>Parameters</th><td>hAppHandle[in] (application interface handle); uiMasterPublicKeyIndex[in] (encryption master public key index); pucUserID[in] (user identity); uiUserIDLen[in] (user identity length); uiKeyBits[in] (session key length in bits); pucKeyPackage[out] (key package); puiKeyPackageLen[in,out] (key package length); phKeyHandle[out] (session key handle)</td></tr>
+</table>

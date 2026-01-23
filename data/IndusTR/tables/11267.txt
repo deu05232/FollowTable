@@ -1,0 +1,11 @@
+<table>
+  <caption>Depth Image Retrieval and Post-Processing Parameters (Includes View Coordinates)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>AR session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer for the current update</td></tr>
+  <tr><td>out_depth_image</td><td>ArImage **</td><td>Receives the address of the depth image for this frame</td></tr>
+  <tr><td>out_depth_width</td><td>int32_t *</td><td>Receives depth image width in pixels</td></tr>
+  <tr><td>out_depth_height</td><td>int32_t *</td><td>Receives depth image height in pixels</td></tr>
+  <tr><td>pixel_x</td><td>float</td><td>Logical X position in the view used to sample depth</td></tr>
+  <tr><td>pixel_y</td><td>float</td><td>Logical Y position in the view used to sample depth</td></tr>
+</table>

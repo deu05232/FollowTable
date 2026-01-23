@@ -1,0 +1,16 @@
+<table>
+  <caption>Junction and Thickness-Transition Design Rules to Prevent Shrinkage and Cracking</caption>
+  <thead>
+    <tr><th>Design Situation</th><th>Preferred Geometry (Proper)</th><th>Avoid (Improper)</th><th>Defect Explicitly Prevented</th><th>Check / Rule-of-Thumb</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Two walls meeting (L-junction)</td><td>Uniform wall thickness through the corner with inside fillet and outside radius</td><td>Sharp corner plus local thickening (corner “mass”)</td><td>Hot tearing / corner cracking</td><td>Use radii; avoid creating a corner modulus larger than adjacent walls</td></tr>
+    <tr><td>T-junction (web to flange)</td><td>Add blend fillets and consider coring/relieving the intersection</td><td>Full-thickness T with no relief</td><td>Shrinkage cavity at junction</td><td>Keep junction modulus close to wall modulus; remove excess metal at node</td></tr>
+    <tr><td>X-junction / multi-arm node</td><td>Break up node (offset arms) or add relief pocket; design for progressive freezing</td><td>All arms intersecting at one heavy node</td><td>Shrinkage porosity cluster</td><td>Avoid “isolated last-to-freeze” nodes; ensure a feeding path remains open</td></tr>
+    <tr><td>Rib pattern on a plate</td><td>Use multiple thinner ribs instead of one thick rib; fillet roots</td><td>Few very thick ribs with sharp roots</td><td>Shrinkage porosity; rib-root cracking</td><td>Rib thickness typically 0.6–0.8·t; root fillet recommended</td></tr>
+    <tr><td>Boss near ribs / intersections</td><td>Blend boss into ribs with gussets and fillets; core boss if possible</td><td>Boss placed exactly at an intersection creating a compounded hot spot</td><td>Shrinkage cavity; hot spot porosity</td><td>Do not stack features (boss + rib + junction) in one location without relief</td></tr>
+    <tr><td>Wall thickness reduction</td><td>Taper down gradually (scarf/taper) and round the step</td><td>Sudden drop in thickness (knife step)</td><td>Cracking; misrun risk near thin section</td><td>Prefer gradual taper; avoid abrupt thermal gradient and contraction restraint</td></tr>
+    <tr><td>Wall thickness increase</td><td>Increase thickness gradually; if a thick region is required, connect it to a feed-friendly direction</td><td>Sudden thick pad added on a thin wall</td><td>Shrinkage cavity / internal void</td><td>Prevent isolated heavy sections; encourage directional solidification into feeders</td></tr>
+    <tr><td>Corner near opening / window</td><td>Round window corners and keep ligament thickness consistent</td><td>Sharp window corners with uneven ligaments</td><td>Cracking; local porosity</td><td>Uniform ligaments reduce stress concentration and local hot spots</td></tr>
+  </tbody>
+</table>

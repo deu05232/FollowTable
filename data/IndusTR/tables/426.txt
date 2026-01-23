@@ -1,0 +1,5 @@
+<table>
+  <caption>DECRYPTDATA Command Non-First Frame Message Data Structure</caption>
+  <tr><td>No.</td><td>Name</td><td>Length (byte)</td><td>Description</td></tr>
+  <tr><td>1</td><td>Message ciphertext</td><td>LC or 240</td><td>When the message ciphertext is less than or equal to 255 bytes, use "end-frame mode" to send the entire ciphertext. When the message ciphertext is greater than 255 bytes, use "intermediate-frame mode" to send the ciphertext in 240-byte segments per frame until the remaining ciphertext is less than or equal to 255 bytes, then use "end-frame mode" to send the remaining ciphertext</td></tr>
+</table>

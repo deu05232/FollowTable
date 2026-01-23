@@ -1,0 +1,10 @@
+<table>
+  <caption>Charger Abort Type (EndCodeType) Values</caption>
+  <tr><th>Type Value (HEX)</th><th>Type Name</th><th>Meaning</th><th>When Used</th><th>Notes</th></tr>
+  <tr><td>0x01</td><td>Normal Termination</td><td>Planned stop of the session</td><td>User stop or charge complete</td><td>Should include a non-error reason code</td></tr>
+  <tr><td>0x02</td><td>Fault Termination</td><td>Stopped due to a detected fault</td><td>Protection triggered</td><td>Reason code must indicate the fault</td></tr>
+  <tr><td>0x03</td><td>Safety Termination</td><td>Stopped due to safety interlock</td><td>Lock/contactor/safety chain issue</td><td>May require manual reset</td></tr>
+  <tr><td>0x04</td><td>Timeout Termination</td><td>Stopped due to protocol timeout</td><td>Handshake or data exchange timeout</td><td>Typically paired with timeout reason</td></tr>
+  <tr><td>0x05</td><td>Maintenance Termination</td><td>Stopped for maintenance mode</td><td>Service operation</td><td>Not for normal user sessions</td></tr>
+  <tr><td>0x06</td><td>Unknown</td><td>Unclassified termination</td><td>Fallback</td><td>Avoid using if possible</td></tr>
+</table>

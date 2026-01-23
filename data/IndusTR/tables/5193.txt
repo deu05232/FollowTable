@@ -1,0 +1,24 @@
+<table>
+  <caption>Rotor Spinning Machine Operation Monitoring Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Left Side Rotor Speed</td><td>LeftSideRotorSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~200 000.00</td><td>r/min</td><td></td><td>丨</td></tr>
+  <tr><td>0X0301</td><td>Left Side Carding Speed</td><td>LeftSideCardingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10 000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0302</td><td>Left Side Yarn Guide Speed</td><td>LeftSideYarnGuideSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~300.00</td><td>m/min</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X0303</td><td>Left Side Winding Speed</td><td>LeftSideWindingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~200.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0304</td><td>Left Side Tension Coefficient</td><td>LeftSideTensionCoefficient</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.60~1.50</td><td>丨</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0305</td><td>Left Side Feeding Speed</td><td>LeftSideFeedingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~600.00</td><td>mm/s</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0306</td><td>Number of Yarn Breaks on the Left Side</td><td>QuantityOfBreakingYarnsOnTheLeftSide</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65 535</td><td>个</td><td>One</td><td>One</td></tr>
+  <tr><td>0X0307</td><td>Right Side Rotor Speed</td><td>RightSideRotorSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~200 000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0308</td><td>Right Side Carding Speed</td><td>RightSideCardingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10 000.00</td><td>r/min</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X0309</td><td>Right Side Yarn Guide Speed</td><td>RightSideYarnGuideSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~300.00</td><td>m/min</td><td></td><td>One</td></tr>
+  <tr><td>0X030A</td><td>Right Side Winding Speed</td><td>RightSideWindingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~300.00</td><td>m/min</td><td>One</td><td>1</td></tr>
+  <tr><td>0X030B</td><td>Right Side Tension Coefficient</td><td>RightSideTensionCoefficient</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.60~1.50</td><td></td><td>丨</td><td>One</td></tr>
+  <tr><td>0X030C</td><td>Right Side Feeding Speed</td><td>RightSideFeedingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~600.00</td><td>mm/s</td><td>、</td><td>One</td></tr>
+  <tr><td>0X030D</td><td>Number of Yarn Breaks on the Right Side</td><td>QuantityOfBreakingYarnsOnTheRightSide</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65 535</td><td>个</td><td></td><td>One</td></tr>
+  <tr><td>0X030E</td><td>Process Negative Pressure</td><td>ProcessNegativePressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~8 000.00</td><td>Pa</td><td></td><td></td></tr>
+  <tr><td>0X030F</td><td>Negative Pressure for Impurity Removal</td><td>NegativePressureForImpurityRemoval</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3 000.00</td><td>Pa</td><td></td><td></td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0310</td><td>Total Number of Yarn Breaks of the Whole Machine</td><td>QuantityOfBreakingYarnsOnTheWholeMachine</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65 535</td><td>个</td><td>丨</td><td>One</td></tr>
+  <tr><td>0X0311</td><td>Number of Breaks per Thousand Spindle-hours</td><td>EndsDown/MillenarySpindleHours</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~500</td><td>个</td><td>丨</td><td>丨</td></tr>
+  <tr><td>0X0312</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td></td><td>1</td><td>1</td></tr>
+</table>

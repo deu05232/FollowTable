@@ -1,0 +1,14 @@
+<table>
+  <caption>Reduction Arithmetic by Scenario (Baseline vs Project) Without Project-Emission Component Detail</caption>
+  <thead>
+    <tr><th>Case</th><th>Baseline emissions (BE)</th><th>Project emissions (PE)</th><th>Leakage (LE)</th><th>Net reductions (ER)</th><th>Equation used</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Case A: Landfill to incineration, no energy export</td><td>120,000</td><td>85,000</td><td>0</td><td>35,000</td><td>ER = BE - PE - LE</td></tr>
+    <tr><td>Case B: Landfill to incineration, electricity export</td><td>150,000</td><td>90,000</td><td>0</td><td>60,000</td><td>ER = BE - PE - LE</td></tr>
+    <tr><td>Case C: Landfill to incineration, heat export</td><td>160,000</td><td>92,000</td><td>2,000</td><td>66,000</td><td>ER = BE - PE - LE</td></tr>
+    <tr><td>Case D: Mixed waste diversion, partial landfill</td><td>100,000</td><td>70,000</td><td>1,000</td><td>29,000</td><td>ER = BE - PE - LE</td></tr>
+    <tr><td>Case E: High fossil auxiliary fuel use</td><td>140,000</td><td>115,000</td><td>0</td><td>25,000</td><td>ER = BE - PE - LE</td></tr>
+    <tr><td>Case F: Grid factor sensitivity (low EF)</td><td>130,000</td><td>88,000</td><td>0</td><td>42,000</td><td>ER = BE - PE - LE</td></tr>
+  </tbody>
+</table>

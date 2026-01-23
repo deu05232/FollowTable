@@ -1,0 +1,16 @@
+<table>
+  <caption>Gibbs Free Energy of Solvation Across P–T Grid: Simulated vs Experimental with Multiple Water Models</caption>
+  <thead>
+    <tr><th rowspan="2">Solute</th><th colspan="2">Thermodynamic Conditions</th><th colspan="3">Simulation ΔGsolv (kJ/mol)</th><th colspan="2">Experimental ΔGsolv (kJ/mol)</th></tr>
+    <tr><th>Pressure (MPa)</th><th>Temperature (K)</th><th>TIP3P</th><th>TIP4P/2005</th><th>SPC/E</th><th>Reference</th><th>Uncertainty</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Na+</td><td>0.1</td><td>298</td><td>-365</td><td>-375</td><td>-360</td><td>-365</td><td>±3</td></tr>
+    <tr><td>K+</td><td>0.1</td><td>298</td><td>-300</td><td>-310</td><td>-295</td><td>-305</td><td>±4</td></tr>
+    <tr><td>Cl−</td><td>0.1</td><td>298</td><td>-330</td><td>-340</td><td>-325</td><td>-335</td><td>±5</td></tr>
+    <tr><td>Na+</td><td>50</td><td>350</td><td>-340</td><td>-350</td><td>-335</td><td>-345</td><td>±6</td></tr>
+    <tr><td>K+</td><td>50</td><td>350</td><td>-280</td><td>-290</td><td>-275</td><td>-285</td><td>±6</td></tr>
+    <tr><td>Cl−</td><td>50</td><td>350</td><td>-305</td><td>-315</td><td>-300</td><td>-310</td><td>±7</td></tr>
+    <tr><td>Na+</td><td>100</td><td>400</td><td>-325</td><td>-335</td><td>-320</td><td>-330</td><td>±8</td></tr>
+  </tbody>
+</table>

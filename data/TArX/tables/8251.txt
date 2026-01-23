@@ -1,0 +1,17 @@
+<table>
+  <caption>Fundamental constants adopted for the run, with model-switches and tuning inputs used in the analysis.</caption>
+  <thead>
+    <tr><th rowspan="2">Quantity</th><th rowspan="2">Symbol</th><th rowspan="2">Numerical value</th><th rowspan="2">Unit</th><th colspan="2">Experiment/Model conditions (to be avoided)</th></tr>
+    <tr><th>Setup / configuration</th><th>Tuning / control parameter</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Speed of light</td><td>c</td><td>2.99792458×10^8</td><td>m·s^-1</td><td>Time-of-flight bench, 20 m path</td><td>Laser repetition rate = 80 MHz</td></tr>
+    <tr><td>Planck constant</td><td>h</td><td>6.62607015×10^-34</td><td>J·s</td><td>Josephson array + QHE cross-calibration</td><td>Bias current = 1.2 mA</td></tr>
+    <tr><td>Reduced Planck constant</td><td>ħ</td><td>1.054571817×10^-34</td><td>J·s</td><td>Spectral fit to linewidth</td><td>Fit window = 5–25 THz</td></tr>
+    <tr><td>Elementary charge</td><td>e</td><td>1.602176634×10^-19</td><td>C</td><td>Cryogenic current comparator</td><td>Bridge ratio = 1000:1</td></tr>
+    <tr><td>Boltzmann constant</td><td>k_B</td><td>1.380649×10^-23</td><td>J·K^-1</td><td>Acoustic gas thermometry cell</td><td>Pressure setpoint = 100 kPa</td></tr>
+    <tr><td>Gravitational constant</td><td>G</td><td>6.67430×10^-11</td><td>m^3·kg^-1·s^-2</td><td>Torsion balance (Cavendish-type)</td><td>Fiber Q-factor = 4500</td></tr>
+    <tr><td>Vacuum permittivity</td><td>ε_0</td><td>8.8541878128×10^-12</td><td>F·m^-1</td><td>Capacitance bridge</td><td>Guard ring gap = 0.5 mm</td></tr>
+    <tr><td>Vacuum permeability</td><td>μ_0</td><td>1.25663706212×10^-6</td><td>N·A^-2</td><td>Solenoid field mapping</td><td>Drive current = 2.0 A</td></tr>
+  </tbody>
+</table>

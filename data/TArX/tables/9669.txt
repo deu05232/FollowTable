@@ -1,0 +1,17 @@
+<table>
+  <caption>Overall planetary albedo (single value per planet) with brief measurement context</caption>
+  <thead>
+    <tr><th rowspan="2">Planet</th><th rowspan="2">Overall planetary albedo</th><th colspan="3">Context (not separate albedos)</th></tr>
+    <tr><th>Albedo definition</th><th>Typical source method</th><th>Short remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mercury</td><td>0.12</td><td>Bond</td><td>Disk-integrated photometry + phase curve</td><td>Dark regolith; no clouds</td></tr>
+    <tr><td>Venus</td><td>0.75</td><td>Bond</td><td>Broadband radiometry</td><td>High cloud reflectance dominates</td></tr>
+    <tr><td>Earth</td><td>0.30</td><td>Bond</td><td>Satellite radiative budget</td><td>Strong cloud control on variability</td></tr>
+    <tr><td>Mars</td><td>0.25</td><td>Bond</td><td>Broadband radiometry</td><td>Dust storms can shift the global mean</td></tr>
+    <tr><td>Jupiter</td><td>0.34</td><td>Bond</td><td>Spacecraft + ground-based phase curve</td><td>Bright cloud tops; banding averages out globally</td></tr>
+    <tr><td>Saturn</td><td>0.34</td><td>Bond</td><td>Spacecraft radiometry</td><td>Rings can bias apparent brightness; value refers to planet</td></tr>
+    <tr><td>Uranus</td><td>0.30</td><td>Bond</td><td>Disk-integrated broadband observations</td><td>Seasonal geometry affects measured phase coverage</td></tr>
+    <tr><td>Neptune</td><td>0.29</td><td>Bond</td><td>Disk-integrated broadband observations</td><td>Cloud activity causes modest changes</td></tr>
+  </tbody>
+</table>

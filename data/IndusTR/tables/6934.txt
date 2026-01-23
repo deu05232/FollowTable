@@ -1,0 +1,11 @@
+<table>
+  <caption>Photodetector Assembly Absolute Maximum Ratings (One-Sided Limits)</caption>
+  <tr><th>Rating</th><th>Symbol</th><th>Limit</th><th>Unit</th><th>Conditions</th><th>Consequence if Exceeded</th></tr>
+  <tr><td>Reverse bias voltage</td><td>VR</td><td>≤ 20</td><td>V</td><td>Any time</td><td>Permanent damage possible</td></tr>
+  <tr><td>Optical input power</td><td>Pin</td><td>≤ 5</td><td>mW</td><td>λ=1310 nm</td><td>Saturation / thermal stress</td></tr>
+  <tr><td>Operating case temperature</td><td>Tcase</td><td>≤ +75</td><td>°C</td><td>Commercial grade</td><td>Spec not guaranteed</td></tr>
+  <tr><td>Storage temperature</td><td>Tstg</td><td>-40 to +85</td><td>°C</td><td>Non-condensing</td><td>Package stress</td></tr>
+  <tr><td>Storage humidity</td><td>RHstg</td><td>≤ 95</td><td>%</td><td>Non-condensing</td><td>Corrosion risk</td></tr>
+  <tr><td>ESD sensitivity</td><td>HBM</td><td>≥ 2000</td><td>V</td><td>ANSI/ESDA/JEDEC JS-001</td><td>Latent damage</td></tr>
+  <tr><td>Lead soldering temperature</td><td>Tsol</td><td>≤ 260</td><td>°C</td><td>10 s max</td><td>Seal degradation</td></tr>
+</table>

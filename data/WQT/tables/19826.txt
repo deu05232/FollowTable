@@ -1,0 +1,13 @@
+# Mail Routing and Connector Values Used in Exchange Online + On-Premises Hybrid
+
+| Item | On-premises value (example) | Microsoft 365 value (example) | Purpose |
+|---|---|---|---|
+| Outbound smart host | mail.contoso.com | contoso-com.mail.protection.outlook.com | Routes mail between orgs |
+| Inbound connector scope | Public IP: 203.0.113.10 | Tenant connector ID: 8f3c... | Defines trusted sources |
+| TLS certificate subject | CN=mail.contoso.com | CN=*.protection.outlook.com | Secures SMTP transport |
+| Hybrid send connector address space | contoso.mail.onmicrosoft.com | N/A | Targets cloud routing domain |
+| Remote routing address pattern | @contoso.mail.onmicrosoft.com | @contoso.com | Used during mailbox moves |
+| Receive connector bindings | 0.0.0.0:25 | N/A | Listens for SMTP |
+| Transport rule header stamp | X-HybridRoute: true | X-MS-Exchange-Organization-AuthAs: Internal | Troubleshooting routing |
+| Autodiscover SCP | https://autodiscover.contoso.com/autodiscover/autodiscover.xml | https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml | Client discovery path |
+| Hybrid mail flow test target | test@contoso.com | test@contoso.onmicrosoft.com | Validation mailbox endpoints |

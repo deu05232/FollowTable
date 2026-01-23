@@ -1,0 +1,14 @@
+<table>
+  <caption>Cosmological parameter summary from selected ΛCDM fits (dimensionless density parameters only)</caption>
+  <thead>
+    <tr><th>Dataset / Fit</th><th>ΩΛ</th><th>Ωm</th><th>Ωb</th><th>h</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WMAP-like baseline</td><td>0.73</td><td>0.27</td><td>0.044</td><td>0.70</td><td>Flat prior assumed</td></tr>
+    <tr><td>Simulation design (LD-Carmen)</td><td>0.75</td><td>0.25</td><td>0.040</td><td>0.70</td><td>Used for N-body initial conditions</td></tr>
+    <tr><td>Model: SCDM</td><td>0.00</td><td>1.00</td><td>0.050</td><td>0.50</td><td>Einstein–de Sitter limit</td></tr>
+    <tr><td>Model: ΛCDM</td><td>0.70</td><td>0.30</td><td>0.060</td><td>0.65</td><td>Representative concordance model</td></tr>
+    <tr><td>Model: OCDM</td><td>0.00</td><td>0.40</td><td>0.060</td><td>0.65</td><td>Open universe (no Λ)</td></tr>
+    <tr><td>Planck-like reference</td><td>0.685</td><td>0.315</td><td>0.049</td><td>0.674</td><td>Dimensionless parameters reported</td></tr>
+  </tbody>
+</table>

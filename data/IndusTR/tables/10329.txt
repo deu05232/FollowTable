@@ -1,0 +1,15 @@
+<table>
+  <caption>Light Estimation and HDR Environment Probes (Enum Definitions)</caption>
+  <thead>
+    <tr><th>Feature Area</th><th>Enum Constant</th><th>Numeric Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Light estimation mode</td><td>AR_LIGHT_ESTIMATION_MODE_DISABLED</td><td>0</td><td>Disables all light estimation outputs.</td></tr>
+    <tr><td>AR_LIGHT_ESTIMATION_MODE_AMBIENT_INTENSITY</td><td>1</td><td>Outputs scalar intensity + RGB color correction.</td></tr>
+    <tr><td>AR_LIGHT_ESTIMATION_MODE_ENVIRONMENTAL_HDR</td><td>2</td><td>Outputs HDR spherical harmonics / main light direction.</td></tr>
+    <tr><td>AR_LIGHT_ESTIMATION_MODE_ENVIRONMENTAL_HDR_FAST</td><td>3</td><td>Reduced-quality HDR for performance.</td></tr>
+    <tr><td rowspan="3">Environment probe</td><td>AR_ENVIRONMENT_PROBE_DISABLED</td><td>0</td><td>No reflection/environment probe.</td></tr>
+    <tr><td>AR_ENVIRONMENT_PROBE_AUTOMATIC</td><td>1</td><td>Automatic probe updated as scene changes.</td></tr>
+    <tr><td>AR_ENVIRONMENT_PROBE_MANUAL</td><td>2</td><td>Application provides probe placement and updates.</td></tr>
+  </tbody>
+</table>

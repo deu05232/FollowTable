@@ -1,0 +1,12 @@
+<table>
+  <caption>Framework adaptation interfaces with implementation priority and runtime responsibility</caption>
+  <tr><th>Integration point</th><th>Implementation priority</th><th>Runtime responsibility</th><th>Typical failure symptoms if missing</th></tr>
+  <tr><td>Model creation/build entry</td><td>Must implement</td><td>Turn a framework graph/IR into a hardware-executable artifact and allocate required device resources</td><td>Cannot load or execute any model on the device</td></tr>
+  <tr><td>Model destruction/cleanup</td><td>Must implement</td><td>Release executable artifacts, device buffers, and any runtime handles created during build</td><td>Memory leaks or stale device handles across runs</td></tr>
+  <tr><td>Graph generation / graph capture</td><td>Must implement</td><td>Materialize the computation graph representation that downstream compilation expects</td><td>Compilation pipeline never starts or produces empty graphs</td></tr>
+  <tr><td>Graph engine initialization</td><td>Nice to have</td><td>Create and configure the graph engine context used during compilation or execution</td><td>Repeated setup cost; limited configuration options</td></tr>
+  <tr><td>Graph engine finalization</td><td>Nice to have</td><td>Tear down graph-engine state and flush any deferred resources</td><td>Leftover state between processes or tests</td></tr>
+  <tr><td>High-level IR construction</td><td>Nice to have</td><td>Build a compiler-friendly high-level IR from the framework graph to enable optimizations</td><td>Reduced optimization opportunities; slower build time</td></tr>
+  <tr><td>Lowering to low-level IR</td><td>Nice to have</td><td>Convert high-level IR into a target-oriented low-level IR suitable for codegen</td><td>Limited backend coverage; fewer supported operators</td></tr>
+  <tr><td>Model validation / supported-op analysis</td><td>Nice to have</td><td>Detect supported subgraphs and decide what can be offloaded to hardware</td><td>Fallback to CPU for everything or runtime errors on unsupported ops</td></tr>
+</table>

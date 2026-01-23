@@ -1,0 +1,14 @@
+<table>
+  <caption>Error Budget Example for Data Center DC Power Distribution (Facility Energy Accounting)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Measured Quantity</th><th>Sensor Type</th><th>Typical Uncertainty (%)</th><th>Sampling Interval</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Busbar monitoring</td><td>DC voltage</td><td>Hall-effect transducer</td><td>0.5</td><td>1 s</td><td>Operational monitoring</td></tr>
+    <tr><td>Feeder monitoring</td><td>DC current</td><td>Rogowski coil</td><td>1.0</td><td>1 s</td><td>Load profiling</td></tr>
+    <tr><td>Battery string</td><td>DC energy</td><td>Embedded meter</td><td>0.8</td><td>10 s</td><td>State-of-charge estimate</td></tr>
+    <tr><td>Rectifier output</td><td>DC power</td><td>Power analyzer</td><td>0.3</td><td>1 s</td><td>Efficiency reporting</td></tr>
+    <tr><td>PDU level</td><td>DC energy</td><td>Branch circuit monitor</td><td>1.2</td><td>60 s</td><td>Billing allocation</td></tr>
+    <tr><td>IT rack</td><td>DC power</td><td>Smart breaker</td><td>1.5</td><td>60 s</td><td>Capacity planning</td></tr>
+  </tbody>
+</table>

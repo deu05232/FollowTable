@@ -1,0 +1,19 @@
+<table>
+  <caption>Speed-of-light related lattice/experiment tuning summary including c, c^2 checks and run parameters (beta, lattice size, fit chi^2).</caption>
+  <thead>
+    <tr><th>Block</th><th>Run ID</th><th>Parameter</th><th>Symbol</th><th>Value</th><th>Unit</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Reference constant</td><td>REF</td><td>Speed of light</td><td>c</td><td>2.99792458e8</td><td>m·s^-1</td><td>Used for unit conversion</td></tr>
+    <tr><td>REF</td><td>Vacuum permittivity</td><td>ε0</td><td>8.8541878128e-12</td><td>F·m^-1</td><td>Electromagnetic constant</td></tr>
+    <tr><td>REF</td><td>Vacuum permeability</td><td>μ0</td><td>1.25663706212e-6</td><td>N·A^-2</td><td>Electromagnetic constant</td></tr>
+    <tr><td rowspan="4">Lattice/fit tuning (non-constant)</td><td>A1</td><td>Gauge coupling</td><td>β</td><td>1.80</td><td>1</td><td>Simulation input</td></tr>
+    <tr><td>A1</td><td>Lattice extent</td><td>L</td><td>16</td><td>sites</td><td>Geometry parameter</td></tr>
+    <tr><td>A1</td><td>Speed-of-light parameter squared</td><td>c^2</td><td>0.986</td><td>1</td><td>Tuned toward 1</td></tr>
+    <tr><td>A1</td><td>Fit quality</td><td>χ^2/dof</td><td>1.12</td><td>1</td><td>Diagnostics, not a constant</td></tr>
+    <tr><td rowspan="4">Lattice/fit tuning (non-constant)</td><td>B3</td><td>Gauge coupling</td><td>β</td><td>2.10</td><td>1</td><td>Simulation input</td></tr>
+    <tr><td>B3</td><td>Lattice extent</td><td>L</td><td>24</td><td>sites</td><td>Geometry parameter</td></tr>
+    <tr><td>B3</td><td>Speed-of-light parameter squared</td><td>c^2</td><td>1.021</td><td>1</td><td>Post-tuning estimate</td></tr>
+    <tr><td>B3</td><td>Fit quality</td><td>χ^2/dof</td><td>0.94</td><td>1</td><td>Diagnostics, not a constant</td></tr>
+  </tbody>
+</table>

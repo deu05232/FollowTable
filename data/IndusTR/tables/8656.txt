@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Viewport & UI Interaction Parameters (Coordinate-Focused)</caption>
+  <thead>
+    <tr><th>API / Callback</th><th>Input Coordinate Parameters</th><th>Coordinate Space</th><th>UI Element Dependency</th><th>Returned Frame Result</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>onTouchEventToArFrame</td><td>touchX, touchY</td><td>Screen pixels</td><td>Gesture detector</td><td>ArHitResultList*</td><td>Tap-to-place interactions</td></tr>
+    <tr><td>ArFrame_setDisplayGeometry</td><td>rotation, width, height</td><td>Display space</td><td>SurfaceView/GLSurfaceView</td><td>(none)</td><td>Configure frame for screen orientation</td></tr>
+    <tr><td>ArFrame_getCameraImageUV</td><td>u, v</td><td>Normalized UV</td><td>Camera preview</td><td>uint8_t rgb[3]</td><td>Sample preview color under cursor</td></tr>
+    <tr><td>ArFrame_getViewMatrixForPixel</td><td>pixelX, pixelY</td><td>Viewport pixels</td><td>Renderer viewport</td><td>float viewMatrix[16]</td><td>Compute per-pixel camera vectors</td></tr>
+    <tr><td>ArFrame_projectWorldPoint</td><td>worldX, worldY, worldZ</td><td>World meters</td><td>Overlay UI</td><td>float screenXY[2]</td><td>Project anchors to screen labels</td></tr>
+    <tr><td>ArFrame_unprojectScreenPoint</td><td>screenX, screenY, depth</td><td>Screen pixels + meters</td><td>Crosshair UI</td><td>float worldXYZ[3]</td><td>Convert crosshair to world point</td></tr>
+    <tr><td>ArFrame_getViewportIntersection</td><td>rectLeft, rectTop, rectRight, rectBottom</td><td>Screen pixels</td><td>HUD layout</td><td>bool intersects</td><td>Determine if UI region overlaps tracked content</td></tr>
+  </tbody>
+</table>

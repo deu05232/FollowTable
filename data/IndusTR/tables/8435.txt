@@ -1,0 +1,17 @@
+<table>
+  <caption>Payload Mechanical Assembly Audit (Screws, Brackets, Clearances)</caption>
+  <thead>
+    <tr><th>Assembly Area</th><th>Check Item</th><th>Spec</th><th>Observed</th><th>Pass/Fail</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Avionics Tray</td><td>Standoff height (mm)</td><td>20.0 ± 0.2</td><td>20.1</td><td>PASS</td><td>No rocking</td></tr>
+    <tr><td>Screw quantity (tray) (pcs)</td><td>6</td><td>6</td><td>PASS</td><td>All torqued</td></tr>
+    <tr><td>Screw torque M4 (N·m)</td><td>2.2 ± 0.2</td><td>2.1</td><td>PASS</td><td>Cross pattern</td></tr>
+    <tr><td>Edge clearance to enclosure (mm)</td><td>≥ 3.0</td><td>3.4</td><td>PASS</td><td>Meets requirement</td></tr>
+    <tr><td rowspan="3">Antenna Mast</td><td>Bracket bolt preload (N)</td><td>300 ± 30</td><td>295</td><td>PASS</td><td>Threadlocker applied</td></tr>
+    <tr><td>Mast verticality (deg)</td><td>≤ 1.0</td><td>0.6</td><td>PASS</td><td>Leveled</td></tr>
+    <tr><td>Clamp gap (mm)</td><td>0.5–1.0</td><td>0.8</td><td>PASS</td><td>Uniform gap</td></tr>
+    <tr><td rowspan="2">Thermal Shield</td><td>Panel fastener spacing (mm)</td><td>100 ± 5</td><td>102</td><td>PASS</td><td>Visual inspection OK</td></tr>
+    <tr><td>Rivet count (pcs)</td><td>18</td><td>18</td><td>PASS</td><td>No loose rivets</td></tr>
+  </tbody>
+</table>

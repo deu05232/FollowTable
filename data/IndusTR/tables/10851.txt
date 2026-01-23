@@ -1,0 +1,6 @@
+<table>
+  <caption>ACK response frame for command C3H (no explicit data segment breakdown)</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th>Result</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>01H</td><td>C3H</td><td>0001H</td><td>00H/01H</td><td>xxxxH</td><td>0DH 0AH</td></tr>
+  <tr><td colspan="7">Note: Result indicates success/failure, but the payload is not broken into a data segment structure.</td></tr>
+</table>

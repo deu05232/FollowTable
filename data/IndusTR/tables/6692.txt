@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Pack Safety Test Report Checklist (Evidence-Oriented)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Required Evidence</th><th>Photo / File Reference</th><th>Witness / Sign-off</th><th>Nonconformance Narrative</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ST-M01</td><td>Mounting verification checklist completed</td><td>IMG_001-IMG_006</td><td>QA + Lab Engineer</td><td>Describe fixture deviations in full sentences</td></tr>
+    <tr><td>ST-M02</td><td>Pre-test insulation resistance log attached</td><td>IR_LOG.xlsx</td><td>Safety Officer</td><td>Explain any IR drift and suspected cause</td></tr>
+    <tr><td>ST-E03</td><td>CAN trace before/after test included</td><td>CAN_BEFORE.asc / CAN_AFTER.asc</td><td>Systems Engineer</td><td>Write a timeline of observed faults</td></tr>
+    <tr><td>ST-ENV04</td><td>Chamber calibration certificate in appendix</td><td>CERT_2025_11.pdf</td><td>Metrology</td><td>Note any out-of-tolerance sensors</td></tr>
+    <tr><td>ST-M05</td><td>Video evidence of event termination criteria</td><td>VID_014.mp4</td><td>Lab Manager</td><td>Describe why termination was triggered</td></tr>
+    <tr><td>ST-SAF06</td><td>Hazard assessment form completed</td><td>HAZ_FORM.docx</td><td>EHS</td><td>Summarize hazards and mitigations used</td></tr>
+    <tr><td>ST-PRE07</td><td>Specimen identification and serial numbers</td><td>SN_LIST.csv</td><td>Test Coordinator</td><td>Explain any mismatch between labels and records</td></tr>
+  </tbody>
+</table>

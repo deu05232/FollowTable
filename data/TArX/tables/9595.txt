@@ -1,0 +1,16 @@
+<table>
+  <caption>Lennard-Jones van der Waals parameters (12-6) for selected noble gases and small molecules (commonly used in molecular simulations).</caption>
+  <thead>
+    <tr><th>Species</th><th>Model/FF Label</th><th>σ (Å)</th><th>ε/kB (K)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>He</td><td>LJ</td><td>2.576</td><td>10.22</td><td>Rare-gas vdW parameters</td></tr>
+    <tr><td>Ne</td><td>LJ</td><td>2.789</td><td>35.60</td><td>Rare-gas vdW parameters</td></tr>
+    <tr><td>Ar</td><td>LJ</td><td>3.405</td><td>119.80</td><td>Rare-gas vdW parameters</td></tr>
+    <tr><td>Kr</td><td>LJ</td><td>3.650</td><td>164.00</td><td>Rare-gas vdW parameters</td></tr>
+    <tr><td>Xe</td><td>LJ</td><td>4.100</td><td>221.00</td><td>Rare-gas vdW parameters</td></tr>
+    <tr><td>CH4</td><td>United-atom LJ</td><td>3.730</td><td>148.00</td><td>Simple vdW site model</td></tr>
+    <tr><td>CO2</td><td>Single-site LJ</td><td>3.300</td><td>190.00</td><td>Effective vdW site (coarse)</td></tr>
+    <tr><td>N2</td><td>Single-site LJ</td><td>3.310</td><td>36.00</td><td>Effective vdW site (coarse)</td></tr>
+  </tbody>
+</table>

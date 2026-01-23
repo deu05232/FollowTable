@@ -1,0 +1,17 @@
+<table>
+  <caption>Key and ID Dictionary for User Terminal Application File (Definitions Only, No Per-Item Byte Lengths)</caption>
+  <thead>
+    <tr><th>Item</th><th>Type</th><th>Definition</th><th>Allowed Values / Semantics</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Broadcast ID</td><td>Identifier</td><td>Group identifier for broadcast reception.</td><td>Interpreted as a device group address; uniqueness depends on operator.</td></tr>
+    <tr><td>Broadcast KeyID</td><td>Key Reference</td><td>Index selecting which broadcast key is used for decrypting broadcast messages.</td><td>0x00–0xFF; mapping defined by key table.</td></tr>
+    <tr><td>Multicast ID</td><td>Identifier</td><td>Identifier for multicast subscription entries.</td><td>May appear multiple times as separate records.</td></tr>
+    <tr><td>Multicast Sub-Key ID</td><td>Key Reference</td><td>Selects the multicast sub-key corresponding to a multicast ID.</td><td>Small integer used to locate a sub-key.</td></tr>
+    <tr><td>Multicast Status</td><td>Status Flag</td><td>Indicates whether a multicast ID entry is active or reclaimed.</td><td>00 = in use; 01 = reclaimed (cannot be used).</td></tr>
+    <tr><td>IV Index</td><td>Index</td><td>Index number referencing an initialization vector slot.</td><td>Used to choose default vs backup IV.</td></tr>
+    <tr><td>Initialization Vector (IV)</td><td>Crypto Parameter</td><td>Nonce-like parameter used by block cipher modes.</td><td>Must match algorithm requirements; typically fixed-length.</td></tr>
+    <tr><td>User Management Module Identifier</td><td>Diversification Factor</td><td>Input factor for deriving on-demand and authentication keys.</td><td>Treated as an opaque identifier in key derivation.</td></tr>
+    <tr><td>Authentication Key</td><td>Key</td><td>Key used to compute uplink authentication codes.</td><td>Protected and updated via secure procedures.</td></tr>
+  </tbody>
+</table>

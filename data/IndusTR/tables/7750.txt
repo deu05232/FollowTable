@@ -1,0 +1,16 @@
+<table>
+  <caption>Supported Event Types and Alarm Reporting for Intrusion Detectors (with Minimal Performance Fields)</caption>
+  <thead>
+    <tr><th rowspan="2">Event / Function</th><th colspan="2">Requirement flags</th><th colspan="2">Reporting details</th><th rowspan="2">Related threshold (if applicable)</th></tr>
+    <tr><th>Level 1-2</th><th>Level 3-4</th><th>Report code</th><th>Max reporting delay (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intrusion alarm</td><td>M</td><td>M</td><td>0x01</td><td>5</td><td>Speed ≥ 0.8 m/s</td></tr>
+    <tr><td>Tamper alarm</td><td>M</td><td>M</td><td>0x02</td><td>5</td><td>Cover open > 2 s</td></tr>
+    <tr><td>Low battery</td><td>OP</td><td>M</td><td>0x03</td><td>60</td><td>Voltage < 3.2 V</td></tr>
+    <tr><td>Communication fault</td><td>OP</td><td>M</td><td>0x04</td><td>30</td><td>Heartbeat loss > 120 s</td></tr>
+    <tr><td>Anti-masking</td><td>OP</td><td>M</td><td>0x05</td><td>10</td><td>Obscuration > 80%</td></tr>
+    <tr><td>Power restore</td><td>OP</td><td>OP</td><td>0x06</td><td>60</td><td>N/A</td></tr>
+    <tr><td>Service required</td><td>OP</td><td>OP</td><td>0x07</td><td>300</td><td>N/A</td></tr>
+  </tbody>
+</table>

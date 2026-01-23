@@ -1,0 +1,15 @@
+<table>
+  <caption>Vehicle Charging Parameter (BCP) - Byte/Bit Signal Definitions</caption>
+  <thead>
+    <tr><th>Message</th><th>PGN</th><th>Start Byte</th><th>Start Bit</th><th>Length (bits)</th><th>Signal Name</th><th>Description</th><th>Resolution</th><th>Offset</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">BCP</td><td rowspan="7">0x000600</td><td>1</td><td>0</td><td>16</td><td>MaxCellVoltage</td><td>Maximum allowable charging voltage of a single cell</td><td>0.001</td><td>0</td><td>V</td></tr>
+    <tr><td>3</td><td>0</td><td>16</td><td>MaxChargeCurrent</td><td>Maximum allowable charging current</td><td>0.1</td><td>0</td><td>A</td></tr>
+    <tr><td>5</td><td>0</td><td>16</td><td>NominalEnergy</td><td>Nominal total energy of traction battery</td><td>0.1</td><td>0</td><td>kWh</td></tr>
+    <tr><td>7</td><td>0</td><td>16</td><td>MaxPackVoltage</td><td>Maximum pack charging voltage request</td><td>0.1</td><td>0</td><td>V</td></tr>
+    <tr><td>9</td><td>0</td><td>16</td><td>MaxPackCurrent</td><td>Maximum pack charging current request</td><td>0.1</td><td>0</td><td>A</td></tr>
+    <tr><td>11</td><td>0</td><td>8</td><td>BatteryType</td><td>Chemistry/type indicator</td><td>1</td><td>0</td><td>-</td></tr>
+    <tr><td>12</td><td>0</td><td>8</td><td>Reserved</td><td>Reserved byte</td><td>1</td><td>0</td><td>-</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Public Security Video/Image Person-Object Index Data Items (Identifier-Centric)</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Person Object Core</td><td>1</td><td>Person Object Identifier</td><td>prdxbz</td><td>c48</td><td>Unique identifier for a detected person object within a frame/segment; generated per coding rules.</td></tr>
+    <tr><td>2</td><td>Associated Source Identifier</td><td>gllaiybz</td><td>c48</td><td>Links the person object to a source record; not intended to describe capture context.</td></tr>
+    <tr><td>3</td><td>Person Track Identifier</td><td>prgjbz</td><td>c32</td><td>Identifier for a continuous trajectory of the same person across frames.</td></tr>
+    <tr><td>4</td><td>Parent Object Identifier</td><td>fjdxbz</td><td>c48</td><td>Identifier for the parent compound object (e.g., group object) if applicable.</td></tr>
+    <tr><td rowspan="3">Person Attributes</td><td>5</td><td>Gender Code</td><td>xbm</td><td>c1</td><td>Enumerated code for gender attribute of the person object.</td></tr>
+    <tr><td>6</td><td>Upper Clothing Color Code</td><td>syysdm</td><td>c2</td><td>Color code for upper garment as perceived from the imagery.</td></tr>
+    <tr><td>7</td><td>Carrying Item Flag</td><td>xcdwpbs</td><td>c1</td><td>Indicates whether the person object appears to carry an item.</td></tr>
+    <tr><td rowspan="2">Geometry</td><td>8</td><td>Bounding Box Top-left X</td><td>kk_zzx</td><td>n..6</td><td>X coordinate of the top-left corner of the person bounding box.</td></tr>
+    <tr><td>9</td><td>Bounding Box Top-left Y</td><td>kk_zzy</td><td>n..6</td><td>Y coordinate of the top-left corner of the person bounding box.</td></tr>
+  </tbody>
+</table>

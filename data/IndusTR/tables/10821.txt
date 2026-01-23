@@ -1,0 +1,15 @@
+<table>
+  <caption>Purchased/Exported Heat Summary (GJ) with Carbonate Decomposition Module Fields</caption>
+  <thead>
+    <tr><th rowspan="2">Heat Flow</th><th colspan="3">Indirect Energy (Heat)</th><th colspan="3">Carbonate Decomposition (Not Allowed)</th></tr>
+    <tr><th>Heat (GJ)</th><th>CO2 EF (tCO2/GJ)</th><th>CO2 (tCO2)</th><th>Carbonate Type</th><th>Decomposition Rate (%)</th><th>CO2 EF (tCO2/t carbonate)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased heat (steam)</td><td>18000</td><td>0.095</td><td>1710</td><td>Limestone</td><td>92</td><td>0.44</td></tr>
+    <tr><td>Purchased heat (hot water)</td><td>6500</td><td>0.070</td><td>455</td><td>Dolomite</td><td>88</td><td>0.48</td></tr>
+    <tr><td>Purchased heat (district heating)</td><td>9200</td><td>0.110</td><td>1012</td><td>Soda ash</td><td>95</td><td>0.41</td></tr>
+    <tr><td>Exported heat (steam to neighbor)</td><td>1500</td><td>0.095</td><td>142.5</td><td>Lime</td><td>90</td><td>0.52</td></tr>
+    <tr><td>Exported heat (process heat to tenant)</td><td>800</td><td>0.095</td><td>76</td><td>Magnesite</td><td>85</td><td>0.50</td></tr>
+    <tr><td>Total heat-related CO2</td><td>36000</td><td>—</td><td>3395.5</td><td>—</td><td>—</td><td>—</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Lennard-Jones 12-6 van der Waals parameters (σ, ε) for selected atoms and Lorentz–Berthelot mixed-pair values.</caption>
+  <thead>
+    <tr><th>Section</th><th>Species / Pair</th><th>σ (Å)</th><th>ε (kJ·mol^-1)</th><th>Mixing rule</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Self (atom-type) vdW parameters</td><td>C (sp2)</td><td>3.400</td><td>0.360</td><td>—</td><td>Graphitic carbon</td></tr>
+    <tr><td>H (aliphatic)</td><td>2.500</td><td>0.125</td><td>—</td><td>Hydrogen atom type</td></tr>
+    <tr><td>O (carbonyl)</td><td>3.000</td><td>0.880</td><td>—</td><td>O in C=O</td></tr>
+    <tr><td>N (amine)</td><td>3.250</td><td>0.710</td><td>—</td><td>Neutral amine N</td></tr>
+    <tr><td>Cl</td><td>3.470</td><td>1.250</td><td>—</td><td>Chloride-like LJ site</td></tr>
+    <tr><td>Na+</td><td>2.350</td><td>0.200</td><td>—</td><td>Nonbonded ion LJ</td></tr>
+    <tr><td rowspan="3">Derived mixed-pair vdW parameters</td><td>C (sp2) – O (carbonyl)</td><td>3.200</td><td>0.563</td><td>Lorentz–Berthelot</td><td>σ=(σi+σj)/2, ε=sqrt(εiεj)</td></tr>
+    <tr><td>Na+ – O (carbonyl)</td><td>2.675</td><td>0.420</td><td>Lorentz–Berthelot</td><td>Example cross interaction</td></tr>
+    <tr><td>Cl – H (aliphatic)</td><td>2.985</td><td>0.395</td><td>Lorentz–Berthelot</td><td>Example cross interaction</td></tr>
+  </tbody>
+</table>

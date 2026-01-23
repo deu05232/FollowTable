@@ -1,0 +1,14 @@
+<table>
+  <caption>Abort Codes and Reasons (Including Non-Abort Diagnostics SPNs)</caption>
+  <thead>
+    <tr><th>Item</th><th>Identifier</th><th>Field/Code Name</th><th>Value / Encoding</th><th>Length</th><th>Applies To</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Abort Field</td><td>PGI</td><td>Parameter Group Identifier</td><td>0x03 or 0x04</td><td>1 byte</td><td>Abort Messages</td><td>Selects charger/vehicle abort</td></tr>
+    <tr><td>Abort Field</td><td>ABT_TYPE</td><td>Abort Type/Code</td><td>0x01=User Stop; 0x02=Fault; 0x03=Protocol Error; 0x04=Emergency</td><td>1 byte</td><td>Abort Messages</td><td>High-level stop category</td></tr>
+    <tr><td>Abort Field</td><td>ABT_REASON</td><td>Abort Reason</td><td>UINT16 little-endian reason value (0x0001..0xFFFF)</td><td>2 bytes</td><td>Abort Messages</td><td>Detailed reason discriminator</td></tr>
+    <tr><td>Diagnostics</td><td>SPN 2600</td><td>Protocol Version</td><td>BYTE3.BYTE2.BYTE1 (e.g., 00h.01h.01h)</td><td>3 bytes</td><td>Generic / All</td><td>Not an abort payload field</td></tr>
+    <tr><td>Diagnostics</td><td>SPN 2601</td><td>Vendor Extension Version</td><td>Major.Minor.Patch</td><td>3 bytes</td><td>Generic / All</td><td>Not abort-specific</td></tr>
+    <tr><td>Diagnostics</td><td>SPN 2700</td><td>Node Address</td><td>SA/DA encoded</td><td>2 bytes</td><td>Generic / All</td><td>Addressing metadata</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of user terminal outbound beam tracking status setting parameters</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>BeiDou-3 regional short message outbound beam ID</td><td>0~64</td><td>0: no output; 1–63: outbound beam ID; 64: all visible beams</td></tr>
+  <tr><td>2</td><td>Signal branch</td><td>1~3</td><td>1: S2C_p; 2: S2C_d; 3: full support</td></tr>
+  <tr><td>3</td><td>Output rate</td><td>10～3 600</td><td>Unit is 0.1 s; example: 300 means 30 s</td></tr>
+</table>

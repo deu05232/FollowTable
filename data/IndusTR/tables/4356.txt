@@ -1,0 +1,15 @@
+<table>
+  <caption>HASH Object Creation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_CreateHashObj(void * hAppHandle,void * * phHashObj,unsigned int uiAlgorithmTypeunsigned char * pucPublicKey,unsigned int uiPublicKeyLen,unsigned char * pucIDunsigned int uiIDLen)</td></tr>
+  <tr><td>Description</td><td>Create a HASH object to perform HASH operations on data of arbitrary length</td></tr>
+  <tr><td rowspan="7">Parameters</td><td>hAppHandle[in](application handle)</td></tr>
+  <tr><td>phHashObj[out](created HASH object)</td></tr>
+  <tr><td>uiAlgorithmType[in](HASH algorithm）</td></tr>
+  <tr><td>pucPublicKey[in](signer's public key. Valid when uiAlgoType is SGD_SM3)</td></tr>
+  <tr><td>uiPublicKeyLen[in](length of signer's public key)</td></tr>
+  <tr><td>pucID[in](signer's ID value, valid when uiAlgoType is SGD_SM3)</td></tr>
+  <tr><td>uiIDLen[in](length of signer's ID, valid when uiAlgoType is SGD_SM3)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success）</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+  <tr><td>Rules</td><td>When uiAlgoType is SGD_SM3 and uiIDLen is not O, pucPublicKey and pucID are valid, and the SM2 algorithm signature preprocessing 1 operation is performed. The calculation process shall comply with the requirements of GB/T35276</td></tr>
+</table>

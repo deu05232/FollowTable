@@ -1,0 +1,16 @@
+<table>
+  <caption>Compilation of magnetostriction coefficients with measurement protocols and instrument parameters (laboratory reference sheet)</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th colspan="2">Coefficient values</th><th colspan="5">Measurement protocol (dominant columns)</th></tr>
+    <tr><th>λ (×10^-6)</th><th>λs (×10^-6)</th><th>Method description</th><th>Gauge factor / sensitivity</th><th>Field sweep rate (T/min)</th><th>Mounting / clamping</th><th>Notes on uncertainty</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ni (annealed)</td><td>-30</td><td>-33</td><td>Bonded foil gauge aligned to rolling direction</td><td>2.1</td><td>0.20</td><td>Epoxy, free-end</td><td>±10% due to adhesive creep</td></tr>
+    <tr><td>Co (polycrystal)</td><td>-55</td><td>-58</td><td>Interferometer, normal incidence on polished face</td><td>5 nm resolution</td><td>0.10</td><td>3-point fixture</td><td>±8% from vibration noise</td></tr>
+    <tr><td>Terfenol-D</td><td>900</td><td>1050</td><td>Capacitance dilatometer in vacuum can</td><td>0.1 Å</td><td>0.05</td><td>Light preload spring</td><td>Hysteresis affects saturation estimate</td></tr>
+    <tr><td>Fe-Ga (single crystal)</td><td>150</td><td>180</td><td>Digital image correlation (speckle), longitudinal strain</td><td>10 µε</td><td>0.30</td><td>Dog-bone tensile frame</td><td>±12% from pattern decorrelation</td></tr>
+    <tr><td>Metglas ribbon</td><td>25</td><td>28</td><td>Resonant frequency shift under bias field</td><td>0.5 Hz</td><td>0.02</td><td>Suspended, minimal contact</td><td>Bias-field calibration dominates</td></tr>
+    <tr><td>FePt thin film</td><td>120</td><td>140</td><td>XRD sin²ψ method under in-plane field</td><td>Δd/d ~ 10^-5</td><td>0.15</td><td>Glued to Si substrate</td><td>Substrate constraint not fully corrected</td></tr>
+    <tr><td>MnZn ferrite</td><td>8</td><td>10</td><td>Strain gauge on toroid, circumferential direction</td><td>2.0</td><td>0.25</td><td>Band clamp</td><td>±15% from demagnetization estimate</td></tr>
+  </tbody>
+</table>

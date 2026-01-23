@@ -1,0 +1,8 @@
+<table>
+  <caption>Tensor Dimension Deletion Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Indicates the input tensor</td></tr>
+  <tr><td>Deletion Position Array</td><td>Input</td><td>Optional</td><td>Indicates the array of positions of dimensions to delete; default is empty</td></tr>
+  <tr><td>Number of Deletion Positions</td><td>Input</td><td>Optional</td><td>Indicates the length of the deletion position array. If it is 0, all dimensions are processed; default is 0</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Indicates the output tensor with dimensions of size 1 deleted</td></tr>
+</table>

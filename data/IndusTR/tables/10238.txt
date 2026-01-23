@@ -1,0 +1,14 @@
+<table>
+  <caption>ARCore C API: Filter Trackables by Type and Return First Item Tracking State</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Inputs</td><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>filter_type</td><td>ArTrackableType</td><td>Type used to filter trackables before returning results</td></tr>
+    <tr><td>max_results</td><td>int32_t</td><td>Maximum number of trackables to write into the output list</td></tr>
+    <tr><td rowspan="3">Outputs</td><td>out_trackable_list</td><td>ArTrackableList *</td><td>List filled with trackables matching the requested type</td></tr>
+    <tr><td>out_list_size</td><td>int32_t *</td><td>Number of trackables written into out_trackable_list</td></tr>
+    <tr><td>out_first_tracking_state</td><td>ArTrackingState *</td><td>Tracking state of the first element in the returned list</td></tr>
+  </tbody>
+</table>

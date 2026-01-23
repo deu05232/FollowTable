@@ -1,0 +1,16 @@
+<table>
+  <caption>Audio Decoder Conformance Matrix: Same Test Item Across Sampling Rates (32 kHz / 44.1 kHz / 48 kHz)</caption>
+  <thead>
+    <tr><th rowspan="2">Group</th><th rowspan="2">Item No.</th><th rowspan="2">Test Item (what stays the same)</th><th colspan="3">Bitstream Filename Variant (what changes: sampling rate)</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Core (LC)</td><td>1</td><td>Mono, tonal, bitrate = 32 kbps</td><td>lc_mono_tonal_sr32k_br32k_ref.avsa</td><td>lc_mono_tonal_sr44k1_br32k_ref.avsa</td><td>lc_mono_tonal_sr48k_br32k_ref.avsa</td></tr>
+    <tr><td>2</td><td>Stereo, music, bitrate = 80 kbps</td><td>lc_stereo_music_sr32k_br80k_ref.avsa</td><td>lc_stereo_music_sr44k1_br80k_ref.avsa</td><td>lc_stereo_music_sr48k_br80k_ref.avsa</td></tr>
+    <tr><td>3</td><td>Stereo, high complexity, bitrate = 128 kbps</td><td>lc_stereo_hc_sr32k_br128k_ref.avsa</td><td>lc_stereo_hc_sr44k1_br128k_ref.avsa</td><td>lc_stereo_hc_sr48k_br128k_ref.avsa</td></tr>
+    <tr><td rowspan="2">Spectral Band Replication</td><td>4</td><td>HE-AAC v1, stereo, bitrate = 64 kbps</td><td>he_v1_stereo_sbr_sr32k_br64k_ref.avsa</td><td>he_v1_stereo_sbr_sr44k1_br64k_ref.avsa</td><td>he_v1_stereo_sbr_sr48k_br64k_ref.avsa</td></tr>
+    <tr><td>5</td><td>HE-AAC v2, PS tool enabled, bitrate = 96 kbps</td><td>he_v2_ps_sr32k_br96k_ref.avsa</td><td>he_v2_ps_sr44k1_br96k_ref.avsa</td><td>he_v2_ps_sr48k_br96k_ref.avsa</td></tr>
+    <tr><td rowspan="2">Multichannel</td><td>6</td><td>5.1 channels, ambience, bitrate = 192 kbps</td><td>mc_51_amb_sr32k_br192k_ref.avsa</td><td>mc_51_amb_sr44k1_br192k_ref.avsa</td><td>mc_51_amb_sr48k_br192k_ref.avsa</td></tr>
+    <tr><td>7</td><td>7.1 channels, action scene, bitrate = 480 kbps</td><td>mc_71_action_sr32k_br480k_ref.avsa</td><td>mc_71_action_sr44k1_br480k_ref.avsa</td><td>mc_71_action_sr48k_br480k_ref.avsa</td></tr>
+  </tbody>
+</table>

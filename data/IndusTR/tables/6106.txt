@@ -1,0 +1,17 @@
+<table>
+  <caption>Standard Length/Range-Oriented Interface Metadata for Basic Math Ops</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Category</th><th>Optional/Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="4">Type & Device Metadata</td></tr>
+    <tr><td>Data Type</td><td>Interface Metadata</td><td>Optional</td><td>Element type for tensors and scalar constants used by the operator. Common sets include integer and floating-point types; default may be floating-point real depending on the runtime.</td></tr>
+    <tr><td>Device Type</td><td>Interface Metadata</td><td>Optional</td><td>Target hardware backend (CPU/GPU/NPU/FPGA/ASIC, etc.). Defaults to a runtime-defined device if not provided.</td></tr>
+    <tr><td colspan="4">Length / Size Constraints</td></tr>
+    <tr><td>Tensor Length</td><td>Length</td><td>Required</td><td>Total number of elements to be processed. Must be > 0. For flattened representations, this equals the product of Dimension Sizes.</td></tr>
+    <tr><td>Length Range</td><td>Length</td><td>Optional</td><td>Allowed length interval expressed as [min, max]. If specified, Tensor Length must fall within the interval.</td></tr>
+    <tr><td>Stride (Flattened)</td><td>Length</td><td>Optional</td><td>Step size when iterating a 1-D view of the tensor. Must be > 0 if present; omitted implies stride 1.</td></tr>
+    <tr><td>Alignment Requirement</td><td>Length</td><td>Optional</td><td>Required element-count or byte alignment for efficient execution (e.g., length multiple-of 4/8). If omitted, no extra alignment constraint is assumed.</td></tr>
+    <tr><td>Length Derivation Rule</td><td>Length</td><td>Optional</td><td>Whether Tensor Length is provided explicitly or derived from a separately supplied shape metadata block (e.g., “explicit” vs “from-shape”).</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Energy-Input-Centered Matrix for AM Process Families Across Broad Feedstock Classes</caption>
+  <thead>
+    <tr><th rowspan="2">Broad feedstock class</th><th colspan="6">Activation / energy-input category (columns focus on energy source)</th></tr>
+    <tr><th>Beam-based (laser)</th><th>Beam-based (electron beam)</th><th>Electrical / arc / plasma</th><th>Heat-based (non-beam heating)</th><th>Chemical / reactive</th><th>Mechanical / other</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metals</td><td>Laser-based PBF; Laser-based DED</td><td>EB-PBF</td><td>Arc-based AM (WAAM); Plasma-based DED</td><td>Thermal consolidation/lamination + post-heat treatment</td><td>Binder jetting (binder activation) + sintering</td><td>Ultrasonic consolidation (solid-state bonding)</td></tr>
+    <tr><td>Polymers (thermoplastics & thermosets)</td><td>Vat photopolymerization (SLA/DLP); Polymer laser PBF</td><td></td><td></td><td>Heated material extrusion (MEX); Thermal lamination</td><td>Reactive printing of thermosets (in-situ polymerization)</td><td>Solvent-based deposition + evaporation/solidification (non-thermal primary activation)</td></tr>
+    <tr><td>Inorganic non-metals (ceramics/glass)</td><td>Laser-assisted sintering / melting (selected routes)</td><td></td><td></td><td>Debind + kiln sintering after shaping; Thermal tape lamination</td><td>Chemical binder jetting of ceramics; Reaction-bonded ceramic printing</td><td>Freeze-casting style printing + sublimation (other activation + later sintering)</td></tr>
+    <tr><td>Biomaterials (cells, hydrogels, bio-inks)</td><td>Light-triggered crosslinking bioprinting; Laser-assisted bioprinting</td><td></td><td></td><td>Temperature-triggered gelation / coagulation printing</td><td>Ionic/enzyme crosslinking bioprinting (chemical activation)</td><td>Acoustic or microfluidic field-assisted patterning/printing</td></tr>
+    <tr><td>Cementitious / geopolymers (construction inks)</td><td></td><td></td><td></td><td>Thermal curing / steam curing (where applied)</td><td>Hydration/geopolymerization-driven setting (chemical activation)</td><td>Vibration-assisted deposition/compaction</td></tr>
+    <tr><td>Multi-material systems (broad)</td><td>Laser-based selective bonding of multiple constituents</td><td></td><td>Arc/plasma deposition of metal + secondary material integration</td><td>Thermal co-consolidation / co-curing</td><td>Sequential reactive steps enabling bonding between dissimilar materials</td><td>Pick-and-place + mechanical interlocking followed by secondary curing</td></tr>
+  </tbody>
+</table>

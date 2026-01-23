@@ -1,0 +1,14 @@
+<table>
+  <caption>A2H / A3H Query-Type Frames Without Payload (Wrapper Only)</caption>
+  <thead>
+    <tr><th>Frame Type</th><th>Start Symbol</th><th>KADDL</th><th>Command</th><th>Length</th><th>Payload</th><th>CRC-16</th><th>End Symbol</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Status Query</td><td>55 AA 55 AA</td><td>Sub-unit</td><td>A2H</td><td>0000H</td><td>(none)</td><td>CRC</td><td>0D</td></tr>
+    <tr><td>Configuration Query</td><td>55 AA 55 AA</td><td>Sub-unit</td><td>A3H</td><td>0000H</td><td>(none)</td><td>CRC</td><td>0D</td></tr>
+    <tr><td>Version Query</td><td>55 AA 55 AA</td><td>Sub-unit</td><td>90H</td><td>0000H</td><td>(none)</td><td>CRC</td><td>0D</td></tr>
+    <tr><td>Network Scan</td><td>55 AA 55 AA</td><td>Broadcast</td><td>91H</td><td>0000H</td><td>(none)</td><td>CRC</td><td>0D</td></tr>
+    <tr><td>Self-Test Trigger</td><td>55 AA 55 AA</td><td>Sub-unit</td><td>92H</td><td>0000H</td><td>(none)</td><td>CRC</td><td>0D</td></tr>
+    <tr><td>Keepalive</td><td>55 AA 55 AA</td><td>Sub-unit</td><td>93H</td><td>0000H</td><td>(none)</td><td>CRC</td><td>0D</td></tr>
+  </tbody>
+</table>

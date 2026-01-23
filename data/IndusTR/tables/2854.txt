@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Test Setup Requirements for Photodetector Assembly Characterization</caption>
+  <tr><th>Test Item</th><th>Required Equipment</th><th>Calibration Interval</th><th>Environment</th><th>Stabilization Time</th><th>Acceptance Check</th><th>Record</th></tr>
+  <tr><td>Responsivity sweep</td><td>Tunable laser + power meter</td><td>12 months</td><td>23±2°C</td><td>30 min</td><td>Power meter within ±3%</td><td>Run log</td></tr>
+  <tr><td>Dark current</td><td>SMU (SourceMeter)</td><td>12 months</td><td>23±2°C</td><td>15 min</td><td>Offset current < 50 pA</td><td>SMU trace</td></tr>
+  <tr><td>ORL verification</td><td>Optical return loss meter</td><td>6 months</td><td>23±2°C</td><td>20 min</td><td>Reference reflector within ±0.5 dB</td><td>Calibration cert</td></tr>
+  <tr><td>Temperature cycling</td><td>Thermal chamber</td><td>12 months</td><td>-10 to 85°C</td><td>60 min</td><td>Sensor readout within ±1°C</td><td>Chamber report</td></tr>
+  <tr><td>ESD handling</td><td>Wrist strap tester</td><td>Daily</td><td>ESD area</td><td>N/A</td><td>Strap resistance 0.8–1.2 MΩ</td><td>Daily check sheet</td></tr>
+  <tr><td>Optical alignment</td><td>6-axis stage</td><td>24 months</td><td>Class 10,000 cleanroom</td><td>45 min</td><td>Stage repeatability < 1 μm</td><td>Setup checklist</td></tr>
+</table>

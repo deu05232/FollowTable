@@ -1,0 +1,15 @@
+<table>
+  <caption>Gamma-Ray Burst Luminosity Summary (Grouped by Instrument, includes non-GRB rows)</caption>
+  <thead>
+    <tr><th>Instrument</th><th>Event Type</th><th>Name / ID</th><th>Redshift (z)</th><th>T90 (s)</th><th>Peak Isotropic Luminosity L_iso,peak (erg s^-1)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="4">Swift</th><td>GRB</td><td>GRB 060218</td><td>0.033</td><td>2100</td><td>1.4×10^47</td><td>Sub-luminous</td></tr>
+    <tr><td>GRB</td><td>GRB 060505</td><td>0.089</td><td>4</td><td>9.1×10^48</td><td>Short duration but nearby</td></tr>
+    <tr><td>SGR giant flare</td><td>SGR 1900+14 (1998-08-27)</td><td>0.000</td><td>0.35</td><td>~2×10^44</td><td>Not a cosmological GRB</td></tr>
+    <tr><td>X-ray binary</td><td>1E 1743.1–2843</td><td>—</td><td>—</td><td>5.2×10^36 (1–100 keV)</td><td>Distance-dependent luminosity</td></tr>
+    <tr><th rowspan="3">BATSE</th><td>GRB</td><td>GRB 980425</td><td>0.0085</td><td>23</td><td>10^48.20</td><td>Associated with SN 1998bw</td></tr>
+    <tr><td>GRB</td><td>GRB 970508</td><td>0.835</td><td>20</td><td>10^51.85</td><td>Afterglow class: high</td></tr>
+    <tr><td>GRB</td><td>GRB 990712</td><td>0.434</td><td>35</td><td>10^51.22</td><td>Afterglow class: low</td></tr>
+  </tbody>
+</table>

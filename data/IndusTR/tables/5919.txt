@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Frame Data Interface Parameters (Ambiguous Pointer Formatting - No Spaces)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_acquireCameraImage</td><td>session</td><td>ArSession*</td><td>in</td><td>Handle to the active AR session</td></tr>
+    <tr><td>ArFrame_acquireCameraImage</td><td>frame</td><td>ArFrame*</td><td>in</td><td>Frame providing the image</td></tr>
+    <tr><td>ArFrame_acquireCameraImage</td><td>out_image</td><td>ArImage**</td><td>out</td><td>Receives the acquired camera image handle</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>session</td><td>ArSession*</td><td>in</td><td>Handle to the active AR session</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>frame</td><td>ArFrame*</td><td>in</td><td>Frame providing the depth image</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>out_depth_image</td><td>ArImage**</td><td>out</td><td>Receives the acquired depth image handle</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>out_light_estimate</td><td>ArLightEstimate*</td><td>out</td><td>Receives light estimation for the frame</td></tr>
+    <tr><td>ArFrame_getAndroidSensorPose</td><td>out_pose</td><td>ArPose*</td><td>out</td><td>Receives pose of the Android sensor in the current frame</td></tr>
+  </tbody>
+</table>

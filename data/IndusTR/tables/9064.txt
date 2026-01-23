@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Mandatory Ligature Conversion Rules (Final) — Presentation Form to Pattern Mapping</caption>
+  <thead>
+    <tr><th rowspan="2">Position in Word</th><th colspan="3">Presentation Form</th><th colspan="2" rowspan="2">Conversion Patterns (Bracketed Unicode Sequences)</th></tr>
+    <tr><th>No.</th><th>ID</th><th>Glyph</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Final</td><td rowspan="2">1</td><td rowspan="2">03C1</td><td rowspan="2">PF-D</td><td>①</td><td>[WB]?+[U+1820|U+1821]+[U+182A]+[WB]</td></tr>
+    <tr><td>②</td><td>[WB]?+[U+1820|U+1821]+[U+182A]+[FVS1]+[WB]</td></tr>
+    <tr><td rowspan="2">2</td><td rowspan="2">03C2</td><td rowspan="2">PF-E</td><td>①</td><td>[WB]?+[U+1820|U+1821]+[U+183A|U+183B]+[WB]</td></tr>
+    <tr><td>②</td><td>[WB]?+[U+1820|U+1821]+[U+183A|U+183B]+[FVS1]+[WB]</td></tr>
+    <tr><td rowspan="2">3</td><td rowspan="2">03C3</td><td rowspan="2">PF-F</td><td>①</td><td>[WB]?+[U+1820|U+1821]+[U+1858|U+1892|U+1893]+[WB]</td></tr>
+    <tr><td>②</td><td>[WB]?+[U+1820|U+1821]+[U+1858|U+1892|U+1893]+[FVS1]+[WB]</td></tr>
+  </tbody>
+</table>

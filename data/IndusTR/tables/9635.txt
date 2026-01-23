@@ -1,0 +1,6 @@
+<table>
+  <caption>Tire manufacturing control logic reference (recipe/sensor to actuator mapping)</caption>
+  <tr><th>No.</th><th>Process step</th><th>Logic purpose</th><th>Signals going into the logic</th><th>Commands produced by the logic</th><th>How the logic reacts</th></tr>
+  <tr><td>1</td><td>Bead apex extrusion stabilization</td><td>Keep extrudate dimension stable during line-speed changes</td><td>Online gauge measurement, upstream line-speed feedback, recipe target for dimension</td><td>Extruder screw speed target, die-adjust actuator target</td><td>Compare measured value to target and adjust screw speed; apply small die-adjust corrections when deviation persists</td></tr>
+  <tr><td>2</td><td>Calender temperature regulation</td><td>Hold roll surface temperature near the set target</td><td>Roll temperature feedback, coolant temperature feedback, recipe temperature target</td><td>Coolant valve command, heater power command</td><td>Use closed-loop regulation to change valve opening and heater power based on temperature deviation</td></tr>
+</table>

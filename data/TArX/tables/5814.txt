@@ -1,0 +1,39 @@
+<table>
+  <caption>List of the 101 simultaneous RXTE PCA – RT observations of GRS 1915+105 up to Dec 31, 1999. The letters I,J,K,L,M,N,O,P,Q and R stand for 10408-01, 10258-01, 20402-01, 20187-02, 20186-03, 30402-01, 30703-01, 40703-01, 40403-01, and 40115-01 respectively. We give: the observing date (in MJD), the RXTE PCA observation ID, the X-ray variability class as defined by Belloni et al. (2000a) a summary of the radio behaviour, and the length of the State C interval (in sec). In column 2 and 4 the “/” is used to make a distinction between a sequence of observation IDs. In column 4 a “,” is used to make a distinction between several observation intervals (also referred to as “orbits”) for the same observation ID. The radio fluxes, given in column 5, are measured at 15 GHz and when present we give the Period (P) of the radio oscillation events. In the last column we define a long State C as an interval during which, on a time-scale of ∼ 100 seconds, no fast transitions are observed to other states (A and B). The remark “entirely C” refers to observations which consist of State C only and which are always longer than 100 seconds. The symbol “–” was used when there are no long and/or short State Cs. The observations presented in Fig. LABEL:abc50381 are shown in bold. Note that due to the delay between the radio and the X-ray emission, and the relatively short overlaps between the two bands, it is possible that not all the long State C intervals can be associated to radio oscillation events just by looking at the table.</caption>
+  <tr><th>Date</th><th>RXTE PCA</th><th>Overlap</th><th>X-ray</th><th>Radio behaviour</th><th colspan="2">Length C intervals (s)</th></tr>
+  <tr><th>(MJD)</th><th>OBS-ID</th><th>(min)</th><th>class</th><th>at 15 GHz (RT)</th><th>Long</th><th>Short</th></tr>
+  <tr><td>50246</td><td>I-14-01/02</td><td>37</td><td>δ</td><td>Undetected ( <1.2 mJy)</td><td>–</td><td>–</td></tr>
+  <tr><td>50259</td><td>I-17-03</td><td>109</td><td>δ</td><td>Undetected ( <0.9 mJy)</td><td>–</td><td>–</td></tr>
+  <tr><td>50333</td><td>I-33-00</td><td>305</td><td>χ_(4)</td><td>Rapid decay 120 → 20 mJy</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50351</td><td>J-10-00</td><td>148</td><td>μ</td><td>Weak ( 4.6± 0.4 mJy)</td><td>–</td><td>34</td></tr>
+  <tr><td>50371</td><td>I-41-00</td><td>314</td><td>ν</td><td>Weak ( 2.8± 0.3 mJy)</td><td>715</td><td>~ 100</td></tr>
+  <tr><td>50379</td><td>I-43-00</td><td>156</td><td>χ_(4)</td><td>Weak ( 5.8± 0.4 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50381</td><td>I-44-00</td><td>206</td><td>ν</td><td>Oscillations ( P~ 17 min, Δ S~ 60 mJy)</td><td>1100–1900</td><td>~ 100</td></tr>
+  <tr><td>50385</td><td>I-45-00</td><td>50</td><td>χ_(4)</td><td>Weak ( 6.7± 0.4 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50401</td><td>K-02-02</td><td>154</td><td>χ_(4) , ν ^((a))</td><td>Weak rise 5 → 30 mJy</td><td>220</td><td>–</td></tr>
+  <tr><td>50448</td><td>K-09-00</td><td>59</td><td>χ_(2)</td><td>Weak ( 5.6± 0.4 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50576</td><td>L-01-00</td><td>37</td><td>α</td><td>Slow modulation 10–30 mJy</td><td>350–2500</td><td>~ 80</td></tr>
+  <tr><td>50596</td><td>K-30-01</td><td>50</td><td>χ_(4) , α ^((b))</td><td>Slow modulation 10–50 mJy</td><td>1950 ( χ ),600 ( α )</td><td>~ 50</td></tr>
+  <tr><td>50597</td><td>K-30-02</td><td>2</td><td>α</td><td>Noisy & variable : 5–35 mJy</td><td>492</td><td>~ 80</td></tr>
+  <tr><td>50653</td><td>K-39-00</td><td>40</td><td>γ</td><td>Weak ( 1.7± 0.5 )</td><td>–</td><td>–</td></tr>
+  <tr><td>50681</td><td>K-42-00</td><td>26</td><td>δ</td><td>Undetected ( <1.2 mJy)</td><td>–</td><td>–</td></tr>
+  <tr><td>50698</td><td>K-45-00/01</td><td>440</td><td>β</td><td>Erratic oscillations ( P~ 40 , Δ S~ 70 mJy)</td><td>90–540</td><td>~ 20 – 50</td></tr>
+  <tr><td>50706</td><td>M-02-00 /01</td><td>540</td><td></td><td>Weakly variable 5–30 mJy</td><td>450–750</td><td>–</td></tr>
+  <tr><td>50707</td><td>M-02-03/04</td><td>526</td><td></td><td>Weak decay 15 → 5 mJy</td><td>630–4650</td><td>–</td></tr>
+  <tr><td>50708</td><td>M-02-05</td><td>563</td><td>χ</td><td>Weak ( 3.2± 0.2 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50709</td><td>M-02-06</td><td>101</td><td>χ</td><td>Single 50 mJy flare</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50720</td><td>K-48-00</td><td>127</td><td>χ_(4)</td><td>Weak ( 3.8± 0.6 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50724</td><td>L-03-00</td><td>39</td><td>χ</td><td>Bright ~ 100 mJy</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50746</td><td>K-52-00</td><td>240</td><td>χ_(3)</td><td>Steady at 60–70 mJy</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50751</td><td>K-52-01/02</td><td>68</td><td>β</td><td>Oscillations ( P~ 22 , Δ S~ 90 mJy)</td><td>535–758</td><td>~ 40–100</td></tr>
+  <tr><td>50923</td><td>N-11-00</td><td>141</td><td>χ</td><td>Variable ~ 50 mJy</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>50945</td><td>N-12-01/02/03</td><td>32</td><td>χ</td><td>Variable ~ 50 mJy</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>51027</td><td>O-27-00</td><td>49</td><td>ρ</td><td>Weak ( 3.0± 0.3 mJy)</td><td>–</td><td>~ 80</td></tr>
+  <tr><td>51036</td><td>O-28-00/01</td><td>159</td><td>ρ</td><td>Weak ( 3.3± 0.3 mJy)</td><td>–</td><td>~ 80</td></tr>
+  <tr><td>51040</td><td>O-29-00</td><td>43</td><td>ρ</td><td>Weak ( 3.4± 0.2 mJy)</td><td>–</td><td>~ 80</td></tr>
+  <tr><td>51056</td><td>O-31-00</td><td>26</td><td>χ</td><td>Weak ( 10.4± 0.3 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>51071</td><td>O-33-00</td><td>75</td><td>χ</td><td>Weak ( 5.0± 0.6 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>51081</td><td>O-35-00</td><td>128</td><td>χ</td><td>Weak ( 7.4± 0.4 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>51089</td><td>O-36-00</td><td>65</td><td>χ</td><td>Weak ( 7.6± 0.4 mJy)</td><td>entirely C</td><td>–</td></tr>
+  <tr><td>– table continues –</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>

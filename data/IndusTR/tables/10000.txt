@@ -1,0 +1,10 @@
+<table>
+  <caption>APDU Data Field Layout With Included SW1/SW2 Notes (Not Clean)</caption>
+  <tr><th>Seq</th><th>Data Field</th><th>Length (byte)</th><th>Description</th></tr>
+  <tr><td>1</td><td>Address (ID)</td><td>6</td><td>Unicast/Broadcast/Multicast identifier</td></tr>
+  <tr><td>2</td><td>Message Ciphertext</td><td>240</td><td>Payload segment for intermediate frame</td></tr>
+  <tr><td>3</td><td>Padding</td><td>0–15</td><td>Alignment to block size</td></tr>
+  <tr><td>4</td><td>SW1/SW2</td><td>2</td><td>90 00 indicates success; 67 00 indicates length error</td></tr>
+  <tr><td>5</td><td>Trailer</td><td>0</td><td>No additional trailer</td></tr>
+  <tr><td>6</td><td>SW1/SW2 (error)</td><td>2</td><td>6A 86 indicates parameter error</td></tr>
+</table>

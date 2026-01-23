@@ -1,0 +1,17 @@
+<table>
+  <caption>AR TrackableList Accessors (Input-Only Signatures)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">ArTrackableList_getItem</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>Trackable list to read from.</td></tr>
+    <tr><td>index</td><td>int32_t</td><td>in</td><td>Zero-based element index.</td></tr>
+    <tr><td rowspan="1">ArTrackableList_release</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>List handle to release.</td></tr>
+    <tr><td rowspan="2">ArTrackableList_setCapacityHint</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>List whose capacity behavior may be tuned.</td></tr>
+    <tr><td rowspan="1">ArTrackable_release</td><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Trackable handle to release.</td></tr>
+    <tr><td rowspan="2">ArTrackable_isValid</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Trackable to validate.</td></tr>
+  </tbody>
+</table>

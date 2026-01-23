@@ -1,0 +1,17 @@
+<table>
+  <caption>Environmental and Mechanical Test Parameters for Beidou Monitoring Terminals</caption>
+  <thead>
+    <tr><th>Test item</th><th>Test parameter</th><th>Severity level</th><th>Test condition</th><th>Acceptance criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">High-temperature test (operating)</td><td>Temperature (°C)</td><td>+70</td><td rowspan="2">Powered on at nominal voltage; GNSS tracking enabled</td><td rowspan="2">No reset; positioning output continuous</td></tr>
+    <tr><td>Duration (h)</td><td>8</td></tr>
+    <tr><td rowspan="2">Low-temperature test (operating)</td><td>Temperature (°C)</td><td>-25</td><td rowspan="2">Powered on; display at max brightness</td><td rowspan="2">Buttons responsive; no abnormal reboot</td></tr>
+    <tr><td>Duration (h)</td><td>8</td></tr>
+    <tr><td rowspan="3">Random vibration</td><td>Frequency range (Hz)</td><td>10–500</td><td rowspan="3">Not powered; mounted in normal orientation</td><td rowspan="3">No structural damage; connectors intact</td></tr>
+    <tr><td>Acceleration PSD (g²/Hz)</td><td>0.04</td></tr>
+    <tr><td>Test time per axis (min)</td><td>30</td></tr>
+    <tr><td rowspan="2">Ingress test</td><td>Water jet pressure (kPa)</td><td>100</td><td rowspan="2">Spray all directions</td><td rowspan="2">No water ingress affecting operation</td></tr>
+    <tr><td>Exposure time (min)</td><td>3</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Color-based selection cuts for high-redshift galaxies (not physical rainbow wavelengths)</caption>
+  <tr><th>Target redshift</th><th>Primary cut</th><th>Secondary cut</th><th>Combined criterion</th><th>Magnitude limit</th></tr>
+  <tr><td>~3</td><td>U − V > 1.2</td><td>V − R < 1.1</td><td>U − V > 3.6(V − R) + 0.6</td><td>V < 26.2</td></tr>
+  <tr><td>~4</td><td>B − R > 1.6</td><td>R − I < 1.5</td><td>B − R > 1.3(R − I) + 1.1</td><td>R < 27.0</td></tr>
+  <tr><td>~5</td><td>R − I > 1.5</td><td>I − z < 1.4</td><td>R − I > 0.8(I − z) + 1.7</td><td>23.0 < I < 25.8</td></tr>
+  <tr><td>~6</td><td>I − z > 1.8</td><td>z − Y < 1.0</td><td>I − z > 1.5(z − Y) + 1.2</td><td>Y < 26.5</td></tr>
+  <tr><td>~7</td><td>z − Y > 1.0</td><td>Y − J < 0.8</td><td>z − Y > 1.2(Y − J) + 0.4</td><td>J < 26.0</td></tr>
+  <tr><td>~8</td><td>Y − J > 0.9</td><td>J − H < 0.7</td><td>Y − J > 1.1(J − H) + 0.3</td><td>H < 25.5</td></tr>
+</table>

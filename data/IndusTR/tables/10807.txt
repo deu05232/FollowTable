@@ -1,0 +1,15 @@
+<table>
+  <caption>Media Pipeline Generic Status Codes</caption>
+  <thead>
+    <tr><th>Status Code</th><th>Status Name</th><th>Severity</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>OK</td><td>Info</td><td>Operation completed successfully</td></tr>
+    <tr><td>100</td><td>Accepted</td><td>Info</td><td>Request accepted and queued</td></tr>
+    <tr><td>200</td><td>InProgress</td><td>Info</td><td>Processing is ongoing</td></tr>
+    <tr><td>300</td><td>Retrying</td><td>Warning</td><td>Temporary issue; system will retry</td></tr>
+    <tr><td>400</td><td>Rejected</td><td>Error</td><td>Request rejected due to validation failure</td></tr>
+    <tr><td>500</td><td>Failed</td><td>Error</td><td>Processing failed and will not continue</td></tr>
+    <tr><td>900</td><td>Unknown</td><td>Info</td><td>Status could not be determined</td></tr>
+  </tbody>
+</table>

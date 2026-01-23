@@ -1,0 +1,10 @@
+<table>
+  <caption>Bill of Materials (BOM) for AIS Class B Transmitter Module (Manufacturing Inputs)</caption>
+  <tr><th>Part Name</th><th>Specification</th><th>Supplier</th><th>Qty/Unit</th><th>Notes</th></tr>
+  <tr><td>VHF Power Amplifier IC</td><td>1.5 W, 136–174 MHz</td><td>RFWorks</td><td>1</td><td>QFN-24</td></tr>
+  <tr><td>SAW Filter</td><td>161 MHz center, 25 kHz BW</td><td>WaveCer</td><td>2</td><td>TX/RX paths</td></tr>
+  <tr><td>TCXO</td><td>26 MHz, ±0.5 ppm</td><td>TimeCore</td><td>1</td><td>Frequency reference</td></tr>
+  <tr><td>MCU</td><td>ARM Cortex-M4, 120 MHz</td><td>MicroLogic</td><td>1</td><td>Protocol handling</td></tr>
+  <tr><td>GNSS Receiver</td><td>GPS/GLONASS, L1</td><td>SatNav</td><td>1</td><td>Position source</td></tr>
+  <tr><td>Shielding Can</td><td>20×20 mm, tin-plated</td><td>MetalForm</td><td>3</td><td>EMI reduction</td></tr>
+</table>

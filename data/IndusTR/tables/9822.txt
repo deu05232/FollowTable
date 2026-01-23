@@ -1,0 +1,15 @@
+<table>
+  <caption>ArHitResult_getTrackable and Hit Classification Details</caption>
+  <thead>
+    <tr><th>Field / Parameter</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>AR session pointer used to access runtime state needed to interpret the hit result.</td></tr>
+    <tr><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>The hit test result that was returned by a raycast / hit test query.</td></tr>
+    <tr><td>out_trackable</td><td>ArTrackable **</td><td>out</td><td>Receives the trackable that was hit (e.g., plane, point, or other trackable instance).</td></tr>
+    <tr><td>out_trackable_type</td><td>ArTrackableType *</td><td>out</td><td>Receives the concrete trackable type of*out_trackable(useful for dispatching to plane/point APIs safely).</td></tr>
+    <tr><td>out_is_valid</td><td>ArBool *</td><td>out</td><td>Whether the hit is still valid at the time of reading (e.g., trackable is tracking and hit pose can be trusted).</td></tr>
+    <tr><td>out_hit_flags</td><td>uint32_t *</td><td>out</td><td>Bitmask describing hit characteristics (e.g., hit on polygon, hit on boundary/extent, backface hit).</td></tr>
+    <tr><td>out_confidence</td><td>float *</td><td>out</td><td>Estimated confidence score for the hit (0..1). Can be used to filter collision-style interactions.</td></tr>
+  </tbody>
+</table>

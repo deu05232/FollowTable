@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced IR Intensity Determination — Eye Pattern: Eye vs Surrounding Cloud Temperature (DT Guide)</caption>
+  <thead>
+    <tr><th rowspan="2">Surrounding Cloud Category</th><th colspan="6">Eye Temperature Category</th><th rowspan="2">Notes</th></tr>
+    <tr><th>W</th><th>B</th><th>LG</th><th>MG</th><th>DG</th><th>OW</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>W</td><td>+0.0</td><td>-0.5</td><td>-1.0</td><td>-1.5</td><td>-2.0</td><td>-2.5</td><td>Colder eye relative to surrounding implies weaker DT</td></tr>
+    <tr><td>B</td><td>+0.5</td><td>+0.0</td><td>-0.5</td><td>-1.0</td><td>-1.5</td><td>-2.0</td><td>Use only when a distinct eye is present</td></tr>
+    <tr><td>LG</td><td>+1.0</td><td>+0.5</td><td>+0.0</td><td>-0.5</td><td>-1.0</td><td>-1.5</td><td>Enhanced IR contrast must be stable for ≥ 3 h</td></tr>
+    <tr><td>MG</td><td>+1.5</td><td>+1.0</td><td>+0.5</td><td>+0.0</td><td>-0.5</td><td>-1.0</td><td>Apply when eye diameter ≥ 10 nmi</td></tr>
+    <tr><td>DG</td><td>+2.0</td><td>+1.5</td><td>+1.0</td><td>+0.5</td><td>+0.0</td><td>-0.5</td><td>Beware warming due to parallax/limb effects</td></tr>
+    <tr><td>OW</td><td>+2.5</td><td>+2.0</td><td>+1.5</td><td>+1.0</td><td>+0.5</td><td>+0.0</td><td>Overcast warm eye cases are uncommon</td></tr>
+  </tbody>
+</table>

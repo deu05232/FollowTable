@@ -1,0 +1,68 @@
+<table>
+  <caption>List of important parameters used in this paper, in order of appearance.</caption>
+  <tr><th>Parameter</th><th>Name</th><th>Definition</th></tr>
+  <tr><th>u_(1)</th><td>Linear limb darkening coefficient</td><td>Linear term of the quadratic description of the stellar limb darkening</td></tr>
+  <tr><th>u_(2)</th><td>Quadratic limb darkening coefficient</td><td>Quadratic term of the quadratic description of the stellar limb darkening</td></tr>
+  <tr><th>_(c)</th><td>Mid companion-star separation</td><td>Companion-star separation in units of stellar radii at the approximate moment of mid-transit</td></tr>
+  <tr><th></th><td>Companion-star separation</td><td>Companion-star separation in units of the stellar radius</td></tr>
+  <tr><th>e</th><td>Eccentricity</td><td>Orbital eccentricity of the companion’s orbit</td></tr>
+  <tr><th>ω</th><td>Argument of pericentre</td><td>Argument of pericentre of the companion’s orbit</td></tr>
+  <tr><th>P</th><td>Period</td><td>Orbital period of the companion</td></tr>
+  <tr><th>p</th><td>Ratio-of-radii</td><td>Ratio of the companion’s radius to the stellar radius ( R_(P)/R_(*) )</td></tr>
+  <tr><th>R_(P)</th><td>Radius of the companion</td><td>Radius of the companion</td></tr>
+  <tr><th>R_(*)</th><td>Radius of the host star</td><td>Radius of the host star</td></tr>
+  <tr><th>b</th><td>Impact parameter</td><td>Approximate value of S when /=0 ; also given by b=a/R_(*)_(c)i</td></tr>
+  <tr><th>S</th><td>Sky-projected separation</td><td>Sky-projected separation of the companion’s centre</td></tr>
+  <tr><th></th><td></td><td>and the host star’s centre in units of stellar radii</td></tr>
+  <tr><th>i</th><td>Inclination</td><td>Orbital inclination of the companion’s orbit relative to the line-of-sight of the observer</td></tr>
+  <tr><th>a/R_(*)</th><td>Semi-major axis</td><td>Semi-major axis of the companion’s orbit in units of the stellar radius</td></tr>
+  <tr><th>a</th><td>Semi-major axis</td><td>Semi-major axis of the companion’s orbit</td></tr>
+  <tr><th>E</th><td>Epoch of mid-transit</td><td>Mid-transit time of the first transit in the sequence</td></tr>
+  <tr><th>t_(C)</th><td>Mid-transit time</td><td>Mid-transit time for a given epoch</td></tr>
+  <tr><th>k</th><td>Lagrange parameter k</td><td>k=eω</td></tr>
+  <tr><th>h</th><td>Lagrange parameter h</td><td>k=eω</td></tr>
+  <tr><th>T</th><td>Transit duration</td><td>Time for companion to move across the stellar disc with entry</td></tr>
+  <tr><th>t_(I)</th><td>First contact</td><td>Instant when S=1+p and /<0</td></tr>
+  <tr><th>t_(II)</th><td>Second contact</td><td>Instant when S=1-p and /<0</td></tr>
+  <tr><th>t_(C)</th><td>Mid-transit time</td><td>Instant when /=0 i.e. inferior conjunction</td></tr>
+  <tr><th>t_(III)</th><td>Third contact</td><td>Instant when S=1-p and />0</td></tr>
+  <tr><th>t_(IV)</th><td>Fourth contact</td><td>Instant when S=1+p and />0</td></tr>
+  <tr><th>T_(1,4)</th><td>Total duration</td><td>Time for companion to move between contact points I and IV</td></tr>
+  <tr><th>T_(2,3)</th><td>Full duration</td><td>Time for companion to move between contact points II and III</td></tr>
+  <tr><th>T_(1,2)</th><td>Ingress duration</td><td>Time for companion to move between contact points 1 and 2</td></tr>
+  <tr><th>T_(3,4)</th><td>Egress duration</td><td>Time for companion to move between contact points 3 and 4</td></tr>
+  <tr><th>S_(1,4)</th><td>Total eclipse duration</td><td>Analogous to T_(1,4) but for the secondary eclipse</td></tr>
+  <tr><th>τ</th><td>Ingress/Egress duration</td><td>For circular orbits, t_(12)=t_(34)=τ</td></tr>
+  <tr><th>T_(1)</th><td>T_(1) duration</td><td>Approximate expression for T_(1) from</td></tr>
+  <tr><th>ρ_(*)</th><td>Stellar density</td><td>Average density of the host star</td></tr>
+  <tr><th>/R_(*)</th><td>Zeta over R_(*)</td><td>The reciprocal of one half of the transit duration using the approximation.</td></tr>
+  <tr><th>/R_(*)</th><td>Upsilon over R_(*)</td><td>The reciprocal of one half of the transit duration using the approximation</td></tr>
+  <tr><th>F_(oot)</th><td>Primary flux</td><td>Constant flux term for primary-portion of phase curve</td></tr>
+  <tr><th>F_(oos)</th><td>Secondary flux</td><td>Constant flux term for secondary-portion of phase curve</td></tr>
+  <tr><th>F_(oom)</th><td>Middle flux</td><td>Constant flux term for middle-portion of phase curve</td></tr>
+  <tr><th>F_(obs)(t)</th><td>Observed flux</td><td>Flux observed by the instrument as a function of time</td></tr>
+  <tr><th>F_()(t)</th><td>Model flux</td><td>Flux from a given model as a function of time</td></tr>
+  <tr><th>F_(*)</th><td>Stellar flux</td><td>Flux received from the star</td></tr>
+  <tr><th>F_()</th><td>Day-side flux</td><td>Flux received from the day-side of the planet</td></tr>
+  <tr><th>ε_()</th><td>Relative dayside flux</td><td>Ratio of flux emitted from dayside of planet to stellar flux</td></tr>
+  <tr><th>ε_()</th><td>Relative nightside flux</td><td>Ratio of flux emitted from nightside of planet to stellar flux</td></tr>
+  <tr><th>F_(t)</th><td>Transit model flux</td><td>Model flux for the primary transit</td></tr>
+  <tr><th>F_(s)</th><td>Secondary model flux</td><td>Model flux for secondary eclipse</td></tr>
+  <tr><th>B</th><td>Blending factor</td><td>Parameter to quantify amount of blended light in the aperture</td></tr>
+  <tr><th></th><td>Phase function</td><td>Flux received from planet+star+blend without transits or eclipses</td></tr>
+  <tr><th>γ_()</th><td>RV offset</td><td>Constant used for offsetting the radial velocity measurements</td></tr>
+  <tr><th>K</th><td>RV semi-amplitude</td><td>Semi-amplitude of the radial velocity signal</td></tr>
+  <tr><th>T_()</th><td>Effective temperature</td><td>Effective temperature of the star</td></tr>
+  <tr><th></th><td>Metallicity</td><td>Metallicity of the host star</td></tr>
+  <tr><th>vi</th><td>Projected rotation velocity</td><td>Projected stellar rotation velocity</td></tr>
+  <tr><th>M_(*)</th><td>Stellar mass</td><td>Mass of the host star</td></tr>
+  <tr><th>M_(P)</th><td>Planetary mass</td><td>Mass of the planet</td></tr>
+  <tr><th>L_(*)</th><td>Luminosity</td><td>Stellar luminosity</td></tr>
+  <tr><th>M_(V)</th><td>Absolute magnitude</td><td>Absolute magnitude of the host star</td></tr>
+  <tr><th>ρ_(P) planetary density</th><td>Density of the planet</td><td></td></tr>
+  <tr><th>g</th><td>Stellar surface gravity</td><td>Surface gravity of the host star</td></tr>
+  <tr><th>g_(P)</th><td>Planetary surface gravity</td><td>Surface gravity of the planet</td></tr>
+  <tr><th>T_()</th><td>Equilibrium temperature</td><td>Equilibrium temperature of the planet</td></tr>
+  <tr><th>τ_()</th><td>Circularization timescale</td><td>Time for eccentricity to reduce by an e-fold</td></tr>
+  <tr><th>Q_(P)</th><td>Quality factor of planet</td><td>Quality factor of planet due to tidal dissipation</td></tr>
+</table>

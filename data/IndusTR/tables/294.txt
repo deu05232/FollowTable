@@ -1,0 +1,18 @@
+<table>
+  <caption>Circular Knitting Machine Equipment Main Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0100</td><td>Machine Model</td><td>MachineType</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>丨</td><td></td><td>一</td></tr>
+  <tr><td>0X0101</td><td>Nominal Diameter</td><td>NominalDiameter</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>mm</td><td></td><td></td></tr>
+  <tr><td>0X0102</td><td>Gauge</td><td>Gauge</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td>Number of needles per 25.4 mm on the needle bed</td><td></td></tr>
+  <tr><td>0X0103</td><td>Total Needles</td><td>TotalNeedles</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>丨</td><td></td><td>Total number of needles of the machine</td><td></td></tr>
+  <tr><td>0X0104</td><td>Manufacture Date</td><td>ManufactureDate</td><td>M</td><td>VAR</td><td>RO</td><td>Datetime</td><td></td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0105</td><td>Number of Braiding Systems</td><td>NumberOfBraidingSystems</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>一</td><td>一</td><td></td><td></td></tr>
+  <tr><td>0X0106</td><td>Hardware Version Number</td><td>SysHardwareVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0107</td><td>Control System Manufacturer</td><td>ControlSysCompany</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0108</td><td>Master Control Version</td><td>MasterControlVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0109</td><td>Servo Version</td><td>ServoVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X010A</td><td>Human-Machine Version</td><td>Human-MachineVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td></td><td></td></tr>
+  <tr><td>OX010B</td><td>Air Valve Version</td><td>AirValveVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>二</td><td>1</td><td>、</td></tr>
+  <tr><td>0X010C</td><td>Power Version</td><td>PowerVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X010D</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>/</td><td>1</td><td>1</td><td></td></tr>
+</table>

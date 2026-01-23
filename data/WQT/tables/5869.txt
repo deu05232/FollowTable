@@ -1,0 +1,43 @@
+# Comparison of BitTorrent clients
+> Applications
+
+| BitTorrent client | GUI | Remote | CLI | Other | Programming language | Based on | IPv6 | µTP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ABC | Yes | Yes | No | No | Python | BitTornado | buggy [Note 2] | No |
+| aria2 | No | Yes | Yes | - | C++ | - | Yes | ? |
+| Acquisition | Yes | No | No | No | Objective-C , Cocoa | Limewire | No | No |
+| BitComet | Yes | Yes | Partial [47] | No | C++ | - | No | No |
+| BitLet | No | No | No | Webapp | Java Applet | - | No | No |
+| BitLord | Yes | No | No | No | Python, C++ | libtorrent (Rasterbar) | Yes | No |
+| BitTornado | Yes | No | Partial | No | Python | BitTorrent | Yes | No |
+| BitTorrent 5, Mainline | Yes | No | Partial | No | Python | - | No | No |
+| BitTorrent 6 | Yes | Yes | Partial | No | C++ | µTorrent | Yes | Yes |
+| BitTyrant | Yes | Yes | Partial | Telnet, XML over HTTP remote control API | Java, SWT | Azureus | Yes | No |
+| Blog Torrent | Yes | No | No | No | ? | ? | No | No |
+| Deluge | Yes | Yes | Yes | Daemon | Python, C++ | libtorrent (Rasterbar) | Yes | Yes [48] |
+| FlashGet | Yes | No | No | No | ? | ? | No | No |
+| Free Download Manager | Yes | Yes | Partial | No | C++ | libtorrent (Rasterbar) | No | No |
+| Frostwire | Yes | No | No | No | Java | LimeWire | No | Yes [49] |
+| KGet | Yes | Yes | Partial [Note 3] | No | C++ | - | Yes | No |
+| KTorrent | Yes | Yes | Partial | No | C++ | - | Yes | Yes [50] |
+| LimeWire | Yes | No | No | No | Java | libtorrent (Rasterbar) | No | No |
+| Meerkat Bittorrent Client | Yes | No | No | No | C++ | - | No | No |
+| Miro | Yes | No | No | No | C++ | libtorrent (Rasterbar) | No | No |
+| MLDonkey | Network GUI | Yes | Partial | Telnet | OCaml | - | No | No |
+| µTorrent | Yes | Yes | No [51] | RESTful Web API [52] | C++ [53] | - | Yes [54] | Yes [55] |
+| OneSwarm | Partial | Yes | No-partial | No | Java | Azureus | Yes | No |
+| Opera 12 | Yes | No | No | No | C++ | - | Yes | No |
+| qBittorrent | Qt (toolkit) | Yes | Partial | No | C++, Python | libtorrent (Rasterbar) | buggy [Note 4] | Yes [56] |
+| rTorrent | No | Third Party | Yes | SCGI | C++ | libTorrent (Rakshasa) | No [57] | No |
+| Shareaza | Yes | Yes | Partial | No | C++ | - | No | No |
+| SymTorrent | Yes | No | No | No | ? | ? | No | No |
+| Tixati | Yes | Yes | No | No | C++ | - | Yes | Yes [58] |
+| Tomato Torrent | Yes | No | No | No | Cocoa | BitTorrent | No | No |
+| Tonido | No | Yes | No | No | C++ | libtorrent (Rasterbar) | No | No |
+| TorrentFlux | No | Yes | No | No | PHP | BitTornado | No | No |
+| Transmission | Yes | Yes | Yes | Daemon, JSON-RPC over HTTP remote control API | C , Objective-C | - | Yes | Yes [59] |
+| Tribler | Yes | Partial | Partial | No | Python,C++ | libtorrent (Rasterbar) | No | Yes |
+| Vuze (formerly Azureus) | Yes | Yes | Partial | Telnet, XML over HTTP remote control API | Java, SWT | - | Yes | Yes [60] |
+| WebTorrent | Yes | Yes | Yes | JavaScript, works in Node.js and web browsers | JavaScript | - | Yes | No |
+| Xunlei | Yes | No | No | remote control over internet [61] | C++ | - | No | No |
+| BitTorrent client | GUI | Web | CLI | Other | Programming language | Based on | IPv6 | µTP |

@@ -1,0 +1,15 @@
+<table>
+  <caption>Integration Checklist for Adapting a DL Framework to a Backend (Steps, not Interfaces)</caption>
+  <thead>
+    <tr><th>Step</th><th>Goal</th><th>Artifacts</th><th>Suggested Owner</th><th>Common Pitfalls</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1. Capability Survey</td><td>Confirm supported ops and dtypes</td><td>Support matrix document</td><td>Backend team</td><td>Forgetting dynamic shape cases</td></tr>
+    <tr><td>2. IR Mapping Plan</td><td>Define mapping from framework graph/IR to backend IR</td><td>IR mapping spec</td><td>Compiler engineer</td><td>Mismatch in layout assumptions</td></tr>
+    <tr><td>3. Subgraph Strategy</td><td>Decide partitioning and fallback strategy</td><td>Partition rules</td><td>Framework integrator</td><td>Too many tiny subgraphs causing overhead</td></tr>
+    <tr><td>4. Build & Cache Strategy</td><td>Decide when to compile and how to cache executables</td><td>Cache key design</td><td>Runtime engineer</td><td>Non-deterministic cache keys</td></tr>
+    <tr><td>5. Runtime Execution Path</td><td>Define enqueue/sync semantics</td><td>Runtime API doc</td><td>Runtime engineer</td><td>Incorrect stream synchronization</td></tr>
+    <tr><td>6. Validation & Debugging</td><td>Set up correctness tests and graph dumps</td><td>Test suite, dump format</td><td>QA</td><td>Comparing with different numerics tolerances</td></tr>
+    <tr><td>7. Performance Tuning</td><td>Profiling and operator fusion decisions</td><td>Profiling report</td><td>Performance team</td><td>Optimizing before correctness is stable</td></tr>
+  </tbody>
+</table>

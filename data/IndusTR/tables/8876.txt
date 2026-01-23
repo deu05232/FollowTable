@@ -1,0 +1,18 @@
+<table>
+  <caption>Ammonium Nitrate Plant Process Control Indicators (Neutralization–Evaporation–Prilling–Coating)</caption>
+  <thead>
+    <tr><th>Unit Operation</th><th>Indicator</th><th>Setpoint / Range</th><th>Alarm / Limit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Neutralization</td><td>Neutralizer pressure</td><td>0.26–0.38 MPa</td><td>>0.40 MPa</td></tr>
+    <tr><td>Ammonia feed temperature</td><td>60–90 °C</td><td>>95 °C</td></tr>
+    <tr><td rowspan="4">Evaporation</td><td>1st-effect boiling temperature</td><td>145–155 °C</td><td>>158 °C</td></tr>
+    <tr><td>1st-effect operating pressure</td><td>-0.075 to -0.040 MPa (g)</td><td>>-0.030 MPa (g)</td></tr>
+    <tr><td>2nd-effect boiling temperature</td><td>175–185 °C</td><td>>188 °C</td></tr>
+    <tr><td>2nd-effect operating pressure</td><td>-0.030 to -0.010 MPa (g)</td><td>>-0.005 MPa (g)</td></tr>
+    <tr><td rowspan="2">Prilling / Granulation</td><td>Tower air temperature</td><td>20–35 °C</td><td>>40 °C</td></tr>
+    <tr><td>Melt feed temperature</td><td>165–175 °C</td><td>>180 °C</td></tr>
+    <tr><td rowspan="2">Coating</td><td>Coating drum inlet temperature</td><td>70–110 °C</td><td>>115 °C</td></tr>
+    <tr><td>Coating agent viscosity</td><td>120–220 cP</td><td><100 or >250 cP</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Battery Swap Transaction Parameters (Order/Device/Queue Oriented)</caption>
+  <tr><th>Category</th><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  <tr><td rowspan="3">Order</td><td>Swap order number</td><td>swapOrderNo</td><td>string</td><td>Format: "OperatorID + unique number", max 64 chars</td><td>Yes</td></tr>
+  <tr><td>Parent order number</td><td>parentOrderNo</td><td>string</td><td>Used when an order is split/merged; max 64 chars</td><td>No</td></tr>
+  <tr><td>Order creation time</td><td>orderCreateTime</td><td>string</td><td>ISO-8601 timestamp of order creation</td><td>Yes</td></tr>
+  <tr><td rowspan="3">Device</td><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>Unique identifier of swap cabinet/station device</td><td>Yes</td></tr>
+  <tr><td>Equipment bay number</td><td>bayNo</td><td>integer</td><td>Cabinet bay index used for swap execution</td><td>No</td></tr>
+  <tr><td>Operator equipment group ID</td><td>equipGroupId</td><td>string</td><td>Group identifier used for station dispatching</td><td>No</td></tr>
+  <tr><td rowspan="2">Queue</td><td>Reserved vehicle queue position</td><td>positionNo</td><td>integer</td><td>Queue index assigned by the station</td><td>Yes</td></tr>
+  <tr><td>Estimated waiting time</td><td>etaMinutes</td><td>integer</td><td>Estimated waiting time before swap starts</td><td>No</td></tr>
+</table>

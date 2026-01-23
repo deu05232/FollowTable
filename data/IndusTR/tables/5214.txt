@@ -1,0 +1,10 @@
+<table>
+  <caption>SM9 Key Agreement Session Key Computation Function Parameter List</caption>
+  <tr><td rowspan="4">Parameters</td><td>hAgreementHandle [in](Key agreement handle)</td></tr>
+  <tr><td>pucResponseTmpPublicKey[in](Externally input DER-encoded responder temporary public key)</td></tr>
+  <tr><td>uiResponseTmpPublicKeyLen[in](Length of externally input DER-encoded responder temporary public key)</td></tr>
+  <tr><td>phKeyHandle[out](Returned key handle)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0(Success)</td></tr>
+  <tr><td>Non-0(Failure, returns the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+  <tr><td>Remarks</td><td>After the initiator of the negotiation obtains the responder's negotiation parameters, it calls this function to compute the session key</td></tr>
+</table>

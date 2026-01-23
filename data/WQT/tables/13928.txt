@@ -1,0 +1,11 @@
+# AC skin depth comparison for conductors at different frequencies
+
+| Conductor | Frequency | Magnetic permeability assumption | Skin depth (µm) | Reference condition |
+| --- | --- | --- | --- | --- |
+| Copper | 60 Hz | µr ≈ 1 | 8500 | Power frequency example |
+| Copper | 1 MHz | µr ≈ 1 | 66 | Typical RF value |
+| Aluminum | 1 MHz | µr ≈ 1 | 82 | Typical RF value |
+| Silver | 10 MHz | µr ≈ 1 | 20 | High-frequency example |
+| Gold | 10 MHz | µr ≈ 1 | 21 | High-frequency example |
+| Nickel | 1 MHz | µr ≈ 100 (approx.) | 6 | Strongly µ-dependent |
+| Stainless steel | 1 MHz | µr variable | 150 | Alloy-dependent |

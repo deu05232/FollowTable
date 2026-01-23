@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of user inbound acknowledgment information output statement parameters</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Inbound user ID</td><td>1~16 777 215</td><td>Intranet user</td></tr>
+  <tr><td>2</td><td>Network management information type</td><td>1~4</td><td>1: power-on report; 2: silence request; 3: emergency search and rescue; 4: unsuccessful communication confirmation</td></tr>
+  <tr><td>3</td><td>Station entry sequence number</td><td>0~31</td><td>Lower 5 bits of the user inbound sequence number, represented in binary</td></tr>
+</table>

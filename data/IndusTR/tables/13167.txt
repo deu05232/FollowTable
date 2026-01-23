@@ -1,0 +1,16 @@
+<table>
+  <caption>Stakeholder Responsibilities for Tracking & Traceability in Import/Export Container Logistics (RACI Matrix)</caption>
+  <thead>
+    <tr><th>Activity</th><th>Shipper</th><th>Freight Forwarder</th><th>Ocean Carrier</th><th>Terminal Operator</th><th>Customs / Government</th><th>Importer / Consignee</th><th>Integrated Data Center</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Create shipment master data (B/L draft, parties, routing)</td><td>R</td><td>A</td><td>C</td><td>I</td><td>I</td><td>I</td><td>I</td></tr>
+    <tr><td>Capture container release / EIR events</td><td>I</td><td>C</td><td>A</td><td>R</td><td>I</td><td>I</td><td>C</td></tr>
+    <tr><td>Transmit gate-in / gate-out status messages</td><td>I</td><td>C</td><td>C</td><td>R/A</td><td>I</td><td>I</td><td>C</td></tr>
+    <tr><td>Provide vessel schedule & departure/arrival milestones</td><td>I</td><td>C</td><td>R/A</td><td>C</td><td>I</td><td>I</td><td>C</td></tr>
+    <tr><td>Submit export/import declarations and receive release/hold</td><td>C</td><td>R/A</td><td>I</td><td>I</td><td>R/A</td><td>I</td><td>I</td></tr>
+    <tr><td>Distribute tracking visibility to partners</td><td>I</td><td>C</td><td>C</td><td>C</td><td>I</td><td>I</td><td>R/A</td></tr>
+    <tr><td>Handle exceptions (inspection, roll-over, damage claims)</td><td>C</td><td>R</td><td>C</td><td>C</td><td>A</td><td>I</td><td>I</td></tr>
+    <tr><td>Confirm delivery & POD availability</td><td>I</td><td>C</td><td>C</td><td>C</td><td>I</td><td>R/A</td><td>C</td></tr>
+  </tbody>
+</table>

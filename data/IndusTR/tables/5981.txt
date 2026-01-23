@@ -1,0 +1,15 @@
+<table>
+  <caption>Video Stream Encoding Format Code Table</caption>
+  <thead>
+    <tr><th>Code</th><th>Format Name</th><th>Typical Container</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>01</td><td>H.264 / AVC</td><td>MP4, TS</td><td>Common video codec for IP cameras and web video; good compatibility.</td></tr>
+    <tr><td>02</td><td>H.265 / HEVC</td><td>MP4, TS</td><td>Higher compression efficiency than H.264; widely used in newer devices.</td></tr>
+    <tr><td>03</td><td>MPEG-4 Part 2</td><td>AVI, MP4</td><td>Legacy MPEG-4 visual codec; sometimes used in older systems.</td></tr>
+    <tr><td>04</td><td>MPEG-2 Video</td><td>TS, MPG</td><td>Broadcast-oriented codec; used in some legacy transport streams.</td></tr>
+    <tr><td>05</td><td>MJPEG</td><td>AVI</td><td>Motion JPEG; intra-frame only; easy to decode but larger bitrate.</td></tr>
+    <tr><td>06</td><td>VP9</td><td>WebM, MP4</td><td>Open codec often used for web streaming; comparable to HEVC in some cases.</td></tr>
+    <tr><td>07</td><td>AV1</td><td>MP4, WebM</td><td>Modern open codec with high compression efficiency; increasing adoption.</td></tr>
+  </tbody>
+</table>

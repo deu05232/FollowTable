@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre D-code Assignments Used by Control Words</caption>
+  <thead>
+    <tr><th>D-code</th><th>Label</th><th>Where Referenced</th><th>Running Disparity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>D0.1</td><td>ACTIVE</td><td>Activation / channel init semantics</td><td>+2 or -2</td></tr>
+    <tr><td>D2.5</td><td>ACK</td><td>Acknowledgment semantics</td><td>+2 or -2</td></tr>
+    <tr><td>D27.5</td><td>NACK</td><td>Negative acknowledgment semantics</td><td>+2 or -2</td></tr>
+    <tr><td>D15.3</td><td>FULL</td><td>Error-recovery buffer full indication</td><td>+2 or -2</td></tr>
+    <tr><td>D14.6</td><td>LLCW_TAG</td><td>Used in LLCW-family control words</td><td>+2 or -2</td></tr>
+    <tr><td>D6.2</td><td>NEUTRAL</td><td>Initialization handshake (neutral char)</td><td>0</td></tr>
+    <tr><td>D31.3</td><td>SKIP_DATA</td><td>Skip / rate matching support</td><td>+2 or -2</td></tr>
+  </tbody>
+</table>

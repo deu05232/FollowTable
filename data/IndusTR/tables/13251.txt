@@ -1,0 +1,7 @@
+<table>
+  <caption>Industrial instrument data retention requirements (logging and record-keeping oriented)</caption>
+  <tr><th>Instrument Category</th><th>Information to Store Over Lifetime</th><th>Retention / Export Notes</th></tr>
+  <tr><td>Measuring Instruments</td><td>Device identifiers, firmware versions, parameter snapshots after commissioning, accumulated totals where applicable</td><td>Exported as periodic reports; retains last N configuration snapshots</td></tr>
+  <tr><td>Analytical Instruments</td><td>Calibration records, user actions, baseline datasets, version history of analysis configuration</td><td>Retains traceability records for audits</td></tr>
+  <tr><td>Actuators</td><td>Commissioning parameter sets, command history, maintenance logs</td><td>Supports manual export for service visits</td></tr>
+</table>

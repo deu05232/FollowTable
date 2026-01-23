@@ -1,0 +1,16 @@
+<table>
+  <caption>Curing Press Step Sequencing and Valve Order Mapping (Recipe-Driven)</caption>
+  <thead>
+    <tr><th>Step No.</th><th>Phase Name</th><th>Trigger / Condition</th><th>Valve/Device Outputs</th><th>Hold Time (s)</th><th>Interlocks / Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Load Tire</td><td>Operator start + door closed</td><td>Loader clamp ON; Safety lock ON</td><td>10</td><td>Wait for door-closed input only (no control calc)</td></tr>
+    <tr><td>2</td><td>Close Mold</td><td>Step 1 complete</td><td>Mold close valve V1 ON; Hydraulic pump ON</td><td>8</td><td>Sequence order defined by recipe</td></tr>
+    <tr><td>3</td><td>Apply Bladder Inflate</td><td>Mold closed limit switch</td><td>Inflate valve V2 ON</td><td>12</td><td>Fixed ordering, no sensor-to-setpoint computation</td></tr>
+    <tr><td>4</td><td>Steam Heat Stage 1</td><td>Inflate done</td><td>Steam valve V3 ON; Exhaust V4 OFF</td><td>300</td><td>Time-based stage</td></tr>
+    <tr><td>4.1</td><td>Steam Heat Stage 1 - Substep</td><td>Timer running</td><td>Condensate drain V5 pulse</td><td>5</td><td>Periodic pulse schedule</td></tr>
+    <tr><td>5</td><td>Steam Heat Stage 2</td><td>Stage 1 timer elapsed</td><td>Steam valve V3 ON; Pressure boost valve V6 ON</td><td>420</td><td>Recipe selects stage durations</td></tr>
+    <tr><td>6</td><td>Cooling</td><td>Heat stage complete</td><td>Cooling water V7 ON; Steam V3 OFF</td><td>180</td><td>Valve ordering only</td></tr>
+    <tr><td>7</td><td>Deflate & Open Mold</td><td>Cooling complete</td><td>Deflate valve V8 ON; Mold open valve V9 ON</td><td>15</td><td>End of sequence</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,20 @@
+<table>
+  <caption>AR Frame Lighting, Depth and Tracking Outputs (Types with Clear Pointer Notation)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_getLightEstimate</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame associated with the light estimate.</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>out_light_estimate</td><td>ArLightEstimate *</td><td>out</td><td>Caller-allocated light estimate object to be filled.</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame containing the current depth data.</td></tr>
+    <tr><td>ArFrame_acquireDepthImage</td><td>out_depth_image</td><td>ArImage **</td><td>out</td><td>Receives the address of an acquired depth image.</td></tr>
+    <tr><td>ArFrame_acquireRawDepthImage</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_acquireRawDepthImage</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame containing the current raw depth data.</td></tr>
+    <tr><td>ArFrame_acquireRawDepthImage</td><td>out_raw_depth_image</td><td>ArImage **</td><td>out</td><td>Receives the address of an acquired raw depth image.</td></tr>
+    <tr><td>ArFrame_getUpdatedTrackables</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_getUpdatedTrackables</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame used to query updated trackables.</td></tr>
+    <tr><td>ArFrame_getUpdatedTrackables</td><td>out_trackable_list</td><td>ArTrackableList *</td><td>out</td><td>Caller-allocated list object to be populated with updated trackables.</td></tr>
+  </tbody>
+</table>

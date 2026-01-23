@@ -1,0 +1,13 @@
+<table>
+  <caption>Self-service Portal Management Test Case — Role and Permission Administration</caption>
+  <tbody>
+    <tr><th>Test Case ID</th><td>SSP-MGMT-6.3.5.1</td></tr>
+    <tr><th>Test Item</th><td>Self-service Interface Functions</td></tr>
+    <tr><th>Test Sub-item</th><td>Role & Permission Management</td></tr>
+    <tr><th>Management Area</th><td>Access Control / Administration</td></tr>
+    <tr><th>Preconditions</th><td>Portal admin account is available; at least two user roles exist (e.g., Operator, Auditor); a protected management page is configured.</td></tr>
+    <tr><th>Test Objective</th><td>Verify that the portal correctly enforces role-based access control by allowing authorized administrators to assign and revoke permissions and preventing unauthorized users from accessing management functions.</td></tr>
+    <tr><th>Test Steps</th><td>Log in as Portal Admin and open Role Management.Create a new role and grant access to Terminal Management.Assign the role to a test user and log in as that user.Confirm the user can open Terminal Management but cannot access Subscription Relationship Management.Revoke the permission and verify access is denied after re-login.</td></tr>
+    <tr><th>Expected Result</th><td>Permission changes take effect according to policy; unauthorized access attempts are blocked and audited; UI messages reflect insufficient privilege.</td></tr>
+  </tbody>
+</table>

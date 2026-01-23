@@ -1,0 +1,16 @@
+<table>
+  <caption>Reference Bitstream Files (Flat List with Sampling Rate Embedded in Filename)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Filename</th><th>Embedded sampling-rate tag</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>es01_sr32k_br32k.avsa</td><td>32k</td><td>SR encoded in name only</td></tr>
+    <tr><td>2</td><td>es01_sr44p1k_br32k.avsa</td><td>44.1k</td><td>SR encoded in name only</td></tr>
+    <tr><td>3</td><td>es01_sr48k_br32k.avsa</td><td>48k</td><td>SR encoded in name only</td></tr>
+    <tr><td>4</td><td>sc01_sr32k_br48k.avsa</td><td>32k</td><td>Different test case family</td></tr>
+    <tr><td>5</td><td>sc02_sr44p1k_br48k.avsa</td><td>44.1k</td><td>Different test case family</td></tr>
+    <tr><td>6</td><td>sc03_sr48k_br48k.avsa</td><td>48k</td><td>Different test case family</td></tr>
+    <tr><td>7</td><td>test1_71_sr44p1k_br256k.avsa</td><td>44.1k</td><td>Only one SR variant shown for this case</td></tr>
+    <tr><td>8</td><td>test2_71_sr48k_br256k.avsa</td><td>48k</td><td>Not aligned in parallel columns</td></tr>
+  </tbody>
+</table>

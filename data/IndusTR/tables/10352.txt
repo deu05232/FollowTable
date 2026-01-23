@@ -1,0 +1,16 @@
+<table>
+  <caption>Starter Switching-Duty Verification Schedule (AC-3 / AC-1) with Timing and Cycle Counts</caption>
+  <thead>
+    <tr><th rowspan="2">Utilization category</th><th rowspan="2">Rated operational current Ie (A)</th><th colspan="5">On/Off duty conditions</th><th rowspan="2">Operating cycles (no.)</th></tr>
+    <tr><th>Ic/Ie (on/off)</th><th>U/Ue</th><th>cosφ (±0.05)</th><th>Energizing time (s)</th><th>De-energizing time (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">AC-3</td><td>Ie ≤ 18</td><td>2.0</td><td>1.05</td><td>0.65</td><td>0.05</td><td>0.20</td><td>6000</td></tr>
+    <tr><td>18 < Ie ≤ 40</td><td>2.0</td><td>1.05</td><td>0.45</td><td>0.05</td><td>0.20</td><td>6000</td></tr>
+    <tr><td>40 < Ie ≤ 100</td><td>2.0</td><td>1.05</td><td>0.45</td><td>0.05</td><td>0.30</td><td>6000</td></tr>
+    <tr><td>Ie > 100</td><td>2.0</td><td>1.05</td><td>0.35</td><td>0.05</td><td>0.30</td><td>6000</td></tr>
+    <tr><td rowspan="3">AC-1</td><td>Ie ≤ 40</td><td>1.0</td><td>1.00</td><td>0.95</td><td>0.10</td><td>0.10</td><td>10000</td></tr>
+    <tr><td>40 < Ie ≤ 100</td><td>1.0</td><td>1.00</td><td>0.95</td><td>0.10</td><td>0.20</td><td>10000</td></tr>
+    <tr><td>Ie > 100</td><td>1.0</td><td>1.00</td><td>0.95</td><td>0.10</td><td>0.30</td><td>10000</td></tr>
+  </tbody>
+</table>

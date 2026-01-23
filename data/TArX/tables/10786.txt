@@ -1,0 +1,14 @@
+<table>
+  <caption>ATP conversion energy release used in bioenergetic coupling examples (per mole and per molecule)</caption>
+  <thead>
+    <tr><th>ATP conversion</th><th>Energy-release descriptor</th><th>Value</th><th>Units</th><th>Context</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ATP → ADP + Pi</td><td>ΔG°′</td><td>-31</td><td>kJ/mol</td><td>Biochemical standard state</td></tr>
+    <tr><td>ATP → ADP + Pi</td><td>ΔG (typical cell)</td><td>-50</td><td>kJ/mol</td><td>Representative physiological driving force</td></tr>
+    <tr><td>ATP → AMP + PPi</td><td>ΔG°′</td><td>-45</td><td>kJ/mol</td><td>Activation reactions</td></tr>
+    <tr><td>PPi → 2 Pi</td><td>ΔG°′</td><td>-20</td><td>kJ/mol</td><td>Pulls ATP→AMP reactions forward</td></tr>
+    <tr><td>ATP → ADP + Pi</td><td>Energy per molecule (from -50 kJ/mol)</td><td>8.3e-20</td><td>J/molecule</td><td>Back-of-envelope coupling comparisons</td></tr>
+    <tr><td>ATP → ADP + Pi</td><td>Energy per molecule (from -31 kJ/mol)</td><td>5.1e-20</td><td>J/molecule</td><td>Standard-state comparison</td></tr>
+  </tbody>
+</table>

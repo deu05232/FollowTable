@@ -1,0 +1,10 @@
+<table>
+  <caption>Basic Math Operator Interface Parameters (Operands + Common Metadata Mixed)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Supported numeric types for computation; default is float</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>CPU/GPU/NPU/FPGA/ASIC; default is CPU</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Main input operand tensor</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Result tensor produced by the operator</td></tr>
+  <tr><td>Tensor Shape</td><td>Input</td><td>Optional</td><td>Shape metadata for validation; may include layout info</td></tr>
+  <tr><td>Index Tensor</td><td>Input</td><td>Optional</td><td>Auxiliary index operand used by some operators</td></tr>
+</table>

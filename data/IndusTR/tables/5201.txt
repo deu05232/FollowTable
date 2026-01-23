@@ -1,0 +1,15 @@
+<table>
+  <caption>SM2-Based Digital Envelope Decoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_SM2_DecodeEnvelopedData(void * hAppHandle,unsigned char * pucDecContainerName,unsigned int uiDecContainerNameLen,unsigned int uiDecKeyUsage,unsigned char * pucDerEnvelopedData,unsigned int uiDerEnvelopedDataLen,unsigned char * pucData,unsigned int * puiDataLen)</td></tr>
+  <tr><td>Description</td><td>Decode digital envelope data based on the SM2 algorithm</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucDecContainerName[in](key container name of the private key for decryption）</td></tr>
+  <tr><td>uiDecContainerNameLen[in](key container name length of the private key for decryption）</td></tr>
+  <tr><td>uiDecKeyUsage[in](usage of the private key for decryption)</td></tr>
+  <tr><td>pucDerEnvelopedData[in](DER-encoded EnvelopedData digital envelope data; the EnvelopedData data format definition shall comply with GB/T35275)</td></tr>
+  <tr><td>uiDerEnvelopedDataLen[in](digital envelope data length）</td></tr>
+  <tr><td>pucData[out](plaintext data obtained after decoding)</td></tr>
+  <tr><td>puiDataLen[in,out](plaintext data length obtained after decoding)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0(success)</td></tr>
+  <tr><td>Non-0(failure, return the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+</table>

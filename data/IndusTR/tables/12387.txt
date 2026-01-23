@@ -1,0 +1,14 @@
+<table>
+  <caption>Scenario element layers for special-area passage (layer-first organization)</caption>
+  <thead>
+    <tr><th>Layer (Main Category)</th><th>Typical Elements</th><th>Tunnel / Toll / Roundabout / Bus Stop / Ramp Examples (mixed)</th><th>Common Risks</th><th>Recommended Sensing / V2X</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Road Layer</td><td>Alignment, lanes, pavement type, grade</td><td>Straight/curved segments; lane narrowing at toll; circular geometry at roundabout; ramp grade changes; tunnel approach transitions</td><td>Speed mismatch, lane drops, tight curvature</td><td>HD map + localization; lane-level perception</td></tr>
+    <tr><td>Traffic Facility Layer</td><td>Barriers, booths, portals, bus bays, delineators</td><td>Toll booths/ETC gantry; tunnel portal; splitter island at roundabout; curbside bus bay; ramp gore area</td><td>Occlusion, close-proximity obstacles</td><td>Front camera + radar; RSU object broadcast</td></tr>
+    <tr><td>Traffic Control Layer</td><td>Signs, markings, signals, variable message signs</td><td>Yield at roundabout; merge/exit arrows at ramps; speed limit signs near tunnel/toll; bus-lane signs near stops</td><td>Non-compliance, late decisions</td><td>Sign recognition; SPaT where available</td></tr>
+    <tr><td>Weather & Lighting Layer</td><td>Illumination, precipitation, visibility</td><td>Tunnel luminance step; night glare at toll plaza; rain reduces friction on ramps</td><td>Reduced detection range, longer stopping distance</td><td>Auto-exposure control; sensor fusion</td></tr>
+    <tr><td>Traffic Operation Layer</td><td>Participants and interactions</td><td>Queueing at toll; merging at ramp; pedestrian/bus interactions at stops; circulating traffic at roundabout</td><td>Cut-ins, sudden stops, vulnerable road users</td><td>Trajectory prediction; V2V messaging</td></tr>
+    <tr><td>Monitoring & Communication Layer</td><td>CCTV, RSU, cloud connectivity</td><td>Roadside cameras; V2X RSUs; GNSS base station corrections; cloud map updates</td><td>Coverage gaps, latency</td><td>Fallback planning; multi-link communication</td></tr>
+  </tbody>
+</table>

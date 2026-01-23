@@ -1,0 +1,10 @@
+<table>
+  <caption>Correction Factor for Unit Cooling Method</caption>
+  <tr><td colspan="2">Cooling method</td><td>Correction factor</td></tr>
+  <tr><td rowspan="2">Once-through cooling</td><td>Cooling-water lift height ≤10 m</td><td>1.000</td></tr>
+  <tr><td>Cooling-water lift height >10 m</td><td>1.000+0.009X(H-10)/H</td></tr>
+  <tr><td>Circulating cooling</td><td></td><td>1.010</td></tr>
+  <tr><td rowspan="2">Air cooling</td><td>Indirect air cooling</td><td>1.040</td></tr>
+  <tr><td>Direct air cooling</td><td>1.050</td></tr>
+  <tr><td colspan="3">Note: H is the cooling-water lift height.</td></tr>
+</table>

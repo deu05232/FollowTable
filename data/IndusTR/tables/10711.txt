@@ -1,0 +1,15 @@
+<table>
+  <caption>Rib and Web Geometry Limits to Prevent Solidification Shrinkage (Sink/Void/Hot-Spot Control)</caption>
+  <thead>
+    <tr><th>Rib-related geometry</th><th>Target proportion / rule</th><th>Shrinkage defect if violated</th><th>Geometry note (where the hot spot forms)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Rib thickness (Sr) vs. nominal wall thickness (S)</td><td>Sr = 0.6–0.8×S (prefer lower end when multiple ribs converge)</td><td>Shrinkage cavity / internal void at rib root</td><td>Over-thick ribs act like local thick sections and freeze last at the root</td></tr>
+    <tr><td>Rib root radius (fillet) to wall</td><td>Use a fillet and avoid metal buildup; choose a radius that blends without creating a thick node</td><td>Hot-spot shrinkage porosity at the toe</td><td>Too-small radius concentrates heat; too-large can create a thickened node—both increase last-to-freeze volume</td></tr>
+    <tr><td>Rib height</td><td>Increase stiffness via height rather than thickness; keep thickness controlled while increasing height</td><td>Sinks/voids from excessive mass</td><td>Height adds section modulus without adding thermal modulus at the root</td></tr>
+    <tr><td>Rib-to-rib intersection (crossing ribs)</td><td>Do not let rib intersections create a solid block; provide relief pocket or stagger the crossing</td><td>Shrinkage cavity at rib crossing</td><td>Crossing creates a concentrated thick node (classic hot spot)</td></tr>
+    <tr><td>Number of ribs meeting at one point</td><td>Limit to 2; if >2, separate with offsets or introduce a ring/gusset with controlled thickness</td><td>Central hot-spot porosity</td><td>Multi-rib node freezes last and is difficult to feed</td></tr>
+    <tr><td>Rib spacing</td><td>Avoid tight rib arrays that make the wall effectively thicker; keep enough spacing so roots do not overlap thermally</td><td>Distributed shrinkage porosity / sink banding</td><td>Overlapping thermal fields create a continuous hot region across the wall</td></tr>
+    <tr><td>Rib ending into a boss or thick pad</td><td>Terminate rib before the boss or taper rib into the boss with a thickness reduction</td><td>Shrinkage void at boss-rib junction</td><td>Boss+rib junction becomes a combined thick section with high shrinkage demand</td></tr>
+  </tbody>
+</table>

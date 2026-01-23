@@ -1,0 +1,14 @@
+<table>
+  <caption>Main Process Parameters for PCB Photoresist Lamination Before DI Exposure</caption>
+  <thead>
+    <tr><th>Process Step</th><th>Parameter</th><th>Typical Setting</th><th>Control Range</th><th>Monitoring Method</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pre-clean</td><td>Micro-etch rate</td><td>0.8 µm</td><td>0.6–1.0 µm</td><td>Weight loss</td><td>Cu surface activation</td></tr>
+    <tr><td>Drying</td><td>Oven temperature</td><td>75 °C</td><td>70–80 °C</td><td>Thermocouple</td><td>Prevent moisture</td></tr>
+    <tr><td>Lamination</td><td>Roll pressure</td><td>0.45 MPa</td><td>0.35–0.55 MPa</td><td>Pressure gauge</td><td>Affects adhesion</td></tr>
+    <tr><td>Lamination</td><td>Roll temperature</td><td>110 °C</td><td>105–120 °C</td><td>IR sensor</td><td>Film flow control</td></tr>
+    <tr><td>Lamination</td><td>Line speed</td><td>1.6 m/min</td><td>1.2–2.0 m/min</td><td>Encoder</td><td>Wrinkle prevention</td></tr>
+    <tr><td>Rest</td><td>Hold time</td><td>30 min</td><td>20–40 min</td><td>Timer</td><td>Stress relaxation</td></tr>
+  </tbody>
+</table>

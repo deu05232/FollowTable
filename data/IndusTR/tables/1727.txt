@@ -1,0 +1,7 @@
+<table>
+  <caption>Tensor Gather Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Represents the input tensor</td></tr>
+  <tr><td>Index Tensor</td><td>Input</td><td>Required</td><td>Represents the index tensor. The dimension must be greater than 1 and less than or equal to the dimension of the input tensor, and can be of integer type</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Represents the output tensor, with the same data type as the input tensor</td></tr>
+</table>

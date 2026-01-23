@@ -1,0 +1,15 @@
+<table>
+  <caption>Material and model parameters used to estimate thermal stability in CoFeB/MgO pMTJ (no per-device Δ reported).</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Typical value</th><th>Unit</th><th>Notes / extraction method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Saturation magnetization</td><td>Ms</td><td>1.15</td><td>MA/m</td><td>VSM on blanket CoFeB</td></tr>
+    <tr><td>Effective anisotropy energy density</td><td>Keff</td><td>0.55</td><td>MJ/m3</td><td>From hard-axis loop</td></tr>
+    <tr><td>Interfacial anisotropy</td><td>Ki</td><td>1.1</td><td>mJ/m2</td><td>Assumed constant vs. t</td></tr>
+    <tr><td>Gilbert damping</td><td>α</td><td>0.008</td><td>-</td><td>FMR fit</td></tr>
+    <tr><td>MgO barrier thickness</td><td>tMgO</td><td>1.0</td><td>nm</td><td>Nominal deposition</td></tr>
+    <tr><td>Temperature</td><td>T</td><td>300</td><td>K</td><td>Room temperature</td></tr>
+    <tr><td>Attempt frequency</td><td>f0</td><td>1</td><td>GHz</td><td>Assumed in model</td></tr>
+  </tbody>
+</table>

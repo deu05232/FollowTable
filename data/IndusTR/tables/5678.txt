@@ -1,0 +1,14 @@
+<table>
+  <caption>AR SDK Enum Types vs Their Option Values (Compact Cross-Enum Matrix)</caption>
+  <thead>
+    <tr><th>Enum Type</th><th>Option A (name=value)</th><th>Option B (name=value)</th><th>Option C (name=value)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ARTrackingState</td><td>AR_TRACKING_STATE_TRACKING=0</td><td>AR_TRACKING_STATE_PAUSED=1</td><td>AR_TRACKING_STATE_STOPPED=2</td><td>High-level session tracking state</td></tr>
+    <tr><td>ARTrackingFailureReason</td><td>AR_TRACKING_FAILURE_REASON_NONE=0</td><td>AR_TRACKING_FAILURE_REASON_BAD_STATE=1</td><td>AR_TRACKING_FAILURE_REASON_INSUFFICIENT_LIGHT=2</td><td>Reason for degraded tracking</td></tr>
+    <tr><td>ARLightEstimationMode</td><td>AR_LIGHT_ESTIMATION_MODE_DISABLED=0</td><td>AR_LIGHT_ESTIMATION_MODE_AMBIENT_INTENSITY=1</td><td>AR_LIGHT_ESTIMATION_MODE_ENVIRONMENTAL_HDR=2</td><td>Lighting pipeline behavior</td></tr>
+    <tr><td>ARAugmentedFaceMode</td><td>AR_AUGMENTED_FACE_MODE_DISABLED=0</td><td>AR_AUGMENTED_FACE_MODE_MESH3D=2</td><td>—</td><td>Face mesh rendering support</td></tr>
+    <tr><td>ARAugmentedImageTrackingMethod</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_NOT_TRACKING=0</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_FULL_TRACKING=1</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_LAST_KNOWN_POSE=2</td><td>Image tracking algorithm selection</td></tr>
+    <tr><td>ARCoordinates2DType</td><td>AR_COORDINATES_2D_TEXTURE_TEXELS=0</td><td>AR_COORDINATES_2D_TEXTURE_NORMALIZED=1</td><td>AR_COORDINATES_2D_IMAGE_PIXELS=2</td><td>2D coordinate interpretation</td></tr>
+  </tbody>
+</table>

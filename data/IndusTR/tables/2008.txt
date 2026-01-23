@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Tracking Quality Test Protocol (Methodology Parameters Only)</caption>
+  <tr><th>Test Item</th><th>Setup</th><th>Controlled Variable</th><th>Range</th><th>Pass/Fail Rule</th></tr>
+  <tr><td>Image Tracking Stability</td><td>Printed marker on matte paper</td><td>Illuminance</td><td>50–800 lux</td><td>> 90% frames maintain lock</td></tr>
+  <tr><td>Face Mesh Robustness</td><td>Subject at 0.6 m</td><td>Head yaw</td><td>-45° to +45°</td><td>Mesh remains continuous</td></tr>
+  <tr><td>Light Estimation Repeatability</td><td>Neutral wall background</td><td>Color temperature</td><td>2700K–6500K</td><td>Std dev < 10%</td></tr>
+  <tr><td>Motion Blur Tolerance</td><td>Handheld walk test</td><td>Shutter speed</td><td>1/30–1/240</td><td>No persistent drift > 5 cm</td></tr>
+  <tr><td>Low-light Behavior</td><td>Dark room</td><td>Illuminance</td><td>0–20 lux</td><td>Graceful degradation documented</td></tr>
+  <tr><td>Thermal Throttling Check</td><td>30-minute stress scene</td><td>Device temperature</td><td>25–45°C ambient</td><td>FPS drop < 20%</td></tr>
+</table>

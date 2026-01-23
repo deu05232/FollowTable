@@ -1,0 +1,15 @@
+<table>
+  <caption>Electric Compressor Endurance Test with Vibration Exposure (Cycle Definition Included)</caption>
+  <thead>
+    <tr><th rowspan="2">Step</th><th colspan="3">Vibration setup</th><th colspan="4">Load / cycle settings</th></tr>
+    <tr><th>Direction</th><th>Frequency (Hz)</th><th>Sweep / dwell</th><th>Voltage (V)</th><th>Speed (r/min)</th><th>Cycle count</th><th>Run/stop per cycle</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Up/Down</td><td>50–250</td><td>2 min per sweep</td><td>Rated</td><td>Rated speed</td><td>1000</td><td>7 min run / 3 min stop</td></tr>
+    <tr><td>2</td><td>Front/Rear</td><td>50–250</td><td>2 min per sweep</td><td>Rated</td><td>Rated speed</td><td>1000</td><td>7 min run / 3 min stop</td></tr>
+    <tr><td>3</td><td>Left/Right</td><td>50–250</td><td>2 min per sweep</td><td>Rated</td><td>Rated speed</td><td>1000</td><td>7 min run / 3 min stop</td></tr>
+    <tr><td>4</td><td>Up/Down</td><td>20–2000</td><td>Random, 20 min</td><td>Minimum</td><td>5000</td><td>500</td><td>10 min run / 5 min stop</td></tr>
+    <tr><td>5</td><td>Front/Rear</td><td>20–2000</td><td>Random, 20 min</td><td>Rated</td><td>Nominal</td><td>500</td><td>10 min run / 5 min stop</td></tr>
+    <tr><td>6</td><td>Left/Right</td><td>20–2000</td><td>Random, 20 min</td><td>Maximum</td><td>Max speed</td><td>500</td><td>10 min run / 5 min stop</td></tr>
+  </tbody>
+</table>

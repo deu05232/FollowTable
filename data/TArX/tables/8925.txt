@@ -1,0 +1,17 @@
+<table>
+  <caption>X-ray afterglow detection times and redshifts for GRBs with follow-up constraints</caption>
+  <thead>
+    <tr><th rowspan="2">GRB</th><th rowspan="2">Redshift (z)</th><th colspan="3">X-ray afterglow timing (observer frame)</th><th rowspan="2">Instrument</th><th rowspan="2">Timing metric definition</th></tr>
+    <tr><th>First XRT observation (s after trigger)</th><th>Afterglow detected at (s)</th><th>Last detection within (ks)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GRB 060729</td><td>0.54</td><td>80</td><td>120</td><td>500</td><td>Swift/XRT</td><td>Start of pointed follow-up; detection time is first significant X-ray afterglow</td></tr>
+    <tr><td>GRB 061007</td><td>1.261</td><td>62</td><td>70</td><td>200</td><td>Swift/XRT</td><td>Times are relative to trigger (T0)</td></tr>
+    <tr><td>GRB 070411</td><td>2.954</td><td>95</td><td>110</td><td>60</td><td>Swift/XRT</td><td>Early afterglow detection; last detection gives persistence timescale</td></tr>
+    <tr><td>GRB 071010B</td><td>0.947</td><td>140</td><td>170</td><td>80</td><td>Swift/XRT</td><td>Observation delay dominated by spacecraft slew</td></tr>
+    <tr><td>GRB 080913</td><td>6.70</td><td>250</td><td>300</td><td>45</td><td>Swift/XRT</td><td>High-z event; detection time indicates earliest afterglow visibility in X-rays</td></tr>
+    <tr><td>GRB 090510</td><td>0.903</td><td>94</td><td>100</td><td>30</td><td>Swift/XRT</td><td>Short burst; table reports afterglow timing (not prompt duration)</td></tr>
+    <tr><td>GRB 090423</td><td>8.23</td><td>170</td><td>200</td><td>70</td><td>Swift/XRT</td><td>Redshift with explicit afterglow observation/detection times</td></tr>
+    <tr><td>GRB 130606A</td><td>5.91</td><td>120</td><td>140</td><td>90</td><td>Swift/XRT</td><td>Includes end-of-detection timescale to compare persistence vs z</td></tr>
+  </tbody>
+</table>

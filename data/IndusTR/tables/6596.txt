@@ -1,0 +1,18 @@
+<table>
+  <caption>Vulnerability Tracking Checklist (Time Stamps Plus CVSS and Remediation Details)</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Time Stamps</td><td>Discovery Time</td><td>When the vulnerability was discovered (record in UTC; include precision such as seconds).</td></tr>
+    <tr><td>Publication Time</td><td>When the vulnerability advisory was published (source-reported timestamp).</td></tr>
+    <tr><td>Patch Available Time</td><td>When a fix became available from vendor or maintainer.</td></tr>
+    <tr><td>Exploit Observed Time</td><td>First time exploitation was observed in the wild (telemetry-based).</td></tr>
+    <tr><td>Remediation Completed Time</td><td>When the vulnerable component was patched/mitigated in the environment.</td></tr>
+    <tr><td rowspan="3">Risk</td><td>Vulnerability Severity</td><td>Critical/High/Medium/Low or organizational scale.</td></tr>
+    <tr><td>CVSS Base Score</td><td>Numeric score and vector string if available.</td></tr>
+    <tr><td>Exploitability Status</td><td>No known exploit / POC available / exploited in the wild.</td></tr>
+    <tr><td rowspan="2">Response</td><td>Remediation Owner</td><td>Team or role responsible for fixing.</td></tr>
+    <tr><td>Mitigation Notes</td><td>Workaround details and scope (systems impacted).</td></tr>
+  </tbody>
+</table>

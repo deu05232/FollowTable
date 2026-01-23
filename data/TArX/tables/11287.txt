@@ -1,0 +1,16 @@
+<table>
+  <caption>Congestion Queue Indicators and Calibration Settings by Corridor Segment (Weekday PM Peak)</caption>
+  <thead>
+    <tr><th rowspan="2">Segment</th><th colspan="4">Queueing / Congestion Statistics</th><th colspan="3">Model Calibration / Setup (Excluded by Instruction)</th></tr>
+    <tr><th>Mean queue length (veh)</th><th>95th pct queue length (veh)</th><th>Mean queue duration (min)</th><th>Stopped-vehicle count (veh/15 min)</th><th>Car-following model</th><th>Desired time gap T (s)</th><th>Jam density ρmax(veh/km/lane)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>CBD-1</th><td>84</td><td>162</td><td>18.4</td><td>610</td><td>IDM</td><td>1.2</td><td>150</td></tr>
+    <tr><th>CBD-2</th><td>102</td><td>191</td><td>22.7</td><td>745</td><td>IDM</td><td>1.4</td><td>155</td></tr>
+    <tr><th>Bridge-A</th><td>56</td><td>118</td><td>11.2</td><td>402</td><td>OVM</td><td>1.0</td><td>145</td></tr>
+    <tr><th>RingRd-E</th><td>139</td><td>240</td><td>31.5</td><td>910</td><td>GFM</td><td>1.8</td><td>160</td></tr>
+    <tr><th>RingRd-W</th><td>121</td><td>209</td><td>27.9</td><td>855</td><td>GFM</td><td>1.6</td><td>158</td></tr>
+    <tr><th>Airport-X</th><td>73</td><td>140</td><td>15.6</td><td>530</td><td>NSM</td><td>1.3</td><td>152</td></tr>
+    <tr><th>Port-Y</th><td>90</td><td>175</td><td>20.1</td><td>668</td><td>OVM</td><td>1.1</td><td>148</td></tr>
+  </tbody>
+</table>

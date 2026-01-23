@@ -1,0 +1,7 @@
+<table>
+  <caption>Application-layer message parameter definitions — PGI 0x01 (Phase request) field layout</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x01</td></tr>
+  <tr><td>2</td><td>Requested Phase</td><td>1 byte</td><td>BYTE</td><td>PhaseReqType</td><td>Requested charging phase code (implementation-defined enumeration)</td></tr>
+  <tr><td>3</td><td>Request Counter</td><td>1 byte</td><td>BYTE</td><td>CounterType</td><td>Incrementing counter used to match requests and responses</td></tr>
+</table>

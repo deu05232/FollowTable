@@ -1,0 +1,10 @@
+<table>
+  <caption>AR frame parameters for anchors and trackable query results</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_anchor_list</td><td>ArAnchorList *</td><td>Receives the list of anchors updated in this frame</td></tr>
+  <tr><td>out_trackable_list</td><td>ArTrackableList *</td><td>Receives the list of trackables updated in this frame</td></tr>
+  <tr><td>filter_type</td><td>int32_t</td><td>Filter for selecting a trackable type</td></tr>
+  <tr><td>include_paused</td><td>int32_t</td><td>Whether to include paused trackables</td></tr>
+</table>

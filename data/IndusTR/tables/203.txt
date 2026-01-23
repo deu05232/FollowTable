@@ -1,0 +1,7 @@
+<table>
+  <caption>Basic Business Information Entity of Exchange Header Envelope Package Header</caption>
+  <tr><td>Data Field</td><td>English Name</td><td>Constraints</td><td>Maximum Occurrences</td><td>Data Type</td><td>Definition</td></tr>
+  <tr><td>Header Identifier</td><td>Header Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Information that identifies the header in XHE</td></tr>
+  <tr><td>Header UUID</td><td>Header UUID</td><td>Optional</td><td>1</td><td>String</td><td>Universally unique identifier of the header</td></tr>
+  <tr><td>Header Creation Date Time</td><td>Header Creation Date Time</td><td>Mandatory</td><td>1</td><td>Date Time</td><td>Date and time when the XHE is created</td></tr>
+</table>

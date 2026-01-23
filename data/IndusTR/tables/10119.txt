@@ -1,0 +1,15 @@
+<table>
+  <caption>Electrical Abuse Test Setup: Overcharge/Overdischarge Thresholds and Protection Trip Levels</caption>
+  <thead>
+    <tr><th rowspan="2">Test Item</th><th colspan="2">Threshold</th><th rowspan="2">Hold Time</th><th rowspan="2">Acceptance / Termination Criteria</th></tr>
+    <tr><th>Recommended</th><th>Do-Not-Exceed</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Overcharge (cell-level)</td><td>4.35 V/cell</td><td>4.60 V/cell</td><td>2 h</td><td>Stop if Tcell ≥ 90°C or venting</td></tr>
+    <tr><td>Overcharge (pack-level)</td><td>110% SOC</td><td>130% SOC</td><td>1 h</td><td>Stop if pack pressure rise detected</td></tr>
+    <tr><td>Overdischarge (cell-level)</td><td>2.50 V/cell</td><td>2.00 V/cell</td><td>2 h</td><td>Stop if reversal current observed</td></tr>
+    <tr><td>External short circuit</td><td>R = 20 mΩ</td><td>R = 5 mΩ</td><td>10 min</td><td>Stop if I ≥ 5C sustained</td></tr>
+    <tr><td>Overcurrent protection</td><td>2C</td><td>5C</td><td>60 s</td><td>Trip required within 1 s at 5C</td></tr>
+    <tr><td>Insulation resistance</td><td>≥ 500 Ω/V</td><td>≥ 100 Ω/V</td><td>N/A</td><td>Fail if below limit</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+# In Unix, what do the output fields of the ps command mean?
+
+| F | 1 | 1 | 1 |
+| --- | --- | --- | --- |
+| S | R | S | S |
+| UID | obiwan | root | dvader |
+| ID | 792 | 24621 | 1162 |
+| PPID | 779 | 560 | 1153 |
+| C | 22 | 0 | 0 |
+| PRI | 183 | 154 | 154 |
+| NI | 20 | 20 | 20 |
+| ADDR | 10ec5f80 | 13603f80 | 110a1f80 |
+| SZ | 29 | 11 | 77 |
+| WCHAN | - | 4697c0 | 452be4 |
+| STIME | 12:52:24 | Jun 16 | 11:25:41 |
+| TTY | pts/2 | ttyp2 | pts/3 |
+| TIME | 0:00 | 0:00 | 0:00 |
+| COMD | ps -elf | telnetd | ssh deathstar |

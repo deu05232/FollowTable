@@ -1,0 +1,36 @@
+<table>
+  <caption>Video and Image Monitored Non-motor Vehicle Object Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Non-motor Vehicle Object Identifier</td><td>fjdcdxbz</td><td>c48</td><td>Should comply with the coding rules specified in C.3; non-motor vehicle objects in the SAC image should preferably generate identifiers in order from left to right and from top to bottom</td><td></td></tr>
+  <tr><td>2</td><td>Driver Person Object Identifier</td><td>jsrydxbz</td><td>c48</td><td>Person object code of the person driving the non-motor vehicle; should comply with the coding rules specified in C.3</td><td></td></tr>
+  <tr><td>3</td><td>Passenger Person Object Identifier</td><td>dzrydxbz</td><td>c48</td><td>Person object code of the person riding the non-motor vehicle should comply with the coding rules specified in C.3</td><td></td></tr>
+  <tr><td>4</td><td>Source Identifier</td><td>lybz</td><td>c41</td><td>Coding of the video segment or image collecting the non-motor vehicle object; should comply with the coding rules specified in C.2; multi-valued</td><td></td></tr>
+  <tr><td>5</td><td>Non-motor Vehicle Collection Method Code</td><td>fjdccjfsdm</td><td>cl</td><td>Should comply with D.16</td><td></td></tr>
+  <tr><td>6</td><td>Top-Left Corner_X Coordinate</td><td>zsj_xzb</td><td>n..8</td><td>Horizontal coordinate of the top-left corner of the non-motor vehicle thumbnail bounding box, unit: pixel; taking the top-left pixel of the image as the origin, horizontal right is the positive direction of the X axis, and vertical downward is the positive direction of the Y axis</td><td></td></tr>
+  <tr><td>7</td><td>Top-Left Corner_Y Coordinate</td><td>zsj_yzb</td><td>n.8</td><td>Vertical coordinate of the top-left corner of the non-motor vehicle thumbnail bounding box, unit: pixel</td><td></td></tr>
+  <tr><td>8</td><td>Bottom-Right Corner_X Coordinate</td><td>yxj_xzb</td><td>n.8</td><td>Horizontal coordinate of the bottom-right corner of the non-motor vehicle thumbnail bounding box, unit: pixel</td><td></td></tr>
+  <tr><td>9</td><td>Bottom-Right Corner_Y Coordinate</td><td>yxj_yzb</td><td>n..8</td><td>Vertical coordinate of the bottom-right corner of the non-motor vehicle thumbnail bounding box, unit: pixel</td><td></td></tr>
+  <tr><td>10</td><td>Location Mark_Date Time</td><td>wzbj_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>11</td><td>Appearance_Date Time</td><td>cx_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>12</td><td>Disappearance_Date Time</td><td>xs_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>13</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Coding of the non-motor vehicle thumbnail or the full image containing the non-motor vehicle; should comply with the coding rules specified in C.2; multi-valued</td><td></td></tr>
+  <tr><td>14</td><td>Non-motor Vehicle Feature Category Code</td><td>fjdctzlbdm</td><td>c5</td><td>Should comply with D.34</td><td></td></tr>
+  <tr><td>15</td><td>License Plate_Determination Identifier</td><td>cp_pdbz</td><td>cl</td><td>Determine whether the non-motor vehicle object has a license plate; should comply with D.11</td><td></td></tr>
+  <tr><td>16</td><td>Non-motor Vehicle License Plate Color Code</td><td>fjdchpysdm</td><td>cl</td><td>Should comply with D.26</td><td></td></tr>
+  <tr><td>17</td><td>Electronic License Plate_Determination Identifier</td><td>dzcp_pdbz</td><td>cl</td><td>Determine whether the non-motor vehicle object has an RFID electronic license plate; should comply with D.11</td><td></td></tr>
+  <tr><td>18</td><td>Non-motor Vehicle License Plate Number</td><td>fjdchphm</td><td>c..15</td><td></td><td></td></tr>
+  <tr><td>19</td><td>License Plate Description_Summary</td><td>cpms_jyqk</td><td>.ul</td><td></td><td></td></tr>
+  <tr><td>20</td><td>Travel Speed</td><td>xssd</td><td>n..5,2</td><td>Unit: kilometer per hour (km/h)</td><td></td></tr>
+  <tr><td>21</td><td>Travel Direction Code</td><td>xsfxdm</td><td>cl</td><td>Should comply with D.12; multi-valued; when multi-valued, indicates that the vehicle first travels in the direction of the 1st value, then in the direction of the 2nd value, and so on</td><td></td></tr>
+  <tr><td>22</td><td>Non-motor Vehicle Travel Status Code</td><td>fjdcxsztdm</td><td>cl</td><td>Should comply with D.35</td><td></td></tr>
+  <tr><td>23</td><td>Non-motor Vehicle Brand</td><td>fjdcpp</td><td>c..32</td><td>Brand of the labeled non-motor vehicle</td><td></td></tr>
+  <tr><td>24</td><td>Non-motor Vehicle Model</td><td>fjdckx</td><td>c..32</td><td>Style model of the labeled non-motor vehicle</td><td></td></tr>
+  <tr><td>25</td><td>Non-motor Vehicle Overall Length</td><td>fjdcwkcd</td><td>n..4</td><td>Unit: millimeter (mm)</td><td></td></tr>
+  <tr><td>26</td><td>Non-motor Vehicle Overall Width</td><td>fjdcwkkd</td><td>n..4</td><td>Unit: millimeter (mm)</td><td></td></tr>
+  <tr><td>27</td><td>Non-motor Vehicle Overall Height</td><td>fjdcwkgd</td><td>n..4</td><td>Unit: millimeter (mm)</td><td></td></tr>
+  <tr><td>28</td><td>Non-motor Vehicle Body Color Code</td><td>fjdccsysdm</td><td>c1</td><td>Should comply with D.26</td><td></td></tr>
+  <tr><td>29</td><td>Windshield Quilt_Determination Identifier</td><td>dfb_pdbz</td><td>cl</td><td>Determine whether the non-motor vehicle contains a windshield quilt; should comply with D.11</td><td></td></tr>
+  <tr><td>30</td><td>Windshield Quilt_Color Code</td><td>dfb_ysdm</td><td>cl</td><td>Should comply with D.26</td><td></td></tr>
+  <tr><td>31</td><td>Rain Canopy_Determination Identifier</td><td>zyp_pdbz</td><td>cl</td><td>Determine whether the non-motor vehicle object contains a rain canopy; should comply with D.11</td><td></td></tr>
+  <tr><td>32</td><td>Rain Canopy_Color Code</td><td>zyp_ysdm</td><td>cl</td><td>Should comply with D.26</td><td></td></tr>
+</table>

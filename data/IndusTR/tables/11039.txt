@@ -1,0 +1,11 @@
+<table>
+  <caption>Incorrect Visual Substitutions for Mongolian Control Characters (What It Looks Like When People Fake It)</caption>
+  <tr><th>Rule Topic</th><th>Wrong Visual Substitute</th><th>How It Appears on Screen</th><th>Why People Do It</th><th>Why It Is Wrong (Visual Explanation)</th></tr>
+  <tr><td>NIRUGU handling</td><td>Insert a visible vertical bar |</td><td>A bar splits the word into two parts</td><td>They expect a visible sign</td><td>Looks like punctuation rather than a controlled join</td></tr>
+  <tr><td>MVS handling</td><td>Change font to get desired glyph</td><td>Different tail/curve appears</td><td>Quick fix for appearance</td><td>Not stable across platforms; appearance-driven</td></tr>
+  <tr><td>FVS usage</td><td>Use stylistic set features</td><td>Glyph changes but not consistently</td><td>Designer told them to use SSxx</td><td>May not match the intended orthographic rule</td></tr>
+  <tr><td>ZWJ usage</td><td>Remove the join by adding a thin space</td><td>Slight gap appears</td><td>They think spacing equals non-join</td><td>Spacing changes layout, not joining behavior</td></tr>
+  <tr><td>ZWNJ usage</td><td>Use hyphen-like marks</td><td>A dash is visible inside the word</td><td>To force separation visually</td><td>Introduces an actual visible glyph</td></tr>
+  <tr><td>Suffix boundary</td><td>Insert period-like dots</td><td>Dots appear between letters</td><td>Mimic historical punctuation</td><td>Changes text content; breaks searching/collation</td></tr>
+  <tr><td>Line breaking</td><td>Use manual line breaks to "fix" joins</td><td>Word looks correct only at that line width</td><td>Layout workaround</td><td>Rendering-dependent and not rule-based</td></tr>
+</table>

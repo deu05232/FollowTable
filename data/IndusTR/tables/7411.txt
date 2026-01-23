@@ -1,0 +1,9 @@
+<table>
+  <caption>Enterprise administrative licensing data items (permit-centric)</caption>
+  <tr><td>Data Item</td><td>Field</td><td>Representation</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Permit type</td><td>permit_type</td><td>Text, up to 40 chars</td><td></td><td>Category of license/permit</td></tr>
+  <tr><td>Permit number</td><td>permit_no</td><td>Text, up to 32 chars</td><td></td><td>Identifier of the permit</td></tr>
+  <tr><td>Issuing authority</td><td>issuer</td><td>Text, up to 80 chars</td><td></td><td>Authority that issued the permit</td></tr>
+  <tr><td>Valid from</td><td>valid_from</td><td>Date (YYYY-MM-DD)</td><td></td><td>Start date of validity</td></tr>
+  <tr><td>Valid to</td><td>valid_to</td><td>Date (YYYY-MM-DD)</td><td></td><td>End date of validity</td></tr>
+</table>

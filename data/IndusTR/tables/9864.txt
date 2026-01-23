@@ -1,0 +1,16 @@
+<table>
+  <caption>Class B AIS Transmitter Requirements with Message Payload Field Overlay (Mixed Compliance/Format Table)</caption>
+  <thead>
+    <tr><th>Parameter / Field</th><th>Unit</th><th>Test Condition / Bit Location</th><th>Required Limit / Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Carrier frequency error</td><td>Hz</td><td>Normal environment; measured during transmission burst</td><td>≤ 500</td></tr>
+    <tr><td>TX output power</td><td>W</td><td>Into 50 Ω load; nominal setting</td><td>2 (Class B nominal)</td></tr>
+    <tr><td>Occupied bandwidth (99%)</td><td>kHz</td><td>GMSK modulation; steady-state portion of burst</td><td>≤ 25</td></tr>
+    <tr><td>Spurious emissions (conducted)</td><td>dBc</td><td>30 MHz–1 GHz; referenced to carrier</td><td>≤ -36</td></tr>
+    <tr><td>Message identifier (payload)</td><td>bit</td><td>Bits 1–6</td><td>60 (fixed)</td></tr>
+    <tr><td>Repeat indicator (payload)</td><td>bit</td><td>Bits 7–8</td><td>0</td></tr>
+    <tr><td>Source MMSI (payload)</td><td>bit</td><td>Bits 9–38; encoding per MMSI rules</td><td>30-bit MMSI</td></tr>
+    <tr><td>Transmission duration</td><td>ms</td><td>Per slot; including ramp-up/down</td><td>≤ 108</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Video/Image Surveillance Event Type Code Table (Behavior & Security Events)</caption>
+  <thead>
+    <tr><th>Code</th><th>Event Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>101</td><td>Intrusion</td><td>Object/person enters a restricted area or crosses a virtual boundary into a protected zone.</td></tr>
+    <tr><td>102</td><td>Loitering</td><td>Person remains in an area longer than the configured dwell-time threshold.</td></tr>
+    <tr><td>103</td><td>Trespassing</td><td>Unauthorized person detected in a prohibited area (access not permitted).</td></tr>
+    <tr><td>104</td><td>Line Crossing</td><td>Person/vehicle crosses a defined line in the configured direction(s).</td></tr>
+    <tr><td>105</td><td>Running</td><td>Person running detected (speed or gait pattern above threshold).</td></tr>
+    <tr><td>106</td><td>Fighting</td><td>Physical confrontation detected (pushing, punching, kicking, or similar violent motion).</td></tr>
+    <tr><td>107</td><td>Fall Detected</td><td>Person fall event detected (sudden posture change to lying and lack of movement).</td></tr>
+    <tr><td>108</td><td>Object Left Behind</td><td>Unattended object appears and remains stationary for longer than the configured time.</td></tr>
+    <tr><td>109</td><td>Object Removed</td><td>Monitored object disappears from its expected location (possible theft/removal).</td></tr>
+    <tr><td>110</td><td>Camera Tampering</td><td>Lens covered, defocused, redirected, or abnormal scene change indicating sabotage.</td></tr>
+  </tbody>
+</table>

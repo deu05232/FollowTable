@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Initialization and Maintenance Control Word Definitions (Symbol Sequences and Uses)</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>Full Symbol Sequence (in order)</th><th>Primary Use / When Sent</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>INIT0 (Initialization Control Word 0)</td><td>InitComma, LLCW, INIT0, INIT0K28.5, D14.6, D5.2, D5.2</td><td>First step of link initialization handshake; establishes initial synchronization before normal idle/traffic begins.</td></tr>
+    <tr><td>INIT1 (Initialization Control Word 1)</td><td>InitComma, LLCW, INIT1, INIT1K28.5, D14.6, D6.2, D6.2</td><td>Initialization handshake continuation; uses neutral characters in the tail positions to avoid biasing running disparity during bring-up.</td></tr>
+    <tr><td>INIT2 (Initialization Control Word 2)</td><td>InitComma, LLCW, INIT2, INIT2K28.5, D14.6, D7.2, D7.2</td><td>Final/late stage initialization handshake indicator prior to the ready/active exchange.</td></tr>
+    <tr><td>IDLE (Idle Control Word)</td><td>Comma, LLCW, IDLE, IDLEK28.7, D14.6, D15.6, D15.6</td><td>Maintains link connectivity when no valid data/control word is available from upper layers after initialization completes.</td></tr>
+    <tr><td>SKIP (Skip Control Word)</td><td>Comma, LLCW, SKIP, SKIPK28.7, D14.6, D31.3, D31.3</td><td>Elastic-buffer / rate matching support; periodically inserted to compensate small clock differences.</td></tr>
+    <tr><td>PAD (Padding Control Word)</td><td>Comma, FILL, FILL, FILLK28.7, K27.7, K27.7, K27.7</td><td>Multi-channel padding to maintain alignment/timing on channels when no payload is present on a given lane.</td></tr>
+  </tbody>
+</table>

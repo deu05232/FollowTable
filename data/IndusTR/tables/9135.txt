@@ -1,0 +1,15 @@
+<table>
+  <caption>Laser Cutting Quality Limits by Workpiece Thickness (Edge Perpendicularity and Taper)</caption>
+  <thead>
+    <tr><th>Workpiece thickness a (mm)</th><th>Max edge perpendicularity deviation u (mm)</th><th>Max cut-wall taper (deg)</th><th>Measurement note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.1 ≤ a ≤ 0.5</td><td>≤ 0.03</td><td>≤ 0.3</td><td rowspan="2">Evaluate on 25 mm gauge length; u measured as max deviation from 90°</td></tr>
+    <tr><td>0.5 < a ≤ 1.0</td><td>≤ 0.04</td><td>≤ 0.4</td></tr>
+    <tr><td>1.0 < a ≤ 3.0</td><td>≤ 0.06</td><td>≤ 0.6</td><td>Average of 3 locations along the cut</td></tr>
+    <tr><td>3.0 < a ≤ 6.0</td><td>≤ 0.09</td><td>≤ 0.8</td><td>Include both entry and exit side in assessment</td></tr>
+    <tr><td>6.0 < a ≤ 12.0</td><td>≤ 0.14</td><td>≤ 1.0</td><td>Report worst-case location</td></tr>
+    <tr><td>12.0 < a ≤ 20.0</td><td>≤ 0.20</td><td>≤ 1.2</td><td>Applicable to through-cuts (not piercing-only)</td></tr>
+    <tr><td>20.0 < a ≤ 60.0</td><td>≤ 0.35</td><td>≤ 1.5</td><td>Verify with calibrated square/optical method</td></tr>
+  </tbody>
+</table>

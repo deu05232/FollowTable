@@ -1,0 +1,9 @@
+# Java syntax
+> Reference types
+
+| Modifier | Same class or nested class | Other class inside the same package | Extended Class inside another package | Non-extended inside another package |
+| --- | --- | --- | --- | --- |
+| private | yes | no | no | no |
+| default (package private) | yes | yes | no | no |
+| protected | yes | yes | yes | no |
+| public | yes | yes | yes | yes |

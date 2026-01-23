@@ -1,0 +1,12 @@
+<table>
+  <caption>Antenna Gain and Beamwidth Compliance Checklist for Surveillance Radar Tiers</caption>
+  <tr><th rowspan="2">Checklist item</th><th colspan="3">Tier requirement</th><th rowspan="2">Verification method</th></tr>
+  <tr><th>Basic</th><th>Standard</th><th>Advanced</th></tr>
+  <tr><td>Minimum antenna gain (dBi)</td><td>≥ 33</td><td>≥ 36</td><td>≥ 39</td><td>Antenna range measurement</td></tr>
+  <tr><td>Maximum horizontal beamwidth (deg)</td><td>≤ 0.65</td><td>≤ 0.45</td><td>≤ 0.34</td><td>3 dB points on pattern cut</td></tr>
+  <tr><td>Maximum vertical beamwidth (deg)</td><td>≤ 1.50</td><td>≤ 1.10</td><td>≤ 0.85</td><td>3 dB points on pattern cut</td></tr>
+  <tr><td>Maximum first sidelobe level (dB)</td><td>≤ -20</td><td>≤ -24</td><td>≤ -28</td><td>Pattern envelope</td></tr>
+  <tr><td>Cross-polar discrimination (dB)</td><td>≥ 20</td><td>≥ 25</td><td>≥ 30</td><td>Polarimetric test</td></tr>
+  <tr><td>Beam pointing offset (deg)</td><td>≤ 0.20</td><td>≤ 0.12</td><td>≤ 0.08</td><td>Boresight alignment</td></tr>
+  <tr><td>Array element failure tolerance</td><td>≤ 2% elements failed</td><td>≤ 3% elements failed</td><td>≤ 5% elements failed</td><td>Built-in test + pattern check</td></tr>
+</table>

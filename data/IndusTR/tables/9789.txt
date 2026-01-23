@@ -1,0 +1,16 @@
+<table>
+  <caption>Compound Coverage Matrix for Syntax Elements (Multi-Flag Combinations)</caption>
+  <thead>
+    <tr><th>Syntax element</th><th>Coverage goal</th><th>Required combination set (examples)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">last_cg_pos</td><td>Cover coefficient group termination behavior</td><td>{IsChroma=0, ScanType=diag, TransformSkip=0} and {IsChroma=1, ScanType=hor, TransformSkip=1}</td><td>Not all combinations are valid; depends on residual coding mode</td></tr>
+    <tr><td>Stress CABAC state transitions near end-of-block</td><td>{Cbf=1, LastSigPos near max, QpDelta present}</td><td>Requires specific slice/QP setups</td></tr>
+    <tr><td rowspan="2">split_flag</td><td>Cover split signaling across depth transitions</td><td>{Depth=0, MinCuSizeAllowed=1} vs {Depth=max, MinCuSizeAllowed=0}</td><td>Depth constraints derived from SPS</td></tr>
+    <tr><td>Include tile boundary and wavefront boundary cases</td><td>{TileBoundary=1, WPP=1, LeftAvail=0}</td><td>Availability affects coding path</td></tr>
+    <tr><td>transform_split_flag</td><td>Exercise explicit vs implicit transform split behavior</td><td>{implicitSplit=1, codedFlag absent} and {implicitSplit=0, codedFlag present}</td><td>Implicitness derived from TU size limits</td></tr>
+    <tr><td>sao_mode</td><td>Cover SAO disabled vs enabled across slices</td><td>{saoEnabled=0} and {saoEnabled=1, saoParamPresent=1}</td><td>Depends on SPS/PPS and slice header</td></tr>
+    <tr><td>shape_of_partition_index</td><td>Partition coverage under prediction constraints</td><td>{Intra=1, AngMode set} vs {Inter=1, Affine=1, Bidir=1}</td><td>Context changes available shapes</td></tr>
+    <tr><td>aec_lcu_stuffing_bit</td><td>Cover stuffing under termination alignment scenarios</td><td>{Terminate=1, BitAlign=1} vs {Terminate=0, BitAlign=0}</td><td>Driven by arithmetic coder state</td></tr>
+  </tbody>
+</table>

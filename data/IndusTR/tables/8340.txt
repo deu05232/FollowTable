@@ -1,0 +1,14 @@
+<table>
+  <caption>Mechanical Durability Verification Matrix for Beidou Monitoring Terminal</caption>
+  <thead>
+    <tr><th>Test category</th><th>Test item</th><th>Mounting / setup</th><th>Main parameters</th><th>Axes / directions</th><th>Powered state</th><th>Acceptance criteria (pass/fail)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Vibration</td><td>Random vibration (transport)</td><td>Unit fixed on vibration table via normal mounting brackets; cables connected</td><td>Frequency: 10–500 Hz; overall RMS: 5.0 g; PSD profile per test plan; duration: 30 min/axis</td><td>3 orthogonal axes</td><td>Powered off</td><td>No mechanical damage, no connector back-out; after test, terminal shall power on and operate normally; no intermittent contact faults during inspection.</td></tr>
+    <tr><td>Sine sweep vibration (operational)</td><td>Mounted as in-vehicle installation; harness secured</td><td>Frequency: 5–200 Hz; sweep rate: 1 oct/min; displacement: 1.5 mm (5–20 Hz), acceleration: 3 g (20–200 Hz); 20 min/axis</td><td>3 orthogonal axes</td><td>Powered on</td><td>No unexpected reset during test; after test, all fasteners remain tight; functional check passes.</td></tr>
+    <tr><td rowspan="2">Shock / impact</td><td>Mechanical shock</td><td>Rigid fixture; input pulse applied at base</td><td>Half-sine pulse: 30 g, 11 ms; 3 shocks per direction</td><td>±X, ±Y, ±Z (6 directions)</td><td>Powered off</td><td>No cracking, loosening, or internal rattle; post-test power-up and functional check passes.</td></tr>
+    <tr><td>Drop test (packaged)</td><td>Packaged in shipping carton with internal cushioning</td><td>Drop height: 0.8 m; faces/edges/corners: 10 drops total</td><td>Per drop sequence</td><td>Powered off</td><td>Package may deform but shall protect device; device enclosure intact; after unpacking, terminal shall operate normally.</td></tr>
+    <tr><td rowspan="2">Ingress / corrosion durability</td><td>Water spray (enclosure check)</td><td>As assembled with all caps/doors closed</td><td>Water jet: 12.5 L/min; nozzle distance: 2.5–3 m; duration: 3 min per surface</td><td>All exposed surfaces</td><td>Powered off</td><td>No water ingress affecting electronics; after drying, functional check passes; no fogging that impairs indicators.</td></tr>
+    <tr><td>Salt mist (corrosion resistance)</td><td>Exposed connectors sealed as in normal use</td><td>5% NaCl; 35 °C; duration: 48 h; recovery: 24 h</td><td>N/A</td><td>Powered off</td><td>No severe corrosion causing electrical discontinuity; connectors mate normally; post-test functional check passes.</td></tr>
+  </tbody>
+</table>

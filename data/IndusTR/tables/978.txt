@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Logout Functional Test Case</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.4</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Logout</td></tr>
+  <tr><td>Test Objective</td><td>Verify logistics terminal logout function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can log in normally; 2. It can connect to the server normally; 3. UI buttons, input boxes can be used normally; 4. Logistics terminals that have established a subscription relationship with the platform can work normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Enter correct terminal login information on the logistics terminal to log in to the logistics platform; 2. Initiate a logout request on the logistics terminal; 3. Query the login status of the logistics terminal on the platform side</td></tr>
+  <tr><td>Pass Criteria</td><td>The queried login status of the logistics terminal is not logged in</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

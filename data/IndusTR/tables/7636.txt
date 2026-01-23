@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Rendering Test Matrix (Screenshots/Forms Only, No Fixed Character Stream)</caption>
+  <thead>
+    <tr><th>Test ID</th><th>Target Form (Description)</th><th>Font A Result</th><th>Font B Result</th><th>Font C Result</th><th>Notes (Visual)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>T-01</td><td>Initial tooth + vowel tail expected</td><td>OK</td><td>Tail missing</td><td>OK</td><td>Tail disappears in some renderers</td></tr>
+    <tr><td>T-02</td><td>Medial joining between two stems</td><td>Gap</td><td>OK</td><td>Gap</td><td>Looks like an extra space</td></tr>
+    <tr><td>T-03</td><td>Final form should be narrow</td><td>Wide</td><td>Narrow</td><td>Wide</td><td>Final stroke width differs</td></tr>
+    <tr><td>T-04</td><td>Suffix attachment should be continuous</td><td>Broken</td><td>Broken</td><td>OK</td><td>Attachment depends on font</td></tr>
+    <tr><td>T-05</td><td>Optional dotted variant preferred</td><td>Dotted</td><td>Undotted</td><td>Dotted</td><td>Dots vary by renderer</td></tr>
+    <tr><td>T-06</td><td>Ligature should NOT form</td><td>Ligature</td><td>No ligature</td><td>Ligature</td><td>Over-joining observed</td></tr>
+    <tr><td>T-07</td><td>Word boundary should force initial shaping</td><td>Initial</td><td>Medial-like</td><td>Initial</td><td>Boundary handling inconsistent</td></tr>
+  </tbody>
+</table>

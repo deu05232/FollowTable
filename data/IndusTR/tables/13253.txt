@@ -1,0 +1,7 @@
+<table>
+  <caption>Industrial instruments: configuration parameter expectations by category (setup-focused)</caption>
+  <tr><th>Instrument Category</th><th>Configurable Settings Typically Required</th><th>Stored Identification / Tracking Fields</th></tr>
+  <tr><td>Measuring Instruments</td><td>Range limits, display scaling, filtering constants, damping settings, output mode selection</td><td>Serial number, firmware revision, device tag</td></tr>
+  <tr><td>Analytical Instruments</td><td>Calibration mode selection, user access roles, alarm thresholds, reporting intervals</td><td>Firmware revision, calibration history record ID</td></tr>
+  <tr><td>Actuators</td><td>Travel limits, torque limits, local/remote mode, output mapping</td><td>Serial number, configuration checksum</td></tr>
+</table>

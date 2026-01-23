@@ -1,0 +1,7 @@
+<table>
+  <caption>Common Service Description Model — Interface Operation Parameter Constraints</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Parameter Required Flag</td><td>parameterRequired</td><td>BL</td><td>M</td><td>N</td><td>1,0 or true,false</td><td>Indicates whether the parameter must be provided when invoking the operation</td></tr>
+  <tr><td>Parameter Default Value</td><td>parameterDefaultValue</td><td>C..256</td><td>0</td><td>N</td><td></td><td>Default value applied when the parameter is omitted (if allowed)</td></tr>
+  <tr><td>Parameter Value Pattern</td><td>parameterValuePattern</td><td>C..256</td><td>0</td><td>N</td><td></td><td>Pattern or rule the parameter value should conform to</td></tr>
+</table>

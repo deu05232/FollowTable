@@ -1,0 +1,17 @@
+<table>
+  <caption>Harmonic Capability Limits with Supply and Environmental Requirements (Bundled Specification)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter</th><th>Specification</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Harmonic generation limits</td><td>Supported harmonic orders</td><td>2nd–50th</td><td>Odd/even supported</td></tr>
+    <tr><td>Harmonic amplitude range (relative to fundamental)</td><td>0%–80%</td><td>Per selected order</td></tr>
+    <tr><td>Maximum number of superposed harmonics</td><td>Up to 10 orders simultaneously</td><td>User-configurable</td></tr>
+    <tr><td>Post-superposition peak constraint (voltage)</td><td>Phase-voltage peak ≤ 420 V</td><td>With harmonics enabled</td></tr>
+    <tr><td>Post-superposition peak constraint (current)</td><td>Waveform peak ≤ 1.4 × Imax</td><td>With harmonics enabled</td></tr>
+    <tr><td rowspan="4">Non-harmonic requirements</td><td>Rated supply voltage</td><td>1Φ AC 220 V / 3Φ AC 380 V</td><td>50 Hz system</td></tr>
+    <tr><td>Supply frequency</td><td>50 Hz ± 2 Hz</td><td>Input supply</td></tr>
+    <tr><td>Operating temperature</td><td>0 °C–40 °C</td><td>Non-electrical constraint</td></tr>
+    <tr><td>Relative humidity</td><td>≤ 85% RH</td><td>Non-electrical constraint</td></tr>
+  </tbody>
+</table>

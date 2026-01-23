@@ -1,0 +1,16 @@
+<table>
+  <caption>Earth-like Planet Atmosphere with Instrument Bands and Detectability Metrics (Not Composition-Only)</caption>
+  <thead>
+    <tr><th rowspan="2">Species</th><th colspan="2">Abundance</th><th rowspan="2">Primary spectral band (µm)</th><th rowspan="2">Example instrument mode</th><th colspan="2">Detectability proxy</th></tr>
+    <tr><th>Mixing ratio</th><th>Unit</th><th>SNR (10 hr)</th><th>Integration time for SNR=5 (hr)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>N2</td><td>0.780</td><td>fraction</td><td>4.1</td><td>Mid-IR nulling</td><td>1.2</td><td>80</td></tr>
+    <tr><td>O2</td><td>0.209</td><td>fraction</td><td>0.76</td><td>Vis/NIR transmission</td><td>6.5</td><td>6</td></tr>
+    <tr><td>CO2</td><td>4.1e-4</td><td>fraction</td><td>4.3, 15</td><td>Mid-IR spectroscopy</td><td>5.0</td><td>10</td></tr>
+    <tr><td>H2O</td><td>1.0e-2</td><td>fraction</td><td>1.4, 6.3</td><td>NIR prism</td><td>4.2</td><td>14</td></tr>
+    <tr><td>O3</td><td>3.0e-5</td><td>fraction</td><td>9.6</td><td>Mid-IR spectroscopy</td><td>3.8</td><td>18</td></tr>
+    <tr><td>CH4</td><td>1.8e-6</td><td>fraction</td><td>3.3</td><td>NIR high-res</td><td>2.1</td><td>45</td></tr>
+    <tr><td>N2O</td><td>3.3e-7</td><td>fraction</td><td>7.8</td><td>Mid-IR spectroscopy</td><td>1.6</td><td>70</td></tr>
+  </tbody>
+</table>

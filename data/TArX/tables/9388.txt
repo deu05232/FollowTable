@@ -1,0 +1,14 @@
+<table>
+  <caption>Free energy from ATP conversion expressed in multiple units (per mole and per molecule) for common reference values.</caption>
+  <thead>
+    <tr><th>Reference case</th><th>ΔG (kJ/mol)</th><th>ΔG (kcal/mol)</th><th>Energy per molecule (J)</th><th>Equivalent pN·nm</th><th>How it is used</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ATP → ADP + Pi(standard ΔG°')</td><td>-30.5</td><td>-7.29</td><td>-5.06×10-20</td><td>-50.6</td><td>Textbook biochemical standard reference</td></tr>
+    <tr><td>ATP → ADP + Pi(moderate cellular)</td><td>-45</td><td>-10.8</td><td>-7.47×10-20</td><td>-74.7</td><td>Common approximation for cytosol</td></tr>
+    <tr><td>ATP → ADP + Pi(high phosphorylation potential)</td><td>-60</td><td>-14.3</td><td>-9.96×10-20</td><td>-99.6</td><td>Upper-end physiological magnitude</td></tr>
+    <tr><td>ATP → AMP + PPi(typical)</td><td>-48</td><td>-11.5</td><td>-7.97×10-20</td><td>-79.7</td><td>Activation steps in biosynthesis (before PPihydrolysis)</td></tr>
+    <tr><td>Overall: ATP → AMP + 2Pi(with PPihydrolysis)</td><td>-65</td><td>-15.5</td><td>-1.08×10-19</td><td>-108</td><td>Net driving force when PPiis rapidly consumed</td></tr>
+    <tr><td>Illustrative mechanical equivalence</td><td>-50</td><td>-12.0</td><td>-8.30×10-20</td><td>-83.0</td><td>Convenient midpoint for motor-protein work comparisons</td></tr>
+  </tbody>
+</table>

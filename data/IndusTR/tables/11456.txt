@@ -1,0 +1,21 @@
+<table>
+  <caption>Road Traffic Safety Early Warning — Event Lifecycle & Update Schema (Time-Stamped Updates)</caption>
+  <thead>
+    <tr><th>Group</th><th>Serial No.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Requirements or Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Linkage & Versioning</td><td>1</td><td>Parent Warning ID</td><td>Character</td><td>36</td><td>Yes</td><td>Yes</td><td>References the original warning when issuing an update</td></tr>
+    <tr><td>2</td><td>Update Sequence Number</td><td>Integer</td><td>6</td><td>No</td><td>Yes</td><td>Monotonically increasing per warning ID</td></tr>
+    <tr><td>3</td><td>Update Type</td><td>Character</td><td>2</td><td>No</td><td>Yes</td><td>NW=new, UP=update, CL=cancel, RS=resolve</td></tr>
+    <tr><td rowspan="5">Time Fields (Date/Time)</td><td>4</td><td>Update Publish Time</td><td>Date</td><td>16</td><td>No</td><td>Yes</td><td>Time when this update is released externally</td></tr>
+    <tr><td>5</td><td>Effective Start Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>When the warning becomes effective (may differ from event start)</td></tr>
+    <tr><td>6</td><td>Effective End Time (Planned)</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Planned end time for planned controls/construction</td></tr>
+    <tr><td>7</td><td>Estimated Clearance Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Estimated clearance/recovery time for accidents/events</td></tr>
+    <tr><td>8</td><td>Last Verified Time</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>Latest time the status was verified by an operator/sensor</td></tr>
+    <tr><td rowspan="3">Status & Source</td><td>9</td><td>Current Status</td><td>Character</td><td>2</td><td>No</td><td>Yes</td><td>AC=active, PD=planned, CL=cleared, CN=cancelled</td></tr>
+    <tr><td>10</td><td>Information Source Type</td><td>Character</td><td>2</td><td>Yes</td><td>Yes</td><td>PS=police, HW=highway operator, IO=IoT/sensor, CR=crowd</td></tr>
+    <tr><td>11</td><td>Source Reference Number</td><td>Character</td><td>64</td><td>Yes</td><td>No</td><td>Optional reference to upstream ticket/case number</td></tr>
+    <tr><td rowspan="2">Impact Snapshot</td><td>12</td><td>Affected Direction</td><td>Character</td><td>8</td><td>Yes</td><td>Yes</td><td>E/W/N/S, inbound/outbound, or carriageway direction</td></tr>
+    <tr><td>13</td><td>Affected Lanes Count</td><td>Integer</td><td>2</td><td>Yes</td><td>Yes</td><td>Number of lanes impacted at the time of this update</td></tr>
+  </tbody>
+</table>

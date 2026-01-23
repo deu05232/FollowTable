@@ -1,0 +1,20 @@
+<table>
+  <caption>Cooperative Driving Vehicle Intention & Maneuver Message — Data Items Checklist</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item (Field)</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Vehicle ID</td><td>N/A</td></tr>
+    <tr><td>2</td><td>Timestamp</td><td>ms</td></tr>
+    <tr><td>3</td><td>Maneuver Type</td><td>N/A</td></tr>
+    <tr><td>4</td><td>Intended Lane Index</td><td>N/A</td></tr>
+    <tr><td>5</td><td>Target Speed</td><td>m/s</td></tr>
+    <tr><td>6</td><td>Planned Start Time Offset</td><td>ms</td></tr>
+    <tr><td>7</td><td>Planned Duration</td><td>ms</td></tr>
+    <tr><td>8</td><td>Target Gap / Following Distance</td><td>m</td></tr>
+    <tr><td>9</td><td>Planned Trajectory Point / Latitude</td><td>deg</td></tr>
+    <tr><td>10</td><td>Planned Trajectory Point / Longitude</td><td>deg</td></tr>
+    <tr><td>11</td><td>Planned Trajectory Point / Time Offset</td><td>ms</td></tr>
+    <tr><td>12</td><td>Confidence Level</td><td>%</td></tr>
+  </tbody>
+</table>

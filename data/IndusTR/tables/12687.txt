@@ -1,0 +1,14 @@
+<table>
+  <caption>Marine Warning Signs (Identifier Mixed Across Columns and Spanning Cells)</caption>
+  <thead>
+    <tr><th>Category</th><th>Level</th><th>Identifier (partial)</th><th>Identifier (suffix)</th><th>Sign Text</th><th>Usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Red Tide</td><td>Yellow</td><td>5</td><td>-1</td><td>RED TIDE (Yellow)</td><td>Level III emergency response; monitoring and early warning info</td></tr>
+    <tr><td>Orange</td><td colspan="2">5-2</td><td>RED TIDE (Orange)</td><td>Level II emergency response; monitoring and early warning info</td></tr>
+    <tr><td>Red</td><td>5</td><td>-3</td><td>RED TIDE (Red)</td><td>Level I emergency response; monitoring and early warning info</td></tr>
+    <tr><td rowspan="2">Tsunami</td><td>Yellow</td><td>4</td><td>-1</td><td>TSUNAMI (Yellow)</td><td>Used for issuing a yellow warning for tsunami disasters</td></tr>
+    <tr><td>Orange</td><td colspan="2">4-2 (packed)</td><td>TSUNAMI (Orange)</td><td>Used for issuing an orange warning for tsunami disasters</td></tr>
+    <tr><td>Storm Surge</td><td>Blue</td><td>1</td><td>-1</td><td>STORMSURGE (Blue)</td><td>Used for issuing a blue warning for storm surge disasters</td></tr>
+  </tbody>
+</table>

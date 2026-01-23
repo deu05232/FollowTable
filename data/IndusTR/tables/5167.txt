@@ -1,0 +1,10 @@
+<table>
+  <caption>Return Values for Method to Obtain Oil Tank Oil Condition Information Data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short Name</td><td>Data Type</td><td>Data Format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Oil Tank No.</td><td>ygbh</td><td>Character</td><td>a.3</td><td rowspan="6"></td></tr>
+  <tr><td>2</td><td>Acquisition Type</td><td>jlx</td><td>Character</td><td>a.30</td></tr>
+  <tr><td>3</td><td>Acquisition Point No.</td><td>cjdbh</td><td>Numeric</td><td>n..4</td></tr>
+  <tr><td>4</td><td>Acquisition Value</td><td>cjsz</td><td>Numeric</td><td>n..8</td></tr>
+  <tr><td>5</td><td>Whether Valid</td><td>sfyx</td><td>Character</td><td>a.4</td></tr>
+  <tr><td>6</td><td>Acquisition Time</td><td>cjsj</td><td>DateTime</td><td>YYYYMMDD HHMMSS</td></tr>
+</table>

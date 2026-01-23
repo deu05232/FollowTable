@@ -1,0 +1,16 @@
+<table>
+  <caption>Generic Field Metadata and Modeling Rules for CSDM Elements</caption>
+  <thead>
+    <tr><th>Rule ID</th><th>Metadata Attribute</th><th>Applies To</th><th>Requirement Level</th><th>Allowed Values / Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R-01</td><td>ChineseName</td><td>Entity / Element</td><td>M</td><td>UTF-8 text</td><td>Provide the Chinese name of an entity or element</td></tr>
+    <tr><td>R-02</td><td>EnglishName</td><td>Entity / Element</td><td>M</td><td>[a-zA-Z][a-zA-Z0-9_]*</td><td>Provide a machine-friendly English name</td></tr>
+    <tr><td>R-03</td><td>DataTypeAndFormat</td><td>Element</td><td>M</td><td>string/number/boolean/dateTime</td><td>Specify the data type and formatting rules</td></tr>
+    <tr><td>R-04</td><td>Constraints</td><td>Element</td><td>M</td><td>M/O/C</td><td>Indicate whether the element is mandatory/optional/conditional</td></tr>
+    <tr><td>R-05</td><td>MaxOccurs</td><td>Element</td><td>M</td><td>1..N</td><td>Maximum number of occurrences in the structure</td></tr>
+    <tr><td>R-06</td><td>ValueDomain</td><td>Element</td><td>O</td><td>Enumeration / Range</td><td>Permissible domain of values for the element</td></tr>
+    <tr><td>R-07</td><td>Representation</td><td>Entity / Element</td><td>O</td><td>XML / JSON</td><td>Recommended serialization representation</td></tr>
+    <tr><td>R-08</td><td>CardinalityConsistency</td><td>Related Elements</td><td>C</td><td>Same count</td><td>Linked elements must keep consistent occurrence counts</td></tr>
+  </tbody>
+</table>

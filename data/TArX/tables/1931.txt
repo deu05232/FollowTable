@@ -1,0 +1,15 @@
+<table>
+  <caption>Prior parameter probability distributions.</caption>
+  <tr><th>Parameter</th><th>Prior</th><th>Lower bound</th><th>Upper bound</th></tr>
+  <tr><td>Orbital frequency</td><td>p(f_(1),f_(2),·sf_(n)|M_(n),I)=!{[(f_(H)/f_(L))]^(n)</td><td>1/1.5 d</td><td>1/1000 yr</td></tr>
+  <tr><td></td><td>( n= number of planets)</td><td></td><td></td></tr>
+  <tr><td>Velocity K_(i)</td><td>Modified Jeffreys</td><td>0 (K _(0)=1)</td><td>K_(max)\ (_(min)P_(i))^(1/3)1{1-e_(i% )^(2)</td></tr>
+  <tr><td>(m s ^((-1)) )</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td>{(K+K_(0))^(-1){{[1+_(max)K_(0)\ (_(% min)P_(i))^(1/3)1{1-e_(i)^(2)]}}</td><td></td><td>K_(max)=2129</td></tr>
+  <tr><td>V (m s ^((-1)) )</td><td>Uniform</td><td>-K_(max)</td><td>K_(max)</td></tr>
+  <tr><td>e_(i) Eccentricity</td><td>a) Uniform</td><td>0</td><td>1</td></tr>
+  <tr><td></td><td>b) Ecc. noise bias correction filter</td><td>0</td><td>0.99</td></tr>
+  <tr><td>ω_(i) Longitude of</td><td>Uniform</td><td>0</td><td>2</td></tr>
+  <tr><td>periastron</td><td></td><td></td><td></td></tr>
+  <tr><td>s Extra noise (m s ^((-1)) )</td><td>{(s+s_(0))^(-1){{(1+_(max)s_(0))}}</td><td>0 (s _(0)=1 )</td><td>K_(max)</td></tr>
+</table>

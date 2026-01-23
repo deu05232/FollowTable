@@ -1,0 +1,17 @@
+<table>
+  <caption>Harmonic Operating-Point Schedule for Accuracy Evaluation (Results Missing / Thresholds Not Comparable)</caption>
+  <thead>
+    <tr><th rowspan="2">Sequence</th><th rowspan="2">Operating point label</th><th rowspan="2">Current</th><th rowspan="2">Voltage</th><th rowspan="2">Fundamental PF</th><th colspan="2">Harmonics</th><th rowspan="2">Ambient temperature</th><th rowspan="2">Notes</th></tr>
+    <tr><th>THD(U) (%)</th><th>THD(I) (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>OP-A (baseline)</td><td>Ib</td><td>Un</td><td>1.0</td><td>0</td><td>0</td><td>23°C</td><td>Reference run</td></tr>
+    <tr><td>2</td><td>OP-B (light, harmonic)</td><td>Imin</td><td>Un</td><td>1.0</td><td>5</td><td>10</td><td>23°C</td><td>Stabilize 2 min</td></tr>
+    <tr><td>3</td><td>OP-C (nominal, harmonic)</td><td>Ib</td><td>Un</td><td>1.0</td><td>5</td><td>20</td><td>23°C</td><td>Odd harmonics only</td></tr>
+    <tr><td>4</td><td>OP-D (high load, harmonic)</td><td>0.8 Imax</td><td>Un</td><td>1.0</td><td>5</td><td>20</td><td>23°C</td><td>Thermal steady-state</td></tr>
+    <tr><td>5</td><td>OP-E (pf shift)</td><td>Ib</td><td>Un</td><td>0.5 lagging</td><td>5</td><td>10</td><td>23°C</td><td>PF changed first</td></tr>
+    <tr><td>6</td><td>OP-F (load step up)</td><td>0.1Ib → Ib</td><td>Un</td><td>1.0</td><td>5</td><td>15</td><td>23°C</td><td>Record transient only</td></tr>
+    <tr><td>7</td><td>OP-G (load step down)</td><td>Ib → 0.1Ib</td><td>Un</td><td>1.0</td><td>5</td><td>15</td><td>23°C</td><td>Record transient only</td></tr>
+    <tr><td>8</td><td>OP-H (hot condition)</td><td>Ib</td><td>Un</td><td>1.0</td><td>5</td><td>20</td><td>55°C</td><td>Environmental chamber</td></tr>
+  </tbody>
+</table>

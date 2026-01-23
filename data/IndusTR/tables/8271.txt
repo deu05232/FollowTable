@@ -1,0 +1,15 @@
+<table>
+  <caption>Operational Backwash Triggers and Cleaning Schedule for Media Filters</caption>
+  <thead>
+    <tr><th rowspan="2">Media configuration</th><th colspan="2">Backwash trigger</th><th colspan="2">Backwash recipe</th><th colspan="2">Post-wash verification</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Terminal headloss (m)</th><th>Turbidity (NTU)</th><th>Water intensity (L/m²·s)</th><th>Total time (min)</th><th>Rinse-to-waste (min)</th><th>Return-to-service turbidity (NTU)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Single-layer quartz sand</td><td>2.2</td><td>0.5</td><td>15</td><td>8</td><td>5</td><td>0.2</td><td>Backwash at least every 24 h</td></tr>
+    <tr><td>Dual media (anthracite/sand)</td><td>2.0</td><td>0.4</td><td>16</td><td>9</td><td>6</td><td>0.2</td><td>Prefer air scour if oily influent</td></tr>
+    <tr><td>Manganese sand</td><td>1.8</td><td>0.3</td><td>18</td><td>10</td><td>7</td><td>0.15</td><td>Lower turbidity setpoint to protect catalyst</td></tr>
+    <tr><td>GAC filter</td><td>1.5</td><td>0.3</td><td>10</td><td>12</td><td>8</td><td>0.2</td><td>Avoid excessive expansion to limit attrition</td></tr>
+    <tr><td>Tri-media</td><td>2.3</td><td>0.5</td><td>17</td><td>9</td><td>6</td><td>0.2</td><td>Use step-wise backwash ramping</td></tr>
+    <tr><td>Polishing sand filter</td><td>2.5</td><td>0.6</td><td>14</td><td>7</td><td>4</td><td>0.25</td><td>Shorter cycle acceptable for peak loads</td></tr>
+  </tbody>
+</table>

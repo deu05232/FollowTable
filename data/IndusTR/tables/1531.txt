@@ -1,0 +1,7 @@
+<table>
+  <caption>Service Message Parameter Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Message Name</td><td>messageName</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Name of the message</td></tr>
+  <tr><td>Parameter Name</td><td>parameterName</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Name of the message parameter</td></tr>
+  <tr><td>Parameter Type</td><td>parameterType</td><td>C..128</td><td>C</td><td>N</td><td></td><td>When a parameter name exists, this element should be selected, and its occurrence count must be consistent with that of the parameter name</td></tr>
+</table>

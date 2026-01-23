@@ -1,0 +1,11 @@
+<table>
+  <caption>AR Runtime Frame Pipeline Profiling (Per-Stage Latency Breakdown)</caption>
+  <tr><th>Pipeline Stage</th><th>Average (ms)</th><th>P95 (ms)</th><th>Thread</th><th>Optimization Notes</th></tr>
+  <tr><td>Camera Capture</td><td>6.2</td><td>8.9</td><td>HAL</td><td>Enable fixed exposure</td></tr>
+  <tr><td>ISP Processing</td><td>3.8</td><td>5.1</td><td>DSP</td><td>Use YUV420 output</td></tr>
+  <tr><td>Depth Reconstruction</td><td>9.5</td><td>14.2</td><td>GPU</td><td>Reduce depth resolution</td></tr>
+  <tr><td>Feature Tracking</td><td>5.4</td><td>7.7</td><td>CPU</td><td>Limit trackable count</td></tr>
+  <tr><td>Anchor Update</td><td>1.6</td><td>2.3</td><td>CPU</td><td>Batch anchor events</td></tr>
+  <tr><td>Lighting Estimation</td><td>2.1</td><td>3.4</td><td>CPU</td><td>Lower sampling rate</td></tr>
+  <tr><td>Render Submission</td><td>1.9</td><td>2.8</td><td>Render</td><td>Triple buffering</td></tr>
+</table>

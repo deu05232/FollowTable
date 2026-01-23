@@ -1,0 +1,15 @@
+<table>
+  <caption>Conformance requirements for SAO-related syntax elements (with availability branching)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Test requirements</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>sao_merge_type_index</td><td>When SaoMergeLeftAvai = 1 and SaoMergeUpAvai = 1, traverse combinations where sao_merge_type_index equals 0 to 2; otherwise traverse cases where sao_merge_type_index equals 0 to 1</td><td>Branching on availability signals</td></tr>
+    <tr><td>sao_mode</td><td>When slice_type equals I, traverse sao_mode = 0 only; otherwise traverse sao_mode equals 0 to 2</td><td>Depends on slice_type</td></tr>
+    <tr><td>sao_offset_sign</td><td>For each offset class, traverse all binary symbol string cases as defined in Table 74 of GB/T 33475.2—2024</td><td>Reference-driven (details outside table)</td></tr>
+    <tr><td>sao_interval_offset_abs</td><td>When bit_depth_luma_minus8 > 0, traverse sao_interval_offset_abs equals 0 to 7; otherwise equals 0 to 3</td><td>Conditioned on bit depth</td></tr>
+    <tr><td>sao_band_position</td><td>Traverse cases where binIdx equals 0 to 4, but only when sao_mode equals 1</td><td>Conditioned on another syntax element</td></tr>
+    <tr><td>sao_eo_class</td><td>When IsChroma = 1, traverse cases where sao_eo_class equals 0 to 3; when IsChroma = 0, traverse equals 0 to 4</td><td>Chroma-dependent</td></tr>
+    <tr><td>sao_merge_left_flag</td><td>Traverse all combinations of SaoMergeLeftAvai and sao_merge_left_flag</td><td>Mixes multiple flags</td></tr>
+  </tbody>
+</table>

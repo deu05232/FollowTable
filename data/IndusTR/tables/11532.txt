@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Light Estimation Interface Call Parameters (Pointer/Ownership Focus)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>C Type</th><th>Indirection</th><th>In/Out</th><th>Ownership & Lifetime</th><th>Buffer/Nullability Rules</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>*</td><td>In</td><td>Borrowed; must outlive the call</td><td>Must be non-NULL; no aliasing requirements documented</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>*</td><td>In</td><td>Borrowed; created elsewhere</td><td>Must be non-NULL; must belong to the same session</td></tr>
+    <tr><td>out_lightEstimate</td><td>ArLightEstimate **</td><td>**</td><td>Out</td><td>Caller owns returned handle; release via ArLightEstimate_destroy</td><td>out pointer must be non-NULL; *out may be NULL on failure</td></tr>
+    <tr><td>out_mainDirection</td><td>float *</td><td>*</td><td>Out</td><td>Caller-owned memory</td><td>Must point to 3 floats; tightly packed; alignment >= 4</td></tr>
+    <tr><td>out_mainIntensity</td><td>float *</td><td>*</td><td>Out</td><td>Caller-owned memory</td><td>Must point to 3 floats; values written regardless of prior contents</td></tr>
+    <tr><td>out_colorCorrection</td><td>float *</td><td>*</td><td>Out</td><td>Caller-owned memory</td><td>Must point to 4 floats (RGBA); function does not allocate</td></tr>
+    <tr><td>allocator</td><td>void *</td><td>*</td><td>In</td><td>Opaque; used only during this call</td><td>Optional; NULL uses default allocator</td></tr>
+  </tbody>
+</table>

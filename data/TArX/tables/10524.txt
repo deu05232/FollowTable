@@ -1,0 +1,15 @@
+<table>
+  <caption>Angles in Polarization/Optical Setup Measurements (Degrees) for Birefringent Components</caption>
+  <thead>
+    <tr><th>Component / Material</th><th>Angle Type</th><th>Angle (deg)</th><th>Wavelength (nm)</th><th>Measurement Context</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Quartz waveplate</td><td>Fast-axis mounting angle</td><td>45</td><td>632.8</td><td>Aligned to lab horizontal polarization</td><td>Orientation angle, not birefringence angle</td></tr>
+    <tr><td>Calcite crystal</td><td>Optic-axis cut angle</td><td>30</td><td>589</td><td>Crystal cut relative to surface normal</td><td>Geometric cut angle</td></tr>
+    <tr><td>MgF2 plate</td><td>Brewster angle (interface)</td><td>56.3</td><td>532</td><td>p-polarized reflection minimized</td><td>Interface phenomenon</td></tr>
+    <tr><td>Sapphire window</td><td>Incidence angle for transmission test</td><td>10</td><td>1064</td><td>Low-angle incidence characterization</td><td>Not a birefringence-derived angle</td></tr>
+    <tr><td>Rutile (TiO2)</td><td>Crystal rotation angle in crossed polarizers</td><td>18</td><td>633</td><td>Angle giving maximum extinction</td><td>Setup-dependent</td></tr>
+    <tr><td>PMMA (stressed)</td><td>Sample tilt angle</td><td>35</td><td>633</td><td>Photoelastic fringe observation</td><td>Tilt, not intrinsic birefringence angle</td></tr>
+    <tr><td>YVO4</td><td>Analyzer angle</td><td>90</td><td>1064</td><td>Analyzer crossed to polarizer</td><td>Instrument setting</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Decimal Ranges and Bit Allocation for Agricultural Inputs Identifier Components</caption>
+  <thead>
+    <tr><th>Component</th><th>Decimal range</th><th>Allocated bits</th><th>Min value</th><th>Max value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Agricultural inputs product category code</td><td>1001–3600</td><td>12</td><td>1001</td><td>3600</td></tr>
+    <tr><td>Item reference (within category)</td><td>0–999999</td><td>20</td><td>0</td><td>999999</td></tr>
+    <tr><td>Sub-serial number</td><td>0000001–9999999</td><td>24</td><td>1</td><td>9999999</td></tr>
+    <tr><td>Extension/variant</td><td>0–99</td><td>7</td><td>0</td><td>99</td></tr>
+    <tr><td>Filter value</td><td>0–7</td><td>3</td><td>0</td><td>7</td></tr>
+    <tr><td>Total payload</td><td>—</td><td>66</td><td>—</td><td>—</td></tr>
+    <tr><td>Total EPC bits (incl. header)</td><td>—</td><td>74</td><td>—</td><td>—</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Common Service Description Model — Service Category element definition</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Domain</th><th>Description</th></tr>
+  <tr><td>Service Category</td><td>serviceCategory</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Category used to classify the service for registration and discovery</td></tr>
+  <tr><td>Keywords</td><td>keywords</td><td>C..256</td><td>0</td><td>N</td><td></td><td>Commonly used keywords for searching the service</td></tr>
+  <tr><td>Version</td><td>version</td><td>C..32</td><td>0</td><td>1</td><td></td><td>Version identifier of the service description</td></tr>
+</table>

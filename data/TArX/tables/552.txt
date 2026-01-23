@@ -1,0 +1,9 @@
+<table>
+  <caption>Comparison of the performance of the methods derived in \sectn LABEL:sec:fsi for simulating interferometric observations in the full-sky setting. The results presented in this table correspond to the simulations illustrated in \fig LABEL:fig:recon_synchrotron . Execution time tests were performed on a laptop with a 2.2GHz Intel Core 2 Duo processor and 2GB of memory.</caption>
+  <tr><th>Method</th><th>Complexity (^((n)))</th><th>Coefficients retained</th><th>Execution time</th></tr>
+  <tr><th>Direct quadrature</th><th>n=2</th><td>100.00%</td><td>207.6s</td></tr>
+  <tr><th>Spherical harmonic</th><th>n=2</th><td>100.00%</td><td>263.7s</td></tr>
+  <tr><th>Naive SHW</th><th>n=2</th><td>100.00%</td><td>238.9s</td></tr>
+  <tr><th>Thresholded SHW (constant threshold)</th><th>n1</th><td>0.70%</td><td>75.8s</td></tr>
+  <tr><th>Thresholded SHW (annealing strategy)</th><th>n1</th><td>0.35%</td><td>73.0s</td></tr>
+</table>

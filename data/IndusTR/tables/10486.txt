@@ -1,0 +1,22 @@
+<table>
+  <caption>CC Sample Payload Syntax (Per-sample Control Fields and Data Blocks)</caption>
+  <thead>
+    <tr><th>CC payload element / structural marker</th><th>Bit-width / encoding</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>cc_sample()</td><td>Syntax structure (ordered fields)</td></tr>
+    <tr><td>cc_sample_start_code</td><td>f(32)</td></tr>
+    <tr><td>cc_type</td><td>u(8) (selects payload interpretation)</td></tr>
+    <tr><td>cc_sample_length</td><td>u(16) (bytes of sample payload following)</td></tr>
+    <tr><td>cc_payload_id</td><td>u(8) (payload kind within cc_type)</td></tr>
+    <tr><td>cc_payload_flags</td><td>u(8) (bit flags; parsing gates for optional blocks)</td></tr>
+    <tr><td>if(cc_payload_flags&0x01) cc_service_number</td><td>u(6)</td></tr>
+    <tr><td>if(cc_payload_flags&0x01) reserved</td><td>u(2)</td></tr>
+    <tr><td>cc_block_count</td><td>u(8) (number of cc_data_block() entries)</td></tr>
+    <tr><td>for(j=0; j<cc_block_count; j++) cc_data_block()</td><td>Repeated blocks inside one sample</td></tr>
+    <tr><td>cc_data_block_type</td><td>u(8)</td></tr>
+    <tr><td>cc_data_block_size</td><td>u(16) (bytes)</td></tr>
+    <tr><td>cc_data_block_bytes</td><td>b(8) * cc_data_block_size (raw payload bytes)</td></tr>
+    <tr><td>rbsp_trailing_bits()</td><td>Bit stuffing/padding terminator (if RBSP-style is used)</td></tr>
+  </tbody>
+</table>

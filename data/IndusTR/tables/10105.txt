@@ -1,0 +1,8 @@
+<table>
+  <caption>Positioning interface functions grouped by device type</caption>
+  <tr><th>Device category</th><th>Primary operation</th><th>Function signature</th></tr>
+  <tr><td>HMD</td><td>Get current pose</td><td>bool vrHMDGetPose(const vrHMD *hmd, vrPose *pose)</td></tr>
+  <tr><td>Controller</td><td>Get positioning mode</td><td>bool vrControllerGetPositioningMode(const vrController *ctl, vrControllerPositioningMode *mode)</td></tr>
+  <tr><td>Tracker</td><td>Query tracking status</td><td>bool vrTrackerGetStatus(const vrTracker *trk, int32_t *status)</td></tr>
+  <tr><td>Any positionable</td><td>Get motion sample</td><td>bool vrDeviceGetMotion(const vrPositionableDevice *dev, vrMotionData *motion)</td></tr>
+</table>

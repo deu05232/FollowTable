@@ -1,0 +1,10 @@
+<table>
+  <caption>Vehicle-Charger Interoperability Test Plan (Non-functional Acceptance Checklist)</caption>
+  <tr><th>Test ID</th><th>Test Item</th><th>Precondition</th><th>Procedure Summary</th><th>Pass Criteria</th><th>Priority</th></tr>
+  <tr><td>INT-01</td><td>Connector insertion detection</td><td>Aux power available</td><td>Insert connector and monitor status pin</td><td>Status changes within 500 ms</td><td>High</td></tr>
+  <tr><td>INT-02</td><td>CAN bus noise immunity</td><td>Bus active</td><td>Inject EMI at 30–300 MHz</td><td>No reset; error frames < 5/min</td><td>High</td></tr>
+  <tr><td>INT-03</td><td>Charging start latency</td><td>Battery SOC 40%</td><td>Request charge and measure time to power delivery</td><td>≤ 8 s</td><td>Medium</td></tr>
+  <tr><td>INT-04</td><td>UI message correctness</td><td>Display enabled</td><td>Trigger fault and check screen text</td><td>Text matches localization spec</td><td>Low</td></tr>
+  <tr><td>INT-05</td><td>Data logging retention</td><td>Storage present</td><td>Write logs for 24 h</td><td>No data loss; CRC OK</td><td>Medium</td></tr>
+  <tr><td>INT-06</td><td>Firmware update robustness</td><td>Update package signed</td><td>Interrupt update at 30%</td><td>Device recovers to previous version</td><td>High</td></tr>
+</table>

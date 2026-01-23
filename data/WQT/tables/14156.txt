@@ -1,0 +1,22 @@
+# Cisco IOS Default Administrative Distance (AD) Reference — with Notes and Use Cases
+
+| Route source / Protocol | Default AD | Quick notes (why/when) |
+|---|---:|---|
+| Connected interface | 0 | Installed automatically when interface is up |
+| Static route | 1 | Used for manual forwarding control |
+| EIGRP summary route | 5 | Summary beats many learned routes |
+| eBGP | 20 | Preferred over most IGPs |
+| EIGRP internal | 90 | Common enterprise IGP |
+| IGRP | 100 | Legacy distance |
+| OSPF | 110 | Link-state IGP |
+| IS-IS | 115 | Often used by service providers |
+| RIP | 120 | Distance-vector IGP |
+| EIGRP external | 170 | Redistribution makes it less trusted |
+| iBGP | 200 | Less preferred than IGP by default |
+| Unknown | 255 | Route not used |
+
+| Troubleshooting hints | Example |
+|---|---|
+| Compare candidates by lowest AD first | If OSPF (110) and RIP (120) advertise same prefix, OSPF wins |
+| Change AD only after confirming policy intent | Raising OSPF AD can force BGP to win |
+| Remember metric is only compared after AD | Two OSPF routes compare cost after AD tie |

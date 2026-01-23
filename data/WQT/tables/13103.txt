@@ -1,0 +1,16 @@
+# Administrative Distance Reference  Route Sources and Default Preference Numbers
+
+| Category | Route Source / Routing Protocol | Default Administrative Distance |
+| --- | --- | ---: |
+| Local routes | Connected (directly connected network) | 0 |
+| Local routes | Static route | 1 |
+| Local routes | Floating static route (example default when raised) | 10 |
+| Dynamic protocols | eBGP | 20 |
+| Dynamic protocols | EIGRP (internal) | 90 |
+| Dynamic protocols | IGRP | 100 |
+| Dynamic protocols | OSPF | 110 |
+| Dynamic protocols | IS-IS | 115 |
+| Dynamic protocols | RIP | 120 |
+| Dynamic protocols | EIGRP (external) | 170 |
+| Dynamic protocols | iBGP | 200 |
+| Special | Unreachable / unknown | 255 |

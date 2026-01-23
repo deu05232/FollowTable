@@ -1,0 +1,15 @@
+<table>
+  <caption>Adaptation Layer Interface Checklist (Naming & Language Mapping Focus)</caption>
+  <thead>
+    <tr><th>Integration Point</th><th>Human-Friendly Name</th><th>API Symbol (Code-Style)</th><th>C++ Namespace</th><th>Python Binding Name</th><th>Alias / Translation Notes</th><th>Example Call</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Device initialization entry</td><td>Initialize Device</td><td>init_device</td><td>vendor::runtime</td><td>device.init</td><td>Maps docs name to runtime symbol; keep consistent across languages</td><td>device.init(device_id=0)</td></tr>
+    <tr><td>Graph compilation entry</td><td>Compile Graph</td><td>compile_graph</td><td>vendor::compiler</td><td>compiler.compile</td><td>"graph" in docs equals "program" in code for backward compatibility</td><td>compiler.compile(ir)</td></tr>
+    <tr><td>Model loading entry</td><td>Load Executable</td><td>load_exec</td><td>vendor::runtime</td><td>runtime.load</td><td>Prefer snake_case in Python, camelCase in C++ wrappers</td><td>runtime.load(path)</td></tr>
+    <tr><td>Memory API</td><td>Allocate Buffer</td><td>alloc_buffer</td><td>vendor::mem</td><td>mem.alloc</td><td>"buffer" in docs == "tensor" handle in code</td><td>mem.alloc(bytes)</td></tr>
+    <tr><td>Execution API</td><td>Run Model</td><td>run_model</td><td>vendor::runtime</td><td>runtime.run</td><td>Old name runProgram kept as alias; prefer run_model</td><td>runtime.run(handle, inputs)</td></tr>
+    <tr><td>Profiling hook</td><td>Collect Metrics</td><td>collect_metrics</td><td>vendor::prof</td><td>prof.collect</td><td>Metric keys translated to human readable labels in UI</td><td>prof.collect(session)</td></tr>
+    <tr><td>Error handling</td><td>Error Codes</td><td>to_status</td><td>vendor::common</td><td>common.status</td><td>Translate numeric codes into message strings for logs</td><td>common.status(rc)</td></tr>
+  </tbody>
+</table>

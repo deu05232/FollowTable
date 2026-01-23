@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Node / Trackable Category Types Enumeration</caption>
+  <thead>
+    <tr><th>Category</th><th>Type Description</th><th>Constant (Name = Value)</th><th>Common Source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Node Type</td><td>Unknown / invalid node</td><td>AR_NODE_TYPE_UNKNOWN = -1</td><td>Internal</td></tr>
+    <tr><td>Node Type</td><td>Plane node</td><td>AR_NODE_TYPE_PLANE = 1</td><td>Plane detection</td></tr>
+    <tr><td>Node Type</td><td>Image node</td><td>AR_NODE_TYPE_IMAGE = 2</td><td>Image tracking</td></tr>
+    <tr><td>Node Type</td><td>Face node</td><td>AR_NODE_TYPE_FACE = 3</td><td>Face tracking</td></tr>
+    <tr><td>Node Type</td><td>Point cloud node</td><td>AR_NODE_TYPE_POINT_CLOUD = 4</td><td>SLAM map points</td></tr>
+    <tr><td>Node Type</td><td>Mesh node</td><td>AR_NODE_TYPE_MESH = 5</td><td>Scene reconstruction</td></tr>
+    <tr><td>Trackable Category</td><td>Anchor trackable</td><td>AR_TRACKABLE_CATEGORY_ANCHOR = 10</td><td>User anchors</td></tr>
+    <tr><td>Trackable Category</td><td>Geospatial trackable</td><td>AR_TRACKABLE_CATEGORY_GEOSPATIAL = 11</td><td>Earth/geo tracking</td></tr>
+  </tbody>
+</table>

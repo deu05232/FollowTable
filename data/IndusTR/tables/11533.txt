@@ -1,0 +1,9 @@
+<table>
+  <caption>AR environment understanding API parameters (lighting and mapping focused)</caption>
+  <tr><td>Item</td><td>Data kind</td><td>Meaning in the AR scene</td></tr>
+  <tr><td>session_handle</td><td>session reference</td><td>Represents the active AR runtime used to query environment understanding results</td></tr>
+  <tr><td>current_frame_ref</td><td>frame reference</td><td>Identifies the captured frame whose environment state (lighting/mapping) is being read</td></tr>
+  <tr><td>scene_lighting_ref</td><td>lighting estimate object</td><td>Holds the estimated lighting state for the scene, used to drive realistic rendering</td></tr>
+  <tr><td>main_light_direction</td><td>3D direction value</td><td>Direction of the dominant light in the physical environment</td></tr>
+  <tr><td>mesh_map_ref</td><td>spatial reconstruction object</td><td>Represents the reconstructed geometry/map of the surroundings for occlusion and physics</td></tr>
+</table>

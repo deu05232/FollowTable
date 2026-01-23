@@ -1,0 +1,18 @@
+<table>
+  <caption>TIA-Based Photodetector Module Signal Performance Limits</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Symbol</th><th>Conditions</th><th>Minimum</th><th>Maximum</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Optical Input</td><td>Operating wavelength band</td><td>λ</td><td>Module guaranteed band</td><td>1260</td><td>1620</td><td>nm</td></tr>
+    <tr><td>Optical overload (no saturation)</td><td>Pin,max</td><td>λ = 1550 nm, CW</td><td>—</td><td>-3</td><td>dBm</td></tr>
+    <tr><td>Minimum detectable optical power (SNR ≥ 10)</td><td>Pin,min</td><td>λ = 1550 nm, BW = 200 MHz</td><td>-28</td><td>—</td><td>dBm</td></tr>
+    <tr><td rowspan="3">Electrical Output</td><td>Transimpedance gain</td><td>ZT</td><td>RL = 50 Ω, small-signal</td><td>2.5</td><td>4.0</td><td>kΩ</td></tr>
+    <tr><td>Output noise (RMS)</td><td>Vn</td><td>BW = 200 MHz, input blocked</td><td>—</td><td>3.0</td><td>mV</td></tr>
+    <tr><td>Output rise/fall time</td><td>tr/tf</td><td>10–90%, RL = 50 Ω</td><td>—</td><td>1.5</td><td>ns</td></tr>
+    <tr><td rowspan="2">Frequency Response</td><td>3 dB bandwidth</td><td>f3dB</td><td>RL = 50 Ω</td><td>200</td><td>—</td><td>MHz</td></tr>
+    <tr><td>Gain flatness</td><td>—</td><td>10 MHz to 200 MHz</td><td>—</td><td>1.0</td><td>dBpp</td></tr>
+    <tr><td rowspan="2">Stability</td><td>Output offset voltage</td><td>Voff</td><td>No light, after 5 min warm-up</td><td>—</td><td>20</td><td>mV</td></tr>
+    <tr><td>Return loss (electrical)</td><td>RLoss</td><td>Input/output ports, 10 MHz–200 MHz</td><td>10</td><td>—</td><td>dB</td></tr>
+  </tbody>
+</table>

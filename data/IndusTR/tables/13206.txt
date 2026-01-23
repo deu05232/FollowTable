@@ -1,0 +1,8 @@
+<table>
+  <caption>Operator interface parameters for a basic math op (length-based input)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Numeric types supported by the operator</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Execution device selection</td></tr>
+  <tr><td>Tensor Length</td><td>Input</td><td>Optional</td><td>Vector length used when the operator assumes 1-D inputs</td></tr>
+  <tr><td>Tensor Length Limit</td><td>Input</td><td>Optional</td><td>Maximum allowed length for the implementation</td></tr>
+</table>

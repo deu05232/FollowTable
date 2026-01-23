@@ -1,0 +1,16 @@
+<table>
+  <caption>Polynomial Fit Coefficients for Restitution Model (No Material Breakdown)</caption>
+  <thead>
+    <tr><th>Model component</th><th>Symbol</th><th>Value</th><th>Units</th><th>Applies to</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intercept</td><td>a0</td><td>0.812</td><td>-</td><td>Global fit</td></tr>
+    <tr><td>Linear term</td><td>a1</td><td>-0.148</td><td>s/m</td><td>Global fit</td></tr>
+    <tr><td>Quadratic term</td><td>a2</td><td>0.019</td><td>s^2/m^2</td><td>Global fit</td></tr>
+    <tr><td>Cubic term</td><td>a3</td><td>-0.0017</td><td>s^3/m^3</td><td>Global fit</td></tr>
+    <tr><td>Velocity scale</td><td>v0</td><td>1.25</td><td>m/s</td><td>Global fit</td></tr>
+    <tr><td>Clipping lower bound</td><td>e_min</td><td>0.05</td><td>-</td><td>Global fit</td></tr>
+    <tr><td>Clipping upper bound</td><td>e_max</td><td>0.95</td><td>-</td><td>Global fit</td></tr>
+    <tr><td>Optimization regularizer</td><td>λ</td><td>1e-3</td><td>-</td><td>Global fit</td></tr>
+  </tbody>
+</table>

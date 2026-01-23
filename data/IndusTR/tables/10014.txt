@@ -1,0 +1,10 @@
+<table>
+  <caption>Abort message parameter list (charger-initiated abort)</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value identifying abort parameter group</td></tr>
+  <tr><td>2</td><td>Abort Initiator</td><td>1 byte</td><td>BYTE</td><td>AbortInitiatorType</td><td>Charger / Vehicle / External system</td></tr>
+  <tr><td>3</td><td>Abort Type</td><td>1 byte</td><td>BYTE</td><td>AbortType</td><td>Abort type enumeration</td></tr>
+  <tr><td>4</td><td>Abort Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>AbortReasonType</td><td>Abort reason enumeration</td></tr>
+  <tr><td>5</td><td>Abort Fault Detail</td><td>2 bytes</td><td>BYTE[2]</td><td>AbortFaultType</td><td>Fault detail captured at abort time</td></tr>
+  <tr><td>6</td><td>Abort Timestamp Present</td><td>1 byte</td><td>BYTE</td><td>BoolType</td><td>Indicates whether an abort time is attached in a separate field</td></tr>
+</table>

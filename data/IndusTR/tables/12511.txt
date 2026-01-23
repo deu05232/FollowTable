@@ -1,0 +1,14 @@
+<table>
+  <caption>Mixed seed classes within a crop row (multiple classes merged into one description)</caption>
+  <thead>
+    <tr><th>Crop</th><th>Seed class information (merged narrative)</th><th>Varietal purity (%)</th><th>Cleanliness (%)</th><th>Germination (%)</th><th>Moisture max (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wheat</td><td>Conventional: Foundation 99.9; Field 99.0 (shown together here)</td><td>99.9 / 99.0</td><td>99.0</td><td>86</td><td>13.0</td></tr>
+    <tr><td>Barley</td><td>Conventional lots: F 99.9 and Field 99.0 combined in same cell</td><td>99.9 / 99.0</td><td>99.0</td><td>85</td><td>13.0</td></tr>
+    <tr><td>Rice</td><td>Conventional: F 99.9, Field 99.0; moisture 13.0 (Indica) or 14.5 (Japonica) (all merged)</td><td>99.9 / 99.0</td><td>99.0</td><td>85</td><td>13.0 / 14.5</td></tr>
+    <tr><td>Sorghum</td><td>Includes conventional + sterile/maintainer/restorer lines; foundation/field differences merged</td><td>99.9 / 98.0</td><td>98.0</td><td>75</td><td>13.0</td></tr>
+    <tr><td>Foxtail millet</td><td>Conventional (F 99.8; Field 98.0) and Hybrid Field 96.0 all combined</td><td>99.8 / 98.0 / 96.0</td><td>98.0</td><td>85</td><td>13.0</td></tr>
+    <tr><td>Oat</td><td>Foundation 99.0; Field 97.0 (not separated into rows)</td><td>99.0 / 97.0</td><td>98.0</td><td>85</td><td>13.0</td></tr>
+  </tbody>
+</table>

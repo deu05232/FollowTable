@@ -1,0 +1,10 @@
+<table>
+  <caption>Context-combination traversal requirements for syntax element coverage (availability and flags)</caption>
+  <tr><th>Syntax element name</th><th>Test requirements</th></tr>
+  <tr><td>merge_flag</td><td>Traverse all combinations of SliceType and TemporalMvpEnableFlag</td></tr>
+  <tr><td>affine_flag</td><td>Traverse combinations of IntraCuFlag, CuWidth, and CuHeight</td></tr>
+  <tr><td>bdpcm_flag</td><td>Traverse combinations of pred_mode and TransformSkipFlag</td></tr>
+  <tr><td>palette_mode_flag</td><td>Traverse combinations of BitDepth and ChromaFormatIdc</td></tr>
+  <tr><td>mmvd_flag</td><td>Traverse combinations of merge_flag and merge_idx</td></tr>
+  <tr><td>transform_skip_flag</td><td>Traverse combinations of tu_size and IntraSubPartitionsEnableFlag</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Production Line Equipment Settings for Copier Assembly (Torque, Temperature, Speed)</caption>
+  <tr><th>Station</th><th>Equipment</th><th>Key Setting</th><th>Target Value</th><th>Tolerance</th><th>Inspection Frequency</th></tr>
+  <tr><td>S1</td><td>Auto Screwdriver</td><td>Torque</td><td>0.65 N·m</td><td>±0.05</td><td>Every 2 hours</td></tr>
+  <tr><td>S2</td><td>Fuser Press Jig</td><td>Press Force</td><td>1.8 kN</td><td>±0.2</td><td>Daily</td></tr>
+  <tr><td>S3</td><td>Heater Pre-bake Oven</td><td>Chamber Temp</td><td>85 °C</td><td>±3</td><td>Per batch</td></tr>
+  <tr><td>S4</td><td>Laser Alignment Bench</td><td>Scan Speed</td><td>2.4 m/s</td><td>±0.1</td><td>Per shift</td></tr>
+  <tr><td>S5</td><td>Conveyor</td><td>Belt Speed</td><td>0.32 m/s</td><td>±0.02</td><td>Weekly</td></tr>
+  <tr><td>S6</td><td>Label Printer</td><td>Print Density</td><td>12%</td><td>±1%</td><td>Monthly</td></tr>
+</table>

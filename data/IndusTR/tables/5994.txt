@@ -1,0 +1,15 @@
+<table>
+  <caption>Influence quantities vs. error variation limits with accuracy classes as column headers</caption>
+  <thead>
+    <tr><th rowspan="2">Influence quantity</th><th rowspan="2">Variation range</th><th rowspan="2">Reference condition</th><th colspan="3">Limit of error variation (%)</th></tr>
+    <tr><th>Class 0.2</th><th>Class 0.5</th><th>Class 1</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>15 °C to 32 °C</td><td>PF=1.0</td><td>±0.10</td><td>±0.20</td><td>±0.40</td></tr>
+    <tr><td>Ambient temperature</td><td>-10 °C to 55 °C</td><td>PF=1.0</td><td>±0.20</td><td>±0.40</td><td>±0.80</td></tr>
+    <tr><td>Supply voltage</td><td>0.9 Un to 1.1 Un</td><td>PF=1.0</td><td>±0.10</td><td>±0.25</td><td>±0.50</td></tr>
+    <tr><td>Frequency</td><td>49 Hz to 51 Hz</td><td>PF=1.0</td><td>±0.05</td><td>±0.10</td><td>±0.20</td></tr>
+    <tr><td>Magnetic field</td><td>0.5 mT to 1.0 mT</td><td>50/60 Hz, orthogonal</td><td>±0.15</td><td>±0.30</td><td>±0.60</td></tr>
+    <tr><td>Self-heating</td><td>After 30 min warm-up</td><td>Ir, PF=1.0</td><td>±0.08</td><td>±0.16</td><td>±0.32</td></tr>
+  </tbody>
+</table>

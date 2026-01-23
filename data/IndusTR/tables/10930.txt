@@ -1,0 +1,17 @@
+<table>
+  <caption>Executable Model Lifecycle APIs Mixed with Compilation Pipeline Internals (IR Passes)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Lifecycle</td><td>Create Program</td><td>create_program</td><td>Required</td><td>Generate an executable program from framework graph and return a handle</td></tr>
+    <tr><td>Lifecycle</td><td>Validate Program</td><td>validate_program</td><td>Optional</td><td>Detect supported subgraphs and verify device capability constraints</td></tr>
+    <tr><td>Lifecycle</td><td>Initialize Program</td><td>program_init</td><td>Required</td><td>Allocate weights, constants, and runtime state for execution</td></tr>
+    <tr><td>Lifecycle</td><td>Finalize Program</td><td>program_fini</td><td>Required</td><td>Release runtime state and detach device allocations</td></tr>
+    <tr><td>Lifecycle</td><td>Destroy Program</td><td>destroy_program</td><td>Required</td><td>Destroy the program handle and all associated resources</td></tr>
+    <tr><td>Compilation / IR</td><td>Construct IR Module</td><td>ir_module_create</td><td>Optional</td><td>Create compiler IR module from framework graph nodes and edges</td></tr>
+    <tr><td>Compilation / IR</td><td>Run IR Optimization Passes</td><td>run_ir_passes</td><td>Optional</td><td>Apply fusion, constant folding, and layout transforms on IR</td></tr>
+    <tr><td>Compilation / IR</td><td>Lower IR to Backend</td><td>ir_lower_backend</td><td>Optional</td><td>Lower IR into backend-specific representation for code generation</td></tr>
+    <tr><td>Compilation / IR</td><td>Emit Binary</td><td>emit_binary</td><td>Optional</td><td>Compile lowered IR into device binary and package into executable</td></tr>
+  </tbody>
+</table>

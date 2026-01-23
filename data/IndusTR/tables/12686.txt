@@ -1,0 +1,15 @@
+<table>
+  <caption>Marine Early-Warning Static Signs (IDs Embedded in Name Text)</caption>
+  <thead>
+    <tr><th>Warning Type</th><th>Sign Name (contains ID)</th><th>Icon Label</th><th>Operational Use</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Storm Surge</td><td>Storm Surge Blue [ID: 1-1]</td><td>STORMSURGE</td><td>Issue blue storm-surge early warning</td><td>ID is not in a dedicated Number column</td></tr>
+    <tr><td>Storm Surge</td><td>Storm Surge Yellow (Code=1-2)</td><td>STORMSURGE</td><td>Issue yellow storm-surge early warning</td><td>Code embedded in free text</td></tr>
+    <tr><td>Storm Surge</td><td>Storm Surge Orange — 1-3</td><td>STORMSURGE</td><td>Issue orange storm-surge early warning</td><td>Mixed into name field</td></tr>
+    <tr><td>Tsunami</td><td>Tsunami Yellow [4-1]</td><td>TSUNAMI</td><td>Issue yellow tsunami warning</td><td>Hard to copy/paste reliably</td></tr>
+    <tr><td>Tsunami</td><td>Tsunami Orange (ID 4-2)</td><td>TSUNAMI</td><td>Issue orange tsunami warning</td><td>No clean identifier field</td></tr>
+    <tr><td>Tsunami</td><td>Tsunami Red / Identifier: 4-3</td><td>TSUNAMI</td><td>Issue red tsunami warning</td><td>Identifier embedded in descriptive text</td></tr>
+    <tr><td>Wave</td><td>Wave Blue — Ref#2-1</td><td>WAVE</td><td>Issue blue wave warning</td><td>Reference number not separated</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Camera View Projection Parameters (Near/Far Planes Included)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session handle used to query camera projection values.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>in</td><td>Camera handle associated with the current AR frame.</td></tr>
+    <tr><td>near</td><td>float</td><td>in</td><td>Near clipping plane distance used to compute the projection matrix.</td></tr>
+    <tr><td>far</td><td>float</td><td>in</td><td>Far clipping plane distance used to compute the projection matrix.</td></tr>
+    <tr><td>out_projection_matrix</td><td>float[16]</td><td>out</td><td>Column-major 4x4 projection matrix filled by the API.</td></tr>
+    <tr><td>out_fov_y_degrees</td><td>float *</td><td>out</td><td>Vertical field-of-view (degrees) derived from the projection.</td></tr>
+    <tr><td>out_aspect_ratio</td><td>float *</td><td>out</td><td>Aspect ratio computed for the camera stream.</td></tr>
+  </tbody>
+</table>

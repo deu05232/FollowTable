@@ -1,0 +1,16 @@
+<table>
+  <caption>Different Photometric Redshift Techniques and Accuracies.</caption>
+  <tr><th>Method Name</th><th>σ_(RMS)</th><th>Data set 1</th><th>Inputs 2</th><th>Source</th></tr>
+  <tr><td>CWW</td><td>0.0666</td><td>SDSS-EDR</td><td>ugriz</td><td>[ Csabai03 ]</td></tr>
+  <tr><td>Bruzual-Charlot</td><td>0.0552</td><td>SDSS-EDR</td><td>ugriz</td><td>[ Csabai03 ]</td></tr>
+  <tr><td>ClassX</td><td>0.0340</td><td>SDSS-DR2</td><td>ugriz</td><td>[ Suchkov05 ]</td></tr>
+  <tr><td>Polynomial</td><td>0.0318</td><td>SDSS-EDR</td><td>ugriz</td><td>[ Csabai03 ]</td></tr>
+  <tr><td>Support Vector Machine</td><td>0.0270</td><td>SDSS-DR2</td><td>ugriz</td><td>[ Wadadekar05 ]</td></tr>
+  <tr><td>Kd-tree</td><td>0.0254</td><td>SDSS-EDR</td><td>ugriz</td><td>[ Csabai03 ]</td></tr>
+  <tr><td>Support Vector Machine</td><td>0.0230</td><td>SDSS-DR2</td><td>ugriz+r50+r90</td><td>[ Wadadekar05 ]</td></tr>
+  <tr><td>Artificial Neural Network</td><td>0.0229</td><td>SDSS-DR1</td><td>ugriz</td><td>[ Collister04 ]</td></tr>
+  <tr><td>Artificial Neural Network</td><td>0.022-0.024</td><td>SDSS-DR1</td><td>A</td><td>[ Vanzella04 ]</td></tr>
+  <tr><td>Artificial Neural Network</td><td>0.0200-0.025</td><td>SDSS-EDR</td><td>B</td><td>[ Tagliaferri03 ]</td></tr>
+  <tr><td>Artificial Neural Network</td><td>0.0200-0.026</td><td>SDSS-EDR</td><td>C</td><td>[ Ball04 ]</td></tr>
+  <tr><td>Polynomial</td><td>0.025</td><td>SDSS-DR1,GALEX</td><td>ugriz+nuv</td><td>[ Budavari05 ]</td></tr>
+</table>

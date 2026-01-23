@@ -1,0 +1,15 @@
+<table>
+  <caption>Acceptance Performance Test Matrix for Beam Pumping Units</caption>
+  <thead>
+    <tr><th>No.</th><th>Test name</th><th>Primary parameter</th><th>Target value</th><th>Hold time</th><th>Record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>No-load run</td><td>Operating hours (h)</td><td>2</td><td>2</td><td>Vibration/temperature log</td></tr>
+    <tr><td>2</td><td>Half-load run</td><td>Rated torque (%)</td><td>50</td><td>2</td><td>Current draw trend</td></tr>
+    <tr><td>3</td><td>Rated-load run</td><td>Rated torque (%)</td><td>100</td><td>2</td><td>Noise observation</td></tr>
+    <tr><td>4</td><td>Overload verification</td><td>Rated torque (%)</td><td>110</td><td>0.5</td><td>Trip status</td></tr>
+    <tr><td>5</td><td>Cyclic endurance</td><td>Operating cycles</td><td>80,000</td><td>—</td><td>Cycle counter</td></tr>
+    <tr><td>6</td><td>Thermal stabilization</td><td>Operating hours (h)</td><td>6</td><td>6</td><td>Temp rise curve</td></tr>
+    <tr><td>7</td><td>Load sweep</td><td>Polished-rod load (%)</td><td>60→100</td><td>4</td><td>Load profile</td></tr>
+  </tbody>
+</table>

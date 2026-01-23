@@ -1,0 +1,22 @@
+# Extensible Storage Engine
+> Records and columns
+
+| Name | Description |
+| --- | --- |
+| Bit | ternary value (NULL, 0, or 1) |
+| Unsigned Byte | 1-byte unsigned integer |
+| Short | 2-byte signed integer |
+| Unsigned Short | 2-byte unsigned integer |
+| Long | 4-byte signed integer |
+| Unsigned Long | 4-byte unsigned integer |
+| LongLong | 8-byte signed integer |
+| UnsignedLongLong | 8-byte unsigned integer |
+| Currency | 8-byte signed integer |
+| IEEE Single | 4-byte floating-point number |
+| IEEE Double | 8-byte floating-point number |
+| DateTime | 8-byte date-time (integral date, fractional time) |
+| GUID | 16-byte unique identifier |
+| Binary | Binary string, length <= 255 bytes |
+| Text | ANSI or Unicode string, length <= 255 bytes |
+| Long Binary | Large binary string, length < 2 GB |
+| Long Text | Large ANSI or Unicode string, length < 2 GB |

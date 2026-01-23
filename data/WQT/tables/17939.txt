@@ -1,0 +1,14 @@
+# Default AD Values for Selected Protocols (Acronym-Heavy List)
+
+| Protocol/Source | Default AD | Typical Use |
+| --- | --- | --- |
+| OSPFv2 | 110 | IPv4 IGP |
+| OSPFv3 | 110 | IPv6 IGP |
+| RIPv2 | 120 | legacy IGP |
+| IS-IS | 115 | SP core IGP |
+| EIGRP | 90 | enterprise IGP |
+| EIGRP ext | 170 | redistribution |
+| iBGP | 200 | intra-AS |
+| eBGP | 20 | inter-AS |
+| IGRP | 100 | deprecated |
+| LDP | 255 | not selected as route source |

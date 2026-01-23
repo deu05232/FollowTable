@@ -1,0 +1,10 @@
+<table>
+  <caption>Device Address Map and Installation Notes</caption>
+  <tr><th>KADDL</th><th>Location</th><th>Device Type</th><th>Wiring Notes</th></tr>
+  <tr><td>01H</td><td>Bin A</td><td>Temperature Probe</td><td>Shielded cable recommended</td></tr>
+  <tr><td>02H</td><td>Bin A</td><td>Ventilation Fan</td><td>Keep away from power lines</td></tr>
+  <tr><td>03H</td><td>Bin B</td><td>Humidity Sensor</td><td>Check connector polarity</td></tr>
+  <tr><td>04H</td><td>Bin B</td><td>Heater</td><td>Use relay isolation</td></tr>
+  <tr><td>05H</td><td>Bin C</td><td>Grain Level Sensor</td><td>Mount at inspection port</td></tr>
+  <tr><td>06H</td><td>Bin C</td><td>Alarm Siren</td><td>Test monthly</td></tr>
+</table>

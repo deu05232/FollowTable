@@ -1,0 +1,10 @@
+<table>
+  <caption>SpaceFibre SerDes Transmitter Electrical Characteristics (Typical Datasheet Extract)</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>Min</th><th>Typ</th><th>Max</th><th>Unit</th><th>Test Conditions</th></tr>
+  <tr><td>Differential output swing</td><td>VOD</td><td>400</td><td>650</td><td>900</td><td>mVpp</td><td>100 Ω load</td></tr>
+  <tr><td>De-emphasis (post-cursor)</td><td>DE</td><td>-6</td><td>-3</td><td>0</td><td>dB</td><td>Programmable</td></tr>
+  <tr><td>Transmit jitter (RMS)</td><td>JT_RMS</td><td>-</td><td>0.8</td><td>1.5</td><td>ps</td><td>PRBS31</td></tr>
+  <tr><td>Transmit jitter (PP)</td><td>JT_PP</td><td>-</td><td>12</td><td>20</td><td>ps</td><td>PRBS31</td></tr>
+  <tr><td>Common-mode voltage</td><td>VCM</td><td>0.45</td><td>0.60</td><td>0.75</td><td>V</td><td>At TX pins</td></tr>
+  <tr><td>Output impedance</td><td>ZOUT</td><td>85</td><td>100</td><td>115</td><td>Ω</td><td>Differential</td></tr>
+</table>

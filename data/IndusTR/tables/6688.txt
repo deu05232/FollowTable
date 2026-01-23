@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Pack Abuse Test Procedure Text Matrix (Narrative-Dominated)</caption>
+  <thead>
+    <tr><th rowspan="2">Abuse Test</th><th colspan="3">Narrative Procedure Columns</th><th rowspan="2">Waveform / Signal Description</th></tr>
+    <tr><th>Setup Instructions</th><th>Execution Steps</th><th>Termination / Safety Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>External short</td><td>Connect shorting device across terminals using insulated tools</td><td>Close circuit; observe pack behavior continuously</td><td>Stop if smoke, venting, or casing rupture is observed</td><td>Current surge profile described as “sharp peak then decay”</td></tr>
+    <tr><td>Overcharge</td><td>Use programmable supply; verify polarity and logging</td><td>Apply overcharge per internal procedure; monitor temperature probes</td><td>Stop when protective device activates or hazardous symptoms occur</td><td>Voltage trace described as “ramp, plateau, then oscillation”</td></tr>
+    <tr><td>Thermal exposure</td><td>Place pack on ceramic stand; route cables through feedthrough</td><td>Run chamber sequence; do not open door during active step</td><td>Emergency shutdown if chamber alarms trigger</td><td>Temperature profile described as “step-soak with controlled ramp”</td></tr>
+    <tr><td>Mechanical shock</td><td>Align axes using markings; secure all fasteners</td><td>Perform shocks in + and − directions; re-check mounting between axes</td><td>Pause test if fixture bolts loosen; re-torque and document</td><td>Pulse described as “half-sine with minimal ringing”</td></tr>
+    <tr><td>Vibration endurance</td><td>Attach accelerometers; verify cable strain relief</td><td>Run for scheduled duration; inspect at planned pauses</td><td>Stop for abnormal noise; document and resume if safe</td><td>PSD described as “random broadband with corner frequencies”</td></tr>
+    <tr><td>Ingress exposure</td><td>Seal service ports; ensure vent path is per drawing</td><td>Apply water exposure method; wipe exterior after exposure</td><td>Stop if water enters HV compartment; isolate immediately</td><td>Spray pattern described in text; no numeric severity listed</td></tr>
+  </tbody>
+</table>

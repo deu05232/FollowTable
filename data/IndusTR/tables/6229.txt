@@ -1,0 +1,15 @@
+<table>
+  <caption>Carbonate Raw Material Parameters by Category (Parameter-Name List Layout)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter Name</th><th>Value</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Carbonate Decomposition</td><td>Carbonate raw material consumption</td><td></td><td>t</td><td>Aggregate input</td></tr>
+    <tr><td>Carbonate component</td><td></td><td>-</td><td>e.g., CaCO3, MgCO3</td></tr>
+    <tr><td>Purity of carbonate component</td><td></td><td>%</td><td>Lab analysis / default</td></tr>
+    <tr><td>CO2 emission factor of carbonate component</td><td></td><td>tCO2/t component</td><td>Stoichiometric</td></tr>
+    <tr><td>Decomposition rate</td><td></td><td>%</td><td>Process-specific</td></tr>
+    <tr><td>Moisture correction factor</td><td></td><td>-</td><td>Optional</td></tr>
+    <tr><td>Losses / rejects</td><td></td><td>%</td><td>Optional</td></tr>
+  </tbody>
+</table>

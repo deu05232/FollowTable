@@ -1,0 +1,18 @@
+<table>
+  <caption>Other Safety-Impacting Traffic Events Early Warning Information Data Structure Table</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Traffic-Impacting Event Name</td><td>Character</td><td>4</td><td>Xiang</td><td>Yes</td><td>Such as vehicle breakdown, road spillage, road surface obstacles, fire accidents, mobile maintenance, etc.</td></tr>
+  <tr><td>2</td><td>Traffic-Impacting Event Start Time</td><td>Date</td><td>16</td><td>Xiang</td><td>Xiang</td><td>The traffic-impacting event start time shall comply with 6.2</td></tr>
+  <tr><td>3</td><td>Estimated End Time of Traffic-Impacting Event</td><td>Date</td><td>16</td><td>Yes</td><td>Yes</td><td>The estimated end time of the traffic-impacting event shall comply with 6.2</td></tr>
+  <tr><td>4</td><td>Location Where the Traffic-Impacting Event Occurs</td><td>Character</td><td>1000</td><td>No</td><td>Yes</td><td>The location where the traffic-impacting event occurs shall comply with the location expression method in GA/T1980—2022</td></tr>
+  <tr><td>5</td><td>Responsible Department</td><td>Character</td><td>12</td><td>Xiang</td><td>Xiang</td><td>The responsible department for the location where the traffic-impacting event occurs shall comply with public security data element DE00060 in GA/T543.1—2011</td></tr>
+  <tr><td>6</td><td>Administrative Division</td><td>Character</td><td>10</td><td>Xiang</td><td>Xiang</td><td>The county-level administrative division code for the location where the traffic-impacting event occurs shall comply with public security data element DE00070 in GA/T 543.1—2011</td></tr>
+  <tr><td>7</td><td>Road Code</td><td>Character</td><td>6</td><td>Xiang</td><td>Xiang</td><td>The road code for the location where the traffic-impacting event occurs shall comply with public security data element DE00821 in GA/T543.10—2016</td></tr>
+  <tr><td>8</td><td>Kilometer Marker / Intersection Section</td><td>Character</td><td>8</td><td>Xiang</td><td>Xiang</td><td>If the location where the traffic-impacting event occurs is on an expressway or national/provincial highway, the kilometer marker shall be entered and shall comply with public security data element DE00826 in GA/T543.10—2016; if the location is on an urban expressway or urban road, the entered intersection/road section shall comply with GA/T946.6</td></tr>
+  <tr><td>9</td><td>Affected Traffic Direction</td><td>Character</td><td>8</td><td>Yes</td><td>Yes</td><td>The affected road traffic direction</td></tr>
+  <tr><td>10</td><td>Location Longitude</td><td>Character</td><td>17</td><td>Xiang</td><td>Yes</td><td>The longitude of the location where the traffic-impacting event occurs shall comply with public security data element DE01119 in GA/T543.9——2016</td></tr>
+  <tr><td>11</td><td>Location Latitude</td><td>Character</td><td>17</td><td>Xiang</td><td>Yes</td><td>The latitude of the location where the traffic-impacting event occurs shall comply with public security data element DE01120 in GA/T543.9——2016</td></tr>
+  <tr><td>12</td><td>Advisory Warning</td><td>Character</td><td>1000</td><td>Yes</td><td>Yes</td><td>Example: There is a vehicle breakdown on the ×× road section ahead, affecting road traffic. Please slow down in advance and follow traffic police instructions</td></tr>
+  <tr><td>13</td><td>Detour Route Name</td><td>Character</td><td>1000</td><td>Yes</td><td>Yes</td><td>Example: Start from ×× location, pass through ×× location, and detour to ×× location</td></tr>
+  <tr><td>14</td><td>Detour Route Coordinate Set</td><td>Object</td><td>None</td><td>Yes</td><td>Yes</td><td>Shall comply with 6.3</td></tr>
+</table>

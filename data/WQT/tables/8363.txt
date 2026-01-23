@@ -1,0 +1,7 @@
+# Configure Outlook with an Outlook.com ( Hotmail ) , Gmail , Office 365 ...
+
+| 12 | Incoming server (IMAP): | 993 |
+| --- | --- | --- |
+| 13 | Use the following type of encrypted connection: | SSL |
+| 14 | Outgoing server (SMTP): | 587 (if using SSL: 465) |
+| 15 | Use the following type of encrypted connection: | TLS (if not available: SSL) |

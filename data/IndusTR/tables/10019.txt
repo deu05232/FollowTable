@@ -1,0 +1,14 @@
+<table>
+  <caption>Charging Capability Limits Message Definitions (Voltage/Current/Energy Limits)</caption>
+  <thead>
+    <tr><th>Section</th><th>Start Byte</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Transmission Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Limits</td><td>1</td><td>2 bytes</td><td>2850</td><td>Maximum allowable charging voltage (pack)</td><td>Required</td></tr>
+    <tr><td>3</td><td>2 bytes</td><td>2851</td><td>Maximum allowable charging current</td><td>Required</td></tr>
+    <tr><td>5</td><td>2 bytes</td><td>2852</td><td>Maximum allowable charging power</td><td>Optional</td></tr>
+    <tr><td rowspan="3">Energy/Targets</td><td>7</td><td>2 bytes</td><td>2853</td><td>Requested target voltage</td><td>Optional</td></tr>
+    <tr><td>9</td><td>2 bytes</td><td>2854</td><td>Requested target current</td><td>Optional</td></tr>
+    <tr><td>11</td><td>2 bytes</td><td>2855</td><td>Nominal total energy of the traction battery</td><td>Required</td></tr>
+  </tbody>
+</table>

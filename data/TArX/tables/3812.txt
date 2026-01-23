@@ -1,0 +1,12 @@
+<table>
+  <caption>Primary MDF shape characteristics for the solar neighbourhoods of the five simulations described here, the two sub-samples based upon the GCS empirical dataset are as described in the text and data for the Fornax dwarf galaxy taken from . After , the simulated MDFs were convolved with either a 0.1 dex Gaussian (left-most entry within each column) or a 0.5 dex Gaussian (right-most / bracketed entry within each column), to mimic the typical uncertainties associated with the [Fe/H] determinations in nature (the GCS in the case of the former, and Fornax in the case of the latter). Column (1): the name of the simulation or empirical dataset; Column (2): the skewness of the MDF (5 σ clipping of outliers was imposed, to minimise their impact on the determination); Column (3): the kurtosis of the MDF, again with the adoption of 5 σ clipping; Columns (4) - (7): the interquartile (IQR), interdecile (IDR), intercentile (ICR), and inter-tenth-percentile (ITPR) for each MDF.</caption>
+  <tr><th>Simulation/Dataset</th><th>Skewness</th><th>Kurtosis</th><th>IQR</th><th>IDR</th><th>ICR</th><th>ITPR</th></tr>
+  <tr><td>11mKroupa</td><td>- 1.84( - 1.21)</td><td>3.83(2.59)</td><td>0.30(0.54)</td><td>0.67(1.13)</td><td>1.59(2.72)</td><td>2.49(4.34)</td></tr>
+  <tr><td>11mChab</td><td>- 1.56( - 1.15)</td><td>2.43(2.37)</td><td>0.41(0.60)</td><td>0.85(1.28)</td><td>1.71(2.96)</td><td>2.38(5.04)</td></tr>
+  <tr><td>11mNoRad</td><td>- 1.13( - 0.93)</td><td>2.45(1.88)</td><td>0.26(0.47)</td><td>0.52(0.92)</td><td>1.44(2.07)</td><td>2.39(3.73)</td></tr>
+  <tr><td>11mNoMinShut</td><td>+ 0.47( - 0.29)</td><td>0.94(0.57)</td><td>0.13(0.48)</td><td>0.26(0.93)</td><td>0.69(1.79)</td><td>1.97(3.26)</td></tr>
+  <tr><td>11mNoDiff</td><td>- 0.91( - 1.29)</td><td>0.91(2.32)</td><td>0.96(1.25)</td><td>1.85(2.44)</td><td>3.49(5.18)</td><td>5.06(8.03)</td></tr>
+  <tr><td>GCS</td><td>- 0.61</td><td>2.04</td><td>0.23</td><td>0.48</td><td>1.26</td><td>2.63</td></tr>
+  <tr><td>GCScut</td><td>- 0.37</td><td>0.78</td><td>0.24</td><td>0.45</td><td>0.94</td><td>1.43</td></tr>
+  <tr><td>Fornax</td><td>( - 1.33)</td><td>(3.58)</td><td>(0.38)</td><td>(2.25)</td><td>(2.75)</td><td>(2.85)</td></tr>
+</table>

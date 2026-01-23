@@ -1,0 +1,19 @@
+<table>
+  <caption>Video Image Information System Platform Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>System/Platform Identifier</td><td>xtptbz</td><td>c20</td><td>System/platform code; should comply with the coding rules specified in E.1 of GB/T 28181—2022;</td><td></td></tr>
+  <tr><td>2</td><td>System/Platform Name</td><td>xtptmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>3</td><td>Superior System/Platform Identifier</td><td>sjxtptbz</td><td>c20</td><td>Superior system/platform code; should comply with the coding rules specified in E.1 of GB/T 28181—2022; multiple values allowed</td><td></td></tr>
+  <tr><td>4</td><td>Subordinate System/Platform Identifier</td><td>xjxtptbz</td><td>c20</td><td>Subordinate system/platform code; should comply with the coding rules specified in E.1 of GB/T 28181—2022; multiple values allowed</td><td></td></tr>
+  <tr><td>5</td><td>Affiliated Administrative Division Unit Category Code</td><td>ssqhdwlbdm</td><td>c2</td><td>Should comply with D.15</td><td></td></tr>
+  <tr><td>6</td><td>MAC Address</td><td>macdz</td><td>c17</td><td></td><td></td></tr>
+  <tr><td>7</td><td>Managing_Organization Name</td><td>gl_dwmc</td><td>c..100</td><td>Multiple values allowed</td><td></td></tr>
+  <tr><td>8</td><td>Activation_Date/Time</td><td>qy_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>9</td><td>Maintenance Expiry_Date/Time</td><td>wbdq_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>10</td><td>Planned Deactivation_Date/Time</td><td>jhty_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>11</td><td>Constructing_Organization Name</td><td>cj_dwmc</td><td>c..100</td><td>Multiple values allowed</td><td></td></tr>
+  <tr><td>12</td><td>Maintenance_Organization Name</td><td>wh_dwmc</td><td>c..100</td><td>Multiple values allowed</td><td></td></tr>
+  <tr><td>13</td><td>IPv4 Address</td><td>ipv4dz</td><td>c8..15</td><td>Should comply with Section 3.2 of IETF RFC 791—1981</td><td></td></tr>
+  <tr><td>14</td><td>IPv6 Address</td><td>ipv6dz</td><td>c2..39</td><td>Should comply with Chapter 2 of IETF RFC 4291—2006</td><td></td></tr>
+  <tr><td>15</td><td>Network Port Number</td><td>wldkh</td><td>c..5</td><td>Multiple values allowed</td><td></td></tr>
+</table>

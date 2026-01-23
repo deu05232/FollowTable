@@ -1,0 +1,15 @@
+<table>
+  <caption>OpenAPI Endpoint Authorization Matrix (Method vs. Required Auth Inputs)</caption>
+  <thead>
+    <tr><th>Service Area</th><th>Endpoint</th><th>API Method</th><th>Required Auth Input</th><th>Token Type</th><th>Minimum Request Fields (non-auth)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gateway</td><td>/api/gateway/create</td><td>POST</td><td>access_token</td><td>Bearer token</td><td>userID, gatewName, commUrl, iotType</td></tr>
+    <tr><td>Gateway</td><td>/api/gateway/{gatewID}/save-identifier</td><td>POST</td><td>access_token</td><td>Bearer token</td><td>userID, gatewID, classfyID, templateAttribute</td></tr>
+    <tr><td>Device</td><td>/api/device/query</td><td>GET</td><td>access_token</td><td>Bearer token</td><td>userID, devID</td></tr>
+    <tr><td>Device</td><td>/api/device/security-auth</td><td>POST</td><td>access_token</td><td>Bearer token</td><td>userID, devID, devSign</td></tr>
+    <tr><td>Manufacturing</td><td>/api/material/form/save</td><td>POST</td><td>access_token</td><td>Bearer token</td><td>userID, materialName</td></tr>
+    <tr><td>Platform</td><td>/api/microservice/register</td><td>POST</td><td>access_token</td><td>Bearer token</td><td>userID, sevName, sevDes, dataUrl</td></tr>
+    <tr><td>Platform</td><td>/api/auth/token/validate</td><td>GET</td><td>access_token</td><td>Bearer token</td><td>userID</td></tr>
+  </tbody>
+</table>

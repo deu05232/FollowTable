@@ -1,0 +1,6 @@
+<table>
+  <caption>Client Spot Account Information Field Definitions</caption>
+  <tr><td>Serial No.</td><td>Field Identifier</td><td>Field Chinese Name</td><td>Field Type</td><td>Field Length</td><td>Nullable</td><td>Value Description</td></tr>
+  <tr><td>1</td><td>accounttype</td><td>Account Category Code</td><td>C</td><td>1</td><td>N</td><td>The value is DM017 code (shall comply with the relevant provisions of A.17 in Appendix A)</td></tr>
+  <tr><td>2</td><td>bankaccount</td><td>Spot Account</td><td>C</td><td>30</td><td>N</td><td>-</td></tr>
+</table>

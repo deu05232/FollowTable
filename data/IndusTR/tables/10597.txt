@@ -1,0 +1,16 @@
+<table>
+  <caption>AWG DWDM Channel Grid and Mixed Optical Specifications (Example Requirements)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter</th><th>Unit</th><th>Spec / Range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Channel Grid</td><td>Grid Reference</td><td>-</td><td>ITU-T G.694.1</td><td>Aligned to DWDM plan</td></tr>
+    <tr><td>Channel Grid</td><td>Channel Spacing</td><td>GHz</td><td>50</td><td>Optional 100 GHz variant</td></tr>
+    <tr><td>Channel Grid</td><td>Start Frequency</td><td>THz</td><td>196.10</td><td>Upper edge of C-band grid example</td></tr>
+    <tr><td>Channel Grid</td><td>Stop Frequency</td><td>THz</td><td>191.30</td><td>Lower edge of C-band grid example</td></tr>
+    <tr><td>Optical Passband</td><td>3 dB Passband</td><td>GHz</td><td>±12.5</td><td>Per channel</td></tr>
+    <tr><td>Optical Passband</td><td>0.5 dB Passband</td><td>GHz</td><td>±10.0</td><td>Typical</td></tr>
+    <tr><td>Wavelength</td><td>Operating Wavelength Range</td><td>nm</td><td>1528–1565</td><td>C-band statement</td></tr>
+    <tr><td>Variant</td><td>Number of Channels</td><td>ch</td><td>40 / 80</td><td>Depends on spacing option</td></tr>
+  </tbody>
+</table>

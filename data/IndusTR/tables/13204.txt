@@ -1,0 +1,15 @@
+<table>
+  <caption>Common Parameters for Basic Math Operators (Length-Based Interface)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Input Tensor A</td><td>Input</td><td>Required</td><td>First input tensor buffer; interpreted as a 1-D vector using Tensor Length</td></tr>
+    <tr><td>Input Tensor B</td><td>Input</td><td>Optional</td><td>Second input tensor buffer (for binary ops); must have the same Tensor Length as A</td></tr>
+    <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Output tensor buffer; length equals Tensor Length</td></tr>
+    <tr><td>Tensor Length</td><td>Input</td><td>Required</td><td>Total element count used for iteration; no dimension or layout metadata is provided</td></tr>
+    <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Element type (int/uint/fp/complex); defaults to fp32</td></tr>
+    <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Execution target (CPU/GPU/NPU); defaults to CPU</td></tr>
+    <tr><td>Broadcast Mode</td><td>Input</td><td>Optional</td><td>When Input Tensor B is present, enables scalar/length-only broadcast; ignores tensor rank</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre Receiver Eye Mask Measurement Points (Near-end vs Far-end)</caption>
+  <thead>
+    <tr><th>Mask Point</th><th>Description</th><th>Near-end Value</th><th>Far-end Value</th><th>Unit</th><th>Measurement Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>X1</td><td>Horizontal opening at upper crossing</td><td>0.18</td><td>0.27</td><td>UI</td><td>PRBS7, nominal cable length</td></tr>
+    <tr><td>X2</td><td>Horizontal opening at lower crossing</td><td>0.39</td><td>0.41</td><td>UI</td><td>PRBS7, nominal cable length</td></tr>
+    <tr><td>X3</td><td>Jitter sampling offset</td><td>0.06</td><td>0.09</td><td>UI</td><td>Recovered clock measurement</td></tr>
+    <tr><td>A1</td><td>Vertical opening at center</td><td>380</td><td>120</td><td>mV</td><td>DC-coupled probe</td></tr>
+    <tr><td>A2</td><td>Vertical opening at edge</td><td>220</td><td>90</td><td>mV</td><td>AC-coupled probe</td></tr>
+    <tr><td>R1</td><td>Rise time (20–80%)</td><td>45</td><td>60</td><td>ps</td><td>At TP1/TP2 measurement points</td></tr>
+    <tr><td>F1</td><td>Fall time (20–80%)</td><td>47</td><td>62</td><td>ps</td><td>At TP1/TP2 measurement points</td></tr>
+  </tbody>
+</table>

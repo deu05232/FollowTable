@@ -1,0 +1,14 @@
+<table>
+  <caption>Inspection Method Setup for Scheduled Service Checks (Instrument & Environment)</caption>
+  <thead>
+    <tr><th>Inspection Item</th><th>Instrument</th><th>Calibration Interval</th><th>Environment</th><th>Sampling Plan</th><th>Acceptance Rule</th><th>Reference Standard</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vibration check</td><td>Accelerometer</td><td>12 months</td><td>20±2 °C</td><td>1 per unit</td><td>RMS ≤ 4.0 mm/s</td><td>ISO 10816</td></tr>
+    <tr><td>Visual wear check</td><td>Borescope</td><td>6 months</td><td>500 lx lighting</td><td>100% critical parts</td><td>No crack > 2 mm</td><td>Internal WI-INS-07</td></tr>
+    <tr><td>Torque verification</td><td>Torque wrench</td><td>6 months</td><td>20±5 °C</td><td>5 samples/batch</td><td>±4% of target</td><td>ISO 6789</td></tr>
+    <tr><td>Electrical continuity</td><td>Multimeter</td><td>12 months</td><td>RH 30–70%</td><td>1 per assembly</td><td>< 0.5 Ω</td><td>IEC 61010</td></tr>
+    <tr><td>Leak test</td><td>Pressure decay rig</td><td>12 months</td><td>No drafts</td><td>3 samples/batch</td><td>Decay ≤ 2 kPa/60s</td><td>Internal WI-LEAK-02</td></tr>
+    <tr><td>Label verification</td><td>Barcode verifier</td><td>12 months</td><td>20±2 °C</td><td>10 labels/roll</td><td>Grade ≥ B</td><td>ISO/IEC 15416</td></tr>
+  </tbody>
+</table>

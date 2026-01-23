@@ -1,0 +1,15 @@
+<table>
+  <caption>BFAC Low-Temperature Bending Beam Test — Apparatus Setup and Step Parameters by Winter Zone</caption>
+  <thead>
+    <tr><th rowspan="2">Winter zone (annual extreme minimum)</th><th rowspan="2">Target chamber temperature (°C)</th><th rowspan="2">Temperature stabilization time (min)</th><th rowspan="2">Beam dimensions (mm)</th><th rowspan="2">Span length (mm)</th><th rowspan="2">Preload (N)</th><th rowspan="2">Loading rate (mm/min)</th><th colspan="2">Instrumentation</th><th rowspan="2">Strain calculation model</th><th rowspan="2">Reporting items</th></tr>
+    <tr><th>Sensor type</th><th>Sampling frequency (Hz)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Severely cold (<-37°C)</td><td>-10</td><td>60</td><td>250×30×35</td><td>200</td><td>10</td><td>50</td><td>Extensometer</td><td>100</td><td>Linear elastic</td><td>Peak load, midspan deflection, raw strain-time</td></tr>
+    <tr><td>Cold (-37 to -21.5°C)</td><td>-5</td><td>45</td><td>250×30×35</td><td>200</td><td>10</td><td>50</td><td>Extensometer</td><td>100</td><td>Linear elastic</td><td>Peak load, midspan deflection, raw strain-time</td></tr>
+    <tr><td>Cool-winter (>-21.5°C)</td><td>0</td><td>30</td><td>250×30×35</td><td>200</td><td>10</td><td>50</td><td>Extensometer</td><td>100</td><td>Linear elastic</td><td>Peak load, midspan deflection, raw strain-time</td></tr>
+    <tr><td>Plateau cold (supplemental)</td><td>-10</td><td>75</td><td>250×30×35</td><td>200</td><td>10</td><td>30</td><td>LVDT</td><td>200</td><td>Linear elastic</td><td>Deflection-time curve, temperature log</td></tr>
+    <tr><td>Maritime cold (supplemental)</td><td>-5</td><td>60</td><td>250×30×35</td><td>200</td><td>10</td><td>50</td><td>Extensometer</td><td>100</td><td>Linear elastic</td><td>Peak load, strain-time, humidity note</td></tr>
+    <tr><td>Continental dry-cold (supplemental)</td><td>-5</td><td>45</td><td>250×30×35</td><td>200</td><td>10</td><td>50</td><td>Extensometer</td><td>100</td><td>Linear elastic</td><td>Peak load, midspan deflection, raw strain-time</td></tr>
+  </tbody>
+</table>

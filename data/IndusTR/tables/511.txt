@@ -1,0 +1,8 @@
+<table>
+  <caption>Device Security Authentication API Definition</caption>
+  <tr><td>API Name</td><td>Device Security Authentication API</td></tr>
+  <tr><td>API Description</td><td>Authenticate the device identity</td></tr>
+  <tr><td>API Method</td><td>POST</td></tr>
+  <tr><td>Parameter Description</td><td>Must include at least: User ID (string userID), authentication parameter (string access_token), device ID (stringdevID), device certificate (string devSign)</td></tr>
+  <tr><td>Return Value</td><td>Returns whether authentication was successful</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Permissible Error Limits by Accuracy Class and Measurement Function (No Output Range Columns)</caption>
+  <thead>
+    <tr><th rowspan="2">Measurement function</th><th rowspan="2">Reference condition</th><th colspan="5">Permitted error limit (%)</th></tr>
+    <tr><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DC voltage output accuracy</td><td>At nominal output</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>DC current output accuracy</td><td>At nominal output</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>DC power output accuracy</td><td>PF = 1 (DC)</td><td>±0.020</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>DC energy (Wh) verification result</td><td>1 h integration</td><td>±0.020</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>Timing reference contribution</td><td>Using internal timebase</td><td>±0.001</td><td>±0.001</td><td>±0.002</td><td>±0.005</td><td>±0.010</td></tr>
+    <tr><td>Repeatability of verification</td><td>5 consecutive runs</td><td>0.005</td><td>0.010</td><td>0.020</td><td>0.050</td><td>0.100</td></tr>
+  </tbody>
+</table>

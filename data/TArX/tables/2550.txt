@@ -1,0 +1,12 @@
+<table>
+  <caption>Selection criteria applied to tracks for the full reconstruction, ID tracks and Pixel tracks. The transverse momentum cut applied depends on the phase-space region in question. (*) For the Pixel track method the layer-0 is required even if not expected. (**) The SCT hit selection are for \pta < 200 , 200 < \pta < 300 or \pta > 300 MeV, respectively. (***) For the Pixel track method, the \dzero and \zzero selection are after the track refitting is performed (see Sec. LABEL:sec:2.36config ).</caption>
+  <tr><th>Criteria</th><th>= 0.9 and 7 TeV</th><th colspan="2">= 2.36 TeV</th></tr>
+  <tr><th></th><th>Full Tracks</th><td>ID Tracks</td><td>Pixel Tracks</td></tr>
+  <tr><th>>100 or 500 MeV</th><th>YES</th><td>YES</td><td>YES</td></tr>
+  <tr><th>||<2.5</th><th>YES</th><td>YES</td><td>YES</td></tr>
+  <tr><th>layer-0 hit if expected</th><th>YES</th><td>YES</td><td>YES(*)</td></tr>
+  <tr><th>>1 Pixel hit</th><th>YES</th><td>YES</td><td>YES</td></tr>
+  <tr><th>>2 , 4 or 6 SCT hits for tracks (**)</th><th>YES</th><td>NO</td><td>NO</td></tr>
+  <tr><th>||<1.5 mm and ||·<1.5 mm</th><th>YES</th><td>YES</td><td>YES(***)</td></tr>
+  <tr><th>χ^(2) probability >0.01 for ~>~10 GeV</th><th>YES</th><td>N/A</td><td>N/A</td></tr>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Calibration Data Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Offset Calibration Sequence</td><td>（0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td></td></tr>
+  <tr><td>>Offset Calibration File</td><td>（0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Offset calibration image acquired under no-radiation exposure conditions</td></tr>
+  <tr><td>Gain Calibration Sequence</td><td>（0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td></td></tr>
+  <tr><td>>Gain Calibration File</td><td>（0014,3070)</td><td>OB</td><td>1</td><td>1</td><td>Gain calibration image acquired under radiation exposure conditions</td></tr>
+  <tr><td>>Tube Voltage for Gain Calibration</td><td>(0014,3071)</td><td>DS</td><td>1</td><td>3</td><td>Set value of tube voltage for gain calibration, in kilovolts (kV)</td></tr>
+  <tr><td>>Tube Current for Gain Calibration</td><td>(0014,3072)</td><td>DS</td><td>1</td><td>3</td><td>Set value of tube current for gain calibration, in milliamperes (mA)</td></tr>
+  <tr><td>Bad Pixel Correction File</td><td>（0014,3080)</td><td>OB</td><td>1</td><td>2</td><td>Byte image with the same number of rows and columns as the image data (7EE0,0010); (1) indicates good pixels and (0) indicates bad pixels</td></tr>
+  <tr><td>Detector Calibration Date</td><td>（0018,700C)</td><td>DA</td><td>1</td><td>3</td><td>Date of the most recent detector calibration</td></tr>
+  <tr><td>Detector Calibration Time</td><td>(0018,700E)</td><td>TM</td><td>1</td><td>3</td><td>Time of the most recent detector calibration</td></tr>
+</table>

@@ -1,0 +1,11 @@
+# Standard RAID levels - Wikipedia, the free encyclopedia
+
+| Level | RAID 0 | RAID 1 | RAID 2 | RAID 3 | RAID 4 | RAID 5 | RAID 6 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Description | Block-level striping without parity or mirroring | Mirroring without parity or striping | Bit-level striping with Hamming code for error correction | Byte-level striping with dedicated parity | Block-level striping with dedicated parity | Block-level striping with distributed parity | Block-level striping with double distributed parity |
+| Minimum number of drives[b] | 2 | 2 | 3 | 3 | 3 | 3 | 4 |
+| Space efficiency | 1 | 1/n | 1 − 1/n log2 (n − 1) | 1 − 1/n | 1 − 1/n | 1 − 1/n | 1 − 2/n |
+| Fault tolerance | None | n − 1 drive failures | One drive failure[e] | One drive failure | One drive failure | One drive failure | Two drive failures |
+| Array failure rate[c] | 1 − (1 − r)n | rn | Depends | 1 − (1 − r)n − nr (1 − r)n − 1 | 1 − (1 − r)n − nr (1 − r)n − 1 | 1 − (1 − r)n − nr (1 − r)n − 1 | 1 − (1 − r)n − nr (1 − r)n − 1 − ⎛⎝n 2⎞⎠ r2 (1 − r)n − 2 |
+| Read performance | n× | n×[a][10] | Depends | (n − 1)× | (n − 1)× | n×[f] | n×[f] |
+| Write performance | n× | 1×[d][10] | Depends | (n − 1)×[f] | (n − 1)×[f][citation needed] | (n − 1)×[f][citation needed] | (n − 2)×[f][citation needed] |

@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Link Control Word Quick Map (Character-Level, No Full Word Sequences)</caption>
+  <thead>
+    <tr><th>Behavior Category</th><th>Keyword</th><th>Primary Symbol</th><th>Secondary Symbol</th><th>What It Indicates</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Initialization</td><td>INIT1</td><td>K28.5</td><td>D6.2</td><td>Start of initialization handshake (character hints only)</td></tr>
+    <tr><td>Initialization</td><td>ACTIVE</td><td>D0.1</td><td>K28.7</td><td>Channel activation indication (not a full control-word)</td></tr>
+    <tr><td>Alignment/Padding</td><td>ALIGN</td><td>K28.5</td><td>D23.3</td><td>Lane alignment assist (partial fields only)</td></tr>
+    <tr><td>Alignment/Padding</td><td>PAD</td><td>K27.7</td><td>K27.7</td><td>Fill padding characters (repeated fill)</td></tr>
+    <tr><td>Idling/Skipping</td><td>IDLE</td><td>D15.6</td><td>K28.7</td><td>Idle condition on link (symbol association only)</td></tr>
+    <tr><td>Idling/Skipping</td><td>SKIP</td><td>D31.3</td><td>K28.7</td><td>Elastic buffer rate matching (symbol association only)</td></tr>
+    <tr><td>Acknowledgment</td><td>ACK</td><td>D2.5</td><td>K28.7</td><td>Frame acknowledged (no sequence/CRC placement)</td></tr>
+    <tr><td>Error Indication</td><td>RXERR</td><td>K0.0</td><td>D0.0</td><td>Receive error replacement indication (partial)</td></tr>
+  </tbody>
+</table>

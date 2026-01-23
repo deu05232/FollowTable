@@ -1,0 +1,10 @@
+<table>
+  <caption>Public Security Incident Response  Evidence Handling Workflow Checklist</caption>
+  <tr><th>Step</th><th>Role</th><th>Action</th><th>Required Record</th><th>Retention</th><th>Approval Needed</th></tr>
+  <tr><td>1</td><td>Operator</td><td>Export relevant clips</td><td>Export request form</td><td>2 years</td><td>Yes</td></tr>
+  <tr><td>2</td><td>Supervisor</td><td>Verify case linkage</td><td>Case number confirmation</td><td>2 years</td><td>Yes</td></tr>
+  <tr><td>3</td><td>Forensics</td><td>Compute hash and seal media</td><td>SHA-256 hash log</td><td>5 years</td><td>Yes</td></tr>
+  <tr><td>4</td><td>Custodian</td><td>Register evidence intake</td><td>Chain-of-custody entry</td><td>Permanent</td><td>Yes</td></tr>
+  <tr><td>5</td><td>Auditor</td><td>Conduct quarterly audit</td><td>Audit report</td><td>7 years</td><td>No</td></tr>
+  <tr><td>6</td><td>Legal</td><td>Release evidence to court</td><td>Disclosure letter</td><td>Case-based</td><td>Yes</td></tr>
+</table>

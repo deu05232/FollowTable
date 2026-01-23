@@ -1,0 +1,15 @@
+<table>
+  <caption>File RSA Signature Operation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_RsaSignFile(void * hAppHandle,unsigned char * pucContainerName,       SACunsigned int uiContainerNameLen,unsigned int uiHashAlgorithmID,unsigned char * pucFileName,unsigned char * pucSignData,unsigned int * puiSignDataLen)</td></tr>
+  <tr><td>Description</td><td>Perform signature operation on the specified file according to the requirements of PKCS#1</td></tr>
+  <tr><td rowspan="7">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name)</td></tr>
+  <tr><td>uiContainerNameLen[in](key container name length)</td></tr>
+  <tr><td>uiHashAlgorithmID[in](HASH algorithm)</td></tr>
+  <tr><td>pucFileName[in](full-path file name to be signed)</td></tr>
+  <tr><td>pucSignData[out](output DER-format signature result data)</td></tr>
+  <tr><td>puiSignDataLen[in,out](output signature result data length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>Non-0 (failure, returns the error code defined in Table C.1, shall comply with Appendix C)</td></tr>
+  <tr><td>Remarks</td><td>This function is mainly used to sign attachments, and is also applicable to signing large files</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Circular Knitting Machine Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Pattern Name</td><td>StructureNameSAC</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Name of the structure knitted by the equipment</td><td></td></tr>
+  <tr><td>0X0201</td><td>Style Name</td><td>StyleName</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Name of the style knitted by the equipment</td><td></td></tr>
+  <tr><td>0X0202</td><td>Process File Name</td><td>PatternFileName</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>一</td><td></td><td>UTF8 encoded string</td><td></td></tr>
+  <tr><td>0X0203</td><td>Pattern Height</td><td>PatternHeight</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>Courses</td><td>Number of courses in a complete pattern cycle</td><td></td></tr>
+  <tr><td>0X0204</td><td>Pattern Width</td><td>Pattern Width</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>一</td><td>Wales</td><td>Number of wales in a complete pattern cycle</td><td></td></tr>
+  <tr><td>0X0205</td><td>Loop Length</td><td>LoopLength</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>一</td><td>cm/100 needles</td><td>Unfolded length of 100 loops</td><td></td></tr>
+  <tr><td>0X0206</td><td>Gram Weight</td><td>GramWeight</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>g/m²</td><td>Weight per unit area</td><td></td></tr>
+  <tr><td>0X0207</td><td>Revolution per Piece</td><td>Revolution</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>n</td><td>Total number of revolutions to produce one piece of fabric</td><td></td></tr>
+  <tr><td>0X0208</td><td>Notional Production Time</td><td>NotionalProductionTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td>S</td><td>Underwear machine, sock machine: time required to produce a single piece of fabric</td><td></td></tr>
+  <tr><td>0X0209</td><td>Material Composition</td><td>MaterialComposition</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X020A</td><td>Yarn Fineness</td><td>YarnFineness</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>1</td><td>tex</td><td>1</td><td>1</td></tr>
+  <tr><td>0X020B</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td></td><td></td></tr>
+</table>

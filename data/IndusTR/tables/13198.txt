@@ -1,0 +1,11 @@
+<table>
+  <caption>Basic Math Operator Interface Parameters (Elementwise Add/Sub/Mul/Div)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Input A Tensor</td><td>Input</td><td>Required</td><td>First input tensor. Must be broadcast-compatible with Input B. Shape is described by: (1)rank(number of dimensions), (2)dims[](dimension size array), and (3)layout(e.g., NCHW/NHWC or generic row-major). Mixed layouts are disallowed unless explicitly supported.</td></tr>
+  <tr><td>Input B Tensor</td><td>Input</td><td>Required</td><td>Second input tensor. Shape fields: rank, dims[], layout. Must be broadcast-compatible with Input A across each dimension.</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Result tensor. Shape is the broadcasted shape computed from the two input shapes; carries rank, dims[] and layout (typically inherited from Input A unless overridden by operator policy).</td></tr>
+  <tr><td>Tensor Shape Metadata</td><td>Input</td><td>Required</td><td>Dedicated shape descriptor object used by the operator interface: includesrank,dims[], andlayout. When provided for both inputs, the implementation validates broadcast rules and determines output dims[].</td></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Numeric element type (e.g., int/uint/float/complex). If omitted, defaults to floating-point real numbers or is inferred from inputs depending on the runtime.</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Execution device selection (CPU/GPU/NPU/FPGA/ASIC). If omitted, default device is used.</td></tr>
+  <tr><td>Broadcast Policy</td><td>Input</td><td>Optional</td><td>Controls how shapes are matched (e.g., NumPy-style trailing-dimension broadcast). If omitted, the default broadcast behavior is used.</td></tr>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Relative voltage/current/power error limits for DC energy meter verification device (mixed metrics)</caption>
+  <thead>
+    <tr><th>Accuracy class of the device</th><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relative voltage error / %</td><td>±0.10</td><td>±0.10</td><td>±0.20</td><td>±0.20</td><td>±0.20</td></tr>
+    <tr><td>Relative current error / %</td><td>±0.10</td><td>±0.10</td><td>±0.20</td><td>±0.20</td><td>±0.30</td></tr>
+    <tr><td>Relative power error / %</td><td>±0.20</td><td>±0.20</td><td>±0.50</td><td>±0.50</td><td>±0.50</td></tr>
+    <tr><td>Interpretation</td><td colspan="5">Values describe component relative errors rather than the device basic error limit.</td></tr>
+    <tr><td>Test note</td><td colspan="5">Use when evaluating internal measurement channels.</td></tr>
+  </tbody>
+</table>

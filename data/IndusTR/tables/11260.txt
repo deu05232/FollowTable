@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Screen-to-Depth Hit Test Parameters</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Context</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame used for hit testing.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>in</td><td>Camera used to interpret view coordinates.</td></tr>
+    <tr><td rowspan="2">Input (View)</td><td>pixel_x</td><td>float</td><td>in</td><td>Logical X coordinate in the view.</td></tr>
+    <tr><td>pixel_y</td><td>float</td><td>in</td><td>Logical Y coordinate in the view.</td></tr>
+    <tr><td rowspan="2">Output</td><td>out_hit_pose</td><td>ArPose *</td><td>out</td><td>Pose of the hit location derived using depth.</td></tr>
+    <tr><td>out_confidence</td><td>float *</td><td>out</td><td>Confidence score for the depth-based hit result.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>AR frame API parameters for depth image acquisition (variant B, with optional region-of-interest)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>roi_u</td><td>float</td><td>Normalized U coordinate for the region-of-interest center</td></tr>
+  <tr><td>roi_v</td><td>float</td><td>Normalized V coordinate for the region-of-interest center</td></tr>
+  <tr><td>roi_radius</td><td>float</td><td>Radius of the region-of-interest in normalized units</td></tr>
+  <tr><td>out_depth_image</td><td>ArImage **</td><td>Pointer to pointer to ArImage to receive the address of the depth image</td></tr>
+  <tr><td>out_depth_quality</td><td>int32_t *</td><td>Receives a quality level indicator for the returned depth image</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>IM Integration - Generic API Result Envelope (All Operations)</caption>
+  <thead>
+    <tr><th>Applies To Operation</th><th>Field</th><th>Type/Format</th><th>Mandatory</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ALL</td><td>success</td><td>Boolean</td><td>Y</td><td>Indicates if the API call succeeded</td></tr>
+    <tr><td>ALL</td><td>returnResult</td><td>String (C..64)</td><td>Y</td><td>Outcome text (SUCCESS/FAILURE)</td></tr>
+    <tr><td>ALL</td><td>resultDescription</td><td>String (C..2000)</td><td>Y</td><td>Verbose description of the result</td></tr>
+    <tr><td>ALL</td><td>error</td><td>Object (JSON)</td><td>N</td><td>Error container when success=false</td></tr>
+    <tr><td>ALL</td><td>error.code</td><td>String (C..32)</td><td>N</td><td>Error code</td></tr>
+    <tr><td>ALL</td><td>error.message</td><td>String (C..256)</td><td>N</td><td>Error message</td></tr>
+    <tr><td>ALL</td><td>error.details</td><td>String (C..2000)</td><td>N</td><td>Additional diagnostic information</td></tr>
+    <tr><td>ALL</td><td>traceId</td><td>String (C..64)</td><td>N</td><td>Trace identifier for support</td></tr>
+    <tr><td>ALL</td><td>serverTime</td><td>DateTime (ISO-8601)</td><td>N</td><td>Server time when responding</td></tr>
+  </tbody>
+</table>

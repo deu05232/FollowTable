@@ -1,0 +1,10 @@
+<table>
+  <caption>Comparison of Open API authentication requirements by endpoint</caption>
+  <tr><th>API Endpoint</th><th>Method</th><th>Auth Field Name</th><th>Auth Field Type</th><th>Where to Send</th></tr>
+  <tr><td>Gateway Identifier Save API</td><td>POST</td><td>access_token</td><td>string</td><td>request parameter</td></tr>
+  <tr><td>Production Material Form Save API</td><td>POST</td><td>access_token</td><td>string</td><td>request parameter</td></tr>
+  <tr><td>Device Security Authentication API</td><td>POST</td><td>access_token</td><td>string</td><td>request parameter</td></tr>
+  <tr><td>Microservice Registration API</td><td>POST</td><td>access_token</td><td>string</td><td>request parameter</td></tr>
+  <tr><td>Device Query API</td><td>GET</td><td>access_token</td><td>string</td><td>request parameter</td></tr>
+  <tr><td>Edge Gateway Creation API</td><td>POST</td><td>access_token</td><td>string</td><td>request parameter</td></tr>
+</table>

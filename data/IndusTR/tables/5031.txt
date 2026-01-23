@@ -1,0 +1,15 @@
+<table>
+  <caption>RSA Signature Operation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_RsaSign(void * hAppHandle,unsigned char * pucContainerName,SACunsigned int uiContainerNameLen,unsigned int uiHashAlgorithmID,unsigned char * pucInData，,unsigned int uiInDataLen,unsigned char * pucSignData,unsigned int * puiSignDataLen)</td></tr>
+  <tr><td>Description</td><td>Perform a signature operation on a string of a certain length according to the requirements of PKCS #1</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name or key number）</td></tr>
+  <tr><td>uiContainerNameLen[in](key container name length）</td></tr>
+  <tr><td>uiHashAlgorithmID[in](HASH algorithm)</td></tr>
+  <tr><td>pucInData[in](original data to be signed)</td></tr>
+  <tr><td>uiInDataLen[in](length of the original data to be signed)</td></tr>
+  <tr><td>pucSignData[out](output DER-format signature result data)</td></tr>
+  <tr><td>puiSignDataLen[in,out](length of the output signature result data)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

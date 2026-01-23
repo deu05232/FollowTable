@@ -1,0 +1,5 @@
+<table>
+  <caption>SpaceFibre Bus Receive Error Indication Control Word Definitions</caption>
+  <tr><td>Name</td><td>Control Word</td><td>Function</td></tr>
+  <tr><td>Receive Error Indication Control Word RXERR</td><td>Error,Reserved,Reserved，ReservedK0.0,D0.0,D0.0,D0.0</td><td>Indicates that the decoder detected an error in the received data stream. Any erroneous word (containing one or more symbols) during reception is replaced with RXERR. When the receive synchronization state machine has not entered the ready state, the entire received data stream is replaced with RXERR</td></tr>
+</table>

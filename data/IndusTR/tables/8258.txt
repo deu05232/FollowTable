@@ -1,0 +1,17 @@
+<table>
+  <caption>Permissible Energy Measurement Error Limits by Output Voltage/Current Operating Range (DC Verification Source)</caption>
+  <thead>
+    <tr><th rowspan="2">Operating range group</th><th rowspan="2">Output voltage range (V)</th><th rowspan="2">Output current range (A)</th><th colspan="5">Permitted energy error limit (%) by accuracy class</th></tr>
+    <tr><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Low voltage</td><td>1 to 5</td><td>0.01 to 0.2</td><td>±0.020</td><td>±0.040</td><td>±0.100</td><td>±0.200</td><td>±0.400</td></tr>
+    <tr><td>1 to 5</td><td>0.2 to 2</td><td>±0.012</td><td>±0.025</td><td>±0.060</td><td>±0.120</td><td>±0.240</td></tr>
+    <tr><td rowspan="3">Medium voltage</td><td>5 to 60</td><td>0.01 to 0.2</td><td>±0.015</td><td>±0.030</td><td>±0.075</td><td>±0.150</td><td>±0.300</td></tr>
+    <tr><td>5 to 60</td><td>0.2 to 5</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>60 to 300</td><td>0.2 to 5</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td rowspan="3">High voltage</td><td>300 to 1000</td><td>0.2 to 5</td><td>±0.012</td><td>±0.025</td><td>±0.060</td><td>±0.120</td><td>±0.240</td></tr>
+    <tr><td>300 to 1000</td><td>5 to 30</td><td>±0.015</td><td>±0.030</td><td>±0.075</td><td>±0.150</td><td>±0.300</td></tr>
+    <tr><td>1000 to 1500</td><td>5 to 30</td><td>±0.020</td><td>±0.040</td><td>±0.100</td><td>±0.200</td><td>±0.400</td></tr>
+  </tbody>
+</table>

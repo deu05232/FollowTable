@@ -1,0 +1,7 @@
+<table>
+  <caption>Tensor Dimension Expansion Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Represents the input tensor</td></tr>
+  <tr><td>Insertion Position</td><td>Input</td><td>Optional</td><td>Represents the position to insert the new dimension, default is 0</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Represents the output tensor after inserting a new dimension</td></tr>
+</table>

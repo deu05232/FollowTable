@@ -1,0 +1,16 @@
+<table>
+  <caption>Angle Y Requirements with Added Polar-Angle and C-Plane Summary Columns</caption>
+  <thead>
+    <tr><th rowspan="2">Angle Y (deg)</th><th rowspan="2">Polar Angle θ (deg)</th><th rowspan="2">C-Plane Summary</th><th colspan="2">Product LED Light Source (cd/1,000 lm)</th><th colspan="2">Standard LED Light Source (cd/1,000 lm)</th></tr>
+    <tr><th>Minimum</th><th>Maximum</th><th>Minimum</th><th>Maximum</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>-90</td><td>90</td><td>Avg(C0,C90,C180,C270)</td><td>0</td><td>55</td><td>0</td><td>45</td></tr>
+    <tr><td>-75</td><td>75</td><td>Max over C-planes</td><td>0</td><td>170</td><td>0</td><td>155</td></tr>
+    <tr><td>-60</td><td>60</td><td>Avg(C0,C180)</td><td>5</td><td>260</td><td>0</td><td>240</td></tr>
+    <tr><td>-45</td><td>45</td><td>Max(C90,C270)</td><td>10</td><td>320</td><td>5</td><td>300</td></tr>
+    <tr><td>-30</td><td>30</td><td>Avg(C0,C90,C180,C270)</td><td>20</td><td>360</td><td>15</td><td>340</td></tr>
+    <tr><td>-15</td><td>15</td><td>Max over C-planes</td><td>30</td><td>390</td><td>25</td><td>370</td></tr>
+    <tr><td>0</td><td>0</td><td>Avg(C0,C180)</td><td>40</td><td>410</td><td>35</td><td>390</td></tr>
+  </tbody>
+</table>

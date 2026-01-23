@@ -1,0 +1,7 @@
+<table>
+  <caption>User terminal I/O message flow (silence control procedure)</caption>
+  <tr><th>Step</th><th>Terminal action</th><th>Expected network response</th></tr>
+  <tr><td>1</td><td>Send silence start command</td><td>Network returns acceptance or rejection</td></tr>
+  <tr><td>2</td><td>Wait for confirmation</td><td>Confirmation message received</td></tr>
+  <tr><td>3</td><td>Send silence end command</td><td>Network returns end confirmation</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>ArHitResult_getDistanceAndPose: Retrieve distance and pose for UI collision feedback</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit test result object pointer</td></tr>
+  <tr><td>out_distance</td><td>float *</td><td>Pointer to receive distance from ray origin to hit</td></tr>
+  <tr><td>out_pose</td><td>ArPose *</td><td>Pointer to receive hit pose in world coordinates</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Pointer to receive the frame timestamp associated with the hit</td></tr>
+  <tr><td>out_status</td><td>ArStatus *</td><td>Pointer to receive API call status</td></tr>
+</table>

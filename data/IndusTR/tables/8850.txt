@@ -1,0 +1,16 @@
+<table>
+  <caption>Transport Layer Single-Frame PDU Header Layout (No Segmentation Fields)</caption>
+  <thead>
+    <tr><th>Field</th><th>Size (bits)</th><th>Offset (bytes)</th><th>Example</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Priority (P)</td><td>3</td><td>0</td><td>0x4</td><td>Frame priority</td></tr>
+    <tr><td>Extended Data Page (EDP)</td><td>1</td><td>0</td><td>0</td><td>Extended data page flag</td></tr>
+    <tr><td>Data Page (DP)</td><td>1</td><td>0</td><td>0</td><td>Data page flag</td></tr>
+    <tr><td>PDU Format (PF)</td><td>8</td><td>1</td><td>0x35</td><td>Message class / format selector</td></tr>
+    <tr><td>PDU Specific (PS)</td><td>8</td><td>2</td><td>0x80</td><td>Destination address (or group extension)</td></tr>
+    <tr><td>Source Address (SA)</td><td>8</td><td>3</td><td>0x21</td><td>Sender address</td></tr>
+    <tr><td>Data</td><td>0..64</td><td>4..</td><td>0x..</td><td>Application payload (fits in one frame only)</td></tr>
+    <tr><td>Pad</td><td>0..56</td><td>var</td><td>0xFF</td><td>Padding when data shorter than max payload</td></tr>
+  </tbody>
+</table>

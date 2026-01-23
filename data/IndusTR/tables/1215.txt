@@ -1,0 +1,16 @@
+<table>
+  <caption>Performance Parameters of Cardiac Defibrillator</caption>
+  <tr><td>Data Element Identifier</td><td>Data Element Name</td><td>Special Data Entity Constraint Conditions</td></tr>
+  <tr><td>H1074A0000</td><td>Defibrillation Mode</td><td>B</td></tr>
+  <tr><td>H1075A0000</td><td>Defibrillation Waveform</td><td>B</td></tr>
+  <tr><td>H1076A0000</td><td>Energy Range</td><td>B</td></tr>
+  <tr><td>H1077A0000</td><td>Energy Error</td><td>B</td></tr>
+  <tr><td>H1078A0000</td><td>Defibrillation Electrode Paddle Type</td><td>B</td></tr>
+  <tr><td>H1079A0000</td><td>Synchronized Defibrillation Function</td><td>B</td></tr>
+  <tr><td>H1080A0000</td><td>Monitoring Function</td><td>B</td></tr>
+  <tr><td>H1081A0000</td><td>Whether Self-test Function Is Available      SAC</td><td>B</td></tr>
+  <tr><td>H1051A0000</td><td>Alarm Mode</td><td>B</td></tr>
+  <tr><td>H1082A0000</td><td>Charging Time to 200 Joules</td><td>A</td></tr>
+  <tr><td>H1083A0000</td><td>Battery Charge/Discharge Cycles</td><td>A</td></tr>
+  <tr><td colspan="3">Note: Filling in “A” in the table indicates that the corresponding data element is optional; filling in “B” indicates that the corresponding data element is mandatory.</td></tr>
+</table>

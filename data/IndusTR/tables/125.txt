@@ -1,0 +1,10 @@
+<table>
+  <caption>Association Relationship Table Between Agricultural Machinery Purchase Subsidy Applications and Disbursement Information</caption>
+  <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table</td></tr>
+  <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+  <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+  <tr><td>Table Name 2</td><td>Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table</td></tr>
+  <tr><td>Relationship 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table.Subsidy Application Year-〉Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table.Subsidy Disbursement Year</td></tr>
+  <tr><td>Relationship 2</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table.Administrative Division Code-〉Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table.Administrative Division Code</td></tr>
+  <tr><td>Relationship 3</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table.ID Number-〉Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table.ID Number</td></tr>
+</table>

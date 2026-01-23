@@ -1,0 +1,17 @@
+<table>
+  <caption>Real-Time Vehicle GPS Tracking Points with Responsible Unit</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>Data Type</th><th>Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Terminal</td><td>Terminal ID</td><td>String</td><td>an..50</td><td>On-board positioning terminal identifier</td></tr>
+    <tr><td>Vehicle Reference</td><td>Vehicle Plate Number</td><td>String</td><td>an..15</td><td>Plate associated with the terminal</td></tr>
+    <tr><td>Org Context</td><td>Supervising Department</td><td>String</td><td>an..60</td><td>Department responsible for monitoring</td></tr>
+    <tr><td>Tracking</td><td>Position Timestamp</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td><td>Time when the coordinate was reported</td></tr>
+    <tr><td>Tracking</td><td>Latitude</td><td>Decimal</td><td>n..10,6</td><td>WGS-84 latitude</td></tr>
+    <tr><td>Tracking</td><td>Longitude</td><td>Decimal</td><td>n..10,6</td><td>WGS-84 longitude</td></tr>
+    <tr><td>Tracking</td><td>Speed (km/h)</td><td>Decimal</td><td>n..6,2</td><td>Instant speed at the point</td></tr>
+    <tr><td>Tracking</td><td>Heading</td><td>Integer</td><td>n..3</td><td>Direction angle 0-359</td></tr>
+    <tr><td>Status</td><td>Ignition Status</td><td>String</td><td>an..10</td><td>ON/OFF at report time</td></tr>
+  </tbody>
+</table>

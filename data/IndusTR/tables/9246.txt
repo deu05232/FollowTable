@@ -1,0 +1,24 @@
+<table>
+  <caption>Road Traffic Safety Early-Warning Message Record (Exchange Data Elements)</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Requirements / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Warning Message ID</td><td>Character</td><td>36</td><td>No</td><td>Yes</td><td>Globally unique identifier (e.g., UUID) for exchange and de-duplication</td></tr>
+    <tr><td>2</td><td>Warning Category</td><td>Character</td><td>32</td><td>No</td><td>Yes</td><td>Examples: Accident, Vehicle Breakdown, Road Obstacle, Weather Hazard, Fire</td></tr>
+    <tr><td>3</td><td>Severity Level</td><td>Integer</td><td>1</td><td>No</td><td>Yes</td><td>1=Low, 2=Medium, 3=High, 4=Critical</td></tr>
+    <tr><td>4</td><td>Event Start Time</td><td>DateTime</td><td>25</td><td>No</td><td>Yes</td><td>ISO 8601 timestamp with time zone (e.g., 2026-01-19T08:30:00+08:00)</td></tr>
+    <tr><td>5</td><td>Report Received Time</td><td>DateTime</td><td>25</td><td>No</td><td>Yes</td><td>When the platform first received the source report</td></tr>
+    <tr><td>6</td><td>Warning Issued Time</td><td>DateTime</td><td>25</td><td>No</td><td>Yes</td><td>When this warning message version is issued</td></tr>
+    <tr><td>7</td><td>Expected End/Recovery Time</td><td>DateTime</td><td>25</td><td>Yes</td><td>Yes</td><td>Estimated time traffic returns to normal; can be revised in updates</td></tr>
+    <tr><td>8</td><td>Message Status</td><td>Character</td><td>16</td><td>No</td><td>Yes</td><td>Draft/Active/Updated/Cancelled/Ended</td></tr>
+    <tr><td>9</td><td>Update Sequence No.</td><td>Integer</td><td>10</td><td>No</td><td>Yes</td><td>Monotonic sequence for the same Warning Message ID</td></tr>
+    <tr><td>10</td><td>Affected Location Description</td><td>Character</td><td>1000</td><td>No</td><td>Yes</td><td>Human-readable location text for operators (road name, direction, nearby landmark)</td></tr>
+    <tr><td>11</td><td>Administrative Area Code</td><td>Character</td><td>12</td><td>Yes</td><td>Yes</td><td>Optional standardized code of affected area (e.g., county/district)</td></tr>
+    <tr><td>12</td><td>Road Name</td><td>Character</td><td>128</td><td>Yes</td><td>Yes</td><td>Primary road/highway name if applicable</td></tr>
+    <tr><td>13</td><td>Direction</td><td>Character</td><td>16</td><td>Yes</td><td>Yes</td><td>N/S/E/W, inbound/outbound, or increasing/decreasing mileage</td></tr>
+    <tr><td>14</td><td>Start Reference Point (Text)</td><td>Character</td><td>256</td><td>Yes</td><td>Yes</td><td>Example: “Near Exit 5” / “200m east of XX Bridge”</td></tr>
+    <tr><td>15</td><td>End Reference Point (Text)</td><td>Character</td><td>256</td><td>Yes</td><td>Yes</td><td>Used when the impacted segment has a known end point</td></tr>
+    <tr><td>16</td><td>Recommended Operator Action</td><td>Character</td><td>256</td><td>Yes</td><td>Yes</td><td>Examples: Slow down, Detour, Lane closure, Avoid area</td></tr>
+  </tbody>
+</table>

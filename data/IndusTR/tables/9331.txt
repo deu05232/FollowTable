@@ -1,0 +1,15 @@
+<table>
+  <caption>ARLightEstimate Directional Lighting Query Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>light_estimate</td><td>ArLightEstimate *</td><td>Light-estimate object to query directional lighting values from</td></tr>
+    <tr><td>out_valid</td><td>ArBool *</td><td>Receives whether the light estimate is valid for this frame/time</td></tr>
+    <tr><td>out_direction_3</td><td>float *</td><td>Receives main directional light direction (x,y,z)</td></tr>
+    <tr><td>out_intensity_3</td><td>float *</td><td>Receives main directional light RGB intensity (R,G,B)</td></tr>
+    <tr><td>out_shadow_strength</td><td>float *</td><td>Receives suggested shadow strength factor (0..1) for rendering</td></tr>
+    <tr><td>out_temperature_kelvin</td><td>float *</td><td>Receives estimated correlated color temperature (Kelvin) for white balance</td></tr>
+  </tbody>
+</table>

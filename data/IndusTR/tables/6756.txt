@@ -1,0 +1,14 @@
+<table>
+  <caption>AC Supply Tolerances and Power Quality Limits During Copier/MFD Energy Tests</caption>
+  <thead>
+    <tr><th>Rated Product Power (kW)</th><th>Nominal Voltage (V)</th><th>Voltage Tolerance (V)</th><th>Nominal Frequency (Hz)</th><th>Frequency Tolerance (Hz)</th><th>THD Limit</th><th>Measurement Point</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 0.5</td><td>120</td><td>±1.2</td><td>60</td><td>±0.3</td><td>≤ 3%</td><td rowspan="2">At DUT input terminals</td></tr>
+    <tr><td>> 0.5 to ≤ 1.5</td><td>120</td><td>±3.6</td><td>60</td><td>±0.3</td><td>≤ 5%</td></tr>
+    <tr><td>≤ 1.5</td><td>230</td><td>±2.3</td><td>50</td><td>±0.5</td><td>≤ 2%</td><td rowspan="2">At supply source output</td></tr>
+    <tr><td>> 1.5</td><td>230</td><td>±9.2</td><td>50</td><td>±0.5</td><td>≤ 5%</td></tr>
+    <tr><td>Any</td><td>Any</td><td>Within stated tolerance</td><td>Any</td><td>Within stated tolerance</td><td>As above</td><td>Record min/avg/max during test run</td></tr>
+    <tr><td>Any</td><td>Any</td><td>—</td><td>Any</td><td>—</td><td>—</td><td>Note presence of UPS, stabilizer, or generator</td></tr>
+  </tbody>
+</table>

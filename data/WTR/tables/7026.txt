@@ -1,0 +1,11 @@
+# Laptop Performance Benchmark Results with CPU as Testbed Metadata (Not a CPU comparison table)
+
+| Laptop Used in Lab | Test Scenario | OS Image | Compiler / Runtime | CPU (lab metadata) | Power Profile | Benchmark Score | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Dell Latitude 5420 | Web browsing script | Ubuntu 22.04 | Chromium 120 | Intel Core i5-1145G7 (testbed) | Balanced | 1280 | Scripted workload |
+| Lenovo Yoga 7 | Photo export | Windows 11 | Adobe LR | AMD Ryzen 7 5800U (testbed) | Best performance | 945 | Mixed GPU effects |
+| HP Envy 13 | Code build | Ubuntu 22.04 | GCC 12 | Intel Core i7-1165G7 (testbed) | Performance | 22m14s | Build time lower is better |
+| ASUS VivoBook 15 | Spreadsheet macro | Windows 10 | Office 2019 | Intel Core i3-1005G1 (testbed) | Balanced | 610 | IO sensitive |
+| Acer Swift 3 | Video transcode | Windows 11 | HandBrake | AMD Ryzen 5 4500U (testbed) | Performance | 34 fps | Preset: Fast 1080p |
+| Microsoft Surface Laptop 4 | ML inference | Windows 11 | ONNX Runtime | AMD Ryzen 7 4980U (testbed) | Best performance | 72 img/s | CPU-only run |
+| MacBook Air (M1) | Browser JS suite | macOS 13 | Safari | Apple M1 (testbed) | Default | 210 | Different engine |

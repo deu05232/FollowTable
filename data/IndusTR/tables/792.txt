@@ -1,0 +1,12 @@
+<table>
+  <caption>Input Parameters for Appending Information Container Content</caption>
+  <tr><td>Parameter Name</td><td>Chinese Name</td><td>Data Type</td><td>Required</td><td>Remarks</td></tr>
+  <tr><td>projectId</td><td>Project Identifier</td><td>string</td><td>Yes</td><td>The unique identifier of the project</td></tr>
+  <tr><td>containerId</td><td>Container Identifier</td><td>string</td><td>Yes</td><td>The unique identifier of the container</td></tr>
+  <tr><td>name</td><td>Name</td><td>string</td><td>Yes</td><td>Content name</td></tr>
+  <tr><td>location</td><td>Storage Location</td><td>string</td><td>Optional</td><td>The storage location of the content, i.e., the download URL of the content data</td></tr>
+  <tr><td>type</td><td>Type</td><td>string</td><td>Optional</td><td>The content type, compliant with the IANA MIME specification definition</td></tr>
+  <tr><td>schema</td><td>Rule</td><td>string</td><td>Optional</td><td>The rule name of the content or the rule link URL</td></tr>
+  <tr><td>schemaVersion</td><td>Rule Version</td><td>string</td><td>Optional</td><td>Rule version. Valid only for rule containers</td></tr>
+  <tr><td>schemaSubset</td><td>Rule Subset</td><td>string</td><td>Optional</td><td>The subset name of the rule or its link URL. Valid only for rule containers</td></tr>
+</table>

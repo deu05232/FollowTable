@@ -1,0 +1,7 @@
+<table>
+  <caption>Data Link Layer Version Negotiation – Summary by Negotiated Version Only</caption>
+  <tr><th>Negotiated Version</th><th>Meaning</th><th>Next Step</th></tr>
+  <tr><td>V1.x.x</td><td>Legacy link layer negotiation supported</td><td>Proceed with basic messaging</td></tr>
+  <tr><td>V2.0.0+</td><td>Enables function negotiation stage</td><td>Enter function negotiation after success</td></tr>
+  <tr><td>Below minimum</td><td>Unsupported</td><td>Negotiation failed</td></tr>
+</table>

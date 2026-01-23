@@ -1,0 +1,9 @@
+<table>
+  <caption>SOF Component Digital Envelope Encryption Interface Definition</caption>
+  <tr><td>Prototype</td><td>BSTR SOF_EncryptData(BSTR Base64Cert,BSTR InData)</td></tr>
+  <tr><td>Description</td><td>Digital envelope encryption. The encryption process is to use a temporarily generated symmetric key to encrypt the data, then use the public key of the digital certificate to encrypt the symmetric key, and return Base64-encoded data type B ciphertext data</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>Base64Cert(Base64-encoded encryption certificate of the data recipient; if multiple certificates are used to encrypt the data, connect the certificates using &&& as the separator)</td></tr>
+  <tr><td>InData(Plaintext to be encrypted)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>Base64-encoded ciphertext data(Success)</td></tr>
+  <tr><td>Empty string(Failure, you can obtain the error code defined in Table A.1 via SOF_GetLastError)</td></tr>
+</table>

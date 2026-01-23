@@ -1,0 +1,18 @@
+<table>
+  <caption>Data Link Layer Version Negotiation Frame Header Bit Layout (CAN Extended ID + Control)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Bit Position(s)</th><th>Bit Length</th><th>Encoding / Fixed Value</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CAN Identifier (29-bit)</td><td>Priority (P)</td><td>28..26</td><td>3</td><td>0b011 (0x3)</td><td>Arbitration priority; not part of negotiation payload</td></tr>
+    <tr><td>CAN Identifier (29-bit)</td><td>Extended Data Page (EDP)</td><td>25</td><td>1</td><td>0</td><td>Reserved page selector</td></tr>
+    <tr><td>CAN Identifier (29-bit)</td><td>Data Page (DP)</td><td>24</td><td>1</td><td>0</td><td>Reserved</td></tr>
+    <tr><td>CAN Identifier (29-bit)</td><td>PDU Format (PF)</td><td>23..16</td><td>8</td><td>0x38 or 0x39</td><td>Message group identifier</td></tr>
+    <tr><td>CAN Identifier (29-bit)</td><td>PDU Specific (PS)</td><td>15..8</td><td>8</td><td>0xF4 / 0x56</td><td>Destination address</td></tr>
+    <tr><td>CAN Identifier (29-bit)</td><td>Source Address (SA)</td><td>7..0</td><td>8</td><td>0x56 / 0xF4</td><td>Source address</td></tr>
+    <tr><td>CAN Frame Control</td><td>IDE</td><td>Control bit</td><td>1</td><td>1 (extended frame)</td><td>Selects 29-bit identifier</td></tr>
+    <tr><td>CAN Frame Control</td><td>RTR</td><td>Control bit</td><td>1</td><td>0 (data frame)</td><td>No remote frames</td></tr>
+    <tr><td>CAN Frame Control</td><td>DLC</td><td>Control field</td><td>4</td><td>8</td><td>Always 8 data bytes</td></tr>
+    <tr><td>Data Bytes</td><td>Data[0..7]</td><td>Byte positions 0..7</td><td>64</td><td>Opaque</td><td>Negotiation payload defined elsewhere</td></tr>
+  </tbody>
+</table>

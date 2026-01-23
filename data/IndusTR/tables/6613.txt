@@ -1,0 +1,16 @@
+<table>
+  <caption>APD Photodetector Assembly Specification Summary (Performance + Reliability Tests)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter</th><th>Test Condition</th><th>Min</th><th>Max</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Optical/Electrical Performance</td><td>Responsivity</td><td>λ = 1550 nm, 25°C</td><td>0.75</td><td>—</td><td>A/W</td></tr>
+    <tr><td>Optical return loss</td><td>ORL</td><td>standard interface</td><td>12</td><td>—</td><td>dB</td></tr>
+    <tr><td>Avalanche multiplication factor</td><td>M</td><td>0.92VBR, Pin=1 μW</td><td>4</td><td>14</td><td>1</td></tr>
+    <tr><td>Spectral response range</td><td>λ</td><td>measured at 25°C</td><td>1290</td><td>1700</td><td>nm</td></tr>
+    <tr><td rowspan="4">Reliability / Qualification</td><td>Thermal cycling</td><td>-40 to +85°C, 200 cycles</td><td>Pass</td><td>Pass</td><td>—</td></tr>
+    <tr><td>Damp heat steady state</td><td>85°C / 85% RH, 1000 h</td><td>Pass</td><td>Pass</td><td>—</td></tr>
+    <tr><td>Mechanical shock</td><td>1500 g, 0.5 ms, 3 axes</td><td>Pass</td><td>Pass</td><td>—</td></tr>
+    <tr><td>Salt mist</td><td>5% NaCl, 48 h</td><td>Pass</td><td>Pass</td><td>—</td></tr>
+  </tbody>
+</table>

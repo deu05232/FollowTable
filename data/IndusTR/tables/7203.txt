@@ -1,0 +1,16 @@
+<table>
+  <caption>Common Invalid Sequences Involving Mongolian Variation Selectors (FVS1–FVS3) and MVS</caption>
+  <thead>
+    <tr><th>Display Form (illustrative)</th><th>Invalid Sequence Example (explicitly disallowed pattern)</th><th>Why Invalid (short label)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Isolated selector mark</td><td>FVS1</td><td>Selector cannot stand alone</td></tr>
+    <tr><td>Selector at start of word</td><td>FVS2 + U+1820 (MONGOLIAN LETTER A)</td><td>Selector must follow a base character</td></tr>
+    <tr><td>Two selectors stacked</td><td>U+1820 (A) + FVS1 + FVS2</td><td>Only one VS allowed per base</td></tr>
+    <tr><td>MVS applied to non-permitted base</td><td>U+1827 (EE) + MVS</td><td>MVS not defined for this base</td></tr>
+    <tr><td>Selector after punctuation</td><td>U+1801 (ELLIPSIS) + FVS3</td><td>VS must follow a Mongolian letter (not punctuation)</td></tr>
+    <tr><td>Selector separated by ZWJ</td><td>U+1820 (A) + ZWJ + FVS1</td><td>VS must be immediately after the base</td></tr>
+    <tr><td>Selector after whitespace</td><td>U+1820 (A) + SPACE + FVS1</td><td>VS cannot modify across word boundary</td></tr>
+    <tr><td>MVS followed by another selector</td><td>U+1820 (A) + MVS + FVS1</td><td>Multiple control selectors on same base</td></tr>
+  </tbody>
+</table>

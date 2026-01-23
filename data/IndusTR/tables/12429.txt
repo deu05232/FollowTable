@@ -1,0 +1,15 @@
+<table>
+  <caption>Top-Level CC Bitstream Container Flow (Sequence → Repeating Samples)</caption>
+  <thead>
+    <tr><th>Hierarchy level</th><th>Element / boundary</th><th>Type / size</th><th>Parse order / repetition rule</th><th>Loop / termination condition</th><th>Notes for a parser</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>CC_bitstream()</td><td>byte-aligned stream</td><td>Entry point</td><td>until end_of_stream</td><td>Parser initializes bitreader and checks for start codes.</td></tr>
+    <tr><td>1</td><td>CC_sequence()</td><td>container</td><td>Contains one or more CC_sample() units</td><td>while next_bits(32) == CC_sample_start_code</td><td>Lookahead 32 bits to decide whether another sample begins.</td></tr>
+    <tr><td>2</td><td>CC_sample_start_code</td><td>f(32)</td><td>Must be read first for each sample</td><td>Mismatch implies end of CC_sequence</td><td>Acts as the synchronization marker and sample boundary.</td></tr>
+    <tr><td>2</td><td>CC_type</td><td>u(8)</td><td>Immediately after start_code</td><td>Controls which payload syntax follows</td><td>Switch discriminator (e.g., different payload layouts per type).</td></tr>
+    <tr><td>2</td><td>sample_payload()</td><td>variable</td><td>Parsed according to CC_type</td><td>Payload ends before next start_code</td><td>Implementation often parses until it reaches known length or explicit end marker inside payload.</td></tr>
+    <tr><td>1</td><td>CC_sequence_end</td><td>implicit</td><td>Occurs when start_code not found</td><td>next_bits(32) != CC_sample_start_code</td><td>No explicit end code; termination is driven by start-code lookahead.</td></tr>
+    <tr><td>0</td><td>bitstream_end</td><td>implicit</td><td>After last sequence</td><td>end_of_stream</td><td>May be transport-framing dependent (file length, PES length, etc.).</td></tr>
+  </tbody>
+</table>

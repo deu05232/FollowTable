@@ -1,0 +1,32 @@
+<table>
+  <caption>Basic model parameters and nominal values during rest. LBV denotes the lean body volume in liters calculated according to LBV = - 16.24 + 0.22 ⁢ bh + 0.42 ⁢ bw , with body height ( bh ) and weight ( bw ) given in cm and kg, respectively [ moerk2006 ] ; a [ moerk2006 ] ; b [ pulmcirc ] ; c [ ottesen2004 ] ; d [ duffin2000 ] ; e cf. \eref eq:qalv; f [ mohrman2006 ] ; g [ lumbbook ] ; h [ anderson2006 ] ; i [ staudinger2001 ] ; j [ kumagai1995 ] ; l [ King2010a ] .</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>Nominal value (units)</th></tr>
+  <tr><td>Compartment volumes</td><td></td><td></td></tr>
+  <tr><td>Bronchioles</td><td>V_()</td><td>0.1 (l) ^((a))</td></tr>
+  <tr><td>Mucosa</td><td>V_()</td><td>0.005 (l) ^((a))</td></tr>
+  <tr><td>Alveoli</td><td>V_()</td><td>4.1 (l) ^((a))</td></tr>
+  <tr><td>End-capillary</td><td>V_({c^())</td><td>0.15 (l) ^((b))</td></tr>
+  <tr><td>Liver</td><td>V_()</td><td>0.0285 LBV (l) ^((a))</td></tr>
+  <tr><td>Blood liver</td><td>V_(,b)</td><td>1.1 (l) ^((c))</td></tr>
+  <tr><td>Tissue</td><td>V_()</td><td>0.7036 LBV (l) ^((a))</td></tr>
+  <tr><td>Rebreathing bag</td><td></td><td>3 (l) ^((a))</td></tr>
+  <tr><td>Respiratory parameters</td><td></td><td></td></tr>
+  <tr><td>Breathing frequency</td><td>f</td><td>12.5 (tides/min) ^((d))</td></tr>
+  <tr><td>Tidal volume</td><td>V_(T)</td><td>0.593 (l) ^((d))</td></tr>
+  <tr><td>Alveolar ventilation</td><td></td><td>6.2 (l/min) ^((e))</td></tr>
+  <tr><td>Blood flows</td><td></td><td></td></tr>
+  <tr><td>Cardiac output</td><td></td><td>6 (l/min) ^((f))</td></tr>
+  <tr><td>Fractional flow bronchioles</td><td></td><td>0.01 ^((g))</td></tr>
+  <tr><td>Fractional flow liver</td><td></td><td>0.32 ^((a))</td></tr>
+  <tr><td>Partition coefficients (37 ^((°)) C)</td><td></td><td></td></tr>
+  <tr><td>Blood:air</td><td></td><td>340 ^((h))</td></tr>
+  <tr><td>Mucosa:air</td><td></td><td>392 ^((i,j))</td></tr>
+  <tr><td>Blood:liver</td><td></td><td>1.73 ^((j))</td></tr>
+  <tr><td>Blood:tissue</td><td></td><td>1.38 ^((h))</td></tr>
+  <tr><td>Metabolic and diffusion constants</td><td></td><td></td></tr>
+  <tr><td>Linear metabolic rate</td><td></td><td>0.0074 (l/kg ^(({0.75)) /min) ^((l))</td></tr>
+  <tr><td>Endogenous production</td><td></td><td>0.19 (mg/min) ^((l))</td></tr>
+  <tr><td>Stratified conductance</td><td>D</td><td>0 (l/min) ^((l))</td></tr>
+  <tr><td>Constant eq:D</td><td></td><td>14.9 (min ^((-1)) ) ^((l))</td></tr>
+  <tr><td>Constant eq:D</td><td></td><td>0.76 ^((l))</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Threat Intelligence Report Elements (Source/Target & Narrative Focus)</caption>
+  <thead>
+    <tr><th>Category</th><th>Information Element</th><th>What to Capture</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Source</td><td>Threat Source</td><td>Origin of the threat activity (IP, ASN, country, org)</td><td>May include C2 infrastructure</td></tr>
+    <tr><td>Target</td><td>Threat Target</td><td>Victim sector, entity, hostnames, domains, accounts</td><td>Use internal asset IDs when possible</td></tr>
+    <tr><td>Behavior</td><td>TTP Summary</td><td>Techniques and procedures observed</td><td>Map to MITRE ATT&CK if available</td></tr>
+    <tr><td>Indicators</td><td>IOCs</td><td>IPs, domains, file hashes, URLs</td><td>Include confidence level</td></tr>
+    <tr><td>Context</td><td>Campaign Narrative</td><td>Short description of the storyline and goals</td><td>Avoid speculation</td></tr>
+    <tr><td>Impact</td><td>Potential Impact</td><td>Business impact and affected data types</td><td>Qualitative if unknown</td></tr>
+    <tr><td>Response</td><td>Recommended Actions</td><td>Mitigations and detection guidance</td><td>Include playbook references</td></tr>
+    <tr><td>Attribution</td><td>Suspected Actor</td><td>Actor name and rationale</td><td>Confidence-driven</td></tr>
+  </tbody>
+</table>

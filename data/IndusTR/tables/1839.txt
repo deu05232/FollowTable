@@ -1,0 +1,20 @@
+<table>
+  <caption>Video Image Related Event Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Event Identifier</td><td>sjbz</td><td>c30</td><td>Should comply with the coding rules specified in C.4</td><td></td></tr>
+  <tr><td>2</td><td>Association Identifier</td><td>glbz</td><td>c41</td><td>Code of the video segment or image associated with the event; should comply with the coding rules specified in C.2; multiple values allowed</td><td></td></tr>
+  <tr><td>3</td><td>Scene Object Identifier</td><td>cjdxbz</td><td>c48</td><td>Code of the scene associated with the event; should comply with the coding rules specified in C.3; multiple values allowed</td><td></td></tr>
+  <tr><td>4</td><td>Event Name</td><td>sjmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>5</td><td>Event_Brief Description</td><td>sj_jyqk</td><td>.ul</td><td></td><td></td></tr>
+  <tr><td>6</td><td>Event Occurrence_Date/Time</td><td>sjfs_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>7</td><td>Incident Location Administrative Division Code</td><td>sfddxzqhdm</td><td>c6</td><td>Should use the full numeric code in GB/T 2260</td><td></td></tr>
+  <tr><td>8</td><td>Incident Location Basic-level Organization Code</td><td>sfddjczzdm</td><td>c6</td><td>Should comply with the coding rules specified in C.1</td><td></td></tr>
+  <tr><td>9</td><td>Detailed Incident Location</td><td>xxsfdd</td><td>c..400</td><td>Should use the location positioning description in Chapter 6 (geocoding rules) of GB/T 30428.3—2016</td><td></td></tr>
+  <tr><td>10</td><td>Incident Location_Earth Longitude</td><td>sfdd_dqjd</td><td>n10,6</td><td>Coordinate system: WGS-84</td><td></td></tr>
+  <tr><td>11</td><td>Incident Location_Earth Latitude</td><td>sfdd_dqwd</td><td>n10,6</td><td>Coordinate system: WGS-84</td><td></td></tr>
+  <tr><td>12</td><td>Video/Image Event Type Code</td><td>sptxsjlxdm</td><td>c3</td><td>Should comply with D.22</td><td></td></tr>
+  <tr><td>13</td><td>Motor Vehicle Object Identifier</td><td>jdcdxbz</td><td>c48</td><td>Code of the motor vehicle object associated with the event; should comply with the coding rules specified in C.3; multiple values allowed</td><td></td></tr>
+  <tr><td>14</td><td>Non-motor Vehicle Object Identifier</td><td>fjdcdxbz</td><td>c48</td><td>Code of the non-motor vehicle object associated with the event; should comply with the coding rules specified in C.3; multiple values allowed</td><td></td></tr>
+  <tr><td>15</td><td>Person Object Identifier</td><td>rydxbz</td><td>c48</td><td>Code of the person object associated with the event; should comply with the coding rules specified in C.3; multiple values allowed</td><td></td></tr>
+  <tr><td>16</td><td>Item Object Identifier</td><td>wpdxbz</td><td>c48</td><td>Code of the item object associated with the event; should comply with the coding rules specified in C.3; multiple values allowed</td><td></td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Cryptographic Service Environment Initialization Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Initialize(void * * phAppHandle,unsigned char * pucCfgFilePath)</td></tr>
+  <tr><td>Description</td><td>Initialize the cryptographic service program space</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>phAppHandle[in,out](input and return the application interface handle)</td></tr>
+  <tr><td>pucCfgFilePath[in]（full path name of the configuration file; configuration information is user-defined and should include: cryptographic device type, cryptographic device dynamic library name, device configuration file, application policy, etc.)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success)</td></tr>
+  <tr><td>Non-0(failure, returns the error code defined in Table C.1 in Appendix C, and shall comply with Appendix C)</td></tr>
+</table>

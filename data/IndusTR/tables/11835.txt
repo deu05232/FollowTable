@@ -1,0 +1,15 @@
+<table>
+  <caption>Codec Conformance Bitstream Inventory by Feature Flags (Includes Sampling Rate Column)</caption>
+  <thead>
+    <tr><th>No.</th><th>Bitstream Filename</th><th>Sampling Rate</th><th>Channels/Scene</th><th>Feature Group</th><th>Profile</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>inv_sc01_sr32k_br24k_mdct_core.avsa</td><td>32 kHz</td><td>2.0</td><td>MDCT core</td><td>LC</td></tr>
+    <tr><td>2</td><td>inv_sc01_sr44p1k_br24k_mdct_core.avsa</td><td>44.1 kHz</td><td>2.0</td><td>MDCT core</td><td>LC</td></tr>
+    <tr><td>3</td><td>inv_sc01_sr48k_br24k_mdct_core.avsa</td><td>48 kHz</td><td>2.0</td><td>MDCT core</td><td>LC</td></tr>
+    <tr><td>4</td><td>inv_hoa2_sr48k_br640k_meta.avsa</td><td>48 kHz</td><td>HOA</td><td>HOA order=2</td><td>HQ</td></tr>
+    <tr><td>5</td><td>inv_bed51_obj16_sr48k_br192k.avsa</td><td>48 kHz</td><td>5.1 + 16 obj</td><td>Objects</td><td>HQ</td></tr>
+    <tr><td>6</td><td>inv_bed71_sr44p1k_br256k_downmix.avsa</td><td>44.1 kHz</td><td>7.1</td><td>Downmix</td><td>LC</td></tr>
+    <tr><td>7</td><td>inv_bed71_sr32k_br256k_downmix.avsa</td><td>32 kHz</td><td>7.1</td><td>Downmix</td><td>LC</td></tr>
+  </tbody>
+</table>

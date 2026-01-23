@@ -1,0 +1,15 @@
+<table>
+  <caption>Stationary Combustion Inventory Input & Results Template (Fuels and Totals)</caption>
+  <thead>
+    <tr><th>Fuel Category</th><th>Fuel Type</th><th>Unit</th><th>Quantity Consumed</th><th>Net Calorific Value (GJ/unit)</th><th>Carbon Content (tC/GJ)</th><th>Oxidation Rate (%)</th><th>CO2 Emissions (tCO2)</th><th>CH4 Emissions (tCH4)</th><th>N2O Emissions (tN2O)</th><th>Total CO2e (tCO2e)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Solid Fuels</td><td>Anthracite</td><td>t</td><td></td><td>26.5</td><td>0.0274</td><td>94</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Bituminous Coal</td><td>t</td><td></td><td>19.6</td><td>0.0261</td><td>93</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Lignite</td><td>t</td><td></td><td>11.9</td><td>0.0280</td><td>96</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="2">Liquid Fuels</td><td>Diesel</td><td>kL</td><td></td><td>38.6</td><td>0.0202</td><td>99</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Fuel Oil</td><td>t</td><td></td><td>40.4</td><td>0.0211</td><td>99</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="2">Gaseous Fuels</td><td>Natural Gas</td><td>10^4 Nm3</td><td></td><td>389</td><td>0.0153</td><td>99.5</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Coke Oven Gas</td><td>10^4 Nm3</td><td></td><td>175</td><td>0.0130</td><td>99</td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>

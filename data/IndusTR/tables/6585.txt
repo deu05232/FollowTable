@@ -1,0 +1,17 @@
+<table>
+  <caption>Cybersecurity Incident Ticket Fields (Context-Heavy Template)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Description</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identification</td><td>Event Type</td><td>High-level classification of the event</td><td>Phishing / Malware / Intrusion</td></tr>
+    <tr><td>Actors</td><td>Suspected Threat Actor</td><td>Who is believed to be behind the activity</td><td>Unknown / APT group</td></tr>
+    <tr><td>Indicators</td><td>Malicious IP</td><td>Observed IP addresses involved</td><td>203.0.113.10</td></tr>
+    <tr><td>Indicators</td><td>Domain / URL</td><td>Suspicious domains or URLs</td><td>login-secure.example</td></tr>
+    <tr><td>Affected Assets</td><td>Target Hostname</td><td>Impacted system identifier</td><td>HR-LAPTOP-044</td></tr>
+    <tr><td>Affected Assets</td><td>Target User</td><td>Primary user/account impacted</td><td>j.smith</td></tr>
+    <tr><td>Behavior</td><td>Observed Behavior</td><td>What was seen (actions, techniques)</td><td>Credential harvesting</td></tr>
+    <tr><td>Impact</td><td>Data at Risk</td><td>Type of data potentially exposed</td><td>PII</td></tr>
+    <tr><td>Response</td><td>Containment Action</td><td>Actions taken to contain event</td><td>Disabled account</td></tr>
+  </tbody>
+</table>

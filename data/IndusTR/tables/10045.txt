@@ -1,0 +1,15 @@
+<table>
+  <caption>Silence Control and Reporting Timeline Log (Single-Field and Scenario Tracking)</caption>
+  <thead>
+    <tr><th>Record No.</th><th>UTC Time</th><th>Scenario</th><th>Frequency Point</th><th>Silence Flag</th><th>Report Type</th><th>Affected Address Count</th><th>Observed Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>00:00:05.00</td><td>Boot</td><td>0</td><td>0</td><td>PowerOn</td><td>0</td><td>Power-on report emitted</td></tr>
+    <tr><td>2</td><td>00:01:10.50</td><td>Operator Request</td><td>1</td><td>0</td><td>N/A</td><td>12</td><td>Silence started on LF1</td></tr>
+    <tr><td>3</td><td>00:02:30.00</td><td>Periodic Status</td><td>1</td><td>0</td><td>Status</td><td>12</td><td>Status suppressed due to silence</td></tr>
+    <tr><td>4</td><td>00:04:05.25</td><td>Emergency Test</td><td>2</td><td>0</td><td>N/A</td><td>12</td><td>Emergency messages still allowed</td></tr>
+    <tr><td>5</td><td>00:06:40.10</td><td>Operator Request</td><td>1</td><td>1</td><td>N/A</td><td>12</td><td>Silence ended on LF1</td></tr>
+    <tr><td>6</td><td>00:08:00.00</td><td>Shutdown</td><td>0</td><td>1</td><td>PowerOff</td><td>0</td><td>Power-off report emitted</td></tr>
+    <tr><td>7</td><td>00:09:15.00</td><td>Post-check</td><td>0</td><td>1</td><td>Status</td><td>0</td><td>Status report emitted normally</td></tr>
+  </tbody>
+</table>

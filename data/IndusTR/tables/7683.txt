@@ -1,0 +1,7 @@
+<table>
+  <caption>Tire building station interlock signals and interpretations (example)</caption>
+  <tr><th>No.</th><th>Data item</th><th>Operational meaning</th><th>Allowed values / range</th><th>Value interpretation</th><th>Dependency / relationship to other items</th></tr>
+  <tr><td>1</td><td>Bead setter clamp status</td><td>Indicates whether the bead setter is mechanically clamped before the next cycle step</td><td>0/1/2/3</td><td>0=Released; 1=Clamping; 2=Clamped; 3=Fault</td><td>Must be in state 2 before "Green tire transfer start" can become TRUE</td></tr>
+  <tr><td>2</td><td>Green tire transfer start</td><td>Command to start transferring the green tire to the next station</td><td>0/1</td><td>0=Not requested; 1=Requested</td><td>Only allowed when "Bead setter clamp status" is Clamped and "Safety gate" is Closed</td></tr>
+  <tr><td>3</td><td>Safety gate status</td><td>Safety interlock for the station access gate</td><td>0/1</td><td>0=Open; 1=Closed</td><td>If Open, blocks "Green tire transfer start" and forces "Transfer" to FALSE</td></tr>
+</table>

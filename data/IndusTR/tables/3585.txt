@@ -1,0 +1,7 @@
+<table>
+  <caption>Base Station Configuration Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type           SAC</td><td>Description</td></tr>
+  <tr><td rowspan="3">vrBaseConfig</td><td>int32_tbase_id</td><td>Base station ID</td></tr>
+  <tr><td>vrBaseType</td><td>Base station type, see Table 15</td></tr>
+  <tr><td>float vrBaseHeight</td><td>Base station height parameter</td></tr>
+</table>

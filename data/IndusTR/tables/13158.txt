@@ -1,0 +1,15 @@
+<table>
+  <caption>ArTrackable_getExtentAndOrientation (per-trackable geometry info) — Parameter Reference</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th><th>Direction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Pointer to the active AR session providing the context for the query.</td><td>in</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>Pointer/handle to the specific trackable being inspected.</td><td>in</td></tr>
+    <tr><td>out_extent_x</td><td>float *</td><td>Output pointer receiving the trackable's estimated size along the X axis (meters).</td><td>out</td></tr>
+    <tr><td>out_extent_y</td><td>float *</td><td>Output pointer receiving the trackable's estimated size along the Y axis (meters).</td><td>out</td></tr>
+    <tr><td>out_extent_z</td><td>float *</td><td>Output pointer receiving the trackable's estimated size along the Z axis (meters), if supported.</td><td>out</td></tr>
+    <tr><td>out_orientation</td><td>ArQuaternionf *</td><td>Output pointer receiving the trackable's orientation as a quaternion.</td><td>out</td></tr>
+    <tr><td>out_is_valid</td><td>bool *</td><td>Output pointer indicating whether the returned extent/orientation values are currently valid.</td><td>out</td></tr>
+  </tbody>
+</table>

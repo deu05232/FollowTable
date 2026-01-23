@@ -1,0 +1,14 @@
+<table>
+  <caption>Certificate Application Service — Test Environment Requirements and Instrument Calibration</caption>
+  <thead>
+    <tr><th>Item</th><th>Requirement</th><th>Acceptable Range</th><th>Verification Method</th><th>Frequency</th><th>Owner</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Lab Temperature</td><td>Controlled</td><td>20–26 °C</td><td>Thermometer log</td><td>Daily</td><td>QA</td></tr>
+    <tr><td>Relative Humidity</td><td>Controlled</td><td>30–70%</td><td>Hygrometer log</td><td>Daily</td><td>QA</td></tr>
+    <tr><td>Time Source</td><td>NTP synchronized</td><td>Offset < 200 ms</td><td>NTP drift report</td><td>Weekly</td><td>Ops</td></tr>
+    <tr><td>Signature Test Vector</td><td>SM2/RSA set</td><td>Approved corpus</td><td>Checksum compare</td><td>Per release</td><td>Crypto Team</td></tr>
+    <tr><td>Base64 Decoder</td><td>RFC 4648 compliant</td><td>No line breaks</td><td>Unit tests</td><td>Per release</td><td>Dev</td></tr>
+    <tr><td>Clock Accuracy</td><td>Monotonic</td><td>No backward jumps</td><td>System audit</td><td>Monthly</td><td>Security</td></tr>
+  </tbody>
+</table>

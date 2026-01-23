@@ -1,0 +1,14 @@
+# Selected Intel Core i7 Desktop Processor Models and Windows 10 Support Notes
+
+| Processor model (SKU) | Codename / Gen | Segment | Cores / Threads | Base / Turbo (GHz) | Integrated graphics | Socket | Typical chipset pairing examples | Windows 10 support status | Notes for Windows 10 pairing |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Intel Core i7-2600 | Sandy Bridge (2nd Gen) | Desktop | 4 / 8 | 3.4 / 3.8 | Intel HD Graphics 2000 | LGA1155 | H61, H67, P67, Z68 | Supported | Common prebuilt desktop CPU; ensure vendor provides Win10 drivers for board devices.
+| Intel Core i7-2700K | Sandy Bridge (2nd Gen) | Desktop | 4 / 8 | 3.5 / 3.9 | Intel HD Graphics 3000 | LGA1155 | Z68, P67 | Supported | K-series; often paired with Z68/P67 boards; Win10 works well with legacy UEFI/BIOS.
+| Intel Core i7-3770 | Ivy Bridge (3rd Gen) | Desktop | 4 / 8 | 3.4 / 3.9 | Intel HD Graphics 4000 | LGA1155 | H77, Z77, B75 | Supported | Good Win10 option for older PCs; HD 4000 has solid Win10 driver support.
+| Intel Core i7-4770 | Haswell (4th Gen) | Desktop | 4 / 8 | 3.4 / 3.9 | Intel HD Graphics 4600 | LGA1150 | H81, B85, H87, Z87 | Supported | Widely used in business desktops; typically straightforward Win10 installs.
+| Intel Core i7-4790K | Haswell Refresh (4th Gen) | Desktop | 4 / 8 | 4.0 / 4.4 | Intel HD Graphics 4600 | LGA1150 | Z97, Z87 | Supported | Popular gaming/DIY CPU; pair with Z97/Z87 for best compatibility.
+| Intel Core i7-6700 | Skylake (6th Gen) | Desktop | 4 / 8 | 3.4 / 4.0 | Intel HD Graphics 530 | LGA1151 | H110, B150, H170, Z170 | Supported | Win10-era platform; generally best driver availability.
+| Intel Core i7-7700 | Kaby Lake (7th Gen) | Desktop | 4 / 8 | 3.6 / 4.2 | Intel HD Graphics 630 | LGA1151 | B250, H270, Z270 | Supported | Good Win10 match; also works on some 100-series boards with BIOS updates.
+| Intel Core i7-8700 | Coffee Lake (8th Gen) | Desktop | 6 / 12 | 3.2 / 4.6 | Intel UHD Graphics 630 | LGA1151 | B360, H370, Z370 | Supported | Common upgrade path for Win10 desktops; check OEM BIOS lock-in on prebuilts.
+| Intel Core i7-9700K | Coffee Lake Refresh (9th Gen) | Desktop | 8 / 8 | 3.6 / 4.9 | Intel UHD Graphics 630 | LGA1151 | Z390, Z370 | Supported | Win10 supported; ensure adequate cooling and board VRM on older Z370.
+| Intel Core i7-10700 | Comet Lake (10th Gen) | Desktop | 8 / 16 | 2.9 / 4.8 | Intel UHD Graphics 630 | LGA1200 | B460, H470, Z490 | Supported | Strong Win10 compatibility; note OEM images may require correct chipset/ME drivers.

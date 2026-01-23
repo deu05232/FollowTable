@@ -1,0 +1,10 @@
+<table>
+  <caption>Traditional Mongolian Ligature Engine — Release Notes and Compatibility Matrix (v2.7–v3.3)</caption>
+  <tr><th>Component</th><th>Version</th><th>Supported OS</th><th>Rendering Backend</th><th>Known Issues</th><th>Deprecations</th></tr>
+  <tr><td>Core Shaping Library</td><td>v3.3.1</td><td>Windows 11 / macOS 14 / Ubuntu 22.04</td><td>HarfBuzz 8.x</td><td>FVS handling differs across font families</td><td>Legacy GSUB fallback mode</td></tr>
+  <tr><td>Font Pack</td><td>v3.2.0</td><td>All</td><td>OpenType</td><td>U+18xx private additions not standardized</td><td>Bitmap glyph variants</td></tr>
+  <tr><td>IME Plugin</td><td>v2.9.4</td><td>Windows 10+</td><td>TSF</td><td>Candidate list order may vary by locale</td><td>Old hotkey profile format</td></tr>
+  <tr><td>Web Renderer</td><td>v2.7.8</td><td>Chrome/Edge 120+</td><td>Canvas/SVG</td><td>Vertical layout metrics differ on Android</td><td>Legacy CSS writing-mode polyfill</td></tr>
+  <tr><td>CLI Converter</td><td>v3.0.0</td><td>All</td><td>UTF-8 pipeline</td><td>Does not validate malformed surrogate pairs</td><td>XML input mode</td></tr>
+  <tr><td>QA Test Suite</td><td>v3.1.2</td><td>All</td><td>Golden images</td><td>Golden set not updated for new fonts</td><td>PNG-only comparison mode</td></tr>
+</table>

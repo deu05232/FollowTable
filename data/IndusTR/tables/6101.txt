@@ -1,0 +1,16 @@
+<table>
+  <caption>Common Scalar/Vector Math Operator Metadata and Size Constraints (Length, Rank, and Broadcasting Rules)</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>Type</th><th>Optional/Required</th><th>Constraint / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Platform</td><td>Device Type</td><td>Input</td><td>Optional</td><td>CPU/GPU/NPU/FPGA/ASIC. Default: CPU.</td></tr>
+    <tr><td>Compute Capability</td><td>Input</td><td>Optional</td><td>Backend capability tag (e.g., "sm_80", "gfx1100", "v1"). Used only for selecting compatible kernels.</td></tr>
+    <tr><td rowspan="2">Type System</td><td>Element Data Type</td><td>Input</td><td>Optional</td><td>Supported: signed/unsigned integers, floating-point reals; complex and boolean support is backend-dependent. Default: fp32.</td></tr>
+    <tr><td>Type Promotion Rule</td><td>Input</td><td>Optional</td><td>Defines how mixed dtypes are promoted (e.g., "safe", "same_kind", "strict"). If omitted, backend default promotion is used.</td></tr>
+    <tr><td rowspan="4">Shape / Size</td><td>Tensor Rank Constraint</td><td>Input</td><td>Optional</td><td>Allowed rank range (e.g., 0 to 8). If not specified, any rank supported by backend.</td></tr>
+    <tr><td>Tensor Length (1-D) / Numel Constraint</td><td>Input</td><td>Optional</td><td>If operator expects a 1-D tensor, length must be > 0; if used as a generic constraint, total elements (numel) must be within backend limits.</td></tr>
+    <tr><td>Broadcasting Compatibility</td><td>Input</td><td>Optional</td><td>Whether implicit broadcasting is allowed (none / numpy-style / explicit-only). If allowed, trailing dimensions must be equal or 1.</td></tr>
+    <tr><td>Dynamic Dimension Policy</td><td>Input</td><td>Optional</td><td>Whether unknown dimensions are permitted at compile time (static-only vs. dynamic-allowed). If dynamic, runtime checks enforce positivity.</td></tr>
+  </tbody>
+</table>

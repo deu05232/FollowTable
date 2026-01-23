@@ -1,0 +1,10 @@
+<table>
+  <caption>AMBT1-related: generator parameter sampling ranges together with the tuned observables/ranges</caption>
+  <tr><th>Category</th><th>Item</th><th>Value / range</th></tr>
+  <tr><td rowspan="3">Generator scan</td><td>Pythia parameter PARP(82)</td><td>1.4 … 2.6</td></tr>
+  <tr><td>Pythia parameter PARP(78)</td><td>0.0 … 0.7</td></tr>
+  <tr><td>Pythia parameter PARP(83)</td><td>1.0 … 2.0</td></tr>
+  <tr><td rowspan="3">Tuning inputs</td><td>dNch/dη</td><td>-2.5 < η < 2.5</td></tr>
+  <tr><td>dNch/dpT</td><td>0.5 GeV < pT < 10 GeV</td></tr>
+  <tr><td>P(n_ch)</td><td>n_ch = 6…80</td></tr>
+</table>

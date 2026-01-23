@@ -1,0 +1,13 @@
+# Router Firewall BitTorrent Classification Limitations (Signatures, Misclassification, and Workarounds)
+
+| Vendor | Product/Feature | BitTorrent Signature Name | Known Limitation | Misclassified As | TLS/Encrypted BT Handling | Recommended Workaround |
+| --- | --- | --- | --- | --- | --- | --- |
+| Cisco | NBAR2 | bittorrent | Some client HTTP traffic classified as HTTP | http | Partial | Use custom policy-map |
+| Palo Alto | App-ID | bittorrent | May miss traffic over QUIC tunnels | web-browsing | Weak | Block QUIC or decrypt TLS |
+| Fortinet | IPS/App Control | BitTorrent | false positives on CDN downloads | ssl | Medium | Add exemptions by domain |
+| Sophos | XG Firewall | P2P | Limited visibility with VPNs | vpn | null | Enforce VPN policy separately |
+| MikroTik | L7 rules | bittorrent | Regex rules CPU-heavy at scale | unknown | null | Use connection marking |
+| pfSense | Snort/Suricata | bittorrent | Signatures require frequent updates | http | Low | Update rulesets regularly |
+| Ubiquiti | UniFi IDS/IPS | P2P | Cannot distinguish BT from some UDP flows | udp | Low | Disable IDS on WAN edge |
+| Juniper | AppSecure | BitTorrent | Encrypted payload reduces detection | ssl | Low | Apply rate limits by class |
+| Check Point | Application Control | P2P | Classification gaps for new clients | unknown | Medium | Enable ThreatCloud updates |

@@ -1,0 +1,19 @@
+<table>
+  <caption>Intersection SPaT/MAP Broadcast Data Items (Infrastructure Reference)</caption>
+  <thead>
+    <tr><th>Message Part</th><th>Data Item</th><th>Primary Identifier/Location Target</th><th>Type</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Broadcaster</td><td>RSU_ID</td><td>RSU identity</td><td>UINT32</td><td>-</td></tr>
+    <tr><td>Intersection_ID</td><td>Intersection identifier</td><td>UINT16</td><td>-</td></tr>
+    <tr><td>Approach_ID</td><td>Approach identifier within intersection</td><td>UINT8</td><td>-</td></tr>
+    <tr><td rowspan="3">Reference Position</td><td>Intersection_Ref_Lat</td><td>Intersection reference latitude</td><td>FLOAT</td><td>deg</td></tr>
+    <tr><td>Intersection_Ref_Lon</td><td>Intersection reference longitude</td><td>FLOAT</td><td>deg</td></tr>
+    <tr><td>Lane_Reference_Polyline</td><td>Map geometry for lanes (relative to ref)</td><td>ARRAY</td><td>-</td></tr>
+    <tr><td rowspan="3">Timing</td><td>Msg_Timestamp</td><td>Broadcast generation time</td><td>UINT64</td><td>ms</td></tr>
+    <tr><td>Phase_Start_Time</td><td>Start time of current signal phase</td><td>UINT64</td><td>ms</td></tr>
+    <tr><td>Phase_Remaining</td><td>Estimated time remaining in phase</td><td>UINT16</td><td>s</td></tr>
+    <tr><td rowspan="2">Validity</td><td>Update_Rate</td><td>Nominal broadcast rate</td><td>UINT16</td><td>Hz</td></tr>
+    <tr><td>Confidence</td><td>Confidence of timing estimates</td><td>ENUM</td><td>-</td></tr>
+  </tbody>
+</table>

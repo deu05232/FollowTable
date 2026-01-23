@@ -1,0 +1,14 @@
+<table>
+  <caption>X-ray Spectral Modeling Results for the 0.5–10 keV Emission Spectrum</caption>
+  <thead>
+    <tr><th>Model</th><th>N_H (10^22 cm^-2)</th><th>Photon Index Γ</th><th>kT (keV)</th><th>Fe Kα Energy (keV)</th><th>Fe Kα EW (eV)</th><th>Flux (2–10 keV) (10^-11 erg cm^-2 s^-1)</th><th>χ²/dof</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Absorbed power law</td><td>0.21 ± 0.03</td><td>1.88 ± 0.05</td><td>—</td><td>—</td><td>—</td><td>3.42 ± 0.08</td><td>512/476</td></tr>
+    <tr><td>Absorbed cutoff power law</td><td>0.20 ± 0.03</td><td>1.74 ± 0.06</td><td>—</td><td>—</td><td>—</td><td>3.39 ± 0.08</td><td>491/475</td></tr>
+    <tr><td>Absorbed power law + Gaussian (narrow)</td><td>0.22 ± 0.03</td><td>1.89 ± 0.05</td><td>—</td><td>6.40 ± 0.03</td><td>82 ± 25</td><td>3.41 ± 0.08</td><td>468/474</td></tr>
+    <tr><td>Absorbed power law + Gaussian (broad)</td><td>0.23 ± 0.03</td><td>1.90 ± 0.05</td><td>—</td><td>6.37 ± 0.05</td><td>140 ± 40</td><td>3.40 ± 0.08</td><td>459/473</td></tr>
+    <tr><td>Absorbed disk blackbody + power law</td><td>0.19 ± 0.04</td><td>1.83 ± 0.07</td><td>0.32 ± 0.04</td><td>—</td><td>—</td><td>3.44 ± 0.10</td><td>472/474</td></tr>
+    <tr><td>Absorbed thermal plasma (APEC)</td><td>0.16 ± 0.05</td><td>—</td><td>5.8 ± 0.6</td><td>—</td><td>—</td><td>3.28 ± 0.09</td><td>535/476</td></tr>
+  </tbody>
+</table>

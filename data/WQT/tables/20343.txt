@@ -1,0 +1,11 @@
+# Minecraft Java Servers with SRV-Based Ports (No Explicit Port Shown)
+
+| Network | Join Address | Port Handling | What to Paste in Client | Comment |
+|---|---|---|---|---|
+| Hypixel | mc.hypixel.net | Uses SRV record | mc.hypixel.net | Port resolved automatically |
+| CubeCraft | play.cubecraft.net | Uses SRV record | play.cubecraft.net | No port needed |
+| Mineplex | us.mineplex.com | Uses SRV record | us.mineplex.com | Routes to non-default port internally |
+| PrimeMC | play.primemc.org | Uses SRV record | play.primemc.org | Behind proxy |
+| Purple Prison | purpleprison.net | Uses SRV record | purpleprison.net | SRV to custom port |
+| MomentoNetwork | mc.momentonetwork.net | Uses SRV record | mc.momentonetwork.net | SRV-based setup |
+| Minelink Network | play.minelink.net | Uses SRV record | play.minelink.net | SRV directs connection |

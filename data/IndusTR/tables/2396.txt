@@ -1,0 +1,14 @@
+<table>
+  <caption>Consent and Data Governance Checklist for Biometric Dataset Projects</caption>
+  <thead>
+    <tr><th>Policy Item</th><th>Recommended Setting</th><th>Owner</th><th>Review Frequency</th><th>Evidence Artifact</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Informed Consent Versioning</td><td>Semantic versioning (vMajor.Minor)</td><td>IRB Liaison</td><td>Per revision</td><td>Signed PDF repository</td></tr>
+    <tr><td>Retention Period</td><td>36 months after last access</td><td>DPO</td><td>Annual</td><td>Retention log</td></tr>
+    <tr><td>Access Control</td><td>RBAC + MFA</td><td>IT Security</td><td>Quarterly</td><td>IAM audit report</td></tr>
+    <tr><td>De-identification</td><td>Pseudonymization + key escrow</td><td>Data Steward</td><td>Per release</td><td>Key management SOP</td></tr>
+    <tr><td>Cross-border Transfer</td><td>Restricted; require SCC</td><td>Legal</td><td>Per transfer</td><td>Transfer agreement</td></tr>
+    <tr><td>Incident Response SLA</td><td>Notify within 72 hours</td><td>Security Officer</td><td>Annual drill</td><td>IR playbook</td></tr>
+  </tbody>
+</table>

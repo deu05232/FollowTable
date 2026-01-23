@@ -1,0 +1,36 @@
+<table>
+  <caption>Summary of spectroscopic observations</caption>
+  <tr><th>MJD</th><th>Epoch</th><th rowspan="2">Telescope/Instrument</th><th rowspan="2">Arm/Grating</th><th>Spectral</th><th>Resolving</th><th>Exposure</th><th>Slit</th><th>Position</th></tr>
+  <tr><th>(days)</th><th>(days)</th><th>range (Å)</th><th>power</th><th>time (s)</th><th>width</th><th>angle</th></tr>
+  <tr><td>56039.345</td><td>0.0443</td><td>Gemini/GMOS-N</td><td>R400+OG515</td><td>5942–10000</td><td>960</td><td>2× 900</td><td>1 0</td><td>180 0</td></tr>
+  <tr><td>56039.431</td><td>0.1301</td><td>Gemini/GMOS-N</td><td>B600</td><td>3868–6632</td><td>844</td><td>2× 400</td><td>1 0</td><td>180 0</td></tr>
+  <tr><td rowspan="3">56040.017</td><td rowspan="3">0.7160</td><td rowspan="3">VLT/X-shooter</td><td>UVB</td><td>3000–5500</td><td>4350</td><td>4× 1200</td><td>1 0</td><td rowspan="3">41 0</td></tr>
+  <tr><td>VIS</td><td>5500–10000</td><td>8800</td><td>4× 1200</td><td>0 9</td></tr>
+  <tr><td>NIR</td><td>10000–24800</td><td>5100</td><td>16× 300</td><td>0 9</td></tr>
+  <tr><td>56042.911</td><td>3.6112</td><td>GTC/Osiris</td><td>R500R</td><td>4800–10000</td><td>500</td><td>4× 1500</td><td>1 2</td><td>100 0</td></tr>
+  <tr><td rowspan="3">56044.014</td><td rowspan="3">4.7139</td><td rowspan="3">VLT/X-shooter</td><td>UVB</td><td>3000–5500</td><td>4350</td><td>4× 1200</td><td>1 0</td><td rowspan="3">41 0</td></tr>
+  <tr><td>VIS</td><td>5500–10000</td><td>8800</td><td>4× 1200</td><td>0 9</td></tr>
+  <tr><td>NIR</td><td>10000–24800</td><td>5100</td><td>16× 300</td><td>0 9</td></tr>
+  <tr><td rowspan="2">56044.257</td><td rowspan="2">4.9565</td><td rowspan="2">Keck/LRIS</td><td>400/3400</td><td>3000–5500</td><td>750</td><td rowspan="2">2× 900</td><td rowspan="2">0 7</td><td rowspan="2">50 0</td></tr>
+  <tr><td>400/8500</td><td>5500–10000</td><td>1700</td></tr>
+  <tr><td rowspan="3">56048.061</td><td rowspan="3">8.7604</td><td rowspan="3">VLT/X-shooter</td><td>UVB</td><td>3000–5500</td><td>4350</td><td>4× 1200</td><td>1 0</td><td rowspan="3">41 0</td></tr>
+  <tr><td>VIS</td><td>5500–10000</td><td>8800</td><td>4× 1200</td><td>0 9</td></tr>
+  <tr><td>NIR</td><td>10000–24800</td><td>5100</td><td>16× 300</td><td>0 9</td></tr>
+  <tr><td>56048.304</td><td>9.0036</td><td>Gemini/GMOS-N</td><td>R400</td><td>4442–8608</td><td>960</td><td>4× 1200</td><td>1 0</td><td>170 0</td></tr>
+  <tr><td>56052.978</td><td>13.6772</td><td>Gemini/GMOS-S</td><td>R400+GG455</td><td>4892–9008</td><td>960</td><td>1× 2400</td><td>1 0</td><td>180 0</td></tr>
+  <tr><td>56053.930</td><td>14.6301</td><td>GTC/Osiris</td><td>R500R</td><td>4800–10000</td><td>500</td><td>3× 1200</td><td>1 2</td><td>75 0</td></tr>
+  <tr><td rowspan="3">56057.996</td><td rowspan="3">18.6962</td><td rowspan="3">VLT/X-shooter ^((a))</td><td>UVB</td><td>3000–5500</td><td>4350</td><td>4× 1200</td><td>1 0</td><td rowspan="3">52 0</td></tr>
+  <tr><td>VIS</td><td>5500–10000</td><td>8800</td><td>4× 1200</td><td>0 9</td></tr>
+  <tr><td>NIR</td><td>10000–20700</td><td>5100</td><td>16× 300</td><td>0 9</td></tr>
+  <tr><td>56061.996</td><td>22.6953</td><td>Gemini/GMOS-S</td><td>R400+GG455</td><td>4892–9108</td><td>960</td><td>2× 2400</td><td>1 0</td><td>-30 0</td></tr>
+  <tr><td rowspan="3">56063.999</td><td rowspan="3">24.6992</td><td rowspan="3">VLT/X-shooter ^((a))</td><td>UVB</td><td>3000–5500</td><td>4350</td><td>4× 1200</td><td>1 0</td><td rowspan="3">52 0</td></tr>
+  <tr><td>VIS</td><td>5500–10000</td><td>8800</td><td>4× 1200</td><td>0 9</td></tr>
+  <tr><td>NIR</td><td>10000–20700</td><td>5100</td><td>16× 300</td><td>0 9</td></tr>
+  <tr><td>56066.068</td><td>26.7680</td><td>Magellan/LDSS3</td><td>VPH_ALL</td><td>3700–9400</td><td>800</td><td>1× 1400</td><td>1 2</td><td>141 0</td></tr>
+  <tr><td rowspan="3">56076.025</td><td rowspan="3">36.7250</td><td rowspan="3">VLT/X-shooter ^((a))</td><td>UVB</td><td>3000–5500</td><td>4350</td><td>4× 1200</td><td>1 0</td><td rowspan="3">-143 9</td></tr>
+  <tr><td>VIS</td><td>5500–10000</td><td>8800</td><td>4× 1200</td><td>0 9</td></tr>
+  <tr><td>NIR</td><td>10000–20700</td><td>5100</td><td>16× 300</td><td>0 9</td></tr>
+  <tr><td rowspan="3">56077.000</td><td rowspan="3">37.7001</td><td rowspan="3">VLT/X-shooter ^((a))</td><td>UVB</td><td>3000–5500</td><td>4350</td><td>4× 1200</td><td>1 0</td><td rowspan="3">151 1</td></tr>
+  <tr><td>VIS</td><td>5500–10000</td><td>8800</td><td>4× 1200</td><td>0 9</td></tr>
+  <tr><td>NIR</td><td>10000–20700</td><td>5100</td><td>16× 300</td><td>0 9</td></tr>
+</table>

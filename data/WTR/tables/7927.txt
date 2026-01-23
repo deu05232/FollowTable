@@ -1,0 +1,14 @@
+# Mobile CPU Families for Laptops and Netbooks (Key Specifications Overview)
+
+| Segment | CPU family | Example mobile models | Microarchitecture | Process (nm) | Cores/Threads (typical) | Base/Boost range (GHz) | Default TDP range (W) | iGPU class | Memory support (typical) |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Netbook / entry thin-and-light | Intel Atom (N-series) | Atom N270, N280, N450 | Bonnell / Pineview era | 45–90 | 1–2 / 2–4 | ~1.2–1.8 | ~2–10 | Basic integrated | DDR2 / DDR3L (platform-dependent) |
+| Netbook / low-power | Intel Celeron (ULV mobile) | Celeron M ULV 353 | Core-based ULV era | 65 | 1 / 1 | ~0.8–0.9 | ~5–10 | Basic integrated (chipset-based) | DDR2 (platform-dependent) |
+| Low-cost laptop | Intel Pentium (mobile) | Pentium 2020M, 3550M | Sandy/Ivy/Haswell mobile | 22–32 | 2 / 4 | ~2.0–2.5 | ~35 | Intel HD-class | DDR3/DDR3L |
+| Mainstream laptop | Intel Core i3 U-series | Core i3-4010U, i3-8130U | Haswell / Kaby Lake R | 14–22 | 2 / 4 | ~1.7–3.4 | ~15 | Intel HD/UHD | DDR3L / DDR4 |
+| Performance laptop | Intel Core i5 H-series | Core i5-8300H, i5-10300H | Coffee Lake / Comet Lake | 14 | 4 / 8 | ~2.3–4.5 | ~35–45 | Intel UHD (varies) | DDR4 |
+| Performance laptop | Intel Core i7 H-series | Core i7-7700HQ, i7-9750H | Kaby Lake / Coffee Lake | 14 | 4–6 / 8–12 | ~2.6–4.5 | ~45 | Intel HD/UHD (varies) | DDR4 |
+| Thin-and-light (AMD) | AMD Ryzen U-series | Ryzen 5 3500U, Ryzen 7 5700U | Zen+ / Zen 2/3 | 7–12 | 4–8 / 8–16 | ~2.1–4.4 | ~10–25 | Radeon Vega/RDNA iGPU | DDR4/LPDDR4X |
+| Gaming/creator laptop (AMD) | AMD Ryzen H-series | Ryzen 5 4600H, Ryzen 7 5800H | Zen 2/3 | 7 | 6–8 / 12–16 | ~3.0–4.6 | ~35–45+ | Radeon iGPU (varies) | DDR4 |
+| Business thin-and-light | Intel Core vPro U-series | Core i7-8650U, i5-8365U | Kaby Lake R / Whiskey Lake | 14 | 4 / 8 | ~1.6–4.2 | ~15 | Intel UHD | DDR4/LPDDR3 |
+| Workstation laptop | Intel Xeon (mobile) | Xeon E-2176M, E-2286M | Coffee Lake | 14 | 6–8 / 12–16 | ~2.7–5.0 | ~45 | Intel UHD P-series (varies) | DDR4 / ECC (model-dependent) |

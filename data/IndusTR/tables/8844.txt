@@ -1,0 +1,14 @@
+<table>
+  <caption>Segmented Transport Data Frame (First vs. Consecutive Frames) — Field Layout and Sizes</caption>
+  <thead>
+    <tr><th>Frame Type</th><th>Byte 0</th><th>Byte 1</th><th>Byte 2</th><th>Byte 3</th><th>Byte 4</th><th>Byte 5</th><th>Byte 6</th><th>Byte 7</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>First segmented data frame (Sequence = 0)</td><td>Sequence Number (0x00)</td><td>Total Frames (unsigned 8-bit)</td><td>Total Bytes (LSB)</td><td>Total Bytes (MSB)</td><td>Reserved (0xFF)</td><td>Reserved (0xFF)</td><td>Reserved (0xFF)</td><td>Reserved (0xFF)</td></tr>
+    <tr><td>Consecutive segmented data frame (Sequence = 1)</td><td>Sequence Number (0x01)</td><td colspan="7">Application Parameter Group Payload Bytes 0..6 (7 bytes)</td></tr>
+    <tr><td>Consecutive segmented data frame (Sequence = 2)</td><td>Sequence Number (0x02)</td><td colspan="7">Application Parameter Group Payload Bytes 7..13 (7 bytes)</td></tr>
+    <tr><td>Consecutive segmented data frame (Sequence = 3)</td><td>Sequence Number (0x03)</td><td colspan="7">Application Parameter Group Payload Bytes 14..20 (7 bytes)</td></tr>
+    <tr><td>Consecutive segmented data frame (Sequence = n)</td><td>Sequence Number (0xnn)</td><td colspan="7">Application Parameter Group Payload Bytes (7 bytes per frame)</td></tr>
+    <tr><td>Last segmented data frame (Sequence = last)</td><td>Sequence Number (last)</td><td colspan="7">Remaining Payload Bytes (pad unused bytes with 0xFF)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Cybersecurity Event Timeline Fields (Definitions and Units)</caption>
+  <tr><th>Information Item</th><th>Description</th></tr>
+  <tr><td>First Seen Time</td><td>Earliest observed timestamp related to the event (seconds precision if available)</td></tr>
+  <tr><td>Last Seen Time</td><td>Most recent observed timestamp related to the event</td></tr>
+  <tr><td>Detection Time</td><td>Timestamp when the detection rule/alert triggered</td></tr>
+  <tr><td>Acknowledgement Time</td><td>Timestamp when an analyst acknowledged the alert</td></tr>
+  <tr><td>Triage Start Time</td><td>Timestamp when triage began</td></tr>
+  <tr><td>Evidence Collection Time</td><td>Timestamp when evidence collection started</td></tr>
+  <tr><td>Clock Source</td><td>Where the time comes from (system clock, log source, NTP-synced device)</td></tr>
+</table>

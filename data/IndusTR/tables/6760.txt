@@ -1,0 +1,15 @@
+<table>
+  <caption>Typical Power States and Reporting Fields for Copier/MFD Energy Consumption Characterization</caption>
+  <thead>
+    <tr><th>Device State</th><th>State Definition</th><th>Stability Criteria</th><th>Primary Metric</th><th>Reporting Fields</th><th>Suggested Duration</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Off</td><td>Machine connected to mains; main switch off or equivalent lowest-power state</td><td>Power change < 2% over 3 min</td><td>POFF (W)</td><td>W, Vrms, Arms, PF</td><td>5–10 min</td></tr>
+    <tr><td>Ready</td><td>Powered on; able to accept job without user intervention</td><td>No user activity; stable < 2% over 5 min</td><td>PREADY (W)</td><td>W, Wh, time</td><td>10 min</td></tr>
+    <tr><td>Sleep (Level 1)</td><td>Automatic low-power mode after inactivity timer 1</td><td>Stable < 2% over 5 min</td><td>PSLEEP1 (W)</td><td>W, time-to-sleep</td><td>10 min</td></tr>
+    <tr><td>Sleep (Level 2)</td><td>Deeper sleep after inactivity timer 2 (if supported)</td><td>Stable < 2% over 5 min</td><td>PSLEEP2 (W)</td><td>W, time-to-deeper-sleep</td><td>10 min</td></tr>
+    <tr><td>Printing / Copying</td><td>Actively producing output at default quality settings</td><td>Job-defined; report job parameters</td><td>EJOB (Wh/job)</td><td>Wh, pages, mode, duplex</td><td>One representative job</td></tr>
+    <tr><td>Warm-up</td><td>Transition from power-on to ready</td><td>Ends when ready indicator appears</td><td>EWU (Wh)</td><td>Wh, warm-up time</td><td>One power cycle</td></tr>
+    <tr><td>Recovery</td><td>Wake from sleep to ready after user action</td><td>Ends when ready indicator appears</td><td>EREC (Wh)</td><td>Wh, recovery time</td><td>One wake event</td></tr>
+  </tbody>
+</table>

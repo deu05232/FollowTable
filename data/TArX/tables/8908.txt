@@ -1,0 +1,20 @@
+<table>
+  <caption>Big Bang Nucleosynthesis Reaction Network Index (Identifiers Only)</caption>
+  <thead>
+    <tr><th>Group</th><th>Reaction ID</th><th>Input Nuclei</th><th>Output Nuclei</th><th>Reference Tag</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">n/p conversions</td><td>R-001</td><td>n</td><td>p</td><td>Ref-A</td></tr>
+    <tr><td>R-002</td><td>p</td><td>n</td><td>Ref-A</td></tr>
+    <tr><td>R-003</td><td>n + p</td><td>D</td><td>Ref-B</td></tr>
+    <tr><td rowspan="4">Light-element build-up</td><td>R-010</td><td>D + p</td><td>³He</td><td>Ref-C</td></tr>
+    <tr><td>R-011</td><td>D + n</td><td>³H</td><td>Ref-C</td></tr>
+    <tr><td>R-012</td><td>³H + p</td><td>⁴He</td><td>Ref-D</td></tr>
+    <tr><td>R-013</td><td>³He + n</td><td>⁴He</td><td>Ref-D</td></tr>
+    <tr><td rowspan="3">Lithium / beryllium</td><td>R-020</td><td>⁴He + ³H</td><td>⁷Li</td><td>Ref-E</td></tr>
+    <tr><td>R-021</td><td>⁴He + ³He</td><td>⁷Be</td><td>Ref-E</td></tr>
+    <tr><td>R-022</td><td>⁷Be</td><td>⁷Li</td><td>Ref-F</td></tr>
+    <tr><td rowspan="2">Photoprocesses</td><td>R-030</td><td>⁴He</td><td>n + ³He</td><td>Ref-G</td></tr>
+    <tr><td>R-031</td><td>D</td><td>n + p</td><td>Ref-G</td></tr>
+  </tbody>
+</table>

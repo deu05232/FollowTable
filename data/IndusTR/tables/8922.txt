@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting Controller Fault & Quality Codes — Defect Counters and Fabric Condition Flags</caption>
+  <thead>
+    <tr><th>Index</th><th>Alarm/Quality Item</th><th>English Name</th><th>Access</th><th>Value Type</th><th>Unit</th><th>Description</th><th>Severity</th><th>Coded Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0B00</td><td>Defective Plating</td><td>DefectivePlating</td><td>RO</td><td>Int32</td><td>count</td><td>Number of plating reversal occurrences detected in the current lot.</td><td>Medium</td><td>0: Normal; 1: Fully reversed; 2: Partially reversed</td></tr>
+    <tr><td>0x0B01</td><td>Dropped Stitch</td><td>DroppedStitch</td><td>RO</td><td>UInt32</td><td>count</td><td>Count of unexpected stitch unlooping events.</td><td>High</td><td></td></tr>
+    <tr><td>0x0B02</td><td>Thick Place Flag</td><td>ThickPlace</td><td>RO</td><td>Boolean</td><td></td><td>Indicates loop length shorter than nominal.</td><td>Low</td><td>0: false; 1: true</td></tr>
+    <tr><td>0x0B03</td><td>Thin Place Flag</td><td>ThinPlace</td><td>RO</td><td>Boolean</td><td></td><td>Indicates loop length longer than nominal.</td><td>Low</td><td>0: false; 1: true</td></tr>
+    <tr><td>0x0B04</td><td>Needle Break Alarm</td><td>NeedleBreak</td><td>RO</td><td>UInt16</td><td></td><td>Alarm raised when needle break sensor is triggered.</td><td>Critical</td><td>0: Normal; 1: Alarm</td></tr>
+    <tr><td>0x0B05</td><td>Oil Level Warning</td><td>OilLow</td><td>RO</td><td>UInt16</td><td></td><td>Warning when lubrication oil is below threshold.</td><td>Medium</td><td>0: OK; 1: Low</td></tr>
+    <tr><td>0x0B06</td><td>Fabric Hole Detection</td><td>FabricHole</td><td>RO</td><td>UInt16</td><td></td><td>Indicates detection of fabric holes/tears during knitting.</td><td>High</td><td>0: Not detected; 1: Detected</td></tr>
+  </tbody>
+</table>

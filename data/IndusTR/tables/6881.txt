@@ -1,0 +1,20 @@
+<table>
+  <caption>Trackable Interface Parameters for Mutating/Configuration Routines (No Pointer Outputs)</caption>
+  <thead>
+    <tr><th>Routine</th><th>Parameter Name</th><th>Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArTrackable_setEnabled</td><td>session</td><td>ArSession*</td><td>in</td><td>Session handle used to validate the trackable.</td></tr>
+    <tr><td>ArTrackable_setEnabled</td><td>trackable</td><td>ArTrackable*</td><td>in</td><td>Trackable to configure.</td></tr>
+    <tr><td>ArTrackable_setEnabled</td><td>enabled</td><td>bool</td><td>in</td><td>Enable/disable flag provided by the caller.</td></tr>
+    <tr><td>ArTrackable_setTrackingMode</td><td>session</td><td>ArSession*</td><td>in</td><td>Session handle.</td></tr>
+    <tr><td>ArTrackable_setTrackingMode</td><td>trackable</td><td>ArTrackable*</td><td>in</td><td>Trackable to set the mode for.</td></tr>
+    <tr><td>ArTrackable_setTrackingMode</td><td>mode</td><td>ArTrackingMode</td><td>in</td><td>Requested mode (e.g., DEFAULT, FIXED).</td></tr>
+    <tr><td>ArTrackable_attachMetadata</td><td>trackable</td><td>ArTrackable*</td><td>in</td><td>Target trackable.</td></tr>
+    <tr><td>ArTrackable_attachMetadata</td><td>key</td><td>const char*</td><td>in</td><td>Metadata key.</td></tr>
+    <tr><td>ArTrackable_attachMetadata</td><td>value</td><td>const char*</td><td>in</td><td>Metadata value.</td></tr>
+    <tr><td>ArTrackable_attachMetadata</td><td>overwrite</td><td>bool</td><td>in</td><td>Whether to overwrite existing value.</td></tr>
+    <tr><td>ArTrackable_detachMetadata</td><td>trackable</td><td>ArTrackable*</td><td>in</td><td>Target trackable.</td></tr>
+    <tr><td>ArTrackable_detachMetadata</td><td>key</td><td>const char*</td><td>in</td><td>Metadata key to remove.</td></tr>
+  </tbody>
+</table>

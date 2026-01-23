@@ -1,0 +1,15 @@
+<table>
+  <caption>Halo-scale inference: mapping of common mass-profile parameters under Newtonian vs. bimetric Yukawa-like gravity</caption>
+  <thead>
+    <tr><th>Halo observable / modeling step</th><th>Newtonian gravity assumption</th><th>Bimetric gravity assumption (Yukawa correction)</th><th>Gravity-side parameter(s) introduced/changed</th><th>Typical degeneracy with halo parameters</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Lens or dynamical potential used in fit</td><td>Φ_NFW(r) from ρ(r) via standard Poisson equation</td><td>Φ_total(r) = Φ_massless(r) + Φ_Y(r; α,λ) from modified Green’s function</td><td>α (amplitude), λ (range), possibly G_eff/G</td><td>α and G_eff partially degenerate with mass normalization (M_200 or M_vir)</td></tr>
+    <tr><td>Mass parameter reported</td><td>M_200 (or M_vir) interpreted as true enclosed mass</td><td>M_200,eff inferred depends on (α,λ); true mass can differ from Newtonian-inferred mass</td><td>Mass-bias factor b_M ≡ M_true/M_Newton</td><td>b_M correlates with α and with concentration c when r ~ λ</td></tr>
+    <tr><td>Concentration parameter</td><td>c = r_200/r_s from NFW fit under inverse-square force</td><td>c_eff can shift because force profile changes with radius</td><td>Effective concentration shift Δc(c,α,λ)</td><td>Strong degeneracy between Δc and λ when data cover narrow radial range</td></tr>
+    <tr><td>Acceleration profile used for kinematics</td><td>g_N(r) = G M(g(r) = g_N(r) · [G_eff/G] · [1 + α(1+r/λ)e^{-r/λ}] (point-mass intuition; extended halos analogous)Scale-dependent boost/suppression factor B(r;α,λ)B(r) can mimic a change in M(</td></tr>
+    <tr><td>Transition radius for deviations</td><td>No transition (same law at all r)</td><td>r_trans ~ λ (where Yukawa term becomes important)</td><td>λ sets where modifications turn on/off</td><td>r_trans can be confused with scale radius r_s if λ ~ r_s</td></tr>
+    <tr><td>Large-radius behavior</td><td>g(r) ∝ 1/r^2 indefinitely</td><td>Yukawa part decays for r ≫ λ; residual massless part remains</td><td>Asymptotic effective coupling (G_eff,∞)</td><td>Outer-mass estimates (splashback/weak lensing) sensitive to G_eff,∞</td></tr>
+    <tr><td>Small-radius recovery</td><td>Always Newtonian</td><td>Near-source recovery may occur via screening/nonlinearities (model-dependent)</td><td>Vainshtein radius r_V (if applicable)</td><td>r_V affects whether inner-halo data constrain α,λ at all</td></tr>
+  </tbody>
+</table>

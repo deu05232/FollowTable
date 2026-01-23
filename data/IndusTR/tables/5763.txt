@@ -1,0 +1,14 @@
+<table>
+  <caption>Knitting Defect and Quality Classification Dictionary Items</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0X0B10</td><td>Hole Defect</td><td>HoleDefect</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~3</td><td>1</td><td>Detected holes in the knitted fabric</td><td>0: null 1: Minor 2: Major 3: Critical</td></tr>
+    <tr><td>0X0B11</td><td>Needle Line</td><td>NeedleLine</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~3</td><td>1</td><td>Visible needle line on the surface</td><td>0: null 1: Slight 2: Obvious 3: Severe</td></tr>
+    <tr><td>0X0B12</td><td>Oil Stain</td><td>OilStain</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>0~1</td><td>1</td><td>Oil contamination detected on fabric</td><td>0: No 1: Yes</td></tr>
+    <tr><td>0X0B13</td><td>Color Shade Deviation</td><td>ShadeDeviation</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~2</td><td>Grade</td><td>Color shade variation compared to target</td><td>0: OK 1: Warning 2: Reject</td></tr>
+    <tr><td>0X0B14</td><td>Broken Yarn</td><td>BrokenYarn</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~2</td><td>1</td><td>Yarn break events classification</td><td>0: null 1: Occasional 2: Frequent</td></tr>
+    <tr><td>0X0B15</td><td>Quality Verdict</td><td>QualityVerdict</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~2</td><td>1</td><td>Overall quality decision for the piece</td><td>0: Pass 1: Rework 2: Scrap</td></tr>
+  </tbody>
+</table>

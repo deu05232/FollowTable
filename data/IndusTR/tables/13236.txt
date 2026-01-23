@@ -1,0 +1,6 @@
+<table>
+  <caption>Charging communication message definition (timekeeping payload encoding)</caption>
+  <tr><th>Start byte or bit</th><th>Length</th><th>Item</th><th>Encoding interpretation</th><th>Send option</th></tr>
+  <tr><td>1</td><td>6 bytes</td><td>TK01</td><td>Timestamp packed as YY/MM/DD/HH/MM/SS across consecutive bytes</td><td>Optional</td></tr>
+  <tr><td>7</td><td>1 byte</td><td>TK02</td><td>Time zone / daylight-saving indicator encoding</td><td>Optional</td></tr>
+</table>

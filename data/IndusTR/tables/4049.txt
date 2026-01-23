@@ -1,0 +1,11 @@
+<table>
+  <caption>Drawing Frame Quality Control Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>OX0B00</td><td>Weight Deviation</td><td>WeightDeviation</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>-7~7</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0B01</td><td>Cv Value</td><td>CvValue</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>0~7</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>OX0B02</td><td>5m Unevenness Rate</td><td>UnevennessIn5m</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>0~7</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0B03</td><td>Thick Place Limit</td><td>ThickPlaceLimition</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>0~45</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0B04</td><td>Thin Place Limit</td><td>ThinPlaceLimition</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>-35~0</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0B05</td><td>Drafting Deviation</td><td>DraftingDeviation</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>-0.50~0.50</td><td>%</td><td>1</td><td>|</td></tr>
+  <tr><td>0X0B06</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

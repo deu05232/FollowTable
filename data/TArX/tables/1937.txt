@@ -1,0 +1,8 @@
+<table>
+  <caption>Coefficient of Determination ( R 2 ) values using different predictors for movie box-office revenue for the first weekend.</caption>
+  <tr><th>Features</th><th>Adjusted R^(2)</th><th>p-value</th></tr>
+  <tr><td>Avg Tweet-rate</td><td>0.80</td><td>3.65e-09</td></tr>
+  <tr><td>Tweet-rate timeseries</td><td>0.93</td><td>5.279e-09</td></tr>
+  <tr><td>Tweet-rate timeseries + thcnt</td><td>0.973</td><td>9.14e-12</td></tr>
+  <tr><td>HSX timeseries + thcnt</td><td>0.965</td><td>1.030e-10</td></tr>
+</table>

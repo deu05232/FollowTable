@@ -1,0 +1,10 @@
+<table>
+  <caption>Knitting equipment data dictionary — downtime combined with yarn let-off settings (mixed section)</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0350</td><td>Last Piece Downtime</td><td>LastPieceDowntime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Paused duration for the previous piece</td><td></td></tr>
+  <tr><td>0X0351</td><td>Idle Time</td><td>IdleTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Non-knitting time while powered on</td><td></td></tr>
+  <tr><td>0X0352</td><td>Warp Let-off Amount</td><td>YarnRun-in</td><td>M</td><td>VAR</td><td>RW</td><td>Int32</td><td>0~50000</td><td>mm</td><td>Set value for warp let-off amount</td><td></td></tr>
+  <tr><td>0X0353</td><td>Beam i Initial Outer Circumference</td><td>BeamiInitialOuterCircumference</td><td>M</td><td>ARRAY</td><td>RW</td><td>Int32</td><td>10~20000</td><td>mm</td><td>Initial outer circumference of let-off beam i</td><td></td></tr>
+  <tr><td>0X0354</td><td>Beam i Initial Inner Circumference</td><td>BeamiInnerCircumference</td><td>M</td><td>ARRAY</td><td>RW</td><td>Int32</td><td>10~10000</td><td>mm</td><td>Initial inner circumference of let-off beam i</td><td></td></tr>
+  <tr><td>0X0355</td><td>Reserve</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Extensible data field</td><td></td></tr>
+</table>

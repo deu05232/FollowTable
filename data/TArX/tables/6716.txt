@@ -1,0 +1,8 @@
+<table>
+  <caption>Fit results for different spectral models for the whole emission region within an integration radius of 0.8 \degr around the best fit position and the background derived from off-data. The differential flux normalisation I 0 is given in units of 10 - 12 ⁢ cm - 2 ⁢ s - 1 ⁢ TeV - 1 . E , E B , and E c are given in units of TeV. The last column gives the integrated flux above the spectral analysis threshold of 270 GeV in units of 10 - 11 ⁢ cm - 2 ⁢ s - 1 . The power-law fit provides a rather poor description of the data. Thus fits of a power law with an exponential cutoff (row 2), a power law with an energy dependent photon index (row 3), and a broken power law (row 4; in the formula, the parameter S = 0.1 describes the sharpness of the transition from Γ 1 to Γ 2 and is fixed in the fit) are also given. Note that some of the fit parameters are highly correlated.</caption>
+  <tr><th>Fit Formula for {}{}</th><th colspan="3">Fit Parameters</th><th></th><th>χ^(2) (ndf)</th><th>Flux _(>270~{)}</th></tr>
+  <tr><td>{I_(0)\ E^(-Γ)</td><td>I_(0)=19.8± 0.4</td><td>Γ=2.38± 0.02</td><td></td><td></td><td>40.4 (15)</td><td>87.4± 2.0</td></tr>
+  <tr><td>{I_(0)\ E^(-Γ)\ (-E/E_())}</td><td>I_(0)=21.0± 0.5</td><td>Γ=2.26± 0.03</td><td>E_()=24.8± 7.2</td><td></td><td>16.9 (14)</td><td>86.7± 2.5</td></tr>
+  <tr><td>{I_(0)\ E^(-Γ+\,β\ E)</td><td>I_(0)=21.0± 0.4</td><td>Γ=2.29± 0.02</td><td>β=-0.17± 0.04</td><td></td><td>14.5 (14)</td><td>82.8± 2.2</td></tr>
+  <tr><td>{I_(0)\ (E/E_())^(-Γ_(1)\ (1+% (E/E_{))^(1/S))^(\,S\,(Γ_(1)-Γ_2))}</td><td>I_(0)=2.2± 1.0</td><td>Γ_(1)=2.26± 0.03</td><td>Γ_(2)=2.63± 0.07</td><td>E_()=2.7± 0.5</td><td>15.1 (13)</td><td>84.6± 38.5</td></tr>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Refueling Event Combined with Approval & Repair Workflow Milestones</caption>
+  <tr><th>Section</th><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  <tr><td>Refueling Event</td><td>1</td><td>Business Document Number</td><td>Character</td><td>an..30</td><td>Document number across workflow</td></tr>
+  <tr><td>Refueling Event</td><td>2</td><td>Refueling Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Fueling timestamp</td></tr>
+  <tr><td>Refueling Event</td><td>3</td><td>Refueling Station Code</td><td>Character</td><td>an..20</td><td>Station identifier</td></tr>
+  <tr><td>Approval</td><td>4</td><td>Requesting Department</td><td>Character</td><td>an..60</td><td>Department initiating the request</td></tr>
+  <tr><td>Approval</td><td>5</td><td>Applicant</td><td>Character</td><td>an..60</td><td>User submitting the application</td></tr>
+  <tr><td>Approval</td><td>6</td><td>Approval Result</td><td>Character</td><td>an..20</td><td>Approved/Rejected</td></tr>
+  <tr><td>Repair Module</td><td>7</td><td>Repair Delivery Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Vehicle delivered for repair</td></tr>
+  <tr><td>Repair Module</td><td>8</td><td>Completion Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Repair completion timestamp</td></tr>
+</table>

@@ -1,0 +1,21 @@
+<table>
+  <caption>AR Camera Tracking Failure / Degradation Reasons (Enum Definitions)</caption>
+  <thead>
+    <tr><th>Failure/Quality category</th><th>Description</th><th>Enum constant (name = value)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Tracking failure reason</td><td>No failure; tracking quality is acceptable</td><td>AR_TRACKING_FAILURE_REASON_NONE = 0</td></tr>
+    <tr><td>Tracking lost due to internal state or bad initialization</td><td>AR_TRACKING_FAILURE_REASON_BAD_STATE = 1</td></tr>
+    <tr><td>Tracking degraded due to insufficient light</td><td>AR_TRACKING_FAILURE_REASON_INSUFFICIENT_LIGHT = 2</td></tr>
+    <tr><td>Tracking degraded due to excessive motion / blur</td><td>AR_TRACKING_FAILURE_REASON_EXCESSIVE_MOTION = 3</td></tr>
+    <tr><td>Tracking degraded due to not enough visual features / low texture</td><td>AR_TRACKING_FAILURE_REASON_INSUFFICIENT_FEATURES = 4</td></tr>
+    <tr><td>Tracking degraded due to camera being occluded</td><td>AR_TRACKING_FAILURE_REASON_CAMERA_OCCLUDED = 5</td></tr>
+    <tr><td>Tracking lost due to camera permission denial or device policy</td><td>AR_TRACKING_FAILURE_REASON_CAMERA_UNAUTHORIZED = 6</td></tr>
+    <tr><td rowspan="3">Runtime status signal</td><td>Runtime reports tracking quality is good</td><td>AR_TRACKING_QUALITY_GOOD = 0</td></tr>
+    <tr><td>Runtime reports tracking quality is limited (usable but degraded)</td><td>AR_TRACKING_QUALITY_LIMITED = 1</td></tr>
+    <tr><td>Runtime reports tracking quality is poor (likely to drift/jitter)</td><td>AR_TRACKING_QUALITY_POOR = 2</td></tr>
+    <tr><td rowspan="3">Target tracking method (status-focused)</td><td>Target is not currently tracked</td><td>AR_TARGET_TRACKING_METHOD_NOT_TRACKING = 0</td></tr>
+    <tr><td>Target is fully tracked from the camera frame</td><td>AR_TARGET_TRACKING_METHOD_FULL_TRACKING = 1</td></tr>
+    <tr><td>Target pose falls back to last-known pose (tracking failed this frame)</td><td>AR_TARGET_TRACKING_METHOD_LAST_KNOWN_POSE = 2</td></tr>
+  </tbody>
+</table>

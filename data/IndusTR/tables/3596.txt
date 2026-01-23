@@ -1,0 +1,15 @@
+<table>
+  <caption>Basic Information Table of Industrial Cellular Network Communication Relationships</caption>
+  <tr><td>Focus Item</td><td>Actual Information</td><td>Unit</td><td>Necessity</td><td>Description</td></tr>
+  <tr><td>Communication Relationship Identifier</td><td></td><td>一</td><td>Required</td><td>Incremental, unique</td></tr>
+  <tr><td>Communication Relationship Name</td><td></td><td>1</td><td>Required</td><td>Business name of the application in the industry</td></tr>
+  <tr><td>Name and Identifier of Communication Sender</td><td></td><td></td><td>Required</td><td>Name and identifier of the communication sender</td></tr>
+  <tr><td>Name and Identifier of Communication Receiver</td><td></td><td></td><td>Required</td><td>Name and identifier of the communication receiver</td></tr>
+  <tr><td>Communication Direction</td><td></td><td></td><td>Optional</td><td>Uplink, i.e., the industrial cellular terminal device is the communication sender; downlink, i.e., the industrial cellular terminal device is the communication receiver</td></tr>
+  <tr><td>Service Characteristics</td><td></td><td></td><td>Optional</td><td>Periodic service, i.e., the communication sender sends application data packets periodically; non-periodic service, i.e., the communication sender sends application data packets non-periodically</td></tr>
+  <tr><td>Clock Synchronization Accuracy</td><td></td><td>ms</td><td>Optional</td><td>Maximum time offset between the master clock of the industrial cellular network and the clocks of cellular terminal devices and cellular network devices. The master clock of the industrial cellular network and the master clock of the industrial communication network can be the same</td></tr>
+  <tr><td>Service Rate</td><td></td><td>kB/s</td><td>Optional</td><td>Required rate range for service data transmission; minimum guaranteed service rate for periodic services</td></tr>
+  <tr><td>Upper Bound of Transmission Delay</td><td></td><td>ms</td><td>Optional</td><td>Maximum allowable duration consumed for industrial application packets from entering the industrial cellular network to exiting the industrial cellular network</td></tr>
+  <tr><td>Lower Bound of Transmission Delay</td><td></td><td>ms</td><td>Optional</td><td>Minimum allowable duration consumed for industrial application packets from entering the industrial cellular network to exiting the industrial cellular network</td></tr>
+  <tr><td>Reliability</td><td></td><td></td><td>Optional</td><td>Percentage of the number of transmitted network-layer data packets successfully delivered to a given system entity within the time limit required by the target service divided by the total number of transmitted network-layer data packets</td></tr>
+</table>

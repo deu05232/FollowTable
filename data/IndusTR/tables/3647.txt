@@ -1,0 +1,27 @@
+<table>
+  <caption>Blowroom-Carding Combined Machine Process Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Plucker working area height setting</td><td>PluckerHeight SettingOfWorkingArea</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~4 000.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X0201</td><td>Plucker working area width setting</td><td>PluckerWidth SettingOfWorkingArea</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~4 000.00</td><td>mm</td><td>丨</td><td></td></tr>
+  <tr><td>0X0202</td><td>Picking area</td><td>PickingArea</td><td>M</td><td>VAR</td><td>RW</td><td>UInt16</td><td>0~10</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0203</td><td>Plucker travel speed</td><td>PluckerWalkingSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~50.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0204</td><td>Plucker beater speed</td><td>PluckerBeaterSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X0205</td><td>Plucker lowering amount</td><td>PluckerSlippage</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>mm</td><td></td><td></td></tr>
+  <tr><td>0X0206</td><td>Opening roller speed</td><td>OpeningRollerSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1400.00</td><td>r/min</td><td>—</td><td>—</td></tr>
+  <tr><td>0X0207</td><td>Mixer elevating apron frequency</td><td>MixerElevatingApronFrequency</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>Hz</td><td>丨</td><td></td></tr>
+  <tr><td>0X0208</td><td>Mixer flat apron frequency</td><td>MixerFlatCurtainFrequency</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>Hz</td><td></td><td></td></tr>
+  <tr><td>0X0209</td><td>Changeover pressure</td><td>ChangeoverPressure</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~900.00</td><td>Pa</td><td></td><td></td></tr>
+  <tr><td>0X020A</td><td>Mixer cotton feeding ratio coefficient</td><td>MixerFeedingCoefficient</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>—</td><td></td></tr>
+  <tr><td>0X020B</td><td>Scutcher beater speed</td><td>ScutcherBeaterSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1400.00</td><td>r/min</td><td>丨</td><td>—</td></tr>
+  <tr><td>0X020C</td><td>Cotton conveying duct pressure</td><td>DuctPressure</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1 500.00</td><td>Pa</td><td>1</td><td>1</td></tr>
+  <tr><td>0X020D</td><td>Cylinder speed</td><td>CylinderSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~800.00</td><td>r/min</td><td></td><td>—</td></tr>
+  <tr><td>0X020E</td><td>Flat speed</td><td>FlatSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~500.00</td><td>mm/min</td><td></td><td></td></tr>
+  <tr><td>0X020F</td><td>Sliver delivery speed</td><td>SliverOutput</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~700.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0210</td><td>Sliver weight</td><td>SliverWeight</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>10.00~50.00</td><td>g/5m</td><td>1</td><td>—</td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0211</td><td>Full can length</td><td>SliverLengthOfFullCan</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~20000.00</td><td>m</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0212</td><td>Licker-in speed</td><td>Licker-inSpeed</td><td>0</td><td>VAR</td><td>RW</td><td>Float</td><td>100.00~3000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0213</td><td>Hopper pressure</td><td>HopperPressure</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~500.00</td><td>Pa</td><td>1</td><td></td></tr>
+  <tr><td>0X0214</td><td>Card draft multiple</td><td>FlatCardingMachineDraftMultiple</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~200.00</td><td>times</td><td>丨</td><td></td></tr>
+  <tr><td>0X0215</td><td>Extensible data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>—</td><td>—</td><td>—</td><td>丨</td><td>丨</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Fire resistance rating code sets for common temperature-rise curves (classification-only)</caption>
+  <thead>
+    <tr><th>Temperature-rise curve</th><th>Typical rating code family</th><th>Example rating identifiers shown in the standard</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cellulosic fire</td><td>Fp</td><td>Fp0.50, Fp1.00, Fp1.50, Fp2.00</td><td>Used for cellulosic heating conditions</td></tr>
+    <tr><td>Hydrocarbon fire</td><td>Ft</td><td>Ft0.50, Ft1.00, Ft2.00, Ft3.00</td><td>Used for hydrocarbon heating conditions</td></tr>
+    <tr><td>Petrochemical fire</td><td>Fs</td><td>Fs0.50, Fs1.00, Fs2.00, Fs3.00</td><td>Often specified for petrochemical scenarios</td></tr>
+    <tr><td>RABT fire (tunnel)</td><td>Fb</td><td>Fb0.50, Fb1.00, Fb1.50, Fb2.00</td><td>Rapid heating curve used in tunnel contexts</td></tr>
+    <tr><td>Other/Project-specified curve</td><td>Project-defined</td><td>Defined by project test plan</td><td>Curve and identifiers agreed before type testing</td></tr>
+    <tr><td colspan="4">During type testing, the applicable temperature-rise curve(s) and the corresponding rating identifiers are selected based on the intended fire scenario.</td></tr>
+  </tbody>
+</table>

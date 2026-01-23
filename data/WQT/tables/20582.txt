@@ -1,0 +1,11 @@
+# DLNA Video Container Deep-Dive  MKV vs MP4 vs TS (Technical Breakdown)
+
+| Container | Typical Video Codecs | Typical Audio Codecs | Subtitle Support | Metadata | Streaming Friendliness | Common Pitfalls |
+|---|---|---|---|---|---|---|
+| MP4 | H.264, H.265 | AAC, ALAC | Timed text | Strong | Good | Some DLNA clients reject H.265 in MP4 |
+| MKV | H.264, VP9 | AAC, Vorbis, FLAC | Rich (SSA/ASS) | Strong | Mixed | Many TVs block MKV over DLNA |
+| MPEG-TS | H.264, MPEG-2 | AC-3, AAC | Limited | Limited | Very good | Program info tables vary |
+| AVI | MPEG-4 Part 2, DivX | MP3, AC-3 | Limited | Weak | Mixed | VFR and packed B-frames issues |
+| ASF | WMV | WMA | Limited | Strong | Mixed | DRM and codec restrictions |
+| 3GP | H.263, H.264 | AAC | Limited | Weak | Mixed | Often low-res mobile oriented |
+| FLV | Sorenson, H.264 | MP3, AAC | Limited | Weak | Poor | Generally not accepted by DLNA stacks |

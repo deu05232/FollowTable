@@ -1,0 +1,16 @@
+<table>
+  <caption>Version Negotiation Message Exchange Examples (Sequence and Interpretation)</caption>
+  <thead>
+    <tr><th>Example</th><th>Direction</th><th>Message Name</th><th>Purpose</th><th>Expected Receiver Behavior</th><th>Outcome</th><th>Inter-Frame Gap</th><th>Stop Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A1</td><td>Device → Peer</td><td>VersionOffer</td><td>Announce highest supported version</td><td>Compare numerically with local capability</td><td>—</td><td>≥ 5 ms</td><td>—</td></tr>
+    <tr><td>A2</td><td>Peer → Device</td><td>VersionAck</td><td>Indicate result of comparison</td><td>If Success, lock version and proceed</td><td>Success</td><td>≥ 5 ms</td><td>Proceed to Feature Negotiation</td></tr>
+    <tr><td>B1</td><td>Device → Peer</td><td>VersionOffer</td><td>Propose V3.0.0</td><td>Peer does not support V3.x</td><td>—</td><td>≥ 5 ms</td><td>—</td></tr>
+    <tr><td>B2</td><td>Peer → Device</td><td>VersionAck</td><td>Request downgrade</td><td>Send Continue with lower expected version</td><td>Continue</td><td>≥ 5 ms</td><td>Repeat until match or fail</td></tr>
+    <tr><td>B3</td><td>Device → Peer</td><td>VersionOffer</td><td>Propose V2.1.0</td><td>Peer supports V2.1.0</td><td>—</td><td>≥ 5 ms</td><td>—</td></tr>
+    <tr><td>B4</td><td>Peer → Device</td><td>VersionAck</td><td>Confirm negotiated version</td><td>Both sides transition to next stage</td><td>Success</td><td>≥ 5 ms</td><td>Next-stage message received</td></tr>
+    <tr><td>C1</td><td>Device → Peer</td><td>VersionOffer</td><td>Propose V1.0.0</td><td>Peer minimum is V2.0.0</td><td>—</td><td>≥ 5 ms</td><td>—</td></tr>
+    <tr><td>C2</td><td>Peer → Device</td><td>VersionAck</td><td>Reject incompatible version</td><td>Terminate negotiation and enter fallback</td><td>Fail</td><td>≥ 5 ms</td><td>Abort / fallback procedure</td></tr>
+  </tbody>
+</table>

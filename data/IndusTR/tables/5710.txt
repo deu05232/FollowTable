@@ -1,0 +1,15 @@
+<table>
+  <caption>Capture Metadata Elements for Biometric Algorithm Evaluation (Narrative/Measurement-Oriented)</caption>
+  <thead>
+    <tr><th>No.</th><th>Element</th><th>Example of Element Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Ambient Illumination</td><td>Record the average scene illuminance in lux measured at the subject’s face plane; include minimum/maximum during the capture interval and the sensor auto-exposure behavior.</td></tr>
+    <tr><td>2</td><td>Spectral Characteristics of Light Source</td><td>Provide the emission spectrum or correlated color temperature (CCT) in Kelvin and the dominant wavelength band; note whether filters were used and their cut-on/cut-off.</td></tr>
+    <tr><td>3</td><td>Camera-to-Subject Distance</td><td>Measure the standoff distance in centimeters; document how distance was measured (tape/ToF) and the tolerated deviation during acquisition.</td></tr>
+    <tr><td>4</td><td>Image Resolution / Scale</td><td>Store pixels-per-millimeter (ppm) at the biometric region of interest; if facial, include interpupillary distance in pixels and the resizing pipeline.</td></tr>
+    <tr><td>5</td><td>Motion During Capture</td><td>Describe motion blur using exposure time (ms), approximate angular velocity, and a qualitative note describing the movement pattern observed.</td></tr>
+    <tr><td>6</td><td>Sensor Quality / Noise</td><td>Report SNR (dB), ISO gain, dark-frame noise statistics, and whether denoising or sharpening was applied prior to storage.</td></tr>
+    <tr><td>7</td><td>Occlusion Description</td><td>Free-text notes on occluders (hair, mask, glasses glare), occlusion region, and percent of ROI occluded estimated by annotators.</td></tr>
+  </tbody>
+</table>

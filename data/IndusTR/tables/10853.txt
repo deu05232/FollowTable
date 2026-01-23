@@ -1,0 +1,6 @@
+<table>
+  <caption>Frame format for command B1H (read multi-sensor values) with explicit Data Segment</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th colspan="4">Data Segment</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>01H</td><td>B1H</td><td>0004H</td><td>T1L</td><td>T1H</td><td>H1L</td><td>H1H</td><td>xxxxH</td><td>0DH 0AH</td></tr>
+  <tr><td colspan="10">Note: Data Segment contains temperature and humidity values for sensor 1, encoded as low/high bytes.</td></tr>
+</table>

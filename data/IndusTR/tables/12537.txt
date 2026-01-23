@@ -1,0 +1,15 @@
+<table>
+  <caption>Batch Inspection Plan for Steel Wire Rope Mechanical Tests (Sampling & Coverage)</caption>
+  <thead>
+    <tr><th rowspan="2">Rope construction category</th><th rowspan="2">Lot size (coils or reels)</th><th colspan="2">Sampling coverage</th><th colspan="2">Inspection level</th><th rowspan="2">Retest rule</th></tr>
+    <tr><th>Partial inspection (%)</th><th>100% inspection trigger</th><th>Routine</th><th>Type test</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Round-strand rope</td><td>1–10</td><td>20</td><td>Any failure</td><td>1 specimen / lot</td><td>1 specimen / quarter</td><td>Re-sample 2×; if any fail → reject lot</td></tr>
+    <tr><td>11–50</td><td>10</td><td>2 failures</td><td>2 specimens / lot</td><td>1 specimen / month</td><td>Re-sample 2×; if ≥1 fail → tighten to 100%</td></tr>
+    <tr><td rowspan="2">Compacted-strand rope</td><td>1–10</td><td>30</td><td>Any failure</td><td>2 specimens / lot</td><td>1 specimen / quarter</td><td>Re-sample 2×; if any fail → reject lot</td></tr>
+    <tr><td>11–50</td><td>15</td><td>1 failure</td><td>3 specimens / lot</td><td>1 specimen / month</td><td>Re-sample 3×; if any fail → 100% test</td></tr>
+    <tr><td>Shaped-strand rope</td><td>1–50</td><td>25</td><td>Any failure</td><td>2 specimens / lot</td><td>1 specimen / month</td><td>Re-sample 2×; if any fail → reject lot</td></tr>
+    <tr><td>All categories</td><td>>50</td><td>5</td><td>1 failure</td><td>5 specimens / lot</td><td>1 specimen / week</td><td>Escalate to 100% until 3 consecutive lots pass</td></tr>
+  </tbody>
+</table>

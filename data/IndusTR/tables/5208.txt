@@ -1,0 +1,22 @@
+<table>
+  <caption>SM2 Key Pair Generation Function Definition</caption>
+  <tr><td rowspan="4">Prototype</td><td>int SAF_GenSm2KeyPair(</td></tr>
+  <tr><td>void * hAppHandle,</td></tr>
+  <tr><td>unsigned char * pucContainerName,</td></tr>
+  <tr><td>unsigned int uiContainerLen,</td></tr>
+  <tr><td rowspan="4"></td><td>unsigned int uiKeyBits,</td></tr>
+  <tr><td>unsigned int uiKeyUsage,</td></tr>
+  <tr><td>unsigned int uiExportFlag)</td></tr>
+  <tr><td>Generate a key container with the specified name, and generate an SM2 key pair within that key container</td></tr>
+  <tr><td rowspan="9">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name）</td></tr>
+  <tr><td>uiContainerLen[in](key container name length)</td></tr>
+  <tr><td>uiKeyBits[in](key modulus length）</td></tr>
+  <tr><td>uiKeyUsage[in](key usage）</td></tr>
+  <tr><td>SGD_SM2_1(denotes elliptic curve signature)</td></tr>
+  <tr><td>SGD_SM2_2(denotes elliptic curve key exchange protocol)</td></tr>
+  <tr><td>SGD_SM2_3(denotes elliptic curve encryption)</td></tr>
+  <tr><td>uiExportFlag[in](1 indicates the generated key pair is exportable, O indicates it should not be exported)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with Appendix C)</td></tr>
+</table>

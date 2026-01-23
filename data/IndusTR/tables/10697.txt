@@ -1,0 +1,16 @@
+<table>
+  <caption>XHE Envelope Header Package - Party Business Info with Message Lifecycle Metadata</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field</th><th>English Name</th><th>Constraints</th><th>Max Occurrences</th><th>Data Type</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Business Identity</td><td>Trading Party Identifier</td><td>Party ID</td><td>Mandatory</td><td>1</td><td>String</td><td>Identifier of the trading party represented in the envelope header.</td></tr>
+    <tr><td>Trading Party Legal Name</td><td>Party Legal Name</td><td>Mandatory</td><td>1</td><td>String</td><td>Registered legal name of the trading party.</td></tr>
+    <tr><td>Business Scope Code</td><td>Business Scope Code</td><td>Mandatory</td><td>N</td><td>String</td><td>Dedicated code describing the permitted business scope of the party.</td></tr>
+    <tr><td>Business Scope Description</td><td>Business Scope Description Text</td><td>Optional</td><td>N</td><td>String</td><td>Human-readable description of the scope and constraints of allowed activity.</td></tr>
+    <tr><td rowspan="4">Message / Lifecycle</td><td>Header Creation Date Time</td><td>Header Creation Date Time</td><td>Mandatory</td><td>1</td><td>Date Time</td><td>Timestamp when the envelope header was created.</td></tr>
+    <tr><td>Envelope Version Identifier</td><td>Envelope Version Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Version identifier for the envelope header format.</td></tr>
+    <tr><td>Envelope Customization Identifier</td><td>Envelope Customization Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Customization/profile identifier used for implementation conformance.</td></tr>
+    <tr><td>Payload Document Type Code</td><td>Payload Document Type Code</td><td>Optional</td><td>1</td><td>String</td><td>Classification code of the payload document type referenced by the envelope.</td></tr>
+  </tbody>
+</table>

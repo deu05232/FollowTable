@@ -1,0 +1,11 @@
+<table>
+  <caption>Common Service Description Model - Service Provider and Operation Contact Points</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Domain</th><th>Description</th></tr>
+  <tr><td>Service Provider Name</td><td>providerName</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Name of the organization providing the service</td></tr>
+  <tr><td>Unified Social Credit Code</td><td>unifiedSocialCreditCode</td><td>C18</td><td>0</td><td>1</td><td>Complies with GB 32100</td><td>Unified Social Credit Code of the service provider</td></tr>
+  <tr><td>Interface Name</td><td>interfaceName</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Name of the interface</td></tr>
+  <tr><td>Operation Name</td><td>operationName</td><td>C..128</td><td>M</td><td>N</td><td></td><td>Name of an operation in the interface</td></tr>
+  <tr><td>Operation Supports Transactionality</td><td>operationSupportTransaction</td><td>BL</td><td>M</td><td>N</td><td>1,0 or true,false</td><td>Whether transactionality is supported; occurrence count consistent with operationName</td></tr>
+  <tr><td>Support Email</td><td>supportEmail</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Email address for operation-related support</td></tr>
+  <tr><td>Support Phone</td><td>supportPhone</td><td>C..32</td><td>0</td><td>N</td><td></td><td>Phone number for operation-related support</td></tr>
+</table>

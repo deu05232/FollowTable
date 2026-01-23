@@ -1,0 +1,8 @@
+<table>
+  <caption>AR camera interface parameters for getting the near and far planes</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>camera</td><td>ArCamera *</td><td>Camera pointer</td></tr>
+  <tr><td>out_near</td><td>float *</td><td>Pointer used to receive the near camera plane</td></tr>
+  <tr><td>out_far</td><td>float *</td><td>Pointer used to receive the far camera plane</td></tr>
+</table>

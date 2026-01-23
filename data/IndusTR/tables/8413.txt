@@ -1,0 +1,10 @@
+<table>
+  <caption>Calendarized Sheet Gauge Control Setpoints</caption>
+  <tr><th>Serial No.</th><th>Data Item Name</th><th>Data Item Description</th><th>Alias</th><th>Data Type</th><th>Length (bit)</th><th>Value Range</th><th>Value Meaning</th></tr>
+  <tr><td>1</td><td>Target thickness setpoint</td><td>Desired sheet thickness used by the gauge control loop</td><td>THK_SP</td><td>FLOAT</td><td>32</td><td></td><td></td></tr>
+  <tr><td>2</td><td>Thickness tolerance high</td><td>Upper tolerance limit for thickness control</td><td>THK_TOL_H</td><td>FLOAT</td><td>32</td><td></td><td></td></tr>
+  <tr><td>3</td><td>Thickness tolerance low</td><td>Lower tolerance limit for thickness control</td><td>THK_TOL_L</td><td>FLOAT</td><td>32</td><td></td><td></td></tr>
+  <tr><td>4</td><td>Line speed setpoint</td><td>Target line speed for calendaring section</td><td>SPD_SP</td><td>FLOAT</td><td>32</td><td></td><td></td></tr>
+  <tr><td>5</td><td>Nip pressure setpoint</td><td>Target nip pressure used for sheet forming</td><td>NIP_P_SP</td><td>FLOAT</td><td>32</td><td></td><td></td></tr>
+  <tr><td>6</td><td>Gap compensation enable</td><td>Enable/disable automatic gap compensation</td><td>GAP_COMP_EN</td><td>INT</td><td>16</td><td>0/1</td><td>0: off, 1: on</td></tr>
+</table>

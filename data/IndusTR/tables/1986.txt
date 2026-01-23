@@ -1,0 +1,10 @@
+<table>
+  <caption>AR (Accounts Receivable) Aging Enumeration Codes (Finance Domain)</caption>
+  <tr><th>AR Code</th><th>Aging Bucket</th><th>Days Past Due</th><th>Collection Action</th><th>Risk Level</th></tr>
+  <tr><td>AR_AGE_CURRENT</td><td>Current</td><td>0–30</td><td>Reminder email</td><td>Low</td></tr>
+  <tr><td>AR_AGE_31_60</td><td>31–60 days</td><td>31–60</td><td>Phone follow-up</td><td>Medium</td></tr>
+  <tr><td>AR_AGE_61_90</td><td>61–90 days</td><td>61–90</td><td>Payment plan offer</td><td>Medium</td></tr>
+  <tr><td>AR_AGE_91_120</td><td>91–120 days</td><td>91–120</td><td>Final notice</td><td>High</td></tr>
+  <tr><td>AR_AGE_121_180</td><td>121–180 days</td><td>121–180</td><td>Send to collections</td><td>High</td></tr>
+  <tr><td>AR_AGE_180_PLUS</td><td>180+ days</td><td>> 180</td><td>Write-off review</td><td>Critical</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>RSA Key Pair Generation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GenRsaKeyPair（void * hAppHandle,unsigned char * pucContainerName,unsigned int uiContainerNameLen,unsigned int uiKeyBits,unsigned int uiKeyUsage,unsigned int uiExportFlag)</td></tr>
+  <tr><td>Description</td><td>Create a key container with the specified name and generate an RSA key pair within that key container</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name）</td></tr>
+  <tr><td>uiContainerNameLen[in](key container name length)</td></tr>
+  <tr><td>uiKeyBits[in](key modulus length)</td></tr>
+  <tr><td>uiKeyUsage[in](key usage)SGD_KEYUSAGE_SIGN(denotes signature）SGD_KEYUSAGE_KEYEXCHANGE(denotes key exchange (encryption)）</td></tr>
+  <tr><td>uiExportFlag[in](1 indicates the generated key pair is exportable, O indicates it should not be exported)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+  <tr><td>Remarks</td><td>If the specified key container name already exists, add or replace the key pair in that key container</td></tr>
+</table>

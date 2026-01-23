@@ -1,0 +1,16 @@
+<table>
+  <caption>Material and Member Strength Properties for Timber I-Joist Components and Assembly</caption>
+  <thead>
+    <tr><th rowspan="2">Property</th><th rowspan="2">Unit</th><th colspan="2">Flange (LVL)</th><th colspan="2">Web (OSB)</th><th rowspan="2">Assembly (I-joist) characteristic value</th></tr>
+    <tr><th>Grade A</th><th>Grade B</th><th>Type 1</th><th>Type 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Modulus of elasticity, mean E0,mean</td><td>GPa</td><td>13.5</td><td>12.0</td><td>6.5</td><td>5.8</td><td>EI derived per section</td></tr>
+    <tr><td>Bending strength fm,k</td><td>MPa</td><td>44</td><td>38</td><td>22</td><td>18</td><td>Moment capacity M based on flange stress</td></tr>
+    <tr><td>Shear strength fv,k</td><td>MPa</td><td>5.2</td><td>4.6</td><td>3.6</td><td>3.2</td><td>Shear capacity V governed by web</td></tr>
+    <tr><td>Compression strength parallel to grain fc,0,k</td><td>MPa</td><td>32</td><td>28</td><td>18</td><td>16</td><td>Bearing/crippling check at supports</td></tr>
+    <tr><td>Rolling shear strength fr,k</td><td>MPa</td><td>—</td><td>—</td><td>1.8</td><td>1.5</td><td>Web rolling shear verification</td></tr>
+    <tr><td>Density ρk</td><td>kg/m³</td><td>510</td><td>480</td><td>650</td><td>620</td><td>Mass for load calculations</td></tr>
+    <tr><td>Creep factor kdef (service class 2)</td><td>—</td><td>0.8</td><td>0.9</td><td>1.0</td><td>1.1</td><td>Long-term deflection adjustment</td></tr>
+  </tbody>
+</table>

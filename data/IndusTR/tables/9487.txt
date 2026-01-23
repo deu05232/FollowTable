@@ -1,0 +1,15 @@
+<table>
+  <caption>Enterprise-Centric Identifier Composition Using Third-Party Organization Node (Illustrative)</caption>
+  <thead>
+    <tr><th>Layer</th><th>Assigned party (example name)</th><th>Example code used</th><th>Example segment appended</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Field root</td><td>Construction Machinery Sector</td><td>OID root</td><td>1.2.156.3514</td><td>Sector node</td></tr>
+    <tr><td>Third-party organization</td><td>Service Platform Alpha</td><td>Allocated node</td><td>2011</td><td>Represents a third-party org node</td></tr>
+    <tr><td>Customer enterprise</td><td>Hengda Equipment Co., Ltd.</td><td>USCC (example)</td><td>91350100MA2Y7X3K9Q</td><td>Enterprise identifier used as a segment</td></tr>
+    <tr><td>Product type</td><td>Hengda Excavator Line</td><td>Product type code</td><td>EXC-02</td><td>Internal product-type code</td></tr>
+    <tr><td>Product instance</td><td>Unit #1</td><td>Product number</td><td>201600000001</td><td>Instance-specific product number</td></tr>
+    <tr><td>Attribute/metadata</td><td>Basic Product Info</td><td>Metadata item code</td><td>01.01002</td><td>Attribute leaf identifier</td></tr>
+    <tr><td>Final full identifier</td><td>—</td><td>Concatenated result</td><td>1.2.156.3514.2011.91350100MA2Y7X3K9Q.EXC-02.201600000001.01.01002</td><td>Full OID instance example</td></tr>
+  </tbody>
+</table>

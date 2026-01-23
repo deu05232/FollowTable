@@ -1,0 +1,10 @@
+<table>
+  <caption>Mixed Adaptation Interfaces: Model Lifecycle and Compiler IR Lowering</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Create Model</td><td>create_model</td><td>Required</td><td>Generate a hardware-executable model from the framework graph</td></tr>
+  <tr><td>Destroy Model</td><td>destroy_model</td><td>Required</td><td>Release the hardware-executable model and its resources</td></tr>
+  <tr><td>Build High-Level IR</td><td>high_level_ir_compile</td><td>Optional</td><td>Construct compiler high-level IR from the framework computation graph</td></tr>
+  <tr><td>Lower to Low-Level IR</td><td>lower_ir</td><td>Optional</td><td>Convert high-level IR to low-level IR for backend code generation</td></tr>
+  <tr><td>Emit Binary</td><td>emit_binary</td><td>Optional</td><td>Generate a device binary from low-level IR</td></tr>
+  <tr><td>Cache Artifact</td><td>cache_artifact</td><td>Optional</td><td>Store compiled artifacts for reuse across runs</td></tr>
+</table>

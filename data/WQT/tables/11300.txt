@@ -1,0 +1,11 @@
+# FX Hedging Journal Example (Derivative Accounting Case)
+
+| Date | Exposure Currency | Spot Rate | Forward Rate | Notional (Base) | Fair Value Change | Accounting Entry |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2024-01-02 | EUR | 1.10 USD/EUR | 1.12 USD/EUR | 100,000 EUR | $0 | Inception of forward |
+| 2024-02-01 | EUR | 1.08 USD/EUR | 1.11 USD/EUR | 100,000 EUR | ($900) | FV loss recognized |
+| 2024-03-01 | EUR | 1.09 USD/EUR | 1.10 USD/EUR | 100,000 EUR | $450 | Partial reversal |
+| 2024-04-01 | EUR | 1.07 USD/EUR | 1.09 USD/EUR | 100,000 EUR | ($800) | FV loss recognized |
+| 2024-05-01 | EUR | 1.06 USD/EUR | 1.08 USD/EUR | 100,000 EUR | ($650) | FV loss recognized |
+| 2024-06-01 | EUR | 1.08 USD/EUR | 1.10 USD/EUR | 100,000 EUR | $1,100 | FV gain recognized |
+| 2024-07-01 | EUR | 1.09 USD/EUR | 1.11 USD/EUR | 100,000 EUR | $700 | FV gain recognized |

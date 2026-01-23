@@ -1,0 +1,10 @@
+<table>
+  <caption>Abort Messages With Unrelated Payload Fields Mixed In</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Applies To</th><th>Description</th></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>Abort</td><td>0x03 for Charger Abort, 0x04 for Vehicle Abort</td></tr>
+  <tr><td>2</td><td>Abort Type</td><td>1 byte</td><td>BYTE</td><td>Abort</td><td>Termination category</td></tr>
+  <tr><td>3</td><td>Abort Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>Abort</td><td>Termination cause code</td></tr>
+  <tr><td>4</td><td>Electronic Lock Status</td><td>1 byte</td><td>BYTE</td><td>Lock Status</td><td>0x00 unlocked; 0xAA locked; 0xFF unreliable</td></tr>
+  <tr><td>5</td><td>Wake-up Flag</td><td>1 byte</td><td>BYTE</td><td>Wake-up</td><td>0x00 invalid; 0xAA wake-up</td></tr>
+  <tr><td>6</td><td>Protocol Version Number</td><td>3 bytes</td><td>BYTE[3]</td><td>SPN</td><td>Version encoded as three bytes</td></tr>
+</table>

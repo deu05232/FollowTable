@@ -1,0 +1,12 @@
+# Intel Chipset Driver Package Matrix for Windows 10 (Per-Driver, Not Per-Chipset)
+
+| Driver/INF Package | Component focus | Target OS | Supported Intel generations (summary) | Example chipsets mentioned | Distribution channel | Notes |
+|---|---|---|---|---|---|---|
+| Intel Chipset Device Software | INF identification | Windows 10 | 6-series through 300-series | H61, Q67, Z97, Z170, Z390 | Intel download center | Maps device IDs to names; not a full compatibility list |
+| Intel Rapid Storage Technology (RST) | SATA/AHCI/RAID | Windows 10 | Varies by branch | Z77, Z87, Z170, Z270 | OEM/Intel | Some older chipsets limited to AHCI-only drivers |
+| Intel Management Engine Interface | MEI | Windows 10 | 5-series and newer (varies) | Q57, Q67, Q87, Q170 | OEM | Required for certain power/security features |
+| Intel USB 3.0 eXtensible Host Controller | USB 3.0 | Windows 10 | Mainly 7/8-series (legacy) | Z77, H77, Z87 | OEM | Newer Windows includes generic xHCI stack |
+| Intel Ethernet Adapter Driver Pack | LAN | Windows 10 | Broad | Many | Intel | Not chipset-specific; depends on NIC |
+| Intel Serial IO | I2C/SPI/UART | Windows 10 | 100-series+ typical | H110, B150, Q170 | OEM | Laptop-focused drivers |
+| Intel Graphics Driver | iGPU | Windows 10 | Depends on CPU generation | N/A | Intel/OEM | CPU/iGPU-bound rather than chipset-bound |
+| Intel Thunderbolt Software | Thunderbolt controller | Windows 10 | Platform dependent | Z170, Z270, Z390 | OEM | Tied to board/controller, not chipset alone |

@@ -1,0 +1,19 @@
+<table>
+  <caption>Knitting Machine Time Accounting Dictionary (Piece/Shift Durations)</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="11">Piece-level elapsed time counters</td></tr>
+    <tr><td>0x0310</td><td>Piece Downtime</td><td>PieceDowntime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Accumulated pause time while knitting the current piece.</td><td></td></tr>
+    <tr><td>0x0311</td><td>Last Piece Downtime</td><td>LastPieceDowntime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Downtime accumulated during knitting of the immediately previous piece.</td><td></td></tr>
+    <tr><td>0x0312</td><td>Piece Running Time</td><td>PieceRunningTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Elapsed time with the knitting drive running during the current piece.</td><td></td></tr>
+    <tr><td>0x0313</td><td>Piece Elapsed Time</td><td>PieceElapsedTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Total elapsed time since the piece started (running + paused).</td><td></td></tr>
+    <tr><td>0x0314</td><td>Piece Idle Time</td><td>PieceIdleTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Elapsed time in idle state during the current piece (non-running, non-alarm stop).</td><td></td></tr>
+    <tr><td>0x0315</td><td>Piece Alarm Stop Time</td><td>PieceAlarmStopTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Elapsed time stopped due to alarms while knitting the current piece.</td><td></td></tr>
+    <tr><td colspan="11">Shift-level elapsed time counters</td></tr>
+    <tr><td>0x0316</td><td>Current Shift Running Time</td><td>ShiftRunningTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Accumulated running time during the active shift.</td><td></td></tr>
+    <tr><td>0x0317</td><td>Current Shift Downtime</td><td>ShiftDowntime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Accumulated downtime during the active shift.</td><td></td></tr>
+    <tr><td>0x0318</td><td>Current Shift Elapsed Time</td><td>ShiftElapsedTime</td><td>O</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Total elapsed time since shift start.</td><td></td></tr>
+  </tbody>
+</table>

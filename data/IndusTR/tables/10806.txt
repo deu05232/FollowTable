@@ -1,0 +1,14 @@
+<table>
+  <caption>Image Quality Rating Levels (AQI-like Scale)</caption>
+  <thead>
+    <tr><th>Level Code</th><th>Level Name</th><th>Threshold (Blur Score)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Extremely Poor</td><td>>= 0.90</td><td>Severe blur/noise; unusable for recognition</td></tr>
+    <tr><td>2</td><td>Poor</td><td>0.75 - 0.89</td><td>High blur; limited forensic value</td></tr>
+    <tr><td>3</td><td>Fair</td><td>0.55 - 0.74</td><td>Acceptable for preview; weak details</td></tr>
+    <tr><td>4</td><td>Good</td><td>0.35 - 0.54</td><td>Meets general analytics requirements</td></tr>
+    <tr><td>5</td><td>Excellent</td><td>< 0.35</td><td>Sharp image; best for identification</td></tr>
+    <tr><td>9</td><td>Unknown</td><td>N/A</td><td>Quality not evaluated</td></tr>
+  </tbody>
+</table>

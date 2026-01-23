@@ -1,0 +1,10 @@
+<table>
+  <caption>DEM contact parameters for collisions (mixed: restitution plus non-material setup parameters)</caption>
+  <tr><th>Parameter</th><th>Value</th><th>Applies to</th></tr>
+  <tr><td>Coefficient of restitution (e)</td><td>0.80</td><td>All contacts</td></tr>
+  <tr><td>Static friction coefficient (μs)</td><td>0.65</td><td>All contacts</td></tr>
+  <tr><td>Rolling friction coefficient (μr)</td><td>0.02</td><td>All contacts</td></tr>
+  <tr><td>Particle diameter (mm)</td><td>2</td><td>Granular bed</td></tr>
+  <tr><td>Particle density (kg/m³)</td><td>1308</td><td>Granular bed</td></tr>
+  <tr><td>Timestep (s)</td><td>1e-6</td><td>Integrator</td></tr>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Closable Caption Color Description Syntax Structure Table</caption>
+  <tr><td>Color Description Syntax</td><td>Descriptor</td></tr>
+  <tr><td>color_description({</td><td></td></tr>
+  <tr><td>background_color_red</td><td>u（8）</td></tr>
+  <tr><td>background_color_green</td><td>u(8)</td></tr>
+  <tr><td>marker_bit</td><td>f(1)</td></tr>
+  <tr><td>background_color_transparency</td><td>u（7)</td></tr>
+  <tr><td>background_color_blue</td><td>u(8)</td></tr>
+  <tr><td>background_width</td><td>u（8）</td></tr>
+  <tr><td>foreground_color_red</td><td>u（8)</td></tr>
+  <tr><td>foreground_color_green</td><td>u（8)</td></tr>
+  <tr><td>marker_bit</td><td>f(1)</td></tr>
+  <tr><td>foreground_color_transparency</td><td>u（7)</td></tr>
+  <tr><td>foreground_color_blue</td><td>u(8）</td></tr>
+  <tr><td>reserved</td><td>b(32)</td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

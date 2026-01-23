@@ -1,0 +1,10 @@
+<table>
+  <caption>ARPlaneAndLightingSummary enums (plane detection mixed with illumination)</caption>
+  <tr><th>Feature</th><th>Enum value</th><th>Description</th></tr>
+  <tr><td>Plane finding</td><td>AR_PLANE_FINDING_MODE_DISABLED = 0</td><td>Disable plane detection</td></tr>
+  <tr><td>Plane finding</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL = 1</td><td>Detect horizontal planes</td></tr>
+  <tr><td>Illumination state</td><td>ARILLUMINATION_ESTIMATE_STATE_NOT_VALID = 0</td><td>Light estimation temporarily unavailable</td></tr>
+  <tr><td>Illumination state</td><td>ARILLUMINATION_ESTIMATE_STATE_VALID = 1</td><td>Light estimation available</td></tr>
+  <tr><td>Pixel format</td><td>ARPIXEL_FORMAT_RG16 = 1</td><td>Image data uses RG16</td></tr>
+  <tr><td>Camera facing</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_BACK = 0</td><td>Use the rear-facing camera</td></tr>
+</table>

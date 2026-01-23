@@ -1,0 +1,16 @@
+<table>
+  <caption>Pre-Launch Interface Map for High-Altitude Balloon Payload</caption>
+  <thead>
+    <tr><th>Interface Group</th><th>Port / Cable ID</th><th>Connector Type</th><th>Pin / Contact</th><th>Signal / Function</th><th>Destination</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Power Distribution</td><td>X1</td><td>MicroFit 8-pin</td><td>1-2</td><td>28V_MAIN</td><td>Avionics Box</td><td>Keyed housing, verify latch</td></tr>
+    <tr><td>X1</td><td>MicroFit 8-pin</td><td>3-4</td><td>GND</td><td>Avionics Box</td><td>Common return</td></tr>
+    <tr><td>X2</td><td>MicroFit 4-pin</td><td>1</td><td>12V_AUX</td><td>Camera Module</td><td>Inline fuse installed</td></tr>
+    <tr><td rowspan="2">RF / Telemetry</td><td>RF1</td><td>SMA</td><td>Center</td><td>TX_OUT</td><td>Telemetry Antenna</td><td>Torque to spec</td></tr>
+    <tr><td>RF2</td><td>SMA</td><td>Center</td><td>GPS_ANT</td><td>GPS Antenna</td><td>Route away from power</td></tr>
+    <tr><td rowspan="2">Sensors</td><td>SEN-A</td><td>DB9</td><td>2</td><td>UART_RX</td><td>Science Sensor A</td><td>Shield connected at avionics end</td></tr>
+    <tr><td>SEN-A</td><td>DB9</td><td>3</td><td>UART_TX</td><td>Science Sensor A</td><td>Cross-check pinout</td></tr>
+    <tr><td>Mechanical</td><td>FLG-1</td><td>N/A</td><td>N/A</td><td>Flange interface</td><td>Balloon Neck Ring</td><td>Inspect for burrs</td></tr>
+  </tbody>
+</table>

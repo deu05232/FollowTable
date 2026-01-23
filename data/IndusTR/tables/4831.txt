@@ -1,0 +1,7 @@
+<table>
+  <caption>Pagination Data Structure</caption>
+  <tr><td>Parameter Name</td><td>Chinese Name</td><td>Data Type</td><td>Remarks</td></tr>
+  <tr><td>page</td><td>Page Number</td><td>int</td><td>Current page number, starting from 0</td></tr>
+  <tr><td>size</td><td>Current Count</td><td>int</td><td>Actual number of objects in the currently returned list</td></tr>
+  <tr><td>total</td><td>Total Count</td><td>int</td><td>Total number of objects contained in the current resource</td></tr>
+</table>

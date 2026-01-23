@@ -1,0 +1,8 @@
+<table>
+  <caption>Application-layer message delivery matrix (who sends what and under which reliability mode)</caption>
+  <tr><th>Message ID</th><th>High-level function</th><th>Reliability mode</th><th>Sender</th><th>Receiver</th></tr>
+  <tr><td>0x01</td><td>Negotiation request</td><td>Acked short message</td><td>Charger</td><td>Vehicle</td></tr>
+  <tr><td>0x02</td><td>Negotiation response</td><td>Acked short message</td><td>Vehicle</td><td>Charger</td></tr>
+  <tr><td>0x07</td><td>Lock state update</td><td>Unacked short message</td><td>Charger</td><td>Vehicle</td></tr>
+  <tr><td>0x09</td><td>Wake-up indication</td><td>Unacked short message</td><td>Vehicle</td><td>Charger</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Subjects in transportation systems sorted by typical time scales involved.</caption>
+  <tr><th>Time Scale</th><th>Subject</th><th>Models</th><th>Aspects</th></tr>
+  <tr><th>[0.1]s</th><td>Vehicle Dynamics</td><td>Sub-microscopic</td><td>Drive-train, brake, ESP</td></tr>
+  <tr><th>[1]s</th><td rowspan="4">Traffic Dynamics</td><td rowspan="4">Car-following models Fluid-dynamic models</td><td>Reaction time, Time gap</td></tr>
+  <tr><th>[10]s</th><td>Accelerating and braking</td></tr>
+  <tr><th>[1]min</th><td>Traffic light period</td></tr>
+  <tr><th>[10]min</th><td>Period of stop-and-go wave</td></tr>
+  <tr><th>[1]h</th><td rowspan="5">Transport. Planning</td><td rowspan="3">Traffic assignment models Traffic demand model</td><td>Peak hour</td></tr>
+  <tr><th>[1]day</th><td>Day-to-day human behavior</td></tr>
+  <tr><th>[1]year</th><td>Building measures</td></tr>
+  <tr><th>[5]years</th><td>Statistics</td><td>Changes in spatial structure</td></tr>
+  <tr><th>[50]years</th><td>Prognosis</td><td>Changes in Demography</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Data Link Layer Version Negotiation State Machine (Timing and Transitions)</caption>
+  <thead>
+    <tr><th>Step</th><th>Current State</th><th>Event / Trigger</th><th>Condition</th><th>Action (Tx/Rx)</th><th>Next State</th><th>Timer / Timeout</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Idle</td><td>Link-Up Confirmed</td><td>Physical link stable</td><td>Tx: VersionOffer</td><td>Wait-Offer</td><td>T0 start</td><td>Begins negotiation after link establishment</td></tr>
+    <tr><td>2</td><td>Wait-Offer</td><td>Rx: VersionOffer</td><td>Remote offer received</td><td>Compare versions; decide response</td><td>Compute-Result</td><td>—</td><td>No payload field details provided</td></tr>
+    <tr><td>3</td><td>Compute-Result</td><td>Local decision</td><td>Remote version supported</td><td>Tx: VersionAck (Success)</td><td>Wait-Ack</td><td>T1 = 200 ms</td><td>Success path</td></tr>
+    <tr><td>4</td><td>Compute-Result</td><td>Local decision</td><td>Remote version not supported but lower fallback exists</td><td>Tx: VersionAck (Continue)</td><td>Wait-Offer</td><td>T1 = 200 ms</td><td>Continue negotiation with adjusted expectation</td></tr>
+    <tr><td>5</td><td>Compute-Result</td><td>Local decision</td><td>No compatible version</td><td>Tx: VersionAck (Fail)</td><td>Fail</td><td>—</td><td>Negotiation terminates</td></tr>
+    <tr><td>6</td><td>Wait-Ack</td><td>Rx: VersionAck</td><td>Ack indicates Success</td><td>Latch negotiated version; proceed to next stage</td><td>Done</td><td>T2 = 10 s overall limit</td><td>Procedure-level behavior emphasized</td></tr>
+    <tr><td>7</td><td>Wait-Ack</td><td>Timer Expired</td><td>T1 expired</td><td>Retransmit last message</td><td>Wait-Ack</td><td>Retry max = 3</td><td>Retransmission policy</td></tr>
+    <tr><td>8</td><td>Any</td><td>Overall Timeout</td><td>T2 exceeded</td><td>Abort negotiation; fallback procedure</td><td>Abort</td><td>T2 = 10 s</td><td>High-level abort condition</td></tr>
+  </tbody>
+</table>

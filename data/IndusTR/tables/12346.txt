@@ -1,0 +1,14 @@
+<table>
+  <caption>Session Parameter Reference for Configuration Updates (No Host Runtime Inputs)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Required</td><td>session</td><td>ArSession *</td><td>Existing AR session handle to be reconfigured.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>Same session object used for applying updated options.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>Handle used to reference internal state; no construction details.</td></tr>
+    <tr><td rowspan="3">Optional</td><td>session</td><td>ArSession *</td><td>Passed through by the caller; assumes creation was done previously.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>Opaque reference used for validation only.</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>Used to route configuration calls; does not accept environment pointers.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Video/Image Surveillance Event Type Code Table (Traffic & Scene Analytics)</caption>
+  <thead>
+    <tr><th>Code</th><th>Event Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>201</td><td>Vehicle Passing</td><td>Vehicle passes through a detection zone or checkpoint.</td></tr>
+    <tr><td>202</td><td>Person Passing</td><td>Person passes through a detection zone or checkpoint.</td></tr>
+    <tr><td>203</td><td>Wrong-Way Driving</td><td>Vehicle detected moving against the permitted direction of travel.</td></tr>
+    <tr><td>204</td><td>Illegal U-Turn</td><td>Vehicle performs a U-turn where it is not allowed.</td></tr>
+    <tr><td>205</td><td>Illegal Parking</td><td>Vehicle remains stopped in a no-parking zone beyond the time threshold.</td></tr>
+    <tr><td>206</td><td>Stopped Vehicle</td><td>Vehicle stops unexpectedly in a lane or critical area (possible breakdown/incident).</td></tr>
+    <tr><td>207</td><td>Pedestrian in Roadway</td><td>Pedestrian detected within a vehicle roadway/traffic lane area.</td></tr>
+    <tr><td>208</td><td>Congestion</td><td>Traffic density or average speed indicates congestion within the monitored segment.</td></tr>
+    <tr><td>209</td><td>Smoke Detected</td><td>Smoke plume detected in the scene (potential fire precursor).</td></tr>
+    <tr><td>210</td><td>Fire Detected</td><td>Visible flame detected in the scene (fire event).</td></tr>
+  </tbody>
+</table>

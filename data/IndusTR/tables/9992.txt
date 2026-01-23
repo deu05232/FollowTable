@@ -1,0 +1,16 @@
+<table>
+  <caption>Loss Limits by Voltage Class (Capacities Grouped, Not One Capacity per Row)</caption>
+  <thead>
+    <tr><th rowspan="2">Voltage Class</th><th rowspan="2">Rated Capacity Group (kVA)</th><th colspan="2">Grade 1 (kW)</th><th colspan="2">Grade 2 (kW)</th><th colspan="2">Grade 3 (kW)</th><th rowspan="2">Short-Circuit Impedance (%)</th></tr>
+    <tr><th>No-Load Loss</th><th>Load Loss</th><th>No-Load Loss</th><th>Load Loss</th><th>No-Load Loss</th><th>Load Loss</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>HV/MV</td><td>31500–40000</td><td>12.0</td><td>100</td><td>14.0</td><td>100</td><td>17.0</td><td>106</td><td>8–14</td></tr>
+    <tr><td>HV/MV</td><td>50000–63000</td><td>15.0</td><td>125</td><td>18.0</td><td>125</td><td>22.0</td><td>132</td><td>9–15</td></tr>
+    <tr><td>HV/MV</td><td>80000–120000</td><td>26.5</td><td>285</td><td>31.5</td><td>285</td><td>39.0</td><td>302</td><td>10–11</td></tr>
+    <tr><td>HV/LV</td><td>31500–40000</td><td>12.0</td><td>100</td><td>14.0</td><td>100</td><td>17.0</td><td>106</td><td>22–26</td></tr>
+    <tr><td>HV/LV</td><td>50000–63000</td><td>15.0</td><td>125</td><td>18.0</td><td>125</td><td>22.0</td><td>132</td><td>24–28</td></tr>
+    <tr><td>HV/LV</td><td>80000–120000</td><td>26.5</td><td>285</td><td>31.5</td><td>285</td><td>39.0</td><td>302</td><td>26–30</td></tr>
+    <tr><td>MV/LV</td><td>31500–40000</td><td>12.0</td><td>100</td><td>14.0</td><td>100</td><td>17.0</td><td>106</td><td>7–12</td></tr>
+  </tbody>
+</table>

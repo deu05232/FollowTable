@@ -1,0 +1,15 @@
+<table>
+  <caption>CSDM Interface-to-Operation Matrix (Not Element-Level Definitions)</caption>
+  <thead>
+    <tr><th>Interface</th><th>Operation</th><th>Transaction Supported</th><th>Input Message</th><th>Output Message</th><th>Error Handling</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CitizenInfoAPI</td><td>getProfile</td><td>true</td><td>GetProfileRequest</td><td>GetProfileResponse</td><td>HTTP 4xx/5xx</td><td>Read-only operation</td></tr>
+    <tr><td>CitizenInfoAPI</td><td>updateContact</td><td>true</td><td>UpdateContactRequest</td><td>UpdateContactResponse</td><td>Validation errors</td><td>Requires authentication</td></tr>
+    <tr><td>PaymentAPI</td><td>createOrder</td><td>true</td><td>CreateOrderRequest</td><td>CreateOrderResponse</td><td>Idempotency required</td><td>Returns orderId</td></tr>
+    <tr><td>PaymentAPI</td><td>cancelOrder</td><td>false</td><td>CancelOrderRequest</td><td>CancelOrderResponse</td><td>Order-state dependent</td><td>May fail if shipped</td></tr>
+    <tr><td>NotificationAPI</td><td>subscribe</td><td>false</td><td>SubscribeRequest</td><td>SubscribeResponse</td><td>Quota exceeded</td><td>Creates subscription</td></tr>
+    <tr><td>NotificationAPI</td><td>unsubscribe</td><td>false</td><td>UnsubscribeRequest</td><td>UnsubscribeResponse</td><td>Not found</td><td>Deletes subscription</td></tr>
+    <tr><td>AnalyticsAPI</td><td>reportUsage</td><td>false</td><td>UsageReport</td><td>Ack</td><td>Schema mismatch</td><td>Batch upload supported</td></tr>
+  </tbody>
+</table>

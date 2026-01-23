@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Pack Environmental Temperature Cycling Profile (Chamber Setpoints and Dwells)</caption>
+  <thead>
+    <tr><th>Step</th><th>Chamber Setpoint (°C)</th><th>Ramp Rate (°C/min)</th><th>Dwell Time (min)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>25</td><td>—</td><td>60</td><td>Stabilization at ambient</td></tr>
+    <tr><td>2</td><td>-40</td><td>1.0</td><td>120</td><td>Cold soak</td></tr>
+    <tr><td>3</td><td>25</td><td>1.0</td><td>30</td><td>Return to ambient</td></tr>
+    <tr><td>4</td><td>85</td><td>1.5</td><td>120</td><td>Hot soak</td></tr>
+    <tr><td>5</td><td>25</td><td>1.5</td><td>30</td><td>Intermediate stabilization</td></tr>
+    <tr><td>6</td><td>-20</td><td>1.0</td><td>90</td><td>Moderate cold dwell</td></tr>
+    <tr><td>7</td><td>25</td><td>1.0</td><td>60</td><td>End of cycle stabilization</td></tr>
+  </tbody>
+</table>

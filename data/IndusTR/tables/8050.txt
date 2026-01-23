@@ -1,0 +1,16 @@
+<table>
+  <caption>User Terminal Application File Information (Device/User Identity Fields)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item</th><th>Length (bytes)</th><th>Encoding</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Terminal Identity</td><td>IMEI (15 digits)</td><td>8</td><td>BCD</td><td>International Mobile Equipment Identity, padded in low nibble</td></tr>
+    <tr><td>Device Serial Number</td><td>12</td><td>ASCII</td><td>Manufacturer-assigned serial number</td></tr>
+    <tr><td>Hardware Model Code</td><td>4</td><td>ASCII</td><td>Terminal model identifier</td></tr>
+    <tr><td>Firmware Version</td><td>6</td><td>ASCII</td><td>Installed firmware version string</td></tr>
+    <tr><td rowspan="4">User/Profile</td><td>User ID</td><td>6</td><td>Binary</td><td>Unique user identifier</td></tr>
+    <tr><td>Account Name</td><td>16</td><td>UTF-8</td><td>Human-readable account label</td></tr>
+    <tr><td>Organization ID</td><td>8</td><td>Binary</td><td>Organization/tenant identifier</td></tr>
+    <tr><td>Phone Number (MSISDN)</td><td>16</td><td>BCD</td><td>Dialable number, left padded</td></tr>
+  </tbody>
+</table>

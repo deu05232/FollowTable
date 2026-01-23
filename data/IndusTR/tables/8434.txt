@@ -1,0 +1,17 @@
+<table>
+  <caption>Integrated Pre-Release Checklist: Power Outputs + Mounting/Flange Verification</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Parameter</th><th>Nominal</th><th>Measured</th><th>Units</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Power Distributor Outputs</td><td>Number of output ports</td><td>8</td><td>8</td><td>pcs</td><td>Ports X1–X8</td></tr>
+    <tr><td>Port X1 voltage</td><td>28.0</td><td>28.1</td><td>V</td><td>OK</td></tr>
+    <tr><td>Port X1 current</td><td>0.8</td><td>0.9</td><td>A</td><td>OK</td></tr>
+    <tr><td>Port X2 voltage</td><td>28.0</td><td>27.9</td><td>V</td><td>OK</td></tr>
+    <tr><td>Port X2 current</td><td>0.8</td><td>0.8</td><td>A</td><td>OK</td></tr>
+    <tr><td>Port X3 voltage</td><td>28.0</td><td>27.3</td><td>V</td><td>Low but usable</td></tr>
+    <tr><td rowspan="3">Mechanical / Flange</td><td>Number of flanges</td><td>2</td><td>2</td><td>pcs</td><td>Verified on gondola frame</td></tr>
+    <tr><td>Flange 1 screw preload</td><td>18</td><td>16</td><td>N</td><td>Retorque required</td></tr>
+    <tr><td>Mounting hole diameter</td><td>6.0</td><td>6.1</td><td>mm</td><td>Within machining tolerance</td></tr>
+  </tbody>
+</table>

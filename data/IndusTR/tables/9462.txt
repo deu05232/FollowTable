@@ -1,0 +1,16 @@
+<table>
+  <caption>Acceptance Limits for Error Variation Under Influence Tests (Harmonic Active Energy Meters)</caption>
+  <thead>
+    <tr><th rowspan="2">Test condition</th><th rowspan="2">Current condition (balanced unless stated)</th><th rowspan="2">Harmonic power factor</th><th colspan="3">Limit for change in error (%) by accuracy class</th></tr>
+    <tr><th>Class 5</th><th>Class 2</th><th>Class 1</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fundamental frequency variation (±2%)</td><td>4Ir</td><td>1.0</td><td>±2.0</td><td>±1.0</td><td>±0.7</td></tr>
+    <tr><td>Fundamental frequency variation (±5%)</td><td>4Ir</td><td>1.0</td><td>±2.5</td><td>±1.2</td><td>±0.8</td></tr>
+    <tr><td>Supply voltage variation (−15%)</td><td>Ir</td><td>1.0</td><td>±1.8</td><td>±1.0</td><td>±0.6</td></tr>
+    <tr><td>Supply voltage variation (+10%)</td><td>Ir</td><td>1.0</td><td>±1.8</td><td>±1.0</td><td>±0.6</td></tr>
+    <tr><td>Phase displacement shift (reference → +5°)</td><td>Ir</td><td>0.5 lagging</td><td>±2.5</td><td>±1.5</td><td>±1.0</td></tr>
+    <tr><td>Reverse phase sequence (3-phase)</td><td>Ir</td><td>1.0</td><td>±2.0</td><td>±1.5</td><td>±1.5</td></tr>
+    <tr><td>Harmonic content increase (THD current +10% pts)</td><td>0.5Ir</td><td>0.5 lagging</td><td>±3.0</td><td>±2.0</td><td>±1.5</td></tr>
+  </tbody>
+</table>

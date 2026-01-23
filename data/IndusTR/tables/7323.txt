@@ -1,0 +1,8 @@
+<table>
+  <caption>Operator interface parameters for basic math (I/O tensors and shape rules)</caption>
+  <tr><td>Component</td><td>Role</td><td>What it describes overall</td><td>Constraint summary</td></tr>
+  <tr><td>Input tensor A</td><td>Input</td><td>The primary input value container</td><td>Rank must be >= 1; element type must be numeric</td></tr>
+  <tr><td>Input tensor B</td><td>Input</td><td>The secondary input value container</td><td>Either same shape as A or broadcast-compatible</td></tr>
+  <tr><td>Output tensor</td><td>Output</td><td>The produced tensor after the arithmetic op</td><td>Shape derived from inputs; element type aligned with inputs</td></tr>
+  <tr><td>Reduction axis list</td><td>Input</td><td>Which dimensions are reduced (when the operator is a reducing math op)</td><td>Axis indices must be within input rank</td></tr>
+</table>

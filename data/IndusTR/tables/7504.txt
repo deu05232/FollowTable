@@ -1,0 +1,16 @@
+<table>
+  <caption>Evaporation Conversion Coefficient and Associated Hydrology Parameters by Province (Screening Sheet)</caption>
+  <thead>
+    <tr><th rowspan="2">Province</th><th colspan="2">Evaporation Conversion</th><th colspan="2">Runoff Model</th><th rowspan="2">Reservoir-Region a3</th></tr>
+    <tr><th>Water-surface conversion coefficient (Ce)</th><th>Notes</th><th>R regression equation</th><th>Input P unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>National average</td><td>0.62</td><td>Reference value</td><td>R = 1.20×ln(P) - 3.90</td><td>mm</td><td>0.22</td></tr>
+    <tr><td>Beijing</td><td>0.56</td><td>North China</td><td>R = 1.35×ln(P) - 4.10</td><td>mm</td><td>0.29</td></tr>
+    <tr><td>Tianjin</td><td>0.58</td><td>Coastal plain</td><td>R = 1.30×ln(P) - 4.00</td><td>mm</td><td>0.28</td></tr>
+    <tr><td>Henan</td><td>0.63</td><td>Central</td><td>R = 1.42×ln(P) - 4.37</td><td>mm</td><td>0.25</td></tr>
+    <tr><td>Hubei</td><td>0.65</td><td>Middle Yangtze</td><td>R = 1.55×ln(P) - 4.95</td><td>mm</td><td>0.20</td></tr>
+    <tr><td>Hunan</td><td>0.64</td><td>Lake district</td><td>R = 1.50×ln(P) - 4.80</td><td>mm</td><td>0.19</td></tr>
+    <tr><td>Guangdong</td><td>0.66</td><td>Humid subtropical</td><td>R = 1.62×ln(P) - 5.10</td><td>mm</td><td>0.16</td></tr>
+  </tbody>
+</table>

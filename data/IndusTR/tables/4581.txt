@@ -1,0 +1,7 @@
+<table>
+  <caption>Linear Operation Function Backward Interface (Weight Gradient) Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Output Tensor Gradient</td><td>Input</td><td>Required</td><td>Represents the gradient of the output tensor in the forward interface. The output tensor is a tensor with shape [N，.，out_features]</td></tr>
+  <tr><td>Output Tensor</td><td>Input</td><td>Required</td><td>Represents the input tensor in the forward interface, i.e., the linear operation input tensor</td></tr>
+  <tr><td>Weight Tensor Gradient</td><td>Input</td><td>Required</td><td>Represents the gradient of the weight tensor in the forward interface. The weight tensor is the weights of the linear operation, a tensor with shape ［out_features，in_features]</td></tr>
+</table>

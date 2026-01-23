@@ -1,0 +1,28 @@
+<table>
+  <caption>Closable Caption Sample Syntax Structure Table</caption>
+  <tr><td>CC Sample Syntax</td><td>Descriptor</td></tr>
+  <tr><td>CC_sampleO{</td><td></td></tr>
+  <tr><td>CC_sample_start_code</td><td>f(32)</td></tr>
+  <tr><td>CC_type</td><td>u（8)</td></tr>
+  <tr><td>language</td><td>b(24)</td></tr>
+  <tr><td>CC_string_offset</td><td>u(8)</td></tr>
+  <tr><td>if(CC_type! =4 && CC_type! =255){</td><td></td></tr>
+  <tr><td>time_information()</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>if(CC_type！ =255){</td><td></td></tr>
+  <tr><td>position_description()</td><td></td></tr>
+  <tr><td>display_description()</td><td></td></tr>
+  <tr><td>color_description()</td><td></td></tr>
+  <tr><td>font_description()</td><td></td></tr>
+  <tr><td>style_description()</td><td></td></tr>
+  <tr><td>}      SAC</td><td></td></tr>
+  <tr><td>for(i=0；i<N；i++)</td><td></td></tr>
+  <tr><td>user_data_byte</td><td>(8）</td></tr>
+  <tr><td>if(CC_type！=2){</td><td></td></tr>
+  <tr><td>CC_string()</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>else{</td><td></td></tr>
+  <tr><td>picture_data_byte</td><td>b(8)</td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

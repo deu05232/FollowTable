@@ -1,0 +1,21 @@
+<table>
+  <caption>Pre-Release Electrical Power Checkout (Payload Bus and Regulators)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Check Item</th><th>Design/Limit</th><th>Measured</th><th>Pass/Fail</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Primary Battery & Main Bus</td><td>Main bus voltage at PDU input (VBUS)</td><td>27.0–29.4 V</td><td></td><td></td><td></td></tr>
+    <tr><td>Main bus inrush at power-on (peak)</td><td>≤ 8.0 A (10 ms max)</td><td></td><td></td><td></td></tr>
+    <tr><td>Bus ripple (20 MHz BW)</td><td>≤ 200 mVpp</td><td></td><td></td><td></td></tr>
+    <tr><td>Main bus undervoltage cut-off trip</td><td>22.0–23.0 V</td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="4">DC/DC Rails (at load)</td><td>+12 V rail output</td><td>11.4–12.6 V</td><td></td><td></td><td></td></tr>
+    <tr><td>+5 V rail output</td><td>4.85–5.15 V</td><td></td><td></td><td></td></tr>
+    <tr><td>+3.3 V rail output</td><td>3.20–3.40 V</td><td></td><td></td><td></td></tr>
+    <tr><td>Regulator case temperature after 5 min</td><td>≤ 70 °C</td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="3">Power Distribution Unit (PDU)</td><td>PDU channel current sum</td><td>≤ 6.0 A</td><td></td><td></td><td></td></tr>
+    <tr><td>PDU channel overcurrent trip test (Channel A)</td><td>Trips at 2.5–3.5 A</td><td></td><td></td><td></td></tr>
+    <tr><td>PDU enable/disable control response</td><td>On/Off within 1 s</td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="2">Grounding</td><td>Chassis-to-bus return resistance</td><td>≤ 0.10 Ω</td><td></td><td></td><td></td></tr>
+    <tr><td>Bonding strap continuity (payload frame)</td><td>≤ 0.05 Ω</td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>

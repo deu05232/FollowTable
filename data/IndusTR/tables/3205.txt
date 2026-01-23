@@ -1,0 +1,10 @@
+<table>
+  <caption>SpaceFibre (Telecom Context) Service Control Words for Satellite Modem OAM</caption>
+  <tr><th>Control Word</th><th>OAM Channel</th><th>Direction</th><th>Payload Length</th><th>Purpose</th><th>Trigger</th></tr>
+  <tr><td>SF-KEEPALIVE</td><td>Management</td><td>Bidirectional</td><td>16 bytes</td><td>Maintain session liveness</td><td>Every 1 s</td></tr>
+  <tr><td>SF-ALARM</td><td>Fault</td><td>Uplink</td><td>32 bytes</td><td>Report modem alarm summary</td><td>On alarm change</td></tr>
+  <tr><td>SF-THROTTLE</td><td>Traffic</td><td>Downlink</td><td>8 bytes</td><td>Rate-limit bearer traffic</td><td>Congestion detected</td></tr>
+  <tr><td>SF-TRACE</td><td>Diagnostics</td><td>Bidirectional</td><td>64 bytes</td><td>Request trace dump</td><td>Operator request</td></tr>
+  <tr><td>SF-KEYROLL</td><td>Security</td><td>Bidirectional</td><td>48 bytes</td><td>Rotate session keys</td><td>Key lifetime reached</td></tr>
+  <tr><td>SF-LOOPBACK</td><td>Diagnostics</td><td>Downlink</td><td>12 bytes</td><td>Enable remote loopback</td><td>Commissioning</td></tr>
+</table>

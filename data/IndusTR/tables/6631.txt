@@ -1,0 +1,16 @@
+<table>
+  <caption>Ionospheric Delay Correction Spherical-Harmonic Message: SSR Header and Timing Fields</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Bit Width</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message type number</td><td>DF002</td><td>uint12</td><td>12</td><td>Identifies SSR message subtype</td></tr>
+    <tr><td>Header</td><td>Provider ID</td><td>DF003</td><td>uint16</td><td>16</td><td>Data source identifier</td></tr>
+    <tr><td>Header</td><td>Solution ID</td><td>DF004</td><td>uint4</td><td>4</td><td>Solution stream identifier</td></tr>
+    <tr><td>Timing</td><td>GPS epoch time</td><td>DF385</td><td>uint20</td><td>20</td><td>Time tag for corrections</td></tr>
+    <tr><td>Timing</td><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Nominal update rate</td></tr>
+    <tr><td>Timing</td><td>Multiple message indicator</td><td>DF392</td><td>bit(1)</td><td>1</td><td>Continuation flag</td></tr>
+    <tr><td>Timing</td><td>SSR IOD</td><td>DF393</td><td>uint4</td><td>4</td><td>Issue of data</td></tr>
+    <tr><td>Reference</td><td>Reference datum</td><td>DF409</td><td>uint1</td><td>1</td><td>0: ITRF, 1: regional</td></tr>
+  </tbody>
+</table>

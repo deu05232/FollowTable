@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameter Definitions for PGI 0x01 Phase Request Message (Application Layer Payload)</caption>
+  <thead>
+    <tr><th>Seq. No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x01</td></tr>
+    <tr><td>2</td><td>Requested Phase</td><td>1 byte</td><td>BYTE</td><td>PhaseIdType</td><td>Target charging phase requested by the charger (e.g., 0x01: Handshake; 0x02: Parameter setup; 0x03: Charging; 0x04: Stop; 0xFF: Reserved)</td></tr>
+    <tr><td>3</td><td>Sequence Counter</td><td>1 byte</td><td>BYTE</td><td>SeqCounterType</td><td>Monotonic counter incremented per new request; used to match ACK/response to this request</td></tr>
+    <tr><td>4</td><td>Request Timestamp</td><td>4 bytes</td><td>UINT32</td><td>TimeMsType</td><td>Time in milliseconds since session start (little-endian) when the request is generated</td></tr>
+    <tr><td>5</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>ReservedType</td><td>Set to 0xFF; receiver shall ignore</td></tr>
+    <tr><td>6</td><td>CRC8</td><td>1 byte</td><td>UINT8</td><td>Crc8Type</td><td>CRC over bytes 1..5 of the payload (polynomial to be defined by implementation profile)</td></tr>
+  </tbody>
+</table>

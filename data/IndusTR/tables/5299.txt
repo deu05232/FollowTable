@@ -1,0 +1,18 @@
+<table>
+  <caption>SpaceFibre bus 8B 10B encoding 3B 4B encoding table</caption>
+  <tr><td colspan="2">Input</td><td colspan="2">Output</td></tr>
+  <tr><td>Data input</td><td>Data bits 765HGF</td><td>5B/6B disparity is -1fghj</td><td>5B/6B disparity is +1fghj</td></tr>
+  <tr><td>D/Kxx.0</td><td>000</td><td>1011</td><td>0100</td></tr>
+  <tr><td>Dxx.1</td><td>001</td><td colspan="2">1001</td></tr>
+  <tr><td>Kxx.1</td><td>001</td><td>0110</td><td>1001</td></tr>
+  <tr><td>Dxx.2</td><td>010</td><td colspan="2">0101</td></tr>
+  <tr><td>Kxx.2</td><td>010</td><td>1010</td><td>0101</td></tr>
+  <tr><td>D/Kxx.3</td><td>011</td><td>1100</td><td>0011</td></tr>
+  <tr><td>D/Kxx.4</td><td>100</td><td>1101</td><td>0010</td></tr>
+  <tr><td>Dxx.5</td><td>101</td><td colspan="2">1010</td></tr>
+  <tr><td>Kxx.5</td><td>101</td><td>0101</td><td>1010</td></tr>
+  <tr><td>Dxx.6</td><td>110</td><td colspan="2">0110</td></tr>
+  <tr><td>Kxx.6</td><td>110</td><td>1001</td><td>0110</td></tr>
+  <tr><td>Dxx.7</td><td>111</td><td>1110/0111</td><td>0001/1000</td></tr>
+  <tr><td>Kxx.7</td><td>111</td><td>0111</td><td>1000</td></tr>
+</table>

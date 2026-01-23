@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameters for Retrieving a Depth Image from an AR Frame (CPU-accessible depth buffer)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Pointer to the active AR session.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>Pointer to the AR frame that owns the current depth data.</td></tr>
+    <tr><td>depth_image_type</td><td>ArDepthImageType</td><td>Selects which depth stream to return (e.g., RAW_DEPTH, SMOOTHED_DEPTH). Only affects the returned depth image.</td></tr>
+    <tr><td>timestamp_ns</td><td>int64_t *</td><td>Receives the timestamp (in nanoseconds) associated with the returned depth image.</td></tr>
+    <tr><td>out_depth_image</td><td>ArImage **</td><td>Output: receives the address of the depth image object (depth buffer image).</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>Receives the call status (e.g., success, not available). No other frame outputs are returned.</td></tr>
+  </tbody>
+</table>

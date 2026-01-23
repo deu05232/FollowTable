@@ -1,0 +1,18 @@
+<table>
+  <caption>Identifier Fields for Battery Swap Start Request (Order & Equipment Binding)</caption>
+  <thead>
+    <tr><th>Identifier Group</th><th>Field Name</th><th>Parameter (Definition)</th><th>Type</th><th>Format / Length Hint</th><th>Required</th><th>Notes (What it identifies)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Swap Transaction</td><td>Swap order number</td><td>swapOrderNo</td><td>string</td><td>OperatorId + unique sequence; max 64 chars</td><td>Yes</td><td>Primary identifier of the swap transaction/order</td></tr>
+    <tr><td>Operator identifier</td><td>operatorId</td><td>string</td><td>2–16 chars; uppercase letters/digits</td><td>Yes</td><td>Used to scope the order number and tenant/operator context</td></tr>
+    <tr><td>Order creation timestamp</td><td>orderCreateTime</td><td>string</td><td>ISO-8601: yyyy-MM-dd'T'HH:mm:ssXXX</td><td>No</td><td>Optional disambiguation when troubleshooting duplicate submissions</td></tr>
+    <tr><td rowspan="3">Swap Equipment</td><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>Platform-unique; 8–64 chars</td><td>Yes</td><td>Identifies the cabinet/station/device performing the swap</td></tr>
+    <tr><td>Cabinet device serial number</td><td>cabinetSn</td><td>string</td><td>Alphanumeric; 6–32 chars</td><td>No</td><td>Secondary equipment identifier for vendor-side correlation</td></tr>
+    <tr><td>Connector / bay identifier</td><td>bayId</td><td>string</td><td>1–8 chars (e.g., "A01")</td><td>No</td><td>Targets a specific bay/slot on the cabinet when needed</td></tr>
+    <tr><td rowspan="2">Vehicle Binding (Optional)</td><td>Vehicle identification number</td><td>vinCode</td><td>string</td><td>GB/T 27930; length 17</td><td>No</td><td>If provided, restricts the start to the specified vehicle</td></tr>
+    <tr><td>Vehicle authentication sequence</td><td>vehicleAuthSeq</td><td>string</td><td>OperatorId + unique sequence; max 64 chars</td><td>No</td><td>Links the start request to a prior auth step</td></tr>
+    <tr><td rowspan="2">Request Correlation</td><td>Client request identifier</td><td>requestId</td><td>string</td><td>UUID recommended; max 36 chars</td><td>Yes</td><td>Idempotency/correlation key for retries without duplicating orders</td></tr>
+    <tr><td>Message trace identifier</td><td>traceNo</td><td>string</td><td>1–64 chars</td><td>No</td><td>End-to-end tracing across operator and platform systems</td></tr>
+  </tbody>
+</table>

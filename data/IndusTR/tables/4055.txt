@@ -1,0 +1,10 @@
+<table>
+  <caption>Drying Equipment Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Set Speed</td><td>SetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>丨</td><td>丨</td></tr>
+  <tr><td>0X0201</td><td>Rotary Screen Set Speed</td><td>SetTheSpeedOfTheRotaryScreen</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0202</td><td>Drying Zone Set Temperature</td><td>SetTemperatureOfDryingZone</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~300.00</td><td>℃</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0203</td><td>Dehumidifying Fan Set Speed</td><td>DehumidifyingF anSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0204</td><td>Rotary Screen Fan Set Speed</td><td>SetSpeedOfRotaryScreenFan</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>20.00~5 000.00</td><td>r/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0205</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Return Values for Method to Obtain Oil Tank Basic Information Data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short Name</td><td>Data Type</td><td>Data Format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Oil Depot Grade</td><td>ykdj</td><td>Character</td><td>a.1</td><td rowspan="7">Meaning and type shall comply with the provisions of 6.1.5 in LS/T 1802—2016</td></tr>
+  <tr><td>2</td><td>Oil Tank Name</td><td>ygmc</td><td>Character</td><td>a..20</td></tr>
+  <tr><td>3</td><td>Oil Tank No.</td><td>ygbh</td><td>Character</td><td>a..20</td></tr>
+  <tr><td>4</td><td>Total Tank Capacity</td><td>ygzr</td><td>Numeric</td><td>n..15,3</td></tr>
+  <tr><td>5</td><td>Tank Group Capacity</td><td>ygzr01</td><td>Numeric</td><td>n..15,3</td></tr>
+  <tr><td>6</td><td>Oil Tank Status</td><td>ygzt</td><td>Character</td><td>a.1</td></tr>
+  <tr><td>7</td><td>Oil Tank Service Status</td><td>ygsyzt</td><td>Character</td><td>a.1</td></tr>
+</table>

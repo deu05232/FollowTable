@@ -1,0 +1,15 @@
+<table>
+  <caption>Conformance requirements for CU split and transform parsing (context combinations)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Test requirements</th><th>Context / dependency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>split_flag</td><td>Traverse combinations of SizeInBit in {1,2,3,4} and cu_width in {8,16,32}; for each combination, traverse split_flag equals 0 to 1</td><td>Mixes value range with other context variables</td></tr>
+    <tr><td>cu_type_index</td><td>When IntraCuFlag = 1, traverse binIdx equals 0 to 3; otherwise traverse all binary symbol string cases in Table 80 of GB/T 33475.2—2024</td><td>Branching + reference-driven</td></tr>
+    <tr><td>transform_split_flag</td><td>When split_flag = 1, traverse transform_split_flag equals 0 only; when split_flag = 0, traverse transform_split_flag equals 0 to 1</td><td>Depends on another syntax element</td></tr>
+    <tr><td>pred_mode_flag</td><td>Traverse combinations of pred_mode_flag and IntraCuFlag (00,01,10,11) where allowed by profile_idc</td><td>Combines multiple flags + profile dependency</td></tr>
+    <tr><td>cbf_flag</td><td>When cu_type_index equals 2 and qp_delta_abs > 0, traverse cbf_flag equals 0 to 1; otherwise traverse cbf_flag = 1 only</td><td>Multi-condition gating</td></tr>
+    <tr><td>mvd_sign_flag</td><td>Traverse all cases in 8.3.3.1 of GB/T 33475.2—2024 where BypassFlag is 1</td><td>Reference to section, not self-contained</td></tr>
+    <tr><td>residual_adaptive_flag</td><td>Traverse combinations of transform_split_flag, cbf_flag, and IsChroma; cover all reachable tuples</td><td>Pure combination coverage (not a simple range)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Magnetometer Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="4">vrMagdata</td><td>int64_t time_stamp</td><td>IMU data timestamp</td></tr>
+  <tr><td>double mag_x</td><td rowspan="3">Data measured by the 3-axis magnetometer</td></tr>
+  <tr><td>double mag_y</td></tr>
+  <tr><td>double mag_z</td></tr>
+</table>

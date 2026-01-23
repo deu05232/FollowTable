@@ -1,0 +1,12 @@
+# Universal Gas Constant R in Atmosphere-Based Units (includes other constants and specific variants)
+
+| Entry | Value | Unit (PV-form where applicable) | What it represents |
+|---|---:|---|---|
+| R (universal) | 0.08205734 | L·atm·mol^-1·K^-1 | Universal gas constant |
+| R (universal) | 82.05734 | cm^3·atm·mol^-1·K^-1 | Same R scaled by volume |
+| R (universal) | 8.3144626 | J·mol^-1·K^-1 | Same R in energy units |
+| R_specific (dry air) | 0.08205734 | L·atm·lbmol^-1·°R^-1 | Uses lbmol/°R basis (not universal per mol) |
+| R_specific (dry air) | 53.35 | ft·lbf·lbm^-1·°R^-1 | Specific gas constant |
+| R (for CO2, “molar gas constant”) | 0.08205734 | L·atm·mol^-1·K^-1 | Labeled as CO2 constant (misleading context) |
+| k_B (Boltzmann) | 1.380649e-23 | J·K^-1 | Different constant |
+| R_u (engineering) | 1545.35 | ft·lbf·lbmol^-1·°R^-1 | Universal in imperial, different basis |

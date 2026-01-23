@@ -1,0 +1,16 @@
+<table>
+  <caption>Traditional Mongolian Control Characters — Invalid Sequence Test Cases (MVS/FVS/ZWNJ/ZWJ)</caption>
+  <thead>
+    <tr><th>ID</th><th>Rendered Display (symptom)</th><th>Forbidden Character Sequence (logical order)</th><th>Why Illegal (error pattern)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Broken initial form / fallback dotted box</td><td><MVS> U+1820</td><td>Selector at start of run (no base Mongolian letter before it)</td></tr>
+    <tr><td>2</td><td>Unexpected glyph / variation not applied</td><td>U+1820 <MVS> <MVS></td><td>Duplicate MVS (multiple selectors applied to one base)</td></tr>
+    <tr><td>3</td><td>Stray joiner visible as dotted box</td><td>U+1820 <ZWJ> <FVS1></td><td>Joiner followed by selector; selector does not target a base letter</td></tr>
+    <tr><td>4</td><td>Word breaks into pieces</td><td>U+1820 <ZWNJ> <ZWNJ> U+1821</td><td>Repeated ZWNJ where only one boundary marker is meaningful; second is illegal/undefined in shaping</td></tr>
+    <tr><td>5</td><td>Unexpected ligature / wrong joining</td><td>U+1820 <ZWNJ> <MVS> U+1821</td><td>MVS placed after ZWNJ (MVS cannot modify across a join-control boundary)</td></tr>
+    <tr><td>6</td><td>Variation selector rendered as tofu</td><td>U+1820 <FVS2> <MVS></td><td>Multiple different selectors stacked (FVS + MVS) on the same base</td></tr>
+    <tr><td>7</td><td>Selector appears detached</td><td>U+1820 U+180E(MVS) U+180E(MVS)</td><td>Double U+180E used as selector twice; at most one MVS per base letter</td></tr>
+    <tr><td>8</td><td>Joining behavior inconsistent across fonts</td><td><ZWJ> U+1820 U+1821</td><td>ZWJ cannot start a Mongolian syllable/run; must follow a joinable base</td></tr>
+  </tbody>
+</table>

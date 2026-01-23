@@ -1,0 +1,16 @@
+<table>
+  <caption>Eco-meteorological Scene Classification Dictionary (Station Context)</caption>
+  <thead>
+    <tr><th>Hierarchy Level</th><th>Scene Category</th><th>Scene Code</th><th>Code Pattern</th><th>Typical Landscape</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Level-1</td><td>Forest ecosystem</td><td>AA01</td><td>AAiAA</td><td>Evergreen/deciduous forest</td><td>Context label for station surroundings</td></tr>
+    <tr><td>Level-2</td><td>Temperate deciduous forest</td><td>AA01-02</td><td>AAiAA</td><td>Broadleaf-dominant</td><td>Subclass label</td></tr>
+    <tr><td>Level-2</td><td>Boreal conifer forest</td><td>AA01-03</td><td>AAiAA</td><td>Needleleaf-dominant</td><td>Subclass label</td></tr>
+    <tr><td>Level-1</td><td>Grassland ecosystem</td><td>AA02</td><td>AAiAA</td><td>Steppe/meadow</td><td>Context label</td></tr>
+    <tr><td>Level-2</td><td>Alpine meadow</td><td>AA02-04</td><td>AAiAA</td><td>High-elevation meadow</td><td>Subclass label</td></tr>
+    <tr><td>Level-1</td><td>Wetland ecosystem</td><td>AA03</td><td>AAiAA</td><td>Marsh/swamp</td><td>Context label</td></tr>
+    <tr><td>Level-2</td><td>Riverine wetland</td><td>AA03-01</td><td>AAiAA</td><td>Riparian zone</td><td>Subclass label</td></tr>
+    <tr><td>Level-1</td><td>Agricultural ecosystem</td><td>AA04</td><td>AAiAA</td><td>Cropland mosaic</td><td>Context label</td></tr>
+  </tbody>
+</table>

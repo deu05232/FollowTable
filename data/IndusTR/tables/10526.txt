@@ -1,0 +1,18 @@
+<table>
+  <caption>Caption Text Container Structures: caption_string_description and caption_segment_description</caption>
+  <tr><th>Syntax structure</th><th>Field</th><th>Descriptor / bit-width</th><th>Notes</th></tr>
+  <tr><td rowspan="6">caption_string_description()</td><td>caption_string_id</td><td>u(8)</td><td>Identifies the string instance within a sample</td></tr>
+  <tr><td>segment_count</td><td>u(8)</td><td>Number of caption_segment_description() entries</td></tr>
+  <tr><td>for(j=0; j<segment_count; j++) caption_segment_description()</td><td>loop</td><td>Segments carry the actual coded caption units</td></tr>
+  <tr><td>caption_string_ext_flag</td><td>u(1)</td><td>1: extension fields follow</td></tr>
+  <tr><td>reserved</td><td>u(7)</td><td>Reserved bits</td></tr>
+  <tr><td>if(caption_string_ext_flag==1) caption_string_extension_length</td><td>u(8)</td><td>Byte length of extension (non-styling metadata)</td></tr>
+  <tr><td rowspan="8">caption_segment_description()</td><td>segment_type</td><td>u(4)</td><td>e.g., text run, control run, or line break token</td></tr>
+  <tr><td>segment_length</td><td>u(12)</td><td>Length in bytes of segment_data()</td></tr>
+  <tr><td>segment_data()</td><td>b(segment_length*8)</td><td>Raw coded payload for this segment</td></tr>
+  <tr><td>if(segment_type==TEXT) char_code_type</td><td>u(8)</td><td>Character coding selector</td></tr>
+  <tr><td>if(segment_type==TEXT) char_count</td><td>u(8)</td><td>Number of coded characters</td></tr>
+  <tr><td>if(segment_type==TEXT) for(k=0;k<char_count;k++) caption_char</td><td>u(16)</td><td>Example: 16-bit code unit per character</td></tr>
+  <tr><td>if(segment_type==CONTROL) control_code</td><td>u(8)</td><td>Non-styling caption control (e.g., clear/backspace)</td></tr>
+  <tr><td>if(segment_type==CONTROL) control_param_length</td><td>u(8)</td><td>Bytes of control parameters that follow</td></tr>
+</table>

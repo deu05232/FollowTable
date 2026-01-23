@@ -1,0 +1,11 @@
+# BitTorrent Client Feature Checklist (Magnet DHT Encryption)
+
+| BitTorrent client | Magnet links | DHT | Peer exchange (PEX) | Encryption | uTP | UPnP/NAT-PMP | Web UI | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| qBittorrent | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Popular open-source client |
+| Transmission | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Lightweight UI |
+| Deluge | Yes | Yes | Yes | Yes | Yes | Yes | Via plugin | Uses libtorrent |
+| rTorrent | Yes | Yes | Yes | Yes | Yes | Via scripts | No | CLI-focused |
+| Vuze | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Feature-rich |
+| BitComet | Yes | Yes | Yes | Yes | Partial | Yes | Yes | Includes extra features |
+| aria2 | Yes | Yes | Partial | Yes | Yes | No | RPC | Downloader/CLI hybrid |

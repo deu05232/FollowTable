@@ -1,0 +1,15 @@
+<table>
+  <caption>\COBOLD radiation-hydrodynamics model atmospheres: “Model” is a model’s nickname used in this paper, \Teff the effective temperature, \logg the gravitational acceleration, \Rstar an assumed stellar radius (not intrinsic to the simulation proper), \lp the linear horizontal size of the computational box, \tauc the sound crossing time over \Hpsurf , \Hpsurf the pressure scale height at Rosseland optical depth unity, \dirms the relative spatial white light intensity contrast, \nobm the number of equivalent frequency points considered in the solution of the radiative transfer equation (RTE), \nmu the number of inclinations used in the discretisation of the RTE, “Modelcode” an internal identifier of the model sequence.</caption>
+  <tr><th>Model</th><th>T_()</th><th></th><th>Radius</th><th>Box size</th><th>τ_()</th><th>H_()^({surf)</th><th></th><th></th><th></th><th>Modelcode</th></tr>
+  <tr><th></th><th>[K]</th><th>[ {cm/s^(2) ]</th><th>[Mm]</th><th>[Mm]</th><th>[s]</th><th>[Mm]</th><th></th><th></th><th></th><th></th></tr>
+  <tr><td>darkorangeSun1</td><td>5 780</td><td>4.44</td><td>696</td><td>5.6</td><td>17.8</td><td>0.141</td><td>0.172</td><td>5</td><td>3</td><td>d3gt57g44n53</td></tr>
+  <tr><td>redSun2</td><td>5 740</td><td>4.44</td><td>696</td><td>18.0</td><td>17.8</td><td>0.141</td><td>0.156</td><td>1</td><td>2</td><td>d3gt57g44sg6</td></tr>
+  <tr><td>blueSun3</td><td>5 760</td><td>4.44</td><td>696</td><td>11.2</td><td>17.8</td><td>0.141</td><td>0.176</td><td>5</td><td>3</td><td>gt57g44n67</td></tr>
+  <tr><td>blueWhite Dwarf</td><td>12 000</td><td>8.00</td><td>8.9</td><td>7.5 [km]</td><td>10.6 [ms]</td><td>133 [m]</td><td>0.173</td><td>1</td><td>2</td><td>d3t120g80wd1</td></tr>
+  <tr><td>midnightblue [/]=0.0</td><td>5 170</td><td>4.44</td><td>696</td><td>4.85</td><td>16.9</td><td>0.128</td><td>0.108</td><td>5</td><td>2</td><td>d3gt50g44n01</td></tr>
+  <tr><td>[/]=-2.0</td><td>4 730</td><td>4.44</td><td>696</td><td>4.85</td><td>17.2</td><td>0.118</td><td>0.047</td><td>6</td><td>3</td><td>d3ot50g44n01</td></tr>
+  <tr><td>purpleProcyon A</td><td>6 540</td><td>4.00</td><td>1 460</td><td>29.54</td><td>49.6</td><td>0.391</td><td>0.212</td><td>1</td><td>2</td><td>d3gt65g40n2</td></tr>
+  <tr><td>yellow4 Hydrae</td><td>4 880</td><td>2.94</td><td>7 340</td><td>147.5</td><td>513</td><td>3.74</td><td>0.180</td><td>1</td><td>2</td><td>d3gt50g29n01</td></tr>
+  <tr><td>redCepheid</td><td>4 560</td><td>2.00</td><td>21 000</td><td>2 125</td><td>4 310</td><td>30.2</td><td>0.185</td><td>1</td><td>2</td><td>d3t50g20mm00n2</td></tr>
+  <tr><td>firebrickRed Giant</td><td>3 680</td><td>1.00</td><td>66 300</td><td>15 750</td><td>40 700</td><td>242</td><td>0.220</td><td>1</td><td>2</td><td>d3t38g10mm00n2</td></tr>
+</table>

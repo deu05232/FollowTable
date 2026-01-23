@@ -1,0 +1,15 @@
+<table>
+  <caption>Ionospheric Delay Correction SH Fields with Scaling and Units (Non-bit-level Reference)</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Field ID</th><th>Units</th><th>Scale / Resolution</th><th>Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ionospheric thin-shell height</td><td>DF473</td><td>km</td><td>1 km</td><td>0–255 km</td><td>Reference shell height for mapping</td></tr>
+    <tr><td>Spherical harmonic function degree</td><td>DF474</td><td>-</td><td>1</td><td>0–15</td><td>Maximum degree n</td></tr>
+    <tr><td>Spherical harmonic function order</td><td>DF475</td><td>-</td><td>1</td><td>0–15</td><td>Maximum order m</td></tr>
+    <tr><td>SH cosine coefficient (correction)</td><td>DF476</td><td>m</td><td>0.01 m</td><td>-327.68–327.67 m</td><td>Amplitude for cos(mλ) term</td></tr>
+    <tr><td>SH sine coefficient (correction)</td><td>DF477</td><td>m</td><td>0.01 m</td><td>-327.68–327.67 m</td><td>Amplitude for sin(mλ) term</td></tr>
+    <tr><td>SH cosine coefficient (accuracy)</td><td>DF489</td><td>m</td><td>0.01 m</td><td>0–2.55 m</td><td>Uncertainty for cosine coefficient</td></tr>
+    <tr><td>SH sine coefficient (accuracy)</td><td>DF490</td><td>m</td><td>0.01 m</td><td>0–2.55 m</td><td>Uncertainty for sine coefficient</td></tr>
+  </tbody>
+</table>

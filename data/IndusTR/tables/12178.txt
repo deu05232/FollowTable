@@ -1,0 +1,16 @@
+<table>
+  <caption>Agricultural Insurance ↔ Subsidy Data Link Map (Tables Connected Only)</caption>
+  <thead>
+    <tr><th>Domain</th><th>From Table</th><th>To Table</th><th>Suggested Join Fields</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Insurance</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Claim Business Details Table</td><td>policy_no, insurer_code</td><td>Claims reference policy and insurer</td></tr>
+    <tr><td>Insurance</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Underwriting Insured Household List Table</td><td>policy_no</td><td>Households attached to a policy</td></tr>
+    <tr><td>Insurance</td><td>Agricultural Insurance Business Lines Table</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>line_code</td><td>Policy categorized by business line</td></tr>
+    <tr><td>Subsidy</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Disbursement Information Table</td><td>application_id</td><td>Disbursement created from an application</td></tr>
+    <tr><td>Subsidy</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Agricultural Machinery Purchase and Application Subsidy Invoice Information Table</td><td>application_id</td><td>Invoice submitted per application</td></tr>
+    <tr><td>Catalog</td><td>Machinery Item Catalog Table</td><td>Subsidized Product Catalog Table</td><td>product_sku</td><td>Catalog crosswalk between machinery and product lists</td></tr>
+    <tr><td>Catalog</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>Machinery Item Catalog Table</td><td>item_code</td><td>Application references machinery item</td></tr>
+    <tr><td>Cross-domain</td><td>Agricultural Insurance Underwriting Insured Household List Table</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td><td>household_id</td><td>Household may appear in both programs</td></tr>
+  </tbody>
+</table>

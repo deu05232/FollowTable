@@ -1,0 +1,16 @@
+<table>
+  <caption>Sterilization Cycle Parameters Code List (Unit-Centered)</caption>
+  <thead>
+    <tr><th>Parameter Code</th><th>Parameter Name</th><th>Default Unit</th><th>Typical Range</th><th>Unit Family</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PR01</td><td>Chamber pressure setpoint</td><td>kPa</td><td>80–300</td><td>Pressure</td><td>Used across multiple sterilizers</td></tr>
+    <tr><td>TP01</td><td>Exposure temperature</td><td>°C</td><td>110–140</td><td>Temperature</td><td>Not a type identifier</td></tr>
+    <tr><td>TM01</td><td>Exposure time</td><td>min</td><td>1–60</td><td>Time</td><td>Process parameter only</td></tr>
+    <tr><td>HM01</td><td>Relative humidity</td><td>%RH</td><td>20–95</td><td>Humidity</td><td>Applicable to many processes</td></tr>
+    <tr><td>FL01</td><td>Airflow rate</td><td>L/min</td><td>5–120</td><td>Flow</td><td>Used in drying/ventilation</td></tr>
+    <tr><td>EN01</td><td>Energy consumption per cycle</td><td>kWh</td><td>0.1–10</td><td>Energy</td><td>Utility metric</td></tr>
+    <tr><td>VC01</td><td>Vacuum level</td><td>mbar</td><td>5–500</td><td>Pressure</td><td>Parameter, not equipment category</td></tr>
+    <tr><td>WL01</td><td>Water usage</td><td>L</td><td>0–50</td><td>Volume</td><td>Resource metric</td></tr>
+  </tbody>
+</table>

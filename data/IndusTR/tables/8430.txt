@@ -1,0 +1,21 @@
+<table>
+  <caption>Environmental Stress Test Limits for Flammable/Explosive Gas Detectors (Temperature, Humidity, and Ingress)</caption>
+  <thead>
+    <tr><th rowspan="2">Device Type</th><th rowspan="2">Test Item</th><th colspan="2">Test Setting / Threshold</th><th rowspan="2">Acceptance Criteria</th></tr>
+    <tr><th>Condition A (Indoor/Controlled)</th><th>Condition B (Industrial/Harsh)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Fixed-point gas detector</td><td>Operational high temperature</td><td>+40 °C for 16 h</td><td>+70 °C for 16 h</td><td>No alarm latch-up; reading drift ≤ ±10% of reading; device remains functional</td></tr>
+    <tr><td>Operational low temperature</td><td>+5 °C for 16 h</td><td>−25 °C for 16 h</td><td>Alarm activates within response-time limit; no permanent fault</td></tr>
+    <tr><td>Storage temperature</td><td>−10 °C to +50 °C (24 h at each extreme)</td><td>−40 °C to +70 °C (24 h at each extreme)</td><td>After recovery at 20–25 °C for 2 h, device meets calibration and alarm thresholds</td></tr>
+    <tr><td>Damp heat (steady state)</td><td>40 °C, 93% RH, 48 h</td><td>55 °C, 95% RH, 96 h</td><td>Insulation/operation normal; no false alarm; deviation ≤ ±15% of reading</td></tr>
+    <tr><td>Ingress protection (enclosure)</td><td>Minimum IP54</td><td>Minimum IP66</td><td>No water/dust ingress causing malfunction during/after test</td></tr>
+    <tr><td>Warm-up time at reference conditions</td><td>≤ 60 s at 20–25 °C</td><td>≤ 120 s at 20–25 °C</td><td>Stable indication and capable of alarming</td></tr>
+    <tr><td rowspan="6">Portable gas detector</td><td>Operational high temperature</td><td>+40 °C for 8 h</td><td>+55 °C for 8 h</td><td>Alarm and display operate normally; battery protection does not disable detection</td></tr>
+    <tr><td>Operational low temperature</td><td>0 °C for 8 h</td><td>−20 °C for 8 h</td><td>Alarm activates within response-time limit; no reset required</td></tr>
+    <tr><td>Storage temperature</td><td>−20 °C to +50 °C (16 h at each extreme)</td><td>−30 °C to +60 °C (16 h at each extreme)</td><td>After 2 h recovery, meets alarm threshold accuracy</td></tr>
+    <tr><td>Damp heat (cyclic)</td><td>25↔40 °C, 95% RH, 2 cycles (24 h)</td><td>30↔55 °C, 95% RH, 4 cycles (48 h)</td><td>No condensation-related failure; drift ≤ ±15% of reading</td></tr>
+    <tr><td>Ingress protection (enclosure)</td><td>Minimum IP54</td><td>Minimum IP67</td><td>Operates during/after exposure; no unintended shutdown</td></tr>
+    <tr><td>Electrostatic discharge (ESD)</td><td>Contact ±4 kV; Air ±8 kV</td><td>Contact ±6 kV; Air ±10 kV</td><td>No loss of alarm function; automatic recovery without user intervention</td></tr>
+  </tbody>
+</table>

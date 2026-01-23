@@ -1,0 +1,7 @@
+<table>
+  <caption>Instant Messaging Service API Parameters (Names and Types Only)</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Description</th></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>C..64</td><td>Operation type such as SUBSCRIBE/UNSUBSCRIBE</td></tr>
+  <tr><td>Subscriber ID</td><td>subscriberID</td><td>C..64</td><td>The user who initiates the subscription</td></tr>
+  <tr><td>Subscribed-to ID</td><td>subscribedToID</td><td>C..64</td><td>The target user being subscribed to</td></tr>
+</table>

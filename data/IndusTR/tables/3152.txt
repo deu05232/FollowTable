@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Conformance Checklist (Documentation-Only Verification Items)</caption>
+  <thead>
+    <tr><th>Checklist ID</th><th>Verification Item</th><th>Evidence Required</th><th>Status</th><th>Owner</th><th>Review Date</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DOC-01</td><td>Algorithm reference cites GB/T 41389</td><td>Design document section</td><td>Planned</td><td>Security</td><td>2026-02-01</td></tr>
+    <tr><td>DOC-02</td><td>Key lifecycle described (create/import/destroy)</td><td>Lifecycle diagram</td><td>In Review</td><td>Arch</td><td>2026-02-05</td></tr>
+    <tr><td>DOC-03</td><td>Error code catalog complete</td><td>Error list appendix</td><td>Open</td><td>Dev</td><td>2026-02-10</td></tr>
+    <tr><td>DOC-04</td><td>Thread-safety statement for handle usage</td><td>API guide note</td><td>Open</td><td>Dev</td><td>2026-02-12</td></tr>
+    <tr><td>DOC-05</td><td>Memory zeroization policy</td><td>Secure coding guideline</td><td>Done</td><td>Security</td><td>2026-01-08</td></tr>
+    <tr><td>DOC-06</td><td>Sample code provided for SM9Decrypt/SM9Sign</td><td>Repository links</td><td>Planned</td><td>PM</td><td>2026-02-20</td></tr>
+  </tbody>
+</table>

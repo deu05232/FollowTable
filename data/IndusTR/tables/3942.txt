@@ -1,0 +1,20 @@
+<table>
+  <caption>Data Dictionary of Operation Monitoring Parameter Set for Blowroom-Carding Combined Machine</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Grabbing arm height</td><td>GrabbingArmHeight</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2000.00</td><td>mm</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0301</td><td>Plucker beater speed</td><td>PluckerBeaterSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0302</td><td>Current plucker downward amount</td><td>RealtimePlucker Slippage</td><td>M</td><td>VAR</td><td>RO</td><td>FloatSAC</td><td>0.00~100.00</td><td>mm</td><td></td><td></td></tr>
+  <tr><td>0X0303</td><td>Plucker traveling speed</td><td>PluckerWalkingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~50.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0304</td><td>Plucker bale height</td><td>PluckerBaleHeight</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2000.00</td><td>mm</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0305</td><td>Opener beater speed</td><td>OpenerBeaterSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1400.00</td><td>r/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0306</td><td>Mixer feeding speed</td><td>MixerFeedingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>丨</td><td>One</td></tr>
+  <tr><td>0X0307</td><td>Realtime mixer pressure</td><td>RealtimeMixerPressure</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1500.00</td><td>Pa</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0308</td><td>Scutcher beater speed</td><td>ScutcherBeaterSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1400.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0309</td><td>Cotton conveying duct pressure</td><td>DuctPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2000.00</td><td>Pa</td><td>1</td><td>One</td></tr>
+  <tr><td>0X030A</td><td>Realtime hopper pressure</td><td>RealtimeHopperPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~500.00</td><td>Pa</td><td>1</td><td></td></tr>
+  <tr><td>0X030B</td><td>Cylinder speed</td><td>CylinderSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>r/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X030C</td><td>Flat speed</td><td>FlatSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~500.00</td><td>mm/min</td><td>1</td><td></td></tr>
+  <tr><td>0X030D</td><td>Sliver output speed</td><td>SliverOutput</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~700.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X030E</td><td>Licker-in speed</td><td>Licker-inSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X030F</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

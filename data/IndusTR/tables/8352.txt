@@ -1,0 +1,15 @@
+<table>
+  <caption>Mobile AR SDK Runtime Options Overview (Narrative-First)</caption>
+  <thead>
+    <tr><th>Feature Area</th><th>What It Does (Narrative)</th><th>Recommended Use Case</th><th>Example Enum Reference (Secondary)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Plane Detection</td><td>Improves world understanding by looking for flat surfaces in the environment; may increase CPU usage in cluttered scenes.</td><td>Surface placement for furniture previews</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL = 1</td></tr>
+    <tr><td>Plane Detection</td><td>Detects vertical surfaces such as walls; can be less stable in low-texture environments.</td><td>Wall art placement</td><td>AR_PLANE_FINDING_MODE_VERTICAL = 2</td></tr>
+    <tr><td>Lighting Estimation</td><td>Attempts to estimate ambient light; results vary with camera exposure and can be temporarily unavailable.</td><td>Realistic shading on 3D objects</td><td>ARILLUMINATION_ESTIMATE_STATE_VALID = 1</td></tr>
+    <tr><td>Tracking</td><td>Allows the system to manage tracking lifecycle automatically; simplest integration but less explicit control.</td><td>General-purpose AR sessions</td><td>ARTRACKING_RUN_MODE_AUTO = 0</td></tr>
+    <tr><td>Camera Facing</td><td>Selects rear camera for better tracking and scene capture quality; typical default on phones.</td><td>World-facing AR</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_BACK = 0</td></tr>
+    <tr><td>Camera Facing</td><td>Selects front camera for face-oriented experiences; tracking characteristics differ from world tracking.</td><td>Face filters / selfie AR</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_FRONT = 1</td></tr>
+    <tr><td>Pixel Format</td><td>Controls how camera images are provided to your app; impacts bandwidth and shader expectations.</td><td>Computer vision preprocessing</td><td>ARPIXEL_FORMAT_RG16 = 1</td></tr>
+  </tbody>
+</table>

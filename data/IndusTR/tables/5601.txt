@@ -1,0 +1,19 @@
+<table>
+  <caption>Video Image Subscription Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Subscription Identifier</td><td>dybz</td><td>c33</td><td>Should comply with the coding rules specified in C.5</td><td></td></tr>
+  <tr><td>2</td><td>Subscription_Title</td><td>dy_bt</td><td>c..160</td><td>Describes the subject and target of the subscription</td><td></td></tr>
+  <tr><td>3</td><td>Applicant_Organization Name</td><td>sq_dwmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>4</td><td>Subscription_Create_DateTime</td><td>dy_chj_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>5</td><td>Subscription_Start_DateTime</td><td>dy_ks_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>6</td><td>Subscription_End_DateTime</td><td>dy_js_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>7</td><td>Subscription Command Code</td><td>dyzldm</td><td>cl</td><td>Should comply with the provisions of D.36</td><td></td></tr>
+  <tr><td>8</td><td>Subscription Status Code</td><td>dyztdm</td><td>c1</td><td>Should comply with the provisions of D.37</td><td></td></tr>
+  <tr><td>9</td><td>Notification Information Receiver URL</td><td>tzxxjsurl</td><td>c..256</td><td>Subscription notification information receiving address URL, e.g.: http://x.x.x.x/receivel</td><td></td></tr>
+  <tr><td>10</td><td>Subscription Category Code</td><td>dylbdm</td><td>c2</td><td>Should comply with the provisions of D.38; multiple values allowed</td><td></td></tr>
+  <tr><td>11</td><td>Subscription Resource Category</td><td>dyzylb</td><td>cl</td><td>Should comply with the provisions of D.39; multiple values allowed, and each value corresponds one-to-one with each value of "Subscription Resource Path"</td><td></td></tr>
+  <tr><td>12</td><td>Subscription Resource Path</td><td>dyzyli</td><td>c.256</td><td>Resource path URI (device identifier, collected content identifier, event identifier, target image library identifier, administrative region code 2/4/6 digits, etc.); multiple values allowed</td><td></td></tr>
+  <tr><td>13</td><td>Notification Information Sending Interval Time</td><td>tzxxfsjgsj</td><td>n..3</td><td>Unit: second(s)</td><td></td></tr>
+  <tr><td>14</td><td>Unsubscribe_Organization Name</td><td>qxdy_dwmc</td><td>c..100</td><td></td><td></td></tr>
+  <tr><td>15</td><td>Unsubscribe_DateTime</td><td>qxdy_rqsj</td><td>d14</td><td></td><td></td></tr>
+</table>

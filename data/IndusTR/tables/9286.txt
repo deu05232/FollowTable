@@ -1,0 +1,19 @@
+<table>
+  <caption>Identifier Parameters for Swap Order Query / Status Pull (Order + Device + Correlation)</caption>
+  <thead>
+    <tr><th>Usage Scenario</th><th>Field Name</th><th>Parameter (Definition)</th><th>Type</th><th>Constraints</th><th>Required</th><th>Identifier Target</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Locate the swap transaction</td><td>Swap order number</td><td>swapOrderNo</td><td>string</td><td>Max 64; must be globally unique under operator</td><td>Yes</td><td>Swap order / transaction</td></tr>
+    <tr><td>Business order number (client side)</td><td>bizOrderNo</td><td>string</td><td>Max 64; client-defined</td><td>No</td><td>Maps platform order to client business system</td></tr>
+    <tr><td>Order split sequence</td><td>subOrderSeq</td><td>integer</td><td>Positive integer</td><td>No</td><td>Targets a sub-transaction when one order has multiple swap legs</td></tr>
+    <tr><td rowspan="3">Locate the swap equipment</td><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>8–64 chars</td><td>Yes</td><td>Cabinet/device</td></tr>
+    <tr><td>Station identifier</td><td>stationId</td><td>string</td><td>4–32 chars</td><td>No</td><td>Groups cabinets under a physical station/site</td></tr>
+    <tr><td>Equipment vendor code</td><td>vendorDeviceId</td><td>string</td><td>Max 64</td><td>No</td><td>Vendor-side device identifier for cross-platform mapping</td></tr>
+    <tr><td rowspan="3">Time/window scoping (optional)</td><td>Query start time</td><td>startTime</td><td>string</td><td>ISO-8601</td><td>No</td><td>Scopes lookup window for the order</td></tr>
+    <tr><td>Query end time</td><td>endTime</td><td>string</td><td>ISO-8601; must be >= startTime</td><td>No</td><td>Scopes lookup window for the order</td></tr>
+    <tr><td>Operator identifier</td><td>operatorId</td><td>string</td><td>2–16 chars</td><td>Yes</td><td>Tenant/operator scope for identifiers</td></tr>
+    <tr><td rowspan="2">Request correlation</td><td>Client request identifier</td><td>requestId</td><td>string</td><td>UUID recommended</td><td>Yes</td><td>Correlates query to client request</td></tr>
+    <tr><td>Original start request identifier</td><td>originRequestId</td><td>string</td><td>Max 36</td><td>No</td><td>Links status pull back to the start-call that created the order</td></tr>
+  </tbody>
+</table>

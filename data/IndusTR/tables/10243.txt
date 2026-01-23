@@ -1,0 +1,10 @@
+<table>
+  <caption>ArTrackable_getTrackingFailureReason parameters</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>trackable</td><td>ArTrackable *</td><td>Trackable object pointer</td></tr>
+  <tr><td>out_failure_reason</td><td>ArTrackingFailureReason *</td><td>Pointer to the trackable's current tracking failure reason</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Timestamp (ns) when the failure reason was last updated</td></tr>
+  <tr><td>out_confidence</td><td>float *</td><td>Estimated confidence of the reported failure reason</td></tr>
+  <tr><td>out_message</td><td>const char **</td><td>Human-readable description of the failure reason</td></tr>
+</table>

@@ -1,0 +1,12 @@
+# Moon-Related APIs and Tools Mentioning Lunar Phases (Feature Comparison)
+
+| Tool / API | Provides moon phases? | Output format | Typical use case | Requires location? | Notes |
+|---|---|---|---|---|---|
+| AstronomyAPI | Yes | JSON | Rise/set + phase widgets | Often | Commercial API |
+| Open-Meteo Astronomy | Yes | JSON | Simple phase + sun/moon data | Yes | Free tier available |
+| USNO Data Services | Yes | HTML/CSV | Almanac-style queries | Optional | Government source |
+| NASA SVS visuals | Indirect | Video/images | Educational animations | No | Not a numeric ephemeris |
+| Stellarium | Yes | App UI | Sky simulation | Optional | Desktop/mobile planetarium |
+| PyEphem / ephem | Yes | Python | Scripting ephemerides | Optional | Legacy but used |
+| Skyfield | Yes | Python | High-precision ephemerides | Optional | Uses JPL kernels |
+| Timeanddate.com | Yes | Web UI | Quick phase lookup | Yes | Consumer website |

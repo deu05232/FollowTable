@@ -1,0 +1,20 @@
+<table>
+  <caption>Ammonium Nitrate Neutralization and Reactor Section Operating Window (Process Control Indicators)</caption>
+  <thead>
+    <tr><th>Plant Section</th><th>Control Point / Tag</th><th>Operating Variable</th><th>Target Range</th><th>High-High / Low-Low Limit</th><th>Primary Operator Manipulated Variable</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Ammonia feed conditioning</td><td>NH3-HE-OUT</td><td>Gaseous NH3 temperature (°C)</td><td>70–95</td><td>HH 105 / LL 60</td><td>NH3 heater steam valve</td></tr>
+    <tr><td>NH3-FEED</td><td>Gaseous NH3 pressure (MPa)</td><td>0.45–0.75</td><td>HH 0.85 / LL 0.35</td><td>NH3 supply pressure controller / letdown valve</td></tr>
+    <tr><td>NH3-FT</td><td>NH3 feed flow (t/h)</td><td>18–24</td><td>HH 27 / LL 15</td><td>NH3 feed control valve</td></tr>
+    <tr><td rowspan="4">Nitric acid feed conditioning</td><td>HNO3-HE-OUT</td><td>Nitric acid temperature (°C)</td><td>55–75</td><td>HH 85 / LL 45</td><td>Acid heater/cooler bypass</td></tr>
+    <tr><td>HNO3-PT</td><td>Nitric acid supply pressure (MPa)</td><td>0.20–0.35</td><td>HH 0.40 / LL 0.15</td><td>Acid pump speed / discharge valve</td></tr>
+    <tr><td>HNO3-FT</td><td>Acid feed flow (t/h)</td><td>38–48</td><td>HH 52 / LL 34</td><td>Acid feed control valve</td></tr>
+    <tr><td>RATIO-01</td><td>NH3/HNO3 flow ratio (mol/mol)</td><td>0.98–1.02</td><td>HH 1.05 / LL 0.95</td><td>Ratio station (NH3 flow trim)</td></tr>
+    <tr><td rowspan="3">Neutralizer / tubular reactor</td><td>NEUT-TOP</td><td>Neutralizer temperature (°C)</td><td>150–165</td><td>HH 175 / LL 140</td><td>Acid/NH3 ratio trim; recycle dilution</td></tr>
+    <tr><td>NEUT-PT</td><td>Neutralizer pressure (MPa)</td><td>0.28–0.36</td><td>HH 0.40 / LL 0.24</td><td>Vent/backpressure valve</td></tr>
+    <tr><td>NEUT-DP</td><td>Neutralizer differential pressure (kPa)</td><td>5–15</td><td>HH 25 / LL 2</td><td>Flush rate / maintenance action</td></tr>
+    <tr><td rowspan="2">Off-gas handling</td><td>SCRUB-IN</td><td>Scrubber inlet gas temperature (°C)</td><td>70–110</td><td>HH 125 / LL 60</td><td>Quench water flow</td></tr>
+    <tr><td>SCRUB-PT</td><td>Scrubber column pressure drop (kPa)</td><td>1.0–3.0</td><td>HH 5.0 / LL 0.5</td><td>Liquid circulation rate / demister cleaning</td></tr>
+  </tbody>
+</table>

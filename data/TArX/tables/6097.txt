@@ -1,0 +1,31 @@
+<table>
+  <caption>Model parameters and results of galaxy merging and interaction.</caption>
+  <tr><td>Model no.</td><td>host</td><td>M_(B) (mag)</td><td>dark matter</td><td>R_(a) (kpc)</td><td>R_(p) (kpc)</td><td>e_(p)</td><td>final morphology</td><td>comments</td></tr>
+  <tr><td>FO1</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>UCD</td><td>fiducial model</td></tr>
+  <tr><td>FO2</td><td>dE,N</td><td>-12</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>UCD</td><td></td></tr>
+  <tr><td>FO3</td><td>dE,N</td><td>-14</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>UCD</td><td></td></tr>
+  <tr><td>FO4</td><td>dE,N</td><td>-18</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>UCD</td><td></td></tr>
+  <tr><td>FO5</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>UCD</td><td>M_(n)/M_(dw) = 0.2</td></tr>
+  <tr><td>FO6</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>no remnant</td><td>a_(n)/a_(dw) = 0.2</td></tr>
+  <tr><td>FO7</td><td>dE,N</td><td>-16</td><td>SB</td><td>100</td><td>100</td><td>0.0</td><td>dE,N</td><td></td></tr>
+  <tr><td>FO8</td><td>dE,N</td><td>-16</td><td>SB</td><td>100</td><td>35</td><td>0.48</td><td>UCD</td><td></td></tr>
+  <tr><td>FO9</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>200</td><td>0.0</td><td>dE,N</td><td></td></tr>
+  <tr><td>FO10</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>65</td><td>0.52</td><td>UCD+LSB env.</td><td></td></tr>
+  <tr><td>FO11</td><td>dE,N</td><td>-16</td><td>SB</td><td>400</td><td>47</td><td>0.79</td><td>dE,N</td><td></td></tr>
+  <tr><td>FO12</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>dE,N</td><td>a_(dm) = 0.5 a_(dm,0)</td></tr>
+  <tr><td>FO13</td><td>dE,N</td><td>-16</td><td>NFW</td><td>200</td><td>65</td><td>0.52</td><td>dE,N</td><td>a_(s) = a_(dm,0)</td></tr>
+  <tr><td>FO15</td><td>dE,N</td><td>-16</td><td>NFW</td><td>200</td><td>27</td><td>0.77</td><td>UCD+LSB env.</td><td>a_(s) = a_(dm,0)</td></tr>
+  <tr><td>FO14</td><td>dE,N</td><td>-16</td><td>NFW</td><td>200</td><td>27</td><td>0.77</td><td>dE,N</td><td>a_(s) = 0.5 a_(dm,0)</td></tr>
+  <tr><td>FO16</td><td>dE,N</td><td>-16</td><td>NFW</td><td>200</td><td>27</td><td>0.77</td><td>dE,N</td><td>a_(s) = 0.25 a_(dm,0)</td></tr>
+  <tr><td>FO17</td><td>Sp(HSB)</td><td>-16</td><td>SB</td><td>200</td><td>65</td><td>0.52</td><td>Sp</td><td>μ_(0) =22 mag arcsec ^((-2))</td></tr>
+  <tr><td>FO18</td><td>Sp(LSBI)</td><td>-16</td><td>SB</td><td>200</td><td>65</td><td>0.52</td><td>S0</td><td>μ_(0) =24 mag arcsec ^((-2))</td></tr>
+  <tr><td>FO19</td><td>Sp(LSBI)</td><td>-16</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>UCD with LSB.env</td><td>μ_(0) =24 mag arcsec ^((-2))</td></tr>
+  <tr><td>FO20</td><td>Sp(LSBII)</td><td>-16</td><td>SB</td><td>200</td><td>65</td><td>0.52</td><td>UCD</td><td>μ_(0) =26 mag arcsec ^((-2))</td></tr>
+  <tr><td>FO21</td><td>Sp(LSBI)</td><td>-16</td><td>SB</td><td>200</td><td>65</td><td>0.52</td><td>S0</td><td>a_(dm)/a_(disc) = 12</td></tr>
+  <tr><td>FO22</td><td>Sp(HSB)</td><td>-16</td><td>SB</td><td>100</td><td>35</td><td>0.48</td><td>Sp/S0</td><td></td></tr>
+  <tr><td>VI1</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>27</td><td>0.77</td><td>UCD</td><td></td></tr>
+  <tr><td>VI2</td><td>dE,N</td><td>-16</td><td>SB</td><td>400</td><td>58</td><td>0.75</td><td>UCD with LSB env.</td><td></td></tr>
+  <tr><td>LG1</td><td>dE,N</td><td>-16</td><td>SB</td><td>200</td><td>21</td><td>0.81</td><td>dE,N</td><td></td></tr>
+  <tr><td>LG2</td><td>dE,N</td><td>-16</td><td>SB</td><td>50</td><td>5</td><td>0.81</td><td>UCD</td><td></td></tr>
+  <tr><td>LG3</td><td>dE,N</td><td>-16</td><td>SB</td><td>100</td><td>11</td><td>0.80</td><td>UCD</td><td></td></tr>
+</table>

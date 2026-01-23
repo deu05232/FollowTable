@@ -1,0 +1,15 @@
+<table>
+  <caption>Energetics of ATP Conversion in Cells (Including ΔG°' and Reaction Energy Release)</caption>
+  <thead>
+    <tr><th>Process / Metabolite Group</th><th>Species</th><th>Standard chemical potential g0 (kJ/mol)</th><th>Typical intracellular concentration</th><th>ΔG°' for step (kJ/mol)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="3">ATP hydrolysis reaction</th><td>ATP</td><td>-2770</td><td>1–5 mM</td><td rowspan="3">-30.5</td><td>Overall: ATP + H2O → ADP + Pi</td></tr>
+    <tr><td>ADP</td><td>-1915</td><td>0.1–1 mM</td><td>Often buffered by adenylate kinase</td></tr>
+    <tr><td>Inorganic phosphate (Pi)</td><td>-1090</td><td>1–10 mM</td><td>Varies by compartment</td></tr>
+    <tr><th rowspan="2">Phosphoryl transfer to AMP</th><td>AMP</td><td>-1030</td><td>0.02–0.2 mM</td><td rowspan="2">-45</td><td>ATP + AMP → 2 ADP (adenylate kinase)</td></tr>
+    <tr><td>ADP</td><td>-1915</td><td>0.1–1 mM</td><td>ADP appears on both sides in coupled systems</td></tr>
+    <tr><th rowspan="2">Creatine kinase buffer</th><td>Phosphocreatine (PCr)</td><td>-1550</td><td>10–30 mM</td><td rowspan="2">-12</td><td>PCr + ADP ↔ Cr + ATP</td></tr>
+    <tr><td>Creatine (Cr)</td><td>-1045</td><td>5–15 mM</td><td>Common in muscle/brain</td></tr>
+  </tbody>
+</table>

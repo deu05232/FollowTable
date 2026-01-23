@@ -1,0 +1,15 @@
+<table>
+  <caption>Stepwise Stress Screening Sequence for Synthesized Frequency Sources (Reliability-Oriented)</caption>
+  <thead>
+    <tr><th>Step</th><th>Screen / Test</th><th>Reference Method (Generic)</th><th>Key Conditions</th><th>When Performed</th><th>Outputs Monitored</th><th>Acceptance Requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Burn-in (powered endurance)</td><td>Life test method (burn-in)</td><td>160 h @ +85°C, VDD= nominal, continuous operation</td><td>Pre-qualification and periodic quality conformance</td><td>Lock detect, output frequency, output power</td><td>No functional interruption; 0 catastrophic failures; parameters within post-burn-in limits</td></tr>
+    <tr><td>2</td><td>Extended lock stability run</td><td>Operational stability check</td><td>72 h at room temp; frequency hopping profile every 5 min</td><td>After burn-in</td><td>Lock/unlock events, spur level trend</td><td>No unexpected unlock; spur and phase-noise drift within defined limits</td></tr>
+    <tr><td>3</td><td>High-temperature storage</td><td>Storage test</td><td>24 h @ maximum rated storage temperature (unpowered)</td><td>Qualification / audit</td><td>Pre/post electrical verification</td><td>Meets post-storage parametric drift limits; no permanent failures</td></tr>
+    <tr><td>4</td><td>Temperature cycling (package/interconnect stress)</td><td>Thermal cycling</td><td>200 cycles from -55°C to +125°C</td><td>Qualification</td><td>Functional checks every 25 cycles</td><td>No intermittent failures; post-stress parameters meet limits</td></tr>
+    <tr><td>5</td><td>Electrical overstress margin check (supply tolerance endurance)</td><td>Supply margin stress</td><td>96 h @ +70°C; VDDtoggled between 0.9× and 1.1× nominal every 30 min</td><td>Qualification</td><td>Lock detect, current consumption, output spectrum</td><td>No latch-up; no degradation beyond limits; stable current draw</td></tr>
+    <tr><td>6</td><td>Biased humidity endurance</td><td>85/85 biased humidity</td><td>168 h @ +85°C / 85% RH, nominal bias applied</td><td>Qualification / periodic audit</td><td>Leakage/current, lock stability</td><td>No corrosion-induced failure; electrical drift within limits</td></tr>
+    <tr><td>7</td><td>Solderability after aging</td><td>Solderability test</td><td>Accelerated aging + solder dip (e.g., 245°C, 3 s)</td><td>Lot/periodic conformance</td><td>Wetting coverage</td><td>Wetting coverage meets threshold; no non-wetting/dewetting</td></tr>
+  </tbody>
+</table>

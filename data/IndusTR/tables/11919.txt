@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre Control Words with Frame Field Bit Layout Cross-Reference</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>Symbol Sequence</th><th>Purpose</th><th>Related Bit/Field Layout (format reference)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ACK</td><td>Comma, ACK, SEQ_NUM, CRC, K28.7, D2.5, D0.0–D31.7, D0.0–D31.7</td><td>Acknowledge received frame/FCT with sequence number</td><td>Bits 0–7: COMMA; 8–15: SBF; 16–23: bc; 24–31: B_TYPE (layout reused for control framing)</td></tr>
+    <tr><td>NACK</td><td>Comma, NACK, SEQ_NUM, CRC, K28.7, D27.5, D0.0–D31.7, D0.0–D31.7</td><td>Negative acknowledge for recovery from errors</td><td>CRC is 8 bits; SEQ_NUM is 8 bits; fields align to byte boundaries within DATA1/DATA2</td></tr>
+    <tr><td>FULL</td><td>Comma, FULL, SEQ_NUM, CRC, K28.7, D15.3, D0.0–D31.7, D0.0–D31.7</td><td>Indicates error-recovery buffer full condition</td><td>SEQ_NUM byte maps to DATA1 LS; CRC byte maps to DATA1 MS in common diagrams</td></tr>
+    <tr><td>ACTIVE</td><td>Comma, ACTIVE, ACT_LS, ACT_MS, K28.7, D0.1, D0.0–D31.7, D0.0–D31.7</td><td>Advertises per-channel active state bitmap</td><td>ACT_LS/ACT_MS are 16 bits total; bit N corresponds to channel N (bit-field definition)</td></tr>
+    <tr><td>ALIGN</td><td>Comma, ALIGN, LANES, iLANES, K28.7, D23.3, D0.0–D31.7, D0.0–D31.7</td><td>Conveys lane count and lane index with inversion check</td><td>LANES: 4-bit lane-count + 4-bit lane-number; iLANES is bitwise inversion (field-format reference)</td></tr>
+    <tr><td>IDLE</td><td>Comma, LLCW, IDLE, IDLE_ID, K28.7, D14.6, D15.6, D15.6</td><td>Maintains link when idle</td><td>Byte-lane mapping references the same 0–31 bit numbering used in word diagrams</td></tr>
+    <tr><td>SKIP</td><td>Comma, LLCW, SKIP, SKIP_ID, K28.7, D14.6, D31.3, D31.3</td><td>Periodic insertion for elastic buffering</td><td>Uses the same control-word container format as IDLE; see 0–7/8–15/16–23/24–31 bit grid</td></tr>
+  </tbody>
+</table>

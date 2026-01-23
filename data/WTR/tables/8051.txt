@@ -1,0 +1,14 @@
+# ICD Mapping of Leading Mortality Categories (Human) with Detailed Coding Notes
+
+| Mortality category | ICD-10 codes included | Subcategories/examples | Coding rule note | Common misclassification | Text definition | Reporting footnote |
+|---|---|---|---|---|---|---|
+| Diseases of heart | I00–I09, I11, I13, I20–I51 | I21 acute MI; I50 heart failure | Underlying cause prioritized | Heart failure as mechanism | Disorders of cardiac function/vasculature | Series breaks when ICD updates |
+| Malignant neoplasms | C00–C97 | Lung C34; Breast C50 | Multiple primaries counted once | Unknown primary site | Cancerous growths | Site breakdown needed for detail |
+| Cerebrovascular diseases | I60–I69 | I63 ischemic stroke | Sequelae coded differently | TIA vs stroke | Brain vascular disorders | Includes late effects |
+| CLRD | J40–J47 | J44 COPD | Chronic criteria required | Asthma overlap | Chronic airway obstruction | Some surveys separate asthma |
+| Unintentional injuries | V01–X59, Y85–Y86 | Falls W00–W19 | Intent must be unintentional | Poisoning intent unclear | Accidental external causes | Excludes suicides/homicides |
+| Diabetes mellitus | E10–E14 | Type 1 E10; Type 2 E11 | Underlying vs contributory varies | Hyperglycemia miscoding | Glucose metabolism disorders | Complications may be coded elsewhere |
+| Alzheimer's disease | G30 | Early/late onset | Dementia not otherwise specified excluded | Mixed dementia | Neurodegenerative dementia | Often under-recorded |
+| Influenza and pneumonia | J09–J18 | J10 influenza; J18 pneumonia | Lab confirmation affects influenza | Aspiration vs infectious | Acute respiratory infections | Seasonality strong |
+| Nephritis/nephrosis | N00–N07, N17–N19 | N18 CKD | ESRD coding depends on records | Dialysis status missing | Kidney inflammatory/failure syndromes | Includes acute and chronic failure |
+| Septicemia | A40–A41 | A41.9 unspecified | Sepsis may be secondary | UTI source miscoded | Bloodstream infection | Underlying cause may be infection site |

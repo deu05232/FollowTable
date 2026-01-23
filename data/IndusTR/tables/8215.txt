@@ -1,0 +1,12 @@
+<table>
+  <caption>AR UI Ray Pointer Overlay API (Includes Hit Data But Mostly UI/Rendering)</caption>
+  <tr><th>Component</th><th>Member / Call</th><th>Type</th><th>Description</th></tr>
+  <tr><td>RayPointerOverlay</td><td>setReticleTexture</td><td>function</td><td>Assign reticle image used for rendering the pointer</td></tr>
+  <tr><td>RayPointerOverlay</td><td>setReticleColor</td><td>function</td><td>Change reticle tint color for UI feedback</td></tr>
+  <tr><td>RayPointerOverlay</td><td>setLineWidth</td><td>function</td><td>Adjust pointer line thickness</td></tr>
+  <tr><td>RayPointerOverlay</td><td>updateFromHitResult</td><td>function</td><td>Consume a hit-test output to drive UI placement</td></tr>
+  <tr><td>HitInfo</td><td>distanceMeters</td><td>float</td><td>Distance to intersection (readback value)</td></tr>
+  <tr><td>HitInfo</td><td>worldPose</td><td>Pose</td><td>World-space pose used to place reticle</td></tr>
+  <tr><td>HitInfo</td><td>trackableType</td><td>enum</td><td>Plane / Point / Mesh classification for UI label</td></tr>
+  <tr><td>RayPointerOverlay</td><td>draw</td><td>function</td><td>Render overlay using the current camera view</td></tr>
+</table>

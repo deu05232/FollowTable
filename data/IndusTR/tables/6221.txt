@@ -1,0 +1,14 @@
+<table>
+  <caption>CABAC Context-Dependent Conformance Tests (Clause-Driven Enumeration)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Condition / context</th><th>Test requirement</th><th>Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ctxIdxOffset</td><td>BypassFlag == 1</td><td>Traverse all ctx derivations described in 8.3.3.1</td><td>GB/T 33475.2—2024, 8.3.3.1</td></tr>
+    <tr><td>ctxIdxInc</td><td>StuffingBitFlag == 1</td><td>Traverse all stuffing-related ctx cases in 8.3.3.1</td><td>GB/T 33475.2—2024, 8.3.3.1</td></tr>
+    <tr><td>binIdx</td><td>IntraCuFlag toggled</td><td>Traverse binIdx sequences following the state machine in 8.3.2.2</td><td>GB/T 33475.2—2024, 8.3.2.2</td></tr>
+    <tr><td>last_cg_pos</td><td>IsChroma varies</td><td>Traverse all combinations of (binIdx, IsChroma) as specified in 7.4.9</td><td>GB/T 33475.2—2024, 7.4.9</td></tr>
+    <tr><td>shape_of_partition_index</td><td>cu_type_index-dependent</td><td>Follow the mapping in Table 88 and traverse all mapped symbols</td><td>GB/T 33475.2—2024, Table 88</td></tr>
+    <tr><td>sao_mode</td><td>SaoEnabledFlag == 1</td><td>Traverse all legal mode patterns listed in Annex D</td><td>GB/T 33475.2—2024, Annex D</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Building Line Recipe plus Uniformity Test Acquisition Conditions (Mixed Content)</caption>
+  <tr><th>Serial No.</th><th>Data Item Name</th><th>Data Item Description</th><th>Alias</th><th>Data Type</th><th>Length (bit)</th><th>Value Range</th><th>Value Meaning</th></tr>
+  <tr><td>1</td><td>Recipe name</td><td>Name of the selected building recipe</td><td>RCP_NAME</td><td>STR</td><td>User-defined</td><td></td><td></td></tr>
+  <tr><td>2</td><td>Line speed setpoint</td><td>Configured speed for the building line</td><td>SPD_SP</td><td>FLOAT</td><td>32</td><td></td><td></td></tr>
+  <tr><td>3</td><td>Uniformity inflation pressure</td><td>Pressure sensor at the uniformity air head</td><td>UF_PV</td><td>INT</td><td>16</td><td>> High-pressure set value</td><td>Close high-pressure inflation circuit</td></tr>
+  <tr><td>4</td><td>UF acquisition enable condition</td><td>Condition that becomes TRUE after pressure stabilizes</td><td>UF_EN</td><td>INT</td><td>16</td><td>0/1</td><td>0: FALSE, 1: TRUE</td></tr>
+  <tr><td>5</td><td>Dynamic balance inflation pressure</td><td>Pressure sensor at the dynamic balance air head</td><td>DB_PV</td><td>INT</td><td>16</td><td>> High-pressure set value</td><td>Close high-pressure inflation circuit</td></tr>
+  <tr><td>6</td><td>DB acquisition enable condition</td><td>Condition that becomes TRUE after pressure stabilizes</td><td>DB_EN</td><td>INT</td><td>16</td><td>0/1</td><td>0: FALSE, 1: TRUE</td></tr>
+</table>

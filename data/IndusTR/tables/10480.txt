@@ -1,0 +1,7 @@
+<table>
+  <caption>Official Vehicle Master Record (Core Registration Fields)</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Vehicle Asset Identifier</td><td>Numeric</td><td>n..30</td><td>Unique identifier used to link the vehicle across platform modules</td></tr>
+  <tr><td>2</td><td>License Plate Number</td><td>Character</td><td>an..15</td><td>Registration plate used for daily management and verification</td></tr>
+  <tr><td>3</td><td>Owning Unit</td><td>Character</td><td>an..50</td><td>The organization responsible for the vehicle and its management</td></tr>
+</table>

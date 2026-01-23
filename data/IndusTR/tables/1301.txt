@@ -1,0 +1,8 @@
+<table>
+  <caption>Production Material Form Save API Definition</caption>
+  <tr><td>API Name</td><td>Production Material Form Save API</td></tr>
+  <tr><td>API Description</td><td>The platform saves production material form information in the information system</td></tr>
+  <tr><td>API Method</td><td>POST</td></tr>
+  <tr><td>Parameter Description</td><td>Must include at least: User ID (string userID), authentication parameter (string access_token), form name (string Mate-rialName)</td></tr>
+  <tr><td>Return Value</td><td>Returns whether it was successful</td></tr>
+</table>

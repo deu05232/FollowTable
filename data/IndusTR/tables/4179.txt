@@ -1,0 +1,22 @@
+<table>
+  <caption>Enterprise Past-Due and Default Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C..50</td><td></td><td></td></tr>
+  <tr><td>ID Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>ID Document Number</td><td>CerNo</td><td>C..18</td><td></td><td></td></tr>
+  <tr><td>Past-due Start Date</td><td>PastDueStaDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Past-due End Date</td><td>PastDueEndDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Past-due Principal</td><td>PastDuePrinAm</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Past-due Interest</td><td>PastDueIntAm</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Past-due Penalty Interest</td><td>PastDuePenInt</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Longest Past-due Duration</td><td>LongPastDueDays</td><td>N..10</td><td></td><td></td></tr>
+  <tr><td>Highest Past-due Amount</td><td>HighAmPastDue</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Current Past-due Installment Count</td><td>CurTermPastDue</td><td>N3</td><td></td><td></td></tr>
+  <tr><td>Current Total Past-due Amount</td><td>CurAmPastDue</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Four-category Classification Status</td><td>FourCatAssCla</td><td>CLAC</td><td>1:Normal; 2:Past due; 3:Delinquent;4:Bad debt</td><td>Status determined by financial institutions based on whether the institution repays on time</td></tr>
+  <tr><td>Five-category Classification Status</td><td>FiveCatAssCla</td><td>C1</td><td>1:Normal; 2:Special mention; 3:Substandard; 4:Doubtful; 5:Loss</td><td>Status determined by financial institutions based on the institution's operating conditions</td></tr>
+  <tr><td>Data Aggregating Unit</td><td>S_Ext_FromNode</td><td>C.100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

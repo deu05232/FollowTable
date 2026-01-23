@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameter definitions for Vehicle abort message (PID 0x04)</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x04</td></tr>
+  <tr><td>2</td><td>Vehicle Abort Type</td><td>1 byte</td><td>BYTE</td><td>EndCodeType</td><td>Vehicle abort type code as defined by the protocol</td></tr>
+  <tr><td>3</td><td>Vehicle Abort Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>EndReasonType</td><td>Vehicle abort reason code as defined by the protocol</td></tr>
+</table>

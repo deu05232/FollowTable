@@ -1,0 +1,9 @@
+<table>
+  <caption>Number of elements and coefficient of time step</caption>
+  <tr><th>scheme</th><th>N</th><th>C_(t)</th></tr>
+  <tr><td>Taylor-Gakerkin</td><td>800</td><td>0.5</td></tr>
+  <tr><td>FV</td><td>800</td><td>0.3</td></tr>
+  <tr><td>MacComack</td><td>1600</td><td>0.5</td></tr>
+  <tr><td>DG-_(1)</td><td>200</td><td>0.1</td></tr>
+  <tr><td>DG-_(2)</td><td>100</td><td>0.1</td></tr>
+</table>

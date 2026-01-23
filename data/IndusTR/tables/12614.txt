@@ -1,0 +1,15 @@
+<table>
+  <caption>Upstream Energy-Related Emission Factors for Industrial Inputs (Steam, Heat, Electricity)</caption>
+  <thead>
+    <tr><th>Input Type</th><th>Supply Mode</th><th>Unit</th><th>EF (kgCO2e/unit)</th><th>Scope Category</th><th>Applicable Region</th><th>Reference Year</th><th>Comments</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Electricity</td><td>Grid average</td><td>kWh</td><td>0.62</td><td>Scope 2</td><td>National</td><td>2023</td><td>Location-based</td></tr>
+    <tr><td>Electricity</td><td>Renewable contract</td><td>kWh</td><td>0.08</td><td>Scope 2</td><td>National</td><td>2023</td><td>Market-based</td></tr>
+    <tr><td>Steam</td><td>Purchased steam</td><td>GJ</td><td>75.0</td><td>Scope 2</td><td>Industrial park</td><td>2022</td><td>Boiler mix assumed</td></tr>
+    <tr><td>Heat</td><td>District heating</td><td>GJ</td><td>68.5</td><td>Scope 2</td><td>City A</td><td>2022</td><td>Seasonal average</td></tr>
+    <tr><td>Chilled water</td><td>Purchased cooling</td><td>GJ</td><td>45.2</td><td>Scope 2</td><td>City A</td><td>2022</td><td>Includes pumping</td></tr>
+    <tr><td>Electricity</td><td>On-site generation (gas)</td><td>kWh</td><td>0.49</td><td>Scope 1+2</td><td>Facility-specific</td><td>2023</td><td>Combined-cycle assumed</td></tr>
+    <tr><td>Steam</td><td>Condensate return credit</td><td>GJ</td><td>-5.0</td><td>Scope 2</td><td>Industrial park</td><td>2022</td><td>Credit method</td></tr>
+  </tbody>
+</table>

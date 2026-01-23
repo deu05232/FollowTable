@@ -1,0 +1,15 @@
+<table>
+  <caption>Climate-Model Planetary Albedo Scenarios for an Earth-like Aqua-Planet Under Different Forcings</caption>
+  <thead>
+    <tr><th>Scenario ID</th><th>Forcing / Setup</th><th>Stellar Flux (W/m²)</th><th>Planetary Albedo</th><th>Mean Surface Temp (°C)</th><th>Cloud Fraction</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>S0</td><td>Baseline control</td><td>1361</td><td>0.30</td><td>15.0</td><td>0.60</td><td>Reference state</td></tr>
+    <tr><td>S1</td><td>High CO₂ (4×)</td><td>1361</td><td>0.28</td><td>20.5</td><td>0.57</td><td>Reduced low clouds</td></tr>
+    <tr><td>S2</td><td>Low CO₂ (0.5×)</td><td>1361</td><td>0.32</td><td>12.0</td><td>0.62</td><td>Slightly brighter planet</td></tr>
+    <tr><td>S3</td><td>Increased insolation (+5%)</td><td>1429</td><td>0.29</td><td>18.3</td><td>0.59</td><td>Warmer, modest albedo change</td></tr>
+    <tr><td>S4</td><td>Decreased insolation (−5%)</td><td>1293</td><td>0.31</td><td>11.4</td><td>0.61</td><td>Cooler, slightly higher albedo</td></tr>
+    <tr><td>S5</td><td>Snowball transition</td><td>1250</td><td>0.62</td><td>-35.0</td><td>0.20</td><td>Ice-albedo feedback dominates</td></tr>
+    <tr><td>S6</td><td>Reduced rotation (longer day)</td><td>1361</td><td>0.34</td><td>13.2</td><td>0.66</td><td>Thicker cloud decks</td></tr>
+  </tbody>
+</table>

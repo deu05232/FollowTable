@@ -1,0 +1,14 @@
+<table>
+  <caption>Passing Criteria by Time with Penalties — Mixed Scoring Model (Men vs Women)</caption>
+  <thead>
+    <tr><th>Assessment Item</th><th>Time Limit (Men, s)</th><th>Time Limit (Women, s)</th><th>Penalty Type</th><th>Max Allowed Penalties</th><th>Pass Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start and Glide</td><td>≤ 7</td><td>≤ 8</td><td>Foot touch outside lane</td><td>≤ 1</td><td>Pass if within time AND penalties within limit</td></tr>
+    <tr><td>Straightaway Center-of-Gravity Shifting Glide</td><td>≤ 11</td><td>≤ 13</td><td>Free-leg scrape</td><td>≤ 2</td><td>Fail if time passes but penalties exceed limit</td></tr>
+    <tr><td>Two-Foot Forward Arc Glide</td><td>≤ 9</td><td>≤ 10</td><td>Arc deviation > 0.5 m</td><td>≤ 1</td><td>Time and deviation both checked</td></tr>
+    <tr><td>Straightaway One-Leg Curved-Path Glide</td><td>≤ 7</td><td>≤ 8</td><td>Free blade touch</td><td>0</td><td>Automatic fail on blade touch regardless of time</td></tr>
+    <tr><td>Lateral Step Movement</td><td>≤ 10</td><td>≤ 12</td><td>Missed marker</td><td>≤ 1</td><td>Pass if time met and markers satisfied</td></tr>
+    <tr><td>Supported Lateral Move</td><td>≤ 60</td><td>≤ 65</td><td>Mat contact</td><td>≤ 1</td><td>Pass uses both time and violation count</td></tr>
+  </tbody>
+</table>

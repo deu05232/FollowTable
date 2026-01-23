@@ -1,0 +1,7 @@
+<table>
+  <caption>Beidou monitoring terminal interface and communication requirements (by terminal type)</caption>
+  <tr><th>Terminal type</th><th>Positioning output interface</th><th>Data reporting method</th><th>Minimum reporting interval</th><th>Power supply requirement</th></tr>
+  <tr><td>In-cab monitoring terminal</td><td>RS-232</td><td>4G / Ethernet</td><td>1 s</td><td>9–36 V DC</td></tr>
+  <tr><td>Out-of-cab monitoring terminal</td><td>CAN</td><td>4G / NB-IoT</td><td>5 s</td><td>9–36 V DC</td></tr>
+  <tr><td>Portable monitoring terminal</td><td>Bluetooth</td><td>4G</td><td>10 s</td><td>Rechargeable battery</td></tr>
+</table>

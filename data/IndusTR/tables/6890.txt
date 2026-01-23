@@ -1,0 +1,17 @@
+<table>
+  <caption>Service BOM Structure - Parent/Child Component Relationship (Traversal Ready)</caption>
+  <thead>
+    <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Service BOM ID</td><td>Identifier of the service BOM version being expanded/traversed</td></tr>
+    <tr><td>2</td><td>Parent Component ID</td><td>Identifier of the parent node in the service BOM hierarchy</td></tr>
+    <tr><td>3</td><td>Parent Component Type</td><td>Classification of parent (e.g., System/Module/Assembly/LRU)</td></tr>
+    <tr><td>4</td><td>Child Component ID</td><td>Identifier of the child node directly under the parent</td></tr>
+    <tr><td>5</td><td>Child Component Type</td><td>Classification of child (e.g., LRU/LRI/Consumable)</td></tr>
+    <tr><td>6</td><td>Quantity Per Parent</td><td>Number of child items required for one parent item</td></tr>
+    <tr><td>7</td><td>UoM</td><td>Unit of measure for the quantity (e.g., EA, SET)</td></tr>
+    <tr><td>8</td><td>Find Number</td><td>Position/index used to order children under the same parent</td></tr>
+    <tr><td>9</td><td>Line Sequence</td><td>Sequence for deterministic traversal within a parent’s children</td></tr>
+  </tbody>
+</table>

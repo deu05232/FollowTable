@@ -1,0 +1,10 @@
+<table>
+  <caption>OT Network Port Allocation Plan for Tire Plant (VLAN & Switch Mapping)</caption>
+  <tr><th>Switch</th><th>Port</th><th>Connected Device</th><th>IP Address</th><th>VLAN</th><th>Protocol</th><th>Location</th></tr>
+  <tr><td>SW-01</td><td>1</td><td>Mixing PLC-1</td><td>10.10.1.11</td><td>110</td><td>PROFINET</td><td>Mixing Room</td></tr>
+  <tr><td>SW-01</td><td>2</td><td>Weighing HMI-1</td><td>10.10.1.21</td><td>110</td><td>Modbus/TCP</td><td>Mixing Room</td></tr>
+  <tr><td>SW-02</td><td>5</td><td>Extrusion PLC-2</td><td>10.10.2.12</td><td>120</td><td>EtherNet/IP</td><td>Extrusion Line</td></tr>
+  <tr><td>SW-02</td><td>6</td><td>RFID Gate-3</td><td>10.10.2.43</td><td>120</td><td>HTTP</td><td>Warehouse</td></tr>
+  <tr><td>SW-03</td><td>3</td><td>SCADA Server</td><td>10.10.9.10</td><td>900</td><td>OPC UA</td><td>Control Room</td></tr>
+  <tr><td>SW-03</td><td>4</td><td>MES Gateway</td><td>10.10.9.20</td><td>900</td><td>MQTT</td><td>Control Room</td></tr>
+</table>

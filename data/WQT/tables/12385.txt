@@ -1,0 +1,12 @@
+# Exchange Server Hybrid with Microsoft 365  Coexistence Capabilities (Before vs After Hybrid Configuration)
+
+| Capability area | Before hybrid deployment (separate environments) | After hybrid deployment (hybrid configured) |
+| --- | --- | --- |
+| Global Address List (GAL) visibility | Separate address books; users may not easily find recipients in the other environment. | Unified/merged directory experience (via synchronization) so users can discover recipients across on-premises and Microsoft 365. |
+| Free/busy (calendar) lookups | Limited to same environment; cross-org lookups require custom federation or are unavailable. | Cross-premises free/busy enabled so users can see calendar availability across both sides. |
+| Mail routing between environments | Typically routes via the internet and may look like external mail; inconsistent headers/UX. | Secure, managed hybrid mail flow between on-premises and Microsoft 365 (more “internal-like” routing and control). |
+| Mail tips / message tracking signals | MailTips and related hints generally only work inside each org. | MailTips can work across environments (e.g., external recipient warnings, mailbox full, moderation signals depending on setup). |
+| Sharing and delegation | Delegation typically works only within the same org/forest. | Cross-premises sharing and some delegation scenarios become possible (e.g., calendar sharing at org level). |
+| Unified messaging / voice mail integration | Often tied to on-premises only; cloud users may need separate solutions. | Hybrid can support coexistence where some workloads remain on-premises while users still have consistent mail routing and access patterns. |
+| Compliance and message hygiene boundaries | Policies are applied independently; dual administration and potential gaps. | More coordinated transport rules/connectors and policy alignment across the hybrid boundary (still managed in two places, but designed to coexist). |
+| User experience during migration | Moving mailboxes requires disruptive cutovers or PST-based moves. | Remote mailbox moves supported (hybrid migration) enabling staged migrations with minimal user disruption.

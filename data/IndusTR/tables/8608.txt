@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Camera Config and Filter Creation Function Parameters (Pointer vs Pointer-to-Pointer)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">ArCameraConfig_create</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session that owns the created camera config.</td></tr>
+    <tr><td>initial_template</td><td>const ArCameraConfig *</td><td>in</td><td>Optional template to copy fields from; may be NULL.</td></tr>
+    <tr><td>out_camera_config</td><td>ArCameraConfig **</td><td>out</td><td>Receives the address of the newly created ArCameraConfig object.</td></tr>
+    <tr><td rowspan="3">ArCameraConfigFilter_create</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session that owns the created filter object.</td></tr>
+    <tr><td>mode</td><td>ArCameraConfigFilterMode</td><td>in</td><td>Filter mode (e.g., strict vs. relaxed matching).</td></tr>
+    <tr><td>out_filter</td><td>ArCameraConfigFilter **</td><td>out</td><td>Receives the address of the newly created ArCameraConfigFilter object.</td></tr>
+    <tr><td rowspan="2">(Both functions)</td><td>out_status</td><td>ArStatus *</td><td>out</td><td>Receives status code; if not success, output double-pointers are not written.</td></tr>
+    <tr><td>(Both functions)</td><td>allocator</td><td>ArAllocator *</td><td>in</td><td>Optional custom allocator; may be NULL to use default runtime allocation.</td></tr>
+  </tbody>
+</table>

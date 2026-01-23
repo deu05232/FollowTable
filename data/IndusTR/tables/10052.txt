@@ -1,0 +1,7 @@
+<table>
+  <caption>User terminal I/O statement parameter definitions (acknowledgement-related fields)</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>1</td><td>Ack required flag</td><td>0~1</td><td></td><td>0: no acknowledgement requested; 1: acknowledgement requested</td></tr>
+  <tr><td>2</td><td>Ack timeout</td><td>1~600</td><td>s</td><td>Maximum wait time for an acknowledgement before reporting a failure</td></tr>
+  <tr><td>3</td><td>Retry count</td><td>0~10</td><td></td><td>Number of automatic retransmissions allowed after a timeout</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Curved-Band (Enhanced IR) Wrap Metric to DT Lookup (Radians)</caption>
+  <thead>
+    <tr><th>Wrap angle (radians)</th><th>DT</th><th>Wrap-angle-specific remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>[0.10, 0.20)</td><td>1.0</td><td>Very weak curvature; confirm band continuity before assigning DT.</td></tr>
+    <tr><td>[0.20, 0.40)</td><td>1.5</td><td>Use this bin only when a single dominant curved band is identifiable.</td></tr>
+    <tr><td>[0.40, 0.55)</td><td>2.5</td><td>If the measured wrap falls exactly on 0.55, round down to this bin for consistency.</td></tr>
+    <tr><td>[0.55, 0.70)</td><td>3.0</td><td>Moderate wrap; ensure the arc is centered on the estimated circulation center.</td></tr>
+    <tr><td>[0.70, 0.85)</td><td>3.5</td><td>Strong wrap; avoid mixing with shear interpretation—use curved-band only.</td></tr>
+    <tr><td>[0.85, 1.00]</td><td>4.0</td><td>Near-eye curvature; if wrap angle > 1.00, transition to eye-pattern analysis rather than extending this table.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Information Container Core Identifiers (Request Parameters)</caption>
+  <thead>
+    <tr><th>Field</th><th>Type</th><th>Required</th><th>Scope</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>string</td><td>Yes</td><td>path</td><td>Unique identifier of the project.</td></tr>
+    <tr><td>containerId</td><td>string</td><td>Yes</td><td>path</td><td>Unique identifier of the information container.</td></tr>
+    <tr><td>contentId</td><td>string</td><td>No</td><td>query</td><td>Unique identifier of a content item inside the container.</td></tr>
+    <tr><td>name</td><td>string</td><td>No</td><td>body</td><td>Human-readable container name.</td></tr>
+    <tr><td>version</td><td>string</td><td>No</td><td>body</td><td>Client version label for optimistic updates.</td></tr>
+    <tr><td>etag</td><td>string</td><td>No</td><td>header</td><td>Entity tag used for caching and conditional requests.</td></tr>
+  </tbody>
+</table>

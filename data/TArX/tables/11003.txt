@@ -1,0 +1,16 @@
+<table>
+  <caption>Vapor-phase mole fraction of water (y_H2O) over liquid water at different total pressures (isothermal example at 25 °C).</caption>
+  <thead>
+    <tr><th rowspan="2">Case</th><th colspan="2">State</th><th colspan="2">Vapor Phase</th><th rowspan="2">Comment</th></tr>
+    <tr><th>Temperature</th><th>Total Pressure</th><th>y(H2O)</th><th>y(noncondensable)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>25 °C</td><td>50 kPa</td><td>0.0633</td><td>0.9367</td><td>Saturation with liquid water, ideal-gas mixture</td></tr>
+    <tr><td>2</td><td>25 °C</td><td>75 kPa</td><td>0.0422</td><td>0.9578</td><td>Saturation with liquid water, ideal-gas mixture</td></tr>
+    <tr><td>3</td><td>25 °C</td><td>101.325 kPa</td><td>0.0313</td><td>0.9687</td><td>Often used as 1 atm reference</td></tr>
+    <tr><td>4</td><td>25 °C</td><td>150 kPa</td><td>0.0211</td><td>0.9789</td><td>Higher total pressure lowers y(H2O)</td></tr>
+    <tr><td>5</td><td>25 °C</td><td>200 kPa</td><td>0.0158</td><td>0.9842</td><td>Higher total pressure lowers y(H2O)</td></tr>
+    <tr><td>6</td><td>25 °C</td><td>300 kPa</td><td>0.0105</td><td>0.9895</td><td>Higher total pressure lowers y(H2O)</td></tr>
+    <tr><td>7</td><td>25 °C</td><td>500 kPa</td><td>0.0063</td><td>0.9937</td><td>Approaches dilute limit in vapor mixture</td></tr>
+  </tbody>
+</table>

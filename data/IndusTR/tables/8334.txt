@@ -1,0 +1,16 @@
+<table>
+  <caption>Environmental & Mechanical Tests with Embedded GNSS/Functional Performance Requirements (Beidou Monitoring Terminal)</caption>
+  <thead>
+    <tr><th>Category</th><th>Test item</th><th>Key parameters</th><th>State / setup</th><th>Pass/Fail expectation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Environmental reliability</td><td>High-temperature operating test</td><td>+70 °C, 8 h</td><td>Powered ON, nominal supply voltage</td><td>No reset; no permanent damage; after recovery all functions normal</td></tr>
+    <tr><td>Low-temperature storage test</td><td>-40 °C, 24 h</td><td>Powered OFF</td><td>No cracking/deformation; after recovery functions normal</td></tr>
+    <tr><td>Damp heat cyclic test</td><td>40 °C / 95%RH, 6 cycles, 12 h/cycle</td><td>Powered OFF during dwell; powered ON for 10 min functional check each cycle</td><td>No corrosion; insulation OK; all functions normal after test</td></tr>
+    <tr><td>Functional positioning accuracy (non-test metric)</td><td>Horizontal position error</td><td>≤ 1.5 m (CEP50)</td><td>Open-sky, BDS B1I/B1C</td><td>Meets stated accuracy threshold</td></tr>
+    <tr><td rowspan="4">Mechanical reliability</td><td>Random vibration test</td><td>5–300 Hz, 3 axes, 30 min/axis</td><td>Not powered, normal mounting orientation</td><td>No loose parts; no connector damage; post-test functional check passes</td></tr>
+    <tr><td>Shock test</td><td>Half-sine 30 g, 11 ms, 3 shocks/dir, 6 dirs</td><td>Not powered</td><td>No structural damage; functional check passes</td></tr>
+    <tr><td>Drop test</td><td>1.2 m, 6 faces + 8 edges</td><td>Packed condition</td><td>No loss of basic function after unpacking</td></tr>
+    <tr><td>Time To First Fix (GNSS capability spec)</td><td>Cold start / Hot start</td><td>≤ 45 s / ≤ 5 s</td><td>Open-sky, almanac invalid/valid</td><td>Meets TTFF requirement</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Top-K Indexing Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Tensor to be indexed; element types include integers and floating-point numbers</td></tr>
+  <tr><td>K Value</td><td>Input</td><td>Required</td><td>Indicates the largest top K items to find. The value must be greater than 0 and less than the size of the last dimension of the input tensor</td></tr>
+  <tr><td>Index Dimension</td><td>Input</td><td>Optional</td><td>Indicates the dimension along which TopK takes data. If P≥O,Q>0, then -Q indicates the Q-th dimension from the end, and P indicates the (P+1)-th dimension. Default value: -1</td></tr>
+  <tr><td>Sorting Order</td><td>Input</td><td>Optional</td><td>Boolean type. true indicates the algorithm sorts in descending order; otherwise it sorts in ascending order. Default value is true</td></tr>
+  <tr><td>Ordered Return</td><td>Input</td><td>Optional</td><td>Boolean type, controls whether the returned k results are strictly returned in order. Default value: true</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Indicates the sorted tensor; the data type is the same as the input tensor</td></tr>
+  <tr><td>Index Tensor</td><td>Output</td><td>Required</td><td>Indicates the tensor of indexing results</td></tr>
+</table>

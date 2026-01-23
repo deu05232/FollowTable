@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Camera Intrinsics API: Acquire Intrinsics Handle and Read Core Calibration Fields</caption>
+  <tr><th>API / Output</th><th>Intrinsics Object / Handle</th><th>Field / Output Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td rowspan="2">ArCamera_getImageIntrinsics(session, camera, out_intrinsics)</td><td rowspan="2">ArCameraIntrinsics *</td><td>out_intrinsics</td><td>ArCameraIntrinsics *</td><td>Returns an intrinsics object describing the current camera image stream.</td></tr>
+  <tr><td>lifetime</td><td>scope note</td><td>Valid until released/destroyed or until the owning frame/camera is invalidated (implementation-defined).</td></tr>
+  <tr><td rowspan="2">ArCameraIntrinsics_getImageDimensions(intrinsics, out_width, out_height)</td><td rowspan="2">ArCameraIntrinsics *</td><td>out_width</td><td>int32_t *</td><td>Image width in pixels for which the intrinsics are defined.</td></tr>
+  <tr><td>out_height</td><td>int32_t *</td><td>Image height in pixels for which the intrinsics are defined.</td></tr>
+  <tr><td rowspan="4">ArCameraIntrinsics_getFocalLength(intrinsics, out_fx, out_fy)</td><td rowspan="4">ArCameraIntrinsics *</td><td>out_fx</td><td>float *</td><td>Focal length along X in pixel units.</td></tr>
+  <tr><td>out_fy</td><td>float *</td><td>Focal length along Y in pixel units.</td></tr>
+  <tr><td>units</td><td>pixels</td><td>Values are scaled to the intrinsics image dimensions.</td></tr>
+  <tr><td>note</td><td>behavior</td><td>Use with principal point to build the K matrix for rendering.</td></tr>
+  <tr><td rowspan="3">ArCameraIntrinsics_getPrincipalPoint(intrinsics, out_cx, out_cy)</td><td rowspan="3">ArCameraIntrinsics *</td><td>out_cx</td><td>float *</td><td>Principal point X coordinate in pixels.</td></tr>
+  <tr><td>out_cy</td><td>float *</td><td>Principal point Y coordinate in pixels.</td></tr>
+  <tr><td>note</td><td>behavior</td><td>Center may differ from (width/2, height/2) due to calibration.</td></tr>
+  <tr><td rowspan="3">ArCameraIntrinsics_getDistortion(intrinsics, out_coeffs, coeff_count)</td><td rowspan="3">ArCameraIntrinsics *</td><td>out_coeffs</td><td>float *</td><td>Distortion coefficients array (order depends on implementation, e.g., k1..kN).</td></tr>
+  <tr><td>coeff_count</td><td>int32_t</td><td>Number of coefficients expected/returned.</td></tr>
+  <tr><td>note</td><td>behavior</td><td>Use for undistortion or accurate ray casting; may be zero if unavailable.</td></tr>
+</table>

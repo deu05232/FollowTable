@@ -1,0 +1,16 @@
+<table>
+  <caption>Template: Emission Factors for Purchased vs. Exported Steam/Heat (Multiple Supply Types)</caption>
+  <thead>
+    <tr><th>Activity Line</th><th>Heat / Steam Supply Type</th><th>Heat (GJ)</th><th>Emission Factor (tCO2/GJ)</th><th>Emissions (tCO2)</th><th>Notes (e.g., meter boundary)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Purchased</td><td>District heating network</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Purchased steam (supplier statement)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Purchased hot water</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Heat recovered from third party (contracted)</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="3">Exported</td><td>Exported steam to adjacent plant</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported heat to district network</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Exported hot water to tenants</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td colspan="6">Instruction: Use one row per heat supply/export type with its own emission factor; calculate Emissions = Heat (GJ) × Emission Factor. Add rows if multiple suppliers or factors apply.</td></tr>
+  </tbody>
+</table>

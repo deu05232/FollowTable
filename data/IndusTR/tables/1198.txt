@@ -1,0 +1,20 @@
+<table>
+  <caption>Part-load performance test conditions for oil-free magnetic-levitation centrifugal chiller (heat pump) units</caption>
+  <tr><td colspan="3">Item</td><td colspan="2">Part-load performance test conditions</td></tr>
+  <tr><td>Unit component</td><td>Name</td><td>Unit</td><td>IPLV</td><td>NPLV</td></tr>
+  <tr><td rowspan="4">Evaporator</td><td>Leaving water temperature at 100% load</td><td>℃</td><td rowspan="2">7.0</td><td>Selected leaving water temperature</td></tr>
+  <tr><td>Leaving water temperature at part load</td><td>℃</td><td>Same as the leaving water temperature at 100% load</td></tr>
+  <tr><td>Water flow rate per unit cooling capacity</td><td>m/(h·kW)</td><td>0.172</td><td>Selected water flow rate</td></tr>
+  <tr><td>Fouling factor</td><td>m² ·℃/kW</td><td>0.018</td><td>Specified fouling factor</td></tr>
+  <tr><td rowspan="6">Water-cooled condenser</td><td>Entering water temperature at 100% load</td><td>℃</td><td>30.0</td><td>Selected entering water temperature</td></tr>
+  <tr><td>Entering water temperature at 75% load</td><td>℃</td><td>26.0</td><td rowspan="2">Obtained by linear interpolation based on the entering water temperatures at the 100% and 25% load pointsa</td></tr>
+  <tr><td>Entering water temperature at 50% load</td><td>℃</td><td>23.0</td></tr>
+  <tr><td>Entering water temperature at 25% load</td><td>℃</td><td>19.0</td><td>19.0a</td></tr>
+  <tr><td>Water flow rate per unit cooling capacity</td><td>m³/(h·kW)</td><td>0.215</td><td>Selected water flow rate</td></tr>
+  <tr><td>Fouling factor</td><td>m² ·℃/kW</td><td>0.044</td><td>Specified fouling factor</td></tr>
+  <tr><td rowspan="4">Evaporative condenser</td><td>Entering air wet-bulb temperature at 100% load</td><td>℃</td><td>24.0</td><td>Selected entering air wet-bulb temperature</td></tr>
+  <tr><td>Entering air wet-bulb temperature at 75% load</td><td>℃</td><td>21.9</td><td rowspan="2">Obtained by linear interpolation based on the entering air wet-bulb temperatures at the 100% and 25% load pointsa</td></tr>
+  <tr><td>Entering air wet-bulb temperature at 50% load</td><td>℃</td><td>19.7</td></tr>
+  <tr><td>Entering air wet-bulb temperature at 25% load</td><td>℃</td><td>17.6</td><td>17.6a</td></tr>
+  <tr><td colspan="5">When it is necessary to determine the performance coefficient corresponding to the 75% load point, 50% load point, or 25% load point by interpolation and the degradation coefficient method, the condenser-side entering water temperature or entering air wet-bulb temperature during the test shall be consistent with the condition of the corresponding load point being sought. a If the condenser entering water temperature or entering air wet-bulb temperature recommended by the manufacturer is higher than the temperature specified in the table, the recommended temperature may be used for the test.</td></tr>
+</table>

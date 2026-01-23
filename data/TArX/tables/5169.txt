@@ -1,0 +1,19 @@
+<table>
+  <caption>System Specifications</caption>
+  <tr><th>Parameter</th><th>Comments</th></tr>
+  <tr><th>Laser</th><td>Laser Diode mounted in Thorlabs TCLDM9</td></tr>
+  <tr><th>Repetition Rate</th><td>10 MHz</td></tr>
+  <tr><th>Pulse Width</th><td>2 ns = 60 cm</td></tr>
+  <tr><th>Wavelength</th><td>780 nm</td></tr>
+  <tr><th>Average Output Power</th><td>4 mW</td></tr>
+  <tr><th>Average Detected Power</th><td>0.5 pW (2 megacounts per second)</td></tr>
+  <tr><th>Spectral Filters</th><td>780/10 nm Bandpass, Optical Depth 6+</td></tr>
+  <tr><th>DMD Device</th><td>Digital Light Innovations D4100 with 1024× 768 DMD, operated in binary expansion mode at 1440 frames per second</td></tr>
+  <tr><th>Spatial Resolution</th><td>images: 256× 256 pixels</td></tr>
+  <tr><th></th><td>video: 32× 32 pixels</td></tr>
+  <tr><th>Detector</th><td>Horiba TBX-900C Photomultiplier Module with 9 mm ^((2)) active area</td></tr>
+  <tr><th>Jitter</th><td><200 ps</td></tr>
+  <tr><th>Dark Count Rate</th><td><200 counts per second</td></tr>
+  <tr><th>Data Acquisition</th><td>PicoQuant PicoHarp 300 operating in time-tagging mode</td></tr>
+  <tr><th>Imaging Lens Focal Length</th><td>75 mm</td></tr>
+</table>

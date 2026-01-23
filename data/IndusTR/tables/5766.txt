@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting Machine Time & Energy Accounting Dictionary (Mixed Metrics)</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Access Permission</th><th>Data Type</th><th>Engineering Unit</th><th>Attribute Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0310</td><td>Machine Running Time</td><td>RunningTime</td><td>O</td><td>RO</td><td>Int32</td><td>min</td><td>Total elapsed time the machine runs in knitting mode during the current piece</td></tr>
+    <tr><td>0x0311</td><td>Current Piece Downtime</td><td>Downtime</td><td>O</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed paused time during knitting for the current piece</td></tr>
+    <tr><td>0x0312</td><td>Last Piece Downtime</td><td>LastPieceDowntime</td><td>O</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed paused time during knitting for the previous piece</td></tr>
+    <tr><td>0x0510</td><td>Power Consumption</td><td>PowerConsumption</td><td>O</td><td>RO</td><td>Int32</td><td>kW·h</td><td>Cumulative electrical energy consumed since last reset</td></tr>
+    <tr><td>0x0511</td><td>Current Shift Power Consumption</td><td>CurrentShiftElectricityConsumption</td><td>O</td><td>RO</td><td>Int32</td><td>kW·h</td><td>Electrical energy consumed in the current shift</td></tr>
+    <tr><td>0x0802</td><td>Equipment Control Status</td><td>MachineControlState</td><td>O</td><td>RO</td><td>String</td><td>-</td><td>Control source/state of the equipment (e.g., Remote/Local)</td></tr>
+    <tr><td>0x0313</td><td>Stop-to-Start Recovery Time</td><td>RecoveryTime</td><td>O</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed time from stop event to stable running</td></tr>
+  </tbody>
+</table>

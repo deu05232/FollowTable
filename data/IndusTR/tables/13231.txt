@@ -1,0 +1,16 @@
+<table>
+  <caption>Charge Termination / Abort Message Payload Definitions (CHG_END_PDU)</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Length</th><th>Field Name</th><th>Code / Range</th><th>Meaning (How to Interpret)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1 byte</td><td>End_Type</td><td>0x01=Normal stop; 0x02=EV requested stop; 0x03=EVSE requested stop; 0x04=Fault stop; 0x05=Emergency stop; 0xFF=Invalid</td><td>High-level category describing why charging ended; use as primary termination classification.</td><td>Mandatory</td></tr>
+    <tr><td>2</td><td>2 bytes</td><td>End_Reason_Code</td><td>Unsigned enum</td><td>Detailed reason within the End_Type category (e.g., target SOC reached, voltage limit reached, connector unlock requested).</td><td>Mandatory</td></tr>
+    <tr><td>4</td><td>1 byte</td><td>End_Error_Code</td><td>Unsigned enum</td><td>Specific error identifier for diagnostics; interpret alongside Fault_Bitmap when present.</td><td>Mandatory when End_Type=0x04</td></tr>
+    <tr><td>5</td><td>2 bytes</td><td>Last_Output_Voltage</td><td>Unsigned, 0.1 V/bit</td><td>Charger DC output voltage measured at the moment charging termination was declared.</td><td>Optional</td></tr>
+    <tr><td>7</td><td>2 bytes</td><td>Last_Output_Current</td><td>Signed, 0.1 A/bit</td><td>Charger DC output current at termination; helps validate stop behavior (ramp-down).</td><td>Optional</td></tr>
+    <tr><td>9</td><td>2 bytes</td><td>SOC_At_End</td><td>Unsigned, 0.1 %/bit</td><td>Battery SOC value used/recorded at termination; useful for verifying “target reached” stops.</td><td>Optional</td></tr>
+    <tr><td>11</td><td>2 bytes</td><td>Min_Cell_Voltage_At_End</td><td>Unsigned, 0.001 V/bit</td><td>Minimum cell voltage captured near termination; can justify early stop due to low cell.</td><td>Optional</td></tr>
+    <tr><td>13</td><td>2 bytes</td><td>Max_Cell_Voltage_At_End</td><td>Unsigned, 0.001 V/bit</td><td>Maximum cell voltage captured near termination; can justify stop due to over-voltage protection.</td><td>Optional</td></tr>
+  </tbody>
+</table>

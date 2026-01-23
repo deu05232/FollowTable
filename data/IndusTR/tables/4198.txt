@@ -1,0 +1,11 @@
+<table>
+  <caption>Equipment Energy Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0500</td><td>Electricity Consumption</td><td>ElectricityConsumption</td><td>0</td><td>VAR</td><td>RO</td><td>UInt32</td><td>0~4 294 967 295</td><td>kW·h</td><td>1</td><td></td></tr>
+  <tr><td>0X0501</td><td>Active Power</td><td>ActivePower</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~65 535.00</td><td>kW</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0502</td><td>Apparent Power</td><td>SACApparentPower</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~65 535.00</td><td>kV·A</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0503</td><td>Power Factor</td><td>PowerFactor</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1.00</td><td>1</td><td>Two</td><td>Two</td></tr>
+  <tr><td>0X0504</td><td>Power Supply Frequency</td><td>SupplyFrequency</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>40.00~70.00</td><td>Hz</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0505</td><td>Operating Current</td><td>RunningCurrent</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>A</td><td>1</td><td></td></tr>
+  <tr><td>0X0506</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

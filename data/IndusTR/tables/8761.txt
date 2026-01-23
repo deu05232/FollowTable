@@ -1,0 +1,6 @@
+<table>
+  <caption>Beidou monitoring terminal bench test parameters for acquisition evaluation (procedure-focused)</caption>
+  <tr><th>Test step</th><th>Signal environment configuration</th><th>Wait time before reading</th><th>Operator action</th></tr>
+  <tr><td>Cold start setup</td><td>Disable aiding data; configure signal source scenario</td><td>10 min</td><td>Clear stored data and reboot terminal</td></tr>
+  <tr><td>Hot start setup</td><td>Keep aiding data; configure signal source scenario</td><td>1 min</td><td>Reboot without clearing stored data</td></tr>
+</table>

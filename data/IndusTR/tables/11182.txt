@@ -1,0 +1,17 @@
+<table>
+  <caption>Transport-Layer Multi-Frame Data PDU (Byte-by-Byte Payload Mapping)</caption>
+  <thead>
+    <tr><th>Byte Index (from start of TP payload)</th><th>Field Name</th><th>Size (bytes)</th><th>Encoding / Range</th><th>Description (wire meaning)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Frame Sequence Number (FSN)</td><td>1</td><td>0..255</td><td>Sequence number of this frame. FSN=0 indicates the first frame and carries segmentation metadata.</td></tr>
+    <tr><td>1</td><td>Total Frames (TF)</td><td>1</td><td>1..255</td><td>Total number of frames in this segmented message.</td></tr>
+    <tr><td>2</td><td>Total Bytes (TB) – LSB</td><td>1</td><td>0..255</td><td>Least significant byte of total reassembled payload length (in bytes).</td></tr>
+    <tr><td>3</td><td>Total Bytes (TB) – MSB</td><td>1</td><td>0..255</td><td>Most significant byte of total reassembled payload length (in bytes). TB = MSB<<8 | LSB.</td></tr>
+    <tr><td>4</td><td>App Parameter Group ID</td><td>1</td><td>0x00..0xFF</td><td>Identifier of the application-layer parameter group carried by this segmented message.</td></tr>
+    <tr><td>5</td><td>App Data[0] (first byte)</td><td>1</td><td>0x00..0xFF</td><td>First byte of application data (immediately following metadata in FSN=0 frame).</td></tr>
+    <tr><td>6</td><td>App Data[1]</td><td>1</td><td>0x00..0xFF</td><td>Second byte of application data.</td></tr>
+    <tr><td>7</td><td>App Data[2] / Pad (0xFF)</td><td>1</td><td>0x00..0xFF</td><td>Third byte of application data; if insufficient bytes in this frame, pad with 0xFF.</td></tr>
+    <tr><td colspan="5">For frames with FSN > 0: Byte 0 = FSN, Bytes 1..7 = App Data continuation; if the last frame is shorter than 8 bytes, trailing bytes are padded with 0xFF.</td></tr>
+  </tbody>
+</table>

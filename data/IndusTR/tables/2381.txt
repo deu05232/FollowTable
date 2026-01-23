@@ -1,0 +1,14 @@
+<table>
+  <caption>Closed Caption File Validation Checklist (Workflow and Acceptance Criteria)</caption>
+  <thead>
+    <tr><th>Check Item</th><th>Tool/Step</th><th>Target</th><th>Pass Condition</th><th>Common Failure</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Timecode Continuity</td><td>Validator scan</td><td>All cues</td><td>No overlaps</td><td>Overlapping cues</td></tr>
+    <tr><td>Frame Rate Match</td><td>Project settings</td><td>29.97/25/24</td><td>Matches delivery spec</td><td>Drift after 10 min</td></tr>
+    <tr><td>Line Length</td><td>Lint rule</td><td>≤ 32 chars/line</td><td>No truncation</td><td>Overflow</td></tr>
+    <tr><td>Reading Speed</td><td>QC review</td><td>≤ 17 CPS</td><td>Within threshold</td><td>Too fast</td></tr>
+    <tr><td>Character Set</td><td>Encoding check</td><td>UTF-8</td><td>No invalid bytes</td><td>Mojibake</td></tr>
+    <tr><td>Safe Area</td><td>Preview monitor</td><td>Title-safe</td><td>No cut-off</td><td>Captions clipped</td></tr>
+  </tbody>
+</table>

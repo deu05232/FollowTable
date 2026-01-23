@@ -1,0 +1,16 @@
+<table>
+  <caption>GRB Prompt-Emission Fit Setup and Parameter Bounds for Luminosity-Function Modeling</caption>
+  <thead>
+    <tr><th>Component</th><th>Parameter</th><th>Symbol</th><th>Prior / Bound</th><th>Default</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Luminosity function</td><td>Characteristic luminosity</td><td>L*</td><td>log10(L*/erg s^-1) ∈ [50.0, 54.5]</td><td>52.6</td><td>Global (not per burst)</td></tr>
+    <tr><td>Low-end slope</td><td>α</td><td>α ∈ [-1.0, 1.0]</td><td>0.2</td><td>Global fit hyperparameter</td></tr>
+    <tr><td>High-end slope</td><td>β</td><td>β ∈ [0.5, 5.0]</td><td>1.5</td><td>Global fit hyperparameter</td></tr>
+    <tr><td rowspan="3">Redshift evolution</td><td>Break redshift</td><td>z1</td><td>z1 ∈ [0.0, 6.0]</td><td>2.2</td><td>Controls rate evolution</td></tr>
+    <tr><td>Low-z index</td><td>n1</td><td>n1 ∈ [-5, 5]</td><td>1.7</td><td>Below z1</td></tr>
+    <tr><td>High-z index</td><td>n2</td><td>n2 ∈ [-10, 2]</td><td>-1.2</td><td>Above z1</td></tr>
+    <tr><td rowspan="2">Spectral / k-correction</td><td>Band low-energy index</td><td>αB</td><td>αB ∈ [-1.8, -0.2]</td><td>-1.0</td><td>Population-level assumption</td></tr>
+    <tr><td>Band high-energy index</td><td>βB</td><td>βB ∈ [-3.5, -1.8]</td><td>-2.3</td><td>Population-level assumption</td></tr>
+  </tbody>
+</table>

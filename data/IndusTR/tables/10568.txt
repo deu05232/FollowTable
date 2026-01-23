@@ -1,0 +1,14 @@
+<table>
+  <caption>Open API Endpoint Authentication & Required Parameters Matrix (Devices and Gateways)</caption>
+  <thead>
+    <tr><th>Endpoint Name</th><th>HTTP Method</th><th>Path</th><th>Auth Parameter (Required)</th><th>Other Required Parameters</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Device Details Query</td><td>GET</td><td>/openapi/v1/devices/{deviceId}</td><td>access_token (string)</td><td>userID (string), deviceId (string path)</td><td>Returns basic device profile by ID</td></tr>
+    <tr><td>Device Security Verify</td><td>POST</td><td>/openapi/v1/devices/auth/verify</td><td>access_token (string)</td><td>userID (string), devID (string), devSign (string)</td><td>Validates device identity signature</td></tr>
+    <tr><td>Edge Gateway Create</td><td>POST</td><td>/openapi/v1/gateways</td><td>access_token (string)</td><td>userID (string), gatewName (string), commCode (string), commUrl (string), iotType (string)</td><td>Creates a gateway record</td></tr>
+    <tr><td>Gateway Identifier Save</td><td>POST</td><td>/openapi/v1/gateways/{gatewayId}/identifiers</td><td>access_token (string)</td><td>userID (string), gatewayId (string path), classfyID (string), templateVersion (string), templateAttribute (string)</td><td>Saves an identifier for a gateway</td></tr>
+    <tr><td>Gateway List</td><td>GET</td><td>/openapi/v1/gateways</td><td>access_token (string)</td><td>userID (string), page (int), pageSize (int)</td><td>Pagination parameters required for listing</td></tr>
+    <tr><td>Device List by Gateway</td><td>GET</td><td>/openapi/v1/gateways/{gatewayId}/devices</td><td>access_token (string)</td><td>userID (string), gatewayId (string path), status (string)</td><td>Filters devices under a gateway</td></tr>
+  </tbody>
+</table>

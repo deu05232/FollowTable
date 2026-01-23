@@ -1,0 +1,15 @@
+<table>
+  <caption>AMBT1 tuning inputs: observable-by-observable mapping to measured distributions and reference points</caption>
+  <thead>
+    <tr><th>Observable name</th><th>What is compared in the tuning</th><th>Reference point(s) / summary value</th><th>Phase-space definition</th><th>Energy points used</th><th>Role in AMBT1 constraint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>dNch/dη (at η=0)</td><td>Central charged-particle density benchmark</td><td>Value at η = 0 (used as anchor for overall normalization)</td><td>Nch ≥ 20, pT > 100 MeV, |η| < 2.5</td><td>0.9 TeV and 7 TeV</td><td>Fixes central activity level; sensitive to MPI normalization.</td></tr>
+    <tr><td>dNch/dη (full shape)</td><td>Bin-by-bin η-shape comparison</td><td>Shape over |η| < 2.5</td><td>Minimum-bias (inclusive selection), track-quality cuts applied</td><td>0.9 TeV</td><td>Constrains η-dependence and detector-acceptance-consistent modeling.</td></tr>
+    <tr><td>dNch/dpT</td><td>pT spectrum comparison</td><td>Spectrum above threshold (soft region emphasis)</td><td>pT > 500 MeV, |η| < 2.5</td><td>0.9 TeV</td><td>Constrains fragmentation/soft QCD pT spectrum.</td></tr>
+    <tr><td>Nch distribution</td><td>Multiplicity distribution comparison</td><td>Probability vs Nch (tail included)</td><td>pT > 500 MeV, |η| < 2.5</td><td>0.9 TeV and 7 TeV</td><td>Controls multiplicity tail; strong MPI sensitivity.</td></tr>
+    <tr><td>⟨pT⟩(Nch)</td><td>Correlation curve comparison</td><td>Mean pT in bins of Nch</td><td>pT > 500 MeV, |η| < 2.5</td><td>0.9 TeV</td><td>Reduces degeneracies between multiplicity-only and pT-only constraints.</td></tr>
+    <tr><td>pT(lead) distribution</td><td>Leading-object spectrum comparison</td><td>Distribution for pT(lead) above ~1 GeV</td><td>Leading track within |η| < 2.5, event passes minimum-bias selection</td><td>0.9 TeV</td><td>Anchors transition region; helps tune harder activity component.</td></tr>
+    <tr><td>Integrated Nch in |η| window</td><td>Integral over η acceptance</td><td>Total Nch in |η| < 2.5</td><td>pT-thresholded track selection</td><td>0.9 TeV</td><td>Cross-check normalization consistency with differential distributions.</td></tr>
+  </tbody>
+</table>

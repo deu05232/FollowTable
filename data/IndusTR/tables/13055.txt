@@ -1,0 +1,16 @@
+<table>
+  <caption>Harmonic Generation Capability Limits (Voltage Injection Mode)</caption>
+  <thead>
+    <tr><th>Item</th><th>Condition / Sub-item</th><th>Limit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Supported harmonic order range</td><td>Integer harmonics</td><td>2nd to 50th</td></tr>
+    <tr><td rowspan="2">Harmonic amplitude range (per harmonic)</td><td>Relative to fundamental voltage U1</td><td>0% to 45%</td></tr>
+    <tr><td>Minimum adjustable step (amplitude)</td><td>0.1% of U1</td></tr>
+    <tr><td rowspan="2">Peak constraint after superposition</td><td>Phase-voltage composite peak</td><td>Shall not exceed 1.30 × Upeak(1)</td></tr>
+    <tr><td>Definition</td><td>Upeak(1) = peak of the fundamental component</td></tr>
+    <tr><td>Maximum number of simultaneously enabled harmonic orders</td><td>—</td><td>Up to 20 orders</td></tr>
+    <tr><td>Harmonic phase setting range</td><td>Per harmonic</td><td>0° to 360°</td></tr>
+    <tr><td>Harmonic phase setting resolution</td><td>Per harmonic</td><td>0.1°</td></tr>
+  </tbody>
+</table>

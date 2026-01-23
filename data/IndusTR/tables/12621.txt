@@ -1,0 +1,16 @@
+<table>
+  <caption>Link-Layer Version Negotiation Operational Rules (Policies and Error Handling)</caption>
+  <thead>
+    <tr><th>Rule ID</th><th>Situation</th><th>Policy</th><th>Retry Strategy</th><th>Timeout</th><th>State Impact</th><th>Error Code (Conceptual)</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R-01</td><td>Remote response not received</td><td>Retransmit last negotiation message</td><td>Up to 3 retries</td><td>200 ms per retry</td><td>Stay in Waiting state</td><td>E_TIMEOUT</td><td>Procedure-level resilience</td></tr>
+    <tr><td>R-02</td><td>Remote indicates Continue</td><td>Adjust proposed version downward to next supported</td><td>Immediate resend</td><td>—</td><td>Loop negotiation</td><td>E_CONTINUE</td><td>Numerical compare only</td></tr>
+    <tr><td>R-03</td><td>Remote indicates Fail</td><td>Stop negotiation</td><td>No retries</td><td>—</td><td>Enter Fail terminal state</td><td>E_NEG_FAIL</td><td>Fallback procedure begins</td></tr>
+    <tr><td>R-04</td><td>Negotiation succeeds but version below minimum feature level</td><td>Skip feature negotiation stage</td><td>—</td><td>—</td><td>Proceed to legacy communication</td><td>E_LEGACY</td><td>High-level stage gating</td></tr>
+    <tr><td>R-05</td><td>Overall negotiation time exceeds limit</td><td>Abort and use fallback communication</td><td>No further negotiation</td><td>10 s overall</td><td>Abort</td><td>E_OVERALL_TO</td><td>Enforced upper bound</td></tr>
+    <tr><td>R-06</td><td>Conflicting success indications</td><td>Prefer peer-confirmed success; otherwise restart</td><td>Restart once</td><td>—</td><td>Reset to initial offer</td><td>E_INCONSISTENT</td><td>Consistency check</td></tr>
+    <tr><td>R-07</td><td>Unexpected next-stage message arrives</td><td>Stop version negotiation and follow next stage</td><td>—</td><td>—</td><td>Exit negotiation state</td><td>E_EARLY_NEXT</td><td>Transition rule</td></tr>
+    <tr><td>R-08</td><td>Local capability changes mid-session</td><td>Do not change; keep initial capability set</td><td>—</td><td>—</td><td>No state change</td><td>E_CAP_LOCK</td><td>Operational constraint</td></tr>
+  </tbody>
+</table>

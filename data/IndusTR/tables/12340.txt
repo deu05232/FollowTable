@@ -1,0 +1,10 @@
+<table>
+  <caption>AR session handle parameter (standalone)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Handle to an already-created augmented reality session</td></tr>
+  <tr><td>session_id</td><td>uint64_t</td><td>Opaque identifier used for debugging and telemetry</td></tr>
+  <tr><td>owner_thread_id</td><td>uint64_t</td><td>Thread identifier expected to own the session calls</td></tr>
+  <tr><td>reserved</td><td>void *</td><td>Reserved field for future compatibility</td></tr>
+  <tr><td>user_data</td><td>void *</td><td>Caller-provided pointer carried with the session handle</td></tr>
+  <tr><td>flags</td><td>uint32_t</td><td>Bit flags describing session handle properties</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Curing Press Step-Sequence Configuration with Sensor Checks and Quality Outputs</caption>
+  <thead>
+    <tr><th>Step No.</th><th>Step Name</th><th>Trigger / Condition</th><th>Measured Value</th><th>Setpoint / Limit</th><th>Valve / Actuator Output</th><th>Inspection / Log Output</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Mold Close</td><td>Start cycle command</td><td>Mold position switch</td><td>Closed = TRUE</td><td>Close hydraulic valve ON</td><td>Cycle timestamp log</td></tr>
+    <tr><td>2</td><td>Pre-Press</td><td>Mold closed confirmed</td><td>Hydraulic pressure (bar)</td><td>Pre-press pressure limit</td><td>Pressure regulator valve to preset (%)</td><td>Pressure trend stored</td></tr>
+    <tr><td>3</td><td>Steam Heat Ramp</td><td>Timer T1</td><td>Bladder temperature (°C)</td><td>Ramp profile points</td><td>Steam valve open sequence (V1 then V2)</td><td>Temperature deviation alarm</td></tr>
+    <tr><td>4</td><td>Cure Hold</td><td>Reached ramp point</td><td>Cavity pressure (bar)</td><td>Cure pressure profile</td><td>Bladder pressure valve sequence (V3 then V4)</td><td>Uniformity prediction score</td></tr>
+    <tr><td>5</td><td>Exhaust / Vent</td><td>Elapsed time or operator</td><td>Vent flow switch</td><td>Flow OK</td><td>Vent valves ordered open (V5, V6)</td><td>Vent event counter</td></tr>
+    <tr><td>6</td><td>Open Mold & Unload</td><td>Cure time completed</td><td>Mold position, tire presence sensor</td><td>Open = TRUE</td><td>Open hydraulic valve ON, ejector ON</td><td>Final quality tag (Pass/Fail)</td></tr>
+  </tbody>
+</table>

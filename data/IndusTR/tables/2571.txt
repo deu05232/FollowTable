@@ -1,0 +1,10 @@
+<table>
+  <caption>Environmental Test Chamber Setup Parameters for Balloon Payload Verification</caption>
+  <tr><th>Parameter</th><th>Target Setting</th><th>Tolerance</th><th>Instrument</th><th>Notes</th></tr>
+  <tr><td>Chamber Temperature Profile</td><td>-40°C to +50°C (ramp 2°C/min)</td><td>±2°C</td><td>Thermal Controller TC-800</td><td>Hold 30 min at extremes</td></tr>
+  <tr><td>Chamber Pressure</td><td>15 kPa (simulated 30 km)</td><td>±1 kPa</td><td>Vacuum Gauge VG-20</td><td>Leak check before run</td></tr>
+  <tr><td>Humidity</td><td>< 20% RH</td><td>±5% RH</td><td>Hygrometer H-4</td><td>Dry nitrogen purge</td></tr>
+  <tr><td>Vibration Table Frequency</td><td>20–200 Hz sweep</td><td>±1 Hz</td><td>Shaker VS-3</td><td>10 min per axis</td></tr>
+  <tr><td>Acceleration Level</td><td>3.0 g RMS</td><td>±0.2 g</td><td>Accelerometer ACC-11</td><td>Mount at CG</td></tr>
+  <tr><td>Data Logging Rate</td><td>100 Hz</td><td>±1 Hz</td><td>DAQ-16</td><td>Time sync to GPS</td></tr>
+</table>

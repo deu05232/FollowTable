@@ -1,0 +1,11 @@
+<table>
+  <caption>Bimetric vs Newtonian: parameter mapping and resulting force-law features</caption>
+  <thead>
+    <tr><th>Model setting</th><th>Newtonian force-law feature (qualitative)</th><th>Bimetric coupling/scale setting (qualitative)</th><th>Predicted deviation type</th><th>Where deviations become relevant</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Baseline</td><td>Inverse-square with constant G</td><td>Coupling set to recover GR limit</td><td>null</td><td>All radii</td></tr>
+    <tr><td>Finite interaction range</td><td>Inverse-square</td><td>Nonzero interaction scale</td><td>Yukawa-like suppression</td><td>Large r</td></tr>
+    <tr><td>Strong mixing</td><td>Inverse-square</td><td>Higher mixing between metrics</td><td>Effective G(r) running</td><td>Intermediate r</td></tr>
+  </tbody>
+</table>

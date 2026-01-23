@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Test Conditions for Readability Evaluation of Popular Science Texts</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Metric</th><th>Recommended Condition</th><th>Instrument/Software</th><th>Sampling Rule</th><th>Acceptance Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Readability</td><td>Flesch Reading Ease</td><td>Target: 55–70</td><td>Text Analyzer</td><td>Min 800 words</td><td>Exclude references</td></tr>
+    <tr><td>Terminology Density</td><td>Terms per 1,000 words</td><td>≤ 35</td><td>NLP Toolkit</td><td>Random 5 sections</td><td>Domain glossary allowed</td></tr>
+    <tr><td>Sentence Length</td><td>Avg. words/sentence</td><td>12–18</td><td>Parser</td><td>All sentences</td><td>Remove captions</td></tr>
+    <tr><td>Passive Voice</td><td>% passive sentences</td><td>≤ 15%</td><td>Grammar Checker</td><td>Full text</td><td>Ignore quotations</td></tr>
+    <tr><td>Figure Caption Clarity</td><td>Checklist score</td><td>≥ 8/10</td><td>Peer Review Form</td><td>All figures</td><td>Two reviewers</td></tr>
+    <tr><td>Fact Verification</td><td>Source coverage</td><td>≥ 90%</td><td>Citation Manager</td><td>Key claims only</td><td>Primary sources preferred</td></tr>
+  </tbody>
+</table>

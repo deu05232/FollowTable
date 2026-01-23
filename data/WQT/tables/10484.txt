@@ -1,0 +1,16 @@
+# Other Gas-Related Constants in Multiple Units (Replaces R with Different Constants)
+
+| Constant | Symbol | Value | Units | Notes |
+|---|---|---:|---|---|
+| Avogadro constant | N_A | 6.02214076e23 | mol^-1 | exact (SI 2019) |
+| Avogadro constant | N_A | 6.02214076e23 | kmol^-1 × 1e3 | unit scaling |
+| Standard atmosphere | p_atm | 101325 | Pa | defined |
+| Standard atmosphere | p_atm | 1.01325 | bar | defined |
+| Standard atmosphere | p_atm | 760 | Torr | conventional |
+| Faraday constant | F | 96485.33212 | C·mol^-1 | CODATA |
+| Planck constant | h | 6.62607015e-34 | J·s | exact (SI 2019) |
+| Planck constant | h | 4.135667696e-15 | eV·s | converted |
+| Stefan–Boltzmann constant | \sigma | 5.670374419e-8 | W·m^-2·K^-4 | exact-derived |
+| Molar volume (ideal, STP) | V_m | 22.414 | L·mol^-1 | legacy STP |
+| Molar volume (SATP) | V_m | 24.465 | L·mol^-1 | 1 bar, 298.15 K |
+| Gas constant (not provided) | R | — | — | omitted intentionally |

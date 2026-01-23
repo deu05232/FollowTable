@@ -1,0 +1,10 @@
+<table>
+  <caption>Test Environment Requirements for Trackable Detection Benchmarks</caption>
+  <tr><th>Condition</th><th>Target Range</th><th>Measurement Tool</th><th>Sampling Rate</th><th>Fail Criteria</th><th>Remarks</th></tr>
+  <tr><td>Ambient Light</td><td>300–500 lux</td><td>Lux meter</td><td>1 Hz</td><td><250 or >700 lux</td><td>Diffuse lighting recommended</td></tr>
+  <tr><td>Color Temperature</td><td>4000–6500 K</td><td>Colorimeter</td><td>0.2 Hz</td><td>Out of range for 2 min</td><td>Avoid flicker sources</td></tr>
+  <tr><td>Camera Exposure</td><td>Auto, ISO 100–800</td><td>Device logs</td><td>N/A</td><td>Clipped histogram > 5%</td><td>Lock exposure for repeats</td></tr>
+  <tr><td>Target Distance</td><td>0.3–2.0 m</td><td>Tape measure</td><td>Per run</td><td>Distance drift > 5 cm</td><td>Mark positions on floor</td></tr>
+  <tr><td>Device Temperature</td><td>20–35 °C</td><td>Thermal probe</td><td>0.5 Hz</td><td>Thermal throttling</td><td>Pause between runs</td></tr>
+  <tr><td>Network State</td><td>Offline</td><td>OS settings</td><td>N/A</td><td>Background updates</td><td>Stabilize CPU load</td></tr>
+</table>

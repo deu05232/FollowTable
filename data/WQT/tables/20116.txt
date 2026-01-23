@@ -1,0 +1,8 @@
+# IPv4 reserved special-use ranges (range notation, no CIDR column)
+
+| Range | Scope | Purpose |
+| --- | --- | --- |
+| 0.0.0.0 – 0.255.255.255 | Software | "this" network |
+| 10.0.0.0 – 10.255.255.255 | Private network | Private addressing |
+| 100.64.0.0 – 100.127.255.255 | Private network | CGNAT subscriber space |
+| 127.0.0.0 – 127.255.255.255 | Host | Loopback |

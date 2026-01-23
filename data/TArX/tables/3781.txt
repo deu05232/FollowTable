@@ -1,0 +1,14 @@
+<table>
+  <caption>The coarse graining parameters used to describe the acyl chain conformations in the q = 10 Pink model [ Pink1980 , springerlink:10.1007/BF01295077 , doi:10.1139/p80-083 , mouritsen:com-sim ] . For each state conformation α , we list the internal energy E α , the projected length l α , and the degeneracy D α . The energy of a single gauche bond equals Γ = 0.45 × 10 - 13 ⁢ erg , while M denotes the number of carbon atoms in the chain.</caption>
+  <tr><th colspan="2">state ( α )</th><th>E_(α)</th><th>l_(α)</th><th>D_(α)</th></tr>
+  <tr><th>ground state</th><td>1</td><td>0</td><td>M-1</td><td>1</td></tr>
+  <tr><th rowspan="8">kink \{\\ \\ \\ \\ \\ \\ \\ \\ .</th><td>2</td><td>Γ</td><td>M-2</td><td>4</td></tr>
+  <tr><td>3</td><td>Γ</td><td>M-3</td><td>4</td></tr>
+  <tr><td>4</td><td>Γ</td><td>M-4</td><td>4</td></tr>
+  <tr><td>5</td><td>2Γ</td><td>M-2</td><td>2(M-6)</td></tr>
+  <tr><td>6</td><td>2Γ</td><td>M-3</td><td>2(M-8)</td></tr>
+  <tr><td>7</td><td>2Γ</td><td>M-4</td><td>2(M-10)</td></tr>
+  <tr><td>8</td><td>3Γ</td><td>M-3</td><td>8(M-8)</td></tr>
+  <tr><td>9</td><td>3Γ</td><td>M-4</td><td>16(M-10)</td></tr>
+  <tr><th>disordered</th><td>10</td><td>E_(10)</td><td>l_(1)A_(1)/A_(10)</td><td>6× 3^(M-6)</td></tr>
+</table>

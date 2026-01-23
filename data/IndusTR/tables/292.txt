@@ -1,0 +1,10 @@
+<table>
+  <caption>Circular Area Address Code Field Format</caption>
+  <tr><td>Serial No.</td><td>Field Name</td><td>Number of Bits</td><td>Valid Range</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>Center Latitude Value</td><td>7</td><td>0~90</td><td>Unit: (°)</td></tr>
+  <tr><td>2</td><td>Center North/South Latitude</td><td>1</td><td>0~1</td><td>0: North latitude; 1: South latitude</td></tr>
+  <tr><td>3</td><td>Center Longitude Value</td><td>8</td><td>0~180</td><td>Unit: (°)</td></tr>
+  <tr><td>4</td><td>Center East/West Longitude</td><td>1</td><td>0~1</td><td>0: East longitude; 1: West longitude</td></tr>
+  <tr><td>5</td><td>Radius</td><td>10</td><td>0~999</td><td>Unit: n mile</td></tr>
+  <tr><td colspan="2">Total</td><td>27</td><td>One</td><td></td></tr>
+</table>

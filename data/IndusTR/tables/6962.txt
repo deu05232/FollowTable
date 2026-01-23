@@ -1,0 +1,15 @@
+<table>
+  <caption>Default Fuel Properties for Stationary Combustion (NCV, Carbon Content, Oxidation)</caption>
+  <thead>
+    <tr><th>Fuel Category</th><th>Fuel Type</th><th>Unit</th><th>Net Calorific Value (GJ/unit)</th><th>Carbon Content (tC/TJ)</th><th>Oxidation Factor (%)</th><th>CO2 EF (tCO2/TJ)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Solid fuels</td><td>Bituminous coal</td><td>t</td><td>20.3</td><td>25.8</td><td>98</td><td>94.6</td></tr>
+    <tr><td>Lignite</td><td>t</td><td>11.9</td><td>27.6</td><td>96</td><td>101.2</td></tr>
+    <tr><td>Petroleum coke</td><td>t</td><td>30.8</td><td>27.5</td><td>99</td><td>103.5</td></tr>
+    <tr><td rowspan="2">Liquid fuels</td><td>Diesel oil</td><td>t</td><td>43.0</td><td>20.2</td><td>99</td><td>74.1</td></tr>
+    <tr><td>Fuel oil</td><td>t</td><td>40.4</td><td>21.1</td><td>99</td><td>77.4</td></tr>
+    <tr><td rowspan="2">Gaseous fuels</td><td>Natural gas</td><td>10^4 Nm³</td><td>38.0</td><td>15.3</td><td>99.5</td><td>56.1</td></tr>
+    <tr><td>Coke oven gas</td><td>10^4 Nm³</td><td>17.0</td><td>12.1</td><td>99</td><td>44.4</td></tr>
+  </tbody>
+</table>

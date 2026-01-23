@@ -1,0 +1,20 @@
+<table>
+  <caption>Bead Apex Extruder Telemetry & I/O Signal Dictionary</caption>
+  <thead>
+    <tr><th>No.</th><th>Signal / Parameter Name</th><th>Description</th><th>Alias</th><th>Data Type</th><th>Bit Length</th><th>Allowed Range</th><th>Value Meaning</th><th>Related / Validation Logic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>EXTR_Temp_Zone1_PV</td><td>Extruder barrel zone 1 measured temperature</td><td>Z1 Temp PV</td><td>FLOAT</td><td>32</td><td>0.0–300.0 °C</td><td>Real value in °C</td><td>High deviation if |PV−SP| > EXTR_Temp_Dev_Hi</td></tr>
+    <tr><td>2</td><td>EXTR_Temp_Zone1_SP</td><td>Extruder barrel zone 1 temperature setpoint</td><td>Z1 Temp SP</td><td>FLOAT</td><td>32</td><td>20.0–250.0 °C</td><td>Real value in °C</td><td>Used by temperature control loop for zone 1</td></tr>
+    <tr><td>3</td><td>EXTR_Temp_Dev_Hi</td><td>High deviation threshold used for temperature alarm evaluation</td><td>Temp Dev High</td><td>FLOAT</td><td>32</td><td>0.5–50.0 °C</td><td>Alarm when |PV−SP| exceeds this value for EXTR_Temp_Dev_Delay</td><td>Applies to all zones where enabled (see EXTR_Temp_Alarm_Enable)</td></tr>
+    <tr><td>4</td><td>EXTR_Temp_Alarm_Enable</td><td>Enable/disable temperature deviation alarm evaluation</td><td>Temp Alarm EN</td><td>UINT</td><td>16</td><td>0–1</td><td>0: disabled; 1: enabled</td><td>If 0, deviation alarms are suppressed but PV/SP still reported</td></tr>
+    <tr><td>5</td><td>EXTR_Screw_Speed_PV</td><td>Actual extruder screw speed from drive feedback</td><td>Screw Speed PV</td><td>FLOAT</td><td>32</td><td>0.0–120.0 rpm</td><td>Real value in rpm</td><td>Compare to EXTR_Screw_Speed_SP for speed regulation</td></tr>
+    <tr><td>6</td><td>EXTR_Screw_Speed_SP</td><td>Extruder screw speed setpoint</td><td>Screw Speed SP</td><td>FLOAT</td><td>32</td><td>0.0–120.0 rpm</td><td>Real value in rpm</td><td>Only accepted when EXTR_Run_Cmd=1 and EXTR_Drive_Ready=1</td></tr>
+    <tr><td>7</td><td>EXTR_Melt_Pressure_PV</td><td>Melt pressure at die head (process pressure sensor)</td><td>Melt Pressure PV</td><td>FLOAT</td><td>32</td><td>0.0–25.0 MPa</td><td>Real value in MPa</td><td>Overpressure alarm if PV > EXTR_Melt_Press_Hi</td></tr>
+    <tr><td>8</td><td>EXTR_Melt_Press_Hi</td><td>High melt pressure alarm threshold</td><td>Melt Press High</td><td>FLOAT</td><td>32</td><td>1.0–25.0 MPa</td><td>Alarm limit (MPa)</td><td>Trip condition if PV exceeds limit for EXTR_Melt_Press_Delay</td></tr>
+    <tr><td>9</td><td>EXTR_Run_Cmd</td><td>Command to start/stop extruder line</td><td>Extruder Run Cmd</td><td>UINT</td><td>16</td><td>0–3</td><td>0: stop; 1: start; 2: running (feedback-confirmed); 3: fault</td><td>Running state requires EXTR_Drive_Ready=1 and no active fault</td></tr>
+    <tr><td>10</td><td>EXTR_Drive_Ready</td><td>Main drive ready status (power & interlocks OK)</td><td>Drive Ready</td><td>UINT</td><td>16</td><td>0–1</td><td>0: not ready; 1: ready</td><td>If 0, EXTR_Run_Cmd is rejected and EXTR_Screw_Speed_SP is clamped to 0</td></tr>
+    <tr><td>11</td><td>EXTR_EStop_Status</td><td>Emergency stop chain status for extruder station</td><td>E-Stop</td><td>UINT</td><td>16</td><td>0–2</td><td>0: healthy; 1: pressed; 2: circuit fault</td><td>If not healthy, force EXTR_Run_Cmd to stop and set fault state</td></tr>
+    <tr><td>12</td><td>EXTR_Alarm_Code</td><td>Active alarm/fault code for extruder station</td><td>Alarm Code</td><td>UINT</td><td>16</td><td>0–9999</td><td>0: none; 1001: overpressure; 1002: overtemp; 1003: drive fault; 1004: E-stop</td><td>Non-zero implies EXTR_Run_Cmd value meaning may switch to 3 (fault)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Output Accuracy and Resolution Summary (Including Harmonic Indication Error)</caption>
+  <thead>
+    <tr><th>Item</th><th>Range / Condition</th><th>Resolution</th><th>Maximum Permissible Error</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fundamental voltage setting</td><td>30 V–300 V</td><td>0.1 V</td><td>±0.1% (of setting)</td></tr>
+    <tr><td>Fundamental current setting</td><td>1 mA–Imax</td><td>0.1 mA (≤10 A); 1 mA (10–100 A)</td><td>±0.1% (of setting)</td></tr>
+    <tr><td>Frequency output</td><td>49 Hz–51 Hz</td><td>0.01 Hz</td><td>±0.02%</td></tr>
+    <tr><td>Harmonic voltage indication error</td><td>Relative to U1</td><td>0.1% (relative)</td><td>±0.1% (relative to U1)</td></tr>
+    <tr><td>Harmonic current indication error</td><td>10 mA ≤ I < 50 mA (relative to I1)</td><td>0.1% (relative)</td><td>±0.2% (relative to I1)</td></tr>
+    <tr><td>Harmonic current indication error</td><td>50 mA ≤ I ≤ Imax (relative to I1)</td><td>0.1% (relative)</td><td>±0.1% (relative to I1)</td></tr>
+  </tbody>
+</table>

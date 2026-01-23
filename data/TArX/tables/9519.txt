@@ -1,0 +1,7 @@
+<table>
+  <caption>AMBT1-related dataset: track reconstruction and selection requirements by method (example).</caption>
+  <tr><th>Reconstruction method</th><th>Hit/layer requirement described</th><th>Impact-parameter requirement described</th><th>Momentum threshold rule</th><th>Pass/fail flag</th></tr>
+  <tr><td>Full tracks</td><td>Pixel+SCT hit pattern requirement</td><td>|d0| and |z0| significance limits</td><td>pT > 100 MeV</td><td>YES</td></tr>
+  <tr><td>ID tracks</td><td>SCT hit requirement varies with pT</td><td>|d0| significance tighter than full tracks</td><td>pT > 500 MeV</td><td>YES</td></tr>
+  <tr><td>Pixel tracks</td><td>Innermost layer hit required</td><td>After-refit |z0| requirement</td><td>pT > 100 MeV</td><td>YES</td></tr>
+</table>

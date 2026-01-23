@@ -1,0 +1,16 @@
+<table>
+  <caption>Photodetector Optical/Electrical Performance Specifications (Core Parameters)</caption>
+  <thead>
+    <tr><th>Performance parameter</th><th>Symbol</th><th>Test / conditions</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Spectral response range</td><td rowspan="2">λ</td><td>Short wavelength cutoff</td><td>900</td><td>—</td><td>—</td><td>nm</td></tr>
+    <tr><td>Long wavelength cutoff</td><td>1700</td><td>—</td><td>—</td><td>nm</td></tr>
+    <tr><td>Responsivity</td><td>R</td><td>λ = 1310 nm, Pin = 10 µW</td><td>0.85</td><td>0.95</td><td>—</td><td>A/W</td></tr>
+    <tr><td>Responsivity</td><td>R</td><td>λ = 1550 nm, Pin = 10 µW</td><td>0.75</td><td>0.88</td><td>—</td><td>A/W</td></tr>
+    <tr><td>Optical return loss</td><td>ORL</td><td>Optical interface, high return loss configuration</td><td>27</td><td>30</td><td>—</td><td>dB</td></tr>
+    <tr><td>Dark current</td><td>ID</td><td>VR = 5 V, Ta = 25 °C</td><td>—</td><td>0.5</td><td>2.0</td><td>nA</td></tr>
+    <tr><td>Junction capacitance</td><td>Cj</td><td>VR = 5 V, f = 1 MHz</td><td>—</td><td>0.30</td><td>0.60</td><td>pF</td></tr>
+    <tr><td>3 dB bandwidth</td><td>f3dB</td><td>RL = 50 Ω, VR = 5 V</td><td>1.0</td><td>2.5</td><td>—</td><td>GHz</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Logistics M2M Application Platform Management – Business Information Maintenance Test Cases</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Module</th><th>Sub-item</th><th>Test Objective</th><th>Precondition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>6.2.1.1</td><td>Application Platform Management</td><td>Platform Business Info Maintenance – Create</td><td>Verify creating a new business profile and persisting fields correctly</td><td>Admin user logged in</td></tr>
+    <tr><td>6.2.1.2</td><td>Application Platform Management</td><td>Platform Business Info Maintenance – Edit</td><td>Verify editing business profile updates are reflected across UI and API</td><td>Existing business profile</td></tr>
+    <tr><td>6.2.1.3</td><td>Application Platform Management</td><td>Platform Business Info Maintenance – Delete</td><td>Verify deletion rules and cascading behavior for linked resources</td><td>Profile not referenced by active contracts</td></tr>
+    <tr><td>6.2.1.4</td><td>Application Platform Management</td><td>Platform Business Info Maintenance – Import</td><td>Verify bulk import with CSV template, validation and error reporting</td><td>Valid CSV prepared</td></tr>
+    <tr><td>6.2.1.5</td><td>Application Platform Management</td><td>Platform Business Info Maintenance – Export</td><td>Verify export generates correct file with expected columns and encoding</td><td>At least 10 records exist</td></tr>
+    <tr><td>6.2.1.6</td><td>Application Platform Management</td><td>Platform Business Info Maintenance – Permission Control</td><td>Verify role-based access restricts create/edit/delete operations</td><td>Roles configured</td></tr>
+    <tr><td>6.2.1.7</td><td>Application Platform Management</td><td>Platform Business Info Maintenance – Audit Trail</td><td>Verify audit logs record actor, timestamp and changes for operations</td><td>Audit logging enabled</td></tr>
+  </tbody>
+</table>

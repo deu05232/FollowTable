@@ -1,0 +1,7 @@
+<table>
+  <caption>Trackable Object Anchor Set Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>trackable</td><td>ArTrackable *</td><td>Trackable object pointer</td></tr>
+  <tr><td>out_anchor_list</td><td>ArAnchorList *</td><td>Anchor list pointer</td></tr>
+</table>

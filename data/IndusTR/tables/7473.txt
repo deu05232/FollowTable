@@ -1,0 +1,22 @@
+<table>
+  <caption>Vehicle Cooperative Driving Intent Message Data Dictionary (Per Vehicle)</caption>
+  <thead>
+    <tr><th>Category</th><th>Data Item</th><th>Meaning</th><th>Example</th><th>Mandatory</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Vehicle Locator</td><td>VehicleID</td><td>Identifier of the vehicle to which the intent applies</td><td>tmp-veh-83A19</td><td>Yes</td></tr>
+    <tr><td>ReferencePoint</td><td>Reference point on vehicle body used for positioning (e.g., rear axle center)</td><td>rearAxleCenter</td><td>No</td></tr>
+    <tr><td>Latitude</td><td>Vehicle latitude (WGS-84)</td><td>31.2304</td><td>Yes</td></tr>
+    <tr><td>Longitude</td><td>Vehicle longitude (WGS-84)</td><td>121.4737</td><td>Yes</td></tr>
+    <tr><td rowspan="3">Time</td><td>EventTimestamp</td><td>Time when the intent becomes valid</td><td>1700000123456</td><td>Yes</td></tr>
+    <tr><td>ExpiryTime</td><td>Time after which the intent should be ignored</td><td>1700000124456</td><td>No</td></tr>
+    <tr><td>SequenceNumber</td><td>Monotonic counter to order messages with same VehicleID</td><td>1042</td><td>No</td></tr>
+    <tr><td rowspan="5">Cooperative Intent</td><td>ManeuverType</td><td>Planned maneuver (laneChange, merge, brake, platoonJoin, platoonLeave)</td><td>laneChange</td><td>Yes</td></tr>
+    <tr><td>TargetLaneIndex</td><td>Target lane number relative to current road section</td><td>2</td><td>No</td></tr>
+    <tr><td>TargetSpeed</td><td>Desired speed during/after maneuver</td><td>22.0</td><td>No</td></tr>
+    <tr><td>PlannedTrajectoryPolyline</td><td>Short-horizon predicted path as ordered points</td><td>(lat,lon)x5</td><td>No</td></tr>
+    <tr><td>PriorityLevel</td><td>Urgency / priority for coordination</td><td>high</td><td>No</td></tr>
+    <tr><td rowspan="2">Safety</td><td>MinimumGap</td><td>Requested minimum longitudinal gap to other vehicles</td><td>15</td><td>No</td></tr>
+    <tr><td>Confidence</td><td>Confidence of intent estimation/announcement</td><td>0.85</td><td>No</td></tr>
+  </tbody>
+</table>

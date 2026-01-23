@@ -1,0 +1,15 @@
+<table>
+  <caption>CSDM — Catalog-Style Model Sections with a Small Operation Snippet (Not Operation-Centric)</caption>
+  <thead>
+    <tr><th>Model Area</th><th>Element</th><th>English Name</th><th>Purpose</th><th>Contains Operation-Level Fields?</th><th>Example Fields</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Basic Information</td><td>Service Metadata</td><td>BasicInformation</td><td>High-level service identification and lifecycle metadata.</td><td>No</td><td>serviceCategory, keywords, version, registrationDate</td></tr>
+    <tr><td>Service Function</td><td>Functional Description</td><td>ServiceFunction</td><td>Describes what the service does and expected outcomes.</td><td>No</td><td>functionDescription, precondition, result</td></tr>
+    <tr><td>Service Provider</td><td>Provider Profile</td><td>ServiceProvider</td><td>Administrative/provider identity information.</td><td>No</td><td>providerName, unifiedSocialCreditCode, contact</td></tr>
+    <tr><td>Interface Definition</td><td>Interface & Operations</td><td>InterfaceDefinition</td><td>Defines callable interfaces and operations.</td><td>Partially</td><td>interfaceName, operationName</td></tr>
+    <tr><td>Consumer Management</td><td>Consumer Restrictions</td><td>ConsumerPolicy</td><td>Specifies who is allowed to consume the service.</td><td>No</td><td>restrictionOnConsumer, allowedConsumerType</td></tr>
+    <tr><td>Service Quality</td><td>Quality Statement</td><td>ServiceQuality</td><td>States how quality is measured and claimed.</td><td>No</td><td>declaration, availabilityTarget</td></tr>
+    <tr><td>Messaging</td><td>Message Schema</td><td>MessageDefinition</td><td>Defines message names and parameters used by operations.</td><td>Indirect</td><td>messageName, parameterName, parameterType</td></tr>
+  </tbody>
+</table>

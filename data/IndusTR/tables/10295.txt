@@ -1,0 +1,16 @@
+<table>
+  <caption>Casting Structural Design Specification: Recommended vs Not Recommended (Wall Transitions & Stress Concentrations)</caption>
+  <thead>
+    <tr><th>Design topic</th><th>Recommended (Proper)</th><th>Not recommended (Improper)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Wall thickness change</td><td>Use gradual transitions (taper/step with fillet) between thick and thin sections</td><td>Sudden thickness jumps with a sharp step</td></tr>
+    <tr><td>Corner treatment</td><td>Provide generous fillet radii at internal and external corners</td><td>Sharp corners (zero/small radius)</td></tr>
+    <tr><td>Junction of ribs and walls</td><td>Blend ribs into walls with fillets; keep rib root smooth</td><td>Rib terminates with an abrupt, sharp root</td></tr>
+    <tr><td>Intersection of multiple walls (T/X junction)</td><td>Core out intersections or add relief so the node is not overly thick</td><td>Solid, bulky nodes where several walls meet (hot spot)</td></tr>
+    <tr><td>Boss-to-wall connection</td><td>Connect bosses with radiused webs or gussets; avoid isolated thick bosses</td><td>Boss sits on a thin wall with no blending (local hot spot)</td></tr>
+    <tr><td>Long thin walls</td><td>Add ribs/gussets with smooth transitions to control distortion</td><td>Leave long spans unsupported (warpage risk)</td></tr>
+    <tr><td>Openings near corners</td><td>Keep holes/slots away from high-stress corners; add edge distance and fillets</td><td>Place openings close to corners or edges, creating stress risers</td></tr>
+    <tr><td>Symmetry for solidification</td><td>Design for uniform section and balanced mass distribution</td><td>Highly asymmetric mass distribution causing uneven cooling</td></tr>
+  </tbody>
+</table>

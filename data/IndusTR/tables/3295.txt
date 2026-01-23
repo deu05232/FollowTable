@@ -1,0 +1,10 @@
+<table>
+  <caption>Test Environment Requirements for EVSE Communication Conformance (Lab Setup)</caption>
+  <tr><th>Test Item</th><th>Condition</th><th>Minimum</th><th>Maximum</th><th>Unit</th><th>Remarks</th></tr>
+  <tr><td>Ambient Temperature</td><td>Steady-state</td><td>20</td><td>30</td><td>°C</td><td>Measured near DUT</td></tr>
+  <tr><td>Relative Humidity</td><td>Non-condensing</td><td>30</td><td>75</td><td>%RH</td><td>Per lab policy</td></tr>
+  <tr><td>DC Supply Ripple</td><td>At 400 V bus</td><td>0</td><td>2.0</td><td>%</td><td>Peak-to-peak</td></tr>
+  <tr><td>Ground Resistance</td><td>Protective earth</td><td>—</td><td>0.1</td><td>Ω</td><td>Measured at PE point</td></tr>
+  <tr><td>EMI Background</td><td>150 kHz–30 MHz</td><td>—</td><td>-60</td><td>dBm</td><td>Receiver noise floor</td></tr>
+  <tr><td>Network Load</td><td>CAN bus utilization</td><td>0</td><td>35</td><td>%</td><td>Simulated nodes</td></tr>
+</table>

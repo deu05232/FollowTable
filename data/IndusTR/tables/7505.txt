@@ -1,0 +1,16 @@
+<table>
+  <caption>Evaporation Conversion Coefficient with Vegetation Coverage Classes (Composite Parameter Table)</caption>
+  <thead>
+    <tr><th rowspan="2">Ecosystem type</th><th rowspan="2">Vegetation coverage class (%)</th><th colspan="2">Evaporation Conversion</th><th rowspan="2">Coverage adjustment factor (kv)</th></tr>
+    <tr><th>Base water-surface coefficient (Ce)</th><th>Adjusted coefficient (Ce×kv)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Forest</td><td>(0,10]</td><td>0.62</td><td>0.56</td><td>0.90</td></tr>
+    <tr><td>Forest</td><td>(10,30]</td><td>0.62</td><td>0.53</td><td>0.85</td></tr>
+    <tr><td>Forest</td><td>(30,50]</td><td>0.62</td><td>0.47</td><td>0.75</td></tr>
+    <tr><td>Shrubland</td><td>(0,10]</td><td>0.62</td><td>0.50</td><td>0.80</td></tr>
+    <tr><td>Shrubland</td><td>(10,30]</td><td>0.62</td><td>0.43</td><td>0.70</td></tr>
+    <tr><td>Grassland</td><td>(30,50]</td><td>0.62</td><td>0.40</td><td>0.65</td></tr>
+    <tr><td>Wetland</td><td>(50,70]</td><td>0.62</td><td>0.58</td><td>0.94</td></tr>
+  </tbody>
+</table>

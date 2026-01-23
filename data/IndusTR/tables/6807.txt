@@ -1,0 +1,15 @@
+<table>
+  <caption>Business Area — Port Handling and Transshipment Operations (Tracking Changes as a Side Effect)</caption>
+  <thead>
+    <tr><th>Category</th><th>Operational Step</th><th>Responsible Party</th><th>Information Produced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Planning</td><td>Create handling and yard plan</td><td>Terminal Operator</td><td>Stowage plan, yard location, handling sequence</td></tr>
+    <tr><td>Schedule equipment and labor</td><td>Terminal Operator</td><td>Resource schedule, work orders</td></tr>
+    <tr><td rowspan="2">Execution</td><td>Receive cargo at gate / verify manifest</td><td>Terminal + Trucking</td><td>Gate-in record, manifest verification notes</td></tr>
+    <tr><td>Load/unload and transship containers</td><td>Terminal Operator + Carrier</td><td>Handling timestamps, crane moves, interchange record</td></tr>
+    <tr><td>Control</td><td>Conduct inspection hold/release actions</td><td>Port Authority / Customs</td><td>Inspection status, hold/release flags</td></tr>
+    <tr><td>Completion</td><td>Notify completion of handling operations</td><td>Terminal Operator</td><td>Completion report, berth departure readiness</td></tr>
+    <tr><td>Tracking Relationship</td><td colspan="3">Tracking history changes as operations start/end, but this table focuses on port handling activities rather than distribution/provision of tracking data.</td></tr>
+  </tbody>
+</table>

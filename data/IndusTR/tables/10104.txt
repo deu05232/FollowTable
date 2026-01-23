@@ -1,0 +1,14 @@
+<table>
+  <caption>Positioning Device Interfaces and Call Semantics (VR Positioning Module)</caption>
+  <thead>
+    <tr><th>Interface Name</th><th>Purpose</th><th>Key Parameters</th><th>Return / Output</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>bool vrDeviceEnumeratePositioningNodes(vrPositionableDevice** out_list, int32_t* out_count)</td><td>Enumerate all positionable nodes available to the runtime.</td><td>out_list(array),out_count(size)</td><td>trueon success; fillsout_listandout_count</td><td>Caller must free the returned list using the matching release call.</td></tr>
+    <tr><td>bool vrDeviceGetNodePose(const vrPositionableDevice* device, vrPose* out_pose)</td><td>Fetch latest pose for a single node.</td><td>device,out_pose</td><td>trueif pose is valid; writes pose intoout_pose</td><td>If tracking is lost, returnsfalseand leaves pose unchanged.</td></tr>
+    <tr><td>bool vrDeviceGetNodeMotion(const vrPositionableDevice* device, vrMotionData* out_motion)</td><td>Fetch linear/angular velocities and accelerations.</td><td>device,out_motion</td><td>trueon success; writes motion data</td><td>Velocity is in m/s; angular velocity in rad/s.</td></tr>
+    <tr><td>bool vrDeviceSetControllerPositioningMode(vrPositionableDevice* device, vrControllerPositioningMode mode)</td><td>Switch controller positioning mode (e.g., 3DoF/6DoF).</td><td>device,mode</td><td>trueif mode was applied</td><td>May fail if the hardware does not support the requested mode.</td></tr>
+    <tr><td>bool vrDeviceGetTrackingStatus(const vrPositionableDevice* device, int32_t* out_flags)</td><td>Query tracking status bitfield for a node.</td><td>device,out_flags</td><td>trueon success; writes bitflags</td><td>Flags are implementation-defined; check the tracking-status enum table.</td></tr>
+    <tr><td>void vrDeviceReleasePositioningNodes(vrPositionableDevice* list)</td><td>Release list returned by enumeration call.</td><td>list</td><td>null</td><td>Must be called to avoid memory leak.</td></tr>
+  </tbody>
+</table>

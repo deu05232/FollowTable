@@ -1,0 +1,17 @@
+<table>
+  <caption>Alarm Device Test Requirements by Environmental Class (Single-Class Presentation: Class I Only)</caption>
+  <tr><th rowspan="2">Device Type</th><th rowspan="2">Test Item</th><th colspan="2">Environmental Category</th></tr>
+  <tr><th>Class I</th><th>Notes</th></tr>
+  <tr><td rowspan="6">Fixed gas detection and alarm device</td><td>High temperature operation</td><td>40°C, 16 h</td><td>Operate continuously</td></tr>
+  <tr><td>Low temperature operation</td><td>5°C, 16 h</td><td>Functional check after exposure</td></tr>
+  <tr><td>Damp heat (steady state)</td><td>40°C, 93%RH, 48 h</td><td>No false alarm allowed</td></tr>
+  <tr><td>Vibration (sinusoidal)</td><td>10–150 Hz, 2 m/s²</td><td>Three axes, 30 min/axis</td></tr>
+  <tr><td>Shock</td><td>6 ms, 30 g</td><td>3 shocks/axis</td></tr>
+  <tr><td>Ingress protection verification</td><td>IP54</td><td>Post-test calibration permitted</td></tr>
+  <tr><td rowspan="6">Portable gas detection and alarm device</td><td>High temperature operation</td><td>40°C, 8 h</td><td>Battery installed</td></tr>
+  <tr><td>Low temperature operation</td><td>5°C, 8 h</td><td>Alarm threshold check</td></tr>
+  <tr><td>Damp heat (steady state)</td><td>40°C, 93%RH, 24 h</td><td>No display blackout</td></tr>
+  <tr><td>Vibration (sinusoidal)</td><td>10–150 Hz, 2 m/s²</td><td>Three axes, 10 min/axis</td></tr>
+  <tr><td>Drop test</td><td>1.0 m onto steel plate</td><td>3 orientations</td></tr>
+  <tr><td>Electrostatic discharge</td><td>±4 kV contact, ±8 kV air</td><td>Recovery within 5 s</td></tr>
+</table>

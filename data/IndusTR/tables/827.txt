@@ -1,0 +1,25 @@
+<table>
+  <caption>Knitting Equipment Production Shift Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0A00</td><td>Shift Number</td><td>ShiftNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>二</td><td>1</td><td>1</td><td>/</td></tr>
+  <tr><td>0X0A01</td><td>Shift ID Number</td><td>ShiftIDNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0A02</td><td>Production Order Number</td><td>ProductionOrderNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>一</td><td>1</td><td>一</td><td></td></tr>
+  <tr><td>0X0A03</td><td>Production Product Number</td><td>ProductNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td>一</td><td></td><td></td></tr>
+  <tr><td>0X0A04</td><td>Production Product Process Number</td><td>ProductProcessNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0A05</td><td>Production Product Process File Name Number</td><td>ProductionProcessFileNameNumber</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0A06</td><td>Current Shift Target</td><td>ShiftTarget</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0A07</td><td>Shift Output</td><td>ShiftOutput</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td>pcs or kg</td><td>Cleared to 0 when changing shifts, total quantity for multiple item numbers in one shift</td><td></td></tr>
+  <tr><td>0X0A08</td><td>Shift Time</td><td>ShiftProduceTime</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td>min</td><td>Shift duration of the equipment production task</td><td></td></tr>
+  <tr><td>0X0A09</td><td>Shift Production Time</td><td>ShiftProduceTime</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td>min</td><td>Describes the shift production duration of the equipment production task</td><td></td></tr>
+  <tr><td>0X0A0A</td><td>Shift Down Time</td><td>ShiftDownTime</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>一</td><td>min</td><td>Describes the shift down time duration of the equipment</td><td></td></tr>
+  <tr><td>OX0AOB</td><td>Set Output</td><td>SetUpOrder</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td></td><td>Current completed output reaches the target set output</td><td></td></tr>
+  <tr><td>0X0A0C</td><td>Current Completed Quantity</td><td>CurrKnittingPieces</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td></td><td>Output completed by the current equipment knitting</td><td></td></tr>
+  <tr><td>0X0A0D</td><td>Completion Time</td><td>KnittingTime</td><td>0</td><td>VAR</td><td>RO</td><td>Date-Time</td><td></td><td></td><td>Time when the current output is completed</td><td></td></tr>
+  <tr><td>OX0A0E</td><td>Total Down Time</td><td>TotalDownTime</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td>min</td><td>Total stop time for all shifts</td><td></td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>OX0A0F</td><td>Total Running Time</td><td>TotalRunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td></td><td>min</td><td>Total working time for all shifts</td><td></td></tr>
+  <tr><td>0X0A10</td><td>Repair Card SN</td><td>RepairCardSN</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td></td><td></td><td>1</td></tr>
+  <tr><td>0X0A11</td><td>Repair Card Time</td><td>RepairCardTime</td><td>0</td><td>VAR</td><td>RO</td><td>Date-Time</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0A12</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

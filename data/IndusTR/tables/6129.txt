@@ -1,0 +1,18 @@
+<table>
+  <caption>Camera/Device Deployment and Capture Context Data Items</caption>
+  <thead>
+    <tr><th>Level</th><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Device Identification</td><td>1</td><td>Camera Identifier</td><td>sxjbz</td><td>c20</td><td>Unique camera code used by the access/control system; should follow the applicable coding rules.</td><td>E.01</td></tr>
+    <tr><td>Device Identification</td><td>2</td><td>Camera Name</td><td>sxjmc</td><td>c..100</td><td>Human-readable device name.</td><td></td></tr>
+    <tr><td>Deployment Location</td><td>3</td><td>Installation Location Type Code</td><td>azddwzlxdm</td><td>c3..7</td><td>Category of the installation place (e.g., roadside, indoor corridor); should comply with the location-type code set.</td><td>D.09</td></tr>
+    <tr><td>Deployment Location</td><td>4</td><td>Installation Location Administrative Division Code</td><td>azddxzqhdm</td><td>c6</td><td>Administrative division code (GB/T 2260) for the installation address.</td><td></td></tr>
+    <tr><td>Deployment Location</td><td>5</td><td>Installation Address</td><td>azddxxdz</td><td>c..200</td><td>Detailed textual address of the installed device.</td><td></td></tr>
+    <tr><td>Deployment Location</td><td>6</td><td>Installation Longitude</td><td>azjd</td><td>n(10,6)</td><td>Longitude of installation position.</td><td></td></tr>
+    <tr><td>Deployment Location</td><td>7</td><td>Installation Latitude</td><td>azwd</td><td>n(10,6)</td><td>Latitude of installation position.</td><td></td></tr>
+    <tr><td>Capture/Collection Context</td><td>8</td><td>Stream Access Mode Code</td><td>lqmsdm</td><td>c1</td><td>How the stream is accessed/collected (e.g., live pull, push, file export).</td><td>D.16</td></tr>
+    <tr><td>Capture/Collection Context</td><td>9</td><td>First Frame Timestamp</td><td>sczsj</td><td>d18</td><td>Timestamp of the first frame in the provided video segment/image set.</td><td></td></tr>
+    <tr><td>Capture/Collection Context</td><td>10</td><td>Last Frame Timestamp</td><td>mzzsj</td><td>d18</td><td>Timestamp of the last frame in the provided video segment.</td><td></td></tr>
+  </tbody>
+</table>

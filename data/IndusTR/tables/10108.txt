@@ -1,0 +1,8 @@
+<table>
+  <caption>VR positioning data type APIs overview (signatures and usage)</caption>
+  <tr><th>What you can do</th><th>Call signature</th><th>Notes</th></tr>
+  <tr><td>Create a pose object from raw parts</td><td>bool vrPoseCreate(vrPose *out_pose, const vrQuaternion *q, const vr3DPoint *p)</td><td>Returns false on invalid pointers</td></tr>
+  <tr><td>Convert a pose into a matrix</td><td>bool vrPoseToMatrix(const vrPose *pose, double out_m44[16])</td><td>Row-major output</td></tr>
+  <tr><td>Fetch latest motion sample</td><td>bool vrDeviceGetLatestMotion(const vrPositionableDevice *device, vrMotionData *motion)</td><td>Time is device-dependent</td></tr>
+  <tr><td>Check whether relocalization is supported</td><td>bool vrHMDIsRelocalizationSupported(vrHMDRelocalizationMode mode)</td><td>Mode-dependent behavior</td></tr>
+</table>

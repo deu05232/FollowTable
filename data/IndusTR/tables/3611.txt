@@ -1,0 +1,19 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type 4 Parameter Definition</caption>
+  <tr><td>Field</td><td>Name</td><td>Length/bit</td><td>Scale factor</td><td>Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>MesTypeID</td><td>Message type</td><td>6</td><td>1</td><td>0~63</td><td></td><td>See Table 5</td></tr>
+  <tr><td>Epoch time</td><td>Epoch time</td><td>17</td><td>1</td><td>0~86399</td><td>S</td><td>BeiDou time seconds-of-day count</td></tr>
+  <tr><td>Reserved bits</td><td>Reserved bits</td><td>4</td><td>1</td><td>0~15</td><td></td><td></td></tr>
+  <tr><td>IOD SSR</td><td>SSR issue of data</td><td>2</td><td>1</td><td>0~3</td><td></td><td>Changes when system configuration changes</td></tr>
+  <tr><td>IODP</td><td>Mask issue of data</td><td>4</td><td>1</td><td>0~15</td><td></td><td>Mask issue of data</td></tr>
+  <tr><td>SubType1</td><td>Subtype identifier 1</td><td>5</td><td>1</td><td>0~31</td><td></td><td>Indicates the correspondence between satellites and the mask</td></tr>
+  <tr><td rowspan="2">Satellite 1 clock correction</td><td>IOD Corr</td><td>3</td><td>1</td><td>0~7</td><td></td><td>Correction issue of data</td></tr>
+  <tr><td>C0</td><td>15*</td><td>0.0016</td><td>±26.212 8</td><td>m</td><td>Values outside the valid range are invalid</td></tr>
+  <tr><td>Satellite 2 clock correction</td><td></td><td>18</td><td></td><td></td><td></td><td>Clock correction of the second satellite in this type</td></tr>
+  <tr><td>Satellite 3 clock correction</td><td></td><td>18</td><td></td><td></td><td></td><td>Clock correction of the third satellite in this type</td></tr>
+  <tr><td>…</td><td>·</td><td>18</td><td></td><td></td><td></td><td>:</td></tr>
+  <tr><td>Satellite 23 clock correction</td><td></td><td>18</td><td></td><td></td><td></td><td>Clock correction of the 23rd satellite in this type</td></tr>
+  <tr><td>Reserved bits</td><td>Reserved bits</td><td>10</td><td></td><td></td><td></td><td>Reserved bits</td></tr>
+  <tr><td>CRC</td><td>Check bits</td><td>24</td><td></td><td></td><td>一</td><td>一</td></tr>
+  <tr><td colspan="7">Note: * indicates two's complement.</td></tr>
+</table>

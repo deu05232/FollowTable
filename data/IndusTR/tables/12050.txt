@@ -1,0 +1,16 @@
+<table>
+  <caption>Service Tools and Spare Parts Consumption Fields (Per Work Order)</caption>
+  <thead>
+    <tr><th>Category</th><th>No.</th><th>Field</th><th>Definition</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Tools</td><td>1</td><td>tool_equipment_name</td><td>Name of the tool/equipment required to perform the service task.</td><td>-</td></tr>
+    <tr><td>2</td><td>tool_quantity_required</td><td>Number of tools required for the task.</td><td>pcs</td></tr>
+    <tr><td>3</td><td>tool_calibration_due_date</td><td>Date by which the tool must be calibrated to be eligible for use.</td><td>date</td></tr>
+    <tr><td>4</td><td>tool_identifier</td><td>Asset tag or identifier for the tool used on the job.</td><td>-</td></tr>
+    <tr><td rowspan="4">Spare Parts</td><td>5</td><td>spare_part_name</td><td>Name of the spare part consumed during service.</td><td>-</td></tr>
+    <tr><td>6</td><td>spare_part_quantity_used</td><td>Quantity of the spare part consumed for the work order.</td><td>pcs</td></tr>
+    <tr><td>7</td><td>spare_part_lot_number</td><td>Lot/batch number for traceability of the spare part used.</td><td>-</td></tr>
+    <tr><td>8</td><td>spare_part_replacement_reason</td><td>Reason code explaining why the spare part was replaced.</td><td>-</td></tr>
+  </tbody>
+</table>

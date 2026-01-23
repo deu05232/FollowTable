@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Setup Call Signatures (Names and Types Only)</caption>
+  <thead>
+    <tr><th>API Call</th><th>Argument Identifier</th><th>C/C++ Type</th><th>Direction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_create</td><td>env</td><td>void*</td><td>in</td></tr>
+    <tr><td>ArSession_create</td><td>context</td><td>void*</td><td>in</td></tr>
+    <tr><td>ArSession_create</td><td>outSession</td><td>ArSession**</td><td>out</td></tr>
+    <tr><td>ArSession_configure</td><td>session</td><td>ArSession*</td><td>in</td></tr>
+    <tr><td>ArSession_configure</td><td>config</td><td>ArConfig*</td><td>in</td></tr>
+    <tr><td>ArSession_getConfig</td><td>session</td><td>ArSession*</td><td>in</td></tr>
+    <tr><td>ArSession_getConfig</td><td>outConfig</td><td>ArConfig*</td><td>out</td></tr>
+    <tr><td>ArSession_destroy</td><td>session</td><td>ArSession*</td><td>in</td></tr>
+  </tbody>
+</table>

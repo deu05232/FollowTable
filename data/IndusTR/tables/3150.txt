@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 (Hospital Building) Energy Service Interface Definitions (Cross-Domain Homonym)</caption>
+  <thead>
+    <tr><th>Interface Name</th><th>Endpoint</th><th>Method</th><th>Parameter</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SM9_GetWardMeter</td><td>/sm9/ward/meter</td><td>GET</td><td>wardId</td><td>string</td><td>Query energy meter readings for a ward</td></tr>
+    <tr><td>SM9_PostHVACSchedule</td><td>/sm9/hvac/schedule</td><td>POST</td><td>payload</td><td>json</td><td>Submit HVAC schedule for the next 24 hours</td></tr>
+    <tr><td>SM9_GetPeakDemand</td><td>/sm9/demand/peak</td><td>GET</td><td>date</td><td>string</td><td>Get daily peak demand</td></tr>
+    <tr><td>SM9_PutLightingMode</td><td>/sm9/lighting/mode</td><td>PUT</td><td>mode</td><td>string</td><td>Set lighting control mode</td></tr>
+    <tr><td>SM9_GetAlarmList</td><td>/sm9/alarm/list</td><td>GET</td><td>level</td><td>int</td><td>List energy system alarms</td></tr>
+    <tr><td>SM9_DeleteTempOverride</td><td>/sm9/override</td><td>DELETE</td><td>overrideId</td><td>string</td><td>Remove temporary override</td></tr>
+  </tbody>
+</table>

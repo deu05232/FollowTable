@@ -1,0 +1,10 @@
+<table>
+  <caption>CI CD Pipeline Steps for Publishing Service Descriptions</caption>
+  <tr><th>Step</th><th>Tool</th><th>Input Artifact</th><th>Key Checks</th><th>Output</th><th>Owner</th></tr>
+  <tr><td>1. Lint</td><td>spectral</td><td>openapi.yaml</td><td>Style rules, naming</td><td>Lint report</td><td>Dev</td></tr>
+  <tr><td>2. Unit Test</td><td>pytest</td><td>service-sdk</td><td>Coverage > 80%</td><td>Test report</td><td>Dev</td></tr>
+  <tr><td>3. Security Scan</td><td>trivy</td><td>container image</td><td>Critical CVEs = 0</td><td>SBOM</td><td>SecOps</td></tr>
+  <tr><td>4. Package</td><td>docker</td><td>source</td><td>Signed image</td><td>Image tag</td><td>DevOps</td></tr>
+  <tr><td>5. Deploy</td><td>helm</td><td>chart</td><td>Smoke tests</td><td>Running service</td><td>DevOps</td></tr>
+  <tr><td>6. Register</td><td>registry-cli</td><td>metadata.json</td><td>Schema validation</td><td>Service registered</td><td>Platform</td></tr>
+</table>

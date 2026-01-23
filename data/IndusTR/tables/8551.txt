@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Node and Tracking States (Non-AR_ Prefix Style)</caption>
+  <thead>
+    <tr><th>Enum Type</th><th>Constant</th><th>Assigned Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">ARNodeType</td><td>ARNODE_TYPE_UNKNOWN</td><td>-1</td><td>Invalid node type</td></tr>
+    <tr><td>ARNODE_TYPE_PLANE</td><td>1</td><td>Plane node type</td></tr>
+    <tr><td>ARNODE_TYPE_IMAGE</td><td>2</td><td>Image node type</td></tr>
+    <tr><td>ARNODE_TYPE_FACE</td><td>3</td><td>Face node type</td></tr>
+    <tr><td rowspan="4">ARTrackingState</td><td>ARTRACKING_STATE_SUCCESS</td><td>0</td><td>Normal tracking state</td></tr>
+    <tr><td>ARTRACKING_STATE_LOST</td><td>1</td><td>Tracking lost state</td></tr>
+    <tr><td>ARTRACKING_STATE_STOPPED</td><td>2</td><td>Stopped tracking state</td></tr>
+    <tr><td>ARTRACKING_STATE_RELOCALIZING</td><td>3</td><td>Relocalizing using previous map</td></tr>
+  </tbody>
+</table>

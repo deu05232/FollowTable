@@ -1,0 +1,16 @@
+<table>
+  <caption>Model parameters</caption>
+  <tr><th>Name</th><th>Value</th><th>±</th><th>Unit</th><th>Range a</th><th>Description</th></tr>
+  <tr><td>b_(0)</td><td>4.84</td><td>0.25</td><td>μ G</td><td>[0.1,20]</td><td>Magnetic field strength in plane</td></tr>
+  <tr><td>p</td><td>-11.6</td><td>3.9</td><td>^((°))</td><td>[-25,25]</td><td>Pitch angle</td></tr>
+  <tr><td>φ_(0)</td><td>-210</td><td>44</td><td>rad m ^((-2))</td><td>[-1000,+1000]</td><td>Foreground RM</td></tr>
+  <tr><td>x_(0)</td><td>70</td><td>3</td><td>pc</td><td>[0,100]</td><td>Offset in x</td></tr>
+  <tr><td>y_(0)</td><td>0</td><td></td><td>pc</td><td></td><td>Offset in y</td></tr>
+  <tr><td>z_(0)</td><td>-20</td><td></td><td>pc</td><td></td><td>Offset in z</td></tr>
+  <tr><td>n_(0)</td><td>10</td><td></td><td>cm ^((-3))</td><td></td><td>Peak of GC electron density Gaussian</td></tr>
+  <tr><td>n_()</td><td>0.019</td><td></td><td>cm ^((-3))</td><td></td><td>Electron density of disc</td></tr>
+  <tr><td>r_()</td><td>8000</td><td></td><td>pc</td><td></td><td>Distance to GC</td></tr>
+  <tr><td>w</td><td>240</td><td></td><td>pc</td><td></td><td>Horizontal FHWM</td></tr>
+  <tr><td>h</td><td>125</td><td></td><td>pc</td><td></td><td>Vertical FHWM</td></tr>
+  <tr><td>Note a: The range of parameter values allowed during the constrained nonlinear model fit. If no range is shown, the parameter is fixed.</td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>

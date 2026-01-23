@@ -1,0 +1,14 @@
+<table>
+  <caption>Traditional Mongolian Control Characters: When Used vs When Not Used (Comparison)</caption>
+  <thead>
+    <tr><th>Control Character</th><th>Display Form When Used</th><th>Sequence When Used</th><th>Display Form When Not Used</th><th>Sequence When Not Used</th><th>Rationale</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NIRUGU (U+180A)</td><td>Base + NIRUGU</td><td>[U+1820][U+180A]</td><td>Base only</td><td>[U+1820]</td><td>Optional depending on orthographic tradition</td></tr>
+    <tr><td>FVS1 (U+180B)</td><td>Letter + FVS1</td><td>[U+1820][U+180B]</td><td>Letter</td><td>[U+1820]</td><td>Selects alternate glyph form</td></tr>
+    <tr><td>FVS2 (U+180C)</td><td>Letter + FVS2</td><td>[U+1822][U+180C]</td><td>Letter</td><td>[U+1822]</td><td>Used for specific shapes in certain fonts</td></tr>
+    <tr><td>FVS3 (U+180D)</td><td>Letter + FVS3</td><td>[U+1823][U+180D]</td><td>Letter</td><td>[U+1823]</td><td>Less common; prefer normalized text</td></tr>
+    <tr><td>MVS (U+180E)</td><td>MVS + Letter</td><td>[U+180E][U+1820]</td><td>Letter</td><td>[U+1820]</td><td>Legacy; can impact rendering</td></tr>
+    <tr><td>ZWJ (U+200D)</td><td>Letter + ZWJ + Letter</td><td>[U+1820][U+200D][U+1821]</td><td>Letters directly</td><td>[U+1820][U+1821]</td><td>Use only to force joining behavior</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+# Exchange Hybrid DNS and Endpoint Records (On-Prem vs Office 365)
+
+| Record / Endpoint | On-premises-only | After Hybrid with Office 365 | Purpose |
+| --- | --- | --- | --- |
+| MX record target | mail.contoso.com | contoso-com.mail.protection.outlook.com | Mail routing |
+| Autodiscover CNAME | autodiscover.contoso.com -> mail.contoso.com | autodiscover.contoso.com -> autodiscover.outlook.com | Outlook discovery |
+| SPF (TXT) | v=spf1 ip4:198.51.100.10 -all | v=spf1 ip4:198.51.100.10 include:spf.protection.outlook.com -all | Sender validation |
+| DKIM selector1 (CNAME) | selector1._domainkey -> onprem-dkim.contoso.com | selector1._domainkey -> selector1-contoso-com._domainkey.contoso.onmicrosoft.com | DKIM signing |
+| Federation / STS host (A) | sts.contoso.com -> 203.0.113.5 | sts.contoso.com -> 203.0.113.5 | Hybrid auth/federation |
+| Hybrid mail transport FQDN | smtp.contoso.com | contoso-com.mail.protection.outlook.com | Connector TLS name |
+| EWS external URL | https://mail.contoso.com/EWS/Exchange.asmx | https://outlook.office365.com/EWS/Exchange.asmx | Cross-premises access |
+| OWA URL | https://mail.contoso.com/owa | https://outlook.office.com/owa | User web access |
+| SIP/Teams record (optional) | sip.contoso.com | sipdir.online.lync.com | Unified comms |
+| SRV for Autodiscover | _autodiscover._tcp.contoso.com 443 mail.contoso.com | _autodiscover._tcp.contoso.com 443 autodiscover.outlook.com | Fallback discovery |

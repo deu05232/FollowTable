@@ -1,0 +1,7 @@
+<table>
+  <caption>Knitting equipment run-state and speed signals (data dictionary excerpt)</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0310</td><td>Run State</td><td>RunState</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td>Current operating state of the machine</td><td>0: Stopped 1: Running 2: Paused 3: Fault</td></tr>
+  <tr><td>0X0311</td><td>Current Speed</td><td>CurrentSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~3000</td><td>rpm</td><td>Instantaneous knitting speed</td><td></td></tr>
+  <tr><td>0X0312</td><td>Last Stop Reason</td><td>LastStopReason</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td>Reason code for the most recent stop event</td><td>0: Operator stop 1: Yarn break 2: Safety door 3: Emergency stop</td></tr>
+</table>

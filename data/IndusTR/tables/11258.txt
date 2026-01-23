@@ -1,0 +1,11 @@
+<table>
+  <caption>AR Frame Interface Parameters (Mixed Outputs: Camera Image + Depth + Intrinsics)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer used to access frame resources</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Current frame handle</td></tr>
+  <tr><td>out_camera_image</td><td>ArImage **</td><td>Receives the address of the CPU-accessible camera image for the current frame</td></tr>
+  <tr><td>out_depth_image</td><td>ArImage **</td><td>Receives the address of the depth image aligned to the current camera frame</td></tr>
+  <tr><td>out_depth_confidence</td><td>ArImage **</td><td>Receives a confidence image associated with the depth output</td></tr>
+  <tr><td>out_intrinsics</td><td>ArCameraIntrinsics *</td><td>Returns camera intrinsics used for projecting depth into view space</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Receives frame timestamp in nanoseconds</td></tr>
+</table>

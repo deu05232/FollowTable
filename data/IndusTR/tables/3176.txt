@@ -1,0 +1,14 @@
+<table>
+  <caption>Self-service Interface Backend Deployment Inventory (Non-Production)</caption>
+  <thead>
+    <tr><th>Component</th><th>Host/Cluster</th><th>Environment</th><th>Version</th><th>CPU / RAM</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Portal Web</td><td>k8s-web-01</td><td>UAT</td><td>3.8.1</td><td>8 vCPU / 16 GB</td><td>Ingress enabled</td></tr>
+    <tr><td>Auth Service</td><td>k8s-auth-02</td><td>UAT</td><td>2.14.0</td><td>4 vCPU / 8 GB</td><td>OIDC provider</td></tr>
+    <tr><td>Terminal Registry</td><td>k8s-reg-01</td><td>SIT</td><td>5.2.3</td><td>8 vCPU / 32 GB</td><td>Sharded DB</td></tr>
+    <tr><td>Subscription Service</td><td>k8s-sub-01</td><td>SIT</td><td>4.1.7</td><td>4 vCPU / 16 GB</td><td>Event bus</td></tr>
+    <tr><td>API Gateway</td><td>gw-uat-01</td><td>UAT</td><td>1.29.2</td><td>2 vCPU / 4 GB</td><td>Rate limit 2k rps</td></tr>
+    <tr><td>Audit Log</td><td>elk-uat-01</td><td>UAT</td><td>7.17</td><td>6 vCPU / 24 GB</td><td>90-day retention</td></tr>
+  </tbody>
+</table>

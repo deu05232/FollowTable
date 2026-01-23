@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal I/O Statement Parameters (Addressing + Operational Controls)</caption>
+  <thead>
+    <tr><th>Field No.</th><th>Parameter</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sender ID</td><td>1–16777215</td><td></td><td>Originating terminal address (intranet user)</td></tr>
+    <tr><td>2</td><td>Recipient ID</td><td>1–16777215</td><td></td><td>Destination terminal address (intranet user)</td></tr>
+    <tr><td>3</td><td>Inbound user ID</td><td>1–16777215</td><td></td><td>Network-side inbound identity used for routing/authorization</td></tr>
+    <tr><td>4</td><td>Message sequence identifier</td><td>0–65535</td><td></td><td>Sequence number incremented per terminal submission</td></tr>
+    <tr><td>5</td><td>Service type / emergency flag</td><td>0–2</td><td></td><td>0: normal; 1: emergency SAR; 2: position report</td></tr>
+    <tr><td>6</td><td>Frequency point</td><td>0–2</td><td></td><td>0: auto; 1: Lf1; 2: Lf2</td></tr>
+    <tr><td>7</td><td>Output rate</td><td>10–3600</td><td>0.1 s</td><td>Periodic output interval</td></tr>
+  </tbody>
+</table>

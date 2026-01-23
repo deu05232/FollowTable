@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental and Safety Limits (Non-operating) for Low-Voltage Shore Power Box</caption>
+  <thead>
+    <tr><th>Category</th><th>Location / part</th><th>Limit</th><th>Measurement basis</th><th>Action if exceeded</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Temperature rise</td><td>Metal operating handle</td><td>ΔT ≤ 10 K (at 25°C ambient)</td><td>After rated-load heating</td><td>Fail type test</td></tr>
+    <tr><td>Insulated operating handle</td><td>ΔT ≤ 20 K (at 25°C ambient)</td><td>After rated-load heating</td><td>Fail type test</td></tr>
+    <tr><td>Accessible metal enclosure</td><td>ΔT ≤ 25 K (at 25°C ambient)</td><td>After rated-load heating</td><td>Fail type test</td></tr>
+    <tr><td rowspan="2">Insulation</td><td>Rated voltage Un ≤ 250 V</td><td>Minimum insulation resistance: 1 MΩ (DC test level: 2×Un)</td><td>Megohmmeter test</td><td>Rework insulation</td></tr>
+    <tr><td>250 V < Un ≤ 690 V</td><td>Minimum insulation resistance: 1 MΩ (DC test level: 500 V)</td><td>Megohmmeter test</td><td>Rework insulation</td></tr>
+    <tr><td rowspan="2">Vibration (installation)</td><td>General vibration 2.0–13.2 Hz</td><td>Displacement amplitude: ±1 mm</td><td>Sine sweep</td><td>Retighten/inspect</td></tr>
+    <tr><td>General vibration 13.2–100 Hz</td><td>Acceleration amplitude: ±6.9 m/s² (0.7 g)</td><td>Sine sweep</td><td>Retighten/inspect</td></tr>
+  </tbody>
+</table>

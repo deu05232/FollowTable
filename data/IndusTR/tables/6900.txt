@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Communication CAN Message Directory (Extended J1939 Identifier View)</caption>
+  <thead>
+    <tr><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Ext ID Format</th><th>Source Node</th><th>Destination Node</th><th>Direction</th><th>DLC (Bytes)</th><th>Cycle Time (ms)</th><th>Transport</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BCM</td><td>Battery Capability Message</td><td>1280</td><td>000500h</td><td>7</td><td>29-bit (J1939)</td><td>Vehicle/BMS</td><td>Charger</td><td>Vehicle → Charger</td><td>8</td><td>500</td><td>Single-frame</td></tr>
+    <tr><td>CTS</td><td>Charger Time Sync Message</td><td>1792</td><td>000700h</td><td>6</td><td>29-bit (J1939)</td><td>Charger</td><td>Vehicle</td><td>Charger → Vehicle</td><td>7</td><td>500</td><td>Single-frame</td></tr>
+    <tr><td>BCL</td><td>Battery Charge Request (Demand) Message</td><td>4096</td><td>001000h</td><td>6</td><td>29-bit (J1939)</td><td>Vehicle/BMS</td><td>Charger</td><td>Vehicle → Charger</td><td>5</td><td>50</td><td>Single-frame</td></tr>
+    <tr><td>BCS</td><td>Battery Charging Status Summary</td><td>4352</td><td>001100h</td><td>7</td><td>29-bit (J1939)</td><td>Vehicle/BMS</td><td>Charger</td><td>Vehicle → Charger</td><td>9</td><td>250</td><td>Multi-frame (TP if >8)</td></tr>
+    <tr><td>CCS</td><td>Charger Charging Status Summary</td><td>4608</td><td>001200h</td><td>6</td><td>29-bit (J1939)</td><td>Charger</td><td>Vehicle</td><td>Charger → Vehicle</td><td>7</td><td>50</td><td>Single-frame</td></tr>
+    <tr><td>CEM</td><td>Charger Error / Fault Message</td><td>7936</td><td>001F00h</td><td>2</td><td>29-bit (J1939)</td><td>Charger</td><td>Vehicle</td><td>Charger → Vehicle</td><td>4</td><td>250</td><td>Single-frame</td></tr>
+    <tr><td>BEM</td><td>Vehicle Error / Fault Message</td><td>7680</td><td>001E00h</td><td>2</td><td>29-bit (J1939)</td><td>Vehicle/BMS</td><td>Charger</td><td>Vehicle → Charger</td><td>4</td><td>250</td><td>Single-frame</td></tr>
+  </tbody>
+</table>

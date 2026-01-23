@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental Reliability Test Requirements for Beidou Monitoring Terminal</caption>
+  <thead>
+    <tr><th>Test item</th><th>State</th><th>Parameter</th><th>Test level / setting</th><th>Duration / cycles</th><th>Acceptance criteria (pass/fail)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">High-temperature test</td><td>Operating (powered on)</td><td>Chamber temperature</td><td>+60 °C</td><td>8 h dwell (after stabilization)</td><td rowspan="2">No reset or abnormal shutdown during exposure; after recovery at 23 °C for 2 h, the terminal shall power up and function normally; no deformation, cracking, or loose parts.</td></tr>
+    <tr><td>Storage (powered off)</td><td>Chamber temperature</td><td>+70 °C</td><td>16 h dwell</td></tr>
+    <tr><td rowspan="2">Damp heat (steady-state humidity)</td><td>Operating (powered on)</td><td>Temperature / RH</td><td>+40 °C / 93% RH</td><td>48 h</td><td rowspan="2">No visible corrosion affecting connectors/enclosure; insulation degradation shall not cause malfunction; after test, the unit shall pass functional check with no intermittent faults.</td></tr>
+    <tr><td>Storage (powered off)</td><td>Temperature / RH</td><td>+40 °C / 93% RH</td><td>96 h</td></tr>
+    <tr><td rowspan="2">Temperature cycling</td><td>Storage (powered off)</td><td>Low/High limits</td><td>-30 °C ↔ +65 °C</td><td>10 cycles; dwell ≥ 1 h at each extreme; transition ≤ 5 °C/min</td><td rowspan="2">No enclosure cracking, seal failure, or fastener loosening; after cycling and 2 h recovery at room temperature, terminal shall operate normally.</td></tr>
+    <tr><td>Operating check</td><td>Power-on verification</td><td>Powered on at +23 °C</td><td>Functional check immediately after recovery</td><td>All indicators and I/O shall behave normally; no unexpected reboot during 1 h continuous operation.</td></tr>
+    <tr><td>Low air pressure (altitude)</td><td>Storage (powered off)</td><td>Equivalent altitude</td><td>5,000 m (≈54 kPa)</td><td>2 h</td><td>No mechanical deformation; after returning to normal pressure, terminal shall pass functional check.</td></tr>
+  </tbody>
+</table>

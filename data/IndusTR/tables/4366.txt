@@ -1,0 +1,9 @@
+<table>
+  <caption>Hardware Device Event Management Interfaces</caption>
+  <tr><td>Interface Name</td><td>English Name</td><td>Mandatory/Optional</td><td>Interface Description</td></tr>
+  <tr><td>Create a device event object</td><td>create_event</td><td>Mandatory</td><td>Create a device event object</td></tr>
+  <tr><td>Destroy a device event object</td><td>destroy_event</td><td>Mandatory</td><td>Destroy a device event object</td></tr>
+  <tr><td>Record an event on the device stream</td><td>record_event</td><td>Mandatory</td><td>Record an event on the device stream</td></tr>
+  <tr><td>Query whether the event is complete</td><td>query_event</td><td>Optional</td><td>Query whether the device event is complete</td></tr>
+  <tr><td>Synchronize a device event</td><td>synchronize_event</td><td>Mandatory</td><td>Block until the device event completes</td></tr>
+</table>

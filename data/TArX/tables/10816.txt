@@ -1,0 +1,18 @@
+<table>
+  <caption>Nuclear Reaction Rate Sensitivity Matrix for Big-Bang Nucleosynthesis Yields</caption>
+  <thead>
+    <tr><th rowspan="2">Reaction / Parameter</th><th colspan="5">Sensitivity: ∂lnY / ∂lnX</th></tr>
+    <tr><th>D</th><th>^3He</th><th>^4He (Y_p)</th><th>^7Li</th><th>^7Be</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>n → p (neutron lifetime τ_n)</th><td>0.40</td><td>0.12</td><td>0.73</td><td>1.35</td><td>0.28</td></tr>
+    <tr><th>p(n,γ)D</th><td>-0.32</td><td>-0.10</td><td>0.02</td><td>-0.08</td><td>-0.05</td></tr>
+    <tr><th>D(p,γ)^3He</th><td>-0.55</td><td>0.60</td><td>0.01</td><td>0.15</td><td>0.10</td></tr>
+    <tr><th>D(d,n)^3He</th><td>-0.20</td><td>0.25</td><td>0.00</td><td>0.05</td><td>0.02</td></tr>
+    <tr><th>D(d,p)T</th><td>-0.18</td><td>0.22</td><td>0.00</td><td>0.04</td><td>0.02</td></tr>
+    <tr><th>^3He(α,γ)^7Be</th><td>0.01</td><td>0.05</td><td>0.00</td><td>0.80</td><td>1.10</td></tr>
+    <tr><th>T(α,γ)^7Li</th><td>0.00</td><td>0.02</td><td>0.00</td><td>0.65</td><td>0.00</td></tr>
+    <tr><th>^7Be(n,p)^7Li</th><td>0.00</td><td>0.00</td><td>0.00</td><td>-0.70</td><td>-0.90</td></tr>
+    <tr><th>Fine-structure constant α</th><td>1.10</td><td>0.30</td><td>0.20</td><td>2.50</td><td>1.80</td></tr>
+  </tbody>
+</table>

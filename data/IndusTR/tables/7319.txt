@@ -1,0 +1,7 @@
+<table>
+  <caption>Basic math operator parameters emphasizing device/backends (should be excluded)</caption>
+  <tr><td>Parameter</td><td>Applies to</td><td>Main focus of this parameter</td><td>Typical options</td></tr>
+  <tr><td>Backend selection</td><td>Execution</td><td>Chooses which accelerator/runtime backend is used to execute the operator</td><td>CPU, GPU, NPU, FPGA</td></tr>
+  <tr><td>Backend-specific tuning</td><td>Execution</td><td>Provides knobs for backend kernel choice and performance tuning</td><td>Vendor presets, fast-math</td></tr>
+  <tr><td>Placement rule</td><td>Execution</td><td>Controls where tensors are placed and executed (host vs device)</td><td>Host, Device</td></tr>
+</table>

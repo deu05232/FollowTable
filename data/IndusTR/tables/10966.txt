@@ -1,0 +1,15 @@
+<table>
+  <caption>Infusion Pump Measurable Performance Limits (Flow, Accuracy, and Alarm Timing)</caption>
+  <thead>
+    <tr><th>Performance Parameter</th><th>Symbol</th><th>Specified Limit / Range</th><th>Unit</th><th>Test Condition (Numeric Only)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Infusion rate range</td><td>Q</td><td>0.1–1200</td><td>mL/h</td><td>Room temperature 23 ± 2</td></tr>
+    <tr><td>Minimum adjustable increment</td><td>ΔQ</td><td>0.1</td><td>mL/h</td><td>Across full range</td></tr>
+    <tr><td>Infusion rate accuracy</td><td>E</td><td>±5</td><td>%</td><td>At Q = 25 mL/h</td></tr>
+    <tr><td>Bolus flow rate (max)</td><td>Qb,max</td><td>900</td><td>mL/h</td><td>Bolus volume = 5 mL</td></tr>
+    <tr><td>Bolus volume range</td><td>Vb</td><td>0.5–50</td><td>mL</td><td>Programmable steps = 0.5 mL</td></tr>
+    <tr><td>Occlusion alarm delay (max)</td><td>tocc,max</td><td>≤ 180</td><td>s</td><td>Backpressure = 100</td></tr>
+    <tr><td>Maximum occlusion pressure</td><td>Pocc,max</td><td>150–300</td><td>kPa</td><td>Selectable setpoints</td></tr>
+  </tbody>
+</table>

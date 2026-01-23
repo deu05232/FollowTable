@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal Mechanical Environmental Adaptability Test Requirements</caption>
+  <tr><td>Test item</td><td colspan="2">Test parameter</td><td>Specific requirements</td></tr>
+  <tr><td rowspan="7">Vibration test</td><td>Frequency range/Hz</td><td>5～300</td><td rowspan="7">Not powered on, normal connection state</td></tr>
+  <tr><td>Acceleration/(m/s²)</td><td>50(11 Hz~300 Hz)</td></tr>
+  <tr><td>Number of axes</td><td>3</td></tr>
+  <tr><td>Sweep rate/(oct/min)</td><td>1</td></tr>
+  <tr><td>Sweep time/h</td><td>8 (each direction)</td></tr>
+  <tr><td>Amplitude/mm</td><td>10(5 Hz~11 Hz)</td></tr>
+  <tr><td>Number of sweep cycles/axis/operating state</td><td>1</td></tr>
+  <tr><td rowspan="4">Shock test</td><td>Pulse duration/ms</td><td>11</td><td rowspan="4">Not powered on, normal connection state</td></tr>
+  <tr><td>Peak acceleration/(m/s)SAC</td><td>490</td></tr>
+  <tr><td>Shock direction</td><td>X, Y, Z directions</td></tr>
+  <tr><td>Number of pulses per axis</td><td>3</td></tr>
+</table>

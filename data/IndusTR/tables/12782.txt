@@ -1,0 +1,15 @@
+<table>
+  <caption>Exchange Header Envelope (XHE) Envelope Package — Constraint Status for Envelope Identification and Profile Fields</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field</th><th>English Name</th><th>Constraint Status</th><th>Maximum Occurrences</th><th>Data Type</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Envelope</td><td>Envelope Version Identifier</td><td>Envelope Version Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Version identifier of the envelope specification used for this message.</td></tr>
+    <tr><td>Envelope</td><td>Envelope Customization Identifier</td><td>Envelope Customization Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Identifier for a customization or implementation guideline.</td></tr>
+    <tr><td>Envelope</td><td>Envelope Profile Identifier</td><td>Envelope Profile Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Profile identifier associated with the customization context.</td></tr>
+    <tr><td>Envelope</td><td>Envelope Instance Identifier</td><td>Envelope Instance Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Unique identifier for the envelope instance to support tracking and idempotency.</td></tr>
+    <tr><td>Envelope</td><td>Envelope Issue Date Time</td><td>Envelope Issue Date Time</td><td>Mandatory</td><td>1</td><td>Date Time</td><td>Date and time when the envelope was issued.</td></tr>
+    <tr><td>Envelope</td><td>Envelope Expiration Date Time</td><td>Envelope Expiration Date Time</td><td>Optional</td><td>1</td><td>Date Time</td><td>Date and time after which the envelope should be considered expired.</td></tr>
+    <tr><td>Envelope</td><td>Envelope Language Code</td><td>Envelope Language Code</td><td>Optional</td><td>1</td><td>String</td><td>Language code used for human-readable text within the envelope.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Short-circuit breaking test schedule for starters using contactors (kA prospective current method)</caption>
+  <thead>
+    <tr><th rowspan="2">Starter frame / Ie range (A)</th><th colspan="2">Short-circuit current requirement</th><th colspan="4">Associated test conditions</th></tr>
+    <tr><th>Prospective current Ip (kA)</th><th>Peak factor (approx.)</th><th>U/Ue</th><th>cosφ</th><th>Energizing time (s)</th><th>Number of tests</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Small (Ie ≤ 12)</td><td>0.6</td><td>2.2</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>3</td></tr>
+    <tr><td>Medium (12 < Ie ≤ 25)</td><td>1.0</td><td>2.2</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>3</td></tr>
+    <tr><td>Medium (25 < Ie ≤ 50)</td><td>1.5</td><td>2.2</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>3</td></tr>
+    <tr><td>Large (50 < Ie ≤ 80)</td><td>2.0</td><td>2.2</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>3</td></tr>
+    <tr><td>Large (80 < Ie ≤ 125)</td><td>2.5</td><td>2.2</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>3</td></tr>
+    <tr><td>Extra-large (125 < Ie ≤ 200)</td><td>3.0</td><td>2.2</td><td>1.00</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>3</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="7">Interval time between tests: 180 s (applies to all rows). Purpose: verify short-circuit breaking capability at the specified kA prospective current without including general switching endurance requirements.</td></tr>
+  </tfoot>
+</table>

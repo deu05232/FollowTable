@@ -1,0 +1,17 @@
+<table>
+  <caption>vrMotionData Field Reference (Single-Struct Parameter Listing)</caption>
+  <thead>
+    <tr><th>Struct</th><th>Field</th><th>Type</th><th>Units</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="9">vrMotionData</td><td>velocity_x</td><td>double</td><td>m/s</td><td>Linear velocity on X axis</td></tr>
+    <tr><td>velocity_y</td><td>double</td><td>m/s</td><td>Linear velocity on Y axis</td></tr>
+    <tr><td>velocity_z</td><td>double</td><td>m/s</td><td>Linear velocity on Z axis</td></tr>
+    <tr><td>accel_x</td><td>double</td><td>m/s^2</td><td>Linear acceleration on X axis</td></tr>
+    <tr><td>accel_y</td><td>double</td><td>m/s^2</td><td>Linear acceleration on Y axis</td></tr>
+    <tr><td>accel_z</td><td>double</td><td>m/s^2</td><td>Linear acceleration on Z axis</td></tr>
+    <tr><td>gyro_x</td><td>double</td><td>rad/s</td><td>Angular velocity around X axis</td></tr>
+    <tr><td>gyro_y</td><td>double</td><td>rad/s</td><td>Angular velocity around Y axis</td></tr>
+    <tr><td>gyro_z</td><td>double</td><td>rad/s</td><td>Angular velocity around Z axis</td></tr>
+  </tbody>
+</table>

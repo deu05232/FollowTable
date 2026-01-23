@@ -1,0 +1,16 @@
+<table>
+  <caption>Addressing and Transport Layer Fields for Grain Monitoring Controller Messages</caption>
+  <thead>
+    <tr><th>Layer</th><th>Field Name</th><th>Byte Offset</th><th>Size (bytes)</th><th>Allowed Values</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Link</td><td>Preamble</td><td>0</td><td>4</td><td>55 AA 55 AA</td><td>Frame synchronization</td></tr>
+    <tr><td>Link</td><td>Destination Address (KADDL)</td><td>4</td><td>1</td><td>0x00–0xFF</td><td>Selects target sub-unit</td></tr>
+    <tr><td>Link</td><td>Source Address</td><td>5</td><td>1</td><td>0x00–0xFF</td><td>Originator identifier</td></tr>
+    <tr><td>Link</td><td>Command Code</td><td>6</td><td>1</td><td>0x00–0xFF</td><td>Operation selector (no semantics here)</td></tr>
+    <tr><td>Link</td><td>Sequence Number</td><td>7</td><td>1</td><td>0x00–0xFF</td><td>Duplicate detection</td></tr>
+    <tr><td>Link</td><td>Payload Length</td><td>8</td><td>2</td><td>0–1024</td><td>Number of bytes after this field</td></tr>
+    <tr><td>Integrity</td><td>CRC-16</td><td>10</td><td>2</td><td>Polynomial 0xA001</td><td>Error detection</td></tr>
+    <tr><td>Trailer</td><td>End Flag</td><td>12</td><td>1</td><td>0x0D</td><td>End of frame</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>ArFrame_hitTestRay - Parameter Reference (Ray-based hit testing)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Pointer to the active AR session used to resolve trackables and perform the hit test.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame providing the current camera state and world mapping context for the query.</td></tr>
+    <tr><td>ray_origin</td><td>const float[3]</td><td>in</td><td>World-space origin of the ray (x, y, z) in meters.</td></tr>
+    <tr><td>ray_direction</td><td>const float[3]</td><td>in</td><td>World-space direction of the ray (x, y, z). Does not need to be normalized; implementation may normalize internally.</td></tr>
+    <tr><td>filter</td><td>ArHitTestFilter</td><td>in</td><td>Bitmask/enum specifying which surfaces to consider (e.g., planes, points, depth).</td></tr>
+    <tr><td>out_hit_result_list</td><td>ArHitResultList *</td><td>out</td><td>Pre-allocated hit result list that will be populated with zero or more hits sorted by ascending distance.</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>out</td><td>Receives success/error code for the hit test call.</td></tr>
+  </tbody>
+</table>

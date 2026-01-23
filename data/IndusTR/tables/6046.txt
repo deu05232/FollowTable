@@ -1,0 +1,7 @@
+<table>
+  <caption>Frame timestamp access parameters (scalar output, not an out pointer object)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>timestamp_ns</td><td>int64_t</td><td>Timestamp of the current frame in nanoseconds</td></tr>
+</table>

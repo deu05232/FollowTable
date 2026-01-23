@@ -1,0 +1,15 @@
+<table>
+  <caption>Terrestrial Eco-Meteorological Station Event Record — Natural Disaster / Abnormal Ecological Phenomenon Codes</caption>
+  <thead>
+    <tr><th>Section</th><th>No.</th><th>Field Name</th><th>Field Code</th><th>Data Type</th><th>Format/Controlled List</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Station & Time</td><td>1</td><td>Observation station identifier</td><td>D_ID</td><td>VARCHAR(32)</td><td>Unique station code</td></tr>
+    <tr><td>Station & Time</td><td>2</td><td>Observation time</td><td>D_TIME</td><td>DATE</td><td>YYYY-MM-DD</td></tr>
+    <tr><td>Phenomenon Classification</td><td>3</td><td>Phenomenon/event code (disaster/abnormal ecology)</td><td>EV_CODE</td><td>CHAR(4)</td><td>Controlled list (4-character code; e.g., Table B.24 style)</td></tr>
+    <tr><td>Phenomenon Classification</td><td>4</td><td>Phenomenon/event name</td><td>EV_NAME</td><td>VARCHAR(80)</td><td>Controlled vocabulary label matching EV_CODE</td></tr>
+    <tr><td>Phenomenon Classification</td><td>5</td><td>Event category group</td><td>EV_GROUP</td><td>CHAR(2)</td><td>Controlled list (category family code)</td></tr>
+    <tr><td>Phenomenon Classification</td><td>6</td><td>Event source type</td><td>EV_SOURCE</td><td>CHAR(1)</td><td>Controlled list: N=Natural, E=Ecological anomaly</td></tr>
+    <tr><td>Phenomenon Classification</td><td>7</td><td>Controlled list version</td><td>CL_VER</td><td>VARCHAR(10)</td><td>Version ID of the code list used</td></tr>
+  </tbody>
+</table>

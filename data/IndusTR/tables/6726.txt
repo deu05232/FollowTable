@@ -1,0 +1,14 @@
+<table>
+  <caption>Steam Durability Grades with Additional Steam-Category Attributes</caption>
+  <thead>
+    <tr><th>Metric</th><th>Unit</th><th>Grade AAAAA</th><th>Grade AAAA</th><th>Grade AAA</th><th>Grade AA</th><th>Grade A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Steam output attenuation ratio (Wd)</td><td>%</td><td>Wd ≤ 8</td><td>8 < Wd ≤ 15</td><td>15 < Wd ≤ 25</td><td>25 < Wd ≤ 35</td><td>Wd > 35</td></tr>
+    <tr><td>Evaporation rate attenuation ratio (Rd)</td><td>%</td><td>Rd ≤ 12</td><td>12 < Rd ≤ 25</td><td>25 < Rd ≤ 38</td><td>38 < Rd ≤ 50</td><td>Rd > 50</td></tr>
+    <tr><td>Steam waiting time category (pump handheld)</td><td>s</td><td>Ts ≤ 30</td><td>30 < Ts ≤ 40</td><td>40 < Ts ≤ 55</td><td>55 < Ts ≤ 75</td><td>Ts > 75</td></tr>
+    <tr><td>Steam waiting time category (atmospheric)</td><td>s</td><td>T ≤ 55</td><td>55 < T ≤ 110</td><td>110 < T ≤ 160</td><td>160 < T ≤ 210</td><td>T > 210</td></tr>
+    <tr><td>Steam mode stability (intermittency index)</td><td>%</td><td>≤ 5</td><td>5 < x ≤ 10</td><td>10 < x ≤ 18</td><td>18 < x ≤ 25</td><td>> 25</td></tr>
+    <tr><td>Steam boost capability (peak output)</td><td>g/min</td><td>≥ 120</td><td>100–119</td><td>80–99</td><td>60–79</td><td>< 60</td></tr>
+  </tbody>
+</table>

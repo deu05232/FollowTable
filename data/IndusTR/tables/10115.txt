@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Pack Thermal Trigger Configuration Limits (Heater Power vs Stored Energy)</caption>
+  <thead>
+    <tr><th rowspan="2">Stored Energy Band (E, Wh)</th><th colspan="2">Heater Power Limit (W)</th><th rowspan="2">Target Heating Duration (min)</th><th rowspan="2">Cut-off Condition</th></tr>
+    <tr><th>Recommended</th><th>Maximum Allowed</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E < 80</td><td>50</td><td>250</td><td>20</td><td>Cell case ≥ 120°C</td></tr>
+    <tr><td>80 ≤ E < 200</td><td>200</td><td>800</td><td>15</td><td>Pack venting detected</td></tr>
+    <tr><td>200 ≤ E < 500</td><td>400</td><td>1500</td><td>12</td><td>ΔT ≥ 10°C/min</td></tr>
+    <tr><td>500 ≤ E < 900</td><td>800</td><td>2500</td><td>10</td><td>Voltage drop ≥ 30%</td></tr>
+    <tr><td>900 ≤ E < 1500</td><td>1200</td><td>3500</td><td>8</td><td>Module surface ≥ 150°C</td></tr>
+    <tr><td>E ≥ 1500</td><td>1800</td><td>5000</td><td>6</td><td>Thermal runaway indicators</td></tr>
+  </tbody>
+</table>

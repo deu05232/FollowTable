@@ -1,0 +1,18 @@
+<table>
+  <caption>Flat Knitting Machine Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Downtime</td><td>Downtime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>S</td><td>The time that the current piece pauses knitting during the knitting process</td><td></td></tr>
+  <tr><td>0X0301</td><td>Last Piece Downtime</td><td>LastPieceDowntime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>One</td><td>S</td><td>The time that the previous piece pauses knitting during the knitting process</td><td></td></tr>
+  <tr><td>0X0302</td><td>Running Time</td><td>RunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>min</td><td>The time the machine runs for knitting</td><td></td></tr>
+  <tr><td>0X0303</td><td>Knitting Time</td><td>Knitting Time</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>丨</td><td>min</td><td>Machine single-piece knitting time</td><td>丨</td></tr>
+  <tr><td>0X0304</td><td>Carriage Running Direction</td><td>CarriageDirection</td><td>0</td><td>VAR</td><td>RO</td><td>Byte</td><td></td><td></td><td></td><td>0: Left 1: Right</td></tr>
+  <tr><td>0X0305</td><td>Pattern Line</td><td>PatternLine</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td></td><td>1</td></tr>
+  <tr><td>0X0306</td><td>Running Speed</td><td>RunningSpeed</td><td>0</td><td>VAR</td><td>RW</td><td>Int32</td><td>丨</td><td>m/s</td><td></td><td>1</td></tr>
+  <tr><td>0X0307</td><td>Main Take Down</td><td>MainTakeDown</td><td>0</td><td>VAR</td><td>RW</td><td>Int32</td><td>1</td><td>1</td><td></td><td>1</td></tr>
+  <tr><td>0X0308</td><td>Yarn Guide</td><td>YarnGuide</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td>1</td><td>Also called yarn nozzle</td><td>1</td></tr>
+  <tr><td>0X0309</td><td>Start Needle</td><td>StartNeedle</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td>1</td><td></td><td>1</td></tr>
+  <tr><td>0X030A</td><td>Stitch</td><td>Stitch</td><td>0</td><td>ARRAY</td><td>RW</td><td>Int32</td><td>1</td><td>1</td><td></td><td>1</td></tr>
+  <tr><td>0X030B</td><td>Yarn Guide Parking</td><td>YarnGuidePosition</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X030C</td><td>Sinker</td><td>Sinker</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>Two</td><td>Two</td><td>1</td><td>,</td></tr>
+  <tr><td>0X030D</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td></td><td></td></tr>
+</table>

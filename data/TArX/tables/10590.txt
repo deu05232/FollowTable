@@ -1,0 +1,15 @@
+<table>
+  <caption>Lookup Table of Generic Restitution Parameters for Contact Law Calibration (No Material Identification)</caption>
+  <thead>
+    <tr><th>Case ID</th><th>Contact Law</th><th>e0 (reference)</th><th>v_ref (m/s)</th><th>k_n (N/m)</th><th>gamma_n (kg/s)</th><th>C1</th><th>C2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>G-01</td><td>Linear dashpot</td><td>0.62</td><td>0.5</td><td>1.2e5</td><td>18.0</td><td>0.91</td><td>-0.14</td></tr>
+    <tr><td>G-02</td><td>Linear dashpot</td><td>0.55</td><td>1.0</td><td>1.2e5</td><td>22.0</td><td>0.88</td><td>-0.12</td></tr>
+    <tr><td>G-03</td><td>Hertz-Mindlin</td><td>0.48</td><td>0.5</td><td>2.6e5</td><td>31.5</td><td>1.04</td><td>-0.21</td></tr>
+    <tr><td>G-04</td><td>Hertz-Mindlin</td><td>0.41</td><td>1.0</td><td>2.6e5</td><td>38.0</td><td>1.01</td><td>-0.19</td></tr>
+    <tr><td>G-05</td><td>Nonlinear viscoelastic</td><td>0.36</td><td>0.5</td><td>3.8e5</td><td>45.0</td><td>0.76</td><td>0.08</td></tr>
+    <tr><td>G-06</td><td>Nonlinear viscoelastic</td><td>0.29</td><td>1.0</td><td>3.8e5</td><td>52.0</td><td>0.72</td><td>0.11</td></tr>
+    <tr><td>G-07</td><td>Piecewise model</td><td>0.50</td><td>0.2</td><td>1.0e5</td><td>15.0</td><td>1.20</td><td>-0.35</td></tr>
+  </tbody>
+</table>

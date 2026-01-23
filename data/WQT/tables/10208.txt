@@ -1,0 +1,9 @@
+# IPv4 special-use and private ranges with scope and intended use (RFC 1918 and related)
+
+| CIDR block | Address span | Scope/category | Intended use |
+| --- | --- | --- | --- |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Private | Internal addressing within private networks (RFC 1918) |
+| 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | Private | Internal addressing within private networks (RFC 1918) |
+| 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | Private | Internal addressing within private networks (RFC 1918) |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared/Private (CGNAT) | Space used between providers and subscribers for carrier-grade NAT (RFC 6598) |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Host | Loopback addressing on the local host (RFC 6890) |

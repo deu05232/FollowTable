@@ -1,0 +1,8 @@
+<table>
+  <caption>APDU header bytes for user terminal commands</caption>
+  <tr><th>Command</th><th>Header byte</th><th>Hex value</th><th>What it identifies</th></tr>
+  <tr><td>Send secure message</td><td>Class byte</td><td>80</td><td>Proprietary class for the terminal</td></tr>
+  <tr><td>Send secure message</td><td>Instruction byte</td><td>F2</td><td>Secure messaging instruction</td></tr>
+  <tr><td>Join multicast group</td><td>Instruction byte</td><td>D0</td><td>Group join instruction</td></tr>
+  <tr><td>Both</td><td>Parameter byte</td><td>00</td><td>Default parameter setting</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Office Building Energy Consumption Test Methods (Homonym  Copiers as Room Equipment Inventory)</caption>
+  <tr><th>Test Item</th><th>Scope</th><th>Metering Point</th><th>Sampling Interval</th><th>Reporting Unit</th><th>Notes</th></tr>
+  <tr><td>Lighting Load Test</td><td>Floor area</td><td>Lighting panel</td><td>15 min</td><td>kWh/m²</td><td>Exclude emergency lights</td></tr>
+  <tr><td>HVAC Load Test</td><td>Cooling season</td><td>Chiller feeder</td><td>5 min</td><td>kWh</td><td>Include pumps and towers</td></tr>
+  <tr><td>Plug Load Survey</td><td>Office rooms</td><td>Socket circuits</td><td>60 min</td><td>kWh</td><td>Inventory includes copiers/MFDs</td></tr>
+  <tr><td>Elevator Energy Test</td><td>Core area</td><td>Elevator feeder</td><td>1 min</td><td>kWh</td><td>Peak/off-peak separate</td></tr>
+  <tr><td>Data Room Power</td><td>IT room</td><td>UPS output</td><td>1 min</td><td>kWh</td><td>Exclude generator tests</td></tr>
+  <tr><td>Water Heating</td><td>Domestic hot water</td><td>Heater circuit</td><td>15 min</td><td>kWh</td><td>Include circulation losses</td></tr>
+</table>

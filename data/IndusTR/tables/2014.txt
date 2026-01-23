@@ -1,0 +1,14 @@
+<table>
+  <caption>Action Evaluation in Financial Auditing  Passing Criteria for Control Testing (Homonym Trap)</caption>
+  <thead>
+    <tr><th>Control Activity</th><th>Observation Point</th><th>Passing Criterion</th><th>Sampling Method</th><th>Exception Handling</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Invoice approval</td><td>Authorization signature present</td><td>100% of sampled invoices approved</td><td>Random sample (n=30)</td><td>Expand sample if >2 exceptions</td></tr>
+    <tr><td>Vendor onboarding</td><td>KYC documentation completeness</td><td>≥ 95% completeness rate</td><td>Stratified sample</td><td>Remediate within 10 business days</td></tr>
+    <tr><td>Journal entry review</td><td>Reviewer independence</td><td>No self-review instances</td><td>Targeted testing</td><td>Report to compliance</td></tr>
+    <tr><td>Access control</td><td>Privileged access approvals</td><td>≥ 98% approvals documented</td><td>System log review</td><td>Disable accounts within 24h</td></tr>
+    <tr><td>Bank reconciliation</td><td>Timeliness</td><td>Completed within 5 days of month-end</td><td>Document inspection</td><td>Escalate late items</td></tr>
+    <tr><td>Expense claims</td><td>Receipt attachment</td><td>≥ 97% with valid receipts</td><td>Random sample</td><td>Recover non-compliant payments</td></tr>
+  </tbody>
+</table>

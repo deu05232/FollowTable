@@ -1,0 +1,16 @@
+<table>
+  <caption>Observational configuration for comparing Chandrasekhar-mass SN Ia models (instrument/filter/exposure), not quantitative explosion yields.</caption>
+  <thead>
+    <tr><th rowspan="2">Target / Model tag</th><th colspan="4">Imaging setup</th><th colspan="3">Spectroscopy setup</th><th rowspan="2">Phase (days)</th></tr>
+    <tr><th>Telescope/Instrument</th><th>Filter/Grism</th><th>Exposure (s)</th><th>FWHM (arcsec)</th><th>Wavelength range (Å)</th><th>Resolution (Å)</th><th>Slit (arcsec)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Chandra-Ia-01</td><td>VLT/FORS2</td><td>B</td><td>600</td><td>1.0</td><td>3600–9000</td><td>10</td><td>1.0</td><td>-10</td></tr>
+    <tr><td>Chandra-Ia-01</td><td>VLT/FORS2</td><td>V</td><td>600</td><td>0.9</td><td>3600–9000</td><td>10</td><td>1.0</td><td>-10</td></tr>
+    <tr><td>Chandra-Ia-02</td><td>Keck/LRIS</td><td>g</td><td>450</td><td>0.8</td><td>3200–10200</td><td>7</td><td>0.7</td><td>+0</td></tr>
+    <tr><td>Chandra-Ia-02</td><td>Keck/LRIS</td><td>r</td><td>450</td><td>0.8</td><td>3200–10200</td><td>7</td><td>0.7</td><td>+0</td></tr>
+    <tr><td>Chandra-Ia-03</td><td>Gemini/GMOS</td><td>i</td><td>900</td><td>1.1</td><td>4000–9500</td><td>12</td><td>1.0</td><td>+12</td></tr>
+    <tr><td>Chandra-Ia-04</td><td>HST/WFC3</td><td>F555W</td><td>1200</td><td>0.10</td><td>—</td><td>—</td><td>—</td><td>+30</td></tr>
+    <tr><td>Chandra-Ia-04</td><td>HST/WFC3</td><td>F814W</td><td>1200</td><td>0.10</td><td>—</td><td>—</td><td>—</td><td>+30</td></tr>
+  </tbody>
+</table>

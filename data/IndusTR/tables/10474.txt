@@ -1,0 +1,14 @@
+<table>
+  <caption>Reliability Verification Plan for Synthesized Frequency Sources (Stress & Endurance Focus)</caption>
+  <thead>
+    <tr><th>Group</th><th>Test Item</th><th>Purpose</th><th>Stress / Duration</th><th>Operating Mode</th><th>Sample Size (n)</th><th>Pass/Fail Criteria (Examples)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Group D</td><td>Electrical endurance (biased life test)</td><td>Verify long-duration stability and latent failure mechanisms</td><td>2,000 h @ +85°C, nominal supply; monitor every 168 h</td><td>PLL locked, synthesizer stepping every 10 min</td><td>10</td><td>No loss of lock; output power within spec; frequency error & phase noise drift within limits defined in detail spec</td></tr>
+    <tr><td>High-temperature operating life (HTOL)</td><td>Accelerate wear-out under high temperature while operating</td><td>1,000 h @ +105°C, VDD= 1.1× nominal</td><td>Continuous modulation/step profile, maximum activity</td><td>10</td><td>Functional during and after; no parametric shifts beyond post-stress limits</td></tr>
+    <tr><td>Thermal cycling endurance</td><td>Reveal solder joint/package fatigue and intermittent failures</td><td>500 cycles, -40°C ↔ +85°C, 10 min dwell, 5 min transfer</td><td>Unpowered during transitions; powered check every 50 cycles</td><td>12</td><td>No cracking, no intermittent lock failures; post-cycling electrical performance within spec</td></tr>
+    <tr><td rowspan="2">Group E</td><td>High-temperature storage (HTS)</td><td>Check storage-induced degradation (materials, die attach, leakage)</td><td>168 h @ +125°C (unpowered)</td><td>Unpowered; pre/post electrical verification</td><td>10</td><td>Meets pre/post drift limits; no physical damage affecting operation</td></tr>
+    <tr><td>Moisture resistance (biased humidity)</td><td>Assess corrosion, leakage, and humidity-induced failure risk</td><td>240 h @ +85°C / 85% RH with bias applied</td><td>Powered, PLL lock maintained; periodic readback</td><td>10</td><td>No loss of lock; leakage/current within limits; no permanent parametric shift beyond limits</td></tr>
+    <tr><td>Group F</td><td>Solderability (wetting balance or dip-and-look)</td><td>Verify long-term assembly reliability after storage/aging</td><td>Steam aging 8 h + solder dip 245°C, 3 s</td><td>N/A</td><td>15 leads/terminals</td><td>≥95% wetting coverage; no dewetting/non-wetting per acceptance rule</td></tr>
+  </tbody>
+</table>

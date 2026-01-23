@@ -1,0 +1,6 @@
+<table>
+  <caption>SAF_SM9GetMasterPublicKey interface definition</caption>
+  <tr><th>Prototype</th><td>int SAF_SM9GetMasterPublicKey(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, unsigned char *pucMasterPublicKey, unsigned int *puiMasterPublicKeyLen);</td></tr>
+  <tr><th>Description</th><td>Export the SM9 master public key from the specified index.</td></tr>
+  <tr><th>Parameters</th><td>hAppHandle[in] (application interface handle); uiKeyIndex[in] (master public key index); uiKeyType[in] (key type); pucMasterPublicKey[out] (master public key); puiMasterPublicKeyLen[in,out] (output length)</td></tr>
+</table>

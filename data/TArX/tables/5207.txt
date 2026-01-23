@@ -1,0 +1,8 @@
+<table>
+  <caption>R 2 of the different countrywide predictions. Note that these R 2 are calculated without any logarithmic transformation on data or predictions. Number of provinces considered is 97, 20 and 52, respectively. Since number of cities is up to two orders of magnitude larger, flux matrix T is up to 4 orders of magnitude larger. While elliptic model is always more accurate than previous models predictions, the improvement is specially remarkable in city to city fluxes.</caption>
+  <tr><th></th><th colspan="2">France</th><th colspan="2">Portugal</th><th colspan="2">Spain</th></tr>
+  <tr><th></th><td>City</td><td>Province</td><td>City</td><td>Province</td><td>City</td><td>Province</td></tr>
+  <tr><th>Radiation</th><td>0.534</td><td>0.615</td><td>0.621</td><td>0.776</td><td>0.556</td><td>0.588</td></tr>
+  <tr><th>RadiationBI</th><td>0.626</td><td>0.723</td><td>0.730</td><td>0.847</td><td>0.676</td><td>0.668</td></tr>
+  <tr><th>Elliptic</th><td>0.723</td><td>0.790</td><td>0.816</td><td>0.891</td><td>0.693</td><td>0.748</td></tr>
+</table>

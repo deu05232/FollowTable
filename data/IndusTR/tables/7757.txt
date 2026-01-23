@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Swap Order Lifecycle & Data Touchpoints (Process-centric)</caption>
+  <thead>
+    <tr><th>Step No.</th><th>Phase</th><th>Actor</th><th>Trigger/Event</th><th>Key Data Used (Examples)</th><th>Output/Next Step</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Pre-Auth</td><td>Vehicle</td><td>Request authentication</td><td>vinCode, plateNum</td><td>Send AuthRequest</td></tr>
+    <tr><td>2</td><td>Auth</td><td>Platform</td><td>Validate vehicle and eligibility</td><td>vehicleAuthSeq, vinCode</td><td>Return AuthResponse (SuccStat)</td></tr>
+    <tr><td>3</td><td>Order Creation</td><td>Platform</td><td>Create swap order</td><td>swapOrderNo, batterySwapEquipmentId</td><td>Persist order, notify station</td></tr>
+    <tr><td>4</td><td>Queueing</td><td>Station</td><td>Assign queue position</td><td>positionNo</td><td>Vehicle enters queue</td></tr>
+    <tr><td>5</td><td>Swap Execution</td><td>Equipment</td><td>Perform battery swap</td><td>equipmentId (internal), swapOrderNo</td><td>Generate execution result</td></tr>
+    <tr><td>6</td><td>Completion</td><td>Platform</td><td>Close order</td><td>succStat, failReasonMsg</td><td>Return final response</td></tr>
+    <tr><td>7</td><td>Exception Handling</td><td>Platform/Operator</td><td>Manual intervention</td><td>failReasonCode, notes</td><td>Reconciliation/Retry</td></tr>
+  </tbody>
+</table>

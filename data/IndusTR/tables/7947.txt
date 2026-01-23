@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Environment Understanding: AcquirePointCloudData Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Active AR session.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>Current frame used to query environment understanding results.</td></tr>
+    <tr><td>point_cloud</td><td>ArPointCloud *</td><td>Point cloud handle to read from; must be valid for this call.</td></tr>
+    <tr><td>out_points_xyz</td><td>const float **</td><td>Output: receives a pointer to an array of XYZ triplets owned by the point cloud.</td></tr>
+    <tr><td>out_point_count</td><td>int32_t *</td><td>Output: receives the number of points in the returned array.</td></tr>
+    <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Output: receives the timestamp (nanoseconds) for the returned point data.</td></tr>
+    <tr><td>out_confidence</td><td>const uint8_t **</td><td>Output: receives a pointer to per-point confidence values aligned with the XYZ array.</td></tr>
+  </tbody>
+</table>

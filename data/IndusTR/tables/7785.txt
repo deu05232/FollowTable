@@ -1,0 +1,12 @@
+<table>
+  <caption>SM9 interface overview by operation category (high-level)</caption>
+  <thead>
+    <tr><th>Operation area</th><th>What it covers</th><th>Typical use notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Encryption / Decryption</td><td>Identity-based encryption and recovering plaintext</td><td>Mentions SM9 and GB/T 41389 compliance at a high level; no argument-level details</td></tr>
+    <tr><td>Signature / Verification</td><td>Signing data and verifying signatures using identity and master public key</td><td>Focuses on conceptual behavior and where it is used</td></tr>
+    <tr><td>Key agreement</td><td>Negotiating a session key between sponsor and responder</td><td>Describes the idea of temporary keys and session key derivation</td></tr>
+    <tr><td>Key import / management</td><td>Managing master public keys and related objects</td><td>Describes purpose, not call semantics</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Lowering Pass Catalog and Intermediate Representation Levels</caption>
+  <thead>
+    <tr><th>IR Level</th><th>Representative Data Structure</th><th>Pass Name</th><th>Trigger</th><th>Primary Goal</th><th>Artifacts Produced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Graph IR</td><td>DAG with op nodes</td><td>subgraph_partition</td><td>After import</td><td>Split graph into accelerator/CPU regions</td><td>Partitioned graph + cut edges</td></tr>
+    <tr><td>DAG with op nodes</td><td>shape_inference</td><td>Before legalization</td><td>Infer tensor ranks and dims</td><td>Graph IR with static shapes</td></tr>
+    <tr><td rowspan="2">High-level IR</td><td>SSA-like module</td><td>type_legalization</td><td>Before lowering</td><td>Normalize types to target-supported set</td><td>HLIR with legalized dtypes</td></tr>
+    <tr><td>SSA-like module</td><td>fusion_planner</td><td>After canonicalize</td><td>Fuse patterns into composite ops</td><td>Fused HLIR regions</td></tr>
+    <tr><td rowspan="2">Low-level IR</td><td>Loop nests + buffers</td><td>tiling_and_schedule</td><td>During lowering</td><td>Choose tile sizes and schedules</td><td>Scheduled LLIR</td></tr>
+    <tr><td>Loop nests + buffers</td><td>memory_promotion</td><td>After scheduling</td><td>Promote buffers into SRAM/CMEM</td><td>LLIR with explicit memory hierarchy</td></tr>
+    <tr><td rowspan="2">Machine IR</td><td>Target instruction DAG</td><td>instruction_selection</td><td>Before emit</td><td>Map ops to target instructions</td><td>Selected instructions</td></tr>
+    <tr><td>Target instruction DAG</td><td>register_allocation</td><td>Late backend</td><td>Assign physical registers</td><td>Allocated MIR + spill code</td></tr>
+  </tbody>
+</table>

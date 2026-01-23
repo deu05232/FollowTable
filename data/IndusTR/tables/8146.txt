@@ -1,0 +1,12 @@
+<table>
+  <caption>Fault code and self-testable fault items for different measuring instrument types</caption>
+  <tr><th>Instrument Type</th><th>Fault Code</th><th>Self-testable Fault Item</th><th>Typical Trigger / Description</th></tr>
+  <tr><td>Pressure transmitter</td><td>E01</td><td>Sensor open circuit</td><td>Sensor impedance out of range during power-on self-test</td></tr>
+  <tr><td>Pressure transmitter</td><td>E02</td><td>ADC conversion fault</td><td>Internal reference check fails and conversion result is unstable</td></tr>
+  <tr><td>Temperature transmitter</td><td>E11</td><td>RTD/TC type mismatch</td><td>Configured sensor type does not match detected wiring pattern</td></tr>
+  <tr><td>Temperature transmitter</td><td>E12</td><td>Cold-junction compensation fault</td><td>CJC sensor reading abnormal beyond allowed bounds</td></tr>
+  <tr><td>Electromagnetic flowmeter</td><td>E21</td><td>Coil drive fault</td><td>Excitation current feedback deviates from target</td></tr>
+  <tr><td>Electromagnetic flowmeter</td><td>E22</td><td>Electrode signal saturation</td><td>Signal chain saturates during diagnostic injection sequence</td></tr>
+  <tr><td>Vortex flowmeter</td><td>E31</td><td>Signal integrity fault</td><td>Signal-to-noise ratio below threshold for a defined duration</td></tr>
+  <tr><td>Vortex flowmeter</td><td>E32</td><td>Data verification error</td><td>Configuration checksum/CRC fails after write</td></tr>
+</table>

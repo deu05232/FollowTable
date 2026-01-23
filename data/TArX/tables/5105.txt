@@ -1,0 +1,11 @@
+<table>
+  <caption>Q, R can be related to physical device parameters, even for devices with state variable other than charge. This allows improvement of E τ = Q 2 ⁢ R by tuning device parameters. (C-capacitance, Nc-number of charges in the capacitor, I O ⁢ N -ON current, N s - number of Bohr Magnetons comprising a magnet, η - Injection efficiency [ behin2011switching ] B w ⁢ i -required magnetic induction from a wire, p m -wire width, t n ⁢ m -emperical switching time of nanomagnets in an array, μ -Permeability around the wire, μ 0 -Permeability of vacuum, R c ⁢ o ⁢ i ⁢ l -coil resistance, R j ⁢ u ⁢ n ⁢ c -resistance of the interface between the magnet and the channel, I m ⁢ s -current required to change the polarization of the piezoelectric material, P m ⁢ s -remnant polarization, A-area of magnet).</caption>
+  <tr><th>Device</th><th>Charge (Q)</th><th>Resistance (R)</th></tr>
+  <tr><th>Electronic devices</th><td>CV_(DD)</td><td>V_(DD)/I_(ON)</td></tr>
+  <tr><th>(e.g. CMOS)</th><td></td><td></td></tr>
+  <tr><th>Switching of magnet with current</th><td></td><td></td></tr>
+  <tr><th>Spin torque (e.g. ASL)</th><td>2qN_(s)/</td><td>R_(junc)</td></tr>
+  <tr><th>Magnetic field (NML)</th><td>2B_(wi)p_(m)t_(nm)/μμ_(0)</td><td>R_(coil)</td></tr>
+  <tr><th>Voltage switching of magnet</th><td></td><td></td></tr>
+  <tr><th>NML, SMG, SWD, STT triad</th><td>P_(ms)A+CV_(DD)</td><td>V_(DD)/I_(ms)</td></tr>
+</table>

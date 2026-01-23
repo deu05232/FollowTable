@@ -1,0 +1,8 @@
+<table>
+  <caption>Battery swap interface response codes (no field types)</caption>
+  <tr><th>Code</th><th>Meaning</th><th>When it happens</th></tr>
+  <tr><td>0</td><td>Success</td><td>Operation completed normally</td></tr>
+  <tr><td>1</td><td>Failure</td><td>Generic failure returned by the platform</td></tr>
+  <tr><td>2</td><td>Order not found</td><td>swapOrderNo does not exist</td></tr>
+  <tr><td>3</td><td>Device not available</td><td>batterySwapEquipmentId is offline or busy</td></tr>
+</table>

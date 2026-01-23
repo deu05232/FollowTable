@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Master Public Key Import with Agreement Context (Mixed Management + Agreement)</caption>
+  <tr><th>Item</th><th>Content</th></tr>
+  <tr><td>Prototype A</td><td>int SAF_ImportSM9MasterPublicKey(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, unsigned char *pucMasterPublicKey, unsigned int uiMasterPublicKeyLen);</td></tr>
+  <tr><td>Prototype B</td><td>int SAF_SM9GenerateAgreementDataAndKey(void *hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char *pucSponsorID, unsigned int uiSponsorIDLength, unsigned char *pucSponsorTmpPublicKey, unsigned int *puiSponsorTmpPublicKeyLen, unsigned char *pucResponseTmpPublicKey, unsigned int uiResponseTmpPublicKeyLen, void **phKeyHandle);</td></tr>
+  <tr><td>Description</td><td>This table lists both master public key provisioning and the key agreement interface used after provisioning.</td></tr>
+  <tr><td rowspan="7">Parameters (mixed)</td><td>uiKeyIndex [in] (import index)</td></tr>
+  <tr><td>pucMasterPublicKey [in] (master public key blob)</td></tr>
+  <tr><td>uiMasterPublicKeyIndex [in] (agreement master public key index)</td></tr>
+  <tr><td>pucSponsorID [in] (sponsor identity)</td></tr>
+  <tr><td>pucSponsorTmpPublicKey [out] (temporary public key)</td></tr>
+  <tr><td>phKeyHandle [out] (session key handle)</td></tr>
+  <tr><td>Compliance</td><td>GB/T 41389.</td></tr>
+</table>

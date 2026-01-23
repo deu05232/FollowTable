@@ -1,0 +1,10 @@
+<table>
+  <caption>Influence quantity test limits (%) under harmonic operating conditions (frequency, voltage, and phase sequence)</caption>
+  <tr><th>Influence quantity</th><th>Test condition</th><th>Current (direct)</th><th>Current (CT)</th><th>Harmonic power factor</th><th>Class 5</th><th>Class 2</th><th>Class 1</th></tr>
+  <tr><td>Fundamental frequency variation</td><td>f = fn ± 2%</td><td>4I</td><td>4I</td><td>1.0</td><td>2.0</td><td>1.0</td><td>0.7</td></tr>
+  <tr><td>Fundamental frequency variation</td><td>f = fn ± 5%</td><td>4I</td><td>4I</td><td>0.5L</td><td>2.5</td><td>1.2</td><td>0.8</td></tr>
+  <tr><td>Voltage variation</td><td>U = Un ± 10%</td><td>I</td><td>I</td><td>1.0</td><td>1.8</td><td>0.9</td><td>0.6</td></tr>
+  <tr><td>Voltage variation</td><td>U = Un ± 15%</td><td>I</td><td>I</td><td>0.5L</td><td>2.2</td><td>1.1</td><td>0.7</td></tr>
+  <tr><td>Reverse phase sequence</td><td>ABC → ACB</td><td>I</td><td>I</td><td>1.0</td><td>2.0</td><td>1.5</td><td>1.5</td></tr>
+  <tr><td>Reverse phase sequence</td><td>ABC → ACB</td><td>I</td><td>I</td><td>0.5L</td><td>2.0</td><td>1.5</td><td>1.5</td></tr>
+</table>

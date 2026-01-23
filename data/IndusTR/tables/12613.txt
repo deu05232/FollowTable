@@ -1,0 +1,16 @@
+<table>
+  <caption>Site Energy and Process Emissions Summary (Includes Grid Electricity Factors)</caption>
+  <thead>
+    <tr><th rowspan="2">Scope Item</th><th rowspan="2">Activity</th><th rowspan="2">Unit</th><th colspan="2">Emission Factor</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Value</th><th>Factor Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased Electricity</td><td>Grid power import</td><td>MWh</td><td>0.680</td><td>tCO2/MWh</td><td>Grid Region: North</td></tr>
+    <tr><td>Purchased Electricity</td><td>Grid power import</td><td>MWh</td><td>0.520</td><td>tCO2/MWh</td><td>Grid Region: South</td></tr>
+    <tr><td>Carbonate Process</td><td>Calcination of CaCO3</td><td>t carbonate</td><td>0.440</td><td>tCO2/t</td><td>Process emissions</td></tr>
+    <tr><td>Carbonate Process</td><td>Decomposition of MgCO3</td><td>t carbonate</td><td>0.522</td><td>tCO2/t</td><td>Process emissions</td></tr>
+    <tr><td>Steam Import</td><td>District steam</td><td>GJ</td><td>0.090</td><td>tCO2/GJ</td><td>Supplier-specific</td></tr>
+    <tr><td>On-site Generation</td><td>Exported electricity credit</td><td>MWh</td><td>-0.600</td><td>tCO2/MWh</td><td>Market-based method</td></tr>
+    <tr><td>Carbonate Process</td><td>Use of Na2CO3</td><td>t carbonate</td><td>0.415</td><td>tCO2/t</td><td>Process emissions</td></tr>
+  </tbody>
+</table>

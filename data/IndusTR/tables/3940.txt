@@ -1,0 +1,7 @@
+<table>
+  <caption>Data Dictionary of Main Parameter Set for Cheese Conveying and Packing System</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0100</td><td>Yarn-loading manipulator</td><td>Pick-upManipulator</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Left hand 1.Right hand</td></tr>
+  <tr><td>0X0101</td><td>Packing method</td><td>PackingMethod</td><td>M</td><td>SACVAR</td><td>RO</td><td>String</td><td></td><td></td><td>Package forming method</td><td>0.Woven bag 1.Carton 2.Pallet 3.Shrink film</td></tr>
+  <tr><td>0X0102</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>一</td><td></td><td></td><td>1</td><td>1</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>SOF Certificate Application Component — COM/ActiveX Service Interfaces (Signing, Verification & Hash)</caption>
+  <thead>
+    <tr><th>Category</th><th>Interface</th><th>COM/ActiveX Method Prototype</th><th>How to Invoke (ActiveX)</th><th>Key Parameters</th><th>Notes / Output</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">XML / Data Signing</td><td>Sign XML</td><td>BSTR SOF_SignDataXML(BSTR CertID, BSTR InData)</td><td>signedXml = obj.SOF_SignDataXML(CertID, InData)</td><td>CertID: signer cert id; InData: XML string</td><td>Returns signed XML (BSTR)</td></tr>
+    <tr><td>Sign hash (digest)</td><td>BSTR SOF_SignHashData(BSTR CertID, BSTR Base64HashData, LONG HashAlg)</td><td>sig = obj.SOF_SignHashData(CertID, Base64HashData, HashAlg)</td><td>Base64HashData: Base64 digest; HashAlg: algorithm id</td><td>Returns signature value (BSTR, Base64)</td></tr>
+    <tr><td>Sign raw data</td><td>BSTR SOF_SignData(BSTR CertID, BSTR InData, LONG InDataType)</td><td>sig = obj.SOF_SignData(CertID, InData, InDataType)</td><td>InDataType: e.g., text/binary indicator</td><td>Returns signature (BSTR)</td></tr>
+    <tr><td rowspan="3">Verification</td><td>Verify signed hash</td><td>BOOL SOF_VerifySignedHashData(BSTR Base64Cert, BSTR Base64HashData, BSTR SignValue, LONG HashAlg)</td><td>ok = obj.SOF_VerifySignedHashData(Base64Cert, Base64HashData, SignValue, HashAlg)</td><td>Base64Cert: signer cert; SignValue: signature (Base64)</td><td>BOOL (TRUE=valid)</td></tr>
+    <tr><td>Verify signed raw data</td><td>BOOL SOF_VerifySignedData(BSTR Base64Cert, BSTR InData, LONG InDataType, BSTR SignValue)</td><td>ok = obj.SOF_VerifySignedData(Base64Cert, InData, InDataType, SignValue)</td><td>InData: original data; SignValue: signature</td><td>BOOL (TRUE=valid)</td></tr>
+    <tr><td>Verify signed XML</td><td>BOOL SOF_VerifySignedXML(BSTR Base64Cert, BSTR SignedXML)</td><td>ok = obj.SOF_VerifySignedXML(Base64Cert, SignedXML)</td><td>SignedXML: signed XML document</td><td>BOOL (TRUE=valid)</td></tr>
+    <tr><td rowspan="2">Hash / Encoding Utilities</td><td>Compute digest</td><td>BSTR SOF_HashData(BSTR InData, LONG InDataType, LONG HashAlg)</td><td>digest = obj.SOF_HashData(InData, InDataType, HashAlg)</td><td>HashAlg: hash algorithm id</td><td>Returns Base64 digest (BSTR)</td></tr>
+    <tr><td>Base64 encode</td><td>BSTR SOF_Base64Encode(BSTR InData, LONG InDataType)</td><td>b64 = obj.SOF_Base64Encode(InData, InDataType)</td><td>InDataType indicates text/binary</td><td>Returns Base64 string (BSTR)</td></tr>
+  </tbody>
+</table>

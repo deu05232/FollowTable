@@ -1,0 +1,17 @@
+<table>
+  <caption>Session Diagnostics Enums: Tracking State Mixed with Feature Modes</caption>
+  <thead>
+    <tr><th>Enum Group</th><th>Constant</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">TrackingState</td><td>ARTRACKING_STATE_SUCCESS</td><td>0</td><td>Normal tracking state</td></tr>
+    <tr><td>ARTRACKING_STATE_LOST</td><td>1</td><td>Tracking lost state</td></tr>
+    <tr><td>ARTRACKING_STATE_STOPPED</td><td>2</td><td>Stopped tracking state</td></tr>
+    <tr><td rowspan="3">LightEstimationMode</td><td>AR_LIGHT_ESTIMATION_MODE_DISABLED</td><td>0</td><td>Light estimation disabled</td></tr>
+    <tr><td>AR_LIGHT_ESTIMATION_MODE_AMBIENT_INTENSITY</td><td>1</td><td>Single-value intensity + RGB correction</td></tr>
+    <tr><td>AR_LIGHT_ESTIMATION_MODE_ENVIRONMENTAL_HDR</td><td>2</td><td>HDR lighting estimation</td></tr>
+    <tr><td rowspan="3">AugmentedFaceMode</td><td>AR_AUGMENTED_FACE_MODE_DISABLED</td><td>0</td><td>Disable face augmentation</td></tr>
+    <tr><td>AR_AUGMENTED_FACE_MODE_MESH3D</td><td>2</td><td>Enable 3D face mesh</td></tr>
+    <tr><td>AR_AUGMENTED_FACE_MODE_REGION_MESH</td><td>3</td><td>Enable region-based mesh</td></tr>
+  </tbody>
+</table>

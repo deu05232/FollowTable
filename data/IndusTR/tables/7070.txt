@@ -1,0 +1,16 @@
+<table>
+  <caption>Vehicle-Centric Cooperative Awareness Record (Reported via RSU)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Primary Entity</th><th>Field</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Vehicle</td><td>Vehicle ID</td><td>-</td><td>Unique vehicle identifier in the session</td></tr>
+    <tr><td>2</td><td>Vehicle</td><td>Timestamp</td><td>ms</td><td>Vehicle state time</td></tr>
+    <tr><td>3</td><td>Vehicle</td><td>Vehicle Latitude</td><td>deg</td><td>Current latitude</td></tr>
+    <tr><td>4</td><td>Vehicle</td><td>Vehicle Longitude</td><td>deg</td><td>Current longitude</td></tr>
+    <tr><td>5</td><td>Vehicle</td><td>Heading</td><td>deg</td><td>Course over ground</td></tr>
+    <tr><td>6</td><td>Vehicle</td><td>Speed</td><td>m/s</td><td>Instantaneous speed</td></tr>
+    <tr><td>7</td><td>RSU (metadata)</td><td>Receiving RSU ID</td><td>-</td><td>RSU that received/forwarded the record</td></tr>
+    <tr><td>8</td><td>RSU (metadata)</td><td>RSU Reference Position (Lat/Lon)</td><td>deg</td><td>Installation reference (optional)</td></tr>
+  </tbody>
+</table>

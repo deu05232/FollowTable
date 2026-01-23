@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Process Parameters for Electric Compressor Assembly Line (Workstations and Tool Settings)</caption>
+  <thead>
+    <tr><th>Station</th><th>Process</th><th>Equipment</th><th>Key Setting</th><th>Cycle Time (s)</th><th>Control Plan</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>S10</td><td>Stator press-fit</td><td>Servo press 50 kN</td><td>Force 18.0 kN</td><td>22</td><td>100% force curve</td><td>CP-S10-01</td></tr>
+    <tr><td>S20</td><td>Rotor balancing</td><td>Dynamic balancer</td><td>Residual unbalance ≤ 1.5 g·mm</td><td>45</td><td>100% balance report</td><td>CP-S20-03</td></tr>
+    <tr><td>S30</td><td>Shaft seal insertion</td><td>Pneumatic inserter</td><td>Insertion depth 6.2 mm</td><td>18</td><td>Go/No-Go gauge</td><td>CP-S30-02</td></tr>
+    <tr><td>S40</td><td>Oil filling</td><td>Gravimetric dispenser</td><td>Fill mass 160 ± 5 g</td><td>30</td><td>SPC every 50 pcs</td><td>CP-S40-05</td></tr>
+    <tr><td>S50</td><td>Inverter mounting</td><td>Torque tool</td><td>Torque 9.0 ± 0.5 N·m</td><td>28</td><td>100% torque trace</td><td>CP-S50-04</td></tr>
+    <tr><td>S60</td><td>End-of-line leak check</td><td>Helium tester</td><td>Test pressure 1.6 MPa</td><td>60</td><td>Pass/Fail only</td><td>CP-S60-01</td></tr>
+  </tbody>
+</table>

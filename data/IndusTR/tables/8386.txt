@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre PHY Timing Compliance (UI-Based Limits)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Symbol</th><th>Near-end Min</th><th>Near-end Max</th><th>Far-end Min</th><th>Far-end Max</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Sampling point offset</td><td>X1</td><td>0.16</td><td>0.20</td><td>0.26</td><td>0.32</td><td>UI</td><td>Measured relative to recovered clock</td></tr>
+    <tr><td>Decision threshold window</td><td>X2</td><td>0.38</td><td>0.42</td><td>0.44</td><td>0.52</td><td>UI</td><td>Applies to NRZ electrical lane</td></tr>
+    <tr><td>Jitter tolerance corner</td><td>JT1</td><td>0.05</td><td>0.10</td><td>0.06</td><td>0.12</td><td>UI</td><td>Sinusoidal jitter injected</td></tr>
+    <tr><td>Jitter transfer bandwidth</td><td>JTBW</td><td></td><td>0.70</td><td></td><td>0.70</td><td>MHz</td><td>PLL corner frequency</td></tr>
+    <tr><td>Rise/Fall symmetry</td><td>SYM</td><td>-0.05</td><td>+0.05</td><td>-0.05</td><td>+0.05</td><td>UI</td><td>Computed from 20–80% points</td></tr>
+    <tr><td>Eye mask margin (horizontal)</td><td>HM</td><td>0.10</td><td></td><td>0.08</td><td></td><td>UI</td><td>Mask per receiver category</td></tr>
+    <tr><td>Eye mask margin (vertical)</td><td>VM</td><td>80</td><td></td><td>60</td><td></td><td>mV</td><td>Electrical amplitude margin</td></tr>
+  </tbody>
+</table>

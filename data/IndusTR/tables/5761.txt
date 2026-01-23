@@ -1,0 +1,15 @@
+<table>
+  <caption>Nickel Concentrate — Inspection and Acceptance Requirements (Methods, Frequency, Shipment)</caption>
+  <thead>
+    <tr><th>Item</th><th>Requirement</th><th>Inspection frequency</th><th>Sample preparation</th><th>Test method</th><th>Acceptance / action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Lot definition</td><td>One lot = 200 t (max)</td><td>Per shipment</td><td>N/A</td><td>N/A</td><td>Separate lots by vessel hold</td></tr>
+    <tr><td>Sampling</td><td>Incremental sampling across stream</td><td>Every 2 h</td><td>Composite to 10 kg</td><td>ISO 10251</td><td>Reject if protocol not met</td></tr>
+    <tr><td>Moisture</td><td>Report value; target ≤ 9%</td><td>Per lot</td><td>Oven-dry</td><td>ISO 10251</td><td>Hold shipment if > 12%</td></tr>
+    <tr><td>Arsenic (As)</td><td>Screen only; internal alert at 0.40%</td><td>Per lot</td><td>Acid digestion</td><td>ICP-OES</td><td>Escalate for risk review</td></tr>
+    <tr><td>Cadmium (Cd)</td><td>Screen only; internal alert at 0.020%</td><td>Per lot</td><td>Acid digestion</td><td>ICP-OES</td><td>Escalate for risk review</td></tr>
+    <tr><td>Mercury (Hg)</td><td>Screen only; internal alert at 0.002%</td><td>Per lot</td><td>Cold-vapor prep</td><td>CV-AAS</td><td>Escalate for risk review</td></tr>
+    <tr><td>Documentation</td><td>Provide CoA, bill of lading, MSDS</td><td>Per shipment</td><td>N/A</td><td>N/A</td><td>Do not unload without documents</td></tr>
+  </tbody>
+</table>

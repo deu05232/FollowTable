@@ -1,0 +1,18 @@
+<table>
+  <caption>Curing Press Cycle Record Data Structure (PLC/SCADA Schema)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Data Structure Name</th><th>Field Name</th><th>Data Type</th><th>Data Length (bit)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="10">Curing Press Cycle Record</td><td>PressID</td><td>INT</td><td>16</td><td>Unique curing press identifier</td></tr>
+    <tr><td>2</td><td>CycleCounter</td><td>DINT</td><td>32</td><td>Incrementing cycle number on the press</td></tr>
+    <tr><td>3</td><td>GreenTireBarcode</td><td>STR</td><td>User-defined</td><td>Green tire barcode/string ID</td></tr>
+    <tr><td>4</td><td>MoldCode</td><td>INT</td><td>16</td><td>Mold identification code</td></tr>
+    <tr><td>5</td><td>RecipeNo</td><td>INT</td><td>16</td><td>Curing recipe number used for the cycle</td></tr>
+    <tr><td>6</td><td>SetCureTime_s</td><td>DINT</td><td>32</td><td>Configured cure time in seconds</td></tr>
+    <tr><td>7</td><td>ActualCureTime_s</td><td>DINT</td><td>32</td><td>Measured cure time in seconds</td></tr>
+    <tr><td>8</td><td>MaxBladderPressure_kPa</td><td>REAL</td><td>32</td><td>Peak bladder pressure during the cycle</td></tr>
+    <tr><td>9</td><td>MaxSteamTemp_C</td><td>REAL</td><td>32</td><td>Peak steam temperature during the cycle</td></tr>
+    <tr><td>10</td><td>CycleResult</td><td>INT</td><td>16</td><td>Result code (pass/fail/status) stored as integer</td></tr>
+  </tbody>
+</table>

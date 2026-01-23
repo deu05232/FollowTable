@@ -1,0 +1,10 @@
+<table>
+  <tr><td>Relationship Name</td><td>Relationship between the Agricultural Insurance Underwriting Policy Details Table and the Agricultural Insurance Claim Business Details Table (Including Machinery Subsidy References)</td></tr>
+  <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+  <tr><td>Table Name 1</td><td>Agricultural Insurance Underwriting Policy Details Table</td></tr>
+  <tr><td>Table Name 2</td><td>Agricultural Insurance Claim Business Details Table</td></tr>
+  <tr><td>Join Key Field 1</td><td>policy_no</td></tr>
+  <tr><td>Join Key Field 2</td><td>insured_id</td></tr>
+  <tr><td>Additional Linked Attributes</td><td>related_subsidy_application_id, subsidy_program_code</td></tr>
+  <tr><td>Relationship Notes</td><td>An insurance-focused association that mentions machinery subsidy references but does not link to invoice or disbursement tables.</td></tr>
+</table>

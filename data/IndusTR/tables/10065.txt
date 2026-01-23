@@ -1,0 +1,7 @@
+<table>
+  <caption>Conformance test procedure by clause (GB/T 33475.2—2024)</caption>
+  <tr><th>Clause</th><th>What to do</th></tr>
+  <tr><td>8.3.3.1</td><td>Enable CABAC decoding and validate context initialization before parsing each slice.</td></tr>
+  <tr><td>8.3.3.2</td><td>Check that all bypass bins are consumed in the expected order for the given syntax structure.</td></tr>
+  <tr><td>8.3.3.3</td><td>Verify that termination and stuffing are handled at the end of the bitstream.</td></tr>
+</table>

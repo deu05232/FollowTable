@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Configuration Parameters (Environment Understanding Toggles)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th><th>Default</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>AR session handle used to apply configuration</td><td>n/a</td></tr>
+    <tr><td>config</td><td>ArConfig *</td><td>Configuration object to be populated</td><td>n/a</td></tr>
+    <tr><td>enable_plane_finding</td><td>ArPlaneFindingMode</td><td>Controls plane detection behavior (horizontal/vertical)</td><td>DISABLED</td></tr>
+    <tr><td>enable_depth</td><td>ArDepthMode</td><td>Turns depth-based scene reconstruction on/off</td><td>DISABLED</td></tr>
+    <tr><td>enable_dense_spatial_mapping</td><td>ArSpatialMappingMode</td><td>Enables dense mesh generation pipeline</td><td>OFF</td></tr>
+    <tr><td>enable_sparse_spatial_mapping</td><td>ArSpatialMappingMode</td><td>Enables sparse feature map output</td><td>OFF</td></tr>
+    <tr><td>light_estimation_mode</td><td>ArLightEstimationMode</td><td>Selects lighting estimation algorithm/mode</td><td>DISABLED</td></tr>
+    <tr><td>update_mode</td><td>ArUpdateMode</td><td>Controls when frames are updated (blocking/latest)</td><td>LATEST_CAMERA_IMAGE</td></tr>
+  </tbody>
+</table>

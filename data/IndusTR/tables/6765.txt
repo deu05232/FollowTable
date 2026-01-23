@@ -1,0 +1,17 @@
+<table>
+  <caption>Terminal Application File: Cryptographic Material and IV Registry</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item</th><th>Length (bytes)</th><th>Encoding / Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Initialization Vectors</td><td>IV_1 Index</td><td>6</td><td>Binary</td><td>Index identifier of the primary initialization vector</td></tr>
+    <tr><td>IV_1 Value</td><td>16</td><td>Raw bytes</td><td>Primary initialization vector material used by the terminal</td></tr>
+    <tr><td>IV_1 Status</td><td>1</td><td>Bitmask</td><td>00=valid, 01=deprecated, 10=replaced</td></tr>
+    <tr><td rowspan="3">Initialization Vectors</td><td>IV_2 Index</td><td>6</td><td>Binary</td><td>Index identifier of the backup initialization vector</td></tr>
+    <tr><td>IV_2 Value</td><td>16</td><td>Raw bytes</td><td>Backup initialization vector material used by the terminal</td></tr>
+    <tr><td>IV_2 Rotation Counter</td><td>2</td><td>Unsigned integer</td><td>Counts IV rotations to prevent reuse</td></tr>
+    <tr><td rowspan="3">Key Wrapping</td><td>Key-Encrypting Key (KEK) ID</td><td>1</td><td>Unsigned integer</td><td>Selects which KEK is used to wrap application keys</td></tr>
+    <tr><td>Wrapped Session Key Blob</td><td>32</td><td>Encrypted bytes</td><td>Encrypted session key material stored for later decryption</td></tr>
+    <tr><td>Crypto Suite Identifier</td><td>2</td><td>Enum</td><td>Identifies the cipher/MAC suite used by the terminal</td></tr>
+  </tbody>
+</table>

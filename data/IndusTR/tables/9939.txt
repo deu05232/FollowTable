@@ -1,0 +1,11 @@
+<table>
+  <caption>Ski Assessment Scoring Rubric: Deductions Driven by Missed Gates and Off-Line Travel</caption>
+  <tr><th>Criterion</th><th>Measurement</th><th>Pass Threshold</th><th>Common Deductions</th></tr>
+  <tr><td rowspan="2">Gate Compliance</td><td>Gate count cleared</td><td>0 missed gates</td><td>-5 per missed gate</td></tr>
+  <tr><td>Correct order</td><td>No out-of-sequence clears</td><td>Automatic fail if any gate is taken out of order</td></tr>
+  <tr><td rowspan="2">Intended Line Accuracy</td><td>Distance from set line</td><td>≤ 1.5 m average deviation</td><td>-1 each time deviation > 2.5 m</td></tr>
+  <tr><td>High/low entry at gate</td><td>≤ 1 m from planned entry point</td><td>-2 for each gate entered > 1.5 m high/low</td></tr>
+  <tr><td rowspan="2">Course Boundary Control</td><td>Corridor exits</td><td>0 boundary exits</td><td>-3 per exit beyond boundary tape</td></tr>
+  <tr><td>Finish control</td><td>Finish through marked chute</td><td>Fail if finish is not crossed through chute</td></tr>
+  <tr><td>Consistency Across Runs</td><td>Repeatability</td><td>Meet all route criteria on 2 of 3 runs</td><td>Fail if only 1 run meets route criteria</td></tr>
+</table>

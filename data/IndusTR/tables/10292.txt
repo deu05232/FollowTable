@@ -1,0 +1,15 @@
+<table>
+  <caption>Casting Design Examples: Mixed Comparison (Not Side-by-Side Proper/Improper)</caption>
+  <thead>
+    <tr><th>Design Topic</th><th>Example A</th><th>Example B</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Rib thickness</td><td>Rib thickness = 0.8× wall thickness</td><td>Rib thickness = 1.6× wall thickness</td><td>One option may be acceptable depending on alloy and feeding (not explicitly labeled)</td></tr>
+    <tr><td>Corner radius</td><td>Internal radius R = 2 mm</td><td>Internal radius R = 12 mm</td><td>Larger radius generally improves flow and reduces stress, but acceptability is not stated</td></tr>
+    <tr><td>Boss placement</td><td>Boss near a thick junction</td><td>Boss aligned with thin wall</td><td>Depends on machining and core strategy; no explicit good/bad callout</td></tr>
+    <tr><td>Hole design</td><td>Blind hole with flat bottom</td><td>Through hole</td><td>Both are shown as alternatives without marking unacceptable cases</td></tr>
+    <tr><td>Section change</td><td>Step change of 8 mm</td><td>Tapered change over 30 mm</td><td>Transition style comparison is shown but not categorized as proper/improper</td></tr>
+    <tr><td>Parting line</td><td>Parting line across functional face</td><td>Parting line on non-functional edge</td><td>Good practice implied in text only; not a strict two-column contrast</td></tr>
+    <tr><td>Machining surfaces</td><td>Machined face without flange</td><td>Machined face with supporting flange</td><td>Needs explicit proper/improper labeling to be scannable</td></tr>
+  </tbody>
+</table>

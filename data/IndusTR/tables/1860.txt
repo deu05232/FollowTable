@@ -1,0 +1,15 @@
+<table>
+  <caption>Video and Image Monitored Person Object Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Person Object Identifier</td><td>rydxbz</td><td>c48</td><td>Should comply with the coding rules specified in C.3; person objects in the image should preferably generate identifiers in order from left to right and from top to bottom</td><td></td></tr>
+  <tr><td>2</td><td>Source Identifier</td><td>lybz</td><td>c41</td><td>Coding of the video segment or image collecting the person object; should comply with the coding rules specified in C.2; multi-valued</td><td></td></tr>
+  <tr><td>3</td><td>Person Object Collection Method Code</td><td>rydxcjfsdm</td><td>c1</td><td>Should comply with D.16</td><td></td></tr>
+  <tr><td>4</td><td>Top-Left Corner_X Coordinate</td><td>zsj_xzb</td><td>n..8</td><td>Horizontal coordinate of the top-left corner of the person thumbnail bounding box, unit: pixel; taking the top-left pixel of the image as the origin, horizontal right is the positive direction of the X axis, and vertical downward is the positive direction of the Y axis</td><td></td></tr>
+  <tr><td>5</td><td>Top-Left Corner_Y Coordinate</td><td>zsj_yzb</td><td>n.8</td><td>Vertical coordinate of the top-left corner of the person thumbnail bounding box, unit: pixel</td><td></td></tr>
+  <tr><td>6</td><td>Bottom-Right Corner_X Coordinate</td><td>yxj_xzb</td><td>n..8</td><td>Horizontal coordinate of the bottom-right corner of the person thumbnail bounding box, unit: pixel</td><td></td></tr>
+  <tr><td>7</td><td>Bottom-Right Corner_Y Coordinate</td><td>yxj_yzb</td><td>n..8</td><td>Vertical coordinate of the bottom-right corner of the person thumbnail bounding box, unit: pixel</td><td></td></tr>
+  <tr><td>8</td><td>Location Mark_Date Time</td><td>wzbj_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>9</td><td>Appearance_Date Time</td><td>cx_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>10</td><td>Disappearance_Date Time</td><td>xs_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>11</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Coding of the person thumbnail or the full image containing the person; should comply with the coding rules specified in C.2; multi-valued</td><td></td></tr>
+</table>

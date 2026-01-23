@@ -1,0 +1,18 @@
+<table>
+  <caption>Standard-Style Test Workflow for Copier/MFD Energy Use (TEC + Operational Modes)</caption>
+  <thead>
+    <tr><th>Step</th><th>Initial state</th><th>Action to perform</th><th>Record (at end of step)</th><th>Unit</th><th>Resulting device state</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Disconnected from meter</td><td>Connect the device to a calibrated power meter and to the AC supply. Configure the meter to log average power and cumulative energy at 1 s to 10 s intervals.</td><td>Meter model/serial, logging interval, start timestamp</td><td>text</td><td>Off</td></tr>
+    <tr><td>2</td><td>Off</td><td>Verify the device is in its lowest manual-off condition (main power switch off if present). Allow the meter to stabilize for at least 5 minutes.</td><td>Off-mode energy over stabilization window, elapsed time</td><td>Wh, min</td><td>Off</td></tr>
+    <tr><td>3</td><td>Off</td><td>Switch the device on and wait until it reaches Ready. If no Ready indicator exists, treat Ready as the point at which power becomes stable within a chosen tolerance for 5 minutes.</td><td>Time to Ready, Ready-state average power</td><td>min, W</td><td>Ready</td></tr>
+    <tr><td>4</td><td>Ready</td><td>Measure Ready power for a defined dwell period (e.g., 10 minutes) without user interaction.</td><td>Ready energy and average power over dwell period</td><td>Wh, W</td><td>Ready</td></tr>
+    <tr><td>5</td><td>Ready</td><td>Initiate the default idle-to-sleep transition by leaving the device untouched. Monitor until the first Sleep level is reached.</td><td>Default delay time to Sleep 1, Sleep 1 average power</td><td>min, W</td><td>Sleep 1</td></tr>
+    <tr><td>6</td><td>Sleep 1</td><td>If a deeper sleep level exists, continue to idle until the next level is reached; otherwise, mark as not applicable and proceed.</td><td>Delay time to Sleep 2 (or N/A), Sleep 2 average power (or N/A)</td><td>min, W</td><td>Sleep 2 or N/A</td></tr>
+    <tr><td>7</td><td>Sleep (deepest available)</td><td>Trigger wake-up using the standard method (press a wake button or send a print job) and wait until Ready is regained.</td><td>Wake-up time to Ready, peak power during wake (optional)</td><td>min, W</td><td>Ready</td></tr>
+    <tr><td>8</td><td>Ready</td><td>Run the representative job sequence (print/copy/scan per the chosen test plan). Keep the job set identical across units.</td><td>Total job energy, number of pages/images, job duration</td><td>Wh, count, min</td><td>Active/Processing</td></tr>
+    <tr><td>9</td><td>Job complete / Idle</td><td>Allow the device to return to its default low-power behavior without interaction until it settles at the deepest sleep level again.</td><td>Post-job delay times and stabilized sleep power(s)</td><td>min, W</td><td>Sleep (deepest)</td></tr>
+    <tr><td>10</td><td>Sleep (deepest)</td><td>End the test interval and export meter logs. If the procedure requires TEC, compute daily energy using the recorded mode powers and measured delay times.</td><td>Exported log file name, total cumulative energy, calculated TEC value (if applicable)</td><td>text, Wh, kWh/day</td><td>Test complete</td></tr>
+  </tbody>
+</table>

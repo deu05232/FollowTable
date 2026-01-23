@@ -1,0 +1,15 @@
+<table>
+  <caption>ATP hydrolysis energetics with enzyme-dependent kinetic context</caption>
+  <thead>
+    <tr><th>System / Condition</th><th>Reaction</th><th>ΔG°' (kJ/mol)</th><th>ΔG (kJ/mol)</th><th>kcat (s^-1)</th><th>Km,ATP (mM)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Standard biochemical state (25°C, pH 7, 1 mM Mg2+)</td><td>ATP + H2O → ADP + Pi</td><td>-30.5</td><td>n/a</td><td>n/a</td><td>n/a</td><td>Reference textbook value</td></tr>
+    <tr><td>Cell-like cytosol (high [ATP]/[ADP][Pi])</td><td>ATP + H2O → ADP + Pi</td><td>-30.5</td><td>-50.0</td><td>n/a</td><td>n/a</td><td>Example nonstandard free energy estimate</td></tr>
+    <tr><td>Myosin ATPase (skeletal)</td><td>ATP + H2O → ADP + Pi</td><td>-30.5</td><td>-48.0</td><td>15</td><td>0.05</td><td>Includes catalytic turnover</td></tr>
+    <tr><td>Kinesin-1 ATPase</td><td>ATP + H2O → ADP + Pi</td><td>-30.5</td><td>-47.0</td><td>80</td><td>0.02</td><td>Motor-protein context</td></tr>
+    <tr><td>Na+/K+-ATPase</td><td>ATP + H2O → ADP + Pi</td><td>-30.5</td><td>-45.0</td><td>100</td><td>0.30</td><td>Coupled to ion transport</td></tr>
+    <tr><td>F1-ATPase (hydrolysis mode)</td><td>ATP + H2O → ADP + Pi</td><td>-30.5</td><td>-49.0</td><td>200</td><td>0.10</td><td>Rotary ATPase kinetics included</td></tr>
+    <tr><td>Creatine kinase direction (ATP buffering)</td><td>ATP + Cr → ADP + PCr</td><td>-12.6</td><td>-3.0</td><td>250</td><td>0.15</td><td>Phosphagen system (not only hydrolysis)</td></tr>
+  </tbody>
+</table>

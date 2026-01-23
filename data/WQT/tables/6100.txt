@@ -1,0 +1,23 @@
+# List of rules of inference
+> Table : Rules of Inference
+
+| Rules of inference | Tautology | Name |
+| --- | --- | --- |
+| p p → q ∴ q ¯ {\displaystyle {\begin{aligned}p\\p\rightarrow q\\\therefore {\overline {q\quad \quad \quad }}\\\end{aligned}}} | ( ( p ∧ ( p → q ) ) → q {\displaystyle ((p\wedge (p\rightarrow q))\rightarrow q} | Modus ponens |
+| ¬ q p → q ∴ ¬ p ¯ {\displaystyle {\begin{aligned}\neg q\\p\rightarrow q\\\therefore {\overline {\neg p\quad \quad \quad }}\\\end{aligned}}} | ( ( ¬ q ∧ ( p → q ) ) → ¬ p {\displaystyle ((\neg q\wedge (p\rightarrow q))\rightarrow \neg p} | Modus tollens |
+| ( p ∨ q ) ∨ r ∴ p ∨ ( q ∨ r ) ¯ {\displaystyle {\begin{aligned}(p\vee q)\vee r\\\therefore {\overline {p\vee (q\vee r)}}\\\end{aligned}}} | ( ( p ∨ q ) ∨ r ) → ( p ∨ ( q ∨ r ) ) {\displaystyle ((p\vee q)\vee r)\rightarrow (p\vee (q\vee r))} | Associative |
+| p ∧ q ∴ q ∧ p ¯ {\displaystyle {\begin{aligned}p\wedge q\\\therefore {\overline {q\wedge p}}\\\end{aligned}}} | ( p ∧ q ) → ( q ∧ p ) {\displaystyle (p\wedge q)\rightarrow (q\wedge p)} | Commutative |
+| p → q q → p ∴ p ↔ q ¯ {\displaystyle {\begin{aligned}p\rightarrow q\\q\rightarrow p\\\therefore {\overline {p\leftrightarrow q}}\\\end{aligned}}} | ( ( p → q ) ∧ ( q → p ) ) → ( p ↔ q ) {\displaystyle ((p\rightarrow q)\wedge (q\rightarrow p))\rightarrow (\ p\leftrightarrow q)} | Law of biconditional propositions |
+| ( p ∧ q ) → r ∴ p → ( q → r ) ¯ {\displaystyle {\begin{aligned}(p\wedge q)\rightarrow r\\\therefore {\overline {p\rightarrow (q\rightarrow r)}}\\\end{aligned}}} | ( ( p ∧ q ) → r ) → ( p → ( q → r ) ) {\displaystyle ((p\wedge q)\rightarrow r)\rightarrow (p\rightarrow (q\rightarrow r))} | Exportation |
+| p → q ∴ ¬ q → ¬ p ¯ {\displaystyle {\begin{aligned}p\rightarrow q\\\therefore {\overline {\neg q\rightarrow \neg p}}\\\end{aligned}}} | ( p → q ) → ( ¬ q → ¬ p ) {\displaystyle (p\rightarrow q)\rightarrow (\neg q\rightarrow \neg p)} | Transposition or contraposition law |
+| p → q q → r ∴ p → r ¯ {\displaystyle {\begin{aligned}p\rightarrow q\\q\rightarrow r\\\therefore {\overline {p\rightarrow r}}\\\end{aligned}}} | ( ( p → q ) ∧ ( q → r ) ) → ( p → r ) {\displaystyle ((p\rightarrow q)\wedge (q\rightarrow r))\rightarrow (p\rightarrow r)} | Hypothetical syllogism |
+| p → q ∴ ¬ p ∨ q ¯ {\displaystyle {\begin{aligned}p\rightarrow q\\\therefore {\overline {\neg p\vee q}}\\\end{aligned}}} | ( p → q ) → ( ¬ p ∨ q ) {\displaystyle (p\rightarrow q)\rightarrow (\neg p\vee q)} | Material implication |
+| ( p ∨ q ) ∧ r ∴ ( p ∧ r ) ∨ ( q ∧ r ) ¯ {\displaystyle {\begin{aligned}(p\vee q)\wedge r\\\therefore {\overline {(p\wedge r)\vee (q\wedge r)}}\\\end{aligned}}} | ( ( p ∨ q ) ∧ r ) → ( ( p ∧ r ) ∨ ( q ∧ r ) ) {\displaystyle ((p\vee q)\wedge r)\rightarrow ((p\wedge r)\vee (q\wedge r))} | Distributive |
+| p → q ∴ p → ( p ∧ q ) ¯ {\displaystyle {\begin{aligned}p\rightarrow q\\\therefore {\overline {p\rightarrow (p\wedge q)}}\\\end{aligned}}} | ( p → q ) → ( p → ( p ∧ q ) ) {\displaystyle (p\rightarrow q)\rightarrow (p\rightarrow (p\wedge q))} | Absorption |
+| p ∨ q ¬ p ∴ q ¯ {\displaystyle {\begin{aligned}p\vee q\\\neg p\\\therefore {\overline {q\quad \quad \quad }}\\\end{aligned}}} | ( ( p ∨ q ) ∧ ¬ p ) → q {\displaystyle ((p\vee q)\wedge \neg p)\rightarrow q} | Disjunctive syllogism |
+| p ∴ p ∨ q ¯ {\displaystyle {\begin{aligned}p\\\therefore {\overline {p\vee q}}\\\end{aligned}}} | p → ( p ∨ q ) {\displaystyle p\rightarrow (p\vee q)} | Addition |
+| p ∧ q ∴ p ¯ {\displaystyle {\begin{aligned}p\wedge q\\\therefore {\overline {p\quad \quad \quad }}\\\end{aligned}}} | ( p ∧ q ) → p {\displaystyle (p\wedge q)\rightarrow p} | Simplification |
+| p q ∴ p ∧ q ¯ {\displaystyle {\begin{aligned}p\\q\\\therefore {\overline {p\wedge q}}\\\end{aligned}}} | ( ( p ) ∧ ( q ) ) → ( p ∧ q ) {\displaystyle ((p)\wedge (q))\rightarrow (p\wedge q)} | Conjunction |
+| p ∴ ¬ ¬ p ¯ {\displaystyle {\begin{aligned}p\\\therefore {\overline {\neg \neg p}}\\\end{aligned}}} | p → ( ¬ ¬ p ) {\displaystyle p\rightarrow (\neg \neg p)} | Double negation |
+| p ∨ p ∴ p ¯ {\displaystyle {\begin{aligned}p\vee p\\\therefore {\overline {p\quad \quad \quad }}\\\end{aligned}}} | ( p ∨ p ) → p {\displaystyle (p\vee p)\rightarrow p} | Disjunctive simplification |
+| p ∨ q ¬ p ∨ r ∴ q ∨ r ¯ {\displaystyle {\begin{aligned}p\vee q\\\neg p\vee r\\\therefore {\overline {q\vee r}}\\\end{aligned}}} | ( ( p ∨ q ) ∧ ( ¬ p ∨ r ) ) → ( q ∨ r ) {\displaystyle ((p\vee q)\wedge (\neg p\vee r))\rightarrow (q\vee r)} | Resolution |

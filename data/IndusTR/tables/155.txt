@@ -1,0 +1,11 @@
+<table>
+  <caption>Augmented Reality 2D Coordinate System Type Enumeration</caption>
+  <tr><td>2D coordinate system type description</td><td>Reference naming and value assignment</td></tr>
+  <tr><td>2D coordinate system of GPU texture</td><td>AR_COORDINATES_2D_TEXTURE_TEXELS = 0</td></tr>
+  <tr><td>Normalized 2D coordinate system of GPU texture</td><td>AR_COORDINATES_2D_TEXTURE_NORMALIZED = 1</td></tr>
+  <tr><td>2D coordinate system of CPU image</td><td>AR_COORDINATES_2D_IMAGE_PIXELS = 2</td></tr>
+  <tr><td>Normalized 2D coordinate system of CPU image</td><td>AR_COORDINATES_2D_IMAGE_NORMALIZED = 3</td></tr>
+  <tr><td>Normalized device coordinates for display rotation</td><td>AR_COORDINATES_2D_NORMALIZED_DEVICE_COORDINATES = 6</td></tr>
+  <tr><td>2D coordinate system for view display rotation</td><td>AR_COORDINATES_2D_VIEW = 7</td></tr>
+  <tr><td>Normalized 2D coordinate system for view display rotation</td><td>AR_COORDINATES_2D_VIEW_NORMALIZED = 8</td></tr>
+</table>

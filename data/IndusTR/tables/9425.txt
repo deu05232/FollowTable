@@ -1,0 +1,14 @@
+<table>
+  <caption>Construction Machinery OID (1.2.156.3514): Existing Identification System Node Allocation and Mapping</caption>
+  <thead>
+    <tr><th>OID prefix</th><th>Allocation block</th><th>Node value</th><th>Mapped identification system</th><th>Identifier format / example</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">1.2.156.3514</td><td rowspan="6">Existing identification systems (1001–2000)</td><td>1001</td><td>Handle</td><td>hdl:20.500.12345/CM-EX-0001</td><td>Used to map Handle IDs into this OID space</td></tr>
+    <tr><td>1002</td><td>Ecode</td><td>Ecode:6901234567890</td><td>Maps Ecode-style product/asset codes</td></tr>
+    <tr><td>1003</td><td>Unified Social Credit Code (USCC)</td><td>USCC:913203016770124928</td><td>Maps PRC organization identifiers</td></tr>
+    <tr><td>1004</td><td>GS1 GTIN</td><td>GTIN:06901234567890</td><td>Maps GS1 trade item numbers when used for machinery parts</td></tr>
+    <tr><td>1005</td><td>VIN (Vehicle Identification Number)</td><td>VIN:LJ12ABC34DE567890</td><td>For construction-vehicle derived machinery using VIN</td></tr>
+    <tr><td>1006</td><td>Serial Number (manufacturer serial)</td><td>SN:EXC-2025-00001234</td><td>Generic serial-number mapping bucket</td></tr>
+  </tbody>
+</table>

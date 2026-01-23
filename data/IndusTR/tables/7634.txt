@@ -1,0 +1,7 @@
+<table>
+  <caption>Invalid character sequence examples for Mongolian variation selectors</caption>
+  <tr><th>Invalid case</th><th>Display form</th><th>What was typed</th><th>Why invalid</th></tr>
+  <tr><td>Case 1</td><td>(display)</td><td>MVS + unrelated letter</td><td>Selector not permitted here</td></tr>
+  <tr><td>Case 2</td><td>(display)</td><td>Repeated selectors</td><td>Multiple selectors not allowed</td></tr>
+  <tr><td>Case 3</td><td>(display)</td><td>Selector at end of word</td><td>Must precede a base letter</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitary Equipment Operating Mode Domain Codes</caption>
+  <thead>
+    <tr><th>Operating Mode Code</th><th>Official Name / Meaning</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MAN</td><td>Manual Operation</td><td>User actuates the device directly (no powered actuation).</td></tr>
+    <tr><td>AUT</td><td>Automatic Cycle</td><td>Device runs a predefined sequence based on internal logic.</td></tr>
+    <tr><td>SEN</td><td>Sensor-Triggered</td><td>Activation occurs when an IR/proximity/optical sensor detects a user.</td></tr>
+    <tr><td>TIM</td><td>Timed Dispense</td><td>Dispense/flush duration controlled by a timer parameter.</td></tr>
+    <tr><td>PUL</td><td>Pulsed Operation</td><td>Flow is delivered in pulses to reduce splash and save water/soap.</td></tr>
+    <tr><td>ECO</td><td>Eco / Water-Saving Mode</td><td>Reduced volume/flow profile compared with standard mode.</td></tr>
+    <tr><td>HYG</td><td>Hygiene / Self-Clean Mode</td><td>Runs a cleaning/rinse routine (often after idle time).</td></tr>
+    <tr><td>SVC</td><td>Service / Maintenance Mode</td><td>Used for calibration, priming, or testing; typically restricted access.</td></tr>
+  </tbody>
+</table>

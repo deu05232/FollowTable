@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Runtime Crash Telemetry Summary (Last 7 Days)</caption>
+  <tr><th>Crash Signature</th><th>Occurrences</th><th>Top OS Version</th><th>Top Device</th><th>App Version</th></tr>
+  <tr><td>NullPointer in TrackingSession::Update()</td><td>184</td><td>Android 14</td><td>Galaxy S24</td><td>5.2.1</td></tr>
+  <tr><td>GPU Driver Timeout</td><td>97</td><td>Android 13</td><td>Pixel 8</td><td>5.2.1</td></tr>
+  <tr><td>Camera permission denied</td><td>66</td><td>iOS 17</td><td>iPhone 15</td><td>5.2.0</td></tr>
+  <tr><td>AR session init failed</td><td>51</td><td>Android 12</td><td>Xiaomi 14</td><td>5.1.9</td></tr>
+  <tr><td>OutOfMemory during mesh update</td><td>33</td><td>Android 14</td><td>OnePlus 12</td><td>5.2.1</td></tr>
+  <tr><td>Shader compilation error</td><td>21</td><td>Android 11</td><td>Pixel 6</td><td>5.1.2</td></tr>
+</table>

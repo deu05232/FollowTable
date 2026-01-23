@@ -1,0 +1,11 @@
+<table>
+  <caption>Parameter space scanned to obtain the matrix of restitution for viscoelastic spheres. For the definition of impact velocity and eccentricity see \figRef fig:excCollSetup.</caption>
+  <tr><th></th><th>unit</th><th>min.</th><th>max.</th><th></th></tr>
+  <tr><td>Y</td><td>[ 10^(9) N / m ^((2)) ]</td><td>0.01</td><td>100</td><td>Young’s Modulus</td></tr>
+  <tr><td>ν</td><td>-</td><td>0.2</td><td>0.5</td><td>Poisson’s ratio</td></tr>
+  <tr><td>R</td><td>[m]</td><td>0.001</td><td>0.1</td><td>particle radius</td></tr>
+  <tr><td>ρ_(m)</td><td>[kg / m ^((3)) ]</td><td>250</td><td>3250</td><td>material density</td></tr>
+  <tr><td>A</td><td>[s]</td><td>10^(-6)</td><td>1</td><td>dissipative parameter</td></tr>
+  <tr><td>v</td><td>[m / s]</td><td>0.001</td><td>25</td><td>impact velocity</td></tr>
+  <tr><td>d/l</td><td>-</td><td>0.01</td><td>0.99</td><td>eccentricity</td></tr>
+</table>

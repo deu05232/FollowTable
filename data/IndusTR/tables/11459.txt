@@ -1,0 +1,7 @@
+<table>
+  <caption>Road traffic safety early warning — Hazard location coding (no time fields)</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Type</td><td>Length</td><td>Nullable</td><td>Publish</td><td>Requirements or Notes</td></tr>
+  <tr><td>1</td><td>Hazard Location Description</td><td>Character</td><td>1000</td><td>Yes</td><td>Yes</td><td>Should follow the standard location expression method</td></tr>
+  <tr><td>2</td><td>Start Administrative Division</td><td>Character</td><td>10</td><td>Yes</td><td>No</td><td>County-level administrative division code</td></tr>
+  <tr><td>3</td><td>End Administrative Division</td><td>Character</td><td>10</td><td>Yes</td><td>No</td><td>County-level administrative division code</td></tr>
+</table>

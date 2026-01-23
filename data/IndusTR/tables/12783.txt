@@ -1,0 +1,16 @@
+<table>
+  <caption>Exchange Header Envelope (XHE) Header Package — Constraint Status for Core Header Fields</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field</th><th>English Name</th><th>Constraint Status</th><th>Maximum Occurrences</th><th>Data Type</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Header Identifier</td><td>Header Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Primary identifier used to reference the header within the envelope.</td></tr>
+    <tr><td>Header</td><td>Header UUID</td><td>Header UUID</td><td>Optional</td><td>1</td><td>String</td><td>Globally unique identifier for the header instance.</td></tr>
+    <tr><td>Header</td><td>Header Creation Date Time</td><td>Header Creation Date Time</td><td>Mandatory</td><td>1</td><td>Date Time</td><td>Timestamp indicating when the envelope header was created.</td></tr>
+    <tr><td>Header</td><td>Header Sender Party Identifier</td><td>Sender Party Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Identifier of the party sending the envelope.</td></tr>
+    <tr><td>Header</td><td>Header Receiver Party Identifier</td><td>Receiver Party Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Identifier of the party receiving the envelope.</td></tr>
+    <tr><td>Header</td><td>Header Purpose Code</td><td>Header Purpose Code</td><td>Optional</td><td>1</td><td>String</td><td>Code indicating the business purpose of this exchange.</td></tr>
+    <tr><td>Header</td><td>Header Test Indicator</td><td>Test Indicator</td><td>Optional</td><td>1</td><td>Boolean</td><td>Indicates whether the message is a test (true) or production (false).</td></tr>
+    <tr><td>Header</td><td>Header Correlation Identifier</td><td>Correlation Identifier</td><td>Optional</td><td>1</td><td>String</td><td>Identifier used to correlate this exchange with related exchanges.</td></tr>
+  </tbody>
+</table>

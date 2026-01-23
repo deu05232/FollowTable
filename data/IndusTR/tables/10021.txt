@@ -1,0 +1,16 @@
+<table>
+  <caption>Charging Termination Diagnostic Message (Charger-Reported Stop Causes)</caption>
+  <thead>
+    <tr><th>Start Byte</th><th>Length</th><th>Field ID</th><th>Field Definition</th><th>Value / Notes</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1 byte</td><td>TERM_REASON</td><td>Charging termination reason (high-level category)</td><td>Enumerated; indicates why charging ended normally/abnormally</td><td>Mandatory</td></tr>
+    <tr><td>2</td><td>2 bytes</td><td>TERM_FAULT_REASON</td><td>Charging termination fault reason (hardware/protection fault)</td><td>Bitfield or enumerated; vendor-defined mapping allowed</td><td>Mandatory</td></tr>
+    <tr><td>4</td><td>1 byte</td><td>TERM_ERROR_REASON</td><td>Charging termination error reason (communication/protocol/error class)</td><td>Enumerated; used when stop is triggered by errors rather than faults</td><td>Mandatory</td></tr>
+    <tr><td>5</td><td>1 byte</td><td>ABORT_TYPE</td><td>Abort type</td><td>0=Not aborted; 1=Charger abort; 2=Vehicle abort; 3=System abort</td><td>Optional</td></tr>
+    <tr><td>6</td><td>2 bytes</td><td>ABORT_REASON</td><td>Abort reason code</td><td>Detailed abort code; interpreted according to ABORT_TYPE</td><td>Optional</td></tr>
+    <tr><td>8</td><td>1 byte</td><td>STOP_STAGE</td><td>Stop stage indicator</td><td>Phase when stop occurred (e.g., handshake / precharge / charging / shutdown)</td><td>Optional</td></tr>
+    <tr><td>9</td><td>1 byte</td><td>DIAG_SEVERITY</td><td>Diagnostic severity for stop event</td><td>0=Info; 1=Warning; 2=Fault; 3=Critical</td><td>Optional</td></tr>
+    <tr><td>10</td><td>2 bytes</td><td>VENDOR_EXT_STOP_CODE</td><td>Vendor-specific stop/termination code</td><td>Used when standard fields cannot precisely express the cause</td><td>Optional</td></tr>
+  </tbody>
+</table>

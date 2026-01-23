@@ -1,0 +1,14 @@
+<table>
+  <caption>Instant Messaging API Parameters - Constraints and Value Ranges (Missing Mandatory/Optional Column)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Type</th><th>Length</th><th>Allowed Values</th><th>Max Occurrences</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>interfaceOperation</td><td>string</td><td>1..64</td><td>SUBSCRIBE | NOTIFY | QUERY</td><td>1</td><td>API operation selector.</td></tr>
+    <tr><td>subscriberId</td><td>string</td><td>1..64</td><td>Any</td><td>1</td><td>Subscriber identifier.</td></tr>
+    <tr><td>subscribedToId</td><td>string</td><td>1..64</td><td>Any</td><td>1</td><td>Target identifier.</td></tr>
+    <tr><td>initiatorNotificationId</td><td>string</td><td>1..64</td><td>Any</td><td>1</td><td>Notification initiator identifier.</td></tr>
+    <tr><td>recipientNotificationId</td><td>string</td><td>1..64</td><td>Any</td><td>1</td><td>Notification recipient identifier.</td></tr>
+    <tr><td>resultDescription</td><td>string</td><td>0..2000</td><td>Any</td><td>1</td><td>Human-readable response message.</td></tr>
+  </tbody>
+</table>

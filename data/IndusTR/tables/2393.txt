@@ -1,0 +1,14 @@
+<table>
+  <caption>Compliance Checklist for Personal Data Protection in Pension Insurance Information Systems</caption>
+  <thead>
+    <tr><th>Control Area</th><th>Requirement</th><th>Implementation Evidence</th><th>Review Cycle</th><th>Status</th><th>Responsible Team</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Access Control</td><td>Role-based permissions</td><td>RBAC matrix document</td><td>Quarterly</td><td>In progress</td><td>IT Security</td></tr>
+    <tr><td>Data Encryption</td><td>Encryption at rest and in transit</td><td>TLS configs, KMS policy</td><td>Annual</td><td>Completed</td><td>IT Security</td></tr>
+    <tr><td>Logging & Audit</td><td>Immutable audit logs</td><td>SIEM dashboard</td><td>Monthly</td><td>Completed</td><td>Ops</td></tr>
+    <tr><td>Data Retention</td><td>Retention schedule defined</td><td>Retention policy v2.1</td><td>Annual</td><td>Completed</td><td>Legal</td></tr>
+    <tr><td>Consent Management</td><td>Consent capture and revocation</td><td>Consent UI screenshots</td><td>Quarterly</td><td>In progress</td><td>Product</td></tr>
+    <tr><td>Third-Party Sharing</td><td>Data sharing agreements</td><td>Signed DPA templates</td><td>Annual</td><td>Completed</td><td>Compliance</td></tr>
+  </tbody>
+</table>

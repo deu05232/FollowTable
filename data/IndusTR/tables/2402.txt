@@ -1,0 +1,10 @@
+<table>
+  <caption>Control Word Handling Firmware API (Driver Function Index)</caption>
+  <tr><th>API</th><th>Description</th><th>Arguments</th><th>Return</th><th>Thread Safety</th><th>Notes</th></tr>
+  <tr><td>sf_link_init()</td><td>Initialize link state machine</td><td>dev, lane_mask</td><td>int</td><td>Yes</td><td>Starts training and waits for Ready</td></tr>
+  <tr><td>sf_send_control()</td><td>Enqueue a control word for transmit</td><td>dev, vc, type, payload</td><td>int</td><td>No</td><td>Payload is driver-specific</td></tr>
+  <tr><td>sf_set_credit_limit()</td><td>Configure flow-control credits</td><td>dev, vc, credits</td><td>int</td><td>Yes</td><td>Applies to VC scheduling only</td></tr>
+  <tr><td>sf_get_crc_stats()</td><td>Read CRC error counters</td><td>dev, out_stats</td><td>int</td><td>Yes</td><td>Includes lane-level counters</td></tr>
+  <tr><td>sf_set_rx_timeout()</td><td>Configure receiver timeout</td><td>dev, microseconds</td><td>int</td><td>Yes</td><td>Triggers link reset on timeout</td></tr>
+  <tr><td>sf_dump_trace()</td><td>Dump internal event trace buffer</td><td>dev, out_buf, len</td><td>size_t</td><td>No</td><td>Binary format, tool required</td></tr>
+</table>

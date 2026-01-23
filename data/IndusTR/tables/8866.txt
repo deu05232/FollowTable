@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental & Vibration Sweep Test Setup for Electric Compressor (Non-operating Focus)</caption>
+  <thead>
+    <tr><th rowspan="2">Step</th><th colspan="3">Vibration sweep</th><th colspan="2">Environment</th><th rowspan="2">Mounting / notes</th></tr>
+    <tr><th>Direction</th><th>Frequency (Hz)</th><th>Sweep rate (oct/min)</th><th>Ambient (°C)</th><th>Soak time (min)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>V1</td><td>Up/Down</td><td>20–200</td><td>1</td><td>25</td><td>30</td><td>Rigid base, compressor unpowered</td></tr>
+    <tr><td>V2</td><td>Front/Rear</td><td>20–200</td><td>1</td><td>25</td><td>30</td><td>Accelerometer on shell</td></tr>
+    <tr><td>V3</td><td>Left/Right</td><td>20–200</td><td>1</td><td>25</td><td>30</td><td>Harness secured</td></tr>
+    <tr><td>V4</td><td>Up/Down</td><td>50–250</td><td>2</td><td>80</td><td>45</td><td>Thermal chamber, no refrigerant loop</td></tr>
+    <tr><td>V5</td><td>Front/Rear</td><td>50–250</td><td>2</td><td>-20</td><td>60</td><td>Cold soak before sweep</td></tr>
+    <tr><td>V6</td><td>Left/Right</td><td>50–250</td><td>2</td><td>100</td><td>20</td><td>Post-test visual inspection</td></tr>
+  </tbody>
+</table>

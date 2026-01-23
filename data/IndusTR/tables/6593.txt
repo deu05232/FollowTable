@@ -1,0 +1,18 @@
+<table>
+  <caption>Time Reporting Conventions for Cybersecurity Records (Units and Definitions Only)</caption>
+  <thead>
+    <tr><th>Timing Element</th><th>How the Time Is Defined</th><th>Unit / Representation</th><th>Normalization Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Timestamp Timezone</td><td>All recorded times are interpreted in a single timezone to avoid ambiguity.</td><td>UTC (preferred)</td><td>Convert any local time to UTC and preserve the original timezone in a note if needed.</td></tr>
+    <tr><td>Timestamp Precision</td><td>Granularity at which the time is recorded (seconds vs milliseconds).</td><td>Seconds or milliseconds</td><td>State precision explicitly; do not mix precisions within the same dataset.</td></tr>
+    <tr><td>Occurrence Time (Point-in-time)</td><td>Single best-known time when the event happened, used when start/end are unknown.</td><td>ISO 8601 timestamp</td><td>If uncertain, store the best estimate and document uncertainty separately in notes.</td></tr>
+    <tr><td>Occurrence Time (Start/End Interval)</td><td>Two timestamps describing a window during which the event occurred.</td><td>Start time + End time (ISO 8601)</td><td>Require Start ≤ End; if only a window is known, use the widest defensible interval.</td></tr>
+    <tr><td>Discovery Time</td><td>Time when the event was identified as a security issue by workflow (e.g., ticket created/acknowledged).</td><td>ISO 8601 or epoch seconds</td><td>Choose one workflow definition and apply consistently across reports.</td></tr>
+    <tr><td>First Seen / Last Seen</td><td>Times based on observation in telemetry (logs/sensors) rather than when it occurred.</td><td>ISO 8601 timestamps</td><td>Use the sensing system’s event time (not ingest time) when available.</td></tr>
+    <tr><td>Ingest Time</td><td>Time the telemetry was received by the platform (pipeline arrival).</td><td>ISO 8601 timestamp</td><td>Clearly label as ingest/receipt; do not substitute it for First Seen.</td></tr>
+    <tr><td>Report Creation Time</td><td>Time the report record was created/exported.</td><td>ISO 8601 timestamp</td><td>Keep separate from incident Closure Time.</td></tr>
+    <tr><td>Update / Modified Time</td><td>Time the report record was last modified.</td><td>ISO 8601 timestamp</td><td>Must change monotonically forward; avoid backdating edits.</td></tr>
+    <tr><td>Duration Fields</td><td>Elapsed time derived from two timestamps (e.g., discovery-to-containment).</td><td>Seconds (integer) or ISO 8601 duration (e.g., PT2H)</td><td>Define the two endpoints used for calculation and keep them constant.</td></tr>
+  </tbody>
+</table>

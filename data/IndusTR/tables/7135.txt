@@ -1,0 +1,16 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Gain Calibration Metadata Attributes</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gain Calibration Sequence</td><td>(0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td>Container for gain (flat-field) calibration artifacts and descriptors.</td></tr>
+    <tr><td>>Gain Calibration File</td><td>(0014,3062)</td><td>OB</td><td>1</td><td>1</td><td>Binary content of the gain calibration image used for pixel response normalization.</td></tr>
+    <tr><td>>Gain Calibration Method</td><td>(0014,3064)</td><td>CS</td><td>1</td><td>3</td><td>Technique used to derive gain correction (e.g., FLAT_FIELD, UNIFORM_FLOOD).</td></tr>
+    <tr><td>>Gain Calibration Exposure Index</td><td>(0014,3066)</td><td>DS</td><td>1</td><td>3</td><td>Exposure index or equivalent indicator recorded for the gain calibration acquisition.</td></tr>
+    <tr><td>>Gain Calibration DateTime</td><td>(0014,3068)</td><td>DT</td><td>1</td><td>3</td><td>Date and time when the gain calibration was performed.</td></tr>
+    <tr><td>>Gain Calibration Beam Uniformity Evaluation</td><td>(0014,306A)</td><td>CS</td><td>1</td><td>3</td><td>Result of uniformity check applied to the gain calibration artifact (e.g., PASS/FAIL).</td></tr>
+    <tr><td>>Gain Calibration Correction Factor</td><td>(0014,306C)</td><td>FD</td><td>1</td><td>3</td><td>Scalar factor applied as part of gain normalization (if applicable).</td></tr>
+    <tr><td>>Gain Calibration Validity Flag</td><td>(0014,306E)</td><td>CS</td><td>1</td><td>3</td><td>Indicates whether the gain calibration is considered valid (e.g., VALID/INVALID).</td></tr>
+  </tbody>
+</table>

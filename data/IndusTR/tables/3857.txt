@@ -1,0 +1,16 @@
+<table>
+  <caption>Control Valve Seat Leakage Classes and Maximum Allowable Leakage</caption>
+  <tr><td>Leakage class</td><td>Test medium</td><td>Test procedure</td><td>Maximum allowable leakage</td></tr>
+  <tr><td>I</td><td colspan="3">To be determined by the user (buyer) and the manufacturer</td></tr>
+  <tr><td>I</td><td>L或G</td><td>1</td><td>5×10-×valve rated capacitya</td></tr>
+  <tr><td>Ⅱ</td><td>L或G</td><td>1</td><td>10-×valve rated capacitya</td></tr>
+  <tr><td rowspan="2">W</td><td>L</td><td>1或2</td><td>10-4×valve rated capacity</td></tr>
+  <tr><td>G</td><td>1</td><td>10-4×valve rated capacitya</td></tr>
+  <tr><td rowspan="2">V-S1</td><td>L</td><td>1或2</td><td>5×10-×valve rated capacity</td></tr>
+  <tr><td>G</td><td>1</td><td>5×10-×valve rated capacitya</td></tr>
+  <tr><td rowspan="2">V</td><td>L</td><td>2</td><td>1.8×10-×△p×D(单位为:L/h)</td></tr>
+  <tr><td>G</td><td>1</td><td>10.8×10-×D(单位为:m/h)(101.325 kPa,273.15K)b11.1×10-×D(单位为:m/h)(101.325 kPa,288.15K)</td></tr>
+  <tr><td>VI</td><td>G</td><td>1</td><td>3×10-×△p×Leakage rate coefficient specified in Table 2</td></tr>
+  <tr><td colspan="4">Note 1: △p is in kPa. Note 2: D is the seat diameter, in mm.</td></tr>
+  <tr><td colspan="4">a For compressible fluids, when the valve rated capacity is volumetric flow rate, it refers to the measured value at an absolute pressure of 101.325 kPa and an absolute temperature of 273.15K or 288.15 K. b Conducted in accordance with test procedure 1, test pressure differential 350kPa, test medium air or nitrogen. If agreed between the user (buyer) and the manufacturer, different test pressures may be required; for example, according to test procedure 2, when the test medium is air or nitrogen, the maximum allowable leakage (unit: m/h, 101.325kPa, 273.15K) is corrected to: 10.8×10-×[(pi－101)/350]×(p/552+0.2)×D, where p is the inlet absolute pressure (unit: kPa). If different test pressure and inlet temperature are required, for gas media such as ammonia or nitrogen, the maximum allowable leakage (unit: m/h, 101.325 kPa，273.15K) is corrected to: 10.8×10-6×[（(pi-101)/350]×(pl/552+0.2)×D×(273.15/Ti)X（nAir/ηGas）, where p is the inlet absolute pressure (unit: kPa), Ti is the absolute temperature of the incoming gas medium (unit: K), nAir is the dynamic viscosity of air at 273.15K, and nGas is the dynamic viscosity of the test medium at temperature Ti. The above conversion assumes laminar flow and applies only when the outlet is at atmospheric pressure and the test medium temperature is between 10℃～30℃. This conversion cannot be used to predict leakage under actual operating conditions.</td></tr>
+</table>

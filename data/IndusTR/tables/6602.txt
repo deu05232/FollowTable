@@ -1,0 +1,10 @@
+<table>
+  <caption>Swap Queue Reservation Parameters (Vehicle + Queue Mixed)</caption>
+  <tr><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  <tr><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>VIN per GB/T 27930</td><td>Yes</td></tr>
+  <tr><td>License plate number</td><td>plateNum</td><td>string</td><td>Full vehicle license plate number</td><td>No</td></tr>
+  <tr><td>Reserved vehicle queue position</td><td>positionNo</td><td>integer</td><td>Queue position assigned by the station</td><td>Yes</td></tr>
+  <tr><td>Estimated waiting time</td><td>etaMinutes</td><td>integer</td><td>Estimated waiting time in minutes</td><td>No</td></tr>
+  <tr><td>Station code</td><td>stationId</td><td>string</td><td>Battery swap station identifier</td><td>Yes</td></tr>
+  <tr><td>Reservation status</td><td>reserveStat</td><td>integer</td><td>0: Reserved; 1: Cancelled; 2: Expired</td><td>Yes</td></tr>
+</table>

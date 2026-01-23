@@ -1,0 +1,19 @@
+<table>
+  <caption>Long-Term Road Construction Program (Planning-Oriented Fields)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Project</td><td>Program Year</td><td>Integer</td><td>4</td><td>No</td><td>Multi-year capital plan year (e.g., 2026)</td></tr>
+    <tr><td>Project</td><td>Project Code</td><td>Character</td><td>24</td><td>No</td><td>Identifier in construction portfolio</td></tr>
+    <tr><td>Project</td><td>Project Name</td><td>Character</td><td>256</td><td>No</td><td>Formal project title</td></tr>
+    <tr><td>Scope</td><td>Work Type</td><td>Character</td><td>32</td><td>No</td><td>Resurfacing / Widening / Drainage / Bridge rehab</td></tr>
+    <tr><td>Scope</td><td>Planned Start Quarter</td><td>Character</td><td>8</td><td>Yes</td><td>Q1/Q2/Q3/Q4 (not an incident time window)</td></tr>
+    <tr><td>Scope</td><td>Planned End Quarter</td><td>Character</td><td>8</td><td>Yes</td><td>Q1/Q2/Q3/Q4</td></tr>
+    <tr><td>Budget</td><td>Estimated Budget (USD)</td><td>Decimal</td><td>12,2</td><td>Yes</td><td>Planning-level cost</td></tr>
+    <tr><td>Logistics</td><td>Contractor Name</td><td>Character</td><td>128</td><td>Yes</td><td>Preferred/selected vendor</td></tr>
+    <tr><td>Traffic Plan</td><td>Detour Plan Document ID</td><td>Character</td><td>64</td><td>Yes</td><td>Reference to a long-term traffic management plan</td></tr>
+    <tr><td>Approvals</td><td>Permit Status</td><td>Character</td><td>32</td><td>Yes</td><td>Draft / Submitted / Approved / Rejected</td></tr>
+    <tr><td>Location</td><td>Corridor Description</td><td>Character</td><td>512</td><td>Yes</td><td>Broad corridor text, not incident-grade location phrasing</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,5 @@
+<table>
+  <caption>ENCRYPTDATA Command Data Field Definition</caption>
+  <tr><td>Name</td><td>Length (byte)</td><td>Description</td></tr>
+  <tr><td>Data to Be Encrypted</td><td>Lc or 240</td><td>When the data to be encrypted is less than or equal to 255 byte, use "end frame mode" to send all data to be encrypted. When the data to be encrypted is greater than 255 byte, use "intermediate frame mode" to send the data to be encrypted in segments of 240 byte per frame until the remaining data to be encrypted is less than or equal to 255 byte, then use "end frame mode" to send the remaining data to be encrypted</td></tr>
+</table>

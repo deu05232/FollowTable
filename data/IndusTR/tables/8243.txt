@@ -1,0 +1,22 @@
+<table>
+  <caption>Algorithm and Vendor Metadata Data Items for Video/Image Analytics</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Item Name</th><th>Identifier/Code</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Algorithm Vendor Name</td><td>sfgysmc</td><td>c..100</td><td>Name of the algorithm provider/vendor responsible for the analytic component.</td><td>DE03001</td></tr>
+    <tr><td>2</td><td>Algorithm Vendor Identifier</td><td>sfgysbz</td><td>c..36</td><td>Unique vendor ID within the public security platform or registry.</td><td>DE03002</td></tr>
+    <tr><td>3</td><td>Algorithm Name</td><td>sfmc</td><td>c..100</td><td>Commercial or internal name of the algorithm used for analysis.</td><td>DE03003</td></tr>
+    <tr><td>4</td><td>Algorithm Type Code</td><td>sflxdm</td><td>c2</td><td>Algorithm category code (e.g., face recognition, vehicle detection, re-id).</td><td>DE03004</td></tr>
+    <tr><td>5</td><td>Algorithm Version</td><td>sfbb</td><td>c..20</td><td>Version string of the deployed algorithm model/package.</td><td>DE03005</td></tr>
+    <tr><td>6</td><td>Model Identifier</td><td>mxbz</td><td>c..64</td><td>Identifier of the ML model used (model name/hash) for traceability.</td><td>DE03006</td></tr>
+    <tr><td>7</td><td>Model Training Dataset Identifier</td><td>mxpxsjbz</td><td>c..64</td><td>Reference ID of the dataset used to train the model (if recorded).</td><td>DE03007</td></tr>
+    <tr><td>8</td><td>Inference Runtime Environment</td><td>txyxhj</td><td>c..50</td><td>Runtime environment descriptor (e.g., CPU/GPU, CUDA version, framework).</td><td>DE03008</td></tr>
+    <tr><td>9</td><td>Confidence Score Representation</td><td>kxdxszd</td><td>n(5,4)</td><td>Standard numeric format for confidence score output (0-1).</td><td>DE03009</td></tr>
+    <tr><td>10</td><td>Algorithm Service Invocation Mode Code</td><td>sfdyfsdm</td><td>c1</td><td>Invocation mode (e.g., embedded, local service, remote API).</td><td>DE03010</td></tr>
+    <tr><td>11</td><td>Algorithm Service Endpoint</td><td>sfjrfwq</td><td>c..255</td><td>Endpoint/URI used to call the analytic service when applicable.</td><td>DE03011</td></tr>
+    <tr><td colspan="6">Compliance and Traceability (Optional)</td></tr>
+    <tr><td>12</td><td>Algorithm Certification Identifier</td><td>sfrzbz</td><td>c..50</td><td>Certificate/approval identifier for regulated deployment (if available).</td><td>DE03012</td></tr>
+    <tr><td>13</td><td>Algorithm Hash (Package Digest)</td><td>sfhs</td><td>c64</td><td>SHA-256 (hex) digest of the deployed package for integrity verification.</td><td>DE03013</td></tr>
+  </tbody>
+</table>

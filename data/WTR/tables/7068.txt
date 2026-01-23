@@ -1,0 +1,12 @@
+# Google Reviews Infrastructure — APIs and Cookies Used by Review Widgets
+
+| Component | Provider | Purpose | Data Stored | Typical TTL |
+| --- | --- | --- | --- | --- |
+| Reviews Widget JS | Google Maps Platform | Render place reviews UI | Place ID, locale | Session |
+| Places API | Google Maps Platform | Fetch review snippets | API key, request params | N/A |
+| OAuth Token | Google Identity | Authenticate reviewer | Access token | 1 hour |
+| Consent Cookie | CMP Vendor | Store consent state | Consent string | 6 months |
+| Analytics Cookie | First-party | Measure widget engagement | Client ID | 2 years |
+| Rate-Limit Header | API Gateway | Prevent abuse | Quota counters | 1 day |
+| Webhook Endpoint | Merchant Server | Receive review events | Event payload | N/A |
+| Cache Layer | CDN | Speed up review loads | Cached JSON | 5 minutes |

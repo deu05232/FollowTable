@@ -1,0 +1,11 @@
+<table>
+  <caption>SM9 algorithm compliance notes referenced by service interfaces</caption>
+  <thead>
+    <tr><th>Topic</th><th>Compliance statement</th><th>Implementation remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Standard reference</td><td>Computation process follows GB/T 41389</td><td>Use validated cryptographic library components</td></tr>
+    <tr><td>Security considerations</td><td>Protect identity data and private keys</td><td>Handle random generation securely; avoid logging secrets</td></tr>
+    <tr><td>Error handling</td><td>Return codes must be checked</td><td>Map errors to application-level failures</td></tr>
+  </tbody>
+</table>

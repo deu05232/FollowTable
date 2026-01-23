@@ -1,0 +1,15 @@
+<table>
+  <caption>CSDM Documentation Table Requirements (Generic Attribute Rules)</caption>
+  <thead>
+    <tr><th>No.</th><th>Attribute</th><th>Requirement Level</th><th>Rule / Definition</th><th>Allowed Values</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Chinese Name</td><td>Mandatory</td><td>Provide the Chinese label for any entity/element</td><td>Free text</td><td>Service Provider</td></tr>
+    <tr><td>2</td><td>English Name</td><td>Mandatory</td><td>Provide the English identifier used in schemas</td><td>camelCase</td><td>serviceProvider</td></tr>
+    <tr><td>3</td><td>Data Type and Format</td><td>Mandatory</td><td>Specify datatype, length, and formatting rules</td><td>C..n, N..n, DT, BL</td><td>C..128</td></tr>
+    <tr><td>4</td><td>Constraints/Conditions</td><td>Mandatory</td><td>Indicate whether a value is required or conditional</td><td>M, O, C</td><td>M</td></tr>
+    <tr><td>5</td><td>Maximum Occurrences</td><td>Mandatory</td><td>Cardinality of the attribute within its parent</td><td>1, 0..1, 0..N, 1..N</td><td>0..N</td></tr>
+    <tr><td>6</td><td>Value Domain</td><td>Optional</td><td>Enumerate permitted values or reference standards</td><td>Enumeration / Standard ref</td><td>true,false</td></tr>
+    <tr><td>7</td><td>Description</td><td>Mandatory</td><td>Short implementation-oriented explanation</td><td>Free text</td><td>Name of the provider</td></tr>
+  </tbody>
+</table>

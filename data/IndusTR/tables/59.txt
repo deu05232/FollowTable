@@ -1,0 +1,21 @@
+<table>
+  <caption>Administrative Reward Subject Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C.50</td><td></td><td></td></tr>
+  <tr><td>ID Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>ID Document Number</td><td>CerNo</td><td>C..18</td><td></td><td></td></tr>
+  <tr><td>Reward Recognition Document No.</td><td>RewaDecNo</td><td>C.50</td><td></td><td></td></tr>
+  <tr><td>Reward Name</td><td>RewaName</td><td>C..100</td><td></td><td>Including honesty and trustworthiness-related honors conferred by various national ministries and commissions</td></tr>
+  <tr><td>Reward Items</td><td>RewaItems</td><td>C..2000</td><td></td><td></td></tr>
+  <tr><td>Reward Form</td><td>RewaType</td><td>C1</td><td>0: Award cash bonus or prizes; 1: Public commendation; 2: Official commendation order; 3: Merit citation; 4: Confer honorary title; 5: Promotion in rank or position; 9: Other</td><td>Multiple selections allowed</td></tr>
+  <tr><td>Reward Grant Date</td><td>RewaDecDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Awarding Organization Code</td><td>RewaDecAuthNo</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Awarding Organization</td><td>RewaDecAuth</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Remarks</td><td>Remark</td><td>C.ul</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit</td><td>DataDept</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit Code</td><td>DataDeptUniSCID</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Data Aggregation Unit</td><td>S_Ext_FromNode</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Ionospheric delay correction time/metadata fields (non-spherical-harmonic)</caption>
+  <tr><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>GPS epoch time</td><td>DF385</td><td>uint20</td><td>20</td></tr>
+  <tr><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td></tr>
+  <tr><td>Issue of data</td><td>DF409</td><td>uint4</td><td>4</td></tr>
+</table>

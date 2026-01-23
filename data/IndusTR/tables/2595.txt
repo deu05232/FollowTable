@@ -1,0 +1,10 @@
+<table>
+  <caption>Factory Production Process Parameters for EX Gas Detector Assembly Line</caption>
+  <tr><th>Process Step</th><th>Workstation</th><th>Key Parameter</th><th>Target Value</th><th>Tolerance</th><th>Inspection Method</th><th>Record ID</th></tr>
+  <tr><td>1</td><td>PCB reflow</td><td>Peak temperature</td><td>245 °C</td><td>±5 °C</td><td>Thermocouple profile</td><td>PR-REF-01</td></tr>
+  <tr><td>2</td><td>Sensor bonding</td><td>Cure time</td><td>30 min</td><td>±3 min</td><td>Timer verification</td><td>PR-BND-02</td></tr>
+  <tr><td>3</td><td>Housing sealing</td><td>Torque</td><td>1.2 N·m</td><td>±0.1 N·m</td><td>Torque wrench</td><td>PR-SEA-03</td></tr>
+  <tr><td>4</td><td>Burn-in</td><td>Soak temperature</td><td>45 °C</td><td>±2 °C</td><td>Chamber logger</td><td>PR-BIN-04</td></tr>
+  <tr><td>5</td><td>Functional check</td><td>ADC baseline</td><td>2.50 V</td><td>±0.05 V</td><td>DMM sampling</td><td>PR-FNC-05</td></tr>
+  <tr><td>6</td><td>Packing</td><td>ESD bag type</td><td>Shielding</td><td>N/A</td><td>Visual</td><td>PR-PKG-06</td></tr>
+</table>

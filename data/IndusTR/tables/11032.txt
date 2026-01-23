@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitary Equipment Performance Parameters (Toilet Flush Valve Assembly)</caption>
+  <thead>
+    <tr><th>Parameter Code</th><th>Performance Parameter</th><th>Unit</th><th>Reference Condition</th><th>Requirement Level</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SE-TFV-101</td><td>Flush Volume per Cycle</td><td>L/flush</td><td>Measured at rated supply pressure</td><td>Mandatory</td></tr>
+    <tr><td>SE-TFV-102</td><td>Flush Duration</td><td>s</td><td>From valve open to close</td><td>Optional</td></tr>
+    <tr><td>SE-TFV-103</td><td>Supply Pressure Operating Range</td><td>MPa</td><td>Stable operation without malfunction</td><td>Mandatory</td></tr>
+    <tr><td>SE-TFV-104</td><td>Peak Flow Rate During Flush</td><td>L/min</td><td>Maximum instantaneous flow observed</td><td>Optional</td></tr>
+    <tr><td>SE-TFV-105</td><td>Backflow Prevention Performance</td><td>Pass/Fail</td><td>No reverse flow under specified test</td><td>Mandatory</td></tr>
+    <tr><td>SE-TFV-106</td><td>Seal Leakage Rate (Static)</td><td>mL/min</td><td>Hold at 0.6 MPa for 10 min</td><td>Mandatory</td></tr>
+    <tr><td>SE-TFV-107</td><td>Water Hammer Noise Level</td><td>dB(A)</td><td>Measured at 1 m distance in quiet room</td><td>Optional</td></tr>
+    <tr><td>SE-TFV-108</td><td>Cycle Life (Flush Operations)</td><td>cycles</td><td>Operational after 200,000 cycles</td><td>Mandatory</td></tr>
+  </tbody>
+</table>

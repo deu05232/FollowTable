@@ -1,0 +1,16 @@
+<table>
+  <caption>SM9 Cryptographic Service Key Encapsulation Function Definition</caption>
+  <tr><td></td><td rowspan="2">int SAF_SM9KeyEncapsulate(void           * hSymmKeyObj,unsigned int   uiMasterPublicKeyIndex,unsigned char * pucUserID,unsigned int   uiUserIDLen,unsigned int   uiKeyBitsunsigned char* pucKeyPackageunsigned int   * pulKeyPackageLen,void           **phKeyHandle);</td></tr>
+  <tr><td>Prototype</td></tr>
+  <tr><td>Rules</td><td>Use the SM9 user identity and the signature master public key to perform key encapsulation. The SM9 computation process shall comply with GB/T 41389.</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hSymmKeyObj［in］（symmetric algorithm object）</td></tr>
+  <tr><td>uiMasterPublicKeyIndex［in](index value of the encryption master public key)</td></tr>
+  <tr><td>pucUserID[in](DER-encoded user identity data)</td></tr>
+  <tr><td>uiUserIDLen[in](length of the DER-encoded user identity data)</td></tr>
+  <tr><td>uiKeyBits[in](bit length of the encapsulated key)</td></tr>
+  <tr><td>pucKeyPackage[out](buffer pointer; output DER-encoded key encapsulation data)</td></tr>
+  <tr><td>pulKeyPackageLen［in,out]（input: buffer length of key encapsulation data; output: actual length of the DER-encoded key encapsulation data)</td></tr>
+  <tr><td>phKeyHandle[out](output handle of the session key)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>0 (success)</td></tr>
+  <tr><td>non-zero (failure; returns the error code defined in Table C.1 and shall comply with Appendix C)</td></tr>
+</table>

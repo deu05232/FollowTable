@@ -1,0 +1,16 @@
+<table>
+  <caption>APD Photodetector Performance Limits (Avalanche Gain and Sensitivity)</caption>
+  <thead>
+    <tr><th>Performance parameter</th><th>Symbol</th><th>Test / conditions</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Spectral response range</td><td>λ</td><td>APD active region</td><td>1260</td><td>—</td><td>1620</td><td>nm</td></tr>
+    <tr><td>Avalanche multiplication factor</td><td>M</td><td>λ = 1310 nm, Pin = 1 µW, VR = 0.92·VBR</td><td>3</td><td>6</td><td>12</td><td>—</td></tr>
+    <tr><td>Avalanche multiplication factor</td><td>M</td><td>λ = 1550 nm, Pin = 1 µW, VR = 0.95·VBR</td><td>5</td><td>10</td><td>20</td><td>—</td></tr>
+    <tr><td>Excess noise factor</td><td>F</td><td>Measured at M = 10</td><td>—</td><td>4.5</td><td>6.0</td><td>—</td></tr>
+    <tr><td>NEP (noise-equivalent power)</td><td>NEP</td><td>λ = 1550 nm, M = 10, BW = 1 Hz</td><td>—</td><td>0.35</td><td>0.60</td><td>pW/√Hz</td></tr>
+    <tr><td>Optical gain (effective)</td><td>Gopt</td><td>Derived from M and responsivity at λ = 1550 nm</td><td>6</td><td>10</td><td>18</td><td>dB</td></tr>
+    <tr><td>Optical return loss</td><td>ORL</td><td>Optical interface, high return loss configuration</td><td>26</td><td>29</td><td>—</td><td>dB</td></tr>
+    <tr><td>Linear output current (photocurrent)</td><td>IP</td><td>λ = 1550 nm, M = 10</td><td>—</td><td>—</td><td>5.0</td><td>mA</td></tr>
+  </tbody>
+</table>

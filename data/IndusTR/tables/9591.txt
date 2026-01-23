@@ -1,0 +1,14 @@
+<table>
+  <caption>DT Lookup from Visible Shear-Pattern Offset to the CDO Edge (Visible-Light Geometry Rule)</caption>
+  <thead>
+    <tr><th rowspan="2">Observable measure from VIS imagery</th><th colspan="6">Shortest distance from the shear cloud cluster edge to the nearest CDO boundary (nmi)</th></tr>
+    <tr><th>> 100</th><th>80–100</th><th>60–79</th><th>40–59</th><th>20–39</th><th>< 20</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Derived DT (lookup)</td><td>1.0</td><td>1.5</td><td>2.0</td><td>2.5</td><td>3.0</td><td>3.5</td></tr>
+    <tr><td>DT range notation (if using ranges)</td><td>0.5–1.0</td><td>1.0–1.5</td><td>1.5–2.0</td><td>2.0–2.5</td><td>2.5–3.0</td><td>3.0–3.5</td></tr>
+    <tr><td>Measurement note (VIS)</td><td colspan="6">Measure along the shortest line segment between the displaced convective mass (shear-side cloud system) and the nearest CDO edge; use nautical miles.</td></tr>
+    <tr><td>Eligibility check</td><td colspan="6">Apply only when a coherent shear-displaced convective cluster is evident and a CDO boundary can be drawn in visible imagery.</td></tr>
+    <tr><td>Tie-breaker</td><td colspan="6">If distance falls exactly on a bin edge, use the stronger (higher DT) bin.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Value Domain Codes — Power Source & Operating Modes</caption>
+  <thead>
+    <tr><th>Mode Code</th><th>Mode Name</th><th>Applies To</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AC</td><td>Alternating Current Supply</td><td>Control Unit</td><td>Mains powered</td></tr>
+    <tr><td>DC</td><td>Direct Current Supply</td><td>Control Unit</td><td>Low-voltage DC input</td></tr>
+    <tr><td>BAT</td><td>Battery Powered</td><td>Sensor Module</td><td>Replaceable battery</td></tr>
+    <tr><td>SOL</td><td>Solar Assisted</td><td>Remote Monitor</td><td>Auxiliary charging</td></tr>
+    <tr><td>MAN</td><td>Manual / Non-powered</td><td>Valve</td><td>No electrical supply</td></tr>
+    <tr><td>AUTO</td><td>Automatic Mode</td><td>Flush Controller</td><td>Triggered by sensor</td></tr>
+    <tr><td>ECO</td><td>Eco Mode</td><td>Flush Controller</td><td>Reduced consumption profile</td></tr>
+  </tbody>
+</table>

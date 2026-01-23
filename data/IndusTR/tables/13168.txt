@@ -1,0 +1,16 @@
+<table>
+  <caption>Tracking & Traceability KPI Catalog for International Container Logistics (Overview)</caption>
+  <thead>
+    <tr><th>KPI</th><th>Definition</th><th>Primary Data Source</th><th>Measurement Window</th><th>Target / Threshold</th><th>Typical Action if Breached</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Milestone Timeliness</td><td>% of events (gate-in, departure, arrival, gate-out) reported within SLA</td><td>Terminal TOS, Carrier EDI</td><td>Per shipment</td><td>≥ 95% within 15 minutes</td><td>Escalate to data provider; open incident</td></tr>
+    <tr><td>Event Completeness</td><td>% of required milestones present for a shipment</td><td>Integrated data center</td><td>Weekly</td><td>≥ 98%</td><td>Backfill missing events; audit partner feeds</td></tr>
+    <tr><td>Identifier Match Rate</td><td>% of events correctly linked to container/B/L/declaration</td><td>Master data + event logs</td><td>Monthly</td><td>≥ 99%</td><td>Fix mapping keys; cleanse master data</td></tr>
+    <tr><td>Customs Release Latency</td><td>Time from declaration submission to release/hold result</td><td>Customs messages</td><td>Per port</td><td>P90 < 6 hours</td><td>Review broker submission quality; engage authority</td></tr>
+    <tr><td>Exception Resolution Time</td><td>Time to close exceptions (inspection, roll-over, damage)</td><td>Case management</td><td>Per exception</td><td>P80 < 24 hours</td><td>Assign owner; accelerate evidence collection</td></tr>
+    <tr><td>ETA Accuracy</td><td>Mean absolute error between predicted ETA and actual arrival</td><td>Carrier AIS/ETA feed</td><td>Per voyage</td><td>< 8 hours</td><td>Recalibrate prediction model; improve input data</td></tr>
+    <tr><td>Visibility Adoption</td><td>% of partners actively consuming tracking data</td><td>API gateway logs</td><td>Quarterly</td><td>≥ 70%</td><td>Onboard partners; improve documentation</td></tr>
+    <tr><td>Data Confirmation Rate</td><td>% of submitted events acknowledged/confirmed by hub</td><td>Hub acknowledgements</td><td>Daily</td><td>≥ 99.5%</td><td>Retry pipeline; investigate message failures</td></tr>
+  </tbody>
+</table>

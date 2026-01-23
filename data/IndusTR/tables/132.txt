@@ -1,0 +1,18 @@
+<table>
+  <caption>Atmospheric-Layer Community-Level Observation Station Ecological Characteristics Data Format</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Format</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>3</td><td>Eco-meteorological scene category</td><td>E_VID</td><td>Characters(4)</td><td>In the AAiAA format of Table B.1</td></tr>
+  <tr><td>4</td><td>Community vegetation height</td><td>E_HEIGHT</td><td>Number(5)</td><td>Unit: cm</td></tr>
+  <tr><td>5</td><td>Total community vegetation coverage</td><td>E_COVERAGE</td><td>Number(3)</td><td>Expressed as a percentage (%)</td></tr>
+  <tr><td>6</td><td>Total fresh weight of community vegetation</td><td>E_FRESH</td><td>Number(6)</td><td>Unit: kg/hm²</td></tr>
+  <tr><td>7</td><td>Total dry weight of community vegetation</td><td>E_DRY</td><td>Number(5)</td><td>Unit: kg/hm²</td></tr>
+  <tr><td>8</td><td>Total timber stock volume</td><td>E_VOLUME</td><td>Number(4)</td><td>Unit: m/hm²</td></tr>
+  <tr><td>9</td><td>Number of dominant populations</td><td>E_NUMBER</td><td>Number(1)</td><td></td></tr>
+  <tr><td>10</td><td>Dominant population name</td><td>E_NAME_n</td><td>Characters(6)</td><td>In the BBBB4B4B5 format of Tables B.2–B.5</td></tr>
+  <tr><td>11</td><td>Population area proportion</td><td>E_RATIO_n</td><td>Number(3)</td><td>Expressed as a percentage (%)</td></tr>
+  <tr><td>12</td><td>Fresh biomass weight of population</td><td>E_FRESH_n</td><td>Number(6)</td><td>Unit: kg/hm²</td></tr>
+  <tr><td>13</td><td>Dry biomass weight of population</td><td>E_DRY_n</td><td>Number(5)</td><td>Unit: kg/hm²</td></tr>
+  <tr><td>14</td><td>Stock volume of population (trees)</td><td>E_VOLUME_n</td><td>Number(4)</td><td>Unit: m/hm²</td></tr>
+</table>

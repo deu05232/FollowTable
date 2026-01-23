@@ -1,0 +1,6 @@
+# Net::BitTorrent::Torrent - search.cpan.org
+
+| Value | 1 | 2 | 4 | 8 | 16 | 32 | 64 | 128 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Type | STARTED | CHECKING | START_AFTER_CHECK | CHECKED | ERROR | PAUSED | LOADED | QUEUED |
+| Notes | Client is (making an attempt to be) active in the swarm | Currently hashchecking (possibly in another thread) | (Unused in this version) | Files of this torrent have been checked | Activity is halted and may require user intervention (Unused in this version) | Sockets are kept open but no piece data is sent or requested | Torrent has been parsed without error | Has an associated Net::BitTorrent parent |

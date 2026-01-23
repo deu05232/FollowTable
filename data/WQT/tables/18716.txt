@@ -1,0 +1,14 @@
+# SharePoint Server 2016 — Hardware Sizing by Role-Based Farm Scenario (WFE   App   SQL)
+
+| SharePoint deployment scenario | Servers included (example) | Web Front End (per server) | Application (per server) | SQL Database (per server) | Storage baseline (per scenario) | When to choose |
+| --- | --- | --- | --- | --- | --- | --- |
+| Single-server (built-in DB / minimal) | 1 combined server | RAM 24 GB; CPU 4 cores | Same box | Built-in/lightweight or local SQL | 100 GB OS + 150 GB content | Proof-of-concept, very small teams |
+| Single-server with full SQL on-box | 1 server running SharePoint + SQL | RAM 32 GB; CPU 4–8 cores | Same box | RAM 32–64 GB; CPU 4–8 cores | Separate disks for SQL data/logs; 300 GB+ total | Small production where simplicity matters |
+| Two-tier split: WFE+App together, SQL separate | 1 SharePoint server + 1 SQL server | RAM 16 GB; CPU 4 cores | RAM 24 GB; CPU 4–8 cores (same SP server) | RAM 32–64 GB; CPU 4–8 cores | SQL: fast IO; SP: extra disk for logs/index | Entry production with better DB performance |
+| Three-tier: 2 WFEs, 1 App, 1 SQL | 4 servers total | Each WFE: RAM 12–16 GB; CPU 4 cores | App: RAM 24–32 GB; CPU 4–8 cores | SQL: RAM 32–64 GB; CPU 4–8 cores | SQL storage prioritized; App may need 200 GB+ for search | Common for medium usage and growth |
+| Dedicated App services (Service Apps scaled out) | 2 WFEs + 2 App + 1 SQL | WFE: RAM 16–24 GB; CPU 4 cores | App: RAM 32–48 GB; CPU 8 cores | SQL: RAM 64+ GB; CPU 8+ cores | Add disks for service app DBs and logs | Many service apps, heavier workflows |
+| Dedicated Search tier | 2 WFEs + 1 App + 1 Search + 1 SQL | WFE: RAM 16 GB; CPU 4 cores | App: RAM 24–32 GB; CPU 4–8 cores | SQL: RAM 64+ GB; CPU 8+ cores | Search index disk: 200–500 GB fast SSD | Large crawls, heavy search queries |
+| High availability (farm HA + SQL HA) | 2 WFEs + 2 App + 2 SQL (AOAG) | WFE: RAM 16–24 GB; CPU 4 cores | App: RAM 32–48 GB; CPU 8 cores | Each SQL: RAM 64+ GB; CPU 8+ cores | Extra storage for replicas + tempdb; higher network needs | When uptime requirements drive design |
+| Virtualized lab / training farm | 3–4 small VMs | WFE VM: RAM 8–12 GB; CPU 2–4 vCPU | App VM: RAM 12–16 GB; CPU 4 vCPU | SQL VM: RAM 16–24 GB; CPU 4–8 vCPU | Shared storage OK; performance not guaranteed | Training, repeatable labs |
+| Migration / upgrade staging (parallel farm) | Similar to prod but reduced | WFE: RAM 12–16 GB; CPU 4 cores | App: RAM 24–32 GB; CPU 4–8 cores | SQL: RAM 32–64 GB; CPU 4–8 cores | Enough space for duplicate content DBs | Dry runs, rehearsal, validation |
+| Extranet / high-concurrency web publishing | 2+ WFEs + 1–2 App + 1 SQL | WFE: RAM 24–32 GB; CPU 8 cores | App: RAM 24–32 GB; CPU 4–8 cores | SQL: RAM 64+ GB; CPU 8+ cores | Prioritize WFE CPU and output caching; fast SQL | Many anonymous users, high request rate |

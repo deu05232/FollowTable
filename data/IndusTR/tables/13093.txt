@@ -1,0 +1,14 @@
+<table>
+  <caption>Static Warning Sign Identifiers (Color-Coded) — Rip Current Hazard</caption>
+  <thead>
+    <tr><th>Hazard</th><th>Color</th><th>Static Identifier (Text)</th><th>Sign Name (English)</th><th>Basic Meaning (Sign Catalog)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Rip Current</td><td>Blue</td><td>RIPCURRENT_BLUE</td><td>Rip Current Blue Warning Sign</td><td>Issued to indicate rip current risk exists; lowest level within the color-coded rip current warning signs.</td></tr>
+    <tr><td>Yellow</td><td>RIPCURRENT_YELLOW</td><td>Rip Current Yellow Warning Sign</td><td>Issued to indicate rip current risk is elevated; beach and nearshore users should exercise increased caution.</td></tr>
+    <tr><td>Orange</td><td>RIPCURRENT_ORANGE</td><td>Rip Current Orange Warning Sign</td><td>Issued to indicate high rip current risk; strong caution is advised for nearshore activities.</td></tr>
+    <tr><td>Red</td><td>RIPCURRENT_RED</td><td>Rip Current Red Warning Sign</td><td>Issued to indicate very high or dangerous rip current risk; highest level within the color-coded rip current warning signs.</td></tr>
+    <tr><td>Icon Label</td><td>(applies to all colors)</td><td>RIPCURRENT</td><td>Rip Current Hazard Icon Label</td><td>Static hazard label used on the sign face alongside the color to identify the hazard as rip current.</td></tr>
+    <tr><td>Catalog Note</td><td>(applies to all colors)</td><td>COLOR_SET: BLUE/YELLOW/ORANGE/RED</td><td>Color Set Definition</td><td>Defines the classic four-color set used for rip current warning sign identifiers (no response levels included).</td></tr>
+  </tbody>
+</table>

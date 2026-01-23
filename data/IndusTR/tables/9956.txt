@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Environment Understanding Output Parameters (Spatial Mapping: Dense Mesh)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Data Type</th><th>Direction</th><th>What it is used for</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>dense_mesh</td><td>ArDenseSpatialMap*</td><td>in</td><td>Handle to an existing dense spatial mapping object whose mesh data will be queried.</td></tr>
+    <tr><td>out_vertex_count</td><td>int32_t*</td><td>out</td><td>Receives the number of vertices available in the dense mesh at the time of query.</td></tr>
+    <tr><td>out_index_count</td><td>int32_t*</td><td>out</td><td>Receives the number of triangle indices (typically 3×triangle_count) for the current mesh.</td></tr>
+    <tr><td>out_vertices_xyz</td><td>float**</td><td>out</td><td>Receives a pointer to an array of vertex positions in XYZ order (3 floats per vertex) produced by the environment understanding system.</td></tr>
+    <tr><td>out_normals_xyz</td><td>float**</td><td>out</td><td>Receives a pointer to an array of vertex normals (3 floats per vertex) aligned without_vertices_xyz.</td></tr>
+    <tr><td>out_indices</td><td>uint32_t**</td><td>out</td><td>Receives a pointer to an index buffer describing triangle connectivity for the dense mesh.</td></tr>
+    <tr><td>out_mesh_timestamp_ns</td><td>int64_t*</td><td>out</td><td>Receives the timestamp (nanoseconds) indicating when the mesh snapshot was generated.</td></tr>
+    <tr><td>out_mesh_format</td><td>ArMeshFormat*</td><td>out</td><td>Receives the format/packing information for the returned buffers (e.g., coordinate system, index type), useful when decoding output pointers.</td></tr>
+  </tbody>
+</table>

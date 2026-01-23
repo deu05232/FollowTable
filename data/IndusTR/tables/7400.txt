@@ -1,0 +1,7 @@
+<table>
+  <caption>SpaceFibre Link-Layer Control Words (comma-delimited encoding)</caption>
+  <tr><th>Name</th><th>Control Word</th><th>Function</th></tr>
+  <tr><td>Broadcast Control Word BCAST</td><td>Comma,BCAST,DEST_ID,BCASTK28.7,D12.5,D0.0-D31.7,D0.0-D31.7</td><td>Indicates a broadcast-type frame/control transfer. DEST_ID identifies the broadcast destination group.</td></tr>
+  <tr><td>Flow Control Token FCT</td><td>Comma,FCT,CREDIT,FCTK28.7,D20.5,D0.0-D31.7,D0.0-D31.7</td><td>Conveys flow-control credit information to regulate sender transmission.</td></tr>
+  <tr><td>Reset Control Word RST</td><td>Comma,RST,RST_CODE,RSTK28.7,D18.5,D0.0-D31.7,D0.0-D31.7</td><td>Requests a link reset or indicates a reset condition using RST_CODE.</td></tr>
+</table>

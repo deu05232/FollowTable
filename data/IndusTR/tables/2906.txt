@@ -1,0 +1,10 @@
+<table>
+  <caption>Manufacturing Process Parameters for DR Detector Panel Assembly (Internal Routing Sheet)</caption>
+  <tr><th>Process Step</th><th>Equipment</th><th>Key Parameter</th><th>Setpoint</th><th>Tolerance</th><th>In-Process Check</th></tr>
+  <tr><td>Substrate Cleaning</td><td>Ultrasonic Bath</td><td>Bath Temperature</td><td>45 °C</td><td>±2 °C</td><td>Conductivity</td></tr>
+  <tr><td>Scintillator Deposition</td><td>Vapor Coater</td><td>Layer Thickness</td><td>450 µm</td><td>±25 µm</td><td>Profilometry</td></tr>
+  <tr><td>TFT Lamination</td><td>Lamination Press</td><td>Pressure</td><td>2.5 MPa</td><td>±0.2 MPa</td><td>Void inspection</td></tr>
+  <tr><td>Edge Sealing</td><td>Dispense Robot</td><td>Bead Width</td><td>1.8 mm</td><td>±0.2 mm</td><td>Vision check</td></tr>
+  <tr><td>Thermal Cure</td><td>Oven</td><td>Cure Profile</td><td>80 °C / 2 h</td><td>±5 min</td><td>Adhesion test</td></tr>
+  <tr><td>Final QA</td><td>Dark Room Bench</td><td>Dead Pixel Limit</td><td>< 0.5%</td><td>±0.1%</td><td>Pixel map report</td></tr>
+</table>

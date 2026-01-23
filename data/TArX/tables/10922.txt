@@ -1,0 +1,15 @@
+<table>
+  <caption>Per-fission energy release by fissioning isotope (reactor-relevant isotopes; totals only, no barrier/isomer terms)</caption>
+  <thead>
+    <tr><th>Category</th><th>Isotope</th><th>Energy released (MeV per fission)</th><th>Energy released (J per fission)</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Uranium</td><td>U-235 (thermal)</td><td>201.7</td><td>3.23e-11</td><td>Total fission energy release per event</td></tr>
+    <tr><td>U-238 (fast)</td><td>210.0</td><td>3.36e-11</td><td>Fast-fission total energy release</td></tr>
+    <tr><td>U-233 (thermal)</td><td>200.1</td><td>3.21e-11</td><td>Often used in Th-U cycle analyses</td></tr>
+    <tr><td>U-234 (fast)</td><td>206.8</td><td>3.31e-11</td><td>Minor isotope; included for completeness</td></tr>
+    <tr><td rowspan="3">Plutonium</td><td>Pu-239 (thermal)</td><td>205.0</td><td>3.28e-11</td><td>Total fission energy release per event</td></tr>
+    <tr><td>Pu-241 (thermal)</td><td>212.4</td><td>3.40e-11</td><td>Higher total than Pu-239</td></tr>
+    <tr><td>Pu-240 (fast)</td><td>208.6</td><td>3.34e-11</td><td>Fast-fission total energy release</td></tr>
+  </tbody>
+</table>

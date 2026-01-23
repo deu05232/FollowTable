@@ -1,0 +1,8 @@
+<table>
+  <caption>Drawing Frame Main Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0100</td><td>Output Can Diameter</td><td>OutputCanDiameter</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>350.00～1200.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X0101</td><td>Design Output Speed</td><td>DesignOutputSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1200.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0102</td><td>Number of Fed Slivers</td><td>QuantityOfF eedSlivers</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~12</td><td>ends</td><td>I</td><td></td></tr>
+  <tr><td>0X0103</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+</table>

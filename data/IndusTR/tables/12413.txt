@@ -1,0 +1,15 @@
+<table>
+  <caption>SOF_ExportUserCert Interface Reference (Single-Function Format)</caption>
+  <thead>
+    <tr><th>Field</th><th>Details</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Prototype</td><td>BSTR SOF_ExportUserCert(BSTR CertID)</td></tr>
+    <tr><td>Description</td><td>Export the signing certificate corresponding to the given CertID as a Base64-encoded string.</td></tr>
+    <tr><td>Parameters</td><td>CertID: unique certificate identifier (implementation-defined; may include container/app/device serial)</td></tr>
+    <tr><td>Return Value</td><td>On success: Base64-encoded signing certificate (BSTR)On failure: empty string or implementation-specific error reporting</td></tr>
+    <tr><td>Common Uses</td><td>Upload certificate to a server for enrollment binding; display certificate details after decoding.</td></tr>
+    <tr><td>Error Conditions</td><td>Invalid CertID; certificate not found; permission denied; device not present.</td></tr>
+    <tr><td>Security Notes</td><td>Exported certificate is public material, but treat metadata (CertID mapping) as sensitive in logs.</td></tr>
+  </tbody>
+</table>

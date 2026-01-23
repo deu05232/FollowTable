@@ -1,0 +1,11 @@
+<table>
+  <caption>Parameter List for Sparse Tensor Creation Function</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Includes signed integers, unsigned integers, floating-point real numbers, floating-point complex numbers, booleans, etc.; defaults to floating-point real numbers</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Includes CPU, GPU, NPU, FPGA, ASIC, etc.; defaults to CPU</td></tr>
+  <tr><td>Tensor Shape</td><td>Input</td><td>Required</td><td>The shape of the tensor, including tensor dimensions, an array of dimension sizes, and layout information; if layout information is not specified, the default layout is used</td></tr>
+  <tr><td>Non-Zero Element Coordinates</td><td>Input</td><td>Required</td><td>The coordinates of non-zero elements in the created sparse tensor; a 2D array with shape (number of non-zero elements, number of tensor dimensions)</td></tr>
+  <tr><td>Non-Zero Element Value Array</td><td>Input</td><td>Required</td><td>A one-dimensional array composed of non-zero element values, with length equal to "Number of Non-Zero Elements"</td></tr>
+  <tr><td>Number of Non-Zero Elements</td><td>Input</td><td>Required</td><td>The number of non-zero elements</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>The newly created tensor</td></tr>
+</table>

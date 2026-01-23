@@ -1,0 +1,18 @@
+<table>
+  <caption>Terrestrial Station Directory and Contact Metadata (Community-Level Sites)</caption>
+  <thead>
+    <tr><th>Seq</th><th>Field Name</th><th>Field Code</th><th>Data Type</th><th>Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station name</td><td>D_NAME</td><td>Varchar(100)</td><td>Official station name</td></tr>
+    <tr><td>2</td><td>Station alias</td><td>D_ALIAS</td><td>Varchar(100)</td><td>Alternate local name</td></tr>
+    <tr><td>3</td><td>Station address</td><td>D_ADDRESS</td><td>Varchar(300)</td><td>Mailing address</td></tr>
+    <tr><td>4</td><td>Administrative region code</td><td>ADM_CODE</td><td>Char(6)</td><td>National admin division code</td></tr>
+    <tr><td>5</td><td>Latitude</td><td>LAT</td><td>Decimal(8,5)</td><td>Degrees north</td></tr>
+    <tr><td>6</td><td>Longitude</td><td>LON</td><td>Decimal(8,5)</td><td>Degrees east</td></tr>
+    <tr><td>7</td><td>Elevation</td><td>ELEV</td><td>Number(6,1)</td><td>Unit: m</td></tr>
+    <tr><td>8</td><td>Contact person</td><td>CONTACT</td><td>Varchar(60)</td><td>Responsible observer</td></tr>
+    <tr><td>9</td><td>Contact phone</td><td>PHONE</td><td>Varchar(30)</td><td>Telephone number</td></tr>
+    <tr><td>10</td><td>Station status</td><td>STATUS</td><td>Char(1)</td><td>A=Active, I=Inactive</td></tr>
+  </tbody>
+</table>

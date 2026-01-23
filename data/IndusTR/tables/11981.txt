@@ -1,0 +1,6 @@
+<table>
+  <caption>Application-layer message parameter definitions — message overview list (by PGI)</caption>
+  <tr><th>Parameter Group Identifier</th><th>Message Description</th><th>Information Type</th><th>Cycle Time</th><th>Total Transmission Time/ms</th><th>Source Address - Destination Address</th></tr>
+  <tr><td>0x09</td><td>Vehicle wake-up indication</td><td>Short message not requiring acknowledgment</td><td>Sent with a 1000 ms period while wake-up is asserted</td><td>—</td><td>Vehicle - Charger</td></tr>
+  <tr><td>0x0A</td><td>Charging permission status</td><td>Short message requiring acknowledgment</td><td>—</td><td>1000</td><td>Vehicle - Charger</td></tr>
+</table>

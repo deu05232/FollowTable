@@ -1,0 +1,12 @@
+<table>
+  <caption>Lot Qualification Summary for Synthesized Frequency Sources (Acceptance-Number Driven)</caption>
+  <tr><th rowspan="2">Group</th><th rowspan="2">Check Type</th><th rowspan="2">Test / Inspection</th><th rowspan="2">Conditions (Setup)</th><th rowspan="2">Requirement</th><th colspan="3">Sampling Criteria</th></tr>
+  <tr><th>Sample Size (n)</th><th>Max Defects (c)</th><th>Decision Rule</th></tr>
+  <tr><td>Group A</td><td>Visual / Mechanical</td><td>Pre-seal visual inspection</td><td>500 lx; 23±5°C; 10× inspection</td><td>No foreign matter; no coating voids</td><td>20</td><td>0</td><td>Reject lot if defects > c</td></tr>
+  <tr><td>Group A</td><td>Electrical</td><td>Static current consumption</td><td>Vcc nominal; output enabled; 25°C</td><td>IDC ≤ 250 mA</td><td>13</td><td>1</td><td>Reject lot if defects > c</td></tr>
+  <tr><td>Group B</td><td>Environmental / Electrical</td><td>High-temperature storage</td><td>+85°C for 24 h; recovery 2 h at 25°C</td><td>Frequency error ≤ ±2 ppm</td><td>8</td><td>0</td><td>Reject lot if any failure</td></tr>
+  <tr><td>Group B</td><td>Electrical</td><td>Output amplitude stability</td><td>Monitor 1 h; 25°C; 50 Ω load</td><td>ΔAmplitude ≤ 0.5 dB</td><td>8</td><td>0</td><td>Reject lot if any failure</td></tr>
+  <tr><td>Group C</td><td>Electrical</td><td>Phase noise verification</td><td>Carrier 10 MHz; offsets 10 Hz/1 kHz/10 kHz</td><td>Meets device limit table</td><td>5</td><td>0</td><td>Reject lot if any failure</td></tr>
+  <tr><td>Group D</td><td>Mechanical</td><td>Solderability</td><td>245°C solder bath; 5 s immersion</td><td>≥ 95% wetting</td><td>5</td><td>1</td><td>Accept if failures ≤ c</td></tr>
+  <tr><td>Group E</td><td>Electrical</td><td>Long-term endurance (burn-in)</td><td>1,000 h at 70°C powered; periodic readout</td><td>No unlock; drift ≤ ±5 ppm</td><td>3</td><td>0</td><td>Reject lot if any failure</td></tr>
+</table>

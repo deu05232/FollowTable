@@ -1,0 +1,16 @@
+<table>
+  <caption>File Object Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>File Object Identifier</td><td>wjdxbz</td><td>c41</td><td>Should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>2</td><td>Collection Method Code</td><td>cjfsdm</td><td>c1</td><td>Should comply with the provisions of D.16</td><td></td></tr>
+  <tr><td>3</td><td>Electronic File Name</td><td>dzwjmc</td><td>c..256</td><td>Chinese description of the name of the file material</td><td></td></tr>
+  <tr><td>4</td><td>Create_DateTime</td><td>chj_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>5</td><td>Storage Location</td><td>ccwz</td><td>c..256</td><td>The storage path of the file, using URI naming rules</td><td></td></tr>
+  <tr><td>6</td><td>Electronic File Size</td><td>dzwjdx</td><td>n..12</td><td>Unit: byte(byte)</td><td></td></tr>
+  <tr><td>7</td><td>Electronic File Content</td><td>dzwjnr</td><td>bn</td><td>Binary data of the file</td><td></td></tr>
+  <tr><td>8</td><td>Electronic File Format</td><td>dzwjgs</td><td>c..10</td><td>Characters representing the file extension</td><td></td></tr>
+  <tr><td>9</td><td>File Hash Value</td><td>wjhxz</td><td>c128/c256</td><td>MD5 algorithm (c128) or SM3 algorithm (c256)</td><td></td></tr>
+  <tr><td>10</td><td>File Encryption_Determination Identifier</td><td>wjjm_pdbz</td><td>cl</td><td>Should comply with the provisions of D.11</td><td></td></tr>
+  <tr><td>11</td><td>File Signature_Determination Identifier</td><td>wjqm_pdbz</td><td>cl</td><td>Should comply with the provisions of D.11</td><td></td></tr>
+  <tr><td>12</td><td>Creator_Organization Name</td><td>cjr_dwmc</td><td>c..100</td><td></td><td></td></tr>
+</table>

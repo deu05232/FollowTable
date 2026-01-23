@@ -1,0 +1,16 @@
+<table>
+  <caption>Evaluation Database File Inventory (Non-Element Metadata Focus)</caption>
+  <thead>
+    <tr><th>Record ID</th><th>Subject ID</th><th>File Name</th><th>Modality</th><th>Split</th><th>Label / Ground Truth</th><th>Checksum</th><th>Storage Location</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R-0001</td><td>S-010</td><td>S010_face_001.jpg</td><td>Face</td><td>Train</td><td>Identity=S-010</td><td>9f3c...a12</td><td>s3://bucket/train/</td></tr>
+    <tr><td>R-0002</td><td>S-010</td><td>S010_face_002.jpg</td><td>Face</td><td>Dev</td><td>Identity=S-010</td><td>2ab1...77c</td><td>s3://bucket/dev/</td></tr>
+    <tr><td>R-0003</td><td>S-011</td><td>S011_fp_left_001.png</td><td>Fingerprint</td><td>Train</td><td>Finger=LeftIndex</td><td>c0de...91f</td><td>/mnt/data/train/</td></tr>
+    <tr><td>R-0004</td><td>S-011</td><td>S011_fp_left_002.png</td><td>Fingerprint</td><td>Dev</td><td>Finger=LeftIndex</td><td>fe12...0aa</td><td>/mnt/data/dev/</td></tr>
+    <tr><td>R-0005</td><td>S-020</td><td>S020_iris_L_001.tiff</td><td>Iris</td><td>Test</td><td>Eye=Left</td><td>0baf...33e</td><td>gs://eval/test/</td></tr>
+    <tr><td>R-0006</td><td>S-020</td><td>S020_voice_001.wav</td><td>Voice</td><td>Test</td><td>Speaker=S-020</td><td>88aa...1d0</td><td>gs://eval/test/</td></tr>
+    <tr><td>R-0007</td><td>S-021</td><td>S021_gait_001.mp4</td><td>Gait</td><td>Dev</td><td>Identity=S-021</td><td>1234...be9</td><td>nas://dev/</td></tr>
+    <tr><td>R-0008</td><td>S-022</td><td>S022_palm_001.png</td><td>Palmprint</td><td>Train</td><td>Hand=Right</td><td>abcd...e01</td><td>nas://train/</td></tr>
+  </tbody>
+</table>

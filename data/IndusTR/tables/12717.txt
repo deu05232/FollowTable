@@ -1,0 +1,12 @@
+<table>
+  <caption>SM9 encryption workflow steps (process-centric, not interface-centric)</caption>
+  <thead>
+    <tr><th>Step</th><th>What to do</th><th>Related interface(s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Prepare user identity and select master public key index</td><td>SAF_SM9Encrypt</td></tr>
+    <tr><td>2</td><td>Encrypt plaintext with the chosen algorithm/IV</td><td>SAF_SM9Encrypt</td></tr>
+    <tr><td>3</td><td>Send ciphertext to the peer</td><td>(N/A)</td></tr>
+    <tr><td>4</td><td>Decrypt ciphertext using container and user identity</td><td>SAF_SM9Decrypt</td></tr>
+  </tbody>
+</table>

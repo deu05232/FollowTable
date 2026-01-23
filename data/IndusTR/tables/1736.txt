@@ -1,0 +1,13 @@
+<table>
+  <caption>Terminal Key File Content</caption>
+  <tr><td>Data Item</td><td>Length</td><td>Description</td></tr>
+  <tr><td>Master control key</td><td rowspan="9">Application-defined</td><td>Has key update permissions and protects the key update process</td></tr>
+  <tr><td>Maintenance key</td><td>Has file update permissions and protects the file update process</td></tr>
+  <tr><td>Authentication key</td><td>Used to calculate the authentication code in uplink messages</td></tr>
+  <tr><td>On-demand key</td><td>Used for the DECRYPTDATA command to decrypt on-demand messages, and the ENCRYPTDATA command to encrypt uplink messages</td></tr>
+  <tr><td>Broadcast key</td><td>Used for the DECRYPTDATA command to decrypt broadcast messages</td></tr>
+  <tr><td>Multicast sub-key</td><td>Used for the DECRYPTDATA command to decrypt multicast messages</td></tr>
+  <tr><td>Multicast master key</td><td>Used to generate multicast sub-keys</td></tr>
+  <tr><td>Multicast master key (backup)</td><td>Backup multicast master key</td></tr>
+  <tr><td>Management-terminal management key</td><td>A proprietary management key for the management device, used to generate the broadcast key and on-demand key for subordinate user terminals</td></tr>
+</table>

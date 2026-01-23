@@ -1,0 +1,24 @@
+<table>
+  <caption>AIS Class B Equipment Dynamic Information Message Format</caption>
+  <tr><td>Message Parameter</td><td>Length (bit)</td><td>Description and Requirements</td></tr>
+  <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 60, fixed at 60</td></tr>
+  <tr><td>Relay Indicator</td><td>2</td><td>Used by the repeater to indicate the number of times the message has been relayed, fixed at 0</td></tr>
+  <tr><td>Broadcasting Device MMSI</td><td>30</td><td>MMSI of the broadcasting device; the encoding rules shall comply with the requirements of 6.4.1</td></tr>
+  <tr><td>Submessage Number</td><td>2</td><td>Messages 01–60 in Part A, messages 1–60 in Part B, fixed at 0</td></tr>
+  <tr><td>Broadcast Mode</td><td>1</td><td>0 broadcast; 1 addressed</td></tr>
+  <tr><td>Receiving Device MMSI</td><td>0/30</td><td>When the broadcast mode is broadcast, this field length is 0; when the broadcast mode is addressed, this field length is 30</td></tr>
+  <tr><td>Longitude</td><td>28</td><td>Longitude of the device’s real-time position, unit 1/10 000 [±180°, east—positive, west—negative; 181 (6791AC0h) — not available, default value]</td></tr>
+  <tr><td>Latitude</td><td>27</td><td>Latitude of the device’s real-time position, unit 1/10 000 [±90°, north—positive, south—negative; 91 (3412140h) — not available, default value]</td></tr>
+  <tr><td>Timestamp</td><td>6</td><td>UTC seconds, EPFS report generation time; 0–59; 60—timestamp not available, default value; 61—EPFS in manual input mode; 62—EPFS in estimated mode; 63—EPFS not in operation</td></tr>
+  <tr><td>Device Type</td><td>7</td><td>The device type shall comply with the requirements of Table 9</td></tr>
+  <tr><td>Movement Status Flag</td><td>1</td><td>0—anchored, fixed, or unknown status, default value; 1—moving status</td></tr>
+  <tr><td>Positioning Accuracy</td><td>1</td><td>0—low positioning accuracy (>10 m), default value; 1—high positioning accuracy (≤10 m)</td></tr>
+  <tr><td>RAIM Flag</td><td>1</td><td>0 - device uses RAIM</td></tr>
+  <tr><td>Extended Data Page Identifier 1</td><td>3</td><td>Page number identifier of the extended data page, fixed at 00</td></tr>
+  <tr><td>SOG</td><td>10</td><td>Indicates the device’s speed over ground in 1/10 knot steps; 0–1021 represent 0–102.1 knots respectively; 1022 represents 102.2 knots or greater; 1023 not available</td></tr>
+  <tr><td>Extended Data Page Identifier 2</td><td>3</td><td>Page number identifier of the extended data page, fixed at 01</td></tr>
+  <tr><td>COG</td><td>9</td><td>Indicates the device’s course over ground; 0–359 represent 0°–359° respectively; 360— not available, default value; 361–511 reserved</td></tr>
+  <tr><td>Reserved</td><td>1</td><td>Set to 0, reserved for future use</td></tr>
+  <tr><td>Not Available Field</td><td>30/0</td><td>When the broadcast mode is broadcast, this field length is 30; when the broadcast mode is addressed, this field length is 0</td></tr>
+  <tr><td>Total Length</td><td>168</td><td>Occupies 1 time slot</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting PLC Data Dictionary — Beam & Guide Geometry Setup Parameters</caption>
+  <thead>
+    <tr><th>Index</th><th>Signal Name</th><th>English Name</th><th>Access</th><th>Value Type</th><th>Range</th><th>Unit</th><th>Default</th><th>Description</th><th>Coded Values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0C10</td><td>Let-off Beam Outer Circumference</td><td>BeamOuterCircumference</td><td>RW</td><td>Int32</td><td>10–20000</td><td>mm</td><td>1200</td><td>Configured outer circumference of the let-off beam.</td><td></td></tr>
+    <tr><td>0x0C11</td><td>Let-off Beam Inner Circumference</td><td>BeamInnerCircumference</td><td>RW</td><td>Int32</td><td>10–10000</td><td>mm</td><td>800</td><td>Configured inner circumference of the let-off beam core.</td><td></td></tr>
+    <tr><td>0x0E10</td><td>Jacquard Trigger Angle #1</td><td>JacquardTriggerAngle1</td><td>RW</td><td>Int32</td><td>0–360</td><td>deg</td><td>90</td><td>First trigger angle for jacquard offset action.</td><td></td></tr>
+    <tr><td>0x0E11</td><td>Jacquard Trigger Angle #2</td><td>JacquardTriggerAngle2</td><td>RW</td><td>Int32</td><td>0–360</td><td>deg</td><td>180</td><td>Second trigger angle for jacquard offset action.</td><td></td></tr>
+    <tr><td>0x0110</td><td>Nominal Working Width</td><td>NominalWidth</td><td>RO</td><td>Int32</td><td>100–2500</td><td>mm</td><td></td><td>Declared machine nominal width for setup and recipes.</td><td></td></tr>
+    <tr><td>0x0C12</td><td>Guide Bar Lateral Offset</td><td>GuideBarOffset</td><td>RW</td><td>Int16</td><td>-500–500</td><td>mm</td><td>0</td><td>Mechanical lateral offset parameter for guide bar alignment.</td><td></td></tr>
+    <tr><td>0x0C13</td><td>Take-up Roller Diameter</td><td>TakeupRollerDiameter</td><td>RW</td><td>Int32</td><td>20–500</td><td>mm</td><td>120</td><td>Configured take-up roller diameter used in length calculation.</td><td></td></tr>
+  </tbody>
+</table>

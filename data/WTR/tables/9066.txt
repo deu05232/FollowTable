@@ -1,0 +1,10 @@
+# Google product review acquisition workflow (not a rating table)
+
+| Stage | What happens | Data collected | Example fields |
+| --- | --- | --- | --- |
+| Eligibility check | Detect items with few/no reviews | Inventory signals | SKU, category, availability |
+| Reviewer selection | Identify likely contributors | User activity | past purchases, clicks |
+| Prompting | Ask users to write a review | Prompt metrics | open rate, response rate |
+| Moderation | Filter spam/toxicity | Content signals | language, duplicates |
+| Publication | Display review on product page | Display metadata | timestamp, locale |
+| Feedback loop | Improve future prompts | Performance logs | conversion lift, dwell time |

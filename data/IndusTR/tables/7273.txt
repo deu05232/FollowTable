@@ -1,0 +1,15 @@
+<table>
+  <caption>Error limit values for combined-harmonic active energy under specified waveform groups and instrument class</caption>
+  <thead>
+    <tr><th rowspan="2">Combined-harmonic case</th><th rowspan="2">Waveform group description</th><th rowspan="2">Load condition</th><th colspan="3">Permissible error limit for combined-harmonic active energy (±%)</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CH-1</td><td>Group A: odd harmonics up to 13th (dominant 5th)</td><td>Balanced (single-phase)</td><td>±2.0</td><td>±3.5</td><td>±12.0</td></tr>
+    <tr><td>CH-2</td><td>Group A: odd harmonics up to 13th (dominant 5th)</td><td>Unbalanced load</td><td>±2.5</td><td>±4.0</td><td>±15.0</td></tr>
+    <tr><td>CH-3</td><td>Group B: odd harmonics up to 25th (flat spectrum)</td><td>Balanced (single-phase)</td><td>±2.5</td><td>±4.0</td><td>±15.0</td></tr>
+    <tr><td>CH-4</td><td>Group B: odd harmonics up to 25th (flat spectrum)</td><td>Unbalanced load</td><td>±3.0</td><td>±5.0</td><td>±18.0</td></tr>
+    <tr><td>CH-5</td><td>Group C: mixed odd/even up to 21st (dominant 3rd)</td><td>Balanced (single-phase)</td><td>±2.5</td><td>±4.0</td><td>±12.0</td></tr>
+    <tr><td>CH-6</td><td>Group C: mixed odd/even up to 21st (dominant 3rd)</td><td>Unbalanced load</td><td>±3.5</td><td>±6.0</td><td>±20.0</td></tr>
+  </tbody>
+</table>

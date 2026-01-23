@@ -1,0 +1,7 @@
+# # iPod protocol message fields for accessory communication
+
+| Message segment purpose | Byte-length pattern | Mode interpretation | Command encoding style | Integrity check approach |
+| --- | --- | --- | --- | --- |
+| Header framing | Fixed prefix | Identifies communication context | Two-byte command unit | Sum-based validation |
+| Payload section | Variable length | Depends on operating mode | Optional parameters | Computed from payload |
+| Terminator section | Fixed | End-of-frame marker | Not applicable | Final checksum byte |

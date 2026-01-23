@@ -1,0 +1,13 @@
+<table>
+  <caption>Mechanical Robustness Tests for Point-Type Heat Detectors (Includes Drop/Impact/Vibration)</caption>
+  <tr><th rowspan="2">Test item</th><th colspan="2">Test parameters</th><th rowspan="2">Operating state</th><th rowspan="2">Acceptance criteria</th></tr>
+  <tr><th>Parameter</th><th>Requirement</th></tr>
+  <tr><td rowspan="2">Drop test</td><td>Number of drops</td><td>3</td><td rowspan="2">De-energized</td><td rowspan="2">No cracking; no loose parts; functional after test</td></tr>
+  <tr><td>Drop height (mm)</td><td>1500</td></tr>
+  <tr><td rowspan="2">Impact test</td><td>Impact energy (J)</td><td>0.5</td><td rowspan="2">De-energized</td><td rowspan="2">No mechanical damage affecting operation</td></tr>
+  <tr><td>Number of impacts</td><td>5</td></tr>
+  <tr><td rowspan="2">Vibration test</td><td>Frequency sweep (Hz)</td><td>10–55</td><td rowspan="2">Energized</td><td rowspan="2">No intermittent fault; no change in calibration beyond tolerance</td></tr>
+  <tr><td>Sweep duration (min)</td><td>30</td></tr>
+  <tr><td rowspan="2">Terminal strength</td><td>Pull force (N)</td><td>20</td><td rowspan="2">De-energized</td><td rowspan="2">No detachment; continuity maintained</td></tr>
+  <tr><td>Hold time (s)</td><td>60</td></tr>
+</table>

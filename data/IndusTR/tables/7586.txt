@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Session Configuration Enums (Plane Finding + Other Controls)</caption>
+  <thead>
+    <tr><th>Category</th><th>Enum Constant</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Plane Finding Mode</td><td>AR_PLANE_FINDING_MODE_DISABLED</td><td>0</td><td>No plane detection performed</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL</td><td>1</td><td>Detect horizontal planes</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_VERTICAL</td><td>2</td><td>Detect vertical planes</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL_AND_VERTICAL</td><td>3</td><td>Detect both horizontal and vertical planes</td></tr>
+    <tr><td rowspan="3">Tracking Run Mode</td><td>ARTRACKING_RUN_MODE_AUTO</td><td>0</td><td>Tracking runs automatically after resume</td></tr>
+    <tr><td>ARTRACKING_RUN_MODE_MANUAL</td><td>1</td><td>Tracking requires manual start</td></tr>
+    <tr><td>ARTRACKING_RUN_MODE_FREEZE</td><td>2</td><td>Freeze tracking updates while session remains active</td></tr>
+    <tr><td rowspan="2">Camera Facing Direction</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_BACK</td><td>0</td><td>Back-facing camera</td></tr>
+    <tr><td>AR_CAMERA_CONFIG_FACING_DIRECTION_FRONT</td><td>1</td><td>Front-facing camera</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+# BitTorrent Traffic Management by ISP (Shaping, Throttling, and Encryption Policies)
+
+| ISP | Region | Access Type | Detects BitTorrent via DPI | Peak-hour Throttling | Encrypted Traffic Treated Differently | Port-based Blocking | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Comcast | US | Cable | Yes | Yes (evenings) | Sometimes exempt | No | Policies vary by market |
+| AT&T Internet | US | DSL/Fiber | Yes | Rare | No | No | Congestion-based controls |
+| Verizon Fios | US | Fiber | Limited | No | No | No | Generally neutral routing |
+| Spectrum | US | Cable | Yes | Yes (select nodes) | No | No | Node congestion triggers |
+| BT (British Telecom) | UK | DSL/Fiber | Yes | Yes (legacy) | Yes | No | Older shaping reports |
+| Telstra | AU | Cable/DSL | Yes | Yes | No | Yes (some ports) | Depends on plan |
+| Orange | FR | DSL | Yes | Yes | Yes | Yes | Historical P2P shaping |
+| Rogers | CA | Cable | Yes | Yes | No | No | Traffic management guidelines |
+| Airtel | IN | Mobile | Yes | Yes | N/A | Yes | CGNAT impacts P2P |
+| Vodafone | DE | Mobile | Yes | Yes | N/A | Yes | Mobile QoS rules |

@@ -1,0 +1,17 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Referenced Standards and Technique Requirements</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Inspection Plan Identifier</td><td>(0014,6020)</td><td>LO</td><td>1</td><td>2</td><td>Identifier of the approved inspection plan or traveler that specifies how the inspection shall be performed.</td></tr>
+    <tr><td>Procedure Revision</td><td>(0014,6021)</td><td>LO</td><td>1</td><td>2</td><td>Revision identifier of the inspection procedure used, enabling QA change control traceability.</td></tr>
+    <tr><td>Applicable Standard</td><td>(0014,6003)</td><td>ST</td><td>1</td><td>2</td><td>Standard/code followed for the inspection, including document number and edition where applicable.</td></tr>
+    <tr><td>>Standard Clause Reference</td><td>(0014,6022)</td><td>ST</td><td>1</td><td>3</td><td>Clause/paragraph reference within the applicable standard that defines technique and evaluation requirements.</td></tr>
+    <tr><td>Technical Level</td><td>(0014,6004)</td><td>CS</td><td>1</td><td>2</td><td>Required technical level/class for the inspection, used to determine required quality indicators and evaluation stringency.</td></tr>
+    <tr><td>Required Image Quality Indicator (IQI) Type</td><td>(0014,6023)</td><td>CS</td><td>1</td><td>2</td><td>Required IQI type per the procedure/standard (e.g., WIRE, HOLE), indicating the mandated quality control method.</td></tr>
+    <tr><td>Required IQI Sensitivity</td><td>(0014,6024)</td><td>DS</td><td>1</td><td>2</td><td>Minimum required IQI sensitivity/quality level as specified by the standard or procedure.</td></tr>
+    <tr><td>Evaluation Method</td><td>(0014,6025)</td><td>CS</td><td>1</td><td>2</td><td>Method used to evaluate inspection results (e.g., VISUAL, MEASURED, AUTOMATED), as mandated by the QA procedure.</td></tr>
+    <tr><td>Reporting Requirement</td><td>(0014,6026)</td><td>ST</td><td>1</td><td>3</td><td>Required reporting content or report form reference (e.g., required fields, record retention rule) for compliance documentation.</td></tr>
+  </tbody>
+</table>

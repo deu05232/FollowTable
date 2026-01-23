@@ -1,0 +1,19 @@
+<table>
+  <caption>Road Traffic Safety Early Warning — Work Zone & Traffic Control Timeline Fields (Planned vs Actual)</caption>
+  <thead>
+    <tr><th>Group</th><th>Seq.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Requirements / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Planning</td><td>1</td><td>Planned Start Time</td><td>DateTime</td><td>19</td><td>No</td><td>Yes</td><td>Announced start time for construction/control. Format: YYYY-MM-DD hh:mm:ss.</td></tr>
+    <tr><td>2</td><td>Planned End Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>Yes</td><td>Announced end time. If present, must be >= Planned Start Time.</td></tr>
+    <tr><td>3</td><td>Planned Daily Start Time</td><td>Time</td><td>8</td><td>Yes</td><td>No</td><td>Optional daily window start for recurring works (hh:mm:ss). Used together with Planned Daily End Time.</td></tr>
+    <tr><td>4</td><td>Planned Daily End Time</td><td>Time</td><td>8</td><td>Yes</td><td>No</td><td>Optional daily window end for recurring works (hh:mm:ss). Should be > Planned Daily Start Time within a day.</td></tr>
+    <tr><td rowspan="4">Execution</td><td>5</td><td>Actual Start Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>Yes</td><td>Confirmed time the control/work actually began. May differ from planned.</td></tr>
+    <tr><td>6</td><td>Actual End Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>Yes</td><td>Confirmed time the control/work ended. Should be >= Actual Start Time.</td></tr>
+    <tr><td>7</td><td>Estimated Clearance Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>Yes</td><td>Estimated time physical obstacles/equipment are cleared from the roadway (may be later than Actual End Time for administrative control).</td></tr>
+    <tr><td>8</td><td>Estimated Traffic Recovery Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>Yes</td><td>Estimated time traffic flow/speed returns to normal after clearance. Used for traveler information and timeline end marker.</td></tr>
+    <tr><td rowspan="3">Messaging</td><td>9</td><td>First Public Release Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>Yes</td><td>Time when the warning is first published to the public (app/VMS/web). Format: YYYY-MM-DD hh:mm:ss.</td></tr>
+    <tr><td>10</td><td>Latest Public Update Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>Yes</td><td>Time of the latest public-facing update. Should be >= First Public Release Time.</td></tr>
+    <tr><td>11</td><td>Expiration Time</td><td>DateTime</td><td>19</td><td>Yes</td><td>No</td><td>Time when the warning message becomes invalid and should be withdrawn if not explicitly closed.</td></tr>
+  </tbody>
+</table>

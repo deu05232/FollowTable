@@ -1,0 +1,17 @@
+<table>
+  <caption>Device Inventory Export API - Authorized Device Lookup</caption>
+  <thead>
+    <tr><th>Field</th><th>Type</th><th>Required</th><th>Location</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>API Name</td><td>string</td><td>Yes</td><td>—</td><td>Device Inventory Export API</td></tr>
+    <tr><td>API Method</td><td>string</td><td>Yes</td><td>—</td><td>POST</td></tr>
+    <tr><td>access_token</td><td>string</td><td>Yes</td><td>Header</td><td>Authorization token for exporting inventory</td></tr>
+    <tr><td>deviceId</td><td>string</td><td>No</td><td>Body</td><td>Optional filter to export a single device record</td></tr>
+    <tr><td>groupId</td><td>string</td><td>No</td><td>Body</td><td>Filter by device group</td></tr>
+    <tr><td>format</td><td>string</td><td>Yes</td><td>Body</td><td>Export format: CSV or JSON</td></tr>
+    <tr><td>includeSecrets</td><td>boolean</td><td>No</td><td>Body</td><td>Whether to include masked secret metadata (not credentials)</td></tr>
+    <tr><td>pageSize</td><td>integer</td><td>No</td><td>Body</td><td>Number of records per page</td></tr>
+    <tr><td>pageToken</td><td>string</td><td>No</td><td>Body</td><td>Pagination token</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Band gaps of oxide semiconductors computed with different electronic-structure methods (fundamental and Γ-point gaps).</caption>
+  <thead>
+    <tr><th>Compound</th><th>Phase</th><th>Method</th><th>Fundamental Eg (eV)</th><th>Direct gap at Γ (eV)</th><th>Gap character</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TiO2</td><td>rutile</td><td>LDA</td><td>1.90</td><td>2.05</td><td>indirect</td></tr>
+    <tr><td>TiO2</td><td>rutile</td><td>GGA-PBE</td><td>2.00</td><td>2.15</td><td>indirect</td></tr>
+    <tr><td>TiO2</td><td>rutile</td><td>HSE06</td><td>3.05</td><td>3.12</td><td>indirect</td></tr>
+    <tr><td>SnO2</td><td>rutile</td><td>LDA</td><td>2.10</td><td>2.60</td><td>direct</td></tr>
+    <tr><td>SnO2</td><td>rutile</td><td>GGA-PBE</td><td>2.20</td><td>2.70</td><td>direct</td></tr>
+    <tr><td>SnO2</td><td>rutile</td><td>G0W0</td><td>3.55</td><td>4.00</td><td>direct</td></tr>
+    <tr><td>MgO</td><td>rocksalt</td><td>GGA-PBE</td><td>4.70</td><td>7.20</td><td>indirect</td></tr>
+    <tr><td>MgO</td><td>rocksalt</td><td>G0W0</td><td>7.10</td><td>7.90</td><td>indirect</td></tr>
+  </tbody>
+</table>

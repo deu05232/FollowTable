@@ -1,0 +1,15 @@
+<table>
+  <caption>Vehicle Authentication Exchange Interface - Request Parameters</caption>
+  <thead>
+    <tr><th>Section</th><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Auth Envelope</td><td>Authentication sequence number</td><td>vehicleAuthSeq</td><td>string</td><td>Client-generated unique authentication sequence. Format: "Operator ID + unique number". Max length 64.</td><td>Yes</td></tr>
+    <tr><td>Auth Subject</td><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>Vehicle VIN per GB/T 27930. Length 17 characters.</td><td>Yes</td></tr>
+    <tr><td>Auth Subject</td><td>License plate number</td><td>plateNum</td><td>string</td><td>Full license plate number used as an auxiliary identifier for identity matching.</td><td>No</td></tr>
+    <tr><td>Credential Proof</td><td>Authentication token</td><td>authToken</td><td>string</td><td>Opaque credential issued by the platform for authentication verification. Max length 256.</td><td>Yes</td></tr>
+    <tr><td>Credential Proof</td><td>Token signature</td><td>authSign</td><td>string</td><td>Signature over (vehicleAuthSeq + vinCode + authToken + timestamp) using the agreed algorithm.</td><td>Yes</td></tr>
+    <tr><td>Replay Protection</td><td>Timestamp</td><td>ts</td><td>string</td><td>UTC timestamp in ISO 8601 format (e.g., 2026-01-19T08:30:00Z) used for replay prevention.</td><td>Yes</td></tr>
+    <tr><td>Replay Protection</td><td>Nonce</td><td>nonce</td><td>string</td><td>Random string for one-time use with each authentication request. Max length 32.</td><td>Yes</td></tr>
+  </tbody>
+</table>

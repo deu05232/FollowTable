@@ -1,0 +1,11 @@
+<table>
+  <caption>IMU Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="7">vrIMUdata</td><td>int64_ttime_stamp</td><td>IMU data timestamp</td></tr>
+  <tr><td>double acc_x</td><td rowspan="3">3-axis accelerometer data</td></tr>
+  <tr><td>double acc_y</td></tr>
+  <tr><td>double acc_z</td></tr>
+  <tr><td>double gyro_x</td><td rowspan="3">3-axis gyroscope data</td></tr>
+  <tr><td>double gyro_y</td></tr>
+  <tr><td>double gyro_z</td></tr>
+</table>

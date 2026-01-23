@@ -1,0 +1,16 @@
+<table>
+  <caption>Power Quality and Output Performance Acceptance Criteria (Low-Voltage Shore Power Box)</caption>
+  <thead>
+    <tr><th>Performance parameter</th><th>Measurement point / condition</th><th>Allowable operating range / limit</th><th>Maximum duration / response</th><th>Acceptance criterion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Output RMS voltage regulation (steady-state)</td><td>At output terminals, 25%–100% load</td><td>Within ±5% of rated voltage</td><td>Continuous</td><td>Pass if voltage remains in range</td></tr>
+    <tr><td>Output frequency stability (steady-state)</td><td>At output terminals</td><td>Within ±1% of rated frequency</td><td>Continuous</td><td>Pass if frequency remains in range</td></tr>
+    <tr><td>Voltage unbalance (3-phase)</td><td>Measured at output, balanced load reference</td><td>≤ 2%</td><td>Continuous</td><td>Pass if unbalance does not exceed limit</td></tr>
+    <tr><td>Total harmonic distortion of voltage (THDv)</td><td>At output, linear load</td><td>≤ 5%</td><td>Continuous</td><td>Pass if THDv within limit</td></tr>
+    <tr><td>Short-term voltage sag ride-through</td><td>Step load change / upstream dip</td><td>Voltage dip up to 20% allowed</td><td>Recovery to within ±5% in ≤ 1.5 s</td><td>Pass if dip and recovery meet limits</td></tr>
+    <tr><td>Inrush / step-load transient overshoot</td><td>0% → 100% load step</td><td>Peak deviation ≤ ±15%</td><td>Settling to ±5% in ≤ 2 s</td><td>Pass if overshoot and settling meet limits</td></tr>
+    <tr><td>Output overvoltage protection</td><td>Simulated control fault / regulator runaway</td><td>Trip threshold ≤ 110% of rated voltage</td><td>Disconnect in ≤ 200 ms</td><td>Pass if protection operates within thresholds</td></tr>
+    <tr><td>Output undervoltage protection</td><td>Simulated brownout</td><td>Alarm or disconnect at ≤ 85% of rated voltage</td><td>Action in ≤ 2 s</td><td>Pass if action and setpoint meet limits</td></tr>
+  </tbody>
+</table>

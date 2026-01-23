@@ -1,0 +1,15 @@
+<table>
+  <caption>Rubber Compound Incoming & In-Process Quality Scoring (No Actuator Commands)</caption>
+  <thead>
+    <tr><th>No.</th><th>Process Step</th><th>Signal Inputs</th><th>Scoring / Logic</th><th>Output (Score / Label)</th><th>Action (Administrative)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Raw Material Verification</td><td>Supplier lot ID, certificate values, barcode scan</td><td>Check completeness and spec match</td><td>Verification status (Complete / Incomplete)</td><td>Hold lot if incomplete</td></tr>
+    <tr><td>2</td><td>Compound Mooney Test</td><td>Mooney viscosity, recipe limits</td><td>Compute z-score vs limits</td><td>Mooney grade (OK / High / Low)</td><td>Notify QC if High/Low</td></tr>
+    <tr><td>3</td><td>Carbon Black Dispersion</td><td>Microscope dispersion index</td><td>Compare to threshold bands</td><td>Dispersion rating (1-5)</td><td>Record to MES</td></tr>
+    <tr><td>4</td><td>Mixing Batch Consistency</td><td>Batch-to-batch variance, sample count</td><td>Compute variance and trend slope</td><td>Consistency score (0-100)</td><td>Escalate if score < 75</td></tr>
+    <tr><td>5</td><td>Extruded Sheet Surface Check</td><td>Surface camera defects per meter</td><td>Count defects and severity weighting</td><td>Surface quality label (OK / Watch / Reject)</td><td>Route to reinspection if Watch</td></tr>
+    <tr><td>6</td><td>Calender Gauge Audit</td><td>Thickness samples (mm), tolerance</td><td>CPK calculation</td><td>Capability index (Cpk)</td><td>Weekly report generation</td></tr>
+    <tr><td>7</td><td>Final Compound Release</td><td>All prior scores, spec rules</td><td>Weighted aggregation</td><td>Release decision (Release / Hold)</td><td>Administrative workflow only</td></tr>
+  </tbody>
+</table>

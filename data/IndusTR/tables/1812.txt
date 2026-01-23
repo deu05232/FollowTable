@@ -1,0 +1,9 @@
+<table>
+  <caption>Vehicle Charging Status Message (PGN4352) Format</caption>
+  <tr><td>Start Byte or Bit</td><td>Length</td><td>SPN</td><td>SPN Definition</td><td>Transmission Option</td></tr>
+  <tr><td>1</td><td>2 bytes</td><td>3075</td><td>Current vehicle interface voltage measured value (V)</td><td>Required</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>3076</td><td>Current vehicle interface current measured value (A)</td><td>Required</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>3077</td><td>Maximum single power battery cell voltage and its pack number</td><td>Required</td></tr>
+  <tr><td>7</td><td>1 byte</td><td>3078</td><td>Current state of charge SOC (%)</td><td>Required</td></tr>
+  <tr><td>8</td><td>2 bytes</td><td>3079</td><td>Estimated remaining charging time (min)</td><td>Required</td></tr>
+</table>

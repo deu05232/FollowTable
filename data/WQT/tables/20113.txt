@@ -1,0 +1,12 @@
+# IPv4 Special-Use Address Registry — Textual Prefix-Length (Not CIDR Form)
+
+| Designation | Network | Prefix length (words) | Routeability | Example use |
+| --- | --- | --- | --- | --- |
+| Private | 10.0.0.0 | eight | Not publicly routed | Internal addressing |
+| Private | 172.16.0.0 | twelve | Not publicly routed | Site networks |
+| Private | 192.168.0.0 | sixteen | Not publicly routed | Home routers |
+| Loopback | 127.0.0.0 | eight | Not publicly routed | localhost |
+| Link-local | 169.254.0.0 | sixteen | Not publicly routed | DHCP failure fallback |
+| Shared CGN | 100.64.0.0 | ten | Not globally routed | ISP NAT pools |
+| Benchmarking | 198.18.0.0 | fifteen | Not publicly routed | Lab benchmarking |
+| Documentation | 192.0.2.0 | twenty-four | Not publicly routed | Example configs |

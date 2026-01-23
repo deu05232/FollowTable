@@ -1,0 +1,19 @@
+<table>
+  <caption>Summary of Baseline and Project Emissions Components for MSW Incineration Projects (Letter-Coded Totals)</caption>
+  <thead>
+    <tr><th>Accounting Block</th><th>Component Name</th><th>Code</th><th>Definition / What It Represents</th><th>Unit</th><th>Aggregation Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Baseline (BE)</td><td>Landfill emissions displaced</td><td>A</td><td>Emissions avoided by diverting waste from landfill</td><td>tCO2e</td><td rowspan="3">D = A + B + C</td></tr>
+    <tr><td>Baseline (BE)</td><td>Grid electricity displaced</td><td>B</td><td>Emissions avoided due to exported electricity</td><td>tCO2e</td></tr>
+    <tr><td>Baseline (BE)</td><td>Useful heat displaced</td><td>C</td><td>Emissions avoided due to exported heat</td><td>tCO2e</td></tr>
+    <tr><td>Baseline (BE)</td><td>Total baseline emissions</td><td>D</td><td>Total baseline emissions for the project boundary</td><td>tCO2e</td><td>D = A + B + C</td></tr>
+    <tr><td>Project (PE)</td><td>Electricity consumption</td><td>E</td><td>Emissions from electricity imported to run the facility</td><td>tCO2e</td><td rowspan="6">J = E + F + G + H + I</td></tr>
+    <tr><td>Project (PE)</td><td>Fossil fuel consumption</td><td>F</td><td>On-site fossil fuels (start-up, auxiliary burners)</td><td>tCO2e</td></tr>
+    <tr><td>Project (PE)</td><td>Incineration CO2 (combustion)</td><td>G</td><td>Direct CO2 from combustion of fossil carbon fraction</td><td>tCO2e</td></tr>
+    <tr><td>Project (PE)</td><td>N2O and CH4 from combustion</td><td>H</td><td>Non-CO2 combustion gases</td><td>tCO2e</td></tr>
+    <tr><td>Project (PE)</td><td>Wastewater-related CH4</td><td>I</td><td>Methane from wastewater handling (if applicable)</td><td>tCO2e</td></tr>
+    <tr><td>Project (PE)</td><td>Total project emissions</td><td>J</td><td>Total project emissions within boundary</td><td>tCO2e</td><td>J = E + F + G + H + I</td></tr>
+    <tr><td>Emission Reduction</td><td>Net emission reductions</td><td>K</td><td>Emission reductions from the project activity</td><td>tCO2e</td><td>K = D - J</td></tr>
+  </tbody>
+</table>

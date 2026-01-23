@@ -1,0 +1,10 @@
+<table>
+  <caption>Stop-related message definition that mixes termination with general telemetry (contrarian negative for Type 2)</caption>
+  <tr><th>Start byte or bit</th><th>Length</th><th>SPN</th><th>SPN definition</th><th>Send option</th></tr>
+  <tr><td>1</td><td>1 byte</td><td>3521</td><td>Charger charging termination reason</td><td>Mandatory</td></tr>
+  <tr><td>2</td><td>2 bytes</td><td>3522</td><td>Charger charging termination fault reason</td><td>Mandatory</td></tr>
+  <tr><td>4</td><td>1 byte</td><td>3523</td><td>Charger charging termination error reason</td><td>Mandatory</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>2817</td><td>Maximum allowable charging current</td><td>Required</td></tr>
+  <tr><td>7</td><td>2 bytes</td><td>2816</td><td>Maximum allowable charging voltage of a single traction battery cell</td><td>Required</td></tr>
+  <tr><td>9</td><td>7 bytes</td><td>2823</td><td>Timestamp (year/month/day/hour/minute/second)</td><td>Optional</td></tr>
+</table>

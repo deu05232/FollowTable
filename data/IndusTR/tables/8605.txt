@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Camera API Parameters: Acquire Camera Intrinsics</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Handle to the active AR session.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>in</td><td>The camera instance to query.</td></tr>
+    <tr><td>intrinsics</td><td>ArCameraIntrinsics *</td><td>out</td><td>Receives intrinsics values written into an existing object.</td></tr>
+    <tr><td>image_width</td><td>int32_t *</td><td>out</td><td>Returns the current image width.</td></tr>
+    <tr><td>image_height</td><td>int32_t *</td><td>out</td><td>Returns the current image height.</td></tr>
+    <tr><td>focal_length</td><td>float *</td><td>out</td><td>Returns focal length in pixels (fx, fy packed by convention).</td></tr>
+    <tr><td>principal_point</td><td>float *</td><td>out</td><td>Returns principal point (cx, cy packed by convention).</td></tr>
+  </tbody>
+</table>

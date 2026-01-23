@@ -1,0 +1,6 @@
+<table>
+  <caption>Emergency Management Beidou System Monitoring Configuration Read Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Number of Execution Card Numbers</td><td>8</td><td>Integer</td><td></td><td>0~255</td><td>The number of execution card numbers included in this message. When the number of execution card numbers is 0, there is no Card Number 1～N field; all terminals that receive the command need to execute the command</td></tr>
+  <tr><td>2</td><td>Card Number 1～N</td><td>N×24</td><td>Integer</td><td></td><td>1~16 777 215</td><td>Whether the user monitoring execution card numbers include the terminal's own Emergency Management Beidou application terminal card number: if included, respond; otherwise, do not respond. N is the number of execution card numbers</td></tr>
+</table>

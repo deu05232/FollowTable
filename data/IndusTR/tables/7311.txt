@@ -1,0 +1,16 @@
+<table>
+  <caption>Ecosystem Regulation Service Parameters by Ecosystem Type (Soil Conservation & Carbon Regulation)</caption>
+  <thead>
+    <tr><th rowspan="2">Ecosystem Type</th><th colspan="2">Soil Conservation Inputs</th><th colspan="2">Carbon Regulation Inputs</th><th rowspan="2">Typical Combined Index (example)</th></tr>
+    <tr><th>Cover-Management Factor (CUSLE)</th><th>Support Practice Factor (PUSLE)</th><th>Aboveground Biomass Carbon (t C/ha)</th><th>Annual Sequestration Rate (t C/ha/yr)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Evergreen Broadleaf Forest</td><td>0.002–0.010</td><td>0.70–1.00</td><td>90–160</td><td>1.8–3.5</td><td>ERI = 0.5·(1−CUSLE) + 0.5·(Sequestration/3.5)</td></tr>
+    <tr><td>Deciduous Broadleaf Forest</td><td>0.003–0.015</td><td>0.70–1.00</td><td>70–130</td><td>1.5–3.0</td><td>ERI = 0.5·(1−CUSLE) + 0.5·(Sequestration/3.5)</td></tr>
+    <tr><td>Coniferous Forest</td><td>0.002–0.012</td><td>0.70–1.00</td><td>80–150</td><td>1.3–2.8</td><td>ERI = 0.5·(1−CUSLE) + 0.5·(Sequestration/3.5)</td></tr>
+    <tr><td>Shrubland</td><td>0.030–0.080</td><td>0.75–1.00</td><td>15–45</td><td>0.3–0.9</td><td>ERI = 0.5·(1−CUSLE) + 0.5·(Sequestration/3.5)</td></tr>
+    <tr><td>Grassland</td><td>0.010–0.050</td><td>0.80–1.00</td><td>10–35</td><td>0.4–1.2</td><td>ERI = 0.5·(1−CUSLE) + 0.5·(Sequestration/3.5)</td></tr>
+    <tr><td>Cropland</td><td>0.100–0.350</td><td>0.50–0.90</td><td>5–15</td><td>0.1–0.6</td><td>ERI = 0.5·(1−CUSLE) + 0.5·(Sequestration/3.5)</td></tr>
+    <tr><td>Wetland</td><td>0.005–0.030</td><td>0.80–1.00</td><td>30–80</td><td>0.6–2.0</td><td>ERI = 0.5·(1−CUSLE) + 0.5·(Sequestration/3.5)</td></tr>
+  </tbody>
+</table>

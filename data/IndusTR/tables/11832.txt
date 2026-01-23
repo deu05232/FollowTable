@@ -1,0 +1,16 @@
+<table>
+  <caption>AVS Audio Codec Conformance: Reference Bitstream Set (Unsorted Filenames)</caption>
+  <thead>
+    <tr><th>No.</th><th>Test bitstream set</th><th>Profile</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>sc01_sr32k_br24k.avsa</td><td>LC</td><td>Speech content</td></tr>
+    <tr><td>2</td><td>sc02_sr44p1k_br24k.avsa</td><td>LC</td><td>Same nominal case name but not aligned</td></tr>
+    <tr><td>3</td><td>sc03_sr48k_br24k.avsa</td><td>LC</td><td>Higher sampling rate variant</td></tr>
+    <tr><td>4</td><td>es01_sr32k_br80k.avsa</td><td>Main</td><td>Music content</td></tr>
+    <tr><td>5</td><td>es01_sr44p1k_br80k.avsa</td><td>Main</td><td>Rate differs</td></tr>
+    <tr><td>6</td><td>es01_sr48k_br80k.avsa</td><td>Main</td><td>Rate differs</td></tr>
+    <tr><td>7</td><td>test1_71_sr44p1k_br192k.avsa</td><td>Surround</td><td>44.1 kHz only listed here</td></tr>
+    <tr><td>8</td><td>test2_71_sr48k_br192k.avsa</td><td>Surround</td><td>48 kHz only listed here</td></tr>
+  </tbody>
+</table>

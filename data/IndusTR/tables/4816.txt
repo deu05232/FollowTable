@@ -1,0 +1,15 @@
+<table>
+  <caption>PKCS #7 Enveloped Data Decoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Pkcs7_DecodeEnvelopedData(void * hAppHandle,unsigned char * pucDecContainerName,unsigned int uiDecContainerNameLen,unsigned int uiDecKeyUsage,unsigned char * pucDerP7EnvelopedData,unsigned int uiDerP7EnvelopedDataLen,unsigned char * pucData,                                              SACunsigned int * puiDataLen)</td></tr>
+  <tr><td>Description</td><td>Decode PKCS#7-format enveloped data</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](Application interface handle)</td></tr>
+  <tr><td>pucDecContainerName[in](Key container name of the private key for decryption）</td></tr>
+  <tr><td>uiDecContainerNameLen[in](Length of the key container name of the private key for decryption）</td></tr>
+  <tr><td>uiDecKeyUsage[in](Intended use of the private key for decryption)</td></tr>
+  <tr><td>pucDerP7EnvelopedData[in](Enveloped data)</td></tr>
+  <tr><td>uiDerP7EnvelopedDataLen[in](Enveloped data length)</td></tr>
+  <tr><td>pucData[out](Plaintext data obtained after decoding)</td></tr>
+  <tr><td>puiDataLen[in,out](Length of plaintext data obtained after decoding)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(Success)</td></tr>
+  <tr><td>Non0(Failure; return the error code defined in Table C.1, and shall comply with the provisions of Appendix C)</td></tr>
+</table>

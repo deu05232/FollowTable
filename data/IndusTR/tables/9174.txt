@@ -1,0 +1,17 @@
+<table>
+  <caption>Audio Codec Conformance Test Vectors — Feature Coverage Matrix with Per-Rate Bitstreams</caption>
+  <thead>
+    <tr><th rowspan="2">Case No.</th><th rowspan="2">Category</th><th rowspan="2">Objective</th><th colspan="3">Bitstream filename</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FV-101</td><td rowspan="3">Syntax & Parsing</td><td>Header parsing (all optional fields off)</td><td>fv101_hdr_min_sr32k.avsa</td><td>fv101_hdr_min_sr44k1.avsa</td><td>fv101_hdr_min_sr48k.avsa</td></tr>
+    <tr><td>FV-102</td><td>Header parsing (all optional fields on)</td><td>fv102_hdr_full_sr32k.avsa</td><td>fv102_hdr_full_sr44k1.avsa</td><td>fv102_hdr_full_sr48k.avsa</td></tr>
+    <tr><td>FV-103</td><td>CRC / integrity signaling</td><td>fv103_crc_on_sr32k.avsa</td><td>fv103_crc_on_sr44k1.avsa</td><td>fv103_crc_on_sr48k.avsa</td></tr>
+    <tr><td>FV-201</td><td rowspan="2">Tools</td><td>Temporal noise shaping (TNS) enabled</td><td>fv201_tns_sr32k_br64k.avsa</td><td>fv201_tns_sr44k1_br64k.avsa</td><td>fv201_tns_sr48k_br64k.avsa</td></tr>
+    <tr><td>FV-202</td><td>Prediction tool enabled</td><td>fv202_pred_sr32k_br80k.avsa</td><td>fv202_pred_sr44k1_br80k.avsa</td><td>fv202_pred_sr48k_br80k.avsa</td></tr>
+    <tr><td>FV-301</td><td rowspan="2">Multichannel</td><td>5.1 downmix metadata present</td><td>fv301_51_dm_sr32k.avsa</td><td>fv301_51_dm_sr44k1.avsa</td><td>fv301_51_dm_sr48k.avsa</td></tr>
+    <tr><td>FV-302</td><td>Object metadata parsing (simple)</td><td>fv302_obj_simple_sr32k.avsa</td><td>fv302_obj_simple_sr44k1.avsa</td><td>fv302_obj_simple_sr48k.avsa</td></tr>
+    <tr><td>FV-401</td><td>Limits</td><td>Maximum frame length / buffer stress</td><td>fv401_maxbuf_sr32k.avsa</td><td>fv401_maxbuf_sr44k1.avsa</td><td>fv401_maxbuf_sr48k.avsa</td></tr>
+  </tbody>
+</table>

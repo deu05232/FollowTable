@@ -1,0 +1,14 @@
+<table>
+  <caption>NavIC (IRNSS) Phase-Bias Block: Per-Signal Entry Layout</caption>
+  <thead>
+    <tr><th>Level</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Parsing Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Signal-entry header</td><td>IRNSS Signal and Its Tracking Mode</td><td>DF6IR</td><td>uint5</td><td>5</td><td>Selects the signal/tracking-mode codepoint for this entry</td></tr>
+    <tr><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>Integer ambiguity indicator for the signal</td></tr>
+    <tr><td rowspan="4">Signal-entry flags and values</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>Wide-lane integer indicator (2-bit state)</td></tr>
+    <tr><td>Signal Phase Bias Validity Flag</td><td>DF487</td><td>uint1</td><td>1</td><td>0 = invalid/unavailable; 1 = valid phase-bias provided</td></tr>
+    <tr><td>Signal Phase Bias Correction</td><td>DF486</td><td>int20</td><td>20</td><td>Signed correction value for this specific signal</td></tr>
+    <tr><td>Signal Phase Bias Confidence Indicator</td><td>DF488</td><td>uint3</td><td>3</td><td>Quality/confidence class for the bias estimate</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>VR Device Positioning API Functions (Signatures and Parameters)</caption>
+  <thead>
+    <tr><th>Category</th><th>Function</th><th>Return Type</th><th>Key Parameters</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Device discovery</td><td>vrDeviceGetPositionableDeviceList</td><td>bool</td><td>vrPositionableDevice** devices, int32_t* out_size</td><td>Enumerate positionable devices</td></tr>
+    <tr><td>vrDeviceGetPositionableDeviceType</td><td>bool</td><td>const vrPositionableDevice* device, vrPositionableDeviceType* type</td><td>Query the device type</td></tr>
+    <tr><td>vrDeviceGetPositionableDeviceSerial</td><td>bool</td><td>const vrPositionableDevice* device, char* out_serial, uint32_t capacity</td><td>Get device serial string</td></tr>
+    <tr><td rowspan="4">Tracking queries</td><td>vrDeviceGetPositionableDeviceMotionPose</td><td>bool</td><td>const vrPositionableDevice* device, vrPose* pose, vrMotionData* motion</td><td>Get pose and motion sample</td></tr>
+    <tr><td>vrDeviceGetPositionableDevicePoseAtTime</td><td>bool</td><td>const vrPositionableDevice* device, int64_t time_ns, vrPose* out_pose</td><td>Get pose at a given timestamp</td></tr>
+    <tr><td>vrDeviceSetTrackingOrigin</td><td>bool</td><td>vrTrackingOrigin origin</td><td>Set the tracking origin space</td></tr>
+    <tr><td>vrDeviceResetReferencePose</td><td>bool</td><td>const vrPositionableDevice* device</td><td>Recenter or reset reference</td></tr>
+  </tbody>
+</table>

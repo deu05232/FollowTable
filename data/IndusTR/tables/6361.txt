@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre PHY Electrical Interface Limits (Mixed Rates in Text, No Separate Bounds)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Value</th><th>Unit</th><th>Rate-dependent details</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Differential output swing (pp)</td><td>VOD</td><td>600</td><td>mV</td><td>Applies typically; implementation may vary with equalization setting</td></tr>
+    <tr><td>Common-mode output voltage</td><td>VOCM</td><td>0.9</td><td>V</td><td>Nominal target</td></tr>
+    <tr><td>Termination</td><td>RT</td><td>100</td><td>Ω</td><td>Differential termination</td></tr>
+    <tr><td>Total jitter (BER 1e-12)</td><td>TJ</td><td>0.25 UI @ 2.5G; 0.20 UI @ 3.125G; 0.15 UI @ 6.25G</td><td>UI</td><td>Multiple operating rates embedded in one text cell</td></tr>
+    <tr><td>Transmit de-emphasis</td><td>DE</td><td>3.5</td><td>dB</td><td>Example setting for longer links</td></tr>
+    <tr><td>Receiver sensitivity (electrical)</td><td>VSENS</td><td>200</td><td>mV</td><td>Single-number statement (no lower/upper bounds)</td></tr>
+    <tr><td>Input return loss</td><td>RLIN</td><td>-10</td><td>dB</td><td>Single-number statement; frequency range not bounded here</td></tr>
+  </tbody>
+</table>

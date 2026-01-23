@@ -1,0 +1,7 @@
+<table>
+  <caption>AR session interface parameters (name and description only)</caption>
+  <tr><th>Parameter Name</th><th>Description</th></tr>
+  <tr><td>env</td><td>Pointer representing the runtime environment</td></tr>
+  <tr><td>context</td><td>Pointer representing the runtime context</td></tr>
+  <tr><td>out_session_pointer</td><td>Receives the address of the newly allocated session</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Association Specification: Machinery Item Catalog ↔ Subsidized Product Catalog (Crosswalk Mapping)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Catalog-to-Catalog Crosswalk</td></tr>
+    <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+    <tr><td>Table Name 1</td><td>Machinery Item Catalog Table</td></tr>
+    <tr><td>Table Name 2</td><td>Subsidized Product Catalog Table</td></tr>
+    <tr><td>Join Keys (Table 1)</td><td>item_code, model_code</td></tr>
+    <tr><td>Join Keys (Table 2)</td><td>product_code, model_code</td></tr>
+    <tr><td>Cardinality</td><td>N Items : N Subsidized Products</td></tr>
+    <tr><td>Direction</td><td>Bidirectional (Reference Mapping)</td></tr>
+    <tr><td>Business Purpose</td><td>Provide reference mapping between machinery SKUs and subsidy-eligible product codes</td></tr>
+  </tbody>
+</table>

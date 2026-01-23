@@ -1,0 +1,8 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Inspection Qualification and Level</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Inspection Level</td><td>(0014,6020)</td><td>CS</td><td>1</td><td>2</td><td>Required inspection level to be met for the examination</td></tr>
+  <tr><td>Qualification Method Reference</td><td>(0014,6021)</td><td>ST</td><td>1</td><td>2</td><td>Reference to the method used to qualify the inspection process or system</td></tr>
+  <tr><td>Procedure Revision Identifier</td><td>(0014,6022)</td><td>LO</td><td>1</td><td>2</td><td>Identifier of the revision of the inspection procedure being followed</td></tr>
+  <tr><td>Inspection Scope Description</td><td>(0014,6023)</td><td>UT</td><td>1</td><td>3</td><td>Free-text description of what the inspection covers and any constraints required by the procedure</td></tr>
+</table>

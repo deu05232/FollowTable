@@ -1,0 +1,16 @@
+<table>
+  <caption>Beidou Monitoring Terminal Positioning and Timing Performance Requirements</caption>
+  <thead>
+    <tr><th>No.</th><th>Capability / Metric</th><th>Performance Target</th><th>Measurement Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>BDS-only operation capability</td><td>Shall maintain normal positioning and timing when receiving BDS open service signals only</td><td>Capability requirement (no test setup described)</td></tr>
+    <tr><td>2</td><td>Time To First Fix (TTFF) - Cold start</td><td>≤ 45 s</td><td>From power-on to first valid position output</td></tr>
+    <tr><td>3</td><td>Time To First Fix (TTFF) - Warm start</td><td>≤ 25 s</td><td>Ephemeris available; no recent fix</td></tr>
+    <tr><td>4</td><td>Time To First Fix (TTFF) - Hot start</td><td>≤ 5 s</td><td>Recent fix information available</td></tr>
+    <tr><td>5</td><td>Position update rate</td><td>≥ 1 Hz (configurable up to 10 Hz)</td><td>Valid NMEA/position messages</td></tr>
+    <tr><td>6</td><td>Positioning accuracy (horizontal, open-sky)</td><td>≤ 2.5 m (RMS)</td><td>Performance expectation for acceptance</td></tr>
+    <tr><td>7</td><td>Timing output accuracy (1PPS)</td><td>≤ 100 ns (RMS)</td><td>Relative to GNSS time reference</td></tr>
+    <tr><td>8</td><td>Re-acquisition time after signal loss</td><td>≤ 10 s</td><td>After temporary blockage; output returns to valid state</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Minimum Recording Specifications — System Status & Mode Signals</caption>
+  <tr><th>Serial No.</th><th>Data Name</th><th>Level</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Minimum Recording Data Capability Range</th><th>Minimum Recording Resolution</th><th>Minimum Recording Accuracy</th><th>Data Description</th></tr>
+  <tr><td>1</td><td>Autonomous driving function status</td><td>A</td><td>2 Hz</td><td>Not applicable</td><td>0: Off 1: Standby 2: Active 3: Degraded 4: Fault</td><td>Not applicable</td><td>Should have no error</td><td>Status as used by the control function</td></tr>
+  <tr><td>2</td><td>Minimum risk maneuver (MRM) request flag</td><td>A</td><td>10 Hz</td><td>Not applicable</td><td>0: No request 1: Request</td><td>Not applicable</td><td>Should have no error</td><td>Indicates whether an MRM is requested by the system</td></tr>
+  <tr><td>3</td><td>Operational design domain (ODD) compliance flag</td><td>A</td><td>2 Hz</td><td>Not applicable</td><td>0: Out of ODD 1: Within ODD</td><td>Not applicable</td><td>Should have no error</td><td>Based on the system’s ODD evaluation logic</td></tr>
+  <tr><td>4</td><td>Driver takeover request (TOR) issued</td><td>A</td><td>10 Hz</td><td>Not applicable</td><td>0: No 1: Yes</td><td>Not applicable</td><td>Should have no error</td><td></td></tr>
+  <tr><td>5</td><td>TOR modality</td><td>A</td><td>10 Hz</td><td>Not applicable</td><td>0: null 1: Visual 2: Audible 3: Haptic 4: Multi-modal</td><td>Not applicable</td><td>Should have no error</td><td>Records the modality with the highest priority</td></tr>
+  <tr><td>6</td><td>Time synchronization status</td><td>A</td><td>1 Hz</td><td>Not applicable</td><td>0: Not synchronized 1: Synchronized</td><td>Not applicable</td><td>Should have no error</td><td>Indicates whether timestamps are synchronized to a reference clock</td></tr>
+</table>

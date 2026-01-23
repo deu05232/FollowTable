@@ -1,0 +1,12 @@
+<table>
+  <caption>Message 62 Field Layout for Class B Maritime Autonomous Radio Equipment</caption>
+  <tr><th>Message Parameter</th><th>Length (bit)</th><th>Description and Requirements</th></tr>
+  <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 62, fixed at 62</td></tr>
+  <tr><td>Repeat Indicator</td><td>2</td><td>Fixed at 0 for initial transmission</td></tr>
+  <tr><td>Source MMSI</td><td>30</td><td>MMSI of transmitting device; encoding per MMSI rules</td></tr>
+  <tr><td>Destination MMSI</td><td>30</td><td>MMSI of addressed device; 0 if broadcast</td></tr>
+  <tr><td>Payload Type</td><td>4</td><td>Indicates payload subtype for autonomous operation</td></tr>
+  <tr><td>Payload Data</td><td>96</td><td>Binary payload; interpretation defined by the subtype</td></tr>
+  <tr><td>Spare</td><td>8</td><td>Set to 0</td></tr>
+  <tr><td>CRC/Check</td><td>16</td><td>Error detection field as defined in the protocol</td></tr>
+</table>

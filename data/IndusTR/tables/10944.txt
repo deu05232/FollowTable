@@ -1,0 +1,10 @@
+<table>
+  <caption>Operator Kernel Registration and Model Lifecycle Interfaces (Combined)</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Register Operator Kernel</td><td>REGISTER_KERNEL</td><td>Required</td><td>Register kernel implementations for framework operators on the accelerator</td></tr>
+  <tr><td>Register Custom Op Schema</td><td>register_op_schema</td><td>Optional</td><td>Register metadata and shape inference rules for custom operators</td></tr>
+  <tr><td>Create Model</td><td>create_model</td><td>Required</td><td>Create a hardware-executable model from the framework graph</td></tr>
+  <tr><td>Validate Model</td><td>validate_model</td><td>Optional</td><td>Report operator support for partitioning and fusion decisions</td></tr>
+  <tr><td>Destroy Model</td><td>destroy_model</td><td>Required</td><td>Destroy the executable model and release resources</td></tr>
+  <tr><td>List Registered Kernels</td><td>list_registered_kernels</td><td>Optional</td><td>Return a list of kernels registered for debugging and packaging</td></tr>
+</table>

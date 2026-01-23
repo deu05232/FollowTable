@@ -1,0 +1,16 @@
+<table>
+  <caption>Foreground Galaxy Lensing Effects on Imaging of Background Cluster Galaxies (Outcome-Oriented Summary)</caption>
+  <thead>
+    <tr><th rowspan="2">Lensing regime</th><th rowspan="2">Typical configuration</th><th colspan="4">Observed image outcomes (cluster-galaxy imaging)</th><th rowspan="2">Common interpretation risk</th></tr>
+    <tr><th>Magnification (μ)</th><th>Brightness change (Δm)</th><th>Image separation / arc distortion</th><th>Time delay (Δt)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Weak lensing (single foreground galaxy)</td><td>Background cluster galaxy seen through galaxy outskirts (no multiple images)</td><td>1.02–1.15</td><td>-0.02 to -0.15 mag</td><td>Centroid shift ≲0.05″; mild tangential shear</td><td>≪1 day (negligible for imaging)</td><td>Size/shape bias in morphology and surface-brightness profiles</td></tr>
+    <tr><td>Moderate lensing (impact parameter near Einstein radius)</td><td>Arclets and noticeable stretching without clear counterimage</td><td>1.2–2.5</td><td>-0.2 to -1.0 mag</td><td>Arc curvature; effective separation ~0.2–0.8″</td><td>~0.1–5 days</td><td>Misclassifying a lensed background member as an intrinsically elongated cluster galaxy</td></tr>
+    <tr><td>Strong lensing (double)</td><td>Two images of the same background cluster galaxy</td><td>2–10 (sum)</td><td>-0.8 to -2.5 mag</td><td>0.5–2.0″ between images</td><td>~1–30 days</td><td>Counting a single source twice in cluster member catalogs</td></tr>
+    <tr><td>Strong lensing (quad)</td><td>Four images around the lens galaxy, partial Einstein ring</td><td>5–30 (sum)</td><td>-1.7 to -3.7 mag</td><td>1–3″ image span; ring radius ~0.5–1.5″</td><td>~5–200 days</td><td>Photometric redshift outliers due to blended lens+source light</td></tr>
+    <tr><td>Galaxy + external shear (from cluster-scale potential)</td><td>Image splitting governed by galaxy mass but stretched by cluster shear</td><td>3–20 (sum)</td><td>-1.2 to -3.3 mag</td><td>Non-colinear images; arc alignment rotated toward cluster center</td><td>~3–100 days</td><td>Attributing shear-induced geometry to galaxy ellipticity alone</td></tr>
+    <tr><td>Microlensing by stars in the lens galaxy</td><td>Flux anomalies on top of macro-lens images</td><td>~1 (macro μ unchanged)</td><td>Variable by ~0.1–1.0 mag</td><td>No resolvable separation change</td><td>Not a geometric delay; variability timescales weeks–years</td><td>Interpreting variability as intrinsic source variation in the cluster galaxy</td></tr>
+    <tr><td>Dust + lens light contamination (foreground galaxy)</td><td>Lens galaxy overlaps the background cluster galaxy image</td><td>—</td><td>Apparent dimming/reddening up to ~0.1–1 mag</td><td>PSF/shape systematics from blending</td><td>—</td><td>Spurious color gradients and biased stellar-mass estimates</td></tr>
+  </tbody>
+</table>

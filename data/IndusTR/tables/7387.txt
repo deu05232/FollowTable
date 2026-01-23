@@ -1,0 +1,14 @@
+<table>
+  <caption>Project Emissions Accounting for MSW Incineration Facility (Module Summary and Total)</caption>
+  <thead>
+    <tr><th>Project emission module</th><th>Symbol</th><th>Equation (tCO2e/yr)</th><th>Key activity data</th><th>Emission factors / parameters</th><th>Included in PE?</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased electricity consumption</td><td>PE_EC</td><td>PE_EC = EC_grid × EF_grid</td><td>EC_grid (MWh/yr)</td><td>EF_grid (tCO2e/MWh)</td><td>Yes</td></tr>
+    <tr><td>On-site fossil fuel combustion (auxiliary burners, start-up)</td><td>PE_FC</td><td>PE_FC = Σf(FC_f × NCV_f × EF_CO2,f) + Σf(FC_f × EF_CH4,f × GWP_CH4) + Σf(FC_f × EF_N2O,f × GWP_N2O)</td><td>FC_f (mass or volume/yr)</td><td>NCV_f, EF_CO2,f (tCO2/TJ); EF_CH4,f, EF_N2O,f (t gas/unit); GWP values</td><td>Yes</td></tr>
+    <tr><td>Combustion CO2 from fossil carbon in waste</td><td>PE_COM_CO2</td><td>PE_COM_CO2 = Σj(W_j × DW_j × FC_j × OXID_j × 44/12)</td><td>W_j (t/yr by waste type j)</td><td>DW_j (dry fraction); FC_j (fossil carbon fraction of dry matter); OXID_j (oxidation factor)</td><td>Yes</td></tr>
+    <tr><td>Combustion CH4 and N2O from waste incineration</td><td>PE_COM_CH4N2O</td><td>PE_COM_CH4N2O = (E_CH4 × GWP_CH4) + (E_N2O × GWP_N2O)</td><td>E_CH4, E_N2O (t/yr)</td><td>Measured or default emission factors; GWP values</td><td>Yes</td></tr>
+    <tr><td>Wastewater treatment at facility (if applicable)</td><td>PE_WW</td><td>PE_WW = (COD_removed × EF_CH4,ww × GWP_CH4) + (N_removed × EF_N2O,ww × GWP_N2O)</td><td>COD_removed (t/yr), N_removed (t/yr)</td><td>EF_CH4,ww; EF_N2O,ww; GWP values</td><td>Conditional</td></tr>
+    <tr><td>Total project emissions</td><td>PE</td><td>PE = PE_EC + PE_FC + PE_COM_CO2 + PE_COM_CH4N2O + PE_WW</td><td>—</td><td>—</td><td>Yes</td></tr>
+  </tbody>
+</table>

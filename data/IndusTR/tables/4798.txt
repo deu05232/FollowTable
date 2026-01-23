@@ -1,0 +1,11 @@
+<table>
+  <caption>Operation Monitoring Parameter Set of Slitting Equipment</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Slitter Speed Display</td><td>SlitterSpeedDisplay</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2 000.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0301</td><td>Slitting Roll Diameter Display</td><td>SlittingRollDiameterDisplay</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>50.00~2 000.00</td><td>mm</td><td>One</td><td></td></tr>
+  <tr><td>0X0302</td><td>Slitter Tension Display</td><td>SlitterTensionDisplay</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1 000.00</td><td>N</td><td>1</td><td></td></tr>
+  <tr><td>0X0303</td><td>Slitter Meter Counting Display</td><td>MeterCountingDisplayOfSlittingMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~9 999.00</td><td>m</td><td></td><td>One</td></tr>
+  <tr><td>0X0304</td><td>Slitting Roll Speed Synchronization Factor</td><td>SlittingRollSpeedSynchronizationFactor</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.80~1.20</td><td>1</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0305</td><td>Slitting Width</td><td>Slitting Width</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10 000.00</td><td>mm</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0306</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

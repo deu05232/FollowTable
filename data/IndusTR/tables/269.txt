@@ -1,0 +1,8 @@
+<table>
+  <caption>Charger Abort Message Data Field Structure</caption>
+  <tr><td>Sequence No.</td><td>Parameter Content</td><td>Length</td><td>Data Type</td><td>Parameter Type</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x03</td></tr>
+  <tr><td>2</td><td>Charger Abort Type</td><td>1 byte</td><td>BYTE</td><td>EndCodeType</td><td>Charger abort type per Table L.4</td></tr>
+  <tr><td>3</td><td>Charger Abort Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>EndReasonType</td><td>Charger abort reason per Table L.4</td></tr>
+  <tr><td>4</td><td>Reconnect Request</td><td>1 byte</td><td>BYTE</td><td>RepeatType</td><td>Request to perform reconnection charging (does not affect restart): 0x00: do not request reconnection charging; OxAA: request reconnection charging; OxFF: invalid (sent when the vehicle actively aborts and the charger responds to the vehicle abort)</td></tr>
+</table>

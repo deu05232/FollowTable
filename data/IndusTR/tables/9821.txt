@@ -1,0 +1,15 @@
+<table>
+  <caption>ArHitResult_getPose, Distance, and Transform Outputs for Placement</caption>
+  <thead>
+    <tr><th>Output / Parameter</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session pointer.</td></tr>
+    <tr><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Hit test result returned from an AR raycast/hit test.</td></tr>
+    <tr><td>out_distance_meters</td><td>float *</td><td>out</td><td>Distance from the ray origin to the hit point in meters; commonly used for nearest-hit selection.</td></tr>
+    <tr><td>out_pose</td><td>ArPose *</td><td>out</td><td>World-space pose (position + orientation) at the hit location; use to place virtual content.</td></tr>
+    <tr><td>out_world_from_hit</td><td>float[16] *</td><td>out</td><td>Column-major 4x4 transform matrix representing the hit pose in world coordinates (same meaning asout_pose, different format).</td></tr>
+    <tr><td>out_hit_normal</td><td>float[3] *</td><td>out</td><td>Surface normal at the hit location (world space), useful for aligning objects or validating collision response.</td></tr>
+    <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>out</td><td>Frame timestamp (nanoseconds) associated with the hit; can be used to reject stale collision feedback.</td></tr>
+  </tbody>
+</table>

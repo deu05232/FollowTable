@@ -1,0 +1,10 @@
+<table>
+  <caption>Production Test Bench Configuration for Harmonic Active Energy Meters</caption>
+  <tr><th>Station</th><th>Equipment</th><th>Model</th><th>Key Setting</th><th>Throughput (units/hour)</th><th>Calibration Interval</th></tr>
+  <tr><td>S1</td><td>AC Source</td><td>PX-AC900</td><td>230/400 V, 45–65 Hz</td><td>40</td><td>12 months</td></tr>
+  <tr><td>S2</td><td>Phantom Load</td><td>LoadPro-3P</td><td>0–120 A, PF settable</td><td>35</td><td>12 months</td></tr>
+  <tr><td>S3</td><td>Harmonic Generator</td><td>HG-5000</td><td>2nd–40th order</td><td>25</td><td>6 months</td></tr>
+  <tr><td>S4</td><td>Reference Meter</td><td>REF-0.02</td><td>Class 0.02</td><td>25</td><td>6 months</td></tr>
+  <tr><td>S5</td><td>Optical Probe</td><td>OP-IR-1</td><td>IEC 62056-21</td><td>50</td><td>24 months</td></tr>
+  <tr><td>S6</td><td>Burn-in Rack</td><td>BI-72H</td><td>72 h @ 55°C</td><td>20</td><td>24 months</td></tr>
+</table>

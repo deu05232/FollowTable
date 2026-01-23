@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Spatial Mapping Session Configuration Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session handle</td></tr>
+    <tr><td>config</td><td>ArConfig *</td><td>Session configuration object</td></tr>
+    <tr><td>plane_detection_mode</td><td>ArPlaneDetectionMode</td><td>Controls horizontal/vertical plane detection</td></tr>
+    <tr><td>mesh_reconstruction_mode</td><td>ArMeshReconstructionMode</td><td>Enables/disables scene mesh reconstruction</td></tr>
+    <tr><td>depth_mode</td><td>ArDepthMode</td><td>Depth acquisition mode for mapping/occlusion</td></tr>
+    <tr><td>world_alignment</td><td>ArWorldAlignment</td><td>Gravity/heading alignment for world coordinates</td></tr>
+    <tr><td>map_persistence_mode</td><td>ArMapPersistenceMode</td><td>Controls saving/loading of spatial maps</td></tr>
+    <tr><td>occlusion_mode</td><td>ArOcclusionMode</td><td>Occlusion settings driven by spatial understanding</td></tr>
+    <tr><td>collision_mesh_enabled</td><td>bool</td><td>Whether to generate collision mesh from reconstruction</td></tr>
+  </tbody>
+</table>

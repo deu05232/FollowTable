@@ -1,0 +1,17 @@
+<table>
+  <caption>AR API Enumeration Definitions: Session, Focus and Depth Modes</caption>
+  <thead>
+    <tr><th>Enum Category</th><th>Description</th><th>Identifier and Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Session Run Mode</td><td>Session not running</td><td>AR_SESSION_RUN_MODE_STOPPED = 0</td></tr>
+    <tr><td>Run session normally</td><td>AR_SESSION_RUN_MODE_RUNNING = 1</td></tr>
+    <tr><td>Run session in background / suspended updates</td><td>AR_SESSION_RUN_MODE_SUSPENDED = 2</td></tr>
+    <tr><td rowspan="3">Camera Focus Mode</td><td>Fixed focus</td><td>AR_CAMERA_FOCUS_MODE_FIXED = 0</td></tr>
+    <tr><td>Auto focus</td><td>AR_CAMERA_FOCUS_MODE_AUTO = 1</td></tr>
+    <tr><td>Continuous auto focus</td><td>AR_CAMERA_FOCUS_MODE_CONTINUOUS_AUTO = 2</td></tr>
+    <tr><td rowspan="3">Depth Mode</td><td>Depth disabled</td><td>AR_DEPTH_MODE_DISABLED = 0</td></tr>
+    <tr><td>Depth from hardware sensor</td><td>AR_DEPTH_MODE_SENSOR = 1</td></tr>
+    <tr><td>Depth from software / inference</td><td>AR_DEPTH_MODE_AUTOMATIC = 2</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Per-Frame Conformance Output Summary (Decoder Observable Results)</caption>
+  <thead>
+    <tr><th>Frame #</th><th>Slice type</th><th>PSNR-Y (dB)</th><th>Bitrate (kbps)</th><th>SAO enabled</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>I</td><td>41.2</td><td>1850</td><td>Yes</td><td>Random access point</td></tr>
+    <tr><td>1</td><td>P</td><td>39.8</td><td>1620</td><td>Yes</td><td>Stable QP</td></tr>
+    <tr><td>2</td><td>B</td><td>40.1</td><td>1510</td><td>No</td><td>SAO toggled</td></tr>
+    <tr><td>3</td><td>B</td><td>40.0</td><td>1490</td><td>No</td><td>Bi-pred heavy</td></tr>
+    <tr><td>4</td><td>P</td><td>39.6</td><td>1585</td><td>Yes</td><td>Tile boundary present</td></tr>
+    <tr><td>5</td><td>P</td><td>39.7</td><td>1602</td><td>Yes</td><td>End of sequence test</td></tr>
+    <tr><td>6</td><td>I</td><td>41.0</td><td>1905</td><td>Yes</td><td>IDR-like refresh</td></tr>
+  </tbody>
+</table>

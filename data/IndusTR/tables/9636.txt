@@ -1,0 +1,6 @@
+<table>
+  <caption>Tire manufacturing inspection decision rules (result-focused, not control-action focused)</caption>
+  <tr><th>No.</th><th>Item being inspected</th><th>Data source</th><th>Decision rule description</th><th>Reported label</th><th>Follow-up action</th></tr>
+  <tr><td>1</td><td>Sidewall bulge</td><td>3D scan output</td><td>Flag when bulge geometry exceeds the allowed envelope</td><td>Bulge detected / Not detected</td><td>Send to manual review</td></tr>
+  <tr><td>2</td><td>Tread splice appearance</td><td>Camera images</td><td>Mark abnormal splice region based on contrast and continuity checks</td><td>OK / Suspect</td><td>Hold for inspection</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>AR (Accounting Report) Department KPI Enumeration - Cross-Domain Glossary</caption>
+  <tr><th>AR KPI Code</th><th>Name</th><th>Description</th><th>Unit</th><th>Valid Range</th></tr>
+  <tr><td>AR_KPI_DSO</td><td>Days Sales Outstanding</td><td>Average collection period for receivables</td><td>days</td><td>0-365</td></tr>
+  <tr><td>AR_KPI_CE</td><td>Collection Efficiency</td><td>Cash collected vs. cash due</td><td>%</td><td>0-100</td></tr>
+  <tr><td>AR_KPI_BDE</td><td>Bad Debt Expense Ratio</td><td>Bad debt expense over credit sales</td><td>%</td><td>0-30</td></tr>
+  <tr><td>AR_KPI_CRR</td><td>Customer Risk Rating</td><td>Internal customer credit risk category</td><td>level</td><td>1-5</td></tr>
+  <tr><td>AR_KPI_AGING_90</td><td>90+ Aging Bucket</td><td>Receivables aged over 90 days</td><td>USD</td><td>>=0</td></tr>
+  <tr><td>AR_KPI_DISPUTE</td><td>Dispute Rate</td><td>Share of invoices under dispute</td><td>%</td><td>0-100</td></tr>
+</table>

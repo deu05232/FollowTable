@@ -1,0 +1,15 @@
+<table>
+  <caption>Allowable Indication Area and Depth Limits for Surface/Volumetric Discontinuities (by Wall Thickness)</caption>
+  <thead>
+    <tr><th rowspan="2">Wall thickness t (mm)</th><th colspan="3">Allowable discontinuity limits</th><th colspan="2">Evaluation method</th></tr>
+    <tr><th>Max indication area (mm²)</th><th>Max indication length (mm)</th><th>Max depth h (%t)</th><th>Indication type</th><th>Acceptance label</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>t < 25</td><td>900</td><td>35</td><td>5</td><td>Planar</td><td>A1</td></tr>
+    <tr><td>25 ≤ t < 40</td><td>1400</td><td>45</td><td>5</td><td>Planar</td><td>A2</td></tr>
+    <tr><td>40 ≤ t < 60</td><td>2200</td><td>55</td><td>5</td><td>Volumetric</td><td>B1</td></tr>
+    <tr><td>60 ≤ t < 80</td><td>3000</td><td>65</td><td>5</td><td>Volumetric</td><td>B2</td></tr>
+    <tr><td>80 ≤ t < 110</td><td>3800</td><td>80</td><td>4</td><td>Cluster</td><td>C1</td></tr>
+    <tr><td>t ≥ 110</td><td>4500</td><td>95</td><td>4</td><td>Cluster</td><td>C2</td></tr>
+  </tbody>
+</table>

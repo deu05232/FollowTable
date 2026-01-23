@@ -1,0 +1,8 @@
+<table>
+  <caption>Description of Parameters for Getting Camera Intrinsics Focal Length</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>intrinsics</td><td>ArCameraIntrinsics *</td><td>Camera intrinsics pointer</td></tr>
+  <tr><td>out_fx</td><td>float *</td><td>Pointer to the focal length on the camera's X axis</td></tr>
+  <tr><td>out_fy</td><td>float *</td><td>Pointer to the focal length on the camera's Y axis</td></tr>
+</table>

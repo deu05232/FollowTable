@@ -1,0 +1,16 @@
+<table>
+  <caption>Mobile AR SDK Feature Toggles (Single Reference Constant per Feature)</caption>
+  <thead>
+    <tr><th>Feature category</th><th>Feature name</th><th>Reference constant</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Session</td><td>High-accuracy world tracking</td><td>AR_SESSION_FEATURE_WORLD_TRACKING = 1</td><td>Turns on world tracking capability</td></tr>
+    <tr><td>Session</td><td>Shared camera access</td><td>AR_SESSION_FEATURE_SHARED_CAMERA = 2</td><td>Allows the app to share camera stream</td></tr>
+    <tr><td>Perception</td><td>Plane detection</td><td>AR_FEATURE_PLANE_DETECTION = 10</td><td>Enables plane subsystem (specific modes configured elsewhere)</td></tr>
+    <tr><td>Perception</td><td>Depth sensing</td><td>AR_FEATURE_DEPTH = 11</td><td>Enables depth subsystem if supported</td></tr>
+    <tr><td>Perception</td><td>Light estimation</td><td>AR_FEATURE_LIGHT_ESTIMATION = 12</td><td>Enables illumination estimation</td></tr>
+    <tr><td>Face</td><td>Face mesh augmentation</td><td>AR_FEATURE_FACE_MESH = 20</td><td>Requires front camera support</td></tr>
+    <tr><td>Hand</td><td>Hand gesture recognition</td><td>AR_FEATURE_HAND_GESTURES = 30</td><td>Provides gesture callbacks</td></tr>
+    <tr><td>Rendering</td><td>HDR camera textures</td><td>AR_FEATURE_HDR_TEXTURE = 40</td><td>Higher dynamic range camera input</td></tr>
+  </tbody>
+</table>

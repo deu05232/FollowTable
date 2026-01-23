@@ -1,0 +1,40 @@
+<table>
+  <caption>Spin MM inside the Muffin-tin sphere of Uj atom (MT(Uj) for j=1 to j m ⁢ a ⁢ x ), and of Wi atom (MT(Wi) for i=1 to 4), spin MM in the interstitial region (Int.), total spin MM of the primitive unit cell (SP), orbital MM inside the Muffin-tin sphere of Uj atom (ORB(Uj) for j=1 to j m ⁢ a ⁢ x ), and total MM per primitive unit cell (TOT) in μ B in covered jU/7W(110) for j = 1 to j m ⁢ a ⁢ x within the PW-LDA and PBE-GGA with and without SO coupling. The total spin moment is SP=2 × ( ∑ j = 1 j m ⁢ a ⁢ x MT(Uj)+ ∑ i = 1 4 MT(Wi))+Int. Total MM per primitive unit cell (TOT) is TOT=SP+2 × ⁣ ∑ j = 1 j m ⁢ a ⁢ x ORB(Uj). The j m ⁢ a ⁢ x index varies from 1 in 1U/7W to 3 in 3/7W(110).</caption>
+  <tr><th></th><th>GGA</th><th>GGA+SO</th><th>LDA</th><th>LDA+SO</th></tr>
+  <tr><th></th><td></td><td>1U/7W(110)</td><td></td><td></td></tr>
+  <tr><th>MT(U1)</th><td>1.707</td><td>1.402</td><td>1.445</td><td>1.259</td></tr>
+  <tr><th>MT(W1)</th><td>0.000</td><td>-0.011</td><td>0.009</td><td>0.017</td></tr>
+  <tr><th>MT(W2)</th><td>0.003</td><td>0.010</td><td>-0.003</td><td>0.001</td></tr>
+  <tr><th>MT(W3)</th><td>-0.003</td><td>-0.002</td><td>-0.006</td><td>-0.001</td></tr>
+  <tr><th>MT(W4)</th><td>-0.003</td><td>-0.003</td><td>-0.001</td><td>0.003</td></tr>
+  <tr><th>Int.</th><td>1.150</td><td>1.088</td><td>0.871</td><td>0.825</td></tr>
+  <tr><th>SP</th><td>4.558</td><td>3.880</td><td>3.759</td><td>3.383</td></tr>
+  <tr><th>ORB(U1)</th><td></td><td>-0.446</td><td></td><td>-0.386</td></tr>
+  <tr><th>TOT</th><td>4.558</td><td>2.988</td><td>3.759</td><td>2.611</td></tr>
+  <tr><th></th><td></td><td>2U/7W(110)</td><td></td><td></td></tr>
+  <tr><th>MT(U2)</th><td>0.126</td><td>-0.030</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(U1)</th><td>0.040</td><td>-0.008</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(W1)</th><td>0.002</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(W2)</th><td>0.002</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(W3)</th><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(W4)</th><td>-0.001</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>Int.</th><td>0.109</td><td>-0.031</td><td>0.001</td><td>0.000</td></tr>
+  <tr><th>SP</th><td>0.447</td><td>-0.107</td><td>0.001</td><td>0.000</td></tr>
+  <tr><th>ORB(U2)</th><td></td><td>0.008</td><td></td><td>0.000</td></tr>
+  <tr><th>ORB(U1)</th><td></td><td>0.002</td><td></td><td>0.000</td></tr>
+  <tr><th>TOT</th><td>0.447</td><td>0.057</td><td>0.001</td><td>0.000</td></tr>
+  <tr><th></th><td></td><td>3U/7W(110)</td><td></td><td></td></tr>
+  <tr><th>MT(U3)</th><td>0.086</td><td>-0.021</td><td>-0.022</td><td>0.009</td></tr>
+  <tr><th>MT(U2)</th><td>0.020</td><td>-0.003</td><td>-0.007</td><td>0.000</td></tr>
+  <tr><th>MT(U1)</th><td>0.010</td><td>0.000</td><td>0.002</td><td>0.001</td></tr>
+  <tr><th>MT(W1)</th><td>-0.002</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(W2)</th><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(W3)</th><td>-0.001</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>MT(W4)</th><td>0.000</td><td>0.000</td><td>0.000</td><td>0.000</td></tr>
+  <tr><th>Int.</th><td>0.050</td><td>-0.013</td><td>-0.011</td><td>0.001</td></tr>
+  <tr><th>SP</th><td>0.276</td><td>-0.061</td><td>-0.065</td><td>0.020</td></tr>
+  <tr><th>ORB(U3)</th><td></td><td>0.006</td><td></td><td>-0.002</td></tr>
+  <tr><th>ORB(U2)</th><td></td><td>0.001</td><td></td><td>0.000</td></tr>
+  <tr><th>ORB(U1)</th><td></td><td>0.000</td><td></td><td>0.000</td></tr>
+  <tr><th>TOT</th><td>0.276</td><td>-0.047</td><td>-0.055</td><td>0.016</td></tr>
+</table>

@@ -1,0 +1,8 @@
+# IPv4 special-use blocks shown as dotted netmask (no CIDR prefix length)
+
+| Network | Subnet mask | Purpose |
+| --- | --- | --- |
+| 10.0.0.0 | 255.0.0.0 | Private network |
+| 172.16.0.0 | 255.240.0.0 | Private network |
+| 192.168.0.0 | 255.255.0.0 | Private network |
+| 127.0.0.0 | 255.0.0.0 | Loopback |

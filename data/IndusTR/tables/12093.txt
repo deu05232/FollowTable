@@ -1,0 +1,16 @@
+<table>
+  <caption>Intrusion Detector Performance Requirements by Sensor Type (Detection and Localization)</caption>
+  <thead>
+    <tr><th rowspan="2">Detector type</th><th rowspan="2">Configuration</th><th rowspan="2">Detection range (m)</th><th colspan="2">Localization performance</th><th rowspan="2">Update rate (Hz)</th></tr>
+    <tr><th>Range accuracy (m, 1σ)</th><th>Azimuth accuracy (deg, 1σ)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Microwave perimeter radar</td><td>Wide-beam</td><td>1200</td><td>8</td><td>1.2</td><td>10</td></tr>
+    <tr><td>Microwave perimeter radar</td><td>Narrow-beam</td><td>1800</td><td>5</td><td>0.7</td><td>10</td></tr>
+    <tr><td>Passive infrared (PIR)</td><td>Standard lens</td><td>18</td><td>N/A</td><td>N/A</td><td>2</td></tr>
+    <tr><td>Dual-technology (PIR + microwave)</td><td>Pet-immune</td><td>15</td><td>N/A</td><td>N/A</td><td>2</td></tr>
+    <tr><td>Laser scanning detector</td><td>2D scan, 270° FOV</td><td>60</td><td>0.10</td><td>0.25</td><td>25</td></tr>
+    <tr><td>Acoustic gunshot/intrusion array</td><td>4-mic array, outdoor</td><td>300</td><td>3</td><td>2.0</td><td>5</td></tr>
+    <tr><td>Fiber optic fence sensor</td><td>Zone length 1000 m</td><td>1000</td><td>2.5 (along fence)</td><td>N/A</td><td>20</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Optical Interface Summary (TX/RX Mixed Limits)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Symbol</th><th>Min</th><th>Typ</th><th>Max</th><th>Unit</th><th>Conditions / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Receiver</td><td>Receiver sensitivity</td><td>PRX_SENS</td><td>-18.5</td><td>-17.0</td><td>-15.5</td><td>dBm</td><td>BER=1e-12, PRBS31, OMA reference</td></tr>
+    <tr><td>Receiver overload</td><td>PRX_OVL</td><td>-2.0</td><td>-1.0</td><td>0.0</td><td>dBm</td><td>BER=1e-12, PRBS31</td></tr>
+    <tr><td>Receiver reflectance (return loss)</td><td>RL_RX</td><td>12</td><td></td><td></td><td>dB</td><td>Measured at optical connector</td></tr>
+    <tr><td>Receiver wavelength range</td><td>λRX</td><td>830</td><td>850</td><td>860</td><td>nm</td><td>Nominal 850 nm class</td></tr>
+    <tr><td rowspan="4">Transmitter</td><td>Average optical output power</td><td>PTX_AVG</td><td>-6.0</td><td>-3.0</td><td>+2.0</td><td>dBm</td><td>Measured into reference fiber</td></tr>
+    <tr><td>Optical power (OFF state)</td><td>PTX_OFF</td><td></td><td></td><td>-30</td><td>dBm</td><td>Laser disabled</td></tr>
+    <tr><td>Extinction ratio</td><td>ER</td><td>5</td><td>8</td><td></td><td>dB</td><td>Defined over OMA</td></tr>
+    <tr><td>Transmit center wavelength</td><td>λTX</td><td>840</td><td>850</td><td>860</td><td>nm</td><td>VCSEL class</td></tr>
+  </tbody>
+</table>

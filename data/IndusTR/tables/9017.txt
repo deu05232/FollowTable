@@ -1,0 +1,20 @@
+<table>
+  <caption>GLONASS SSR Phase Bias Fields with Per-Signal Encoding (Implementation View)</caption>
+  <thead>
+    <tr><th>Group</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Parsing Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Header</td><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td><td>Read first; selects SSR PB message</td></tr>
+    <tr><td>Message Header</td><td>GLONASS Epoch Time (TOW)</td><td>DF386</td><td>uint17</td><td>17</td><td>Time tag for the PB set (not the main focus but required to align payload)</td></tr>
+    <tr><td>Message Header</td><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Update interval code</td></tr>
+    <tr><td>Message Header</td><td>Multiple Message Indicator</td><td>DF388</td><td>bit(1)</td><td>1</td><td>Concatenate if set</td></tr>
+    <tr><td>Satellite Block</td><td>GLONASS Satellite Number</td><td>DF038</td><td>uint6</td><td>6</td><td>Satellite slot number mapping per GLONASS</td></tr>
+    <tr><td>Satellite Block</td><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td><td>Loop count for the following per-signal block</td></tr>
+    <tr><td>Satellite Block</td><td>SAT Attitude / Yaw Angle</td><td>DF480</td><td>uint9</td><td>9</td><td>Yaw used for phase wind-up handling</td></tr>
+    <tr><td>Per-Signal (repeat)</td><td>GLONASS Signal and Tracking Mode</td><td>DF381</td><td>uint5</td><td>5</td><td>Signal ID for the bias record</td></tr>
+    <tr><td>Per-Signal (repeat)</td><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>Read 1 bit; 0/1 flag</td></tr>
+    <tr><td>Per-Signal (repeat)</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>Read 2 bits; bit-field</td></tr>
+    <tr><td>Per-Signal (repeat)</td><td>Signal Phase Bias</td><td>DF485</td><td>int20</td><td>20</td><td>Signed bias value; apply scale after sign extension</td></tr>
+    <tr><td>Per-Signal (repeat)</td><td>Signal Phase Bias Continuity Indicator</td><td>DF486</td><td>bit(1)</td><td>1</td><td>1=discontinuity occurred since last update</td></tr>
+  </tbody>
+</table>

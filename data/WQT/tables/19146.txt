@@ -1,0 +1,13 @@
+# End-User and Admin Experience in Exchange Hybrid  What Changes After Connecting On-Prem Exchange to Office 365
+
+| Area | Specific capability/behavior | Before hybrid setup | After hybrid setup |
+|---|---|---|---|
+| User experience | Meeting scheduling across org boundary | Users cannot easily see availability for cloud users because those mailboxes do not exist in the on-prem org. | Users can schedule meetings with on-prem and cloud attendees using cross-premises availability sharing. |
+| User experience | Mailbox location transparency | Users are aware of separate environments; sending to cloud users may look like external mail. | The organization behaves more like a single messaging environment; addressing and routing are treated as internal/partnered. |
+| User experience | Outlook Web App / Outlook on the web access | OWA is only hosted on-prem and only works for on-prem mailboxes. | Users access the correct web mailbox experience depending on where the mailbox resides (on-prem OWA vs Exchange Online). |
+| Administration | Provisioning workflow | Creating a mailbox means creating it on-prem; cloud mailboxes require separate processes. | Admins can provision mail-enabled users and choose mailbox placement (cloud vs on-prem) with directory sync alignment. |
+| Administration | Mailbox lifecycle (moves/returns) | Moving to another system is a project (cutover, staged, or third-party). | Mailboxes can be moved to the cloud or back on-prem using supported hybrid move operations. |
+| Security | Transport trust between environments | No pre-established trust for SMTP between on-prem and Microsoft 365; treated as external. | Hybrid connectors establish trusted mail flow (TLS/cert-based) between on-prem Exchange and Exchange Online/EOP. |
+| Compliance & governance | eDiscovery across all mailboxes | Searches are limited to on-prem mailboxes unless using separate tools for cloud. | (With appropriate licensing/config) compliance searches can span on-prem and cloud mailboxes more cohesively. |
+| Operations | Message hygiene and filtering | Filtering is performed by on-prem gateways/anti-spam/AV only. | Filtering can be performed by Microsoft 365 services (EOP/MDO) and integrated with on-prem routing options. |
+| Coexistence | Public folder/legacy dependency impact | Legacy features (e.g., public folders) are entirely on-prem and constrain migration options. | Hybrid allows coexistence while gradually modernizing/migrating, though some features may remain anchored on-prem. |

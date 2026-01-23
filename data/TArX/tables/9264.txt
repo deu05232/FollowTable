@@ -1,0 +1,14 @@
+<table>
+  <caption>Thermal and compositional properties of Earth's core alloys (no explicit core temperature constraint)</caption>
+  <thead>
+    <tr><th>Region / Phase</th><th>Candidate composition</th><th>Thermal conductivity k (W m-1K-1)</th><th>Specific heat Cp(J kg-1K-1)</th><th>Thermal expansivity α (10-5K-1)</th><th>Electrical resistivity ρe(10-8Ω·m)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="2">Outer core (liquid)</th><td>Fe–Ni–Si</td><td>70</td><td>820</td><td>1.5</td><td>110</td><td>Transport properties used for dynamo scaling</td></tr>
+    <tr><td>Fe–Ni–O</td><td>95</td><td>840</td><td>1.3</td><td>125</td><td>Alternative light-element scenario</td></tr>
+    <tr><th rowspan="2">Inner core (solid)</th><td>hcp-Fe (low impurity)</td><td>150</td><td>750</td><td>0.9</td><td>60</td><td>High-k endmember for cooling calculations</td></tr>
+    <tr><td>hcp-Fe + 5% Ni</td><td>120</td><td>770</td><td>1.0</td><td>70</td><td>Impurity lowers k modestly</td></tr>
+    <tr><th>Core–mantle boundary layer</th><td>Fe alloy slurry (parameterized)</td><td>40</td><td>900</td><td>1.8</td><td>140</td><td>Used as boundary-layer parameter set</td></tr>
+    <tr><th>Reference (mantle, for contrast)</th><td>Bridgmanite-rich</td><td>10</td><td>1250</td><td>2.4</td><td>—</td><td>Not a constraint on core temperature</td></tr>
+  </tbody>
+</table>

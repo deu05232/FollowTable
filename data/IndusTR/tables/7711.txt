@@ -1,0 +1,15 @@
+<table>
+  <caption>Certificate Extension and Attribute Extraction (OID/Name Based)</caption>
+  <thead>
+    <tr><th>Category</th><th>Interface</th><th>Prototype</th><th>Primary Input Columns</th><th>Output / Returned Fields</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Extension access</td><td>Get extension by OID</td><td>BSTR SOF_GetCertInfoByOid(BSTR Base64Cert, BSTR Oid)</td><td>Base64Cert, Oid</td><td>ExtensionValue (string/base64/hex, implementation-defined)</td><td>Read private extensions like "1.2.156.xxx" for industry attributes.</td></tr>
+    <tr><td>Get Key Usage</td><td>BSTR SOF_GetCertExtension(BSTR Base64Cert, BSTR ExtName)</td><td>Base64Cert, ExtName="KeyUsage"</td><td>KeyUsage flags</td><td>Decide whether cert is suitable for signing/encryption display labels.</td></tr>
+    <tr><td>Get Extended Key Usage</td><td>BSTR SOF_GetCertExtension(BSTR Base64Cert, BSTR ExtName)</td><td>Base64Cert, ExtName="ExtendedKeyUsage"</td><td>EKU OID list</td><td>Show intended purposes (clientAuth, emailProtection, etc.).</td></tr>
+    <tr><td>Get Subject Alternative Name</td><td>BSTR SOF_GetCertExtension(BSTR Base64Cert, BSTR ExtName)</td><td>Base64Cert, ExtName="SubjectAltName"</td><td>SAN entries (DNS/IP/URI/Email)</td><td>Display alternate identities and match hostnames.</td></tr>
+    <tr><td rowspan="3">Attribute/field parsing</td><td>Get subject field</td><td>BSTR SOF_GetDNField(BSTR Base64Cert, BSTR FieldName)</td><td>Base64Cert, FieldName ("CN","O","OU","C")</td><td>Field value</td><td>Extract display-friendly subject attributes without full DN parsing.</td></tr>
+    <tr><td>Get issuer field</td><td>BSTR SOF_GetIssuerDNField(BSTR Base64Cert, BSTR FieldName)</td><td>Base64Cert, FieldName</td><td>Field value</td><td>Show CA organization/unit in UI.</td></tr>
+    <tr><td>Enumerate extensions</td><td>BSTR SOF_ListCertExtensions(BSTR Base64Cert)</td><td>Base64Cert</td><td>OID list / name list</td><td>Drive a UI that lets users browse available extension OIDs.</td></tr>
+  </tbody>
+</table>

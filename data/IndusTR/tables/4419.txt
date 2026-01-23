@@ -1,0 +1,9 @@
+<table>
+  <caption>Indoor LED Display Pixel Failure Rate Requirements</caption>
+  <tr><td>Failure Category</td><td>Display Area</td><td colspan="2">Pixel Failure Rate</td></tr>
+  <tr><td rowspan="2">Not Lit</td><td>Zone A</td><td>≤2×10-5</td><td rowspan="2">Within an area of 1/9 screen height×1/9 screen width, 2 unlit pixels shall not appear</td></tr>
+  <tr><td>Zone A+Zone B</td><td>≤8×10-5</td></tr>
+  <tr><td rowspan="2">Not Turned Off</td><td>Zone A</td><td colspan="2">0(White lit pixels or green lit pixels)≤1×10-(Red, blue, or other color lit pixels)</td></tr>
+  <tr><td>Zone A+Zone B</td><td colspan="2">≤2×10-5(Within an area of 1/9 screen height×1/9 screen width, 2 green or white lit pixels shall not appear)</td></tr>
+  <tr><td colspan="4">Note: Zone A is the area located at the center of the screen with width and height equal to half of the screen width and height respectively; Zone B is the area other than Zone A.</td></tr>
+</table>

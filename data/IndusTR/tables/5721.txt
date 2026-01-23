@@ -1,0 +1,21 @@
+<table>
+  <caption>Checklist Fields for a Multimodal Biometric Evaluation Dataset (Subject Variation vs. Capture Setup)</caption>
+  <thead>
+    <tr><th>Category</th><th>Field (Database Column)</th><th>Example Values</th><th>Purpose for Fair Evaluation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Human / Biological Variation</td><td>Age Group</td><td>Child; Adult; Senior; Unknown</td><td>Controls performance shifts across age-related appearance/voice changes</td></tr>
+    <tr><td>Sex / Gender</td><td>Male; Female; Non-binary; Prefer not to say</td><td>Supports demographic balance and subgroup reporting</td></tr>
+    <tr><td>Skin Tone Category</td><td>Light; Medium; Dark; Other/Unspecified</td><td>Helps assess differential performance due to pigmentation/reflectance</td></tr>
+    <tr><td>Facial Hair Status (at capture)</td><td>null; Mustache; Beard; Both</td><td>Captures occlusion/appearance variation without quality scoring</td></tr>
+    <tr><td>Eyewear</td><td>null; Glasses; Sunglasses</td><td>Separates identity variation from common occlusions</td></tr>
+    <tr><td>Dominant Hand (for hand traits)</td><td>Left; Right; Ambidextrous; N/A</td><td>Useful when evaluating palm/fingerprint acquisition consistency</td></tr>
+    <tr><td rowspan="7">Capture / Sensor Setup</td><td>Biometric Modality</td><td>Face; Iris; Fingerprint; Palm; Voice</td><td>Allows cross-modality comparisons under the same protocol</td></tr>
+    <tr><td>Acquisition Method / Spectrum</td><td>Visible; Near-Infrared; Infrared; Thermal</td><td>Separates algorithm robustness to spectrum changes</td></tr>
+    <tr><td>Device Type</td><td>Smartphone camera; Dedicated iris camera; Optical fingerprint scanner; Microphone array</td><td>Enables sensor-specific stratification</td></tr>
+    <tr><td>Contact Mode</td><td>Contact-based; Contactless; N/A</td><td>Important for fingerprints/palmprints; affects deformation and artifacts</td></tr>
+    <tr><td>Capture Environment</td><td>Indoor controlled; Indoor uncontrolled; Outdoor</td><td>Accounts for environmental variability without detailed quality metrics</td></tr>
+    <tr><td>Illumination Condition</td><td>Uniform; Backlit; Low light; Mixed lighting</td><td>Distinguishes lighting effects from subject traits</td></tr>
+    <tr><td>Session / Visit ID</td><td>Enrollment; Revisit-1; Revisit-2</td><td>Supports temporal variation and repeatability analysis</td></tr>
+  </tbody>
+</table>

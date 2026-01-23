@@ -1,0 +1,10 @@
+<table>
+  <caption>Environmental Understanding (EE) Interface Parameters for Smart Building Energy Management</caption>
+  <tr><th>Parameter</th><th>Type</th><th>Default</th><th>Description</th><th>Unit</th></tr>
+  <tr><td>zone_id</td><td>string</td><td>"A-101"</td><td>Building zone identifier</td><td>N/A</td></tr>
+  <tr><td>co2_threshold</td><td>float</td><td>900</td><td>CO₂ alert threshold</td><td>ppm</td></tr>
+  <tr><td>hvac_mode</td><td>enum</td><td>AUTO</td><td>HVAC control mode</td><td>N/A</td></tr>
+  <tr><td>occupancy_window</td><td>int</td><td>15</td><td>Occupancy averaging window</td><td>minutes</td></tr>
+  <tr><td>temperature_setpoint</td><td>float</td><td>22.0</td><td>Target temperature</td><td>°C</td></tr>
+  <tr><td>report_interval</td><td>int</td><td>60</td><td>Telemetry publish interval</td><td>seconds</td></tr>
+</table>

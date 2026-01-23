@@ -1,0 +1,14 @@
+<table>
+  <caption>Static Identifiers in Maritime Radio (GMDSS) Distress and Safety Communications</caption>
+  <thead>
+    <tr><th>Identifier Type</th><th>Example</th><th>Length</th><th>Assigned By</th><th>Used For</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MMSI</td><td>412345678</td><td>9 digits</td><td>National telecom authority</td><td>Digital selective calling</td><td>Vessel/station identity</td></tr>
+    <tr><td>Call Sign</td><td>BVHX7</td><td>3–7 chars</td><td>ITU allocation</td><td>Voice communications</td><td>Broadcast/ship ID</td></tr>
+    <tr><td>INMARSAT ID</td><td>870-1234-5678</td><td>12 digits</td><td>Service provider</td><td>Satellite messaging</td><td>Terminal identity</td></tr>
+    <tr><td>EPIRB Hex ID</td><td>1D0F2A3B4C5D6E7</td><td>15 hex</td><td>Beacon registry</td><td>Emergency beacon</td><td>Encoded country code</td></tr>
+    <tr><td>NAVTEX Station ID</td><td>C</td><td>1 letter</td><td>Coordinating authority</td><td>MSI broadcasts</td><td>Service area identifier</td></tr>
+    <tr><td>METAREA</td><td>METAREA XI</td><td>Roman numeral</td><td>WMO/IMO</td><td>Weather warnings</td><td>Area-based classification</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Urban green freight scoring: joint distribution stations combined with enterprise AAA rating counts</caption>
+  <tr><th>City size</th><th>Joint distribution stations per million (units)</th><th>AAA (and above) freight distribution enterprises (units)</th><th>Score</th></tr>
+  <tr><td>Mega city (10 million and above)</td><td>≥ 25</td><td>≥ 8</td><td>100</td></tr>
+  <tr><td>Mega city (10 million and above)</td><td>≥ 25</td><td>< 8</td><td>Score calculated according to Formula (A)</td></tr>
+  <tr><td>Mega city (10 million and above)</td><td>< 25</td><td>≥ 8</td><td>Score calculated according to Formula (B)</td></tr>
+  <tr><td>Very large city (5 million and above but below 10 million)</td><td>≥ 30</td><td>≥ 8</td><td>100</td></tr>
+  <tr><td>Large city (1 million and above but below 5 million)</td><td>≥ 18</td><td>≥ 5</td><td>100</td></tr>
+  <tr><td>Large city (1 million and above but below 5 million)</td><td>< 18</td><td>< 5</td><td>Score calculated according to Formula (C)</td></tr>
+</table>

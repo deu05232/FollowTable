@@ -1,0 +1,10 @@
+<table>
+  <caption>Description of Request Parameters for Batch Status Subscription Interface</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>User Conditions</td><td>userConditions</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Describes the conditions that users who can use this service should meet</td></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>C..64</td><td>M</td><td>1</td><td></td><td>SUBSCRIBE, etc.</td></tr>
+  <tr><td>Subscriber ID</td><td>subscriberID</td><td>C..64</td><td>M</td><td>1</td><td>One</td><td></td></tr>
+  <tr><td>Subscribed-to ID</td><td>subscribedToID</td><td>C..64</td><td>0</td><td>1</td><td>丨</td><td></td></tr>
+  <tr><td>Caller Flag</td><td>callerFlag</td><td>C..64</td><td>0</td><td>1</td><td></td><td>The caller can enter an operation identifier, and the system will return it to the caller</td></tr>
+  <tr><td>Subscribed-to Representation List</td><td>subscribedToRepresentationList</td><td>C..100000</td><td>M</td><td>1</td><td></td><td></td></tr>
+</table>

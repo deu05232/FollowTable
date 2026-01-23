@@ -1,0 +1,15 @@
+<table>
+  <caption>Instant Messaging API - Notification Delivery Request Parameters</caption>
+  <thead>
+    <tr><th>Parameter (English Name)</th><th>Data Type / Format</th><th>Mandatory</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>interfaceOperation</td><td>string (1..64)</td><td>Yes</td><td>Operation name (e.g., SEND_NOTIFICATION, PUSH_EVENT).</td></tr>
+    <tr><td>initiatorNotificationId</td><td>string (1..64)</td><td>Yes</td><td>User ID of the notification initiator (sender).</td></tr>
+    <tr><td>recipientNotificationId</td><td>string (1..64)</td><td>Yes</td><td>User ID of the notification recipient (receiver).</td></tr>
+    <tr><td>notificationType</td><td>string (1..32)</td><td>Yes</td><td>Type of notification (e.g., MESSAGE, TYPING, READ_RECEIPT).</td></tr>
+    <tr><td>payload</td><td>string (0..2000)</td><td>No</td><td>Notification body/payload, encoded as JSON string or plain text.</td></tr>
+    <tr><td>conversationId</td><td>string (1..64)</td><td>No</td><td>Conversation/thread identifier the notification relates to.</td></tr>
+    <tr><td>priority</td><td>integer (0..9)</td><td>No</td><td>Delivery priority; higher values indicate higher priority.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Intelligent Feature Requirements for Consumer Smart Home Devices (Cross-domain Reference)</caption>
+  <tr><th>Device Category</th><th>Intelligent Feature</th><th>Requirement</th><th>Typical Scenario</th><th>Data Retention</th><th>Privacy Note</th></tr>
+  <tr><td>Smart Thermostat</td><td>Adaptive Scheduling</td><td>Auto-learn occupancy pattern within 7 days</td><td>Residential HVAC</td><td>30 days</td><td>Opt-out required</td></tr>
+  <tr><td>Smart Lock</td><td>Anomaly Alerts</td><td>Notify on repeated failed unlock attempts (≥5)</td><td>Home entry</td><td>90 days</td><td>Encrypt event logs</td></tr>
+  <tr><td>Robot Vacuum</td><td>Scene Mapping</td><td>Generate room map with ≤3 cm positioning error</td><td>Indoor cleaning</td><td>180 days</td><td>User deletion supported</td></tr>
+  <tr><td>Smart Camera</td><td>AI Detection</td><td>Human/vehicle detection precision ≥92%</td><td>Home security</td><td>14 days</td><td>Local processing preferred</td></tr>
+  <tr><td>Smart Speaker</td><td>Voice Recognition</td><td>Wake word false trigger ≤1 per 24 hours</td><td>Voice control</td><td>7 days</td><td>Consent for cloud</td></tr>
+  <tr><td>Smart Air Purifier</td><td>Self-tuning Control</td><td>Auto-adjust fan speed based on PM2.5 trend</td><td>Indoor air quality</td><td>60 days</td><td>Store only aggregates</td></tr>
+</table>

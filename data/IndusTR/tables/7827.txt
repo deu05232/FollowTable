@@ -1,0 +1,16 @@
+<table>
+  <caption>Application-Layer Message Schedule and Communication Behavior Matrix (Selected PGNs)</caption>
+  <thead>
+    <tr><th>Parameter Group Identifier (PGN)</th><th>Message Name</th><th>Direction (Source → Destination)</th><th>Ack Requirement</th><th>Trigger / Sending Condition</th><th>Nominal Cycle Time</th><th>Retry Policy</th><th>Timeout / Total Transmission Time (ms)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x01</td><td>Phase request</td><td>Charger → Vehicle</td><td>Required</td><td>State transition into negotiation</td><td>—</td><td>Retry every 200 ms, max 5</td><td>1000</td><td>Abort if no confirmation</td></tr>
+    <tr><td>0x02</td><td>Vehicle confirmation result</td><td>Vehicle → Charger</td><td>Required</td><td>Response to 0x01</td><td>—</td><td>Retry every 200 ms, max 5</td><td>1000</td><td>Must match current phase</td></tr>
+    <tr><td>0x03</td><td>Charger abort</td><td>Charger → Vehicle</td><td>Required</td><td>Fault / user stop</td><td>On event</td><td>Retry every 100 ms, max 10</td><td>1000</td><td>Stops all cyclic reports</td></tr>
+    <tr><td>0x04</td><td>Vehicle abort</td><td>Vehicle → Charger</td><td>Required</td><td>Fault / user stop</td><td>On event</td><td>Retry every 100 ms, max 10</td><td>1000</td><td>Ends session immediately</td></tr>
+    <tr><td>0x05</td><td>DC contactor status</td><td>Charger → Vehicle</td><td>Not required</td><td>Periodic; burst on change</td><td>1000 ms (steady) / 50 ms ×3 (change)</td><td>No retries</td><td>—</td><td>Independent timing logic</td></tr>
+    <tr><td>0x06</td><td>Vehicle contactor status</td><td>Vehicle → Charger</td><td>Not required</td><td>Periodic; burst on change</td><td>1000 ms (steady) / 50 ms ×3 (change)</td><td>No retries</td><td>—</td><td>Independent timing logic</td></tr>
+    <tr><td>0x07</td><td>Electronic lock status</td><td>Charger → Vehicle</td><td>Not required</td><td>Periodic; burst on change</td><td>1000 ms (steady) / 50 ms ×3 (change)</td><td>No retries</td><td>—</td><td>Used for latch interlock</td></tr>
+    <tr><td>0x09</td><td>Wake-up indication</td><td>Vehicle → Charger</td><td>Optional</td><td>Sent during partial wake</td><td>2000 ms while not awake</td><td>Retry every 500 ms</td><td>3000</td><td>May be suppressed when fully awake</td></tr>
+  </tbody>
+</table>

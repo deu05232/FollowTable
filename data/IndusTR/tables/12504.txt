@@ -1,0 +1,18 @@
+<table>
+  <caption>Inspection Group Mapping for Synthesized Frequency Sources (Overview by Test Item)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Category</th><th rowspan="2">Inspection / Test Item</th><th rowspan="2">Typical Reference / Method</th><th colspan="5">Inspection Group Assignment</th></tr>
+    <tr><th>Group A</th><th>Group B</th><th>Group C</th><th>Group D</th><th>Group E</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Visual & Marking</td><td>External visual inspection and marking verification</td><td>Visual, microscope; marking per drawing</td><td>X</td><td>-</td><td>X</td><td>-</td><td>-</td></tr>
+    <tr><td>Mechanical</td><td>Dimensions / package outline check</td><td>Calipers / gauge; outline drawing</td><td>-</td><td>X</td><td>X</td><td>-</td><td>-</td></tr>
+    <tr><td>Electrical (Static)</td><td>Static electrical characteristics at 25°C</td><td>DC parameters; nominal supply</td><td>X</td><td>X</td><td>X</td><td>-</td><td>-</td></tr>
+    <tr><td>Electrical (Temperature)</td><td>Electrical characteristics at operating temperature extremes</td><td>Temperature chamber; min/max operating temp</td><td>X</td><td>-</td><td>X</td><td>-</td><td>-</td></tr>
+    <tr><td>Electrical (Dynamic)</td><td>Dynamic electrical characteristics at 25°C (frequency accuracy / phase noise / spurs)</td><td>Spectrum analyzer / phase noise test set</td><td>X</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>Solderability</td><td>Solderability (wetting / dip and look)</td><td>Dip-and-look; solder bath control</td><td>-</td><td>X</td><td>-</td><td>-</td><td>-</td></tr>
+    <tr><td>Reliability (Endurance)</td><td>Electrical endurance (life test) with intermediate readouts</td><td>Powered operation for specified hours</td><td>-</td><td>-</td><td>-</td><td>X</td><td>-</td></tr>
+    <tr><td>Environmental</td><td>High-temperature storage (non-operating)</td><td>Storage at max storage temperature</td><td>X</td><td>X</td><td>X</td><td>-</td><td>X</td></tr>
+    <tr><td>Environmental</td><td>Temperature cycling</td><td>Low/high temp transitions; dwell per method</td><td>-</td><td>X</td><td>-</td><td>-</td><td>X</td></tr>
+  </tbody>
+</table>

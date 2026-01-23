@@ -1,0 +1,18 @@
+<table>
+  <caption>VR Positioning Interface Function Signatures (Pose/Motion Retrieval APIs)</caption>
+  <thead>
+    <tr><th>Category</th><th>Interface Name</th><th>Parameters</th><th>Return</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Device Discovery</td><td>bool vrDeviceEnumerate(vrPositionableDevice **out_list, int32_t *out_count)</td><td>out_list, out_count</td><td>bool</td><td>Allocates/returns device array</td></tr>
+    <tr><td>bool vrDeviceGetType(const vrPositionableDevice *device, vrPositionableDeviceType *out_type)</td><td>device, out_type</td><td>bool</td><td>Reports HMD/controller/tracker</td></tr>
+    <tr><td>bool vrDeviceGetSerial(const vrPositionableDevice *device, char *buffer, uint32_t capacity)</td><td>device, buffer, capacity</td><td>bool</td><td>ASCII serial string</td></tr>
+    <tr><td rowspan="4">Pose Query</td><td>bool vrDeviceGetPose(const vrPositionableDevice *device, vrPose *out_pose)</td><td>device, out_pose</td><td>bool</td><td>Latest pose snapshot</td></tr>
+    <tr><td>bool vrDeviceGetMotion(const vrPositionableDevice *device, vrMotionData *out_motion)</td><td>device, out_motion</td><td>bool</td><td>Latest motion snapshot</td></tr>
+    <tr><td>bool vrDeviceGetPoseMotion(const vrPositionableDevice *device, vrPose *out_pose, vrMotionData *out_motion)</td><td>device, out_pose, out_motion</td><td>bool</td><td>Atomic read if supported</td></tr>
+    <tr><td>bool vrDeviceGetPoseAtTime(const vrPositionableDevice *device, int64_t time_ns, vrPose *out_pose)</td><td>device, time_ns, out_pose</td><td>bool</td><td>Time-warp / prediction</td></tr>
+    <tr><td rowspan="3">Lifecycle</td><td>bool vrSystemStartTracking(vrTrackingMode mode)</td><td>mode</td><td>bool</td><td>Enables tracking pipeline</td></tr>
+    <tr><td>void vrSystemStopTracking(void)</td><td>none</td><td>void</td><td>Stops sensors</td></tr>
+    <tr><td>bool vrSystemResetOrigin(void)</td><td>none</td><td>bool</td><td>Re-centers origin</td></tr>
+  </tbody>
+</table>

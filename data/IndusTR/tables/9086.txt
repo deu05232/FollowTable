@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Camera Session Wiring and Frame Acquisition Parameters</caption>
+  <thead>
+    <tr><th>Stage</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Session Lifecycle</td><td>session</td><td>ArSession *</td><td>Handle to the running AR session</td></tr>
+    <tr><td>config</td><td>ArConfig *</td><td>Session configuration object (tracking, plane detection, etc.)</td></tr>
+    <tr><td>install_callback</td><td>ArSessionCallback</td><td>Optional callback for session state changes</td></tr>
+    <tr><td rowspan="4">Frame Access</td><td>out_frame</td><td>ArFrame **</td><td>Receives the latest AR frame</td></tr>
+    <tr><td>frame_timestamp_ns</td><td>int64_t *</td><td>Outputs the frame timestamp in nanoseconds</td></tr>
+    <tr><td>out_camera</td><td>ArCamera **</td><td>Retrieves the camera associated with the current frame</td></tr>
+    <tr><td>out_image</td><td>ArImage **</td><td>Retrieves CPU image for the current frame</td></tr>
+    <tr><td rowspan="3">Rendering Setup</td><td>viewport_width</td><td>int32_t</td><td>Viewport width used for rendering</td></tr>
+    <tr><td>viewport_height</td><td>int32_t</td><td>Viewport height used for rendering</td></tr>
+    <tr><td>display_rotation</td><td>ArDisplayRotation</td><td>Current display rotation used to orient camera image</td></tr>
+  </tbody>
+</table>

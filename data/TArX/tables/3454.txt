@@ -1,0 +1,12 @@
+<table>
+  <caption>Thermo-acoustic model parameters and boundary conditions for three different materials (adapted from [ Price ] )</caption>
+  <tr><th></th><th>water</th><th>South Pole ice</th><th>salt</th></tr>
+  <tr><th>c (m/s)</th><td>1530</td><td>3880</td><td>4560</td></tr>
+  <tr><th>(k/10^(-5))[{K^(-1)]</th><td>25.5</td><td>12.5</td><td>11.6</td></tr>
+  <tr><th>c_(p)[{J(K~kg)^(-1)]</th><td>3900</td><td>1720</td><td>839</td></tr>
+  <tr><th>γ</th><td>0.153</td><td>1.12</td><td>2.87</td></tr>
+  <tr><th>f_(max)[kHz]</th><td>7.7</td><td>20</td><td>42</td></tr>
+  <tr><th>refraction</th><td>moderate</td><td>very small</td><td>small?</td></tr>
+  <tr><th>λ_(att)</th><td>> 1000 m</td><td>~ 300 m</td><td>> 100 m</td></tr>
+  <tr><th>noise</th><td>variable</td><td>stable, < 14 mPa</td><td>small?</td></tr>
+</table>

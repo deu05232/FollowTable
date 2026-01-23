@@ -1,0 +1,9 @@
+<table>
+  <caption>Accuracies of our two classifiers for Wikipedia (Wiki) and Stack Exchange (SE), for in-domain and cross-domain settings. Human performance is included as a reference point. The random baseline performance is 50%.</caption>
+  <tr><th></th><th colspan="2">In-domain</th><th colspan="2">Cross-domain</th></tr>
+  <tr><th>Train</th><th>Wiki</th><th>SE</th><th>Wiki</th><th>SE</th></tr>
+  <tr><th>Test</th><th>Wiki</th><th>SE</th><th>SE</th><th>Wiki</th></tr>
+  <tr><th>BOW</th><td>79.84%</td><td>74.47%</td><td>64.23%</td><td>72.17%</td></tr>
+  <tr><th></th><td>83.79%</td><td>78.19%</td><td>67.53%</td><td>75.43%</td></tr>
+  <tr><th>Human</th><td>86.72%</td><td>80.89%</td><td>80.89%</td><td>86.72%</td></tr>
+</table>

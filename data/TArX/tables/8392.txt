@@ -1,0 +1,7 @@
+<table>
+  <caption>Summary of model rate parameters used to simulate ATP conversion dynamics.</caption>
+  <tr><th>Parameter meaning</th><th>Symbol used in model</th><th>Typical value</th><th>Units</th><th>What it controls</th></tr>
+  <tr><td>ATP binding rate</td><td>k_bind</td><td>reported value</td><td>μM^-1 s^-1</td><td>How quickly ATP attaches</td></tr>
+  <tr><td>Hydrolysis rate</td><td>k_hyd</td><td>reported value</td><td>s^-1</td><td>ATP → ADP + Pi step speed</td></tr>
+  <tr><td>Product release rate</td><td>k_rel</td><td>reported value</td><td>s^-1</td><td>ADP/Pi departure</td></tr>
+</table>

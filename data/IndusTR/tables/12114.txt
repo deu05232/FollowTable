@@ -1,0 +1,16 @@
+<table>
+  <caption>Mechanical Stress and Vibration Test Setup for Beidou Monitoring Terminals</caption>
+  <thead>
+    <tr><th>Test item</th><th>Axis / Direction</th><th>Excitation profile</th><th>Frequency range (Hz)</th><th>Level</th><th>Duration</th><th>Mounting & state</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Random vibration (transport)</td><td>X</td><td>Random PSD</td><td>5–500</td><td>0.08 g²/Hz</td><td>30 min</td><td rowspan="3">Unpowered; strapped to fixture; connectors mated</td></tr>
+    <tr><td>Y</td><td>Random PSD</td><td>5–500</td><td>0.08 g²/Hz</td><td>30 min</td></tr>
+    <tr><td>Z</td><td>Random PSD</td><td>5–500</td><td>0.08 g²/Hz</td><td>30 min</td></tr>
+    <tr><td rowspan="3">Sine sweep (resonance search)</td><td>X</td><td>Sine sweep</td><td>5–300</td><td>10 m/s²</td><td>1 octave/min</td><td rowspan="3">Unpowered; record resonance peaks</td></tr>
+    <tr><td>Y</td><td>Sine sweep</td><td>5–300</td><td>10 m/s²</td><td>1 octave/min</td></tr>
+    <tr><td>Z</td><td>Sine sweep</td><td>5–300</td><td>10 m/s²</td><td>1 octave/min</td></tr>
+    <tr><td rowspan="2">Mechanical shock</td><td>All axes</td><td>Half-sine pulse</td><td>N/A</td><td>30 g, 11 ms</td><td>3 shocks/axis</td><td>Unpowered; inspect fasteners after test</td></tr>
+    <tr><td>Drop test</td><td>6 faces</td><td>Free fall</td><td>N/A</td><td>1.0 m</td><td>1 drop/face</td><td>Packaged unit; verify packaging integrity</td></tr>
+  </tbody>
+</table>

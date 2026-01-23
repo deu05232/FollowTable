@@ -1,0 +1,14 @@
+<table>
+  <caption>Real-Time Extrusion Gauge Control Loops (Width/Thickness/Weight)</caption>
+  <thead>
+    <tr><th>Loop ID</th><th>Controlled Stage</th><th>Measured Input (Sensor)</th><th>Target / Recipe Reference</th><th>Comparison / Error</th><th>Control Logic</th><th>Controlled Output (New Setpoint / Command)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>EX-01</td><td>Die / knife gap control</td><td>Strip width (laser width gauge, mm)</td><td>Recipe width setpoint Wsp(mm)</td><td>e = Wsp− Wmeas</td><td>PI controller with limits; optional deadband ±0.2 mm</td><td>Knife-gap command Gcmd(mm) = Gbase+ Kp·e + Ki·∫e</td></tr>
+    <tr><td>EX-02</td><td>Calender roll gap control</td><td>Sheet thickness (beta/X-ray gauge, mm)</td><td>Recipe thickness setpoint Tsp(mm)</td><td>e = Tsp− Tmeas</td><td>PID with rate limit (to avoid roll shock)</td><td>Roll-gap setpoint Rsp,new(mm)</td></tr>
+    <tr><td>EX-03</td><td>Mass-per-length control</td><td>Weight per unit length (in-line scale + encoder, g/m)</td><td>Recipe basis-weight setpoint Bsp(g/m)</td><td>e = Bsp− Bmeas</td><td>Feedforward + PI (feedforward from line speed)</td><td>Extruder screw speed setpoint Nsp(rpm)</td></tr>
+    <tr><td>EX-04</td><td>Strip tension via dancer</td><td>Dancer/float roller position P (mm)</td><td>Recipe dancer position Psp(mm)</td><td>e = Psp− P</td><td>PI on position error</td><td>Downstream conveyor/belt speed command Vbelt(m/min)</td></tr>
+    <tr><td>EX-05</td><td>Mooney / viscosity compensation (optional)</td><td>Extruder head pressure (bar) and melt temperature (°C)</td><td>Recipe pressure window + melt temp setpoint</td><td>ep, etempvs targets</td><td>Gain scheduling: adjust PI gains or apply trim</td><td>Screw speed trim ΔN and barrel zone valve/heater output</td></tr>
+    <tr><td>EX-06</td><td>Edge-trim stability</td><td>Edge position (camera edge tracker, mm)</td><td>Recipe edge offset Osp(mm)</td><td>e = Osp− Omeas</td><td>Proportional steering correction</td><td>Guide actuator position command (mm) or steering roll angle (deg)</td></tr>
+  </tbody>
+</table>

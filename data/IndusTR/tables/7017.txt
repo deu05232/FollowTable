@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced IR Curved-Band Analysis: Wrap Angle vs Intensity (Point-Value DT Only)</caption>
+  <thead>
+    <tr><th>Wrap angle (radians)</th><th>Band type</th><th>DT</th><th>CI</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.20</td><td>Curved band</td><td>1.5</td><td>1.5</td><td>Use when band is identifiable</td></tr>
+    <tr><td>0.35</td><td>Curved band</td><td>2.0</td><td>2.0</td><td>Single-arc band</td></tr>
+    <tr><td>0.50</td><td>Curved band</td><td>2.5</td><td>2.5</td><td>Moderate curvature</td></tr>
+    <tr><td>0.65</td><td>Curved band</td><td>3.0</td><td>3.0</td><td>Increasing wrap</td></tr>
+    <tr><td>0.80</td><td>Curved band</td><td>3.5</td><td>3.5</td><td>Tight curvature</td></tr>
+    <tr><td>0.95</td><td>Curved band</td><td>4.0</td><td>4.0</td><td>Near eye transition</td></tr>
+    <tr><td>1.10</td><td>Eye pattern</td><td>4.5</td><td>4.5</td><td>Switch to eye-pattern method</td></tr>
+  </tbody>
+</table>

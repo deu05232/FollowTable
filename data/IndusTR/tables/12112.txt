@@ -1,0 +1,18 @@
+<table>
+  <caption>Environmental Reliability Test Plan for Beidou Monitoring Terminals</caption>
+  <thead>
+    <tr><th>Test item</th><th>Parameter</th><th>Setpoint / Range</th><th>Duration</th><th>Sample state</th><th>Acceptance / Record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">High-temperature operating test</td><td>Chamber temperature (°C)</td><td>+70</td><td rowspan="2">16 h</td><td rowspan="2">Powered ON, nominal supply</td><td rowspan="2">Record logs; verify basic functions after recovery</td></tr>
+    <tr><td>Ramp rate (°C/min)</td><td>1–3</td></tr>
+    <tr><td rowspan="2">Low-temperature storage test</td><td>Chamber temperature (°C)</td><td>-40</td><td rowspan="2">24 h</td><td rowspan="2">Powered OFF</td><td rowspan="2">Visual inspection; functional check after 2 h at room temp</td></tr>
+    <tr><td>Packaging</td><td>As shipped</td></tr>
+    <tr><td rowspan="2">Damp heat steady-state</td><td>Relative humidity (%)</td><td>95</td><td rowspan="2">48 h</td><td rowspan="2">Powered OFF</td><td rowspan="2">Inspect corrosion; record condensation observations</td></tr>
+    <tr><td>Temperature (°C)</td><td>+40</td></tr>
+    <tr><td rowspan="2">Thermal shock</td><td>Temperature extremes (°C)</td><td>-30 ↔ +70</td><td rowspan="2">10 cycles</td><td rowspan="2">Powered OFF</td><td rowspan="2">Record cycle profile; post-test functional check</td></tr>
+    <tr><td>Dwell time per extreme (min)</td><td>30</td></tr>
+    <tr><td rowspan="2">Salt fog</td><td>NaCl concentration (%)</td><td>5</td><td rowspan="2">72 h</td><td rowspan="2">Powered OFF</td><td rowspan="2">Photograph corrosion; rinse and dry per procedure</td></tr>
+    <tr><td>Chamber temperature (°C)</td><td>35</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>SM9 Operation-to-Interfaces Mapping (No Prototypes, No Parameter Separation)</caption>
+  <thead>
+    <tr><th>Operation Category (Main Item)</th><th>Related Interfaces</th><th>High-level Description</th><th>Common Data Elements Mentioned</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Encryption</td><td>SAF_SM9Encrypt</td><td>Encrypt data to a user identity under an encryption master public key.</td><td>UserID,AlgID,IV,Ciphertext</td></tr>
+    <tr><td>Decryption</td><td>SAF_SM9Decrypt</td><td>Decrypt ciphertext using user private key in a container and the bound identity.</td><td>ContainerName,EncData,Plaintext</td></tr>
+    <tr><td>Signature</td><td>SAF_SM9Sign</td><td>Generate SM9 signature over input data using signing private key.</td><td>Data,SignData</td></tr>
+    <tr><td>Verification</td><td>SAF_SM9Verify</td><td>Verify SM9 signature using signature master public key and user identity.</td><td>UserID,MasterPublicKeyIndex,Signature</td></tr>
+    <tr><td>Key Encapsulation / Decapsulation</td><td>SAF_SM9KeyDecapsulate</td><td>Recover a session key from a key package for a user identity.</td><td>KeyPackage,KeyBits,KeyHandle</td></tr>
+    <tr><td>Key Agreement</td><td>SAF_SM9GenerateAgreementData,SAF_SM9GenerateAgreementDataAndKey</td><td>Generate ephemeral agreement data and optionally derive session key.</td><td>SponsorID,ResponseID,TmpPublicKey</td></tr>
+    <tr><td>Master Public Key Provisioning</td><td>SAF_ImportSM9MasterPublicKey</td><td>Import an SM9 master public key to a secure index.</td><td>KeyIndex,KeyType,MasterPublicKey</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Azimuth/Elevation Angular Measurement Limits Across Grading Tiers</caption>
+  <tr><th rowspan="2">Metric</th><th colspan="3">Tier</th><th rowspan="2">Test condition</th></tr>
+  <tr><th>Basic</th><th>Standard</th><th>Advanced</th></tr>
+  <tr><td>Azimuth resolution (deg)</td><td>≤ 1.2</td><td>≤ 0.8</td><td>≤ 0.5</td><td>Single target, SNR>13 dB</td></tr>
+  <tr><td>Elevation resolution (deg)</td><td>≤ 2.0</td><td>≤ 1.4</td><td>≤ 1.0</td><td>Single target, SNR>13 dB</td></tr>
+  <tr><td>Azimuth accuracy (1σ, deg)</td><td>≤ 0.45</td><td>≤ 0.30</td><td>≤ 0.20</td><td>After calibration</td></tr>
+  <tr><td>Elevation accuracy (1σ, deg)</td><td>≤ 0.60</td><td>≤ 0.40</td><td>≤ 0.25</td><td>After calibration</td></tr>
+  <tr><td>Track update interval (s)</td><td>≤ 6</td><td>≤ 4</td><td>≤ 2</td><td>360° scan mode</td></tr>
+  <tr><td>Multi-target angular separation (deg)</td><td>≥ 1.5</td><td>≥ 1.0</td><td>≥ 0.7</td><td>Two equal-RCS targets</td></tr>
+  <tr><td>Stabilization pointing jitter (deg RMS)</td><td>≤ 0.12</td><td>≤ 0.08</td><td>≤ 0.05</td><td>Platform vibration present</td></tr>
+</table>

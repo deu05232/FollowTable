@@ -1,0 +1,6 @@
+<table>
+  <caption>Camera configuration explanations with reference codes</caption>
+  <tr><th>Configuration explanation</th><th>When to use it</th><th>Reference code</th></tr>
+  <tr><td>Use the rear camera facing away from the user</td><td>World tracking and environment understanding.</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_BACK = 0</td></tr>
+  <tr><td>Use the front camera facing the user</td><td>Selfie experiences and face-driven effects.</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_FRONT = 1</td></tr>
+</table>

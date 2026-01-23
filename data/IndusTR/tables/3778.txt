@@ -1,0 +1,9 @@
+<table>
+  <caption>Client Account Opening Questionnaire Option Field Definitions</caption>
+  <tr><td>Serial No.</td><td>Field Identifier</td><td>Field Chinese Name</td><td>Field Type</td><td>Field Length</td><td>Nullable</td><td>Value Description</td></tr>
+  <tr><td>1</td><td>option_id</td><td>Option ID</td><td>C</td><td>8</td><td>Y</td><td>Empty when the question is free-text</td></tr>
+  <tr><td>2</td><td>option_content</td><td>Option Description</td><td>C</td><td>50</td><td>N</td><td>The option content of the defined question; if it is a free-text question, then it is the answer content</td></tr>
+  <tr><td>3</td><td>is_selected</td><td>Selection Flag</td><td>C</td><td>1</td><td>Y</td><td>Whether this option is valid for the client: valid is 1, invalid is 0; for free-text questions this field is invalid</td></tr>
+  <tr><td>4</td><td>effective_date</td><td>Effective Date</td><td>C</td><td>10</td><td>Y</td><td>Reserved field</td></tr>
+  <tr><td>5</td><td>effective_time</td><td>Effective Time</td><td>C</td><td>10</td><td>Y</td><td>Reserved field</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Logistics M2M Terminal Management – Functional Test Cases Checklist (Deregistration, Remote Control & Fault Handling)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Module</th><th>Sub-item</th><th>Test Objective</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TM-DEREG-001</td><td>Terminal Management</td><td>Terminal Deregistration</td><td>Verify an authorized terminal can be deregistered and its binding is removed.</td></tr>
+    <tr><td>TM-DEREG-002</td><td>Terminal Management</td><td>Terminal Deregistration</td><td>Verify deregistration is rejected when the request is unauthenticated or lacks required permissions.</td></tr>
+    <tr><td>TM-DEREG-003</td><td>Terminal Management</td><td>Terminal Deregistration</td><td>Verify a deregistered terminal cannot log in or send telemetry until re-registered.</td></tr>
+    <tr><td>TM-RC-001</td><td>Terminal Management</td><td>Terminal Remote Control</td><td>Verify a remote control command can be delivered to an online terminal and acknowledged.</td></tr>
+    <tr><td>TM-RC-002</td><td>Terminal Management</td><td>Terminal Remote Control</td><td>Verify remote control to an offline terminal results in a clear failure/queued status according to design.</td></tr>
+    <tr><td>TM-RC-003</td><td>Terminal Management</td><td>Terminal Remote Control</td><td>Verify invalid or out-of-range remote control parameters are rejected with correct error messaging.</td></tr>
+    <tr><td>TM-FAULT-001</td><td>Terminal Management</td><td>Terminal Fault Handling</td><td>Verify the terminal can report a fault event and the platform records it with correct severity and timestamp.</td></tr>
+    <tr><td>TM-FAULT-002</td><td>Terminal Management</td><td>Terminal Fault Handling</td><td>Verify fault clearing/acknowledgement updates the fault status correctly and prevents duplicate open alarms.</td></tr>
+  </tbody>
+</table>

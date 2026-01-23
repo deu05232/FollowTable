@@ -1,0 +1,15 @@
+<table>
+  <caption>Combustible Gas Detector Functional Tests Organized by Installation Environment Class</caption>
+  <thead>
+    <tr><th rowspan="2">Installation Environment Class</th><th rowspan="2">Primary Objective</th><th colspan="2">Test Atmosphere Condition</th><th rowspan="2">Exposure Duration</th><th rowspan="2">Pass/Fail Criterion</th></tr>
+    <tr><th>Oxygen Level</th><th>Interfering Vapor Level</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Class I</td><td>Baseline functional verification</td><td>20.9% ± 0.5%</td><td>null</td><td>30 min</td><td>Alarm activates within 30 s at setpoint</td></tr>
+    <tr><td>Class II</td><td>High humidity operation</td><td>20.9% ± 0.5%</td><td>Water mist 0.5 g/m³</td><td>60 min</td><td>No condensation-related failure; drift ≤ ±3% FS</td></tr>
+    <tr><td>Class III</td><td>Dusty environment robustness</td><td>20.9% ± 0.5%</td><td>Dust 2 g/m³</td><td>120 min</td><td>Flow path not blocked; alarm still functional</td></tr>
+    <tr><td>Class V</td><td>High temperature operation</td><td>20.9% ± 0.5%</td><td>Solvent vapor 200 ppm</td><td>16 h</td><td>Reading deviation ≤ ±5% FS after soak</td></tr>
+    <tr><td>Class V</td><td>Low temperature operation</td><td>20.9% ± 0.5%</td><td>Solvent vapor 200 ppm</td><td>16 h</td><td>Warm-up time ≤ 5 min; alarm functional</td></tr>
+    <tr><td>Class II</td><td>EMC stress during operation</td><td>20.9% ± 0.5%</td><td>null</td><td>20 min</td><td>No spurious alarm; recovery ≤ 60 s</td></tr>
+  </tbody>
+</table>

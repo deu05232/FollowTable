@@ -1,0 +1,14 @@
+# Core Differentiation Combination Rules (Linearity, Product, Quotient, Chain)
+
+| Rule | Given | Derivative rule | Notes / common rewrite |
+|---|---|---|---|
+| Constant rule | \(c\) | \(\frac{d}{dx}[c]=0\) | \(c\) is a real constant (independent of \(x\)) |
+| Identity rule | \(x\) | \(\frac{d}{dx}[x]=1\) | Useful when applying chain rule |
+| Constant multiple | \(c\,f(x)\) | \(\frac{d}{dx}[c f]=c f'\) | Pull constants outside the derivative |
+| Sum (linearity) | \(f(x)+g(x)\) | \((f+g)'=f'+g'\) | Extends to many terms: \((\sum_i f_i)'=\sum_i f_i'\) |
+| Difference (linearity) | \(f(x)-g(x)\) | \((f-g)'=f'-g'\) | Same idea as sum |
+| Product rule | \(f(x)\,g(x)\) | \((fg)'=f'g+fg'\) | Also written \(d(fg)=f\,dg+g\,df\) |
+| Quotient rule | \(\frac{f(x)}{g(x)}\) | \(\left(\frac{f}{g}\right)'=\frac{f'g-fg'}{g^2}\) | Requires \(g(x)\neq 0\) |
+| Chain rule (composition) | \(f(g(x))\) | \((f\circ g)'(x)=f'(g(x))\,g'(x)\) | Differentiate outer, keep inner, multiply by inner derivative |
+| Power of a function (via chain) | \([u(x)]^n\) | \(\frac{d}{dx}[u^n]=n u^{n-1}u'\) | Not a “function catalog”; it’s a combination pattern |
+| Reciprocal (special case) | \(\frac{1}{g(x)}\) | \(\left(g^{-1}\right)'=-\frac{g'}{g^2}\) | Follows from quotient rule with numerator 1 |

@@ -1,0 +1,16 @@
+<table>
+  <caption>CSDM Service Interface: Operation Definition Fields (Extended Reference)</caption>
+  <thead>
+    <tr><th>Field (EN)</th><th>Type / Format</th><th>Required</th><th>Max Occurrences</th><th>Allowed Values / Notes</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>interfaceName</td><td>String (1..128)</td><td>Yes</td><td>1</td><td>Unique within a service definition</td><td>Name of the interface that groups callable operations.</td></tr>
+    <tr><td>interfaceVersion</td><td>String (1..32)</td><td>No</td><td>1</td><td>e.g., "v1", "2026-01"</td><td>Version identifier for the interface contract.</td></tr>
+    <tr><td>operationName</td><td>String (1..128)</td><td>Yes</td><td>N</td><td>Must be unique within the interface</td><td>Name of an operation exposed by the interface.</td></tr>
+    <tr><td>operationId</td><td>String (1..64)</td><td>No</td><td>N</td><td>Stable identifier; aligns 1:1 with operationName occurrence</td><td>Implementation-stable operation identifier used for routing/mapping.</td></tr>
+    <tr><td>operationSupportTransaction</td><td>Boolean</td><td>Yes</td><td>N</td><td>true/false; occurrence count must match operationName</td><td>Whether the operation supports transactionality (atomic rollback/commit semantics).</td></tr>
+    <tr><td>operationType</td><td>Enum</td><td>No</td><td>N</td><td>QUERY | COMMAND | EVENT</td><td>Classifies the operation behavior to aid clients and tooling.</td></tr>
+    <tr><td>inputMessageName</td><td>String (1..128)</td><td>No</td><td>N</td><td>Pairs with outputMessageName by position</td><td>Name of the request message definition bound to the operation.</td></tr>
+    <tr><td>outputMessageName</td><td>String (1..128)</td><td>No</td><td>N</td><td>Pairs with inputMessageName by position</td><td>Name of the response message definition bound to the operation.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+# Shared resource
+> Common file systems and protocols
+
+| Primary operating system | Application protocol | Transport protocol |
+| --- | --- | --- |
+| Mac OS | SMB , Apple Filing Protocol [5] | TCP , UDP or AppleTalk |
+| Unix-like systems | Network File System (NFS), SMB | TCP or UDP |
+| MS-DOS , Windows | SMB , also known as CIFS | TCP , NBT (includes UDP ), NBF , or other NetBIOS transports |
+| Novell NetWare (server) MS-DOS, Windows (client) | NCP and SAP | SPX (over IPX ), or TCP |

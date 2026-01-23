@@ -1,0 +1,18 @@
+<table>
+  <caption>Secondary Indicators: Water Resource Efficiency Intensity (per unit of GDP)</caption>
+  <thead>
+    <tr><th>Field</th><th>Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Indicator Name (Unit)</td><td>Water withdrawal per unit of GDP (m³ per 10,000 CNY)</td></tr>
+    <tr><td>Indicator Code</td><td>C45</td></tr>
+    <tr><td>Dimension / Category</td><td>Resource use efficiency > Water intensity</td></tr>
+    <tr><td>Basic Definition</td><td>Total annual water withdrawal within the region divided by regional GDP in the same year.</td></tr>
+    <tr><td>Preferred Direction</td><td>Lower is better (resource-saving growth).</td></tr>
+    <tr><td>Computation</td><td>StepExpressionNotes1Water withdrawal intensity = Total water withdrawal / GDPGDP measured at comparable prices when used for time-series comparison.2Unit conversionExpress as m³ per 10,000 CNY for readability.3Optional sub-accountsSeparate industrial, agricultural, domestic components if available.</td></tr>
+    <tr><td>Interpretation</td><td>Measures how efficiently economic output is produced with water inputs; enables cross-region comparison without being driven by economic scale.</td></tr>
+    <tr><td>Time Comparison Metric</td><td>Cumulative decline rate of water withdrawal per unit of GDP (%) relative to base year.</td></tr>
+    <tr><td>Data Sources (examples)</td><td>Regional water resources bulletin; statistical yearbook (GDP); water withdrawal accounts.</td></tr>
+    <tr><td>Notes / Boundary</td><td>Use consistent water accounting scope (surface + groundwater; exclude reused water if defined separately).</td></tr>
+  </tbody>
+</table>

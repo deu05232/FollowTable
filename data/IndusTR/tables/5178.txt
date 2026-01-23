@@ -1,0 +1,21 @@
+<table>
+  <caption>Ring Spinning Frame Alarm Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Emergency stop</td><td>EmergencyStop</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>—</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Main inverter fault</td><td>MainInverterFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>—</td><td>—</td><td>丨</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0902</td><td>Main motor overheating</td><td>MainMotorOverheading</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Draft servo fault</td><td>DraftServoFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>—</td><td>—</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Ring rail servo fault</td><td>Ring-railServoF ault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Cotton suction fan fault</td><td>SuctionFanFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>Transmission box door open</td><td>TransmissionDoorOpening</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>—</td><td>1</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Lappet up/down abnormality</td><td>LappetUpdownException</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0908</td><td>Integrated doffing servo fault</td><td>IntegralDoffingServoFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Pneumatic creel fault</td><td>GasRackFault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>1</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090A</td><td>Tube arranging fault</td><td>SortingRingBobbinFault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090B</td><td>Not all ring bobbins have been pulled out</td><td>NotAlIRingBobbinsHaveBeenPulledOut</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090C</td><td>Bobbin yarn conveying fault</td><td>YarnDeliveryF ault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090D</td><td>Blowing/suction cleaner not stopped in position</td><td>CleanerStopPosition</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090E</td><td>Compact spinning negative pressure overlimit</td><td>NegativePressureOverlimitOfCompactSpinning</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>—</td><td>—</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090F</td><td>Compact spinning inverter fault</td><td>CompactSpinningInveterFault</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>—</td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0910</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>丨</td><td>—</td><td>—</td><td>1</td><td>1</td></tr>
+</table>

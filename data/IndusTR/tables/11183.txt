@@ -1,0 +1,15 @@
+<table>
+  <caption>Transport-Layer Segmented Transfer PDU — Payload Treated as a Single Data Block</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Bits</th><th>Name</th><th>Value/Encoding</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>7..5</td><td>P</td><td>0b100</td><td>Priority</td></tr>
+    <tr><td>0</td><td>4</td><td>EDP</td><td>0</td><td>Extended data page</td></tr>
+    <tr><td>0</td><td>3</td><td>DP</td><td>0</td><td>Data page</td></tr>
+    <tr><td>1</td><td>7..0</td><td>PF</td><td>0x35 / 0x36 / 0x37</td><td>PDU format selector</td></tr>
+    <tr><td>2</td><td>7..0</td><td>PS</td><td>Destination Address</td><td>Destination</td></tr>
+    <tr><td>3</td><td>7..0</td><td>SA</td><td>Source Address</td><td>Source</td></tr>
+    <tr><td>4-11</td><td>63..0</td><td>DATA</td><td>0..64 bits</td><td>Segment payload; may include sequence/total/length indicators depending on PF, otherwise application-defined</td></tr>
+  </tbody>
+</table>

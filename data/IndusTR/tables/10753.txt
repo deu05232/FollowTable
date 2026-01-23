@@ -1,0 +1,15 @@
+<table>
+  <caption>Sterilization Equipment Catalog with Function Metadata Codes</caption>
+  <thead>
+    <tr><th>Equipment Category Code</th><th>Equipment Category Name</th><th>Function Metadata Code</th><th>Function Name</th><th>Typical Sterilization/Disinfection Type</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SE-01</td><td>Steam Sterilizer</td><td>FN-STR-STEAM</td><td>Sterilize instruments</td><td>High-pressure steam</td><td>Autoclave class</td></tr>
+    <tr><td>SE-02</td><td>Dry Heat Sterilizer</td><td>FN-STR-DRY</td><td>Sterilize glassware</td><td>Hot air</td><td>Lab/clinic use</td></tr>
+    <tr><td>SE-03</td><td>Low-Temp Plasma Sterilizer</td><td>FN-STR-PLASMA</td><td>Sterilize heat-sensitive devices</td><td>Hydrogen peroxide plasma</td><td>Low temperature</td></tr>
+    <tr><td>SE-04</td><td>UV Disinfection Cabinet</td><td>FN-DIS-UV</td><td>Disinfect surfaces</td><td>UV-C irradiation</td><td>Non-sterilizing</td></tr>
+    <tr><td>SE-05</td><td>Washer-Disinfector</td><td>FN-WASH-THRM</td><td>Wash and thermal disinfect</td><td>Thermal disinfection</td><td>Automated cycle</td></tr>
+    <tr><td>SE-06</td><td>Ethylene Oxide Sterilizer</td><td>FN-STR-ETO</td><td>Sterilize packaged devices</td><td>Ethylene oxide gas</td><td>Requires aeration</td></tr>
+    <tr><td>SE-07</td><td>Chemical Soak Station</td><td>FN-DIS-CHEM</td><td>High-level disinfection</td><td>Glutaraldehyde soak</td><td>Manual process</td></tr>
+  </tbody>
+</table>

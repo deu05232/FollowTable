@@ -1,0 +1,16 @@
+<table>
+  <caption>Image/Video Quality Rating and Frame Integrity Codes</caption>
+  <thead>
+    <tr><th>Code</th><th>Level</th><th>Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Quality</td><td>Extremely Poor</td><td>Severe blur/noise; content not usable for analysis</td></tr>
+    <tr><td>2</td><td>Quality</td><td>Poor</td><td>Low visibility; limited analytical value</td></tr>
+    <tr><td>3</td><td>Quality</td><td>Average</td><td>Acceptable visibility for basic review</td></tr>
+    <tr><td>4</td><td>Quality</td><td>Good</td><td>Clear content; suitable for recognition tasks</td></tr>
+    <tr><td>5</td><td>Quality</td><td>Excellent</td><td>High clarity and stable exposure</td></tr>
+    <tr><td>6</td><td>Integrity</td><td>Dropped Frames</td><td>Detected missing frames during capture/transfer</td></tr>
+    <tr><td>7</td><td>Integrity</td><td>Corrupted Segment</td><td>Bitstream corruption detected in a segment</td></tr>
+    <tr><td>8</td><td>Integrity</td><td>Timestamp Drift</td><td>Frame timestamps are inconsistent with expected cadence</td></tr>
+  </tbody>
+</table>

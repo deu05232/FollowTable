@@ -1,0 +1,13 @@
+<table>
+  <caption>Digital Envelope Operation Function Parameter List</caption>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucData[in](data that needs to be processed as a digital envelope)</td></tr>
+  <tr><td>uiDataLen[in](length of the data that needs to be processed as a digital envelope)</td></tr>
+  <tr><td>pucEncCertificate[in](DER-encoded recipient certificate)</td></tr>
+  <tr><td>uiEncCertificateLen[in](recipient certificate length)</td></tr>
+  <tr><td>uiSymmAlgorithm[in](symmetric algorithm identifier)</td></tr>
+  <tr><td>pucDerEnvelopedData[out](DER-encoded EnvelopedData digital envelope data, the EnvelopedData data format definition shall comply with GB/T 35275)</td></tr>
+  <tr><td>puiDerEnvelopedDataLen[in,out](length of the encoded digital envelope data)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)SAC</td></tr>
+  <tr><td>Non-0 (failure, returns the error code defined in Table C.1, shall comply with Appendix C)</td></tr>
+</table>

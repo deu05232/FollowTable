@@ -1,0 +1,15 @@
+<table>
+  <caption>Harmonic Output Verification Accuracy (Harmonic Voltage/Current Only)</caption>
+  <thead>
+    <tr><th>Measured item</th><th>Range / Condition</th><th>Maximum permissible error</th><th>Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Harmonic voltage amplitude</td><td>Harmonic order 2–25; 1%–40% of U1</td><td>±0.15% (relative to U1)</td><td>U1 fundamental of same phase</td></tr>
+    <tr><td>Harmonic voltage amplitude</td><td>Harmonic order 26–63; 1%–20% of U1</td><td>±0.25% (relative to U1)</td><td>U1 fundamental of same phase</td></tr>
+    <tr><td>Harmonic current amplitude</td><td>10 mA ≤ I < 100 mA; 1%–80% of I1</td><td>±0.30% (relative to I1)</td><td>I1 fundamental of same phase</td></tr>
+    <tr><td>Harmonic current amplitude</td><td>100 mA ≤ I ≤ Imax; 1%–80% of I1</td><td>±0.15% (relative to I1)</td><td>I1 fundamental of same phase</td></tr>
+    <tr><td>Harmonic phase angle</td><td>Orders 2–63; amplitude ≥ 5% of fundamental</td><td>±0.3°</td><td>Per selected harmonic order</td></tr>
+    <tr><td>Total harmonic distortion (THD) indication</td><td>THD 1%–50% (computed from enabled harmonics)</td><td>±0.5% (absolute THD)</td><td>THD = sqrt(sum(Uh^2))/U1 or sqrt(sum(Ih^2))/I1</td></tr>
+    <tr><td>Superposition compliance check</td><td>When peak limiting is active</td><td>Peak-limit action threshold error ≤ ±1.0%</td><td>Configured peak limit value</td></tr>
+  </tbody>
+</table>

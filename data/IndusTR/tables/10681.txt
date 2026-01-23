@@ -1,0 +1,7 @@
+<table>
+  <caption>Device Security Authentication + Gateway Provisioning API</caption>
+  <tr><th>API Name</th><td>Device Security Authentication + Gateway Provisioning API</td></tr>
+  <tr><th>API Description</th><td>Authenticate a device and provision it to a gateway in a single request</td></tr>
+  <tr><th>API Method</th><td>POST</td></tr>
+  <tr><th>Parameter Description</th><td>Must include at least: User ID (string userID), authentication parameter (string access_token), device ID (string devID), device certificate (string devCert), signature (string devSign), gateway ID (string gatewID), gateway type code (string iotType), communication protocol address (string commUrl)</td></tr>
+</table>

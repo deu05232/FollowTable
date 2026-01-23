@@ -1,0 +1,16 @@
+<table>
+  <caption>Error Limits for Single Harmonic Active Energy Under Specified Current Ranges and Power Factors</caption>
+  <thead>
+    <tr><th rowspan="2">Test condition (single harmonic)</th><th rowspan="2">Current range</th><th rowspan="2">Harmonic power factor (cosφ)</th><th colspan="3">Permissible error limit (%) by accuracy class</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Low current, reference phase angle</td><td>Imin ≤ Ih < Ir</td><td>1.0</td><td>±2.0H</td><td>±3.0H</td><td>±12.0H</td></tr>
+    <tr><td>Low current, inductive load</td><td>Imin ≤ Ih < Ir</td><td>0.5 lagging</td><td>±2.5H</td><td>±3.5H</td><td>±15.0H</td></tr>
+    <tr><td>Rated current region, unity PF</td><td>Ir ≤ Ih ≤ 0.4Imax</td><td>1.0</td><td>±1.0H</td><td>±2.0H</td><td>±5.0H</td></tr>
+    <tr><td>Rated current region, inductive load</td><td>Ir ≤ Ih ≤ 0.4Imax</td><td>0.5 lagging</td><td>±2.0H</td><td>±3.0H</td><td>±10.0H</td></tr>
+    <tr><td>High current region, unity PF</td><td>0.4Imax < Ih ≤ Imax</td><td>1.0</td><td>±1.5H</td><td>±2.5H</td><td>±7.5H</td></tr>
+    <tr><td>High current region, inductive load</td><td>0.4Imax < Ih ≤ Imax</td><td>0.5 lagging</td><td>±2.5H</td><td>±4.0H</td><td>±12.0H</td></tr>
+    <tr><td>Very low current check (near starting)</td><td>Istart ≤ Ih < Imin</td><td>1.0</td><td>±3.0H</td><td>±4.5H</td><td>±15.0H</td></tr>
+  </tbody>
+</table>

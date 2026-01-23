@@ -1,0 +1,15 @@
+<table>
+  <caption>Certificate Extension Information Acquisition Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GetExtTypeInfo（void * hAppHandle,unsigned char * pucDerCert,unsigned int uiDerCertLen,unsigned int uiInfoType,unsigned char * pucPriOid,unsigned int uiPriOidLen,unsigned char * pucInfo,unsigned int* puiInfoLen)</td></tr>
+  <tr><td>Description</td><td>Obtain the certificate's extension information</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucDerCert[in](DER-format digital certificate)</td></tr>
+  <tr><td>uiDerCertLen[in](digital certificate length)</td></tr>
+  <tr><td>uiInfoType[in](specified certificate extension item parsing identifier, shall comply with the provisions of GB/T33560)</td></tr>
+  <tr><td>pucPriOid[in](OID of the extension item; if it is not a private extension item type, this parameter is invalid)</td></tr>
+  <tr><td>uiPriOidLen[in](extension item OID length; if it is not a private extension item type, this parameter is invalid)</td></tr>
+  <tr><td>pucInfo[out](obtained certificate information)</td></tr>
+  <tr><td>puiInfoLen[in,out](length of obtained certificate information)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Annex C)</td></tr>
+</table>

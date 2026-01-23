@@ -1,0 +1,18 @@
+<table>
+  <caption>Official Vehicle Use Application and Dispatch Workflow Record</caption>
+  <tr><th>Section</th><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  <tr><td>Request Header</td><td>1</td><td>Use Request ID</td><td>Character</td><td>an..30</td><td>Unique identifier for a single vehicle use request</td></tr>
+  <tr><td>Request Header</td><td>2</td><td>Request Submission Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when the applicant submitted the request</td></tr>
+  <tr><td>Requester</td><td>3</td><td>Requesting Department</td><td>Character</td><td>an..60</td><td>Department initiating the request</td></tr>
+  <tr><td>Requester</td><td>4</td><td>Applicant Name</td><td>Character</td><td>an..50</td><td>Person who applies for the vehicle</td></tr>
+  <tr><td>Trip Details</td><td>5</td><td>Planned Departure Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Requested start time of the trip</td></tr>
+  <tr><td>Trip Details</td><td>6</td><td>Planned Return Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Requested end time of the trip</td></tr>
+  <tr><td>Trip Details</td><td>7</td><td>Trip Purpose</td><td>Character</td><td>an..200</td><td>Administrative purpose for using the vehicle</td></tr>
+  <tr><td>Approval & Dispatch</td><td>8</td><td>Approval Status</td><td>Character</td><td>an..20</td><td>Submitted / Approved / Rejected / Cancelled</td></tr>
+  <tr><td>Approval & Dispatch</td><td>9</td><td>Approver Name</td><td>Character</td><td>an..50</td><td>Person who approves the request</td></tr>
+  <tr><td>Approval & Dispatch</td><td>10</td><td>Approval Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when approval decision was made</td></tr>
+  <tr><td>Dispatch Execution</td><td>11</td><td>Dispatch Order No.</td><td>Character</td><td>an..30</td><td>Identifier for the dispatch action derived from the request</td></tr>
+  <tr><td>Dispatch Execution</td><td>12</td><td>Dispatching Unit Name</td><td>Character</td><td>an..60</td><td>Fleet/vehicle management unit that arranged the vehicle</td></tr>
+  <tr><td>Dispatch Execution</td><td>13</td><td>Assigned Vehicle Plate No.</td><td>Character</td><td>an..15</td><td>Vehicle plate number used for the trip</td></tr>
+  <tr><td>Dispatch Execution</td><td>14</td><td>Assigned Driver Name</td><td>Character</td><td>an..50</td><td>Driver designated for the trip</td></tr>
+</table>

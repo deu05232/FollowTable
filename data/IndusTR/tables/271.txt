@@ -1,0 +1,7 @@
+<table>
+  <caption>Charger Charging Termination Reason Message (PGN6656) Format</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1</td><td>1 byte</td><td>3521</td><td>Charger charging termination reason</td><td>Mandatory</td></tr>
+  <tr><td>2</td><td>2 bytes</td><td>3522</td><td>Charger charging termination fault reason</td><td>Mandatory</td></tr>
+  <tr><td>4</td><td>1 byte</td><td>3523</td><td>Charger charging termination error reason</td><td>Mandatory</td></tr>
+</table>

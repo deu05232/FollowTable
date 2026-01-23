@@ -1,0 +1,9 @@
+# SharePoint Server 2016 installation scenarios and minimum hardware requirements
+
+| Installation scenario | Farm role / deployment description | RAM | Processor | Storage | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Single-server deployment (built-in database) | All roles on one machine for dev/evaluation | 16 GB | 64-bit, 4 cores | 80 GB | Suitable for testing, not production |
+| Single-server deployment (SQL Server) | SharePoint on one server, SQL on separate server | 24 GB | 64-bit, 4 cores | 100 GB | Common for small production |
+| Three-tier farm: Web server | Web front-end role | 12 GB | 64-bit, 4 cores | 80 GB | Scales out by adding more web servers |
+| Three-tier farm: Application server | Service applications and background processing | 16 GB | 64-bit, 4 cores | 80 GB | Can be separated for performance |
+| Three-tier farm: Database server | SQL Server hosting SharePoint databases | 16 GB | 64-bit, 4 cores | 100 GB | Storage depends on content size |

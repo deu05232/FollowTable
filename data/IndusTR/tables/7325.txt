@@ -1,0 +1,16 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration and Correction Sequences (Offset/Gain)</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Calibration Sequence</td><td>(0014,3000)</td><td>SQ</td><td>1</td><td>2</td><td>Container for detector calibration and correction items.</td></tr>
+    <tr><td>>Offset Calibration Sequence</td><td>(0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td>Offset calibration items acquired without radiation exposure.</td></tr>
+    <tr><td>>>Offset Calibration File</td><td>(0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Offset calibration image data acquired under no-radiation conditions.</td></tr>
+    <tr><td>>>Offset Correction Method</td><td>(0014,3052)</td><td>CS</td><td>1</td><td>3</td><td>Method used to apply offset correction (e.g., dark-field subtraction).</td></tr>
+    <tr><td>>Gain Calibration Sequence</td><td>(0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td>Gain calibration items (flat-field) for pixel response normalization.</td></tr>
+    <tr><td>>>Gain Calibration File</td><td>(0014,3070)</td><td>OB</td><td>1</td><td>1</td><td>Gain calibration image data used for normalization.</td></tr>
+    <tr><td>>>Bad Pixel Map</td><td>(0014,3072)</td><td>OB</td><td>1</td><td>3</td><td>Pixel defect map used for correction during image processing.</td></tr>
+    <tr><td>>Calibration DateTime</td><td>(0014,3090)</td><td>DT</td><td>1</td><td>3</td><td>Date and time when the calibration was performed.</td></tr>
+  </tbody>
+</table>

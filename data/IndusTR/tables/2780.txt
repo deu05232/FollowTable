@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Environmental Requirements for Data Acquisition Testing (Non-interface Conditions)</caption>
+  <thead>
+    <tr><th>Test Area</th><th>Condition</th><th>Target</th><th>Allowable Range</th><th>Stabilization Time</th><th>Measurement Instrument</th><th>Sampling Interval</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>EMC room</td><td>Temperature</td><td>23°C</td><td>20–26°C</td><td>60 min</td><td>Calibrated thermometer</td><td>10 min</td><td>Pre-test soak required</td></tr>
+    <tr><td>EMC room</td><td>Relative humidity</td><td>50%</td><td>40–60%</td><td>60 min</td><td>Hygrometer</td><td>10 min</td><td>No condensation</td></tr>
+    <tr><td>Noise test bay</td><td>Background noise</td><td>< 35 dBA</td><td>< 40 dBA</td><td>15 min</td><td>Sound level meter</td><td>5 min</td><td>Fans off</td></tr>
+    <tr><td>Power bench</td><td>Supply voltage</td><td>24 VDC</td><td>23–25 VDC</td><td>5 min</td><td>Bench PSU + DMM</td><td>1 min</td><td>Ripple < 100 mV</td></tr>
+    <tr><td>Climate chamber</td><td>Thermal cycle</td><td>-10→55°C</td><td>Rate 2°C/min</td><td>120 min</td><td>Chamber controller</td><td>1 min</td><td>5 cycles total</td></tr>
+    <tr><td>Network bench</td><td>Cable length</td><td>120 m</td><td>50–150 m</td><td>10 min</td><td>Cable reel + meter</td><td>N/A</td><td>Twisted pair only</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Function Parameters (Descriptions Only — No Types)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_create</td><td>env</td><td>Handle to the runtime environment used to access platform services.</td></tr>
+    <tr><td>ArSession_create</td><td>context</td><td>Application context used to bind the session to the app lifecycle.</td></tr>
+    <tr><td>ArSession_create</td><td>out_session_pointer</td><td>Receives the created session instance address (written by the API).</td></tr>
+    <tr><td>ArSession_destroy</td><td>session</td><td>Session instance to be released and invalidated.</td></tr>
+    <tr><td>ArSession_configure</td><td>session</td><td>Session that will receive new configuration values.</td></tr>
+    <tr><td>ArSession_configure</td><td>config</td><td>Configuration object containing camera, tracking, and light estimation settings.</td></tr>
+    <tr><td>ArSession_setFeatures</td><td>features</td><td>Requested capabilities (e.g., depth, front camera) to enable for the session.</td></tr>
+    <tr><td>ArSession_setFeatures</td><td>feature_count</td><td>Number of entries in the features list.</td></tr>
+  </tbody>
+</table>

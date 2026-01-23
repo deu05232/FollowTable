@@ -1,0 +1,9 @@
+<table>
+  <caption>Administrative management enterprise-related data items (supervision and enforcement records)</caption>
+  <tr><td>Item</td><td>System Field</td><td>Format</td><td>Business Meaning</td><td>Remarks</td></tr>
+  <tr><td>Inspection date</td><td>insp_date</td><td>Date (YYYY-MM-DD)</td><td>Date of routine inspection</td><td></td></tr>
+  <tr><td>Inspection result</td><td>insp_result</td><td>Code(2)</td><td>Pass/Fail outcome</td><td></td></tr>
+  <tr><td>Penalty decision number</td><td>penalty_no</td><td>Text, up to 30 chars</td><td>Enforcement document identifier</td><td></td></tr>
+  <tr><td>Penalty amount</td><td>penalty_amt</td><td>Decimal(12,2)</td><td>Monetary penalty applied</td><td></td></tr>
+  <tr><td>Rectification deadline</td><td>rect_deadline</td><td>Date (YYYY-MM-DD)</td><td>Due date for corrective action</td><td></td></tr>
+</table>

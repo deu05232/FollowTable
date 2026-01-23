@@ -1,0 +1,10 @@
+<table>
+  <caption>Terminal I/O addressing and identifier parameters (routing-related)</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>1</td><td>Inbound user ID</td><td>1~16 777 215</td><td>User identifier used to label inbound traffic</td></tr>
+  <tr><td>2</td><td>Recipient ID</td><td>1~16 777 215</td><td>Destination intranet address</td></tr>
+  <tr><td>3</td><td>Sender ID</td><td>1~16 777 215</td><td>Source intranet address</td></tr>
+  <tr><td>4</td><td>Station entry sequence number</td><td>0~31</td><td>Low bits of the inbound sequence identifier</td></tr>
+  <tr><td>5</td><td>Terminal identifier type</td><td>0~2</td><td>0: default; 1: intranet format; 2: extended format</td></tr>
+  <tr><td>6</td><td>Address validity flag</td><td>0~1</td><td>0: invalid; 1: valid</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>DECRYPTDATA Command Simulcast-Receive Unicast Message First-Frame Data Structure</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Length (byte)</td><td>Description</td></tr>
+  <tr><td>1</td><td>IMSI</td><td>9</td><td>IMSI value of the USIM card</td></tr>
+  <tr><td>2</td><td>Address (ID)</td><td>6</td><td>Find the corresponding service ID based on the message type. Simulcast-receive unicast: Subordinate User ID (Unicast ID)</td></tr>
+  <tr><td>3</td><td>Message Ciphertext</td><td>LC-15 or 240</td><td>When the message ciphertext is less than or equal to 240 byte, use "end frame mode" to send the message ciphertext. When the message ciphertext is greater than 240 byte, the first frame uses "intermediate frame mode" to send 240 byte message ciphertext, and the remaining message ciphertext is sent as shown in Table 25</td></tr>
+</table>

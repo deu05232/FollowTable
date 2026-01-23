@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of Parameters for Getting the Camera Configuration List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>filter</td><td>ArCameraConfigFilter *</td><td>Camera configuration filter pointer</td></tr>
+  <tr><td>list</td><td>ArCameraConfigList *</td><td>Pointer to the list of supported camera configurations</td></tr>
+</table>

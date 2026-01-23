@@ -1,0 +1,14 @@
+<table>
+  <caption>Hydrologic Regime and Connectivity Thresholds for Aquatic Ecological Health Assessment (Inflow Variability, Runoff Ratio, and Connectivity)</caption>
+  <thead>
+    <tr><th>Metric (hydrology/connectivity only)</th><th>Score 0</th><th>Score 25</th><th>Score 50</th><th>Score 75</th><th>Score 100</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Lake inflow variability index (dimensionless)</td><td>> 6.0</td><td>(2.0, 6.0]</td><td>(0.6, 2.0]</td><td>(0.12, 0.6]</td><td>≤ 0.12</td></tr>
+    <tr><td>Annual outflow-to-multi-year mean runoff ratio, %</td><td>< 15</td><td>[15, 35)</td><td>[35, 55)</td><td>[55, 75)</td><td>≥ 75</td></tr>
+    <tr><td>Annual inflow-to-multi-year mean runoff ratio, %</td><td>< 15</td><td>[15, 35)</td><td>[35, 55)</td><td>[55, 75)</td><td>≥ 75</td></tr>
+    <tr><td>Barrier time (days/year with effective blockage), d</td><td>> 150</td><td>(90, 150]</td><td>(30, 90]</td><td>(1, 30]</td><td>0</td></tr>
+    <tr><td>River longitudinal connectivity index (barriers per 100 km), count/100 km</td><td>> 1.5</td><td>(1.0, 1.5]</td><td>(0.5, 1.0]</td><td>(0.2, 0.5]</td><td>≤ 0.2</td></tr>
+    <tr><td>Floodplain connection duration (days/year connected), d</td><td>< 5</td><td>[5, 15)</td><td>[15, 30)</td><td>[30, 60)</td><td>≥ 60</td></tr>
+  </tbody>
+</table>

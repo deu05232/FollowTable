@@ -1,0 +1,17 @@
+<table>
+  <caption>Extraction Map for Selected CKM Elements: Channels, Key Inputs, and Typical Systematics</caption>
+  <thead>
+    <tr><th>CKM element</th><th>Representative measurement channel</th><th>Experiment/Facility examples</th><th>How |Vij| enters</th><th>Theory/External inputs</th><th>Dominant uncertainty type</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>|Vud|</td><td>0+→0+ superallowed β decays</td><td>Precision nuclear decay programs</td><td>|Vud| ∝ 1/√Ft</td><td>Radiative corrections; isospin-breaking corrections</td><td>Theory systematics (RC) + nuclear structure</td><td>Also checked with neutron β decay</td></tr>
+    <tr><td>|Vus|</td><td>K→πℓν (Kℓ3)</td><td>KLOE, NA48/2, KTeV (examples)</td><td>Rate ∝ |Vus|^2 f+(0)^2</td><td>Lattice f+(0); phase-space integrals</td><td>Lattice normalization + experimental BR</td><td>Complementary: K→μν using fK/fπ</td></tr>
+    <tr><td>|Vub|</td><td>B→πℓν (exclusive)</td><td>Belle/BaBar, LHCb (examples)</td><td>dΓ/dq^2 ∝ |Vub|^2 |f+(q^2)|^2</td><td>Lattice form factors; parametrization (z-expansion)</td><td>Form-factor normalization</td><td>Inclusive b→uℓν uses OPE + shape functions</td></tr>
+    <tr><td>|Vcb|</td><td>B→D*ℓν (exclusive)</td><td>B-factories, LHCb (examples)</td><td>Normalization at zero recoil ∝ |Vcb|</td><td>HQET + lattice at zero recoil</td><td>Form-factor + HQET truncation</td><td>Inclusive b→cℓν uses moments + OPE</td></tr>
+    <tr><td>|Vcd|</td><td>D→πℓν</td><td>BESIII, CLEO-c (examples)</td><td>Rate ∝ |Vcd|^2 |f+|^2</td><td>Lattice form factors</td><td>Lattice + experimental statistics</td><td>Alternative: ν-induced charm production</td></tr>
+    <tr><td>|Vcs|</td><td>D→Kℓν</td><td>BESIII, CLEO-c (examples)</td><td>Rate ∝ |Vcs|^2 |f+|^2</td><td>Lattice form factors; electroweak RC</td><td>Lattice normalization</td><td>Also extracted from W→cs tagging</td></tr>
+    <tr><td>|Vtd|</td><td>B0–B0bar oscillations</td><td>B-factories, Tevatron/LHC (examples)</td><td>Δmd ∝ |Vtd|^2 fB^2 BB</td><td>Lattice fB√BB; short-distance coefficients</td><td>Lattice hadronic matrix element</td><td>Often quoted via Δmd/Δms ratio</td></tr>
+    <tr><td>|Vts|</td><td>Bs–Bsbar oscillations</td><td>LHCb (examples)</td><td>Δms ∝ |Vts|^2 fBs^2 BBs</td><td>Lattice fBs√BBs</td><td>Lattice + experimental resolution</td><td>Correlated extraction with |Vtd|</td></tr>
+    <tr><td>|Vtb|</td><td>Single-top production (t-channel)</td><td>ATLAS, CMS (examples)</td><td>σ(single-top) ∝ |Vtb|^2</td><td>Top production theory (QCD), PDFs</td><td>Experimental systematics + theory cross section</td><td>Alternative: top decay ratio Rb</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+# Emulation Options by Host Device (Best-Fit Emulator Choices per OS)
+
+| Host device / OS | Emulator | Emulated system (original) | Install form | Typical input support | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Windows 11/10 | RetroArch (cores) | Multi-system (NES/SNES/Genesis/PS1, etc.) | Frontend + cores | XInput/DirectInput, keyboard | Unified UI; core selection determines accuracy/features |
+| Windows 11/10 | RPCS3 | Sony PlayStation 3 | Standalone | XInput/DS controllers | Hardware-demanding; focuses on PS3 |
+| macOS (Apple Silicon) | OpenEmu | Multi-system (via plugins) | Frontend | Gamepads, keyboard | macOS-centric library management; depends on plugin availability |
+| Linux (Ubuntu/Fedora) | Mednafen | Multi-system (PS1, Saturn, PCE, etc.) | Standalone (CLI/UI wrappers exist) | SDL gamepads, keyboard | Accuracy-focused; configuration-driven |
+| Android | AetherSX2 (or alternatives) | Sony PlayStation 2 | Standalone | Bluetooth controllers, touch | Android-focused PS2 option; performance varies by SoC |
+| Android | Lemuroid | Multi-system (NES/SNES/GB/GBA/PS1, etc.) | Frontend | Touch + controllers | Simple setup; wraps multiple cores |
+| iOS / iPadOS | Delta | NES/SNES/N64/GB/GBC/GBA/DS | Standalone | Touch + controllers | iOS-friendly UI; install method depends on region/policy |
+| Steam Deck (SteamOS) | EmuDeck (bundle) | Multi-system (via RetroArch + standalones) | Installer / bundle | Built-in controls, external controllers | Curated setup tailored for Deck; installs multiple emulators |
+| Raspberry Pi (RetroPie) | RetroPie (packages) | Multi-system (classic consoles) | Distribution / packages | GPIO/USB controllers | Good for living-room builds; pick cores per system |
+| Xbox Series (Dev Mode) | RetroArch (UWP) | Multi-system (varies by core) | UWP app | Xbox controller | Device-mode constrained; core availability may differ |

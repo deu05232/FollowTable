@@ -1,0 +1,15 @@
+<table>
+  <caption>Input Parameter Table for CO2 from Carbonate Content in Industrial Raw Materials (Carbonate Component, Purity, and Decomposition Rate)</caption>
+  <thead>
+    <tr><th>Raw Material (Batch)</th><th>Process / Use</th><th>Raw Material Consumed (t)</th><th>Carbonate Component</th><th>Carbonate Content or Purity in Raw Material (%)</th><th>Carbonate EF (tCO2/t carbonate component)</th><th>Decomposition Rate (%)</th><th>Data Source / Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Limestone for lime kiln</td><td>Quicklime production</td><td>1,000</td><td>CaCO3</td><td>95</td><td>0.440</td><td>98</td><td>Supplier assay + kiln operating records</td></tr>
+    <tr><td>Dolomitic limestone</td><td>Flux for steelmaking</td><td>500</td><td>CaMg(CO3)2</td><td>92</td><td>0.477</td><td>90</td><td>Mineralogy test + default decomposition factor</td></tr>
+    <tr><td>Magnesite ore</td><td>MgO calcination</td><td>300</td><td>MgCO3</td><td>88</td><td>0.522</td><td>97</td><td>Lab CO2 loss-on-ignition (LOI)</td></tr>
+    <tr><td>Glass batch additive</td><td>Container glass</td><td>120</td><td>Na2CO3</td><td>99.5</td><td>0.415</td><td>100</td><td>Purchase specification sheet</td></tr>
+    <tr><td>Mineral filler</td><td>Ceramic body</td><td>80</td><td>CaCO3</td><td>80</td><td>0.440</td><td>75</td><td>Material safety data + process temperature profile</td></tr>
+    <tr><td>Carbonate-bearing clinker raw mix</td><td>Cement kiln</td><td>2,500</td><td>CaCO3</td><td>78</td><td>0.440</td><td>99</td><td>Raw meal chemistry (XRF) + calcination efficiency</td></tr>
+    <tr><td>Phosphate rock (carbonate impurity)</td><td>Phosphoric acid</td><td>600</td><td>CaCO3 (as carbonate impurity)</td><td>6</td><td>0.440</td><td>85</td><td>Carbonate assay + digestion/calcination factor</td></tr>
+  </tbody>
+</table>

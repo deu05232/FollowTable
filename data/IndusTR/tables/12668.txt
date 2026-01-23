@@ -1,0 +1,14 @@
+<table>
+  <caption>URL Parameter-Pair Patterns for Agricultural Inputs Product Resolution (Path and Query Styles)</caption>
+  <thead>
+    <tr><th>Network service address</th><th>Primary identifier parameter pair (required)</th><th>Extended identifier parameter pairs (optional)</th><th>Encoding style</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">https://id.agri.example/</td><td>01/N14</td><td>21/X..20</td><td>Path pairs: /AI/value</td><td>https://id.agri.example/01/01234567890128/21/XYZ-00001</td></tr>
+    <tr><td>01/N14</td><td>30/N..8</td><td>Path pairs: /AI/value</td><td>https://id.agri.example/01/01234567890128/30/250</td></tr>
+    <tr><td>01/N14</td><td>240/X..30; 10/X..20</td><td>Path pairs: /AI/value</td><td>https://id.agri.example/01/01234567890128/240/MICRONUTRIENT/10/BATCH77</td></tr>
+    <tr><td rowspan="3">https://resolve.agri.example/lookup</td><td>01=N14</td><td>21=X..20</td><td>Query pairs: ?AI=value&AI=value</td><td>https://resolve.agri.example/lookup?01=01234567890128&21=XYZ-00001</td></tr>
+    <tr><td>01=N14</td><td>30=N..8; 240=X..30</td><td>Query pairs: ?AI=value&AI=value</td><td>https://resolve.agri.example/lookup?01=01234567890128&30=12&240=FUNGICIDE-1L</td></tr>
+    <tr><td>01=N14</td><td>10=X..20</td><td>Query pairs: ?AI=value</td><td>https://resolve.agri.example/lookup?01=01234567890128&10=LOT-2026-01</td></tr>
+  </tbody>
+</table>

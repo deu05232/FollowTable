@@ -1,0 +1,16 @@
+<table>
+  <caption>Information Container API - Update Container Status Operation Input Fields</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Location</th><th>Type</th><th>Required</th><th>Allowed Values / Range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>path</td><td>string</td><td>Yes</td><td>length 1-64; pattern: ^[A-Za-z0-9_-]+$</td><td>Project scope</td></tr>
+    <tr><td>containerId</td><td>path</td><td>string</td><td>Yes</td><td>length 1-64; pattern: ^[A-Za-z0-9_-]+$</td><td>Target container</td></tr>
+    <tr><td>status</td><td>body</td><td>integer</td><td>Yes</td><td>0=Draft, 1=Active, 2=Archived, 3=Deleted</td><td>New status value</td></tr>
+    <tr><td>effectiveAt</td><td>body</td><td>string (date-time)</td><td>No</td><td>RFC3339 timestamp; must be >= now-5m</td><td>When the status change takes effect</td></tr>
+    <tr><td>reason</td><td>body</td><td>string</td><td>No</td><td>maxLength 256</td><td>Audit reason for the change</td></tr>
+    <tr><td>operatorId</td><td>header</td><td>string</td><td>No</td><td>length 1-64</td><td>Caller identity for auditing</td></tr>
+    <tr><td>ifMatch</td><td>header</td><td>string</td><td>No</td><td>ETag format; when provided, request fails on mismatch</td><td>Optimistic concurrency control</td></tr>
+    <tr><td>dryRun</td><td>query</td><td>boolean</td><td>No</td><td>true | false</td><td>Validate only, do not persist changes</td></tr>
+  </tbody>
+</table>

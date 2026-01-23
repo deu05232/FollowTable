@@ -1,0 +1,15 @@
+<table>
+  <caption>Network Management / Addressing Parameters (Not Payload Field Definitions)</caption>
+  <thead>
+    <tr><th>Item No.</th><th>Parameter</th><th>Length</th><th>Data Type</th><th>Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Source Address (SA)</td><td>1 byte</td><td>UINT8</td><td>0x00–0xFF</td><td>Logical address of sender node</td></tr>
+    <tr><td>2</td><td>Destination Address (DA)</td><td>1 byte</td><td>UINT8</td><td>0x00–0xFF</td><td>Logical address of receiver node</td></tr>
+    <tr><td>3</td><td>Priority</td><td>3 bits</td><td>UINT3</td><td>0–7</td><td>Transport priority for arbitration</td></tr>
+    <tr><td>4</td><td>PGI (Parameter Group Identifier)</td><td>1 byte</td><td>UINT8</td><td>0x00–0xFF</td><td>Identifies the application message type</td></tr>
+    <tr><td>5</td><td>Cycle Time</td><td>2 bytes</td><td>UINT16</td><td>0–65535 (ms)</td><td>Suggested periodic transmit interval</td></tr>
+    <tr><td>6</td><td>Total Transmission Time</td><td>2 bytes</td><td>UINT16</td><td>0–65535 (ms)</td><td>Maximum time budget for retries/ack</td></tr>
+    <tr><td>7</td><td>Acknowledgment Mode</td><td>1 bit</td><td>BOOLEAN</td><td>0 = no ack, 1 = ack</td><td>Whether receiver must acknowledge receipt</td></tr>
+  </tbody>
+</table>

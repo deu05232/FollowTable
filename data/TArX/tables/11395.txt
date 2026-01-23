@@ -1,0 +1,15 @@
+<table>
+  <caption>Acoustic Properties of Bone and Surrounding Tissues (Absolute c, Density, Attenuation)</caption>
+  <thead>
+    <tr><th>Material</th><th>Subtype</th><th>Speed of sound c (m/s)</th><th>Density ρ (kg/m³)</th><th>Attenuation α (dB/cm/MHz)</th><th>Acoustic impedance Z (MRayl)</th><th>Reference condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Bone</td><td>Cortical</td><td>4080</td><td>1900</td><td>20</td><td>7.75</td><td>Room temperature, hydrated</td></tr>
+    <tr><td>Bone</td><td>Trabecular</td><td>2000</td><td>1200</td><td>8</td><td>2.40</td><td>Room temperature, porous</td></tr>
+    <tr><td>Bone</td><td>Skull (average)</td><td>2800</td><td>1700</td><td>15</td><td>4.76</td><td>Room temperature, layered</td></tr>
+    <tr><td>Soft tissue</td><td>Muscle</td><td>1540</td><td>1060</td><td>1.0</td><td>1.63</td><td>37°C</td></tr>
+    <tr><td>Soft tissue</td><td>Fat</td><td>1450</td><td>920</td><td>0.6</td><td>1.33</td><td>37°C</td></tr>
+    <tr><td>Fluid</td><td>Water</td><td>1480</td><td>1000</td><td>0.002</td><td>1.48</td><td>20°C</td></tr>
+    <tr><td>Fluid</td><td>Saline</td><td>1520</td><td>1025</td><td>0.01</td><td>1.56</td><td>37°C</td></tr>
+  </tbody>
+</table>

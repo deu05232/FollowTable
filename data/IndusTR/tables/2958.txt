@@ -1,0 +1,14 @@
+<table>
+  <caption>OID Allocation Platform Infrastructure (Non-normative System Parameters)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Component</th><th>Specification</th><th>Purpose</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>API Gateway</td><td>Rate limiting</td><td>2,000 requests/min per tenant</td><td>Prevent abuse</td><td>Configurable</td></tr>
+    <tr><td>Database</td><td>Replication</td><td>3-node cluster, sync</td><td>High availability</td><td>RPO<5s</td></tr>
+    <tr><td>Security</td><td>Authentication</td><td>OAuth 2.0 + mTLS</td><td>Access control</td><td>Key rotation quarterly</td></tr>
+    <tr><td>Logging</td><td>Retention</td><td>365 days</td><td>Auditability</td><td>WORM storage</td></tr>
+    <tr><td>Operations</td><td>Backup</td><td>Daily full + hourly incremental</td><td>Disaster recovery</td><td>Encrypted</td></tr>
+    <tr><td>Monitoring</td><td>Uptime target</td><td>99.9%</td><td>SLA</td><td>Excludes maintenance window</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Correction factor for fuel carbon-to-hydrogen ratio for unit product energy consumption of combined-cycle power generating units</caption>
+  <tr><td>Class MW</td><td>Carbon-to-hydrogen mass ratio a</td><td>Correction factor</td></tr>
+  <tr><td rowspan="3">W300</td><td>3.00</td><td>1.336×QLHvm×10-7+0.994</td></tr>
+  <tr><td>3.15</td><td>1.394×QLHvm X10-7+0.994</td></tr>
+  <tr><td>3.30</td><td>1.782×QLHvm ×10-7+0.992</td></tr>
+  <tr><td rowspan="3"><300</td><td>3.00</td><td>2.516×Q1Hvm X10-7 +0.988</td></tr>
+  <tr><td>3.15</td><td>0.743×QLHvm X10-7+0.997</td></tr>
+  <tr><td>3.27</td><td>2.606×QLHvm ×10-7+0.989</td></tr>
+  <tr><td colspan="3">Note: QLHvm is the average lower heating value of the fuel, in kJ/kg.</td></tr>
+  <tr><td colspan="3">For carbon-to-hydrogen mass ratios (C/H) not within the above values, use linear interpolation to calculate.</td></tr>
+</table>

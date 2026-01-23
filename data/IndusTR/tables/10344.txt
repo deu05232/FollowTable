@@ -1,0 +1,15 @@
+<table>
+  <caption>Short-circuit breaking capability test requirements (kA-level prospective current)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current Ie (AC-3) A</th><th colspan="2">Prospective short-circuit current</th><th rowspan="2">U/Ue</th><th rowspan="2">Power factor (cosφ)</th><th rowspan="2">Clearing time window (ms)</th><th rowspan="2">Interval between tests (s)</th><th rowspan="2">Number of breaking tests</th></tr>
+    <tr><th>Icp (kA)</th><th>Peak factor (Ip/Icp)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 16</td><td>0.6</td><td>2.1</td><td>1.00</td><td>0.65</td><td>10–20</td><td>180</td><td>3</td></tr>
+    <tr><td>> 16 to 63</td><td>1.5</td><td>2.2</td><td>1.00</td><td>0.65</td><td>10–20</td><td>180</td><td>3</td></tr>
+    <tr><td>> 63 to 80</td><td>2.0</td><td>2.2</td><td>1.00</td><td>0.65</td><td>10–20</td><td>180</td><td>3</td></tr>
+    <tr><td>> 80 to 125</td><td>2.5</td><td>2.3</td><td>1.00</td><td>0.65</td><td>10–20</td><td>180</td><td>3</td></tr>
+    <tr><td>> 125 to 250</td><td>4.0</td><td>2.4</td><td>1.00</td><td>0.65</td><td>10–20</td><td>180</td><td>3</td></tr>
+    <tr><td>> 250 to 400</td><td>6.0</td><td>2.5</td><td>1.00</td><td>0.65</td><td>10–20</td><td>180</td><td>3</td></tr>
+  </tbody>
+</table>

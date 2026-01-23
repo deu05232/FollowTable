@@ -1,0 +1,14 @@
+<table>
+  <caption>Beam Pumping Unit Load-Step Functional Test Program and Related Clauses</caption>
+  <thead>
+    <tr><th>Stage</th><th>Program item</th><th>Load / rated torque %</th><th>Duration (h)</th><th>Measurement / record</th><th>Referenced clause</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>No-load run-in</td><td>0</td><td>1</td><td>Noise, temperature rise</td><td>7.1.1</td></tr>
+    <tr><td>2</td><td>Light-load operation</td><td>30</td><td>16</td><td>Vibration, fastener loosening</td><td>7.2.2</td></tr>
+    <tr><td>3</td><td>Medium-load operation</td><td>75</td><td>48</td><td>Reducer oil temperature</td><td>7.2.3</td></tr>
+    <tr><td>4</td><td>Rated-load operation</td><td>100</td><td>32</td><td>Stroke frequency stability</td><td>7.2.4</td></tr>
+    <tr><td>5</td><td>Overload check</td><td>125</td><td>0.25</td><td>Brake performance, abnormal sound</td><td>7.2.5</td></tr>
+    <tr><td>6</td><td>Post-test inspection</td><td>—</td><td>—</td><td>Oil leakage, wear mark check</td><td>7.3.1</td></tr>
+  </tbody>
+</table>

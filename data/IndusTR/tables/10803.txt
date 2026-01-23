@@ -1,0 +1,15 @@
+<table>
+  <caption>Fire Extinguisher Environmental Conditioning Schedule (Temperature Soak and Humidity Exposure)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Step</th><th>Condition type</th><th>Setpoint</th><th>Tolerance</th><th>Dwell / Duration</th><th>Number of cycles</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Pre-conditioning</td><td>1</td><td>Cold soak</td><td>Minimum operating temperature</td><td>±2 °C</td><td>24 ± 1 h</td><td rowspan="3">1</td><td>Unit stabilized at low temperature before return-to-ambient</td></tr>
+    <tr><td>2</td><td>Ambient soak</td><td>20 °C</td><td>±5 °C</td><td>24 h (min)</td><td>Recovery period at ambient conditions</td></tr>
+    <tr><td>3</td><td>Hot soak</td><td>60 °C</td><td>±2 °C</td><td>24 ± 1 h</td><td>Unit stabilized at high temperature before functional check</td></tr>
+    <tr><td rowspan="3">Cyclic stress</td><td>4</td><td>Temperature cycle (low)</td><td>Minimum operating temperature</td><td>±2 °C</td><td>8 h per cycle</td><td rowspan="3">6</td><td rowspan="3">Cycle order: low → ambient → high; repeat for total cycles shown</td></tr>
+    <tr><td>5</td><td>Temperature cycle (ambient)</td><td>20 °C</td><td>±5 °C</td><td>8 h per cycle</td></tr>
+    <tr><td>6</td><td>Temperature cycle (high)</td><td>60 °C</td><td>±2 °C</td><td>8 h per cycle</td></tr>
+    <tr><td>Post-conditioning</td><td>7</td><td>Humidity exposure</td><td>95 %RH at 40 °C</td><td>±3 %RH, ±2 °C</td><td>48 ± 2 h</td><td>1</td><td>Controlled moisture stress following thermal cycling</td></tr>
+  </tbody>
+</table>

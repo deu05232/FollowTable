@@ -1,0 +1,13 @@
+<table>
+  <caption>SM9 Combined Interface: Encrypt + Key Agreement (Mixed Workflow)</caption>
+  <tr><th>Section</th><th>Details</th></tr>
+  <tr><td>Prototype A</td><td>int SAF_SM9GenerateAgreementData(void *hSymmKeyObj, unsigned int uiMasterPublicKeyIndex, unsigned int uiKeyBits, unsigned char *pucResponsorID, unsigned int uiResponsorIDLen, unsigned char *pucSponsorTmpPublicKey, unsigned int *puiSponsorTmpPublicKeyLen, void **phAgreementHandle);</td></tr>
+  <tr><td>Prototype B</td><td>int SAF_SM9Encrypt(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, unsigned char *pucUserID, unsigned int uiUserIDLen, unsigned int ulAlgID, unsigned char *pIV, unsigned int ulIVLen, unsigned char *pucData, unsigned int uiDataLength, unsigned char *pucEncData, unsigned int *puiEncDataLen);</td></tr>
+  <tr><td>Description</td><td>This table lists both session key negotiation preparation and identity-based encryption interfaces for convenience in an SM9 application workflow.</td></tr>
+  <tr><td rowspan="6">Parameters (mixed)</td><td>phAgreementHandle [out] (agreement handle)</td></tr>
+  <tr><td>pucSponsorTmpPublicKey [out] (temporary public key)</td></tr>
+  <tr><td>pucUserID [in] (encryption identity)</td></tr>
+  <tr><td>pIV [in] (initialization vector)</td></tr>
+  <tr><td>pucEncData [out] (ciphertext)</td></tr>
+  <tr><td>Compliance</td><td>All SM9 computations shall comply with GB/T 41389.</td></tr>
+</table>

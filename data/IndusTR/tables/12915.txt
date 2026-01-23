@@ -1,0 +1,6 @@
+<table>
+  <caption>Pass-through special areas: monitoring & communication requirements first</caption>
+  <tr><th>Scenario</th><th>Primary monitoring purpose</th><th>Roadside monitoring devices</th><th>Vehicle-cloud communication requirement</th><th>Data retention / reporting</th><th>Roadway detail</th></tr>
+  <tr><td>Ramp entrance</td><td>Merge-behavior observation</td><td>Roadside cameras; gantry sensors</td><td>Mandatory V2C status uplink</td><td>Upload logs to backend after each run</td><td>Ramp entrance; dry asphalt</td></tr>
+  <tr><td>Toll station</td><td>Queue-length monitoring</td><td>Video surveillance at booths</td><td>Continuous connectivity for event reporting</td><td>Real-time dashboard updates</td><td>Straight approach; dry paved surface</td></tr>
+</table>

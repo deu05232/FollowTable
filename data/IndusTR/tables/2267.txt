@@ -1,0 +1,15 @@
+<table>
+  <caption>Building Energy Intensity Benchmarks (kWh m²·year) and Associated Reporting Boundaries</caption>
+  <thead>
+    <tr><th>Building Type</th><th>Climate Zone</th><th>Benchmark (kWh/m²·yr)</th><th>Reporting Boundary</th><th>Metering Scope</th><th>Primary Energy Conversion</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Office</td><td>Temperate</td><td>120</td><td>Facility</td><td>Electricity + HVAC</td><td>National avg.</td><td>Excludes tenant loads</td></tr>
+    <tr><td>Hospital</td><td>Temperate</td><td>280</td><td>Facility</td><td>Electricity + Steam</td><td>National avg.</td><td>24/7 operation assumed</td></tr>
+    <tr><td>Hotel</td><td>Tropical</td><td>210</td><td>Facility</td><td>Electricity</td><td>National avg.</td><td>Includes laundry</td></tr>
+    <tr><td>Data Center</td><td>Temperate</td><td>650</td><td>IT + Facility</td><td>Electricity</td><td>Grid mix</td><td>PUE target 1.5</td></tr>
+    <tr><td>School</td><td>Cold</td><td>95</td><td>Facility</td><td>Electricity + Heating</td><td>National avg.</td><td>Seasonal occupancy</td></tr>
+    <tr><td>Retail</td><td>Temperate</td><td>160</td><td>Facility</td><td>Electricity</td><td>National avg.</td><td>Lighting-dominant</td></tr>
+    <tr><td>Warehouse</td><td>Cold</td><td>60</td><td>Facility</td><td>Electricity + Heating</td><td>National avg.</td><td>Low process load</td></tr>
+  </tbody>
+</table>

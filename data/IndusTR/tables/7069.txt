@@ -1,0 +1,16 @@
+<table>
+  <caption>RSU Registration Fields with Network and Security Attributes</caption>
+  <thead>
+    <tr><th>Category</th><th>Serial No.</th><th>Data Item</th><th>Unit</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">RSU Reference</td><td>1</td><td>Timestamp</td><td>ms</td><td>Yes</td></tr>
+    <tr><td>2</td><td>RSU ID</td><td>-</td><td>Yes</td></tr>
+    <tr><td>3</td><td>RSU Reference Latitude</td><td>deg</td><td>Yes</td></tr>
+    <tr><td>4</td><td>RSU Reference Longitude</td><td>deg</td><td>Yes</td></tr>
+    <tr><td rowspan="4">Network/Security</td><td>5</td><td>IPv6 Address</td><td>-</td><td>No</td></tr>
+    <tr><td>6</td><td>MAC Address</td><td>-</td><td>No</td></tr>
+    <tr><td>7</td><td>Certificate Fingerprint</td><td>hex</td><td>No</td></tr>
+    <tr><td>8</td><td>Firmware Version</td><td>-</td><td>No</td></tr>
+  </tbody>
+</table>

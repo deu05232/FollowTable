@@ -1,0 +1,13 @@
+<table>
+  <caption>Process Parameter Set of Packaging Equipment</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Conveying Speed</td><td>SpeedOfDelivery</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>m/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0201</td><td>Yarn Variety</td><td>YarnVariety</td><td>M</td><td>VAR</td><td>RW</td><td>String</td><td>1</td><td></td><td>1</td><td>/</td></tr>
+  <tr><td>0X0202</td><td>Packing Method</td><td>FormOfPackage</td><td>M</td><td>VAR</td><td>RW</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0203</td><td>Baler Mode</td><td>BalerMode</td><td>M</td><td>VAR</td><td>RW</td><td>String</td><td>One</td><td></td><td>One</td><td>0.Manual 1.Semi-automatic 2.Fully automatic</td></tr>
+  <tr><td>0X0204</td><td>Counterweight Weight</td><td>CounterweightWeight</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>kg</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0205</td><td>Upper Limit of Weight Error</td><td>UpperLimitOfWeightError</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~12.00</td><td>kg</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0206</td><td>Lower Limit of Weight Error</td><td>LowerLimitOfWeightError</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~12.00</td><td>kg</td><td>1</td><td></td></tr>
+  <tr><td>0X0207</td><td>Seam Reversal Time</td><td>SeamReversalTime</td><td>M</td><td>VAR</td><td>RW</td><td>Uint16</td><td>0~600</td><td>S</td><td>丨</td><td></td></tr>
+  <tr><td>0X0208</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+</table>

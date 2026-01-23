@@ -1,0 +1,23 @@
+<table>
+  <caption>Gamma-ray Monitor Key characteristics</caption>
+  <tr><td>Detectors:</td><td></td><td>mass+margin [kg]</td></tr>
+  <tr><td>D1</td><td>Si DSSD</td><td>50+2.5</td></tr>
+  <tr><td></td><td>Structure</td><td>20+4</td></tr>
+  <tr><td>D2</td><td>LaBr _(3)</td><td>500+25</td></tr>
+  <tr><td></td><td>Structure</td><td>240+48</td></tr>
+  <tr><td>ACS</td><td>Plastic</td><td>130+6.5</td></tr>
+  <tr><td></td><td>Structure</td><td>40+8</td></tr>
+  <tr><td>Electronics</td><td></td><td>420+84</td></tr>
+  <tr><td>Total GRM</td><td></td><td>1578</td></tr>
+  <tr><td>Channels</td><td>D1</td><td>196 608</td></tr>
+  <tr><td></td><td>D2</td><td>104 960</td></tr>
+  <tr><td></td><td>ACS</td><td>8</td></tr>
+  <tr><td>Total</td><td></td><td>301 576</td></tr>
+  <tr><td>Energy resolution @ 662 keV</td><td>D1/D2</td><td>1.0 keV / 12.3 keV</td></tr>
+  <tr><td>Trigger thresholds @ 662 keV</td><td>D1/D2</td><td>10 keV / 20 keV</td></tr>
+  <tr><td>Noise thresholds @ 662 keV</td><td>D1/D2</td><td>5 keV / 10 keV</td></tr>
+  <tr><td>Background trigger rate ( > 5 keV)</td><td>LEO, i= 0^(°)</td><td>68 000 cts/s</td></tr>
+  <tr><td>ARM (FWHM)</td><td>at 1 MeV</td><td>1.8 deg</td></tr>
+  <tr><td>Localisation</td><td>onboard</td><td>~ 0.5 deg</td></tr>
+  <tr><td>Cont. sensitivity @ 1 MeV</td><td>10 ^((6)) s, scan</td><td>3 × 10 ^((-5)) ph/cm ^((2)) /s</td></tr>
+</table>

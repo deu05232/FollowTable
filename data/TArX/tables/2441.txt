@@ -1,0 +1,21 @@
+<table>
+  <caption>Models of vehicle merging at on-ramp bottlenecks that occurs when a safety rule ( ∗ ) or a safety rule ( ∗ ⁣ ∗ ) is satisfied [ KKl2003A ]</caption>
+  <tr><td>Safety rule ( * ):</td></tr>
+  <tr><td>[]llg^(+)_(n)>(_(n)τ,\ G(_(n),v^(+)_(n))),% g^(-)_(n)>(v^(-)_(n)τ,\ G(v^(-)_(n),_(n))),</td></tr>
+  <tr><td>_(n)=(v^(+)_(n),\ v_(n)+Δ v^((1))_(r)),</td></tr>
+  <tr><td>in _(n) the speed v_(n) is related to the initial lane before lane changing,</td></tr>
+  <tr><td>Δ v^((1))_(r)>0 is constant.</td></tr>
+  <tr><td>Safety rule ( ** ):</td></tr>
+  <tr><td>x^(+)_(n)-x^(-)_(n)-d>λ_(b)v^(+)_(n)+d,</td></tr>
+  <tr><td>[]llx_(n-1)</td></tr>
+  <tr><td>λ_(b) is constant.</td></tr>
+  <tr><td>Parameters after vehicle merging:</td></tr>
+  <tr><td>v_(n)=_(n).</td></tr>
+  <tr><td>Under the rule ( * ): x_(n) maintains the same,</td></tr>
+  <tr><td>under the rule ( ** ): x_(n)=x^((m))_(n) .</td></tr>
+  <tr><td>Speed adaptation before vehicle merging</td></tr>
+  <tr><td>v_(c),n=\{[]llv_(n)+Δ^(+)_(n)&{at $g^(+)% _(n)≤ G(v_(n),^(+)_(n))$,}\\ v_(n)+a_(n)τ&{at $g^(+)_(n)>G(v_(n),^(+)_(n))$},\\ .</td></tr>
+  <tr><td>Δ^(+)_(n)=(-b_(n)τ,(a_(n)τ,\ ^(+)_(n)-v_(n))),</td></tr>
+  <tr><td>^(+)_(n)=(0,(v_(free,n),\ v^(+)_(n)+Δ v^((2))_(r))),</td></tr>
+  <tr><td>Δ v^((2))_(r) is constant.</td></tr>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Test requirements for context-selection syntax elements in the video coding bitstream (sao merge type index, shape of partition index and b pu type index)</caption>
+  <tr><td>Syntax element name</td><td>Test requirements</td></tr>
+  <tr><td>sao_merge_type_index</td><td>Traverse all combinations of SaoMergeLeftAvai and SaoMergeUpAvai</td></tr>
+  <tr><td>shape_of_partition_index</td><td>Traverse cases where binIdx equals 0 to 1</td></tr>
+  <tr><td>b_pu_type_index</td><td>When cu_type_index equals 2, traverse cases where binIdx equals 0 to 2; when cu_type_index does not equal 2, traverse all possible cases of the "currently parsed binary symbol string" in Table 88 of GB/T 33475.2—2024</td></tr>
+  <tr><td>b_pu_type_min_index</td><td>Traverse cases where binIdx equals 0 to 1</td></tr>
+  <tr><td>f_pu_type_index</td><td>Traverse cases where cu_type_index equals 2 and binIdx equals 0, and where cu_type_index does not equal 2 and binIdx equals 0 to 1</td></tr>
+  <tr><td>weighted_skip_mode</td><td>Traverse cases where binIdx equals 0 to RefPicNum-2</td></tr>
+  <tr><td>cu_subtype_index</td><td>Traverse cases where binIdx equals 0 to 3</td></tr>
+  <tr><td>b_pu_type_index2</td><td>Traverse cases where binIdx equals 0; where binIdx equals 1 and the first binary symbol of the binary symbol string is 0; where binIdx equals 1 and the first binary symbol of the binary symbol string is not 0; and where binIdx equals 2</td></tr>
+  <tr><td>intra_pu_type_index</td><td>binIdx equals 0</td></tr>
+  <tr><td>intra_luma_pred_mode</td><td>Traverse all possible cases of the "currently parsed binary symbol string" in Table 66 of GB/T 33475.2—2024</td></tr>
+  <tr><td>intra_chroma_pred_mode</td><td>Traverse cases in 8.3.3.2.6 of GB/T 33475.2—2024 where binIdx equals 0 and a equals 0 to 1, and where binIdx equals 1</td></tr>
+  <tr><td>pu_reference_index</td><td>Traverse cases where binIdx equals 0 to RefPicNum-2</td></tr>
+  <tr><td>dir_multi_hypothesis_mode</td><td>Traverse all combinations of SizeInBit and the "currently parsed binary symbol string" in Table 67 of GB/T 33475.2—2024</td></tr>
+  <tr><td>mv_diff_x_abs 和mv_diff_y_abs</td><td>SAC traverses cases where binIdx equals 0 to 2 for these two syntax elements</td></tr>
+</table>

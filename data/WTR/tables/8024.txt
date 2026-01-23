@@ -1,0 +1,14 @@
+# Example Operating-System or Desktop Environment App Sets That Include a BitTorrent Client
+
+| Environment / Distribution | Release / Edition (example) | Included BitTorrent Client | Other Included Network Apps (examples) | Notes |
+| --- | --- | --- | --- | --- |
+| Ubuntu (GNOME) | Desktop install (example) | Transmission | Firefox, NetworkManager | Transmission is a common default torrent client in some Ubuntu-era installs |
+| Fedora LXDE Spin | Spin package set (example) | Transmission | Midori/Kazehakase (browser), wicd/WiFi Radar (wireless) | Lightweight desktop stack with a named torrent client |
+| Linux Mint | Desktop edition (example) | Transmission | Firefox, HexChat | Ships with a GUI torrent client suitable for seeding/downloading |
+| Debian | Minimal + desktop task (example) | Transmission (optional) | Firefox ESR, NetworkManager | Often installed as an optional desktop app via package selection |
+| FreeBSD | Ports/packages setup (example) | rTorrent | ssh, fetch | Terminal-oriented BitTorrent client commonly installed via ports |
+| trueNAS CORE | Plugin/jail setup (example) | Transmission (plugin) | Web UI, SMB/NFS services | Torrent client is typically installed as a service for seeding/downloading |
+| OpenWrt | Router packages (example) | aria2 | dnsmasq, firewall | CLI-based BitTorrent-capable downloader can run on routers/NAS devices |
+| Synology DSM | Package Center (example) | Download Station | Web UI, file services | Download Station supports BitTorrent as part of a NAS workflow |
+| Android | App install (example) | Flud | Browser, Wi‑Fi tools | Mobile BitTorrent client available via app stores |
+| iOS / iPadOS | App install (example) | iTransmission (third-party) | Browser | Not typically in the official App Store; still a named client users may install |

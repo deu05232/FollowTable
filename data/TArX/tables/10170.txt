@@ -1,0 +1,15 @@
+<table>
+  <caption>ATLAS minimum-bias analysis samples used for the AMBT1 tune: tuned observables and kinematic (tuning) ranges</caption>
+  <thead>
+    <tr><th>ATLAS minimum-bias analysis sample (AMBT1 input)</th><th>Collision energy</th><th>Event / track phase-space (sample definition)</th><th>Tuned observable</th><th>Tuning (kinematic) range used</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Inclusive charged-particle density (minimum-bias)</td><td rowspan="2">0.9 TeV</td><td rowspan="2">nch≥ 6; pT> 500 MeV; |η| < 2.5</td><td>dNch/dη</td><td>-2.5 < η < 2.5</td></tr>
+    <tr><td>dNch/dpT</td><td>0.5 ≤ pT≤ 5.0 GeV</td></tr>
+    <tr><td rowspan="2">Underlying-event–like activity in minimum-bias (track-based regions)</td><td rowspan="2">0.9 TeV</td><td rowspan="2">nch≥ 6; leading track pT≥ 1.0 GeV; |η| < 2.5</td><td>ΣpTdensity in transverse region</td><td>pTlead≥ 1.0 GeV (evaluated up to 5.0 GeV)</td></tr>
+    <tr><td>Nchdensity in transverse region</td><td>pTlead≥ 1.0 GeV (evaluated up to 5.0 GeV)</td></tr>
+    <tr><td>Charged-particle multiplicity distribution (minimum-bias)</td><td>0.9 TeV</td><td>nch≥ 6; pT> 500 MeV; |η| < 2.5</td><td>P(nch)</td><td>6 ≤ nch≤ 60</td></tr>
+    <tr><td>Mean pTvs multiplicity (minimum-bias)</td><td>0.9 TeV</td><td>nch≥ 6; pT> 500 MeV; |η| < 2.5</td><td><pT>(nch)</td><td>6 ≤ nch≤ 40</td></tr>
+    <tr><td>Central charged-particle density point (cross-check input)</td><td>0.9 TeV</td><td>nch≥ 1; pT> 100 MeV; |η| < 0.2</td><td>(dNch/dη)|η=0</td><td>|η| < 0.2</td></tr>
+  </tbody>
+</table>

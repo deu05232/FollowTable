@@ -1,0 +1,18 @@
+<table>
+  <caption>Microservice Registration API — Service Definition and Endpoint Fields</caption>
+  <thead>
+    <tr><th>Category</th><th>Field</th><th>Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Auth</td><td>userID</td><td>string</td><td>Yes</td><td>Caller user identifier</td></tr>
+    <tr><td>Auth</td><td>access_token</td><td>string</td><td>Yes</td><td>Access token used to authorize the call</td></tr>
+    <tr><td>Service</td><td>sevName</td><td>string</td><td>Yes</td><td>Microservice name</td></tr>
+    <tr><td>Service</td><td>sevDes</td><td>string</td><td>No</td><td>Microservice description</td></tr>
+    <tr><td>Service</td><td>serviceVersion</td><td>string</td><td>No</td><td>Semantic version of the service</td></tr>
+    <tr><td>Endpoints</td><td>dataUrl</td><td>string</td><td>Yes</td><td>Data center base URL</td></tr>
+    <tr><td>Endpoints</td><td>healthCheckUrl</td><td>string</td><td>No</td><td>Health check URL</td></tr>
+    <tr><td>Endpoints</td><td>swaggerUrl</td><td>string</td><td>No</td><td>OpenAPI/Swagger document URL</td></tr>
+    <tr><td>Operational</td><td>timeoutMs</td><td>integer</td><td>No</td><td>Client timeout for registration</td></tr>
+    <tr><td>Operational</td><td>retryPolicy</td><td>string</td><td>No</td><td>Retry policy identifier</td></tr>
+  </tbody>
+</table>

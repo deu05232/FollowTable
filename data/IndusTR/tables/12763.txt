@@ -1,0 +1,15 @@
+<table>
+  <caption>Shear / CDO / Eye Pattern Symbol Crosswalk (Icon-First, No Parameter Lookup)</caption>
+  <thead>
+    <tr><th>Feature Family</th><th>Primary Icon</th><th>Secondary Icon</th><th>Text Label</th><th>Example Sketch</th><th>Use Case</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Shear</td><td>S</td><td>→</td><td>Shear displaced convection</td><td>ccc → x</td><td>Annotate displacement type</td></tr>
+    <tr><td>Shear</td><td>G</td><td>↗</td><td>Diagonal shear presentation</td><td>ccc ↗ x</td><td>Tag shear direction</td></tr>
+    <tr><td>CDO</td><td>■</td><td>□□</td><td>Compact vs broad CDO</td><td>■ / □□</td><td>Describe core coverage</td></tr>
+    <tr><td>CDO boundary</td><td>⊗</td><td>≈</td><td>Irregular boundary marker</td><td>⊗≈</td><td>Flag ragged edges</td></tr>
+    <tr><td>Eye</td><td>○</td><td>◔</td><td>Clear vs broken eye</td><td>○ / ◔</td><td>Describe eye definition</td></tr>
+    <tr><td>Banding</td><td>)</td><td>)))</td><td>Weak vs strong band curvature</td><td>) / )))</td><td>Label band class</td></tr>
+    <tr><td>Spiral</td><td>@</td><td>@@</td><td>Single vs multiple spiral bands</td><td>@ / @@</td><td>Catalog band count</td></tr>
+  </tbody>
+</table>

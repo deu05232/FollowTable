@@ -1,0 +1,15 @@
+<table>
+  <caption>Grain Condition Monitoring & Control System — Common Request/Response Frame Skeleton (No Payload)</caption>
+  <thead>
+    <tr><th>Byte Index</th><th>Field</th><th>Size (bytes)</th><th>Example (Hex)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0..3</td><td>Start Symbol</td><td>4</td><td>55 AA 55 AA</td><td>Fixed frame header marker</td></tr>
+    <tr><td>4</td><td>KADDL (Sub-unit Address)</td><td>1</td><td>01</td><td>Destination device address</td></tr>
+    <tr><td>5</td><td>Command</td><td>1</td><td>A2</td><td>Control/operation code</td></tr>
+    <tr><td>6..7</td><td>Length</td><td>2</td><td>0000</td><td>Data length in bytes (0 for header-only commands)</td></tr>
+    <tr><td>8..9</td><td>CRC-16</td><td>2</td><td>9F 2B</td><td>CRC over Address+Command+Length(+Data if any)</td></tr>
+    <tr><td>10</td><td>End Symbol</td><td>1</td><td>16</td><td>Fixed end marker</td></tr>
+    <tr><td colspan="5">Note: This table intentionally shows the universal frame layout only; commands with Length=0000 have no operational payload bytes.</td></tr>
+  </tbody>
+</table>

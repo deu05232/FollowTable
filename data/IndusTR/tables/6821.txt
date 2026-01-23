@@ -1,0 +1,14 @@
+<table>
+  <caption>Fire Resistance Rating Codes by Curve Type with Notes (Mixed Guidance in Grid)</caption>
+  <thead>
+    <tr><th>Curve type</th><th>Example rating code</th><th>Typical application</th><th>Selection note (guidance)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cellulosic temperature-rise curve</td><td>Fp1.00</td><td>Buildings (office/residential)</td><td>Use when fuel load resembles wood/paper; verify substrate steel section factor.</td></tr>
+    <tr><td>Hydrocarbon temperature-rise curve</td><td>Ft2.00</td><td>Oil & gas modules</td><td>Prefer for jet-fire prone areas; consider higher thickness due to rapid heating.</td></tr>
+    <tr><td>Petrochemical temperature-rise curve</td><td>Fs2.00</td><td>Refineries</td><td>Check if pool-fire scenario dominates; review insulation compatibility.</td></tr>
+    <tr><td>RABT temperature-rise curve</td><td>Fb1.50</td><td>Tunnels</td><td>Confirm tunnel ventilation assumptions and spalling protection needs.</td></tr>
+    <tr><td>External fire curve</td><td>Fe1.00</td><td>Façade/external exposures</td><td>Use where external flame impingement is expected; wind can affect heating rate.</td></tr>
+    <tr><td>Smouldering curve</td><td>Fm0.50</td><td>Storage/void spaces</td><td>Not suitable for flashover; only for low-oxygen smoulder scenarios.</td></tr>
+  </tbody>
+</table>

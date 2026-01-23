@@ -1,0 +1,15 @@
+<table>
+  <caption>Unified Social Credit Code (USCC) Digit-Level Parsing for Construction Machinery Identifier Binding (Component-Item Table)</caption>
+  <thead>
+    <tr><th>Position(s)</th><th>Component Item</th><th>Description</th><th>Example Character(s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Registration authority</td><td>Type of registering authority encoded in the first character</td><td>9</td></tr>
+    <tr><td>2</td><td>Entity category</td><td>Organization category code</td><td>1</td></tr>
+    <tr><td>3–8</td><td>Administrative region</td><td>Region code segment</td><td>320300</td></tr>
+    <tr><td>9–17</td><td>Organization identifier</td><td>Body identifier segment used to bind enterprise node</td><td>167701249</td></tr>
+    <tr><td>18</td><td>Check digit</td><td>Checksum for validation</td><td>8</td></tr>
+    <tr><td>OID binding field</td><td>Construction machinery OID root</td><td>Industry OID node to which the USCC is bound</td><td>1.2.156.3514</td></tr>
+    <tr><td>OID binding node</td><td>Existing identification system node</td><td>Node under which USCC is used</td><td>1003</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,29 @@
+<table>
+  <caption>Enterprise Financial Credit Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C.50</td><td></td><td></td></tr>
+  <tr><td>ID Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>ID Document Number</td><td>CerNo</td><td>C.18</td><td></td><td></td></tr>
+  <tr><td>Collateral Name</td><td>Collateral</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Ownership of Collateral</td><td>CollaOwn</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Collateral Quantity</td><td>CollaNum</td><td>N..6</td><td></td><td></td></tr>
+  <tr><td>Collateral Quality</td><td>CollaQua</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Collateral Condition</td><td>CollaStatus</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Collateral Location</td><td>CollaLocation</td><td>C6</td><td></td><td></td></tr>
+  <tr><td>Collateral Value</td><td>CollaValue</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Mortgage Registration Authority</td><td>CollaRegAuth</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Registration Authority Code</td><td>CollaRegAuthNo</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Mortgage Registration Date</td><td>CollaRegDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Profit Amount</td><td>Profit</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Asset-liability Ratio</td><td>AssLiabRatio</td><td>N..12,2</td><td></td><td></td></tr>
+  <tr><td>Total Liabilities</td><td>TotalLiab</td><td>N..24,6</td><td></td><td></td></tr>
+  <tr><td>Credit Rating</td><td>CreditRating</td><td>C..3</td><td></td><td></td></tr>
+  <tr><td>Credit Rating Agency</td><td>CreRatIns</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Credit Rating Agency Code</td><td>CreRatInsNo</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Credit Rating Date</td><td>CreRatDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Credit Rating Report Number</td><td>CreRatRepNo</td><td>C.50</td><td></td><td></td></tr>
+  <tr><td>Data Aggregating Unit</td><td>S_Ext_FromNode</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

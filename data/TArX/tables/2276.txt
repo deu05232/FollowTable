@@ -1,0 +1,11 @@
+<table>
+  <caption>Estimates of the true underlying fraction of planets on nearly circular orbits using different methods</caption>
+  <tr><th></th><th>eccentricity</th><th></th><th></th><th></th></tr>
+  <tr><th>method</th><th>estimator</th><th>f_(0.02)</th><th>f_(0.05)</th><th>f_(0.1)</th></tr>
+  <tr><th>5-functions</th><th>e_(mean)</th><td>0.13</td><td>0.21</td><td>0.45</td></tr>
+  <tr><th>5-functions</th><th>e_(med)</th><td>0.29</td><td>0.31</td><td>0.47</td></tr>
+  <tr><th>5-functions</th><th>e_(mode)</th><td>0.26</td><td>0.33</td><td>0.50</td></tr>
+  <tr><th>grid</th><th>e_(mean)</th><td>0.27 ± 0.11</td><td>0.38 ± 0.09</td><td>0.51 ± 0.08</td></tr>
+  <tr><th>Lucy deconvolution (eq. LABEL:eq_single , LABEL:eq_lucy_1 )</th><th>e_()</th><td>0.18</td><td>0.24</td><td>0.49</td></tr>
+  <tr><th>P>10 d, grid</th><th>e_(mean)</th><td>0.13 ± 0.05</td><td>0.28 ± 0.08</td><td>0.42 ± 0.09</td></tr>
+</table>

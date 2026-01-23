@@ -1,0 +1,15 @@
+<table>
+  <caption>Agricultural Input Identifier Layout (Decimal Segments and Ranges)</caption>
+  <thead>
+    <tr><th>Section</th><th>Position (from left)</th><th>Digits</th><th>Allowed Decimal Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Prefix</td><td>1–2</td><td>2</td><td>10–99</td><td>Industry prefix for agricultural inputs</td></tr>
+    <tr><td>Category Code</td><td>3–6</td><td>4</td><td>1001–3600</td><td>Agricultural inputs product category</td></tr>
+    <tr><td>Company Number</td><td>7–11</td><td>5</td><td>00001–99999</td><td>Issuer / company identifier</td></tr>
+    <tr><td>Item Reference</td><td>12–16</td><td>5</td><td>00000–99999</td><td>Product/item reference within company</td></tr>
+    <tr><td>Sub-Serial</td><td>17–22</td><td>6</td><td>000001–999999</td><td>Sub-serial number for uniqueness</td></tr>
+    <tr><td>Check Digit</td><td>23</td><td>1</td><td>0–9</td><td>Modulo-10 check digit</td></tr>
+    <tr><td colspan="5">Note: This table documents decimal digit ranges and positions only.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Update Information Container Content Input Parameters</caption>
+  <tr><td>Parameter Name</td><td>Chinese Name</td><td>Data Type</td><td>Required</td><td>Remarks</td></tr>
+  <tr><td>projectId</td><td>Project Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the project</td></tr>
+  <tr><td>containerId</td><td>Container Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the container</td></tr>
+  <tr><td>contentId</td><td>Content Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the content</td></tr>
+  <tr><td>name</td><td>Name</td><td>string</td><td>Fragrant</td><td>Content name</td></tr>
+  <tr><td>location</td><td>Storage Location</td><td>string</td><td>Fragrant</td><td>Storage location of the content, i.e., the download address of the content data</td></tr>
+  <tr><td>type</td><td>Type</td><td>string</td><td>Fragrant</td><td>Type of the content, compliant with IANA MIME specification definition</td></tr>
+  <tr><td>schema</td><td>Schema</td><td>string</td><td>Fragrant</td><td>Schema name of the content or schema link address</td></tr>
+  <tr><td>schemaVersion</td><td>Schema Version</td><td>string</td><td>Fragrant</td><td>Schema version. Only valid for schema container</td></tr>
+  <tr><td>schemaSubset</td><td>Schema Subset</td><td>string</td><td>Fragrant</td><td>Subset name of the schema or link address. Only valid for schema container</td></tr>
+</table>

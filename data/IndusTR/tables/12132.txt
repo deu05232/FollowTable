@@ -1,0 +1,8 @@
+<table>
+  <caption>Agricultural insurance–subsidy crosswalk join specification (policy to machinery-subsidy application)</caption>
+  <tr><td>Relationship Description</td><td>Linking insured households and their insurance policy records to machinery subsidy applications for the same beneficiary</td></tr>
+  <tr><td>Join Pattern</td><td>Composite identifier match across programs</td></tr>
+  <tr><td>Dataset A</td><td>Agricultural Insurance Underwriting Policy Details Table</td></tr>
+  <tr><td>Dataset B</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+  <tr><td>Key Strategy Summary</td><td>Use the household/beneficiary identity fields together with the local administrative code to align records</td></tr>
+</table>

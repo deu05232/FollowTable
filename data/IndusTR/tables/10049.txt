@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal Short Message TX Statement Parameters (Extended)</caption>
+  <thead>
+    <tr><th>No.</th><th>Parameter Field</th><th>Allowed Range</th><th>Unit</th><th>Description / Usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sender_ID</td><td>1–16,777,215</td><td>—</td><td>Logical address of the local terminal (intranet). Used as the source identifier in an outbound short message.</td></tr>
+    <tr><td>2</td><td>Recipient_ID</td><td>1–16,777,215</td><td>—</td><td>Destination intranet user ID. The network routes the message according to this ID.</td></tr>
+    <tr><td>3</td><td>Service_Type</td><td>1–2</td><td>—</td><td>Service selection flag. 1 = Emergency search and rescue; 2 = RNSS position report (or standard reporting service, per terminal profile).</td></tr>
+    <tr><td>4</td><td>Station_Frequency_Point</td><td>0–2</td><td>—</td><td>Uplink frequency selection. 0 = Automatic selection by terminal; 1 = LF1; 2 = LF2.</td></tr>
+    <tr><td>5</td><td>TX_Beam_ID</td><td>0–64</td><td>—</td><td>Outbound beam selection for regional short messages. 0 = no output; 1–63 = specific beam; 64 = all visible beams.</td></tr>
+    <tr><td>6</td><td>Signal_Branch</td><td>1–3</td><td>—</td><td>Signal branch used for transmission. 1 = S2C_p; 2 = S2C_d; 3 = full support / auto-capable mode.</td></tr>
+    <tr><td>7</td><td>Repeat_Period</td><td>10–3600</td><td>0.1 s</td><td>Transmission repetition or output period control for the statement (if enabled). Example: 300 means 30.0 s.</td></tr>
+    <tr><td>8</td><td>Payload_Length</td><td>0–200</td><td>byte</td><td>Length of the user data field carried by the statement. Must match the actual payload bytes provided.</td></tr>
+  </tbody>
+</table>

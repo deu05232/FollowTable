@@ -1,0 +1,16 @@
+<table>
+  <caption>Return values for the method to obtain basic granary bay information data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short name</td><td>Data type</td><td>Data format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Affiliated warehouse</td><td>sscf</td><td>Character</td><td>a..20</td><td rowspan="12">Meaning and type shall comply with the provisions of 6.1.6 in LS/T 1802—2016</td></tr>
+  <tr><td>2</td><td>Affiliated warehouse ID</td><td>sscfbh</td><td>Character</td><td>a.3</td></tr>
+  <tr><td>3</td><td>Bay ID</td><td>ajbh</td><td>Character</td><td>a.3</td></tr>
+  <tr><td>4</td><td>Bay name</td><td>ajmc</td><td>Character</td><td>..20</td></tr>
+  <tr><td>5</td><td>Bay length</td><td>ajcd</td><td>Numeric</td><td>n..5,1</td></tr>
+  <tr><td>6</td><td>Bay width</td><td>ajkd</td><td>Numeric</td><td>n..5,1</td></tr>
+  <tr><td>7</td><td>Bay height</td><td>ajgd</td><td>Numeric</td><td>n..5,1</td></tr>
+  <tr><td>8</td><td>Bay design capacity</td><td>ajsjer</td><td>Numeric</td><td>..8</td></tr>
+  <tr><td>9</td><td>Bay actual capacity</td><td>ajsjcr01</td><td>Numeric</td><td>n..8</td></tr>
+  <tr><td>10</td><td>Bay commissioning date</td><td>ajqyrq</td><td>Date</td><td>YYYYMMDD</td></tr>
+  <tr><td>11</td><td>Bay status</td><td>ajzt</td><td>Character</td><td>a.1</td></tr>
+  <tr><td>12</td><td>Bay usage status</td><td>ajsyzt</td><td>Character</td><td>a.1</td></tr>
+</table>

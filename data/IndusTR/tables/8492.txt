@@ -1,0 +1,16 @@
+<table>
+  <caption>AM Processes Grouped by Feedstock State (Solid/Liquid/Slurry) Rather Than Activation Type</caption>
+  <thead>
+    <tr><th rowspan="2">Material family</th><th rowspan="2">Feedstock state / physical format (dominant column)</th><th colspan="3">Activation / energy input</th></tr>
+    <tr><th>Beam-based (laser/light)</th><th>Heat-based (oven/IR/resistive)</th><th>Chemical-based (binder/catalyst)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metals</td><td>Solid powder bed</td><td>LPBF (laser powder bed fusion)</td><td>—</td><td>—</td></tr>
+    <tr><td>Metals</td><td>Loose powder + binder</td><td>—</td><td>—</td><td>Metal Binder Jetting</td></tr>
+    <tr><td>Metals</td><td>Solid wire</td><td>Laser Wire DED</td><td>Arc wire deposition (WAAM)</td><td>—</td></tr>
+    <tr><td>Polymers</td><td>Thermoplastic filament</td><td>—</td><td>Material extrusion (FFF)</td><td>—</td></tr>
+    <tr><td>Polymers</td><td>Photopolymer liquid resin</td><td>SLA/DLP photopolymerization</td><td>Post-cure thermal bake</td><td>—</td></tr>
+    <tr><td>Inorganic non-metals</td><td>Slurry / suspension</td><td>Light-based ceramic stereolithography</td><td>Furnace sintering after shaping</td><td>Ceramic binder jetting + infiltration</td></tr>
+    <tr><td>Biomaterials</td><td>Hydrogel bioink</td><td>Visible-light crosslinking bioprinting</td><td>Thermal gelation printing</td><td>Ionic/catalytic crosslinking printing</td></tr>
+  </tbody>
+</table>

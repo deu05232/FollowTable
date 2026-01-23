@@ -1,0 +1,15 @@
+<table>
+  <caption>Standby and networked standby power limits by energy efficiency grade for smart electric ovens</caption>
+  <thead>
+    <tr><th rowspan="2">Energy efficiency metric</th><th rowspan="2">Operating state</th><th rowspan="2">Condition</th><th colspan="3">Energy efficiency grade</th></tr>
+    <tr><th>Grade 1</th><th>Grade 2</th><th>Grade 3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Idle power (W)</td><td>Standby (no network)</td><td>No information/status display</td><td>≤ 0.5</td><td>≤ 0.8</td><td>≤ 1.2</td></tr>
+    <tr><td>Standby (no network)</td><td>With information/status display</td><td>≤ 0.8</td><td>≤ 1.2</td><td>≤ 1.8</td></tr>
+    <tr><td rowspan="2">Idle power (W)</td><td>Networked standby</td><td>Wi‑Fi/Ethernet connected, remote wake enabled</td><td>≤ 2.0</td><td>≤ 2.5</td><td>≤ 3.0</td></tr>
+    <tr><td>Networked standby</td><td>Connected, remote wake disabled (maintenance only)</td><td>≤ 1.5</td><td>≤ 2.0</td><td>≤ 2.5</td></tr>
+    <tr><td rowspan="2">Grade context (non-focus)</td><td>Heating efficiency context</td><td>Thermal efficiency requirement (reference only)</td><td>≥ 90%</td><td>≥ 88%</td><td>≥ 85%</td></tr>
+    <tr><td>Grade context (non-focus)</td><td>Measurement note</td><td>Idle power measured after 30 min stabilization</td><td colspan="3">Applies to all grades</td></tr>
+  </tbody>
+</table>

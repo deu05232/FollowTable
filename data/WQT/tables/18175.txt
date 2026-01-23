@@ -1,0 +1,10 @@
+# BitTorrent libraries  packaging and integration options
+
+| BitTorrent library | Primary distribution | Language bindings | Typical embedding targets | Build system | Documentation style | License type |
+|---|---|---|---|---|---|---|
+| libtorrent (Rasterbar) | Source + package managers | Python, others (community) | Desktop clients, services | CMake | API reference + examples | Free software |
+| MonoTorrent | NuGet | .NET only | .NET apps/services | MSBuild | API docs | Free software |
+| WebTorrent | npm | JavaScript/TypeScript | Browsers, Node.js apps | npm scripts | Guides + examples | Free software |
+| libTorrent (Rakshasa) | Source + distro packages | Limited/community | rTorrent-style apps | autotools | Minimal docs | Free software |
+| Transmission (libtransmission) | Source + distro packages | Limited/community | Desktop/mobile clients | CMake/autotools | Developer docs | Free software |
+| aria2 (libaria2) | Source + distro packages | Limited/community | CLI tools, services | autotools | Manpages + wiki | Free software |

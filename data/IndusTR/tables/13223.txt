@@ -1,0 +1,14 @@
+<table>
+  <caption>Logistics M2M Platform Management Functional Tests (Business Console Focus)</caption>
+  <thead>
+    <tr><th>Module</th><th>Test Case ID</th><th>Test Item</th><th>Test Sub-item</th><th>Test Objective</th><th>Primary Actor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Business Console Administration</td><td>6.1.2.1-A</td><td>Logistics M2M Application Platform Management</td><td>Platform Business Information Maintenance</td><td>Verify editing and saving platform business profile fields</td><td>Console Admin</td></tr>
+    <tr><td>6.1.2.1-B</td><td>Logistics M2M Application Platform Management</td><td>Tenant/Organization Management</td><td>Verify creating, disabling, and searching tenants in the console</td><td>Console Admin</td></tr>
+    <tr><td>6.1.2.1-C</td><td>Logistics M2M Application Platform Management</td><td>Role & Permission Configuration</td><td>Verify RBAC changes take effect for console menus and APIs</td><td>Console Admin</td></tr>
+    <tr><td rowspan="3">Integration Operations</td><td>6.1.2.3-A</td><td>Logistics M2M Application Platform Management</td><td>Application Access Fault Management</td><td>Verify viewing access-fault logs and acknowledging incidents</td><td>Platform Operator</td></tr>
+    <tr><td>6.1.2.3-B</td><td>Logistics M2M Application Platform Management</td><td>API Gateway Whitelist Management</td><td>Verify adding/removing client IPs and observing enforcement</td><td>Platform Operator</td></tr>
+    <tr><td>6.1.2.3-C</td><td>Logistics M2M Application Platform Management</td><td>Callback Endpoint Configuration</td><td>Verify updating callback URLs and testing delivery from console</td><td>Platform Operator</td></tr>
+  </tbody>
+</table>

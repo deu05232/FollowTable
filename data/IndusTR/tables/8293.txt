@@ -1,0 +1,15 @@
+<table>
+  <caption>Audio Codec Conformance Test Streams by Sampling Rate (Core Speech Content)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Case</th><th rowspan="2">Operating Mode</th><th colspan="3">Official Bitstream File Identifier (by Sampling Rate)</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">SC-A</td><td>Low bitrate</td><td>sca_sr32k_br24k_core.avsa</td><td>sca_sr44p1k_br24k_core.avsa</td><td>sca_sr48k_br24k_core.avsa</td></tr>
+    <tr><td>Medium bitrate</td><td>sca_sr32k_br32k_core.avsa</td><td>sca_sr44p1k_br32k_core.avsa</td><td>sca_sr48k_br32k_core.avsa</td></tr>
+    <tr><td rowspan="2">SC-B</td><td>High bitrate</td><td>scb_sr32k_br48k_core.avsa</td><td>scb_sr44p1k_br48k_core.avsa</td><td>scb_sr48k_br48k_core.avsa</td></tr>
+    <tr><td>Very high bitrate</td><td>scb_sr32k_br80k_core.avsa</td><td>scb_sr44p1k_br80k_core.avsa</td><td>scb_sr48k_br80k_core.avsa</td></tr>
+    <tr><td rowspan="2">SC-C</td><td>Music mix stress</td><td>scc_sr32k_br64k_mix.avsa</td><td>scc_sr44p1k_br64k_mix.avsa</td><td>scc_sr48k_br64k_mix.avsa</td></tr>
+    <tr><td>Transient stress</td><td>scc_sr32k_br96k_transient.avsa</td><td>scc_sr44p1k_br96k_transient.avsa</td><td>scc_sr48k_br96k_transient.avsa</td></tr>
+  </tbody>
+</table>

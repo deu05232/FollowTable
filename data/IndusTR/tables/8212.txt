@@ -1,0 +1,16 @@
+<table>
+  <caption>AR HitResultList Query by Index (List management, not collision feedback)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResultList_getSize</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle</td></tr>
+    <tr><td>ArHitResultList_getSize</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Hit result list container</td></tr>
+    <tr><td>ArHitResultList_getSize</td><td>out_size</td><td>int32_t *</td><td>out</td><td>Number of elements in the list</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>List container to index into</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>index</td><td>int32_t</td><td>in</td><td>Zero-based index within the list</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>out_hit_result</td><td>ArHitResult *</td><td>out</td><td>Receives a handle/reference to the hit result at the given index</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>out_status</td><td>ArStatus *</td><td>out</td><td>Status code (e.g., out of range)</td></tr>
+  </tbody>
+</table>

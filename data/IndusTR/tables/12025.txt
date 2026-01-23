@@ -1,0 +1,20 @@
+<table>
+  <caption>AR Session Initialization Call Parameters (Advanced Options and Outputs)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Data Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="3">Core Context Inputs</td></tr>
+    <tr><td>runtime_env</td><td>void *</td><td>Opaque runtime environment handle used by the AR implementation (platform-specific).</td></tr>
+    <tr><td>runtime_context</td><td>void *</td><td>Opaque application context used during session initialization (platform-specific).</td></tr>
+    <tr><td colspan="3">Requested Capabilities</td></tr>
+    <tr><td>feature_set</td><td>const ArSessionFeature *</td><td>Pointer to a list of capabilities requested at session creation time.</td></tr>
+    <tr><td>feature_set_size</td><td>size_t</td><td>Size of thefeature_setarray.</td></tr>
+    <tr><td>camera_config_filter</td><td>const ArCameraConfigFilter *</td><td>Optional filter that constrains camera configs considered valid during initialization.</td></tr>
+    <tr><td>enable_shared_camera</td><td>bool</td><td>Whether the session should be initialized to support shared camera access.</td></tr>
+    <tr><td colspan="3">Outputs</td></tr>
+    <tr><td>out_session_handle</td><td>ArSession **</td><td>Receives the newly initialized session pointer/handle.</td></tr>
+    <tr><td>out_selected_camera_config</td><td>ArCameraConfig *</td><td>Receives the camera configuration chosen during initialization (if applicable).</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>Receives the result code for the initialization call.</td></tr>
+  </tbody>
+</table>

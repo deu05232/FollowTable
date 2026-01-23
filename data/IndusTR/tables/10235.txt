@@ -1,0 +1,15 @@
+<table>
+  <caption>ARCore C API: ArSession_getAllTrackables (List-building Parameters)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>filter_type</td><td>ArTrackableType</td><td>Limits results to a specific trackable type (e.g., plane, point, image)</td></tr>
+    <tr><td>out_trackable_list</td><td>ArTrackableList *</td><td>Receives a list handle containing trackables that match the filter</td></tr>
+    <tr><td>out_list_size</td><td>int32_t *</td><td>Receives the number of elements written to the list</td></tr>
+    <tr><td>max_results</td><td>int32_t</td><td>Maximum number of trackables to add to the output list</td></tr>
+    <tr><td>sort_order</td><td>ArTrackableSortOrder</td><td>Sort criteria for the returned list (e.g., by distance or recency)</td></tr>
+    <tr><td>timeout_ms</td><td>int64_t</td><td>Optional time budget for list population</td></tr>
+  </tbody>
+</table>

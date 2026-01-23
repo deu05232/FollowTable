@@ -1,0 +1,9 @@
+<table>
+  <caption>HMD Positioning Mode Enum</caption>
+  <tr><td>Data Type</td><td>Enum Value</td><td>Description</td></tr>
+  <tr><td rowspan="5">vrSystemShutDownMode</td><td>VR_HMD_POSITIONING_MODE_INSIDE_OUT_LOCALIZATION=0x00</td><td>Inside-out localization</td></tr>
+  <tr><td>VR_HMD_POSITIONING_MODE_INSIDE_OUT_MAPPING=0x01</td><td>Inside-out mapping</td></tr>
+  <tr><td>VR_HMD_POSITIONING_MODE_INSIDE_OUT_SLAM=0x02</td><td>Inside-out SLAM</td></tr>
+  <tr><td>VR_HMD_POSITIONING_MODE_OUTSIDE_IN_DISCO=0x03</td><td>Outside-in acoustic-light positioning</td></tr>
+  <tr><td>0x04~0xFF</td><td>Reserved</td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Numerical parameters of the performed runs. Simulations use periodic boxes with the indicated box size, ‘zoomed’ simulations evolve part of the simulation box at higher resolution. m SPH and m DM denote the particle masses of SPH and (high-resolution) dark matter particles, respectively. ϵ is the comoving gravitational softening length in terms of the equivalent Plummer softening. The gravitational force obeys the exact r - 2 law at r > 2.8 ⁢ ϵ .</caption>
+  <tr><th>Simulation</th><th>Box Size</th><th>Zoom</th><th>N_(SPH)</th><th>m_(SPH)</th><th>m_(DM)</th><th>ε</th></tr>
+  <tr><th>name</th><th>( h^(-1) Mpc)</th><th></th><th></th><th>( 10^(4)h^(-1)M_() )</th><th>( 10^(4)h^(-1)M_() )</th><th>( h^(-1) kpc)</th></tr>
+  <tr><td>reference</td><td>4</td><td>No</td><td>256^(3)</td><td>4.76</td><td>21.7</td><td>0.5</td></tr>
+  <tr><td>high-resolution</td><td>4</td><td>Yes</td><td>256^(3)</td><td>0.596</td><td>2.71</td><td>0.25</td></tr>
+  <tr><td>low-resolution</td><td>8</td><td>No</td><td>256^(3)</td><td>38.1</td><td>174</td><td>1</td></tr>
+  <tr><td>reference-lbox</td><td>8</td><td>Yes</td><td>256^(3)</td><td>4.76</td><td>21.7</td><td>0.5</td></tr>
+</table>

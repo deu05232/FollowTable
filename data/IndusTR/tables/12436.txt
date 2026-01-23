@@ -1,0 +1,8 @@
+<table>
+  <caption>VR positioning interfaces: pose and motion query functions</caption>
+  <tr><th>Interface Description</th><th>Interface Name</th></tr>
+  <tr><td>Start device tracking</td><td>bool vrDeviceStartTracking(const vrPositionableDevice *device)</td></tr>
+  <tr><td>Stop device tracking</td><td>bool vrDeviceStopTracking(const vrPositionableDevice *device)</td></tr>
+  <tr><td>Get latest pose</td><td>bool vrDeviceGetLatestPose(const vrPositionableDevice *device, vrPose *pose)</td></tr>
+  <tr><td>Get motion data</td><td>bool vrDeviceGetMotionData(const vrPositionableDevice *device, vrMotionData *motion)</td></tr>
+</table>

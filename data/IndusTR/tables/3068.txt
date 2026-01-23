@@ -1,0 +1,10 @@
+<table>
+  <caption>Railway Traffic Safety Early Warning Data Dictionary (Excerpt)</caption>
+  <tr><th>No.</th><th>Data Element</th><th>Type</th><th>Length</th><th>Nullable</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>1</td><td>Track Intrusion Level</td><td>String</td><td>2</td><td>No</td><td>N/A</td><td>Intrusion category code for rail corridor</td></tr>
+  <tr><td>2</td><td>Signal Aspect</td><td>String</td><td>1</td><td>No</td><td>N/A</td><td>Signal state (R/Y/G)</td></tr>
+  <tr><td>3</td><td>Train Number</td><td>String</td><td>12</td><td>No</td><td>N/A</td><td>Unique train identifier</td></tr>
+  <tr><td>4</td><td>KM Marker</td><td>Decimal</td><td>8,3</td><td>Yes</td><td>km</td><td>Rail mileage position</td></tr>
+  <tr><td>5</td><td>Dispatch Center ID</td><td>String</td><td>10</td><td>Yes</td><td>N/A</td><td>Rail dispatch organizational code</td></tr>
+  <tr><td>6</td><td>Wheel Temperature</td><td>Decimal</td><td>6,1</td><td>Yes</td><td>°C</td><td>Hotbox detector reading</td></tr>
+</table>

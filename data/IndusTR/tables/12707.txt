@@ -1,0 +1,15 @@
+<table>
+  <caption>Inspection Rules for Synthesized Frequency Sources — Visual/Mechanical Checks (Setup Conditions and Acceptance Requirements)</caption>
+  <thead>
+    <tr><th>Check Category</th><th>Inspection Item</th><th>Inspection Setup / Conditions</th><th>Method / Reference</th><th>Post-Check Requirement (Acceptance Criteria)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Visual</td><td>External visual condition</td><td>Ambient: 23 ± 5 °C; illumination ≥ 1000 lx; 1×–3× magnification</td><td>Visual exam per internal WI-VIS-01</td><td>No cracks, chips, corrosion, or contamination; finish uniform; no exposed base metal</td></tr>
+    <tr><td>Marking / label legibility</td><td>Same as above; inspect from 300–400 mm distance</td><td>Marking verification per WI-MRK-02</td><td>Model code, lot/date code, and polarity/orientation marks complete and readable; no smearing</td></tr>
+    <tr><td>Package integrity and sealing</td><td>Room temperature; inspect seal line and lid/body joint</td><td>Mechanical inspection per WI-PKG-03</td><td>No seal voids or delamination; no visible gaps; lid not loose</td></tr>
+    <tr><td>Lead/pad coplanarity & lead finish</td><td>Gauge surface plate; max warpage fixture; 23 ± 5 °C</td><td>Dimensional check per WI-DIM-04</td><td>Coplanarity within drawing limit; finish meets solderable surface condition (no black oxide)</td></tr>
+    <tr><td rowspan="3">Mechanical</td><td>Dimensions (outline, standoff, lead pitch)</td><td>Calibrated caliper/microscope; 23 ± 5 °C</td><td>Drawing-controlled measurement plan</td><td>All measured dimensions within specified tolerances; no out-of-tolerance features</td></tr>
+    <tr><td>Terminal strength (lead pull / shear)</td><td>Pull rate 10 mm/min; apply load at terminal midpoint</td><td>Mechanical strength method (company spec MS-TS-05)</td><td>No terminal separation; no package cracking; electrical continuity maintained after test</td></tr>
+    <tr><td>Solderability (wetting)</td><td>Flux per spec; solder bath 245 ± 5 °C; immersion 2–5 s</td><td>Solderability method aligned to IEC 60068-2-20</td><td>Wetting coverage meets requirement; no dewetting or non-wetting beyond allowed limit</td></tr>
+  </tbody>
+</table>

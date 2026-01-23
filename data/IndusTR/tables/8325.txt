@@ -1,0 +1,7 @@
+<table>
+  <caption>Context-model selection items for conformance bitstreams (CABAC-related)</caption>
+  <tr><th>Item</th><th>What the column is describing</th></tr>
+  <tr><td>ctx for split_flag</td><td>Pick the context model based on slice type and neighboring availability, and record which ctxIdx is used.</td></tr>
+  <tr><td>ctx for cu_type_index</td><td>Derive the ctxIdx from the previous decoded CU state; note the mapping rules for ctx selection.</td></tr>
+  <tr><td>ctx for transform_split_flag</td><td>Determine the context category from block size and intra/inter condition; list the ctx derivation logic rather than coverage ranges.</td></tr>
+</table>

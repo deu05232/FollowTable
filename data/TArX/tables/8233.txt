@@ -1,0 +1,16 @@
+<table>
+  <caption>Derived Surface and Rotation Metrics for Delta Scorpii and the Sun</caption>
+  <thead>
+    <tr><th>Metric</th><th>Formula / Method</th><th>Delta Scorpii A (approx.)</th><th>Sun</th><th>Unit / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Surface gravity (g)</td><td>g = GM/R²</td><td>~7.8×10^3</td><td>2.74×10^4</td><td>cm/s²</td></tr>
+    <tr><td>Surface gravity (log g)</td><td>log10(g)</td><td>~3.89</td><td>4.44</td><td>cgs</td></tr>
+    <tr><td>Escape velocity</td><td>v_esc = √(2GM/R)</td><td>~870</td><td>618</td><td>km/s</td></tr>
+    <tr><td>Critical (break-up) velocity</td><td>v_crit ≈ √(GM/R)</td><td>~615</td><td>437</td><td>km/s (simple estimate)</td></tr>
+    <tr><td>Rotation speed fraction</td><td>v_eq / v_crit</td><td>~1.01</td><td>~0.005</td><td>Dimensionless; indicates very rapid rotation for Delta Sco</td></tr>
+    <tr><td>Equatorial rotation period</td><td>P ≈ 2πR / v_eq</td><td>~0.57</td><td>~25</td><td>days</td></tr>
+    <tr><td>Mean density</td><td>ρ = 3M/(4πR³)</td><td>~0.057</td><td>1.41</td><td>g/cm³</td></tr>
+    <tr><td>Blackbody peak wavelength</td><td>λ_max = 2.897×10^6 / T</td><td>~107</td><td>~502</td><td>nm (Wien’s law)</td></tr>
+  </tbody>
+</table>

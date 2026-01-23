@@ -1,0 +1,14 @@
+<table>
+  <caption>Measured Speed of Light (c) and Instrument Performance Metrics in Optical Time-of-Flight Systems</caption>
+  <thead>
+    <tr><th>Test ID</th><th>Medium</th><th>Stated c / Propagation Speed</th><th>Unit</th><th>Measurement Uncertainty</th><th>Detector Quantum Efficiency</th><th>Optical Coupling Efficiency</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TOF-01</td><td>Vacuum</td><td>2.99792458 × 108</td><td>m/s</td><td>± 0 (defined)</td><td>0.28</td><td>0.62</td><td>Reference run</td></tr>
+    <tr><td>TOF-02</td><td>Air (1 atm)</td><td>2.9970 × 108</td><td>m/s</td><td>± 1.5 × 104</td><td>0.31</td><td>0.58</td><td>Includes refractive index effects</td></tr>
+    <tr><td>TOF-03</td><td>Optical fiber</td><td>2.04 × 108</td><td>m/s</td><td>± 3.0 × 106</td><td>0.24</td><td>0.71</td><td>Group velocity in fiber</td></tr>
+    <tr><td>TOF-04</td><td>Vacuum</td><td>2.9979246 × 108</td><td>m/s</td><td>± 2.0 × 102</td><td>0.30</td><td>0.66</td><td>Different timing module</td></tr>
+    <tr><td>TOF-05</td><td>Air (dry)</td><td>2.9971 × 108</td><td>m/s</td><td>± 8.0 × 103</td><td>0.33</td><td>0.60</td><td>Temperature stabilized</td></tr>
+    <tr><td>TOF-06</td><td>Vacuum</td><td>2.99792458 × 108</td><td>m/s</td><td>± 5.0 × 101</td><td>0.27</td><td>0.73</td><td>Improved photon counting</td></tr>
+  </tbody>
+</table>

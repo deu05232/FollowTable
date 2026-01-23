@@ -1,0 +1,16 @@
+<table>
+  <caption>Instant Messaging Interface Parameters - Notification + Delivery/Read Receipts + Subscription</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter</th><th>Data Type / Format</th><th>Required</th><th>Max Occurs</th><th>Allowed Values / Constraints</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Notification Request</td><td>interfaceOperation</td><td>String (C..64)</td><td>M</td><td>1</td><td>NOTIFY | DELIVERED | READ</td><td>Operation name; reused across flows</td></tr>
+    <tr><td>Notification Request</td><td>initiatorNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Initiator identifier</td></tr>
+    <tr><td>Notification Request</td><td>recipientNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Recipient identifier</td></tr>
+    <tr><td>Receipt Request</td><td>messageID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Message identifier for delivery/read receipts</td></tr>
+    <tr><td>Receipt Request</td><td>receiptType</td><td>Enum</td><td>M</td><td>1</td><td>DELIVERED | READ</td><td>Type of receipt request</td></tr>
+    <tr><td>Subscription Request</td><td>subscriberID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Non-empty if present</td><td>Subscriber identifier (not part of notification-only request)</td></tr>
+    <tr><td>Subscription Request</td><td>subscribedToID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Non-empty if present</td><td>Subscribed-to identifier (not part of notification-only request)</td></tr>
+    <tr><td>User Condition</td><td>userConditions</td><td>String (C..256)</td><td>O</td><td>1</td><td>Free text</td><td>Eligibility constraints (non-notification)</td></tr>
+  </tbody>
+</table>

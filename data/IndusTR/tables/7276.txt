@@ -1,0 +1,10 @@
+<table>
+  <caption>Indication error limits for harmonic voltage/current parameters (not energy)</caption>
+  <tr><th>Parameter</th><th>Range</th><th>Indication error</th><th>Reference</th></tr>
+  <tr><td>Harmonic voltage</td><td>Up to Umax</td><td>±0.10 %</td><td>relative to U1</td></tr>
+  <tr><td>Harmonic current</td><td>10 mA ≤ I < 50 mA</td><td>±0.20 %</td><td>relative to I1</td></tr>
+  <tr><td>Harmonic current</td><td>50 mA ≤ I ≤ Imax</td><td>±0.10 %</td><td>relative to I1</td></tr>
+  <tr><td>Phase angle (harmonic)</td><td>0° to 360°</td><td>±0.20°</td><td>absolute</td></tr>
+  <tr><td>Frequency (harmonic analysis)</td><td>40 Hz to 70 Hz</td><td>±0.01 Hz</td><td>absolute</td></tr>
+  <tr><td>THD (voltage)</td><td>0 % to 40 %</td><td>±0.50 %</td><td>absolute</td></tr>
+</table>

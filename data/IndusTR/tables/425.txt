@@ -1,0 +1,11 @@
+<table>
+  <caption>DECRYPTDATA Command Message Structure</caption>
+  <tr><td>Code</td><td>Value (HEX Encoding)</td></tr>
+  <tr><td>CLA</td><td>80</td></tr>
+  <tr><td>INS</td><td>C6</td></tr>
+  <tr><td>P1</td><td>Bit 7: 1 indicates end frame mode; 0 indicates intermediate frame mode. When bit 7 is 0, bits 6 to 0 are the frame sequence number, starting from 0x01 within the range 0x01 to Ox7F, incrementing in order and supporting cyclic counting</td></tr>
+  <tr><td>P2</td><td>Message Type: 01: Unicast 02: Broadcast 03: Multicast 04: Simulcast-Receive Unicast</td></tr>
+  <tr><td>Lc</td><td>Length of Data to Be Decrypted</td></tr>
+  <tr><td>DATA</td><td>Data to Be Decrypted</td></tr>
+  <tr><td>Le</td><td>Not Present</td></tr>
+</table>

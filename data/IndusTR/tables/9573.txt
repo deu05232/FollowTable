@@ -1,0 +1,14 @@
+<table>
+  <caption>E-commerce Development Index (EDI) Indicator Catalog with Measurement Notes</caption>
+  <thead>
+    <tr><th>Domain</th><th>Indicator Code</th><th>Indicator Topic</th><th>What It Captures</th><th>Main Data Source / Collection Method</th><th>Scoring & Verification Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Digital Infrastructure</td><td>A1.1</td><td>Internet Coverage and Penetration</td><td>Extent of population access to broadband/mobile Internet enabling online shopping and services.</td><td>Telecom regulator statistics; ISP coverage reports; household connectivity survey.</td><td>Normalize by population; verify with random field audits in low-coverage districts.</td></tr>
+    <tr><td>Digital Infrastructure</td><td>A1.2</td><td>Cloud & Data Center Capacity</td><td>Regional capability to store/process e-commerce data and support platform scalability.</td><td>IDC/Cloud provider administrative data; enterprise filings; on-site inspection.</td><td>Weighted by compute capacity and utilization; expert panel reviews anomalies.</td></tr>
+    <tr><td>Finance & Payments</td><td>A1.3</td><td>Digital Payment Adoption</td><td>Availability and usage intensity of e-payments and financing tools for merchants.</td><td>Central bank payment reports; fintech transaction records; merchant survey.</td><td>Exclude duplicated transactions; adjust for seasonal spikes using moving average.</td></tr>
+    <tr><td>Logistics</td><td>A2.1</td><td>Logistics Facility Density</td><td>Coverage and modernization of warehouses, sorting hubs, and last-mile nodes.</td><td>Postal authority data; logistics association registry; GPS-based route sampling.</td><td>Score combines facility count per km² and automation rate; spot-check facilities.</td></tr>
+    <tr><td>Market Environment</td><td>A3.2</td><td>IP Protection Enforcement</td><td>Effectiveness of actions against counterfeit and infringement in e-commerce.</td><td>IP office case database; platform takedown logs; expert scoring of landmark cases.</td><td>Penalty severity index and resolution time are both used; manual review for outliers.</td></tr>
+    <tr><td>Innovation</td><td>C2.2</td><td>New Retail Format Maturity</td><td>Degree of online-offline integration and intelligent supply chain adoption.</td><td>Commerce bureau reports; retailer POS integration survey; site visits.</td><td>Rubric-based scoring (0–5) by trained assessors; inter-rater reliability check.</td></tr>
+  </tbody>
+</table>

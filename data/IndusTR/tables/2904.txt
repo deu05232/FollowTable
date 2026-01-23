@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Process Parameters for Battery Pack Module Assembly</caption>
+  <thead>
+    <tr><th>Process Step</th><th>Equipment</th><th>Key Parameter</th><th>Target Value</th><th>Tolerance</th><th>Quality Check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cell sorting</td><td>OCV/IR sorter</td><td>OCV window</td><td>3.600–3.650 V</td><td>±0.010 V</td><td>Auto binning log</td></tr>
+    <tr><td>Busbar welding</td><td>Laser welder</td><td>Pulse energy</td><td>18 J</td><td>±2 J</td><td>Pull test sampling</td></tr>
+    <tr><td>Adhesive dispensing</td><td>Meter-mix system</td><td>Mix ratio</td><td>2:1</td><td>±3%</td><td>Viscosity check</td></tr>
+    <tr><td>Pack fastening</td><td>Electric torque tool</td><td>Torque</td><td>12 N·m</td><td>±1 N·m</td><td>Torque traceability</td></tr>
+    <tr><td>Leak check</td><td>Pressure decay rig</td><td>Test pressure</td><td>25 kPa</td><td>±2 kPa</td><td>Pass/Fail only</td></tr>
+    <tr><td>End-of-line (EOL)</td><td>EOL tester</td><td>Insulation resistance</td><td>> 100 MΩ</td><td>-</td><td>Record per serial</td></tr>
+  </tbody>
+</table>

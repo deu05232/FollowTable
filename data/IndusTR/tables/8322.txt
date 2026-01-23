@@ -1,0 +1,7 @@
+<table>
+  <caption>CABAC context-category mapping for selected syntax elements (for conformance documentation)</caption>
+  <tr><th>Syntax item</th><th>Context-category mapping</th></tr>
+  <tr><td>sao_mode</td><td>Maps each decoded condition to a context category identifier; focuses on which category is chosen under each condition.</td></tr>
+  <tr><td>shape_of_partition_index</td><td>Gives the rule to compute the context category from neighboring partitions; does not enumerate traversal ranges.</td></tr>
+  <tr><td>last_cg_pos</td><td>Explains which context set applies depending on chroma/luma and scan position; emphasizes category selection.</td></tr>
+</table>

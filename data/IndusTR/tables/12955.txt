@@ -1,0 +1,15 @@
+<table>
+  <caption>Customer Admin Portal Test Cases - Application System Management Coverage</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Actor Role</th><th>Test Item</th><th>Test Sub-item</th><th>Objective</th><th>Test Data</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ASM-CUST-01</td><td>Customer Admin</td><td>Customer Self-service Interface Functions</td><td>Application System Management</td><td>Verify creating a new application system in the portal</td><td>App Name: DemoApp; Callback URL set</td><td>Application system is created; system ID generated</td></tr>
+    <tr><td>ASM-CUST-02</td><td>Customer Admin</td><td>Customer Self-service Interface Functions</td><td>Application System Management</td><td>Verify editing application system metadata (name, description, endpoints)</td><td>Existing system DemoApp</td><td>Changes persist and are displayed in details view</td></tr>
+    <tr><td>ASM-CUST-03</td><td>Customer Admin</td><td>Customer Self-service Interface Functions</td><td>Application System Management</td><td>Verify rotating application credentials via the portal</td><td>Existing credentials</td><td>New credentials are issued; old credentials are revoked per policy</td></tr>
+    <tr><td>ASM-CUST-04</td><td>Customer Admin</td><td>Customer Self-service Interface Functions</td><td>Application System Management</td><td>Verify configuring IP allowlist for an application system</td><td>Allowlist: 10.0.0.0/24</td><td>Requests outside allowlist are denied; settings saved</td></tr>
+    <tr><td>ASM-CUST-05</td><td>Customer Admin</td><td>Customer Self-service Interface Functions</td><td>Application System Management</td><td>Verify deleting an application system and handling dependencies</td><td>System has 0 active bindings</td><td>System is deleted; list updates; audit log recorded</td></tr>
+    <tr><td>ASM-CUST-06</td><td>Customer Admin</td><td>Customer Self-service Interface Functions</td><td>Application System Management</td><td>Verify role-based access: operator cannot change application security settings</td><td>Operator role without security permission</td><td>Security settings are read-only or rejected with authorization error</td></tr>
+    <tr><td>ASM-CUST-07</td><td>Customer Admin</td><td>Customer Self-service Interface Functions</td><td>Application System Management</td><td>Verify application system list pagination, search, and export</td><td>More than 50 systems</td><td>Pagination/search work; export file matches filtered results</td></tr>
+  </tbody>
+</table>

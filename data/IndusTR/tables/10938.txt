@@ -1,0 +1,16 @@
+<table>
+  <caption>IR Debugging and Dump Interfaces for Framework-Compiler Integration</caption>
+  <thead>
+    <tr><th>Category</th><th>Interface Name</th><th>API</th><th>When Used</th><th>Input</th><th>Output</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Import diagnostics</td><td>Dump Imported IR</td><td>dump_imported_ir</td><td>Immediately after graph import</td><td>High-level IR module</td><td>Textual IR file</td><td>No</td></tr>
+    <tr><td>Validate IR Well-Formedness</td><td>verify_ir_module</td><td>After each transform</td><td>Any IR module</td><td>Verification report</td><td>Yes</td></tr>
+    <tr><td rowspan="2">Pass tracing</td><td>Enable Pass Trace</td><td>enable_pass_trace</td><td>Before compilation</td><td>Compiler options</td><td>Trace session handle</td><td>No</td></tr>
+    <tr><td>Record Pass Statistics</td><td>collect_pass_stats</td><td>During pipeline</td><td>Pass trace handle</td><td>JSON stats (time, IR size)</td><td>No</td></tr>
+    <tr><td rowspan="2">Lowering inspection</td><td>Dump Low-level IR</td><td>dump_llir</td><td>After HLIR-to-LLIR</td><td>Low-level IR</td><td>LLIR dump</td><td>No</td></tr>
+    <tr><td>Dump Machine IR</td><td>dump_mir</td><td>Before binary emission</td><td>Machine IR</td><td>MIR dump</td><td>No</td></tr>
+    <tr><td rowspan="2">Reproducibility</td><td>Serialize IR for Repro</td><td>serialize_ir_for_repro</td><td>On compilation failure</td><td>All IR levels</td><td>Repro bundle</td><td>No</td></tr>
+    <tr><td>Replay IR Pipeline</td><td>replay_ir_pipeline</td><td>Offline debugging</td><td>Repro bundle</td><td>Re-executed pass logs</td><td>No</td></tr>
+  </tbody>
+</table>

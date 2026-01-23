@@ -1,0 +1,15 @@
+<table>
+  <caption>Power Distributor Output Verification (Pre-Release) — Port-Level Voltage/Current Readings</caption>
+  <thead>
+    <tr><th>Output Port</th><th>Nominal Voltage (V)</th><th>Measured Voltage (V)</th><th>Expected Load Current (A)</th><th>Measured Current (A)</th><th>Voltage Ripple (mVpp)</th><th>Status</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>X1</td><td>28.0</td><td>27.9</td><td>1.50</td><td>1.46</td><td>42</td><td>PASS</td><td>Payload avionics rail</td></tr>
+    <tr><td>X2</td><td>28.0</td><td>28.1</td><td>0.80</td><td>0.83</td><td>38</td><td>PASS</td><td>Telemetry modem</td></tr>
+    <tr><td>X3</td><td>12.0</td><td>12.1</td><td>0.60</td><td>0.59</td><td>26</td><td>PASS</td><td>GPS receiver</td></tr>
+    <tr><td>X4</td><td>12.0</td><td>11.9</td><td>1.20</td><td>1.18</td><td>29</td><td>PASS</td><td>Attitude sensor suite</td></tr>
+    <tr><td>X5</td><td>5.0</td><td>5.02</td><td>1.00</td><td>0.97</td><td>18</td><td>PASS</td><td>Controller logic</td></tr>
+    <tr><td>X6</td><td>5.0</td><td>4.95</td><td>0.50</td><td>0.48</td><td>21</td><td>PASS</td><td>Auxiliary USB hub</td></tr>
+    <tr><td>X7</td><td>3.3</td><td>3.31</td><td>0.25</td><td>0.24</td><td>12</td><td>PASS</td><td>Sensor reference rail</td></tr>
+  </tbody>
+</table>

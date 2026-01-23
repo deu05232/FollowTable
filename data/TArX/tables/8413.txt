@@ -1,0 +1,16 @@
+<table>
+  <caption>Visible Spectrum (Rainbow) with Telescope Filter Passbands and Selection Notes (SDSS ugriz / HST)</caption>
+  <thead>
+    <tr><th rowspan="2">Rainbow segment</th><th colspan="2">Approx. spectral range</th><th colspan="2">Common astronomy filters overlapping this segment</th><th rowspan="2">Typical use / selection criterion</th></tr>
+    <tr><th>Wavelength (nm)</th><th>Frequency (THz)</th><th>Filter name</th><th>Effective wavelength (nm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Violet</td><td>380–450</td><td>789–667</td><td>SDSS u</td><td>355</td><td>Near-UV dropouts; sensitive to atmospheric cutoff</td></tr>
+    <tr><td>Blue</td><td>450–495</td><td>667–606</td><td>SDSS g</td><td>477</td><td>Used in g−r colour selection for galaxies</td></tr>
+    <tr><td>Green</td><td>495–570</td><td>606–526</td><td>Johnson V</td><td>551</td><td>Baseline band for B−V</td></tr>
+    <tr><td>Yellow</td><td>570–590</td><td>526–508</td><td>HST F606W</td><td>592</td><td>Broad passband; not a monochromatic color</td></tr>
+    <tr><td>Orange</td><td>590–620</td><td>508–484</td><td>SDSS r</td><td>623</td><td>Often paired with g for stellar locus cuts</td></tr>
+    <tr><td>Red</td><td>620–750</td><td>484–400</td><td>SDSS i</td><td>763</td><td>High-z selection uses r−i thresholds</td></tr>
+    <tr><td>Deep red edge</td><td>700–750</td><td>428–400</td><td>SDSS z</td><td>905</td><td>Moves into NIR; detector QE dependent</td></tr>
+  </tbody>
+</table>

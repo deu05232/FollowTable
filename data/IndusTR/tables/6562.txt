@@ -1,0 +1,16 @@
+<table>
+  <caption>User Terminal I/O Statement Parameters — Outbound Short Message Transmission (Extended)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter</th><th>Allowed Range / Format</th><th>Unit</th><th>Description / Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Sender ID</td><td>1–16,777,215</td><td></td><td>Originating user address on the intranet. Use the terminal’s assigned user ID; do not use 0.</td></tr>
+    <tr><td>Header</td><td>Recipient ID</td><td>1–16,777,215</td><td></td><td>Destination intranet user address. The message will be routed to this recipient ID.</td></tr>
+    <tr><td>Service</td><td>Service Type / Emergency Flag</td><td>1–2</td><td></td><td>1: Emergency SAR message (higher priority handling); 2: RNSS/position-related report message (normal priority).</td></tr>
+    <tr><td>RF</td><td>Frequency Point</td><td>0–2</td><td></td><td>0: Automatic selection by terminal; 1: Lf1 fixed frequency; 2: Lf2 fixed frequency.</td></tr>
+    <tr><td>Timing</td><td>Output Rate</td><td>10–3600</td><td>0.1 s</td><td>Transmission/statement output period. Example: 300 means every 30 seconds. Smaller values increase output frequency.</td></tr>
+    <tr><td>Beam</td><td>Outbound Beam ID</td><td>0–64</td><td></td><td>0: Do not output/disable beam selection output; 1–63: Specify a single outbound beam; 64: Use all visible beams (broadcast over all available beams).</td></tr>
+    <tr><td>Payload</td><td>Message Length</td><td>1–210</td><td>bytes</td><td>Number of bytes in the short message payload. Must match the actual encoded payload length.</td></tr>
+    <tr><td>Payload</td><td>Message Encoding</td><td>0–2</td><td></td><td>0: ASCII/7-bit compatible text; 1: UTF-8 text; 2: Binary (no character interpretation; payload treated as raw bytes).</td></tr>
+  </tbody>
+</table>

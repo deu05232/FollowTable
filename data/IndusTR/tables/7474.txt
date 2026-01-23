@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitary Equipment Data Element Value Domain Codes (Fixture Type)</caption>
+  <thead>
+    <tr><th>Domain code</th><th>Meaning</th><th>Status / remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WC</td><td>Water closet (toilet)</td><td>Primary fixture type; use for bowl + cistern assemblies</td></tr>
+    <tr><td>UR</td><td>Urinal</td><td>Applies to wall-hung or floor-mounted unless otherwise specified</td></tr>
+    <tr><td>LAV</td><td>Lavatory basin</td><td>Typically bathroom sink; not for kitchen sinks</td></tr>
+    <tr><td>KS</td><td>Kitchen sink</td><td>Use when fixture is intended for food-prep areas</td></tr>
+    <tr><td>SHR</td><td>Shower receptor / shower base</td><td>Use for pans/trays; not for shower heads</td></tr>
+    <tr><td>TUB</td><td>Bathtub</td><td>Includes soaking tub variants unless coded separately</td></tr>
+    <tr><td>BD</td><td>Bidet</td><td>If combined bidet-toilet, prefer WC and note combination in remarks</td></tr>
+    <tr><td>FD</td><td>Floor drain</td><td>Drainage fixture; not a plumbing fitting</td></tr>
+  </tbody>
+</table>

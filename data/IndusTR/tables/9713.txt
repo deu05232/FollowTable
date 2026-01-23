@@ -1,0 +1,17 @@
+<table>
+  <caption>Generic Equations Layout for BE, PE, and ER in MSW Incineration (No Waste-Type Breakdown)</caption>
+  <thead>
+    <tr><th>Step</th><th>Quantity</th><th>Symbol</th><th>Formula Layout</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Baseline landfill emissions displaced</td><td>BE_MSW</td><td>BE_MSW = Σt (Qwaste,t × EF_landfill,t)</td><td>EF may be derived from DOC, decay constants, oxidation factor</td></tr>
+    <tr><td>2</td><td>Baseline electricity displacement</td><td>BE_EG</td><td>BE_EG = EG_export × EF_grid</td><td>Applies if electricity is exported</td></tr>
+    <tr><td>3</td><td>Baseline heat displacement</td><td>BE_HG</td><td>BE_HG = HG_export × EF_heat</td><td>Applies if useful heat is exported</td></tr>
+    <tr><td>4</td><td>Total baseline emissions</td><td>BE</td><td>BE = BE_MSW + BE_EG + BE_HG</td><td>Aggregated baseline</td></tr>
+    <tr><td>5</td><td>Project electricity consumption emissions</td><td>PE_EC</td><td>PE_EC = EC_import × EF_grid</td><td>Electricity used by incinerator</td></tr>
+    <tr><td>6</td><td>Project fossil fuel combustion emissions</td><td>PE_FC</td><td>PE_FC = Σi (Fuel_i × NCV_i × EF_i)</td><td>Auxiliary fuels</td></tr>
+    <tr><td>7</td><td>Project direct incineration CO2</td><td>PE_COM,CO2</td><td>PE_COM,CO2 = Qwaste × (FossilCarbonFrac) × Oxidation × 44/12</td><td>Uses bulk fractions only</td></tr>
+    <tr><td>8</td><td>Total project emissions</td><td>PE</td><td>PE = PE_EC + PE_FC + PE_COM,CO2 + PE_nonCO2</td><td>Non-CO2 includes CH4, N2O</td></tr>
+    <tr><td>9</td><td>Emission reductions</td><td>ER</td><td>ER = BE − PE</td><td>Net reductions</td></tr>
+  </tbody>
+</table>

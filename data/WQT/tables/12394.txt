@@ -1,0 +1,13 @@
+# Microsoft 365 DNS Record Template for Mail Domains (Generic Example Values)
+
+| Purpose | Record Type | Host/Name | Value/Target | TTL | Applies To |
+| --- | --- | --- | --- | --- | --- |
+| Inbound mail routing | MX | @ | contoso-com.mail.protection.outlook.com | 3600 | Microsoft 365 |
+| SPF | TXT | @ | v=spf1 include:spf.protection.outlook.com -all | 3600 | Microsoft 365 |
+| Autodiscover | CNAME | autodiscover | autodiscover.outlook.com | 3600 | Microsoft 365 |
+| Teams/Skype federation | SRV | _sipfederationtls._tcp | 100 1 5061 sipfed.online.lync.com | 3600 | Microsoft 365 |
+| Teams/Skype sign-in | SRV | _sip._tls | 100 1 443 sipdir.online.lync.com | 3600 | Microsoft 365 |
+| MDM enrollment | CNAME | enterpriseenrollment | enterpriseenrollment.manage.microsoft.com | 3600 | Microsoft 365 |
+| MDM discovery | CNAME | enterpriseregistration | enterpriseregistration.windows.net | 3600 | Microsoft 365 |
+| DKIM selector 1 | CNAME | selector1._domainkey | selector1-contoso._domainkey.example.onmicrosoft.com | 3600 | Microsoft 365 |
+| DKIM selector 2 | CNAME | selector2._domainkey | selector2-contoso._domainkey.example.onmicrosoft.com | 3600 | Microsoft 365 |

@@ -1,0 +1,16 @@
+<table>
+  <caption>Interface energy and spin-mixing conductance for Ag|Co and Cu|Co interfaces under different terminations (anisotropy energy not included).</caption>
+  <thead>
+    <tr><th rowspan="2">Interface</th><th rowspan="2">Co orientation</th><th rowspan="2">Termination / condition</th><th colspan="2">Interface energy</th><th colspan="2">Spin-mixing conductance</th><th rowspan="2">Reference model parameter</th></tr>
+    <tr><th>EINM(eV per 1×1 cell)</th><th>EIFM(eV per 1×1 cell)</th><th>Re(G↑↓) (1014Ω-1m-2)</th><th>Im(G↑↓) (1014Ω-1m-2)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cu|Co</td><td>(001)</td><td>ideal</td><td>0.120</td><td>0.095</td><td>2.85</td><td>0.28</td><td>DFT-GGA</td></tr>
+    <tr><td>Cu|Co</td><td>(001)</td><td>1 ML intermixing</td><td>0.098</td><td>0.082</td><td>2.62</td><td>0.31</td><td>DFT-GGA</td></tr>
+    <tr><td>Cu|Co</td><td>(111)</td><td>ideal</td><td>0.110</td><td>0.090</td><td>2.47</td><td>0.26</td><td>DFT-GGA</td></tr>
+    <tr><td>Ag|Co</td><td>(001)</td><td>ideal</td><td>0.075</td><td>0.061</td><td>3.10</td><td>0.30</td><td>GGA+C (Eg=0.65 eV)</td></tr>
+    <tr><td>Ag|Co</td><td>(001)</td><td>disordered (spin flips)</td><td>0.081</td><td>0.064</td><td>3.22</td><td>0.38</td><td>GGA+C (Eg=0.65 eV)</td></tr>
+    <tr><td>Ag|Co</td><td>(111)</td><td>ideal</td><td>0.070</td><td>0.058</td><td>2.95</td><td>0.27</td><td>GGA+C (Eg=0.95 eV)</td></tr>
+    <tr><td>Ag|Co</td><td>(111)</td><td>oxidized</td><td>0.130</td><td>0.102</td><td>1.90</td><td>0.15</td><td>GGA+C (Eg=1.40 eV)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Parameters for Adding a Single Reference to an Information Container</caption>
+  <tr><th>Parameter Name</th><th>Chinese Name</th><th>Data Type</th><th>Required</th><th>Remarks</th></tr>
+  <tr><td>projectId</td><td>Project Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the project</td></tr>
+  <tr><td>containerId</td><td>Container Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the container</td></tr>
+  <tr><td>ref</td><td>Reference</td><td>ref</td><td>Yes</td><td>Reference object; its structure follows the ref definition table</td></tr>
+  <tr><td>refType</td><td>Reference Type</td><td>string</td><td>No</td><td>Logical type of the reference (e.g., dependency, include)</td></tr>
+  <tr><td>overwrite</td><td>Overwrite Existing</td><td>boolean</td><td>No</td><td>Whether to overwrite an existing identical reference</td></tr>
+  <tr><td>comment</td><td>Comment</td><td>string</td><td>No</td><td>Optional note describing why the reference is added</td></tr>
+</table>

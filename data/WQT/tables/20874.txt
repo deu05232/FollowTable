@@ -1,0 +1,12 @@
+# Administrative Distance vs. Route Source Priority (Mixed Sources)
+
+| Priority Rank (Lower Wins) | Route Source / Protocol | Default Administrative Distance | Included in Protocol Comparison? |
+|---:|---|---:|---|
+| 1 | Connected | 0 | No (not a routing protocol) |
+| 2 | Static | 1 | No (not a routing protocol) |
+| 3 | EIGRP summary | 5 | No (special case) |
+| 4 | eBGP | 20 | Yes |
+| 5 | OSPF | 110 | Yes |
+| 6 | IS-IS | 115 | Yes |
+| 7 | RIP | 120 | Yes |
+| 8 | iBGP | 200 | Partially (subtype) |

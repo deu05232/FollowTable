@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental Test Conditions Matrix for Variable-Frequency Speed Regulation Equipment (Operational & Non-operational)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Referenced standard / method</th><th>Power connection state</th><th>Temperature limit</th><th>Humidity limit</th><th>Accuracy / tolerance</th><th>Exposure duration</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Low temperature storage (cold)</td><td>GB/T 2423.1 (Test Ad)</td><td>Power disconnected</td><td>-25 °C (or manufacturer minimum, whichever is lower)</td><td>Not specified</td><td>±2 °C</td><td>(16 ± 1) h</td><td>Non-operating, no functional load</td></tr>
+    <tr><td>Low temperature operation (cold)</td><td>GB/T 2423.1 (Test Ad)</td><td>Power connected</td><td>5 °C (or manufacturer minimum, whichever is lower)</td><td>Not specified</td><td>±3 °C</td><td>2 h (stabilized)</td><td>Operate at rated frequency setting</td></tr>
+    <tr><td>High temperature storage (dry heat)</td><td>GB/T 2423.2 (Test Bd)</td><td>Power disconnected</td><td>55 °C (or manufacturer maximum, whichever is higher)</td><td>Absolute humidity ≤ 20 g/m³ (at 55 °C, RH ≤ 20%)</td><td>±2 °C</td><td>(16 ± 1) h</td><td>Humidity constraint per absolute humidity limit</td></tr>
+    <tr><td>High temperature operation (dry heat)</td><td>GB/T 2423.2 (Test Bd)</td><td>Power connected</td><td>40 °C (or manufacturer maximum, whichever is higher)</td><td>Not specified</td><td>±2 °C</td><td>4 h</td><td>Operate under rated load</td></tr>
+    <tr><td>Damp heat, steady state</td><td>GB/T 2423.4 (Test Db)</td><td>Power disconnected</td><td>(40 ± 2) °C</td><td>(93 ± 3)% RH, no condensation</td><td>Temp ±2 °C; RH ±3%</td><td>48 h</td><td>Environmental condition only (no recovery steps)</td></tr>
+    <tr><td>Temperature cycling (cold ↔ hot)</td><td>IEC 60068-2-14 (Test Nb)</td><td>Power disconnected</td><td>-10 °C to +50 °C</td><td>Not specified</td><td>±2 °C; transition ≤ 10 min</td><td>5 cycles (dwell 2 h each extreme)</td><td>For enclosure and mechanical integrity screening</td></tr>
+    <tr><td>Altitude / low air pressure (non-operating)</td><td>IEC 60068-2-13</td><td>Power disconnected</td><td>(20 ± 5) °C</td><td>Not specified</td><td>Pressure ±2 kPa</td><td>1 h at 70 kPa</td><td>Simulates high-altitude transportation/storage</td></tr>
+  </tbody>
+</table>

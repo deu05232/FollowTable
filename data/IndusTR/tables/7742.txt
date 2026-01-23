@@ -1,0 +1,17 @@
+<table>
+  <caption>Intrusion Alarm Event Taxonomy and Severity Classification</caption>
+  <thead>
+    <tr><th rowspan="2">Event Category</th><th rowspan="2">Example Triggers</th><th colspan="4">Severity Level</th><th rowspan="2">Recommended Action</th></tr>
+    <tr><th>S1</th><th>S2</th><th>S3</th><th>S4</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intrusion</td><td>Perimeter crossing; zone entry</td><td>●</td><td>●</td><td>●</td><td>●</td><td>Dispatch guard</td></tr>
+    <tr><td>Tamper</td><td>Cover open; sensor removal</td><td>○</td><td>●</td><td>●</td><td>●</td><td>Investigate device integrity</td></tr>
+    <tr><td>Fault</td><td>Self-test failure; sensor error</td><td>○</td><td>○</td><td>●</td><td>●</td><td>Maintenance ticket</td></tr>
+    <tr><td>Power</td><td>Low voltage; battery failure</td><td>○</td><td>○</td><td>●</td><td>●</td><td>Replace battery / check PSU</td></tr>
+    <tr><td>Environmental</td><td>Temperature out of range; condensation</td><td>○</td><td>○</td><td>○</td><td>●</td><td>Site mitigation</td></tr>
+    <tr><td>Communication</td><td>Link loss; packet drop threshold reached</td><td>○</td><td>○</td><td>●</td><td>●</td><td>Check network path</td></tr>
+    <tr><td>Access control correlation</td><td>Door forced; invalid badge + motion</td><td>○</td><td>●</td><td>●</td><td>●</td><td>Escalate per SOP</td></tr>
+    <tr><td>Maintenance</td><td>Calibration due; configuration change</td><td>○</td><td>○</td><td>○</td><td>○</td><td>Schedule service window</td></tr>
+  </tbody>
+</table>

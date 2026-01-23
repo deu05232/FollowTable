@@ -1,0 +1,15 @@
+<table>
+  <caption>Voice Sample Quality and Channel Impairment Measurements (Metric-Heavy)</caption>
+  <thead>
+    <tr><th>Impairment Type</th><th>Metric</th><th>Definition / Measurement Procedure</th><th>Typical Range</th><th>Impact on Recognition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Noise</td><td>SNR</td><td>SNR = 10·log10(Pspeech/Pnoise) estimated via VAD segments</td><td>0–40 dB</td><td>Higher error at low SNR</td></tr>
+    <tr><td>Reverberation</td><td>RT60</td><td>Decay time to −60 dB from impulse response (estimated from speech)</td><td>0.1–1.5 s</td><td>Smears formants</td></tr>
+    <tr><td>Codec</td><td>Bitrate / MOS-LQO</td><td>PESQ/POLQA MOS-LQO computed on aligned reference</td><td>1–5</td><td>Distorts spectral cues</td></tr>
+    <tr><td>Clipping</td><td>Clipping Rate</td><td>Clipping% = (N|x|>0.99 / Ntotal)×100</td><td>0–20%</td><td>Introduces harmonics</td></tr>
+    <tr><td>Bandwidth</td><td>Effective Bandwidth</td><td>Upper cutoff frequency where energy drops below threshold</td><td>3.4–16 kHz</td><td>Loss of high-frequency detail</td></tr>
+    <tr><td>Level</td><td>Loudness (LUFS)</td><td>EBU R128 integrated loudness measurement</td><td>−35 to −10</td><td>Level mismatch</td></tr>
+    <tr><td>Jitter/Packet Loss</td><td>Frame Drop Rate</td><td>Percent missing frames reconstructed by PLC</td><td>0–10%</td><td>Temporal discontinuity</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,40 @@
+<table>
+  <caption>Video Image Focused Motor Vehicle Object Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Motor Vehicle Object Identifier</td><td>jdcdxbz</td><td>c48</td><td>Should comply with the coding rules specified in C.3; motor vehicle objects in an image should preferably have identifiers generated in order from left to right and from top to bottom</td><td></td></tr>
+  <tr><td>2</td><td>Source Identifier</td><td>lybz</td><td>c41</td><td>Code of the video segment or image used to collect the motor vehicle object; should comply with the coding rules specified in C.2; multiple values allowed</td><td></td></tr>
+  <tr><td>3</td><td>Motor Vehicle Object Collection Method Code</td><td>jdcdxcjfsdm</td><td>cl</td><td>Should comply with D.16</td><td></td></tr>
+  <tr><td>SAC4</td><td>Top-left Corner_X Coordinate</td><td>zsj_xzb</td><td>n.8</td><td>X coordinate of the top-left corner of the motor vehicle thumbnail border box, unit: pixel; with the top-left pixel of the image as the origin, rightward is the positive X-axis direction, and downward is the positive Y-axis direction</td><td></td></tr>
+  <tr><td>5</td><td>Top-left Corner_Y Coordinate</td><td>zsj_yzb</td><td>n.8</td><td>Y coordinate of the top-left corner of the motor vehicle thumbnail border box, unit: pixel</td><td></td></tr>
+  <tr><td>6</td><td>Bottom-right Corner_X Coordinate</td><td>yxj_xzb</td><td>n.8</td><td>X coordinate of the bottom-right corner of the motor vehicle thumbnail border box, unit: pixel</td><td></td></tr>
+  <tr><td>7</td><td>Bottom-right Corner_Y Coordinate</td><td>yxj_yzb</td><td>n.8</td><td>Y coordinate of the bottom-right corner of the motor vehicle thumbnail border box, unit: pixel</td><td></td></tr>
+  <tr><td>8</td><td>Position Mark_Date/Time</td><td>wzbj_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>9</td><td>Appearance_Date/Time</td><td>cx_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>10</td><td>Disappearance_Date/Time</td><td>xs_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>11</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Code of the motor vehicle thumbnail or the full image containing the motor vehicle; should comply with the coding rules specified in C.2; multiple values allowed</td><td></td></tr>
+  <tr><td>12</td><td>License Plate_Judgment Identifier</td><td>cp_pdbz</td><td>cl</td><td>Determines whether the motor vehicle object has a license plate; should comply with D.11</td><td></td></tr>
+  <tr><td>13</td><td>Motor Vehicle License Plate Color Code</td><td>jdchpysdm</td><td>cl</td><td>Plate background color (for large new-energy vehicle plates, the background color of the serial-number part excluding the province/autonomous region/municipality abbreviation and issuing authority code); should comply with D.26</td><td></td></tr>
+  <tr><td>14</td><td>Motor Vehicle License Plate Category Code</td><td>jdchpzldm</td><td>c2</td><td>Should comply with D.27</td><td></td></tr>
+  <tr><td>15</td><td>Motor Vehicle License Plate Number</td><td>jdchphm</td><td>c..15</td><td></td><td></td></tr>
+  <tr><td>16</td><td>Trailer_Motor Vehicle License Plate Number</td><td>gc_jdchphm</td><td>c..15</td><td></td><td></td></tr>
+  <tr><td>17</td><td>License Plate Description_Brief Description</td><td>cpms_jyqk</td><td>.ul</td><td></td><td></td></tr>
+  <tr><td>18</td><td>Obstructed License Plate_Judgment Identifier</td><td>zdhp_pdbz</td><td>c1</td><td>Determines whether the motor vehicle license plate is obstructed; should comply with D.11</td><td></td></tr>
+  <tr><td>19</td><td>Travel Speed</td><td>xssd</td><td>n..5,2</td><td>Unit: kilometers per hour (km/h)</td><td></td></tr>
+  <tr><td>20</td><td>Travel Direction Code</td><td>xsfxdm</td><td>cl</td><td>Should comply with D.12; multiple values allowed; when multiple values, it means the vehicle first travels in the direction of the 1st value, then in the direction of the 2nd value, and so on</td><td></td></tr>
+  <tr><td>21</td><td>Motor Vehicle Driving Status Code</td><td>jdcxsztdm</td><td>c2</td><td>Should comply with D.28</td><td></td></tr>
+  <tr><td>22</td><td>Motor Vehicle Specification Category Code</td><td>jdegglbdm</td><td>c1..3</td><td>Should comply with D.29</td><td></td></tr>
+  <tr><td>23</td><td>Motor Vehicle Structure Category Code</td><td>jdcjglbdm</td><td>c1..3</td><td>Should comply with D.30</td><td></td></tr>
+  <tr><td>24</td><td>Motor Vehicle Use Nature Category Code</td><td>jdcsyxzlbdm</td><td>c1..2</td><td>Should comply with D.31</td><td></td></tr>
+  <tr><td>25</td><td>Motor Vehicle Brand</td><td>jdcpp</td><td>c..32</td><td>See Appendix A of GA/T 833—2016; e.g., Volkswagen, Chery</td><td></td></tr>
+  <tr><td>26</td><td>Motor Vehicle Model</td><td>jdcxh</td><td>c..32</td><td>e.g., “Passat”</td><td></td></tr>
+  <tr><td>27</td><td>Motor Vehicle Model Year</td><td>jdcnk</td><td>c..16</td><td>e.g., “2018”</td><td></td></tr>
+  <tr><td>28</td><td>Motor Vehicle Overall Length</td><td>jdcwked</td><td>n..5</td><td>Unit: millimeters (mm)</td><td></td></tr>
+  <tr><td>AC</td><td>Motor Vehicle Overall Width</td><td>jdcwkkd</td><td>n..4</td><td>Unit: millimeters (mm)</td><td></td></tr>
+  <tr><td>30</td><td>Motor Vehicle Overall Height</td><td>jdcwkgd</td><td>n..4</td><td>Unit: millimeters (mm)</td><td></td></tr>
+  <tr><td>31</td><td>Motor Vehicle Body Color Code</td><td>jdccsysdm</td><td>cl</td><td>Should comply with D.26</td><td></td></tr>
+  <tr><td>32</td><td>In-vehicle Persons_Count</td><td>cnry_sl</td><td>n..3</td><td></td><td></td></tr>
+  <tr><td>33</td><td>Pass-by_Date/Time</td><td>jg_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>34</td><td>Road Name Passed</td><td>jgdlmc</td><td>c..64</td><td>Description of the road name</td><td></td></tr>
+  <tr><td>35</td><td>Front-of-vehicle Item Feature Code</td><td>cqbwptzdm</td><td>c2</td><td>Should comply with D.32</td><td></td></tr>
+  <tr><td>36</td><td>Rear-of-vehicle Item Feature Code</td><td>chbwptzdm</td><td>c2</td><td>Should comply with D.33</td><td></td></tr>
+</table>

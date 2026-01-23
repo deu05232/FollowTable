@@ -1,0 +1,16 @@
+<table>
+  <caption>Key rates and parameters for circuit-QED [ Schuster:2007-PhotonNumberStates ] (1D cavity), Quantum dot(QD)-QED [ E_Waks:2012 ] (InAs QD embedded in a GaAs photonic crystal) vs. the B:Si phoniton system in a patterned Si membrane (of thickness d = 200 ⁢ nm ) phononic bandgap cavity; we show calculations for maximal coupling at frequencies of 1 ⁢ GHz , 4 ⁢ GHz , 8 ⁢ GHz , and 14 ⁢ GHz , for cavity volume 𝒱 = d ⁢ λ 2 and Q = 10 5 . The limiting frequency for strong dispersive coupling is reached at ≈ 21 ⁢ GHz , when χ = Γ . Number of Rabi flops, dispersive coupling, and dressed state’s resolution parameters, 2 ⁢ χ / Γ , 2 ⁢ χ / κ , are comparable to that in circuit-QED and significantly surpass semiconductor quantum dots.</caption>
+  <tr><th>parameter</th><th>symbol</th><th>circuit-QED</th><th>Quant Dot-QED</th><th>B:Si (1 GHz)</th><th>B:Si (4 GHz)</th><th>B:Si (8 GHz)</th><th>B:Si (1 Tesla)</th></tr>
+  <tr><th>resonance freq.</th><th>ω_(r)/2</th><th>5.7\,GHz</th><th>325\,THz</th><td>1\,GHz</td><td>4\,GHz</td><td>8\,GHz</td><td>14\,GHz</td></tr>
+  <tr><th>vac. Rabi freq.</th><th>g/2</th><th>105\,MHz</th><th>13.4\,GHz</th><td>0.41\,MHz</td><td>3.27\,MHz</td><td>9.26\,MHz</td><td>21.4\,MHz</td></tr>
+  <tr><th>cavity lifetime</th><th>1/,Q</th><th>0.64\,μ s , 10^(4)</th><th>5.5\,ps , 1.2\,10^(4)</th><td>15.9\,μ s , 10^(5)</td><td>4\,μ s</td><td>2\,μ s</td><td>1.14\,μ s</td></tr>
+  <tr><th>qubit lifetime</th><th>1/Γ</th><th>84\,ns</th><th>27\,ps</th><td>386.5\,μ s</td><td>6\,μ s</td><td>0.75\,μ s</td><td>0.14\,μ s</td></tr>
+  <tr><th>critical atom #</th><th>2Γ/g^(2)</th><th>8.6\,10^(-5)</th><th>1.87</th><td>4.9\,10^(-5)</td><td>2\,10^(-4)</td><td>3.9\,10^(-4)</td><td>6.9\,10^(-4)</td></tr>
+  <tr><th>crit. phonon #</th><th>Γ^(2)/2g^(2)</th><th>1.6\,10^(-4)</th><th>9.4\,10^(-2)</th><td>5.1\,10^(-7)</td><td>3.2\,10^(-5)</td><td>2.6\,10^(-4)</td><td>1.4\,10^(-3)</td></tr>
+  <tr><th># Rabi flops</th><th>2g/(\!\!+\!Γ)</th><th>~ 98</th><th>~ 0.8</th><td>~ 79</td><td>~ 99</td><td>~ 64</td><td>~ 34</td></tr>
+  <tr><th>cavity volume</th><th>V</th><th>10^(-6)\,λ^(3)</th><th>-</th><td>0.037\,λ^(3)</td><td>0.148\,λ^(3)</td><td>0.296\,λ^(3)</td><td>0.52\,λ^(3)</td></tr>
+  <tr><th>wavelength</th><th>λ</th><th>5.26 cm</th><th>921\,nm</th><td>5400\,nm</td><td>1350\,nm</td><td>675\,nm</td><td>385\,nm</td></tr>
+  <tr><th>dispersive coupling</th><th>χg^(2)/Δ</th><th>17\,MHz</th><th>–</th><td>0.04\,MHz</td><td>0.33\,MHz</td><td>0.93\,MHz</td><td>2.14\,MHz</td></tr>
+  <tr><th>peaks’ resolution</th><th>2χ/Γ</th><th>~ 6</th><th>–</th><td>~ 199</td><td>~ 25</td><td>~ 9</td><td>~ 4</td></tr>
+  <tr><th># of peaks</th><th>2χ/</th><th>~ 70</th><th>–</th><td>~ 8</td><td>~ 16</td><td>~ 23</td><td>~ 31</td></tr>
+</table>

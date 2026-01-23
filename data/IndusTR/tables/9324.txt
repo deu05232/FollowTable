@@ -1,0 +1,19 @@
+<table>
+  <caption>AR Session Parameter Names Index (Categorized, No Data Types)</caption>
+  <thead>
+    <tr><th>Category</th><th>Function</th><th>Parameter Name</th><th>What It Refers To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Environment & Context</td><td>ArSession_create</td><td>env</td><td>Runtime/VM environment handle used to call into the platform.</td></tr>
+    <tr><td>ArSession_create</td><td>context</td><td>Application context for resource and permission access.</td></tr>
+    <tr><td>ArSession_setFeatures</td><td>context</td><td>Context used when enabling device-specific capabilities.</td></tr>
+    <tr><td rowspan="3">Session Handles</td><td>ArSession_create</td><td>out_session_pointer</td><td>Destination to receive the created session handle.</td></tr>
+    <tr><td>ArSession_destroy</td><td>session</td><td>Existing session handle being cleaned up.</td></tr>
+    <tr><td>ArSession_update</td><td>session</td><td>Session that will produce a new frame state.</td></tr>
+    <tr><td rowspan="3">Configuration</td><td>ArSession_configure</td><td>config</td><td>Configuration values to apply to the session.</td></tr>
+    <tr><td>ArSession_getConfig</td><td>out_config</td><td>Output parameter to receive current configuration.</td></tr>
+    <tr><td>ArSession_isSupported</td><td>config</td><td>Configuration tested for device support.</td></tr>
+    <tr><td rowspan="2">Rendering</td><td>ArSession_setCameraTextureName</td><td>texture_id</td><td>GPU texture identifier used for camera image streaming.</td></tr>
+    <tr><td>ArSession_setDisplayGeometry</td><td>rotation</td><td>Orientation indicator used for projection matrices.</td></tr>
+  </tbody>
+</table>

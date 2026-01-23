@@ -1,0 +1,10 @@
+<table>
+  <caption>Change Log of Digital Radiography Inspection Module (Release Notes Extract)</caption>
+  <tr><th>Version</th><th>Date</th><th>Component</th><th>Change Summary</th><th>Impact</th><th>Ticket ID</th></tr>
+  <tr><td>1.6.0</td><td>2025-06-12</td><td>Image Module</td><td>Refactored serialization layer for performance</td><td>Backward compatible</td><td>DR-2314</td></tr>
+  <tr><td>1.5.2</td><td>2025-03-04</td><td>Process Module</td><td>Updated validation rules for applicable standard field</td><td>Minor behavior change</td><td>DR-2190</td></tr>
+  <tr><td>1.5.0</td><td>2024-12-19</td><td>Radiation Source Module</td><td>Added optional manufacturer string mapping</td><td>No schema change stated</td><td>DR-2088</td></tr>
+  <tr><td>1.4.1</td><td>2024-09-02</td><td>Detector Acquisition</td><td>Fixed parsing of exposure mode codes</td><td>Bug fix</td><td>DR-1993</td></tr>
+  <tr><td>1.4.0</td><td>2024-05-17</td><td>Image Evaluation</td><td>Improved reporting templates</td><td>UI only</td><td>DR-1876</td></tr>
+  <tr><td>1.3.0</td><td>2023-11-08</td><td>DICOM Bridge</td><td>Added new export endpoint</td><td>Integration change</td><td>DR-1602</td></tr>
+</table>

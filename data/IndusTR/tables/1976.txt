@@ -1,0 +1,14 @@
+<table>
+  <caption>APDU Transport Test Method — Lab Environment & Instrument Calibration Requirements</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Requirement</th><th>Min</th><th>Max</th><th>Instrument</th><th>Calibration Interval</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient Temperature</td><td>Controlled chamber</td><td>20°C</td><td>26°C</td><td>Thermometer</td><td>12 months</td></tr>
+    <tr><td>Relative Humidity</td><td>Non-condensing</td><td>30%</td><td>60%</td><td>Hygrometer</td><td>12 months</td></tr>
+    <tr><td>Supply Voltage Ripple</td><td>Measured at DUT</td><td>0 mV</td><td>50 mVpp</td><td>Oscilloscope</td><td>6 months</td></tr>
+    <tr><td>USB Protocol Analyzer</td><td>Capture APDU frames</td><td colspan="2">Must support 480 Mbps HS</td><td>Protocol Analyzer</td><td>6 months</td></tr>
+    <tr><td>Clock Accuracy</td><td>Reference clock</td><td>-20 ppm</td><td>+20 ppm</td><td>Frequency Counter</td><td>12 months</td></tr>
+    <tr><td>ESD Pre-Check</td><td>IEC gun verification</td><td>2 kV</td><td>8 kV</td><td>ESD Simulator</td><td>24 months</td></tr>
+  </tbody>
+</table>

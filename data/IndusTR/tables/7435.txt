@@ -1,0 +1,15 @@
+<table>
+  <caption>Intrusion Detector Technical Requirements — Detection Range Brackets vs Location Accuracy</caption>
+  <thead>
+    <tr><th>Detection distance bracket (km)</th><th>Required location accuracy (m)</th><th>Accuracy metric definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 1</td><td>≤ 2</td><td>Horizontal position error (95% confidence)</td></tr>
+    <tr><td>> 1 and ≤ 5</td><td>≤ 5</td><td>Horizontal position error (95% confidence)</td></tr>
+    <tr><td>> 5 and ≤ 10</td><td>≤ 10</td><td>Horizontal position error (95% confidence)</td></tr>
+    <tr><td>> 10 and ≤ 20</td><td>≤ 15</td><td>Horizontal position error (95% confidence)</td></tr>
+    <tr><td>> 20 and ≤ 40</td><td>≤ 25</td><td>Horizontal position error (95% confidence)</td></tr>
+    <tr><td>> 40 and ≤ 80</td><td>≤ 50</td><td>Horizontal position error (95% confidence)</td></tr>
+    <tr><td>> 80</td><td>≤ 100</td><td>Horizontal position error (95% confidence)</td></tr>
+  </tbody>
+</table>

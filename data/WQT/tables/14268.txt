@@ -1,0 +1,7 @@
+# Outlook.com (Hotmail) manual email setup — server ports and encryption
+
+| Protocol | Server | Port | Encryption |
+| --- | --- | --- | --- |
+| IMAP | imap-mail.outlook.com | 993 | SSL/TLS |
+| POP3 | pop-mail.outlook.com | 995 | SSL/TLS |
+| SMTP | smtp-mail.outlook.com | 587 | STARTTLS/TLS |

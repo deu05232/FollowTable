@@ -1,0 +1,16 @@
+<table>
+  <caption>Video/Image Alarm Event Codes (Behavior & Scene Events)</caption>
+  <thead>
+    <tr><th>Code</th><th>Name</th><th>Description</th><th>Typical Trigger</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>101</td><td>Camera Tampering</td><td>Video is blocked/covered or lens is tampered with</td><td>Sudden scene occlusion or abnormal brightness</td></tr>
+    <tr><td>102</td><td>Video Loss</td><td>Video stream interruption detected</td><td>No frames received within timeout</td></tr>
+    <tr><td>103</td><td>Motion Detected</td><td>Motion appears in a configured region</td><td>Pixel/optical flow change exceeds threshold</td></tr>
+    <tr><td>104</td><td>Perimeter Cross</td><td>Target crosses a virtual line (tripwire)</td><td>Track intersects rule line</td></tr>
+    <tr><td>105</td><td>Crowd Gathering</td><td>Number of persons in area exceeds limit</td><td>People count > configured value</td></tr>
+    <tr><td>106</td><td>Smoke Detected</td><td>Visible smoke detected by video analytics</td><td>Smoke pattern/classifier confidence high</td></tr>
+    <tr><td>107</td><td>Fire Detected</td><td>Flame/fire detected by video analytics</td><td>Fire pattern/classifier confidence high</td></tr>
+    <tr><td>108</td><td>Unauthorized Parking</td><td>Vehicle stops/parks in a no-parking zone</td><td>Vehicle dwell time exceeds threshold in zone</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Step-by-Step Derivation Notes for Normalized Freight Distribution Indicators</caption>
+  <thead>
+    <tr><th>Derivation Step</th><th>Target Indicator</th><th>Expression / Transformation</th><th>Assumption or Constraint</th><th>Formula Index</th><th>Worked Example (Numbers)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Centers per million</td><td>I_1 = N_cdc / P</td><td>P>0</td><td>(3-1)</td><td>N_cdc=8, P=10 → I_1=0.8</td></tr>
+    <tr><td>2</td><td>Centers per million</td><td>S_1 = 60 × min(1, I_1 / 1.0)</td><td>S_1∈[0,60]</td><td>(3-2)</td><td>I_1=0.8 → S_1=48</td></tr>
+    <tr><td>3</td><td>Hubs per million</td><td>I_2 = N_hub / P</td><td>Count is integer</td><td>(1-1)</td><td>N_hub=4, P=8 → I_2=0.5</td></tr>
+    <tr><td>4</td><td>Hubs per million</td><td>S_2 = 60 × min(1, I_2 / 0.8)</td><td>S_2∈[0,60]</td><td>(1-2)</td><td>I_2=0.5 → S_2=37.5</td></tr>
+    <tr><td>5</td><td>Stations per million</td><td>I_3 = N_sta / P</td><td>Coverage proxy</td><td>(5-1)</td><td>N_sta=20, P=1 → I_3=20</td></tr>
+    <tr><td>6</td><td>Stations per million</td><td>S_3 = piecewise(I_3)</td><td>Piecewise linear</td><td>(5-2)</td><td>I_3=20 → S_3=40</td></tr>
+    <tr><td>7</td><td>Parking spaces per million</td><td>S_4 = 100 / (1+e^{-k(I_4-b)})</td><td>k,b calibrated by experts</td><td>(7-3)</td><td>I_4=18, k=0.2, b=25 → S_4≈19.8</td></tr>
+  </tbody>
+</table>

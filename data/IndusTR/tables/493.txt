@@ -1,0 +1,18 @@
+<table>
+  <caption>Description of emergency search and rescue and position report request statement parameters</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Value Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>1</td><td>Recipient ID</td><td>1~16 777 215</td><td></td><td>Recipient address, intranet user</td></tr>
+  <tr><td>2</td><td>Service type / emergency flag</td><td>1~2</td><td></td><td>1: emergency search and rescue; 2: RNSS position report</td></tr>
+  <tr><td>3</td><td>Station frequency point</td><td>0~2</td><td></td><td>0: automatic, 1; Lf1, 2: Lf2</td></tr>
+  <tr><td>4</td><td>Station data rate</td><td>1~4</td><td></td><td>Rate levels 1–4</td></tr>
+  <tr><td>5</td><td>Interval</td><td>0~3 600</td><td>S</td><td>0: single request and stop continuous sending; non-zero value indicates sending interval</td></tr>
+  <tr><td>6</td><td>Longitude</td><td>00 000.000 0~17 959.999 9</td><td></td><td>yyyy.yy, with 5 fixed digits to the left of the decimal point; pad with leading 0 if insufficient. Example: 118 degrees 6.15 minutes is written as 11806.15</td></tr>
+  <tr><td>7</td><td>Longitude flag a</td><td>E/W/0</td><td></td><td>East longitude / West longitude / use RNSS positioning result</td></tr>
+  <tr><td>8</td><td>Latitude</td><td>0 000.000 0~8 959.999 9</td><td></td><td>ll.ll, with 4 fixed digits to the left of the decimal point; pad with leading 0 if insufficient. Example: 40 degrees 3.12 minutes is written as 4003.12</td></tr>
+  <tr><td>9</td><td>Latitude flag a</td><td>N/S/0</td><td></td><td>North latitude / South latitude / use RNSS positioning result</td></tr>
+  <tr><td>10</td><td>Altitude</td><td>一</td><td>m</td><td>Ellipsoidal height in the BDCS coordinate system</td></tr>
+  <tr><td>11</td><td>SAR type b</td><td>1~3</td><td></td><td>1: distress request; 2: distress cancellation; 3: forward authentication</td></tr>
+  <tr><td>12</td><td>Status data length (SAR service data length / position report length")</td><td>0~468</td><td>bit</td><td>Number of bits of status data (SAR service data / position report status data)</td></tr>
+  <tr><td>13</td><td>Status data (SAR service data / position report status data)</td><td>0~636</td><td>bit</td><td>Status data (SAR service data / position report status data)</td></tr>
+  <tr><td colspan="5">”When the longitude flag and the latitude flag are both 0, the terminal RNSS positioning result is used. bPresent when the service type is emergency search and rescue.                                          SAC‘Present when the service type is position report.</td></tr>
+</table>

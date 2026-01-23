@@ -1,0 +1,23 @@
+<table>
+  <caption>TEC Test Procedure for Copiers and Multifunction Devices Without Printing Function</caption>
+  <tr><td>Step</td><td>Initial state</td><td>Action to perform</td><td>Record (at end of step)</td><td>Measurement unit</td><td>Possible measurement states</td></tr>
+  <tr><td rowspan="2">1</td><td rowspan="2">Off</td><td rowspan="2">Connect the product under test to the power meter. Ensure the product is connected to the power supply and is in the off mode. Zero the power meter; measure energy consumption for 5 min or longer, and record cumulative energy and time.</td><td>Power off</td><td>w·h</td><td rowspan="2">Off</td></tr>
+  <tr><td>Test interval time</td><td>min</td></tr>
+  <tr><td>2</td><td>On</td><td>Turn on the product power. Wait until the product is in the ready state.</td><td></td><td>1</td><td></td></tr>
+  <tr><td>3</td><td>Ready</td><td>Complete a copy job with at least one output page, but not exceeding one job in Table 7. Measure and record the time until the first page is fully output.</td><td>Job 0 time</td><td>S</td><td></td></tr>
+  <tr><td>4</td><td>Ready (or other)</td><td>Wait until the power meter indicates the product has entered the auto-off state; measure the default time for the off state.</td><td>Default off-state time, t ef</td><td>min</td><td></td></tr>
+  <tr><td rowspan="2">5</td><td rowspan="2">Sleep</td><td rowspan="2">Zero the power meter; measure energy consumption and time for 1 h or until entering the auto-off state. Record cumulative energy and time.</td><td>Off energy, E sLEEP</td><td>w·h</td><td rowspan="2">Sleep</td></tr>
+  <tr><td>Off time, t SLEEP(≤1h)</td><td>min</td></tr>
+  <tr><td rowspan="2">6</td><td rowspan="2">Sleep</td><td rowspan="2">Zero the power meter; copy one job (according to the calculation results in Table 7). Measure energy and time: record the time until the first page is fully output, and measure cumulative energy consumption within 15 min after the start of the job. This job is completed within 15 min.</td><td>Job 1 energy, EjoBl</td><td>w·h</td><td rowspan="2">Recovery, job, ready, sleep, auto-off</td></tr>
+  <tr><td>Activity 1 time</td><td>s</td></tr>
+  <tr><td rowspan="2">7</td><td rowspan="2">Sleep</td><td rowspan="2">Repeat Step 6</td><td>Job 2 energy, EJoB2</td><td>w·h</td><td rowspan="2">Recovery, job, ready, sleep, auto-off</td></tr>
+  <tr><td>Activity 2 time</td><td>S</td></tr>
+  <tr><td rowspan="2">8</td><td rowspan="2">Ready (or other)</td><td rowspan="2">Repeat Step 6 (no need to measure job time)</td><td>Job 3 energy, EJoB3</td><td>w·h</td><td rowspan="2">Recovery, job ready, sleep auto-off</td></tr>
+  <tr><td>Job 3 time</td><td>S</td></tr>
+  <tr><td>9</td><td>Ready (or other)</td><td>Repeat Step 6 (no need to measure job time)</td><td>Job 4 energy, EJoB4</td><td>w·h</td><td>Recovery, job ready, sleep auto-off</td></tr>
+  <tr><td rowspan="2">10</td><td rowspan="2">Ready (or other)</td><td rowspan="2">Zero the power meter and timer. Measure energy and time until the power meter and/or the product indicates the product has entered the auto-off state, or until the manufacturer-specified time to enter off. Record energy and time. If this step starts when the product is in the auto-off state, record both energy and time as 0.</td><td>Final energy, EFINAL</td><td>w·h</td><td rowspan="2">Ready/Sleep</td></tr>
+  <tr><td>Final time, t FINAL</td><td>min</td></tr>
+  <tr><td rowspan="2">11</td><td rowspan="2">Auto-off</td><td rowspan="2">Zero the power meter; measure energy and time for 5 min or longer, and record energy and time.</td><td>Auto-off energy, EAUTO</td><td>w·h</td><td rowspan="2">Auto-off</td></tr>
+  <tr><td>Auto-off time, tAUTO</td><td>min</td></tr>
+  <tr><td colspan="6">Note: Steps 4 and 10 — For products that do not indicate when they enter the final sleep mode, the manufacturer shall specify the time to enter the final sleep mode for testing purposes.</td></tr>
+</table>

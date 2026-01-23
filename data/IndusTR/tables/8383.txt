@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Optical Receiver Power Limits (Sensitivity and Overload)</caption>
+  <thead>
+    <tr><th>Receiver condition</th><th>Data rate</th><th>Test pattern / BER assumption</th><th>Minimum (dBm)</th><th>Typical (dBm)</th><th>Maximum (dBm)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Receiver sensitivity (average optical input)</td><td>2.5 Gbit/s</td><td>PRBS7, BER ≤ 1e-12</td><td></td><td>-23.0</td><td>-20.0</td><td>Measured at receiver input, extinction ratio controlled in test setup</td></tr>
+    <tr><td>5.0 Gbit/s</td><td>PRBS7, BER ≤ 1e-12</td><td></td><td>-20.0</td><td>-17.0</td><td>Includes reference optical connector loss budget excluded</td></tr>
+    <tr><td>6.25 Gbit/s</td><td>PRBS7, BER ≤ 1e-12</td><td></td><td>-18.0</td><td>-15.0</td><td>Receiver equalization enabled (if applicable)</td></tr>
+    <tr><td rowspan="3">Receiver overload (average optical input)</td><td>2.5 Gbit/s</td><td>PRBS7, BER ≤ 1e-12</td><td>-1.0</td><td></td><td></td><td>No damage; error-free criterion maintained</td></tr>
+    <tr><td>5.0 Gbit/s</td><td>PRBS7, BER ≤ 1e-12</td><td>0.0</td><td></td><td></td><td>Defined as highest input power meeting BER requirement</td></tr>
+    <tr><td>6.25 Gbit/s</td><td>PRBS7, BER ≤ 1e-12</td><td>0.0</td><td></td><td></td><td>Optical attenuation used to sweep input power</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Association Specification: Subsidy Application Table Linked to Machinery Item Catalog (Broad Reference Link)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Machinery Item Catalog Table</td></tr>
+    <tr><td>Association Type</td><td>Foreign Key Reference (Many-to-One)</td></tr>
+    <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+    <tr><td>Table Name 2</td><td>Machinery Item Catalog Table</td></tr>
+    <tr><td>Join Keys</td><td>ApplicationTable.MachineryItemCode = ItemCatalog.ItemCode</td></tr>
+    <tr><td>Cardinality</td><td>Many Applications → One Catalog Item</td></tr>
+    <tr><td>Business Purpose</td><td>Resolve item classification, model attributes, and standard naming for reported machinery</td></tr>
+    <tr><td>Typical Filters</td><td>ItemCatalog.Category, ItemCatalog.PowerBand, ItemCatalog.Brand</td></tr>
+    <tr><td>Notes</td><td>This link supports reference normalization and catalog-based reporting rather than transactional proof artifacts</td></tr>
+  </tbody>
+</table>

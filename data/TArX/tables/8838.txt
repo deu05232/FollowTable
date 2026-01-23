@@ -1,0 +1,16 @@
+<table>
+  <caption>AMBT1 tuning observables grouped by observable name (ATLAS minimum-bias inputs and phase-space selections)</caption>
+  <thead>
+    <tr><th>Observable name</th><th>Distribution type</th><th>Phase-space / event selection used</th><th>η or pT range used in tuning</th><th>Typical collision energy(ies)</th><th>Notes for AMBT1 tuning usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">dNch/dη</td><td>Charged-particle pseudorapidity density</td><td>Minimum-bias, inclusive (e.g., Nch ≥ 1)</td><td>|η| < 2.5</td><td>0.9 TeV, 7 TeV</td><td>Core constraint for overall multiplicity vs η shape.</td></tr>
+    <tr><td>Charged-particle pseudorapidity density</td><td>Minimum-bias, higher-multiplicity region (e.g., Nch ≥ 6)</td><td>|η| < 2.5</td><td>0.9 TeV</td><td>Used to emphasize UE/MPI-sensitive region at low energy.</td></tr>
+    <tr><td rowspan="2">dNch/dpT</td><td>Single-particle pT spectrum</td><td>Minimum-bias (Nch ≥ 1), pT-thresholded</td><td>pT > 500 MeV (spectrum over pT)</td><td>0.9 TeV, 7 TeV</td><td>Constrains soft pT modeling; sensitive to hadronization and MPI.</td></tr>
+    <tr><td>Single-particle pT spectrum</td><td>Minimum-bias (Nch ≥ 1), low-threshold variant</td><td>pT > 100 MeV (spectrum over pT)</td><td>0.9 TeV</td><td>Provides additional leverage on very-soft region where tracking allows.</td></tr>
+    <tr><td rowspan="2">Nch</td><td>Charged multiplicity distribution</td><td>Minimum-bias, inclusive (Nch ≥ 1)</td><td>|η| < 2.5, pT > 500 MeV</td><td>0.9 TeV, 7 TeV</td><td>Constrains overall multiplicity normalization and tail.</td></tr>
+    <tr><td>Charged multiplicity distribution</td><td>Minimum-bias, higher-multiplicity region</td><td>|η| < 2.5, pT > 500 MeV</td><td>0.9 TeV</td><td>Strengthens constraint on high-activity events relevant to MPI.</td></tr>
+    <tr><td>⟨pT⟩ vs Nch</td><td>Mean pT as a function of charged multiplicity</td><td>Minimum-bias, inclusive</td><td>|η| < 2.5, pT > 500 MeV</td><td>0.9 TeV</td><td>Key correlation observable; constrains interplay of MPI and fragmentation.</td></tr>
+    <tr><td>pT(lead)</td><td>Leading-track pT distribution</td><td>Minimum-bias, inclusive</td><td>pT(lead) > 1 GeV (distribution over pT(lead))</td><td>0.9 TeV</td><td>Often used to anchor hard tail / transition to harder activity.</td></tr>
+  </tbody>
+</table>

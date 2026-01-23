@@ -1,0 +1,15 @@
+<table>
+  <caption>End-of-Charge Summary Message (Termination-State Data Elements)</caption>
+  <thead>
+    <tr><th>Start byte or bit</th><th>Length</th><th>Field / SPN</th><th>Definition</th><th>Send option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1 byte</td><td>SPN 3610</td><td>Termination status (0x00: ended normally; 0x01: ended by vehicle request; 0x02: ended by charger request; 0x03: ended by fault; 0x04: aborted)</td><td>Mandatory</td></tr>
+    <tr><td>2</td><td>1 byte</td><td>SPN 3611</td><td>Termination reason code (enumeration recorded at termination; e.g., target reached, user stop, timeout, safety interlock opened)</td><td>Mandatory</td></tr>
+    <tr><td>3</td><td>2 bytes</td><td>SPN 3612</td><td>Termination fault reason (bit-coded fault reason captured at termination; e.g., insulation fault, contactor fault, over-temperature)</td><td>Mandatory</td></tr>
+    <tr><td>5</td><td>1 byte</td><td>SPN 3613</td><td>Termination error reason (non-fault error recorded at termination; e.g., communication error, message format error)</td><td>Mandatory</td></tr>
+    <tr><td>6</td><td>1 byte</td><td>SPN 3614</td><td>Abort type at termination (0x00: none; 0x01: emergency stop; 0x02: connector unlock; 0x03: CP/CC abnormal)</td><td>Optional</td></tr>
+    <tr><td>7</td><td>2 bytes</td><td>SPN 3615</td><td>Abort reason at termination (more detailed abort reason, recorded at termination)</td><td>Optional</td></tr>
+    <tr><td>9</td><td>1 byte</td><td>SPN 3616</td><td>SOC (%) at termination</td><td>Optional</td></tr>
+  </tbody>
+</table>

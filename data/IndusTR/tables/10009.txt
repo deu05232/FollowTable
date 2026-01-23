@@ -1,0 +1,12 @@
+<table>
+  <caption>Additional SW1/SW2 Status Words for User Terminal APDU Responses</caption>
+  <tr><th>SW1</th><th>SW2</th><th>Meaning</th><th>Typical Cause / Note</th></tr>
+  <tr><td>90</td><td>00</td><td>Success</td><td>Command executed successfully</td></tr>
+  <tr><td>62</td><td>00</td><td>Warning (state unchanged)</td><td>Non-fatal condition; check returned data</td></tr>
+  <tr><td>63</td><td>C0</td><td>Warning (state changed)</td><td>Operation completed with a warning</td></tr>
+  <tr><td>6A</td><td>82</td><td>File/Application not found</td><td>Referenced object does not exist</td></tr>
+  <tr><td>6A</td><td>83</td><td>Record not found</td><td>Requested record index is invalid</td></tr>
+  <tr><td>6D</td><td>00</td><td>INS not supported</td><td>Instruction code not recognized</td></tr>
+  <tr><td>6E</td><td>00</td><td>CLA not supported</td><td>Class byte not supported</td></tr>
+  <tr><td>67</td><td>00</td><td>Wrong length (Lc/Le)</td><td>Incorrect expected/command length</td></tr>
+</table>

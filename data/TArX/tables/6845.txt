@@ -1,0 +1,15 @@
+<table>
+  <caption>Initial parameters of N -body and HMC models a</caption>
+  <tr><td>Model</td><td>N_(*)</td><td>m_(*)(M_())</td><td>N_(p)</td><td>a (AU)</td><td>e_(0)</td><td>V/v_(orb) ^((b))</td><td>Type</td></tr>
+  <tr><td>1</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>3-50</td><td>0.01</td><td>0.49 - 2.05</td><td>N -body</td></tr>
+  <tr><td>2</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>3-50</td><td>0.1</td><td>0.49 - 2.05</td><td>N -body</td></tr>
+  <tr><td>3</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>3-50</td><td>0.3</td><td>0.49 - 2.05</td><td>N -body</td></tr>
+  <tr><td>4</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>3-50</td><td>0.6</td><td>0.49 - 2.05</td><td>N -body</td></tr>
+  <tr><td>5</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>3-50</td><td>0.9</td><td>0.49 - 2.05</td><td>N -body</td></tr>
+  <tr><td>6</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>3-50</td><td>0.99</td><td>0.49 - 2.05</td><td>N -body</td></tr>
+  <tr><td>E</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>3-50</td><td>f(e)=2e</td><td>0.49 - 2.05</td><td>N -body</td></tr>
+  <tr><td>EH</td><td>1.9· 10^(4)</td><td>1</td><td>10^(3)</td><td>0.03-5</td><td>f(e)=2e</td><td>0.05 - 0.65</td><td>N -body</td></tr>
+  <tr><td>Soft</td><td>3.0· 10^(5)</td><td>1</td><td>3.0· 10^(4)</td><td>3-50</td><td>f(e)=2e</td><td>1.98 - 8.13</td><td>HMC</td></tr>
+  <tr><td>Hard</td><td>3.0· 10^(5)</td><td>1</td><td>3.0· 10^(4)</td><td>0.03-5</td><td>f(e)=2e</td><td>0.20 - 2.57</td><td>HMC</td></tr>
+  <tr><td colspan="8">^((a)) N_(*) is the total initial number of stars and planetary systems, m_(*)(M_()) is the mass of one star in solar units, N_(p) is the initial number of planetary systems, a (AU) is the initial range of the semi-major axes in AU, and e_(0) is the initial eccentricity. ^((b)) we use V/v_(orb)=(a_(AU)/2.27· 10^(5)) to obtain an approximate range of values, cf. Section 3.1.</td></tr>
+</table>

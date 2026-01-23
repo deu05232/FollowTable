@@ -1,0 +1,11 @@
+<table>
+  <caption>Parameter Definition of Vehicle Charging Parameter Message (PGN1536)</caption>
+  <tr><td>Start Byte or Bit</td><td>Length</td><td>SPN</td><td>SPN Definition</td><td>Transmission Option</td></tr>
+  <tr><td>1</td><td>2 bytes</td><td>2816</td><td>Maximum allowable charging voltage of a single traction battery cell</td><td>Required</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>2817</td><td>Maximum allowable charging current</td><td>Required</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>2818</td><td>Nominal total energy of the traction battery</td><td>Required</td></tr>
+  <tr><td>7</td><td>2 bytes</td><td>2819</td><td>Maximum allowable total charging voltage</td><td>Required</td></tr>
+  <tr><td>9</td><td>1 byte</td><td>2820</td><td>Maximum allowable temperature of a single battery cell</td><td>Required</td></tr>
+  <tr><td>10</td><td>2 bytes</td><td>2821</td><td>Current state of charge</td><td>Required</td></tr>
+  <tr><td>12</td><td>2 bytes</td><td>2822</td><td>Current voltage of the vehicle charging system</td><td>Required</td></tr>
+</table>

@@ -1,0 +1,13 @@
+<table>
+  <caption>Estimated and measured speed-up for a grid with N = 512 points and decomposition into 2 and 3 domains with two different overlaps.</caption>
+  <tr><th></th><th></th><th></th><th>Estimated</th><th>Measured</th></tr>
+  <tr><th>Domains</th><th>Size of _(sh)</th><th>Overlap</th><th>Speed-Up</th><th>Speed-Up</th></tr>
+  <tr><td>3</td><td>160</td><td>16</td><td>2.75</td><td>2.42</td></tr>
+  <tr><td>3</td><td>160</td><td>32</td><td>2.72</td><td>2.36</td></tr>
+  <tr><td>3</td><td>192</td><td>16</td><td>2.34</td><td>2.15</td></tr>
+  <tr><td>3</td><td>192</td><td>32</td><td>2.32</td><td>2.14</td></tr>
+  <tr><td>2</td><td>272</td><td>16</td><td>1.77</td><td>1.61</td></tr>
+  <tr><td>2</td><td>272</td><td>32</td><td>1.76</td><td>1.56</td></tr>
+  <tr><td>2</td><td>288</td><td>16</td><td>1.68</td><td>1.67</td></tr>
+  <tr><td>2</td><td>288</td><td>32</td><td>1.67</td><td>1.61</td></tr>
+</table>

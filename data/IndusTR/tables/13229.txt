@@ -1,0 +1,10 @@
+<table>
+  <caption>Terminal Lifecycle Functional Test Cases: Registration to Deregistration (Clean Set)</caption>
+  <tr><th>Test Case ID</th><th>Test Item</th><th>Test Sub-item</th><th>Test Objective</th></tr>
+  <tr><td>6.1.1.21</td><td>Logistics M2M Terminal Management</td><td>Logistics Terminal Registration</td><td>Verify the logistics terminal registration function under normal network conditions</td></tr>
+  <tr><td>6.1.1.22</td><td>Logistics M2M Terminal Management</td><td>Logistics Terminal Login</td><td>Verify the logistics terminal login function with valid credentials</td></tr>
+  <tr><td>6.1.1.23</td><td>Logistics M2M Terminal Management</td><td>Logistics Terminal Logout</td><td>Verify the logistics terminal logout function and session termination</td></tr>
+  <tr><td>6.1.1.24</td><td>Logistics M2M Terminal Management</td><td>Logistics Terminal Deregistration</td><td>Verify the logistics terminal deregistration function removes the terminal from the platform</td></tr>
+  <tr><td>6.1.1.25</td><td>Logistics M2M Terminal Management</td><td>Logistics Terminal Re-registration</td><td>Verify the terminal can register again after deregistration</td></tr>
+  <tr><td>6.1.1.26</td><td>Logistics M2M Terminal Management</td><td>Logistics Terminal Login After Re-registration</td><td>Verify the terminal can log in successfully after re-registration</td></tr>
+</table>

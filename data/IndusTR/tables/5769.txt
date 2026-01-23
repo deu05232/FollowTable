@@ -1,0 +1,16 @@
+<table>
+  <caption>Knitting Process Runtime Metrics Dictionary (Piece/Shift)</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0310</td><td>Piece Running Time</td><td>PieceRunningTime</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Elapsed time the machine is actively knitting for the current piece (excludes pauses).</td><td></td></tr>
+    <tr><td>0x0311</td><td>Piece Downtime</td><td>PieceDowntime</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Total paused time during the knitting of the current piece.</td><td></td></tr>
+    <tr><td>0x0312</td><td>Piece Total Elapsed Time</td><td>PieceElapsedTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Total elapsed time from piece start to piece end (running + downtime).</td><td></td></tr>
+    <tr><td>0x0313</td><td>Last Piece Running Time</td><td>LastPieceRunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Active knitting time for the previous completed piece.</td><td></td></tr>
+    <tr><td>0x0314</td><td>Last Piece Downtime</td><td>LastPieceDowntime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>s</td><td>Paused time recorded during the previous completed piece.</td><td></td></tr>
+    <tr><td>0x0315</td><td>Current Shift Running Time</td><td>CurrentShiftRunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Accumulated active knitting time since shift start.</td><td></td></tr>
+    <tr><td>0x0316</td><td>Current Shift Downtime</td><td>CurrentShiftDowntime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Accumulated paused time since shift start (stop/pause states only).</td><td></td></tr>
+    <tr><td>0x0317</td><td>Current Shift Elapsed Time</td><td>CurrentShiftElapsedTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>>=0</td><td>min</td><td>Total elapsed time since shift start (running + downtime).</td><td></td></tr>
+  </tbody>
+</table>

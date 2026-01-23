@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Operational Profile (with Mandatory/Optional & Constraint Flags)</caption>
+  <thead>
+    <tr><th>Device Category</th><th>Parameter Name</th><th>Data Element ID</th><th>Required (A/B)</th><th>Constraint Flag</th><th>Constraint Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Infusion Pump</td><td>Infusion Rate Range</td><td>H1095A0000</td><td>B</td><td>C1</td><td>If programmable rate is enabled</td></tr>
+    <tr><td>Infusion Pump</td><td>Infusion Accuracy</td><td>H1097A0000</td><td>B</td><td>C1</td><td>Applies to steady-state delivery</td></tr>
+    <tr><td>Defibrillator</td><td>Energy Range</td><td>H1076A0000</td><td>B</td><td>C2</td><td>Depends on adult/pediatric mode</td></tr>
+    <tr><td>Ventilator</td><td>Ventilation Mode</td><td>H1129A0000</td><td>B</td><td>C3</td><td>Only when invasive ventilation is supported</td></tr>
+    <tr><td>Traction Bed</td><td>Cervical Traction Speed</td><td>H1241A0000</td><td>A</td><td>C4</td><td>Optional motorized configuration</td></tr>
+    <tr><td>Biochemical Analyzer</td><td>Testing Speed</td><td>H1177A0000</td><td>B</td><td>C5</td><td>When continuous loading is configured</td></tr>
+    <tr><td>Hematology Analyzer</td><td>Detection Principle</td><td>H1226A0000</td><td>A</td><td>C6</td><td>Only if multi-principle detection is supported</td></tr>
+  </tbody>
+</table>

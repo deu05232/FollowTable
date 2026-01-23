@@ -1,0 +1,7 @@
+<table>
+  <caption>AR Environment Understanding API Parameters (session/config only)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>config</td><td>ArConfig *</td><td>Session configuration used to initialize or update the session</td></tr>
+  <tr><td>camera_config</td><td>ArCameraConfig *</td><td>Selected camera configuration for the session</td></tr>
+</table>

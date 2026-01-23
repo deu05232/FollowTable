@@ -1,0 +1,15 @@
+<table>
+  <caption>Public Security Video/Image Information Items — DE-Based Field List (No Item Identifiers)</caption>
+  <thead>
+    <tr><th>No.</th><th>Item Name</th><th>Description</th><th>Referenced Public Security Data Element (DE)</th><th>Cardinality</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Camera Identifier</td><td>Code of the camera device</td><td>DE02001</td><td>1</td></tr>
+    <tr><td>2</td><td>Camera Name</td><td>Human-readable camera name</td><td>DE02002</td><td>0..1</td></tr>
+    <tr><td>3</td><td>Installation Location Administrative Division Code</td><td>GB/T 2260 administrative division</td><td>DE02003</td><td>0..1</td></tr>
+    <tr><td>4</td><td>Video Segment Identifier</td><td>Identifier for a continuous segment</td><td>DE02011</td><td>1</td></tr>
+    <tr><td>5</td><td>Video Segment Collection Method Code</td><td>How the segment was collected</td><td>DE02012</td><td>1</td></tr>
+    <tr><td>6</td><td>Item Object Identifier</td><td>Identifier of an item object within an image</td><td>DE02021</td><td>0..n</td></tr>
+    <tr><td>7</td><td>Person Object Identifier</td><td>Identifier of a person object</td><td>DE02031</td><td>0..n</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Recommended Electrical Supply Conditions for Copier/MFD Energy Measurements (Non-procedural)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Nominal</th><th>Allowable Range</th><th>Applies To</th><th>Rationale/Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AC input voltage</td><td>230 V</td><td>207–253 V</td><td>All modes</td><td>Maintain stable supply to reduce measurement uncertainty</td></tr>
+    <tr><td>Line frequency</td><td>50 Hz</td><td>49.5–50.5 Hz</td><td>All modes</td><td>Use regulated source if building supply varies</td></tr>
+    <tr><td>Total harmonic distortion (THD)</td><td>≤ 3%</td><td>≤ 5%</td><td>All modes</td><td>Higher THD may bias true power measurement</td></tr>
+    <tr><td>Voltage fluctuation during test</td><td>≤ 1%</td><td>≤ 2%</td><td>Sleep/ready/off</td><td>Especially important for low-power states</td></tr>
+    <tr><td>Power factor (source)</td><td>≥ 0.99</td><td>≥ 0.95</td><td>Ready/printing</td><td>Prefer low-impedance supply for high-load transitions</td></tr>
+    <tr><td>Grounding</td><td>Protective earth</td><td>Required</td><td>All modes</td><td>Safety requirement and noise reduction</td></tr>
+    <tr><td>Ambient temperature</td><td>23 °C</td><td>20–26 °C</td><td>All modes</td><td>Keep within tolerance to avoid thermostat-driven cycling</td></tr>
+    <tr><td>Relative humidity</td><td>50%</td><td>30–70%</td><td>All modes</td><td>Prevent paper curl and condensation that can affect duty cycles</td></tr>
+  </tbody>
+</table>

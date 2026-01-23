@@ -1,0 +1,14 @@
+<table>
+  <caption>Visible-Light Imagery Processing Pipeline — GPU Server Hardware Specification Matrix</caption>
+  <thead>
+    <tr><th>Server SKU</th><th>CPU</th><th>RAM</th><th>GPU</th><th>Storage</th><th>Throughput (images/min)</th><th>Power (W)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>IR-Lab Edge-1U</td><td>Xeon Silver 4314</td><td>128 GB</td><td>RTX A4000 16GB</td><td>2×3.84TB NVMe</td><td>180</td><td>520</td></tr>
+    <tr><td>IR-Lab Edge-2U</td><td>EPYC 7443P</td><td>256 GB</td><td>RTX A5000 24GB</td><td>4×3.84TB NVMe</td><td>320</td><td>780</td></tr>
+    <tr><td>IR-Lab Batch-2U</td><td>EPYC 7713P</td><td>512 GB</td><td>2×A100 40GB</td><td>8×7.68TB NVMe</td><td>1100</td><td>1650</td></tr>
+    <tr><td>IR-Lab Storage-4U</td><td>Xeon Gold 6330</td><td>256 GB</td><td>None</td><td>24×16TB HDD (RAID6)</td><td>N/A</td><td>900</td></tr>
+    <tr><td>IR-Lab Hybrid-2U</td><td>EPYC 7543P</td><td>384 GB</td><td>RTX 6000 Ada 48GB</td><td>6×3.84TB NVMe</td><td>520</td><td>1200</td></tr>
+    <tr><td>IR-Lab Mini</td><td>i9-13900K</td><td>64 GB</td><td>RTX 4070 12GB</td><td>2×2TB NVMe</td><td>120</td><td>450</td></tr>
+  </tbody>
+</table>

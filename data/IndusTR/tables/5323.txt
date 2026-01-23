@@ -1,0 +1,14 @@
+<table>
+  <caption>Spunlace Equipment Process Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Speed Setting</td><td>SpeedSetting</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0201</td><td>Net Curtain Set Speed</td><td>SetTheSpeedOfNetCurtain</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td></td><td></td></tr>
+  <tr><td>0X0202</td><td>Drum Set Speed</td><td>DrumSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0203</td><td>Rolling Mill Set Speed</td><td>SetSpeedOfRollingMill</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0204</td><td>Suction Fan Set Speed</td><td>SetTheSpeedOfTheSuctionFan</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0205</td><td>Dehydration Fan Set Speed</td><td>DehydrationFanSetSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>1</td><td></td></tr>
+  <tr><td>0X0206</td><td>Rolling Mill Set Pressure</td><td>SetPressureOfRollingMill</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~10.00</td><td>MPa</td><td>1</td><td></td></tr>
+  <tr><td>0X0207</td><td>Water Pressure Setting</td><td>WaterPressureSetting</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~100.00</td><td>MPa</td><td>丨</td><td></td></tr>
+  <tr><td>0X0208</td><td>Lifting Web Pump Frequency</td><td>FrequencyOfLiftingPump</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0209</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td></td><td></td><td>1</td><td>1</td><td>1</td></tr>
+</table>

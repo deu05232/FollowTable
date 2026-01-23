@@ -1,0 +1,19 @@
+<table>
+  <caption>GNSS SSR Phase Bias Payload Layout (Identifiers Only, Types Omitted)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Field Identifier</th><th>Encoding</th><th>Length (bits)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message Type Number</td><td>DF002</td><td></td><td>12</td><td>Message family discriminator</td></tr>
+    <tr><td>Header</td><td>Epoch Time (TOW)</td><td>DF004</td><td></td><td>20</td><td>Time tag for SSR data</td></tr>
+    <tr><td>Header</td><td>SSR Update Interval</td><td>DF391</td><td></td><td>4</td><td>Update rate indicator</td></tr>
+    <tr><td>Header</td><td>Provider ID</td><td>DF414</td><td></td><td>16</td><td>Data provider</td></tr>
+    <tr><td>Header</td><td>Solution ID</td><td>DF415</td><td></td><td>4</td><td>Solution instance</td></tr>
+    <tr><td>Phase Bias Block</td><td>Number of Phase Biases</td><td>DF479</td><td></td><td>5</td><td>Repeating block count</td></tr>
+    <tr><td>Phase Bias Block</td><td>Signal and Tracking Mode</td><td>DF380</td><td></td><td>5</td><td>Signal descriptor (per bias)</td></tr>
+    <tr><td>Phase Bias Block</td><td>Signal Integer Indicator</td><td>DF483</td><td></td><td>1</td><td>Integer ambiguity status</td></tr>
+    <tr><td>Phase Bias Block</td><td>Wide-Lane Integer Indicator</td><td>DF484</td><td></td><td>2</td><td>Wide-lane status flags</td></tr>
+    <tr><td>Phase Bias Block</td><td>Phase Bias (cycles)</td><td>DF485</td><td></td><td>14</td><td>Signed value, scaling not shown</td></tr>
+    <tr><td>Phase Bias Block</td><td>Phase Bias Discontinuity Counter</td><td>DF486</td><td></td><td>4</td><td>Change counter</td></tr>
+  </tbody>
+</table>

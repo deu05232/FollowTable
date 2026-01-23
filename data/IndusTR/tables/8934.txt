@@ -1,0 +1,14 @@
+<table>
+  <caption>VR Positioning Device Pose Retrieval API Signatures (Not a Pose Structure Definition)</caption>
+  <thead>
+    <tr><th>Category</th><th>Function</th><th>Signature</th><th>Key Parameters</th><th>Return</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Device Discovery</td><td>GetPositionableDeviceList</td><td>bool vrDeviceGetPositionableDeviceList(vrPositionableDevice **device, int32_t *out_size)</td><td>out_size: list length</td><td>true on success</td></tr>
+    <tr><td>GetPositionableDeviceType</td><td>bool vrDeviceGetPositionableDeviceType(const vrPositionableDevice *device, vrPositionableDeviceType *type)</td><td>type: output enum</td><td>true on success</td></tr>
+    <tr><td rowspan="4">Pose Acquisition</td><td>GetMotionPose</td><td>bool vrDeviceGetPositionableDeviceMotionPose(const vrPositionableDevice *device, vrPose *pose, vrMotionData *motion)</td><td>pose: output pose; motion: output motion</td><td>true on success</td></tr>
+    <tr><td>GetPoseOnly</td><td>bool vrDeviceGetPositionableDevicePose(const vrPositionableDevice *device, vrPose *pose)</td><td>pose: output pose</td><td>true on success</td></tr>
+    <tr><td>GetPredictedPose</td><td>bool vrDeviceGetPredictedPose(const vrPositionableDevice *device, double prediction_seconds, vrPose *out_pose)</td><td>prediction_seconds: horizon</td><td>true on success</td></tr>
+    <tr><td>ResetTrackingOrigin</td><td>bool vrDeviceResetTrackingOrigin(const vrPositionableDevice *device)</td><td>-</td><td>true on success</td></tr>
+  </tbody>
+</table>

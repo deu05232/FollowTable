@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Message CMD-0x92: Parameter Sequence Layout (Non-SPN Oriented)</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x92</td></tr>
+    <tr><td>2</td><td>Message Counter</td><td>1 byte</td><td>BYTE</td><td>CounterType</td><td>Incremented per message</td></tr>
+    <tr><td>3</td><td>Charging Mode</td><td>1 byte</td><td>BYTE</td><td>ModeType</td><td>0x01: DC fast; 0x02: AC; 0xFF: invalid</td></tr>
+    <tr><td>4</td><td>Requested Voltage</td><td>2 bytes</td><td>UINT16</td><td>VoltReqType</td><td>Unit: 0.1 V, little-endian</td></tr>
+    <tr><td>5</td><td>Requested Current</td><td>2 bytes</td><td>INT16</td><td>CurrReqType</td><td>Unit: 0.1 A, little-endian</td></tr>
+    <tr><td>6</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>ReservedType</td><td>Set to 0x00</td></tr>
+    <tr><td>7</td><td>CRC</td><td>2 bytes</td><td>UINT16</td><td>CRCType</td><td>CRC-16 of payload bytes 1..6</td></tr>
+  </tbody>
+</table>

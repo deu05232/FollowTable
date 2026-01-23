@@ -1,0 +1,7 @@
+<table>
+  <caption>VR positioning callbacks and handler prototypes</caption>
+  <tr><th>Event</th><th>When it fires</th><th>Handler prototype</th></tr>
+  <tr><td>Pose updated</td><td>New pose is available for a device</td><td>void onPoseUpdated(const vrPositionableDevice *dev, const vrPose *pose)</td></tr>
+  <tr><td>Relocalization changed</td><td>Relocalization mode or state changes</td><td>void onRelocalizationChanged(vrHMDRelocalizationMode mode)</td></tr>
+  <tr><td>Tracking state changed</td><td>Tracking transitions between states</td><td>void onTrackingStateChanged(int32_t new_state)</td></tr>
+</table>

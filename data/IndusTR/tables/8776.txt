@@ -1,0 +1,8 @@
+<table>
+  <caption>SpaceFibre electrical transmitter requirements (per-parameter limits)</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Description</th></tr>
+  <tr><td>Transmit differential output voltage (pp)</td><td>VOD</td><td>250</td><td>400</td><td>600</td><td>mV</td><td>Differential peak-to-peak at transmitter pins</td></tr>
+  <tr><td>Output rise time (20%–80%)</td><td>tR</td><td></td><td>35</td><td>70</td><td>ps</td><td>Measured at specified test point</td></tr>
+  <tr><td>Output fall time (80%–20%)</td><td>tF</td><td></td><td>35</td><td>70</td><td>ps</td><td>Measured at specified test point</td></tr>
+  <tr><td>Deterministic jitter (peak-to-peak)</td><td>DJ</td><td></td><td></td><td>0.10</td><td>UI</td><td>At specified BER and pattern length</td></tr>
+</table>

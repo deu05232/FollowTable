@@ -1,0 +1,16 @@
+<table>
+  <caption>Battery Pack Safety Validation Matrix (Shock + Vibration + Thermal + Electrical Abuse)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Category</th><th rowspan="2">Subtest</th><th colspan="2">Key Parameters</th><th rowspan="2">Acceptance Criteria (examples)</th></tr>
+    <tr><th>Setpoint</th><th>Duration / Repeats</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Mechanical Shock</td><td>Half-sine shock</td><td>30 g, 11 ms, ±X/±Y/±Z</td><td>3 pulses per direction</td><td>No electrolyte leakage; no fire; insulation > 100 Ω/V</td></tr>
+    <tr><td>Drop impact</td><td>1.0 m drop onto steel plate</td><td>2 drops (worst face)</td><td>No rupture; no explosion; functional check pass</td></tr>
+    <tr><td rowspan="2">Vibration</td><td>Random vibration PSD</td><td>10–200 Hz, 0.05–0.12 g²/Hz (axis-dependent)</td><td>21 h per axis</td><td>No loose parts; no connector disengagement</td></tr>
+    <tr><td>Sine sweep</td><td>5–55 Hz, 0.5 g</td><td>2 oct/min, 10 cycles</td><td>No resonance-induced damage</td></tr>
+    <tr><td rowspan="2">Thermal</td><td>Temperature cycling</td><td>-40 °C ↔ 85 °C</td><td>10 cycles, 2 h dwells</td><td>No cracking; no venting</td></tr>
+    <tr><td>Thermal shock</td><td>-40 °C to 85 °C step</td><td>30 min transfer, 5 cycles</td><td>No seal failure</td></tr>
+    <tr><td>Electrical Abuse</td><td>Overcharge</td><td>1.2C to 1.5× rated voltage</td><td>Until cutoff or 2 h</td><td>No fire; no explosion</td></tr>
+  </tbody>
+</table>

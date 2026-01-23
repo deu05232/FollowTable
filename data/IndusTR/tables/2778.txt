@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Environmental Conditions for Video Codec Compliance Facilities</caption>
+  <tr><th>Condition Item</th><th>Target Range</th><th>Measurement Interval</th><th>Sensor Type</th><th>Acceptance Criteria</th><th>Notes</th></tr>
+  <tr><td>Ambient temperature</td><td>20–24 °C</td><td>5 min</td><td>Digital thermometer</td><td>Within range for 95% of run time</td><td>Applies during long regression runs</td></tr>
+  <tr><td>Relative humidity</td><td>30–60%</td><td>10 min</td><td>Hygrometer</td><td>No condensation</td><td>Protects storage media</td></tr>
+  <tr><td>Mains voltage</td><td>220 V ± 5%</td><td>1 min</td><td>Power analyzer</td><td>No brownouts</td><td>UPS recommended</td></tr>
+  <tr><td>Network latency</td><td>< 30 ms</td><td>Continuous</td><td>ICMP monitor</td><td>Packet loss < 0.1%</td><td>Affects distributed decoding</td></tr>
+  <tr><td>Acoustic noise</td><td>< 55 dBA</td><td>Daily</td><td>Sound level meter</td><td>Pass/Fail</td><td>Operator comfort</td></tr>
+  <tr><td>Electrostatic control</td><td>ESD < 100 V</td><td>Weekly</td><td>ESD meter</td><td>Pass/Fail</td><td>Handling removable drives</td></tr>
+</table>

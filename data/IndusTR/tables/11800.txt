@@ -1,0 +1,19 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Message 62 Field Layout (Bit-Oriented)</caption>
+  <thead>
+    <tr><th>Message Field / Parameter</th><th>Bit Length</th><th>Requirement / Encoding Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 62; shall be fixed to 62</td></tr>
+    <tr><td>Repeat Indicator</td><td>2</td><td>Repeater relay count; shall be set to 0 for initial broadcast</td></tr>
+    <tr><td>Source MMSI</td><td>30</td><td>Maritime Mobile Service Identity of the transmitting device; encode as an unsigned integer (0–999999999)</td></tr>
+    <tr><td>Autonomous Mode Flag</td><td>1</td><td>0 = remotely controlled/assisted; 1 = autonomous operation</td></tr>
+    <tr><td>Equipment Class</td><td>2</td><td>00 = Class B autonomous radio equipment; other values reserved; reserved values shall be transmitted as 00 and ignored on reception</td></tr>
+    <tr><td>Sequence Number</td><td>5</td><td>Modulo-32 counter incremented per new message instance; used for de-duplication</td></tr>
+    <tr><td>Payload Type</td><td>4</td><td>0000 = status report; 0001 = position/velocity; 0010 = route intent; other values reserved</td></tr>
+    <tr><td>Payload Length</td><td>10</td><td>Number of payload bits following this field (0–1023); receiver shall validate consistency with total message length</td></tr>
+    <tr><td>Reserved for Regional Use</td><td>8</td><td>Set to all zeros; receiver shall ignore</td></tr>
+    <tr><td>Spare</td><td>4</td><td>Set to all zeros for transmission</td></tr>
+    <tr><td>CRC / FCS</td><td>16</td><td>Frame check sequence; polynomial and initialization as specified by the link layer; receiver shall discard frames with CRC mismatch</td></tr>
+  </tbody>
+</table>

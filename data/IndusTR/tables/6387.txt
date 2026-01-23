@@ -1,0 +1,7 @@
+<table>
+  <caption>Knitting Equipment Data Dictionary — Pattern Counters (typed attributes)</caption>
+  <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  <tr><td>0X0210</td><td>Pattern Row Count</td><td>PatternRowCount</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~1000000</td><td>row</td><td>Total rows in the currently loaded pattern</td><td></td></tr>
+  <tr><td>0X0211</td><td>Pattern Repeat Count</td><td>PatternRepeatCount</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~100000</td><td>times</td><td>How many repeats are configured for the pattern</td><td></td></tr>
+  <tr><td>0X0212</td><td>Pattern Enabled</td><td>PatternEnabled</td><td>0</td><td>VAR</td><td>RW</td><td>Boolean</td><td>0/1</td><td></td><td>Enable/disable the current pattern</td><td>0: Disabled 1: Enabled</td></tr>
+</table>

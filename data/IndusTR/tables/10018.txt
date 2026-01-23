@@ -1,0 +1,14 @@
+<table>
+  <caption>Charger Abort / End-of-Session Packet (Includes Readiness and Protocol Info)</caption>
+  <thead>
+    <tr><th>Section</th><th>Byte Offset</th><th>Length</th><th>Parameter</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Abort Diagnostics</td><td>1</td><td>1 byte</td><td>Parameter Group Identifier</td><td>BYTE</td><td>Fixed value (e.g., 0x03)</td></tr>
+    <tr><td>2</td><td>1 byte</td><td>Charger Abort Type</td><td>EndCodeType</td><td>Abort category for session end</td></tr>
+    <tr><td>3</td><td>2 bytes</td><td>Charger Abort Reason</td><td>EndReasonType</td><td>Abort reason code for session end</td></tr>
+    <tr><td rowspan="3">Non-diagnostic Add-ons</td><td>5</td><td>1 byte</td><td>Charger Ready Status</td><td>BYTE</td><td>Readiness flag (not a stop reason)</td></tr>
+    <tr><td>6</td><td>3 bytes</td><td>Protocol Version</td><td>BYTE[3]</td><td>Communication protocol version number</td></tr>
+    <tr><td>9</td><td>7 bytes</td><td>Timestamp</td><td>BYTE[7]</td><td>Event time (YY/MM/DD/HH/MM/SS)</td></tr>
+  </tbody>
+</table>

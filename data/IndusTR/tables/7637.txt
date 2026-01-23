@@ -1,0 +1,8 @@
+<table>
+  <caption>Traditional Mongolian control characters: recommended sequences by control mark</caption>
+  <tr><th>Control mark</th><th>Purpose</th><th>Recommended fixed sequence</th><th>Notes</th></tr>
+  <tr><td>MVS (U+180B..U+180D)</td><td>Selector for glyph variation</td><td>[MVS]+[U+1820]</td><td>Use only where documented</td></tr>
+  <tr><td>FVS1 (U+180B)</td><td>Free variation selector</td><td>[U+180B]+[U+1821]</td><td>Prefer consistent encoding</td></tr>
+  <tr><td>ZWJ (U+200D)</td><td>Join control</td><td>[U+1828]+[U+200D]+[U+1820]</td><td>Affects shaping in some renderers</td></tr>
+  <tr><td>ZWNJ (U+200C)</td><td>Non-join control</td><td>[U+1820]+[U+200C]+[U+1820]</td><td>Use to block joining</td></tr>
+</table>

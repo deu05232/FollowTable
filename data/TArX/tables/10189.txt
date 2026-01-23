@@ -1,0 +1,16 @@
+<table>
+  <caption>Planetary Polarization Measurements with Instrument/Method Benchmarking and Non-planet Calibrators</caption>
+  <thead>
+    <tr><th rowspan="2">Object</th><th rowspan="2">Class</th><th rowspan="2">Band</th><th colspan="3">Polarization quantities</th><th rowspan="2">Technique / Instrument</th><th rowspan="2">Notes</th></tr>
+    <tr><th>P (%)</th><th>Q/I (%)</th><th>U/I (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mars</td><td>Planet</td><td>R</td><td>0.42</td><td>-0.41</td><td>0.06</td><td>Imaging polarimetry / PlanetPol</td><td>Disk-integrated</td></tr>
+    <tr><td>Jupiter</td><td>Planet</td><td>I</td><td>0.18</td><td>-0.16</td><td>0.04</td><td>Dual-beam polarimeter / ZIMPOL</td><td>High cloud albedo assumed</td></tr>
+    <tr><td>Saturn</td><td>Planet</td><td>V</td><td>0.25</td><td>-0.22</td><td>0.03</td><td>Aperture polarimetry / FORS2</td><td>Rings partially included</td></tr>
+    <tr><td>(136199) Eris</td><td>Dwarf planet</td><td>R</td><td>0.09</td><td>-0.09</td><td>0.00</td><td>Aperture polarimetry / FORS1</td><td>Near-opposition</td></tr>
+    <tr><td>HD 189733 b</td><td>Exoplanet</td><td>B</td><td>0.003</td><td>0.002</td><td>0.002</td><td>High-precision polarimetry / HIPPI</td><td>Model-dependent extraction</td></tr>
+    <tr><td>BD+59 389</td><td>Standard star</td><td>V</td><td>5.90</td><td>5.88</td><td>0.49</td><td>Calibration standard</td><td>Non-planet target</td></tr>
+    <tr><td>PTFE slab</td><td>Material sample</td><td>Visible</td><td>99.0</td><td>98.7</td><td>0.0</td><td>Lab scatter bench</td><td>Instrument Mueller-matrix check</td></tr>
+  </tbody>
+</table>

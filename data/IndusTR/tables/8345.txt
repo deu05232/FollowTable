@@ -1,0 +1,14 @@
+<table>
+  <caption>ARImageStabilizationMode Enumeration Values (Mobile AR Camera)</caption>
+  <thead>
+    <tr><th>ARImageStabilizationMode Value</th><th>Numeric</th><th>Behavior / What it does</th><th>Trade-off</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ARIMAGE_STABILIZATION_MODE_OFF</td><td>0</td><td>Disables stabilization; frames are delivered as captured with no motion compensation.</td><td>Lowest processing cost; can look shaky</td></tr>
+    <tr><td>ARIMAGE_STABILIZATION_MODE_ON</td><td>1</td><td>Enables standard stabilization to reduce small hand jitter in the camera stream.</td><td>Slight crop/latency may be introduced</td></tr>
+    <tr><td>ARIMAGE_STABILIZATION_MODE_HIGH_QUALITY</td><td>2</td><td>Uses a stronger stabilization profile to keep the image steadier during moderate motion.</td><td>More crop and compute than standard</td></tr>
+    <tr><td>ARIMAGE_STABILIZATION_MODE_CINEMATIC</td><td>3</td><td>Prioritizes smoothness across frames for video-like motion; can smooth sudden changes.</td><td>Highest latency among stabilization modes</td></tr>
+    <tr><td>ARIMAGE_STABILIZATION_MODE_AUTO</td><td>4</td><td>Runtime chooses the stabilization level based on device capability and motion conditions.</td><td>Behavior can vary by device/scene</td></tr>
+    <tr><td>ARIMAGE_STABILIZATION_MODE_SENSOR_ONLY</td><td>5</td><td>Uses IMU-based compensation only; avoids heavy image-based warping.</td><td>Less effective for complex motion; minimal visual artifacts</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Enhanced IR Curved-Band Pattern: Wrap Angle (radians) Ranges to Intensity Parameters (DT and Suggested CI)</caption>
+  <thead>
+    <tr><th rowspan="2">Wrap angle interval (radians)</th><th colspan="2">Primary lookup outputs</th><th rowspan="2">Notes / adjustments</th></tr>
+    <tr><th>DT</th><th>Suggested CI range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>< 0.20</td><td>1.0</td><td>[1.0, 1.5]</td><td>If band is indistinct, use the lower end of CI.</td></tr>
+    <tr><td>[0.20, 0.40)</td><td>1.5 ± 0.5</td><td>[1.5, 2.0]</td><td>Use +0.5 DT if the analyzed band is white.</td></tr>
+    <tr><td>[0.40, 0.55]</td><td>2.5</td><td>[2.5, 3.0]</td><td>Apply directly to curved-band cases (no eye feature).</td></tr>
+    <tr><td>(0.55, 0.60)</td><td>2.75</td><td>[2.5, 3.0]</td><td>Interpolation bin for borderline wraps.</td></tr>
+    <tr><td>[0.60, 0.75]</td><td>3.0</td><td>[3.0, 3.5]</td><td>Increase confidence if band curvature is continuous for > 270°.</td></tr>
+    <tr><td>(0.75, 0.80)</td><td>3.25</td><td>[3.0, 3.5]</td><td>Transitional bin; avoid eye-pattern rules unless an eye is evident.</td></tr>
+    <tr><td>[0.80, 1.00]</td><td>3.5</td><td>[3.5, 4.0]</td><td>If wrap is highly symmetric, consider upper end of CI.</td></tr>
+    <tr><td>> 1.00</td><td>Use eye-pattern table</td><td>Use eye-pattern table</td><td>When wrap angle exceeds 1.0, switch to eye-pattern analysis.</td></tr>
+  </tbody>
+</table>

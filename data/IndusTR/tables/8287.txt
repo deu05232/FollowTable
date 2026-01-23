@@ -1,0 +1,15 @@
+<table>
+  <caption>Video/Image Subscription Operation Codes</caption>
+  <thead>
+    <tr><th>Code</th><th>Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Subscribe</td><td>Create a subscription to video/image event notifications</td></tr>
+    <tr><td>2</td><td>Unsubscribe</td><td>Remove an existing subscription</td></tr>
+    <tr><td>3</td><td>Renew Subscription</td><td>Extend subscription validity period</td></tr>
+    <tr><td>4</td><td>Pause Subscription</td><td>Temporarily stop sending notifications</td></tr>
+    <tr><td>5</td><td>Resume Subscription</td><td>Resume sending notifications</td></tr>
+    <tr><td>6</td><td>Query Subscription Status</td><td>Return current subscription state</td></tr>
+    <tr><td>7</td><td>Acknowledge Notification</td><td>Client ACK for received notification</td></tr>
+  </tbody>
+</table>

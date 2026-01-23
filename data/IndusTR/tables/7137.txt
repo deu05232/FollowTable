@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Offset Calibration Metadata Attributes</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Offset Calibration Sequence</td><td>(0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td>Container for offset (dark-field) calibration artifacts and descriptors.</td></tr>
+    <tr><td>>Offset Calibration File</td><td>(0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Binary content of the offset calibration image acquired with no-radiation exposure.</td></tr>
+    <tr><td>>Offset Calibration Description</td><td>(0014,3052)</td><td>LO</td><td>1</td><td>3</td><td>Free-text description of the offset calibration procedure or purpose.</td></tr>
+    <tr><td>>Offset Calibration DateTime</td><td>(0014,3054)</td><td>DT</td><td>1</td><td>3</td><td>Date and time when the offset calibration was performed.</td></tr>
+    <tr><td>>Offset Calibration Device Temperature</td><td>(0014,3056)</td><td>DS</td><td>1</td><td>3</td><td>Detector/device temperature (in degrees) at the time of offset calibration.</td></tr>
+    <tr><td>>Offset Calibration Frame Average</td><td>(0014,3058)</td><td>US</td><td>1</td><td>3</td><td>Number of frames averaged to generate the stored offset calibration artifact.</td></tr>
+    <tr><td>>Offset Calibration Validity Flag</td><td>(0014,305A)</td><td>CS</td><td>1</td><td>3</td><td>Indicates whether the offset calibration is considered valid (e.g., VALID/INVALID).</td></tr>
+  </tbody>
+</table>

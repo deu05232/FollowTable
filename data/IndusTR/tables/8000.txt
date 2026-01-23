@@ -1,0 +1,17 @@
+<table>
+  <caption>Common Service Description Model (CSDM) — Interface/Operation Definition Combined with Provider Profile and Consumer Restrictions</caption>
+  <thead>
+    <tr><th>Section</th><th>Chinese Name</th><th>English Name</th><th>Data Type / Format</th><th>Constraints</th><th>Max Occurrences</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Interface & Operations</td><td>Interface Name</td><td>interfaceName</td><td>C..128</td><td>M</td><td>1</td><td>Name of the interface.</td></tr>
+    <tr><td>Operation Name</td><td>operationName</td><td>C..128</td><td>M</td><td>N</td><td>Name of an operation exposed by the interface.</td></tr>
+    <tr><td>Operation Supports Transactionality</td><td>operationSupportTransaction</td><td>BL</td><td>M</td><td>N</td><td>Whether the operation supports transactionality (true/false).</td></tr>
+    <tr><td>Operation Timeout (ms)</td><td>operationTimeout</td><td>INT</td><td>0</td><td>N</td><td>Client-side suggested timeout for invoking the operation.</td></tr>
+    <tr><td rowspan="3">Service Provider Profile</td><td>Provider Name</td><td>providerName</td><td>C..128</td><td>M</td><td>1</td><td>Organization providing the service.</td></tr>
+    <tr><td>Unified Social Credit Code</td><td>unifiedSocialCreditCode</td><td>C18</td><td>0</td><td>1</td><td>Identifier compliant with GB 32100.</td></tr>
+    <tr><td>Provider Contact</td><td>providerContact</td><td>C..128</td><td>0</td><td>1</td><td>Contact person for the service provider.</td></tr>
+    <tr><td rowspan="2">Consumer Restrictions</td><td>Restriction on Consumer</td><td>restrictionOnConsumer</td><td>C..256</td><td>M</td><td>1</td><td>Conditions that consumers must meet.</td></tr>
+    <tr><td>Allowed Consumer Type</td><td>allowedConsumerType</td><td>C..64</td><td>0</td><td>N</td><td>Whitelisted consumer types (e.g., internal, partner).</td></tr>
+  </tbody>
+</table>

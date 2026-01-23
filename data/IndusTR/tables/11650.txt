@@ -1,0 +1,13 @@
+<table>
+  <caption>Command B7h — Report Sensor Status List (per-sensor status values)</caption>
+  <thead>
+    <tr><th>Start Symbol</th><th>KADDL (Extension Unit Address)</th><th>Command</th><th>Length</th><th colspan="5">Data Segment</th><th>CRC-16</th><th>End Symbol</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>55H AAH 55H AAH</td><td>01H..FFH</td><td>B7H</td><td>0003H..00FFH</td><td>ListType</td><td>Count</td><td>S0</td><td>... S(n-1)</td><td>Flags</td><td>Low..High</td><td>0DH 0AH</td></tr>
+    <tr><td colspan="11">Data field definition: ListType (1 byte) = 01H=Temperature probes, 02H=Humidity probes, 03H=CO2 probes. Count (1 byte) = number of sensor entries. Sk (1 byte each) = sensor k status code: 00H=OK, 01H=Open-circuit, 02H=Short-circuit, 03H=Out-of-range. Flags (1 byte) bit0=DataValid, bit1=AlarmActive, bit2=Calibrating, bit7=Reserved. Length = 3 + Count.</td></tr>
+    <tr><td colspan="11">Example payload: ListType=01H, Count=04H, S0=00H, S1=03H, S2=00H, S3=01H, Flags=03H → Data = 01 04 00 03 00 01 03, Length=0007H.</td></tr>
+    <tr><td colspan="11">Direction: Extension unit → Controller. Carries operational status values per device (array payload) for monitoring and control verification.</td></tr>
+    <tr><td colspan="11">Notes: Sk corresponds to the extension unit’s sensor addressing order; missing sensors should still be counted and set to 01H (Open-circuit) if physically absent.</td></tr>
+  </tbody>
+</table>

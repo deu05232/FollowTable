@@ -1,0 +1,15 @@
+<table>
+  <caption>APDU Troubleshooting Matrix: Error Status Words Mapped to Likely Command Causes</caption>
+  <thead>
+    <tr><th>SW1</th><th>SW2</th><th>Status Meaning</th><th>Most Likely Command-Side Cause</th><th>Check These Fields</th><th>Example Fix</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>90</td><td>00</td><td>Success</td><td>No error</td><td>null</td><td>Proceed</td></tr>
+    <tr><td>67</td><td>00</td><td>Wrong length (Lc)</td><td>Data field length does not match specification</td><td>Lc, Data size</td><td>Adjust Lc to actual payload length</td></tr>
+    <tr><td>6A</td><td>86</td><td>Incorrect parameters P1/P2</td><td>P1/P2 not supported for this INS</td><td>INS, P1, P2</td><td>Use valid P1/P2 combination for the selected INS</td></tr>
+    <tr><td>6C</td><td>XX</td><td>Wrong Le; correct length is XX</td><td>Expected response length differs from Le</td><td>Le</td><td>Retry with Le = XX</td></tr>
+    <tr><td>6D</td><td>00</td><td>Instruction code not supported</td><td>INS is not implemented or wrong channel selected</td><td>CLA, INS</td><td>Verify INS value and application selection</td></tr>
+    <tr><td>6E</td><td>00</td><td>Class not supported</td><td>CLA not supported by applet/card</td><td>CLA</td><td>Switch to supported CLA (e.g., 00 or 80 depending on card)</td></tr>
+    <tr><td>69</td><td>85</td><td>Conditions of use not satisfied</td><td>Security status not satisfied / missing authentication</td><td>Security environment, prior AUTH</td><td>Perform required authentication before command</td></tr>
+  </tbody>
+</table>

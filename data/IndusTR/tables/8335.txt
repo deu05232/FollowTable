@@ -1,0 +1,16 @@
+<table>
+  <caption>Environmental Adaptability Requirements for Beidou Monitoring Terminals (Temperature, Humidity, Thermal Shock)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Sub-item</th><th>Test parameters</th><th>Test conditions</th><th>Acceptance / functional expectations</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">High-temperature test</td><td>Operating state</td><td>+70 °C, 8 h</td><td>Powered on at nominal voltage; continuous operation</td><td>No reset or latch-up; all I/O and communication remain functional during and after test</td></tr>
+    <tr><td>Storage state</td><td>+85 °C, 16 h</td><td>Not powered; restore to room temperature for 2 h before inspection</td><td>No enclosure deformation/cracking; device powers on normally and self-test passes</td></tr>
+    <tr><td rowspan="2">Low-temperature test</td><td>Operating state</td><td>-30 °C, 8 h</td><td>Powered on at nominal voltage; periodic transmit/receive</td><td>No abnormal shutdown; indicators and keys work; data is not lost</td></tr>
+    <tr><td>Storage state</td><td>-45 °C, 16 h</td><td>Not powered; restore to room temperature for 2 h before inspection</td><td>Normal start-up; no condensation-related damage observed</td></tr>
+    <tr><td rowspan="2">Damp heat (steady)</td><td>Operating (preferred)</td><td>+40 °C, 95%RH, 48 h</td><td>Powered on; connectors mated; no external drying</td><td>No functional failure; insulation resistance remains acceptable; no corrosion causing poor contact</td></tr>
+    <tr><td>Storage</td><td>+55 °C, 95%RH, 24 h</td><td>Not powered</td><td>No visible corrosion; after drying 2 h, terminal operates normally</td></tr>
+    <tr><td>Thermal shock</td><td>Operating recovery check</td><td>-30 °C ↔ +70 °C, 10 cycles, dwell 30 min each, transfer <5 min</td><td>Not powered during transitions; functional check after final cycle</td><td>No cracking/warping; seals intact; all functions pass after test</td></tr>
+    <tr><td>Altitude / low pressure</td><td>Operational capability</td><td>Equivalent to 3000 m, 2 h</td><td>Powered on; nominal voltage</td><td>No abnormal reboot; communication remains stable; no enclosure leakage</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Vehicular Traffic Statistics by Road Segment (Hourly Summary)</caption>
+  <thead>
+    <tr><th>Road segment</th><th>Period</th><th>Traffic volume (veh/h)</th><th>Mean speed (km/h)</th><th>Queue length (veh)</th><th>Queue duration (min)</th><th>Delay (s/veh)</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="2">A9 Northbound</th><td>AM peak</td><td>5200</td><td>64</td><td>180</td><td>38</td><td>52</td></tr>
+    <tr><td>Off-peak</td><td>3100</td><td>92</td><td>25</td><td>6</td><td>9</td></tr>
+    <tr><th rowspan="2">A9 Southbound</th><td>AM peak</td><td>4800</td><td>61</td><td>210</td><td>44</td><td>61</td></tr>
+    <tr><td>Off-peak</td><td>2900</td><td>95</td><td>18</td><td>4</td><td>7</td></tr>
+    <tr><th rowspan="2">Ring Road R1</th><td>PM peak</td><td>5600</td><td>58</td><td>240</td><td>49</td><td>70</td></tr>
+    <tr><td>Off-peak</td><td>3300</td><td>88</td><td>35</td><td>9</td><td>12</td></tr>
+    <tr><th rowspan="2">Urban Arterial U3</th><td>PM peak</td><td>2600</td><td>31</td><td>95</td><td>27</td><td>85</td></tr>
+    <tr><td>Off-peak</td><td>1700</td><td>41</td><td>40</td><td>11</td><td>36</td></tr>
+  </tbody>
+</table>

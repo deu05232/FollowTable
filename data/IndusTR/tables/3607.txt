@@ -1,0 +1,21 @@
+<table>
+  <caption>BeiDou Precise Point Positioning Service Message Type 1 (Satellite Mask) Parameter Description Table</caption>
+  <tr><td>Field</td><td>Name</td><td>Length/bit</td><td>Scale factor</td><td>Range</td><td>Unit</td><td>Basic description</td></tr>
+  <tr><td>MesTypeID</td><td>Message type</td><td>6</td><td>1</td><td>0~63</td><td>One</td><td>See Table 5</td></tr>
+  <tr><td>Epoch time</td><td>Epoch time</td><td>17</td><td>1</td><td>0~86 399</td><td>S</td><td>BeiDou Time seconds-of-day count</td></tr>
+  <tr><td>Reserved bits</td><td>Reserved bits</td><td>4</td><td>1</td><td>0~15</td><td></td><td></td></tr>
+  <tr><td>IOD SSR</td><td>SSR issue of data</td><td>2</td><td>1</td><td>0~3</td><td></td><td>Changes when system configuration changes</td></tr>
+  <tr><td>IODP</td><td>Mask issue of data</td><td>4</td><td>1</td><td>0~15</td><td></td><td>Mask issue of data</td></tr>
+  <tr><td rowspan="2">BDS mask</td><td>Satellite slot1</td><td>1</td><td>1</td><td>0~1</td><td></td><td>BDS satellite #1 broadcast flag</td></tr>
+  <tr><td>to slot63</td><td>1</td><td>1</td><td>0~1</td><td></td><td>BDS satellite #63 broadcast flag</td></tr>
+  <tr><td rowspan="2">GPS mask</td><td>Satellite slot64</td><td>1</td><td>1</td><td>0~1</td><td></td><td>GPS satellite #1 broadcast flag</td></tr>
+  <tr><td>to slot100</td><td>1</td><td>1</td><td>0~1</td><td></td><td>GPS satellite #37 broadcast flag</td></tr>
+  <tr><td rowspan="2">GALILEO mask</td><td>Satellite slot101</td><td>1</td><td>1</td><td>0~1</td><td></td><td>GALILEO satellite #1 broadcast flag</td></tr>
+  <tr><td>to slot137</td><td>1</td><td>1</td><td>0~1</td><td></td><td>GALILEO satellite #37 broadcast flag</td></tr>
+  <tr><td rowspan="2">GLONASS mask</td><td>Satellite slot138</td><td>1</td><td>1</td><td>0~1</td><td></td><td>GLONASS satellite #1 broadcast flag</td></tr>
+  <tr><td>to slot174</td><td>1</td><td>1</td><td>0~1</td><td></td><td>GLONASS satellite #37 broadcast flag</td></tr>
+  <tr><td rowspan="2">Reserved mask</td><td>Satellite slot175</td><td>1</td><td>1</td><td>0~1</td><td></td><td>Reserved</td></tr>
+  <tr><td>to slot255</td><td>1</td><td>1</td><td>0~1</td><td></td><td>Reserved</td></tr>
+  <tr><td>Reserved bits</td><td>Reserved bits</td><td>174</td><td>1</td><td></td><td></td><td></td></tr>
+  <tr><td>CRC</td><td>Check bits</td><td>24</td><td></td><td></td><td></td><td></td></tr>
+</table>

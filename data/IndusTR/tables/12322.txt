@@ -1,0 +1,15 @@
+<table>
+  <caption>Purchased and Exported Steam/Heat Activity Data with CO2 Emission Factors by Source</caption>
+  <thead>
+    <tr><th>Energy Flow Category</th><th>Heat Carrier</th><th>Source / Supplier Type</th><th>Metering Boundary</th><th>Activity Quantity (GJ)</th><th>CO2 Emission Factor (tCO2/GJ)</th><th>Calculated Emissions (tCO2)</th><th>Reference Year</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Purchased heat</td><td>Steam</td><td>District heating network</td><td>Incoming meter</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Hot water</td><td>Third-party boiler house</td><td>Incoming meter</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Steam</td><td>On-site CHP (allocated heat)</td><td>Internal transfer</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Thermal oil</td><td>Supplier-delivered heat</td><td>Incoming meter</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="3">Exported heat</td><td>Steam</td><td>Export to neighboring facility</td><td>Outgoing meter</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Hot water</td><td>Export to district network</td><td>Outgoing meter</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Steam</td><td>Export to industrial park</td><td>Outgoing meter</td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>

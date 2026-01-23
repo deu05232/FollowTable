@@ -1,0 +1,7 @@
+<table>
+  <caption>Vehicle Information Parameters for Requesting Battery Swap Function Enablement</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>Per GB/T 27930, length 17 characters. Passing this parameter requires the device platform to restrict that only the vehicle with this identification code is allowed to start</td><td>Yes</td></tr>
+  <tr><td>License plate number</td><td>plateNum</td><td>string</td><td>License plate number</td><td>Fragrant</td></tr>
+  <tr><td>Vehicle product model</td><td>vehicleType</td><td>string</td><td>National standard vehicle product model</td><td>Yes</td></tr>
+</table>

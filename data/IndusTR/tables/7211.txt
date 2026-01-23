@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Control Characters: Allowed (Valid) Sequences for NIRUGU and FVS</caption>
+  <thead>
+    <tr><th>Control Character</th><th>Context</th><th>Recommended Display Form</th><th>Valid Character Sequence Example</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NIRUGU (U+180A)</td><td>After a base letter</td><td>Base + NIRUGU</td><td>[U+1820][U+180A]</td><td>Use only where shaping requires it</td></tr>
+    <tr><td>NIRUGU (U+180A)</td><td>Between two letters</td><td>Letter + NIRUGU + Letter</td><td>[U+1820][U+180A][U+1821]</td><td>Keep within a syllable unit</td></tr>
+    <tr><td>FVS1 (U+180B)</td><td>Free variation on select letters</td><td>Letter + FVS1</td><td>[U+1820][U+180B]</td><td>Commonly used for stylistic alternates</td></tr>
+    <tr><td>FVS2 (U+180C)</td><td>Specific glyph selection</td><td>Letter + FVS2</td><td>[U+1822][U+180C]</td><td>Font-dependent but sequence is valid</td></tr>
+    <tr><td>FVS3 (U+180D)</td><td>Rare alternates</td><td>Letter + FVS3</td><td>[U+1823][U+180D]</td><td>Avoid unless required by a standard</td></tr>
+    <tr><td>MVS (U+180E)</td><td>Before certain vowels</td><td>MVS + Letter</td><td>[U+180E][U+1820]</td><td>Legacy usage in some data sets</td></tr>
+    <tr><td>ZWJ (U+200D)</td><td>Joining control</td><td>Letter + ZWJ + Letter</td><td>[U+1820][U+200D][U+1821]</td><td>Only if a shaping engine needs it</td></tr>
+  </tbody>
+</table>

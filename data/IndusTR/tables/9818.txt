@@ -1,0 +1,18 @@
+<table>
+  <caption>ArHitResultList Accessors: Size and Index-Based Retrieval</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResultList_getSize</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>ArHitResultList_getSize</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Hit result list handle</td></tr>
+    <tr><td>ArHitResultList_getSize</td><td>out_size</td><td>int32_t *</td><td>out</td><td>Receives number of elements in the list</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Hit result list handle</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>index</td><td>int32_t</td><td>in</td><td>Zero-based index into the list</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>out_hit_result</td><td>ArHitResult *</td><td>out</td><td>Receives the hit result at the given index (borrowed reference)</td></tr>
+    <tr><td>ArHitResultList_isEmpty</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session pointer</td></tr>
+    <tr><td>ArHitResultList_isEmpty</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Hit result list handle</td></tr>
+    <tr><td>ArHitResultList_isEmpty</td><td>out_is_empty</td><td>bool *</td><td>out</td><td>Receives whether list contains zero elements</td></tr>
+  </tbody>
+</table>

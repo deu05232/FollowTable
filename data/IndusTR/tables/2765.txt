@@ -1,0 +1,15 @@
+<table>
+  <caption>Laboratory Conditions and QA QC Checklist for PM2.5 Gravimetric Measurement</caption>
+  <thead>
+    <tr><th>QA/QC Item</th><th>Requirement</th><th>Frequency</th><th>Target Range</th><th>Record Form</th><th>Nonconformance Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Balance Calibration</td><td>Class E2 weights</td><td>Daily</td><td>±0.02 mg</td><td>CAL-BAL-01</td><td>Recalibrate and reweigh filters</td></tr>
+    <tr><td>Conditioning Room Temperature</td><td>Controlled environment</td><td>Continuous</td><td>20–23°C</td><td>ENV-LOG-T</td><td>Hold samples until stable</td></tr>
+    <tr><td>Conditioning Room Humidity</td><td>Controlled environment</td><td>Continuous</td><td>30–40% RH</td><td>ENV-LOG-RH</td><td>Dehumidify/adjust HVAC</td></tr>
+    <tr><td>Filter Equilibration Time</td><td>Pre- and post-weigh</td><td>Each batch</td><td>≥24 h</td><td>LAB-BATCH-02</td><td>Extend equilibration</td></tr>
+    <tr><td>Field Blanks</td><td>Transported but not sampled</td><td>1 per 10 samples</td><td>Mass change ≤0.05 mg</td><td>BLANK-REC</td><td>Investigate contamination</td></tr>
+    <tr><td>Flow Rate Verification</td><td>Primary standard</td><td>Weekly</td><td>±4%</td><td>FLOW-CHK</td><td>Service sampler</td></tr>
+    <tr><td>Data Validation</td><td>Outlier screening</td><td>Per dataset</td><td>Flags resolved</td><td>VAL-RPT</td><td>Annotate and rerun checks</td></tr>
+  </tbody>
+</table>

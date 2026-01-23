@@ -1,0 +1,12 @@
+<table>
+  <caption>Doping Scheme Control for SiC Epitaxial Wafers (Buffer Layer and Transition Layer Carrier Concentration Limits)</caption>
+  <tr><th rowspan="2">Epitaxial Stack Element</th><th rowspan="2">Conductivity Type</th><th colspan="2">Carrier Concentration Specification (cm^-3)</th><th rowspan="2">Allowed Deviation</th><th rowspan="2">Acceptance Rule</th></tr>
+  <tr><th>Target</th><th>Upper/Lower Limit</th></tr>
+  <tr><td rowspan="3">Buffer layer (standard)</td><td>n-type</td><td>1.0E18</td><td>7.5E17 to 1.3E18</td><td>±25%</td><td>Measured average within limits</td></tr>
+  <tr><td>n-type</td><td>5.0E17</td><td>3.5E17 to 6.5E17</td><td>±30%</td><td>Measured average within limits</td></tr>
+  <tr><td>p-type</td><td>3.0E18</td><td>2.0E18 to 4.0E18</td><td>±25%</td><td>Measured average within limits</td></tr>
+  <tr><td rowspan="2">Transition / drift-doping ramp (if used)</td><td>n-type</td><td>Linear ramp</td><td>Start: 1.0E18; End: 1.0E16</td><td>Local point ±20%</td><td>All sampled points meet local tolerance</td></tr>
+  <tr><td>p-type</td><td>Linear ramp</td><td>Start: 3.0E18; End: 5.0E16</td><td>Local point ±25%</td><td>All sampled points meet local tolerance</td></tr>
+  <tr><td rowspan="2">Carrier concentration matching (multi-layer stacks)</td><td>n-type</td><td>Interface match</td><td>Δn/n ≤ 15%</td><td>Max mismatch</td><td>Adjacent layers must satisfy mismatch limit</td></tr>
+  <tr><td>p-type</td><td>Interface match</td><td>Δp/p ≤ 20%</td><td>Max mismatch</td><td>Adjacent layers must satisfy mismatch limit</td></tr>
+</table>

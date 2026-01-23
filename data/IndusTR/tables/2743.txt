@@ -1,0 +1,10 @@
+<table>
+  <caption>Issue Tracker Summary for Video Bitstream Conformance Bugs</caption>
+  <tr><th>Ticket ID</th><th>Component</th><th>Symptom</th><th>Severity</th><th>Status</th><th>Owner</th></tr>
+  <tr><td>BS-1042</td><td>Parser</td><td>Unexpected EOF on malformed stream</td><td>High</td><td>In Progress</td><td>J. Kim</td></tr>
+  <tr><td>BS-1068</td><td>CABAC</td><td>Context init mismatch in I-slice</td><td>Medium</td><td>Open</td><td>A. Singh</td></tr>
+  <tr><td>BS-1099</td><td>RDO</td><td>Non-deterministic output across builds</td><td>Medium</td><td>Resolved</td><td>L. Chen</td></tr>
+  <tr><td>BS-1120</td><td>Decoder</td><td>Crash on rare NAL unit ordering</td><td>Critical</td><td>Open</td><td>M. Garcia</td></tr>
+  <tr><td>BS-1155</td><td>Conformance Suite</td><td>Golden stream update pending</td><td>Low</td><td>Backlog</td><td>S. Patel</td></tr>
+  <tr><td>BS-1181</td><td>Bitstream I/O</td><td>Incorrect file offset in large streams</td><td>Low</td><td>Resolved</td><td>R. Novak</td></tr>
+</table>

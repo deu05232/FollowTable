@@ -1,0 +1,10 @@
+<table>
+  <caption>ARTrackingStateWithReasons enumeration (state + reason combined)</caption>
+  <tr><th>Tracking status entry</th><th>Reference name and value</th></tr>
+  <tr><td>Tracking is normal</td><td>AR_TRACKING_STATUS_TRACKING = 0</td></tr>
+  <tr><td>Tracking is paused (insufficient light)</td><td>AR_TRACKING_STATUS_PAUSED_INSUFFICIENT_LIGHT = 1</td></tr>
+  <tr><td>Tracking is paused (bad internal state)</td><td>AR_TRACKING_STATUS_PAUSED_BAD_STATE = 2</td></tr>
+  <tr><td>Tracking is lost (not enough features)</td><td>AR_TRACKING_STATUS_LOST_INSUFFICIENT_FEATURES = 3</td></tr>
+  <tr><td>Tracking is lost (excessive motion)</td><td>AR_TRACKING_STATUS_LOST_EXCESSIVE_MOTION = 4</td></tr>
+  <tr><td>Tracking is stopped by the system</td><td>AR_TRACKING_STATUS_STOPPED = 5</td></tr>
+</table>

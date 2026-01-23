@@ -1,0 +1,16 @@
+<table>
+  <caption>Transport PDU (Generic) Frame Format — Header Fields Only</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Offset (bytes)</th><th>Length (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Priority (P)</td><td>0</td><td>1</td><td>Frame priority / placeholder</td></tr>
+    <tr><td>Header</td><td>Extended Data Page (EDP)</td><td>1</td><td>1</td><td>Protocol page selector</td></tr>
+    <tr><td>Header</td><td>Data Page (DP)</td><td>2</td><td>1</td><td>Protocol page selector</td></tr>
+    <tr><td>Header</td><td>PDU Format (PF)</td><td>3</td><td>1</td><td>Indicates message class</td></tr>
+    <tr><td>Header</td><td>PDU Specific (PS)</td><td>4</td><td>1</td><td>Destination address or group</td></tr>
+    <tr><td>Header</td><td>Source Address (SA)</td><td>5</td><td>1</td><td>Source node address</td></tr>
+    <tr><td>Payload</td><td>Data Field</td><td>6</td><td>8</td><td>Opaque application data; padding with 0xFF when shorter</td></tr>
+    <tr><td>Trailer</td><td>Reserved</td><td>14</td><td>0</td><td>Not used</td></tr>
+  </tbody>
+</table>

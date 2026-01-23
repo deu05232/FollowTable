@@ -1,0 +1,22 @@
+<table>
+  <caption>Acquisition and Sensor Conditions Dictionary for Multimodal Biometric Capture</caption>
+  <thead>
+    <tr><th>Category</th><th>Field</th><th>Allowed / Example Values</th><th>Notes (Capture/Sensor Only)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Modality</td><td>Biometric modality</td><td>Face; Fingerprint; Iris; Palmprint; Voice</td><td>Used to scope which sensor fields apply</td></tr>
+    <tr><td>Optics / Spectrum</td><td>Spectral band</td><td>Visible (RGB); NIR (740–900 nm); SWIR (900–1700 nm); Thermal LWIR</td><td>Defines illumination/detector band</td></tr>
+    <tr><td>Optics / Spectrum</td><td>Illumination type</td><td>Ambient-only; Active LED; Laser; Structured light</td><td>Record whether lighting is controlled by the system</td></tr>
+    <tr><td>Geometry</td><td>Capture geometry</td><td>Frontal; Off-axis; Multi-view; 3D depth-assisted</td><td>Acquisition setup affecting pose/viewpoint</td></tr>
+    <tr><td>Contact</td><td>Interaction type</td><td>Contact-based; Contactless</td><td>Important for fingerprint/palm capture comparability</td></tr>
+    <tr><td>Imaging method</td><td>Imaging mode</td><td>Reflection; Transmission; Total internal reflection (TIR)</td><td>Common for vascular/iris/fingerprint sensors</td></tr>
+    <tr><td>Device</td><td>Sensor technology</td><td>CMOS; CCD; Capacitive; Optical platen; Ultrasound; Microphone array</td><td>Names the sensing pipeline hardware class</td></tr>
+    <tr><td>Acquisition pipeline</td><td>Resolution metric</td><td>ppi (fingerprint); pixels between pupils (face); pixels/degree (iris); kHz sampling rate (voice)</td><td>Store units explicitly; do not convert without logging</td></tr>
+    <tr><td>Acquisition pipeline</td><td>Compression / encoding</td><td>null/RAW; JPEG (quality factor); PNG; H.264 (bitrate); PCM/Opus</td><td>Encoding impacts measurable quality</td></tr>
+    <tr><td>Environment</td><td>Ambient illumination condition</td><td>Low; Normal; High; Flicker (50/60 Hz); Backlit</td><td>Sensor-relevant environmental variable</td></tr>
+    <tr><td>Quality factors</td><td>Motion blur level</td><td>null; Mild; Severe</td><td>Derived from sensing/capture stability</td></tr>
+    <tr><td>Quality factors</td><td>Focus / sharpness</td><td>In focus; Slightly defocused; Defocused</td><td>Lens/sensor pipeline dependent</td></tr>
+    <tr><td>Quality factors</td><td>Signal-to-noise indicator</td><td>SNR estimate; Background noise level; ISO gain</td><td>Any pipeline-level noise surrogate</td></tr>
+    <tr><td>Quality factors</td><td>Occlusion type (capture-caused)</td><td>Specular glare; Sensor edge cut-off; Partial crop</td><td>Limit to capture artifacts (not subject traits)</td></tr>
+  </tbody>
+</table>

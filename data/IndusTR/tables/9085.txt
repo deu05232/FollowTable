@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Camera Plane and Projection Tuning Parameters (Near/Far, FOV, Clipping)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Clipping Planes</td><td>near</td><td>float</td><td>Near clipping plane distance for rendering</td></tr>
+    <tr><td>far</td><td>float</td><td>Far clipping plane distance for rendering</td></tr>
+    <tr><td>clip_mode</td><td>ArClipMode</td><td>Whether to use automatic or manual clipping distances</td></tr>
+    <tr><td rowspan="4">Projection Controls</td><td>vertical_fov_degrees</td><td>float</td><td>Overrides vertical field of view used by the renderer</td></tr>
+    <tr><td>aspect_ratio</td><td>float</td><td>Aspect ratio used when building the projection matrix</td></tr>
+    <tr><td>stabilization_strength</td><td>float</td><td>Visual stabilization factor applied to camera motion</td></tr>
+    <tr><td>use_custom_projection</td><td>bool</td><td>Use app-provided projection rather than runtime default</td></tr>
+    <tr><td rowspan="2">Camera-plane Helpers</td><td>camera_forward</td><td>float[3]</td><td>Forward vector used for view matrix construction</td></tr>
+    <tr><td>camera_up</td><td>float[3]</td><td>Up vector used for view matrix construction</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Trifid Nebula (M20) Distance Values Alongside Observational Setup and Source List</caption>
+  <thead>
+    <tr><th rowspan="2">Target / Subregion</th><th colspan="2">Distance</th><th rowspan="2">Telescope / Survey</th><th rowspan="2">Band / Line</th><th rowspan="2">Beam / Resolution</th><th rowspan="2">Source Identifier</th></tr>
+    <tr><th>kpc</th><th>Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>M20 (central H II region)</td><td>1.7</td><td>Photometric fit</td><td>Optical (ground-based)</td><td>BV photometry</td><td>~1 arcsec</td><td>Cat-OB-01</td></tr>
+    <tr><td>M20 (cluster members)</td><td>1.6</td><td>Parallax</td><td>Gaia DR3</td><td>G, BP, RP</td><td>~0.4 arcsec</td><td>Gaia-M20-125</td></tr>
+    <tr><td>TC0 core vicinity</td><td>2.7</td><td>Assumed (mass scaling)</td><td>IRAM 30m</td><td>1.25 mm cont.</td><td>11 arcsec</td><td>TC0</td></tr>
+    <tr><td>TC3 core vicinity</td><td>2.7</td><td>Assumed (mass scaling)</td><td>IRAM 30m</td><td>CS(2–1)</td><td>24 arcsec</td><td>TC3</td></tr>
+    <tr><td>Dust lane (western)</td><td>2.2</td><td>Reddening jump</td><td>2MASS</td><td>JHKs</td><td>~2 arcsec</td><td>2MASS-Field-W</td></tr>
+    <tr><td>X-ray field (PSPC footprint)</td><td>1.7</td><td>Adopted for LX</td><td>ROSAT PSPC</td><td>0.1–2.4 keV</td><td>25 arcsec</td><td>RXT2</td></tr>
+    <tr><td>Compilation entry</td><td>1.6–2.7</td><td>Literature range</td><td>—</td><td>—</td><td>—</td><td>Lit-Comp</td></tr>
+  </tbody>
+</table>

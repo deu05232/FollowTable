@@ -1,0 +1,10 @@
+<table>
+  <caption>Curing Press Recipe Step Sequencing and Valve Output Mapping</caption>
+  <tr><th>No.</th><th>Step Block</th><th>Purpose</th><th>Input From Upper System</th><th>Computed Field</th><th>Output</th><th>Processing Method</th></tr>
+  <tr><td>1</td><td>Warm-up</td><td>Initialize press to the starting configuration</td><td>User step sequence ID</td><td>Expanded step list (auto-fill)</td><td>Valve group order</td><td>Lookup sequence template; expand to N steps based on configured count</td></tr>
+  <tr><td>2</td><td>Bladder Inflate</td><td>Apply bladder pressure according to the step order</td><td>Step list + offsets</td><td>Valve timing table</td><td>Ten-group valve outputs</td><td>Combine data area + offsets; generate ordered output commands</td></tr>
+  <tr><td>3</td><td>Steam Heat</td><td>Enable heating stage following the sequence definition</td><td>Recipe stage code</td><td>Interlock checks</td><td>Heater enable command</td><td>Validate stage transitions; emit command when conditions are met</td></tr>
+  <tr><td>4</td><td>Hold</td><td>Maintain the stage duration as configured</td><td>Configured hold time</td><td>Countdown timer</td><td>Next-step trigger</td><td>Timer-based trigger; proceed when timer reaches zero</td></tr>
+  <tr><td>5</td><td>Exhaust</td><td>Release pressure per step order</td><td>Sequence ID</td><td>Valve close order</td><td>Valve close commands</td><td>Map sequence to valve close order and dispatch commands</td></tr>
+  <tr><td>6</td><td>Unload</td><td>Finish cycle and report completion</td><td>Cycle completion criteria</td><td>Status code</td><td>Cycle complete flag</td><td>Set flag and upload status to MES</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Device Query API — Required Inputs (Key–Value Layout)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Endpoint</td><td>/v1/devices/query</td><td>Returns device metadata</td></tr>
+    <tr><td>Name</td><td>Device Query API</td><td>Retrieve device information</td></tr>
+    <tr><td>Method</td><td>GET</td><td>Read-only request</td></tr>
+    <tr><td>Required Param</td><td>userID (string)</td><td>Platform user identifier</td></tr>
+    <tr><td>Required Param</td><td>access_token (string)</td><td>Authentication token</td></tr>
+    <tr><td>Required Param</td><td>devID (string)</td><td>Device identifier</td></tr>
+    <tr><td>Optional Param</td><td>fields (string)</td><td>Comma-separated projection</td></tr>
+    <tr><td>Response</td><td>200 OK</td><td>JSON payload</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Geostationary Meteorological Satellite Visible-Light Image Tropical Cyclone Eye Number Adjustment (E-adj) Rule Table</caption>
+  <tr><td>Eye shape characteristics</td><td colspan="2">E-adj</td></tr>
+  <tr><td>Indistinct or broken eye</td><td>When E-no≤4.5: E-adj=-0.5</td><td>When E-no≥5.0: E-adj=-1.0</td></tr>
+  <tr><td>Large eye (eye diameter greater than 30 nmi or 56 km)</td><td>Round and clear eye: adjust E-no so that the value is uniformly ≤6.0; E-adj is determined according to the E-no adjustment magnitude</td><td>Large and ragged eye: adjust E-no so that the value is uniformly ≤5.0; E-adj is determined according to the E-no adjustment magnitude</td></tr>
+  <tr><td>A clear eye located within smooth CDO</td><td colspan="2">After DT is determined, if DT<MET (see 6.3 for MET calculation) and MET≥6.0, add 0.5 or 1.0 to the eye number E-no</td></tr>
+</table>

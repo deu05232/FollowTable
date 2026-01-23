@@ -1,0 +1,16 @@
+<table>
+  <caption>CC Sample Container Syntax (Start Code + Payload Looping)</caption>
+  <thead>
+    <tr><th>Field / Syntax</th><th>Descriptor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>cc_sample(){</td><td></td></tr>
+    <tr><td>CC_SAMPLE_START_CODE</td><td>f(32)</td></tr>
+    <tr><td>cc_type</td><td>u(8)</td></tr>
+    <tr><td>cc_payload_length</td><td>u(16)</td></tr>
+    <tr><td>for(i = 0; i < cc_payload_length; i++){</td><td>Payload traversal (byte-counted)</td></tr>
+    <tr><td>cc_payload_byte[i]</td><td>u(8)</td></tr>
+    <tr><td>}</td><td></td></tr>
+    <tr><td>}</td><td></td></tr>
+  </tbody>
+</table>

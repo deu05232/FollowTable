@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Process Parameters for Spare Parts Kit Assembly</caption>
+  <thead>
+    <tr><th>Step</th><th>Workstation</th><th>Tool/Equipment</th><th>Parameter</th><th>Target Value</th><th>Tolerance</th><th>QC Check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Kitting</td><td>Barcode Scanner</td><td>Scan success rate</td><td>≥ 99.5%</td><td>N/A</td><td>Log review</td></tr>
+    <tr><td>2</td><td>Fastening</td><td>Torque Driver</td><td>Torque</td><td>3.5 N·m</td><td>±0.3</td><td>Torque trace</td></tr>
+    <tr><td>3</td><td>Sealing</td><td>Dispensing Valve</td><td>Bead width</td><td>2.0 mm</td><td>±0.2</td><td>Visual inspect</td></tr>
+    <tr><td>4</td><td>Labeling</td><td>Thermal Printer</td><td>Print density</td><td>12 dpmm</td><td>±1</td><td>Label scan</td></tr>
+    <tr><td>5</td><td>Packaging</td><td>Heat Sealer</td><td>Seal temperature</td><td>165 °C</td><td>±5</td><td>Peel test</td></tr>
+    <tr><td>6</td><td>Dispatch</td><td>Weigh Scale</td><td>Shipment weight variance</td><td>≤ 1%</td><td>N/A</td><td>Weight record</td></tr>
+  </tbody>
+</table>

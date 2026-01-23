@@ -1,0 +1,10 @@
+<table>
+  <caption>Environmental Test Setup Requirements for AWG Filter Qualification (Chamber & Instrument Conditions)</caption>
+  <tr><th>Test Item</th><th>Facility/Instrument</th><th>Condition</th><th>Setpoint</th><th>Stabilization Time</th><th>Acceptance for Setup</th></tr>
+  <tr><td>Temperature cycling</td><td>Thermal chamber</td><td>Ramp rate</td><td>2°C/min</td><td>30 min</td><td>Within ±0.5°C control</td></tr>
+  <tr><td>High-temp storage</td><td>Thermal chamber</td><td>Humidity</td><td>< 20% RH</td><td>60 min</td><td>No condensation</td></tr>
+  <tr><td>Optical spectrum capture</td><td>OSA</td><td>Resolution bandwidth</td><td>0.02 nm</td><td>10 min warm-up</td><td>Calibrated within 6 months</td></tr>
+  <tr><td>Optical power</td><td>Power meter</td><td>Wavelength setting</td><td>1550 nm</td><td>5 min warm-up</td><td>Zeroed before test</td></tr>
+  <tr><td>Polarization management</td><td>PC/PMD emulator</td><td>SOP rotation step</td><td>10°</td><td>N/A</td><td>Repeatable within ±2°</td></tr>
+  <tr><td>Connector interface</td><td>Adapter set</td><td>Cleanliness class</td><td>IEC 61300-3-35 Pass</td><td>N/A</td><td>No endface defects</td></tr>
+</table>

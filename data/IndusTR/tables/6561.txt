@@ -1,0 +1,16 @@
+<table>
+  <caption>User Terminal I/O Statement Parameters — Network Management / Inbound Control (Detailed)</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter</th><th>Allowed Range / Format</th><th>Description / Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Addressing</td><td>Inbound User ID</td><td>1–16,777,215</td><td>Identifies the intranet user that is sending an inbound management/control statement. Must be a valid allocated user ID.</td></tr>
+    <tr><td>Management Type</td><td>Network Management Information Type</td><td>1–4</td><td>1: Power-on report (terminal announces it is online); 2: Silence request (ask the network to start/stop silencing); 3: Emergency SAR request (trigger emergency search-and-rescue handling); 4: Unsuccessful communication confirmation (acknowledges a failed delivery/attempt).</td></tr>
+    <tr><td>Sequence</td><td>Station Entry Sequence Number</td><td>0–31</td><td>Lower 5 bits of the inbound sequence counter. Used to correlate entries; represent as a 5-bit value (0–31).</td></tr>
+    <tr><td>Silence Control</td><td>Silence Start/Stop Flag</td><td>0–1</td><td>0: Start silence (suppress messages/traffic for listed addresses); 1: End silence (resume normal communications).</td></tr>
+    <tr><td>RF</td><td>Frequency Point</td><td>0–2</td><td>0: Automatic selection; 1: Lf1; 2: Lf2. Choose fixed points only when troubleshooting or instructed by the network.</td></tr>
+    <tr><td>Silence Control</td><td>Number of Silence Addresses</td><td>1–63</td><td>How many target addresses follow in the statement body. Must match the actual count of provided addresses.</td></tr>
+    <tr><td>Report</td><td>Report Type</td><td>1–3</td><td>1: Power-on report; 2: Power-off report; 3: Status report (periodic or on-demand health/availability report).</td></tr>
+    <tr><td>Time</td><td>UTC Time</td><td>000000.00–235959.99</td><td>UTC timestamp formatted as hhmmss.ss. Always use 6 digits before the decimal; pad with leading zeros if needed.</td></tr>
+  </tbody>
+</table>

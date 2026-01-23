@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Data Capture Codes — Measurement Retrieval Method (Not Units)</caption>
+  <thead>
+    <tr><th>Retrieval Code</th><th>Retrieval Name</th><th>Hierarchy Level</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R</td><td>Rated Value</td><td>Primary</td><td>Nominal manufacturer rating</td></tr>
+    <tr><td>MIN</td><td>Minimum</td><td>Primary</td><td>Lower bound observed/declared</td></tr>
+    <tr><td>MAX</td><td>Maximum</td><td>Primary</td><td>Upper bound observed/declared</td></tr>
+    <tr><td>AVG</td><td>Average</td><td>Primary</td><td>Mean over a specified period</td></tr>
+    <tr><td>PK</td><td>Peak</td><td>Secondary</td><td>Highest instantaneous value</td></tr>
+    <tr><td>P2P</td><td>Peak-to-Peak</td><td>Secondary</td><td>Max minus min within interval</td></tr>
+    <tr><td>CAL</td><td>Calibrated</td><td>Secondary</td><td>Value after calibration adjustment</td></tr>
+  </tbody>
+</table>

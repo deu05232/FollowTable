@@ -1,0 +1,19 @@
+<table>
+  <caption>Administrative Compulsory Subject Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C.50</td><td></td><td></td></tr>
+  <tr><td>ID Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>ID Document Number</td><td>CerNo</td><td>C..18</td><td></td><td></td></tr>
+  <tr><td>Administrative Compulsory Measures</td><td>EnForm</td><td>C1</td><td>0: Restrict citizens' personal freedom; 1: Seal up premises, facilities, or property; 2: Seize property; 3: Freeze deposits or remittances; 9. Other administrative compulsory measures</td><td>Multiple selections allowed</td></tr>
+  <tr><td>Basis for Administrative Compulsion</td><td>EnfBasis</td><td>C..2000</td><td></td><td></td></tr>
+  <tr><td>Date of Administrative Compulsory Enforcement</td><td>EnfDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Code of Administrative Compulsory Enforcement Authority</td><td>EnfAuthNo</td><td>C18</td><td>1</td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Administrative Compulsory Enforcement Authority</td><td>EnfAuth</td><td>C..100</td><td>1</td><td></td></tr>
+  <tr><td>Remarks</td><td>Remark</td><td>C.lul</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit</td><td>DataDept</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit Code</td><td>DataDeptUniSCID</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Data Aggregation Unit</td><td>S_Ext_FromNode</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Mode Power Measurement Sequence for Copiers/MFDs (Off, Ready, Sleep Levels, Recovery)</caption>
+  <thead>
+    <tr><th>Step</th><th>Initial state</th><th>Action to perform</th><th>Record (at end of step)</th><th>Unit</th><th>Acceptance / completion cue</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Device installed, not yet instrumented</td><td>Connect the device to the power meter output socket. Confirm the meter is set to measure true RMS power and accumulate energy.</td><td>Meter configuration summary (RMS mode, integration interval)</td><td>text</td><td>Configuration saved</td></tr>
+    <tr><td>2</td><td>Off</td><td>With the device in Off (manual power off if available), start logging and wait for stabilization.</td><td>Average off power over last 3 minutes, cumulative off energy</td><td>W, Wh</td><td>Power variation within selected stability band</td></tr>
+    <tr><td>3</td><td>Off</td><td>Turn the device On and do not interact until Ready is reached.</td><td>On-to-Ready elapsed time, energy used during warm-up</td><td>min, Wh</td><td>Ready indicator or stable power plateau</td></tr>
+    <tr><td>4</td><td>Ready</td><td>Measure Ready power for a fixed measurement window (e.g., 5–15 minutes).</td><td>Ready average power and energy for the window</td><td>W, Wh</td><td>Window time completed</td></tr>
+    <tr><td>5</td><td>Ready</td><td>Leave the device idle and measure the default delay to first low-power mode.</td><td>Delay to Sleep 1, Sleep 1 stabilized average power</td><td>min, W</td><td>Sleep 1 reached and stable</td></tr>
+    <tr><td>6</td><td>Sleep 1</td><td>If the device supports multiple sleep levels, continue idling to reach the next level; otherwise record as “No additional sleep level”.</td><td>Delay to Sleep 2 (or “No”), Sleep 2 average power (or N/A)</td><td>min, W</td><td>Sleep 2 reached and stable / declared absent</td></tr>
+    <tr><td>7</td><td>Deepest sleep available</td><td>Measure sleep energy for a defined dwell period without interaction.</td><td>Sleep energy and average power over dwell period</td><td>Wh, W</td><td>Dwell period completed</td></tr>
+    <tr><td>8</td><td>Deepest sleep available</td><td>Initiate recovery by sending a standardized print job (or pressing wake). Do not cancel the job.</td><td>Wake energy (sleep-to-ready), time to first page out (if printing)</td><td>Wh, min</td><td>Ready regained / first output produced</td></tr>
+    <tr><td>9</td><td>Ready</td><td>Stop the job sequence and allow the device to return to its low-power behavior again.</td><td>Post-activity delay times back to sleep level(s)</td><td>min</td><td>Deepest sleep reached again</td></tr>
+    <tr><td>10</td><td>Deepest sleep / End of run</td><td>Stop logging, export raw data, and summarize measured mode powers and delay times for reporting.</td><td>Raw log file, summary table values (Poff, Pready, Psleep1, Psleep2), test start/end timestamps</td><td>text, W, timestamp</td><td>All fields populated</td></tr>
+  </tbody>
+</table>

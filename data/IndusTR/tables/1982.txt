@@ -1,0 +1,10 @@
+<table>
+  <caption>API Reference — Mongolian Text Shaping Functions (Signatures Only)</caption>
+  <tr><th>Function</th><th>Parameters</th><th>Return Type</th><th>Description</th><th>Error Codes</th></tr>
+  <tr><td>shape_mongolian_text</td><td>(utf8_text, font_handle, direction)</td><td>GlyphRun</td><td>Shapes text into positioned glyphs</td><td>E_FONT_NOT_FOUND</td></tr>
+  <tr><td>apply_variation_selectors</td><td>(codepoints, policy)</td><td>CodepointSequence</td><td>Normalizes FVS usage based on policy</td><td>E_INVALID_CODEPOINT</td></tr>
+  <tr><td>resolve_gsub_features</td><td>(font_handle, script_tag, lang_tag)</td><td>FeatureList</td><td>Returns available GSUB features</td><td>E_TABLE_MISSING</td></tr>
+  <tr><td>render_vertical_layout</td><td>(glyph_run, canvas, x, y)</td><td>bool</td><td>Renders glyphs in vertical writing mode</td><td>E_RENDER_FAILED</td></tr>
+  <tr><td>validate_unicode_sequence</td><td>(codepoints)</td><td>ValidationReport</td><td>Detects illegal sequences for processing</td><td>E_SURROGATE_ERROR</td></tr>
+  <tr><td>export_debug_trace</td><td>(glyph_run, level)</td><td>string</td><td>Exports shaping trace for debugging</td><td>E_IO</td></tr>
+</table>

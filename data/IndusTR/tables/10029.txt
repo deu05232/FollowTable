@@ -1,0 +1,15 @@
+<table>
+  <caption>Addressing Identity Fields for Terminal Short-Message I/O (IDs and Related Identifiers)</caption>
+  <thead>
+    <tr><th>Group</th><th>Serial No.</th><th>Parameter</th><th>Value Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Endpoint Identifiers</td><td>1</td><td>Local Terminal ID</td><td>1–16777215</td><td>Identifier of the local terminal endpoint (used as the terminal-side address).</td></tr>
+    <tr><td>2</td><td>Remote Terminal ID</td><td>1–16777215</td><td>Identifier of the peer endpoint (used as the remote address).</td></tr>
+    <tr><td>3</td><td>Gateway/Network Node ID</td><td>0–4095</td><td>Optional identifier of the serving node for addressing/reference in records.</td></tr>
+    <tr><td rowspan="4">Transaction Identifiers</td><td>4</td><td>Session ID</td><td>0–4294967295</td><td>Session-level identifier used to bind multiple I/O statements to one logical exchange.</td></tr>
+    <tr><td>5</td><td>Transaction ID</td><td>0–4294967295</td><td>Identifier for a single terminal I/O transaction (request/ack pair correlation).</td></tr>
+    <tr><td>6</td><td>User Inbound Sequence Number</td><td>0–1023</td><td>Inbound sequence identifier assigned per user; used for ordering and addressing context.</td></tr>
+    <tr><td>7</td><td>Station Entry Sequence Number</td><td>0–31</td><td>Short index derived from the inbound sequence number; used as a compact identifier in signaling.</td></tr>
+  </tbody>
+</table>

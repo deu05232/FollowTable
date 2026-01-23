@@ -1,0 +1,14 @@
+<table>
+  <caption>AIS Class B Autonomous Radio — Bit-Oriented Frame Structure and Field Boundaries (Overview)</caption>
+  <thead>
+    <tr><th>Frame Section</th><th>Included Fields</th><th>Total Length (bit)</th><th>Field Identifiers</th><th>Packing / Alignment Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message ID, Repeat, MMSI</td><td>38</td><td>6-bit ID; 2-bit repeat; 30-bit MMSI</td><td>MSB first</td></tr>
+    <tr><td>Control</td><td>Sequence No., Spare</td><td>4</td><td>2-bit seq; 2-bit spare</td><td>Spare set to 0</td></tr>
+    <tr><td>Mode Flags</td><td>Autonomous Flag, Payload Type</td><td>5</td><td>1-bit mode; 4-bit type</td><td>Enumerated mapping applies</td></tr>
+    <tr><td>Payload</td><td>Application Data</td><td>Variable</td><td>Depends on payload type</td><td>Padding to 8-bit boundary</td></tr>
+    <tr><td>Error Check</td><td>CRC</td><td>16</td><td>CRC-16</td><td>Polynomial per spec</td></tr>
+    <tr><td>Fill Bits</td><td>Padding</td><td>0–7</td><td>N/A</td><td>Set to zero to align</td></tr>
+  </tbody>
+</table>

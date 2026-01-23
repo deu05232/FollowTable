@@ -1,0 +1,29 @@
+<table>
+  <caption>BDS Ground-Based Augmentation System Velocity Field Custom Message 2101 Format</caption>
+  <tr><td>Data Field Name</td><td>Data Type</td><td>Number of Bits</td><td>Computation</td><td>Value Range</td><td>Remarks</td></tr>
+  <tr><td colspan="6">Message Frame Index Header Content</td></tr>
+  <tr><td>Preamble</td><td>uint8</td><td>8</td><td></td><td>11011101</td><td>Refer to RTCM10403.3 preamble (fixed value 11011101)</td></tr>
+  <tr><td>Reserved Bits</td><td>uint6</td><td>6</td><td></td><td>0</td><td>Refer to RTCM 10403.3 reserved bits</td></tr>
+  <tr><td>Message Content Length</td><td>uint10</td><td>10</td><td></td><td>0~1023</td><td>Refer to RTCM 10403.3 message length</td></tr>
+  <tr><td>Total</td><td></td><td>24</td><td></td><td></td><td></td></tr>
+  <tr><td colspan="6">Message Data Header Content</td></tr>
+  <tr><td>Message Number</td><td>uint12</td><td>12</td><td></td><td>0~4095</td><td>Refer to RTCM 10403.3 field DF002</td></tr>
+  <tr><td>Spatial Reference Information</td><td>uint4</td><td>4</td><td></td><td>0~15</td><td>New data field SJ001</td></tr>
+  <tr><td>SACBDS Week</td><td>uint10</td><td>10</td><td></td><td>0~1023</td><td>Refer to RTCM 10403.3 field DF489</td></tr>
+  <tr><td>BDS Seconds of Week</td><td>uint20</td><td>20</td><td></td><td>0~604799</td><td>New data field SJ011</td></tr>
+  <tr><td>Number of Sites/N</td><td>uint10</td><td>10</td><td></td><td>0~1023</td><td>New data field SJ002</td></tr>
+  <tr><td>Total</td><td></td><td>56</td><td></td><td></td><td></td></tr>
+  <tr><td colspan="6">Message Data Body Content</td></tr>
+  <tr><td>Site Name</td><td>char(4)</td><td>32</td><td></td><td></td><td>New data field SJ003</td></tr>
+  <tr><td>Antenna Phase Center Position X</td><td>int38</td><td>38</td><td>* 0.0001m</td><td>±13 743 895.347 1 m</td><td>Refer to GB/T 37018—2018 field DF025</td></tr>
+  <tr><td>Antenna Phase Center Position Y</td><td>int38</td><td>38</td><td>*0.0001m</td><td>±13 743 895.347 1 m</td><td>Refer to GB/T 37018—2018 field DF026</td></tr>
+  <tr><td>Antenna Phase Center Position Z</td><td>int38</td><td>38</td><td>*0.0001 m</td><td>±13 743 895.347 1 m</td><td>Refer to GB/T 37018—2018 field DF027</td></tr>
+  <tr><td>Antenna Phase Center Velocity X</td><td>int15</td><td>15</td><td>* 0.000 1 m/s</td><td>±1.638 4 m/s</td><td>New data field SJ004</td></tr>
+  <tr><td>Antenna Phase Center Velocity Y</td><td>int15</td><td>15</td><td>* 0.000 1 m/s</td><td>±1.638 4 m/s</td><td>New data field SJ005</td></tr>
+  <tr><td>Antenna Phase Center Velocity Z</td><td>int15</td><td>15</td><td>* 0.000 1 m/s</td><td>±1.638 4 m/s</td><td>New data field SJ006</td></tr>
+  <tr><td>Total</td><td></td><td>191 *N</td><td></td><td></td><td>Single-site data occupies 191 bits; N sites occupy 191 *N bits</td></tr>
+  <tr><td colspan="6">Message Trailer Check</td></tr>
+  <tr><td>Cyclic Redundancy Check</td><td>int24</td><td>24</td><td></td><td></td><td>Refer to RTCM 10403.3 cyclic redundancy check</td></tr>
+  <tr><td>Total</td><td></td><td>24</td><td></td><td></td><td></td></tr>
+  <tr><td>Grand Total</td><td></td><td>104+191* N</td><td></td><td></td><td></td></tr>
+</table>

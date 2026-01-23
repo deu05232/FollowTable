@@ -1,0 +1,17 @@
+<table>
+  <caption>Red Blood Cell Metabolite Snapshot Including ATP Hydrolysis Free Energy and Concentrations</caption>
+  <thead>
+    <tr><th>Category</th><th>Species / Reaction</th><th>Standard chemical potential g° (kJ/mol)</th><th>Typical concentration (mM)</th><th>ΔG°' (kJ/mol)</th><th>ΔG (kJ/mol, estimated)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Nucleotides</td><td>ATP</td><td>-2760</td><td>2.2</td><td>—</td><td>—</td><td>Major energy currency</td></tr>
+    <tr><td>ADP</td><td>-1910</td><td>0.25</td><td>—</td><td>—</td><td>Product of hydrolysis</td></tr>
+    <tr><td>AMP</td><td>-1030</td><td>0.03</td><td>—</td><td>—</td><td>Adenylate pool component</td></tr>
+    <tr><td rowspan="2">Inorganic</td><td>Pi (orthophosphate)</td><td>-1090</td><td>1.5</td><td>—</td><td>—</td><td>Hydrolysis reactant</td></tr>
+    <tr><td>H2O</td><td>-237</td><td>55000</td><td>—</td><td>—</td><td>Solvent (approx.)</td></tr>
+    <tr><td rowspan="2">Energetics</td><td>ATP + H2O → ADP + Pi</td><td>—</td><td>—</td><td>-30.5</td><td>-50</td><td>Computed from concentrations above</td></tr>
+    <tr><td>ATP → AMP + PPi</td><td>—</td><td>—</td><td>-45.0</td><td>-65</td><td>Alternative cleavage route</td></tr>
+    <tr><td rowspan="2">Glycolysis context</td><td>Glucose</td><td>-387</td><td>5.0</td><td>—</td><td>—</td><td>Network inventory entry</td></tr>
+    <tr><td>Lactate</td><td>-517</td><td>1.0</td><td>—</td><td>—</td><td>End product concentration</td></tr>
+  </tbody>
+</table>

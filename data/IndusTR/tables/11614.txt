@@ -1,0 +1,17 @@
+<table>
+  <caption>Common Satellite-Derived Atmospheric Profile and Thermodynamic Products (Code Mapping)</caption>
+  <thead>
+    <tr><th>Product Category</th><th>Data Product Name</th><th>Code</th><th>Short Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Atmospheric Profiles</td><td>Temperature Profile</td><td>TMP</td><td>Retrieved vertical air temperature profile (multi-level).</td></tr>
+    <tr><td>Atmospheric Profiles</td><td>Relative Humidity Profile</td><td>RHP</td><td>Retrieved vertical relative humidity profile (multi-level).</td></tr>
+    <tr><td>Atmospheric Profiles</td><td>Ozone Profile</td><td>O3P</td><td>Retrieved vertical ozone concentration profile.</td></tr>
+    <tr><td>Atmospheric Profiles</td><td>Total Precipitable Water</td><td>TPW</td><td>Column-integrated water vapor amount.</td></tr>
+    <tr><td>Cloud / Thermodynamics</td><td>Lifted Index</td><td>LI</td><td>Stability index derived from temperature/moisture soundings.</td></tr>
+    <tr><td>Cloud / Thermodynamics</td><td>Convective Available Potential Energy</td><td>CAPE</td><td>Instability metric indicating potential convective intensity.</td></tr>
+    <tr><td>Cloud / Thermodynamics</td><td>Cloud-Top Temperature</td><td>CTT</td><td>Estimated temperature at the cloud top from IR channels.</td></tr>
+    <tr><td>Cloud / Thermodynamics</td><td>Cloud-Top Pressure</td><td>CTP</td><td>Estimated pressure level corresponding to cloud top.</td></tr>
+    <tr><td>Surface / Boundary Layer</td><td>Land Surface Temperature</td><td>LST</td><td>Skin temperature of the land surface retrieved from thermal IR.</td></tr>
+  </tbody>
+</table>

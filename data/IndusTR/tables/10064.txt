@@ -1,0 +1,14 @@
+<table>
+  <caption>CABAC Context-Flag Traversal Matrix (Not Syntax-Element Mapped)</caption>
+  <thead>
+    <tr><th>Context group</th><th>Control flags / conditions</th><th>Traversal guidance</th><th>Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Bypass bins</td><td>BypassFlag = 1</td><td>Generate long bypass runs; verify decoder does not desync</td><td>GB/T 33475.2—2024, 8.3.3.1</td></tr>
+    <tr><td>Stuffing bins</td><td>StuffingBitFlag = 1</td><td>Insert stuffing at CTU/tile end; verify termination handling</td><td>GB/T 33475.2—2024, 8.3.3.1</td></tr>
+    <tr><td>SAO availability</td><td>SaoMergeLeftAvai, SaoMergeUpAvai</td><td>Traverse all availability combinations at picture borders</td><td>Table 74 (merge signaling)</td></tr>
+    <tr><td>Coefficient scanning mode</td><td>IsChroma, block size class</td><td>Traverse chroma/luma and multiple transform sizes</td><td>Table 100 (scan constraints)</td></tr>
+    <tr><td>CU partition environment</td><td>IntraCuFlag, SizeInBit</td><td>Traverse all legal pairs; include extreme CU sizes</td><td>Related to split decisions</td></tr>
+    <tr><td>Binary string parsing (generic)</td><td>binIdx (varies)</td><td>Cover low/high binIdx regions and boundary bin transitions</td><td>Tables 80–82 (examples)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Mixed Portal Regression Set - Terminal + Subscription Relationship Management (SRM Dominant)</caption>
+  <thead>
+    <tr><th>Module</th><th>Test Case ID</th><th>Actor Role</th><th>Test Sub-item</th><th>Objective</th><th>Priority</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Subscription</td><td>MIX-01</td><td>Customer Admin</td><td>Subscription Relationship Management</td><td>Verify binding an enterprise account to a subscription package via the portal</td><td>P0</td><td>Creates entitlements used by downstream modules</td></tr>
+    <tr><td>Subscription</td><td>MIX-02</td><td>Customer Admin</td><td>Subscription Relationship Management</td><td>Verify unbinding (relationship termination) blocks access to subscribed resources</td><td>P0</td><td>Negative access checks required</td></tr>
+    <tr><td>Subscription</td><td>MIX-03</td><td>SI/SP Admin</td><td>Subscription Relationship Management</td><td>Verify changing subscription quota updates effective limits</td><td>P1</td><td>Validate recalculation jobs</td></tr>
+    <tr><td>Subscription</td><td>MIX-04</td><td>SI/SP Admin</td><td>Subscription Relationship Management</td><td>Verify approval workflow for subscription relationship requests</td><td>P1</td><td>Includes notifications</td></tr>
+    <tr><td>Terminal</td><td>MIX-05</td><td>Terminal Vendor</td><td>Terminal Management</td><td>Verify viewing terminal inventory after subscription relationship is approved</td><td>P2</td><td>Terminal checks depend on MIX-04</td></tr>
+    <tr><td>Subscription</td><td>MIX-06</td><td>SI/SP Admin</td><td>Subscription Relationship Management</td><td>Verify exporting subscription relationship audit report</td><td>P2</td><td>Compliance reporting</td></tr>
+    <tr><td>Subscription</td><td>MIX-07</td><td>Customer Admin</td><td>Subscription Relationship Management</td><td>Verify portal displays relationship status transitions (pending/active/suspended)</td><td>P1</td><td>UI state machine validation</td></tr>
+    <tr><td>Terminal</td><td>MIX-08</td><td>Customer Admin</td><td>Terminal Management</td><td>Verify terminal assignment is blocked when no active subscription relationship exists</td><td>P1</td><td>Cross-module guardrail test</td></tr>
+  </tbody>
+</table>

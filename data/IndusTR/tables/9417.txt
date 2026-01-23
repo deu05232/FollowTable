@@ -1,0 +1,15 @@
+<table>
+  <caption>Generic Documentation Attribute Requirements (How to Write the Spec)</caption>
+  <thead>
+    <tr><th>No.</th><th>Documentation Attribute</th><th>Requirement Level</th><th>Formatting Rule</th><th>Example</th><th>Validation Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Title</td><td>Mandatory</td><td>Sentence case, max 120 chars</td><td>"Service Description Model"</td><td>Automated lint rule</td></tr>
+    <tr><td>2</td><td>Version</td><td>Mandatory</td><td>Semantic versioning (MAJOR.MINOR.PATCH)</td><td>1.4.0</td><td>Regex check</td></tr>
+    <tr><td>3</td><td>Change Log</td><td>Mandatory</td><td>One row per change, include date and author</td><td>2026-01-01 / J.Smith</td><td>Reviewer checklist</td></tr>
+    <tr><td>4</td><td>Terminology Consistency</td><td>Conditional</td><td>Use approved glossary terms only</td><td>"service offering" not "service package"</td><td>Glossary match</td></tr>
+    <tr><td>5</td><td>Diagrams</td><td>Optional</td><td>Use UML class diagram notation</td><td>Relationship diagram</td><td>Architecture review</td></tr>
+    <tr><td>6</td><td>Examples</td><td>Recommended</td><td>Provide at least one positive and one negative example</td><td>JSON snippet</td><td>Peer review</td></tr>
+    <tr><td>7</td><td>Localization</td><td>Optional</td><td>Provide English master, translated copies follow</td><td>en-US, zh-CN</td><td>Translation QA</td></tr>
+  </tbody>
+</table>

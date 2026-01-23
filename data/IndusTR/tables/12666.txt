@@ -1,0 +1,17 @@
+<table>
+  <caption>Network Service Address Patterns for Agricultural Inputs Identification Using GS1 AIs (Primary and Extended Parameter Pairs)</caption>
+  <thead>
+    <tr><th>Use case</th><th>Network service address template</th><th>Primary identifier parameter pairs</th><th>Extended identifier parameter pairs</th><th>AI reference (element string)</th><th>Example request</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Item instance lookup (trade item + serial)</td><td>https://resolver.example/agri/obj</td><td>01={GTIN}&21={SER}</td><td>10={LOT}</td><td>01 GTIN; 21 Serial; 10 Batch/Lot</td><td>https://resolver.example/agri/obj?01=09506000123457&21=SN-AGRI-0000459&10=LOT2026A01</td></tr>
+    <tr><td>Trade item class lookup (no serial)</td><td>https://resolver.example/agri/class</td><td>01={GTIN}</td><td>240={ADDL_ID}</td><td>01 GTIN; 240 Additional product identification</td><td>https://resolver.example/agri/class?01=09506000123457&240=FERT-NPK-20-20-20</td></tr>
+    <tr><td>Batch-focused traceability</td><td>https://resolver.example/agri/batch</td><td>01={GTIN}&10={LOT}</td><td>11={PROD_DATE}</td><td>01 GTIN; 10 Batch/Lot; 11 Production date</td><td>https://resolver.example/agri/batch?01=09506000123457&10=LOT2026A01&11=260115</td></tr>
+    <tr><td>Logistics unit association (SSCC referencing an input shipment)</td><td>https://resolver.example/agri/sscc</td><td>00={SSCC}</td><td>01={GTIN}</td><td>00 SSCC; 01 GTIN</td><td>https://resolver.example/agri/sscc?00=095060000000000018&01=09506000123457</td></tr>
+    <tr><td>Quantity expressed for variable measure input (e.g., bulk)</td><td>https://resolver.example/agri/qty</td><td>01={GTIN}</td><td>30={COUNT}</td><td>01 GTIN; 30 Variable count</td><td>https://resolver.example/agri/qty?01=09506000123457&30=48</td></tr>
+    <tr><td>Attribute-enriched query (e.g., concentration/variant code)</td><td>https://resolver.example/agri/attr</td><td>01={GTIN}&21={SER}</td><td>240={ATTR}</td><td>01 GTIN; 21 Serial; 240 Additional ID/attribute</td><td>https://resolver.example/agri/attr?01=09506000123457&21=SN-AGRI-0000459&240=ACTIVE-GLY-360</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="6">Notes: Parameter pairs are shown using AI=value for implementability. Templates can also be expressed in EPC URI form (e.g., urn:epc:id:sgtin:...) but the table emphasizes network-service parameter pair usage as requested.</td></tr>
+  </tfoot>
+</table>

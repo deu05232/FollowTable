@@ -1,0 +1,15 @@
+<table>
+  <caption>Face/Iris Capture Metadata (Free-Form Definitions and Continuous Measurements)</caption>
+  <thead>
+    <tr><th>No.</th><th>Element</th><th>Example of Element Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Imaging Wavelength</td><td>Provide the exact center wavelength (nm) and full width at half maximum (FWHM) of the illuminator; include filter stack specs and transmission curves if available.</td></tr>
+    <tr><td>2</td><td>Gaze Angle</td><td>Store yaw/pitch/roll in degrees relative to optical axis; document estimation method and whether angles were computed per frame or per clip.</td></tr>
+    <tr><td>3</td><td>Exposure Settings</td><td>Record shutter time (ms), aperture (f-number), ISO/gain, and any HDR bracketing details; include auto-exposure constraints.</td></tr>
+    <tr><td>4</td><td>Pupil/Iris Geometry</td><td>Save iris radius (pixels), pupil radius (pixels), and segmentation confidence; describe failure modes in a short narrative.</td></tr>
+    <tr><td>5</td><td>Environmental Reflections</td><td>Describe reflections/glints qualitatively, including their location and intensity distribution; note if eyewear caused additional specular artifacts.</td></tr>
+    <tr><td>6</td><td>Temporal Stability</td><td>Provide frame-to-frame variation statistics (mean/variance) for sharpness and brightness across the capture window; mention dropped frames.</td></tr>
+    <tr><td>7</td><td>Subject Cooperation</td><td>Free-text description of compliance (instructions followed, head movement, blinking frequency) and any interruptions during capture.</td></tr>
+  </tbody>
+</table>

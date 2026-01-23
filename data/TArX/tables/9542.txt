@@ -1,0 +1,19 @@
+<table>
+  <caption>Earth–Moon Transit/Model Fit Parameters (Mostly Unitless or Algorithm Settings)</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Parameter Type</th><th>Symbol</th><th>Earth</th><th>Moon</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Light-curve fit</td><td>Radius ratio</td><td>Rp/R*</td><td>0.00916</td><td>-</td><td>Unitless</td></tr>
+    <tr><td>Moon-to-planet radius ratio</td><td>Rs/Rp</td><td>-</td><td>0.273</td><td>Unitless</td></tr>
+    <tr><td>Impact parameter</td><td>b</td><td>0.48</td><td>0.52</td><td>Unitless geometry</td></tr>
+    <tr><td rowspan="3">Timing</td><td>Normalized timing offset</td><td>Δt/P</td><td>0.00031</td><td>0.00102</td><td>Dimensionless</td></tr>
+    <tr><td>TTV correlation coefficient</td><td>corr(TTV, TDV)</td><td>0.62</td><td>0.71</td><td>Statistic</td></tr>
+    <tr><td>Phase lag</td><td>φ</td><td>0.11</td><td>0.19</td><td>Radians (often treated as unitless)</td></tr>
+    <tr><td rowspan="3">Noise/Algorithm</td><td>White-noise scale</td><td>σ/σ0</td><td>1.0</td><td>1.0</td><td>Normalized</td></tr>
+    <tr><td>Regularization weight</td><td>λ</td><td>0.001</td><td>0.001</td><td>Model hyperparameter</td></tr>
+    <tr><td>MCMC acceptance</td><td>a</td><td>0.24</td><td>0.23</td><td>Fraction</td></tr>
+    <tr><td rowspan="2">Derived</td><td>Mass ratio (assumed)</td><td>Ms/Mp</td><td>-</td><td>0.0123</td><td>Unitless</td></tr>
+    <tr><td>Density ratio</td><td>ρs/ρp</td><td>-</td><td>0.60</td><td>Unitless</td></tr>
+  </tbody>
+</table>

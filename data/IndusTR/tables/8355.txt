@@ -1,0 +1,10 @@
+<table>
+  <caption>Additional operating-parameter tolerances for low-voltage shore power box (voltage/frequency only)</caption>
+  <tr><th>Operating condition</th><th>Parameter</th><th>Permissible steady-state deviation</th><th>Permissible transient deviation</th><th>Maximum recovery time</th></tr>
+  <tr><td>Normal load steps</td><td>AC voltage</td><td>+5% / -8%</td><td>±15%</td><td>1.0 s</td></tr>
+  <tr><td>Normal load steps</td><td>Frequency</td><td>±4%</td><td>±8%</td><td>4 s</td></tr>
+  <tr><td>Motor-start event on berth</td><td>AC voltage</td><td>+6% / -10%</td><td>±20%</td><td>1.5 s</td></tr>
+  <tr><td>Motor-start event on berth</td><td>Frequency</td><td>±5%</td><td>±10%</td><td>5 s</td></tr>
+  <tr><td>Generator transfer (shore supply switching)</td><td>AC voltage</td><td>+6% / -10%</td><td>±25%</td><td>2.0 s</td></tr>
+  <tr><td>Generator transfer (shore supply switching)</td><td>Frequency</td><td>±5%</td><td>±12%</td><td>6 s</td></tr>
+</table>

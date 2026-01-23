@@ -1,0 +1,10 @@
+<table>
+  <caption>Manufacturing Process Control Parameters for Ship Earth Station RF Module</caption>
+  <tr><th>Process Step</th><th>Equipment</th><th>Key Parameter</th><th>Target</th><th>Tolerance</th><th>QC Record</th></tr>
+  <tr><td>PCB reflow</td><td>10-zone oven</td><td>Peak temperature</td><td>245°C</td><td>±5°C</td><td>Reflow profile log</td></tr>
+  <tr><td>RF shielding</td><td>Laser welder</td><td>Weld energy</td><td>18 J</td><td>±2 J</td><td>Weld inspection sheet</td></tr>
+  <tr><td>Receiver alignment</td><td>Vector signal generator</td><td>IF offset</td><td>0 kHz</td><td>±1 kHz</td><td>Alignment report</td></tr>
+  <tr><td>PA biasing</td><td>Bench PSU</td><td>Quiescent current</td><td>1.2 A</td><td>±0.1 A</td><td>Bias checklist</td></tr>
+  <tr><td>Environmental burn-in</td><td>Thermal chamber</td><td>Duration</td><td>24 h</td><td>±1 h</td><td>Burn-in log</td></tr>
+  <tr><td>Final test</td><td>Power meter</td><td>Output power</td><td>20 W</td><td>±1 W</td><td>Test certificate</td></tr>
+</table>

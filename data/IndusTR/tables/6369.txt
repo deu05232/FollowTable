@@ -1,0 +1,15 @@
+<table>
+  <caption>Fire Resistance Rating Codes by Standard Fire Exposure Curve and Heating Regime</caption>
+  <thead>
+    <tr><th>Exposure curve / test regime</th><th>Curve code</th><th>Peak temperature (°C)</th><th>Time to peak (min)</th><th>Duration evaluated (h)</th><th>Rating code at 15 mm</th><th>Rating code at 25 mm</th><th>Rating code at 35 mm</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cellulosic (ISO 834)</td><td>Fp</td><td>945</td><td>60</td><td>0.50</td><td>Fp0.50</td><td>Fp1.00</td><td>Fp1.50</td><td>Standard building fire curve</td></tr>
+    <tr><td>Cellulosic (ISO 834)</td><td>Fp</td><td>1049</td><td>120</td><td>1.00</td><td>Fp1.00</td><td>Fp1.50</td><td>Fp2.00</td><td>Rating code varies by thickness</td></tr>
+    <tr><td>Hydrocarbon (UL 1709)</td><td>Ft</td><td>1093</td><td>5</td><td>0.50</td><td>Ft0.50</td><td>Ft1.00</td><td>Ft1.50</td><td>Rapid temperature rise</td></tr>
+    <tr><td>Hydrocarbon (UL 1709)</td><td>Ft</td><td>1093</td><td>5</td><td>2.00</td><td>Ft2.00</td><td>Ft2.50</td><td>Ft3.00</td><td>Hydrocarbon pool fire profile</td></tr>
+    <tr><td>Petrochemical (Modified HC)</td><td>Fs</td><td>1200</td><td>10</td><td>2.00</td><td>Fs2.00</td><td>Fs2.50</td><td>Fs3.00</td><td>Higher severity petrochemical curve</td></tr>
+    <tr><td>RABT (tunnel)</td><td>Fb</td><td>1200</td><td>5</td><td>1.50</td><td>Fb1.50</td><td>Fb2.00</td><td>Fb2.50</td><td>Short, very high peak tunnel curve</td></tr>
+    <tr><td>RWS (tunnel)</td><td>Fr</td><td>1350</td><td>60</td><td>2.00</td><td>Fr2.00</td><td>Fr2.50</td><td>Fr3.00</td><td>Large hydrocarbon fire in tunnel</td></tr>
+  </tbody>
+</table>

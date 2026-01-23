@@ -1,0 +1,18 @@
+<table>
+  <caption>Contributions to the cohesive energy of solid mercury (in mHartree) are listed for different many-body expansions (including the Hartree-Fock energy in the many-body expansion (MB) or using the crystal HF energy (CRY), calculating the correlation energy increments from free (free) or embedded clusters (emb)) and different basis sets (A, B, augB, augC). For the 1-body term the contribution of the free atom is subtracted. The 2-body increments are summed up to a distance of 2.52 a 0 . (For the augmented basis sets, the * means that only increments up to a distance of 1.92 a 0 are calculated with the basis set indicated, while basis set B is used for the rest.) The sum of the 3-body increments for the first shell is taken over the increments with 2 distances smaller 1.16 a 0 , for the second shell over increments with 2 distances smaller than 1.63 a 0 . The 4-body contributions is the sum over 5 compact clusters. The experimental value is -29 mHartree [ crc97 ] .</caption>
+  <tr><th></th><th>CRY</th><th>CRY</th><th>MB</th></tr>
+  <tr><th></th><td>emb</td><td>free</td><td>free</td></tr>
+  <tr><th>HF</th><td>+36.2</td><td>+36.2</td><td></td></tr>
+  <tr><th>1-body, basis B</th><td>+4.2</td><td></td><td></td></tr>
+  <tr><th>1-body, basis augB</th><td>+4.6</td><td></td><td></td></tr>
+  <tr><th>1-body, basis augC</th><td>+4.4</td><td></td><td></td></tr>
+  <tr><th>2-body, basis B</th><td>-50.0</td><td>-44.7</td><td>+12.7</td></tr>
+  <tr><th>2-body, basis augB</th><td>-57.5 ^((*))</td><td>-56.7</td><td>-0.1</td></tr>
+  <tr><th>2-body, basis augC</th><td>-61.2 ^((*))</td><td>-61.3</td><td>-4.8</td></tr>
+  <tr><th>3-body(1st), basis B</th><td>-9.2</td><td>+20.0</td><td>-39.5</td></tr>
+  <tr><th>3-body(1st), basis augB</th><td>—</td><td>+19.1</td><td>-40.4</td></tr>
+  <tr><th>3-body(2nd), basis B</th><td>-2.4</td><td>+2.8</td><td>-2.9</td></tr>
+  <tr><th>3-body(2nd), basis augB</th><td>—</td><td>+0.8</td><td>-4.0</td></tr>
+  <tr><th>4-body, basis A</th><td>+3.0</td><td>-16.6</td><td>+18.9</td></tr>
+  <tr><th>total, best available basis</th><td>-29.2</td><td>-21.8</td><td>-30.3</td></tr>
+</table>

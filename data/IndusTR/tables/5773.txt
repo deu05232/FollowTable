@@ -1,0 +1,10 @@
+<table>
+  <caption>Knitting equipment data dictionary — downtime with power consumption (mixed section)</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0330</td><td>Downtime</td><td>Downtime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Paused duration during knitting</td><td></td></tr>
+  <tr><td>0X0331</td><td>Running Time</td><td>RunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>min</td><td>Active knitting duration</td><td></td></tr>
+  <tr><td>0X0332</td><td>Power Consumption</td><td>PowerConsumption</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>kW·h</td><td>Energy consumed during the reporting window</td><td></td></tr>
+  <tr><td>0X0333</td><td>Current Shift Power Consumption</td><td>CurrentShiftElectricityConsumption</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>kW·h</td><td>Energy consumed in the current shift</td><td></td></tr>
+  <tr><td>0X0334</td><td>Machine Control Status</td><td>MachineControlState</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Control mode of the machine</td><td>0: Remote 1: Local 2: Remote/Local</td></tr>
+  <tr><td>0X0335</td><td>Reserve</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Extensible data field</td><td></td></tr>
+</table>

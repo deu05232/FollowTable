@@ -1,0 +1,16 @@
+<table>
+  <caption>Biometric Dataset Catalog for Algorithm Evaluation (Modality-Level)</caption>
+  <thead>
+    <tr><th>Dataset / Modality</th><th>Primary Sensor / Device</th><th>Acquisition Setup</th><th>Illumination / Spectrum</th><th>Scale</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Face (VIS)</td><td>DSLR camera</td><td>Standoff capture, tripod</td><td>Visible light, indoor</td><td>2,000 subjects</td><td>Face verification/ID</td></tr>
+    <tr><td>Face (NIR)</td><td>NIR camera</td><td>Standoff capture</td><td>Near-infrared, low light</td><td>1,200 subjects</td><td>Cross-spectrum face</td></tr>
+    <tr><td>Fingerprint (Contact)</td><td>Optical platen scanner</td><td>Flat/rolled impressions</td><td>N/A</td><td>50,000 prints</td><td>AFIS-style matching</td></tr>
+    <tr><td>Fingerprint (Contactless)</td><td>Smartphone rear camera</td><td>Handheld capture</td><td>Visible light, mixed</td><td>10,000 images</td><td>Contactless matching</td></tr>
+    <tr><td>Iris</td><td>Iris sensor</td><td>Standoff guided</td><td>Near-infrared</td><td>5,000 eyes</td><td>Iris verification</td></tr>
+    <tr><td>Palmprint</td><td>Line-scan palm sensor</td><td>Contact-based platen</td><td>Visible light</td><td>8,000 palms</td><td>Palm recognition</td></tr>
+    <tr><td>Voice</td><td>Telephone channel</td><td>Call recordings</td><td>N/A</td><td>3,000 speakers</td><td>Speaker verification</td></tr>
+    <tr><td>Gait</td><td>RGB video camera</td><td>Walkway, side view</td><td>Visible light</td><td>600 subjects</td><td>Gait recognition</td></tr>
+  </tbody>
+</table>

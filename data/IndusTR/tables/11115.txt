@@ -1,0 +1,16 @@
+<table>
+  <caption>APF-Based Seasonal Efficiency Indicators for Commercial Refrigeration Systems by Application and Capacity</caption>
+  <thead>
+    <tr><th rowspan="2">Refrigeration application</th><th rowspan="2">System type</th><th rowspan="2">Capacity range (cooling)</th><th rowspan="2">Temperature class</th><th colspan="2">APF (Annual Performance Factor)</th><th rowspan="2">Test boundary / operating profile</th></tr>
+    <tr><th>Minimum APF threshold</th><th>High-efficiency APF threshold</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Walk-in cold room</td><td>Remote condensing unit (air-cooled)</td><td>5 kW to 15 kW</td><td>Medium temp</td><td>≥ 2.20</td><td>≥ 2.80</td><td>Seasonal profile with door openings and part-load</td></tr>
+    <tr><td>Remote condensing unit (air-cooled)</td><td>15 kW to 40 kW</td><td>Medium temp</td><td>≥ 2.10</td><td>≥ 2.70</td><td>Includes auxiliary fan and defrost energy in APF</td></tr>
+    <tr><td>Remote condensing unit (air-cooled)</td><td>5 kW to 25 kW</td><td>Low temp</td><td>≥ 1.60</td><td>≥ 2.10</td><td>Lower APF expected due to low-temp lift</td></tr>
+    <tr><td rowspan="2">Display case</td><td>Integral (plug-in) cabinet</td><td>0.5 kW to 3 kW</td><td>Medium temp</td><td>≥ 1.80</td><td>≥ 2.30</td><td>Seasonal duty cycle includes lighting and anti-sweat</td></tr>
+    <tr><td>Remote (rack / distributed)</td><td>10 kW to 60 kW</td><td>Medium temp</td><td>≥ 2.00</td><td>≥ 2.60</td><td>APF reflects compressor staging and condenser control</td></tr>
+    <tr><td rowspan="2">Chiller for process/cooling storage</td><td>Air-cooled refrigeration chiller</td><td>30 kW to 150 kW</td><td>Medium temp</td><td>≥ 2.40</td><td>≥ 3.10</td><td>Seasonal load bins; includes pump/fan where applicable</td></tr>
+    <tr><td>Water-cooled refrigeration chiller</td><td>100 kW to 600 kW</td><td>Medium temp</td><td>≥ 2.80</td><td>≥ 3.60</td><td>Seasonal profile includes tower/auxiliary energy allocation</td></tr>
+  </tbody>
+</table>

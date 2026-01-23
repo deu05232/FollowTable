@@ -1,0 +1,15 @@
+<table>
+  <caption>Delivered Product Identification Fields (Deliverable Service Package)</caption>
+  <thead>
+    <tr><th>No.</th><th>Field</th><th>Definition</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>delivered_product_serial_number</td><td>Unique serial number of the delivered finished product unit.</td><td>SN-24-001928</td></tr>
+    <tr><td>2</td><td>delivered_product_model</td><td>Commercial model name/number for the delivered product.</td><td>ZX-500</td></tr>
+    <tr><td>3</td><td>delivered_product_name</td><td>Human-readable name of the delivered product.</td><td>Hydraulic Power Unit</td></tr>
+    <tr><td>4</td><td>delivery_document_id</td><td>Identifier of the delivery note, certificate, or shipping document.</td><td>DN-77821</td></tr>
+    <tr><td>5</td><td>delivery_date</td><td>Date the finished product was delivered to the customer.</td><td>2026-01-10</td></tr>
+    <tr><td>6</td><td>customer_site_id</td><td>Identifier of the customer site/location receiving the unit.</td><td>SITE-AMS-03</td></tr>
+    <tr><td>7</td><td>acceptance_status</td><td>Customer acceptance state for the delivered product.</td><td>Accepted</td></tr>
+  </tbody>
+</table>

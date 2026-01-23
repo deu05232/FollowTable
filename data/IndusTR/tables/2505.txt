@@ -1,0 +1,14 @@
+<table>
+  <caption>EDI Gateway Infrastructure Configuration (Reference Architecture)</caption>
+  <thead>
+    <tr><th>Component</th><th>Purpose</th><th>Protocol</th><th>Port</th><th>Auth Method</th><th>Retention</th><th>Owner</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AS2 Server</td><td>B2B message exchange</td><td>HTTPS/AS2</td><td>443</td><td>Client certificate</td><td>90 days</td><td>IT Operations</td></tr>
+    <tr><td>SFTP Relay</td><td>File-based EDI intake</td><td>SFTP</td><td>22</td><td>SSH key</td><td>30 days</td><td>IT Operations</td></tr>
+    <tr><td>Message Broker</td><td>Routing & queueing</td><td>AMQP</td><td>5672</td><td>Token</td><td>14 days</td><td>Platform Team</td></tr>
+    <tr><td>Schema Validator</td><td>XSD/JSON validation</td><td>Internal</td><td>N/A</td><td>N/A</td><td>7 days</td><td>Integration Team</td></tr>
+    <tr><td>Audit Log Store</td><td>Non-repudiation</td><td>WORM storage</td><td>N/A</td><td>RBAC</td><td>1 year</td><td>Security</td></tr>
+    <tr><td>Monitoring Agent</td><td>Telemetry collection</td><td>SNMP</td><td>161</td><td>Community string</td><td>30 days</td><td>NOC</td></tr>
+  </tbody>
+</table>

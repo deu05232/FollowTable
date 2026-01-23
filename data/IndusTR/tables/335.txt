@@ -1,0 +1,16 @@
+<table>
+  <caption>Closable Caption Style Description Syntax Structure Table</caption>
+  <tr><td>Style Description Syntax</td><td>Descriptor</td></tr>
+  <tr><td>style_description(){</td><td></td></tr>
+  <tr><td>if(CC_type ！ = 2){</td><td></td></tr>
+  <tr><td>bold_flag</td><td>u(1)</td></tr>
+  <tr><td>italic_flag</td><td>u(1)</td></tr>
+  <tr><td>underline_flag</td><td>u(1)</td></tr>
+  <tr><td>reserved</td><td>r(13)</td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>else{</td><td></td></tr>
+  <tr><td>picture_format</td><td>u(8)</td></tr>
+  <tr><td>reserved</td><td>r(8）</td></tr>
+  <tr><td>Wide</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

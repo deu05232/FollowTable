@@ -1,0 +1,15 @@
+<table>
+  <caption>Fingerprint Image Quality & Ridge Clarity Metrics (Scoring-Oriented)</caption>
+  <thead>
+    <tr><th>Metric Group</th><th>Metric Name</th><th>Computation Detail</th><th>Units</th><th>Recommended Threshold</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Contrast</td><td>Local Ridge-Valley Contrast</td><td>Mean(Iridge) − Mean(Ivalley) within blocks; averaged over ROI</td><td>Gray level</td><td>> 15</td></tr>
+    <tr><td>Sharpness</td><td>Ridge Frequency Consistency</td><td>FFT peak stability across blocks; penalty for frequency variance</td><td>Index (0–1)</td><td>> 0.70</td></tr>
+    <tr><td>Noise</td><td>Background Noise Level</td><td>σ of intensity in background mask; higher σ indicates noise</td><td>Gray level</td><td>< 8</td></tr>
+    <tr><td>Artifacts</td><td>Smudge/Stain Detection</td><td>Percent area with saturated pixels or low-gradient blobs</td><td>%</td><td>< 5%</td></tr>
+    <tr><td>Geometry</td><td>Core-to-Delta Visibility</td><td>Minutiae confidence score aggregated around singular points</td><td>Score (0–100)</td><td>> 60</td></tr>
+    <tr><td>Compression</td><td>Blocking Artifact Score</td><td>Edge discontinuity energy at 8×8 boundaries (JPEG-like)</td><td>Score (0–100)</td><td>< 20</td></tr>
+    <tr><td>Completeness</td><td>Effective ROI Area</td><td>Aroi/Aimage computed after segmentation and margin trimming</td><td>%</td><td>> 70%</td></tr>
+  </tbody>
+</table>

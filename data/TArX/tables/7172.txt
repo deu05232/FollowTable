@@ -1,0 +1,13 @@
+<table>
+  <caption>Summary of all Output Options</caption>
+  <tr><th>Output Listing</th><th>§</th><th colspan="3">Output File Triggered by Flag</th></tr>
+  <tr><th></th><th></th><td>1</td><td>2</td><td>3</td></tr>
+  <tr><th>Spectral properties, all models</th><th>LABEL:fname.spp</th><td>fname.spp</td><td>fname.spp</td><td>fname.spp</td></tr>
+  <tr><th>Slab, left-face spectra</th><th>LABEL:Slab_Output</th><td></td><td></td><td>fname.zpp</td></tr>
+  <tr><th>Detailed spectra, each model</th><th>LABEL:fname.s</th><td>fname.stb</td><td>fname.s###</td><td>fname.s###</td></tr>
+  <tr><th>Slab, left-face spectra</th><th>LABEL:Slab_Output</th><td></td><td></td><td>fname.z###</td></tr>
+  <tr><th>Images</th><th>LABEL:imaging</th><td>fname.itb</td><td>fname.i###</td><td>fname.i###</td></tr>
+  <tr><th>Visibilities</th><th>LABEL:fname.v</th><td></td><td></td><td>fname.v###</td></tr>
+  <tr><th>Radial profiles</th><th>LABEL:fname.r</th><td>fname.rtb</td><td>fname.r###</td><td></td></tr>
+  <tr><th>Error messages</th><th>LABEL:fname.m</th><td>fname.mtb</td><td>fname.m###</td><td></td></tr>
+</table>

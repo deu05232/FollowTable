@@ -1,0 +1,40 @@
+<table>
+  <caption>Circular Knitting Machine Equipment Fluid System Alarm Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Low Air Pressure</td><td>LowAirPressure</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>One</td><td>Supply air pressure is lower than the set air pressure value (air pressure valve)</td><td>One</td></tr>
+  <tr><td>0X0901</td><td>Low Oil Pressure</td><td>LowOilPressure</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Oil spraying air pressure is insufficient, cannot effectively spray oil</td><td></td></tr>
+  <tr><td>0X0902</td><td>Low Oil Level</td><td>LowOilLevel</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>One</td><td>Oil level is insufficient</td><td></td></tr>
+  <tr><td>0X0903</td><td>Safety Door Alarm</td><td>SafetyDoorAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Safety door open warning</td><td></td></tr>
+  <tr><td>0X0904</td><td>Cloth Broken</td><td>ClothBrokenAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Fabric take-up abnormality of the fabric winding machine</td><td></td></tr>
+  <tr><td>0X0905</td><td>Yarn Abnormal</td><td>YarnAbnormalAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td></td><td>Yarn break, yarn entanglement alarm</td><td></td></tr>
+  <tr><td>0X0906</td><td>Needle Broken</td><td>NeedleBrokenAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Abnormal broken needle alarm exists in the cylinder</td><td></td></tr>
+  <tr><td>0X0907</td><td>Yarn Feeder Alarm</td><td>YarnFeederAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Yarn feeding feeder yarn break alarm</td><td></td></tr>
+  <tr><td>0X0908</td><td>Probe Alarm</td><td>ProbeAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Detected abnormal closure of the needle latch alarm</td><td></td></tr>
+  <tr><td>0X0909</td><td>Converter Alarm</td><td>ConverterAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X090A</td><td>Yarn Guide Communication Abnormal</td><td>YarnGuideComAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Online query yarn guide feedback abnormal</td><td></td></tr>
+  <tr><td>0X090B</td><td>Valve Communication Abnormal</td><td>ValveComAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Online query functional valve board feedback abnormal</td><td></td></tr>
+  <tr><td>0X090C</td><td>Cylinder Zero Code Abnormal</td><td>CylinderZerocodeAbnormal</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Cylinder zero-position switch working abnormal</td><td></td></tr>
+  <tr><td>0X090D</td><td>Module Fault Communication</td><td>ModuleChatError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>1</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X090E</td><td>Broken Dial Jack</td><td>BrokenDialJackTransfer</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X090F</td><td>Seaming Yarn Loop Hooks Dial</td><td>YarnLoopCan'TBeReleasedFromTheDialJack</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Seaming yarn hooking abnormal</td><td>丨</td></tr>
+  <tr><td>0X0710</td><td>Wrong Selection</td><td>WrongSelection</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>1</td><td>1</td></tr>
+  <tr><td>0X0711</td><td>Cutter and Cutter Ring Alarm</td><td>BrokenCutterRingAndCutter</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>One</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0712</td><td>Sewing Device Alarm</td><td>SewingEquipment</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>One</td><td></td></tr>
+  <tr><td>0X0713</td><td>Mechanical Component Consumption Abnormal</td><td>MechanicalComponentConsumptionAbnormal</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0714</td><td>Machine Stuck</td><td>MechanicalComponentStuck</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0715</td><td>Power Phase Lack</td><td>PowerPhaseLack</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td></td><td>Power supply abnormal</td><td>1</td></tr>
+  <tr><td>0X0716</td><td>Suction Fan Main Switch</td><td>SuctionFanMainSwitchError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Suction fan abnormal</td><td></td></tr>
+  <tr><td>0X0717</td><td>Step Motor Problem</td><td>StepMotorError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0718</td><td>Carriage Sensor Fault</td><td>SerialSensorsWrongCommunications</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Underwear machine and sock machine carriage sensors, PCB mainboard or cable communication abnormal</td><td></td></tr>
+  <tr><td>0X0719</td><td>High Temperature Alarm</td><td>HighTemperatureAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td></td><td>Cylinder temperature too high</td><td>1</td></tr>
+  <tr><td>0X071A</td><td>Servo Fault</td><td>ServoAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X071B</td><td>Emergency Stop</td><td>EmergencyStop</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>1</td><td>1</td></tr>
+  <tr><td>0X071C</td><td>Drop Cloth</td><td>DropAlarm</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X071D</td><td>Overspeed</td><td>Overspeed</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>One</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X071E</td><td>Storage Error</td><td>StorageError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X071F</td><td>Yarn Sensor Error</td><td>YarnSenorError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0720</td><td>Fabric Slitting Machine Fault</td><td>CuttingError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0721</td><td>Software Fault</td><td>SoftwareError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0722</td><td>Cam Fault</td><td>CamAlarmError</td><td>0</td><td>VAR</td><td>RO</td><td>Boolean</td><td>One</td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0723</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td>One</td><td>1</td><td></td><td></td></tr>
+</table>

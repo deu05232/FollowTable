@@ -1,0 +1,9 @@
+<table>
+  <caption>Service Performance Response Time Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Maximum Response Time</td><td>maxResponseTime</td><td>C..128</td><td>0</td><td>1</td><td></td><td>The maximum round-trip time between sending a request and receiving a response</td></tr>
+  <tr><td>Minimum Response Time</td><td>minResponseTime</td><td>C..128</td><td>0</td><td>1</td><td></td><td>The minimum round-trip time between sending a request and receiving a response</td></tr>
+  <tr><td>Average Response Time</td><td>averageResponseTime</td><td>C..128</td><td>0</td><td>1</td><td></td><td>The average round-trip time between sending a request and receiving a response</td></tr>
+  <tr><td>Concurrency</td><td>concurrency</td><td>C..128</td><td>0</td><td>1</td><td></td><td>Indicates the number of service requests executed at the same time, describing the service's concurrent request processing capability</td></tr>
+  <tr><td>Throughput</td><td>throughput</td><td>C..128</td><td>0</td><td>1</td><td></td><td>Indicates the number of service requests completed per unit time, describing the service's request processing capability</td></tr>
+</table>

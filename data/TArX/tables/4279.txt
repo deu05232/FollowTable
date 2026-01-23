@@ -1,0 +1,13 @@
+<table>
+  <caption>Discrete version of stochastic two-phase traffic flow model for single-lane road</caption>
+  <tr><td>v_(n+1)=(0,({v_(free),_(n+1)+_(n),v_(n)+a_(max)% τ,v_(s),n}))</td></tr>
+  <tr><td>x_(n+1)=x_(n)+v_(n+1)τ ,</td></tr>
+  <tr><td>_(n+1)=(0,(v_(free),v_(s),n,v_(c),n)) ,</td></tr>
+  <tr><td>v_(c),n=\{[]llv_(n)+a_(n)τ&$Δ v_(% n)+a_(,n)τ<Δ v_(a)$,\\ v_(n)+Δ^((2))_(n)&$Δ v_(n)+a_(,n)τ≥Δ v_(% a)$,\\ .</td></tr>
+  <tr><td>Δ^((2))_(n)=k_(a)a_(n)τ(0,(1,\ γ(g_(n)-v_(n)τ))),</td></tr>
+  <tr><td>g_(n)=x_(,n)-x_(n)-d , Δ v_(n)=v_(,n)-v_(n) ,</td></tr>
+  <tr><td>a_(,n)=(v_(,n)-v_(,n-1))/τ ,</td></tr>
+  <tr><td>a_(max)=\{[]lla&$Δ v_(n)+a_(,n)% τ<Δ v_(a)$,\\ k_(a)a&$Δ v_(n)+a_(,n)τ≥Δ v_(a)$,\\ .</td></tr>
+  <tr><td>v_(free) , d , a , Δ v_(a) , k_(a) , and γ are constants; τ=1 ;</td></tr>
+  <tr><td>marks the preceding vehicle.</td></tr>
+</table>

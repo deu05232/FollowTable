@@ -1,0 +1,11 @@
+<table>
+  <caption>CAN Bus Analyzer Calibration and Test Environment Requirements (Lab Setup)</caption>
+  <tr><th>Category</th><th>Parameter</th><th>Requirement</th><th>Typical Setting</th><th>Verification Method</th><th>Record</th></tr>
+  <tr><td>Instrument</td><td>Time base accuracy</td><td>≤ 50 ppm</td><td>20 ppm</td><td>GPSDO comparison</td><td>CAL-TB-01</td></tr>
+  <tr><td>Instrument</td><td>Sample rate</td><td>≥ 10 MS/s</td><td>20 MS/s</td><td>Vendor self-test</td><td>CAL-SR-02</td></tr>
+  <tr><td>Bus</td><td>Termination resistance</td><td>60 Ω total</td><td>2×120 Ω</td><td>DMM measurement</td><td>ENV-TR-03</td></tr>
+  <tr><td>Environment</td><td>Ambient temperature</td><td>23 ± 2 °C</td><td>22.8 °C</td><td>Thermometer</td><td>ENV-T-04</td></tr>
+  <tr><td>Environment</td><td>Relative humidity</td><td>30–70%</td><td>45%</td><td>Hygrometer</td><td>ENV-H-05</td></tr>
+  <tr><td>Signal</td><td>Bit timing tolerance</td><td>≤ 1.5%</td><td>0.8%</td><td>Eye diagram check</td><td>CAL-BT-06</td></tr>
+  <tr><td>Power</td><td>Supply ripple</td><td>≤ 50 mVpp</td><td>18 mVpp</td><td>Oscilloscope</td><td>ENV-P-07</td></tr>
+</table>

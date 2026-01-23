@@ -1,0 +1,16 @@
+<table>
+  <caption>RR Lyrae absolute magnitude and luminosity calibration versus distance indicators (multi-method comparison).</caption>
+  <thead>
+    <tr><th rowspan="2">Target / System</th><th rowspan="2">Method</th><th colspan="2">Distance</th><th colspan="3">Intrinsic brightness</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Distance modulus (mag)</th><th>Distance (kpc)</th><th>Mean M_V (mag)</th><th>Mean log(L/Lsun)</th><th>Adopted metallicity [Fe/H]</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Milky Way (field)</td><td>Gaia parallax (zero-point corrected)</td><td>13.45</td><td>4.9</td><td>0.60</td><td>1.63</td><td>-1.5</td><td>Local calibration set</td></tr>
+    <tr><td>Galactic bulge</td><td>Near-IR PLZ (K_s)</td><td>14.55</td><td>8.1</td><td>0.67</td><td>1.60</td><td>-1.0</td><td>High extinction region</td></tr>
+    <tr><td>Draco dSph</td><td>Optical M_V–[Fe/H]</td><td>19.60</td><td>83.2</td><td>0.55</td><td>1.66</td><td>-2.0</td><td>Metal-poor population</td></tr>
+    <tr><td>Sculptor dSph</td><td>Near-IR PLZ (J)</td><td>19.67</td><td>86.0</td><td>0.58</td><td>1.64</td><td>-1.8</td><td>Mixed metallicity</td></tr>
+    <tr><td>Large Magellanic Cloud</td><td>Wesenheit (VI) relation</td><td>18.45</td><td>49.0</td><td>0.62</td><td>1.62</td><td>-1.6</td><td>Distance-scale anchor</td></tr>
+    <tr><td>Small Magellanic Cloud</td><td>Near-IR PLZ (K_s)</td><td>18.95</td><td>61.7</td><td>0.63</td><td>1.61</td><td>-1.7</td><td>Depth effects possible</td></tr>
+    <tr><td>M31 halo</td><td>Optical mean magnitude + extinction model</td><td>24.40</td><td>760</td><td>0.61</td><td>1.63</td><td>-1.4</td><td>External galaxy application</td></tr>
+  </tbody>
+</table>

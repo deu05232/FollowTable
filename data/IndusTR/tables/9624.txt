@@ -1,0 +1,15 @@
+<table>
+  <caption>Incoming Inspection Sampling Plan for Rolling Bearing Components (Ac/Re Criteria)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Component / Feature</th><th>Inspection Method</th><th>Sampling Decision</th><th>Sample Size</th><th>Acceptance (Ac)</th><th>Rejection (Re)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Inner ring hardness (HRC)</td><td>Hardness test</td><td>Single sampling</td><td>2 pcs / lot</td><td>0</td><td>1</td><td>Reject lot if any tested ring is out of spec</td></tr>
+    <tr><td>2</td><td>Outer ring hardness (HRC)</td><td>Hardness test</td><td>Single sampling</td><td>2 pcs / lot</td><td>0</td><td>1</td><td>Includes hardness difference within same part</td></tr>
+    <tr><td>3</td><td>Rolling element hardness (HRC)</td><td>Hardness test</td><td>Single sampling</td><td>4 pcs / lot</td><td>0</td><td>1</td><td>Reject lot if any rolling element fails</td></tr>
+    <tr><td>4</td><td>Microstructure (inner ring)</td><td>Metallography</td><td>Single sampling</td><td>1 pc / lot</td><td>0</td><td>1</td><td>Verify martensite/carbide network per spec</td></tr>
+    <tr><td>5</td><td>Microstructure (outer ring)</td><td>Metallography</td><td>Single sampling</td><td>1 pc / lot</td><td>0</td><td>1</td><td>Same criteria as inner ring</td></tr>
+    <tr><td>6</td><td>Surface decarburization (raceways)</td><td>Metallography</td><td>Single sampling</td><td>1 pc / lot</td><td>0</td><td>1</td><td>Any decarb beyond limit = reject</td></tr>
+    <tr><td>7</td><td>Case depth / effective hardened layer</td><td>Microhardness traverse</td><td>Single sampling</td><td>1 pc / lot</td><td>0</td><td>1</td><td>Applies to rings requiring surface hardening</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,45 @@
+# Comparison of web browsers
+> Protocol support
+
+| Browser | HTTP | FTP [note 1] | NNTP [note 2] | SSL | EV | IRC | Gopher | IDN | data:URI | BitTorrent | IPv6 | Proxy | HTTP/2 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Amaya | Yes | No | No | No | No | No | No | ? | No | No | ? | ? | ? |
+| AOL Explorer | Yes | Yes | No | Yes [note 3] | Yes | No | No [note 4] | No | No | No | Yes | ? | ? |
+| Avant | Yes | Yes | No | Yes [note 3] | Yes | No | No [note 4] | No | No | No | Yes | ? | ? |
+| Camino | Yes | Yes | No | Yes | ? | No | Yes | Yes | Yes | No | Yes | ? | ? |
+| Dillo | Yes | Yes | No | No [note 5] | No | No | No | No | Yes | No | Yes | ? | ? |
+| ELinks | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes | Yes | Yes | Partial [note 6] | ? |
+| Flock | Yes | Yes | No | Yes | ? | No [note 7] | Yes | Yes | Yes | No | Yes | ? | ? |
+| Galeon | Yes | Yes | No | Yes | Yes | No | Yes | Yes | Yes | No | Yes | Yes | ? |
+| Google Chrome | Yes | Yes | No | Yes | Yes | No | No | Yes | Yes | No | ? | Yes | Yes [90] |
+| iCab | Yes | Yes | No | Yes | ? | No | No | Yes | No | No | Yes | ? | ? |
+| Internet Explorer | Yes | Yes | No | Yes [note 3] | Yes | No | Dropped [note 4] | Yes | Partial [note 8] | No | Yes | Yes | Yes [92] |
+| Internet Explorer for Mac | Yes | Yes | No | Yes | No | No | Yes | No | No | No | ? | ? | ? |
+| K-Meleon | Yes | Yes | No | Yes | ? | No | Yes | Yes | Yes | No | Yes | Yes | ? |
+| Konqueror | Yes | Yes | No | Yes | No | No | No [note 9] | Yes | Yes | Yes | Yes | Yes | ? |
+| Links | Yes | Yes | No | Yes | No | No | No | No | No | No | No | Partial [note 6] | ? |
+| Lynx | Yes | Yes | Yes | Yes | No | No | Yes | No | No | No | Yes | Partial [note 6] | ? |
+| Maxthon | Yes | Yes | No | Yes [note 3] | Yes | No | No [note 4] | Yes | No | No | Yes | Yes | ? |
+| Microsoft Edge | Yes | Yes | No | Yes | Yes | No | No | Yes | Yes | No | Yes | Yes | Yes |
+| Mosaic | Partial [note 10] | Yes | Yes | No | No | No | Yes | No | No | No | No | ? | No |
+| Mozilla | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes [note 11] | Yes | No | No | Yes | ? |
+| Mozilla Firefox | Yes | Yes | No [note 12] | Yes | Yes | No [note 7] | Dropped [note 13] | Yes [note 11] | Yes | No [note 14] | Yes | Yes | Yes [93] [94] |
+| Netscape | Yes | Yes | Yes | Yes | No | No [note 7] | Yes | Yes | Yes | No | ? | ? | ? |
+| Netscape Browser | Yes | Yes | No | Yes | No | No | Depends [85] | Depends [85] | Depends [85] | No | ? | ? | ? |
+| Netscape Navigator | Yes | Yes | Yes | Yes | No | No | Yes | No | No | No | ? | ? | ? |
+| Netscape Navigator 9 | Yes | Yes | No | Yes | No | No [note 7] | Yes | Yes [note 11] | Yes | No | Yes | ? | ? |
+| NetSurf | Yes | Yes | No | Yes | No | No | No | No | Yes | No | Yes | ? | ? |
+| OmniWeb | Yes | Yes | No | Yes | ? | No | Yes [95] | Yes | Yes | No | Yes | ? | ? |
+| Opera | Yes | Yes | Dropped | Yes | Yes | Dropped | No [note 15] | Yes | Yes | Dropped | Yes | Yes | Yes [96] |
+| Pale Moon | Yes | Yes | No [note 12] | Yes | Yes | No [note 7] | No | Yes [note 11] | Yes | No [note 14] | Yes | Yes | ? |
+| Polarity | Yes | Yes | No | Yes | Yes | No | No | Yes | Yes | No | Yes | Yes | ? |
+| QupZilla | Yes | Yes | No | Yes | Yes | No | No | Yes | Yes | No | Yes | Yes | ? |
+| Safari | Yes | Partial | No | Yes | Yes | No | No | Yes | Yes | No | Yes | Yes | Yes [96] |
+| SeaMonkey | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes [note 11] | Yes | No | Yes | Yes | ? |
+| Shiira | Yes | ? | ? | Yes | ? | No | No | Yes | ? | No | Yes | ? | ? |
+| Sleipnir | Yes | Yes | No | Yes [note 3] | Yes | No | No [note 4] | Yes | No | No | Yes | ? | ? |
+| surf | Yes | No | No | Partial [note 16] | Partial [note 16] | No | No | Yes | Yes | No | Yes | Partial [note 6] | ? |
+| Web | Yes | No | No | Yes | Yes | No | No | Yes | Yes | No | Yes | Partial [note 6] | ? |
+| WorldWideWeb | Yes | Yes | Yes | No | No | No | No | No | No | No | No | ? | ? |
+| w3m | Yes | Yes | No | Yes | ? | No | Yes | ? | ? | No | Yes | ? | ? |
+| Browser | HTTP | FTP [note 1] | NNTP [note 2] | SSL | EV | IRC | Gopher | IDN | data:URI | BitTorrent | IPv6 | Proxy | HTTP/2 |

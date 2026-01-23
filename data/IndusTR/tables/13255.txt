@@ -1,0 +1,15 @@
+<table>
+  <caption>Intelligent Behavior Requirements by Industrial Instrument Category (Operational Smart Functions)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Subtype / Example</th><th>Intelligent Behavior Requirements (in operation)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Measuring Instruments</td><td>Pressure / Level Transmitters</td><td>Detect and classify impulse-line or capillary anomalies (e.g., blockage, leakage, gas entrainment) using signal-shape analysis; provide confidence score and recommended verification steps; store a short event trace for root-cause review.</td></tr>
+    <tr><td>Measuring Instruments</td><td>Temperature Transmitters</td><td>Self-diagnose sensor drift and wiring faults (open/short/intermittent) using redundancy checks and historical baseline; automatically compensate for ambient influence when supported; flag gradual degradation before out-of-tolerance occurs.</td></tr>
+    <tr><td>Measuring Instruments</td><td>Flowmeters (vortex / mag / ultrasonic)</td><td>Abnormality detection tuned to principle: identify two-phase flow or condensation risk (vortex), electrode coating/empty pipe (mag), low SNR/bubbles/impurities (ultrasonic); adapt thresholds to operating range and fluid properties to reduce false alarms.</td></tr>
+    <tr><td>Analytical Instruments</td><td>Process Analyzers (e.g., gas chromatograph, spectroscopic)</td><td>Auto-detect sample quality issues (contamination, moisture, carrier-gas instability) and switch to a safe analysis mode; learn typical process signatures and alert on deviations; perform predictive maintenance for consumables (columns, lamps, filters) based on usage and performance trends.</td></tr>
+    <tr><td>Analytical Instruments</td><td>pH / Conductivity Analyzers</td><td>Estimate sensor health (fouling, aging) from response time and calibration history; recommend cleaning/calibration interval via prediction; automatically select measurement model/temperature compensation based on detected solution behavior.</td></tr>
+    <tr><td>Actuators</td><td>Electric / Electro-hydraulic Valve Actuators</td><td>Recognize valve stiction, backlash, or seat wear from torque/thrust and position profile; perform adaptive tuning to optimize control loop stability; predict required maintenance by trend analysis of torque margin and travel time; generate actionable alarms (e.g., “likely packing friction increase”).</td></tr>
+    <tr><td>Actuators</td><td>Control Valves with Positioners</td><td>Closed-loop self-test to validate response; detect air supply issues or leakage using deviation patterns; automatically re-linearize position vs. output to maintain accuracy; propose next-step actions (inspect air filter, check I/P).</td></tr>
+  </tbody>
+</table>

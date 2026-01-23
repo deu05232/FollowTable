@@ -1,0 +1,10 @@
+<table>
+  <caption>Association Relationship Table Between Machinery Item Catalog and Subsidized Product Catalog</caption>
+  <tr><td>Relationship Name</td><td>Relationship between the Machinery Item Catalog Table and the Subsidized Product Catalog Table</td></tr>
+  <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+  <tr><td>Table Name 1</td><td>Machinery Item Catalog Table</td></tr>
+  <tr><td>Table Name 2</td><td>Subsidized Product Catalog Table</td></tr>
+  <tr><td>Relationship 1</td><td>Machinery Item Catalog Table.Machinery Item Catalog Year-〉Subsidized Product Catalog Table.Subsidized Product Catalog Year</td></tr>
+  <tr><td>Relationship 2</td><td>Machinery Item Catalog Table.Administrative Division Code-〉Subsidized Product Catalog Table.Administrative Division Code</td></tr>
+  <tr><td>Relationship 3</td><td>Machinery Item Catalog Table.Machinery Item Catalog Code-〉Subsidized Product Catalog Table.Machinery Item Catalog Code</td></tr>
+</table>

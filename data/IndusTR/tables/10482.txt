@@ -1,0 +1,7 @@
+<table>
+  <caption>Official Vehicle Refueling Transaction Fields (Event-Oriented)</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Transaction Reference</td><td>Character</td><td>an..40</td><td>Identifier for a single refueling occurrence</td></tr>
+  <tr><td>2</td><td>Refueling Timestamp</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when the refueling event was recorded</td></tr>
+  <tr><td>3</td><td>Fuel Amount</td><td>Numeric</td><td>n..10,2</td><td>Quantity purchased in the transaction</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>ArSession_update Parameter Reference</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Active AR session instance to advance by one frame.</td></tr>
+    <tr><td>timestamp_ns</td><td>int64_t</td><td>Monotonic timestamp (nanoseconds) used to synchronize sensor fusion and rendering.</td></tr>
+    <tr><td>out_frame</td><td>ArFrame *</td><td>Pointer to a frame object that will be populated with the latest tracking state.</td></tr>
+    <tr><td>update_mode</td><td>ArUpdateMode</td><td>Specifies whether the update should block, be non-blocking, or use a cached frame.</td></tr>
+    <tr><td>out_status</td><td>ArStatus *</td><td>Optional output pointer receiving success/error code for the update call.</td></tr>
+    <tr><td>reserved</td><td>void *</td><td>Reserved for future extension; must be set to NULL.</td></tr>
+  </tbody>
+</table>

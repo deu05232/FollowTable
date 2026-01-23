@@ -1,0 +1,16 @@
+<table>
+  <caption>Ammonium Nitrate Line Control Panel Targets (Includes Product Chemistry Limits)</caption>
+  <thead>
+    <tr><th>Area</th><th>Equipment / Location</th><th>Indicator Type</th><th>Parameter</th><th>Target / Allowable Range</th><th>Unit</th><th>Operator Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Neutralization</td><td>Neutralizer outlet</td><td>Chemistry</td><td>Solution pH</td><td>6.2–7.0</td><td>pH</td><td>Trim ammonia flow / nitric acid flow</td></tr>
+    <tr><td>Neutralization</td><td>Neutralizer outlet</td><td>Chemistry</td><td>Free acid (as HNO3)</td><td>≤0.05</td><td>wt%</td><td>Increase NH3 ratio</td></tr>
+    <tr><td>Evaporation</td><td>Primary evaporator product</td><td>Composition</td><td>AN solute concentration</td><td>93–95</td><td>wt%</td><td>Adjust steam / vacuum</td></tr>
+    <tr><td>Evaporation</td><td>Second-stage evaporator product</td><td>Composition</td><td>AN solute concentration</td><td>98.0–99.0</td><td>wt%</td><td>Adjust steam / circulation rate</td></tr>
+    <tr><td>Crystallization</td><td>Crystallizer mother liquor</td><td>Composition</td><td>AN solute concentration</td><td>89–93</td><td>wt%</td><td>Adjust cooling duty</td></tr>
+    <tr><td>Finishing</td><td>Prill / granule discharge</td><td>Quality</td><td>Moisture content</td><td>≤0.30</td><td>wt%</td><td>Adjust dryer air rate</td></tr>
+    <tr><td>Finishing</td><td>Product sampling station</td><td>Quality</td><td>Chloride (Cl−) in product</td><td>≤20</td><td>mg/kg</td><td>Investigate feed contamination</td></tr>
+    <tr><td>Finishing</td><td>Product sampling station</td><td>Quality</td><td>Oil / coating pickup</td><td>0.15–0.30</td><td>wt%</td><td>Adjust coating pump speed</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Ionospheric Spherical-Harmonic Coefficient Term Record (per n,m) — Correction and Accuracy Fields</caption>
+  <thead>
+    <tr><th>Term Field</th><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Number of Bits</th><th>Role in harmonic model</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Index</td><td>Spherical harmonic function degree (n)</td><td>DF474</td><td>uint4</td><td>4</td><td>Selects the degree for the transmitted coefficient pair.</td></tr>
+    <tr><td>Index</td><td>Spherical harmonic function order (m)</td><td>DF475</td><td>uint4</td><td>4</td><td>Selects the order for the transmitted coefficient pair.</td></tr>
+    <tr><td>Coefficient</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>int16</td><td>16</td><td>Cosine coefficient for term (n,m) in the ionospheric correction expansion.</td></tr>
+    <tr><td>Coefficient</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>int16</td><td>16</td><td>Sine coefficient for term (n,m) in the ionospheric correction expansion.</td></tr>
+    <tr><td>Accuracy</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>uint8</td><td>8</td><td>Uncertainty/quality indicator for the cosine coefficient above.</td></tr>
+    <tr><td>Accuracy</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>uint8</td><td>8</td><td>Uncertainty/quality indicator for the sine coefficient above.</td></tr>
+    <tr><td>Geometry context</td><td>Ionospheric thin-shell height</td><td>DF473</td><td>uint8</td><td>8</td><td>Defines the shell geometry used when applying the harmonic coefficients to compute delay correction.</td></tr>
+  </tbody>
+</table>

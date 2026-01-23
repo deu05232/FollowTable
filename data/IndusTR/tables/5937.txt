@@ -1,0 +1,15 @@
+<table>
+  <caption>Electric Compressor Endurance Run Settings (Cyclic Operation with Temperature/Pressure Windows)</caption>
+  <thead>
+    <tr><th rowspan="2">Cycle block</th><th colspan="2">Cycle timing</th><th colspan="2">Electrical / Speed</th><th colspan="5">Operating-state condition limits</th></tr>
+    <tr><th>Run (min)</th><th>Stop (min)</th><th>Supply voltage (V)</th><th>Speed (rpm)</th><th>Evaporating temperature (°C)</th><th>Condensing temperature (°C)</th><th>Superheat (K)</th><th>Suction pressure window (MPa)</th><th>Discharge pressure limit (MPa)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>EB-1 (cold start)</td><td>6</td><td>4</td><td>Rated</td><td>3500</td><td>-5 ± 1</td><td>45 ± 2</td><td>8–12</td><td>0.16–0.20</td><td>≤ 1.30</td></tr>
+    <tr><td>EB-2 (nominal)</td><td>7</td><td>3</td><td>Rated</td><td>4500</td><td>0 ± 1</td><td>55 ± 2</td><td>8–12</td><td>0.18–0.22</td><td>≤ 1.55</td></tr>
+    <tr><td>EB-3 (high load)</td><td>7</td><td>3</td><td>Rated</td><td>6000</td><td>5 ± 1</td><td>65 ± 2</td><td>10–15</td><td>0.20–0.26</td><td>≤ 1.90</td></tr>
+    <tr><td>EB-4 (hot ambient)</td><td>8</td><td>2</td><td>Max (for 30% of block)</td><td>6500</td><td>7 ± 1</td><td>70 ± 2</td><td>10–15</td><td>0.22–0.28</td><td>≤ 2.05</td></tr>
+    <tr><td>EB-5 (voltage dip)</td><td>7</td><td>3</td><td>Min (for 10% of block)</td><td>5000</td><td>0 ± 1</td><td>55 ± 2</td><td>8–12</td><td>0.18–0.22</td><td>≤ 1.55</td></tr>
+    <tr><td>EB-6 (recovery)</td><td>7</td><td>3</td><td>Rated</td><td>4500</td><td>0 ± 1</td><td>55 ± 2</td><td>8–12</td><td>0.18–0.22</td><td>≤ 1.55</td></tr>
+  </tbody>
+</table>

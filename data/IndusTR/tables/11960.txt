@@ -1,0 +1,20 @@
+<table>
+  <caption>Proposed Fields for a Multimodal Biometric Capture & Subject Profile Sheet</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Example Values</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Acquisition Modality</td><td>Spectrum / Illumination</td><td>Visible, NIR (850nm), SWIR</td><td>Record wavelength if applicable</td></tr>
+    <tr><td>Contact Type</td><td>Contact-based, Contactless</td><td>Applies to fingerprint/palm</td></tr>
+    <tr><td>Sensor / Device Model</td><td>Optical FP-200, ToF Cam-X</td><td>Include firmware version</td></tr>
+    <tr><td>Capture Distance</td><td>10 cm, 30 cm, 1 m</td><td>Especially for face/iris</td></tr>
+    <tr><td rowspan="4">Image / Signal Quality</td><td>Focus / Sharpness</td><td>In-focus, Defocus blur, Motion blur</td><td>Optional auto-score 0–100</td></tr>
+    <tr><td>Exposure</td><td>Under, Normal, Over</td><td>Log ISO/shutter if known</td></tr>
+    <tr><td>Compression</td><td>RAW, JPEG Q=90, H.264</td><td>Codec impacts recognition</td></tr>
+    <tr><td>Occlusion</td><td>null, Glasses, Mask</td><td>Visible obstruction factor</td></tr>
+    <tr><td rowspan="4">Participant Attributes</td><td>Gender</td><td>Female, Male, Non-binary, Unspecified</td><td>Self-reported</td></tr>
+    <tr><td>Age Band</td><td><18, 18–29, 30–44, 45–60, 60+</td><td>Use bins for privacy</td></tr>
+    <tr><td>Skin Tone</td><td>Light, Medium, Dark, Other</td><td>Any consistent scale</td></tr>
+    <tr><td>Height / Build</td><td>160 cm; Slim/Average/Heavy</td><td>Body/size characteristics</td></tr>
+  </tbody>
+</table>

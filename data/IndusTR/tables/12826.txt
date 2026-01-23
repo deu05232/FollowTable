@@ -1,0 +1,7 @@
+<table>
+  <caption>Version Negotiation (Charger Side) – Protocol Version Shown as Vx.y.z Only</caption>
+  <tr><th>Serial No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Description</th></tr>
+  <tr><td>1</td><td>CAN Type</td><td>1 byte</td><td>BYTE</td><td>0x00: CAN2.0B; 0x01: CAN FD; 0x02: CAN XL</td></tr>
+  <tr><td>2</td><td>Negotiation Result</td><td>1 byte</td><td>BYTE</td><td>0x00: continue negotiation; 0x01: negotiation successful; 0x02: negotiation failed</td></tr>
+  <tr><td>3</td><td>Protocol Version</td><td>3 bytes</td><td>BYTE[3]</td><td>Shown as a combined label like V2.0.0 (no separate definition for each byte)</td></tr>
+</table>

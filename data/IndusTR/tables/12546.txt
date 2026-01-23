@@ -1,0 +1,15 @@
+<table>
+  <caption>Functional Coverage Inventory — Platform Maintenance, Access Onboarding, and Fault Handling</caption>
+  <thead>
+    <tr><th>Domain</th><th>Capability Under Test</th><th>Verification Intent</th><th>Expected Functional Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Platform Maintenance</td><td>Platform Business Information Maintenance</td><td>Confirm business profile fields can be created/updated and take effect for subsequent operations</td><td>Updated information is persisted and reflected in platform views and APIs</td></tr>
+    <tr><td>Role-Based Access Control for Maintenance</td><td>Confirm only authorized roles can modify platform business information</td><td>Authorized users succeed; unauthorized users are denied with an auditable reason</td></tr>
+    <tr><td rowspan="2">Access / Onboarding</td><td>Application Access Onboarding</td><td>Confirm a new external business application can be onboarded for platform access</td><td>Access entry is created; connectivity/authorization state becomes active</td></tr>
+    <tr><td>Application Access Offboarding</td><td>Confirm an application can be offboarded and loses access to platform resources</td><td>Access revoked; calls/requests are rejected per policy</td></tr>
+    <tr><td rowspan="3">Fault Handling</td><td>Application Access Fault Management</td><td>Confirm access-layer faults can be detected, classified, and surfaced to operators</td><td>Fault record includes severity/category; visible in fault list</td></tr>
+    <tr><td>Terminal Fault Ticket Creation</td><td>Confirm terminal faults trigger a trackable ticket/record for follow-up handling</td><td>Fault creates a unique record with lifecycle state (open/closed)</td></tr>
+    <tr><td>Fault Recovery Confirmation</td><td>Confirm the platform can mark faults as recovered when the terminal/app returns to normal</td><td>Fault status transitions to recovered/closed with timestamp and evidence</td></tr>
+  </tbody>
+</table>

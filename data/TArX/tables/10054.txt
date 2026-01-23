@@ -1,0 +1,16 @@
+<table>
+  <caption>Side-by-side force predictions in a simplified bimetric Yukawa-plus-screening parameterization</caption>
+  <thead>
+    <tr><th rowspan="2">Distance r relative to characteristic scales</th><th colspan="2">Force on a nonrelativistic test mass</th><th rowspan="2">Observable consequence</th><th rowspan="2">Notes / assumptions</th></tr>
+    <tr><th>Newtonian/GR column</th><th>Bimetric gravity column</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>r ≪ r_V (deeply screened)</th><td>F_N = G_N M m / r^2</td><td>F_bi ≈ F_N · (1 + ε_s), with |ε_s| ≪ 1</td><td>Solar-system tests passed if ε_s small</td><td>Screening (e.g., Vainshtein) assumed efficient</td></tr>
+    <tr><th>r ~ r_V (screening transition)</th><td>F_N = G_N M m / r^2</td><td>F_bi ≈ F_N · [1 + ε_t(r)], where ε_t(r) changes rapidly with r</td><td>Possible subtle deviations in wide binaries / outskirts</td><td>ε_t is model-dependent; monotonicity not guaranteed</td></tr>
+    <tr><th>r_V ≪ r ≪ λ_g (below graviton Compton length)</th><td>F_N = G_N M m / r^2</td><td>F_bi ≈ F_N · (1 + α)</td><td>Acts like a rescaled Newton constant in this band</td><td>λ_g = 1/m_g; α from metric mixing/couplings</td></tr>
+    <tr><th>r ~ λ_g (Yukawa roll-off)</th><td>F_N = G_N M m / r^2</td><td>F_bi ≈ F_N · [1 + α exp(-r/λ_g)]</td><td>Scale-dependent force; affects galaxy/cluster dynamics</td><td>Single Yukawa term shown as an effective description</td></tr>
+    <tr><th>r ≫ λ_g (far field)</th><td>F_N = G_N M m / r^2</td><td>F_bi ≈ F_N · [1 + α exp(-r/λ_g)] → F_N</td><td>Deviations shut off exponentially at very large r</td><td>If α>0 then intermediate enhancement; if α<0 suppression</td></tr>
+    <tr><th>Photon vs massive particle response</th><td>Same metric potentials determine both (GR: consistent lensing & dynamics)</td><td>Nonrelativistic force may be screened while lensing traces a different combination of potentials</td><td>Lensing–dynamics consistency test</td><td>Depends on matter coupling to one or both metrics</td></tr>
+    <tr><th>Linear cosmological perturbations (k dependence)</th><td>G_eff(k)=G_N (in GR)</td><td>G_eff(k,a)=G_N[1+Δ(k,a)] with Δ enhanced around k~a m_g</td><td>Scale-dependent growth rate fσ8</td><td>Quasi-static, sub-horizon approximation</td></tr>
+  </tbody>
+</table>

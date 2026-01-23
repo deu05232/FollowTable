@@ -1,0 +1,9 @@
+<table>
+  <caption>Tensor Interpolation Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Represents the input tensor that needs interpolation. Includes sampling over time, space, and volume, i.e., the expected input is a tensor with 3D, 4D, or 5D shape</td></tr>
+  <tr><td>Output Size</td><td>Input</td><td>Optional</td><td>Output size of the tensor after interpolation. For 3D, 4D, and 5D input tensors, this parameter specifies the output size for the W dimension, [H,W] dimensions, and [D, H, W] dimensions respectively. This parameter can be empty, indicating that the output size is determined by the scale factor. Default: empty</td></tr>
+  <tr><td>Scale Factor</td><td>Input</td><td>Required</td><td>Scaling factor for the output size of the tensor after interpolation. For 3D, 4D, and 5D input tensors, this parameter specifies the scaling factor for the W dimension, [H,W] dimensions, and [D, H, W] output size respectively. This parameter is valid only when the output size is empty</td></tr>
+  <tr><td>Mode</td><td>Input</td><td>Optional</td><td>The interpolation algorithm used in computation, including nearest(nearest), linear(linear), bilinear(bilinear), trilinear(trilinear), area(area), etc. Default: nearest(nearest)</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Represents the computation result; the shape is jointly determined by the input tensor shape and the output size or scale factor</td></tr>
+</table>

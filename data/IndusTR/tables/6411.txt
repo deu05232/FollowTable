@@ -1,0 +1,14 @@
+<table>
+  <caption>Application-layer message field definition — Phase Request (PGID/PID = 0x01)</caption>
+  <thead>
+    <tr><th>Seq.</th><th>Field / Parameter</th><th>Byte Offset</th><th>Length (bytes)</th><th>Data Type</th><th>Allowed Values / Encoding</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parameter Group Identifier</td><td>0</td><td>1</td><td>BYTE</td><td>Fixed: 0x01</td><td>Identifies this message as “Phase Request”.</td></tr>
+    <tr><td>2</td><td>Requested Phase</td><td>1</td><td>1</td><td>BYTE (ENUM)</td><td>0x01=Handshake; 0x02=Parameter negotiation; 0x03=Charging; 0x04=Stop/Terminate; 0xFF=Reserved</td><td>Which protocol phase the sender requests to enter.</td></tr>
+    <tr><td>3</td><td>Session ID</td><td>2</td><td>2</td><td>UINT16 (LE)</td><td>0x0000–0xFFFF</td><td>Associates the request with a charging session. Little-endian.</td></tr>
+    <tr><td>4</td><td>Timeout (ms)</td><td>4</td><td>2</td><td>UINT16 (LE)</td><td>0–60000</td><td>Maximum time the sender will wait for the response/transition.</td></tr>
+    <tr><td>5</td><td>Capabilities Flags</td><td>6</td><td>1</td><td>BYTE (BITFIELD)</td><td>bit0=Acknowledgment required; bit1=Allow fallback; bit2=Supports retry; bits3–7=0</td><td>Bit flags that affect how the receiver should respond.</td></tr>
+    <tr><td>6</td><td>Reserved</td><td>7</td><td>1</td><td>BYTE</td><td>Fixed: 0xFF</td><td>Reserved; transmit 0xFF, ignore on receipt.</td></tr>
+  </tbody>
+</table>

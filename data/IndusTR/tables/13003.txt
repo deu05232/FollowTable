@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitation Device Catalog Metadata (Units & Generic Attributes)</caption>
+  <thead>
+    <tr><th>Metadata Code</th><th>Field Name</th><th>Primary Unit</th><th>Allowed Unit Symbols</th><th>Description</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>LEN01</td><td>Overall length</td><td>Length</td><td>mm, cm, m</td><td>Physical dimension used for packaging and installation constraints</td><td>Any equipment</td></tr>
+    <tr><td>WID01</td><td>Overall width</td><td>Length</td><td>mm, cm, m</td><td>Physical dimension used for logistics</td><td>Any equipment</td></tr>
+    <tr><td>HEI01</td><td>Overall height</td><td>Length</td><td>mm, cm, m</td><td>Physical dimension used for storage planning</td><td>Any equipment</td></tr>
+    <tr><td>MASS1</td><td>Net weight</td><td>Mass</td><td>g, kg</td><td>Shipping and handling attribute</td><td>Any equipment</td></tr>
+    <tr><td>TIME1</td><td>Cycle time</td><td>Time</td><td>s, min, h</td><td>Duration of operation regardless of process type</td><td>Any equipment</td></tr>
+    <tr><td>TEMP1</td><td>Operating temperature</td><td>Temperature</td><td>°C, K</td><td>Environmental operating condition</td><td>Any equipment</td></tr>
+    <tr><td>POW01</td><td>Power rating</td><td>Power</td><td>W, kW</td><td>Electrical consumption specification</td><td>Any equipment</td></tr>
+    <tr><td>VOLT1</td><td>Supply voltage</td><td>Voltage</td><td>V</td><td>Electrical compatibility attribute</td><td>Any equipment</td></tr>
+  </tbody>
+</table>

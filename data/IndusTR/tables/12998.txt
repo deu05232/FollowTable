@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitary Equipment Logistics & Compliance Codes (Cross-Domain Metadata)</caption>
+  <thead>
+    <tr><th>Code</th><th>Metadata Item</th><th>Value Format</th><th>Example</th><th>Unit (if numeric)</th><th>Scope</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PKG1</td><td>Packaging length</td><td>Numeric</td><td>420</td><td>mm</td><td>Any product</td></tr>
+    <tr><td>PKG2</td><td>Packaging width</td><td>Numeric</td><td>260</td><td>mm</td><td>Any product</td></tr>
+    <tr><td>PKG3</td><td>Packaging height</td><td>Numeric</td><td>310</td><td>mm</td><td>Any product</td></tr>
+    <tr><td>SHIP</td><td>Shipping weight</td><td>Numeric</td><td>12.5</td><td>kg</td><td>Any product</td></tr>
+    <tr><td>STOR</td><td>Storage temperature limit</td><td>Numeric</td><td>40</td><td>°C</td><td>Any product</td></tr>
+    <tr><td>WARR</td><td>Warranty duration</td><td>Numeric</td><td>24</td><td>month</td><td>Any product</td></tr>
+    <tr><td>CERT</td><td>Certification document ID</td><td>String</td><td>ISO13485-2024-0172</td><td>N/A</td><td>Any product</td></tr>
+    <tr><td>ORIG</td><td>Country of origin</td><td>String</td><td>DE</td><td>N/A</td><td>Any product</td></tr>
+  </tbody>
+</table>

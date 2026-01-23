@@ -1,0 +1,10 @@
+<table>
+  <caption>Test power supply quality limits during copier/MFD energy measurements</caption>
+  <tr><th>Supply characteristic</th><th>Nominal value</th><th>Allowable deviation</th><th>Measurement point</th><th>Applies during</th><th>Comment</th></tr>
+  <tr><td>AC voltage</td><td>220 V</td><td>±2.2 V</td><td>At device input</td><td>All tests</td><td>Maintain within limits for valid results</td></tr>
+  <tr><td>Frequency</td><td>50 Hz</td><td>±0.50 Hz</td><td>At device input</td><td>All tests</td><td>Stable frequency required</td></tr>
+  <tr><td>Total harmonic distortion (THD)</td><td>—</td><td>≤2% (≤1.5 kW load)</td><td>At supply</td><td>All tests</td><td>Lower distortion preferred</td></tr>
+  <tr><td>Total harmonic distortion (THD)</td><td>—</td><td>≤5% (>1.5 kW load)</td><td>At supply</td><td>All tests</td><td>Depends on rated power</td></tr>
+  <tr><td>Voltage imbalance</td><td>—</td><td>≤1%</td><td>At supply</td><td>All tests</td><td>Avoid unstable mains</td></tr>
+  <tr><td>Supply interruptions</td><td>—</td><td>null permitted</td><td>At supply</td><td>During logging</td><td>Interruptions invalidate the run</td></tr>
+</table>

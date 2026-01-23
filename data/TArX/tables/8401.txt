@@ -1,0 +1,17 @@
+<table>
+  <caption>X-ray afterglow onset and follow-up delays (numeric time since trigger) alongside redshift for a mixed GRB sample.</caption>
+  <thead>
+    <tr><th rowspan="2">GRB</th><th rowspan="2">Redshift (z)</th><th colspan="3">Afterglow timing (since trigger)</th><th rowspan="2">Instrument</th><th rowspan="2">Timing definition</th></tr>
+    <tr><th>Onset delay</th><th>First pointed observation</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GRB 050904</td><td>6.295</td><td>70</td><td>180</td><td>s</td><td>Swift/XRT</td><td>Onset: start of fading X-ray afterglow; Pointed: first stable pointing</td></tr>
+    <tr><td>GRB 060614</td><td>0.125</td><td>95</td><td>160</td><td>s</td><td>Swift/XRT</td><td>Onset measured from XRT light curve break into afterglow phase</td></tr>
+    <tr><td>GRB 061121</td><td>1.314</td><td>85</td><td>145</td><td>s</td><td>Swift/XRT</td><td>Early steep-to-shallow transition used as afterglow start</td></tr>
+    <tr><td>GRB 070306</td><td>1.497</td><td>120</td><td>210</td><td>s</td><td>Swift/XRT</td><td>Onset defined at first detection above background</td></tr>
+    <tr><td>GRB 080913</td><td>6.70</td><td>75</td><td>155</td><td>s</td><td>Swift/XRT</td><td>High-z; X-ray afterglow detected rapidly</td></tr>
+    <tr><td>GRB 090510</td><td>0.903</td><td>60</td><td>95</td><td>s</td><td>Swift/XRT</td><td>Short GRB; very early XRT acquisition</td></tr>
+    <tr><td>GRB 100728A</td><td>1.567</td><td>110</td><td>200</td><td>s</td><td>Swift/XRT</td><td>Onset taken at first continuous afterglow segment</td></tr>
+    <tr><td>GRB 130606A</td><td>5.913</td><td>65</td><td>140</td><td>s</td><td>Swift/XRT</td><td>Afterglow onset near start of XRT coverage</td></tr>
+  </tbody>
+</table>

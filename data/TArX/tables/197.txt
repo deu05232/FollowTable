@@ -1,0 +1,35 @@
+<table>
+  <caption>A list of some studies where fluctuation scaling/Taylor’s law was directly applied or implied by a similar formalism. Groups were assigned by subject areas, Phy. = Physics, Cl. = Climatology. The column T/E shows the type of fluctuation scaling, T: temporal, E: ensemble.</caption>
+  <tr><th>Subj.</th><th>System</th><th>T/E</th><th>Refs.</th></tr>
+  <tr><td rowspan="5">Networks</td><td>Random walk</td><td>T</td><td>[ barabasi.fluct , barabasi.separating , eisler.internal ]</td></tr>
+  <tr><td>Network models</td><td>T</td><td>[ tadic.loops , menezes.flux ]</td></tr>
+  <tr><td>Highway network</td><td>T</td><td>[ barabasi.fluct , barabasi.separating ]</td></tr>
+  <tr><td>World Wide Web</td><td>T</td><td>[ barabasi.fluct , barabasi.separating ]</td></tr>
+  <tr><td>Internet</td><td>T</td><td>[ barabasi.fluct , barabasi.separating , duch.internet ]</td></tr>
+  <tr><td rowspan="2">Phy.</td><td>Heavy ion collisions</td><td>E</td><td>[ botet.prl , botet.pre , botet.npb ]</td></tr>
+  <tr><td>Cosmic rays</td><td>E</td><td>[ uttley.flux , vaughan.flux ]</td></tr>
+  <tr><td rowspan="5">Soc./econ.</td><td>Stock market</td><td>T</td><td>[ eisler.non-universality , eisler.unified , eisler.sizematters , jiang.fluxes ]</td></tr>
+  <tr><td>Stock market</td><td>E</td><td>this review</td></tr>
+  <tr><td>Business firm growth rates</td><td>E</td><td>[ stanley.firm , amaral.growth ]</td></tr>
+  <tr><td>Email traffic</td><td>T</td><td>this review</td></tr>
+  <tr><td>Printing activity</td><td>T</td><td>this review</td></tr>
+  <tr><td rowspan="2">Cl.</td><td>River flow</td><td>T</td><td>[ janosi.danube , dahlstedt.river ]</td></tr>
+  <tr><td>Precipitation</td><td>T</td><td>[ eisler.inprep ]</td></tr>
+  <tr><td rowspan="8">Ecology/pop. dyn.</td><td>Forest reproductive rates</td><td>T</td><td>[ ballantyne.scaling , ballantyne.correls ]</td></tr>
+  <tr><td>Satake-Iwasa forest model</td><td>T</td><td>[ ballantyne.model ]</td></tr>
+  <tr><td>Crop yield</td><td>T</td><td>[ fairfield.smith ]</td></tr>
+  <tr><td>Animal populations</td><td>T, E</td><td>[ taylor , anderson.variability , conserv , maurer.taper ]</td></tr>
+  <tr><td>Diffusion Limited population</td><td>E</td><td>[ kendal.dla ]</td></tr>
+  <tr><td>Population growth</td><td>T</td><td>[ keitt.pop , keitt.scaling ]</td></tr>
+  <tr><td>Exponential dispersion models</td><td>E</td><td>[ kendal.ecological , kendal.blood , kendal.tumor ]</td></tr>
+  <tr><td>Interacting population model</td><td>T</td><td>[ kilpatrick.ives ]</td></tr>
+  <tr><td rowspan="9">Life sciences</td><td>Cell numbers</td><td>E</td><td>[ cells ]</td></tr>
+  <tr><td>Protein expression</td><td>T</td><td>[ bareven.protein ]</td></tr>
+  <tr><td>Gene expression</td><td>T</td><td>[ nacher.gene , tadic.gene ]</td></tr>
+  <tr><td>Individual health</td><td>E</td><td>[ mitninski.ageing ]</td></tr>
+  <tr><td>Tumor cells</td><td>E</td><td>[ kendal.tumor ]</td></tr>
+  <tr><td>Human genome</td><td>E</td><td>[ genomevar , kendal.genomevar ]</td></tr>
+  <tr><td>Blood flow</td><td>E</td><td>[ kendal.blood ]</td></tr>
+  <tr><td>Oncology</td><td>E</td><td>[ kendal.tumor ]</td></tr>
+  <tr><td>Epidemiology</td><td>T</td><td>[ measles , pathogen ]</td></tr>
+</table>

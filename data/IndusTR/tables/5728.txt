@@ -1,0 +1,8 @@
+<table>
+  <caption>AR Hit Result: Parameters for Getting Collision Distance and Pose</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>AR session pointer</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit result returned from a hit test</td></tr>
+  <tr><td>out_distance</td><td>float *</td><td>Receives the distance from the ray origin to the collision point</td></tr>
+  <tr><td>out_pose</td><td>ArPose *</td><td>Receives the pose at the collision point</td></tr>
+</table>

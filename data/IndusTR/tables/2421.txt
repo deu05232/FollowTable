@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Quality Checklist for Agricultural Insurance Underwriting Records (Non-relational)</caption>
+  <thead>
+    <tr><th>Check ID</th><th>Field Name</th><th>Validation Rule</th><th>Error Severity</th><th>Example of Invalid Value</th><th>Remediation Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DQ-01</td><td>Policy_Start_Date</td><td>Must be <= Policy_End_Date</td><td>High</td><td>2024-09-01 > 2024-01-01</td><td>Correct dates from source</td></tr>
+    <tr><td>DQ-02</td><td>Insured_ID_Number</td><td>Length must be 18 characters</td><td>High</td><td>4101X</td><td>Re-collect ID</td></tr>
+    <tr><td>DQ-03</td><td>Premium_Amount</td><td>Must be >= 0</td><td>Medium</td><td>-120.00</td><td>Fix calculation logic</td></tr>
+    <tr><td>DQ-04</td><td>Crop_Type_Code</td><td>Must exist in master list</td><td>Medium</td><td>CT-999</td><td>Map to valid code</td></tr>
+    <tr><td>DQ-05</td><td>Village_Code</td><td>Must match admin division format</td><td>Low</td><td>VIL-12A</td><td>Normalize code</td></tr>
+    <tr><td>DQ-06</td><td>Phone_Number</td><td>Must match E.164 pattern</td><td>Low</td><td>12345</td><td>Standardize phone format</td></tr>
+  </tbody>
+</table>

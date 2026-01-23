@@ -1,0 +1,19 @@
+<table>
+  <caption>Subject Demographics and Physical Attributes for Biometric Evaluation Cohort</caption>
+  <thead>
+    <tr><th>Category</th><th>Metadata Field</th><th>Example Values</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Demographics</td><td>Gender</td><td>Female; Male; Non-binary; Prefer not to say</td><td>Used for fairness reporting</td></tr>
+    <tr><td>Age Group</td><td>0–17; 18–29; 30–44; 45–64; 65+</td><td>Self-reported</td></tr>
+    <tr><td>Ethnicity</td><td>Asian; Black; Hispanic; White; Mixed; Other</td><td>Optional label</td></tr>
+    <tr><td>Skin Tone (Fitzpatrick)</td><td>I; II; III; IV; V; VI</td><td>Observer-rated</td></tr>
+    <tr><td>Height / Weight</td><td>170 cm / 70 kg</td><td>Approximate</td></tr>
+    <tr><td rowspan="4">Physical Traits</td><td>Eye Color</td><td>Brown; Blue; Green; Hazel</td><td>For iris/periocular studies</td></tr>
+    <tr><td>Facial Hair</td><td>null; Mustache; Beard; Both</td><td>May vary by session</td></tr>
+    <tr><td>Glasses / Contacts</td><td>null; Glasses; Contact lenses</td><td>Worn during capture</td></tr>
+    <tr><td>Handedness</td><td>Left; Right; Ambidextrous</td><td>For hand-based modalities</td></tr>
+    <tr><td rowspan="2">Capture (token)</td><td>Modality</td><td>Face; Fingerprint; Voice</td><td>Only high-level modality tag</td></tr>
+    <tr><td>Capture Location</td><td>Lab; Clinic</td><td>No detailed setup recorded</td></tr>
+  </tbody>
+</table>

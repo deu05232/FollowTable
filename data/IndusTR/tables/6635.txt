@@ -1,0 +1,16 @@
+<table>
+  <caption>SSR Ionospheric SH Payload Framing Including Header and Coefficients</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Number of Bits</th><th>Decoder Hint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SSR Header</td><td>Message type number</td><td>DF002</td><td>uint12</td><td>12</td><td>Identifies SSR message</td></tr>
+    <tr><td>SSR Header</td><td>GPS epoch time</td><td>DF385</td><td>uint20</td><td>20</td><td>Reference epoch</td></tr>
+    <tr><td>SSR Header</td><td>SSR update interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Update period</td></tr>
+    <tr><td>SSR Header</td><td>Multiple message indicator</td><td>DF388</td><td>bit(1)</td><td>1</td><td>Continuation flag</td></tr>
+    <tr><td>Coefficient</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>int16</td><td>16</td><td>Cosine coefficient value</td></tr>
+    <tr><td>Coefficient</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>int16</td><td>16</td><td>Sine coefficient value</td></tr>
+    <tr><td>Coefficient</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>uint8</td><td>8</td><td>Cosine coefficient accuracy</td></tr>
+    <tr><td>Coefficient</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>uint8</td><td>8</td><td>Sine coefficient accuracy</td></tr>
+  </tbody>
+</table>

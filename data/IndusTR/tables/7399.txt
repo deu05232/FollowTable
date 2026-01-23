@@ -1,0 +1,8 @@
+<table>
+  <caption>SpaceFibre K-code Reference (no full control-word sequences)</caption>
+  <tr><th>K-Code</th><th>Label</th><th>Typical Use</th></tr>
+  <tr><td>K28.5</td><td>Init Comma</td><td>Used as an initialization comma during link bring-up</td></tr>
+  <tr><td>K28.7</td><td>Control Comma</td><td>Used as a comma preceding certain control words</td></tr>
+  <tr><td>K29.7</td><td>EOP</td><td>End-of-packet marker</td></tr>
+  <tr><td>K30.7</td><td>EEP</td><td>Error end-of-packet marker</td></tr>
+</table>

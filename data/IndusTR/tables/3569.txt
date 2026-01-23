@@ -1,0 +1,14 @@
+<table>
+  <caption>BDS Code Bias Information 1260 Message Header Field Definition</caption>
+  <tr><td>Data Field Name</td><td>Data Field Number</td><td>Data Type</td><td>Number of Bits</td></tr>
+  <tr><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td></tr>
+  <tr><td>BDS Epoch Time (TOW)</td><td>DF601</td><td>uint20</td><td>20</td></tr>
+  <tr><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td></tr>
+  <tr><td>Multiple Message Indicator</td><td>DF388</td><td>bit(1)</td><td>1</td></tr>
+  <tr><td>IOD SSRSAC</td><td>DF413</td><td>uint4</td><td>4</td></tr>
+  <tr><td>SSR Provider ID</td><td>DF414</td><td>uint16</td><td>16</td></tr>
+  <tr><td>SSR Solution ID</td><td>DF415</td><td>uint4</td><td>4</td></tr>
+  <tr><td>Number of Satellites</td><td>DF387</td><td>uint6</td><td>6</td></tr>
+  <tr><td>Total</td><td>一</td><td>一</td><td>67</td></tr>
+  <tr><td colspan="4">Note: DF387 is the total number of subsequent satellite data fields.</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Charging communication message field definitions (charger output limits)</caption>
+  <tr><th>Start byte or bit</th><th>Length</th><th>SPN</th><th>Field meaning</th><th>Send option</th></tr>
+  <tr><td>1</td><td>2 bytes</td><td>2901</td><td>Requested output voltage from charger</td><td>Mandatory</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>2902</td><td>Requested output current from charger</td><td>Mandatory</td></tr>
+  <tr><td>5</td><td>1 byte</td><td>2903</td><td>Charging stage indicator (pre-charge/constant-current/constant-voltage/termination)</td><td>Optional</td></tr>
+</table>

@@ -1,0 +1,8 @@
+# # Exchange hybrid deployment  DNS records commonly discussed
+
+| DNS record type | Host name | Example value/purpose |
+| --- | --- | --- |
+| MX | @ | Routes inbound mail (example value provided by Microsoft 365) |
+| CNAME | autodiscover | autodiscover.outlook.com |
+| TXT | @ | SPF record for sending authorization |
+| CNAME | enterpriseenrollment | enterpriseenrollment.manage.microsoft.com |

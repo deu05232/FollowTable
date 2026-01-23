@@ -1,0 +1,15 @@
+<table>
+  <caption>Thermal Cycling and Heater Trigger Rules for Battery Pack Safety Test</caption>
+  <thead>
+    <tr><th rowspan="2">Step</th><th colspan="2">Temperature Program</th><th colspan="2">Heater Trigger Limits</th><th rowspan="2">Hold / Time</th></tr>
+    <tr><th>Target (°C)</th><th>Ramp Rate (°C/min)</th><th>Stored Energy (Wh)</th><th>Max Heater Power (W)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>25</td><td>—</td><td>< 100</td><td>30–300</td><td>Stabilize 30 min</td></tr>
+    <tr><td>2</td><td>-40</td><td>1.0</td><td>100–400</td><td>300–1000</td><td>Hold 90 min</td></tr>
+    <tr><td>3</td><td>-40</td><td>0</td><td>400–800</td><td>300–2000</td><td>Hold 60 min</td></tr>
+    <tr><td>4</td><td>25</td><td>1.5</td><td>< 100</td><td>30–300</td><td>Transition 60 min</td></tr>
+    <tr><td>5</td><td>85</td><td>1.0</td><td>100–400</td><td>300–1000</td><td>Hold 120 min</td></tr>
+    <tr><td>6</td><td>25</td><td>1.5</td><td>400–800</td><td>300–2000</td><td>Return 60 min</td></tr>
+  </tbody>
+</table>

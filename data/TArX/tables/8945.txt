@@ -1,0 +1,19 @@
+<table>
+  <caption>Metabolites associated with ATP conversion in glycolysis and ATP-buffering reactions: standard chemical potential (g0) and indicative intracellular concentration</caption>
+  <thead>
+    <tr><th>Pathway context</th><th>Metabolite (abbr.)</th><th>Compound name</th><th>g0 (kJ/mol)</th><th>Typical intracellular concentration (M)</th><th>Role in ATP conversion</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="4">ATP consumption steps</th><td>ATP</td><td>Adenosine triphosphate</td><td>-2770</td><td>2.5×10^-3</td><td>Phosphate donor (e.g., hexokinase, PFK)</td></tr>
+    <tr><td>ADP</td><td>Adenosine diphosphate</td><td>-1915</td><td>8.0×10^-4</td><td>Immediate product of ATP consumption</td></tr>
+    <tr><td>G6P</td><td>Glucose-6-phosphate</td><td>-1282</td><td>4.0×10^-5</td><td>Product when ATP phosphorylates glucose</td></tr>
+    <tr><td>F1,6BP</td><td>Fructose-1,6-bisphosphate</td><td>-2065</td><td>1.0×10^-6</td><td>Product when ATP phosphorylates fructose-6-phosphate</td></tr>
+    <tr><th rowspan="4">ATP generation steps</th><td>1,3BPG</td><td>1,3-bisphosphoglycerate</td><td>-2320</td><td>n/a</td><td>High-energy intermediate; transfers phosphate to ADP</td></tr>
+    <tr><td>3PG</td><td>3-phosphoglycerate</td><td>-1650</td><td>n/a</td><td>Product after substrate-level phosphorylation</td></tr>
+    <tr><td>PEP</td><td>Phosphoenolpyruvate</td><td>-1790</td><td>5.0×10^-5</td><td>Donates phosphate to ADP (pyruvate kinase)</td></tr>
+    <tr><td>Pyr</td><td>Pyruvate</td><td>-474</td><td>1.0×10^-4</td><td>Product of ATP-forming pyruvate kinase step</td></tr>
+    <tr><th rowspan="3">ATP/ADP buffering & phosphate pool</th><td>AMP</td><td>Adenosine monophosphate</td><td>-1035</td><td>6.0×10^-5</td><td>Coupled via adenylate kinase to ATP/ADP balance</td></tr>
+    <tr><td>Pi</td><td>Orthophosphate (inorganic phosphate)</td><td>-1090</td><td>1.2×10^-3</td><td>Phosphate pool affecting phosphorylation potential</td></tr>
+    <tr><td>PPi</td><td>Pyrophosphate</td><td>-1900</td><td>n/a</td><td>Hydrolysis can drive ATP-linked biosynthetic reactions</td></tr>
+  </tbody>
+</table>

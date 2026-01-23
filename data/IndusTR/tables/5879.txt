@@ -1,0 +1,17 @@
+<table>
+  <caption>Instant Messaging Notification Request Parameters (Payload and Constraints)</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Data Type / Format</th><th>Required</th><th>Max Occurrences</th><th>Constraints / Value Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Operation</td><td>interfaceOperation</td><td>String (C..64)</td><td>M</td><td>1</td><td>Must be "NOTIFY"</td><td>Declares this request as a notification operation.</td></tr>
+    <tr><td>Party</td><td>initiatorNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Notification initiator identifier.</td></tr>
+    <tr><td>Party</td><td>recipientNotificationID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Notification recipient identifier.</td></tr>
+    <tr><td>Payload</td><td>messageBody</td><td>String (C..4096)</td><td>O</td><td>1</td><td>UTF-8; required when notificationType=MESSAGE</td><td>Text payload carried by the notification.</td></tr>
+    <tr><td>Payload</td><td>contentType</td><td>String (C..64)</td><td>O</td><td>1</td><td>Allowed: text/plain, application/json</td><td>MIME type describing the payload format.</td></tr>
+    <tr><td>Context</td><td>conversationID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Stable identifier for a chat/session</td><td>Conversation/session identifier associated with this notification.</td></tr>
+    <tr><td>Context</td><td>clientMessageID</td><td>String (C..64)</td><td>O</td><td>1</td><td>Must be unique per initiator within a conversation</td><td>Optional client-side message identifier for correlation.</td></tr>
+    <tr><td>Reliability</td><td>deliveryPriority</td><td>Integer</td><td>O</td><td>1</td><td>0..5 (0=lowest, 5=highest)</td><td>Priority used by the service for delivery scheduling.</td></tr>
+    <tr><td>Reliability</td><td>expireAfterSeconds</td><td>Integer</td><td>O</td><td>1</td><td>1..604800 (up to 7 days)</td><td>Expiration time-to-live for the notification.</td></tr>
+  </tbody>
+</table>

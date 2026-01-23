@@ -1,0 +1,12 @@
+<table>
+  <caption>Reassembly-Oriented Segmented PDU Data Field Mapping (Seq 0 and Seq > 0)</caption>
+  <tr><th>Data Byte Index (within 8-byte data field)</th><th>Seq = 0 (first frame)</th><th>Seq > 0 (consecutive frame)</th><th>Description</th></tr>
+  <tr><td>Byte 1</td><td>Frame Sequence Number (=0)</td><td>Frame Sequence Number (>0)</td><td>Used to order segments</td></tr>
+  <tr><td>Byte 2</td><td>Total Number of Frames</td><td>Application Data (part)</td><td>Only present in first frame</td></tr>
+  <tr><td>Byte 3</td><td>Total Bytes (LSB)</td><td>Application Data (part)</td><td>Payload length before padding</td></tr>
+  <tr><td>Byte 4</td><td>Total Bytes (MSB)</td><td>Application Data (part)</td><td>Payload length before padding</td></tr>
+  <tr><td>Byte 5</td><td>Application Data (part)</td><td>Application Data (part)</td><td>Segment payload</td></tr>
+  <tr><td>Byte 6</td><td>Application Data (part)</td><td>Application Data (part)</td><td>Segment payload</td></tr>
+  <tr><td>Byte 7</td><td>It's either data or 0xFF padding</td><td>It's either data or 0xFF padding</td><td>Padding used in last segment if needed</td></tr>
+  <tr><td>Byte 8</td><td>It's either data or 0xFF padding</td><td>It's either data or 0xFF padding</td><td>Padding used in last segment if needed</td></tr>
+</table>

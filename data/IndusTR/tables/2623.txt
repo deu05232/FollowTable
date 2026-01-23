@@ -1,0 +1,15 @@
+<table>
+  <caption>Galvanizing Line Equipment Settings (Bath Chemistry & Process Parameters)</caption>
+  <thead>
+    <tr><th>Process Station</th><th>Control Item</th><th>Setpoint</th><th>Allowable Range</th><th>Sensor/Tool</th><th>Control Interval</th><th>Responsible Role</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Degreasing</td><td>Alkaline concentration</td><td>45 g/L</td><td>35–55 g/L</td><td>Titration kit</td><td>Every 4 h</td><td>Line operator</td></tr>
+    <tr><td>Pickling</td><td>HCl concentration</td><td>120 g/L</td><td>90–140 g/L</td><td>Acid meter</td><td>Every 2 h</td><td>Shift lead</td></tr>
+    <tr><td>Rinse</td><td>Conductivity</td><td><800 µS/cm</td><td>400–800 µS/cm</td><td>Conductivity probe</td><td>Continuous</td><td>Automation</td></tr>
+    <tr><td>Fluxing</td><td>NH4Cl:ZnCl2 ratio</td><td>2.0</td><td>1.6–2.4</td><td>Lab check</td><td>Daily</td><td>QC</td></tr>
+    <tr><td>Zinc bath</td><td>Bath temperature</td><td>455 °C</td><td>445–465 °C</td><td>Thermocouple</td><td>Continuous</td><td>Automation</td></tr>
+    <tr><td>Wiping</td><td>N2 knife pressure</td><td>18 kPa</td><td>12–22 kPa</td><td>Pressure gauge</td><td>Every 1 h</td><td>Line operator</td></tr>
+    <tr><td>Cooling</td><td>Air flow</td><td>3.2 m/s</td><td>2.5–3.8 m/s</td><td>Anemometer</td><td>Every shift</td><td>Maintenance</td></tr>
+  </tbody>
+</table>

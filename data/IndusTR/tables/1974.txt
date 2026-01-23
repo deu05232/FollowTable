@@ -1,0 +1,14 @@
+<table>
+  <caption>APDU (Hospital) — Administrative Patient Data Unit Field Dictionary (Cross-Domain)</caption>
+  <thead>
+    <tr><th>Field Code</th><th>Field Name</th><th>Type</th><th>Length</th><th>Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>APDU01</td><td>Admission Type</td><td>ENUM</td><td>1</td><td>E/U</td><td>Emergency or Urgent</td></tr>
+    <tr><td>APDU02</td><td>Primary Department</td><td>STRING</td><td>20</td><td>A-Z,0-9</td><td>Clinic department code</td></tr>
+    <tr><td>APDU03</td><td>Attending Physician ID</td><td>STRING</td><td>12</td><td>0-9</td><td>National physician identifier</td></tr>
+    <tr><td>APDU04</td><td>Diagnosis Group</td><td>STRING</td><td>10</td><td>ICD-10</td><td>Diagnosis classification</td></tr>
+    <tr><td>APDU05</td><td>Billing Category</td><td>ENUM</td><td>2</td><td>01-99</td><td>Insurance/billing category code</td></tr>
+    <tr><td>APDU06</td><td>Discharge Disposition</td><td>ENUM</td><td>2</td><td>00-99</td><td>Outcome at discharge</td></tr>
+  </tbody>
+</table>

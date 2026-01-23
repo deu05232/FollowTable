@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian Control Characters: Rendered Examples Without Code-Point Sequences (ZWNJ/ZWJ/MVS/FVS)</caption>
+  <thead>
+    <tr><th>Rule Area</th><th>Rendered Example (Correct)</th><th>Rendered Example (Incorrect)</th><th>What Changed (Plain Language)</th><th>Typing Hint (Non-codepoint)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>NIRUGU usage</td><td>ᠬᠡᠳᠦᠨ ᠨᠢᠷᠤᠭᠤ ᠳᠠᠢ</td><td>ᠬᠡᠳᠦᠨ ᠨᠢᠷᠤᠭᠤᠳᠠᠢ</td><td>Inserted a separator between morphemes</td><td>Use the Mongolian NIRUGU key when separating suffix</td></tr>
+    <tr><td>MVS for shape disambiguation</td><td>ᠪᠠᠬᠠ</td><td>ᠪᠠᠬᠠ (ambiguous form)</td><td>Variation selector affects medial shape</td><td>Pick the variant from IME candidate list</td></tr>
+    <tr><td>FVS in proper names</td><td>ᠴᠢᠩᠭᠢᠰ</td><td>ᠴᠢᠩᠭᠢᠰ (wrong stylistic form)</td><td>Selector required for conventional spelling</td><td>Use the “variant” key once after the consonant</td></tr>
+    <tr><td>ZWJ joining control</td><td>ᠬᠤᠯᠠᠭᠠ</td><td>ᠬᠤ ᠯᠠᠭᠠ</td><td>Forces joining vs breaking</td><td>Don’t insert spaces inside a word</td></tr>
+    <tr><td>ZWNJ non-joining control</td><td>ᠪᠦᠷᠢᠳᠡ</td><td>ᠪᠦᠷᠢᠳᠡ (over-joined)</td><td>Prevents unwanted ligature/connection</td><td>If letters over-connect, try the non-join key</td></tr>
+    <tr><td>NBSP vs normal space</td><td>ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ</td><td>ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ</td><td>Prevents line break between words</td><td>Use non-breaking space for titles</td></tr>
+    <tr><td>Line breaking around punctuation</td><td>ᠮᠣᠩᠭᠣᠯ—ᠬᠡᠯᠡ</td><td>ᠮᠣᠩᠭᠣᠯ — ᠬᠡᠯᠡ</td><td>Dash spacing changes layout</td><td>Avoid extra spaces around dash</td></tr>
+  </tbody>
+</table>

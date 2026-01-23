@@ -1,0 +1,10 @@
+<table>
+  <caption>Version Negotiation Message Sequence (High-Level)</caption>
+  <tr><th>Step</th><th>Sender</th><th>Message</th><th>What It Contains</th><th>Receiver Response</th></tr>
+  <tr><td>1</td><td>Vehicle</td><td>VN Request</td><td>Highest supported version</td><td>Compare and decide result</td></tr>
+  <tr><td>2</td><td>Charger</td><td>VN Response</td><td>Continue/Success/Fail plus its expected or agreed version</td><td>May repeat until convergence</td></tr>
+  <tr><td>3</td><td>Vehicle</td><td>VN Confirm</td><td>Repeat Success until next-stage message arrives</td><td>Move to next stage or fallback</td></tr>
+  <tr><td>4</td><td>Either</td><td>Fallback</td><td>Triggered by fail/timeout/other message</td><td>Enter alternative procedure</td></tr>
+  <tr><td>5</td><td>Charger</td><td>Next Stage</td><td>Function negotiation if version ≥ V2.0.0</td><td>Proceed</td></tr>
+  <tr><td>6</td><td>Vehicle</td><td>Wait</td><td>Wait for charger to close auxiliary power / send other messages</td><td>Continue per procedure</td></tr>
+</table>

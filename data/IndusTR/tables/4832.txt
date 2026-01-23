@@ -1,0 +1,8 @@
+<table>
+  <caption>Paging Parameters for Pushing Settlement Reconciliation Order Information</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Current Page Number</td><td>pageNo</td><td>integer</td><td>If the queried page number is greater than the total number of pages, return the queried page number</td><td>Yes</td></tr>
+  <tr><td>Total Page Count</td><td>pageCount</td><td>integer</td><td>Total number of pages</td><td>Yes</td></tr>
+  <tr><td>Total Record Count</td><td>itemSize</td><td>integer</td><td>Total number of settlement orders that meet the criteria</td><td>Yes</td></tr>
+  <tr><td>Reconciliation Order Information List</td><td>accountOrders</td><td>AccountOrder[]</td><td>Reconciliation order information list</td><td>Fragrant</td></tr>
+</table>

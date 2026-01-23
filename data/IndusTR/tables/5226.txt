@@ -1,0 +1,10 @@
+<table>
+  <caption>SOF Component Modify Device User Authentication Password Interface Definition</caption>
+  <tr><td>Prototype</td><td>BOOL SOF_ChangePassWd(BSTR CertID,BSTR OldPassWd,BSTR NewPassWd)</td></tr>
+  <tr><td>Description</td><td>Modify the device user authentication password</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>CertID(Certificate unique identifier)</td></tr>
+  <tr><td>OldPassWd(Old certificate password）</td></tr>
+  <tr><td>NewPassWd(New certificate password)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>TRUE(Success)</td></tr>
+  <tr><td>FALSE(Failure, you can obtain the error code defined in Table A.1 via SOF_GetLastError)</td></tr>
+</table>

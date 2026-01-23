@@ -1,0 +1,14 @@
+<table>
+  <caption>Post-Test Power-Up and Evaluation Steps for Environmental & Transportation Tests (VFD Speed Regulation Equipment)</caption>
+  <thead>
+    <tr><th>Test item</th><th>Stabilization / waiting requirement</th><th>Cleaning / condensation removal</th><th>Power-up sequence</th><th>Reconnect external circuits</th><th>Acceptance criteria check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cold start after storage</td><td>Wait until case temperature matches ambient</td><td>Remove frost with dry air</td><td>Apply control power first, then main power</td><td>Reconnect motor leads after no-alarm state</td><td>No undervoltage alarm; keypad responsive</td></tr>
+    <tr><td>Hot soak recovery</td><td>Cool for 90 min</td><td>null</td><td>Start with reduced carrier frequency</td><td>Reconnect fieldbus after stable DC bus</td><td>No thermal trip; fan speed normal</td></tr>
+    <tr><td>Humidity exposure recovery</td><td>Hold in dry room for 6 h</td><td>Fan-dry inside cabinet for 30 min</td><td>Do not energize until IR > threshold</td><td>Reconnect I/O after drying confirmation</td><td>No insulation fault; no rust on terminals</td></tr>
+    <tr><td>Condensation event</td><td>Wait until no visible droplets for 60 min</td><td>Open covers; airflow drying; replace filters</td><td>Perform hipot only after full dry-out</td><td>Reconnect only after hipot passes</td><td>Leakage current within limit</td></tr>
+    <tr><td>Drop/shock transport event</td><td>Visual inspection time 30 min</td><td>If wet, follow condensation steps</td><td>Power on with motor disconnected</td><td>Reconnect motor after vibration/noise check</td><td>No abnormal sound; no loose heat sink</td></tr>
+    <tr><td>Vibration transport event</td><td>Retighten and wait 15 min</td><td>Check desiccant; replace if saturated</td><td>Run self-diagnostic mode first</td><td>Reconnect braking resistor after check</td><td>No connector loosening; stable speed</td></tr>
+  </tbody>
+</table>

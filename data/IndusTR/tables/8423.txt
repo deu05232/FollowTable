@@ -1,0 +1,15 @@
+<table>
+  <caption>Uniformity Test Acquisition Conditions with Pressure Setpoints</caption>
+  <thead>
+    <tr><th>Group</th><th>No.</th><th>Data Item</th><th>Alias</th><th>Type</th><th>Length (bit)</th><th>Threshold / Set Value</th><th>Action / Meaning</th><th>Acquisition Logic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Inflation Setpoints</td><td>1</td><td>UF Test Pressure Setting</td><td>UF pressure set</td><td>INT</td><td>16</td><td>200~350 kPa</td><td>Target inflation pressure for UF test</td><td>Must be reached before sampling</td></tr>
+    <tr><td>2</td><td>High-Pressure Cutoff Set Value</td><td>UF high cutoff</td><td>INT</td><td>16</td><td>360~450 kPa</td><td>Close high-pressure inflation circuit</td><td>If exceeded, stop filling</td></tr>
+    <tr><td>3</td><td>Pressure Stabilization Time</td><td>UF stable time</td><td>FLOAT</td><td>32</td><td>0.5~10.0 s</td><td>Wait time after reaching setpoint</td><td>Timer gate for acquisition</td></tr>
+    <tr><td rowspan="4">Test Collection (Forbidden)</td><td>4</td><td>UF Data Acquisition Enable</td><td>UF acquire en</td><td>BOOL</td><td>1</td><td>0/1</td><td>Enable UF measurement capture</td><td>TRUE when pressure stable AND spindle speed OK</td></tr>
+    <tr><td>5</td><td>Spindle Speed Condition</td><td>UF rpm ok</td><td>BOOL</td><td>1</td><td>0/1</td><td>Indicates spindle at required RPM</td><td>Used to open acquisition window</td></tr>
+    <tr><td>6</td><td>Sample Count</td><td>UF sample n</td><td>INT</td><td>16</td><td>1~2048</td><td>Number of samples per run</td><td>Defines acquisition block length</td></tr>
+    <tr><td>7</td><td>Acquisition End Flag</td><td>UF end</td><td>BOOL</td><td>1</td><td>0/1</td><td>Marks completion of data capture</td><td>Raised by sensor-driven condition</td></tr>
+  </tbody>
+</table>

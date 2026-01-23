@@ -1,0 +1,16 @@
+<table>
+  <caption>Device Identity and Stored Metadata Requirements for Smart Instruments</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Stored Data Class</th><th>Field Name</th><th>Format / Length</th><th>Retention</th><th>Read/Write</th><th>Access Level</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Measuring Instruments</td><td>Identity</td><td>Serial Number</td><td>ASCII, 16 chars</td><td>Lifetime</td><td>Read-only</td><td>Operator</td></tr>
+    <tr><td>Measuring Instruments</td><td>Software</td><td>Firmware Version</td><td>SemVer (x.y.z)</td><td>Lifetime</td><td>Read-only</td><td>Operator</td></tr>
+    <tr><td>Measuring Instruments</td><td>Configuration Snapshot</td><td>Parameter Set Backup</td><td>Binary blob, up to 64 KB</td><td>10 revisions</td><td>Read/Write</td><td>Engineer</td></tr>
+    <tr><td>Analytical Instruments</td><td>Calibration Records</td><td>Last Calibration Timestamp</td><td>ISO-8601</td><td>3 years</td><td>Read-only</td><td>Operator</td></tr>
+    <tr><td>Analytical Instruments</td><td>Calibration Records</td><td>Calibration Coefficients</td><td>Float array</td><td>3 years</td><td>Read-only</td><td>Engineer</td></tr>
+    <tr><td>Actuators</td><td>Identity</td><td>Device Tag</td><td>ASCII, 32 chars</td><td>Lifetime</td><td>Read/Write</td><td>Engineer</td></tr>
+    <tr><td>Actuators</td><td>Maintenance</td><td>Service Log Entries</td><td>Text, 100 entries</td><td>5 years</td><td>Read/Write</td><td>Engineer</td></tr>
+    <tr><td>Actuators</td><td>Software</td><td>Bootloader Version</td><td>SemVer (x.y)</td><td>Lifetime</td><td>Read-only</td><td>Admin</td></tr>
+  </tbody>
+</table>

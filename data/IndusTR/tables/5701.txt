@@ -1,0 +1,15 @@
+<table>
+  <caption>Grid Tolerance and Protection-Related Operating Limits by Electrical Parameter (Low-Voltage Shore Power Box)</caption>
+  <thead>
+    <tr><th>Electrical parameter</th><th>Condition / band</th><th>Allowed deviation (steady-state)</th><th>Allowed deviation (transient)</th><th>Required recovery / clearing time</th><th>Operational meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Input voltage</td><td>Normal operating band</td><td>+6% / −10%</td><td>±20%</td><td>≤1.5 s</td><td>Equipment continues supplying within this envelope</td></tr>
+    <tr><td>Input frequency</td><td>Normal operating band</td><td>±5%</td><td>±10%</td><td>≤5 s</td><td>Maintains operation; alarms permitted</td></tr>
+    <tr><td>Under-voltage threshold (protective action)</td><td>Severe undervoltage</td><td>Not applicable</td><td>Un < 80% Un</td><td>Trip (or block output) within 2.0 s; auto-reclose after 10 s stable</td><td>Prevents sustained operation under deep undervoltage</td></tr>
+    <tr><td>Over-voltage threshold (protective action)</td><td>Severe overvoltage</td><td>Not applicable</td><td>Un > 115% Un</td><td>Trip within 1.0 s; auto-reclose after 10 s stable</td><td>Protects insulation and downstream loads</td></tr>
+    <tr><td>Rate of change of frequency (RoCoF)</td><td>Fast frequency swing</td><td>≤1.0 Hz/s</td><td>≤2.0 Hz/s</td><td>Return to steady-state band within 5 s</td><td>Used to judge whether to remain connected during generator transients</td></tr>
+    <tr><td>Phase loss (3‑phase)</td><td>Any phase missing</td><td>Not applicable</td><td>Voltage on any phase < 10% Un</td><td>Block energization within 0.5 s; recover within 2 s after restoration</td><td>Avoids single-phasing operation</td></tr>
+    <tr><td>Neutral-to-earth voltage (TN system typical)</td><td>N-PE displacement</td><td>≤10 V</td><td>≤30 V</td><td>Return within 1 s</td><td>Supports safe operation and EMC performance</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Mesh Breaking Strength Coefficient vs. Number of Strands for Woven Netting</caption>
+  <thead>
+    <tr><th>Strand count</th><th>Mesh breaking strength coefficient (k)</th><th>Applicable fiber</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>3</td><td>38</td><td>PA</td><td>Reference coefficient</td></tr>
+    <tr><td>6</td><td>72</td><td>PA</td><td>Use with nominal yarn strength</td></tr>
+    <tr><td>9</td><td>108</td><td>PA</td><td>Knotted meshes may reduce strength</td></tr>
+    <tr><td>12</td><td>145</td><td>PA</td><td>For square mesh only</td></tr>
+    <tr><td>18</td><td>215</td><td>PA</td><td>Linear interpolation permitted</td></tr>
+    <tr><td>24</td><td>290</td><td>PA</td><td>Coefficient excludes seam effects</td></tr>
+    <tr><td>36</td><td>410</td><td>PA</td><td>Verify with tensile testing</td></tr>
+  </tbody>
+</table>

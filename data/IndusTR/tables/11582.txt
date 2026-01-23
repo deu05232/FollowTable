@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Copper PHY Electrical Compliance Limits (Differential Link)</caption>
+  <thead>
+    <tr><th>Requirement</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Measurement / Test Context</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Differential output swing (peak-to-peak)</td><td>VODpp</td><td>250</td><td>400</td><td>700</td><td>mVpp</td><td>Measured at transmitter pins across 100 Ω differential load; PRBS31; ambient 25 °C</td></tr>
+    <tr><td>Common-mode output voltage</td><td>VOCM</td><td>0.6</td><td>0.9</td><td>1.2</td><td>V</td><td>Steady-state average with link active; 100 Ω differential termination; no external bias</td></tr>
+    <tr><td>Differential input sensitivity (minimum swing for BER ≤ 1e-12)</td><td>VIDmin</td><td>120</td><td></td><td></td><td>mVpp</td><td>Receiver stressed with additive jitter; BER test duration ≥ 10^12 bits; PRBS31</td></tr>
+    <tr><td>Input differential termination</td><td>RDIFF</td><td>90</td><td>100</td><td>110</td><td>Ω</td><td>Measured with receiver powered; DC measurement at pads (excluding package parasitics)</td></tr>
+    <tr><td>Output return loss (differential)</td><td>SRL</td><td></td><td></td><td>-10</td><td>dB</td><td>Frequency range 100 MHz–4 GHz; referenced to 100 Ω; measured with VNA at connector</td></tr>
+    <tr><td>Skew between P and N within a differential pair</td><td>tSKEW</td><td></td><td></td><td>10</td><td>ps</td><td>At transmitter output; includes package; measured over 20–80% edges</td></tr>
+    <tr><td>Supply ripple tolerance (receiver functional)</td><td>VRIPPLE</td><td></td><td></td><td>30</td><td>mVpp</td><td>Injected ripple on receiver supply; 10 kHz–20 MHz; receiver must maintain BER ≤ 1e-12</td></tr>
+    <tr><td>ESD robustness (HBM)</td><td>ESDHBM</td><td>1000</td><td></td><td></td><td>V</td><td>JEDEC JS-001 HBM; all signal pins to GND</td></tr>
+  </tbody>
+</table>

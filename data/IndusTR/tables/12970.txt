@@ -1,0 +1,9 @@
+<table>
+  <caption>Example workflow for measuring standby/sleep energy on copiers and MFDs</caption>
+  <tr><th>Step</th><th>Starting mode</th><th>What the operator does</th><th>What to write down at the end of the step</th><th>Unit for the recorded value</th><th>Device mode observed</th></tr>
+  <tr><td>1</td><td>Off</td><td>Connect the device to the power meter, confirm the meter is zeroed, and keep the device in the off condition for the stabilization period.</td><td>Cumulative energy during the interval and elapsed time</td><td>Wh; min</td><td>Off</td></tr>
+  <tr><td>2</td><td>Off</td><td>Switch the device on and wait until it reaches a stable ready condition.</td><td>Time to reach stable ready and steady power reading</td><td>min; W</td><td>Ready</td></tr>
+  <tr><td>3</td><td>Ready</td><td>Allow the device to enter the first low-power state using default settings (no user interaction).</td><td>Delay time to low-power state and steady power in that state</td><td>min; W</td><td>Sleep (level 1)</td></tr>
+  <tr><td>4</td><td>Sleep (level 1)</td><td>If the device has additional sleep levels, continue waiting without interaction until the next stable level is reached.</td><td>Additional delay time and steady power at the next level</td><td>min; W</td><td>Sleep (next level)</td></tr>
+  <tr><td>5</td><td>Any stable low-power state</td><td>End the run and save the meter reading for the reporting period.</td><td>Total energy over the reporting window</td><td>Wh</td><td>As observed</td></tr>
+</table>

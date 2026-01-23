@@ -1,0 +1,17 @@
+<table>
+  <caption>Instant Messaging Service - Message Send API Response Parameters</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Data Type</th><th>Required</th><th>Value Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Result</td><td>returnResult</td><td>String (1..64)</td><td>Y</td><td>SUCCESS | FAIL</td><td>Overall call outcome</td></tr>
+    <tr><td>resultCode</td><td>String (1..32)</td><td>Y</td><td>IM-2000..IM-5999</td><td>Machine-readable status code</td></tr>
+    <tr><td>resultDescription</td><td>String (0..2000)</td><td>N</td><td>Free text</td><td>Human-readable description of the outcome</td></tr>
+    <tr><td rowspan="4">Delivery</td><td>messageId</td><td>String (1..64)</td><td>N</td><td>UUID/Provider ID</td><td>Assigned message identifier if accepted</td></tr>
+    <tr><td>acceptedAt</td><td>DateTime</td><td>N</td><td>ISO-8601</td><td>Time the platform accepted the request</td></tr>
+    <tr><td>deliveryStatus</td><td>String (1..32)</td><td>N</td><td>QUEUED | SENT | DELIVERED | UNDELIVERED</td><td>Post-call delivery state</td></tr>
+    <tr><td>retryAfterSeconds</td><td>Integer</td><td>N</td><td>0..3600</td><td>Backoff hint after rate limit or transient failure</td></tr>
+    <tr><td rowspan="2">Diagnostics</td><td>traceId</td><td>String (1..64)</td><td>N</td><td>Opaque</td><td>Used for support/debugging</td></tr>
+    <tr><td>errorDetails</td><td>String (0..1024)</td><td>N</td><td>Free text</td><td>Extra error information if failed</td></tr>
+  </tbody>
+</table>

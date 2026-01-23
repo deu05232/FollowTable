@@ -1,0 +1,10 @@
+<table>
+  <caption>Urban green freight indicator scoring: joint distribution stations combined with temporary truck parking</caption>
+  <tr><th>City size</th><th>Joint distribution stations per million (units)</th><th>Temporary truck parking spaces per million (units)</th><th>Score</th></tr>
+  <tr><td>Mega city (10 million and above)</td><td>≥ 25</td><td>≥ 20</td><td>100</td></tr>
+  <tr><td>Mega city (10 million and above)</td><td>≥ 25</td><td>< 20</td><td>Score calculated according to Formula (X)</td></tr>
+  <tr><td>Mega city (10 million and above)</td><td>< 25</td><td>≥ 20</td><td>Score calculated according to Formula (Y)</td></tr>
+  <tr><td>Very large city (5 million and above but below 10 million)</td><td>≥ 30</td><td>≥ 30</td><td>100</td></tr>
+  <tr><td>Very large city (5 million and above but below 10 million)</td><td>< 30</td><td>≥ 30</td><td>Score calculated according to Formula (Y)</td></tr>
+  <tr><td>Very large city (5 million and above but below 10 million)</td><td>≥ 30</td><td>< 30</td><td>Score calculated according to Formula (X)</td></tr>
+</table>

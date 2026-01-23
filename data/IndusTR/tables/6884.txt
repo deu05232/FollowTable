@@ -1,0 +1,17 @@
+<table>
+  <caption>Indented Service BOM Levels - Parent-to-Child Links with Effective Quantity</caption>
+  <thead>
+    <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Root Service Item ID</td><td>Top-level deliverable service item that anchors the BOM explosion</td></tr>
+    <tr><td>2</td><td>BOM Level</td><td>Depth level of the child relative to the root (0=root, 1=child, etc.)</td></tr>
+    <tr><td>3</td><td>Parent Item ID</td><td>Immediate parent item for this relationship row</td></tr>
+    <tr><td>4</td><td>Child Item ID</td><td>Immediate child item included under the parent</td></tr>
+    <tr><td>5</td><td>Qty Per Parent</td><td>Quantity of the child required per one unit of the parent</td></tr>
+    <tr><td>6</td><td>Cumulative Qty From Root</td><td>Exploded quantity of the child required for one root item (product of quantities along the path)</td></tr>
+    <tr><td>7</td><td>Relationship Type</td><td>Structural relation (e.g., contains, mounted-on, connected-to) for downstream traversal logic</td></tr>
+    <tr><td>8</td><td>Traversal Path</td><td>Path expression representing the hierarchy chain (e.g., Root>Module>A)</td></tr>
+    <tr><td>9</td><td>Is Optional</td><td>Whether the child is conditionally included (Y/N) while still preserving parent-child linkage</td></tr>
+  </tbody>
+</table>

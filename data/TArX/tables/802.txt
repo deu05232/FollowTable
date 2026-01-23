@@ -1,0 +1,13 @@
+<table>
+  <caption>Linear regression of the granulation with height.</caption>
+  <tr><td>Epoch</td><td>Parameter</td><td>Intercept</td><td>Gradient</td><td>Significance</td><td>χ^(2)</td><td>N</td><td>r_(P)</td><td>r_(S)</td><td>P_(S)</td></tr>
+  <tr><td></td><td></td><td></td><td></td><td>Of fitted gradient</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>BW1</td><td>τ_(gr)~(s)</td><td>125 ± 102</td><td>0.91 ± 0.32</td><td>2.8 σ</td><td>1.66</td><td>8</td><td>0.71</td><td>0.55</td><td>1.60 × 10^(-1)</td></tr>
+  <tr><td></td><td>σ_(gr)~(m/s)</td><td>0.44 ± 0.02</td><td>(-3.06 ± 0.70) × 10^(-4)</td><td>4.4 σ</td><td>1.99</td><td>8</td><td>0.79</td><td>0.85</td><td>6.53 × 10^(-3)</td></tr>
+  <tr><td>RW</td><td>τ_(gr)~(s)</td><td>238 ± 109</td><td>0.59 ± 0.23</td><td>2.6 σ</td><td>0.94</td><td>15</td><td>0.62</td><td>0.64</td><td>1.03 × 10^(-2)</td></tr>
+  <tr><td></td><td>σ_(gr)~(m/s)</td><td>0.53 ± 0.02</td><td>(-4.54 ± 0.43) × 10^(-4)</td><td>10.6 σ</td><td>2.43</td><td>15</td><td>0.83</td><td>0.79</td><td>4.22 × 10^(-4)</td></tr>
+  <tr><td>BW2</td><td>τ_(gr)~(s)</td><td>272 ± 82</td><td>0.46 ± 0.26</td><td>1.8 σ</td><td>0.81</td><td>19</td><td>0.39</td><td>0.25</td><td>3.04 × 10^(-1)</td></tr>
+  <tr><td></td><td>σ_(gr)~(m/s)</td><td>0.48 ± 0.02</td><td>(-3.07 ± 0.66) × 10^(-4)</td><td>4.7 σ</td><td>1.50</td><td>19</td><td>0.70</td><td>0.63</td><td>4.12 × 10^(-3)</td></tr>
+  <tr><td>All wings</td><td>τ_(gr)~(s)</td><td>214 ± 24</td><td>0.64 ± 0.07</td><td>9.1 σ</td><td>0.93</td><td>42</td><td>0.84</td><td>0.78</td><td>1.49 × 10^(-9)</td></tr>
+  <tr><td></td><td>σ_(gr)~(m/s)</td><td>0.47 ± 0.005</td><td>(-3.34 ± 0.13) × 10^(-4)</td><td>25.7 σ</td><td>1.95</td><td>42</td><td>0.93</td><td>0.88</td><td>4.59 × 10^(-15)</td></tr>
+</table>

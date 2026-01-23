@@ -1,0 +1,13 @@
+<table>
+  <caption>DT Lookup Rules from Visible Shear Pattern: Offset Distance Between Low-Level Center and Main Convective Mass</caption>
+  <thead>
+    <tr><th rowspan="2">Observable (VIS)</th><th colspan="6">Shortest offset distance (nmi) between LLC and leading edge of main convective canopy</th></tr>
+    <tr><th>> 100</th><th>80–100</th><th>65–79</th><th>50–64</th><th>35–49</th><th>< 35</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Shear pattern (center exposed / convection displaced)</td><td>DT = 1.0</td><td>DT = 1.5</td><td>DT = 2.0</td><td>DT = 2.5</td><td>DT = 3.0</td><td>DT = 3.5</td></tr>
+    <tr><td colspan="6">Measurement note: use the nearest point on the convective canopy boundary; if multiple convective clusters exist, use the largest/most persistent cluster.</td></tr>
+    <tr><td>Quality flag (optional)</td><td colspan="2">Low confidence (poor LLC fix)</td><td colspan="2">Medium</td><td colspan="2">High confidence (well-defined LLC)</td></tr>
+    <tr><td>Suggested reporting</td><td colspan="2">DT ±0.5</td><td colspan="2">DT ±0.5</td><td colspan="2">DT ±0.0 to ±0.5</td></tr>
+  </tbody>
+</table>

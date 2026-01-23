@@ -1,0 +1,15 @@
+<table>
+  <caption>Company-Specific OID Node Allocation Example for Construction Machinery Enterprise</caption>
+  <thead>
+    <tr><th>Level</th><th>OID Segment / Value</th><th>Description</th><th>Example Instance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Field root</td><td>1.2.156.3514</td><td>Construction machinery field node</td><td>1.2.156.3514</td></tr>
+    <tr><td>Enterprise node</td><td>91320594MA1X0K7L2Q</td><td>Enterprise unified social credit code used as enterprise node</td><td>91320594MA1X0K7L2Q</td></tr>
+    <tr><td rowspan="2">Product family</td><td>EXCAVATOR</td><td>Internal product family code under the enterprise node</td><td>EXCAVATOR</td></tr>
+    <tr><td>LOADER</td><td>Internal product family code under the enterprise node</td><td>LOADER</td></tr>
+    <tr><td rowspan="2">Product identifier</td><td>2020-000001</td><td>Company product serial (enterprise-defined)</td><td>2020-000001</td></tr>
+    <tr><td>2020-000002</td><td>Company product serial (enterprise-defined)</td><td>2020-000002</td></tr>
+    <tr><td>Service record</td><td>SRV.001.00001</td><td>After-sales/service record identifier (enterprise-defined)</td><td>SRV.001.00001</td></tr>
+  </tbody>
+</table>

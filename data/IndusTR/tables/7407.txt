@@ -1,0 +1,18 @@
+<table>
+  <caption>Enterprise Licensing and Permit Lifecycle Data Items</caption>
+  <thead>
+    <tr><th>Data Item Name</th><th>Field Name</th><th>Data Type and Format</th><th>Value Domain</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Permit Record ID</td><td>PermitRecID</td><td>C..36</td><td></td><td>Internal identifier for a permit record</td></tr>
+    <tr><td>Permit/License Number</td><td>PermitNo</td><td>C..50</td><td></td><td>Official permit number</td></tr>
+    <tr><td>Permit Type</td><td>PermitType</td><td>C..60</td><td></td><td>Type/category of permit</td></tr>
+    <tr><td>Issuing Authority</td><td>IssuingAuth</td><td>C..120</td><td></td><td>Authority issuing the permit</td></tr>
+    <tr><td>Issue Date</td><td>IssueDate</td><td>D(YYYY-MM-DD)</td><td></td><td>Date the permit was issued</td></tr>
+    <tr><td>Valid From</td><td>ValidFrom</td><td>D(YYYY-MM-DD)</td><td></td><td>Start of validity period</td></tr>
+    <tr><td>Valid To</td><td>ValidTo</td><td>D(YYYY-MM-DD)</td><td></td><td>End of validity period</td></tr>
+    <tr><td>Permit Status</td><td>PermitStatus</td><td>C..20</td><td>Active; Suspended; Revoked; Expired</td><td>Operational state of the permit</td></tr>
+    <tr><td>Scope of Permission</td><td>PermitScope</td><td>C..500</td><td></td><td>Approved scope/activities under the permit</td></tr>
+    <tr><td>Revocation Reason</td><td>RevokeReason</td><td>C..300</td><td></td><td>Reason for revocation if applicable</td></tr>
+  </tbody>
+</table>

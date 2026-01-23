@@ -1,0 +1,14 @@
+<table>
+  <caption>Termination Report Message (Mixed with Routine Telemetry)</caption>
+  <thead>
+    <tr><th>Start Byte</th><th>Length</th><th>Field / SPN</th><th>Definition</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1 byte</td><td>SPN 3521</td><td>Charging termination reason</td><td>Mandatory</td></tr>
+    <tr><td>2</td><td>2 bytes</td><td>SPN 3522</td><td>Charging termination fault reason</td><td>Mandatory</td></tr>
+    <tr><td>4</td><td>1 byte</td><td>SPN 3523</td><td>Charging termination error reason</td><td>Mandatory</td></tr>
+    <tr><td>5</td><td>7 bytes</td><td>SPN 2823</td><td>Timestamp (YY/MM/DD/HH/MM/SS)</td><td>Optional</td></tr>
+    <tr><td>12</td><td>2 bytes</td><td>SPN 2817</td><td>Maximum allowable charging current</td><td>Required</td></tr>
+    <tr><td>14</td><td>2 bytes</td><td>SPN 2818</td><td>Nominal total energy of the traction battery</td><td>Required</td></tr>
+  </tbody>
+</table>

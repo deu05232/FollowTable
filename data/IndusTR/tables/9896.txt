@@ -1,0 +1,22 @@
+<table>
+  <caption>Caption Window Definition Syntax (field-level coding form)</caption>
+  <thead>
+    <tr><th>Syntax element</th><th>Descriptor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>window_definition(){</td><td></td></tr>
+    <tr><td>window_id</td><td>u(3)</td></tr>
+    <tr><td>visible_flag</td><td>u(1)</td></tr>
+    <tr><td>row_lock_flag</td><td>u(1)</td></tr>
+    <tr><td>column_lock_flag</td><td>u(1)</td></tr>
+    <tr><td>priority</td><td>u(2)</td></tr>
+    <tr><td>relative_positioning_flag</td><td>u(1)</td></tr>
+    <tr><td>anchor_vertical</td><td>u(7)</td></tr>
+    <tr><td>anchor_horizontal</td><td>u(8)</td></tr>
+    <tr><td>anchor_point</td><td>u(4)</td></tr>
+    <tr><td>window_width</td><td>u(8)</td></tr>
+    <tr><td>window_height</td><td>u(7)</td></tr>
+    <tr><td>reserved</td><td>f(1)</td></tr>
+    <tr><td>}</td><td></td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Requirements for DC Withstand Voltage Test Voltage and Leakage Current of Electric Compressors</caption>
+  <tr><td>Rated voltage UN V</td><td>Test voltage (DC voltage) V</td><td>Power supply capacity kVA</td><td>Voltage duration S</td><td>Leakage current mA</td></tr>
+  <tr><td>≤60</td><td>700</td><td rowspan="3">1</td><td rowspan="3">60</td><td>≤1</td></tr>
+  <tr><td>>60~125</td><td>1400</td><td rowspan="2">≤2</td></tr>
+  <tr><td>>125~250</td><td>2200</td></tr>
+  <tr><td>>250~500</td><td>2 800</td><td rowspan="2"></td><td rowspan="2"></td><td>≤4</td></tr>
+  <tr><td>>500</td><td>1 400+2.8UN</td><td>≤5</td></tr>
+</table>

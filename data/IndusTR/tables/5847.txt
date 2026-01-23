@@ -1,0 +1,10 @@
+<table>
+  <caption>ARFaceEffectMode Enumeration (Content-Specific Face Features)</caption>
+  <tr><th>Enum Value (Name = Number)</th><th>Meaning</th><th>Typical Use</th></tr>
+  <tr><td>AR_FACE_EFFECT_MODE_DISABLED = 0</td><td>Disables all face-specific visual effects.</td><td>Fallback when face effects are not needed.</td></tr>
+  <tr><td>AR_FACE_EFFECT_MODE_LANDMARKS = 1</td><td>Enables face landmark points output.</td><td>Attach 2D stickers to eyes/mouth.</td></tr>
+  <tr><td>AR_FACE_EFFECT_MODE_MESH = 2</td><td>Enables a 3D face mesh topology.</td><td>Apply masks, filters, or occlusion.</td></tr>
+  <tr><td>AR_FACE_EFFECT_MODE_BLENDSHAPES = 3</td><td>Outputs blendshape coefficients for expressions.</td><td>Drive avatar facial animation.</td></tr>
+  <tr><td>AR_FACE_EFFECT_MODE_EYE_GAZE = 4</td><td>Outputs eye gaze vectors.</td><td>Gaze-based interaction or analytics.</td></tr>
+  <tr><td>AR_FACE_EFFECT_MODE_OCCLUSION = 5</td><td>Enables face-based occlusion geometry.</td><td>Hide virtual objects behind the face.</td></tr>
+</table>

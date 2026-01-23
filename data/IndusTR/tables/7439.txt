@@ -1,0 +1,16 @@
+<table>
+  <caption>Sector Intrusion Detector Requirements — Detection Range Intervals Matched to Positioning Accuracy</caption>
+  <thead>
+    <tr><th rowspan="2">Detection distance bracket (km)</th><th colspan="2">Required accuracy</th></tr>
+    <tr><th>Positioning accuracy (m)</th><th>Bearing (azimuth) accuracy (°)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 0.5</td><td>≤ 1</td><td>≤ 0.5</td></tr>
+    <tr><td>> 0.5 and ≤ 2</td><td>≤ 3</td><td>≤ 0.6</td></tr>
+    <tr><td>> 2 and ≤ 8</td><td>≤ 6</td><td>≤ 0.8</td></tr>
+    <tr><td>> 8 and ≤ 15</td><td>≤ 10</td><td>≤ 1.0</td></tr>
+    <tr><td>> 15 and ≤ 30</td><td>≤ 20</td><td>≤ 1.2</td></tr>
+    <tr><td>> 30 and ≤ 60</td><td>≤ 40</td><td>≤ 1.5</td></tr>
+    <tr><td>> 60 and ≤ 100</td><td>≤ 70</td><td>≤ 2.0</td></tr>
+  </tbody>
+</table>

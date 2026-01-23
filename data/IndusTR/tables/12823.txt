@@ -1,0 +1,14 @@
+<table>
+  <caption>Link-Layer Version Negotiation Payload (Combined Version Label Encoding)</caption>
+  <thead>
+    <tr><th>Field Order</th><th>Parameter</th><th>Length</th><th>Type</th><th>Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>CAN Type</td><td>1 byte</td><td>BYTE</td><td>0x00 CAN2.0B; 0x01 CAN FD; 0x02 CAN XL</td><td>Indicates the CAN physical/data link variant used for the session.</td></tr>
+    <tr><td>2</td><td>Negotiation Result</td><td>1 byte</td><td>BYTE</td><td>0x00 Continue; 0x01 Success; 0x02 Fail</td><td>Status of the version negotiation exchange.</td></tr>
+    <tr><td>3</td><td>Protocol Version</td><td>3 bytes</td><td>ASCII[3]</td><td>Example: "2.0" or "1.9" (ASCII)</td><td>Version is represented as a compact ASCII label; the 3 bytes carry printable characters (e.g., '2','.', '0').</td></tr>
+    <tr><td>4</td><td>Version Label</td><td>8 bytes</td><td>CHAR[8]</td><td>"Vx.y.z" (e.g., "V2.0.0")</td><td>Human-readable version string included for logging and debugging.</td></tr>
+    <tr><td>5</td><td>Reserved</td><td>4 bytes</td><td>BYTE[4]</td><td>0x00..0xFF</td><td>Reserved for future extension; transmit as 0x00.</td></tr>
+    <tr><td>6</td><td>CRC</td><td>2 bytes</td><td>UINT16</td><td>0x0000..0xFFFF</td><td>Checksum over the negotiation payload bytes.</td></tr>
+  </tbody>
+</table>

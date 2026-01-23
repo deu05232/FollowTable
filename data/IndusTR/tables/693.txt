@@ -1,0 +1,7 @@
+<table>
+  <caption>Geostationary meteorological satellite enhanced infrared image curved band tropical cyclone DT (wrap angle in radians) lookup table</caption>
+  <tr><td colspan="6">Wrap angle (radians) and DT</td></tr>
+  <tr><td>Curved band schematic</td><td></td><td></td><td></td><td></td><td>Remarks</td></tr>
+  <tr><td>Wrap angle (radians)</td><td>[0.2,0.4)</td><td>[0.4,0.55]</td><td>[0.6,0.75]</td><td>[0.8,1.0]</td><td>When the wrap angle is greater than 1.0, classify it as eye-pattern analysis; see 6.2.3</td></tr>
+  <tr><td>DT</td><td>1.5±0.5</td><td>2.5</td><td>3.0</td><td>3.5</td><td>When the grayscale value of the curved band used for analysis is white, DT is +0.5 on top of the lookup-table value corresponding to the wrap angle</td></tr>
+</table>

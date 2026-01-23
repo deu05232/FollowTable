@@ -1,0 +1,16 @@
+# BitTorrent Clients by Mobile and NAS Router Platform
+
+| Platform | Client | Availability | Notes |
+| --- | --- | --- | --- |
+| Android | Flud | Android app | Popular mobile torrent client; proprietary |
+| Android | LibreTorrent | Android app | Open-source; Material-style UI |
+| Android | tTorrent | Android app | Legacy-style Android client; proprietary |
+| Android | uTorrent (Android) | Android app | Official mobile client; ad-supported variants |
+| iOS/iPadOS | iTransmission | iOS app (jailbreak) | Transmission port; typically requires jailbroken devices |
+| iOS/iPadOS | WebTorrent (web app) | Browser-based | Works where WebRTC is available; varies by iOS limitations |
+| Synology NAS (DSM) | Download Station | Built-in package | Supports BitTorrent via DSM interface |
+| Synology NAS (DSM) | Transmission (community package) | Third-party package | Often installed via community repositories |
+| QNAP NAS (QTS) | Download Station | Built-in app | BitTorrent support integrated in QTS |
+| QNAP NAS (QTS) | qBittorrent (QPKG/container) | Third-party | Commonly deployed via containers or QPKG |
+| OpenWrt Router | Transmission-daemon | Package | Headless daemon for routers; web UI optional |
+| trueNAS/FreeBSD | Transmission | Plugin/jail/container | Frequently installed via plugin/jail mechanisms |

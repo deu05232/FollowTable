@@ -1,0 +1,27 @@
+<table>
+  <caption>VR Motion and Kinematics Data Structures (vrMotionData, vrAcceleration, vrAngularVelocity)</caption>
+  <thead>
+    <tr><th>Struct</th><th>Member</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="9">vrMotionData</td><td>time_stamp</td><td>int64_t</td><td>Timestamp corresponding to the motion sample (microseconds).</td></tr>
+    <tr><td>linear_velocity</td><td>vr3DVector</td><td>Linear velocity in tracking space (m/s).</td></tr>
+    <tr><td>angular_velocity</td><td>vrAngularVelocity</td><td>Angular velocity about X/Y/Z axes (rad/s).</td></tr>
+    <tr><td>linear_acceleration</td><td>vrAcceleration</td><td>Linear acceleration (m/s^2).</td></tr>
+    <tr><td>angular_acceleration</td><td>vr3DVector</td><td>Angular acceleration (rad/s^2).</td></tr>
+    <tr><td>velocity_covariance</td><td>double[9]</td><td>3x3 covariance matrix for linear velocity (row-major).</td></tr>
+    <tr><td>accel_covariance</td><td>double[9]</td><td>3x3 covariance matrix for linear acceleration (row-major).</td></tr>
+    <tr><td>prediction_dt</td><td>double</td><td>Prediction horizon applied to this motion sample (seconds).</td></tr>
+    <tr><td>is_valid</td><td>bool</td><td>true if motion estimate is valid for the associated pose.</td></tr>
+    <tr><td rowspan="4">vr3DVector</td><td>x</td><td>double</td><td>X component.</td></tr>
+    <tr><td>y</td><td>double</td><td>Y component.</td></tr>
+    <tr><td>z</td><td>double</td><td>Z component.</td></tr>
+    <tr><td>unit</td><td>char*</td><td>Unit string (e.g., "m/s", "rad/s", "m/s^2").</td></tr>
+    <tr><td rowspan="3">vrAngularVelocity</td><td>x</td><td>double</td><td>Angular velocity around X axis (rad/s).</td></tr>
+    <tr><td>y</td><td>double</td><td>Angular velocity around Y axis (rad/s).</td></tr>
+    <tr><td>z</td><td>double</td><td>Angular velocity around Z axis (rad/s).</td></tr>
+    <tr><td rowspan="3">vrAcceleration</td><td>x</td><td>double</td><td>Acceleration along X axis (m/s^2).</td></tr>
+    <tr><td>y</td><td>double</td><td>Acceleration along Y axis (m/s^2).</td></tr>
+    <tr><td>z</td><td>double</td><td>Acceleration along Z axis (m/s^2).</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,30 @@
+<table>
+  <caption>SM9 API Reference — SAF_SM9Verify (Signature Verification Interface Contract)</caption>
+  <thead>
+    <tr><th>Section</th><th>Definition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Function</td><td>SAF_SM9Verify</td></tr>
+    <tr><td>Prototype</td><td>int SAF_SM9Verify(
+    void          *hAppHandle,
+    unsigned int   uiMasterPublicKeyIndex,
+    const unsigned char *pucUserID,
+    unsigned int   uiUserIDLen,
+    const unsigned char *pucData,
+    unsigned int   uiDataLength,
+    const unsigned char *pucSignData,
+    unsigned int   uiSignDataLen
+);</td></tr>
+    <tr><td>Purpose</td><td>Verify an SM9 signature using the signature master public key (by index) and signer identity.</td></tr>
+    <tr><td rowspan="8">Parameter Contract</td><td>hAppHandle(IN): Application interface handle.</td></tr>
+    <tr><td>uiMasterPublicKeyIndex(IN): Index of the SM9signaturemaster public key used for verification.</td></tr>
+    <tr><td>pucUserID(IN): Pointer to signer identity bytes.</td></tr>
+    <tr><td>uiUserIDLen(IN): Length ofpucUserIDin bytes.</td></tr>
+    <tr><td>pucData(IN): Pointer to message/data buffer whose signature is to be verified.</td></tr>
+    <tr><td>uiDataLength(IN): Length ofpucDatain bytes.</td></tr>
+    <tr><td>pucSignData(IN): Pointer to signature blob/buffer.</td></tr>
+    <tr><td>uiSignDataLen(IN): Length ofpucSignDatain bytes.</td></tr>
+    <tr><td>Return Semantics</td><td>0: signature validnon-zero: invalid signature or API error (implementation-defined)</td></tr>
+    <tr><td>Input Pairing (Data Model)</td><td>Identity:pucUserID+uiUserIDLenMessage:pucData+uiDataLengthSignature:pucSignData+uiSignDataLenKey selection:uiMasterPublicKeyIndex</td></tr>
+  </tbody>
+</table>

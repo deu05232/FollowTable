@@ -1,0 +1,8 @@
+<table>
+  <caption>Class B MA Radio Equipment — Message field layout for autonomous status report</caption>
+  <tr><th>Field meaning</th><th>Bit allocation</th><th>Encoding rules</th><th>Constraints</th></tr>
+  <tr><td>Message identifier</td><td>6</td><td>Fixed value for this message type</td><td>Shall match the defined identifier</td></tr>
+  <tr><td>Repeater usage indicator</td><td>2</td><td>Binary-coded counter</td><td>Set to default for direct broadcast</td></tr>
+  <tr><td>Equipment identity</td><td>30</td><td>MMSI-based encoding</td><td>Shall follow the identity encoding rule</td></tr>
+  <tr><td>Payload content</td><td>Variable</td><td>As specified</td><td>Depends on message subtype</td></tr>
+</table>

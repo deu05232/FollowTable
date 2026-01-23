@@ -1,0 +1,15 @@
+<table>
+  <caption>Pass-Through Special Areas — Sensor & Telemetry Configuration vs. Limited Environmental Notes</caption>
+  <thead>
+    <tr><th rowspan="2">Scenario Segment</th><th colspan="3">Vehicle Telemetry</th><th colspan="2">Sensing / Monitoring</th><th rowspan="2">Map / Positioning Corrections</th><th rowspan="2">Roadside Communications</th><th rowspan="2">Environment Notes (brief)</th></tr>
+    <tr><th>Upload Items</th><th>Sampling Rate</th><th>Trigger Rules</th><th>Roadside Devices</th><th>Coverage KPI</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Interchange bridge</td><td>Speed, yaw rate, lane offset</td><td>20 Hz</td><td>Upload when wind alert received</td><td>Wind sensor + CCTV</td><td>Detection > 95%</td><td>RTK corrections via NTRIP</td><td>5G RSU on gantry</td><td>Elevated, dry, daytime</td></tr>
+    <tr><td>Tunnel</td><td>Headway, lighting adaptation state</td><td>10 Hz</td><td>Upload at portal entry/exit</td><td>CCTV chain + smoke sensors</td><td>Incident TTD < 10 s</td><td>Dead-reckoning + map-matching</td><td>Leaky feeder + small cells</td><td>Low light, straight</td></tr>
+    <tr><td>Toll station</td><td>Brake events, stop duration</td><td>5 Hz</td><td>Upload on queue formation</td><td>ANPR + loop detectors</td><td>Queue length error < 5 m</td><td>Lane-level HD map</td><td>DSRC reader network</td><td>Night lighting present</td></tr>
+    <tr><td>Bus stop</td><td>Passing speed, lateral clearance</td><td>10 Hz</td><td>Upload when bus dwell > 20 s</td><td>Curb camera + passenger counter</td><td>Occlusion < 15%</td><td>RTK + IMU fusion</td><td>Wi-Fi/Cell gateway</td><td>Urban curbside</td></tr>
+    <tr><td>School zone</td><td>Pedestrian near-miss metrics</td><td>20 Hz</td><td>Upload on VRU proximity < 2 m</td><td>LIDAR + video analytics</td><td>VRU recall > 98%</td><td>Geofence map layer</td><td>RSU SPaT broadcast</td><td>Daytime, low speed</td></tr>
+    <tr><td>Roundabout</td><td>Gap acceptance time, steering angle</td><td>20 Hz</td><td>Upload on yield violation</td><td>Radar tracking array</td><td>Track continuity > 97%</td><td>HD map + landmark localization</td><td>Beacon transmitter</td><td>Multi-entry circular</td></tr>
+  </tbody>
+</table>

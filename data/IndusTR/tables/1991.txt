@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Camera Calibration Lab Setup Requirements</caption>
+  <tr><th>Item</th><th>Specification</th><th>Target Value</th><th>Allowed Tolerance</th><th>Notes</th></tr>
+  <tr><td>Illuminance</td><td>Ambient light level</td><td>500 lux</td><td>±50 lux</td><td>Measured at device position</td></tr>
+  <tr><td>Color Temperature</td><td>Light source CCT</td><td>6500 K</td><td>±300 K</td><td>Use diffused LED panels</td></tr>
+  <tr><td>Checkerboard Size</td><td>Printed calibration pattern</td><td>9x6</td><td>N/A</td><td>Square = 25 mm</td></tr>
+  <tr><td>Camera-Target Distance</td><td>Working distance</td><td>0.8 m</td><td>±0.05 m</td><td>Tripod recommended</td></tr>
+  <tr><td>Frame Rate</td><td>Capture FPS</td><td>30</td><td>±2</td><td>Disable HDR if unstable</td></tr>
+  <tr><td>Lens Cleaning</td><td>Surface preparation</td><td>IPA wipe</td><td>N/A</td><td>Avoid residue</td></tr>
+</table>

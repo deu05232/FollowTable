@@ -1,0 +1,17 @@
+<table>
+  <caption>SpaceFibre 8b/10b Character Code Reference (K-codes and D-codes)</caption>
+  <thead>
+    <tr><th>Code</th><th>Type</th><th>Common Name</th><th>Typical Use</th><th>Running Disparity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>K28.5</td><td>K</td><td>Comma</td><td>Word boundary / alignment marker</td><td>0</td></tr>
+    <tr><td>K28.7</td><td>K</td><td>CRC / Control terminator</td><td>Used in multiple control-word tails</td><td>0</td></tr>
+    <tr><td>K27.7</td><td>K</td><td>Fill</td><td>Padding / fill characters</td><td>+2 or -2</td></tr>
+    <tr><td>K29.7</td><td>K</td><td>EOP</td><td>End of packet marker</td><td>+2 or -2</td></tr>
+    <tr><td>K30.7</td><td>K</td><td>EEP</td><td>Error end of packet marker</td><td>+2 or -2</td></tr>
+    <tr><td>K0.0</td><td>K</td><td>RxError</td><td>Receiver error indication symbol</td><td>N/A</td></tr>
+    <tr><td>D2.5</td><td>D</td><td>ACK</td><td>Acknowledgment field value</td><td>+2 or -2</td></tr>
+    <tr><td>D27.5</td><td>D</td><td>NACK</td><td>Negative acknowledgment field value</td><td>+2 or -2</td></tr>
+    <tr><td>D0.1</td><td>D</td><td>ACTIVE</td><td>Activation field value</td><td>+2 or -2</td></tr>
+  </tbody>
+</table>

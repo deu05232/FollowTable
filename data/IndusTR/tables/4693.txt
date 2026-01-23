@@ -1,0 +1,32 @@
+<table>
+  <caption>Meltblown Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Current hopper percentage</td><td>TheCurrentPercentageOfTheHopper</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td></td><td></td></tr>
+  <tr><td>0X0301</td><td>Hopper accumulated material consumption</td><td>AccumulatedMaterialConsumptioOfHopper</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~9999 999.00</td><td>kg</td><td></td><td>一</td></tr>
+  <tr><td>0X0302</td><td>Screw zone temperature</td><td>ScrewZoneTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>丨</td><td>丨</td></tr>
+  <tr><td>0X0303</td><td>Melt pipeline temperature</td><td>MeltPipeTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td></td><td>一</td></tr>
+  <tr><td>0X0304</td><td>Spinning box temperature</td><td>SpinningBox Temperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>丨</td><td>一</td></tr>
+  <tr><td>0X0305</td><td>Spin pack heating zone temperature</td><td>SpinningPackHeatingZoneTemperatures</td><td>M</td><td>SACVAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>一</td><td>一</td></tr>
+  <tr><td>0X0306</td><td>Heating tank temperature</td><td>HeatingTank Temperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td></td><td></td></tr>
+  <tr><td>0X0307</td><td>Metering pump speed</td><td>HeatingTank Temperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X0308</td><td>Drafting fan speed</td><td>DraftF anSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X0309</td><td>Suction fan speed</td><td>SuctionFanSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1500.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X030A</td><td>Head pressure</td><td>HeadPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X030B</td><td>Pressure before the screen</td><td>PressureBeforeTheScreen</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X030C</td><td>Pressure after the screen</td><td>PressureBehindTheScreen</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X030D</td><td>Box zone pressure</td><td>BoxZonePressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td>1</td></tr>
+  <tr><td>0X030E</td><td>Metering pump pressure</td><td>MeteringPumpPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X030F</td><td>Roots blower pressure</td><td>RootsBlowerPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X0310</td><td>Suction fan pressure</td><td>SuctionFanPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td>1</td></tr>
+  <tr><td>0X0311</td><td>Head melt temperature</td><td>HeadMeltTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>一</td><td>1</td></tr>
+  <tr><td>0X0312</td><td>Die temperature</td><td>DieTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td></td><td></td></tr>
+  <tr><td>0X0313</td><td>Hot box temperature</td><td>HotBoxTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td></td><td></td></tr>
+  <tr><td>0X0314</td><td>Mesh belt line speed</td><td>LinearSpeedOfMeshBelt</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>m/min</td><td></td><td>丨</td></tr>
+  <tr><td>0X0315</td><td>Winding roll speed</td><td>WindingRollSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>r/min</td><td></td><td>丨</td></tr>
+  <tr><td>0X0316</td><td>Basis weight estimation display</td><td>Gram WeightEstimationShows</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~300.00</td><td>g/m²</td><td></td><td></td></tr>
+  <tr><td>0X0317</td><td>Capacity estimation display</td><td>CapacityEstimatesShows</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~2000.00</td><td>kg/h</td><td></td><td></td></tr>
+  <tr><td>0X0318</td><td>Meltblown die-to-collector distance (DCD) display</td><td>MeltblownReceivingDistance (DCD)Display</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1000.00</td><td>mm</td><td></td><td></td></tr>
+  <tr><td>0X0319</td><td>Meltblown cold air speed</td><td>Melt-blownColdAirSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X031A</td><td>Meltblown cold air temperature</td><td>TemperatureOfMelt-blownColdAir</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X031B</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td></td><td></td><td>一</td><td></td><td>丨</td></tr>
+</table>

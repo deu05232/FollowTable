@@ -1,0 +1,10 @@
+<table>
+  <caption>Building Energy Use Intensity (EUI) Targets for Secure Facilities (Unrelated 'Intrusion' Context)</caption>
+  <tr><th>Facility type</th><th>Security zone</th><th>EUI target (kWh/m²·year)</th><th>HVAC setpoint (°C)</th><th>Operating hours (h/day)</th><th>Notes</th></tr>
+  <tr><td>Data center</td><td>High</td><td>280</td><td>24</td><td>24</td><td>Includes UPS losses</td></tr>
+  <tr><td>Bank branch</td><td>Medium</td><td>165</td><td>23</td><td>12</td><td>Public lobby included</td></tr>
+  <tr><td>Cash vault</td><td>High</td><td>140</td><td>22</td><td>24</td><td>Humidity control</td></tr>
+  <tr><td>Retail store</td><td>Low</td><td>120</td><td>24</td><td>10</td><td>Seasonal lighting</td></tr>
+  <tr><td>Warehouse</td><td>Medium</td><td>95</td><td>18</td><td>16</td><td>Limited conditioning</td></tr>
+  <tr><td>Security office</td><td>Medium</td><td>110</td><td>23</td><td>16</td><td>Workstations heat gain</td></tr>
+</table>

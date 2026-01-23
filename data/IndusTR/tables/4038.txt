@@ -1,0 +1,7 @@
+<table>
+  <caption>Domestic Service Personnel Work History Data Items</caption>
+  <tr><td>Description Item</td><td>Data Type</td><td>Constraint/Condition</td><td>Attribute Description</td><td>Value Domain</td></tr>
+  <tr><td>Work History Information</td><td>Composite</td><td>Required</td><td>A set of information related to the work experience of service personnel</td><td></td></tr>
+  <tr><td>Years of Service</td><td>String</td><td>Required</td><td>Service experience of the service personnel (unit: years)</td><td>Free text</td></tr>
+  <tr><td>Previous Work</td><td>String</td><td>Required</td><td>Description of the service personnel's previous work</td><td>Free text</td></tr>
+</table>

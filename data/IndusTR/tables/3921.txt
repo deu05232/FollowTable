@@ -1,0 +1,16 @@
+<table>
+  <caption>Cryptographic Device PIN Change Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_ChangePin（void * hAppHandle,unsigned int uiUsrType,unsigned char * pucContainerName,unsigned int uiContainerNameLen,unsigned char * pucOldPin,unsigned int uiOldPinLen,unsigned char * pucNewPin,unsigned int uiNewPinLen,unsigned int * puiRemainCount)</td></tr>
+  <tr><td>Description</td><td>Modify the device PIN; this function applies only to client cryptographic devices that comply with GB/T35291</td></tr>
+  <tr><td rowspan="9">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>uiUsrType[in](user type; 0 indicates administrator login, 1 indicates user login)</td></tr>
+  <tr><td>pucContainerName[in](key container name or key index number)</td></tr>
+  <tr><td>uiContainerNameLen[in](length of key container name or key index number)</td></tr>
+  <tr><td>pucOldPin[in]（current device PIN）</td></tr>
+  <tr><td>uiOldPinLen[in](current device PIN length)</td></tr>
+  <tr><td>pucNewPin[in](new device PIN）</td></tr>
+  <tr><td>uiNewPinLen[in](new device PIN length)</td></tr>
+  <tr><td>puiRemainCount[out](remaining PIN retry count)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success)</td></tr>
+  <tr><td>Non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

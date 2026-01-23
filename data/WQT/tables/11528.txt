@@ -1,0 +1,11 @@
+# DLNA UPnP AV Compliance Matrix (Specification Identifiers and Device Classes)
+
+| Device class | DLNA guideline ID | UPnP device type | UPnP version | Mandatory services | Optional services | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| DMS (Digital Media Server) | DLNA-GUID-DMS-1.50 | urn:schemas-upnp-org:device:MediaServer:1 | 1.0 | CDS, CMS | MSR, ContentSync | Focuses on discovery and serving rather than playable files |
+| DMP (Digital Media Player) | DLNA-GUID-DMP-1.50 | urn:schemas-upnp-org:device:MediaRenderer:1 | 1.0 | AVTransport, RenderingControl | ConnectionManager | Playback role, not format list |
+| DMR (Digital Media Renderer) | DLNA-GUID-DMR-1.50 | urn:schemas-upnp-org:device:MediaRenderer:1 | 1.0 | AVTransport, RenderingControl | QoS | Renderer capabilities negotiated via UPnP actions |
+| M-DMS (Mobile DMS) | DLNA-GUID-M-DMS-1.50 | urn:schemas-upnp-org:device:MediaServer:1 | 1.0 | CDS | - | Mobile profile class |
+| M-DMP (Mobile DMP) | DLNA-GUID-M-DMP-1.50 | urn:schemas-upnp-org:device:MediaRenderer:1 | 1.0 | AVTransport | - | Mobile playback class |
+| Printer (DMPr) | DLNA-GUID-DMPr-1.50 | urn:schemas-upnp-org:device:Printer:1 | 1.0 | PrintBasic | - | Non-media device class included for completeness |
+| Control Point (DMC) | DLNA-GUID-DMC-1.50 | urn:schemas-upnp-org:device:ControlPoint:1 | 1.0 | - | - | Orchestrates playback; no format focus |

@@ -1,0 +1,15 @@
+<table>
+  <caption>Beam Pumping Unit Performance Test Matrix (Load, Duration, Speed) with No Clause Traceability</caption>
+  <thead>
+    <tr><th>Test ID</th><th>Load (% rated)</th><th>Duration (min)</th><th>Motor Current Limit (A)</th><th>Gearbox Oil Temp Target (°C)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>T-01</td><td>30</td><td>60</td><td>≤ 22</td><td>55</td><td>Warm-up run</td></tr>
+    <tr><td>T-02</td><td>50</td><td>120</td><td>≤ 28</td><td>60</td><td>Stabilize vibration</td></tr>
+    <tr><td>T-03</td><td>70</td><td>180</td><td>≤ 33</td><td>65</td><td>Record power draw</td></tr>
+    <tr><td>T-04</td><td>90</td><td>240</td><td>≤ 38</td><td>70</td><td>Observe noise trend</td></tr>
+    <tr><td>T-05</td><td>100</td><td>240</td><td>≤ 42</td><td>75</td><td>Full-load endurance</td></tr>
+    <tr><td>T-06</td><td>115</td><td>30</td><td>≤ 48</td><td>80</td><td>Short overload check</td></tr>
+    <tr><td>T-07</td><td>125</td><td>10</td><td>≤ 52</td><td>85</td><td>Trip margin verification</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Force-law predictions for Newtonian gravity vs bimetric gravity (mixed-in-one-column summary)</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Model (Newtonian/GR and Bimetric mixed)</th><th>Predicted radial force F(r)</th><th>Effective potential</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Point mass, vacuum</td><td>Newtonian: 1/r^2; Bimetric: Yukawa-corrected 1/r^2</td><td>F(r)= -G M m / r^2 × [1 + α e^{-r/λ}(1 + r/λ)]</td><td>V(r)= -G M m / r × [1 + α e^{-r/λ}]</td><td>Typical massive mode induces finite-range correction</td></tr>
+    <tr><td>Solar-system scale (r ≪ λ)</td><td>Newtonian recovered; Bimetric approximately Newtonian with small renormalization</td><td>F(r) ≈ -G M m / r^2 × (1+α)</td><td>V(r) ≈ -G M m / r × (1+α)</td><td>Constraints often require |α| ≪ 1 at AU scales</td></tr>
+    <tr><td>Intermediate scale (r ~ λ)</td><td>Newtonian unchanged; Bimetric shows scale-dependent suppression</td><td>F(r)= -G M m / r^2 × [1 + α e^{-r/λ}(1 + r/λ)]</td><td>V(r)= -G M m / r × [1 + α e^{-r/λ}]</td><td>Transition near the Compton wavelength of massive graviton</td></tr>
+    <tr><td>Large scale (r ≫ λ)</td><td>Newtonian persists; Bimetric tends to Newtonian as correction decays</td><td>F(r) ≈ -G M m / r^2</td><td>V(r) ≈ -G M m / r</td><td>Exponential term becomes negligible</td></tr>
+    <tr><td>Two-body with screening (heuristic)</td><td>Newtonian: none; Bimetric: Vainshtein-like screening may appear</td><td>F(r) ≈ -G M m / r^2 (screened correction)</td><td>V(r) ≈ -G M m / r + δV</td><td>Nonlinearities can restore GR locally</td></tr>
+    <tr><td>Galaxy rotation regime (phenomenology)</td><td>Newtonian requires dark matter; Bimetric may mimic extra attraction in some parameter ranges</td><td>F(r)= -G M m / r^2 + F_extra(r)</td><td>V(r)= -G M m / r + V_extra(r)</td><td>Depends on coupling to matter sector and parameters</td></tr>
+  </tbody>
+</table>

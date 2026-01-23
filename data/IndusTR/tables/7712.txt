@@ -1,0 +1,16 @@
+<table>
+  <caption>SOF Component Certificate Retrieval and Identification Interfaces</caption>
+  <thead>
+    <tr><th>Interface</th><th>Prototype</th><th>Identifier / Input Columns</th><th>Returned Certificate Material</th><th>Returned Metadata</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>List installed certs</td><td>BSTR SOF_GetUserList()</td><td>(none)</td><td>(none)</td><td>Username (CN) + CertID pairs</td><td>Use the returned CertID as the stable handle for subsequent export/info calls.</td></tr>
+    <tr><td>Export signing certificate</td><td>BSTR SOF_ExportUserCert(BSTR CertID)</td><td>CertID</td><td>Base64Cert (signing cert)</td><td>(none)</td><td>Base64-encoded X.509 certificate suitable for storage/display.</td></tr>
+    <tr><td>Export encryption certificate</td><td>BSTR SOF_ExportEncryptCert(BSTR CertID)</td><td>CertID</td><td>Base64Cert (encryption cert)</td><td>(none)</td><td>Returns the encryption certificate if a dual-certificate policy is used.</td></tr>
+    <tr><td>Get certificate subject</td><td>BSTR SOF_GetCertInfo(BSTR Base64Cert, LONG InfoType)</td><td>Base64Cert, InfoType=SUBJECT</td><td>(none)</td><td>Subject DN string</td><td>Commonly used to display identity attributes.</td></tr>
+    <tr><td>Get certificate issuer</td><td>BSTR SOF_GetCertInfo(BSTR Base64Cert, LONG InfoType)</td><td>Base64Cert, InfoType=ISSUER</td><td>(none)</td><td>Issuer DN string</td><td>Useful for chain display and trust decisions.</td></tr>
+    <tr><td>Get certificate serial number</td><td>BSTR SOF_GetCertInfo(BSTR Base64Cert, LONG InfoType)</td><td>Base64Cert, InfoType=SERIAL_NUMBER</td><td>(none)</td><td>Serial number</td><td>Often used as part of a unique certificate key alongside issuer.</td></tr>
+    <tr><td>Get validity period</td><td>BSTR SOF_GetCertInfo(BSTR Base64Cert, LONG InfoType)</td><td>Base64Cert, InfoType=NOT_BEFORE / NOT_AFTER</td><td>(none)</td><td>NotBefore / NotAfter timestamps</td><td>Display expiration and enforce time-based checks.</td></tr>
+    <tr><td>Get thumbprint</td><td>BSTR SOF_GetCertThumbprint(BSTR Base64Cert, LONG HashAlg)</td><td>Base64Cert, HashAlg</td><td>(none)</td><td>Thumbprint (hex/base64)</td><td>Convenient stable identifier for caching and UI selection.</td></tr>
+  </tbody>
+</table>

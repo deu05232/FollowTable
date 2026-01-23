@@ -1,0 +1,12 @@
+# iPod Dock Connector   iAP Message Frame Reference
+
+| Frame/Field | Offset (bytes) | Length | Encoding | Purpose | Example Value |
+|---|---:|---:|---|---|---|
+| Sync Word | 0 | 2 | Hex | Start-of-frame marker | 0xFF55 |
+| Payload Length | 2 | 1 | UInt8 | Number of bytes following | 0x0A |
+| Mode | 3 | 1 | UInt8 | Category of command | 0x04 (Extended) |
+| Command | 4 | 2 | UInt16 | Specific action identifier | 0x0012 |
+| Parameter | 6 | 0..N | Bytes | Optional command data | 0x7E 0x01 |
+| Checksum | N+6 | 1 | UInt8 | Integrity check | 0xA3 |
+| Ack/Nak | varies | 1 | UInt8 | Response status | 0x06 (ACK) |
+| Timeout | varies | 2 | ms | Host wait interval | 500 |

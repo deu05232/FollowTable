@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Interface Definition for Checking Certificate Login Status</caption>
+  <tr><td>Prototype</td><td>BOOL SOF_IsLogin(BSTR CertID)</td></tr>
+  <tr><td>Description</td><td>Determine whether the certificate user is in the logged-in state</td></tr>
+  <tr><td>Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>TRUE (logged-in state)</td></tr>
+  <tr><td>FALSE (not logged in)</td></tr>
+</table>

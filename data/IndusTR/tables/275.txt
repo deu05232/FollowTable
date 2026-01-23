@@ -1,0 +1,5 @@
+<table>
+  <caption>Charger Time Information Message (PGN1792) Format</caption>
+  <tr><td>Start byte or bit</td><td>Length</td><td>SPN</td><td>SPN definition</td><td>Send option</td></tr>
+  <tr><td>1</td><td>7 bytes</td><td>2823</td><td>Year/month/day/hour/minute/second, e.g., 2024-05-15 10:55:17 is represented as: BYTE7: 24H; BYTE6: 20H; BYTE5: 05H; BYTE4: 15H; BYTE3: 10H; BYTE2: 55H; BYTE1: 17H</td><td>Optional</td></tr>
+</table>

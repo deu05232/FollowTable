@@ -1,0 +1,16 @@
+<table>
+  <caption>vrPose Nested Field Type Breakdown (vr3DPoint and vrQuaternion as Used by vrPose)</caption>
+  <thead>
+    <tr><th>Parent</th><th>Nested Type</th><th>Member</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">vrPose</td><td rowspan="4">vrQuaternion</td><td>w</td><td>double</td><td>Quaternion scalar component.</td></tr>
+    <tr><td>x</td><td>double</td><td>Quaternion X component.</td></tr>
+    <tr><td>y</td><td>double</td><td>Quaternion Y component.</td></tr>
+    <tr><td>z</td><td>double</td><td>Quaternion Z component.</td></tr>
+    <tr><td rowspan="3">vr3DPoint</td><td>x</td><td>double</td><td>Position X coordinate (meters).</td></tr>
+    <tr><td>y</td><td>double</td><td>Position Y coordinate (meters).</td></tr>
+    <tr><td>z</td><td>double</td><td>Position Z coordinate (meters).</td></tr>
+    <tr><td>time_stamp</td><td>int64_t</td><td>nanoseconds</td><td>Pose timestamp stored at the container level.</td></tr>
+  </tbody>
+</table>

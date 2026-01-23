@@ -1,0 +1,14 @@
+# BitTorrent Client Applications — Typical Use Cases and Capabilities
+
+| Client | Form Factor | Typical Use Case | Headless/Daemon Mode | Web Interface | RSS / Auto-Download | IP Filtering | Sequential Download / Streaming Mode | Notes |
+|---|---|---|---|---|---|---|---|---|
+| rTorrent | Desktop/Server (CLI) | Seedbox, servers, power users | Yes | Via front-ends (ruTorrent, etc.) | Via tools/front-ends | Yes (via config) | Possible (depends on setup) | High performance; configuration-centric |
+| aria2 | CLI / Library | Scripting, automation, lightweight downloads | Yes | Optional (via third-party UIs) | No (typically scripted) | Limited (varies) | Limited | Multi-protocol downloader with BitTorrent support |
+| qBittorrent-nox | Server/Headless | Home server/NAS with web control | Yes | Yes (Web UI) | Yes | Yes | Limited | Headless build of qBittorrent for remote operation |
+| Deluge (daemon) | Server/Headless | Always-on seeding and remote management | Yes | Yes (Web UI) | Via plugins | Via plugins | Limited | Same core as Deluge desktop, run as a service |
+| Transmission-daemon | Server/Headless | Router/NAS, low-resource seeding | Yes | Optional (separate web clients) | No (commonly external) | Basic (blocklist support) | Limited | Widely packaged on Linux appliances |
+| Tribler | Desktop | Privacy-research oriented P2P usage | No (primarily desktop) | No | No | No | Yes (streaming features vary) | Research-driven client with unique networking features |
+| FrostWire | Desktop/Mobile | Simple UI for mixed media downloads | No (primarily desktop/mobile) | No | Limited | Limited | Limited | Includes BitTorrent client functionality |
+| BitComet | Desktop | Long-running downloads, Windows users | No | No | Yes | Yes | Yes | Feature-rich proprietary Windows client |
+| Folx | Desktop (macOS) | macOS-integrated download manager + BT | No | No | Limited | Limited | Limited | macOS-centric UI; BT as one capability |
+| WebTorrent Desktop | Desktop | Streaming-friendly torrents over modern stacks | No | No | No | No (non-traditional) | Yes (strong focus) | Desktop app built around WebTorrent ecosystem |

@@ -1,0 +1,9 @@
+<table>
+  <caption>Emergency Management Beidou System Multimedia Transmission Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Multimedia Type</td><td>4</td><td>Integer</td><td>0~2</td><td>0——Text;1-—Image;2-Audio</td></tr>
+  <tr><td>2</td><td>Multimedia Format</td><td>4</td><td>Integer</td><td>1~15</td><td>The multimedia format code shall comply with the provisions of A.2</td></tr>
+  <tr><td>3</td><td>Number of Packets</td><td>16</td><td>Integer</td><td>1~65 535</td><td></td></tr>
+  <tr><td>4</td><td>Packet Sequence No.</td><td>16</td><td>Integer</td><td>1~65 535</td><td></td></tr>
+  <tr><td>5</td><td>Data</td><td>N×8</td><td>Integer</td><td></td><td>Multimedia data, where N is the data byte length</td></tr>
+</table>

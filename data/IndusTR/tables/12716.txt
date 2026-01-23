@@ -1,0 +1,67 @@
+<table>
+  <caption>SM9 Signing/Verification, Key Encapsulation, and Key Agreement Service Interfaces</caption>
+  <thead>
+    <tr><th>Function Prototype (copyable)</th><th>Rule / Description</th><th>Inputs (in)</th><th>Outputs (out)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>int SAF_SM9Sign(
+    void *hAppHandle,
+    const unsigned char *pucContainerName,
+    unsigned int uiContainerLen,
+    unsigned int uiMasterPublicKeyIndex,
+    const unsigned char *pucData,
+    unsigned int uiDataLength,
+    unsigned char *pucSignData,
+    unsigned int *puiSignDataLen
+);</td><td>Generates an SM9 signature over the input data using the SM9 signing private key stored in the specified container. The SM9 computation process shall comply with GB/T 41389.</td><td>hAppHandle: application interface handlepucContainerName: signing key container nameuiContainerLen: container name lengthuiMasterPublicKeyIndex: index of signature master public key (for domain parameters/verification context per implementation)pucData: data to be signeduiDataLength: data length</td><td>pucSignData: signature output bufferpuiSignDataLen: in: buffer size; out: signature length</td></tr>
+    <tr><td>int SAF_SM9Verify(
+    void *hAppHandle,
+    unsigned int uiMasterPublicKeyIndex,
+    const unsigned char *pucUserID,
+    unsigned int uiUserIDLen,
+    const unsigned char *pucData,
+    unsigned int uiDataLength,
+    const unsigned char *pucSignData,
+    unsigned int uiSignDataLen
+);</td><td>Verifies an SM9 signature using the signer identity and the signature master public key (by index). Returns success/failure code only. The SM9 computation process shall comply with GB/T 41389.</td><td>hAppHandle: application interface handleuiMasterPublicKeyIndex: index of signature master public keypucUserID: signer identityuiUserIDLen: signer identity lengthpucData: signed datauiDataLength: data lengthpucSignData: signature blobuiSignDataLen: signature length</td><td>(none) return value indicates verification result</td></tr>
+    <tr><td>int SAF_SM9KeyEncapsulate(
+    void *hSymmKeyObj,
+    unsigned int uiMasterPublicKeyIndex,
+    unsigned int uiKeyBits,
+    const unsigned char *pucUserID,
+    unsigned int uiUserIDLen,
+    unsigned char *pucKeyPackage,
+    unsigned int *puiKeyPackageLen,
+    void **phKeyHandle
+);</td><td>Performs SM9 key encapsulation for a recipient identity, producing a key package (encapsulation) and a session key handle for subsequent symmetric operations. The SM9 computation process shall comply with GB/T 41389.</td><td>hSymmKeyObj: symmetric algorithm objectuiMasterPublicKeyIndex: index of encryption master public keyuiKeyBits: required session key length in bitspucUserID: recipient identityuiUserIDLen: identity length</td><td>pucKeyPackage: key encapsulation/package outputpuiKeyPackageLen: in/out package lengthphKeyHandle: returned session key handle</td></tr>
+    <tr><td>int SAF_SM9KeyDecapsulate(
+    void *hSymmKeyObj,
+    unsigned int uiKeyBits,
+    const unsigned char *pucKeyPackage,
+    unsigned int ulKeyPackageLen,
+    void **phKeyHandle
+);</td><td>Performs SM9 key decapsulation using the local SM9 user keying material bound to the current context (implementation-defined), recovering the session key handle from the provided key package. The SM9 computation process shall comply with GB/T 41389.</td><td>hSymmKeyObj: symmetric algorithm objectuiKeyBits: expected session key length in bitspucKeyPackage: received key packageulKeyPackageLen: package length</td><td>phKeyHandle: returned session key handle</td></tr>
+    <tr><td>int SAF_SM9GenerateAgreementData(
+    void *hSymmKeyObj,
+    unsigned int uiMasterPublicKeyIndex,
+    unsigned int uiKeyBits,
+    const unsigned char *pucResponsorID,
+    unsigned int uiResponsorIDLen,
+    unsigned char *pucSponsorTmpPublicKey,
+    unsigned int *puiSponsorTmpPublicKeyLen,
+    void **phAgreementHandle
+);</td><td>Generates SM9 key agreement parameters for the initiating side (sponsor), outputting the sponsor temporary public key and an agreement handle used in the next step. The SM9 computation process shall comply with GB/T 41389.</td><td>hSymmKeyObj: symmetric algorithm objectuiMasterPublicKeyIndex: index of encryption master public keyuiKeyBits: negotiated session key length in bitspucResponsorID: peer (responder) identityuiResponsorIDLen: peer identity length</td><td>pucSponsorTmpPublicKey: sponsor temporary public key outputpuiSponsorTmpPublicKeyLen: in/out public key lengthphAgreementHandle: agreement context handle</td></tr>
+    <tr><td>int SAF_SM9GenerateAgreementDataAndKey(
+    void *hSymmKeyObj,
+    unsigned int uiMasterPublicKeyIndex,
+    unsigned int uiKeyBits,
+    const unsigned char *pucSponsorID,
+    unsigned int uiSponsorIDLength,
+    unsigned char *pucSponsorTmpPublicKey,
+    unsigned int *puiSponsorTmpPublicKeyLen,
+    const unsigned char *pucResponseTmpPublicKey,
+    unsigned int uiResponseTmpPublicKeyLen,
+    void **phKeyHandle
+);</td><td>Completes the SM9 key agreement computation (for the responder side in a 2-pass flow) and outputs the derived session key handle along with required agreement parameters. The SM9 computation process shall comply with GB/T 41389.</td><td>hSymmKeyObj: symmetric algorithm objectuiMasterPublicKeyIndex: index of encryption master public keyuiKeyBits: session key length in bitspucSponsorID: sponsor identityuiSponsorIDLength: sponsor identity lengthpucResponseTmpPublicKey: responder temporary public key inputuiResponseTmpPublicKeyLen: responder temp public key length</td><td>pucSponsorTmpPublicKey: sponsor temporary public key output (if generated here)puiSponsorTmpPublicKeyLen: in/out sponsor temp public key lengthphKeyHandle: derived session key handle</td></tr>
+  </tbody>
+</table>

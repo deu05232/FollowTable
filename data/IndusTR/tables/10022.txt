@@ -1,0 +1,10 @@
+<table>
+  <caption>Charging readiness and basic session metadata (mixed message definition)</caption>
+  <tr><th>Start byte or bit</th><th>Length</th><th>SPN</th><th>SPN definition</th><th>Send option</th></tr>
+  <tr><td>1</td><td>1 byte</td><td>2830</td><td>Whether the charger is ready for charging</td><td>Mandatory</td></tr>
+  <tr><td>2</td><td>3 bytes</td><td>2600</td><td>Charger communication protocol version number</td><td>Required</td></tr>
+  <tr><td>5</td><td>7 bytes</td><td>2823</td><td>Timestamp (year/month/day/hour/minute/second)</td><td>Optional</td></tr>
+  <tr><td>12</td><td>2 bytes</td><td>2817</td><td>Maximum allowable charging current</td><td>Required</td></tr>
+  <tr><td>14</td><td>2 bytes</td><td>2816</td><td>Maximum allowable charging voltage of a single traction battery cell</td><td>Required</td></tr>
+  <tr><td>16</td><td>2 bytes</td><td>2818</td><td>Nominal total energy of the traction battery</td><td>Required</td></tr>
+</table>

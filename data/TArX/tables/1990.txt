@@ -1,0 +1,54 @@
+<table>
+  <caption>Global fits for Kepler-7b. Quoted values are medians of MCMC trials with errors given by 1- σ quantiles. Two independent methods are used to fit the data (A&B) with both circular and eccentric modes (c&e).* = fixed parameter; † = parameter was floated but not fitted.</caption>
+  <tr><td>Parameter</td><td>Discovery</td><td>Method A.c</td><td>Method A.e</td><td>Model B.c</td><td>Model B.e</td></tr>
+  <tr><td>Fitted params.</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>P/ days</td><td>4.885525± 0.000040</td><td>4.88552_(-0.00010)^(+0.00010)</td><td>4.885522_(-0.000061)^(+0.000062)</td><td></td><td></td></tr>
+  <tr><td>E (BJD-2,454,000)</td><td>967.27571± 0.00014</td><td>957.50468_(-0.00049)^(+0.00049)</td><td>957.50481_(-0.00035)^(+0.00034)</td><td>957.50461± 0.00020</td><td>957.50458± 0.00021</td></tr>
+  <tr><td>T_(1,4) /s</td><td>-</td><td>18694_(-216)^(+224)</td><td>18704_(-150)^(+149)</td><td>18541± 95</td><td>18516± 95</td></tr>
+  <tr><td>T /s</td><td>-</td><td>16951_(-237)^(+242)</td><td>16916_(-156)^(+203)</td><td>16935± 22</td><td>16917± 31</td></tr>
+  <tr><td>(T_(1,2)~eq T_(3,4)) /s</td><td>-</td><td>1722_(-297)^(+376)</td><td>1812_(-299)^(+245)</td><td>1624± 104</td><td>1616± 104</td></tr>
+  <tr><td>(/)^(2) /%</td><td>-</td><td>0.661_(-0.034)^(+0.038)</td><td>0.671_(-0.035)^(+0.024)</td><td>0.6529± 0.0081</td><td>0.6529± 0.0081</td></tr>
+  <tr><td>b^(2)</td><td>-</td><td>0.19_(-0.15)^(+0.13)</td><td>0.230_(-0.137)^(+0.083)</td><td></td><td></td></tr>
+  <tr><td>(/) /days ^((-1))</td><td>-</td><td>10.24_(-0.15)^(+0.16)</td><td>10.28_(-0.14)^(+0.12)</td><td></td><td></td></tr>
+  <tr><td>(F_(P,)/F_()) /ppm</td><td>-</td><td>24_(-30)^(+30)</td><td>-21_(-26)^(+32)</td><td>47± 14</td><td>41± 37</td></tr>
+  <tr><td>eω</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0.00_(-0.13)^(+0.13)</td><td>0 ^((*))</td><td></td></tr>
+  <tr><td>eω</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0.047_(-0.043)^(+0.021)</td><td>0 ^((*))</td><td></td></tr>
+  <tr><td>K /ms ^((-1))</td><td>42.9± 3.5</td><td>42.8_(-10.6)^(+10.6)</td><td>41.6_(-6.2)^(+6.3)</td><td></td><td></td></tr>
+  <tr><td>γ /ms ^((-1))</td><td>0</td><td>-0.1_(-7.3)^(+7.3)</td><td>0.7_(-4.3)^(+4.5)</td><td></td><td></td></tr>
+  <tr><td>γ /ms ^((-1)) day ^((-1))</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0 ^((*))</td></tr>
+  <tr><td>t_() /days</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0 ^((*))</td></tr>
+  <tr><td>B</td><td>1.025± 0.004</td><td>1.025± 0.004</td><td>1.025± 0.004</td><td>1.025± 0.004</td><td>1.025± 0.004</td></tr>
+  <tr><td>SME derived params.</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>T_() /K</td><td>5933± 44</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>log (g/)</td><td>3.98± 0.10</td><td>3.98± 0.10</td><td>3.98± 0.10</td><td>3.98± 0.10</td><td>3.98± 0.10</td></tr>
+  <tr><td>(dex)</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>( )</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>u_(1)</td><td>-</td><td>0.34_(-0.13)^(+0.16)</td><td>0.35_(-0.10)^(+0.12)</td><td>^((*))</td><td>^((*))</td></tr>
+  <tr><td>u_(2)</td><td>-</td><td>0.33_(-0.34)^(+0.26)</td><td>0.27_(-0.23)^(+0.24)</td><td>^((*))</td><td>^((*))</td></tr>
+  <tr><td>Model indep. params.</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>/</td><td>0.08241_(-0.00043)^(+0.00030)</td><td>0.0813_(-0.0021)^(+0.0023)</td><td>0.0819_(-0.0021)^(+0.0015)</td><td></td><td></td></tr>
+  <tr><td></td><td>7.22_(-0.13)^(+0.16)</td><td>7.14_(-0.53)^(+0.56)</td><td>7.03_(-0.95)^(+1.10)</td><td></td><td></td></tr>
+  <tr><td>b</td><td>0.445_(-0.044)^(+0.032)</td><td>0.44_(-0.23)^(+0.13)</td><td>0.480_(-0.175)^(+0.080)</td><td></td><td></td></tr>
+  <tr><td>i / ^((°))</td><td>86.5± 0.4</td><td>86.5_(-1.4)^(+2.0)</td><td>86.3_(-1.9)^(+1.7)</td><td></td><td></td></tr>
+  <tr><td>e</td><td>0 ^((*))</td><td>0 ^((*))</td><td>0.102_(-0.047)^(+0.104)</td><td>0 ^((*))</td><td></td></tr>
+  <tr><td>ω / ^((°))</td><td>-</td><td>-</td><td>129_(-80)^(+182)</td><td>-</td><td></td></tr>
+  <tr><td>RV jitter ( )</td><td>-</td><td>0.0</td><td>0.0</td><td></td><td></td></tr>
+  <tr><td>ρ_() /gcm ^((-3))</td><td>0.304</td><td>0.288_(-0.060)^(+0.073)</td><td>0.276_(-0.097)^(+0.151)</td><td></td><td></td></tr>
+  <tr><td>log (g_(P)/)</td><td>2.691_(-0.045)^(+0.038)</td><td>2.69_(-0.15)^(+0.13)</td><td>2.66_(-0.16)^(+0.14)</td><td></td><td></td></tr>
+  <tr><td>S_(1,4) /s</td><td>-</td><td>18694_(-216)^(+224)</td><td>15406_(-1023)^(+5065)</td><td>18541± 95</td><td>15535± 2350</td></tr>
+  <tr><td>t_(sec) /(BJD-2,454,000)</td><td>-</td><td>964.83265_(-0.00049)^(+0.00049)</td><td>964.662_(-0.158)^(+0.074)</td><td>975.8300± 0.0002</td><td>994.137± 0.058</td></tr>
+  <tr><td>Derived stellar params.</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>/M_()</td><td>1.347_(-0.054)^(+0.072)</td><td>1.257_(-0.073)^(+0.087)</td><td>1.268_(-0.090)^(+0.115)</td><td></td><td></td></tr>
+  <tr><td>/</td><td>1.843_(-0.066)^(+0.048)</td><td>1.83_(-0.14)^(+0.17)</td><td>1.86_(-0.28)^(+0.34)</td><td></td><td></td></tr>
+  <tr><td>log (g/)</td><td>4.030_(-0.019)^(+0.018)</td><td>4.012_(-0.063)^(+0.061)</td><td>4.00_(-0.12)^(+0.12)</td><td></td><td></td></tr>
+  <tr><td>/L_()</td><td>4.15_(-0.54)^(+0.63)</td><td>3.72_(-0.60)^(+0.78)</td><td>3.8_(-1.1)^(+1.6)</td><td></td><td></td></tr>
+  <tr><td>M_(V) /mag</td><td>-</td><td>3.38_(-0.21)^(+0.20)</td><td>3.34_(-0.39)^(+0.37)</td><td></td><td></td></tr>
+  <tr><td>Age/Gyr</td><td>3.5± 1.0</td><td>4.82_(-1.20)^(+0.82)</td><td>4.45_(-0.96)^(+1.11)</td><td></td><td></td></tr>
+  <tr><td>Distance/pc</td><td>-</td><td>772_(-67)^(+79)</td><td>784_(-122)^(+153)</td><td></td><td></td></tr>
+  <tr><td>Derived planetary params.</td><td></td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>/</td><td>0.433_(-0.041)^(+0.040)</td><td>0.42_(-0.11)^(+0.11)</td><td>0.405_(-0.064)^(+0.067)</td><td></td><td></td></tr>
+  <tr><td>/</td><td>1.478_(-0.051)^(+0.050)</td><td>1.45_(-0.15)^(+0.18)</td><td>1.48_(-0.24)^(+0.29)</td><td></td><td></td></tr>
+  <tr><td>ρ_(P) /gcm ^((-3))</td><td>0.166_(-0.020)^(+0.019)</td><td>0.167_(-0.056)^(+0.074)</td><td>0.155_(-0.064)^(+0.099)</td><td></td><td></td></tr>
+  <tr><td>a /AU</td><td>0.06224_(-0.00084)^(+0.00109)</td><td>0.0608_(-0.0012)^(+0.0014)</td><td>0.0609_(-0.0015)^(+0.0018)</td><td></td><td></td></tr>
+  <tr><td>T_()/K</td><td>1540± 200</td><td>1569_(-58)^(+65)</td><td>1582_(-110)^(+127)</td><td></td><td></td></tr>
+</table>

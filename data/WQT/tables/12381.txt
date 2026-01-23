@@ -1,0 +1,13 @@
+# Exchange Hybrid Coexistence Capabilities  Mail Flow, Recipients, and Cross-Premises Features
+
+| Capability area | Before hybrid deployment (on-premises only) | After hybrid deployment (on-premises + Microsoft 365) |
+| --- | --- | --- |
+| Recipient directory visibility | Users and groups are visible only within the on-premises GAL; cloud recipients (if any) are separate. | Unified/consistent GAL experience via synchronized recipients; mail users/contact objects represent cloud mailboxes on-premises. |
+| Mail routing between environments | No native organizational relationship; mail between on-prem and cloud behaves like Internet mail (separate domains/tenants). | Secure, recognized cross-premises routing (hybrid connectors); mail treats both sides as part of the same organization boundary. |
+| Shared SMTP namespaces | Typically a single authoritative location (often on-prem) or split handled manually; inconsistent sender experience. | Supported shared namespace with centralized or decentralized transport; consistent addressing across on-prem and Microsoft 365. |
+| Cross-premises mailbox moves | Moving a mailbox requires export/import or third-party migration; high user disruption. | Supported remote mailbox moves (cross-premises migration) with reduced user disruption and coordinated cutover. |
+| Autodiscover/service affinity | Clients generally discover only on-prem endpoints; cloud mailboxes (if introduced) require separate discovery paths. | Autodiscover can direct users to the correct environment (on-prem or Microsoft 365) for mailbox access. |
+| Cross-premises message tracking | Tracking is limited to the local organization; end-to-end visibility requires manual correlation. | More predictable end-to-end flow across connectors; admins can correlate delivery across both environments more directly. |
+| Centralized transport option | Not applicable (single environment); outbound policy handled only on-prem. | Optional centralized transport: Microsoft 365 can route outbound mail through on-prem for unified compliance/signature solutions. |
+| On-prem application relay to cloud mailboxes | Apps relay to on-prem only; delivering to cloud mailboxes needs separate Internet routing/config. | Apps can relay through hybrid transport path to reach cloud mailboxes using organizational connectors. |
+| Coexistence with mixed mailbox locations | Mixed locations often feel like two separate orgs (different experiences and policies). | Designed for coexistence: users can have mailboxes on-prem or in Microsoft 365 with coordinated routing and discovery. |

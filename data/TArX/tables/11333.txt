@@ -1,0 +1,15 @@
+<table>
+  <caption>Van der Waals constants grouped by wavelength band (constants not listed per spectral line)</caption>
+  <thead>
+    <tr><th>Wavelength Band (Å)</th><th>Representative Lines</th><th>Mean log(γ6/NH) @ 10,000 K</th><th>Std. Dev.</th><th>N lines</th><th>Adopted Model</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>3900–4200</td><td>Ca II H&K, Fe I blends</td><td>-6.92</td><td>0.18</td><td>24</td><td>VALD default</td><td>Band-averaged damping</td></tr>
+    <tr><td>4200–4600</td><td>Ti II, Fe I</td><td>-7.05</td><td>0.15</td><td>31</td><td>ABO where available</td><td>Mixture of sources</td></tr>
+    <tr><td>4600–5000</td><td>Fe I dominant</td><td>-7.22</td><td>0.14</td><td>40</td><td>Adjusted (solar)</td><td>Empirical tuning applied</td></tr>
+    <tr><td>5000–5400</td><td>Mg I b triplet region</td><td>-7.40</td><td>0.08</td><td>18</td><td>Adjusted (solar)</td><td>Strong lines weighted</td></tr>
+    <tr><td>5400–6000</td><td>Fe I, Ni I</td><td>-7.28</td><td>0.12</td><td>52</td><td>VALD + pruning</td><td>Outliers removed</td></tr>
+    <tr><td>6000–6800</td><td>Na I, Ca I</td><td>-7.55</td><td>0.20</td><td>17</td><td>Literature blend</td><td>Resonance lines affect mean</td></tr>
+    <tr><td>6800–7600</td><td>O I triplet region</td><td>-7.10</td><td>0.16</td><td>11</td><td>ABO extrapolated</td><td>High-excitation bias</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Power Meter and Data Acquisition Specifications for Copier/MFD Energy Testing (Instrument-only)</caption>
+  <thead>
+    <tr><th>Item</th><th>Specification</th><th>Minimum Requirement</th><th>Typical Setting</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>true power accuracy</td><td>±0.2% of reading</td><td>≤ ±0.5%</td><td>±0.2%</td><td>Applies from 0.5 W to rated load</td></tr>
+    <tr><td>Energy (Wh) accuracy</td><td>±0.5%</td><td>≤ ±1.0%</td><td>±0.5%</td><td>Integrates over the logging interval</td></tr>
+    <tr><td>Power resolution</td><td>0.01 W</td><td>≤ 0.1 W</td><td>0.01 W</td><td>Important for sleep/off measurements</td></tr>
+    <tr><td>Energy resolution</td><td>0.001 Wh</td><td>≤ 0.01 Wh</td><td>0.001 Wh</td><td>For long idle intervals</td></tr>
+    <tr><td>Sampling rate</td><td>1 kHz</td><td>≥ 1 Hz (logging)</td><td>10 Hz logging</td><td>High-frequency sampling supports transient capture</td></tr>
+    <tr><td>Logging interval</td><td>1 s</td><td>≤ 10 s</td><td>1 s</td><td>Shorter intervals improve time-to-sleep characterization</td></tr>
+    <tr><td>Crest factor capability</td><td>3:1</td><td>≥ 3:1</td><td>5:1</td><td>Needed for inrush and fuser cycling</td></tr>
+    <tr><td>Current range</td><td>0.01–20 A</td><td>≥ 16 A</td><td>20 A</td><td>Match device maximum current</td></tr>
+    <tr><td>Data export</td><td>CSV/JSON</td><td>CSV</td><td>CSV</td><td>For lab replication and reporting</td></tr>
+  </tbody>
+</table>

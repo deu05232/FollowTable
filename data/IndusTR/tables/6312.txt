@@ -1,0 +1,16 @@
+<table>
+  <caption>International Container Logistics Tracking — Service Catalog and Functional Domains</caption>
+  <thead>
+    <tr><th>Domain</th><th>Service Category</th><th>Typical Capabilities</th><th>Primary Users</th><th>KPIs / Objectives</th><th>Data Sources (Examples)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Visibility</td><td>Container Tracking</td><td>Milestone search, last-known position, ETA display</td><td>Shippers, 3PLs</td><td>Improve ETA accuracy; reduce exception time</td><td>Carrier EDI, AIS, terminal status feeds</td><td>Focuses on functions, not execution steps</td></tr>
+    <tr><td>Cargo Traceability</td><td>Chain-of-custody lookup, event history view, proof-of-delivery archive</td><td>Consignees, insurers</td><td>Reduce claims; increase auditability</td><td>Forwarder status, ePOD, customs release</td><td>Event timeline is presented as a feature</td></tr>
+    <tr><td rowspan="2">Compliance</td><td>Customs & Regulatory</td><td>Declaration support, hold/release status exposure</td><td>Brokers, importers</td><td>Reduce clearance delays</td><td>Single window messages, inspection systems</td><td>Broad regulatory scope</td></tr>
+    <tr><td>Security Screening</td><td>Risk scoring dashboards, screening result retrieval</td><td>Authorities, terminals</td><td>Increase screening coverage</td><td>X-ray, seal integrity databases</td><td>Does not specify triggers or preconditions</td></tr>
+    <tr><td rowspan="2">Operations</td><td>Terminal Operations</td><td>Gate appointment, yard planning views, berth schedule access</td><td>Terminal operators</td><td>Increase berth productivity</td><td>TOS, gate systems</td><td>Operational area classification</td></tr>
+    <tr><td>Equipment Management</td><td>Empty repositioning analytics, damage reporting</td><td>Carriers, depots</td><td>Lower empty miles</td><td>Depot EIR, repair estimates</td><td>Analytics-focused</td></tr>
+    <tr><td rowspan="2">Integration</td><td>Data Sharing</td><td>APIs, EDI mapping, partner onboarding</td><td>All parties</td><td>Increase connectivity rate</td><td>EDIFACT/ANSI X12, REST APIs</td><td>Integration as a category</td></tr>
+    <tr><td>Master Data</td><td>Party registry, location codes, shipment identifiers</td><td>Platform admins</td><td>Reduce identifier mismatch</td><td>UN/LOCODE, SCAC</td><td>Reference-data domain</td></tr>
+  </tbody>
+</table>

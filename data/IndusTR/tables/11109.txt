@@ -1,0 +1,8 @@
+<table>
+  <caption>Edge Gateway Creation API - Full Request Payload Details</caption>
+  <tr><th>Category</th><th>Request Data</th><th>Description</th></tr>
+  <tr><td>Auth</td><td>userID, access_token</td><td>Used for request authorization</td></tr>
+  <tr><td>Gateway metadata</td><td>gatewayName, gatewayType</td><td>Defines how the gateway is registered</td></tr>
+  <tr><td>Connectivity</td><td>protocolCode, protocolUrl</td><td>Protocol configuration for the gateway</td></tr>
+  <tr><td>Deployment</td><td>region, datacenterUrl</td><td>Where the gateway will be managed</td></tr>
+</table>

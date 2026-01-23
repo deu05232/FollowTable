@@ -1,0 +1,14 @@
+<table>
+  <caption>Backend Integration Touchpoints (Bundled Entries per Row)</caption>
+  <thead>
+    <tr><th>Integration Area</th><th>Interfaces Included (multiple per row)</th><th>Required/Optional</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Model Lifecycle</td><td>create_modeldestroy_modelload_model_cache</td><td>Mixed</td><td>Grouped lifecycle entry; mixes required and optional in a single row.</td></tr>
+    <tr><td>Compilation</td><td>high_level_ir_compilelower_ircodegen_emit</td><td>Optional</td><td>Compilation pipeline shown as a bundle rather than one interface per row.</td></tr>
+    <tr><td>Graph Engine</td><td>graph_engine_initializegraph_engine_generategraph_engine_finalize</td><td>Mixed</td><td>Multiple touchpoints combined; not comparable side-by-side per interface.</td></tr>
+    <tr><td>Execution</td><td>enqueuesynchronize</td><td>Required</td><td>Runtime APIs collapsed into one row.</td></tr>
+    <tr><td>Memory</td><td>device_mallocdevice_freememcpy_h2dmemcpy_d2h</td><td>Required</td><td>Memory interfaces are bundled; no per-interface status column.</td></tr>
+    <tr><td>Diagnostics</td><td>validate_modeldump_graph</td><td>Optional</td><td>Validation and dump are grouped, hiding individual requirement differences.</td></tr>
+  </tbody>
+</table>

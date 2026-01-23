@@ -1,0 +1,14 @@
+<table>
+  <caption>ArSession_setCameraConfig Parameter Reference</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Handle to the active AR session that will receive the camera configuration.</td></tr>
+    <tr><td>camera_config</td><td>const ArCameraConfig *</td><td>Pointer to the camera configuration object to apply.</td></tr>
+    <tr><td>transition_flags</td><td>ArCameraConfigTransitionFlags</td><td>Bitmask controlling whether the camera pipeline may restart or smoothly transition.</td></tr>
+    <tr><td>out_applied</td><td>ArStatus *</td><td>Optional output pointer that receives whether the configuration was applied successfully.</td></tr>
+    <tr><td>allocator</td><td>ArAllocator *</td><td>Allocator used if the implementation needs to allocate temporary resources while switching.</td></tr>
+    <tr><td>user_context</td><td>void *</td><td>Caller-provided pointer passed through for callbacks or logging correlation.</td></tr>
+  </tbody>
+</table>

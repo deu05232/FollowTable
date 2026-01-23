@@ -1,0 +1,20 @@
+<table>
+  <caption>AR Hit Result Inspection Helpers (consumes existing objects, no ** out params)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Exact C/C++ Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResult_getDistance</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResult_getDistance</td><td>hit_result</td><td>const ArHitResult *</td><td>in</td><td>Hit result to inspect.</td></tr>
+    <tr><td>ArHitResult_getDistance</td><td>out_distance_m</td><td>float *</td><td>out</td><td>Receives hit distance in meters.</td></tr>
+    <tr><td>ArHitResult_getHitPose</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResult_getHitPose</td><td>hit_result</td><td>const ArHitResult *</td><td>in</td><td>Hit result to inspect.</td></tr>
+    <tr><td>ArHitResult_getHitPose</td><td>out_pose</td><td>ArPose *</td><td>out</td><td>Caller-allocated pose receiving hit pose.</td></tr>
+    <tr><td>ArHitResult_acquireTrackable</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResult_acquireTrackable</td><td>hit_result</td><td>const ArHitResult *</td><td>in</td><td>Hit result referencing a trackable.</td></tr>
+    <tr><td>ArHitResult_acquireTrackable</td><td>out_trackable</td><td>ArTrackable *</td><td>out</td><td>Receives an already-created trackable handle.</td></tr>
+    <tr><td>ArHitResult_getTrackableType</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResult_getTrackableType</td><td>hit_result</td><td>const ArHitResult *</td><td>in</td><td>Hit result to inspect.</td></tr>
+    <tr><td>ArHitResult_getTrackableType</td><td>out_type</td><td>ArTrackableType *</td><td>out</td><td>Receives the trackable type enum.</td></tr>
+  </tbody>
+</table>

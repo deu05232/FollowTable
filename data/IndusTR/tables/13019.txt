@@ -1,0 +1,16 @@
+<table>
+  <caption>Public Security Image Object — Person Entity Field Definitions and Encoding Constraints</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Field Name</th><th>Identifier</th><th>Data Type / Representation Format</th><th>Constraint / Allowed Pattern</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identifier</td><td>1</td><td>Person Object Identifier</td><td>personObjId</td><td>c48</td><td>Must be unique within a single image record; pattern:[A-Z0-9]{48}</td><td>Unique identifier assigned to a detected or annotated person object.</td></tr>
+    <tr><td>Capture Method</td><td>2</td><td>Person Object Collection Method Code</td><td>personCollectMethodCd</td><td>c1</td><td>Enumerated; values: 1=Manual annotation, 2=Automatic algorithm, 3=Imported from external system</td><td>How the person object was obtained/created.</td></tr>
+    <tr><td>Time</td><td>3</td><td>Appearance Date/Time</td><td>appearanceDateTime</td><td>d18</td><td>Format:YYYYMMDDhhmmss(14 digits) orYYYYMMDDhhmmssSSSS(18 digits); must be in local time of the capture site</td><td>Time when the person object appears in the image/video frame.</td></tr>
+    <tr><td>Geometry</td><td>4</td><td>Bounding Box Top-left X</td><td>bboxX</td><td>n..6</td><td>Integer; range: 0..(imageWidth-1)</td><td>X coordinate (pixels) of the top-left corner of the bounding box.</td></tr>
+    <tr><td>Geometry</td><td>5</td><td>Bounding Box Top-left Y</td><td>bboxY</td><td>n..6</td><td>Integer; range: 0..(imageHeight-1)</td><td>Y coordinate (pixels) of the top-left corner of the bounding box.</td></tr>
+    <tr><td>Geometry</td><td>6</td><td>Bounding Box Width</td><td>bboxW</td><td>n..6</td><td>Integer; range: 1..imageWidth</td><td>Width (pixels) of the bounding box.</td></tr>
+    <tr><td>Geometry</td><td>7</td><td>Bounding Box Height</td><td>bboxH</td><td>n..6</td><td>Integer; range: 1..imageHeight</td><td>Height (pixels) of the bounding box.</td></tr>
+    <tr><td>Quality</td><td>8</td><td>Detection Confidence</td><td>detectConf</td><td>n3.2</td><td>Decimal; range: 0.00–1.00</td><td>Confidence score output by the detection/recognition algorithm.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Invalid sequences described with plain text tokens instead of code points</caption>
+  <tr><th>Invalid Example</th><th>Character Sequence (plain text)</th><th>Why it is wrong</th></tr>
+  <tr><td>Example 1</td><td>MVS followed by wrong letter</td><td>Selector placed on the wrong base</td></tr>
+  <tr><td>Example 2</td><td>NIRUGU inserted in the middle</td><td>Breaks joining behavior</td></tr>
+  <tr><td>Example 3</td><td>Selector at the end</td><td>Dangling control character</td></tr>
+</table>

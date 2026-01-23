@@ -1,0 +1,6 @@
+<table>
+  <tr><td colspan="2">《BusinessProcess》Tracking and Traceability Exception Handling</td></tr>
+  <tr><td>Preconditions</td><td>The integrated data center has received tracking-related electronic messages and has detected missing, duplicated, or inconsistent events for an import/export container shipment.</td></tr>
+  <tr><td>Start Time</td><td>The process starts when a validation rule flags an abnormal tracking event or when a business entity submits an exception report to the integrated data center.</td></tr>
+  <tr><td>Scenario</td><td>The integrated data center classifies the exception type, requests clarification or corrected messages from the relevant business entity, links the corrected event to the shipment, and updates the tracking record status. The integrated data center then notifies subscribed parties of the corrected tracking timeline and the exception resolution result.</td></tr>
+</table>

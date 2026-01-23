@@ -1,0 +1,17 @@
+<table>
+  <caption>Parameters probed by the MCMC .</caption>
+  <tr><th>Parameter</th><th>Unit</th><th>Prior</th><th>Description</th></tr>
+  <tr><td>Δα^()_(0),Δδ_(0)</td><td>mas</td><td>Uniform</td><td>Coordinate offsets</td></tr>
+  <tr><td>μ_(α^(),μ_{δ)</td><td>mas/yr</td><td>Uniform</td><td>Proper motions</td></tr>
+  <tr><td></td><td>mas</td><td>Jeffreys</td><td>Relative parallax</td></tr>
+  <tr><td>s_(α),s_(δ)</td><td>mas</td><td>Uniform</td><td>Nuisance parameters</td></tr>
+  <tr><td>P</td><td>day</td><td>Jeffreys</td><td>Period</td></tr>
+  <tr><td>a_(1)</td><td>mas</td><td>Jeffreys</td><td>Semimajor axis</td></tr>
+  <tr><td>λ_(0)</td><td>deg</td><td>Uniform</td><td>Mean longitude at ref. date</td></tr>
+  <tr><td>\,ω</td><td>·s</td><td>Uniform</td><td>Ecc. and arg. of periastron</td></tr>
+  <tr><td>\,ω</td><td>·s</td><td>Uniform</td><td>Ecc. and arg. of periastron</td></tr>
+  <tr><td>Ω</td><td>deg</td><td>Uniform</td><td>Long. of ascending node</td></tr>
+  <tr><td>i</td><td>deg</td><td>Uniform</td><td>Inclination</td></tr>
+  <tr><td>ρ</td><td>mas</td><td>Uniform</td><td>Refraction coefficient</td></tr>
+  <tr><td>d</td><td>mas</td><td>Uniform</td><td>Refraction coefficient</td></tr>
+</table>

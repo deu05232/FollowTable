@@ -1,0 +1,13 @@
+<table>
+  <caption>Flight Optical Cable Assembly SpaceFibre Lane Connection Relationship</caption>
+  <tr><td>A-end Signal</td><td>Connection</td><td>B-end Signal</td></tr>
+  <tr><td>A-TX1</td><td>-Connect-</td><td>B-RX1</td></tr>
+  <tr><td>A-TX2</td><td>-Connect-</td><td>B-RX2</td></tr>
+  <tr><td>…</td><td>…</td><td>…</td></tr>
+  <tr><td>A-TXy</td><td>-Connect-</td><td>B-RXy</td></tr>
+  <tr><td>…</td><td>…</td><td>:</td></tr>
+  <tr><td>A-RXy</td><td>-Connect-</td><td>B-TXy</td></tr>
+  <tr><td>…</td><td>:</td><td>:</td></tr>
+  <tr><td>A-RX2</td><td>-Connect-</td><td>B-TX2</td></tr>
+  <tr><td>A-RX1</td><td>-Connect-</td><td>B-TX1</td></tr>
+</table>

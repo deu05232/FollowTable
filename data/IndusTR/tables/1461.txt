@@ -1,0 +1,12 @@
+<table>
+  <caption>SOF Component Certificate Login Interface Definition</caption>
+  <tr><td>Prototype</td><td>function SOF_Login(CertID,PassWd,cb,ctx)</td></tr>
+  <tr><td>Description</td><td>Verify the certificate password to perform user authentication</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>CertID(Unique certificate identifier)</td></tr>
+  <tr><td>PassWd(Certificate password)</td></tr>
+  <tr><td>cb(Callback function)</td></tr>
+  <tr><td>ctx(Parameters required by the callback function)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>true(Success)</td></tr>
+  <tr><td>false(Failure, error code defined in Table A.1 can be obtained via SOF_GetLastError)</td></tr>
+  <tr><td>Security Rules</td><td>After certificate login succeeds, it indicates that the certificate user has obtained private key usage permission, i.e., login status. In login status, interfaces that require private key usage permission such as signing and decryption can be called normally to obtain computation results</td></tr>
+</table>

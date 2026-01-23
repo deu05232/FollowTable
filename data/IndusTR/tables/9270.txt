@@ -1,0 +1,15 @@
+<table>
+  <caption>Laser Cutting Performance Checklist by Laser Type (Typical Quality Requirements)</caption>
+  <thead>
+    <tr><th>Laser type</th><th>Typical applicable test piece thickness (mm)</th><th>Dimensional accuracy requirement (mm)</th><th>Edge perpendicularity / squareness (mm)</th><th>Kerf width limit (mm)</th><th>Max dross height (mm)</th><th>Max recast layer thickness (mm)</th><th>Surface roughness limit Rz (µm)</th><th>Notes (typical use / materials)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fiber laser (CW)</td><td>1–20</td><td>≤0.10</td><td>≤0.20</td><td>≤0.20</td><td>≤0.25</td><td>≤0.02</td><td>≤25</td><td>Fast cutting of steels; good general-purpose accuracy</td></tr>
+    <tr><td>CO2 laser (CW)</td><td>0.5–25</td><td>≤0.15</td><td>≤0.25</td><td>≤0.30</td><td>≤0.30</td><td>≤0.03</td><td>≤30</td><td>Often used for thicker mild steel and non-metals; beam quality depends on optics</td></tr>
+    <tr><td>Nd:YAG laser (lamp-pumped, pulsed)</td><td>0.2–6</td><td>≤0.20</td><td>≤0.30</td><td>≤0.25</td><td>≤0.20</td><td>≤0.03</td><td>≤35</td><td>Legacy metal cutting; pulse mode can reduce heat input vs CW</td></tr>
+    <tr><td>Green DPSS laser (532 nm)</td><td>0.05–2</td><td>≤0.05</td><td>≤0.10</td><td>≤0.08</td><td>≤0.05</td><td>≤0.01</td><td>≤12</td><td>Useful for copper/brass; lower heat-affected zone compared with IR</td></tr>
+    <tr><td>Ultrashort-pulse laser (ps/fs)</td><td>0.01–3</td><td>≤0.01</td><td>≤0.03</td><td>≤0.03</td><td>≤0.02</td><td>≤0.002</td><td>≤6</td><td>Cold ablation; minimal recast/dross; best for precision micro-cutting</td></tr>
+    <tr><td>Q-switched laser (ns)</td><td>0.02–2</td><td>≤0.02</td><td>≤0.05</td><td>≤0.05</td><td>≤0.04</td><td>≤0.005</td><td>≤8</td><td>High peak power; fine features; more thermal effects than ps/fs</td></tr>
+    <tr><td>UV laser (355 nm, pulsed)</td><td>0.01–1</td><td>≤0.02</td><td>≤0.05</td><td>≤0.04</td><td>≤0.03</td><td>≤0.003</td><td>≤8</td><td>Polymers/PCBs/glass; very small kerf and clean edges</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,22 @@
+<table>
+  <caption>SOF XML Signature Service Interfaces — XML Signature Verification (Signed XML)</caption>
+  <thead>
+    <tr><th>Prototype</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>BOOL SOF_VerifyDataXML(BSTR Base64Cert, BSTR SignedXML, LONG VerifyOptions)</td><td>Verify an XML Digital Signature embedded in SignedXML and validate that the signature matches the referenced digest(s) and the signer certificate.</td></tr>
+    <tr><td rowspan="8">Parameters</td><td>Base64Cert(Base64-encoded signer certificate used to verify the XML signature)</td></tr>
+    <tr><td>SignedXML(Signed XML document containing <Signature> elements and referenced digest material)</td></tr>
+    <tr><td>VerifyOptions(Bitmask options controlling verification behavior)</td></tr>
+    <tr><td>0x0001: verify SignatureValue only (skip digest reference checks)</td></tr>
+    <tr><td>0x0002: verify digest references (Reference/Transforms/DigestValue)</td></tr>
+    <tr><td>0x0004: require certificate match (SignedXML cert must equal Base64Cert)</td></tr>
+    <tr><td>0x0008: allow multiple signatures; succeed if any signature verifies</td></tr>
+    <tr><td>0x0010: canonicalization strict mode (reject non-compliant C14N)</td></tr>
+    <tr><td rowspan="5">Return Value</td><td>TRUE: verification succeeded</td></tr>
+    <tr><td>FALSE: verification failed</td></tr>
+    <tr><td rowspan="3">Notes</td></tr>
+    <tr><td>Designed for end-to-end XML signature verification, not for general certificate enumeration/export.</td></tr>
+    <tr><td>When using SM2/SM3-based XML signatures, digest preprocessing and signature algorithm identifiers must align with the vendor profile.</td></tr>
+  </tbody>
+</table>

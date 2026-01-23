@@ -1,0 +1,18 @@
+<table>
+  <caption>Information Container API - Create Content Request Parameters</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Data Type</th><th>Required</th><th>Description</th><th>Constraints / Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Path</td><td>projectId</td><td>string</td><td>Yes</td><td>Unique identifier of the project.</td><td>UUID-like string</td></tr>
+    <tr><td>Path</td><td>containerId</td><td>string</td><td>Yes</td><td>Unique identifier of the information container.</td><td>UUID-like string</td></tr>
+    <tr><td>Body</td><td>name</td><td>string</td><td>Yes</td><td>Human-readable content name.</td><td>1-128 chars</td></tr>
+    <tr><td>Body</td><td>contentType</td><td>string</td><td>Yes</td><td>Type of payload being uploaded or referenced.</td><td>e.g., "model" | "rule" | "file"</td></tr>
+    <tr><td>Body</td><td>description</td><td>string</td><td>No</td><td>Optional description for the content.</td><td>0-512 chars</td></tr>
+    <tr><td>Body</td><td>tags</td><td>array<string></td><td>No</td><td>Labels for search and filtering.</td><td>e.g., ["phase1","validated"]</td></tr>
+    <tr><td>Body</td><td>ref</td><td>object</td><td>No</td><td>Optional reference to an existing object instead of uploading a new one.</td><td>See nested fields below</td></tr>
+    <tr><td>Body.ref</td><td>refId</td><td>string</td><td>Yes (if ref is provided)</td><td>Identifier of the referenced resource.</td><td>Non-empty string</td></tr>
+    <tr><td>Body.ref</td><td>refVersion</td><td>string</td><td>No</td><td>Version label of the referenced resource.</td><td>e.g., "v2"</td></tr>
+    <tr><td>Body</td><td>clientRequestId</td><td>string</td><td>No</td><td>Idempotency key supplied by the client.</td><td>Recommended for retries</td></tr>
+  </tbody>
+</table>

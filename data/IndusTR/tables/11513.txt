@@ -1,0 +1,22 @@
+<table>
+  <caption>AR Camera Config and Intrinsics Retrieval: In/Out Contract Map</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Type</th><th>Direction</th><th>Provided By</th><th>Boundary Semantics (What Happens)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArCameraConfigList_create</td><td>session</td><td>ArSession*</td><td>IN</td><td>Caller</td><td>Supplies session context used to allocate list objects</td></tr>
+    <tr><td>ArCameraConfigList_create</td><td>out_list</td><td>ArCameraConfigList**</td><td>OUT</td><td>API</td><td>Writes back a newly created config list handle</td></tr>
+    <tr><td>ArSession_getSupportedCameraConfigs</td><td>session</td><td>ArSession*</td><td>IN</td><td>Caller</td><td>Identifies which session's supported configs to enumerate</td></tr>
+    <tr><td>ArSession_getSupportedCameraConfigs</td><td>filter</td><td>ArCameraConfigFilter*</td><td>IN</td><td>Caller</td><td>Optional input handle that constrains enumeration (may be NULL)</td></tr>
+    <tr><td>ArSession_getSupportedCameraConfigs</td><td>out_list</td><td>ArCameraConfigList*</td><td>OUT (filled)</td><td>API</td><td>Fills an existing list object with matching configs (no new allocation)</td></tr>
+    <tr><td>ArCameraConfigList_getItem</td><td>session</td><td>ArSession*</td><td>IN</td><td>Caller</td><td>Provides context for list access</td></tr>
+    <tr><td>ArCameraConfigList_getItem</td><td>list</td><td>ArCameraConfigList*</td><td>IN</td><td>Caller</td><td>Input list handle previously filled with configs</td></tr>
+    <tr><td>ArCameraConfigList_getItem</td><td>index</td><td>int32_t</td><td>IN</td><td>Caller</td><td>Selects which config to retrieve</td></tr>
+    <tr><td>ArCameraConfigList_getItem</td><td>out_config</td><td>ArCameraConfig**</td><td>OUT</td><td>API</td><td>Writes back a handle to the selected camera config object</td></tr>
+    <tr><td>ArCameraIntrinsics_create</td><td>session</td><td>ArSession*</td><td>IN</td><td>Caller</td><td>Supplies session context for allocating an intrinsics container</td></tr>
+    <tr><td>ArCameraIntrinsics_create</td><td>out_intrinsics</td><td>ArCameraIntrinsics**</td><td>OUT</td><td>API</td><td>Returns a newly created intrinsics object to be filled later</td></tr>
+    <tr><td>ArCamera_getImageIntrinsics</td><td>session</td><td>ArSession*</td><td>IN</td><td>Caller</td><td>Session context used for the camera query</td></tr>
+    <tr><td>ArCamera_getImageIntrinsics</td><td>camera</td><td>ArCamera*</td><td>IN</td><td>Caller</td><td>Camera handle whose intrinsics are being queried</td></tr>
+    <tr><td>ArCamera_getImageIntrinsics</td><td>out_intrinsics</td><td>ArCameraIntrinsics*</td><td>OUT (filled)</td><td>API</td><td>Fills the provided intrinsics object with current values</td></tr>
+  </tbody>
+</table>

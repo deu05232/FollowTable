@@ -1,0 +1,15 @@
+<table>
+  <caption>Error limit values for single-harmonic active energy by harmonic order, load level, and accuracy class</caption>
+  <thead>
+    <tr><th rowspan="2">Harmonic order group (h)</th><th rowspan="2">Load current range (as fraction of Iref)</th><th rowspan="2">Harmonic power factor (cosh)</th><th colspan="3">Permissible error limit (%) of single-harmonic active energy</th></tr>
+    <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">h = 3 to 9</td><td>0.05 Iref to 0.20 Iref</td><td>1.0</td><td>±2.0H</td><td>±3.0H</td><td>±12.0H</td></tr>
+    <tr><td>0.20 Iref to 1.00 Iref</td><td>1.0</td><td>±1.0H</td><td>±2.0H</td><td>±6.0H</td></tr>
+    <tr><td rowspan="2">h = 11 to 17</td><td>0.05 Iref to 0.20 Iref</td><td>1.0</td><td>±2.5H</td><td>±3.5H</td><td>±14.0H</td></tr>
+    <tr><td>0.20 Iref to 1.00 Iref</td><td>1.0</td><td>±1.2H</td><td>±2.2H</td><td>±7.0H</td></tr>
+    <tr><td rowspan="2">h = 19 to 25</td><td>0.05 Iref to 0.20 Iref</td><td>0.5L / 0.8C</td><td>±3.0H</td><td>±4.5H</td><td>±16.0H</td></tr>
+    <tr><td>0.20 Iref to 1.00 Iref</td><td>0.5L / 0.8C</td><td>±1.5H</td><td>±2.8H</td><td>±8.0H</td></tr>
+  </tbody>
+</table>

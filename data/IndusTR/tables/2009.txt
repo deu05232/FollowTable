@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Tracking Test Environment Requirements (Methodology Parameters, Not Interface Parameters)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Requirement</th><th>Target Range</th><th>Measurement Tool</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Illuminance</td><td>Stable lighting</td><td>300–800 lux</td><td>Lux meter</td><td>Avoid flicker sources</td></tr>
+    <tr><td>Color Temperature</td><td>Consistent white balance</td><td>4000–6500 K</td><td>Color meter</td><td>Record per run</td></tr>
+    <tr><td>Room Size</td><td>Minimum tracking area</td><td>≥ 3 m × 3 m</td><td>Measuring tape</td><td>Mark corners on floor</td></tr>
+    <tr><td>Surface Texture</td><td>Feature-rich</td><td>Random pattern recommended</td><td>Visual inspection</td><td>No glossy floors</td></tr>
+    <tr><td>Camera Motion</td><td>Controlled path</td><td>0.2–1.0 m/s</td><td>IMU logger</td><td>Repeatable trajectory</td></tr>
+    <tr><td>Network</td><td>Connectivity for cloud anchors</td><td>< 80 ms RTT</td><td>Ping tool</td><td>Optional if offline</td></tr>
+  </tbody>
+</table>

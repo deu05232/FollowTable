@@ -1,0 +1,14 @@
+<table>
+  <caption>ARCore C API: Retrieve Trackable Type and Also Populate Trackable List</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>trackable</td><td>const ArTrackable *</td><td>Existing trackable handle to inspect</td></tr>
+    <tr><td>out_trackable_type</td><td>ArTrackableType *</td><td>Out-parameter receiving the trackable's type enum</td></tr>
+    <tr><td>out_trackable_list</td><td>ArTrackableList *</td><td>Out-parameter receiving a list to be filled with related trackables</td></tr>
+    <tr><td>out_list_size</td><td>int32_t *</td><td>Out-parameter receiving the number of elements written to the list</td></tr>
+    <tr><td>list_mode</td><td>ArTrackableListMode</td><td>Controls whether the list is replaced or appended</td></tr>
+  </tbody>
+</table>

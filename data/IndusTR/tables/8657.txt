@@ -1,0 +1,8 @@
+<table>
+  <caption>AR frame UV coordinate query parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>normalized_u</td><td>float</td><td>Horizontal coordinate in normalized view space</td></tr>
+  <tr><td>normalized_v</td><td>float</td><td>Vertical coordinate in normalized view space</td></tr>
+</table>

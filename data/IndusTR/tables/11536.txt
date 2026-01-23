@@ -1,0 +1,14 @@
+<table>
+  <caption>Environment Understanding Call Parameters (Indirection Patterns & ABI Notes)</caption>
+  <thead>
+    <tr><th>Name</th><th>Type</th><th>ABI / Calling Convention Notes</th><th>Pointer Indirection Pattern</th><th>Thread-Safety / Reentrancy</th><th>Initialization / Cleanup</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Opaque handle passed by address; no struct layout guarantees</td><td>*</td><td>Not reentrant across sessions without external locking</td><td>Created by ArSession_create; destroyed by ArSession_destroy</td></tr>
+    <tr><td>config</td><td>ArConfig *</td><td>Pointer to opaque config; must be same ABI module as session</td><td>*</td><td>Must not be mutated while call is executing</td><td>ArConfig_create / ArConfig_destroy</td></tr>
+    <tr><td>light_estimation_mode</td><td>ArLightEstimationMode</td><td>Passed by value; enum size is compiler-dependent across ABIs</td><td>(value)</td><td>Thread-safe (value type)</td><td>No cleanup required</td></tr>
+    <tr><td>out_sparse_map</td><td>ArSparseSpatialMap **</td><td>Double-pointer return to support C ABI; avoids returning structs</td><td>**</td><td>Caller must serialize accesses to returned handle</td><td>Destroy with ArSparseSpatialMap_destroy</td></tr>
+    <tr><td>out_status</td><td>int32_t *</td><td>Status written as 32-bit integer for stable ABI</td><td>*</td><td>Caller-owned; safe if non-NULL</td><td>Optional; may be NULL</td></tr>
+    <tr><td>reserved</td><td>void *</td><td>Reserved for future extension; must be NULL for forward compatibility</td><td>*</td><td>N/A</td><td>N/A</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+# Quick Derivative Reference  Common Named Functions (Not Combination Rules)
+
+| Function family | Expression f(x) | Derivative f'(x) | Notes |
+| --- | --- | --- | --- |
+| Polynomial | x^n | n x^(n-1) | n is a real constant |
+| Exponential | e^x | e^x | Base e |
+| Exponential | a^x | a^x ln(a) | a>0, a≠1 |
+| Logarithm | ln(x) | 1/x | x>0 |
+| Trigonometric | sin(x) | cos(x) |  |
+| Trigonometric | cos(x) | -sin(x) |  |
+| Trigonometric | tan(x) | sec^2(x) | where defined |
+| Inverse trig | arctan(x) | 1/(1+x^2) |  |
+| Hyperbolic | sinh(x) | cosh(x) |  |
+| Hyperbolic | cosh(x) | sinh(x) |  |

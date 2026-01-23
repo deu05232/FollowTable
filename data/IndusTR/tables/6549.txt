@@ -1,0 +1,7 @@
+<table>
+  <caption>Tire manufacturing inspection algorithms and grading outputs</caption>
+  <tr><th>No.</th><th>Inspection Item</th><th>Description</th><th>Input</th><th>Output</th><th>Method</th></tr>
+  <tr><td>1</td><td>Bead Area X-ray Defect Grading</td><td>Grade bead-area defects based on X-ray images and defect rules</td><td>X-ray images; defect grading rules</td><td>Defect grade; reject/accept flag</td><td>Vision + deep learning classification</td></tr>
+  <tr><td>2</td><td>Tread Surface Camera Scoring</td><td>Score tread surface appearance defects from camera frames</td><td>Line-scan camera images; scoring thresholds</td><td>Appearance score</td><td>Image processing + rule-based scoring</td></tr>
+  <tr><td>3</td><td>Uniformity Test Result Reporting</td><td>Compute and report uniformity indicators for finished tires</td><td>Uniformity machine sensor data</td><td>Uniformity report (parameters)</td><td>Uniformity calculation model</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Common Meteorological Satellite Level-2 Geophysical Products and Short Dataset Codes</caption>
+  <thead>
+    <tr><th>Product Category</th><th>Data Product Name</th><th>Code</th><th>What the Product Represents</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Cloud</td><td>Cloud Top Temperature</td><td>CTT</td><td>Temperature at the cloud top inferred from infrared channels</td></tr>
+    <tr><td>Cloud Top Height</td><td>CTH</td><td>Estimated height of the highest cloud layer</td></tr>
+    <tr><td>Cloud Optical Thickness</td><td>COT</td><td>Optical thickness of cloud layer derived from visible/near-IR</td></tr>
+    <tr><td rowspan="3">Water Vapor / Moisture</td><td>Total Precipitable Water</td><td>TPW</td><td>Column-integrated water vapor amount</td></tr>
+    <tr><td>Upper Tropospheric Humidity</td><td>UTH</td><td>Humidity representative of upper-troposphere layers</td></tr>
+    <tr><td>Total Column Water Vapor</td><td>TCWV</td><td>Total amount of water vapor in a vertical column</td></tr>
+    <tr><td rowspan="2">Surface / Land</td><td>Land Surface Temperature</td><td>LST</td><td>Skin temperature of the land surface</td></tr>
+    <tr><td>Normalized Difference Vegetation Index</td><td>NDVI</td><td>Vegetation greenness index from red and near-IR reflectance</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Set Symmetric Encryption Algorithm Interface Definition</caption>
+  <tr><td>Prototype</td><td>LONG SOF_SetEncryptMethod(LONG EncryptMethod)</td></tr>
+  <tr><td>Description</td><td>Set the symmetric algorithm used by the interface for data encryption</td></tr>
+  <tr><td>Parameters</td><td>EncryptMethod (symmetric encryption algorithm identifier, shall comply with the provisions of GB/T 33560; this interface can support encryption/decryption algorithms without additional authenticated data)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>SOR_OK (success)</td></tr>
+  <tr><td>Others (failure, return the error code defined in Table A.1)</td></tr>
+</table>

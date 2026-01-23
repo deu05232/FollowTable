@@ -1,0 +1,18 @@
+<table>
+  <caption>Basic Output Limits and Protection (Non-harmonic constraints only)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Parameter</th><th>Specification</th><th>Trigger / Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Voltage Output</td><td>Maximum phase voltage (RMS)</td><td>330 V</td><td>Continuous</td></tr>
+    <tr><td>Short-circuit protection</td><td>Supported</td><td>Trip < 20 ms</td></tr>
+    <tr><td>Overvoltage shutdown threshold</td><td>360 V</td><td>Automatic latch</td></tr>
+    <tr><td rowspan="3">Current Output</td><td>Maximum current (RMS)</td><td>120 A</td><td>Continuous</td></tr>
+    <tr><td>Peak current limit</td><td>170 A</td><td>Any waveform</td></tr>
+    <tr><td>Overcurrent shutdown threshold</td><td>130 A</td><td>Automatic latch</td></tr>
+    <tr><td rowspan="2">Power</td><td>Maximum apparent power</td><td>20 kVA</td><td>All phases combined</td></tr>
+    <tr><td>Efficiency</td><td>> 85%</td><td>At rated load</td></tr>
+    <tr><td rowspan="2">Isolation</td><td>Dielectric withstand</td><td>2.5 kVrms / 1 min</td><td>Between output and chassis</td></tr>
+    <tr><td>Insulation resistance</td><td>> 20 MΩ</td><td>500 VDC</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Energy-State Results Sheet Combined with Procedure Notes (Not a Step-by-Step Protocol)</caption>
+  <thead>
+    <tr><th>State / Section</th><th>Measurement to report</th><th>Unit</th><th>How to compute / notes</th><th>Related constraint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Off</td><td>POFF (average power)</td><td>W</td><td>Average over last 3 minutes of a 5-minute window</td><td>Supply voltage within ±2%</td></tr>
+    <tr><td>Off</td><td>EOFF (integrated energy)</td><td>Wh</td><td>Integrator reset at start of window</td><td>Meter uncertainty ≤ 1%</td></tr>
+    <tr><td>Ready</td><td>PREADY (average power)</td><td>W</td><td>Start when ready indicator is stable for 60 s</td><td>Frequency 50/60 Hz ±0.5 Hz</td></tr>
+    <tr><td>Sleep</td><td>PSLEEP (average power)</td><td>W</td><td>Use default sleep delay; do not touch UI</td><td>THD ≤ 5%</td></tr>
+    <tr><td>Sleep</td><td>ESLEEP (energy over interval)</td><td>Wh</td><td>10-minute integration after entering sleep</td><td>Exclude jobs queued in memory</td></tr>
+    <tr><td>Deep sleep</td><td>PDEEP</td><td>W</td><td>Measure if multiple sleep levels exist</td><td>Document delay times (min)</td></tr>
+    <tr><td>General</td><td>Test environment</td><td>—</td><td>Record temperature, humidity, and mains settings</td><td>Temp 23 °C ±2 °C</td></tr>
+  </tbody>
+</table>

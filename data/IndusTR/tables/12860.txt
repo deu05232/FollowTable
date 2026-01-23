@@ -1,0 +1,14 @@
+<table>
+  <caption>Threat Intelligence Feed Reporting Schema (Mostly Identifiers)</caption>
+  <tr><th>Element</th><th>Type</th><th>Example</th></tr>
+  <tr><td>indicator</td><td>STIX Identifier</td><td>indicator--8c6c0b2e-2c8e-4f7b-b8d2-0f2f7c2f3c11</td></tr>
+  <tr><td>indicator_type</td><td>Enum</td><td>domain-name | ipv4-addr | url | file-hash</td></tr>
+  <tr><td>pattern</td><td>STIX Pattern</td><td>[ipv4-addr:value = '203.0.113.10']</td></tr>
+  <tr><td>confidence</td><td>Integer</td><td>0–100</td></tr>
+  <tr><td>first_seen</td><td>Timestamp</td><td>2026-01-01T12:00:00Z</td></tr>
+  <tr><td>last_seen</td><td>Timestamp</td><td>2026-01-10T12:00:00Z</td></tr>
+  <tr><td>valid_from</td><td>Timestamp</td><td>2026-01-01T00:00:00Z</td></tr>
+  <tr><td>valid_until</td><td>Timestamp</td><td>2026-02-01T00:00:00Z</td></tr>
+  <tr><td>source_ref</td><td>ID Reference</td><td>identity--b19a3d2b-7f3a-4cbb-9a6c-0c4f1c5e9b77</td></tr>
+  <tr><td>report_id</td><td>External ID</td><td>TI-REP-2026-00042</td></tr>
+</table>

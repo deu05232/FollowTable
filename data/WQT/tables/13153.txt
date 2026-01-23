@@ -1,0 +1,12 @@
+# Special-Use IPv4 Blocks (with Allocation Status and RIR Notes)
+
+| Block | Start–End Range | Use | Allocation status | RIR / Notes |
+| --- | --- | --- | --- | --- |
+| 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | "This network" / software | Not globally routed | Often treated as invalid source |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Private (RFC1918) | Not publicly allocated | Common in LANs |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared address space (CGNAT) | ISP internal | RFC6598 |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Host-local | RFC6890 |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local (APIPA) | Not routed | Self-assigned when DHCP fails |
+| 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Documentation (TEST-NET-1) | Reserved | Should not appear on the public Internet |
+| 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | Documentation (TEST-NET-2) | Reserved | Example addresses |
+| 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | Documentation (TEST-NET-3) | Reserved | Example addresses |

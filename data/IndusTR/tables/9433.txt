@@ -1,0 +1,15 @@
+<table>
+  <caption>Delegation Example Under 1.2.156.3514: Node Ranges for Existing Identification Systems and Sub-allocations</caption>
+  <thead>
+    <tr><th>Level</th><th>OID node / range</th><th>Delegated to</th><th>Purpose</th><th>Sub-allocation rule</th><th>Concrete example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Root</td><td>1.2.156.3514</td><td>Construction machinery field</td><td>Top node for the industry OID space</td><td>N/A</td><td>1.2.156.3514</td></tr>
+    <tr><td>Existing ID systems block</td><td>1001–2000</td><td>Existing identification systems</td><td>Mapping of external identification systems</td><td>Each system occupies a fixed node (1001, 1002, ...)</td><td>1.2.156.3514.1003 = USCC mapping</td></tr>
+    <tr><td>System node</td><td>1.2.156.3514.1001</td><td>Handle</td><td>Handle identifier mapping</td><td>Suffix uses Handle numeric components where applicable</td><td>1.2.156.3514.1001.20.500.12345.9001</td></tr>
+    <tr><td>System node</td><td>1.2.156.3514.1002</td><td>Ecode</td><td>Ecode identifier mapping</td><td>Suffix = Ecode digits split into arcs</td><td>1.2.156.3514.1002.690.1234.5678.90</td></tr>
+    <tr><td>System node</td><td>1.2.156.3514.1003</td><td>Unified Social Credit Code (USCC)</td><td>Organization identifier mapping</td><td>Suffix = USCC segmented (example segmentation)</td><td>1.2.156.3514.1003.913203.016770.124928</td></tr>
+    <tr><td>Reserved systems</td><td>1007–1999</td><td>To be allocated</td><td>Future identification systems (e.g., ISO/IEC-based IDs)</td><td>Allocated per system, one node per system</td><td>1.2.156.3514.1010 (reserved)</td></tr>
+    <tr><td>Boundary note</td><td>2001–10000</td><td>Non-target block</td><td>Third-party organization nodes (not existing ID mapping)</td><td>Issued sequentially to organizations</td><td>Excluded from this table’s focus</td></tr>
+  </tbody>
+</table>

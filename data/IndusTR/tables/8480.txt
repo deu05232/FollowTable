@@ -1,0 +1,16 @@
+<table>
+  <caption>Meteorological Satellite File Packaging and Container Codes</caption>
+  <thead>
+    <tr><th>Container / Package Type</th><th>Code</th><th>Typical Extension</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Advanced Weather-satellite Exchange Format</td><td>AWX</td><td>.awx</td><td>Broadcast/redistribution container</td></tr>
+    <tr><td>Hierarchical Data Format (HDF5)</td><td>H5</td><td>.h5</td><td>Common science container</td></tr>
+    <tr><td>Network Common Data Form</td><td>NC</td><td>.nc</td><td>CF-style gridded products</td></tr>
+    <tr><td>GRIdded Binary (GRIB2)</td><td>GRB2</td><td>.grb2</td><td>WMO packaging for NWP fields</td></tr>
+    <tr><td>Binary Universal Form for the Representation of meteorological data</td><td>BUFR</td><td>.bufr</td><td>Observation/message container</td></tr>
+    <tr><td>GeoTIFF</td><td>GTIF</td><td>.tif</td><td>Image/geo raster container</td></tr>
+    <tr><td>JPEG2000</td><td>JP2</td><td>.jp2</td><td>Compressed imagery container</td></tr>
+    <tr><td>Tar archive bundle</td><td>TAR</td><td>.tar</td><td>Multi-file bundle, not a product variable</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>BOM Excerpt — Charger Communication Module (Materials and Components)</caption>
+  <tr><th>Line</th><th>Component</th><th>Specification</th><th>Manufacturer</th><th>MPN</th><th>Qty</th><th>Notes</th></tr>
+  <tr><td>1</td><td>CAN Transceiver</td><td>5V, 1 Mbps, -40~125°C</td><td>NXP</td><td>TJA1051T/3</td><td>1</td><td>Automotive grade</td></tr>
+  <tr><td>2</td><td>MCU</td><td>ARM Cortex-M4, 512KB Flash</td><td>ST</td><td>STM32F405RGT6</td><td>1</td><td>Main controller</td></tr>
+  <tr><td>3</td><td>Crystal</td><td>8 MHz, ±20 ppm</td><td>Epson</td><td>FA-238</td><td>1</td><td>Clock source</td></tr>
+  <tr><td>4</td><td>Isolation IC</td><td>2.5 kVrms digital isolator</td><td>TI</td><td>ISO7721DR</td><td>1</td><td>Signal isolation</td></tr>
+  <tr><td>5</td><td>TVS Diode</td><td>SMCJ58A</td><td>Littelfuse</td><td>SMCJ58A</td><td>2</td><td>Surge protection</td></tr>
+  <tr><td>6</td><td>Connector</td><td>2x5, 2.54 mm pitch</td><td>Samtec</td><td>TSW-105-07</td><td>2</td><td>Board-to-wire</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Cosmic Dark Matter Budget and Implied Gravitational Force at the Hubble Radius</caption>
+  <thead>
+    <tr><th>Assumption / Component</th><th>Symbol</th><th>Value</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hubble constant</td><td>H0</td><td>67.4</td><td>km s^-1 Mpc^-1</td><td>Reference cosmology</td></tr>
+    <tr><td>Critical density</td><td>ρc</td><td>8.5×10^-27</td><td>kg m^-3</td><td>For H0 above</td></tr>
+    <tr><td>Dark matter density fraction</td><td>ΩDM</td><td>0.265</td><td>—</td><td>Cosmic mean</td></tr>
+    <tr><td>Mean dark matter density</td><td>ρDM</td><td>2.25×10^-27</td><td>kg m^-3</td><td>ρDM = ΩDM ρc</td></tr>
+    <tr><td>Hubble radius</td><td>RH</td><td>1.37×10^26</td><td>m</td><td>c/H0</td></tr>
+    <tr><td>Dark matter mass inside RH</td><td>MDM(<RH)</td><td>2.4×10^52</td><td>kg</td><td>(4/3)πRH^3 ρDM</td></tr>
+    <tr><td>Gravitational acceleration at RH from MDM(<RH)</td><td>g(RH)</td><td>8.6×10^-11</td><td>m s^-2</td><td>g = G M / RH^2</td></tr>
+    <tr><td>Force on a 1 kg test mass at RH</td><td>F1kg</td><td>8.6×10^-11</td><td>N</td><td>F = m g</td></tr>
+  </tbody>
+</table>

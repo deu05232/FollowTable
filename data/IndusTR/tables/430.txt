@@ -1,0 +1,12 @@
+<table>
+  <caption>Data Frame Format</caption>
+  <tr><td>Field Name</td><td>Code</td><td>Length Byte</td></tr>
+  <tr><td>Start Symbol</td><td>55H AAH 55H AAH</td><td>4</td></tr>
+  <tr><td>Sub-unit Address</td><td>KADDL</td><td>1</td></tr>
+  <tr><td>Control Code</td><td>Command</td><td>1</td></tr>
+  <tr><td>Data Length</td><td>Length</td><td>2</td></tr>
+  <tr><td>Data Segment</td><td>Data Segment</td><td>L</td></tr>
+  <tr><td>Checksum</td><td>CRC-16a</td><td>2</td></tr>
+  <tr><td>End Symbol</td><td>16H E9H 16H E9H</td><td>4</td></tr>
+  <tr><td colspan="3">a The CRC-16 checksum data includes all data starting from the start symbol up to (but not including) the checksum.</td></tr>
+</table>

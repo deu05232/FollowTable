@@ -1,0 +1,14 @@
+<table>
+  <caption>Self-service Portal Function Test Cases — SI/SP Administrator (Terminal + Subscription)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Self-service Role</th><th>Test Item</th><th>Test Sub-item</th><th>Test Objective</th><th>Preconditions</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SSP-SISP-TERM-01</td><td>SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify terminal onboarding and activation for SI/SP administrator in the portal</td><td>Role has portal access; at least 1 unregistered terminal</td></tr>
+    <tr><td>SSP-SISP-TERM-02</td><td>SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify terminal attribute update (model, firmware, tags) via portal</td><td>Existing terminal record</td></tr>
+    <tr><td>SSP-SISP-TERM-03</td><td>SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify terminal deactivation and recycle workflow</td><td>Active terminal bound to a tenant</td></tr>
+    <tr><td>SSP-SISP-SUB-01</td><td>SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Subscription Relationship Management</td><td>Verify creating a subscription relationship for a customer tenant</td><td>Customer tenant exists</td></tr>
+    <tr><td>SSP-SISP-SUB-02</td><td>SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Subscription Relationship Management</td><td>Verify modifying subscription relationship status (suspend/resume)</td><td>Active subscription relationship exists</td></tr>
+    <tr><td>SSP-SISP-MIX-01</td><td>SI/SP Administrator</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management + Subscription Relationship Management</td><td>Verify terminal assignment to a customer is constrained by subscription relationship</td><td>Terminal exists; subscription relationship exists</td></tr>
+  </tbody>
+</table>

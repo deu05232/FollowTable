@@ -1,0 +1,24 @@
+<table>
+  <caption>Road Traffic Safety Early-Warning Impact & Timeline Segment Structure</caption>
+  <thead>
+    <tr><th>No.</th><th>Group</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Requirements / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Core</td><td>Event ID</td><td>Character</td><td>36</td><td>No</td><td>Yes</td><td>Unique ID used to link all subsequent updates</td></tr>
+    <tr><td>2</td><td>Core</td><td>Event Type</td><td>Character</td><td>32</td><td>No</td><td>Yes</td><td>Accident / Hazard / Congestion / Control / Other</td></tr>
+    <tr><td>3</td><td>Timeline</td><td>Occurrence Time</td><td>DateTime</td><td>25</td><td>No</td><td>Yes</td><td>When the event is assessed to have occurred (can differ from received time)</td></tr>
+    <tr><td>4</td><td>Timeline</td><td>First Received Time</td><td>DateTime</td><td>25</td><td>No</td><td>Yes</td><td>When the first report is received by any system node</td></tr>
+    <tr><td>5</td><td>Timeline</td><td>Verification Time</td><td>DateTime</td><td>25</td><td>Yes</td><td>Yes</td><td>When the event details are verified/confirmed</td></tr>
+    <tr><td>6</td><td>Timeline</td><td>Publication Time</td><td>DateTime</td><td>25</td><td>No</td><td>Yes</td><td>Time of sending the warning to downstream consumers</td></tr>
+    <tr><td>7</td><td>Timeline</td><td>Expected Clearance Time</td><td>DateTime</td><td>25</td><td>Yes</td><td>Yes</td><td>Estimated time lanes reopen / obstacle removed</td></tr>
+    <tr><td>8</td><td>Timeline</td><td>Expected Recovery Time</td><td>DateTime</td><td>25</td><td>Yes</td><td>Yes</td><td>Estimated time traffic flow returns to normal</td></tr>
+    <tr><td>9</td><td>Location</td><td>Location Narrative</td><td>Character</td><td>1000</td><td>No</td><td>Yes</td><td>Operator-friendly text (road, direction, nearby landmarks, intersections)</td></tr>
+    <tr><td>10</td><td>Location</td><td>Affected Segment (Start)</td><td>Character</td><td>256</td><td>Yes</td><td>Yes</td><td>Text start point description (e.g., “at KM 12+300” or “at XX Interchange”)</td></tr>
+    <tr><td>11</td><td>Location</td><td>Affected Segment (End)</td><td>Character</td><td>256</td><td>Yes</td><td>Yes</td><td>Text end point description; optional for point events</td></tr>
+    <tr><td>12</td><td>Impact</td><td>Impact Scope</td><td>Character</td><td>32</td><td>No</td><td>Yes</td><td>Point / Segment / Area</td></tr>
+    <tr><td>13</td><td>Impact</td><td>Lane Impact</td><td>Character</td><td>64</td><td>Yes</td><td>Yes</td><td>null / Shoulder / 1 lane closed / Multiple lanes closed / Full closure</td></tr>
+    <tr><td>14</td><td>Impact</td><td>Speed/Delay Impact</td><td>Character</td><td>64</td><td>Yes</td><td>Yes</td><td>Examples: “Avg speed < 20 km/h”, “Delay ~ 15 min”</td></tr>
+    <tr><td>15</td><td>Source</td><td>Information Source Type</td><td>Character</td><td>32</td><td>Yes</td><td>Yes</td><td>Police / Operator report / CCTV / Sensor / Public report</td></tr>
+    <tr><td>16</td><td>Source</td><td>Source Reference ID</td><td>Character</td><td>64</td><td>Yes</td><td>No</td><td>ID in the source system for traceability</td></tr>
+  </tbody>
+</table>

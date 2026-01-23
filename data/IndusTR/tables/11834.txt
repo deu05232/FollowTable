@@ -1,0 +1,10 @@
+<table>
+  <caption>Audio conformance test bitstream set (includes sampling rate and channel layout in the same table)</caption>
+  <tr><th>No.</th><th>Bitstream file</th><th>Sampling rate</th><th>Channels / layout</th></tr>
+  <tr><td>1</td><td>mix_case01_sr48k_51bed_obj16k.avsa</td><td>48 kHz</td><td>5.1 bed + objects</td></tr>
+  <tr><td>2</td><td>mix_case02_sr44k1_51bed_obj16k.avsa</td><td>44.1 kHz</td><td>5.1 bed + objects</td></tr>
+  <tr><td>3</td><td>mix_case03_sr32k_stereo.avsa</td><td>32 kHz</td><td>2.0 stereo</td></tr>
+  <tr><td>4</td><td>mix_case04_sr48k_hoa3rd.avsa</td><td>48 kHz</td><td>3rd-order HOA</td></tr>
+  <tr><td>5</td><td>mix_case05_sr44k1_block16kbps.avsa</td><td>44.1 kHz</td><td>block mode 16 kbps</td></tr>
+  <tr><td>6</td><td>mix_case06_sr48k_block32kbps.avsa</td><td>48 kHz</td><td>block mode 32 kbps</td></tr>
+</table>

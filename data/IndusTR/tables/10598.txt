@@ -1,0 +1,17 @@
+<table>
+  <caption>AWG Electrical / Heater Drive Specifications (Excluded by Instruction)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Parameter</th><th>Unit</th><th>Min</th><th>Typ</th><th>Max</th><th>Test Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Power</td><td>Supply Voltage</td><td>V</td><td>4.75</td><td>5.00</td><td>5.25</td><td>Measured at module input</td></tr>
+    <tr><td>Supply Current</td><td>A</td><td>-</td><td>0.60</td><td>1.20</td><td>All channels active</td></tr>
+    <tr><td>Power Consumption</td><td>W</td><td>-</td><td>3.0</td><td>6.0</td><td>Includes control electronics</td></tr>
+    <tr><td rowspan="4">Thermal Control</td><td>Set Temperature</td><td>°C</td><td>55</td><td>70</td><td>90</td><td>Factory default 70°C</td></tr>
+    <tr><td>Heater Resistance</td><td>Ω</td><td>1.5</td><td>2.0</td><td>2.5</td><td>At 25°C</td></tr>
+    <tr><td>Heater Drive Current</td><td>A</td><td>-</td><td>1.8</td><td>2.5</td><td>At set temperature</td></tr>
+    <tr><td>Heater Drive Voltage</td><td>V</td><td>-</td><td>3.6</td><td>5.0</td><td>Depends on resistance</td></tr>
+    <tr><td rowspan="2">Monitoring</td><td>Thermistor Type</td><td>-</td><td colspan="3">NTC 10k</td><td>Beta 3435</td></tr>
+    <tr><td>Control Interface</td><td>-</td><td colspan="3">I2C</td><td>3.3 V logic</td></tr>
+  </tbody>
+</table>

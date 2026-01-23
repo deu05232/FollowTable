@@ -1,0 +1,18 @@
+<table>
+  <caption>Generic Timing Metadata for Caption Delivery (Not CC Bitstream Building Blocks)</caption>
+  <thead>
+    <tr><th>Timing / Container Metadata Field</th><th>Type / Bit-width</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>pts_90khz</td><td>u(33)</td><td>Presentation timestamp base</td></tr>
+    <tr><td>dts_90khz</td><td>u(33)</td><td>Decoding timestamp base</td></tr>
+    <tr><td>duration_90khz</td><td>u(32)</td><td>Sample duration in 90 kHz ticks</td></tr>
+    <tr><td>timebase_numerator</td><td>u(32)</td><td>Timebase rational numerator</td></tr>
+    <tr><td>timebase_denominator</td><td>u(32)</td><td>Timebase rational denominator</td></tr>
+    <tr><td>clock_reference_flag</td><td>u(1)</td><td>Indicates presence of external clock ref</td></tr>
+    <tr><td>clock_reference_id</td><td>u(7)</td><td>Identifier for referenced clock</td></tr>
+    <tr><td>edit_list_offset</td><td>u(32)</td><td>Composition offset (container-level)</td></tr>
+    <tr><td>repeat_count</td><td>u(8)</td><td>How many times to repeat same caption sample</td></tr>
+    <tr><td>arrival_time_ms</td><td>u(32)</td><td>Wall-clock arrival time in milliseconds</td></tr>
+  </tbody>
+</table>

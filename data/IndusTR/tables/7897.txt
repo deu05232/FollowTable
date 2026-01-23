@@ -1,0 +1,16 @@
+<table>
+  <caption>Gear and Pinion Tooth Surface Hardness Targets by Heat Treatment (Design Requirements for Gear Mesh Under Load)</caption>
+  <thead>
+    <tr><th rowspan="2">Heat treatment route</th><th rowspan="2">Typical material (example)</th><th colspan="2">Pinion tooth surface hardness requirement</th><th colspan="2">Gear tooth surface hardness requirement</th><th rowspan="2">Design intent for mesh behavior</th></tr>
+    <tr><th>Hardness scale</th><th>Target range</th><th>Hardness scale</th><th>Target range</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Carburizing + quench + temper</td><td>17Cr2Ni2Mo / 20CrMnTi</td><td>HRC</td><td>58–62</td><td>HRC</td><td>54–60</td><td>Pinion kept harder to reduce wear/scuffing and improve pitting resistance</td></tr>
+    <tr><td>Induction hardening (surface)</td><td>42CrMo / 40Cr</td><td>HRC</td><td>52–56</td><td>HRC</td><td>48–54</td><td>Surface hardness boost with tougher core; suited to medium-heavy duty meshes</td></tr>
+    <tr><td>Nitriding</td><td>38CrMoAlA / 42CrMo</td><td>HRC</td><td>50–55</td><td>HRC</td><td>46–52</td><td>High wear resistance with minimal distortion; good for stable backlash control</td></tr>
+    <tr><td>Through hardening (quench & temper)</td><td>40Cr / 42CrMo</td><td>HBW</td><td>280–340</td><td>HBW</td><td>240–300</td><td>Uniform hardness; simpler process, often used when case hardening not required</td></tr>
+    <tr><td>Quenched & tempered (gear as cast/steel)</td><td>QT700-2 (gear) + alloy steel (pinion)</td><td>HBW</td><td>300–360</td><td>HBW</td><td>220–300</td><td>Common mixed-material pairing; pinion hardness higher to balance wear</td></tr>
+    <tr><td>Flame hardening (surface)</td><td>Medium carbon steel</td><td>HRC</td><td>50–54</td><td>HRC</td><td>45–50</td><td>Localized hardening for tooth flanks; economical retrofit option</td></tr>
+    <tr><td>Carburized pinion + Q&T gear</td><td>17CrNiMo6 (pinion) + 40Cr (gear)</td><td>HRC</td><td>58–62</td><td>HBW</td><td>240–300</td><td>Hard pinion vs softer gear to mitigate micropitting and ensure run-in</td></tr>
+  </tbody>
+</table>

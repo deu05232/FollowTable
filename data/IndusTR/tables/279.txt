@@ -1,0 +1,6 @@
+<table>
+  <caption>Charger Wake-up Message Data Field Structure</caption>
+  <tr><td>Sequence No.</td><td>Parameter Content</td><td>Length</td><td>Data Type</td><td>Parameter Type</td><td>Description and Requirements</td></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x08</td></tr>
+  <tr><td>2</td><td>Wake-up Flag</td><td>1 byte</td><td>BYTE</td><td>WakeupType</td><td>Charger wake-up flag: Ox00: invalid (only used when the charger is not fully awakened to respond to the counterpart message); OxAA: wake-up</td></tr>
+</table>

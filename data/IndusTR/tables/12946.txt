@@ -1,0 +1,16 @@
+<table>
+  <caption>Casting Features That Drive Core Complexity: Proper vs Improper Core-Related Design Rules</caption>
+  <thead>
+    <tr><th>Feature / Situation</th><th>Proper Design (Do)</th><th>Improper Design (Avoid)</th><th>Defect / Cost Risk</th><th>Intended Fix / Rationale</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Blind hole vs through hole (core requirement)</td><td>Prefer through holes where functional; if blind is required, keep it shallow and accessible for core support</td><td>Deep blind holes that require long, slender cores</td><td>Core breakage, misalignment; higher scrap and core cost</td><td>Through holes or shortened blind holes improve core stability and yield</td></tr>
+    <tr><td>Core print / core support location</td><td>Provide adequate core prints and clear seating faces for cores</td><td>Minimal or missing core prints; cores “floating” with poor support</td><td>Core shift → dimensional error; fins/flash; mismatch</td><td>Proper prints constrain the core and reduce shift during pouring</td></tr>
+    <tr><td>Sand removal and cleaning openings</td><td>Add sand discharge/clean-out openings for enclosed cavities and large cores</td><td>Fully enclosed cavities with no clean-out access</td><td>Trapped sand; rework; leakage paths if sand remains</td><td>Openings allow cleaning and reduce downstream scrap/rework</td></tr>
+    <tr><td>Vent paths for cores</td><td>Design vent holes/paths for large or long cores to exhaust gases</td><td>No venting provision for gas-generating cores</td><td>Gas porosity; blows; surface pitting</td><td>Venting reduces gas defects by giving gases an escape route</td></tr>
+    <tr><td>Undercuts and side actions</td><td>Avoid undercuts or redesign with straight draw; use split cores only when unavoidable</td><td>Multiple undercuts that force complex split cores / side pulls</td><td>High tooling cost; core assembly errors; flash at splits</td><td>Straight-draw geometry simplifies tooling and improves repeatability</td></tr>
+    <tr><td>Thin core sections / slender core legs</td><td>Maintain minimum core thickness and generous radii; shorten unsupported spans</td><td>Very thin core webs or long cantilevered core legs</td><td>Core erosion/breakage; inclusions; dimensional defects</td><td>Robust cores resist buoyancy/erosion and maintain cavity integrity</td></tr>
+    <tr><td>Core-to-metal clearance and uniform cavity walls</td><td>Keep uniform cavity wall thickness around cored features</td><td>Uneven clearance causing one side to be much thinner</td><td>Hot tears; cold shuts; distortion; localized shrinkage</td><td>Uniform sections promote balanced solidification and flow</td></tr>
+    <tr><td>Snap-fit pockets / internal recesses</td><td>Use open features or redesign to avoid internal pockets; if needed, simplify recess geometry</td><td>Hidden internal snap pockets that demand intricate cores and core boxes</td><td>Core box complexity and cost; higher risk of core mismatch</td><td>Simplification reduces tooling complexity while keeping function</td></tr>
+  </tbody>
+</table>

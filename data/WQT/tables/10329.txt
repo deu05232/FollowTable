@@ -1,0 +1,17 @@
+# Intel Chipsets   Platform Controllers — Windows 10 Driver Support Status (INF ME I-O Controller Focus)
+
+| Chipset / controller (examples) | Code name / series | Typical era | Windows 10 driver support status | What this means for Windows 10 installs |
+|---|---|---|---|---|
+| Intel 100 Series (e.g., H110/B150/Z170) | Sunrise Point | 2015–2016 | Supported | Intel chipset INF and MEI drivers available for Windows 10; common on Win10 PCs.
+| Intel 200 Series (e.g., B250/Z270) | Kaby Lake platform | 2017 | Supported | Strong OEM and Intel Windows 10 driver availability.
+| Intel 300 Series (e.g., B360/Z390) | Coffee Lake platform | 2017–2019 | Supported | Windows 10 is commonly supported; verify OEM audio/network packages.
+| Intel 8 Series (e.g., H87/Q87/Z87) | Lynx Point | 2013 | Supported (generally) | Windows 10 typically works; drivers often provided by OEM or via Windows Update.
+| Intel 7 Series (e.g., H77/Z77/Q77) | Panther Point | 2012 | Supported (generally) | Usually workable on Win10; some boards may have limited vendor updates.
+| Intel 6 Series (e.g., H61/P67/Z68) | Cougar Point | 2011 | Supported (legacy) | Win10 can run; confirm storage (SATA/AHCI) and USB driver behavior per board.
+| Intel ICH10 / ICH10R | I/O Controller Hub 10 | 2008 | Supported (legacy) | Often works with inbox Windows 10 drivers; RAID features may require older vendor drivers.
+| Intel ICH9 / ICH9R | I/O Controller Hub 9 | 2007 | Supported (legacy) | Typically functional under Win10 with built-in drivers; OEM validation varies.
+| Intel ICH2 / ICH2-M | I/O Controller Hub 2 | 1999–2000 | Not supported | Too old for practical Windows 10 driver support; installation may be possible but hardware enablement is unrealistic.
+| Intel ICH (82801AA) | I/O Controller Hub (original) | 1998 | Not supported | No meaningful Windows 10 driver ecosystem; not realistic for supported Win10 usage.
+| Intel 830M / 830MG / 830MP platform | Almador (mobile chipset) | 2001 | Not supported | Mobile legacy platform; lack of modern graphics/chipset drivers makes Win10 impractical.
+| Intel 440LX / 440FX | Balboa / Natoma | 1996–1997 | Not supported | Very old PCI/AGP era chipsets; no Windows 10 support path.
+| Intel 450GX / 450KX | Orion / Mars | 1995 | Not supported | Pentium Pro-era server chipsets; no Windows 10 driver support. |

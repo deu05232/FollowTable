@@ -1,0 +1,11 @@
+<table>
+  <caption>Comparison at lattice size 4096 × 4096 : CPU simple encodes one spin in one integer, CPU multi-spin coding uses the efficient “multi-spin” update scheme presented in section LABEL:sec_cpu_implementation , multi-spin unmodified is a straightforward porting of this update to the GPU, multi-spin coding on the fly uses the same scheme but calculates the update patterns at each update step on the fly, and multi-spin coding linear determines one starting position in the random number pattern in the pool per block, and lets the threads read the random numbers linearly from that position on. The shared memory implementation (see section LABEL:sec_shared_memory ) provides best quality random numbers. A preliminary test run on a Fermi GPU shows a factor of 1.82 compared to a Tesla C1060.</caption>
+  <tr><th></th><th>Spinflips per μ s</th><th>Relative speed</th></tr>
+  <tr><th>CPU simple</th><td>26.6</td><td>0.11</td></tr>
+  <tr><th>CPU multi-spin coding</th><td>226.7</td><td>1.00</td></tr>
+  <tr><th>shared memory</th><td>4415.8</td><td>19.50</td></tr>
+  <tr><th>shared memory (Fermi)</th><td>8038.2</td><td>35.46</td></tr>
+  <tr><th>multi-spin unmodified</th><td>3307.2</td><td>14.60</td></tr>
+  <tr><th>multi-spin coding on the fly</th><td>5175.8</td><td>22.80</td></tr>
+  <tr><th>multi-spin coding linear</th><td>7977.4</td><td>35.20</td></tr>
+</table>

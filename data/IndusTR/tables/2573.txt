@@ -1,0 +1,14 @@
+<table>
+  <caption>Environmental Test Conditions for RFID Label Readability in Agricultural Warehouses</caption>
+  <thead>
+    <tr><th>Test item</th><th>Condition</th><th>Duration</th><th>Acceptance criteria</th><th>Instrumentation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>High temperature storage</td><td>70 °C (no RF)</td><td>96 h</td><td>No delamination; print contrast ≥ 0.5</td><td>Thermal chamber</td></tr>
+    <tr><td>Low temperature storage</td><td>-20 °C (no RF)</td><td>96 h</td><td>No cracking; RFID read rate ≥ 98%</td><td>Thermal chamber</td></tr>
+    <tr><td>Humidity cycling</td><td>25 °C/95%RH ↔ 40 °C/60%RH</td><td>10 cycles</td><td>Read range reduction ≤ 10%</td><td>Climate chamber</td></tr>
+    <tr><td>Dust exposure</td><td>ISO dust, 2 g/m³</td><td>8 h</td><td>Barcode scan grade ≥ C</td><td>Dust cabinet</td></tr>
+    <tr><td>Chemical splash</td><td>Fertilizer solution (1%)</td><td>30 min</td><td>Ink bleed ≤ 1 mm</td><td>Spray rig</td></tr>
+    <tr><td>Drop resistance</td><td>1.2 m onto concrete</td><td>10 drops</td><td>Tag functional; housing intact</td><td>Drop tester</td></tr>
+  </tbody>
+</table>

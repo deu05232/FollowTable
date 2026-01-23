@@ -1,0 +1,6 @@
+# Cisco UCS C-Series Servers Integrated Management Controller CLI Configuration Guide, Release 1.5 - Viewing Server Properties [Cisco Integrated Management Controller] - Cisco
+
+|   | Step 1 | Step 2 | Step 3 | Step 4 | Step 5 | Step 6 | Step 7 | Step 8 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Command or Action | Server# scope chassis | Server /chassis # scope storageadapter slot | Server /chassis/storageadapter # show physical-drive [drive-number] [detail] | Server /chassis/storageadapter # show physical-drive-count [detail] | Server /chassis/storageadapter # scope physical-drive drive-number | Server /chassis/storageadapter/physical-drive # show general [detail] | Server /chassis/storageadapter/physical-drive # show inquiry-data [detail] | Server /chassis/storageadapter/physical-drive # show status [detail] |
+| Purpose | Enters the chassis command mode. | Enters command mode for an installed storage card. | Displays physical drive information for the storage card. | Displays the number of physical drives on the storage card. | Enters command mode for the specified physical drive. | Displays general information about the specified physical drive. | Displays inquiry data about the specified physical drive. | Displays status information about the specified physical drive. |

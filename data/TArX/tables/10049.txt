@@ -1,0 +1,16 @@
+<table>
+  <caption>Comparison of gravitational force laws: Newtonian/GR vs bimetric gravity (illustrative regimes)</caption>
+  <thead>
+    <tr><th rowspan="2">Regime / Setup</th><th rowspan="2">Test-mass limit?</th><th colspan="2">Predicted gravitational force magnitude F(r)</th><th rowspan="2">Key parameters controlling deviation</th><th rowspan="2">Typical qualitative effect</th></tr>
+    <tr><th>Newtonian/GR column</th><th>Bimetric gravity column</th></tr>
+  </thead>
+  <tbody>
+    <tr><th>Weak-field, static, spherically symmetric (large r)</th><td>Yes</td><td>F = G_N M m / r^2</td><td>F ≈ (G_eff(r) M m)/r^2 · [1 + α · exp(-m_g r)]</td><td>m_g (massive spin-2), α (Yukawa amplitude), mixing angle</td><td>Yukawa-suppressed correction at large distances</td></tr>
+    <tr><th>Intermediate r near the Compton scale</th><td>Yes</td><td>F = G_N M m / r^2</td><td>F ≈ (G_N M m)/r^2 + (α G_N M m)/r^2 · exp(-m_g r)</td><td>m_g sets transition scale r ~ 1/m_g</td><td>Enhancement or reduction depending on sign of α</td></tr>
+    <tr><th>Small r within Vainshtein/screening radius</th><td>Yes</td><td>F = G_N M m / r^2</td><td>F ≈ G_N M m / r^2 (screened; deviations ≪ 1)</td><td>Vainshtein radius r_V (function of M and couplings)</td><td>Recovers Newtonian force locally</td></tr>
+    <tr><th>Two-body problem (finite masses)</th><td>No</td><td>F_12 = G_N m_1 m_2 / r^2 (action-reaction symmetric)</td><td>F_12 ≈ (G_12(r) m_1 m_2)/r^2 with additional massive-mode contribution; may be scale-dependent</td><td>Coupling of each matter sector to each metric</td><td>Effective G can depend on sector assignment and distance</td></tr>
+    <tr><th>Light deflection / lensing proxy (force on photons)</th><td>N/A</td><td>Deflection set by GR potentials (Φ+Ψ); equivalent to GR for given mass distribution</td><td>Depends on how matter couples to the two metrics; can yield modified (Φ+Ψ) even if nonrelativistic force is screened</td><td>Coupling structure, slip parameter η=Φ/Ψ</td><td>Possible lensing–dynamics mismatch</td></tr>
+    <tr><th>Cosmological background (large-scale growth)</th><td>N/A</td><td>Poisson: k^2Φ = 4πG_N a^2 ρ δ (GR)</td><td>k^2Φ = 4πG_eff(k,a) a^2 ρ δ with scale/time dependence from massive mode</td><td>m_g, background ratio of scale factors, mixing</td><td>Scale-dependent growth and effective force</td></tr>
+    <tr><th>Near a massive halo (quasi-static perturbations)</th><td>Yes</td><td>F(r) follows 1/r^2 given enclosed mass</td><td>F(r) ≈ 1/r^2 with small radius-dependent correction; can be fitted via G_eff(r) profile</td><td>Screening efficiency, halo environment</td><td>Small deviations in outskirts, screened in core</td></tr>
+  </tbody>
+</table>

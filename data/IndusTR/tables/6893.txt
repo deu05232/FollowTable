@@ -1,0 +1,15 @@
+<table>
+  <caption>Service BOM with Maintenance Inspection and Tools Mapping</caption>
+  <thead>
+    <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parent Part No.</td><td>Parent item code in the service BOM</td></tr>
+    <tr><td>2</td><td>Child Part No.</td><td>Child item code in the service BOM</td></tr>
+    <tr><td>3</td><td>Quantity</td><td>Quantity per parent at this breakdown level</td></tr>
+    <tr><td>4</td><td>Inspection Item</td><td>Scheduled inspection item associated with the child part</td></tr>
+    <tr><td>5</td><td>Maintainable Item Type</td><td>LRU/LMP/LRI classification used for maintenance planning</td></tr>
+    <tr><td>6</td><td>Tool/Equipment Name</td><td>Tool or equipment required to service/inspect the child part</td></tr>
+    <tr><td>7</td><td>Tool Quantity</td><td>Number of tools/equipment required</td></tr>
+  </tbody>
+</table>

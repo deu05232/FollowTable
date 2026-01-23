@@ -1,0 +1,21 @@
+<table>
+  <caption>Vehicle Authentication & Reservation Interface - Field-Level Parameter Checklist</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Definition/Key</th><th>Data Type</th><th>Meaning</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Request</td><td>Authentication Sequence Number</td><td>vehicleAuthSeq</td><td>string</td><td>Unique authentication transaction id; recommended format: operatorId + unique serial; max 64 chars.</td><td>Yes</td></tr>
+    <tr><td>Vehicle Identification Number</td><td>vinCode</td><td>string</td><td>VIN, 17 characters; used to identify the vehicle being authenticated.</td><td>Yes</td></tr>
+    <tr><td>License Plate Number</td><td>plateNum</td><td>string</td><td>Vehicle plate number for cross-checking and display.</td><td>No</td></tr>
+    <tr><td>Vehicle Product Model</td><td>vehicleType</td><td>string</td><td>National-standard vehicle product model identifier.</td><td>No</td></tr>
+    <tr><td>Reservation Mode</td><td>reserveMode</td><td>integer</td><td>Reservation type indicator (e.g., 0 none, 1 pre-queue, 2 scheduled).</td><td>No</td></tr>
+    <tr><td>Expected Swap Station ID</td><td>stationId</td><td>string</td><td>Station where the vehicle intends to swap (if known in advance).</td><td>No</td></tr>
+    <tr><td>Client Timestamp (UTC)</td><td>clientTime</td><td>string (date-time)</td><td>Time when the client generated the request.</td><td>No</td></tr>
+    <tr><td rowspan="6">Response</td><td>Authentication Result</td><td>succStat</td><td>integer</td><td>Authentication outcome (e.g., 0 success; 1 failure).</td><td>Yes</td></tr>
+    <tr><td>Failure Code</td><td>failReasonCode</td><td>integer</td><td>Failure code returned when authentication fails (e.g., invalid order/vehicle/not allowed).</td><td>Conditional (required if succStat=1)</td></tr>
+    <tr><td>Failure Information</td><td>failReasonMsg</td><td>string</td><td>Failure detail message; max 50 chars recommended.</td><td>Conditional (required if succStat=1)</td></tr>
+    <tr><td>Reservation Queue Position</td><td>positionNo</td><td>integer</td><td>Assigned queue position for reservation/queueing scenarios.</td><td>No</td></tr>
+    <tr><td>Reservation Expiry Time (UTC)</td><td>expireTime</td><td>string (date-time)</td><td>Time until which the reservation/authentication result remains valid.</td><td>No</td></tr>
+    <tr><td>Response Trace ID</td><td>traceId</td><td>string</td><td>Server trace identifier for troubleshooting and log correlation.</td><td>No</td></tr>
+  </tbody>
+</table>

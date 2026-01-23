@@ -1,0 +1,9 @@
+<table>
+  <caption>Terrestrial eco-meteorological observation station data format (instrument and method descriptors)</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Format/Description</td></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td>YYYY-MM-DD</td></tr>
+  <tr><td>3</td><td>Sensor model identifier</td><td>S_MODEL</td><td>Variable characters(60)</td><td>Instrument model text</td></tr>
+  <tr><td>4</td><td>Observation method category</td><td>M_CODE</td><td>Characters(4)</td><td>Method code reference</td></tr>
+  <tr><td>5</td><td>Calibration note</td><td>CAL_NOTE</td><td>Variable characters(200)</td><td>Free-text description</td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Comparison of CPU and GPU computation time of the population dynamics of the isolated FMO complex. We propagate 1000 time steps, the GPU (NVIDIA C2050) calculation are performed in single precision. Double precision (not required here for converged results) increases the GPU computation time by a factor of two.</caption>
+  <tr><th>N_(max)</th><th># σ -matr.</th><th>CPU</th><th>GPU</th><th>speed up</th><th>GPU utilization</th></tr>
+  <tr><th>4</th><th>330</th><td>120 s</td><td>1 s</td><td>× 120</td><td>22%</td></tr>
+  <tr><th>6</th><th>1 716</th><td>676 s</td><td>3 s</td><td>× 225</td><td>56%</td></tr>
+  <tr><th>8</th><th>6 435</th><td>2 636 s</td><td>7 s</td><td>× 376</td><td>82%</td></tr>
+  <tr><th>10</th><th>19 448</th><td>8 275 s</td><td>19 s</td><td>× 435</td><td>93%</td></tr>
+  <tr><th>12</th><th>50 388</th><td>21 972 s</td><td>48 s</td><td>× 458</td><td>97%</td></tr>
+</table>

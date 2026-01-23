@@ -1,0 +1,15 @@
+<table>
+  <caption>Compilation and Runtime Hooks for Framework-to-Accelerator Adapter (Priority Mixed Into Text)</caption>
+  <thead>
+    <tr><th>Interface Name</th><th>Entry Point</th><th>Description (includes priority wording)</th><th>Typical Phase</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Program Validation</td><td>validate_model()</td><td>Often treated as optional during early bring-up; checks supported ops and partitions the graph.</td><td>Graph Lowering</td></tr>
+    <tr><td>IR Import</td><td>import_graph_ir()</td><td>Required in practice to consume the framework graph IR, but not explicitly labeled via a dedicated column.</td><td>Graph Lowering</td></tr>
+    <tr><td>Code Generation</td><td>emit_device_code()</td><td>Usually required to produce backend artifacts; may be stubbed for interpreter mode.</td><td>Compile</td></tr>
+    <tr><td>Artifact Caching</td><td>load_or_store_cache()</td><td>Nice-to-have optimization; can be skipped initially.</td><td>Compile</td></tr>
+    <tr><td>Executable Creation</td><td>create_executable()</td><td>Required to instantiate a runnable object from compiled artifacts.</td><td>Runtime</td></tr>
+    <tr><td>Execute</td><td>run_executable()</td><td>Required for inference/training steps; schedules kernels and transfers.</td><td>Runtime</td></tr>
+    <tr><td>Profiling Hooks</td><td>collect_trace()</td><td>Optional; provides timeline events for performance analysis.</td><td>Runtime</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,20 @@
+<table>
+  <caption>Road Inventory Static Attributes Data Dictionary</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Road Segment ID</td><td>Character</td><td>32</td><td>No</td><td>Unique identifier in the road asset registry</td></tr>
+    <tr><td>2</td><td>Road Name</td><td>Character</td><td>128</td><td>No</td><td>Official road name</td></tr>
+    <tr><td>3</td><td>Administrative Division Code</td><td>Character</td><td>12</td><td>No</td><td>County-level code for segment governance</td></tr>
+    <tr><td>4</td><td>Road Class</td><td>Character</td><td>16</td><td>Yes</td><td>Expressway / Arterial / Collector / Local</td></tr>
+    <tr><td>5</td><td>Number of Lanes</td><td>Integer</td><td>2</td><td>No</td><td>Total lanes in both directions</td></tr>
+    <tr><td>6</td><td>Design Speed (km/h)</td><td>Integer</td><td>3</td><td>Yes</td><td>Engineering design speed</td></tr>
+    <tr><td>7</td><td>Posted Speed Limit (km/h)</td><td>Integer</td><td>3</td><td>Yes</td><td>Regulatory maximum speed</td></tr>
+    <tr><td>8</td><td>Median Type</td><td>Character</td><td>32</td><td>Yes</td><td>Painted / Barrier / null</td></tr>
+    <tr><td>9</td><td>Pavement Type</td><td>Character</td><td>32</td><td>Yes</td><td>Asphalt / Concrete / Composite</td></tr>
+    <tr><td>10</td><td>Bridge/Tunnel Flag</td><td>Character</td><td>1</td><td>Yes</td><td>Y if segment includes bridge or tunnel assets</td></tr>
+    <tr><td>11</td><td>Lighting Availability</td><td>Character</td><td>1</td><td>Yes</td><td>Y/N</td></tr>
+    <tr><td>12</td><td>Curve Radius Category</td><td>Character</td><td>16</td><td>Yes</td><td>Tight / Moderate / Gentle</td></tr>
+  </tbody>
+</table>

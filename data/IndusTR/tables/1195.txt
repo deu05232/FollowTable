@@ -1,0 +1,13 @@
+<table>
+  <caption>Parameter test requirements for SAO syntax elements in the video coding bitstream</caption>
+  <tr><td>Syntax element name</td><td>Test requirements</td></tr>
+  <tr><td>sao_merge_type_index</td><td>Traverse all binary symbol string cases in Table 74 of GB/T 33475.2—2024</td></tr>
+  <tr><td>sao_mode</td><td>Traverse cases where the value of sao_mode equals 0 to 2</td></tr>
+  <tr><td>sao_interval_offset_abs</td><td>Traverse cases where the value of sao_interval_offset_abs equals 0 to 7</td></tr>
+  <tr><td>sao_interval_offset_sign</td><td>Traverse cases where the value of sao_interval_offset_sign equals 0 to 1</td></tr>
+  <tr><td>sao_interval_start_pos</td><td>Traverse all binary symbol string cases in Table 75 of GB/T 33475.2—2024</td></tr>
+  <tr><td>sao_i_interval_delta_pos_minus2</td><td>Traverse all binary symbol string cases in Table 76 of GB/T 33475.2—2024</td></tr>
+  <tr><td>sao_edge_offset[compIdx][j](j = 0～3)</td><td>Traverse all binary symbol string cases in Table 77 and Table 78 of GB/T 33475.2—2024</td></tr>
+  <tr><td>sao_edge_type</td><td>Traverse all binary symbol string cases in Table 79 of GB/T 33475.2—2024</td></tr>
+  <tr><td>alf_lcu_enable</td><td>Traverse cases where the value of alf_lcu_enable equals 0 to 1</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Session Handles and Derived Objects Parameters (Non-Creation Focus)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_getCameraConfig</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle used to query camera configuration.</td></tr>
+    <tr><td>ArSession_getCameraConfig</td><td>out_camera_config</td><td>ArCameraConfig **</td><td>out</td><td>Receives a camera config object associated with the session.</td></tr>
+    <tr><td>ArSession_setPlaybackDataset</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle to apply playback dataset to.</td></tr>
+    <tr><td>ArSession_setPlaybackDataset</td><td>dataset_uri</td><td>const char *</td><td>in</td><td>URI string of the dataset.</td></tr>
+    <tr><td>ArSession_getAllTrackables</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle for retrieving trackables.</td></tr>
+    <tr><td>ArSession_getAllTrackables</td><td>out_trackable_list</td><td>ArTrackableList **</td><td>out</td><td>Receives a list of trackables produced from the session state.</td></tr>
+  </tbody>
+</table>

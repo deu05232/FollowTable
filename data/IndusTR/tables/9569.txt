@@ -1,0 +1,15 @@
+<table>
+  <caption>Model-fit and prediction-quality indicators for tree biomass equations by species group (simple vs complex forms)</caption>
+  <thead>
+    <tr><th rowspan="2">No.</th><th rowspan="2">Species group</th><th rowspan="2">Region/Stratum</th><th colspan="4">Simple model forms (univariate)</th><th colspan="4">Complex model forms (bivariate)</th></tr>
+    <tr><th>Adj. R²</th><th>RMSE (kg)</th><th>MAE (kg)</th><th>MAPE (%)</th><th>Adj. R²</th><th>RMSE (kg)</th><th>MAE (kg)</th><th>MAPE (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Fir</td><td>Low elevation</td><td>0.842</td><td>18.7</td><td>13.9</td><td>9.8</td><td>0.861</td><td>17.9</td><td>13.2</td><td>9.1</td></tr>
+    <tr><td>2</td><td>Fir</td><td>High elevation</td><td>0.803</td><td>24.5</td><td>18.4</td><td>11.9</td><td>0.835</td><td>22.1</td><td>16.8</td><td>10.7</td></tr>
+    <tr><td>3</td><td>Pine</td><td>Coastal</td><td>0.889</td><td>12.6</td><td>9.3</td><td>8.4</td><td>0.902</td><td>11.8</td><td>8.7</td><td>7.6</td></tr>
+    <tr><td>4</td><td>Pine</td><td>Inland</td><td>0.858</td><td>15.9</td><td>11.8</td><td>9.7</td><td>0.878</td><td>14.7</td><td>10.9</td><td>8.9</td></tr>
+    <tr><td>5</td><td>Spruce</td><td>North</td><td>0.915</td><td>9.8</td><td>7.2</td><td>6.3</td><td>0.928</td><td>9.1</td><td>6.8</td><td>5.9</td></tr>
+    <tr><td>6</td><td>Spruce</td><td>South</td><td>0.873</td><td>14.2</td><td>10.6</td><td>8.8</td><td>0.901</td><td>12.9</td><td>9.7</td><td>7.9</td></tr>
+  </tbody>
+</table>

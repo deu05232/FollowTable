@@ -1,0 +1,11 @@
+<table>
+  <caption>Harmonic measurement performance table including harmonic voltage/current indication errors and harmonic active energy limits</caption>
+  <tr><th rowspan="2">Measured item</th><th rowspan="2">Range / waveform</th><th colspan="3">Limit by class</th><th rowspan="2">Notes</th></tr>
+  <tr><th>Class 1</th><th>Class 2</th><th>Class 5</th></tr>
+  <tr><td>Harmonic voltage indication error (% of U1)</td><td>h = 2…40, 0.1Un to 1.1Un</td><td>±0.2</td><td>±0.5</td><td>±1.0</td><td>Applies to RMS harmonic voltage indication</td></tr>
+  <tr><td>Harmonic current indication error (% of I1)</td><td>10 mA ≤ I < 50 mA</td><td>±0.3</td><td>±0.6</td><td>±1.2</td><td>Applies to RMS harmonic current indication</td></tr>
+  <tr><td>Harmonic current indication error (% of I1)</td><td>50 mA ≤ I ≤ Imax</td><td>±0.2</td><td>±0.4</td><td>±0.8</td><td>Applies to RMS harmonic current indication</td></tr>
+  <tr><td>Single-harmonic active energy error limit (%)</td><td>cosh = 1.0, Ih within 0.1–0.4 Imax</td><td>±1.0H</td><td>±2.0H</td><td>±5.0H</td><td>Energy at individual harmonic order</td></tr>
+  <tr><td>Combined-harmonic active energy error limit (%)</td><td>Waveform type W2, balanced load</td><td>±2.5</td><td>±4.0</td><td>±12.0</td><td>Energy under combined harmonic waveform</td></tr>
+  <tr><td>Phase angle measurement error (degrees)</td><td>h = 2…40</td><td>±0.5</td><td>±1.0</td><td>±2.0</td><td>General harmonic phasor measurement</td></tr>
+</table>

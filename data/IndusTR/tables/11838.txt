@@ -1,0 +1,15 @@
+<table>
+  <caption>Sampling-Rate Cross-Check Table for Multichannel Conformance Bitstreams (Same Test Case Across Rates)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Case ID</th><th colspan="3">Bitstream Filename by Sampling Rate</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TC-MC-101 (BR=128k)</td><td>mc_tc101_sr32k_br128k.avsa</td><td>mc_tc101_sr44p1k_br128k.avsa</td><td>mc_tc101_sr48k_br128k.avsa</td></tr>
+    <tr><td>TC-MC-102 (BR=192k)</td><td>mc_tc102_sr32k_br192k.avsa</td><td>mc_tc102_sr44p1k_br192k.avsa</td><td>mc_tc102_sr48k_br192k.avsa</td></tr>
+    <tr><td>TC-MC-103 (BR=256k)</td><td>mc_tc103_sr32k_br256k.avsa</td><td>mc_tc103_sr44p1k_br256k.avsa</td><td>mc_tc103_sr48k_br256k.avsa</td></tr>
+    <tr><td>TC-MC-104 (BR=320k)</td><td>mc_tc104_sr32k_br320k.avsa</td><td>mc_tc104_sr44p1k_br320k.avsa</td><td>mc_tc104_sr48k_br320k.avsa</td></tr>
+    <tr><td>TC-MC-105 (BR=384k)</td><td>mc_tc105_sr32k_br384k.avsa</td><td>mc_tc105_sr44p1k_br384k.avsa</td><td>mc_tc105_sr48k_br384k.avsa</td></tr>
+    <tr><td>TC-MC-106 (BR=480k)</td><td>mc_tc106_sr32k_br480k.avsa</td><td>mc_tc106_sr44p1k_br480k.avsa</td><td>mc_tc106_sr48k_br480k.avsa</td></tr>
+  </tbody>
+</table>

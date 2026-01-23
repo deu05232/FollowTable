@@ -1,0 +1,16 @@
+<table>
+  <caption>Public Security Imaging Data Items — Names + DE Mapping Only (Identifier Column Omitted)</caption>
+  <thead>
+    <tr><th>No.</th><th>Category</th><th>Item Name</th><th>Representation Format</th><th>Referenced Data Element Internal ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Device</td><td>Camera Identifier</td><td>c20</td><td>DE01301</td></tr>
+    <tr><td>2</td><td>Device</td><td>Camera Name</td><td>c..100</td><td>DE01302</td></tr>
+    <tr><td>3</td><td>Spatiotemporal</td><td>Appearance_Date/Time</td><td>d18</td><td>DE01310</td></tr>
+    <tr><td>4</td><td>Video</td><td>Video Segment Identifier</td><td>c41</td><td>DE01320</td></tr>
+    <tr><td>5</td><td>Object</td><td>Scene Object Identifier</td><td>c48</td><td>DE01330</td></tr>
+    <tr><td>6</td><td>Object</td><td>Item Object Identifier</td><td>c48</td><td>DE01340</td></tr>
+    <tr><td>7</td><td>Algorithm</td><td>Algorithm Type</td><td>c2</td><td>DE01350</td></tr>
+    <tr><td>8</td><td>Algorithm</td><td>Algorithm Version</td><td>c..20</td><td>DE01351</td></tr>
+  </tbody>
+</table>

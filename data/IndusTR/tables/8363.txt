@@ -1,0 +1,11 @@
+<table>
+  <caption>Mixed requirements table (voltage/frequency deviations combined with temperature-rise limits)</caption>
+  <tr><th>Area</th><th>Item</th><th>Limit</th><th>Condition</th></tr>
+  <tr><td>Operating parameters</td><td>AC voltage permissible deviation</td><td>+6% / -10%</td><td>Steady-state</td></tr>
+  <tr><td>Operating parameters</td><td>AC voltage transient deviation</td><td>±20%</td><td>Recovery ≤ 1.5 s</td></tr>
+  <tr><td>Operating parameters</td><td>Frequency permissible deviation</td><td>±5%</td><td>Steady-state</td></tr>
+  <tr><td>Operating parameters</td><td>Frequency transient deviation</td><td>±10%</td><td>Recovery ≤ 5 s</td></tr>
+  <tr><td>Thermal</td><td>Accessible metal enclosure temperature rise</td><td>25 K</td><td>Ambient 25℃</td></tr>
+  <tr><td>Thermal</td><td>Metal operating handle temperature rise</td><td>10 K</td><td>Ambient 25℃</td></tr>
+  <tr><td>Thermal</td><td>Insulated operating handle temperature rise</td><td>20 K</td><td>Ambient 25℃</td></tr>
+</table>

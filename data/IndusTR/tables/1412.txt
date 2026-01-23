@@ -1,0 +1,5 @@
+<table>
+  <caption>Return Parameters for Pushing Battery Swap Order Status</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Status</td><td>SuccStat</td><td>integer</td><td>0: Success; 1: Failure, no retry needed; 50–99: Custom</td><td>Yes</td></tr>
+</table>

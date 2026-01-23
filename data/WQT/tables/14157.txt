@@ -1,0 +1,16 @@
+# Default Administrative Distance (AD) Values Across Common Route Sources
+
+| Category | Route Source / Protocol | Default AD |
+| --- | --- | ---: |
+| Local & Static | Connected | 0 |
+| Local & Static | Static | 1 |
+| Local & Static | EIGRP summary | 5 |
+| BGP | eBGP | 20 |
+| IGP (Cisco) | EIGRP internal | 90 |
+| IGP (legacy) | IGRP | 100 |
+| IGP | OSPF | 110 |
+| IGP | IS-IS | 115 |
+| IGP | RIP | 120 |
+| IGP (Cisco) | EIGRP external | 170 |
+| BGP | iBGP | 200 |
+| Special | Unknown / invalid | 255 |

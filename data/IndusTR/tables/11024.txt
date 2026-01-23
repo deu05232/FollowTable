@@ -1,0 +1,16 @@
+<table>
+  <caption>Charging Message CST (Charger Status / Telemetry) — SPN Field Definitions</caption>
+  <thead>
+    <tr><th>Start Byte (Bit)</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Value Range / Resolution</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1 (0)</td><td>2 bytes</td><td>2950</td><td>Charger output voltage (measured)</td><td>0–1000.0 V (raw × 0.1 V)</td><td>Mandatory</td></tr>
+    <tr><td>3 (0)</td><td>2 bytes</td><td>2951</td><td>Charger output current (measured)</td><td>-500.0–500.0 A (raw × 0.1 A)</td><td>Mandatory</td></tr>
+    <tr><td>5 (0)</td><td>2 bytes</td><td>2952</td><td>Delivered energy since session start</td><td>0–6553.5 kWh (raw × 0.1 kWh)</td><td>Optional</td></tr>
+    <tr><td>7 (0)</td><td>1 byte</td><td>2953</td><td>Charger readiness state</td><td>0x00=Not ready; 0xAA=Ready; 0xFF=Invalid</td><td>Mandatory</td></tr>
+    <tr><td>8 (0)</td><td>1 byte</td><td>2954</td><td>Contactor status</td><td>0x00=Open; 0x01=Closed; 0xFF=Unknown</td><td>Optional</td></tr>
+    <tr><td>9 (0)</td><td>1 byte</td><td>2955</td><td>Insulation monitoring result</td><td>0x00=Normal; 0x01=Fault; 0x02=Testing</td><td>Optional</td></tr>
+    <tr><td>10 (0)</td><td>1 byte</td><td>2956</td><td>Emergency stop status</td><td>0x00=Inactive; 0x01=Active</td><td>Mandatory</td></tr>
+    <tr><td>11 (0)</td><td>2 bytes</td><td>2957</td><td>Charger internal temperature</td><td>-40–215 °C (raw × 1 °C; signed)</td><td>Optional</td></tr>
+  </tbody>
+</table>

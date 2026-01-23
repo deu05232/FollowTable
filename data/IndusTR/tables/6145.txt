@@ -1,0 +1,16 @@
+<table>
+  <caption>APDU Response Status Word (SW1/SW2) Interpretation for User Terminal Debugging</caption>
+  <thead>
+    <tr><th>SW1</th><th>SW2</th><th>Status Category</th><th>Meaning</th><th>Typical Cause</th><th>Recommended Terminal Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>90</td><td>00</td><td>Success</td><td>Command executed successfully</td><td>—</td><td>Accept response data (if any) and continue flow</td></tr>
+    <tr><td>61</td><td>XX</td><td>More data</td><td>XX bytes of response data still available</td><td>Response exceeds expected length</td><td>Issue GET RESPONSE with Le=XX (or Le=00 for max)</td></tr>
+    <tr><td>6C</td><td>XX</td><td>Wrong length</td><td>Wrong Le; correct expected length is XX</td><td>Terminal requested incorrect expected length</td><td>Retry same command using Le=XX</td></tr>
+    <tr><td>67</td><td>00</td><td>Length error</td><td>Wrong Lc/Le or absent length bytes</td><td>APDU framing/transport bug</td><td>Validate APDU encoding; check Lc/Le and chaining rules</td></tr>
+    <tr><td>6A</td><td>86</td><td>Parameter error</td><td>Incorrect P1/P2 values</td><td>Wrong mode/selector or unsupported option</td><td>Correct P1/P2; verify command variant and terminal state</td></tr>
+    <tr><td>69</td><td>85</td><td>Conditions not satisfied</td><td>Command not allowed in current state</td><td>Security not established; app not selected; missing prior step</td><td>Perform required selection/authentication; retry after state fix</td></tr>
+    <tr><td>6A</td><td>82</td><td>Not found</td><td>Referenced file/application/object not found</td><td>AID or file ID incorrect; object not provisioned</td><td>Verify selection identifiers; handle as “not provisioned”</td></tr>
+    <tr><td>6F</td><td>00</td><td>Unknown</td><td>No precise diagnosis</td><td>Card OS error; unexpected condition</td><td>Log full APDU + ATR/context; retry once; escalate if persistent</td></tr>
+  </tbody>
+</table>

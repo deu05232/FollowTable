@@ -1,0 +1,67 @@
+<table>
+  <caption>Inner Liner Production Line Recipe Data Structure Table</caption>
+  <tr><td>Serial No.</td><td>Data Structure Name</td><td>Data Type</td><td>Data Length (bit)</td><td>Description</td></tr>
+  <tr><td rowspan="3">1</td><td rowspan="3">Production Line Recipe</td><td>INT</td><td>16</td><td>Recipe number</td></tr>
+  <tr><td>STR</td><td>User-defined</td><td>Recipe name</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Production line speed</td></tr>
+  <tr><td rowspan="9">2</td><td rowspan="9">Sheet 1 Recipe</td><td>STR</td><td>User-defined</td><td>Compound 1 name</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Sheet 1 width</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Sheet 1 thickness</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 1 speed</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 1 speed</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 1 knife gap</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 1 drive-side roll gap</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 1 operator-side roll gap</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 1 temperature control—head</td></tr>
+  <tr><td rowspan="6">2</td><td rowspan="6">Sheet 1 Recipe</td><td>FLOAT</td><td>32</td><td>Extruder 1 temperature control - screw</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 1 temperature control - plasticizing zone 1</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 1 temperature control   plasticizing zone 2</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 1 temperature control   - extrusion zone</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 1 temperature control-  - upper roll</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 1 temperature control- lower roll</td></tr>
+  <tr><td colspan="2" rowspan="15">3     Sheet 2 Recipe</td><td>STR</td><td>User-defined</td><td>Compound 2 name</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Sheet 2 width</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Sheet 2 thickness</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 2 speed</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 speed</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 knife gap</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 drive-side roll gap</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 operator-side roll gap</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 2 temperature control—head</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 2 temperature control  - screw</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 2 temperature control   plasticizing zone 1</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 2 temperature control   plasticizing zone 2</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Extruder 2 temperature control-  extrusion zone</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 temperature control   - upper roll</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 temperature control  lower roll</td></tr>
+  <tr><td colspan="2" rowspan="12">4     Floating Roller Recipe</td><td>FLOAT</td><td>32</td><td>Take-up floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Take-up floating roller position</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Laminating floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Laminating floating roller position</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Transition floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Transition floating roller position</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Cooling drum 1 floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Cooling drum 1 floating roller position</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Cutting floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Cutting floating roller position</td></tr>
+  <tr><td>SACFLOAT</td><td>32</td><td>Changeover floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Changeover floating roller position</td></tr>
+  <tr><td rowspan="4">4</td><td rowspan="4">Floating Roller Recipe</td><td>FLOAT</td><td>32</td><td>Winding 1 floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 1 floating roller position</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 2 floating roller pressure</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 2 floating roller position</td></tr>
+  <tr><td rowspan="7">5</td><td rowspan="7">Speed Coefficient Recipe</td><td>FLOAT</td><td>32</td><td>Calender 1 pull-out roll</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 1 return rubber</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 pull-out roll</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Calender 2 return rubber</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Cooling drum 2</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Cooling drum 3</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Cutter</td></tr>
+  <tr><td>6</td><td>Cutting Recipe</td><td>FLOAT</td><td>32</td><td>Cutter cutting temperature</td></tr>
+  <tr><td rowspan="6">7</td><td rowspan="6">Winding Recipe</td><td>FLOAT</td><td>32</td><td>Winding 1 minimum brake</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 1 maximum brake</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 2 minimum brake</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 2 maximum brake</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 1 length</td></tr>
+  <tr><td>FLOAT</td><td>32</td><td>Winding 2 length</td></tr>
+</table>

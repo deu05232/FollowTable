@@ -1,0 +1,10 @@
+<table>
+  <caption>Information Container Status Update Parameters (Including Reference Payload)</caption>
+  <tr><th>Parameter Name</th><th>Chinese Name</th><th>Data Type</th><th>Required</th><th>Remarks</th></tr>
+  <tr><td>projectId</td><td>Project Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the project</td></tr>
+  <tr><td>containerId</td><td>Container Identifier</td><td>string</td><td>Yes</td><td>Unique identifier of the container</td></tr>
+  <tr><td>status</td><td>Container Status</td><td>int</td><td>Yes</td><td>Target status to be modified</td></tr>
+  <tr><td>refs</td><td>Reference List</td><td>List<ref></td><td>No</td><td>References included in the same request payload</td></tr>
+  <tr><td>operator</td><td>Operator</td><td>string</td><td>No</td><td>User who performs the operation</td></tr>
+  <tr><td>reason</td><td>Reason</td><td>string</td><td>No</td><td>Reason for updating status</td></tr>
+</table>

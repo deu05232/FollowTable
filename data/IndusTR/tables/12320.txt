@@ -1,0 +1,16 @@
+<table>
+  <caption>Energy-Use as Feedstock (SAC) Parameter Register for CO2 Calculation</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter Name</th><th>Value</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Reductants</td><td>Semi-coke Consumption</td><td>—</td><td>t</td><td>Used as reductant</td></tr>
+    <tr><td>Emission Factor for Semi-coke (material basis)</td><td>—</td><td>tCO2/t</td><td>Factor on mass basis</td></tr>
+    <tr><td>Oxidation/Conversion Assumption</td><td>—</td><td>%</td><td>Assumed conversion rate</td></tr>
+    <tr><td rowspan="3">Reductants</td><td>Coke Consumption</td><td>—</td><td>t</td><td>Used as reductant</td></tr>
+    <tr><td>Emission Factor for Coke (material basis)</td><td>—</td><td>tCO2/t</td><td>Factor on mass basis</td></tr>
+    <tr><td>Carbon Content (dry basis)</td><td>—</td><td>%</td><td>Material composition field</td></tr>
+    <tr><td rowspan="2">Additives</td><td>Pitch Consumption</td><td>—</td><td>t</td><td>Binder/additive</td></tr>
+    <tr><td>Volatile Matter Fraction</td><td>—</td><td>%</td><td>Material property</td></tr>
+  </tbody>
+</table>

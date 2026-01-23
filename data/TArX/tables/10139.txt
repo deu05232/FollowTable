@@ -1,0 +1,15 @@
+<table>
+  <caption>Exoplanet atmosphere retrieval summary including observing program details and basic system parameters</caption>
+  <thead>
+    <tr><th rowspan="2">Planet</th><th colspan="2">Retrieved atmospheric species</th><th colspan="4">Observation / program details</th><th colspan="2">Orbital parameters</th></tr>
+    <tr><th>Species</th><th>Mixing ratio</th><th>Telescope/Instrument</th><th>Program ID</th><th>S/N</th><th>Wavelength range (μm)</th><th>Period (days)</th><th>Eccentricity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>HD 189733b</td><td>H2O</td><td>1.0e-4</td><td>HST/WFC3</td><td>GO-12881</td><td>120</td><td>1.10–1.70</td><td>2.22</td><td>0.004</td></tr>
+    <tr><td>HD 189733b</td><td>CO</td><td>2.0e-4</td><td>VLT/CRIRES</td><td>089.C-0732</td><td>60</td><td>2.29–2.35</td><td>2.22</td><td>0.004</td></tr>
+    <tr><td>WASP-12b</td><td>CO</td><td>3.0e-4</td><td>HST/WFC3</td><td>GO-13467</td><td>90</td><td>1.10–1.70</td><td>1.09</td><td>0.049</td></tr>
+    <tr><td>WASP-12b</td><td>CH4</td><td>1.0e-7</td><td>Spitzer/IRAC</td><td>80063</td><td>40</td><td>3.6–8.0</td><td>1.09</td><td>0.049</td></tr>
+    <tr><td>GJ 1214b</td><td>H2O</td><td>5.0e-5</td><td>JWST/NIRSpec</td><td>ERS-1366</td><td>150</td><td>0.70–5.00</td><td>1.58</td><td>0.000</td></tr>
+    <tr><td>GJ 1214b</td><td>CO2</td><td>8.0e-7</td><td>JWST/NIRISS</td><td>GTO-1185</td><td>130</td><td>0.90–2.80</td><td>1.58</td><td>0.000</td></tr>
+  </tbody>
+</table>

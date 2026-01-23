@@ -1,0 +1,10 @@
+<table>
+  <caption>This table lists the parameters for each simulation: the number of planets N , the ratio of stellar radius to R m ⁢ a ⁢ x and the initial set up I ⁢ n , where n = 1 , 2 denotes spherical shell and thick annulus, respectively. The last column contains M p / M * , with (R) denoting that the masses were allocated uniformly at random in the interval ( 0 ; M p ) .</caption>
+  <tr><th>Run</th><th>N</th><th>R_(*)/R_(max)</th><th>In</th><th>M_(p)/M_(*)</th></tr>
+  <tr><td>1</td><td>5</td><td>0.0</td><td>I2</td><td>5× 10^(-3)</td></tr>
+  <tr><td>2</td><td>10</td><td>9.396× 10^(-5)</td><td>I1</td><td>5× 10^(-3)</td></tr>
+  <tr><td>3</td><td>10</td><td>1.337× 10^(-4)</td><td>I2</td><td>5× 10^(-3)</td></tr>
+  <tr><td>4</td><td>8</td><td>1.337× 10^(-4)</td><td>I2</td><td>5× 10^(-3) (R)</td></tr>
+  <tr><td>5</td><td>40</td><td>9.396× 10^(-5)</td><td>I1</td><td>5× 10^(-3)</td></tr>
+  <tr><td>6</td><td>100</td><td>9.396× 10^(-5)</td><td>I1</td><td>1× 10^(-2) (R)</td></tr>
+</table>

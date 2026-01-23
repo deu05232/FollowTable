@@ -1,0 +1,6 @@
+<table>
+  <caption>Compiler IR Interfaces (Explained Without Required/Optional)</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Interface Description</th></tr>
+  <tr><td>High-Level IR Construction</td><td>high_level_ir_compile</td><td>Build a compiler high-level intermediate representation from the framework graph</td></tr>
+  <tr><td>Lower High-Level IR to Low-Level IR</td><td>lower_ir</td><td>Convert high-level IR to low-level IR for backend code generation</td></tr>
+</table>

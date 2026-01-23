@@ -1,0 +1,9 @@
+<table>
+  <caption>Tests of root mean square, power spectrum, max-min difference and wavelet analyses on undersampled and filtered synthetic self-affine profiles which model profiler recording (see text for details). Four system sizes, in terms of number of points are considered. The accuracy of the exponents presented in this table is around 8%.</caption>
+  <tr><th>System size</th><th colspan="4">256 pts</th><th colspan="4">512 pts</th><th colspan="4">1024 pts</th><th colspan="4">2048 pts</th></tr>
+  <tr><th>self-afine exponent</th><th>0.80</th><th>0.85</th><th>0.90</th><th>0.95</th><th>0.80</th><th>0.85</th><th>0.90</th><th>0.95</th><th>0.80</th><th>0.85</th><th>0.90</th><th>0.95</th><th>0.80</th><th>0.85</th><th>0.90</th><th>0.95</th></tr>
+  <tr><th>rms</th><td>0.72</td><td>0.77</td><td>0.80</td><td>0.82</td><td>0.74</td><td>0.78</td><td>0.81</td><td>0.83</td><td>0.75</td><td>0.79</td><td>0.82</td><td>0.84</td><td>0.75</td><td>0.79</td><td>0.82</td><td>0.84</td></tr>
+  <tr><th>power spectrum</th><td>0.82</td><td>0.84</td><td>0.87</td><td>0.89</td><td>0.82</td><td>0.85</td><td>0.88</td><td>0.90</td><td>0.83</td><td>0.87</td><td>0.89</td><td>0.91</td><td>0.83</td><td>0.88</td><td>0.93</td><td>0.96</td></tr>
+  <tr><th>max-min</th><td>0.81</td><td>0.84</td><td>0.86</td><td>0.89</td><td>0.83</td><td>0.85</td><td>0.88</td><td>0.90</td><td>0.84</td><td>0.86</td><td>0.89</td><td>0.90</td><td>0.84</td><td>0.86</td><td>0.89</td><td>0.91</td></tr>
+  <tr><th>wavelet analysis</th><td>0.87</td><td>0.92</td><td>0.97</td><td>1.02</td><td>0.87</td><td>0.91</td><td>0.96</td><td>1.00</td><td>0.85</td><td>0.90</td><td>0.94</td><td>0.99</td><td>0.84</td><td>0.89</td><td>0.94</td><td>0.99</td></tr>
+</table>

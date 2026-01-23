@@ -1,0 +1,17 @@
+<table>
+  <caption>Table B: Container Links Representation (Response Fields with Reference List)</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Type</th><th>Presence</th><th>Description / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>projectId</td><td>string</td><td>Always</td><td>Project identifier.</td></tr>
+    <tr><td>containerId</td><td>string</td><td>Always</td><td>Identifier of the container whose links are being returned.</td></tr>
+    <tr><td>refs</td><td>array of object (Reference)</td><td>Optional</td><td>List of references to other information containers. Each array item MUST follow the Reference object structure defined by the spec.</td></tr>
+    <tr><td>refs[].targetProjectId</td><td>string</td><td>Conditional</td><td>If links can cross projects, this identifies the target project; otherwise omitted.</td></tr>
+    <tr><td>refs[].targetContainerId</td><td>string</td><td>Always</td><td>Target container identifier being referenced.</td></tr>
+    <tr><td>refs[].uri</td><td>string (URI)</td><td>Optional</td><td>Canonical resolvable URI form of the same reference (if provided by the server).</td></tr>
+    <tr><td>refs[].role</td><td>string</td><td>Optional</td><td>Role/relationship label associated with this reference.</td></tr>
+    <tr><td>refs[].attributes</td><td>object</td><td>Optional</td><td>Additional relationship attributes; MUST NOT break reference identity rules.</td></tr>
+    <tr><td>refsCount</td><td>integer</td><td>Optional</td><td>Total number of references if pagination or partial lists are used.</td></tr>
+  </tbody>
+</table>

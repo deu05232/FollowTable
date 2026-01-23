@@ -1,0 +1,41 @@
+<table>
+  <caption>Image Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>2</td><td>Image Collection Method Code</td><td>txcjfsdm</td><td>cl</td><td>Should comply with D.16</td><td></td></tr>
+  <tr><td>3</td><td>Image Collection Location Type Code</td><td>txcjwzlxdm</td><td>c3..7</td><td>Should comply with D.9</td><td></td></tr>
+  <tr><td>4</td><td>Source Video Segment Identifier</td><td>lysppdbz</td><td>c41</td><td>Should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>5</td><td>Original Image Identifier</td><td>ystxbz</td><td>c41</td><td>Should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>6</td><td>Image_Storage Location</td><td>tx_ccwz</td><td>c..256</td><td>Storage path of the image file, using URI naming rules</td><td></td></tr>
+  <tr><td>7</td><td>Image_Electronic File Name</td><td>tx_dzwjmc</td><td>c..256</td><td>Chinese description of the image material name</td><td></td></tr>
+  <tr><td>8</td><td>Image_Electronic File Size</td><td>tx_dzwjdx</td><td>n..10</td><td>Unit: byte</td><td></td></tr>
+  <tr><td>9</td><td>Image_Electronic File Content</td><td>tx_dzwjnr</td><td>bn</td><td></td><td></td></tr>
+  <tr><td>10</td><td>Image File Format Code</td><td>txwjgsdm</td><td>c2</td><td>Should comply with D.24</td><td></td></tr>
+  <tr><td>11</td><td>Shooting_Date Time</td><td>ps_rqsj</td><td>d14</td><td></td><td></td></tr>
+  <tr><td>12</td><td>Width_Pixel Value</td><td>kd_xsz</td><td>n..8</td><td>Unit: pixel</td><td></td></tr>
+  <tr><td>13</td><td>Height_Pixel Value</td><td>gd_xsz</td><td>n.8</td><td>Unit: pixel</td><td></td></tr>
+  <tr><td>14</td><td>Camera Manufacturer_Organization Name</td><td>zxjzzs_dwmc</td><td>c..100</td><td>If the image source is a camera, fill in the manufacturer of the source camera</td><td></td></tr>
+  <tr><td>15</td><td>Camera_Brand Model</td><td>zxj_ppxh</td><td>c..100</td><td>If the image source is a camera, fill in the model of the source camera</td><td></td></tr>
+  <tr><td>16</td><td>Aperture Value</td><td>gqz</td><td>n2..4,1</td><td></td><td></td></tr>
+  <tr><td>17</td><td>Photosensitivity Value</td><td>ggz</td><td>n.8</td><td></td><td></td></tr>
+  <tr><td>18</td><td>Focal Length Value</td><td>jjz</td><td>n..4</td><td></td><td></td></tr>
+  <tr><td>19</td><td>Video and Image Quality Level Code</td><td>sptxzldjdm</td><td>cl</td><td>Should comply with D.19</td><td></td></tr>
+  <tr><td>20</td><td>Image Processing_Determination Identifier</td><td>txcl_pdbz</td><td>c1</td><td>Should comply with D.11</td><td></td></tr>
+  <tr><td>21</td><td>Image_Collection Horizontal Direction Code</td><td>tx_cjspfxdm</td><td>cl</td><td>Should comply with D.12</td><td></td></tr>
+  <tr><td>22</td><td>Image_Collection Vertical Direction Code</td><td>tx_cjczfxdm</td><td>c1</td><td>Should comply with D.13</td><td></td></tr>
+  <tr><td>23</td><td>Image Collection_Date Time</td><td>txcj_rqsj</td><td>d18</td><td></td><td></td></tr>
+  <tr><td>24</td><td>Target Image Type Code</td><td>mbtxlxdm</td><td>c2</td><td>Should comply with D.25; multi-valued, e.g., in applications, motor vehicle images are a combination of multiple values such as vehicle full image and scene image</td><td></td></tr>
+  <tr><td>25</td><td>Video and Image Analysis Type Code</td><td>sptxfxlxdm</td><td>c2</td><td>This image is a result image corresponding to video and image analysis; should comply with D.20</td><td></td></tr>
+  <tr><td>26</td><td>Video and Image Processing Type Code</td><td>sptxcllxdm</td><td>c2</td><td>This image is a result image corresponding to video and image processing; should comply with D.21</td><td></td></tr>
+  <tr><td>27</td><td>Video and Image Event Type Code</td><td>spt xsjlxdm</td><td>c3</td><td>This image is an evidentiary image corresponding to video and image events; should comply with D.22</td><td></td></tr>
+  <tr><td>28</td><td>Title</td><td>bt</td><td>c..160</td><td>Chinese description of the image material name</td><td></td></tr>
+  <tr><td>29</td><td>Keywords</td><td>gjc</td><td>c..200</td><td>Words or phrases that can correctly express the main content of the image material and have retrieval significance</td><td></td></tr>
+  <tr><td>30</td><td>Shooting Location Administrative Division Code</td><td>psddxzqhdm</td><td>c6</td><td>Should use the all-digit code in GB/T 2260</td><td></td></tr>
+  <tr><td>31</td><td>Shooting Location Grassroots Organization Code</td><td>psddjczzdm</td><td>c6</td><td>Should comply with the coding rules specified in C.1</td><td></td></tr>
+  <tr><td>32</td><td>Shooting Location Name</td><td>psddmc</td><td>c..400</td><td>Name of the location where the camera was located when shooting; should use the place positioning description of the geocoding rules in Chapter 6 of GB/T30428.3—2016</td><td></td></tr>
+  <tr><td>33</td><td>Shooting Location_Earth Longitude</td><td>psdd_dqjd</td><td>n10,6</td><td>The coordinate system is WGS-84</td><td></td></tr>
+  <tr><td>34</td><td>Shooting Location_Earth Latitude</td><td>psdd_dqwd</td><td>n10,6</td><td>The coordinate system is WGS-84</td><td></td></tr>
+  <tr><td>35</td><td>Image File Hash Value</td><td>txwjhxz</td><td>c128/c256</td><td>MD5 algorithm (c128) or SM3 algorithm (c256)</td><td></td></tr>
+  <tr><td>36</td><td>Image Encryption_Determination Identifier</td><td>txjm_pdbz</td><td>cl</td><td>Should comply with D.11</td><td></td></tr>
+  <tr><td>37</td><td>Image Signature_Determination Identifier</td><td>txqm_pdbz</td><td>c1</td><td>Should comply with D.11</td><td></td></tr>
+</table>

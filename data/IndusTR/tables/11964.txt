@@ -1,0 +1,10 @@
+<table>
+  <caption>Voice capture condition metadata for speaker recognition evaluation</caption>
+  <tr><th>No.</th><th>Element</th><th>Example of Element Content</th></tr>
+  <tr><td>1</td><td>Channel type</td><td>Telephone (PSTN), VoIP, Far-field microphone array, Headset mic</td></tr>
+  <tr><td>2</td><td>Sampling configuration</td><td>8 kHz mono, 16 kHz mono, 48 kHz stereo</td></tr>
+  <tr><td>3</td><td>Environment type</td><td>Quiet office, Street noise, Vehicle cabin, Public hall</td></tr>
+  <tr><td>4</td><td>Noise/interference source</td><td>Babble noise, Music, TV audio, Wind noise</td></tr>
+  <tr><td>5</td><td>Transmission impairments</td><td>Packet loss, Codec compression, Clipping, Echo</td></tr>
+  <tr><td>6</td><td>Speaking scenario (capture-side)</td><td>Scripted read speech, Spontaneous speech, Command phrases</td></tr>
+</table>

@@ -1,0 +1,21 @@
+<table>
+  <caption>VR Pose Representation Structures (vrPose, vrQuaternion, vr3DPoint)</caption>
+  <thead>
+    <tr><th>Struct</th><th>Member</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">vrPose</td><td>time_stamp</td><td>int64_t</td><td>Pose timestamp in microseconds since system start (monotonic).</td></tr>
+    <tr><td>orientation</td><td>vrQuaternion</td><td>Orientation as unit quaternion (w,x,y,z).</td></tr>
+    <tr><td>position</td><td>vr3DPoint</td><td>Position in tracking space (meters).</td></tr>
+    <tr><td>confidence</td><td>float</td><td>Tracking confidence in range [0.0, 1.0].</td></tr>
+    <tr><td rowspan="5">vrQuaternion</td><td>w</td><td>double</td><td>Quaternion scalar component.</td></tr>
+    <tr><td>x</td><td>double</td><td>Quaternion X component.</td></tr>
+    <tr><td>y</td><td>double</td><td>Quaternion Y component.</td></tr>
+    <tr><td>z</td><td>double</td><td>Quaternion Z component.</td></tr>
+    <tr><td>is_normalized</td><td>bool</td><td>true if quaternion is guaranteed normalized by the provider.</td></tr>
+    <tr><td rowspan="4">vr3DPoint</td><td>x</td><td>double</td><td>X coordinate (meters).</td></tr>
+    <tr><td>y</td><td>double</td><td>Y coordinate (meters).</td></tr>
+    <tr><td>z</td><td>double</td><td>Z coordinate (meters).</td></tr>
+    <tr><td>frame_id</td><td>int32_t</td><td>Reference frame identifier for the point (e.g., tracking origin).</td></tr>
+  </tbody>
+</table>

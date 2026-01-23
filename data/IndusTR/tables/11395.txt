@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental Chamber Program Including Handling Shock for Variable Frequency Speed Regulation Equipment</caption>
+  <thead>
+    <tr><th>Step</th><th>Chamber / handling condition</th><th>Primary stress</th><th>Packaging state</th><th>Power state</th><th>Setpoints</th><th>Hold time</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>Pre-dry</td><td>Temperature</td><td>Without packaging</td><td>Not energized</td><td>35°C</td><td>2 h</td><td>Stabilize before humidity ramp</td></tr>
+    <tr><td>B</td><td>Humidity ramp-up</td><td>Humidity</td><td>Without packaging</td><td>Not energized</td><td>25°C → 40°C, 60%→95% RH</td><td>4 h</td><td>Controlled ramp, no dripping</td></tr>
+    <tr><td>C</td><td>Damp-heat steady</td><td>Damp heat</td><td>Without packaging</td><td>Not energized</td><td>40°C ±2°C, 95% RH</td><td>48 h</td><td>Monitor insulation resistance</td></tr>
+    <tr><td>D</td><td>Condensation removal</td><td>Moisture removal</td><td>Without packaging</td><td>Not energized</td><td>Airflow at 15°C–35°C, 25%–75% RH</td><td>≥1 h</td><td>Wipe/dry terminals as needed</td></tr>
+    <tr><td>E</td><td>Handling event</td><td>Shock</td><td>With packaging</td><td>Not energized</td><td>Drop shock, 250 mm on rigid surface</td><td>6 drops (faces/edges)</td><td>Represents warehouse handling</td></tr>
+    <tr><td>F</td><td>High-temperature exposure</td><td>Temperature</td><td>With packaging</td><td>Not energized</td><td>55°C ±2°C</td><td>16 h</td><td>Check packaging deformation</td></tr>
+    <tr><td>G</td><td>Post-test electrical check</td><td>Functional</td><td>Without packaging</td><td>Energized</td><td>Rated supply</td><td>15 min</td><td>Verify alarms and speed control</td></tr>
+  </tbody>
+</table>

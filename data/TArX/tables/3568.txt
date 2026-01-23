@@ -1,0 +1,46 @@
+<table>
+  <caption>Brief compilation of methods used in fitting of the Skyrme interactions consistent with the macroscopic constraints and main data used in the fit. For full explanation and details, see original papers.</caption>
+  <tr><td>Force</td><td>Method</td><td>Data used for fit</td></tr>
+  <tr><td>GSkI,GSkII</td><td>simulated annealing</td><td>ground state properties of normal and exotic nuclei:</td></tr>
+  <tr><td></td><td>method</td><td>binding energies, charge radii,</td></tr>
+  <tr><td></td><td></td><td>radii for 1d _(5/2) and 1f _(7/2) neutron orbits in ^((17)) O and ^((41)) Ca,</td></tr>
+  <tr><td></td><td></td><td>breathing mode energies for ^((90)) Zr and ^((208)) Pb,</td></tr>
+  <tr><td></td><td></td><td>single-particle energies in ^((208)) Pb,</td></tr>
+  <tr><td></td><td></td><td>EoS of pure neutron matter [ wiringa1988 ]</td></tr>
+  <tr><td>KDE0v1</td><td>simulated annealing</td><td>ground state properties of normal and exotic nuclei:</td></tr>
+  <tr><td></td><td>method</td><td>binding energy, charge radii and spin-orbit splitting,</td></tr>
+  <tr><td></td><td></td><td>radii for 1d _(5/2) and 1f _(7/2) neutron orbits in ^((17)) O and ^((41)) Ca,</td></tr>
+  <tr><td></td><td></td><td>breathing mode energies, critical density ρ_(cr) ,</td></tr>
+  <tr><td></td><td></td><td>positive slope of the symmetry energy up to 3 ρ_(o) ,</td></tr>
+  <tr><td></td><td></td><td>enhancement factor associated with GDR, Landau parameter G ^(()_{o)</td></tr>
+  <tr><td>LNS</td><td>Brueckner-Hartree-Fock</td><td>nucleon effective mass in SNM and ANM,</td></tr>
+  <tr><td></td><td>with 2- and 3-body forces</td><td>energy per particle in SNM and ANM as function of density and</td></tr>
+  <tr><td></td><td>(homogeneous matter)</td><td>proton neutron asymmetry;</td></tr>
+  <tr><td></td><td>Hartree-Fock</td><td>constraint on the Landau parameter G _(o) ,</td></tr>
+  <tr><td></td><td>(finite nuclei)</td><td>surface properties of selected magic and semi-magic nuclei,</td></tr>
+  <tr><td></td><td></td><td>spin-orbit splitting _(1/2) -p _(3/2) in ^((16)) O</td></tr>
+  <tr><td>MSL0</td><td>MSL [ chen2009 ] model</td><td>nuclear matter properties:</td></tr>
+  <tr><td></td><td></td><td>ρ_(o) , E_(o) , K_(o) , m ^((*)_{s,o) , m ^((*)_{v,o) ,</td></tr>
+  <tr><td></td><td></td><td>J , L , G_(S) , G_(V) [ chen2010 ] ; surface symmetry energy,</td></tr>
+  <tr><td></td><td></td><td>Landau parameters G_(o)(ρ_(o) ), G_(1)(ρ_(o) ), G^()_(o)(ρ_(o) ), G^()_(1)(ρ_(o) )</td></tr>
+  <tr><td>NRAPR</td><td>APR and Skyrme EoS</td><td>density dependence of effective masses as predicted by APR,</td></tr>
+  <tr><td></td><td>of NM (a comparison)</td><td>spin-orbit splitting from charge radii and binding energies of ^((208)) Pb, ^((90)) Zr, ^((90)) Ca</td></tr>
+  <tr><td>Ska25s20</td><td>Hartree-Fock</td><td>binding energy, charge radii and single-particle energies</td></tr>
+  <tr><td>Ska35s20</td><td></td><td>Friedman-Pandharipande EoS</td></tr>
+  <tr><td>SKRA</td><td>Brueckner-Hartree-Fock</td><td>nuclear matter properties:</td></tr>
+  <tr><td></td><td>with relativistic corrections</td><td>ρ_(o) , E_(o) , K_(o) ,</td></tr>
+  <tr><td></td><td>and 3-body forces</td><td>ground state properties of finite nuclei</td></tr>
+  <tr><td>SkT1</td><td>Hartree-Fock</td><td>nuclear masses and radii</td></tr>
+  <tr><td></td><td>Extended Thomas-Fermi</td><td>liquid drop mass formula constraints</td></tr>
+  <tr><td>SkT2</td><td></td><td>The same as SkT1 + increase spin-orbit strength</td></tr>
+  <tr><td>SkT3</td><td></td><td>The same as SkT1 + change in gradient symmetry term</td></tr>
+  <tr><td>Skxs20</td><td>Hartree-Fock</td><td>binding energy of doubly magic and semi-magic nuclei, rms charge radii,</td></tr>
+  <tr><td></td><td></td><td>single-particle energies, binding energy difference ^((48)) Ni- ^((48)) Ca,</td></tr>
+  <tr><td></td><td></td><td>effective mass constrained to be close to unity up to 10 ρ_(o)</td></tr>
+  <tr><td>SQMC650,700</td><td>Quark-Meson</td><td>comparison for the Skyrme (SkM*) and QMC Hamiltonians;</td></tr>
+  <tr><td></td><td>Coupling model</td><td>free parameter: mass of the σ meson 650 and 700 MeV</td></tr>
+  <tr><td></td><td>Hartree-Fock</td><td></td></tr>
+  <tr><td>SV-sym32</td><td>Hartree-Fock</td><td>properties of finite nuclei (energies, radii and surface thickness),</td></tr>
+  <tr><td></td><td></td><td>energies of giant resonances,</td></tr>
+  <tr><td></td><td></td><td>systematic variations of selected nuclear matter properties</td></tr>
+</table>

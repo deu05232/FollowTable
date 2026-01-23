@@ -1,0 +1,12 @@
+# Extended Basic Differentiation Rules (General Form Patterns)
+
+| Rule (named) | Function pattern | Derivative result |
+| --- | --- | --- |
+| General Power (Chain-ready) | d/dx[(u(x))^n] | n·(u(x))^(n−1)·u'(x) |
+| Reciprocal Rule | d/dx[1/u(x)] | −u'(x)/(u(x))^2 |
+| Quotient Rule (alternate form) | d/dx[u(x)/v(x)] | (u'(x)v(x) − u(x)v'(x)) / (v(x))^2 |
+| Product Rule (multiple factors) | d/dx[∏_{k=1}^m f_k(x)] | (∏_{k=1}^m f_k(x)) · \(\sum_{k=1}^m \frac{f_k'(x)}{f_k(x)}\) |
+| Constant Rule (re-stated) | d/dx[c] | 0 |
+| Linearity (combined) | d/dx[ a f(x) + b g(x) ] | a f'(x) + b g'(x) (a,b constants) |
+| Derivative of a Constant Shift | d/dx[f(x)+c] | f'(x) |
+| Derivative of a Difference from Constant | d/dx[c−f(x)] | −f'(x) |

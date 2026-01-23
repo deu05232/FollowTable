@@ -1,0 +1,14 @@
+<table>
+  <caption>Tire Manufacturing Data Governance Index (Data Catalog Excerpt)</caption>
+  <thead>
+    <tr><th>Dataset Name</th><th>System of Record</th><th>Owner</th><th>Update Frequency</th><th>Retention</th><th>Contains PII</th><th>Example Field</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mixing_Batch_History</td><td>MES</td><td>Process Engineering</td><td>Per batch</td><td>5 years</td><td>No</td><td>Batch_ID</td></tr>
+    <tr><td>Extruder_Speed_Tags</td><td>SCADA</td><td>Automation</td><td>1 s</td><td>18 months</td><td>No</td><td>Screw_Speed_RPM</td></tr>
+    <tr><td>TBM_Encoder_Stream</td><td>Historian</td><td>Automation</td><td>100 ms</td><td>12 months</td><td>No</td><td>Cut_Length_Count</td></tr>
+    <tr><td>Curing_Press_Events</td><td>MES</td><td>Manufacturing</td><td>Per event</td><td>7 years</td><td>No</td><td>Press_State</td></tr>
+    <tr><td>Final_Inspection_Results</td><td>QMS</td><td>Quality</td><td>Per tire</td><td>10 years</td><td>No</td><td>Grade_Code</td></tr>
+    <tr><td>Customer_Complaints</td><td>CRM</td><td>After-Sales</td><td>Daily</td><td>10 years</td><td>Yes</td><td>Complaint_Text</td></tr>
+  </tbody>
+</table>

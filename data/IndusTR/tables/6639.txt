@@ -1,0 +1,13 @@
+<table>
+  <caption>Spherical Harmonic Coefficient Field Map for Ionospheric Delay Correction Message (By Payload Role)</caption>
+  <thead>
+    <tr><th>Payload Role</th><th>Coefficient</th><th>Data Field ID</th><th>Field Name</th><th>Encoding</th><th>Bits</th><th>Usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Coefficient correction terms</td><td>Cnm (Cosine)</td><td>DF476</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>Signed integer</td><td>16</td><td>Apply as correction coefficient value</td></tr>
+    <tr><td>Snm (Sine)</td><td>DF477</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>Signed integer</td><td>16</td><td>Apply as correction coefficient value</td></tr>
+    <tr><td rowspan="2">Coefficient accuracy terms</td><td>Cnm accuracy (Cosine)</td><td>DF489</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>Unsigned integer</td><td>8</td><td>Represents accuracy/quality indicator for Cnm</td></tr>
+    <tr><td>Snm accuracy (Sine)</td><td>DF490</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>Unsigned integer</td><td>8</td><td>Represents accuracy/quality indicator for Snm</td></tr>
+    <tr><td colspan="7">Exclusions: message type, epoch time, update interval, thin-shell height, degree, and order are not included because they do not define coefficient fields.</td></tr>
+  </tbody>
+</table>

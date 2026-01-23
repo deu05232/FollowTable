@@ -1,0 +1,15 @@
+<table>
+  <caption>Auxiliary / Engineering / Geolocation Abbreviation Codes in Satellite Products</caption>
+  <thead>
+    <tr><th>Category</th><th>Item Name</th><th>Short Code</th><th>What It Represents</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Calibration</td><td>On-board calibration packet</td><td>OBC</td><td>Instrument calibration information used to correct radiances</td></tr>
+    <tr><td>Engineering</td><td>Housekeeping / engineering telemetry</td><td>ENG</td><td>Instrument status, voltages, temperatures</td></tr>
+    <tr><td>Navigation</td><td>Geolocation latitude/longitude</td><td>GEO</td><td>Pixel geolocation arrays, not a geophysical product</td></tr>
+    <tr><td>Navigation</td><td>Attitude and orbit information</td><td>AUX</td><td>Ancillary spacecraft attitude/orbit data</td></tr>
+    <tr><td>Quality</td><td>Quality flags</td><td>QF</td><td>Bitmask flags describing retrieval/measurement quality</td></tr>
+    <tr><td>Processing</td><td>Lookup table</td><td>LUT</td><td>Auxiliary coefficients for calibration/retrieval algorithms</td></tr>
+    <tr><td>Timing</td><td>Scan time information</td><td>TIME</td><td>Timestamps per scan/pixel used for georeferencing</td></tr>
+  </tbody>
+</table>

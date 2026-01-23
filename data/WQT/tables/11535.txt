@@ -1,0 +1,11 @@
+# Streaming and Transport Protocol Support for DLNA-like Home Media Setups
+
+| Platform / device category | HTTP | HTTPS | RTSP | RTP | HLS | MPEG-DASH | SMB | NFS | WebDAV | DLNA discovery (SSDP) | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Smart TV (mid-range) | Yes | Partial | No | No | Yes | Partial | No | No | No | Yes | Often prefers HTTP-based playback |
+| Set-top box | Yes | Yes | Partial | Partial | Yes | Yes | No | No | No | Yes | May require transcoding server |
+| Game console | Yes | Yes | No | No | Yes | Yes | Partial | No | No | Yes | Strong app ecosystem |
+| Android phone | Yes | Yes | Partial | Partial | Yes | Yes | Yes | Partial | Yes | Yes | Can act as controller or renderer |
+| iOS device | Yes | Yes | No | No | Yes | Yes | Partial | No | Yes | Partial | AirPlay often used instead |
+| Windows PC player | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Protocol-rich environment |
+| NAS media server | Yes | Yes | Partial | No | No | No | Yes | Yes | Yes | Yes | Hosts content, not necessarily plays it |

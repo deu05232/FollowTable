@@ -1,0 +1,8 @@
+<table>
+  <caption>Client Margin Depository Bank Account Field Definitions</caption>
+  <tr><td>Serial No.</td><td>Field Identifier</td><td>Field Chinese Name</td><td>Field Type</td><td>Field Length</td><td>Nullable</td><td>Value Description</td></tr>
+  <tr><td>1</td><td>accountname</td><td>Account Name</td><td>C</td><td>100</td><td>N</td><td>Shall be the same as the content of the client-name field in the client type message</td></tr>
+  <tr><td>2</td><td>bankid</td><td>Margin Depository Bank Code</td><td>C</td><td>2</td><td>N</td><td>Account-opening bank; the value is DM002 code (shall comply with the relevant provisions of A.2 in Appendix A)</td></tr>
+  <tr><td>3</td><td>accountno</td><td>Bank Account Number</td><td>C</td><td>30</td><td>N</td><td></td></tr>
+  <tr><td>4</td><td>branchname</td><td>Account-opening Branch Outlet</td><td>C</td><td>60</td><td>N</td><td></td></tr>
+</table>

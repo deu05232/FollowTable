@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Receiver Sampling and Jitter Measurement Periods vs Data Rate</caption>
+  <thead>
+    <tr><th>Data Rate</th><th>UI (ps)</th><th>Recommended Sample Window</th><th>Jitter Integration Time</th><th>Histogram Bin Width</th><th>Test Instrument Mode</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1.000 Gbit/s</td><td>1000</td><td>0.70 UI</td><td>1 s</td><td>2 ps</td><td>Real-time scope</td></tr>
+    <tr><td>1.250 Gbit/s</td><td>800</td><td>0.70 UI</td><td>1 s</td><td>2 ps</td><td>Real-time scope</td></tr>
+    <tr><td>2.000 Gbit/s</td><td>500</td><td>0.65 UI</td><td>0.8 s</td><td>1 ps</td><td>Real-time scope</td></tr>
+    <tr><td>2.500 Gbit/s</td><td>400</td><td>0.65 UI</td><td>0.8 s</td><td>1 ps</td><td>Real-time scope</td></tr>
+    <tr><td>3.125 Gbit/s</td><td>320</td><td>0.60 UI</td><td>0.6 s</td><td>0.5 ps</td><td>Sampling scope</td></tr>
+    <tr><td>4.000 Gbit/s</td><td>250</td><td>0.60 UI</td><td>0.6 s</td><td>0.5 ps</td><td>Sampling scope</td></tr>
+    <tr><td>5.000 Gbit/s</td><td>200</td><td>0.55 UI</td><td>0.5 s</td><td>0.5 ps</td><td>Sampling scope</td></tr>
+    <tr><td>6.250 Gbit/s</td><td>160</td><td>0.55 UI</td><td>0.5 s</td><td>0.25 ps</td><td>Sampling scope</td></tr>
+  </tbody>
+</table>

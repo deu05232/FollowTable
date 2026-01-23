@@ -1,0 +1,12 @@
+<table>
+  <caption>Linewidth (inverse lifetime) of Shockley states, in meV. The lifetime in fs ( 1 ⁢ fs = 10 - 15 ⁢ s ) is obtained by noting that ℏ = 658 ⁢ meV ⁢ fs . The numbers in brackets represent the corresponding references. The calculated values ( Γ c ⁢ a ⁢ l ⁢ c ) are decomposed into e-e ( Γ e - e ) and e-ph ( Γ e - p ⁢ h ) contributions. Since G ⁢ W ⁢ Γ e-e linewidths are found to be very close to their G 0 ⁢ W 0 counterparts, only G 0 ⁢ W 0 calculations of the e-e linewidth are included here. In the case of Be(0001), calculations have been performed either with the use of the 1D scheme of Chulkov et al. [ chulkov1 ] , as reported in Ref. [ chulal ] , or via a fully ab initio scheme along the lines of Sec. LABEL:periodic , as reported in Ref. [ chulbe ] . In the case of Cu(111), calculations have been performed either with the use of the 𝐤 -dependent 1D model potential of Eq. ( LABEL:model ), as reported in Ref. [ maia1 ] , or with the use of the 1D scheme of Chulkov et al. [ chulkov1 ] , as reported in Refs. [ science ] and [ echeap ] .</caption>
+  <tr><th></th><th>Γ_(e-e)</th><th>Γ_(e-ph)</th><th>Γ_(calc)</th><th>Exp.</th></tr>
+  <tr><td>Al(111)</td><td>336 [ chulal ]</td><td>36 [ chulal ]</td><td>372</td><td>~ 1500 [ kevan1 ]</td></tr>
+  <tr><td>Mg(0001)</td><td>83 [ chulal ]</td><td>25 [ chulal ]</td><td>108</td><td>~ 500 [ kevan1 ]</td></tr>
+  <tr><td>Be(0001)</td><td>280 [ chulal ]</td><td>80 [ chulbe ]</td><td>360</td><td></td></tr>
+  <tr><td></td><td>265 [ chulbe ]</td><td>80 [ chulbe ]</td><td>345</td><td>350 [ chulbe ]</td></tr>
+  <tr><td>Cu(111)</td><td>25 [ science , echeap ]</td><td>7 [ eiguren2 ]</td><td>32</td><td></td></tr>
+  <tr><td></td><td>19 [ maia1 ]</td><td>7 [ eiguren2 ]</td><td>26</td><td>24 [ science ]</td></tr>
+  <tr><td>Ag(111)</td><td>3 [ science , echeap ]</td><td>4 [ eiguren2 ]</td><td>7</td><td>6.5 [ science ]</td></tr>
+  <tr><td>Au(111)</td><td>29 [ science , echeap ]</td><td>4 [ eiguren2 ]</td><td>33</td><td>18 [ science ]</td></tr>
+</table>

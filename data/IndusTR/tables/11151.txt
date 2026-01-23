@@ -1,0 +1,15 @@
+<table>
+  <caption>Early Warning Schema — Location & Segment Identification Elements (Non-temporal)</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Requirements or Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Warning Location Name</td><td>Character</td><td>256</td><td>No</td><td>Yes</td><td>Human-readable location name including road name, intersection name, nearby landmark.</td></tr>
+    <tr><td>2</td><td>Administrative Division Code</td><td>Character</td><td>12</td><td>No</td><td>Yes</td><td>County-level code; align with national administrative division coding rules.</td></tr>
+    <tr><td>3</td><td>Road Segment Type</td><td>Character</td><td>4</td><td>Yes</td><td>Yes</td><td>Code list: expressway/arterial/local/other.</td></tr>
+    <tr><td>4</td><td>Start Reference Point Description</td><td>Character</td><td>512</td><td>Yes</td><td>No</td><td>Text description for start point; may include mileage stake or landmark.</td></tr>
+    <tr><td>5</td><td>End Reference Point Description</td><td>Character</td><td>512</td><td>Yes</td><td>No</td><td>Text description for end point; may include mileage stake or landmark.</td></tr>
+    <tr><td>6</td><td>Direction of Travel</td><td>Character</td><td>8</td><td>Yes</td><td>Yes</td><td>Examples: N/S/E/W, inbound/outbound.</td></tr>
+    <tr><td>7</td><td>Lane Count</td><td>Integer</td><td>2</td><td>Yes</td><td>Yes</td><td>Number of lanes in the affected segment.</td></tr>
+  </tbody>
+</table>

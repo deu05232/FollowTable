@@ -1,0 +1,22 @@
+<table>
+  <caption>Spunbond Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Current Hopper Percentage</td><td>TheCurrentPercentageOfTheHopper</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X0301</td><td>Cumulative Hopper Material Consumption</td><td>AccumulatedMaterialConsumptionOfHopper</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~9999999.00</td><td>kg</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0302</td><td>Screw Zone Temperature</td><td>ScrewZoneTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td></td><td></td></tr>
+  <tr><td>0X0303</td><td>Spinning Box Zone Temperature</td><td>SpinningBoxZoneTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>一</td><td>一</td></tr>
+  <tr><td>0X0304</td><td>Melt Pipe Zone Temperature</td><td>MeltPipeZone Temperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X0305</td><td>Biphenyl Boiler Temperature</td><td>BiphenylBoilerTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td></td><td></td></tr>
+  <tr><td>0X0306</td><td>Dry-burn Protection Temperature</td><td>Anti-dryTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>℃</td><td>一</td><td>1</td></tr>
+  <tr><td>0X0307</td><td>Crossflow Air Blow Temperature</td><td>QuenchAirTemperature</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>℃</td><td></td><td></td></tr>
+  <tr><td>0X0308</td><td>Pre-filtration Pressure</td><td>Pre-FiltrationPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X0309</td><td>Post-filtration Pressure</td><td>After-FiltrationPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X030A</td><td>Spinning Box Pressure</td><td>SpinningBoxPressure</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~40.00</td><td>MPa</td><td></td><td></td></tr>
+  <tr><td>0X030B</td><td>Metering Pump Speed</td><td>MeteringPumpSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X030C</td><td>Crossflow Air Blower Fan Speed</td><td>QuenchBlowerFanSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X030D</td><td>Single-unit Suction Fan Speed</td><td>SpeedOfSingleSuctionFan</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X030E</td><td>Suction Fan Speed</td><td>SuctionF anSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1500.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X030F</td><td>Basis Weight Estimation Display</td><td>GramWeightEstimationShows</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~300.00</td><td>g/m</td><td></td><td></td></tr>
+  <tr><td>0X0310</td><td>Capacity Estimation Display</td><td>CapacityEstimatesShow</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~5 000.00</td><td>kg/h</td><td></td><td></td></tr>
+  <tr><td>0X0311</td><td>Expandable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+</table>

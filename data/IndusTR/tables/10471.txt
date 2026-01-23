@@ -1,0 +1,15 @@
+<table>
+  <caption>Qualification Checklist for Synthesized Frequency Sources (Mixed Electrical, Mechanical, and Reliability Items)</caption>
+  <thead>
+    <tr><th>Category</th><th>Test Item</th><th>Severity / Level</th><th>Duration / Cycles</th><th>Sample Size</th><th>Pass Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Visual</td><td>Marking permanence</td><td>Solvent rub</td><td>10 strokes</td><td>5 units</td><td>Marking remains legible</td></tr>
+    <tr><td>Electrical</td><td>Frequency accuracy (25 °C)</td><td>Nominal supply</td><td>N/A</td><td>5 units</td><td>Within datasheet tolerance</td></tr>
+    <tr><td>Electrical</td><td>Phase noise spot check</td><td>Carrier offset 10 kHz</td><td>N/A</td><td>3 units</td><td>Within limit at specified offset</td></tr>
+    <tr><td>Mechanical</td><td>Vibration</td><td>10–2000 Hz, 20 g</td><td>20 min/axis</td><td>3 units</td><td>No intermittent output loss</td></tr>
+    <tr><td>Environmental</td><td>Thermal shock</td><td>-55 °C / +125 °C</td><td>50 cycles</td><td>3 units</td><td>No mechanical damage; param within limits</td></tr>
+    <tr><td>Reliability</td><td>Electrical endurance</td><td>Biased at max rated Vdd</td><td>3000 h (K) / 2000 h (L)</td><td>3 units</td><td>Post-stress electrical parameters within limits</td></tr>
+    <tr><td>Packaging</td><td>Seal / leak check</td><td>Fine leak</td><td>Per method</td><td>5 units</td><td>Leak rate below threshold</td></tr>
+  </tbody>
+</table>

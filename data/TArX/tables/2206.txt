@@ -1,0 +1,26 @@
+<table>
+  <caption>Magnetic states of different systems calculated at the DFT/GGA/PAW level of theory. “State” denotes states with different magnetic ordering: NM (non-magnetic), FM (ferromagnetic), AFM (antiferromagnetic). N at is the number of atoms per unit cell. μ is the total magnetic moment per unit cell. E tot is the total energy per unit cell. Δ ⁢ E mag is defined in Eq. LABEL:eqn:E_mag .</caption>
+  <tr><th>System</th><th>State</th><th>N_()</th><th>μ</th><th>E_()</th><th>Δ E_()</th></tr>
+  <tr><th></th><th></th><th></th><th>( μ_() )</th><th>(eV)</th><th>(meV/at)</th></tr>
+  <tr><td>10-ZGNR</td><td>NM</td><td>60</td><td>0.0</td><td>-535.04379</td><td>269</td></tr>
+  <tr><td></td><td>FM</td><td>60</td><td>7.7</td><td>-536.62974</td><td>4</td></tr>
+  <tr><td></td><td>AFM</td><td>60</td><td>0.0</td><td>-536.64359</td><td>0</td></tr>
+  <tr><td>12-ZGNR</td><td>NM</td><td>72</td><td>0.0</td><td>-645.97119</td><td>265</td></tr>
+  <tr><td></td><td>FM</td><td>72</td><td>7.7</td><td>-647.54796</td><td>2</td></tr>
+  <tr><td></td><td>AFM</td><td>72</td><td>0.0</td><td>-647.56282</td><td>0</td></tr>
+  <tr><td>10-ZGNR+H</td><td>NM</td><td>66</td><td>0.0</td><td>-573.24160</td><td>27</td></tr>
+  <tr><td></td><td>FM</td><td>66</td><td>1.4</td><td>-573.36746</td><td>6</td></tr>
+  <tr><td></td><td>AFM</td><td>66</td><td>0.0</td><td>-573.40631</td><td>0</td></tr>
+  <tr><td>12-ZGNR+H</td><td>NM</td><td>78</td><td>0.0</td><td>-684.05304</td><td>29</td></tr>
+  <tr><td></td><td>FM</td><td>78</td><td>1.4</td><td>-684.20262</td><td>4</td></tr>
+  <tr><td></td><td>AFM</td><td>78</td><td>0.0</td><td>-684.22471</td><td>0</td></tr>
+  <tr><td>10-ZGNR+EV</td><td>NM</td><td>59</td><td>0.0</td><td>-527.32015</td><td>260</td></tr>
+  <tr><td></td><td>FM</td><td>59</td><td>4.0</td><td>-528.09920</td><td>0</td></tr>
+  <tr><td>10-ZGNR+EV+H</td><td>NM</td><td>64</td><td>0.0</td><td>-557.08600</td><td>33</td></tr>
+  <tr><td></td><td>FM</td><td>64</td><td>1.0</td><td>-557.18430</td><td>0 ^(({a))</td></tr>
+  <tr><td>Fe</td><td>NM</td><td>1</td><td>0.0</td><td>-7.7566476</td><td>395</td></tr>
+  <tr><td></td><td>FM</td><td>1</td><td>2.1</td><td>-8.1517557</td><td>0</td></tr>
+  <tr><td>NiO</td><td>NM</td><td>12</td><td>0.0</td><td>-68.678312</td><td>244</td></tr>
+  <tr><td></td><td>FM</td><td>12</td><td>4.8</td><td>-68.722936</td><td>237</td></tr>
+  <tr><td></td><td>AFM</td><td>12</td><td>0.0</td><td>-70.142254</td><td>0</td></tr>
+</table>

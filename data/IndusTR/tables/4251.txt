@@ -1,0 +1,10 @@
+<table>
+  <caption>Finished Product BOM Structure Relationship Object Attribute List</caption>
+  <tr><td>No.</td><td>Attribute</td><td>Comment</td></tr>
+  <tr><td>1</td><td>Parent Part Number</td><td>Component/part code as the parent part</td></tr>
+  <tr><td>2</td><td>Parent Part Version</td><td>Component/part version as the parent part</td></tr>
+  <tr><td>3</td><td>Child Part Number</td><td>Component/part/material code as the child part</td></tr>
+  <tr><td>4</td><td>Child Part Version</td><td>Component/part version/material batch serial as the child part</td></tr>
+  <tr><td>5</td><td>Quantity</td><td>Quantity of the child part</td></tr>
+  <tr><td>6</td><td>Unit of Measure</td><td>Unit of measure used for the child part quantity</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory QA QC Checklist for Aquatic Ecological Monitoring (Method Summary)</caption>
+  <thead>
+    <tr><th>QA/QC Item</th><th>Instrument/Process</th><th>Acceptance Criteria</th><th>Frequency</th><th>Responsible Role</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Calibration verification</td><td>DO probe</td><td>Drift ≤ ±0.2 mg/L</td><td>Daily</td><td>Field technician</td><td>QA-DO-01</td></tr>
+    <tr><td>Duplicate samples</td><td>Water sampling</td><td>RPD ≤ 10%</td><td>1 per 10 samples</td><td>Sampler</td><td>QA-SMP-02</td></tr>
+    <tr><td>Blank control</td><td>Reagent blank</td><td>Below reporting limit</td><td>Per batch</td><td>Lab analyst</td><td>QA-LAB-03</td></tr>
+    <tr><td>Chain of custody</td><td>Sample transport</td><td>All fields completed</td><td>Per shipment</td><td>Project manager</td><td>QA-COC-04</td></tr>
+    <tr><td>Data review</td><td>Database entry</td><td>100% second-person check</td><td>Weekly</td><td>Data manager</td><td>QA-DATA-05</td></tr>
+    <tr><td>Audit</td><td>Full workflow</td><td>No major nonconformities</td><td>Quarterly</td><td>QA officer</td><td>QA-AUD-06</td></tr>
+  </tbody>
+</table>

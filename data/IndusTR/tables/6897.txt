@@ -1,0 +1,7 @@
+<table>
+  <caption>Battery charging demand message (BCL) payload signals</caption>
+  <tr><th>Start Byte or Bit</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Send Option</th></tr>
+  <tr><td>1</td><td>2 bytes</td><td>3001</td><td>Requested charging voltage</td><td>Required</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>3002</td><td>Requested charging current</td><td>Required</td></tr>
+  <tr><td>5</td><td>1 byte</td><td>3003</td><td>Charging mode request</td><td>Optional</td></tr>
+</table>

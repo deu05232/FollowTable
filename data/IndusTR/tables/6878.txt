@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Trackable Handle Passing APIs (Input-Only Signatures)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArTrackable_release</td><td>trackable</td><td>ArTrackable*</td><td>in</td><td>Trackable handle to release; no data is returned.</td></tr>
+    <tr><td>ArTrackableList_destroy</td><td>trackable_list</td><td>ArTrackableList*</td><td>in</td><td>Destroys a list previously created; no outputs.</td></tr>
+    <tr><td>ArSession_acquireCamera</td><td>session</td><td>ArSession*</td><td>in</td><td>AR session handle passed in for camera acquisition context.</td></tr>
+    <tr><td>ArSession_acquireCamera</td><td>camera_out</td><td>ArCamera*</td><td>out</td><td>Reserved pointer parameter but not populated in this stub table.</td></tr>
+    <tr><td>ArTrackable_setUserTag</td><td>trackable</td><td>ArTrackable*</td><td>in</td><td>The trackable to tag.</td></tr>
+    <tr><td>ArTrackable_setUserTag</td><td>tag_utf8</td><td>const char*</td><td>in</td><td>User-provided UTF-8 tag string.</td></tr>
+    <tr><td>ArTrackable_setUserTag</td><td>tag_length</td><td>int32_t</td><td>in</td><td>Length of the tag string.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>trackable_list</td><td>ArTrackableList*</td><td>in</td><td>List handle passed in.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>index</td><td>int32_t</td><td>in</td><td>Index of the element to access.</td></tr>
+  </tbody>
+</table>

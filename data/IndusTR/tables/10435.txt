@@ -1,0 +1,15 @@
+<table>
+  <caption>Chiller Performance Requirements by Product Type (Efficiency + Noise + Refrigerant)</caption>
+  <thead>
+    <tr><th rowspan="2">Product category</th><th rowspan="2">Compressor type</th><th rowspan="2">Cooling method</th><th rowspan="2">Capacity range (kW)</th><th colspan="2">Efficiency targets</th><th rowspan="2">Max sound pressure dB(A)</th><th rowspan="2">Refrigerant</th></tr>
+    <tr><th>COP (kW/kW)</th><th>ACCOP (kW/kW)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Comfort chiller</td><td>Screw</td><td>Water-cooled</td><td>CC≤300</td><td>6.20</td><td>7.10</td><td>80</td><td>R134a</td></tr>
+    <tr><td>Comfort chiller</td><td>Screw</td><td>Water-cooled</td><td>300<CC≤528</td><td>6.60</td><td>7.40</td><td>82</td><td>R134a</td></tr>
+    <tr><td>Comfort chiller</td><td>Centrifugal</td><td>Water-cooled</td><td>528<CC≤1163</td><td>7.10</td><td>7.90</td><td>85</td><td>R1234ze</td></tr>
+    <tr><td>Process chiller</td><td>Screw</td><td>Air-cooled</td><td>50<CC≤300</td><td>3.60</td><td>4.10</td><td>78</td><td>R410A</td></tr>
+    <tr><td>Process chiller</td><td>Scroll</td><td>Air-cooled</td><td>CC≤50</td><td>3.30</td><td>3.80</td><td>75</td><td>R32</td></tr>
+    <tr><td>Process chiller</td><td>Magnetic bearing</td><td>Water-cooled</td><td>CC>1163</td><td>7.40</td><td>8.20</td><td>88</td><td>R1234ze</td></tr>
+  </tbody>
+</table>

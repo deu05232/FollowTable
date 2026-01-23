@@ -1,0 +1,15 @@
+<table>
+  <caption>C3h Command Data Segment (Per-Device Output State Map)</caption>
+  <thead>
+    <tr><th>Byte Offset (from start of Data)</th><th>Field</th><th>Applies To</th><th>Type / Size</th><th>Allowed Values</th><th>Meaning (Application-Level)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>EC0</td><td>Device #0</td><td>U8 (1 byte)</td><td>00h–03h</td><td>Requested operating state for device #0 (e.g., 00h=Stop, 01h=Run, 02h=Auto, 03h=Alarm Reset)</td></tr>
+    <tr><td>1</td><td>EC1</td><td>Device #1</td><td>U8 (1 byte)</td><td>00h–03h</td><td>Requested operating state for device #1</td></tr>
+    <tr><td>2</td><td>EC2</td><td>Device #2</td><td>U8 (1 byte)</td><td>00h–03h</td><td>Requested operating state for device #2</td></tr>
+    <tr><td>3</td><td>EC3</td><td>Device #3</td><td>U8 (1 byte)</td><td>00h–03h</td><td>Requested operating state for device #3</td></tr>
+    <tr><td>4</td><td>EC4</td><td>Device #4</td><td>U8 (1 byte)</td><td>00h–03h</td><td>Requested operating state for device #4</td></tr>
+    <tr><td>5</td><td>EC5</td><td>Device #5</td><td>U8 (1 byte)</td><td>00h–03h</td><td>Requested operating state for device #5</td></tr>
+    <tr><td colspan="6">Hierarchy / rule:The number of ECn bytes equals the device count reported by the controller. Length = N (bytes) where N is the number of controlled devices addressed by this sub-unit.</td></tr>
+  </tbody>
+</table>

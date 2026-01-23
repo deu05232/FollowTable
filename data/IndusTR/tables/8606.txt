@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Camera API Parameters: Query Supported Stream Sizes</caption>
+  <thead>
+    <tr><th>Section</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Context</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>in</td><td>Camera handle.</td></tr>
+    <tr><td rowspan="3">Format</td><td>stream_format</td><td>int32_t</td><td>in</td><td>Pixel format identifier.</td></tr>
+    <tr><td>target_fps</td><td>int32_t</td><td>in</td><td>Desired frames per second.</td></tr>
+    <tr><td>use_hdr</td><td>bool</td><td>in</td><td>Whether HDR is requested.</td></tr>
+    <tr><td rowspan="3">Outputs</td><td>out_count</td><td>int32_t *</td><td>out</td><td>Number of supported sizes returned.</td></tr>
+    <tr><td>out_widths</td><td>int32_t *</td><td>out</td><td>Caller-allocated array for widths.</td></tr>
+    <tr><td>out_heights</td><td>int32_t *</td><td>out</td><td>Caller-allocated array for heights.</td></tr>
+  </tbody>
+</table>

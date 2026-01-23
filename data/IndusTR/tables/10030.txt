@@ -1,0 +1,15 @@
+<table>
+  <caption>Network Management Terminal Message Header (Identifiers + Mode Settings)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Inbound user ID</td><td>1–16777215</td><td></td><td>Inbound address of the reporting terminal</td></tr>
+    <tr><td>2</td><td>Station entry sequence number</td><td>0–31</td><td></td><td>Lower 5 bits of inbound sequence (binary encoded)</td></tr>
+    <tr><td>3</td><td>Recipient ID</td><td>1–16777215</td><td></td><td>Management center recipient address</td></tr>
+    <tr><td>4</td><td>Network management information type</td><td>1–6</td><td></td><td>1: power-on; 2: power-off; 3: silence request; 4: emergency SAR; 5: ack; 6: fault report</td></tr>
+    <tr><td>5</td><td>Service mode</td><td>0–3</td><td></td><td>0: standard; 1: low-power; 2: test; 3: reserved</td></tr>
+    <tr><td>6</td><td>Output control</td><td>0–1</td><td></td><td>0: suppress output; 1: enable output</td></tr>
+    <tr><td>7</td><td>Reserved flags</td><td>0–255</td><td></td><td>Bitmask for future operational extensions</td></tr>
+  </tbody>
+</table>

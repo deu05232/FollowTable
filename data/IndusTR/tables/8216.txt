@@ -1,0 +1,14 @@
+<table>
+  <caption>ArHitResultList Queries for Processing Hit-Test Outputs</caption>
+  <thead>
+    <tr><th>Function</th><th>Inputs</th><th>Outputs</th><th>Notes for Hit Handling</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResultList_getSize</td><td>ArSession* session, ArHitResultList* hit_result_list</td><td>int32_t* out_size</td><td>Get count of hits to iterate through all intersections.</td></tr>
+    <tr><td>ArHitResultList_getItem</td><td>ArSession* session, ArHitResultList* hit_result_list, int32_t index</td><td>ArHitResult* out_hit_result</td><td>Fetch a hit result for reading distance/pose/trackable via ArHitResult getters.</td></tr>
+    <tr><td>ArHitResultList_getClosest</td><td>ArSession* session, ArHitResultList* hit_result_list</td><td>ArHitResult* out_hit_result</td><td>Convenience helper to retrieve the smallest-distance hit (if supported).</td></tr>
+    <tr><td>ArHitResultList_filterByTrackableType</td><td>ArSession* session, ArHitResultList* hit_result_list, ArTrackableType type</td><td>int32_t* out_remaining</td><td>In-place filter so subsequent reads focus on planes/points/meshes only.</td></tr>
+    <tr><td>ArHitResultList_sortByDistance</td><td>ArSession* session, ArHitResultList* hit_result_list</td><td>void</td><td>Sorts hits so index 0 can be treated as nearest for collision response.</td></tr>
+    <tr><td>ArHitResultList_getFirstValidPose</td><td>ArSession* session, ArHitResultList* hit_result_list</td><td>ArPose* out_pose</td><td>Helper to extract a pose directly from the first valid hit (when supported).</td></tr>
+  </tbody>
+</table>

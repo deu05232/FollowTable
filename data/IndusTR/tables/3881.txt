@@ -1,0 +1,7 @@
+<table>
+  <caption>Correspondence Between Ionospheric Delay Correction Region Types and Modeling Strategies</caption>
+  <tr><td>Region type identifier</td><td>TEC type</td><td>Function type</td></tr>
+  <tr><td>0: Global region identifier</td><td>VTEC</td><td>Spherical harmonic function</td></tr>
+  <tr><td>1: Wide-area region identifier</td><td>VTEC</td><td>Adjusted spherical harmonic function</td></tr>
+  <tr><td>2: Local region identifier</td><td>STEC</td><td>Standard polynomial - Chebyshev polynomial</td></tr>
+</table>

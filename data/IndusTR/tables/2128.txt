@@ -1,0 +1,10 @@
+<table>
+  <caption>Arithmetic Operator Error Codes and Troubleshooting Index</caption>
+  <tr><th>Error Code</th><th>Message</th><th>Severity</th><th>Likely Cause</th><th>Recommended Action</th></tr>
+  <tr><td>ARITH-001</td><td>Shape mismatch</td><td>High</td><td>Broadcast rules not satisfied</td><td>Validate tensor dimensions before call</td></tr>
+  <tr><td>ARITH-004</td><td>Unsupported dtype</td><td>Medium</td><td>Kernel not registered for dtype</td><td>Cast input to supported type</td></tr>
+  <tr><td>ARITH-010</td><td>Division by zero</td><td>High</td><td>Input contains zeros</td><td>Clamp denominator or add epsilon</td></tr>
+  <tr><td>ARITH-021</td><td>Device not available</td><td>Medium</td><td>Runtime cannot access accelerator</td><td>Check driver and permissions</td></tr>
+  <tr><td>ARITH-033</td><td>Kernel timeout</td><td>Low</td><td>Large workload on shared device</td><td>Increase timeout or reduce batch</td></tr>
+  <tr><td>ARITH-050</td><td>Internal status unknown</td><td>High</td><td>Unexpected runtime failure</td><td>Collect logs and contact support</td></tr>
+</table>

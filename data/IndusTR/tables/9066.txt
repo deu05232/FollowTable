@@ -1,0 +1,16 @@
+<table>
+  <caption>Traditional Mongolian Mandatory Ligatures — Identifier Bookkeeping with Partial Codepoint Mentions (Non-pattern)</caption>
+  <thead>
+    <tr><th rowspan="2">Group</th><th colspan="3">Presentation Form</th><th colspan="3">Related Characters (informal)</th><th rowspan="2">Comments</th></tr>
+    <tr><th>No.</th><th>ID</th><th>Glyph</th><th>Lead</th><th>Follower</th><th>Variation Selector</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">A/E-following ligatures</td><td>1</td><td>013D</td><td>Small</td><td>U+183B</td><td>U+1820 or U+1821</td><td>FVS1 optional</td><td>Lists components but not a formal match pattern</td></tr>
+    <tr><td>2</td><td>0133</td><td>Center</td><td>U+183A</td><td>U+1820 or U+1821</td><td>FVS1 optional</td><td>Does not specify word boundaries or ordering syntax</td></tr>
+    <tr><td>3</td><td>0101</td><td>P</td><td>U+182A</td><td>U+1820 or U+1821</td><td>FVS1 optional</td><td>Components shown as prose-like fields</td></tr>
+    <tr><td rowspan="2">N-like ligatures</td><td>4</td><td>010B</td><td>Variant-9</td><td>U+182B</td><td>U+1820 or U+1821</td><td>FVS1 optional</td><td>No bracketed sequence; ambiguous matching</td></tr>
+    <tr><td>5</td><td>0115</td><td>Variant-3</td><td>U+182D</td><td>U+1821</td><td>FVS1 optional</td><td>Mentions code points but not full conversion rule</td></tr>
+    <tr><td rowspan="2">Other ligatures</td><td>6</td><td>0169</td><td>Variant-3</td><td>U+1858</td><td>U+1820 or U+1821</td><td>FVS1 optional</td><td>Bookkeeping table for mapping references</td></tr>
+    <tr><td>7</td><td>0193</td><td>Variant-9</td><td>U+1892</td><td>U+1820 or U+1821</td><td>FVS1 optional</td><td>Still lacks explicit regex-like pattern with WB markers</td></tr>
+  </tbody>
+</table>

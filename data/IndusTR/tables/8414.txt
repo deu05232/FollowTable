@@ -1,0 +1,21 @@
+<table>
+  <caption>Compound Weighing Recipe Setpoints (Target Parameters Only)</caption>
+  <thead>
+    <tr><th>No.</th><th>Group</th><th>Setpoint Field</th><th>Data Type</th><th>Length (bit)</th><th>Unit</th><th>Allowed Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="3">Recipe Identity</td><td>Weighing Recipe No.</td><td>INT</td><td>16</td><td>-</td><td>1–9999</td><td>Weighing recipe identifier for load/save</td></tr>
+    <tr><td>2</td><td>Weighing Recipe Name</td><td>STR</td><td>User-defined</td><td>-</td><td>Max 64 chars</td><td>Name of the weighing parameter set</td></tr>
+    <tr><td>3</td><td>Weighing Recipe Revision</td><td>STR</td><td>User-defined</td><td>-</td><td>e.g., R01…R99</td><td>Revision for controlled changes of setpoints</td></tr>
+    <tr><td>4</td><td rowspan="4">Feeding Speed Targets</td><td>High-speed Feed Setpoint</td><td>FLOAT</td><td>32</td><td>kg/s</td><td>0.01–10.00</td><td>Target high-speed feeding value</td></tr>
+    <tr><td>5</td><td>Medium-speed Feed Setpoint</td><td>FLOAT</td><td>32</td><td>kg/s</td><td>0.01–10.00</td><td>Target medium-speed feeding value</td></tr>
+    <tr><td>6</td><td>Low-speed Feed Setpoint</td><td>FLOAT</td><td>32</td><td>kg/s</td><td>0.01–10.00</td><td>Target low-speed feeding value</td></tr>
+    <tr><td>7</td><td>Jog Feed Setpoint</td><td>FLOAT</td><td>32</td><td>kg/s</td><td>0.001–2.000</td><td>Fine feed/jog target used for final approach</td></tr>
+    <tr><td>8</td><td rowspan="4">Weight Targets</td><td>Gross Weight Target</td><td>FLOAT</td><td>32</td><td>kg</td><td>0.10–50.00</td><td>Configured gross weight target for a batch</td></tr>
+    <tr><td>9</td><td>Net Weight Target</td><td>FLOAT</td><td>32</td><td>kg</td><td>0.10–50.00</td><td>Configured net weight target (tare excluded)</td></tr>
+    <tr><td>10</td><td>Overfill Allowance</td><td>FLOAT</td><td>32</td><td>kg</td><td>0.00–2.00</td><td>Allowed overfill amount as a recipe setpoint</td></tr>
+    <tr><td>11</td><td>Underfill Allowance</td><td>FLOAT</td><td>32</td><td>kg</td><td>0.00–2.00</td><td>Allowed underfill amount as a recipe setpoint</td></tr>
+    <tr><td>12</td><td rowspan="2">Material Set Values</td><td>Compound Material Code Set Value</td><td>STR</td><td>User-defined</td><td>-</td><td>Alphanumeric, max 32</td><td>Configured compound code to be used for this weighing recipe</td></tr>
+    <tr><td>13</td><td>Batch Size Set Value</td><td>INT</td><td>16</td><td>pcs</td><td>1–200</td><td>Number of cuts/batches targeted by this recipe</td></tr>
+  </tbody>
+</table>

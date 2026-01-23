@@ -1,0 +1,12 @@
+# Ambulatory Blood Pressure (ABPM) Thresholds by Time Period
+
+| Measurement context | Category | Systolic threshold (mm Hg) | Diastolic threshold (mm Hg) | How it is used |
+| --- | --- | --- | --- | --- |
+| 24-hour average | Normal | < 125 | < 75 | ABPM overall mean |
+| 24-hour average | Hypertension | ≥ 125 | ≥ 75 | ABPM-based diagnosis |
+| Daytime (awake) | Normal | < 130 | < 80 | Daytime mean |
+| Daytime (awake) | Hypertension | ≥ 130 | ≥ 80 | Daytime mean |
+| Nighttime (asleep) | Normal | < 110 | < 65 | Nighttime mean |
+| Nighttime (asleep) | Hypertension | ≥ 110 | ≥ 65 | Nighttime mean |
+| Morning surge | Elevated surge | ≥ 135 | ≥ 85 | Optional risk marker |
+| Notes | — | Uses ABPM-specific cutoffs | Not office BP categories | Time-period driven |

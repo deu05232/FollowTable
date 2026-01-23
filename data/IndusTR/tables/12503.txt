@@ -1,0 +1,16 @@
+<table>
+  <caption>Inspection Flow for Synthesized Frequency Sources (Test Names, Conditions, and Limits Only)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Method / Standard Reference</th><th>Test Conditions</th><th>Measured Parameter</th><th>Limit / Requirement</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>External visual inspection</td><td>IEC 61188-1 (visual)</td><td>10× magnification; ambient 23±5°C</td><td>Marking legibility, defects</td><td>No cracks, chips, illegible marking</td><td>Performed prior to electrical tests</td></tr>
+    <tr><td>Dimensions</td><td>Internal drawing</td><td>Caliper / optical comparator</td><td>Package length/width/height</td><td>Within drawing tolerance</td><td>Include lead coplanarity</td></tr>
+    <tr><td>Static electrical characteristics</td><td>Device spec section 5.2</td><td>25°C; Vdd nominal</td><td>Output frequency, Icc</td><td>Freq within spec; Icc ≤ limit</td><td>Stabilize 10 min before reading</td></tr>
+    <tr><td>Dynamic electrical characteristics</td><td>Device spec section 5.3</td><td>25°C; specified load</td><td>Phase noise, jitter, rise/fall</td><td>Meets datasheet maxima</td><td>Bandwidth as specified</td></tr>
+    <tr><td>Electrical characteristics at temperature extremes</td><td>IEC 60068-2-14</td><td>Tmin/Tmax operating; dwell 30 min</td><td>Frequency stability</td><td>Within spec over temp</td><td>Record at each plateau</td></tr>
+    <tr><td>Solderability</td><td>J-STD-002</td><td>245°C; 5 s; flux per method B</td><td>Wetting coverage</td><td>≥ 95% wetting</td><td>Leads/terminations only</td></tr>
+    <tr><td>High-temperature storage</td><td>IEC 60068-2-2</td><td>125°C for 168 h</td><td>Post-stress electrical</td><td>No out-of-spec drift</td><td>Recovery 24 h</td></tr>
+    <tr><td>Endurance / operational life</td><td>Internal reliability plan</td><td>Vdd max; 85°C; 2000 h</td><td>Frequency drift, failures</td><td>0 catastrophic failures</td><td>Read points every 500 h</td></tr>
+  </tbody>
+</table>

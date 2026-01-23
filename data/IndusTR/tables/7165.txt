@@ -1,0 +1,14 @@
+<table>
+  <caption>EMC Immunity Test Pulses and Acceptance Levels for the Autonomous Driving Data Recorder</caption>
+  <thead>
+    <tr><th>Test Pulse</th><th>Waveform Reference</th><th>Severity Level</th><th>Pulse Voltage (V)</th><th>Rise Time (ns)</th><th>Pulse Width (µs)</th><th>Repetition Rate</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>ISO 7637-2</td><td>III</td><td>-100</td><td>1</td><td>2</td><td>0.5 Hz</td><td>No functional degradation beyond 1 s</td></tr>
+    <tr><td>2a</td><td>ISO 7637-2</td><td>III</td><td>+50</td><td>1</td><td>50</td><td>0.2 Hz</td><td>Logging continues; no data loss</td></tr>
+    <tr><td>2b</td><td>ISO 7637-2</td><td>III</td><td>+10</td><td>5</td><td>5000</td><td>0.1 Hz</td><td>System recovers automatically</td></tr>
+    <tr><td>3a</td><td>ISO 7637-2</td><td>II</td><td>-150</td><td>5</td><td>0.1</td><td>1 kHz</td><td>No reset</td></tr>
+    <tr><td>3b</td><td>ISO 7637-2</td><td>II</td><td>+150</td><td>5</td><td>0.1</td><td>1 kHz</td><td>No reset</td></tr>
+    <tr><td>Bulk Current Injection</td><td>ISO 11452-4</td><td>III</td><td>N/A</td><td>N/A</td><td>N/A</td><td>1–400 MHz</td><td>No erroneous event flags</td></tr>
+  </tbody>
+</table>

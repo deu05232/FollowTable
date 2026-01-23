@@ -1,0 +1,17 @@
+<table>
+  <caption>Combined Baseline and Project Accounting for MSW Incineration (Not Isolatable)</caption>
+  <thead>
+    <tr><th>Module</th><th>Symbol</th><th>Equation / Definition</th><th>Unit</th><th>Included in</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Project electricity consumption emissions</td><td>PE_EC</td><td>PE_EC = EC_y × EF_grid,y</td><td>tCO2e</td><td>Project</td></tr>
+    <tr><td>Project on-site fossil fuel combustion</td><td>PE_FC</td><td>PE_FC = Σ_f (FC_f,y × NCV_f × EF_f)</td><td>tCO2e</td><td>Project</td></tr>
+    <tr><td>Project stack non-CO2 emissions (CH4+N2O)</td><td>PE_nonCO2</td><td>PE_nonCO2 = (CH4_y × GWP_CH4) + (N2O_y × GWP_N2O)</td><td>tCO2e</td><td>Project</td></tr>
+    <tr><td>Baseline avoided landfill methane</td><td>BE_LF</td><td>BE_LF = MDOC_decomp,y × F × (1-OX) × GWP_CH4</td><td>tCO2e</td><td>Baseline</td></tr>
+    <tr><td>Baseline displaced grid electricity</td><td>BE_EG</td><td>BE_EG = EG_export,y × EF_grid,disp</td><td>tCO2e</td><td>Baseline</td></tr>
+    <tr><td>Baseline displaced heat supply</td><td>BE_HG</td><td>BE_HG = Heat_export,y × EF_heat,baseline</td><td>tCO2e</td><td>Baseline</td></tr>
+    <tr><td>Total baseline emissions</td><td>BE</td><td>BE = BE_LF + BE_EG + BE_HG</td><td>tCO2e</td><td>Baseline</td></tr>
+    <tr><td>Total project emissions</td><td>PE</td><td>PE = PE_EC + PE_FC + PE_nonCO2</td><td>tCO2e</td><td>Project</td></tr>
+    <tr><td>Emission reductions</td><td>ER</td><td>ER = BE - PE</td><td>tCO2e</td><td>Result</td></tr>
+  </tbody>
+</table>

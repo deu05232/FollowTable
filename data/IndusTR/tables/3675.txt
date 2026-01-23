@@ -1,0 +1,10 @@
+<table>
+  <caption>CAN Bus Socket Signal Contact Allocation</caption>
+  <tr><td>Signal name</td><td>Contact No.a</td><td>Number of contacts</td></tr>
+  <tr><td>CAN bus A positive (A-CAN-H)</td><td>Point 1, Point 2</td><td>2</td></tr>
+  <tr><td>CAN bus B positive (B-CAN-H)</td><td>Point 3, Point 4</td><td>2</td></tr>
+  <tr><td>CAN bus A negative (A-CAN-L)</td><td>Point 5, Point 6</td><td>2</td></tr>
+  <tr><td>CAN bus B negative (B-CAN-L)</td><td>Point 7, Point 8</td><td>2</td></tr>
+  <tr><td>Ground (GND, optional)</td><td>Point 9</td><td>1</td></tr>
+  <tr><td colspan="3">“Twisted pairs shall be twisted as Point 1 with Point 5, Point 2 with Point 6, Point 3 with Point 7, and Point 4 with Point 8.</td></tr>
+</table>

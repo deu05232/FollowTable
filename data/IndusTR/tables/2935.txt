@@ -1,0 +1,10 @@
+<table>
+  <caption>Meteorological Satellite Data Coding (Hospital Facility Energy Management Coding)</caption>
+  <tr><th>Facility Area</th><th>Internal Code</th><th>Description</th><th>Meter Type</th><th>Reporting Cycle</th><th>Owner</th></tr>
+  <tr><td>Radiology wing</td><td>AWX</td><td>Air-conditioning West eXchange</td><td>Electric</td><td>Daily</td><td>Facilities</td></tr>
+  <tr><td>ICU</td><td>HDF</td><td>Humidity Differential Factor</td><td>HVAC</td><td>Hourly</td><td>Facilities</td></tr>
+  <tr><td>Pharmacy</td><td>CSV</td><td>Chiller Supply Valve</td><td>HVAC</td><td>Hourly</td><td>Facilities</td></tr>
+  <tr><td>Outpatient hall</td><td>GEO</td><td>General Energy Output</td><td>Electric</td><td>Daily</td><td>Facilities</td></tr>
+  <tr><td>Server room</td><td>OBC</td><td>Onsite Backup Cooling</td><td>Electric</td><td>15-min</td><td>IT Ops</td></tr>
+  <tr><td>Kitchen</td><td>ENGIN</td><td>Energy Intake Node</td><td>Gas</td><td>Daily</td><td>Facilities</td></tr>
+</table>

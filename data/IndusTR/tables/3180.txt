@@ -1,0 +1,10 @@
+<table>
+  <caption>Sensor Calibration Inputs for AR Depth & IMU (Factory Procedure)</caption>
+  <tr><th>Calibration Step</th><th>Input Signal</th><th>Tool</th><th>Target Range</th><th>Sampling Rate</th><th>Output Artifact</th></tr>
+  <tr><td>IMU bias estimation</td><td>Static pose sequence</td><td>Gyro jig</td><td>< 0.05 deg/s</td><td>200 Hz</td><td>imu_bias.json</td></tr>
+  <tr><td>Accelerometer scale</td><td>6-face rotation</td><td>Gravity rig</td><td>9.81 ± 0.10 m/s²</td><td>200 Hz</td><td>accel_scale.json</td></tr>
+  <tr><td>Camera intrinsics</td><td>Checkerboard images</td><td>Calib board</td><td>RMS < 0.4 px</td><td>30 fps</td><td>camera_intrinsics.yml</td></tr>
+  <tr><td>Depth offset</td><td>Planar wall scan</td><td>Laser meter</td><td>± 8 mm</td><td>60 fps</td><td>depth_offset.cfg</td></tr>
+  <tr><td>Time synchronization</td><td>LED strobe</td><td>Sync box</td><td>< 2 ms</td><td>N/A</td><td>time_sync.txt</td></tr>
+  <tr><td>Thermal drift check</td><td>Warm-up run</td><td>Thermal chamber</td><td>< 1% drift</td><td>60 fps</td><td>drift_report.pdf</td></tr>
+</table>

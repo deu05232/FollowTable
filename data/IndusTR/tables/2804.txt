@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory QA QC Requirements for Leachate Testing (General Water Lab Conditions)</caption>
+  <thead>
+    <tr><th>QA/QC Item</th><th>Requirement</th><th>Acceptance Criteria</th><th>Frequency</th><th>Record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Calibration verification</td><td>Multi-point check for ICP-MS</td><td>R² ≥ 0.995</td><td>Daily</td><td>CAL-LOG</td></tr>
+    <tr><td>Method blank</td><td>Reagent water blank</td><td>< MDL for all analytes</td><td>Per batch</td><td>BLK-01</td></tr>
+    <tr><td>Duplicate sample</td><td>Field or lab duplicate</td><td>RPD ≤ 20%</td><td>1 per 20 samples</td><td>DUP-REC</td></tr>
+    <tr><td>Matrix spike</td><td>Spike at mid-range</td><td>Recovery 80–120%</td><td>1 per 20 samples</td><td>MS-REC</td></tr>
+    <tr><td>Sample preservation</td><td>Acidify to pH<2 (metals)</td><td>Holding time ≤ 28 days</td><td>Per sample</td><td>CHAIN-01</td></tr>
+    <tr><td>Environmental conditions</td><td>Temperature / humidity control</td><td>20–25°C; RH 30–70%</td><td>Continuous</td><td>ENV-LOG</td></tr>
+  </tbody>
+</table>

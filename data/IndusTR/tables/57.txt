@@ -1,0 +1,20 @@
+<table>
+  <caption>Administrative Confirmation Subject Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C..50</td><td></td><td></td></tr>
+  <tr><td>ID Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>ID Document Number</td><td>CerNo</td><td>C..18</td><td></td><td></td></tr>
+  <tr><td>Confirmation Type</td><td>ConfType</td><td>C1</td><td>0: Determination; 1: Recognition; 2: Certification; 3: Registration; 4: Approval; 5: Authentication; 6: Administrative appraisal; 9: Other</td><td>Multiple selections allowed</td></tr>
+  <tr><td>Confirmation Item Name</td><td>ConfItems</td><td>C.100</td><td></td><td></td></tr>
+  <tr><td>Confirmation Content</td><td>ConfCont</td><td>C..2000</td><td></td><td></td></tr>
+  <tr><td>Confirmation Date</td><td>ConfDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Confirmation Authority Code</td><td>ConfAuthNo</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Confirmation Authority</td><td>ConfAuth</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Remarks</td><td>Remark</td><td>C..ul</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit</td><td>DataDept</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit Code</td><td>DataDeptUniSCID</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Data Aggregation Unit</td><td>S_Ext_FromNode</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

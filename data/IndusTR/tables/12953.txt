@@ -1,0 +1,8 @@
+<table>
+  <caption>Common casting geometry issues by feature (do vs don't)</caption>
+  <tr><th>Feature / Situation</th><th>Proper Design</th><th>Improper Design</th><th>Notes</th></tr>
+  <tr><td>Core requirement for snap-in flange</td><td>Redesign to avoid a core when possible (open geometry / accessible draft)</td><td>Use a snap-in flange that forces a complex core</td><td>Extra cores increase core-box cost and process complexity</td></tr>
+  <tr><td>Vent / sand discharge for large cores</td><td>Add adequate vent and sand discharge holes sized for the core</td><td>No venting or too few discharge paths</td><td>Poor venting can trap gas and make core removal difficult</td></tr>
+  <tr><td>Thin-to-thick section transition</td><td>Use gradual taper or steps with smooth blending</td><td>Sudden thickness jump</td><td>Sudden changes can promote hot spots and shrinkage-related defects</td></tr>
+  <tr><td>Multiple parallel pads / flanges</td><td>Combine them into a single plane when feasible</td><td>Keep many separate protruding planes</td><td>Scattered planes complicate tooling and may create uneven solidification</td></tr>
+</table>

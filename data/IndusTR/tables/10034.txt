@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal Downlink Delivery Control Parameters (Includes Timing and Frequency Fields)</caption>
+  <thead>
+    <tr><th>Group</th><th>No.</th><th>Field</th><th>Value Range</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Identity & Routing</td><td>1</td><td>Inbound user ID</td><td>1–16,777,215</td><td>-</td><td>Identifies the intranet user on inbound records</td></tr>
+    <tr><td>2</td><td>Destination (recipient) ID</td><td>1–16,777,215</td><td>-</td><td>Target endpoint for delivery</td></tr>
+    <tr><td>3</td><td>Station entry sequence (LSB5)</td><td>0–31</td><td>-</td><td>Lower 5 bits used to correlate user inbound sequence number</td></tr>
+    <tr><td>4</td><td>Sender domain</td><td>0–1</td><td>-</td><td>0: intranet; 1: extranet</td></tr>
+    <tr><td rowspan="3">Transmission Control</td><td>5</td><td>Transmit time (UTC)</td><td>000000.00–235959.99</td><td>-</td><td>Timestamp attached to the downlink record</td></tr>
+    <tr><td>6</td><td>Frequency point selection</td><td>0–2</td><td>-</td><td>0: automatic; 1: Lf1; 2: Lf2</td></tr>
+    <tr><td>7</td><td>Mode / emergency flag</td><td>0–2</td><td>-</td><td>0: normal; 1: emergency; 2: reserved</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+# Shipping Operating Costs Snapshot (Fuel Cost Linked to Crude Benchmarks)
+
+| Date | Vessel Segment | Route | Fuel Cost Method | Benchmark Used | Assumed Consumption (t/day) | Estimated Fuel Cost (USD/day) | Note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 2016-06-18 | Container | Asia-Europe | Formula | Brent | 120 | 33,600 | Uses crude-linked formula |
+| 2016-06-19 | Container | Transpacific | Formula | WTI | 115 | 31,050 | Not based on bunker quotes |
+| 2016-06-20 | Tanker (Aframax) | AG-Japan | Formula | Brent | 55 | 15,125 | Proxy cost |
+| 2016-06-21 | Bulker (Capesize) | Brazil-China | Formula | Brent | 65 | 17,810 | Proxy cost |
+| 2016-06-22 | Bulker (Panamax) | USG-Continent | Formula | WTI | 40 | 10,720 | Proxy cost |
+| 2016-06-23 | LNG Carrier | Qatar-UK | Formula | Henry Hub | 95 | 9,405 | Natural gas benchmark |
+| 2016-06-24 | Ro-Ro | Baltic | Formula | Brent | 25 | 6,750 | Proxy cost |
+| 2016-06-25 | Feeder | Intra-Asia | Formula | Brent | 18 | 4,968 | Proxy cost |

@@ -1,0 +1,16 @@
+<table>
+  <caption>VR Positioning Pipeline API Calls (Pose, Motion, Relocalization)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Method Signature</th><th>What It Does</th><th>Inputs</th><th>Outputs</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Initialization</td><td>bool vrPositioningInit(const vrInitConfig* cfg)</td><td>Initialize the positioning subsystem using runtime configuration.</td><td>cfg</td><td>Success boolean</td></tr>
+    <tr><td>void vrPositioningShutdown()</td><td>Shutdown positioning and release internal resources.</td><td>null</td><td>null</td></tr>
+    <tr><td rowspan="2">Relocalization</td><td>bool vrHMDSetRelocalizationMode(vrHMDRelocalizationMode mode)</td><td>Switch HMD relocalization mode for tracking recovery behavior.</td><td>mode</td><td>Success boolean</td></tr>
+    <tr><td>bool vrHMDRequestRelocalization()</td><td>Trigger an immediate relocalization attempt.</td><td>null</td><td>Success boolean</td></tr>
+    <tr><td rowspan="2">Pose Fetch</td><td>bool vrGetPredictedPose(int64_t predict_ns, vrPose* out_pose)</td><td>Get predicted pose at a future timestamp to reduce latency.</td><td>predict_ns</td><td>out_pose</td></tr>
+    <tr><td>bool vrGetCurrentPose(vrPose* out_pose)</td><td>Get latest available pose sample.</td><td>null</td><td>out_pose</td></tr>
+    <tr><td>Motion Fetch</td><td>bool vrGetMotionData(vrMotionData* out_motion)</td><td>Retrieve current motion state (velocities/accelerations).</td><td>null</td><td>out_motion</td></tr>
+    <tr><td>Calibration</td><td>bool vrRecenterTracking()</td><td>Recenter origin and reset reference heading.</td><td>null</td><td>Success boolean</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>SOF XML Signed Document Parser Interface</caption>
+  <tr><th>Item</th><th>Content</th></tr>
+  <tr><td>Prototype</td><td>java.lang.String SOF_ParseSignedXML(java.lang.String signedXml, short fieldType, boolean returnBase64)</td></tr>
+  <tr><td>Purpose</td><td>Parse an XML signature result and extract specific fields such as original XML, digest, signature value, certificate, and algorithms.</td></tr>
+  <tr><td>Description</td><td>Reads a signed XML document and returns requested data items. Supports XMLDSig fields including canonicalization algorithm, digest algorithm, signature algorithm, and embedded X.509 certificate.</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>signedXml (XML signature output to be parsed)</td></tr>
+  <tr><td>fieldType (1: OriginalXML; 2: DigestValue; 3: SignatureValue; 4: SigningCert; 5: DigestAlg; 6: SignatureAlg)</td></tr>
+  <tr><td>returnBase64 (true: return Base64; false: return raw string when applicable)</td></tr>
+  <tr><td>xpathHint (optional XPath to locate Signature node)</td></tr>
+  <tr><td>encoding (optional, e.g., UTF-8)</td></tr>
+  <tr><td>strictMode (0: tolerant; 1: strict XMLDSig compliance)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>String (requested field content)</td></tr>
+  <tr><td>null (if field not found or parse error)</td></tr>
+  <tr><td>Notes</td><td>This API does not create signatures; it is designed for inspection and extraction of signed XML.</td></tr>
+</table>

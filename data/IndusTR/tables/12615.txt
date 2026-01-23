@@ -1,0 +1,10 @@
+<table>
+  <caption>Charger Version Negotiation Data Field (Implementation-Oriented)</caption>
+  <tr><th>Parameter</th><th>Size</th><th>Encoding</th><th>Meaning</th><th>When Used</th></tr>
+  <tr><td>CAN Type</td><td>1 byte</td><td>0x00/0x01/0x02</td><td>CAN2.0B / CAN FD / CAN XL capability indicator</td><td>Always present in the version negotiation message</td></tr>
+  <tr><td>Version Result</td><td>1 byte</td><td>0x00/0x01/0x02</td><td>Continue negotiation / Successful / Failed</td><td>Reflects sender’s current decision</td></tr>
+  <tr><td>Protocol Version Number</td><td>3 bytes</td><td>[Major, Minor, Provisional]</td><td>Expected version or agreed version; V<major>.<minor>.<prov></td><td>If Result=0x01, it is the agreed version</td></tr>
+  <tr><td>Failure Version Pattern</td><td>3 bytes</td><td>0xFF 0xFF 0xFF</td><td>Special pattern indicating negotiation failed</td><td>If Result=0x02</td></tr>
+  <tr><td>Backward Compatibility Note</td><td>n/a</td><td>n/a</td><td>Higher versions are backward compatible with lower versions</td><td>Interpretation guidance</td></tr>
+  <tr><td>Receiver Handling</td><td>n/a</td><td>n/a</td><td>Receiver shall not decide outcome solely based on CAN Type</td><td>Parsing guidance</td></tr>
+</table>

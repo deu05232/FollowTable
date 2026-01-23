@@ -1,0 +1,19 @@
+<table>
+  <caption>Quaternion and 3D Point Data Types for VR Tracking</caption>
+  <thead>
+    <tr><th>Data Structure</th><th>Component</th><th>Primitive Type</th><th>Units / Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">vrQuaternion</td><td>w</td><td>double</td><td>Scalar component</td></tr>
+    <tr><td>x</td><td>double</td><td>X axis imaginary component</td></tr>
+    <tr><td>y</td><td>double</td><td>Y axis imaginary component</td></tr>
+    <tr><td>z</td><td>double</td><td>Z axis imaginary component</td></tr>
+    <tr><td>normalized</td><td>bool</td><td>Whether quaternion is normalized</td></tr>
+    <tr><td rowspan="6">vr3DPoint</td><td>x</td><td>double</td><td>Position X (meters)</td></tr>
+    <tr><td>y</td><td>double</td><td>Position Y (meters)</td></tr>
+    <tr><td>z</td><td>double</td><td>Position Z (meters)</td></tr>
+    <tr><td>frame_id</td><td>uint32_t</td><td>Coordinate frame identifier</td></tr>
+    <tr><td>accuracy</td><td>float</td><td>Estimated absolute accuracy (m)</td></tr>
+    <tr><td>reserved</td><td>uint32_t</td><td>Reserved for future use</td></tr>
+  </tbody>
+</table>

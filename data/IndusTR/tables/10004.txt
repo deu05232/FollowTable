@@ -1,0 +1,11 @@
+<table>
+  <caption>APDU Response Status Word Meanings (Extended Error Cases)</caption>
+  <tr><th>SW1</th><th>SW2</th><th>Meaning</th><th>Debug Hint</th></tr>
+  <tr><td>69</td><td>82</td><td>Security status not satisfied</td><td>PIN/ADM not verified or secure channel missing</td></tr>
+  <tr><td>69</td><td>85</td><td>Conditions of use not satisfied</td><td>Command not allowed in current state</td></tr>
+  <tr><td>6A</td><td>86</td><td>Incorrect parameters P1/P2</td><td>Verify P1/P2 value range</td></tr>
+  <tr><td>6A</td><td>88</td><td>Referenced data not found</td><td>Object ID not present</td></tr>
+  <tr><td>68</td><td>81</td><td>Logical channel not supported</td><td>Channel management unsupported</td></tr>
+  <tr><td>65</td><td>81</td><td>Memory failure</td><td>Device storage issue</td></tr>
+  <tr><td>64</td><td>00</td><td>Execution error (no precise diagnosis)</td><td>Generic runtime failure</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Multi-frame Acquisition Timing</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Frame Trigger Source</td><td>(0018,1060)</td><td>CS</td><td>1</td><td>3</td><td>Source used to trigger each frame acquisition in a multi-frame sequence</td></tr>
+  <tr><td>Inter-frame Delay</td><td>(0018,1062)</td><td>DS</td><td>1</td><td>3</td><td>Delay applied between consecutive frames during acquisition</td></tr>
+  <tr><td>Frame Averaging Factor</td><td>(0018,1064)</td><td>IS</td><td>1</td><td>3</td><td>Number of frames averaged to produce a single output frame</td></tr>
+  <tr><td>Acquisition Synchronization Notes</td><td>(0018,1066)</td><td>UT</td><td>1</td><td>3</td><td>Notes describing synchronization behavior during multi-frame acquisition</td></tr>
+</table>

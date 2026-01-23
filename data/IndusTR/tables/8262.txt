@@ -1,0 +1,15 @@
+<table>
+  <caption>Starter short-circuit performance test — ultimate breaking test conditions with switching timings and repetitions</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current range (Ie) [A]</th><th rowspan="2">Prospective short-circuit current (Icp) [kA]</th><th colspan="2">Applied voltage / power factor</th><th colspan="3">Switching and repetition</th><th rowspan="2">Acceptance checkpoint</th></tr>
+    <tr><th>U / Ue</th><th>cosφ</th><th>Energizing time [s]</th><th>Open (breaking) command delay [s]</th><th>Number of operations</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ie ≤ 16</td><td>0.6</td><td rowspan="6">1.00</td><td rowspan="6">0.65 ± 0.05</td><td>0.10</td><td>0.02</td><td>3</td><td>Must interrupt without welding; no enclosure rupture</td></tr>
+    <tr><td>16 < Ie ≤ 32</td><td>1.0</td><td>0.10</td><td>0.02</td><td>3</td><td>Dielectric withstand after test (per procedure)</td></tr>
+    <tr><td>32 < Ie ≤ 63</td><td>1.5</td><td>0.10</td><td>0.02</td><td>3</td><td>Operating mechanism remains functional</td></tr>
+    <tr><td>63 < Ie ≤ 80</td><td>2.0</td><td>0.05</td><td>0.02</td><td>3</td><td>Contacts not fused; re-close possible</td></tr>
+    <tr><td>80 < Ie ≤ 125</td><td>2.5</td><td>0.05</td><td>0.02</td><td>3</td><td>No excessive burn-through; terminals intact</td></tr>
+    <tr><td>125 < Ie ≤ 160</td><td>3.0</td><td>0.05</td><td>0.02</td><td>3</td><td>Insulation damage not permitted</td></tr>
+  </tbody>
+</table>

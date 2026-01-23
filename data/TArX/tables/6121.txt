@@ -1,0 +1,15 @@
+<table>
+  <caption>Spectral Fits</caption>
+  <tr><th>Origin</th><th>Model</th><th>kT_(s)</th><th>Abund. a</th><th>Γ or kT_(h)</th><th>χ^(2) /dof</th><th>Net Cts.</th></tr>
+  <tr><td></td><th></th><th>(keV)</th><th>(solar)</th><th>(keV)</th><th></th><td></td></tr>
+  <tr><td>Sources</td><td>bremss</td><td></td><td></td><td>5.81 ^((+4.62)_{-2.02)</td><td>49.5/51</td><td>804</td></tr>
+  <tr><td>Sources</td><td>powerlaw</td><td></td><td></td><td>1.78 ^((+0.19)_{-0.18)</td><td>42.4/51</td><td>804</td></tr>
+  <tr><td>Sources</td><td>powerlaw + bbody</td><td>1.51 ^((+0.89)_{-0.49)</td><td></td><td>2.53 ^((+0.62)_{-0.33)</td><td>37.3/49</td><td>804</td></tr>
+  <tr><td>Diffuse</td><td>mekal</td><td>0.805 ^((+0.007)_{-0.007)</td><td>0.33 ^((+0.03)_{-0.03)</td><td></td><td>275.5/154</td><td>17187</td></tr>
+  <tr><td>Diffuse</td><td>mekal + powerlaw</td><td>0.796 ^((+0.007)_{-0.007)</td><td>0.58 ^((+0.98)_{-0.15)</td><td>1.76 ^((+0.58)_{-0.80)</td><td>203.1/152</td><td>17187</td></tr>
+  <tr><td>Diffuse</td><td>mekal + powerlaw</td><td>0.796 ^((+0.007)_{-0.007)</td><td>0.58 ^((+0.15)_{-0.10)</td><td>(1.78)</td><td>203.2/153</td><td>17187</td></tr>
+  <tr><td>Diffuse</td><td>vmekal + powerlaw</td><td>0.784 ^((+0.008)_{-0.008)</td><td>1.68 ^((+1.17)_{-0.77) /1.12 ^((+0.62)_{-0.28)</td><td>(1.78)</td><td>185.1/152</td><td>17187</td></tr>
+  <tr><td>Fingers</td><td>mekal + powerlaw</td><td>0.802 ^((+0.032)_{-0.032)</td><td>(0.6)</td><td>(1.78)</td><td>35.0/33</td><td>1019</td></tr>
+  <tr><td>Off Fingers</td><td>mekal + powerlaw</td><td>0.756 ^((+0.035)_{-0.041)</td><td>(0.6)</td><td>(1.78)</td><td>27.9/25</td><td>663</td></tr>
+  <tr><td>Note a: For the vmekal model, the first entry in this column gives the abundance of the light elements C – Ar, and the second entry is for the iron group elements Ca, Fe, and Ni.</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>

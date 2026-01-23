@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Control Words (LLCW): Symbol-Level Composition and Practical Purpose</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>Symbol-level Composition (7 symbols total)</th><th>Field Breakdown (what varies)</th><th>Purpose / When Used</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SKIP</td><td>Comma, LLCW, SKIP, SKIP (K28.7), D14.6, D31.3, D31.3</td><td>Fixed signature:Comma + LLCW + SKIP + K28.7Fixed fillers:D14.6,D31.3,D31.3</td><td>Elastic-buffer rate matching: periodically inserted so a receiver can absorb small clock differences without losing alignment.</td></tr>
+    <tr><td>IDLE</td><td>Comma, LLCW, IDLE, IDLE (K28.7), D14.6, D15.6, D15.6</td><td>Fixed signature:Comma + LLCW + IDLE + K28.7Fixed fillers:D14.6,D15.6,D15.6</td><td>Link maintenance when there is no payload word to transmit; keeps the link active after initialization.</td></tr>
+    <tr><td>INIT1</td><td>Init Comma, LLCW, INIT1, INIT1 (K28.5), D14.6, D6.2, D6.2</td><td>Special comma:Init Commaindicates initialization contextFixed signature:LLCW + INIT1 + K28.5Neutral running-disparity characters:D6.2,D6.2</td><td>Initialization handshake control word (phase 1). Used to bring up link synchronization/handshake state.</td></tr>
+    <tr><td>ALIGN</td><td>Comma, ALIGN, LANES, iLANES (K28.7), D23.3, D0.0–D31.7, D0.0–D31.7</td><td>LANES: containsnumber-of-channels(4 bits) +channel-number(4 bits)iLANES: bitwise inversion of LANES (integrity check)Trailing data symbols carry additional bits for the control word payload</td><td>Multi-lane alignment. Each active lane sends a lane-unique ALIGN so the receiver can deskew and validate lane identity.</td></tr>
+    <tr><td>PAD</td><td>Comma, Fill, Fill, Fill (K28.7), K27.7, K27.7, K27.7</td><td>Fixed signature:Comma + K28.7 + three times K27.7No variable fields (pattern identifies PAD)</td><td>Multi-channel padding / stuffing. Inserted to maintain lane-to-lane alignment or when padding is needed without semantic payload.</td></tr>
+    <tr><td>RXERR</td><td>Error, Reserved, Reserved, Reserved (K0.0), D0.0, D0.0, D0.0</td><td>Fixed signature includesK0.0 (RxError)Other symbols are reserved/fillers and typically constant in practice</td><td>Error indication substituted by the receiver when a symbol/word is decoded as erroneous, especially before the receiver is in a ready state.</td></tr>
+  </tbody>
+</table>

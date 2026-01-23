@@ -1,0 +1,20 @@
+<table>
+  <caption>AR Environment Understanding API — Light Estimation Retrieval Parameters</caption>
+  <thead>
+    <tr><th>Interface Call</th><th>Parameter</th><th>Type</th><th>Direction</th><th>AR Environment Meaning</th><th>What the Call Expects / Produces</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_getLightEstimate</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle (tracks the active AR world context)</td><td>Must be a valid running AR session associated with the frame</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Per-camera frame state for environment understanding</td><td>Frame from which lighting will be estimated</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>out_light_estimate</td><td>ArLightEstimate *</td><td>out</td><td>Lighting estimate artifact for the current environment</td><td>API fills this object with current lighting data for the frame</td></tr>
+    <tr><td>ArLightEstimate_getMainLightDirection</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle</td><td>Used to interpret light estimate within the correct AR session</td></tr>
+    <tr><td>ArLightEstimate_getMainLightDirection</td><td>light_estimate</td><td>ArLightEstimate *</td><td>in</td><td>Lighting estimate artifact (contains inferred main directional light)</td><td>Must come from a recent frame’s light estimation</td></tr>
+    <tr><td>ArLightEstimate_getMainLightDirection</td><td>out_direction_xyz</td><td>float[3]</td><td>out</td><td>Main directional light vector in the AR world coordinate system</td><td>API writes (x,y,z) direction of the dominant light source</td></tr>
+    <tr><td>ArLightEstimate_getMainLightIntensity</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle</td><td>Used to interpret intensity values consistently for the session</td></tr>
+    <tr><td>ArLightEstimate_getMainLightIntensity</td><td>light_estimate</td><td>ArLightEstimate *</td><td>in</td><td>Lighting estimate artifact</td><td>Must be initialized by a frame light-estimation call</td></tr>
+    <tr><td>ArLightEstimate_getMainLightIntensity</td><td>out_intensity_rgb</td><td>float[3]</td><td>out</td><td>RGB intensity of the main directional light (environment illumination color)</td><td>API writes (r,g,b) intensity values representing dominant light color</td></tr>
+    <tr><td>ArLightEstimate_getAmbientIntensity</td><td>session</td><td>ArSession *</td><td>in</td><td>Session handle</td><td>Used to query ambient lighting consistent with session settings</td></tr>
+    <tr><td>ArLightEstimate_getAmbientIntensity</td><td>light_estimate</td><td>ArLightEstimate *</td><td>in</td><td>Lighting estimate artifact</td><td>Supplies the ambient illumination estimate source</td></tr>
+    <tr><td>ArLightEstimate_getAmbientIntensity</td><td>out_ambient_intensity</td><td>float</td><td>out</td><td>Scalar ambient light level (overall scene brightness)</td><td>API writes a brightness value representing non-directional illumination</td></tr>
+  </tbody>
+</table>

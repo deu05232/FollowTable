@@ -1,0 +1,16 @@
+<table>
+  <caption>Recorded Signal List (No Minimum Frequency Provided) for Autonomous Driving Data Recorder</caption>
+  <thead>
+    <tr><th>Category</th><th>Signal / Field Name</th><th>Data Type</th><th>Unit</th><th>Description</th><th>Source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Vehicle State</td><td>VehicleSpeed</td><td>float</td><td>km/h</td><td>Vehicle speed derived from wheel speed and/or CAN</td><td>Chassis CAN</td></tr>
+    <tr><td>YawRate</td><td>float</td><td>deg/s</td><td>Vehicle yaw rate</td><td>IMU</td></tr>
+    <tr><td>SteeringWheelAngle</td><td>float</td><td>deg</td><td>Steering wheel angle</td><td>EPS</td></tr>
+    <tr><td rowspan="2">Driver Status</td><td>SeatBeltStatus</td><td>enum</td><td>-</td><td>0=unfastened, 1=fastened</td><td>BCM</td></tr>
+    <tr><td>DriverHandsOnWheel</td><td>enum</td><td>-</td><td>0=off, 1=on</td><td>Steering torque sensor</td></tr>
+    <tr><td rowspan="3">Perception Output</td><td>ObjectList</td><td>array</td><td>-</td><td>List of perceived objects with pose and class</td><td>Perception ECU</td></tr>
+    <tr><td>LaneModel</td><td>struct</td><td>-</td><td>Lane boundaries and confidence</td><td>Perception ECU</td></tr>
+    <tr><td>FreeSpaceGrid</td><td>grid</td><td>-</td><td>Occupancy/freespace representation</td><td>Perception ECU</td></tr>
+  </tbody>
+</table>

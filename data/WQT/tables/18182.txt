@@ -1,0 +1,12 @@
+# Release timeline and maintenance signals for major BitTorrent libraries
+
+| BitTorrent library | First public release (year) | Latest stable release (year) | Release cadence (qualitative) | Maintenance status (signal) | License | Notes for developers |
+| --- | --- | --- | --- | --- | --- | --- |
+| libtorrent (Rasterbar) | 2005 | 2024 | Regular | Active | BSD-3-Clause | Widely embedded; strong cross-platform build support |
+| libTorrent (Rakshasa) | 2004 | 2020 | Occasional | Maintenance-only | GPL-2.0-or-later | Often paired with rTorrent; Unix-centric ecosystem |
+| MonoTorrent | 2006 | 2023 | Regular | Active | MIT | .NET-friendly embedding; good fit for managed apps |
+| WebTorrent | 2013 | 2024 | Regular | Active | MIT | Distinctive WebRTC mode for browser peers; Node API |
+| libtransmission (Transmission) | 2005 | 2024 | Regular | Active | GPL-2.0-or-later | Mature C core; commonly embedded in appliances |
+| libaria2 (aria2) | 2006 | 2024 | Regular | Active | GPL-2.0-or-later | Often integrated via JSON-RPC for automation |
+| BiglyBT core (library-like engine) | 2017 | 2024 | Regular | Active | GPL-2.0-or-later | Java engine usable as a core component, not just a GUI app |
+| FrostWire engine components (library subset) | 2004 | 2023 | Occasional | Mixed | GPL-2.0-or-later | Some reusable modules exist, but extraction/embedding may require effort |

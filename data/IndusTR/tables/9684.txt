@@ -1,0 +1,16 @@
+<table>
+  <caption>Pre-Release Balloon System Checkout Log (Items Only)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Check Item</th><th>Method</th><th>Status</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Power</td><td>Power distributor X1 connector seated</td><td>Visual / Tug test</td><td>PASS</td><td>Locking ring fully engaged</td></tr>
+    <tr><td>Battery harness polarity</td><td>Label verification</td><td>PASS</td><td>Red/black heatshrink matches drawings</td></tr>
+    <tr><td>Emergency power supply armed</td><td>Switch position</td><td>PASS</td><td>Seal tag intact</td></tr>
+    <tr><td rowspan="2">RF / Tracking</td><td>Radar transponder antenna installed</td><td>Visual</td><td>PASS</td><td>Coax strain relief applied</td></tr>
+    <tr><td>GPS tracker powered on</td><td>Functional</td><td>PASS</td><td>LED heartbeat normal</td></tr>
+    <tr><td rowspan="2">Mechanical</td><td>Flange bolts torqued</td><td>Torque wrench</td><td>PASS</td><td>Witness marks aligned</td></tr>
+    <tr><td>Payload tie-down safety pins</td><td>Visual</td><td>PASS</td><td>2 pins installed per side</td></tr>
+    <tr><td>Documentation</td><td>Flight software checksum recorded</td><td>Record review</td><td>PASS</td><td>Hash stored in logbook</td></tr>
+  </tbody>
+</table>

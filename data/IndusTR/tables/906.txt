@@ -1,0 +1,19 @@
+<table>
+  <caption>Limit Values for Change in Error Due to Influence Quantities for Single Harmonic Energy of Static Harmonic Active Energy Meters</caption>
+  <tr><td colspan="2" rowspan="2">Influence quantity</td><td colspan="2">I (with balanced load, unless otherwise stated)</td><td rowspan="2">Harmonic power factor</td><td colspan="3">Limits (%) for change in error for instruments of each class</td></tr>
+  <tr><td>Direct-connected instrument</td><td>Instrument connected via transformer</td><td>5</td><td>2</td><td>1</td></tr>
+  <tr><td colspan="2">(Fundamental) frequency variation test</td><td>4I</td><td>4I</td><td>10.5L</td><td>2.02.0</td><td>0.81.0</td><td>0.50.7</td></tr>
+  <tr><td colspan="2">Reverse phase sequence test</td><td>I</td><td>1</td><td>1</td><td>2.0</td><td>1.5</td><td>1.5</td></tr>
+  <tr><td colspan="2">Voltage unbalance testa</td><td>4I</td><td>4I</td><td>1</td><td>6.0</td><td>4.0</td><td>2.0</td></tr>
+  <tr><td colspan="2">External steady magnetic induction test</td><td>4I</td><td>4I</td><td>1</td><td>4.0</td><td>3.0</td><td>2.0</td></tr>
+  <tr><td colspan="2">External magnetic induction strength 0.5mT testb</td><td>4I</td><td>4I</td><td>1</td><td>4.0</td><td>3.0</td><td>2.0</td></tr>
+  <tr><td colspan="2">High-frequency electromagnetic field test</td><td>4I</td><td>4I</td><td>1</td><td>4.0</td><td>3.0</td><td>2.0</td></tr>
+  <tr><td colspan="2">Accessory operation testc</td><td>I</td><td>I</td><td>1</td><td>2.0</td><td>1.0</td><td>0.5</td></tr>
+  <tr><td colspan="2">Conducted disturbances induced by RF fields test</td><td>4I</td><td>41</td><td>1</td><td>4.0</td><td>3.0</td><td>2.0</td></tr>
+  <tr><td colspan="2">Electrical fast transient/burst test</td><td>一</td><td>一</td><td>一</td><td>1</td><td>一</td><td>二</td></tr>
+  <tr><td colspan="2">Damped oscillatory wave immunity testd</td><td></td><td>4I</td><td>1</td><td>4.0</td><td>3.0</td><td>2.0</td></tr>
+  <tr><td rowspan="3">Voltage variation test</td><td>0.9U≤U<1.1Un</td><td>I≤I≤0.4Imax</td><td>I≤1≤0.4Imax</td><td>10.5L</td><td>2.04.0</td><td>1.01.5</td><td>0.71.0</td></tr>
+  <tr><td>0.8U≤U<0.9Un1.1U<U≤1.15Un</td><td>41</td><td>4I</td><td>1</td><td>4.0</td><td>1.5</td><td>1.0</td></tr>
+  <tr><td>U<0.8Un</td><td>41</td><td>41</td><td>1</td><td colspan="3">+10～-100</td></tr>
+  <tr><td colspan="2">Ambient temperature variation test"</td><td>1≤I≤0.4Imax</td><td>1≤1≤0.4Imax</td><td>10.5L</td><td>0.300.50</td><td>0.100.15</td><td>0.050.07</td></tr>
+</table>

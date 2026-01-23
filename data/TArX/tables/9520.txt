@@ -1,0 +1,7 @@
+<table>
+  <caption>AMBT1 comparison: reconstruction-systematics checklist for track selections (example).</caption>
+  <tr><th>Systematic source</th><th>Selection aspect it affects</th><th>Variation procedure described</th><th>Applies to which track type</th><th>Recommendation</th></tr>
+  <tr><td>Material description</td><td>Hit efficiency / track quality selection</td><td>Increase material by +/- X% and rerun selection</td><td>ID tracks</td><td>Use envelope</td></tr>
+  <tr><td>Alignment</td><td>Impact-parameter selection</td><td>Shift alignment constants and refit tracks</td><td>Full tracks</td><td>Re-derive cuts</td></tr>
+  <tr><td>Fake-rate</td><td>Track-quality selection</td><td>Tighten/loosen selection and compare</td><td>Pixel tracks</td><td>Assign difference</td></tr>
+</table>

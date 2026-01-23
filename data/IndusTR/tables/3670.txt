@@ -1,0 +1,11 @@
+<table>
+  <caption>Business Process Description for Animal Traceability and Transport Data Exchange</caption>
+  <tr><td>Business Process Name</td><td>Animal traceability and transport data exchange</td></tr>
+  <tr><td>Identifier</td><td></td></tr>
+  <tr><td>Performer</td><td>T&T requester Animal registration authority                                 SAC holder trader transporter repository party competent authority</td></tr>
+  <tr><td>Description</td><td>T&T participants send information requests regarding animals, locations, transport, and parties to the T&T system. The system retrieves the required information from the network and sends a message containing the required information</td></tr>
+  <tr><td>Preconditions</td><td>The relevant database network is ready The authorization system has been established Business participants control access to their data</td></tr>
+  <tr><td>Postconditions</td><td>Success: all relevant information is retrieved from the T&T system and sent to the T&T requester Failure: not all relevant information can be retrieved (database not updated, unauthorized, no interoperability in the T&T system, database not available 24×7…</td></tr>
+  <tr><td>Scenario</td><td>Provide traceability and transport data information</td></tr>
+  <tr><td>Remarks</td><td></td></tr>
+</table>

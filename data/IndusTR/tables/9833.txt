@@ -1,0 +1,16 @@
+<table>
+  <caption>Tire Building Line Recipe Orchestration and Step Sequence Configuration</caption>
+  <thead>
+    <tr><th>Step No.</th><th>Operation</th><th>Trigger / Condition</th><th>Configured Parameter</th><th>Device / Actuator</th><th>Command Type</th><th>Next Step</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>10</td><td>Load carcass drum</td><td>Operator start</td><td>Drum type = 18 in</td><td>Drum servo</td><td>Mode select</td><td>20</td></tr>
+    <tr><td>20</td><td>Apply inner liner</td><td>Recipe start</td><td>Feeder enable = ON</td><td>Feeder motor</td><td>Start/Stop</td><td>30</td></tr>
+    <tr><td>30</td><td>Stitching cycle</td><td>Timer = 8 s</td><td>Stitch roller profile = P3</td><td>Stitch roller cylinder</td><td>Profile call</td><td>40</td></tr>
+    <tr><td>40</td><td>Turn-up bladder inflate</td><td>Step complete</td><td>Inflate time = 3.5 s</td><td>Pneumatic valve bank</td><td>Timed open</td><td>50</td></tr>
+    <tr><td>50</td><td>Bead set</td><td>Operator confirm</td><td>Bead feeder lane = 2</td><td>Bead feeder</td><td>Select</td><td>60</td></tr>
+    <tr><td>60</td><td>Sidewall apply</td><td>Recipe step</td><td>Sidewall program = SW-12</td><td>Applicator head</td><td>Program select</td><td>70</td></tr>
+    <tr><td>70</td><td>Transfer to shaping</td><td>Interlock OK</td><td>Transfer path = A</td><td>Conveyor / transfer unit</td><td>Route command</td><td>80</td></tr>
+    <tr><td>80</td><td>End of cycle</td><td>All steps done</td><td>Lot record close = YES</td><td>MES interface</td><td>Record</td><td>-</td></tr>
+  </tbody>
+</table>

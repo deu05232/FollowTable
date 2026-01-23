@@ -1,0 +1,17 @@
+<table>
+  <caption>ArHitResultList Creation and Lifetime Management</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResultList_create</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session pointer used to allocate resources</td></tr>
+    <tr><td>ArHitResultList_create</td><td>out_hit_result_list</td><td>ArHitResultList **</td><td>out</td><td>Receives a newly created hit result list handle</td></tr>
+    <tr><td>ArHitResultList_destroy</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session pointer</td></tr>
+    <tr><td>ArHitResultList_destroy</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>List handle to be destroyed</td></tr>
+    <tr><td>ArHitResultList_clear</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session pointer</td></tr>
+    <tr><td>ArHitResultList_clear</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>Removes all entries; list handle remains valid</td></tr>
+    <tr><td>ArHitResultList_reserve</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session pointer</td></tr>
+    <tr><td>ArHitResultList_reserve</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>List handle to reserve capacity for</td></tr>
+    <tr><td>ArHitResultList_reserve</td><td>capacity</td><td>int32_t</td><td>in</td><td>Requested capacity (number of hit results)</td></tr>
+  </tbody>
+</table>

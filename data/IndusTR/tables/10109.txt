@@ -1,0 +1,16 @@
+<table>
+  <caption>vrPositionableDeviceType Enumeration for VR Positioning Interfaces</caption>
+  <thead>
+    <tr><th>Data Type</th><th>Enum Value</th><th>Meaning (Plain Explanation)</th><th>Typical Data Produced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">vrPositionableDeviceType</td><td>VR_POSITIONABLE_DEVICE_TYPE_HMD=0x00</td><td>Head-mounted display used as the primary tracked headset in the rig.</td><td>Head pose (position + orientation)</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_CONTROLLER_LEFT=0x01</td><td>Left-hand controller tracked as a separate pose source.</td><td>Controller pose + motion data</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_CONTROLLER_RIGHT=0x02</td><td>Right-hand controller tracked as a separate pose source.</td><td>Controller pose + motion data</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_TRACKER=0x03</td><td>Generic tracker puck (e.g., for waist/feet props) providing a rigid-body pose.</td><td>Tracker pose</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_BASE_STATION=0x04</td><td>External reference unit used for tracking (not typically a user-worn object).</td><td>Reference timing / calibration data</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_CAMERA=0x05</td><td>Optical camera sensor participating in tracking (inside-out or hybrid).</td><td>Sensor frames / feature tracking results</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_REFERENCE_MARKER=0x06</td><td>Fixed marker/anchor in the environment used to stabilize world coordinates.</td><td>Anchor pose / relocalization hints</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_UNKNOWN=0xFF</td><td>Device is positionable but its concrete category is not recognized.</td><td>Unspecified / best-effort pose</td></tr>
+  </tbody>
+</table>

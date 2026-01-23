@@ -1,0 +1,13 @@
+# Hybrid Exchange Client Configuration Matrix (Outlook and Mobile)
+
+| Client / Setting | On-premises-only value | After Hybrid with Office 365 value | Notes |
+| --- | --- | --- | --- |
+| Outlook Autodiscover URL | https://autodiscover.contoso.com/autodiscover/autodiscover.xml | https://autodiscover.contoso.com/autodiscover/autodiscover.xml | Must be reachable externally |
+| Outlook Anywhere Hostname | mail.contoso.com | outlook.office365.com | Depends on mailbox location |
+| MAPI over HTTP Endpoint | https://mail.contoso.com/mapi | https://outlook.office365.com/mapi | User may be redirected |
+| EWS URL (Outlook features) | https://mail.contoso.com/EWS/Exchange.asmx | https://outlook.office365.com/EWS/Exchange.asmx | Used by calendaring add-ins |
+| IMAP Server / Port | imap.contoso.com:993 (SSL) | outlook.office365.com:993 (SSL) | If IMAP enabled |
+| SMTP Server / Port | smtp.contoso.com:587 (TLS) | smtp.office365.com:587 (TLS) | Auth policies may differ |
+| ActiveSync Server | mail.contoso.com/Microsoft-Server-ActiveSync | outlook.office365.com/Microsoft-Server-ActiveSync | Mobile profiles often need recreation |
+| Outlook Profile Creation | Manual server name + mailbox | Modern auth sign-in | User guidance required |
+| Authentication Prompt | NTLM/Basic (varies) | OAuth/Modern Authentication | May require MFA |

@@ -1,0 +1,11 @@
+<table>
+  <caption>Extended Timecode Syntax</caption>
+  <tr><th>Extended Timecode Syntax</th><th>Descriptor</th></tr>
+  <tr><td>extended_timecode(){</td><td></td></tr>
+  <tr><td>time_base</td><td>u(2)</td></tr>
+  <tr><td>hours</td><td>u(5)</td></tr>
+  <tr><td>minutes</td><td>u(6)</td></tr>
+  <tr><td>seconds</td><td>u(6)</td></tr>
+  <tr><td>frames</td><td>u(6)</td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

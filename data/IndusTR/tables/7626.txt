@@ -1,0 +1,16 @@
+<table>
+  <caption>ArHitResultList Acquisition and Frame Hit-Test API (Selected C Signatures)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Exact C/C++ Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResultList_create</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResultList_create</td><td>out_hit_result_list</td><td>ArHitResultList **</td><td>out</td><td>Receives the address of a newly created hit result list object.</td></tr>
+    <tr><td>ArFrame_hitTest</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArFrame_hitTest</td><td>frame</td><td>const ArFrame *</td><td>in</td><td>Frame to test against.</td></tr>
+    <tr><td>ArFrame_hitTest</td><td>x_px</td><td>float</td><td>in</td><td>Screen X in pixels.</td></tr>
+    <tr><td>ArFrame_hitTest</td><td>y_px</td><td>float</td><td>in</td><td>Screen Y in pixels.</td></tr>
+    <tr><td>ArFrame_hitTest</td><td>out_hit_result_list</td><td>ArHitResultList **</td><td>out</td><td>Receives a newly allocated list containing hit-test results for the given screen point.</td></tr>
+    <tr><td>ArHitResultList_destroy</td><td>hit_result_list</td><td>ArHitResultList *</td><td>in</td><td>List object to destroy (releases underlying resources).</td></tr>
+  </tbody>
+</table>

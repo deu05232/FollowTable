@@ -1,0 +1,9 @@
+<table>
+  <caption>Application-layer message schedule overview (IDs 0x01–0x09)</caption>
+  <tr><th>Message Identifier</th><th>What the message is about</th><th>Delivery behavior</th><th>When it is sent</th><th>Direction</th></tr>
+  <tr><td>0x01</td><td>Phase request</td><td>Requires acknowledgment</td><td>Triggered by charger during phase negotiation</td><td>Charger → Vehicle</td></tr>
+  <tr><td>0x02</td><td>Confirmation result</td><td>Requires acknowledgment</td><td>Sent as a response after evaluating the request</td><td>Vehicle → Charger</td></tr>
+  <tr><td>0x03</td><td>Charger abort</td><td>Requires acknowledgment</td><td>Sent when the charger ends the session abnormally</td><td>Charger → Vehicle</td></tr>
+  <tr><td>0x07</td><td>Electronic lock status</td><td>No acknowledgment</td><td>Periodic, and bursts on change</td><td>Charger → Vehicle</td></tr>
+  <tr><td>0x09</td><td>Wake-up indication</td><td>No acknowledgment</td><td>Sent to wake the counterpart when needed</td><td>Vehicle → Charger</td></tr>
+</table>

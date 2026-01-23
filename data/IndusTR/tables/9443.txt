@@ -1,0 +1,15 @@
+<table>
+  <caption>Tire Mixing Line SCADA Signals and Meanings (Not a Data Structure Schema)</caption>
+  <thead>
+    <tr><th>No.</th><th>Signal Name</th><th>Tag Alias</th><th>Data Type</th><th>Length (bit)</th><th>Value Range</th><th>Value Meaning</th><th>Interlock / Logical Relationship</th><th>Recommended Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Batching start command</td><td>MX_CMD_START</td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Idle; 1: Start batching</td><td>Enabled only when SafetyGateClosed=1 AND EStop=0</td><td>Set to 1 for one scan pulse</td></tr>
+    <tr><td>2</td><td>Emergency stop status</td><td>MX_ESTOP</td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal; 1: E-stop active</td><td>Forces all motion outputs to 0</td><td>Investigate cause before reset</td></tr>
+    <tr><td>3</td><td>Rotor speed feedback</td><td>MX_ROTOR_RPM</td><td>INT</td><td>16</td><td>0~1200</td><td>RPM of internal mixer rotors</td><td>Valid when MixerRunning=1</td><td>Alarm if above MaxRPM</td></tr>
+    <tr><td>4</td><td>Chamber temperature</td><td>MX_TEMP</td><td>INT</td><td>16</td><td>0~260</td><td>°C measured in mixing chamber</td><td>Triggers dump when Temp >= DumpTempSet</td><td>Adjust cooling water if trending high</td></tr>
+    <tr><td>5</td><td>Dump door position</td><td>MX_DUMP_DOOR</td><td>INT</td><td>16</td><td>0~100</td><td>0: closed; 100: fully open</td><td>Cannot start next batch unless position=0</td><td>Check cylinder if stuck</td></tr>
+    <tr><td>6</td><td>Weighing scale stable</td><td>MX_SCALE_STABLE</td><td>BOOL</td><td>1</td><td>0/1</td><td>1 indicates stable gross weight</td><td>Permits weight capture when Stable=1 for 2s</td><td>Wait before sampling</td></tr>
+    <tr><td>7</td><td>Ingredient deviation alarm</td><td>MX_ALM_DEV</td><td>INT</td><td>16</td><td>0/1/2</td><td>0: none; 1: warning; 2: trip</td><td>Trips if deviation > tolerance for 3 consecutive batches</td><td>Calibrate feeders</td></tr>
+  </tbody>
+</table>

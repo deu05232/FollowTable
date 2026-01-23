@@ -1,0 +1,7 @@
+<table>
+  <caption>Grain condition monitoring interface message with sensor readings payload</caption>
+  <tr><th>Start Symbol</th><th>Unit Address</th><th>Command</th><th>Length</th><th>Temperature Reading</th><th>Humidity Reading</th><th>CO2 Level</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>KADDL</td><td>B1H</td><td>0006H</td><td>T (0.1°C units)</td><td>RH (0.1% units)</td><td>ppm</td><td>xxxx</td><td>16H</td></tr>
+  <tr></tr>
+  <tr><td colspan="9">Note: The three middle fields carry the measured grain-condition values and vary by report.</td></tr>
+</table>

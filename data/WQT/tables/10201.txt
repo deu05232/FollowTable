@@ -1,0 +1,8 @@
+# CIDR and subnet mask quick reference for common prefixes (used with private ranges)
+
+| CIDR prefix | Subnet mask | Addresses per subnet | Typical subnetting note |
+| --- | --- | --- | --- |
+| /8 | 255.0.0.0 | 16,777,216 | Often referenced when discussing large private blocks |
+| /12 | 255.240.0.0 | 1,048,576 | Commonly seen in private addressing discussions |
+| /16 | 255.255.0.0 | 65,536 | Frequently used for internal LAN addressing |
+| /24 | 255.255.255.0 | 256 | Common small LAN subnet size |

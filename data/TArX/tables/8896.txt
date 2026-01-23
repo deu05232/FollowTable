@@ -1,0 +1,14 @@
+<table>
+  <caption>Binned w(z) reconstruction: piecewise-constant equation-of-state constraints in redshift bins</caption>
+  <thead>
+    <tr><th>Redshift bin</th><th>Model for w(z)</th><th>Best-fit w_i</th><th>68% CL</th><th>95% CL</th><th>Correlation note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.0 ≤ z < 0.25</td><td>Piecewise constant (w=w1)</td><td>−0.98</td><td>[−1.12, −0.85]</td><td>[−1.30, −0.70]</td><td>Weakly correlated with bin 2</td></tr>
+    <tr><td>0.25 ≤ z < 0.50</td><td>Piecewise constant (w=w2)</td><td>−1.03</td><td>[−1.20, −0.88]</td><td>[−1.40, −0.75]</td><td>Anti-correlated with bin 1</td></tr>
+    <tr><td>0.50 ≤ z < 0.75</td><td>Piecewise constant (w=w3)</td><td>−1.05</td><td>[−1.28, −0.86]</td><td>[−1.55, −0.72]</td><td>Moderate correlation with bin 4</td></tr>
+    <tr><td>0.75 ≤ z < 1.00</td><td>Piecewise constant (w=w4)</td><td>−0.97</td><td>[−1.25, −0.75]</td><td>[−1.60, −0.60]</td><td>Largest degeneracy with curvature-like modes</td></tr>
+    <tr><td>1.00 ≤ z < 1.50</td><td>Piecewise constant (w=w5)</td><td>−1.10</td><td>[−1.55, −0.75]</td><td>[−2.20, −0.50]</td><td>Constraints broaden at higher z</td></tr>
+    <tr><td>1.50 ≤ z ≤ 2.00</td><td>Piecewise constant (w=w6)</td><td>−0.90</td><td>[−1.70, −0.40]</td><td>[−2.80, 0.10]</td><td>Strongly prior-sensitive</td></tr>
+  </tbody>
+</table>

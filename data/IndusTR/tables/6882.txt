@@ -1,0 +1,10 @@
+<table>
+  <caption>Deliverable Service BOM Links (Parent/Child/Qty)</caption>
+  <tr><th>Line</th><th>Parent Part No.</th><th>Child Part No.</th><th>Quantity</th><th>Child Role</th></tr>
+  <tr><td>1</td><td>ASM-200</td><td>LRU-210</td><td>1</td><td>Replaceable unit</td></tr>
+  <tr><td>2</td><td>ASM-200</td><td>LMP-220</td><td>1</td><td>Maintainable module</td></tr>
+  <tr><td>3</td><td>ASM-200</td><td>LRI-230</td><td>3</td><td>Repairable item</td></tr>
+  <tr><td>4</td><td>LMP-220</td><td>PRT-221</td><td>2</td><td>Internal part</td></tr>
+  <tr><td>5</td><td>LMP-220</td><td>PRT-222</td><td>1</td><td>Internal part</td></tr>
+  <tr><td>6</td><td>LRU-210</td><td>PRT-211</td><td>2</td><td>Internal part</td></tr>
+</table>

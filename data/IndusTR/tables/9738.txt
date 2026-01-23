@@ -1,0 +1,12 @@
+<table>
+  <caption>Construction machinery OID node allocation categories (example overview)</caption>
+  <thead>
+    <tr><th>Allocation category under 1.2.156.3514</th><th>Allocated node number / range</th><th>Allocation target</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Existing identification system nodes</td><td>1001–2000</td><td>Identifiers already used in legacy systems</td><td>Used to map legacy IDs into the OID tree</td></tr>
+    <tr><td>Third-party organization nodes</td><td>2001–10000</td><td>External third-party organizations</td><td>Issued sequentially to applicant organizations</td></tr>
+    <tr><td>Basic common technology (metadata) nodes</td><td>1</td><td>Common technical metadata in the construction machinery field</td><td>Used for standardized metadata items</td></tr>
+    <tr><td>Enterprise-specific nodes</td><td>Assigned per enterprise</td><td>Enterprises participating in the scheme</td><td>Enterprise gets a dedicated node to create its own identifiers</td></tr>
+  </tbody>
+</table>

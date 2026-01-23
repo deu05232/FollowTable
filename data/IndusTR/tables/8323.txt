@@ -1,0 +1,16 @@
+<table>
+  <caption>Conformance bitstream coverage checklist for transform and residual-related syntax items</caption>
+  <thead>
+    <tr><th>Syntax item</th><th>Applies when (preconditions)</th><th>Required traversal rules (must cover)</th><th>Concrete required combinations</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>cbf_luma</td><td>TransformUnit exists</td><td>Cover both values: {0, 1}</td><td>When cbf_luma=0: include a TU with all luma coeff levels equal 0; when cbf_luma=1: include at least one non-zero luma coeff</td></tr>
+    <tr><td>cbf_cb</td><td>IsChroma = 1</td><td>Cover both values: {0, 1}</td><td>Include case where cbf_cb=1 and cbf_cr=0, and vice versa</td></tr>
+    <tr><td>cbf_cr</td><td>IsChroma = 1</td><td>Cover both values: {0, 1}</td><td>See cbf_cb combination requirements</td></tr>
+    <tr><td>transform_skip_flag</td><td>Residual coding enabled for the component</td><td>Cover both values: {0, 1}</td><td>Include (a) transform_skip_flag=1 with a single non-zero coeff, (b) transform_skip_flag=1 with multiple non-zero coeffs</td></tr>
+    <tr><td>sign_data_hiding_enabled_flag</td><td>Slice level or sequence level feature present</td><td>Cover both values: {0, 1}</td><td>When enabled (=1), include at least one coefficient group with >=2 non-zero levels to trigger sign-hiding behavior</td></tr>
+    <tr><td>coeff_abs_level_greater1_flag</td><td>cbf for the component = 1</td><td>Enumerate both values: {0, 1} for at least one coefficient position per block</td><td>Construct blocks where max(abs(level)) equals 1 (forces 0) and equals 2 (forces 1)</td></tr>
+    <tr><td>coeff_abs_level_greater2_flag</td><td>At least one coeff_abs_level_greater1_flag = 1</td><td>Enumerate both values: {0, 1} for at least one coefficient position</td><td>Construct blocks where max(abs(level)) equals 2 (forces 0) and equals 3 (forces 1)</td></tr>
+    <tr><td>coeff_sign_flag</td><td>Any non-zero coefficient exists</td><td>Cover both signs: {positive, negative}</td><td>Include at least one block where the first non-zero coeff is negative, and another where it is positive</td></tr>
+  </tbody>
+</table>

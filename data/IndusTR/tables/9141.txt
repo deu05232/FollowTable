@@ -1,0 +1,15 @@
+<table>
+  <caption>Air Pollutant Purification by Ecosystem Type with Carbon Sequestration Coefficients</caption>
+  <thead>
+    <tr><th rowspan="2">Ecosystem Type (Level I)</th><th rowspan="2">Subtype (Level II)</th><th rowspan="2">SO2 Removal (t/(km²·a))</th><th rowspan="2">NOx Removal (t/(km²·a))</th><th rowspan="2">Dust Removal (t/(km²·a))</th><th colspan="2">Carbon-related Parameters</th></tr>
+    <tr><th>Carbon Sequestration (tC/(km²·a))</th><th>Biomass Expansion Factor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Forest</td><td>Evergreen Broadleaf</td><td>5.20</td><td>3.10</td><td>10.80</td><td>2.90</td><td>1.35</td></tr>
+    <tr><td>Deciduous Broadleaf</td><td>3.60</td><td>2.40</td><td>8.10</td><td>2.10</td><td>1.28</td></tr>
+    <tr><td>Coniferous</td><td>4.10</td><td>2.70</td><td>9.30</td><td>2.50</td><td>1.30</td></tr>
+    <tr><td rowspan="2">Grassland</td><td>Temperate Steppe</td><td>1.10</td><td>0.80</td><td>3.20</td><td>0.60</td><td>1.10</td></tr>
+    <tr><td>Alpine Meadow</td><td>0.90</td><td>0.70</td><td>2.60</td><td>0.55</td><td>1.08</td></tr>
+    <tr><td>Urban Green</td><td>Park & Street Trees</td><td>2.40</td><td>1.60</td><td>5.10</td><td>1.20</td><td>1.22</td></tr>
+  </tbody>
+</table>

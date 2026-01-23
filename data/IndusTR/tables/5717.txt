@@ -1,0 +1,15 @@
+<table>
+  <caption>Biometric Sample Quality Scoring Fields (Face/Periocular)</caption>
+  <thead>
+    <tr><th>Category</th><th>Quality Attribute</th><th>How It Is Measured (Definition/Formula)</th><th>Score Range</th><th>Common Failure Mode</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Focus</td><td>Defocus Blur</td><td>Variance of Laplacian: Q = var(∇²I); lower values indicate defocus</td><td>0–100</td><td>Soft edges</td></tr>
+    <tr><td>Motion</td><td>Motion Blur</td><td>Estimate PSF length via edge spread; blur length (pixels) mapped to score</td><td>0–100</td><td>Streaking</td></tr>
+    <tr><td>Noise</td><td>Sensor Noise</td><td>SNR = 20·log10(μ/σ) computed on flat regions</td><td>0–60 dB</td><td>Grainy texture</td></tr>
+    <tr><td>Exposure</td><td>Over/Under Exposure</td><td>Clipping ratio = (Nclip/Ntotal)×100% for highlights/shadows</td><td>0–100</td><td>Washed out / too dark</td></tr>
+    <tr><td>Illumination</td><td>Non-uniform Lighting</td><td>Illumination uniformity = 1 − (std(L)/mean(L)) over face mask</td><td>0–1</td><td>Harsh shadows</td></tr>
+    <tr><td>Occlusion</td><td>Occlusion Rate</td><td>Occlusion% = (Aocc/Aface)×100 using segmentation mask</td><td>0–100%</td><td>Mask/sunglasses</td></tr>
+    <tr><td>Geometry</td><td>Pose Deviation</td><td>Yaw/Pitch/Roll estimated by landmarks; penalty = exp(−k·|yaw|)</td><td>0–1</td><td>Profile view</td></tr>
+  </tbody>
+</table>

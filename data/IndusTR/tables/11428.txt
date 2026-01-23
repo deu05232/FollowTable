@@ -1,0 +1,15 @@
+<table>
+  <caption>Amber Body Color Scoring Sheet (Hue + V/C Weights)</caption>
+  <thead>
+    <tr><th rowspan="2">Hue Category</th><th rowspan="2">Hue Symbol</th><th rowspan="2">Hue Value (H)</th><th colspan="3">Scoring Components</th></tr>
+    <tr><th>Value (V) Target</th><th>Chroma (C) Target</th><th>Suggested Weight</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Orange-red</td><td>oR</td><td>10R–2.5YR</td><td>4.5</td><td>8</td><td>0.30</td></tr>
+    <tr><td>Orange</td><td>O</td><td>5YR–7.5YR</td><td>5.5</td><td>12</td><td>0.35</td></tr>
+    <tr><td>Orange-yellow</td><td>oY</td><td>10YR–2.5Y</td><td>6.5</td><td>10</td><td>0.20</td></tr>
+    <tr><td>Yellow</td><td>Y</td><td>5Y–7.5Y</td><td>7.5</td><td>6</td><td>0.10</td></tr>
+    <tr><td>Green-yellow</td><td>gY</td><td>10Y</td><td>8.0</td><td>4</td><td>0.05</td></tr>
+    <tr><td>Note</td><td colspan="5">Final grade = sum(weighted hue fit + V deviation + C deviation)</td></tr>
+  </tbody>
+</table>

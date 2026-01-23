@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Master Public Key Import and Index Management Interface Definitions</caption>
+  <thead>
+    <tr><th>Function</th><th>Prototype</th><th>Purpose</th><th>Key Fields</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SAF_ImportSM9MasterPublicKey</td><td>int SAF_ImportSM9MasterPublicKey(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, const unsigned char *pucMasterPublicKey, unsigned int uiMasterPublicKeyLen);</td><td>Imports an SM9 master public key blob into a key index.</td><td>uiKeyIndex, uiKeyType</td></tr>
+    <tr><td>SAF_DeleteSM9MasterPublicKey</td><td>int SAF_DeleteSM9MasterPublicKey(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType);</td><td>Deletes a master public key at the specified index.</td><td>uiKeyIndex, uiKeyType</td></tr>
+    <tr><td>SAF_EnumSM9MasterPublicKey</td><td>int SAF_EnumSM9MasterPublicKey(void *hAppHandle, unsigned int uiKeyType, unsigned int *puiIndexList, unsigned int *puiIndexCount);</td><td>Enumerates indices that contain master public keys.</td><td>index list/count</td></tr>
+    <tr><td>SAF_GetSM9MasterPublicKey</td><td>int SAF_GetSM9MasterPublicKey(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, unsigned char *pucMasterPublicKey, unsigned int *puiMasterPublicKeyLen);</td><td>Exports the master public key from an index.</td><td>out: master public key</td></tr>
+    <tr><td>SAF_GetSM9MasterPublicKeyInfo</td><td>int SAF_GetSM9MasterPublicKeyInfo(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, unsigned int *puiCurveId, unsigned int *puiHashId);</td><td>Returns metadata about the stored master public key.</td><td>curve/hash ids</td></tr>
+    <tr><td>SAF_SetSM9MasterPublicKeyLabel</td><td>int SAF_SetSM9MasterPublicKeyLabel(void *hAppHandle, unsigned int uiKeyIndex, unsigned int uiKeyType, const char *pszLabel, unsigned int uiLabelLen);</td><td>Attaches a human-readable label to a key index.</td><td>label</td></tr>
+  </tbody>
+</table>

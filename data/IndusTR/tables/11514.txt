@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Camera Image Quality Tuning Parameters (Exposure/ISO/White Balance)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Type</th><th>Unit</th><th>Recommended Range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>exposure_time</td><td>int64</td><td>ns</td><td>1000000–30000000</td><td>Longer exposure increases brightness but can introduce motion blur.</td></tr>
+    <tr><td>sensor_sensitivity_iso</td><td>int32</td><td>ISO</td><td>50–3200</td><td>Higher ISO brightens the image but increases noise.</td></tr>
+    <tr><td>exposure_compensation_ev</td><td>float</td><td>EV</td><td>-2.0–2.0</td><td>Bias applied when auto exposure is enabled.</td></tr>
+    <tr><td>white_balance_mode</td><td>enum</td><td>-</td><td>Auto/Incandescent/Daylight/Fluorescent</td><td>Selects WB algorithm preset; device-dependent support.</td></tr>
+    <tr><td>focus_distance_m</td><td>float</td><td>m</td><td>0.05–10</td><td>Manual focus distance; ignored if autofocus enabled.</td></tr>
+    <tr><td>sharpening_strength</td><td>float</td><td>-</td><td>0.0–1.0</td><td>Post-process sharpening amount for camera image.</td></tr>
+    <tr><td>noise_reduction_strength</td><td>float</td><td>-</td><td>0.0–1.0</td><td>Temporal/spatial denoise strength; may affect tracking texture detail.</td></tr>
+    <tr><td>hdr_enable</td><td>bool</td><td>-</td><td>false/true</td><td>Enables HDR pipeline; may change latency and tone mapping.</td></tr>
+  </tbody>
+</table>

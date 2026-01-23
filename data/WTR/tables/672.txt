@@ -1,0 +1,5 @@
+# Oracle/PLSQL: Roles
+
+| Privilege | SELECT | INSERT | UPDATE | DELETE | REFERENCES | ALTER | INDEX | ALL |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Description | Ability to perform SELECT statements on the table. | Ability to perform INSERT statements on the table. | Ability to perform UPDATE statements on the table. | Ability to perform DELETE statements on the table. | Ability to create a constraint that refers to the table. | Ability to perform ALTER TABLE statements to change the table definition. | Ability to create an index on the table with the create index statement. | All privileges on table. |

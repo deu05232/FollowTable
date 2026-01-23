@@ -1,0 +1,13 @@
+<table>
+  <caption>Base64 Object Creation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Base64_CreateBase64Obj( void * hAppHandle,</td></tr>
+  <tr><td>Description</td><td>void * * phBase64Obj)</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>Create a Base64 object for Base64 encoding/decoding of data of arbitrary length; the encoding format refers to IETFRFC4648</td></tr>
+  <tr><td>hAppHandle[in](application handle)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>phBase64Obj[out](pointer to the handle of the created Base64 object)</td></tr>
+  <tr><td>0(success) non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+  <tr><td rowspan="4">Remarks</td><td>This function is used together with SAF_Base64_DestroyBase64Obj,</td></tr>
+  <tr><td>SAF_Base64_EncodeUpdate,SGD_Base64_EncodeFinal,</td></tr>
+  <tr><td>SAF_Base64_DecodeUpdate,</td></tr>
+  <tr><td>SAF_Base64_DecodeFinal and other functions to support Base64 encoding/decoding of data of arbitrary length</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Side-by-side gravity-sector quantities in Newtonian gravity vs. ghost-free bimetric gravity (weak-field / nonrelativistic limit)</caption>
+  <thead>
+    <tr><th>Quantity / concept</th><th>Newtonian gravity (baseline)</th><th>Bimetric gravity (alternative)</th><th>Force/acceleration implication (test particle)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Gravitational potential of a point mass</td><td>Φ(r) = -G M / r</td><td>Φ(r) = -G_eff M / r · [1 + α e^{-r/λ}] (Yukawa-corrected form)</td><td>a(r) = -∂Φ/∂r gives inverse-square vs inverse-square + finite-range enhancement/suppression</td></tr>
+    <tr><td>Force law magnitude (two-body)</td><td>F(r) = G m M / r^2</td><td>F(r) = G_eff m M / r^2 · [1 + α(1 + r/λ)e^{-r/λ}]</td><td>Deviations largest for r ~ λ; recovers Newtonian when r ≪ λ or α → 0</td></tr>
+    <tr><td>Coupling constant</td><td>G (Newton’s constant)</td><td>G_eff (effective coupling felt by matter; depends on mixing/normalization of metrics)</td><td>Overall rescaling of force amplitude at all radii if G_eff ≠ G</td></tr>
+    <tr><td>Extra spin-2 mode mass scale</td><td>null (massless field only)</td><td>m_FP (Fierz–Pauli mass of massive spin-2 mode)</td><td>Sets finite interaction range λ ≈ ħ/(m_FP c)</td></tr>
+    <tr><td>Interaction range</td><td>Infinite range</td><td>Finite for massive mode: λ; plus a massless contribution remains</td><td>At r ≫ λ, Yukawa piece decays and force tends to the massless-sector result</td></tr>
+    <tr><td>Screening / recovery mechanism</td><td>Not required</td><td>Vainshtein-type recovery can operate near sources (model-dependent)</td><td>Suppresses deviations in high-density/near-field regions</td></tr>
+    <tr><td>Poisson-type field equation (schematic)</td><td>∇²Φ = 4πGρ</td><td>∇²Φ - λ^{-2}Φ_Y = 4πG_effρ (massive/Yukawa component schematic) + massless part</td><td>Modified Green’s function leads to Yukawa correction in Φ(r)</td></tr>
+    <tr><td>Superposition principle</td><td>Linear superposition of potentials holds</td><td>Approximately holds in weak-field linear regime; can break in nonlinear/screened regime</td><td>Force additivity can become environment-dependent beyond linear limit</td></tr>
+  </tbody>
+</table>

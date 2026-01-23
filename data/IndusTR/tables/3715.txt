@@ -1,0 +1,15 @@
+<table>
+  <caption>Certificate-based SM2 Signature Verification Function Definition</caption>
+  <tr><td>PrototypeSAC</td><td>int SAF_Sm2VerifySignByCert(void * hAppHandle,unsigned intuiAlgorithmID,unsigned char* pucCertificate,unsigned intuiCertificateLen,unsigned char* pucInData,unsigned intuiInDataLen,unsigned char* pucSignData,unsigned intuiSignDataLen)</td></tr>
+  <tr><td>Description</td><td>Certificate-based SM2 public key verification</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAppHandle[in](application handle)</td></tr>
+  <tr><td>uiAlgorithmID[in](SM2 signature algorithm identifier)</td></tr>
+  <tr><td>pucCertificate[in](DER-encoded digital certificate）</td></tr>
+  <tr><td>uiCertificateLen[in](digital certificate length)</td></tr>
+  <tr><td>pucInData[in](data to be verified)</td></tr>
+  <tr><td>uiInDataLen[in](length of data to be verified)</td></tr>
+  <tr><td>pucSignData[in](DER-encoded signature data)</td></tr>
+  <tr><td>uiSignDataLen[in](signature data length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>Non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

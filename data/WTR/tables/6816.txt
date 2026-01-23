@@ -1,0 +1,10 @@
+# # iPod accessory communication fields (packet layout)
+
+| Field | Length (bytes) | Description |
+| --- | --- | --- |
+| Header | 2 | Sync bytes |
+| Length | 1 | Payload size |
+| Mode | 1 | Command group |
+| Command | 2 | Command id |
+| Parameter | 0..n | Optional data |
+| Checksum | 1 | Integrity check |

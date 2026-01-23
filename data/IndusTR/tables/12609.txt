@@ -1,0 +1,16 @@
+<table>
+  <caption>Fuel Property Parameters for Combustion (With Optional Carbonate Additive Factors)</caption>
+  <thead>
+    <tr><th rowspan="2">Fuel Type</th><th rowspan="2">Unit</th><th colspan="3">Combustion Parameters</th><th colspan="2">Optional Carbonate Additive</th></tr>
+    <tr><th>Net Calorific Value (GJ/t)</th><th>Carbon Content (tC/TJ)</th><th>Oxidation Rate (%)</th><th>Additive</th><th>CO2 Emission Factor (tCO2/t additive)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Anthracite</td><td>t</td><td>26.7</td><td>25.8</td><td>94</td><td>CaCO3</td><td>0.440</td></tr>
+    <tr><td>Bituminous Coal</td><td>t</td><td>19.6</td><td>26.1</td><td>93</td><td>MgCO3</td><td>0.522</td></tr>
+    <tr><td>Lignite</td><td>t</td><td>11.9</td><td>28.0</td><td>96</td><td>Na2CO3</td><td>0.415</td></tr>
+    <tr><td>Coke Oven Gas</td><td>10^4 Nm3</td><td>17.2</td><td>15.3</td><td>99</td><td>Li2CO3</td><td>0.596</td></tr>
+    <tr><td>Diesel</td><td>t</td><td>43.0</td><td>20.2</td><td>99</td><td>Dolomite</td><td>0.477</td></tr>
+    <tr><td>Natural Gas</td><td>10^4 Nm3</td><td>38.9</td><td>15.3</td><td>99</td><td>SrCO3</td><td>0.299</td></tr>
+    <tr><td>Heavy Fuel Oil</td><td>t</td><td>40.4</td><td>21.1</td><td>98</td><td>FeCO3</td><td>0.383</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Application-layer message parameter definitions — PGI 0x02 (Vehicle confirmation result) field layout</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x02</td></tr>
+  <tr><td>2</td><td>Confirmation Result</td><td>1 byte</td><td>BYTE</td><td>ConfirmType</td><td>0x00: reject; 0xAA: accept; 0xFF: invalid/unknown</td></tr>
+  <tr><td>3</td><td>Reason Code</td><td>1 byte</td><td>BYTE</td><td>ReasonType</td><td>Optional reason code explaining the confirmation result</td></tr>
+</table>

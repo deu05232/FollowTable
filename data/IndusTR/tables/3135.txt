@@ -1,0 +1,15 @@
+<table>
+  <caption>Rendering Test Environment Requirements for Mongolian Control Character QA</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Requirement</th><th>Target Value</th><th>Allowed Tolerance</th><th>Measurement Tool</th><th>Record Field</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>Lab condition</td><td>23°C</td><td>±2°C</td><td>Thermometer</td><td>Temp log</td></tr>
+    <tr><td>Relative humidity</td><td>Lab condition</td><td>45%</td><td>±10%</td><td>Hygrometer</td><td>RH log</td></tr>
+    <tr><td>Display scaling</td><td>OS setting</td><td>100%</td><td>N/A</td><td>System panel</td><td>DPI value</td></tr>
+    <tr><td>Font installation</td><td>Controlled variable</td><td>Single font family</td><td>N/A</td><td>Font manager</td><td>Font name</td></tr>
+    <tr><td>Rendering engine</td><td>Controlled variable</td><td>DirectWrite/CoreText</td><td>N/A</td><td>Build info</td><td>Engine version</td></tr>
+    <tr><td>Screenshot capture</td><td>Evidence</td><td>PNG lossless</td><td>N/A</td><td>Capture tool</td><td>File hash</td></tr>
+    <tr><td>Unicode normalization</td><td>Pre-processing</td><td>NFC</td><td>N/A</td><td>Normalizer</td><td>Normalized text</td></tr>
+  </tbody>
+</table>

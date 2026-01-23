@@ -1,0 +1,11 @@
+<table>
+  <caption>Build & Toolchain Configuration Options for AR Trackable Module</caption>
+  <tr><th>Option</th><th>Type</th><th>Default</th><th>Example</th><th>Applies To</th><th>Description</th></tr>
+  <tr><td>AR_ENABLE_TRACKABLES</td><td>bool</td><td>true</td><td>false</td><td>CMake</td><td>Toggles compilation of trackable subsystem</td></tr>
+  <tr><td>AR_SDK_PATH</td><td>path</td><td>(empty)</td><td>/opt/ar/sdk</td><td>Env</td><td>Location of SDK headers and libs</td></tr>
+  <tr><td>AR_LOG_LEVEL</td><td>enum</td><td>INFO</td><td>DEBUG</td><td>Runtime</td><td>Controls verbosity for tracking logs</td></tr>
+  <tr><td>AR_USE_NEON</td><td>bool</td><td>true</td><td>true</td><td>Compiler</td><td>Enable ARM NEON optimizations</td></tr>
+  <tr><td>AR_THREAD_COUNT</td><td>int</td><td>4</td><td>8</td><td>Runtime</td><td>Worker threads for tracking pipeline</td></tr>
+  <tr><td>AR_STRIP_SYMBOLS</td><td>bool</td><td>true</td><td>false</td><td>Linker</td><td>Keep symbols for debugging</td></tr>
+  <tr><td>AR_MIN_API_LEVEL</td><td>int</td><td>24</td><td>26</td><td>Android</td><td>Minimum supported OS version</td></tr>
+</table>

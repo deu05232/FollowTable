@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Parameters With Memory/Notes (Type Embedded in Notes, Not a Dedicated Type Column)</caption>
+  <thead>
+    <tr><th>API</th><th>Parameter</th><th>Semantics</th><th>Allocation / Passing Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_create</td><td>env</td><td>Runtime environment handle.</td><td>Pass a JNI environment pointer (e.g., JNIEnv*), must be valid on calling thread.</td></tr>
+    <tr><td>ArSession_create</td><td>context</td><td>Platform context associated with the app.</td><td>Typically an Android context object reference (e.g., jobject).</td></tr>
+    <tr><td>ArSession_create</td><td>out_session_pointer</td><td>Output location for created session handle.</td><td>Provide address of an ArSession**; API writes newly allocated session pointer.</td></tr>
+    <tr><td>ArSession_destroy</td><td>session</td><td>Session to destroy.</td><td>Accepts ArSession*; do not reuse after call.</td></tr>
+    <tr><td>ArSession_getConfig</td><td>out_config</td><td>Returns current configuration snapshot.</td><td>Caller allocates an ArConfig* before calling; callee populates it.</td></tr>
+    <tr><td>ArSession_setCameraTextureName</td><td>texture_id</td><td>Texture that receives camera image.</td><td>OpenGL texture name (GLuint) created by caller.</td></tr>
+    <tr><td>ArSession_setDisplayGeometry</td><td>rotation</td><td>Display rotation used for projection updates.</td><td>Pass an int rotation constant (0/90/180/270).</td></tr>
+    <tr><td>ArSession_setDisplayGeometry</td><td>viewport</td><td>Viewport dimensions for rendering.</td><td>Two integers: width and height in pixels.</td></tr>
+  </tbody>
+</table>

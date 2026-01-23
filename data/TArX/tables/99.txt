@@ -1,0 +1,10 @@
+<table>
+  <caption>For 6 UVOT filters, the normalization factor required to convert to V count rate. For B, U, UVW1, UVM2 and UVW2 filters, the normalization factor was calculated by taking the average count rate through the filter in the 400s - 1000s range, and dividing this value by the average count rate in the V filter over the same time interval. The average count rates were then used to create an optical/UV SED, which was used to predict the ratio of White to V count rate.</caption>
+  <tr><th>Filter</th><th>Ratio</th></tr>
+  <tr><th>B</th><td>0.39</td></tr>
+  <tr><th>U</th><td>0.45</td></tr>
+  <tr><th>UVW1</th><td>1.71</td></tr>
+  <tr><th>UVM2</th><td>14.46</td></tr>
+  <tr><th>UVW2</th><td>12.45</td></tr>
+  <tr><th>White</th><td>0.13</td></tr>
+</table>

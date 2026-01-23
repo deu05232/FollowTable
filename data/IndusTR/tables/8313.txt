@@ -1,0 +1,14 @@
+<table>
+  <caption>Post-Exposure Handling Checklist for Variable-Frequency Drive (VFD) Environmental Tests</caption>
+  <thead>
+    <tr><th>Test scenario</th><th>Immediate action after exposure</th><th>Condensation handling</th><th>Reconnection / energizing step</th><th>Recovery time before evaluation</th><th>Pass/fail inspection focus</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cold storage exposure</td><td>Move unit to recovery room</td><td>Wipe exterior; do not open enclosure for 30 min</td><td>Reconnect power only after insulation check</td><td>≥ 2 h</td><td>Display boots; no alarm code</td></tr>
+    <tr><td>Damp heat (non-condensing)</td><td>Keep sealed in bag until temperature equalizes</td><td>Dry by airflow through vents</td><td>Reconnect I/O cables after drying</td><td>≥ 4 h</td><td>No corrosion; terminals tight</td></tr>
+    <tr><td>Damp heat (condensing risk)</td><td>Do not energize</td><td>Open cover; fan-dry PCB for 60 min</td><td>Energize at reduced load first</td><td>≥ 8 h</td><td>Leakage current within limits</td></tr>
+    <tr><td>High-temperature exposure</td><td>Cool down naturally</td><td>Not applicable</td><td>Power on after temperature stabilizes</td><td>≥ 1 h</td><td>Fan operation; no thermal fault</td></tr>
+    <tr><td>Transport shock test</td><td>Inspect packaging damage</td><td>If moisture indicator triggered, dry unit</td><td>Reconnect after mechanical inspection</td><td>≥ 1 h</td><td>No loose parts; no cracks</td></tr>
+    <tr><td>Transport vibration test</td><td>Retorque terminals</td><td>Check desiccant status</td><td>Re-run auto-tune after reconnection</td><td>≥ 2 h</td><td>Stable speed control; no abnormal noise</td></tr>
+  </tbody>
+</table>

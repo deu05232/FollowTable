@@ -1,0 +1,15 @@
+<table>
+  <caption>Dark-Matter Gravitational Modeling Parameters for Universe-Scale Estimates (Dimensionless / Ratio Form)</caption>
+  <thead>
+    <tr><th>Model ID</th><th>Cosmic DM Density Parameter (Ω_dm)</th><th>Effective Gravity Scaling (G_eff/G)</th><th>Halo Concentration Proxy (c_eff)</th><th>Bias / Coupling (β)</th><th>Fit Quality (χ²_red)</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ΛCDM-Ref</td><td>0.265</td><td>1.000</td><td>7.8</td><td>0.00</td><td>1.02</td><td>Reference concordance set</td></tr>
+    <tr><td>DM-HighΩ</td><td>0.300</td><td>1.000</td><td>8.1</td><td>0.00</td><td>1.15</td><td>Higher DM abundance</td></tr>
+    <tr><td>DM-LowΩ</td><td>0.230</td><td>1.000</td><td>7.2</td><td>0.00</td><td>1.10</td><td>Lower DM abundance</td></tr>
+    <tr><td>ModGrav-A</td><td>0.265</td><td>0.985</td><td>7.9</td><td>0.10</td><td>1.08</td><td>Effective-G reduction</td></tr>
+    <tr><td>ModGrav-B</td><td>0.265</td><td>1.020</td><td>7.7</td><td>-0.08</td><td>1.06</td><td>Effective-G enhancement</td></tr>
+    <tr><td>CoupledDM-1</td><td>0.265</td><td>1.000</td><td>8.3</td><td>0.20</td><td>1.21</td><td>Nonzero coupling parameter</td></tr>
+    <tr><td>CoupledDM-2</td><td>0.265</td><td>1.000</td><td>7.5</td><td>0.30</td><td>1.30</td><td>Stronger coupling parameter</td></tr>
+  </tbody>
+</table>

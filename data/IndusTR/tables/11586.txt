@@ -1,0 +1,16 @@
+<table>
+  <caption>SpaceFibre Standard Data Rates and Nominal Timing (Rate/Period Schedule)</caption>
+  <thead>
+    <tr><th>Lane Rate</th><th>Line Bit Rate</th><th>Unit Interval (UI)</th><th>Nominal Symbol Period</th><th>Reference Clock</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R1</td><td>1.000</td><td>1.000</td><td>1000</td><td>125 MHz</td><td>Baseline rate option</td></tr>
+    <tr><td>R2</td><td>1.250</td><td>0.800</td><td>800</td><td>156.25 MHz</td><td>Common for legacy PHYs</td></tr>
+    <tr><td>R3</td><td>2.000</td><td>0.500</td><td>500</td><td>250 MHz</td><td>Intermediate rate</td></tr>
+    <tr><td>R4</td><td>2.500</td><td>0.400</td><td>400</td><td>312.5 MHz</td><td>Intermediate rate</td></tr>
+    <tr><td>R5</td><td>3.125</td><td>0.320</td><td>320</td><td>390.625 MHz</td><td>Often aligned to SERDES capabilities</td></tr>
+    <tr><td>R6</td><td>4.000</td><td>0.250</td><td>250</td><td>500 MHz</td><td>Higher throughput</td></tr>
+    <tr><td>R7</td><td>5.000</td><td>0.200</td><td>200</td><td>625 MHz</td><td>Higher throughput</td></tr>
+    <tr><td>R8</td><td>6.250</td><td>0.160</td><td>160</td><td>781.25 MHz</td><td>Upper typical rate option</td></tr>
+  </tbody>
+</table>

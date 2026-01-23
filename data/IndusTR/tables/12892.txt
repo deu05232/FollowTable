@@ -1,0 +1,16 @@
+<table>
+  <caption>Video/Image Feed Code Table (Mixed: Event Types + Device/Resource Categories)</caption>
+  <thead>
+    <tr><th>Code</th><th>Category</th><th>Name</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>E001</td><td>Event</td><td>Vehicle Passing</td><td>Detected vehicle crosses the virtual line/ROI</td></tr>
+    <tr><td>E002</td><td>Event</td><td>Person Passing</td><td>Detected person crosses the virtual line/ROI</td></tr>
+    <tr><td>E010</td><td>Event</td><td>Intrusion</td><td>Object enters restricted area</td></tr>
+    <tr><td>E030</td><td>Event</td><td>Fighting</td><td>Physical aggression detected (pushing/striking)</td></tr>
+    <tr><td>D100</td><td>Device</td><td>Acquisition Camera</td><td>Front-end capture device category</td></tr>
+    <tr><td>D120</td><td>Device</td><td>NVR</td><td>Network video recorder category</td></tr>
+    <tr><td>R200</td><td>Resource</td><td>Snapshot Image</td><td>Still image resource produced by the feed</td></tr>
+    <tr><td>R210</td><td>Resource</td><td>Video Clip</td><td>Short video segment resource produced by the feed</td></tr>
+  </tbody>
+</table>

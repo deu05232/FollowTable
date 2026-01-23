@@ -1,0 +1,21 @@
+<table>
+  <caption>AR Camera Intrinsics Object: Image Geometry and Distortion Outputs</caption>
+  <thead>
+    <tr><th>Group</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Handle</td><td>camera_intrinsics</td><td>ArCameraIntrinsics *</td><td>in</td><td>Intrinsics object/handle used to read calibration values.</td></tr>
+    <tr><td>intrinsics_version</td><td>int32_t</td><td>out</td><td>Version tag for the intrinsics values (monotonic per update).</td></tr>
+    <tr><td>coordinate_system</td><td>enum (IMAGE_PIXELS)</td><td>out</td><td>Indicates that intrinsics are expressed in image pixel coordinates.</td></tr>
+    <tr><td rowspan="4">Image size</td><td>out_image_width</td><td>int32_t *</td><td>out</td><td>Image width associated with these intrinsics.</td></tr>
+    <tr><td>out_image_height</td><td>int32_t *</td><td>out</td><td>Image height associated with these intrinsics.</td></tr>
+    <tr><td>out_sensor_orientation</td><td>int32_t *</td><td>out</td><td>Orientation of the image relative to the sensor (degrees).</td></tr>
+    <tr><td>out_is_valid</td><td>bool *</td><td>out</td><td>Whether the intrinsics values are valid for the current frame.</td></tr>
+    <tr><td rowspan="6">Distortion</td><td>distortion_model</td><td>enum (BROWN_CONRADY)</td><td>out</td><td>Distortion model used for the coefficients.</td></tr>
+    <tr><td>out_k1</td><td>float *</td><td>out</td><td>Radial distortion coefficient k1.</td></tr>
+    <tr><td>out_k2</td><td>float *</td><td>out</td><td>Radial distortion coefficient k2.</td></tr>
+    <tr><td>out_p1</td><td>float *</td><td>out</td><td>Tangential distortion coefficient p1.</td></tr>
+    <tr><td>out_p2</td><td>float *</td><td>out</td><td>Tangential distortion coefficient p2.</td></tr>
+    <tr><td>out_k3</td><td>float *</td><td>out</td><td>Radial distortion coefficient k3 (if supported).</td></tr>
+  </tbody>
+</table>

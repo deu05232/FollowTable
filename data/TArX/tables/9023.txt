@@ -1,0 +1,16 @@
+<table>
+  <caption>Phase velocity of ultrasonic guided-wave dispersion modes in aluminum plate (phase velocity only)</caption>
+  <thead>
+    <tr><th>Mode family</th><th>Mode</th><th>Frequency (kHz)</th><th>f·d (MHz·mm)</th><th>Phase velocity c_p (m/s)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Lamb (symmetric)</td><td>S0</td><td>50</td><td>0.50</td><td>5250</td><td>Low-order extensional</td></tr>
+    <tr><td>S1</td><td>100</td><td>1.00</td><td>6200</td><td>Dispersive</td></tr>
+    <tr><td>S2</td><td>150</td><td>1.50</td><td>7050</td><td>Higher-order</td></tr>
+    <tr><td rowspan="3">Lamb (antisymmetric)</td><td>A0</td><td>50</td><td>0.50</td><td>2050</td><td>Flexural, strongly dispersive</td></tr>
+    <tr><td>A1</td><td>100</td><td>1.00</td><td>3450</td><td>Higher-order</td></tr>
+    <tr><td>A2</td><td>150</td><td>1.50</td><td>4680</td><td>Higher-order</td></tr>
+    <tr><td rowspan="2">Shear-horizontal</td><td>SH0</td><td>50</td><td>0.50</td><td>3100</td><td>Nearly non-dispersive</td></tr>
+    <tr><td>SH1</td><td>100</td><td>1.00</td><td>5400</td><td>Cut-on above threshold</td></tr>
+  </tbody>
+</table>

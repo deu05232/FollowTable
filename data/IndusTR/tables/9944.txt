@@ -1,0 +1,16 @@
+<table>
+  <caption>Backend Integration Interfaces (No Required/Optional Column)</caption>
+  <thead>
+    <tr><th>Interface Name</th><th>Symbol / API</th><th>Purpose</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Device Discovery</td><td>backend_list_devices()</td><td>Enumerate available accelerator devices</td><td>Returns device IDs and basic properties</td></tr>
+    <tr><td>Context Create</td><td>backend_create_context()</td><td>Create an execution context for a device</td><td>May include stream pool initialization</td></tr>
+    <tr><td>Context Destroy</td><td>backend_destroy_context()</td><td>Release context resources</td><td>Must free all allocations owned by context</td></tr>
+    <tr><td>Memory Allocate</td><td>backend_malloc()</td><td>Allocate device memory</td><td>Supports alignment and memory region selection</td></tr>
+    <tr><td>Memory Free</td><td>backend_free()</td><td>Free device memory</td><td>Undefined behavior if pointer not owned</td></tr>
+    <tr><td>Host↔Device Copy</td><td>backend_memcpy_async()</td><td>Transfer buffers between host and device</td><td>Requires stream argument for async</td></tr>
+    <tr><td>Kernel Launch</td><td>backend_launch()</td><td>Launch a compiled kernel</td><td>Takes grid/block and argument pack</td></tr>
+    <tr><td>Synchronization</td><td>backend_synchronize()</td><td>Wait for all queued work to finish</td><td>Can be stream-specific or device-wide</td></tr>
+  </tbody>
+</table>

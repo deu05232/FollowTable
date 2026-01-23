@@ -1,0 +1,9 @@
+<table>
+  <caption>User Terminal APDU status words for common operations</caption>
+  <tr><th>SW1</th><th>SW2</th><th>Meaning</th></tr>
+  <tr><td>90</td><td>00</td><td>Success</td></tr>
+  <tr><td>62</td><td>83</td><td>State unchanged, warning (non-fatal)</td></tr>
+  <tr><td>63</td><td>C0</td><td>Verification failed, retries remaining not provided</td></tr>
+  <tr><td>69</td><td>82</td><td>Security condition not satisfied</td></tr>
+  <tr><td>6D</td><td>00</td><td>Instruction code not supported</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Visible-Light Curved Band Geometry to DT (Data T-number) Lookup Rules</caption>
+  <thead>
+    <tr><th rowspan="2">Observation group (curved-band)</th><th rowspan="2">Measured wrap-around angle (degrees)</th><th rowspan="2">Band mean width (degrees latitude)</th><th rowspan="2">Band-to-center nearest distance (nmi)</th><th colspan="2">Estimated intensity parameters</th></tr>
+    <tr><th>DT (T-number)</th><th>Approx. 1-min wind (kt)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A</td><td>30–45</td><td>0.3–0.5</td><td>>90</td><td>1.5</td><td>25</td></tr>
+    <tr><td>B</td><td>45–60</td><td>0.5–0.8</td><td>60–90</td><td>2.0</td><td>30</td></tr>
+    <tr><td>C</td><td>60–75</td><td>0.8–1.0</td><td>45–60</td><td>2.5</td><td>35</td></tr>
+    <tr><td>D</td><td>75–95</td><td>1.0–1.2</td><td>30–45</td><td>3.0</td><td>45</td></tr>
+    <tr><td>E</td><td>95–115</td><td>1.2–1.5</td><td>20–30</td><td>3.5</td><td>55</td></tr>
+    <tr><td>F</td><td>115–140</td><td>≥1.5</td><td><20</td><td>4.0</td><td>65</td></tr>
+    <tr><td>G</td><td>>140</td><td>≥1.8</td><td><15</td><td>4.5</td><td>77</td></tr>
+  </tbody>
+</table>

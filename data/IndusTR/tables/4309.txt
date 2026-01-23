@@ -1,0 +1,14 @@
+<table>
+  <caption>General Field Description for User Ranging Accuracy Correction Information</caption>
+  <tr><td>Type</td><td>Data field</td><td>Description</td></tr>
+  <tr><td rowspan="8">Header</td><td>Message type number</td><td>Used to distinguish PPP-RTK SSR correction information messages</td></tr>
+  <tr><td>Epoch time</td><td>Represents the epoch time of the user ranging accuracy correction information</td></tr>
+  <tr><td>SSR update interval</td><td>Represents the time interval of SSR data updates</td></tr>
+  <tr><td>Multiple message indicator</td><td>Transmission indicator for messages with the same message group and the same epoch time: 0: last message of the series; 1: other messages of the same group will be transmitted subsequently</td></tr>
+  <tr><td>IOD SSR</td><td>Represents the SSR data version number              SAC</td></tr>
+  <tr><td>SSR provider ID</td><td>Used to identify the SSR service and shall be unique globally: where: 0～255: reserved; 256～65535: assignable provider ID number</td></tr>
+  <tr><td>SSR solution ID</td><td>Used to identify different SSR solutions of a given provider</td></tr>
+  <tr><td>Number of satellites</td><td>Represents the number of satellites</td></tr>
+  <tr><td rowspan="2">Data field</td><td>Satellite number</td><td>Represents BDS, GPS, GALILEO, GLONASS satellite ID</td></tr>
+  <tr><td>SSR URA</td><td>URA accuracy (one-sigma) of the SSR range correction value; this value is calculated from the complete SSR data in the RTCMSSR message; the meaning of this field and the calculation formula shall be implemented in accordance with the provisions of A.1 in Annex A of GB/T 44175.2—2024</td></tr>
+</table>

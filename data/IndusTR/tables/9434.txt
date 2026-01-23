@@ -1,0 +1,15 @@
+<table>
+  <caption>Delegation Workflow: Third-Party Node Request plus Enterprise Registration and Product Coding Steps</caption>
+  <thead>
+    <tr><th>Step</th><th>Actor</th><th>OID Layer / Data Element</th><th>Rule</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>National OID Registry</td><td>Sector root</td><td>Publish sector OID for construction machinery</td><td>1.2.156.3514</td></tr>
+    <tr><td>2</td><td>Third-party organization</td><td>Third-party node application</td><td>Submit delegation request and evidence</td><td>Application ID: TP-REQ-2026-014</td></tr>
+    <tr><td>3</td><td>National OID Registry</td><td>Third-party node assignment</td><td>Assign next available node in 2001–10000</td><td>Node: 2056</td></tr>
+    <tr><td>4</td><td>Third-party organization</td><td>Enterprise onboarding</td><td>Collect enterprise identifier for registration</td><td>USCC: 913203016770124928</td></tr>
+    <tr><td>5</td><td>Third-party organization</td><td>Enterprise node / enterprise identifier binding</td><td>Bind enterprise code under third-party node namespace</td><td>1.2.156.3514.2056.913203016770124928</td></tr>
+    <tr><td>6</td><td>Enterprise</td><td>Product number</td><td>Allocate product serial within enterprise</td><td>201600000001</td></tr>
+    <tr><td>7</td><td>Third-party organization</td><td>Full identifier issuance</td><td>Issue complete OID for product record</td><td>1.2.156.3514.2056.913203016770124928.201600000001</td></tr>
+  </tbody>
+</table>

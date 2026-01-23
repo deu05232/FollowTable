@@ -1,0 +1,15 @@
+<table>
+  <caption>Instant Messaging API - Result Codes and Descriptions (Response Outcomes)</caption>
+  <thead>
+    <tr><th>Result Code</th><th>Return Result</th><th>Description</th><th>Typical Cause</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>IM-200</td><td>SUCCESS</td><td>Request processed successfully</td><td>No error</td></tr>
+    <tr><td>IM-400</td><td>FAILURE</td><td>Invalid request payload</td><td>Missing or malformed field</td></tr>
+    <tr><td>IM-401</td><td>FAILURE</td><td>Unauthorized</td><td>Invalid token</td></tr>
+    <tr><td>IM-403</td><td>FAILURE</td><td>Forbidden</td><td>Not allowed to subscribe</td></tr>
+    <tr><td>IM-404</td><td>FAILURE</td><td>User not found</td><td>Unknown subscriberID/subscribedToID</td></tr>
+    <tr><td>IM-429</td><td>FAILURE</td><td>Too many requests</td><td>Rate limit exceeded</td></tr>
+    <tr><td>IM-500</td><td>FAILURE</td><td>Internal server error</td><td>Unexpected exception</td></tr>
+  </tbody>
+</table>

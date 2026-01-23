@@ -1,0 +1,16 @@
+<table>
+  <caption>AWG Reliability, Handling, and Environmental Qualification Criteria</caption>
+  <thead>
+    <tr><th>Test Group</th><th>Test Item</th><th>Unit</th><th>Requirement</th><th>Duration / Cycles</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Environmental</td><td>Temperature Cycling</td><td>°C</td><td>-40 to +85</td><td>200 cycles</td><td>No mechanical damage</td></tr>
+    <tr><td>Damp Heat (Steady State)</td><td>%RH</td><td>85</td><td>1000 h @ 85°C</td><td>No corrosion, functional</td></tr>
+    <tr><td>Operating Temperature Range</td><td>°C</td><td>-5 to +70</td><td>—</td><td>Meets functional checks</td></tr>
+    <tr><td rowspan="2">Mechanical</td><td>Vibration</td><td>Hz</td><td>10–500</td><td>3 axes, 2 h/axis</td><td>No loose parts</td></tr>
+    <tr><td>Shock</td><td>g</td><td>1500</td><td>0.5 ms, 3 axes</td><td>No cracking</td></tr>
+    <tr><td rowspan="3">Electrical/ESD</td><td>ESD (HBM)</td><td>kV</td><td>≥ 2</td><td>—</td><td>No performance loss</td></tr>
+    <tr><td>Supply Voltage Tolerance</td><td>V</td><td>5.0 ± 5%</td><td>—</td><td>No reset during test</td></tr>
+    <tr><td>Heater Current Limit</td><td>A</td><td>≤ 2.5</td><td>—</td><td>No over-temp</td></tr>
+  </tbody>
+</table>

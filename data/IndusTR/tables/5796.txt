@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Parameter Inventory by Call (No Runtime Semantics)</caption>
+  <thead>
+    <tr><th>Call</th><th>Param #</th><th>Name</th><th>Type</th><th>Default</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArSession_create</td><td>1</td><td>env</td><td>void*</td><td>N/A</td></tr>
+    <tr><td>ArSession_create</td><td>2</td><td>context</td><td>void*</td><td>N/A</td></tr>
+    <tr><td>ArSession_create</td><td>3</td><td>out_session_pointer</td><td>ArSession**</td><td>N/A</td></tr>
+    <tr><td>ArSession_resume</td><td>1</td><td>session</td><td>ArSession*</td><td>N/A</td></tr>
+    <tr><td>ArSession_pause</td><td>1</td><td>session</td><td>ArSession*</td><td>N/A</td></tr>
+    <tr><td>ArSession_configure</td><td>1</td><td>session</td><td>ArSession*</td><td>N/A</td></tr>
+    <tr><td>ArSession_configure</td><td>2</td><td>config</td><td>ArConfig*</td><td>N/A</td></tr>
+    <tr><td>ArSession_destroy</td><td>1</td><td>session</td><td>ArSession*</td><td>N/A</td></tr>
+  </tbody>
+</table>

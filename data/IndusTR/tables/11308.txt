@@ -1,0 +1,11 @@
+<table>
+  <caption>Fuel Card Transaction Data Items (Refueling Support)</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Business Document ID</td><td>Character</td><td>an..30</td><td>Links the card transaction to a refueling record</td></tr>
+  <tr><td>2</td><td>Card Number</td><td>Character</td><td>an..30</td><td>Fuel card identifier</td></tr>
+  <tr><td>3</td><td>Transaction Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time of card payment at station</td></tr>
+  <tr><td>4</td><td>Merchant Name</td><td>Character</td><td>an..80</td><td>Station/merchant name</td></tr>
+  <tr><td>5</td><td>Transaction Amount</td><td>Numeric</td><td>n..12,2</td><td>Paid amount</td></tr>
+  <tr><td>6</td><td>Fuel Volume</td><td>Numeric</td><td>n..10,2</td><td>Liters recorded by card system</td></tr>
+  <tr><td>7</td><td>Transaction Status</td><td>Character</td><td>an..20</td><td>Success/Refund/Reversed</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Sampling-Rate Variants with Object/Bed Layout Cross-Check (AVS3 Audio Conformance)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Case ID</th><th rowspan="2">Layout</th><th colspan="3">Bitstream Filename by Sampling Rate</th><th rowspan="2">Notes</th></tr>
+    <tr><th>32 kHz</th><th>44.1 kHz</th><th>48 kHz</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SC-L01-BR24</td><td>5.1 bed</td><td>scL01_bed51_sr32k_br24k.avsa</td><td>scL01_bed51_sr44p1k_br24k.avsa</td><td>scL01_bed51_sr48k_br24k.avsa</td><td>Bed-only alignment</td></tr>
+    <tr><td>SC-L01-BR24</td><td>5.1.2 bed</td><td>scL01_bed512_sr32k_br24k.avsa</td><td>scL01_bed512_sr44p1k_br24k.avsa</td><td>scL01_bed512_sr48k_br24k.avsa</td><td>Different bed height</td></tr>
+    <tr><td>SC-L02-BR32</td><td>7.1 bed</td><td>scL02_bed71_sr32k_br32k.avsa</td><td>scL02_bed71_sr44p1k_br32k.avsa</td><td>scL02_bed71_sr48k_br32k.avsa</td><td>Bed-only</td></tr>
+    <tr><td>SC-L02-BR32</td><td>7.1 bed + 2 obj</td><td>scL02_bed71_obj2_sr32k_br32k.avsa</td><td>scL02_bed71_obj2_sr44p1k_br32k.avsa</td><td>scL02_bed71_obj2_sr48k_br32k.avsa</td><td>Objects included</td></tr>
+    <tr><td>SC-L03-BR48</td><td>5.1 bed + 8 obj</td><td>scL03_bed51_obj8_sr32k_br48k.avsa</td><td>scL03_bed51_obj8_sr44p1k_br48k.avsa</td><td>scL03_bed51_obj8_sr48k_br48k.avsa</td><td>Object stress</td></tr>
+    <tr><td>SC-L03-BR48</td><td>HOA (3rd order)</td><td>scL03_hoa3_sr32k_br48k.avsa</td><td>scL03_hoa3_sr44p1k_br48k.avsa</td><td>scL03_hoa3_sr48k_br48k.avsa</td><td>HOA order listed</td></tr>
+  </tbody>
+</table>

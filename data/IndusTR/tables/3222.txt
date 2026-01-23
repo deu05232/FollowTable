@@ -1,0 +1,10 @@
+<table>
+  <caption>Spherical Harmonics in Computer Graphics  Shader Parameter Field Reference</caption>
+  <tr><th>Field Name</th><th>Field ID</th><th>Type</th><th>Bits</th><th>Description</th></tr>
+  <tr><td>SH degree</td><td>SH_D</td><td>uint8</td><td>8</td><td>Maximum band index</td></tr>
+  <tr><td>SH order</td><td>SH_O</td><td>uint8</td><td>8</td><td>Per-band coefficient order</td></tr>
+  <tr><td>Diffuse coefficient pack</td><td>SH_COEF</td><td>float16[9]</td><td>144</td><td>RGB packed coefficients</td></tr>
+  <tr><td>Environment map ID</td><td>ENV_ID</td><td>uint32</td><td>32</td><td>Texture handle</td></tr>
+  <tr><td>Frame timestamp</td><td>TS</td><td>uint64</td><td>64</td><td>Render frame time</td></tr>
+  <tr><td>Compression mode</td><td>CMP</td><td>uint2</td><td>2</td><td>Quantization profile</td></tr>
+</table>

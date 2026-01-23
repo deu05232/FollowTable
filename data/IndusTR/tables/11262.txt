@@ -1,0 +1,10 @@
+<table>
+  <caption>AR frame interface parameters (mixed outputs: depth + lighting + pose)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_depth_image</td><td>ArImage **</td><td>Receives the address of the depth image for this frame</td></tr>
+  <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Receives the lighting estimate for the current frame</td></tr>
+  <tr><td>out_pose</td><td>ArPose *</td><td>Receives the device pose for the current frame</td></tr>
+  <tr><td>out_tracking_state</td><td>int32_t *</td><td>Receives a tracking state code for the current frame</td></tr>
+</table>

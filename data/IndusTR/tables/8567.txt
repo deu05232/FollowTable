@@ -1,0 +1,14 @@
+<table>
+  <caption>Accuracy vs. Test Current Interval for Harmonic Active Energy Meter Test Device (Harmonic Current Output)</caption>
+  <thead>
+    <tr><th>Item</th><th>Test current band</th><th>Permissible error (relative to I1)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Harmonic current amplitude accuracy</td><td>1 mA ≤ I < 5 mA</td><td>±0.50%</td><td>Applies to injected harmonic component amplitude</td></tr>
+    <tr><td>5 mA ≤ I < 10 mA</td><td>±0.30%</td><td>Relative to fundamental current I1</td></tr>
+    <tr><td>10 mA ≤ I < 50 mA</td><td>±0.20%</td><td>Same item, tighter at higher current</td></tr>
+    <tr><td>50 mA ≤ I < 1 A</td><td>±0.10%</td><td>Typical working region</td></tr>
+    <tr><td>1 A ≤ I < 20 A</td><td>±0.08%</td><td>High-current range</td></tr>
+    <tr><td>20 A ≤ I ≤ Imax</td><td>±0.10%</td><td>Near max output, allowance slightly loosens</td></tr>
+  </tbody>
+</table>

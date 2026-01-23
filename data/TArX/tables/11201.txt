@@ -1,0 +1,15 @@
+<table>
+  <caption>Distance-Dependent Electron Velocity Near Defects in Different Materials</caption>
+  <thead>
+    <tr><th rowspan="2">Material</th><th colspan="2">Model</th><th colspan="2">Electron velocity v(r)</th></tr>
+    <tr><th>Defect type</th><th>Reference distance r0</th><th>Expression</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Silicon (Si)</td><td>Vacancy</td><td>1 nm</td><td>v(r)=v0·(r0/r)</td><td>Inverse decay with distance to defect</td></tr>
+    <tr><td>Gallium Arsenide (GaAs)</td><td>Donor impurity</td><td>2 nm</td><td>v(r)=vF·[1-exp(-r/λ)]</td><td>Approaches saturation far from impurity</td></tr>
+    <tr><td>Graphene</td><td>Edge</td><td>0.5 nm</td><td>v(r)=vF·(1+α/r)</td><td>Enhanced near edge; diverges as r→0</td></tr>
+    <tr><td>Copper (Cu)</td><td>Grain boundary</td><td>5 nm</td><td>v(r)=vbulk-Δv·exp(-r/ξ)</td><td>Recovers bulk value with distance</td></tr>
+    <tr><td>Aluminum (Al)</td><td>Dislocation core</td><td>1 nm</td><td>v(r)=A/√r</td><td>Qualitative scaling near core</td></tr>
+    <tr><td>Indium Antimonide (InSb)</td><td>Surface state</td><td>3 nm</td><td>v(r)=μE(r), with E(r)=E0·(r0/r)^2</td><td>Tied to electric field that depends on r</td></tr>
+  </tbody>
+</table>

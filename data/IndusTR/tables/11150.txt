@@ -1,0 +1,15 @@
+<table>
+  <caption>Early Warning Code Lists — Hazard/Control Classification Codes (No time fields)</caption>
+  <thead>
+    <tr><th>Level 1</th><th>Level 2</th><th>Code</th><th>Display Name</th><th>Description</th><th>Applies To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Hazard</td><td>Accident</td><td>H001</td><td>Traffic Accident</td><td>Crash-related warning category.</td><td>Alert.type</td></tr>
+    <tr><td>Hazard</td><td>Weather</td><td>H002</td><td>Severe Weather</td><td>Rain/snow/fog/ice impacting safety.</td><td>Alert.type</td></tr>
+    <tr><td>Hazard</td><td>Obstacle</td><td>H003</td><td>Road Obstacle</td><td>Fallen objects, debris, spillage, etc.</td><td>Event.type</td></tr>
+    <tr><td>Control</td><td>Closure</td><td>C101</td><td>Full Closure</td><td>All lanes closed; detour required.</td><td>Control.reason</td></tr>
+    <tr><td>Control</td><td>Restriction</td><td>C102</td><td>Vehicle Restriction</td><td>Restriction by vehicle type/plate.</td><td>Control.reason</td></tr>
+    <tr><td>Construction</td><td>Road Works</td><td>W201</td><td>Road Occupation</td><td>Construction occupying road space.</td><td>Construction.type</td></tr>
+    <tr><td>Construction</td><td>Facility</td><td>W202</td><td>Facility Maintenance</td><td>Maintenance of signals/guardrails.</td><td>Construction.type</td></tr>
+  </tbody>
+</table>

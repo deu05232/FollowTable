@@ -1,0 +1,15 @@
+<table>
+  <caption>Functional Test Cases - Logistics M2M Terminal Session Control & Removal</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Test Item</th><th>Test Sub-item</th><th>Test Objective</th><th>Terminal Actions</th><th>Expected Outcome</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>6.1.1.16</td><td>Logistics M2M Terminal Management</td><td>Graceful Session End (Logout)</td><td>Verify the terminal can end an active session gracefully</td><td>Send logout request; close transport channel; stop heartbeat</td><td>Session is closed; terminal state becomes Logged Out; no further messages accepted under old token</td></tr>
+    <tr><td>6.1.1.17</td><td>Logistics M2M Terminal Management</td><td>Forced Session Termination (Server Kick)</td><td>Verify the terminal behavior when session is terminated remotely</td><td>Keep connection alive; receive kick/terminate command; attempt to send telemetry afterward</td><td>Terminal stops sending; reconnects and re-authenticates per policy; receives explicit termination reason</td></tr>
+    <tr><td>6.1.1.18</td><td>Logistics M2M Terminal Management</td><td>Deregistration While Offline</td><td>Verify deregistration effects when terminal is not connected</td><td>Remain offline; later try to connect using deregistered identity</td><td>Connection/authentication is rejected; terminal receives “device not registered” response</td></tr>
+    <tr><td>6.1.1.19</td><td>Logistics M2M Terminal Management</td><td>Remote Command Execution After Connected</td><td>Verify terminal can execute a remote operation after connection</td><td>Authenticate; receive remote control command; execute; report result code</td><td>Command is executed once; acknowledgment and execution result are reported correctly</td></tr>
+    <tr><td>6.1.1.20</td><td>Logistics M2M Terminal Management</td><td>Remote Command Timeout Handling</td><td>Verify terminal-side timeout and retry for remote operations</td><td>Simulate long execution; miss response window; observe retry/abort behavior</td><td>Terminal returns timeout result; avoids duplicate execution; logs correlation ID for traceability</td></tr>
+    <tr><td>6.1.1.21</td><td>Logistics M2M Terminal Management</td><td>Terminal Factory Reset & Re-onboarding</td><td>Verify terminal re-registration/login behavior after reset</td><td>Reset device credentials/storage; attempt register/login again</td><td>Terminal follows onboarding flow; old session is invalid; new identity/keys are provisioned as configured</td></tr>
+    <tr><td>6.1.1.22</td><td>Logistics M2M Terminal Management</td><td>Data Upload Permission After Deregistration</td><td>Verify terminal cannot operate (upload data) after being removed</td><td>After deregistration, attempt telemetry upload and remote command polling</td><td>Uploads are denied; polling returns “not authorized/not registered”; terminal prompts for re-onboarding</td></tr>
+  </tbody>
+</table>

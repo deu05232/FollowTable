@@ -1,0 +1,16 @@
+<table>
+  <caption>Security Level Requirement Checklist for Intrusion Detectors (Includes Performance Lines)</caption>
+  <thead>
+    <tr><th rowspan="2">Requirement item</th><th colspan="4">Security level</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Level 1</th><th>Level 2</th><th>Level 3</th><th>Level 4</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Intrusion detection function</td><td>M</td><td>M</td><td>M</td><td>M</td><td>Basic alarm generation</td></tr>
+    <tr><td>Tamper detection</td><td>OP</td><td>M</td><td>M</td><td>M</td><td>Enclosure opening</td></tr>
+    <tr><td>Event memory capacity</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>> 1000 events for L3+</td></tr>
+    <tr><td>Boundary-crossing speed threshold (m/s)</td><td>0.7</td><td>0.7</td><td>1.0</td><td>1.0</td><td>Performance line mixed into checklist</td></tr>
+    <tr><td>Minimum detectable vibration (m/s²)</td><td>≤0.8</td><td>≤0.6</td><td>≤0.4</td><td>≤0.3</td><td>Sensitivity requirement</td></tr>
+    <tr><td>Alarm reporting format</td><td>M</td><td>M</td><td>M</td><td>M</td><td>Contact ID or SIA DC-09</td></tr>
+    <tr><td>Optional remote test mode</td><td>OP</td><td>OP</td><td>M</td><td>M</td><td>Installer feature</td></tr>
+  </tbody>
+</table>

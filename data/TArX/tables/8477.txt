@@ -1,0 +1,10 @@
+<table>
+  <caption>Optomechanical coupling derivatives used to justify the strong-regime parameter choice</caption>
+  <tr><th>Quantity</th><th>Symbol</th><th>Value</th><th>Units</th><th>How obtained</th></tr>
+  <tr><td>Dispersive coupling slope</td><td>dωc/dx</td><td>2π×48</td><td>GHz/nm</td><td>mode simulation</td></tr>
+  <tr><td>Second-order dispersive coupling</td><td>d²ωc/dx²</td><td>2π×4.5</td><td>MHz/nm²</td><td>fit to frequency shift</td></tr>
+  <tr><td>Single-photon coupling</td><td>g0</td><td>2π×33</td><td>kHz</td><td>xzpf × dωc/dx</td></tr>
+  <tr><td>Effective mass</td><td>meff</td><td>40</td><td>pg</td><td>mechanical FEM</td></tr>
+  <tr><td>Zero-point motion</td><td>xzpf</td><td>0.69</td><td>fm</td><td>from meff, Ωm</td></tr>
+  <tr><td>Optical linewidth</td><td>κ</td><td>2π×600</td><td>MHz</td><td>cavity ringdown</td></tr>
+</table>

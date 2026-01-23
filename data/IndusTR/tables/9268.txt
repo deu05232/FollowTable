@@ -1,0 +1,15 @@
+<table>
+  <caption>Kerf Width Acceptance Limits vs Material Thickness</caption>
+  <thead>
+    <tr><th>Material thickness a (mm)</th><th>Kerf width limit Wk (mm)</th><th>Assist gas</th><th>Nozzle standoff (mm)</th><th>Inspection method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.1 ≤ a ≤ 0.5</td><td>≤ 0.01 + 0.05a</td><td>N2</td><td>0.8</td><td>Optical microscope</td></tr>
+    <tr><td>0.5 < a ≤ 1.0</td><td>≤ 0.01 + 0.10a</td><td>N2</td><td>1.0</td><td>Profile projector</td></tr>
+    <tr><td>1.0 < a ≤ 3.0</td><td>≤ 0.08 + 0.08a</td><td>Air</td><td>1.2</td><td>Vision gauge</td></tr>
+    <tr><td>3.0 < a ≤ 6.0</td><td>≤ 0.10 + 0.10a</td><td>O2</td><td>1.5</td><td>Caliper + microscope</td></tr>
+    <tr><td>6.0 < a ≤ 12.0</td><td>≤ 0.20 + 0.12a</td><td>O2</td><td>1.8</td><td>Cut-and-measure</td></tr>
+    <tr><td>12.0 < a ≤ 25.0</td><td>≤ 0.30 + 0.15a</td><td>O2</td><td>2.0</td><td>Cut-and-measure</td></tr>
+    <tr><td colspan="5">Note: Limits are thickness-based and focus only on kerf width.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Air-Jet Vortex Spinning Machine Main Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rules</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0100</td><td>Spinning Speed</td><td>SpinningSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~800.00</td><td>m/min</td><td>Spinning linear speed</td><td></td></tr>
+  <tr><td>0X0101</td><td>Number of Spindles</td><td>SpindleNumber</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>1~300</td><td>spindle</td><td>II</td><td></td></tr>
+  <tr><td>0X0102</td><td>Spindle Gauge</td><td>SpindleGauge</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>100.00~400.00</td><td>mm</td><td>1</td><td></td></tr>
+  <tr><td>0X0103</td><td>Design Draft Multiple</td><td>DesignDraftMultiple</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~400.00</td><td>times</td><td></td><td></td></tr>
+  <tr><td>0X0104</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>I</td></tr>
+</table>

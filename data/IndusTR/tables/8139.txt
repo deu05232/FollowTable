@@ -1,0 +1,10 @@
+<table>
+  <caption>Diagnostic requirement summary that mixes diagnostic coverage with explicit fault codes (intentionally mixed)</caption>
+  <tr><th>Instrument Category</th><th>Diagnostic Coverage Requirement</th><th>Example Fault Code</th><th>Notes</th></tr>
+  <tr><td>Measuring instruments</td><td>Provide a diagnostic information list covering power supply status, loop current feedback, and communication status</td><td>E02</td><td>Includes both coverage expectations and a fault-code example</td></tr>
+  <tr><td>Measuring instruments</td><td>Support abnormality diagnosis for process variables with recorded diagnostic events</td><td>E31</td><td>Fault codes appear alongside broader abnormality diagnostics</td></tr>
+  <tr><td>Analytical instruments</td><td>Use historical data for trend analysis to indicate potential process deviations</td><td>D07</td><td>Trend-based diagnostics mixed with code listing</td></tr>
+  <tr><td>Actuators</td><td>Diagnose excessive torque, valve stuck, and mid-position alarms during open/close</td><td>A01</td><td>Mixes operational diagnostics with code references</td></tr>
+  <tr><td>Actuators</td><td>Communication status diagnosis with watchdog and recovery records</td><td>A99</td><td>Not a pure fault-code table</td></tr>
+  <tr><td>Analytical instruments</td><td>Provide a diagnostic information table with at least 20 entries</td><td>D01</td><td>High-level diagnostic list plus codes</td></tr>
+</table>

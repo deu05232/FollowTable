@@ -1,0 +1,16 @@
+<table>
+  <caption>Incoming and Final Inspection Acceptance Criteria for Rolling Bearing Components (Sampling Plan Based)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Inspection Target (Characteristic)</th><th>Method / Gauge</th><th>Sample Size</th><th>Acceptance Basis (Pass/Fail Rule)</th><th>Defect Class</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Incoming</td><td>Chemical composition of ring steel</td><td>Spectrometer report review</td><td>1 heat / batch</td><td>All elements within purchase specification; any out-of-range = Reject batch</td><td>Critical</td></tr>
+    <tr><td>Incoming</td><td>Surface decarburization depth (rings)</td><td>Metallographic cross-section</td><td>2 rings / batch</td><td>Max decarb depth ≤ 0.10 mm; any sample over limit = Reject batch</td><td>Major</td></tr>
+    <tr><td>Incoming</td><td>Hardness after heat treatment (inner ring)</td><td>Rockwell HRC</td><td>3 rings / lot</td><td>62–66 HRC; any reading outside range = Reject lot</td><td>Major</td></tr>
+    <tr><td>Incoming</td><td>Hardness after heat treatment (outer ring)</td><td>Rockwell HRC</td><td>3 rings / lot</td><td>62–66 HRC; any reading outside range = Reject lot</td><td>Major</td></tr>
+    <tr><td>Incoming</td><td>Rolling element diameter (Dw) consistency</td><td>Micrometer / air gauge</td><td>10 pcs / lot</td><td>Max-min within sample ≤ 2 µm; if exceeded = Reject lot</td><td>Major</td></tr>
+    <tr><td>Final</td><td>Raceway surface defects (pits, scratches, burns)</td><td>100% visual under 10×</td><td>100% pieces</td><td>No burn marks allowed; pits/scratches not exceeding 0.2 mm length; any nonconforming piece = Reject piece</td><td>Critical</td></tr>
+    <tr><td>Final</td><td>Seal lip damage / deformation (sealed bearings)</td><td>Visual + functional check</td><td>13 pcs / lot</td><td>Acceptance number Ac=0, Re=1 (any defect found = Reject lot)</td><td>Major</td></tr>
+    <tr><td>Final</td><td>Rotational torque (greased bearing)</td><td>Torque meter at specified speed</td><td>8 pcs / lot</td><td>Measured torque ≤ 0.20 N·m; if > 0.20 N·m in any sample = Reject lot</td><td>Major</td></tr>
+  </tbody>
+</table>

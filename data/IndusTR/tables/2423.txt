@@ -1,0 +1,10 @@
+<table>
+  <caption>Database Infrastructure Parameters for Administrative Enterprise Systems (System Input Specs)</caption>
+  <tr><th>Component</th><th>Specification</th><th>Recommended Value</th><th>Rationale</th><th>Notes</th></tr>
+  <tr><td>Database Engine</td><td>RDBMS</td><td>PostgreSQL 15+</td><td>ACID compliance</td><td>Enable logical replication</td></tr>
+  <tr><td>Character Encoding</td><td>UTF-8</td><td>UTF8</td><td>Multilingual support</td><td>Normalize to NFC</td></tr>
+  <tr><td>Primary Key Strategy</td><td>UUID v4</td><td>UUID</td><td>Distributed inserts</td><td>Store as CHAR(36)</td></tr>
+  <tr><td>Indexing</td><td>B-tree</td><td>EntName, UniSCID indexes</td><td>Fast lookup</td><td>Partial index for active records</td></tr>
+  <tr><td>Backup Policy</td><td>Full + Incremental</td><td>Weekly full, daily incremental</td><td>RPO < 24h</td><td>Encrypt backups</td></tr>
+  <tr><td>Retention</td><td>Days</td><td>3650</td><td>Regulatory audit needs</td><td>Archive after 3 years</td></tr>
+</table>

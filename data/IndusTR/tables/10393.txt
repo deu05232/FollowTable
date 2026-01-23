@@ -1,0 +1,7 @@
+<table>
+  <caption>Enterprise data dictionary (internal aliases, not code-style field identifiers)</caption>
+  <tr><th>Data Item Name</th><th>Field Label</th><th>Data Type and Format</th><th>Description</th></tr>
+  <tr><td>Enterprise Name</td><td>enterprise_name_text</td><td>C..100</td><td>Name shown in UI</td></tr>
+  <tr><td>Unified Social Credit Code</td><td>credit_code_string</td><td>C18</td><td>Identifier shown in UI</td></tr>
+  <tr><td>Legal Representative</td><td>legal_rep_fullname</td><td>C..50</td><td>Full name of representative</td></tr>
+</table>

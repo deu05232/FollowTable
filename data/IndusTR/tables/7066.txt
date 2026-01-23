@@ -1,0 +1,17 @@
+<table>
+  <caption>RSU Basic Reference Information Fields (Broadcast/Registration)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Description</th><th>Type</th><th>Unit / Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Identity</td><td>rsuId</td><td>Unique identifier of the RSU (station ID)</td><td>String</td><td>e.g., "RSU-000123"</td></tr>
+    <tr><td>rsuIdType</td><td>Identifier namespace/type used by the RSU</td><td>Enum</td><td>local | national | uuid</td></tr>
+    <tr><td>rsuRegistrationTimestamp</td><td>Time when the RSU reference info is registered/updated</td><td>Integer</td><td>ms since epoch</td></tr>
+    <tr><td rowspan="6">Reference Position</td><td>refLatitude</td><td>RSU reference latitude (WGS-84)</td><td>Float</td><td>degrees</td></tr>
+    <tr><td>refLongitude</td><td>RSU reference longitude (WGS-84)</td><td>Float</td><td>degrees</td></tr>
+    <tr><td>refAltitude</td><td>Reference altitude of the RSU position</td><td>Float</td><td>m</td></tr>
+    <tr><td>positionTimestamp</td><td>Timestamp associated with the reference position</td><td>Integer</td><td>ms since epoch</td></tr>
+    <tr><td>horizontalAccuracy</td><td>Horizontal accuracy of reference position</td><td>Float</td><td>m</td></tr>
+    <tr><td>verticalAccuracy</td><td>Vertical accuracy of reference altitude</td><td>Float</td><td>m</td></tr>
+  </tbody>
+</table>

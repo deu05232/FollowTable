@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Session Runtime State Enumeration (Tracking Lifecycle)</caption>
+  <thead>
+    <tr><th>Runtime state description</th><th>Constant name</th><th>Assigned value</th><th>Typical app reaction (runtime meaning)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Session is initializing (tracking not yet stable)</td><td>AR_SESSION_STATE_INITIALIZING</td><td>0</td><td>Show "starting" UI; defer content placement</td></tr>
+    <tr><td>Tracking actively running with valid pose</td><td>AR_SESSION_STATE_TRACKING</td><td>1</td><td>Render/anchor updates; normal operation</td></tr>
+    <tr><td>Tracking paused (temporary interruption)</td><td>AR_SESSION_STATE_PAUSED</td><td>2</td><td>Freeze content; keep last known pose; wait</td></tr>
+    <tr><td>Tracking lost (no reliable pose)</td><td>AR_SESSION_STATE_LOST</td><td>3</td><td>Hide/relocalize content; prompt user to move device</td></tr>
+    <tr><td>Relocalizing (attempting to recover tracking)</td><td>AR_SESSION_STATE_RELOCALIZING</td><td>4</td><td>Limit interactions; show recovery indicator</td></tr>
+    <tr><td>Session stopped (explicit stop or fatal condition)</td><td>AR_SESSION_STATE_STOPPED</td><td>5</td><td>Release resources; require restart to continue</td></tr>
+    <tr><td>Session failed (cannot continue without restart)</td><td>AR_SESSION_STATE_FAILED</td><td>6</td><td>Log error; surface failure reason; restart session</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Automatic Winding Machine Operation Monitoring Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Cheese length per spindle</td><td>CheeseLengthOfSpindle</td><td>M</td><td>VAR</td><td>RO</td><td>UInt32</td><td>0~900 000</td><td>m</td><td>1</td><td></td></tr>
+  <tr><td>0X0301</td><td>Winding time per spindle</td><td>Winding TimeOfSpindle</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~1000</td><td>min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0302</td><td>Number of full packages per spindle</td><td>QuantityOfPackagesSpindle</td><td>M</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~100</td><td>pcs</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0303</td><td>Number of tube changes per spindle</td><td>QuantityOfCopsSpindle</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~2000</td><td>pcs</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0304</td><td>Number of successful package doffings by trolley</td><td>QuantityOfDoffer Successfullylands</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~1000</td><td>pcs</td><td>丨</td><td></td></tr>
+  <tr><td>0X0305</td><td>Number of incoming tubes</td><td>QuantityOfSpinningCops</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~50000</td><td>pcs</td><td>1</td><td></td></tr>
+  <tr><td>0X0306</td><td>Number of returned empty tubes</td><td>QuantityOfEmptyBobbins</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~50000</td><td>pcs</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0307</td><td>Extensible data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td>1</td><td>1</td><td>1</td></tr>
+</table>

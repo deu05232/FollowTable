@@ -1,0 +1,6 @@
+<table>
+  <caption>Augmented Reality Light Estimation Object Creation Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_light_estimate</td><td>ArLightEstimate **</td><td>Pointer to a pointer to ArLightEstimate, used to receive the address of the newly created light estimation object</td></tr>
+</table>

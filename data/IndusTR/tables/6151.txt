@@ -1,0 +1,18 @@
+<table>
+  <caption>Deliverable Service BOM Structure (Parent-to-Child Relationships)</caption>
+  <thead>
+    <tr><th>Hierarchy Level</th><th>Parent Part No.</th><th>Child Part No.</th><th>Relationship Type</th><th>Quantity</th><th>UoM</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>SV-ASSY-1000</td><td>SV-MOD-1100</td><td>Module</td><td>1</td><td>EA</td><td>Primary service module</td></tr>
+    <tr><td>1</td><td>SV-MOD-1100</td><td>SV-PLT-1110</td><td>Subassembly</td><td>1</td><td>EA</td><td>Mounting plate</td></tr>
+    <tr><td>1</td><td>SV-MOD-1100</td><td>SV-CBL-1120</td><td>Component</td><td>2</td><td>EA</td><td>Interconnect cable</td></tr>
+    <tr><td>2</td><td>SV-PLT-1110</td><td>SV-FST-1111</td><td>Hardware</td><td>4</td><td>EA</td><td>Fastener set</td></tr>
+    <tr><td>2</td><td>SV-PLT-1110</td><td>SV-GSK-1112</td><td>Consumable</td><td>1</td><td>EA</td><td>Gasket</td></tr>
+    <tr><td>0</td><td>SV-ASSY-1000</td><td>SV-MOD-1200</td><td>Module</td><td>1</td><td>EA</td><td>Secondary service module</td></tr>
+    <tr><td>1</td><td>SV-MOD-1200</td><td>SV-SNS-1210</td><td>Component</td><td>1</td><td>EA</td><td>Sensor</td></tr>
+    <tr><td>1</td><td>SV-MOD-1200</td><td>SV-PCB-1220</td><td>Component</td><td>1</td><td>EA</td><td>Control board</td></tr>
+    <tr><td>2</td><td>SV-PCB-1220</td><td>SV-IC-1221</td><td>Electronic Part</td><td>3</td><td>EA</td><td>Controller IC</td></tr>
+    <tr><td>2</td><td>SV-PCB-1220</td><td>SV-CAP-1222</td><td>Electronic Part</td><td>6</td><td>EA</td><td>Capacitor</td></tr>
+  </tbody>
+</table>

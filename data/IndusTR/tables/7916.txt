@@ -1,0 +1,16 @@
+<table>
+  <caption>Filament Yarn Conversion Coefficients by Nominal dtex Ranges (No Benchmark Ratio Rule)</caption>
+  <thead>
+    <tr><th rowspan="2">Filament Yarn Item</th><th rowspan="2">Process</th><th colspan="2">Nominal Linear Density (dtex)</th><th rowspan="2">Conversion Coefficient (fixed)</th><th rowspan="2">Remark</th></tr>
+    <tr><th>From</th><th>To</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Polyester filament yarn</td><td>POY</td><td>50</td><td>100</td><td>1.12</td><td>Range factor only</td></tr>
+    <tr><td>POY</td><td>101</td><td>300</td><td>1.00</td><td>Range factor only</td></tr>
+    <tr><td rowspan="2">Polyester filament yarn</td><td>FDY</td><td>30</td><td>80</td><td>1.15</td><td>No benchmark stated</td></tr>
+    <tr><td>FDY</td><td>81</td><td>200</td><td>1.00</td><td>No benchmark stated</td></tr>
+    <tr><td rowspan="2">Nylon filament yarn</td><td>DTY</td><td>40</td><td>70</td><td>1.10</td><td>Fixed by band</td></tr>
+    <tr><td>Nylon filament yarn</td><td>DTY</td><td>71</td><td>150</td><td>1.00</td><td>Fixed by band</td></tr>
+    <tr><td>Polypropylene filament yarn</td><td>BCF</td><td>900</td><td>3200</td><td>1.00</td><td>Uses bands, not ratio</td></tr>
+  </tbody>
+</table>

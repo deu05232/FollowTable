@@ -1,0 +1,6 @@
+<table>
+  <caption>Functional test case overview for Logistics M2M platform (execution-heavy version)</caption>
+  <tr><th>Case Ref</th><th>Feature Area</th><th>Scenario</th><th>Preconditions</th><th>Test Steps (high level)</th><th>Expected Result</th></tr>
+  <tr><td>6.1.1.3</td><td>Terminal Management</td><td>Terminal login</td><td>Device provisioned; SIM active; network reachable</td><td>Enter device ID; submit credentials; wait for session establishment</td><td>Login succeeds and session is created</td></tr>
+  <tr><td>6.1.1.4</td><td>Terminal Management</td><td>Terminal logout</td><td>Terminal currently logged in</td><td>Trigger logout from terminal UI/API; confirm termination</td><td>Session is removed and terminal shows offline</td></tr>
+</table>

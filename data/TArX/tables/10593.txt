@@ -1,0 +1,19 @@
+<table>
+  <caption>Polynomial Fit Coefficients for Restitution Models (Material-Agnostic)</caption>
+  <thead>
+    <tr><th>Model / Series</th><th>Term</th><th>Symbol</th><th>Coefficient Value</th><th>Power of v</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Model P1: e(v)=Σ a_n v^n</td><td>n=0</td><td>a0</td><td>0.418</td><td>0</td><td>Fit constant</td></tr>
+    <tr><td>n=1</td><td>a1</td><td>-0.173</td><td>1</td><td>Linear decay</td></tr>
+    <tr><td>n=2</td><td>a2</td><td>0.062</td><td>2</td><td>Quadratic correction</td></tr>
+    <tr><td>n=3</td><td>a3</td><td>-0.011</td><td>3</td><td>Cubic correction</td></tr>
+    <tr><td rowspan="4">Model P2: e(v)=Σ b_n v^(n/2)</td><td>n=0</td><td>b0</td><td>0.445</td><td>0</td><td>Intercept</td></tr>
+    <tr><td>n=1</td><td>b1</td><td>-0.201</td><td>1/2</td><td>Root-velocity term</td></tr>
+    <tr><td>n=2</td><td>b2</td><td>-0.029</td><td>1</td><td>Velocity term</td></tr>
+    <tr><td>n=3</td><td>b3</td><td>0.014</td><td>3/2</td><td>Higher-order term</td></tr>
+    <tr><td rowspan="3">Model R: rational approximation</td><td>numerator</td><td>p1</td><td>1.882</td><td>—</td><td>Dimensionless</td></tr>
+    <tr><td>denominator</td><td>q1</td><td>3.417</td><td>—</td><td>Dimensionless</td></tr>
+    <tr><td>denominator</td><td>q2</td><td>0.955</td><td>—</td><td>Dimensionless</td></tr>
+  </tbody>
+</table>

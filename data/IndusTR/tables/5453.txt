@@ -1,0 +1,8 @@
+<table>
+  <caption>Tensor Value Clipping Function Backward Interface Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Output Gradient</td><td>Input</td><td>Required</td><td>Represents the gradient tensor of the output tensor</td></tr>
+  <tr><td>Lower Bound</td><td>Input</td><td>Required</td><td>Represents the lower bound of the range; elements in the input tensor less than this value will be replaced by this value. The data type is computation-compatible with the input tensor</td></tr>
+  <tr><td>Upper Bound</td><td>Input</td><td>Required</td><td>Represents the upper bound of the range; elements in the input tensor greater than this value will be replaced by this value. The data type is computation-compatible with the input tensor</td></tr>
+  <tr><td>Input Gradient</td><td>Output</td><td>Required</td><td>Represents the gradient tensor of the input tensor</td></tr>
+</table>

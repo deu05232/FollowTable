@@ -1,0 +1,15 @@
+<table>
+  <caption>Context-Driven Categorization of Coefficient and Position Syntax Items</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Context group</th><th>Category rule (derived)</th><th>ctxIdxOffset</th><th>Increment rule</th><th>Entropy-coding mode</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>last_cg_pos</td><td>LASTPOS_GRP</td><td>cat = (IsChroma?1:0) + (log2(BlkSize)-2)</td><td>120</td><td>ctxInc = min(3, cat)</td><td>CABAC regular</td></tr>
+    <tr><td>last_cg_x</td><td>LASTX_GRP</td><td>cat = (ScanIdx==0?0:1) + (IsChroma?2:0)</td><td>140</td><td>ctxInc = min(4, prefixLen)</td><td>CABAC regular</td></tr>
+    <tr><td>last_cg0_flag</td><td>LASTCG0_GRP</td><td>cat = (IsChroma?1:0)</td><td>160</td><td>ctxInc = cat</td><td>CABAC regular</td></tr>
+    <tr><td>cu_type_index</td><td>CUTYPE_GRP</td><td>cat = (CuPredMode==INTER) + (RefIdx>0)</td><td>40</td><td>ctxInc = binIdx</td><td>CABAC regular</td></tr>
+    <tr><td>transform_split_flag</td><td>TSPLIT_GRP</td><td>cat = (TuDepth) + (IntraCuFlag?1:0)</td><td>80</td><td>ctxInc = min(2, cat)</td><td>CABAC regular</td></tr>
+    <tr><td>sao_interval_offset_abs</td><td>SAO_OFF_GRP</td><td>cat = (IsChroma?1:0) + (SaoTypeIdx)</td><td>200</td><td>ctxInc = (cat==0?0:1)</td><td>CABAC regular</td></tr>
+    <tr><td>aec_lcu_stuffing_bit</td><td>STUFF_GRP</td><td>cat = 0 (fixed)</td><td>N/A</td><td>N/A</td><td>Bypass</td></tr>
+  </tbody>
+</table>

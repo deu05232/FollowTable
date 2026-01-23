@@ -1,0 +1,9 @@
+<table>
+  <caption>Inspection Items and Frequency for Control System Software Functions and Data Security</caption>
+  <tr><td>Inspection Item</td><td>Inspection Content</td><td>Inspection Frequency</td></tr>
+  <tr><td>Data backup</td><td>Holidays, major events) or timed synchronization via satellite or network, automatically performs light on/off control and</td><td>Monthly</td></tr>
+  <tr><td>Automatic patrol monitoring</td><td>Automatically and regularly backs up operation logs, operating data, and device parameters; runs normally</td><td>During operation</td></tr>
+  <tr><td>Vulnerability scanning</td><td>The system automatically conducts inspections of master/sub-control units and facilities such as distribution boxes according to the set patrol conditions (groups, cycles), correctly returns the corresponding switch status signals and data such as voltage, current, power, power factor, and power consumption; runs normally</td><td>Daily</td></tr>
+  <tr><td>Fault alarm</td><td>Perform vulnerability scanning and promptly patch system security vulnerabilities when found</td><td>During operation</td></tr>
+  <tr><td>Remote access</td><td>When the centralized controller actively alarms or when the system inspection finds an alarm, the system HMI alarms, audible and visual alarms, mobile SMS or APP message push alarms; runs normally</td><td>Monthly</td></tr>
+</table>

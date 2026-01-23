@@ -1,0 +1,14 @@
+<table>
+  <caption>Graphene persistence length reported as a temperature-averaged value over a range (no specific temperature points)</caption>
+  <thead>
+    <tr><th>Model / Experiment</th><th>Temperature window (K)</th><th>Reported metric</th><th>Value</th><th>Unit</th><th>How obtained</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MD fluctuation analysis</td><td>10–100</td><td>Mean ℓp</td><td>85</td><td>Å</td><td>Average over trajectory temperatures</td></tr>
+    <tr><td>MD fluctuation analysis</td><td>100–200</td><td>Mean ℓp</td><td>68</td><td>Å</td><td>Window-averaged</td></tr>
+    <tr><td>MD fluctuation analysis</td><td>200–300</td><td>Mean ℓp</td><td>55</td><td>Å</td><td>Window-averaged</td></tr>
+    <tr><td>Continuum fit</td><td>250–350</td><td>Effective ℓp</td><td>53</td><td>Å</td><td>Single fit across the window</td></tr>
+    <tr><td>AFM-based estimate</td><td>Room-temperature lab (unspecified)</td><td>Typical ℓp</td><td>50–60</td><td>Å</td><td>Not tied to a specific K value</td></tr>
+    <tr><td>Literature summary</td><td>50–300</td><td>Overall mean ℓp</td><td>62 ± 9</td><td>Å</td><td>Pooled across studies</td></tr>
+  </tbody>
+</table>

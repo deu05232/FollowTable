@@ -1,0 +1,9 @@
+<table>
+  <caption>Bilinear Operation Function Forward Interface Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor 1</td><td>Input</td><td>Required</td><td>The first input tensor of the bilinear operation; its shape is conventionally [N，..，in_featuresl]</td></tr>
+  <tr><td>Input Tensor 2</td><td>Input</td><td>Required</td><td>The first input tensor of the bilinear operation; its shape is conventionally [N，..，in_features2]</td></tr>
+  <tr><td>Weight Tensor</td><td>Input</td><td>Required</td><td>The weight of the bilinear operation, a tensor with shape [out_features，in_featuresl，in_features2]</td></tr>
+  <tr><td>Bias Tensor</td><td>Input</td><td>Optional</td><td>A tensor with shape [out_features]. Empty value indicates no bias. Default value: empty</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Indicates the computation result, a tensor with shape [N，..，out_features]</td></tr>
+</table>

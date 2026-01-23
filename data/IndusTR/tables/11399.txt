@@ -1,0 +1,15 @@
+<table>
+  <caption>Transport Simulation Plan (Vibration + Shock + Climatic Exposure) for Variable Frequency Drive Equipment</caption>
+  <thead>
+    <tr><th>Module</th><th>Test item</th><th>Primary motion / stress</th><th>Packaging</th><th>Power</th><th>Profile / setpoints</th><th>Axes / orientation</th><th>Severity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Random vibration</td><td>Vibration</td><td>With packaging</td><td>Not energized</td><td>5–200 Hz random, 0.5 g RMS</td><td>3 axes</td><td>30 min/axis</td></tr>
+    <tr><td>2</td><td>Transport shock</td><td>Shock</td><td>With packaging</td><td>Not energized</td><td>Half-sine, 10 g / 20 ms</td><td>3 axes</td><td>12 shocks total</td></tr>
+    <tr><td>3</td><td>Refrigerated storage during transit</td><td>Low temperature</td><td>With packaging</td><td>Not energized</td><td>-25°C ±2°C</td><td>N/A</td><td>16 h</td></tr>
+    <tr><td>4</td><td>Hot container exposure</td><td>High temperature</td><td>With packaging</td><td>Not energized</td><td>55°C ±2°C, abs humidity ≤20 g/m³</td><td>N/A</td><td>16 h</td></tr>
+    <tr><td>5</td><td>Sea freight simulation</td><td>Damp heat</td><td>With packaging</td><td>Not energized</td><td>40°C ±2°C, 95% RH (no dripping)</td><td>N/A</td><td>48 h</td></tr>
+    <tr><td>6</td><td>Moisture recovery</td><td>Condensation removal</td><td>Unpacked</td><td>Not energized</td><td>Airflow drying, 20°C–30°C</td><td>N/A</td><td>≥1 h</td></tr>
+    <tr><td>7</td><td>Inspection and power-on check</td><td>Functional</td><td>Unpacked</td><td>Energized</td><td>Rated input, run command</td><td>N/A</td><td>10 min</td></tr>
+  </tbody>
+</table>

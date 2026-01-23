@@ -1,0 +1,12 @@
+# Satellite Constellations and Their Closest Neighbor Constellation (Orbital Shell Proximity)
+
+| Satellite constellation | Operator | Closest constellation (orbital shell neighbor) | Criterion | Typical separation (km) | Notes |
+|---|---|---|---|---:|---|
+| Starlink Gen1 | SpaceX | OneWeb | altitude overlap | 35 | shell adjacency |
+| OneWeb | OneWeb | Starlink Gen1 | inclination similarity | 42 | shell adjacency |
+| Iridium NEXT | Iridium | Globalstar | plane spacing | 55 | shell adjacency |
+| Globalstar | Globalstar | Iridium NEXT | altitude proximity | 60 | shell adjacency |
+| GPS | US Government | Galileo | MEO band | 120 | navigation MEO |
+| Galileo | ESA | GPS | MEO band | 115 | navigation MEO |
+| BeiDou | China | GLONASS | orbital regime | 140 | multi-orbit |
+| GLONASS | Russia | GPS | MEO band | 130 | navigation MEO |

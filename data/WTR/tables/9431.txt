@@ -1,0 +1,12 @@
+# Astronomy & Astrology APIs Mentioning Moon Phases (Feature Overview)
+
+| API | Provider | Main Focus | Moon Phase Field | Other Fields Included | Output Format | Typical Use |
+| --- | --- | --- | --- | --- | --- | --- |
+| LunarData Pro | AstroSoft | Ephemerides | phaseName | sunrise, planets, houses | JSON | App widgets |
+| SkyEvents API | NightLabs | Events | phaseAtEvent | meteor showers, eclipses | JSON | Event alerts |
+| MoonPhaseLite | OpenEphem | Moon | illuminationPercent | ageDays, rise/set | JSON | Simple dashboards |
+| HoroscopeCloud | StarText | Astrology | moonPhaseText | zodiac, compatibility | XML | Horoscopes |
+| AlmanacHub | AlmanacHub | Almanac | phaseCode | tides, weather, holidays | JSON/CSV | Almanacs |
+| EclipseWatch | Umbra Inc. | Eclipses | phaseAtMax | contact times, magnitude | JSON | Eclipse planning |
+| PlanetTrack | OrbitWare | Planets | — | orbital elements, retrograde | JSON | Planet tracking |
+| GeoTide API | CoastSys | Tides | newFullIndicator | tide heights, stations | JSON | Marine planning |

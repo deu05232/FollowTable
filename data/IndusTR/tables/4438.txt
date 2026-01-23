@@ -1,0 +1,9 @@
+<table>
+  <caption>Input Parameters for Hardware Operator Kernel Function Registration Interface</caption>
+  <tr><td>Parameter Name</td><td>Input/Output Type</td><td>Data Type</td><td>Mandatory/Optional</td><td>Parameter Description</td></tr>
+  <tr><td>Operator name</td><td>Input parameter</td><td>String</td><td>Mandatory</td><td>Framework operator name</td></tr>
+  <tr><td>Hardware name</td><td>Input parameter</td><td>String</td><td>Mandatory</td><td>Hardware backend name</td></tr>
+  <tr><td>Layout type</td><td>Input parameter</td><td>Enum</td><td>Optional</td><td>Data layout type of the input tensor</td></tr>
+  <tr><td>Kernel function</td><td>Input parameter</td><td>Function</td><td>Mandatory</td><td>Hardware operator kernel function</td></tr>
+  <tr><td>Data type</td><td>Input parameter</td><td>Enum</td><td>Mandatory</td><td>Data type of the input tensor supported by the operator</td></tr>
+</table>

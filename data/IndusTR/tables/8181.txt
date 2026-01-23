@@ -1,0 +1,15 @@
+<table>
+  <caption>Environmental Influence Test: Limits of Error Change Due to Temperature and Humidity</caption>
+  <thead>
+    <tr><th rowspan="2">Influence quantity</th><th rowspan="2">Test condition / range</th><th colspan="5">Limit of error change (%)</th></tr>
+    <tr><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Ambient temperature</td><td>5°C to 40°C (for classes ≤ 0.05)</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>15°C to 30°C (for classes > 0.05)</td><td>±0.010</td><td>±0.020</td><td>±0.050</td><td>±0.100</td><td>±0.200</td></tr>
+    <tr><td>Temperature step response (Δ10°C)</td><td>±0.006</td><td>±0.012</td><td>±0.030</td><td>±0.060</td><td>±0.120</td></tr>
+    <tr><td rowspan="2">Relative humidity</td><td>10% to 75% RH</td><td>±0.005</td><td>±0.010</td><td>±0.030</td><td>±0.050</td><td>±0.100</td></tr>
+    <tr><td>Condensation not allowed (stress check)</td><td>±0.004</td><td>±0.008</td><td>±0.025</td><td>±0.040</td><td>±0.080</td></tr>
+    <tr><td>Barometric pressure</td><td>70 kPa to 106 kPa</td><td>±0.003</td><td>±0.006</td><td>±0.015</td><td>±0.030</td><td>±0.060</td></tr>
+  </tbody>
+</table>

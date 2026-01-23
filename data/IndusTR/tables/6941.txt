@@ -1,0 +1,6 @@
+<table>
+  <caption>Error notification frame structure without payload details (grain condition system)</caption>
+  <tr><th>Start Symbol</th><th>Unit Address</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>KADDL</td><td>E1H</td><td>0000H</td><td>xxxx</td><td>16H</td></tr>
+  <tr><td colspan="6">Note: Error cause is not carried in this format; it is only a notification.</td></tr>
+</table>

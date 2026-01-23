@@ -1,0 +1,8 @@
+<table>
+  <caption>Prior probability of atmospheric retrieval parameters. 1 The effect of molecular species with mole fractions below 1 ppb is negligible given currently available observations.</caption>
+  <tr><th>Parameter</th><th></th><th>Prior</th><th>Lower Bound</th><th>Upper Bound</th></tr>
+  <tr><td>Planet-to-star radius ratio</td><td>R_()/R_(*)</td><td>Uniform on log-scale</td><td>R_()/R_(*)</td><td>1</td></tr>
+  <tr><td>Centered-log-ratio transformof mole fractions</td><td>{}</td><td>Uniform in -space</td><td colspan="2">bound by condition that the mole fractions of all present molecular species are greater than 1\, ^((1))</td></tr>
+  <tr><td>Cloud-top pressure</td><td>P_()</td><td>Uniform on log-scale</td><td>1\,μ bar</td><td>100 bar</td></tr>
+  <tr><td>Planetary Bond albedo</td><td>A_()</td><td>Uniform</td><td>0</td><td>1</td></tr>
+</table>

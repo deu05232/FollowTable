@@ -1,0 +1,11 @@
+<table>
+  <caption>Regression analysis for the total quasar sample</caption>
+  <tr><th>Method ^((a)))</th><th>Δ x</th><th>Δ y</th><th>e</th><th>Source code</th></tr>
+  <tr><td>OLS</td><td>no error</td><td>no error</td><td>0.75 ± 0.03</td><td>IDL/Num.Rec.</td></tr>
+  <tr><td>OLS</td><td>no error</td><td>Δ l_(x)=1σ</td><td>0.814 ± 0.002</td><td>IDL/Num.Rec.</td></tr>
+  <tr><td>OLS</td><td>no error</td><td>Δ l_(x)=0.3</td><td>0.75 ± 0.01</td><td>IDL/Num.Rec.</td></tr>
+  <tr><td>ODR</td><td>Δ m = 0.2 ^((b)))</td><td>Δ l_(x)=1σ^(c))</td><td>1.00 ± 0.07</td><td>FV, σ=0 , fixed</td></tr>
+  <tr><td>ODR</td><td>Δ m = 0.2</td><td>Δ l_(x)=0.3</td><td>0.91 ± 0.07</td><td>FV, σ=0 , fixed</td></tr>
+  <tr><td>ODR</td><td>Δ m = 0.2</td><td>Δ l_(x)=1σ</td><td>1.16 ± 0.03</td><td>FV, σ=0.23± 0.02</td></tr>
+  <tr><td>ODR</td><td>Δ m = 0.2</td><td>Δ l_(x)=0.3</td><td>1.15 ± 0.03</td><td>FV, σ=0.22± 0.02</td></tr>
+</table>

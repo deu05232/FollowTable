@@ -1,0 +1,14 @@
+<table>
+  <caption>Software Bug Tracker  Issues Related to Mongolian Control Characters (Ticket Summary)</caption>
+  <thead>
+    <tr><th>Ticket ID</th><th>Component</th><th>Title</th><th>Severity</th><th>Detected In</th><th>Resolution</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MN-1421</td><td>Renderer</td><td>NIRUGU displayed as tofu in PDF export</td><td>High</td><td>v2.7.0</td><td>Fixed in v2.7.2</td></tr>
+    <tr><td>MN-1450</td><td>Editor</td><td>FVS1 stripped during copy/paste</td><td>Medium</td><td>v2.6.9</td><td>Workaround documented</td></tr>
+    <tr><td>MN-1499</td><td>Normalizer</td><td>VS removed by aggressive trimming</td><td>High</td><td>v2.8.0</td><td>In progress</td></tr>
+    <tr><td>MN-1533</td><td>IME</td><td>Shortcut inserts FVS2 instead of FVS1</td><td>Low</td><td>v2.7.5</td><td>Won't fix</td></tr>
+    <tr><td>MN-1602</td><td>Search</td><td>Index merges tokens with/without selectors</td><td>Medium</td><td>v3.0.0</td><td>Planned</td></tr>
+    <tr><td>MN-1670</td><td>Export</td><td>DOCX round-trip changes selector order</td><td>High</td><td>v3.1.1</td><td>Fixed in v3.1.3</td></tr>
+  </tbody>
+</table>

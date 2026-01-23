@@ -1,0 +1,10 @@
+<table>
+  <caption>ARPlaneFindingMode extended values and descriptions</caption>
+  <tr><th>ARPlaneFindingMode Value</th><th>Description</th></tr>
+  <tr><td>AR_PLANE_FINDING_MODE_DISABLED = 0</td><td>Plane detection is turned off</td></tr>
+  <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL = 1</td><td>Detect horizontal planes such as floors and tables</td></tr>
+  <tr><td>AR_PLANE_FINDING_MODE_VERTICAL = 2</td><td>Detect vertical planes such as walls</td></tr>
+  <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL_AND_VERTICAL = 3</td><td>Detect both horizontal and vertical planes</td></tr>
+  <tr><td>AR_PLANE_FINDING_MODE_SEMANTIC = 4</td><td>Prefer planes that match semantic surface hints when available</td></tr>
+  <tr><td>AR_PLANE_FINDING_MODE_LOW_POWER = 5</td><td>Reduce plane detection frequency to save power</td></tr>
+</table>

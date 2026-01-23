@@ -1,0 +1,15 @@
+<table>
+  <caption>Logistics M2M Terminal & Platform Test Plan by Phase (No Sub-Function Listing)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Area</th><th>Test Item</th><th>Primary Goal</th><th>Entry Criteria</th><th>Exit Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Phase 1</td><td>Terminal</td><td>Logistics M2M Terminal Management</td><td>Validate core terminal management features</td><td>Build deployed to staging</td><td>No critical defects open</td></tr>
+    <tr><td>Phase 1</td><td>Platform</td><td>Logistics M2M Application Platform Management</td><td>Validate platform management baseline</td><td>Platform services reachable</td><td>Smoke suite passed</td></tr>
+    <tr><td>Phase 2</td><td>Terminal</td><td>Terminal Operations</td><td>Verify operational stability at module level</td><td>Monitoring enabled</td><td>Performance baseline met</td></tr>
+    <tr><td>Phase 2</td><td>Platform</td><td>Application Access & Integration</td><td>Ensure integration readiness</td><td>Partner sandbox credentials issued</td><td>Integration defects resolved</td></tr>
+    <tr><td>Phase 3</td><td>Operations</td><td>Fault Management</td><td>Confirm fault workflow completeness</td><td>Fault injection tools ready</td><td>All Sev-1/Sev-2 closed</td></tr>
+    <tr><td>Phase 3</td><td>Security</td><td>Security & Compliance</td><td>Assess compliance posture</td><td>Audit rules agreed</td><td>Compliance checklist signed off</td></tr>
+    <tr><td>Phase 4</td><td>Data</td><td>Reporting & Analytics</td><td>Validate reporting availability</td><td>Data pipeline stable</td><td>Report acceptance approved</td></tr>
+  </tbody>
+</table>

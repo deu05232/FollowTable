@@ -1,0 +1,11 @@
+<table>
+  <caption>Manufacturing Equipment Settings for Ignition Electrode Wire Drawing and Annealing (Shop Parameters)</caption>
+  <tr><th>Process Step</th><th>Equipment</th><th>Key Setting</th><th>Typical Range</th><th>Measurement Point</th><th>Control Mode</th></tr>
+  <tr><td>Wire drawing</td><td>Tungsten-carbide die</td><td>Die angle</td><td>8–12°</td><td>Die inlet</td><td>Fixed</td></tr>
+  <tr><td>Wire drawing</td><td>Drawing capstan</td><td>Line speed</td><td>3–8 m/s</td><td>Capstan tachometer</td><td>PID</td></tr>
+  <tr><td>Lubrication</td><td>Oil bath</td><td>Viscosity @40°C</td><td>20–35 cSt</td><td>Bath sample</td><td>Manual</td></tr>
+  <tr><td>Intermediate anneal</td><td>Tube furnace</td><td>Anneal temperature</td><td>900–1200°C</td><td>Hot zone center</td><td>Closed-loop</td></tr>
+  <tr><td>Atmosphere control</td><td>Mass flow controller</td><td>Ar flow rate</td><td>5–20 L/min</td><td>Furnace inlet</td><td>Closed-loop</td></tr>
+  <tr><td>Cleaning</td><td>Ultrasonic bath</td><td>Ultrasonic power</td><td>200–600 W</td><td>Tank</td><td>Fixed</td></tr>
+  <tr><td>Cutting</td><td>Laser cutter</td><td>Pulse frequency</td><td>20–80 kHz</td><td>Head controller</td><td>Program</td></tr>
+</table>

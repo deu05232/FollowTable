@@ -1,0 +1,14 @@
+<table>
+  <caption>Visible-Light Rule Table: CDO Diameter (km) to CF (Central Feature) Number</caption>
+  <thead>
+    <tr><th>Measured feature (explicit size bins)</th><th>> 600 km</th><th>[500, 600] km</th><th>[400, 500) km</th><th>[300, 400) km</th><th>[200, 300) km</th><th>< 200 km</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CDO diameter (outer boundary) measured on visible imagery</td><td>Very large CDO</td><td>Large CDO</td><td>Moderate-large CDO</td><td>Moderate CDO</td><td>Small CDO</td><td>Very small CDO</td></tr>
+    <tr><td>CF number (mapped output)</td><td>5.5</td><td>5.0</td><td>4.5</td><td>4.0</td><td>3.5</td><td>3.0</td></tr>
+    <tr><td>Optional adjustment: irregular CDO boundary fraction</td><td colspan="6">If boundary is highly irregular and the irregularity scale is > 150 km, reduce CF by 0.5; if irregularity is [80,150] km, reduce CF by 0.25.</td></tr>
+    <tr><td>Use in intensity workflow</td><td colspan="6">CF is used as a visible-light intensity-related parameter and may be combined with DT/PT depending on the analysis scheme.</td></tr>
+    <tr><td>Measurement note</td><td colspan="6">Diameter is the mean of two orthogonal axes through the analyzed center; use the same map projection/scale for all bins.</td></tr>
+    <tr><td>Quality control</td><td colspan="6">If the CDO is partially obscured, flag the measurement and prefer the most conservative bin.</td></tr>
+  </tbody>
+</table>

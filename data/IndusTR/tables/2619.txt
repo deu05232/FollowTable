@@ -1,0 +1,10 @@
+<table>
+  <caption>GNSS Message Catalog Index  Message IDs and Short Descriptions</caption>
+  <tr><th>Message ID</th><th>Name</th><th>Category</th><th>Nominal Rate</th><th>Payload Size (bytes)</th><th>Notes</th></tr>
+  <tr><td>1265</td><td>GPS Phase Bias Information</td><td>SSR</td><td>1/30 s</td><td>~120</td><td>Contains per-satellite entries</td></tr>
+  <tr><td>1266</td><td>GLONASS Phase Bias Information</td><td>SSR</td><td>1/30 s</td><td>~120</td><td>FDMA-related considerations</td></tr>
+  <tr><td>1267</td><td>Galileo Phase Bias Information</td><td>SSR</td><td>1/30 s</td><td>~120</td><td>Includes yaw angle reference</td></tr>
+  <tr><td>1270</td><td>BDS Phase Bias Information</td><td>SSR</td><td>1/30 s</td><td>~120</td><td>Supports multiple signals</td></tr>
+  <tr><td>1057</td><td>GPS Orbit Corrections</td><td>SSR</td><td>1/10 s</td><td>~80</td><td>Orbit only</td></tr>
+  <tr><td>1058</td><td>GPS Clock Corrections</td><td>SSR</td><td>1/10 s</td><td>~60</td><td>Clock only</td></tr>
+</table>

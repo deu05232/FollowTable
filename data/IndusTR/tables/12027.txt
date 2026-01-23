@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Session Interface Parameters (Session Pointer Only)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Handle to the active augmented reality session instance</td></tr>
+    <tr><td>sessionHandle</td><td>ArSession *</td><td>Alias used by some wrappers to refer to the same session pointer</td></tr>
+    <tr><td>pSession</td><td>ArSession *</td><td>Pointer passed to most AR session functions after creation</td></tr>
+    <tr><td>session_ptr</td><td>ArSession *</td><td>Opaque session pointer used to access session state</td></tr>
+    <tr><td>activeSession</td><td>ArSession *</td><td>Session reference expected to be non-null when the API is initialized</td></tr>
+    <tr><td>ar_session</td><td>ArSession *</td><td>Common naming for a session pointer in examples</td></tr>
+  </tbody>
+</table>

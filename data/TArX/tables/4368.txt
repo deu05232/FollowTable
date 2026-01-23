@@ -1,0 +1,9 @@
+<table>
+  <caption>Basic properties of our four sub-samples.</caption>
+  <tr><th>[h!] 12</th><th colspan="2"># of a</th><th colspan="2">Median (Mean)</th><th>L_(IR) b</th><th colspan="2">Median S_(24) c</th><th colspan="2">Median S_(100) c</th><th colspan="2">Median S_(8) c</th></tr>
+  <tr><th>Subsample</th><th colspan="2">Sources</th><th colspan="2">Redshift</th><th>( 10^(12)\,L_() )</th><th colspan="2">( μ Jy)</th><th colspan="2">(mJy)</th><th colspan="2">( μ Jy)</th></tr>
+  <tr><td>z~ 1 SF galaxies</td><td>69</td><td>(39)</td><td>1.0 (0.9)</td><td>[0.8, 1.0]</td><td>0.42 ± 0.17</td><td>370</td><td>[260, 570]</td><td>7.9</td><td>[4.8, 14.7]</td><td>42</td><td>[23, 57]</td></tr>
+  <tr><td>z~ 2 SF galaxies</td><td>44</td><td>(30)</td><td>1.9 (1.9)</td><td>[1.8, 2.1]</td><td>2.00 ± 0.71</td><td>270</td><td>[220, 370]</td><td>3.2</td><td>[1.6, 5.0]</td><td>17</td><td>[13, 38]</td></tr>
+  <tr><td>Silicate AGN</td><td>22</td><td>(17)</td><td>1.9 (1.7)</td><td>[1.6, 2.0]</td><td>1.65 ± 0.54</td><td>470</td><td>[250, 860]</td><td>5.3</td><td>[3.0, 10.2]</td><td>64</td><td>[21, 140]</td></tr>
+  <tr><td>Featureless AGN</td><td>12</td><td>(9)</td><td>1.2 (1.1)</td><td>[0.6, 1.6]</td><td>0.76 ± 0.07</td><td>1520</td><td>[1240, 2300]</td><td>9.5</td><td>[4.0, 11.7]</td><td>288</td><td>[240, 311] Note : We list the upper and lower quartile values in brackets next to each calculated median. Note a: We list the number of sources in each sub-sample that are used to create the composite SEDs in parentheses. We do not include sources with an incomplete IR SED when creating the composites to avoid biasing our results (See § LABEL:sec:sed ). Note b: Calculate by integrating under the composite SEDs from 8-1000\,μ m. See Paper I for details. Note c: Observed frame fluxes.</td></tr>
+</table>

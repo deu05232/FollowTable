@@ -1,0 +1,14 @@
+<table>
+  <caption>ATP Hydrolysis Energetics Coupled to Transport and Kinetics in Membranes</caption>
+  <thead>
+    <tr><th>System</th><th>Reaction / Process</th><th>ΔG°' (kJ/mol ATP)</th><th>ΔG (kJ/mol ATP, in situ)</th><th>[ATP] (mM)</th><th>[ADP] (mM)</th><th>[Pi] (mM)</th><th>Turnover (s^-1)</th><th>Transport stoichiometry</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Na+/K+-ATPase</td><td>ATP → ADP + Pi (coupled to pumping)</td><td>-30.5</td><td>-52</td><td>5.0</td><td>0.5</td><td>1.0</td><td>80</td><td>3 Na+ out / 2 K+ in per ATP</td></tr>
+    <tr><td>SERCA (Ca2+ pump)</td><td>ATP → ADP + Pi (Ca2+ uptake)</td><td>-30.5</td><td>-49</td><td>4.5</td><td>0.6</td><td>2.0</td><td>30</td><td>2 Ca2+ into SR per ATP</td></tr>
+    <tr><td>V-type H+ ATPase</td><td>ATP → ADP + Pi (proton pumping)</td><td>-30.5</td><td>-45</td><td>3.0</td><td>0.8</td><td>5.0</td><td>15</td><td>3–4 H+ per ATP</td></tr>
+    <tr><td>ABC transporter (generic)</td><td>2 ATP → 2 ADP + 2 Pi (substrate export)</td><td>-61.0</td><td>-95</td><td>2.0</td><td>0.2</td><td>1.0</td><td>10</td><td>1 substrate per 2 ATP</td></tr>
+    <tr><td>Actomyosin ATPase</td><td>ATP → ADP + Pi (force generation)</td><td>-30.5</td><td>-50</td><td>6.0</td><td>0.3</td><td>0.5</td><td>5</td><td>~1 power stroke per ATP</td></tr>
+    <tr><td>Mitochondrial ATP synthase (reverse)</td><td>ATP hydrolysis driving Δp dissipation</td><td>-30.5</td><td>-47</td><td>2.5</td><td>0.7</td><td>10.0</td><td>120</td><td>~3 H+ per ATP (effective)</td></tr>
+  </tbody>
+</table>

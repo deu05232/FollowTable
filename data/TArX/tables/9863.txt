@@ -1,0 +1,14 @@
+<table>
+  <caption>Multi-mode cavity optomechanics: g0 per optical mode and cooperativity-based strong-coupling criteria</caption>
+  <thead>
+    <tr><th>Device / cavity</th><th>Optical mode</th><th>Optical decay κ/2π (MHz)</th><th>Mechanical damping Γm/2π (kHz)</th><th>Mechanical frequency Ωm/2π (MHz)</th><th>Single-photon coupling g0/2π (kHz)</th><th>Single-photon cooperativity C0 = 4g0²/(κΓm)</th><th>Strong-coupling checklist (example)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Microtoroid A</td><td>Mode 1 (TE)</td><td>95</td><td>12</td><td>73</td><td>7.5</td><td>1.97e-4</td><td rowspan="2">Target: g = g0√n̄ > κ, Γm and C = C0 n̄ > 1</td></tr>
+    <tr><td>Mode 2 (TM)</td><td>140</td><td>12</td><td>73</td><td>5.2</td><td>6.44e-5</td></tr>
+    <tr><td rowspan="2">Photonic crystal cavity B</td><td>Mode 1</td><td>480</td><td>35</td><td>520</td><td>32</td><td>2.44e-4</td><td rowspan="2">If n̄ = 1/C0, then C ≈ 1 (threshold for coherent exchange)</td></tr>
+    <tr><td>Mode 2</td><td>260</td><td>35</td><td>520</td><td>18</td><td>1.42e-4</td></tr>
+    <tr><td rowspan="2">Fabry–Pérot membrane C</td><td>Fundamental</td><td>15</td><td>0.8</td><td>0.95</td><td>0.35</td><td>4.08e-6</td><td rowspan="2">Strong coupling usually requires large n̄ since g0 is small</td></tr>
+    <tr><td>Higher-order</td><td>22</td><td>0.8</td><td>0.95</td><td>0.22</td><td>1.61e-6</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Medical Sanitary Device Waveforms and Detection/Control Principles (Classification-Oriented)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Element Identifier</th><th>Data Element Name</th><th>Enumerated Values</th><th>Constraint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Signal/Emission</td><td>SE3101</td><td>Emission Waveform</td><td>Continuous / Pulsed / Modulated</td><td>B</td></tr>
+    <tr><td>SE3102</td><td>Pulse Pattern</td><td>Single / Burst / Train</td><td>A</td></tr>
+    <tr><td>SE3103</td><td>Beam/Flow Profile Type</td><td>Laminar / Turbulent / Mixed</td><td>A</td></tr>
+    <tr><td rowspan="3">Sensing</td><td>SE3201</td><td>Contamination Detection Principle</td><td>Optical scattering / Fluorescence / Conductivity / Colorimetry</td><td>B</td></tr>
+    <tr><td>SE3202</td><td>Occupancy Detection Method</td><td>PIR / Ultrasonic / Camera-based</td><td>A</td></tr>
+    <tr><td>SE3203</td><td>Fluid Presence Detection</td><td>Float switch / Capacitive / Pressure switch</td><td>A</td></tr>
+    <tr><td rowspan="2">Control Logic</td><td>SE3301</td><td>Control Algorithm Type</td><td>On-off / PID / Adaptive</td><td>A</td></tr>
+    <tr><td>SE3302</td><td>Safety Interlock Type</td><td>Door interlock / Key switch / Two-hand control</td><td>A</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table>
+  <caption>Fingerprint Capture Setup and Image Quality Fields (Acquisition-Centric)</caption>
+  <thead>
+    <tr><th>Group</th><th>Element</th><th>Example Values</th><th>How it Relates to Capture/Sensor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Acquisition modality</td><td>Presentation style</td><td>Flat; Rolled; Slap (4-4-2)</td><td>Defines user interaction and contact dynamics</td></tr>
+    <tr><td>Contact type</td><td>Contact-based; Contactless</td><td>Separates platen vs standoff imaging</td></tr>
+    <tr><td>Sensor type</td><td>Optical platen; Capacitive; Ultrasound; Contactless camera</td><td>Core sensor technology descriptor</td></tr>
+    <tr><td>Illumination (if optical/contactless)</td><td>Visible; NIR; Multi-spectral</td><td>Acquisition spectrum affects ridge/skin contrast</td></tr>
+    <tr><td rowspan="4">Device & pipeline</td><td>Nominal resolution</td><td>500 ppi; 1000 ppi</td><td>Primary sampling specification for fingerprints</td></tr>
+    <tr><td>Acquisition area</td><td>Full fingertip; Partial; Sensor edge-limited</td><td>Coverage determined by device optics/platen size</td></tr>
+    <tr><td>Bit depth / dynamic range</td><td>8-bit; 10-bit; 12-bit</td><td>Sensor output precision affecting contrast</td></tr>
+    <tr><td>Preprocessing in device</td><td>null; Contrast normalization; Ridge enhancement; Denoise</td><td>Pipeline step that can change measurable quality</td></tr>
+    <tr><td rowspan="5">Capture-quality factors</td><td>Contrast / brightness</td><td>Low; Normal; High; Saturated</td><td>Often impacted by illumination and sensor gain</td></tr>
+    <tr><td>Background noise / artifacts</td><td>Clean; Dust; Smudges; Patterned noise</td><td>Capture surface/sensor contamination artifacts</td></tr>
+    <tr><td>Ridge clarity</td><td>Clear; Slight smear; Heavy smear</td><td>Contact pressure/motion and sensing response</td></tr>
+    <tr><td>Motion artifacts</td><td>null; Directional streaking</td><td>Relative movement during acquisition</td></tr>
+    <tr><td>Segmentation / cropping status</td><td>Well-cropped; Over-cropped; Under-cropped</td><td>Acquisition framing/firmware segmentation result</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+<table>
+  <caption>Public Security Capture Device Metadata Data Items</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Item Name</th><th>Identifier/Code</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Capture Device Identifier</td><td>cpsbbz</td><td>c20</td><td>Unique code of the capture device; aligned to platform device coding conventions.</td><td>DE02001</td></tr>
+    <tr><td>2</td><td>Capture Device Name</td><td>cpsbmc</td><td>c..100</td><td>Human-readable name of the device as configured on the management platform.</td><td>DE02002</td></tr>
+    <tr><td>3</td><td>Device Model</td><td>cpsbxh</td><td>c..50</td><td>Model identifier declared by the vendor (e.g., product model).</td><td>DE02003</td></tr>
+    <tr><td>4</td><td>Device Manufacturer</td><td>cpsbcsmc</td><td>c..100</td><td>Manufacturer name for the capture device hardware.</td><td>DE02004</td></tr>
+    <tr><td>5</td><td>Network Access Address</td><td>wldz</td><td>c..255</td><td>Device access URI/IP:Port; may include RTSP/GB28181/SIP access string.</td><td>DE02005</td></tr>
+    <tr><td>6</td><td>Installation Location Administrative Division Code</td><td>azddxzqhdm</td><td>c6</td><td>Administrative division code of installation location; use the 6-digit numeric code.</td><td>DE02006</td></tr>
+    <tr><td>7</td><td>Installation Location Description</td><td>azddms</td><td>c..200</td><td>Text description of installation location (e.g., building/floor/road section).</td><td>DE02007</td></tr>
+    <tr><td>8</td><td>Geo Location (Longitude)</td><td>jd</td><td>n(10,6)</td><td>Longitude in decimal degrees (WGS-84 or declared reference system).</td><td>DE02008</td></tr>
+    <tr><td>9</td><td>Geo Location (Latitude)</td><td>wd</td><td>n(10,6)</td><td>Latitude in decimal degrees (WGS-84 or declared reference system).</td><td>DE02009</td></tr>
+    <tr><td>10</td><td>Device Online Status Code</td><td>zxztdm</td><td>c1</td><td>Online status of device (e.g., 0-offline, 1-online, 2-fault).</td><td>DE02010</td></tr>
+    <tr><td>11</td><td>Video Encoding Format Code</td><td>spbmgsdm</td><td>c2</td><td>Video codec/encoding type used by the device (e.g., H264/H265).</td><td>DE02011</td></tr>
+    <tr><td>12</td><td>Image Capture Mode Code</td><td>tpcjmsdm</td><td>c2</td><td>Image capture mode (e.g., snapshot/continuous/triggered).</td><td>DE02012</td></tr>
+    <tr><td colspan="6">Acquisition Parameters (Optional)</td></tr>
+    <tr><td>13</td><td>Frame Rate</td><td>zlsl</td><td>n3</td><td>Frames per second produced by the device.</td><td>DE02013</td></tr>
+    <tr><td>14</td><td>Resolution</td><td>fjfbl</td><td>c..20</td><td>Resolution expressed as WIDTHxHEIGHT (e.g., 1920x1080).</td><td>DE02014</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Plane Finding Mode with Illumination and Pixel Format Enums</caption>
+  <thead>
+    <tr><th>Group</th><th>Enum Constant</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Plane Finding Mode</td><td>AR_PLANE_FINDING_MODE_DISABLED</td><td>0</td><td>Plane detection disabled</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL</td><td>1</td><td>Detect horizontal planes</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_VERTICAL</td><td>2</td><td>Detect vertical planes</td></tr>
+    <tr><td>AR_PLANE_FINDING_MODE_HORIZONTAL_AND_VERTICAL</td><td>3</td><td>Detect horizontal and vertical planes</td></tr>
+    <tr><td rowspan="2">ARIlluminationEstimateState</td><td>ARILLUMINATION_ESTIMATE_STATE_NOT_VALID</td><td>0</td><td>Light estimation temporarily unavailable</td></tr>
+    <tr><td>ARILLUMINATION_ESTIMATE_STATE_VALID</td><td>1</td><td>Light estimation available</td></tr>
+    <tr><td rowspan="3">ARPixelFormat</td><td>ARPIXEL_FORMAT_UNKNOWN</td><td>-1</td><td>Invalid image data</td></tr>
+    <tr><td>ARPIXEL_FORMAT_LUMINANCE8</td><td>0</td><td>LUMINANCE8 format</td></tr>
+    <tr><td>ARPIXEL_FORMAT_RG16</td><td>1</td><td>RG16 format</td></tr>
+  </tbody>
+</table>

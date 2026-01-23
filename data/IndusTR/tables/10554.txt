@@ -1,0 +1,15 @@
+<table>
+  <caption>Terrestrial Ecological Observation Station Event Record — Human-Induced Ecological Event Codes</caption>
+  <thead>
+    <tr><th>Module</th><th>No.</th><th>Record Element</th><th>Element Code</th><th>Data Type</th><th>Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identification</td><td>1</td><td>Observation station identifier</td><td>STATION_ID</td><td>VARCHAR(32)</td><td>Station code (identifier only)</td></tr>
+    <tr><td>Identification</td><td>2</td><td>Observation timestamp</td><td>OBS_TIME</td><td>DATETIME</td><td>YYYY-MM-DD hh:mm:ss</td></tr>
+    <tr><td>Event Coding</td><td>3</td><td>Human-induced ecological event code</td><td>HIE_CODE</td><td>CHAR(2)</td><td>Controlled list (WW-style code; e.g., Table B.25 style)</td></tr>
+    <tr><td>Event Coding</td><td>4</td><td>Human-induced ecological event name</td><td>HIE_NAME</td><td>VARCHAR(80)</td><td>Controlled vocabulary label for HIE_CODE</td></tr>
+    <tr><td>Event Coding</td><td>5</td><td>Impact class</td><td>IMPACT_CLASS</td><td>CHAR(1)</td><td>Controlled list (e.g., 1=Low,2=Moderate,3=High)</td></tr>
+    <tr><td>Event Coding</td><td>6</td><td>Driver category</td><td>DRIVER_CAT</td><td>CHAR(2)</td><td>Controlled list (e.g., LU=Land use, PL=Pollution, EX=Exploitation)</td></tr>
+    <tr><td>Event Coding</td><td>7</td><td>Controlled list reference</td><td>CODELIST_REF</td><td>VARCHAR(50)</td><td>Identifier of the referenced code list document/table</td></tr>
+  </tbody>
+</table>

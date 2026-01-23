@@ -1,0 +1,16 @@
+<table>
+  <caption>Photometric instrument channels and reduction parameters for Sun and comparison stars</caption>
+  <thead>
+    <tr><th rowspan="2">Target</th><th rowspan="2">Instrument</th><th colspan="3">Channel / Bandpass</th><th colspan="2">Detector / Readout</th><th colspan="3">Reduction / Response</th></tr>
+    <tr><th>Channel ID</th><th>Central λ (nm)</th><th>Bandwidth (nm)</th><th>Gain (e-/ADU)</th><th>Read noise (e-)</th><th>Aperture (px)</th><th>Flat-field method</th><th>Response curve version</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Sun</td><td>Space photometer</td><td>G1</td><td>500</td><td>100</td><td>2.1</td><td>4.8</td><td>12</td><td>Twilight flats</td><td>RC-3.2</td></tr>
+    <tr><td>Sun</td><td>Space photometer</td><td>R1</td><td>670</td><td>120</td><td>2.1</td><td>4.8</td><td>12</td><td>Twilight flats</td><td>RC-3.2</td></tr>
+    <tr><td>Alpha Centauri A</td><td>Space photometer</td><td>G1</td><td>500</td><td>100</td><td>2.0</td><td>5.1</td><td>14</td><td>Dome flats</td><td>RC-3.2</td></tr>
+    <tr><td>Alpha Centauri A</td><td>Space photometer</td><td>R1</td><td>670</td><td>120</td><td>2.0</td><td>5.1</td><td>14</td><td>Dome flats</td><td>RC-3.2</td></tr>
+    <tr><td>Sirius A</td><td>Imaging spectrograph</td><td>VIS-2</td><td>550</td><td>80</td><td>1.6</td><td>3.9</td><td>10</td><td>Pipeline v1.8</td><td>RC-4.0</td></tr>
+    <tr><td>Vega</td><td>Imaging spectrograph</td><td>VIS-2</td><td>550</td><td>80</td><td>1.6</td><td>3.9</td><td>10</td><td>Pipeline v1.8</td><td>RC-4.0</td></tr>
+    <tr><td>Procyon A</td><td>Imaging spectrograph</td><td>NIR-1</td><td>1050</td><td>200</td><td>1.9</td><td>4.2</td><td>16</td><td>Sky flats</td><td>RC-4.0</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Needling Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Current Speed of the Needling Main Shaft</td><td>CurrentSpeedOfNeedlingMainShaft</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>2000.00～15 000.00</td><td>m/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0301</td><td>Current Position of the Screen Stripping Plate</td><td>CurrentPositionOfScreenStrippingPlate</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>30.00~100.00</td><td>mm</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0302</td><td>Highest Position of the Support Mesh Plate</td><td>SupportTheHighestPositionOfTheMeshPlate</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>50.00~300.00</td><td>mm</td><td>/</td><td>丨</td></tr>
+  <tr><td>0X0303</td><td>Current Length</td><td>CurrentLength</td><td>M</td><td>VAR</td><td>RO</td><td>Uint32</td><td>0~2 147 483 647</td><td>m</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0304</td><td>Current Speed of the Pulling Roller</td><td>CurrentSpeedOfPullingRoller</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>1.00~6000.00</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0305</td><td>Lowest Position of the Support Mesh Plate</td><td>SupportTheLowestPositionOfTheMeshPlate</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~6.00</td><td>mm</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0306</td><td>Needling Depth</td><td>NeedlingDepth</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10.00</td><td>mm</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0307</td><td>Input Speed</td><td>InputSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~6 000.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0308</td><td>Output Speed</td><td>OutputSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~6000.00</td><td>m/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0309</td><td>Needling Frequency</td><td>NeedlingFrequency</td><td>M</td><td>VAR</td><td>RO</td><td>Uint16</td><td>0~5000</td><td>stitches/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X030A</td><td>Needle Planting Density</td><td>NeedleDensity</td><td>M</td><td>VAR</td><td>RO</td><td>Uint16</td><td>0~50 000</td><td>pcs/m</td><td>1</td><td>1</td></tr>
+  <tr><td>0X030B</td><td>Traverse Length</td><td>TraverseLength</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>mm</td><td>1</td><td>1</td></tr>
+  <tr><td>0X030C</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RO</td><td>1</td><td></td><td>1</td><td>1</td><td>1</td></tr>
+</table>

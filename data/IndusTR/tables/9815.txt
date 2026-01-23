@@ -1,0 +1,8 @@
+<table>
+  <caption>AR hit result collision feedback accessors (distance/pose and surface normal)</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit test result object pointer</td></tr>
+  <tr><td>out_normal</td><td>ArVector3f *</td><td>Pointer used to receive the surface normal at the hit location</td></tr>
+  <tr><td>out_pose</td><td>ArPose *</td><td>Pointer used to receive the hit pose/transform</td></tr>
+</table>

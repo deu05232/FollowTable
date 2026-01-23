@@ -1,0 +1,14 @@
+<table>
+  <caption>Self-service Interface Test Environment Requirements (Lab Conditions)</caption>
+  <thead>
+    <tr><th>Category</th><th>Requirement</th><th>Target Value</th><th>Allowed Range</th><th>Measurement Tool</th><th>Frequency</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Network</td><td>Latency (portal to gateway)</td><td>< 80 ms</td><td>0–120 ms</td><td>iPerf / Ping</td><td>Per run</td></tr>
+    <tr><td>Network</td><td>Packet loss</td><td>< 0.1%</td><td>0–0.5%</td><td>Wireshark</td><td>Per run</td></tr>
+    <tr><td>Security</td><td>TLS version</td><td>TLS 1.2+</td><td>TLS 1.2–1.3</td><td>OpenSSL</td><td>Weekly</td></tr>
+    <tr><td>Compute</td><td>UAT node utilization</td><td>< 70%</td><td>0–85%</td><td>Prometheus</td><td>Per run</td></tr>
+    <tr><td>Browser</td><td>Supported browsers</td><td>Chrome/Edge</td><td>Latest-2</td><td>BrowserStack</td><td>Quarterly</td></tr>
+    <tr><td>Time</td><td>NTP drift</td><td>< 100 ms</td><td>0–250 ms</td><td>chronyc</td><td>Daily</td></tr>
+  </tbody>
+</table>

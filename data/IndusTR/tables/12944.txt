@@ -1,0 +1,18 @@
+<table>
+  <caption>Serviceable Item Structure Link (Parent-Child with Allocation Quantities)</caption>
+  <thead>
+    <tr><th>No.</th><th>Attribute</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Service BOM ID</td><td>Identifier of the deliverable service BOM dataset/version</td></tr>
+    <tr><td>2</td><td>Parent Functional Item Code</td><td>Code of the functional element that acts as the parent in the structure</td></tr>
+    <tr><td>3</td><td>Child Functional Item Code</td><td>Code of the functional element that acts as the child in the structure</td></tr>
+    <tr><td>4</td><td>Quantity Allocated</td><td>Numeric allocation of the child under the parent (e.g., number of units)</td></tr>
+    <tr><td>5</td><td>Quantity Basis</td><td>Explains the quantity meaning (per parent, per set, per system)</td></tr>
+    <tr><td>6</td><td>Child Role</td><td>Role of the child (replaceable unit, consumable, subassembly)</td></tr>
+    <tr><td>7</td><td>Parent Node Key</td><td>Internal key to support traversal and traceability of the hierarchy</td></tr>
+    <tr><td>8</td><td>Child Node Key</td><td>Internal key to support traversal and traceability of the hierarchy</td></tr>
+    <tr><td>9</td><td>Sequence Under Parent</td><td>Ordering of the child within the parent's children list</td></tr>
+    <tr><td>10</td><td>Reference Designator</td><td>Optional location/designator of the child under the parent (e.g., A1, PWR-02)</td></tr>
+  </tbody>
+</table>

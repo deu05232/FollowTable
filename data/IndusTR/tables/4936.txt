@@ -1,0 +1,9 @@
+<table>
+  <caption>Phase-Loss Protection Performance</caption>
+  <tr><td rowspan="2">Serial No.</td><td colspan="2">Overload current/setting current</td><td rowspan="2">Operating time td</td><td rowspan="2">Initial state</td><td rowspan="2">Reset method</td></tr>
+  <tr><td>Any two phases</td><td>Third phase</td></tr>
+  <tr><td>1</td><td>1.0</td><td>0.9</td><td>No operation within 2h</td><td>Cold state</td><td></td></tr>
+  <tr><td>2</td><td>1.15</td><td>0</td><td>t<20 min</td><td>Hot state</td><td>Manual or power-off</td></tr>
+  <tr><td>3</td><td>1.05</td><td>0</td><td>t<3min</td><td>SAC hot state</td><td>Manual or power-off</td></tr>
+  <tr><td colspan="6">Note 1: Serial No. 2 applies to the phase-loss protection characteristics of thermal relays and electronic protectors of 100A and below used for constant loads. Note 2: Serial No. 3 applies to the phase-loss protection characteristics of electronic protectors of 100A and above or used for varying loads.</td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>SVD Singular Value Decomposition Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Describes the matrix to be decomposed. If the dimension is higher than 2D, then the inner-most two dimensions are used for matrix decomposition, and the other dimensions are used to describe batch operations</td></tr>
+  <tr><td>Format Selection</td><td>Input</td><td>Optional</td><td>Boolean type. When format is true, the returned tensors U and V contain only min(n,m) orthogonal column 1D tensors; otherwise, the returned tensors U and V contain n and m orthogonal column 1D tensors respectively. Default value: true</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>SAG Required</td><td>Decomposed tensor U. The inner-most two dimensions describe the decomposition result and are n×n. When format is true, it contains min(m,n) orthogonal column 1D tensors; otherwise, it contains n orthogonal column 1D tensors. Other higher dimensions correspond to the batch features of the input tensor</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>A diagonal tensor composed of singular values, where the inner-most two dimensions describe the decomposition result and are n×m; other higher dimensions correspond to the batch features of the input tensor</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Decomposed tensor V, where the inner-most two dimensions describe the decomposition result and are m×m. When format is true, it contains min(m,n) orthogonal column 1D tensors; otherwise, it contains m orthogonal column 1D tensors. Other higher dimensions correspond to the batch features of the input tensor</td></tr>
+</table>

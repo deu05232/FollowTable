@@ -1,0 +1,17 @@
+<table>
+  <caption>User Terminal Application File Information (Conceptual Field Definitions — No Byte Sizes)</caption>
+  <thead>
+    <tr><th>Field</th><th>Meaning (Plain English)</th><th>Notes / Examples</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Terminal Identifier</td><td>Identifies the physical device that the file belongs to.</td><td>Often derived from IMEI-like identity.</td></tr>
+    <tr><td>User Identifier (User ID)</td><td>Identifies the user profile associated with the terminal.</td><td>Used to bind entitlements and keys to a specific user.</td></tr>
+    <tr><td>Broadcast Group</td><td>Specifies which broadcast group messages the terminal should accept.</td><td>May include multiple group entries.</td></tr>
+    <tr><td>Multicast Subscription</td><td>Lists multicast groups and whether each is enabled or reclaimed.</td><td>Status can be “active” or “reclaimed”.</td></tr>
+    <tr><td>Initialization Vector Set</td><td>Stores IVs used for cryptographic operations on the terminal.</td><td>Usually has a default IV and a backup IV.</td></tr>
+    <tr><td>Key References</td><td>Lists key IDs used to locate actual keys in secure storage.</td><td>Includes master/maintenance/authentication key references.</td></tr>
+    <tr><td>User Management Module Identifier</td><td>Identifies the management module used for diversification.</td><td>Used as an input factor during key derivation.</td></tr>
+    <tr><td>File Version</td><td>Indicates the layout revision of the application file.</td><td>Used for backward compatibility.</td></tr>
+    <tr><td>Integrity / Authentication Tag</td><td>Provides a way to detect tampering with the file content.</td><td>Could be a MAC or signature depending on system.</td></tr>
+  </tbody>
+</table>

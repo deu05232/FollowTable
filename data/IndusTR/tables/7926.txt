@@ -1,0 +1,14 @@
+<table>
+  <caption>VR Positioning API Enum: vrPositionableDeviceType</caption>
+  <thead>
+    <tr><th>Data Type</th><th>Enum Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">vrPositionableDeviceType</td><td>VR_POSITIONABLE_DEVICE_TYPE_HMD=0x00</td><td>Head-mounted display tracked by the positioning system</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_CONTROLLER_LEFT=0x01</td><td>Left-hand controller</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_CONTROLLER_RIGHT=0x02</td><td>Right-hand controller</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_TRACKER=0x03</td><td>Generic external tracker/puck</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_BASE_STATION=0x04</td><td>Base station or lighthouse device</td></tr>
+    <tr><td>0x05~0xFF</td><td>Reserved for future device types</td></tr>
+  </tbody>
+</table>

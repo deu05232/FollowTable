@@ -1,0 +1,16 @@
+<table>
+  <caption>Electricity Accounting Parameters by Grid Mix (Requires Derivation; No Per-Line Emission Factor)</caption>
+  <thead>
+    <tr><th rowspan="2">Grid / Source</th><th colspan="3">Generation Mix (%)</th><th rowspan="2">Average Heat Rate (GJ/MWh)</th><th rowspan="2">Carbon Content (tC/GJ)</th><th rowspan="2">Oxidation Factor (%)</th><th rowspan="2">Transmission Loss (%)</th></tr>
+    <tr><th>Coal</th><th>Gas</th><th>Renewables</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>National Grid (Average)</td><td>55</td><td>20</td><td>25</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Regional Grid A</td><td>70</td><td>15</td><td>15</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Regional Grid B</td><td>40</td><td>25</td><td>35</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>On-site CHP Export</td><td>60</td><td>30</td><td>10</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Green Tariff (Market-based)</td><td>0</td><td>0</td><td>100</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Supplier PPA Mix</td><td>15</td><td>10</td><td>75</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td>Imported Electricity</td><td>50</td><td>20</td><td>30</td><td></td><td></td><td></td><td></td></tr>
+  </tbody>
+</table>

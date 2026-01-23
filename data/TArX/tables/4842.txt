@@ -1,0 +1,11 @@
+<table>
+  <caption>Summary of memory effects in real-world networks. M1 and M2 for results obtained with a first- and a second-order Markov model, respectively. In the SM, we provide 10th and 90th percentiles from a bootstrap analysis</caption>
+  <tr><td>Network</td><td colspan="2">[tl]Number of nodes</td><td colspan="2">[tl]Two-step return (%)</td><td colspan="2">[tl]Three-step return (%)</td><td colspan="2">[tl]Entropy rate (bits)</td><td colspan="2">[tl]Module size (%)</td><td colspan="2">[tl]Module assignmt.</td><td>[tl]Ranking diff. (%)</td><td>[tl]Epidemic threshold</td><td>[tl]Peak time</td><td>[tl]Attack rate</td></tr>
+  <tr><td></td><td>M1</td><td>M2</td><td>M1</td><td>M2</td><td>M1</td><td>M2</td><td>M1</td><td>M2</td><td>M1</td><td>M2</td><td>M1</td><td>M2</td><td>M1 M2</td><td>M2/M1</td><td>M2/M1</td><td>M2/M1</td></tr>
+  <tr><td>Airports</td><td>464</td><td>17,983</td><td>5.7</td><td>47</td><td>2.1</td><td>0.63</td><td>5.2</td><td>3.4</td><td>99</td><td>77</td><td>1.0</td><td>2.5</td><td>8.2</td><td>0.93</td><td>3.0</td><td>0.99</td></tr>
+  <tr><td>Cities</td><td>413</td><td>15,368</td><td>6.5</td><td>48</td><td>2.8</td><td>0.62</td><td>4.7</td><td>3.5</td><td>95</td><td>14</td><td>1.1</td><td>2.2</td><td>3.7</td><td>0.73</td><td>1.0</td><td>0.94</td></tr>
+  <tr><td>Journals</td><td>1,983</td><td>201,349</td><td>11</td><td>21</td><td>4.7</td><td>5.4</td><td>4.5</td><td>3.5</td><td>14</td><td>15</td><td>1.4</td><td>2.5</td><td>9.7</td><td>0.82</td><td>1.3</td><td>0.90</td></tr>
+  <tr><td>Patients</td><td>402</td><td>4,987</td><td>16</td><td>54</td><td>1.9</td><td>3.4</td><td>3.0</td><td>1.0</td><td>7.8</td><td>1.9</td><td>4.7</td><td>4.9</td><td>22</td><td>0.77</td><td>2.1</td><td>0.10</td></tr>
+  <tr><td>Taxis</td><td>416</td><td>2,763</td><td>20</td><td>10</td><td>6.8</td><td>10</td><td>2.2</td><td>1.1</td><td>3.3</td><td>2.3</td><td>1.4</td><td>1.6</td><td>6.5</td><td>1.5</td><td>1.4</td><td>0.92</td></tr>
+  <tr><td>Emails</td><td>144</td><td>1,432</td><td>14</td><td>58</td><td>5.2</td><td>2.7</td><td>3.0</td><td>1.3</td><td>13</td><td>6.5</td><td>1.2</td><td>2.7</td><td>18</td><td>0.72</td><td>2.7</td><td>0.29</td></tr>
+</table>

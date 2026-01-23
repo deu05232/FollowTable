@@ -1,0 +1,16 @@
+<table>
+  <caption>Polyester staple fiber unit process inventory (raw materials, main process recipe, and utility/waste items in one table)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Unit operation</th><th>Key material/energy inputs</th><th>Key outputs</th><th>Notes (support-system linkage)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Main production system</td><td>Chip drying</td><td>Polyester chips, hot air, electricity, compressed air</td><td>Dried chips, dust to filter</td><td>Uses plant compressed air network</td></tr>
+    <tr><td>Melt extrusion</td><td>Dried chips, electricity, heat transfer oil, nitrogen blanket</td><td>Molten polymer, start-up scrap</td><td>Nitrogen from onsite PSA unit</td></tr>
+    <tr><td>Spinning</td><td>Molten polymer, spin finish oil, cooling air, electricity</td><td>Filaments, waste yarn</td><td>Cooling air fans are major electricity load</td></tr>
+    <tr><td>Drawing & crimping</td><td>Steam, electricity, process water, additives</td><td>Staple tow, off-spec fiber</td><td>Steam supplied by boiler house</td></tr>
+    <tr><td>Cutting & baling</td><td>Electricity, packaging materials, compressed air</td><td>Staple fiber bales, packaging waste</td><td>Air leaks affect benchmarking</td></tr>
+    <tr><td rowspan="3">Auxiliary & ancillary system</td><td>Utilities (power/steam/water)</td><td>Grid electricity, natural gas, boiler feedwater, cooling tower makeup</td><td>Electricity distribution, steam headers, cooling water return, CO2</td><td>Includes condensate return losses</td></tr>
+    <tr><td>Wastewater & sludge</td><td>Electricity, flocculant, neutralization chemicals</td><td>Treated effluent, sludge cake</td><td>Sludge disposal route varies by plant</td></tr>
+    <tr><td>Hazardous waste management</td><td>Spent oils, solvent-contaminated wipes, filter media</td><td>Hazardous waste shipment, manifests</td><td>Co-handled with main-line waste yarn</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Plane Detection Configuration Presets - Plane Finding Mode Enum Values (Debug-Oriented)</caption>
+  <thead>
+    <tr><th>Preset Name</th><th>Plane Finding Enum</th><th>Value</th><th>Recommended Use Case</th><th>What You Should See in Scene</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Plane Detection: null</td><td>AR_PLANE_FINDING_MODE_DISABLED</td><td>0</td><td>Baseline test to confirm non-plane content renders</td><td>No detected planes at all</td></tr>
+    <tr><td>Plane Detection: Floors & Tables</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL</td><td>1</td><td>Indoor placement on flat surfaces</td><td>Horizontal surfaces stabilize and expand over time</td></tr>
+    <tr><td>Plane Detection: Walls</td><td>AR_PLANE_FINDING_MODE_VERTICAL</td><td>2</td><td>Wall-mounted content, posters, portals</td><td>Vertical quads/polygons on walls; floors may not appear</td></tr>
+    <tr><td>Plane Detection: All Common</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL_AND_VERTICAL</td><td>3</td><td>General debugging when unsure what’s missing</td><td>Both orientations appear; potentially more candidates</td></tr>
+    <tr><td>Plane Detection: Ceiling Focus</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL_DOWNWARD</td><td>5</td><td>Ceiling-anchored content or hanging objects</td><td>Downward-facing horizontal surfaces prioritized</td></tr>
+    <tr><td>Plane Detection: Tabletop Focus</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL_UPWARD</td><td>4</td><td>Tabletop-only experiences; reduce ceiling hits</td><td>Upward-facing horizontal surfaces prioritized</td></tr>
+  </tbody>
+</table>

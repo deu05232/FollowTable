@@ -1,0 +1,16 @@
+<table>
+  <caption>IR Pipeline Interfaces for Accelerator Compilation (Graph-to-IR-to-Binary)</caption>
+  <thead>
+    <tr><th>Stage</th><th>Interface</th><th>Symbol</th><th>Inputs</th><th>Outputs</th><th>Required</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Front-end import</td><td>Parse Framework Graph to IR</td><td>import_graph_to_ir</td><td>Framework graph, op attributes</td><td>High-level IR module</td><td>Yes</td><td>Creates compiler-owned IR module; includes shape inference stubs</td></tr>
+    <tr><td>Annotate IR with Quantization Metadata</td><td>attach_quant_metadata</td><td>IR module</td><td>IR module + quant annotations</td><td>No</td><td>Adds fake-quant nodes and calibration tables</td></tr>
+    <tr><td rowspan="2">IR transforms</td><td>Canonicalize and Simplify IR</td><td>ir_canonicalize</td><td>High-level IR</td><td>Normalized IR</td><td>Yes</td><td>Constant folding, algebraic simplification</td></tr>
+    <tr><td>Operator Legalization Pass</td><td>ir_legalize_ops</td><td>Normalized IR</td><td>Target-legal IR</td><td>Yes</td><td>Rewrites unsupported ops into supported patterns</td></tr>
+    <tr><td rowspan="2">Lowering</td><td>Lower High-level IR to Low-level IR</td><td>lower_hlir_to_llir</td><td>Target-legal IR</td><td>Low-level IR</td><td>Yes</td><td>Explicit memory, schedules, tiling placeholders</td></tr>
+    <tr><td>Lower Low-level IR to Machine IR</td><td>lower_llir_to_mir</td><td>Low-level IR</td><td>Machine IR</td><td>Yes</td><td>Instruction selection and address assignment</td></tr>
+    <tr><td rowspan="2">Codegen</td><td>Emit Binary from Machine IR</td><td>emit_binary</td><td>Machine IR</td><td>Accelerator binary blob</td><td>Yes</td><td>Produces device instruction stream and relocation info</td></tr>
+    <tr><td>Serialize IR Artifacts</td><td>serialize_ir_bundle</td><td>All IR levels</td><td>IR bundle file</td><td>No</td><td>Used for debugging and reproducing lowering</td></tr>
+  </tbody>
+</table>

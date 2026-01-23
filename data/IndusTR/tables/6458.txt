@@ -1,0 +1,9 @@
+<table>
+  <caption>Polygon Region Points — Latitude/Longitude Components</caption>
+  <tr><th>Serial No.</th><th>Field Name</th><th>Number of Bits</th><th>Valid Range</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Number of Points</td><td>4</td><td>1~15</td><td>Total number of polygon points</td></tr>
+  <tr><td>2</td><td>Point Latitude Value</td><td>7</td><td>0~90</td><td>Unit: degrees</td></tr>
+  <tr><td>3</td><td>Point Latitude Minute Value</td><td>6</td><td>0~59</td><td>Unit: minutes</td></tr>
+  <tr><td>4</td><td>Point North/South</td><td>1</td><td>0~1</td><td>0: North; 1: South</td></tr>
+  <tr><td>5</td><td>Point Longitude Value</td><td>8</td><td>0~180</td><td>Unit: degrees</td></tr>
+</table>

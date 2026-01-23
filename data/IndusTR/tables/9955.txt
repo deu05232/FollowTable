@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Environment Understanding Output Parameters (Lighting Estimation: HDR/Main Light)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Data Type</th><th>Direction</th><th>What it is used for</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>light_estimation</td><td>ArLightEstimate*</td><td>in</td><td>Lighting estimation object produced by the environment understanding pipeline; queried to retrieve light properties.</td></tr>
+    <tr><td>out_main_light_direction</td><td>float*</td><td>out</td><td>Receives the main directional light direction as a 3-float vector (x,y,z).</td></tr>
+    <tr><td>out_main_light_intensity</td><td>float*</td><td>out</td><td>Receives the main directional light intensity as a 3-float RGB triplet.</td></tr>
+    <tr><td>out_ambient_intensity</td><td>float*</td><td>out</td><td>Receives ambient intensity estimate (typically RGB in linear space) for overall scene illumination.</td></tr>
+    <tr><td>out_color_correction_rgba</td><td>float*</td><td>out</td><td>Receives color correction values (RGBA, 4 floats) to apply to rendered content to match camera exposure/white balance.</td></tr>
+    <tr><td>out_environment_hdr_cube_map</td><td>ArImageCubemap*</td><td>out</td><td>Receives an HDR environment cubemap (or handle to it) used for image-based lighting of virtual objects.</td></tr>
+    <tr><td>out_spherical_harmonics_coefficients</td><td>float*</td><td>out</td><td>Receives spherical harmonics coefficients array for diffuse IBL; caller interprets length based on API documentation (e.g., 27 floats for 3 bands RGB).</td></tr>
+    <tr><td>out_light_timestamp_ns</td><td>int64_t*</td><td>out</td><td>Receives the timestamp (nanoseconds) when the lighting estimate was computed, helpful for correlating with frame timing.</td></tr>
+  </tbody>
+</table>

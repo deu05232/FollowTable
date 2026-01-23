@@ -1,0 +1,15 @@
+<table>
+  <caption>Good vs Poor Forging Feature Geometry (qualitative die-release guidance)</caption>
+  <thead>
+    <tr><th>Feature / region</th><th>Poor (avoid)</th><th>Preferred</th><th>Reason</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>External corners</td><td>Sharp corner</td><td>Rounded corner</td><td>Reduces stress concentration and improves metal flow</td></tr>
+    <tr><td>Internal corners</td><td>Knife-edge fillet</td><td>Generous fillet</td><td>Improves filling and reduces laps</td></tr>
+    <tr><td>Boss next to wall</td><td>Boss blends abruptly</td><td>Boss blends gradually</td><td>Promotes uniform deformation</td></tr>
+    <tr><td>Rib layout</td><td>Intersecting ribs at random angles</td><td>Ribs aligned with flow</td><td>Less risk of underfill</td></tr>
+    <tr><td>Deep pockets</td><td>Blind deep pocket</td><td>Shallow pocket or open pocket</td><td>Easier die filling and ejection</td></tr>
+    <tr><td>Section changes</td><td>Sudden section change</td><td>Progressive transition</td><td>Reduces fold/flow line defects</td></tr>
+    <tr><td>Parting line region</td><td>Parting line crosses small details</td><td>Parting line through maximum contour</td><td>Improves die alignment and flash control</td></tr>
+  </tbody>
+</table>

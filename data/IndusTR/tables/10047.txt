@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal Message I/O Examples for ID, Service Flag, and Frequency Fields</caption>
+  <thead>
+    <tr><th>Example No.</th><th>Direction</th><th>Statement</th><th>Sender ID</th><th>Recipient ID</th><th>Service/Emergency Flag</th><th>Frequency Point</th><th>Reporting Option</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>TX</td><td>MSG_SEND</td><td>10001</td><td>20002</td><td>1</td><td>0</td><td>N/A</td><td>Typical emergency send using auto frequency</td></tr>
+    <tr><td>2</td><td>TX</td><td>MSG_SEND</td><td>10001</td><td>20003</td><td>2</td><td>1</td><td>N/A</td><td>Position report over LF1</td></tr>
+    <tr><td>3</td><td>RX</td><td>MSG_RECV</td><td>30009</td><td>10001</td><td>2</td><td>2</td><td>N/A</td><td>Inbound position report over LF2</td></tr>
+    <tr><td>4</td><td>TX</td><td>SILENCE_CTRL</td><td>10001</td><td>0</td><td>N/A</td><td>0</td><td>Start</td><td>Start silence for configured address list</td></tr>
+    <tr><td>5</td><td>TX</td><td>SILENCE_CTRL</td><td>10001</td><td>0</td><td>N/A</td><td>1</td><td>Stop</td><td>Stop silence on LF1</td></tr>
+    <tr><td>6</td><td>TX</td><td>NET_MGMT</td><td>10001</td><td>0</td><td>N/A</td><td>0</td><td>PowerOn</td><td>Power-on report to network management</td></tr>
+    <tr><td>7</td><td>TX</td><td>NET_MGMT</td><td>10001</td><td>0</td><td>N/A</td><td>0</td><td>SilenceReq</td><td>Request silence via management message</td></tr>
+  </tbody>
+</table>

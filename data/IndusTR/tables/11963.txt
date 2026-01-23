@@ -1,0 +1,17 @@
+<table>
+  <caption>Voice Biometrics Dataset Dictionary: Channel Setup and Speaker Demographics</caption>
+  <thead>
+    <tr><th>Category</th><th>Attribute</th><th>Permitted Values</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Capture / Sensor Conditions</td><td>Channel Type</td><td>Telephone (PSTN), VoIP, Studio Mic, Mobile Mic</td><td>Telephone (PSTN)</td></tr>
+    <tr><td>Codec / Bitrate</td><td>AMR-NB, G.711, Opus; 8–64 kbps</td><td>AMR-NB 12.2 kbps</td></tr>
+    <tr><td>Sampling Rate</td><td>8 kHz, 16 kHz, 44.1 kHz</td><td>16 kHz</td></tr>
+    <tr><td>Noise Condition</td><td>Clean, Office, Street, Vehicle</td><td>Street</td></tr>
+    <tr><td>SNR Band</td><td><5 dB, 5–15 dB, >15 dB</td><td>5–15 dB</td></tr>
+    <tr><td rowspan="4">Speaker Characteristics</td><td>Gender</td><td>Female, Male, Other, Unspecified</td><td>Male</td></tr>
+    <tr><td>Age Band</td><td>18–29, 30–44, 45–60, 60+</td><td>30–44</td></tr>
+    <tr><td>Accent / Region</td><td>US, UK, IN, CN, Other</td><td>IN</td></tr>
+    <tr><td>Smoking Status</td><td>Non-smoker, Smoker, Unknown</td><td>Unknown</td></tr>
+  </tbody>
+</table>

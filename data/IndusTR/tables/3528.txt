@@ -1,0 +1,9 @@
+<table>
+  <caption>ArImage Get Image Plane Data Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>image</td><td>ArImage *</td><td>Image pointer</td></tr>
+  <tr><td>plane_index</td><td>int32_t</td><td>Plane index</td></tr>
+  <tr><td>out_data</td><td>uint8_t **</td><td>Pointer to the image data pointer</td></tr>
+  <tr><td>out_data_length</td><td>int32_t *</td><td>Pointer to the output data length, in bytes</td></tr>
+</table>

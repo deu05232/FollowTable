@@ -1,0 +1,18 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Transmitter RF Compliance Test Requirements</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Unit</th><th>Test condition</th><th>Required limit / value (Class B transmitter)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Carrier frequency</td><td>MHz</td><td>Assigned AIS channel (e.g., Ch. A / Ch. B)</td><td>160.900 (center frequency per channel plan)</td></tr>
+    <tr><td>Channel spacing equivalence</td><td>kHz</td><td>VHF maritime mobile band operation</td><td>25</td></tr>
+    <tr><td>Carrier frequency error (normal environment)</td><td>Hz</td><td>Nominal supply voltage; stabilized temperature; after warm-up</td><td>−500 to +500</td></tr>
+    <tr><td>Carrier frequency error (extreme environment)</td><td>Hz</td><td>At declared supply voltage limits and temperature limits</td><td>−1000 to +1000</td></tr>
+    <tr><td>Occupied bandwidth (99%)</td><td>kHz</td><td>Continuous transmission in test mode with representative modulation</td><td>≤ 16</td></tr>
+    <tr><td>Adjacent channel power (ACP)</td><td>dBc</td><td>Measured in first adjacent channel with standard measurement bandwidth</td><td>≤ −70</td></tr>
+    <tr><td>Spurious emissions (conducted)</td><td>dBm</td><td>30 MHz to 1 GHz, excluding the necessary bandwidth</td><td>≤ −36</td></tr>
+    <tr><td>Spurious emissions (radiated)</td><td>dBµV/m</td><td>1 GHz to 4 GHz; 3 m test distance; peak detector</td><td>≤ 54</td></tr>
+    <tr><td>Transmitter output power (carrier power)</td><td>W</td><td>Into 50 Ω load; measured at RF port</td><td>2 (nominal), within ±1 dB</td></tr>
+    <tr><td>Transmission time (single burst)</td><td>ms</td><td>One autonomous transmission in normal operating mode</td><td>≤ 108</td></tr>
+  </tbody>
+</table>

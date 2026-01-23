@@ -1,0 +1,16 @@
+<table>
+  <caption>Message 60/61 Transmission Packaging — Burst Structure and Channelization (Test-Oriented)</caption>
+  <thead>
+    <tr><th>Burst Segment</th><th>Order</th><th>Length</th><th>Unit</th><th>Requirement / Test Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Training Sequence</td><td>1</td><td>24</td><td>bit</td><td>Fixed pattern; verify correlator lock</td></tr>
+    <tr><td>Start Flag</td><td>2</td><td>8</td><td>bit</td><td>Used for packet boundary detection</td></tr>
+    <tr><td>PHY Header</td><td>3</td><td>32</td><td>bit</td><td>Includes rate and burst type; check CRC pass rate</td></tr>
+    <tr><td>Payload (Message 60/61 container)</td><td>4</td><td>variable</td><td>bit</td><td>Maximum payload shall fit within ≤108 ms burst time</td></tr>
+    <tr><td>Payload Whitening</td><td>5</td><td>N/A</td><td>-</td><td>Apply scrambler; confirm spectrum shaping</td></tr>
+    <tr><td>FEC/Interleaving</td><td>6</td><td>N/A</td><td>-</td><td>Conformance tested via BER under fading profile</td></tr>
+    <tr><td>End Flag</td><td>7</td><td>8</td><td>bit</td><td>End-of-burst delimiter</td></tr>
+    <tr><td>Channel Assignment</td><td>8</td><td>160.900</td><td>MHz</td><td>Operate on assigned VHF channel center</td></tr>
+  </tbody>
+</table>

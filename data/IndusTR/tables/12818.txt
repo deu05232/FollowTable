@@ -1,0 +1,14 @@
+<table>
+  <caption>Self-service Portal Management Test Set (Steps and Expected Results Without Stated Objective)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Management Function</th><th>Preconditions</th><th>Test Steps</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SSP-DEV-110</td><td>Terminal Management - Add Device</td><td>Admin account exists; device not registered</td><td>1) Login 2) Navigate to Devices 3) Click Add 4) Submit form</td><td>Device appears in list with correct status</td></tr>
+    <tr><td>SSP-DEV-120</td><td>Terminal Management - Remove Device</td><td>Device exists in inventory</td><td>1) Login 2) Devices 3) Select device 4) Click Remove 5) Confirm</td><td>Device is removed and audit log is created</td></tr>
+    <tr><td>SSP-APP-210</td><td>Application System Management - Create App</td><td>Customer admin role granted</td><td>1) Login 2) Applications 3) Create 4) Fill mandatory fields 5) Save</td><td>Application is created and visible to the tenant</td></tr>
+    <tr><td>SSP-APP-220</td><td>Application System Management - Disable App</td><td>Application exists and is enabled</td><td>1) Login 2) Applications 3) Open app 4) Disable 5) Confirm</td><td>App becomes disabled and cannot be selected in new bindings</td></tr>
+    <tr><td>SSP-SUB-310</td><td>Subscription Relationship Management - Bind</td><td>Provider and customer tenants exist</td><td>1) Login 2) Subscriptions 3) Bind provider 4) Submit request</td><td>Binding request is created and routed for approval</td></tr>
+    <tr><td>SSP-SUB-320</td><td>Subscription Relationship Management - Unbind</td><td>Active subscription binding exists</td><td>1) Login 2) Subscriptions 3) Select binding 4) Unbind 5) Confirm</td><td>Binding is terminated and services are revoked</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>AR hit result collision metrics (distance and confidence)</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit test result object pointer</td></tr>
+  <tr><td>out_distance</td><td>float *</td><td>Pointer used to receive distance from the ray origin to the hit point</td></tr>
+  <tr><td>out_confidence</td><td>float *</td><td>Pointer used to receive a confidence score for this hit result</td></tr>
+</table>

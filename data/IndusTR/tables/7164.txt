@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Recorder Logging Items with Environmental Protection (IP) and Installation Constraints</caption>
+  <thead>
+    <tr><th>Installation Location</th><th>Required IP Rating</th><th>Recorded Data Item</th><th>Min Recording Frequency</th><th>Unit</th><th>Capability Range</th><th>Resolution</th><th>Accuracy</th><th>Environmental Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Engine compartment</td><td>IP5K6</td><td>Coolant temperature</td><td>1 Hz</td><td>°C</td><td>-40–150</td><td>0.5</td><td>±2</td><td>Must withstand high-pressure spray and oil mist</td></tr>
+    <tr><td>Engine compartment</td><td>IP5K6</td><td>Battery voltage</td><td>5 Hz</td><td>V</td><td>6–32</td><td>0.1</td><td>±0.2</td><td>Transient load dump survivability required</td></tr>
+    <tr><td>Vehicle interior</td><td>IP5K1</td><td>Driver seat belt status</td><td>2 Hz</td><td>enum</td><td>0/1</td><td>N/A</td><td>No error</td><td>Vertical dripping water only</td></tr>
+    <tr><td>Vehicle interior</td><td>IP5K1</td><td>Driver presence</td><td>2 Hz</td><td>enum</td><td>0/1</td><td>N/A</td><td>No error</td><td>Condensation shall not cause false positives</td></tr>
+    <tr><td>Luggage compartment</td><td>IP5K1</td><td>Event timestamp (GNSS time)</td><td>10 Hz</td><td>ms</td><td>0–86,400,000</td><td>1</td><td>±5</td><td>Temperature cycling -20–60 °C</td></tr>
+    <tr><td>Luggage compartment</td><td>IP5K1</td><td>Recorder storage free space</td><td>0.2 Hz</td><td>%</td><td>0–100</td><td>1</td><td>±1</td><td>Shock/vibration per vehicle OEM profile</td></tr>
+  </tbody>
+</table>

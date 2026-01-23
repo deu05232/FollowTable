@@ -1,0 +1,16 @@
+<table>
+  <caption>Default CO2 Emission Factors by Fuel (Collapsed Factors Only)</caption>
+  <thead>
+    <tr><th rowspan="2">Fuel Category</th><th rowspan="2">Fuel Type</th><th rowspan="2">Reference Unit</th><th colspan="3">Single-Factor Outputs</th><th rowspan="2">Applicable Use Notes</th></tr>
+    <tr><th>EF (tCO2/unit)</th><th>CH4 (kg/unit)</th><th>N2O (kg/unit)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Solid Fuels</td><td>Anthracite</td><td>t</td><td>2.42</td><td>0.08</td><td>0.01</td><td>Stationary combustion</td></tr>
+    <tr><td>Bituminous coal</td><td>t</td><td>2.35</td><td>0.10</td><td>0.01</td><td>Industrial boilers</td></tr>
+    <tr><td>Lignite</td><td>t</td><td>1.10</td><td>0.20</td><td>0.02</td><td>High moisture fuel</td></tr>
+    <tr><td rowspan="2">Liquid Fuels</td><td>Diesel (gas oil)</td><td>kL</td><td>2.68</td><td>0.30</td><td>0.02</td><td>On-site generators</td></tr>
+    <tr><td>Residual fuel oil</td><td>kL</td><td>3.05</td><td>0.35</td><td>0.03</td><td>Furnaces</td></tr>
+    <tr><td rowspan="2">Gaseous Fuels</td><td>Natural gas</td><td>10^3 Nm3</td><td>1.90</td><td>0.04</td><td>0.001</td><td>Pipeline quality</td></tr>
+    <tr><td>Coke oven gas</td><td>10^3 Nm3</td><td>1.35</td><td>0.06</td><td>0.002</td><td>Variable composition</td></tr>
+  </tbody>
+</table>

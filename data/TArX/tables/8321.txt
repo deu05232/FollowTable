@@ -1,0 +1,15 @@
+<table>
+  <caption>Comparison of Newtonian Gravity vs Bimetric Gravity Parameters with Emphasis on SN Ia Cosmology Fit Outputs</caption>
+  <thead>
+    <tr><th>Framework</th><th>H0 (km/s/Mpc)</th><th>Omega_m0</th><th>Omega_Lambda0</th><th>w0</th><th>wa</th><th>q0</th><th>chi2_min</th><th>DeltaAIC</th><th>Dataset</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Newtonian + LCDM baseline</td><td>70.1</td><td>0.30</td><td>0.70</td><td>-1.00</td><td>0.00</td><td>-0.55</td><td>578.6</td><td>0.0</td><td>Pantheon+</td></tr>
+    <tr><td>Newtonian + CPL</td><td>69.4</td><td>0.32</td><td>0.68</td><td>-0.95</td><td>-0.20</td><td>-0.49</td><td>577.9</td><td>-0.8</td><td>Pantheon+</td></tr>
+    <tr><td>Bimetric (beta1-beta2) + CPL</td><td>68.9</td><td>0.34</td><td>0.66</td><td>-1.10</td><td>-0.60</td><td>-0.62</td><td>577.8</td><td>-1.1</td><td>Pantheon+</td></tr>
+    <tr><td>Bimetric (beta1-beta3) + CPL</td><td>67.8</td><td>0.29</td><td>0.71</td><td>-1.25</td><td>-0.90</td><td>-0.69</td><td>578.0</td><td>-0.6</td><td>Pantheon+</td></tr>
+    <tr><td>Bimetric (minimal beta) + CPL</td><td>66.9</td><td>0.37</td><td>0.63</td><td>-1.55</td><td>-1.40</td><td>-0.83</td><td>606.1</td><td>+27.5</td><td>Pantheon+</td></tr>
+    <tr><td>Newtonian + LCDM (BAO+SN)</td><td>68.2</td><td>0.31</td><td>0.69</td><td>-1.00</td><td>0.00</td><td>-0.54</td><td>1021.4</td><td>0.0</td><td>BAO+SN</td></tr>
+    <tr><td>Bimetric (beta1-beta2) (BAO+SN)</td><td>67.5</td><td>0.33</td><td>0.67</td><td>-1.08</td><td>-0.45</td><td>-0.61</td><td>1019.9</td><td>-1.5</td><td>BAO+SN</td></tr>
+  </tbody>
+</table>

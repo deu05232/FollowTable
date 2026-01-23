@@ -1,0 +1,14 @@
+<table>
+  <caption>Tire Calendering Closed-Loop Control and Inline Inspection Analytics Summary</caption>
+  <thead>
+    <tr><th>Area</th><th>Loop / Analytics Item</th><th>Measured Value (Sensor)</th><th>Target / Recipe Setpoint</th><th>Updated Actuator Command</th><th>Non-control Output</th><th>Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Closed-loop control</td><td>Sheet thickness control</td><td>Laser thickness gauge (mm)</td><td>Thickness recipe setpoint (mm)</td><td>Calender roll gap command (%)</td><td>-</td><td>PID on thickness error</td></tr>
+    <tr><td>Line speed / tension coordination</td><td>Dancer position (mm), line speed encoder (m/min)</td><td>Dancer position recipe (mm)</td><td>Unwinder torque command (Nm)</td><td>-</td><td>PI on dancer error + feedforward</td></tr>
+    <tr><td>Roll temperature control</td><td>Roll surface temperature (°C)</td><td>Temperature recipe (°C)</td><td>Steam valve opening (%)</td><td>-</td><td>PID + anti-windup</td></tr>
+    <tr><td rowspan="3">Inline inspection / grading</td><td>Surface defect detection</td><td>Line-scan camera images</td><td>Defect thresholds (recipe)</td><td>-</td><td>Defect class (scratch/bubble), severity score</td><td>CNN classification + rules</td></tr>
+    <tr><td>X-ray foreign object grading</td><td>X-ray attenuation image</td><td>Grading criteria (A/B/C)</td><td>-</td><td>Grade label, reject flag</td><td>Deep learning + morphology</td></tr>
+    <tr><td>Quality decision</td><td>Thickness CpK, defect counts</td><td>Quality limits</td><td>-</td><td>Pass/Fail, rework routing code</td><td>SPC + decision tree</td></tr>
+  </tbody>
+</table>

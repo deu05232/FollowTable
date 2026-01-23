@@ -1,0 +1,6 @@
+<table>
+  <caption>Frame format for command A5H (heartbeat) with no payload</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>01H</td><td>A5H</td><td>0000H</td><td>xxxxH</td><td>0DH 0AH</td></tr>
+  <tr><td colspan="6">Note: Length is 0000H, no data segment is present.</td></tr>
+</table>

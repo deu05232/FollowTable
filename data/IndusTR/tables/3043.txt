@@ -1,0 +1,10 @@
+<table>
+  <caption>Production Line Equipment Settings for Vacuum Sterilization Cycle</caption>
+  <tr><th>Step</th><th>Operation</th><th>Target Pressure (kPa)</th><th>Target Temp (°C)</th><th>Duration (min)</th><th>Sensor Tag</th><th>Operator Role</th></tr>
+  <tr><td>1</td><td>Pre-vacuum</td><td>-85</td><td>45</td><td>8</td><td>PT-101</td><td>Technician</td></tr>
+  <tr><td>2</td><td>Steam injection</td><td>120</td><td>121</td><td>4</td><td>TT-204</td><td>Technician</td></tr>
+  <tr><td>3</td><td>Exposure hold</td><td>120</td><td>121</td><td>15</td><td>TT-204</td><td>Supervisor</td></tr>
+  <tr><td>4</td><td>Pulsed vacuum</td><td>-90</td><td>80</td><td>6</td><td>PT-101</td><td>Technician</td></tr>
+  <tr><td>5</td><td>Drying</td><td>-70</td><td>95</td><td>12</td><td>TT-211</td><td>Technician</td></tr>
+  <tr><td>6</td><td>Cooling</td><td>0</td><td>35</td><td>10</td><td>TT-009</td><td>QA</td></tr>
+</table>

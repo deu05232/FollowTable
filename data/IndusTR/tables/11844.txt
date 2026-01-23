@@ -1,0 +1,15 @@
+<table>
+  <caption>Backwash Sequence Setpoints (Stepwise) for Filtration Unit Cleaning and Bed Reclassification</caption>
+  <thead>
+    <tr><th>Step</th><th>Operation stage</th><th>Backwashing method</th><th>Backwash intensity (L/(m²·s))</th><th>Target bed expansion (%)</th><th>Duration (min)</th><th>Operational objective</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Initial fluidization ramp</td><td>Water-only</td><td>6–9</td><td>10–20</td><td>1–2</td><td>Gently loosen packed bed and release trapped air</td></tr>
+    <tr><td>2</td><td>Primary cleaning wash</td><td>Water-only</td><td>12–16</td><td>25–40</td><td>4–6</td><td>Dislodge accumulated solids from media pores</td></tr>
+    <tr><td>3</td><td>Intensified wash (if headloss remains high)</td><td>Water-only</td><td>16–20</td><td>35–55</td><td>2–4</td><td>Improve particle detachment; avoid media loss by monitoring overflow</td></tr>
+    <tr><td>4</td><td>Air scour (optional)</td><td>Air scour + low-rate water</td><td>5–8</td><td>10–25</td><td>2–5</td><td>Break up mudballs and biofilm; keep bed partially expanded</td></tr>
+    <tr><td>5</td><td>Combined air-water wash</td><td>Air scour + water wash</td><td>10–14</td><td>20–40</td><td>3–6</td><td>Flush mobilized solids to waste at stable expansion</td></tr>
+    <tr><td>6</td><td>Final rinse / resettling wash</td><td>Water-only</td><td>8–12</td><td>15–30</td><td>2–5</td><td>Clear residual turbidity and promote uniform bed re-stratification</td></tr>
+    <tr><td>7</td><td>Termination</td><td>Flow ramp-down</td><td>Reduce to 0</td><td>Return to 0</td><td>1–2</td><td>Prevent bed disturbance before returning to service</td></tr>
+  </tbody>
+</table>

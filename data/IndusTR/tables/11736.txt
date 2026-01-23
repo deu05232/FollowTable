@@ -1,0 +1,10 @@
+<table>
+  <caption>Power meter capability requirements for copier/MFD energy tests (resolution and sampling)</caption>
+  <tr><th>Parameter</th><th>Requirement band</th><th>Typical values</th><th>Applies to measurement</th><th>Notes</th></tr>
+  <tr><td>Minimum power resolution</td><td>By measured power range</td><td>0.01 W / 0.1 W / 1 W / 10 W</td><td>Off / Sleep / Ready</td><td>Select range so resolution is adequate at low power</td></tr>
+  <tr><td>Minimum energy resolution</td><td>Low-energy intervals</td><td>0.01 W·h</td><td>Short test intervals</td><td>Needed when measuring brief idle periods</td></tr>
+  <tr><td>Sampling interval</td><td>Continuous logging</td><td>1 s to 5 s</td><td>All states</td><td>Use fixed interval throughout a run</td></tr>
+  <tr><td>Measurement uncertainty</td><td>Instrument spec</td><td>≤1%</td><td>All states</td><td>As stated by manufacturer</td></tr>
+  <tr><td>Data recording</td><td>Capability</td><td>Time-stamped records</td><td>All states</td><td>Must allow exporting readings</td></tr>
+  <tr><td>Warm-up time</td><td>Before measurement</td><td>As required</td><td>All states</td><td>Allow meter to stabilize</td></tr>
+</table>

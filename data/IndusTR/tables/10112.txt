@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Pack Mechanical Shock Pulse Limits by Vehicle Operating Mass (Half-Sine, Direction-Specific)</caption>
+  <thead>
+    <tr><th rowspan="2">Vehicle operating mass</th><th rowspan="2">Pulse width (ms)</th><th colspan="2">Peak acceleration limit (g)</th><th colspan="2">Peak acceleration limit (g)</th></tr>
+    <tr><th>Longitudinal (±X)</th><th>Lateral (±Y)</th><th>Vertical up (−Z)</th><th>Vertical down (+Z)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>< 3.5 t</td><td>20</td><td>25</td><td>15</td><td>30</td><td>20</td></tr>
+    <tr><td>3.5 t to < 7.5 t</td><td>20</td><td>18</td><td>12</td><td>25</td><td>18</td></tr>
+    <tr><td>7.5 t to < 12 t</td><td>20</td><td>14</td><td>10</td><td>22</td><td>16</td></tr>
+    <tr><td>12 t to < 18 t</td><td>20</td><td>12</td><td>9</td><td>20</td><td>14</td></tr>
+    <tr><td>≥ 18 t</td><td>20</td><td>10</td><td>8</td><td>18</td><td>12</td></tr>
+    <tr><td>All masses</td><td>—</td><td colspan="4">Waveform: half-sine; Pulses: 3 per polarity per axis; Acceptance: no fire/explosion/leakage; no structural exposure of cells</td></tr>
+  </tbody>
+</table>

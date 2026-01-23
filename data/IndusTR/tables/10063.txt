@@ -1,0 +1,7 @@
+<table>
+  <caption>Bitstream syntax elements and conformance traversal requirements (in-loop filters)</caption>
+  <tr><th>Syntax element name</th><th>Test requirements</th></tr>
+  <tr><td>deblock_filter_disable_flag</td><td>Traverse cases where deblock_filter_disable_flag equals 0 to 1</td></tr>
+  <tr><td>beta_offset_div2</td><td>Traverse cases where beta_offset_div2 equals -6 to 6</td></tr>
+  <tr><td>tc_offset_div2</td><td>Traverse cases where tc_offset_div2 equals -6 to 6</td></tr>
+</table>

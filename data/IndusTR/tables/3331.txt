@@ -1,0 +1,10 @@
+<table>
+  <caption>Training Curriculum for Video Coding Bitstream Conformance Engineers</caption>
+  <tr><th>Module</th><th>Topic</th><th>Duration (hrs)</th><th>Prerequisite</th><th>Assessment Type</th><th>Materials</th></tr>
+  <tr><td>M1</td><td>Bitstream structure and NAL units</td><td>6</td><td>None</td><td>Quiz</td><td>Slides + sample streams</td></tr>
+  <tr><td>M2</td><td>Entropy coding (CABAC/CAVLC)</td><td>8</td><td>M1</td><td>Lab</td><td>Reference decoder</td></tr>
+  <tr><td>M3</td><td>Conformance testing workflow</td><td>5</td><td>M1</td><td>Checklist</td><td>CI templates</td></tr>
+  <tr><td>M4</td><td>Log analysis and triage</td><td>4</td><td>M3</td><td>Practical</td><td>Issue tracker</td></tr>
+  <tr><td>M5</td><td>Standard reading: GB/T 33475.2—2024</td><td>7</td><td>M1</td><td>Open-book test</td><td>Standard excerpts</td></tr>
+  <tr><td>M6</td><td>Automation and reporting</td><td>6</td><td>M3</td><td>Project</td><td>Python scripts</td></tr>
+</table>

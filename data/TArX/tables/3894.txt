@@ -1,0 +1,28 @@
+<table>
+  <caption>Summary of possible experiments. LEO refers to Low Earth Orbit, an elliptical orbit about the Earth with altitude up to 2000 km. The timeframes are mentioned in Section LABEL:timeframes.sec . Roughly, ‘near-term’ experiments ( ∼ 5 years) can be accomplished with a single satellite in LEO, ‘mid-term’ experiments (25 years) require multiple satellites or higher orbits, ‘long-term’ experiments involve Earth-Moon distances, and ‘visionary’ experiments extend to solar orbits and beyond. Under “Regime” (and throughout the paper) QM refers to ordinary quantum mechanics, QFT to quantum field theory, SR to special relativity, GR to general relativity, and QG to quantum gravity. The “Level” classifications are explained in Section LABEL:sec.classification .</caption>
+  <tr><td>Name</td><td>Scale</td><td>Timeframe</td><td>Regime</td><td>Level</td><td>Observability</td><td>Section</td></tr>
+  <tr><td colspan="4">Entanglement Tests</td><td></td><td></td><td></td></tr>
+  <tr><td>Long distance Bell-test</td><td>LEO and beyond</td><td>near-term</td><td>Standard QM</td><td>1</td><td>Observable</td><td>LABEL:longdist</td></tr>
+  <tr><td>Bell-test with human observers</td><td>Earth-Moon</td><td>long-term</td><td>QM and free-will</td><td>3</td><td>Need human on Moon surface or lunar orbit</td><td>LABEL:human.sec</td></tr>
+  <tr><td>Detectors in relative motion</td><td>LEO</td><td>mid-term</td><td>Standard SR</td><td>3</td><td>achievable</td><td>LABEL:moving_observers.sec</td></tr>
+  <tr><td>Amplified entanglement</td><td>LEO</td><td>near–mid-term</td><td>QM</td><td>3</td><td>potentially achievable</td><td>LABEL:macro_amp.sec</td></tr>
+  <tr><td>Bimetric gravity</td><td>LEO</td><td>near-term</td><td>Test non-standard theory</td><td>3</td><td>bound parameter?</td><td>LABEL:bimetric.sec</td></tr>
+  <tr><td colspan="4">Special and General Relativistic Effects</td><td></td><td></td><td></td></tr>
+  <tr><td>Lorentz transformed polarization</td><td>LEO and beyond</td><td>mid-term</td><td>QM + SR</td><td>1</td><td>Beyond current tech.</td><td>LABEL:lorentz-polar</td></tr>
+  <tr><td>Relativistic frame dragging</td><td>TBD</td><td>TBD</td><td>QM + GR</td><td>2</td><td>Beyond current tech.</td><td>LABEL:frame_dragging.sec</td></tr>
+  <tr><td>Entanglement with curvature</td><td>TBD</td><td>visionary</td><td>QM + GR</td><td>2</td><td>Beyond current tech.</td><td>LABEL:sec.parallel_transport</td></tr>
+  <tr><td>Fermi problem</td><td>Sunshielded satellites</td><td>long-term</td><td>QFT</td><td>2</td><td>Borderline</td><td>LABEL:Emm1</td></tr>
+  <tr><td>Optical Colella-Overhauser-Werner experiment</td><td>LEO and beyond</td><td>near-term</td><td>QM + GR</td><td>1+</td><td>Observable</td><td>LABEL:cow.sec</td></tr>
+  <tr><td colspan="4">Accelerating Detectors in Quantum Field Theory</td><td></td><td></td><td></td></tr>
+  <tr><td>Acceleration induced fidelity loss</td><td>TBD</td><td>visionary</td><td>QFT + GR</td><td>2</td><td>Beyond current tech.</td><td>LABEL:unruh.sec</td></tr>
+  <tr><td>Berry phase interferometry</td><td>LEO</td><td>mid-term</td><td>QFT + GR</td><td>2</td><td>Borderline</td><td>LABEL:unruh.sec</td></tr>
+  <tr><td>Gravitationally induced entanglement decorrelation</td><td>LEO and beyond</td><td>near-term</td><td>Non-standard QFT + GR</td><td>3</td><td>Possibly observable</td><td>LABEL:sec.Ralph</td></tr>
+  <tr><td>Spacelike entanglement extraction</td><td>TBD</td><td>visionary</td><td>QFT + GR</td><td>2+</td><td>Beyond current tech.</td><td>LABEL:EMM2</td></tr>
+  <tr><td colspan="4">Quantum Gravity Experiments</td><td></td><td></td><td></td></tr>
+  <tr><td>Diffusion of polarization</td><td>TBD, solar system?</td><td>visionary?</td><td>QG</td><td>4</td><td>Bound model parameters</td><td>LABEL:diffusion.sec</td></tr>
+  <tr><td>Spacetime noncommutativity</td><td>TBD</td><td>unknown</td><td>QG</td><td>4</td><td>unknown</td><td>LABEL:noncommutativity.sec</td></tr>
+  <tr><td>Relativity of locality</td><td>TBD, solar system?</td><td>unknown</td><td>QG</td><td>4</td><td>unknown</td><td>LABEL:DSR.sec</td></tr>
+  <tr><td colspan="4">Quantum Communication and Cryptographic Schemes</td><td></td><td></td><td></td></tr>
+  <tr><td>Quantum tagging</td><td>LEO–GEO</td><td>near-term</td><td>QM + SR</td><td>1</td><td>feasible with current technology?</td><td>LABEL:tagging.sec</td></tr>
+  <tr><td>Quantum teleportation</td><td>LEO</td><td>near-term</td><td>Standard QM</td><td>1</td><td>feasible with current technology?</td><td>LABEL:teleportation.sec</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Performance Rating Metrics Setup for Oil-free Maglev Centrifugal Chiller/Heat Pump (IPLV/NPLV/COP/EER)</caption>
+  <tr><th rowspan="2">Metric</th><th rowspan="2">Symbol</th><th rowspan="2">Primary measurement items</th><th colspan="2">Calculation / weighting</th><th rowspan="2">Reporting unit</th></tr>
+  <tr><th>Formula label</th><th>Weighting points</th></tr>
+  <tr><td>Cooling efficiency</td><td>EER</td><td>Cooling capacity, input power</td><td>EER-1</td><td>Single-point</td><td>kW/kW</td></tr>
+  <tr><td>Heating efficiency</td><td>COP</td><td>Heating capacity, input power</td><td>COP-1</td><td>Single-point</td><td>kW/kW</td></tr>
+  <tr><td>Integrated part-load value</td><td>IPLV</td><td>Cap., power at 100/75/50/25%</td><td>IPLV-STD</td><td>0.01/0.42/0.45/0.12</td><td>kW/kW</td></tr>
+  <tr><td>Non-standard part-load value</td><td>NPLV</td><td>Cap., power at defined loads</td><td>NPLV-ALT</td><td>User-defined</td><td>kW/kW</td></tr>
+  <tr><td>Sound rating</td><td>LwA</td><td>Octave-band sound power</td><td>SND-ISO</td><td>A-weighted</td><td>dB(A)</td></tr>
+  <tr><td>Vibration index</td><td>Vrms</td><td>Bearing housing acceleration</td><td>VIB-1</td><td>RMS</td><td>mm/s</td></tr>
+</table>

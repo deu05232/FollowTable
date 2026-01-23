@@ -1,0 +1,19 @@
+<table>
+  <caption>Required accuracy of barycentric positions and impact parameters for astrometric observations with accuracy of 1 μ as. The Earth is taken at the distance of 0.05 AU from the spacecraft. Accuracy for the Moon’s position is given from the geocentric reference frame.</caption>
+  <tr><td>Solar</td><td colspan="3">Required knowledge: grazing rays</td><td colspan="4">Required knowledge: differential astrometry</td></tr>
+  <tr><td>system’s</td><td>Distance,</td><td colspan="2">Impact parameter</td><td colspan="2">Impact param. [15 ^((°)) ]</td><td colspan="2">Impact param. [1 ^((°)) ]</td></tr>
+  <tr><td>object</td><td>σ_(r_B), km</td><td>σ_(d_B), km</td><td>σ_(d_B), mas</td><td>σ_(r_B) , km</td><td>σ_(r_B) , mas</td><td>σ_(r_B) , km</td><td>σ_(r_B) , mas</td></tr>
+  <tr><td>Sun</td><td>85.45</td><td>0.39</td><td>0.55</td><td>0.40</td><td>0.55</td><td>0.50</td><td>0.69</td></tr>
+  <tr><td>Sun at 45 ^((°))</td><td>1.5 × 10^(4)</td><td>7.6 × 10^(3)</td><td>10 ^(()) .49</td><td>3.81 × 10^(4)</td><td>52 ^(()) .53</td><td>4.45 × 10^(5)</td><td>613 ^(()) .66</td></tr>
+  <tr><td>Moon</td><td>2.8 × 10^(5)</td><td>67.14</td><td>1 ^(()) .85</td><td>67.17</td><td>1 ^(()) .85</td><td>68.00</td><td>1 ^(()) .88</td></tr>
+  <tr><td>Mercury</td><td>1.1 × 10^(6)</td><td>29.39</td><td>66.16</td><td>29.41</td><td>66.16</td><td>29.45</td><td>66.25</td></tr>
+  <tr><td>Venus</td><td>8.4 × 10^(4)</td><td>12.18</td><td>61.00</td><td>12.28</td><td>61.20</td><td>12.38</td><td>62.70</td></tr>
+  <tr><td>Earth-Moon</td><td>1.3 × 10^(4)</td><td>11.14</td><td>306.55</td><td>11.15</td><td>307.47</td><td>11.66</td><td>321.54</td></tr>
+  <tr><td>Mars</td><td>6.8 × 10^(5)</td><td>29.29</td><td>77.11</td><td>29.30</td><td>77.14</td><td>29.37</td><td>77.33</td></tr>
+  <tr><td>Jupiter</td><td>3.8 × 10^(4)</td><td>4.31</td><td>1.42</td><td>4.32</td><td>1.42</td><td>4.34</td><td>1.42</td></tr>
+  <tr><td>Jupiter at 30 ^(())</td><td>4.9 × 10^(4)</td><td>7.14</td><td>2.34</td><td>7.20</td><td>2.36</td><td>7.25</td><td>2.38</td></tr>
+  <tr><td>Saturn</td><td>2.2 × 10^(5)</td><td>10.32</td><td>1.66</td><td>10.34</td><td>1.66</td><td>10.36</td><td>1.66</td></tr>
+  <tr><td>Uranus</td><td>1.2 × 10^(6)</td><td>11.27</td><td>0.86</td><td>11.28</td><td>0.86</td><td>11.29</td><td>0.86</td></tr>
+  <tr><td>Neptune</td><td>1.7 × 10^(6)</td><td>10.04</td><td>0.47</td><td>10.04</td><td>0.47</td><td>10.04</td><td>0.47</td></tr>
+  <tr><td>Pluto</td><td>2.0 × 10^(9)</td><td>1133.92</td><td>40.7</td><td>1133.93</td><td>40.7</td><td>1133.96</td><td>40.7</td></tr>
+</table>

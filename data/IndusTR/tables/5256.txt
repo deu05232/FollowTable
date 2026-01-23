@@ -1,0 +1,8 @@
+<table>
+  <caption>Sensor Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="4">vrSensor</td><td>Int32_t</td><td>Sensor ID</td></tr>
+  <tr><td>vrSensorConfig</td><td>Sensor configuration, see Table 23</td></tr>
+  <tr><td>Vector<Uint8_t></td><td>Sensor data binary array</td></tr>
+  <tr><td>int32_tdata_length</td><td>Length of the sensor data binary array</td></tr>
+</table>

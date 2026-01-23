@@ -1,0 +1,14 @@
+<table>
+  <caption>Curved-Band Wrap Angle to DT with Brightness-Temperature Correction Factors (Enhanced IR)</caption>
+  <thead>
+    <tr><th>Wrap angle bin (rad)</th><th>Base DT</th><th>Band grayscale / Tb class</th><th>DT adjustment</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0.20–0.34</td><td>1.5</td><td>W (very cold)</td><td>+0.5</td><td>Apply only if the analyzed band segment is uniformly W</td></tr>
+    <tr><td>0.20–0.34</td><td>1.5</td><td>B</td><td>0.0</td><td>Default adjustment</td></tr>
+    <tr><td>0.35–0.49</td><td>2.5</td><td>LG</td><td>-0.5</td><td>Warm band reduces confidence in intensity</td></tr>
+    <tr><td>0.50–0.64</td><td>3.0</td><td>MG</td><td>-0.5</td><td>Use when band definition is marginal</td></tr>
+    <tr><td>0.65–0.79</td><td>3.5</td><td>DG</td><td>0.0</td><td>Most common case for mature curved band</td></tr>
+    <tr><td>0.80–0.94</td><td>4.0</td><td>OW</td><td>-1.0</td><td>Consider switching to eye analysis if warm eye appears</td></tr>
+  </tbody>
+</table>

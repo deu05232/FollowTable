@@ -1,0 +1,17 @@
+<table>
+  <caption>Alpha-spectrum count limits for uranium/thorium chain nuclides with ROI definitions and background model parameters</caption>
+  <thead>
+    <tr><th rowspan="2">Decay chain</th><th rowspan="2">Nuclide</th><th rowspan="2">Alpha energy (keV)</th><th colspan="5">Analysis / counting conditions (to be avoided)</th></tr>
+    <tr><th>ROI (keV)</th><th>Exposure (kg·d)</th><th>Live time (d)</th><th>Background index (counts/keV/kg/d)</th><th>90% C.L. count limit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>U-238</td><td>U-238</td><td>4268</td><td>4257–4283</td><td>120</td><td>30</td><td>0.0020</td><td>4.6</td></tr>
+    <tr><td>U-238</td><td>U-234</td><td>4859</td><td>4845–4871</td><td>120</td><td>30</td><td>0.0018</td><td>4.6</td></tr>
+    <tr><td>U-238</td><td>Th-230</td><td>4770</td><td>4755–4785</td><td>120</td><td>30</td><td>0.0017</td><td>5.0</td></tr>
+    <tr><td>U-238</td><td>Ra-226</td><td>4871</td><td>4855–4885</td><td>120</td><td>30</td><td>0.0022</td><td>5.3</td></tr>
+    <tr><td>Th-232</td><td>Th-232</td><td>4012</td><td>3995–4025</td><td>95</td><td>25</td><td>0.0025</td><td>6.1</td></tr>
+    <tr><td>Th-232</td><td>Th-228</td><td>5423</td><td>5405–5438</td><td>95</td><td>25</td><td>0.0019</td><td>4.9</td></tr>
+    <tr><td>Th-232</td><td>Ra-224</td><td>5685</td><td>5665–5705</td><td>95</td><td>25</td><td>0.0016</td><td>4.4</td></tr>
+    <tr><td>Th-232</td><td>Po-216</td><td>6907</td><td>6885–6930</td><td>95</td><td>25</td><td>0.0012</td><td>3.8</td></tr>
+  </tbody>
+</table>

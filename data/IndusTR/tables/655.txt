@@ -1,0 +1,11 @@
+<table>
+  <caption>GETGROUPINFO Command Message Structure</caption>
+  <tr><td>Code</td><td>Value/Description (HEX encoding）</td></tr>
+  <tr><td>CLA</td><td>80</td></tr>
+  <tr><td>INS</td><td>D0</td></tr>
+  <tr><td>P1</td><td>00</td></tr>
+  <tr><td>P2</td><td>00: Count total number of multicast records01; Count total number of free multicast records02: Enumerate all multicast records03: Get remaining multicast records</td></tr>
+  <tr><td>Lc</td><td>Not present</td></tr>
+  <tr><td>DATA</td><td>Not present</td></tr>
+  <tr><td>Le</td><td>00</td></tr>
+</table>

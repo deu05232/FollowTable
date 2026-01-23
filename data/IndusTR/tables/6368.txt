@@ -1,0 +1,15 @@
+<table>
+  <caption>Fire-Test Scenario Matrix for Fireproof Coatings (Curve Type × Furnace Program) with Rating Labels</caption>
+  <thead>
+    <tr><th>Test scenario</th><th>Heating curve family</th><th>Furnace program ID</th><th>Ventilation condition</th><th>Target steel critical temperature (°C)</th><th>Rating label (30 min)</th><th>Rating label (60 min)</th><th>Rating label (120 min)</th><th>Rating label (180 min)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Building structural member</td><td>Cellulosic</td><td>ISO834-A</td><td>Standard</td><td>500</td><td>Fp0.50</td><td>Fp1.00</td><td>Fp2.00</td><td>Fp3.00</td></tr>
+    <tr><td>Process plant pipe rack</td><td>Hydrocarbon</td><td>HC-5min</td><td>Open</td><td>550</td><td>Ft0.50</td><td>Ft1.00</td><td>Ft2.00</td><td>Ft3.00</td></tr>
+    <tr><td>Offshore module</td><td>Hydrocarbon</td><td>HC-5min</td><td>Windy</td><td>600</td><td>Ft0.50</td><td>Ft1.50</td><td>Ft2.50</td><td>Ft3.50</td></tr>
+    <tr><td>Refinery vessel skirt</td><td>Petrochemical</td><td>PC-10min</td><td>Restricted</td><td>600</td><td>Fs0.50</td><td>Fs1.50</td><td>Fs2.50</td><td>Fs3.50</td></tr>
+    <tr><td>Tunnel lining (road)</td><td>RABT</td><td>RABT-Train</td><td>Forced</td><td>380</td><td>Fb0.50</td><td>Fb1.00</td><td>Fb1.50</td><td>Fb2.00</td></tr>
+    <tr><td>Tunnel lining (rail)</td><td>RWS</td><td>RWS-1350</td><td>Forced</td><td>380</td><td>Fr1.00</td><td>Fr2.00</td><td>Fr3.00</td><td>Fr4.00</td></tr>
+    <tr><td>Jet fire assessment</td><td>Jet fire</td><td>JF-jet</td><td>High velocity</td><td>600</td><td>Jf0.25</td><td>Jf0.50</td><td>Jf1.00</td><td>Jf1.50</td></tr>
+  </tbody>
+</table>

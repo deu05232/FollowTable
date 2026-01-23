@@ -1,0 +1,16 @@
+<table>
+  <caption>SiC Epitaxial Wafer Manufacturing Targets (Including Surface/Defect Inspection Limits)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>76.2 mm</th><th>100 mm</th><th>150 mm</th><th>200 mm</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Epi stack</td><td>Epitaxial thickness (µm)</td><td>8</td><td>10</td><td>12</td><td>15</td><td>Nominal</td></tr>
+    <tr><td>Thickness deviation (%, 1σ)</td><td>±10%</td><td>±10%</td><td>±12%</td><td>±12%</td><td>Within-wafer uniformity</td></tr>
+    <tr><td>Net doping (cm^-3)</td><td>1.0E16</td><td>1.0E16</td><td>8.0E15</td><td>8.0E15</td><td>n-type nominal</td></tr>
+    <tr><td>Doping deviation</td><td>±15%</td><td>±15%</td><td>±20%</td><td>±20%</td><td>Allowed deviation</td></tr>
+    <tr><td rowspan="4">Surface / defects</td><td>Scratches (cumulative length, mm)</td><td>≤60</td><td>≤80</td><td>≤120</td><td>≤160</td><td>Inspection limit</td></tr>
+    <tr><td>Particles > 1 µm (count/wafer)</td><td>≤200</td><td>≤250</td><td>≤350</td><td>≤450</td><td>Post-epi clean</td></tr>
+    <tr><td>Micropipe density (cm^-2)</td><td>≤0.05</td><td>≤0.05</td><td>≤0.05</td><td>≤0.05</td><td>Defect metric</td></tr>
+    <tr><td>Surface roughness Ra (nm)</td><td>≤0.6</td><td>≤0.6</td><td>≤0.6</td><td>≤0.6</td><td>AFM at center</td></tr>
+  </tbody>
+</table>

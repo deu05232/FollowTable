@@ -1,0 +1,14 @@
+<table>
+  <caption>IME Keyboard Layout Mapping for Mongolian Control Characters (Keybindings Reference)</caption>
+  <thead>
+    <tr><th>Input Method</th><th>Platform</th><th>Key Combination</th><th>Inserted Code Point (label)</th><th>Output Format</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SteppeIME</td><td>Windows</td><td>Alt+Shift+V</td><td>FVS1</td><td>U+180B</td><td>Requires Mongolian mode</td></tr>
+    <tr><td>SteppeIME</td><td>Windows</td><td>Alt+Shift+B</td><td>FVS2</td><td>U+180C</td><td>May be blocked in legacy apps</td></tr>
+    <tr><td>GerIME</td><td>macOS</td><td>Option+N</td><td>NIRUGU</td><td>U+180A</td><td>Uses private shortcut set</td></tr>
+    <tr><td>GerIME</td><td>macOS</td><td>Option+S</td><td>Vowel Separator</td><td>U+180E</td><td>Shown as dotted box in some fonts</td></tr>
+    <tr><td>MongolBoard</td><td>Android</td><td>Long-press space</td><td>FVS menu</td><td>U+180B..U+180D</td><td>Pick selector by tap</td></tr>
+    <tr><td>OpenIME</td><td>Linux</td><td>Ctrl+Alt+.</td><td>VS</td><td>U+180E</td><td>Depends on toolkit</td></tr>
+  </tbody>
+</table>

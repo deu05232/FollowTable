@@ -1,0 +1,26 @@
+<table>
+  <caption>Official Vehicle Management Platform — Dispatch and Trip Order Data Dictionary</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Technical Definition (Stored Form)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Trip Order Header</td><td>1</td><td>Trip Order ID</td><td>Character</td><td>an..30</td><td>Primary identifier of a trip/dispatch order; stored as alphanumeric string.</td></tr>
+    <tr><td>2</td><td>Order Number</td><td>Character</td><td>an..30</td><td>Human-readable order number; stored as alphanumeric string; unique within organization.</td></tr>
+    <tr><td>3</td><td>Requesting Organization ID</td><td>Character</td><td>an..30</td><td>Organization initiating the trip; stored as alphanumeric string referencing Organization ID.</td></tr>
+    <tr><td>4</td><td>Applicant User ID</td><td>Character</td><td>an..32</td><td>User who submitted the request; stored as alphanumeric string referencing User ID.</td></tr>
+    <tr><td>5</td><td>Planned Departure Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Planned departure timestamp; stored as 14-digit timestamp string.</td></tr>
+    <tr><td>6</td><td>Planned Return Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Planned return timestamp; stored as 14-digit timestamp string.</td></tr>
+    <tr><td>7</td><td>Trip Purpose Code</td><td>Character</td><td>an..20</td><td>Purpose classification code; stored as alphanumeric code (e.g., MEETING, INSPECTION).</td></tr>
+    <tr><td rowspan="6">Vehicle & Driver Assignment</td><td>8</td><td>Vehicle ID</td><td>Character</td><td>an..30</td><td>Assigned vehicle identifier; stored as alphanumeric string (not the asset numeric ID).</td></tr>
+    <tr><td>9</td><td>Plate Number</td><td>Character</td><td>an..10</td><td>Vehicle license plate; stored as string without spaces; uppercase recommended.</td></tr>
+    <tr><td>10</td><td>Driver ID</td><td>Character</td><td>an..32</td><td>Assigned driver user identifier; stored as alphanumeric string referencing User ID.</td></tr>
+    <tr><td>11</td><td>Odometer Start</td><td>Numeric</td><td>n..10,1</td><td>Odometer at trip start; stored as numeric with 1 decimal place (e.g., 12345.6).</td></tr>
+    <tr><td>12</td><td>Odometer End</td><td>Numeric</td><td>n..10,1</td><td>Odometer at trip end; stored as numeric with 1 decimal place; must be >= Odometer Start.</td></tr>
+    <tr><td>13</td><td>Trip Distance</td><td>Numeric</td><td>n..10,2</td><td>Computed trip distance; stored as numeric with 2 decimals (km).</td></tr>
+    <tr><td rowspan="5">Status & Audit</td><td>14</td><td>Order Status</td><td>Character</td><td>an..2</td><td>Status code; stored as string: '00' draft, '10' submitted, '20' approved, '30' dispatched, '90' closed.</td></tr>
+    <tr><td>15</td><td>Approval Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Timestamp when order was approved; stored as 14-digit timestamp string.</td></tr>
+    <tr><td>16</td><td>Dispatch Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Timestamp when vehicle/driver was dispatched; stored as 14-digit timestamp string.</td></tr>
+    <tr><td>17</td><td>Cancel Reason</td><td>Character</td><td>an..200</td><td>Reason text if cancelled; stored as UTF-8 string up to 200 chars; nullable.</td></tr>
+    <tr><td>18</td><td>Record Version</td><td>Numeric</td><td>n..10</td><td>Optimistic-lock version number; stored as integer, increments per update.</td></tr>
+  </tbody>
+</table>

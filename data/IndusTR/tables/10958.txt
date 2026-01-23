@@ -1,0 +1,19 @@
+<table>
+  <caption>SSR Phase Bias Message Packing Overview (Header + Timing + Block Sizes)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>DF</th><th>Type</th><th>Bits</th><th>Applies To</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Preamble</td><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td><td>All</td><td>Identifies message family</td></tr>
+    <tr><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>All</td><td>Update cadence</td></tr>
+    <tr><td>Multiple Message Indicator</td><td>DF007</td><td>uint1</td><td>1</td><td>All</td><td>Chaining indicator</td></tr>
+    <tr><td rowspan="3">Time Tag</td><td>GPS Epoch Time (TOW)</td><td>DF0T1</td><td>uint20</td><td>20</td><td>GPS/QZSS</td><td>Epoch reference time</td></tr>
+    <tr><td>GLONASS Epoch Time (TOW)</td><td>DF386</td><td>uint17</td><td>17</td><td>GLONASS</td><td>Epoch reference time</td></tr>
+    <tr><td>BeiDou Epoch Time (TOW)</td><td>DF601</td><td>uint20</td><td>20</td><td>BDS</td><td>Epoch reference time</td></tr>
+    <tr><td rowspan="3">Satellite Loop</td><td>Number of Satellites</td><td>DF006</td><td>uint6</td><td>6</td><td>All</td><td>Satellite block count</td></tr>
+    <tr><td>Satellite Number</td><td>DF068/DF252</td><td>uint6</td><td>6</td><td>GPS/Galileo</td><td>Satellite identifier</td></tr>
+    <tr><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td><td>All</td><td>Bias-entry count per satellite</td></tr>
+    <tr><td rowspan="2">Sizing</td><td>Satellite Block Size (bits)</td><td>—</td><td>calc</td><td>—</td><td>All</td><td>Used to estimate message length</td></tr>
+    <tr><td>Signal Block Size (bits)</td><td>—</td><td>calc</td><td>—</td><td>All</td><td>Used to estimate per-signal payload</td></tr>
+  </tbody>
+</table>

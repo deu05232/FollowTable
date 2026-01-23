@@ -1,0 +1,16 @@
+<table>
+  <caption>Telemetry Report Rate and Logging Configuration for User Terminal I/O</caption>
+  <thead>
+    <tr><th>Section</th><th>Serial No.</th><th>Parameter Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Reporting</td><td>1</td><td>Report type</td><td>1~5</td><td>-</td><td>1: power-on; 2: power-off; 3: periodic status; 4: fault; 5: link quality</td></tr>
+    <tr><td>Reporting</td><td>2</td><td>Report interval</td><td>5~43200</td><td>s</td><td>Period for periodic status reports</td></tr>
+    <tr><td>Reporting</td><td>3</td><td>Immediate report on state change</td><td>0~1</td><td>-</td><td>0: disabled; 1: enabled</td></tr>
+    <tr><td>Logging</td><td>4</td><td>I/O log sampling rate</td><td>1~100</td><td>%</td><td>Percentage of messages to log (sampling)</td></tr>
+    <tr><td>Logging</td><td>5</td><td>Max log file size</td><td>1~1024</td><td>MB</td><td>Rotate log when size is reached</td></tr>
+    <tr><td>Logging</td><td>6</td><td>Log retention days</td><td>1~365</td><td>day</td><td>How long to keep logs before deletion</td></tr>
+    <tr><td>Channel</td><td>7</td><td>Upload window start</td><td>0~23</td><td>hour</td><td>Start time for uploading logs/reports</td></tr>
+    <tr><td>Channel</td><td>8</td><td>Upload window duration</td><td>0~24</td><td>hour</td><td>0: always allowed; otherwise duration of allowed uploads</td></tr>
+  </tbody>
+</table>

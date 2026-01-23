@@ -1,0 +1,24 @@
+<table>
+  <caption>Flat Knitting Machine Equipment Main Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0100</td><td>Machine Model</td><td>MachineType</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td></td><td>1</td></tr>
+  <tr><td>0X0101</td><td>Nominal Width</td><td>NominalWidth</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>1</td><td>mm</td><td></td><td>丨</td></tr>
+  <tr><td>0X0102</td><td>Gauge</td><td>Gauge</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td></td><td>Number of needles per 25.4 mm on the needle bed</td><td></td></tr>
+  <tr><td>0X0103</td><td>Number of Needles</td><td>NumberOfNeedles</td><td>M</td><td>VAR</td><td>RO</td><td>Int32</td><td>丨</td><td></td><td>Total number of needles of the machine</td><td></td></tr>
+  <tr><td>0X0104</td><td>Number of Needle Beds</td><td>NumberOfNeedleBeds</td><td>M</td><td>VAR</td><td>RO</td><td>Byte</td><td></td><td>SAC</td><td>Number of needle plates</td><td></td></tr>
+  <tr><td>0X0105</td><td>Controller System Model</td><td>ControlSystemModel</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0106</td><td>System Type</td><td>SystemDevtype</td><td>0</td><td>VAR</td><td>RO</td><td>Byte</td><td></td><td></td><td></td><td>1: single system, 2: dual system, 3: triple system, etc.</td></tr>
+  <tr><td>0X0107</td><td>Hardware Version</td><td>SystemHardwareVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td></td><td>Hardware version number</td><td></td></tr>
+  <tr><td>0X0108</td><td>Control System Manufacturer</td><td>ControlSystemCompany</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0109</td><td>Master Control Version</td><td>MasterControlVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td></td><td>One</td></tr>
+  <tr><td>0X010A</td><td>Servo Version</td><td>ServoVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>Two</td><td>One</td><td></td></tr>
+  <tr><td>0X010B</td><td>HMI Version</td><td>HumanMachineVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X010C</td><td>Power Version</td><td>PowerVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X010D</td><td>Display Version</td><td>DisplayVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td></td><td>One</td></tr>
+  <tr><td>0X010E</td><td>Comb Plate Program Version</td><td>CombProgramVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X010F</td><td>Carriage Program Version</td><td>CarriageProgramVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td>1</td><td></td><td></td></tr>
+  <tr><td>0X0110</td><td>Knitting Control Program Version</td><td>EnhancedKnitControl</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0111</td><td>Autonomous Yarn Guide Version</td><td>AutarkicDirectYarnGuide</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td>丨</td><td>Self-running motor version</td><td></td></tr>
+  <tr><td>0X0112</td><td>No-load Full-Needle Running Speed</td><td>No-loadFullNeedleRunningSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td></td><td>m/s</td><td></td><td></td></tr>
+  <tr><td>0X0113</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td>、</td><td></td><td></td></tr>
+</table>

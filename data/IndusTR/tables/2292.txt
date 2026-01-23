@@ -1,0 +1,14 @@
+<table>
+  <caption>CAN Message Gateway Routing Rules (Charger ECU Network)</caption>
+  <thead>
+    <tr><th>Rule ID</th><th>Ingress Bus</th><th>Egress Bus</th><th>CAN ID Filter</th><th>Action</th><th>Rate Limit (fps)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GW-01</td><td>CAN1 (Vehicle)</td><td>CAN2 (Charger)</td><td>0x18FFxxSA</td><td>Forward</td><td>100</td><td>J1939-style extended IDs</td></tr>
+    <tr><td>GW-02</td><td>CAN1 (Vehicle)</td><td>CAN2 (Charger)</td><td>0x18ECFFxx</td><td>Forward</td><td>20</td><td>Transport Protocol control frames</td></tr>
+    <tr><td>GW-03</td><td>CAN2 (Charger)</td><td>CAN1 (Vehicle)</td><td>0x18EAFFxx</td><td>Forward</td><td>20</td><td>Request/Response frames</td></tr>
+    <tr><td>GW-04</td><td>CAN2 (Charger)</td><td>CAN1 (Vehicle)</td><td>0x18FExxxx</td><td>Drop</td><td>N/A</td><td>Block unrelated diagnostic chatter</td></tr>
+    <tr><td>GW-05</td><td>CAN1 (Vehicle)</td><td>CAN2 (Charger)</td><td>0x0CF0xxxx</td><td>Rewrite SA</td><td>50</td><td>Source Address normalization</td></tr>
+    <tr><td>GW-06</td><td>CAN2 (Charger)</td><td>CAN1 (Vehicle)</td><td>0x18DAF1xx</td><td>Forward</td><td>10</td><td>UDS on CAN pass-through</td></tr>
+  </tbody>
+</table>

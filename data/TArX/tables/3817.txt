@@ -1,0 +1,43 @@
+<table>
+  <caption>Comparison of r TF (from Eq. ( LABEL:rtf ), without semicore d -states in ρ ¯ ) and band gaps of the SC/40 set [ SC40 ] using 5 sX-DFT functionals described in the text, labelled by their exchange-correlation model, screening function, and screening length.</caption>
+  <tr><td></td><td></td><td>LDA _()</td><td>LDA _()</td><td>LDA _()</td><td>PBE</td><td>PBE</td><td>Expt.</td></tr>
+  <tr><td></td><td></td><td>exp</td><td>exp</td><td>erfc</td><td>erfc</td><td>erfc</td><td>band</td></tr>
+  <tr><td></td><td></td><td>r_()</td><td>r_()</td><td>r_()</td><td>r_()</td><td>0.787</td><td>gap</td></tr>
+  <tr><td>Solid</td><td>r_()()</td><td colspan="5">sX-DFT band gap (eV)</td><td>(eV)</td></tr>
+  <tr><td>C</td><td>0.389</td><td>5.19</td><td>4.44</td><td>4.27</td><td>4.37</td><td>5.45</td><td>5.48</td></tr>
+  <tr><td>Si</td><td>0.479</td><td>1.34</td><td>0.74</td><td>0.64</td><td>0.73</td><td>1.08</td><td>1.17</td></tr>
+  <tr><td>Ge</td><td>0.489</td><td>0.06</td><td>0.31</td><td>0.36</td><td>0.47</td><td>0.90</td><td>0.74</td></tr>
+  <tr><td>SiC</td><td>0.430</td><td>2.52</td><td>1.62</td><td>1.47</td><td>1.56</td><td>2.25</td><td>2.42</td></tr>
+  <tr><td>BN</td><td>0.391</td><td>6.01</td><td>4.82</td><td>4.62</td><td>4.77</td><td>6.14</td><td>6.22</td></tr>
+  <tr><td>BP</td><td>0.438</td><td>2.07</td><td>1.41</td><td>1.30</td><td>1.37</td><td>1.88</td><td>2.4</td></tr>
+  <tr><td>BAs</td><td>0.450</td><td>1.88</td><td>1.23</td><td>1.17</td><td>1.26</td><td>1.65</td><td>1.46</td></tr>
+  <tr><td>AlN</td><td>0.430</td><td>5.29</td><td>4.59</td><td>4.31</td><td>4.47</td><td>5.92</td><td>6.13</td></tr>
+  <tr><td>AlP</td><td>0.481</td><td>2.57</td><td>1.78</td><td>1.66</td><td>1.79</td><td>2.22</td><td>2.51</td></tr>
+  <tr><td>AlAs</td><td>0.490</td><td>2.32</td><td>1.58</td><td>1.49</td><td>1.61</td><td>1.98</td><td>2.23</td></tr>
+  <tr><td>AlSb</td><td>0.510</td><td>1.60</td><td>1.15</td><td>1.16</td><td>1.26</td><td>1.50</td><td>1.68</td></tr>
+  <tr><td>GaN</td><td>0.441</td><td>2.39</td><td>1.90</td><td>1.68</td><td>1.83</td><td>3.63</td><td>3.50</td></tr>
+  <tr><td>β -GaN</td><td>0.438</td><td>2.65</td><td>2.12</td><td>1.89</td><td>2.03</td><td>3.32</td><td>3.30</td></tr>
+  <tr><td>GaP</td><td>0.480</td><td>1.93</td><td>1.78</td><td>1.66</td><td>1.82</td><td>2.21</td><td>2.35</td></tr>
+  <tr><td>GaAs</td><td>0.489</td><td>0.56</td><td>0.94</td><td>0.99</td><td>1.14</td><td>1.82</td><td>1.52</td></tr>
+  <tr><td>GaSb</td><td>0.508</td><td>0.00</td><td>0.52</td><td>0.61</td><td>0.71</td><td>1.07</td><td>0.73</td></tr>
+  <tr><td>InN</td><td>0.459</td><td>1.06</td><td>0.13</td><td>0.01</td><td>0.05</td><td>0.95</td><td>0.69</td></tr>
+  <tr><td>InP</td><td>0.498</td><td>1.35</td><td>0.91</td><td>0.83</td><td>1.01</td><td>1.56</td><td>1.42</td></tr>
+  <tr><td>InAs</td><td>0.506</td><td>0.42</td><td>0.11</td><td>0.07</td><td>0.22</td><td>0.73</td><td>0.41</td></tr>
+  <tr><td>InSb</td><td>0.524</td><td>0.23</td><td>0.16</td><td>0.17</td><td>0.28</td><td>0.70</td><td>0.23</td></tr>
+  <tr><td>ZnS</td><td>0.479</td><td>3.82</td><td>2.80</td><td>2.59</td><td>2.84</td><td>3.77</td><td>3.66</td></tr>
+  <tr><td>ZnSe</td><td>0.490</td><td>2.90</td><td>2.05</td><td>1.87</td><td>2.10</td><td>2.91</td><td>2.70</td></tr>
+  <tr><td>ZnTe</td><td>0.508</td><td>2.44</td><td>1.91</td><td>1.83</td><td>2.00</td><td>2.64</td><td>2.38</td></tr>
+  <tr><td>CdS</td><td>0.496</td><td>2.74</td><td>1.67</td><td>1.46</td><td>1.71</td><td>2.46</td><td>2.55</td></tr>
+  <tr><td>CdSe</td><td>0.506</td><td>2.13</td><td>1.21</td><td>1.03</td><td>1.26</td><td>1.92</td><td>1.90</td></tr>
+  <tr><td>CdTe</td><td>0.524</td><td>1.83</td><td>1.24</td><td>1.14</td><td>1.32</td><td>1.84</td><td>1.92</td></tr>
+  <tr><td>MgO</td><td>0.422</td><td>6.74</td><td>5.64</td><td>5.17</td><td>5.40</td><td>7.47</td><td>7.22</td></tr>
+  <tr><td>MgS</td><td>0.488</td><td>4.67</td><td>3.87</td><td>3.63</td><td>3.92</td><td>4.74</td><td>5.4</td></tr>
+  <tr><td>MgSe</td><td>0.478</td><td>2.78</td><td>2.10</td><td>1.95</td><td>2.06</td><td>2.70</td><td>2.47</td></tr>
+  <tr><td>MgTe</td><td>0.521</td><td>3.12</td><td>2.70</td><td>2.62</td><td>2.82</td><td>3.32</td><td>3.6</td></tr>
+  <tr><td>BaS</td><td>0.520</td><td>3.22</td><td>2.41</td><td>2.30</td><td>2.48</td><td>3.00</td><td>3.88</td></tr>
+  <tr><td>BaSe</td><td>0.528</td><td>2.93</td><td>2.16</td><td>2.05</td><td>2.21</td><td>2.66</td><td>3.58</td></tr>
+  <tr><td>BaTe</td><td>0.545</td><td>2.36</td><td>1.68</td><td>1.58</td><td>1.73</td><td>2.04</td><td>3.08</td></tr>
+  <tr><td>ME</td><td></td><td>-0.24</td><td>-0.83</td><td>-0.95</td><td>-0.80</td><td>-0.08</td><td></td></tr>
+  <tr><td>MAE</td><td></td><td>0.38</td><td>0.83</td><td>0.95</td><td>0.80</td><td>0.28</td><td></td></tr>
+  <tr><td>RMSE</td><td></td><td>0.48</td><td>0.94</td><td>1.08</td><td>0.94</td><td>0.38</td><td></td></tr>
+</table>

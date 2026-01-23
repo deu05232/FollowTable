@@ -1,0 +1,10 @@
+<table>
+  <caption>Manufacturing Process Parameters for Base Station Assembly</caption>
+  <tr><th>Process Step</th><th>Equipment</th><th>Parameter</th><th>Target</th><th>Unit</th><th>QC Check</th></tr>
+  <tr><td>PCB Reflow</td><td>Reflow Oven</td><td>Peak Temperature</td><td>245</td><td>°C</td><td>Thermocouple profile</td></tr>
+  <tr><td>Optics Mounting</td><td>Alignment Jig</td><td>Angular Tolerance</td><td>±0.10</td><td>deg</td><td>Optical inspection</td></tr>
+  <tr><td>Laser Calibration</td><td>Cal Station</td><td>Scan Frequency</td><td>60</td><td>Hz</td><td>Frequency counter</td></tr>
+  <tr><td>Enclosure Sealing</td><td>Dispensing Robot</td><td>Adhesive Bead Width</td><td>1.2</td><td>mm</td><td>Weight check</td></tr>
+  <tr><td>Final Test</td><td>ATE</td><td>Pass Threshold</td><td>98.5</td><td>%</td><td>Test report</td></tr>
+  <tr><td>Packing</td><td>Vacuum Sealer</td><td>Residual Pressure</td><td>< 15</td><td>kPa</td><td>Leak test</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>1Gbit s–5Gbit s SpaceFibre Optical Transmitter Electrical-to-Optical Characteristics</caption>
+  <tr><td>Parameter</td><td>Symbol</td><td>Minimum</td><td>Typical</td><td>Maximum</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>Optical output power</td><td>PouT</td><td>-6.5</td><td>-5</td><td>+3</td><td>dBm</td><td>850 nm VCSEL</td></tr>
+  <tr><td>(1 Gbit/s and 1.25 Gbit/s) Extinction ratio</td><td>ER</td><td>7</td><td>10</td><td></td><td>dB</td><td>Exceeds the OMA used for GbE, 1FC</td></tr>
+  <tr><td>(2 Gbit/s, 2.5 Gbit/s and 3.125 Gbit/s) Extinction ratio</td><td>ER</td><td>5</td><td></td><td></td><td>dB</td><td>Exceeds the OMA used for 2FC</td></tr>
+  <tr><td>(5 Gbit/s) Extinction ratio</td><td>ER</td><td>5</td><td></td><td>54</td><td>19dB</td><td>Exceeds the OMA used for 4FC</td></tr>
+  <tr><td>Optical wavelength</td><td>λOUT</td><td>830</td><td>850</td><td>860</td><td>nm</td><td></td></tr>
+  <tr><td>Spectral width, RMS value</td><td>M</td><td></td><td></td><td>0.85</td><td>nm</td><td></td></tr>
+  <tr><td>Relative intensity noise</td><td>RIN</td><td></td><td></td><td>-117</td><td>dB/Hz</td><td>1000BASE-SX standard; see 38.3 in IEEE Std 802.3-2022</td></tr>
+  <tr><td>Transmitter differential input impedance</td><td>Zin</td><td>90</td><td>100</td><td>110</td><td>m</td><td>Internal AC coupling</td></tr>
+  <tr><td>Differential-mode input voltage</td><td>Vin_d</td><td>250</td><td>1</td><td>2200</td><td>mVpp</td><td>CML,100Ω</td></tr>
+  <tr><td>(1 Gbit/s and 1.25Gbit/s) Eye mask template jitter definition</td><td>X1</td><td></td><td></td><td>0.135</td><td>UIpp</td><td>Jpp=2×X1 in the transmitter mask diagram</td></tr>
+  <tr><td>(2 Gbit/s, 2.5 Gbit/s and 3.125 Gbit/s) Eye mask template jitter definition</td><td>X1</td><td></td><td></td><td>0.15</td><td>UIpp</td><td>Jp-p=2×X1 in the transmitter mask diagram</td></tr>
+  <tr><td>(5 Gbit/s) Eye mask template jitter definition</td><td>X1</td><td></td><td></td><td>0.175</td><td>UIpp</td><td>Jpp=2×X1 in the transmitter mask diagram</td></tr>
+</table>

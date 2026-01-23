@@ -1,0 +1,16 @@
+<table>
+  <caption>Invalid Mongolian Control-Character Ordering (ZWNJ/ZWJ/NNBSP/VS) Failure Cases</caption>
+  <thead>
+    <tr><th>Display Form (illustrative)</th><th>Invalid Sequence Example (never valid data)</th><th>Error Pattern</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Leading joiner</td><td>ZWJ + U+1820 (MONGOLIAN LETTER A)</td><td>Control char cannot lead a word</td></tr>
+    <tr><td>Trailing non-joiner</td><td>U+1820 (A) + ZWNJ</td><td>Dangling join control</td></tr>
+    <tr><td>NNBSP inside a letter+VS cluster</td><td>U+1820 (A) + NNBSP + FVS1</td><td>Break inserted between base and selector</td></tr>
+    <tr><td>Joiner between base and FVS</td><td>U+1828 (NA) + ZWNJ + FVS2</td><td>VS must be adjacent to base</td></tr>
+    <tr><td>Two join controls in a row</td><td>U+1820 (A) + ZWJ + ZWNJ + U+1828 (NA)</td><td>Conflicting join instructions</td></tr>
+    <tr><td>Variation selector after digit</td><td>U+0031 (DIGIT ONE) + FVS1</td><td>VS not applicable to ASCII digits</td></tr>
+    <tr><td>Variation selector after format control</td><td>ZWJ + FVS3</td><td>VS cannot modify a control character</td></tr>
+    <tr><td>Selector after NNBSP at word start</td><td>NNBSP + FVS2 + U+1820 (A)</td><td>Selector not following a base letter</td></tr>
+  </tbody>
+</table>

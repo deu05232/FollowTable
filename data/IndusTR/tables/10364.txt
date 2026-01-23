@@ -1,0 +1,17 @@
+<table>
+  <caption>Surveillance Radar Grading Levels — Antenna Rotation/Scanning and Radiation Compliance Limits</caption>
+  <thead>
+    <tr><th rowspan="2">Attribute</th><th colspan="3">Grading level</th><th rowspan="2">Comment</th></tr>
+    <tr><th>Basic</th><th>Standard</th><th>Advanced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mechanical rotation rate (rpm)</td><td>6</td><td>12</td><td>24</td><td>Applies to mechanically scanned antennas</td></tr>
+    <tr><td>Electronic scan sector (deg)</td><td>± 30</td><td>± 45</td><td>± 60</td><td>For AESA/PESA variants</td></tr>
+    <tr><td>Beam steering accuracy (deg)</td><td>≤ 0.40</td><td>≤ 0.25</td><td>≤ 0.15</td><td>Commanded vs. actual pointing</td></tr>
+    <tr><td>EIRP limit (dBW)</td><td>≤ 78</td><td>≤ 82</td><td>≤ 86</td><td>Regulatory / safety compliance envelope</td></tr>
+    <tr><td>Main-beam duty factor (%)</td><td>≤ 12</td><td>≤ 18</td><td>≤ 25</td><td>Time-on-target constraints</td></tr>
+    <tr><td>Far-field pattern ripple (dB)</td><td>≤ 2.0</td><td>≤ 1.5</td><td>≤ 1.0</td><td>Pattern uniformity across scan</td></tr>
+    <tr><td>Cross-polar discrimination (dB)</td><td>≥ 18</td><td>≥ 22</td><td>≥ 26</td><td>Antenna polarization purity</td></tr>
+    <tr><td>Backlobe level (dB)</td><td>≤ -25</td><td>≤ -30</td><td>≤ -35</td><td>Radiation to rear hemisphere</td></tr>
+  </tbody>
+</table>

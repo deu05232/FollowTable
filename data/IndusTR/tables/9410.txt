@@ -1,0 +1,16 @@
+<table>
+  <caption>CSDM Service Specification Template (Section Overview with Writing Guidance)</caption>
+  <thead>
+    <tr><th>Template Block</th><th>Include?</th><th>What to Write</th><th>Minimum Content</th><th>Common Mistakes</th><th>Example Snippet</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Service Summary</td><td>Yes</td><td>One-paragraph description for business readers</td><td>Purpose, consumer, outcome</td><td>Too technical; missing outcome</td><td>"Provides eligibility verification for ..."</td></tr>
+    <tr><td>Scope</td><td>Yes</td><td>Define what is in/out of scope</td><td>Inclusions, exclusions</td><td>Using vague terms like "etc."</td><td>"Out of scope: identity proofing"</td></tr>
+    <tr><td>Assumptions</td><td>Optional</td><td>List assumptions that impact implementation</td><td>At least 1 assumption if any</td><td>Mixing assumptions with requirements</td><td>"Assumes upstream ID is validated"</td></tr>
+    <tr><td>Interface Overview</td><td>Yes</td><td>Describe interfaces at a high level</td><td>Protocol, endpoints list</td><td>Listing full schemas here</td><td>"REST over HTTPS"</td></tr>
+    <tr><td>Data Mapping Notes</td><td>Recommended</td><td>Explain mapping decisions to catalog</td><td>References to catalog items</td><td>Not citing catalog IDs</td><td>"Maps to Offering: OFF-102"</td></tr>
+    <tr><td>Security Considerations</td><td>Yes</td><td>Write security expectations</td><td>AuthN/AuthZ, logging</td><td>Copy/paste policy text only</td><td>"OAuth2 client credentials"</td></tr>
+    <tr><td>Operational Notes</td><td>Optional</td><td>Include runbook pointers</td><td>On-call, escalation path</td><td>Missing contacts</td><td>"Escalate to NOC Tier 2"</td></tr>
+    <tr><td>Appendix: Examples</td><td>Optional</td><td>Add sample requests/responses</td><td>At least one example if available</td><td>Examples not aligned to latest endpoints</td><td>"GET /v1/status"</td></tr>
+  </tbody>
+</table>

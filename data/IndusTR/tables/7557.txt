@@ -1,0 +1,15 @@
+<table>
+  <caption>SM9 Signature Service Interface Definitions (Signing and Verification APIs)</caption>
+  <thead>
+    <tr><th>Function</th><th>Prototype</th><th>Inputs</th><th>Outputs</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SAF_SM9SignInit</td><td>int SAF_SM9SignInit(void *hAppHandle, const char *pucContainerName, unsigned int uiContainerLen, unsigned int uiMasterPublicKeyIndex, const unsigned char *pucUserID, unsigned int uiUserIDLen, void **phSignCtx);</td><td>container, master public key index, user ID</td><td>sign context handle</td></tr>
+    <tr><td>SAF_SM9SignUpdate</td><td>int SAF_SM9SignUpdate(void *hAppHandle, void *hSignCtx, const unsigned char *pucData, unsigned int uiDataLen);</td><td>data chunk</td><td>none</td></tr>
+    <tr><td>SAF_SM9SignFinal</td><td>int SAF_SM9SignFinal(void *hAppHandle, void *hSignCtx, unsigned char *pucSignData, unsigned int *puiSignDataLen);</td><td>sign context</td><td>signature blob</td></tr>
+    <tr><td>SAF_SM9VerifyInit</td><td>int SAF_SM9VerifyInit(void *hAppHandle, unsigned int uiMasterPublicKeyIndex, const unsigned char *pucUserID, unsigned int uiUserIDLen, void **phVerifyCtx);</td><td>master public key index, user ID</td><td>verify context handle</td></tr>
+    <tr><td>SAF_SM9VerifyUpdate</td><td>int SAF_SM9VerifyUpdate(void *hAppHandle, void *hVerifyCtx, const unsigned char *pucData, unsigned int uiDataLen);</td><td>data chunk</td><td>none</td></tr>
+    <tr><td>SAF_SM9VerifyFinal</td><td>int SAF_SM9VerifyFinal(void *hAppHandle, void *hVerifyCtx, const unsigned char *pucSignData, unsigned int uiSignDataLen);</td><td>signature blob</td><td>verification result code</td></tr>
+    <tr><td>SAF_SM9FreeSignVerifyCtx</td><td>int SAF_SM9FreeSignVerifyCtx(void *hAppHandle, void *hCtx);</td><td>ctx handle</td><td>none</td></tr>
+  </tbody>
+</table>

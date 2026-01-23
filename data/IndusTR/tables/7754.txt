@@ -1,0 +1,16 @@
+<table>
+  <caption>Battery Swap Interface - Status/Result Code Dictionary (Non-field Oriented)</caption>
+  <thead>
+    <tr><th>Message Type</th><th>Code Field</th><th>Code Value</th><th>Meaning</th><th>Recommended Action</th><th>Retry Allowed</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>OrderCreateResponse</td><td>succStat</td><td>0</td><td>Success</td><td>Proceed to start swap</td><td>No</td></tr>
+    <tr><td>OrderCreateResponse</td><td>succStat</td><td>1</td><td>Failure</td><td>Check failReasonMsg</td><td>Yes</td></tr>
+    <tr><td>OrderCreateResponse</td><td>failReasonCode</td><td>1</td><td>Order number does not exist</td><td>Re-submit with valid swapOrderNo</td><td>Yes</td></tr>
+    <tr><td>OrderCreateResponse</td><td>failReasonCode</td><td>2</td><td>Equipment offline</td><td>Switch station/equipment</td><td>Yes</td></tr>
+    <tr><td>AuthResponse</td><td>SuccStat</td><td>0</td><td>Authentication successful</td><td>Allow vehicle to start</td><td>No</td></tr>
+    <tr><td>AuthResponse</td><td>SuccStat</td><td>1</td><td>Authentication failed</td><td>Deny start, show failure message</td><td>No</td></tr>
+    <tr><td>GenericResponse</td><td>status</td><td>0</td><td>Registration successful</td><td>null</td><td>No</td></tr>
+    <tr><td>GenericResponse</td><td>status</td><td>1</td><td>Registration failed</td><td>Contact operator</td><td>No</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,21 @@
+<table>
+  <caption>Instant Messaging Service API – SubscribePresence Response Parameters</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Type / Format</th><th>M/O</th><th>Max Occurs</th><th>Allowed Values / Range</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>returnResult</td><td>String (C..64)</td><td>M</td><td>1</td><td>OK | ERROR</td><td>Overall result of the API call.</td></tr>
+    <tr><td>resultDescription</td><td>String (C..2000)</td><td>O</td><td>1</td><td>Free text</td><td>Human-readable details (present especially on errors).</td></tr>
+    <tr><td>subscriptionID</td><td>String (C..64)</td><td>M</td><td>1</td><td>Non-empty</td><td>Identifier for the created/updated presence subscription.</td></tr>
+    <tr><td>interfaceOperation</td><td>String (C..64)</td><td>M</td><td>1</td><td>SUBSCRIBE_PRESENCE</td><td>Echoes the operation executed.</td></tr>
+    <tr><td>effectiveFrom</td><td>DateTime (ISO-8601)</td><td>O</td><td>1</td><td>ISO-8601 timestamp</td><td>Subscription effective start time.</td></tr>
+    <tr><td>expiresAt</td><td>DateTime (ISO-8601)</td><td>O</td><td>1</td><td>ISO-8601 timestamp</td><td>Subscription expiration time, if applicable.</td></tr>
+    <tr><td>status</td><td>String (C..16)</td><td>M</td><td>1</td><td>ACTIVE | PENDING | FAILED</td><td>Current state of the subscription.</td></tr>
+    <tr><td>presenceSnapshot</td><td>Object</td><td>O</td><td>1</td><td>JSON object</td><td>Optional initial snapshot of the target's presence.</td></tr>
+    <tr><td>presenceSnapshot.availability</td><td>String (C..16)</td><td>O</td><td>1</td><td>ONLINE | OFFLINE | AWAY | DND</td><td>Availability state at subscription creation time.</td></tr>
+    <tr><td>presenceSnapshot.lastSeen</td><td>DateTime (ISO-8601)</td><td>O</td><td>1</td><td>ISO-8601 timestamp</td><td>Last-seen time if reported by the service.</td></tr>
+    <tr><td>error</td><td>Object</td><td>O</td><td>1</td><td>JSON object</td><td>Only present when returnResult=ERROR.</td></tr>
+    <tr><td>error.code</td><td>String (C..32)</td><td>O</td><td>1</td><td>E_* codes</td><td>Machine-readable error code.</td></tr>
+    <tr><td>error.message</td><td>String (C..512)</td><td>O</td><td>1</td><td>Free text</td><td>Short error message for diagnostics.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Multicast group configuration entries in the user terminal application file</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Multicast ID2</td><td>6</td><td>Multicast group identifier.</td></tr>
+  <tr><td>KeyID corresponding to Multicast ID2</td><td>1</td><td>Sub-key identifier used with Multicast ID2.</td></tr>
+  <tr><td>Status of Multicast ID2</td><td>1</td><td>00: in use; 01: reclaimed and cannot be used.</td></tr>
+</table>

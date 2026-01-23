@@ -1,0 +1,18 @@
+<table>
+  <caption>SpaceFibre Control Words with Associated K/D Symbol Code Reference</caption>
+  <thead>
+    <tr><th>Control Word Name</th><th>Symbol Sequence (ordered)</th><th>Primary Use</th><th>Referenced K/D Codes (catalog)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ACTIVE</td><td>Comma, ACTIVE, ACT_LS, ACT_MSK, K28.7, D0.1, D0.0–D31.7, D0.0–D31.7</td><td>Unidirectional channel initialization and channel-active bitmap advertisement</td><td>K28.7=Comma; D0.1=ACTIVE; D14.6=LLCW (see below)</td></tr>
+    <tr><td>ALIGN</td><td>Comma, ALIGN, LANES, iLANES, K28.7, D23.3, D0.0–D31.7, D0.0–D31.7</td><td>Multi-channel alignment and channel-number integrity check using inverted field</td><td>K28.7=Comma; D23.3=ALIGN marker</td></tr>
+    <tr><td>SKIP</td><td>Comma, LLCW, SKIP, SKIP_ID, K28.7, D14.6, D31.3, D31.3</td><td>Elastic buffer rate matching (periodic skip insertion)</td><td>D14.6=LLCW; D31.3=SKIP payload</td></tr>
+    <tr><td>IDLE</td><td>Comma, LLCW, IDLE, IDLE_ID, K28.7, D14.6, D15.6, D15.6</td><td>Link maintenance when no higher-layer word is available</td><td>D14.6=LLCW; D15.6=IDLE payload</td></tr>
+    <tr><td>ACK</td><td>Comma, ACK, SEQ_NUM, CRC, K28.7, D2.5, D0.0–D31.7, D0.0–D31.7</td><td>Frame acknowledgment with sequence number and CRC protection</td><td>D2.5=ACK; CRC carried in D-code bytes</td></tr>
+    <tr><td>NACK</td><td>Comma, NACK, SEQ_NUM, CRC, K28.7, D27.5, D0.0–D31.7, D0.0–D31.7</td><td>Negative acknowledgment for error recovery / retransmission signaling</td><td>D27.5=NACK</td></tr>
+    <tr><td>RXERR</td><td>Error, Reserved, Reserved, Reserved, K0.0, D0.0, D0.0, D0.0</td><td>Replace erroneous received words during decoding / not-ready state</td><td>K0.0=RxError indication</td></tr>
+  </tbody>
+  <tfoot>
+    <tr><td colspan="4">Standalone K/D reference (extra):K0.0=RxError; K28.0=EDF; K28.1=Unused; D4.2=SIF</td></tr>
+  </tfoot>
+</table>

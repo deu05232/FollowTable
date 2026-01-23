@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal I/O Statement Frame Layout (Bit/Byte Mapping)</caption>
+  <thead>
+    <tr><th>Layer</th><th>Field</th><th>Offset (Byte)</th><th>Length (Byte)</th><th>Bit Range</th><th>Encoding</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Preamble</td><td>0</td><td>2</td><td>0..15</td><td>0x55AA</td><td>Fixed frame marker</td></tr>
+    <tr><td>Header</td><td>Message Type</td><td>2</td><td>1</td><td>0..7</td><td>Enum</td><td>TX/RX/Management</td></tr>
+    <tr><td>Body</td><td>Sender ID</td><td>3</td><td>6</td><td>0..47</td><td>Unsigned integer</td><td>Intranet or extranet sender address</td></tr>
+    <tr><td>Body</td><td>Recipient ID</td><td>9</td><td>3</td><td>0..23</td><td>Unsigned integer</td><td>Intranet recipient address</td></tr>
+    <tr><td>Body</td><td>Service / Emergency Flag</td><td>12</td><td>1</td><td>0..7</td><td>Enum</td><td>Emergency vs report type</td></tr>
+    <tr><td>Body</td><td>Frequency Point</td><td>13</td><td>1</td><td>0..7</td><td>Enum</td><td>Auto/LF1/LF2</td></tr>
+    <tr><td>Body</td><td>UTC Time</td><td>14</td><td>4</td><td>0..31</td><td>BCD</td><td>hhmmss.ss packed</td></tr>
+    <tr><td>Trailer</td><td>CRC16</td><td>18</td><td>2</td><td>0..15</td><td>CRC-16</td><td>Checksum of header+body</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Remote Control Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.8</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Remote Control</td></tr>
+  <tr><td>Test Objective</td><td>Verify the logistics terminal remote control function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can be logged in normally; 2. Normal connection to the server; 3. UI buttons and input boxes can be used normally; 4. Logistics terminals that have an ordering/subscription relationship established with the platform can work normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Log in to the logistics platform as the platform administrator and enter the Logistics Terminal Management screen; 2. Click Terminal Remote Control, select a terminal, and issue commands such as terminal reboot, force terminal logout, force terminal disconnect, restore factory settings, device/SIM lock, and device/SIM unlock; 3. Log in to the logistics platform as the customer administrator and enter the Logistics Terminal Management screen; 4. Click Terminal Remote Control, select a terminal, and issue commands such as terminal reboot, force terminal logout, force terminal disconnect, restore factory settings, device/SIM lock, and device/SIM unlock; 5. After executing each command, view the status monitoring information of the terminal</td></tr>
+  <tr><td>Pass Criteria</td><td>1. When logged in as the platform administrator, a series of remote control operations on terminals can be performed; 2. When logged in as the customer administrator, a series of remote control operations on terminals can be performed</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

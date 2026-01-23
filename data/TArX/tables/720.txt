@@ -1,0 +1,19 @@
+<table>
+  <caption>Root-mean-square errors ( σ RMSE ) for (a) the [ 3 - 5 - 5 - 5 - 5 - 1 | 116 ] ANN model of the present work, and (b) the SVM model constructed by Li et al. [ 25 ] . Here n is the number of nuclides in each of the data (sub)sets.</caption>
+  <tr><td colspan="7">(a) ANN Model.</td></tr>
+  <tr><td></td><td colspan="2">Learning Set</td><td colspan="2">Validation Set</td><td colspan="2">Test Set</td></tr>
+  <tr><td>Class</td><td>n</td><td>σ_(RMSE)</td><td>n</td><td>σ_(RMSE)</td><td>n</td><td>σ_(RMSE)</td></tr>
+  <tr><td>EE</td><td>95</td><td>0.52</td><td>33</td><td>0.52</td><td>35</td><td>0.64</td></tr>
+  <tr><td>EO</td><td>121</td><td>0.55</td><td>46</td><td>0.77</td><td>47</td><td>0.57</td></tr>
+  <tr><td>OE</td><td>141</td><td>0.46</td><td>42</td><td>0.53</td><td>40</td><td>0.66</td></tr>
+  <tr><td>OO</td><td>146</td><td>0.56</td><td>46</td><td>0.52</td><td>46</td><td>0.71</td></tr>
+  <tr><td>Total</td><td>503</td><td>0.53</td><td>167</td><td>0.58</td><td>168</td><td>0.65</td></tr>
+  <tr><td colspan="7">(b) SVMs Calculation. Li et al. [ 25 ] .</td></tr>
+  <tr><td></td><td colspan="2">Learning Set</td><td colspan="2">Validation Set</td><td colspan="2">Test Set</td></tr>
+  <tr><td>Class</td><td>n</td><td>σ_(RMSE)</td><td>n</td><td>σ_(RMSE)</td><td>n</td><td>σ_(RMSE)</td></tr>
+  <tr><td>EE</td><td>131</td><td>0.55</td><td>16</td><td>0.57</td><td>16</td><td>0.62</td></tr>
+  <tr><td>EO</td><td>179</td><td>0.41</td><td>22</td><td>0.42</td><td>22</td><td>0.51</td></tr>
+  <tr><td>OE</td><td>172</td><td>0.41</td><td>21</td><td>0.47</td><td>21</td><td>0.47</td></tr>
+  <tr><td>OO</td><td>190</td><td>0.52</td><td>24</td><td>0.4</td><td>24</td><td>0.52</td></tr>
+  <tr><td>Total</td><td>672</td><td>0.47</td><td>83</td><td>0.46</td><td>83</td><td>0.53</td></tr>
+</table>

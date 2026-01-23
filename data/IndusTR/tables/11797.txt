@@ -1,0 +1,16 @@
+<table>
+  <caption>AIS-Compatible Class B MA Equipment — General Radio Interface Parameters (No Per-Field Message Layout)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Value</th><th>Unit</th><th>Encoding/Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Physical Layer</td><td>Channel Spacing</td><td>25</td><td>kHz</td><td>VHF maritime channels</td></tr>
+    <tr><td>Symbol Rate</td><td>9 600</td><td>sym/s</td><td>GMSK modulation</td></tr>
+    <tr><td>TX Power</td><td>2</td><td>W</td><td>Nominal output</td></tr>
+    <tr><td rowspan="2">Framing</td><td>Preamble Length</td><td>24</td><td>bit</td><td>Training sequence before payload</td></tr>
+    <tr><td>Sync Word</td><td>16</td><td>bit</td><td>Receiver acquisition pattern</td></tr>
+    <tr><td rowspan="2">Timing</td><td>Slot Duration</td><td>26.67</td><td>ms</td><td>TDMA slot timing reference</td></tr>
+    <tr><td>Guard Time</td><td>0.3</td><td>ms</td><td>Between bursts</td></tr>
+    <tr><td>Identification</td><td>Equipment Class</td><td>B</td><td>-</td><td>Operational class indicator</td></tr>
+  </tbody>
+</table>

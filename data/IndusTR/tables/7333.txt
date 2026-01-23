@@ -1,0 +1,16 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Multi-frame Acquisition Timing and Exposure Behavior</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Number of Frames</td><td>(0028,0008)</td><td>IS</td><td>1</td><td>1</td><td>Number of frames in the multi-frame image.</td></tr>
+    <tr><td>Frame Increment Pointer</td><td>(0028,0009)</td><td>AT</td><td>1</td><td>1</td><td>Attribute(s) specifying the logical frame ordering method.</td></tr>
+    <tr><td>Frame Time</td><td>(0018,1063)</td><td>DS</td><td>1</td><td>1</td><td>Time interval between frames, in milliseconds.</td></tr>
+    <tr><td>Acquisition Duration</td><td>(0018,9073)</td><td>FD</td><td>1</td><td>3</td><td>Total time required to complete acquisition, in milliseconds.</td></tr>
+    <tr><td>Exposure Mode</td><td>(0018,115A)</td><td>CS</td><td>1</td><td>1</td><td>Continuous or pulsed exposure behavior during acquisition.</td></tr>
+    <tr><td>Exposure Time</td><td>(0018,1150)</td><td>IS</td><td>1</td><td>2</td><td>Duration of exposure in milliseconds.</td></tr>
+    <tr><td>Exposure</td><td>(0018,1152)</td><td>IS</td><td>1</td><td>3</td><td>Exposure value used for acquisition (device-reported).</td></tr>
+    <tr><td>Detector Pixel Binning</td><td>(0018,701A)</td><td>DS</td><td>2</td><td>1</td><td>Number of detector elements used to generate one image pixel.</td></tr>
+  </tbody>
+</table>

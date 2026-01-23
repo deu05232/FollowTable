@@ -1,0 +1,11 @@
+<table>
+  <caption>Parameter List for Dense Tensor Creation Function with Uniformly Distributed Random Numbers</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Includes signed integers, unsigned integers, floating-point real numbers, floating-point complex numbers, booleans, etc.; defaults to floating-point real numbers</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Includes CPU, GPU, NPU, FPGA, ASIC, etc.; defaults to CPU</td></tr>
+  <tr><td>Tensor Shape</td><td>Input</td><td>Required</td><td>Includes tensor dimensions, an array of dimension sizes, and layout information; if layout information is not specified, the default layout is used</td></tr>
+  <tr><td>Minimum Value</td><td>Input</td><td>Optional</td><td>The minimum value of the uniform distribution used to generate random numbers; must be compatible with the data type corresponding to the parameter "Data Type"; defaults to the minimum value representable by the parameter type</td></tr>
+  <tr><td>Maximum Value</td><td>Input</td><td>Optional</td><td>The maximum value of the uniform distribution used to generate random numbers; must be compatible with the data type corresponding to the parameter "Data Type"; defaults to the maximum value representable by the parameter type</td></tr>
+  <tr><td>Random Seed</td><td>Input</td><td>Optional</td><td>The seed for generating random numbers. If the random seed is 0, it indicates using the system random seed; otherwise, the specified random seed is used to generate random numbers; defaults to the system seed</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>The newly created tensor</td></tr>
+</table>

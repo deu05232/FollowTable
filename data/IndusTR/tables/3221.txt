@@ -1,0 +1,15 @@
+<table>
+  <caption>Specification sheet for infrared detector and front-end electronics used in GEO weather imagers</caption>
+  <thead>
+    <tr><th>Component</th><th>Parameter</th><th>Typical Value</th><th>Unit</th><th>Test Condition</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>IR detector</td><td>Spectral band</td><td>10.3–11.3</td><td>µm</td><td>Nominal filter</td><td>LWIR window</td></tr>
+    <tr><td>IR detector</td><td>NETD</td><td>0.12</td><td>K</td><td>300 K blackbody</td><td>1σ</td></tr>
+    <tr><td>Readout ASIC</td><td>Full well capacity</td><td>2.0e6</td><td>e-</td><td>Room temp</td><td>High dynamic range</td></tr>
+    <tr><td>ADC</td><td>Resolution</td><td>14</td><td>bit</td><td>—</td><td>Pipeline ADC</td></tr>
+    <tr><td>Optics</td><td>F-number</td><td>2.8</td><td>—</td><td>On-axis</td><td>Telecentric</td></tr>
+    <tr><td>Thermal control</td><td>Detector temperature</td><td>77</td><td>K</td><td>Cryocooler</td><td>Set point</td></tr>
+    <tr><td>System</td><td>Frame rate</td><td>1</td><td>min</td><td>Full disk scan</td><td>Operational mode</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Vehicle Repair Work Order and Settlement Transaction Log</caption>
+  <tr><th>Section</th><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  <tr><td>Work Order Header</td><td>1</td><td>Repair Work Order ID</td><td>Character</td><td>an..30</td><td>Unique identifier for a single repair/maintenance request</td></tr>
+  <tr><td>Work Order Header</td><td>2</td><td>Request Source Document ID</td><td>Character</td><td>an..30</td><td>Link to a dispatch/use record that triggered the repair (if any)</td></tr>
+  <tr><td>Vehicle & Reporter</td><td>3</td><td>Vehicle Plate No.</td><td>Character</td><td>an..15</td><td>Vehicle sent for repair</td></tr>
+  <tr><td>Vehicle & Reporter</td><td>4</td><td>Reporting Unit Name</td><td>Character</td><td>an..60</td><td>Unit that reported the fault</td></tr>
+  <tr><td>Vehicle & Reporter</td><td>5</td><td>Reporter Name</td><td>Character</td><td>an..50</td><td>Person who created the work order</td></tr>
+  <tr><td>Repair Lifecycle</td><td>6</td><td>Fault Report Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when the fault was reported</td></tr>
+  <tr><td>Repair Lifecycle</td><td>7</td><td>Repair Delivery Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when the vehicle was delivered to the workshop</td></tr>
+  <tr><td>Repair Lifecycle</td><td>8</td><td>Workshop Name</td><td>Character</td><td>an..80</td><td>Repair service provider</td></tr>
+  <tr><td>Repair Lifecycle</td><td>9</td><td>Work Order Status</td><td>Character</td><td>an..20</td><td>Opened / In Repair / Awaiting Parts / Completed / Closed</td></tr>
+  <tr><td>Repair Lifecycle</td><td>10</td><td>Completion Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when repair was completed</td></tr>
+  <tr><td>Cost & Settlement</td><td>11</td><td>Estimated Cost Amount</td><td>Numeric</td><td>n..12,2</td><td>Planned cost before settlement</td></tr>
+  <tr><td>Cost & Settlement</td><td>12</td><td>Settlement Amount</td><td>Numeric</td><td>n..12,2</td><td>Final payable amount after repair completion</td></tr>
+  <tr><td>Cost & Settlement</td><td>13</td><td>Settlement Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Time when payment/settlement was recorded</td></tr>
+  <tr><td>Cost & Settlement</td><td>14</td><td>Handled By Unit</td><td>Character</td><td>an..60</td><td>Management unit responsible for auditing/handling the repair order</td></tr>
+</table>

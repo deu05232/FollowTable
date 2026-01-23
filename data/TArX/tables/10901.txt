@@ -1,0 +1,12 @@
+<table>
+  <caption>Earth–Moon: Basic Properties plus Transit Light-Curve/Modeling Parameters</caption>
+  <tr><th rowspan="2">Item</th><th colspan="3">Basic body/orbit values</th><th colspan="4">Light-curve / modeling parameters (forbidden focus)</th></tr>
+  <tr><th>Value</th><th>Unit</th><th>Applies to</th><th>Assumed noise (ppm)</th><th>Cadence (min)</th><th>TTV amplitude (s)</th><th>Fit parameter μ</th></tr>
+  <tr><td>Earth mean radius</td><td>6371</td><td>km</td><td>Earth</td><td>30</td><td>30</td><td>—</td><td>—</td></tr>
+  <tr><td>Moon mean radius</td><td>1737.4</td><td>km</td><td>Moon</td><td>30</td><td>30</td><td>—</td><td>—</td></tr>
+  <tr><td>Earth–Moon distance (semi-major axis)</td><td>384400</td><td>km</td><td>Moon orbit</td><td>50</td><td>30</td><td>912</td><td>0.020</td></tr>
+  <tr><td>Orbital period (sidereal)</td><td>27.3217</td><td>days</td><td>Moon orbit</td><td>50</td><td>15</td><td>880</td><td>0.018</td></tr>
+  <tr><td>Orbital eccentricity</td><td>0.0549</td><td>—</td><td>Moon orbit</td><td>100</td><td>15</td><td>940</td><td>0.021</td></tr>
+  <tr><td>Transit velocity proxy v</td><td>29.8</td><td>km/s</td><td>Earth around Sun (proxy)</td><td>100</td><td>30</td><td>912</td><td>0.020</td></tr>
+  <tr><td>Scaled separation 1/(3a_H)</td><td>499.6</td><td>10^3 km</td><td>Model parameter</td><td>30</td><td>30</td><td>912</td><td>0.020</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Swap Interface — Status Enumerations for Key Fields (No Dedicated Type Column)</caption>
+  <thead>
+    <tr><th>Field</th><th>Allowed Value</th><th>Label</th><th>When Used</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>succStat</td><td>0</td><td>Success</td><td>Response</td><td>Operation completed</td></tr>
+    <tr><td>succStat</td><td>1</td><td>Failure</td><td>Response</td><td>Operation failed; see failReasonMsg</td></tr>
+    <tr><td>authResult</td><td>0</td><td>Authenticated</td><td>Vehicle authentication response</td><td>Vehicle allowed to start swap</td></tr>
+    <tr><td>authResult</td><td>1</td><td>Rejected</td><td>Vehicle authentication response</td><td>Do not start swap</td></tr>
+    <tr><td>queueStatus</td><td>0</td><td>Not in queue</td><td>Queue query response</td><td>No reservation found</td></tr>
+    <tr><td>queueStatus</td><td>1</td><td>Queued</td><td>Queue query response</td><td>positionNo is meaningful</td></tr>
+    <tr><td>queueStatus</td><td>2</td><td>Completed</td><td>Queue query response</td><td>Swap already finished</td></tr>
+  </tbody>
+</table>

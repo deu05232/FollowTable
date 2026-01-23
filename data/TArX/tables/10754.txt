@@ -1,0 +1,15 @@
+<table>
+  <caption>Distance estimates to the Andromeda Galaxy (M31) from multiple standard-candle methods</caption>
+  <thead>
+    <tr><th>Method</th><th>Tracer / Sample</th><th>Key calibrated quantity</th><th>Distance modulus (m−M)0(mag)</th><th>Distance (kpc)</th><th>Stat. uncertainty (kpc)</th><th>Syst. uncertainty (kpc)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cepheids (PL)</td><td>Classical Cepheids</td><td>Period–luminosity zero-point</td><td>24.44</td><td>772</td><td>18</td><td>35</td><td>Metallicity and crowding dominate systematics</td></tr>
+    <tr><td>TRGB</td><td>Halo RGB stars</td><td>I-band TRGB absolute magnitude</td><td>24.46</td><td>780</td><td>12</td><td>20</td><td>Low internal extinction in halo fields</td></tr>
+    <tr><td>RR Lyrae</td><td>RRab variables</td><td>MV–[Fe/H] relation</td><td>24.40</td><td>760</td><td>15</td><td>25</td><td>Sensitive to reddening and metallicity scale</td></tr>
+    <tr><td>Red clump</td><td>Core-He burning stars</td><td>Red clump absolute magnitude</td><td>24.42</td><td>768</td><td>20</td><td>30</td><td>Population effects contribute to systematics</td></tr>
+    <tr><td>Planetary nebula luminosity function (PNLF)</td><td>PNe in disk</td><td>Bright-end cutoff M*</td><td>24.47</td><td>784</td><td>25</td><td>30</td><td>Potential contamination/crowding in inner fields</td></tr>
+    <tr><td>Eclipsing binaries (EBs)</td><td>Detached EBs</td><td>Geometric radius + temperature scale</td><td>24.36</td><td>747</td><td>22</td><td>25</td><td>Limited sample size but small method bias</td></tr>
+    <tr><td>Surface brightness fluctuations (SBF)</td><td>Bulge/inner halo</td><td>SBF calibration</td><td>24.45</td><td>776</td><td>30</td><td>35</td><td>Requires careful population matching</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Return Values for the Method to Obtain Grain Condition Collection Plan Data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short Name</td><td>Data Type</td><td>Data Format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>No. (Ao-jian/Oil Tank)</td><td>bh</td><td>Character</td><td>a.3</td><td></td></tr>
+  <tr><td>2</td><td>Acquisition Type</td><td>cjlx</td><td>Character</td><td>a.30</td><td>For example: temperature, humidity, temperature & humidity, liquid level</td></tr>
+  <tr><td>3</td><td>Planned Collection Time</td><td>Jhcjsj</td><td>DateTime</td><td>YYYYMMDDHHMMSS</td><td></td></tr>
+</table>

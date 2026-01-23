@@ -1,0 +1,10 @@
+<table>
+  <caption>Multicast/Broadcast Group Records in the Terminal Application File (mixed security metadata)</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Multicast ID</td><td>6</td><td>Group address for multicast service</td></tr>
+  <tr><td>Broadcast ID</td><td>6</td><td>Group address for broadcast service</td></tr>
+  <tr><td>KeyID for group protection</td><td>1</td><td>Identifier of the sub-key used for group message protection</td></tr>
+  <tr><td>IV index</td><td>6</td><td>Index number referencing the initialization vector used by the group</td></tr>
+  <tr><td>Initialization vector</td><td>16</td><td>IV value used by the group encryption mode</td></tr>
+  <tr><td>Group record status</td><td>1</td><td>00: in use; 01: reclaimed; 02: pending update</td></tr>
+</table>

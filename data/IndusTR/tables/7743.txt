@@ -1,0 +1,15 @@
+<table>
+  <caption>Intrusion Detector Performance Metrics by Sensing Modality</caption>
+  <thead>
+    <tr><th>Sensing modality</th><th>Typical detection range</th><th>Range/position accuracy</th><th>Azimuth accuracy</th><th>Speed detection threshold</th><th>Notes on sensitivity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ground surveillance radar (X-band)</td><td>0.2–12 km (person), 0.5–20 km (vehicle)</td><td>Range: ≤10 m; Position (CEP): ≤15 m</td><td>≤1.0°</td><td>Detects radial speed ≥0.2 m/s</td><td>Performance depends on clutter; higher sensitivity increases false alarms in foliage</td></tr>
+    <tr><td>Ground surveillance radar (K-band)</td><td>0.1–6 km (person), 0.2–10 km (vehicle)</td><td>Range: ≤3 m; Position (CEP): ≤6 m</td><td>≤0.8°</td><td>Detects radial speed ≥0.1 m/s</td><td>Better ranging precision; more atmospheric attenuation in heavy rain</td></tr>
+    <tr><td>Fence-mounted vibration sensor (piezo cable)</td><td>Per zone length: 50–200 m</td><td>Localization along fence: ±2–5 m</td><td>Not applicable</td><td>Equivalent crossing speed: 0.1–3 m/s</td><td>Alarm threshold: 0.2–1.5 g (band-limited)</td></tr>
+    <tr><td>Buried seismic sensor line</td><td>Per lane width: 3–8 m; lane length: 50–150 m</td><td>Localization: ±1–3 m (within lane)</td><td>Not applicable</td><td>Walking speed threshold: ≥0.1 m/s</td><td>Vibration velocity sensitivity: 0.5–5 mm/s (RMS)</td></tr>
+    <tr><td>Passive infrared (PIR)</td><td>8–18 m (indoor), 10–25 m (outdoor rated)</td><td>Zone-based; position not continuous (segment width ~1–3 m at 10 m)</td><td>Not applicable</td><td>Motion threshold: 0.2–1.5 m/s (across zones)</td><td>Thermal contrast sensitivity typically 2–4 °C at specified range</td></tr>
+    <tr><td>Thermal camera analytics</td><td>Detect: 200–800 m (person); 500–2000 m (vehicle)</td><td>Angular localization: ±0.2–0.8° (depends on lens)</td><td>±0.2–0.8°</td><td>Track speed ≥0.2 m/s (scene-dependent)</td><td>Minimum resolvable temperature difference (NETD): 40–60 mK (sensor spec)</td></tr>
+    <tr><td>LiDAR perimeter scanner</td><td>30–200 m (typical perimeter LiDAR)</td><td>Range: ±2–5 cm; Position: ±5–15 cm</td><td>≤0.1–0.3°</td><td>Detects object speed ≥0.05 m/s</td><td>Reflectivity-dependent; fog can reduce usable range</td></tr>
+  </tbody>
+</table>

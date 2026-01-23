@@ -1,0 +1,16 @@
+<table>
+  <caption>Selected fundamental parameters with symbols and values, alongside lattice/action choices and tuning targets used in the computation.</caption>
+  <thead>
+    <tr><th rowspan="2">Constant / parameter</th><th rowspan="2">Symbol</th><th rowspan="2">Value</th><th rowspan="2">Unit</th><th colspan="3">Simulation-specific settings (to be avoided)</th></tr>
+    <tr><th>Lattice/action</th><th>Model setting</th><th>Tuning target</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Speed of light</td><td>c</td><td>2.99792458×10^8</td><td>m·s^-1</td><td>Anisotropic lattice</td><td>β = 1.90</td><td>c0 tuned so that c^2≈1</td></tr>
+    <tr><td>Newtonian gravitational constant</td><td>G</td><td>6.67430×10^-11</td><td>m^3·kg^-1·s^-2</td><td>Wilson action</td><td>L = 24^3×64</td><td>Scale set by r0 = 0.49 fm</td></tr>
+    <tr><td>Planck constant</td><td>h</td><td>6.62607015×10^-34</td><td>J·s</td><td>Asqtad action</td><td>a = 0.12 fm</td><td>Mass tuned to m_pi = 135 MeV</td></tr>
+    <tr><td>Reduced Planck constant</td><td>ħ</td><td>1.054571817×10^-34</td><td>J·s</td><td>AsqTad-tn</td><td>u0 = 0.86</td><td>Dispersion fit range: ap∈[0.2,1.0]</td></tr>
+    <tr><td>Elementary charge</td><td>e</td><td>1.602176634×10^-19</td><td>C</td><td>HISQ action</td><td>N_cfg = 500</td><td>Autocorr cutoff = 20 trajectories</td></tr>
+    <tr><td>Boltzmann constant</td><td>k_B</td><td>1.380649×10^-23</td><td>J·K^-1</td><td>Finite-T lattice</td><td>N_t = 12</td><td>Temperature tuned via a(β)</td></tr>
+    <tr><td>Vacuum permittivity</td><td>ε_0</td><td>8.8541878128×10^-12</td><td>F·m^-1</td><td>Quenched approximation</td><td>N_f = 0</td><td>Renormalization scheme: MS-bar at 2 GeV</td></tr>
+  </tbody>
+</table>

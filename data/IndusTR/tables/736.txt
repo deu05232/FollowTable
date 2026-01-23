@@ -1,0 +1,10 @@
+<table>
+  <caption>Graph Engine Initialization and Graph Generation Interfaces</caption>
+  <tr><td>Interface Name</td><td>English Name</td><td>Required/Optional</td><td>Interface Description</td></tr>
+  <tr><td>Initialize Graph Engine</td><td>graph_engine_initialize</td><td>Optional</td><td>Initialize the graph engine object</td></tr>
+  <tr><td>Deinitialize Graph Engine</td><td>graph_engine_finalize</td><td>Optional</td><td>Deinitialize the graph engine object</td></tr>
+  <tr><td>Graph Generation</td><td>graph_engine_generate</td><td>Required</td><td>Generate the model computation graph</td></tr>
+  <tr><td>Graph Execution</td><td>graph_engine_execute</td><td>Required</td><td>Execute the model computation graph</td></tr>
+  <tr><td>Allocate Device Memory</td><td>device_allocate</td><td>Optional</td><td>Allocate device memory</td></tr>
+  <tr><td>Free Device Memory</td><td>device_deallocate</td><td>Optional</td><td>Free device memory</td></tr>
+</table>

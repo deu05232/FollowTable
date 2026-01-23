@@ -1,0 +1,22 @@
+<table>
+  <caption>Distributed Collective Communication Module Interfaces</caption>
+  <tr><td>Interface Name</td><td>English Name</td><td>Mandatory/Optional</td><td>Interface Description</td></tr>
+  <tr><td>Generate communication ID number</td><td>xccl_get_unique_id</td><td>Optional</td><td>Generate communication ID number</td></tr>
+  <tr><td>Get the data size of the communication ID</td><td>xccl_get_unique_id_size</td><td>Optional</td><td>Get the data size of the communication ID</td></tr>
+  <tr><td>Create a collective communication object</td><td>xccl_comm_init_rank</td><td>Optional</td><td>Create a collective communication object</td></tr>
+  <tr><td>Destroy a collective communication object</td><td>xccl_destroy_comm</td><td>Optional</td><td>Destroy a collective communication object</td></tr>
+  <tr><td>All-reduce communication</td><td>xccl_all_reduce</td><td>Optional</td><td>All-reduce communication</td></tr>
+  <tr><td>Broadcast communication</td><td>xccl_broadcast</td><td>Optional</td><td>Broadcast communication</td></tr>
+  <tr><td>Reduce communication</td><td>xccl_reduce</td><td>Optional</td><td>Reduce communication</td></tr>
+  <tr><td>All-gather communication</td><td>xccl_all_gather</td><td>Optional</td><td>All-gather communication</td></tr>
+  <tr><td>Reduce-scatter communication</td><td>xccl_reduce_scatter</td><td>Optional</td><td>Reduce-scatter communication</td></tr>
+  <tr><td>Start communication grouping</td><td>xccl_group_start</td><td>Optional</td><td>Start communication grouping</td></tr>
+  <tr><td>End communication grouping</td><td>xccl_group_end</td><td>Optional</td><td>End communication grouping</td></tr>
+  <tr><td>Point-to-point send</td><td>xccl_send</td><td>Optional</td><td>Point-to-point send</td></tr>
+  <tr><td>Point-to-point receive</td><td>xccl_recv</td><td>Optional</td><td>Point-to-point receive</td></tr>
+  <tr><td>Get collective communication version</td><td>xccl_get_version</td><td>Optional</td><td>Get collective communication version</td></tr>
+  <tr><td>Get current communication domain rank</td><td>xccl_get_comm_rank</td><td>Optional</td><td>Get current communication domain rank</td></tr>
+  <tr><td>Get current communication domain size</td><td>xccl_get_comm_size</td><td>Optional</td><td>Get current communication domain size</td></tr>
+  <tr><td>Synchronize all processes in the process group</td><td>xccl_barrier</td><td>Optional</td><td>Synchronize all processes in the process group</td></tr>
+  <tr><td>All-to-all communication</td><td>xccl_alltoall</td><td>Optional</td><td>Re-aggregate and distribute after splitting</td></tr>
+</table>

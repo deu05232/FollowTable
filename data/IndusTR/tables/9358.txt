@@ -1,0 +1,15 @@
+<table>
+  <caption>Method performance table for ICP-OES rare-earth analysis (focus on LOD/LOQ and bias; repeatability r only as a minor column)</caption>
+  <thead>
+    <tr><th>Element</th><th>Wavelength (nm)</th><th>Calibration range (mg/L)</th><th>LOD (mg/L)</th><th>LOQ (mg/L)</th><th>Recovery (%)</th><th>Repeatability limit, r (%)</th><th>Comments</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Neodymium (Nd)</td><td>401.225</td><td>0.1–50</td><td>0.020</td><td>0.060</td><td>98.5</td><td>0.20</td><td>r estimated at ~1 mg/L</td></tr>
+    <tr><td>Samarium (Sm)</td><td>359.260</td><td>0.1–50</td><td>0.015</td><td>0.050</td><td>101.2</td><td>0.25</td><td>matrix-matched calibration</td></tr>
+    <tr><td>Europium (Eu)</td><td>381.967</td><td>0.05–20</td><td>0.010</td><td>0.030</td><td>99.1</td><td>0.30</td><td>spectral interference checked</td></tr>
+    <tr><td>Gadolinium (Gd)</td><td>342.247</td><td>0.1–100</td><td>0.018</td><td>0.055</td><td>97.6</td><td>0.22</td><td>background correction on</td></tr>
+    <tr><td>Terbium (Tb)</td><td>350.917</td><td>0.05–20</td><td>0.012</td><td>0.040</td><td>102.0</td><td>0.28</td><td>single-point QC</td></tr>
+    <tr><td>Dysprosium (Dy)</td><td>353.170</td><td>0.1–50</td><td>0.016</td><td>0.050</td><td>100.4</td><td>0.24</td><td>argon flow optimized</td></tr>
+    <tr><td>Yttrium (Y)</td><td>371.029</td><td>0.1–100</td><td>0.008</td><td>0.025</td><td>99.8</td><td>0.18</td><td>internal standard used</td></tr>
+  </tbody>
+</table>

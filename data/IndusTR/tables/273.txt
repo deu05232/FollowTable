@@ -1,0 +1,5 @@
+<table>
+  <caption>Charger Electronic Lock Status Message Parameters</caption>
+  <tr><td>Parameter Group Identifier</td><td>Message Description</td><td>Information Type</td><td>Cycle Time</td><td>Total Transmission Time/ms</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>0x07</td><td>Charger electronic lock status</td><td>Short message not requiring acknowledgment</td><td>Sent with a 1000 ms period when the charger electronic lock status does not change; sent with a 50 ms period for 3 consecutive frames when a change occurs</td><td></td><td>Charger - Vehicle</td></tr>
+</table>

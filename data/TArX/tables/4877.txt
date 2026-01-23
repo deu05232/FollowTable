@@ -1,0 +1,18 @@
+<table>
+  <caption>List of parameters for simulations of wake propagation in a LPA stage.</caption>
+  <tr><th>plasma density on axis</th><th>n_(e)</th><th>10^(19) cm ^((-3))</th></tr>
+  <tr><th>plasma longitudinal profile</th><td></td><td>flat</td></tr>
+  <tr><th>plasma length</th><td>L_(p)</td><td>3 cm</td></tr>
+  <tr><th>plasma entrance ramp profile</th><td></td><td>half sine</td></tr>
+  <tr><th>plasma entrance ramp length</th><td></td><td>20 μ m</td></tr>
+  <tr><th>laser profile</th><td></td><td>a_(0)(-r^(2)/2σ^(2))(z/3L)</td></tr>
+  <tr><th>normalized vector potential</th><td>a_(0)</td><td>1</td></tr>
+  <tr><th>laser wavelength</th><td>λ</td><td>0.8 μ m</td></tr>
+  <tr><th>laser spot size (RMS)</th><td>σ</td><td>8.91 μ m</td></tr>
+  <tr><th>laser length (HWHM)</th><td>L</td><td>3.36 μ m</td></tr>
+  <tr><th>normalized laser spot size</th><td>k_(p)σ</td><td>5.3</td></tr>
+  <tr><th>normalized laser length</th><td>k_(p)L</td><td>2</td></tr>
+  <tr><th>cell size in x</th><td>Δ x</td><td>λ/20</td></tr>
+  <tr><th>cell size in z</th><td>Δ z</td><td>λ/20</td></tr>
+  <tr><th># of plasma macro-particles/cell</th><td></td><td>4 electrons + 4 protons</td></tr>
+</table>

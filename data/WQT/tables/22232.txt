@@ -1,0 +1,12 @@
+# Matrix and Vector Differentiation Identities (Derivative Rules)
+
+| Expression | Differential Form | Derivative / Gradient Form | Conditions |
+| --- | --- | --- | --- |
+| y = a^T x | dy = a^T dx | ∂y/∂x = a | x is a vector |
+| y = x^T a | dy = dx^T a | ∂y/∂x = a | Same result |
+| y = x^T x | dy = 2 x^T dx | ∂y/∂x = 2x | Quadratic form |
+| Y = A X | dY = A dX | ∂Y/∂X = A | Linear map |
+| y = tr(A^T X) | dy = tr(A^T dX) | ∂y/∂X = A | Trace trick |
+| y = det(X) | dy = det(X) tr(X^{-1} dX) | ∂y/∂X = det(X) (X^{-1})^T | X invertible |
+| y = x^T A x | dy = x^T(A + A^T) dx | ∂y/∂x = (A + A^T)x | A constant |
+| y = ||x||_2 | dy = (x^T dx)/||x||_2 | ∂y/∂x = x/||x||_2 | x ≠ 0 |

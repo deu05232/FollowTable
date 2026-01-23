@@ -1,0 +1,41 @@
+<table>
+  <caption>Recovery rate of simulated transits of a bright WD ( V ≃ 12 ). Results are shown for synthetic light curves containing white and red noise. In both cases f det is the fraction of cases in which the highest peak in the periodogram satisfies our period matching criteria and has an SDE > 6.3 , and f bt is the fraction which match the period criteria but have SDE < 6.3 . f filt is the fraction of cases in which the synthetised light curves pass the requirements for a minimum number of transits ( > 5 ) and data points ( > 5 ) in transit. Dashes indicate cases in which the companion would be tidally disrupted within the WD’s Roche radius.</caption>
+  <tr><th></th><th></th><th></th><th></th><th></th><th></th><th colspan="2">White noise</th><th colspan="2">red noise</th></tr>
+  <tr><th>Size</th><th>R_(pl)</th><th>δ_(tr)</th><th>P</th><th>D_(tr)</th><th>f_(filt)</th><th>f_(det)</th><th>f_(bt)</th><th>f_(det)</th><th>f_(bt)</th></tr>
+  <tr><th></th><th>ℜ</th><th>(%)</th><th>(days)</th><th>(min)</th><th>(%)</th><th>(%)</th><th>(%)</th><th>(%)</th><th>(%)</th></tr>
+  <tr><td>BD-Gas Giant</td><td>10.0</td><td>100</td><td>0.08</td><td>5.65</td><td>100</td><td>100</td><td>0</td><td>100</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>0.22</td><td>7.93</td><td>100</td><td>100</td><td>0</td><td>100</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>0.87</td><td>12.55</td><td>100</td><td>100</td><td>0</td><td>100</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>1.56</td><td>15.22</td><td>100</td><td>99</td><td>1</td><td>98</td><td>2</td></tr>
+  <tr><td></td><td></td><td></td><td>3.57</td><td>20.05</td><td>69</td><td>24</td><td>25</td><td>21</td><td>32</td></tr>
+  <tr><td></td><td></td><td></td><td>8.30</td><td>26.56</td><td>0.1</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>14.72</td><td>32.15</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>Earth</td><td>1.0</td><td>49</td><td>0.08</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+  <tr><td></td><td></td><td></td><td>0.22</td><td>1.70</td><td>100</td><td>100</td><td>0</td><td>100</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>0.87</td><td>2.65</td><td>96</td><td>76</td><td>5</td><td>67</td><td>10</td></tr>
+  <tr><td></td><td></td><td></td><td>1.56</td><td>3.21</td><td>71</td><td>48</td><td>19</td><td>37</td><td>30</td></tr>
+  <tr><td></td><td></td><td></td><td>3.57</td><td>4.23</td><td>14</td><td>5</td><td>7</td><td>2</td><td>4</td></tr>
+  <tr><td></td><td></td><td></td><td>8.30</td><td>5.61</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>14.72</td><td>6.82</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>0.6ℜ</td><td>0.6</td><td>18</td><td>0.08</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+  <tr><td></td><td></td><td></td><td>0.22</td><td>1.42</td><td>100</td><td>98</td><td>2</td><td>96</td><td>4</td></tr>
+  <tr><td></td><td></td><td></td><td>0.87</td><td>2.21</td><td>87</td><td>44</td><td>14</td><td>41</td><td>6</td></tr>
+  <tr><td></td><td></td><td></td><td>1.56</td><td>2.68</td><td>51</td><td>31</td><td>17</td><td>20</td><td>19</td></tr>
+  <tr><td></td><td></td><td></td><td>3.57</td><td>3.53</td><td>7</td><td>3</td><td>2</td><td>2</td><td>1</td></tr>
+  <tr><td></td><td></td><td></td><td>8.30</td><td>4.67</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>14.72</td><td>5.66</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>Mercury</td><td>0.34</td><td>5.7</td><td>0.08</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+  <tr><td></td><td></td><td></td><td>0.22</td><td>1.25</td><td>100</td><td>86</td><td>6</td><td>78</td><td>2</td></tr>
+  <tr><td></td><td></td><td></td><td>0.87</td><td>1.98</td><td>78</td><td>25</td><td>26</td><td>24</td><td>19</td></tr>
+  <tr><td></td><td></td><td></td><td>1.56</td><td>2.40</td><td>40</td><td>12</td><td>14</td><td>8</td><td>9</td></tr>
+  <tr><td></td><td></td><td></td><td>3.57</td><td>3.17</td><td>4</td><td>2</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>8.30</td><td>4.20</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>14.72</td><td>5.10</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td>Moon</td><td>0.27</td><td>3.6</td><td>0.08</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+  <tr><td></td><td></td><td></td><td>0.22</td><td>1.19</td><td>100</td><td>38</td><td>13</td><td>4</td><td>26</td></tr>
+  <tr><td></td><td></td><td></td><td>0.87</td><td>1.87</td><td>74</td><td>12</td><td>24</td><td>1</td><td>30</td></tr>
+  <tr><td></td><td></td><td></td><td>1.56</td><td>2.27</td><td>35</td><td>4</td><td>33</td><td>1</td><td>37</td></tr>
+  <tr><td></td><td></td><td></td><td>3.57</td><td>2.99</td><td>3</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>8.30</td><td>3.96</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+  <tr><td></td><td></td><td></td><td>14.72</td><td>4.79</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
+</table>

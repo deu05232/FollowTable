@@ -1,0 +1,20 @@
+<table>
+  <caption>Ionospheric Delay Standard Polynomial Correction General Information Data Fields</caption>
+  <tr><td>Data field name</td><td>Data field ID</td><td>Data type</td><td>Number of bits</td></tr>
+  <tr><td>Area type identifier</td><td>DF614</td><td>bit(2)</td><td>2</td></tr>
+  <tr><td>Area ID</td><td>DF615</td><td>uint6</td><td>6</td></tr>
+  <tr><td>Number of ionospheric thin layers</td><td>DF472</td><td>uint4</td><td>4</td></tr>
+  <tr><td>Ionospheric thin-layer height</td><td>DF473</td><td>uint8</td><td>8</td></tr>
+  <tr><td>TEC type identifier</td><td>DF616</td><td>bit(1)</td><td>1</td></tr>
+  <tr><td>Longitude-order degree of the standard polynomial function</td><td>DF633</td><td>uint3</td><td>3</td></tr>
+  <tr><td>Latitude-order degree of the standard polynomial function</td><td>DF634</td><td>uint3</td><td>3</td></tr>
+  <tr><td>Ground reference point longitude</td><td>DF630</td><td>bit(15)</td><td>15</td></tr>
+  <tr><td>Ground reference point latitude</td><td>DF631</td><td>bit(14)</td><td>14</td></tr>
+  <tr><td>Ground reference point height</td><td>DF632</td><td>bit(14)</td><td>14</td></tr>
+  <tr><td>Initial coordinates of grid point</td><td>DF622</td><td>bit(29)</td><td>29</td></tr>
+  <tr><td>Grid point step size (along longitude direction)</td><td>DF623</td><td>bit(9)</td><td>9</td></tr>
+  <tr><td>Grid point step size (along latitude direction)</td><td>DF624</td><td>bit(9)</td><td>9</td></tr>
+  <tr><td>Number of grid point intervals</td><td>DF625</td><td>bit(14)</td><td>14</td></tr>
+  <tr><td>Number of grid points</td><td>DF626  SAC</td><td>uint12</td><td>12</td></tr>
+  <tr><td>Total</td><td>1</td><td>1</td><td>143</td></tr>
+</table>

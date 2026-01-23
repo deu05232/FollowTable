@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Configuration Enumerations (Short Names)</caption>
+  <thead>
+    <tr><th>Enum Group</th><th>Identifier</th><th>Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">TrackingState</td><td>TRACKING</td><td>0</td><td>Tracking is normal</td></tr>
+    <tr><td>PAUSED</td><td>1</td><td>Tracking is paused</td></tr>
+    <tr><td>STOPPED</td><td>2</td><td>Tracking is stopped</td></tr>
+    <tr><td rowspan="3">LightEstimationMode</td><td>DISABLED</td><td>0</td><td>Light estimation disabled</td></tr>
+    <tr><td>AMBIENT_INTENSITY</td><td>1</td><td>Single intensity plus RGB color correction</td></tr>
+    <tr><td>ENVIRONMENTAL_HDR</td><td>2</td><td>Ambient HDR estimation in XYZ color space</td></tr>
+    <tr><td rowspan="2">AugmentedFaceMode</td><td>DISABLED</td><td>0</td><td>Disable face augmentation mode</td></tr>
+    <tr><td>MESH3D</td><td>2</td><td>Enable 3D face mesh</td></tr>
+  </tbody>
+</table>

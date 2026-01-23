@@ -1,0 +1,15 @@
+<table>
+  <caption>Field Operation Monitoring Performance Metrics (Agricultural Use Cases)</caption>
+  <thead>
+    <tr><th>No.</th><th>Monitoring performance metric</th><th>Required value</th><th>Applicable agricultural operation</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Operation status recognition accuracy</td><td>≥ 98.5%</td><td>All field operations</td><td>Based on labeled ground truth</td></tr>
+    <tr><td>2</td><td>Tillage depth estimation error</td><td>≤ 2 cm</td><td>Tillage / land preparation</td><td>Mean absolute error</td></tr>
+    <tr><td>3</td><td>Seeding missed-count error rate</td><td>≤ 1.5%</td><td>Precision single-seed sowing</td><td>Per 1,000 seeds</td></tr>
+    <tr><td>4</td><td>Fertilizer application rate deviation</td><td>≤ 3%</td><td>Fertilizing operation</td><td>Compared with calibrated dispenser</td></tr>
+    <tr><td>5</td><td>Spraying flow monitoring deviation</td><td>≤ 4%</td><td>Plant protection spraying</td><td>Stable flow segment</td></tr>
+    <tr><td>6</td><td>Straw returning width deviation</td><td>≤ 10 cm</td><td>Harvest residue returning</td><td>Measured at 20 m intervals</td></tr>
+    <tr><td>7</td><td>Operation area calculation error</td><td>≤ 2%</td><td>All field operations</td><td>Edge effects excluded</td></tr>
+  </tbody>
+</table>

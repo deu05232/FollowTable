@@ -1,0 +1,21 @@
+<table>
+  <caption>BDS Ground-Based Augmentation System System Information Custom Message 2100 Format</caption>
+  <tr><td>Data Field Name</td><td>Data Type</td><td>Number of Bits</td><td>Computation</td><td>Value Range</td><td>Remarks</td></tr>
+  <tr><td colspan="6">Message Frame Index Header Content</td></tr>
+  <tr><td>Preamble</td><td>uint8</td><td>8</td><td></td><td>11011101</td><td>Refer to RTCM10403.3 preamble (fixed value 11011101)</td></tr>
+  <tr><td>Reserved Bits</td><td>uint6</td><td>6</td><td></td><td>0</td><td>Refer to RTCM 10403.3 reserved bits</td></tr>
+  <tr><td>Message Content Length</td><td>uint10</td><td>10</td><td></td><td>0~1023</td><td>Refer to RTCM10403.3 message length</td></tr>
+  <tr><td>Total</td><td></td><td>24</td><td></td><td></td><td></td></tr>
+  <tr><td colspan="6">Message Data Body Content</td></tr>
+  <tr><td>Message Number</td><td>uint12</td><td>12</td><td></td><td>0~4095</td><td>Refer to RTCM10403.3 field DF002</td></tr>
+  <tr><td>Operating Organization</td><td>uchar10</td><td>80</td><td></td><td></td><td>New data field SJ007</td></tr>
+  <tr><td>Geographic Scope</td><td>uint8</td><td>8</td><td></td><td>0~255</td><td>New data field SJ008</td></tr>
+  <tr><td>System Category</td><td>uint4</td><td>4</td><td></td><td>0~15</td><td>New data field SJ009</td></tr>
+  <tr><td>Service Level</td><td>uint12</td><td>12</td><td></td><td>0~4095</td><td>New data field SJ010</td></tr>
+  <tr><td>Data Field Name</td><td>Data Type</td><td>Number of Bits</td><td>Computation</td><td>Value Range</td><td>Remarks</td></tr>
+  <tr><td>Total</td><td></td><td>116</td><td></td><td></td><td></td></tr>
+  <tr><td></td><td></td><td></td><td colspan="3">Message Trailer Check</td></tr>
+  <tr><td>Cyclic Redundancy Check</td><td>int24</td><td>24</td><td></td><td></td><td>Refer to RTCM 10403.3 cyclic redundancy check</td></tr>
+  <tr><td>Total</td><td></td><td>24</td><td></td><td></td><td></td></tr>
+  <tr><td>Grand Total</td><td></td><td>164</td><td></td><td></td><td></td></tr>
+</table>

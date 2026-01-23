@@ -1,0 +1,13 @@
+<table>
+  <caption>Feeding, Opening and Mixing Equipment Operation Monitoring Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Weighing Machine Cumulative Weighing</td><td>AccumulativeWeighingOfTheWeighingMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~50.00</td><td>t</td><td>1</td><td></td></tr>
+  <tr><td>0X0301</td><td>Weighing Machine Actual Weighing Value</td><td>ActualWeighingValueOf TheWeighingMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~20 000.00</td><td>g</td><td>1</td><td></td></tr>
+  <tr><td>0X0302</td><td>Weighing Machine Feeding Speed</td><td>FeedingSpeedOfWeighingMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0303</td><td>Blended Cotton Curtain Step Length</td><td>StepLengthOf BlendedCottonCurtain</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~50.00</td><td>m</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0304</td><td>Big Blending Bin Cotton Feeding Speed</td><td>FeedingSpeedOf BigBlendingBin</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0305</td><td>Fine Opener Cotton Feeding Speed</td><td>FinishingOpeningAndFeedingSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~3000.00</td><td>r/min</td><td>一</td><td></td></tr>
+  <tr><td>0X0306</td><td>Cotton Conveying Fan Speed</td><td>SpeedOfCottonConveyingFan</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~5000.00</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X0307</td><td>Operating Rate</td><td>OperatingRate</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>丨</td><td></td></tr>
+  <tr><td>0X0308</td><td>Expandable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

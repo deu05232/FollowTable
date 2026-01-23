@@ -1,0 +1,15 @@
+<table>
+  <caption>Casting Structure Design Checklist: Crack Prevention vs. Stress Concentration</caption>
+  <thead>
+    <tr><th>Feature / Location</th><th>Good Geometry Choice</th><th>Bad Geometry Choice</th><th>Defect / Failure Risk Avoided</th><th>Mechanism / Why It Happens</th><th>Design Rule of Thumb</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Inside corners of pockets</td><td>Generous internal fillet radius</td><td>Sharp inside corner (near-zero radius)</td><td>Hot tearing / cracking</td><td>Stress concentration + restrained contraction during solidification/cooling</td><td>Use R ≥ 0.5–1.0× local wall thickness</td></tr>
+    <tr><td>Outside corners</td><td>Chamfer or radius on external edge</td><td>Sharp external edge</td><td>Cracking and chipping at edges</td><td>Edge cools faster, creating thermal gradients and residual stress</td><td>Add small radius even if functionally “square”</td></tr>
+    <tr><td>Wall thickness transition</td><td>Tapered/gradual transition</td><td>Sudden step change in thickness</td><td>Cracks + distortion</td><td>Differential solidification and shrinkage restraint</td><td>Keep thickness ratio ≤ 1:1.5 per transition; blend with a ramp</td></tr>
+    <tr><td>Boss-to-wall junction</td><td>Boss with filleted base + cored-out boss</td><td>Solid boss with sharp base fillet or no fillet</td><td>Hot spot shrinkage + crack initiation</td><td>Local mass causes late freezing; base acts as stress raiser</td><td>Core the boss; add generous base fillet</td></tr>
+    <tr><td>Ribs intersecting walls</td><td>Ribs thin-to-thick with radiused root</td><td>Thick ribs with abrupt rib root</td><td>Cracking + shrinkage-related defects</td><td>Hot spot at rib root + contraction restraint</td><td>Rib thickness ≈ 0.5–0.7× wall; radiused root</td></tr>
+    <tr><td>Slots and keyways</td><td>End of slot rounded (dog-bone or radius)</td><td>Slot ends squared off</td><td>Fatigue cracking / service cracks</td><td>High stress concentration at slot termination</td><td>Round ends; avoid dead-sharp termination geometry</td></tr>
+    <tr><td>Long thin arms</td><td>Add compliant geometry (curved/arched arm) or uniform section</td><td>Long straight thin arm with abrupt attachments</td><td>Warping + crack at attachment</td><td>High thermal contraction over length; restraint at fixed end</td><td>Avoid long restrained thin sections; keep section uniform</td></tr>
+  </tbody>
+</table>

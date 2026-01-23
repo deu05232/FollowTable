@@ -1,0 +1,14 @@
+<table>
+  <caption>Battery Pack 'Safety' KPI Dashboard for Fleet Operations (Non-Test Domain)</caption>
+  <thead>
+    <tr><th>Fleet KPI</th><th>Definition</th><th>Target</th><th>Current Month</th><th>Rolling 12M</th><th>Data Source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Safety incidents</td><td>Events requiring service intervention</td><td>< 0.20 / 10k km</td><td>0.12</td><td>0.18</td><td>Service tickets</td></tr>
+    <tr><td>Thermal alerts</td><td>BMS over-temp warnings</td><td>< 1.0 / 1k trips</td><td>0.7</td><td>0.9</td><td>BMS logs</td></tr>
+    <tr><td>Roadside stops</td><td>Unplanned stops attributed to HV system</td><td>< 0.10 / 10k km</td><td>0.06</td><td>0.08</td><td>Telematics</td></tr>
+    <tr><td>Warranty return rate</td><td>Returned packs per shipped packs</td><td>< 0.8%</td><td>0.6%</td><td>0.7%</td><td>ERP/Warranty</td></tr>
+    <tr><td>Average SOC window</td><td>Median operating SOC band</td><td>20–80%</td><td>25–78%</td><td>22–79%</td><td>Telematics</td></tr>
+    <tr><td>Fast-charge ratio</td><td>Share of DC fast charging sessions</td><td>< 30%</td><td>34%</td><td>29%</td><td>Charging backend</td></tr>
+  </tbody>
+</table>

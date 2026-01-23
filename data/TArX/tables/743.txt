@@ -1,0 +1,18 @@
+<table>
+  <caption>Model parameters for N-body simulations</caption>
+  <tr><td>Model name</td><td>M_(SMC)</td><td>Velocity types</td><td>Morphology</td><td>R_(SMC)</td><td>r_(s)</td><td>f_(g)</td><td>r_(g)</td><td>T_(i)</td><td>Comments</td></tr>
+  <tr><td>G1</td><td>0.45</td><td>GN</td><td>dSph</td><td>7.5</td><td>0.5</td><td>1.0</td><td>2.0</td><td>250</td><td>fiducial</td></tr>
+  <tr><td>G2</td><td>0.45</td><td>GN</td><td>dSph</td><td>7.5</td><td>0.25</td><td>1.0</td><td>2.0</td><td>250</td><td>more compact</td></tr>
+  <tr><td>G3</td><td>0.45</td><td>GN</td><td>disk</td><td>7.5</td><td>0.25</td><td>1.0</td><td>4.0</td><td>250</td><td>disk model</td></tr>
+  <tr><td>G4</td><td>0.45</td><td>GN</td><td>dSph</td><td>7.5</td><td>0.5</td><td>1.0</td><td>2.0</td><td>250</td><td>y_(met)=0.002</td></tr>
+  <tr><td>G5</td><td>0.30</td><td>GN</td><td>dSph</td><td>5.0</td><td>0.5</td><td>2.0</td><td>2.0</td><td>250</td><td>lower mass</td></tr>
+  <tr><td>G6</td><td>0.30</td><td>GN</td><td>dSph</td><td>7.5</td><td>0.25</td><td>1.0</td><td>2.0</td><td>250</td><td></td></tr>
+  <tr><td>G7</td><td>0.45</td><td>K06</td><td>dSph</td><td>7.5</td><td>0.5</td><td>1.0</td><td>2.0</td><td>250</td><td>orbit from K06</td></tr>
+  <tr><td>I1</td><td>0.45</td><td>-</td><td>dSph</td><td>7.5</td><td>0.5</td><td>1.0</td><td>2.0</td><td>250</td><td>isolated</td></tr>
+  <tr><td>I2</td><td>0.45</td><td>-</td><td>dSph</td><td>7.5</td><td>0.5</td><td>1.0</td><td>2.0</td><td>10^(3)</td><td></td></tr>
+  <tr><td>I3</td><td>0.45</td><td>-</td><td>dSph</td><td>7.5</td><td>0.5</td><td>1.0</td><td>2.0</td><td>10^(4)</td><td></td></tr>
+  <tr><td>C1</td><td>0.30</td><td>GN</td><td>dSph</td><td>7.5</td><td>0.25</td><td>2.0</td><td>2.0</td><td>250</td><td>collisionless</td></tr>
+  <tr><td>C2</td><td>0.30</td><td>K06</td><td>dSph</td><td>7.5</td><td>0.25</td><td>2.0</td><td>2.0</td><td>250</td><td></td></tr>
+  <tr><td>C3</td><td>0.45</td><td>GN</td><td>dSph</td><td>7.5</td><td>0.5</td><td>1.0</td><td>2.0</td><td>250</td><td></td></tr>
+  <tr><td>C4</td><td>0.30</td><td>GN</td><td>dSph</td><td>5.0</td><td>0.5</td><td>2.0</td><td>2.0</td><td>250</td><td></td></tr>
+</table>

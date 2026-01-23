@@ -1,0 +1,10 @@
+<table>
+  <caption>SAF_SM9AgreementHandleDestroy (Release SM9 Agreement Context)</caption>
+  <tr><th>Item</th><th>Content</th></tr>
+  <tr><td>Prototype</td><td>int SAF_SM9AgreementHandleDestroy(void *hAgreementHandle);</td></tr>
+  <tr><td>Description</td><td>Release resources associated with an SM9 key agreement context handle created during session key negotiation.</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>hAgreementHandle [in] (agreement handle to be destroyed)</td></tr>
+  <tr><td>Return value</td><td>0 on success; non-zero on failure.</td></tr>
+  <tr><td>Notes</td><td>This call does not perform encryption or signature operations; it only manages the agreement context lifecycle.</td></tr>
+  <tr><td>Compliance</td><td>Interfaces related to SM9 key agreement shall comply with GB/T 41389.</td></tr>
+</table>

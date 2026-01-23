@@ -1,0 +1,15 @@
+<table>
+  <caption>Standard Timer Performance: Basic Error Limit and Time-Base Stability Requirements</caption>
+  <thead>
+    <tr><th rowspan="2">Parameter</th><th colspan="5">Requirement by device accuracy class</th></tr>
+    <tr><th>Class 0.01</th><th>Class 0.02</th><th>Class 0.05</th><th>Class 0.1</th><th>Class 0.2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Timer basic error limit (%)</td><td>±0.0010</td><td>±0.0010</td><td>±0.0020</td><td>±0.0050</td><td>±0.0100</td></tr>
+    <tr><td>Time-base stability (24 h, ppm)</td><td>±0.5</td><td>±1.0</td><td>±2.0</td><td>±5.0</td><td>±10.0</td></tr>
+    <tr><td>Start/stop jitter (ms)</td><td>≤0.2</td><td>≤0.3</td><td>≤0.5</td><td>≤1.0</td><td>≤2.0</td></tr>
+    <tr><td>Trigger threshold hysteresis (mV)</td><td>≤2</td><td>≤3</td><td>≤5</td><td>≤8</td><td>≤10</td></tr>
+    <tr><td>Warm-up time to meet spec (min)</td><td>30</td><td>30</td><td>20</td><td>15</td><td>10</td></tr>
+    <tr><td>Maximum measurable pulse rate (kHz)</td><td>200</td><td>200</td><td>150</td><td>100</td><td>50</td></tr>
+  </tbody>
+</table>

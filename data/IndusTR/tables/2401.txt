@@ -1,0 +1,14 @@
+<table>
+  <caption>Container Seal Specification and Procurement Record</caption>
+  <thead>
+    <tr><th>Seal Type</th><th>Material</th><th>ISO/PAS Reference</th><th>Serial Format</th><th>Purchase Batch</th><th>Qty</th><th>Inspection Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Bolt Seal (High Security)</td><td>Hardened steel</td><td>ISO 17712:2013</td><td>2 letters + 7 digits</td><td>2025-Q1-SEA</td><td>5,000</td><td>Pass</td></tr>
+    <tr><td>Cable Seal</td><td>Galvanized cable</td><td>ISO 17712:2013</td><td>Numeric 10 digits</td><td>2025-Q1-AIR</td><td>2,000</td><td>Pass</td></tr>
+    <tr><td>Plastic Indicative Seal</td><td>PP/ABS</td><td>Internal spec</td><td>QR + 8 digits</td><td>2025-Q2-ROAD</td><td>10,000</td><td>Pass</td></tr>
+    <tr><td>RFID Seal</td><td>ABS + RFID inlay</td><td>EPC Gen2</td><td>EPC-96</td><td>2025-Q2-SEA</td><td>800</td><td>Pass</td></tr>
+    <tr><td>Padlock Seal</td><td>Steel</td><td>Internal spec</td><td>Alphanumeric</td><td>2024-Q4-SEA</td><td>600</td><td>Conditional</td></tr>
+    <tr><td>Barrier Seal</td><td>Steel strip</td><td>ISO 17712:2013</td><td>Numeric 9 digits</td><td>2024-Q4-RAIL</td><td>300</td><td>Pass</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>The speedup from EigCG algorithm on different lattices. N p ⁢ r ⁢ o ⁢ p stands for the number of propagator solves to get the required number of low modes N l ⁢ o ⁢ w . The symbol * means that it is a quenched calculation.</caption>
+  <tr><th>Lattice</th><th>m_()</th><th>CG</th><th>N_(low)(N_(prop))</th><th>Total Memory</th><th>EigCG</th><th>speed up</th></tr>
+  <tr><td>16^(3)× 32× 16</td><td>421 MeV</td><td>1840</td><td>120(1)</td><td>12 GB</td><td>370</td><td>5.0</td></tr>
+  <tr><td>16^(3)× 32× 16</td><td>204^(*) MeV</td><td>3200</td><td>120(1)</td><td>12 GB</td><td>460</td><td>7.0</td></tr>
+  <tr><td>24^(3)× 64× 16</td><td>330 MeV</td><td>2900</td><td>400(4)</td><td>272 GB</td><td>530</td><td>5.5</td></tr>
+  <tr><td>32^(3)× 64× 32</td><td>180 MeV</td><td>10400</td><td>600(5)</td><td>2 TB</td><td>1480</td><td>7.0</td></tr>
+</table>

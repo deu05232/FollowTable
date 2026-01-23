@@ -1,0 +1,9 @@
+<table>
+  <caption>Return Values for the Method to Obtain Oil Tank Oil Condition Early Warning Information Data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short Name</td><td>Data Type</td><td>Data Format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Oil Tank No.</td><td>ygbh</td><td>Character</td><td>a.3</td><td rowspan="5"></td></tr>
+  <tr><td>2</td><td>Early Warning Type</td><td>yjlx</td><td>Character</td><td>a.10</td></tr>
+  <tr><td>3</td><td>Early Warning Level AC</td><td>yjb</td><td>Character</td><td>a.2</td></tr>
+  <tr><td>4</td><td>Early Warning Content</td><td>yjnr</td><td>Character</td><td>a.250</td></tr>
+  <tr><td>5</td><td>Early Warning Time</td><td>yjsj</td><td>DateTime</td><td>YYYYMMDD HHMMSS</td></tr>
+</table>

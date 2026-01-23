@@ -1,0 +1,17 @@
+<table>
+  <caption>Input Parameters for Pushing Battery Swap Order Information</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Battery swap order number</td><td>swapOrderNo</td><td>string</td><td>Format "Operator ID + unique number", no more than 64 characters</td><td>Yes</td></tr>
+  <tr><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>Unique battery swap equipment code under the platform</td><td>Yes</td></tr>
+  <tr><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>Per GB/T 27930, length 17 characters</td><td>Yes</td></tr>
+  <tr><td>License plate number</td><td>plateNum</td><td>string</td><td>Full vehicle license plate number</td><td>Fragrant</td></tr>
+  <tr><td>Battery swap order status</td><td>s wapOrderStatus</td><td>SwapOrderStatusEnum</td><td>Shall comply with the provisions of A.3.2.4</td><td>Yes</td></tr>
+  <tr><td>Loaded battery code</td><td>loadBatteryID</td><td>string</td><td></td><td>Yes</td></tr>
+  <tr><td>Initial SOC of loaded battery</td><td>loadBatterySoc</td><td>float</td><td>SOC value, keep 2 decimal places</td><td>Yes</td></tr>
+  <tr><td>Unloaded battery code</td><td>unloadBatteryID</td><td>string</td><td></td><td>Yes</td></tr>
+  <tr><td>Initial SOC of unloaded battery</td><td>unloadBatterySoc</td><td>float</td><td>SOC value, keep 2 decimal places</td><td>Yes</td></tr>
+  <tr><td>Battery swap start time</td><td>startTime</td><td>string</td><td>Format "yyyy-MM-dd HH:mm:ss"</td><td>Yes</td></tr>
+  <tr><td>Battery swap end time</td><td>endTime</td><td>string</td><td>Format "yyy-MM-dd HH:mm:ss”</td><td>Yes</td></tr>
+  <tr><td>Battery charging order number</td><td>batteryChargeOrde</td><td>string[]</td><td>Battery charging order number(s). If multiple batteries or one battery is charged multiple times, multiple order numbers should be provided</td><td>No</td></tr>
+  <tr><td>Settled charging amount</td><td>totalPower</td><td>float</td><td>Unit: kilowatt-hour (kW·h), keep 2 decimal places</td><td>Yes</td></tr>
+</table>

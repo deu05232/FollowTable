@@ -1,0 +1,12 @@
+<table>
+  <caption>AR Frame Intrinsics Outputs: Per-Frame Intrinsics Handle and Projection-Relevant Calibration Values</caption>
+  <tr><th>Context</th><th>API / Step</th><th>Intrinsics Handle</th><th>Output Field</th><th>Type</th><th>Description</th></tr>
+  <tr><td rowspan="2">Frame processing</td><td>ArFrame_acquireCameraIntrinsics(session, frame, out_intrinsics)</td><td>ArCameraIntrinsics *</td><td>out_intrinsics</td><td>ArCameraIntrinsics *</td><td>Acquires an intrinsics object tied to the current frame/image stream.</td></tr>
+  <tr><td>ArCameraIntrinsics_release(intrinsics)</td><td>ArCameraIntrinsics *</td><td>release</td><td>void</td><td>Releases the acquired intrinsics handle when finished.</td></tr>
+  <tr><td rowspan="2">Calibration matrix build</td><td>ArCameraIntrinsics_getFocalLength(intrinsics, out_fx, out_fy)</td><td>ArCameraIntrinsics *</td><td>out_fx, out_fy</td><td>float *</td><td>Focal lengths for constructing the camera intrinsic matrix K.</td></tr>
+  <tr><td>ArCameraIntrinsics_getPrincipalPoint(intrinsics, out_cx, out_cy)</td><td>ArCameraIntrinsics *</td><td>out_cx, out_cy</td><td>float *</td><td>Principal point for K and correct screen-space alignment.</td></tr>
+  <tr><td rowspan="2">Image space mapping</td><td>ArCameraIntrinsics_getImageDimensions(intrinsics, out_width, out_height)</td><td>ArCameraIntrinsics *</td><td>out_width</td><td>int32_t *</td><td>Width of the camera image associated with this intrinsics.</td></tr>
+  <tr><td>ArCameraIntrinsics_getImageDimensions(intrinsics, out_width, out_height)</td><td>ArCameraIntrinsics *</td><td>out_height</td><td>int32_t *</td><td>Height of the camera image associated with this intrinsics.</td></tr>
+  <tr><td rowspan="2">Lens correction (optional)</td><td>ArCameraIntrinsics_getDistortion(intrinsics, out_coeffs, coeff_count)</td><td>ArCameraIntrinsics *</td><td>out_coeffs</td><td>float *</td><td>Distortion coefficients for undistorting pixels or improving ray intersection accuracy.</td></tr>
+  <tr><td>ArCameraIntrinsics_getDistortion(intrinsics, out_coeffs, coeff_count)</td><td>ArCameraIntrinsics *</td><td>coeff_count</td><td>int32_t</td><td>Number of coefficients returned/expected for the distortion model.</td></tr>
+</table>

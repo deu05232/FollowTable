@@ -1,0 +1,19 @@
+# Outlook.com (Hotmail) Server Parameters for Manual Setup (Field-by-Field)
+
+| Category | Field name in email apps | Recommended value | Alternative / Extra detail |
+| --- | --- | --- | --- |
+| Identity | Display name | Your name | Shown to recipients |
+| Sign-in | Login / User ID | Full email address (user@outlook.com / user@hotmail.com / user@live.com) | Do not use only the part before @ |
+| Incoming (choose one) | Account type | IMAP | Use POP only if you prefer download-only behavior |
+| Incoming (IMAP) | Server / Host | imap-mail.outlook.com | Some clients may instead use outlook.office365.com |
+| Incoming (IMAP) | Port | 993 |  |
+| Incoming (IMAP) | Security type | SSL/TLS |  |
+| Incoming (IMAP) | Authentication | Password (or OAuth2 if offered) | If OAuth2 not available, use password/app password |
+| Incoming (POP) | Server / Host | pop-mail.outlook.com |  |
+| Incoming (POP) | Port | 995 |  |
+| Incoming (POP) | Security type | SSL/TLS |  |
+| Outgoing (SMTP) | SMTP server / Host | smtp-mail.outlook.com |  |
+| Outgoing (SMTP) | Port | 587 | Alternative sometimes offered: 465 with SSL/TLS |
+| Outgoing (SMTP) | Security type | STARTTLS | May appear as “TLS” in some apps |
+| Outgoing (SMTP) | SMTP login required | Yes | Must authenticate to send |
+| Outgoing (SMTP) | SMTP username | Full email address | Same as incoming username |

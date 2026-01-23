@@ -1,0 +1,15 @@
+<table>
+  <caption>Fundamental active energy percentage error limits by current range and power factor (class values as columns)</caption>
+  <thead>
+    <tr><th rowspan="2">Current range</th><th rowspan="2">Power factor (cosφ)</th><th colspan="3">Error limit (%) by accuracy class</th></tr>
+    <tr><th>0.2</th><th>0.5</th><th>1</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Imin ≤ I < 0.05 Ir</td><td>1.0</td><td>±0.20</td><td>±0.50</td><td>±1.00</td></tr>
+    <tr><td>0.05 Ir ≤ I < 0.10 Ir</td><td>1.0</td><td>±0.12</td><td>±0.30</td><td>±0.60</td></tr>
+    <tr><td>0.10 Ir ≤ I < Ir</td><td>1.0</td><td>±0.08</td><td>±0.20</td><td>±0.40</td></tr>
+    <tr><td>Ir ≤ I ≤ Imax</td><td>1.0</td><td>±0.06</td><td>±0.15</td><td>±0.30</td></tr>
+    <tr><td>0.10 Ir ≤ I ≤ Imax</td><td>0.5L</td><td>±0.10</td><td>±0.25</td><td>±0.50</td></tr>
+    <tr><td>0.10 Ir ≤ I ≤ Imax</td><td>0.8C</td><td>±0.10</td><td>±0.25</td><td>±0.50</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Reliability Endurance Inspection Rules for Synthesized Frequency Sources (Electrical Endurance & Stress Screening)</caption>
+  <thead>
+    <tr><th>Reliability Subgroup</th><th>D/ND</th><th>Stress / Duration</th><th>Operating Mode</th><th>Monitoring / Notes</th><th>Acceptance Criteria (Endurance Focus)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R1 Electrical endurance (burn-in)</td><td>D</td><td>2 000 h (Level L) / 3 000 h (Level K)</td><td>Powered, nominal frequency output enabled</td><td>Record supply current and output status every 168 h</td><td>No functional interruption; post-test electrical parameters within the model detail limits</td></tr>
+    <tr><td>R1.1 Intermediate readout</td><td>D</td><td>At 500 h, 1 000 h, 2 000 h (and 3 000 h for Level K)</td><td>Same as R1</td><td>Stabilization time ≤ 30 min before measurements</td><td>Drift trend acceptable; no out-of-limit excursions</td></tr>
+    <tr><td>R2 High-temperature operating life</td><td>D</td><td>1 000 h at max rated operating temperature (TOP,max)</td><td>Powered; thermal chamber</td><td>Output loaded per specification</td><td>Meets post-stress frequency accuracy and output power limits</td></tr>
+    <tr><td>R3 Temperature cycling endurance (powered)</td><td>D</td><td>200 cycles, TOP,min↔ TOP,max</td><td>Powered during dwell; unpowered during transition</td><td>Dwell ≥ 15 min each extreme</td><td>No loss of lock/output; post-cycling parameters within limits</td></tr>
+    <tr><td>R4 Humidity endurance (biased)</td><td>D</td><td>240 h, 85 °C / 85 %RH</td><td>Biased at nominal supply voltage</td><td>Condensation control per method requirement</td><td>No corrosion affecting function; insulation-related failures not allowed</td></tr>
+    <tr><td>R5 Power cycling endurance</td><td>D</td><td>1 000 cycles (ON 5 min / OFF 5 min)</td><td>Nominal supply; output enabled on ON state</td><td>Measure start-up/lock time at intervals</td><td>No latch-up; start-up/lock time remains within specified limit</td></tr>
+    <tr><td>R6 Long-term frequency stability endurance</td><td>D</td><td>168 h continuous operation at 25 °C</td><td>Powered, controlled ambient</td><td>Continuous logging recommended</td><td>Stability (e.g., Allan deviation/ppm per spec) remains within limit</td></tr>
+  </tbody>
+</table>

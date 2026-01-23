@@ -1,0 +1,7 @@
+<table>
+  <caption>Portal access matrix for self-service management testing</caption>
+  <tr><th>Actor Group</th><th>Account Tier</th><th>Login Method</th><th>Approval Chain</th><th>Notes</th></tr>
+  <tr><td>Customer Admin</td><td>Standard</td><td>Password + OTP</td><td>Dept Manager</td><td>Account provisioning rules</td></tr>
+  <tr><td>SI/SP Admin</td><td>Privileged</td><td>SSO</td><td>Security Office</td><td>Audit prerequisites</td></tr>
+  <tr><td>Vendor Operator</td><td>Limited</td><td>Password</td><td>Vendor Lead</td><td>Org onboarding checklist</td></tr>
+</table>

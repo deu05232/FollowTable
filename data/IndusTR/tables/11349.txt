@@ -1,0 +1,7 @@
+<table>
+  <caption>Charging communication timing overview by phase</caption>
+  <tr><th>Charging Phase</th><th>Typical Messages Seen</th><th>Recommended Bus Load Limit</th><th>Notes</th></tr>
+  <tr><td>Handshake</td><td>CHM, BHM</td><td>< 30%</td><td>Startup negotiation</td></tr>
+  <tr><td>Parameter setup</td><td>BCP, CML</td><td>< 40%</td><td>Capability exchange</td></tr>
+  <tr><td>Charging</td><td>BCL, BCS, CCS</td><td>< 50%</td><td>Closed-loop control</td></tr>
+</table>

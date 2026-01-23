@@ -1,0 +1,10 @@
+<table>
+  <caption>Construction machinery OID 1.2.156.3514 — example mapping of legacy identifier systems to node numbers</caption>
+  <tr><th>OID node</th><th>Legacy system name</th><th>Node allocated</th><th>Notes</th></tr>
+  <tr><td rowspan="6">1.2.156.3514</td><td>Handle</td><td>1001</td><td>Used for cross-platform resolution</td></tr>
+  <tr><td>Ecode</td><td>1002</td><td>Compatible with existing Ecode deployments</td></tr>
+  <tr><td>Unified social credit code</td><td>1003</td><td>Maps organizations into the OID tree</td></tr>
+  <tr><td>Parts catalog code</td><td>1007</td><td>Links spare parts to catalog identifiers</td></tr>
+  <tr><td>Maintenance work order ID</td><td>1008</td><td>Connects work orders to equipment entities</td></tr>
+  <tr><td>Telematics device ID</td><td>1009</td><td>Identifies onboard terminals and gateways</td></tr>
+</table>

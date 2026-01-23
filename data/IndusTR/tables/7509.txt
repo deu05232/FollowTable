@@ -1,0 +1,10 @@
+<table>
+  <caption>Integrated water-regulation parameter sheet (evaporation + runoff + reservoir coefficients)</caption>
+  <tr><th>Item</th><th>Category</th><th>Parameter/value</th><th>Notes</th></tr>
+  <tr><td>Water surface evaporation conversion coefficient</td><td>National average</td><td>0.62</td><td>Used to convert pan evaporation to open-water evaporation</td></tr>
+  <tr><td>Water surface evaporation conversion coefficient</td><td>Henan</td><td>0.63</td><td>Provincial lookup</td></tr>
+  <tr><td>Runoff regression equation (R)</td><td>Deciduous broadleaf forest</td><td>R = 1.4288 × ln(P) - 4.3682</td><td>P is precipitation</td></tr>
+  <tr><td>Runoff regression equation (R)</td><td>Evergreen broadleaf forest</td><td>R = 7.7508 × ln(P) - 27.842</td><td>P is precipitation</td></tr>
+  <tr><td>Reservoir regional coefficient (a3)</td><td>Eastern plain region</td><td>0.29</td><td>Reservoir region parameter</td></tr>
+  <tr><td>Reservoir regional coefficient (a3)</td><td>Yunnan–Guizhou plateau region</td><td>0.20</td><td>Reservoir region parameter</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>QZSS Signal-Level Phase Bias Indicators (Signal Block)</caption>
+  <tr><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>QZSS Signal and Its Tracking Mode</td><td>DF6XX</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td></tr>
+  <tr><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td></tr>
+  <tr><td>Signal Phase Bias Indicator</td><td>DF4XX</td><td>uint1</td><td>1</td></tr>
+  <tr><td>Signal Phase Bias Value</td><td>DF4XY</td><td>int20</td><td>20</td></tr>
+  <tr><td>Signal Phase Bias Continuity Index</td><td>DF4XZ</td><td>uint4</td><td>4</td></tr>
+</table>

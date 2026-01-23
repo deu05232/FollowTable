@@ -1,0 +1,14 @@
+<table>
+  <caption>CAN (Controller Area Network) in Building Automation  BACnet MS TP Device Profiles</caption>
+  <thead>
+    <tr><th>Device Profile</th><th>Network</th><th>Typical Use</th><th>Max Nodes</th><th>Baud Rate</th><th>Frame Format</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>B-ASC</td><td>MS/TP</td><td>AHU supervisory controller</td><td>128</td><td>9.6–115.2 kbps</td><td>Token passing</td><td>Not CAN; serial RS-485</td></tr>
+    <tr><td>B-AAC</td><td>MS/TP</td><td>Application-specific controller</td><td>128</td><td>9.6–115.2 kbps</td><td>Token passing</td><td>BACnet device class</td></tr>
+    <tr><td>B-OWS</td><td>IP</td><td>Operator workstation</td><td>N/A</td><td>N/A</td><td>Ethernet</td><td>UI/SC optional</td></tr>
+    <tr><td>B-BC</td><td>IP</td><td>Building controller</td><td>N/A</td><td>N/A</td><td>Ethernet</td><td>Backbone routing</td></tr>
+    <tr><td>B-MD</td><td>Zigbee</td><td>Metering device</td><td>N/A</td><td>N/A</td><td>802.15.4</td><td>Wireless metering</td></tr>
+    <tr><td>B-SS</td><td>IP</td><td>Scheduling server</td><td>N/A</td><td>N/A</td><td>Ethernet</td><td>Facility scheduling</td></tr>
+  </tbody>
+</table>

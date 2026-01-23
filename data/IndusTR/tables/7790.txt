@@ -1,0 +1,16 @@
+<table>
+  <caption>Logistics M2M Functional Testing Overview (Module-Level Only)</caption>
+  <thead>
+    <tr><th>Area</th><th>Test Item / Module</th><th>Scope Description</th><th>Owner</th><th>Status</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Terminal</td><td>Logistics M2M Terminal Management</td><td>Terminal lifecycle management coverage</td><td>QA-A</td><td>Planned</td></tr>
+    <tr><td>Terminal</td><td>Terminal Security & Credentials</td><td>Authentication and authorization at terminal level</td><td>QA-A</td><td>In Progress</td></tr>
+    <tr><td>Platform</td><td>Logistics M2M Application Platform Management</td><td>Platform configuration and business info maintenance</td><td>QA-B</td><td>Planned</td></tr>
+    <tr><td>Platform</td><td>Service Access & Integration</td><td>API access and partner onboarding validation</td><td>QA-B</td><td>Blocked</td></tr>
+    <tr><td>Operations</td><td>Monitoring & Alarming</td><td>Basic monitoring and alert routing checks</td><td>QA-C</td><td>In Progress</td></tr>
+    <tr><td>Operations</td><td>Fault Management</td><td>Fault workflows at module level</td><td>QA-C</td><td>Planned</td></tr>
+    <tr><td>Data</td><td>Reporting & Analytics</td><td>Report generation and dashboard visibility</td><td>QA-D</td><td>Planned</td></tr>
+    <tr><td>Compliance</td><td>Audit & Logging</td><td>Audit events retention and export</td><td>QA-D</td><td>Not Started</td></tr>
+  </tbody>
+</table>

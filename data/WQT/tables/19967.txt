@@ -1,0 +1,12 @@
+# Intel Chipsets with Explicit Windows 10 Compatibility Notes (Desktop, Mobile, Workstation)
+
+| Intel chipset series | Example chipset models | Typical platforms | Windows 10 compatibility statement | Driver availability angle | Practical check items |
+|---|---|---|---|---|---|
+| Intel 100 Series | H110, B150, H170, Z170 | 6th Gen Core desktops | Windows 10 supported | Intel chipset INF for Windows 10 | Confirm OEM BIOS updates and LAN/audio Win10 drivers |
+| Intel 200 Series | B250, H270, Z270 | 7th Gen Core desktops | Windows 10 supported | Windows 10 driver packages widely available | Verify USB 3.x controller drivers via OEM if needed |
+| Intel 8 Series (mobile) | HM87, QM87 | 4th Gen Core laptops/workstations | Windows 10 supported | Chipset device software for Windows 10 | Ensure graphics (HD 4xxx) Win10 driver availability from Intel/OEM |
+| Intel 9 Series | H97, Z97 | 4th/5th Gen Core desktops | Windows 10 compatible | Windows 10 chipset INF + OEM drivers | Check storage controller mode (AHCI/RAID) driver support |
+| Intel C220 Series (workstation/server entry) | C222, C224, C226 | Xeon E3 v3 workstations | Windows 10 supported (workstation scenarios) | Intel RST/INF Windows 10 support common | Confirm NIC model (Intel I21x) Win10 driver availability |
+| Intel 300 Series | H310, B360, Z370 | 8th/9th Gen Core desktops | Windows 10 supported | Windows 10 drivers standard | OEM USB and MEI components may require vendor package |
+| Intel 400 Series | B460, H470, Z490 | 10th Gen Core desktops | Windows 10 supported | Full Windows 10 driver stacks | Verify TPM/firmware settings if dual-booting |
+| Intel 500 Series | B560, H570, Z590 | 11th Gen Core desktops | Windows 10 supported | Full Windows 10 driver stacks | Check Wi‑Fi/BT module drivers (often Intel AX series) |

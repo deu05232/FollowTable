@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre 8b/10b K-Code Control Character Reference (Generic Meanings Only)</caption>
+  <thead>
+    <tr><th>K-Code</th><th>Common Label</th><th>Typical Meaning</th><th>Running Disparity</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>K28.5</td><td>Comma</td><td>Comma alignment character</td><td>+2 / -2</td></tr>
+    <tr><td>K28.7</td><td>Control Marker</td><td>Used as a control marker in multiple contexts</td><td>0</td></tr>
+    <tr><td>K27.7</td><td>Fill</td><td>Fill / padding character</td><td>+2 / -2</td></tr>
+    <tr><td>K29.7</td><td>EOP</td><td>End of Packet</td><td>+2 / -2</td></tr>
+    <tr><td>K30.7</td><td>EEP</td><td>Error End of Packet</td><td>+2 / -2</td></tr>
+    <tr><td>K23.7</td><td>Idle Substitute</td><td>May be used as an idling substitute in some mappings</td><td>+2 / -2</td></tr>
+    <tr><td>K0.0</td><td>RxError</td><td>Receive error indication character</td><td>Not applicable</td></tr>
+  </tbody>
+</table>

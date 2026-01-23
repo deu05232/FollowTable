@@ -1,0 +1,15 @@
+<table>
+  <caption>Tracking & Traceability Data Provision to External Parties (Request/Response and Push Notifications)</caption>
+  <thead>
+    <tr><th>Distribution Trigger</th><th>External Requester / Recipient</th><th>Access Channel</th><th>Request / Subscription Content</th><th>Information Returned (Tracking/Traceability)</th><th>Response Type</th><th>Service Outcome Returned</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>On-demand query</td><td>Shipper / Exporter</td><td>Web portal / API</td><td>Container number + booking number</td><td>Milestone timeline (gate-in, loaded on vessel, departed)</td><td>Synchronous response</td><td>Success + payload + timestamp</td></tr>
+    <tr><td>On-demand query</td><td>Consignee / Importer</td><td>Web portal / API</td><td>B/L number + container number</td><td>Current status + last known location + ETA</td><td>Synchronous response</td><td>Success / Not found (with reason code)</td></tr>
+    <tr><td>On-demand query</td><td>Freight forwarder</td><td>EDI/API</td><td>Shipment reference list (batch)</td><td>Batch status summary + exception flags (delay, roll-over)</td><td>Asynchronous job result</td><td>Accepted (job-id) then Completed (result link)</td></tr>
+    <tr><td>Event-driven push</td><td>Notify party</td><td>Webhook / Email</td><td>Subscription to events for a shipment</td><td>Milestone event notice (arrived at port, discharged, customs release)</td><td>Proactive notification</td><td>Delivered / Delivery failed (retry scheduled)</td></tr>
+    <tr><td>Event-driven push</td><td>Trucking company</td><td>API / Mobile message</td><td>Pickup appointment + container ID</td><td>Release availability + pickup window + terminal instructions</td><td>Proactive notification</td><td>Delivered + correlation id</td></tr>
+    <tr><td>Partner reconciliation request</td><td>Carrier / Shipping line</td><td>API</td><td>Discrepancy inquiry (event-id)</td><td>Traceability detail for the event (source, time, location code)</td><td>Synchronous response</td><td>Success + audit reference</td></tr>
+    <tr><td>Periodic push (scheduled)</td><td>Customs broker</td><td>SFTP report</td><td>Daily subscribed shipment list</td><td>Daily tracking digest + change log since last report</td><td>Proactive distribution</td><td>File posted + checksum</td></tr>
+  </tbody>
+</table>

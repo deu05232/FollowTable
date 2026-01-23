@@ -1,0 +1,10 @@
+<table>
+  <caption>Create AR session with environment/context and returned session pointer (extended)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>env</td><td>void *</td><td>Runtime environment pointer passed from the host</td></tr>
+  <tr><td>context</td><td>void *</td><td>Application context pointer used during initialization</td></tr>
+  <tr><td>out_session_pointer</td><td>ArSession **</td><td>Output location that receives the new session instance</td></tr>
+  <tr><td>requested_features</td><td>ArSessionFeature *</td><td>Optional list of features to enable at creation time</td></tr>
+  <tr><td>feature_count</td><td>int32_t</td><td>Number of entries in the requested feature list</td></tr>
+  <tr><td>out_required_version</td><td>int32_t *</td><td>Output receiving the minimum supported runtime version for these features</td></tr>
+</table>

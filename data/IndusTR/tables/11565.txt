@@ -1,0 +1,11 @@
+<table>
+  <caption>Charging CAN Payload Layout for Vehicle Charging Parameter Message (BCP)</caption>
+  <tr><th>Start Byte or Bit</th><th>Length</th><th>SPN</th><th>SPN Definition</th><th>Transmission Option</th></tr>
+  <tr><td>1</td><td>2 bytes</td><td>2816</td><td>Maximum allowable charging voltage of a single traction battery cell</td><td>Required</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>2817</td><td>Maximum allowable charging current</td><td>Required</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>2818</td><td>Nominal total energy of the traction battery</td><td>Required</td></tr>
+  <tr><td>7</td><td>2 bytes</td><td>2820</td><td>Battery rated capacity</td><td>Required</td></tr>
+  <tr><td>9</td><td>2 bytes</td><td>2821</td><td>Target battery voltage</td><td>Optional</td></tr>
+  <tr><td>11</td><td>2 bytes</td><td>2822</td><td>Target battery current</td><td>Optional</td></tr>
+  <tr><td>13</td><td>1 byte</td><td>2823</td><td>Charging mode indicator</td><td>Optional</td></tr>
+</table>

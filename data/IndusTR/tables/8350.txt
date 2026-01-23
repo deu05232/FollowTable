@@ -1,0 +1,7 @@
+<table>
+  <caption>Face augmentation features and notes</caption>
+  <tr><th>Feature overview</th><th>Typical use and limitations</th><th>Reference constant</th></tr>
+  <tr><td>Beauty filter</td><td>Applies smoothing; may reduce performance on low-end devices.</td><td>AR_FACE_FEATURE_BEAUTY = 0</td></tr>
+  <tr><td>3D mesh overlay</td><td>Renders a mesh; requires good lighting and close distance.</td><td>AR_FACE_FEATURE_MESH = 1</td></tr>
+  <tr><td>Occlusion</td><td>Uses depth cues for occlusion; quality varies by device.</td><td>AR_FACE_FEATURE_OCCLUSION = 2</td></tr>
+</table>

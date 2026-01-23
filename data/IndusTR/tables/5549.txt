@@ -1,0 +1,78 @@
+<table>
+  <caption>Twin-Screw Extruder and Calender VFD Status Data Item Information Table</caption>
+  <tr><td>No.</td><td>Data Item Name</td><td>Data Item Meaning Description</td><td>Alias</td><td>Data Type</td><td>Length bit</td><td>Value Range</td><td>Value Meaning</td><td>Logical Relationship with Other Data Items</td></tr>
+  <tr><td>1</td><td>Extruder VFD run enabled</td><td>VFD device status allows run operation</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Run not allowed 1: Run allowed</td><td></td></tr>
+  <tr><td>2</td><td>Extruder VFD ready (VFD device in ready state)</td><td>Extruder VFD ready (VFD device in ready state)</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not ready 1: Ready</td><td></td></tr>
+  <tr><td>3</td><td>Calender VFD run enabled</td><td>VFD device status allows run operation</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Run not allowed 1: Run allowed</td><td></td></tr>
+  <tr><td>4</td><td>Calender VFD ready</td><td>VFD device is in ready state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not ready 1: Ready</td><td></td></tr>
+  <tr><td>5</td><td>Communication of each sub-station</td><td>Communication of each sub-station is normal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Abnormal 1: Normal</td><td></td></tr>
+  <tr><td>6</td><td>Extruder VFD normal</td><td>Extruder VFD device status is normal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Abnormal 1: Normal</td><td></td></tr>
+  <tr><td>7</td><td>Calender VFD normal</td><td>Calender VFD device status is normal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Abnormal 1: Normal</td><td></td></tr>
+  <tr><td>8</td><td>Gap-adjustment VFD normal</td><td>Gap-adjustment VFD device status is normal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Abnormal 1: Normal</td><td></td></tr>
+  <tr><td>9</td><td>Extruder lubrication motor normal</td><td>Extruder lubrication motor device status is normal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Abnormal 1: Normal</td><td></td></tr>
+  <tr><td>10</td><td>Extruder lubrication fan normal</td><td>Extruder lubrication fan device status is normal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Abnormal 1: Normal</td><td></td></tr>
+  <tr><td>11</td><td>24V power supply normal</td><td>24V power supply status is normal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Abnormal 1: Normal</td><td></td></tr>
+  <tr><td>12</td><td>Analog module ready</td><td>Analog module ready</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not ready 1: Ready</td><td></td></tr>
+  <tr><td>13</td><td>Manual status</td><td>Illuminated button, manual</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Ready</td><td></td></tr>
+  <tr><td>14</td><td>Automatic status</td><td>Selector knob device, used to select manual or automatic</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Manual 1: Automatic</td><td></td></tr>
+  <tr><td>15</td><td>Extruder running</td><td>Extruder device is running</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Stop 1: Run</td><td></td></tr>
+  <tr><td>16</td><td>Calender running</td><td>Calender device is running</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Stop 1: Run</td><td></td></tr>
+  <tr><td>17</td><td>Extruder accelerating</td><td>Extruder device performs acceleration operation</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not accelerating 1: Accelerating</td><td></td></tr>
+  <tr><td>18</td><td>Extruder decelerating</td><td>Extruder device performs deceleration operation</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not decelerating 1: Decelerating</td><td></td></tr>
+  <tr><td>19</td><td>Cycle end setting</td><td>Whether the cycle has ended</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not ended 1: Ended</td><td></td></tr>
+  <tr><td>20</td><td>Calender accelerating</td><td>Calender device performs acceleration operation</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not accelerating 1: Accelerating</td><td></td></tr>
+  <tr><td>21</td><td>Calender decelerating</td><td>Calender device performs deceleration operation</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not decelerating 1: Decelerating</td><td></td></tr>
+  <tr><td>22</td><td>Accumulated rubber manual setting</td><td>Whether accumulated rubber is in manual mode</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not manual 1: Manual</td><td></td></tr>
+  <tr><td>23</td><td>Gap adjustment ON</td><td>Gap adjustment status is ON</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: OFF 1: ON</td><td></td></tr>
+  <tr><td>24</td><td>Gap adjustment OFF</td><td>Gap adjustment status is OFF</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: ON 1: OFF</td><td></td></tr>
+  <tr><td>25</td><td>Fault reset</td><td>Fault reset command</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not reset 1: Reset</td><td></td></tr>
+  <tr><td>26</td><td>Compound jammed</td><td>Whether the compound is jammed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not jammed 1: Jammed</td><td></td></tr>
+  <tr><td>27</td><td>Hopper low level</td><td>Hopper is in low-level state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Low level</td><td></td></tr>
+  <tr><td>28</td><td>Gap adjustment OFF</td><td>Gap adjustment status is OFF</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: ON 1: OFF</td><td></td></tr>
+  <tr><td>29</td><td>Fault reset</td><td>Fault reset command</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not reset 1: Reset</td><td></td></tr>
+  <tr><td>30</td><td>Compound jammed</td><td>Whether the compound is jammed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not jammed 1: Jammed</td><td></td></tr>
+  <tr><td>31</td><td>Hopper low level</td><td>Hopper is in low-level state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Low level</td><td></td></tr>
+  <tr><td>32</td><td>Hopper mid level</td><td>Hopper is in mid-level state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Mid level</td><td></td></tr>
+  <tr><td>33</td><td>Hopper high level</td><td>Hopper is in high-level state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: High level</td><td></td></tr>
+  <tr><td>34</td><td>Left safety pin damaged</td><td>Whether the safety pin status is damaged</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Damaged</td><td></td></tr>
+  <tr><td>35</td><td>Right safety pin damaged</td><td>Whether the safety pin status is damaged</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Damaged</td><td></td></tr>
+  <tr><td>36</td><td>1# hopper door closed monitoring</td><td>Monitor whether the hopper door status is closed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not closed 1: Hopper door closed</td><td></td></tr>
+  <tr><td>37</td><td>2# hopper door closed monitoring</td><td>Monitor whether the hopper door status is closed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not closed 1: Hopper door closed</td><td></td></tr>
+  <tr><td>38</td><td>Extruder gearbox lubrication level detection</td><td>Extruder gearbox lubrication level status monitoring</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>39</td><td>Gearbox lubrication flow</td><td>Whether there is flow for gearbox lubrication</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: No flow 1: Flow present</td><td></td></tr>
+  <tr><td>40</td><td>Extruder bearing temperature high 1</td><td>Whether extruder bearing temperature reaches temperature 1</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Reached temperature 1</td><td></td></tr>
+  <tr><td>41</td><td>Extruder bearing temperature high 2</td><td>Whether extruder bearing temperature reaches temperature 2</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Reached temperature 2</td><td></td></tr>
+  <tr><td>42</td><td>Accumulated compound detected</td><td>Whether accumulated compound is detected</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Detected/in position</td><td></td></tr>
+  <tr><td>43</td><td>Calender pull-rope emergency stop</td><td>Calender is in pull-rope emergency stop state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Emergency stop</td><td></td></tr>
+  <tr><td>44</td><td>Calender bearing temperature high 1</td><td>Calender bearing reaches temperature 1</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1; Reached temperature 1</td><td></td></tr>
+  <tr><td>45</td><td>Calender bearing temperature high 2</td><td>Calender bearing reaches temperature 2</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Reached temperature 2</td><td></td></tr>
+  <tr><td>46</td><td>Roll gap upper limit</td><td>Whether the roll gap reaches the upper limit</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Reached roll gap upper limit</td><td></td></tr>
+  <tr><td>47</td><td>Roll gap lower limit</td><td>Whether the roll gap reaches the lower limit</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Reached roll gap lower limit</td><td></td></tr>
+  <tr><td>48</td><td>Displacement sensor abnormal (whether displacement sensor is abnormal)</td><td>Displacement sensor abnormal (whether displacement sensor is abnormal)</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Abnormal</td><td></td></tr>
+  <tr><td>49</td><td>Extruder run/stop</td><td>Extruder device running status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Stop 1: Run</td><td></td></tr>
+  <tr><td>50</td><td>Calender run/stop</td><td>Calender device running status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Stop 1: Run</td><td></td></tr>
+  <tr><td>51</td><td>Gap adjustment ON</td><td>Gap adjustment ON status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: OFF 1: ON</td><td></td></tr>
+  <tr><td>52</td><td>Gap adjustment OFF</td><td>Gap adjustment OFF status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: ON 1: OFF</td><td></td></tr>
+  <tr><td>53</td><td>Roll gap adjustment high speed</td><td>Roll gap adjustment is in high-speed state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: High speed</td><td></td></tr>
+  <tr><td>54</td><td>Roll gap adjustment low speed</td><td>Roll gap adjustment is in low speed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Low speed</td><td></td></tr>
+  <tr><td>55</td><td>Manual/Auto</td><td>Control mode</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Manual 1: Auto</td><td></td></tr>
+  <tr><td>56</td><td>Extruder lubrication motor contactor</td><td>Extruder lubrication motor contactor energized</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not energized 1: Energized</td><td></td></tr>
+  <tr><td>57</td><td>Extruder fan contactor</td><td>Extruder fan contactor energized</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not energized 1: Energized</td><td></td></tr>
+  <tr><td>58</td><td>Emergency stop</td><td>Emergency stop signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not emergency-stopped 1: Emergency stop</td><td></td></tr>
+  <tr><td>59</td><td>Gap-adjustment motor brake engaged</td><td>Gap-adjustment motor is in brake-engaged state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Brake not engaged 1: Brake engaged</td><td></td></tr>
+  <tr><td>60</td><td>Extruder lubrication fan</td><td>Extruder lubrication fan started</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not started 1: Started</td><td></td></tr>
+  <tr><td>61</td><td>Control cabinet fan relay</td><td>Control cabinet fan relay energized</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not energized 1: Energized</td><td></td></tr>
+  <tr><td>62</td><td>Extrusion/calender ready indicator light</td><td>Extrusion/calender ready indicator light ON</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Indicator off 1: Indicator on</td><td></td></tr>
+  <tr><td>63</td><td>Extrusion/calender fault indicator light</td><td>Extrusion/calender fault indicator light ON</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Indicator off 1: Indicator on</td><td></td></tr>
+  <tr><td>64</td><td>Extruder running indicator light</td><td>Extruder running indicator light ON</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Indicator off 1: Indicator on</td><td></td></tr>
+  <tr><td>65</td><td>Calender running indicator light</td><td>Calender running indicator light ON</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Indicator off 1: Indicator on</td><td></td></tr>
+  <tr><td>66</td><td>Calender lubrication solenoid valve</td><td>Calender lubrication solenoid valve energized</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not energized 1: Energized</td><td></td></tr>
+  <tr><td>67</td><td>Extruder power</td><td>Extruder power value</td><td></td><td>INT</td><td>16</td><td>0kW~315kW</td><td></td><td></td></tr>
+  <tr><td>68</td><td>Extruder current</td><td>Extruder current value</td><td></td><td>INT</td><td>16</td><td>0A~600A</td><td></td><td></td></tr>
+  <tr><td>69</td><td>Extruder speed</td><td>Extruder speed value</td><td></td><td>INT</td><td>16</td><td>0r/min~1 000 r/min</td><td></td><td></td></tr>
+  <tr><td>70</td><td>Calender power</td><td>Calender power value</td><td></td><td>INT</td><td>16</td><td>0kW~315kW</td><td></td><td></td></tr>
+  <tr><td>71</td><td>Calender current</td><td>Calender current value</td><td></td><td>INT</td><td>16</td><td>0A~600A</td><td></td><td></td></tr>
+  <tr><td>72</td><td>Calender speed</td><td>Calender speed value</td><td></td><td>INT</td><td>16</td><td>0r/min~1 000 r/min</td><td></td><td></td></tr>
+  <tr><td>73</td><td>Calender roll gap</td><td>Calender roll gap value</td><td></td><td>INT</td><td>16</td><td>0mm~200 mm</td><td></td><td></td></tr>
+  <tr><td>74</td><td>Extrusion pressure</td><td>Extrusion pressure value</td><td></td><td>INT</td><td>16</td><td>0N~150 000 N</td><td></td><td></td></tr>
+</table>

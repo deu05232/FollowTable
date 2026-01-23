@@ -1,0 +1,7 @@
+<table>
+  <caption>Envelope header timeline and technical identifiers (Exchange Header Envelope)</caption>
+  <tr><td>Data Field</td><td>English Name</td><td>Constraints</td><td>Maximum Occurrences</td><td>Data Type</td><td>Definition</td></tr>
+  <tr><td>Header Creation Date Time</td><td>Header Creation Date Time</td><td>Mandatory</td><td>1</td><td>Date Time</td><td>Date and time when the envelope header was created</td></tr>
+  <tr><td>Header Transmission Date Time</td><td>Header Transmission Date Time</td><td>Optional</td><td>1</td><td>Date Time</td><td>Date and time when the envelope was transmitted</td></tr>
+  <tr><td>Envelope Version Identifier</td><td>Envelope Version Identifier</td><td>Mandatory</td><td>1</td><td>String</td><td>Version identifier used for envelope processing</td></tr>
+</table>

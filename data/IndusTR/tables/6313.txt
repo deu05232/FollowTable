@@ -1,0 +1,15 @@
+<table>
+  <caption>International Tracking & Traceability Metrics by Operational Area (Non-Process Overview)</caption>
+  <thead>
+    <tr><th>Operational Area</th><th>Tracking Scope</th><th>Common Metrics</th><th>Data Quality Focus</th><th>Typical Reporting Frequency</th><th>Example Tools / Channels</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Export Booking & Documentation</td><td>Document readiness and booking confirmation visibility</td><td>Doc completeness rate; booking confirmation time</td><td>Identifier consistency (B/L, booking ID)</td><td>Daily</td><td>EDI 301/304, web portals</td></tr>
+    <tr><td>Origin Terminal Handling</td><td>Gate and yard activity visibility</td><td>Gate dwell time; yard re-handle rate</td><td>Timestamp accuracy; event duplication</td><td>Hourly</td><td>TOS feeds, API events</td></tr>
+    <tr><td>Ocean Transport</td><td>Vessel movement and ETA visibility</td><td>ETA error (hours); schedule reliability</td><td>Update latency; route anomalies</td><td>4-hourly</td><td>AIS, carrier schedules</td></tr>
+    <tr><td>Transshipment</td><td>Connection visibility across hubs</td><td>MCT miss rate; connection success rate</td><td>Port code normalization</td><td>Per voyage</td><td>Port community systems</td></tr>
+    <tr><td>Import Customs & Inspection</td><td>Regulatory decision visibility</td><td>Release lead time; hold frequency</td><td>Status code correctness</td><td>Daily</td><td>Single window status</td></tr>
+    <tr><td>Destination Terminal & Gate Out</td><td>Pickup readiness and gate-out visibility</td><td>Demurrage incidents; pickup cycle time</td><td>Appointment adherence</td><td>Hourly</td><td>Gate appointment systems</td></tr>
+    <tr><td>Inland Delivery</td><td>Final delivery traceability</td><td>On-time delivery; POD capture rate</td><td>Geo-fence accuracy</td><td>Per shipment</td><td>Telematics, ePOD apps</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,19 @@
+<table>
+  <caption>SM9 Signature Verification Interface (Broken Prototype Across Cells)</caption>
+  <thead>
+    <tr><th>Item</th><th>Column A</th><th>Column B</th><th>Column C</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Prototype</td><td>int SAF_SM9Verify(</td><td>void *hAppHandle, unsigned int uiMasterPublicKeyIndex,</td><td>unsigned char* pucUserID</td></tr>
+    <tr><td>Prototype (cont.)</td><td>, unsigned int uiUserIDLen,</td><td>unsigned char* pucData, unsigned int uiDataLength,</td><td>unsigned char* pucSignData</td></tr>
+    <tr><td>Prototype (cont.)</td><td>, unsigned int uiSignDataLen</td><td>)</td><td>;</td></tr>
+    <tr><td>Description</td><td colspan="3">Verify SM9 signature with user identity and master public key (GB/T 41389).</td></tr>
+    <tr><td rowspan="7">Parameters</td><td>hAppHandle [in]</td><td colspan="2">Application interface handle</td></tr>
+    <tr><td>uiMasterPublicKeyIndex [in]</td><td colspan="2">Signature master public key index</td></tr>
+    <tr><td>pucUserID [in]</td><td colspan="2">User identity (DER-encoded)</td></tr>
+    <tr><td>uiUserIDLen [in]</td><td colspan="2">Length of user identity</td></tr>
+    <tr><td>pucData [in]</td><td colspan="2">Message data</td></tr>
+    <tr><td>uiDataLength [in]</td><td colspan="2">Length of message data</td></tr>
+    <tr><td>pucSignData [in]</td><td colspan="2">Signature blob</td></tr>
+  </tbody>
+</table>

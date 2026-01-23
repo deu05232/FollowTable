@@ -1,0 +1,11 @@
+<table>
+  <caption>Photodetector Assembly Performance Summary (Single-Value Specs)</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>Test Conditions</th><th>Typical</th><th>Unit</th><th>Notes</th></tr>
+  <tr><td>Spectral response (band)</td><td>λ</td><td>Room temperature</td><td>1260–1700</td><td>nm</td><td>Presented as a band in one cell; no Min/Max columns</td></tr>
+  <tr><td>Responsivity</td><td>R</td><td>λ=1310 nm, Pin=1 µW</td><td>0.85</td><td>A/W</td><td>Typical only</td></tr>
+  <tr><td>Dark current</td><td>ID</td><td>VR=5 V, Ta=25 °C</td><td>2.0</td><td>nA</td><td>Single-point value</td></tr>
+  <tr><td>Bandwidth</td><td>f3dB</td><td>RL=50 Ω</td><td>1.2</td><td>GHz</td><td>Single-point value</td></tr>
+  <tr><td>Optical return loss</td><td>ORL</td><td>High return-loss configuration</td><td>26</td><td>dB</td><td>Listed as a single value</td></tr>
+  <tr><td>Supply voltage</td><td>VCC</td><td>Nominal operation</td><td>3.3</td><td>V</td><td>Nominal only</td></tr>
+  <tr><td>Operating case temperature</td><td>Tcase</td><td>Commercial grade</td><td>-5 to +75</td><td>°C</td><td>Range embedded in one cell (not separate bounds)</td></tr>
+</table>

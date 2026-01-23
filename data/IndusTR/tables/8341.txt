@@ -1,0 +1,15 @@
+<table>
+  <caption>Mechanical Reliability and Ingress Protection Verification for Beidou Monitoring Terminals</caption>
+  <thead>
+    <tr><th>Test item</th><th>Sub-item</th><th>Test parameters</th><th>Test conditions</th><th>Acceptance / functional expectations</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Vibration (random)</td><td>Vehicle-mounted (in-cab)</td><td>10–500 Hz, 5.0 grms, 3 axes, 30 min/axis</td><td>Mounted on representative bracket; powered on; normal harness connection</td><td>No intermittent power/communication loss; no loose fasteners; post-test functional check passes</td></tr>
+    <tr><td>Vehicle-mounted (external)</td><td>10–500 Hz, 7.7 grms, 3 axes, 60 min/axis</td><td>Mounted to exterior frame; powered on; connectors locked</td><td>No connector disengagement; enclosure remains sealed; functions normal after test</td></tr>
+    <tr><td>Mechanical shock</td><td>Half-sine</td><td>30 g, 11 ms, 3 axes, 3 shocks/dir (18 total)</td><td>Not powered during shock; functional inspection after completion</td><td>No cracks or permanent deformation; terminal boots and operates normally</td></tr>
+    <tr><td>Drop</td><td>Free-fall (packaged / unpackaged)</td><td>1.0 m (unpackaged) × 6 faces; 0.8 m (packaged) × 10 drops</td><td>Unpackaged: powered off; Packaged: as shipped</td><td>No functional failure after test; no screen/connector damage affecting operation</td></tr>
+    <tr><td>Ingress protection</td><td>Dust / water</td><td>IP65 (in-cab) or IP66 (external); dust 8 h; water jet 3 min</td><td>All covers closed; connectors mated with seals; powered off during spray</td><td>No dust ingress affecting operation; no water ingress; normal power-on after test</td></tr>
+    <tr><td>Connector retention</td><td>Pull-out force</td><td>Power/data connector ≥80 N; 10 cycles mate/unmate</td><td>Room temperature; standard mating procedure</td><td>No pin damage; no looseness; contact resistance not degraded to cause functional issues</td></tr>
+    <tr><td>Fastener torque endurance</td><td>Screw/bolt integrity</td><td>3 tighten–loosen cycles at nominal torque; visual + functional check</td><td>Mounted assembly</td><td>No stripped threads; no mounting failure; terminal remains securely mounted and functional</td></tr>
+  </tbody>
+</table>

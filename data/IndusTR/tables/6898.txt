@@ -1,0 +1,14 @@
+<table>
+  <caption>CAN Charging Communication Message CHM - Payload Signal Layout</caption>
+  <thead>
+    <tr><th>Message Code</th><th>PGN (Hex)</th><th>Byte.Start</th><th>Bit.Start</th><th>Bit Length</th><th>Signal (SPN)</th><th>Signal Definition</th><th>Scaling</th><th>Unit</th><th>Value/Enum</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">CHM</td><td rowspan="6">0x002600</td><td>1</td><td>0</td><td>8</td><td>SPN 2600</td><td>Protocol Version - Major</td><td>1</td><td>-</td><td>0x00..0xFF</td></tr>
+    <tr><td>2</td><td>0</td><td>8</td><td>SPN 2601</td><td>Protocol Version - Minor</td><td>1</td><td>-</td><td>0x00..0xFF</td></tr>
+    <tr><td>3</td><td>0</td><td>8</td><td>SPN 2602</td><td>Protocol Version - Patch</td><td>1</td><td>-</td><td>0x00..0xFF</td></tr>
+    <tr><td>4</td><td>0</td><td>4</td><td>SPN 2603</td><td>Handshake Stage</td><td>1</td><td>-</td><td>0=Init;1=Hello;2=Wait;3=Done</td></tr>
+    <tr><td>4</td><td>4</td><td>4</td><td>SPN 2604</td><td>Compatibility Flags</td><td>bitfield</td><td>-</td><td>b0=ExtID;b1=FD;b2=Auth;b3=Reserved</td></tr>
+    <tr><td>5</td><td>0</td><td>16</td><td>SPN 2605</td><td>Charger Session Token (LSW)</td><td>1</td><td>-</td><td>0..65535</td></tr>
+  </tbody>
+</table>

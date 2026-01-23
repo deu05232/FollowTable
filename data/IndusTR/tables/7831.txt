@@ -1,0 +1,7 @@
+<table>
+  <caption>Charging session message 0x03 (Charger abort) parameter layout</caption>
+  <tr><th>Field Order</th><th>What the field represents</th><th>Size</th><th>Encoding / value form</th><th>How to interpret it</th></tr>
+  <tr><td>1</td><td>Message identifier for this payload</td><td>1 byte</td><td>Unsigned byte (fixed)</td><td>Always the value 0x03 so the receiver can recognize this message type</td></tr>
+  <tr><td>2</td><td>Abort category</td><td>1 byte</td><td>Unsigned byte (enumeration)</td><td>Indicates the general class of abort, used to decide which follow-up handling applies</td></tr>
+  <tr><td>3</td><td>Abort reason detail</td><td>2 bytes</td><td>2-byte code</td><td>More specific reason information associated with the abort category</td></tr>
+</table>

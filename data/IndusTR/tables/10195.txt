@@ -1,0 +1,14 @@
+<table>
+  <caption>Supported Lateral Move Assessment — Pass Criteria Split by Gender (Violations and Time)</caption>
+  <thead>
+    <tr><th>Assessment Module</th><th>Observation Point</th><th>Violation Definition</th><th>Max Violations (Pass)</th><th>Men: Max Time (s)</th><th>Women: Max Time (s)</th><th>Retest Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Supported Lateral Move</td><td>Body touches the mat</td><td>Each body-to-mat contact counts as 1 violation</td><td>≤ 1</td><td>≤ 60</td><td>≤ 65</td><td rowspan="6">If violations exceed the limit OR time exceeds the gender threshold, one retest is allowed</td></tr>
+    <tr><td>Hands leave the support</td><td>Any loss of required support counts as 1 violation</td><td>≤ 1</td><td>≤ 60</td><td>≤ 65</td></tr>
+    <tr><td>Incorrect travel direction</td><td>Movement not perpendicular to the reference line counts as 1 violation</td><td>≤ 1</td><td>≤ 60</td><td>≤ 65</td></tr>
+    <tr><td>Stops during movement</td><td>Any full stop longer than 1 second counts as 1 violation</td><td>≤ 1</td><td>≤ 60</td><td>≤ 65</td></tr>
+    <tr><td>Exits the marked lane</td><td>Any step outside the boundary counts as 1 violation</td><td>≤ 1</td><td>≤ 60</td><td>≤ 65</td></tr>
+    <tr><td>Fails to complete required distance</td><td>Not reaching the finish marker counts as automatic failure</td><td>0 (must complete)</td><td>≤ 60</td><td>≤ 65</td></tr>
+  </tbody>
+</table>

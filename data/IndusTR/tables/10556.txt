@@ -1,0 +1,11 @@
+<table>
+  <caption>Terrestrial eco-meteorological event record format (mixed with station address fields)</caption>
+  <tr><th>Serial No.</th><th>Record Content</th><th>Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Station address</td><td>D_ADDRESS</td><td>Variable characters(300)</td><td>Variable-length character data</td></tr>
+  <tr><td>3</td><td>Data time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>4</td><td>Natural disaster / abnormal ecological event code</td><td>NE_CODE</td><td>Characters(4)</td><td>In the VVVV format of Table B.xx</td></tr>
+  <tr><td>5</td><td>Event description (optional)</td><td>NE_DESC</td><td>Variable characters(200)</td><td>Free-text</td></tr>
+  <tr><td>6</td><td>Longitude</td><td>D_LON</td><td>Number(9,6)</td><td>Degrees</td></tr>
+  <tr><td>7</td><td>Latitude</td><td>D_LAT</td><td>Number(9,6)</td><td>Degrees</td></tr>
+</table>

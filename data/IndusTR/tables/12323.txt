@@ -1,0 +1,15 @@
+<table>
+  <caption>Scope 2 Electricity Activity Data and CO2 Emission Factors (Market- and Location-based)</caption>
+  <thead>
+    <tr><th>Accounting Approach</th><th>Electricity Flow Type</th><th>Supplier / Instrument</th><th>Activity Quantity (MWh)</th><th>CO2 Emission Factor (tCO2/MWh)</th><th>Calculated Emissions (tCO2)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Market-based</td><td>Purchased (grid contract)</td><td>Utility A (standard tariff)</td><td></td><td></td><td></td><td>Use supplier-specific factor if available</td></tr>
+    <tr><td>Purchased (PPA)</td><td>Renewable PPA (wind)</td><td></td><td></td><td></td><td>Factor may be 0 if backed by EACs</td></tr>
+    <tr><td>Purchased (unbundled EAC)</td><td>REC / GO certificate</td><td></td><td></td><td></td><td>Report zero only if quality criteria met</td></tr>
+    <tr><td>Exported to grid</td><td>On-site generation export</td><td></td><td></td><td></td><td>Use grid export factor per guidance</td></tr>
+    <tr><td rowspan="3">Location-based</td><td>Purchased (grid average)</td><td>National grid average</td><td></td><td></td><td></td><td>Use regional residual mix where required</td></tr>
+    <tr><td>Purchased (subnational)</td><td>Regional grid factor</td><td></td><td></td><td></td><td>Choose the factor aligned to site location</td></tr>
+    <tr><td>Exported to grid</td><td>Grid export factor</td><td></td><td></td><td></td><td>Keep sign convention consistent in totals</td></tr>
+  </tbody>
+</table>

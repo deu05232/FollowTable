@@ -1,0 +1,19 @@
+<table>
+  <caption>Dynamical dark energy constraints from current data. The “vanilla” parameter space is spanned by the six parameters ( h , ω m , ω b , τ , A , n s ). The cosmological probes used are: bias = SDSS galaxy bias, CMB = WMAP CMB power spectra, Ly- α = SDSS Lyman- α , P ⁢ ( k ) = SDSS galaxy power spectrum, SN Ia = SN Ia “gold set”, X-ray = Chandra X-ray clusters.</caption>
+  <tr><th>Ref.</th><th>probes included</th><th>parameters varied</th><th>priors</th><th>dark energy constraints</th></tr>
+  <tr><th>[ Riess04 ]</th><td>SN Ia</td><td>w_(0) , w^() , Ω_(m)</td><td>Ω_(m)=0.27± 0.04</td><td>w_(0)=-1.31^(+0.22)_(-0.28) , w^()=1.48^(+0.81)_(-0.90)</td></tr>
+  <tr><th>[ UrosSdssLyaBias ]</th><td>CMB , SN Ia , P(k) , bias , Ly- α</td><td>“vanilla”, w_(0) , w_(a)</td><td>τ<0.3</td><td>w_(0)=-0.981^(+0.193)_(-0.193)^((+0.384)_{-0.373)^((+0.568)_{-0.521) , w_(a)=-0.05^(+0.65)_(-0.83)^((+1.13)_{-1.92)^((+1.38)_{-2.88)</td></tr>
+  <tr><th>[ Hannestad ]</th><td>CMB , SN Ia , P(k)</td><td>“vanilla”, 4 w(z) parameters</td><td>h=0.72± 0.08 , 0<Ω_(m)<1 , 0.014<ω_(b)<0.04 , 0<τ<1 , 0.6w_(0)=-1.43^(+0.16)_(-0.38) , .|_(z=0)=1.0^(+1.0)_(-0.8)</td></tr>
+  <tr><th>[ WangTegmark ]</th><td>SN Ia</td><td>w_(0) , w^() , Ω_(m)</td><td>d_(AC)^((dec))ω_(m)^(1/2)/c=1.716± 0.062 , .Dda|_(z=0.15)=0.51± 0.11</td><td>-1.05</td></tr>
+  <tr><th>[ WangTegmark ]</th><td>SN Ia</td><td>w_(0) , w^() , Ω_(m)</td><td>Ω_(m)=0.27± 0.04</td><td>-1.39</td></tr>
+  <tr><th>[ Alam ]</th><td>SN Ia</td><td>Ω_(m) , 3 w(z) parameters</td><td>d_(AC)^((dec))ω_(m)^(1/2)/c=1.710± 0.137 , ω_(b)=0.024 , ω_(m)=0.14± 0.02</td><td>.|_(0</td></tr>
+  <tr><th>[ Choudhury ]</th><td>SN Ia</td><td>w_(0) , w_(a)</td><td>Ω_(m)=0.27</td><td>w_(0)=-1.38± 0.21 , w_(a)=2.78± 1.32</td></tr>
+  <tr><th>[ Choudhury ]</th><td>SN Ia</td><td>w_(0) , w_(a)</td><td>Ω_(m)=0.31</td><td>w_(0)=-1.35± 0.24 , w_(a)=2.32± 1.56</td></tr>
+  <tr><th>[ Choudhury ]</th><td>SN Ia</td><td>w_(0) , w_(a)</td><td>Ω_(m)=0.35</td><td>w_(0)=-1.3± 0.29 , w_(a)=1.64± 1.95</td></tr>
+  <tr><th>[ Rapetti ]</th><td>CMB , SN Ia , X-ray</td><td>“vanilla”, bias, w_(0) , w_(a)</td><td>bias =0.824± 0.089 , ω_(b)=0.0214± 0.0020 , h=0.72± 0.08</td><td>w_(0)=-1.16^(+0.22)_(-0.19) , w_(0)+w_(a)=-0.05^(+0.09)_(-1.17)</td></tr>
+  <tr><th>[ Rapetti ]</th><td>CMB , SN Ia , X-ray</td><td>“vanilla”, bias, Ω_(K) , w_(0) , w_(a)</td><td>bias =0.824± 0.089 , ω_(b)=0.0214± 0.0020 , h=0.72± 0.08</td><td>w_(0)=-1.14^(+0.31)_(-0.21) , w_(0)+w_(a)=-0.09^(+0.12)_(-2.16)</td></tr>
+  <tr><th>[ Rapetti ]</th><td>CMB , SN Ia , X-ray</td><td>“vanilla”, bias, 3 w(z) parameters</td><td>bias =0.824± 0.089 , ω_(b)=0.0214± 0.0020 , h=0.72± 0.08</td><td>w_(0)=-1.23^(+0.34)_(-0.46) , _(z→∞)w(z)=-0.12^(+0.11)_(-0.76)</td></tr>
+  <tr><th>AU, MI, PJS</th><td>CMB , SN Ia , P(k)</td><td>“vanilla”, w_(0) , w_(1)</td><td>for priors see Table LABEL:tab:priors</td><td>w_(0)=-1.38^(+0.30)_(-0.55) , w_(1)=1.20^(+0.64)_(-1.06) ( 2σ constraints)</td></tr>
+  <tr><th>AU, MI, PJS</th><td>CMB , P(k) , SN Ia (syst. δ m=0.04 )</td><td>“vanilla”, w_(0) , w_(1)</td><td>for priors see Table LABEL:tab:priors</td><td>w_(0)=-1.36^(+0.52)_(-0.56) , w_(1)=1.20^(+0.60)_(-1.88) ( 2σ constraints)</td></tr>
+  <tr><th>AU, MI, PJS</th><td>CMB , SN Ia , P(k)</td><td>“vanilla”, w_(0) , w_(a)</td><td>for priors see Table LABEL:tab:priors</td><td>w_(0)=-1.3^(+0.39)_(-0.34) , w_(a)=1.25^(+0.40)_(-2.17) ( 2σ constraints)</td></tr>
+</table>

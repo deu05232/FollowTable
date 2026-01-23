@@ -1,0 +1,6 @@
+<table>
+  <caption>Create Camera Config Filter Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_filter</td><td>ArCameraConfigFilter **</td><td>Pointer to a pointer to ArCameraConfigFilter, used to receive the address of the newly created camera config filter object</td></tr>
+</table>

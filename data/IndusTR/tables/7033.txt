@@ -1,0 +1,16 @@
+<table>
+  <caption>SOF Certificate Application Component — COM/ActiveX Service Interfaces (Key Management & Authentication)</caption>
+  <thead>
+    <tr><th>Category</th><th>Interface</th><th>COM/ActiveX Method Prototype</th><th>How to Invoke (ActiveX)</th><th>Parameters (Summary)</th><th>Return</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Authentication</td><td>Login / PIN verify</td><td>BOOL SOF_Login(BSTR CertID, BSTR PassWd)</td><td>ret = obj.SOF_Login(CertID, PassWd)</td><td>CertID: unique cert identifier; PassWd: password/PIN</td><td>BOOL (TRUE=success)</td></tr>
+    <tr><td>Logout</td><td>BOOL SOF_Logout(BSTR CertID)</td><td>ret = obj.SOF_Logout(CertID)</td><td>CertID: unique cert identifier</td><td>BOOL</td></tr>
+    <tr><td>Change password</td><td>BOOL SOF_ChangeUserPassword(BSTR CertID, BSTR OldPassWd, BSTR NewPassWd)</td><td>ret = obj.SOF_ChangeUserPassword(CertID, OldPassWd, NewPassWd)</td><td>CertID; OldPassWd; NewPassWd</td><td>BOOL</td></tr>
+    <tr><td rowspan="3">Certificate Enumeration / Export</td><td>List users/certificates</td><td>BSTR SOF_GetUserList()</td><td>list = obj.SOF_GetUserList()</td><td>(none)</td><td>BSTR (e.g.,Username||CertID&&&...)</td></tr>
+    <tr><td>Export signing certificate</td><td>BSTR SOF_ExportUserCert(BSTR CertID)</td><td>base64Cert = obj.SOF_ExportUserCert(CertID)</td><td>CertID</td><td>BSTR (Base64 certificate)</td></tr>
+    <tr><td>Export encryption certificate</td><td>BSTR SOF_ExportExChangeUserCert(BSTR CertID)</td><td>base64EncCert = obj.SOF_ExportExChangeUserCert(CertID)</td><td>CertID</td><td>BSTR (Base64 certificate)</td></tr>
+    <tr><td rowspan="2">Utility</td><td>Get certificate info by OID</td><td>BSTR SOF_GetCertInfoByOid(BSTR Base64Cert, BSTR Oid)</td><td>val = obj.SOF_GetCertInfoByOid(Base64Cert, Oid)</td><td>Base64Cert: Base64 cert; Oid: extension OID string</td><td>BSTR (extension value)</td></tr>
+    <tr><td>Get last error</td><td>LONG SOF_GetLastError()</td><td>err = obj.SOF_GetLastError()</td><td>(none)</td><td>LONG (error code)</td></tr>
+  </tbody>
+</table>

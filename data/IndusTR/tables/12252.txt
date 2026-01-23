@@ -1,0 +1,15 @@
+<table>
+  <caption>APDU Response Status Words for Terminal-Card Interface</caption>
+  <thead>
+    <tr><th>SW1</th><th>SW2</th><th>Meaning</th><th>Typical Cause</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>90</td><td>00</td><td>Success</td><td>Command executed normally</td></tr>
+    <tr><td>6A</td><td>82</td><td>File not found</td><td>Wrong AID/DF/EF selection</td></tr>
+    <tr><td>6A</td><td>86</td><td>Incorrect P1/P2</td><td>Parameter bytes not supported</td></tr>
+    <tr><td>67</td><td>00</td><td>Wrong length</td><td>Lc/Le inconsistent</td></tr>
+    <tr><td>69</td><td>85</td><td>Conditions not satisfied</td><td>Security status not met</td></tr>
+    <tr><td>6D</td><td>00</td><td>INS not supported</td><td>Unknown instruction byte</td></tr>
+    <tr><td>6E</td><td>00</td><td>CLA not supported</td><td>Wrong class byte</td></tr>
+  </tbody>
+</table>

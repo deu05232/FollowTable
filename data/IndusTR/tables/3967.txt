@@ -1,0 +1,27 @@
+<table>
+  <caption>Description of Common Fields for Tropospheric Delay Correction Information</caption>
+  <tr><td>Category</td><td>Parameter</td><td>Description</td></tr>
+  <tr><td rowspan="7">Header</td><td>Message type number</td><td>Used to distinguish PPP-RTK SSR correction information messages</td></tr>
+  <tr><td>Epoch time</td><td>Indicates the epoch time of the tropospheric delay correction information</td></tr>
+  <tr><td>SSR update interval</td><td>Indicates the time interval for SSR data updates</td></tr>
+  <tr><td>Multiple-message identifier</td><td>Transmission flag for messages with the same message group and the same epoch time: 0: the last message of the series; 1; other messages of the same group will be transmitted subsequently</td></tr>
+  <tr><td>IOD SSR</td><td>Indicates the SSR data version number</td></tr>
+  <tr><td>SSR provider ID</td><td>Used to identify the SSR service, and should be unique worldwide: 0–255: reserved; 255–65 535: assignable provider ID numbers</td></tr>
+  <tr><td>SSR solution ID</td><td>Used to identify different SSR solutions of a given provider</td></tr>
+  <tr><td rowspan="16">Data field</td><td>Area type identifier</td><td>Indicates the applicable area of the tropospheric delay correction product: 1: wide-area, area-type identifier for wide-area-scale tropospheric modeling such as China, Europe, and other countries or intercontinental wide areas; 2; local, area-type identifier for provincial/local-scale tropospheric modeling</td></tr>
+  <tr><td>Area ID</td><td>Indicates predefined numbers or codes used to represent a specific area</td></tr>
+  <tr><td>Spherical harmonic degree</td><td>Indicates the degree used to adjust the spherical harmonic function model</td></tr>
+  <tr><td>Spherical harmonic order</td><td>Indicates the order used to adjust the spherical harmonic function model</td></tr>
+  <tr><td>Spherical cap half-angle</td><td>Indicates, in the adjusted spherical harmonic function model, half of the central angle corresponding to the arc from the center point of the spherical cap area to the edge of the spherical cap</td></tr>
+  <tr><td>Latitude of geographic pole</td><td>Indicates the angle between the pole and the Earth's equatorial plane</td></tr>
+  <tr><td>Longitude of geographic pole</td><td>Indicates the east-west azimuth angle of the pole relative to the prime meridian</td></tr>
+  <tr><td>Longitude of ground reference point</td><td>Indicates the geographic longitude of the reference point for polynomial model modeling</td></tr>
+  <tr><td>Latitude of ground reference point</td><td>Indicates the geographic latitude of the reference point for polynomial model modeling</td></tr>
+  <tr><td>Height of ground reference point</td><td>Indicates the elevation of the reference point for polynomial model modeling</td></tr>
+  <tr><td>Grid-point ZTD residual</td><td>Indicates the grid-point residual value of the ZTD residual grid; this data exists when the area identifier is 1 or 2</td></tr>
+  <tr><td>Initial coordinates of grid point</td><td>Indicates the initial coordinates of the ZTD residual grid; this data exists when the area identifier is 1 or 2</td></tr>
+  <tr><td>Grid-point step size (along longitude direction)</td><td>Indicates the grid-point step size of the ZTD residual grid (along longitude direction); this data exists when the area identifier is 1 or 2</td></tr>
+  <tr><td>Grid-point step size (along latitude direction)</td><td>Indicates the grid-point step size of the ZTD residual grid (along latitude direction); this data exists when the area identifier is 1 or 2</td></tr>
+  <tr><td>Number of grid intervals</td><td>Indicates the number of grid points extended in the longitude and latitude directions of the ZTD residual grid; this data exists when the area identifier is 1 or 2</td></tr>
+  <tr><td>Number of grid points</td><td>Indicates the total number of grid points of the ZTD residual grid; this data exists when the area identifier is 1 or 2</td></tr>
+</table>

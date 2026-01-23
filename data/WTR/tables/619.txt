@@ -1,0 +1,5 @@
+# Zoho Invoice API
+
+| Parameter | Comment | CAUSE | AUTHTOKEN | RESULT |
+| --- | --- | --- | --- | --- |
+| Values | Authtoken generated date. | If the parameters passed in the URL are incorrect, the user will get a warning message stating the reason, else the parameter will be empty. | Authtoken generated for the request. | Value is TRUE if the authtoken is generated successfully, else it is FALSE. |

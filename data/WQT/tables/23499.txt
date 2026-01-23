@@ -1,0 +1,13 @@
+# Comparison of Media Player Apps with DLNA Support and Network Features
+
+| App / Player | Platform | DLNA Browser | DLNA Cast/Renderer | SMB Share | UPnP AV | Transcoding | Notes |
+|---|---|---|---|---|---|---|---|
+| VLC | Windows/macOS/Linux | Partial | Partial | Yes | Yes | Limited | Depends on build/plugins |
+| Plex | Windows/macOS/NAS/Mobile | Yes | Yes | Yes | Yes | Yes | Server-centric workflow |
+| Kodi | Windows/macOS/Linux/Android | Yes | Yes | Yes | Yes | Via add-ons | Highly configurable |
+| BubbleUPnP | Android | Yes | Yes | No | Yes | Yes | Strong casting support |
+| Emby | Windows/macOS/NAS/Mobile | Yes | Yes | Yes | Yes | Yes | Similar to Plex |
+| Windows Media Player | Windows | Yes | Limited | Yes | Yes | No | Legacy but common |
+| MediaMonkey | Windows/Android | Yes | Limited | Yes | Yes | Partial | Library management focus |
+| Serviio | Windows/macOS/Linux | N/A (server) | N/A (server) | Yes | Yes | Yes | DLNA server profiles |
+| Universal Media Server | Windows/macOS/Linux | N/A (server) | N/A (server) | Yes | Yes | Yes | MEncoder/FFmpeg based |

@@ -1,0 +1,14 @@
+<table>
+  <caption>Correction Factor for Coal Volatile Matter</caption>
+  <tr><td colspan="2">Coal composition (mass fraction)/%</td><td>Correction factor</td></tr>
+  <tr><td rowspan="3">Volatile matter (dry ash-free basis)</td><td>>19</td><td>541.000</td></tr>
+  <tr><td>10≤Vdaf≤19</td><td>1.000+3.569×100Aar/Qar.net</td></tr>
+  <tr><td><10</td><td>1.000+7.138×100A ar /Qar.net</td></tr>
+  <tr><td rowspan="2">Ash (as received basis)</td><td>≤30</td><td>1.000</td></tr>
+  <tr><td>>30</td><td>1.000+0.001×(100Aar—30)</td></tr>
+  <tr><td rowspan="2">Sulfur (as received basis)</td><td>≤1</td><td>1.000</td></tr>
+  <tr><td>>1</td><td>1.000+0.004X(100Sar-1)</td></tr>
+  <tr><td rowspan="2">Total moisture (as received basis)</td><td>≤20</td><td>1.000</td></tr>
+  <tr><td>>20</td><td>1.010+2.300X(100Mar－20)/Qar.net</td></tr>
+  <tr><td colspan="3">Note: Vdaf is the volatile matter of coal on a dry ash-free basis; Aar, Sar, and Mar are the ash, sulfur, and total moisture of coal on an as received basis, respectively; Qar.net is the lower heating value of coal on an as received basis, in kJ/kg.</td></tr>
+</table>

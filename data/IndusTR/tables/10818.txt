@@ -1,0 +1,10 @@
+<table>
+  <caption>Purchased Electricity by Grid Region (Activity Data and Emission Factors)</caption>
+  <tr><th>Grid / Supplier</th><th>Electricity Purchased (MWh)</th><th>Emission Factor (tCO2/MWh)</th><th>Emissions (tCO2)</th><th>Notes</th></tr>
+  <tr><td>North Grid</td><td></td><td></td><td></td><td>Use supplier-specific factor if available</td></tr>
+  <tr><td>East Grid</td><td></td><td></td><td></td><td>Otherwise apply regional average</td></tr>
+  <tr><td>South Grid</td><td></td><td></td><td></td><td>Separate rows for different sources</td></tr>
+  <tr><td>On-site PV (exported to grid)</td><td></td><td></td><td></td><td>Report as exported electricity</td></tr>
+  <tr><td>Market purchase (certified)</td><td></td><td></td><td></td><td>Document certificate reference</td></tr>
+  <tr><td>Other supplier</td><td></td><td></td><td></td><td>Specify supplier name</td></tr>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Sampling Plan for Heat-Treatment Verification of Rolling Bearing Components (Hardness & Case Depth)</caption>
+  <thead>
+    <tr><th>Inspection characteristic</th><th>Component</th><th>Inspection level</th><th>Lot size (pieces)</th><th>Sample size (n)</th><th>Acceptance number (Ac)</th><th>Rejection number (Re)</th><th>Decision rule / notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Hardness (HRC) after quench & temper</td><td>Inner ring</td><td>Normal</td><td>1–150</td><td>5</td><td>0</td><td>1</td><td>Fail if any tested piece is out of specification</td></tr>
+    <tr><td>Outer ring</td><td>Normal</td><td>151–500</td><td>8</td><td>0</td><td>1</td><td>Randomly select across heat-treatment batch</td></tr>
+    <tr><td rowspan="2">Hardness difference within same part</td><td>Inner ring (2 positions)</td><td>Tightened</td><td>1–150</td><td>5</td><td>0</td><td>1</td><td>Each piece measured at 2 locations; any nonconformance counts as 1 defect</td></tr>
+    <tr><td>Outer ring (2 positions)</td><td>Tightened</td><td>151–500</td><td>8</td><td>0</td><td>1</td><td>Applies to large-section rings prone to gradient</td></tr>
+    <tr><td rowspan="2">Effective case depth (ECD)</td><td>Raceway (inner ring)</td><td>Normal</td><td>1–150</td><td>3</td><td>0</td><td>1</td><td>Metallographic sectioning; any below minimum is reject</td></tr>
+    <tr><td>Raceway (outer ring)</td><td>Normal</td><td>151–500</td><td>5</td><td>0</td><td>1</td><td>One sample per selected piece (destructive)</td></tr>
+    <tr><td>Surface decarburization check</td><td>Rolling elements</td><td>Normal</td><td>501–1200</td><td>13</td><td>0</td><td>1</td><td>Microscopy per selected ball/roller; Ac/Re is per element</td></tr>
+    <tr><td>Retained austenite (XRD or metallography)</td><td>Inner ring</td><td>Tightened</td><td>501–1200</td><td>13</td><td>1</td><td>2</td><td>Allows up to 1 marginal nonconformance; 2 or more rejects lot</td></tr>
+    <tr><td>Tempering verification (hardness stability after recheck)</td><td>Outer ring</td><td>Normal</td><td>1201–3200</td><td>20</td><td>1</td><td>2</td><td>Recheck performed after 24h; count nonconforming pieces toward Ac/Re</td></tr>
+  </tbody>
+</table>

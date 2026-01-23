@@ -1,0 +1,14 @@
+<table>
+  <caption>Guided-wave mode phase and group velocities in an aluminum plate at 50 kHz (example dispersion snapshot)</caption>
+  <thead>
+    <tr><th>Mode</th><th>Type</th><th>Frequency (kHz)</th><th>Phase velocity c_p (m/s)</th><th>Group velocity c_g (m/s)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>S0</td><td>Lamb (symmetric)</td><td>50</td><td>5200</td><td>5050</td><td>Low-order extensional</td></tr>
+    <tr><td>A0</td><td>Lamb (antisymmetric)</td><td>50</td><td>1750</td><td>1600</td><td>Low-order flexural</td></tr>
+    <tr><td>S1</td><td>Lamb (symmetric)</td><td>50</td><td>7400</td><td>6900</td><td>Higher-order, dispersive</td></tr>
+    <tr><td>A1</td><td>Lamb (antisymmetric)</td><td>50</td><td>4100</td><td>3600</td><td>Higher-order, dispersive</td></tr>
+    <tr><td>SH0</td><td>Shear-horizontal</td><td>50</td><td>3100</td><td>3100</td><td>Nearly non-dispersive in plates</td></tr>
+    <tr><td>SH1</td><td>Shear-horizontal</td><td>50</td><td>5600</td><td>5100</td><td>Cut-on above a threshold</td></tr>
+  </tbody>
+</table>

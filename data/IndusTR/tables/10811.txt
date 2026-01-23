@@ -1,0 +1,14 @@
+<table>
+  <caption>Electricity & Heat Activity Data with Process/Raw-Material CO2 Additions</caption>
+  <thead>
+    <tr><th>Category</th><th>Item</th><th>Activity Amount</th><th>Unit</th><th>CO2 Emission Factor</th><th>Calculated Emissions (tCO2)</th><th>Carbonate Component</th><th>Purity (%)</th><th>Decomposition Rate (%)</th><th>Data Source</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased/Exported Electricity</td><td>Purchased Electricity</td><td></td><td>MWh</td><td></td><td></td><td>N/A</td><td>N/A</td><td>N/A</td><td>Utility bill</td></tr>
+    <tr><td>Purchased/Exported Electricity</td><td>Exported Electricity</td><td></td><td>MWh</td><td></td><td></td><td>N/A</td><td>N/A</td><td>N/A</td><td>Meter</td></tr>
+    <tr><td>Purchased/Exported Heat</td><td>Purchased Heat</td><td></td><td>GJ</td><td></td><td></td><td>N/A</td><td>N/A</td><td>N/A</td><td>Supplier statement</td></tr>
+    <tr><td>Purchased/Exported Heat</td><td>Exported Heat</td><td></td><td>GJ</td><td></td><td></td><td>N/A</td><td>N/A</td><td>N/A</td><td>Boundary meter</td></tr>
+    <tr><td>Process/Raw Material</td><td>Limestone (CaCO3)</td><td></td><td>t</td><td></td><td></td><td>CaCO3</td><td></td><td></td><td>Weighbridge</td></tr>
+    <tr><td>Process/Raw Material</td><td>Dolomite (CaMg(CO3)2)</td><td></td><td>t</td><td></td><td></td><td>MgCO3/CaCO3</td><td></td><td></td><td>Inventory system</td></tr>
+  </tbody>
+</table>

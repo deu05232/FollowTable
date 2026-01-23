@@ -1,0 +1,14 @@
+<table>
+  <caption>Nonlinear parameters used for simulations</caption>
+  <tr><td colspan="2">Material</td><td>BBO (1.03 μ m )</td><td>MgOLN (1.3 μ m )</td><td>PPMgOLN (1.3 μ m )</td></tr>
+  <tr><td rowspan="3">2 {^((nd)) order nonlinear tensor elements ( pm/V )</td><td>d_(22)</td><td>2.20 [ nikogosian2005nonlinear ]</td><td>/</td><td>/</td></tr>
+  <tr><td>d_(31)</td><td>-0.04 [ nikogosian2005nonlinear ]</td><td>/</td><td>/</td></tr>
+  <tr><td>d_(33)</td><td>-0.04 [ nikogosian2005nonlinear ]</td><td>-23.50</td><td>-23.50</td></tr>
+  <tr><td rowspan="5">3 {^((rd)) order nonlinear tensor elements ( {pm^(2)/V^(2) )</td><td>c_(11)</td><td>550.00 [ bache2012the ]</td><td>/</td><td>/</td></tr>
+  <tr><td>c_(33)</td><td>-1400.00 [ bache2012the ]</td><td>7300</td><td>7300</td></tr>
+  <tr><td>c_(16)</td><td>120.00 [ bache2012the ]</td><td>/</td><td>/</td></tr>
+  <tr><td>c_(10)</td><td>-22.00 [ bache2012the ]</td><td>/</td><td>/</td></tr>
+  <tr><td>f_(R)</td><td>0</td><td>50%</td><td>50%</td></tr>
+  <tr><td colspan="2" rowspan="2">Interaction type:</td><td>Type-I, Type-II</td><td>Type-0</td><td>Type-0, QPM</td></tr>
+  <tr><td>[image]</td><td>[image]</td><td>[image]</td></tr>
+</table>

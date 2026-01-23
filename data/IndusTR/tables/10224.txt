@@ -1,0 +1,10 @@
+<table>
+  <caption>Epitaxial Doping Uniformity and Allowed Within-Wafer Variation (Carrier Concentration)</caption>
+  <tr><th>Uniformity Metric</th><th>Definition</th><th>Requirement</th><th>Sampling Area</th><th>Applicable Diameter</th></tr>
+  <tr><td>Within-wafer variation</td><td>(max-min)/mean</td><td>≤ 8%</td><td>Center to edge (excluding 3 mm edge)</td><td>150 mm</td></tr>
+  <tr><td>Radial gradient</td><td>Linear fit slope vs radius</td><td>≤ 5% per 10 mm</td><td>0–70 mm radius</td><td>150 mm</td></tr>
+  <tr><td>Azimuthal variation</td><td>Std dev / mean</td><td>≤ 4%</td><td>50 mm radius ring</td><td>150 mm</td></tr>
+  <tr><td>Lot-to-lot shift</td><td>Change in mean value</td><td>≤ 10%</td><td>Same recipe, consecutive lots</td><td>150 mm</td></tr>
+  <tr><td>Map point repeatability</td><td>Repeat measurement error</td><td>≤ 3%</td><td>9-point map</td><td>150 mm</td></tr>
+  <tr><td>Edge exclusion consistency</td><td>Mean difference in excluded zone</td><td>≤ 6%</td><td>Outer 3 mm</td><td>150 mm</td></tr>
+</table>

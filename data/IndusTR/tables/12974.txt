@@ -1,0 +1,17 @@
+<table>
+  <caption>Power Source Specification Checklist (Voltage/Frequency/Distortion) for Office Machine Energy Measurements</caption>
+  <thead>
+    <tr><th rowspan="2">Check Item</th><th rowspan="2">Target Specification</th><th colspan="2">Acceptance Band</th><th rowspan="2">Measurement Instrument</th><th rowspan="2">Instrument Accuracy</th></tr>
+    <tr><th>Lower Limit</th><th>Upper Limit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>RMS Voltage</td><td>230 V</td><td>225 V</td><td>235 V</td><td>true-RMS voltmeter</td><td>±0.2%</td></tr>
+    <tr><td>Line Frequency</td><td>50 Hz</td><td>49.8 Hz</td><td>50.2 Hz</td><td>Frequency counter</td><td>±0.01 Hz</td></tr>
+    <tr><td>Voltage Unbalance</td><td>0%</td><td>0%</td><td>2%</td><td>Power quality analyzer</td><td>±0.1%</td></tr>
+    <tr><td>Voltage THD</td><td>≤ 3%</td><td>0%</td><td>3%</td><td>Power quality analyzer</td><td>±0.5%</td></tr>
+    <tr><td>DC Component</td><td>≤ 0.5%</td><td>0%</td><td>0.5%</td><td>Power quality analyzer</td><td>±0.2%</td></tr>
+    <tr><td>Harmonic Order Limit (3rd)</td><td>≤ 2%</td><td>0%</td><td>2%</td><td>Spectrum function</td><td>±0.5%</td></tr>
+    <tr><td>Harmonic Order Limit (5th)</td><td>≤ 1.5%</td><td>0%</td><td>1.5%</td><td>Spectrum function</td><td>±0.5%</td></tr>
+    <tr><td>Supply Interruption</td><td>null</td><td>N/A</td><td>N/A</td><td>Event logger</td><td>1 ms resolution</td></tr>
+  </tbody>
+</table>

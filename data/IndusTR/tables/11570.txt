@@ -1,0 +1,16 @@
+<table>
+  <caption>Charging Session Management Messages on J1939 (Identification, Diagnostics, Keep-Alive)</caption>
+  <thead>
+    <tr><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Payload Length (Byte)</th><th>Cycle Time (ms)</th><th>Transmission Type</th><th>Source</th><th>Destination</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>VIR</td><td>Vehicle Identification Request</td><td>7168</td><td>001C00H</td><td>6</td><td>3</td><td>0</td><td>On-event</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>VID</td><td>Vehicle Identification Data</td><td>7424</td><td>001D00H</td><td>6</td><td>8</td><td>0</td><td>On-event</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td>CHR</td><td>Charging Heartbeat Request</td><td>8192</td><td>002000H</td><td>6</td><td>2</td><td>1000</td><td>Cyclic</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>CHA</td><td>Charging Heartbeat Acknowledge</td><td>8448</td><td>002100H</td><td>6</td><td>2</td><td>1000</td><td>Cyclic</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td>CDG</td><td>Charger Diagnostic Summary</td><td>8704</td><td>002200H</td><td>3</td><td>8</td><td>500</td><td>Cyclic</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>VDG</td><td>Vehicle Diagnostic Summary</td><td>8960</td><td>002300H</td><td>3</td><td>8</td><td>500</td><td>Cyclic</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td>CSN</td><td>Charging Session Notification</td><td>9216</td><td>002400H</td><td>6</td><td>5</td><td>250</td><td>Cyclic</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>VSN</td><td>Vehicle Session Notification</td><td>9472</td><td>002500H</td><td>6</td><td>5</td><td>250</td><td>Cyclic</td><td>Vehicle</td><td>Charger</td></tr>
+  </tbody>
+</table>

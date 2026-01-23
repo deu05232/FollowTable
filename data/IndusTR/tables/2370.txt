@@ -1,0 +1,14 @@
+<table>
+  <caption>Checklist for Dielectric Withstand Test Procedure of Electric Compressors (Steps and Acceptance Recording)</caption>
+  <thead>
+    <tr><th>Step</th><th>Action</th><th>Operator Input</th><th>Equipment Setting Field</th><th>Record to Save</th><th>Nonconformance Code</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Verify grounding and interlock</td><td>Confirm</td><td>N/A</td><td>Safety checklist</td><td>SAF-01</td></tr>
+    <tr><td>2</td><td>Connect DUT terminals and case</td><td>Wiring OK</td><td>Terminal map selection</td><td>Photo of hookup</td><td>WIR-02</td></tr>
+    <tr><td>3</td><td>Ramp voltage to setpoint</td><td>Start</td><td>Ramp rate (V/s)</td><td>Voltage curve</td><td>PRC-03</td></tr>
+    <tr><td>4</td><td>Hold at setpoint</td><td>Timer start</td><td>Duration (s)</td><td>Leakage trend</td><td>PRC-04</td></tr>
+    <tr><td>5</td><td>Discharge and remove DUT</td><td>Complete</td><td>Discharge time</td><td>Final report</td><td>PRC-05</td></tr>
+    <tr><td>6</td><td>Label status and quarantine if failed</td><td>Pass/Fail</td><td>Disposition</td><td>NCR form</td><td>QLT-06</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Station Infrastructure and Operation Log (Non-coded Descriptive Entries)</caption>
+  <thead>
+    <tr><th>Seq</th><th>Log Item</th><th>Field Code</th><th>Data Type</th><th>Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station name</td><td>D_NAME</td><td>Varchar(100)</td><td>Station identifier</td></tr>
+    <tr><td>2</td><td>Log time</td><td>D_TIME</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td></tr>
+    <tr><td>3</td><td>Equipment operation status</td><td>EQ_STATUS</td><td>Varchar(50)</td><td>Free text (e.g., normal, offline, maintenance)</td></tr>
+    <tr><td>4</td><td>Maintenance description</td><td>MAINT_DESC</td><td>Varchar(500)</td><td>Free text description of work performed</td></tr>
+    <tr><td>5</td><td>Power supply mode</td><td>PWR_MODE</td><td>Varchar(50)</td><td>Grid/Solar/Hybrid</td></tr>
+    <tr><td>6</td><td>Data transmission method</td><td>TX_METHOD</td><td>Varchar(50)</td><td>4G/Fiber/Satellite</td></tr>
+    <tr><td>7</td><td>Calibration date</td><td>CAL_DATE</td><td>Date</td><td>YYYY-MM-DD</td></tr>
+    <tr><td>8</td><td>Observer notes</td><td>NOTES</td><td>Varchar(500)</td><td>Unstructured remarks</td></tr>
+  </tbody>
+</table>

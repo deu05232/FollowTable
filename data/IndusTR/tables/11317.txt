@@ -1,0 +1,12 @@
+<table>
+  <caption>Refueling Record & Vehicle Master Linkage Fields (Mixed Module)</caption>
+  <tr><th>Section</th><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  <tr><td>Refueling Event</td><td>1</td><td>Business Document ID</td><td>Character</td><td>an..30</td><td>Identifier linking the fuel event to the platform workflow</td></tr>
+  <tr><td>Refueling Event</td><td>2</td><td>Refueling Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Timestamp of the fuel transaction</td></tr>
+  <tr><td>Refueling Event</td><td>3</td><td>Refueling Station Name</td><td>Character</td><td>an..60</td><td>Fueling organization/station</td></tr>
+  <tr><td>Refueling Event</td><td>4</td><td>Fuel Volume</td><td>Numeric</td><td>n..10,2</td><td>Liters dispensed</td></tr>
+  <tr><td>Vehicle Master Data</td><td>5</td><td>Vehicle Plate Number</td><td>Character</td><td>an..15</td><td>Vehicle identity field</td></tr>
+  <tr><td>Vehicle Master Data</td><td>6</td><td>VIN</td><td>Character</td><td>an..20</td><td>Vehicle identification number</td></tr>
+  <tr><td>Vehicle Master Data</td><td>7</td><td>Brand/Model</td><td>Character</td><td>an..50</td><td>Vehicle specification field</td></tr>
+  <tr><td>Vehicle Master Data</td><td>8</td><td>Fuel Type</td><td>Character</td><td>an..20</td><td>Gasoline/Diesel/etc.</td></tr>
+</table>

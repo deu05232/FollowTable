@@ -1,0 +1,14 @@
+<table>
+  <caption>Immunity Test Pulse Matrix for Autonomous Driving Data Recording Unit (ISO 7637-2 Style)</caption>
+  <thead>
+    <tr><th>Pulse ID</th><th>Waveform Description</th><th>Test Level</th><th>Amplitude (V)</th><th>Rise Time</th><th>Pulse Width</th><th>Repetition</th><th>Polarity</th><th>Functional Status Requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pulse 1</td><td>Supply interruption transient</td><td>III</td><td>-100</td><td>1 µs</td><td>2 ms</td><td>500 pulses</td><td>Negative</td><td>No loss of stored data</td></tr>
+    <tr><td>Pulse 2a</td><td>Inductive switching transient</td><td>III</td><td>+50</td><td>1 µs</td><td>50 µs</td><td>5000 pulses</td><td>Positive</td><td>Recording may degrade but shall recover automatically</td></tr>
+    <tr><td>Pulse 2b</td><td>Inductive switching transient</td><td>III</td><td>+10</td><td>5 µs</td><td>0.2 ms</td><td>5000 pulses</td><td>Positive</td><td>No reset allowed</td></tr>
+    <tr><td>Pulse 3a</td><td>Fast transient (negative)</td><td>II</td><td>-150</td><td>5 ns</td><td>100 ns</td><td>1 min</td><td>Negative</td><td>No permanent malfunction</td></tr>
+    <tr><td>Pulse 3b</td><td>Fast transient (positive)</td><td>II</td><td>+150</td><td>5 ns</td><td>100 ns</td><td>1 min</td><td>Positive</td><td>No permanent malfunction</td></tr>
+    <tr><td>Pulse 5</td><td>Load dump transient</td><td>IV</td><td>+65</td><td>10 ms</td><td>400 ms</td><td>10 pulses</td><td>Positive</td><td>Data recorder shall not be damaged</td></tr>
+  </tbody>
+</table>

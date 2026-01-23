@@ -1,0 +1,11 @@
+<table>
+  <caption>Bill of Materials for GNSS Reference Station Receiver Firmware Build (Ionosphere Module)</caption>
+  <tr><th>Component</th><th>Part Number</th><th>Supplier</th><th>Qty</th><th>Key Spec</th></tr>
+  <tr><td>GNSS Receiver SoC</td><td>RX9-ULTRA</td><td>NavChip</td><td>1</td><td>L1/L2/L5 capable</td></tr>
+  <tr><td>TCXO</td><td>TX-26M</td><td>TimeBase</td><td>1</td><td>0.5 ppm</td></tr>
+  <tr><td>RF Front-End</td><td>RFFE-22</td><td>Microwavex</td><td>1</td><td>NF 1.1 dB</td></tr>
+  <tr><td>DDR Memory</td><td>DDR3-512</td><td>MemWorks</td><td>2</td><td>512 MB</td></tr>
+  <tr><td>Flash Storage</td><td>NAND-8G</td><td>StoreIT</td><td>1</td><td>8 GB</td></tr>
+  <tr><td>Ethernet PHY</td><td>ETH-1000</td><td>LinkSil</td><td>1</td><td>1 Gbps</td></tr>
+  <tr><td>Power PMIC</td><td>PM-401</td><td>VoltSys</td><td>1</td><td>3 rails</td></tr>
+</table>

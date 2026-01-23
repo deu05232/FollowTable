@@ -1,0 +1,9 @@
+<table>
+  <caption>Ionospheric delay correction spherical harmonic data fields (example subset)</caption>
+  <tr><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>int16</td><td>16</td></tr>
+  <tr><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>int16</td><td>16</td></tr>
+  <tr><td>Spherical harmonic function degree</td><td>DF474</td><td>uint4</td><td>4</td></tr>
+  <tr><td>Spherical harmonic function order</td><td>DF475</td><td>uint4</td><td>4</td></tr>
+  <tr><td>Ionospheric thin-shell height</td><td>DF473</td><td>uint8</td><td>8</td></tr>
+</table>

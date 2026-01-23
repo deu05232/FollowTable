@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameters for the method to obtain granary bay grain storage information data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short name</td><td>Data type</td><td>Data format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Storage area code</td><td>kqdm</td><td>Character</td><td>a.3</td><td></td></tr>
+  <tr><td>2</td><td>Bay ID</td><td>ajbh</td><td>Character</td><td>a.3</td><td>When empty, return grain storage information for all bays</td></tr>
+  <tr><td>3</td><td>Query date</td><td>cxrq</td><td>Character</td><td>YYYYMMDD</td><td></td></tr>
+</table>

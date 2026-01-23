@@ -1,0 +1,10 @@
+<table>
+  <caption>Regional Address Format for EGC Area Broadcast (Longitude / Hemisphere and Reserved Bits)</caption>
+  <tr><th>Serial No.</th><th>Field Name</th><th>Number of Bits</th><th>Valid Range</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Center Longitude Value</td><td>8</td><td>0~180</td><td>Unit: degree (°)</td></tr>
+  <tr><td>2</td><td>Center East/West Longitude</td><td>1</td><td>0~1</td><td>0: East longitude; 1: West longitude</td></tr>
+  <tr><td>3</td><td>Area Radius</td><td>8</td><td>1~255</td><td>Unit: nautical miles; defines circular broadcast area radius</td></tr>
+  <tr><td>4</td><td>Area Shape Type</td><td>2</td><td>0~3</td><td>0: circle; 1: rectangle; 2: polygon; 3: reserved</td></tr>
+  <tr><td>5</td><td>Reserved</td><td>5</td><td>0</td><td>Reserved for future regional addressing extensions</td></tr>
+  <tr><td colspan="2">Total</td><td>24</td><td>—</td><td>Fields used to define the geographic target area for regional broadcast</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Test Contents for Inertial Response Threshold of Energy Storage Power Stations</caption>
+  <tr><td>Serial No.</td><td>Operating Mode and Power Range of Energy Storage Power Station</td><td>Frequency Change Description</td><td>Frequency Change Waveform Diagram</td></tr>
+  <tr><td>1</td><td rowspan="2">Unlimited power and P>20%P</td><td>The initial frequency setpoint is 50Hz; increase the frequency ramp rate gradually with a step of 0.005Hz/s until active power begins to change regularly; each frequency ramp rate is maintained for a fixed time t1</td><td>fdy</td></tr>
+  <tr><td>2</td><td>Then decrease the frequency ramp rate gradually with a step of 0.005Hz/s until active power begins to change regularly, and maintain for a fixed time t2</td><td>d</td></tr>
+  <tr><td colspan="4">Note 1: df/dt, less than the threshold set value for inertial response engagement during upward frequency disturbance. Note 2: df/dt less than the threshold set value for inertial response engagement during downward frequency disturbance.</td></tr>
+</table>

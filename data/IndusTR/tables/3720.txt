@@ -1,0 +1,26 @@
+<table>
+  <caption>Charging Handshake and Identification Message Transmission Conditions</caption>
+  <tr><td>Message Code</td><td>Message Start Transmission Condition</td><td>Message End Transmission Condition</td></tr>
+  <tr><td>CHM</td><td>Low-voltage auxiliary power supply circuit closed</td><td>Charger self-check completed and ready to send CRM</td></tr>
+  <tr><td>BHM</td><td>Receive CHM message</td><td>Receive CRM(SPN2560=0x00) message</td></tr>
+  <tr><td>CRM</td><td>Charger self-check passed</td><td>Receive BCP message</td></tr>
+  <tr><td>BRM</td><td>Receive CRM message</td><td>Receive CRM(SPN2560=0xAA) message</td></tr>
+  <tr><td>BCP</td><td>Receive CRM(SPN2560=0xAA) message</td><td>Receive CML message</td></tr>
+  <tr><td>BRO</td><td>Receive CML message</td><td>Send BRO (SPN2829=0xAA) message, and receive CRO(SPN2830=0xAA) message</td></tr>
+  <tr><td>CTS（Optional）</td><td rowspan="2">Receive BCP message</td><td rowspan="2">Receive BRO(SPN2829=0xAA) message</td></tr>
+  <tr><td>CML</td></tr>
+  <tr><td>CRO</td><td>Receive BRO(SPN2829=0xAA) message</td><td>Receive BCL message</td></tr>
+  <tr><td>BCL</td><td rowspan="2">Receive CRO(SPN2830=0xAA) message</td><td rowspan="2">1) Receive CST message (charger actively aborts charging), or 2) Send BST message (vehicle actively aborts charging)</td></tr>
+  <tr><td>BCS</td></tr>
+  <tr><td>CCS</td><td>Receive BCL message</td><td>1) Receive BST message (vehicle actively aborts charging), or 2) Send CST message (charger actively aborts charging)</td></tr>
+  <tr><td>BSM</td><td rowspan="4">Receive CCS message</td><td rowspan="4">11) Receive CST message (charger actively aborts charging), or 2) Send BST message (vehicle actively aborts charging)</td></tr>
+  <tr><td>BMV（Optional）</td></tr>
+  <tr><td>BMT（Optional）</td></tr>
+  <tr><td>BSP（Optional）</td></tr>
+  <tr><td>BST</td><td>1) The vehicle meets the conditions to end charging (vehicle actively aborts charging), or 2) Receive CST message (charger actively aborts charging)</td><td>1) Receive CST message (vehicle actively aborts charging), or 2) After sending 5 frames to 10 frames of BST messages (charger actively aborts charging)</td></tr>
+  <tr><td>CST</td><td>1) The charger meets the conditions to end charging (charger actively aborts charging), or 2) Receive BST message (vehicle actively aborts charging)</td><td>Receive BSD message</td></tr>
+  <tr><td>BSD</td><td>1) Receive CST message (vehicle actively aborts charging), or 2) After sending 5 frames to 1O frames of BST messages (charger actively aborts charging)</td><td>Receive CSD message</td></tr>
+  <tr><td>CSD</td><td>Receive BSD message</td><td>Turn off auxiliary power supply</td></tr>
+  <tr><td>BEM</td><td>When the vehicle times out receiving charger messages</td><td>Complete communication timeout handling</td></tr>
+  <tr><td>CEM</td><td>When the charger times out receiving vehicle messages</td><td>Complete communication timeout handling</td></tr>
+</table>

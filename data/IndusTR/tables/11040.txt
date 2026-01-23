@@ -1,0 +1,15 @@
+<table>
+  <caption>Side-by-side Usage Patterns for Mongolian Variation Selectors (FVS1–FVS3, MVS) in Running Text</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Correct sequence (code-point/bracket notation)</th><th>Incorrect / non-used sequence</th><th>Notes for validation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FVS1 attached to a base letter to request a specific variant</td><td>[U+1820][FVS1]</td><td>[U+1820][FVS2]</td><td>Different FVS values request different standardized variants; using the wrong selector yields the wrong encoded intent.</td></tr>
+    <tr><td>FVS2 used after the intended base letter (not after punctuation/space)</td><td>[U+1821][FVS2]</td><td>[U+1821][U+0020][FVS2]</td><td>Selector must immediately follow the base character; inserting space breaks the association.</td></tr>
+    <tr><td>FVS3 cannot “skip over” a combining mark or extender</td><td>[U+1828][FVS3][U+180B]</td><td>[U+1828][U+180B][FVS3]</td><td>Selectors apply to the immediately preceding character; placing it after another code point changes the target.</td></tr>
+    <tr><td>MVS prefix used to indicate a fixed spelling/form at the start of a token</td><td>[MVS][U+1820][U+1828][U+1820]</td><td>[U+1820][U+1828][U+1820][MVS]</td><td>MVS is used as a leading control in many fixed-sequence conventions; trailing MVS is not used for that function.</td></tr>
+    <tr><td>MVS should not be inserted between letters as if it were a vowel/letter</td><td>[MVS][U+1820][U+1834][U+1820]</td><td>[MVS][U+1820][MVS][U+1834][U+1820]</td><td>Extra MVS inside the run usually produces an ill-formed sequence and breaks matching.</td></tr>
+    <tr><td>A selector should not appear without a base character</td><td>[U+1820][FVS1]</td><td>[FVS1]</td><td>Standalone variation selectors have no base; validators typically flag them as errors.</td></tr>
+    <tr><td>Prefer a single, unambiguous selector at a position</td><td>[U+1820][FVS2]</td><td>[U+1820][FVS1][FVS2]</td><td>Multiple selectors on one base are not a defined combination in most rulesets; normalization/processing may drop one.</td></tr>
+  </tbody>
+</table>

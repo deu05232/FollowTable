@@ -1,0 +1,14 @@
+<table>
+  <caption>Strong Interference vs Weak Interference Regimes in a Mach-Zehnder Interferometer (No Optomechanical Coupling Parameters)</caption>
+  <thead>
+    <tr><th>Operating condition</th><th>Visibility V</th><th>Path phase difference Δφ (rad)</th><th>Extinction ratio (dB)</th><th>Output port contrast</th><th>Regime label</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Balanced arms, low loss</td><td>0.98</td><td>0.0</td><td>30</td><td>Max</td><td>Strong interference</td></tr>
+    <tr><td>Slight imbalance</td><td>0.85</td><td>0.2</td><td>18</td><td>High</td><td>Strong interference</td></tr>
+    <tr><td>Thermal drift present</td><td>0.70</td><td>0.6</td><td>12</td><td>Medium</td><td>Intermediate</td></tr>
+    <tr><td>Large imbalance</td><td>0.45</td><td>1.2</td><td>6</td><td>Low</td><td>Weak interference</td></tr>
+    <tr><td>High loss in one arm</td><td>0.30</td><td>1.6</td><td>3</td><td>Very low</td><td>Weak interference</td></tr>
+    <tr><td>Phase randomized</td><td>0.05</td><td>random</td><td>0</td><td>null</td><td>No interference</td></tr>
+  </tbody>
+</table>

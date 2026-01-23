@@ -1,0 +1,14 @@
+<table>
+  <caption>Spherical-Harmonic Coefficient Payload Field Definitions for Ionospheric Delay Correction</caption>
+  <thead>
+    <tr><th>Payload Section</th><th>Coefficient (Sin/Cos)</th><th>Information Kind</th><th>Field Identifier</th><th>Field Name</th><th>Type</th><th>Bits</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Coefficient payload</td><td>Cos</td><td>Correction</td><td>DF476</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>int16</td><td>16</td></tr>
+    <tr><td>Coefficient payload</td><td>Sin</td><td>Correction</td><td>DF477</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>int16</td><td>16</td></tr>
+    <tr><td>Coefficient payload</td><td>Cos</td><td>Accuracy</td><td>DF489</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>uint8</td><td>8</td></tr>
+    <tr><td>Coefficient payload</td><td>Sin</td><td>Accuracy</td><td>DF490</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>uint8</td><td>8</td></tr>
+    <tr><td>Coefficient payload</td><td>Cos</td><td>Accuracy</td><td>DF489</td><td>Spherical harmonic cosine coefficient (accuracy information) — coefficient element</td><td>uint8</td><td>8</td></tr>
+    <tr><td>Coefficient payload</td><td>Sin</td><td>Correction</td><td>DF477</td><td>Spherical harmonic sine coefficient (correction information) — coefficient element</td><td>int16</td><td>16</td></tr>
+  </tbody>
+</table>

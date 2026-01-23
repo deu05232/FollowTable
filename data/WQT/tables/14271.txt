@@ -1,0 +1,11 @@
+# Outlook.com   Hotmail Manual Setup (Server Hostnames Only)
+
+| Protocol | Purpose | Server hostname | Encryption | Authentication |
+|---|---|---|---|---|
+| IMAP | Incoming mail sync | outlook.office365.com | SSL/TLS | OAuth2 / Password |
+| IMAP | Incoming mail sync (legacy) | imap-mail.outlook.com | SSL/TLS | Password |
+| POP3 | Incoming mail download | pop-mail.outlook.com | SSL/TLS | Password |
+| SMTP | Outgoing mail send | smtp-mail.outlook.com | STARTTLS | OAuth2 / Password |
+| SMTP | Outgoing mail send (alt) | smtp.office365.com | STARTTLS | OAuth2 |
+| Autodiscover | Automatic configuration | autodiscover.outlook.com | HTTPS | Microsoft Account |
+| Exchange ActiveSync | Mobile sync | eas.outlook.com | HTTPS | Microsoft Account |

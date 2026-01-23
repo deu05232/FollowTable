@@ -1,0 +1,9 @@
+<table>
+  <caption>Sort Index Function Forward Interface Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Element types include integers and floating-point numbers</td></tr>
+  <tr><td>Sort Dimension</td><td>Input</td><td>Optional</td><td>Represents the dimension to be sorted. K≥O represents the (K+1)-th dimension; K<0 represents the K-th dimension from the end. Default: -1</td></tr>
+  <tr><td>Sort Order</td><td>Input</td><td>Optional</td><td>Boolean type, true indicates the algorithm sorts in descending order, otherwise in ascending order. Default is true</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Represents the sorted tensor, with the same shape and data type as the input tensor</td></tr>
+  <tr><td>Index Tensor</td><td>Output</td><td>Required</td><td>Represents the tensor of index results</td></tr>
+</table>

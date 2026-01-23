@@ -1,0 +1,10 @@
+<table>
+  <caption>Autonomous Driving Data Recorder — Signals and Minimum Logging Specs (including power supply constraints)</caption>
+  <tr><th>Section</th><th>Item</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Range / Requirement</th><th>Resolution</th><th>Accuracy</th><th>Notes</th></tr>
+  <tr><td>Recorded signal</td><td>Vehicle speed</td><td>10 Hz</td><td>km/h</td><td>0 ~ 240</td><td>1</td><td>±10%</td><td></td></tr>
+  <tr><td>Recorded signal</td><td>Perceived object ID</td><td>10 Hz</td><td>Not applicable</td><td>Defined by the enterprise</td><td>Not applicable</td><td>No error</td><td></td></tr>
+  <tr><td>Recorded signal</td><td>Driver takeover capability</td><td>2 Hz</td><td>Not applicable</td><td>0/1</td><td>Not applicable</td><td>No error</td><td></td></tr>
+  <tr><td>Electrical requirement</td><td>Nominal voltage UN</td><td>Not applicable</td><td>V</td><td>12 / 24</td><td>Not applicable</td><td>Not applicable</td><td>Power supply class</td></tr>
+  <tr><td>Electrical requirement</td><td>Minimum supply voltage Usmin</td><td>Not applicable</td><td>V</td><td>9 (12V system) / 16 (24V system)</td><td>Not applicable</td><td>Not applicable</td><td>Operating lower limit</td></tr>
+  <tr><td>Electrical requirement</td><td>Maximum supply voltage Usmax</td><td>Not applicable</td><td>V</td><td>16 (12V system) / 32 (24V system)</td><td>Not applicable</td><td>Not applicable</td><td>Operating upper limit</td></tr>
+</table>

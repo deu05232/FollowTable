@@ -1,0 +1,16 @@
+<table>
+  <caption>Vehicle Cooperative Driving Data Items (On-board Focus)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Data Field</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Vehicle ID</td><td>-</td><td>Unique identifier for the moving vehicle</td></tr>
+    <tr><td>2</td><td>Timestamp</td><td>ms</td><td>Sampling time of the on-board state</td></tr>
+    <tr><td>3</td><td>Vehicle Position (Latitude/Longitude)</td><td>deg</td><td>GNSS-based vehicle location</td></tr>
+    <tr><td>4</td><td>Vehicle Speed</td><td>m/s</td><td>Instantaneous speed</td></tr>
+    <tr><td>5</td><td>Vehicle Heading</td><td>deg</td><td>Course over ground</td></tr>
+    <tr><td>6</td><td>Vehicle Acceleration (Longitudinal)</td><td>m/s^2</td><td>Derived from CAN/IMU</td></tr>
+    <tr><td>7</td><td>Vehicle Lane ID</td><td>-</td><td>Perception/map matched lane index</td></tr>
+    <tr><td>8</td><td>Brake Status</td><td>-</td><td>Boolean or enumerated state</td></tr>
+  </tbody>
+</table>

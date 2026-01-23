@@ -1,0 +1,15 @@
+<table>
+  <caption>Intrusion Detector Performance vs Compliance and Reporting Matrix (Mixed Content)</caption>
+  <thead>
+    <tr><th rowspan="2">Detector model</th><th colspan="3">Performance metrics</th><th colspan="3">Security/Compliance & Reporting</th></tr>
+    <tr><th>Detection range (m)</th><th>Range accuracy (m)</th><th>Azimuth accuracy (°)</th><th>Grade (EN 50131)</th><th>Event log (Y/N)</th><th>Mandatory/Optional</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>IR-200</td><td>200</td><td>±1.5</td><td>≤1.2</td><td>Grade 2</td><td>Y</td><td>M</td></tr>
+    <tr><td>IR-400</td><td>400</td><td>±2.0</td><td>≤1.0</td><td>Grade 3</td><td>Y</td><td>M</td></tr>
+    <tr><td>MW-150</td><td>150</td><td>±1.0</td><td>≤1.5</td><td>Grade 2</td><td>N</td><td>OP</td></tr>
+    <tr><td>FENCE-VIB</td><td>80</td><td>±0.5</td><td>—</td><td>Grade 4</td><td>Y</td><td>M</td></tr>
+    <tr><td>RADAR-S</td><td>1200</td><td>±3.0</td><td>≤0.8</td><td>Grade 3</td><td>Y</td><td>OP</td></tr>
+    <tr><td>SAFE-ATM</td><td>30</td><td>±0.2</td><td>—</td><td>Grade 4</td><td>Y</td><td>M</td></tr>
+  </tbody>
+</table>

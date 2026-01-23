@@ -1,0 +1,16 @@
+<table>
+  <caption>Selected nuclides with activation and neutron-capture data (no half-lives)</caption>
+  <thead>
+    <tr><th rowspan="2">Element group</th><th rowspan="2">Nuclide</th><th colspan="2">Activity / Production</th><th colspan="2">Cross section</th></tr>
+    <tr><th>Specific activity (MBq/g)</th><th>Production route</th><th>Thermal σ (barn)</th><th>Reference energy (eV)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Cobalt</td><td>Co-60</td><td>44.1</td><td>n,γ on Co-59</td><td>37.2</td><td>0.0253</td></tr>
+    <tr><td>Co-58</td><td>1230</td><td>p,n on Ni-58</td><td>0.013</td><td>0.0253</td></tr>
+    <tr><td>Co-57</td><td>2400</td><td>p,2n on Ni-58</td><td>—</td><td>—</td></tr>
+    <tr><td rowspan="2">Iodine</td><td>I-131</td><td>4600</td><td>fission product</td><td>—</td><td>—</td></tr>
+    <tr><td>I-125</td><td>62000</td><td>n,γ on Xe-124</td><td>6.2</td><td>0.0253</td></tr>
+    <tr><td rowspan="2">Technetium</td><td>Tc-99m</td><td>3.2e8</td><td>Mo-99 generator</td><td>—</td><td>—</td></tr>
+    <tr><td>Tc-99</td><td>0.63</td><td>decay of Mo-99</td><td>20.5</td><td>0.0253</td></tr>
+  </tbody>
+</table>

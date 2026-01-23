@@ -1,0 +1,11 @@
+<table>
+  <caption>Terminal Multicast ID Configuration Information File Content</caption>
+  <tr><td>Data Item</td><td>Length (bytes)</td><td>Description</td></tr>
+  <tr><td>Multicast ID1</td><td>6</td><td>Multicast ID1</td></tr>
+  <tr><td>KeyID corresponding to Multicast ID1</td><td>1</td><td>Multicast sub-key ID corresponding to Multicast ID1</td></tr>
+  <tr><td>Status of Multicast ID1</td><td>1</td><td>00: indicates Multicast ID1 is in use 01: indicates Multicast ID1 has been reclaimed and cannot be used</td></tr>
+  <tr><td>Multicast ID2</td><td>6</td><td>Multicast ID2</td></tr>
+  <tr><td>KeyID corresponding to Multicast ID2</td><td>1</td><td>Multicast sub-key ID corresponding to Multicast ID2</td></tr>
+  <tr><td>Status of Multicast ID2</td><td>1</td><td>00: indicates Multicast ID2 is in use 01: indicates Multicast ID2 has been reclaimed and cannot be used</td></tr>
+  <tr><td>.…</td><td></td><td>..</td></tr>
+</table>

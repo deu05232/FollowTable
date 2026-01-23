@@ -1,0 +1,11 @@
+<table>
+  <caption>Hit Result Containers and Ownership (List/Object Management Without Readback Fields)</caption>
+  <tr><th>Function</th><th>Parameters</th><th>Output</th><th>Description</th></tr>
+  <tr><td>ArHitResult_create</td><td>session: ArSession*</td><td>out_hit_result: ArHitResult**</td><td>Create an empty hit result object</td></tr>
+  <tr><td>ArHitResult_destroy</td><td>hit_result: ArHitResult*</td><td>void</td><td>Destroy hit result object</td></tr>
+  <tr><td>ArHitResultList_create</td><td>session: ArSession*</td><td>out_list: ArHitResultList**</td><td>Create a list container for hit results</td></tr>
+  <tr><td>ArHitResultList_destroy</td><td>list: ArHitResultList*</td><td>void</td><td>Destroy a hit result list</td></tr>
+  <tr><td>ArHitResultList_getItem</td><td>session: ArSession*, list: ArHitResultList*, index: int32_t</td><td>out_hit: ArHitResult**</td><td>Get a hit result handle from the list</td></tr>
+  <tr><td>ArHitResultList_getSize</td><td>session: ArSession*, list: ArHitResultList*</td><td>out_size: int32_t*</td><td>Query number of hit results stored</td></tr>
+  <tr><td>ArHitResultList_clear</td><td>session: ArSession*, list: ArHitResultList*</td><td>void</td><td>Remove all elements from the list</td></tr>
+</table>

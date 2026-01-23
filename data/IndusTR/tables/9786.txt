@@ -1,0 +1,14 @@
+<table>
+  <caption>Bitstream conformance value coverage requirements for block-level syntax elements (binIdx/value ranges only)</caption>
+  <thead>
+    <tr><th>Category</th><th>Syntax element name</th><th>Test requirements (explicit value coverage)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Split / partition</td><td>split_flag</td><td>Traverse cases where the value of split_flag equals 0 to 1</td></tr>
+    <tr><td>partition_mode</td><td>Traverse cases where the value of partition_mode equals 0 to 3</td></tr>
+    <tr><td>shape_of_partition_index</td><td>Traverse cases where the value of shape_of_partition_index equals 0 to 2</td></tr>
+    <tr><td rowspan="3">Transform / residual</td><td>transform_split_flag</td><td>Traverse cases where the value of transform_split_flag equals 0 to 1</td></tr>
+    <tr><td>last_cg_pos</td><td>Traverse cases where the value of last_cg_pos equals 0 to 3</td></tr>
+    <tr><td>residual_sign_flag</td><td>Traverse cases where the value of residual_sign_flag equals 0 to 1</td></tr>
+  </tbody>
+</table>

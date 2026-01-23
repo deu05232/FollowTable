@@ -1,0 +1,11 @@
+# Windows Server Memory Limits Mapped to Typical SharePoint Topologies (Non-SharePoint System Table)
+
+| SharePoint topology label | Windows Server release/edition | Memory limit (x64) | Practical implication (generic) | Example VM sizing note |
+| --- | --- | --- | --- | --- |
+| "Small SharePoint" | Windows Server 2012 Foundation | 32 GB | OS hard cap on RAM | Cannot exceed 32 GB even if host has more |
+| "Small SharePoint" | Windows Server 2012 Essentials | 64 GB | OS hard cap on RAM | Consider Standard if needing more RAM |
+| "Medium SharePoint" | Windows Server 2012 Standard | 4 TB | Very high ceiling | OS won't be the limiting factor |
+| "Medium SharePoint" | Windows Server 2012 Datacenter | 4 TB | Very high ceiling | Suitable for dense virtualization |
+| "Legacy" | Windows Server 2003 R2 Standard | 32 GB | Low ceiling | Memory pressure likely |
+| "Legacy" | Windows Server 2003 R2 Enterprise | 1 TB | Higher ceiling | Depends on hardware support |
+| "Legacy" | Windows Server 2003 R2 Datacenter | 1 TB | Higher ceiling | Usually used in large environments |

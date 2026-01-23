@@ -1,0 +1,10 @@
+<table>
+  <caption>Receiver Optical Sensitivity Limits for SpaceFibre-Compatible 850 nm Links (RX-focused)</caption>
+  <tr><th>Parameter</th><th>Symbol</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th><th>Assumptions / Notes</th></tr>
+  <tr><td>Sensitivity @ 1.25 Gbit/s</td><td>PIN</td><td></td><td>-22.0</td><td>-19.5</td><td>dBm</td><td>BER=1e-12, PRBS=2^7-1</td></tr>
+  <tr><td>Sensitivity @ 2.5 Gbit/s</td><td>PIN</td><td></td><td>-20.5</td><td>-18.0</td><td>dBm</td><td>BER=1e-12, PRBS=2^7-1</td></tr>
+  <tr><td>Sensitivity @ 5.0 Gbit/s</td><td>PIN</td><td></td><td>-17.0</td><td>-14.5</td><td>dBm</td><td>BER=1e-12, PRBS=2^7-1</td></tr>
+  <tr><td>Receiver overload (max input) @ 5.0 Gbit/s</td><td>PIN</td><td>0.0</td><td></td><td></td><td>dBm</td><td>No damage / no saturation requirement</td></tr>
+  <tr><td>Receiver overload (max input) @ 10.0 Gbit/s</td><td>PIN</td><td>-1.0</td><td></td><td></td><td>dBm</td><td>Measured at BER=1e-12</td></tr>
+  <tr><td>Receiver decision threshold stability</td><td>VTH</td><td></td><td></td><td></td><td>mV</td><td>Informative, RX internal</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>AM Processes by Feedstock and Activation Source (Process-Family-Centric View)</caption>
+  <thead>
+    <tr><th rowspan="2">AM process family (main item)</th><th colspan="4">Activation source</th></tr>
+    <tr><th>Laser</th><th>Electron beam</th><th>Arc</th><th>Other activation sources</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Powder Bed Fusion (PBF)</td><td>Laser PBF (LPBF) — metals, polymers</td><td>Electron Beam PBF (EB-PBF) — metals</td><td></td><td>Thermal PBF (heated bed) — polymers</td></tr>
+    <tr><td>Laser Sintering (SLS) — polymers</td><td></td><td></td><td></td></tr>
+    <tr><td rowspan="2">Directed Energy Deposition (DED)</td><td>Laser DED — metal powder/wire</td><td>Electron Beam DED — metal wire</td><td>Wire Arc AM (WAAM) — metal wire</td><td>Plasma DED — metal powder</td></tr>
+    <tr><td>Laser Metal Deposition (LMD) — metal powder</td><td></td><td>Arc DED — metal wire</td><td></td></tr>
+    <tr><td>Vat Photopolymerization</td><td>SLA/DLP (laser/light) — photocurable resin</td><td></td><td></td><td>Two-photon polymerization — resin</td></tr>
+    <tr><td>Material Jetting</td><td>Laser-assisted material jetting — metals</td><td></td><td></td><td>Thermal inkjet — polymers/waxes</td></tr>
+    <tr><td>Binder Jetting</td><td></td><td></td><td></td><td>Binder jetting — metals/ceramics/sand</td></tr>
+  </tbody>
+</table>

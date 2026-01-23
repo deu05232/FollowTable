@@ -1,0 +1,15 @@
+<table>
+  <caption>Nuclear photodisintegration and fusion thresholds relevant to primordial nucleosynthesis</caption>
+  <thead>
+    <tr><th>Category</th><th>Reaction / process</th><th>Threshold Q (MeV)</th><th>Typical use in BBN calculations</th><th>Data source type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Photodisintegration (A ≤ 7)</td><td>D + γ → p + n</td><td>2.22</td><td>Controls deuterium bottleneck</td><td>Cross-section measurements</td></tr>
+    <tr><td>3He + γ → D + p</td><td>5.49</td><td>Affects 3He destruction</td><td>Evaluated nuclear data</td></tr>
+    <tr><td>4He + γ → 3He + n</td><td>20.58</td><td>Relevant for nonthermal photon cascades</td><td>Photo-nuclear compilations</td></tr>
+    <tr><td>7Be + γ → 3He + 4He</td><td>1.59</td><td>Impacts 7Li/7Be balance</td><td>Resonance models</td></tr>
+    <tr><td rowspan="3">Fusion / capture</td><td>p + n → D + γ</td><td>2.22</td><td>Sets initial D production</td><td>Thermonuclear rate fits</td></tr>
+    <tr><td>D + D → 3He + n</td><td>3.27</td><td>Burns deuterium</td><td>Laboratory S-factor</td></tr>
+    <tr><td>3He + α → 7Be + γ</td><td>1.59</td><td>Feeds 7Be (→ 7Li)</td><td>R-matrix analysis</td></tr>
+  </tbody>
+</table>

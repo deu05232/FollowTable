@@ -1,0 +1,11 @@
+<table>
+  <caption>1Gbit s–10Gbit s SpaceFibre Optical Receiver Electrical-to-Optical Characteristics</caption>
+  <tr><td>Parameter</td><td>Symbol</td><td>Minimum</td><td>Typical</td><td>Maximum</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>(BER= 10-12,PRBS= 2-7-1,ER=5 dB) Sensitivity</td><td>PIN</td><td></td><td>-14</td><td>-11</td><td>dBm</td><td>PIN PD @ 10.3 Gbit/s</td></tr>
+  <tr><td>(BER=10-12,PRBS=2-7-1) Overload</td><td>PIN</td><td>0</td><td></td><td></td><td>dBm</td><td></td></tr>
+  <tr><td>Optical wavelength</td><td>双N</td><td>830</td><td></td><td>860</td><td>nm</td><td></td></tr>
+  <tr><td>Receiver differential output impedance</td><td>Zout</td><td>1</td><td>100</td><td>1</td><td>p</td><td>Internal AC coupling</td></tr>
+  <tr><td>Differential output voltage swing</td><td>Vout_d</td><td>300</td><td>一</td><td>850</td><td>mVpp</td><td>CML,100Ω</td></tr>
+  <tr><td>NoSignal trigger threshold</td><td>NOSIG</td><td>-30</td><td>-19</td><td></td><td>dBm</td><td>@ 10.3 Gbit/s</td></tr>
+  <tr><td>NoSignal hysteresis</td><td>NOSIGHYS</td><td>0.5</td><td>2.0</td><td></td><td>dB</td><td>一</td></tr>
+</table>

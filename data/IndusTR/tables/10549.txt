@@ -1,0 +1,17 @@
+<table>
+  <caption>Terrestrial Eco-Meteorological Sensor Measurements (Continuous Variables)</caption>
+  <thead>
+    <tr><th>Seq</th><th>Measurement Item</th><th>Code</th><th>Data Type</th><th>Unit/Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station name</td><td>D_NAME</td><td>Varchar(100)</td><td>Station identifier</td></tr>
+    <tr><td>2</td><td>Observation time</td><td>D_TIME</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td></tr>
+    <tr><td>3</td><td>Total irradiance</td><td>AJA</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>4</td><td>Photosynthetically active radiation</td><td>PAR</td><td>Number(6,1)</td><td>μmol·m⁻²·s⁻¹</td></tr>
+    <tr><td>5</td><td>Air temperature</td><td>TA</td><td>Number(5,2)</td><td>°C</td></tr>
+    <tr><td>6</td><td>Relative humidity</td><td>RH</td><td>Number(5,2)</td><td>%</td></tr>
+    <tr><td>7</td><td>Wind speed</td><td>WS</td><td>Number(5,2)</td><td>m/s</td></tr>
+    <tr><td>8</td><td>Precipitation</td><td>PRCP</td><td>Number(6,1)</td><td>mm</td></tr>
+    <tr><td>9</td><td>Soil moisture (0-10 cm)</td><td>SM10</td><td>Number(5,2)</td><td>m³/m³</td></tr>
+  </tbody>
+</table>

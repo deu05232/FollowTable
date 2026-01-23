@@ -1,0 +1,13 @@
+<table>
+  <caption>Summary of emission reduction accounting for an MSW incineration project (baseline vs. project)</caption>
+  <tr><th>Accounting component</th><th>How it is treated on the baseline side</th><th>How it is treated on the project side</th><th>How it enters the reduction claim</th></tr>
+  <tr><td>Waste treatment pathway</td><td>Disposal in landfill (counterfactual)</td><td>Incineration with energy recovery</td><td>Defines which baseline and project quantities are compared</td></tr>
+  <tr><td>Landfill methane from diverted waste</td><td>Included as baseline landfill emissions</td><td>Not applicable (waste not landfilled)</td><td>Counts as a baseline term that is avoided by the project</td></tr>
+  <tr><td>Displaced grid electricity</td><td>Baseline includes electricity generation that would have occurred</td><td>Project exports electricity from incineration</td><td>Credited as avoided baseline power emissions when export occurs</td></tr>
+  <tr><td>Displaced heat supply</td><td>Baseline includes heat that would have been produced by alternative fuels</td><td>Project supplies usable heat</td><td>Credited as avoided baseline heat emissions when heat is delivered</td></tr>
+  <tr><td>On-site fossil fuel use</td><td>Not included</td><td>Included as project fossil fuel emissions</td><td>Added to project emissions and reduces the net reduction</td></tr>
+  <tr><td>Purchased electricity use</td><td>Not included</td><td>Included as project electricity consumption emissions</td><td>Added to project emissions and reduces the net reduction</td></tr>
+  <tr><td>Total baseline emissions</td><td>Sum of baseline landfill + displaced energy terms</td><td>—</td><td>Baseline total is compared against project total</td></tr>
+  <tr><td>Total project emissions</td><td>—</td><td>Sum of on-site/project-side emission sources</td><td>Subtracted from baseline total</td></tr>
+  <tr><td>Emission reductions</td><td colspan="2">Baseline total minus project total</td><td>Net claimed reduction</td></tr>
+</table>

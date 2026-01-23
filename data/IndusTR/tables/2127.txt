@@ -1,0 +1,10 @@
+<table>
+  <caption>Arithmetic Operator Build & Deployment Pipeline Configuration</caption>
+  <tr><th>Stage</th><th>Tool</th><th>Key Flag</th><th>Default</th><th>Description</th></tr>
+  <tr><td>Configure</td><td>CMake</td><td>-DENABLE_BASIC_OPS</td><td>ON</td><td>Enable arithmetic operator module</td></tr>
+  <tr><td>Compile</td><td>clang</td><td>-O3</td><td>ON</td><td>Optimization level for kernels</td></tr>
+  <tr><td>Link</td><td>ld.lld</td><td>--gc-sections</td><td>ON</td><td>Remove unused sections</td></tr>
+  <tr><td>Package</td><td>zip</td><td>--recurse-paths</td><td>ON</td><td>Create deployment artifact</td></tr>
+  <tr><td>Deploy</td><td>kubectl</td><td>--namespace</td><td>ml-runtime</td><td>Target namespace</td></tr>
+  <tr><td>Verify</td><td>pytest</td><td>-k arithmetic</td><td>N/A</td><td>Run smoke tests for operators</td></tr>
+</table>

@@ -1,0 +1,6 @@
+<table>
+  <caption>Memory and time consumptions for the conventional, one seed and multiple seed methods described. The multiple-seed method is the best one since it combines the low O ( N ) memory consumption of the one-seed method and the low O ( N 2 ) time spent of the conventional implementation method.</caption>
+  <tr><th></th><th>Method</th><th>Conventional</th><th>One-Seed</th><th>Multiple-Seed</th></tr>
+  <tr><th>Time</th><th></th><td>N^(2)</td><td>N^(3)</td><td>N^(2)</td></tr>
+  <tr><th>Memory</th><th></th><td>N^(2)</td><td>N</td><td>N</td></tr>
+</table>

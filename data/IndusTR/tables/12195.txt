@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced IR Embedded-Center Pattern — Minimum Embedded Distance Thresholds and DT Adjustments</caption>
+  <thead>
+    <tr><th rowspan="2">Surrounding Grayscale Ring</th><th colspan="3">Minimum Embedded Distance</th><th colspan="3">Minimum Embedded Distance</th><th rowspan="2">Base DT</th><th rowspan="2">Adjustment Rule</th></tr>
+    <tr><th>deg</th><th>nmi</th><th>Quality Flag</th><th>deg</th><th>nmi</th><th>Quality Flag</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>W or colder</td><td>0.60</td><td>36</td><td>Good</td><td>0.50</td><td>30</td><td>Marginal</td><td>3.5</td><td>If ring is continuous, +0.5</td></tr>
+    <tr><td>B</td><td>0.60</td><td>36</td><td>Good</td><td>0.50</td><td>30</td><td>Marginal</td><td>3.0</td><td>If ring breaks > 90°, -0.5</td></tr>
+    <tr><td>LG</td><td>0.55</td><td>33</td><td>Good</td><td>0.45</td><td>27</td><td>Marginal</td><td>2.5</td><td>If convection is asymmetric, -0.5</td></tr>
+    <tr><td>MG</td><td>0.50</td><td>30</td><td>Good</td><td>0.40</td><td>24</td><td>Marginal</td><td>2.0</td><td>Apply only if center is within ring</td></tr>
+    <tr><td>DG</td><td>0.45</td><td>27</td><td>Good</td><td>0.35</td><td>21</td><td>Marginal</td><td>1.5</td><td>If center displaced, use shear table instead</td></tr>
+    <tr><td>OW</td><td>0.40</td><td>24</td><td>Good</td><td>0.33</td><td>20</td><td>Marginal</td><td>1.0</td><td>Often indicates weakening convection</td></tr>
+  </tbody>
+</table>

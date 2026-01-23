@@ -1,0 +1,15 @@
+<table>
+  <caption>Machining Process Route — Harmonic Gear Reducer Key Parts (Equipment & Cycle Time)</caption>
+  <thead>
+    <tr><th>Part</th><th>Process Step</th><th>Machine Tool</th><th>Fixture</th><th>Target Cycle Time (min)</th><th>In-Process Inspection</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Flexspline</td><td>Turning</td><td>CNC Lathe</td><td>Soft jaws</td><td>8.5</td><td>OD runout</td><td>Pre-heat to 25°C</td></tr>
+    <tr><td>Flexspline</td><td>Heat treatment</td><td>Vacuum furnace</td><td>Tray</td><td>240</td><td>Hardness</td><td>Record curve</td></tr>
+    <tr><td>Circular Spline</td><td>Hobbing</td><td>Gear hobber</td><td>Mandrel</td><td>12.0</td><td>Profile check</td><td>DIN 6</td></tr>
+    <tr><td>Wave Generator</td><td>Grinding</td><td>OD Grinder</td><td>Centers</td><td>10.5</td><td>Roundness</td><td>Ra ≤ 0.4</td></tr>
+    <tr><td>Output Flange</td><td>Milling</td><td>3-Axis VMC</td><td>Vacuum chuck</td><td>9.0</td><td>Flatness</td><td>Deburr edges</td></tr>
+    <tr><td>Bearing seat</td><td>Boring</td><td>Horizontal borer</td><td>Expanding arbor</td><td>7.5</td><td>Bore gauge</td><td>Gauge R&R</td></tr>
+    <tr><td>Assembly</td><td>Greasing & torque</td><td>Torque station</td><td>Torque wrench</td><td>6.0</td><td>Torque audit</td><td>Mark fasteners</td></tr>
+  </tbody>
+</table>

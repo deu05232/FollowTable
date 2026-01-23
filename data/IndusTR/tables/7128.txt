@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration Processing Parameters (Offset/Gain)</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Calibration Processing Sequence</td><td>(0014,30B0)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence describing how calibration data were applied to produce corrected image values.</td></tr>
+  <tr><td>>Applied Offset Correction</td><td>(0014,30B1)</td><td>CS</td><td>1</td><td>1</td><td>Whether offset (dark) correction was applied (YES/NO).</td></tr>
+  <tr><td>>Offset Correction Method</td><td>(0014,30B2)</td><td>CS</td><td>1</td><td>3</td><td>Algorithm used for offset correction (e.g., SUBTRACTION, MODEL_BASED).</td></tr>
+  <tr><td>>Applied Gain Correction</td><td>(0014,30B3)</td><td>CS</td><td>1</td><td>1</td><td>Whether gain/flat-field correction was applied (YES/NO).</td></tr>
+  <tr><td>>Gain Correction Method</td><td>(0014,30B4)</td><td>CS</td><td>1</td><td>3</td><td>Algorithm used for gain correction (e.g., DIVISION, LOOKUP_TABLE).</td></tr>
+  <tr><td>>Bad Pixel Correction Included</td><td>(0014,30B5)</td><td>CS</td><td>1</td><td>3</td><td>Indicates whether a bad-pixel map derived during calibration was used (YES/NO).</td></tr>
+  <tr><td>>Calibration Validity Start DateTime</td><td>(0014,30B6)</td><td>DT</td><td>1</td><td>3</td><td>Start of the validity interval for the applied calibration dataset.</td></tr>
+  <tr><td>>Calibration Validity End DateTime</td><td>(0014,30B7)</td><td>DT</td><td>1</td><td>3</td><td>End of the validity interval for the applied calibration dataset.</td></tr>
+  <tr><td>>Calibration Notes</td><td>(0014,30B8)</td><td>LT</td><td>1</td><td>3</td><td>Free-text notes about calibration application (e.g., temperature drift compensation enabled).</td></tr>
+  <tr><td>>Referenced Offset Calibration Data</td><td>(0014,30B9)</td><td>UI</td><td>1</td><td>3</td><td>SOP Instance UID referencing the offset calibration data used for correction.</td></tr>
+  <tr><td>>Referenced Gain Calibration Data</td><td>(0014,30BA)</td><td>UI</td><td>1</td><td>3</td><td>SOP Instance UID referencing the gain calibration data used for correction.</td></tr>
+</table>

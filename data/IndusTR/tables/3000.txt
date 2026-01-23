@@ -1,0 +1,10 @@
+<table>
+  <caption>Process Parameters for Continuous Casting & Rolling Line (CCR) – Aluminum Wire Rod Production</caption>
+  <tr><th>Process Step</th><th>Parameter</th><th>Setpoint</th><th>Control Range</th><th>Instrument</th><th>Record Interval</th><th>Corrective Action</th></tr>
+  <tr><td>Melting</td><td>Furnace temperature (°C)</td><td>740</td><td>730–750</td><td>Thermocouple</td><td>10 min</td><td>Adjust burner output</td></tr>
+  <tr><td>Degassing</td><td>Rotor speed (rpm)</td><td>450</td><td>400–500</td><td>VFD feedback</td><td>Per batch</td><td>Replace rotor</td></tr>
+  <tr><td>Filtration</td><td>Filter pore size (ppi)</td><td>30</td><td>20–50</td><td>Spec sheet</td><td>Per change</td><td>Switch filter</td></tr>
+  <tr><td>Casting</td><td>Casting speed (m/min)</td><td>2.8</td><td>2.5–3.1</td><td>Encoder</td><td>1 min</td><td>Adjust metal head</td></tr>
+  <tr><td>Rolling</td><td>Finishing temperature (°C)</td><td>420</td><td>390–450</td><td>IR pyrometer</td><td>5 min</td><td>Modify coolant flow</td></tr>
+  <tr><td>Coiling</td><td>Coil tension (N)</td><td>180</td><td>150–210</td><td>Load cell</td><td>Continuous</td><td>Adjust dancer</td></tr>
+</table>

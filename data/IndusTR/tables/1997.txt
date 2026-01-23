@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Rendering Pipeline Configuration (Shader & Texture Settings)</caption>
+  <tr><th>Module</th><th>Setting Key</th><th>Recommended Value</th><th>Default</th><th>Impact</th></tr>
+  <tr><td>Camera Background</td><td>backgroundTextureFormat</td><td>RGBA8</td><td>NV12</td><td>Color fidelity vs bandwidth</td></tr>
+  <tr><td>Compositor</td><td>alphaBlendMode</td><td>Premultiplied</td><td>Straight</td><td>Edge artifacts reduction</td></tr>
+  <tr><td>Post-processing</td><td>toneMapping</td><td>ACES</td><td>Reinhard</td><td>HDR appearance</td></tr>
+  <tr><td>Textures</td><td>mipmapPolicy</td><td>GenerateOnLoad</td><td>None</td><td>Aliasing control</td></tr>
+  <tr><td>Shadows</td><td>shadowMapSize</td><td>2048</td><td>1024</td><td>Shadow sharpness</td></tr>
+  <tr><td>Performance</td><td>fixedFoveationLevel</td><td>Medium</td><td>Off</td><td>FPS improvement on XR</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Spherical Harmonic Coefficient Definitions (Mixed with Indexing and Scaling Parameters)</caption>
+  <thead>
+    <tr><th>Group</th><th>Field</th><th>Field ID</th><th>Type</th><th>Bits</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Indexing</td><td>Coefficient degree index n</td><td>DF701</td><td>uint6</td><td>6</td><td>Degree for current coefficient element</td></tr>
+    <tr><td>Indexing</td><td>Coefficient order index m</td><td>DF702</td><td>uint6</td><td>6</td><td>Order for current coefficient element</td></tr>
+    <tr><td>Scaling</td><td>Coefficient scale factor</td><td>DF703</td><td>uint4</td><td>4</td><td>Exponent applied to coefficient decoding</td></tr>
+    <tr><td>Coefficient (Correction)</td><td>Spherical harmonic function cosine coefficient (correction information)</td><td>DF476</td><td>int16</td><td>16</td><td>C_nm for ionospheric delay correction</td></tr>
+    <tr><td>Coefficient (Correction)</td><td>Spherical harmonic function sine coefficient (correction information)</td><td>DF477</td><td>int16</td><td>16</td><td>S_nm for ionospheric delay correction</td></tr>
+    <tr><td>Coefficient (Accuracy)</td><td>Spherical harmonic function cosine coefficient (accuracy information)</td><td>DF489</td><td>uint8</td><td>8</td><td>Accuracy indicator for C_nm</td></tr>
+    <tr><td>Coefficient (Accuracy)</td><td>Spherical harmonic function sine coefficient (accuracy information)</td><td>DF490</td><td>uint8</td><td>8</td><td>Accuracy indicator for S_nm</td></tr>
+    <tr><td>Configuration</td><td>Ionospheric thin-shell height</td><td>DF473</td><td>uint8</td><td>8</td><td>Shell height used by model</td></tr>
+  </tbody>
+</table>

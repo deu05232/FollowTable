@@ -1,0 +1,7 @@
+<table>
+  <caption>《BusinessProcess》Tracking & Traceability Status Inquiry and Response</caption>
+  <tr><td>Preconditions</td><td>A shipment record has been created for an import/export container move, and the integrated data center has at least one confirmed event message associated with it</td></tr>
+  <tr><td>Start Time</td><td>The consignee, shipper, freight forwarder, or customs broker submits a status inquiry message to the integrated data center</td></tr>
+  <tr><td>Scenario</td><td>The integrated data center validates the requester, matches the inquiry to the shipment using reference identifiers, retrieves the latest confirmed logistics events, and returns a consolidated tracking and traceability status message to the requester</td></tr>
+  <tr><td>Participants / Data Exchange</td><td>Business entity submits an inquiry; integrated data center returns a response; optionally a government agency endpoint provides regulatory event confirmations</td></tr>
+</table>

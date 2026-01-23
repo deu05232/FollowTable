@@ -1,0 +1,17 @@
+<table>
+  <caption>Bitstream conformance traversal targets for selected syntax elements (explicit value/binIdx ranges)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Traversal target (direct enumeration)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">SAO syntax</td><td>sao_mode</td><td>Traverse cases where the value of sao_mode equals 0 to 2</td></tr>
+    <tr><td>sao_interval_offset_abs</td><td>Traverse cases where the value of sao_interval_offset_abs equals 0 to 7</td></tr>
+    <tr><td>sao_offset_sign</td><td>Traverse cases where the value of sao_offset_sign equals 0 to 1</td></tr>
+    <tr><td rowspan="3">Split / transform flags</td><td>split_flag</td><td>Traverse cases where the value of split_flag equals 0 to 1</td></tr>
+    <tr><td>transform_split_flag</td><td>Traverse cases where the value of transform_split_flag equals 0 to 1</td></tr>
+    <tr><td>qt_depth</td><td>Traverse cases where the value of qt_depth equals 0 to 3</td></tr>
+    <tr><td rowspan="3">Misc. binary elements</td><td>aec_lcu_stuffing_bit</td><td>Traverse cases where the value of aec_lcu_stuffing_bit equals 0 to 1</td></tr>
+    <tr><td>pcm_flag</td><td>Traverse cases where the value of pcm_flag equals 0 to 1</td></tr>
+    <tr><td>pred_mode_flag</td><td>Traverse cases where the value of pred_mode_flag equals 0 to 1</td></tr>
+  </tbody>
+</table>

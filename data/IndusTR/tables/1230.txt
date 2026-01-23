@@ -1,0 +1,20 @@
+<table>
+  <caption>Performance Parameters of Ventilator</caption>
+  <tr><td>Data Element Identifier</td><td>Data Element Name</td><td>Special Data Entity Constraint Conditions</td></tr>
+  <tr><td>H1128A0000</td><td>Ventilator Type</td><td>B</td></tr>
+  <tr><td>H1129A0000</td><td>Ventilator Ventilation Mode</td><td>B</td></tr>
+  <tr><td>H1065A0000</td><td>Control Mode</td><td>B</td></tr>
+  <tr><td>H1093A0000</td><td>Tidal Volume Range</td><td>B</td></tr>
+  <tr><td>H1130A0000</td><td>Respiratory Rate</td><td>B</td></tr>
+  <tr><td>H1131A0000</td><td>Peak Airway Pressure</td><td>B</td></tr>
+  <tr><td>H1132A0000</td><td>Positive End-Expiratory Pressure</td><td>B</td></tr>
+  <tr><td>H1134A0000</td><td>Inspiratory/Expiratory Ratio Setting Range</td><td>B</td></tr>
+  <tr><td>H1133A0000</td><td>Tidal Volume Accuracy</td><td>A</td></tr>
+  <tr><td>H1135A0000</td><td>End-Expiratory Airway Pressure Range</td><td>A</td></tr>
+  <tr><td>H1136A0000</td><td>Inspiratory Oxygen Concentration Range</td><td>A</td></tr>
+  <tr><td>H1137A0000</td><td>Inspiratory Oxygen Concentration Accuracy</td><td>A</td></tr>
+  <tr><td>H1138A0000</td><td>Inspiratory Pressure Support</td><td>A</td></tr>
+  <tr><td>H1139A0000</td><td>Compensation Function</td><td>A</td></tr>
+  <tr><td>H1051A0000</td><td>Alarm Mode</td><td>A</td></tr>
+  <tr><td colspan="3">Note: Filling in “A” in the table indicates that the corresponding data element is optional; filling in “B” indicates that the corresponding data element is mandatory.</td></tr>
+</table>

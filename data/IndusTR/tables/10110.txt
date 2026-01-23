@@ -1,0 +1,24 @@
+<table>
+  <caption>vrTrackingQuality and Status Flags Used in Pose/Positioning Data</caption>
+  <thead>
+    <tr><th>Data Type</th><th>Value / Bit</th><th>Meaning (Plain Explanation)</th><th>How to Interpret in Code</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">vrTrackingQuality</td><td>VR_TRACKING_QUALITY_NOT_TRACKED=0x00</td><td>No valid tracking; pose/position should be treated as unavailable.</td><td>Do not use pose; fall back to last-known or predictive behavior.</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_ORIENTATION_ONLY=0x01</td><td>Only orientation is reliable; position is not tracked.</td><td>Use quaternion; ignore/hold position fields.</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_POSITION_LOW=0x02</td><td>Position is present but low confidence (drift/jitter likely).</td><td>Use position with smoothing; reduce gameplay reliance.</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_POSITION_HIGH=0x03</td><td>Position and orientation are both tracked with good confidence.</td><td>Use full pose normally.</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_RELOCALIZING=0x04</td><td>System is actively trying to relocalize to a known map/world.</td><td>Expect discontinuities; consider pausing world-locked interactions.</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_LOST=0x05</td><td>Tracking was previously valid but is now lost.</td><td>Freeze content or switch to 3DoF until recovered.</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_CALIBRATING=0x06</td><td>Tracking is running but calibration is in progress.</td><td>Allow data but be cautious; quality may improve after calibration.</td></tr>
+    <tr><td>VR_TRACKING_QUALITY_RESERVED=0x07~0xFF</td><td>Reserved for future extensions.</td><td>Handle as unknown; do not assume semantics.</td></tr>
+    <tr><td rowspan="8">vrPoseStatusFlags</td><td>VR_POSE_STATUS_ORIENTATION_VALID=0x0001</td><td>Orientation field contains a valid value for this frame.</td><td>If not set, ignore quaternion or keep last valid orientation.</td></tr>
+    <tr><td>VR_POSE_STATUS_POSITION_VALID=0x0002</td><td>Position field contains a valid value for this frame.</td><td>If not set, ignore 3D point position.</td></tr>
+    <tr><td>VR_POSE_STATUS_LINEAR_VELOCITY_VALID=0x0004</td><td>Linear velocity values are valid (e.g., in motion data).</td><td>Use velocity for prediction only when flag is set.</td></tr>
+    <tr><td>VR_POSE_STATUS_ANGULAR_VELOCITY_VALID=0x0008</td><td>Angular velocity values are valid.</td><td>Use gyro-based prediction only when flag is set.</td></tr>
+    <tr><td>VR_POSE_STATUS_WORLD_LOCKED=0x0010</td><td>Pose is expressed in a stable world coordinate system (not purely local).</td><td>Use for world-anchored content placement.</td></tr>
+    <tr><td>VR_POSE_STATUS_LOCAL_SPACE=0x0020</td><td>Pose is expressed in a local/device space that may drift.</td><td>Prefer for immediate rendering; avoid persistent anchors.</td></tr>
+    <tr><td>VR_POSE_STATUS_JUMP_DETECTED=0x0040</td><td>Pose has a discontinuity (e.g., relocalization jump).</td><td>Reset filters; re-anchor objects if needed.</td></tr>
+    <tr><td>VR_POSE_STATUS_RESERVED=0x0080~0x8000</td><td>Reserved bits for future use.</td><td>Mask unknown bits; maintain forward compatibility.</td></tr>
+  </tbody>
+</table>

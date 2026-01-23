@@ -1,0 +1,14 @@
+<table>
+  <caption>Comparison of gravitational-force observables under Newtonian gravity and bimetric gravity (single combined theory column)</caption>
+  <thead>
+    <tr><th>Observable / Test</th><th>Theory description (Newtonian and Bimetric combined)</th><th>Force-related quantity</th><th>Typical parameter symbols</th><th>Expected deviation pattern</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cavendish-type lab test</td><td>Newtonian: inverse-square; Bimetric: inverse-square plus short-range Yukawa term</td><td>G_eff(r)=G[1+α e^{-r/λ}]</td><td>α, λ</td><td>Deviation increases at r ~ λ</td></tr>
+    <tr><td>Perihelion precession (weak field)</td><td>Newtonian gives no relativistic precession; Bimetric can reproduce GR-like precession with extra small corrections</td><td>ΔF/F ~ O(α e^{-r/λ})</td><td>α, λ</td><td>Constrained to be tiny in solar system</td></tr>
+    <tr><td>Light deflection proxy (force-equivalent lensing)</td><td>Newtonian predicts half of GR for light; Bimetric depends on which metric couples to photons</td><td>Effective lensing potential Φ+Ψ</td><td>coupling ratios, mixing angle</td><td>Can be enhanced/suppressed relative to GR</td></tr>
+    <tr><td>Binary pulsar timing (radiation reaction)</td><td>Newtonian has no GW damping; Bimetric may add massive/tensor modes altering energy loss</td><td>dE/dt and implied backreaction force</td><td>m_g, β parameters</td><td>Dispersion/extra channels modify decay rate</td></tr>
+    <tr><td>Gravitational slip in cosmological perturbations</td><td>Newtonian limit has Φ=Ψ; Bimetric often allows Φ≠Ψ</td><td>Slip parameter η=Φ/Ψ</td><td>η, m_g</td><td>Scale-dependent force for structure growth</td></tr>
+    <tr><td>Large-scale structure growth rate</td><td>Newtonian/GR: standard Poisson; Bimetric: modified Poisson with k-dependent strength</td><td>k^2 Ψ = -4πG a^2 μ(k,a) ρΔ</td><td>μ(k,a)</td><td>Enhanced/suppressed clustering force</td></tr>
+  </tbody>
+</table>

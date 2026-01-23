@@ -1,0 +1,11 @@
+# Comparison of BitTorrent Components (Libraries SDKs)
+
+| Library/Framework | Primary use | Languages | Platforms | Magnet link support | DHT/PEX support | Encryption support | IPv6/µTP | Remote control API | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| libtorrent (Rasterbar) | Embedded BitTorrent engine | C++ | Win/macOS/Linux | Yes (via apps) | Yes | Yes | Yes | Via bindings | Not an end-user app |
+| MonoTorrent | .NET BitTorrent engine | C# | Win/Linux/macOS | Yes | Partial | Yes | IPv6: Yes / µTP: No | Yes | Used by custom clients |
+| WebTorrent (core) | Web/Node BitTorrent engine | JavaScript | Browser/Node | Yes | DHT: Node only | Optional | IPv6: depends | WebRTC control | Focus on WebRTC |
+| Transmission libtransmission | Core library | C | Win/macOS/Linux | Yes | Yes | Yes | Yes | RPC support | Used by Transmission GUI |
+| Azureus/Vuze Core | BitTorrent core | Java | Cross-platform | Yes | Yes | Yes | IPv6: Yes | Plugin API | Core used by Vuze |
+| aria2c (as a library use) | Downloader engine | C++ | Cross-platform | Yes | Yes | Optional | IPv6: Yes / µTP: ? | JSON-RPC | Often embedded |
+| Deluge libtorrent integration | Pluginable engine layer | Python/C++ | Linux/Win | Yes | Yes | Yes | IPv6: Yes | Web API | Not a standalone client itself |

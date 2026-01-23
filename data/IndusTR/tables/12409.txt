@@ -1,0 +1,15 @@
+<table>
+  <caption>Certificate Application Policy and Compliance Notes for SOF Components</caption>
+  <thead>
+    <tr><th>Topic</th><th>Policy / Narrative Text</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Authentication Policy</td><td>User login attempts may be rate-limited; after N failures the token/container can be locked per vendor policy.</td></tr>
+    <tr><td>Certificate Export Policy</td><td>Only public certificates may be exported; private keys must remain non-exportable unless explicitly provisioned.</td></tr>
+    <tr><td>Signature Format Guidance</td><td>RSA signatures should follow XMLDSIG conventions; SM2/SM3 preprocessing should follow applicable national standards.</td></tr>
+    <tr><td>OID Handling</td><td>Private extensions are identified by OID strings; applications should validate OID format and handle absent extensions.</td></tr>
+    <tr><td>User List Exposure</td><td>User list results may differ by deployment policy; CN values can be considered personal data in some jurisdictions.</td></tr>
+    <tr><td>Audit and Logging</td><td>Log only high-level status codes; avoid logging CertID, CN, or Base64 certificate blobs in production.</td></tr>
+    <tr><td>Interoperability</td><td>Different devices may encode identifiers differently; applications should not assume CertID structure.</td></tr>
+  </tbody>
+</table>

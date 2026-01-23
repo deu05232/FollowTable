@@ -1,0 +1,16 @@
+<table>
+  <caption>Traditional Mongolian Control Characters — Invalid Attachment/Ordering Examples (Focus on Selector Placement)</caption>
+  <thead>
+    <tr><th>Case</th><th>Rendered Display (symptom)</th><th>Forbidden Sequence</th><th>Illegal Sequence Class</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A1</td><td>Selector shows as empty box before text</td><td><FVS1> U+1823</td><td>Variation selector before base letter (no target)</td></tr>
+    <tr><td>A2</td><td>Base letter renders, selector ignored/tofu after punctuation</td><td>U+1823 '.' <MVS></td><td>Selector applied after non-Mongolian/punctuation (no valid base immediately before)</td></tr>
+    <tr><td>A3</td><td>Word splits; selector appears detached</td><td>U+1823 <ZWNJ> <FVS3> U+1820</td><td>Selector placed after ZWNJ boundary; does not attach to a base</td></tr>
+    <tr><td>A4</td><td>Unexpected glyph; shaping unstable across engines</td><td>U+1828 <ZWJ> <ZWJ> U+1820</td><td>Repeated ZWJ (multiple joiners in a row) — undefined/illegal join control sequence</td></tr>
+    <tr><td>A5</td><td>Control characters visible as dotted boxes inside word</td><td>U+1828 <MVS> <ZWNJ> U+1820</td><td>MVS immediately followed by join-control; breaks selector-to-base attachment</td></tr>
+    <tr><td>A6</td><td>Variation selector ignored; stray control seen</td><td>U+1828 <FVS2> U+200B(ZWSP) <FVS1></td><td>Two selectors separated by zero-width space; second selector has no base</td></tr>
+    <tr><td>A7</td><td>End of word shows tofu box</td><td>U+1820 U+1821 <FVS1></td><td>Trailing selector at end of run (no following base; illegal attachment target)</td></tr>
+    <tr><td>A8</td><td>Multiple to-fu boxes / inconsistent rendering</td><td>U+1820 <FVS1> <FVS2> U+1821</td><td>Multiple FVS applied to one base letter (stacked variation selectors)</td></tr>
+  </tbody>
+</table>

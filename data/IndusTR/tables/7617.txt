@@ -1,0 +1,17 @@
+<table>
+  <caption>Raw Material Types Mapped to Electron-Beam and Arc Based AM Processes (Laser Mentioned Only as a Footnote)</caption>
+  <thead>
+    <tr><th rowspan="2">Raw material type</th><th colspan="3">Primary activation source</th></tr>
+    <tr><th>Electron beam</th><th>Arc</th><th>Other (non-laser)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metal materials (powder)</td><td>Electron Beam Powder Bed Fusion (EB-PBF)</td><td></td><td>Cold spray additive manufacturing</td></tr>
+    <tr><td>Metal materials (wire)</td><td>Electron Beam Directed Energy Deposition (EB-DED)</td><td>Wire Arc Additive Manufacturing (WAAM)</td><td></td></tr>
+    <tr><td>Titanium alloys</td><td>EB-PBF for Ti-6Al-4V</td><td>WAAM for Ti alloys</td><td></td></tr>
+    <tr><td>Nickel superalloys</td><td>EB-PBF for Inconel 718</td><td>WAAM for Ni-based alloys</td><td></td></tr>
+    <tr><td>Biomaterials (metallic)</td><td>EB-DED porous implant builds</td><td></td><td></td></tr>
+    <tr><td>Inorganic non-metallic materials</td><td></td><td></td><td>Binder jetting + sintering (ceramics)</td></tr>
+    <tr><td>Organic polymer materials</td><td></td><td></td><td>Material extrusion (heated nozzle)</td></tr>
+    <tr><td colspan="4">Note: Laser-based routes exist for many categories but are not classified here.</td></tr>
+  </tbody>
+</table>

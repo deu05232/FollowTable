@@ -1,0 +1,14 @@
+<table>
+  <caption>API Endpoint Inventory for Service Delivery Portal (BOM-related Keywords Included)</caption>
+  <thead>
+    <tr><th>API Name</th><th>HTTP Method</th><th>Endpoint</th><th>Auth</th><th>Rate Limit</th><th>Response Format</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>GetProduct</td><td>GET</td><td>/v1/products/{serialNo}</td><td>OAuth2</td><td>120/min</td><td>JSON</td><td>Includes model and name</td></tr>
+    <tr><td>ListDeliveries</td><td>GET</td><td>/v1/deliveries</td><td>OAuth2</td><td>60/min</td><td>JSON</td><td>Filter by date range</td></tr>
+    <tr><td>CreateServiceTicket</td><td>POST</td><td>/v1/service/tickets</td><td>OAuth2</td><td>30/min</td><td>JSON</td><td>References "BOM" in description</td></tr>
+    <tr><td>UploadChecklist</td><td>POST</td><td>/v1/inspection/checklists</td><td>OAuth2</td><td>20/min</td><td>JSON</td><td>Stores attachments</td></tr>
+    <tr><td>GetSpareStock</td><td>GET</td><td>/v1/spares/stock</td><td>OAuth2</td><td>60/min</td><td>JSON</td><td>Warehouse availability</td></tr>
+    <tr><td>ExportReport</td><td>GET</td><td>/v1/reports/export</td><td>OAuth2</td><td>10/min</td><td>CSV</td><td>Long-running job</td></tr>
+  </tbody>
+</table>

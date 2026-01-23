@@ -1,0 +1,15 @@
+<table>
+  <caption>Crosswalk of Fire Resistance Ratings Across Fire Curves for Intumescent Coating Systems</caption>
+  <thead>
+    <tr><th>System ID</th><th>Fire curve category</th><th>Curve descriptor</th><th>Equivalent severity factor</th><th>Rated time class</th><th>Rating code</th><th>Alternate curve rating</th><th>Alternate rating code</th><th>Basis</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>IC-01</td><td>Cellulosic</td><td>Standard time–temperature</td><td>1.00</td><td>30 min</td><td>Fp0.50</td><td>Hydrocarbon</td><td>Ft0.50</td><td>Scenario mapping only</td></tr>
+    <tr><td>IC-01</td><td>Cellulosic</td><td>Standard time–temperature</td><td>1.00</td><td>60 min</td><td>Fp1.00</td><td>Hydrocarbon</td><td>Ft1.00</td><td>Scenario mapping only</td></tr>
+    <tr><td>IC-02</td><td>Hydrocarbon</td><td>Rapid rise to 1093°C</td><td>1.35</td><td>60 min</td><td>Ft1.00</td><td>Petrochemical</td><td>Fs1.00</td><td>Curve family equivalence</td></tr>
+    <tr><td>IC-02</td><td>Hydrocarbon</td><td>Rapid rise to 1093°C</td><td>1.35</td><td>120 min</td><td>Ft2.00</td><td>Petrochemical</td><td>Fs2.00</td><td>Curve family equivalence</td></tr>
+    <tr><td>IC-03</td><td>Petrochemical</td><td>Higher peak / longer plateau</td><td>1.55</td><td>120 min</td><td>Fs2.00</td><td>RABT</td><td>Fb1.50</td><td>Tunnel curve mapping</td></tr>
+    <tr><td>IC-03</td><td>Petrochemical</td><td>Higher peak / longer plateau</td><td>1.55</td><td>180 min</td><td>Fs3.00</td><td>RWS</td><td>Fr2.00</td><td>Tunnel curve mapping</td></tr>
+    <tr><td>IC-04</td><td>RWS</td><td>Tunnel, 1350°C peak</td><td>1.80</td><td>120 min</td><td>Fr2.00</td><td>Cellulosic</td><td>Fp3.00</td><td>Crosswalk table</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal-to-Card APDU Command Header (Example: INS F2h - Session/Service Operation)</caption>
+  <thead>
+    <tr><th>Section</th><th>Header Field</th><th>Hex Value</th><th>Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">APDU Header</td><td>CLA</td><td>80</td><td>Class byte used for proprietary terminal commands</td></tr>
+    <tr><td>INS</td><td>F2</td><td>Instruction code for this terminal-to-card service function</td></tr>
+    <tr><td>P1</td><td>00</td><td>Parameter 1: base function selector (default)</td></tr>
+    <tr><td>P2</td><td>01</td><td>Parameter 2: mode/option selector (example value distinct from default)</td></tr>
+    <tr><td rowspan="3">Command framing helpers</td><td>Header Layout</td><td>CLA INS P1 P2</td><td>Byte order for command header construction</td></tr>
+    <tr><td>Header Hex (composed)</td><td>80 F2 00 01</td><td>Ready-to-use 4-byte header sequence</td></tr>
+    <tr><td>Lc (if data present)</td><td>Variable</td><td>Length of command data that follows the header</td></tr>
+    <tr><td rowspan="1">Optional</td><td>Le</td><td>00 or absent</td><td>Expected response length if the command requires it</td></tr>
+  </tbody>
+</table>

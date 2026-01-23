@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Camera Image Retrieval Interface Parameters (Signature-Style)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Data Type</th><th>Used For</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>AR session context used to validate ownership/lifetime of all ARCore objects referenced by the call.</td></tr>
+    <tr><td>frame</td><td>const ArFrame *</td><td>Input frame to query; determines which camera image (for that timestamp) is returned.</td></tr>
+    <tr><td>camera_stream</td><td>ArCameraStreamType</td><td>Selects which camera stream to fetch from (e.g., CPU image vs. GPU texture stream), making the call’s intent explicit.</td></tr>
+    <tr><td>image_format</td><td>ArImageFormat</td><td>Requested pixel format for the returned image handle (e.g., YUV_420_888), if supported by the runtime.</td></tr>
+    <tr><td>out_image</td><td>ArImage **</td><td>Output pointer that receives the address of the acquired camera image for the given frame.</td></tr>
+    <tr><td>out_acquire_status</td><td>ArStatus *</td><td>Output status for acquisition (success, not yet available, or failure) so callers can branch without exceptions.</td></tr>
+    <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Output timestamp (nanoseconds) corresponding to the returned image so it can be synchronized with pose/depth.</td></tr>
+  </tbody>
+</table>

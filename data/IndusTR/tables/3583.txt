@@ -1,0 +1,13 @@
+<table>
+  <caption>Base64 Object Multi-block Decoding Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_Base64_DecodeUpdate(void * hBase64Obj,unsigned char* pucInData,unsigned intuiInDataLen,unsigned char* pucOutData,unsigned int* puiOutDataLen)</td></tr>
+  <tr><td>Description</td><td>Perform multi-block Base64 decoding of data through the Base64 object; the encoding format refers to IETFRFC4648</td></tr>
+  <tr><td rowspan="5">Parameters</td><td>hBase64Obj[in](Base64 object)</td></tr>
+  <tr><td>pucInData[in](data before decoding)</td></tr>
+  <tr><td>uiInDataLen[in](length of data before decoding)</td></tr>
+  <tr><td>pucOutData[out](decoded data)</td></tr>
+  <tr><td>puiOutDataLen[in,out](returns the length of the decoded data)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Appendix C)</td></tr>
+  <tr><td>Remarks</td><td>After decoding is completed, SAF_Base64_DecodeFinal needs to be called to finish</td></tr>
+</table>

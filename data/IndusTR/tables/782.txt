@@ -1,0 +1,18 @@
+<table>
+  <caption>Image Module Attribute Table</caption>
+  <tr><td>Attribute Name</td><td>Tag</td><td>VR</td><td>VM</td><td>Type</td><td>Description</td></tr>
+  <tr><td>Image Number</td><td>(0020,0013)</td><td>IS</td><td>1</td><td>2</td><td>User-defined identifier for image data</td></tr>
+  <tr><td>Image Date</td><td>(0008,0023)</td><td>DA</td><td>1</td><td>2</td><td>Date when the user created the image data</td></tr>
+  <tr><td>Image Time</td><td>(0008,0033)</td><td>TM</td><td>1</td><td>2</td><td>Time when the user created the image data</td></tr>
+  <tr><td>Image Height</td><td>（0028,0010)</td><td>US</td><td>1</td><td>1</td><td>Image height, expressed in number of pixels</td></tr>
+  <tr><td>Image Width</td><td>(0028,0011)</td><td>US</td><td>1</td><td>1</td><td>Image width, expressed in number of pixels</td></tr>
+  <tr><td>Samples per Pixel</td><td>（0028,0002)</td><td>US</td><td>1</td><td>1</td><td>Number of image channels</td></tr>
+  <tr><td>Bits Stored</td><td>(0028,0101)</td><td>US</td><td>1</td><td>1</td><td>Number of bits actually used to store one pixel</td></tr>
+  <tr><td>Bits Allocated</td><td>(0028,0100)</td><td>US</td><td>1</td><td>1</td><td>Number of bits allocated to store one pixel</td></tr>
+  <tr><td>Photometric Interpretation</td><td>(0028,0004)</td><td>CS</td><td>1</td><td>1</td><td>MONOCHROME1: the minimum sample value is displayed as white; MONOCHROME2: the minimum sample value is displayed as black</td></tr>
+  <tr><td>Window Center</td><td>(0028,1050)</td><td>DS</td><td>1</td><td>1</td><td>Window center value</td></tr>
+  <tr><td>Window Width</td><td>(0028,1051)</td><td>DS</td><td>1</td><td>1</td><td>Window width value</td></tr>
+  <tr><td>Pixel Data</td><td>（7FE0,0010)</td><td>OB/OW</td><td>1</td><td>1</td><td>Raw image matrix</td></tr>
+  <tr><td>Pixel Representation</td><td>(0028,0103)</td><td>US</td><td>1</td><td>1</td><td>Data representation of pixel values: (0) indicates unsigned integer, (1) indicates signed integer</td></tr>
+  <tr><td>Pixel Spacing</td><td>（0028,0030)</td><td>DS</td><td>2</td><td>3</td><td>Physical distance between two pixel points, in micrometers (μm)</td></tr>
+</table>

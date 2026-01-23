@@ -1,0 +1,8 @@
+<table>
+  <caption>Message 62 payload field definition (bit layout)</caption>
+  <tr><th>Message Parameter</th><th>Length (bit)</th><th>Description and Requirements</th></tr>
+  <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 62, fixed at 62</td></tr>
+  <tr><td>Relay Indicator</td><td>2</td><td>Used by the repeater to indicate the number of times the message has been relayed, fixed at 0</td></tr>
+  <tr><td>Broadcasting Device MMSI</td><td>30</td><td>MMSI of the broadcasting device; encoding rules shall comply with the referenced MMSI encoding clause</td></tr>
+  <tr><td>Spare</td><td>10</td><td>Reserved for future use; set to zero</td></tr>
+</table>

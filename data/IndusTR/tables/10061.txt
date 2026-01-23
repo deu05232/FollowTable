@@ -1,0 +1,16 @@
+<table>
+  <caption>Bitstream conformance traversal requirements for QP and transform-related syntax elements (GB/T 33475.2—2024 references)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Conformance test requirements (cases / ranges to traverse)</th><th>Standard reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>qp_delta_flag</td><td>Traverse qp_delta_flag = 0 and 1; when qp_delta_flag = 0 ensure qp_delta is not present; when qp_delta_flag = 1 ensure qp_delta is present and decoded.</td><td>GB/T 33475.2—2024, syntax tables for CU/QP signaling</td></tr>
+    <tr><td>qp_delta</td><td>When present, traverse boundary/representative values across the signed range: {minNeg, -1, 0, +1, maxPos}; additionally traverse at least one mid-range magnitude value in each sign (e.g., -M, +M) consistent with the bit-depth dependent limits defined by the standard.</td><td>GB/T 33475.2—2024, QP delta coding description</td></tr>
+    <tr><td>cbf_y</td><td>Traverse cbf_y = 0 and 1; when cbf_y = 0 ensure no luma transform coefficient syntax elements are present for that block; when cbf_y = 1 ensure coefficient syntax elements are present and decode to a non-empty set.</td><td>GB/T 33475.2—2024, residual coding syntax</td></tr>
+    <tr><td>cbf_cb</td><td>Traverse cbf_cb = 0 and 1 under both chroma formats where applicable; for cbf_cb = 0 ensure chroma-Cb coefficient syntax is absent; for cbf_cb = 1 ensure it is present and decodable.</td><td>GB/T 33475.2—2024, residual coding syntax</td></tr>
+    <tr><td>cbf_cr</td><td>Traverse cbf_cr = 0 and 1; apply the same presence/absence checks as cbf_cb for the Cr component.</td><td>GB/T 33475.2—2024, residual coding syntax</td></tr>
+    <tr><td>residual_coding_flag</td><td>Traverse residual_coding_flag = 0 and 1; when 0, verify no transform coefficient syntax is coded for the current TU; when 1, verify the coefficient coding path is exercised (including last-position and level coding).</td><td>GB/T 33475.2—2024, transform unit residual syntax</td></tr>
+    <tr><td>transform_skip_flag</td><td>Traverse transform_skip_flag = 0 and 1 for each applicable component; when 1, ensure transform-skip constraints are met (e.g., allowed TU sizes) and residual decoding still succeeds.</td><td>GB/T 33475.2—2024, transform skip constraints</td></tr>
+    <tr><td>scaling_list_flag</td><td>Traverse scaling_list_flag = 0 and 1; when 0 verify default scaling list inference is used; when 1 verify explicit scaling list syntax is present and parsed for all required matrices.</td><td>GB/T 33475.2—2024, scaling list syntax tables</td></tr>
+  </tbody>
+</table>

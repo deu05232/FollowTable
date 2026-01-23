@@ -1,0 +1,17 @@
+<table>
+  <caption>Service BOM Relationship (Parent–Child Composition Records)</caption>
+  <thead>
+    <tr><th>Level</th><th>Parent Part No.</th><th>Child Part No.</th><th>Quantity (Per Parent)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>SV-ASSY-1000</td><td>SV-MOD-1100</td><td>2</td></tr>
+    <tr><td>0</td><td>SV-ASSY-1000</td><td>SV-MOD-1200</td><td>1</td></tr>
+    <tr><td>0</td><td>SV-ASSY-1000</td><td>SV-HAR-1300</td><td>1</td></tr>
+    <tr><td>1</td><td>SV-MOD-1100</td><td>SV-PCB-1110</td><td>1</td></tr>
+    <tr><td>1</td><td>SV-MOD-1100</td><td>SV-SNK-1120</td><td>1</td></tr>
+    <tr><td>1</td><td>SV-MOD-1200</td><td>SV-PMP-1210</td><td>1</td></tr>
+    <tr><td>1</td><td>SV-MOD-1200</td><td>SV-VLV-1220</td><td>2</td></tr>
+    <tr><td>2</td><td>SV-PMP-1210</td><td>SV-SEAL-1211</td><td>1</td></tr>
+    <tr><td>2</td><td>SV-PMP-1210</td><td>SV-BRG-1212</td><td>2</td></tr>
+  </tbody>
+</table>

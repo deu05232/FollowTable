@@ -1,0 +1,7 @@
+<table>
+  <caption>Different imaging techniques using the average local time kernel. “Input” is the nature of the measurement, “Images” refers to the quantity one creates the image of. The column “Waves” indicates to which waves the technique can be applied. For elastic waves, this holds when waves are in the equipartition regime, which is a consequence of diffusion. The coda wave interferometry technique (CWI) uses time stretches on the wave field records to measure small velocity changes [ pacheco2005 ] . The LOCADIFF technique uses the correlation losses and produces images of the changes of scattering cross-section, that is to say the structural changes [ larose2010 , rossetto2011 ] . The absorption variation (AV) has been described in Section LABEL:general . Note that as it is based on the intensity variations, the expected sensitivity of AV is smaller than for the other techniques.</caption>
+  <tr><th>Technique</th><th>Input ( M )</th><th>Images ( Q )</th><th>Waves</th></tr>
+  <tr><td>CWI</td><td>relative delay</td><td>relative velocity</td><td>sound, elastic</td></tr>
+  <tr><td>LOCADIFF</td><td>correlation loss</td><td>scattering</td><td>sound, elastic</td></tr>
+  <tr><td>AV</td><td>log (intensity)</td><td>absorption</td><td>sound, elastic, light</td></tr>
+</table>

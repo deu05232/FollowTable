@@ -1,0 +1,19 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — System, Calibration & Inspection Procedure Attributes</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Software Name</td><td>(0014,1100)</td><td>LO</td><td>1</td><td>1</td><td>Name of the device software.</td></tr>
+    <tr><td>Software Version</td><td>(0018,1020)</td><td>LO</td><td>1-N</td><td>1</td><td>Identifier(s) of the software version.</td></tr>
+    <tr><td>Manufacturer</td><td>(0008,0070)</td><td>LO</td><td>1</td><td>2</td><td>Device manufacturer.</td></tr>
+    <tr><td>X-ray Source ID</td><td>(0014,3203)</td><td>LO</td><td>1</td><td>3</td><td>Identifier of the X-ray source used for the inspection.</td></tr>
+    <tr><td>X-ray Tube Sequence</td><td>(0014,3200)</td><td>SQ</td><td>1</td><td>2C</td><td>Sequence describing X-ray tube/source characteristics.</td></tr>
+    <tr><td>Process Specification</td><td>(0014,6002)</td><td>LO</td><td>1</td><td>2</td><td>Process specification number used for inspection.</td></tr>
+    <tr><td>Applicable Standard</td><td>(0014,6003)</td><td>ST</td><td>1</td><td>2</td><td>Method/standard identifier followed for inspection.</td></tr>
+    <tr><td>Technical Level</td><td>(0014,6004)</td><td>CS</td><td>1</td><td>2</td><td>Technical level requirements for inspection.</td></tr>
+    <tr><td>Offset Calibration Sequence</td><td>(0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence of offset calibration items.</td></tr>
+    <tr><td>>Offset Calibration File</td><td>(0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Offset calibration image/file acquired under no-radiation exposure conditions.</td></tr>
+    <tr><td>Gain Calibration Sequence</td><td>(0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence of gain calibration items.</td></tr>
+  </tbody>
+</table>

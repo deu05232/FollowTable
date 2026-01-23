@@ -1,0 +1,14 @@
+# Google Play Reviews API Endpoints and Quotas (Operational Metadata)
+
+| Endpoint | Method | Scope | Primary Parameters | Rate Limit | Auth | Response Fields |
+| --- | --- | --- | --- | --- | --- | --- |
+| /v1/apps/{appId}/reviews | GET | App reviews list | pageToken, pageSize, sort | 60 req/min | OAuth2 | reviewId, authorId, stars, text |
+| /v1/apps/{appId}/reviews/{reviewId} | GET | Single review | reviewId | 120 req/min | OAuth2 | reviewId, stars, text, device |
+| /v1/apps/{appId}/reviews/{reviewId}:reply | POST | Developer reply | replyText | 30 req/min | OAuth2 | replyId, createdTime |
+| /v1/apps/{appId}/reviews:batchGet | POST | Batch fetch | reviewIds[] | 20 req/min | OAuth2 | reviews[] |
+| /v1/apps/{appId}/reviews:batchReply | POST | Batch reply | replies[] | 10 req/min | OAuth2 | results[] |
+| /v1/apps/{appId}/reviews:export | POST | Export job | format, dateRange | 5 req/min | OAuth2 | jobId, status |
+| /v1/apps/{appId}/reviews:metrics | GET | Review stats | interval, dimension | 15 req/min | OAuth2 | avgStars, counts |
+| /v1/apps/{appId}/reviews:webhook | POST | Webhook setup | callbackUrl | 5 req/min | OAuth2 | subscriptionId |
+| /v1/apps/{appId}/reviews:delete | DELETE | Remove review | reviewId | 5 req/min | OAuth2 | success |
+| /v1/apps/{appId}/reviews:moderate | POST | Moderation | action, reasonCode | 10 req/min | OAuth2 | decision, notes |

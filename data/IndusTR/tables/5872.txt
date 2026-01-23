@@ -1,0 +1,15 @@
+<table>
+  <caption>IM Interface Request Parameters — Subscribe Operation</caption>
+  <thead>
+    <tr><th>Operation</th><th>Parameter Name</th><th>Type / Format</th><th>Mandatory</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">SUBSCRIBE</td><td>interfaceOperation</td><td>String (1..64)</td><td>Y</td><td>Operation name. Fixed value: SUBSCRIBE.</td></tr>
+    <tr><td>subscriberId</td><td>String (1..64)</td><td>Y</td><td>User identifier of the subscriber (the user who initiates the follow/subscribe).</td></tr>
+    <tr><td>subscribedToId</td><td>String (1..64)</td><td>Y</td><td>User identifier being subscribed to.</td></tr>
+    <tr><td>subscriptionType</td><td>Enum ("FOLLOW" | "BLOCK" | "MUTE")</td><td>N</td><td>Business subtype of the subscription relationship.</td></tr>
+    <tr><td>sourceSystem</td><td>String (1..32)</td><td>N</td><td>Caller system identifier (e.g., IM_APP, CRM).</td></tr>
+    <tr><td>requestId</td><td>UUID</td><td>Y</td><td>Client-generated unique request identifier for idempotency.</td></tr>
+    <tr><td>timestamp</td><td>ISO-8601 datetime</td><td>Y</td><td>Request time in UTC (e.g., 2026-01-19T12:34:56Z).</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Administrative Compensation Subject Information Data Items</caption>
+  <tr><td>Data Item Name</td><td>Field Name</td><td>Data Type and Format</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Enterprise Name</td><td>EntName</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Unified Social Credit Code</td><td>UniSCID</td><td>C18</td><td></td><td></td></tr>
+  <tr><td>Legal Representative</td><td>LeRep</td><td>C..50</td><td></td><td></td></tr>
+  <tr><td>ID Document Type</td><td>CerType</td><td>C1</td><td></td><td></td></tr>
+  <tr><td>ID Document Number</td><td>CerNo</td><td>C..18</td><td></td><td></td></tr>
+  <tr><td>Compensation Content</td><td>CompCont</td><td>C..2000</td><td></td><td>Including acts in the field of foreign labor service cooperation such as failure to perform contractual obligations and infringement of the lawful rights and interests of labor service personnel</td></tr>
+  <tr><td>Compensation Decision Date</td><td>DecDate</td><td>YYYYMMDD</td><td></td><td></td></tr>
+  <tr><td>Compensation Decision Authority Code</td><td>DecAuthNo</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Compensation Decision Authority</td><td>DecAuth</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Remarks</td><td>Remark</td><td>C..ul</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit</td><td>DataDept</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Source Unit Code</td><td>DataDeptUniSCID</td><td>C18</td><td></td><td>Unified Social Credit Code</td></tr>
+  <tr><td>Data Aggregation Unit</td><td>S_Ext_FromNode</td><td>C..100</td><td></td><td></td></tr>
+  <tr><td>Data Aggregation Time</td><td>S_Ext_DataTime</td><td>YYYYMMDDhhmmss</td><td></td><td></td></tr>
+</table>

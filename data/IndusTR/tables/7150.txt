@@ -1,0 +1,8 @@
+<table>
+  <tr><td>Prototype</td><td>BOOL SOF_VerifyXMLSignature(BSTR SignedXml, LONG VerifyMode)</td></tr>
+  <tr><td>Description</td><td>Verify the XML digital signature contained in SignedXml. Depending on VerifyMode, the verifier may validate reference digests, signature value, and certificate chain constraints.</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>SignedXml (signed XML data containing Signature)</td></tr>
+  <tr><td>VerifyMode (verification option selector)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>TRUE (success; signature is valid)</td></tr>
+  <tr><td>FALSE (failure; signature is invalid or parsing failed)</td></tr>
+</table>

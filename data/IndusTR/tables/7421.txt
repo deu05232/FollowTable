@@ -1,0 +1,8 @@
+<table>
+  <caption>Search-and-Rescue Area Center Point (Latitude/Longitude Breakdown)</caption>
+  <tr><th>Element</th><th>What it describes</th><th>Bit length</th><th>Range</th><th>How to read it</th></tr>
+  <tr><td>1</td><td>Latitude degrees component</td><td>7</td><td>0–90</td><td>Degrees portion of the center latitude</td></tr>
+  <tr><td>2</td><td>Hemisphere for latitude</td><td>1</td><td>0–1</td><td>0 for north, 1 for south</td></tr>
+  <tr><td>3</td><td>Longitude degrees component</td><td>8</td><td>0–180</td><td>Degrees portion of the center longitude</td></tr>
+  <tr><td>4</td><td>Hemisphere for longitude</td><td>1</td><td>0–1</td><td>0 for east, 1 for west</td></tr>
+</table>

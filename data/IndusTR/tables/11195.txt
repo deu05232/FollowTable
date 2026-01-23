@@ -1,0 +1,16 @@
+<table>
+  <caption>Observed Event and Disaster Code Mapping for Terrestrial Stations</caption>
+  <thead>
+    <tr><th>Category</th><th>Event/Phenomenon Label</th><th>Event Code</th><th>Code Format</th><th>Severity Class</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Astronomical</td><td>Solar eclipse</td><td>AS01</td><td>VVVV</td><td>0-3</td><td>Recorded as categorical occurrence</td></tr>
+    <tr><td>Phenology</td><td>First leaf</td><td>PH11</td><td>VVVV</td><td>0-3</td><td>Stage label only</td></tr>
+    <tr><td>Phenology</td><td>Full flowering</td><td>PH23</td><td>VVVV</td><td>0-3</td><td>Stage label only</td></tr>
+    <tr><td>Disaster</td><td>Drought</td><td>ND02</td><td>VVVV</td><td>1-5</td><td>Intensity class code</td></tr>
+    <tr><td>Disaster</td><td>Flood</td><td>ND03</td><td>VVVV</td><td>1-5</td><td>Intensity class code</td></tr>
+    <tr><td>Human-caused</td><td>Grazing disturbance</td><td>HC07</td><td>WW</td><td>1-4</td><td>Human-induced ecological event</td></tr>
+    <tr><td>Human-caused</td><td>Fire use</td><td>HC09</td><td>WW</td><td>1-4</td><td>Human-induced ecological event</td></tr>
+    <tr><td>Abnormal ecology</td><td>Pest outbreak</td><td>AE15</td><td>VVVV</td><td>1-4</td><td>Abnormal ecological event</td></tr>
+  </tbody>
+</table>

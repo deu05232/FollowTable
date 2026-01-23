@@ -1,0 +1,15 @@
+<table>
+  <caption>Combined Environmental & Transport Qualification Matrix (Transport Shock as Minor Add-on)</caption>
+  <thead>
+    <tr><th>Test Category</th><th>Test Name</th><th>Setpoint / Severity</th><th>Duration / Cycles</th><th>Power State</th><th>Packaging</th><th>Primary Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Environmental</td><td>Cold start</td><td>-25 °C</td><td>16 h soak</td><td>Power disconnected</td><td>Unpackaged</td><td>Climatic</td></tr>
+    <tr><td>Environmental</td><td>Dry heat</td><td>55 °C</td><td>16 h soak</td><td>Power disconnected</td><td>Unpackaged</td><td>Climatic</td></tr>
+    <tr><td>Environmental</td><td>Damp heat (steady)</td><td>40 °C / 95% RH (no condensation)</td><td>48 h</td><td>Power disconnected</td><td>Unpackaged</td><td>Climatic</td></tr>
+    <tr><td>Environmental</td><td>Salt mist</td><td>5% NaCl fog</td><td>24 h + 24 h recovery</td><td>Power disconnected</td><td>Unpackaged</td><td>Corrosion</td></tr>
+    <tr><td>Environmental</td><td>Altitude</td><td>70 kPa equivalent</td><td>1 h</td><td>Power connected</td><td>Unpackaged</td><td>Climatic</td></tr>
+    <tr><td>Transport</td><td>Handling shock</td><td>Half-sine, 15 g, 11 ms</td><td>3 shocks/axis</td><td>Power disconnected</td><td>Packaged</td><td>Transport</td></tr>
+    <tr><td>Environmental</td><td>Condensation recovery requirement</td><td>Airflow drying before energizing</td><td>2 h</td><td>Power disconnected</td><td>Unpackaged</td><td>Climatic</td></tr>
+  </tbody>
+</table>

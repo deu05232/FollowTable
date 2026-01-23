@@ -1,0 +1,15 @@
+<table>
+  <caption>Coverage matrix — Pass through special areas (no concrete special-area types named)</caption>
+  <thead>
+    <tr><th>Category</th><th>Name</th><th>Variant ID</th><th>Road Layer</th><th>Traffic Facility Layer</th><th>Traffic Control Layer</th><th>Lighting & Weather</th><th>Traffic Operation</th><th>Monitoring & Comms</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Safe and Civilized Driving Capability</td><td rowspan="7">Pass through special areas</td><td>Variant A</td><td>Straight section; one-way two lanes; asphalt; dry</td><td>—</td><td>Guide markings</td><td>Day; sunny</td><td>Motor vehicles</td><td>HD map; base station</td></tr>
+    <tr><td>Variant B</td><td>Intersection approach; one-way one lane; cement; dry</td><td>—</td><td>Warning signs</td><td>Day; cloudy</td><td>Mixed</td><td>Roadside CCTV; V2X</td></tr>
+    <tr><td>Variant C</td><td>Curved segment; one-way two lanes; asphalt; wet</td><td>—</td><td>Regulatory signs</td><td>Day; light rain</td><td>Stop-and-go</td><td>GNSS/RTK; intermittent V2X</td></tr>
+    <tr><td>Variant D</td><td>Grade-separated segment; one-way two lanes; asphalt; dry</td><td>—</td><td>—</td><td>Night; street lighting</td><td>Motor vehicles</td><td>HD map; base station</td></tr>
+    <tr><td>Variant E</td><td>Urban segment; one-way two lanes; asphalt; dry</td><td>Roadside bay present</td><td>Dedicated lane signs</td><td>Day; clear</td><td>Buses present</td><td>Roadside CCTV; on-board video</td></tr>
+    <tr><td>Variant F</td><td>Expressway segment; one-way three lanes; asphalt; dry</td><td>—</td><td>Variable message sign</td><td>Day; clear</td><td>High speed</td><td>V2X; HD map</td></tr>
+    <tr><td>Variant G</td><td>Straight section; one-way two lanes; asphalt; dry</td><td>—</td><td>Temporary speed limit</td><td>Dusk; fog</td><td>Low visibility flow</td><td>GNSS/RTK; roadside sensors</td></tr>
+  </tbody>
+</table>

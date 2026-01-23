@@ -1,0 +1,51 @@
+<table>
+  <caption>Standard Model background cross-sections at s = 208 GeV. With the exception of the PHOJET and Vermaseren samples, all background samples are generated at all of the centre-of-mass energies in Table LABEL:tab:lumi . For processes where a sample was not generated at 208 GeV, the cross-section shown here was re-scaled from the 207 GeV sample. The last column shows the approximate cross-section surviving the preselection cuts described in Section LABEL:sec:presel .</caption>
+  <tr><td>Background Process</td><td>Monte Carlo</td><td colspan="2">Cross-section (pb)</td></tr>
+  <tr><td></td><td>Generator</td><td>Generator</td><td>Preselection</td></tr>
+  <tr><td>.[]lν{ν}γ.</td><td>NUNUGPV [ nunugpv ]</td><td>7.90</td><td>7.90</td><td>–</td><td>–</td></tr>
+  <tr><td>7.90</td></tr>
+  <tr><td>–</td></tr>
+  <tr><td>.[]l^(+)^(-). ( ^(+) and ^(-) scatter >12.5^(°) )</td><td>BHWIDE [ bhwide ]</td><td>493</td><td>493</td><td>15</td><td>15</td></tr>
+  <tr><td>493</td></tr>
+  <tr><td>15</td></tr>
+  <tr><td>.[]l^(+)^(-). (near beam axis)</td><td>TEEGG [ teegg ]</td><td>637.6</td><td>637.6</td><td>20</td><td>20</td></tr>
+  <tr><td>637.6</td></tr>
+  <tr><td>20</td></tr>
+  <tr><td>.[]lμ^(+)μ^(-)\\ τ^(+)τ^(-)\\ {}(γ)\}</td><td>KK2f [ kk2f ]</td><td>6.815 6.62 78.44</td><td>6.815</td><td>6.62</td><td>78.44</td><td>0.2 0.2 3</td><td>0.2</td><td>0.2</td><td>3</td></tr>
+  <tr><td>6.815</td></tr>
+  <tr><td>6.62</td></tr>
+  <tr><td>78.44</td></tr>
+  <tr><td>0.2</td></tr>
+  <tr><td>0.2</td></tr>
+  <tr><td>3</td></tr>
+  <tr><td>.[]lγγ(γ...).</td><td>RADCOR [ radcor ]</td><td>19.818</td><td>19.818</td><td>–</td></tr>
+  <tr><td>19.818</td></tr>
+  <tr><td>.[]l\\ {}\\ {}{}\} (four-fermion final states without ^(+)^(-) )</td><td>KoralW [ koralw ]</td><td>3.416 9.426 8.966</td><td>3.416</td><td>9.426</td><td>8.966</td><td>10</td><td>10</td></tr>
+  <tr><td>3.416</td></tr>
+  <tr><td>9.426</td></tr>
+  <tr><td>8.966</td></tr>
+  <tr><td>10</td></tr>
+  <tr><td>.[]l^(+)^(-)^(+)^(-)\\ ^(+)^(-)μ^(+)μ^(-)\\ ^(+)^(-)τ^(+)τ^(-)\\ ^(+)^(-){}\} (excluding multiperipheral two-photon process)</td><td>grc4f [ grc4f ]</td><td>16.749 11.575 1.726 37.788</td><td>16.749</td><td>11.575</td><td>1.726</td><td>37.788</td><td>2</td><td>2</td></tr>
+  <tr><td>16.749</td></tr>
+  <tr><td>11.575</td></tr>
+  <tr><td>1.726</td></tr>
+  <tr><td>37.788</td></tr>
+  <tr><td>2</td></tr>
+  <tr><td>.[]l^(+)^(-)^(+)^(-). (two-photon)</td><td>Vermaseren [ vermaseren ]</td><td>876</td><td>876</td><td>0.3</td><td>0.3</td></tr>
+  <tr><td>876</td></tr>
+  <tr><td>0.3</td></tr>
+  <tr><td>.[]l^(+)^(-)μ^(+)μ^(-)\\ ^(+)^(-)τ^(+)τ^(-)\} (two-photon)</td><td>BDK [ bdk ]</td><td>619.3 469.0</td><td>619.3</td><td>469.0</td><td>0.2 0.9</td><td>0.2</td><td>0.9</td></tr>
+  <tr><td>619.3</td></tr>
+  <tr><td>469.0</td></tr>
+  <tr><td>0.2</td></tr>
+  <tr><td>0.9</td></tr>
+  <tr><td>.[]l^(+)^(-){}. (untagged two-photon)</td><td>PHOJET [ phojet ] (PYTHIA [ pythia ] for hadronic channel analyses)</td><td>11166</td><td>11166</td><td>6</td><td>6</td></tr>
+  <tr><td>11166</td></tr>
+  <tr><td>6</td></tr>
+  <tr><td>.[]l^(+)^(-){}. (single-tagged two-photon)</td><td>HERWIG [ herwig ]</td><td>327.8</td><td>327.8</td><td>0.7</td><td>0.7</td></tr>
+  <tr><td>327.8</td></tr>
+  <tr><td>0.7</td></tr>
+  <tr><td>.[]l^(+)^(-){}. (double-tagged two-photon)</td><td>PHOJET</td><td>3.34</td><td>3.34</td><td>–</td><td>–</td></tr>
+  <tr><td>3.34</td></tr>
+  <tr><td>–</td></tr>
+</table>

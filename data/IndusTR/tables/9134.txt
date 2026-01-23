@@ -1,0 +1,15 @@
+<table>
+  <caption>Laser Cutting Quality Limits by Grade (Perpendicularity, Roughness, Dross)</caption>
+  <thead>
+    <tr><th rowspan="2">Quality Grade</th><th colspan="2">Geometry</th><th colspan="2">Surface / Residues</th></tr>
+    <tr><th>Perpendicularity u (mm)</th><th>Angular error (mrad)</th><th>Roughness Rz (µm)</th><th>Dross height (mm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>≤ 0.05 + 0.002a</td><td>≤ 1.5</td><td>≤ 6 + 0.002a</td><td>≤ 0.05</td></tr>
+    <tr><td>I</td><td>≤ 0.10 + 0.015a</td><td>≤ 3.0</td><td>≤ 10 + 0.003a</td><td>≤ 0.10</td></tr>
+    <tr><td>II</td><td>≤ 0.25 + 0.025a</td><td>≤ 6.0</td><td>≤ 20 + 0.004a</td><td>≤ 0.25</td></tr>
+    <tr><td>III</td><td>≤ 0.40 + 0.030a</td><td>≤ 10.0</td><td>≤ 30 + 0.006a</td><td>≤ 0.40</td></tr>
+    <tr><td>IV</td><td>≤ 0.60 + 0.040a</td><td>≤ 15.0</td><td>≤ 45 + 0.008a</td><td>≤ 0.60</td></tr>
+    <tr><td colspan="5">Note: a = workpiece thickness (mm). Requirements are specified by grade rather than thickness bands.</td></tr>
+  </tbody>
+</table>

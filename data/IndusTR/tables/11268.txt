@@ -1,0 +1,10 @@
+<table>
+  <caption>Function parameters for retrieving a depth image from the current AR frame (variant A)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Pointer to the active AR session</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Pointer to the current AR frame</td></tr>
+  <tr><td>out_depth_image</td><td>ArImage **</td><td>Receives the address of the depth image associated with this frame</td></tr>
+  <tr><td>out_depth_timestamp_ns</td><td>int64_t *</td><td>Receives the timestamp (ns) for the returned depth image</td></tr>
+  <tr><td>out_depth_confidence</td><td>float *</td><td>Receives an overall confidence score for the returned depth image</td></tr>
+  <tr><td>out_depth_format</td><td>int32_t *</td><td>Receives an enum/int code describing the depth image format</td></tr>
+</table>

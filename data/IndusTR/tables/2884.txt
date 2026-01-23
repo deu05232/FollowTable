@@ -1,0 +1,14 @@
+<table>
+  <caption>M2M Platform KPI Dashboard (Logistics Operations Metrics)</caption>
+  <thead>
+    <tr><th>Metric</th><th>Definition</th><th>Target</th><th>Current</th><th>Trend</th><th>Reporting Window</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Delivery Rate</td><td>Delivered / published messages</td><td>> 99.5%</td><td>99.2%</td><td>Down</td><td>Last 24h</td></tr>
+    <tr><td>Avg Command Latency</td><td>p50 round-trip command time</td><td>< 800 ms</td><td>910 ms</td><td>Up</td><td>Last 24h</td></tr>
+    <tr><td>Active Terminals</td><td>Unique devices online</td><td>—</td><td>7,842</td><td>Up</td><td>Last 24h</td></tr>
+    <tr><td>Fault Tickets</td><td>Opened incidents</td><td>< 20/day</td><td>31</td><td>Up</td><td>Last 7d</td></tr>
+    <tr><td>Permission Changes</td><td>RBAC changes executed</td><td>< 50/day</td><td>64</td><td>Up</td><td>Last 24h</td></tr>
+    <tr><td>Data Export Jobs</td><td>Completed scheduled exports</td><td>> 95%</td><td>96%</td><td>Stable</td><td>Last 7d</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Autonomous Driving Data Recorder — Driver Monitoring & Perception Outputs (Minimum Logging Frequency)</caption>
+  <thead>
+    <tr><th>Domain</th><th>Recorded Data Item</th><th>Level</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Minimum Data Range / Encoding</th><th>Minimum Resolution</th><th>Minimum Accuracy</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Driver monitoring</td><td>Driver takeover readiness</td><td>A</td><td>2 Hz</td><td>enum</td><td>0: Not ready; 1: Ready</td><td>Not applicable</td><td>No error</td><td>Capability/readiness flag used for takeover evaluation.</td></tr>
+    <tr><td>Seat belt status (driver)</td><td>A</td><td>2 Hz</td><td>enum</td><td>0: Unfastened; 1: Fastened</td><td>Not applicable</td><td>No error</td><td>Binary occupancy/restraint status.</td></tr>
+    <tr><td>Driver presence in driving position</td><td>A</td><td>2 Hz</td><td>enum</td><td>0: No; 1: Yes</td><td>Not applicable</td><td>No error</td><td>Whether driver is in the designated driving position.</td></tr>
+    <tr><td>Driver gaze direction (coarse)</td><td>B</td><td>5 Hz</td><td>enum</td><td>0: Forward; 1: Left; 2: Right; 3: Down; 4: Unknown</td><td>Not applicable</td><td>Defined by manufacturer</td><td>Coarse gaze bins sufficient for attention monitoring.</td></tr>
+    <tr><td rowspan="6">Perception outputs</td><td>Perceived object ID</td><td>A</td><td>10 Hz</td><td>integer</td><td>Defined by manufacturer</td><td>Not applicable</td><td>No error</td><td>Stable identifier within a perception cycle/track.</td></tr>
+    <tr><td>Perceived object class (highest probability)</td><td>A</td><td>10 Hz</td><td>enum</td><td>Vehicle/Pedestrian/Cyclist/Other</td><td>Not applicable</td><td>Consistent with perception capability</td><td>Stores the top-1 class label for each tracked object.</td></tr>
+    <tr><td>Perceived object relative position — X (forward)</td><td>A</td><td>10 Hz</td><td>m</td><td>-200–200</td><td>0.5</td><td>Consistent with sensor capability</td><td>Object position in ego coordinate frame (X forward).</td></tr>
+    <tr><td>Perceived object relative position — Y (left)</td><td>A</td><td>10 Hz</td><td>m</td><td>-100–100</td><td>0.5</td><td>Consistent with sensor capability</td><td>Object lateral position in ego coordinate frame (Y left).</td></tr>
+    <tr><td>Perceived object relative velocity — X</td><td>B</td><td>10 Hz</td><td>m/s</td><td>-60–60</td><td>0.5</td><td>Consistent with sensor capability</td><td>Relative speed component along ego X axis.</td></tr>
+    <tr><td>Perception confidence score</td><td>B</td><td>10 Hz</td><td>%</td><td>0–100</td><td>1</td><td>Defined by manufacturer</td><td>Normalized confidence/probability for the recorded object.</td></tr>
+  </tbody>
+</table>

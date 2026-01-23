@@ -1,0 +1,16 @@
+<table>
+  <caption>Hardware Adaptation Checklist: Model Lifecycle APIs with IR Lowering Hooks</caption>
+  <thead>
+    <tr><th>Phase</th><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Lifecycle</td><td>Create Executable Model</td><td>create_model</td><td>Required</td><td>Create a hardware-executable model object from a framework graph handle</td></tr>
+    <tr><td>Lifecycle</td><td>Validate Executable Model</td><td>validate_model</td><td>Optional</td><td>Check operator coverage, partition graph, and decide supported subgraphs</td></tr>
+    <tr><td>Lifecycle</td><td>Initialize Runtime Context</td><td>model_initialize</td><td>Required</td><td>Allocate device resources and bind streams for the model</td></tr>
+    <tr><td>Lifecycle</td><td>Finalize Runtime Context</td><td>model_finalize</td><td>Required</td><td>Release runtime context resources allocated during initialization</td></tr>
+    <tr><td>Lifecycle</td><td>Destroy Executable Model</td><td>destroy_model</td><td>Required</td><td>Destroy executable model and free all owned device/host resources</td></tr>
+    <tr><td>Compilation / IR</td><td>Build High-Level IR</td><td>build_high_level_ir</td><td>Optional</td><td>Construct compiler high-level IR from the framework graph for further optimization</td></tr>
+    <tr><td>Compilation / IR</td><td>Lower IR to Target IR</td><td>lower_to_target_ir</td><td>Optional</td><td>Lower high-level IR to low-level/target-specific IR for code generation</td></tr>
+    <tr><td>Compilation / IR</td><td>Serialize Target IR Cache</td><td>serialize_target_ir</td><td>Optional</td><td>Persist lowered IR for incremental builds and offline compilation</td></tr>
+  </tbody>
+</table>

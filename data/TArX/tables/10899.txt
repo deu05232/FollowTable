@@ -1,0 +1,20 @@
+<table>
+  <caption>Earth–Moon System Parameters Combined with Transit/TTV Test Outputs</caption>
+  <thead>
+    <tr><th>Block</th><th>Parameter</th><th>Symbol</th><th>Earth</th><th>Moon</th><th>Units</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Basic physical/orbital</td><td>Mass</td><td>M</td><td>5.972</td><td>0.07348</td><td>10^24 kg</td></tr>
+    <tr><td>Mean radius</td><td>R</td><td>6371</td><td>1737.4</td><td>km</td></tr>
+    <tr><td>Mean density</td><td>ρ</td><td>5.51</td><td>3.34</td><td>g/cm^3</td></tr>
+    <tr><td>Bond albedo</td><td>A</td><td>0.30</td><td>0.11</td><td>—</td></tr>
+    <tr><td>Orbital eccentricity (Moon about Earth)</td><td>e</td><td colspan="2">0.0549</td><td>—</td></tr>
+    <tr><td>Sidereal period (Moon orbit)</td><td>P</td><td colspan="2">27.3216</td><td>days</td></tr>
+    <tr><td rowspan="4">Transit/TTV analysis</td><td>Assumed photometric noise</td><td>σ</td><td colspan="2">30</td><td>ppm</td></tr>
+    <tr><td>Sampling cadence</td><td>Δt</td><td colspan="2">29.4</td><td>min</td></tr>
+    <tr><td>Measured planet TTV amplitude</td><td>TTV_p</td><td colspan="2">910</td><td>s</td></tr>
+    <tr><td>Fitted velocity-scale ratio</td><td>v/a_s</td><td colspan="2">0.054</td><td>1/s</td></tr>
+    <tr><td rowspan="2">Perturbation test</td><td>Injected timing perturbation</td><td>δt_inj</td><td colspan="2">300</td><td>s</td></tr>
+    <tr><td>Recovered timing perturbation</td><td>δt_rec</td><td colspan="2">295</td><td>s</td></tr>
+  </tbody>
+</table>

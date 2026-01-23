@@ -1,0 +1,9 @@
+<table>
+  <caption>Matrix Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="5">vrMat</td><td>int32_t COLS</td><td>Number of columns</td></tr>
+  <tr><td>int32_tROWS</td><td>Number of rows</td></tr>
+  <tr><td>int32_t Channel</td><td>Number of channels</td></tr>
+  <tr><td>Int32_t bits</td><td>Number of bits</td></tr>
+  <tr><td>Vector<Int8_t></td><td>Binary array used to store data</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Generic Transport PDU Bit-Length Diagram (No Data-Area Encoding Details)</caption>
+  <thead>
+    <tr><th>Segment</th><th>Bit Start</th><th>Bit End</th><th>Bit Length</th><th>Label</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Priority</td><td>0</td><td>2</td><td>3</td><td>P</td><td>Arbitration priority bits</td></tr>
+    <tr><td>Extended Data Page</td><td>3</td><td>3</td><td>1</td><td>EDP</td><td>Extended page selector</td></tr>
+    <tr><td>Data Page</td><td>4</td><td>4</td><td>1</td><td>DP</td><td>Page selector</td></tr>
+    <tr><td>PDU Format</td><td>5</td><td>12</td><td>8</td><td>PF</td><td>Protocol format discriminator</td></tr>
+    <tr><td>PDU Specific</td><td>13</td><td>20</td><td>8</td><td>PS</td><td>Destination or group extension</td></tr>
+    <tr><td>Source Address</td><td>21</td><td>28</td><td>8</td><td>SA</td><td>Sender node address</td></tr>
+    <tr><td>Data Field</td><td>29</td><td>92</td><td>64</td><td>DATA</td><td>Opaque data area; interpretation not provided</td></tr>
+  </tbody>
+</table>

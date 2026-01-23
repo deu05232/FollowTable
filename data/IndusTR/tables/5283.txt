@@ -1,0 +1,14 @@
+<table>
+  <caption>Sliver Lap Machine Alarm Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Sliver break</td><td>BrokenSliver</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>丨</td><td>丨</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Front door fault</td><td>FrontDoorFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>丨</td><td>—</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0902</td><td>Lap doffing fault</td><td>LapOutFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>—</td><td>—</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Pressurization fault</td><td>PressurizationFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Motor fault</td><td>MotorFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>丨</td><td>丨</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Trolley movement fault</td><td>TrolleyMovementFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>—</td><td>—</td><td>1</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>Draft winding cotton</td><td>DraftWindingCotton</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Sliver jam on table</td><td>SliverJamOnTable</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>—</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0908</td><td>Electrical cabinet door opening</td><td>ElectricalCabinetDoorOpening</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>Electrical cabinet door not closed</td><td>0.Normal1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Extensible data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

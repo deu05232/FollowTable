@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Data Elements (Non-coded Attributes and Guidance)</caption>
+  <thead>
+    <tr><th>Data Element</th><th>Description</th><th>Expected Format</th><th>Examples</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fixture Type</td><td>General type of sanitary fixture</td><td>Free text</td><td>toilet, urinal, sink</td><td>Do not abbreviate in reporting</td></tr>
+    <tr><td>Mounting</td><td>How the fixture is installed</td><td>Free text</td><td>wall-mounted, floor-standing</td><td>Use consistent spelling</td></tr>
+    <tr><td>Flush Mechanism</td><td>How flushing is actuated</td><td>Free text</td><td>manual lever, sensor</td><td>May impact maintenance schedule</td></tr>
+    <tr><td>Material</td><td>Main body material</td><td>Free text</td><td>porcelain, stainless steel</td><td>Record manufacturer specs if known</td></tr>
+    <tr><td>Water Use</td><td>Typical water usage per cycle</td><td>Numeric + unit</td><td>1.28 gpf, 4.8 Lpf</td><td>Unit must be specified</td></tr>
+    <tr><td>Drain Size</td><td>Nominal outlet/drain diameter</td><td>Numeric + unit</td><td>2 in, 50 mm</td><td>Provide as installed</td></tr>
+    <tr><td>Accessibility</td><td>Accessibility considerations</td><td>Text</td><td>ADA compliant</td><td>Use local regulatory reference</td></tr>
+  </tbody>
+</table>

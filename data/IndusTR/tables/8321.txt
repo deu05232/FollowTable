@@ -1,0 +1,15 @@
+<table>
+  <caption>CABAC Context Modeling for Split and Transform Syntax Elements</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Context category</th><th>ctxIdx derivation rule</th><th>Context set / initialization</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>split_flag</td><td>QT split decision</td><td>ctxIdx = ctxIdxOffset + (log2(CtSize) - 2) + (IntraCuFlag ? 1 : 0)</td><td>InitTable A (SliceType dependent)</td><td>Used only when CtSize > MinQtSize</td></tr>
+    <tr><td>split_flag</td><td>BT split decision</td><td>ctxIdx = ctxIdxOffset + BtDepth + (IsChroma ? 1 : 0)</td><td>InitTable B</td><td>Applies if BT is enabled</td></tr>
+    <tr><td>transform_split_flag</td><td>Transform split decision</td><td>ctxIdx = ctxIdxOffset + (log2(TuSize) - 2) + (CuPredMode == INTRA)</td><td>InitTable C</td><td>Different offsets for luma/chroma</td></tr>
+    <tr><td>cu_type_index</td><td>CU mode signaling</td><td>ctxIdx = ctxIdxOffset + (CuPredMode == INTER) + (RefIdx > 0)</td><td>InitTable D</td><td>Multi-bin; ctxIdx updated per binIdx</td></tr>
+    <tr><td>last_cg_pos</td><td>Last coefficient group position</td><td>ctxIdx = ctxIdxOffset + (IsChroma ? 2 : 0) + (ScanIdx == 0 ? 0 : 1)</td><td>InitTable E</td><td>Scan-dependent context selection</td></tr>
+    <tr><td>last_cg_x</td><td>Last CG X coordinate</td><td>ctxIdx = ctxIdxOffset + min(4, last_cg_x) + (IsChroma ? 1 : 0)</td><td>InitTable E</td><td>Context is a function of decoded prefix</td></tr>
+    <tr><td>aec_lcu_stuffing_bit</td><td>Slice stuffing</td><td>Bypass-coded (no ctxIdx)</td><td>N/A</td><td>Explicitly coded in bypass mode</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Class B Transmitter RF Test Limits and Associated Message 61 Field Definitions (Protocol/PHY Combined)</caption>
+  <thead>
+    <tr><th>Item</th><th>Unit</th><th>Test Condition / Field Definition</th><th>Limit / Required Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Carrier frequency error</td><td>Hz</td><td>High temperature condition; keyed carrier portion</td><td>-500 to +500</td></tr>
+    <tr><td>Adjacent channel power (ACP)</td><td>dBc</td><td>Offset ±25 kHz; measured over 25 kHz bandwidth</td><td>≤ -70</td></tr>
+    <tr><td>Spurious emissions (radiated)</td><td>dBm</td><td>30 MHz–1 GHz; antenna port to radiated setup</td><td>≤ -36</td></tr>
+    <tr><td>Modulation accuracy</td><td>%</td><td>GMSK; EVM equivalent metric during burst</td><td>≤ 5</td></tr>
+    <tr><td>Message identifier</td><td>bit</td><td>6-bit field; identifies Message 61; fixed value</td><td>61</td></tr>
+    <tr><td>Relay indicator</td><td>bit</td><td>2-bit field; number of relays applied</td><td>0</td></tr>
+    <tr><td>Payload length</td><td>bit</td><td>Total payload bits excluding preamble/training</td><td>variable (per message type)</td></tr>
+    <tr><td>Source MMSI encoding</td><td>rule</td><td>30-bit MMSI; leading zeros permitted; per MMSI assignment rules</td><td>Compliant</td></tr>
+  </tbody>
+</table>

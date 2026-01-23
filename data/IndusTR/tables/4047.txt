@@ -1,0 +1,13 @@
+<table>
+  <caption>Drawing Frame Operation Monitoring Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Sliver delivery speed</td><td>SliverOutput</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~1 200.00</td><td>m/min</td><td>1</td><td>—</td></tr>
+  <tr><td>0X0301</td><td>Current can length</td><td>RealtimeSliverLength</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10 000.00</td><td>m</td><td>1</td><td></td></tr>
+  <tr><td>0X0302</td><td>Sliver delivery voltage</td><td>OutputVoltage</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>-5000~5000</td><td>mV</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0303</td><td>Monitoring calibration value</td><td>MonitoringCalibrationValue</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>-32768~32 767</td><td>mV</td><td>1</td><td></td></tr>
+  <tr><td>0X0304</td><td>Leveling calibration value</td><td>LevelingCalibrationValue</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>-32768~32 767</td><td>mV</td><td>1</td><td>—</td></tr>
+  <tr><td>0X0305</td><td>Leveling zero-point parameter value</td><td>ZeroPointParameterValueOfLeveling</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~500.00</td><td>mV</td><td>丨</td><td></td></tr>
+  <tr><td>0X0306</td><td>Sliver thickness</td><td>SliverThickness</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>2.00~6.00</td><td>mm</td><td>2</td><td>1</td></tr>
+  <tr><td>0X0307</td><td>Change rate of draft multiple</td><td>ChangeRateOfDraftMultiple</td><td>0</td><td>VAR</td><td>RO</td><td>Int16</td><td>-25~25</td><td>%</td><td>1</td><td></td></tr>
+  <tr><td>0X0308</td><td>Extensible data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>丨</td><td></td><td>1</td><td>1</td><td>—</td></tr>
+</table>

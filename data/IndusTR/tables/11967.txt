@@ -1,0 +1,16 @@
+<table>
+  <caption>Self-service Portal Interface Catalog by Party and Region (Non-functional Listing)</caption>
+  <thead>
+    <tr><th>Entry No.</th><th>Organization Category</th><th>Party Label</th><th>Portal Interface Name</th><th>Region</th><th>Environment</th><th>Primary Contact</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Vendor</td><td>Terminal Manufacturer</td><td>Vendor Portal UI</td><td>EU</td><td>UAT</td><td>Vendor Ops</td><td>Interface available during business hours</td></tr>
+    <tr><td>2</td><td>Vendor</td><td>Device OEM</td><td>Vendor Portal UI</td><td>APAC</td><td>PROD</td><td>Vendor Support</td><td>Uses SSO with partner IdP</td></tr>
+    <tr><td>3</td><td>Customer</td><td>Industry Customer</td><td>Customer Portal UI</td><td>NA</td><td>UAT</td><td>Customer Admin Team</td><td>Account must be pre-provisioned</td></tr>
+    <tr><td>4</td><td>Customer</td><td>Enterprise Customer</td><td>Customer Portal UI</td><td>EU</td><td>PROD</td><td>IT Service Desk</td><td>Requests routed via ticketing system</td></tr>
+    <tr><td>5</td><td>SI/SP</td><td>System Integrator</td><td>SI/SP Portal UI</td><td>APAC</td><td>UAT</td><td>SI/SP NOC</td><td>API access requires separate contract</td></tr>
+    <tr><td>6</td><td>SI/SP</td><td>Service Provider</td><td>SI/SP Portal UI</td><td>NA</td><td>PROD</td><td>Service Ops</td><td>Maintenance window every Sunday</td></tr>
+    <tr><td>7</td><td>Partner</td><td>Reseller</td><td>Partner Portal UI</td><td>EU</td><td>UAT</td><td>Channel Manager</td><td>Limited visibility of customer accounts</td></tr>
+    <tr><td>8</td><td>Internal</td><td>Platform Operator</td><td>Operations Console</td><td>Global</td><td>PROD</td><td>Platform SRE</td><td>Not part of self-service scope</td></tr>
+  </tbody>
+</table>

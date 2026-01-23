@@ -1,0 +1,14 @@
+<table>
+  <caption>Production Equipment Settings for VFSR Assembly Line (Non-test Parameters)</caption>
+  <thead>
+    <tr><th>Workstation</th><th>Equipment</th><th>Key Setting</th><th>Target Value</th><th>Control Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>W-01</td><td>Wave soldering machine</td><td>Preheat zone temp</td><td>110 °C</td><td>PID</td></tr>
+    <tr><td>W-02</td><td>Wave soldering machine</td><td>Peak temp</td><td>245 °C</td><td>Thermocouple profiling</td></tr>
+    <tr><td>W-03</td><td>Conformal coating booth</td><td>Nozzle pressure</td><td>0.35 MPa</td><td>Regulator</td></tr>
+    <tr><td>W-04</td><td>Curing oven</td><td>Cure time</td><td>30 min</td><td>Timer</td></tr>
+    <tr><td>W-05</td><td>Torque station</td><td>M8 bolt torque</td><td>22 N·m</td><td>Digital wrench</td></tr>
+    <tr><td>W-06</td><td>Hi-pot station</td><td>Test voltage</td><td>3.0 kV AC</td><td>Safety interlock</td></tr>
+  </tbody>
+</table>

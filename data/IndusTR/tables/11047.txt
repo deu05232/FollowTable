@@ -1,0 +1,7 @@
+<table>
+  <caption>Ionospheric Delay Correction SSR — timing, validity, and continuity indicators</caption>
+  <tr><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>Correction validity interval</td><td>DF39VA</td><td>uint8</td><td>8</td></tr>
+  <tr><td>Time tag reference</td><td>DF38TA</td><td>bit(2)</td><td>2</td></tr>
+  <tr><td>Update continuity indicator</td><td>DF39CA</td><td>bit(1)</td><td>1</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Production Test Bench Setup Parameters for Power Supply Final Inspection</caption>
+  <tr><th>Test Station</th><th>Instrument</th><th>Setting</th><th>Range</th><th>Sampling</th><th>Ambient Requirement</th><th>Record Field</th></tr>
+  <tr><td>Load Test</td><td>Electronic Load</td><td>CC mode</td><td>0–10A</td><td>1 Hz</td><td>23±5°C</td><td>Output current</td></tr>
+  <tr><td>Efficiency Scan</td><td>Power Analyzer</td><td>Watt/VA/PF logging</td><td>0–600W</td><td>10 samples/point</td><td>RH 20–70%</td><td>Input power</td></tr>
+  <tr><td>No-load Check</td><td>AC Source</td><td>230V/50Hz</td><td>85–265Vac</td><td>60 s</td><td>Stable mains</td><td>No-load power</td></tr>
+  <tr><td>Safety</td><td>Hi-Pot Tester</td><td>3.0kVac</td><td>0–5kVac</td><td>5 s</td><td>Isolation mat</td><td>Leakage current</td></tr>
+  <tr><td>Burn-in</td><td>Thermal Chamber</td><td>45°C soak</td><td>25–70°C</td><td>2 h</td><td>Airflow ≥1 m/s</td><td>Failure rate</td></tr>
+  <tr><td>EMI Pre-scan</td><td>Spectrum Analyzer</td><td>QP detector</td><td>9k–1GHz</td><td>N/A</td><td>Shielded room</td><td>Peak margin</td></tr>
+</table>

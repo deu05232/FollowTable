@@ -1,0 +1,5 @@
+<table>
+  <caption>Curing Inspection Process Data Processing Logic Information Table</caption>
+  <tr><td>No.</td><td>Process Name</td><td>Description</td><td>Input</td><td>Output</td><td>Processing Method</td></tr>
+  <tr><td>1</td><td>Curing Step-Sequence Algorithm</td><td>Data area + offset: combine and calculate user step-sequence information, automatically expand, and meet user requirements for different step sequences and step counts</td><td>Process step sequence comes from the user to the upper-level computer—PLC</td><td>Combined ten-group valve outputs</td><td>Different step sequences correspond to different combined ten-group valve output orders</td></tr>
+</table>

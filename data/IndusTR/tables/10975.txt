@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Infusion Pump Specifications (Performance + Mode Fields)</caption>
+  <thead>
+    <tr><th>Parameter Code</th><th>Parameter Name</th><th>Unit</th><th>Typical Range / Limit</th><th>Category</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SP-IR-01</td><td>Infusion rate range</td><td>mL/h</td><td>0.1–1200</td><td>Performance</td></tr>
+    <tr><td>SP-AC-02</td><td>Infusion accuracy</td><td>%</td><td>±5</td><td>Performance</td></tr>
+    <tr><td>SP-PR-03</td><td>Occlusion pressure limit</td><td>kPa</td><td>40–120</td><td>Performance</td></tr>
+    <tr><td>SP-AL-04</td><td>Alarm response time</td><td>s</td><td><= 2</td><td>Performance</td></tr>
+    <tr><td>SP-PO-05</td><td>Power consumption</td><td>W</td><td><= 25</td><td>Performance</td></tr>
+    <tr><td>SP-MD-06</td><td>Infusion mode</td><td>—</td><td>Continuous / Intermittent / Bolus</td><td>Mode</td></tr>
+    <tr><td>SP-CT-07</td><td>Control method</td><td>—</td><td>Peristaltic / Syringe drive</td><td>Principle</td></tr>
+  </tbody>
+</table>

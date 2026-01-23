@@ -1,0 +1,12 @@
+<table>
+  <caption>Mobile Device Augmented Reality System Algorithm Type Enumeration</caption>
+  <tr><td>ARAlgorithmType Values</td><td>Description</td></tr>
+  <tr><td>ARALGORITHM_TYPE_UNKNOWN=-1</td><td>Invalid algorithm type</td></tr>
+  <tr><td>ARALGORITHM_TYPE_SLAM=1</td><td>SLAM algorithm type</td></tr>
+  <tr><td>ARALGORITHM_TYPE_HAND_GESTURE=2</td><td>Hand gesture algorithm type</td></tr>
+  <tr><td>ARALGORITHM_TYPE_DENSE_RECON=3</td><td>Dense mesh reconstruction algorithm type</td></tr>
+  <tr><td>ARALGORITHM_TYPE_IMAGE_TRACKING=4</td><td>Image tracking algorithm type</td></tr>
+  <tr><td>ARALGORITHM_TYPE_PLANE_DETECTION=5</td><td>Plane detection algorithm type</td></tr>
+  <tr><td>ARALGORITHM_TYPE_ILLUMINATION_ESTIMATION=6</td><td>Illumination estimation algorithm type</td></tr>
+  <tr><td>ARALGORITHM_TYPE_CLOUD_ANCHOR=7</td><td>Cloud anchor algorithm type</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>APDU-Capable Terminal Components — Manufacturing BOM (Non-Protocol)</caption>
+  <thead>
+    <tr><th>Item No.</th><th>Component</th><th>Specification</th><th>Supplier</th><th>Qty/Unit</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>MCU</td><td>ARM Cortex-M33, 160MHz</td><td>MicroCo</td><td>1</td><td>Secure boot enabled</td></tr>
+    <tr><td>2</td><td>Secure Element</td><td>CC EAL5+ certified</td><td>SecureFab</td><td>1</td><td>SPI interface</td></tr>
+    <tr><td>3</td><td>NFC Controller</td><td>ISO14443-A/B</td><td>NearField Inc.</td><td>1</td><td>External antenna</td></tr>
+    <tr><td>4</td><td>Flash</td><td>16 MB QSPI</td><td>MemWorks</td><td>1</td><td>Wear leveling</td></tr>
+    <tr><td>5</td><td>Oscillator</td><td>24 MHz, ±10 ppm</td><td>TimeBase</td><td>1</td><td>For RF timing</td></tr>
+    <tr><td>6</td><td>ESD Protection</td><td>IEC 61000-4-2, 8kV</td><td>Protec</td><td>6</td><td>USB & RF lines</td></tr>
+    <tr><td>7</td><td>PCB</td><td>6-layer FR4, 1.6mm</td><td>BoardMfg</td><td>1</td><td>Impedance controlled</td></tr>
+  </tbody>
+</table>

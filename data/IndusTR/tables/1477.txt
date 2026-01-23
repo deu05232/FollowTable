@@ -1,0 +1,10 @@
+<table>
+  <caption>SWITCHKEYIV Command Message Structure</caption>
+  <tr><td>Code</td><td>Value/Description (HEX encoding）</td></tr>
+  <tr><td>CLA</td><td>84</td></tr>
+  <tr><td>INS</td><td>F4</td></tr>
+  <tr><td>P1</td><td>00</td></tr>
+  <tr><td>P2</td><td>00- Switch multicast master key01-- Switch initialization vector (IV)</td></tr>
+  <tr><td>Lc</td><td>14</td></tr>
+  <tr><td>DATA</td><td>Ciphertext of multicast master key index or IV index丨MAC</td></tr>
+</table>

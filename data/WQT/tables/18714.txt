@@ -1,0 +1,11 @@
+# Memory Limits by Windows Server Version for Planning SharePoint Hosts
+
+| Windows Server version/edition | Architecture | Maximum supported RAM | Typical SharePoint suitability | Remarks |
+|---|---|---|---|---|
+| Windows Server 2008 R2 Standard | x64 | 32 GB | Small farms only | Limits headroom for cache/search workloads |
+| Windows Server 2008 R2 Enterprise | x64 | 2 TB | Medium/large farms | Higher RAM ceiling helps service apps |
+| Windows Server 2012 Standard | x64 | 4 TB | Medium/large farms | Common choice for on-prem farms |
+| Windows Server 2012 Essentials | x64 | 64 GB | Lab/small business | OS constraints may block scale-out |
+| Windows Server 2012 Foundation | x64 | 32 GB | Not recommended | Low ceiling and product limits |
+| Windows Server 2016 Standard | x64 | 24 TB (varies) | Large farms | Depends on SKU and virtualization rights |
+| Windows Server 2019 Datacenter | x64 | 24 TB (varies) | Large farms | Best for highly virtualized host clusters |

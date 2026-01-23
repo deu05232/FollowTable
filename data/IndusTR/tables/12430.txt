@@ -1,0 +1,31 @@
+<table>
+  <caption>VR Positioning Data Types — Status/Mode Enums and Event Payload Structures</caption>
+  <thead>
+    <tr><th>Type Name</th><th>Kind</th><th>Members / Fields (with values or types)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">vrPoseValidityFlag</td><td rowspan="6">enum (bitmask)</td><td>VR_POSE_VALID_ORIENTATION = 0x0001</td><td>Orientation quaternion is valid.</td></tr>
+    <tr><td>VR_POSE_VALID_POSITION = 0x0002</td><td>Position vector is valid.</td></tr>
+    <tr><td>VR_POSE_VALID_VELOCITY = 0x0004</td><td>Linear velocity is valid.</td></tr>
+    <tr><td>VR_POSE_VALID_ANGULAR_VELOCITY = 0x0008</td><td>Angular velocity is valid.</td></tr>
+    <tr><td>VR_POSE_VALID_ACCELERATION = 0x0010</td><td>Linear acceleration is valid.</td></tr>
+    <tr><td>0x0020–0x8000</td><td>Reserved bits.</td></tr>
+    <tr><td rowspan="5">vrRelocalizationResult</td><td rowspan="5">enum</td><td>VR_RELOCALIZATION_RESULT_SUCCESS = 0x00</td><td>Relocalization completed successfully.</td></tr>
+    <tr><td>VR_RELOCALIZATION_RESULT_IN_PROGRESS = 0x01</td><td>Relocalization is running; pose may be partially valid.</td></tr>
+    <tr><td>VR_RELOCALIZATION_RESULT_FAILED = 0x02</td><td>Relocalization failed; consider retry or fallback mode.</td></tr>
+    <tr><td>VR_RELOCALIZATION_RESULT_NOT_SUPPORTED = 0x03</td><td>Device/system does not support relocalization.</td></tr>
+    <tr><td>0x04–0xFF</td><td>Reserved.</td></tr>
+    <tr><td rowspan="5">vrPositioningQuality</td><td rowspan="5">enum</td><td>VR_POSITIONING_QUALITY_POOR = 0x00</td><td>Tracking is unstable; large drift/jitter possible.</td></tr>
+    <tr><td>VR_POSITIONING_QUALITY_FAIR = 0x01</td><td>Tracking is usable with moderate drift.</td></tr>
+    <tr><td>VR_POSITIONING_QUALITY_GOOD = 0x02</td><td>Stable tracking for typical interactions.</td></tr>
+    <tr><td>VR_POSITIONING_QUALITY_EXCELLENT = 0x03</td><td>High stability/accuracy tracking.</td></tr>
+    <tr><td>0x04–0xFF</td><td>Reserved.</td></tr>
+    <tr><td rowspan="7">vrPositioningEvent</td><td rowspan="7">struct</td><td>int64_t time_stamp</td><td>Timestamp when the event was generated.</td></tr>
+    <tr><td>vrPositionableDeviceType device_type</td><td>Which device produced the event (HMD/controller/tracker).</td></tr>
+    <tr><td>uint32_t device_id</td><td>Stable identifier within the current session.</td></tr>
+    <tr><td>vrRelocalizationResult relocalization</td><td>Latest relocalization outcome if applicable.</td></tr>
+    <tr><td>vrPositioningQuality quality</td><td>Estimated quality level for current tracking.</td></tr>
+    <tr><td>uint32_t pose_validity_mask</td><td>Bitmask using vrPoseValidityFlag.</td></tr>
+    <tr><td>char message[64]</td><td>Optional human-readable diagnostics (ASCII/UTF-8, null-terminated).</td></tr>
+  </tbody>
+</table>

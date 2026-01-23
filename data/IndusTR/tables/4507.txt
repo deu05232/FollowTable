@@ -1,0 +1,9 @@
+<table>
+  <caption>LED Type Enumeration</caption>
+  <tr><td>Data Type</td><td>Enum Value</td><td>Description</td></tr>
+  <tr><td rowspan="5">vrLEDType</td><td>VR_LED_TYPE_SWITCH=0x00</td><td>LED for switch indication</td></tr>
+  <tr><td>VR_LED_TYPE_STATUS=0x01SAC</td><td>LED for status indication</td></tr>
+  <tr><td>VR_LED_TYPE_LOCALIZATION=0x02</td><td>LED for localization</td></tr>
+  <tr><td>VR_LED_TYPE_DISPLAY=0x03</td><td>LED for special effects display</td></tr>
+  <tr><td>0x04~0xFF</td><td>Reserved</td></tr>
+</table>

@@ -1,0 +1,34 @@
+<table>
+  <caption>Summary properties of the GAIA CCDs in the two astrometric telescopes (QE = quantum efficiency; MTF = modulation transfer function; CTI = charge transfer inefficiency; RON = read-out noise).</caption>
+  <tr><th>Feature</th><th>Details</th></tr>
+  <tr><th>Array size</th><td>25× 58 mm ^((2)) active area</td></tr>
+  <tr><th>Pixels per CCD</th><td>2150 cols × 2780 TDI stages</td></tr>
+  <tr><th>Dead zones</th><td>top: 0.25 mm; sides: 0.6 mm;</td></tr>
+  <tr><th></th><td>bottom: <5 mm</td></tr>
+  <tr><th>Pixel size in image zone</th><td>9× 27~μ m ^((2))</td></tr>
+  <tr><th>Phases in image zone</th><td>4</td></tr>
+  <tr><th>Pixel size in serial register</th><td>27× 27~μ m ^((2))</td></tr>
+  <tr><th>Phases in serial register</th><td>4</td></tr>
+  <tr><th>Device thickness</th><td>10–12 μ m</td></tr>
+  <tr><th>Si resistivity</th><td>20–100 Ω cm</td></tr>
+  <tr><th>Buried channel</th><td>n-type channel</td></tr>
+  <tr><th>Oxide thickness</th><td>standard</td></tr>
+  <tr><th>Anti-blooming</th><td>shielded at pixel level</td></tr>
+  <tr><th>Notch channel</th><td>implanted for all CCDs</td></tr>
+  <tr><th>Output amplifiers</th><td>2 per device, 2-stage</td></tr>
+  <tr><th>Conversion factor</th><td>between 3–6 μ V/e ^((-))</td></tr>
+  <tr><th>Additional gates</th><td>5–10</td></tr>
+  <tr><th>Power dissipation</th><td><560 mW</td></tr>
+  <tr><th>Non-uniformity</th><td><1 % rms local</td></tr>
+  <tr><th></th><td><10 % peak-to-peak global</td></tr>
+  <tr><th>Mean dark current</th><td><0.5 e ^((-)) s ^((-1)) pix ^((-1)) (200 K)</td></tr>
+  <tr><th>Non-linearity</th><td><1 per cent over 0–2V;</td></tr>
+  <tr><th></th><td><20 per cent over 2–3.5V</td></tr>
+  <tr><th>CTI in image area</th><td><10^(-5) at beginning-of-life;</td></tr>
+  <tr><th></th><td>~ 10^(-4) after major Solar flare</td></tr>
+  <tr><th>CTI in serial register</th><td><10^(-5) at beginning-of-life;</td></tr>
+  <tr><th></th><td>~ 5.10^(-4) after major flare</td></tr>
+  <tr><th>Quantum efficiency</th><td>trade with MTF and RON</td></tr>
+  <tr><th>MTF at Nyquist frequency</th><td>trade with QE and RON</td></tr>
+  <tr><th>Read-out noise</th><td>trade with QE and MTF</td></tr>
+</table>

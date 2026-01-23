@@ -1,0 +1,17 @@
+<table>
+  <caption>Parameter Values for Nutrient Retention by Ecosystem Type (Annual Areal Coefficients)</caption>
+  <thead>
+    <tr><th rowspan="2">Ecosystem Category</th><th rowspan="2">Zone / Subtype</th><th colspan="3">Service Parameter (plug-in coefficients)</th><th rowspan="2">Parameter Notes</th></tr>
+    <tr><th>N Retention Capacity</th><th>P Retention Capacity</th><th>Suspended Sediment Trapping</th></tr>
+    <tr><th></th><th></th><th>kg/(ha·yr)</th><th>kg/(ha·yr)</th><th>t/(ha·yr)</th><th></th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Wetland</td><td>Riverine marsh</td><td>62.0</td><td>8.4</td><td>2.10</td><td>Representative mean for model use</td></tr>
+    <tr><td>Lacustrine fringe wetland</td><td>48.0</td><td>6.2</td><td>1.60</td><td>Representative mean for model use</td></tr>
+    <tr><td>Peatland bog</td><td>35.0</td><td>4.8</td><td>0.90</td><td>Lower mineral sediment input assumed</td></tr>
+    <tr><td rowspan="2">Forest</td><td>Temperate mixed forest</td><td>22.0</td><td>2.6</td><td>0.55</td><td>Infiltration-driven retention</td></tr>
+    <tr><td>Evergreen broadleaf forest</td><td>26.0</td><td>3.0</td><td>0.60</td><td>Higher year-round uptake</td></tr>
+    <tr><td rowspan="2">Grassland</td><td>Typical steppe</td><td>14.0</td><td>1.4</td><td>0.30</td><td>Moderate trapping, seasonal growth</td></tr>
+    <tr><td>Alpine meadow</td><td>18.0</td><td>1.8</td><td>0.35</td><td>Higher soil organic matter assumed</td></tr>
+  </tbody>
+</table>

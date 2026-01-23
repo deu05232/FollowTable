@@ -1,0 +1,10 @@
+<table>
+  <caption>Compiler IR Construction and Lowering Interfaces for Accelerator Backend</caption>
+  <tr><th>Interface Name</th><th>English Name</th><th>Required/Optional</th><th>Interface Description</th></tr>
+  <tr><td>Build High-Level IR</td><td>high_level_ir_compile</td><td>Optional</td><td>Build compiler high-level IR from the framework computation graph</td></tr>
+  <tr><td>Run IR Canonicalization</td><td>canonicalize_ir</td><td>Optional</td><td>Canonicalize and simplify high-level IR for optimization passes</td></tr>
+  <tr><td>Lower to Low-Level IR</td><td>lower_ir</td><td>Optional</td><td>Lower high-level IR to low-level IR targeting the accelerator</td></tr>
+  <tr><td>Schedule and Tile</td><td>schedule_tile</td><td>Optional</td><td>Apply scheduling and tiling strategies on low-level IR</td></tr>
+  <tr><td>Emit Device Binary</td><td>emit_device_binary</td><td>Optional</td><td>Emit accelerator binary artifact from low-level IR</td></tr>
+  <tr><td>Serialize IR</td><td>serialize_ir</td><td>Optional</td><td>Serialize intermediate representations for debugging and caching</td></tr>
+</table>

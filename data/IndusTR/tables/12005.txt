@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Data Dictionary for Performance Fields (Administrative Dominant)</caption>
+  <thead>
+    <tr><th>Data Element Identifier</th><th>Field Label</th><th>Requirement Level</th><th>Conformance Qualifier</th><th>Conditionality</th><th>Implementation Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>H1140A0000</td><td>Maximum Bag Volume</td><td>Mandatory (B)</td><td>Shall</td><td>Always</td><td>Capture for all bag types</td></tr>
+    <tr><td>H1095A0000</td><td>Infusion Rate Range</td><td>Mandatory (B)</td><td>Shall</td><td>If infusion function present</td><td>Provide in supported units</td></tr>
+    <tr><td>H1076A0000</td><td>Energy Range</td><td>Mandatory (B)</td><td>Shall</td><td>If defibrillation supported</td><td>List min/max delivered energy</td></tr>
+    <tr><td>H1266A0000</td><td>Operating Frequency</td><td>Optional (A)</td><td>May</td><td>Only for therapeutic apparatus</td><td>Specify per treatment program</td></tr>
+    <tr><td>H1240A0000</td><td>Cervical Traction Travel</td><td>Optional (A)</td><td>May</td><td>Only for cervical mode</td><td>Record as configured maximum</td></tr>
+    <tr><td>H1177A0000</td><td>Testing Speed</td><td>Mandatory (B)</td><td>Shall</td><td>If analyzer is automated</td><td>Use manufacturer-stated throughput</td></tr>
+    <tr><td>H1226A0000</td><td>Detection Principle</td><td>Optional (A)</td><td>May</td><td>If multiple principles exist</td><td>Select primary principle for reporting</td></tr>
+  </tbody>
+</table>

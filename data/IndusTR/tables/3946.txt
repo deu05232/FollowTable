@@ -1,0 +1,11 @@
+<table>
+  <caption>Data Dictionary of Quality Control Parameter Set for Blowroom-Carding Combined Machine</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0B00</td><td>5m CV%</td><td>CV%5m</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10.00</td><td>%</td><td>5 m sliver Cv% display</td><td></td></tr>
+  <tr><td>0X0B01</td><td>Standard cotton layer</td><td>StandardCottonLayer</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~5.00</td><td>mm</td><td>One</td><td></td></tr>
+  <tr><td>0X0B02</td><td>Cotton layer range</td><td>CottonLayerRange</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>丨</td><td>丨</td></tr>
+  <tr><td>OX0B03</td><td>Standard sliver</td><td>StandardSliver</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~5.00</td><td>mm</td><td></td><td>One</td></tr>
+  <tr><td>0X0B04</td><td>Sliver range</td><td>SliverRange</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~100.00</td><td>%</td><td>One</td><td>1</td></tr>
+  <tr><td>0X0B05</td><td>1m A%</td><td>A%1m</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~10.00</td><td>%</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0B06</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

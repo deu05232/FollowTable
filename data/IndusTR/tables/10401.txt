@@ -1,0 +1,15 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Transmitter Output Power and Modulation Limits</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Unit</th><th>Test Scenario / Conditions</th><th>Limit / Allowable Range</th><th>Measurement Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Conducted RF output power (nominal channel)</td><td>W</td><td>Normal environment; rated supply; transmitter keyed continuously</td><td>1.6 to 2.5</td><td>Measured at RF connector into 50 Ω load</td></tr>
+    <tr><td>Conducted RF output power variation vs. supply voltage</td><td>dB</td><td>Supply from 10.8 V to 15.6 V; normal environment</td><td>≤ ±1.5</td><td>Referenced to power at nominal supply</td></tr>
+    <tr><td>Conducted RF output power variation vs. temperature</td><td>dB</td><td>-20 °C to +55 °C; rated supply</td><td>≤ ±2.0</td><td>Stabilize at temperature before measurement</td></tr>
+    <tr><td>Modulation depth (FSK deviation peak)</td><td>kHz</td><td>Normal environment; standard test pattern</td><td>2.2 to 2.8</td><td>Deviation measured during steady-state symbols</td></tr>
+    <tr><td>Modulation symmetry error</td><td>%</td><td>Normal environment; standard test pattern</td><td>≤ 10</td><td>Positive/negative deviation symmetry</td></tr>
+    <tr><td>Occupied bandwidth (99%)</td><td>kHz</td><td>Normal environment; nominal power; standard test pattern</td><td>≤ 16</td><td>Integrated power bandwidth method</td></tr>
+    <tr><td>Transient time to stable carrier</td><td>ms</td><td>Normal environment; from PTT/assert to stable frequency and power</td><td>≤ 3</td><td>Stable defined as within stated power/frequency tolerances</td></tr>
+  </tbody>
+</table>

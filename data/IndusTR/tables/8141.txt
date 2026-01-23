@@ -1,0 +1,15 @@
+<table>
+  <caption>Fault Code Checklist with Embedded Configuration and Stored Information (Mixed Scope)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Fault Code</th><th>Self-Testable Fault Item</th><th>Fault Description</th><th>Recommended Action</th><th>Related Configuration / Stored Info (Not Allowed)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Measuring Instruments</td><td>F-101</td><td>Sensor open/short</td><td>Primary sensor wiring open or short detected</td><td>Inspect sensor wiring; replace sensor if needed</td><td>Requires verifying range limits (URV/LRV) and damping; log device serial number and firmware version</td></tr>
+    <tr><td>F-102</td><td>ADC checksum error</td><td>Data verification error in A/D conversion</td><td>Reboot; run full self-test; update firmware</td><td>Store last 24h totalized value and calibration timestamp</td></tr>
+    <tr><td>F-103</td><td>Loop current out of tolerance</td><td>Output feedback abnormal</td><td>4–20 mA loop feedback deviates from command</td><td>Check loop power; verify load resistance</td><td>Modify output mode, display unit, and alarm setpoint; record parameter snapshot</td></tr>
+    <tr><td rowspan="2">Analytical Instruments</td><td>A-201</td><td>Optics contamination</td><td>Light path attenuation beyond limit</td><td>Clean optics; re-run calibration</td><td>Save calibration curve, operator access level, and analyzer method ID</td></tr>
+    <tr><td>A-202</td><td>Auto-calibration failed</td><td>Calibration routine fault</td><td>Automatic calibration did not converge</td><td>Switch to manual calibration; check reference gas/liquid</td><td>Change calibration mode setting; store instrument configuration export</td></tr>
+    <tr><td rowspan="2">Actuators</td><td>E-301</td><td>Position sensor fault</td><td>Position feedback invalid or missing</td><td>Check sensor connector; replace position sensor</td><td>Configure travel limits and local/remote control mode; store reference torque value</td></tr>
+    <tr><td>E-302</td><td>Main voltage abnormal</td><td>Power supply fault</td><td>Supply voltage outside allowable range</td><td>Check incoming power; inspect PSU</td><td>Write maintenance note into device memory; record firmware and bootloader versions</td></tr>
+  </tbody>
+</table>

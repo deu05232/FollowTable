@@ -1,0 +1,13 @@
+<table>
+  <caption>Self-service Portal Management Test Case — Audit Log and Operation Traceability</caption>
+  <tbody>
+    <tr><th>Test Case ID</th><td>SSP-MGMT-6.3.5.2</td></tr>
+    <tr><th>Test Item</th><td>Self-service Interface Functions</td></tr>
+    <tr><th>Test Sub-item</th><td>Audit Log Management</td></tr>
+    <tr><th>Management Area</th><td>Monitoring / Compliance</td></tr>
+    <tr><th>Preconditions</th><td>Audit logging is enabled; an admin account and a standard user account exist; at least one managed object exists (e.g., a terminal record).</td></tr>
+    <tr><th>Test Objective</th><td>Verify that management operations performed through the self-service portal are recorded with sufficient detail (who, what, when, outcome) and that administrators can filter and export audit logs for traceability.</td></tr>
+    <tr><th>Test Steps</th><td>Log in as Admin and perform a management action (e.g., deactivate a terminal).Log in as Standard User and attempt the same action (expected to fail).Open Audit Logs as Admin and search by actor and time range.Filter by outcome (Success/Failure) and locate both events.Export the filtered results to a file.</td></tr>
+    <tr><th>Expected Result</th><td>Both successful and failed attempts appear in logs with timestamp, user identity, target object, action name, and result; filters return correct subsets; export contains the same records as displayed.</td></tr>
+  </tbody>
+</table>

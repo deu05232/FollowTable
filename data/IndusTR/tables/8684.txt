@@ -1,0 +1,14 @@
+<table>
+  <caption>Single-SPN Definition: Protocol Version Number (SPN 2600)</caption>
+  <thead>
+    <tr><th>Start Byte</th><th>Bit Range</th><th>Length</th><th>SPN</th><th>Field Name</th><th>Encoding</th><th>Valid Range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>0-7</td><td>1 byte</td><td>2600</td><td>Version_Byte1</td><td>Unsigned</td><td>0x00-0xFF</td><td>Least significant version byte</td></tr>
+    <tr><td>2</td><td>0-7</td><td>1 byte</td><td>2600</td><td>Version_Byte2</td><td>Unsigned</td><td>0x00-0xFF</td><td>Middle version byte</td></tr>
+    <tr><td>3</td><td>0-7</td><td>1 byte</td><td>2600</td><td>Version_Byte3</td><td>Unsigned</td><td>0x00-0xFF</td><td>Most significant version byte</td></tr>
+    <tr><td colspan="8">Example current version: Byte3=0x00, Byte2=0x01, Byte1=0x01 (V1.1.0)</td></tr>
+    <tr><td>4</td><td>0-7</td><td>1 byte</td><td>2600</td><td>Reserved</td><td>Fixed</td><td>0xFF</td><td>Reserved for future use</td></tr>
+    <tr><td>5</td><td>0-7</td><td>1 byte</td><td>2600</td><td>CRC_Mode</td><td>Enum</td><td>0x00-0x02</td><td>0x00:none, 0x01:CRC16, 0x02:CRC32</td></tr>
+  </tbody>
+</table>

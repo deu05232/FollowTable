@@ -1,0 +1,19 @@
+<table>
+  <caption>Earth–Moon Basic Parameters with Elastic/Pressure Modeling Add-ons</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Earth</th><th>Moon</th><th>Units</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Basic physical</td><td>Mass</td><td>5.972</td><td>0.07348</td><td>10^24 kg</td><td>Nominal values</td></tr>
+    <tr><td>Mean radius</td><td>6371</td><td>1737.4</td><td>km</td><td>Volumetric mean</td></tr>
+    <tr><td>Mean density</td><td>5.51</td><td>3.34</td><td>g/cm^3</td><td>Bulk density</td></tr>
+    <tr><td>Geometric albedo (V)</td><td>0.367</td><td>0.12</td><td>—</td><td>Representative</td></tr>
+    <tr><td>Sidereal rotation period</td><td>0.99727</td><td>27.3216</td><td>days</td><td>Moon tidally locked</td></tr>
+    <tr><td>Semi-major axis (Moon around Earth)</td><td colspan="2">384400</td><td>km</td><td>Mean distance</td></tr>
+    <tr><td rowspan="3">Interior/elasticity</td><td>Estimated central pressure</td><td>360</td><td>5</td><td>GPa</td><td>Pressure calculation included</td></tr>
+    <tr><td>Bulk modulus (K)</td><td>160</td><td>120</td><td>GPa</td><td>Elasticity parameter</td></tr>
+    <tr><td>Shear modulus (μ)</td><td>80</td><td>60</td><td>GPa</td><td>Elasticity parameter</td></tr>
+    <tr><td rowspan="2">Model settings</td><td>Equation of state</td><td>Birch–Murnaghan (3rd)</td><td>Birch–Murnaghan (3rd)</td><td>—</td><td>Modeling choice</td></tr>
+    <tr><td>Radial grid points</td><td>400</td><td>200</td><td>—</td><td>Numerical discretization</td></tr>
+  </tbody>
+</table>

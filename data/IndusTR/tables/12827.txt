@@ -1,0 +1,7 @@
+<table>
+  <caption>Version Negotiation (Vehicle Side) – Protocol Version as Text Label</caption>
+  <tr><th>Field</th><th>Type</th><th>Length</th><th>Allowed Values</th><th>Notes</th></tr>
+  <tr><td>CAN Type</td><td>BYTE</td><td>1</td><td>CAN2.0B / CAN FD / CAN XL</td><td>Receiver shall not use this value to determine the negotiation result</td></tr>
+  <tr><td>Negotiation Result</td><td>BYTE</td><td>1</td><td>continue / success / fail</td><td>Result code for version negotiation</td></tr>
+  <tr><td>Protocol Version</td><td>STRING</td><td>Var.</td><td>"V1.0.0" …</td><td>Version is carried as a human-readable label rather than byte-split encoding</td></tr>
+</table>

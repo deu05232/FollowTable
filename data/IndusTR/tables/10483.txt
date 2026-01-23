@@ -1,0 +1,17 @@
+<table>
+  <caption>Official Vehicle Refueling Transaction Log (Department-Linked)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field Name</th><th>Data Type</th><th>Format</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identifiers</td><td>Refueling Record ID</td><td>String</td><td>an..40</td><td>Unique identifier for a single refueling occurrence</td></tr>
+    <tr><td>Vehicle Reference</td><td>Vehicle Plate Number</td><td>String</td><td>an..15</td><td>Plate number for the vehicle involved in the transaction</td></tr>
+    <tr><td>Org Context</td><td>Responsible Department</td><td>String</td><td>an..60</td><td>Department accountable for the vehicle at the time of refueling</td></tr>
+    <tr><td>Event Time</td><td>Refueling Timestamp</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td><td>Time of the refueling event</td></tr>
+    <tr><td>Event Location</td><td>Station Name</td><td>String</td><td>an..80</td><td>Fuel station where refueling happened</td></tr>
+    <tr><td>Event Details</td><td>Fuel Type</td><td>String</td><td>an..20</td><td>Diesel/Gasoline/Electric charge type</td></tr>
+    <tr><td>Event Details</td><td>Volume (Liters)</td><td>Decimal</td><td>n..10,2</td><td>Fuel volume purchased</td></tr>
+    <tr><td>Event Details</td><td>Amount (CNY)</td><td>Decimal</td><td>n..12,2</td><td>Total paid amount</td></tr>
+    <tr><td>Audit</td><td>Operator</td><td>String</td><td>an..50</td><td>Person who recorded the refueling</td></tr>
+  </tbody>
+</table>

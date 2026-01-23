@@ -1,0 +1,13 @@
+# IPv4 Special-Use and Non-Public Address Blocks (Private, Shared, Loopback, Link-Local, Documentation)
+
+| Category | CIDR block | Start address | End address | Routable on public Internet | Intended use / scope | Primary reference |
+| --- | --- | --- | --- | --- | --- | --- |
+| Private-use (RFC 1918) | 10.0.0.0/8 | 10.0.0.0 | 10.255.255.255 | No | Internal addressing for private networks (enterprise/home LANs) | RFC 1918 |
+| Private-use (RFC 1918) | 172.16.0.0/12 | 172.16.0.0 | 172.31.255.255 | No | Internal addressing for private networks (often used for mid-size orgs/VPCs) | RFC 1918 |
+| Private-use (RFC 1918) | 192.168.0.0/16 | 192.168.0.0 | 192.168.255.255 | No | Internal addressing for private networks (common in consumer routers) | RFC 1918 |
+| Shared address space (CGNAT) | 100.64.0.0/10 | 100.64.0.0 | 100.127.255.255 | No (not globally routed) | ISP-to-subscriber addressing for carrier-grade NAT deployments | RFC 6598 |
+| Loopback | 127.0.0.0/8 | 127.0.0.0 | 127.255.255.255 | No | Local host loopback testing (e.g., 127.0.0.1) | RFC 6890 |
+| Link-local | 169.254.0.0/16 | 169.254.0.0 | 169.254.255.255 | No | Auto-configuration when DHCP is unavailable (APIPA/IPv4LL) | RFC 3927 |
+| Documentation (TEST-NET-1) | 192.0.2.0/24 | 192.0.2.0 | 192.0.2.255 | No | Example addresses for documentation and training materials | RFC 5737 |
+| Documentation (TEST-NET-2) | 198.51.100.0/24 | 198.51.100.0 | 198.51.100.255 | No | Example addresses for documentation and training materials | RFC 5737 |
+| Documentation (TEST-NET-3) | 203.0.113.0/24 | 203.0.113.0 | 203.0.113.255 | No | Example addresses for documentation and training materials | RFC 5737 |

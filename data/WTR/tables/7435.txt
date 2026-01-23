@@ -1,0 +1,12 @@
+# ISP Traffic Shaping Policies Affecting BitTorrent (Selected Providers)
+
+| ISP | Region | Throttles BitTorrent | Time Window | Detection Method | Workarounds Mentioned |
+|---|---|---|---|---|---|
+| Comcast | US | Yes | Peak hours | DPI / heuristics | Encryption, port randomization |
+| AT&T | US | Sometimes | Evenings | Congestion-based | VPN suggested |
+| Vodafone | EU | Sometimes | Varies | QoS rules | VPN suggested |
+| BT (British Telecom) | UK | No (reported) | N/A | N/A | N/A |
+| Telstra | AU | Yes | Peak hours | Traffic classification | Paid speed tier |
+| Rogers | CA | Yes | Evenings | Shaping policies | VPN suggested |
+| Orange | EU | Sometimes | Varies | Rate limiting | Encryption suggested |
+| Spectrum | US | No (reported) | N/A | N/A | N/A |

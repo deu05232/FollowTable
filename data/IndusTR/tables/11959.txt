@@ -1,0 +1,19 @@
+<table>
+  <caption>Population Composition Summary for a Multimodal Biometric Benchmark</caption>
+  <thead>
+    <tr><th>Group</th><th>Attribute</th><th>Levels</th><th>Target Distribution</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Demographic Balance</td><td>Gender</td><td>Female / Male</td><td>50% / 50%</td><td>Quota-based recruitment</td></tr>
+    <tr><td>Age Bands</td><td>18–25; 26–40; 41–60; 60+</td><td>25% each</td><td>Self-reported</td></tr>
+    <tr><td>Skin Tone</td><td>Light; Medium; Dark</td><td>30% / 40% / 30%</td><td>Observer-rated</td></tr>
+    <tr><td>Region of Origin</td><td>Americas; Europe; Africa; Asia; Oceania</td><td>20% each</td><td>Recruitment metadata</td></tr>
+    <tr><td>Primary Language</td><td>English; Spanish; Mandarin; Arabic; Other</td><td>Varies</td><td>For voice subsets</td></tr>
+    <tr><td>Disability Status</td><td>null; Visual; Motor; Hearing; Other</td><td>Optional</td><td>Accessibility analysis</td></tr>
+    <tr><td rowspan="3">Anthropometrics</td><td>Hand Size</td><td>Small; Medium; Large</td><td>20% / 60% / 20%</td><td>Measured</td></tr>
+    <tr><td>Face Shape</td><td>Oval; Round; Square; Other</td><td>Not fixed</td><td>Annotator label</td></tr>
+    <tr><td>Hair Type</td><td>Straight; Wavy; Curly; Coily</td><td>Not fixed</td><td>Appearance covariate</td></tr>
+    <tr><td rowspan="2">Capture (token)</td><td>Capture Modality</td><td>Face; Fingerprint; Voice; Iris</td><td>All included</td><td>Only modality list</td></tr>
+    <tr><td>Environment</td><td>Indoor / Outdoor</td><td>Unspecified</td><td>No lighting or sensor geometry</td></tr>
+  </tbody>
+</table>

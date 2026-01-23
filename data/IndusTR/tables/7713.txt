@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Interface: Get certificate subject/issuer and validity info</caption>
+  <tr><td>Prototype</td><td>BSTR SOF_GetCertBasicInfo(BSTR Base64Cert, LONG InfoType)</td></tr>
+  <tr><td>Description</td><td>Return basic readable information from a certificate for display or auditing purposes</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>Base64Cert (Base64-encoded certificate data)</td></tr>
+  <tr><td>InfoType (select which certificate field to return, e.g., subject, issuer, serial number, notBefore/notAfter)</td></tr>
+  <tr><td>Return Value</td><td>Requested certificate field as a string (success)</td></tr>
+</table>

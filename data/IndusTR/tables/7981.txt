@@ -1,0 +1,7 @@
+<table>
+  <caption>SAF_SM9Encrypt (prototype split across cells)</caption>
+  <tr><th>Prototype</th><td>int SAF_SM9Encrypt(</td><td>void *hAppHandle, unsigned int uiMasterPublicKeyIndex,</td></tr>
+  <tr><td></td><td>unsigned char *pucUserID, unsigned int uiUserIDLen,</td><td>unsigned int ulAlgID, unsigned char *pIV, unsigned int ulIVLen,</td></tr>
+  <tr><td></td><td>unsigned char *pucData, unsigned int uiDataLength,</td><td>unsigned char *pucEncData, unsigned int *puiEncDataLen);</td></tr>
+  <tr><th>Rules</th><td colspan="2">Use the SM9 user identity to encrypt data. The SM9 computation process shall comply with GB/T 41389.</td></tr>
+</table>

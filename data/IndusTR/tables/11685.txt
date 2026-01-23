@@ -1,0 +1,15 @@
+<table>
+  <caption>Power Supply Efficiency Grades: Single-Point Rated Efficiency and Standby Power Limits</caption>
+  <thead>
+    <tr><th rowspan="2">Energy Efficiency Grade</th><th rowspan="2">Rated Output Power Range (Po, W)</th><th colspan="2">Required Efficiency at Rated Load</th><th rowspan="2">Max No-Load Active Power (W)</th><th rowspan="2">Min PF at Rated State</th></tr>
+    <tr><th>115 Vac</th><th>230 Vac</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Grade 1</td><td>0 < Po ≤ 10</td><td>0.860</td><td>0.875</td><td>0.060</td><td>—</td></tr>
+    <tr><td>10 < Po ≤ 250</td><td>0.905</td><td>0.915</td><td>0.075</td><td>0.930</td></tr>
+    <tr><td rowspan="2">Grade 2</td><td>0 < Po ≤ 10</td><td>0.835</td><td>0.850</td><td>0.080</td><td>—</td></tr>
+    <tr><td>10 < Po ≤ 250</td><td>0.885</td><td>0.895</td><td>0.100</td><td>0.900</td></tr>
+    <tr><td rowspan="2">Grade 3</td><td>0 < Po ≤ 10</td><td>0.810</td><td>0.825</td><td>0.100</td><td>—</td></tr>
+    <tr><td>10 < Po ≤ 250</td><td>0.865</td><td>0.875</td><td>0.120</td><td>0.880</td></tr>
+  </tbody>
+</table>

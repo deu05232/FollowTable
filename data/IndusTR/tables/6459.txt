@@ -1,0 +1,7 @@
+<table>
+  <caption>Regional Address Code Composition (X1X2) — Component Digits</caption>
+  <tr><th>Serial No.</th><th>Field Name</th><th>Bits</th><th>Valid Range</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>X1</td><td>2</td><td>0~2</td><td>High-order part of the regional code</td></tr>
+  <tr><td>2</td><td>X2</td><td>4</td><td>0~9</td><td>Low-order part of the regional code</td></tr>
+  <tr><td colspan="2">Total</td><td>6</td><td>—</td><td>X1X2 composite code: 00 worldwide; 01–21 NAVAREA/METAREA; 22–63 unused</td></tr>
+</table>

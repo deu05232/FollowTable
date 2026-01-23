@@ -1,0 +1,15 @@
+<table>
+  <caption>Evaporator Temperature and Vacuum Pressure Setpoints by Stage for Ammonium Nitrate Solution Concentration</caption>
+  <thead>
+    <tr><th>Control tier</th><th>Stage</th><th>Measurement point</th><th>Normal temperature (°C)</th><th>High alarm temperature (°C)</th><th>Normal pressure (MPa)</th><th>Pressure alarm band (MPa)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Primary evaporation</td><td>Stage 1</td><td>Evaporator liquor outlet</td><td>148</td><td>155</td><td>-0.050</td><td>< -0.070 or > -0.035</td></tr>
+    <tr><td>Stage 1</td><td>Separator vapor space</td><td>144</td><td>152</td><td>-0.055</td><td>< -0.075 or > -0.040</td></tr>
+    <tr><td>Stage 1</td><td>Heating side condensate (shell)</td><td>—</td><td>—</td><td>-0.005</td><td>< -0.015 or > 0.000</td></tr>
+    <tr><td rowspan="2">Secondary evaporation</td><td>Stage 2</td><td>Evaporator liquor outlet</td><td>170</td><td>182</td><td>-0.028</td><td>< -0.045 or > -0.015</td></tr>
+    <tr><td>Stage 2</td><td>Separator vapor space</td><td>166</td><td>180</td><td>-0.032</td><td>< -0.048 or > -0.018</td></tr>
+    <tr><td rowspan="2">Finishing evaporation</td><td>Stage 3</td><td>Final evaporator liquor outlet</td><td>176</td><td>185</td><td>-0.012</td><td>< -0.025 or > -0.005</td></tr>
+    <tr><td>Stage 3</td><td>Final separator vapor space</td><td>173</td><td>183</td><td>-0.015</td><td>< -0.028 or > -0.008</td></tr>
+  </tbody>
+</table>

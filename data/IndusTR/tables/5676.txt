@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Runtime Debug Labels (Human-Friendly Only, No Constant Identifiers)</caption>
+  <thead>
+    <tr><th>Category</th><th>UI Label</th><th>Meaning</th><th>Suggested Debug Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Tracking</td><td>Tracking OK</td><td>System reports normal tracking</td><td>Log pose and anchors</td></tr>
+    <tr><td>Tracking</td><td>Paused</td><td>Tracking temporarily paused</td><td>Check device motion / camera feed</td></tr>
+    <tr><td>Tracking</td><td>Stopped</td><td>Tracking has stopped</td><td>Reset session</td></tr>
+    <tr><td>Failure Reason</td><td>No Failure</td><td>No failure reason available</td><td>Continue normal loop</td></tr>
+    <tr><td>Failure Reason</td><td>Bad State</td><td>Internal state inconsistent</td><td>Clear world map / restart</td></tr>
+    <tr><td>Failure Reason</td><td>Insufficient Light</td><td>Camera input too dark</td><td>Prompt user to increase lighting</td></tr>
+    <tr><td>Light Estimation</td><td>Disabled</td><td>Lighting estimation off</td><td>Use default material params</td></tr>
+    <tr><td>Light Estimation</td><td>Ambient Intensity</td><td>Simple intensity + color correction</td><td>Apply RGB correction</td></tr>
+  </tbody>
+</table>

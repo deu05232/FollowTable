@@ -1,0 +1,15 @@
+<table>
+  <caption>Screen-Space Frame Mapping Parameters (No Returned Frame Data)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Used For</th><th>Typical Range</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>pixel_x</td><td>float</td><td>Logical X coordinate in the view</td><td>[0, viewWidth]</td><td>Input only</td></tr>
+    <tr><td>pixel_y</td><td>float</td><td>Logical Y coordinate in the view</td><td>[0, viewHeight]</td><td>Input only</td></tr>
+    <tr><td>screen_rotation</td><td>int32_t</td><td>Display rotation used for transforms</td><td>0/90/180/270</td><td>Input only</td></tr>
+    <tr><td>near_clip_m</td><td>float</td><td>Near plane for projection math</td><td>> 0</td><td>Input only</td></tr>
+    <tr><td>far_clip_m</td><td>float</td><td>Far plane for projection math</td><td>> near_clip_m</td><td>Input only</td></tr>
+    <tr><td>view_width_px</td><td>int32_t</td><td>Viewport width in pixels</td><td>> 0</td><td>Input only</td></tr>
+    <tr><td>view_height_px</td><td>int32_t</td><td>Viewport height in pixels</td><td>> 0</td><td>Input only</td></tr>
+  </tbody>
+</table>

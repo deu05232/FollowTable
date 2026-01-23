@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory calibration protocol for brightness temperature (BT) in longwave infrared imaging</caption>
+  <thead>
+    <tr><th>Step</th><th>Calibration Target</th><th>Temperature Range</th><th>Stabilization Time</th><th>Acceptance Criterion</th><th>Record</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Blackbody A</td><td>260–280 K</td><td>20 min</td><td>Drift < 0.05 K/10 min</td><td>BB_A_log</td></tr>
+    <tr><td>2</td><td>Blackbody B</td><td>300–320 K</td><td>20 min</td><td>Uniformity < 0.10 K</td><td>BB_B_log</td></tr>
+    <tr><td>3</td><td>Nonlinearity</td><td>260–320 K</td><td>—</td><td>R² > 0.999</td><td>NL_fit</td></tr>
+    <tr><td>4</td><td>Noise check</td><td>300 K point</td><td>10 min</td><td>NETD < 0.15 K</td><td>noise_stat</td></tr>
+    <tr><td>5</td><td>Stray light</td><td>Cold load</td><td>15 min</td><td>Offset < 0.2 K</td><td>stray_eval</td></tr>
+    <tr><td>6</td><td>Verification</td><td>285/305 K</td><td>10 min</td><td>Bias within ±0.3 K</td><td>verify_sheet</td></tr>
+  </tbody>
+</table>

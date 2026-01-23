@@ -1,0 +1,10 @@
+<table>
+  <caption>Distress Alarm Acknowledgement Frame Header (No Regional Addressing)</caption>
+  <tr><th>Serial No.</th><th>Field Name</th><th>Bits</th><th>Valid Range</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Service Identifier</td><td>16</td><td>0xCC00</td><td>BDMSS ship earth station service application</td></tr>
+  <tr><td>2</td><td>Field Type</td><td>4</td><td>0~7</td><td>Acknowledgement subtype for distress/emergency/safety polling</td></tr>
+  <tr><td>3</td><td>Message Serial Number</td><td>32</td><td>—</td><td>Same as the replied message serial number</td></tr>
+  <tr><td>4</td><td>Receipt Result</td><td>2</td><td>0~3</td><td>0: accepted; 1: rejected; 2: duplicated; 3: reserved</td></tr>
+  <tr><td>5</td><td>Reserved</td><td>6</td><td>0</td><td>Reserved</td></tr>
+  <tr><td colspan="2">Total</td><td>60</td><td>—</td><td>Frame header for acknowledgement handling only</td></tr>
+</table>

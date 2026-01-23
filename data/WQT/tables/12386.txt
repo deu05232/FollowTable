@@ -1,0 +1,10 @@
+# Exchange hybrid deployment coexistence  mail flow and routing before vs. after
+
+| Configuration area | Before hybrid deployment | After hybrid deployment |
+| --- | --- | --- |
+| Mail routing between environments | No direct, organization-wide routing between on-premises and Microsoft 365 recipients | Mail is routed between on-premises and Microsoft 365 using the configured hybrid mail flow |
+| Transport trust between orgs | No established secure transport relationship | Secure mail transport is established between on-premises and Microsoft 365 |
+| Accepted domains and recipient targeting | Separate targeting rules; users are not treated as one combined directory | Users can be targeted across environments based on hybrid configuration and recipient objects |
+| Cross-premises delivery expectations | Messages may be treated like external mail | Messages are treated as internal between the two environments (hybrid mail flow behavior) |
+| Centralized mail transport (optional) | Not applicable | Optional centralized transport can route cloud mail through on-premises (or vice versa) |
+| Shared SMTP namespace experience | Inconsistent sender/recipient experience across environments | Shared domain can be used across both environments with consistent routing behavior |

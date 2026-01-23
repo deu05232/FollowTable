@@ -1,0 +1,10 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration QC Metrics</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Calibration Quality Sequence</td><td>(0014,3080)</td><td>SQ</td><td>1</td><td>3</td><td>Quality assessment results for calibration</td></tr>
+  <tr><td>>Calibration SNR</td><td>(0014,3081)</td><td>DS</td><td>1</td><td>3</td><td>Signal-to-noise ratio measured during calibration QC</td></tr>
+  <tr><td>>Bad Pixel Count</td><td>(0014,3082)</td><td>IS</td><td>1</td><td>3</td><td>Number of bad pixels detected in calibration analysis</td></tr>
+  <tr><td>>Uniformity Assessment</td><td>(0014,3083)</td><td>CS</td><td>1</td><td>3</td><td>Result of uniformity check (e.g., PASS/FAIL)</td></tr>
+  <tr><td>>Calibration Acceptance Criteria</td><td>(0014,3084)</td><td>LT</td><td>1</td><td>3</td><td>Text description of criteria used to accept/reject the calibration</td></tr>
+  <tr><td>>Calibration Analyst</td><td>(0014,3085)</td><td>PN</td><td>1</td><td>3</td><td>Person who reviewed the calibration QC results</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Component Compute Data Digest Interface Definition</caption>
+  <tr><td>Prototype</td><td>java.lang.String SOF_hashData(long hashAlg,byte[] inData,byte[] signCert,byte[] userID)</td></tr>
+  <tr><td>Description</td><td>Compute the data digest. If the SM3 algorithm is used, when signCert and userID are empty, only the digest value of the data is computed; when signCert and userID are not empty, computation shall follow the preprocessing procedure specified in GB/T 35276. The digest value can be used as input for SM2 signing</td></tr>
+  <tr><td rowspan="4">Parameters</td><td>hashAlg (digest algorithm, shall comply with the provisions of GB/T 33560)</td></tr>
+  <tr><td>inData (original data)</td></tr>
+  <tr><td>signCert (signer's certificate, valid when the digest algorithm is SM3; pass null if not needed)</td></tr>
+  <tr><td>userID (signer's user ID, valid when the digest algorithm is SM3; if signCert is null, this parameter is meaningless)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>Base64-encoded data digest value (success)</td></tr>
+  <tr><td>Empty string (failure; the error code defined in Table A.1 can be obtained via SOF_getLastError)</td></tr>
+</table>

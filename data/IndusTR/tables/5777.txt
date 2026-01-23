@@ -1,0 +1,15 @@
+<table>
+  <caption>Pattern File and Program Metadata Dictionary Items for Knitting Process</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0X0220</td><td>Pattern File ID</td><td>PatternFileId</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Unique identifier of the active pattern file</td><td></td></tr>
+    <tr><td>0X0221</td><td>Pattern File Name</td><td>PatternFileName</td><td>M</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>File name of the active knitting program</td><td></td></tr>
+    <tr><td>0X0222</td><td>Pattern Version</td><td>PatternVersion</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Version tag of the pattern program</td><td></td></tr>
+    <tr><td>0X0223</td><td>Checksum</td><td>ProgramChecksum</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Checksum used to validate program integrity</td><td></td></tr>
+    <tr><td>0X0224</td><td>File Size</td><td>PatternFileSize</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~2147483647</td><td>Byte</td><td>Size of the pattern file stored on the controller</td><td></td></tr>
+    <tr><td>0X0225</td><td>Last Modified Timestamp</td><td>PatternLastModifiedTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int64</td><td>0~9223372036854775807</td><td>ms</td><td>Unix epoch time when the pattern file was last modified</td><td></td></tr>
+    <tr><td>0X0226</td><td>Download Source</td><td>PatternDownloadSource</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~3</td><td>1</td><td>Origin of the pattern program</td><td>0: USB 1: LAN 2: Cloud 3: Local</td></tr>
+  </tbody>
+</table>

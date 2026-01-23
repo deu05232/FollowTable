@@ -1,0 +1,10 @@
+<table>
+  <caption>Hospital Building Energy Metering Performance KPIs (Unrelated Domain)</caption>
+  <tr><th>KPI</th><th>Definition</th><th>Target</th><th>Measurement Period</th><th>Data Source</th><th>Owner</th></tr>
+  <tr><td>Meter Read Success Rate</td><td>% of meters read without manual intervention</td><td>> 99.5%</td><td>Monthly</td><td>BMS logs</td><td>Facilities IT</td></tr>
+  <tr><td>Billing Accuracy</td><td>Difference between billed and audited energy</td><td>< 0.8%</td><td>Quarterly</td><td>Billing system</td><td>Finance</td></tr>
+  <tr><td>Outage Detection Time</td><td>Time to detect missing meter data</td><td>< 15 min</td><td>Monthly</td><td>Alarm console</td><td>NOC</td></tr>
+  <tr><td>Data Latency</td><td>Time from read to database availability</td><td>< 5 min</td><td>Monthly</td><td>ETL reports</td><td>Data Platform</td></tr>
+  <tr><td>Power Quality Flag Rate</td><td>% intervals with PQ events flagged</td><td>< 2%</td><td>Monthly</td><td>PQ module</td><td>Energy Manager</td></tr>
+  <tr><td>Meter Replacement Cycle</td><td>Average planned replacement interval</td><td>8 years</td><td>Annual</td><td>Asset register</td><td>Maintenance</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Vehicle Authentication Response Parameters (Expanded)</caption>
+  <tr><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  <tr><td>Authentication sequence number</td><td>vehicleAuthSeq</td><td>string</td><td>Unique sequence number used to correlate the authentication request and response</td><td>Yes</td></tr>
+  <tr><td>Authentication result</td><td>succStat</td><td>integer</td><td>0: Authentication successful; 1: Authentication failed</td><td>Yes</td></tr>
+  <tr><td>Failure reason code</td><td>failReasonCode</td><td>integer</td><td>Error code returned when authentication fails</td><td>No</td></tr>
+  <tr><td>Failure reason message</td><td>failReasonMsg</td><td>string</td><td>Human-readable failure reason, max 50 characters</td><td>No</td></tr>
+  <tr><td>Authentication time</td><td>authTime</td><td>string</td><td>Timestamp when the authentication decision is made</td><td>No</td></tr>
+  <tr><td>Signature verification result</td><td>sigVerifyStat</td><td>integer</td><td>0: Signature valid; 1: Signature invalid</td><td>No</td></tr>
+</table>

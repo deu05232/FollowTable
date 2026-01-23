@@ -1,0 +1,16 @@
+<table>
+  <caption>Official Vehicle Management Platform — Asset & GPS Data Dictionary (Without Format Patterns)</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Item Name</th><th>Data Type</th><th>Storage Definition</th><th>Example Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Asset ID</td><td>Numeric</td><td>Identifier of the vehicle asset stored as a numeric field.</td><td>10002345</td></tr>
+    <tr><td>2</td><td>Asset Name</td><td>Text</td><td>Human-readable asset label stored as text.</td><td>City Service Sedan A</td></tr>
+    <tr><td>3</td><td>Asset Category</td><td>Text</td><td>Category name/code stored as text following internal classification rules.</td><td>Sedan</td></tr>
+    <tr><td>4</td><td>Terminal ID</td><td>Text</td><td>Identifier of the on-board positioning terminal stored as text.</td><td>TERM-9F21C</td></tr>
+    <tr><td>5</td><td>Positioning Time</td><td>DateTime</td><td>Timestamp when the location sample was recorded, stored as a datetime value.</td><td>2025-07-18 09:31:05</td></tr>
+    <tr><td>6</td><td>Longitude</td><td>Decimal</td><td>Longitude coordinate stored as a decimal number in degrees.</td><td>116.397128</td></tr>
+    <tr><td>7</td><td>Latitude</td><td>Decimal</td><td>Latitude coordinate stored as a decimal number in degrees.</td><td>39.916527</td></tr>
+    <tr><td>8</td><td>Speed</td><td>Decimal</td><td>Instantaneous speed stored as a decimal number.</td><td>48.6</td></tr>
+  </tbody>
+</table>

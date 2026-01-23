@@ -1,0 +1,9 @@
+<table>
+  <tr><td>Prototype</td><td>BSTR SOF_SignXMLDigest(BSTR CertID, BSTR Base64Digest, LONG DigestAlg)</td></tr>
+  <tr><td>Description</td><td>Generate an XML Signature element using the provided digest value and return the signature element in XML form. The digest is expected to be Base64-encoded.</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>Base64Digest (Base64-encoded digest value of canonicalized XML)</td></tr>
+  <tr><td>DigestAlg (digest algorithm identifier, e.g., SM3/SHA256)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>XmlSignatureElement (success; XML snippet containing Signature)</td></tr>
+  <tr><td>ErrorCode (failure)</td></tr>
+</table>

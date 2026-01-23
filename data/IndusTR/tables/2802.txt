@@ -1,0 +1,15 @@
+<table>
+  <caption>Laboratory QA QC Requirements for CO2 Measurement (Method Settings & Acceptance Criteria)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Instrument</th><th>Calibration Gas Range (ppm)</th><th>Calibration Frequency</th><th>Ambient Conditions</th><th>Acceptance Criteria</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CO2 (Flue Gas)</td><td>NDIR Analyzer</td><td>0–20,000</td><td>Daily</td><td>20–25°C, RH<60%</td><td>Drift ≤ 2% FS</td><td>QA-CO2-01</td></tr>
+    <tr><td>O2 (Flue Gas)</td><td>Paramagnetic</td><td>0–25%</td><td>Daily</td><td>20–25°C, RH<60%</td><td>Drift ≤ 1% FS</td><td>QA-O2-02</td></tr>
+    <tr><td>Flow Rate</td><td>Pitot Tube</td><td>0–30 m/s</td><td>Monthly</td><td>Stable stack</td><td>RSD ≤ 5%</td><td>QA-FLW-03</td></tr>
+    <tr><td>Moisture</td><td>Chilled Mirror</td><td>0–30% H2O</td><td>Monthly</td><td>20–25°C</td><td>Bias ≤ 0.5%</td><td>QA-H2O-04</td></tr>
+    <tr><td>Gas Leak Check</td><td>Pressure Decay</td><td>-</td><td>Before each run</td><td>-</td><td>Leak ≤ 1%/min</td><td>QA-LEAK-05</td></tr>
+    <tr><td>Sample Line Temp.</td><td>Thermocouple</td><td>0–200°C</td><td>Weekly</td><td>-</td><td>±2°C</td><td>QA-TEMP-06</td></tr>
+    <tr><td>Data Integrity</td><td>LIMS Audit</td><td>-</td><td>Quarterly</td><td>-</td><td>No critical findings</td><td>QA-LIMS-07</td></tr>
+  </tbody>
+</table>

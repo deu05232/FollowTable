@@ -1,0 +1,16 @@
+<table>
+  <caption>Service Provider Identity and Contact Details (CSDM)</caption>
+  <thead>
+    <tr><th>Field</th><th>XML/JSON Name</th><th>Type / Format</th><th>Required</th><th>Max Occurs</th><th>Value Domain</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Provider Legal Name</td><td>providerName</td><td>string (1..128)</td><td>M</td><td>1</td><td>-</td><td>Registered legal name of the service provider organization</td></tr>
+    <tr><td>Provider Identifier</td><td>providerId</td><td>string (1..64)</td><td>M</td><td>1</td><td>UUID/Local Registry</td><td>Unique identifier of the provider in a registry</td></tr>
+    <tr><td>Unified Social Credit Code</td><td>unifiedSocialCreditCode</td><td>string (18)</td><td>O</td><td>1</td><td>GB 32100</td><td>National unified social credit code (where applicable)</td></tr>
+    <tr><td>Registered Address</td><td>registeredAddress</td><td>string (0..256)</td><td>O</td><td>1</td><td>-</td><td>Official registered address of the provider</td></tr>
+    <tr><td>Primary Contact Name</td><td>contactName</td><td>string (0..128)</td><td>O</td><td>1</td><td>-</td><td>Name of the primary service contact</td></tr>
+    <tr><td>Primary Contact Email</td><td>contactEmail</td><td>string (0..128)</td><td>O</td><td>1</td><td>RFC 5322</td><td>Email address for service coordination</td></tr>
+    <tr><td>Primary Contact Phone</td><td>contactPhone</td><td>string (0..32)</td><td>O</td><td>1</td><td>E.164 recommended</td><td>Telephone number for the contact person</td></tr>
+    <tr><td>Provider Website</td><td>website</td><td>string (0..256)</td><td>O</td><td>1</td><td>URL</td><td>Public website of the provider</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,20 @@
+<table>
+  <caption>Road Traffic Safety Early Warning — Administrative & Road Segment Profile (No Date/Time Items)</caption>
+  <thead>
+    <tr><th>Category</th><th>Serial No.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Administrative</td><td>1</td><td>Province Code</td><td>Character</td><td>2</td><td>No</td><td>Administrative code (province level)</td></tr>
+    <tr><td>2</td><td>City Code</td><td>Character</td><td>4</td><td>No</td><td>Administrative code (city level)</td></tr>
+    <tr><td>3</td><td>County Code</td><td>Character</td><td>6</td><td>Yes</td><td>Administrative code (county level)</td></tr>
+    <tr><td>4</td><td>Township Code</td><td>Character</td><td>9</td><td>Yes</td><td>Administrative code (township level)</td></tr>
+    <tr><td rowspan="4">Road Attributes</td><td>5</td><td>Road Class</td><td>Character</td><td>8</td><td>Yes</td><td>e.g., expressway, arterial, local road</td></tr>
+    <tr><td>6</td><td>Road Section Type</td><td>Character</td><td>32</td><td>Yes</td><td>e.g., tunnel, bridge, intersection, ramp</td></tr>
+    <tr><td>7</td><td>Carriageway Type</td><td>Character</td><td>16</td><td>Yes</td><td>e.g., two-way, one-way, divided highway</td></tr>
+    <tr><td>8</td><td>Surface Condition Code</td><td>Character</td><td>4</td><td>Yes</td><td>Code representing pavement condition</td></tr>
+    <tr><td rowspan="3">Traffic Rules</td><td>9</td><td>Maximum Speed Limit</td><td>Integer</td><td>3</td><td>Yes</td><td>km/h</td></tr>
+    <tr><td>10</td><td>Minimum Speed Limit</td><td>Integer</td><td>3</td><td>Yes</td><td>km/h; optional</td></tr>
+    <tr><td>11</td><td>Overtaking Allowed</td><td>Boolean</td><td>1</td><td>Yes</td><td>true/false</td></tr>
+    <tr><td>Location</td><td>12</td><td>Linear Reference (K+M)</td><td>Character</td><td>32</td><td>Yes</td><td>e.g., K12+350</td></tr>
+  </tbody>
+</table>

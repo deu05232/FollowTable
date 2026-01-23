@@ -1,0 +1,16 @@
+<table>
+  <caption>Cybersecurity Reporting Fields by Regulation and Category</caption>
+  <thead>
+    <tr><th>Report Element</th><th>Regulation / Standard Source</th><th>Category</th><th>Mandatory?</th><th>Disclosure Deadline</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Materiality Determination Rationale</td><td>SEC 17 CFR 229.106</td><td>Legal/Disclosure</td><td>Yes</td><td>4 business days</td></tr>
+    <tr><td>Personal Data Involved Statement</td><td>GDPR Articles 33-34</td><td>Privacy</td><td>Conditional</td><td>72 hours</td></tr>
+    <tr><td>Cardholder Data Environment Scope</td><td>PCI DSS v4.0</td><td>Payments</td><td>Conditional</td><td>As required by acquirer</td></tr>
+    <tr><td>Critical Infrastructure Sector Tag</td><td>NIS2 Directive</td><td>Critical Infrastructure</td><td>Yes</td><td>24 hours (early warning)</td></tr>
+    <tr><td>Third-Party Notification Requirement</td><td>Contractual SLA</td><td>Vendor</td><td>Conditional</td><td>Per contract</td></tr>
+    <tr><td>Law Enforcement Contact Guidance</td><td>Internal Policy LEG-004</td><td>Legal/Process</td><td>No</td><td>N/A</td></tr>
+    <tr><td>Recordkeeping and Retention Clause</td><td>ISO/IEC 27001</td><td>GRC</td><td>Yes</td><td>N/A</td></tr>
+    <tr><td>Public Statement Approval Step</td><td>Internal Communications Policy COM-002</td><td>Governance</td><td>Yes</td><td>N/A</td></tr>
+  </tbody>
+</table>

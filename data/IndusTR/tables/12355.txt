@@ -1,0 +1,16 @@
+<table>
+  <caption>Satellite Imagery/Radiance Dataset Tokens Used in Filenames (Product-Level Codes)</caption>
+  <thead>
+    <tr><th>Domain</th><th>Data Product Name</th><th>Code</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Imagery</td><td>Full Disk Visible Reflectance Image</td><td>VIS</td><td>Daytime cloud and surface reflectance imagery</td></tr>
+    <tr><td>Infrared Brightness Temperature Image</td><td>IRB</td><td>Cloud-top and surface thermal contrast (all-day)</td></tr>
+    <tr><td>Water Vapor Channel Image</td><td>WVC</td><td>Mid/upper-tropospheric moisture patterns</td></tr>
+    <tr><td>true Color Composite Image</td><td>TRC</td><td>Natural-color RGB composite for visual interpretation</td></tr>
+    <tr><td rowspan="4">Radiance / Aerosol</td><td>Top-of-Atmosphere Radiance</td><td>TOA</td><td>Calibrated radiance at the sensor level (TOA)</td></tr>
+    <tr><td>Brightness Temperature</td><td>BT</td><td>Radiance converted to brightness temperature for IR bands</td></tr>
+    <tr><td>Aerosol Optical Depth</td><td>AOD</td><td>Column aerosol loading indicator</td></tr>
+    <tr><td>Aerosol Index</td><td>AI</td><td>UV-based aerosol detection indicator</td></tr>
+  </tbody>
+</table>

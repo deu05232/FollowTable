@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Environmental Conditions for Mechanical Endurance Testing</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Target Value</th><th>Allowable Tolerance</th><th>Monitoring Frequency</th><th>Sensor Type</th><th>Record Format</th><th>Corrective Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>23°C</td><td>±2°C</td><td>Every 30 min</td><td>RTD</td><td>CSV log</td><td>Adjust HVAC</td></tr>
+    <tr><td>Relative humidity</td><td>50%</td><td>±10%</td><td>Hourly</td><td>Capacitive</td><td>CSV log</td><td>Dehumidify</td></tr>
+    <tr><td>Power supply stability</td><td>380 V</td><td>±5%</td><td>Continuous</td><td>Power meter</td><td>SCADA</td><td>Switch UPS</td></tr>
+    <tr><td>Background vibration</td><td>< 0.5 mm/s</td><td>N/A</td><td>Daily</td><td>Vibrometer</td><td>Checklist</td><td>Isolate sources</td></tr>
+    <tr><td>Noise floor</td><td>< 45 dB(A)</td><td>N/A</td><td>Daily</td><td>SLM</td><td>Checklist</td><td>Schedule quiet hours</td></tr>
+    <tr><td>Illumination</td><td>> 500 lux</td><td>N/A</td><td>Weekly</td><td>Lux meter</td><td>Checklist</td><td>Replace lamps</td></tr>
+  </tbody>
+</table>

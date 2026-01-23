@@ -1,0 +1,11 @@
+<table>
+  <caption>COMPAREIMEI Command Message Structure</caption>
+  <tr><td>Code</td><td>Value/Description (HEX encoding）</td></tr>
+  <tr><td>CLA</td><td>80</td></tr>
+  <tr><td>INS</td><td>C8</td></tr>
+  <tr><td>P1</td><td>00</td></tr>
+  <tr><td>P2</td><td>00</td></tr>
+  <tr><td>Lc</td><td>08</td></tr>
+  <tr><td>DATA</td><td>Terminal IMEI</td></tr>
+  <tr><td>Le</td><td>Not present</td></tr>
+</table>

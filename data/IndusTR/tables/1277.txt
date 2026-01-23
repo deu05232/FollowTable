@@ -1,0 +1,9 @@
+<table>
+  <caption>Positionable Device Data Structure</caption>
+  <tr><td>Data Type</td><td>Parameter Type</td><td>Description</td></tr>
+  <tr><td rowspan="5">vrPositionableDevice</td><td>int32_tdevice_id</td><td>Device ID</td></tr>
+  <tr><td>vrPositionableDeviceType</td><td>Positionable device type, see Table 44</td></tr>
+  <tr><td>int64_t time_stamp</td><td>Timestamp of the included data</td></tr>
+  <tr><td>vrPose</td><td>Pose data at the timestamp, see Table 50</td></tr>
+  <tr><td>vrMotionData</td><td>Motion state data at the timestamp, see Table 56</td></tr>
+</table>

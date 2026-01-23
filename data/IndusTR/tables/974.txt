@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Deregistration Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.2</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Deregistration</td></tr>
+  <tr><td>Test Objective</td><td>Verify the logistics terminal deregistration function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can be logged in normally; 2. Normal connection to the server; 3. UI buttons and input boxes can be used normally; 4. Logistics terminals that have an ordering/subscription relationship established with the platform can work normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Enter the Logistics Terminal Management screen, select a registered logistics terminal, and click Deregister; 2. Log in to the logistics platform using the logistics terminal that was just deregistered</td></tr>
+  <tr><td>Pass Criteria</td><td>A deregistered logistics terminal cannot log in to the logistics platform</td></tr>
+  <tr><td>Notes</td><td>Terminal deregistration can be initiated proactively by the terminal, or initiated by the platform administrator; the platform updates the terminal registration flag to Deregistered</td></tr>
+</table>

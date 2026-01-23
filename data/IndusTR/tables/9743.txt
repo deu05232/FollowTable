@@ -1,0 +1,16 @@
+<table>
+  <caption>Practical OID Node Allocation Matrix for Construction Machinery (Node 1.2.156.3514)</caption>
+  <thead>
+    <tr><th>Construction-machinery OID node</th><th>Recipient type</th><th>Allocation category (one row = one category)</th><th>Node number(s) or range</th><th>Who receives it</th><th>Allocation purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">1.2.156.3514</td><td>Internal</td><td>Core governance/reserved block</td><td>0–999</td><td>Sector OID administrator / registry operator</td><td>Reserved for future governance needs and foundational registries</td></tr>
+    <tr><td>Internal</td><td>Legacy identification system entry points</td><td>1001–2000</td><td>Owners of pre-existing ID systems in construction machinery</td><td>Provides stable anchor nodes for mapping legacy codes into OIDs</td></tr>
+    <tr><td>Internal</td><td>Legacy system: Handle mapping</td><td>1001</td><td>Internal ID system operator</td><td>Dedicated node for Handle-style identifiers</td></tr>
+    <tr><td>Internal</td><td>Legacy system: Ecode mapping</td><td>1002</td><td>Internal ID system operator</td><td>Dedicated node for Ecode-style identifiers</td></tr>
+    <tr><td>Internal</td><td>Organization identity binding</td><td>1003</td><td>Organizations identified via unified social credit code</td><td>Connects enterprise identity to OID subtree; supports downstream product/asset IDs</td></tr>
+    <tr><td>External</td><td>Third-party organization nodes</td><td>2001–10000</td><td>Independent third-party organizations (platforms, service providers, etc.)</td><td>Each organization can manage its own subtree for the services/products it identifies</td></tr>
+    <tr><td>External</td><td>Third-party: early allocations (example policy block)</td><td>2001–2999</td><td>Early adopters among third-party organizations</td><td>Illustrates how the third-party range can be segmented by policy</td></tr>
+    <tr><td>External</td><td>Third-party: standard sequential issuance</td><td>3000–10000</td><td>Subsequent third-party applicants</td><td>Allocated sequentially upon application; avoids collisions across organizations</td></tr>
+  </tbody>
+</table>

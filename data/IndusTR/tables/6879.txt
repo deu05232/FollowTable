@@ -1,0 +1,18 @@
+<table>
+  <caption>ArTrackableList_getItem and Trackable Query Outputs (C API)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArTrackableList_getItem</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle used to resolve objects.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>trackable_list</td><td>ArTrackableList *</td><td>in</td><td>List previously filled by a list-populating call.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>index</td><td>int32_t</td><td>in</td><td>Zero-based index into the list.</td></tr>
+    <tr><td>ArTrackableList_getItem</td><td>out_trackable</td><td>ArTrackable **</td><td>out</td><td>Receives a pointer to the trackable atindex.</td></tr>
+    <tr><td>ArTrackable_getTrackingState</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle.</td></tr>
+    <tr><td>ArTrackable_getTrackingState</td><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Trackable to query.</td></tr>
+    <tr><td>ArTrackable_getTrackingState</td><td>out_tracking_state</td><td>ArTrackingState *</td><td>out</td><td>Filled with current tracking state (e.g., tracking/paused/stopped).</td></tr>
+    <tr><td>ArTrackable_getType</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle.</td></tr>
+    <tr><td>ArTrackable_getType</td><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Trackable to query.</td></tr>
+    <tr><td>ArTrackable_getType</td><td>out_trackable_type</td><td>ArTrackableType *</td><td>out</td><td>Filled with the concrete trackable type (plane/point/face/image/etc.).</td></tr>
+  </tbody>
+</table>

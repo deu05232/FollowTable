@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of Parameters for Resolving Cloud Anchor Pose</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>cloud_anchor_id</td><td>char *</td><td>Cloud anchor ID pointer</td></tr>
+  <tr><td>out_cloud_anchor</td><td>ArAnchor **</td><td>Pointer to an ArAnchor pointer, to receive the address of the newly allocated cloud anchor</td></tr>
+</table>

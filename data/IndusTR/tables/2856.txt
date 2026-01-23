@@ -1,0 +1,15 @@
+<table>
+  <caption>Laboratory Test Setup Requirements for Special-Area Passage Evaluation</caption>
+  <thead>
+    <tr><th>Item</th><th>Requirement</th><th>Tolerance</th><th>Measurement Tool</th><th>Calibration Interval</th><th>Record Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>20–26°C</td><td>±1°C</td><td>Thermohygrometer</td><td>6 months</td><td>ENV-TEMP-LOG</td></tr>
+    <tr><td>Relative humidity</td><td>30–70%</td><td>±5%</td><td>Thermohygrometer</td><td>6 months</td><td>ENV-RH-LOG</td></tr>
+    <tr><td>Illuminance at target</td><td>300–800 lx</td><td>±50 lx</td><td>Lux meter</td><td>12 months</td><td>LIGHT-LX-LOG</td></tr>
+    <tr><td>GNSS signal emulator</td><td>L1/L2 multi-constellation</td><td>CEP ≤ 0.2 m</td><td>RF signal generator</td><td>12 months</td><td>GNSS-EMUL-SET</td></tr>
+    <tr><td>CAN logging rate</td><td>≥ 100 Hz</td><td>±5 Hz</td><td>CAN analyzer</td><td>12 months</td><td>CAN-TRACE</td></tr>
+    <tr><td>Video timestamp sync</td><td>PTP IEEE 1588</td><td>≤ 5 ms</td><td>PTP grandmaster</td><td>12 months</td><td>SYNC-REPORT</td></tr>
+    <tr><td>Safety observer staffing</td><td>2 persons minimum</td><td>—</td><td>Checklist</td><td>Per test</td><td>SAFETY-CHK</td></tr>
+  </tbody>
+</table>

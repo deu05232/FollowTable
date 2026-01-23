@@ -1,0 +1,16 @@
+<table>
+  <caption>Public Security Video Segment Metadata — Field Definitions, Encoding, and Validation Rules</caption>
+  <thead>
+    <tr><th>Category</th><th>Serial No.</th><th>Field Name</th><th>Identifier</th><th>Representation Format</th><th>Validation / Constraint</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Identification</td><td>1</td><td>Video Segment Identifier</td><td>videoSegId</td><td>c41</td><td>Must be unique within one repository; pattern:[A-Z0-9]{41}</td><td>Identifier of a continuous video segment.</td></tr>
+    <tr><td>Collection</td><td>2</td><td>Video Segment Collection Method Code</td><td>videoCollectMethodCd</td><td>c1</td><td>Enumerated; values: 1=Realtime capture, 2=File import, 3=Transcoded extraction</td><td>How the segment was obtained.</td></tr>
+    <tr><td>Collection</td><td>3</td><td>Collection Location Type Code</td><td>collectLocationTypeCd</td><td>c3..7</td><td>Code length 3–7; must match configured code set for location type</td><td>Type of location where the video was collected (e.g., road, mall, station).</td></tr>
+    <tr><td>Time</td><td>4</td><td>Segment Start Date/Time</td><td>segStartDateTime</td><td>d18</td><td>Format:YYYYMMDDhhmmss(14 digits) orYYYYMMDDhhmmssSSSS(18 digits); must be ≤ end time</td><td>Start time of the segment.</td></tr>
+    <tr><td>Time</td><td>5</td><td>Segment End Date/Time</td><td>segEndDateTime</td><td>d18</td><td>Format same as start; must be ≥ start time</td><td>End time of the segment.</td></tr>
+    <tr><td>Media Encoding</td><td>6</td><td>Video Codec</td><td>videoCodec</td><td>c..20</td><td>Allowed: H.264, H.265, MPEG-4, AV1 (case-insensitive)</td><td>Compression codec used for the video stream.</td></tr>
+    <tr><td>Media Encoding</td><td>7</td><td>Frame Rate</td><td>frameRate</td><td>n5.2</td><td>Decimal; range: 0.10–240.00</td><td>Frames per second of the segment.</td></tr>
+    <tr><td>Media Encoding</td><td>8</td><td>Resolution</td><td>resolution</td><td>c..15</td><td>Pattern:\d{2,5}x\d{2,5}(e.g., 1920x1080)</td><td>Pixel dimensions of the video frames.</td></tr>
+  </tbody>
+</table>

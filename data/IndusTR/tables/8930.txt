@@ -1,0 +1,20 @@
+<table>
+  <caption>Production Counters and OEE-Oriented Runtime Signals for Knitting Machine (Data Definitions)</caption>
+  <thead>
+    <tr><th>Group</th><th>Index</th><th>Field</th><th>Field English Name</th><th>Access</th><th>Value Type</th><th>Unit</th><th>Description</th><th>Coded Values / Calculation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">State Flags</td><td>0x0320</td><td>Is Running</td><td>IsRunning</td><td>RO</td><td>Boolean</td><td>-</td><td>High when machine drive is actively knitting.</td><td>false=Not running; true=Running</td></tr>
+    <tr><td>0x0321</td><td>Is Faulted</td><td>IsFaulted</td><td>RO</td><td>Boolean</td><td>-</td><td>Indicates any active fault that prevents running.</td><td>true implies RunState=FaultStop or EmergencyStop</td></tr>
+    <tr><td>0x0322</td><td>Is Starved (No Material)</td><td>IsMaterialStarved</td><td>RO</td><td>Boolean</td><td>-</td><td>Machine is stopped due to yarn/material absence.</td><td>true when stop reason relates to material feed</td></tr>
+    <tr><td>0x0323</td><td>Operator Hold</td><td>OperatorHold</td><td>RO</td><td>Boolean</td><td>-</td><td>Operator-requested hold/pause during production.</td><td>true when pause initiated from HMI/remote hold</td></tr>
+    <tr><td rowspan="5">Time Accounting</td><td>0x0324</td><td>Shift Running Time</td><td>ShiftRunTime</td><td>RO</td><td>UInt32</td><td>min</td><td>Accumulated running time in current shift.</td><td>Reset at shift start / manual reset</td></tr>
+    <tr><td>0x0325</td><td>Shift Planned Stop Time</td><td>ShiftPlannedStopTime</td><td>RO</td><td>UInt32</td><td>min</td><td>Accumulated planned stop time (breaks, changeover).</td><td>Counts when RunState=Stopped AND StopReason in planned list</td></tr>
+    <tr><td>0x0326</td><td>Shift Unplanned Downtime</td><td>ShiftUnplannedDowntime</td><td>RO</td><td>UInt32</td><td>min</td><td>Accumulated unplanned downtime (faults, jams).</td><td>Counts when RunState in {FaultStop,EmergencyStop}</td></tr>
+    <tr><td>0x0327</td><td>Shift Idle Time</td><td>ShiftIdleTime</td><td>RO</td><td>UInt32</td><td>min</td><td>Accumulated time powered on but not running (excluding faults if desired).</td><td>Integrators may compute: PoweredOnTime - ShiftRunTime - ShiftUnplannedDowntime</td></tr>
+    <tr><td>0x0328</td><td>Powered-On Time (Shift)</td><td>ShiftPoweredOnTime</td><td>RO</td><td>UInt32</td><td>min</td><td>Total time the controller has been powered during the shift window.</td><td>Includes all states; used for utilization/OEE</td></tr>
+    <tr><td rowspan="3">Production Behavior</td><td>0x0329</td><td>Pieces Completed (Shift)</td><td>ShiftGoodPieces</td><td>RO</td><td>UInt32</td><td>pcs</td><td>Count of completed pieces/rolls marked as good during shift.</td><td>Increments on cycle end event when quality flag=Good</td></tr>
+    <tr><td>0x032A</td><td>Scrap Pieces (Shift)</td><td>ShiftScrapPieces</td><td>RO</td><td>UInt32</td><td>pcs</td><td>Count of completed pieces/rolls marked as scrap during shift.</td><td>Increments on cycle end event when quality flag=Scrap</td></tr>
+    <tr><td>0x032B</td><td>Current Piece State</td><td>CurrentPieceState</td><td>RO</td><td>UInt8 (enum)</td><td>-</td><td>State machine for the current piece lifecycle.</td><td>0=NotStarted; 1=InProgress; 2=Completed; 3=Rejected; 4=Aborted</td></tr>
+  </tbody>
+</table>

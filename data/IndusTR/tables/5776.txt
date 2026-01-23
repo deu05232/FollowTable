@@ -1,0 +1,10 @@
+<table>
+  <caption>Knitting equipment data dictionary — shift and cycle time metrics</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0310</td><td>Current Shift Running Time</td><td>CurrentShiftRunningTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Total running duration accumulated in the current shift</td><td></td></tr>
+  <tr><td>0X0311</td><td>Current Shift Downtime</td><td>CurrentShiftDowntime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Total paused duration accumulated in the current shift</td><td></td></tr>
+  <tr><td>0X0312</td><td>Last Cycle Time</td><td>LastCycleTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~3600</td><td>s</td><td>Elapsed time from the previous piece start to completion</td><td></td></tr>
+  <tr><td>0X0313</td><td>Last Stop Duration</td><td>LastStopDuration</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~3600</td><td>s</td><td>Duration of the most recent stop event during knitting</td><td></td></tr>
+  <tr><td>0X0314</td><td>Idle Time</td><td>IdleTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~86400</td><td>s</td><td>Time when the machine is powered but not knitting</td><td></td></tr>
+  <tr><td>0X0315</td><td>Warm-up Time</td><td>WarmupTime</td><td>0</td><td>VAR</td><td>RO</td><td>Int32</td><td>0~7200</td><td>s</td><td>Time spent in warm-up before entering normal knitting</td><td></td></tr>
+</table>

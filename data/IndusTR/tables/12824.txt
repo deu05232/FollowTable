@@ -1,0 +1,14 @@
+<table>
+  <caption>PDU Header Layout for Version Negotiation Frames (PF/PS/SA Focus)</caption>
+  <thead>
+    <tr><th>Frame Type</th><th>P (3b)</th><th>EDP (1b)</th><th>DP (1b)</th><th>PF (8b)</th><th>PS (8b)</th><th>SA (8b)</th><th>Data Field Length</th><th>Data Field Reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Charger to Vehicle: Version Negotiation Request</td><td>0x03</td><td>0</td><td>0</td><td>0x38</td><td>0xF4</td><td>0x56</td><td>8 bytes</td><td>See negotiation procedure text</td></tr>
+    <tr><td>Vehicle to Charger: Version Negotiation Response</td><td>0x03</td><td>0</td><td>0</td><td>0x39</td><td>0x56</td><td>0xF4</td><td>8 bytes</td><td>See negotiation procedure text</td></tr>
+    <tr><td>Charger to Vehicle: Acknowledgement</td><td>0x03</td><td>0</td><td>0</td><td>0x3A</td><td>0xF4</td><td>0x56</td><td>8 bytes</td><td>Not specified here</td></tr>
+    <tr><td>Vehicle to Charger: Retransmission</td><td>0x03</td><td>0</td><td>0</td><td>0x3B</td><td>0x56</td><td>0xF4</td><td>8 bytes</td><td>Not specified here</td></tr>
+    <tr><td>Broadcast: Capability Announcement</td><td>0x03</td><td>0</td><td>0</td><td>0x3C</td><td>0xFF</td><td>0x56</td><td>8 bytes</td><td>Not specified here</td></tr>
+    <tr><td>Diagnostics: Version Info Snapshot</td><td>0x03</td><td>0</td><td>0</td><td>0x3D</td><td>0xF4</td><td>0x56</td><td>8 bytes</td><td>Not specified here</td></tr>
+  </tbody>
+</table>

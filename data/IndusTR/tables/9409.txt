@@ -1,0 +1,19 @@
+<table>
+  <caption>CSDM Service Provider & Support Contact Data Elements</caption>
+  <thead>
+    <tr><th>Group</th><th>Element (English)</th><th>Model Path</th><th>Data Type / Format</th><th>Constraint (M/O)</th><th>Max Occurrences</th><th>Value Domain / Rules</th><th>Plain-Language Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Provider Organization</td><td>providerName</td><td>Service.ServiceProvider.organization.providerName</td><td>String (1..128)</td><td>Optional</td><td>1</td><td>Free text</td><td>Name of the organization responsible for providing the service.</td></tr>
+    <tr><td>providerLegalId</td><td>Service.ServiceProvider.organization.providerLegalId</td><td>String (8..32)</td><td>Optional</td><td>1</td><td>Alphanumeric; may map to a national/company identifier</td><td>Legal/registered identifier for the provider organization (used for audit and verification).</td></tr>
+    <tr><td>providerDepartment</td><td>Service.ServiceProvider.organization.providerDepartment</td><td>String (0..128)</td><td>Optional</td><td>1</td><td>Free text</td><td>The internal department accountable for the service.</td></tr>
+    <tr><td>providerUrl</td><td>Service.ServiceProvider.organization.providerUrl</td><td>URI</td><td>Optional</td><td>1</td><td>Must be a valid URL (https preferred)</td><td>Website or internal page describing the provider organization.</td></tr>
+    <tr><td rowspan="5">Primary Contact</td><td>contactName</td><td>Service.ServiceProvider.contact.primary.contactName</td><td>String (1..128)</td><td>Mandatory</td><td>1</td><td>Person name</td><td>Main person to reach regarding ownership and business questions.</td></tr>
+    <tr><td>contactEmail</td><td>Service.ServiceProvider.contact.primary.contactEmail</td><td>Email</td><td>Mandatory</td><td>1</td><td>RFC 5322-like; must contain '@'</td><td>Email address for contacting the service owner/support.</td></tr>
+    <tr><td>contactPhone</td><td>Service.ServiceProvider.contact.primary.contactPhone</td><td>String (0..32)</td><td>Optional</td><td>1</td><td>E.164 recommended:+{country}{number}</td><td>Phone number used for escalation or urgent communication.</td></tr>
+    <tr><td>contactRole</td><td>Service.ServiceProvider.contact.primary.contactRole</td><td>Enum</td><td>Optional</td><td>1</td><td>ServiceOwner, ProductOwner, Support, Security, Compliance</td><td>Role played by the contact in relation to the service.</td></tr>
+    <tr><td>supportHours</td><td>Service.ServiceProvider.contact.primary.supportHours</td><td>String (0..128)</td><td>Optional</td><td>1</td><td>e.g.,Mon-Fri 09:00-18:00 UTC+8</td><td>When the contact or support team is typically available.</td></tr>
+    <tr><td rowspan="2">Additional Contacts</td><td>additionalContact</td><td>Service.ServiceProvider.contact.additionalContact</td><td>Object</td><td>Optional</td><td>N</td><td>Each object must includecontactNameand one ofcontactEmail/contactPhone</td><td>Additional contacts for specialized topics (security, billing, operations).</td></tr>
+    <tr><td>contactTopic</td><td>Service.ServiceProvider.contact.additionalContact.topic</td><td>Enum</td><td>Optional</td><td>N</td><td>Security, Billing, Incident, Change, DataPrivacy</td><td>What the additional contact should be used for.</td></tr>
+  </tbody>
+</table>

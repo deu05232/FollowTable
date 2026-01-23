@@ -1,0 +1,76 @@
+<table>
+  <caption>Apex Rubber Production Line Speed and Compound Code Data Item Information Table</caption>
+  <tr><td>No.</td><td>Data Item Name</td><td>Data Item Meaning Description</td><td>Alias</td><td>Data Type</td><td>Length bit</td><td>Value Range</td><td>Value Meaning</td><td>Logical Relationship with Other Data Items</td></tr>
+  <tr><td>1</td><td>Production line speed setpoint (upper computer) production line speed set value</td><td>Production line speed set (upper computer) production line speed setting</td><td></td><td>FLOAT</td><td>32</td><td>3.0 m/min~15.0 m/min</td><td></td><td></td></tr>
+  <tr><td>2</td><td>Compound 1 code set value</td><td>Upper computer compound 1 code set value</td><td></td><td>STR</td><td>User-defined</td><td></td><td></td><td></td></tr>
+  <tr><td>3</td><td>Compound 1 code actual value (Compound 1 barcode scanner)</td><td>Compound 1 code actual value (Compound 1 barcode scanner detection)</td><td></td><td>STR</td><td>User-defined</td><td></td><td></td><td></td></tr>
+  <tr><td>4</td><td>Compound 2 code set value</td><td>Upper computer compound 2 code set value</td><td></td><td>STR</td><td>User-defined</td><td></td><td></td><td></td></tr>
+  <tr><td>5</td><td>Compound 2 code actual value (Compound 2 barcode scanner)</td><td>Compound 2 code actual value (Compound 2 barcode scanner detection)</td><td></td><td>STR</td><td>User-defined</td><td></td><td></td><td></td></tr>
+  <tr><td>6</td><td>Compound 3 code set value</td><td>Upper computer compound 3 code set value</td><td></td><td>STR</td><td>User-defined</td><td>SAC</td><td></td><td></td></tr>
+  <tr><td>7</td><td>Compound 3 code actual value (Compound 3 barcode scanner)</td><td>Compound 3 code actual value (Compound 3 barcode scanner detection)</td><td></td><td>STR</td><td>User-defined</td><td></td><td></td><td></td></tr>
+  <tr><td>8</td><td>Rubber sheet width set value</td><td>Upper computer rubber sheet width set value</td><td></td><td>FLOAT</td><td>32</td><td>30.0mm~150.0mm</td><td></td><td></td></tr>
+  <tr><td>9</td><td>Rubber sheet thickness set value</td><td>Upper computer rubber sheet thickness set value</td><td></td><td>FLOAT</td><td>32</td><td>10.0 mm~35.0mm</td><td></td><td></td></tr>
+  <tr><td>10</td><td>Extruder 1 speed actual value</td><td>Extruder 1 screw actual speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0 r/min~50.0r/min</td><td></td><td></td></tr>
+  <tr><td>11</td><td>Extruder 1 current actual value</td><td>Extruder 1 main motor actual current</td><td></td><td>FLOAT</td><td>32</td><td>0.0 A~139.0 A</td><td></td><td></td></tr>
+  <tr><td>12</td><td>Extruder 1 temperature control - barrel actual value</td><td>Extruder 1 temperature control measured temperature - barrel</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>13</td><td>Extruder 1 temperature control - screw actual value</td><td>Extruder 1 temperature control measured temperature - screw</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>14</td><td>Extruder 2 speed actual value</td><td>Extruder 2 screw actual speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0 r/min~40.0r/min</td><td></td><td></td></tr>
+  <tr><td>15</td><td>Extruder 2 current actual value</td><td>Extruder 2 main motor actual current</td><td></td><td>FLOAT</td><td>32</td><td>0.0 A～390.0 A</td><td></td><td></td></tr>
+  <tr><td>16</td><td>Extruder 2 temperature control - barrel actual value</td><td>Extruder 2 temperature control measured temperature - barrel</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99°℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>17</td><td>Extruder 2 temperature control - extrusion section actual value</td><td>Extruder 2 temperature control measured temperature - extrusion section</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99°℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>18</td><td>Extruder 2 temperature control - plasticizing section actual value</td><td>Extruder 2 temperature control measured temperature - plasticizing section</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>19</td><td>Extruder 3 speed actual value</td><td>Extruder 3 screw actual speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0 r/min~40.0 r/min</td><td></td><td></td></tr>
+  <tr><td>20</td><td>Extruder 3 current actual value</td><td>Extruder 3 main motor actual current</td><td></td><td>FLOAT</td><td>32</td><td>0.0A~390.0 A</td><td></td><td></td></tr>
+  <tr><td>21</td><td>Extruder 3 temperature control - barrel actual value</td><td>Extruder 3 temperature control measured temperature - barrel</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td></td><td></td></tr>
+  <tr><td>22</td><td>Extruder 3 temperature control - extrusion section actual value</td><td>Extruder 3 temperature control measured temperature - extrusion section</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>23</td><td>Extruder 3 temperature control - plasticizing section actual value</td><td>Extruder 3 temperature control measured temperature - plasticizing section</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>24</td><td>Extruder temperature control - die head 1 actual value</td><td>Extruder temperature control measured temperature - die head 1</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>25</td><td>Extruder temperature control - die head 2 actual value</td><td>Extruder 2 temperature control measured temperature - die head 2</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>26</td><td>Extruder temperature control - die head 3 actual value</td><td>Extruder temperature control measured temperature - die head 3</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99°℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>27</td><td>Extruder temperature control - die head 4 actual value</td><td>Extruder 2 temperature control measured temperature - die head 4</td><td></td><td>FLOAT</td><td>32</td><td>0℃~99℃</td><td>Actual process requirements</td><td></td></tr>
+  <tr><td>28</td><td>Extruded rubber strip temperature actual value</td><td>Extruded rubber strip temperature sensor</td><td></td><td>FLOAT</td><td>32</td><td>0℃~120℃</td><td></td><td></td></tr>
+  <tr><td>29</td><td>Post-cooling temperature actual value</td><td>Post-cooling temperature sensor</td><td></td><td>FLOAT</td><td>32</td><td>0℃~120°℃</td><td></td><td></td></tr>
+  <tr><td>30</td><td>Recipe name</td><td>Name of the recipe currently being produced</td><td></td><td>STR</td><td>User-defined</td><td></td><td></td><td></td></tr>
+  <tr><td>31</td><td>Recipe serial number</td><td>Recipe ID number</td><td></td><td>INT</td><td>16</td><td></td><td></td><td></td></tr>
+  <tr><td>32</td><td>Current inch size grade</td><td>Bead specification</td><td></td><td>FLOAT</td><td>32</td><td>16.5"~24.5"</td><td></td><td></td></tr>
+  <tr><td>33</td><td>Feeding rack position</td><td>Feeding rack working position</td><td></td><td>FLOAT</td><td>32</td><td>230.0mm～360.0mm</td><td></td><td></td></tr>
+  <tr><td>34</td><td>Cutter position</td><td>Cutter cut-off position</td><td></td><td>FLOAT</td><td>32</td><td>180.0 mm～200.0mm</td><td></td><td></td></tr>
+  <tr><td>35</td><td>Feeding rack speed</td><td>Feeding rack lifting/lowering speed</td><td></td><td>FLOAT</td><td>32</td><td>80.0 mm/s~200.0 mm/s</td><td></td><td></td></tr>
+  <tr><td>36</td><td>Cutter speed</td><td>Cutter cutting high speed</td><td></td><td>FLOAT</td><td>32</td><td>80 mm/s~150 mm/s</td><td></td><td></td></tr>
+  <tr><td>37</td><td>Cutter speed</td><td>Cutter cutting low speed</td><td></td><td>FLOAT</td><td>32</td><td>5.0 mm/s~20.0 mm/s</td><td></td><td></td></tr>
+  <tr><td>38</td><td>Conveyor feeding speed</td><td>Speed when the feeding rack conveyor feeds to a fixed length</td><td></td><td>FLOAT</td><td>32</td><td>100.0 mm/s~1 000.0 mm/s</td><td></td><td></td></tr>
+  <tr><td>39</td><td>Conveyor feeding speed</td><td>Speed of the front conveyor belt on the feeding rack conveying compound</td><td></td><td>FLOAT</td><td>32</td><td>100.0 mm/s~1 000.0 mm/s</td><td></td><td></td></tr>
+  <tr><td>40</td><td>Building drum position</td><td>Building drum position after one wrap is completed</td><td></td><td>FLOAT</td><td>32</td><td>365.0°~380.0°</td><td></td><td></td></tr>
+  <tr><td>41</td><td>Building drum position</td><td>Building drum repeated rolling position; building drum joint pressing position</td><td></td><td>FLOAT</td><td>32</td><td>350.0°~375.0°</td><td></td><td></td></tr>
+  <tr><td>42</td><td>Building drum position</td><td>Building drum turn-up position</td><td></td><td>FLOAT</td><td>32</td><td>375.0°～460.0°</td><td></td><td></td></tr>
+  <tr><td>43</td><td>Stitching pressure roller position</td><td>Stitching pressure roller waiting position; stitching pressure roller pressing position</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm~250.0mm</td><td></td><td></td></tr>
+  <tr><td>44</td><td>Bead ring bracket position</td><td>Bead ring bracket ring-pick position</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm~300.0 mm</td><td></td><td></td></tr>
+  <tr><td>45</td><td>Bead ring bracket position</td><td>Bead ring bracket waiting position</td><td></td><td>FLOAT</td><td>32</td><td>400.0 mm~700.0mm</td><td></td><td></td></tr>
+  <tr><td>46</td><td>Bead ring bracket position</td><td>Bead ring bracket fitting position</td><td></td><td>FLOAT</td><td>32</td><td>850.0 mm~900.0mm</td><td></td><td></td></tr>
+  <tr><td>47</td><td>Lamination disc position</td><td>Lamination disc rotation end position</td><td></td><td>FLOAT</td><td>32</td><td>360.0°~370.0°</td><td></td><td></td></tr>
+  <tr><td>48</td><td>Lamination disc position</td><td>Lamination disc return position</td><td></td><td>FLOAT</td><td>32</td><td>0.0°</td><td></td><td></td></tr>
+  <tr><td>49</td><td>Root pressure roller position</td><td>Root pressure roller working position</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm~400.0 mm</td><td></td><td></td></tr>
+  <tr><td>50</td><td>Root pressure roller position</td><td>Root pressure roller return position</td><td></td><td>FLOAT</td><td>32</td><td>0.0mm</td><td></td><td></td></tr>
+  <tr><td>51</td><td>Building drum winding speed</td><td>Building drum winding high speed</td><td></td><td>FLOAT</td><td>32</td><td>150.0°/s~400.0°/s</td><td></td><td></td></tr>
+  <tr><td>52</td><td>Building drum winding speed</td><td>Building drum winding low speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0°/s~140°/s</td><td></td><td></td></tr>
+  <tr><td>53</td><td>Stitching pressure roller speed</td><td>Stitching pressure roller lifting/lowering speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm/s~400 mm/s</td><td></td><td></td></tr>
+  <tr><td>54</td><td>Bead ring bracket speed</td><td>Bead ring bracket movement speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm/s~600 mm/s</td><td></td><td></td></tr>
+  <tr><td>55</td><td>Lamination disc speed</td><td>Lamination disc rotation speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0°/s~400.0°/s</td><td></td><td></td></tr>
+  <tr><td>56</td><td>Root pressure roller speed</td><td>Root pressure roller movement speed</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm/s~300.0 mm/s</td><td></td><td></td></tr>
+  <tr><td>57</td><td>Bead supply X-axis position</td><td>Bead supply X-axis ring-grab position</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm~1 700.0 mm</td><td></td><td></td></tr>
+  <tr><td>58</td><td>Bead supply X-axis position</td><td>Bead supply X-axis waiting position</td><td></td><td>FLOAT</td><td>32</td><td>1 800.0 mm～1950.0 mm</td><td></td><td></td></tr>
+  <tr><td>59</td><td>Bead supply X-axis bead-loading position</td><td>Bead supply X-axis bead-loading position</td><td></td><td>FLOAT</td><td>32</td><td>2 000.0 mm~2 200.0 mm</td><td></td><td></td></tr>
+  <tr><td>60</td><td>Bead supply Y-axis position</td><td>Bead supply Y-axis ring-grab position</td><td></td><td>FLOAT</td><td>32</td><td>260.0 mm～420.0 mm</td><td></td><td></td></tr>
+  <tr><td>61</td><td>Bead supply Y-axis position</td><td>Bead supply Y-axis waiting position</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm~80.0 mm</td><td></td><td></td></tr>
+  <tr><td>62</td><td>Bead supply Y-axis position</td><td>Bead supply Y-axis bead-loading position</td><td></td><td>FLOAT</td><td>32</td><td>0.0 mm~200.0mm</td><td></td><td></td></tr>
+  <tr><td>63</td><td>Bead supply X-axis movement speed</td><td>Bead supply X-axis movement speed</td><td></td><td>FLOAT</td><td>32</td><td>200.0 mm~800.0 mm/s</td><td></td><td></td></tr>
+  <tr><td>64</td><td>Bead supply Y-axis movement speed</td><td>Bead supply Y-axis movement speed</td><td></td><td>FLOAT</td><td>32</td><td>100.0 mm/s~400.0 mm/s</td><td></td><td></td></tr>
+  <tr><td>65</td><td>Swing cylinder proportional valve set value</td><td>Building drum winding pressure head</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar～5 bar</td><td></td></tr>
+  <tr><td>66</td><td>Swing cylinder proportional valve set value</td><td>Building drum winding process</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar～5 bar</td><td></td></tr>
+  <tr><td>67</td><td>Swing cylinder proportional valve set value</td><td>Building drum winding joint</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar~5 bar</td><td></td></tr>
+  <tr><td>68</td><td>Swing cylinder proportional valve building drum winding repeat set value</td><td>Swing cylinder proportional valve building drum winding repeated rolling</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar～5 bar</td><td></td></tr>
+  <tr><td>69</td><td>Multi-layer calendering proportional valve set value</td><td>Building drum winding pressure head</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar～5 bar</td><td></td></tr>
+  <tr><td>70</td><td>Multi-layer calendering proportional valve set value</td><td>Building drum winding process</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar～5 bar</td><td></td></tr>
+  <tr><td>71</td><td>Multi-layer calendering proportional valve set value</td><td>Building drum winding joint</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar～5 bar</td><td></td></tr>
+  <tr><td>72</td><td>Multi-layer calendering proportional valve building drum winding repeat set value</td><td>Multi-layer calendering proportional valve building drum winding repeated rolling</td><td></td><td>FLOAT</td><td>32</td><td>0%~100%</td><td>O bar～5 bar</td><td></td></tr>
+</table>

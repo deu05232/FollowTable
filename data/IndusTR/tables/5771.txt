@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting Time Metrics with Machine Model and Defect Codes (Not Time-Only)</caption>
+  <thead>
+    <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Access Permission</th><th>Data Type</th><th>Engineering Unit</th><th>Attribute Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x0330</td><td>Downtime</td><td>Downtime</td><td>O</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed paused time during knitting for the current piece</td></tr>
+    <tr><td>0x0331</td><td>Running Time</td><td>RunningTime</td><td>O</td><td>RO</td><td>Int32</td><td>min</td><td>Elapsed running time while knitting</td></tr>
+    <tr><td>0x0102</td><td>Machine Model</td><td>MachineType</td><td>M</td><td>RO</td><td>String</td><td>-</td><td>Machine model identifier used for capability mapping</td></tr>
+    <tr><td>0x0103</td><td>Nominal Width</td><td>NominalWidth</td><td>M</td><td>RO</td><td>Int32</td><td>mm</td><td>Nominal working width of the machine</td></tr>
+    <tr><td>0x0B10</td><td>Dropped Stitch</td><td>DroppedStitch</td><td>O</td><td>RO</td><td>Int32</td><td>-</td><td>Defect counter/state for unexpected unlooping of a stitch</td></tr>
+    <tr><td>0x0B11</td><td>Defective Plating</td><td>DefectivePlating</td><td>O</td><td>RO</td><td>Int32</td><td>-</td><td>Defect state when ground-yarn loops appear on the front side</td></tr>
+    <tr><td>0x0332</td><td>Start-to-Stable Time</td><td>StartToStableTime</td><td>O</td><td>RO</td><td>Int32</td><td>s</td><td>Elapsed time from start command to stable knitting speed</td></tr>
+  </tbody>
+</table>

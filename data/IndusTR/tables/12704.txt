@@ -1,0 +1,12 @@
+<table>
+  <caption>AQL-Based Incoming Inspection Matrix for Synthesized Frequency Sources (MIL-Style Acceptance)</caption>
+  <tr><th rowspan="2">Inspection Class</th><th rowspan="2">Test Item</th><th rowspan="2">Operating / Environmental Conditions</th><th rowspan="2">Post-Test Requirement</th><th colspan="3">Acceptance Metrics</th></tr>
+  <tr><th>AQL</th><th>LTPD</th><th>Inspection Level (IL)</th></tr>
+  <tr><td>Visual / Mechanical</td><td>External visual inspection</td><td>23±5°C; 10× magnification</td><td>No cracks, dents, loose hardware</td><td>0.65</td><td>2.5</td><td>II</td></tr>
+  <tr><td>Visual / Mechanical</td><td>Dimensions / outline</td><td>Caliper ±0.02 mm; drawing Rev C</td><td>Within drawing tolerance</td><td>1.0</td><td>4.0</td><td>II</td></tr>
+  <tr><td>Electrical</td><td>Output power level</td><td>50 Ω load; 25°C; warm-up 20 min</td><td>+7 dBm ±1 dB</td><td>0.65</td><td>2.5</td><td>III</td></tr>
+  <tr><td>Electrical</td><td>Harmonic content</td><td>Carrier 100 MHz; measure to 1 GHz</td><td>2nd/3rd harmonics ≤ -30 dBc</td><td>1.5</td><td>6.5</td><td>III</td></tr>
+  <tr><td>Electrical</td><td>Frequency switching time</td><td>Step 10 MHz → 100 MHz; trigger oscilloscope</td><td>Settling ≤ 5 ms</td><td>1.0</td><td>4.0</td><td>II</td></tr>
+  <tr><td>Environmental / Electrical</td><td>Power supply variation</td><td>Vcc ±10%; ripple 50 mVpp</td><td>No unlock; deviation ≤ ±2 ppm</td><td>2.5</td><td>10</td><td>I</td></tr>
+  <tr><td>Electrical</td><td>Reference input sensitivity (if applicable)</td><td>10 MHz sine; -5 to +10 dBm sweep</td><td>Locks across stated range</td><td>1.5</td><td>6.5</td><td>II</td></tr>
+</table>

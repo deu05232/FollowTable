@@ -1,0 +1,14 @@
+<table>
+  <caption>Security Audit Checklist for Logistics M2M Platform (Compliance Controls)</caption>
+  <thead>
+    <tr><th>Control ID</th><th>Control Area</th><th>Requirement</th><th>Evidence Type</th><th>Owner</th><th>Review Cycle</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SEC-01</td><td>Access Control</td><td>MFA required for admin accounts</td><td>IAM policy export</td><td>Security</td><td>Quarterly</td></tr>
+    <tr><td>SEC-02</td><td>Logging</td><td>Centralized immutable audit logs</td><td>SIEM report</td><td>Platform Ops</td><td>Monthly</td></tr>
+    <tr><td>SEC-03</td><td>Encryption</td><td>TLS 1.2+ for device links</td><td>Certificate inventory</td><td>Security</td><td>Quarterly</td></tr>
+    <tr><td>SEC-04</td><td>Vulnerability Mgmt</td><td>Critical patches within 7 days</td><td>Patch dashboard</td><td>IT</td><td>Monthly</td></tr>
+    <tr><td>SEC-05</td><td>Data Privacy</td><td>PII masking in exports</td><td>DLP scan results</td><td>Data Gov</td><td>Semiannual</td></tr>
+    <tr><td>SEC-06</td><td>Incident Response</td><td>Run tabletop exercise</td><td>IR exercise record</td><td>Security</td><td>Annual</td></tr>
+  </tbody>
+</table>

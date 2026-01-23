@@ -1,0 +1,6 @@
+<table>
+  <caption>Message Categories and Attributes in the Charging End Stage</caption>
+  <tr><td>Message Code</td><td>Message Name</td><td>PGN (Dec)</td><td>PGN (Hex)</td><td>Priority</td><td>Data Length (BYTE)</td><td>Message Period (ms)</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>BSD</td><td>Vehicle Statistical Data Message</td><td>7168</td><td>001C00H</td><td>6</td><td>7</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CSD</td><td>Charger Statistical Data Message</td><td>7424</td><td>001D00H</td><td>6</td><td>8</td><td>250</td><td>Charger - Vehicle</td></tr>
+</table>

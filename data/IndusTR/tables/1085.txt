@@ -1,0 +1,37 @@
+<table>
+  <caption>Mongolian Encoding System U+1858 Letter GGA Mandatory Ligature Conversion Rules</caption>
+  <tr><td rowspan="2">Position in Word</td><td colspan="3">Presentation Form</td><td colspan="2" rowspan="2">Conversion Rules</td></tr>
+  <tr><td>No.</td><td>ID</td><td>Glyph</td></tr>
+  <tr><td rowspan="9">Isolated</td><td rowspan="2">1</td><td rowspan="2">0169</td><td rowspan="2">3</td><td>1</td><td>[WB]+[U+1858]+[U+1820|U+1821]+[WB]</td></tr>
+  <tr><td>②</td><td>[WB]+[U+1858]+[U+1820|U+1821]+[FVS1]+[WB]</td></tr>
+  <tr><td>2</td><td>011C</td><td>宁</td><td>1</td><td>[WB]+[U+1858]+[U+1822]+[WB]</td></tr>
+  <tr><td rowspan="3">3</td><td rowspan="3">016B</td><td rowspan="3">回</td><td>1</td><td>[WB]+[U+1858]+[U+1823|U+1824]+[WB]</td></tr>
+  <tr><td>②</td><td>[WB]+[U+1858]+[U+1823|U+1824]+[FVS1]+[WB]</td></tr>
+  <tr><td>③</td><td>[WB]+[U+1858]+[U+1825|U+1826]+[FVS2]+[WB]</td></tr>
+  <tr><td rowspan="2">4</td><td rowspan="2">01C5</td><td rowspan="2"></td><td>①</td><td>[WB]+[U+1858]+[U+1825|U+1826]+[WB]</td></tr>
+  <tr><td>②</td><td>[WB]+[U+1858]+[U+1825|U+1826]+[FVS1]+[WB]</td></tr>
+  <tr><td>5</td><td>01C7</td><td>宁</td><td>1</td><td>[WB]+[U+1858]+[U+1827]+[WB]</td></tr>
+  <tr><td rowspan="8">Word-initial</td><td>1</td><td>0168</td><td>?</td><td>1</td><td>[U+1858]+[U+1820|U+1821]+[ExtMCS]</td></tr>
+  <tr><td rowspan="2">2</td><td rowspan="2">01C2</td><td rowspan="2">尔</td><td>①</td><td>[U+1858]+[U+1822]+[ExtMCS]</td></tr>
+  <tr><td>②</td><td>[U+1858]+[U+1822]+[FVS3]+[ExtMCS]</td></tr>
+  <tr><td rowspan="2">3</td><td rowspan="2">016B</td><td rowspan="2">回</td><td>1</td><td>[U+1858]+[U+1823|U+1824]+[ExtMCS]</td></tr>
+  <tr><td>②</td><td>[U+1858]+[U+1825|U+1826]+[FVS3]+[ExtMCS]</td></tr>
+  <tr><td rowspan="2">4</td><td rowspan="2">01C4</td><td rowspan="2">印</td><td>①</td><td>[U+1858]+[U+1825|U+1826]+[ExtMCS]</td></tr>
+  <tr><td>②</td><td>[U+1858]+[U+1825|U+1826]+[FVS1]+[ExtMCS]</td></tr>
+  <tr><td>5</td><td>01C6</td><td>R</td><td>1</td><td>[U+1858]+[U+1827]+[ExtMCS]</td></tr>
+  <tr><td rowspan="7">Word-medial</td><td>1</td><td>0168</td><td>?</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1820|U+1821]+[ExtMCS]</td></tr>
+  <tr><td rowspan="2">2</td><td rowspan="2">01C2</td><td rowspan="2">尔</td><td>①</td><td>[ExtMCS]+[U+1858]+[U+1822]+[ExtMCS]</td></tr>
+  <tr><td>②</td><td>[ExtMCS]+[U+1858]+[U+1822]+[FVS3]+[ExtMCS]</td></tr>
+  <tr><td rowspan="2">3</td><td rowspan="2">016B</td><td rowspan="2">回</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1823|U+1824|U+1825|U+1826]+[ExtMCS]</td></tr>
+  <tr><td>②</td><td>[ExtMCS]+[U+1858]+[U+1825|U+1826]+[FVS3]+[ExtMCS]</td></tr>
+  <tr><td>4</td><td>01C4</td><td>印</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1825|U+1826]+[FVS1]+[ExtMCS]</td></tr>
+  <tr><td>5</td><td>01C6</td><td>尔</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1827]+[ExtMCS]</td></tr>
+  <tr><td rowspan="8">Word-final</td><td rowspan="2">1</td><td rowspan="2">0169</td><td rowspan="2">3</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1820|U+1821]+[WB]</td></tr>
+  <tr><td>②</td><td>[ExtMCS]+[U+1858]+[U+1820|U+1821]+[FVS1]+[WB]</td></tr>
+  <tr><td>2</td><td>01C3</td><td>宁</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1822]+[WB]</td></tr>
+  <tr><td rowspan="3">3</td><td rowspan="3">016B</td><td rowspan="3">向</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1823|U+1824|U+1825|U+1826]+[WB]</td></tr>
+  <tr><td>②</td><td>[ExtMCS]+[U+1858]+[U+1823|U+1824]+[FVS1]+[WB]</td></tr>
+  <tr><td>③</td><td>[ExtMCS]+[U+1858]+[U+1825|U+1826]+[FVS2]+[WB]</td></tr>
+  <tr><td>4</td><td>01C5</td><td></td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1825|U+1826]+[FVS1]+[WB]</td></tr>
+  <tr><td>5</td><td>01C7</td><td>宁</td><td>1</td><td>[ExtMCS]+[U+1858]+[U+1827]+[WB]</td></tr>
+</table>

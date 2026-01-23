@@ -1,0 +1,10 @@
+<table>
+  <caption>Communication Protocol Conformance Test Case Index (Fieldbus Industrial Ethernet)</caption>
+  <tr><th>Protocol</th><th>Test Case ID</th><th>Objective</th><th>Tool</th><th>Pass Criteria</th><th>Reference</th></tr>
+  <tr><td>HART</td><td>HART-TC-01</td><td>Command response timing</td><td>HART modem + analyzer</td><td>< 300 ms</td><td>IEC 61158 annex</td></tr>
+  <tr><td>Modbus RTU</td><td>MBR-TC-07</td><td>CRC error handling</td><td>Serial bus sniffer</td><td>No undefined exception</td><td>Modbus App Protocol</td></tr>
+  <tr><td>PROFINET</td><td>PN-TC-12</td><td>Device discovery (DCP)</td><td>PNIO test suite</td><td>100% discovery success</td><td>PI Test Spec</td></tr>
+  <tr><td>EtherNet/IP</td><td>EIP-TC-05</td><td>CIP identity object</td><td>ODVA CT tool</td><td>All attributes readable</td><td>ODVA Vol.2</td></tr>
+  <tr><td>Foundation Fieldbus</td><td>FF-TC-09</td><td>Link active scheduler behavior</td><td>FF configuration tool</td><td>No schedule violation</td><td>IEC 61158</td></tr>
+  <tr><td>OPC UA</td><td>OPCUA-TC-03</td><td>Security policy negotiation</td><td>OPC UA CTT</td><td>No downgrade allowed</td><td>OPC UA Part 7</td></tr>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Video Stream Capture Context (Channel-Level) Data Items</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  <tr><td>1</td><td>Video Channel Identifier</td><td>spddbzh</td><td>c20</td><td>Unique identifier of the video capture channel</td><td></td></tr>
+  <tr><td>2</td><td>Collection Method Code</td><td>cjfsdm</td><td>c1</td><td>Code for the capture/collection method</td><td></td></tr>
+  <tr><td>3</td><td>Collection Location Type Code</td><td>cjwzlxdm</td><td>c3..7</td><td>Type of capture location (e.g., indoor/outdoor/vehicle-mounted)</td><td></td></tr>
+  <tr><td>4</td><td>Administrative Division Code</td><td>xzqhdm</td><td>c6</td><td>Administrative division of the installation location</td><td></td></tr>
+  <tr><td>5</td><td>Latitude</td><td>wd</td><td>n..10,6</td><td>Latitude of the capture location</td><td></td></tr>
+  <tr><td>6</td><td>Longitude</td><td>jd</td><td>n..10,6</td><td>Longitude of the capture location</td><td></td></tr>
+  <tr><td>7</td><td>Start Capture Time</td><td>kscjsj</td><td>d18</td><td>Start time for continuous capture</td><td></td></tr>
+</table>

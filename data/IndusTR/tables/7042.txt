@@ -1,0 +1,15 @@
+<table>
+  <caption>GLONASS SSR Timing and Metadata Fields for Phase-Bias Messages</caption>
+  <thead>
+    <tr><th>Category</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td><td>SSR message identifier</td></tr>
+    <tr><td>Timing</td><td>GLONASS Epoch Time (TOW)</td><td>DF386</td><td>uint17</td><td>17</td><td>Epoch reference for the block</td></tr>
+    <tr><td>Timing</td><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Update interval index</td></tr>
+    <tr><td>Status</td><td>Multiple Message Indicator</td><td>DF393</td><td>uint1</td><td>1</td><td>Continuation flag</td></tr>
+    <tr><td>Status</td><td>SSR Provider ID</td><td>DF414</td><td>uint16</td><td>16</td><td>Network/provider identifier</td></tr>
+    <tr><td>Status</td><td>SSR Solution ID</td><td>DF415</td><td>uint4</td><td>4</td><td>Solution identifier</td></tr>
+    <tr><td>Reference</td><td>IOD SSR</td><td>DF413</td><td>uint4</td><td>4</td><td>Issue of data for SSR</td></tr>
+  </tbody>
+</table>

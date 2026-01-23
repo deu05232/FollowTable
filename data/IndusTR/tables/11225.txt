@@ -1,0 +1,15 @@
+<table>
+  <caption>Influence Quantity Tests: Change in Error (Including Harmonic Power Factor Column)</caption>
+  <thead>
+    <tr><th rowspan="2">Influence quantity</th><th rowspan="2">Test condition</th><th colspan="2">Current setting</th><th rowspan="2">Harmonic power factor (cosΦ)</th><th colspan="3">Limits (%) for change in error (Class)</th></tr>
+    <tr><th>Direct</th><th>Transformer</th><th>1</th><th>2</th><th>5</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fundamental frequency variation</td><td>47 Hz to 53 Hz</td><td>4 Iref</td><td>4 Iref</td><td>1.0</td><td>2.0</td><td>1.0</td><td>0.7</td></tr>
+    <tr><td>Voltage variation</td><td>0.9 Un to 1.1 Un</td><td>Iref</td><td>Iref</td><td>1.0</td><td>1.5</td><td>0.9</td><td>0.6</td></tr>
+    <tr><td>Phase angle displacement</td><td>±5° at PF=0.5 lag</td><td>Iref</td><td>Iref</td><td>0.5 lag</td><td>2.5</td><td>1.5</td><td>1.0</td></tr>
+    <tr><td>Reverse phase sequence</td><td>Swap L1/L2</td><td>Iref</td><td>Iref</td><td>1.0</td><td>2.0</td><td>1.5</td><td>1.5</td></tr>
+    <tr><td>DC component in current</td><td>0.5% of Iref</td><td>Iref</td><td>Iref</td><td>1.0</td><td>1.0</td><td>0.6</td><td>0.4</td></tr>
+    <tr><td>Magnetic field immunity</td><td>30 A/m external field</td><td>Iref</td><td>Iref</td><td>1.0</td><td>2.0</td><td>1.2</td><td>0.8</td></tr>
+  </tbody>
+</table>

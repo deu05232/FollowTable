@@ -1,0 +1,18 @@
+<table>
+  <caption>Parameter settings for the EUV mask simulations (compare Fig. LABEL:schematics_euv ) Mask geometry parameters (layer heights h x , sidewall angle α , corner rounding radius R ), material parameters (real and imaginary parts of the refractive index, n and k ), illumination parameters (in-plane angle of incidence, vacuum wavelength).</caption>
+  <tr><th>material</th><th>height</th><th>n</th><th>k</th><th></th></tr>
+  <tr><th>air</th><th></th><td>1</td><td>0</td><td></td></tr>
+  <tr><th>absorber</th><th>h_(a)=40\, nm</th><td>0.93368</td><td>0.03791</td><td>α=85\, deg, R=5\, nm</td></tr>
+  <tr><th>buffer</th><th>h_(b)=20\, nm</th><td>0.97468</td><td>0.01261</td><td>α=85\, deg</td></tr>
+  <tr><th>oxide</th><th>h_(ox)=1.1\, nm</th><td>0.97468</td><td>0.01261</td><td></td></tr>
+  <tr><th>capping</th><th>h_(cap)=11.5\, nm</th><td>1.00024</td><td>0.00182</td><td></td></tr>
+  <tr><th>multi-layer (Mo)</th><th>h_(mo)=2.42\, nm</th><td>0.92373</td><td>0.0061</td><td>60 layers</td></tr>
+  <tr><th>multi-layer (Si)</th><th>h_(si)=4.48\, nm</th><td>1.00024</td><td>0.00182</td><td>60 layers</td></tr>
+  <tr><th>substrate</th><th></th><td>0.97908</td><td>0</td><td></td></tr>
+  <tr><th>lateral dimensions</th><th>CD_(bottom,x)</th><td colspan="3">88 nm</td></tr>
+  <tr><th></th><th>CD_(bottom,y)</th><td colspan="3">110 nm</td></tr>
+  <tr><th></th><th>p_(x)</th><td colspan="3">176 nm</td></tr>
+  <tr><th></th><th>p_(y)</th><td colspan="3">176 nm</td></tr>
+  <tr><th>illumination</th><th>angle of incidence</th><td colspan="3">_()=4\, deg</td></tr>
+  <tr><th></th><th>wavelength</th><td colspan="3">λ_(0)=13.4\, nm</td></tr>
+</table>

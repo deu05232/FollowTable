@@ -1,0 +1,14 @@
+<table>
+  <caption>Mass model and halo/bulge/disk parameters adopted for an Andromeda (M31) dynamical fit.</caption>
+  <tr><th>Component</th><th>Parameter</th><th>Symbol</th><th>Value</th><th>Unit</th><th>Prior/Method</th></tr>
+  <tr><th rowspan="4">Dark matter halo</th><td>Virial mass</td><td>M200</td><td>1.5</td><td>10^12 Msun</td><td>Rotation-curve fit</td></tr>
+  <tr><td>Concentration</td><td>c</td><td>11.8</td><td>-</td><td>LCDM prior</td></tr>
+  <tr><td>Virial radius</td><td>R200</td><td>260</td><td>kpc</td><td>Derived from M200</td></tr>
+  <tr><td>Scale radius</td><td>rs</td><td>22</td><td>kpc</td><td>rs = R200/c</td></tr>
+  <tr><th rowspan="3">Stellar disk</th><td>Disk mass</td><td>Md</td><td>7.0</td><td>10^10 Msun</td><td>Photometry + M/L</td></tr>
+  <tr><td>Scale length</td><td>Rd</td><td>5.3</td><td>kpc</td><td>Exponential disk</td></tr>
+  <tr><td>Scale height</td><td>zd</td><td>0.7</td><td>kpc</td><td>Assumed</td></tr>
+  <tr><th rowspan="3">Bulge</th><td>Bulge mass</td><td>Mb</td><td>3.2</td><td>10^10 Msun</td><td>Sersic fit</td></tr>
+  <tr><td>Sersic index</td><td>n</td><td>2.2</td><td>-</td><td>Assumed</td></tr>
+  <tr><td>Effective radius</td><td>Re</td><td>1.0</td><td>kpc</td><td>Photometry</td></tr>
+</table>

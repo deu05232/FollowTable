@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameter Definitions for PGI 0x02 Vehicle Confirmation Result Message (Application Layer Payload)</caption>
+  <thead>
+    <tr><th>Seq. No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x02</td></tr>
+    <tr><td>2</td><td>Confirmation Code</td><td>1 byte</td><td>BYTE</td><td>ConfirmCodeType</td><td>Vehicle confirmation result: 0x00: Rejected; 0x01: Accepted; 0x02: Accepted with limitations; 0xFF: Not available</td></tr>
+    <tr><td>3</td><td>Rejection/Limit Reason</td><td>2 bytes</td><td>UINT16</td><td>ReasonCodeType</td><td>When Confirmation Code != 0x01, provides a reason code (bit/enum map defined by profile); otherwise set to 0x0000</td></tr>
+    <tr><td>4</td><td>Echoed Sequence Counter</td><td>1 byte</td><td>BYTE</td><td>SeqCounterType</td><td>Echo of the Sequence Counter from the corresponding Phase Request to bind response to request</td></tr>
+    <tr><td>5</td><td>Vehicle State Flags</td><td>1 byte</td><td>BITFIELD8</td><td>VehStateFlagsType</td><td>Bit0: Ready; Bit1: HVIL OK; Bit2: Isolation OK; Bit3: Contactor Closed; Bit4..Bit7: Reserved (0)</td></tr>
+    <tr><td>6</td><td>CRC8</td><td>1 byte</td><td>UINT8</td><td>Crc8Type</td><td>CRC over bytes 1..5 of the payload</td></tr>
+  </tbody>
+</table>

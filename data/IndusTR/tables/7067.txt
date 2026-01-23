@@ -1,0 +1,20 @@
+<table>
+  <caption>RSU Infrastructure Data Fields for Cooperative Driving Synchronization</caption>
+  <thead>
+    <tr><th>Category</th><th>Field Name</th><th>Description</th><th>Unit/Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">RSU Identification</td><td>RSU_ID</td><td>Unique identifier of the roadside unit</td><td>string / integer</td></tr>
+    <tr><td>RSU_Serial_Number</td><td>Manufacturer serial number of the RSU</td><td>string</td></tr>
+    <tr><td>RSU_Station_Type</td><td>Infrastructure station type (e.g., intersection RSU, highway gantry)</td><td>enum</td></tr>
+    <tr><td>RSU_Network_Address</td><td>Backhaul address for infrastructure communications</td><td>IPv4/IPv6</td></tr>
+    <tr><td rowspan="5">Geographic Anchor</td><td>RSU_Reference_Latitude</td><td>Latitude of RSU reference position (WGS-84)</td><td>degrees</td></tr>
+    <tr><td>RSU_Reference_Longitude</td><td>Longitude of RSU reference position (WGS-84)</td><td>degrees</td></tr>
+    <tr><td>RSU_Reference_Altitude</td><td>Altitude of RSU reference position</td><td>m</td></tr>
+    <tr><td>RSU_Ref_Position_Accuracy</td><td>Estimated horizontal accuracy of the reference position</td><td>m</td></tr>
+    <tr><td>RSU_Mounting_Orientation</td><td>RSU mounting heading/orientation relative to north</td><td>degrees</td></tr>
+    <tr><td rowspan="3">Time / Synchronization</td><td>Timestamp_UTC</td><td>Message generation time in UTC</td><td>ISO-8601</td></tr>
+    <tr><td>Time_Source</td><td>Time source used for synchronization (GNSS/PTP/NTP)</td><td>enum</td></tr>
+    <tr><td>Clock_Quality</td><td>Clock quality/uncertainty reported by RSU</td><td>ns or quality class</td></tr>
+  </tbody>
+</table>

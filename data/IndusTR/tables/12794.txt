@@ -1,0 +1,14 @@
+<table>
+  <caption>User Terminal Application File - Multicast/Broadcast Key Mapping and Rekey Policy</caption>
+  <thead>
+    <tr><th>Group Type</th><th>Group Identifier</th><th>KeyID</th><th>Key Index</th><th>Status</th><th>Rekey Window (s)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Multicast</td><td>Multicast ID1</td><td>1</td><td>6</td><td>In use</td><td>3600</td><td>Multicast ID1 bound to sub-key slot 1</td></tr>
+    <tr><td>Multicast ID2</td><td>2</td><td>6</td><td>Reclaimed</td><td>0</td><td>Multicast ID2 disabled; key material must be cleared</td></tr>
+    <tr><td>Multicast ID3</td><td>3</td><td>6</td><td>In use</td><td>7200</td><td>Multicast ID3 bound to sub-key slot 3</td></tr>
+    <tr><td rowspan="3">Broadcast</td><td>Broadcast ID1</td><td>17</td><td>6</td><td>In use</td><td>1800</td><td>Group broadcast identifier with active broadcast key</td></tr>
+    <tr><td>Broadcast ID2</td><td>18</td><td>6</td><td>In use</td><td>1800</td><td>Management-terminal broadcast identifier with separate key</td></tr>
+    <tr><td>Broadcast ID3</td><td>19</td><td>6</td><td>Suspended</td><td>600</td><td>Broadcast group temporarily suspended pending rekey</td></tr>
+  </tbody>
+</table>

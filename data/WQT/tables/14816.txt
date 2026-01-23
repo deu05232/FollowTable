@@ -1,0 +1,12 @@
+# Outlook.com (Hotmail) Troubleshooting Checklist for POP IMAP SMTP (Symptoms and Fixes Only)
+
+| Problem symptom | Likely cause | What to try | Where in client |
+| --- | --- | --- | --- |
+| Cannot send mail | SMTP auth disabled | Enable "My outgoing server requires authentication" | Outgoing server settings |
+| Repeated password prompts | Wrong credentials / MFA | Re-enter password; try app password | Account security |
+| Mail sync is slow | Large mailbox | Reduce sync window | Sync settings |
+| Connection times out | Network filtering | Try another network/VPN | Network |
+| Messages stuck in outbox | Large attachment | Remove/resize attachments | Outbox |
+| Duplicate folders | Wrong IMAP root | Set root folder to "Inbox" | Advanced IMAP |
+| Sent items not saved | Client preference | Enable "Save sent messages" | Folders |
+| "Server not responding" | Antivirus scanning | Disable email scanning temporarily | Security software |

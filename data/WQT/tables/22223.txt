@@ -1,0 +1,12 @@
+# Derivative Rules for Neural-Network Activations (with Chain Rule References)
+
+| Activation / Rule | Definition | Derivative w.r.t. x | Typical Use |
+| --- | --- | --- | --- |
+| Identity | f(x)=x | 1 | Linear output |
+| Sigmoid | f(x)=1/(1+e^{-x}) | f(x)(1-f(x)) | Binary classification |
+| Tanh | f(x)=tanh(x) | 1 - tanh(x)^2 | Centered nonlinearity |
+| ReLU | f(x)=max(0,x) | 0 if x<0, 1 if x>0 | Sparse activations |
+| Leaky ReLU | f(x)=max(ax,x) | a if x<0, 1 if x>0 | Avoid dead ReLUs |
+| Softplus | f(x)=ln(1+e^x) | 1/(1+e^{-x}) | Smooth ReLU |
+| Chain-rule reminder | y = f(g(x)) | y' = f'(g(x)) g'(x) | Backprop building block |
+| Product-rule reminder | y = u(x)v(x) | y' = u'v + uv' | Used in gradients |

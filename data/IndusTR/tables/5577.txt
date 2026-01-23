@@ -1,0 +1,18 @@
+<table>
+  <caption>Vegetation Layer Population-Level Observation Station Real-Time Rolling Wind-Sand Gradient Data Format</caption>
+  <tr><td>Serial No.</td><td>Record Content</td><td>Code</td><td>Data Type</td><td>Unit/Format/Description</td></tr>
+  <tr><td>1</td><td>Population-level observation station name</td><td>D_NAME_S</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>2</td><td>Associated community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Data type for variable-length character data</td></tr>
+  <tr><td>3</td><td>Record time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>4</td><td>Number of wind gradient observation layers</td><td>AWIN_N</td><td>Number(1)</td><td>Total number of layers recorded</td></tr>
+  <tr><td>5</td><td>Wind direction at the nth layer</td><td>AEA_n</td><td>Number(3)</td><td>In upward order/unit：(°)</td></tr>
+  <tr><td>6</td><td>Wind speed at the nth layer</td><td>AFA_n</td><td>Number(3,1)</td><td>In upward order/unit：mm</td></tr>
+  <tr><td>7</td><td>U wind speed at the nth layer</td><td>AFA_U_n</td><td>Number(3,1)</td><td>In upward order/unit：mm</td></tr>
+  <tr><td>8</td><td>V wind speed at the nth layer</td><td>AFA_V_n</td><td>Number(3,1)</td><td>In upward order/unit：mm</td></tr>
+  <tr><td>9</td><td>W wind speed at the nth layer</td><td>AFA_W_n</td><td>Number(3,1)</td><td>In upward order/unit：mm</td></tr>
+  <tr><td>10</td><td>Number of particulate impact gradient observation layers</td><td>AWMD_N</td><td>Number(1)</td><td>Total number of layers recorded</td></tr>
+  <tr><td>11</td><td>Number of particulate impacts at the nth layer</td><td>AWND_n</td><td>Number(6)</td><td>In upward order/count</td></tr>
+  <tr><td>12</td><td>Number of dust concentration observation layers</td><td>ANB4_N</td><td>Number(1)</td><td>Total number of layers recorded</td></tr>
+  <tr><td>13</td><td>Dust concentration at the nth layer</td><td>ANB4_n</td><td>Number(5,1)</td><td>In upward order/unit:mg/m</td></tr>
+  <tr><td colspan="5">Codes with the suffix n are the naming format for gradient data; count consecutively n times from bottom to top according to the actual layers. Minute-level or second-level real-time data are normally saved in a rolling manner for 24 hours, and should be exported and saved when there are special needs.</td></tr>
+</table>

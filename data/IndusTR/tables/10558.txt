@@ -1,0 +1,10 @@
+<table>
+  <caption>Terrestrial eco-meteorological observation: animal behavior / disturbance event code record format</caption>
+  <tr><th>Serial No.</th><th>Record Content</th><th>Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  <tr><td>1</td><td>Community-level observation station name</td><td>D_NAME</td><td>Variable characters(100)</td><td>Variable-length character data</td></tr>
+  <tr><td>2</td><td>Data time</td><td>D_TIME</td><td>Date</td><td></td></tr>
+  <tr><td>3</td><td>Animal behavior / disturbance event code</td><td>AB_EVT</td><td>Characters(4)</td><td>In the ZZ format of Table B.xx (controlled vocabulary)</td></tr>
+  <tr><td>4</td><td>Event intensity class</td><td>AB_LVL</td><td>Characters(2)</td><td>In the Lx format of Table B.xx</td></tr>
+  <tr><td>5</td><td>Observer note (optional)</td><td>AB_NOTE</td><td>Variable characters(200)</td><td>Short free-text note</td></tr>
+  <tr><td>6</td><td>Data source flag</td><td>AB_SRC</td><td>Characters(1)</td><td>M=manual, A=automatic recognition</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Trackable Pose Query Function Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session pointer.</td></tr>
+    <tr><td>trackable</td><td>ArTrackable *</td><td>in</td><td>Handle to the trackable being queried.</td></tr>
+    <tr><td>reference_space</td><td>ArPoseSpace</td><td>in</td><td>Coordinate space for the returned pose (for example, WORLD or LOCAL).</td></tr>
+    <tr><td>timestamp_ns</td><td>int64_t</td><td>in</td><td>Time at which to sample the pose, in nanoseconds.</td></tr>
+    <tr><td>out_pose</td><td>ArPose *</td><td>out</td><td>Receives the trackable pose in the requested reference space.</td></tr>
+    <tr><td>out_pose_status</td><td>ArStatus *</td><td>out</td><td>Receives a status indicating whether the pose was available/valid.</td></tr>
+  </tbody>
+</table>

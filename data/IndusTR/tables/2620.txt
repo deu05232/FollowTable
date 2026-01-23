@@ -1,0 +1,10 @@
+<table>
+  <caption>GNSS Receiver Firmware Release Notes (Bias-Related Bug Fixes)</caption>
+  <tr><th>Firmware Version</th><th>Release Date</th><th>Supported Constellations</th><th>Change Summary</th><th>Known Issues</th></tr>
+  <tr><td>v3.2.1</td><td>2024-03-12</td><td>GPS/Galileo</td><td>Improved ambiguity resolution stability under low C/N0</td><td>Occasional cycle-slip flag delay</td></tr>
+  <tr><td>v3.3.0</td><td>2024-06-05</td><td>GPS/GLO/BDS</td><td>Updated phase tracking loop parameters</td><td>High-dynamics mode not recommended</td></tr>
+  <tr><td>v3.3.4</td><td>2024-08-19</td><td>All</td><td>Fixed intermittent bias reset after hot start</td><td>Requires almanac refresh</td></tr>
+  <tr><td>v3.4.0</td><td>2024-10-02</td><td>All</td><td>Added new logging option for residuals</td><td>Log file size increased</td></tr>
+  <tr><td>v3.4.2</td><td>2024-12-11</td><td>GPS/BDS</td><td>Improved PPP convergence in urban canyons</td><td>GLONASS FDMA channel map not persisted</td></tr>
+  <tr><td>v3.5.0</td><td>2025-01-20</td><td>All</td><td>Security patches and diagnostics enhancements</td><td>None reported</td></tr>
+</table>

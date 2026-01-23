@@ -1,0 +1,8 @@
+<table>
+  <caption>Basic math operator interface parameters (tensor shape required)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Supported numeric types for the operator; default is float32</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Target device such as CPU/GPU/NPU; default is CPU</td></tr>
+  <tr><td>Tensor Shape</td><td>Input</td><td>Required</td><td>Dimensions, dimension-size array, and optional layout information for the input tensor</td></tr>
+  <tr><td>Activation</td><td>Input</td><td>Optional</td><td>Optional fused activation applied after the math op</td></tr>
+</table>

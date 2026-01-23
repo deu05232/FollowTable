@@ -1,0 +1,6 @@
+<table>
+  <caption>API Request Parameter Definition for Querying Electronic License Authorization Status</caption>
+  <tr><td>Data Item Name</td><td>Data Item Description</td><td>Constraint</td><td>Data Type</td><td>Length</td><td>Description</td></tr>
+  <tr><td>certKey</td><td>certKey returned by unified identity authentication</td><td>Required</td><td>String</td><td></td><td>certKey is used to identify identity information</td></tr>
+  <tr><td>tokenSNO</td><td>Unified identity authentication tokenSNO</td><td>Required</td><td>String</td><td></td><td>tokenSNO issued by unified identity authentication</td></tr>
+</table>

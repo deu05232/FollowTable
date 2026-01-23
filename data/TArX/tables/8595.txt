@@ -1,0 +1,15 @@
+<table>
+  <caption>Yukawa couplings presented as ratios and fit modifiers (kappa/Delta notation) rather than explicit numerical y_f values for each fermion.</caption>
+  <thead>
+    <tr><th>Fermion</th><th>Coupling modifier</th><th>Definition</th><th>Example fit value</th><th>95% CL range</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>t</td><td>κt</td><td>yt/ytSM</td><td>1.03</td><td>[0.90, 1.18]</td><td>Normalized to SM, not absolute yt</td></tr>
+    <tr><td>b</td><td>Δb</td><td>(yb-ybSM)/ybSM</td><td>-0.05</td><td>[-0.30, 0.20]</td><td>Deviation parameter, not numeric yb</td></tr>
+    <tr><td>τ</td><td>κτ</td><td>yτ/yτSM</td><td>0.98</td><td>[0.80, 1.20]</td><td>Scale factor only</td></tr>
+    <tr><td>μ</td><td>κμ</td><td>yμ/yμSM</td><td>1.10</td><td>[0.00, 2.50]</td><td>Poorly constrained; still relative</td></tr>
+    <tr><td>c</td><td>κc</td><td>yc/ycSM</td><td>1.2</td><td>[-0.5, 3.0]</td><td>Fit modifier, not absolute</td></tr>
+    <tr><td>s</td><td>κs</td><td>ys/ysSM</td><td>1.0</td><td>[0.0, 5.0]</td><td>Expressed as ratio only</td></tr>
+    <tr><td>e</td><td>Δe</td><td>(ye-yeSM)/yeSM</td><td>0.0</td><td>[-10, 10]</td><td>Deviation-only parameterization</td></tr>
+  </tbody>
+</table>

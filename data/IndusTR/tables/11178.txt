@@ -1,0 +1,9 @@
+<table>
+  <caption>PDU field positions for version negotiation frames (bit/byte map)</caption>
+  <tr><td>Byte index</td><td>Bit 7..0 content</td><td>Header vs payload</td><td>Comment</td></tr>
+  <tr><td>0</td><td>Priority/flags portion (packed)</td><td>Header</td><td>Implementation-specific packing</td></tr>
+  <tr><td>1</td><td>Function code portion</td><td>Header</td><td>Used to distinguish frame types</td></tr>
+  <tr><td>2</td><td>Destination address portion</td><td>Header</td><td>Receiver filtering</td></tr>
+  <tr><td>3</td><td>Source address portion</td><td>Header</td><td>Sender identification</td></tr>
+  <tr><td>4</td><td>Payload continues…</td><td>Payload</td><td>Actual negotiation parameters occur after header</td></tr>
+</table>

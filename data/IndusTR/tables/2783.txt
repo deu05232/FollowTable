@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Environmental Requirements for Harmonic Energy Meter Testing</caption>
+  <tr><th>Parameter</th><th>Nominal</th><th>Allowable Range</th><th>Stabilization Time</th><th>Monitoring Method</th><th>Notes</th></tr>
+  <tr><td>Ambient Temperature</td><td>23°C</td><td>20–26°C</td><td>2 h</td><td>PT100 + logger</td><td>No direct sunlight</td></tr>
+  <tr><td>Relative Humidity</td><td>50%</td><td>30–70%</td><td>2 h</td><td>Hygrometer</td><td>No condensation</td></tr>
+  <tr><td>Supply Voltage THD</td><td>< 2%</td><td>< 3%</td><td>30 min</td><td>Power quality analyzer</td><td>Before each run</td></tr>
+  <tr><td>EMI Background</td><td>-</td><td>< 3 V/m (80–1000 MHz)</td><td>1 h</td><td>Field probe</td><td>Shielded room preferred</td></tr>
+  <tr><td>Vibration</td><td>-</td><td>< 0.5 g (5–150 Hz)</td><td>-</td><td>Accelerometer</td><td>Isolate benches</td></tr>
+  <tr><td>Ground Resistance</td><td>< 1 Ω</td><td>< 2 Ω</td><td>-</td><td>Earth tester</td><td>Annual verification</td></tr>
+</table>

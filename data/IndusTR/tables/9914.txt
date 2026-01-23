@@ -1,0 +1,7 @@
+<table>
+  <caption>Transport-layer PDU frame fields with application-parameter decoding emphasis</caption>
+  <tr><th>Part of frame</th><th>What to read</th><th>Application-layer meaning</th><th>Example interpretations</th></tr>
+  <tr><td>Header bytes</td><td>Priority/addressing bytes</td><td>Mapped to the application’s message type</td><td>Shows which application message family this belongs to</td></tr>
+  <tr><td>Payload bytes</td><td>Payload content bytes</td><td>Decoded as application parameters and identifiers</td><td>Lists parameter IDs, parameter names, and how to interpret values</td></tr>
+  <tr><td>Padding</td><td>Unused bytes</td><td>Application-specific filler policy</td><td>Explains what the filler value means in the application</td></tr>
+</table>

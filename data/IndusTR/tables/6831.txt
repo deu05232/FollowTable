@@ -1,0 +1,14 @@
+<table>
+  <caption>Charging Communication CAN Message Directory (Control, Status & Diagnostics)</caption>
+  <thead>
+    <tr><th>Category</th><th>Message Code</th><th>Human-Readable Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>DLC (Bytes)</th><th>Typical Period</th><th>Direction</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Charging Control / Status</td><td>BCL</td><td>Battery Charging Demand Message</td><td>4096</td><td>0x1000</td><td>6</td><td>5</td><td>50 ms</td><td>Vehicle → Charger</td></tr>
+    <tr><td>BCS</td><td>Overall Battery Charging Status Message</td><td>4352</td><td>0x1100</td><td>7</td><td>9</td><td>250 ms</td><td>Vehicle → Charger</td></tr>
+    <tr><td>CCS</td><td>Charger Charging Status Message</td><td>4608</td><td>0x1200</td><td>6</td><td>7</td><td>50 ms</td><td>Charger → Vehicle</td></tr>
+    <tr><td rowspan="3">Diagnostics / Fault Handling</td><td>BEM</td><td>Vehicle Error Message</td><td>7680</td><td>0x1E00</td><td>2</td><td>4</td><td>250 ms</td><td>Vehicle → Charger</td></tr>
+    <tr><td>CEM</td><td>Charger Error Message</td><td>7936</td><td>0x1F00</td><td>2</td><td>4</td><td>250 ms</td><td>Charger → Vehicle</td></tr>
+    <tr><td>CHM</td><td>Charger Handshake Message (retransmit during fault recovery)</td><td>9728</td><td>0x2600</td><td>6</td><td>3</td><td>250 ms</td><td>Charger → Vehicle</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,20 @@
+<table>
+  <caption>Terrestrial Eco-meteorological Station Observation Data Format (Radiation & Surface Energy Balance)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Field Name</th><th>Field Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station name</td><td>D_NAME</td><td>Varchar(100)</td><td>Community-level terrestrial eco-meteorological observation station name</td></tr>
+    <tr><td>2</td><td>Observation time</td><td>D_TIME</td><td>DateTime</td><td>ISO 8601 (YYYY-MM-DDThh:mm:ss); local standard time</td></tr>
+    <tr><td>3</td><td>Total irradiance (global horizontal irradiance)</td><td>GHI</td><td>Number(6,1)</td><td>W/m²; average over sampling interval</td></tr>
+    <tr><td>4</td><td>Direct normal irradiance</td><td>DNI</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>5</td><td>Diffuse horizontal irradiance</td><td>DHI</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>6</td><td>Net radiation</td><td>RNET</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>7</td><td>Downwelling shortwave radiation</td><td>SWD</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>8</td><td>Upwelling shortwave radiation</td><td>SWU</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>9</td><td>Downwelling longwave radiation</td><td>LWD</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>10</td><td>Upwelling longwave radiation</td><td>LWU</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>11</td><td>Surface albedo</td><td>ALB</td><td>Number(4,3)</td><td>0–1; dimensionless</td></tr>
+    <tr><td>12</td><td>Quality control flag (radiation group)</td><td>QC_RAD</td><td>Char(1)</td><td>0=good, 1=suspect, 2=bad, 9=missing</td></tr>
+  </tbody>
+</table>

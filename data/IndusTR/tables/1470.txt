@@ -1,0 +1,9 @@
+<table>
+  <caption>SOF Component Interface Definition for Retrieving Certificate Extension Information by OID</caption>
+  <tr><td>Prototype</td><td>BSTR SOF_GetCertInfoByOid(BSTR Base64Cert,BSTR Oid)</td></tr>
+  <tr><td>Description</td><td>Retrieve certificate extension information by OID</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>Base64Cert (Base64-encoded certificate)</td></tr>
+  <tr><td>Oid (private extension object ID, e.g. "1.2.156.xxx")</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>Information corresponding to the certificate private extension OID (success)</td></tr>
+  <tr><td>Empty string (failure, or the private extension does not exist in the certificate)</td></tr>
+</table>

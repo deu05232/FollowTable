@@ -1,0 +1,22 @@
+<table>
+  <caption>Description of Common Fields for Orbit Correction Information</caption>
+  <tr><td>Type</td><td>Data field</td><td>Description</td></tr>
+  <tr><td rowspan="9">Header</td><td>Message type number</td><td>Used to distinguish PPP-RTKSSR correction information messages</td></tr>
+  <tr><td>Epoch time</td><td>Indicates the epoch time of orbit correction information</td></tr>
+  <tr><td>SSR update interval</td><td>Indicates the time interval of SSR data updates</td></tr>
+  <tr><td>Multiple-message indicator</td><td>Transmission indicator for messages with the same message group and the same epoch time: 0: the last message of the series; 1: other messages of the same group will be transmitted subsequently</td></tr>
+  <tr><td>Orbit reference frame</td><td>Indicates the reference frame corresponding to the orbit correction values</td></tr>
+  <tr><td>IOD SSR</td><td>Indicates the SSR data version number</td></tr>
+  <tr><td>SSR provider ID</td><td>Used to identify an SSR service; it should be unique worldwide: where 0～255: reserved; 256～65 535: assignable provider ID numbers</td></tr>
+  <tr><td>SSR solution ID</td><td>Used to identify different SSR solutions of a provider</td></tr>
+  <tr><td>Number of satellites</td><td>Indicates the number of satellites</td></tr>
+  <tr><td rowspan="9">Data field</td><td>Satellite number</td><td>Indicates BDS, GPS, GALILEO, GLONASS satellite ID</td></tr>
+  <tr><td>Ephemeris data version number IODE</td><td>When the IODE of the data information is the same as the satellite ephemeris, they can be matched and used</td></tr>
+  <tr><td>BDS iodcrc ephemeris data version check value</td><td>Indicates the ephemeris data version check value; only BDS orbit correction information contains this data field</td></tr>
+  <tr><td>Radial correction value in the orbital plane</td><td>Indicates the radial correction value in the orbital plane relative to the broadcast ephemeris</td></tr>
+  <tr><td>Along-track correction value in the orbital plane</td><td>Indicates the along-track correction value in the orbital plane relative to the broadcast ephemeris</td></tr>
+  <tr><td>Normal correction value in the orbital plane</td><td>Indicates the normal correction value in the orbital plane relative to the broadcast ephemeris</td></tr>
+  <tr><td>Rate of change of radial correction value in the orbital plane</td><td>Indicates the rate of change of the radial correction value in the orbital plane relative to the broadcast ephemeris</td></tr>
+  <tr><td>Rate of change of along-track correction value in the orbital plane</td><td>Indicates the rate of change of the along-track correction value in the orbital plane relative to the broadcast ephemeris</td></tr>
+  <tr><td>Rate of change of normal correction value in the orbital plane</td><td>Indicates the rate of change of the normal correction value in the orbital plane relative to the broadcast ephemeris</td></tr>
+</table>

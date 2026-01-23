@@ -1,0 +1,7 @@
+<table>
+  <caption>Generic transport PDU size/bit-length chart without payload semantics</caption>
+  <tr><th>Field group</th><th>Bit length range</th><th>Byte length range</th><th>General comment</th></tr>
+  <tr><td>Priority/addressing group</td><td>Fixed</td><td>Fixed</td><td>Shows only structural size</td></tr>
+  <tr><td>Format/group number portion</td><td>Fixed</td><td>Fixed</td><td>No description of what values mean</td></tr>
+  <tr><td>Payload area</td><td>Variable</td><td>0–64</td><td>Only states length, not how transport framing is encoded</td></tr>
+</table>

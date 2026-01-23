@@ -1,0 +1,15 @@
+<table>
+  <caption>Charger Abort Message (PID 0x03) — Application-Layer Payload Parameter Definition</caption>
+  <thead>
+    <tr><th>Level</th><th>Seq. No.</th><th>Field Name</th><th>Offset (Byte)</th><th>Length</th><th>Data Type</th><th>Allowed/Encoding</th><th>Notes / Constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>1</td><td>Parameter Group Identifier (PID)</td><td>0</td><td>1 byte</td><td>UINT8</td><td>Fixed: 0x03</td><td>Identifies the message as Charger Abort</td></tr>
+    <tr><td rowspan="2">Abort Code</td><td>2</td><td>Abort Type</td><td>1</td><td>1 byte</td><td>UINT8</td><td>Enum (EndCodeType)</td><td>High-level abort category; implementation should map to an enum</td></tr>
+    <tr><td>3</td><td>Abort Code</td><td>2</td><td>1 byte</td><td>UINT8</td><td>Enum (EndCodeType)</td><td>Specific abort code; reserved values shall be rejected or treated as "unknown"</td></tr>
+    <tr><td rowspan="3">Abort Reason</td><td>4</td><td>Abort Reason (LSB)</td><td>3</td><td>1 byte</td><td>UINT8</td><td>Little-endian</td><td rowspan="2">Two-byte reason value (EndReasonType), little-endian encoded</td></tr>
+    <tr><td>5</td><td>Abort Reason (MSB)</td><td>4</td><td>1 byte</td><td>UINT8</td><td>Little-endian</td></tr>
+    <tr><td>6</td><td>Vendor/Reserved Reason Extension</td><td>5</td><td>1 byte</td><td>UINT8</td><td>0x00 if unused</td><td>Optional extension byte for future/vendor use; if not supported, transmit 0x00 and ignore on receive</td></tr>
+    <tr><td>Integrity</td><td>7</td><td>Payload Length</td><td>—</td><td>Constant</td><td>—</td><td>6 bytes total</td><td>PID(1) + Type(1) + Code(1) + Reason(2) + Ext(1)</td></tr>
+  </tbody>
+</table>

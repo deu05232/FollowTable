@@ -1,0 +1,14 @@
+<table>
+  <caption>Build System Configuration for AR Session Module (Toolchain Settings)</caption>
+  <thead>
+    <tr><th>Setting</th><th>Value</th><th>Scope</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ANDROID_MIN_SDK</td><td>26</td><td>Gradle</td><td>Minimum supported Android API level</td></tr>
+    <tr><td>NDK_VERSION</td><td>25.2.9519653</td><td>Gradle</td><td>Native toolchain version</td></tr>
+    <tr><td>CMAKE_VERSION</td><td>3.22.1</td><td>CMake</td><td>Required CMake version</td></tr>
+    <tr><td>AR_MODULE_NAME</td><td>ar_session_core</td><td>CMake</td><td>Native library target name</td></tr>
+    <tr><td>CPP_STANDARD</td><td>c++17</td><td>CMake</td><td>C++ language standard</td></tr>
+    <tr><td>ABI_FILTERS</td><td>arm64-v8a, armeabi-v7a</td><td>Gradle</td><td>Architectures to build</td></tr>
+  </tbody>
+</table>

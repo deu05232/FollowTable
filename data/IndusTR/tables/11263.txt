@@ -1,0 +1,11 @@
+<table>
+  <caption>AR frame interface parameters for texture ID and UV coordinate mapping</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_texture_id</td><td>uint32_t *</td><td>Receives the GPU texture ID for the camera image</td></tr>
+  <tr><td>out_u_scale</td><td>float *</td><td>Receives the U scaling factor for texture coordinates</td></tr>
+  <tr><td>out_v_scale</td><td>float *</td><td>Receives the V scaling factor for texture coordinates</td></tr>
+  <tr><td>out_u_offset</td><td>float *</td><td>Receives the U offset for texture coordinates</td></tr>
+  <tr><td>out_v_offset</td><td>float *</td><td>Receives the V offset for texture coordinates</td></tr>
+</table>

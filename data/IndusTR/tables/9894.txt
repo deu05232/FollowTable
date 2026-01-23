@@ -1,0 +1,19 @@
+<table>
+  <caption>Caption Service Block Syntax (bit/field descriptors)</caption>
+  <thead>
+    <tr><th>Syntax element</th><th>Descriptor</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>caption_service_block(){</td><td></td></tr>
+    <tr><td>service_id</td><td>u(6)</td></tr>
+    <tr><td>reserved</td><td>f(1)</td></tr>
+    <tr><td>service_present_flag</td><td>u(1)</td></tr>
+    <tr><td>service_block_size</td><td>u(5)</td></tr>
+    <tr><td>reserved2</td><td>f(3)</td></tr>
+    <tr><td>service_number</td><td>u(4)</td></tr>
+    <tr><td>caption_block_data(){</td><td></td></tr>
+    <tr><td>caption_data_byte[i]</td><td>u(8)</td></tr>
+    <tr><td>}</td><td></td></tr>
+    <tr><td>}</td><td></td></tr>
+  </tbody>
+</table>

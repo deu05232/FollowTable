@@ -1,0 +1,10 @@
+<table>
+  <caption>ARSessionConfig values (mixed session options)</caption>
+  <tr><th>Category</th><th>Reference name and value</th><th>Description</th></tr>
+  <tr><td>Plane finding</td><td>AR_PLANE_FINDING_MODE_HORIZONTAL = 1</td><td>Enable horizontal plane detection</td></tr>
+  <tr><td>Camera facing</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_BACK = 0</td><td>Use the rear-facing camera</td></tr>
+  <tr><td>Tracking run mode</td><td>ARTRACKING_RUN_MODE_AUTO = 0</td><td>Start tracking automatically after resume</td></tr>
+  <tr><td>Query mode</td><td>ARQUERY_MODE_POLYGON_ONLY = 0</td><td>Intersect only with polygon planes</td></tr>
+  <tr><td>Illumination</td><td>ARILLUMINATION_ESTIMATE_STATE_VALID = 1</td><td>Light estimation is available</td></tr>
+  <tr><td>Pixel format</td><td>ARPIXEL_FORMAT_LUMINANCE8 = 0</td><td>Image data uses LUMINANCE8</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Field Catalog for Grain Condition Monitoring Protocol (Header and Common Fields)</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Symbol</th><th>Encoding / Code</th><th>Length (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start Symbol</td><td>STX</td><td>55H AAH 55H AAH</td><td>4</td><td>Frame preamble</td></tr>
+    <tr><td>Address</td><td>KADDL</td><td>00H-FFH</td><td>1</td><td>Sub-unit or extension unit address</td></tr>
+    <tr><td>Control Code</td><td>CMD</td><td>A2H / A3H / C3H / 90H</td><td>1</td><td>Command identifier list</td></tr>
+    <tr><td>Length</td><td>LEN</td><td>Low-High (LE)</td><td>2</td><td>Number of payload bytes</td></tr>
+    <tr><td>CRC-16</td><td>CRC</td><td>Polynomial 0xA001</td><td>2</td><td>Error check</td></tr>
+    <tr><td>End Symbol</td><td>ETX</td><td>0DH</td><td>1</td><td>Frame end marker</td></tr>
+    <tr><td>Reserved</td><td>RSV</td><td>00H</td><td>1</td><td>May appear in some variants</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Integrated Data Center — Event Ingestion & Data Processing Specification (Pre-Distribution)</caption>
+  <thead>
+    <tr><th>Process Area</th><th>Start Condition</th><th>Source Entity</th><th>Message / Data Type</th><th>Processing Rule</th><th>Resulting Data State</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ingestion</td><td>EDI message received</td><td>Carrier</td><td>EDI 315 (Status Details)</td><td>Schema validation, de-duplication</td><td>Raw event stored</td></tr>
+    <tr><td>Ingestion</td><td>Port community feed updated</td><td>Port Authority</td><td>Vessel arrival/departure</td><td>Timestamp alignment (UTC)</td><td>Normalized event stored</td></tr>
+    <tr><td>Ingestion</td><td>Customs sends release notice</td><td>Customs</td><td>Release / hold decision</td><td>Map decision codes to internal taxonomy</td><td>Regulatory milestone stored</td></tr>
+    <tr><td>Correlation</td><td>New event saved</td><td>Integrated Data Center</td><td>Container, BL, booking keys</td><td>Match hierarchy: Container > BL > Booking</td><td>Linked shipment timeline</td></tr>
+    <tr><td>Aggregation</td><td>Timeline linked</td><td>Integrated Data Center</td><td>Linked events</td><td>Compute current status and next expected milestone</td><td>Operational dataset built</td></tr>
+    <tr><td>Quality Control</td><td>Nightly job</td><td>Integrated Data Center</td><td>Operational dataset</td><td>Detect missing milestones, out-of-sequence events</td><td>QC flags appended</td></tr>
+    <tr><td>Availability</td><td>QC passed / overridden</td><td>Integrated Data Center</td><td>Validated dataset</td><td>Publish to internal data mart</td><td>Available for later distribution</td></tr>
+  </tbody>
+</table>

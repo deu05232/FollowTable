@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Hit Test (Screen Coordinate Driven) Parameter Reference</caption>
+  <thead>
+    <tr><th>Function</th><th>Input: View/Touch Coordinates</th><th>Units / Space</th><th>Input: Filters / Options</th><th>Output</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_hitTest</td><td>x, y</td><td>Normalized view (0..1)</td><td>trackableTypes=PLANE|POINT</td><td>ArHitResultList*</td><td>Primary purpose is mapping screen taps to world hits</td></tr>
+    <tr><td>ArFrame_hitTestRay</td><td>origin_x, origin_y</td><td>Pixels (viewport)</td><td>rayLengthMeters</td><td>ArHitResultList*</td><td>Ray derived from a 2D pixel location</td></tr>
+    <tr><td>ArFrame_transformCoordinates2d</td><td>input_uv[2]</td><td>Texture UV</td><td>src=GPU, dst=VIEW</td><td>output_xy[2]</td><td>Converts between display and texture spaces</td></tr>
+    <tr><td>ArFrame_getPointCloudConfidenceAt</td><td>pixelX, pixelY</td><td>Pixels (view)</td><td>sampling=NEAREST</td><td>float confidence</td><td>Confidence is looked up by screen position</td></tr>
+    <tr><td>ArFrame_getDepthAtViewCoordinates</td><td>viewX, viewY</td><td>Pixels (view)</td><td>depthMode=RAW|SMOOTH</td><td>float depthMeters</td><td>Depth queried at a 2D coordinate</td></tr>
+    <tr><td>ArFrame_getSemanticLabelAt</td><td>touch_x, touch_y</td><td>Pixels (screen)</td><td>labelSet=DEFAULT</td><td>int32 labelId</td><td>Returns a label for the tapped pixel</td></tr>
+    <tr><td>ArFrame_getConfidenceAtUV</td><td>u, v</td><td>Normalized UV</td><td>clamp=true</td><td>float confidence</td><td>Another 2D coordinate-driven query</td></tr>
+  </tbody>
+</table>

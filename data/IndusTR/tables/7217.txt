@@ -1,0 +1,15 @@
+<table>
+  <caption>Traditional Mongolian: When to Use Control Characters (Do/Don't Reference)</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Recommended Sequence</th><th>Rendered Display</th><th>Forbidden Sequence Example</th><th>Failure Type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Variant shaping after specific letters</td><td>Base + MVS (U+180E)</td><td>glyph variant</td><td>MVS + Base</td><td>Order violation</td></tr>
+    <tr><td>Ligature enforcement</td><td>Letter + ZWJ + Letter</td><td>joined form</td><td>ZWJ alone</td><td>Orphan control</td></tr>
+    <tr><td>Word separation in narrow layout</td><td>NNBSP (U+202F)</td><td>narrow space</td><td>NBSP (U+00A0) in Mongolian run</td><td>Wrong space code point</td></tr>
+    <tr><td>Elongation mark usage</td><td>Stem + NIRUGU (U+180A)</td><td>elongated stem</td><td>NIRUGU + punctuation</td><td>Illegal attachment</td></tr>
+    <tr><td>Free variation selectors</td><td>Base + FVS1/2/3 (U+180B/U+180C/U+180D)</td><td>alternate glyph</td><td>FVS1 + FVS2 + Base</td><td>Multiple selectors / wrong order</td></tr>
+    <tr><td>Line breaking control</td><td>ZWSP (U+200B) between words</td><td>possible break</td><td>ZWSP inserted between base and FVS</td><td>Break inside grapheme</td></tr>
+    <tr><td>Normalization pipeline</td><td>Keep MVS/FVS as-is</td><td>stable rendering</td><td>Dropping MVS during NFC/NFKC</td><td>Lossy normalization</td></tr>
+  </tbody>
+</table>

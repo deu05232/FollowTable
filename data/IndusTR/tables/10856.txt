@@ -1,0 +1,6 @@
+<table>
+  <caption>Generic frame header and trailer fields (no data segment shown)</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>KADDL</td><td>Command</td><td>xxxxH</td><td>xxxxH</td><td>0DH 0AH</td></tr>
+  <tr><td colspan="6">Note: This table only describes the envelope of the message.</td></tr>
+</table>

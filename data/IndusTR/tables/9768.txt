@@ -1,0 +1,15 @@
+<table>
+  <caption>Industrial Instrument Smart Features Checklist (capabilities as rows, split by subcategory)</caption>
+  <thead>
+    <tr><th>Capability Area</th><th>Measuring Instruments (Pressure/Flow/Temp)</th><th>Analytical Instruments (Gas/Liquid)</th><th>Actuators (Electric/EH)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Parameterization</td><td>Range, damping, units; plus pressure: square-root; flow: totalizer; temperature: sensor type</td><td>Range, units, calibration modes; method-specific settings per gas/liquid analyzer</td><td>Travel, torque/thrust limits, local/remote, control profiles</td></tr>
+    <tr><td>Self-diagnostics</td><td>Impulse-line blockage (pressure); signal quality diagnostics (flow); open-circuit detection (temp)</td><td>Sample-path integrity, sensor poisoning checks, calibration validity</td><td>Over-torque, stuck valve, mid-position alarms, feedback loop checks</td></tr>
+    <tr><td>Data & Event Logging</td><td>Process-variable abnormality records; totalized value history (flow)</td><td>Calibration logs, method changes, analyzer health history</td><td>Stroke counts, torque curves, trip/alarm history</td></tr>
+    <tr><td>Adaptive/AI Functions</td><td>Scenario model library selection by measured conditions</td><td>Algorithm self-adjustment using historical data; trend learning</td><td>Auto-tuning for valve/loop optimization with scenario recognition</td></tr>
+    <tr><td>Connectivity</td><td>Digital comms and remote configuration; diagnostics readout</td><td>Remote method management; secure user roles</td><td>Remote control plus comms health monitoring</td></tr>
+    <tr><td>Maintenance Support</td><td>Condition-based alerts; drift indicators</td><td>Predict maintenance and component replacement time</td><td>Predictive service intervals; wear estimation</td></tr>
+    <tr><td>Subcategory Notes</td><td>Pressure/Flow/Temp requirements differ by principle and sensor technology</td><td>Gas vs liquid analyzers have different calibration artifacts</td><td>Electric vs electro-hydraulic have different health metrics</td></tr>
+  </tbody>
+</table>

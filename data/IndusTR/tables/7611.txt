@@ -1,0 +1,16 @@
+<table>
+  <caption>Laser-Only Classification: Raw Material Categories vs Laser-Based AM Process Families</caption>
+  <thead>
+    <tr><th>Laser-based process family</th><th>Laser interaction mode</th><th>Compatible raw material categories</th><th>Typical raw material state</th><th>Representative laser-only examples</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Laser Powder Bed Fusion (PBF-L)</td><td>Laser melting / fusion</td><td>Metals</td><td>Powder bed</td><td>Metal LPBF (SLM/DMLS)</td></tr>
+    <tr><td>Laser sintering (partial melt)</td><td>Polymers, Ceramics (limited)</td><td>Powder bed</td><td>Polymer SLS; ceramic laser sintering variants</td></tr>
+    <tr><td rowspan="2">Laser Directed Energy Deposition (Laser DED)</td><td>Laser melt pool + coaxial feed</td><td>Metals</td><td>Blown powder</td><td>Laser metal deposition (LMD)</td></tr>
+    <tr><td>Laser melt pool + wire feed</td><td>Metals, Some biomaterials (metallic)</td><td>Wire</td><td>Wire-fed laser DED</td></tr>
+    <tr><td>Laser Photopolymerization</td><td>Laser-induced polymerization</td><td>Photopolymers, Filled photopolymer composites</td><td>Liquid resin (vat)</td><td>Laser SLA; laser curing of ceramic-filled resins</td></tr>
+    <tr><td>Laser Sheet Lamination (laser cut + bond)</td><td>Laser cutting / patterning (with bonding step)</td><td>Polymers, Paper-like sheets, Metal foils (specialized)</td><td>Sheet / foil</td><td>Laser-cut lamination stacks (laser-centered route)</td></tr>
+    <tr><td>Laser-Assisted Material Jetting</td><td>Laser heating / in-situ consolidation</td><td>Metals (specialized), Polymers (specialized)</td><td>Droplets / jets with laser consolidation</td><td>Laser-aided jetting / laser fusing of deposited tracks</td></tr>
+    <tr><td>Laser Post-Processing as Primary Activation Step</td><td>Laser remelting / laser sintering densification</td><td>Ceramics, Metals</td><td>Green body / deposited preform</td><td>Laser densification of ceramic green parts; laser remelt of deposited metal</td></tr>
+  </tbody>
+</table>

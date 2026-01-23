@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Value Domain (Inline Codes Embedded in Text, No Dedicated Mapping Column)</caption>
+  <thead>
+    <tr><th>Data Field</th><th>Allowed Values (as documented)</th><th>Constraints</th><th>Example Payload Snippet</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Flush Type</td><td>Use: FT-GRAV (gravity), FT-PASS (pressure-assisted), FT-DUAL (dual-flush)</td><td>One value only</td><td>{"flushType":"FT-GRAV"}</td></tr>
+    <tr><td>Activation</td><td>Use: ACT-MAN (manual), ACT-SENS (sensor), ACT-TIME (timed)</td><td>One value only</td><td>{"activation":"ACT-SENS"}</td></tr>
+    <tr><td>Outlet Orientation</td><td>Use: ORI-S (straight), ORI-R (rear), ORI-F (floor)</td><td>Depends on fixture type</td><td>{"outletOrientation":"ORI-F"}</td></tr>
+    <tr><td>Trap Type</td><td>Use: TRAP-S (S-trap), TRAP-P (P-trap), TRAP-B (bottle)</td><td>Required for sinks</td><td>{"trapType":"TRAP-P"}</td></tr>
+    <tr><td>Finish</td><td>Use: FIN-CH (chrome), FIN-BN (brushed nickel), FIN-SS (stainless)</td><td>Optional</td><td>{"finish":"FIN-SS"}</td></tr>
+    <tr><td>Water Efficiency Rating</td><td>Use: WER-0 (not rated), WER-1 (standard), WER-2 (high efficiency)</td><td>Must be numeric suffix 0-2</td><td>{"waterEfficiency":"WER-2"}</td></tr>
+    <tr><td>Backflow Protection</td><td>Use: BFP-N (none), BFP-VB (vacuum breaker), BFP-RP (reduced pressure)</td><td>Local code dependent</td><td>{"backflow":"BFP-VB"}</td></tr>
+  </tbody>
+</table>

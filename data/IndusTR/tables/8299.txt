@@ -1,0 +1,15 @@
+<table>
+  <caption>Official Conformance Audio Test Streams (Consolidated Master List)</caption>
+  <thead>
+    <tr><th>ID</th><th>Bitstream file identifier</th><th>Sampling rate</th><th>Bitrate</th><th>Content class</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>conf_musicA_sr32k_br32k_v1.avsa</td><td>32 kHz</td><td>32 kbps</td><td>Music</td><td>Baseline stereo</td></tr>
+    <tr><td>2</td><td>conf_musicA_sr44p1k_br32k_v1.avsa</td><td>44.1 kHz</td><td>32 kbps</td><td>Music</td><td>Same content as ID 1</td></tr>
+    <tr><td>3</td><td>conf_musicA_sr48k_br32k_v1.avsa</td><td>48 kHz</td><td>32 kbps</td><td>Music</td><td>Same content as ID 1</td></tr>
+    <tr><td>4</td><td>conf_speechB_sr32k_br24k_v2.avsa</td><td>32 kHz</td><td>24 kbps</td><td>Speech</td><td>Clean speech</td></tr>
+    <tr><td>5</td><td>conf_speechB_sr44p1k_br24k_v2.avsa</td><td>44.1 kHz</td><td>24 kbps</td><td>Speech</td><td>Same content as ID 4</td></tr>
+    <tr><td>6</td><td>conf_speechB_sr48k_br24k_v2.avsa</td><td>48 kHz</td><td>24 kbps</td><td>Speech</td><td>Same content as ID 4</td></tr>
+    <tr><td>7</td><td>conf_noiseC_sr48k_br80k_v1.avsa</td><td>48 kHz</td><td>80 kbps</td><td>Noise</td><td>Stress case</td></tr>
+  </tbody>
+</table>

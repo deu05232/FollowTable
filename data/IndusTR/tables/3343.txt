@@ -1,0 +1,14 @@
+<table>
+  <caption>Typical Structures and Diameter Parameters of Ropeway Communication Cables (Cross-Domain Homonym)</caption>
+  <thead>
+    <tr><th>Cable construction</th><th>Core arrangement</th><th>Shield type</th><th>Jacket material</th><th>Outer diameter range (mm)</th><th>Nominal impedance (Ω)</th><th>Application</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1×(2×0.75 mm²) + drain</td><td>Twisted pair</td><td>Al/PET foil</td><td>TPU</td><td>6.5–8.0</td><td>—</td><td>Ropeway control signals</td></tr>
+    <tr><td>4×(2×0.5 mm²)</td><td>Star-quad</td><td>Braided copper</td><td>LSZH</td><td>9.0–11.5</td><td>—</td><td>Station intercom</td></tr>
+    <tr><td>1×4C (Cat5e)</td><td>Twisted pairs</td><td>Overall foil</td><td>PE</td><td>5.8–6.6</td><td>100</td><td>Ethernet backbone</td></tr>
+    <tr><td>1×2C + messenger</td><td>Parallel cores</td><td>None</td><td>PVC</td><td>7.5–9.0</td><td>—</td><td>Sensor wiring</td></tr>
+    <tr><td>Hybrid: 2F + 2×0.75 mm²</td><td>Fiber + copper</td><td>Aramid yarn</td><td>TPU</td><td>8.5–10.0</td><td>—</td><td>CCTV + power</td></tr>
+    <tr><td>Coax RG-58</td><td>Single core</td><td>Braided copper</td><td>PE</td><td>4.8–5.2</td><td>50</td><td>Antenna feeder</td></tr>
+  </tbody>
+</table>

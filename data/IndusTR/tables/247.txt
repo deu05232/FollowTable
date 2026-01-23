@@ -1,0 +1,12 @@
+<table>
+  <caption>COMPAREIMEI Command Response Status Codes</caption>
+  <tr><td>SW1</td><td>SW2</td><td>Meaning</td></tr>
+  <tr><td>90</td><td>00</td><td>Success</td></tr>
+  <tr><td>6A</td><td>86</td><td>P1 and P2 Error</td></tr>
+  <tr><td>67</td><td>00</td><td>Lc Error</td></tr>
+  <tr><td>6A</td><td>80</td><td>Data Field Format Error</td></tr>
+  <tr><td>6A</td><td>82</td><td>Terminal Information File SAC Not Found</td></tr>
+  <tr><td>6A</td><td>88</td><td>Terminal Information File Content Is Empty (IMEI Not Written in USIM Card)</td></tr>
+  <tr><td>63</td><td>CX</td><td>IMEI Mismatch, "X" Indicates Remaining Attempts</td></tr>
+  <tr><td>69</td><td>83</td><td>Attempt Count Has Reached the Limit</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Ionospheric SH Message Layout — Metadata-Focused Table with Partial/Irrelevant DF Coverage</caption>
+  <thead>
+    <tr><th>Section</th><th>Element</th><th>DF Identifier</th><th>Bits</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message type number</td><td>DF002</td><td>12</td><td>RTCM message identification</td></tr>
+    <tr><td>Header</td><td>GPS epoch time</td><td>DF385</td><td>20</td><td>Time tag</td></tr>
+    <tr><td>Header</td><td>SSR update interval</td><td>DF391</td><td>4</td><td>Update rate indicator</td></tr>
+    <tr><td>Model</td><td>Ionospheric thin-shell height</td><td>(see spec)</td><td>8</td><td>DF not listed here</td></tr>
+    <tr><td>Model</td><td>Spherical harmonic function degree</td><td>—</td><td>4</td><td>Identifier omitted</td></tr>
+    <tr><td>Model</td><td>Spherical harmonic function order</td><td>N/A</td><td>4</td><td>Identifier omitted</td></tr>
+    <tr><td>Coefficients</td><td>Spherical harmonic cosine coefficient (correction)</td><td>omitted</td><td>16</td><td>Repeated for each (n,m)</td></tr>
+    <tr><td>Coefficients</td><td>Spherical harmonic sine coefficient (correction)</td><td>omitted</td><td>16</td><td>Repeated for each (n,m)</td></tr>
+  </tbody>
+</table>

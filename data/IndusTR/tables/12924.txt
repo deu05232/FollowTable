@@ -1,0 +1,15 @@
+<table>
+  <caption>EGC Outbound Frame Header Field Identifiers for Ship Earth Stations</caption>
+  <thead>
+    <tr><th>Octet Offset</th><th>Field Name</th><th>Length (bits)</th><th>Allowed Values</th><th>Meaning / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Service Identifier</td><td>16</td><td>0xCC00</td><td>BDMSS ship earth station service application</td></tr>
+    <tr><td>2</td><td>Frame Type</td><td>4</td><td>0–15</td><td>0: Position report; 1: EGC broadcast; 2: Distress acknowledgement; others reserved</td></tr>
+    <tr><td>2</td><td>Priority</td><td>2</td><td>0–3</td><td>0: Routine; 1: Safety; 2: Urgency; 3: Distress</td></tr>
+    <tr><td>3</td><td>Protocol Version</td><td>4</td><td>0–15</td><td>Header format version indicator</td></tr>
+    <tr><td>4</td><td>Message Sequence Number</td><td>32</td><td>0x00000000–0xFFFFFFFF</td><td>Cyclic counter used to identify the outbound frame</td></tr>
+    <tr><td>8</td><td>Header CRC</td><td>16</td><td>0x0000–0xFFFF</td><td>CRC over header fields only</td></tr>
+    <tr><td>10</td><td>Payload Length</td><td>16</td><td>0–65535</td><td>Length of payload portion in octets</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,12 @@
+<table>
+  <caption>Domestic Service Personnel Training Record Data Items</caption>
+  <tr><td>Description Item</td><td>Data Type</td><td>Constraint/Condition</td><td>Attribute Description</td><td>Value Domain</td></tr>
+  <tr><td>Training Record Information</td><td>Composite</td><td>Required</td><td>A set of information related to the training records of service personnel</td><td></td></tr>
+  <tr><td>Training Name</td><td>String</td><td>Required</td><td>Name of the training participated in by service personnel</td><td>Free text</td></tr>
+  <tr><td>Training Duration</td><td>String</td><td>Required</td><td>Duration of the training participated in by service personnel (unit: hours)</td><td>Free text</td></tr>
+  <tr><td>Training Method</td><td>String</td><td>Required</td><td>Method by which service personnel participate in training (theoretical knowledge, practical operation, etc.)</td><td>Free text</td></tr>
+  <tr><td>Training Result</td><td>String</td><td>Required</td><td>Assessment result of the training attended by service personnel</td><td>Free text</td></tr>
+  <tr><td>Description Item</td><td>Data Type</td><td>Constraint/Condition</td><td>Attribute Description</td><td>Value Domain</td></tr>
+  <tr><td>Completion Date</td><td>Date</td><td>Required</td><td>Time when service personnel complete the training</td><td>Should comply with GB/T 7408.1</td></tr>
+  <tr><td>Skills Certificate</td><td>Binary Stream</td><td>Required</td><td>Skills certificate information</td><td>May be in GIF, JPEG, PNG, etc. formats</td></tr>
+</table>

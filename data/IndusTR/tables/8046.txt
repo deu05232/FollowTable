@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal Application File Security Metadata (Identifiers, IDs, and Key References)</caption>
+  <thead>
+    <tr><th>Field</th><th>Length (bytes)</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>IMEI (terminal identity)</td><td>8</td><td>BCD-encoded device identifier used for terminal binding.</td></tr>
+    <tr><td>User ID</td><td>6</td><td>Unique user identifier for account association.</td></tr>
+    <tr><td>Broadcast ID (Group)</td><td>6</td><td>Identifier for group broadcast addressing.</td></tr>
+    <tr><td>Multicast ID (Service)</td><td>6</td><td>Identifier for multicast service addressing.</td></tr>
+    <tr><td>KeyID mapped to Broadcast ID</td><td>1</td><td>Key identifier associated with the broadcast group (reference only).</td></tr>
+    <tr><td>KeyID mapped to Multicast ID</td><td>1</td><td>Key identifier associated with the multicast service (reference only).</td></tr>
+    <tr><td>Initialization Vector Index (default)</td><td>6</td><td>Index number for the default IV used by the application profile.</td></tr>
+    <tr><td>Initialization Vector (default)</td><td>16</td><td>Default IV value used for cryptographic operations.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>BDMSS Ship Earth Station Inbound Frame Header (Example Field Layout)</caption>
+  <tr><th>Item</th><th>What the part represents</th><th>Bit length</th><th>Allowed values / coding</th><th>Notes for encoding</th></tr>
+  <tr><td>1</td><td>Service/application identifier</td><td>16</td><td>0xCC00</td><td>Used to indicate the ship earth station service application</td></tr>
+  <tr><td>2</td><td>Frame purpose indicator</td><td>4</td><td>0–15 (subset used)</td><td>Codes select the specific inbound message type; unused codes reserved</td></tr>
+  <tr><td>3</td><td>Cyclic sequence identifier</td><td>32</td><td>0x00000000–0xFFFFFFFF</td><td>Monotonic or cyclic per implementation; unique within a window</td></tr>
+  <tr><td>4</td><td>Reserved bits</td><td>4</td><td>Set to 0</td><td>Kept for future expansion</td></tr>
+</table>

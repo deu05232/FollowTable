@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Route Sheet – Process Parameters for Blind Rivet Components (Shop Floor)</caption>
+  <thead>
+    <tr><th>Component</th><th>Operation</th><th>Machine/Station</th><th>Key Setting</th><th>Coolant/Lubricant</th><th>Cycle Time (s)</th><th>In-Process Check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Rivet body</td><td>CNC turning</td><td>Lathe-CK6150</td><td>Spindle 2200 rpm</td><td>Emulsion 6%</td><td>18</td><td>Visual burr check</td></tr>
+    <tr><td>Rivet body</td><td>Thread rolling</td><td>Rol-TR30</td><td>Feed 0.25 mm/rev</td><td>Rolling oil ISO VG32</td><td>12</td><td>Go/No-Go gauge</td></tr>
+    <tr><td>Mandrel</td><td>Knurling</td><td>Knurl-KN12</td><td>Pitch 0.3 mm</td><td>Cutting oil</td><td>9</td><td>Knurl pattern OK</td></tr>
+    <tr><td>Sleeve</td><td>Deep drawing</td><td>Press-160T</td><td>Blank holder 28 kN</td><td>Dry film lube</td><td>7</td><td>Wrinkle inspection</td></tr>
+    <tr><td>Drive nut</td><td>Oxidation line</td><td>OX-02</td><td>Bath 75°C / 12 min</td><td>—</td><td>—</td><td>Coating visual</td></tr>
+    <tr><td>Washer</td><td>Injection molding</td><td>IM-90T</td><td>Melt 205°C</td><td>—</td><td>22</td><td>Flash inspection</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>Piecewise Bin-Rules and Formulas for Hydrologic & Climate Regulation Indices</caption>
+  <thead>
+    <tr><th>Indicator</th><th>Ecosystem Context</th><th>Bin / Threshold Range</th><th>Computation Rule (Formula String)</th><th>Score</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Water retention index</td><td>Forest</td><td>NDVI in (0.0, 0.2]</td><td>WR = 0.12 + 0.50·NDVI</td><td>1</td></tr>
+    <tr><td>Water retention index</td><td>Forest</td><td>NDVI in (0.2, 0.5]</td><td>WR = 0.18 + 0.62·NDVI</td><td>2</td></tr>
+    <tr><td>Water retention index</td><td>Forest</td><td>NDVI in (0.5, 1.0]</td><td>WR = 0.25 + 0.70·NDVI</td><td>3</td></tr>
+    <tr><td>Carbon regulation index</td><td>Grassland</td><td>Biomass in (0, 150] g/m²</td><td>CR = 0.003·B + 0.20</td><td>1</td></tr>
+    <tr><td>Carbon regulation index</td><td>Grassland</td><td>Biomass in (150, 300] g/m²</td><td>CR = 0.004·B + 0.15</td><td>2</td></tr>
+    <tr><td>Carbon regulation index</td><td>Grassland</td><td>Biomass in (300, 600] g/m²</td><td>CR = 0.005·B + 0.10</td><td>3</td></tr>
+    <tr><td>Evaporation adjustment factor</td><td>Open water</td><td>Wind speed in (0, 2] m/s</td><td>K = 0.58 + 0.03·U</td><td>Low</td></tr>
+    <tr><td>Evaporation adjustment factor</td><td>Open water</td><td>Wind speed in (2, 5] m/s</td><td>K = 0.62 + 0.02·U</td><td>Medium</td></tr>
+    <tr><td>Evaporation adjustment factor</td><td>Open water</td><td>Wind speed in (5, 12] m/s</td><td>K = 0.70 + 0.01·U</td><td>High</td></tr>
+  </tbody>
+</table>

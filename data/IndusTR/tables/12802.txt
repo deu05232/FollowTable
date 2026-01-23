@@ -1,0 +1,15 @@
+<table>
+  <caption>Trash and Leaf Grade Limits for Natural Colored Fine-Staple Cotton (HVI/AFIS Metrics)</caption>
+  <thead>
+    <tr><th rowspan="2">Grade</th><th rowspan="2">Code</th><th colspan="3">Measured impurity limits</th><th rowspan="2">Acceptance rule</th></tr>
+    <tr><th>Trash area (%)</th><th>Trash count (cnt/100 g)</th><th>Leaf grade (index)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Very clean</td><td>T1</td><td>≤ 0.40</td><td>≤ 60</td><td>≤ 1.0</td><td>All three limits must be met</td></tr>
+    <tr><td>Clean</td><td>T2</td><td>0.41–0.90</td><td>61–120</td><td>1.1–2.0</td><td>All three limits must be met</td></tr>
+    <tr><td>Moderate</td><td>T3</td><td>0.91–1.60</td><td>121–200</td><td>2.1–3.0</td><td>All three limits must be met</td></tr>
+    <tr><td>Dirty</td><td>T4</td><td>1.61–2.50</td><td>201–320</td><td>3.1–4.0</td><td>All three limits must be met</td></tr>
+    <tr><td>Very dirty</td><td>T5</td><td>> 2.50</td><td>> 320</td><td>> 4.0</td><td>If any one metric exceeds T4, classify as T5</td></tr>
+    <tr><td>Severely contaminated</td><td>T6</td><td>≥ 4.00</td><td>≥ 500</td><td>≥ 6.0</td><td>Overrides T5 when any threshold is reached</td></tr>
+  </tbody>
+</table>

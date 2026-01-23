@@ -1,0 +1,14 @@
+<table>
+  <caption>Mapping of Curve-Based Fire Ratings with Application and Performance Properties</caption>
+  <thead>
+    <tr><th>Curve type</th><th>Rating code at 1.0 h</th><th>Rating code at 2.0 h</th><th>Rating code at 3.0 h</th><th>Recommended DFT range (mm)</th><th>VOC content (g/L)</th><th>Pot life (min)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cellulosic temperature-rise curve</td><td>Fp1.00</td><td>Fp2.00</td><td>Fp3.00</td><td>1.5–3.0</td><td>≤ 200</td><td>45</td></tr>
+    <tr><td>Hydrocarbon temperature-rise curve</td><td>Ft1.00</td><td>Ft2.00</td><td>Ft3.00</td><td>2.0–4.5</td><td>≤ 250</td><td>30</td></tr>
+    <tr><td>Petrochemical temperature-rise curve</td><td>Fs1.00</td><td>Fs2.00</td><td>Fs3.00</td><td>2.5–5.0</td><td>≤ 250</td><td>30</td></tr>
+    <tr><td>RABT temperature-rise curve</td><td>Fb1.00</td><td>Fb2.00</td><td>Fb3.00</td><td>3.0–6.0</td><td>≤ 150</td><td>25</td></tr>
+    <tr><td>External fire curve</td><td>Fe1.00</td><td>Fe2.00</td><td>Fe3.00</td><td>1.0–2.5</td><td>≤ 200</td><td>50</td></tr>
+    <tr><td>Smouldering curve</td><td>Fm1.00</td><td>Fm2.00</td><td>Fm3.00</td><td>0.8–2.0</td><td>≤ 120</td><td>60</td></tr>
+  </tbody>
+</table>

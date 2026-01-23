@@ -1,0 +1,17 @@
+<table>
+  <caption>Enterprise Supervision and Compliance Event Records (Administrative Management)</caption>
+  <thead>
+    <tr><th>Data Item Name</th><th>Field Name</th><th>Data Type and Format</th><th>Value Domain</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Inspection Task ID</td><td>InspTaskID</td><td>C..32</td><td></td><td>Unique identifier for an inspection task</td></tr>
+    <tr><td>Inspection Date</td><td>InspDate</td><td>D(YYYY-MM-DD)</td><td></td><td>Date when the inspection occurred</td></tr>
+    <tr><td>Inspecting Agency</td><td>InspAgency</td><td>C..120</td><td></td><td>Government department conducting the inspection</td></tr>
+    <tr><td>Inspection Type</td><td>InspType</td><td>C..30</td><td>Routine; Special; Follow-up</td><td>Category of supervision activity</td></tr>
+    <tr><td>Compliance Result</td><td>ComplianceResult</td><td>C..20</td><td>Pass; Rectify; Fail</td><td>Outcome of inspection</td></tr>
+    <tr><td>Rectification Deadline</td><td>RectifyDueDate</td><td>D(YYYY-MM-DD)</td><td></td><td>Required completion date for rectification</td></tr>
+    <tr><td>Penalty Decision Number</td><td>PenaltyDecisionNo</td><td>C..40</td><td></td><td>Administrative punishment decision reference</td></tr>
+    <tr><td>Penalty Amount</td><td>PenaltyAmount</td><td>N(12,2)</td><td></td><td>Monetary fine amount</td></tr>
+    <tr><td>Follow-up Status</td><td>FollowUpStatus</td><td>C..20</td><td>Open; Closed</td><td>Whether the case is still under supervision</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Sanitary Equipment Performance Parameters (Handheld Bidet Sprayer)</caption>
+  <thead>
+    <tr><th>Parameter Code</th><th>Performance Parameter</th><th>Unit</th><th>Constraint / Test Condition</th><th>Requirement Level</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SE-HBS-001</td><td>Operating Water Pressure Range</td><td>MPa</td><td>Measured at inlet; ambient water 10–25°C</td><td>Mandatory</td></tr>
+    <tr><td>SE-HBS-002</td><td>Rated Flow Rate</td><td>L/min</td><td>At 0.3 MPa static pressure</td><td>Mandatory</td></tr>
+    <tr><td>SE-HBS-003</td><td>Spray Pattern Coverage Diameter</td><td>mm</td><td>At 200 mm standoff distance</td><td>Optional</td></tr>
+    <tr><td>SE-HBS-004</td><td>Nozzle Orifice Diameter</td><td>mm</td><td>Per design drawing; verify by gauge</td><td>Mandatory</td></tr>
+    <tr><td>SE-HBS-005</td><td>Leakage Rate Under Pressure Hold</td><td>mL/min</td><td>Hold 0.8 MPa for 5 min</td><td>Mandatory</td></tr>
+    <tr><td>SE-HBS-006</td><td>Pressure Drop Across Valve at Rated Flow</td><td>kPa</td><td>Measured at rated flow with clean filter</td><td>Optional</td></tr>
+    <tr><td>SE-HBS-007</td><td>Water Shutoff Response Time</td><td>s</td><td>From trigger release to flow cessation</td><td>Optional</td></tr>
+    <tr><td>SE-HBS-008</td><td>Cycle Life (Trigger Actuation)</td><td>cycles</td><td>Functional after 50,000 actuations</td><td>Mandatory</td></tr>
+  </tbody>
+</table>

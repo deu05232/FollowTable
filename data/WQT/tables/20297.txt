@@ -1,0 +1,11 @@
+# Private and special-use IPv4 blocks side-by-side (mixed overview)
+
+| CIDR block | Range | Label | Category | Notes |
+| --- | --- | --- | --- | --- |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | RFC1918 private | Private | Common enterprise LAN |
+| 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | RFC1918 private | Private | Internal addressing |
+| 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | RFC1918 private | Private | Home/SMB networks |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Special-use | Host-local only |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared space | Special-use | CGNAT deployments |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local | Special-use | Auto-config |
+| 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | TEST-NET-1 | Special-use | Documentation examples |

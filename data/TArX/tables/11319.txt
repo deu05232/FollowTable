@@ -1,0 +1,14 @@
+<table>
+  <caption>AMBT1 tuning observables and ranges together with generator parameter sampling setup (mixed with sampling info).</caption>
+  <thead>
+    <tr><th>Observable used in AMBT1</th><th>Tuning range</th><th>Generator parameter scanned</th><th>Sampling range</th><th>Step / scheme</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Charged multiplicity Nch (|η|<2.5)</td><td>6 ≤ Nch ≤ 60</td><td>PARP(82)</td><td>1.2 … 3.6</td><td>Latin hypercube</td></tr>
+    <tr><td>dNch/dη</td><td>-2.5 < η < 2.5</td><td>PARP(90)</td><td>0.15 … 0.35</td><td>uniform</td></tr>
+    <tr><td>pT spectrum of charged particles</td><td>0.5 ≤ pT ≤ 5.0 GeV</td><td>PARP(78)</td><td>0.0 … 0.8</td><td>grid</td></tr>
+    <tr><td>⟨pT⟩ vs Nch</td><td>Nch ≥ 20</td><td>PARP(83)</td><td>1.0 … 2.2</td><td>uniform</td></tr>
+    <tr><td>Transverse-region charged density (UE)</td><td>pT(lead) ≥ 5 GeV</td><td>pT0Ref</td><td>1.6 … 2.6</td><td>log-uniform</td></tr>
+    <tr><td>Δφ distribution relative to leading track</td><td>0 ≤ Δφ ≤ π</td><td>CR strength</td><td>0.1 … 1.0</td><td>random scan</td></tr>
+  </tbody>
+</table>

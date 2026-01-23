@@ -1,0 +1,25 @@
+<table>
+  <caption>ECG Monitor Performance Parameters</caption>
+  <tr><td>Data Element Identifier</td><td>Data Element Name</td><td>Specialized Data Entity Constraint Condition</td></tr>
+  <tr><td>H1032A0000</td><td>Monitoring Parameters</td><td>B</td></tr>
+  <tr><td>H1033A0000</td><td>Heart Rate Measurement Range</td><td>B</td></tr>
+  <tr><td>H1034A0000</td><td>Voltage Measurement Error</td><td>B</td></tr>
+  <tr><td>H1035A0000</td><td>Amplitude-Frequency Characteristics</td><td>B</td></tr>
+  <tr><td>H1036A0000</td><td>Pulse Monitoring Range</td><td>B</td></tr>
+  <tr><td>H1037A0000</td><td>Pulse Monitoring Accuracy</td><td>B</td></tr>
+  <tr><td>H1038A0000</td><td>Arrhythmia Analysis</td><td>B</td></tr>
+  <tr><td>H1041A0000</td><td>Blood Pressure Measurement Range</td><td>B</td></tr>
+  <tr><td>H1046A0000</td><td>SAC Respiratory Rate Monitoring Range</td><td>B</td></tr>
+  <tr><td>H1039A0000</td><td>Oxygen Saturation Monitoring Range</td><td>A</td></tr>
+  <tr><td>H1040A0000</td><td>Oxygen Saturation Monitoring Accuracy</td><td>A</td></tr>
+  <tr><td>H1042A0000</td><td>Repeatability of Blood Pressure Indication</td><td>A</td></tr>
+  <tr><td>H1043A0000</td><td>Static Pressure Indication Error</td><td>A</td></tr>
+  <tr><td>H1044A0000</td><td>Blood Pressure Measurement Accuracy</td><td>A</td></tr>
+  <tr><td>H1045A0000</td><td>Blood Pressure Measurement Mode</td><td>A</td></tr>
+  <tr><td>H1047A0000</td><td>Respiratory Rate Monitoring Accuracy</td><td>A</td></tr>
+  <tr><td>H1048A0000</td><td>Whether Equipped with Apnea Alarm Function</td><td>A</td></tr>
+  <tr><td>H1049A0000</td><td>Body Temperature Measurement Range</td><td>A</td></tr>
+  <tr><td>H1050A0000</td><td>Body Temperature Measurement Accuracy</td><td>A</td></tr>
+  <tr><td>H1051A0000</td><td>Alarm Mode</td><td>A</td></tr>
+  <tr><td colspan="3">Note: In the table, “A” indicates the corresponding data element is optional; “B” indicates the corresponding data element is mandatory.</td></tr>
+</table>

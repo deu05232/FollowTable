@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal Climatic Environmental Adaptability Test Requirements</caption>
+  <tr><td>Test item</td><td>Test parameter</td><td>Test condition</td><td>Specific requirements</td></tr>
+  <tr><td rowspan="2">Low-temperature test (operating state)</td><td>Temperature/℃</td><td>-20</td><td rowspan="2">During the test, power on at the nominal voltage; after the test, check functionality</td></tr>
+  <tr><td>Duration/h</td><td>8</td></tr>
+  <tr><td rowspan="2">Low-temperature test (storage state)</td><td>Temperature/℃</td><td>-40</td><td rowspan="2">During the test, do not power on; after the test, check functionality</td></tr>
+  <tr><td>Duration/h</td><td>8</td></tr>
+  <tr><td rowspan="2">High-temperature test (operating state)</td><td>Temperature/℃</td><td>70</td><td rowspan="2">During the test, power on at the rated voltage; after the test, check functionality</td></tr>
+  <tr><td>Duration/h</td><td>8</td></tr>
+  <tr><td rowspan="2">High-temperature test (storage state)</td><td>Temperature/℃</td><td>85</td><td rowspan="2">During the test, do not power on; after the test, check functionality</td></tr>
+  <tr><td>Duration/h</td><td>8</td></tr>
+  <tr><td rowspan="3">Constant damp heat test (operating state)</td><td>Temperature/℃</td><td>40±2</td><td rowspan="3">Not powered on for 12 h; powered on for 12 h at the rated voltage</td></tr>
+  <tr><td>Relative humidity/%</td><td>90</td></tr>
+  <tr><td>Duration/h</td><td>24</td></tr>
+</table>

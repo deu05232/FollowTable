@@ -1,0 +1,15 @@
+<table>
+  <caption>GS1 Application Identifiers for Agricultural Inputs: Element Strings and Data Formats</caption>
+  <thead>
+    <tr><th>Element string name</th><th>Application identifier (AI)</th><th>Data field format</th><th>Fixed/Variable</th><th>Mandatory</th><th>Example value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Global Trade Item Number</td><td>01</td><td>N14</td><td>Fixed</td><td>Yes</td><td>09506000123456</td></tr>
+    <tr><td>Batch/Lot number</td><td>10</td><td>X..20</td><td>Variable</td><td>No</td><td>LOT2026A</td></tr>
+    <tr><td>Serial number</td><td>21</td><td>X..20</td><td>Variable</td><td>No</td><td>SN9K2A31</td></tr>
+    <tr><td>Production date</td><td>11</td><td>N6 (YYMMDD)</td><td>Fixed</td><td>No</td><td>260118</td></tr>
+    <tr><td>Expiration date</td><td>17</td><td>N6 (YYMMDD)</td><td>Fixed</td><td>No</td><td>270118</td></tr>
+    <tr><td>Net weight (kg)</td><td>3103</td><td>N6</td><td>Fixed</td><td>No</td><td>000875</td></tr>
+    <tr><td>Country of origin</td><td>422</td><td>N3</td><td>Fixed</td><td>No</td><td>156</td></tr>
+  </tbody>
+</table>

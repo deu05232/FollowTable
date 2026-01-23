@@ -1,0 +1,15 @@
+<table>
+  <caption>Model Catalog with Mixed Performance Claims (Grades Embedded per Model, Not as Threshold Columns)</caption>
+  <thead>
+    <tr><th>Brand</th><th>Model</th><th>Appliance Type</th><th>Declared Grade</th><th>Key Performance Claim</th><th>Measured Steam Waiting Time (s)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Aurora</td><td>AI-2200</td><td>Corded steam iron</td><td>AAAAA</td><td>High stability thermostat</td><td>38</td><td>Grade shown as marketing label, no indicator thresholds</td></tr>
+    <tr><td>Aurora</td><td>AG-3000</td><td>Steam generator iron</td><td>AAAA</td><td>Fast crease removal</td><td>52</td><td>Measured on cotton; protocol not standardized here</td></tr>
+    <tr><td>Boreal</td><td>BS-150</td><td>Handheld garment steamer (pump)</td><td>AAAA</td><td>Quick steam start</td><td>41</td><td>No pass/fail boundaries across grades</td></tr>
+    <tr><td>Boreal</td><td>BU-900</td><td>Upright steamer (atmospheric)</td><td>AAA</td><td>Large tank for long sessions</td><td>140</td><td>Type-dependent behavior mixed into catalog</td></tr>
+    <tr><td>Celsius</td><td>CP-8</td><td>Pressurized steamer</td><td>AAAAA</td><td>Continuous steam output</td><td>615</td><td>High waiting time but still labeled top grade</td></tr>
+    <tr><td>Deltawave</td><td>DT-60</td><td>Travel iron</td><td>AA</td><td>Compact heating</td><td>75</td><td>Not comparable to full-size irons</td></tr>
+    <tr><td>Ember</td><td>ES-200</td><td>Corded steam iron</td><td>AAA</td><td>Basic steam burst</td><td>58</td><td>Only per-model values, no grading rule table</td></tr>
+  </tbody>
+</table>

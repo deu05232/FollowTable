@@ -1,0 +1,15 @@
+<table>
+  <caption>Common Validation Failures in Traditional Mongolian Text (Font/Glyph-Oriented, No U+ Notation)</caption>
+  <thead>
+    <tr><th>Category</th><th>Symptom in Rendering</th><th>Likely Cause (Described)</th><th>Bad Example (Rendered)</th><th>Recommended Fix (Described)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Unexpected ligature</td><td>Letters fuse into an unintended shape</td><td>Hidden joiner present or missing non-joiner</td><td>ᠪᠠᠬᠠ (looks like another word)</td><td>Remove invisible joiner or insert a non-joining control</td></tr>
+    <tr><td>Broken word shape</td><td>Word appears as two pieces</td><td>Accidental whitespace or line-breakable space inserted</td><td>ᠮᠣᠩᠭᠣᠯ ᠬᠡᠯᠡ</td><td>Replace with normal joining context; keep word continuous</td></tr>
+    <tr><td>Wrong medial form</td><td>Middle letter uses wrong stylistic variant</td><td>Variation selector omitted</td><td>ᠬᠡᠯᠡᠨ (nonstandard shape)</td><td>Use the standard variant in your IME or dictionary</td></tr>
+    <tr><td>Overuse of selectors</td><td>Text becomes unstable across fonts</td><td>Too many variation selectors added to force a look</td><td>ᠴᠢᠩᠭᠢᠰ (inconsistent across fonts)</td><td>Use selectors only where orthography requires them</td></tr>
+    <tr><td>Suffix boundary confusion</td><td>Suffix attaches visually when it shouldn't</td><td>Missing separator control for morpheme boundary</td><td>ᠨᠣᠮᠢᠨᠳᠠᠢ</td><td>Insert the proper separator control between stem and suffix</td></tr>
+    <tr><td>Search mismatch</td><td>Two identical-looking strings do not match</td><td>Invisible controls differ between strings</td><td>ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ vs ᠮᠣᠩᠭᠣᠯ ᠪᠢᠴᠢᠭ</td><td>Normalize by removing/standardizing invisible spacing controls</td></tr>
+    <tr><td>Line break oddities</td><td>Break occurs inside a name</td><td>Using breakable space instead of non-breakable space</td><td>ᠬᠠᠭᠠᠨ ᠪᠠᠭ᠎ᠠᠲᠤᠷ</td><td>Use non-breaking spacing behavior for UI labels</td></tr>
+  </tbody>
+</table>

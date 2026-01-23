@@ -1,0 +1,14 @@
+<table>
+  <caption>Capture-Related Elements for Fingerprint / Palmprint Evaluation Datasets (Categorical Fields)</caption>
+  <tr><th>No.</th><th>Element</th><th>Example of Element Content</th></tr>
+  <tr><td>1</td><td>Trait Type</td><td>Fingerprint; Palmprint; Thumbprint; Latent print</td></tr>
+  <tr><td>2</td><td>Acquisition Mode</td><td>Flat (plain); Rolled; Slap (4-4-2); Latent-lift</td></tr>
+  <tr><td>3</td><td>Contact Type</td><td>Contact-based; Contactless</td></tr>
+  <tr><td>4</td><td>Sensor Technology (contact-based)</td><td>Optical; Capacitive; Ultrasonic; Thermal</td></tr>
+  <tr><td>5</td><td>Imaging Spectrum (contactless)</td><td>Visible (VIS); Near-infrared (NIR)</td></tr>
+  <tr><td>6</td><td>Capture Device Form Factor</td><td>Desktop scanner; Mobile attachment; Integrated kiosk; Smartphone camera</td></tr>
+  <tr><td>7</td><td>Capture Environment</td><td>Indoor controlled; Indoor public; Outdoor shaded; Outdoor direct sun</td></tr>
+  <tr><td>8</td><td>Hand/Finger Condition</td><td>Normal; Dry; Wet/oily; Worn/abrasion; Bandaged</td></tr>
+  <tr><td>9</td><td>Acquisition Supervision</td><td>Operator-assisted; Self-capture guided; Self-capture unguided</td></tr>
+  <tr><td>10</td><td>Sample Status</td><td>Enrollment; Verification; Identification (probe); Re-capture</td></tr>
+</table>

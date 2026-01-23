@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Frame API Quick Notes (Mixed Parameters Per Row)</caption>
+  <thead>
+    <tr><th>API Call</th><th>Parameter Bundle</th><th>Primary Output</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_getCameraPose</td><td>session: ArSession*, frame: ArFrame*, out_pose: ArPose*</td><td>out_pose</td><td>Returns camera pose for the current frame</td></tr>
+    <tr><td>ArFrame_acquireCameraImage</td><td>session: ArSession*, frame: ArFrame*, out_image: ArImage**</td><td>out_image</td><td>Acquires CPU image; must release</td></tr>
+    <tr><td>ArFrame_getCameraTextureName</td><td>session: ArSession*, frame: ArFrame*, out_texture_id: uint32_t*</td><td>out_texture_id</td><td>GL texture name for external texture</td></tr>
+    <tr><td>ArFrame_getLightEstimate</td><td>session: ArSession*, frame: ArFrame*, out_light_estimate: ArLightEstimate*</td><td>out_light_estimate</td><td>Populates lighting estimation struct</td></tr>
+    <tr><td>ArFrame_getUpdatedAnchors</td><td>session: ArSession*, frame: ArFrame*, out_anchor_list: ArAnchorList*</td><td>out_anchor_list</td><td>List of anchors updated in this frame</td></tr>
+    <tr><td>ArFrame_acquireDepthImage16Bits</td><td>session: ArSession*, frame: ArFrame*, out_depth_image: ArImage**</td><td>out_depth_image</td><td>Depth image acquisition (16-bit)</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+# Default Administrative Distance Values by Route Source (Acronyms Only Quick Reference)
+
+| Route Source / Protocol | Default Administrative Distance |
+| --- | --- |
+| C (Connected) | 0 |
+| S (Static) | 1 |
+| D (EIGRP internal) | 90 |
+| EX (EIGRP external) | 170 |
+| O (OSPF) | 110 |
+| IA (OSPF inter-area) | 110 |
+| i (IS-IS) | 115 |
+| R (RIP) | 120 |
+| B (BGP external) | 20 |
+| iBGP | 200 |
+| L (Local) | 0 |

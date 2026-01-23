@@ -1,0 +1,28 @@
+<table>
+  <caption>Lane changing occurring with probability p c from the right lane to the left lane ( R → L ) and from the left lane to the right lane ( L → R ) and safety conditions for lane changing [ KKl2003A ]</caption>
+  <tr><td>Incentive conditions for lane changing:</td></tr>
+  <tr><td>R→ L : v^(+)_(n)≥ v_(,n)+δ_(1) and v_(n)≥ v_(,n) ,</td></tr>
+  <tr><td>L→ R : v^(+)_(n)>v_(,n)+δ_(1) or v^(+)_(n)>v_(n)+δ_(1) .</td></tr>
+  <tr><td>In conditions R→ L and L→ R , the value v^(+)_(n) at g^(+)_(n)>L_(a)</td></tr>
+  <tr><td>and the value v_(,n) at g_(n)>L_(a) are replaced by ∞ , where L_(a) is constant.</td></tr>
+  <tr><td>Safety conditions for lane changing:</td></tr>
+  <tr><td>rules ( * ): g^(+)_(n)>(v_(n)τ,\ G^(+)_(n)) , g^(-)_(n)>(v^(-)_(n)τ,\ G^(-)_(n)) , where</td></tr>
+  <tr><td>G^(+)_(n)=G(v_(n),v^(+)_(n)) , G^(-)_(n)=G(v^(-)_(n),v_(n)) ,</td></tr>
+  <tr><td>or</td></tr>
+  <tr><td>rule ( ** ): x^(+)_(n)-x^(-)_(n)-d>g^((min))_(target) with g^((min))_(target)=λ v^(+)_(n)+d ,</td></tr>
+  <tr><td>the vehicle should pass the midpoint point</td></tr>
+  <tr><td>x^((m))_(n)=(x^(+)_(n)+x^(-)_(n))/2</td></tr>
+  <tr><td>between two neighboring vehicles in the target lane, i.e.,</td></tr>
+  <tr><td>[]llx_(n-1)</td></tr>
+  <tr><td>Speed after lane changing:</td></tr>
+  <tr><td>v_(n)=_(n) , _(n)=(v^(+)_(n),\ v_(n)+Δ v^((1))) ,</td></tr>
+  <tr><td>in _(n) the speed v_(n) is related to the initial lane before lane changing.</td></tr>
+  <tr><td>Vehicle coordinate after lane changing:</td></tr>
+  <tr><td>Vehicle coordinate does not changes under the rules ( * )</td></tr>
+  <tr><td>and it changes to x_(n)=x^((m))_(n) under the rule ( ** ).</td></tr>
+  <tr><td>λ , δ_(1) , Δ v^((1)) are constants; superscripts + and - in variables, parameters,</td></tr>
+  <tr><td>and functions denote the preceding vehicle and the trailing vehicle</td></tr>
+  <tr><td>in the `` target” (neighbouring) lane, respectively;</td></tr>
+  <tr><td>the target lane is the lane into which the vehicle wants to change.</td></tr>
+  <tr><td>G(u,w) is given in Table LABEL:table_CA3 .</td></tr>
+</table>

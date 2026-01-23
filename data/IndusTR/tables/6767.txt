@@ -1,0 +1,15 @@
+<table>
+  <caption>User Terminal Application File — Device Identity Fields</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Size (bytes)</th><th>Encoding / Format</th><th>Meaning (Identifier Focus)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Terminal Device ID (T-DID)</td><td>6</td><td>Hex (48-bit)</td><td>Primary unique identifier for the terminal device; used to distinguish one terminal from another.</td></tr>
+    <tr><td>IMEI (packed)</td><td>8</td><td>BCD; 15 digits + trailing nibble 0xF padding</td><td>International Mobile Equipment Identity of the device; uniquely identifies the mobile equipment.</td></tr>
+    <tr><td>Hardware Serial Number (HSN)</td><td>10</td><td>ASCII (uppercase A–Z, 0–9)</td><td>Manufacturer-assigned serial number used for device-level identification and inventory tracking.</td></tr>
+    <tr><td>Secure Element Identifier (SEID)</td><td>8</td><td>Hex</td><td>Identifier of the embedded secure element/UICC used by the terminal application.</td></tr>
+    <tr><td>Device Model Code</td><td>2</td><td>Unsigned integer (big-endian)</td><td>Identifies the terminal model variant to interpret device-specific behaviors tied to an identifiable model family.</td></tr>
+    <tr><td>Device Vendor ID</td><td>2</td><td>Unsigned integer (big-endian)</td><td>Identifies the vendor/manufacturer; used alongside model code to form a unique vendor-model tuple.</td></tr>
+    <tr><td>Terminal MAC Address</td><td>6</td><td>Hex (48-bit)</td><td>Network-layer unique identifier for the terminal’s interface (when applicable).</td></tr>
+  </tbody>
+</table>

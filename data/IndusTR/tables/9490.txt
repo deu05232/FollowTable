@@ -1,0 +1,15 @@
+<table>
+  <caption>Step-by-Step OID Instance Template for Construction Machinery Metadata and Product Traceability</caption>
+  <thead>
+    <tr><th>Position</th><th>Template field</th><th>Example value</th><th>Value type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Sector OID root</td><td>1.2.156.3514</td><td>Fixed OID</td><td>Construction machinery sector root</td></tr>
+    <tr><td>2</td><td>System sub-node</td><td>1003</td><td>Node number</td><td>Existing identification system node (example)</td></tr>
+    <tr><td>3</td><td>Enterprise identifier</td><td>12100000400002195R</td><td>USCC string</td><td>Enterprise code used for the enterprise branch</td></tr>
+    <tr><td>4</td><td>Facility/plant code</td><td>PLANT-07</td><td>Alphanumeric</td><td>Internal facility code</td></tr>
+    <tr><td>5</td><td>Production batch</td><td>B2026-01</td><td>Batch string</td><td>Batch metadata used in traceability</td></tr>
+    <tr><td>6</td><td>Product model</td><td>LW500FN</td><td>Model string</td><td>Model identifier in catalog</td></tr>
+    <tr><td>7</td><td>Leaf metadata item</td><td>01.01002</td><td>Metadata code</td><td>Example metadata leaf for product-name attribute</td></tr>
+  </tbody>
+</table>

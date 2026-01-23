@@ -1,0 +1,58 @@
+<table>
+  <caption>Closable Caption Time Information Syntax Structure Table</caption>
+  <tr><td>Time Information Syntax</td><td>Descriptor</td></tr>
+  <tr><td>time_infomationO {</td><td></td></tr>
+  <tr><td>time_reference</td><td>u(2)</td></tr>
+  <tr><td>time_format</td><td>u(2)</td></tr>
+  <tr><td>end_type</td><td>u(2)</td></tr>
+  <tr><td>reserved</td><td>r(2）</td></tr>
+  <tr><td>if(time_format == 1){</td><td></td></tr>
+  <tr><td>reserved</td><td>BSLBF(4)</td></tr>
+  <tr><td>PTS[32..30]</td><td>BSLBF(3)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>PTS[29..15]</td><td>BSLBF(15)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>PTS[14..0]</td><td>BSLBF(15)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>if(end_type == 0){</td><td></td></tr>
+  <tr><td>reserved</td><td>BSLBF(4)</td></tr>
+  <tr><td>ETS[32..30]</td><td>BSLBF(3)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>ETS[29..15]</td><td>BSLBF(15)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>ETS[14..0]</td><td>BSLBF(15)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>Wide</td><td></td></tr>
+  <tr><td>if(end_type == 1){</td><td></td></tr>
+  <tr><td>reserved</td><td>BSLBF(4)</td></tr>
+  <tr><td>duration[32..30]</td><td>BSLBF(3)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>duration[29..15]</td><td>BSLBF(15)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>duration[14..0]</td><td>BSLBF(15)</td></tr>
+  <tr><td>marker_bit</td><td>BSLBF(1)</td></tr>
+  <tr><td>One</td><td></td></tr>
+  <tr><td>Wide</td><td></td></tr>
+  <tr><td>if(time_format == 2){</td><td></td></tr>
+  <tr><td>start_hour_add_1</td><td>u（8）</td></tr>
+  <tr><td>start_minute_add_1</td><td>u（8）</td></tr>
+  <tr><td>start_second_add_1</td><td>u（8）</td></tr>
+  <tr><td>start_millisecond_add_1</td><td>u（10）</td></tr>
+  <tr><td>reserved</td><td>r(6）</td></tr>
+  <tr><td>if(end_type == 0){</td><td></td></tr>
+  <tr><td>end_hour_add_1</td><td>u（8)</td></tr>
+  <tr><td>end_minute_add_1</td><td>u（8）</td></tr>
+  <tr><td>end_second_add_1</td><td>u（8）</td></tr>
+  <tr><td>end_millisecond_add_1</td><td>u(10）</td></tr>
+  <tr><td>reserved</td><td>r(6）</td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>if(end_type == 1){</td><td></td></tr>
+  <tr><td>duration_hour_add_1</td><td>u（8)</td></tr>
+  <tr><td>duration_minute_add_1</td><td>u（8）</td></tr>
+  <tr><td>duration_second_add_1</td><td>u（8）</td></tr>
+  <tr><td>duration_millisecond_add_1</td><td>u（10）</td></tr>
+  <tr><td>reserved</td><td>r(6)</td></tr>
+  <tr><td>）</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

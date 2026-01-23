@@ -1,0 +1,7 @@
+<table>
+  <caption>Charging communication CAN message list (extended set)</caption>
+  <tr><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Data Length (BYTE)</th><th>Message Period (ms)</th><th>Source Address - Destination Address</th></tr>
+  <tr><td>BST</td><td>Battery Status Message</td><td>4864</td><td>001300H</td><td>7</td><td>8</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CLT</td><td>Charger Limit Message</td><td>5120</td><td>001400H</td><td>6</td><td>6</td><td>500</td><td>Charger - Vehicle</td></tr>
+  <tr><td>VIN</td><td>Vehicle Identification Message</td><td>5376</td><td>001500H</td><td>6</td><td>8</td><td>1000</td><td>Vehicle - Charger</td></tr>
+</table>

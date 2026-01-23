@@ -1,0 +1,9 @@
+<table>
+  <caption>Requirements for AC Withstand Voltage Test Voltage and Leakage Current of Electric Compressors</caption>
+  <tr><td>Rated voltage UN V</td><td>Test voltage (RMS) V</td><td>Power supply capacity kVA</td><td>Power supply frequency Hz</td><td>Voltage duration S</td><td>Leakage current mA</td></tr>
+  <tr><td>≤60</td><td>500</td><td rowspan="5">1</td><td rowspan="5">50~60 sine wave</td><td rowspan="5">60</td><td>≤5</td></tr>
+  <tr><td>>60~125</td><td>1000</td><td rowspan="2">≤10</td></tr>
+  <tr><td>>125~250</td><td>1500</td></tr>
+  <tr><td>>250~500</td><td>2000</td><td>≤20</td></tr>
+  <tr><td>>500</td><td>1000+2UN</td><td>≤25</td></tr>
+</table>

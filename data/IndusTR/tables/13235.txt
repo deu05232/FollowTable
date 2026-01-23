@@ -1,0 +1,7 @@
+<table>
+  <caption>Charging communication message definition (software and configuration identifiers)</caption>
+  <tr><th>Start byte or bit</th><th>Length</th><th>Identifier</th><th>What it represents</th><th>Send option</th></tr>
+  <tr><td>1</td><td>2 bytes</td><td>CFG01</td><td>Configuration profile ID for communication parameter set</td><td>Mandatory</td></tr>
+  <tr><td>3</td><td>2 bytes</td><td>CFG02</td><td>Supported feature bitmap for protocol capabilities</td><td>Optional</td></tr>
+  <tr><td>5</td><td>2 bytes</td><td>CFG03</td><td>Diagnostic dataset revision identifier used for compatibility checks</td><td>Optional</td></tr>
+</table>

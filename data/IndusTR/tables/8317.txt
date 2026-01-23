@@ -1,0 +1,15 @@
+<table>
+  <caption>Storage and Transport Environmental Stress Conditions for Variable-Frequency Speed Regulation Equipment</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Equipment state</th><th>Temperature (°C)</th><th>Humidity limit</th><th>Exposure duration</th><th>Acceptance note (stress-focused)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cold storage (non-operating)</td><td>Power disconnected, unpacked</td><td>-25 ± 2</td><td>Not specified (avoid condensation)</td><td>16 ± 1 h</td><td>No ice formation on critical surfaces</td></tr>
+    <tr><td>Cold storage (with packaging)</td><td>Power disconnected, packaged</td><td>-40 ± 2</td><td>Not specified</td><td>8 h</td><td>Packaging not cracked or deformed</td></tr>
+    <tr><td>High-temperature storage (dry heat)</td><td>Power disconnected, unpacked</td><td>55 ± 2</td><td>Absolute humidity ≤ 20 g/m³ (at 55°C, RH ≤ 20%)</td><td>16 ± 1 h</td><td>No visible warping of plastic parts</td></tr>
+    <tr><td>High-temperature storage (operating)</td><td>Power connected, running at rated load</td><td>40 ± 2</td><td>RH 25%–75%</td><td>4 h</td><td>Stable speed regulation (no reset)</td></tr>
+    <tr><td>Damp heat, steady state</td><td>Power disconnected</td><td>40 ± 2</td><td>RH 93%–95%, no condensation</td><td>48 h</td><td>No water droplets on internal boards</td></tr>
+    <tr><td>Rapid temperature change (transport cycling)</td><td>Power disconnected, packaged</td><td>-20 to +55 (step change)</td><td>RH ≤ 75%</td><td>5 cycles, 1 h per step</td><td>No cracking due to thermal stress</td></tr>
+    <tr><td>Low atmospheric pressure (air transport)</td><td>Power disconnected, packaged</td><td>15–35</td><td>RH 25%–75%</td><td>2 h</td><td>No partial discharge signs in insulation</td></tr>
+  </tbody>
+</table>

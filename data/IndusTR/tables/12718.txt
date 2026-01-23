@@ -1,0 +1,11 @@
+<table>
+  <caption>SM9 master public key index registry (index-centric table)</caption>
+  <thead>
+    <tr><th>Key Index</th><th>Key Type</th><th>Notes</th><th>Related operation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Signature master public key</td><td>Used for signature verification</td><td>SAF_SM9Verify</td></tr>
+    <tr><td>2</td><td>Encryption master public key</td><td>Used for encrypt/key agreement</td><td>SAF_SM9Encrypt / SAF_SM9GenerateAgreementDataAndKey</td></tr>
+    <tr><td>3</td><td>Encryption master public key</td><td>Reserved for rotation</td><td>SAF_ImportSM9MasterPublicKey</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,17 @@
+<table>
+  <caption>AR Dense Spatial Map Mesh Retrieval Parameters</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session handle</td></tr>
+    <tr><td>dense_spatial_map</td><td>ArDenseSpatialMap *</td><td>Dense reconstruction map object</td></tr>
+    <tr><td>lod</td><td>ArMeshLod</td><td>Requested mesh level-of-detail</td></tr>
+    <tr><td>region_of_interest</td><td>ArAabb *</td><td>Optional axis-aligned bounds for partial mesh extraction</td></tr>
+    <tr><td>out_vertex_count</td><td>int32_t *</td><td>Receives number of vertices returned</td></tr>
+    <tr><td>out_vertices</td><td>float **</td><td>Receives pointer to packed vertex positions (x,y,z)</td></tr>
+    <tr><td>out_index_count</td><td>int32_t *</td><td>Receives number of triangle indices returned</td></tr>
+    <tr><td>out_indices</td><td>uint32_t **</td><td>Receives pointer to triangle indices</td></tr>
+    <tr><td>out_normals</td><td>float **</td><td>Receives pointer to per-vertex normals</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>AIS Message Encoding Rules and MMSI Handling Notes (Protocol-Focused)</caption>
+  <tr><th>Item</th><th>Applies To</th><th>Requirement</th></tr>
+  <tr><td>MMSI Encoding</td><td>All autonomous Class B messages</td><td>Encode as 30-bit integer; follow MMSI allocation rules</td></tr>
+  <tr><td>Reserved Values</td><td>Relay/Repeat fields</td><td>Set reserved patterns to 0 unless otherwise specified</td></tr>
+  <tr><td>Message Identifier Consistency</td><td>Messages 60–62</td><td>Identifier must match the message definition; do not reuse across types</td></tr>
+  <tr><td>Spare Bits</td><td>All payloads</td><td>Transmit spare bits as 0</td></tr>
+  <tr><td>Padding</td><td>Bitstream alignment</td><td>Pad to byte boundary using 0 bits</td></tr>
+  <tr><td>Field Ordering</td><td>Bitstream</td><td>Transmit fields MSB-first in the defined order</td></tr>
+  <tr><td>Error Handling</td><td>Receiver behavior</td><td>Discard frames with invalid check field</td></tr>
+</table>

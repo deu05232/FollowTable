@@ -1,0 +1,16 @@
+# Google Workspace Admin  Review & Audit Log Operational Fields
+
+| Log Field | Data Type | Example | Contains PII | Retention (Default) | Admin Use Case |
+| --- | --- | --- | --- | --- | --- |
+| actor.email | String | admin@company.com | Yes | 180 days | Identify who changed a setting |
+| event.name | String | DRIVE_SHARING_CHANGE | No | 180 days | Filter by event category |
+| event.timestamp | Timestamp | 2025-09-01T12:10:11Z | No | 180 days | Timeline reconstruction |
+| resource.id | String | 0Bxx123 | No | 180 days | Map event to object |
+| ipAddress | String | 203.0.113.10 | Yes | 180 days | Security investigation |
+| userAgent | String | Chrome/120 | No | 180 days | Client diagnostics |
+| geo.country | String | US | No | 180 days | Risk-based checks |
+| adminAction | String | UPDATE_POLICY | No | 180 days | Compliance reporting |
+| policyId | String | DLP_RULE_7 | No | 180 days | Trace policy changes |
+| outcome.status | Enum | SUCCESS | No | 180 days | Measure failure rates |
+| correlationId | String | 8f3a... | No | 180 days | Join across logs |
+| exportJobId | String | job_4412 | No | 180 days | Track log exports |

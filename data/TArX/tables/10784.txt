@@ -1,0 +1,14 @@
+<table>
+  <caption>ATP-driven molecular motor simulation summary with both stepping kinetics and an assumed ATP hydrolysis free-energy release</caption>
+  <thead>
+    <tr><th>ATP (mM)</th><th>Hydrolysis rate ωh (s^-1)</th><th>Velocity v (nm/ms)</th><th>Assumed ΔG per ATP</th><th>ΔG units</th><th>Comment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2.0</td><td>260</td><td>0.205</td><td>-50</td><td>kJ/mol</td><td>Energetics included alongside transport metrics</td></tr>
+    <tr><td>1.0</td><td>220</td><td>0.185</td><td>-50</td><td>kJ/mol</td><td>Same assumed driving force</td></tr>
+    <tr><td>0.5</td><td>170</td><td>0.160</td><td>-50</td><td>kJ/mol</td><td>Mixed kinetics + energetics</td></tr>
+    <tr><td>0.2</td><td>120</td><td>0.130</td><td>-50</td><td>kJ/mol</td><td>Mixed content</td></tr>
+    <tr><td>0.1</td><td>80</td><td>0.110</td><td>-50</td><td>kJ/mol</td><td>Mixed content</td></tr>
+    <tr><td>0.05</td><td>50</td><td>0.090</td><td>-50</td><td>kJ/mol</td><td>Mixed content</td></tr>
+  </tbody>
+</table>

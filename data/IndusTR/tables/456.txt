@@ -1,0 +1,9 @@
+<table>
+  <caption>Dense Tensor Creation by Specified Values Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Includes signed integers, unsigned integers, floating-point real numbers, floating-point complex numbers, boolean, etc. Default is floating-point real numbers</td></tr>
+  <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Includes CPU, GPU, NPU, FPGA and ASIC, etc. Default is CPU</td></tr>
+  <tr><td>Tensor Shape</td><td>Input</td><td>Optional</td><td>Includes tensor dimensions, dimension size array, and layout information. If layout information is not specified, the default layout is used</td></tr>
+  <tr><td>Initialization Value</td><td>Input</td><td>Optional</td><td>Data used for initialization; required to be compatible with the data type corresponding to parameter "Data Type"</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Newly created tensor</td></tr>
+</table>

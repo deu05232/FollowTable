@@ -1,0 +1,31 @@
+<table>
+  <caption>\tbllabel parametersModel parameters for fluid, vessel and tissue. We consider two values, the extremes of the listed range, for parameters indicated in bold. For the vessel without robots, the pressure gradient range corresponds to average flow speeds of \vAvg = 0.2 ⁢ – ⁢ 1 ⁢ \millimeter / \second . The corresponding hematocrit values within the cell fluid component are \hematocrit = 0.31 ⁢ – ⁢ 0.36 . See text for source references.</caption>
+  <tr><th>parameter</th><th>value</th></tr>
+  <tr><th colspan="2">geometry</th></tr>
+  <tr><th>vessel radius</th><td>R=4\,</td></tr>
+  <tr><th>tissue cylinder radius</th><td>=40\,</td></tr>
+  <tr><th>modeled vessel length</th><td>L=100\,</td></tr>
+  <tr><th colspan="2">fluid</th></tr>
+  <tr><th>ambient temperature</th><td>T=310\,</td></tr>
+  <tr><th>thermal conductivity</th><td>=0.6\,//</td></tr>
+  <tr><th>heat capacity</th><td>=4200\,//</td></tr>
+  <tr><th>fluid density</th><td>=10^(3)\,/^(3)</td></tr>
+  <tr><th>fluid viscosity</th><td>=10^(-3)\,//</td></tr>
+  <tr><th>pressure gradient</th><td>=1--5× 10^(5)\,/</td></tr>
+  <tr><th>hematocrit</th><td>=25\%</td></tr>
+  <tr><th colspan="2">tissue</th></tr>
+  <tr><th>power demand</th><td>=4--60\,/^(3)</td></tr>
+  <tr><th>concentration for half power</th><td>=10^(21)\,/^(3)</td></tr>
+  <tr><th>reaction energy from one glucose molecule</th><td>=4× 10^(-18)\,</td></tr>
+  <tr><th>density, thermal conductivity, heat capacity</th><td>same as fluid</td></tr>
+  <tr><th colspan="2">red blood cells</th></tr>
+  <tr><th>partial pressure for 50% saturation</th><td>=3500\,</td></tr>
+  <tr><th>saturation exponent</th><td>=2.7</td></tr>
+  <tr><th>time constant for unloading</th><td>=76\,</td></tr>
+  <tr><th>maximum concentration in cell</th><td>=10^(25)\,/^(3)</td></tr>
+  <tr><th>heme diffusion coefficient</th><td>=1.4× 10^(-11)\,^(2)/</td></tr>
+  <tr><th colspan="2">chemicals in plasma</th></tr>
+  <tr><th>diffusion coefficient</th><td>=2× 10^(-9)\,^(2)/</td></tr>
+  <tr><th>concentration at inlet</th><td>=3--7× 10^(22)\,/^(3)</td></tr>
+  <tr><th>partial pressure to concentration ratio</th><td>=1.6× 10^(-19)\,/(/^(3))</td></tr>
+</table>

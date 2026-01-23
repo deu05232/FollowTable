@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Test Conditions and Calibration Schedule for Satellite Data Decoders</caption>
+  <tr><th>Item</th><th>Requirement</th><th>Target Value</th><th>Tolerance</th><th>Frequency</th><th>Instrument</th></tr>
+  <tr><td>Ambient temperature</td><td>Stable environment</td><td>23</td><td>±2 °C</td><td>Continuous</td><td>Thermohygrometer</td></tr>
+  <tr><td>Relative humidity</td><td>Non-condensing</td><td>45</td><td>±10 %</td><td>Continuous</td><td>Thermohygrometer</td></tr>
+  <tr><td>Decoder bit error rate test</td><td>PRBS pattern</td><td>1e-10</td><td>max</td><td>Monthly</td><td>BER tester</td></tr>
+  <tr><td>Frequency reference</td><td>10 MHz standard</td><td>10</td><td>±0.1 ppm</td><td>Weekly</td><td>Frequency counter</td></tr>
+  <tr><td>Time synchronization</td><td>NTP/PTP check</td><td><1</td><td>ms</td><td>Daily</td><td>Time server</td></tr>
+  <tr><td>Signal level verification</td><td>IF power</td><td>-35</td><td>±3 dBm</td><td>Weekly</td><td>Power meter</td></tr>
+</table>

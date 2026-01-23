@@ -1,0 +1,16 @@
+<table>
+  <caption>Class B AIS Burst Timing vs. Slot/Bit Mapping (Transmitter Timing Requirements Mixed with Bit-Level Layout)</caption>
+  <thead>
+    <tr><th>Timing / Field Parameter</th><th>Unit</th><th>Test Condition / Mapping</th><th>Required Limit / Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Training sequence length</td><td>bit</td><td>Physical layer preamble/training</td><td>24</td></tr>
+    <tr><td>Baud rate</td><td>bit/s</td><td>Nominal symbol rate for GMSK</td><td>9600</td></tr>
+    <tr><td>TX ramp-up time</td><td>ms</td><td>From <10% to 90% envelope</td><td>≤ 2.0</td></tr>
+    <tr><td>Transmission duration per slot</td><td>ms</td><td>Full burst within a single TDMA slot</td><td>≤ 108</td></tr>
+    <tr><td>Slot number field</td><td>bit</td><td>Bit positions 39–50; indicates UTC slot index</td><td>12-bit integer</td></tr>
+    <tr><td>Communication state field</td><td>bit</td><td>Bit positions 51–70; SOTDMA/ITDMA state</td><td>Per state machine</td></tr>
+    <tr><td>CRC / FCS</td><td>bit</td><td>Trailing checksum field; polynomial per spec</td><td>16</td></tr>
+    <tr><td>Message payload padding</td><td>bit</td><td>Pad bits to align to slot boundaries</td><td>0–N</td></tr>
+  </tbody>
+</table>

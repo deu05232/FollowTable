@@ -1,0 +1,16 @@
+<table>
+  <caption>Power Transformer Efficiency Limits by Rating and Vector Group (Loss Limits at 75°C)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated Power (kVA)</th><th rowspan="2">Voltage Class</th><th rowspan="2">Vector Group</th><th rowspan="2">Tap Arrangement</th><th colspan="2">Loss Limits</th><th rowspan="2">Cooling</th><th rowspan="2">System Use</th></tr>
+    <tr><th>No-Load Loss Limit (kW)</th><th>Load Loss Limit (75°C) (kW)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2500</td><td>HV/MV</td><td>Dyn11</td><td>OLTC on HV</td><td>2.1</td><td>18.5</td><td>ONAN</td><td>Step-down</td></tr>
+    <tr><td>4000</td><td>HV/MV</td><td>Yyn0</td><td>DETC ±2×2.5%</td><td>3.0</td><td>26.0</td><td>ONAN</td><td>Step-up</td></tr>
+    <tr><td>6300</td><td>HV/MV</td><td>YNd1</td><td>OLTC on MV</td><td>4.8</td><td>39.5</td><td>ONAN</td><td>Step-down</td></tr>
+    <tr><td>10000</td><td>HV/MV</td><td>Dyn5</td><td>DETC ±5%</td><td>6.9</td><td>58.0</td><td>ONAF</td><td>Step-down</td></tr>
+    <tr><td>16000</td><td>HV/LV</td><td>Yd11</td><td>OLTC on HV</td><td>9.5</td><td>88.0</td><td>ONAF</td><td>Step-up</td></tr>
+    <tr><td>25000</td><td>HV/MV</td><td>YNyn0</td><td>OLTC on HV</td><td>12.8</td><td>122.0</td><td>ONAF</td><td>Step-down</td></tr>
+    <tr><td>40000</td><td>HV/MV</td><td>Dyn11</td><td>OLTC on HV</td><td>18.0</td><td>176.0</td><td>OFAF</td><td>Step-down</td></tr>
+  </tbody>
+</table>

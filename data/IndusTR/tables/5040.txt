@@ -1,0 +1,13 @@
+<table>
+  <caption>Raw and Auxiliary Materials Pretreatment Process Data Table</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Description</td><td>Data Type</td><td>Data Format</td><td>Example</td></tr>
+  <tr><td>1</td><td>Pretreatment process name</td><td>Name of the raw and auxiliary materials pretreatment process</td><td>C</td><td>C..1000</td><td>Drying</td></tr>
+  <tr><td>2</td><td>Treatment method</td><td>Pretreatment method for raw and auxiliary materials</td><td>C</td><td>C..1000</td><td>High-temperature sterilization</td></tr>
+  <tr><td>3</td><td>Treatment start time</td><td>Start time of raw and auxiliary materials treatment</td><td>YYYYMMDDhhmmss</td><td>Complies with relevant requirements of GB/T 7408</td><td>2020031215:00:00</td></tr>
+  <tr><td>4</td><td>Treatment end time</td><td>End time of raw and auxiliary materials treatment</td><td>YYYYMMDDhhmmss</td><td>Complies with relevant requirements of GB/T 7408</td><td>2020041218:00:00</td></tr>
+  <tr><td>5</td><td>Raw and auxiliary material name</td><td>Name of the raw and auxiliary materials</td><td>C</td><td>C..100</td><td>Citrus</td></tr>
+  <tr><td>6</td><td>Raw and auxiliary materials addition time</td><td>In the food production process, the time when raw and auxiliary materials are added</td><td>YYYYMMDDhhmmss</td><td>Complies with relevant requirements of GB/T 7408</td><td>2020041218:00:00</td></tr>
+  <tr><td>7</td><td>Raw and auxiliary materials addition method</td><td>In the food production process, the method of adding raw and auxiliary materials</td><td>C</td><td>C..1000</td><td>Add directly into the mixer after crushing with a grinder</td></tr>
+  <tr><td>8</td><td>Operator name</td><td>Name of the operator</td><td>C</td><td>C.30</td><td>Zhang ××</td></tr>
+  <tr><td>9</td><td>Verifier name</td><td>Name of the verification personnel</td><td>C</td><td>C..30</td><td>Zhao ××</td></tr>
+</table>

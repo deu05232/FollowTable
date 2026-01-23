@@ -1,0 +1,10 @@
+<table>
+  <caption>AR Hit-Test Laboratory Setup Requirements (Methodology Environment)</caption>
+  <tr><th>Requirement</th><th>Specification</th><th>Measurement Tool</th><th>Acceptance Criteria</th><th>Frequency</th><th>Notes</th></tr>
+  <tr><td>Illuminance</td><td>300–800 lux</td><td>Lux meter</td><td>Within range for 10 min</td><td>Per session</td><td>Avoid flicker lights</td></tr>
+  <tr><td>Floor texture</td><td>Feature-rich (printed pattern)</td><td>Visual inspection</td><td>No large blank areas</td><td>Weekly</td><td>Improves tracking stability</td></tr>
+  <tr><td>Camera motion</td><td>0.2–1.0 m/s</td><td>Motion tracker</td><td>Within tolerance</td><td>Per run</td><td>Use scripted path</td></tr>
+  <tr><td>Target distance</td><td>0.5–5.0 m</td><td>Tape/laser</td><td>Mark points at 0.5 m step</td><td>Per setup</td><td>For repeatability</td></tr>
+  <tr><td>Network</td><td>Offline / Airplane mode</td><td>N/A</td><td>No background updates</td><td>Per device</td><td>Stabilizes CPU load</td></tr>
+  <tr><td>Device temperature</td><td>20–28 °C</td><td>Thermometer</td><td>Stable before tests</td><td>Per session</td><td>Reduces thermal throttling</td></tr>
+</table>

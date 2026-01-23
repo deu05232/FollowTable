@@ -1,0 +1,12 @@
+<table>
+  <caption>GETGROUPINFO Command Response Message Data Structure</caption>
+  <tr><td>No.</td><td>P2 value</td><td>Name</td><td>Length (byte)</td><td>Description</td></tr>
+  <tr><td>1</td><td>0x00</td><td>Total number of multicast records</td><td>1</td><td>Total number of multicast records written, i.e., the number of groups that have been joined or have ever been joined</td></tr>
+  <tr><td>2</td><td>0x01</td><td>Number of free multicast records</td><td>1</td><td>Number of multicast records that can be written, i.e., how many more groups can still be joined</td></tr>
+  <tr><td>3</td><td rowspan="6">0x02或0x03</td><td>Total length of remaining enumerated multicast IDs</td><td>2</td><td>If this length is 0000, then there is no more data to fetch. If this length is greater than 0000, then you need to use the Get Remaining Multicast Records command to retrieve it</td></tr>
+  <tr><td>4</td><td>Multicast ID 1</td><td>6</td><td></td></tr>
+  <tr><td>5</td><td>Multicast ID 1 status</td><td>1</td><td>00 indicates in use, 01 indicates reclaimed</td></tr>
+  <tr><td>6</td><td>Multicast ID 2</td><td>6</td><td></td></tr>
+  <tr><td>7</td><td>Multicast ID 2 status</td><td>1</td><td>00 indicates in use, 01 indicates reclaimed</td></tr>
+  <tr><td>.…</td><td>…</td><td>……</td><td>……</td></tr>
+</table>

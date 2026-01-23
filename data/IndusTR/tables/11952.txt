@@ -1,0 +1,29 @@
+<table>
+  <caption>Capture-Condition Metadata for a Biometric Recognition Evaluation Database (Acquisition-Focused)</caption>
+  <thead>
+    <tr><th>Category</th><th>Metadata Field</th><th>Example Values / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Sensing modality</td><td>Spectral band / illumination</td><td>Visible (RGB), NIR (850 nm), SWIR (940–1550 nm), Thermal IR</td></tr>
+    <tr><td>Active vs passive sensing</td><td>Active illumination; Passive ambient-only</td></tr>
+    <tr><td>Polarization / filters</td><td>Linear polarizer; IR-cut filter on/off; bandpass filter</td></tr>
+    <tr><td rowspan="3">Contact & presentation</td><td>Contact type</td><td>Contact-based; Contactless; Standoff distance (e.g., 0 cm / 2–10 cm)</td></tr>
+    <tr><td>Presentation interface</td><td>Glass platen; Air; Probe; Hand rest; Chin rest</td></tr>
+    <tr><td>Presentation guidance</td><td>Guided (on-screen prompts); Unguided; Operator-assisted</td></tr>
+    <tr><td rowspan="4">Capture geometry</td><td>Imaging mode</td><td>Transmission; Reflection; Retro-reflection</td></tr>
+    <tr><td>Viewpoint / pose</td><td>Frontal; Off-axis 15°/30°; Multi-view (left/right)</td></tr>
+    <tr><td>Working distance & FOV</td><td>Distance in cm; Field of view in degrees/mm</td></tr>
+    <tr><td>Mounting & stability</td><td>Tripod; Handheld; Fixed kiosk; Vibration present/absent</td></tr>
+    <tr><td rowspan="4">Device & acquisition settings</td><td>Sensor / device class</td><td>Smartphone camera; Dedicated iris camera; Capacitive fingerprint; Microphone array</td></tr>
+    <tr><td>Resolution & sampling rate</td><td>Image: px and PPI; Audio: kHz; Video: fps</td></tr>
+    <tr><td>Exposure / gain settings</td><td>Auto exposure; Manual (ISO, shutter); HDR on/off</td></tr>
+    <tr><td>Compression / format</td><td>RAW; JPEG quality=85; H.264 bitrate; Lossy vs lossless</td></tr>
+    <tr><td rowspan="4">Environment descriptors (acquisition-impacting)</td><td>Indoor / outdoor context</td><td>Indoor office; Outdoor shade; Outdoor direct sun; Vehicle cabin</td></tr>
+    <tr><td>Ambient lighting interference</td><td>Flicker (50/60 Hz); Strong backlight; IR interference from sunlight</td></tr>
+    <tr><td>Weather / atmosphere</td><td>Rain; Fog; Dust; High humidity (affects sensors and skin reflectance)</td></tr>
+    <tr><td>Acoustic environment (for voice)</td><td>Quiet; TV noise; Street noise; Reverberant hallway</td></tr>
+    <tr><td rowspan="3">Acquisition session metadata</td><td>Operator / supervision</td><td>Self-capture; Attended by operator; Remote capture</td></tr>
+    <tr><td>Repeat captures & retries</td><td>Attempt index; Number of retries; Reason for recapture (blur, glare)</td></tr>
+    <tr><td>Timestamp & session linkage</td><td>Capture time; Session ID; Enrollment vs verification flag</td></tr>
+  </tbody>
+</table>

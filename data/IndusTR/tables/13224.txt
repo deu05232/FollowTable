@@ -1,0 +1,16 @@
+<table>
+  <caption>Logistics M2M Terminal Lifecycle Functional Test Matrix (Registration/Login/Logout/Deregistration)</caption>
+  <thead>
+    <tr><th>Lifecycle Step</th><th>Test Case ID</th><th>Primary Action</th><th>Preconditions</th><th>Inputs</th><th>Expected Result</th><th>Lifecycle Objective</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Registration</td><td>LC-REG-001</td><td>Register terminal (new device)</td><td>Terminal not registered; valid device identifiers available</td><td>DeviceID, IMEI, Model, AuthKey</td><td>Terminal is created in platform; status becomesRegistered; unique terminal identifier is returned</td><td>Verify terminal can enter lifecycle via successful registration</td></tr>
+    <tr><td>LC-REG-002</td><td>Register terminal (duplicate)</td><td>Terminal already registered</td><td>Same DeviceID/IMEI as existing terminal</td><td>Registration rejected with duplicate error; no new terminal record created; original status unchanged</td><td>Verify lifecycle prevents duplicate registration</td></tr>
+    <tr><td rowspan="2">Login</td><td>LC-LOG-001</td><td>Login with registered terminal</td><td>Terminal is Registered; no active session</td><td>TerminalID, Credentials/Token, Timestamp</td><td>Login accepted; session created; status becomesOnline; session ID issued</td><td>Verify session creation and state transition to Online</td></tr>
+    <tr><td>LC-LOG-002</td><td>Login with invalid credentials</td><td>Terminal is Registered</td><td>TerminalID, wrong credentials/token</td><td>Login rejected; no session created; status remainsRegistered/Offline</td><td>Verify lifecycle enforces authentication before session start</td></tr>
+    <tr><td rowspan="2">Logout</td><td>LC-OUT-001</td><td>Logout active session</td><td>Terminal is Online; session exists</td><td>TerminalID, SessionID</td><td>Logout accepted; session terminated; status becomesOffline</td><td>Verify session termination and state transition to Offline</td></tr>
+    <tr><td>LC-OUT-002</td><td>Logout without active session</td><td>Terminal is Offline; no active session</td><td>TerminalID</td><td>Request handled gracefully; no session changes; status remainsOffline</td><td>Verify lifecycle robustness for logout edge case</td></tr>
+    <tr><td rowspan="2">Deregistration</td><td>LC-DEREG-001</td><td>Deregister offline terminal</td><td>Terminal is Registered and Offline; no active session</td><td>TerminalID, DeregReason</td><td>Deregistration accepted; terminal record markedDeregistered(or removed per policy); subsequent login is blocked</td><td>Verify terminal can exit lifecycle and cannot create sessions afterward</td></tr>
+    <tr><td>LC-DEREG-002</td><td>Deregister online terminal (requires logout)</td><td>Terminal is Online; active session exists</td><td>TerminalID</td><td>Deregistration rejected or requires prior logout; terminal remainsOnlineuntil logout is completed</td><td>Verify lifecycle rule: deregistration does not bypass session termination</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,18 @@
+<table>
+  <caption>Recommended Data Elements for Cybersecurity Incident Reporting</caption>
+  <thead>
+    <tr><th>Reporting Element</th><th>Plain-language Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Incident Overview</td><td>A short narrative describing what happened, in business terms, so a non-technical reader can understand the event.</td></tr>
+    <tr><td>Incident Category</td><td>The general type of incident (for example, ransomware, account compromise, denial-of-service), used to route and prioritize the report.</td></tr>
+    <tr><td>Attack Vector / Initial Access</td><td>How the attacker first got in or attempted to get in (for example, phishing email, exposed service, stolen credentials), including any evidence supporting the assessment.</td></tr>
+    <tr><td>Affected Assets</td><td>What systems, applications, cloud resources, or user accounts were impacted, identified in a way that responders can locate them (names, IDs, or tags).</td></tr>
+    <tr><td>Business Impact</td><td>What the incident changed for the organization (service outage, data exposure risk, operational disruption, financial impact) and who/what was affected.</td></tr>
+    <tr><td>Data Involved</td><td>Whether data was accessed, altered, or exfiltrated, and what kinds of data (personal data, credentials, intellectual property) may be involved.</td></tr>
+    <tr><td>Indicators of Compromise (IOCs)</td><td>Observable signs linked to the incident (malicious IPs/domains, file hashes, email subjects, process names) that can be used for detection and blocking.</td></tr>
+    <tr><td>Detection Method</td><td>How the incident was discovered (SIEM alert, user report, threat intel, audit finding) and what signal or rule triggered the investigation.</td></tr>
+    <tr><td>Containment and Mitigation Actions</td><td>What actions were taken to stop spread and reduce harm (isolated hosts, disabled accounts, blocked traffic), including what remains to be done.</td></tr>
+    <tr><td>Reporting Contact and Escalation</td><td>Who is responsible for follow-up (name/role/team), how to reach them, and what escalation path applies if urgent decisions are needed.</td></tr>
+  </tbody>
+</table>

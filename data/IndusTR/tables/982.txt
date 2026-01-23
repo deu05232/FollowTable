@@ -1,0 +1,16 @@
+<table>
+  <caption>Logistics M2M Terminal Status Monitoring Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.7</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Status Monitoring</td></tr>
+  <tr><td>Test Objective</td><td>Verify the logistics terminal status monitoring function</td></tr>
+  <tr><td rowspan="3">Preconditions</td><td>1. The system can be logged in normally;</td></tr>
+  <tr><td>2. Normal connection to the server;</td></tr>
+  <tr><td>3. UI buttons and input boxes can be used normally; 4. Logistics terminals that have an ordering/subscription relationship established with the platform can work normally</td></tr>
+  <tr><td rowspan="4">Test Steps</td><td>1. Log in to the logistics platform as an administrator and enter the Logistics Terminal Management screen;</td></tr>
+  <tr><td>2. Click Terminal Status Monitoring to query the terminal status and terminal operating status parameters recorded by the platform;</td></tr>
+  <tr><td>3. Log in to the logistics platform as a customer and enter the Logistics Terminal Management screen;</td></tr>
+  <tr><td>4. Click Terminal Status Monitoring to query the terminal status and terminal operating status parameters recorded by the platform</td></tr>
+  <tr><td>Pass Criteria</td><td>1. When logged in as an administrator, it is possible to query the terminal status and operating status of all logistics terminals; 2. When logged in as a customer, it is possible to query the status of all registered terminals that belong to the customer</td></tr>
+  <tr><td>Notes</td><td></td></tr>
+</table>

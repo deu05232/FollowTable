@@ -1,0 +1,18 @@
+<table>
+  <caption>Vehicle-Using Organization Basic Data Table</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Organization Name</td><td>Character</td><td>an..50</td><td></td></tr>
+  <tr><td>2</td><td>Unified Social Credit Code</td><td>Character</td><td>an..18</td><td>Complies with GB 32100 code rules</td></tr>
+  <tr><td>3</td><td>Principal Person in Charge</td><td>Character</td><td>a..30</td><td></td></tr>
+  <tr><td>4</td><td>Administrative Division Code</td><td>Character</td><td>n6..9</td><td>Complies with (GB/T 2260, GB/T10114 administrative division code rules</td></tr>
+  <tr><td>5</td><td>Organization Address</td><td>Character</td><td>an..100</td><td></td></tr>
+  <tr><td>6</td><td>Organization Level</td><td>Character</td><td>an..30</td><td>Central department level 1 (own level), central department level 2, central department level 3, central department level 4, central department level 5, central department level 6 and below; provincial level 1 (own level), provincial level 2, provincial level 3, provincial level 4, provincial level 5, provincial level 6 and below; municipal level 1 (own level), municipal level 2, municipal level 3, municipal level 4, municipal level 5, municipal level 6 and below; county level 1 (own level), county level 2, county level 3, county level 4, county level 5, county level 6 and below</td></tr>
+  <tr><td>7</td><td>Administrative Rank</td><td>Character</td><td>an..30</td><td>Ministerial level, vice-ministerial level, department/bureau level, deputy department/bureau level, division level, deputy division level, section level, deputy section level, clerk level and below</td></tr>
+  <tr><td>8</td><td>Organization Type</td><td>Character</td><td>an..30</td><td>Party organs, people's congress organs, administrative organs, CPPCC organs, supervisory organs, judicial organs, procuratorial organs, people's organizations, organs of democratic parties, public institutions, social organizations, other</td></tr>
+  <tr><td>9</td><td>Industry (Public Institutions)</td><td>Character</td><td>an..30</td><td>Science and technology institutions, education institutions, cultural institutions, health institutions, sports institutions, government logistics service institutions, other industries</td></tr>
+  <tr><td>10</td><td>Reform Category (Public Institutions)</td><td>Character</td><td>an..30</td><td>Undertaking administrative functions, public welfare category I, public welfare category II, engaged in production and business operations, category not yet specified</td></tr>
+  <tr><td>11</td><td>Funding Guarantee (Public Institutions)</td><td>Character</td><td>an..30</td><td>Fiscal subsidy under civil-service-based management, fiscal subsidy not under civil-service-based management, self-funded</td></tr>
+  <tr><td>12</td><td>Staffing Headcount</td><td>Numeric</td><td>n..10</td><td></td></tr>
+  <tr><td>13</td><td>Head of Official Vehicle Management Office</td><td>Character</td><td>an..30</td><td></td></tr>
+  <tr><td>14</td><td>Phone Number of Head of Official Vehicle Management Office</td><td>Character</td><td>an..18</td><td></td></tr>
+</table>

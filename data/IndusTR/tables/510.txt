@@ -1,0 +1,8 @@
+<table>
+  <caption>Device Query API Definition</caption>
+  <tr><td>API Name</td><td>Device Query API</td></tr>
+  <tr><td>API Description</td><td>Obtain device information</td></tr>
+  <tr><td>API Method</td><td>GET</td></tr>
+  <tr><td>Parameter Description</td><td>Must include at least: User ID (string userID), authentication parameter (string access_token), device ID (string devID)</td></tr>
+  <tr><td>Return Value</td><td>Returns whether it was successful</td></tr>
+</table>

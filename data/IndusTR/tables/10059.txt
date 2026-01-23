@@ -1,0 +1,15 @@
+<table>
+  <caption>Bitstream Conformance Test Plan by Clause (GB/T 33475.2—2024)</caption>
+  <thead>
+    <tr><th>Clause / Topic</th><th>Objective</th><th>Test scope</th><th>Evidence to collect</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>7.3.2 Slice segment header</td><td>Validate header parsing and presence constraints</td><td>Cover I/P/B slices; mixed NAL unit sequences</td><td>Decoder log + bitstream trace</td></tr>
+    <tr><td>7.4.3 CABAC (context modeling)</td><td>Verify entropy decoding stability</td><td>Stress random-access points; error resilience</td><td>CABAC bin count statistics</td></tr>
+    <tr><td>8.3.3.1 Bypass/Stuffing processing</td><td>Check bypass/stuffing handling</td><td>Streams with long runs of bypass bins; stuffing at tile end</td><td>Number of bypass bins per CTU</td></tr>
+    <tr><td>Table 74 (SAO merge)</td><td>Exercise SAO merge paths</td><td>All combinations of availability flags; corner CTUs</td><td>Per-frame SAO enable ratio</td></tr>
+    <tr><td>Table 80–82 (CU type)</td><td>Exercise CU type parsing</td><td>Typical coding tools on/off; varying QP</td><td>CU type histogram over frames</td></tr>
+    <tr><td>Table 100 (last coefficient group)</td><td>Exercise coefficient scanning</td><td>Different block sizes; chroma vs luma</td><td>Residual energy curves per frame</td></tr>
+    <tr><td>Annex A (profiles/levels)</td><td>Confirm level limits are respected</td><td>Max bitrate; max luma samples per second</td><td>Bitrate trace; frame rate trace</td></tr>
+  </tbody>
+</table>

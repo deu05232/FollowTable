@@ -1,0 +1,15 @@
+<table>
+  <caption>Acceptance Targets for Laser Cutting Setups (Machine Comparison by Laser Type)</caption>
+  <thead>
+    <tr><th>Laser type</th><th>Thickness range covered by checklist (mm)</th><th>Positioning / contour accuracy (mm)</th><th>Repeatability (mm)</th><th>Max taper / perpendicularity deviation (mm)</th><th>Max heat-affected zone (HAZ) width (mm)</th><th>Max micro-burr / dross (mm)</th><th>Max kerf variation across cut (mm)</th><th>Recommended inspection method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Fiber laser (CW, high-power)</td><td>3–40</td><td>≤0.15</td><td>≤0.05</td><td>≤0.30</td><td>≤0.40</td><td>≤0.35</td><td>≤0.10</td><td>CMM/optical comparator; cut-face microscope for burr</td></tr>
+    <tr><td>Fiber laser (single-mode, fine cutting)</td><td>0.5–6</td><td>≤0.05</td><td>≤0.02</td><td>≤0.10</td><td>≤0.15</td><td>≤0.10</td><td>≤0.05</td><td>Vision measurement + surface profilometer on cut edge</td></tr>
+    <tr><td>CO2 laser (CW)</td><td>1–30</td><td>≤0.20</td><td>≤0.08</td><td>≤0.35</td><td>≤0.50</td><td>≤0.40</td><td>≤0.12</td><td>Straightness & squareness gauge; metallographic check for HAZ</td></tr>
+    <tr><td>Nd:YAG laser (pulsed)</td><td>0.2–8</td><td>≤0.12</td><td>≤0.05</td><td>≤0.20</td><td>≤0.30</td><td>≤0.20</td><td>≤0.08</td><td>Optical microscope + edge replication for burr/HAZ</td></tr>
+    <tr><td>Nanosecond pulsed fiber laser (MOPA)</td><td>0.05–3</td><td>≤0.03</td><td>≤0.01</td><td>≤0.08</td><td>≤0.10</td><td>≤0.08</td><td>≤0.04</td><td>High-magnification imaging; measure kerf variation along path</td></tr>
+    <tr><td>Picosecond ultrashort-pulse laser</td><td>0.01–2</td><td>≤0.01</td><td>≤0.005</td><td>≤0.03</td><td>≤0.03</td><td>≤0.02</td><td>≤0.02</td><td>Confocal microscope; cross-section for minimal HAZ verification</td></tr>
+    <tr><td>UV laser (355 nm)</td><td>0.01–1</td><td>≤0.02</td><td>≤0.01</td><td>≤0.05</td><td>≤0.05</td><td>≤0.03</td><td>≤0.03</td><td>AOI + microscope; suitable for PCB/polymer precision cuts</td></tr>
+  </tbody>
+</table>

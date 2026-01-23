@@ -1,0 +1,8 @@
+<table>
+  <caption>TT Location Information Data Element Definition</caption>
+  <tr><td>Multiplicity</td><td>Business Term (Chinese)</td><td>Business Term (English)</td><td>Relationship</td><td>Type</td><td>Description</td></tr>
+  <tr><td>0..1</td><td>Identifier</td><td>Identification</td><td>Attribute</td><td>Identifier</td><td>Identifier of the TT location</td></tr>
+  <tr><td>0..n</td><td>Name</td><td>Name</td><td>Attribute</td><td>Text</td><td>Name of the TT location, represented as text</td></tr>
+  <tr><td>0..1</td><td>Type</td><td>Type</td><td>Attribute</td><td>Code</td><td>Code specifying the TT location type</td></tr>
+  <tr><td>0..n</td><td>Description</td><td>Description</td><td>Attribute</td><td>Text</td><td>Text description of the TT location</td></tr>
+</table>

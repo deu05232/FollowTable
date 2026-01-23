@@ -1,0 +1,17 @@
+<table>
+  <caption>Generic Interface Parameters for Basic Math Operators (Environment, Types, and Shape Constraints)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Execution Environment</td><td>Target Device Type</td><td>Input</td><td>Optional</td><td>Execution device family (e.g., CPU, GPU, NPU, FPGA, ASIC). Default: CPU.</td></tr>
+    <tr><td>Execution Backend</td><td>Input</td><td>Optional</td><td>Backend identifier used for dispatch (e.g., reference, vendor-accelerated, JIT). If omitted, framework default is used.</td></tr>
+    <tr><td>Determinism Mode</td><td>Input</td><td>Optional</td><td>Whether the backend should prefer deterministic kernels when available (true/false). Default: false.</td></tr>
+    <tr><td rowspan="3">Data / Metadata</td><td>Supported Data Type Set</td><td>Input</td><td>Optional</td><td>Allowed element types for the operator (commonly: int8/int16/int32/int64, uint8/uint16/uint32/uint64, fp16/fp32/fp64; complex64/complex128 may be supported by some backends). Default: fp32.</td></tr>
+    <tr><td>Quantization Scheme</td><td>Input</td><td>Optional</td><td>If quantized execution is used, describes scheme (e.g., symmetric/asymmetric, per-tensor/per-channel). If not specified, non-quantized path is assumed.</td></tr>
+    <tr><td>Numeric Range Policy</td><td>Input</td><td>Optional</td><td>Overflow/underflow behavior (e.g., saturate, wrap, IEEE). If omitted, backend default policy is used.</td></tr>
+    <tr><td rowspan="3">Tensor Shape / Layout</td><td>Tensor Shape</td><td>Input</td><td>Required</td><td>Dimension sizes for the tensor. Rank must be >= 0; all dimension sizes must be positive unless a backend supports dynamic dimensions.</td></tr>
+    <tr><td>Layout / Memory Format</td><td>Input</td><td>Optional</td><td>Layout descriptor (e.g., NCHW, NHWC, row-major/column-major). If not specified, default layout is used.</td></tr>
+    <tr><td>Alignment / Stride Constraint</td><td>Input</td><td>Optional</td><td>Optional alignment or stride requirements for optimized kernels (e.g., last dimension multiple of 4/8/16). If not specified, no extra constraint.</td></tr>
+  </tbody>
+</table>

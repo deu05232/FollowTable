@@ -1,0 +1,15 @@
+<table>
+  <caption>SN1987A: Allowed ranges for detected neutrino energies by detector (summary intervals, not time-tagged events).</caption>
+  <thead>
+    <tr><th>Detector</th><th>Analysis subset</th><th>Energy range (MeV)</th><th>Central 68% interval (MeV)</th><th>Median energy (MeV)</th><th>Assumed background treatment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Kamiokande-II</td><td>All candidates</td><td>7.0–36.0</td><td>9.0–21.0</td><td>13.5</td><td>null removed</td></tr>
+    <tr><td>Kamiokande-II</td><td>Background-cleaned</td><td>7.5–35.5</td><td>9.2–19.8</td><td>12.9</td><td>Low-energy tail downweighted</td></tr>
+    <tr><td>IMB</td><td>All candidates</td><td>19.0–42.0</td><td>28.0–39.0</td><td>36.0</td><td>Efficiency corrected</td></tr>
+    <tr><td>IMB</td><td>High-quality subset</td><td>22.0–41.0</td><td>30.0–38.0</td><td>35.5</td><td>Stricter cuts</td></tr>
+    <tr><td>Baksan</td><td>All candidates</td><td>10.0–24.0</td><td>12.0–18.0</td><td>16.8</td><td>Reported as prompt cluster</td></tr>
+    <tr><td>Combined</td><td>Union of all detectors</td><td>7.0–42.0</td><td>10.0–36.0</td><td>18.0</td><td>Harmonized calibration</td></tr>
+    <tr><td>Combined</td><td>Model-inferred ν̄e spectrum</td><td>9.0–30.0</td><td>11.0–22.0</td><td>15.0</td><td>Thermal fit (summary only)</td></tr>
+  </tbody>
+</table>

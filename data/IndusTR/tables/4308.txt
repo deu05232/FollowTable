@@ -1,0 +1,17 @@
+<table>
+  <caption>General Data Dictionary Index Number Coding Structure</caption>
+  <tr><td>Attribute Set Category</td><td>Attribute Set Data Dictionary</td><td>Parameter Set</td><td>Data Dictionary Index Number Range</td></tr>
+  <tr><td rowspan="2">Static Attribute Set</td><td rowspan="2">Equipment Definition Attribute Set</td><td>Equipment Definition Parameter Set</td><td>0X0000~0X00FF</td></tr>
+  <tr><td>Main Equipment Parameter Set</td><td>0X0100~0X01FF</td></tr>
+  <tr><td rowspan="3">Process Attribute Set</td><td>Equipment Process Attribute Set</td><td>Equipment Process Parameter Set</td><td>0X0200~0X02FF</td></tr>
+  <tr><td rowspan="2">Equipment Status Attribute Set</td><td>Equipment Operation Monitoring Parameter Set</td><td>0X0300~0X03FF</td></tr>
+  <tr><td>Equipment Efficiency Parameter Set</td><td>0X0400~0X04FF</td></tr>
+  <tr><td rowspan="7">Process Attribute Set</td><td rowspan="5">Equipment Status Attribute Set</td><td>Equipment Energy Parameter Set</td><td>0X0500~0X05FF</td></tr>
+  <tr><td>Equipment Carbon Emission Parameter Set</td><td>0X0600~0X06FF</td></tr>
+  <tr><td>Equipment Working Status Parameter Set</td><td>0X0700~0X07FF</td></tr>
+  <tr><td>Equipment Control Status Parameter Set</td><td>0X0800~0X08FF</td></tr>
+  <tr><td>Equipment Alarm Parameter Set</td><td>0X0900~0X09FF</td></tr>
+  <tr><td rowspan="2">Equipment Production Management Attribute Set</td><td>Equipment Production Management Parameter Set</td><td>0X0A00~0X0AFF</td></tr>
+  <tr><td>Quality Control Parameter Set</td><td>0X0B00~0X0BFF</td></tr>
+  <tr><td>Scalable Attribute Set</td><td></td><td>丨</td><td>0X0C00~0XFFFF</td></tr>
+</table>

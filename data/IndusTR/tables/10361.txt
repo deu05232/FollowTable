@@ -1,0 +1,16 @@
+<table>
+  <caption>Logistics M2M Terminal Management – Functional Test Cases Checklist (Registration & Authentication)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Module</th><th>Sub-item</th><th>Test Objective</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TM-REG-001</td><td>Terminal Management</td><td>Terminal Registration</td><td>Verify a new terminal can register with valid device identifiers and credentials.</td></tr>
+    <tr><td>TM-REG-002</td><td>Terminal Management</td><td>Terminal Registration</td><td>Verify registration is rejected when the device ID (IMEI/serial) is missing or malformed.</td></tr>
+    <tr><td>TM-REG-003</td><td>Terminal Management</td><td>Terminal Registration</td><td>Verify duplicate registration of an already-registered terminal is handled according to policy (reject or return existing binding).</td></tr>
+    <tr><td>TM-AUTH-001</td><td>Terminal Management</td><td>Terminal Login</td><td>Verify a registered terminal can log in and obtain a valid session/token.</td></tr>
+    <tr><td>TM-AUTH-002</td><td>Terminal Management</td><td>Terminal Login</td><td>Verify login fails with an incorrect password/token and the error is returned correctly.</td></tr>
+    <tr><td>TM-AUTH-003</td><td>Terminal Management</td><td>Terminal Login</td><td>Verify login is denied for a deregistered or disabled terminal.</td></tr>
+    <tr><td>TM-OUT-001</td><td>Terminal Management</td><td>Terminal Logout</td><td>Verify terminal logout invalidates the active session/token and prevents further API calls using it.</td></tr>
+    <tr><td>TM-OUT-002</td><td>Terminal Management</td><td>Terminal Logout</td><td>Verify repeated logout requests are handled idempotently without server errors.</td></tr>
+  </tbody>
+</table>

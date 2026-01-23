@@ -1,0 +1,7 @@
+<table>
+  <caption>Dissociation pathway “dictionary”. The first column denotes the state of the dimer from which dissociation occurs. For example (A.M.T,A.M.D.Pi) means that the trail head is bound to actin with ATP on it, while the lead head is bound to actin with ADP and Pi. The other columns show the names of these dissociation pathways in different models. Evidence exists that “Path 3” is the predominant dissociation path.</caption>
+  <tr><td>(A.M.T, A.M.D.Pi )</td><td>Path 1</td><td rowspan="2">term3 (excluded)</td><td>term1</td><td>-</td></tr>
+  <tr><td>(A.M.T, M.D.Pi)</td><td>Path 2</td><td>-</td><td>termination (sole pathway)</td></tr>
+  <tr><td>(A.M.D, M.D.Pi) (A.M.D, M.D ^((*)) )</td><td>Path 3</td><td>term1</td><td>term2</td><td>-</td></tr>
+  <tr><td>(A.M, A.M.D.Pi)</td><td>-</td><td>term2</td><td>-</td><td>-</td></tr>
+</table>

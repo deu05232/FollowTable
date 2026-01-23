@@ -1,0 +1,14 @@
+<table>
+  <caption>Key Elements for Building a Face Recognition Algorithm Evaluation Database</caption>
+  <tr><td>No.</td><td>Element</td><td>Example of Element Content</td></tr>
+  <tr><td>1</td><td>Skin Tone</td><td>Light, Dark, Yellow, Brown, Other</td></tr>
+  <tr><td>2</td><td>Acquisition Method</td><td>Visible light, Near-infrared</td></tr>
+  <tr><td>3</td><td>Face Resolution</td><td>Interpupillary distance</td></tr>
+  <tr><td>4</td><td>Sharpness</td><td>Clear face, Gaussian blur, Motion blur</td></tr>
+  <tr><td>5</td><td>Image Illumination</td><td>Uniformity, Overall brightness/darkness, Grayscale dynamic range, Gray levels</td></tr>
+  <tr><td>6</td><td>Background</td><td>Single solid-color background, Natural background, Crowd background</td></tr>
+  <tr><td>7</td><td>Expression</td><td>Expression categories: Neutral/Smile/Sad; Eyes open/closed; Mouth open/closed</td></tr>
+  <tr><td>8</td><td>Pose</td><td>Horizontal rotation angle, Pitch angle, Tilt angle</td></tr>
+  <tr><td>9</td><td>Occlusion</td><td>No occlusion, Half-face occlusion, Wearing a hat, Wearing a mask, Wearing sunglasses</td></tr>
+  <tr><td>10</td><td>Authenticity</td><td>Cosmetic surgery/makeup, Image editing</td></tr>
+</table>

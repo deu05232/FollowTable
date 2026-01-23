@@ -1,0 +1,8 @@
+<table>
+  <caption>ArImageMetadata Get Metadata Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>image_metadata</td><td>ArImageMetadata *</td><td>Image metadata pointer</td></tr>
+  <tr><td>tag</td><td>uint32_t</td><td>Tag</td></tr>
+  <tr><td>out_metadata_entry</td><td>ArImageMetadata_const_entry *</td><td>Image metadata pointer</td></tr>
+</table>

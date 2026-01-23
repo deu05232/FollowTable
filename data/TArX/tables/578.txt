@@ -1,0 +1,9 @@
+<table>
+  <caption>Statistical properties of the inverse TTC distributions in the different datasets. In the mean, variance, and skewness column, the top value is obtained from momentary measurements (the real value), while the bottom value is obtained from stationary measurements (the estimated value). In the sign change column, the top value states the amount of datapoints for which the stationary measurement determines a positive time-to-collision while the momentary measurement determines a negative value. The bottom value gives the amount of datapoints for which the sign change is the other way round. The jammed, bound, and free traffic dataset are combined from the Prototype and the two later NGSIM datasets. A datapoint was assigned to jammed traffic if the vehicle’s velocity was below \unit ⁢ [ 15 ] ⁢ m / s , to free traffic if v α > \unit ⁢ [ 22.2 ] ⁢ m / s , and to bound traffic, otherwise.</caption>
+  <tr><th>Dataset</th><th>Mean</th><th>Variance</th><th>Skewness</th><th>Sign change</th></tr>
+  <tr><th>Prototype</th><td>0.00874006 -0.00462994</td><td>0.00706569 0.00422629</td><td>-0.264358 0.16407</td><td>19.2402% 7.63705%</td></tr>
+  <tr><th>I-80/US-101</th><td>-0.00640645 -0.00542511</td><td>0.0122408 0.0120666</td><td>0.0109132 1.58624</td><td>23.0413% 21.3802%</td></tr>
+  <tr><th>jammed traffic</th><td>-0.00637853 -0.00633317</td><td>0.0124101 0.0121906</td><td>-0.000798933 1.54999</td><td>23.6459% 21.1149%</td></tr>
+  <tr><th>bound traffic</th><td>0.00624585 -0.000502914</td><td>0.00699072 0.00348709</td><td>-0.204996 0.798759</td><td>15.0853% 10.7964%</td></tr>
+  <tr><th>free traffic</th><td>0.0126101 0.000389615</td><td>0.00483055 0.00260696</td><td>0.179115 0.459587</td><td>16.6644% 5.58995%</td></tr>
+</table>

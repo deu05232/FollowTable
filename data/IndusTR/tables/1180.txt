@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameter Definition of Charger Identification Message (PGN256)</caption>
+  <tr><td>Start Byte or Bit</td><td>Length</td><td>SPN</td><td>SPN Definition</td><td>Transmission Option</td></tr>
+  <tr><td>1</td><td>1 byte</td><td>2560</td><td>Identification result (<0x00>: BMS and vehicle information not identified; <0xAA>: BMS and vehicle information identified)</td><td>Required</td></tr>
+  <tr><td>2</td><td>4 bytes</td><td>2561</td><td>Charger number, 1/bit, 0 offset, data range: 0～0xFFFFFFFF</td><td>Required</td></tr>
+  <tr><td>6</td><td>3 bytes</td><td>2562</td><td>Region code where the charger/charging station is located (composed of digits and uppercase/lowercase letters), encoded using GB/T 1988</td><td>Optional</td></tr>
+</table>

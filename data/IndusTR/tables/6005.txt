@@ -1,0 +1,15 @@
+<table>
+  <caption>Repeatability and Uncertainty Statistics from DC Energy Meter Verification Trials</caption>
+  <thead>
+    <tr><th rowspan="2">Accuracy class</th><th rowspan="2">Output voltage (V)</th><th rowspan="2">Output current (A)</th><th colspan="4">Experimental variability metrics (NOT specified limits)</th></tr>
+    <tr><th>Mean error (%)</th><th>Std. deviation (%)</th><th>Coefficient of variation (%)</th><th>Expanded uncertainty U(k=2) (%)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Class 0.01</td><td>10</td><td>0.5</td><td>0.003</td><td>0.0012</td><td>40</td><td>0.0024</td></tr>
+    <tr><td>Class 0.01</td><td>100</td><td>5</td><td>0.004</td><td>0.0010</td><td>25</td><td>0.0020</td></tr>
+    <tr><td>Class 0.02</td><td>10</td><td>0.5</td><td>0.006</td><td>0.0021</td><td>35</td><td>0.0042</td></tr>
+    <tr><td>Class 0.05</td><td>100</td><td>1</td><td>0.012</td><td>0.0048</td><td>40</td><td>0.0096</td></tr>
+    <tr><td>Class 0.1</td><td>750</td><td>10</td><td>0.030</td><td>0.0095</td><td>32</td><td>0.0190</td></tr>
+    <tr><td>Class 0.2</td><td>1500</td><td>20</td><td>0.060</td><td>0.0180</td><td>30</td><td>0.0360</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Limits of error variation (±%) under influence quantities for different accuracy classes</caption>
+  <thead>
+    <tr><th rowspan="2">Influence quantity</th><th rowspan="2">Variation range</th><th rowspan="2">Reference power factor</th><th colspan="4">Limit of error variation (±%) by accuracy class</th></tr>
+    <tr><th>Class 0.2</th><th>Class 0.5</th><th>Class 1</th><th>Class 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>15 °C to 32 °C (ΔT = 17 K)</td><td>1.0</td><td>±0.05</td><td>±0.10</td><td>±0.20</td><td>±0.40</td></tr>
+    <tr><td>Ambient temperature</td><td>-10 °C to 55 °C (extended)</td><td>1.0</td><td>±0.08</td><td>±0.15</td><td>±0.30</td><td>±0.60</td></tr>
+    <tr><td>Supply voltage</td><td>0.9·Un to 1.1·Un</td><td>1.0</td><td>±0.03</td><td>±0.06</td><td>±0.12</td><td>±0.25</td></tr>
+    <tr><td>Supply frequency</td><td>49 Hz to 51 Hz</td><td>1.0</td><td>±0.02</td><td>±0.04</td><td>±0.08</td><td>±0.16</td></tr>
+    <tr><td>External magnetic field</td><td>0 mT to 0.5 mT</td><td>1.0</td><td>±0.04</td><td>±0.08</td><td>±0.16</td><td>±0.32</td></tr>
+    <tr><td>Self-heating / warm-up</td><td>0 min to 30 min after energizing</td><td>1.0</td><td>±0.03</td><td>±0.06</td><td>±0.12</td><td>±0.24</td></tr>
+    <tr><td>Phase displacement sensitivity</td><td>±2° around reference</td><td>0.5L</td><td>±0.05</td><td>±0.10</td><td>±0.20</td><td>±0.40</td></tr>
+  </tbody>
+</table>

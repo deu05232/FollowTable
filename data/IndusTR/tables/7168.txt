@@ -1,0 +1,15 @@
+<table>
+  <caption>Minimum Logging Specifications — Vehicle Motion, Steering, and Braking Signals</caption>
+  <thead>
+    <tr><th>Item No.</th><th>Recorded Data Element</th><th>Category</th><th>Minimum Logging Frequency</th><th>Unit</th><th>Minimum Recordable Range</th><th>Minimum Resolution</th><th>Minimum Accuracy</th><th>Notes / Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Vehicle yaw rate</td><td>Vehicle dynamics</td><td>50 Hz</td><td>deg/s</td><td>-250 to +250</td><td>0.1</td><td>±2% of reading</td><td>Yaw rate about the vertical axis at the vehicle CG; sign convention per vehicle coordinate system.</td></tr>
+    <tr><td>2</td><td>Steering wheel angle</td><td>Chassis/controls</td><td>50 Hz</td><td>deg</td><td>-720 to +720</td><td>0.1</td><td>±1.0 deg</td><td>Signed angle; include absolute angle after any offset compensation.</td></tr>
+    <tr><td>3</td><td>Steering wheel angular velocity</td><td>Chassis/controls</td><td>50 Hz</td><td>deg/s</td><td>-1500 to +1500</td><td>1</td><td>±5% of reading</td><td>Derived from steering angle or measured directly; record the method used.</td></tr>
+    <tr><td>4</td><td>Brake pedal position</td><td>Driver input</td><td>20 Hz</td><td>%</td><td>0 to 100</td><td>0.5</td><td>±2% FS</td><td>Pedal travel or normalized brake request percentage.</td></tr>
+    <tr><td>5</td><td>Brake pressure (service brake)</td><td>Chassis/controls</td><td>50 Hz</td><td>bar</td><td>0 to 250</td><td>0.5</td><td>±3% FS</td><td>Record at master cylinder or per-axle circuit if available.</td></tr>
+    <tr><td>6</td><td>Wheel speeds (FL/FR/RL/RR)</td><td>Vehicle dynamics</td><td>50 Hz</td><td>km/h</td><td>0 to 280</td><td>0.1</td><td>±1% of reading</td><td>Log each wheel as a separate channel; include validity status if provided.</td></tr>
+    <tr><td>7</td><td>Longitudinal jerk</td><td>Vehicle dynamics</td><td>20 Hz</td><td>m/s³</td><td>-50 to +50</td><td>0.5</td><td>±10% of reading</td><td>Time derivative of longitudinal acceleration; specify computation window/filter if computed.</td></tr>
+  </tbody>
+</table>

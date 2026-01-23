@@ -1,0 +1,12 @@
+<table>
+  <caption>CC Packet Syntax (Framing Mixed with Color Description)</caption>
+  <tr><th>Syntax element</th><th>Descriptor</th></tr>
+  <tr><td>cc_packet(){</td><td></td></tr>
+  <tr><td>cc_packet_start_code</td><td>f(32)</td></tr>
+  <tr><td>cc_packet_length</td><td>u(16)</td></tr>
+  <tr><td>color_description(){</td><td></td></tr>
+  <tr><td>background_color_red</td><td>u(8)</td></tr>
+  <tr><td>background_color_green</td><td>u(8)</td></tr>
+  <tr><td>CC_sequence()</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

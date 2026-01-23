@@ -1,0 +1,15 @@
+<table>
+  <caption>Strong-Coupling Comparison Across Optical Modes Using Linearized Coupling Rate g = G*sqrt(n_c) (No g0 Reported)</caption>
+  <thead>
+    <tr><th>Platform</th><th>Optical mode family</th><th>Mode ID</th><th>G/2pi (GHz/nm)</th><th>n_c</th><th>g = G*sqrt(n_c)/2pi (MHz)</th><th>kappa/2pi (MHz)</th><th>Gamma_m/2pi (kHz)</th><th>Cooperativity C</th><th>Regime label</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Microdisk</td><td>TE</td><td>TE(33,1)</td><td>50</td><td>1.0e5</td><td>15.8</td><td>520</td><td>35</td><td>2.3e3</td><td>linearized strong?</td></tr>
+    <tr><td>Microdisk</td><td>TE</td><td>TE(28,2)</td><td>49</td><td>1.4e5</td><td>18.3</td><td>610</td><td>35</td><td>2.6e3</td><td>linearized strong?</td></tr>
+    <tr><td>Microdisk</td><td>TE</td><td>TE(25,3)</td><td>47</td><td>1.8e5</td><td>19.9</td><td>720</td><td>35</td><td>2.4e3</td><td>linearized strong?</td></tr>
+    <tr><td>Photonic crystal</td><td>Localized</td><td>O1</td><td>112</td><td>2.0e4</td><td>15.8</td><td>980</td><td>120</td><td>1.7e2</td><td>high C, large kappa</td></tr>
+    <tr><td>Photonic crystal</td><td>Localized</td><td>O2</td><td>105</td><td>2.6e4</td><td>16.9</td><td>1040</td><td>120</td><td>1.9e2</td><td>high C, large kappa</td></tr>
+    <tr><td>Fabry-Perot</td><td>TEM</td><td>TEM00</td><td>6.0</td><td>1.0e7</td><td>19.0</td><td>160</td><td>2</td><td>9.0e5</td><td>claimed strong</td></tr>
+    <tr><td>Membrane</td><td>Parity</td><td>Odd</td><td>4.5</td><td>6.0e6</td><td>11.0</td><td>210</td><td>2</td><td>1.4e5</td><td>intermediate</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Self-service Portal Terminal Management Test Cases (SI/SP Administrator and Terminal Vendor)</caption>
+  <thead>
+    <tr><th>Section</th><th>Test Case ID</th><th>Actor Role</th><th>Test Item</th><th>Test Sub-item</th><th>Objective</th><th>Expected Result</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">SI/SP Administrator</td><td>SSP-TM-SISP-001</td><td>SI/SP Admin</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that SI/SP admin can view terminals under managed customers via the portal</td><td>Only authorized customer terminal inventories are visible; unauthorized tenants are hidden</td></tr>
+    <tr><td>SSP-TM-SISP-002</td><td>SI/SP Admin</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that SI/SP admin can assign a terminal to a customer/tenant through the portal</td><td>Assignment is saved; terminal appears under the selected customer scope</td></tr>
+    <tr><td>SSP-TM-SISP-003</td><td>SI/SP Admin</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that SI/SP admin can lock/unlock a terminal from portal controls</td><td>Lock state changes are enforced; locked terminals show restricted operations</td></tr>
+    <tr><td>SSP-TM-SISP-004</td><td>SI/SP Admin</td><td>SI/SP Self-service Interface Functions</td><td>Terminal Management</td><td>Verify audit logging for SI/SP admin terminal changes initiated in the portal</td><td>All changes generate timestamped audit entries with operator identity</td></tr>
+    <tr><td rowspan="3">Terminal Vendor</td><td>SSP-TM-TV-001</td><td>Terminal Vendor</td><td>Terminal Vendor Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that terminal vendor can publish a terminal model/profile to the portal catalog</td><td>Model becomes available for selection; version is recorded</td></tr>
+    <tr><td>SSP-TM-TV-002</td><td>Terminal Vendor</td><td>Terminal Vendor Self-service Interface Functions</td><td>Terminal Management</td><td>Verify that vendor can update firmware/package metadata via the portal</td><td>New version is stored; existing terminals show update availability</td></tr>
+    <tr><td>SSP-TM-TV-003</td><td>Terminal Vendor</td><td>Terminal Vendor Self-service Interface Functions</td><td>Terminal Management</td><td>Verify rollback/withdrawal of a published terminal package through the portal</td><td>Withdrawn package cannot be newly selected; existing installations remain traceable</td></tr>
+  </tbody>
+</table>

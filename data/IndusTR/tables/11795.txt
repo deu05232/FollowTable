@@ -1,0 +1,15 @@
+<table>
+  <caption>Enhanced Infrared Curved-Band Interpretation: Wrap-Angle to DT with Grayscale-Based Adjustments and CI Output</caption>
+  <thead>
+    <tr><th>Cloud Pattern (EIR)</th><th>Wrap Angle Range (radians)</th><th>Dominant Band Grayscale/Temp Category</th><th>Base DT from Lookup</th><th>Adjustment Condition</th><th>DT Adjustment (ΔDT)</th><th>Final DT Used</th><th>CI Rule</th><th>Estimated CI (T-number)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Curved band (CB)</td><td>[0.20, 0.39]</td><td>MG</td><td>1.5</td><td>Band appears White (W)</td><td>+0.5</td><td>2.0</td><td>CI = DT (no constraint)</td><td>2.0</td></tr>
+    <tr><td>Curved band (CB)</td><td>[0.40, 0.55]</td><td>LG</td><td>2.5</td><td>Band appears White (W)</td><td>+0.5</td><td>3.0</td><td>CI = DT</td><td>3.0</td></tr>
+    <tr><td>Curved band (CB)</td><td>[0.56, 0.75]</td><td>DG</td><td>3.0</td><td>Band is fragmented along arc</td><td>-0.5</td><td>2.5</td><td>CI = DT (cap not applied)</td><td>2.5</td></tr>
+    <tr><td>Curved band (CB)</td><td>[0.76, 1.00]</td><td>B</td><td>3.5</td><td>Band is continuous and symmetric</td><td>+0.5</td><td>4.0</td><td>CI = DT</td><td>4.0</td></tr>
+    <tr><td>Curved band (CB)</td><td>[0.90, 1.10]</td><td>W</td><td>3.5</td><td>If wrap angle > 1.0, switch to Eye Pattern analysis</td><td>Use Eye Pattern</td><td>—</td><td>CI from Eye Pattern table</td><td>—</td></tr>
+    <tr><td>Curved band (CB)</td><td>[0.55, 0.75]</td><td>OW</td><td>3.0</td><td>Strong shear evident in imagery</td><td>-1.0</td><td>2.0</td><td>CI = max(DT, 2.5) under shear constraint</td><td>2.5</td></tr>
+    <tr><td>Curved band (CB)</td><td>[0.40, 0.55]</td><td>W</td><td>2.5</td><td>White band enhancement rule</td><td>+0.5</td><td>3.0</td><td>CI = DT + 0.5 if deep convection persists > 6 h</td><td>3.5</td></tr>
+  </tbody>
+</table>

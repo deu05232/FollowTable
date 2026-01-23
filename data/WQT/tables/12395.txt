@@ -1,0 +1,12 @@
+# Microsoft 365 DNS Records Often Created During Exchange Hybrid Projects
+
+| DNS record | Before Hybrid Deployment | After Hybrid Deployment |
+| --- | --- | --- |
+| MX | Points to on-premises mail gateway (e.g., mail.contoso.com) | Points to Microsoft 365 (e.g., contoso-com.mail.protection.outlook.com) |
+| Autodiscover (CNAME) | autodiscover.contoso.com -> on-premises CAS | autodiscover.contoso.com -> autodiscover.outlook.com |
+| SPF (TXT) | v=spf1 ip4:<on-prem-public-ip> -all | v=spf1 include:spf.protection.outlook.com -all |
+| DKIM (CNAME) | Not configured or third-party | selector1/selector2 -> Microsoft 365 DKIM records |
+| DMARC (TXT) | Not configured | v=DMARC1; p=quarantine; rua=mailto:dmarc@contoso.com |
+| A record for Hybrid server | legacy.contoso.com -> on-prem IP | Not required after moving endpoints to Microsoft 365 |
+| SRV (_sipfederationtls) | Not present | Added for Microsoft 365 workloads |
+| PTR / reverse DNS | Set for on-prem SMTP IP | Not applicable for Microsoft 365 outbound |

@@ -1,0 +1,14 @@
+<table>
+  <caption>Key Equipment Settings for a Continuous Hot-Dip Coating Line (Indicative Operating Window)</caption>
+  <thead>
+    <tr><th>Line section</th><th>Parameter</th><th>Unit</th><th>Typical setpoint</th><th>Control tolerance</th><th>Measured by</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Entry accumulator</td><td>Strip tension</td><td>kN</td><td>18</td><td>±2</td><td>Load cell</td><td>Depends on thickness</td></tr>
+    <tr><td>Annealing furnace</td><td>Soaking temperature</td><td>°C</td><td>780</td><td>±10</td><td>Thermocouple</td><td>Grade dependent</td></tr>
+    <tr><td>Annealing furnace</td><td>Dew point</td><td>°C</td><td>-35</td><td>±5</td><td>Hygrometer</td><td>H2/N2 atmosphere</td></tr>
+    <tr><td>Snout</td><td>Snout pressure</td><td>Pa</td><td>120</td><td>±20</td><td>Pressure transmitter</td><td>Prevent oxidation</td></tr>
+    <tr><td>Air knives</td><td>Knife-to-strip distance</td><td>mm</td><td>12</td><td>±1</td><td>Laser sensor</td><td>Affects coating mass</td></tr>
+    <tr><td>Cooling section</td><td>Cooling rate</td><td>°C/s</td><td>8</td><td>±2</td><td>Pyrometer</td><td>Controls microstructure</td></tr>
+  </tbody>
+</table>

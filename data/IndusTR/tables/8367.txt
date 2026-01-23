@@ -1,0 +1,15 @@
+<table>
+  <caption>Voltage/Frequency Tolerance Behavior Under Typical Operating Events (Limits and Recovery)</caption>
+  <thead>
+    <tr><th rowspan="2">Event during operation</th><th colspan="2">Voltage deviation allowance</th><th colspan="2">Frequency deviation allowance</th><th rowspan="2">Maximum time to recover to steady-state bands</th></tr>
+    <tr><th>Peak deviation limit</th><th>Permitted duration at peak</th><th>Peak deviation limit</th><th>Permitted duration at peak</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Step load increase (0% → 50% rated)</td><td>± 15% of Un</td><td>≤ 0.8 s</td><td>± 6%</td><td>≤ 1.5 s</td><td>≤ 3.0 s</td></tr>
+    <tr><td>Step load increase (50% → 100% rated)</td><td>± 18% of Un</td><td>≤ 0.8 s</td><td>± 7%</td><td>≤ 1.5 s</td><td>≤ 4.0 s</td></tr>
+    <tr><td>Step load decrease (100% → 50% rated)</td><td>± 12% of Un</td><td>≤ 0.8 s</td><td>± 6%</td><td>≤ 1.5 s</td><td>≤ 3.0 s</td></tr>
+    <tr><td>Sudden load rejection (50% → 0%)</td><td>+20% / -10% of Un</td><td>≤ 0.5 s</td><td>± 8%</td><td>≤ 1.0 s</td><td>≤ 5.0 s</td></tr>
+    <tr><td>Input supply dip / transfer disturbance</td><td>± 20% of Un</td><td>≤ 0.3 s</td><td>± 10%</td><td>≤ 1.0 s</td><td>≤ 5.0 s</td></tr>
+    <tr><td>Steady-state acceptance bands (target after recovery)</td><td colspan="2">Voltage: +6% / -10% of Un</td><td colspan="2">Frequency: ± 5%</td><td>Must return within the stated time limits above</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,19 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Message 61 Payload Layout (Field-by-Field Bit Allocation)</caption>
+  <thead>
+    <tr><th>Message Parameter</th><th>Length (bit)</th><th>Description / Encoding</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>6</td><td>Identifier of Message 61 (fixed value 61)</td></tr>
+    <tr><td>Repeat Indicator</td><td>2</td><td>Number of retransmissions (0 = default)</td></tr>
+    <tr><td>Source MMSI</td><td>30</td><td>MMSI of broadcasting device (as per MMSI coding rules)</td></tr>
+    <tr><td>Application Identifier (DAC)</td><td>10</td><td>Designated Area Code</td></tr>
+    <tr><td>Application Identifier (FI)</td><td>6</td><td>Function Identifier within DAC</td></tr>
+    <tr><td>Sequence Number</td><td>2</td><td>Application message sequence counter</td></tr>
+    <tr><td>Payload Length Indicator</td><td>6</td><td>Number of application payload bits/bytes as specified by the application</td></tr>
+    <tr><td rowspan="2">Application Payload</td><td>80</td><td>Application data block (first segment)</td></tr>
+    <tr><td>80</td><td>Application data block (second segment / continuation)</td></tr>
+    <tr><td>Spare</td><td>8</td><td>Set to zero</td></tr>
+    <tr><td>CRC / Check Bits</td><td>16</td><td>Error detection for the application payload</td></tr>
+  </tbody>
+</table>

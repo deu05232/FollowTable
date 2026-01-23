@@ -1,0 +1,16 @@
+<table>
+  <caption>Reusable Interface Metadata Template for Basic Math Operators (Shape, Type, Device)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Category</th><th>Optional/Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="4">Type & Device Metadata</td></tr>
+    <tr><td>Data Type</td><td>Interface Metadata</td><td>Optional</td><td>Allowed scalar element types for tensors (e.g., signed/unsigned integers, floating-point real, floating-point complex, boolean). If not specified, a framework default is used.</td></tr>
+    <tr><td>Device Type</td><td>Interface Metadata</td><td>Optional</td><td>Execution/placement target (e.g., CPU, GPU, NPU, FPGA, ASIC). If not specified, a default device is used.</td></tr>
+    <tr><td colspan="4">Shape / Layout Constraints</td></tr>
+    <tr><td>Tensor Rank</td><td>Shape</td><td>Required</td><td>Number of dimensions (rank). Must be >= 0. Scalar tensors use rank 0.</td></tr>
+    <tr><td>Dimension Sizes</td><td>Shape</td><td>Required</td><td>Array of length equal to Tensor Rank. Each entry is the size of the corresponding dimension; each size must be > 0 unless dynamic/unknown sizes are supported by the runtime.</td></tr>
+    <tr><td>Layout</td><td>Shape</td><td>Optional</td><td>Memory/layout tag describing dimension order (e.g., NCHW, NHWC) or a runtime-defined default if omitted.</td></tr>
+    <tr><td>Static Shape Requirement</td><td>Shape</td><td>Optional</td><td>Indicates whether Dimension Sizes must be compile-time constants (Static) or may be runtime values (Dynamic).</td></tr>
+  </tbody>
+</table>

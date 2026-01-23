@@ -1,0 +1,14 @@
+<table>
+  <caption>Temperature Behavior and Energy Efficiency Grade Thresholds (Non-Steam Degradation Metrics)</caption>
+  <thead>
+    <tr><th>Indicator</th><th>Definition</th><th>AAAAA</th><th>AAAA</th><th>AAA</th><th>AA</th><th>A</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Temperature control stability (S)</td><td>Relative fluctuation under steady load</td><td>S ≤ 2%</td><td>2% < S ≤ 4%</td><td>4% < S ≤ 7%</td><td>7% < S ≤ 10%</td><td>S > 10%</td></tr>
+    <tr><td>Warm-up temperature overshoot</td><td>Peak minus setpoint (°C)</td><td>≤ 5</td><td>5–8</td><td>8–12</td><td>12–18</td><td>> 18</td></tr>
+    <tr><td>Setpoint recovery time</td><td>Time to return to ±5°C after load (s)</td><td>≤ 12</td><td>12–18</td><td>18–28</td><td>28–45</td><td>> 45</td></tr>
+    <tr><td>Energy efficiency index (E)</td><td>Normalized energy per ironing task</td><td>E ≤ 0.82</td><td>0.82 < E ≤ 0.85</td><td>0.85 < E ≤ 0.88</td><td>0.88 < E ≤ 0.92</td><td>E > 0.92</td></tr>
+    <tr><td>Idle power draw</td><td>W at thermostat holding state</td><td>≤ 6</td><td>6–9</td><td>9–13</td><td>13–18</td><td>> 18</td></tr>
+    <tr><td>Thermal uniformity across soleplate</td><td>Max-min (°C) at 6 points</td><td>≤ 10</td><td>10–15</td><td>15–22</td><td>22–30</td><td>> 30</td></tr>
+  </tbody>
+</table>

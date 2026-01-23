@@ -1,0 +1,10 @@
+<table>
+  <caption>Network Security Access Matrix for Knitting Equipment Monitoring System</caption>
+  <tr><th>System Component</th><th>Role</th><th>Protocol</th><th>Port</th><th>Authentication</th><th>Access Level</th><th>Logging</th><th>Retention (days)</th></tr>
+  <tr><td>Machine Gateway</td><td>Edge collector</td><td>MQTT</td><td>1883</td><td>Token</td><td>Read/Write</td><td>Enabled</td><td>90</td></tr>
+  <tr><td>SCADA Server</td><td>Visualization</td><td>HTTPS</td><td>443</td><td>SSO</td><td>Admin</td><td>Enabled</td><td>180</td></tr>
+  <tr><td>Historian DB</td><td>Time-series storage</td><td>TCP</td><td>5432</td><td>Password</td><td>Read</td><td>Enabled</td><td>365</td></tr>
+  <tr><td>Operator HMI</td><td>Local control</td><td>OPC UA</td><td>4840</td><td>Certificate</td><td>Read/Write</td><td>Partial</td><td>30</td></tr>
+  <tr><td>Remote Service</td><td>Vendor support</td><td>VPN</td><td>1194</td><td>Certificate</td><td>Restricted</td><td>Enabled</td><td>180</td></tr>
+  <tr><td>SIEM Connector</td><td>Security analytics</td><td>Syslog</td><td>514</td><td>Key</td><td>Read</td><td>Enabled</td><td>365</td></tr>
+</table>

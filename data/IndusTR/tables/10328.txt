@@ -1,0 +1,15 @@
+<table>
+  <caption>Face Augmentation Blendshape and Occlusion Modes (Enum Definitions)</caption>
+  <thead>
+    <tr><th>Category</th><th>Enum Constant</th><th>Numeric Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Face mesh detail</td><td>AR_FACE_MESH_DETAIL_DISABLED</td><td>0</td><td>No face mesh generated.</td></tr>
+    <tr><td>AR_FACE_MESH_DETAIL_COARSE</td><td>1</td><td>Low-detail mesh suitable for basic effects.</td></tr>
+    <tr><td>AR_FACE_MESH_DETAIL_FINE</td><td>2</td><td>High-detail mesh suitable for close-up rendering.</td></tr>
+    <tr><td rowspan="2">Blendshape output</td><td>AR_FACE_BLENDSHAPES_OFF</td><td>0</td><td>No blendshape coefficients are produced.</td></tr>
+    <tr><td>AR_FACE_BLENDSHAPES_ON</td><td>1</td><td>Blendshape coefficients are produced each frame.</td></tr>
+    <tr><td rowspan="2">Face occlusion</td><td>AR_FACE_OCCLUSION_DISABLED</td><td>0</td><td>No occlusion geometry is provided.</td></tr>
+    <tr><td>AR_FACE_OCCLUSION_ENABLED</td><td>1</td><td>Provides an occlusion mesh for rendering.</td></tr>
+  </tbody>
+</table>

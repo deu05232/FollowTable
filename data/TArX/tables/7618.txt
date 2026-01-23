@@ -1,0 +1,19 @@
+<table>
+  <caption>Mapping of the parameters in the BGKT microwave-resonator speed meter paper to those in this paper.</caption>
+  <tr><th>Parameter</th><th>BGKT</th><th>Purdue</th></tr>
+  <tr><td>signal frequency</td><td>ω</td><td>ω</td></tr>
+  <tr><td>carrier frequency</td><td>ω_(e)</td><td>ω_(0)</td></tr>
+  <tr><td>optimal frequency</td><td>ω_(0)</td><td>ω_(opt)</td></tr>
+  <tr><td>mass of test body</td><td>m</td><td>m</td></tr>
+  <tr><td>characteristic length</td><td>d</td><td>L</td></tr>
+  <tr><td>sloshing frequency</td><td>Ω</td><td>Ω=c_(s)/L</td></tr>
+  <tr><td>test-mass displacement</td><td>(ω)</td><td>(ω)</td></tr>
+  <tr><td>signal extraction rate τ_(e)^(*) is the relaxation time of the excited resonator due to energy flowing out.</td><td>δ_(e)=1/2τ_(e)^(*)</td><td>δ=cT_(o)/4L</td></tr>
+  <tr><td>impedance of resonators In BGKT, both resonators have the same characteristic impedance, but in this interferometer, they are different. Consequently, caution must be used when transforming between the two models.</td><td>ρ</td><td>ρ_(o)=2L/c_(o)</td></tr>
+  <tr><td></td><td></td><td>ρ_(i)=2L/c_(i)</td></tr>
+  <tr><td>driving amplitude There is a proportionality constant α={2_(o)} which must be included to get the correct dimensionality when transforming BGKT’s equations into Purdue’s notation. For example, U_(0)α I_(1) .</td><td>U_(0)</td><td>α I_(1)</td></tr>
+  <tr><td>amp. in excited cavity [3]</td><td>-q_(0)=U_(0)/Ωρ</td><td>α B_(1)=α I_(1)/Ωρ_(i)</td></tr>
+  <tr><td>noise into output port [3] ^((,)) Notice that the quadratures are reversed. This is due to a difference in the way the models were defined.</td><td>_(es),\ U_(ec)\</td><td>-α\{_(1),\ _(2)\}</td></tr>
+  <tr><td>sideband components [3] ^((,)) Notice that in Purdue’s notation the letter indicates the cavity and the numerical subscript indicates the quadrature, whereas in BGKT, the letter indicates the quadrature and the number indicates the resonator.</td><td>_(1),b_(1),a_(2),b_(2)\</td><td>α\{_(1),_(2),_(1),_(2)\}</td></tr>
+  <tr><td>output amplitude [3]</td><td>(ω)</td><td>α_()(ω)</td></tr>
+</table>

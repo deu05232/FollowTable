@@ -1,0 +1,12 @@
+# Great Firewall Blocking Techniques Observed for Major Sites in Mainland China
+
+| Service | Domain | Service Type | Primary Blocking Method | Secondary Signal | Typical Error Symptom | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| Google Search | google.com | Search | DNS poisoning | SNI filtering | Incorrect IP / connection reset | Varies by ISP and region |
+| YouTube | youtube.com | Video streaming | IP blocking | TCP RST injection | Connection timed out | CDN IP ranges frequently affected |
+| Facebook | facebook.com | Social network | SNI filtering | DNS interference | TLS handshake failure | Often fails on HTTPS negotiation |
+| X (Twitter) | x.com | Social network | DNS poisoning | IP blocking | NXDOMAIN / timeout | Old domain twitter.com also impacted |
+| Wikipedia | wikipedia.org | Knowledge base | HTTPS/SNI filtering | DNS poisoning | TLS error | Some language subdomains differ |
+| Instagram | instagram.com | Social network | IP blocking | DNS poisoning | App cannot refresh feed | Meta-owned properties commonly grouped |
+| WhatsApp | whatsapp.com | Messaging | IP blocking | Packet filtering | Calls fail / cannot connect | Web endpoints may differ from app traffic |
+| Dropbox | dropbox.com | Cloud storage | DNS poisoning | IP blocking | Cannot resolve host | Often inconsistent across networks |

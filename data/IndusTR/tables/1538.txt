@@ -1,0 +1,5 @@
+<table>
+  <caption>Service Transaction Support Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Supports Transactionality</td><td>supportTransaction</td><td>BL</td><td>M</td><td>1</td><td>1, 0 or true, false</td><td>When the value is 1 (true), transactionality is supported; when the value is 0 (false), transactionality is not supported</td></tr>
+</table>

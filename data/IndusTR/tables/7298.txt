@@ -1,0 +1,15 @@
+<table>
+  <caption>Electric Compressor Qualification — Random Vibration & Sweep Schedule</caption>
+  <thead>
+    <tr><th rowspan="2">Test stage</th><th rowspan="2">Axis</th><th colspan="3">Random vibration PSD</th><th rowspan="2">Sine sweep range (Hz)</th><th rowspan="2">Sweep rate (oct/min)</th><th rowspan="2">Dwell time (min)</th><th rowspan="2">Failure criteria</th></tr>
+    <tr><th>PSD @ 20 Hz (g^2/Hz)</th><th>PSD @ 100 Hz (g^2/Hz)</th><th>PSD @ 300 Hz (g^2/Hz)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pre-check</td><td>X</td><td>0.010</td><td>0.020</td><td>0.005</td><td>5–500</td><td>1</td><td>5</td><td>No shutdown</td></tr>
+    <tr><td>Pre-check</td><td>Y</td><td>0.010</td><td>0.020</td><td>0.005</td><td>5–500</td><td>1</td><td>5</td><td>No shutdown</td></tr>
+    <tr><td>Pre-check</td><td>Z</td><td>0.010</td><td>0.020</td><td>0.005</td><td>5–500</td><td>1</td><td>5</td><td>No shutdown</td></tr>
+    <tr><td>Endurance</td><td>X</td><td>0.020</td><td>0.040</td><td>0.010</td><td>10–2000</td><td>0.5</td><td>60</td><td>No cracks / no loose parts</td></tr>
+    <tr><td>Endurance</td><td>Y</td><td>0.020</td><td>0.040</td><td>0.010</td><td>10–2000</td><td>0.5</td><td>60</td><td>No cracks / no loose parts</td></tr>
+    <tr><td>Endurance</td><td>Z</td><td>0.020</td><td>0.040</td><td>0.010</td><td>10–2000</td><td>0.5</td><td>60</td><td>No cracks / no loose parts</td></tr>
+  </tbody>
+</table>

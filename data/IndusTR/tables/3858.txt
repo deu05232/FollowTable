@@ -1,0 +1,8 @@
+<table>
+  <caption>Controller Interaction Mode Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumeration Value</td><td>Description</td></tr>
+  <tr><td rowspan="4">vrControllerInteractiveMode</td><td>VR_CONTROLLER_INTERACTIVE_MODE_NONE=0x00</td><td>No controller interaction</td></tr>
+  <tr><td>VR_CONTROLLER_INTERACTIVE_MODE_ONE=0x01</td><td>Single-controller interaction</td></tr>
+  <tr><td>VR_CONTROLLER_INTERACTIVE_MODE_MULTIPLE=0x02</td><td>Multi-controller interaction</td></tr>
+  <tr><td>0x03~0xFF</td><td>Reserved</td></tr>
+</table>

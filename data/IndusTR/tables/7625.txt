@@ -1,0 +1,7 @@
+<table>
+  <caption>AR hit test: get first result (single-pointer output only)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result_list</td><td>ArHitResultList *</td><td>Hit test list object pointer</td></tr>
+  <tr><td>out_hit_result</td><td>ArHitResult *</td><td>Receives the first hit result (caller-provided object)</td></tr>
+</table>

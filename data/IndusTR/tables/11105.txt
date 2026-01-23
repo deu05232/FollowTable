@@ -1,0 +1,7 @@
+<table>
+  <caption>Authentication Fields Used Across Open API Endpoints</caption>
+  <tr><th>Endpoint Type</th><th>Authentication Inputs</th><th>How They Are Represented</th></tr>
+  <tr><td>Read-only requests</td><td>User ID, access token</td><td>Both provided as strings</td></tr>
+  <tr><td>Write requests</td><td>User ID, access token</td><td>Both provided as strings; token required before payload is processed</td></tr>
+  <tr><td>Device-bound requests</td><td>User ID, access token</td><td>Strings; evaluated prior to device-specific checks</td></tr>
+</table>

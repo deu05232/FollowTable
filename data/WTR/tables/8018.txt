@@ -1,0 +1,13 @@
+# BitTorrent Protocol Signature and Network Detection Notes
+
+| Vendor/Product | Feature | Detected Protocol Label | Example Indicators | false Positive Risk | Admin Action |
+|---|---|---|---|---|---|
+| Cisco NBAR | Application recognition | bittorrent | Handshake patterns | Medium | Update protocol pack |
+| Palo Alto App-ID | App classification | bittorrent | Tracker announces | Medium | Create App-ID rule |
+| Fortinet IPS | Traffic inspection | P2P.Bittorrent | DHT traffic | High | Tune signatures |
+| Suricata Ruleset | IDS alerting | bittorrent-dht | UDP DHT queries | Medium | Suppress noisy SIDs |
+| Zeek (Bro) | Network analysis | bittorrent | Peer messages | Medium | Enable protocol analyzers |
+| OpenWrt SQM | QoS shaping | p2p bulk | Sustained flows | High | Rate-limit bulk class |
+| Sophos XG | Web/App control | P2P/BitTorrent | Encrypted streams | Medium | Block category |
+| Check Point | Application Control | BitTorrent | Known tracker domains | Medium | Add exceptions |
+| Juniper SRX | AppSecure | bittorrent | Flow heuristics | Medium | Apply policy |

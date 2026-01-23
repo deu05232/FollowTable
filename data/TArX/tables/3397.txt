@@ -1,0 +1,14 @@
+<table>
+  <caption>Best fit parameters for different models. Errors show the 1- σ confidence level for the parameters of interest (see text in section 4 for the details). The last two column report the total C-stat value (i.e. the sum of the C-stat values obtained from the fit of the BATSE and Swift dataset) and the Akaike Information Criterion (AIC) score, respectively. We note that in order to properly compare different models the AIC criterion has to be considered, where exp ⁡ ( ( AIC min - AIC i ) / 2 ) can be interpreted as the relative probability that the i -th model minimizes the (estimated) information loss with respect to the model with the minimum AIC, AIC min . The total number of data points in the fit is 33. The GRB formation rate at z = 0 , η 0 , is given in units of Gpc - 3 yr - 1 and the characteristic luminosity L 0 , 51 is units of 10 51 erg s - 1 .</caption>
+  <tr><th>Model</th><th>evo. par.</th><th>_(0)</th><th>L_(0,51)</th><th>_(f)</th><th>_(b)</th><th>C-stat</th><th>AIC</th></tr>
+  <tr><th colspan="8">cut-off luminosity function</th></tr>
+  <tr><th>no evolution</th><td>-</td><td>0.30</td><td>1.0^(+0.9)_(-0.5)</td><td>-</td><td>2.03^(+0.16)_(-0.12)</td><td>93</td><td>99</td></tr>
+  <tr><th>luminosity</th><td>δ_(l)=2.3± 0.6</td><td>0.14</td><td>0.22_(-0.13)^(+0.27)</td><td>-</td><td>2.02_(-0.10)^(+0.13)</td><td>27</td><td>35</td></tr>
+  <tr><th>density</th><td>δ_(n)=1.6± 0.4</td><td>0.03</td><td>3.07_(-1.94)^(+3.29)</td><td>-</td><td>2.09_(-0.17)^(+0.23)</td><td>38</td><td>46</td></tr>
+  <tr><th>metal</th><td>Z_(th)=0.14± 0.16</td><td>0.04</td><td>4.4_(-2.8)^(+5.6)</td><td>-</td><td>2.19_(-0.20)^(+0.30)</td><td>37</td><td>45</td></tr>
+  <tr><th colspan="8">double power-law luminosity function</th></tr>
+  <tr><th>no evolution</th><td>-</td><td>2.06</td><td>25_(-21)^(+68)</td><td>1.56_(-0.42)^(+0.11)</td><td>2.31_(-0.31)^(+0.35)</td><td>88</td><td>96</td></tr>
+  <tr><th>luminosity</th><td>δ_(l)=2.1± 0.6</td><td>0.21</td><td>0.55_(-0.34)^(+0.69)</td><td>0.74_(-1.36)^(+1.42)</td><td>1.92^(+0.14)_(-0.11)</td><td>33</td><td>43</td></tr>
+  <tr><th>density</th><td>δ_(n)=1.7± 0.5</td><td>0.24</td><td>38_(-27)^(+63)</td><td>1.50_(-0.32)^(+0.16)</td><td>2.32_(-0.32)^(+0.77)</td><td>27</td><td>37</td></tr>
+  <tr><th>metal</th><td>Z_(th)=0.10± 0.18</td><td>0.41</td><td>47_(-35)^(+75)</td><td>1.45_(-0.35)^(+0.17)</td><td>2.58_(-0.50)^(+0.60)</td><td>26</td><td>36</td></tr>
+</table>

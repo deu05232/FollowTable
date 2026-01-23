@@ -1,0 +1,16 @@
+# Molar Gas Constant for Different Mixtures and Conditions (Apparent R Variants)
+
+| Fluid/Assumption | Reported 'R' | Units | Basis | Condition/Model |
+|---|---:|---|---|---|
+| Dry air (standard composition) | 287.058 | J·kg^-1·K^-1 | mass-specific | sea level approximation |
+| Humid air (50% RH) | 300.0 | J·kg^-1·K^-1 | mass-specific | illustrative, depends on humidity |
+| Natural gas (typical pipeline mix) | 518.0 | J·kg^-1·K^-1 | mass-specific | depends on composition |
+| Flue gas (CO2/H2O rich) | 250.0 | J·kg^-1·K^-1 | mass-specific | depends on excess air |
+| Refrigerant R-134a vapor | 81.5 | J·kg^-1·K^-1 | mass-specific | ideal-gas fit over range |
+| Steam (water vapor) | 461.52 | J·kg^-1·K^-1 | mass-specific | common psychrometrics constant |
+| 'Effective R' for real gas | 8.20 | J·mol^-1·K^-1 | fitted molar | EOS-dependent, not universal |
+| 'Effective R' at high pressure | 7.90 | J·mol^-1·K^-1 | fitted molar | accounts for nonideality |
+| CO2 near critical | 8.50 | J·mol^-1·K^-1 | fitted molar | model-dependent |
+| Custom mixture (user-defined) | 9.10 | J·mol^-1·K^-1 | fitted molar | composition-dependent |
+| LNG boil-off mix | 530.0 | J·kg^-1·K^-1 | mass-specific | approximate |
+| Syngas (H2/CO/CO2) | 410.0 | J·kg^-1·K^-1 | mass-specific | composition-dependent |

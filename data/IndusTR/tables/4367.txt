@@ -1,0 +1,10 @@
+<table>
+  <caption>Hardware Device Stream Management Interfaces</caption>
+  <tr><td>Interface Name</td><td>English Name</td><td>Mandatory/Optional</td><td>Interface Description</td></tr>
+  <tr><td>Create a device stream</td><td>create_stream</td><td>Optional</td><td>Create a device stream</td></tr>
+  <tr><td>Destroy a device stream</td><td>destroy_stream</td><td>Optional</td><td>Destroy a device stream</td></tr>
+  <tr><td>Query device stream information</td><td>query_stream</td><td>Optional</td><td>Query device stream information</td></tr>
+  <tr><td>Synchronize a device stream</td><td>synchronize_stream</td><td>Optional</td><td>Wait for all tasks in the stream to complete</td></tr>
+  <tr><td>Add a host callback function</td><td>stream_add_callback</td><td>Optional</td><td>Add a host callback function</td></tr>
+  <tr><td>Wait for an event in the stream to complete</td><td>stream_wait_event</td><td>Optional</td><td>Wait for an event in the stream to complete</td></tr>
+</table>

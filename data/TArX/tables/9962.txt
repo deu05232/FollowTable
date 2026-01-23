@@ -1,0 +1,18 @@
+<table>
+  <caption>Alternative determinations of selected CKM magnitudes: multiple channels and dominant theory inputs</caption>
+  <thead>
+    <tr><th>CKM element (magnitude)</th><th>Channel category</th><th>Experimental source / process (explicit)</th><th>What is measured experimentally</th><th>Key external/theory input</th><th>Typical impact on uncertainty</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">|V_ud|</td><td>Low-energy nuclear</td><td>Superallowed nuclear β decays</td><td>Corrected Ft values averaged over nuclei</td><td>Radiative + isospin-breaking corrections</td><td>Limits from nuclear/radiative systematics</td></tr>
+    <tr><td>Neutron</td><td>Neutron β decay</td><td>Neutron lifetime and g_A (asymmetries)</td><td>Axial coupling g_A; radiative corrections</td><td>Experimental control of systematics in τ_n and asymmetries</td></tr>
+    <tr><td rowspan="2">|V_us|</td><td>Kaon semileptonic</td><td>Semileptonic K decay (Kℓ3)</td><td>Decay rates and kinematic distributions</td><td>f+(0) from lattice QCD</td><td>Dominated by lattice normalization and radiative effects</td></tr>
+    <tr><td>Kaon leptonic</td><td>Leptonic K decay (K→μν)</td><td>Ratio Γ(K→μν)/Γ(π→μν)</td><td>f_K/f_π from lattice QCD</td><td>Lattice decay-constant ratio and EM corrections</td></tr>
+    <tr><td rowspan="2">|V_ub|</td><td>Exclusive</td><td>B→πℓν (exclusive semileptonic)</td><td>Differential rate dΓ/dq²</td><td>B→π form factors (lattice/LCSR)</td><td>Form-factor shape/normalization</td></tr>
+    <tr><td>Inclusive</td><td>B→X_uℓν (inclusive semileptonic)</td><td>Partial rates with phase-space cuts</td><td>Shape functions; heavy-quark parameters</td><td>Modeling of endpoint region and OPE uncertainties</td></tr>
+    <tr><td rowspan="2">|V_cb|</td><td>Exclusive</td><td>B→D*ℓν (exclusive semileptonic)</td><td>Extrapolation to zero recoil</td><td>Form-factor normalization from lattice/HQET</td><td>Normalization at zero recoil</td></tr>
+    <tr><td>Inclusive</td><td>B→X_cℓν (inclusive semileptonic)</td><td>Moments of lepton-energy/hadronic-mass spectra</td><td>OPE parameters (m_b, μ_π², …)</td><td>OPE truncation and parameter correlations</td></tr>
+    <tr><td rowspan="2">|V_tb|</td><td>Top decay</td><td>Top-pair events: t→Wb branching fraction</td><td>R_b = B(t→Wb)/B(t→Wq)</td><td>Assumptions about 3×3 unitarity / extra generations</td><td>Interpretation depends on model assumptions</td></tr>
+    <tr><td>Single top</td><td>Single-top production cross sections</td><td>σ(t-channel, s-channel, tW) ∝ |V_tb|²</td><td>SM production theory; PDFs</td><td>Experimental + theory normalization</td></tr>
+  </tbody>
+</table>

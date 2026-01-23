@@ -1,0 +1,18 @@
+<table>
+  <caption>User Terminal Application File (UTAF) — Header and Device Identity Layout</caption>
+  <thead>
+    <tr><th>Field</th><th>Offset (bytes)</th><th>Size (bytes)</th><th>Plain meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>File Magic</td><td>0</td><td>2</td><td>Constant marker to confirm the file type (e.g., identifies this as a terminal application file).</td></tr>
+    <tr><td>Format Version</td><td>2</td><td>1</td><td>Binary layout version used to parse the rest of the file.</td></tr>
+    <tr><td>Record Type</td><td>3</td><td>1</td><td>Indicates what kind of terminal/application record this is (used to select the correct decoder).</td></tr>
+    <tr><td>Header Length</td><td>4</td><td>2</td><td>Total size of the header section, allowing forward-compatible extensions.</td></tr>
+    <tr><td>Total File Length</td><td>6</td><td>4</td><td>Full file length in bytes; used to validate reads and detect truncation.</td></tr>
+    <tr><td>Terminal IMEI (BCD)</td><td>10</td><td>8</td><td>IMEI stored as BCD; typically the first 15 digits with the last nibble padded (0xF).</td></tr>
+    <tr><td>User Management Module Identifier (BCD)</td><td>18</td><td>9</td><td>Terminal-side user management module unique ID; often used as a diversification factor for derived keys.</td></tr>
+    <tr><td>User ID</td><td>27</td><td>6</td><td>Unique user identifier associated with the terminal/application instance.</td></tr>
+    <tr><td>Application Instance ID</td><td>33</td><td>4</td><td>ID for the specific app instance/profile on the terminal (distinguishes multiple profiles on one device).</td></tr>
+    <tr><td>Reserved (Future Use)</td><td>37</td><td>3</td><td>Padding/reserved bytes; must be preserved when rewriting the file.</td></tr>
+  </tbody>
+</table>

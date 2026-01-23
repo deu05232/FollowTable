@@ -1,0 +1,10 @@
+<table>
+  <caption>Incorrect control-character ordering examples (invalid sequences only)</caption>
+  <tr><th>Rendered Form (schematic)</th><th>Invalid Character Sequence</th><th>Notes</th></tr>
+  <tr><td>…</td><td>[U+180E][MVS][U+1820]</td><td>Format control before selector is not allowed in this context</td></tr>
+  <tr><td>…</td><td>[NIRUGU][MVS][U+1820]</td><td>Control characters cannot stack in this order</td></tr>
+  <tr><td>…</td><td>[U+1820][U+180E][MVS]</td><td>Ends with control characters without a base letter</td></tr>
+  <tr><td>…</td><td>[MVS][U+1820][U+180E]</td><td>Trailing format control after a completed cluster</td></tr>
+  <tr><td>…</td><td>[U+1821][NIRUGU][U+180E]</td><td>NIRUGU cannot be immediately followed by format control here</td></tr>
+  <tr><td>…</td><td>[U+1828][MVS][U+180E][U+1828]</td><td>Control character placed between two base letters</td></tr>
+</table>

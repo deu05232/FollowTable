@@ -1,0 +1,15 @@
+<table>
+  <caption>Purchased Electricity and Grid Emission Factors by Region (Parameter Table)</caption>
+  <thead>
+    <tr><th>Reporting Year</th><th>Facility</th><th>Grid Region</th><th>Electricity Purchased (MWh)</th><th>Residual Mix EF (tCO2/MWh)</th><th>Location-based EF (tCO2/MWh)</th><th>Market-based EF (tCO2/MWh)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>2022</td><td>Plant A</td><td>North Grid</td><td>12000</td><td>0.684</td><td>0.612</td><td>0.410</td><td>Supplier-specific contract</td></tr>
+    <tr><td>2022</td><td>Plant B</td><td>East Grid</td><td>8600</td><td>0.732</td><td>0.701</td><td>0.520</td><td>REC-backed, partial</td></tr>
+    <tr><td>2023</td><td>Plant A</td><td>North Grid</td><td>11850</td><td>0.660</td><td>0.598</td><td>0.395</td><td>Updated grid factor</td></tr>
+    <tr><td>2023</td><td>Plant C</td><td>South Grid</td><td>5400</td><td>0.812</td><td>0.775</td><td>0.610</td><td>Default factor used</td></tr>
+    <tr><td>2023</td><td>Warehouse D</td><td>West Grid</td><td>2300</td><td>0.455</td><td>0.430</td><td>0.290</td><td>Low-carbon grid</td></tr>
+    <tr><td>2024</td><td>Plant B</td><td>East Grid</td><td>9050</td><td>0.710</td><td>0.680</td><td>0.505</td><td>Methodology unchanged</td></tr>
+    <tr><td>2024</td><td>Plant C</td><td>South Grid</td><td>5600</td><td>0.798</td><td>0.760</td><td>0.600</td><td>Peak/off-peak blended</td></tr>
+  </tbody>
+</table>

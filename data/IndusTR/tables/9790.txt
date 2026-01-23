@@ -1,0 +1,15 @@
+<table>
+  <caption>Conformance Traversal Targets Referencing External Tables/Sections</caption>
+  <thead>
+    <tr><th>Syntax element</th><th>Primary requirement statement</th><th>External reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>cu_type_index</td><td>Traverse all binary symbol string cases as defined externally</td><td>See Table 80, Table 81, Table 82 (codec spec conformance annex)</td></tr>
+    <tr><td>b_pu_type_index</td><td>Use externally defined symbol strings for each CU type category</td><td>See Table 86–Table 88 (partition signaling tables)</td></tr>
+    <tr><td>sao_merge_type_index</td><td>Enumerate all merge type codewords from the normative mapping table</td><td>See Table 74 (SAO merge type mapping)</td></tr>
+    <tr><td>last_cg_x</td><td>Range depends on MaxVal derived from a normative look-up</td><td>See Table 100 (MaxVal derivation by block size / component)</td></tr>
+    <tr><td>BypassFlag context</td><td>Follow all cases listed in the arithmetic engine context section</td><td>See Section 8.3.3.1 (context derivation)</td></tr>
+    <tr><td>StuffingBitFlag context</td><td>Follow all cases listed in the arithmetic engine context section</td><td>See Section 8.3.3.1 (termination & stuffing behavior)</td></tr>
+    <tr><td>shape_of_partition_index</td><td>Follow the normative mapping table for all bin strings</td><td>See Table 90 (shape index mapping)</td></tr>
+  </tbody>
+</table>

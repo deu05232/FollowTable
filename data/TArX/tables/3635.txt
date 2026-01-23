@@ -1,0 +1,26 @@
+<table>
+  <caption>SPICES performance summary for exoplanet spectroscopic characterization. We strongly encourage the reader to refer to the rest of the paper to access the assumptions and the detail of the studies.</caption>
+  <tr><th>Planet</th><th>Probed property</th><th colspan="3">Stellar type</th><th>Sections</th></tr>
+  <tr><th></th><th></th><th>A0</th><th>G2</th><th>M0</th><th></th></tr>
+  <tr><th rowspan="6">Jupiter</th><th rowspan="3">Rayleigh scattering</th><th>1 AU ≤ a ≤ 4.2 AU</th><th>0.25 AU ≤ a ≤ 0.8 AU</th><th rowspan="3">-</th><th rowspan="6">LABEL:jupneptmodels , LABEL:Jupstudy , and LABEL:overallperf</th></tr>
+  <tr><td>5 pc ≤ d ≤ 17 pc</td><td>1.3 pc ≤ d ≤ 4 pc</td></tr>
+  <tr><td>0.5 R _() ≤ R _() ≤ 1.1 R _()</td><td>0.5 R _() ≤ R _() ≤ 1.1 R _()</td></tr>
+  <tr><th rowspan="3">Solar metallicity 1x/3x</th><td>1 AU ≤ a ≤ 4.2 AU</td><td>0.25 AU ≤ a ≤ 5 AU</td><td>0.25 AU ≤ a ≤ 3 AU</td></tr>
+  <tr><td>5 pc ≤ d ≤ 17 pc</td><td>1.3 pc ≤ d ≤ 10 pc</td><td>1.3 pc ≤ d ≤ 7.5 pc</td></tr>
+  <tr><td>0.6 R _() ≤ R _() ≤ 1.1 R _()</td><td>0.5 R _() ≤ R _() ≤ 1.1 R _()</td><td>0.5 R _() ≤ R _() ≤ 1.1 R _()</td></tr>
+  <tr><th rowspan="6">Neptune</th><th rowspan="3">Rayleigh scattering</th><td rowspan="3">-</td><td>0.25 AU ≤ a ≤ 0.8 AU</td><td rowspan="3">-</td><td rowspan="6">LABEL:jupneptmodels , LABEL:Neptstudy , and LABEL:overallperf</td></tr>
+  <tr><td>1.3 pc ≤ d ≤ 4 pc</td></tr>
+  <tr><td>0.5 R _() ≤ R _() ≤ 1.5 R _()</td></tr>
+  <tr><th rowspan="3">Solar metallicity 10x/30x</th><td rowspan="3">-</td><td>0.25 AU ≤ a ≤ 2 AU</td><td>0.25 AU ≤ a ≤ 1.5 AU</td></tr>
+  <tr><td>1.3 pc ≤ d ≤ 8.5 pc</td><td>1.3 pc ≤ d ≤ 3 pc</td></tr>
+  <tr><td>0.5 R _() ≤ R _() ≤ 1.5 R _()</td><td>0.5 R _() ≤ R _() ≤ 1.5 R _()</td></tr>
+  <tr><th rowspan="9">Earth</th><th rowspan="3">Cloud coverage 0/50/100%</th><td rowspan="3">-</td><td>0.25 AU ≤ a ≤ 1 AU</td><td>0.25 AU ≤ a ≤ 0.6 AU</td><td rowspan="9">LABEL:earthmodels , LABEL:SEstudy , and LABEL:overallperf</td></tr>
+  <tr><td>1.3 pc ≤ d ≤ 5 pc</td><td>1.3 pc ≤ d ≤ 3 pc</td></tr>
+  <tr><td>1 R _() ≤ R _() ≤ 2.5 R _()</td><td>1.1 R _() ≤ R _() ≤ 2.5 R _()</td></tr>
+  <tr><th rowspan="3">Forest coverage 0/50/100% clouds = 0%</th><td rowspan="3">-</td><td>0.25 AU ≤ a ≤ 1 AU</td><td>0.25 AU ≤ a ≤ 0.6 AU</td></tr>
+  <tr><td>1.3 pc ≤ d ≤ 5 pc</td><td>1.3 pc ≤ d ≤ 3 pc</td></tr>
+  <tr><td>1.1 R _() ≤ R _() ≤ 2.5 R _()</td><td>1.2 R _() ≤ R _() ≤ 2.5 R _()</td></tr>
+  <tr><th rowspan="3">Forest coverage 0/50/100% clouds = 50%</th><td rowspan="3">-</td><td>0.25 AU ≤ a ≤ 1 AU</td><td>0.25 AU ≤ a ≤ 0.6 AU</td></tr>
+  <tr><td>1.3 pc ≤ d ≤ 4 pc</td><td>1.3 pc ≤ d ≤ 2.8 pc</td></tr>
+  <tr><td>1.1 R _() ≤ R _() ≤ 2.5 R _()</td><td>1.4 R _() ≤ R _() ≤ 2.5 R _()</td></tr>
+</table>

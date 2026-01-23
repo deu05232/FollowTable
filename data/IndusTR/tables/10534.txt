@@ -1,0 +1,15 @@
+<table>
+  <caption>Loss Limits by Cooling Method with Fixed 75°C Winding Temperature (Oil-Immersed Transformers)</caption>
+  <thead>
+    <tr><th rowspan="2">Rated Power (kVA)</th><th rowspan="2">Cooling</th><th colspan="2">Grade A</th><th colspan="2">Grade B</th><th rowspan="2">Short-circuit impedance (%)</th><th rowspan="2">Winding Temp Assumption</th></tr>
+    <tr><th>No-load loss (kW)</th><th>Load loss (kW)</th><th>No-load loss (kW)</th><th>Load loss (kW)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>3150</td><td>ONAN</td><td>2.2</td><td>18.6</td><td>2.6</td><td>18.6</td><td>6.0–10.0</td><td rowspan="6">75°C</td></tr>
+    <tr><td>3150</td><td>ONAF</td><td>2.3</td><td>18.6</td><td>2.7</td><td>18.6</td><td>6.0–10.0</td></tr>
+    <tr><td>5000</td><td>ONAN</td><td>3.1</td><td>27.5</td><td>3.7</td><td>27.5</td><td>6.0–12.0</td></tr>
+    <tr><td>5000</td><td>ONAF</td><td>3.2</td><td>27.5</td><td>3.8</td><td>27.5</td><td>6.0–12.0</td></tr>
+    <tr><td>10000</td><td>ONAN</td><td>5.8</td><td>49.0</td><td>6.8</td><td>49.0</td><td>8.0–14.0</td></tr>
+    <tr><td>10000</td><td>ONAF</td><td>6.0</td><td>49.0</td><td>7.0</td><td>49.0</td><td>8.0–14.0</td></tr>
+  </tbody>
+</table>

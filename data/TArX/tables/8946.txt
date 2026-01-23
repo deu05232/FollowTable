@@ -1,0 +1,19 @@
+<table>
+  <caption>Standard chemical potentials (g0) and typical intracellular concentrations for metabolites involved in ATP hydrolysis and phosphate transfer</caption>
+  <thead>
+    <tr><th>Category</th><th>Metabolite (abbr.)</th><th>Compound name</th><th>g0 (kJ/mol)</th><th>Typical intracellular concentration (M)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><th rowspan="5">Adenylates</th><td>ATP</td><td>Adenosine triphosphate</td><td>-2770</td><td>3.0×10^-3</td><td>Major cellular energy currency</td></tr>
+    <tr><td>ADP</td><td>Adenosine diphosphate</td><td>-1915</td><td>7.0×10^-4</td><td>Product of ATP hydrolysis</td></tr>
+    <tr><td>AMP</td><td>Adenosine monophosphate</td><td>-1035</td><td>5.0×10^-5</td><td>Linked via adenylate kinase (2 ADP ↔ ATP + AMP)</td></tr>
+    <tr><td>Ado</td><td>Adenosine</td><td>-230</td><td>n/a</td><td>May rise during energy stress</td></tr>
+    <tr><td>Pi</td><td>Orthophosphate (inorganic phosphate)</td><td>-1090</td><td>1.0×10^-3</td><td>Reactant/product in many phosphate-transfer steps</td></tr>
+    <tr><th rowspan="4">Hydrolysis-related</th><td>H2O</td><td>Water</td><td>-237</td><td>~55.5</td><td>Reactant in ATP hydrolysis</td></tr>
+    <tr><td>H+</td><td>Proton</td><td>0</td><td>~1.0×10^-7</td><td>Depends on pH; shown for pH ~7</td></tr>
+    <tr><td>PPi</td><td>Pyrophosphate</td><td>-1900</td><td>n/a</td><td>Important in biosynthesis; hydrolysis can drive reactions forward</td></tr>
+    <tr><td>PO4(2-)</td><td>Phosphate species (effective)</td><td>-1085</td><td>n/a</td><td>Represents lumped phosphate speciation (illustrative)</td></tr>
+    <tr><th rowspan="2">Phosphagens (optional)</th><td>PCr</td><td>Phosphocreatine</td><td>-1550</td><td>n/a</td><td>Buffer system in muscle/brain; couples to ATP/ADP via creatine kinase</td></tr>
+    <tr><td>Cr</td><td>Creatine</td><td>-560</td><td>n/a</td><td>Product when PCr donates phosphate to ADP</td></tr>
+  </tbody>
+</table>

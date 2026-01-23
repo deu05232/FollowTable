@@ -1,0 +1,8 @@
+<table>
+  <caption>ArImage Get Contiguous Pixel Byte Distance Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>image</td><td>ArImage *</td><td>Image pointer</td></tr>
+  <tr><td>plane_index</td><td>int32_t</td><td>Plane index</td></tr>
+  <tr><td>out_pixel_stride</td><td>int32_t *</td><td>Pointer to the output image plane stride, in bytes</td></tr>
+</table>

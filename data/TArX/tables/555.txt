@@ -1,0 +1,12 @@
+<table>
+  <caption>Boundary conditions for the 3D heliospheric model considered here. We use a spherical coordinate system, where ϕ is the angle in the ecliptic plane around from the meridional plane and θ is the angle above the ecliptic plane. The solar rotation axis is assumed orthogonal to the ecliptic plane. The SW is assumed to change from a slow wind to a high speed wind at 35 degrees above the ecliptic plane, as suggested by Ulysses observations of the SW during solar minimum.</caption>
+  <tr><th>Parameter</th><th>Interstellar</th><th colspan="2">1 AU</th></tr>
+  <tr><th></th><th></th><th>Low Speed</th><th>High Speed</th></tr>
+  <tr><th>U (km/s)</th><th>26.4</th><td>400</td><td>800</td></tr>
+  <tr><th>T (K)</th><th>6527</th><td>10^(5)</td><td>2.6 × 10^(5)</td></tr>
+  <tr><th>n_(p) (cm ^((-3)) )</th><th>0.05</th><td>7</td><td>2.6</td></tr>
+  <tr><th>n_(H) (cm ^((-3)) )</th><th>0.15</th><td>0</td><td>0</td></tr>
+  <tr><th>|B| ( μ G)</th><th>1.5</th><td>37.5 ( B_(r) )</td><td>37.5 ( B_(r) )</td></tr>
+  <tr><th>φ_(B) ( ^((°)) )</th><th>90</th><td></td><td></td></tr>
+  <tr><th>_(B) ( ^((°)) )</th><th>60</th><td></td><td></td></tr>
+</table>

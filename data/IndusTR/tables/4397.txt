@@ -1,0 +1,14 @@
+<table>
+  <caption>Image Data Format Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumeration Value</td><td>Description</td></tr>
+  <tr><td rowspan="10">vrImageFormatType</td><td>VR_IMAGE_FORMAT_TYPE_RGBA_8888=0x00</td><td>RGBA_8888 format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_RGBX_8888=0x01</td><td>RGBX_8888 format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_RGB_888=0x02</td><td>RGB_888 format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_RGB_565=0x03</td><td>RGB_565 format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_RGBA_FP16=0x04</td><td>RGBA_FP16 format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_YUV_420_888=0x05</td><td>YUV_420_888 format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_JPEG=0x06</td><td>JPEG format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_DEPTH16=0x07</td><td>16-bit depth image format</td></tr>
+  <tr><td>VR_IMAGE_FORMAT_TYPE_POINT_CLOUD=0x08</td><td>Point cloud format</td></tr>
+  <tr><td>0x09~0xFF</td><td>Reserved</td></tr>
+</table>

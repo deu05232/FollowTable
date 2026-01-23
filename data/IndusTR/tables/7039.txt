@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF service interface: Verify signed XML (Java binding)</caption>
+  <tr><td>Prototype</td><td>boolean SOF_verifySignedXML(java.lang.String base64Cert, java.lang.String xmlSignedData)</td></tr>
+  <tr><td>Description</td><td>Verify an XML signature using the provided signer certificate.</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>base64Cert (Base64-encoded signer certificate)</td></tr>
+  <tr><td>xmlSignedData (signed XML data)</td></tr>
+  <tr><td>Return Value</td><td>true on success; false otherwise</td></tr>
+</table>

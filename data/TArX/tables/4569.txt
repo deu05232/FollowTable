@@ -1,0 +1,8 @@
+<table>
+  <caption>Time steps and running time for one heart beat using one processor on a standard Linux work station.</caption>
+  <tr><td>scheme</td><td>C_(t)</td><td>Δ t ( 10^(-6) s)</td><td>running time (min)</td></tr>
+  <tr><td>Taylor-Gakerkin</td><td>0.4</td><td>222</td><td>22.0</td></tr>
+  <tr><td>FV</td><td>0.25</td><td>139</td><td>31.9</td></tr>
+  <tr><td>MacComack</td><td>0.1</td><td>55.5</td><td>91.2</td></tr>
+  <tr><td>DG</td><td>0.006</td><td>6.66</td><td>576</td></tr>
+</table>

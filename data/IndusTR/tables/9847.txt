@@ -1,0 +1,14 @@
+<table>
+  <caption>Dimensional Accuracy Tolerance for Laser-Cut Feature Size (ISO-style Acceptance Checklist)</caption>
+  <thead>
+    <tr><th>Workpiece thickness a (mm)</th><th>Nominal cut feature size L (mm)</th><th>Permitted dimensional deviation |ΔL| (mm)</th><th>Reference (informative)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">a ≤ 1.0</td><td>L ≤ 50</td><td>≤ 0.05</td><td>Accuracy-only criterion</td></tr>
+    <tr><td>50 < L ≤ 200</td><td>≤ 0.10</td><td>Accuracy-only criterion</td></tr>
+    <tr><td rowspan="2">1.0 < a ≤ 6.0</td><td>L ≤ 50</td><td>≤ 0.08</td><td>Accuracy-only criterion</td></tr>
+    <tr><td>50 < L ≤ 200</td><td>≤ 0.15</td><td>Accuracy-only criterion</td></tr>
+    <tr><td rowspan="2">6.0 < a ≤ 20.0</td><td>L ≤ 50</td><td>≤ 0.12</td><td>Accuracy-only criterion</td></tr>
+    <tr><td>50 < L ≤ 200</td><td>≤ 0.20</td><td>Accuracy-only criterion</td></tr>
+  </tbody>
+</table>

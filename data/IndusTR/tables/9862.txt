@@ -1,0 +1,16 @@
+<table>
+  <caption>Class B AIS Message 60 Payload Field Layout (Bit-Level)</caption>
+  <thead>
+    <tr><th>Field</th><th>Start Bit</th><th>Length (bit)</th><th>Encoding / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>1</td><td>6</td><td>Fixed value: 60</td></tr>
+    <tr><td>Repeat Indicator</td><td>7</td><td>2</td><td>0 = default (no relay)</td></tr>
+    <tr><td>MMSI</td><td>9</td><td>30</td><td>Maritime Mobile Service Identity</td></tr>
+    <tr><td>Spare</td><td>39</td><td>2</td><td>Set to 0</td></tr>
+    <tr><td>Regional Application</td><td>41</td><td>8</td><td>Region-specific; if unused set to 0</td></tr>
+    <tr><td>GNSS Status</td><td>49</td><td>1</td><td>0 = no fix, 1 = fix available</td></tr>
+    <tr><td>UTC Second</td><td>50</td><td>6</td><td>0–59; 60 = not available</td></tr>
+    <tr><td>Reserved for Future Use</td><td>56</td><td>12</td><td>Set to 0</td></tr>
+  </tbody>
+</table>

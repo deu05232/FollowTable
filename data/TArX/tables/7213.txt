@@ -1,0 +1,10 @@
+<table>
+  <caption>Coefficients for the Laplacian. One side plus the central point are shown. Each coefficient term should be divided by the prefactor. The Laplacian is symmetric about the central point.</caption>
+  <tr><th>Points</th><th>Order</th><th>Prefactor</th><th colspan="7">Coefficients</th></tr>
+  <tr><td>N=3</td><td>2nd</td><td>1</td><td></td><td></td><td></td><td></td><td></td><td>1</td><td>-2</td></tr>
+  <tr><td>N=5</td><td>4th</td><td>12</td><td></td><td></td><td></td><td></td><td>-1</td><td>16</td><td>-30</td></tr>
+  <tr><td>N=7</td><td>6th</td><td>180</td><td></td><td></td><td></td><td>2</td><td>-27</td><td>270</td><td>-490</td></tr>
+  <tr><td>N=9</td><td>8th</td><td>5040</td><td></td><td></td><td>-9</td><td>128</td><td>-1008</td><td>8064</td><td>-14350</td></tr>
+  <tr><td>N=11</td><td>10th</td><td>25200</td><td></td><td>8</td><td>-125</td><td>1000</td><td>-6000</td><td>42000</td><td>-73766</td></tr>
+  <tr><td>N=13</td><td>12th</td><td>831600</td><td>-50</td><td>864</td><td>-7425</td><td>44000</td><td>-222750</td><td>1425600</td><td>-2480478</td></tr>
+</table>

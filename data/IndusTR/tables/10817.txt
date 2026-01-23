@@ -1,0 +1,15 @@
+<table>
+  <caption>Indirect Energy Use — Purchased and Exported Heat (Steam/Hot Water) CO2 Emissions Summary by Delivery Type</caption>
+  <thead>
+    <tr><th>Accounting Flow</th><th>Heat Type</th><th>Supplier / Delivery Path</th><th>Activity Amount</th><th>Unit</th><th>CO2 Emission Factor</th><th>Emission Factor Unit</th><th>Calculated CO2 Emissions</th><th>CO2 Unit</th><th>Metering / Evidence</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Purchased</td><td>Steam</td><td>District heating network</td><td></td><td>GJ</td><td></td><td>tCO2/GJ</td><td></td><td>tCO2</td><td>Invoice + meter reading</td></tr>
+    <tr><td>Hot water</td><td>District heating network</td><td></td><td>GJ</td><td></td><td>tCO2/GJ</td><td></td><td>tCO2</td><td>Invoice + meter reading</td></tr>
+    <tr><td>Steam</td><td>Third-party boiler plant (off-site)</td><td></td><td>GJ</td><td></td><td>tCO2/GJ</td><td></td><td>tCO2</td><td>Supplier emission factor statement</td></tr>
+    <tr><td>Chilled water / cooling purchased as heat equivalent</td><td>Utility provider</td><td></td><td>GJ</td><td></td><td>tCO2/GJ</td><td></td><td>tCO2</td><td>Convert from kWh cooling if applicable (document conversion)</td></tr>
+    <tr><td rowspan="2">Exported</td><td>Steam</td><td>Exported to neighboring facility</td><td></td><td>GJ</td><td></td><td>tCO2/GJ</td><td></td><td>tCO2</td><td>Meter at export boundary</td></tr>
+    <tr><td>Hot water</td><td>Exported to district network</td><td></td><td>GJ</td><td></td><td>tCO2/GJ</td><td></td><td>tCO2</td><td>Meter at handover point</td></tr>
+    <tr><td colspan="10">If purchased/exported heat has more than one heat source with different emission factors, list them separately and calculate CO2 = Activity Amount × CO2 Emission Factor.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,20 @@
+<table>
+  <caption>ARCore Camera Intrinsics: Accessors and Output Parameters</caption>
+  <thead>
+    <tr><th>Function / Accessor</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">ArCameraIntrinsics_getFocalLength</td><td>camera_intrinsics</td><td>ArCameraIntrinsics *</td><td>in</td><td>Handle to the camera intrinsics to query.</td></tr>
+    <tr><td>out_fx</td><td>float *</td><td>out</td><td>Focal length in pixels along the X axis.</td></tr>
+    <tr><td>out_fy</td><td>float *</td><td>out</td><td>Focal length in pixels along the Y axis.</td></tr>
+    <tr><td>units</td><td>enum (PIXELS)</td><td>in</td><td>Unit system for focal length; typically pixels.</td></tr>
+    <tr><td>status</td><td>ArStatus</td><td>out</td><td>Status code returned by the call.</td></tr>
+    <tr><td>notes</td><td>const char *</td><td>out</td><td>Optional diagnostic message (implementation-defined).</td></tr>
+    <tr><td rowspan="6">ArCameraIntrinsics_getPrincipalPoint</td><td>camera_intrinsics</td><td>ArCameraIntrinsics *</td><td>in</td><td>Handle to the camera intrinsics to query.</td></tr>
+    <tr><td>out_cx</td><td>float *</td><td>out</td><td>Principal point X coordinate in pixels.</td></tr>
+    <tr><td>out_cy</td><td>float *</td><td>out</td><td>Principal point Y coordinate in pixels.</td></tr>
+    <tr><td>units</td><td>enum (PIXELS)</td><td>in</td><td>Unit system for principal point; typically pixels.</td></tr>
+    <tr><td>status</td><td>ArStatus</td><td>out</td><td>Status code returned by the call.</td></tr>
+    <tr><td>notes</td><td>const char *</td><td>out</td><td>Optional diagnostic message (implementation-defined).</td></tr>
+  </tbody>
+</table>

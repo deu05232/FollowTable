@@ -1,0 +1,14 @@
+<table>
+  <caption>AR Plane Detection Mode Enum Options (Constant Names and Integer Values)</caption>
+  <thead>
+    <tr><th>Plane detection option description</th><th>Constant name and assigned value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Disable plane detection entirely</td><td>AR_PLANE_DETECTION_MODE_DISABLED = 0</td></tr>
+    <tr><td>Detect horizontal planes (e.g., floors, tables)</td><td>AR_PLANE_DETECTION_MODE_HORIZONTAL = 1</td></tr>
+    <tr><td>Detect vertical planes (e.g., walls)</td><td>AR_PLANE_DETECTION_MODE_VERTICAL = 2</td></tr>
+    <tr><td>Detect both horizontal and vertical planes</td><td>AR_PLANE_DETECTION_MODE_HORIZONTAL_AND_VERTICAL = 3</td></tr>
+    <tr><td>Detect arbitrary oriented planes (best-effort)</td><td>AR_PLANE_DETECTION_MODE_ARBITRARY = 4</td></tr>
+    <tr><td>Detect planes with polygon boundary updates enabled</td><td>AR_PLANE_DETECTION_MODE_BOUNDARY_POLYGON = 5</td></tr>
+  </tbody>
+</table>

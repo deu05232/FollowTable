@@ -1,0 +1,10 @@
+<table>
+  <caption>IM Service Data Retention & Privacy Policy Summary</caption>
+  <tr><th>Data Category</th><th>Examples</th><th>Retention Period</th><th>Storage Location</th><th>Access Control</th><th>Legal Basis</th><th>Deletion Method</th></tr>
+  <tr><td>Message Content</td><td>Text body, media URLs</td><td>7 days</td><td>Regional DC</td><td>Role-based</td><td>Contract</td><td>Automated purge</td></tr>
+  <tr><td>Delivery Receipts</td><td>DELIVERED/FAILED timestamps</td><td>30 days</td><td>Regional DC</td><td>Role-based</td><td>Legitimate interest</td><td>Automated purge</td></tr>
+  <tr><td>Subscriber Records</td><td>subscriber IDs, tags</td><td>Until unsubscribe</td><td>Global</td><td>Need-to-know</td><td>Consent</td><td>Immediate delete on request</td></tr>
+  <tr><td>Audit Logs</td><td>API calls, admin actions</td><td>180 days</td><td>Global</td><td>Security team only</td><td>Legal obligation</td><td>WORM archive expiry</td></tr>
+  <tr><td>Support Tickets</td><td>Emails, attachments</td><td>2 years</td><td>EU</td><td>Support role</td><td>Contract</td><td>Manual review & delete</td></tr>
+  <tr><td>Billing Records</td><td>Invoices, tax IDs</td><td>7 years</td><td>Global</td><td>Finance role</td><td>Legal obligation</td><td>Archived then deleted</td></tr>
+</table>

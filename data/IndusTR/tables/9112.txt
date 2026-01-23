@@ -1,0 +1,16 @@
+<table>
+  <caption>Operating State and Fixture Setup Checklist for Heat Detector Heating Tests (Non-Performance)</caption>
+  <thead>
+    <tr><th rowspan="2">Step</th><th rowspan="2">Setup/handling action</th><th colspan="2">Device state</th><th rowspan="2">Fixture / mounting requirement</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Power</th><th>Alarm output</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Visual inspection before test</td><td>Off</td><td>Not applicable</td><td>null</td><td>Record model and serial number</td></tr>
+    <tr><td>2</td><td>Mount detector on test plate</td><td>Off</td><td>Inactive</td><td>Centered, level within 1°</td><td>Use non-combustible fasteners</td></tr>
+    <tr><td>3</td><td>Connect wiring harness</td><td>On</td><td>Inactive</td><td>Strain relief installed</td><td>Verify polarity</td></tr>
+    <tr><td>4</td><td>Stabilization period</td><td>On</td><td>Inactive</td><td>Airflow shield installed</td><td>15 min minimum</td></tr>
+    <tr><td>5</td><td>Start heating apparatus</td><td>On</td><td>Monitoring only</td><td>Heater distance 300 mm</td><td>Do not touch housing during run</td></tr>
+    <tr><td>6</td><td>End of run and cool down</td><td>Off</td><td>Reset</td><td>Allow free convection</td><td>Do not force cooling</td></tr>
+    <tr><td>7</td><td>Post-test handling</td><td>Off</td><td>Reset</td><td>Remove without tools contact to sensor</td><td>Check sealing ring integrity</td></tr>
+  </tbody>
+</table>

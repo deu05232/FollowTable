@@ -1,0 +1,16 @@
+<table>
+  <caption>CRC-16 and Frame Boundary Definition for Grain Monitoring Interface (No Application Data Fields)</caption>
+  <thead>
+    <tr><th>Item</th><th>Definition</th><th>Value / Rule</th><th>Applies To</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Start Symbol</td><td>Frame preamble</td><td>55H AAH 55H AAH</td><td>All frames</td><td>Must appear exactly once per frame</td></tr>
+    <tr><td>End Symbol</td><td>Frame terminator</td><td>16H</td><td>All frames</td><td>Single byte end marker</td></tr>
+    <tr><td>Address (KADDL)</td><td>Sub-unit / extension unit address</td><td>0x01–0xFF</td><td>All frames</td><td>1 byte, broadcast may be 0xFF</td></tr>
+    <tr><td>Command</td><td>Operation code</td><td>0x00–0xFF</td><td>All frames</td><td>1 byte</td></tr>
+    <tr><td>Length</td><td>Payload length</td><td>UInt16, little-endian</td><td>All frames</td><td>May be 0000 when no payload is present</td></tr>
+    <tr><td>CRC-16</td><td>Error detection</td><td>Polynomial 0xA001, init 0xFFFF</td><td>All frames</td><td>Calculated over Address+Command+Length(+Data)</td></tr>
+    <tr><td>Escaping</td><td>Byte stuffing</td><td>Not used</td><td>All frames</td><td>Reserved for future</td></tr>
+    <tr><td colspan="5">Note: This table defines framing/CRC rules only and does not enumerate any command-specific payload bytes.</td></tr>
+  </tbody>
+</table>

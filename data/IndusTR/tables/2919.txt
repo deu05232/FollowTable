@@ -1,0 +1,14 @@
+<table>
+  <caption>Manufacturing Process Route for CRAC Unit Assembly (Workstation Parameters)</caption>
+  <thead>
+    <tr><th>Workstation</th><th>Process Step</th><th>Key Tooling</th><th>Torque/Setting</th><th>Cycle Time (min)</th><th>QC Check</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WS-01</td><td>Chassis riveting</td><td>Pneumatic riveter</td><td>0.62 MPa</td><td>18</td><td>Visual inspection</td><td>FRM-01</td></tr>
+    <tr><td>WS-02</td><td>Coil brazing</td><td>Oxy-acetylene torch</td><td>Flame: neutral</td><td>25</td><td>Leak pre-check</td><td>FRM-02</td></tr>
+    <tr><td>WS-03</td><td>Refrigerant circuit evacuation</td><td>Vacuum pump</td><td>< 500 microns</td><td>40</td><td>Hold test 15 min</td><td>FRM-03</td></tr>
+    <tr><td>WS-04</td><td>Refrigerant charging</td><td>Charging station</td><td>±1.5% mass</td><td>12</td><td>Weight verification</td><td>FRM-04</td></tr>
+    <tr><td>WS-05</td><td>Electrical wiring</td><td>Harness board</td><td>Crimp pull ≥ 50 N</td><td>30</td><td>Hi-pot prep</td><td>FRM-05</td></tr>
+    <tr><td>WS-06</td><td>Final run test</td><td>Test bench</td><td>30 min run</td><td>35</td><td>Functional checklist</td><td>FRM-06</td></tr>
+  </tbody>
+</table>

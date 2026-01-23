@@ -1,0 +1,16 @@
+<table>
+  <caption>Charging Communication CAN Messages (Charging Control, Limits & Termination)</caption>
+  <thead>
+    <tr><th>Category</th><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Payload Length (bytes)</th><th>Message Period (ms)</th><th>Sender → Receiver</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Charge Control</td><td>VCC</td><td>Vehicle Charge Command (Target V/I)</td><td>4864</td><td>0x001300</td><td>6</td><td>8</td><td>50</td><td>Vehicle → Charger</td></tr>
+    <tr><td>CCC</td><td>Charger Charge Control Ack</td><td>5120</td><td>0x001400</td><td>6</td><td>4</td><td>50</td><td>Charger → Vehicle</td></tr>
+    <tr><td>CRP</td><td>Charge Ramp Profile Update</td><td>5376</td><td>0x001500</td><td>7</td><td>6</td><td>250</td><td>Vehicle → Charger</td></tr>
+    <tr><td rowspan="2">Limits</td><td>VLM</td><td>Vehicle Dynamic Limits</td><td>5632</td><td>0x001600</td><td>7</td><td>8</td><td>250</td><td>Vehicle → Charger</td></tr>
+    <tr><td>CLM</td><td>Charger Available Limits</td><td>5888</td><td>0x001700</td><td>7</td><td>8</td><td>250</td><td>Charger → Vehicle</td></tr>
+    <tr><td rowspan="3">Termination</td><td>VTR</td><td>Vehicle Termination Request</td><td>6144</td><td>0x001800</td><td>3</td><td>3</td><td>100</td><td>Vehicle → Charger</td></tr>
+    <tr><td>CTR</td><td>Charger Termination Response</td><td>6400</td><td>0x001900</td><td>3</td><td>3</td><td>100</td><td>Charger → Vehicle</td></tr>
+    <tr><td>CED</td><td>Charge End Diagnostic Summary</td><td>6656</td><td>0x001A00</td><td>4</td><td>8</td><td>1000</td><td>Charger → Vehicle</td></tr>
+  </tbody>
+</table>

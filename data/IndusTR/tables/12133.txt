@@ -1,0 +1,15 @@
+<table>
+  <caption>Association Matrix: Machinery Subsidy Application ↔ Related Reference/Transaction Tables (Key-Based Relationships)</caption>
+  <thead>
+    <tr><th>Relationship ID</th><th>Connected Datasets (Left → Right)</th><th>Association Type</th><th>Primary Join Keys (Left)</th><th>Primary Join Keys (Right)</th><th>Alternate Keys / Fallback</th><th>Key Scope</th><th>Integrity Expectation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MS-APP-INV-01</td><td>Machinery Subsidy Application → Invoice Information</td><td>Single Primary Key Association</td><td>application_id</td><td>application_id</td><td>invoice_no + seller_tax_id</td><td>Per-application</td><td>1 application should have 0..N invoices; invoice must reference an existing application_id.</td></tr>
+    <tr><td>MS-APP-DISB-02</td><td>Machinery Subsidy Application → Disbursement Information</td><td>Composite Primary Key Association</td><td>application_id + disbursement_seq_no</td><td>application_id + disbursement_seq_no</td><td>application_id + payment_batch_no</td><td>Per-disbursement</td><td>Disbursements are ordered by sequence; no duplicate (application_id, seq).</td></tr>
+    <tr><td>MS-APP-ITEM-03</td><td>Machinery Subsidy Application → Machinery Item Catalog</td><td>Composite Primary Key Association</td><td>item_catalog_code + catalog_version</td><td>item_catalog_code + catalog_version</td><td>item_model_code</td><td>Reference</td><td>Catalog keys must exist; versioning required for historical joins.</td></tr>
+    <tr><td>MS-APP-PROD-04</td><td>Machinery Subsidy Application → Subsidized Product Catalog</td><td>Composite Primary Key Association</td><td>subsidy_product_code + policy_year</td><td>subsidy_product_code + policy_year</td><td>subsidy_product_code + region_code</td><td>Reference (year-scoped)</td><td>Product eligibility depends on policy_year; avoid cross-year joins.</td></tr>
+    <tr><td>MS-ITEM-PROD-05</td><td>Machinery Item Catalog → Subsidized Product Catalog</td><td>Composite Primary Key Association</td><td>subsidy_product_code + catalog_version</td><td>subsidy_product_code + policy_year</td><td>subsidy_product_code</td><td>Reference (version/year)</td><td>Requires mapping between catalog_version and policy_year when both are used.</td></tr>
+    <tr><td>MS-APP-APPL-06</td><td>Machinery Subsidy Application → Applicant/Household Master</td><td>Composite Primary Key Association</td><td>applicant_household_id + region_code</td><td>household_id + region_code</td><td>applicant_national_id</td><td>Household</td><td>Household master should be de-duplicated within region_code.</td></tr>
+    <tr><td>MS-APP-ORG-07</td><td>Machinery Subsidy Application → Organization Registry</td><td>Single Primary Key Association</td><td>applicant_org_registration_no</td><td>org_registration_no</td><td>org_name_normalized + region_code</td><td>Organization</td><td>Registration number is authoritative; name matching is secondary.</td></tr>
+  </tbody>
+</table>

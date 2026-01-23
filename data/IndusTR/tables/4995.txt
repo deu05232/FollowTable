@@ -1,0 +1,10 @@
+<table>
+  <caption>Process Parameter Set of Winding Equipment</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0200</td><td>Winding Setting Speed</td><td>WindingSettingSpeed</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~2 000.00</td><td>m/min</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0201</td><td>Winding Setting Length</td><td>WindingSettingLength</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~50 000.00</td><td>m</td><td>1</td><td></td></tr>
+  <tr><td>0X0202</td><td>Coil Set Diameter</td><td>SetTheDiameterOfTheCoil</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~5.00</td><td>m</td><td>1</td><td></td></tr>
+  <tr><td>0X0203</td><td>Winding Setting Tension</td><td>WindingTension</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~2 000.00</td><td>N</td><td>丨</td><td></td></tr>
+  <tr><td>0X0204</td><td>Pressing Arm Set Pressure</td><td>PressingArmSetPressure</td><td>M</td><td>VAR</td><td>RW</td><td>Float</td><td>0.00~10.00</td><td>MPa</td><td>丨</td><td></td></tr>
+  <tr><td>0X0205</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>VAR</td><td>RW</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

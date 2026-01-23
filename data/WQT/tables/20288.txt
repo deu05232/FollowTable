@@ -1,0 +1,15 @@
+# IPv4 IANA Special-Purpose Blocks (Non-RFC1918) with Routing Forwarding Expectations
+
+| Purpose family | Block (CIDR) | Range | Forwarding expectation | Typical technical role |
+| --- | --- | --- | --- | --- |
+| Control/this-host | 0.0.0.0/32 | 0.0.0.0 – 0.0.0.0 | Not routed | Unspecified address (default route notation; “no address”) |
+| Control/broadcast | 255.255.255.255/32 | 255.255.255.255 – 255.255.255.255 | Link-local only | Limited broadcast (not forwarded by routers) |
+| Loopback | 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Must not be forwarded | Host-internal loopback |
+| Link-local | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Not routed | Self-assigned addresses on a single link (APIPA) |
+| Shared/CGN | 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Routed within ISP domains | Carrier-grade NAT subscriber space |
+| Documentation | 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Not globally routed | Example addresses in documentation (TEST-NET-1) |
+| Documentation | 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | Not globally routed | Example addresses in documentation (TEST-NET-2) |
+| Documentation | 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | Not globally routed | Example addresses in documentation (TEST-NET-3) |
+| IPv4-to-IPv6 interop | 192.88.99.0/24 | 192.88.99.0 – 192.88.99.255 | Historically anycast; now deprecated | 6to4 relay anycast (special-purpose; no longer recommended) |
+| Multicast | 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Multicast forwarding rules apply | Group communication (not unicast host addressing) |
+| Reserved (Class E) | 240.0.0.0/4 | 240.0.0.0 – 255.255.255.255 | Generally not used on public Internet | Reserved for future use; includes 255.255.255.255 broadcast |

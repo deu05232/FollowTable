@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameter Description for Checking Device Support for Depth Mode</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>depth_mode</td><td>ArDepthMode</td><td>Depth mode to be checked</td></tr>
+  <tr><td>out_is_supported</td><td>int32_t *</td><td>If the current device supports depth mode, returns a non-zero value</td></tr>
+</table>

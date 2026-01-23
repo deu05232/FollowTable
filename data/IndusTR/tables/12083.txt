@@ -1,0 +1,15 @@
+<table>
+  <caption>Machining-Centered Geometry Recommendations for Castings (Allowance & Tool Access Driven)</caption>
+  <thead>
+    <tr><th>Geometry Choice (Good)</th><th>Geometry Choice (Bad)</th><th>Reason (Machining)</th><th>Minimum Tool Clearance (mm)</th><th>Suggested Stock / Allowance (mm)</th><th>Preferred Operation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Add a flat pad for clamping</td><td>Clamp on a curved as-cast wall</td><td>Improves fixturing stability and repeatability</td><td>15</td><td>2</td><td>Facing</td></tr>
+    <tr><td>Provide a machining land around holes</td><td>Hole breaks into fillet / rib</td><td>Avoids burrs and tool deflection</td><td>8</td><td>1.5</td><td>Drilling + spot facing</td></tr>
+    <tr><td>Use generous chamfers on entry edges</td><td>Sharp entry edges</td><td>Reduces tool chipping and improves lead-in</td><td>5</td><td>0.5</td><td>Chamfering</td></tr>
+    <tr><td>Keep pockets open for end-mill access</td><td>Deep narrow pockets</td><td>Prevents chatter and poor surface finish</td><td>20</td><td>2.5</td><td>End milling</td></tr>
+    <tr><td>Combine coplanar pads into one face</td><td>Multiple stepped pads</td><td>Reduces setups and machining time</td><td>10</td><td>2</td><td>Planar milling</td></tr>
+    <tr><td>Add draft-compatible machining datum bosses</td><td>No datum features; rely on rough cast surface</td><td>Improves probing and alignment</td><td>12</td><td>3</td><td>Probing + roughing</td></tr>
+    <tr><td>Specify surface finish targets on functional faces</td><td>No finish requirements</td><td>Avoids rework due to unmet roughness</td><td>—</td><td>1</td><td>Finishing pass</td></tr>
+  </tbody>
+</table>

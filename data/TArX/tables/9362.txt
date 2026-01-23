@@ -1,0 +1,7 @@
+<table>
+  <caption>Fitting/uncertainty summary for neutron-star equation-of-state parameterizations.</caption>
+  <tr><th>Parameterization</th><th>Free parameters</th><th>Prior type</th><th>Goodness-of-fit summary</th><th>Uncertainty descriptor</th></tr>
+  <tr><td>Piecewise polytrope</td><td>pressures at knot densities</td><td>log-uniform</td><td>posterior predictive checks reported</td><td>credible intervals per parameter</td></tr>
+  <tr><td>Spectral expansion</td><td>spectral coefficients</td><td>Gaussian</td><td>evidence/Bayes factor compared</td><td>covariance between coefficients</td></tr>
+  <tr><td>Speed-of-sound model</td><td>c_s^2 control points</td><td>uniform</td><td>χ²-like mismatch statistic reported</td><td>effective dof and correlation length</td></tr>
+</table>

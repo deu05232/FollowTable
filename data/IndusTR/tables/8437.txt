@@ -1,0 +1,17 @@
+<table>
+  <caption>Power Distributor Output Ports Summary — Regulation Accuracy and Load Test (Before Balloon Release)</caption>
+  <thead>
+    <tr><th rowspan="2">Port Group</th><th rowspan="2">Port ID</th><th rowspan="2">Output Type</th><th colspan="3">Voltage (V)</th><th colspan="2">Current (A)</th><th rowspan="2">Deviation (%)</th><th rowspan="2">Result</th><th rowspan="2">Inspector</th></tr>
+    <tr><th>Expected</th><th>Measured (No-Load)</th><th>Measured (Rated Load)</th><th>Rated</th><th>Measured (Rated Load)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">28 V Rail</td><td>P1</td><td>Switched</td><td>28.0</td><td>28.2</td><td>28.0</td><td>2.00</td><td>1.92</td><td>0.0</td><td>PASS</td><td>QA-01</td></tr>
+    <tr><td>P2</td><td>Switched</td><td>28.0</td><td>28.1</td><td>27.8</td><td>1.00</td><td>1.03</td><td>-0.7</td><td>PASS</td><td>QA-01</td></tr>
+    <tr><td>P3</td><td>Always-On</td><td>28.0</td><td>27.9</td><td>27.7</td><td>0.50</td><td>0.49</td><td>-1.1</td><td>PASS</td><td>QA-01</td></tr>
+    <tr><td rowspan="2">12 V Rail</td><td>P4</td><td>Switched</td><td>12.0</td><td>12.1</td><td>12.0</td><td>1.50</td><td>1.46</td><td>0.0</td><td>PASS</td><td>QA-02</td></tr>
+    <tr><td>P5</td><td>Always-On</td><td>12.0</td><td>12.0</td><td>11.8</td><td>0.80</td><td>0.77</td><td>-1.7</td><td>PASS</td><td>QA-02</td></tr>
+    <tr><td rowspan="2">5 V Rail</td><td>P6</td><td>Switched</td><td>5.0</td><td>5.03</td><td>5.01</td><td>2.50</td><td>2.41</td><td>0.2</td><td>PASS</td><td>QA-02</td></tr>
+    <tr><td>P7</td><td>Always-On</td><td>5.0</td><td>4.99</td><td>4.96</td><td>1.00</td><td>0.98</td><td>-0.8</td><td>PASS</td><td>QA-02</td></tr>
+    <tr><td rowspan="1">3.3 V Rail</td><td>P8</td><td>Always-On</td><td>3.3</td><td>3.31</td><td>3.30</td><td>0.40</td><td>0.38</td><td>0.0</td><td>PASS</td><td>QA-03</td></tr>
+  </tbody>
+</table>

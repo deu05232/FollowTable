@@ -1,0 +1,26 @@
+<table>
+  <caption>VR Positioning Interface Data Types — Pose, Tracking, and Device Classification</caption>
+  <thead>
+    <tr><th>Type Name</th><th>Kind</th><th>Members / Fields (with values or types)</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">vrPositionableDeviceType</td><td rowspan="4">enum</td><td>VR_POSITIONABLE_DEVICE_TYPE_HMD = 0x00</td><td>Head-mounted display as a positionable device.</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_CONTROLLER = 0x01</td><td>Handheld controller (tracked input device).</td></tr>
+    <tr><td>VR_POSITIONABLE_DEVICE_TYPE_TRACKER = 0x02</td><td>External tracker/puck used for full-body or object tracking.</td></tr>
+    <tr><td>0x03–0xFF</td><td>Reserved for future device classes.</td></tr>
+    <tr><td rowspan="3">vrTrackingOrigin</td><td rowspan="3">enum</td><td>VR_TRACKING_ORIGIN_LOCAL = 0x00</td><td>Origin is defined by the device on startup; may drift and later be refined.</td></tr>
+    <tr><td>VR_TRACKING_ORIGIN_STAGE = 0x01</td><td>Origin is a fixed stage/room coordinate system calibrated by the user.</td></tr>
+    <tr><td>VR_TRACKING_ORIGIN_UNBOUNDED = 0x02</td><td>Large-area origin; no fixed stage boundary assumptions.</td></tr>
+    <tr><td rowspan="5">vr3DPoint</td><td rowspan="5">struct</td><td>double x</td><td>X coordinate in meters (right-handed coordinate system assumed).</td></tr>
+    <tr><td>double y</td><td>Y coordinate in meters (up axis).</td></tr>
+    <tr><td>double z</td><td>Z coordinate in meters (forward axis).</td></tr>
+    <tr><td>vrTrackingOrigin origin</td><td>Which origin space this point is expressed in.</td></tr>
+    <tr><td>double accuracy_m</td><td>Estimated positional accuracy (1σ) in meters.</td></tr>
+    <tr><td rowspan="6">vrPoseState</td><td rowspan="6">struct</td><td>int64_t time_stamp</td><td>Monotonic timestamp for the pose sample (e.g., ns or µs depending on SDK).</td></tr>
+    <tr><td>vrQuaternion orientation</td><td>Rotation quaternion of the device in the chosen origin space.</td></tr>
+    <tr><td>vr3DPoint position</td><td>Translation component in meters.</td></tr>
+    <tr><td>uint32_t tracking_flags</td><td>Bitmask describing which components are tracked/valid (position/orientation).</td></tr>
+    <tr><td>double confidence</td><td>0.0–1.0 confidence score for the overall pose quality.</td></tr>
+    <tr><td>uint32_t reserved</td><td>Reserved for alignment and future extensions.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>APDU P2 Parameter Mapping for Multicast/Broadcast Operations</caption>
+  <thead>
+    <tr><th>No.</th><th>P2 Value</th><th>Parameter Set</th><th>Field</th><th>Length (bytes)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="3">00</td><td>Multicast Join</td><td>Multicast ID</td><td>6</td><td>Target group identifier</td></tr>
+    <tr><td>2</td><td>Multicast Join</td><td>Group-Join Password</td><td>8</td><td>Shared secret for joining</td></tr>
+    <tr><td>3</td><td>Multicast Join</td><td>Join Options</td><td>1</td><td>Bit flags for join behavior</td></tr>
+    <tr><td>4</td><td rowspan="2">01</td><td>Multicast Leave</td><td>Multicast ID</td><td>6</td><td>Group identifier to leave</td></tr>
+    <tr><td>5</td><td>Multicast Leave</td><td>Leave Reason</td><td>1</td><td>Optional reason code</td></tr>
+    <tr><td>6</td><td>02</td><td>Broadcast Subscribe</td><td>Broadcast ID</td><td>6</td><td>Broadcast channel identifier</td></tr>
+  </tbody>
+</table>

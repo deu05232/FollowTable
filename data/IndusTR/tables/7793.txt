@@ -1,0 +1,15 @@
+<table>
+  <caption>Logistics M2M Terminal Management — Functional Test Checklist (Sub-functions)</caption>
+  <thead>
+    <tr><th>Area</th><th>Feature / Action (Sub-function)</th><th>Test Case ID</th><th>Primary Verification</th><th>Expected Result Summary</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Terminal Management</td><td>Terminal Registration — Create device profile and bind SIM/IMEI</td><td>TM-REG-001</td><td>Register a new terminal with valid identifiers</td><td>Terminal appears as Active; unique ID stored; duplicate identifiers rejected</td></tr>
+    <tr><td>Terminal Login — Authenticate and open M2M session</td><td>TM-AUTH-002</td><td>Login with correct credentials/token</td><td>Session established; heartbeat scheduled; login audit recorded</td></tr>
+    <tr><td>Terminal Logout — Close session and release resources</td><td>TM-AUTH-003</td><td>Logout from an active session</td><td>Session terminated; status becomes Offline; no further telemetry accepted</td></tr>
+    <tr><td>Terminal Deregistration — Unbind and remove terminal</td><td>TM-REG-004</td><td>Deregister an existing terminal</td><td>Terminal removed/unbound; future logins blocked; related bindings cleaned</td></tr>
+    <tr><td>Remote Control — Send reboot command to terminal</td><td>TM-RC-005</td><td>Issue remote reboot and track acknowledgment</td><td>Command delivered; ACK received within timeout; command status updated</td></tr>
+    <tr><td>Remote Control — Apply configuration update (APN / reporting interval)</td><td>TM-RC-006</td><td>Push config and verify persistence after reconnect</td><td>Config applied; terminal reports new settings; rollback available on failure</td></tr>
+    <tr><td>Terminal Fault Handling — Report fault code and open incident</td><td>TM-FAULT-007</td><td>Submit fault event and verify workflow linkage</td><td>Fault event stored; severity set; incident created/updated; notifications triggered</td></tr>
+  </tbody>
+</table>

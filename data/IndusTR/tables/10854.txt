@@ -1,0 +1,6 @@
+<table>
+  <caption>Frame format for command C4H (set device thresholds) using parameter range bytes</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th colspan="3">Data Segment</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>02H</td><td>C4H</td><td>0003H</td><td>THmin</td><td>THmax</td><td>AlarmEn</td><td>xxxxH</td><td>0DH 0AH</td></tr>
+  <tr><td colspan="9">Note: THmin/THmax are threshold bytes; AlarmEn is an enable flag byte.</td></tr>
+</table>

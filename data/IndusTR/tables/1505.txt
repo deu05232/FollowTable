@@ -1,0 +1,12 @@
+<table>
+  <caption>Score Calculation for the Number of Temporary Parking Spaces for Urban Logistics Distribution Trucks</caption>
+  <tr><td>City size</td><td>Number of temporary truck parking spaces per million population / units</td><td>Score</td></tr>
+  <tr><td rowspan="2">Mega city (10 million and above)</td><td>≥20</td><td>100</td></tr>
+  <tr><td><20</td><td>Score calculated according to Formula (7)</td></tr>
+  <tr><td rowspan="2">Very large city (5 million and above but below 10 million)</td><td>≥30</td><td>100</td></tr>
+  <tr><td><30</td><td>Score calculated according to Formula (7)</td></tr>
+  <tr><td rowspan="2">Large city (1 million and above but below 5 million)</td><td>≥50</td><td>100</td></tr>
+  <tr><td><50</td><td>Score calculated according to Formula (7)</td></tr>
+  <tr><td rowspan="2">Medium-sized city, small city (below 1 million)</td><td>≥100</td><td>100</td></tr>
+  <tr><td><100</td><td>Score calculated according to Formula (7)</td></tr>
+</table>

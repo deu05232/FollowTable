@@ -1,0 +1,20 @@
+<table>
+  <caption>MDCT-Domain MCR Quantization Parameter Configuration Table</caption>
+  <tr><td>MCR Configuration Indexmcr_index</td><td>MCR Bitratemcr_rate</td><td>MDCT Block Lengthst_len</td><td>Subband Partitionsfb_num</td><td>Vector Dimensionvq_dim</td><td>Quantization Bitsvq_bit</td><td>Quantization Codebookmcr_cbook</td></tr>
+  <tr><td rowspan="4">0</td><td rowspan="4">≤12 kb/s</td><td>128</td><td>9</td><td>3</td><td>8</td><td>codebk_256_3</td></tr>
+  <tr><td>256</td><td>12</td><td>3</td><td>9</td><td>codebk_512_3</td></tr>
+  <tr><td>512</td><td>24</td><td>3</td><td>9</td><td>codebk_512_3</td></tr>
+  <tr><td>1024</td><td>36</td><td>3</td><td>10</td><td>codebk_1024_3</td></tr>
+  <tr><td rowspan="4">1</td><td rowspan="4">16 kb/s</td><td>128</td><td>9</td><td>3</td><td>9</td><td>codebk_512_3</td></tr>
+  <tr><td>256</td><td>15</td><td>3</td><td>9</td><td>codebk_512_3</td></tr>
+  <tr><td>512</td><td>30</td><td>3</td><td>9</td><td>codebk_512_3</td></tr>
+  <tr><td>1024</td><td>48</td><td>3</td><td>10</td><td>codebk_1024_3</td></tr>
+  <tr><td rowspan="4">2</td><td rowspan="4">20 kb/s</td><td>128</td><td>9</td><td>3</td><td>9</td><td>codebk_512_3</td></tr>
+  <tr><td>256</td><td>18</td><td>3</td><td>10</td><td>codebk_1024_3</td></tr>
+  <tr><td>512</td><td>36</td><td>3</td><td>10</td><td>codebk_1024_3</td></tr>
+  <tr><td>1024</td><td>48</td><td>2</td><td>8</td><td>codebk_256_2</td></tr>
+  <tr><td rowspan="4">3</td><td rowspan="4">24 kb/s</td><td>128</td><td>12</td><td>3</td><td>9</td><td>codebk_512_3</td></tr>
+  <tr><td>256</td><td>18</td><td>3</td><td>10</td><td>codebk_1024_3</td></tr>
+  <tr><td>512</td><td>36</td><td>3</td><td>10</td><td>codebk_1024_3</td></tr>
+  <tr><td>1024</td><td>64</td><td>2</td><td>8</td><td>codebk_256_2</td></tr>
+</table>

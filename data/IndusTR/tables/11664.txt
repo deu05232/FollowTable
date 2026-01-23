@@ -1,0 +1,22 @@
+<table>
+  <caption>Checklist Elements to Record for a Biometric Recognition Evaluation Database (Capture & Sensing Metadata)</caption>
+  <thead>
+    <tr><th>No.</th><th>Data-collection element</th><th>Meaning / what to record</th><th>Example values</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Biometric modality</td><td>The biometric trait captured for each sample; used to group evaluation results.</td><td>Face, Fingerprint, Iris, Palmprint, Voice</td></tr>
+    <tr><td>2</td><td>Acquisition method / spectrum</td><td>Illumination or sensing spectrum used during capture.</td><td>Visible (RGB), Near-infrared (NIR), Short-wave IR, Thermal</td></tr>
+    <tr><td>3</td><td>Imaging method</td><td>How the sample is formed by the sensor (important for cross-sensor effects).</td><td>Reflection, Transmission, Structured light, Time-of-Flight (ToF)</td></tr>
+    <tr><td>4</td><td>Device type and model</td><td>Specific capture hardware identifier to replicate conditions.</td><td>Smartphone front camera model, USB webcam model, Optical fingerprint scanner model</td></tr>
+    <tr><td>5</td><td>Device contact style</td><td>Whether capture requires physical contact with the sensor surface.</td><td>Contact-based, Contactless</td></tr>
+    <tr><td>6</td><td>Capture protocol</td><td>Operational procedure: pose instructions, distance, number of attempts, timing.</td><td>3 attempts; 0.5–1.0 m distance; neutral expression; eyes open</td></tr>
+    <tr><td>7</td><td>Ambient lighting condition</td><td>Environmental light level and type; affects exposure, glare, noise.</td><td>Office fluorescent, Outdoor sunlight, Low light (<50 lux), Backlit</td></tr>
+    <tr><td>8</td><td>Camera/sensor settings</td><td>Recorded acquisition parameters that influence image formation.</td><td>Exposure time, ISO gain, Aperture, White balance, IR LED power</td></tr>
+    <tr><td>9</td><td>Subject-to-sensor geometry</td><td>Pose/angle/distance; for face/iris also gaze direction.</td><td>Yaw/Pitch/Roll; 30 cm (iris); 70 cm (face); frontal vs off-angle</td></tr>
+    <tr><td>10</td><td>Resolution / sampling</td><td>Spatial resolution or sampling rate captured by the device.</td><td>1920×1080; 500 dpi fingerprint; 16 kHz audio</td></tr>
+    <tr><td>11</td><td>Quality indicators</td><td>Measured quality metrics or categorical labels used to filter or stratify evaluation.</td><td>Blur score; SNR; occlusion percentage; NFIQ2 score</td></tr>
+    <tr><td>12</td><td>Compression and file format</td><td>How samples are stored; affects artifacts and reproducibility.</td><td>JPEG quality=90; PNG; WAV PCM; H.264 video</td></tr>
+    <tr><td>13</td><td>Ground-truth identity label</td><td>Identifier linking samples to subjects; defines genuine/impostor pairs.</td><td>SubjectID; sessionID; pseudonymized UID</td></tr>
+    <tr><td>14</td><td>Session / time metadata</td><td>When and in which session the sample was captured; supports aging analysis.</td><td>Session 1/2/3; timestamp; days since enrollment</td></tr>
+  </tbody>
+</table>

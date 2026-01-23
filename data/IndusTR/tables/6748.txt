@@ -1,0 +1,14 @@
+<table>
+  <caption>IM Notification API - Request/Response Mapping (No Required/Optional Marker)</caption>
+  <thead>
+    <tr><th>Direction</th><th>Field</th><th>Data Type</th><th>Format</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Request</td><td>interfaceOperation</td><td>string</td><td>1..64 chars</td><td>Operation name for notification processing.</td></tr>
+    <tr><td>Request</td><td>initiatorNotificationId</td><td>string</td><td>1..64 chars</td><td>Identifier of the user/system that triggers the notification.</td></tr>
+    <tr><td>Request</td><td>recipientNotificationId</td><td>string</td><td>1..64 chars</td><td>Identifier of the user receiving the notification.</td></tr>
+    <tr><td>Request</td><td>payload</td><td>object</td><td>JSON</td><td>Notification content body.</td></tr>
+    <tr><td>Response</td><td>returnResult</td><td>string</td><td>1..64 chars</td><td>Whether successful.</td></tr>
+    <tr><td>Response</td><td>resultDescription</td><td>string</td><td>0..2000 chars</td><td>Result description.</td></tr>
+  </tbody>
+</table>

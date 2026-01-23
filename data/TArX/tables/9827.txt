@@ -1,0 +1,15 @@
+<table>
+  <caption>Characteristic Electron Velocities in Solids: Thermal, Fermi, and Saturation/Peak Drift Velocity</caption>
+  <thead>
+    <tr><th>Material</th><th>Electron Velocity Type</th><th>Symbol</th><th>Typical Value (m/s)</th><th>How It Is Interpreted</th><th>Measurement / Model Context</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Copper (Cu)</td><td>Fermi velocity</td><td>v_F</td><td>~1.6×10^6</td><td>Speed of electrons near the Fermi surface</td><td>Free-electron-like metal; band structure estimate</td></tr>
+    <tr><td>Aluminum (Al)</td><td>Fermi velocity</td><td>v_F</td><td>~2.0×10^6</td><td>Speed of electrons near the Fermi surface</td><td>Nearly free electron metal approximation</td></tr>
+    <tr><td>Gold (Au)</td><td>Fermi velocity</td><td>v_F</td><td>~1.4×10^6</td><td>Speed of conduction electrons at EF</td><td>Photoemission/band-parameter based estimate</td></tr>
+    <tr><td>Silicon (Si)</td><td>Thermal velocity (non-degenerate)</td><td>v_th</td><td>~2.3×10^5</td><td>Random thermal speed of electrons</td><td>Effective-mass model (typical device conditions)</td></tr>
+    <tr><td>Gallium arsenide (GaAs)</td><td>Thermal velocity (non-degenerate)</td><td>v_th</td><td>~3.0×10^5</td><td>Random thermal speed of electrons</td><td>Effective-mass model</td></tr>
+    <tr><td>Silicon (Si)</td><td>Saturation drift velocity</td><td>v_sat</td><td>~1.0×10^5</td><td>High-field limit of drift speed</td><td>High-field transport; velocity saturation</td></tr>
+    <tr><td>Gallium nitride (GaN)</td><td>Peak/saturation drift velocity</td><td>v_peak / v_sat</td><td>~2.0×10^5</td><td>Upper drift speed in strong fields</td><td>High-field transport in wide-bandgap semiconductor</td></tr>
+  </tbody>
+</table>

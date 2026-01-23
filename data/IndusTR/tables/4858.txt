@@ -1,0 +1,7 @@
+<table>
+  <caption>Parameters for Method to Obtain Oil Tank Oil Storage Information Data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short Name</td><td>Data Type</td><td>Data Format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Storage Area Code</td><td>kqdm</td><td>Character</td><td>a.3</td><td></td></tr>
+  <tr><td>2</td><td>Oil Tank No.</td><td>ygbh</td><td>Character</td><td>a.3</td><td>When empty, return oil storage information of all oil tanks</td></tr>
+  <tr><td>3</td><td>Query Date</td><td>cxrq</td><td>Character</td><td>YYYYMMDD</td><td></td></tr>
+</table>

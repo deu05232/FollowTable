@@ -1,0 +1,17 @@
+<table>
+  <caption>Starter making-and-breaking performance test (AC-3) including explicit energizing/interval timing by rated operational current</caption>
+  <thead>
+    <tr><th rowspan="2">Rated operational current range (A)</th><th rowspan="2">Test type</th><th colspan="3">Electrical condition (context)</th><th colspan="2">Timing requirement</th><th rowspan="2">Number of tests</th></tr>
+    <tr><th>Current multiple (I/Ie)</th><th>U/Ue</th><th>Power factor (cosφ)</th><th>Energizing time (s)</th><th>Interval time (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ie ≤ 16</td><td>Making and breaking</td><td>8</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>180</td><td>3</td></tr>
+    <tr><td>16 < Ie ≤ 32</td><td>Making and breaking</td><td>8</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>180</td><td>3</td></tr>
+    <tr><td>32 < Ie ≤ 63</td><td>Making and breaking</td><td>8</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>180</td><td>3</td></tr>
+    <tr><td>63 < Ie ≤ 80</td><td>Making and breaking</td><td>6</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>180</td><td>3</td></tr>
+    <tr><td>80 < Ie ≤ 125</td><td>Making and breaking</td><td>6</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.05–0.20</td><td>180</td><td>3</td></tr>
+    <tr><td>125 < Ie ≤ 200</td><td>Making and breaking</td><td>4</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10–0.30</td><td>180</td><td>3</td></tr>
+    <tr><td>200 < Ie ≤ 400</td><td>Making and breaking</td><td>4</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10–0.30</td><td>180</td><td>3</td></tr>
+    <tr><td>400 < Ie ≤ 630</td><td>Making and breaking</td><td>3</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10–0.30</td><td>240</td><td>3</td></tr>
+  </tbody>
+</table>

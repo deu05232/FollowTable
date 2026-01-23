@@ -1,0 +1,17 @@
+<table>
+  <caption>Association Specification: Insurance Policy Details Table Linked to Claim Business Details (Non-Subsidy Workflow)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Relationship between the Agricultural Insurance Underwriting Policy Details Table and the Agricultural Insurance Claim Business Details Table</td></tr>
+    <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+    <tr><td>Table Name 1</td><td>Agricultural Insurance Underwriting Policy Details Table</td></tr>
+    <tr><td>Table Name 2</td><td>Agricultural Insurance Claim Business Details Table</td></tr>
+    <tr><td>Join Keys</td><td>PolicyDetails.PolicyNo = ClaimDetails.PolicyNo AND PolicyDetails.RegionCode = ClaimDetails.RegionCode</td></tr>
+    <tr><td>Cardinality</td><td>One Policy → Many Claims</td></tr>
+    <tr><td>Business Purpose</td><td>Connect underwriting records with downstream claim settlement events for insurance lifecycle tracking</td></tr>
+    <tr><td>Typical Downstream Artifacts</td><td>Loss assessment report, claim payment order, adjuster notes</td></tr>
+    <tr><td>Notes</td><td>Insurance claims workflow; not tied to machinery subsidy disbursement or invoice verification</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,23 @@
+<table>
+  <caption>Rotor Spinning Machine Alarm Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Left Side Yarn Guide Speed Abnormal</td><td>LeftSideYarnGuideSpeedException</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>丨</td><td>One</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Left Side Winding Speed Abnormal</td><td>LeftSideWindingSpeedException</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0902</td><td>Left Side Headstock Traverse Fault</td><td>LeftSideLocomotiveTraverseFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>One</td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Left Side Tailstock Traverse Fault</td><td>LeftSideTailBoxTraverseFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Left Side Yarn Guide Micromotion Fault</td><td>LeftSideYarnGuideMicromotionF ault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Right Side Yarn Guide Speed Abnormal</td><td>RightSideYarnGuideSpeedException</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>Right Side Winding Speed Abnormal</td><td>RightSideWinding SpeedException</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Right Side Headstock Traverse Fault</td><td>RightSideLocomotiveTraverseFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0908</td><td>Right Side Tailstock Traverse Fault</td><td>RightSideTailBoxTraverseFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Right Side Yarn Guide Micromotion Fault</td><td>RightSideYarnGuideMicromotionF ault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090A</td><td>Communication Fault</td><td>CommunicationFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090B</td><td>Process Negative Pressure Is Lower Than the Alarm Value</td><td>ProcessNegativePressureIsLower ThanTheAlarmValue</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090C</td><td>Process Negative Pressure Is Lower Than the Protection Value</td><td>ProcessNegativePressureIsLowerThanTheProtectionValue</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>One</td><td></td><td>One</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090D</td><td>Negative Pressure for Impurity Removal Is Lower Than the Alarm Value</td><td>NegativePressureForImpurityRemovalIsLowerThanTheAlarmValue</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090E</td><td>Negative Pressure for Impurity Removal Is Lower Than the Protection Value</td><td>NegativePressureForImpurityRemoval IsLowerThanTheProtectionValue</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090F</td><td>Emergency Stop at the Headstock</td><td>EmergencyStopAtTheLocomotive</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0910</td><td>Emergency Stop at the Tailstock</td><td>EmergencyStopAtTheTailBox</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>One</td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0911</td><td>Scalable Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td></td><td></td><td></td><td></td><td>One</td></tr>
+</table>

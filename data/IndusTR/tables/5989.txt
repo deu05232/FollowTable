@@ -1,0 +1,15 @@
+<table>
+  <caption>Error limit values (%) by waveform and load type (class values only as columns)</caption>
+  <thead>
+    <tr><th rowspan="2">Test waveform</th><th rowspan="2">Load condition</th><th rowspan="2">Power factor</th><th colspan="4">Permissible error limit (%) by accuracy class</th></tr>
+    <tr><th>Class 0.2</th><th>Class 0.5</th><th>Class 1</th><th>Class 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WF-1 (steady harmonic set)</td><td>Balanced (single-phase)</td><td>1.0</td><td>±0.30</td><td>±0.75</td><td>±1.50</td><td>±3.00</td></tr>
+    <tr><td>WF-1 (steady harmonic set)</td><td>Balanced (single-phase)</td><td>0.5L</td><td>±0.35</td><td>±0.90</td><td>±1.80</td><td>±3.50</td></tr>
+    <tr><td>WF-2 (interharmonic mix)</td><td>Unbalanced</td><td>1.0</td><td>±0.40</td><td>±1.00</td><td>±2.00</td><td>±4.00</td></tr>
+    <tr><td>WF-3 (crest-factor 3)</td><td>Balanced (three-phase)</td><td>0.8C</td><td>±0.45</td><td>±1.10</td><td>±2.20</td><td>±4.40</td></tr>
+    <tr><td>WF-4 (pulsed current)</td><td>Balanced (single-phase)</td><td>1.0</td><td>±0.50</td><td>±1.25</td><td>±2.50</td><td>±5.00</td></tr>
+    <tr><td>WF-5 (random harmonic)</td><td>Unbalanced</td><td>0.5L</td><td>±0.55</td><td>±1.35</td><td>±2.70</td><td>±5.40</td></tr>
+  </tbody>
+</table>

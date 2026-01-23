@@ -1,0 +1,11 @@
+<table>
+  <caption>CC Sequence Indexing Syntax (Iteration and Boundaries)</caption>
+  <tr><th>Syntax element</th><th>Descriptor</th></tr>
+  <tr><td>CC_sequence_index(){</td><td></td></tr>
+  <tr><td>sequence_id</td><td>u(16)</td></tr>
+  <tr><td>sample_count</td><td>u(16)</td></tr>
+  <tr><td>for(i=0; i<sample_count; i++){</td><td></td></tr>
+  <tr><td>sample_offset[i]</td><td>u(32)</td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

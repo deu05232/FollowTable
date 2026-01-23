@@ -1,0 +1,7 @@
+<table>
+  <caption>ArFrame Get Camera Texture ID Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_texture_id</td><td>uint32_t *</td><td>Texture name (ID) pointer</td></tr>
+</table>

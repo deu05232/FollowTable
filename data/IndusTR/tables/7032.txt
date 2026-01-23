@@ -1,0 +1,16 @@
+<table>
+  <caption>PE-HD Recyclability Classification by Product Dimensions (Screening Rules)</caption>
+  <thead>
+    <tr><th rowspan="2">Dimension Criterion</th><th colspan="3">Recyclability and Recycled-Design Classification</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Easy-to-recycle and Recycled Design</th><th>Recyclable and Recycled Design Needing Improvement</th><th>Non-recyclable and Non-recycled Design</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>At least 2 of (L, W, H) ≥ 50 mm</td><td>√</td><td></td><td></td><td>Meets mechanical sorting size threshold</td></tr>
+    <tr><td>Largest dimension < 50 mm (small item)</td><td></td><td>√</td><td></td><td>May fall through screens; needs improvement</td></tr>
+    <tr><td>Wall thickness < 0.30 mm (film-like)</td><td></td><td>√</td><td></td><td>Thin parts risk poor rigidity in sorting</td></tr>
+    <tr><td>Wall thickness ≥ 0.30 mm</td><td>√</td><td></td><td></td><td>More likely to be captured in rigid stream</td></tr>
+    <tr><td>Flat label area side length ≥ 70 mm</td><td>√</td><td></td><td></td><td>Scan/readability and identification are easier</td></tr>
+    <tr><td>Nested parts with gap < 5 mm</td><td></td><td></td><td>√</td><td>Likely to behave as composite during sorting</td></tr>
+    <tr><td>Product height ≥ 200 mm (bulky)</td><td></td><td>√</td><td></td><td>May require dedicated bale settings</td></tr>
+  </tbody>
+</table>

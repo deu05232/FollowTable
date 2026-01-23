@@ -1,0 +1,8 @@
+<table>
+  <caption>Table M.3 Message Categories in the Charging Handshake Stage</caption>
+  <tr><td>Message Code</td><td>Message Name</td><td>PGN (Dec)</td><td>PGN (Hex)</td><td>Priority</td><td>Data Length (BYTE)</td><td>Message Period (ms)</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>CHM</td><td>Charger Handshake Message</td><td>9728</td><td>002600H</td><td>6</td><td>3</td><td>250</td><td>Charger - Vehicle</td></tr>
+  <tr><td>BHM</td><td>Vehicle Handshake Message</td><td>9984</td><td>002700H</td><td>6</td><td>2</td><td>250</td><td>Vehicle - Charger</td></tr>
+  <tr><td>CRM</td><td>Charger Identification Message</td><td>256</td><td>000100H</td><td>6</td><td>8</td><td>250</td><td>Charger - BMS</td></tr>
+  <tr><td>BRM</td><td>Vehicle Identification Message</td><td>512</td><td>000200H</td><td>7</td><td>49</td><td>250</td><td>Vehicle - Charger</td></tr>
+</table>

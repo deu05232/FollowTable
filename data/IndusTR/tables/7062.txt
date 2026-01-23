@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Tags and Definitions Only (VR Hidden in Notes)</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VM</th><th>Type</th><th>Description</th><th>Implementation Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Offset Calibration Sequence</td><td>(0014,3040)</td><td>1</td><td>2</td><td>Sequence of offset calibration items</td><td>Encoded as a sequence; see DICOM PS3.5 for details</td></tr>
+    <tr><td>>Offset Calibration File</td><td>(0014,3050)</td><td>1</td><td>1</td><td>Offset calibration image acquired under no-radiation exposure conditions</td><td>Binary payload; storage may be base64 in some systems</td></tr>
+    <tr><td>Gain Calibration Sequence</td><td>(0014,3060)</td><td>1</td><td>2</td><td>Sequence of gain calibration items</td><td>Nested items repeat per calibration condition</td></tr>
+    <tr><td>Software Name</td><td>(0014,1100)</td><td>1</td><td>1</td><td>Name of the device software</td><td>Often mapped to a device inventory string</td></tr>
+    <tr><td>Software Version</td><td>(0018,1020)</td><td>1-n</td><td>1</td><td>Identifier of the software version</td><td>Multiple values may be concatenated by vendor</td></tr>
+    <tr><td>X-ray Source ID</td><td>(0014,3203)</td><td>1</td><td>3</td><td>Identifier of the X-ray source</td><td>May align with internal tube serial tracking</td></tr>
+    <tr><td>X-ray Tube Sequence</td><td>(0014,3200)</td><td>1</td><td>2C</td><td>Tube-related details as a nested structure</td><td>Conditional based on equipment configuration</td></tr>
+  </tbody>
+</table>

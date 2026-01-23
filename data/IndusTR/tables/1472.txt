@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Component Interface Definition for Validating Certificate Validity</caption>
+  <tr><td>Prototype</td><td>function SOF_ValidateCert(Base64Cert,cb,ctx)</td></tr>
+  <tr><td>Description</td><td>Validate certificate validity</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>Base64Cert (Base64-encoded certificate)</td></tr>
+  <tr><td>cb (callback function)</td></tr>
+  <tr><td>ctx (parameters required by the callback function)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>SAR_OK (validation successful)</td></tr>
+  <tr><td>Others (validation failed; the failure reason should fall within the error code range 0X0B000500～0X0B000505 in Table A.1)</td></tr>
+  <tr><td>Validation Policy</td><td>The certificate passed into this interface is a Base64-formatted string, generally obtained by retrieving the signing (or encryption) certificate. Certificate validation is performed locally, and the trusted root certificate list is managed by the implementer. Basic certificate validation policies should include: a) verifying the CA trust list; signature verification must be performed at each level; b) validating the validity period of certificates at each level; c) checking the revocation status of certificates at each level. In special cases (e.g., network conditions do not permit), the revocation status may be handled flexibly by having each level of the application system maintain an internal revocation list and applying that revocation list during certificate login authentication. Certificate validation may also be performed via proxy validation</td></tr>
+</table>

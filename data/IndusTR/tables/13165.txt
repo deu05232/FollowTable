@@ -1,0 +1,16 @@
+<table>
+  <caption>BusinessProcess — Customs Release Status Propagation (Import Container)</caption>
+  <thead>
+    <tr><th>Field</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Preconditions</td><td>Import declaration is lodged (by broker/consignee); shipment has a unique reference (B/L, container number); customs risk assessment rules are applied; the customs system and the tracking platform have an agreed data exchange channel (EDI/API).</td></tr>
+    <tr><td>Start Time</td><td>When customs updates the clearance decision for a specific container/shipment (e.g., Released / Hold for Inspection / Documents Required).</td></tr>
+    <tr><td>Scenario</td><td>Customs system generates a clearance status update tied to the shipment reference.The update is validated and normalized (message syntax, identifiers, timestamps, location/office codes).The integrated tracking platform correlates the update to the correct container journey using matching keys (container no., B/L no., declaration no.).The platform records a traceability event (e.g.,Customs ClearedorCustoms Hold) with reason codes when available.Authorized parties (terminal, carrier, consignee, inland haulier) are notified; downstream processes (pickup booking, gate-out eligibility) are enabled or blocked accordingly.</td></tr>
+    <tr><td>Inputs</td><td>Customs decision message; declaration reference; shipment identifiers; optional inspection appointment details and reason codes.</td></tr>
+    <tr><td>Outputs</td><td>Tracking milestone update; clearance/hold notification; updated eligibility flag for terminal release and inland transport scheduling.</td></tr>
+    <tr><td>Key Data Elements</td><td>Declaration number; container number; B/L number; clearance status; status time; customs office code; hold/release reason code; inspection requirement flag.</td></tr>
+    <tr><td>Participants</td><td>Customs authority; customs broker; integrated data center (tracking platform); terminal operator; ocean carrier; consignee; inland carrier/haulier.</td></tr>
+    <tr><td>Exceptions</td><td>Identifier mismatch (cannot correlate to container); duplicate or out-of-sequence messages; status updated without timestamp; conflicting statuses from multiple offices; notification delivery failure.</td></tr>
+  </tbody>
+</table>

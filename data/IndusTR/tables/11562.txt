@@ -1,0 +1,17 @@
+<table>
+  <caption>CAN Charging Communication Message Directory (Charging State, Status & Diagnostics)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Message Code</th><th>Message Name</th><th>PGN (Dec)</th><th>PGN (Hex)</th><th>Priority</th><th>Data Length (Byte)</th><th>Periodicity (ms)</th><th>Source Node</th><th>Destination Node</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Demand / Control</td><td>BCD</td><td>Battery Charge Demand</td><td>4128</td><td>0x001020</td><td>6</td><td>5</td><td>50</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td>CCL</td><td>Charger Current Limit Announcement</td><td>4704</td><td>0x001260</td><td>6</td><td>4</td><td>100</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>RCD</td><td>Ramp/Derate Command</td><td>4768</td><td>0x0012A0</td><td>5</td><td>3</td><td>250</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td rowspan="3">Status</td><td>BCS</td><td>Battery Charging Status (Overall)</td><td>4384</td><td>0x001120</td><td>7</td><td>9</td><td>250</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td>CCS</td><td>Charger Charging Status</td><td>4640</td><td>0x001220</td><td>6</td><td>7</td><td>50</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td>THS</td><td>Thermal Status Summary</td><td>4960</td><td>0x001360</td><td>6</td><td>6</td><td>500</td><td>BMS</td><td>Vehicle</td></tr>
+    <tr><td rowspan="2">Fault / Diagnostics</td><td>VEM</td><td>Vehicle Error Message</td><td>7712</td><td>0x001E20</td><td>2</td><td>4</td><td>250</td><td>Vehicle</td><td>Charger</td></tr>
+    <tr><td>CEM</td><td>Charger Error Message</td><td>7968</td><td>0x001F20</td><td>2</td><td>4</td><td>250</td><td>Charger</td><td>Vehicle</td></tr>
+    <tr><td rowspan="1">End of Charge</td><td>EOC</td><td>End Of Charge Indication</td><td>5280</td><td>0x0014A0</td><td>6</td><td>2</td><td>1000</td><td>Charger</td><td>Vehicle</td></tr>
+  </tbody>
+</table>

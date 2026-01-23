@@ -1,0 +1,19 @@
+<table>
+  <caption>Example Fault Code List and Self-Test Functions for Industrial Instruments (Non-exhaustive)</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Fault Code</th><th>Fault Name</th><th>Self-Test / Detection Method</th><th>Diagnostic Data Reported</th><th>Fault Handling Behavior</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Measuring Instruments</td><td>MI-001</td><td>Sensor Open/Short</td><td>Excitation and continuity check; ADC saturation detection</td><td>Channel ID, raw ADC value, temperature (if available)</td><td>Set output to configured failsafe; latch alarm until cleared</td></tr>
+    <tr><td>Measuring Instruments</td><td>MI-012</td><td>Signal Out of Range</td><td>Plausibility vs. URV/LRV and physical limits</td><td>Measured value, limit exceeded (high/low), duration</td><td>Raise warning/alarm; optionally clamp output</td></tr>
+    <tr><td>Measuring Instruments</td><td>MI-020</td><td>Data Verification Error</td><td>CRC/checksum validation of internal data blocks</td><td>Block ID, CRC expected/actual, retry counter</td><td>Retry read; if persistent, enter degraded mode</td></tr>
+    <tr><td>Analytical Instruments</td><td>AI-101</td><td>Calibration Out of Tolerance</td><td>Calibration residual exceeds threshold</td><td>Residual error, standard ID, last good calibration time</td><td>Invalidate result; request recalibration; alarm</td></tr>
+    <tr><td>Analytical Instruments</td><td>AI-110</td><td>Sample Flow Low</td><td>Flow switch/flow sensor below limit for N seconds</td><td>Flow value, time below limit, suspected blockage flag</td><td>Hold last valid analysis; set “data not valid” status</td></tr>
+    <tr><td>Analytical Instruments</td><td>AI-130</td><td>Optics/Detector Degradation</td><td>Reference intensity check; baseline drift monitoring</td><td>Reference intensity, drift rate, maintenance indicator</td><td>Derate confidence; maintenance alarm when threshold reached</td></tr>
+    <tr><td>Actuators</td><td>AC-201</td><td>Position Sensor Fault</td><td>Feedback range/linearity check; redundant sensor comparison (if equipped)</td><td>Commanded vs. actual position, sensor raw value</td><td>Stop movement; report high-severity fault</td></tr>
+    <tr><td>Actuators</td><td>AC-210</td><td>Excess Torque</td><td>Motor current/torque estimate over limit</td><td>Peak torque/current, duration, cycle count</td><td>Trip or reverse a short distance (if configured); alarm</td></tr>
+    <tr><td>Actuators</td><td>AC-220</td><td>Stuck / No Travel</td><td>No position change after command within timeout</td><td>Timeout value, last movement time, attempted direction</td><td>Enter safe position strategy; latch fault</td></tr>
+    <tr><td>All Categories</td><td>SYS-001</td><td>Main Supply Voltage Abnormal</td><td>Voltage monitor with min/max capture</td><td>Min/max voltage, event timestamp, reset counter</td><td>Safe state; log power event; notify host</td></tr>
+    <tr><td>All Categories</td><td>COM-010</td><td>Communication Lost</td><td>Heartbeat timeout; error frame counter threshold</td><td>Bus error counters, last good message timestamp</td><td>Alarm; keep last good value with “stale” flag</td></tr>
+  </tbody>
+</table>

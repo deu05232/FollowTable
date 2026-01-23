@@ -1,0 +1,10 @@
+<table>
+  <caption>Common Service Description Model - Operation Definition with Consumer Restrictions and Quality Statement</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Domain</th><th>Description</th></tr>
+  <tr><td>Interface Name</td><td>interfaceName</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Name of the interface</td></tr>
+  <tr><td>Operation Name</td><td>operationName</td><td>C..128</td><td>M</td><td>N</td><td></td><td>Name of an operation in the interface</td></tr>
+  <tr><td>Operation Supports Transactionality</td><td>operationSupportTransaction</td><td>BL</td><td>M</td><td>N</td><td>1,0 or true,false</td><td>Whether transactionality is supported; occurrence count consistent with operationName</td></tr>
+  <tr><td>Consumer Conditions</td><td>restrictionOnConsumer</td><td>C..256</td><td>M</td><td>1</td><td>-</td><td>Conditions that users must meet to use this service</td></tr>
+  <tr><td>Statement</td><td>declaration</td><td>C..1000</td><td>M</td><td>1</td><td></td><td>Statement of environment, period/frequency, and measurement methods for service quality</td></tr>
+  <tr><td>Contact</td><td>contact</td><td>C..128</td><td>0</td><td>1</td><td></td><td>Contact person for the service</td></tr>
+</table>

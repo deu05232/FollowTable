@@ -1,0 +1,16 @@
+<table>
+  <caption>Service Inspection Checklist Data Fields (Scheduled Maintenance)</caption>
+  <thead>
+    <tr><th>No.</th><th>Field</th><th>Definition</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>inspection_checklist_id</td><td>Unique identifier for an inspection checklist template.</td><td>Yes</td></tr>
+    <tr><td>2</td><td>functional_component_name</td><td>Name of the component to be inspected during service.</td><td>Yes</td></tr>
+    <tr><td>3</td><td>maintainable_item_type</td><td>Classification of the item (LRU/LMP/LRI) used for maintenance planning.</td><td>Yes</td></tr>
+    <tr><td>4</td><td>inspection_item</td><td>Specific inspection point to be verified (e.g., leakage, wear, torque).</td><td>Yes</td></tr>
+    <tr><td>5</td><td>inspection_method</td><td>How the inspection is performed (visual, measurement, functional test).</td><td>No</td></tr>
+    <tr><td>6</td><td>acceptance_criteria</td><td>Pass/fail criteria or allowable tolerance range for the inspection item.</td><td>No</td></tr>
+    <tr><td>7</td><td>inspection_interval_hours</td><td>Recommended inspection interval in operating hours.</td><td>No</td></tr>
+    <tr><td>8</td><td>recorded_result</td><td>Field capturing the result recorded by the technician.</td><td>No</td></tr>
+  </tbody>
+</table>

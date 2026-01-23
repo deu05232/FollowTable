@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Session Creation Interface Parameters (Core Inputs/Outputs)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Data Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="3">Environment / Platform Context</td></tr>
+    <tr><td>java_env</td><td>JNIEnv *</td><td>JNI environment pointer used to access the Android VM when creating the session.</td></tr>
+    <tr><td>android_context</td><td>jobject</td><td>Application or activity context object used to bind the session to the Android lifecycle.</td></tr>
+    <tr><td>app_activity</td><td>jobject</td><td>Activity instance used for session initialization and permission/availability checks.</td></tr>
+    <tr><td colspan="3">Feature Requests</td></tr>
+    <tr><td>requested_features</td><td>const ArSessionFeature *</td><td>Array of requested session features (e.g., front camera, shared camera, depth).</td></tr>
+    <tr><td>requested_feature_count</td><td>int32_t</td><td>Number of elements inrequested_features.</td></tr>
+    <tr><td colspan="3">Outputs / Status</td></tr>
+    <tr><td>out_session</td><td>ArSession **</td><td>Output parameter that receives the created session handle.</td></tr>
+    <tr><td>out_error</td><td>ArStatus *</td><td>Receives a status/error code describing whether creation succeeded and why it failed.</td></tr>
+  </tbody>
+</table>

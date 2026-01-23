@@ -1,0 +1,15 @@
+<table>
+  <caption>Message Payload Layout (Bytes/Octets) for Class B Autonomous Radio — Not Bit-Level</caption>
+  <thead>
+    <tr><th>Octet Index</th><th>Field Name</th><th>Length (octets)</th><th>Encoding</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Message Identifier + Relay Indicator</td><td>1</td><td>Unsigned integer (packed)</td><td>Two parameters share one octet</td></tr>
+    <tr><td>2-5</td><td>Broadcasting Device MMSI</td><td>4</td><td>BCD-like / numeric</td><td>Left padded with zeros</td></tr>
+    <tr><td>6</td><td>Autonomy Mode</td><td>1</td><td>Enumerated</td><td>0..3 valid</td></tr>
+    <tr><td>7</td><td>Position Source</td><td>1</td><td>Enumerated</td><td>Optional if unknown</td></tr>
+    <tr><td>8-9</td><td>Timestamp</td><td>2</td><td>Unsigned integer</td><td>UTC seconds</td></tr>
+    <tr><td>10</td><td>Integrity Flags</td><td>1</td><td>Bitmask</td><td>Multiple flags</td></tr>
+    <tr><td>11-12</td><td>Spare / Future Use</td><td>2</td><td>Set to zero</td><td>Reserved</td></tr>
+  </tbody>
+</table>

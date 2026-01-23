@@ -1,0 +1,15 @@
+<table>
+  <caption>Test Method Setup — Input Speed & Torque Verification for Harmonic Reducers (Instrumentation)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Instrument</th><th>Measurement Range</th><th>Accuracy</th><th>Sampling Rate</th><th>Environment</th><th>Calibration Interval</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Input speed</td><td>Optical encoder</td><td>0–20,000 rpm</td><td>±0.02%</td><td>5 kHz</td><td>23±2°C</td><td>12 months</td></tr>
+    <tr><td>Output torque</td><td>Torque transducer</td><td>0–200 N·m</td><td>±0.1% FS</td><td>2 kHz</td><td>40–60% RH</td><td>6 months</td></tr>
+    <tr><td>Backlash</td><td>Dial indicator</td><td>0–2 mm</td><td>0.01 mm</td><td>Manual</td><td>Vibration isolated</td><td>12 months</td></tr>
+    <tr><td>Noise</td><td>Sound level meter</td><td>30–130 dB(A)</td><td>Class 1</td><td>48 kHz</td><td>Anechoic room</td><td>12 months</td></tr>
+    <tr><td>Temperature rise</td><td>Thermocouple K</td><td>-50–250°C</td><td>±1.5°C</td><td>10 Hz</td><td>Still air</td><td>6 months</td></tr>
+    <tr><td>Vibration</td><td>Accelerometer</td><td>0–50 g</td><td>±3%</td><td>25 kHz</td><td>Rigid mount</td><td>12 months</td></tr>
+    <tr><td>Power</td><td>Power analyzer</td><td>0–5 kW</td><td>±0.2%</td><td>1 kHz</td><td>Grounded supply</td><td>12 months</td></tr>
+  </tbody>
+</table>

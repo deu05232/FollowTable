@@ -1,0 +1,14 @@
+<table>
+  <caption>Parameters of the model and their flat prior. The first six parameters in the first block belong to the so called “vanilla” cosmological model. The middle block contains extended standard parameters that are expected to have degeneracy with the conversion model parameters. The last block contains the parameters added by our model of dark matter conversion.</caption>
+  <tr><td>Type</td><td>Parameter</td><td>Description</td><td>Min</td><td>Max</td></tr>
+  <tr><td>Vanilla</td><td>Ω_(b)h^(2)</td><td>Baryon density</td><td>0.005</td><td>0.1</td></tr>
+  <tr><td></td><td>Ω_(c)h^(2)</td><td>Cold dark matter density</td><td>0.04</td><td>0.18</td></tr>
+  <tr><td></td><td></td><td>Ratio between the sound horizon and the angular diameter distance at decoupling</td><td>0.5</td><td>10</td></tr>
+  <tr><td></td><td>τ</td><td>Reionization optical depth</td><td>0.01</td><td>0.8</td></tr>
+  <tr><td></td><td>n_(s)</td><td>Spectral index of primordial power spectrum at k=0.05h^(-1)</td><td>0.5</td><td>1.5</td></tr>
+  <tr><td></td><td>log[10^(10)A_(s)]</td><td>Amplitude of primordial power spectrum at k=0.05h^(-1)</td><td>2.7</td><td>4.0</td></tr>
+  <tr><td>Extended</td><td>f_(ν)</td><td>Fraction of neutrino density related to the dark matter</td><td>0</td><td>0.1</td></tr>
+  <tr><td></td><td>w</td><td>Parameter of dark energy constant equation of state</td><td>-1.5</td><td>0.5</td></tr>
+  <tr><td>Extra</td><td>a_(i)</td><td>Scale factor when the conversion starts</td><td>0.1</td><td>1.00</td></tr>
+  <tr><td></td><td></td><td>Rate of conversion</td><td>0</td><td>2</td></tr>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <caption>SpaceFibre Control Word Bit/Byte Layout Example (diagram-style)</caption>
+  <tr><th>Bits</th><th>Field Name</th><th>Description</th></tr>
+  <tr><td>0-7</td><td>COMMA</td><td>Comma character identifying a control word boundary</td></tr>
+  <tr><td>8-15</td><td>TYPE</td><td>Control-word type selector</td></tr>
+  <tr><td>16-23</td><td>FIELD_A</td><td>Type-dependent field</td></tr>
+  <tr><td>24-31</td><td>FIELD_B</td><td>Type-dependent field</td></tr>
+</table>

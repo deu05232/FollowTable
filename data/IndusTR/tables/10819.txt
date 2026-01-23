@@ -1,0 +1,14 @@
+<table>
+  <caption>Purchased/Exported Energy Emissions Template (with Combustion Parameterization Add-on)</caption>
+  <thead>
+    <tr><th>Energy Stream</th><th>Direction</th><th>Quantity</th><th>Unit</th><th>CO2 Emission Factor</th><th>Calculated Emissions (tCO2)</th><th>Net Calorific Value (GJ/unit)</th><th>Carbon Content (tC/GJ)</th><th>Oxidation Rate (%)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Electricity</td><td>Purchased</td><td></td><td>MWh</td><td></td><td></td><td>N/A</td><td>N/A</td><td>N/A</td><td>Grid mix</td></tr>
+    <tr><td>Electricity</td><td>Exported</td><td></td><td>MWh</td><td></td><td></td><td>N/A</td><td>N/A</td><td>N/A</td><td>On-site generation export</td></tr>
+    <tr><td>Heat (Steam)</td><td>Purchased</td><td></td><td>GJ</td><td></td><td></td><td></td><td></td><td></td><td>Supplier data</td></tr>
+    <tr><td>Heat (Steam)</td><td>Exported</td><td></td><td>GJ</td><td></td><td></td><td></td><td></td><td></td><td>To neighboring facility</td></tr>
+    <tr><td>Heat (Hot Water)</td><td>Purchased</td><td></td><td>GJ</td><td></td><td></td><td></td><td></td><td></td><td>District heating</td></tr>
+    <tr><td>Heat (Hot Water)</td><td>Exported</td><td></td><td>GJ</td><td></td><td></td><td></td><td></td><td></td><td>Metered at boundary</td></tr>
+  </tbody>
+</table>

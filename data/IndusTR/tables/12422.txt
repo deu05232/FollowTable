@@ -1,0 +1,12 @@
+<table>
+  <caption>CC Sequence Syntax with Display and Style Blocks (Mixed Content)</caption>
+  <tr><th>Syntax element</th><th>Descriptor</th></tr>
+  <tr><td>CC_sequence(){</td><td></td></tr>
+  <tr><td>do{</td><td></td></tr>
+  <tr><td>CC_sample()</td><td></td></tr>
+  <tr><td>display_description()</td><td></td></tr>
+  <tr><td>style_description()</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>while(next_bits(32)==CC_sample_start_code)</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

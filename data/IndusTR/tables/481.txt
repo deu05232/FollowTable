@@ -1,0 +1,7 @@
+<table>
+  <caption>Description of Parameters for the Hit Test Distance Retrieval API</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit test object pointer</td></tr>
+  <tr><td>out_distance</td><td>float *</td><td>Distance pointer</td></tr>
+</table>

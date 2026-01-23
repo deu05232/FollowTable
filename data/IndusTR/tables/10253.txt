@@ -1,0 +1,17 @@
+<table>
+  <caption>AWG Module Environmental and Electrical Operating Limits</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Unit</th><th>Min</th><th>Typ</th><th>Max</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Environment</td><td>Operating Temperature</td><td>°C</td><td>-5</td><td>25</td><td>70</td><td>Module case temperature</td></tr>
+    <tr><td>Storage Temperature</td><td>°C</td><td>-40</td><td>—</td><td>85</td><td>Non-condensing</td></tr>
+    <tr><td>Relative Humidity</td><td>%RH</td><td>5</td><td>—</td><td>95</td><td>Non-condensing</td></tr>
+    <tr><td rowspan="4">Electrical</td><td>Power Supply Voltage</td><td>V</td><td>4.75</td><td>5.00</td><td>5.25</td><td>At connector</td></tr>
+    <tr><td>Heater Drive Current</td><td>A</td><td>0.0</td><td>1.6</td><td>2.5</td><td>Per channel heater</td></tr>
+    <tr><td>Heater Resistance</td><td>Ω</td><td>2.0</td><td>3.0</td><td>4.5</td><td>Measured at 25°C</td></tr>
+    <tr><td>Warm-up Time</td><td>min</td><td>—</td><td>10</td><td>20</td><td>To reach setpoint</td></tr>
+    <tr><td rowspan="2">Control</td><td>Set Temperature Range</td><td>°C</td><td>65</td><td>75</td><td>87</td><td>Internal TEC setpoint</td></tr>
+    <tr><td>Temperature Stability</td><td>°C</td><td>—</td><td>±0.1</td><td>±0.3</td><td>At steady state</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,5 @@
+<table>
+  <caption>Rubber Mixing Process Data Processing Logic Information Table</caption>
+  <tr><td>No.</td><td>Process Name</td><td>Description</td><td>Input</td><td>Output</td><td>Processing Method</td></tr>
+  <tr><td>1</td><td>Weighing Algorithm</td><td>Calculate the screw rotation speed during weighing to improve both weighing speed and weighing accuracy</td><td>“Real-time scale weight value” comes from external real-time feedback; “weighing setpoint" and "weighing setpoint error" come from the upstream auxiliary machine weighing recipe table</td><td>Screw motor inverter speed setpoint value and weighing setpoint command quantity</td><td>Calculate the screw rotation speed based on the real-time scale weight value, the screw motor inverter speed setpoint value, and the weighing setpoint error</td></tr>
+</table>

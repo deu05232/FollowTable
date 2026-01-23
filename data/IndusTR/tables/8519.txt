@@ -1,0 +1,7 @@
+<table>
+  <caption>Autonomous driving data recorder — control and HMI signals (with minimum recording frequency)</caption>
+  <tr><th>Serial No.</th><th>Data Name</th><th>Level</th><th>Minimum Recording Frequency</th><th>Unit</th><th>Minimum Recording Data Capability Range</th><th>Minimum Recording Resolution</th><th>Minimum Recording Accuracy</th><th>Data Description</th></tr>
+  <tr><td>1</td><td>ADS mode status</td><td>A</td><td>10 Hz</td><td>Not applicable</td><td>0: Off 1: Standby 2: Active 3: Fault</td><td>Not applicable</td><td>Should have no error</td><td>Indicates the operating state of the automated driving function</td></tr>
+  <tr><td>2</td><td>Steering wheel angle</td><td>A</td><td>10 Hz</td><td>deg</td><td>-720~720</td><td>1</td><td>±5%</td><td>Signed angle; positive direction defined by the vehicle specification</td></tr>
+  <tr><td>3</td><td>Brake pedal position</td><td>A</td><td>10 Hz</td><td>%</td><td>0~100</td><td>1</td><td>±5%</td><td>Percentage of brake pedal travel</td></tr>
+</table>

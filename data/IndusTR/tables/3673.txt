@@ -1,0 +1,10 @@
+<table>
+  <caption>CAN Bus Dominant State Output Voltage Parameters</caption>
+  <tr><td rowspan="2">SAC parameter name</td><td rowspan="2">Symbol</td><td colspan="3">Parameter requirements</td><td rowspan="2">Condition</td></tr>
+  <tr><td>Minimum</td><td>Nominal</td><td>Maximum</td></tr>
+  <tr><td rowspan="2">Bus output voltage</td><td>VcAN-H</td><td>2.75 V</td><td>3.5V</td><td>4.5V</td><td>Load R/2</td></tr>
+  <tr><td>VcAN-L</td><td>0.5V</td><td>1.5 V</td><td>2.25 V</td><td>Load R/2</td></tr>
+  <tr><td>Bus differential output voltage</td><td>Vlfot</td><td>1.5V</td><td>2V</td><td>3.0V</td><td>Load R/2</td></tr>
+  <tr><td>Bus differential input voltagea</td><td>Vviffin</td><td>0.9V</td><td>—</td><td>5.0V</td><td></td></tr>
+  <tr><td colspan="6">”Threshold for receiving a dominant bit. bRi is the termination resistor.</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Terrestrial Eco-meteorological Import Mapping (External Code Lists for Station Name)</caption>
+  <thead>
+    <tr><th>No.</th><th>Target Field</th><th>Source Column</th><th>Rule / Lookup</th><th>Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station name</td><td>station_name</td><td>Lookup in StationNameCodeList (Table S.10); store standardized display name</td><td>SN_004512 → "Xilin Gol Steppe Station"</td></tr>
+    <tr><td>2</td><td>Station identifier</td><td>station_id</td><td>Must exist in StationMaster (Table S.1)</td><td>ST-004512</td></tr>
+    <tr><td>3</td><td>Observation time</td><td>obs_time</td><td>Parse RFC3339 or YYYYMMDDhhmm</td><td>2025-01-01T12:00:00Z</td></tr>
+    <tr><td>4</td><td>Eco-meteorological scene category</td><td>scene_cat</td><td>Validate against SceneCategoryList (Table B.1, AAiAA)</td><td>FRi02</td></tr>
+    <tr><td>5</td><td>Total irradiance</td><td>ghi</td><td>Number; unit W/m²; null allowed</td><td>580</td></tr>
+    <tr><td>6</td><td>Precipitation</td><td>precip</td><td>Number; unit mm; 0 if none</td><td>0.0</td></tr>
+    <tr><td>7</td><td>Event code (abnormal ecology)</td><td>event_code</td><td>VVVV per EventCodeList (Table B.24)</td><td>0301</td></tr>
+    <tr><td>8</td><td>Operator note</td><td>note</td><td>Free text; may include commas</td><td>Instrument maintenance</td></tr>
+  </tbody>
+</table>

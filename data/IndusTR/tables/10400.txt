@@ -1,0 +1,16 @@
+<table>
+  <caption>Class B Maritime Autonomous Radio Equipment — Message 61 Data Dictionary and Encoding Rules</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Bit Length</th><th>Data Type</th><th>Encoding Rule</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message Identifier</td><td>6</td><td>Unsigned</td><td>Fixed value = 61</td><td>Message type selection</td></tr>
+    <tr><td>Relay Indicator</td><td>2</td><td>Unsigned</td><td>0..3 (normally 0)</td><td>Number of relays</td></tr>
+    <tr><td>Broadcast MMSI</td><td>30</td><td>Unsigned</td><td>Per MMSI encoding; leading zeros allowed</td><td>Station identity</td></tr>
+    <tr><td>Regional Identifier</td><td>10</td><td>Unsigned</td><td>0..1023</td><td>Region-specific use</td></tr>
+    <tr><td>Position Accuracy</td><td>1</td><td>Boolean</td><td>0 = >10 m, 1 = ≤10 m</td><td>GNSS quality flag</td></tr>
+    <tr><td>Status Code</td><td>4</td><td>Unsigned</td><td>0..15 mapped per table</td><td>Operational status</td></tr>
+    <tr><td>Reserved</td><td>7</td><td>Unsigned</td><td>Set to zero</td><td>Future expansion</td></tr>
+    <tr><td>Spare</td><td>4</td><td>Unsigned</td><td>Set to zero</td><td>Padding to byte boundary</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>Regional Address Coding for Broadcast Area (Expanded Example)</caption>
+  <tr><th>Part index</th><th>What the part represents</th><th>Bit length</th><th>Permitted range</th><th>Interpretation</th></tr>
+  <tr><td>1</td><td>High-level area selector</td><td>2</td><td>0–2</td><td>Used to distinguish worldwide vs. numbered areas</td></tr>
+  <tr><td>2</td><td>Area number component</td><td>4</td><td>0–9</td><td>Combined with the selector to form an area code</td></tr>
+  <tr><td>3</td><td>Composite area code meaning</td><td>6</td><td>00; 01–21; 22–63</td><td>00: worldwide; 01–21: NAVAREA/METAREA; others reserved</td></tr>
+</table>

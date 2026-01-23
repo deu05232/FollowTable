@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Parameter Codes Embedded in Text (Non-Referenceable Format)</caption>
+  <thead>
+    <tr><th>Equipment</th><th>Parameter (code embedded)</th><th>Unit</th><th>Value/Range</th><th>Constraint</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Toilet</td><td>Flush volume (SE-P01)</td><td>L/flush</td><td>4.0–6.0</td><td>Mandatory</td></tr>
+    <tr><td>Urinal</td><td>Flush volume (SE-P02)</td><td>L/flush</td><td>0.5–1.5</td><td>Mandatory</td></tr>
+    <tr><td>Faucet</td><td>Flow rate at rated pressure (SE-P03)</td><td>L/min</td><td>4–9</td><td>Mandatory</td></tr>
+    <tr><td>Showerhead</td><td>Spray flow rate (SE-P04)</td><td>L/min</td><td>6–12</td><td>Optional</td></tr>
+    <tr><td>Floor drain</td><td>Drain flow capacity (SE-P05)</td><td>L/min</td><td>30–70</td><td>Mandatory</td></tr>
+    <tr><td>Cistern</td><td>Refill time (SE-P06)</td><td>s</td><td>45–120</td><td>Optional</td></tr>
+    <tr><td>Bidet</td><td>Nozzle pressure (SE-P07)</td><td>kPa</td><td>50–200</td><td>Mandatory</td></tr>
+  </tbody>
+</table>

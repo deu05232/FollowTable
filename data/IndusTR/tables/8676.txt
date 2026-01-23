@@ -1,0 +1,15 @@
+<table>
+  <caption>Application-Layer Message Catalog (Including Abort, Phase, Confirmation, Status)</caption>
+  <thead>
+    <tr><th>Parameter Group Identifier (PGI)</th><th>Message Name</th><th>Category</th><th>Ack Required</th><th>Typical Direction</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x01</td><td>Phase Request</td><td>Session Control</td><td>Yes</td><td>Charger → Vehicle</td><td>Starts/advances charging phase</td></tr>
+    <tr><td>0x02</td><td>Vehicle Confirmation Result</td><td>Session Control</td><td>Yes</td><td>Vehicle → Charger</td><td>Confirms last request</td></tr>
+    <tr><td>0x03</td><td>Charger Abort</td><td>Termination</td><td>Yes</td><td>Charger → Vehicle</td><td>Aborts exchange from charger side</td></tr>
+    <tr><td>0x04</td><td>Vehicle Abort</td><td>Termination</td><td>Yes</td><td>Vehicle → Charger</td><td>Aborts exchange from vehicle side</td></tr>
+    <tr><td>0x05</td><td>DC Contactor Status</td><td>Status</td><td>No</td><td>Charger → Vehicle</td><td>Periodic status broadcast</td></tr>
+    <tr><td>0x06</td><td>Vehicle Contactor Status</td><td>Status</td><td>No</td><td>Vehicle → Charger</td><td>Periodic status broadcast</td></tr>
+    <tr><td>0x07</td><td>Electronic Lock Status</td><td>Status</td><td>No</td><td>Charger → Vehicle</td><td>Lock/latch state</td></tr>
+  </tbody>
+</table>

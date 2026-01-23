@@ -1,0 +1,18 @@
+<table>
+  <caption>Description of emergency search and rescue and position report information output statement parameters</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Value Range</td><td>Unit</td><td>Description</td></tr>
+  <tr><td>1</td><td>Sender ID</td><td>1~16 777 215</td><td></td><td>Sender address, intranet address a</td></tr>
+  <tr><td>2</td><td>Recipient ID</td><td>1~16 777 215</td><td></td><td>Recipient address, intranet address"</td></tr>
+  <tr><td>3</td><td>Service type / emergency flag</td><td>1~2</td><td></td><td>1: emergency search and rescue; 2: position report</td></tr>
+  <tr><td>4</td><td>Time</td><td>000 000.00～235 959.99</td><td></td><td>UTC time, hhmmss.ss. 6 fixed digits to the left of the decimal point; pad with leading 0 if insufficient</td></tr>
+  <tr><td>5</td><td>Longitude</td><td>00 000.00～17 959.99</td><td></td><td>Fixed/variable-length field: degrees minutes.decimal — 3 fixed digits for degrees and 2 fixed digits for minutes; the number of decimal digits for the fractional part of minutes is variable</td></tr>
+  <tr><td>6</td><td>Longitude flag</td><td>E/W</td><td></td><td>East longitude / West longitude</td></tr>
+  <tr><td>7</td><td>Latitude</td><td>0 000.00~8 959.99</td><td></td><td>Degrees minutes.decimal — 2 fixed digits for degrees and 2 fixed digits for minutes; the number of decimal digits for the fractional part of minutes is variable</td></tr>
+  <tr><td>8</td><td>Latitude flag</td><td>N/S</td><td></td><td>North latitude / South latitude</td></tr>
+  <tr><td>9</td><td>Altitude</td><td>1</td><td>m</td><td>Ellipsoidal height in the BDCS coordinate system</td></tr>
+  <tr><td>10</td><td>SAR type</td><td>1~3</td><td>1</td><td>1; distress request; 2: distress cancellation; 3: forward authentication</td></tr>
+  <tr><td>11</td><td>SAR center instruction type</td><td>1~4</td><td></td><td>1: distress acknowledgment; 2: inbound transmission control command; 3: reverse authentication; 4: distress wake-up</td></tr>
+  <tr><td>12</td><td>Status data length (SAR service data length / position report length)</td><td>0~468</td><td>bit</td><td>Number of bits of status data (SAR service data / position report status data)</td></tr>
+  <tr><td>13</td><td>Status data (SAR service data / position report status data")</td><td>0～636</td><td>bit</td><td>Status data (SAR service data / position report status data)</td></tr>
+  <tr><td colspan="5">²Intranet address: the intranet address length is 24 bit, and the address space is 1～16 777 215。bPresent when the service type is emergency search and rescue. ‘Present when the service type is position report.</td></tr>
+</table>

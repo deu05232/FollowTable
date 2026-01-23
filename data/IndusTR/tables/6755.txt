@@ -1,0 +1,6 @@
+<table>
+  <caption>Instant Messaging Service Response Fields (No Required/Optional Column)</caption>
+  <tr><th>English Name</th><th>Data Type and Format</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>returnResult</td><td>C..64</td><td>One</td><td>Whether the request was successful</td></tr>
+  <tr><td>resultDescription</td><td>C..2000</td><td></td><td>Text description of the result</td></tr>
+</table>

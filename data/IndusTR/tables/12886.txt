@@ -1,0 +1,17 @@
+<table>
+  <caption>Incident Classification Catalog for Video/Image Analytics (Hierarchical Event Codes)</caption>
+  <thead>
+    <tr><th>Level</th><th>Code</th><th>Name</th><th>Parent Code</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>E200</td><td>Public Safety Incidents</td><td>-</td><td>Top-level group for safety-related events</td></tr>
+    <tr><td>2</td><td>E210</td><td>Violence</td><td>E200</td><td>Incidents involving physical aggression or threats</td></tr>
+    <tr><td>3</td><td>E211</td><td>Fighting</td><td>E210</td><td>Mutual physical confrontation between two or more persons</td></tr>
+    <tr><td>3</td><td>E212</td><td>Assault (One-sided)</td><td>E210</td><td>One person attacks another; victim shows defensive posture</td></tr>
+    <tr><td>2</td><td>E220</td><td>Medical / Safety</td><td>E200</td><td>Incidents indicating health risk or injury</td></tr>
+    <tr><td>3</td><td>E221</td><td>Fall / Slip</td><td>E220</td><td>Person falls, slips, or collapses in the scene</td></tr>
+    <tr><td>2</td><td>E230</td><td>Perimeter & Access</td><td>E200</td><td>Restricted-area access and boundary violations</td></tr>
+    <tr><td>3</td><td>E231</td><td>Unauthorized Entry</td><td>E230</td><td>Person enters a controlled area without permission</td></tr>
+    <tr><td>3</td><td>E232</td><td>Tailgating</td><td>E230</td><td>Person follows closely behind authorized entry to bypass access control</td></tr>
+  </tbody>
+</table>

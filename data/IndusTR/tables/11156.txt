@@ -1,0 +1,16 @@
+<table>
+  <caption>Traffic Accident Alert Time Expectations (Estimated/Planned Times and Validity Rules)</caption>
+  <thead>
+    <tr><th>Group</th><th>Seq.</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Publish</th><th>Constraints / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Estimates</td><td>1</td><td>Estimated Clearance Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>Expected time the accident scene will be cleared; if provided, shall be later than or equal to Alert Release Time.</td></tr>
+    <tr><td>2</td><td>Estimated Traffic Recovery Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>Expected time traffic returns to normal; shall be later than or equal to Estimated Clearance Time (if present).</td></tr>
+    <tr><td>3</td><td>Estimated Delay Duration</td><td>Integer</td><td>4</td><td>Yes</td><td>No</td><td>Unit: minutes; if present, should satisfy Estimated Traffic Recovery Time = Alert Release Time + Estimated Delay Duration (tolerance allowed by system profile).</td></tr>
+    <tr><td rowspan="3">Validity / Windows</td><td>4</td><td>Alert Effective Start Time</td><td>DateTime</td><td>16</td><td>No</td><td>Yes</td><td>Usually equals Alert Release Time; shall be earlier than Alert Effective End Time.</td></tr>
+    <tr><td>5</td><td>Alert Effective End Time</td><td>DateTime</td><td>16</td><td>Yes</td><td>Yes</td><td>If provided, shall be later than or equal to Alert Effective Start Time; should not be later than Estimated Traffic Recovery Time when that estimate exists.</td></tr>
+    <tr><td>6</td><td>Last Update Time</td><td>DateTime</td><td>16</td><td>No</td><td>Yes</td><td>Time of the latest timeline update; shall be later than or equal to Alert Release Time and monotonically increasing across revisions of the same alert.</td></tr>
+    <tr><td rowspan="2">Quality / Constraints</td><td>7</td><td>Time Accuracy</td><td>Integer</td><td>3</td><td>Yes</td><td>No</td><td>Unit: minutes; indicates expected deviation of estimated times; if present, shall be greater than or equal to 0.</td></tr>
+    <tr><td>8</td><td>Time Source Type</td><td>Code</td><td>4</td><td>Yes</td><td>No</td><td>Indicates whether time is system-generated, operator-entered, or sensor-derived; code set maintained by the schema profile.</td></tr>
+  </tbody>
+</table>

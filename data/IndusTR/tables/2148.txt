@@ -1,0 +1,14 @@
+<table>
+  <caption>Autonomous Driving Data Recording System Change Log and Document Control Metadata</caption>
+  <thead>
+    <tr><th>Document ID</th><th>Title</th><th>Revision</th><th>Change Summary</th><th>Owner</th><th>Approval Date</th><th>Effective Date</th><th>Impacted Modules</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DOC-ADR-001</td><td>System Overview</td><td>R3</td><td>Updated architecture diagram</td><td>Systems Eng.</td><td>2024-03-12</td><td>2024-03-20</td><td>All</td></tr>
+    <tr><td>DOC-ADR-014</td><td>Data Dictionary</td><td>R5</td><td>Added new field: road_grade_est</td><td>Platform SW</td><td>2024-05-06</td><td>2024-05-10</td><td>Logging</td></tr>
+    <tr><td>DOC-ADR-021</td><td>EMC Validation Plan</td><td>R2</td><td>Added pre-scan step</td><td>Reliability</td><td>2024-02-18</td><td>2024-02-25</td><td>EMC</td></tr>
+    <tr><td>DOC-ADR-033</td><td>Production Test Procedure</td><td>R7</td><td>Updated EoL station IDs</td><td>Manufacturing</td><td>2024-04-09</td><td>2024-04-15</td><td>Factory</td></tr>
+    <tr><td>DOC-ADR-045</td><td>Cybersecurity Threat Model</td><td>R1</td><td>Added key-rotation note</td><td>Security</td><td>2024-06-01</td><td>2024-06-07</td><td>Security</td></tr>
+    <tr><td>DOC-ADR-052</td><td>Field Service Guide</td><td>R4</td><td>Clarified RMA flow</td><td>Support</td><td>2024-01-22</td><td>2024-01-30</td><td>Service</td></tr>
+  </tbody>
+</table>

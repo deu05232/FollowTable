@@ -1,0 +1,17 @@
+# DLNA Playable Media Format Matrix (Common Device Profiles)
+
+| DLNA class (typical) | Media type | File extension(s) | Container / wrapper | Video codec (if any) | Audio codec | Image format | Notes (what usually works) |
+|---|---|---|---|---|---|---|---|
+| Digital Media Player (DMP) | Video | .mp4, .m4v | MP4 (ISO BMFF) | H.264/AVC (Baseline/Main) | AAC-LC | — | Often the most reliable modern combo for TVs/streamers |
+| Digital Media Player (DMP) | Video | .mpg, .mpeg, .vob | MPEG-PS | MPEG-2 Video | MP2 or AC-3 (device-dependent) | — | Common for DVD rips; some devices reject AC-3 over DLNA |
+| Digital Media Player (DMP) | Video | .ts, .m2ts | MPEG-TS | H.264/AVC or MPEG-2 Video | AAC or AC-3 (varies) | — | Transport streams may appear but fail to seek on some clients |
+| Digital Media Player (DMP) | Video | .wmv, .asf | ASF | WMV9/VC-1 (varies) | WMA | — | More common on Windows-centric devices; less universal on TVs |
+| Digital Media Renderer (DMR) | Audio | .mp3 | MP3 | — | MP3 | — | Near-universal; safest choice for music libraries |
+| Digital Media Renderer (DMR) | Audio | .m4a, .mp4 | MP4 (ISO BMFF) | — | AAC-LC | — | Widely supported; HE-AAC support is less consistent |
+| Digital Media Renderer (DMR) | Audio | .wma | ASF | — | WMA (Std/Pro varies) | — | Often supported by some TVs/receivers; not as universal as MP3 |
+| Digital Media Renderer (DMR) | Audio | .wav | WAV (RIFF) | — | LPCM | — | Plays almost everywhere but large bandwidth; sometimes no gapless |
+| Digital Media Player (DMP) | Image | .jpg, .jpeg | JPEG | — | — | JPEG | Typically the default supported photo format |
+| Digital Media Player (DMP) | Image | .png | PNG | — | — | PNG | Support varies; some clients show thumbnails but fail full-size |
+| Digital Media Player (DMP) | Image | .gif | GIF | — | — | GIF | Usually still images only; animation support is inconsistent |
+| Digital Media Controller (DMC) + DMR | Video | .avi | AVI | MPEG-4 Part 2 (DivX/Xvid) (varies) | MP3/AC-3 (varies) | — | Very device-specific; often shows up but may not play reliably |
+| Digital Media Player (DMP) | Video | .mkv | Matroska | H.264/HEVC (varies) | AAC/AC-3/DTS (varies) | — | Common in files, but many DLNA clients won’t list MKV at all |

@@ -1,0 +1,14 @@
+<table>
+  <caption>Starter short-circuit breaking test requirements with operational endurance duty (combined table)</caption>
+  <thead>
+    <tr><th>Rated operational current Ie (A)</th><th>Ultimate breaking current Icu (kA)</th><th>U/Ue</th><th>cosφ</th><th>Energizing time (s)</th><th>Interval time (s)</th><th>Number of tests</th><th>Operational duty: I/Ie</th><th>Operational duty: Ic/Ie</th><th>Operational duty cycles</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 16</td><td>0.6</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>6</td><td>1.0</td><td>6000</td></tr>
+    <tr><td>> 16 to ≤ 63</td><td>1.5</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>6</td><td>1.0</td><td>6000</td></tr>
+    <tr><td>> 63 to ≤ 125</td><td>2.5</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>6</td><td>1.0</td><td>6000</td></tr>
+    <tr><td>> 125 to ≤ 250</td><td>5.0</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>6</td><td>1.0</td><td>6000</td></tr>
+    <tr><td>> 250 to ≤ 400</td><td>8.0</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>6</td><td>1.0</td><td>6000</td></tr>
+    <tr><td>> 400 to ≤ 630</td><td>10.0</td><td>1.0</td><td>0.65 ± 0.05</td><td>0.10</td><td>180</td><td>3</td><td>6</td><td>1.0</td><td>6000</td></tr>
+  </tbody>
+</table>

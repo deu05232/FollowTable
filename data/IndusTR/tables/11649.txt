@@ -1,0 +1,10 @@
+<table>
+  <caption>Command B1H — Set Fan Speed (Sub-unit) Frame Format</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th>FanId</th><th>SpeedLevel</th><th>Duration_s</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>01H</td><td>B1H</td><td>0003H</td><td>01H</td><td>05H</td><td>1EH</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>02H</td><td>B1H</td><td>0003H</td><td>02H</td><td>03H</td><td>0AH</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td colspan="9">Note: FanId identifies the ventilation device; SpeedLevel is an integer step; Duration_s is the time to keep the setting before reverting.</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>03H</td><td>B1H</td><td>0003H</td><td>01H</td><td>01H</td><td>3CH</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>04H</td><td>B1H</td><td>0003H</td><td>03H</td><td>04H</td><td>14H</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>05H</td><td>B1H</td><td>0003H</td><td>02H</td><td>06H</td><td>28H</td><td>xxxxH</td><td>0DH</td></tr>
+</table>

@@ -1,0 +1,7 @@
+<table>
+  <caption>UPDATAGROUPID Command Message Data Fields</caption>
+  <tr><td>No.</td><td>P2 value</td><td>Name</td><td>Length (byte)</td></tr>
+  <tr><td>1</td><td rowspan="2">00</td><td>Multicast ID</td><td>6</td></tr>
+  <tr><td>2</td><td>Group-join password</td><td>8</td></tr>
+  <tr><td>3</td><td>01</td><td>Multicast ID</td><td>6</td></tr>
+</table>

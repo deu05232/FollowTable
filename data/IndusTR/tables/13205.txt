@@ -1,0 +1,16 @@
+<table>
+  <caption>Operator Parameter Matrix for Math-Style Ops (Flat Buffer / Element Count)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter Name</th><th>Applies To</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Tensor Inputs</td><td>Input Buffer</td><td>Add / Sub / Mul / Div</td><td>Required</td><td>Pointer to input elements; treated as contiguous flat storage</td></tr>
+    <tr><td>Second Input Buffer</td><td>Add / Sub / Mul / Div</td><td>Optional</td><td>Optional second operand; if omitted, operator behaves as unary passthrough</td></tr>
+    <tr><td>Output Buffer</td><td>Add / Sub / Mul / Div</td><td>Required</td><td>Pointer to output elements; size determined by Element Count</td></tr>
+    <tr><td rowspan="2">Sizing</td><td>Element Count</td><td>All</td><td>Required</td><td>Total number of elements to process (equivalent to tensor length); no rank/axis info</td></tr>
+    <tr><td>Stride (Elements)</td><td>All</td><td>Optional</td><td>Step between consecutive elements in the flat buffer; does not encode multi-dim layout</td></tr>
+    <tr><td rowspan="2">Execution</td><td>Data Type</td><td>All</td><td>Optional</td><td>Element type; default fp16</td></tr>
+    <tr><td>Device</td><td>All</td><td>Optional</td><td>CPU/GPU; default CPU</td></tr>
+    <tr><td>Math</td><td>Rounding Mode</td><td>Div</td><td>Optional</td><td>Defines rounding behavior for integer division</td></tr>
+  </tbody>
+</table>

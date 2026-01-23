@@ -1,0 +1,17 @@
+<table>
+  <caption>Laser-Activated Additive Manufacturing Routes Mapped to Raw Material Feedstock Forms (Laser-Only)</caption>
+  <thead>
+    <tr><th>Raw material type</th><th>Feedstock form</th><th>Laser-activated AM route (laser-only classification)</th><th>Common laser-based process names / variants</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Metals</td><td>Powder (bed)</td><td>Laser Powder Bed Fusion</td><td>LPBF (SLM, DMLS)</td></tr>
+    <tr><td>Powder (blown)</td><td>Laser Directed Energy Deposition</td><td>L-DED (laser cladding, LMD)</td></tr>
+    <tr><td>Wire</td><td>Laser Directed Energy Deposition</td><td>Wire-fed Laser DED (LENS-wire variants)</td></tr>
+    <tr><td rowspan="2">Polymers</td><td>Powder (bed)</td><td>Laser Powder Bed Fusion</td><td>SLS for thermoplastics (laser-sintering family)</td></tr>
+    <tr><td>Filament / pellet</td><td>Laser-Assisted Material Extrusion</td><td>Laser-heated extrusion / laser preheating for polymer MEX</td></tr>
+    <tr><td rowspan="2">Ceramics</td><td>Powder (bed)</td><td>Laser Powder Bed Fusion (ceramic PBF)</td><td>Laser sintering/melting of ceramics (research variants)</td></tr>
+    <tr><td>Slurry / paste</td><td>Laser-Assisted Sintering / Post-laser densification</td><td>Laser densification after green shaping (laser-only activation step)</td></tr>
+    <tr><td rowspan="2">Photopolymers</td><td>Vat resin</td><td>Laser Photopolymerization</td><td>SLA (laser stereolithography)</td></tr>
+    <tr><td>Vat resin + filler</td><td>Laser Photopolymerization (composite resin)</td><td>Laser SLA for ceramic/metal-filled resins</td></tr>
+  </tbody>
+</table>

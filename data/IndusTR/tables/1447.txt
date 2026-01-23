@@ -1,0 +1,8 @@
+<table>
+  <caption>SGTIN-96 Encoded Data Structure and Binary Bit Allocation</caption>
+  <tr><td rowspan="2">Structure composition</td><td rowspan="2">Header</td><td colspan="5">Data area SAC</td></tr>
+  <tr><td>Filter value (F)</td><td>Partition (P)</td><td>Company prefix (C)</td><td>Indicator + agricultural inputs product item code (I)</td><td>Serial number (S)</td></tr>
+  <tr><td>Number of bits (binary)</td><td>8</td><td>3</td><td>3</td><td>20~40</td><td>24~4</td><td>38</td></tr>
+  <tr><td>Value</td><td>0011 0000</td><td>011 (according to Table C.1)</td><td>(according to Table C.2)</td><td>999 999~999 999 999 999 (maximum decimal capacity range)</td><td>9 999 999~9 (maximum decimal capacity range) (maximum decimal value)</td><td>274 877 906 943</td></tr>
+  <tr><td colspan="7">Note 1: The ranges of the company prefix and the agricultural inputs product item code fields vary with different partition values. Note 2: The binary ranges of the company prefix and the agricultural inputs product item code do not fully correspond to the decimal value ranges.</td></tr>
+</table>

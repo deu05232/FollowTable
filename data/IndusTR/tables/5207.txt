@@ -1,0 +1,16 @@
+<table>
+  <caption>SM2 Key Agreement Session Key Computation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GenerateKeyWithSM2(void * hAgreementHandle,unsigned char * pucResponseID,unsigned int uiResponseIDLength,unsigned char * pucResponsePublicKey,unsigned int uiResponsePublicKeyLen,unsigned char * pucResponseTmpPublicKey,unsigned int uiResponseTmpPublicKeyLen,void * *phKeyHandle)</td></tr>
+  <tr><td>Description</td><td>Using the SM2 key agreement algorithm, compute the session key using the local agreement handle and the responder's agreement parameters, and return the session key handle at the same time</td></tr>
+  <tr><td rowspan="8">Parameters</td><td>hAgreementHandle[in](key agreement handle)</td></tr>
+  <tr><td>pucResponseID[in](externally input responder ID value)</td></tr>
+  <tr><td>uiResponseIDLength[in](externally input responder ID length)</td></tr>
+  <tr><td>pucResponsePublicKey[in](externally input responder SM2 public key)</td></tr>
+  <tr><td>uiResponsePublicKeyLen[in](externally input responder SM2 public key length)</td></tr>
+  <tr><td>pucResponseTmpPublicKey[in](externally input responder temporary SM2 public key)</td></tr>
+  <tr><td>uiResponseTmpPublicKeyLen[in](externally input responder temporary SM2 public key length)</td></tr>
+  <tr><td>phKeyHandle[out](returned key handle)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+  <tr><td>Rules</td><td>After the initiator of the agreement obtains the responder's agreement parameters, it calls this function to compute the session key. The computation process of the session key shall follow the requirements of GB/T35276</td></tr>
+</table>

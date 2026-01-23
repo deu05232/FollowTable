@@ -1,0 +1,8 @@
+<table>
+  <caption>Augmented Reality Image Format Enumeration</caption>
+  <tr><td>Image format category description</td><td>Reference name and value</td></tr>
+  <tr><td>Invalid image format</td><td>AR_IMAGE_FORMAT_INVALID=0</td></tr>
+  <tr><td>CPU image</td><td>AR_IMAGE_FORMAT_YUV_420_888 = 0x23</td></tr>
+  <tr><td>Depth image</td><td>AR_IMAGE_FORMAT_DEPTH16 = 0x44363159</td></tr>
+  <tr><td>Stereo image</td><td>AR_IMAGE_FORMAT_RGBA_FP16 = 0x16</td></tr>
+</table>

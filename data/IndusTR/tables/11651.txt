@@ -1,0 +1,16 @@
+<table>
+  <caption>Command C8h — Set Output Device States via ECn Payload (EC0..EC7 Mapping)</caption>
+  <thead>
+    <tr><th>Payload Byte</th><th>Symbol</th><th>Mapped Device</th><th>Value (hex)</th><th>Device State Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>EC0</td><td>Inlet Gate Actuator</td><td>00h / 01h / 02h</td><td>00h=Close, 01h=Open, 02h=Stop</td></tr>
+    <tr><td>1</td><td>EC1</td><td>Outlet Gate Actuator</td><td>00h / 01h / 02h</td><td>00h=Close, 01h=Open, 02h=Stop</td></tr>
+    <tr><td>2</td><td>EC2</td><td>Heater Enable Relay</td><td>00h / 01h</td><td>00h=Off, 01h=On</td></tr>
+    <tr><td>3</td><td>EC3</td><td>Humidifier Solenoid</td><td>00h / 01h</td><td>00h=Off, 01h=On</td></tr>
+    <tr><td>4</td><td>EC4</td><td>Circulation Fan</td><td>00h / 01h / 02h</td><td>00h=Off, 01h=On, 02h=Auto</td></tr>
+    <tr><td>5</td><td>EC5</td><td>Roof Vent Motor</td><td>00h / 01h / 02h</td><td>00h=Close, 01h=Open, 02h=Stop</td></tr>
+    <tr><td>6</td><td>EC6</td><td>Alarm Buzzer</td><td>00h / 01h</td><td>00h=Off, 01h=On</td></tr>
+    <tr><td>7</td><td>EC7</td><td>Status Lamp</td><td>00h / 01h / 02h</td><td>00h=Off, 01h=Green, 02h=Red</td></tr>
+  </tbody>
+</table>

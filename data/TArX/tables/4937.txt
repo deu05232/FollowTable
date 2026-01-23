@@ -1,0 +1,11 @@
+<table>
+  <caption>Most common formulations and solution methods for numerical eddy current computations.</caption>
+  <tr><th>Formulation</th><th>Solution method</th><th>Notes</th></tr>
+  <tr><th>A-V</th><td>FEM [ Biblecombe:TMAG82 , Kameari:TMAG90 , Preis:TMAG92 ]</td><td></td></tr>
+  <tr><th></th><td>FEM-BEM [ Salon:TMAG82 ]</td><td></td></tr>
+  <tr><th>T-Ω</th><td>FEM [ Albanese:TM88 , Preston:TMAG82 ]</td><td rowspan="2">Two different gauges for T -field: co-tree and Biot-Savart</td></tr>
+  <tr><th></th><td>FEM-BEM [ Bossavit:TMAG82 ]</td></tr>
+  <tr><th>H</th><td>FEM [ Brambilla:SST07 ]</td><td rowspan="3">Primarily used only in superconductivity community and with hysteresis loss computations of superconductors, not eddy current computations in normal metals</td></tr>
+  <tr><th></th><td>FEM-VIM [ Kalimov:TMAG97 ]</td></tr>
+  <tr><th></th><td>VIM [ Kettunen:TMAG92 ]</td></tr>
+</table>

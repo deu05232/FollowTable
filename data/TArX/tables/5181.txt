@@ -1,0 +1,30 @@
+<table>
+  <caption>Instrument components and their parameters used in the design of the reflectometer. Used symbols: Guide entry/exit width W i /W f (also at chopper positions); Guide entry/exit height H i /H f ; Maximum guide width/height W max /H max ; Component length L; Angular chopper speed ω ; Chopper radius R; Detector width/height W/H. See text for further details.</caption>
+  <tr><td>Component</td><td>Position [m]</td><td>Characteristics, parameters</td></tr>
+  <tr><td colspan="3">Moderators</td></tr>
+  <tr><td>Cold moderator</td><td>0</td><td>Liquid para-hydrogen, peak intensity at ≈ 2.5 Å</td></tr>
+  <tr><td colspan="3">Basic guide characteristics</td></tr>
+  <tr><td>Guide</td><td>2</td><td>Length: 48.5 m, Horizontal shape: elliptic with W _(i) = W _(f) = 10 cm, W _() : 26 cm, m=3 coating, moderator and footprint slit at focal points Vertical shape: variable, m=5 coating</td></tr>
+  <tr><td>Guide part 1 (Extraction system)</td><td>2</td><td>L = 4 m, W _(i) = 10 cm, W _(f) = 16.6 cm, H _(i) = 8.67 cm, H _(f) = 2 cm, linear shape</td></tr>
+  <tr><td>Guide part 2</td><td>6</td><td>L = 12.7 m, W _(i) = 16 cm, W _(f) = 25.0 cm, H _(i) = H _(f) = 2cm, vertical shape constant</td></tr>
+  <tr><td>Guide part 3 (z-kink)</td><td>18.7</td><td>L = 11.2 m, W _(i) = 25.0 cm, W _(f) = 25.9 cm, H _(i) = H _(f) = 2cm, vertical shape double elliptic, H _() = 2.6 cm, H _(1/2) = 2 cm</td></tr>
+  <tr><td>Guide part 4</td><td>29.9</td><td>L = 14.2 m, W _(i) = 25.9 cm, W _(f) = 19.1 cm, H _(i) = H _(f) = 2cm, vertical shape constant</td></tr>
+  <tr><td>Guide part 5 (bending section)</td><td>44.1</td><td>L = 6.4 m, composed of 5 tiltable sections of L _(s) = 1.28 m W _(i) = 25.0 cm, W _(f) = 25.9 cm H _(i) = H _(f) = 2cm, vertical shape constant</td></tr>
+  <tr><td colspan="3">Choppers</td></tr>
+  <tr><td colspan="3">Basic setup</td></tr>
+  <tr><td>Basic chopper 1</td><td>12.5 m</td><td>ω = 14 Hz, R = 40 cm, W _(i),f = 22 cm</td></tr>
+  <tr><td>Basic chopper 2</td><td>17.5 m</td><td>ω = 14 Hz, R = 40 cm, W _(i),f = 25 cm</td></tr>
+  <tr><td>Basic chopper 3</td><td>31 m</td><td>ω = 14 Hz, R = 40 cm, W _(i),f = 26 cm</td></tr>
+  <tr><td colspan="3">WFM setup</td></tr>
+  <tr><td>Pulse shaping chopper 1</td><td>6</td><td>ω = 112 Hz, R = 35 cm, W _(i),f = 17 cm</td></tr>
+  <tr><td>Pulse shaping chopper 2</td><td>6.25 m – 7.08 m</td><td>ω = 112 Hz, R = 35 cm, W _(i),f = 17 – 18 cm</td></tr>
+  <tr><td>Frame overlap chopper 1</td><td>7.5</td><td>ω = 112 Hz, R = 35 cm, W _(i),f = 18 cm</td></tr>
+  <tr><td>Frame overlap chopper 2</td><td>12</td><td>ω = 56 Hz, R = 40 cm, W _(i),f = 22 cm</td></tr>
+  <tr><td>Frame overlap chopper 3</td><td>19</td><td>ω = 28 Hz, R = 40 cm, W _(i),f = 25 cm</td></tr>
+  <tr><td>Frame overlap chopper 4</td><td>30.4</td><td>ω = 14 Hz, R = 40 cm, W _(i),f = 26 cm</td></tr>
+  <tr><td colspan="3">Collimation system</td></tr>
+  <tr><td>Slit 1</td><td>50.5</td><td>W = 10 cm, height depends on required divergence</td></tr>
+  <tr><td>Slit 2</td><td>52.5</td><td>Width and height depend on sample size and incident angle</td></tr>
+  <tr><td>Sample table</td><td>52.9</td><td>Space for sample environment: 40 cm</td></tr>
+  <tr><td>Detector</td><td>54.9</td><td>Position-sensitive pixel detector W × H = 50 × 50 cm ^((2)) , pixel size 2 mm</td></tr>
+</table>

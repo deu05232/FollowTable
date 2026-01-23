@@ -1,0 +1,10 @@
+<table>
+  <caption>Collision Detection Interface (Automotive ADAS API) — Function Index</caption>
+  <tr><th>Function</th><th>Module</th><th>Input</th><th>Output</th><th>Units</th><th>Notes</th></tr>
+  <tr><td>adas_cd_init()</td><td>Perception</td><td>vehicle_profile</td><td>handle</td><td>N/A</td><td>Allocates pipeline</td></tr>
+  <tr><td>adas_cd_set_radar()</td><td>Sensors</td><td>radar_frame</td><td>status</td><td>N/A</td><td>Radar required</td></tr>
+  <tr><td>adas_cd_set_camera()</td><td>Sensors</td><td>camera_frame</td><td>status</td><td>N/A</td><td>Monocular supported</td></tr>
+  <tr><td>adas_cd_predict_ttc()</td><td>Risk</td><td>tracks</td><td>ttc</td><td>s</td><td>Time-to-collision</td></tr>
+  <tr><td>adas_cd_get_alerts()</td><td>HMI</td><td>handle</td><td>alert_list</td><td>N/A</td><td>Alerts for dashboard</td></tr>
+  <tr><td>adas_cd_shutdown()</td><td>System</td><td>handle</td><td>status</td><td>N/A</td><td>Releases resources</td></tr>
+</table>

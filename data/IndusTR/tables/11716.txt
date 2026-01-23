@@ -1,0 +1,15 @@
+<table>
+  <caption>Special-area pass-through scenario elements (general, subtype not specified)</caption>
+  <thead>
+    <tr><th rowspan="2">Test Item</th><th rowspan="2">Special-area Subtype</th><th colspan="5">Layered Scenario Elements</th></tr>
+    <tr><th>Road Layer</th><th>Signs/Markings Layer</th><th>Lighting/Weather Layer</th><th>Traffic Operation Layer</th><th>Monitoring/Communication Layer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Pass through special areas</td><td>Not specified</td><td>One-way two lanes; asphalt pavement; dry surface; straight alignment</td><td>General guidance markings; lane lines; generic guide signs</td><td>Daytime; sunny/cloudy; normal visibility</td><td>Motor vehicles mixed flow; no special priority rules stated</td><td>V2X roadside unit present; HD map support; positioning base station</td></tr>
+    <tr><td>Not specified</td><td>One-way one lane; cement pavement; dry surface; mild grade</td><td>Generic warning signs; speed limit sign (unspecified value)</td><td>Night; clear; street lighting present</td><td>Light traffic; occasional pedestrians near roadside</td><td>Roadside cameras; vehicle-cloud connectivity</td></tr>
+    <tr><td>Not specified</td><td>Two-way two lanes; asphalt; dry; gentle curve</td><td>Centerline; edge line; generic directional arrows</td><td>Dusk; cloudy; moderate visibility</td><td>Medium traffic density; occasional heavy trucks</td><td>Variable message sign available; cellular coverage</td></tr>
+    <tr><td>Not specified</td><td>One-way three lanes; asphalt; dry; wide shoulder</td><td>Overhead gantry signs (content not specified); lane guidance lines</td><td>Daytime; light rain</td><td>Stop-and-go flow possible; no dedicated control described</td><td>ETC reader present (not tied to any toll subtype); RSU + GNSS augmentation</td></tr>
+    <tr><td>Not specified</td><td>One-way two lanes; asphalt; wet surface</td><td>Temporary cones; temporary warning sign</td><td>Fog; low visibility</td><td>Low speed operation; increased headway</td><td>Temporary monitoring trailer; event logging to cloud</td></tr>
+    <tr><td>Not specified</td><td>Straight segment; one-way two lanes; asphalt; dry</td><td>General prohibition marking; generic guide sign</td><td>Night; cloudy; lighting intermittent</td><td>Mixed traffic including buses; no stopping rule specified</td><td>In-vehicle camera upload; roadside video surveillance</td></tr>
+  </tbody>
+</table>

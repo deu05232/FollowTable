@@ -1,0 +1,14 @@
+<table>
+  <caption>Environmental Conditioning: Random Vibration and Shock Schedule for Fire Extinguishers</caption>
+  <thead>
+    <tr><th>Sequence Step</th><th>Condition Type</th><th>Axis</th><th>Frequency Range (Hz)</th><th>Amplitude / PSD</th><th>Duration (min)</th><th>Acceptance Check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Random Vibration</td><td>X</td><td>10–60</td><td>0.50 g^2/Hz (overall 3.0 g RMS)</td><td>30</td><td>No leakage</td></tr>
+    <tr><td>2</td><td>Random Vibration</td><td>Y</td><td>10–60</td><td>0.50 g^2/Hz (overall 3.0 g RMS)</td><td>30</td><td>No loosening of fittings</td></tr>
+    <tr><td>3</td><td>Random Vibration</td><td>Z</td><td>10–60</td><td>0.50 g^2/Hz (overall 3.0 g RMS)</td><td>30</td><td>Pressure gauge readable</td></tr>
+    <tr><td>4</td><td>Mechanical Shock</td><td>All</td><td>Half-sine pulse</td><td>30 g, 11 ms</td><td>10</td><td>No cracking</td></tr>
+    <tr><td>5</td><td>Resonance Dwell</td><td>Dominant</td><td>18–22</td><td>1.0 mm peak-to-peak</td><td>20</td><td>No change in discharge time</td></tr>
+    <tr><td>6</td><td>Handling Drop</td><td>N/A</td><td>N/A</td><td>Drop height 0.6 m</td><td>—</td><td>Valve integrity maintained</td></tr>
+  </tbody>
+</table>

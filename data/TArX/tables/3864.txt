@@ -1,0 +1,85 @@
+<table>
+  <caption>CMB polarization and anisotropy experiments with comments on their optical and detector configurations. Much of the information about experiments prior to 2000 is adapted from “Finding the Big Bang” . We include only instruments with astrophysical results as this indicates some level of the maturity of the design. Except for Planck, the citations are for the first astrophysical result from the instrument.</caption>
+  <tr><td>Experiment</td><td>Type ^((a))</td><td>N _(feeds) ^((b))</td><td>N _(det) ^((c))</td><td>Optical Design</td><td>Plat. ^((d))</td><td>Reference</td></tr>
+  <tr><td>Isotropometer</td><td>Dicke-switched</td><td>2</td><td>1</td><td>Feed</td><td>Gnd</td><td>[ wilkinson/partridge:1967 ]</td></tr>
+  <tr><td>Stanford</td><td>Dicke-switched</td><td>2</td><td>2</td><td>Parabola</td><td>Gnd</td><td>[ conklin:1967 ]</td></tr>
+  <tr><td>Crawford Hill</td><td>Maser</td><td>1</td><td>1</td><td>Horn/reflector</td><td>Gnd</td><td>[ wilson/penzias:1967 ]</td></tr>
+  <tr><td>Aerospace</td><td>Coherent</td><td>2</td><td>2</td><td>4.6 m telescope</td><td>Gnd</td><td>[ epstein:1967 ]</td></tr>
+  <tr><td>White Mountain</td><td>Coherent</td><td>2</td><td>2</td><td>Dicke-switch 2 feeds</td><td>Gnd</td><td>[ conklin:1969 ]</td></tr>
+  <tr><td>Ratan</td><td>Coherent</td><td>1</td><td>1</td><td>Parabolic</td><td>Gnd</td><td>[ pariiskii/pyatunina:1971 ]</td></tr>
+  <tr><td>KaDip</td><td>Dicke-switched</td><td>2</td><td>2</td><td>Feeds</td><td>Gnd</td><td>[ boughn:1971 ]</td></tr>
+  <tr><td>XBal</td><td>Dicke-switched</td><td>2</td><td>2</td><td>Feeds</td><td>Bal</td><td>[ henry:1971 ]</td></tr>
+  <tr><td>NRAO-P</td><td>Parametric amp</td><td>2</td><td>2</td><td>140ft Greenbank Centered Cass.</td><td>Gnd</td><td>[ pariiskii:1973 ]</td></tr>
+  <tr><td>Goldstone</td><td>Maser</td><td>1</td><td>1</td><td>64m Goldstone Centered Cass.</td><td>Gnd</td><td>[ carpenter:1973 ]</td></tr>
+  <tr><td>Parkes</td><td>Correlation</td><td>2</td><td>2</td><td>64m Parkes Centered Cass.</td><td>Gnd</td><td>[ stankevich:1974 ]</td></tr>
+  <tr><td>U2</td><td>Dicke-switched</td><td>2</td><td>2</td><td>Two corrugated feeds</td><td>Plane</td><td>[ smoot/etal:1977 ]</td></tr>
+  <tr><td>Testa-Griga</td><td>Bolometers</td><td>1</td><td>1</td><td>Cass</td><td>Gnd</td><td>[ caderni/etal:1977 ]</td></tr>
+  <tr><td>Greenbank-R</td><td>Parametric amp</td><td>2</td><td>2</td><td>Cass</td><td>Gnd</td><td>[ rudnick:1978 ]</td></tr>
+  <tr><td>MIT</td><td>Bolometers</td><td>2</td><td>2</td><td>Two 0.4m sph refl + flat + lightpipe</td><td>Bal</td><td>[ muehlner:1977 ]</td></tr>
+  <tr><td>KKaQBal</td><td>Dicke-switched</td><td>2</td><td>2</td><td>Feeds</td><td>Bal</td><td>[ cheng/etal:1979 ]</td></tr>
+  <tr><td>PolCMB</td><td>Coherent (P)</td><td>1</td><td>1</td><td>First pol</td><td>Gnd</td><td>[ nanos:1979 ]</td></tr>
+  <tr><td>KPRO</td><td>Coherent</td><td>1</td><td>2</td><td>11m Cas</td><td>Gnd</td><td>[ partridge:1980 ]</td></tr>
+  <tr><td>Convair</td><td>Bolometer</td><td>1</td><td>1</td><td>lens/feed on FTS with chopper</td><td>Plane</td><td>[ fabbri/etal:1980a ]</td></tr>
+  <tr><td>DBal</td><td>Bolometer</td><td>1</td><td>1</td><td>Lens/feed</td><td>Bal</td><td>[ fabbri/etal:1980b ]</td></tr>
+  <tr><td>NRAO91</td><td>Coherent</td><td>2</td><td>2</td><td>91m NRAO</td><td>Gnd</td><td>[ ledden/etal:1980 ]</td></tr>
+  <tr><td>OVRO40</td><td>Coherent</td><td>2</td><td>2</td><td>OVRO 40m</td><td>Gnd</td><td>[ seielstad/etal:1981 ]</td></tr>
+  <tr><td>GBank-UW</td><td>Coherent</td><td>1</td><td>1</td><td>140ft GB</td><td>Gnd</td><td>[ uson/wilkinson:1982 ]</td></tr>
+  <tr><td>MaserBal</td><td>Maser</td><td>2</td><td>1</td><td>Dicke switch</td><td>Bal</td><td>[ fixsen/etal:1983 ]</td></tr>
+  <tr><td>WBal</td><td>Mixer</td><td>1</td><td>1</td><td>Dicke-switched chopper</td><td>Bal</td><td>[ lubin/etal:1983 ]</td></tr>
+  <tr><td>JodrellBank</td><td>Coherent</td><td>2</td><td>2</td><td>Prime focus of 100ft MkII telescope</td><td>Gnd</td><td>[ lasenby/davis:1983 ]</td></tr>
+  <tr><td>Relikt</td><td>Parametric amp</td><td>2</td><td>2</td><td>Two feeds</td><td>Sat</td><td>[ strukov/skulachev:1984 ]</td></tr>
+  <tr><td>NCP</td><td>Coherent</td><td>2</td><td>2</td><td>Dicke switch w/ feed-fed parabolas</td><td>Gnd</td><td>[ mandolesi/etal:1986 ]</td></tr>
+  <tr><td>Tenerife</td><td>Coherent</td><td>2</td><td>2</td><td>Two feeds with chopping plate</td><td>Gnd</td><td>[ davies/etal:1987 ]</td></tr>
+  <tr><td>IAB-I</td><td>Bolometer</td><td>1</td><td>1</td><td>1m parabola</td><td>Ant</td><td>[ dalloglio/debernardis:1988 ]</td></tr>
+  <tr><td>MITBal2</td><td>Bolometer</td><td>2</td><td>4</td><td>Horns and chopper</td><td>Bal</td><td>[ halpern/etal:1988 ]</td></tr>
+  <tr><td>OVRO</td><td>Maser</td><td>2</td><td>1</td><td>OVRO 40 m</td><td>Gnd</td><td>[ readhead/etal:1989 ]</td></tr>
+  <tr><td>SKInt</td><td>Mixer</td><td>2</td><td>2</td><td>2 feeds</td><td>Int</td><td>[ timbie/wilkinson:1990 ]</td></tr>
+  <tr><td>FIRS</td><td>Bolometer</td><td>1</td><td>4</td><td>Single cryogenic horn/lens</td><td>Bal</td><td></td></tr>
+  <tr><td>ARGO</td><td>Bolometer</td><td>1</td><td>4</td><td>1.2 m Centered Casegrain</td><td>Bal</td><td></td></tr>
+  <tr><td>SP/ACME</td><td>SIS Mixer</td><td>1</td><td>1</td><td>1m Decentered Gregorian</td><td>Ant</td><td></td></tr>
+  <tr><td>COBE</td><td>Coherent</td><td>10</td><td>12</td><td>Feeds</td><td>Sat</td><td></td></tr>
+  <tr><td>SP/ACME</td><td>HEMT</td><td>1</td><td>1</td><td>1m Decentered Gregorian</td><td>Ant</td><td></td></tr>
+  <tr><td>19GHz</td><td>Maser</td><td>1</td><td>1</td><td>Feed plus lens</td><td>Bal</td><td></td></tr>
+  <tr><td>MAX</td><td>Bolometer</td><td>3</td><td>3</td><td>Same as SP/ACME</td><td>Bal</td><td></td></tr>
+  <tr><td>IAB-II</td><td>Bolometer</td><td>1</td><td>1</td><td>0.45 m Decentered Cassegrain</td><td>Ant</td><td></td></tr>
+  <tr><td>White Dish</td><td>Bolometer</td><td>1</td><td>1</td><td>1.2 m Centered Cassegrain</td><td>Ant</td><td></td></tr>
+  <tr><td>SASK</td><td>HEMT</td><td>1</td><td>1</td><td>1.2 m Off-axis parabola</td><td>Gnd</td><td></td></tr>
+  <tr><td>MSAM</td><td>Bolometers</td><td>1</td><td>4</td><td>1.4m Decentered Cassegrain</td><td>Bal</td><td></td></tr>
+  <tr><td>PYTHON</td><td>Bolometers</td><td>4</td><td>4</td><td>Off-axis parabola</td><td>Ant</td><td></td></tr>
+  <tr><td>CAT</td><td>Coherent</td><td>3</td><td>6</td><td>Int</td><td>Gnd</td><td></td></tr>
+  <tr><td>BAM</td><td>Bolometer</td><td>2</td><td>2</td><td>FTS with Off-axis parabola</td><td>Bal</td><td></td></tr>
+  <tr><td>SuZIE</td><td>Bolometer</td><td>6</td><td>6</td><td>CSO</td><td>Gnd</td><td></td></tr>
+  <tr><td>IAC-BAR</td><td>Bolometer</td><td>4</td><td>4</td><td>0.45m Decentered Para/hyper</td><td>Gnd</td><td></td></tr>
+  <tr><td>QMAP</td><td>HEMT</td><td>3</td><td>6</td><td>Feed + parabolic reflector</td><td>Bal</td><td></td></tr>
+  <tr><td>Toco</td><td>HEMT/SIS</td><td>5</td><td>8</td><td>Feed + parabolic reflector</td><td>Gnd</td><td></td></tr>
+  <tr><td>JB-IAC</td><td>HEMTs</td><td>2</td><td>2</td><td>Feed plus reflector</td><td>Int</td><td></td></tr>
+  <tr><td>HACME</td><td>HEMT</td><td>1</td><td>1</td><td>Decentered Greg.</td><td>Bal</td><td></td></tr>
+  <tr><td>Viper</td><td>HEMT</td><td>2</td><td>2</td><td>Decentered Aplanatic Greg. with chopper</td><td>Ant</td><td></td></tr>
+  <tr><td>RING5M</td><td>HEMT</td><td>2</td><td>1</td><td>5.5m/40m OVRO Centered Cass.</td><td>Gnd</td><td></td></tr>
+  <tr><td>BOOMERANG</td><td>Bolometers</td><td>16</td><td>16</td><td>Decentered Greg. with tertiary</td><td>Bal</td><td>[ debernardis/etal:2000 ]</td></tr>
+  <tr><td>MAXIMA</td><td>Bolometers</td><td>16</td><td>16</td><td>Decentered Greg. with tertiary</td><td>Bal</td><td></td></tr>
+  <tr><td>PIQUE</td><td>HEMT (P)</td><td>1</td><td>2</td><td>1.2m Off-axis parabola</td><td>Gnd</td><td></td></tr>
+  <tr><td>POLAR</td><td>HEMT (P)</td><td>1</td><td>2</td><td>Cryo feed</td><td>Gnd</td><td></td></tr>
+  <tr><td>CBI</td><td>HEMTs</td><td>13</td><td>13</td><td>Centered Cass.</td><td>Int</td><td></td></tr>
+  <tr><td>DASI</td><td>HEMTs</td><td>13</td><td>13</td><td>Feeds</td><td>Int</td><td></td></tr>
+  <tr><td>Archeops</td><td>Bolometers</td><td>21</td><td>21</td><td>Decentered Greg.</td><td>Bal</td><td></td></tr>
+  <tr><td>COMPASS</td><td>HEMT (P)</td><td>1</td><td>2</td><td>2.6m Centered Cass.</td><td>Gnd</td><td></td></tr>
+  <tr><td>VSA</td><td>HEMTs</td><td>14</td><td>14</td><td>Feeds+ Off-axis parabolas</td><td>Int</td><td></td></tr>
+  <tr><td>WMAP</td><td>HEMTs</td><td>20</td><td>40</td><td>Decentered Greg.</td><td>Sat</td><td></td></tr>
+  <tr><td>Acbar</td><td>Bolometers</td><td>16</td><td>16</td><td>Decentered Aplan. Greg. w/ chopper</td><td>Ant</td><td></td></tr>
+  <tr><td>BEAST</td><td>HEMT</td><td>8</td><td>8</td><td>2 m Decentered Greg.</td><td>Bal</td><td></td></tr>
+  <tr><td>CAPMAP</td><td>HEMT (P)</td><td>16</td><td>32</td><td>7m Decentered Cassegrain</td><td>Gnd</td><td></td></tr>
+  <tr><td>MINT</td><td>Mixers</td><td>4</td><td>4</td><td>30 cm Cass.</td><td>Int</td><td></td></tr>
+  <tr><td>MAXIPOL</td><td>Bolometer (P)</td><td>16</td><td>16</td><td>Decentered Greg.</td><td>Bal</td><td></td></tr>
+  <tr><td>QUAD</td><td>Bolometer (P)</td><td>31</td><td>62</td><td>Centered Cass. w/lenses</td><td>Ant</td><td></td></tr>
+  <tr><td>WMPol</td><td>HEMT (P)</td><td>4</td><td>3</td><td>2.2 m Decentered Greg.</td><td>Ant</td><td></td></tr>
+  <tr><td>SPT</td><td>TES Bolometer</td><td>966</td><td>966</td><td>Decentered Greg. w/lens</td><td>Gnd</td><td></td></tr>
+  <tr><td>BICEP</td><td>Bolometer (P)</td><td>49</td><td>98</td><td>Centered refractive</td><td>Ant</td><td></td></tr>
+  <tr><td>ACT</td><td>TES Bolometer</td><td>Planar</td><td>3072</td><td>Decentered Greg. w/lenses</td><td>Gnd</td><td></td></tr>
+  <tr><td>QUIET</td><td>HEMTs (P)</td><td>110</td><td>110</td><td>Cross-Dragone</td><td>Gnd</td><td></td></tr>
+  <tr><td>Planck</td><td>HEMT/Bol (P)</td><td>47</td><td>74</td><td>1.6m aplanatic Gregorian</td><td>Sat</td><td></td></tr>
+  <tr><td colspan="7">^((a)) Detector technology. (P) indicated a design specifically for polarization.</td></tr>
+  <tr><td colspan="7">^((b)) Number of feeds</td></tr>
+  <tr><td colspan="7">^((c)) Number of independent detectors</td></tr>
+  <tr><td colspan="7">^((d)) Platform. Gnd = ground; Bal = balloon; Sat = satellite; plane = airplane; Ant = Antarctica; Int = interferometer</td></tr>
+</table>

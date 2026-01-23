@@ -1,0 +1,15 @@
+<table>
+  <caption>Vegetation Structure Classes by Ecosystem Category (Canopy, LAI, and Cover)</caption>
+  <thead>
+    <tr><th rowspan="2">Ecosystem Category</th><th rowspan="2">Subtype</th><th rowspan="2">Vegetation Coverage Class (%)</th><th colspan="3">Structural Descriptors</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Mean Canopy Height (m)</th><th>LAI (m²/m²)</th><th>Crown Closure</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Forest</td><td>Evergreen Broadleaf</td><td>(70, 90]</td><td>18</td><td>5.6</td><td>0.82</td><td>High canopy density</td></tr>
+    <tr><td>Forest</td><td>Deciduous Broadleaf</td><td>(50, 70]</td><td>16</td><td>4.2</td><td>0.68</td><td>Seasonal leaf-off</td></tr>
+    <tr><td>Forest</td><td>Coniferous</td><td>(70, 90]</td><td>20</td><td>3.8</td><td>0.75</td><td>Needle-leaf structure</td></tr>
+    <tr><td>Shrubland</td><td>Evergreen Shrub</td><td>(30, 50]</td><td>2.3</td><td>1.6</td><td>0.40</td><td>Patchy canopy</td></tr>
+    <tr><td>Grassland</td><td>Meadow Steppe</td><td>(30, 50]</td><td>0.6</td><td>1.2</td><td>0.35</td><td>Short vegetation</td></tr>
+    <tr><td>Urban Green</td><td>Park Trees</td><td>(10, 30]</td><td>10</td><td>2.0</td><td>0.25</td><td>Fragmented stands</td></tr>
+  </tbody>
+</table>

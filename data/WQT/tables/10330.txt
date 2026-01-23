@@ -1,0 +1,17 @@
+# Intel Core and Celeron Pentium Processor Families — Windows 10 Support Status (Driver OS Compatibility View)
+
+| Processor family (examples) | Codename / generation | Typical platform (socket/segment) | Windows 10 support status (Intel/OEM drivers) | Notes (what to expect on Windows 10) |
+|---|---|---|---|---|
+| Core i5-4300U / i5-4308U | 4th Gen Core (Haswell-U) | Mobile / Ultrabook | Supported | Intel Chipset/ME and iGPU drivers commonly available for Windows 10.
+| Core i5-2520M / i5-2510E | 2nd Gen Core (Sandy Bridge) | Mobile / Embedded | Supported (generally) | Windows 10 typically works; driver availability may depend on OEM model.
+| Core i7-2600 / i5-2500K | 2nd Gen Core (Sandy Bridge) | Desktop | Supported (generally) | Often supported via Intel Windows 10 chipset/INF and legacy iGPU drivers.
+| Core i7-3770 / i5-3570 | 3rd Gen Core (Ivy Bridge) | Desktop | Supported | Broad Windows 10 driver ecosystem; iGPU drivers commonly available.
+| Celeron N3050 | Braswell | Low-power / SoC | Supported | Commonly shipped with Windows 10; Intel graphics drivers available for Windows 10.
+| Atom Z2760 / Z2580 | Clover Trail | Tablet / SoC | Not supported (blocked/ended) | Known to lose Windows 10 feature-update support; OEM driver support is a major limitation.
+| Pentium III-M (e.g., 830M-era laptops) | P6 mobile era | Legacy mobile | Not supported | Lacks modern driver stack; Windows 10 installation/driver support is impractical.
+| Pentium (P5/P54C/P55C) | Classic Pentium | Legacy desktop | Not supported | Does not meet practical Windows 10 requirements; no vendor driver support.
+| Itanium 93xx | Tukwila | Server (IA-64) | Not supported | Windows 10 is x86/x64 only; IA-64 platform not applicable.
+| Xeon 55xx | Nehalem-EP (Gainestown) | Server | Supported (generally) | Windows 10 x64 can run; verify chipset/storage/network drivers per platform.
+| Xeon 75xx | Nehalem-EX (Beckton) | Server | Supported (generally) | Works in many cases, but confirm OEM Windows 10 driver packages for the server board.
+| Core i5-10210U / i7-10510U | 10th Gen Core (Comet Lake-U) | Mobile | Supported | Full Windows 10 driver support expected; modern Intel DCH driver model.
+| Core i5-12400 / i7-12700 | 12th Gen Core (Alder Lake) | Desktop | Supported | Windows 10 supported; some features may be better on Windows 11 but Win10 drivers exist. |

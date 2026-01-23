@@ -1,0 +1,15 @@
+<table>
+  <caption>Compressor Vibration Test Under Thermal/Ambient Aging Conditions</caption>
+  <thead>
+    <tr><th rowspan="2">Condition ID</th><th colspan="4">Vibration parameters</th><th colspan="4">Environmental / operating parameters</th></tr>
+    <tr><th>Axis</th><th>Vibration criteria</th><th>Frequency band (Hz)</th><th>Period / sweep</th><th>Ambient temp (°C)</th><th>Operating time (h)</th><th>Voltage (V)</th><th>Speed (r/min)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A1</td><td>X</td><td>4.5 g</td><td>50–250</td><td>2 min per sweep</td><td>100</td><td>200</td><td>Rated</td><td>Max speed</td></tr>
+    <tr><td>A2</td><td>Y</td><td>4.5 g</td><td>50–250</td><td>2 min per sweep</td><td>100</td><td>200</td><td>Rated</td><td>Max speed</td></tr>
+    <tr><td>A3</td><td>Z</td><td>4.5 g</td><td>50–250</td><td>2 min per sweep</td><td>100</td><td>200</td><td>Rated</td><td>Max speed</td></tr>
+    <tr><td>A4</td><td>X/Y/Z</td><td>Random: 0.05 g^2/Hz</td><td>10–1000</td><td>15 min per axis</td><td>20</td><td>100</td><td>Rated</td><td>5000</td></tr>
+    <tr><td>A5</td><td>X/Y/Z</td><td>Random: 0.05 g^2/Hz</td><td>10–1000</td><td>15 min per axis</td><td>0–5</td><td>150</td><td>Rated</td><td>Rated speed</td></tr>
+    <tr><td>A6</td><td>X/Y/Z</td><td>3.0 g</td><td>30–300</td><td>3 min per sweep</td><td>85</td><td>300</td><td>Maximum</td><td>Nominal</td></tr>
+  </tbody>
+</table>

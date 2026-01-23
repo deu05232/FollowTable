@@ -1,0 +1,15 @@
+<table>
+  <caption>The estimated parameter values for the two-lane, single vehicle-class model, calibrated to traffic data from the Dutch motorway A9.</caption>
+  <tr><th>Parameter</th><th>Notation</th><th>Right lane</th><th>Left lane</th></tr>
+  <tr><th>Desired Velocity</th><th>V_(0)</th><td>105 km/h</td><td>123 km/h</td></tr>
+  <tr><th>Maximum Density</th><th>ρ^(max)</th><td>150 vehicles/km</td><td>150 vehicles/km</td></tr>
+  <tr><th>Relaxation Time</th><th>τ</th><td>35 s</td><td>35 s</td></tr>
+  <tr><th>Safe Time Headway</th><th>T</th><td>1.7 s</td><td>1.2 s</td></tr>
+  <tr><th>Anticipation Factor</th><th>γ</th><td>1.2</td><td>1.2</td></tr>
+  <tr><th>Coefficients for Variance Approximation</th><th>α_(0)</th><td>0.007</td><td>0.0065</td></tr>
+  <tr><th></th><th>Δα</th><td>0.03</td><td>0.036</td></tr>
+  <tr><th></th><th>ρ_(c)</th><td>0.275 ρ^(max)</td><td>0.305 ρ^(max)</td></tr>
+  <tr><th></th><th>δρ</th><td>0.03 ρ^(max)</td><td>0.025 ρ^(max)</td></tr>
+  <tr><th>Coefficient for Overtaking Probability</th><th>p_(0)</th><td>17.0</td><td>12.5</td></tr>
+  <tr><th>Coefficient for Spontaneous Lane-Changing</th><th>g_(i,3-i)</th><td>75</td><td>28</td></tr>
+</table>

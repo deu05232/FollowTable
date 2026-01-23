@@ -1,0 +1,9 @@
+<table>
+  <caption>Association Relationship Table Between Agricultural Machinery Purchase Subsidy Applications and Dealer Information</caption>
+  <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Manufacturer Dealer Information Table</td></tr>
+  <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+  <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+  <tr><td>Table Name 2</td><td>Manufacturer Dealer Information Table</td></tr>
+  <tr><td>Relationship 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table.Manufacturer ID-〉Manufacturer Dealer Information Table.Manufacturer ID</td></tr>
+  <tr><td>Relationship 2</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table.Dealer ID-〉Manufacturer Dealer Information Table.Dealer ID</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Service Invocation Interface and Operation Contract (Common Service Description Model)</caption>
+  <thead>
+    <tr><th>Interface</th><th>Operation</th><th>HTTP Method</th><th>Endpoint Path</th><th>Invocation Style</th><th>Supports Transaction</th><th>Idempotent</th><th>Auth Scheme</th><th>Request Message</th><th>Response Message</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">IdentityVerificationService</td><td>verifyCitizenIdentity</td><td>POST</td><td>/v1/identity/verify</td><td>Request-Response</td><td>true</td><td>false</td><td>OAuth2 (client_credentials)</td><td>VerifyIdentityRequest</td><td>VerifyIdentityResponse</td></tr>
+    <tr><td>getVerificationStatus</td><td>GET</td><td>/v1/identity/verification/{requestId}</td><td>Request-Response</td><td>false</td><td>true</td><td>OAuth2 (client_credentials)</td><td>StatusQueryRequest</td><td>StatusQueryResponse</td></tr>
+    <tr><td>revokeVerification</td><td>DELETE</td><td>/v1/identity/verification/{requestId}</td><td>Request-Response</td><td>true</td><td>true</td><td>OAuth2 (client_credentials)</td><td>RevokeRequest</td><td>RevokeResponse</td></tr>
+    <tr><td rowspan="3">DocumentDeliveryService</td><td>createDeliveryOrder</td><td>POST</td><td>/v1/delivery/orders</td><td>Request-Response</td><td>true</td><td>false</td><td>API Key + Signature</td><td>CreateOrderRequest</td><td>CreateOrderResponse</td></tr>
+    <tr><td>trackDeliveryOrder</td><td>GET</td><td>/v1/delivery/orders/{orderId}/tracking</td><td>Request-Response</td><td>false</td><td>true</td><td>API Key + Signature</td><td>TrackingQueryRequest</td><td>TrackingQueryResponse</td></tr>
+    <tr><td>cancelDeliveryOrder</td><td>POST</td><td>/v1/delivery/orders/{orderId}:cancel</td><td>Request-Response</td><td>true</td><td>false</td><td>API Key + Signature</td><td>CancelOrderRequest</td><td>CancelOrderResponse</td></tr>
+  </tbody>
+</table>

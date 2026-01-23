@@ -1,0 +1,7 @@
+<table>
+  <caption>AR camera projection parameters (rendering math knobs rather than in/out contract)</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>fov_y_degrees</td><td>float</td><td>Vertical field-of-view in degrees used for the projection</td></tr>
+  <tr><td>aspect_ratio</td><td>float</td><td>Viewport aspect ratio used to build the projection</td></tr>
+  <tr><td>far_plane</td><td>float</td><td>Far clipping plane distance for the camera projection</td></tr>
+</table>

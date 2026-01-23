@@ -1,0 +1,15 @@
+<table>
+  <caption>Terminal Silence Control and Start/Stop Behavior Settings</caption>
+  <thead>
+    <tr><th>Group</th><th>Serial No.</th><th>Parameter Name</th><th>Value Range</th><th>Unit</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Silence Mode</td><td>1</td><td>Silence start/stop flag</td><td>0~1</td><td>-</td><td>0: start silence; 1: end silence</td></tr>
+    <tr><td>Silence Mode</td><td>2</td><td>Silence duration</td><td>0~86400</td><td>s</td><td>0: indefinite; otherwise auto-exit after duration</td></tr>
+    <tr><td>Silence Mode</td><td>3</td><td>Silence apply scope</td><td>0~2</td><td>-</td><td>0: all outputs; 1: only short messages; 2: only reports</td></tr>
+    <tr><td>Channel</td><td>4</td><td>Frequency point</td><td>0~2</td><td>-</td><td>0: auto; 1: Lf1; 2: Lf2</td></tr>
+    <tr><td>Channel</td><td>5</td><td>Re-entry cooldown</td><td>0~3600</td><td>s</td><td>Minimum time before silence can be re-enabled</td></tr>
+    <tr><td>Control</td><td>6</td><td>Manual override enable</td><td>0~1</td><td>-</td><td>0: ignore manual override; 1: allow manual override</td></tr>
+    <tr><td>Control</td><td>7</td><td>Status report while silenced</td><td>0~1</td><td>-</td><td>0: do not report; 1: report status even when silenced</td></tr>
+  </tbody>
+</table>

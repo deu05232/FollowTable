@@ -1,0 +1,8 @@
+<table>
+  <caption>Linear System Solver Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Describes the coefficient matrix. If the dimensionality is higher than 2, the inner-most two dimensions are used to solve the linear system, and the other higher dimensions are used to describe batch operations. Assume the dimensions used for solving are mXm</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Describes the right-hand side term of the linear system, where the inner-most two dimensions are used to describe the right-hand side term of the linear system. Assume it is m×k, and the other higher dimensions are used to describe batch operations</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Describes whether to solve using the coefficient matrix mat or using its adjoint matrix (block-wise ad-joint matrix)</td></tr>
+  <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Describes the output solution tensor, where the inner-most two dimensions are used to describe the solution of the linear system, which is m×k. The other higher dimensions are used to describe batch operations and correspond to the dimensions of the input tensor that describe batch operations</td></tr>
+</table>

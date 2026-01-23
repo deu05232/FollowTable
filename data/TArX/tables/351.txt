@@ -1,0 +1,19 @@
+<table>
+  <caption>Parameters used in production runs. The first part of the table lists the parameters of the simulations, with the second part listing parameters of the \UETC method for calculating the \CMB power spectrum. Note that the values are identical to those of Ref. [ \longprd ] , except for the time range of the simulations.</caption>
+  <tr><td>Parameter</td><td>Value</td></tr>
+  <tr><td>Lattice size N</td><td>512</td></tr>
+  <tr><td>Lattice spacing Δ x [^(-1)]</td><td>0.5</td></tr>
+  <tr><td>Time-step Δ t [^(-1)]</td><td>0.1</td></tr>
+  <tr><td>Scalar coupling λ_(0)</td><td>2.0</td></tr>
+  <tr><td>Gauge coupling e_(0)</td><td>1.0</td></tr>
+  <tr><td>Initial conformal time τ_(i) [^(-1)]</td><td>1.0</td></tr>
+  <tr><td>Final conformal time τ_(end) [^(-1)]</td><td>128</td></tr>
+  <tr><td>Initial s</td><td>-0.116</td></tr>
+  <tr><td>Final s</td><td>0.3</td></tr>
+  <tr><td>Time of change in s value [^(-1)]</td><td>32</td></tr>
+  <tr><td>τ_(sim) range of fit [^(-1)]</td><td>50 - 128</td></tr>
+  <tr><td>Dynamic range (τ/τ^())_(max)</td><td>~ 2</td></tr>
+  <tr><td>sample matrix size</td><td>512</td></tr>
+  <tr><td>matrix sampling</td><td>linear</td></tr>
+  <tr><td>No. eigenvectors</td><td>128</td></tr>
+</table>

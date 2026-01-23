@@ -1,0 +1,12 @@
+# On - board diagnostics
+> Standard interfaces
+
+| 1 | 9 | Manufacturer discretion: GM: J2411 GMLAN/SWC/Single-Wire CAN [22] VW/Audi/BMW: Switched +12V to tell a scan tool whether the ignition is on. Ford, FIAT: Infotainment CAN High [22] | Manufacturer discretion: BMW: TD (Tachometer Display) signal aka engine RPM signal. GM: 8192 bit/s ALDL where fitted. Ford: Infotainment CAN-Low |
+| --- | --- | --- | --- |
+| 2 | 10 | Bus Positive Line of SAE J1850 PWM and VPW | Bus Negative Line of SAE J1850 PWM only (not SAE J1850 VPW) |
+| 3 | 11 | Manufacturer discretion: Ford: DCL(+) Argentina, Brazil (pre OBD-II) 1997-2000, USA, Europe, etc. Ford: Medium Speed CAN-High [22] Chrysler: CCD Bus(+) [22] | Manufacturer Discretion: Ford: DCL(-) Argentina, Brazil (pre OBD-II) 1997-2000, USA, Europe, etc. Ford: Medium Speed CAN-Low [22] Chrysler: CCD Bus(-) [22] |
+| 4 | 12 | Chassis ground | Manufacturer discretion: GM: Diagnostic codes to DIC (1994-2004 Corvette) [23] |
+| 5 | 13 | Signal ground | Manufacturer discretion: Ford: FEPS – Programming PCM voltage |
+| 6 | 14 | CAN-High (ISO 15765-4 and SAE J2284) | CAN-Low (ISO 15765-4 and SAE J2284) |
+| 7 | 15 | K-Line of ISO 9141-2 and ISO 14230-4 | L-Line of ISO 9141-2 and ISO 14230-4 |
+| 8 | 16 | Manufacturer discretion: BMW: Second K-Line for non OBD-II (Body/Chassis/Infotainment) systems. FIAT: Infotainment CAN-Low. | Battery voltage: Type "A" 12V/4A Type "B" 24V/2A |

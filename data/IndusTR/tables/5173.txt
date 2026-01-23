@@ -1,0 +1,21 @@
+<table>
+  <caption>Return values for the method to obtain basic storage area information data</caption>
+  <tr><td>Serial No.</td><td>Parameter</td><td>Short name</td><td>Data type</td><td>Data format</td><td>Remarks</td></tr>
+  <tr><td>1</td><td>Affiliated enterprise organization code</td><td>ssqyzzjgdm</td><td>Character</td><td>a.9</td><td rowspan="16">Meaning and type shall comply with the provisions of 6.1.3 in LS/T 1802—2016</td></tr>
+  <tr><td>2</td><td>Affiliated enterprise unified social credit code</td><td>ssqytyshxydm</td><td>Character</td><td>a.18</td></tr>
+  <tr><td>3</td><td>Affiliated enterprise name</td><td>ssqymc</td><td>Character</td><td>a..50</td></tr>
+  <tr><td>4</td><td>Storage area code</td><td>kqdm</td><td>Character</td><td>a.3</td></tr>
+  <tr><td>5</td><td>Storage area name</td><td>kdmc</td><td>Character</td><td>a..50</td></tr>
+  <tr><td>6</td><td>Storage area abbreviation</td><td>kdjc</td><td>Character</td><td>a..20</td></tr>
+  <tr><td>7</td><td>Storage area enterprise nature</td><td>kdqyxz</td><td>Character</td><td>a.1</td></tr>
+  <tr><td>8</td><td>Storage area category</td><td>kdlb</td><td>Character</td><td>a..20</td></tr>
+  <tr><td>9</td><td>Completion date</td><td>jerq</td><td>Date</td><td>YYYYMMDD</td></tr>
+  <tr><td>10</td><td>Storage area design capacity</td><td>kdsjcr</td><td>Numeric</td><td>n..8</td></tr>
+  <tr><td>11</td><td>Storage area area</td><td>kdmj</td><td>Numeric</td><td>n..10,2</td></tr>
+  <tr><td>12</td><td>Storage area telephone</td><td>kddh</td><td>Character</td><td>a..50</td></tr>
+  <tr><td>13</td><td>Storage area fax</td><td>kdcz</td><td>Character</td><td>a..50</td></tr>
+  <tr><td>14</td><td>Storage area address</td><td>kddz</td><td>Character</td><td>a..200</td></tr>
+  <tr><td>15</td><td>Storage area postal code</td><td>kdyzbm</td><td>Character</td><td>a.6</td></tr>
+  <tr><td>16</td><td>Storage area administrative division name</td><td>kdxzqhmc</td><td>Character</td><td>a..50</td></tr>
+  <tr><td>17</td><td>Storage area administrative division code</td><td>kd xzqhdm</td><td>Character</td><td>a.6</td><td>17</td></tr>
+</table>

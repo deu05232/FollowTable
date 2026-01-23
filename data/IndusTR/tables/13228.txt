@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal Account & Session Lifecycle State Transition Verification (Logistics M2M)</caption>
+  <thead>
+    <tr><th>Test Case ID</th><th>Starting State</th><th>Action</th><th>Request/Trigger</th><th>Expected New State</th><th>Session Expectation</th><th>Pass Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>LC-ST-001</td><td>Unregistered</td><td>Registration</td><td>Submit registration request with valid identifiers</td><td>Registered</td><td>No session created</td><td>Terminal appears in registry; can proceed to login</td></tr>
+    <tr><td>LC-ST-002</td><td>Registered</td><td>Login</td><td>Send login with valid credentials</td><td>Online</td><td>Session created (SessionID present)</td><td>Session is active; last-login timestamp updated</td></tr>
+    <tr><td>LC-ST-003</td><td>Registered</td><td>Login (negative)</td><td>Send login with invalid credentials</td><td>Registered</td><td>No session created</td><td>Authentication error returned; state unchanged</td></tr>
+    <tr><td>LC-ST-004</td><td>Online</td><td>Logout</td><td>Send logout with SessionID</td><td>Offline</td><td>Session terminated</td><td>Session cannot be reused; terminal marked offline</td></tr>
+    <tr><td>LC-ST-005</td><td>Offline</td><td>Logout (idempotent)</td><td>Send logout without an active session</td><td>Offline</td><td>No session exists</td><td>No error (or defined benign code); state unchanged</td></tr>
+    <tr><td>LC-ST-006</td><td>Offline (Registered)</td><td>Deregistration</td><td>Send deregistration request</td><td>Deregistered</td><td>No session allowed</td><td>Terminal cannot login after deregistration</td></tr>
+    <tr><td>LC-ST-007</td><td>Online</td><td>Deregistration attempt</td><td>Send deregistration while session active</td><td>Online (unchanged) or Offline after enforced logout</td><td>Either rejected or forces logout first</td><td>Policy is enforced: no deregistration that leaves active session</td></tr>
+    <tr><td>LC-ST-008</td><td>Deregistered</td><td>Login attempt</td><td>Send login for deregistered terminal</td><td>Deregistered</td><td>No session created</td><td>Access denied; terminal remains deregistered</td></tr>
+  </tbody>
+</table>

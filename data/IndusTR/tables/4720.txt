@@ -1,0 +1,9 @@
+<table>
+  <caption>Model Check Result Output Parameters</caption>
+  <tr><td>Parameter</td><td>Chinese Name</td><td>Data Type</td><td>Remarks</td></tr>
+  <tr><td>checkResult</td><td>Check Result</td><td>int</td><td>Validation result, 0: failed; 1; passed</td></tr>
+  <tr><td>checkCode</td><td>Check Code</td><td>string</td><td>Validation code. Not empty when the validation result is "passed", otherwise empty</td></tr>
+  <tr><td>location</td><td>Check Result File Location</td><td>string</td><td>Location (url) of the check result file; for a file content example, see Appendix B</td></tr>
+  <tr><td>schema</td><td>Result File Definition</td><td>string</td><td>Location (url) of the result definition file</td></tr>
+  <tr><td>schemaVersion</td><td>Result File Definition Version</td><td>string</td><td>1.0.0</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Test Setup Notes for Evaluating Ironing Appliance Performance Indicators</caption>
+  <thead>
+    <tr><th>Performance Indicator</th><th>Instrument / Sensor</th><th>Sampling Rate</th><th>Ambient Conditions</th><th>Fabric Specimen</th><th>Procedure Notes</th><th>Reporting Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Temperature control stability (S)</td><td>Thermocouple (K-type)</td><td>10 Hz</td><td>23±2 °C, 50±10% RH</td><td>Cotton plain weave, 200 g/m²</td><td>Preheat 5 min; record 60 s steady window</td><td>Mean ± SD; compute S (%)</td></tr>
+    <tr><td>Steam output attenuation ratio (Wd)</td><td>Mass balance (0.01 g)</td><td>1 Hz</td><td>No drafts; enclosure recommended</td><td>Not applicable</td><td>Run 3 cycles; purge line before cycle 1</td><td>Wd (%) over cycles</td></tr>
+    <tr><td>Evaporation rate attenuation ratio (Rd)</td><td>Flow meter + balance</td><td>1 Hz</td><td>23±2 °C</td><td>Not applicable</td><td>Measure initial vs. 10-min rate</td><td>Rd (%)</td></tr>
+    <tr><td>Soleplate smoothness (Ssp)</td><td>Tribometer</td><td>100 Hz</td><td>23±2 °C</td><td>Polyester, 150 g/m²</td><td>Normal load 2 N; 100 mm stroke</td><td>Average friction force (N)</td></tr>
+    <tr><td>Soleplate scratch resistance (Rsp)</td><td>Scratch tester</td><td>NA</td><td>23±2 °C</td><td>Not applicable</td><td>Progressive load 0–10 N; inspect track</td><td>Scratch width (mm)</td></tr>
+    <tr><td>Energy efficiency (E)</td><td>Power meter (0.1 W)</td><td>1 Hz</td><td>230 V ±1%</td><td>Cotton, standardized mass</td><td>Measure energy per ironing task</td><td>kWh per task; derive E</td></tr>
+  </tbody>
+</table>

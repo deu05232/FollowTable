@@ -1,0 +1,15 @@
+<table>
+  <caption>BCP Message Payload (SPN/Signal Layout) for Charging Communication</caption>
+  <thead>
+    <tr><th>Message</th><th>PGN (Hex)</th><th>Byte Range</th><th>Start Bit</th><th>Length (bits)</th><th>SPN</th><th>Signal Name</th><th>Scaling / Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">BCP (Vehicle Charging Parameter)</td><td rowspan="7">000600H</td><td>Byte1-2</td><td>0</td><td>16</td><td>2816</td><td>Max Cell Charging Voltage</td><td>0.001 V</td><td>Required</td></tr>
+    <tr><td>Byte3-4</td><td>0</td><td>16</td><td>2817</td><td>Max Allowable Charging Current</td><td>0.1 A</td><td>Required</td></tr>
+    <tr><td>Byte5-6</td><td>0</td><td>16</td><td>2818</td><td>Nominal Total Energy</td><td>0.1 kWh</td><td>Required</td></tr>
+    <tr><td>Byte7</td><td>0</td><td>8</td><td>2820</td><td>Battery Chemistry Type</td><td>Enum</td><td>Optional</td></tr>
+    <tr><td>Byte8</td><td>0</td><td>8</td><td>2821</td><td>Charge Mode Request</td><td>Enum</td><td>Required</td></tr>
+    <tr><td>Byte9-10</td><td>0</td><td>16</td><td>2822</td><td>Target Charging Voltage</td><td>0.1 V</td><td>Optional</td></tr>
+    <tr><td>Byte11-13</td><td>0</td><td>24</td><td>2600</td><td>Protocol Version</td><td>3 bytes</td><td>Encoded: 00 01 01 = V1.1.0</td></tr>
+  </tbody>
+</table>

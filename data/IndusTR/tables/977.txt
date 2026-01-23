@@ -1,0 +1,11 @@
+<table>
+  <caption>Logistics M2M Terminal Login Function Test Cases</caption>
+  <tr><td>Test Case ID</td><td>6.1.1.3</td></tr>
+  <tr><td>Test Item</td><td>Logistics M2M Terminal Management</td></tr>
+  <tr><td>Test Sub-item</td><td>Logistics Terminal Login</td></tr>
+  <tr><td>Test Objective</td><td>Verify the logistics terminal login function</td></tr>
+  <tr><td>Preconditions</td><td>1. The system can be logged in normally; 2. Normal connection to the server; 3. UI buttons and input boxes can be used normally; 4. Logistics terminals that have an ordering/subscription relationship established with the platform can work normally</td></tr>
+  <tr><td>Test Steps</td><td>1. Enter correct terminal login information on the logistics terminal and click Login; 2. Enter incorrect terminal login information on the logistics terminal and click Login</td></tr>
+  <tr><td>Pass Criteria</td><td>1. For step 1, the platform returns a login success message; 2. For step 2, the platform returns a login failure message</td></tr>
+  <tr><td>Notes</td><td>After successful login, the platform updates the terminal status to Logged in</td></tr>
+</table>

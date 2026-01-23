@@ -1,0 +1,16 @@
+<table>
+  <caption>Optical-cavity performance metrics for candidate strong-regime systems (coupling intentionally omitted)</caption>
+  <thead>
+    <tr><th rowspan="2">System</th><th colspan="4">Optical cavity metrics</th><th colspan="2">Operating conditions</th><th rowspan="2">Strong-regime relevance (qualitative)</th></tr>
+    <tr><th>Wavelength (nm)</th><th>Loaded Q</th><th>Intrinsic Q</th><th>Finesse</th><th>Input power (µW)</th><th>Bath T (mK)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Silica microtoroid</td><td>1550</td><td>7.5×105</td><td>2.6×105</td><td>1.0×105</td><td>10</td><td>300</td><td>High-Q supports low κ; coupling not shown here</td></tr>
+    <tr><td>SiN microring</td><td>1064</td><td>3.0×106</td><td>5.0×106</td><td>2.0×105</td><td>50</td><td>20</td><td>Lower loss helps approach g > κ conditions (numbers omitted)</td></tr>
+    <tr><td>Photonic crystal cavity</td><td>1550</td><td>9.0×105</td><td>1.2×106</td><td>—</td><td>5</td><td>15</td><td>Small mode volume; strong regime often claimed via high cooperativity</td></tr>
+    <tr><td>Membrane-in-the-middle FP</td><td>1064</td><td>2.0×105</td><td>3.0×105</td><td>5.0×104</td><td>5</td><td>300</td><td>Resolved-sideband possible; coupling depends on membrane position</td></tr>
+    <tr><td>Fiber Fabry–Pérot</td><td>780</td><td>6.0×104</td><td>1.0×105</td><td>2.0×104</td><td>20</td><td>100</td><td>Moderate κ; strong coupling requires improved losses</td></tr>
+    <tr><td>AlN optomechanical crystal</td><td>1550</td><td>4.0×105</td><td>8.0×105</td><td>—</td><td>10</td><td>10</td><td>Piezo/optical hybrid; coupling values excluded in this table</td></tr>
+    <tr><td>Diamond microdisk</td><td>637</td><td>1.5×106</td><td>2.0×106</td><td>—</td><td>2</td><td>4</td><td>Excellent optical Q; strong regime depends on g0 (not listed)</td></tr>
+  </tbody>
+</table>

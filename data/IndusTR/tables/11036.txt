@@ -1,0 +1,15 @@
+<table>
+  <caption>Correct vs Incorrect Ordering of Traditional Mongolian Control Characters (ZWJ/ZWNJ/FVS/MVS/NIRUGU)</caption>
+  <thead>
+    <tr><th>Rule Context</th><th>Correct sequence (copyable)</th><th>Incorrect / not-used alternative (copyable)</th><th>What goes wrong / why not used</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>FVS applies to the preceding Mongolian letter</td><td>[U+1820][FVS1]</td><td>[FVS1][U+1820]</td><td>Selectors are defined to follow the base character; leading selector is invalid or ignored.</td></tr>
+    <tr><td>MVS placed before the syllable/word it affects (e.g., a fixed form)</td><td>[MVS][U+1820][U+1834][U+1820]</td><td>[U+1820][MVS][U+1834][U+1820]</td><td>MVS is not meant to sit between letters; mid-string MVS disrupts parsing.</td></tr>
+    <tr><td>ZWJ as an internal shaping joiner between two letters</td><td>[U+1828][ZWJ][U+1820]</td><td>[U+1828][U+1820]</td><td>Without ZWJ the renderer may choose a default joining behavior; the intended contextual form may not be forced.</td></tr>
+    <tr><td>ZWNJ to prevent joining between letters where separation is required</td><td>[U+1828][ZWNJ][U+1820]</td><td>[U+1828][ZWJ][U+1820]</td><td>Using ZWJ instead of ZWNJ forces joining (opposite of the rule intent).</td></tr>
+    <tr><td>NIRUGU used inside a word boundary to prevent unwanted ligature/connection</td><td>[U+182D][NIRUGU][U+1820]</td><td>[U+182D][U+1820]</td><td>Omitting NIRUGU can cause the segments to merge into an undesired connected shape.</td></tr>
+    <tr><td>Control characters should not be duplicated without a defined rule</td><td>[U+1820][FVS1]</td><td>[U+1820][FVS1][FVS1]</td><td>Repeated selectors typically have no defined meaning and can make text non-normalizable.</td></tr>
+    <tr><td>Do not mix a join-forcing and join-blocking control at the same boundary</td><td>[U+1828][ZWNJ][U+1820]</td><td>[U+1828][ZWJ][ZWNJ][U+1820]</td><td>Conflicting controls at the same point lead to unpredictable shaping and are generally disallowed in rules.</td></tr>
+  </tbody>
+</table>

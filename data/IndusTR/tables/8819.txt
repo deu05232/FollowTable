@@ -1,0 +1,14 @@
+<table>
+  <caption>Transport and Storage Environmental Severity with Humidity Limits (for Variable Frequency Drives)</caption>
+  <thead>
+    <tr><th>Scenario</th><th>Reference / basis</th><th>Packaging</th><th>Temperature range (°C)</th><th>Humidity limit (measurable)</th><th>Typical duration</th><th>Notes on assessment</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Warehouse storage (non-operating)</td><td>IEC 60721-3-1, class 1K2 (tailored)</td><td>As shipped</td><td>-10 to 40</td><td>Relative humidity: 5%–85% RH, non-condensing</td><td>Up to 12 months</td><td>Check for corrosion and insulation resistance after storage</td></tr>
+    <tr><td>Indoor transport (heated vehicle)</td><td>IEC 60721-3-2, class 2K2 (tailored)</td><td>As shipped</td><td>-5 to 45</td><td>Absolute humidity ≤ 18 g/m³</td><td>72 h</td><td>Humidity recorded with data logger inside package</td></tr>
+    <tr><td>Outdoor transport (unheated, rain exposure risk)</td><td>IEC 60721-3-2, class 2K3 (tailored)</td><td>Weather-protected wrap</td><td>-25 to 55</td><td>Relative humidity ≤ 95% RH; condensation permissible on packaging only</td><td>48 h</td><td>Packaging must prevent free water on equipment surfaces</td></tr>
+    <tr><td>Marine transport (salt air)</td><td>Company transport spec</td><td>Sealed barrier bag + desiccant</td><td>0 to 40</td><td>Inside bag: ≤ 60% RH (indicator card); outside ambient: up to 95% RH</td><td>30 days</td><td>Pass/fail based on RH indicator and post-unpack dielectric test</td></tr>
+    <tr><td>Air freight (cargo hold)</td><td>IATA handling profile (informative)</td><td>As shipped</td><td>-20 to 50</td><td>Relative humidity: 10%–90% RH</td><td>24 h</td><td>Rapid temperature changes allowed; monitor for internal condensation</td></tr>
+    <tr><td>Post-transport acclimatization before power-on</td><td>Service procedure</td><td>Unpacked</td><td>15 to 35</td><td>Relative humidity: 25%–75% RH</td><td>≥ 2 h</td><td>Do not energize until visible condensation is eliminated</td></tr>
+  </tbody>
+</table>

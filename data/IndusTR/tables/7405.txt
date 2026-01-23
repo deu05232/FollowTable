@@ -1,0 +1,8 @@
+<table>
+  <caption>Administrative management enterprise data items (operational status and risk monitoring)</caption>
+  <tr><td>Item Name</td><td>Attribute Key</td><td>Data Format</td><td>Domain</td><td>Explanation</td></tr>
+  <tr><td>Operating status</td><td>op_status</td><td>Code(1)</td><td>A=Active; S=Suspended; C=Closed</td><td>Current operating state</td></tr>
+  <tr><td>Risk level</td><td>risk_level</td><td>Code(1)</td><td>1-5</td><td>Administrative risk rating</td></tr>
+  <tr><td>Last annual report submission date</td><td>ar_submit_date</td><td>Date (YYYY-MM-DD)</td><td></td><td>Most recent filing date</td></tr>
+  <tr><td>Abnormal operation flag</td><td>abn_flag</td><td>Boolean</td><td>true/false</td><td>Whether listed as abnormal</td></tr>
+</table>

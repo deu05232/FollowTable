@@ -1,0 +1,14 @@
+<table>
+  <caption>Environmental Conditions and Lab Setup Checklist for Electrical Testing (General)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Target</th><th>Allowed tolerance</th><th>Measurement tool</th><th>Stabilization time</th><th>Record requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ambient temperature</td><td>23°C</td><td>±2°C</td><td>Calibrated thermometer</td><td>2 h</td><td>Log every 30 min</td></tr>
+    <tr><td>Relative humidity</td><td>50%</td><td>±10%</td><td>Hygrometer</td><td>2 h</td><td>Log every 30 min</td></tr>
+    <tr><td>Atmospheric pressure</td><td>86–106 kPa</td><td>—</td><td>Barometer</td><td>N/A</td><td>Daily record</td></tr>
+    <tr><td>Supply voltage stability</td><td>Nominal</td><td>±1%</td><td>Power analyzer</td><td>30 min</td><td>Continuous</td></tr>
+    <tr><td>Grounding resistance</td><td>< 1 Ω</td><td>—</td><td>Earth tester</td><td>N/A</td><td>Before each test</td></tr>
+    <tr><td>EMI background</td><td>< 3 V/m</td><td>—</td><td>EM field probe</td><td>N/A</td><td>Weekly</td></tr>
+  </tbody>
+</table>

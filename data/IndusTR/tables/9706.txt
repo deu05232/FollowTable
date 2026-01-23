@@ -1,0 +1,18 @@
+<table>
+  <caption>Unit Process Activity Data for Auxiliary Utilities and Waste Handling in Chemical Fiber Production (Plant-Level Support System)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Unit operation</th><th>Activity data scope</th><th>Typical inputs (utilities/materials)</th><th>Typical outputs (utilities/emissions/wastes)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Energy supply</td><td>Boiler house / steam generation</td><td>Steam production and distribution (support system only)</td><td>Fuel (natural gas/fuel oil/coal), boiler feedwater, electricity (fans/pumps), chemicals (phosphate/oxygen scavenger)</td><td>Steam (LP/MP/HP), blowdown wastewater, flue gas (CO2, NOx, SOx), ash (if solid fuel)</td></tr>
+    <tr><td>Thermal oil / hot water station</td><td>Heat utility for auxiliary heating loops</td><td>Fuel or steam, makeup water, electricity, heat transfer fluid makeup</td><td>Hot water/thermal oil to users, leaks/spent oil (hazardous), purge wastewater</td></tr>
+    <tr><td rowspan="3">Power and gases</td><td>Purchased electricity (site distribution)</td><td>Electricity received and transformed for utilities area</td><td>Grid electricity, transformer oil (makeup), SF6 (if applicable)</td><td>Electricity to utility consumers, transformer losses, spent oil (hazardous, if replaced)</td></tr>
+    <tr><td>Compressed air station</td><td>Instrument/plant air supply</td><td>Electricity, cooling water, lubricating oil, intake air</td><td>Compressed air, condensate (oily wastewater), waste filters (hazardous/non-hazardous)</td></tr>
+    <tr><td>Nitrogen supply system</td><td>PSA/VPSA nitrogen generation or liquid N2 vaporization</td><td>Electricity, compressed air (for PSA), liquid N2 (if vaporizer), cooling water</td><td>Nitrogen to users, vent gas, spent adsorbent (periodic solid waste)</td></tr>
+    <tr><td rowspan="2">Water management</td><td>Water intake & treatment</td><td>Raw water to process/boiler/cooling makeup</td><td>Raw water, electricity, coagulant/flocculant, lime/NaOH/HCl</td><td>Treated water, sludge (water treatment), backwash wastewater</td></tr>
+    <tr><td>Cooling water system</td><td>Cooling tower circulation and blowdown control</td><td>Makeup water, electricity (pumps/fans), biocide, scale inhibitor</td><td>Cooling water to users, drift losses, blowdown wastewater</td></tr>
+    <tr><td rowspan="3">Waste and emissions handling</td><td>Wastewater treatment plant (WWTP)</td><td>Collection, neutralization, biological/phys-chem treatment</td><td>Influent wastewater, electricity, polymer, nutrients, neutralizing agents</td><td>Treated effluent, waste sludge (dewatered), off-gas (CO2, odors)</td></tr>
+    <tr><td>Solid waste handling (waste yarn & general waste)</td><td>Segregation, baling, temporary storage</td><td>Electricity (baler), packaging materials, pallets</td><td>Waste yarn bales, general solid waste to disposal/recycling</td></tr>
+    <tr><td>Hazardous waste storage & transfer</td><td>Temporary storage for oils, solvents, sludge, spent carbon</td><td>Drums/IBC, absorbents, labels, spill kits</td><td>Hazardous waste shipped offsite, contaminated absorbents (hazardous)</td></tr>
+  </tbody>
+</table>

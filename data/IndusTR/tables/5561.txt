@@ -1,0 +1,10 @@
+<table>
+  <caption>User Certificate List Structure Definition</caption>
+  <tr><td>Field name</td><td>Meaning</td></tr>
+  <tr><td>certCount</td><td>Total number of certificates</td></tr>
+  <tr><td>Certificate</td><td>DER-encoded digital certificate</td></tr>
+  <tr><td>certificateLen</td><td>Length of the digital certificate</td></tr>
+  <tr><td>containerName</td><td>Key container name</td></tr>
+  <tr><td>containerNameLen</td><td>Length of the key container name</td></tr>
+  <tr><td>keyUsage</td><td>Key usage</td></tr>
+</table>

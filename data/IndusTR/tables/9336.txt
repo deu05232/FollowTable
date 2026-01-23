@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Light Estimate Extraction Parameters (Directional Light + Spatial Mesh Occlusion)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td colspan="3">Directional Lighting Extraction</td></tr>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>light_estimate</td><td>ArLightEstimate *</td><td>Light estimation object pointer</td></tr>
+    <tr><td>out_direction</td><td>float[3] *</td><td>Receives main directional light direction</td></tr>
+    <tr><td>out_intensity</td><td>float[3] *</td><td>Receives main directional light RGB intensity</td></tr>
+    <tr><td>out_color_correction</td><td>float[4] *</td><td>Receives RGBA color correction for rendering</td></tr>
+    <tr><td colspan="3">Geometry / Occlusion (Non-lighting)</td></tr>
+    <tr><td>dense_spatial_map</td><td>ArDenseSpatialMap *</td><td>Dense reconstruction handle used for occlusion mesh queries</td></tr>
+    <tr><td>out_mesh_vertices</td><td>float **</td><td>Receives pointer to mesh vertex buffer derived from reconstruction</td></tr>
+    <tr><td>out_mesh_triangle_count</td><td>int *</td><td>Receives triangle count for occlusion mesh</td></tr>
+  </tbody>
+</table>

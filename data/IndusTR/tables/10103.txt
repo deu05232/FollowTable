@@ -1,0 +1,15 @@
+<table>
+  <caption>Controller Tracking Debug Commands and Return Codes</caption>
+  <thead>
+    <tr><th>Command</th><th>API / Signature</th><th>Return Code</th><th>Meaning</th><th>Typical Usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Enable pose logging</td><td>int32_t vrDebugEnablePoseLog(bool enable)</td><td>0</td><td>Logging enabled/disabled successfully.</td><td>Use before reproducing tracking issues.</td></tr>
+    <tr><td>Enable pose logging</td><td>int32_t vrDebugEnablePoseLog(bool enable)</td><td>-1</td><td>Invalid state (positioning not initialized).</td><td>CallvrPositioningInitfirst.</td></tr>
+    <tr><td>Dump current pose</td><td>int32_t vrDebugDumpCurrentPose(vrPose* out_pose)</td><td>0</td><td>Pose dumped successfully.</td><td>Useful for snapshotting during QA.</td></tr>
+    <tr><td>Dump current pose</td><td>int32_t vrDebugDumpCurrentPose(vrPose* out_pose)</td><td>-2</td><td>Tracking lost (no valid pose).</td><td>Check environment and sensors.</td></tr>
+    <tr><td>Reset IMU bias</td><td>int32_t vrDebugResetImuBias(vrPositionableDevice* dev)</td><td>0</td><td>IMU bias reset completed.</td><td>Use after firmware update.</td></tr>
+    <tr><td>Reset IMU bias</td><td>int32_t vrDebugResetImuBias(vrPositionableDevice* dev)</td><td>-3</td><td>Unsupported on this device.</td><td>Applies only to certain controller models.</td></tr>
+    <tr><td>Force relocalization</td><td>int32_t vrDebugForceRelocalization()</td><td>0</td><td>Relocalization request accepted.</td><td>May take several frames to converge.</td></tr>
+  </tbody>
+</table>

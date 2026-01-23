@@ -1,0 +1,19 @@
+<table>
+  <caption>Graph Engine Object Lifecycle Hooks for Framework-to-Hardware Adaptation</caption>
+  <thead>
+    <tr><th>Object</th><th>Lifecycle Stage</th><th>Interface Name</th><th>Recommended English Name</th><th>Required/Optional</th><th>Description</th><th>Notes / Constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">Graph Engine</td><td>Create</td><td>Create Graph Engine</td><td>graph_engine_create</td><td>Required</td><td>Construct a graph engine instance bound to a device backend.</td><td>Must be thread-safe or explicitly documented.</td></tr>
+    <tr><td>Initialize</td><td>Initialize Graph Engine</td><td>graph_engine_initialize</td><td>Required</td><td>Initialize runtime state (driver session, allocator, stream pool).</td><td>Idempotent initialization recommended.</td></tr>
+    <tr><td>Configure</td><td>Set Engine Options</td><td>graph_engine_set_options</td><td>Optional</td><td>Set backend options that affect graph generation and runtime behavior.</td><td>No IR-related knobs; only lifecycle/runtime configuration.</td></tr>
+    <tr><td>Generate</td><td>Generate Executable Graph</td><td>graph_engine_generate</td><td>Required</td><td>Generate an executable graph/program from the framework graph for this engine.</td><td>Returns an engine-owned executable handle.</td></tr>
+    <tr><td>Validate</td><td>Validate Graph Support</td><td>graph_engine_validate</td><td>Optional</td><td>Check if the engine can accept the graph; may output supported partitions.</td><td>Should not expose compiler IR or lowering details.</td></tr>
+    <tr><td>Reset</td><td>Reset Engine State</td><td>graph_engine_reset</td><td>Optional</td><td>Clear transient state and cached allocations to reuse the engine safely.</td><td>Does not destroy created executable graphs.</td></tr>
+    <tr><td>Finalize</td><td>Finalize Graph Engine</td><td>graph_engine_finalize</td><td>Required</td><td>Release runtime resources created during initialize.</td><td>Must be callable even after partial failures.</td></tr>
+    <tr><td>Destroy</td><td>Destroy Graph Engine</td><td>graph_engine_destroy</td><td>Required</td><td>Destroy the graph engine object itself.</td><td>All dependent handles must be released or invalidated.</td></tr>
+    <tr><td rowspan="3">Executable Graph</td><td>Retain/Release</td><td>Reference Executable Graph</td><td>executable_graph_retain</td><td>Optional</td><td>Increment reference count for shared ownership across sessions.</td><td>Useful for multi-stream inference servers.</td></tr>
+    <tr><td>Destroy</td><td>Destroy Executable Graph</td><td>executable_graph_destroy</td><td>Required</td><td>Destroy an executable graph/program returned by generation.</td><td>Must free device memory and host-side metadata.</td></tr>
+    <tr><td>Query</td><td>Get Executable Metadata</td><td>executable_graph_get_metadata</td><td>Optional</td><td>Query input/output signatures needed for runtime binding.</td><td>Metadata only; not operator kernel or IR internals.</td></tr>
+  </tbody>
+</table>

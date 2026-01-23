@@ -1,0 +1,21 @@
+<table>
+  <caption>The % systematic uncertainties for Monte Carlo simulations and multijet estimates. Uncertainties are identical for both lepton channels except where otherwise indicated. The nature of the uncertainty, i.e., whether it refers to a differential dependence (D) or just normalization (N), is also provided. The values for uncertainties with a differential dependence correspond to the maximum amplitude of fluctuations in the RF output. Also provided is the contribution of each source to the total systematic uncertainty of 3.6 pb on the measured cross section, which does not include the additional uncertainty of 6.1% for the luminosity.</caption>
+  <tr><th>Source of systematic</th><th colspan="2" rowspan="2">Diboson signal</th><th colspan="2" rowspan="2">W +jets</th><th colspan="2" rowspan="2">Z +jets</th><th colspan="2" rowspan="2">Top</th><th colspan="2" rowspan="2">Multijet</th><th rowspan="2">Nature</th><th rowspan="2">Δσ\;(pb)</th></tr>
+  <tr><th>uncertainty</th></tr>
+  <tr><td>Trigger efficiency, eν q channel</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>N</td><td><0.1</td></tr>
+  <tr><td>Trigger efficiency, μν q channel</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>D</td><td><0.1</td></tr>
+  <tr><td>Lepton identification</td><td></td><td>± 4</td><td></td><td>± 4</td><td></td><td>± 4</td><td></td><td>± 4</td><td></td><td></td><td>N</td><td><0.1</td></tr>
+  <tr><td>Jet identification</td><td></td><td>± 1</td><td></td><td>± 1</td><td></td><td>± 1</td><td></td><td>±< 1</td><td></td><td></td><td>D</td><td>0.3</td></tr>
+  <tr><td>Jet energy scale</td><td></td><td>± 4</td><td></td><td>± 9</td><td></td><td>± 9</td><td></td><td>± 4</td><td></td><td></td><td>D</td><td>1.9</td></tr>
+  <tr><td>Jet energy resolution</td><td></td><td>± 3</td><td></td><td>± 4</td><td></td><td>± 4</td><td></td><td>± 4</td><td></td><td></td><td>N</td><td><0.1</td></tr>
+  <tr><td>Cross section</td><td></td><td></td><td></td><td>± 20</td><td></td><td>± 6</td><td></td><td>± 10</td><td></td><td></td><td>N</td><td>1.1</td></tr>
+  <tr><td>Multijet normalization, eν q channel</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>± 20</td><td>N</td><td>0.9</td></tr>
+  <tr><td>Multijet normalization, μν q channel</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>± 30</td><td>N</td><td>0.5</td></tr>
+  <tr><td>Multijet shape, eν q channel</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>± 6</td><td>D</td><td><0.1</td></tr>
+  <tr><td>Multijet shape, μν q channel</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>± 10</td><td>D</td><td><0.1</td></tr>
+  <tr><td>Diboson signal NLO/LO shape</td><td></td><td>± 10</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>D</td><td><0.1</td></tr>
+  <tr><td>Parton distribution function</td><td></td><td>± 1</td><td></td><td>± 1</td><td></td><td>± 1</td><td></td><td>± 1</td><td></td><td></td><td>D</td><td>0.2</td></tr>
+  <tr><td>alpgen and Δ R corrections</td><td></td><td></td><td></td><td>± 1</td><td></td><td>± 1</td><td></td><td></td><td></td><td></td><td>D</td><td><0.1</td></tr>
+  <tr><td>Renormalization and factorization scale</td><td></td><td></td><td></td><td>± 3</td><td></td><td>± 3</td><td></td><td></td><td></td><td></td><td>D</td><td>0.9</td></tr>
+  <tr><td>alpgen parton-jet matching parameters</td><td></td><td></td><td></td><td>± 4</td><td></td><td>± 4</td><td></td><td></td><td></td><td></td><td>D</td><td>2.4</td></tr>
+</table>

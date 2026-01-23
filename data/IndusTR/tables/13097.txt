@@ -1,0 +1,14 @@
+<table>
+  <caption>Storm Surge Color Warning Signs and Emergency Response Initiation Matrix</caption>
+  <thead>
+    <tr><th>ID</th><th>Hazard</th><th>Color Sign Identifier</th><th>Core Sign Meaning</th><th>Emergency Grade</th><th>Response Initiation</th><th>Key Actions (Process)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SS-A</td><td>Storm Surge</td><td>STORMSURGE_BLUE</td><td>General caution; surge conditions developing</td><td>Grade C</td><td>Initiate Level III</td><td>Increase tide gauge sampling; notify port operators</td></tr>
+    <tr><td>SS-B</td><td>Storm Surge</td><td>STORMSURGE_YELLOW</td><td>Moderate warning; coastal flooding possible</td><td>Grade B</td><td>Initiate Level III (expanded)</td><td>Prepare temporary barriers; restrict small craft departures</td></tr>
+    <tr><td>SS-C</td><td>Storm Surge</td><td>STORMSURGE_ORANGE</td><td>High warning; significant inundation likely</td><td>Grade A</td><td>Initiate Level II</td><td>Close floodgates; begin relocation of assets from low docks</td></tr>
+    <tr><td>SS-D</td><td>Storm Surge</td><td>STORMSURGE_RED</td><td>Extreme warning; severe inundation imminent</td><td>Grade A+</td><td>Initiate Level I</td><td>Mandatory evacuation of coastal zones; suspend ferry services</td></tr>
+    <tr><td>SS-E</td><td>Storm Surge</td><td>STORMSURGE_RED_CONTINUED</td><td>Ongoing extreme conditions</td><td>Grade A+</td><td>Maintain Level I</td><td>Search-and-rescue staging; continuous situational reporting</td></tr>
+    <tr><td>SS-F</td><td>Storm Surge</td><td>STORMSURGE_DOWNGRADE</td><td>Downgrade / termination notice</td><td>Recovery</td><td>End Level I/II</td><td>Damage assessment; reopen port by phases</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Signal-specific Phase-Bias Indicator Bit Semantics</caption>
+  <thead>
+    <tr><th>Indicator / Field</th><th>Applies Per Signal?</th><th>DF Reference</th><th>Bit Length</th><th>Encoding / Values</th><th>Decoder Action (Mapping Hint)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Signal and Tracking Mode</td><td>Yes</td><td>DF380 / DF381 / DF382 / DF603</td><td>5</td><td>Enumerates tracked signal + tracking mode for the bias entry</td><td>Use as key for per-signal bias record; route to constellation-specific signal table</td></tr>
+    <tr><td>Signal Integer Indicator</td><td>Yes</td><td>DF483</td><td>1</td><td>0 = not integer-resolvable, 1 = integer-resolvable</td><td>Expose as per-signal flag; gate ambiguity fixing / PPP-AR usage</td></tr>
+    <tr><td>Signal Wide-Lane Integer Indicator</td><td>Yes</td><td>DF484</td><td>2</td><td>00 = none, 01 = WL integer, 10 = reserved, 11 = WL integer (alt)</td><td>Store 2-bit state per signal; treat reserved values defensively</td></tr>
+    <tr><td>Phase-Bias Value Present</td><td>Yes</td><td>PB_PRESENT (implementation)</td><td>1</td><td>0 = no bias value transmitted, 1 = bias value transmitted</td><td>If 0, skip reading bias magnitude for that signal entry</td></tr>
+    <tr><td>Phase-Bias Discontinuity Indicator</td><td>Yes</td><td>PB_DISC (implementation)</td><td>2</td><td>00 = continuous, 01 = minor jump, 10 = major jump, 11 = reserved</td><td>Propagate to user; reset filter state on major jump</td></tr>
+    <tr><td>Half-cycle ambiguity indicator</td><td>Yes</td><td>PB_HALF (implementation)</td><td>1</td><td>0 = not indicated, 1 = half-cycle present/possible</td><td>Mark measurement/phase-bias as half-cycle sensitive for AR logic</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Intrusion Detector Test Setup: Posture, Path, and Speed Script</caption>
+  <thead>
+    <tr><th rowspan="2">Test Scenario</th><th colspan="2">Subject Posture</th><th colspan="3">Motion Script</th><th rowspan="2">Pass/Fail Criterion</th></tr>
+    <tr><th>Start</th><th>End</th><th>Speed (m/s)</th><th>Path Type</th><th>Duration (s)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Perimeter crossing (standard)</td><td>Upright</td><td>Upright</td><td>1.0</td><td>Straight line</td><td>6</td><td>Alarm within 2 s</td></tr>
+    <tr><td>Perimeter crossing (crawl)</td><td>Crawling</td><td>Crawling</td><td>0.4</td><td>Straight line</td><td>10</td><td>Alarm within 3 s</td></tr>
+    <tr><td>In-zone loitering</td><td>Upright</td><td>Upright</td><td>0.2</td><td>Random walk</td><td>60</td><td>Alarm at least once</td></tr>
+    <tr><td>Fast dash crossing</td><td>Upright</td><td>Upright</td><td>5.0</td><td>Straight line</td><td>2</td><td>Alarm within 1 s</td></tr>
+    <tr><td>Stop-and-go movement</td><td>Upright</td><td>Upright</td><td>0.8</td><td>Segmented</td><td>20</td><td>No missed alarm</td></tr>
+    <tr><td>Approach and retreat</td><td>Upright</td><td>Upright</td><td>0.6</td><td>Out-and-back</td><td>15</td><td>Alarm on approach</td></tr>
+    <tr><td>Shielded clothing trial</td><td>Upright</td><td>Upright</td><td>1.0</td><td>Straight line</td><td>6</td><td>Record only</td></tr>
+  </tbody>
+</table>

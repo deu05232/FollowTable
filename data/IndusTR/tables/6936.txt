@@ -1,0 +1,13 @@
+<table>
+  <caption>Photodetector Assembly Environmental and Reliability Limits</caption>
+  <tr><th>Parameter name</th><th>Symbol</th><th>Conditions</th><th>Minimum</th><th>Maximum</th><th>Unit</th></tr>
+  <tr><td>Operating case temperature</td><td>Tcase</td><td>Powered operation</td><td>-20</td><td>+70</td><td>°C</td></tr>
+  <tr><td>Storage temperature</td><td>Tstg</td><td>Unpowered</td><td>-40</td><td>+85</td><td>°C</td></tr>
+  <tr><td>Operating relative humidity (non-condensing)</td><td>RHop</td><td>Powered operation</td><td>10</td><td>90</td><td>%</td></tr>
+  <tr><td>Storage relative humidity (non-condensing)</td><td>RHstg</td><td>Unpowered</td><td>5</td><td>95</td><td>%</td></tr>
+  <tr><td>Vibration frequency</td><td>fvib</td><td>Sine sweep</td><td>10</td><td>500</td><td>Hz</td></tr>
+  <tr><td>Vibration acceleration</td><td>avib</td><td>At resonance</td><td>5</td><td>20</td><td>g</td></tr>
+  <tr><td>Mechanical shock</td><td>ashock</td><td>Half-sine, 11 ms</td><td>50</td><td>300</td><td>g</td></tr>
+  <tr><td>Altitude (operating)</td><td>H</td><td>Sea level referenced</td><td>0</td><td>3000</td><td>m</td></tr>
+  <tr><td>ESD withstand voltage (HBM)</td><td>VESD</td><td>Per ANSI/ESDA/JEDEC</td><td>500</td><td>2000</td><td>V</td></tr>
+</table>

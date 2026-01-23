@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Generic 32-bit Control Word Bit-Field Layout (Not Enumerated)</caption>
+  <thead>
+    <tr><th>Bit Range</th><th>Field</th><th>Width</th><th>Description</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>31:24</td><td>COMMA/SYNC</td><td>8</td><td>Comma or sync marker for word alignment</td><td>Typically encoded as a special K symbol</td></tr>
+    <tr><td>23:20</td><td>CLASS</td><td>4</td><td>Control-word class (LLCW, SAC, error, etc.)</td><td>Interpreted by receiver state machine</td></tr>
+    <tr><td>19:16</td><td>TYPE</td><td>4</td><td>Control-word subtype within CLASS</td><td>Defines semantics of payload</td></tr>
+    <tr><td>15:8</td><td>PAYLOAD_LS</td><td>8</td><td>Low byte of payload</td><td>May carry lane info or sequence number</td></tr>
+    <tr><td>7:0</td><td>PAYLOAD_MS</td><td>8</td><td>High byte of payload</td><td>May carry inverse fields / flags</td></tr>
+    <tr><td>—</td><td>CRC</td><td>8</td><td>Optional CRC byte appended after header</td><td>Often represented with a K28.7 delimiter</td></tr>
+  </tbody>
+</table>

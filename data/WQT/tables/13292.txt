@@ -1,0 +1,8 @@
+# Comparison of BitTorrent clients (Applications) — Developer implementation profile
+
+| Client | Primary implementer type | Main implementation language focus | Codebase origin / lineage | Plugin/extension ecosystem description | UI framework orientation |
+| --- | --- | --- | --- | --- | --- |
+| qBittorrent | Community contributors | C++-focused implementation | Built as a standalone codebase with common library dependencies | Extension ecosystem described at a high level | Desktop UI toolkit oriented |
+| Transmission | Core team contributors | C-centric implementation | Long-running independent project | Minimal extension story compared with plugin-heavy clients | Lightweight native UI orientation |
+| Deluge | Contributor community | Python-focused implementation | Uses common libraries with a modular design | Strong emphasis on plugins and extensions | Desktop UI plus web/remote interfaces |
+| WebTorrent | Open-source community | JavaScript-focused implementation | Web-first project with a browser/runtime emphasis | Extensions depend on the JS ecosystem | Web UI / browser-friendly orientation |

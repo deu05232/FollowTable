@@ -1,0 +1,14 @@
+# Outlook Sign-in and Profile Behavior in a Hybrid Environment
+
+| User action | On-premises-only behavior | After Hybrid with Office 365 behavior | Typical fix |
+| --- | --- | --- | --- |
+| Create new Outlook profile | Enter on-prem server or use LAN Autodiscover | Sign in to Microsoft 365, Autodiscover redirects | Recreate profile |
+| Password prompt frequency | Kerberos/NTLM seamless on domain | Modern auth prompts, MFA possible | Enable modern auth |
+| Discover mailbox location | Always on-prem | Redirect to Exchange Online if mailbox moved | Clear cached credentials |
+| Add shared mailbox | Direct RPC/MAPI to on-prem | May open in EXO; cross-prem adds latency | Update Outlook |
+| Public folder access | Uses on-prem PF DB | May require PF migration or remote PF | Configure remote PF |
+| Offline Address Book download | From on-prem OAB virtual dir | From Microsoft 365 OAB endpoint | Force OAB download |
+| Calendar add-in EWS calls | Hits on-prem EWS URL | Hits outlook.office365.com EWS | Update add-in endpoints |
+| Mobile mail setup | Manual server entry possible | Prefer Outlook app + modern auth | Use Outlook mobile |
+| IMAP/POP app passwords | Optional | Often required if legacy auth allowed | Create app password |
+| Autodiscover failure symptom | “Cannot connect to server” | Repeated prompts / wrong endpoint | Fix DNS/SSL |

@@ -1,0 +1,18 @@
+<table>
+  <caption>Association Specification: Subsidy Application Table Linked to Subsidized Product Catalog (Eligibility Reference Only)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Subsidized Product Catalog Table</td></tr>
+    <tr><td>Association Type</td><td>Composite Key Reference (Many-to-One)</td></tr>
+    <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+    <tr><td>Table Name 2</td><td>Subsidized Product Catalog Table</td></tr>
+    <tr><td>Join Keys</td><td>ApplicationTable.ProductCode = ProductCatalog.ProductCode AND ApplicationTable.PolicyYear = ProductCatalog.PolicyYear</td></tr>
+    <tr><td>Cardinality</td><td>Many Applications → One Subsidy Product Definition</td></tr>
+    <tr><td>Business Purpose</td><td>Validate whether the declared machinery/product is eligible for subsidy under a given policy year</td></tr>
+    <tr><td>Data Quality Rules</td><td>Reject application if ProductCatalog.Status != 'Active' or subsidy rate is null</td></tr>
+    <tr><td>Audit Caveat</td><td>Catalog linkage does not confirm purchase or payout; it only confirms eligibility classification</td></tr>
+    <tr><td>Notes</td><td>Used heavily for reporting and rule-engine validation</td></tr>
+  </tbody>
+</table>

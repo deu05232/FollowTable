@@ -1,0 +1,16 @@
+<table>
+  <caption>Disinfection Method Metadata Codes (Equipment Function Tagging)</caption>
+  <thead>
+    <tr><th>Disinfection Method Code</th><th>Disinfection Method Name</th><th>Category</th><th>Typical Use Context</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DA</td><td>Alcohol wipe disinfection</td><td>Chemical</td><td>Surface cleaning of small equipment</td><td>Fast-acting; flammable</td></tr>
+    <tr><td>DB</td><td>Chlorine-based disinfection</td><td>Chemical</td><td>Environmental surface disinfection</td><td>Corrosive to metals at high concentration</td></tr>
+    <tr><td>DC</td><td>Quaternary ammonium disinfection</td><td>Chemical</td><td>Non-critical device surfaces</td><td>Not for spores</td></tr>
+    <tr><td>DD</td><td>Hydrogen peroxide vapor disinfection</td><td>Chemical</td><td>Room or chamber decontamination</td><td>Requires sealed space</td></tr>
+    <tr><td>DE</td><td>Ozone disinfection</td><td>Gas</td><td>Cabinet or chamber disinfection</td><td>Material compatibility required</td></tr>
+    <tr><td>DF</td><td>Ultraviolet-C (UVC) disinfection</td><td>Physical</td><td>Surface/air disinfection</td><td>Line-of-sight limitation</td></tr>
+    <tr><td>DG</td><td>Thermal disinfection (hot water)</td><td>Thermal</td><td>Washer-disinfector cycles</td><td>Not a sterilization process</td></tr>
+    <tr><td>DH</td><td>Peracetic acid disinfection</td><td>Chemical</td><td>Endoscope reprocessing systems</td><td>Strong oxidizer</td></tr>
+  </tbody>
+</table>

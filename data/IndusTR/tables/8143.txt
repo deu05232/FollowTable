@@ -1,0 +1,15 @@
+<table>
+  <caption>Fault Code Table and Self-Test Fault Items for Electric / Electro-hydraulic Actuators</caption>
+  <thead>
+    <tr><th>Instrument Category</th><th>Actuator Type</th><th>Fault Code</th><th>Fault Item (Self-Testable)</th><th>Detection Method (Built-in Test)</th><th>Required Indication / Action</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">Actuators</td><td rowspan="7">Electric / Electro-hydraulic</td><td>AC-E01</td><td>Position sensor fault</td><td>Position feedback out-of-range; plausibility check vs. command</td><td>Stop movement; set alarm; store code</td></tr>
+    <tr><td>AC-E02</td><td>Configuration/parameter inconsistency</td><td>Parameter CRC mismatch; invalid parameter set detected</td><td>Reject operation; revert to safe defaults if available; store code</td></tr>
+    <tr><td>AC-E03</td><td>Circuit hardware fault (drive stage)</td><td>Driver self-test; overcurrent trip during test pulse</td><td>Disable drive; set fault; require service reset</td></tr>
+    <tr><td>AC-E04</td><td>Input signal abnormality</td><td>Input out-of-range; open-circuit detection on 4–20 mA</td><td>Enter fail-safe mode; flag bad input; store code</td></tr>
+    <tr><td>AC-E05</td><td>Main supply undervoltage/overvoltage</td><td>DC link monitoring outside limits for T seconds</td><td>Inhibit actuation; set power fault; store code</td></tr>
+    <tr><td>AC-E06</td><td>Excessive torque during open/close</td><td>Torque sensor / current-derived torque exceeds threshold</td><td>Stop motion; set torque fault; store code</td></tr>
+    <tr><td>AC-E07</td><td>Valve stuck / no movement detected</td><td>Commanded travel but position change < minimum delta</td><td>Abort command; raise stuck fault; store code</td></tr>
+  </tbody>
+</table>

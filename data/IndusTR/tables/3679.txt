@@ -1,0 +1,7 @@
+<table>
+  <caption>Camera Exposure Mode Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumerated Value</td><td>Description</td></tr>
+  <tr><td rowspan="3">vrCameraExposureType</td><td>VR_CAMERA_EXPOSURE_TYPE_AUTO=0x00</td><td>Auto exposure</td></tr>
+  <tr><td>VR_CAMERA_EXPOSURE_TYPE_AUTO_OFF=0x01</td><td>Non-auto exposure</td></tr>
+  <tr><td>Ox02~0xFF</td><td>Reserved</td></tr>
+</table>

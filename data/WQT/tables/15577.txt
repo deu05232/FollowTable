@@ -1,0 +1,8 @@
+# SharePoint prerequisites checklist  software components across OS versions
+
+| Platform / OS context | Required runtime or component | How it is obtained | Notes for installation |
+| --- | --- | --- | --- |
+| Windows Server 2012 R2 | .NET Framework 4.5.1 | Included with OS | Enable via Server Manager |
+| Windows Server 2012 | .NET Framework 4.5 | Included with OS | May require enabling feature |
+| Windows Server 2008 R2 SP1 | .NET Framework (supported version) | Download | Install before SharePoint setup |
+| Windows client (for dev) | Prerequisite installer | Download | Not for production farms |

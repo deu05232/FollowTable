@@ -1,0 +1,14 @@
+<table>
+  <caption>Random forest classification results. The threshold refers the total number of phone events required in each cell over period of data collected to be considered for classification. Total accuracy is defined as the fraction of correctly classified cells. The share refers to the percentage of cells actually zoned for each class of use. Element ( i , j ) of the confusion can be interpreted as the fraction of actual zoned uses of class i that were classified as use j by the random forest. Thus the high percentages in the Res column can be interpreted as the algorithm heavily favoring classification as residential due to its overwhelming share of overall uses.</caption>
+  <tr><td>Total Accuracy:</td><td colspan="5">0.54</td></tr>
+  <tr><td></td><td>Res</td><td>Com</td><td>Ind</td><td>Prk</td><td>Oth</td></tr>
+  <tr><td>Land Share:</td><td>0.74</td><td>0.09</td><td>0.08</td><td>0.04</td><td>0.05</td></tr>
+  <tr><td>Vote Thresh:</td><td>0.60</td><td>0.10</td><td>0.10</td><td>0.10</td><td>0.10</td></tr>
+  <tr><td></td><td colspan="5">Confusion Matrix</td></tr>
+  <tr><td></td><td>Res</td><td>Com</td><td>Ind</td><td>Prk</td><td>Oth</td></tr>
+  <tr><td>Res</td><td>[gray]0.80.62</td><td>0.21</td><td>0.15</td><td>0.01</td><td>0.01</td></tr>
+  <tr><td>Com</td><td>0.30</td><td>[gray]0.80.48</td><td>0.19</td><td>0.00</td><td>0.02</td></tr>
+  <tr><td>Ind</td><td>0.33</td><td>0.27</td><td>[gray]0.80.38</td><td>0.00</td><td>0.02</td></tr>
+  <tr><td>Prk</td><td>0.52</td><td>0.26</td><td>0.18</td><td>[gray]0.80.02</td><td>0.02</td></tr>
+  <tr><td>Oth</td><td>0.37</td><td>0.28</td><td>0.25</td><td>0.00</td><td>[gray]0.80.10</td></tr>
+</table>

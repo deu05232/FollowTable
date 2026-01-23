@@ -1,0 +1,18 @@
+<table>
+  <caption>Generic 29-bit CAN (J1939) Extended Frame Layout Reference (Not a Message List)</caption>
+  <thead>
+    <tr><th>Layer</th><th>Component</th><th>Bit Range</th><th>Length (bits)</th><th>Typical Value/Meaning</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Arbitration ID</td><td>Priority (P)</td><td>28..26</td><td>3</td><td>0..7</td><td>Lower value = higher priority</td></tr>
+    <tr><td>Extended Data Page (EDP)</td><td>25</td><td>1</td><td>0</td><td>J1939 EDP</td></tr>
+    <tr><td>Data Page (DP)</td><td>24</td><td>1</td><td>0/1</td><td>Selects PGN range</td></tr>
+    <tr><td>PDU Format (PF)</td><td>23..16</td><td>8</td><td>0..255</td><td>Part of PGN</td></tr>
+    <tr><td>PDU Specific (PS)</td><td>15..8</td><td>8</td><td>DA or Group Extension</td><td>Depends on PF</td></tr>
+    <tr><td>Arbitration ID</td><td>Source Address (SA)</td><td>7..0</td><td>8</td><td>0..255</td><td>Sender node address</td></tr>
+    <tr><td rowspan="3">Frame</td><td>DLC</td><td>—</td><td>—</td><td>0..8 (Classic) / 0..64 (CAN FD)</td><td>Payload length indicator</td></tr>
+    <tr><td>Data</td><td>—</td><td>—</td><td>0..64 bytes</td><td>Application payload</td></tr>
+    <tr><td>CRC</td><td>—</td><td>—</td><td>15/17/21 bits</td><td>Depends on CAN/CAN FD</td></tr>
+    <tr><td>Derived</td><td>PGN Composition</td><td>DP, PF, PS*</td><td>18</td><td>PGN = (DP<<16) + (PF<<8) + (PS if PF>=240 else 0)</td><td>Reference formula</td></tr>
+  </tbody>
+</table>

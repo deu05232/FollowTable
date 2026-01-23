@@ -1,0 +1,6 @@
+<table>
+  <caption>Command Data Field Definition (Unicast/Broadcast/Multicast)</caption>
+  <tr><th>Serial No.</th><th>Name</th><th>Length (byte)</th><th>Description</th></tr>
+  <tr><td>1</td><td>Address (ID)</td><td>6</td><td>Unicast ID / Broadcast ID / Multicast ID depending on message type</td></tr>
+  <tr><td>2</td><td>Message Ciphertext</td><td>LC-6 or 240</td><td>Payload bytes carried in the APDU data field</td></tr>
+</table>

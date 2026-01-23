@@ -1,0 +1,10 @@
+<table>
+  <caption>Standard Frame Wrapper (Common to All Commands)</caption>
+  <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th></tr>
+  <tr><td>55H AAH 55H AAH</td><td>01H</td><td>--</td><td>----</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>02H</td><td>--</td><td>----</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>03H</td><td>--</td><td>----</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>04H</td><td>--</td><td>----</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td>55H AAH 55H AAH</td><td>05H</td><td>--</td><td>----</td><td>xxxxH</td><td>0DH</td></tr>
+  <tr><td colspan="6">Note: This table shows only the wrapper fields and does not define any command-specific data segment.</td></tr>
+</table>

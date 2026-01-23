@@ -1,0 +1,15 @@
+<table>
+  <caption>Battery Swap Interface Payload — Vehicle Authentication + Order/Equipment Binding Fields</caption>
+  <thead>
+    <tr><th>Section</th><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Authentication</td><td>Authentication sequence number</td><td>vehicleAuthSeq</td><td>string</td><td>Format: Operator ID + unique number, max 64 chars</td><td>Yes</td></tr>
+    <tr><td>Authentication result</td><td>authResult</td><td>integer</td><td>0: Pass; 1: Fail</td><td>Yes</td></tr>
+    <tr><td>Failure message</td><td>authFailMsg</td><td>string</td><td>Reason when authentication fails, max 50 chars</td><td>No</td></tr>
+    <tr><td>Vehicle unique identification code</td><td>vinCode</td><td>string</td><td>Vehicle identity per GB/T 27930, length 17</td><td>Yes</td></tr>
+    <tr><td rowspan="3">Swap Business</td><td>Battery swap order number</td><td>swapOrderNo</td><td>string</td><td>Operator ID + unique number, max 64 chars</td><td>Yes</td></tr>
+    <tr><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>Unique station/cabinet identifier under the platform</td><td>Yes</td></tr>
+    <tr><td>Queue position</td><td>positionNo</td><td>integer</td><td>Reserved queue position for swap execution</td><td>No</td></tr>
+  </tbody>
+</table>

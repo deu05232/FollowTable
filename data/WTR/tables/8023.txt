@@ -1,0 +1,14 @@
+# Common Terms in the BitTorrent Ecosystem (Glossary)
+
+| Term | Definition | Example | Category | Often Confused With |
+|---|---|---|---|---|
+| Torrent | Metadata file describing content | .torrent file | File format | Magnet link |
+| Magnet link | URI containing infohash | magnet:?xt=urn:btih:... | Link/Identifier | .torrent |
+| Seeder | Peer uploading complete data | ratio 2.0 | Peer role | Leechers |
+| Leecher | Peer downloading or incomplete | partial pieces | Peer role | Seeder |
+| Swarm | Set of peers sharing a torrent | 2,000 peers | Network | Tracker |
+| Tracker | Server coordinating peers | announce URL | Infrastructure | DHT |
+| DHT | Distributed peer discovery | Mainline DHT | Infrastructure | Tracker |
+| Infohash | Identifier for a torrent | SHA-1 hash | Identifier | File hash |
+| Piece | Fixed-size chunk of data | 1 MiB piece | Data structure | Block |
+| Ratio | Upload/download metric | 1.5 | Metric | Bandwidth |

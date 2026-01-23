@@ -1,0 +1,15 @@
+<table>
+  <caption>Laboratory QA QC Requirements for Flue Gas Sampling and Analyzer Calibration (CEMS & Portable Instruments)</caption>
+  <thead>
+    <tr><th>Instrument</th><th>Measured Component</th><th>Calibration Gas Level</th><th>Acceptance Criterion</th><th>Calibration Frequency</th><th>Reference Standard</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CEMS</td><td>CO2</td><td>10% vol</td><td>Drift ≤ 2% span</td><td>Daily zero/span</td><td>EN 14181</td></tr>
+    <tr><td>CEMS</td><td>O2</td><td>8% vol</td><td>Drift ≤ 2% span</td><td>Daily zero/span</td><td>EN 14181</td></tr>
+    <tr><td>Portable analyzer</td><td>CO</td><td>200 ppm</td><td>Error ≤ 5% of reading</td><td>Before each campaign</td><td>ISO 12039</td></tr>
+    <tr><td>FTIR</td><td>N2O</td><td>50 ppm</td><td>RSD ≤ 3%</td><td>Monthly</td><td>ASTM D6348</td></tr>
+    <tr><td>GC</td><td>CH4</td><td>100 ppm</td><td>Recovery 95–105%</td><td>Weekly</td><td>ISO 6974</td></tr>
+    <tr><td>Flow meter</td><td>Stack flow</td><td>—</td><td>± 2% full scale</td><td>Quarterly</td><td>ISO 16911-1</td></tr>
+    <tr><td>Thermohygrometer</td><td>Temperature/RH</td><td>—</td><td>± 0.5°C / ± 3% RH</td><td>Quarterly</td><td>ISO 17025</td></tr>
+  </tbody>
+</table>

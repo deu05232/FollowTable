@@ -1,0 +1,10 @@
+<table>
+  <caption>User Certificate Validity Verification Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_VerifyCertificate(void * hAppHandle,unsigned char * pucUsrCertificate,unsigned int uiUsrCertificateLen)</td></tr>
+  <tr><td>Description</td><td>Verify the validity of the user certificate, including verifying the validity period, certificate trust list, revocation status, etc.</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucUsrCertificate[in](DER-encoded certificate)</td></tr>
+  <tr><td>uiUsrCertificateLen[in](certificate length)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, shall comply with the provisions of Annex C)</td></tr>
+</table>

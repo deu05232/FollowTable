@@ -1,0 +1,13 @@
+<table>
+  <caption>SM2 Public Key Retrieval Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GetSm2PublicKey(void * hAppHandle,unsigned char * pucContainerName,unsigned int uiContainerLen,unsigned int uiKeyUsage,unsigned char * pucPublicKey,unsigned int * puiPublicKeyLen)         SAC</td></tr>
+  <tr><td>Description</td><td>Retrieve the Sm2 public key</td></tr>
+  <tr><td rowspan="6">Parameters</td><td>hAppHandle[in](application interface handle)</td></tr>
+  <tr><td>pucContainerName[in](key container name）</td></tr>
+  <tr><td>uiContainerLen[in](key container name length)</td></tr>
+  <tr><td>uiKeyUsage[in](key usage)SGD_SM2_1(denotes signature public key)SGD_SM2_3(denotes encryption public key)</td></tr>
+  <tr><td>pucPublicKey[out](output DER-encoded public key data)</td></tr>
+  <tr><td>puiPublicKeyLen[in,out](length of the output public key data)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0(success)</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Tropical cyclone enhanced IR intensity: combined curved-band wrap angle DT and shear-distance DT (mixed patterns)</caption>
+  <tr><th>Method section</th><th>Primary input</th><th>Lookup bins</th><th>Output</th><th>Remarks</th></tr>
+  <tr><td>Curved band</td><td>Wrap angle (radians)</td><td>[0.20,0.40) / [0.40,0.55] / [0.60,0.75] / [0.80,1.00]</td><td>DT: 1.5 / 2.5 / 3.0 / 3.5</td><td>If band is White, add +0.5 to DT.</td></tr>
+  <tr><td>Shear</td><td>DG-to-CSC distance (nmi)</td><td><75 / <45 / <30 / <20</td><td>DT: 1.0 / 1.5 / 2.0 / 2.5</td><td>Use when the cloud mass is clearly displaced from the circulation center.</td></tr>
+  <tr><td>Embedded center</td><td>Min distance (nmi)</td><td>36 / 30 / 24</td><td>CF: 5.0 / 4.5 / 4.0</td><td>Apply only if embedded center is identifiable.</td></tr>
+  <tr><td>Eye pattern</td><td>Eye vs surrounding temperature class</td><td>OW vs DG / OW vs WMG</td><td>DT adj: 0 to -0.5</td><td>Use only with a clear warm eye.</td></tr>
+  <tr><td>Band morphology factor</td><td>Morphology class</td><td>C / (other)</td><td>BF: +0.5 / +1.0</td><td>Optional adjustment.</td></tr>
+  <tr><td>Summary</td><td>Multiple patterns</td><td>Choose best-fit section</td><td>DT/CF/BF</td><td>Not intended for single-method extraction.</td></tr>
+</table>

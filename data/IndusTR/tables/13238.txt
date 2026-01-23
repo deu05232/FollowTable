@@ -1,0 +1,14 @@
+<table>
+  <caption>Protocol Revision Compatibility Matrix for Charging Communication Messages</caption>
+  <thead>
+    <tr><th>Revision</th><th>Introduced Messages</th><th>Deprecated Messages</th><th>Header Layout</th><th>Payload Layout Changes</th><th>Backward Compatibility</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>v0.9</td><td>Handshake-01, Heartbeat-01</td><td>-</td><td>8-byte fixed header</td><td>Payload uses legacy scaling factors</td><td>No</td></tr>
+    <tr><td>v1.0</td><td>Status-02, Fault-01</td><td>Handshake-01</td><td>12-byte header adds CRC</td><td>Reorders payload elements for Status-02</td><td>Partial</td></tr>
+    <tr><td>v1.1</td><td>Metering-01</td><td>-</td><td>12-byte header</td><td>Adds optional timestamp block</td><td>Yes</td></tr>
+    <tr><td>v1.2</td><td>Limits-03</td><td>Status-02</td><td>14-byte header adds version triplet</td><td>Extends payload with protocol id field</td><td>Yes</td></tr>
+    <tr><td>v1.3</td><td>Diagnostics-02</td><td>Fault-01</td><td>14-byte header</td><td>Changes fault code namespace</td><td>Partial</td></tr>
+    <tr><td>v2.0</td><td>Status-04, Security-01</td><td>All v1.x Status</td><td>16-byte header adds signature length</td><td>Payload TLV format introduced</td><td>No</td></tr>
+  </tbody>
+</table>

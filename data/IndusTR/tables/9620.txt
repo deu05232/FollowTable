@@ -1,0 +1,16 @@
+<table>
+  <caption>AQL-Based Inspection Requirements for Rolling Bearing Components (No Ac/Re)</caption>
+  <thead>
+    <tr><th>Process Stage</th><th>Serial No.</th><th>Inspection Item</th><th>Characteristic Type</th><th>AQL</th><th>Sampling Level</th><th>Inspection Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Incoming</td><td>1</td><td>Inner ring hardness (HRC)</td><td>Critical</td><td>0.65</td><td>II</td><td>Rockwell test</td></tr>
+    <tr><td>2</td><td>Outer ring hardness difference within same part</td><td>Critical</td><td>0.65</td><td>II</td><td>Rockwell test</td></tr>
+    <tr><td>3</td><td>Rolling element microstructure (carbide network)</td><td>Major</td><td>1.0</td><td>II</td><td>Metallographic exam</td></tr>
+    <tr><td rowspan="3">In-process</td><td>4</td><td>Raceway roundness</td><td>Major</td><td>1.0</td><td>I</td><td>Roundness tester</td></tr>
+    <tr><td>5</td><td>Mean raceway diameter variation</td><td>Major</td><td>1.5</td><td>I</td><td>Air gauge</td></tr>
+    <tr><td>6</td><td>Cage pocket burrs</td><td>Minor</td><td>2.5</td><td>I</td><td>Visual inspection</td></tr>
+    <tr><td rowspan="2">Final</td><td>7</td><td>Rotational flexibility</td><td>Major</td><td>1.0</td><td>S-3</td><td>Torque test</td></tr>
+    <tr><td>8</td><td>Seal lip damage (if applicable)</td><td>Minor</td><td>4.0</td><td>S-3</td><td>Visual inspection</td></tr>
+  </tbody>
+</table>

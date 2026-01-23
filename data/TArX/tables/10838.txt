@@ -1,0 +1,16 @@
+<table>
+  <caption>Basic Properties of δ Scorpii Compared to the Sun (Solar Units)</caption>
+  <thead>
+    <tr><th>Category</th><th>Property</th><th>Symbol</th><th>δ Scorpii (in solar units)</th><th>Sun reference</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Size & Mass</td><td>Mass</td><td>M</td><td>14 M☉</td><td>1 M☉</td><td>Stellar mass expressed relative to the Sun</td></tr>
+    <tr><td>Radius</td><td>R</td><td>7 R☉</td><td>1 R☉</td><td>Stellar radius expressed relative to the Sun</td></tr>
+    <tr><td>Mean density (relative)</td><td>Density ratio</td><td>ρ/ρ☉</td><td>0.041 ρ☉</td><td>1 ρ☉</td><td>Derived from (M/M☉)/(R/R☉)^3 = 14/7^3</td></tr>
+    <tr><td rowspan="3">Gravity & Luminosity</td><td>Surface gravity (relative)</td><td>g/g☉</td><td>0.286 g☉</td><td>1 g☉</td><td>Derived from (M/M☉)/(R/R☉)^2 = 14/7^2</td></tr>
+    <tr><td>Escape velocity (relative)</td><td>v_esc/v_esc,☉</td><td>v_esc ratio</td><td>1.41</td><td>1.00</td><td>Derived from sqrt((M/M☉)/(R/R☉)) = sqrt(14/7)</td></tr>
+    <tr><td>Bolometric luminosity (relative)</td><td>Luminosity ratio</td><td>L/L☉</td><td>3680 L☉</td><td>1 L☉</td><td>Derived using (R/R☉)^2(T/T☉)^4 with T☉=5772 K and T=27000 K</td></tr>
+    <tr><td rowspan="2">Rotation</td><td>Equatorial rotation speed (relative)</td><td>v/v☉</td><td>318 v☉</td><td>1 v☉</td><td>Using v=620 km/s and Sun equatorial v☉≈1.95 km/s</td></tr>
+    <tr><td>Specific angular momentum proxy (relative)</td><td>(R·v)/(R☉·v☉)</td><td>j ratio</td><td>2230</td><td>1</td><td>Computed as (R/R☉)·(v/v☉) = 7·318</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+# Subnet mask to prefix conversion table (networking cheat sheet)
+
+| Subnet mask | Prefix length | Total addresses | Host addresses |
+| --- | --- | --- | --- |
+| 255.255.255.252 | /30 | 4 | 2 |
+| 255.255.255.248 | /29 | 8 | 6 |
+| 255.255.255.0 | /24 | 256 | 254 |
+| 255.255.0.0 | /16 | 65,536 | 65,534 |

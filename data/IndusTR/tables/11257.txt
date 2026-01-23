@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Depth Occlusion Helper Parameters (Depth + Pose + Anchors)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="7">ArFrame_getOcclusionInputs</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>frame</td><td>ArFrame *</td><td>in</td><td>Current frame handle.</td></tr>
+    <tr><td>out_depth_image</td><td>ArImage **</td><td>out</td><td>Receives the address of the depth image used for occlusion.</td></tr>
+    <tr><td>out_depth_confidence</td><td>ArImage **</td><td>out</td><td>Receives the address of the per-pixel depth confidence image.</td></tr>
+    <tr><td>out_camera_pose</td><td>ArPose *</td><td>out</td><td>Receives the camera pose for aligning depth to world.</td></tr>
+    <tr><td>out_anchor_list</td><td>ArAnchorList *</td><td>out</td><td>Receives anchors considered for occlusion composition.</td></tr>
+    <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>out</td><td>Receives the frame timestamp in nanoseconds.</td></tr>
+  </tbody>
+</table>

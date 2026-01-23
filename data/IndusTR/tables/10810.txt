@@ -1,0 +1,16 @@
+<table>
+  <caption>Video and Image Event Category Code Table (Extended)</caption>
+  <thead>
+    <tr><th>Code</th><th>Name</th><th>Description</th><th>Typical Evidence</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>001</td><td>Vehicle Passing</td><td>Detected vehicle passes through a defined region/line.</td><td>Snapshot + short clip</td></tr>
+    <tr><td>002</td><td>Person Passing</td><td>Detected person passes through a defined region/line.</td><td>Snapshot + short clip</td></tr>
+    <tr><td>003</td><td>Fighting</td><td>Physical conflict such as fighting, pushing, or brandishing a weapon.</td><td>Video clip preferred</td></tr>
+    <tr><td>004</td><td>Intrusion</td><td>Target enters a restricted/virtual perimeter area.</td><td>Clip + entry timestamp</td></tr>
+    <tr><td>005</td><td>Loitering</td><td>Target stays in an area longer than a configured threshold.</td><td>Clip + dwell time</td></tr>
+    <tr><td>006</td><td>Object Left Behind</td><td>New unattended object appears and remains in place.</td><td>Before/after snapshots</td></tr>
+    <tr><td>007</td><td>Object Removed</td><td>Previously present object disappears from the scene.</td><td>Before/after snapshots</td></tr>
+    <tr><td>008</td><td>Camera Tampering</td><td>Camera is blocked, moved, defocused, or otherwise interfered with.</td><td>Alarm clip</td></tr>
+  </tbody>
+</table>

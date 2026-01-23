@@ -1,0 +1,15 @@
+<table>
+  <caption>Electric Compressor Qualification — Cycle Definition Notes and Exceptions Log</caption>
+  <thead>
+    <tr><th>Item</th><th>Note / Exception</th><th>Applies to</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cycle definition A</td><td>Run 7 min, stop 3 min; count as 1 cycle.</td><td>Endurance test</td></tr>
+    <tr><td>Cycle definition B</td><td>Run 15 min at target speed, idle 5 min; count as 1 cycle.</td><td>Thermal soak</td></tr>
+    <tr><td>Voltage tolerance</td><td>Allowed deviation ±2% during steady state; record excursions.</td><td>All tests</td></tr>
+    <tr><td>Pressure stabilization</td><td>Start data capture only after suction pressure varies < 0.01 MPa for 60 s.</td><td>Performance map</td></tr>
+    <tr><td>Ambient control</td><td>Chamber door opening > 30 s invalidates the last 10 min of data.</td><td>High-temp endurance</td></tr>
+    <tr><td>Liquid charge handling</td><td>Re-charge required after any oil sampling event.</td><td>Refrigerant loop</td></tr>
+    <tr><td>Sensor calibration</td><td>Calibrate thermocouples every 24 h; log offsets in test report.</td><td>All tests</td></tr>
+  </tbody>
+</table>

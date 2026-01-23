@@ -1,0 +1,12 @@
+<table>
+  <caption>Emergency Management BeiDou Terminal Task Completion Report Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Task ID</td><td>25</td><td colspan="3">See 6.1.10</td><td>II</td></tr>
+  <tr><td>2</td><td>Completion Time</td><td>34</td><td colspan="3">See 6.1.8</td><td></td></tr>
+  <tr><td>3</td><td>Completion Effect Length</td><td>8</td><td>Integer</td><td>byte</td><td>0～255</td><td></td></tr>
+  <tr><td>4</td><td>Completion Effect</td><td>NX8</td><td>Character</td><td colspan="2"></td><td>N is the completion effect length</td></tr>
+  <tr><td>5</td><td>Team Usage Status Length</td><td>8</td><td>Integer</td><td>byte</td><td>0～255</td><td></td></tr>
+  <tr><td>6</td><td>Team Usage Status</td><td>NX8</td><td>Character</td><td colspan="2"></td><td>N is the team usage status length</td></tr>
+  <tr><td>7</td><td>Equipment Usage Status Length</td><td>8</td><td>Integer</td><td>byte</td><td>0～255</td><td></td></tr>
+  <tr><td>8</td><td>Equipment Usage Status</td><td>N×8</td><td>Character</td><td colspan="2">I</td><td>N is the equipment usage status length</td></tr>
+</table>

@@ -1,0 +1,36 @@
+<table>
+  <caption>The specifications of the PTF survey system</caption>
+  <tr><th colspan="2">P48 survey characteristics</th></tr>
+  <tr><th>Telescope</th><td>Palomar 48-inch (1.2m) Samuel Oschin</td></tr>
+  <tr><th>Camera field dimensions</th><td>3.50 × 2.31 degrees</td></tr>
+  <tr><th>Camera field of view</th><td>8.07 square degrees</td></tr>
+  <tr><th>Light sensitive area</th><td>7.26 square degrees</td></tr>
+  <tr><th>Plate scale</th><td>1.01 arcsec / pixel</td></tr>
+  <tr><th>Efficiency</th><td>66% open-shutter (slew during readout)</td></tr>
+  <tr><th>Sensitivity (median)</th><td>_(R) ≈ 20.6 in 60 s, 5 σ</td></tr>
+  <tr><th></th><td>{m_(g^()) ≈ 21.3 in 60 s, 5 σ</td></tr>
+  <tr><th>Image quality</th><td>2.0 arcsec FWHM in median seeing</td></tr>
+  <tr><th>Filters</th><td>{g^() & Mould-R; other bands available</td></tr>
+  <tr><th colspan="2">P48 survey camera CCD array</th></tr>
+  <tr><th>Component CCDs</th><td>12 CCDs; 1 non-functional</td></tr>
+  <tr><th>CCD specs</th><td>2K × 4K MIT/LL 3-edge butted CCDs</td></tr>
+  <tr><th>Array Leveling</th><td>Flat to within 20 microns</td></tr>
+  <tr><th>Pixels</th><td>15 microns/pixel; 100% filling factor</td></tr>
+  <tr><th>Chip gaps</th><td>Median 35 pixels (35 arcsec)</td></tr>
+  <tr><th>Readout noise</th><td>< 20 {e^(-)</td></tr>
+  <tr><th>Readout speed</th><td>30 seconds, entire 100 MPix array</td></tr>
+  <tr><th>Linearity</th><td>better than 0.5% up to 60K ADUs</td></tr>
+  <tr><th>Optical distortion</th><td>maximum 7 at array corners</td></tr>
+  <tr><th></th><td>compared to flat grid</td></tr>
+  <tr><th colspan="2">P60 followup camera specifications</th></tr>
+  <tr><th>Telescope</th><td>Palomar Observatory 60-inch (1.5m)</td></tr>
+  <tr><th>CCD specs</th><td>2K × 2K CCD</td></tr>
+  <tr><th>Plate scale</th><td>0.38 arcsec / pixel</td></tr>
+  <tr><th>Readout noise</th><td>5 {e^(-) (amp 1); 8 {e^(-) (amp 2)</td></tr>
+  <tr><th>Readout speed</th><td>25 seconds (full frame)</td></tr>
+  <tr><th>Linearity</th><td>better than 1% up to 20K ADUs</td></tr>
+  <tr><th>Sensitivity (median)</th><td>{m_(g)^() ≈ 21.6 in 120 s, 5 σ</td></tr>
+  <tr><th></th><td>{m_(r^()) ≈ 21.3 in 120 s, 5 σ</td></tr>
+  <tr><th></th><td>{m_(i^()) ≈ 21.1 in 120 s, 5 σ</td></tr>
+  <tr><th></th><td>{m_(z^()) ≈ 20.0 in 120 s, 5 σ</td></tr>
+</table>

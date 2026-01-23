@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Session Initialization Parameters Mixed with Non-Initialization Runtime Controls</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Used In</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>env</td><td>void *</td><td>CreateSession</td><td>Pointer representing the runtime environment</td></tr>
+    <tr><td>context</td><td>void *</td><td>CreateSession</td><td>Pointer representing the runtime context</td></tr>
+    <tr><td>features</td><td>ArSessionFeature *</td><td>CreateSession</td><td>Requested feature list for session creation</td></tr>
+    <tr><td>feature_count</td><td>int32_t</td><td>CreateSession</td><td>Number of requested features in the list</td></tr>
+    <tr><td>out_session</td><td>ArSession **</td><td>CreateSession</td><td>Receives the address of the newly created session</td></tr>
+    <tr><td>frameTimeNs</td><td>int64_t</td><td>UpdateFrame</td><td>Timestamp used when advancing the session frame (not an initialization argument)</td></tr>
+    <tr><td>camera_texture_id</td><td>uint32_t</td><td>Render</td><td>GPU texture identifier for camera stream output (runtime rendering control)</td></tr>
+    <tr><td>is_paused</td><td>bool</td><td>PauseResume</td><td>Whether the session is paused; toggled after creation</td></tr>
+  </tbody>
+</table>

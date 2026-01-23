@@ -1,0 +1,16 @@
+# DLNA Video Format Conformance  MPEG-2 Program Stream Parameters
+
+| Parameter | MPEG-2 PS (SD) | MPEG-2 PS (HD) | Notes |
+|---|---:|---:|---|
+| Container | MPEG-2 Program Stream | MPEG-2 Program Stream | .mpg/.mpeg |
+| Video codec | MPEG-2 Video | MPEG-2 Video | ISO/IEC 13818-2 |
+| Profile | Main Profile | Main Profile | Not shown as Yes/No |
+| Level | Main Level | High 1440 Level | Spec-style fields |
+| Max video bitrate | 9.8 Mbps | 19.4 Mbps | Example ceilings |
+| Audio codec | MPEG-1 Layer II / AC-3 | MPEG-1 Layer II / AC-3 | Region-dependent |
+| Audio sample rate | 48 kHz | 48 kHz | Fixed for profile |
+| Interlace support | Yes (i) | Yes (i) | Still not a product matrix |
+| Max resolution | 720x576 | 1920x1080 | Capability constraints |
+| Chroma format | 4:2:0 | 4:2:0 | Typical MPEG-2 |
+| GOP structure | I/P/B allowed | I/P/B allowed | Constraints omitted |
+| FourCC / stream id | 0x02 (video) | 0x02 (video) | Low-level detail |

@@ -1,0 +1,10 @@
+<table>
+  <caption>ARAugmentedImageTrackingMethodEx enumeration</caption>
+  <tr><th>Augmented image tracking method description</th><th>Reference name and value</th></tr>
+  <tr><td>Image is not tracked</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_EX_NOT_TRACKING = 0</td></tr>
+  <tr><td>Image is tracked using the camera image</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_EX_FULL_TRACKING = 1</td></tr>
+  <tr><td>Image tracking uses last known pose</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_EX_LAST_KNOWN_POSE = 2</td></tr>
+  <tr><td>Image tracking is relocalizing</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_EX_RELOCALIZING = 3</td></tr>
+  <tr><td>Image tracking is limited by occlusion</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_EX_OCCLUDED = 4</td></tr>
+  <tr><td>Image tracking confidence is low</td><td>AR_AUGMENTED_IMAGE_TRACKING_METHOD_EX_LOW_CONFIDENCE = 5</td></tr>
+</table>

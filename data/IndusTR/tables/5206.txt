@@ -1,0 +1,24 @@
+<table>
+  <caption>SM2 Key Agreement Parameters and Session Key Generation Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GenerateAgreementDataAndKeyWithSM2（void * hSymmKeyObj,unsigned int uiISKIndex,unsigned int uiKeyBits,unsigned char * pucResponseID,unsigned int uiResponseIDLength,unsigned char * pucSponsorID,unsigned int uiSponsorIDLength,unsigned char * pucSponsorPublicKey,unsigned intuiSponsorPublicKeyLen,unsigned char * pucSponsorTmpPublicKey,unsigned intuiSponsorTmpPublicKeyLen,unsigned char * pucResponsePublicKey,unsigned int* puiResponsePublicKeyLen,unsigned char * pucResponseTmpPublicKeyunsigned int*puiResponseTmpPublicKeyLen,void * * phKeyHandle)</td></tr>
+  <tr><td>Description</td><td>Using the SM2 key agreement algorithm, generate agreement parameters and compute the session key, and return the generated agreement parameters and key handle at the same time</td></tr>
+  <tr><td rowspan="16">Parameters</td><td>hSymmKeyObj[in]（symmetric algorithm object）</td></tr>
+  <tr><td>uiISKIndex[in](index value of the encryption private key stored inside the cryptographic device; this private key is used to participate in key agreement)</td></tr>
+  <tr><td>uiKeyBits[in](required output key length after agreement）National</td></tr>
+  <tr><td>National pucResponseID[in](responder ID value)</td></tr>
+  <tr><td>uiResponseIDLength[in]（responder ID length）</td></tr>
+  <tr><td>pucSponsorID[in]（initiator ID value）</td></tr>
+  <tr><td>uiSponsorIDLength[in]（initiator ID length）</td></tr>
+  <tr><td>pucSponsorPublicKey[in](externally input initiator SM2 public key）</td></tr>
+  <tr><td>pucSponsorPublicKeyLen[in](externally input initiator SM2 public key length)</td></tr>
+  <tr><td>uiSponsorTmpPublicKey[in](externally input initiator temporary SM2 public key)</td></tr>
+  <tr><td>uiSponsorTmpPublicKeyLen[in]（externally input initiator temporary SM2 public key length）</td></tr>
+  <tr><td>pucResponsePublicKey[out](returned responder SM2 public key)</td></tr>
+  <tr><td>puiResponsePublicKeyLen[in,out](returned responder SM2 public key length)</td></tr>
+  <tr><td>pucResponseTmpPublicKey[out](returned responder temporary SM2 public key)</td></tr>
+  <tr><td>puiResponseTmpPublicKeyLen[in,out](returned responder temporary SM2 public key length）</td></tr>
+  <tr><td>phKeyHandle[out](returned symmetric algorithm key handle)</td></tr>
+  <tr><td rowspan="2">Return value</td><td>0（success）</td></tr>
+  <tr><td>non-0(failure, returns the error code defined in Table C.1, and shall comply with Appendix C)</td></tr>
+  <tr><td>Rules</td><td>This function is called by the responder. The computation process of the session key shall follow the requirements of GB/T 35276</td></tr>
+</table>

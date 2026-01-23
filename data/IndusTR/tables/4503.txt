@@ -1,0 +1,5 @@
+<table>
+  <caption>LDAP Certificate Revocation List Retrieval Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_GetCrlFromLdap（ void * hAppHandle, char * pcLdapHostURL,</td></tr>
+  <tr><td>Description</td><td>unsigned char * pucCertificate， unsigned int uiCertificateLen, unsigned char * pucCrlData, unsigned int * puiCrlDataLen) Retrieve the corresponding CRL based on the certificate via LDAP</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Agricultural Inputs Resolver Examples (Includes Non-Parameter Metadata and Lookup Behavior)</caption>
+  <thead>
+    <tr><th>Resolver endpoint</th><th>Identifier used</th><th>Lookup method</th><th>Returned media type</th><th>Cache TTL</th><th>Auth requirement</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>https://resolver.example/agri</td><td>GTIN + Serial</td><td>HTTP GET</td><td>application/json</td><td>300s</td><td>null</td><td>Uses product master-data service</td></tr>
+    <tr><td>https://resolver.example/agri</td><td>SSCC</td><td>HTTP GET</td><td>application/ld+json</td><td>600s</td><td>API key</td><td>Logistics unit lookup</td></tr>
+    <tr><td>https://resolver.example/agri</td><td>GTIN only</td><td>HTTP HEAD</td><td>—</td><td>120s</td><td>null</td><td>Existence check; no body</td></tr>
+    <tr><td>https://resolver.example/agri/bulk</td><td>Multiple GTINs</td><td>HTTP POST</td><td>application/json</td><td>60s</td><td>OAuth2</td><td>Batch resolution for scanning apps</td></tr>
+    <tr><td>https://resolver.example/agri/trace</td><td>Lot + GTIN</td><td>HTTP GET</td><td>text/html</td><td>0s</td><td>null</td><td>Returns a human-readable trace page</td></tr>
+    <tr><td>https://resolver.example/agri</td><td>Custom internal code</td><td>HTTP GET</td><td>application/json</td><td>900s</td><td>IP allowlist</td><td>Not GS1-conformant identifier</td></tr>
+  </tbody>
+</table>

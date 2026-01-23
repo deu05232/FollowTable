@@ -1,0 +1,15 @@
+<table>
+  <caption>Video Stream Control Operation Codes</caption>
+  <thead>
+    <tr><th>Code</th><th>Operation</th><th>Applies To</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>10</td><td>StartStream</td><td>Live Video</td><td>Initiate a live video stream session</td></tr>
+    <tr><td>11</td><td>StopStream</td><td>Live Video</td><td>Terminate an active stream session</td></tr>
+    <tr><td>12</td><td>PauseStream</td><td>Live Video</td><td>Temporarily pause sending frames</td></tr>
+    <tr><td>13</td><td>ResumeStream</td><td>Live Video</td><td>Resume sending frames after pause</td></tr>
+    <tr><td>20</td><td>RequestKeyFrame</td><td>Video</td><td>Force encoder to send an IDR/I-frame</td></tr>
+    <tr><td>21</td><td>SetBitrate</td><td>Video</td><td>Update encoder target bitrate for the session</td></tr>
+    <tr><td>30</td><td>Snapshot</td><td>Image</td><td>Trigger capture of a still image from the stream</td></tr>
+  </tbody>
+</table>

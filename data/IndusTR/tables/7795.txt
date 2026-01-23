@@ -1,0 +1,16 @@
+<table>
+  <caption>AR Camera Projection Frustum Setup Parameters (Near/Far + Frustum Bounds)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle used to obtain camera frustum details.</td></tr>
+    <tr><td>camera</td><td>ArCamera *</td><td>in</td><td>Camera handle for which the frustum is computed.</td></tr>
+    <tr><td>near</td><td>float</td><td>in</td><td>Near plane distance for frustum computation.</td></tr>
+    <tr><td>far</td><td>float</td><td>in</td><td>Far plane distance for frustum computation.</td></tr>
+    <tr><td>out_left</td><td>float *</td><td>out</td><td>Left frustum bound at the near plane.</td></tr>
+    <tr><td>out_right</td><td>float *</td><td>out</td><td>Right frustum bound at the near plane.</td></tr>
+    <tr><td>out_bottom</td><td>float *</td><td>out</td><td>Bottom frustum bound at the near plane.</td></tr>
+    <tr><td>out_top</td><td>float *</td><td>out</td><td>Top frustum bound at the near plane.</td></tr>
+  </tbody>
+</table>

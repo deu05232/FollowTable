@@ -1,0 +1,14 @@
+<table>
+  <caption>Aerobics Movement Capture — Lab Test Environment & Calibration Requirements (Internal SOP)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Target Value</th><th>Acceptable Range</th><th>Instrument</th><th>Calibration Frequency</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Room Temperature</td><td>22°C</td><td>20–24°C</td><td>Thermo-Hygrometer</td><td>Monthly</td><td>Avoid direct airflow on sensors</td></tr>
+    <tr><td>Relative Humidity</td><td>45%</td><td>35–55%</td><td>Thermo-Hygrometer</td><td>Monthly</td><td>Record before each session</td></tr>
+    <tr><td>Camera Frame Rate</td><td>120 fps</td><td>90–240 fps</td><td>High-speed camera</td><td>Quarterly</td><td>Lock exposure settings</td></tr>
+    <tr><td>Marker Sampling Rate</td><td>200 Hz</td><td>150–250 Hz</td><td>Motion capture system</td><td>Before each study</td><td>Perform static calibration pose</td></tr>
+    <tr><td>Force Plate Zero Drift</td><td>< 5 N</td><td>0–10 N</td><td>Force plate</td><td>Daily</td><td>Zero with no load</td></tr>
+    <tr><td>Audio Sync Offset</td><td>0 ms</td><td>±10 ms</td><td>Sync module</td><td>Weekly</td><td>Check with clap test</td></tr>
+  </tbody>
+</table>

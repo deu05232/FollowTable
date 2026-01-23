@@ -1,0 +1,13 @@
+<table>
+  <caption>Communication Receipt Query Result Output Statement Parameter Description</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Sender ID</td><td>1~16 777 215</td><td>Address of the user initiating the query, intranet user</td></tr>
+  <tr><td>2</td><td>Recipient ID</td><td>1~16 777 215</td><td>Original communication recipient address, intranet user</td></tr>
+  <tr><td>3</td><td>Number of receipts a</td><td>0~7</td><td>0 indicates no receipt</td></tr>
+  <tr><td>4</td><td>Communication sending date 1 (YYYYMMDD)</td><td></td><td>UTC time, YYYYMMDD, fixed 6 digits</td></tr>
+  <tr><td>5</td><td>Communication sending time 1 (hhmmss)</td><td></td><td>UTC time, hhmmss, fixed 6 digits</td></tr>
+  <tr><td>6</td><td>.</td><td>..</td><td>.</td></tr>
+  <tr><td>7</td><td>Communication sending date 7 (YYYYMMDD)</td><td></td><td>UTC time, YYYYMMDD, fixed 6 digits</td></tr>
+  <tr><td>8</td><td>Communication sending time 7 (hhmmss)</td><td></td><td>UTC time, hhmmss, fixed 6 digits</td></tr>
+  <tr><td colspan="4">"The number of communication sending time fields is determined by the number of receipts; at most receipt information within 2 weeks can be queried. When the number of receipts is 0, the subsequent fields are empty.</td></tr>
+</table>

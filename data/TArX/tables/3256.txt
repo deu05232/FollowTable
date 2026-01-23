@@ -1,0 +1,24 @@
+<table>
+  <caption>Parameter setting for the EUV mask simulations (compare Fig. LABEL:schematics_euv ): Mask geometry parameters (layer heights h x , sidewall angle α , corner rounding radius R z ), material parameters (real and imaginary parts of the refractive index, n and k , at a wavelength of 13.54 nm), illumination parameters (in-plane angle of incidence, vacuum wavelength, plane-wave electric field polarization).</caption>
+  <tr><th>material</th><th>height</th><th>n</th><th>k</th><th></th></tr>
+  <tr><th>vacuum</th><th></th><td>1</td><td>0</td><td></td></tr>
+  <tr><th>ARC</th><th>h_()=12\, nm</th><td>0.9474</td><td>0.0316</td><td>R_()=5\, nm</td></tr>
+  <tr><th>absorber</th><th>h_()=55\, nm</th><td>0.9255</td><td>0.0439</td><td></td></tr>
+  <tr><th>buffer</th><th>h_()=10\, nm</th><td>0.9735</td><td>0.0131</td><td></td></tr>
+  <tr><th>oxide</th><th>h_()=1.35\, nm</th><td>0.9735</td><td>0.0131</td><td></td></tr>
+  <tr><th>capping</th><th>h_()=8.19\, nm</th><td>1.0097</td><td>0.0013</td><td></td></tr>
+  <tr><th>multi-layer (interlayer)</th><th>h_()=1.48\, nm</th><td>0.9681</td><td>0.0044</td><td>40 layers</td></tr>
+  <tr><th>multi-layer (Mo)</th><th>h_()=2.99\, nm</th><td>0.9206</td><td>0.0065</td><td>40 layers</td></tr>
+  <tr><th>multi-layer (interlayer)</th><th>h_()=1.48\, nm</th><td>0.9681</td><td>0.0044</td><td>40 layers</td></tr>
+  <tr><th>multi-layer (Si)</th><th>h_()=1.18\, nm</th><td>1.0097</td><td>0.0013</td><td>40 layers</td></tr>
+  <tr><th>substrate</th><th></th><td>0.9735</td><td>0.0131</td><td></td></tr>
+  <tr><th>lateral dimensions</th><th>CD_(,x)</th><td colspan="3">300 nm</td></tr>
+  <tr><th>(nominal)</th><th>CD_(,y)</th><td colspan="3">300 nm</td></tr>
+  <tr><th></th><th>p_()</th><td colspan="3">600 nm</td></tr>
+  <tr><th></th><th>p_()</th><td colspan="3">600 nm</td></tr>
+  <tr><th></th><th>R_()</th><td colspan="3">0 nm</td></tr>
+  <tr><th></th><th>sidewall angle α</th><td colspan="3">90 deg</td></tr>
+  <tr><th>illumination</th><th>angle of incidence α_()</th><td colspan="3">6 deg</td></tr>
+  <tr><th></th><th>wavelength λ_(0)</th><td colspan="3">13.54 nm</td></tr>
+  <tr><th></th><th>polarization</th><td colspan="3">E=(E_(x),0,0)</td></tr>
+</table>

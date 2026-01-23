@@ -1,0 +1,17 @@
+<table>
+  <caption>Official Vehicle Maintenance & Repair Work Orders (Timestamped Events)</caption>
+  <thead>
+    <tr><th>Category</th><th>Column</th><th>Type</th><th>Format</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Work Order</td><td>Work Order No.</td><td>String</td><td>an..30</td><td>Unique repair job identifier</td></tr>
+    <tr><td>Vehicle Reference</td><td>Asset ID</td><td>String</td><td>an..30</td><td>Asset identity of the vehicle being repaired</td></tr>
+    <tr><td>Org Context</td><td>Requesting Unit</td><td>String</td><td>an..60</td><td>Unit submitting the repair request</td></tr>
+    <tr><td>Org Context</td><td>Maintenance Vendor</td><td>String</td><td>an..80</td><td>Workshop/service provider</td></tr>
+    <tr><td>Event Time</td><td>Check-in Time</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td><td>Vehicle arrival time for maintenance</td></tr>
+    <tr><td>Event Time</td><td>Completion Time</td><td>DateTime</td><td>YYYY-MM-DD hh:mm:ss</td><td>Repair completion time</td></tr>
+    <tr><td>Event Details</td><td>Repair Item</td><td>String</td><td>an..200</td><td>Main maintenance item performed</td></tr>
+    <tr><td>Event Details</td><td>Labor Cost</td><td>Decimal</td><td>n..12,2</td><td>Labor charge</td></tr>
+    <tr><td>Event Details</td><td>Parts Cost</td><td>Decimal</td><td>n..12,2</td><td>Parts charge</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>UPDATAGROUPID Command Message Structure</caption>
+  <tr><td>Code</td><td>Value/Description (HEX Encoding)</td></tr>
+  <tr><td>CLA</td><td>80</td></tr>
+  <tr><td>INS</td><td>D2</td></tr>
+  <tr><td>P1</td><td>00</td></tr>
+  <tr><td>P2</td><td>00: Add; 01: Recycle</td></tr>
+  <tr><td>Lc</td><td>See Command Message Data Field</td></tr>
+  <tr><td>DATA</td><td>See Command Message Data Field</td></tr>
+  <tr><td>Le</td><td>Not Present</td></tr>
+</table>

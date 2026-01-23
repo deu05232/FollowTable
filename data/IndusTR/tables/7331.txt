@@ -1,0 +1,17 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Inspection Specification Attributes</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Inspection Procedure</td><td>(0014,6010)</td><td>CS</td><td>1</td><td>2</td><td>Coded name of the inspection procedure performed (e.g., WELD_RT, CASTING_RT), identifying the procedure being followed.</td></tr>
+    <tr><td>Inspection Method</td><td>(0014,6011)</td><td>LO</td><td>1</td><td>2</td><td>Method designation used to perform the inspection (e.g., radiographic method variant, technique name) as specified by the QA plan.</td></tr>
+    <tr><td>Process Specification</td><td>(0014,6002)</td><td>LO</td><td>1</td><td>2</td><td>Process specification identifier that governs how the inspection shall be executed.</td></tr>
+    <tr><td>Applicable Standard</td><td>(0014,6003)</td><td>ST</td><td>1</td><td>2</td><td>Standard or code referenced for the inspection method (e.g., ISO/ASTM code), used for compliance traceability.</td></tr>
+    <tr><td>Technical Level</td><td>(0014,6004)</td><td>CS</td><td>1</td><td>2</td><td>Required technical level/class for the inspection (e.g., Level A/B/C), defining minimum quality/acceptance rigor.</td></tr>
+    <tr><td>Acceptance Criteria</td><td>(0014,6012)</td><td>ST</td><td>1</td><td>2</td><td>Textual or referenced acceptance criteria applied for evaluating results (may cite clause/paragraph in the referenced standard).</td></tr>
+    <tr><td>Required Sensitivity</td><td>(0014,6013)</td><td>DS</td><td>1</td><td>2</td><td>Required sensitivity/quality metric for the inspection as specified by the standard or procedure (value expressed as a percentage or defined unit).</td></tr>
+    <tr><td>Inspection Scope</td><td>(0014,6014)</td><td>LO</td><td>1</td><td>3</td><td>Scope of inspection (e.g., joint ID range, component region), describing what portion of the item shall be examined.</td></tr>
+    <tr><td>Inspector Qualification</td><td>(0014,6015)</td><td>LO</td><td>1</td><td>3</td><td>Qualification/certification reference for the person performing or approving the inspection (e.g., certification scheme and level).</td></tr>
+  </tbody>
+</table>

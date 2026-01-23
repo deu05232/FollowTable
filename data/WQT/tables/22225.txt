@@ -1,0 +1,10 @@
+# Derivative combination rules (single-variable) — quick reference
+
+| Rule | Pattern | Derivative |
+|---|---|---|
+| Constant multiple | \(c\,f(x)\) | \(c\,f'(x)\) |
+| Sum | \(f(x)+g(x)\) | \(f'(x)+g'(x)\) |
+| Difference | \(f(x)-g(x)\) | \(f'(x)-g'(x)\) |
+| Product | \(f(x)\,g(x)\) | \(f(x)g'(x)+f'(x)g(x)\) |
+| Quotient | \(\frac{f(x)}{g(x)}\) | \(\frac{f'(x)g(x)-f(x)g'(x)}{g(x)^2}\) |
+| Reciprocal (special case) | \(\frac{1}{g(x)}\) | \(-\frac{g'(x)}{g(x)^2}\) |

@@ -1,0 +1,8 @@
+<table>
+  <caption>Instant Messaging Service - Batch Subscription Request Parameters</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>C..64</td><td>M</td><td>1</td><td>BATCH_SUBSCRIBE</td><td>Action invoked by the client</td></tr>
+  <tr><td>Subscriber ID</td><td>subscriberID</td><td>C..64</td><td>M</td><td>1</td><td>One</td><td>User initiating the subscription action</td></tr>
+  <tr><td>Target ID List</td><td>targetIDList</td><td>C..64</td><td>M</td><td>50</td><td></td><td>List of users to be subscribed to</td></tr>
+  <tr><td>Client Request ID</td><td>clientRequestID</td><td>C..64</td><td>O</td><td>1</td><td></td><td>Client-generated identifier for tracing the request</td></tr>
+</table>

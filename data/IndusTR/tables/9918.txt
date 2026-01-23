@@ -1,0 +1,15 @@
+<table>
+  <caption>ARSessionState Enumeration</caption>
+  <thead>
+    <tr><th>Enum Value</th><th>Description</th><th>Typical Handling</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>AR_SESSION_STATE_UNINITIALIZED = -1</td><td>Session object exists but has not been initialized with a configuration.</td><td>Create/apply config before calling resume.</td></tr>
+    <tr><td>AR_SESSION_STATE_INITIALIZING = 0</td><td>Session is starting up; sensors/resources are being allocated.</td><td>Wait; querying trackables may return empty.</td></tr>
+    <tr><td>AR_SESSION_STATE_RUNNING = 1</td><td>Session is actively tracking and producing frames.</td><td>Normal operation; consume frames and results.</td></tr>
+    <tr><td>AR_SESSION_STATE_PAUSED = 2</td><td>Session is paused; tracking and frame delivery are stopped.</td><td>Do not expect new frames until resumed.</td></tr>
+    <tr><td>AR_SESSION_STATE_RELOCALIZING = 3</td><td>Session is attempting to recover tracking and map alignment after loss.</td><td>Render with caution; use last known pose if needed.</td></tr>
+    <tr><td>AR_SESSION_STATE_STOPPED = 4</td><td>Session has been stopped/released and cannot produce frames.</td><td>Recreate session to restart.</td></tr>
+    <tr><td>AR_SESSION_STATE_ERROR = 5</td><td>A fatal error occurred; session cannot continue normally.</td><td>Inspect error code/state; prompt user or restart.</td></tr>
+  </tbody>
+</table>

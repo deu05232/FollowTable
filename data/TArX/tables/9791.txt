@@ -1,0 +1,16 @@
+<table>
+  <caption>Venus Atmospheric Composition by Mission/Model Scenario (Selected Species)</caption>
+  <thead>
+    <tr><th>Scenario / Dataset</th><th>Region</th><th>CO2 (vol %)</th><th>N2 (vol %)</th><th>SO2 (ppm)</th><th>H2O (ppm)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Venera-era Baseline</td><td>Near-surface</td><td>96.5</td><td>3.5</td><td>150</td><td>30</td><td>Legacy compilation</td></tr>
+    <tr><td>Pioneer Venus (Entry Probe)</td><td>0–60 km</td><td>96.3</td><td>3.6</td><td>130</td><td>20</td><td>Profile-averaged</td></tr>
+    <tr><td>High-SO2 Case</td><td>Cloud deck</td><td>96.5</td><td>3.5</td><td>300</td><td>20</td><td>Scenario used for sensitivity tests</td></tr>
+    <tr><td>Low-SO2 Case</td><td>Cloud deck</td><td>96.6</td><td>3.4</td><td>50</td><td>25</td><td>Scenario used for sensitivity tests</td></tr>
+    <tr><td>Dry Atmosphere Case</td><td>Near-surface</td><td>96.5</td><td>3.5</td><td>150</td><td>5</td><td>Assumed reduced water vapor</td></tr>
+    <tr><td>Moist Atmosphere Case</td><td>Near-surface</td><td>96.4</td><td>3.6</td><td>150</td><td>100</td><td>Assumed elevated water vapor</td></tr>
+    <tr><td>GCM Scenario A</td><td>Global mean</td><td>96.5</td><td>3.5</td><td>120</td><td>15</td><td>General circulation model run</td></tr>
+    <tr><td>GCM Scenario B</td><td>Global mean</td><td>96.5</td><td>3.5</td><td>180</td><td>25</td><td>Alternate parameterization</td></tr>
+  </tbody>
+</table>

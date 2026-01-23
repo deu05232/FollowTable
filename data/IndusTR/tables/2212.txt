@@ -1,0 +1,11 @@
+<table>
+  <caption>Bill of Materials (BOM) for a Harmonic Active Energy Meter Test Bench</caption>
+  <tr><th>BOM No.</th><th>Component</th><th>Specification</th><th>Material / Package</th><th>Supplier</th><th>Qty</th><th>Notes</th></tr>
+  <tr><td>1</td><td>Voltage DAC module</td><td>18-bit, 1 MSPS</td><td>PCB assembly</td><td>Vendor A</td><td>2</td><td>Waveform synthesis</td></tr>
+  <tr><td>2</td><td>Current amplifier</td><td>0–200 A, linear</td><td>Aluminum chassis</td><td>Vendor B</td><td>3</td><td>3-phase output</td></tr>
+  <tr><td>3</td><td>Reference shunt</td><td>50 µΩ ±0.1%</td><td>Manganin</td><td>Vendor C</td><td>3</td><td>Thermal design required</td></tr>
+  <tr><td>4</td><td>Voltage divider network</td><td>600 V CAT III</td><td>Resistor array</td><td>Vendor D</td><td>1</td><td>Isolation clearance</td></tr>
+  <tr><td>5</td><td>Clock oscillator</td><td>10 MHz ±2 ppm</td><td>SMD</td><td>Vendor E</td><td>1</td><td>Timebase</td></tr>
+  <tr><td>6</td><td>ADC module</td><td>24-bit, 128 kSPS</td><td>PCB assembly</td><td>Vendor F</td><td>2</td><td>Sampling</td></tr>
+  <tr><td>7</td><td>Enclosure</td><td>19-inch rack, 4U</td><td>Steel</td><td>Vendor G</td><td>1</td><td>EMC shielding</td></tr>
+</table>

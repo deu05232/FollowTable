@@ -1,0 +1,15 @@
+<table>
+  <caption>Binary-Only EPC Layout for Agricultural Inputs Product Code (SAC-38)</caption>
+  <thead>
+    <tr><th>Field</th><th>Bit length</th><th>Bit position (MSB..LSB)</th><th>Example bits</th><th>Decimal capacity note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>8</td><td>37..30</td><td>00110000</td><td>Fixed binary header</td></tr>
+    <tr><td>Filter (F)</td><td>3</td><td>29..27</td><td>010</td><td>0–7</td></tr>
+    <tr><td>Partition (P)</td><td>3</td><td>26..24</td><td>011</td><td>Controls company prefix/item split</td></tr>
+    <tr><td>Company Prefix (C)</td><td>24</td><td>23..0</td><td>000000000001001000110100</td><td>Up to ~16.7M values (illustrative)</td></tr>
+    <tr><td>Item/Indicator (I)</td><td>14</td><td>—</td><td>—</td><td>Shown in separate packing step</td></tr>
+    <tr><td>Serial (S)</td><td>38</td><td>—</td><td>—</td><td>0–274,877,906,943</td></tr>
+    <tr><td>CRC/Reserved</td><td>0</td><td>—</td><td>—</td><td>Not used</td></tr>
+  </tbody>
+</table>

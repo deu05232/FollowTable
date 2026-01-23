@@ -1,0 +1,7 @@
+<table>
+  <caption>Kinetic rate constants for ATP binding and hydrolysis steps in a motor-protein cycle.</caption>
+  <tr><th>Step in ATP-driven cycle</th><th>Forward rate constant (s^-1 or μM^-1 s^-1)</th><th>Reverse rate constant (s^-1)</th><th>ATP dependence description</th><th>Assay / simulation note</th></tr>
+  <tr><td>ATP binding</td><td>k_on · [ATP]</td><td>k_off</td><td>Second-order in ATP</td><td>Measured at fixed temperature</td></tr>
+  <tr><td>ATP hydrolysis</td><td>k_hyd</td><td>k_syn</td><td>ATP → ADP + Pi</td><td>Model fit parameter</td></tr>
+  <tr><td>ADP release</td><td>k_ADP_off</td><td>k_ADP_on · [ADP]</td><td>Depends on nucleotide state</td><td>Motor-cycle substep</td></tr>
+</table>

@@ -1,0 +1,6 @@
+<table>
+  <caption>Transport-layer acknowledgement/control PDU layout (ACK vs NACK variants)</caption>
+  <tr><th>Variant</th><th>Header portion (transport)</th><th>Data-area content (acknowledgement meaning)</th><th>Notes</th></tr>
+  <tr><td>ACK</td><td>Priority/addressing + control indicator</td><td>Control code indicating acknowledgement, plus fields that specify the starting sequence number and how many frames are being acknowledged</td><td>Used to confirm reception progress for a multi-frame transfer</td></tr>
+  <tr><td>NACK</td><td>Priority/addressing + control indicator</td><td>Control code indicating negative acknowledgement; remaining bytes are reserved/padded</td><td>Signals an error or inability to receive further frames</td></tr>
+</table>

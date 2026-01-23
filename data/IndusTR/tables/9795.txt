@@ -1,0 +1,10 @@
+<table>
+  <caption>Explicit bin index coverage requirements for entropy-coded syntax elements</caption>
+  <tr><th>Syntax element name</th><th>Test requirements</th></tr>
+  <tr><td>merge_idx</td><td>Traverse cases where binIdx equals 0 to 2</td></tr>
+  <tr><td>ref_idx_l0</td><td>Traverse cases where binIdx equals 0 to 3</td></tr>
+  <tr><td>mvd_sign_flag</td><td>Traverse cases where the value of mvd_sign_flag equals 0 to 1</td></tr>
+  <tr><td>mvd_abs_gt0_flag</td><td>Traverse cases where binIdx equals 0 to 1</td></tr>
+  <tr><td>cbf_cb</td><td>Traverse cases where the value of cbf_cb equals 0 to 1</td></tr>
+  <tr><td>cbf_cr</td><td>Traverse cases where the value of cbf_cr equals 0 to 1</td></tr>
+</table>

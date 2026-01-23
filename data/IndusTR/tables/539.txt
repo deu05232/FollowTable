@@ -1,0 +1,14 @@
+<table>
+  <caption>Driver Status and Operation Data Recording Requirements</caption>
+  <tr><td>Serial No.</td><td>Data Name</td><td>Level</td><td>Minimum Recording Frequency</td><td>Unit</td><td>Minimum Recording Data Capability Range</td><td>Minimum Recording Resolution</td><td>Minimum Recording Accuracy</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Driver takeover capability</td><td>A</td><td>2Hz</td><td>Not applicable</td><td>0: Not capable of takeover 1: Capable of takeover</td><td>Not applicable</td><td>Should have no error</td><td></td></tr>
+  <tr><td>2</td><td>Whether the driver is wearing a seat belt</td><td>A</td><td>2Hz</td><td>Not applicable</td><td>0: Seat belt not fastened 1: Seat belt fastened</td><td>Not applicable</td><td>Should have no error</td><td></td></tr>
+  <tr><td>3</td><td>Whether the driver is in the driving position</td><td>A</td><td>2Hz</td><td>Not applicable</td><td>0: No 1: Yes</td><td>Not applicable</td><td>Should have no error</td><td></td></tr>
+  <tr><td>4</td><td>Accelerator pedal opening</td><td>A</td><td>2Hz</td><td>%</td><td>0~100</td><td>1</td><td>±10% of full range</td><td></td></tr>
+  <tr><td>5</td><td>Brake pedal opening"-b</td><td>A</td><td>2Hz</td><td>%</td><td>0~100</td><td>1</td><td>±10% of full range</td><td>If conditions for recording pedal opening are not available, the brake pedal status shall be recorded, and the recorded status shall at least include: 0: No 1: Yes</td></tr>
+  <tr><td>6</td><td>Brake torque</td><td>B</td><td>2Hz</td><td>Nm</td><td>0~8191</td><td>1</td><td>±10% of full range</td><td></td></tr>
+  <tr><td>7</td><td>Steering wheel angle (if steering wheel is present) c</td><td>A</td><td>2Hz</td><td>（）</td><td>-200～200</td><td>5</td><td>±5% of full range</td><td rowspan="2">If conditions for recording steering input torque are not available, the steering wheel angle shall be recorded. If steering input torque has been recorded, the steering wheel angle may be omitted</td></tr>
+  <tr><td>8</td><td>Steering input torque d</td><td>A</td><td>2Hz</td><td>Nm</td><td>-10~10</td><td>0.1</td><td>±1</td></tr>
+  <tr><td colspan="9">For vehicles equipped with an autonomous driving system that requires the driver to perform a takeover, the autonomous driving data recording system shall record all data elements in this table. Otherwise, data elements No. 1 to No. 3 in this table may be omitted</td></tr>
+  <tr><td colspan="9">‘If the brake pedal opening has already been recorded, the brake pedal status may be omitted. b If the effective upper limit of brake pedal opening is less than 100, the effective upper limit of brake pedal opening may be used as the upper limit value of the minimum recording data capability range. ‘Counterclockwise rotation of the steering wheel is the positive direction. d Counterclockwise direction of steering input torque is the positive direction.</td></tr>
+</table>

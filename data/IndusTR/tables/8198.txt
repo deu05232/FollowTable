@@ -1,0 +1,15 @@
+<table>
+  <caption>Calibration gas concentrations and device functional acceptance items (span, drift, durability)</caption>
+  <thead>
+    <tr><th rowspan="2">No.</th><th rowspan="2">Gas</th><th rowspan="2">Calibration concentration</th><th colspan="4">Device metrics (not allowed)</th></tr>
+    <tr><th>Indication error (%FS)</th><th>Repeatability (%FS)</th><th>Drift after 24 h (%FS)</th><th>Sensor durability (h)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Methane (CH4)</td><td>50% LEL</td><td>≤ 3</td><td>≤ 2</td><td>≤ 5</td><td>≥ 2000</td></tr>
+    <tr><td>2</td><td>Isobutane (i-C4H10)</td><td>25% LEL</td><td>≤ 3</td><td>≤ 2</td><td>≤ 5</td><td>≥ 2000</td></tr>
+    <tr><td>3</td><td>Hydrogen (H2)</td><td>1.0% vol</td><td>≤ 4</td><td>≤ 3</td><td>≤ 6</td><td>≥ 1500</td></tr>
+    <tr><td>4</td><td>Carbon monoxide (CO)</td><td>200 ppm</td><td>≤ 5</td><td>≤ 3</td><td>≤ 8</td><td>≥ 3000</td></tr>
+    <tr><td>5</td><td>Ethanol vapor (C2H5OH)</td><td>1.0 mg/L</td><td>≤ 5</td><td>≤ 3</td><td>≤ 8</td><td>≥ 1500</td></tr>
+    <tr><td>6</td><td>Gasoline vapor (as iso-octane)</td><td>3.0 mg/L</td><td>≤ 5</td><td>≤ 3</td><td>≤ 8</td><td>≥ 1500</td></tr>
+  </tbody>
+</table>

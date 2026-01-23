@@ -1,0 +1,10 @@
+<table>
+  <caption>CC String Syntax (with field descriptors)</caption>
+  <tr><th>CC String Syntax</th><th>Descriptor</th></tr>
+  <tr><td>caption_string(){</td><td></td></tr>
+  <tr><td>string_length</td><td>u(8)</td></tr>
+  <tr><td>for(i=0; i<string_length; i++){</td><td></td></tr>
+  <tr><td>char_byte</td><td>u(8)</td></tr>
+  <tr><td>}</td><td></td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

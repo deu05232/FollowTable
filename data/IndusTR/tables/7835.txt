@@ -1,0 +1,15 @@
+<table>
+  <caption>Transmission Timing Profile and Network Load Estimation for Application-Layer Messages</caption>
+  <thead>
+    <tr><th>PGN</th><th>Message</th><th>Frame Size (bytes)</th><th>Baseline Period (ms)</th><th>Burst Behavior</th><th>Max Frames per Burst</th><th>Estimated Avg Rate (frames/s)</th><th>Estimated Peak Rate (frames/s)</th><th>Producer → Consumer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0x05</td><td>DC contactor status</td><td>8</td><td>1000</td><td>50 ms when change occurs</td><td>3</td><td>1.0</td><td>20.0</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x06</td><td>Vehicle contactor status</td><td>8</td><td>1000</td><td>50 ms when change occurs</td><td>3</td><td>1.0</td><td>20.0</td><td>Vehicle → Charger</td></tr>
+    <tr><td>0x07</td><td>Electronic lock status</td><td>8</td><td>1000</td><td>50 ms when change occurs</td><td>3</td><td>1.0</td><td>20.0</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x01</td><td>Phase request</td><td>8</td><td>—</td><td>Retry until ack</td><td>5</td><td>0.1</td><td>5.0</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x02</td><td>Vehicle confirmation result</td><td>8</td><td>—</td><td>Retry until ack</td><td>5</td><td>0.1</td><td>5.0</td><td>Vehicle → Charger</td></tr>
+    <tr><td>0x03</td><td>Charger abort</td><td>8</td><td>Event-driven</td><td>Up to timeout window</td><td>10</td><td>~0</td><td>10.0</td><td>Charger → Vehicle</td></tr>
+    <tr><td>0x04</td><td>Vehicle abort</td><td>8</td><td>Event-driven</td><td>Up to timeout window</td><td>10</td><td>~0</td><td>10.0</td><td>Vehicle → Charger</td></tr>
+  </tbody>
+</table>

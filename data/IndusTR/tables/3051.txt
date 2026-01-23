@@ -1,0 +1,14 @@
+<table>
+  <caption>Production Workstation Settings — Assembly & Programming Process for Grain Monitoring Sub-units</caption>
+  <thead>
+    <tr><th>Workstation</th><th>Process Step</th><th>Tool/Equipment</th><th>Setpoint</th><th>Tolerance</th><th>Cycle Time (s)</th><th>Operator Skill</th><th>QC Check</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>WS-01</td><td>PCB soldering</td><td>Reflow oven</td><td>Peak 245°C</td><td>±5°C</td><td>420</td><td>Level 2</td><td>X-ray sample 1/50</td></tr>
+    <tr><td>WS-02</td><td>Conformal coating</td><td>Spray coater</td><td>40 μm</td><td>±10 μm</td><td>180</td><td>Level 1</td><td>UV inspection</td></tr>
+    <tr><td>WS-03</td><td>Firmware flashing</td><td>JTAG programmer</td><td>Baud 115200</td><td>N/A</td><td>120</td><td>Level 2</td><td>Boot self-test</td></tr>
+    <tr><td>WS-04</td><td>Sensor calibration</td><td>Humidity chamber</td><td>75% RH</td><td>±2% RH</td><td>900</td><td>Level 3</td><td>3-point curve fit</td></tr>
+    <tr><td>WS-05</td><td>Burn-in</td><td>Thermal rack</td><td>55°C</td><td>±3°C</td><td>14400</td><td>Level 1</td><td>Fault log review</td></tr>
+    <tr><td>WS-06</td><td>Final inspection</td><td>AOI station</td><td>Resolution 10 μm</td><td>N/A</td><td>240</td><td>Level 2</td><td>Pass/Fail record</td></tr>
+  </tbody>
+</table>

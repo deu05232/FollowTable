@@ -1,0 +1,9 @@
+<table>
+  <caption>Camera Focus Mode Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumerated Value</td><td>Description</td></tr>
+  <tr><td rowspan="5">vrCameraFocusType</td><td>VR_CAMERA_FOCUS_MODE_AUTO=0x00</td><td>Auto focus</td></tr>
+  <tr><td>VR_CAMERA_FOCUS_MODE_AUTO_OFF=0x01</td><td>Non-auto focus</td></tr>
+  <tr><td>VR_CAMERA_FOCUS_MODE_CONTINUE_VIDEO=0x02</td><td>Continuous video focus</td></tr>
+  <tr><td>VR_CAMERA_FOCUS_MODE_CONTINUE_PICTURE=0x03</td><td>Continuous picture focus</td></tr>
+  <tr><td>0x04~0xFF</td><td>Reserved</td></tr>
+</table>

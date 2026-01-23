@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Test Conditions for GPS Tracker Accuracy (Device Qualification)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Environment</th><th>Condition</th><th>Duration</th><th>Acceptance Criteria</th><th>Instrument</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cold Start TTFF</td><td>Indoor shielded room</td><td>-</td><td>30 runs</td><td>≤ 60 s (median)</td><td>GNSS simulator</td></tr>
+    <tr><td>Position Accuracy</td><td>Open-sky reference</td><td>Static</td><td>2 hours</td><td>≤ 2.5 m (CEP50)</td><td>Survey-grade GNSS</td></tr>
+    <tr><td>Cellular Handover</td><td>Network emulator</td><td>LTE/3G switching</td><td>100 cycles</td><td>No data loss > 1%</td><td>RAN emulator</td></tr>
+    <tr><td>Battery Endurance</td><td>25°C</td><td>Reporting every 5 min</td><td>7 days</td><td>≥ 168 hours</td><td>Power analyzer</td></tr>
+    <tr><td>Ingress Protection</td><td>Dust/water chamber</td><td>IP67</td><td>2 hours</td><td>No ingress</td><td>IP test chamber</td></tr>
+    <tr><td>Vibration</td><td>Shaker table</td><td>Random, 5–500 Hz</td><td>8 hours</td><td>No functional failure</td><td>Vibration system</td></tr>
+  </tbody>
+</table>

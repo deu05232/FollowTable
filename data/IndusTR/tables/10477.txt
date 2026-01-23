@@ -1,0 +1,20 @@
+<table>
+  <caption>Official Vehicle Assignment and Custody Mapping (Vehicle-to-Organization Responsibility)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Data Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Linkage</td><td>Assignment Record ID</td><td>Character</td><td>an..36</td><td>Unique identifier of the assignment/custody master record (non-transactional)</td></tr>
+    <tr><td>Linkage</td><td>Vehicle Master ID</td><td>Character</td><td>an..36</td><td>Reference to the vehicle master registry</td></tr>
+    <tr><td>Identity</td><td>License Plate Number</td><td>Character</td><td>an..15</td><td>Redundant key for quick lookup and reconciliation</td></tr>
+    <tr><td>Asset</td><td>Asset ID</td><td>Numeric</td><td>n..30</td><td>Asset identifier for financial/asset management linkage</td></tr>
+    <tr><td>Organization</td><td>Custodian Unit Name</td><td>Character</td><td>an..60</td><td>Unit responsible for day-to-day custody and compliance</td></tr>
+    <tr><td>Organization</td><td>Custodian Unit Code</td><td>Character</td><td>an..30</td><td>Organizational code used for approval routing and permissions</td></tr>
+    <tr><td>Organization</td><td>Using Department</td><td>Character</td><td>an..60</td><td>Department that requests/uses the vehicle as a managed resource</td></tr>
+    <tr><td>Organization</td><td>Cost Center Code</td><td>Character</td><td>an..20</td><td>Financial responsibility unit for budgeting and cost attribution</td></tr>
+    <tr><td>Responsibility</td><td>Vehicle Manager</td><td>Character</td><td>an..50</td><td>Named manager accountable for the vehicle record lifecycle</td></tr>
+    <tr><td>Responsibility</td><td>Manager Contact</td><td>Character</td><td>an..30</td><td>Phone/email for management workflows</td></tr>
+    <tr><td>Policy</td><td>Usage Scope</td><td>Character</td><td>an..50</td><td>Administrative usage scope (e.g., commuting, emergency support)</td></tr>
+    <tr><td>Status</td><td>Assignment Status</td><td>Character</td><td>an..20</td><td>Active / suspended / pending transfer</td></tr>
+  </tbody>
+</table>

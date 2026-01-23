@@ -1,0 +1,10 @@
+# # iPod Accessory Protocol frame fields
+
+| Field | Description | Size (bytes) | Example value |
+| --- | --- | --- | --- |
+| Header | Start of frame marker | 2 | 0xFF 0x55 |
+| Length | Payload length | 1 | 0x05 |
+| Mode | Command namespace | 1 | 0x00 |
+| Command | Command identifier | 2 | 0x0010 |
+| Parameter | Optional data | 0..n | 0x01 0x02 |
+| Checksum | Error check | 1 | 0xA7 |

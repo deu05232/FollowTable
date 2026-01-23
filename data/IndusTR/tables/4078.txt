@@ -1,0 +1,7 @@
+<table>
+  <caption>Eigenvalue and Eigenvector Computation Function Parameter List</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Optional/Required</td><td>Description</td></tr>
+  <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>A square matrix for which eigenvalues and right eigenvectors are to be computed. If the input tensor mat has more than two dimensions, the inner-most two dimensions are used to describe the 2D matrix, and the other higher dimensions describe batch computation</td></tr>
+  <tr><td>Eigenvalue Tensor</td><td>Output</td><td>Required</td><td>Describes the tensor of returned eigenvalues. The eigenvalues do not need to be arranged in any order, and its dimensions are consistent with the input tensor mat</td></tr>
+  <tr><td>Eigenvector Tensor</td><td>Output</td><td>Required</td><td>Describes the tensor of returned eigenvectors, and its i-th column u[：,i corresponds to the i-th eigenvalue</td></tr>
+</table>

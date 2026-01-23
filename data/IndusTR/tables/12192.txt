@@ -1,0 +1,10 @@
+<table>
+  <caption>Curved-band wrap angle (radians) to DT lookup (enhanced infrared imagery)</caption>
+  <tr><th>Wrap angle (radians)</th><th>DT (T-number)</th><th>Notes</th></tr>
+  <tr><td>[0.10, 0.20)</td><td>1.0</td><td>Use only if the band is clearly traceable for at least 3/4 of a turn.</td></tr>
+  <tr><td>[0.20, 0.40)</td><td>1.5</td><td>If the analyzed band grayscale is White, add +0.5 to DT.</td></tr>
+  <tr><td>[0.40, 0.55]</td><td>2.5</td><td>Keep the same reference band segment across frames when possible.</td></tr>
+  <tr><td>(0.55, 0.70]</td><td>3.0</td><td>Exclude fragmented bands with breaks larger than the band width.</td></tr>
+  <tr><td>(0.70, 0.85]</td><td>3.5</td><td>If wrap angle exceeds 1.0, switch to eye-pattern analysis.</td></tr>
+  <tr><td>(0.85, 1.00]</td><td>4.0</td><td>Confirm the curvature is centered on the cyclone circulation center.</td></tr>
+</table>

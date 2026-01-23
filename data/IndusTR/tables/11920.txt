@@ -1,0 +1,15 @@
+<table>
+  <caption>SpaceFibre D-Code Symbol Dictionary for Control Labels (No Control-Word Assembly)</caption>
+  <thead>
+    <tr><th>D-Code</th><th>Label</th><th>Byte Value (hex)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>D0.1</td><td>ACTIVE</td><td>0x01</td><td>Often referenced by activation-related procedures</td></tr>
+    <tr><td>D2.5</td><td>ACK</td><td>0x25</td><td>Used as an acknowledgment label symbol</td></tr>
+    <tr><td>D27.5</td><td>NACK</td><td>0xDD</td><td>Used as a negative-ack label symbol</td></tr>
+    <tr><td>D15.3</td><td>FULL</td><td>0x7B</td><td>Referenced by buffer-full indication</td></tr>
+    <tr><td>D14.6</td><td>LLCW Tag</td><td>0x76</td><td>Common tag used near link-level control contexts</td></tr>
+    <tr><td>D6.2</td><td>Neutral</td><td>0x32</td><td>Neutral disparity-friendly payload symbol</td></tr>
+    <tr><td>D23.3</td><td>LANES</td><td>0xBB</td><td>Often used as a lane/count field placeholder symbol</td></tr>
+  </tbody>
+</table>

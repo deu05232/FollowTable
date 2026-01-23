@@ -1,0 +1,14 @@
+<table>
+  <caption>Association Matrix for Agricultural Insurance Policies and Healthcare Claims (Cross-domain)</caption>
+  <thead>
+    <tr><th>Entity A</th><th>Entity B</th><th>Link Rationale</th><th>Join Key (Proposed)</th><th>Association Type</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Agricultural Policy</td><td>Hospital Admission</td><td>Farmer identity verification</td><td>Citizen_ID</td><td>Single Key</td><td>Cross-agency data sharing</td></tr>
+    <tr><td>Crop Insurance Claim</td><td>Outpatient Visit</td><td>Injury during harvest</td><td>Citizen_ID</td><td>Single Key</td><td>Requires consent</td></tr>
+    <tr><td>Subsidy Application</td><td>Pharmacy Purchase</td><td>Preventive program eligibility</td><td>Citizen_ID</td><td>Single Key</td><td>Not part of subsidy workflow</td></tr>
+    <tr><td>Machinery Catalog</td><td>Medical Device Catalog</td><td>Catalog governance similarity</td><td>Item_Code</td><td>Composite Key</td><td>Homonym catalog pattern</td></tr>
+    <tr><td>Policy Detail</td><td>Insurance Plan Benefit</td><td>Template reuse</td><td>Plan_Code + Year</td><td>Composite Key</td><td>Different domain schema</td></tr>
+    <tr><td>Payee Info</td><td>Patient Bank Account</td><td>Payment routing</td><td>Account_No</td><td>Single Key</td><td>Privacy sensitive</td></tr>
+  </tbody>
+</table>

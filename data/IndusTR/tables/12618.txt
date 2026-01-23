@@ -1,0 +1,15 @@
+<table>
+  <caption>Data Link Layer Version Negotiation Payload (Charger → Vehicle) — Field Encoding and Value Semantics</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Field Name</th><th>Length (bytes)</th><th>Data Type</th><th>Encoding / Allowed Values</th><th>Meaning / Notes (On-the-wire)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0</td><td>Link Medium Type</td><td>1</td><td>UINT8</td><td>0x00=CAN2.0B; 0x01=CAN FD; 0x02=CAN XL; 0xFF=Reserved</td><td>Sender declares the CAN variant used for this link. This value is informational and shall not be used alone to decide the negotiated protocol version.</td></tr>
+    <tr><td>1</td><td>Version Negotiation Result</td><td>1</td><td>UINT8 (enum)</td><td>0x00=Continue; 0x01=Success; 0x02=Fail; 0x03–0xFF=Reserved</td><td>Represents the current negotiation state as carried in the payload. The final negotiated outcome is indicated when this field is 0x01 (success) or 0x02 (fail).</td></tr>
+    <tr><td>2</td><td>Protocol Version Major</td><td>1</td><td>UINT8</td><td>0x00–0xFE=Valid; 0xFF=Special (see below)</td><td>Major component of version number. Interpreted as unsigned integer.</td></tr>
+    <tr><td>3</td><td>Protocol Version Minor</td><td>1</td><td>UINT8</td><td>0x00–0xFE=Valid; 0xFF=Special (see below)</td><td>Minor component of version number. Interpreted as unsigned integer.</td></tr>
+    <tr><td>4</td><td>Protocol Version Patch/Provisional</td><td>1</td><td>UINT8</td><td>0x00–0xFE=Valid; 0xFF=Special (see below)</td><td>Third component of version number (patch/provisional). Interpreted as unsigned integer.</td></tr>
+    <tr><td>—</td><td>Version Tuple Interpretation</td><td>3</td><td>UINT8[3]</td><td>V = Major.Minor.Patch</td><td>On-the-wire encoding is three separate bytes (not BCD). Example: [0x01,0x02,0x03] encodes V1.2.3.</td></tr>
+    <tr><td>2–4</td><td>Negotiation Result Representation</td><td>3</td><td>UINT8[3]</td><td>If Result=0x01 (Success): agreed version; if Result=0x00 (Continue): expected/next-offered version; if Result=0x02 (Fail): 0xFF 0xFF 0xFF</td><td>Explicitly shows how the negotiation outcome is represented on the wire: success carries the negotiated version; continue carries the sender’s expected version; failure carries the sentinel 0xFFFFFF.</td></tr>
+  </tbody>
+</table>

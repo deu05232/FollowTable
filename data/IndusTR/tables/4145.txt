@@ -1,0 +1,9 @@
+<table>
+  <caption>Emergency Management Beidou Terminal Monitoring Configuration Reporting Message Data Format</caption>
+  <tr><td>No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Data Unit</td><td>Value Range</td><td>Description</td></tr>
+  <tr><td>1</td><td>Message Frequency</td><td>17</td><td>Integer</td><td>S</td><td>0~131 071</td><td>Interval time between two short message messages; when it is 0, no short message message is sent</td></tr>
+  <tr><td>2</td><td>Safety Report Frequency</td><td>17</td><td>Integer</td><td>S</td><td>0~131 071</td><td>Interval time between two safety report messages; when it is 0, no safety report is sent</td></tr>
+  <tr><td>3</td><td>Monitoring Service Number</td><td>24</td><td>Integer</td><td></td><td>1~16 777 215</td><td>Card number used to receive monitoring data</td></tr>
+  <tr><td>4</td><td>Number of Monitoring Control Numbers</td><td>8</td><td>Integer</td><td>Count</td><td>0~255</td><td>When it is 0, there is no card number 1～N field</td></tr>
+  <tr><td>5</td><td>Card Number 1～N</td><td>N×24</td><td>Integer</td><td></td><td>1~16 777 215</td><td>Monitoring control number. N is the number of monitoring control numbers</td></tr>
+</table>

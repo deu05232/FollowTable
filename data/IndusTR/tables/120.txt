@@ -1,0 +1,10 @@
+<table>
+  <caption>Association Relationship Table Between Agricultural Insurance Business Lines and Policy Details</caption>
+  <tr><td>Relationship Name</td><td>Relationship between the Agricultural Insurance Business Lines Table and the Agricultural Insurance Underwriting Policy Details Table</td></tr>
+  <tr><td>Association Type</td><td>Composite Primary Key Association</td></tr>
+  <tr><td>Table Name 1</td><td>Agricultural Insurance Business Lines Table</td></tr>
+  <tr><td>Table Name 2</td><td>Agricultural Insurance Underwriting Policy Details Table</td></tr>
+  <tr><td>Relationship 1</td><td>Agricultural Insurance Business Lines Table.Province Name Where Business Is Conducted-》Agricultural Insurance Underwriting Policy Details Table.Province</td></tr>
+  <tr><td>Relationship 2</td><td>Agricultural Insurance Business Lines Table.Insurance Company Name-》Agricultural Insurance Underwriting Policy Details Table.Insurance Company Name</td></tr>
+  <tr><td>Relationship 3</td><td>Agricultural Insurance Business Lines Table.Insurance Type Code-〉Agricultural Insurance Underwriting Policy Details Table.Insurance Type Code</td></tr>
+</table>

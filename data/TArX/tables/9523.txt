@@ -1,0 +1,7 @@
+<table>
+  <caption>AMBT1 study: trigger/selection cuts and data-quality requirements used in the analysis (example).</caption>
+  <tr><th>Selection step</th><th>What the cut is about</th><th>Applied threshold</th><th>Data-quality condition described</th><th>Kept events flag</th></tr>
+  <tr><td>Primary-vertex requirement</td><td>Vertex multiplicity and position</td><td>>= 1 vertex within |z| < 150 mm</td><td>Beam-spot and detector status good</td><td>YES</td></tr>
+  <tr><td>Track-quality requirement</td><td>Hit pattern and fit quality</td><td>chi2/ndf < 3</td><td>Tracking detectors nominal</td><td>YES</td></tr>
+  <tr><td>Event cleaning</td><td>Noise burst rejection</td><td>Dedicated cleaning flag</td><td>Calorimeter noise veto</td><td>YES</td></tr>
+</table>

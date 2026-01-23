@@ -1,0 +1,14 @@
+<table>
+  <caption>ArTrackable_getType (Retrieve Trackable Type Only) — Parameter List</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>in</td><td>Pointer to the active AR session used to validate the trackable context.</td></tr>
+    <tr><td>trackable</td><td>const ArTrackable *</td><td>in</td><td>Pointer to an existing trackable whose type is being queried.</td></tr>
+    <tr><td>out_type</td><td>ArTrackableType *</td><td>out</td><td>Receives the trackable's type enumeration value.</td></tr>
+    <tr><td>out_type</td><td>ArTrackableType *</td><td>out</td><td>Possible outputs: AR_TRACKABLE_PLANE, AR_TRACKABLE_POINT, AR_TRACKABLE_IMAGE, AR_TRACKABLE_FACE, AR_TRACKABLE_UNKNOWN.</td></tr>
+    <tr><td>out_type</td><td>ArTrackableType *</td><td>out</td><td>Must be a valid pointer; value is written even if the type is UNKNOWN.</td></tr>
+    <tr><td>trackable</td><td>const ArTrackable *</td><td>in</td><td>Must reference an existing object; does not allocate or return any lists/anchors.</td></tr>
+  </tbody>
+</table>

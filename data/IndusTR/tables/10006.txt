@@ -1,0 +1,17 @@
+<table>
+  <caption>APDU Response Status Words (SW1/SW2) — Parameter, Length, and Reference Errors</caption>
+  <thead>
+    <tr><th>SW1</th><th>SW2</th><th>Meaning</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>67</td><td>00</td><td>Wrong length (Lc/Le incorrect; no further indication)</td></tr>
+    <tr><td>6C</td><td>XX</td><td>Wrong length Le; XX is the correct expected length</td></tr>
+    <tr><td>6A</td><td>80</td><td>Incorrect data parameters in the command data field</td></tr>
+    <tr><td>6A</td><td>81</td><td>Function not supported</td></tr>
+    <tr><td>6A</td><td>82</td><td>File/Application not found</td></tr>
+    <tr><td>6A</td><td>83</td><td>Record not found</td></tr>
+    <tr><td>6A</td><td>84</td><td>Not enough memory space</td></tr>
+    <tr><td>6A</td><td>86</td><td>Incorrect P1/P2 parameters</td></tr>
+    <tr><td>6B</td><td>00</td><td>Wrong parameters P1/P2 (reference out of range)</td></tr>
+  </tbody>
+</table>

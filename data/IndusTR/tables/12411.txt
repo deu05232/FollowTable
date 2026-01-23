@@ -1,0 +1,15 @@
+<table>
+  <caption>SOF Certificate Application Service Interfaces (Authentication, User/Certificate Listing, Export)</caption>
+  <thead>
+    <tr><th>Interface / Function</th><th>Prototype (Signature)</th><th>Purpose</th><th>Key Inputs</th><th>Outputs / Return</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SOF_Login</td><td>function SOF_Login(CertID, PassWd, cb, ctx)</td><td>Authenticate a certificate user by verifying the certificate password.</td><td>CertID(unique certificate identifier);PassWd(password); optionalcb/ctxfor async callback/context</td><td>Callback result or boolean-like success status (implementation dependent)</td><td>Used before private-key operations (sign/decrypt) in many client flows.</td></tr>
+    <tr><td>ChangeUserPassword</td><td>function ChangeUserPassword(CertID, OldPassWd, NewPassWd, cb, ctx)</td><td>Change the password/PIN for the specified certificate container/user.</td><td>CertID;OldPassWd;NewPassWd; optionalcb/ctx</td><td>Callback result or status code (implementation dependent)</td><td>May require prior login depending on device/app policy.</td></tr>
+    <tr><td>SOF_GetUserList</td><td>BSTR SOF_GetUserList()</td><td>List users/certificates currently available to the application.</td><td>null</td><td>BSTRcertificate list string (e.g.,Username||CertID&&&...)</td><td>CN is typically used as Username; list content can vary with policy.</td></tr>
+    <tr><td>SOF_GetCertListByType</td><td>BSTR SOF_GetCertListByType(LONG CertType)</td><td>Filter and list certificates by type (e.g., signing vs encryption).</td><td>CertType(e.g., 1=Signing, 2=Encryption; vendor-defined)</td><td>BSTRlist string containing matching entries (implementation-defined format)</td><td>Convenient when a user has multiple certificates installed.</td></tr>
+    <tr><td>SOF_ExportUserCert</td><td>BSTR SOF_ExportUserCert(BSTR CertID)</td><td>Export the Base64-encoded signing certificate for the given CertID.</td><td>CertID</td><td>BSTRBase64 certificate string</td><td>Public certificate only; does not expose private key.</td></tr>
+    <tr><td>SOF_ExportEncryptCert</td><td>BSTR SOF_ExportEncryptCert(BSTR CertID)</td><td>Export the Base64-encoded encryption certificate for the given CertID.</td><td>CertID</td><td>BSTRBase64 certificate string</td><td>Used for key exchange/enveloped data workflows when separate certs exist.</td></tr>
+    <tr><td>SOF_GetDeviceInfo</td><td>BSTR SOF_GetDeviceInfo(LONG InfoType)</td><td>Query environment/device information used by certificate applications.</td><td>InfoType(e.g., device SN, provider name; implementation-defined)</td><td>BSTRvalue string</td><td>Helps logging/diagnostics and selecting containers in multi-device setups.</td></tr>
+  </tbody>
+</table>

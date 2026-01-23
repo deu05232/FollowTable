@@ -1,0 +1,22 @@
+<table>
+  <caption>Association Specification: Machinery Subsidy Application to Payment/Disbursement Ledger (Treasury Posting)</caption>
+  <thead>
+    <tr><th>Field</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Relationship Name</td><td>Relationship between the Agricultural Machinery Purchase and Application Subsidy Application Table and the Subsidy Payment/Disbursement Ledger Table</td></tr>
+    <tr><td>Business Purpose</td><td>Trace an application through approval to treasury posting and final payment status</td></tr>
+    <tr><td>Association Type</td><td>Composite Key Association (Application to Multiple Ledger Entries)</td></tr>
+    <tr><td>Table Name 1</td><td>Agricultural Machinery Purchase and Application Subsidy Application Table</td></tr>
+    <tr><td>Table Name 2</td><td>Subsidy Payment/Disbursement Ledger Table</td></tr>
+    <tr><td>Join Keys (Table 1 → Table 2)</td><td>application.application_id → ledger.application_id; application.project_code → ledger.project_code</td></tr>
+    <tr><td>Supplemental Matching Keys</td><td>application.batch_no → ledger.batch_no; application.beneficiary_id → ledger.payee_id</td></tr>
+    <tr><td>Cardinality</td><td>Application (1) → Ledger (0..N)</td></tr>
+    <tr><td>Referential Integrity Rules</td><td>Ledger rows must reference a valid application_id; posting_date cannot precede application.approval_date</td></tr>
+    <tr><td>Status Mapping</td><td>application.approval_status ↔ ledger.payment_status (Approved→Pending/Posted; Rejected→No Ledger)</td></tr>
+    <tr><td>Workflow Stage</td><td>Funds Disbursement / Financial Reconciliation</td></tr>
+    <tr><td>Common Measures</td><td>approved_amount, paid_amount, withholding_amount, remaining_amount</td></tr>
+    <tr><td>Audit Fields</td><td>voucher_no, treasury_txn_id, posting_user, reconciliation_flag</td></tr>
+    <tr><td>Notes</td><td>Useful for end-to-end tracing when disbursement info is split between business table and finance ledger</td></tr>
+  </tbody>
+</table>

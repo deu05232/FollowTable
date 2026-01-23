@@ -1,0 +1,12 @@
+# Major Cloud Instance Families and Underlying CPU Platforms (Benchmark Context)
+
+| Provider | Instance Type | CPU Model (Underlying Host) | vCPU | RAM (GB) | Typical Use Case | Notes |
+|---|---|---|---:|---:|---|---|
+| AWS | m5.large | Intel Xeon Platinum 8175M | 2 | 8 | General purpose | Shared tenancy host CPUs |
+| AWS | c6i.xlarge | Intel Xeon Platinum 8375C | 4 | 8 | Compute optimized | Host CPU varies by region |
+| AWS | t3.medium | Intel Xeon Platinum 8175M | 2 | 4 | Burstable | CPU credits model |
+| Azure | D4s v5 | Intel Xeon Platinum 8370C | 4 | 16 | General purpose | Hypervisor overhead |
+| Azure | F8s v2 | Intel Xeon Platinum 8168 | 8 | 16 | Compute optimized | High clock focus |
+| GCP | e2-standard-4 | Intel Xeon (Skylake/Cascade Lake) | 4 | 16 | Cost optimized | CPU model not fixed |
+| Oracle Cloud | VM.Standard.E4.Flex | AMD EPYC 7J13 | 4 | 64 | Flexible shapes | User selects OCPU/RAM |
+| Alibaba Cloud | ecs.c6.large | Intel Xeon Platinum 8269CY | 2 | 4 | Compute optimized | Data center dependent |

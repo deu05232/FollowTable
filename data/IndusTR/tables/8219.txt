@@ -1,0 +1,10 @@
+<table>
+  <caption>ArHitResult_createAndRelease: Create and release hit results (lifecycle-only)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_hit_result</td><td>ArHitResult **</td><td>Pointer to receive a newly created hit result object</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit result object to be released</td></tr>
+  <tr><td>release_mode</td><td>ArReleaseMode</td><td>How to release resources (immediate/deferred)</td></tr>
+  <tr><td>out_status</td><td>ArStatus *</td><td>Pointer to receive API call status</td></tr>
+  <tr><td>out_released</td><td>bool *</td><td>Pointer to receive whether release succeeded</td></tr>
+</table>

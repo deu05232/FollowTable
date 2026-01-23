@@ -1,0 +1,15 @@
+<table>
+  <caption>Definitions of Newly Added Data Fields for the BDS Ground-Based Augmentation System</caption>
+  <tr><td>Data Field No.</td><td>Data Field Name</td><td>Data Type</td><td>Scale Factor</td><td>Valid Range</td><td>Unit</td><td>Data Field Description</td></tr>
+  <tr><td>SJ001</td><td>Reference Frame</td><td>uint4</td><td></td><td>0~15</td><td></td><td>0:CGCS2000 Coordinate System 1:BDS Coordinate System Others reserved</td></tr>
+  <tr><td>SJ002</td><td>Number of Sites</td><td>uint10</td><td></td><td>0~1023</td><td></td><td>Number of sites corresponding to the velocity field</td></tr>
+  <tr><td>SJ003</td><td>Site Name</td><td>char(4)</td><td></td><td></td><td></td><td>Site name composed of 4 characters</td></tr>
+  <tr><td>SJ004</td><td>Antenna Phase Center Velocity X</td><td>int15</td><td>0.0001</td><td>±1.638 4</td><td>m/s</td><td>Antenna phase center velocity X</td></tr>
+  <tr><td>SJ005</td><td>Antenna Phase Center Velocity Y</td><td>int15</td><td>0.0001</td><td>±1.638 4</td><td>m/s</td><td>Antenna phase center velocity Y</td></tr>
+  <tr><td>SJ006</td><td>Antenna Phase Center Velocity Z</td><td>int15</td><td>0.0001</td><td>±1.638 4</td><td>m/s</td><td>Antenna phase center velocity Z</td></tr>
+  <tr><td>SJ007</td><td>Operating Organization</td><td>uchar10</td><td></td><td></td><td></td><td>Operating organization string</td></tr>
+  <tr><td>SJ008</td><td>Geographic Scope</td><td>uint8</td><td></td><td>0~255</td><td></td><td>0: all, 1～34; provincial-level administrative regions sorted alphabetically, others reserved</td></tr>
+  <tr><td>SJ009</td><td>System Category       SAC</td><td>uint4</td><td></td><td>0~15</td><td></td><td>A total of 4 bits bit0:0(BDS OFF）1(BDS ON)</td></tr>
+  <tr><td>SJ010</td><td>Service Level</td><td>uint12</td><td></td><td>0~4095</td><td></td><td>bit3n:0(unavailable)1（available)，bit[3n+1:3n+2]:0(Level A)1(Level B)2(Level C)3(Level D)n:O(Spatial reference information)1(Differential data)2(Atmospheric model parameters)3(Reference station observation data)</td></tr>
+  <tr><td>SJ011</td><td>BDS Seconds of Week</td><td>int20</td><td></td><td>0～604 799</td><td>s</td><td>BDS seconds of week</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Charger-Initiated Termination Details (Reason/Fault/Error Code Definitions)</caption>
+  <thead>
+    <tr><th>Byte / Bit position</th><th>Length</th><th>Parameter</th><th>Type</th><th>Description (recorded at termination)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1 byte</td><td>Termination Reason</td><td>EndReasonType</td><td>Primary charger termination reason code recorded at termination (e.g., charge complete, user stop, scheduled stop, timeout)</td></tr>
+    <tr><td>2</td><td>2 bytes</td><td>Termination Fault Reason</td><td>FaultReasonType</td><td>Fault reason bitmap captured at termination (e.g., isolation fault, over-voltage, over-current, over-temperature)</td></tr>
+    <tr><td>4</td><td>1 byte</td><td>Termination Error Reason</td><td>ErrorReasonType</td><td>Error reason captured at termination (non-fault), such as communication interruption or protocol mismatch</td></tr>
+    <tr><td>5</td><td>1 byte</td><td>Abort Type</td><td>EndCodeType</td><td>Abort category recorded at termination (0x00: none; 0x10: charger internal abort; 0x11: external safety abort; 0x12: EVSE interlock)</td></tr>
+    <tr><td>6</td><td>2 bytes</td><td>Abort Reason</td><td>EndReasonDetailType</td><td>Detailed abort reason recorded at termination (e.g., emergency stop pressed, connector temperature high, ground fault detected)</td></tr>
+    <tr><td>8</td><td>1 byte</td><td>Termination Source</td><td>BYTE</td><td>Who initiated termination (0x01: charger; 0x02: vehicle; 0x03: operator; 0xFF: unknown) recorded at termination</td></tr>
+    <tr><td>9</td><td>1 byte</td><td>Termination Confirmation</td><td>BYTE</td><td>Indicates whether termination was graceful (0x00: not confirmed; 0x01: confirmed) recorded at termination</td></tr>
+  </tbody>
+</table>

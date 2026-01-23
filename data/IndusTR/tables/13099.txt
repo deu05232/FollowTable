@@ -1,0 +1,14 @@
+<table>
+  <caption>Tsunami Warning Operations and Dissemination Channels (Not Static Identifier-Centric)</caption>
+  <thead>
+    <tr><th>Hazard</th><th>Stage</th><th>Color Level Mentioned</th><th>Message Template ID</th><th>Dissemination Channel</th><th>Target Audience</th><th>Operator Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Tsunami</td><td>Detection</td><td>—</td><td>TSU-TMP-DET</td><td>Internal system</td><td>Forecasters</td><td>Validate seismic parameters before escalation.</td></tr>
+    <tr><td>Advisory Draft</td><td>Yellow</td><td>TSU-MSG-Y-01</td><td>Web portal + SMS</td><td>Coastal communities</td><td>Use when initial risk is moderate; include ETA ranges.</td></tr>
+    <tr><td>Warning Upgrade</td><td>Orange</td><td>TSU-MSG-O-02</td><td>VHF + Broadcast TV</td><td>Ports and vessels</td><td>Add evacuation recommendation if thresholds exceeded.</td></tr>
+    <tr><td>Major Warning</td><td>Red</td><td>TSU-MSG-R-03</td><td>Cell broadcast + Siren</td><td>All public</td><td>Trigger sirens; coordinate with emergency management.</td></tr>
+    <tr><td>Update Bulletin</td><td>Yellow/Orange</td><td>TSU-UPD-XX</td><td>Web + Social media</td><td>General public</td><td>Provide wave height observations and revised ETAs.</td></tr>
+    <tr><td>Cancellation</td><td>—</td><td>TSU-CAN-00</td><td>All channels</td><td>All stakeholders</td><td>Issue only after confirmation of threat end.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Do/Don’t Patterns: Valid Fixed Sequences for Mongolian Variation Selectors and MVS Placement</caption>
+  <thead>
+    <tr><th>Rule / Pattern</th><th>Valid fixed character sequence</th><th>Invalid (common mistake) sequence</th><th>Why invalid / what breaks</th><th>Repair (how to rewrite stream)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>MVS must directly precede the target letter</td><td>[U+180B]+[U+1820]</td><td>[U+1820]+[U+180B]</td><td>MVS is a preceding selector; after-the-fact placement will not select the intended glyph</td><td>Move MVS before the affected letter: [U+180B]+[U+1820]</td></tr>
+    <tr><td>MVS cannot be separated from the letter by whitespace</td><td>[U+180B]+[U+1821]</td><td>[U+180B]+[U+0020]+[U+1821]</td><td>Space breaks the selection scope; shaping engine treats it as a boundary</td><td>Remove the space so MVS immediately precedes the vowel</td></tr>
+    <tr><td>FVS1 must immediately follow a Mongolian letter</td><td>[U+1828]+[U+180C]</td><td>[U+180C]+[U+1828]</td><td>Variation selectors are postfix selectors; prefixing is ignored or displayed as missing glyph</td><td>Swap order: base letter first, then FVS1</td></tr>
+    <tr><td>FVS2 cannot modify punctuation or spaces</td><td>[U+182D]+[U+180D]</td><td>[U+002E]+[U+180D]</td><td>Selector has no defined effect on non-Mongolian base characters</td><td>Attach selector only to the intended Mongolian letter</td></tr>
+    <tr><td>FVS3 should not stack with another VS on the same letter</td><td>[U+1834]+[U+180E]</td><td>[U+1834]+[U+180C]+[U+180E]</td><td>Multiple selectors on one base are typically unsupported; results vary by renderer</td><td>Choose exactly one selector for the letter: keep the intended one only</td></tr>
+    <tr><td>Use NNBSP to stop joining across a boundary (not a normal space)</td><td>[U+1820]+[U+202F]+[U+1820]</td><td>[U+1820]+[U+0020]+[U+1820]</td><td>Normal space may change line breaking/word boundaries differently; shaping outcomes can differ</td><td>Replace U+0020 with U+202F when the goal is controlled shaping boundary</td></tr>
+    <tr><td>Control characters should remain inside the Mongolian word stream</td><td>[U+180B]+[U+1820]+[U+1834]+[U+1820]</td><td>[U+180B]+[U+000A]+[U+1820]+[U+1834]+[U+1820]</td><td>Line breaks split the shaping run; selection and joining may reset</td><td>Keep the run unbroken; avoid inserting newlines between selector and letters</td></tr>
+  </tbody>
+</table>

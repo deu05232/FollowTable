@@ -1,0 +1,14 @@
+# BitTorrent Clients by Platform and Use Case (Including Mobile and NAS)
+
+| Category | Client | Platform(s) | Typical Use Case | Interface | Automation / Integration | Resource Footprint | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Desktop (general) | qBittorrent | Windows, macOS, Linux | Everyday downloading/seeding | GUI + optional Web UI | RSS rules, categories, hooks via tools | Medium | Popular all-rounder |
+| Desktop (lightweight) | Transmission | macOS, Linux, BSD | Simple torrents, minimal UI | GUI + remote | Limited built-in automation | Low | Often packaged on Linux distros |
+| Desktop (plugin-driven) | Deluge | Windows, macOS, Linux | Custom workflows | GUI / daemon / Web UI | Strong via plugins | Medium | Good for client-server setups |
+| Headless server | rTorrent | Linux/Unix | Always-on seedbox | TUI/CLI (often with ruTorrent) | High via scripts + ruTorrent plugins | Very Low | Best when comfortable with server config |
+| Headless server | Transmission-daemon | Linux, NAS (varies) | Home server / NAS downloads | Web UI | Basic scheduling via config | Low | Easy to run on small boxes |
+| NAS (Synology) | Download Station | Synology DSM | Integrated NAS downloading | Web UI | DSM integrations | Low-Medium | Features depend on DSM version |
+| NAS (QNAP) | Download Station | QNAP QTS | Integrated NAS downloading | Web UI | QTS integrations | Low-Medium | Convenient but less configurable |
+| Mobile (Android) | Flud | Android | Phone/tablet downloading | Mobile GUI | Limited | Medium | Battery/storage considerations |
+| Mobile (Android) | LibreTorrent | Android | Privacy-focused mobile use | Mobile GUI | Limited | Low-Medium | Open-source alternative |
+| Mobile (iOS/iPadOS) | iTransmission (community builds) | iOS/iPadOS (unofficial) | Niche/testing | Mobile GUI | Limited | Medium | Availability varies; not App Store standard |

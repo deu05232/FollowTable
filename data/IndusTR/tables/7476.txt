@@ -1,0 +1,15 @@
+<table>
+  <caption>Sanitary Equipment Electrical Rating Unit Domain Codes</caption>
+  <thead>
+    <tr><th>Domain</th><th>Unit Code</th><th>Unit Name</th><th>Status</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Voltage</td><td>V</td><td>Volt</td><td>Active</td><td>Used for rated supply voltage on electric bidet seats</td></tr>
+    <tr><td>Voltage</td><td>kV</td><td>Kilovolt</td><td>Deprecated</td><td>Rare in sanitary equipment; keep only for legacy imports</td></tr>
+    <tr><td>Current</td><td>A</td><td>Ampere</td><td>Active</td><td>Use with heater current draw</td></tr>
+    <tr><td>Power</td><td>W</td><td>Watt</td><td>Active</td><td>Heating element power rating</td></tr>
+    <tr><td>Frequency</td><td>Hz</td><td>Hertz</td><td>Active</td><td>Mains frequency label</td></tr>
+    <tr><td>Energy</td><td>kWh</td><td>Kilowatt-hour</td><td>Informational</td><td>Only for consumption reporting, not nameplate rating</td></tr>
+    <tr><td>Resistance</td><td>Ohm</td><td>Ohm</td><td>Active</td><td>Service diagnostics; not typically user-facing</td></tr>
+  </tbody>
+</table>

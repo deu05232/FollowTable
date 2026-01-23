@@ -1,0 +1,14 @@
+<table>
+  <caption>SAF_SM9Decrypt Return Codes and Behavioral Matrix</caption>
+  <thead>
+    <tr><th>Condition (Main Item)</th><th>Return Code</th><th>Behavior / Rule</th><th>Recommended Handling</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Valid container and correct user identity</td><td>0</td><td>Decryption succeeds; plaintext is written to output buffer.</td><td>Proceed to consumepucData.</td></tr>
+    <tr><td>Output buffer too small</td><td>0x00000012</td><td>Function returns required plaintext length via an output length pointer when supported.</td><td>Reallocate and retry.</td></tr>
+    <tr><td>Container not found</td><td>0x00000101</td><td>No key container matches the given name.</td><td>Check provisioning and naming.</td></tr>
+    <tr><td>User key does not match ciphertext identity</td><td>0x00000115</td><td>Identity-based decryption fails because derived key is wrong.</td><td>ValidateUserIDbinding and ciphertext package.</td></tr>
+    <tr><td>Master public key index missing in device</td><td>0x00000130</td><td>Device lacks the referenced SM9 master public key needed for parsing/validation.</td><td>Import master public key first.</td></tr>
+    <tr><td>Ciphertext package malformed</td><td>0x00000202</td><td>ASN.1/DER or internal encoding cannot be parsed.</td><td>Check encoding and length fields.</td></tr>
+  </tbody>
+</table>

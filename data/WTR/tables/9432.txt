@@ -1,0 +1,13 @@
+# Day-by-Day Lunar Cycle Tracker (Phase Sequence with Timing Anchors)
+
+| Day range in synodic month | Primary phase segment | Starts after (previous milestone) | Ends at (next milestone) | Direction of change | Notes for tracking |
+|---|---|---|---|---|---|
+| 0.0–1.5 | New Moon window | — | Waxing Crescent begins | waxing starts | mark cycle start (Day 0) |
+| 1.5–7.4 | Waxing Crescent | New Moon | First Quarter | waxing | illumination grows each day |
+| 7.4–9.5 | First Quarter window | Waxing Crescent | Waxing Gibbous | waxing | half-illuminated milestone |
+| 9.5–14.8 | Waxing Gibbous | First Quarter | Full Moon | waxing | approach maximum illumination |
+| 14.8–16.5 | Full Moon window | Waxing Gibbous | Waning Gibbous | waning starts | peak illumination milestone |
+| 16.5–22.1 | Waning Gibbous | Full Moon | Last Quarter | waning | illumination shrinks each day |
+| 22.1–24.0 | Last (Third) Quarter window | Waning Gibbous | Waning Crescent | waning | half-illuminated milestone |
+| 24.0–29.5 | Waning Crescent | Last Quarter | Next New Moon | waning | thin crescent leading to reset |
+| 29.5 | Next New Moon (repeat) | Waning Crescent | Waxing Crescent begins | waxing starts | cycle repeats (Day 29.5 ≈ Day 0) |

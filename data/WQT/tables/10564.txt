@@ -1,0 +1,13 @@
+# SharePoint Server 2016 2019 Prerequisites Matrix (OS, .NET, and SQL)
+
+| Component | Requirement | Notes |
+| --- | --- | --- |
+| Operating system | Windows Server 2012 R2 / 2016 / 2019 (64-bit) | Latest cumulative updates recommended |
+| .NET Framework | 4.6.2 / 4.7.2 (depending on SharePoint build) | Must match SharePoint patch level |
+| SQL Server | SQL Server 2014/2016/2017 (supported editions) | Collation and max degree of parallelism considerations |
+| IIS role services | Web Server (IIS) + ASP.NET, Windows Auth | Additional role services required for Central Admin |
+| Windows features | AppFabric/Workflow components | Install via prerequisite installer where applicable |
+| Browser | Edge/IE11 for admin tasks | Client requirements vary by feature |
+| Service accounts | Domain accounts with least privilege | Separate accounts recommended for services |
+| Antivirus exclusions | SharePoint and SQL directories | Exclude index, logs, and temp paths |
+| Certificates (optional) | TLS certificates for HTTPS | Required for secure farms and hybrid scenarios |

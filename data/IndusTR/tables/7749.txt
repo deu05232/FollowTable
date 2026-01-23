@@ -1,0 +1,10 @@
+<table>
+  <caption>Security level event reporting requirements for intrusion detectors</caption>
+  <tr><th>Event</th><th>Level 1</th><th>Level 2</th><th>Level 3</th><th>Level 4</th></tr>
+  <tr><td>Intrusion alarm</td><td>M</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Tamper alarm</td><td>OP</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Low battery</td><td>OP</td><td>OP</td><td>M</td><td>M</td></tr>
+  <tr><td>Communication loss</td><td>OP</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Cover open</td><td>OP</td><td>M</td><td>M</td><td>M</td></tr>
+  <tr><td>Self-test failure</td><td>OP</td><td>OP</td><td>M</td><td>M</td></tr>
+</table>

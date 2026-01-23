@@ -1,0 +1,15 @@
+<table>
+  <caption>Knitting Equipment Interface - Field Notes and Semantics (No Types)</caption>
+  <thead>
+    <tr><th>Section</th><th>Attribute</th><th>Meaning / Semantic Notes</th><th>Typical Values</th><th>Interoperability Notes</th><th>Data Type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Control</td><td>MachineControlState</td><td>Indicates local/remote mode selection</td><td>0,1,2</td><td>Map to SCADA mode enum</td><td></td></tr>
+    <tr><td>Timing</td><td>RunningTime</td><td>Total time spent knitting for current job</td><td>e.g., 120</td><td>Convert minutes to seconds if needed</td><td>—</td></tr>
+    <tr><td>Timing</td><td>Downtime</td><td>Paused time during knitting process</td><td>e.g., 5</td><td>Should reset at job start</td><td>-</td></tr>
+    <tr><td>Quality</td><td>DroppedStitch</td><td>Unexpected unlooping detected</td><td>0/1 or count</td><td>Vendor may change interpretation by firmware</td><td>one</td></tr>
+    <tr><td>Quality</td><td>DefectivePlating</td><td>Reversal level of plated yarn appearance</td><td>0,1,2</td><td>Align with defect taxonomy</td><td></td></tr>
+    <tr><td>Energy</td><td>PowerConsumption</td><td>Accumulated energy usage</td><td>kW·h</td><td>May be per shift or total depending on config</td><td>—</td></tr>
+    <tr><td>Pattern</td><td>PatternName</td><td>Name of the current pattern variety</td><td>Free text</td><td>Normalize whitespace; keep UTF-8</td><td>-</td></tr>
+  </tbody>
+</table>

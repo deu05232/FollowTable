@@ -1,0 +1,14 @@
+<table>
+  <caption>Ship Earth Station Message Serial/Sequence Allocation Rules (Header Mechanics)</caption>
+  <thead>
+    <tr><th>Message Category</th><th>Direction</th><th>Identifier Field</th><th>Bit Length</th><th>Initial Value</th><th>Increment / Wrap Rule</th><th>Uniqueness Scope</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Position Report</td><td>Inbound</td><td>Message Sequence Number</td><td>32</td><td>Random at power-on</td><td>+1 per message, wrap at 0xFFFFFFFF</td><td>Per terminal ID</td></tr>
+    <tr><td>EGC Broadcast</td><td>Outbound</td><td>Message Sequence Number</td><td>32</td><td>0</td><td>+1 per frame, wrap at 2^32</td><td>Per gateway station</td></tr>
+    <tr><td>Distress Alarm Ack</td><td>Outbound</td><td>Message Serial Number</td><td>32</td><td>Copied</td><td>Copied from the replied message</td><td>Per distress transaction</td></tr>
+    <tr><td>Distress Alarm Cancel</td><td>Inbound</td><td>Message Sequence Number</td><td>32</td><td>Copied</td><td>Must equal the original distress sequence number</td><td>Per distress transaction</td></tr>
+    <tr><td>Polling Ack</td><td>Outbound</td><td>Message Serial Number</td><td>32</td><td>Copied</td><td>Copied from the polled message</td><td>Per poll</td></tr>
+    <tr><td>Test Message</td><td>Inbound</td><td>Message Sequence Number</td><td>32</td><td>1</td><td>+1, wrap at 0x7FFFFFFF</td><td>Per terminal ID</td></tr>
+  </tbody>
+</table>

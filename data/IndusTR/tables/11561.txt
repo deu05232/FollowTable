@@ -1,0 +1,14 @@
+<table>
+  <caption>Battery Charging Status (BCS) SPN Definitions and Byte Mapping</caption>
+  <thead>
+    <tr><th>Group</th><th>Start Byte</th><th>Start Bit</th><th>Length</th><th>SPN</th><th>SPN Name</th><th>Resolution</th><th>Offset</th><th>Unit</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Voltage/Current</td><td>1</td><td>0</td><td>16 bits</td><td>2817</td><td>Charge Current Request</td><td>0.1</td><td>0</td><td>A</td><td>Signed=No</td></tr>
+    <tr><td>3</td><td>0</td><td>16 bits</td><td>2816</td><td>Charge Voltage Limit</td><td>0.1</td><td>0</td><td>V</td><td>Signed=No</td></tr>
+    <tr><td>5</td><td>0</td><td>16 bits</td><td>2818</td><td>Remaining Energy</td><td>0.01</td><td>0</td><td>kWh</td><td>Estimated</td></tr>
+    <tr><td rowspan="3">Flags</td><td>7</td><td>0</td><td>1 bit</td><td>2850</td><td>Contactor Closed</td><td>1</td><td>0</td><td>-</td><td>0=Open,1=Closed</td></tr>
+    <tr><td>7</td><td>1</td><td>1 bit</td><td>2851</td><td>Insulation Fault</td><td>1</td><td>0</td><td>-</td><td>0=OK,1=Fault</td></tr>
+    <tr><td>7</td><td>2..7</td><td>6 bits</td><td>2852</td><td>Reserved</td><td>-</td><td>-</td><td>-</td><td>Set to 0</td></tr>
+  </tbody>
+</table>

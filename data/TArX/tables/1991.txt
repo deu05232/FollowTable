@@ -1,0 +1,30 @@
+<table>
+  <caption>Lower bounds on the conductance for our network datasets. Spectral lower bound applies to any cut, while the SDP lower bound applies to cuts at a specified volume fraction, taken here to be half. As small networks have low ratio of lower bounds, large networks have much higher ratios which demonstrates that in large networks good clusters tend to be relatively small. Description and the statistics of the networks are available at supporting website: http://snap.stanford.edu/ncp .</caption>
+  <tr><th></th><th>Spectral</th><th>SDP</th><th>ratio</th></tr>
+  <tr><th></th><th>lowerbnd</th><th>lowerbnd</th><th>of</th></tr>
+  <tr><th></th><th>on φ ,</th><th>on φ , at</th><th>lower</th></tr>
+  <tr><th>Network</th><th>any size.</th><th>Vol(G)/2</th><th>bnds</th></tr>
+  <tr><th>CollegeFootball [ newman_netdata ]</th><td>0.068402</td><td>0.091017</td><td>1.330624</td></tr>
+  <tr><th>MonksNetwork [ newman_netdata ]</th><td>0.069660</td><td>0.117117</td><td>1.681269</td></tr>
+  <tr><th>ZacharyKarate [ newman_netdata ]</th><td>0.066136</td><td>0.127625</td><td>1.929736</td></tr>
+  <tr><th>PowerGrid</th><td>0.000136</td><td>0.000268</td><td>1.978484</td></tr>
+  <tr><th>PoliticalBooks [ newman_netdata ]</th><td>0.018902</td><td>0.038031</td><td>2.011991</td></tr>
+  <tr><th>PoliticalBlogs [ newman_netdata ]</th><td>0.040720</td><td>0.084052</td><td>2.064157</td></tr>
+  <tr><th>RB-Hierarchical [ ravasz03_hierarchical ]</th><td>0.011930</td><td>0.030335</td><td>2.542792</td></tr>
+  <tr><th>Email-InOut</th><td>0.038669</td><td>0.113367</td><td>2.931752</td></tr>
+  <tr><th>NetworkScience [ newman_netdata ]</th><td>0.001513</td><td>0.004502</td><td>2.974695</td></tr>
+  <tr><th>As-Oregon</th><td>0.012543</td><td>0.042976</td><td>3.426417</td></tr>
+  <tr><th>Blog-nat05-6m</th><td>0.031604</td><td>0.108979</td><td>3.448250</td></tr>
+  <tr><th>Imdb-India</th><td>0.009104</td><td>0.033318</td><td>3.659573</td></tr>
+  <tr><th>Cit-hep-ph</th><td>0.007858</td><td>0.029243</td><td>3.721553</td></tr>
+  <tr><th>Bio-Proteins</th><td>0.033714</td><td>0.126137</td><td>3.741358</td></tr>
+  <tr><th>As-RouteViews</th><td>0.018681</td><td>0.070462</td><td>3.771821</td></tr>
+  <tr><th>Gnutella-31</th><td>0.029946</td><td>0.118711</td><td>3.964127</td></tr>
+  <tr><th>Imdb-Japan</th><td>0.003327</td><td>0.013396</td><td>4.026721</td></tr>
+  <tr><th>Gnutella-30</th><td>0.030621</td><td>0.124929</td><td>4.079853</td></tr>
+  <tr><th>DolphinsNetwork [ newman_netdata ]</th><td>0.019762</td><td>0.103676</td><td>5.246171</td></tr>
+  <tr><th>As-Newman</th><td>0.009681</td><td>0.058952</td><td>6.089191</td></tr>
+  <tr><th>AtP-gr-qc</th><td>0.000846</td><td>0.006040</td><td>7.141270</td></tr>
+  <tr><th>Cit-hep-th</th><td>0.009193</td><td>0.068880</td><td>7.492522</td></tr>
+  <tr><th>AtP-cond-mat</th><td>0.001703</td><td>0.013452</td><td>7.897650</td></tr>
+</table>

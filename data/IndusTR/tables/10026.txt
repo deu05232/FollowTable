@@ -1,0 +1,16 @@
+<table>
+  <caption>Session Abort / Termination Report Message (End-of-Session Diagnostics Only)</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>Parameter</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Message Identifier</td><td>1 byte</td><td>BYTE</td><td>MsgIdType</td><td>Fixed value identifying an end-of-session diagnostic report</td></tr>
+    <tr><td>2</td><td>End Trigger</td><td>1 byte</td><td>BYTE</td><td>EndTriggerType</td><td>0=Normal termination; 1=Abort; 2=Timeout stop; 3=Emergency stop</td></tr>
+    <tr><td>3</td><td>Abort Type</td><td>1 byte</td><td>BYTE</td><td>AbortType</td><td>Defines which side initiated abort (charger/vehicle/other)</td></tr>
+    <tr><td>4</td><td>Abort Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>AbortReasonType</td><td>Abort reason code used for debugging stop events</td></tr>
+    <tr><td>5</td><td>Termination Reason</td><td>1 byte</td><td>BYTE</td><td>TerminationReasonType</td><td>High-level reason why the charger stopped the session</td></tr>
+    <tr><td>6</td><td>Fault Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>FaultReasonType</td><td>Fault/protection reason causing stop (e.g., insulation fault, over-temp protection)</td></tr>
+    <tr><td>7</td><td>Error Reason</td><td>1 byte</td><td>BYTE</td><td>ErrorReasonType</td><td>Protocol/communication/error class leading to stop</td></tr>
+    <tr><td>8</td><td>Stop Source</td><td>1 byte</td><td>BYTE</td><td>StopSourceType</td><td>0=Charger local; 1=Remote command; 2=Vehicle request; 3=Safety interlock</td></tr>
+  </tbody>
+</table>

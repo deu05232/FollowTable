@@ -1,0 +1,18 @@
+# Outlook.com   Hotmail Manual Email Client Settings (POP, IMAP, SMTP)
+
+| Section | Configuration field | Value to enter | Notes |
+| --- | --- | --- | --- |
+| Account | Email address / Username | Full Outlook.com/Hotmail address (e.g., user@hotmail.com) | Use the full email address as the username |
+| Account | Password | Your Microsoft account password (or app password) | App password may be required if the client does not support modern auth |
+| Incoming (IMAP) | IMAP server hostname | outlook.office365.com | For Outlook.com/Hotmail IMAP access |
+| Incoming (IMAP) | IMAP port | 993 | Standard IMAP over SSL/TLS |
+| Incoming (IMAP) | IMAP encryption / security | SSL/TLS | Often shown as “SSL” or “SSL/TLS” |
+| Incoming (IMAP) | Authentication method | Normal password | Some apps may offer OAuth2; if unavailable use password/app password |
+| Incoming (POP) | POP server hostname | pop-mail.outlook.com | For POP access (downloads mail) |
+| Incoming (POP) | POP port | 995 | Standard POP over SSL/TLS |
+| Incoming (POP) | POP encryption / security | SSL/TLS | Required for secure POP |
+| Outgoing (SMTP) | SMTP server hostname | smtp-mail.outlook.com | Outgoing mail for Outlook.com/Hotmail |
+| Outgoing (SMTP) | SMTP port | 587 | Submission port |
+| Outgoing (SMTP) | SMTP encryption / security | STARTTLS (TLS) | Sometimes listed as “TLS” or “STARTTLS” |
+| Outgoing (SMTP) | SMTP authentication | Required | Use same username/password as incoming |
+| Outgoing (SMTP) | “Require sign-in” / “My server requires authentication” | Enabled | Must be turned on in most clients |

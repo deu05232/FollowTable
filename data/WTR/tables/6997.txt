@@ -1,0 +1,8 @@
+# BitTorrent protocol notes referencing clients (not a client list by OS)
+
+| Topic | Example mentioned | Note |
+| --- | --- | --- |
+| Traffic classification | BitComet | May be misclassified as HTTP |
+| Encryption behavior | μTorrent | Encrypted connections may look like SSL |
+| DHT usage | qBittorrent | Uses DHT by default |
+| Peer exchange | Transmission | Supports PEX |

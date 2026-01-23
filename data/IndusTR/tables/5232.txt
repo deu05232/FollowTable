@@ -1,0 +1,10 @@
+<table>
+  <caption>SOF Component Verify Timestamp Interface Definition</caption>
+  <tr><td>Prototype</td><td>LONG SOF_VerifyTimeStamp(BSTR InData,BSTR TSResData,BSTR Base64Cert)</td></tr>
+  <tr><td>Description</td><td>Verify timestamp</td></tr>
+  <tr><td rowspan="3">Parameters</td><td>InData (original text to be verified)</td></tr>
+  <tr><td>TSResData (Base64-encoded timestamp)</td></tr>
+  <tr><td>Base64Cert (Base64-encoded timestamp server certificate; when the timestamp server certificate is not included in the timestamp response, this parameter shall be passed in)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>SAR_OK (success)</td></tr>
+  <tr><td>Others (failure, return the error code defined in Table A.1)</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>Charging Handshake (CHM) Signal/SPN Layout</caption>
+  <thead>
+    <tr><th>Byte</th><th>Bit(s)</th><th>SPN</th><th>Signal Name</th><th>Length</th><th>Scaling / Offset</th><th>Unit</th><th>Value Definition</th><th>Tx/Rx</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>0..3</td><td>2601</td><td>Protocol Version Major</td><td>4 bits</td><td>1 / 0</td><td>-</td><td>0..15</td><td>Charger -> Vehicle</td></tr>
+    <tr><td>1</td><td>4..7</td><td>2602</td><td>Protocol Version Minor</td><td>4 bits</td><td>1 / 0</td><td>-</td><td>0..15</td><td>Charger -> Vehicle</td></tr>
+    <tr><td>2</td><td>0..7</td><td>2603</td><td>Session Type</td><td>8 bits</td><td>1 / 0</td><td>-</td><td>0=Normal, 1=Maintenance, 2=Demo</td><td>Charger -> Vehicle</td></tr>
+    <tr><td>3</td><td>0</td><td>2604</td><td>Handshake Ready</td><td>1 bit</td><td>1 / 0</td><td>-</td><td>0=Not ready, 1=Ready</td><td>Charger -> Vehicle</td></tr>
+    <tr><td>3</td><td>1</td><td>2605</td><td>Auth Required</td><td>1 bit</td><td>1 / 0</td><td>-</td><td>0=No, 1=Yes</td><td>Charger -> Vehicle</td></tr>
+    <tr><td>3</td><td>2..7</td><td>2606</td><td>Reserved</td><td>6 bits</td><td>-</td><td>-</td><td>Set to 0</td><td>Charger -> Vehicle</td></tr>
+  </tbody>
+</table>

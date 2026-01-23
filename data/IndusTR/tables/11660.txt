@@ -1,0 +1,12 @@
+<table>
+  <caption>Protocol Field Catalog + Example (Command C3H with ECn)</caption>
+  <tr><th>Field</th><th>Description</th><th>Typical Value</th><th>Byte Length</th></tr>
+  <tr><td>Start Symbol</td><td>Frame header marker</td><td>55H AAH 55H AAH</td><td>4</td></tr>
+  <tr><td>KADDL</td><td>Sub-unit address</td><td>01H</td><td>1</td></tr>
+  <tr><td>Command</td><td>Control code</td><td>C3H</td><td>1</td></tr>
+  <tr><td>Length</td><td>Payload length</td><td>0006H</td><td>2</td></tr>
+  <tr><td>ECn</td><td>Status byte for the nth device</td><td>00H/01H</td><td>N</td></tr>
+  <tr><td>CRC-16</td><td>Checksum</td><td>xxxxH</td><td>2</td></tr>
+  <tr><td>End Symbol</td><td>Frame terminator</td><td>0DH</td><td>1</td></tr>
+  <tr><td colspan="4">Example: 55 AA 55 AA 01 C3 00 06 01 01 00 01 00 00 CRC 0D (example shown together with field definitions).</td></tr>
+</table>

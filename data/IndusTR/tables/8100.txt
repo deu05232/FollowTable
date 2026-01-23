@@ -1,0 +1,19 @@
+<table>
+  <caption>Official Vehicle Management Platform — User and Organization Master Data Dictionary</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Data Item Name</th><th>Data Type</th><th>Data Format</th><th>Technical Definition (Stored Form)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>User ID</td><td>Character</td><td>an..32</td><td>Unique platform user identifier; stored as a case-sensitive alphanumeric string (no spaces).</td></tr>
+    <tr><td>2</td><td>Login Name</td><td>Character</td><td>an..50</td><td>Username used for authentication; stored as alphanumeric string, trimmed, no leading/trailing spaces.</td></tr>
+    <tr><td>3</td><td>Organization ID</td><td>Character</td><td>an..30</td><td>Unique identifier of the vehicle-using organization; stored as alphanumeric string.</td></tr>
+    <tr><td>4</td><td>Organization Name</td><td>Character</td><td>an..100</td><td>Display name of the organization; stored as UTF-8 string up to 100 characters.</td></tr>
+    <tr><td>5</td><td>Department Code</td><td>Character</td><td>an..20</td><td>Department identifier used for routing/approval; stored as alphanumeric code, uppercase recommended.</td></tr>
+    <tr><td>6</td><td>Role Code</td><td>Character</td><td>an..20</td><td>Authorization role identifier (e.g., DISPATCHER); stored as alphanumeric code.</td></tr>
+    <tr><td>7</td><td>Mobile Number</td><td>Character</td><td>n..11</td><td>User mobile phone number; stored as an 11-digit numeric string (no separators).</td></tr>
+    <tr><td>8</td><td>Email Address</td><td>Character</td><td>an..254</td><td>Email address; stored as string, max 254 chars; must contain exactly one '@'.</td></tr>
+    <tr><td>9</td><td>Account Status</td><td>Character</td><td>an..1</td><td>Account state flag; stored as single character: '0' disabled, '1' enabled.</td></tr>
+    <tr><td>10</td><td>Created Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Record creation timestamp; stored as 14-digit timestamp string.</td></tr>
+    <tr><td>11</td><td>Updated Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td>Last update timestamp; stored as 14-digit timestamp string.</td></tr>
+  </tbody>
+</table>

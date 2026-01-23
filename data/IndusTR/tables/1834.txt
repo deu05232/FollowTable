@@ -1,0 +1,11 @@
+<table>
+  <caption>Video Image Focused Target Area Information Data Items</caption>
+  <tr><td>Serial No.</td><td>Name</td><td>Identifier</td><td>Representation Format</td><td>Description</td><td>Referenced Data Element</td></tr>
+  <tr><td>1</td><td>Target Area Identifier</td><td>mbqybz</td><td>c..8</td><td>Target area code in the video/image</td><td></td></tr>
+  <tr><td>2</td><td>Top-left Corner_X Coordinate</td><td>zsj_xzb</td><td>n.8</td><td>X coordinate of the top-left corner of the target area bounding rectangle, unit: pixel; with the top-left pixel of the image as the origin, rightward is the positive X-axis direction, and downward is the positive Y-axis direction</td><td></td></tr>
+  <tr><td>3</td><td>Top-left Corner_Y Coordinate</td><td>zsj_yzb</td><td>n..8</td><td>Y coordinate of the top-left corner of the target area bounding rectangle, unit: pixel</td><td></td></tr>
+  <tr><td>4</td><td>Bottom-right Corner_X Coordinate</td><td>yxj_xzb</td><td>n..8</td><td>X coordinate of the bottom-right corner of the target area bounding rectangle, unit: pixel</td><td></td></tr>
+  <tr><td>5</td><td>Bottom-right Corner_Y Coordinate</td><td>yxj_yzb</td><td>n..8</td><td>Y coordinate of the bottom-right corner of the target area bounding rectangle, unit: pixel</td><td></td></tr>
+  <tr><td>6</td><td>Video Segment Identifier</td><td>sppdbz</td><td>c41</td><td>Code of the video segment containing the target area; should comply with the coding rules specified in C.2</td><td></td></tr>
+  <tr><td>7</td><td>Image Identifier</td><td>txbz</td><td>c41</td><td>Code of the image containing the target area; should comply with the coding rules specified in C.2</td><td></td></tr>
+</table>

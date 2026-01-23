@@ -1,0 +1,16 @@
+<table>
+  <caption>Data Link Layer Version Negotiation Response / Decision Payload (Responder Reply)</caption>
+  <thead>
+    <tr><th>Field No.</th><th>Field Name</th><th>Size</th><th>Encoding</th><th>Value Mapping</th><th>Negotiation Meaning</th><th>Rules / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Message Type</td><td>1 byte</td><td>UINT8</td><td>0x11 = VersionResponse</td><td>Identifies this payload as the response in the version handshake.</td><td>Must be 0x11 for responder replies.</td></tr>
+    <tr><td>2</td><td>Result Code</td><td>1 byte</td><td>UINT8 enum</td><td>0x00 = Continue; 0x01 = Success; 0x02 = Failure</td><td>Conveys the responder’s decision: keep negotiating, accept a common version, or terminate.</td><td>If Failure, the peer should stop retrying and fall back or abort link setup.</td></tr>
+    <tr><td>3</td><td>Selected / Expected Version</td><td>3 bytes</td><td>BYTE[3] (major, minor, patch)</td><td>Example: 0x02 0x00 0x00 = V2.0.0; If Failure then 0xFF 0xFF 0xFF</td><td>When Success: the agreed common version. When Continue: the version the responder expects the initiator to try next. When Failure: sentinel value.</td><td>Initiator should compare numerically and decide whether it supports the expected version.</td></tr>
+    <tr><td>4</td><td>Responder Highest Supported</td><td>3 bytes</td><td>BYTE[3]</td><td>Example: 0x02 0x01 0x00</td><td>Lets initiator understand responder capability ceiling to choose a compatible downgrade.</td><td>Useful for faster convergence; may be echoed from local capability table.</td></tr>
+    <tr><td>5</td><td>Reason Code</td><td>1 byte</td><td>UINT8 enum</td><td>0x00 = null; 0x01 = UnsupportedVersion; 0x02 = BelowMinimum; 0x03 = FormatError; 0x04 = PolicyReject</td><td>Explains why Continue/Failure happened, enabling deterministic retry strategy.</td><td>If Result=Success, set Reason=0x00.</td></tr>
+    <tr><td>6</td><td>Transaction ID</td><td>2 bytes</td><td>UINT16 (big-endian)</td><td>Echo of request Transaction ID</td><td>Associates the response with a specific request attempt (supports retry without confusion).</td><td>Must match the received request; otherwise ignore as stale.</td></tr>
+    <tr><td>7</td><td>Retry-After</td><td>2 bytes</td><td>UINT16 (milliseconds, big-endian)</td><td>0x0000 = no delay; else wait value</td><td>When Continue: suggests a backoff before sending the next attempt.</td><td>Receiver may ignore, but honoring it reduces collision in half-duplex links.</td></tr>
+    <tr><td>8</td><td>Integrity Check</td><td>1 byte</td><td>UINT8 (XOR of bytes 1..7)</td><td>Example: checksum = b1 XOR b2 XOR ... XOR b7</td><td>Detects payload corruption specifically for the negotiation decision.</td><td>If checksum mismatch, treat as FormatError and request retry or fail per local policy.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Standard chemical potentials and computed reaction free energies for ATP/ADP/Pi conversions (example metabolite set)</caption>
+  <thead>
+    <tr><th rowspan="2">Species / Reaction</th><th colspan="2">Thermodynamic quantity</th><th rowspan="2">Unit</th><th rowspan="2">Comment</th></tr>
+    <tr><th>Symbol</th><th>Value</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ATP (aq)</td><td>μ°</td><td>-2770</td><td>kJ/mol</td><td>Standard chemical potential (illustrative dataset)</td></tr>
+    <tr><td>ADP (aq)</td><td>μ°</td><td>-1900</td><td>kJ/mol</td><td>Standard chemical potential</td></tr>
+    <tr><td>Inorganic phosphate, Pi (aq)</td><td>μ°</td><td>-1090</td><td>kJ/mol</td><td>Standard chemical potential</td></tr>
+    <tr><td>Water, H2O (l)</td><td>μ°</td><td>-237.1</td><td>kJ/mol</td><td>Included for reaction bookkeeping</td></tr>
+    <tr><td>ATP + H2O → ADP + Pi</td><td>ΔG°</td><td>-29.0</td><td>kJ/mol</td><td>Computed as Σμ°(products) − Σμ°(reactants)</td></tr>
+    <tr><td>ATP + H2O → AMP + PPi</td><td>ΔG°</td><td>-44.0</td><td>kJ/mol</td><td>Higher standard energy release than ADP-forming hydrolysis</td></tr>
+    <tr><td>PPi + H2O → 2 Pi</td><td>ΔG°</td><td>-18.0</td><td>kJ/mol</td><td>Often drives biosynthesis via PPi removal</td></tr>
+  </tbody>
+</table>

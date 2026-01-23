@@ -1,0 +1,10 @@
+<table>
+  <caption>Runtime Defaults for Elementary Operators (Environment & Scheduling)</caption>
+  <tr><th>Operator</th><th>Default Runtime</th><th>Threading Model</th><th>Num Threads</th><th>Stream/Queue</th><th>Memory Allocator</th><th>Fallback Policy</th></tr>
+  <tr><td>Add</td><td>Eager</td><td>OMP</td><td>8</td><td>CPU-Queue-0</td><td>Arena</td><td>Fallback to scalar kernel</td></tr>
+  <tr><td>Sub</td><td>Eager</td><td>OMP</td><td>8</td><td>CPU-Queue-0</td><td>Arena</td><td>Fallback to scalar kernel</td></tr>
+  <tr><td>Mul</td><td>Graph</td><td>Worker Pool</td><td>16</td><td>GPU-Stream-1</td><td>Caching</td><td>Fallback to CPU if OOM</td></tr>
+  <tr><td>Div</td><td>Graph</td><td>Worker Pool</td><td>16</td><td>GPU-Stream-1</td><td>Caching</td><td>Fallback to reciprocal-mul</td></tr>
+  <tr><td>Pow</td><td>Eager</td><td>Single Thread</td><td>1</td><td>CPU-Queue-0</td><td>System</td><td>Fallback to libm</td></tr>
+  <tr><td>Mod</td><td>Eager</td><td>OMP</td><td>4</td><td>CPU-Queue-0</td><td>Arena</td><td>Fallback to reference impl</td></tr>
+</table>

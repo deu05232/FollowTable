@@ -1,0 +1,41 @@
+<table>
+  <caption>Photoelectric Characteristics of APD+TIA-Type Detector Assembly</caption>
+  <tr><td>Parameter name</td><td>Symbol</td><td>Conditions</td><td>Minimum</td><td>Maximum</td><td>Unit</td></tr>
+  <tr><td>Spectral response range</td><td>λ</td><td></td><td>1260</td><td>1700</td><td>nm</td></tr>
+  <tr><td>Avalanche multiplication factor</td><td>M</td><td>VR:0.90VBR～0.98VBRλ=1310 nm、input optical power 1μW</td><td>3</td><td>15</td><td>1</td></tr>
+  <tr><td>ORL</td><td>—</td><td>High return loss</td><td>26</td><td>1</td><td>dB</td></tr>
+  <tr><td>Breakdown voltage</td><td>VBR</td><td>Id=10 μA or Id=100 μA</td><td>15</td><td>75</td><td>V</td></tr>
+  <tr><td>Temperature coefficient of breakdown voltage</td><td>Γ</td><td></td><td></td><td>0.2</td><td>v/℃</td></tr>
+  <tr><td rowspan="7">Sensitivity</td><td rowspan="7">S</td><td>155 MBd,PRBS:2²³-1,BER:10-10 ,ER:10 dB</td><td></td><td>-43</td><td>dBm</td></tr>
+  <tr><td>622 MBd,PRBS:223-1,BER:10-10 ,ER:10 dB</td><td></td><td>-34</td><td>dBm</td></tr>
+  <tr><td>1.25 GBd,PRBS：223-1,BER:10-10,ER:10 dB</td><td></td><td>-31</td><td>dBm</td></tr>
+  <tr><td>2.488 32 GBd,PRBS: 23-1,BER:10-10 ,ER:10 dB</td><td></td><td>-28</td><td>dBm</td></tr>
+  <tr><td>10.312 5 GBd,PRBS:231-1,BER:10-12,ER:10 dB</td><td></td><td>-24</td><td>dBm</td></tr>
+  <tr><td>25.78 GBd,PRBS: 2³1-1,BER:5×10-5 ,ER:4.5 dB</td><td></td><td>-18.8</td><td>dBm</td></tr>
+  <tr><td>26.5625 GBd,PRBS31QPAM4,BER:2.4×10-4,ER:4.5 dB</td><td></td><td>-15.1</td><td>dBm</td></tr>
+  <tr><td rowspan="3">Stressed sensitivitya,b</td><td rowspan="3"></td><td>155 MBd,PRBS:22³-1,BER:10-10,ER:10 dB</td><td></td><td></td><td>dBm</td></tr>
+  <tr><td>622 MBd,PRBS: 223-1,BER:10-10,ER:10 dB</td><td></td><td>—</td><td>dBm</td></tr>
+  <tr><td>1.25 GBd,PRBS：223-1,BER:10-10,ER:10 dB</td><td></td><td></td><td>dBm</td></tr>
+  <tr><td rowspan="4">Stressed sensitivitya,b</td><td rowspan="4"></td><td>2.488 32 GBd,PRBS: 223-1,BER:10-10,ER:10 dB</td><td></td><td></td><td>dBm</td></tr>
+  <tr><td>10.312 5 GBd,PRBS：2³1-1,BER:10-1²,ER:10 dB</td><td></td><td></td><td>dBm</td></tr>
+  <tr><td>25.78 GBd,PRBS: 2³1-1,BER:5×10-5 ,ER:4.5 dB</td><td></td><td>-16.3</td><td>dBm</td></tr>
+  <tr><td>26.562 5 GBd,PRBS31QPAM4,BER:2.4×10-4,ER:4.5 dB</td><td></td><td>-13.3</td><td>dBm</td></tr>
+  <tr><td rowspan="7">Overload optical powera</td><td rowspan="7"></td><td>155 MBd,PRBS:22³-1,BER:10-10,ER:10 dB</td><td>-10</td><td></td><td>dBm</td></tr>
+  <tr><td>622 MBd,PRBS:2³-1,BER:10-10 ,ER:10 dB</td><td>-10</td><td></td><td>dBm</td></tr>
+  <tr><td>1.25 GBd,PRBS: 22³-1,BER:10-10 ,ER:10 dB</td><td>-8</td><td></td><td>dBm</td></tr>
+  <tr><td>2.488 32 GBd,PRBS:2²3-1,BER:10-10,ER:10 dB</td><td>18</td><td></td><td>dBm</td></tr>
+  <tr><td>10.312 5 GBd,PRBS:231-1,BER:10-12,ER:10 dB</td><td>-7</td><td></td><td>dBm</td></tr>
+  <tr><td>25.78 GBd,PRBS:2³1-1,BER:5×10-5 ,ER:4.5 dB</td><td>-4</td><td></td><td>dBm</td></tr>
+  <tr><td>26.562 5 GBd,PRBS31Q PAM4,BER:2.4X10-4,ER:4.5 dB</td><td>-3.4</td><td></td><td>dBm</td></tr>
+  <tr><td rowspan="9">Receiver bandwidtha(-3dB)</td><td rowspan="9">B</td><td>155 MBd application</td><td>77.5</td><td></td><td>MHz</td></tr>
+  <tr><td>622 MBd application</td><td>311</td><td></td><td>MHz</td></tr>
+  <tr><td>1.25 GBd application</td><td>625</td><td></td><td>MHz</td></tr>
+  <tr><td>2.488 32 GBd application</td><td>1.25</td><td></td><td>GHz</td></tr>
+  <tr><td>10.312 5 GBd application</td><td>5</td><td></td><td>GHz</td></tr>
+  <tr><td>25.78 GBd application      SAC</td><td>12.5</td><td></td><td>GHz</td></tr>
+  <tr><td>49.7664 Bd application</td><td>25</td><td></td><td>GHz</td></tr>
+  <tr><td>26.562 5 GBd(PAM4) application</td><td>16</td><td></td><td>GHz</td></tr>
+  <tr><td>53.125 GBd(PAM4) application</td><td>27</td><td></td><td>GHz</td></tr>
+  <tr><td colspan="6">Note: Parameters such as sensitivity, stressed sensitivity, and overload optical power for 49.766 4GBd and 53.125 GBd are TBD.</td></tr>
+  <tr><td colspan="6">aλ=1 310 nm,NRZ (unless otherwise specified),Vr=3.3V。b The jitter applied for the 25.78 GBd stressed sensitivity shall comply with Table 114-4 and Table114-10 in IEEE 802.3—2022; the jitter applied for the 26.562 5 GBd stressed sensitivity shall comply with Table139-7 and Table121-12 in IEEE 802.3—2022.</td></tr>
+</table>

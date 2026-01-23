@@ -1,0 +1,8 @@
+<table>
+  <caption>Specific Requirements for Instrument Parameter Configuration Features</caption>
+  <tr><td colspan="2">Instrument Category</td><td>Feature Requirements</td></tr>
+  <tr><td colspan="2">Measuring Instruments</td><td>The basic configurable parameters that shall be supported include: filtering parameters, upper range limit, lower range limit, display unit, alarm parameters, damping coefficient, output parameters. Instrument-specific configuration parameters include: a) Pressure measuring instruments: zero adjustment, square-root extraction setpoint (applicable to differential pressure instruments); b) Flow measuring instruments: zero adjustment; c) Temperature measuring instruments: sensor type</td></tr>
+  <tr><td colspan="2">Analytical Instruments</td><td>The basic configurable parameters that shall be supported include: user access permissions, upper range limit, lower range limit, display unit, calibration mode (e.g., automatic calibration, manual calibration), alarm parameters, damping coefficient</td></tr>
+  <tr><td rowspan="2">Actuators</td><td>Electric/Electro-hydraulic Actuators</td><td>The basic configurable parameters that shall be supported include: open/close torque, maximum thrust, travel, torque, remote/local control, output parameters</td></tr>
+  <tr><td>Pneumatic/Pneumatic-hydraulic Actuators and Their Matched Valve Positioners</td><td>The basic configurable parameters that shall be supported include: valve/actuator type, upper and lower limits of input range, calibration mode (e.g., automatic calibration, manual calibration), control characteristic configuration</td></tr>
+</table>

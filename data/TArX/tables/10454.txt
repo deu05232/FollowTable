@@ -1,0 +1,15 @@
+<table>
+  <caption>Measured optical-mode-dependent coupling parameters with cavity linewidth for an optomechanical microdisk (multiple optical modes)</caption>
+  <thead>
+    <tr><th rowspan="2">Optical mode label</th><th colspan="3">Optical cavity metrics</th><th colspan="3">Optomechanical coupling metrics</th><th rowspan="2">Strong-coupling relevance note</th></tr>
+    <tr><th>Loaded Q (Ql)</th><th>Intrinsic Q (Qi)</th><th>κ/2π (MHz)</th><th>G/2π (GHz/nm)</th><th>g0/2π (kHz)</th><th>Sideband ratio Ωm/κ</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TE(31,1)</td><td>9.2×10^5</td><td>3.0×10^5</td><td>205</td><td>52</td><td>36</td><td>2.4</td><td>Resolved-sideband; g0 moderate</td></tr>
+    <tr><td>TE(30,2)</td><td>6.8×10^5</td><td>2.4×10^5</td><td>278</td><td>50</td><td>34</td><td>1.8</td><td>Higher κ reduces single-photon cooperativity</td></tr>
+    <tr><td>TE(28,2)</td><td>4.1×10^5</td><td>2.9×10^5</td><td>460</td><td>49</td><td>32</td><td>1.1</td><td>Borderline Ωm≈κ; needs higher Qi for strong coupling</td></tr>
+    <tr><td>TE(27,3)</td><td>3.2×10^5</td><td>1.6×10^5</td><td>590</td><td>48</td><td>30</td><td>0.85</td><td>Not deeply sideband-resolved</td></tr>
+    <tr><td>TM(25,1)</td><td>2.6×10^5</td><td>1.1×10^5</td><td>720</td><td>44</td><td>24</td><td>0.70</td><td>Lower G and g0; weaker strong-coupling prospects</td></tr>
+    <tr><td>TM(24,2)</td><td>1.9×10^5</td><td>0.9×10^5</td><td>980</td><td>41</td><td>20</td><td>0.52</td><td>Large κ dominates; strong coupling unlikely without feedback/boost</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Test Environment Requirements for Service Description Conformance Validation</caption>
+  <tr><th>Category</th><th>Parameter</th><th>Requirement</th><th>Measurement Method</th><th>Acceptance Criteria</th><th>Notes</th></tr>
+  <tr><td>Network</td><td>Latency</td><td>< 50 ms</td><td>ping (100 samples)</td><td>P95 < 50 ms</td><td>Between validator and registry</td></tr>
+  <tr><td>Network</td><td>Packet Loss</td><td>< 0.1%</td><td>iperf3</td><td>< 0.1%</td><td>Stable link required</td></tr>
+  <tr><td>Compute</td><td>CPU Headroom</td><td>> 30%</td><td>node exporter</td><td>> 30%</td><td>Avoid noisy neighbors</td></tr>
+  <tr><td>Compute</td><td>Memory Headroom</td><td>> 25%</td><td>node exporter</td><td>> 25%</td><td>Ensure GC stability</td></tr>
+  <tr><td>Time</td><td>NTP Skew</td><td>< 100 ms</td><td>chronyc tracking</td><td>< 100 ms</td><td>Required for signed artifacts</td></tr>
+  <tr><td>Tools</td><td>Validator Version</td><td>v2.4+</td><td>Version check</td><td>Matches baseline</td><td>Reproducible runs</td></tr>
+</table>

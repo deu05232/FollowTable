@@ -1,0 +1,10 @@
+# Outlook.com (Hotmail) IMAP SMTP Connection Ports and Encryption Reference
+
+| Protocol | Direction | Server Port | Encryption / Security | Notes |
+|---|---|---:|---|---|
+| IMAP | Incoming | 993 | SSL/TLS (implicit) | Standard secure IMAP port |
+| IMAP | Incoming | 143 | STARTTLS (TLS upgrade) | Use only if client requires explicit TLS |
+| SMTP | Outgoing | 587 | STARTTLS (TLS upgrade) | Recommended submission port |
+| SMTP | Outgoing | 465 | SSL/TLS (implicit) | Alternative when 587/STARTTLS isn’t available |
+| SMTP | Outgoing | 25 | STARTTLS (TLS upgrade) | Often blocked by ISPs; not preferred for clients |
+| SMTP | Outgoing | 2525 | STARTTLS (TLS upgrade) | Fallback port sometimes supported by networks |

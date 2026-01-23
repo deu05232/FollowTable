@@ -1,0 +1,10 @@
+<table>
+  <caption>CC Packet Syntax</caption>
+  <tr><th>CC Packet Syntax</th><th>Descriptor</th></tr>
+  <tr><td>CC_packet(){</td><td></td></tr>
+  <tr><td>packet_start_code</td><td>f(16)</td></tr>
+  <tr><td>packet_length</td><td>u(16)</td></tr>
+  <tr><td>CC_sequence_number</td><td>u(8)</td></tr>
+  <tr><td>CC_sample_count</td><td>u(8)</td></tr>
+  <tr><td>}</td><td></td></tr>
+</table>

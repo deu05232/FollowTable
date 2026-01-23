@@ -1,0 +1,14 @@
+<table>
+  <caption>SpaceFibre Physical Layer Electrical Requirements (Bundled Values per Parameter)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Value</th><th>Unit</th><th>Conditions / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Output swing and termination guidance</td><td>VTX</td><td>Provide 400 mVppd typical into 100 Ω differential; acceptable operation 300–600 mVppd depending on equalization and cable loss; ensure common-mode 0.8–1.2 V</td><td>mV / Ω / V</td><td>Single cell bundles swing, impedance, and common-mode</td></tr>
+    <tr><td>Input sensitivity and overload</td><td>VRX</td><td>Receiver shall operate from 150 mVppd up to 900 mVppd; below 150 mVppd may require pre-emphasis; above 900 mVppd may clip unless attenuated</td><td>mV</td><td>Combined sensitivity+overload in one paragraph</td></tr>
+    <tr><td>Return loss mask (differential)</td><td>Sdd11</td><td>Meets mask: ≤ −10 dB from 100 MHz to 1 GHz, then linearly relaxing to ≤ −6 dB at Nyquist; apply to connector + PCB footprint</td><td>dB</td><td>Mask described as text instead of explicit limit columns</td></tr>
+    <tr><td>Deterministic + random jitter tolerance</td><td>JTOL</td><td>Must tolerate sinusoidal jitter 0.15 UI @ 10 MHz and 0.30 UI @ 1 MHz; random jitter budget 0.05 UI rms; total jitter depends on data rate</td><td>UI</td><td>Multiple cases and rates bundled in one cell</td></tr>
+    <tr><td>Transmit de-emphasis / pre-emphasis</td><td>DE</td><td>Support 0 to −6 dB de-emphasis; recommend −3 dB at long-reach; step size 0.5 dB or finer if possible</td><td>dB</td><td>No clear min/typ/max column structure</td></tr>
+    <tr><td>Skew and lane alignment capability</td><td>SK</td><td>Lane-to-lane skew compensation up to 2 UI; alignment marker interval configurable (e.g., 1024–8192 symbols)</td><td>UI / symbols</td><td>Mixes two different metrics in one value cell</td></tr>
+  </tbody>
+</table>

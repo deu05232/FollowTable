@@ -1,0 +1,15 @@
+<table>
+  <caption>Additive Manufacturing Process Routes by Material Family and Activation/Energy Input</caption>
+  <thead>
+    <tr><th rowspan="2">Material family</th><th colspan="5">Activation / energy-input category</th></tr>
+    <tr><th>Laser / photon</th><th>Electron beam</th><th>Thermal (resistance, induction, IR, UV heating, microwave)</th><th>Chemical / catalytic</th><th>Other (acoustic, magnetic-field assisted, etc.)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metals</td><td>Laser powder bed fusion (LPBF); Laser directed energy deposition (L-DED)</td><td>Electron-beam powder bed fusion (EB-PBF); Electron-beam DED</td><td>Thermal sheet lamination of metal foils; Furnace-assisted sintering after shaping</td><td>Binder jetting + debind/sinter (chemical binder-based activation route)</td><td>Ultrasonic additive manufacturing (UAM) of metal foils (solid-state)</td></tr>
+    <tr><td>Polymers</td><td>Stereolithography / vat photopolymerization (SLA/DLP); Laser sintering (polymer PBF)</td><td></td><td>Material extrusion with heated liquefier (MEX/FDM); Thermal sheet lamination (polymer)</td><td>Reaction-based printing of thermosets (in-situ curing chemistry)</td><td>Cold-spray-like polymer deposition (non-beam, non-melt route, where applicable)</td></tr>
+    <tr><td>Inorganic non-metals (ceramics, glasses)</td><td>Laser sintering of ceramic green bodies; Laser-assisted slurry curing (where used)</td><td>Electron-beam sintering / melting of select ceramics (research/limited)</td><td>Thermal binder burnout + sintering after shaping; Thermal sheet lamination of ceramic tapes</td><td>Chemical binder jetting of ceramics + post-sinter; Sol–gel type reaction-bonded routes</td><td>Robocasting with ambient solidification + furnace firing (listed here as non-beam activation plus post-thermal)</td></tr>
+    <tr><td>Biomaterials (hard/soft tissue constructs)</td><td>Photo-crosslinking bioprinting (light-activated hydrogels); Laser-assisted bioprinting (LAB)</td><td></td><td>Thermally induced gelation printing (temperature-triggered hydrogels); Heated extrusion of biopolymers</td><td>Enzymatic or ionic crosslinking bioprinting (e.g., Ca2+-triggered gels)</td><td>Acoustic-field assisted bioprinting / cell patterning (non-thermal)</td></tr>
+    <tr><td>Composites (polymer–ceramic, fiber-reinforced)</td><td>Photopolymer composite vat processing (filled resins); Laser sintering of composite powders</td><td></td><td>Thermally consolidated laminated composites; Heated-extrusion short-fiber composites</td><td>Chemically cured composite printing (two-part systems)</td><td>Magnetic-field aligned composite printing (field-assisted)</td></tr>
+    <tr><td>Functional materials (conductive inks, pastes)</td><td>Laser curing / laser sintering of printed traces</td><td></td><td>Thermal curing / sintering of printed electronics</td><td>Electroless deposition / chemical reduction after printing</td><td>Photonic flash sintering (non-laser intense light) as an alternative energy input</td></tr>
+  </tbody>
+</table>

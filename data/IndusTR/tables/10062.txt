@@ -1,0 +1,17 @@
+<table>
+  <caption>Bitstream conformance traversal requirements for inter prediction and motion syntax elements (GB/T 33475.2—2024 references)</caption>
+  <thead>
+    <tr><th>Syntax element name</th><th>Conformance test requirements (cases / ranges to traverse)</th><th>Standard reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>inter_pred_idc</td><td>Traverse all allowed values (e.g., L0-only, L1-only, Bi) as constrained by slice type and reference availability; for each value verify only the corresponding list’s motion syntax elements are present.</td><td>GB/T 33475.2—2024, inter prediction syntax</td></tr>
+    <tr><td>ref_idx_l0</td><td>Traverse ref_idx_l0 across its allowed range: 0, (num_ref_idx_l0_active_minus1), and at least one middle value when range > 1; also include the case where only one reference exists (range collapses to 0).</td><td>GB/T 33475.2—2024, reference index signaling</td></tr>
+    <tr><td>ref_idx_l1</td><td>Traverse ref_idx_l1 across its allowed range analogously to ref_idx_l0, including boundary and mid values subject to num_ref_idx_l1_active_minus1 constraints.</td><td>GB/T 33475.2—2024, reference index signaling</td></tr>
+    <tr><td>mvp_l0_flag</td><td>Traverse mvp_l0_flag = 0 and 1; verify that the selected MVP candidate index and derived motion vector follow the correct candidate list construction rules.</td><td>GB/T 33475.2—2024, motion vector prediction syntax</td></tr>
+    <tr><td>mvp_l1_flag</td><td>Traverse mvp_l1_flag = 0 and 1 under L1/Bi modes; ensure it is absent in modes where L1 is not used, and present/parsed when required.</td><td>GB/T 33475.2—2024, motion vector prediction syntax</td></tr>
+    <tr><td>mvd_l0</td><td>When signaled, traverse motion vector difference values covering: {0, ±1, small magnitude, and a large magnitude near the maximum representable/allowed limit}; include both horizontal and vertical components; verify clipping/derivation per the standard.</td><td>GB/T 33475.2—2024, MVD coding and limits</td></tr>
+    <tr><td>mvd_l1</td><td>Traverse the same boundary/representative set as mvd_l0 but in L1/Bi contexts; include a case where one list has zero MVD and the other has non-zero MVD.</td><td>GB/T 33475.2—2024, MVD coding and limits</td></tr>
+    <tr><td>merge_flag</td><td>Traverse merge_flag = 0 and 1; when merge_flag = 1, verify non-merge motion syntax elements are absent and merge candidate signaling is present; when 0, verify normal inter signaling path is present.</td><td>GB/T 33475.2—2024, merge mode syntax</td></tr>
+    <tr><td>merge_idx</td><td>When merge_flag = 1, traverse merge_idx across its valid range: 0 and (MaxNumMergeCand-1) plus at least one middle value if applicable; also cover reduced candidate count cases due to availability constraints.</td><td>GB/T 33475.2—2024, merge candidate index signaling</td></tr>
+  </tbody>
+</table>

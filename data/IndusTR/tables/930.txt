@@ -1,0 +1,28 @@
+<table>
+  <caption>Limiting Operating Conditions of Photodetector Assemblies</caption>
+  <tr><td colspan="2">Parameter name</td><td>Minimum</td><td>Maximum</td><td>Unit</td></tr>
+  <tr><td colspan="2">Storage temperature</td><td>-40</td><td>+85</td><td>℃</td></tr>
+  <tr><td colspan="2">Storage relative humidity</td><td>5</td><td>95</td><td>%</td></tr>
+  <tr><td rowspan="2">Operating case temperature</td><td>Commercial grade</td><td>-5</td><td>+75</td><td>℃</td></tr>
+  <tr><td>Industrial grade</td><td>-40</td><td>+90</td><td>℃</td></tr>
+  <tr><td colspan="2">Soldering temperature</td><td>—</td><td>360a</td><td>℃</td></tr>
+  <tr><td rowspan="5">Input optical power</td><td>PIN + TIA photodetector assembly</td><td></td><td>4.5</td><td>dBm</td></tr>
+  <tr><td>APD + TIA photodetector assembly</td><td></td><td>0</td><td>dBm</td></tr>
+  <tr><td>PIN photodetector assembly</td><td></td><td>4.5</td><td>dBm</td></tr>
+  <tr><td>PIN+TIA+SOA photodetector assembly</td><td></td><td>5.5</td><td>dBm</td></tr>
+  <tr><td>APD+TIA+SOA photodetector assembly</td><td></td><td>0</td><td>dBm</td></tr>
+  <tr><td rowspan="2">TIA operating voltage</td><td>SAC   3.3V</td><td>-0.5</td><td>+4.0</td><td>V</td></tr>
+  <tr><td>5V</td><td>-0.5</td><td>+6.0</td><td>V</td></tr>
+  <tr><td rowspan="2">Reverse bias voltage(VR)</td><td>PIN</td><td>-0.5</td><td>+20.0</td><td>V</td></tr>
+  <tr><td>APD</td><td>0</td><td>VBR</td><td>V</td></tr>
+  <tr><td colspan="2">SOA operating current</td><td>—</td><td>200</td><td>mA</td></tr>
+  <tr><td colspan="2">SOA operating voltage</td><td></td><td>2</td><td>V</td></tr>
+  <tr><td colspan="2">TEC current</td><td></td><td>1.2</td><td>mA</td></tr>
+  <tr><td colspan="2">TEC voltage</td><td></td><td>2.6</td><td>V</td></tr>
+  <tr><td rowspan="2">ESD threshold</td><td>PIN-type detector assembly</td><td></td><td>100</td><td>V</td></tr>
+  <tr><td>Other than PIN-type detector assemblies</td><td>—</td><td>300</td><td>V</td></tr>
+  <tr><td colspan="2" rowspan="2">Minimum pigtail bend radius</td><td>30</td><td>—</td><td>mm</td></tr>
+  <tr><td>15b</td><td></td><td>mm</td></tr>
+  <tr><td colspan="2">Maximum pigtail tensile strength"</td><td>6.8</td><td></td><td>kg</td></tr>
+  <tr><td colspan="5">² Soldering time shall be not less than 5 s. b Applies only to G.657 optical fiber. ‘ Applies only to detector assemblies with pigtails.</td></tr>
+</table>

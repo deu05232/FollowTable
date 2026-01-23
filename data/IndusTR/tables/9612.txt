@@ -1,0 +1,14 @@
+<table>
+  <caption>Electric Compressor Qualification Test — Vibration Endurance Setup Matrix</caption>
+  <thead>
+    <tr><th>Test case ID</th><th>Mounting orientation</th><th>Vibration direction</th><th>Sweep range (Hz)</th><th>Acceleration (g)</th><th>Sweep rate (oct/min)</th><th>Dwell time per axis (min)</th><th>Pass/Fail criterion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>VIB-01</td><td>Horizontal</td><td>Up/Down</td><td>10–200</td><td>5</td><td>1</td><td>30</td><td>No structural crack; no connector looseness</td></tr>
+    <tr><td>VIB-02</td><td>Horizontal</td><td>Front/Rear</td><td>10–200</td><td>5</td><td>1</td><td>30</td><td>No abnormal noise during sweep</td></tr>
+    <tr><td>VIB-03</td><td>Horizontal</td><td>Left/Right</td><td>10–200</td><td>5</td><td>1</td><td>30</td><td>Acceleration response within ±20%</td></tr>
+    <tr><td>VIB-04</td><td>Vertical</td><td>Up/Down</td><td>20–250</td><td>7</td><td>0.5</td><td>20</td><td>No refrigerant leakage after test</td></tr>
+    <tr><td>VIB-05</td><td>Vertical</td><td>Front/Rear</td><td>20–250</td><td>7</td><td>0.5</td><td>20</td><td>Fasteners torque loss < 10%</td></tr>
+    <tr><td>VIB-06</td><td>Vertical</td><td>Left/Right</td><td>20–250</td><td>7</td><td>0.5</td><td>20</td><td>No electrical open/short</td></tr>
+  </tbody>
+</table>

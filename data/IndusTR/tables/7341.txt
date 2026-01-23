@@ -1,0 +1,16 @@
+<table>
+  <caption>Protection and Residual-Current Safety Requirements for a Low-Voltage Shore Power Box</caption>
+  <thead>
+    <tr><th>Requirement item</th><th>Test/operating condition</th><th>Acceptance threshold (measurable limit)</th><th>Trip/response time limit</th><th>Pass/Fail criterion</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Protective earth (PE) continuity</td><td>Test current 10 A DC, duration 60 s</td><td>PE resistance ≤ 0.10 Ω</td><td>—</td><td>Pass if measured resistance is within limit</td></tr>
+    <tr><td>Residual current device (RCD) sensitivity</td><td>Supply at rated voltage and frequency</td><td>IΔn = 30 mA (Type A)</td><td>—</td><td>Pass if installed RCD rating matches and functions</td></tr>
+    <tr><td>RCD no-trip at low leakage</td><td>0.5 × IΔn applied</td><td>Must NOT trip</td><td>—</td><td>Pass if no tripping occurs</td></tr>
+    <tr><td>RCD trip at rated leakage</td><td>1.0 × IΔn applied</td><td>Must trip</td><td>≤ 300 ms</td><td>Pass if trips within time limit</td></tr>
+    <tr><td>RCD trip at higher leakage</td><td>5.0 × IΔn applied</td><td>Must trip</td><td>≤ 40 ms</td><td>Pass if trips within time limit</td></tr>
+    <tr><td>Overcurrent protection coordination</td><td>Prospective short-circuit current at terminals</td><td>Device breaking capacity ≥ 10 kA</td><td>—</td><td>Pass if protective device rating meets or exceeds limit</td></tr>
+    <tr><td>Touch voltage under single fault</td><td>PE intact, simulated fault to enclosure</td><td>Accessible touch voltage ≤ 50 V AC</td><td>—</td><td>Pass if measured touch voltage is within limit</td></tr>
+    <tr><td>Emergency shutdown / power-off function</td><td>Operate emergency stop / OFF control</td><td>Output voltage at socket ≤ 50 V AC</td><td>≤ 1 s</td><td>Pass if de-energization meets voltage and time limits</td></tr>
+  </tbody>
+</table>

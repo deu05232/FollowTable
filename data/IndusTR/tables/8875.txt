@@ -1,0 +1,17 @@
+<table>
+  <caption>Ammonium Nitrate Line – Neutralizer & Reactor Operating Setpoints (Shift Targets)</caption>
+  <thead>
+    <tr><th>Equipment / Location</th><th>Control Indicator</th><th>Normal Setpoint / Allowable Range</th><th>Unit</th><th>Operator Action / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Tubular Reactor (NH3 feed)</td><td>Gaseous ammonia inlet temperature</td><td>95–115</td><td>°C</td><td>Adjust preheater duty to avoid cold spots</td></tr>
+    <tr><td>Gaseous ammonia feed pressure</td><td>0.45–0.75</td><td>MPa</td><td>Trim compressor discharge / control valve</td></tr>
+    <tr><td>Reactor outlet temperature</td><td>150–175</td><td>°C</td><td>Verify mixing and heat removal; investigate spikes</td></tr>
+    <tr><td rowspan="4">Neutralizer (AN solution generation)</td><td>Neutralizer operating pressure</td><td>0.28–0.36</td><td>MPa</td><td>Maintain stable vent/pressure control</td></tr>
+    <tr><td>Neutralizer bulk temperature</td><td>145–165</td><td>°C</td><td>Control by feed ratio and cooling (if equipped)</td></tr>
+    <tr><td>Ammonia-to-acid feed ratio controller output</td><td>48–60</td><td>%</td><td>Keep controller in auto; limit manual bias changes</td></tr>
+    <tr><td>Neutralizer level</td><td>45–70</td><td>%</td><td>Adjust discharge pump / valve to prevent foaming</td></tr>
+    <tr><td rowspan="2">Off-gas / Vent System</td><td>Vent scrubber inlet temperature</td><td>35–55</td><td>°C</td><td>Protect scrubber performance and ducting</td></tr>
+    <tr><td>Neutralizer vent header pressure</td><td>-1.5 to -0.2</td><td>kPa</td><td>Keep slight vacuum to prevent fugitive NH3</td></tr>
+  </tbody>
+</table>

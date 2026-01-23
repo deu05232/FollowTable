@@ -1,0 +1,11 @@
+# Google Reviews Collection and Moderation Workflow (Ratings Mentioned Indirectly)
+
+| Stage | Data Source | Trigger | What Is Stored | Rating Field? | Retention | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| User submission | Signed-in user | Post review | Text, star value, locale | Yes (1–5) | Until deletion | Requires account |
+| Spam filtering | ML classifier | On submit | Risk score, decision | No | 30 days | Blocks suspicious reviews |
+| Human moderation | Vendor queue | Flagged content | Decision log | No | 180 days | Escalation path |
+| Aggregation | Batch job | Hourly | Average rating, histogram | Yes | 365 days | Computes per item |
+| Display | Frontend | Page load | Rendered rating snippet | Yes | N/A | Cached for speed |
+| Appeals | Support ticket | User appeal | Case metadata | No | 2 years | Legal compliance |
+| Export | Admin tool | Manual export | CSV dump | Yes | 7 days | Access controlled |

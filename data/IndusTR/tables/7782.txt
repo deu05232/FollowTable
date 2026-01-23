@@ -1,0 +1,16 @@
+<table>
+  <caption>SM9 Interface Contract Anti-Pattern — Ambiguous Parameters and Missing Directions</caption>
+  <thead>
+    <tr><th>Prototype (Truncated)</th><th>Arguments (Unstructured)</th><th>Meaning (Vague)</th><th>Return</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>int SAF_SM9Encrypt(...)</td><td>handle, keyIndex, id, alg, iv, data, out</td><td>Encrypts using SM9; details depend on implementation.</td><td>0 on success</td></tr>
+    <tr><td>int SAF_SM9Decrypt(...)</td><td>handle, container, enc, outData</td><td>Decrypts using container; may require permissions.</td><td>0 on success</td></tr>
+    <tr><td>int SAF_SM9Sign(...)</td><td>handle, container, keyIndex, msg, sig</td><td>Signs the message; signature format is platform-defined.</td><td>0 on success</td></tr>
+    <tr><td>int SAF_SM9Verify(...)</td><td>handle, keyIndex, id, msg, sig</td><td>Verifies signature; failures can be caused by many reasons.</td><td>0 on success</td></tr>
+    <tr><td>int SAF_SM9GenerateAgreementData(...)</td><td>symmObj, keyIndex, bits, id, tmpPub, agreement</td><td>Produces agreement data; caller should store the context.</td><td>0 on success</td></tr>
+    <tr><td>int SAF_SM9GenerateAgreementDataAndKey(...)</td><td>symmObj, keyIndex, bits, sponsorId, tmpPub, respTmpPub, key</td><td>Derives a session key; transcript handling is not specified here.</td><td>0 on success</td></tr>
+    <tr><td>int SAF_SM9KeyDecapsulate(...)</td><td>symmObj, bits, keyPkg, key</td><td>Decapsulates the key package; encoding checks are recommended.</td><td>0 on success</td></tr>
+    <tr><td>int SAF_ImportSM9MasterPublicKey(...)</td><td>handle, index, type, mpk, len</td><td>Imports a master public key into an index.</td><td>0 on success</td></tr>
+  </tbody>
+</table>

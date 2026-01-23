@@ -1,0 +1,16 @@
+<table>
+  <caption>GPS Phase-Bias Block Layout (Header + Signal Entries Mixed)</caption>
+  <thead>
+    <tr><th>Section</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td><td>Identifies SSR message subtype</td></tr>
+    <tr><td>Header</td><td>GPS Epoch Time (TOW)</td><td>DF004</td><td>uint20</td><td>20</td><td>Reference epoch for phase bias data</td></tr>
+    <tr><td>Header</td><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td><td>Update rate indicator</td></tr>
+    <tr><td>Satellite</td><td>GPS Satellite Number</td><td>DF068</td><td>uint6</td><td>6</td><td>Per-satellite block start</td></tr>
+    <tr><td>Satellite</td><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td><td>Count of following signal entries</td></tr>
+    <tr><td>Signal entry</td><td>GPS Signal and Its Tracking Mode</td><td>DF380</td><td>uint5</td><td>5</td><td>Signal identifier + tracking mode</td></tr>
+    <tr><td>Signal entry</td><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td><td>Integer ambiguity flag</td></tr>
+    <tr><td>Signal entry</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td><td>Wide-lane ambiguity flag</td></tr>
+  </tbody>
+</table>

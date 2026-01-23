@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Test Environment Requirements for Maritime Communication Terminals</caption>
+  <tr><th>Test Item</th><th>Condition</th><th>Requirement</th><th>Instrumentation</th><th>Stabilization Time</th><th>Reference</th></tr>
+  <tr><td>Ambient temperature</td><td>Chamber</td><td>23°C ± 2°C</td><td>Thermometer</td><td>60 min</td><td>Internal QA-LAB-01</td></tr>
+  <tr><td>Relative humidity</td><td>Chamber</td><td>45% ± 10%</td><td>Hygrometer</td><td>60 min</td><td>Internal QA-LAB-01</td></tr>
+  <tr><td>Supply voltage</td><td>DC source</td><td>24 V ± 5%</td><td>Programmable PSU</td><td>10 min</td><td>IEC 60945 (informative)</td></tr>
+  <tr><td>EMI baseline</td><td>Anechoic</td><td>Noise floor < -90 dBm</td><td>Spectrum analyzer</td><td>30 min</td><td>Site procedure EMI-07</td></tr>
+  <tr><td>Vibration setup</td><td>Shaker</td><td>5–50 Hz sweep</td><td>Accelerometer</td><td>15 min</td><td>Test plan VP-03</td></tr>
+  <tr><td>Data logging</td><td>PC</td><td>1 s sampling</td><td>Logger software</td><td>—</td><td>QA-LOG-02</td></tr>
+</table>

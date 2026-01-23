@@ -1,0 +1,14 @@
+<table>
+  <caption>Data Link Layer Version Negotiation Message Parameters (Vehicle-to-Charger, V2C)</caption>
+  <thead>
+    <tr><th>Order</th><th>Parameter</th><th>Length (bytes)</th><th>Data Type</th><th>Type Name</th><th>Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>CAN Type</td><td>1</td><td>BYTE</td><td>CANType</td><td>0x00=CAN 2.0B; 0x01=CAN FD; 0x02=CAN XL</td><td>Vehicle-reported CAN type used on the link.</td></tr>
+    <tr><td>2</td><td>Negotiation Result</td><td>1</td><td>BYTE</td><td>VersionResultType</td><td>0x00=Continue; 0x01=Success; 0x02=Fail</td><td>Vehicle-side version negotiation decision/result code.</td></tr>
+    <tr><td>3</td><td>Protocol Version Number</td><td>3</td><td>BYTE[3]</td><td>ProtocolVersionType</td><td>BYTE1=Major (0x00–0xFF); BYTE2=Minor (0x00–0xFF); BYTE3=Provisional (0x00–0xFF); 0xFFFFFF=Failure sentinel</td><td>Expected or agreed version expressed as (Major, Minor, Provisional), e.g., V1.2.3 from [0x01,0x02,0x03].</td></tr>
+    <tr><td>3.1</td><td>Protocol Version - Major</td><td>1</td><td>BYTE</td><td>ProtocolVersionMajor</td><td>0x00–0xFF</td><td>First byte of Protocol Version Number.</td></tr>
+    <tr><td>3.2</td><td>Protocol Version - Minor</td><td>1</td><td>BYTE</td><td>ProtocolVersionMinor</td><td>0x00–0xFF</td><td>Second byte of Protocol Version Number.</td></tr>
+    <tr><td>3.3</td><td>Protocol Version - Provisional</td><td>1</td><td>BYTE</td><td>ProtocolVersionProvisional</td><td>0x00–0xFF</td><td>Third byte of Protocol Version Number.</td></tr>
+  </tbody>
+</table>

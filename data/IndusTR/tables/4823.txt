@@ -1,0 +1,8 @@
+<table>
+  <caption>PLC2 and PLC1 PLC3 MES Network Communication Metrics Table</caption>
+  <tr><td>Communication Relationship ID</td><td>Communication Relationship Name</td><td>Communication Sender Name and ID</td><td>Communication Receiver Name and ID</td><td>Communication Direction</td><td>Clock Synchronization Accuracy ms</td><td>Service Characteristics</td><td>Service Rate kB/s</td><td>Transmission Latency ms</td><td>Reliability</td></tr>
+  <tr><td>1</td><td>PLC2 Interlock Control</td><td>PLC2</td><td>PLC1</td><td>Uplink/Downlink</td><td>1000</td><td>Aperiodic</td><td>50</td><td>20</td><td>99%</td></tr>
+  <tr><td>2</td><td>PLC2 Interlock Control 1</td><td>PLC2</td><td>PLC3</td><td>Uplink/Downlink</td><td>1000</td><td>Aperiodic</td><td>50</td><td>5</td><td>99%</td></tr>
+  <tr><td>3</td><td>PLC2 Status Monitoring</td><td>PLC2</td><td>MES System</td><td>Uplink</td><td>1000</td><td>Periodic</td><td>20</td><td>100</td><td>99%</td></tr>
+  <tr><td>4</td><td>Visual Quality Inspection</td><td>PLC2</td><td>Cloud Platform</td><td>Uplink</td><td>1000</td><td>Aperiodic</td><td>75</td><td>500</td><td>99%</td></tr>
+</table>

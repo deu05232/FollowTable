@@ -1,0 +1,7 @@
+<table>
+  <caption>《BusinessProcess》Distribution with Internal Data Processing Included (Mixed Content)</caption>
+  <tr><td>Preconditions</td><td>Electronic messages have been collected from carriers and terminals and stored in the integrated data center.</td></tr>
+  <tr><td>Start Time</td><td>A business entity requests tracking information for a container shipment.</td></tr>
+  <tr><td>Scenario</td><td>The integrated data center first cleanses and combines raw event messages, resolves duplicates, and updates the internal tracking record. After processing, it sets the data to an available state and then distributes the generated tracking status to the requester. The table also describes how the center stores intermediate processing results for later analytics.</td></tr>
+  <tr><td>Outputs</td><td>Processed tracking record; distributed status response; stored intermediate datasets</td></tr>
+</table>

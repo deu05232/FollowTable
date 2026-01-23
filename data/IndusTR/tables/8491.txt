@@ -1,0 +1,15 @@
+<table>
+  <caption>AM Feedstock Physical Form vs Energy Input (Example Mapping)</caption>
+  <thead>
+    <tr><th rowspan="2">Material family</th><th rowspan="2">Primary feedstock form (format-focused)</th><th colspan="4">Activation / energy input</th></tr>
+    <tr><th>Laser beam</th><th>Electron beam</th><th>Thermal (induction/IR/hot press)</th><th>Chemical / binder</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Metals</td><td>Powder</td><td>Laser Powder Bed Fusion (LPBF)</td><td>Electron Beam Powder Bed Fusion (EB-PBF)</td><td>Hot isostatic pressing-assisted lamination</td><td>Metal Binder Jetting (BJT)</td></tr>
+    <tr><td>Metals</td><td>Wire</td><td>Laser Wire Directed Energy Deposition (LW-DED)</td><td>Electron Beam Wire DED (EB-DED)</td><td>Resistive heating wire deposition</td><td>—</td></tr>
+    <tr><td>Polymers</td><td>Filament</td><td>Laser-assisted filament fusion (experimental)</td><td>—</td><td>Material extrusion (FDM/FFF)</td><td>—</td></tr>
+    <tr><td>Polymers</td><td>Resin (liquid)</td><td>Stereolithography (SLA/DLP)</td><td>—</td><td>Thermal curing vat processing</td><td>—</td></tr>
+    <tr><td>Inorganic non-metals</td><td>Slurry/paste</td><td>Laser sintering of ceramic slurry</td><td>—</td><td>Furnace-sintered robocasting</td><td>Ceramic binder jetting + debind/sinter</td></tr>
+    <tr><td>Biomaterials</td><td>Hydrogel (bioink)</td><td>Light-based bioprinting (photo-crosslinking)</td><td>—</td><td>Thermal gelation extrusion</td><td>Enzymatic crosslinking bioprinting</td></tr>
+  </tbody>
+</table>

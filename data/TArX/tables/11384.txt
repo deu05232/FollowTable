@@ -1,0 +1,16 @@
+<table>
+  <caption>Instrument Band Conversion Ratios for Multi-Filter Photometry (White-to-V and Color Corrections)</caption>
+  <thead>
+    <tr><th rowspan="2">Instrument</th><th rowspan="2">Filter/Band</th><th colspan="2">Conversion Ratio (counts)</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Band → V</th><th>White → Band</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">UV/Optical Telescope</td><td>V</td><td>1.00</td><td>1.08</td><td>Reference band</td></tr>
+    <tr><td>B</td><td>0.41</td><td>0.95</td><td>Average over 400–1000 s</td></tr>
+    <tr><td>U</td><td>0.47</td><td>0.88</td><td>Color-dependent</td></tr>
+    <tr><td rowspan="3">Imager-X</td><td>UVW1</td><td>1.68</td><td>0.62</td><td>SED-based correction</td></tr>
+    <tr><td>UVM2</td><td>2.10</td><td>0.51</td><td>High extinction sensitivity</td></tr>
+    <tr><td>UVW2</td><td>2.55</td><td>0.44</td><td>Short-wavelength band</td></tr>
+    <tr><td>Photometer-Y</td><td>g</td><td>0.92</td><td>1.12</td><td>Relative to V calibration</td></tr>
+  </tbody>
+</table>

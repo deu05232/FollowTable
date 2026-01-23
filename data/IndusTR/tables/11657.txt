@@ -1,0 +1,15 @@
+<table>
+  <caption>Generic Frame Wrapper for Grain Monitoring Interface (Multiple Commands)</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Field</th><th>Size (bytes)</th><th>Example</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>0-3</td><td>Start Symbol</td><td>4</td><td>55 AA 55 AA</td><td>Fixed preamble</td></tr>
+    <tr><td>4</td><td>KADDL (Device/Sub-unit Address)</td><td>1</td><td>01</td><td>Addressing byte</td></tr>
+    <tr><td>5</td><td>Command</td><td>1</td><td>A2 / A3 / C3</td><td>Operation selector</td></tr>
+    <tr><td>6-7</td><td>Length</td><td>2</td><td>0000 / 0004 / 0010</td><td>Payload length</td></tr>
+    <tr><td>8..(8+L-1)</td><td>Data Segment</td><td>L</td><td>--</td><td>Depends on command</td></tr>
+    <tr><td>(8+L)..(9+L)</td><td>CRC-16</td><td>2</td><td>XXXX</td><td>CRC over address..data</td></tr>
+    <tr><td>(10+L)</td><td>End Symbol</td><td>1</td><td>0D</td><td>Frame terminator</td></tr>
+  </tbody>
+</table>

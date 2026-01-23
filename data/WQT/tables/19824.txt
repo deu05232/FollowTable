@@ -1,0 +1,14 @@
+# Hybrid Configuration Wizard (HCW) Options and Parameters (Configuration-Focused View)
+
+| HCW section | Option | Typical selection | What it configures |
+|---|---|---|---|
+| Topology | Hybrid type | Full Hybrid | Enables organization relationship + hybrid mail flow |
+| Servers | Transport server | EXCH-01 | Selects on-premises server for connectors |
+| Certificates | TLS certificate | DigiCert SAN cert | Chooses cert for secure SMTP |
+| Domains | Accepted domains | contoso.com | Defines domains for hybrid routing |
+| Mail flow | Inbound connector | From Office 365 to on-prem | Creates connector settings |
+| Mail flow | Outbound connector | From on-prem to Office 365 | Creates connector settings |
+| Federation | OAuth configuration | Enabled | Creates OAuth trust |
+| Organization | EWS virtual directory | https://mail.contoso.com/EWS/Exchange.asmx | Sets EWS endpoint used by features |
+| Security | IP allow list | EXCH public IP range | Used to restrict connector scope |
+| Compliance | Transport rules | Optional | Adds rules for routing or headers |

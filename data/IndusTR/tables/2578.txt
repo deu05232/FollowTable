@@ -1,0 +1,14 @@
+<table>
+  <caption>Equipment Datasheet  Tubular Reactor and Neutralizer Instrumentation List</caption>
+  <thead>
+    <tr><th>Tag No.</th><th>Equipment/Loop</th><th>Instrument Type</th><th>Range</th><th>Accuracy</th><th>Signal</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>TR-101</td><td>Tubular Reactor</td><td>Thermocouple (Type K)</td><td>0–250 °C</td><td>±1.5 °C</td><td>4–20 mA</td></tr>
+    <tr><td>PI-204</td><td>Neutralizer Inlet</td><td>Pressure Transmitter</td><td>0–1.6 MPa</td><td>±0.25% FS</td><td>HART</td></tr>
+    <tr><td>FI-330</td><td>Ammonia Feed</td><td>Coriolis Flowmeter</td><td>0–25 t/h</td><td>±0.1%</td><td>Pulse + 4–20 mA</td></tr>
+    <tr><td>AI-415</td><td>Off-gas</td><td>NOx Analyzer</td><td>0–500 ppm</td><td>±2% RDG</td><td>Modbus</td></tr>
+    <tr><td>LV-502</td><td>Evaporator Level</td><td>Radar Level Transmitter</td><td>0–6 m</td><td>±3 mm</td><td>4–20 mA</td></tr>
+    <tr><td>CV-610</td><td>Steam Control</td><td>Control Valve</td><td>DN80, Cv 120</td><td>—</td><td>Pneumatic</td></tr>
+  </tbody>
+</table>

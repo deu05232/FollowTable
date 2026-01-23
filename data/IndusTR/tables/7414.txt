@@ -1,0 +1,15 @@
+<table>
+  <caption>Coordinate-Based Regional Address Validation Rules (Geometric Constraints Over Frame Fields)</caption>
+  <thead>
+    <tr><th>Rule ID</th><th>Applies To</th><th>Parameter</th><th>Bits</th><th>Allowed Range</th><th>Geometry/Location Requirement</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>R1</td><td>Circle Region</td><td>Center Latitude</td><td>7+1</td><td>0–90, N/S</td><td>Latitude degrees with hemisphere flag</td></tr>
+    <tr><td>R2</td><td>Circle Region</td><td>Center Longitude</td><td>8+1</td><td>0–180, E/W</td><td>Longitude degrees with hemisphere flag</td></tr>
+    <tr><td>R3</td><td>Circle Region</td><td>Radius</td><td>10</td><td>1–1023</td><td>Must not exceed regional maximum service coverage</td></tr>
+    <tr><td>R4</td><td>Rectangle Region</td><td>Latitude Ordering</td><td>7+7</td><td>0–90</td><td>NE latitude must be greater than or equal to SW latitude</td></tr>
+    <tr><td>R5</td><td>Rectangle Region</td><td>Longitude Ordering</td><td>8+8</td><td>0–180</td><td>NE longitude must be greater than or equal to SW longitude</td></tr>
+    <tr><td>R6</td><td>Polygon Region</td><td>Point Count</td><td>4</td><td>3–15</td><td>At least 3 points; self-intersection not allowed</td></tr>
+    <tr><td>R7</td><td>Polygon Region</td><td>Point Spacing</td><td>—</td><td>—</td><td>Adjacent points should not be identical to avoid zero-length edges</td></tr>
+  </tbody>
+</table>

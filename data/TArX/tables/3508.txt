@@ -1,0 +1,33 @@
+<table>
+  <caption>Overview of the various scientific requirements for DECIDE.</caption>
+  <tr><th colspan="2">DECIDE</th></tr>
+  <tr><th colspan="2">Scientific Requirements</th></tr>
+  <tr><th>Parameter</th><td>Requirement</td></tr>
+  <tr><th>Rate of collisions with gas particle</th><td><0.01\, Hz</td></tr>
+  <tr><th>Ambient temperature</th><td><35\, K</td></tr>
+  <tr><th>Internal temperature of nanosphere</th><td><100\, K</td></tr>
+  <tr><th>Position readout accuracy</th><td><5\, nm</td></tr>
+  <tr><th>Spacecraft position stability</th><td>critical</td></tr>
+  <tr><th>Along cavity axis</th><td><5\, nm over 200\, s</td></tr>
+  <tr><th>Perpendicular to cavity axis</th><td><1\,μ m over 200\, s</td></tr>
+  <tr><th>Pointing stability</th><td></td></tr>
+  <tr><th>Cavity mirrors</th><td>non-critical (confocal cavity)</td></tr>
+  <tr><th>UV beam (relative to cavity)</th><td>critical</td></tr>
+  <tr><th></th><td>if beam position is continuously measured:</td></tr>
+  <tr><th></th><td><10^(-2) mrad over 200\, s</td></tr>
+  <tr><th></th><td>if beam position is not measured:</td></tr>
+  <tr><th></th><td><10^(-2) mrad over several days</td></tr>
+  <tr><th>CCD assembly</th><td><1\, mrad over 1s</td></tr>
+  <tr><th>IR fibers</th><td>non-critical (cavity defines reference)</td></tr>
+  <tr><th>Particle loading mechanism</th><td>non-critical (only reduces loading prob.)</td></tr>
+  <tr><th>Laser stability</th><td></td></tr>
+  <tr><th>IR laser</th><td>LTP stability more than sufficient</td></tr>
+  <tr><th>UV laser</th><td>non-critical (only coarse adjustment necessary)</td></tr>
+  <tr><th>Nanosphere material absorption</th><td>critical</td></tr>
+  <tr><th>at 1064\, nm</th><td>lowest possible</td></tr>
+  <tr><th>over blackbody spectrum</th><td>lowest possible</td></tr>
+  <tr><th>Nanosphere mass density</th><td>critical : as high as possible</td></tr>
+  <tr><th>Nanosphere size</th><td>non-critical</td></tr>
+  <tr><th></th><td>(whole run measured with the same sphere)</td></tr>
+  <tr><th>Nanosphere shape</th><td>to be determined</td></tr>
+</table>

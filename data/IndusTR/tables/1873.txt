@@ -1,0 +1,17 @@
+<table>
+  <caption>Warp Knitting Machine Fabric Quality Control Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0B00</td><td>Missing Weft Yarn</td><td>MissingWeftYarn</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>Weft yarn breakage</td><td>1</td></tr>
+  <tr><td>OX0B01</td><td>Horizontal Stripe</td><td>Band</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td>一</td><td>Incorrect shogging distance setting</td><td></td></tr>
+  <tr><td>0X0B02</td><td>Weft Yarn Overlap</td><td>WeftYarmOverlap</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Incorrect shogging distance setting</td><td></td></tr>
+  <tr><td>0X0B03</td><td>Missing Binder Yarn</td><td>MissingBinderYarn</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td>一</td><td>Binder yarn breakage</td><td></td></tr>
+  <tr><td>0X0B04</td><td>Foreign Bodies in Fabric</td><td>ForeignBodies</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Non-textile fiber materials are present in the knitted fabric</td><td></td></tr>
+  <tr><td>0X0B05</td><td>Fabric Roll End Face Displacement</td><td>FabricEndFacedisplacement</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td></td><td>Winding parameters</td><td></td></tr>
+  <tr><td>0X0B06</td><td>Winding Tension Too High</td><td>TooHighWindingTension</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Winding parameters</td><td></td></tr>
+  <tr><td>0X0B07</td><td>Winding Tension Too Low</td><td>TooLowWindingTension</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td>丨</td><td>Winding parameters</td><td>1</td></tr>
+  <tr><td>0X0B08</td><td>Warp Tension Too High</td><td>TooHighWarpTension</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>1</td><td></td><td>Let-off roller parameters</td><td>1</td></tr>
+  <tr><td>0X0B09</td><td>Warp Tension Too Low</td><td>TooLowWarpTension</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td></td><td>Let-off roller parameters</td><td>／</td></tr>
+  <tr><td>OX0B0A</td><td>Binder Yarn Tension Too High</td><td>TooHighBinderYarnTension</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td></td><td></td><td>Yarn feed amount</td><td></td></tr>
+  <tr><td>0X0B0B</td><td>Binder Yarn Tension Too Low</td><td>TooLowBinderYarnTension</td><td>0</td><td>VAR</td><td>RO</td><td>String</td><td>丨</td><td></td><td>Yarn feed amount</td><td></td></tr>
+  <tr><td>0X0B0C</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+</table>

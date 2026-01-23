@@ -1,0 +1,15 @@
+<table>
+  <caption>Charging Status Report CSR-0x31: TLV Parameter Directory (Sequence-Based)</caption>
+  <thead>
+    <tr><th>Sequence No.</th><th>TLV Tag</th><th>Parameter Content</th><th>Length (Value)</th><th>Value Encoding</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>0x01</td><td>Session Identifier</td><td>4 bytes</td><td>UINT32</td><td>Randomized per plug-in event</td></tr>
+    <tr><td>2</td><td>0x02</td><td>Timestamp</td><td>7 bytes</td><td>BCD[7]</td><td>YYMMDDhhmmss + timezone byte</td></tr>
+    <tr><td>3</td><td>0x03</td><td>Battery SOC</td><td>1 byte</td><td>UINT8</td><td>0..100 (%), 0xFF invalid</td></tr>
+    <tr><td>4</td><td>0x04</td><td>Measured Pack Voltage</td><td>2 bytes</td><td>UINT16</td><td>Unit: 0.1 V</td></tr>
+    <tr><td>5</td><td>0x05</td><td>Measured Pack Current</td><td>2 bytes</td><td>INT16</td><td>Unit: 0.1 A, signed</td></tr>
+    <tr><td>6</td><td>0x06</td><td>Charger Ready Flag</td><td>1 byte</td><td>UINT8</td><td>0x00 not ready; 0xAA ready</td></tr>
+    <tr><td>7</td><td>0x07</td><td>Fault Summary Bitmap</td><td>2 bytes</td><td>BITFIELD</td><td>Bit0: insulation; Bit1: overtemp; others reserved</td></tr>
+  </tbody>
+</table>

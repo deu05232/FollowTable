@@ -1,0 +1,14 @@
+<table>
+  <caption>Electrical Supply Voltage Verification for Autonomous Driving Data Recorder</caption>
+  <thead>
+    <tr><th>System Variant</th><th>Nominal Voltage (V)</th><th>Operating Range Min (V)</th><th>Operating Range Max (V)</th><th>Cold Crank Min (V)</th><th>Jump Start Max (V)</th><th>Test Voltage UA (V)</th><th>Dwell Time (s)</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Passenger car 12V</td><td>12</td><td>9</td><td>16</td><td>6</td><td>18</td><td>14.0 ± 0.2</td><td>60</td><td>No reset; no data loss</td></tr>
+    <tr><td>Commercial vehicle 24V</td><td>24</td><td>16</td><td>32</td><td>12</td><td>36</td><td>28.0 ± 0.2</td><td>60</td><td>No reset; no data loss</td></tr>
+    <tr><td>12V with stop-start</td><td>12</td><td>8</td><td>16</td><td>5</td><td>18</td><td>13.5 ± 0.2</td><td>120</td><td>Recording resumes within 2 s</td></tr>
+    <tr><td>24V with PTO loads</td><td>24</td><td>15</td><td>32</td><td>10</td><td>36</td><td>27.5 ± 0.2</td><td>120</td><td>No corruption of stored logs</td></tr>
+    <tr><td>Bench supply evaluation</td><td>13.2</td><td>11</td><td>15</td><td>10</td><td>16</td><td>13.2 ± 0.1</td><td>300</td><td>All interfaces remain active</td></tr>
+    <tr><td>Reverse polarity check</td><td>12</td><td>-14</td><td>0</td><td>-14</td><td>0</td><td>-12.0 ± 0.2</td><td>10</td><td>No damage after protection</td></tr>
+  </tbody>
+</table>

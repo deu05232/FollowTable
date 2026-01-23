@@ -1,0 +1,14 @@
+<table>
+  <caption>Service Interface Operation Element Description</caption>
+  <tr><td>Chinese Name</td><td>English Name</td><td>Data Type and Format</td><td>Constraints/Conditions</td><td>Maximum Occurrences</td><td>Value Domain</td><td>Description</td></tr>
+  <tr><td>Interface Name</td><td>interfaceName</td><td>C..128</td><td>M</td><td>1</td><td></td><td>Name of the interface</td></tr>
+  <tr><td>Operation Name</td><td>operationName</td><td>C..128</td><td>M</td><td>N</td><td></td><td>Name of an operation in the interface</td></tr>
+  <tr><td>Operation Supports Transactionality SAC</td><td>operationSupportTransaction</td><td>BL</td><td>M</td><td>N</td><td>1,0 or true,false</td><td>When the value is 1 (true), transactionality is supported; when the value is 0 (false), transactionality is not supported. The occurrence count of this element must be consistent with that of the operation name</td></tr>
+  <tr><td>Compensation Operation Name</td><td>compensationName</td><td>C..128</td><td>C</td><td>N</td><td>Name of a defined operation</td><td>When Operation Supports Transactionality is 1, this element should be selected. In this case, it represents the compensation operation of an atomic transaction or a long-running transaction</td></tr>
+  <tr><td>Input Name</td><td>inputName</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Name of the input</td></tr>
+  <tr><td>Input Message</td><td>inputMessage</td><td>C..ul</td><td>C</td><td>N</td><td>Defined message</td><td>When an input name exists, this element should be selected. The occurrence count of this element must be consistent with that of the input name. For references to defined messages, see Table 14</td></tr>
+  <tr><td>Output Name</td><td>outputName</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Name of the output</td></tr>
+  <tr><td>Output Message</td><td>outputMessage</td><td>C..ul</td><td>C</td><td>N</td><td>Defined message</td><td>When an output name exists, this element should be selected. The occurrence count of this element must be consistent with that of the output name. For references to defined messages, see Table 14</td></tr>
+  <tr><td>Fault Name</td><td>faultName</td><td>C..128</td><td>0</td><td>N</td><td></td><td>Name of the fault</td></tr>
+  <tr><td>Fault Message</td><td>faultMessage</td><td>C..ul</td><td>C</td><td>N</td><td>Defined message</td><td>When a fault name exists, this element should be selected. The occurrence count of this element must be consistent with that of the fault name. For references to defined messages, see Table 14</td></tr>
+</table>

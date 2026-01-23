@@ -1,0 +1,18 @@
+<table>
+  <caption>Vehicle Insurance and Annual Inspection Data Table</caption>
+  <tr><td>Serial No.</td><td>Data Item Name</td><td>Data Type</td><td>Data Format</td><td>Data Description</td></tr>
+  <tr><td>1</td><td>Compulsory Traffic Insurance Policy No.</td><td>Character</td><td>an..30</td><td></td></tr>
+  <tr><td>2</td><td>Compulsory Traffic Insurance Start Date</td><td>Date</td><td>YYYYMMDD</td><td></td></tr>
+  <tr><td>3</td><td>Compulsory Traffic Insurance Expiry Date</td><td>Date</td><td>YYYYMMDD</td><td></td></tr>
+  <tr><td>4</td><td>Compulsory Traffic Insurance Premium</td><td>Numeric</td><td>n..10,2</td><td>Unit: yuan</td></tr>
+  <tr><td>5</td><td>Vehicle and Vessel Tax</td><td>Numeric</td><td>n..10,2</td><td>Unit: yuan</td></tr>
+  <tr><td>6</td><td>Commercial Insurance Policy No.</td><td>Character</td><td>an..30</td><td></td></tr>
+  <tr><td>7</td><td>Commercial Insurance Coverage Types</td><td>Character</td><td>an..100</td><td>Motor vehicle damage insurance, motor vehicle third-party liability insurance, in-vehicle passenger liability insurance, engine water damage insurance, spontaneous combustion loss insurance, body scratch loss insurance, deductible waiver special clause, other</td></tr>
+  <tr><td>8</td><td>Commercial Insurance Premium</td><td>Numeric</td><td>n..10,2</td><td></td></tr>
+  <tr><td>9</td><td>Commercial Insurance Start Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td></td></tr>
+  <tr><td>10</td><td>Commercial Insurance Expiry Time</td><td>DateTime</td><td>YYYYMMDDhhmmss</td><td></td></tr>
+  <tr><td>11</td><td>Underwriting Company</td><td>Character</td><td>an..50</td><td></td></tr>
+  <tr><td>12</td><td>Whether the Underwriting Company Is a Designated Site</td><td>Boolean</td><td>Yes/No</td><td></td></tr>
+  <tr><td>13</td><td>Annual Inspection Cost</td><td>Numeric</td><td>n..10,2</td><td></td></tr>
+  <tr><td>14</td><td>Annual Inspection Expiry Date</td><td>Date</td><td>YYYYMMDD</td><td></td></tr>
+</table>

@@ -1,0 +1,9 @@
+<table>
+  <caption>Data Dictionary of Quality Control Parameter Set for Cheese Conveying and Packing System</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0B00</td><td>Quantity of cheese type errors</td><td>QuantityOfCheeseTypeError</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65535</td><td>pcs</td><td>1</td><td>One</td></tr>
+  <tr><td>0X0B01</td><td>Quantity of unqualified cheese small-end face</td><td>QuantityOfUnqualifiedCheeseSmallEndFace</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65535</td><td>pcs</td><td>One</td><td>One</td></tr>
+  <tr><td>0X0B02</td><td>Quantity of unqualified cheese large-end face</td><td>QuantityOfUnqualifiedCheeseLargeEndFace</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65535</td><td>pcs</td><td></td><td>One</td></tr>
+  <tr><td>0X0B03</td><td>Quantity of unqualified cheese side surface quality</td><td>QuantityOfUnqualifiedCheeseSide</td><td>0</td><td>VAR</td><td>RO</td><td>UInt16</td><td>0~65535</td><td>pcs</td><td></td><td></td></tr>
+  <tr><td>0X0B04</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

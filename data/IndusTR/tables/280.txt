@@ -1,0 +1,6 @@
+<table>
+  <caption>Charger and Vehicle Abort Message Parameters</caption>
+  <tr><td>Parameter Group Identifier</td><td>Message Description</td><td>Information Type</td><td>Cycle Time</td><td>Total Transmission Time/ms</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>0x03</td><td>Charger abort</td><td>Short message requiring acknowledgment</td><td></td><td>1000</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x04</td><td>Vehicle abort</td><td>Short message requiring acknowledgment</td><td>—</td><td>1000</td><td>Vehicle - Charger</td></tr>
+</table>

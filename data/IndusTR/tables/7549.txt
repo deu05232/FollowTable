@@ -1,0 +1,29 @@
+<table>
+  <caption>SM9 Key Agreement (Responder) — Generate Agreement Data Handle for Session Key Negotiation</caption>
+  <thead>
+    <tr><th>Section</th><th>Details</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Prototype</td><td>int SAF_SM9GenerateAgreementData(
+    void          *hSymmKeyObj,
+    unsigned int   uiMasterPublicKeyIndex,
+    unsigned int   uiKeyBits,
+    const unsigned char *pucResponsorID,
+    unsigned int   uiResponsorIDLen,
+    unsigned char *pucSponsorTmpPublicKey,
+    unsigned int  *puiSponsorTmpPublicKeyLen,
+    void         **phAgreementHandle);</td></tr>
+    <tr><td>Purpose</td><td>Prepare/produce the responder-side agreement context for SM9 key negotiation and output data needed to continue the handshake, returning an agreement handle for the remaining agreement steps.</td></tr>
+    <tr><td>Rules</td><td>This interface is only for SM9 key agreement session negotiation. The computation SHALL comply with GB/T 41389. It does not perform SM9 encrypt/decrypt or sign/verify.</td></tr>
+    <tr><td rowspan="9">Agreement-related parameters</td><td>hSymmKeyObj[in] — Symmetric algorithm object bound to the negotiated key derivation context.</td></tr>
+    <tr><td>uiMasterPublicKeyIndex[in] — Index of the SM9 encryption master public key used for agreement.</td></tr>
+    <tr><td>uiKeyBits[in] — Target session key length in bits.</td></tr>
+    <tr><td>pucResponsorID[in] — Responder identity bytes participating in agreement/KDF.</td></tr>
+    <tr><td>uiResponsorIDLen[in] — Length of responder ID in bytes.</td></tr>
+    <tr><td>pucSponsorTmpPublicKey[in,out] — Sponsor temporary public key (as received). On output, may be normalized/returned in canonical encoding as required by the implementation.</td></tr>
+    <tr><td>puiSponsorTmpPublicKeyLen[in,out] — On input: length of sponsor temp public key; on output: actual processed length.</td></tr>
+    <tr><td>phAgreementHandle[out] — Handle to the responder agreement context (used to complete session key derivation in subsequent agreement calls).</td></tr>
+    <tr><td>Typical usage note</td><td>The responder calls this after receiving the sponsor's temporary public key and uses the returnedphAgreementHandleto proceed with finishing session key negotiation and key confirmation (if defined by the implementation).</td></tr>
+    <tr><td>Return value</td><td>0 on success; non-zero on failure (invalid inputs, malformed temporary public key, agreement context allocation error).</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>SOF Component Interface Definition for Parsing XML Data Signatures</caption>
+  <tr><td>Prototype</td><td>java.lang.String SOF_getXMLSignatureInfo(java.lang.String xmlSignedData,short type)</td></tr>
+  <tr><td>Description</td><td>Parse XML data signatures to obtain information such as the signature value, original XML, and certificate</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>xmlSignedData (XML signature result)</td></tr>
+  <tr><td>type (parameter type to parse), value range: a) 1: parse original XML; b) 2: parse digest value; c) 3: parse signature value; d) 4: parse signing certificate; e) 5: parse digest algorithm; f) 6: parse signature algorithm</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>Parsing result (success)</td></tr>
+  <tr><td>Empty string (failure; use SOF_getLastError to obtain an error code as defined in Table A.1)</td></tr>
+  <tr><td>Security Rules</td><td>Default XML signature configuration and parameter value examples: a) the original XML is taken from the Object element; b) the digest value is taken from the DigestValue element, e.g. http://127.0.0.1/2001/04/xmldsig-more# sm3; c) the signature value is taken from the SignatureValue element and is Base64-encoded; d) the signing certificate is taken from the X509Data element and is Base64-encoded; e) the digest algorithm is taken from the Algorithm attribute of the DigestMethod element, e.g. http://127.0.0.1/200l/04/xmldsig-more# sm3; f) the signature algorithm is taken from the Algorithm attribute of the SignatureMethod element, e.g. http://127.0.0.1/200l/04/xmldsig-more #sm2-sm3</td></tr>
+</table>

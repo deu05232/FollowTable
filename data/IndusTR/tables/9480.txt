@@ -1,0 +1,15 @@
+<table>
+  <caption>Refs List Field (Cross-Container Linking) Parameter Specification</caption>
+  <thead>
+    <tr><th>Field</th><th>Data Type</th><th>Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>refs</td><td>array<ref></td><td>No</td><td>List of references from the current information container to other containers.</td></tr>
+    <tr><td>refs[].targetProjectId</td><td>string</td><td>Yes</td><td>Project id that owns the referenced container.</td></tr>
+    <tr><td>refs[].targetContainerId</td><td>string</td><td>Yes</td><td>Referenced container id.</td></tr>
+    <tr><td>refs[].relationshipType</td><td>string</td><td>No</td><td>Semantic type of the relationship for this entry.</td></tr>
+    <tr><td>refs[].alias</td><td>string</td><td>No</td><td>Optional local alias/name for the reference entry used by clients.</td></tr>
+    <tr><td>refs[].order</td><td>integer</td><td>No</td><td>Ordering index when the list is treated as ordered.</td></tr>
+    <tr><td>refs[].optional</td><td>boolean</td><td>No</td><td>If true, clients may ignore resolution failures for this entry.</td></tr>
+  </tbody>
+</table>

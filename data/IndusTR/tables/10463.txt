@@ -1,0 +1,15 @@
+<table>
+  <caption>Electrical Endurance Subgroup D8 Requirements for Synthesized Frequency Sources (Duration Levels and Readout Plan)</caption>
+  <thead>
+    <tr><th>Item</th><th>Subgroup</th><th>Quality Level</th><th>Duration</th><th>Stress Level</th><th>Sampling / Readouts</th><th>Post-Endurance Verification</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Endurance run definition</td><td>D8 Electrical endurance</td><td>Level L</td><td>2 000 h</td><td>Nominal supply; rated output enabled</td><td>Readout at 0 h, 500 h, 1 000 h, 2 000 h</td><td>Verify key electrical parameters per detail spec (same parameter set used for endurance confirmation)</td></tr>
+    <tr><td>Endurance run definition</td><td>D8 Electrical endurance</td><td>Level K</td><td>3 000 h</td><td>Nominal supply; rated output enabled</td><td>Readout at 0 h, 500 h, 1 000 h, 2 000 h, 3 000 h</td><td>Verify key electrical parameters per detail spec (same parameter set used for endurance confirmation)</td></tr>
+    <tr><td>Optional accelerated option (if allowed)</td><td>D8 Electrical endurance</td><td>Level K/L</td><td>1 000 h</td><td>Supply +5% (max allowed) at 25 °C</td><td>Readout every 250 h</td><td>Must meet the same acceptance limits as the normal endurance run</td></tr>
+    <tr><td>Interruption rules</td><td>D8 Electrical endurance</td><td>All</td><td>—</td><td>—</td><td>Any power loss > 1 min must be logged; cumulative interruption > 1 h requires restart unless otherwise specified</td><td>No unlogged interruptions permitted</td></tr>
+    <tr><td>Failure criteria during run</td><td>D8 Electrical endurance</td><td>All</td><td>—</td><td>—</td><td>Continuous functional monitoring (lock/output presence)</td><td>Any loss of function, latch-up, or parameter out-of-limit is a failure</td></tr>
+    <tr><td>Post-stress stabilization</td><td>D8 Electrical endurance</td><td>All</td><td>—</td><td>—</td><td>Stabilize at 25 °C for ≥ 2 h before final measurements</td><td>Final readout must be within specified limits</td></tr>
+    <tr><td>Applicability note</td><td>D8 Electrical endurance</td><td>All</td><td>—</td><td>—</td><td>Not applicable to M-grade products (when excluded by procurement/spec)</td><td>Mark as N/A rather than tested when excluded</td></tr>
+  </tbody>
+</table>

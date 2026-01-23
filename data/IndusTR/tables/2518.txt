@@ -1,0 +1,14 @@
+<table>
+  <caption>Emission Factor Field Validation Rules (Data Entry Controls, Not Values)</caption>
+  <thead>
+    <tr><th>Form Section</th><th>Field Name</th><th>Data Type</th><th>Allowed Range</th><th>Required</th><th>Unit</th><th>Validation Message</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purchased Electricity</td><td>Electricity</td><td>Decimal</td><td>>= 0</td><td>Yes</td><td>MWh</td><td>Electricity must be a non-negative number</td></tr>
+    <tr><td>Purchased Electricity</td><td>Emission Factor</td><td>Decimal</td><td>0.0000 - 2.0000</td><td>Yes</td><td>tCO2/MWh</td><td>Check regional grid factor source before entry</td></tr>
+    <tr><td>Purchased/Exported Heat</td><td>Heat</td><td>Decimal</td><td>>= 0</td><td>Yes</td><td>GJ</td><td>Heat must be a non-negative number</td></tr>
+    <tr><td>Purchased/Exported Heat</td><td>Emission Factor</td><td>Decimal</td><td>0.0000 - 0.5000</td><td>Yes</td><td>tCO2/GJ</td><td>Use contract-specific factor where available</td></tr>
+    <tr><td>Fossil Fuel Combustion</td><td>Net Calorific Value</td><td>Decimal</td><td>0.1 - 60.0</td><td>Conditional</td><td>GJ/t</td><td>NCV required when fuel is solid/liquid</td></tr>
+    <tr><td>Carbonate Decomposition</td><td>Decomposition Rate</td><td>Decimal</td><td>0 - 100</td><td>Yes</td><td>%</td><td>Provide lab basis for decomposition rate</td></tr>
+  </tbody>
+</table>

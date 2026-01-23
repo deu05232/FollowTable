@@ -1,0 +1,21 @@
+<table>
+  <caption>Biometric Subject Health and Hand/Face Condition Log (Pre-Capture)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Allowed Values</th><th>Impact Rationale</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="5">Skin & Hand Condition</td><td>Finger Dryness</td><td>Low; Medium; High</td><td>May change ridge clarity</td></tr>
+    <tr><td>Finger Wetness</td><td>null; Slight; Heavy</td><td>Smearing risk</td></tr>
+    <tr><td>Calluses</td><td>null; Mild; Severe</td><td>Ridge deformation</td></tr>
+    <tr><td>Scars / Cuts</td><td>Absent; Present</td><td>Occlusion of features</td></tr>
+    <tr><td>Skin Irritation</td><td>null; Mild; Moderate; Severe</td><td>Texture variability</td></tr>
+    <tr><td rowspan="4">Face Condition</td><td>Makeup</td><td>null; Light; Heavy</td><td>Alters appearance</td></tr>
+    <tr><td>Occlusions</td><td>null; Mask; Scarf; Hat</td><td>Covers key regions</td></tr>
+    <tr><td>Sweat Level</td><td>Low; Medium; High</td><td>Specular highlights</td></tr>
+    <tr><td>Eye Redness</td><td>null; Mild; Severe</td><td>For ocular imaging studies</td></tr>
+    <tr><td rowspan="2">Medical</td><td>Recent Injury</td><td>No; Yes (describe)</td><td>Temporary changes</td></tr>
+    <tr><td>Known Dermatological Condition</td><td>null; Eczema; Psoriasis; Other</td><td>Persistent changes</td></tr>
+    <tr><td rowspan="2">Capture (token)</td><td>Device Family</td><td>Smartphone; Dedicated sensor</td><td>No wavelength or geometry stored</td></tr>
+    <tr><td>Contact Type</td><td>Contact-based; Contactless</td><td>Only a single coarse field</td></tr>
+  </tbody>
+</table>

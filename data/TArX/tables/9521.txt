@@ -1,0 +1,14 @@
+<table>
+  <caption>AMBT1 parameter-scan targets with explicit track/trigger/cut columns</caption>
+  <thead>
+    <tr><th>Parameter ID</th><th>Scan range (global)</th><th>Energy points (TeV)</th><th>Primary tuning observable</th><th>Observable range</th><th>Trigger requirement</th><th>Track pT cut</th><th>Acceptance cut</th><th>Pass/Fail flag</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>PAR-78</td><td>0.0–0.7</td><td>0.9, 7</td><td>dNch/dη</td><td>-2.5 < η < 2.5</td><td>MBTS</td><td>>100 MeV</td><td>|η| < 2.5</td><td>PASS</td></tr>
+    <tr><td>PAR-82</td><td>1.0–3.0</td><td>0.63, 0.9, 1.8, 1.96, 7</td><td>⟨pT⟩ vs Nch</td><td>Nch = 1–50</td><td>MBTS</td><td>>500 MeV</td><td>|η| < 2.5</td><td>PASS</td></tr>
+    <tr><td>PAR-83</td><td>1.0–2.0</td><td>0.9, 7</td><td>(1/Nevt) dNch/dpT</td><td>0.1–20 GeV</td><td>MBTS</td><td>>100 MeV</td><td>|η| < 2.5</td><td>PASS</td></tr>
+    <tr><td>PAR-101</td><td>0.5–2.5</td><td>7</td><td>P(Nch)</td><td>Nch = 0–100</td><td>MBTS</td><td>>500 MeV</td><td>|η| < 2.5</td><td>FAIL</td></tr>
+    <tr><td>PAR-115</td><td>0.8–1.6</td><td>0.9</td><td>dNch/dη at η=0</td><td>|η| < 0.5</td><td>MBTS</td><td>>100 MeV</td><td>|η| < 0.8</td><td>PASS</td></tr>
+    <tr><td>PAR-132</td><td>0.2–1.2</td><td>0.9, 7</td><td>Integrated Nch</td><td>Nch ≥ 20</td><td>MBTS</td><td>>500 MeV</td><td>|η| < 2.5</td><td>FAIL</td></tr>
+  </tbody>
+</table>

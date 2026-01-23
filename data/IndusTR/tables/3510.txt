@@ -1,0 +1,8 @@
+<table>
+  <caption>Animal Species Information Data Element Definition</caption>
+  <tr><td>Multiplicity</td><td>Business Term (Chinese)</td><td>Business Term (English)</td><td>Relationship</td><td>Type</td><td>Description</td></tr>
+  <tr><td>1..n</td><td>Species_Type</td><td>Species_Type</td><td>Attribute</td><td>Code</td><td>Code specifying the species type of the TT animal</td></tr>
+  <tr><td>0.n</td><td>Scientific Species Name</td><td>ScientificSpecies Name</td><td>Attribute</td><td>Code</td><td>Code specifying the scientific species name type of the TT animal</td></tr>
+  <tr><td>0..n</td><td>Regulation_ Species Name</td><td>Regulation_ Species Name</td><td>Attribute</td><td>Code</td><td>Code specifying the regulation species name type of the TT animal</td></tr>
+  <tr><td>0..n</td><td>Trade_Species Name</td><td>Trade_SpeciesName</td><td>Attribute</td><td>Code</td><td>Code specifying the trade species name type of the TT animal</td></tr>
+</table>

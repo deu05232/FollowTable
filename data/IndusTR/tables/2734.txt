@@ -1,0 +1,10 @@
+<table>
+  <caption>Instant Messaging Service API Pricing & Billing Items (2026)</caption>
+  <tr><th>Billing Item</th><th>Unit</th><th>Tier</th><th>Unit Price (USD)</th><th>Free Quota</th><th>Billing Cycle</th><th>Notes</th></tr>
+  <tr><td>Message Send (Text)</td><td>1,000 messages</td><td>Standard</td><td>0.35</td><td>10,000/mo</td><td>Monthly</td><td>Excludes carrier fees</td></tr>
+  <tr><td>Message Send (Rich Media)</td><td>1,000 messages</td><td>Standard</td><td>0.90</td><td>1,000/mo</td><td>Monthly</td><td>Includes template rendering</td></tr>
+  <tr><td>Status Subscription</td><td>1,000 callbacks</td><td>Standard</td><td>0.20</td><td>5,000/mo</td><td>Monthly</td><td>Delivery receipts & read receipts</td></tr>
+  <tr><td>Webhook Retention</td><td>GB-month</td><td>Extended</td><td>0.12</td><td>1 GB</td><td>Monthly</td><td>Stores payloads for replay</td></tr>
+  <tr><td>Dedicated IP</td><td>IP-month</td><td>Enterprise</td><td>45.00</td><td>0</td><td>Monthly</td><td>Static egress for allowlists</td></tr>
+  <tr><td>Support Plan</td><td>account-month</td><td>Premium</td><td>399.00</td><td>0</td><td>Monthly</td><td>24x7 SLA, escalation</td></tr>
+</table>

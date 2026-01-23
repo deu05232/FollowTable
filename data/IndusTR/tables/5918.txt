@@ -1,0 +1,20 @@
+<table>
+  <caption>AR Frame Camera Data Interfaces (Explicit Output Pointer Levels)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_acquireCameraImage</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_acquireCameraImage</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame containing the current camera image.</td></tr>
+    <tr><td>ArFrame_acquireCameraImage</td><td>out_image</td><td>ArImage **</td><td>out</td><td>Receives the address of an acquired camera image.</td></tr>
+    <tr><td>ArFrame_acquireCameraMetadata</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_acquireCameraMetadata</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame containing metadata for the current camera capture.</td></tr>
+    <tr><td>ArFrame_acquireCameraMetadata</td><td>out_metadata</td><td>ArCameraMetadata **</td><td>out</td><td>Receives the address of acquired camera metadata.</td></tr>
+    <tr><td>ArFrame_getCameraPose</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_getCameraPose</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame used to query the camera pose.</td></tr>
+    <tr><td>ArFrame_getCameraPose</td><td>out_pose</td><td>ArPose *</td><td>out</td><td>Caller-allocated pose object to be filled with the camera pose.</td></tr>
+    <tr><td>ArFrame_getCameraIntrinsics</td><td>session</td><td>ArSession *</td><td>in</td><td>Augmented reality session handle.</td></tr>
+    <tr><td>ArFrame_getCameraIntrinsics</td><td>frame</td><td>ArFrame *</td><td>in</td><td>Frame used to query camera intrinsics.</td></tr>
+    <tr><td>ArFrame_getCameraIntrinsics</td><td>out_intrinsics</td><td>ArCameraIntrinsics *</td><td>out</td><td>Caller-allocated intrinsics object to be populated.</td></tr>
+  </tbody>
+</table>

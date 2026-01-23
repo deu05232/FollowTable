@@ -1,0 +1,15 @@
+<table>
+  <caption>SOF Component Certificate Application Service Interfaces — Certificate Extension and OID Information Retrieval</caption>
+  <thead>
+    <tr><th>Group</th><th>Prototype</th><th>Description</th><th>Parameters</th><th>Output</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">OID / Extensions</td><td>BSTR SOF_GetCertInfoByOid(BSTR Base64Cert, BSTR Oid)</td><td>Retrieve certificate extension value by OID.</td><td>Base64Cert; Oid</td><td>Extension value string</td></tr>
+    <tr><td>BSTR SOF_ListCertOids(BSTR Base64Cert)</td><td>Enumerate all extension OIDs contained in a certificate.</td><td>Base64Cert</td><td>OID list string</td></tr>
+    <tr><td>BSTR SOF_GetKeyUsage(BSTR Base64Cert)</td><td>Read the KeyUsage extension and return enabled usage bits.</td><td>Base64Cert</td><td>Usage flags</td></tr>
+    <tr><td>BSTR SOF_GetExtendedKeyUsage(BSTR Base64Cert)</td><td>Read ExtendedKeyUsage OIDs from the certificate.</td><td>Base64Cert</td><td>EKU OID list</td></tr>
+    <tr><td rowspan="3">Certificate Attributes</td><td>BSTR SOF_GetCertSerialNumber(BSTR Base64Cert)</td><td>Extract the certificate serial number.</td><td>Base64Cert</td><td>Serial number string</td></tr>
+    <tr><td>BSTR SOF_GetCertValidity(BSTR Base64Cert)</td><td>Get NotBefore and NotAfter validity timestamps.</td><td>Base64Cert</td><td>Time range string</td></tr>
+    <tr><td>BSTR SOF_GetCertPublicKeyInfo(BSTR Base64Cert)</td><td>Return public key algorithm and key parameters summary.</td><td>Base64Cert</td><td>Public key info</td></tr>
+  </tbody>
+</table>

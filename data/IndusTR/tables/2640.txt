@@ -1,0 +1,10 @@
+<table>
+  <caption>Hardware Sizing Guidelines for Service Registry Deployment</caption>
+  <tr><th>Deployment Size</th><th>CPU (vCPU)</th><th>Memory (GB)</th><th>Storage (GB, SSD)</th><th>Database</th><th>Expected QPS</th></tr>
+  <tr><td>Dev</td><td>2</td><td>8</td><td>100</td><td>PostgreSQL</td><td>< 50</td></tr>
+  <tr><td>Small</td><td>4</td><td>16</td><td>300</td><td>PostgreSQL</td><td>50–200</td></tr>
+  <tr><td>Medium</td><td>8</td><td>32</td><td>800</td><td>PostgreSQL + Read Replica</td><td>200–800</td></tr>
+  <tr><td>Large</td><td>16</td><td>64</td><td>2000</td><td>PostgreSQL Cluster</td><td>800–3000</td></tr>
+  <tr><td>XL</td><td>32</td><td>128</td><td>6000</td><td>Distributed SQL</td><td>> 3000</td></tr>
+  <tr><td>Cache Add-on</td><td>2</td><td>8</td><td>50</td><td>Redis</td><td>+20% throughput</td></tr>
+</table>

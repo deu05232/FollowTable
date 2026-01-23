@@ -1,0 +1,14 @@
+<table>
+  <caption>Decoder Runtime Performance Benchmark (Non-Conformance Metrics)</caption>
+  <thead>
+    <tr><th>Device</th><th>CPU</th><th>OS</th><th>Avg Decode Speed (x realtime)</th><th>Peak RAM (MB)</th><th>Battery Drain (mW)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DevKit-A</td><td>ARM Cortex-A78</td><td>Android 14</td><td>3.2x</td><td>118</td><td>620</td></tr>
+    <tr><td>DevKit-B</td><td>ARM Cortex-X2</td><td>Android 15</td><td>4.6x</td><td>140</td><td>710</td></tr>
+    <tr><td>Laptop-1</td><td>Intel i7-12700H</td><td>Windows 11</td><td>12.8x</td><td>210</td><td>N/A</td></tr>
+    <tr><td>Server-1</td><td>AMD EPYC 7xx3</td><td>Ubuntu 22.04</td><td>28.4x</td><td>390</td><td>N/A</td></tr>
+    <tr><td>Embedded-1</td><td>ARM Cortex-A55</td><td>Linux 5.15</td><td>1.4x</td><td>76</td><td>410</td></tr>
+    <tr><td>Tablet-1</td><td>Apple M2</td><td>iPadOS 17</td><td>9.7x</td><td>165</td><td>540</td></tr>
+  </tbody>
+</table>

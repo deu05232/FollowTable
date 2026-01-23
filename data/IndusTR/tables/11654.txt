@@ -1,0 +1,13 @@
+<table>
+  <caption>Command D5h — Set Fan Group Mode (with per-fan mode bytes)</caption>
+  <thead>
+    <tr><th>Start Symbol</th><th>KADDL (Sub-unit Address)</th><th>Command</th><th>Length</th><th colspan="4">Data Segment</th><th>CRC-16</th><th>End Symbol</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>55H AAH 55H AAH</td><td>01H..FFH</td><td>D5H</td><td>0004H..00FFH</td><td>GroupID</td><td>FanCount</td><td>FM0</td><td>... FM(n-1)</td><td>Low..High</td><td>0DH 0AH</td></tr>
+    <tr><td colspan="10">Data field definition: GroupID (1 byte) = fan group index; FanCount (1 byte) = number of fans in group. FMk (1 byte each) = mode for fan k: 00H=Off, 01H=Auto, 02H=Manual Low, 03H=Manual High. Length = 2 + FanCount.</td></tr>
+    <tr><td colspan="10">Example payload: GroupID=02H, FanCount=03H, FM0=01H, FM1=03H, FM2=00H → Data = 02 03 01 03 00, Length=0005H.</td></tr>
+    <tr><td colspan="10">Direction: Controller → Sub-unit. Used to broadcast per-device operational settings beyond the common header.</td></tr>
+    <tr><td colspan="10">Notes: FM array order follows device enumeration in the sub-unit (fan #0..#(n-1)).</td></tr>
+  </tbody>
+</table>

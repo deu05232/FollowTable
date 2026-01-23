@@ -1,0 +1,16 @@
+<table>
+  <caption>Coordinate System and Pose Convention Enums (2D/3D)</caption>
+  <thead>
+    <tr><th>Group</th><th>Enum Constant</th><th>Numeric Value</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">2D coordinates</td><td>AR_COORDINATES_2D_TEXTURE_TEXELS</td><td>0</td><td>Texture coordinates in texel units (GPU).</td></tr>
+    <tr><td>AR_COORDINATES_2D_TEXTURE_NORMALIZED</td><td>1</td><td>Normalized texture coordinates in [0,1].</td></tr>
+    <tr><td>AR_COORDINATES_2D_IMAGE_PIXELS</td><td>2</td><td>CPU image pixel coordinates.</td></tr>
+    <tr><td rowspan="3">3D world axes</td><td>AR_WORLD_AXIS_RIGHT_HANDED_Y_UP</td><td>10</td><td>Right-handed, +Y up, +Z forward.</td></tr>
+    <tr><td>AR_WORLD_AXIS_RIGHT_HANDED_Z_UP</td><td>11</td><td>Right-handed, +Z up, +Y forward.</td></tr>
+    <tr><td>AR_WORLD_AXIS_LEFT_HANDED_Y_UP</td><td>12</td><td>Left-handed, +Y up, +Z forward.</td></tr>
+    <tr><td rowspan="2">Pose convention</td><td>AR_POSE_MATRIX_COLUMN_MAJOR</td><td>20</td><td>Column-major 4x4 matrices.</td></tr>
+    <tr><td>AR_POSE_MATRIX_ROW_MAJOR</td><td>21</td><td>Row-major 4x4 matrices.</td></tr>
+  </tbody>
+</table>

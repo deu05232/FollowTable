@@ -1,0 +1,17 @@
+<table>
+  <caption>Secondary Indicators: Carbon Intensity Change Relative to Base Year (per unit of GDP)</caption>
+  <thead>
+    <tr><th>Field</th><th>Content</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Indicator Name (Unit)</td><td>Cumulative decline rate of CO₂ emissions per unit of GDP (%)</td></tr>
+    <tr><td>Indicator Code</td><td>C1a</td></tr>
+    <tr><td>Dimension / Category</td><td>Low-carbon efficiency > Carbon intensity improvement</td></tr>
+    <tr><td>Basic Definition</td><td>The cumulative percentage decrease in CO₂ emissions per unit of GDP in the evaluation year compared with the base year.</td></tr>
+    <tr><td>Computation</td><td>ItemFormulaSign ConventionCO₂ intensity (year t)It= CO₂t/ GDPtLower is betterCumulative decline rateRt= (Ibase− It) / Ibase× 100%Positive means improvement; negative means deteriorationOptional deflationGDP at comparable pricesRecommended for multi-year comparison</td></tr>
+    <tr><td>Interpretation</td><td>Captures whether economic growth is becoming less carbon-dependent; allows fair comparison across regions with different GDP sizes.</td></tr>
+    <tr><td>Indicator Focus</td><td>Efficiency relative to output (intensity-based), not absolute emissions or ambient environmental quality.</td></tr>
+    <tr><td>Data Sources (examples)</td><td>Energy balance tables + emission factors (CO₂); regional GDP statistics.</td></tr>
+    <tr><td>Notes / Boundary</td><td>Specify accounting scope (territorial energy-related CO₂; exclude LULUCF unless explicitly included).</td></tr>
+  </tbody>
+</table>

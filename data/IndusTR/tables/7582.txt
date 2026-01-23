@@ -1,0 +1,15 @@
+<table>
+  <caption>ARSessionConfigFlags (Runtime Session Configuration Knobs)</caption>
+  <thead>
+    <tr><th>Flag Constant</th><th>Value</th><th>Description</th><th>Typical Use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ARSESSION_CONFIG_FLAG_NONE</td><td>0</td><td>No special behavior enabled.</td><td>Baseline initialization.</td></tr>
+    <tr><td>ARSESSION_CONFIG_FLAG_RESET_TRACKING</td><td>1</td><td>Resets tracking state on (re)configure; pose origin may jump.</td><td>“Reset tracking” toggle when user re-centers.</td></tr>
+    <tr><td>ARSESSION_CONFIG_FLAG_RESET_ANCHORS</td><td>2</td><td>Clears all existing anchors/trackables when applying configuration.</td><td>“Clear placed objects” / restart experience.</td></tr>
+    <tr><td>ARSESSION_CONFIG_FLAG_ENABLE_AUTOFACE</td><td>4</td><td>Enables automatic selection of face-related subsystems if supported.</td><td>Single toggle for face features (when available).</td></tr>
+    <tr><td>ARSESSION_CONFIG_FLAG_ENABLE_DEPTH</td><td>8</td><td>Enables depth-assisted tracking/occlusion if the device supports it.</td><td>“Enable occlusion” / “Use depth” toggle.</td></tr>
+    <tr><td>ARSESSION_CONFIG_FLAG_ENABLE_MESH</td><td>16</td><td>Enables environment mesh reconstruction if supported.</td><td>Scene understanding / physics.</td></tr>
+    <tr><td>ARSESSION_CONFIG_FLAG_USE_HIGH_ACCURACY_GYRO</td><td>32</td><td>Requests higher IMU precision at higher power cost.</td><td>Quality vs battery toggle.</td></tr>
+  </tbody>
+</table>

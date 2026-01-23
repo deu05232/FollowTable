@@ -1,0 +1,16 @@
+<table>
+  <caption>Basic PDU Field Summary (Single-Frame Assumption, No Reassembly Metadata)</caption>
+  <thead>
+    <tr><th>Section</th><th>Field</th><th>Length</th><th>Presence</th><th>Purpose</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Header</td><td>P</td><td>3 bits</td><td>Mandatory</td><td>Priority indicator</td></tr>
+    <tr><td>Header</td><td>EDP</td><td>1 bit</td><td>Mandatory</td><td>Extended page flag</td></tr>
+    <tr><td>Header</td><td>DP</td><td>1 bit</td><td>Mandatory</td><td>Page flag</td></tr>
+    <tr><td>Header</td><td>PF</td><td>8 bits</td><td>Mandatory</td><td>Identifies PDU format</td></tr>
+    <tr><td>Addressing</td><td>PS (DA)</td><td>8 bits</td><td>Mandatory</td><td>Destination address</td></tr>
+    <tr><td>Addressing</td><td>SA</td><td>8 bits</td><td>Mandatory</td><td>Source address</td></tr>
+    <tr><td>Payload</td><td>Data Field</td><td>0..8 bytes</td><td>Mandatory</td><td>Payload carried entirely within one frame</td></tr>
+    <tr><td>Padding</td><td>Pad Bytes</td><td>0..8 bytes</td><td>Optional</td><td>0xFF padding for unused payload bytes</td></tr>
+  </tbody>
+</table>

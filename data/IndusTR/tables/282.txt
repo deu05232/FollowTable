@@ -1,0 +1,6 @@
+<table>
+  <caption>Charger and Vehicle Wake-up Message Parameters</caption>
+  <tr><td>Parameter Group Identifier</td><td>Message Description</td><td>Information Type</td><td>Cycle Time</td><td>Total Transmission Time/ms</td><td>Source Address - Destination Address</td></tr>
+  <tr><td>0x08</td><td>Charger wake-up</td><td>Short message requiring acknowledgment</td><td></td><td>10000</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x09</td><td>Vehicle wake-up</td><td>Short message requiring acknowledgment</td><td></td><td>10000</td><td>Vehicle - Charger</td></tr>
+</table>

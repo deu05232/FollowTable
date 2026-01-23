@@ -1,0 +1,10 @@
+<table>
+  <caption>AWG Filter Production Equipment Settings (Process Window Summary)</caption>
+  <tr><th>Process Step</th><th>Equipment</th><th>Key Setting</th><th>Target Value</th><th>Tolerance</th><th>Data Logging</th></tr>
+  <tr><td>Waveguide lithography</td><td>Stepper</td><td>Exposure dose</td><td>120 mJ/cm²</td><td>± 5%</td><td>Per wafer</td></tr>
+  <tr><td>Dry etch</td><td>ICP-RIE</td><td>RF power</td><td>600 W</td><td>± 20 W</td><td>Per run</td></tr>
+  <tr><td>Dry etch</td><td>ICP-RIE</td><td>Chamber pressure</td><td>12 mTorr</td><td>± 1 mTorr</td><td>Per run</td></tr>
+  <tr><td>Annealing</td><td>Furnace</td><td>Temperature</td><td>950°C</td><td>± 10°C</td><td>Per batch</td></tr>
+  <tr><td>Fiber array attach</td><td>Aligner</td><td>Alignment iteration limit</td><td>≤ 6</td><td>N/A</td><td>Per unit</td></tr>
+  <tr><td>Hermetic sealing</td><td>Laser welder</td><td>Weld speed</td><td>18 mm/s</td><td>± 2 mm/s</td><td>Per unit</td></tr>
+</table>

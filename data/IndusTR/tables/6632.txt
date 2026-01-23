@@ -1,0 +1,15 @@
+<table>
+  <caption>Ionospheric Delay Correction Spherical-Harmonic Setup Parameters (Thin-Shell, Degree/Order, Scaling)</caption>
+  <thead>
+    <tr><th>Category</th><th>Data Field Name</th><th>Data Field ID</th><th>Data Type</th><th>Bit Width</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Model</td><td>Ionospheric thin-shell height</td><td>DF473</td><td>uint8</td><td>8</td><td>Height of the thin shell layer (km-coded)</td></tr>
+    <tr><td>Model</td><td>Spherical harmonic function degree</td><td>DF474</td><td>uint4</td><td>4</td><td>Maximum degree n</td></tr>
+    <tr><td>Model</td><td>Spherical harmonic function order</td><td>DF475</td><td>uint4</td><td>4</td><td>Maximum order m</td></tr>
+    <tr><td>Encoding</td><td>Coefficient quantization scale index</td><td>DF6A1</td><td>uint3</td><td>3</td><td>Selects quantization step for coefficient packing</td></tr>
+    <tr><td>Encoding</td><td>Coefficient offset sign</td><td>DF6A2</td><td>bit(1)</td><td>1</td><td>Sign applied to the global offset</td></tr>
+    <tr><td>Encoding</td><td>Global coefficient offset</td><td>DF6A3</td><td>int10</td><td>10</td><td>Offset applied before transmitting coefficient blocks</td></tr>
+    <tr><td>Block</td><td>Number of coefficient blocks</td><td>DF6A4</td><td>uint5</td><td>5</td><td>How many blocks follow</td></tr>
+  </tbody>
+</table>

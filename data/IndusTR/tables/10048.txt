@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal Network-Management RX Indication Statement Parameters</caption>
+  <thead>
+    <tr><th>No.</th><th>Parameter Field</th><th>Allowed Range</th><th>Unit</th><th>Description / Usage</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Inbound_User_ID</td><td>1–16,777,215</td><td>—</td><td>Source user identifier associated with an inbound network-management indication (intranet user).</td></tr>
+    <tr><td>2</td><td>Mgmt_Info_Type</td><td>1–4</td><td>—</td><td>Network management information category. 1 = Power-on report; 2 = Silence request; 3 = Emergency search and rescue; 4 = Unsuccessful communication confirmation.</td></tr>
+    <tr><td>3</td><td>Station_Entry_Seq</td><td>0–31</td><td>—</td><td>Lower 5 bits of the inbound sequence number; used to correlate the indication with uplink entry/registration attempts.</td></tr>
+    <tr><td>4</td><td>Silence_StartStop</td><td>0–1</td><td>—</td><td>Silence control flag when Mgmt_Info_Type indicates silence control. 0 = start silence; 1 = end silence.</td></tr>
+    <tr><td>5</td><td>Silence_Frequency_Point</td><td>0–2</td><td>—</td><td>Frequency point to which silence control applies. 0 = Automatic; 1 = LF1; 2 = LF2.</td></tr>
+    <tr><td>6</td><td>Silence_Address_Count</td><td>1–63</td><td>—</td><td>Number of target addresses included for silence control (count of IDs in the address list that follows the statement parameters).</td></tr>
+    <tr><td>7</td><td>Report_Type</td><td>1–3</td><td>—</td><td>Terminal report classification when the indication relates to reporting. 1 = Power-on report; 2 = Power-off report; 3 = Status report.</td></tr>
+    <tr><td>8</td><td>Report_Frequency_Point</td><td>0–2</td><td>—</td><td>Frequency point used/indicated for reporting. 0 = Automatic; 1 = LF1; 2 = LF2.</td></tr>
+  </tbody>
+</table>

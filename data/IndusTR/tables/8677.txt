@@ -1,0 +1,10 @@
+<table>
+  <caption>Application-Layer Message Overview: Abort Mixed With Other Messages</caption>
+  <tr><th>Parameter Group Identifier</th><th>Message Description</th><th>Information Type</th><th>Cycle Time</th><th>Total Transmission Time/ms</th><th>Source - Destination</th></tr>
+  <tr><td>0x01</td><td>Phase request</td><td>Short message requiring acknowledgment</td><td>—</td><td>1000</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x02</td><td>Vehicle confirmation result</td><td>Short message requiring acknowledgment</td><td>—</td><td>1000</td><td>Vehicle - Charger</td></tr>
+  <tr><td>0x03</td><td>Charger abort</td><td>Short message requiring acknowledgment</td><td>—</td><td>1000</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x04</td><td>Vehicle abort</td><td>Short message requiring acknowledgment</td><td>—</td><td>1000</td><td>Vehicle - Charger</td></tr>
+  <tr><td>0x07</td><td>Charger electronic lock status</td><td>Short message not requiring acknowledgment</td><td>1000 ms / 50 ms on change</td><td>—</td><td>Charger - Vehicle</td></tr>
+  <tr><td>0x05</td><td>DC power supply circuit contactor status</td><td>Short message not requiring acknowledgment</td><td>1000 ms / 50 ms on change</td><td>—</td><td>Charger - Vehicle</td></tr>
+</table>

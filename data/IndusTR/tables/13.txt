@@ -1,0 +1,15 @@
+<table>
+  <caption>1Gbit s–5Gbit s SpaceFibre Optical Receiver Electrical-to-Optical Characteristics</caption>
+  <tr><td>Parameter</td><td>Symbol</td><td>Minimum</td><td>Typical</td><td>Maximum</td><td>Unit</td><td>Description</td></tr>
+  <tr><td rowspan="5">(BER= 10-1²,PRBS= 2-7 -1,ER=10 dB) Sensitivity</td><td rowspan="5">PIN</td><td></td><td>-22.5</td><td>-19</td><td>dBm</td><td>PIN PD @ 1.25 Gbit/s</td></tr>
+  <tr><td></td><td>-22.5</td><td></td><td>dBm</td><td>PIN PD @ 2.5 Gbit/s</td></tr>
+  <tr><td></td><td>-18.5</td><td></td><td>dBm</td><td>PIN PD @ 3.2 Gbit/s</td></tr>
+  <tr><td></td><td>-18</td><td></td><td>dBm</td><td>PIN PD @ 4.25 Gbit/s</td></tr>
+  <tr><td></td><td>-17.5</td><td>-16</td><td>dBm</td><td>PIN PD @ 5 Gbit/s</td></tr>
+  <tr><td>(BER=10-12,PRBS =2-7-1) Overload</td><td>PIN</td><td>-1</td><td></td><td></td><td>dBm</td><td>@1.25 Gbit/s or @5 Gbit/s</td></tr>
+  <tr><td>Optical wavelength</td><td>λIN</td><td>770</td><td></td><td>860</td><td>nm</td><td>See 38.3 in IEEE Std 802.3-2022</td></tr>
+  <tr><td>Receiver differential output impedance</td><td>Zout</td><td></td><td>100</td><td></td><td>m</td><td>Internal AC coupling</td></tr>
+  <tr><td>Differential output voltage swing</td><td>Voutd</td><td>600</td><td>一</td><td>1200</td><td>mVpp</td><td>CML,100 Ω</td></tr>
+  <tr><td>NoSignal trigger threshold</td><td>NOSIG</td><td>-30</td><td>-24</td><td></td><td>dBm</td><td>@ 1.25 Gbit/s</td></tr>
+  <tr><td>NoSignal hysteresis</td><td>NOSIGHYS</td><td>1.25</td><td>2.3</td><td></td><td>dB</td><td>@ 1.25 Gbit/s</td></tr>
+</table>

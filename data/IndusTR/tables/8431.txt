@@ -1,0 +1,15 @@
+<table>
+  <caption>Hazardous Area Zone & Gas Family Mapping for Deployment Planning (Classification-Oriented)</caption>
+  <thead>
+    <tr><th>Zone</th><th>Gas Group</th><th>Typical Gas Family</th><th>Example Substances (Non-threshold)</th><th>Recommended Detector Class</th><th>Alarm Output Style</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Zone 0</td><td>IIC</td><td>Hydrogen-rich</td><td>Hydrogen, acetylene</td><td>Premium</td><td>Relay</td></tr>
+    <tr><td>Zone 1</td><td>IIB</td><td>Solvent vapors</td><td>Propane, butane, gasoline vapor</td><td>Standard</td><td>4–20 mA</td></tr>
+    <tr><td>Zone 2</td><td>IIA</td><td>Light hydrocarbons</td><td>Methane, ethane</td><td>Standard</td><td>Digital bus</td></tr>
+    <tr><td>Non-hazardous</td><td>N/A</td><td>General air monitoring</td><td>CO2 (indoor), VOC mix</td><td>Basic</td><td>Visual only</td></tr>
+    <tr><td>Mining</td><td>I</td><td>Coal mine gas</td><td>Methane (mine)</td><td>Mine-rated</td><td>Relay</td></tr>
+    <tr><td>Marine</td><td>IIA/IIB</td><td>Fuel handling</td><td>Diesel vapor, LPG</td><td>Marine-rated</td><td>4–20 mA</td></tr>
+    <tr><td>Laboratory</td><td>IIA</td><td>Mixed chemicals</td><td>Ethanol, acetone</td><td>Standard</td><td>Digital bus</td></tr>
+  </tbody>
+</table>

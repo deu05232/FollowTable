@@ -1,0 +1,16 @@
+<table>
+  <caption>IM Interface Request Parameters — Send Notification Operation</caption>
+  <thead>
+    <tr><th>Operation</th><th>Parameter Name</th><th>Type / Format</th><th>Mandatory</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">SEND_NOTIFICATION</td><td>interfaceOperation</td><td>String (1..64)</td><td>Y</td><td>Operation name. Fixed value: SEND_NOTIFICATION.</td></tr>
+    <tr><td>initiatorNotificationId</td><td>String (1..64)</td><td>Y</td><td>User identifier of the notification initiator (sender).</td></tr>
+    <tr><td>recipientNotificationId</td><td>String (1..64)</td><td>Y</td><td>User identifier of the notification recipient.</td></tr>
+    <tr><td>notificationCategory</td><td>Enum ("SYSTEM" | "CHAT" | "ALERT")</td><td>Y</td><td>High-level category to route/render the notification.</td></tr>
+    <tr><td>title</td><td>String (0..120)</td><td>N</td><td>Short title displayed to the user.</td></tr>
+    <tr><td>body</td><td>String (1..2000)</td><td>Y</td><td>Notification text/content.</td></tr>
+    <tr><td>clientMessageId</td><td>String (1..64)</td><td>N</td><td>Client-side message identifier for deduplication.</td></tr>
+    <tr><td>payloadFormat</td><td>Enum ("TEXT" | "JSON")</td><td>N</td><td>Indicates how to interpret the body/payload.</td></tr>
+  </tbody>
+</table>

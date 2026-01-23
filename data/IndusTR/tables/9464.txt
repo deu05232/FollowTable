@@ -1,0 +1,16 @@
+<table>
+  <caption>Direct vs CT Limits for Harmonic Active Energy Tests (Class Shown as Notes, Not as Columns)</caption>
+  <thead>
+    <tr><th rowspan="2">Test</th><th rowspan="2">Condition (current / PF)</th><th colspan="2">Limit value (%)</th><th rowspan="2">Class note</th></tr>
+    <tr><th>Direct-connected</th><th>Via current transformer</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Single harmonic active energy</td><td>Imin ≤ Ih < Itr; cosφ = 1.0</td><td>±2.5H</td><td>±3.0H</td><td>Applies to class 1 and better</td></tr>
+    <tr><td>Single harmonic active energy</td><td>Itr ≤ Ih ≤ 0.4Imax; cosφ = 1.0</td><td>±1.0H</td><td>±2.0H</td><td>Class 2 may use +0.5H additional margin</td></tr>
+    <tr><td>Single harmonic active energy</td><td>Itr ≤ Ih ≤ 0.4Imax; cosφ = 0.5L</td><td>±3.0H</td><td>±4.5H</td><td>Class 5 allowed up to ±15.0H (see note)</td></tr>
+    <tr><td>Combined harmonic active energy</td><td>Waveform set B; I = 0.2Imax</td><td>±4.0</td><td>±6.0</td><td>Class 5 permitted to ±18.0</td></tr>
+    <tr><td>Load increase/decrease variation</td><td>0.1I ≤ I ≤ Imax; PF = 1.0</td><td>0.25</td><td>0.25</td><td>Class A–E values not tabulated here</td></tr>
+    <tr><td>Frequency variation influence</td><td>I = 4I; HPF = 10.5L</td><td>1.0</td><td>1.2</td><td>Different class limits provided in annex</td></tr>
+    <tr><td>Reverse phase sequence influence</td><td>I = I; HPF = 1.0</td><td>1.5</td><td>1.5</td><td>All classes share same limit</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Shrinkage cavity prevention in casting geometry (hot-spot control)</caption>
+  <tr><th>Geometry situation</th><th>Proper design (shrinkage-safe)</th><th>Improper design (shrinkage-prone)</th><th>Notes (why it matters)</th></tr>
+  <tr><td>T-junction / cross intersection</td><td>Add generous fillets and taper the thicker arm into the joint</td><td>Sharp intersection with sudden thick mass at the node</td><td>Reduces local hot spot and improves feeding, lowering shrinkage cavity risk</td></tr>
+  <tr><td>Rib on a wall</td><td>Rib thickness about 0.6–0.8× wall thickness; rib blends smoothly</td><td>Rib nearly as thick as wall or thicker; abrupt root</td><td>Over-thick ribs create hot spots and shrinkage voids at the rib root</td></tr>
+  <tr><td>Boss connected to a plate</td><td>Hollow boss or cored boss; connect with thin ribs rather than a solid pad</td><td>Solid boss sitting on a thick pad</td><td>Solid pads concentrate heat and often generate internal shrinkage cavities</td></tr>
+  <tr><td>Step change in section</td><td>Gradual transition with a long taper</td><td>Sudden step from thin to thick</td><td>Sudden thick sections solidify last and pull metal, leading to shrinkage defects</td></tr>
+  <tr><td>Thick corner region</td><td>Corner is relieved (scallop/lightening) and filleted</td><td>Massive, blocky corner</td><td>Corner hot spots are classic sites for shrinkage porosity/cavities</td></tr>
+  <tr><td>Parallel thick features close together</td><td>Combine into a uniform section or add relief between features</td><td>Two thick features create a trapped hot zone between them</td><td>Trapped hot zones are difficult to feed and are prone to shrinkage</td></tr>
+</table>

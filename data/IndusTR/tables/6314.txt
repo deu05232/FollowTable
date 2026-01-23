@@ -1,0 +1,15 @@
+<table>
+  <caption>Stakeholder Matrix for International Container Tracking (Roles & Responsibilities Overview)</caption>
+  <thead>
+    <tr><th>Organization Type</th><th>Role in Visibility</th><th>Owned Data Assets</th><th>Shared Data (Typical)</th><th>Systems Used</th><th>Governance / Policy Focus</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ocean Carrier</td><td>Publishes vessel and container status</td><td>Booking, stowage, container movement logs</td><td>Milestones (Loaded/Discharged), ETA updates</td><td>Carrier EDI gateway, ops systems</td><td>Commercial confidentiality, data licensing</td></tr>
+    <tr><td>Terminal Operator</td><td>Provides gate and yard visibility</td><td>Gate-in/out, yard location, crane moves</td><td>Arrival notice, yard events</td><td>TOS, gate kiosks</td><td>Port community data rules</td></tr>
+    <tr><td>Freight Forwarder / NVOCC</td><td>Aggregates multi-leg status for customers</td><td>Consolidation records, house bills</td><td>Status notifications, exception summaries</td><td>TMS, customer portals</td><td>Customer SLA obligations</td></tr>
+    <tr><td>Customs / Border Agency</td><td>Publishes hold/release indicators</td><td>Declarations, inspection outcomes</td><td>Release status, inspection requirement</td><td>Single window, risk engines</td><td>Legal compliance, retention rules</td></tr>
+    <tr><td>Port Community / Shared Data Hub</td><td>Normalizes and distributes shared visibility</td><td>Reference data, message registry</td><td>Aggregated event feeds, subscription outputs</td><td>Message broker, API layer</td><td>Data access control, consent</td></tr>
+    <tr><td>Shipper / Consignee</td><td>Consumes visibility and triggers exceptions</td><td>Purchase orders, delivery plans</td><td>Delivery instructions, appointment requests</td><td>ERP, supplier portals</td><td>Audit readiness, supplier compliance</td></tr>
+    <tr><td>Inland Carrier (Rail/Truck)</td><td>Provides inland leg status</td><td>GPS tracks, pickup/delivery proof</td><td>POD, pickup time</td><td>Telematics, dispatch systems</td><td>Driver privacy, security</td></tr>
+  </tbody>
+</table>

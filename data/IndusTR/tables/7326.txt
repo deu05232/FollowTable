@@ -1,0 +1,8 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Calibration and Exposure Behavior</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Dark-Field Calibration Indicator</td><td>(0014,3070)</td><td>CS</td><td>1</td><td>3</td><td>Indicator describing whether dark-field calibration was applied</td></tr>
+  <tr><td>Flat-Field Gain Map</td><td>(0014,3072)</td><td>OB</td><td>1</td><td>3</td><td>Binary object containing the gain correction map used during processing</td></tr>
+  <tr><td>Exposure Pulse Configuration</td><td>(0018,11A0)</td><td>CS</td><td>1</td><td>3</td><td>Configuration describing pulsed exposure behavior during acquisition</td></tr>
+  <tr><td>Calibration Timestamp</td><td>(0014,3074)</td><td>DT</td><td>1</td><td>3</td><td>Date and time when the calibration data was generated</td></tr>
+</table>

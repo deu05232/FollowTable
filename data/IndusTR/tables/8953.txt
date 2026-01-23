@@ -1,0 +1,15 @@
+<table>
+  <caption>Idle (Standby) Power Requirements by Energy Efficiency Grade for Built-in Electric Ovens with Control Electronics</caption>
+  <thead>
+    <tr><th rowspan="2">Idle mode category</th><th rowspan="2">Mode description</th><th colspan="3">Maximum power (W) by energy efficiency grade</th></tr>
+    <tr><th>Grade 1</th><th>Grade 2</th><th>Grade 3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Standby (no network)</td><td>Basic standby (control ready), no clock display</td><td>≤ 0.50</td><td>≤ 0.80</td><td>≤ 1.20</td></tr>
+    <tr><td>Standby with clock / status display</td><td>≤ 0.80</td><td>≤ 1.10</td><td>≤ 1.60</td></tr>
+    <tr><td>Networked standby</td><td>Connected mode (remote control enabled, maintains network)</td><td>≤ 2.00</td><td>≤ 2.50</td><td>≤ 3.50</td></tr>
+    <tr><td rowspan="2">Off mode</td><td>Electronic off (soft-off), plug connected</td><td>≤ 0.20</td><td>≤ 0.30</td><td>≤ 0.50</td></tr>
+    <tr><td>Mechanical off (hard-off switch) while still plugged in</td><td>≤ 0.10</td><td>≤ 0.10</td><td>≤ 0.10</td></tr>
+    <tr><td>Information-only mode</td><td>Information display only (e.g., “end” indicator), no heating</td><td>≤ 0.60</td><td>≤ 0.90</td><td>≤ 1.30</td></tr>
+  </tbody>
+</table>

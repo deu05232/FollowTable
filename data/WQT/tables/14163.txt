@@ -1,0 +1,11 @@
+# Routing Protocol Comparison  Administrative Distance vs Metric Type (Mixed Reference)
+
+| Routing protocol | Administrative distance (default) | Metric used |
+| --- | --- | --- |
+| OSPF | 110 | Cost |
+| EIGRP (internal) | 90 | Composite (bandwidth, delay, etc.) |
+| RIP | 120 | Hop count |
+| IS-IS | 115 | Cost |
+| eBGP | 20 | AS-path attributes |
+| Static | 1 | N/A |
+| Connected | 0 | N/A |

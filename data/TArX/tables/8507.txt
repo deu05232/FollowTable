@@ -1,0 +1,15 @@
+<table>
+  <caption>Chandrasekhar-mass SN Ia simulation: pre-ignition core and CSM input conditions (NOT explosion outcomes).</caption>
+  <thead>
+    <tr><th rowspan="2">Model</th><th colspan="4">White dwarf initial state</th><th colspan="3">Circumstellar / boundary setup</th><th rowspan="2">Notes</th></tr>
+    <tr><th>M_WD (M☉)</th><th>Central density ρc (10^9 g cm^-3)</th><th>Central temperature Tc (10^8 K)</th><th>C/O ratio</th><th>CSM mass (M☉)</th><th>Wind speed (km s^-1)</th><th>Outer boundary radius (10^10 cm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Chandra-A</td><td>1.38</td><td>2.0</td><td>7.0</td><td>0.50/0.50</td><td>0.00</td><td>0</td><td>2.0</td><td>Baseline ignition model</td></tr>
+    <tr><td>Chandra-B</td><td>1.38</td><td>3.0</td><td>6.5</td><td>0.45/0.55</td><td>0.02</td><td>100</td><td>2.0</td><td>Low-mass CSM shell</td></tr>
+    <tr><td>Chandra-C</td><td>1.39</td><td>4.5</td><td>6.0</td><td>0.40/0.60</td><td>0.05</td><td>200</td><td>2.5</td><td>Denser core, stronger wind</td></tr>
+    <tr><td>Chandra-D</td><td>1.37</td><td>1.5</td><td>7.5</td><td>0.55/0.45</td><td>0.00</td><td>0</td><td>1.8</td><td>Lower ρc test</td></tr>
+    <tr><td>Chandra-E</td><td>1.38</td><td>2.5</td><td>6.8</td><td>0.50/0.50</td><td>0.10</td><td>500</td><td>3.0</td><td>Extended CSM envelope</td></tr>
+    <tr><td>Chandra-F</td><td>1.38</td><td>3.8</td><td>6.2</td><td>0.48/0.52</td><td>0.00</td><td>0</td><td>2.2</td><td>Ignition geometry variant</td></tr>
+  </tbody>
+</table>

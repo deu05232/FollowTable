@@ -1,0 +1,11 @@
+<table>
+  <caption>vrPose field definitions (tracking-space pose container)</caption>
+  <tr><th>Data Structure Name</th><th>Field</th><th>Data Type</th><th>Description</th></tr>
+  <tr><td rowspan="7">vrPose</td><td>time_stamp</td><td>int64_t</td><td>Pose timestamp</td></tr>
+  <tr><td>orientation</td><td>vrQuaternion</td><td>Rotation quaternion</td></tr>
+  <tr><td>position</td><td>vr3DPoint</td><td>3D position point</td></tr>
+  <tr><td>origin_id</td><td>uint32_t</td><td>Identifier for the tracking origin used for this pose</td></tr>
+  <tr><td>source_device_id</td><td>uint32_t</td><td>Device that produced this pose sample</td></tr>
+  <tr><td>prediction_ms</td><td>float</td><td>Prediction horizon applied to the pose (ms)</td></tr>
+  <tr><td>reserved</td><td>uint32_t[2]</td><td>Reserved for future expansion</td></tr>
+</table>

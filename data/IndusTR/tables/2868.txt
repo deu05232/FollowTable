@@ -1,0 +1,14 @@
+<table>
+  <caption>Laser Cutting Machine Maintenance Schedule (Preventive Plan)</caption>
+  <thead>
+    <tr><th>Subsystem</th><th>Task</th><th>Frequency</th><th>Estimated Downtime</th><th>Responsible Role</th><th>Record ID</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Optics</td><td>Clean protective window</td><td>Daily</td><td>10 min</td><td>Operator</td><td>PM-OPT-01</td></tr>
+    <tr><td>Nozzle</td><td>Inspect nozzle concentricity</td><td>Weekly</td><td>30 min</td><td>Technician</td><td>PM-NZ-04</td></tr>
+    <tr><td>Assist Gas</td><td>Check gas filters and leaks</td><td>Weekly</td><td>20 min</td><td>Technician</td><td>PM-GAS-02</td></tr>
+    <tr><td>Motion System</td><td>Lubricate linear guides</td><td>Monthly</td><td>60 min</td><td>Maintenance</td><td>PM-MOT-07</td></tr>
+    <tr><td>Chiller</td><td>Replace coolant / verify flow</td><td>Quarterly</td><td>90 min</td><td>Maintenance</td><td>PM-CHL-03</td></tr>
+    <tr><td>Electrical</td><td>Tighten cabinet terminals</td><td>Quarterly</td><td>45 min</td><td>Maintenance</td><td>PM-ELC-05</td></tr>
+  </tbody>
+</table>

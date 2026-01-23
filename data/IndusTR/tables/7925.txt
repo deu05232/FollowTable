@@ -1,0 +1,20 @@
+<table>
+  <caption>VR Pose and Motion Structures (Field-Level Breakdown)</caption>
+  <thead>
+    <tr><th>Structure</th><th>Field</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">vrPose</td><td>time_stamp</td><td>int64_t</td><td>Pose sample timestamp (ns)</td></tr>
+    <tr><td>position</td><td>vr3DPoint</td><td>3D position in tracking space</td></tr>
+    <tr><td>orientation</td><td>vrQuaternion</td><td>Rotation quaternion</td></tr>
+    <tr><td>confidence</td><td>float</td><td>Tracking confidence [0..1]</td></tr>
+    <tr><td>origin</td><td>vrPoseOrigin</td><td>Pose origin reference used</td></tr>
+    <tr><td>flags</td><td>uint32_t</td><td>Pose validity flags (bitmask)</td></tr>
+    <tr><td rowspan="6">vrMotionData</td><td>linear_velocity</td><td>vr3DVector</td><td>Linear velocity (m/s)</td></tr>
+    <tr><td>linear_acceleration</td><td>vr3DVector</td><td>Linear acceleration (m/s^2)</td></tr>
+    <tr><td>angular_velocity</td><td>vr3DVector</td><td>Angular velocity (rad/s)</td></tr>
+    <tr><td>angular_acceleration</td><td>vr3DVector</td><td>Angular acceleration (rad/s^2)</td></tr>
+    <tr><td>prediction_dt</td><td>double</td><td>Prediction horizon used by runtime (s)</td></tr>
+    <tr><td>temperature</td><td>float</td><td>IMU temperature (C)</td></tr>
+  </tbody>
+</table>

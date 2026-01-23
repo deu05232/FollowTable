@@ -1,0 +1,16 @@
+<table>
+  <caption>Optical/Electrical Performance Requirements for InGaAs Photodetector Assembly (Optical Link Use)</caption>
+  <thead>
+    <tr><th>Parameter</th><th>Symbol</th><th>Test conditions</th><th>Minimum</th><th>Typical</th><th>Maximum</th><th>Unit</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Spectral response range</td><td rowspan="2">λ</td><td>Lower cutoff (RL = 50 Ω)</td><td>900</td><td>—</td><td>—</td><td>nm</td></tr>
+    <tr><td>Upper cutoff (RL = 50 Ω)</td><td>—</td><td>—</td><td>1700</td><td>nm</td></tr>
+    <tr><td>Responsivity @ 1310 nm</td><td>R</td><td>VR = 5 V, Pin = 10 µW</td><td>0.85</td><td>0.95</td><td>—</td><td>A/W</td></tr>
+    <tr><td>Responsivity @ 1550 nm</td><td>R</td><td>VR = 5 V, Pin = 10 µW</td><td>0.90</td><td>1.00</td><td>—</td><td>A/W</td></tr>
+    <tr><td>Dark current</td><td>ID</td><td>VR = 5 V, TA = 25 °C</td><td>—</td><td>1</td><td>10</td><td>nA</td></tr>
+    <tr><td>3 dB electrical bandwidth</td><td>f-3dB</td><td>VR = 5 V, RL = 50 Ω, small-signal</td><td>1.0</td><td>2.0</td><td>—</td><td>GHz</td></tr>
+    <tr><td>Optical return loss (ORL)</td><td>ORL</td><td>Connectorized output, 1310/1550 nm</td><td>30</td><td>—</td><td>—</td><td>dB</td></tr>
+    <tr><td>Output linearity (1 dB compression)</td><td>P1dB</td><td>1550 nm, VR = 5 V</td><td>—</td><td>—</td><td>-3</td><td>dBm</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+<table>
+  <caption>Key Set Definitions and Access Rights in the User Terminal Application File</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>Session encryption key (SEK)</td><td>Application-defined</td><td>Encrypts user-plane payload; used after successful mutual authentication</td></tr>
+  <tr><td>Session integrity key (SIK)</td><td>Application-defined</td><td>Calculates MAC for uplink/downlink messages</td></tr>
+  <tr><td>Key update authorization key (KUA)</td><td>Application-defined</td><td>Authorizes replacement of SEK/SIK; protects the key download procedure</td></tr>
+  <tr><td>File update authorization key (FUA)</td><td>Application-defined</td><td>Authorizes modification of application file records; protects file update procedure</td></tr>
+  <tr><td>Key derivation root key (KDR)</td><td>Application-defined</td><td>Root secret for deriving per-service keys; never used directly in message protection</td></tr>
+  <tr><td>Key usage policy</td><td>1</td><td>00: message protection only; 01: update allowed; 02: derivation only</td></tr>
+  <tr><td>Key validity status</td><td>1</td><td>00: active; 01: revoked; 02: expired</td></tr>
+</table>

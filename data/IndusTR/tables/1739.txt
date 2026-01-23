@@ -1,0 +1,11 @@
+<table>
+  <caption>Terminal Multicast Master Key Management File Content</caption>
+  <tr><td>Data Item</td><td>Length (bytes)</td><td>Description SAC</td></tr>
+  <tr><td>Index of multicast master key 1</td><td>6</td><td>Index number of multicast master key 1 (default)</td></tr>
+  <tr><td>KeyID of multicast master key 1</td><td>1</td><td>KeyID of multicast master key 1</td></tr>
+  <tr><td>Index of multicast master key 2</td><td>6</td><td>Index number of multicast master key 2 (backup)</td></tr>
+  <tr><td>KeyID of multicast master key 2</td><td>1</td><td>KeyID of multicast master key 2</td></tr>
+  <tr><td>......</td><td>…</td><td>......</td></tr>
+  <tr><td>Index of multicast master key 6</td><td>6</td><td>Index number of multicast master key 6 (backup)</td></tr>
+  <tr><td>KeyID of multicast master key 6</td><td>1</td><td>KeyID of multicast master key 6</td></tr>
+</table>

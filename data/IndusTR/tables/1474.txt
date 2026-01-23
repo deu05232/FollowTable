@@ -1,0 +1,11 @@
+<table>
+  <caption>SOF Component Interface Definition for XML Data Signing</caption>
+  <tr><td>Prototype</td><td>BSTR SOF_SignDataXML(BSTR CertID,BSTR InData)</td></tr>
+  <tr><td>Description</td><td>Digitally sign XML data. When the certificate uses the RSA algorithm, the signature result shall refer to RFC 3275; when the certificate uses the SM2 algorithm, the signature result shall comply with GB/T 25061</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>InData (XML-formatted original data to be signed)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>XML signature result (success)</td></tr>
+  <tr><td>Empty string (failure; use SOF_GetLastError to obtain an error code as defined in Table A.1)</td></tr>
+  <tr><td>Security Rules</td><td>a) Use enveloped signature; before signing, canonicalize/format the original data to be signed;</td></tr>
+  <tr><td>cl4nl1 #WithComments</td><td>2006/12/xml-c14nl1 #WithComment, when the certificate uses the SM2 algorithm, the identifier is http://127.0.0.1/2006/12/xml-</td></tr>
+</table>

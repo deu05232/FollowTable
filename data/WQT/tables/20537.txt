@@ -1,0 +1,11 @@
+# Comparison of P2P Network Clients (BitTorrent mentioned but not primary)
+
+| Client | Primary network | Also supports BitTorrent | Magnet links | DHT/PEX | Encryption | IPv6 | GUI | Remote control | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| LimeWire | Gnutella | Partial/Plugins | Limited | No | Yes | No | Yes | No | Historically Gnutella-first |
+| FrostWire | Gnutella (historical) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Shifted toward torrents later |
+| Shareaza | Gnutella/eDonkey | Yes | Partial | Partial | Yes | No | Yes | No | Multi-network client |
+| aMule | eDonkey2000/Kad | Via plugins | No | No | No | No | Yes | No | Not a torrent-focused tool |
+| iMesh | Gnutella (historical) | Limited | No | No | No | No | Yes | No | Network changed over time |
+| MLDonkey | eDonkey/Overnet | Yes | Partial | Partial | Optional | No | Optional | Yes | Multi-protocol daemon |
+| gtk-gnutella | Gnutella | No | No | No | Yes | Yes | Yes | No | No BitTorrent focus |

@@ -1,0 +1,16 @@
+<table>
+  <caption>Transformer Loss Limit Checklist with Connection and Winding Arrangement (Thermal Basis: 75°C)</caption>
+  <thead>
+    <tr><th rowspan="2">Rating (MVA)</th><th rowspan="2">Connection (HV/MV/LV)</th><th rowspan="2">Winding Material</th><th rowspan="2">Phase Shifting</th><th rowspan="2">Tertiary Winding</th><th colspan="2">Loss Limits</th><th rowspan="2">Impedance Band (%)</th></tr>
+    <tr><th>No-Load Loss Limit (kW)</th><th>Load Loss Limit (75°C) (kW)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>5</td><td>YNd11 / d11</td><td>Al/Cu</td><td>30°</td><td>null</td><td>3.9</td><td>34</td><td>10.0–12.0</td></tr>
+    <tr><td>8</td><td>Dyn5 / y0</td><td>Al/Al</td><td>150°</td><td>Yes (delta)</td><td>5.1</td><td>46</td><td>10.5–13.5</td></tr>
+    <tr><td>10</td><td>Yyn0 / d11</td><td>Cu/Cu</td><td>0°</td><td>null</td><td>6.2</td><td>58</td><td>11.0–14.0</td></tr>
+    <tr><td>16</td><td>YNyn0 / y0</td><td>Cu/Al</td><td>0°</td><td>Yes (stabilizing)</td><td>9.0</td><td>86</td><td>12.0–15.5</td></tr>
+    <tr><td>25</td><td>Dyn11 / y0</td><td>Al/Cu</td><td>30°</td><td>null</td><td>12.5</td><td>120</td><td>12.5–16.5</td></tr>
+    <tr><td>31.5</td><td>Yd1 / d11</td><td>Cu/Cu</td><td>330°</td><td>Yes (delta)</td><td>15.5</td><td>148</td><td>13.0–17.0</td></tr>
+    <tr><td>40</td><td>YNd11 / y0</td><td>Cu/Cu</td><td>30°</td><td>null</td><td>19.0</td><td>180</td><td>13.5–18.0</td></tr>
+  </tbody>
+</table>

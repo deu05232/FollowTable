@@ -1,0 +1,15 @@
+<table>
+  <caption>Electron Drift Velocity and Mobility in Selected Conductors and Semiconductors (Room-Temperature, Low-Field)</caption>
+  <thead>
+    <tr><th>Material / Structure</th><th>Carrier Type</th><th>Electron Mobility μ (cm^2/V·s)</th><th>Applied Electric Field E (V/cm)</th><th>Drift Velocity v_d = μE (cm/s)</th><th>Velocity Regime Note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Copper (Cu)</td><td>Conduction electron</td><td>~50</td><td>1</td><td>~50</td><td>Ohmic (linear v_d vs E)</td></tr>
+    <tr><td>Aluminum (Al)</td><td>Conduction electron</td><td>~45</td><td>1</td><td>~45</td><td>Ohmic (linear v_d vs E)</td></tr>
+    <tr><td>Silicon (Si), n-type (moderately doped)</td><td>Conduction electron</td><td>~1350</td><td>10</td><td>~1.35×10^4</td><td>Low-field; below velocity saturation</td></tr>
+    <tr><td>Germanium (Ge), n-type</td><td>Conduction electron</td><td>~3900</td><td>10</td><td>~3.9×10^4</td><td>Low-field; very high mobility</td></tr>
+    <tr><td>Gallium arsenide (GaAs), n-type</td><td>Conduction electron</td><td>~8500</td><td>10</td><td>~8.5×10^4</td><td>Low-field; can show intervalley effects at high E</td></tr>
+    <tr><td>Indium phosphide (InP), n-type</td><td>Conduction electron</td><td>~5400</td><td>10</td><td>~5.4×10^4</td><td>Low-field; below saturation</td></tr>
+    <tr><td>Silicon carbide (4H-SiC), n-type</td><td>Conduction electron</td><td>~900</td><td>10</td><td>~9.0×10^3</td><td>Low-field; wide-bandgap semiconductor</td></tr>
+  </tbody>
+</table>

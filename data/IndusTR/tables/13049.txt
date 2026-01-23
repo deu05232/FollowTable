@@ -1,0 +1,17 @@
+<table>
+  <caption>AC Supply and Fundamental Output Ratings (Non-harmonic)</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Specification</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Power Supply</td><td>Rated supply voltage</td><td>1φ 230 V / 3φ 400 V</td><td>Nominal mains input</td></tr>
+    <tr><td>Operating voltage range</td><td>0.85Un to 1.15Un</td><td>Input tolerance</td></tr>
+    <tr><td>Supply frequency</td><td>45 Hz to 65 Hz</td><td>Grid frequency acceptance</td></tr>
+    <tr><td rowspan="3">Fundamental Voltage Output</td><td>Voltage output range</td><td>20 V to 320 V</td><td>RMS, fundamental only</td></tr>
+    <tr><td>Voltage setting resolution</td><td>0.05 V</td><td>Step size</td></tr>
+    <tr><td>Voltage amplitude accuracy</td><td>±0.10%</td><td>General accuracy (not harmonic-specific)</td></tr>
+    <tr><td rowspan="2">Fundamental Current Output</td><td>Current output range</td><td>1 mA to 120 A</td><td>RMS, fundamental only</td></tr>
+    <tr><td>Current amplitude accuracy</td><td>±0.10%</td><td>General accuracy (not harmonic-specific)</td></tr>
+    <tr><td>Environment</td><td>Operating temperature</td><td>0 °C to 40 °C</td><td>Nominal conditions</td></tr>
+  </tbody>
+</table>

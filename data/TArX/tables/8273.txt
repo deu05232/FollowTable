@@ -1,0 +1,16 @@
+<table>
+  <caption>Instrumental X-ray Spectral Fit Setup for Neutron-Star Surface Temperature Studies (No Per-Source Temperature Constraints)</caption>
+  <thead>
+    <tr><th rowspan="2">Pipeline Step</th><th colspan="2">Assumed Spectral Model</th><th colspan="2">Fixed/Adopted Quantities</th><th colspan="2">Fitting Range & Statistics</th><th rowspan="2">Output (non-temperature)</th></tr>
+    <tr><th>Continuum</th><th>Absorption</th><th>Distance (kpc)</th><th>NH prior (10^21 cm^-2)</th><th>Energy band (keV)</th><th>Fit statistic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1. Event filtering</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.3–8.0</td><td>—</td><td>Cleaned exposure (ks)</td></tr>
+    <tr><td>2. Background selection</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.5–7.0</td><td>—</td><td>Background rate (cts/s)</td></tr>
+    <tr><td>3. Response generation</td><td>—</td><td>—</td><td>—</td><td>—</td><td>0.3–10.0</td><td>—</td><td>RMF/ARF files</td></tr>
+    <tr><td>4. Baseline fit</td><td>Power-law</td><td>TBabs</td><td>2.0</td><td>1.0–3.0</td><td>0.5–8.0</td><td>C-stat</td><td>Photon index Γ</td></tr>
+    <tr><td>5. Thermal component test</td><td>NSA atmosphere</td><td>TBabs</td><td>3.0</td><td>0.5–5.0</td><td>0.3–5.0</td><td>χ²</td><td>Normalization</td></tr>
+    <tr><td>6. Systematics check</td><td>NSA / BB</td><td>TBabs</td><td>1.5</td><td>0.8–4.0</td><td>0.5–6.0</td><td>W-stat</td><td>Cross-calibration factor</td></tr>
+    <tr><td>7. Reporting</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>Goodness-of-fit and residuals</td></tr>
+  </tbody>
+</table>

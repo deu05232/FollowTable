@@ -1,0 +1,18 @@
+<table>
+  <caption>RSU-Centric Cooperative Driving Message Header Fields</caption>
+  <thead>
+    <tr><th>Category</th><th>Field Name</th><th>Description</th><th>Unit/Format</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Identity</td><td>RSU_ID</td><td>Unique identifier of the roadside unit originating the message</td><td>UINT32</td></tr>
+    <tr><td>RSU_Sector_ID</td><td>Identifier of the managed road segment/sector</td><td>STRING</td></tr>
+    <tr><td>Network_Node_ID</td><td>Backhaul node identifier associated with the RSU</td><td>STRING</td></tr>
+    <tr><td rowspan="3">Reference Location</td><td>RSU_Ref_Latitude</td><td>RSU reference position latitude</td><td>deg</td></tr>
+    <tr><td>RSU_Ref_Longitude</td><td>RSU reference position longitude</td><td>deg</td></tr>
+    <tr><td>RSU_Ref_Altitude</td><td>RSU reference position altitude</td><td>m</td></tr>
+    <tr><td rowspan="2">Time</td><td>Message_Timestamp</td><td>Time when the RSU generated the message</td><td>ms</td></tr>
+    <tr><td>Sync_Source</td><td>Time synchronization source used by RSU</td><td>ENUM(GNSS/PTP/NTP)</td></tr>
+    <tr><td rowspan="2">Coverage</td><td>Coverage_Radius</td><td>Nominal RSU service radius</td><td>m</td></tr>
+    <tr><td>Coverage_Azimuth</td><td>Main antenna azimuth direction</td><td>deg</td></tr>
+  </tbody>
+</table>

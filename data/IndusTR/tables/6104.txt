@@ -1,0 +1,16 @@
+<table>
+  <caption>Math Operator Interface with Axis/Index Helper Inputs</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Input Tensor</td><td>Input</td><td>Required</td><td>Main operand tensor for computation.</td></tr>
+    <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Computed tensor output.</td></tr>
+    <tr><td>Axis Array</td><td>Input</td><td>Optional</td><td>Axis positions used for reduction/broadcast alignment; values are in [-rank, rank).</td></tr>
+    <tr><td>Axis Array Length</td><td>Input</td><td>Optional</td><td>Number of elements in Axis Array; must be > 0 when Axis Array is provided.</td></tr>
+    <tr><td>Index Tensor</td><td>Input</td><td>Optional</td><td>Integer tensor used as an index helper for gather/scatter-like variants.</td></tr>
+    <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Includes signed/unsigned integers and floating-point types; default fp32.</td></tr>
+    <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>CPU/GPU/NPU/FPGA/ASIC; default CPU.</td></tr>
+    <tr><td>Tensor Rank</td><td>Input</td><td>Optional</td><td>Rank (number of dimensions) of the Input Tensor.</td></tr>
+  </tbody>
+</table>

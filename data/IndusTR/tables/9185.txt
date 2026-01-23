@@ -1,0 +1,16 @@
+<table>
+  <caption>Common Service Description Model (CSDM) — BasicInformation Element Definitions</caption>
+  <thead>
+    <tr><th>Element (English Name)</th><th>Type / Format</th><th>Mandatory</th><th>Max Occurrences</th><th>Allowed Values / Domain</th><th>Short Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>serviceName</td><td>String (1..128)</td><td>Yes</td><td>1</td><td>Free text</td><td>Official name of the service as published to consumers.</td></tr>
+    <tr><td>serviceCode</td><td>String (1..64)</td><td>No</td><td>1</td><td>Provider-defined identifier</td><td>Unique identifier/code used to reference the service internally or publicly.</td></tr>
+    <tr><td>serviceCategory</td><td>String (1..64)</td><td>Yes</td><td>1</td><td>Controlled list (taxonomy value)</td><td>Classification category used for cataloging and search filtering.</td></tr>
+    <tr><td>keyword</td><td>String (1..64)</td><td>No</td><td>N</td><td>Free text</td><td>Search keywords describing the service (repeatable).</td></tr>
+    <tr><td>version</td><td>String (1..32)</td><td>Yes</td><td>1</td><td>e.g., 1.0, 1.0.3, 2026-01</td><td>Service description version used for change control.</td></tr>
+    <tr><td>registrationDate</td><td>Date (YYYY-MM-DD)</td><td>No</td><td>1</td><td>ISO 8601 date</td><td>Date when the service record was registered in the catalog.</td></tr>
+    <tr><td>lastUpdatedDate</td><td>DateTime (YYYY-MM-DDThh:mm:ssZ)</td><td>No</td><td>1</td><td>ISO 8601 date-time</td><td>Timestamp of the last modification to the service description.</td></tr>
+    <tr><td>serviceStatus</td><td>Enum</td><td>Yes</td><td>1</td><td>draft | active | deprecated | retired</td><td>Lifecycle state indicating whether the service can be consumed.</td></tr>
+  </tbody>
+</table>

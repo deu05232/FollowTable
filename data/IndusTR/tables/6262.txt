@@ -1,0 +1,16 @@
+<table>
+  <caption>Acceptance Criteria by Laser Type and Beam Mode (Edge Quality vs Process Family)</caption>
+  <thead>
+    <tr><th rowspan="2">Laser type</th><th rowspan="2">Beam mode</th><th rowspan="2">Assist gas (typ.)</th><th colspan="4">Finished-edge acceptance limits (max allowable)</th><th rowspan="2">Primary failure mode to watch</th></tr>
+    <tr><th>Surface roughness Ra (µm)</th><th>Striation depth (µm)</th><th>Kerf width (mm)</th><th>Recast layer (µm)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CO2</td><td>CW</td><td>O2</td><td>3.2</td><td>60</td><td>0.30</td><td>25</td><td>Oxidized edge</td></tr>
+    <tr><td>Fiber</td><td>CW</td><td>N2</td><td>2.5</td><td>45</td><td>0.22</td><td>18</td><td>Adherent dross</td></tr>
+    <tr><td>Disk</td><td>CW</td><td>N2</td><td>2.8</td><td>50</td><td>0.24</td><td>20</td><td>Tapered kerf</td></tr>
+    <tr><td>Nd:YAG</td><td>Pulsed</td><td>Ar</td><td>2.0</td><td>35</td><td>0.18</td><td>15</td><td>Microcracks</td></tr>
+    <tr><td>Green (532 nm)</td><td>Pulsed</td><td>N2</td><td>1.6</td><td>28</td><td>0.16</td><td>10</td><td>Recast ridges</td></tr>
+    <tr><td>Ultrashort pulse</td><td>fs/ps</td><td>Air</td><td>0.8</td><td>12</td><td>0.10</td><td>3</td><td>Minimal HAZ</td></tr>
+    <tr><td colspan="8">Note: Organized by laser/process family for quick comparison across laser types.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Terminal Application File: Security Control Parameters and Key Management Policy</caption>
+  <thead>
+    <tr><th>Category</th><th>Parameter</th><th>Length (bytes)</th><th>Allowed Values</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Key Management</td><td>Master Control Key (MCK) Slot</td><td>1</td><td>0-7</td><td>Selects which internal slot holds the master control key</td></tr>
+    <tr><td>Maintenance Key Update Window</td><td>2</td><td>0-65535</td><td>Time window (minutes) during which maintenance key updates are accepted</td></tr>
+    <tr><td>Authentication Key Derivation Mode</td><td>1</td><td>00=fixed, 01=diversified</td><td>Controls how the authentication key is derived</td></tr>
+    <tr><td rowspan="3">Access Control</td><td>File Write Permission Mask</td><td>2</td><td>Bitmask</td><td>Enables/disables write operations per file group</td></tr>
+    <tr><td>Replay Protection Enable</td><td>1</td><td>0/1</td><td>Enables replay detection for uplink messages</td></tr>
+    <tr><td>Max Authentication Failures</td><td>1</td><td>0-255</td><td>Threshold before lockout is enforced</td></tr>
+    <tr><td rowspan="2">Audit</td><td>Security Event Log Level</td><td>1</td><td>0-3</td><td>Controls verbosity of security event logging</td></tr>
+    <tr><td>Last Key Update Result Code</td><td>1</td><td>Enum</td><td>Status code of the most recent key update attempt</td></tr>
+  </tbody>
+</table>

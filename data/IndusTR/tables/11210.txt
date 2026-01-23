@@ -1,0 +1,15 @@
+<table>
+  <caption>Ionospheric Delay Correction (Spherical Harmonics) — Field Definitions Without DF Identifiers</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Description</th><th>Data Type</th><th>Bits</th><th>Units / Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Ionospheric thin-shell height</td><td>Reference height of the thin-shell ionosphere model used for mapping.</td><td>uint8</td><td>8</td><td>km (scaled)</td></tr>
+    <tr><td>Spherical harmonic function degree</td><td>Maximum degree of the spherical harmonic expansion.</td><td>uint4</td><td>4</td><td>N (0–15)</td></tr>
+    <tr><td>Spherical harmonic function order</td><td>Maximum order of the spherical harmonic expansion.</td><td>uint4</td><td>4</td><td>M (0–15)</td></tr>
+    <tr><td>Spherical harmonic cosine coefficient (correction)</td><td>Cosine term coefficient used for ionospheric delay correction.</td><td>int16</td><td>16</td><td>Index by (n,m)</td></tr>
+    <tr><td>Spherical harmonic sine coefficient (correction)</td><td>Sine term coefficient used for ionospheric delay correction.</td><td>int16</td><td>16</td><td>Index by (n,m)</td></tr>
+    <tr><td>Spherical harmonic cosine coefficient (accuracy)</td><td>Uncertainty/accuracy information for cosine coefficient.</td><td>uint8</td><td>8</td><td>Std dev (coded)</td></tr>
+    <tr><td>Spherical harmonic sine coefficient (accuracy)</td><td>Uncertainty/accuracy information for sine coefficient.</td><td>uint8</td><td>8</td><td>Std dev (coded)</td></tr>
+  </tbody>
+</table>

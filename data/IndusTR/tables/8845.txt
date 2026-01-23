@@ -1,0 +1,14 @@
+<table>
+  <caption>Segmented Transport Data Transfer PDU (First Frame vs Consecutive Frames)</caption>
+  <tr><th>Field</th><th>Bits/Bytes</th><th>First Frame (Seq=0)</th><th>Consecutive Frames (Seq>0)</th><th>Notes</th></tr>
+  <tr><td>P</td><td>3 bits</td><td>0x06</td><td>0x06</td><td>Priority / P field</td></tr>
+  <tr><td>EDP</td><td>1 bit</td><td>0</td><td>0</td><td>Extended data page</td></tr>
+  <tr><td>DP</td><td>1 bit</td><td>0</td><td>0</td><td>Data page</td></tr>
+  <tr><td>PF</td><td>8 bits</td><td>0x36</td><td>0x36</td><td>PGN format for segmented transfer</td></tr>
+  <tr><td>PS</td><td>8 bits</td><td>Destination Address</td><td>Destination Address</td><td>Destination node</td></tr>
+  <tr><td>SA</td><td>8 bits</td><td>Source Address</td><td>Source Address</td><td>Source node</td></tr>
+  <tr><td>Frame Sequence Number</td><td>1 byte</td><td>0</td><td>1..255</td><td>Sequence counter for reassembly</td></tr>
+  <tr><td>Total Number of Frames</td><td>1 byte</td><td>Present</td><td>Not present</td><td>Only carried in first frame</td></tr>
+  <tr><td>Total Number of Bytes</td><td>2 bytes</td><td>Present</td><td>Not present</td><td>Payload length before padding</td></tr>
+  <tr><td>Segment Payload</td><td>4 bytes</td><td>First payload bytes</td><td>7 payload bytes</td><td>Last segment may be padded with 0xFF</td></tr>
+</table>

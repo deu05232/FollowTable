@@ -1,0 +1,20 @@
+<table>
+  <caption>Roadside Infrastructure & Safety Facilities Asset Register</caption>
+  <thead>
+    <tr><th>No.</th><th>Asset Category</th><th>Data Item</th><th>Type</th><th>Length</th><th>Nullable</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Signage</td><td>Traffic Sign Type</td><td>Character</td><td>32</td><td>No</td><td>Regulatory / Warning / Guide</td></tr>
+    <tr><td>2</td><td>Signage</td><td>Retroreflectivity Grade</td><td>Character</td><td>16</td><td>Yes</td><td>Engineering inspection value category</td></tr>
+    <tr><td>3</td><td>Signals</td><td>Signal Controller Model</td><td>Character</td><td>64</td><td>Yes</td><td>Hardware model number</td></tr>
+    <tr><td>4</td><td>Signals</td><td>Signal Timing Plan ID</td><td>Character</td><td>32</td><td>Yes</td><td>Reference to timing configuration</td></tr>
+    <tr><td>5</td><td>Barriers</td><td>Guardrail Type</td><td>Character</td><td>32</td><td>Yes</td><td>W-beam / Concrete / Cable</td></tr>
+    <tr><td>6</td><td>Barriers</td><td>Guardrail Length (m)</td><td>Decimal</td><td>10,1</td><td>Yes</td><td>Total installed length</td></tr>
+    <tr><td>7</td><td>Lighting</td><td>Luminaire Type</td><td>Character</td><td>32</td><td>Yes</td><td>LED / HPS / Other</td></tr>
+    <tr><td>8</td><td>Lighting</td><td>Pole Spacing (m)</td><td>Decimal</td><td>8,1</td><td>Yes</td><td>Average spacing</td></tr>
+    <tr><td>9</td><td>Detection</td><td>Detector Technology</td><td>Character</td><td>32</td><td>Yes</td><td>Loop / Radar / Video</td></tr>
+    <tr><td>10</td><td>Detection</td><td>Detector Coverage Lanes</td><td>Integer</td><td>2</td><td>Yes</td><td>Number of lanes covered</td></tr>
+    <tr><td>11</td><td>Asset Mgmt</td><td>Installation Date</td><td>Date</td><td>10</td><td>Yes</td><td>Asset lifecycle attribute, not an incident timeline</td></tr>
+    <tr><td>12</td><td>Asset Mgmt</td><td>Maintenance Cycle (months)</td><td>Integer</td><td>3</td><td>Yes</td><td>Planned preventive maintenance frequency</td></tr>
+  </tbody>
+</table>

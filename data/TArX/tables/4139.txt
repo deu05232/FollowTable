@@ -1,0 +1,12 @@
+<table>
+  <caption>2D Simulation Parameters</caption>
+  <tr><th>9 Name</th><th></th><th>μ_(0)</th><th></th><th>λ_(c) ( /Ω )</th><th>L_(x)× L_(y) ( ^(2)/Ω^(2) )</th><th>Resolution</th><th>GI (a)</th><th>Duration ( Ω^(-1) )</th></tr>
+  <tr><td>S2D0</td><td>12</td><td>8</td><td>0.44</td><td>0.93</td><td>10× 10</td><td>256× 256</td><td>Y</td><td>5.9</td></tr>
+  <tr><td>S2D1</td><td>12</td><td>8</td><td>0.44</td><td>0.93</td><td>10× 10</td><td>512× 512</td><td>Y</td><td>6</td></tr>
+  <tr><td>S2D2</td><td>12</td><td>8</td><td>0.44</td><td>0.93</td><td>0.5× 0.5</td><td>32× 32</td><td>N</td><td>100</td></tr>
+  <tr><td>S2D3</td><td>12</td><td>8</td><td>0.44</td><td>0.93</td><td>0.5× 0.5</td><td>128× 128</td><td>N</td><td>100</td></tr>
+  <tr><td>S2D4</td><td>12</td><td>4.2</td><td>1.0</td><td>2.8</td><td>30× 30</td><td>256× 256</td><td>N</td><td>100</td></tr>
+  <tr><td>S2D5</td><td>12</td><td>2.3</td><td>2.0</td><td>6.9</td><td>70× 70</td><td>256× 256</td><td>N</td><td>100</td></tr>
+  <tr><td>S2D6</td><td>6</td><td>4.2</td><td>0.5</td><td>1.4</td><td>15× 15</td><td>256× 256</td><td>Y</td><td>6.2</td></tr>
+  <tr><td>Note (a): GI = Gravitational Instability. Y means Σd increases by orders of magnitude over a few dynamical times, and N means it does not.</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+</table>

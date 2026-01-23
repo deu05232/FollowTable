@@ -1,0 +1,8 @@
+<table>
+  <caption>Augmented Face Triangle Mesh Indices Retrieval Parameters</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>face</td><td>ArAugmentedFace *</td><td>Augmented face pointer</td></tr>
+  <tr><td>out_triangle_indices</td><td>uint16_t**</td><td>Pointer to a pointer to the index information of triangle faces, to receive the address where the triangle face index information is stored</td></tr>
+  <tr><td>out_number_of_triangles</td><td>int32_t *</td><td>Pointer to the number of triangles in the face mesh</td></tr>
+</table>

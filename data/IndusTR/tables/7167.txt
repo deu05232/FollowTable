@@ -1,0 +1,18 @@
+<table>
+  <caption>Minimum Logging Specifications — Perception and Driver-State Outputs (Checklist of Required Signals)</caption>
+  <thead>
+    <tr><th>Section</th><th>Item No.</th><th>Recorded Data Element</th><th>Minimum Logging Frequency</th><th>Unit</th><th>Minimum Recordable Range / Enumeration</th><th>Minimum Resolution</th><th>Minimum Accuracy</th><th>Notes / Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Perception outputs (object list)</td><td>1</td><td>Tracked object unique ID</td><td>20 Hz</td><td>N/A</td><td>0 to 4,294,967,295</td><td>N/A</td><td>No error</td><td>Identifier must be stable for the lifetime of the track within one trip/log segment.</td></tr>
+    <tr><td>2</td><td>Object class (vehicle/pedestrian/bicycle/other)</td><td>20 Hz</td><td>N/A</td><td>Enum: 0=Unknown,1=Vehicle,2=Pedestrian,3=Bicycle,4=Other</td><td>N/A</td><td>Match system output</td><td>Log the highest-probability class output by the perception stack.</td></tr>
+    <tr><td>3</td><td>Object relative position X (forward)</td><td>20 Hz</td><td>m</td><td>-200 to +200</td><td>0.2</td><td>±0.5 m</td><td>Vehicle coordinate system; +X forward. Relative to ego reference point.</td></tr>
+    <tr><td>4</td><td>Object relative position Y (left)</td><td>20 Hz</td><td>m</td><td>-100 to +100</td><td>0.2</td><td>±0.5 m</td><td>+Y left; include sign.</td></tr>
+    <tr><td>5</td><td>Object relative velocity X</td><td>20 Hz</td><td>m/s</td><td>-80 to +80</td><td>0.1</td><td>±0.5 m/s</td><td>Relative to ego vehicle; +X means object moving away ahead.</td></tr>
+    <tr><td>6</td><td>Object detection confidence</td><td>20 Hz</td><td>%</td><td>0 to 100</td><td>1</td><td>±5% (absolute)</td><td>Confidence score reported by perception; if probability 0–1, map to 0–100%.</td></tr>
+    <tr><td rowspan="4">Driver-state / takeover related</td><td>7</td><td>Driver monitoring attention state</td><td>10 Hz</td><td>N/A</td><td>Enum: 0=Unknown,1=Attentive,2=Inattentive,3=Eyes off-road</td><td>N/A</td><td>No error</td><td>Log the discrete state output of the driver monitoring system.</td></tr>
+    <tr><td>8</td><td>Hands-on steering wheel status</td><td>10 Hz</td><td>N/A</td><td>0=Hands off, 1=Hands on</td><td>N/A</td><td>No error</td><td>Derived from capacitive/torque sensor output; include validity if available.</td></tr>
+    <tr><td>9</td><td>Takeover request (TOR) active</td><td>10 Hz</td><td>N/A</td><td>0=Inactive, 1=Active</td><td>N/A</td><td>No error</td><td>Indicates the system requested driver takeover (visual/auditory/haptic).</td></tr>
+    <tr><td>10</td><td>Takeover response time</td><td>1 Hz</td><td>s</td><td>0 to 30</td><td>0.1</td><td>±0.2 s</td><td>Elapsed time from TOR activation to first valid driver control input (steer/brake/accelerator).</td></tr>
+  </tbody>
+</table>

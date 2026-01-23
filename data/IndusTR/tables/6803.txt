@@ -1,0 +1,21 @@
+<table>
+  <caption>Vulnerability Disclosure / Finding Report Elements (Comparable Across Reports)</caption>
+  <thead>
+    <tr><th>Category</th><th>Field</th><th>Description</th><th>Sample Entry</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Record</td><td>Finding ID</td><td>Unique identifier for the vulnerability finding</td><td>VULN-2026-0048</td></tr>
+    <tr><td>Record</td><td>Finding Source</td><td>How it was found (scanner, pen test, bug bounty, user report)</td><td>Authenticated Scanner</td></tr>
+    <tr><td>Timeline</td><td>Detection Time (UTC)</td><td>When the vulnerability was first detected</td><td>2026-01-15T12:40:00Z</td></tr>
+    <tr><td>Timeline</td><td>Last Confirmed Time (UTC)</td><td>Most recent time it was verified to still exist</td><td>2026-01-18T09:15:00Z</td></tr>
+    <tr><td>Classification</td><td>Vulnerability Class</td><td>Type/category (e.g., SQLi, XSS, auth bypass, exposed service)</td><td>Authentication Bypass</td></tr>
+    <tr><td>Classification</td><td>Severity</td><td>Severity rating used by your organization (and/or CVSS)</td><td>Critical (CVSS 9.8)</td></tr>
+    <tr><td>Summary</td><td>Short Narrative Summary</td><td>Plain-language description of the issue and why it matters</td><td>Misconfigured SSO allowed login without a valid token, enabling account takeover on the customer portal.</td></tr>
+    <tr><td>Scope</td><td>Affected Product / Service</td><td>Name and version/build or service identifier</td><td>Customer Portal v3.2.1</td></tr>
+    <tr><td>Scope</td><td>Affected Endpoint(s)</td><td>URLs/hosts/IPs impacted (if applicable)</td><td>https://portal.example.com/sso/callback</td></tr>
+    <tr><td>Exposure</td><td>Attack Vector</td><td>How it can be exploited (network/local, auth required, user interaction)</td><td>Network; No prior auth</td></tr>
+    <tr><td>Impact</td><td>Potential Impact</td><td>What an attacker could achieve; include data types if relevant</td><td>Account takeover; access to customer PII</td></tr>
+    <tr><td>Remediation</td><td>Recommended Fix</td><td>Concrete remediation steps</td><td>Validate SSO token signature; enforce nonce and audience checks</td></tr>
+    <tr><td>Status</td><td>Current Status</td><td>Lifecycle stage for tracking</td><td>Mitigation in Progress</td></tr>
+  </tbody>
+</table>

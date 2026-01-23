@@ -1,0 +1,15 @@
+<table>
+  <caption>Thermal Event Induction Limits: Heater Power Density and Energy Injection Caps</caption>
+  <thead>
+    <tr><th rowspan="2">Pack Mass (kg)</th><th colspan="2">Heater Power Density Limit</th><th rowspan="2">Max Injected Energy (kJ)</th><th rowspan="2">Control Mode</th></tr>
+    <tr><th>W/kg</th><th>W/cm² (contact area)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>< 50</td><td>15</td><td>0.8</td><td>600</td><td>Constant power</td></tr>
+    <tr><td>50–100</td><td>12</td><td>0.6</td><td>900</td><td>Constant power</td></tr>
+    <tr><td>100–200</td><td>10</td><td>0.5</td><td>1400</td><td>Constant power</td></tr>
+    <tr><td>200–350</td><td>8</td><td>0.4</td><td>2000</td><td>Power ramp (10%/min)</td></tr>
+    <tr><td>350–500</td><td>6</td><td>0.35</td><td>2600</td><td>Constant temperature (120°C)</td></tr>
+    <tr><td>> 500</td><td>5</td><td>0.30</td><td>3200</td><td>Constant temperature (140°C)</td></tr>
+  </tbody>
+</table>

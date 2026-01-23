@@ -1,0 +1,28 @@
+<table>
+  <caption>Data Dictionary of Alarm Parameter Set for Cheese Conveying and Packing System</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Motor overload</td><td>MotorOverload</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>一</td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0901</td><td>Emergency stop</td><td>EmergencyStop</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0902</td><td>DC power supply fault</td><td>DCPowerSupplyFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>丨</td><td>丨</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0903</td><td>Cheese not removed</td><td>CheeseUnremoved</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>一</td><td></td><td>丨</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0904</td><td>Code recognition error</td><td>CodeRecognitionError</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0905</td><td>Cheese loading manipulator timeout</td><td>CheeseLoadingManipulatorTimeout</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0906</td><td>Cheese unloading manipulator fault</td><td>CheeseUnloadingManipulatorFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>一</td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0907</td><td>Cache-area cheese count error</td><td>CacheCounterError</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>丨</td><td>1</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0908</td><td>Visual inspection</td><td>VisualInspection</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>一</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0909</td><td>Cheese overturn</td><td>CheeseOverturn</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>一</td><td>一</td><td>一</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090A</td><td>Cheese labeling</td><td>CheeseLabeling</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090B</td><td>Film sealing machine fault</td><td>FilmSealingMachineFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090C</td><td>Single-yarn pushing device fault</td><td>YarnPushDeviceFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>一</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090D</td><td>Automatic bag loading fault</td><td>AutomaticBagLoadingFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td>一</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090E</td><td>Extra/missing yarn before vision</td><td>VisualFrontYarnQuantityF ault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td></td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X090F</td><td>Extra/missing yarn before labeling</td><td>LabbleFrontYarn QuantityFault</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>一</td><td></td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0910</td><td>Missing yarn before automatic bag sewing</td><td>AutomaticSewingBagBeforeMissingYarn</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td></td><td>一</td><td>一</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0911</td><td>Automatic bagging</td><td>AutomaticBagging</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>丨</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0912</td><td>Sewing machine thread break</td><td>BrokenThreadOfSewingMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>/</td><td>1</td><td>1</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0913</td><td>Strapping machine</td><td>StrappingMachine</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>丨</td><td>丨</td><td>丨</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>OX0914</td><td>Whole-package labeling</td><td>PackageLabeling</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>丨</td><td>1</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0915</td><td>Package grabbing type error</td><td>StackingVarietyError</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>/</td><td>丨</td><td>丨</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0916</td><td>Stacker crane</td><td>StackerCrane</td><td>M</td><td>VAR</td><td>RO</td><td>Boolean</td><td>1</td><td>1</td><td>丨</td><td>0.Normal 1.Alarm</td></tr>
+  <tr><td>0X0917</td><td>Scalable data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

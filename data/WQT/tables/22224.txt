@@ -1,0 +1,13 @@
+# Derivative Rules for Special Named Compositions (Chain Rule Examples Catalog)
+
+| Pattern | Example expression | Derivative result | Category |
+| --- | --- | --- | --- |
+| Square of a function | (u(x))^2 | 2u(x)·u'(x) | Named pattern |
+| Reciprocal | 1/u(x) | -u'(x)/u(x)^2 | Named pattern |
+| Log of a function | ln(u(x)) | u'(x)/u(x) | Named pattern |
+| Exponential of a function | e^{u(x)} | e^{u(x)}·u'(x) | Named pattern |
+| Sine of a function | sin(u(x)) | cos(u(x))·u'(x) | Named pattern |
+| Cosine of a function | cos(u(x)) | -sin(u(x))·u'(x) | Named pattern |
+| Tangent of a function | tan(u(x)) | sec^2(u(x))·u'(x) | Named pattern |
+| Power with variable base | (x)^{u(x)} | x^{u(x)}(u'(x)ln x + u(x)/x) | Specialized |
+| Root of a function | √u(x) | u'(x)/(2√u(x)) | Named pattern |

@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Conditions for Cybersecurity Incident Evidence Preservation</caption>
+  <thead>
+    <tr><th>Condition Item</th><th>Recommended Range</th><th>Measurement Frequency</th><th>Instrument</th><th>Rationale</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Room Temperature</td><td>18–24°C</td><td>Daily</td><td>Thermometer</td><td>Reduce media degradation</td></tr>
+    <tr><td>Relative Humidity</td><td>35–55%</td><td>Daily</td><td>Hygrometer</td><td>Prevent condensation</td></tr>
+    <tr><td>ESD Protection</td><td>Grounded mats & wrist straps</td><td>Per session</td><td>ESD tester</td><td>Avoid drive/controller damage</td></tr>
+    <tr><td>Write-Blocker Use</td><td>Mandatory</td><td>Per acquisition</td><td>Hardware write-blocker</td><td>Maintain integrity</td></tr>
+    <tr><td>Time Synchronization</td><td>NTP stratum ≤ 3</td><td>Weekly</td><td>NTP monitor</td><td>Reliable timelines</td></tr>
+    <tr><td>Evidence Storage</td><td>Locked cabinet</td><td>Continuous</td><td>Access logs</td><td>Chain of custody</td></tr>
+  </tbody>
+</table>

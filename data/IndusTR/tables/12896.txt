@@ -1,0 +1,10 @@
+<table>
+  <caption>Video analytics event type codes (scene/behavior events)</caption>
+  <tr><th>Code</th><th>Event Name</th><th>Description</th></tr>
+  <tr><td>004</td><td>Intrusion</td><td>Unauthorized entry into a restricted area</td></tr>
+  <tr><td>005</td><td>Loitering</td><td>Person staying in an area longer than a configured threshold</td></tr>
+  <tr><td>006</td><td>Object Left Behind</td><td>New unattended object appears and remains</td></tr>
+  <tr><td>007</td><td>Object Removed</td><td>Existing object disappears from the scene</td></tr>
+  <tr><td>008</td><td>Running</td><td>Person running event</td></tr>
+  <tr><td>009</td><td>Fall Detection</td><td>Person fall detected</td></tr>
+</table>

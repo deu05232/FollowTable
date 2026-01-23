@@ -1,0 +1,21 @@
+<table>
+  <caption>Ecosystem Service Scoring Parameters by Nested Ecosystem Type (Water Regulation & Filtration)</caption>
+  <thead>
+    <tr><th colspan="3">Ecosystem Type</th><th>Runoff Regulation Coefficient</th><th>Nutrient Retention Index</th><th>Sediment Trapping Efficiency</th><th>Unit</th></tr>
+    <tr><th>Level I</th><th>Level II</th><th>Level III (most specific)</th><th>Value</th><th>Value</th><th>Value</th><th>-</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Wetland Ecosystem</td><td rowspan="3">Inland Wetland</td><td>Marsh (permanent)</td><td>0.78</td><td>0.72</td><td>0.64</td><td>dimensionless</td></tr>
+    <tr><td>Marsh (seasonal)</td><td>0.63</td><td>0.58</td><td>0.47</td><td>dimensionless</td></tr>
+    <tr><td>Floodplain Wetland</td><td>0.69</td><td>0.61</td><td>0.55</td><td>dimensionless</td></tr>
+    <tr><td rowspan="3">Coastal Wetland</td><td>Mangrove</td><td>0.81</td><td>0.77</td><td>0.70</td><td>dimensionless</td></tr>
+    <tr><td>Salt Marsh</td><td>0.74</td><td>0.66</td><td>0.62</td><td>dimensionless</td></tr>
+    <tr><td>Tidal Flat</td><td>0.59</td><td>0.52</td><td>0.41</td><td>dimensionless</td></tr>
+    <tr><td rowspan="6">Forest Ecosystem</td><td rowspan="3">Temperate Forest</td><td>Temperate Deciduous Broadleaf Forest</td><td>0.55</td><td>0.49</td><td>0.44</td><td>dimensionless</td></tr>
+    <tr><td>Temperate Mixed Conifer-Broadleaf Forest</td><td>0.58</td><td>0.51</td><td>0.46</td><td>dimensionless</td></tr>
+    <tr><td>Temperate Coniferous Forest</td><td>0.52</td><td>0.46</td><td>0.42</td><td>dimensionless</td></tr>
+    <tr><td rowspan="3">Tropical/Subtropical Forest</td><td>Evergreen Broadleaf Forest</td><td>0.61</td><td>0.55</td><td>0.50</td><td>dimensionless</td></tr>
+    <tr><td>Seasonal Evergreen Forest</td><td>0.59</td><td>0.53</td><td>0.48</td><td>dimensionless</td></tr>
+    <tr><td>Plantation Forest</td><td>0.47</td><td>0.41</td><td>0.36</td><td>dimensionless</td></tr>
+  </tbody>
+</table>

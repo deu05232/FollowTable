@@ -1,0 +1,16 @@
+<table>
+  <caption>Room-Temperature Electrical Characterization Summary for Synthesized Frequency Sources (25°C)</caption>
+  <thead>
+    <tr><th>Test Category</th><th>Parameter</th><th>Test Condition</th><th>Min</th><th>Typ</th><th>Max</th><th>Units</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>DC</td><td>Supply voltage (Vcc)</td><td>Nominal operating point</td><td>4.75</td><td>5.00</td><td>5.25</td><td>V</td></tr>
+    <tr><td>DC</td><td>Supply current (Icc)</td><td>PLL locked, no load</td><td>—</td><td>180</td><td>260</td><td>mA</td></tr>
+    <tr><td>RF Output</td><td>Output frequency range</td><td>Integer-N mode</td><td>100</td><td>—</td><td>1200</td><td>MHz</td></tr>
+    <tr><td>RF Output</td><td>Output power</td><td>50 Ω load</td><td>-3</td><td>0</td><td>+3</td><td>dBm</td></tr>
+    <tr><td>RF Output</td><td>Harmonic content (2nd)</td><td>Fc = 500 MHz</td><td>—</td><td>-35</td><td>-30</td><td>dBc</td></tr>
+    <tr><td>PLL</td><td>Lock time</td><td>Step 10 MHz</td><td>—</td><td>2</td><td>5</td><td>ms</td></tr>
+    <tr><td>Phase Noise</td><td>Phase noise @ 10 kHz offset</td><td>Fc = 1 GHz</td><td>—</td><td>-95</td><td>-90</td><td>dBc/Hz</td></tr>
+    <tr><td>Spurious</td><td>Reference spurs</td><td>Fc = 1 GHz</td><td>—</td><td>-70</td><td>-60</td><td>dBc</td></tr>
+  </tbody>
+</table>

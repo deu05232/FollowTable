@@ -1,0 +1,11 @@
+<table>
+  <caption>Search Types for Different Data File Types</caption>
+  <tr><th>Type of Data File</th><th>Searches Run</th></tr>
+  <tr><th>Observation-long lists of events</th><td>orbital-parameter-fitting coherent search a (W band only)</td></tr>
+  <tr><th>Observation-long time series binned at 0.244 ms</th><td>Acceleration searches (all bands), phase modulation searches (all bands)</td></tr>
+  <tr><th>RXTE -orbit-long lists of events</th><td>No searches run</td></tr>
+  <tr><th>RXTE -orbit-long time series binned at 0.122 ms</th><td>Acceleration searches (all bands), phase modulation searches (all bands)</td></tr>
+  <tr><th>600-s-long and 1500-s-long lists of events</th><td>No searches run</td></tr>
+  <tr><th>600-s-long and 1500-s-long time series binned at 0.122 ms</th><td>Acceleration searches (all bands) b</td></tr>
+  <tr><th>Note a: Because running an orbital-parameter-fitting coherent search was extremely demanding computationally, we ran this search on event lists of 11 observations only. By contrast, we ran accelerations searches and phase modulation searches on time series of all 34 observations. Note b: The segmented acceleration searches that we ran, even though they were not short enough for the acceleration to be constant, could still be useful if a strong pulsed signal were to appear for a short period of time.</th><td></td></tr>
+</table>

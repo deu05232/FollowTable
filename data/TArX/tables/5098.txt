@@ -1,0 +1,12 @@
+<table>
+  <caption>Measured parameters of investigated devices. Data is presented for three optomechanical devices of varying size, but similar geometry (figure LABEL:fig.devs ), with cantilevers approximately 2, 4, and 8 \um long. For each device at least two different mechanical modes were detected. Effective masses ( m eff ) for each mode were computed from dimensions measured with SEM, using FEM to determine the mode shape [ Hau13 ] . Peaks were thermomechanically calibrated to extract ω 0 , the cantilever’s resonance frequency, Q , the mechanical quality factor in vacuum, and S z ⁢ z nf , the displacement noise floor. From these parameters we compute k eff , the mode’s effective spring constant, and \Sfth , the spectral density of thermal forces on the cantilever imposing a force sensing limit. When measured in air, the quality factors of the cantilevers were reduced by viscous damping and only the out-of plane motion could be detected thermomechanically. Smaller cantilevers exhibited the larger quality factors in air, and smaller thermal forces, resulting in better force sensing ability - opposite to the case in vacuum.</caption>
+  <tr><th colspan="2">Cantilever Length</th><th>m_(eff)</th><th>k_(eff)</th><th>ω_(0)/2</th><th>Q (air)</th><th>{S_(zz,yy)^(nf) (air)</th><th>{S_(FF)^(th) (air)</th><th>g_(om)</th></tr>
+  <tr><th colspan="2">[μm]</th><th>[fg]</th><th>[ N/m ]</th><th>[ MHz ]</th><th></th><th>[ ]</th><th>[ ]</th><th>[ MHz / nm ]</th></tr>
+  <tr><th>2</th><th>out-of-plane</th><th>140</th><td>2.2</td><td>20.1</td><td>3,600 (120)</td><td>20 (18)</td><td>290 (1,500)</td><td>2,000</td></tr>
+  <tr><th>2</th><th>in-plane</th><th>180</th><td>3.3</td><td>21.4</td><td>5,000</td><td>120</td><td>280</td><td>340</td></tr>
+  <tr><th>4</th><th>out-of-plane</th><th>240</th><td>0.30</td><td>5.43</td><td>4,300 (35)</td><td>2 (3)</td><td>180 (2,000)</td><td>720</td></tr>
+  <tr><th>4</th><th>in-plane</th><th>260</th><td>0.48</td><td>7.04</td><td>4,400</td><td>300</td><td>200</td><td>6</td></tr>
+  <tr><th>8</th><th>out-of-plane</th><th>610</th><td>0.087</td><td>1.90</td><td>6,500 (22)</td><td>18 (17)</td><td>135 (2,300)</td><td>150</td></tr>
+  <tr><th>8</th><th>in-plane</th><th>610</th><td>0.11</td><td>2.18</td><td>7,800</td><td>390</td><td>132</td><td>7</td></tr>
+  <tr><th>8</th><th>2 ^((nd)) out-of-plane</th><th>610</th><td>13</td><td>23.2</td><td>5,600</td><td>55</td><td>510</td><td>57</td></tr>
+</table>

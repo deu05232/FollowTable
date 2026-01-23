@@ -1,0 +1,15 @@
+<table>
+  <caption>AMBT1 physics targets and weighting scheme used in the tuning (ATLAS minimum-bias and UE inputs).</caption>
+  <thead>
+    <tr><th>Dataset / Analysis</th><th>Collision energy (TeV)</th><th>Observable (physics input)</th><th>Distribution / bin range used</th><th>Phase-space definition (physics)</th><th>Tuning weight</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ATLAS MB (charged multiplicity)</td><td>0.9</td><td>dNch/dη</td><td>−2.5 < η < 2.5</td><td>Inclusive inelastic, pT(ch) > 500 MeV</td><td>3</td></tr>
+    <tr><td>ATLAS MB (pT spectrum)</td><td>0.9</td><td>(1/Nev) dNch/dpT</td><td>0.5 < pT< 10 GeV</td><td>Inclusive inelastic, |η| < 2.5</td><td>2</td></tr>
+    <tr><td>ATLAS MB (multiplicity distribution)</td><td>0.9</td><td>P(Nch)</td><td>Nch= 1…60</td><td>|η| < 2.5, pT> 500 MeV</td><td>2</td></tr>
+    <tr><td>ATLAS MB (mean pT vs multiplicity)</td><td>0.9</td><td><pT>(Nch)</td><td>Nch= 1…40</td><td>|η| < 2.5, pT> 500 MeV</td><td>1</td></tr>
+    <tr><td>ATLAS UE (transverse region)</td><td>7</td><td>ΣpTdensity vs leading pT</td><td>pTlead= 1…20 GeV</td><td>Transverse region defined by Δφ to leading track</td><td>3</td></tr>
+    <tr><td>ATLAS UE (charged density)</td><td>7</td><td>Nchdensity vs leading pT</td><td>pTlead= 1…20 GeV</td><td>|η| < 2.5, pT(ch) > 500 MeV</td><td>3</td></tr>
+    <tr><td>ATLAS UE (mean pT in transverse)</td><td>7</td><td><pT> vs Nch(transverse)</td><td>Nch= 0…30</td><td>Transverse region; pT(ch) > 500 MeV</td><td>2</td></tr>
+  </tbody>
+</table>

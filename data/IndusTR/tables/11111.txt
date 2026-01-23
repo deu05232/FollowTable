@@ -1,0 +1,8 @@
+<table>
+  <caption>Microservice Registration API - Operational Fields Overview</caption>
+  <tr><th>What you provide</th><th>Example</th><th>Why it is needed</th></tr>
+  <tr><td>userID and access token</td><td>u123 / tkn_***</td><td>Allows the request to be accepted</td></tr>
+  <tr><td>Service name and description</td><td>billing / handles invoices</td><td>Registers the microservice metadata</td></tr>
+  <tr><td>Network location</td><td>https://example.internal</td><td>Points to the service endpoint</td></tr>
+  <tr><td>Data center routing</td><td>dc-eu-1</td><td>Controls routing and placement</td></tr>
+</table>

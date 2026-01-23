@@ -1,0 +1,14 @@
+<table>
+  <caption>SOF Certificate Component Interfaces (JavaScript Callback Invocation Patterns)</caption>
+  <thead>
+    <tr><th>Operation</th><th>JS Prototype</th><th>How to Invoke</th><th>Callback Contract</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SOF_Login</td><td>function SOF_Login(CertID, PassWd, cb, ctx)</td><td>SOF_Login(certId, password, onDone, ctx)</td><td>cb(errCode, message, ctx)</td><td>Used to authenticate user by verifying certificate password.</td></tr>
+    <tr><td>ChangeUserPassword</td><td>function ChangeUserPassword(CertID, OldPassWd, NewPassWd, cb, ctx)</td><td>ChangeUserPassword(certId, oldPwd, newPwd, onDone, ctx)</td><td>cb(errCode, message, ctx)</td><td>Changes the password/PIN associated with a certificate container.</td></tr>
+    <tr><td>SOF_GetUserList</td><td>function SOF_GetUserList(cb, ctx)</td><td>SOF_GetUserList(onDone, ctx)</td><td>cb(errCode, userListString, ctx)</td><td>Returns list in format: Username1||CertID1&&&Username2||CertID2&&&...</td></tr>
+    <tr><td>SOF_ExportUserCert</td><td>function SOF_ExportUserCert(CertID, cb, ctx)</td><td>SOF_ExportUserCert(certId, onDone, ctx)</td><td>cb(errCode, base64Cert, ctx)</td><td>Exports signing certificate in Base64.</td></tr>
+    <tr><td>SOF_SignDataXML</td><td>function SOF_SignDataXML(CertID, InData, cb, ctx)</td><td>SOF_SignDataXML(certId, xml, onDone, ctx)</td><td>cb(errCode, signedXml, ctx)</td><td>Signs XML; algorithm-specific formatting applies (RSA/SM2).</td></tr>
+    <tr><td>SOF_GetCertInfoByOid</td><td>function SOF_GetCertInfoByOid(Base64Cert, Oid, cb, ctx)</td><td>SOF_GetCertInfoByOid(base64Cert, oid, onDone, ctx)</td><td>cb(errCode, extValue, ctx)</td><td>Fetches extension info by OID.</td></tr>
+  </tbody>
+</table>

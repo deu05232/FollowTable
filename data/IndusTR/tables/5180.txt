@@ -1,0 +1,13 @@
+<table>
+  <caption>Ring Spinning Frame Operation Monitoring Parameter Set Data Dictionary</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>Access Permission</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0300</td><td>Front roller speed</td><td>FrontDeliveryRollerSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~999.90</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X0301</td><td>Middle roller speed</td><td>MiddleRollerSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~99.90</td><td>r/min</td><td>1</td><td>丨</td></tr>
+  <tr><td>0X0302</td><td>Back roller speed</td><td>BackDeliveryRollerSpeed</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~99.90</td><td>r/min</td><td></td><td></td></tr>
+  <tr><td>0X0303</td><td>Spinning length</td><td>SpinningLength</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~9 999.00</td><td>m</td><td>1</td><td>、</td></tr>
+  <tr><td>0X0304</td><td>Doffing time</td><td>DoffingTime</td><td>0</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~65 535.00</td><td>min</td><td>丨</td><td></td></tr>
+  <tr><td>0X0305</td><td>Total draft multiple</td><td>TotalDraftMultiple</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~200.00</td><td>times</td><td>丨</td><td></td></tr>
+  <tr><td>0X0306</td><td>Spindle speed</td><td>SpindleSpeed</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>0.00~30 000.00</td><td>r/min</td><td>丨</td><td>一</td></tr>
+  <tr><td>0X0307</td><td>Twist</td><td>Twist</td><td>M</td><td>VAR</td><td>RO</td><td>Float</td><td>100.00~4000.00</td><td>t/m</td><td></td><td></td></tr>
+  <tr><td>0X0308</td><td>Extensible data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

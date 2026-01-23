@@ -1,0 +1,20 @@
+<table>
+  <caption>Terrestrial Eco-meteorological Station Observation Data Format (Microclimate & Soil Measurements)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Field Name</th><th>Field Code</th><th>Data Type</th><th>Unit/Format/Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Station name</td><td>D_NAME</td><td>Varchar(100)</td><td>Community-level terrestrial eco-meteorological observation station name</td></tr>
+    <tr><td>2</td><td>Observation time</td><td>D_TIME</td><td>DateTime</td><td>ISO 8601 (YYYY-MM-DDThh:mm:ss)</td></tr>
+    <tr><td>3</td><td>Air temperature (2 m)</td><td>TA_2M</td><td>Number(5,2)</td><td>°C</td></tr>
+    <tr><td>4</td><td>Relative humidity (2 m)</td><td>RH_2M</td><td>Number(5,2)</td><td>%</td></tr>
+    <tr><td>5</td><td>Wind speed (10 m)</td><td>WS_10M</td><td>Number(5,2)</td><td>m/s</td></tr>
+    <tr><td>6</td><td>Wind direction (10 m)</td><td>WD_10M</td><td>Number(5,0)</td><td>degrees (0–360)</td></tr>
+    <tr><td>7</td><td>Precipitation (interval total)</td><td>PRCP</td><td>Number(6,2)</td><td>mm; accumulation over sampling interval</td></tr>
+    <tr><td>8</td><td>Soil temperature (5 cm)</td><td>TS_5CM</td><td>Number(5,2)</td><td>°C</td></tr>
+    <tr><td>9</td><td>Soil volumetric water content (5 cm)</td><td>VWC_5CM</td><td>Number(5,3)</td><td>m³/m³</td></tr>
+    <tr><td>10</td><td>Soil heat flux (5 cm)</td><td>SHF_5CM</td><td>Number(6,1)</td><td>W/m²</td></tr>
+    <tr><td>11</td><td>Atmospheric pressure</td><td>PRES</td><td>Number(6,1)</td><td>hPa</td></tr>
+    <tr><td>12</td><td>Quality control flag (met/soil group)</td><td>QC_MET</td><td>Char(1)</td><td>0=good, 1=suspect, 2=bad, 9=missing</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Endpoint Interaction and Acknowledgment Rules for Application-Layer Messages</caption>
+  <thead>
+    <tr><th>Session Phase</th><th>PGN</th><th>Message</th><th>Primary Sender</th><th>Primary Receiver</th><th>Requires Acknowledgment</th><th>Ack Message / Condition</th><th>Expected Response Time (ms)</th><th>Escalation on Failure</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Handshake</td><td>0x01</td><td>Phase request</td><td>Charger</td><td>Vehicle</td><td>Yes</td><td>0x02 must be returned</td><td>1000</td><td>Retry then abort</td></tr>
+    <tr><td>Handshake</td><td>0x02</td><td>Vehicle confirmation result</td><td>Vehicle</td><td>Charger</td><td>Yes</td><td>Implicit: phase advance allowed</td><td>1000</td><td>Fallback to previous phase</td></tr>
+    <tr><td>Protection</td><td>0x03</td><td>Charger abort</td><td>Charger</td><td>Vehicle</td><td>Yes</td><td>Ack frame required</td><td>1000</td><td>Terminate power delivery</td></tr>
+    <tr><td>Protection</td><td>0x04</td><td>Vehicle abort</td><td>Vehicle</td><td>Charger</td><td>Yes</td><td>Ack frame required</td><td>1000</td><td>Terminate charging session</td></tr>
+    <tr><td>Status</td><td>0x05</td><td>DC contactor status</td><td>Charger</td><td>Vehicle</td><td>No</td><td>null</td><td>—</td><td>Ignore duplicates</td></tr>
+    <tr><td>Status</td><td>0x06</td><td>Vehicle contactor status</td><td>Vehicle</td><td>Charger</td><td>No</td><td>null</td><td>—</td><td>Ignore duplicates</td></tr>
+    <tr><td>Interlock</td><td>0x07</td><td>Electronic lock status</td><td>Charger</td><td>Vehicle</td><td>No</td><td>null</td><td>—</td><td>Use latest value only</td></tr>
+    <tr><td>Wake</td><td>0x09</td><td>Wake-up indication</td><td>Vehicle</td><td>Charger</td><td>Conditional</td><td>Ack only if charger polls</td><td>3000</td><td>Continue polling</td></tr>
+  </tbody>
+</table>

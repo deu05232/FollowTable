@@ -1,0 +1,10 @@
+<table>
+  <caption>Instant Messaging API Client SDK Build Matrix</caption>
+  <tr><th>SDK</th><th>Version</th><th>Language Runtime</th><th>Package Manager</th><th>Minimum OS</th><th>Build Artifact</th><th>Notes</th></tr>
+  <tr><td>im-sdk-java</td><td>2.8.1</td><td>Java 11+</td><td>Maven</td><td>Ubuntu 20.04+</td><td>JAR</td><td>HTTP/2 optional</td></tr>
+  <tr><td>im-sdk-node</td><td>1.12.0</td><td>Node.js 18+</td><td>npm</td><td>Windows 10+</td><td>TGZ</td><td>ESM supported</td></tr>
+  <tr><td>im-sdk-python</td><td>0.9.6</td><td>Python 3.10+</td><td>pip</td><td>macOS 12+</td><td>Wheel</td><td>Async client included</td></tr>
+  <tr><td>im-sdk-go</td><td>1.6.2</td><td>Go 1.20+</td><td>go modules</td><td>Alpine 3.18+</td><td>Binary</td><td>Static linking available</td></tr>
+  <tr><td>im-sdk-dotnet</td><td>3.2.0</td><td>.NET 6+</td><td>NuGet</td><td>Windows Server 2019+</td><td>DLL</td><td>Supports AOT</td></tr>
+  <tr><td>im-cli</td><td>0.4.1</td><td>Python 3.10+</td><td>pipx</td><td>Linux</td><td>Executable</td><td>For smoke tests</td></tr>
+</table>

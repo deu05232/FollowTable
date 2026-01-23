@@ -1,0 +1,18 @@
+<table>
+  <caption>AR Collision Query & Overlap Checks (no pointer-to-pointer returns)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter Name</th><th>Exact C/C++ Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArCollision_checkSphereOverlap</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle.</td></tr>
+    <tr><td>ArCollision_checkSphereOverlap</td><td>center_pose</td><td>const ArPose *</td><td>in</td><td>Sphere center pose in world space.</td></tr>
+    <tr><td>ArCollision_checkSphereOverlap</td><td>radius_m</td><td>float</td><td>in</td><td>Sphere radius in meters.</td></tr>
+    <tr><td>ArCollision_checkSphereOverlap</td><td>collider</td><td>const ArTrackable *</td><td>in</td><td>Collider/trackable to test against.</td></tr>
+    <tr><td>ArCollision_checkSphereOverlap</td><td>out_overlaps</td><td>int32_t *</td><td>out</td><td>1 if overlaps, 0 otherwise.</td></tr>
+    <tr><td>ArCollision_getClosestPoint</td><td>session</td><td>ArSession *</td><td>in</td><td>AR session handle.</td></tr>
+    <tr><td>ArCollision_getClosestPoint</td><td>collider</td><td>const ArTrackable *</td><td>in</td><td>Target collider/trackable.</td></tr>
+    <tr><td>ArCollision_getClosestPoint</td><td>query_pose</td><td>const ArPose *</td><td>in</td><td>Query point pose.</td></tr>
+    <tr><td>ArCollision_getClosestPoint</td><td>out_closest_pose</td><td>ArPose *</td><td>out</td><td>Caller-allocated pose to receive closest point.</td></tr>
+    <tr><td>ArCollision_getClosestPoint</td><td>out_distance_m</td><td>float *</td><td>out</td><td>Distance from query to closest point.</td></tr>
+  </tbody>
+</table>

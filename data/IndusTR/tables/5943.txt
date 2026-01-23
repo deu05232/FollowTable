@@ -1,0 +1,11 @@
+<table>
+  <caption>Random Vibration Qualification Matrix for Electric Compressor Assembly</caption>
+  <tr><th rowspan="2">Test stage</th><th rowspan="2">Profile type</th><th rowspan="2">Frequency band (Hz)</th><th rowspan="2">PSD level (g^2/Hz)</th><th rowspan="2">Overall Grms</th><th colspan="3">Axis</th><th rowspan="2">Dwell time (min)</th><th rowspan="2">Ramp (min)</th></tr>
+  <tr><th>X</th><th>Y</th><th>Z</th></tr>
+  <tr><td>Pre-check</td><td>Random</td><td>10–1000</td><td>0.02</td><td>6.2</td><td>X</td><td>-</td><td>-</td><td>15</td><td>2</td></tr>
+  <tr><td>Qualification</td><td>Random</td><td>20–2000</td><td>0.03</td><td>8.0</td><td>-</td><td>Y</td><td>-</td><td>30</td><td>5</td></tr>
+  <tr><td>Qualification</td><td>Random</td><td>20–2000</td><td>0.03</td><td>8.0</td><td>-</td><td>-</td><td>Z</td><td>30</td><td>5</td></tr>
+  <tr><td>Extended</td><td>Sine-on-random</td><td>15–1500</td><td>0.015</td><td>7.1</td><td>X</td><td>-</td><td>-</td><td>60</td><td>5</td></tr>
+  <tr><td>Post-check</td><td>Random</td><td>10–1000</td><td>0.02</td><td>6.2</td><td>-</td><td>Y</td><td>-</td><td>15</td><td>2</td></tr>
+  <tr><td colspan="10">Remark: Electrical power applied only for monitoring; no defined suction/discharge pressure targets.</td></tr>
+</table>

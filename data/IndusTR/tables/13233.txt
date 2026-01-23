@@ -1,0 +1,16 @@
+<table>
+  <caption>Charging Status Message Payload Element Definitions (CHG_STATUS_PDU)</caption>
+  <thead>
+    <tr><th>Byte Offset</th><th>Length</th><th>Field Name</th><th>Value / Encoding</th><th>Meaning (How to Interpret)</th><th>Send Option</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>1 byte</td><td>Charge_State</td><td>0x00=Idle; 0x01=Preparing; 0x02=Charging; 0x03=Paused; 0x04=Stopping; 0xFF=Invalid</td><td>Overall charging state reported by the charger/EVSE; use to drive state-machine validation.</td><td>Mandatory</td></tr>
+    <tr><td>2</td><td>2 bytes</td><td>Output_Voltage</td><td>Unsigned, 0.1 V/bit</td><td>Measured DC output voltage delivered by the charger.</td><td>Mandatory</td></tr>
+    <tr><td>4</td><td>2 bytes</td><td>Output_Current</td><td>Signed, 0.1 A/bit (two's complement)</td><td>Measured DC output current; negative values indicate reverse current or measurement error (implementation-defined).</td><td>Mandatory</td></tr>
+    <tr><td>6</td><td>2 bytes</td><td>Battery_SOC</td><td>Unsigned, 0.1 %/bit (0–1000 = 0–100.0%)</td><td>State of charge as communicated for charging control and display; validate monotonicity during charge.</td><td>Mandatory</td></tr>
+    <tr><td>8</td><td>2 bytes</td><td>Battery_Pack_Voltage</td><td>Unsigned, 0.1 V/bit</td><td>Measured total traction battery pack voltage; compare to requested/allowed limits.</td><td>Optional</td></tr>
+    <tr><td>10</td><td>2 bytes</td><td>Battery_Pack_Current</td><td>Signed, 0.1 A/bit</td><td>Measured battery current; used to cross-check with charger output current.</td><td>Optional</td></tr>
+    <tr><td>12</td><td>1 byte</td><td>Thermal_Derate_Flag</td><td>0x00=No derate; 0x01=Derate active; 0xFF=Invalid</td><td>Indicates whether thermal conditions are limiting charging power.</td><td>Optional</td></tr>
+    <tr><td>13</td><td>1 byte</td><td>Fault_Summary</td><td>Bit0=OverVoltage; Bit1=OverCurrent; Bit2=OverTemp; Bit3=InsulationFault; Bit4=CommError; Bits5-7=Reserved</td><td>Compact fault bitmap; interpret bits to determine why power may be reduced or charging stopped.</td><td>Optional</td></tr>
+  </tbody>
+</table>

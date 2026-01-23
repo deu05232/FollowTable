@@ -1,0 +1,10 @@
+<table>
+  <caption>Laboratory Test Conditions for Administrative Document OCR (Methodology, Not Enterprise Data Items)</caption>
+  <tr><th>Test Parameter</th><th>Setting</th><th>Allowed Tolerance</th><th>Measurement Tool</th><th>Comment</th></tr>
+  <tr><td>Scan Resolution</td><td>300 dpi</td><td>±10 dpi</td><td>Scanner calibration sheet</td><td>Use grayscale</td></tr>
+  <tr><td>Lighting</td><td>500 lux</td><td>±50 lux</td><td>Lux meter</td><td>Avoid reflections</td></tr>
+  <tr><td>Skew Angle</td><td>≤ 2°</td><td>N/A</td><td>Image analysis software</td><td>Auto-deskew enabled</td></tr>
+  <tr><td>OCR Engine Version</td><td>v5.2</td><td>N/A</td><td>Release notes</td><td>Fixed Chinese name segmentation</td></tr>
+  <tr><td>Character Set</td><td>Latin + CJK</td><td>N/A</td><td>Font set</td><td>Support rare surnames</td></tr>
+  <tr><td>Evaluation Metric</td><td>CER/WER</td><td>N/A</td><td>Benchmark dataset</td><td>Report per document type</td></tr>
+</table>

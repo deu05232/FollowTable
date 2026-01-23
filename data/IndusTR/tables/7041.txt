@@ -1,0 +1,15 @@
+<table>
+  <caption>GLONASS SSR Phase-Bias Header and Signal Indicators (Mixed Context)</caption>
+  <thead>
+    <tr><th>Group</th><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Message header</td><td>Message Type Number</td><td>DF002</td><td>uint12</td><td>12</td></tr>
+    <tr><td>Message header</td><td>GLONASS Epoch Time (TOW)</td><td>DF386</td><td>uint17</td><td>17</td></tr>
+    <tr><td>Message header</td><td>SSR Update Interval</td><td>DF391</td><td>bit(4)</td><td>4</td></tr>
+    <tr><td>Satellite context</td><td>GLONASS Satellite Number</td><td>DF069</td><td>uint6</td><td>6</td></tr>
+    <tr><td>Signal context</td><td>GLONASS Signal and Its Tracking Mode</td><td>DF381</td><td>uint5</td><td>5</td></tr>
+    <tr><td>Signal context</td><td>Signal Integer Indicator</td><td>DF483</td><td>uint1</td><td>1</td></tr>
+    <tr><td>Signal context</td><td>Signal Wide-Lane Integer Indicator</td><td>DF484</td><td>bit(2)</td><td>2</td></tr>
+  </tbody>
+</table>

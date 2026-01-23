@@ -1,0 +1,18 @@
+<table>
+  <caption>Key Reporting Elements for Vulnerability Disclosure and Remediation Tracking</caption>
+  <thead>
+    <tr><th>Reporting Element</th><th>Plain-language Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Vulnerability Summary</td><td>A short explanation of the weakness and why it matters, written so the reader understands the security risk without needing a standard ID.</td></tr>
+    <tr><td>Vulnerability Type</td><td>The kind of weakness (for example, injection, authentication flaw, misconfiguration), which helps determine likely exploitation paths and fixes.</td></tr>
+    <tr><td>Severity Rationale</td><td>A plain-language justification of the severity rating, including what could happen if exploited and what conditions make exploitation easier or harder.</td></tr>
+    <tr><td>Impacted Products / Components</td><td>Which applications, services, versions, libraries, or configurations are affected, including where they are deployed in the environment.</td></tr>
+    <tr><td>Exposure Context</td><td>Whether the vulnerable component is internet-facing, internal-only, restricted to a segment, or protected by compensating controls.</td></tr>
+    <tr><td>Exploitability Evidence</td><td>What is known about exploitation (proof-of-concept available, exploitation observed in the wild, prerequisites), and the source of that information.</td></tr>
+    <tr><td>Detection / Discovery Details</td><td>How the vulnerability was found (scanner, penetration test, bug bounty, vendor advisory) and any key evidence that supports the finding.</td></tr>
+    <tr><td>Recommended Remediation</td><td>What should be done to fix or reduce risk (patch version, configuration change, mitigation), written as actionable steps.</td></tr>
+    <tr><td>Workaround / Compensating Controls</td><td>Temporary measures that reduce risk when a full fix is not immediately possible (WAF rules, feature disablement, access restrictions).</td></tr>
+    <tr><td>Owner and Tracking Information</td><td>Who is responsible for remediation (team/system owner) and what internal ticket or tracking reference ties the report to follow-up work.</td></tr>
+  </tbody>
+</table>

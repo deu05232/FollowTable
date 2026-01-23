@@ -1,0 +1,9 @@
+<table>
+  <caption>ArHitResult_getNormal: Retrieve surface normal from a hit test result</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result</td><td>ArHitResult *</td><td>Hit test result object pointer</td></tr>
+  <tr><td>out_normal</td><td>ArVector3f *</td><td>Pointer to receive the surface normal at the hit location (x, y, z)</td></tr>
+  <tr><td>out_confidence</td><td>float *</td><td>Pointer to receive an estimated confidence value for the normal</td></tr>
+  <tr><td>out_status</td><td>ArStatus *</td><td>Pointer to receive API call status</td></tr>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>BCP Message (PGN 0x000600) SPN/Byte Breakdown for Charging Parameters</caption>
+  <thead>
+    <tr><th>Field Group</th><th>Start Byte</th><th>Start Bit</th><th>Length</th><th>SPN</th><th>Signal Name</th><th>Scaling / Unit</th><th>Description</th><th>Send Condition</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Voltage/Current Limits</td><td>1</td><td>0</td><td>16 bits</td><td>2816</td><td>Max Cell Charge Voltage</td><td>0.001 V/bit</td><td>Maximum allowable charging voltage of a single cell</td><td>Required</td></tr>
+    <tr><td>3</td><td>0</td><td>16 bits</td><td>2817</td><td>Max Charge Current</td><td>0.1 A/bit</td><td>Maximum allowable charging current request/limit</td><td>Required</td></tr>
+    <tr><td>5</td><td>0</td><td>16 bits</td><td>2818</td><td>Nominal Battery Energy</td><td>0.1 kWh/bit</td><td>Nominal total energy of the traction battery</td><td>Required</td></tr>
+    <tr><td rowspan="2">Temperature Limits</td><td>7</td><td>0</td><td>8 bits</td><td>2820</td><td>Max Battery Temp</td><td>1 °C/bit</td><td>Upper temperature threshold for charging enable</td><td>Optional</td></tr>
+    <tr><td>8</td><td>0</td><td>8 bits</td><td>2821</td><td>Min Battery Temp</td><td>1 °C/bit</td><td>Lower temperature threshold for charging enable</td><td>Optional</td></tr>
+    <tr><td rowspan="2">Reserved</td><td>9</td><td>0</td><td>8 bits</td><td>—</td><td>Reserved</td><td>—</td><td>Reserved for future use</td><td>—</td></tr>
+    <tr><td>10</td><td>0</td><td>8 bits</td><td>—</td><td>Reserved</td><td>—</td><td>Reserved for future use</td><td>—</td></tr>
+  </tbody>
+</table>

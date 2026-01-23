@@ -1,0 +1,8 @@
+<table>
+  <caption>Information container status values and meanings</caption>
+  <tr><th>Value</th><th>Name</th><th>Description</th></tr>
+  <tr><td>0</td><td>Draft</td><td>The container is created but not released</td></tr>
+  <tr><td>1</td><td>Active</td><td>The container is available for downstream use</td></tr>
+  <tr><td>2</td><td>Locked</td><td>Edits are blocked except by administrators</td></tr>
+  <tr><td>3</td><td>Deprecated</td><td>The container should not be used for new content</td></tr>
+</table>

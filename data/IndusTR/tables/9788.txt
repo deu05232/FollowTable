@@ -1,0 +1,17 @@
+<table>
+  <caption>CABAC/entropy decoding conformance coverage: explicit binIdx/value ranges per syntax element</caption>
+  <thead>
+    <tr><th>Category</th><th>Syntax element name</th><th>Traversal target (direct enumeration)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="4">Index-based targets</td><td>cu_type_index</td><td>Traverse cases where binIdx equals 0 to 5</td></tr>
+    <tr><td>shape_of_partition_index</td><td>Traverse cases where binIdx equals 0 to 1</td></tr>
+    <tr><td>coeff_abs_level_greater1_flag</td><td>Traverse cases where binIdx equals 0 to 7</td></tr>
+    <tr><td>coeff_abs_level_greater2_flag</td><td>Traverse cases where binIdx equals 0 to 3</td></tr>
+    <tr><td rowspan="5">Value-range targets</td><td>shape_of_partition_index</td><td>Traverse cases where the value of shape_of_partition_index equals 0 to 2</td></tr>
+    <tr><td>last_cg_pos</td><td>Traverse cases where the value of last_cg_pos equals 0 to 3</td></tr>
+    <tr><td>last_cg0_flag</td><td>Traverse cases where the value of last_cg0_flag equals 0 to 1</td></tr>
+    <tr><td>ref_idx_l0</td><td>Traverse cases where the value of ref_idx_l0 equals 0 to 3</td></tr>
+    <tr><td>mvd_sign_flag</td><td>Traverse cases where the value of mvd_sign_flag equals 0 to 1</td></tr>
+  </tbody>
+</table>

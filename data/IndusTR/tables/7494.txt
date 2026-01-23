@@ -1,0 +1,16 @@
+<table>
+  <caption>Mechanical and Environmental Robustness Tests for Heat Detectors (Test Name vs Parameters)</caption>
+  <thead>
+    <tr><th>Test name</th><th>Parameter</th><th>Required value</th><th>Condition / notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Drop test</td><td>Number of drops</td><td>2</td><td>Detector de-energized</td></tr>
+    <tr><td>Drop height (mm)</td><td>1500</td><td>Onto steel plate</td></tr>
+    <tr><td rowspan="2">Vibration test</td><td>Frequency range (Hz)</td><td>10–55</td><td>Sweep, 0.5 octave/min</td></tr>
+    <tr><td>Duration (min)</td><td>30</td><td>Each axis (X/Y/Z)</td></tr>
+    <tr><td rowspan="2">Damp heat (steady state)</td><td>Temperature (°C)</td><td>40 ± 2</td><td>Relative humidity 93% ± 3%</td></tr>
+    <tr><td>Duration (h)</td><td>96</td><td>Operating state as specified</td></tr>
+    <tr><td rowspan="2">Cold test</td><td>Temperature (°C)</td><td>-10 ± 2</td><td>Stabilization before functional check</td></tr>
+    <tr><td>Duration (h)</td><td>16</td><td>De-energized unless otherwise stated</td></tr>
+  </tbody>
+</table>

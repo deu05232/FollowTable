@@ -1,0 +1,16 @@
+<table>
+  <caption>Self-service Portal Interface Inventory (Party Catalog, Not Test Validation)</caption>
+  <thead>
+    <tr><th>Inventory No.</th><th>Party Category</th><th>Party Name</th><th>Portal Role Label</th><th>Interface Endpoint Group</th><th>Authentication Method</th><th>Data Visibility Scope</th><th>Remarks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>I-100</td><td>Customer</td><td>Industrial Customer A</td><td>Customer Admin</td><td>/customer/*</td><td>SSO</td><td>Own tenants only</td><td>Role label used for access requests</td></tr>
+    <tr><td>I-101</td><td>Customer</td><td>Enterprise Customer B</td><td>Customer Operator</td><td>/customer/*</td><td>Password</td><td>Own tenants only</td><td>Operator role has read-mostly access</td></tr>
+    <tr><td>I-200</td><td>Vendor</td><td>Terminal Vendor C</td><td>Vendor Admin</td><td>/vendor/*</td><td>SSO</td><td>Assigned product lines</td><td>Vendor accounts reviewed quarterly</td></tr>
+    <tr><td>I-201</td><td>Vendor</td><td>Terminal Vendor D</td><td>Vendor Operator</td><td>/vendor/*</td><td>Password</td><td>Assigned product lines</td><td>Operator role cannot approve changes</td></tr>
+    <tr><td>I-300</td><td>SI/SP</td><td>Service Provider E</td><td>SI/SP Admin</td><td>/sisp/*</td><td>SSO</td><td>Managed customers</td><td>Requires separate onboarding checklist</td></tr>
+    <tr><td>I-301</td><td>SI/SP</td><td>System Integrator F</td><td>SI/SP Operator</td><td>/sisp/*</td><td>Password</td><td>Managed projects</td><td>Operator role is project-scoped</td></tr>
+    <tr><td>I-400</td><td>Partner</td><td>Reseller G</td><td>Partner Admin</td><td>/partner/*</td><td>SSO</td><td>Downstream accounts</td><td>Limited export capability</td></tr>
+    <tr><td>I-500</td><td>Internal</td><td>Platform Ops</td><td>Platform Operator</td><td>/ops/*</td><td>MFA</td><td>All tenants</td><td>Not considered self-service testing</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,10 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Offset/Gain Calibration Mixed with Detector Specs</caption>
+  <tr><th>Attribute Name</th><th>Tag</th><th>VR</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  <tr><td>Offset Calibration Sequence</td><td>(0014,3040)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence containing offset calibration attributes</td></tr>
+  <tr><td>>Offset Calibration File</td><td>(0014,3050)</td><td>OB</td><td>1</td><td>1</td><td>Offset calibration image/data</td></tr>
+  <tr><td>Gain Calibration Sequence</td><td>(0014,3060)</td><td>SQ</td><td>1</td><td>2</td><td>Sequence containing gain calibration attributes</td></tr>
+  <tr><td>>Gain Calibration File</td><td>(0014,3061)</td><td>OB</td><td>1</td><td>2</td><td>Gain calibration image/data</td></tr>
+  <tr><td>Detector Type</td><td>(0018,7004)</td><td>CS</td><td>1</td><td>2</td><td>Type of detector used to acquire projection data</td></tr>
+  <tr><td>Scintillator Material</td><td>(0018,7006)</td><td>CS</td><td>1</td><td>2</td><td>Material type of the detector scintillator layer</td></tr>
+</table>

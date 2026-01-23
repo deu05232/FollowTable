@@ -1,0 +1,16 @@
+<table>
+  <caption>Dark-energy power output and expansion dynamics across evolving equation-of-state scenarios (CPL and early-dark-energy variants)</caption>
+  <thead>
+    <tr><th rowspan="2">Scenario ID</th><th rowspan="2">Model family</th><th colspan="2">Dark-energy model parameters</th><th rowspan="2">w(z=0)</th><th rowspan="2">w(z=1)</th><th rowspan="2">Omega_DE(z=0)</th><th rowspan="2">Omega_DE(z=2)</th><th rowspan="2">H(z=0) [km/s/Mpc]</th><th rowspan="2">H(z=1) [km/s/Mpc]</th><th rowspan="2">d ln rho_DE / d ln a at z=1</th><th rowspan="2">DE power proxy P_DE(z=1) [arb.]</th></tr>
+    <tr><th>Parameter 1</th><th>Parameter 2</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>S1</td><td>CPL w(a)=w0+wa(1-a)</td><td>w0=-1.00</td><td>wa=0.00</td><td>-1.00</td><td>-1.00</td><td>0.70</td><td>0.10</td><td>70</td><td>123</td><td>0.00</td><td>1.00</td></tr>
+    <tr><td>S2</td><td>CPL</td><td>w0=-0.95</td><td>wa=-0.30</td><td>-0.95</td><td>-1.10</td><td>0.70</td><td>0.08</td><td>70</td><td>125</td><td>-0.30</td><td>0.92</td></tr>
+    <tr><td>S3</td><td>CPL</td><td>w0=-1.10</td><td>wa=+0.40</td><td>-1.10</td><td>-0.90</td><td>0.70</td><td>0.12</td><td>70</td><td>121</td><td>+0.60</td><td>1.12</td></tr>
+    <tr><td>S4</td><td>Early Dark Energy (EDE)</td><td>Omega_e=0.020</td><td>w0=-0.98</td><td>-0.98</td><td>-0.98</td><td>0.70</td><td>0.18</td><td>70</td><td>128</td><td>0.00</td><td>1.25</td></tr>
+    <tr><td>S5</td><td>EDE</td><td>Omega_e=0.010</td><td>w0=-1.05</td><td>-1.05</td><td>-1.05</td><td>0.70</td><td>0.14</td><td>70</td><td>126</td><td>0.00</td><td>1.15</td></tr>
+    <tr><td>S6</td><td>Transitioning w(z)</td><td>w_p=-1.20</td><td>z_t=0.7</td><td>-1.05</td><td>-1.15</td><td>0.70</td><td>0.09</td><td>70</td><td>124</td><td>-0.45</td><td>0.95</td></tr>
+    <tr><td>S7</td><td>Transitioning w(z)</td><td>w_p=-0.80</td><td>z_t=1.2</td><td>-0.90</td><td>-0.85</td><td>0.70</td><td>0.15</td><td>70</td><td>122</td><td>+0.30</td><td>1.08</td></tr>
+  </tbody>
+</table>

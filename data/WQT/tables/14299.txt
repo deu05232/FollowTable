@@ -1,0 +1,12 @@
+# How the Great Firewall Works  Filtering and Interference Techniques
+
+| Technique | Layer | What It Does | Typical Observable Symptom | Example Indicator |
+| --- | --- | --- | --- | --- |
+| DNS poisoning | DNS | Returns wrong IP for a domain | Site resolves to incorrect host | Unexpected A record |
+| SNI filtering | TLS | Blocks based on Server Name Indication | TLS handshake reset | Connection reset |
+| IP blackholing | Network | Drops traffic to target IP ranges | Timeouts | No SYN-ACK |
+| Keyword-based URL filtering | HTTP | Matches sensitive strings in URLs | Request fails mid-load | 302/connection close |
+| TCP reset injection | Transport | Injects forged RST packets | Sudden disconnect | RST seen in capture |
+| Traffic throttling | Network | Slows traffic to certain services | Very slow loading | High latency |
+| Active probing | Application | Detects and blocks circumvention endpoints | Proxy/VPN becomes unreachable | Probe traffic after connect |
+| Certificate interference | TLS | Disrupts certificate validation paths | TLS errors | Untrusted cert warnings |

@@ -1,0 +1,8 @@
+<table>
+  <caption>System Power Consumption Mode Enumeration</caption>
+  <tr><td>Data Type</td><td>Enumerated Value</td><td>Description</td></tr>
+  <tr><td rowspan="4">vrSystemCostMode</td><td>VR_SYSTEM_COST_MODE_LOW=0x00</td><td>Low power consumption mode</td></tr>
+  <tr><td>VR_SYSTEM_COST_MODE_NORMAL=0x01</td><td>Normal power consumption</td></tr>
+  <tr><td>VR_SYSTEM_COST_MODE_HIGH_PERFORMANCE=0x02</td><td>High-performance power consumption</td></tr>
+  <tr><td>0x03~0xFF</td><td>Reserved</td></tr>
+</table>

@@ -1,0 +1,14 @@
+<table>
+  <caption>EGC Target Area Identification (NAVAREA/METAREA vs Worldwide) for Ship Earth Station Broadcast Addressing</caption>
+  <thead>
+    <tr><th>Area ID Type</th><th>Composite Code Range</th><th>Meaning</th><th>Who Assigns / Reference</th><th>Notes for Ship Earth Stations</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Worldwide</td><td>00</td><td>Broadcast intended for all regions</td><td>System-defined</td><td>No regional filtering; terminals treat as globally applicable.</td></tr>
+    <tr><td>NAVAREA/METAREA</td><td>01–21</td><td>Maritime safety broadcast area number</td><td>International NAVAREA/METAREA plan</td><td>Terminal compares the received area number with its configured area subscription list.</td></tr>
+    <tr><td>Reserved</td><td>22–63</td><td>Not used</td><td>System-defined</td><td>Shall be ignored on reception; shall not be transmitted.</td></tr>
+    <tr><td>Vendor-specific extension (future)</td><td>64–127</td><td>Extension block (if enabled by profile)</td><td>Profile-dependent</td><td>Only valid when an extension flag in the message indicates use; otherwise invalid.</td></tr>
+    <tr><td>National/Coastal sub-area (optional)</td><td>128–191</td><td>Sub-division of NAVAREA/METAREA</td><td>Administration / service provider</td><td>Used to further narrow broadcasts; terminal may map to polygons or coastal strips.</td></tr>
+    <tr><td>Spare</td><td>192–255</td><td>Unused</td><td>System-defined</td><td>Reserved for standardization; treat as invalid until defined.</td></tr>
+  </tbody>
+</table>

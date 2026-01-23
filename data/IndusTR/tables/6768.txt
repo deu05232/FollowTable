@@ -1,0 +1,15 @@
+<table>
+  <caption>User Terminal Application File — User/Account Identifier Fields</caption>
+  <thead>
+    <tr><th>Field Name</th><th>Size (bytes)</th><th>Encoding / Format</th><th>Meaning (Identifier Focus)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>User ID</td><td>6</td><td>Hex (48-bit)</td><td>Unique user identifier bound to the terminal-side application profile.</td></tr>
+    <tr><td>User Management Module Unique Number (UMM-UID)</td><td>9</td><td>BCD</td><td>Unique identifier of the user management module; used as an identity anchor for user/profile association.</td></tr>
+    <tr><td>Subscriber ID (SID)</td><td>8</td><td>BCD</td><td>Subscriber/account identifier used to link the terminal application to a specific service subscription.</td></tr>
+    <tr><td>Application Instance ID (AID-Inst)</td><td>4</td><td>Unsigned integer (big-endian)</td><td>Uniquely identifies a specific application instance on the terminal (helps distinguish multiple profiles).</td></tr>
+    <tr><td>Provisioning Transaction ID (PTID)</td><td>8</td><td>Hex</td><td>Unique identifier for the most recent provisioning/enrollment transaction recorded by the terminal file.</td></tr>
+    <tr><td>Organization / Operator ID (OP-ID)</td><td>3</td><td>BCD</td><td>Identifies the operator/organization that issued the user profile; used for disambiguation across issuers.</td></tr>
+    <tr><td>Account Alias Hash (AAH)</td><td>16</td><td>Binary (opaque)</td><td>Opaque identifier derived from an account alias; stored as a stable reference without revealing the alias text.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,8 @@
+<table>
+  <tr><td>Prototype</td><td>BSTR SOF_ParseSignedXML(BSTR SignedXml, SHORT FieldType)</td></tr>
+  <tr><td>Description</td><td>Parse signed XML and return a specific field such as signature value, digest value, signer certificate, or algorithm identifiers, depending on FieldType.</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>SignedXml (XML signature result)</td></tr>
+  <tr><td>FieldType (1=OriginalXML, 2=Digest, 3=SignatureValue, 4=Cert, 5=DigestAlg, 6=SignatureAlg)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>FieldValue (success; string value of the requested field)</td></tr>
+  <tr><td>Error (failure)</td></tr>
+</table>

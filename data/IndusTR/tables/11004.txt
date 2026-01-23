@@ -1,0 +1,7 @@
+<table>
+  <caption>User Terminal Application File Information — Security Parameter TLV Fields</caption>
+  <tr><th>Data Item</th><th>Length (bytes)</th><th>Description</th></tr>
+  <tr><td>TLV tag</td><td>1</td><td>Identifies the type of security parameter</td></tr>
+  <tr><td>TLV length</td><td>1</td><td>Length of the TLV value part</td></tr>
+  <tr><td>TLV value</td><td>Variable</td><td>Parameter value encoded in the file</td></tr>
+</table>

@@ -1,0 +1,23 @@
+<table>
+  <caption>Inspection and Testing Organization Information Data Table</caption>
+  <tr><td>Serial No.</td><td>Chinese Name</td><td>Description</td><td>Data Type</td><td>Data Format</td><td>Example</td></tr>
+  <tr><td>1</td><td>Entrusting unit for inspection and testing</td><td>Unit that requests product inspection and testing</td><td>C</td><td>C..100</td><td>＊＊* Testing Center</td></tr>
+  <tr><td>2</td><td>Laboratory/inspection and testing organization name</td><td>Name of the laboratory or inspection and testing organization undertaking the inspection and testing task</td><td>C</td><td>C..100</td><td>*** Testing Center *** Laboratory</td></tr>
+  <tr><td>3</td><td>Laboratory qualification accreditation code</td><td>Valid laboratory qualification accreditation code</td><td>N</td><td>N..100</td><td>210XXXXX</td></tr>
+  <tr><td>4</td><td>Laboratory accreditation registration number</td><td>Valid laboratory accreditation registration number</td><td>C</td><td>C..100</td><td>CNAS L1234</td></tr>
+  <tr><td>5</td><td>Inspection and testing date</td><td>Time when inspection and testing is completed</td><td>YYYYMMDD</td><td>Complies with relevant requirements of GB/T 7408</td><td>20230820</td></tr>
+  <tr><td>6</td><td>Inspection equipment name</td><td>Name of the instrument used by the inspector for the testing item</td><td>C</td><td>C..100</td><td>High-performance liquid chromatography</td></tr>
+  <tr><td>7</td><td>Name of inspection and testing item</td><td>Name of the inspection and testing item</td><td>C</td><td>C..100</td><td>Determination of lead limits in food</td></tr>
+  <tr><td>8</td><td>Inspection and testing category</td><td>Category of food inspection and testing, such as factory-exit inspection and testing, type inspection and testing, etc.</td><td>C</td><td>C..100</td><td>Factory-exit inspection and testing</td></tr>
+  <tr><td>9</td><td>Basis for inspection and testing</td><td>The method basis used when conducting inspection and testing for the corresponding inspection and testing item, including standard methods and laboratory methods</td><td>C</td><td>C..100</td><td>GB 5009.157—2016</td></tr>
+  <tr><td>10</td><td>Inspection and testing result</td><td>Specific value of the inspection and testing result; or, when the inspection and testing result is qualitative, fill in a qualitative statement such as positive, negative, detected, not detected, etc.</td><td>C</td><td>C..100</td><td>Not detected</td></tr>
+  <tr><td>11</td><td>Determination of inspection and testing result</td><td>Whether the inspection and testing result is qualified</td><td>B</td><td>True/False</td><td>True</td></tr>
+  <tr><td>12</td><td>Unit of inspection and testing result</td><td>Unit of the inspection and testing result, consistent with the unit of the standard specified value</td><td>C</td><td>C..10</td><td>mg/kg</td></tr>
+  <tr><td>13</td><td>Standard-specified minimum limit</td><td>Standard-specified minimum allowable limit for the inspection and testing item</td><td>C</td><td>C..50</td><td>0.2</td></tr>
+  <tr><td>14</td><td>Standard-specified maximum limit</td><td>Standard-specified maximum allowable limit for the inspection and testing item</td><td>C</td><td>C..50</td><td>0.5</td></tr>
+  <tr><td>15</td><td>Unit of standard specified value</td><td>Unit of the standard-specified limit value for the inspection and testing item</td><td>C</td><td>C..10</td><td>mg/kg</td></tr>
+  <tr><td>16</td><td>Basis for determination</td><td>Name of the standard from which the standard-specified limit value for the inspection and testing item is derived</td><td>C</td><td>C..100</td><td>GB 2762</td></tr>
+  <tr><td>17</td><td>Test method</td><td>Method used by the inspector during testing</td><td>C</td><td>C..100</td><td>Refer to GB 5009.157—2016</td></tr>
+  <tr><td>18</td><td>Inspector name</td><td>Name of the person responsible for inspecting raw and auxiliary materials, packaging materials/semi-finished products/finished products</td><td>C</td><td>C..30</td><td>Zhang ××</td></tr>
+  <tr><td>19</td><td>Inspector qualification</td><td>Check whether the inspector meets relevant requirements</td><td>B</td><td>True/False</td><td>True</td></tr>
+</table>

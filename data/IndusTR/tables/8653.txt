@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Frame Coordinate Query Cheat Sheet (Inputs Dominant)</caption>
+  <thead>
+    <tr><th>Call</th><th>Primary Inputs (Coordinates)</th><th>Input Type</th><th>Output You Receive</th><th>Output Type</th><th>What It Represents</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArFrame_getDistanceToPlaneAt</td><td>x, y</td><td>float (view coords)</td><td>distance</td><td>float</td><td>Distance from camera ray at screen point to nearest plane</td></tr>
+    <tr><td>ArFrame_getTrackingStateAtPixel</td><td>pixel_x, pixel_y</td><td>int32 (pixels)</td><td>trackingState</td><td>ArTrackingState</td><td>Tracking state sampled at a screen location</td></tr>
+    <tr><td>ArFrame_acquireDepthAtUV</td><td>u, v</td><td>float (UV)</td><td>depth_mm</td><td>uint16</td><td>Depth value at a texture coordinate</td></tr>
+    <tr><td>ArFrame_acquireNormalAtScreenPos</td><td>screen_x, screen_y</td><td>float (pixels)</td><td>normal_xyz</td><td>float[3]</td><td>Estimated surface normal under cursor</td></tr>
+    <tr><td>ArFrame_getFeatureIdAt</td><td>x, y</td><td>float (view coords)</td><td>featureId</td><td>int64</td><td>Feature identifier nearest to the 2D point</td></tr>
+    <tr><td>ArFrame_queryMeshAtTap</td><td>touch_x, touch_y</td><td>float (pixels)</td><td>out_mesh_handle</td><td>ArMesh*</td><td>Mesh chosen by tap location</td></tr>
+    <tr><td>ArFrame_getLightEstimateAtPixel</td><td>pixelX, pixelY</td><td>int32 (pixels)</td><td>intensity</td><td>float</td><td>Light intensity sampled at pixel location</td></tr>
+  </tbody>
+</table>

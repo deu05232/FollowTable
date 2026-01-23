@@ -1,0 +1,18 @@
+<table>
+  <caption>Atmospheric & Radiative Retrieval Product Codebook for Meteorological Satellites</caption>
+  <thead>
+    <tr><th>Category</th><th>Product (Dataset)</th><th>Identifier</th><th>Physical Meaning / Units</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Radiation</td><td>Top-of-Atmosphere Shortwave Flux</td><td>SWF</td><td>Outgoing reflected shortwave flux (W/m²)</td></tr>
+    <tr><td>Top-of-Atmosphere Longwave Flux</td><td>LWF</td><td>Outgoing longwave flux (W/m²)</td></tr>
+    <tr><td>Surface Net Radiation</td><td>SNR</td><td>Net radiation at surface (W/m²)</td></tr>
+    <tr><td rowspan="3">Temperature</td><td>Atmospheric Temperature Profile</td><td>ATP</td><td>Temperature vs. pressure/height (K)</td></tr>
+    <tr><td>Land Surface Temperature</td><td>LST</td><td>Skin temperature of land surface (K/°C)</td></tr>
+    <tr><td>Tropopause Temperature</td><td>TPT</td><td>Temperature at tropopause level (K)</td></tr>
+    <tr><td rowspan="2">Moisture</td><td>Total Column Water Vapor</td><td>TCWV</td><td>Integrated water vapor (kg/m² or mm)</td></tr>
+    <tr><td>Relative Humidity Profile</td><td>RHP</td><td>RH by level (%)</td></tr>
+    <tr><td rowspan="2">Cloud</td><td>Cloud Optical Thickness</td><td>COT</td><td>Optical depth (unitless)</td></tr>
+    <tr><td>Cloud Effective Radius</td><td>CER</td><td>Droplet/particle effective radius (µm)</td></tr>
+  </tbody>
+</table>

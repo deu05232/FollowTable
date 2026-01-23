@@ -1,0 +1,20 @@
+<table>
+  <caption>Public Security Video/Image Information Data Items — Face Object Fields</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Item Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Face Object Identifier</td><td>lmdxbz</td><td>c48</td><td>Unique identifier for a face object; should comply with the identifier coding rules specified in Annex C</td><td></td></tr>
+    <tr><td>2</td><td>Associated Person Object Identifier</td><td>glrydxbz</td><td>c48</td><td>Identifier of the related person object (if available); should comply with Annex C</td><td></td></tr>
+    <tr><td>3</td><td>Capture Source Identifier</td><td>lybz</td><td>c48</td><td>Identifier of the acquisition source (e.g., camera/system); should comply with Annex C</td><td></td></tr>
+    <tr><td>4</td><td>Appearance Date/Time</td><td>cx_rqsj</td><td>d18</td><td>Date/time when the face object appears in the video/image</td><td></td></tr>
+    <tr><td>5</td><td>Face Bounding Box — Top-left X</td><td>lmkk_zsx</td><td>n..8</td><td>X coordinate (pixels) of the top-left corner of the face bounding box</td><td></td></tr>
+    <tr><td>6</td><td>Face Bounding Box — Top-left Y</td><td>lmkk_zsy</td><td>n..8</td><td>Y coordinate (pixels) of the top-left corner of the face bounding box</td><td></td></tr>
+    <tr><td>7</td><td>Face Bounding Box — Width</td><td>lmkk_kk</td><td>n..8</td><td>Width (pixels) of the face bounding box</td><td></td></tr>
+    <tr><td>8</td><td>Face Bounding Box — Height</td><td>lmkk_gd</td><td>n..8</td><td>Height (pixels) of the face bounding box</td><td></td></tr>
+    <tr><td>9</td><td>Face Quality Score</td><td>lmzlpf</td><td>n3</td><td>Quality score for the face image region (e.g., 0–100)</td><td></td></tr>
+    <tr><td>10</td><td>Face Pose — Yaw</td><td>lmtz_yaw</td><td>n..6</td><td>Yaw angle (degrees)</td><td></td></tr>
+    <tr><td>11</td><td>Face Pose — Pitch</td><td>lmtz_pitch</td><td>n..6</td><td>Pitch angle (degrees)</td><td></td></tr>
+    <tr><td>12</td><td>Face Pose — Roll</td><td>lmtz_roll</td><td>n..6</td><td>Roll angle (degrees)</td><td></td></tr>
+  </tbody>
+</table>

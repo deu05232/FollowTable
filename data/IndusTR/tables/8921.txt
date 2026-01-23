@@ -1,0 +1,14 @@
+<table>
+  <caption>Instrument-Based Amber Body Color Grades Using CIE L*a*b* and Yellowness Index Ranges</caption>
+  <thead>
+    <tr><th>Amber Category</th><th>L* Range</th><th>a* Range</th><th>b* Range</th><th>Yellowness Index (YI) Range</th><th>Decision Guideline</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Light Amber</td><td>70–85</td><td>2–8</td><td>35–55</td><td>60–90</td><td>High L* with moderate b*; reject if a* < 2 (too yellow-green)</td></tr>
+    <tr><td>Standard Amber</td><td>60–75</td><td>4–12</td><td>45–70</td><td>80–120</td><td>Primary amber window; use YI to confirm “amber” vs pale yellow</td></tr>
+    <tr><td>Deep Amber</td><td>45–60</td><td>6–16</td><td>55–85</td><td>110–160</td><td>Lower L* but strong b*; if b* < 55 classify as brown instead</td></tr>
+    <tr><td>Reddish Amber</td><td>50–70</td><td>12–22</td><td>45–75</td><td>90–140</td><td>Elevated a* distinguishes reddish amber from golden amber</td></tr>
+    <tr><td>Yellowish Amber</td><td>65–85</td><td>0–6</td><td>50–80</td><td>90–150</td><td>Low a* and high b*; if a* < 0 treat as yellow rather than amber</td></tr>
+    <tr><td>Borderline Brown (Not Amber)</td><td>35–55</td><td>8–18</td><td>20–55</td><td>40–110</td><td>Included for exclusion: low b* relative to L* makes body appear brown</td></tr>
+  </tbody>
+</table>

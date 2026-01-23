@@ -1,0 +1,6 @@
+<table>
+  <caption>Charger Version Negotiation Message Frame Format</caption>
+  <tr><td>Protocol Data Unit</td><td>P</td><td>EDP</td><td>DP</td><td>PF</td><td>PS</td><td>SA</td><td colspan="8">Data Field</td></tr>
+  <tr><td>Placeholder bit</td><td>3</td><td>1</td><td>1</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td></tr>
+  <tr><td>Definition</td><td>0x03</td><td>0</td><td>0</td><td>0x38</td><td>0xF4 (destination address)</td><td>0x56 (source address)</td><td colspan="8">Shall comply with Table 6</td></tr>
+</table>

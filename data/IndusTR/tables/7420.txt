@@ -1,0 +1,17 @@
+<table>
+  <caption>Regional Address Encoding for Ship Earth Station Broadcast Areas (Coordinate-Based)</caption>
+  <thead>
+    <tr><th>Region Type</th><th>Field</th><th>Bits</th><th>Valid Range</th><th>Coordinate Meaning</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Circle</td><td>Center Latitude Degrees</td><td>7</td><td>0–90</td><td>Latitude integer degrees</td><td>0=N, 1=S stored separately</td></tr>
+    <tr><td>Circle</td><td>Center Latitude Hemisphere</td><td>1</td><td>0–1</td><td>0: North, 1: South</td><td>Hemisphere flag</td></tr>
+    <tr><td>Circle</td><td>Center Longitude Degrees</td><td>8</td><td>0–180</td><td>Longitude integer degrees</td><td>0=E, 1=W stored separately</td></tr>
+    <tr><td>Circle</td><td>Center Longitude Hemisphere</td><td>1</td><td>0–1</td><td>0: East, 1: West</td><td>Hemisphere flag</td></tr>
+    <tr><td>Circle</td><td>Radius (nautical miles)</td><td>10</td><td>1–1023</td><td>Circle radius</td><td>Resolution: 1 NM</td></tr>
+    <tr><td>Rectangle</td><td>Southwest Latitude Degrees</td><td>7</td><td>0–90</td><td>SW corner latitude degrees</td><td>Corner-based region definition</td></tr>
+    <tr><td>Rectangle</td><td>Southwest Longitude Degrees</td><td>8</td><td>0–180</td><td>SW corner longitude degrees</td><td>Corner-based region definition</td></tr>
+    <tr><td>Rectangle</td><td>Northeast Latitude Degrees</td><td>7</td><td>0–90</td><td>NE corner latitude degrees</td><td>Must be >= SW latitude</td></tr>
+    <tr><td>Rectangle</td><td>Northeast Longitude Degrees</td><td>8</td><td>0–180</td><td>NE corner longitude degrees</td><td>Must be >= SW longitude</td></tr>
+  </tbody>
+</table>

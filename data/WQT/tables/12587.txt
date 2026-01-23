@@ -1,0 +1,13 @@
+# Credit Score Models and Ranges Used in Consumer Lending (Scales, Not Platform Cutoffs)
+
+| Score Model | Minimum Possible Score | Maximum Possible Score | Common Prime Threshold (General) | What It Measures |
+| --- | --- | --- | --- | --- |
+| FICO Score 8 | 300 | 850 | ~700+ | Payment history, utilization, mix |
+| FICO Score 9 | 300 | 850 | ~700+ | Similar to FICO 8, different weighting |
+| VantageScore 3.0 | 300 | 850 | ~661+ | Trended data and utilization patterns |
+| VantageScore 4.0 | 300 | 850 | ~700+ | Adds additional trend analytics |
+| TransUnion TransRisk | 100 | 900 | ~720+ | Bureau-specific risk score |
+| Equifax Risk Score | 280 | 850 | ~700+ | Bureau-specific risk score |
+| Experian PLUS | 330 | 830 | ~700+ | Educational scoring model |
+| Industry Auto Score | 250 | 900 | ~720+ | Auto-loan tailored risk |
+| Industry Bankcard Score | 250 | 900 | ~720+ | Credit card tailored risk |

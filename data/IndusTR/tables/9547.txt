@@ -1,0 +1,19 @@
+<table>
+  <caption>Adaptation Interface Checklist Across Compile/Runtime/Deployment Phases (Requirement Level Included)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Interface Area</th><th>Example Entry Points</th><th>Must Implement?</th><th>Operational Responsibility</th><th>Typical Inputs</th><th>Typical Outputs</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Compile</td><td>IR Ingestion</td><td>import_graph(graph, params)</td><td>Must</td><td>Accepts the framework representation (graph + weights) and normalizes it for backend compilation.</td><td>Graph IR, constants</td><td>Backend module / normalized IR handle</td></tr>
+    <tr><td>Compile</td><td>Partitioning / Fallback Plan</td><td>partition(graph) or plan_fallback(graph)</td><td>Nice-to-have</td><td>Splits unsupported subgraphs to run on CPU/framework and supported subgraphs on accelerator; produces an execution plan.</td><td>Graph IR, capability info</td><td>Partitions, mapping, diagnostics</td></tr>
+    <tr><td>Compile</td><td>Compilation Options Handling</td><td>set_compile_options(opts)</td><td>Nice-to-have</td><td>Exposes knobs like precision, tactic selection, static vs dynamic shapes, and debug flags in a consistent way.</td><td>Options dictionary</td><td>Validated options / warnings</td></tr>
+    <tr><td>Compile</td><td>Build Executable</td><td>build(module, target)</td><td>Must</td><td>Produces a device-executable artifact (engine/binary) that can be invoked repeatedly with different inputs.</td><td>Module, target, options</td><td>Executable handle / blob</td></tr>
+    <tr><td>Runtime</td><td>Tensor/Buffer Interop</td><td>wrap_tensor(t), get_device_ptr(t)</td><td>Must</td><td>Bridges framework tensors to backend buffers without copies when possible; defines ownership and lifetime rules.</td><td>Framework tensor</td><td>Device buffer handle / view</td></tr>
+    <tr><td>Runtime</td><td>Shape/Dynamic Dimension Handling</td><td>set_input_shape(exe, idx, shape)</td><td>Nice-to-have</td><td>Allows dynamic shapes by updating binding metadata and selecting/creating appropriate execution paths.</td><td>Input index/name, shape</td><td>Updated binding state / error</td></tr>
+    <tr><td>Runtime</td><td>Execute</td><td>enqueue(exe, bindings, stream)</td><td>Must</td><td>Runs the executable with current bindings on a given stream/queue and returns an event or status.</td><td>Executable, bindings, stream</td><td>Status, event, outputs ready signal</td></tr>
+    <tr><td>Runtime</td><td>Error Reporting & Diagnostics</td><td>get_last_error(), explain_failure(code)</td><td>Nice-to-have</td><td>Surfaces actionable errors (unsupported op, shape mismatch, OOM) for debugging integration and models.</td><td>Error codes, logs</td><td>Human-readable message</td></tr>
+    <tr><td>Runtime</td><td>Synchronization</td><td>stream_sync(stream), event_sync(ev)</td><td>Must</td><td>Guarantees completion before outputs are consumed or buffers are reused; enforces correct ordering.</td><td>Stream/event handles</td><td>Completion status</td></tr>
+    <tr><td>Deployment</td><td>Artifact Serialization</td><td>save(exe) / load(blob)</td><td>Nice-to-have</td><td>Enables caching and shipping of compiled artifacts to reduce startup latency in production.</td><td>Executable or bytes blob</td><td>Bytes blob or executable handle</td></tr>
+    <tr><td>Lifecycle</td><td>Cleanup</td><td>destroy(exe), release_buffer(buf)</td><td>Must</td><td>Frees backend resources deterministically to prevent leaks and enable repeated create/run cycles.</td><td>Handles</td><td>Resources released</td></tr>
+  </tbody>
+</table>

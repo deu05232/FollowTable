@@ -1,0 +1,11 @@
+<table>
+  <caption>Bill of Materials (BOM) for a Static Harmonic Active Energy Meter (Reference Design)</caption>
+  <tr><th>Item</th><th>Description</th><th>Specification</th><th>Qty</th><th>Reference</th><th>Unit Cost (USD)</th></tr>
+  <tr><td>1</td><td>Energy Metering IC</td><td>3-phase, 24-bit ADC, SPI</td><td>1</td><td>U1</td><td>6.40</td></tr>
+  <tr><td>2</td><td>Shunt Resistor</td><td>200 µΩ, 3 W, 1%</td><td>3</td><td>R10-R12</td><td>0.85</td></tr>
+  <tr><td>3</td><td>Voltage Divider Resistors</td><td>0.1%, 200 kΩ/1 kΩ</td><td>6</td><td>R21-R26</td><td>0.12</td></tr>
+  <tr><td>4</td><td>Power Supply Module</td><td>85–265 VAC to 3.3 VDC, 2 W</td><td>1</td><td>PS1</td><td>2.10</td></tr>
+  <tr><td>5</td><td>Optical Port</td><td>IEC 62056-21 compatible</td><td>1</td><td>J1</td><td>0.95</td></tr>
+  <tr><td>6</td><td>Terminal Block</td><td>3x phase + N, 25 A</td><td>1</td><td>TB1</td><td>1.70</td></tr>
+  <tr><td>7</td><td>Surge Protection</td><td>MOV 275 VAC + TVS</td><td>1</td><td>SP1</td><td>0.78</td></tr>
+</table>

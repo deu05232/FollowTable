@@ -1,0 +1,16 @@
+<table>
+  <caption>Actionable conformance traversal matrix for Intra prediction and reference index syntax</caption>
+  <thead>
+    <tr><th>Syntax item</th><th>Applies when (preconditions)</th><th>Required traversal rules (must cover)</th><th>Notes / required combinations</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>intra_luma_pred_mode</td><td>IntraCuFlag = 1</td><td>Enumerate all modes in the allowed set: {0..66}</td><td>Include boundary modes 0 and 66; include at least one mid value (e.g., 33)</td></tr>
+    <tr><td>intra_chroma_pred_mode</td><td>IntraCuFlag = 1 AND IsChroma = 1</td><td>Enumerate all modes in the allowed set: {0..7}</td><td>Cover both minimum (0) and maximum (7)</td></tr>
+    <tr><td>mpm_flag</td><td>IntraCuFlag = 1</td><td>Cover both values: {0, 1}</td><td>For mpm_flag=1 also traverse mpm_idx cases (see below)</td></tr>
+    <tr><td>mpm_idx</td><td>IntraCuFlag = 1 AND mpm_flag = 1</td><td>Enumerate all indices in the allowed set: {0, 1, 2, 3, 4, 5}</td><td>Additionally, for each mpm_idx value, include at least one bitstream where intra_luma_pred_mode is an MPM-selected mode</td></tr>
+    <tr><td>non_mpm_mode</td><td>IntraCuFlag = 1 AND mpm_flag = 0</td><td>Traverse cases where non_mpm_mode selects: (a) the smallest allowed non-MPM mode, (b) the largest allowed non-MPM mode, and (c) one interior value</td><td>Ensure that the chosen non-MPM mode is not equal to any MPM candidate mode used in the same test case</td></tr>
+    <tr><td>ref_idx_l0</td><td>InterPredFlag = 1 AND NumRefIdxL0ActiveMinus1 >= 0</td><td>Enumerate all values in range: {0..NumRefIdxL0ActiveMinus1}</td><td>Include tests with NumRefIdxL0ActiveMinus1 = 0 and with NumRefIdxL0ActiveMinus1 >= 1</td></tr>
+    <tr><td>ref_idx_l1</td><td>InterPredFlag = 1 AND SliceType = B AND NumRefIdxL1ActiveMinus1 >= 0</td><td>Enumerate all values in range: {0..NumRefIdxL1ActiveMinus1}</td><td>Include tests with L1 active count = 1 and >1</td></tr>
+    <tr><td>pred_weight_table_present_flag</td><td>SliceType ∈ {P, B}</td><td>Cover both values: {0, 1}</td><td>When =1, also include at least one test with non-default weight/offset values</td></tr>
+  </tbody>
+</table>

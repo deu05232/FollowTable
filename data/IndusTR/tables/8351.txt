@@ -1,0 +1,15 @@
+<table>
+  <caption>Mobile AR Feature Matrix (Marketing-Style Summary with Footnote Codes)</caption>
+  <thead>
+    <tr><th>Capability</th><th>Why You Want It</th><th>Quality Notes</th><th>Footnote Codes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Face Mesh Rendering</td><td>Enables expressive face effects and occlusion-ready masks for social experiences.</td><td>Best under even lighting; may degrade with fast head motion.</td><td>See: AR_AUGMENTED_FACE_MODE_MESH3D = 2</td></tr>
+    <tr><td>Face Augmentation Off</td><td>Use when you only need camera feed without face processing overhead.</td><td>Lowest compute cost.</td><td>See: AR_AUGMENTED_FACE_MODE_DISABLED = 0</td></tr>
+    <tr><td>Back Camera World AR</td><td>Ideal for room-scale placement and navigation overlays.</td><td>Typically most stable tracking.</td><td>Ref: AR_CAMERA_CONFIG_FACING_DIRECTION_BACK = 0</td></tr>
+    <tr><td>Front Camera Selfie AR</td><td>Best for avatar and selfie lenses with immediate user feedback.</td><td>Different depth cues; may require tuning.</td><td>Ref: AR_CAMERA_CONFIG_FACING_DIRECTION_FRONT = 1</td></tr>
+    <tr><td>Horizontal Plane Detection</td><td>Quickly anchors content to floors and tables for product previews.</td><td>May miss glossy surfaces.</td><td>Ref: AR_PLANE_FINDING_MODE_HORIZONTAL = 1</td></tr>
+    <tr><td>Vertical Plane Detection</td><td>Places content on walls for posters, signage, and interior design.</td><td>Needs texture for robust detection.</td><td>Ref: AR_PLANE_FINDING_MODE_VERTICAL = 2</td></tr>
+    <tr><td>Gesture Recognition</td><td>Adds intuitive interaction patterns like OK and Scissors for demos.</td><td>Can be sensitive to occlusion.</td><td>e.g., ARHAND_GESTURE_TYPE_OK = 0</td></tr>
+  </tbody>
+</table>

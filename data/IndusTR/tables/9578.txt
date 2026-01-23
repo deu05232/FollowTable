@@ -1,0 +1,14 @@
+<table>
+  <caption>EDI Indicator Measurement Handbook Extract (Indicators + Administrative Data Fields)</caption>
+  <thead>
+    <tr><th>Indicator Code</th><th>Indicator Topic</th><th>Outcome/Capability Assessed</th><th>Administrative Dataset (Table/Field)</th><th>Collection Frequency</th><th>Computation Formula</th><th>Enumerator / Audit Guidance</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>B1.1</td><td>Transaction Scale Growth</td><td>Growth momentum of regional e-commerce turnover.</td><td>CommerceAdmin.TxSummary (gross_value, period)</td><td>Quarterly</td><td>(GV_t - GV_{t-1}) / GV_{t-1}</td><td>Cross-check against tax invoice totals; investigate spikes > 30%.</td></tr>
+    <tr><td>B1.2</td><td>Online Retail Scale</td><td>Absolute size of online goods sales.</td><td>CommerceAdmin.RetailOnline (gmv, returns)</td><td>Monthly</td><td>GMV - Returns</td><td>Exclude B2B invoices; reconcile platform-reported GMV with bank settlement.</td></tr>
+    <tr><td>B2.2</td><td>Service Quality</td><td>Customer experience across pre-sale, in-sale, and after-sale stages.</td><td>MarketReg.Complaints (cases, resolved_days)</td><td>Monthly</td><td>100 - (ComplaintRate*α + AvgResolveDays*β)</td><td>Use stratified sampling of complaints; phone-back verification for 10% of cases.</td></tr>
+    <tr><td>A2.2</td><td>Express Delivery Level</td><td>Timeliness, success rate, and damage/complaint performance of parcels.</td><td>PostalAdmin.ExpressKPI (on_time_rate, damage_rate)</td><td>Weekly</td><td>0.6*OnTime + 0.3*Success - 0.1*Damage</td><td>Field survey at stations during peak days; ensure consistent KPI definitions.</td></tr>
+    <tr><td>D2.1</td><td>Rural E-commerce Coverage</td><td>Penetration and income-supporting role of e-commerce in rural areas.</td><td>RuralAffairs.VillageEcom (active_shops, orders)</td><td>Semi-annual</td><td>ActiveShopsPer1k + OrdersPerCapita</td><td>Verify village shop list via on-site visits; remove inactive shops older than 90 days.</td></tr>
+    <tr><td>C1.1</td><td>Professional Talent Teams</td><td>Depth of specialized R&D/innovation talent supporting e-commerce.</td><td>HR.TalentRegistry (degree_level, title, awards)</td><td>Annual</td><td>WeightedScore(degree,title,awards)</td><td>Audit certificates; resolve duplicates across departments.</td></tr>
+  </tbody>
+</table>

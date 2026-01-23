@@ -1,0 +1,15 @@
+<table>
+  <caption>Calibration and Fit Error Summary for Traffic Flow Models Against Field Data</caption>
+  <thead>
+    <tr><th rowspan="2">Model</th><th colspan="2">Data coverage</th><th colspan="3">Speed fit error</th><th colspan="2">Flow fit error</th><th rowspan="2">Best-fit jam density (veh/km/lane)</th></tr>
+    <tr><th>Sites (count)</th><th>Time windows (count)</th><th>MAE (km/h)</th><th>RMSE (km/h)</th><th>MAPE (%)</th><th>RMSE (veh/h/lane)</th><th>R² (flow)</th><th></th></tr>
+  </thead>
+  <tbody>
+    <tr><td>IDM</td><td>6</td><td>24</td><td>6.8</td><td>9.5</td><td>12.4</td><td>210</td><td>0.92</td><td>155</td></tr>
+    <tr><td>OVM</td><td>6</td><td>24</td><td>7.4</td><td>10.1</td><td>13.1</td><td>235</td><td>0.90</td><td>150</td></tr>
+    <tr><td>GFM</td><td>6</td><td>24</td><td>6.1</td><td>8.9</td><td>11.2</td><td>195</td><td>0.93</td><td>158</td></tr>
+    <tr><td>Cell Transmission Model (CTM)</td><td>6</td><td>24</td><td>8.3</td><td>11.6</td><td>14.8</td><td>260</td><td>0.88</td><td>145</td></tr>
+    <tr><td>ARZ (second-order)</td><td>6</td><td>24</td><td>6.5</td><td>9.2</td><td>11.9</td><td>205</td><td>0.92</td><td>152</td></tr>
+    <tr><td>NaSch (stochastic CA)</td><td>6</td><td>24</td><td>9.1</td><td>12.7</td><td>16.5</td><td>285</td><td>0.85</td><td>160</td></tr>
+  </tbody>
+</table>

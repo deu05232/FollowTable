@@ -1,0 +1,20 @@
+<table>
+  <caption>Reconciliation Order Information Parameters</caption>
+  <tr><td>Name</td><td>Definition</td><td>Type</td><td>Description</td><td>Required</td></tr>
+  <tr><td>Order No.</td><td>orderNo</td><td>string</td><td>Order number length 27 characters</td><td>Yes</td></tr>
+  <tr><td>Platform Operator ID</td><td>operatorID</td><td>string</td><td>Platform code length 9 characters</td><td>Yes</td></tr>
+  <tr><td>Platform Name</td><td>operatorName</td><td>string</td><td>Platform name</td><td>Yes</td></tr>
+  <tr><td>Operator ID</td><td>equipmentOwnerID</td><td>string</td><td>Operator code length 9 characters</td><td>Yes</td></tr>
+  <tr><td>Operator Name</td><td>shortName</td><td>string</td><td>Operator name</td><td>Yes</td></tr>
+  <tr><td>Settlement Party Name</td><td>sellerName</td><td>string</td><td>Settlement party name</td><td>Yes</td></tr>
+  <tr><td>Station ID</td><td>stationID</td><td>string</td><td>Station ID</td><td>Yes</td></tr>
+  <tr><td>Station Name</td><td>stationName</td><td>string</td><td>Station name</td><td>Yes</td></tr>
+  <tr><td>Equipment ID</td><td>equipmentID</td><td>string</td><td>Equipment ID</td><td>Yes</td></tr>
+  <tr><td>Connector ID</td><td>connectorID</td><td>string</td><td>Connector ID</td><td>Yes</td></tr>
+  <tr><td>Order Settlement Type</td><td>OrderBillType</td><td>integer</td><td>1: Collection and payment on behalf; 2: Resale</td><td>Yes</td></tr>
+  <tr><td>Charging Start Time</td><td>startTime</td><td>DateTimeZ</td><td>Charging start time</td><td>Yes</td></tr>
+  <tr><td>Charging End Time</td><td>endTime</td><td>DateTimeZ</td><td>Charging end time</td><td>Yes</td></tr>
+  <tr><td>User Payment Time</td><td>payTime</td><td>DateTimeZ</td><td>User payment time</td><td>Yes</td></tr>
+  <tr><td>Electricity</td><td>elect</td><td>float</td><td>Electricity</td><td>Yes</td></tr>
+  <tr><td>Order Amount</td><td>money</td><td>float</td><td>Order amount</td><td>Yes</td></tr>
+</table>

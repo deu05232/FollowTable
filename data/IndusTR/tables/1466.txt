@@ -1,0 +1,12 @@
+<table>
+  <caption>SOF Component Interface Definition for Changing the Certificate Password</caption>
+  <tr><td>Prototype</td><td>function ChangeUserPassword(CertID,OldPassWd,NewPassWd,cb,ctx)</td></tr>
+  <tr><td>Description</td><td>Change the certificate password</td></tr>
+  <tr><td rowspan="5">Parameters</td><td>CertID (unique certificate identifier)</td></tr>
+  <tr><td>OldPassWd (old certificate password)</td></tr>
+  <tr><td>NewPassWd (new certificate password)</td></tr>
+  <tr><td>cb (callback function)</td></tr>
+  <tr><td>ctx (parameters required by the callback function)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td>true (password changed successfully)</td></tr>
+  <tr><td>false (failure; use SOF_GetLastError to obtain an error code as defined in Table A.1)</td></tr>
+</table>

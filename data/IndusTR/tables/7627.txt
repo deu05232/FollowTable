@@ -1,0 +1,17 @@
+<table>
+  <caption>ArHitResult Object Lifecycle and Extraction API (with Double-Pointer Outputs)</caption>
+  <thead>
+    <tr><th>Function</th><th>Parameter</th><th>Exact C/C++ Type</th><th>In/Out</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>ArHitResult_create</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResult_create</td><td>out_hit_result</td><td>ArHitResult **</td><td>out</td><td>Receives the address of a newly created hit result object.</td></tr>
+    <tr><td>ArHitResult_acquireTrackable</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResult_acquireTrackable</td><td>hit_result</td><td>const ArHitResult *</td><td>in</td><td>Hit result to query.</td></tr>
+    <tr><td>ArHitResult_acquireTrackable</td><td>out_trackable</td><td>ArTrackable **</td><td>out</td><td>Receives an acquired trackable associated with this hit (caller must later release).</td></tr>
+    <tr><td>ArHitResult_getHitPose</td><td>session</td><td>ArSession *</td><td>in</td><td>Active AR session.</td></tr>
+    <tr><td>ArHitResult_getHitPose</td><td>hit_result</td><td>const ArHitResult *</td><td>in</td><td>Hit result to query.</td></tr>
+    <tr><td>ArHitResult_getHitPose</td><td>out_pose</td><td>ArPose *</td><td>out</td><td>Writes the hit pose into a caller-allocated ArPose.</td></tr>
+    <tr><td>ArHitResult_destroy</td><td>hit_result</td><td>ArHitResult *</td><td>in</td><td>Hit result object to destroy.</td></tr>
+  </tbody>
+</table>

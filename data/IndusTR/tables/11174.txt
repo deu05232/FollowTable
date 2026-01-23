@@ -1,0 +1,5 @@
+<table>
+  <caption>Data-link frame header layout used during version negotiation</caption>
+  <tr><td>Segment</td><td>Priority bits</td><td>Extended flag</td><td>Data page</td><td>PF (function code)</td><td>PS (destination)</td><td>SA (source)</td><td>Byte 1</td><td>Byte 2</td><td>Byte 3</td><td>Byte 4</td><td>Byte 5</td><td>Byte 6</td><td>Byte 7</td><td>Byte 8</td></tr>
+  <tr><td>Definition</td><td>0x03</td><td>0</td><td>0</td><td>0x38</td><td>0xF4</td><td>0x56</td><td colspan="8">Payload bytes carried after the identifier</td></tr>
+</table>

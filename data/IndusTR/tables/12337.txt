@@ -1,0 +1,15 @@
+<table>
+  <caption>AR Session Lifecycle: Create, Configure, and Start Call Parameters</caption>
+  <thead>
+    <tr><th>API Step</th><th>Parameter Name</th><th>Type</th><th>Direction</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>CreateSession</td><td>env</td><td>void *</td><td>in</td><td>Runtime environment pointer.</td></tr>
+    <tr><td>CreateSession</td><td>context</td><td>void *</td><td>in</td><td>Runtime context pointer.</td></tr>
+    <tr><td>CreateSession</td><td>out_session</td><td>ArSession **</td><td>out</td><td>Receives the created session pointer.</td></tr>
+    <tr><td>ConfigureSession</td><td>session</td><td>ArSession *</td><td>in</td><td>Previously created session handle.</td></tr>
+    <tr><td>ConfigureSession</td><td>config</td><td>ArConfig *</td><td>in</td><td>Configuration to apply to the session.</td></tr>
+    <tr><td>ResumeSession</td><td>session</td><td>ArSession *</td><td>in</td><td>Session to resume/start running.</td></tr>
+    <tr><td>PauseSession</td><td>session</td><td>ArSession *</td><td>in</td><td>Session to pause.</td></tr>
+  </tbody>
+</table>

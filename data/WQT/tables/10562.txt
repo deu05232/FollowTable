@@ -1,0 +1,16 @@
+# SharePoint Server 2013 Hardware Requirements and Recommendations by Deployment Scenario (RAM and CPU)
+
+| Deployment scenario | Farm topology / role | Minimum CPU | Minimum RAM | Recommended CPU | Recommended RAM |
+| --- | --- | --- | --- | --- | --- |
+| Developer workstation | Single machine, all roles | 64-bit, 4 cores | 8 GB | 64-bit, 4–8 cores | 16 GB |
+| Single server (built-in database) | All-in-one, limited users | 64-bit, 4 cores | 24 GB | 64-bit, 8 cores | 32 GB |
+| Small two-tier | WFE/Application combined | 64-bit, 4 cores | 12 GB | 64-bit, 8 cores | 16–24 GB |
+| Small two-tier | SQL Server | 64-bit, 4 cores | 16 GB | 64-bit, 8–16 cores | 32–64 GB |
+| Three-tier (medium) | Dedicated WFE | 64-bit, 4 cores | 12 GB | 64-bit, 8 cores | 16 GB |
+| Three-tier (medium) | Dedicated Application server | 64-bit, 4 cores | 12 GB | 64-bit, 8 cores | 16–24 GB |
+| Three-tier (medium) | Dedicated Search server | 64-bit, 8 cores | 16 GB | 64-bit, 8–16 cores | 32–64 GB |
+| Three-tier (medium) | Dedicated SQL Server | 64-bit, 8 cores | 32 GB | 64-bit, 16 cores | 64–128 GB |
+| Internet-facing publishing | WFE optimized for concurrency | 64-bit, 8 cores | 16 GB | 64-bit, 16 cores | 32 GB |
+| Service-heavy farm | App server hosting many service apps | 64-bit, 8 cores | 16 GB | 64-bit, 16 cores | 32–64 GB |
+| Large farm (scale-out) | Multiple WFEs and app servers | 64-bit, 8 cores (per node) | 16 GB (per node) | 64-bit, 16 cores (per node) | 32 GB (per node) |
+| Large farm (scale-out) | SQL Server for large content | 64-bit, 16 cores | 64 GB | 64-bit, 32 cores | 128–256 GB |

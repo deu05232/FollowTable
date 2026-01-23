@@ -1,0 +1,7 @@
+<table>
+  <caption>Frame camera intrinsics interface parameters (parameter-by-parameter list)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_camera_intrinsics</td><td>ArCameraIntrinsics *</td><td>Pointer to the camera intrinsics data for the current frame</td></tr>
+</table>

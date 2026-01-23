@@ -1,0 +1,5 @@
+<table>
+  <caption>Emergency Management BeiDou System Emergency Key Destruction Message Data Format</caption>
+  <tr><td>Serial No.</td><td>Data Item</td><td>Number of Bits</td><td>Data Type</td><td>Description</td></tr>
+  <tr><td>1</td><td>Management Information</td><td>N×8</td><td>Integer</td><td>Management information of the emergency management BeiDou application terminal to be destroyed, extracted by the sender from the subordinate users' management information with an affiliation relationship; N is the byte length of the management information</td></tr>
+</table>

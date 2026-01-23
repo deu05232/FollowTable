@@ -1,0 +1,6 @@
+<table>
+  <caption>The scaling properties of the proposed algorithm when k m ⁢ a ⁢ x = O ⁢ ( N 1 / τ ) .</caption>
+  <tr><th></th><th>Cache Size (TTL)</th><th>Query Cost</th></tr>
+  <tr><th>τ=2</th><td>O( N )</td><td>O( ^(2)(N)N^(1/2) )</td></tr>
+  <tr><th>2<τ<3</th><td>O( N^(1-2/τ) )</td><td>O( N^(2-3/τ) )</td></tr>
+</table>

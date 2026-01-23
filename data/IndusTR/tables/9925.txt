@@ -1,0 +1,15 @@
+<table>
+  <caption>Mobile AR Camera Configuration Categories (Category List with One Example Constant)</caption>
+  <thead>
+    <tr><th>Setting category</th><th>What it controls</th><th>Example constant</th><th>Typical use</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Facing direction</td><td>Selects front/back camera</td><td>AR_CAMERA_CONFIG_FACING_DIRECTION_BACK = 0</td><td>World-facing experiences</td></tr>
+    <tr><td>Focus mode</td><td>Controls camera autofocus behavior</td><td>AR_CAMERA_CONFIG_FOCUS_MODE_AUTO = 1</td><td>General-purpose AR tracking</td></tr>
+    <tr><td>Target FPS</td><td>Chooses preferred frame rate</td><td>AR_CAMERA_CONFIG_TARGET_FPS_60 = 2</td><td>Fast motion / low latency</td></tr>
+    <tr><td>Image format</td><td>Selects camera buffer format</td><td>AR_CAMERA_CONFIG_IMAGE_FORMAT_YUV = 0</td><td>Computer vision processing</td></tr>
+    <tr><td>Stabilization</td><td>Enables video stabilization pipeline</td><td>AR_CAMERA_CONFIG_STABILIZATION_ON = 1</td><td>Reduce jitter in preview</td></tr>
+    <tr><td>Exposure</td><td>Controls exposure metering strategy</td><td>AR_CAMERA_CONFIG_EXPOSURE_AUTO = 0</td><td>Default camera behavior</td></tr>
+    <tr><td>White balance</td><td>Controls color temperature adjustment</td><td>AR_CAMERA_CONFIG_WB_AUTO = 0</td><td>Default lighting conditions</td></tr>
+  </tbody>
+</table>

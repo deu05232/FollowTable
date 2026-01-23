@@ -1,0 +1,12 @@
+<table>
+  <caption>Swap Station Device & Session Identifiers (Not Vehicle Verification)</caption>
+  <tr><th>Section</th><th>Name</th><th>Definition</th><th>Type</th><th>Description</th><th>Required</th></tr>
+  <tr><td rowspan="3">Station</td><td>Station ID</td><td>stationId</td><td>string</td><td>Platform-unique station identifier</td><td>Yes</td></tr>
+  <tr><td>Battery swap equipment code</td><td>batterySwapEquipmentId</td><td>string</td><td>Unique equipment identifier under the platform</td><td>Yes</td></tr>
+  <tr><td>Equipment firmware version</td><td>firmwareVersion</td><td>string</td><td>Reported device version for compatibility checks</td><td>No</td></tr>
+  <tr><td rowspan="3">Session/Control</td><td>Swap session ID</td><td>swapSessionId</td><td>string</td><td>Unique session identifier for a swap execution</td><td>Yes</td></tr>
+  <tr><td>Cabinet door command sequence</td><td>doorCmdSeq</td><td>string</td><td>Command sequence used for door open/close operations</td><td>No</td></tr>
+  <tr><td>Heartbeat interval</td><td>hbIntervalSec</td><td>integer</td><td>Device heartbeat interval in seconds</td><td>No</td></tr>
+  <tr><td rowspan="2">Queue/Dispatch</td><td>Queue ticket number</td><td>queueTicketNo</td><td>string</td><td>Ticket issued by station for swap dispatching</td><td>No</td></tr>
+  <tr><td>Reserved queue position</td><td>positionNo</td><td>integer</td><td>Position used to schedule swap actions</td><td>No</td></tr>
+</table>

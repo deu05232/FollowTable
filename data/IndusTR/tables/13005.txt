@@ -1,0 +1,15 @@
+<table>
+  <caption>Sterilizer and Sterilization Equipment Metadata Codes</caption>
+  <thead>
+    <tr><th>Type Code</th><th>Sterilization Equipment Type</th><th>Sterilization Method</th><th>Suitable Load</th><th>Cycle Characteristic</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>SA</td><td>Steam autoclave (gravity displacement)</td><td>Saturated steam</td><td>Wrapped instruments, textiles</td><td>Air removed by gravity purge</td></tr>
+    <tr><td>SV</td><td>Steam autoclave (pre-vacuum)</td><td>Saturated steam</td><td>Porous loads, lumened instruments</td><td>Vacuum pulses for air removal</td></tr>
+    <tr><td>EO</td><td>Ethylene oxide sterilizer</td><td>Ethylene oxide gas</td><td>Heat/moisture sensitive devices</td><td>Requires aeration phase</td></tr>
+    <tr><td>HP</td><td>Hydrogen peroxide plasma sterilizer</td><td>H2O2 vapor + plasma</td><td>Heat sensitive instruments</td><td>Low temperature, fast turnaround</td></tr>
+    <tr><td>VH</td><td>Vaporized hydrogen peroxide sterilizer</td><td>VHP (H2O2 vapor)</td><td>Room/equipment decontamination</td><td>Often used for isolators/rooms</td></tr>
+    <tr><td>DA</td><td>Dry heat sterilizer</td><td>Hot air</td><td>Glassware, metal items</td><td>Higher temperature, longer cycles</td></tr>
+    <tr><td>RA</td><td>Radiation sterilization unit</td><td>Gamma/e-beam</td><td>Single-use packaged products</td><td>Industrial sterilization approach</td></tr>
+  </tbody>
+</table>

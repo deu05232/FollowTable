@@ -1,0 +1,14 @@
+<table>
+  <caption>Environmental Protection Ratings and Mounting Zones for Data Recording System Components</caption>
+  <thead>
+    <tr><th>Component</th><th>Recommended Installation Location</th><th>Required IP Rating</th><th>Water Exposure Scenario</th><th>Dust Exposure Scenario</th><th>Operating Temperature (°C)</th><th>Vibration Severity</th><th>Connector Sealing Requirement</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Main Data Recorder ECU</td><td>Vehicle interior (under dashboard)</td><td>IP5K1</td><td>Vertical drip</td><td>Cabin dust</td><td>-20 to 70</td><td>Medium</td><td>Gasketed housing</td><td>Avoid direct HVAC condensation</td></tr>
+    <tr><td>Backup Storage Module</td><td>Luggage compartment</td><td>IP5K1</td><td>Vertical drip</td><td>Light dust</td><td>-20 to 70</td><td>Low</td><td>Sealed cover</td><td>Secure against cargo impact</td></tr>
+    <tr><td>Power Conditioning Unit</td><td>Engine compartment</td><td>IP5K6</td><td>High-pressure spray</td><td>Heavy dust</td><td>-40 to 105</td><td>High</td><td>IP-rated boots</td><td>Route away from exhaust heat</td></tr>
+    <tr><td>Ethernet Switch</td><td>Center console</td><td>IP5K1</td><td>Vertical drip</td><td>Cabin dust</td><td>-20 to 70</td><td>Medium</td><td>Latch + gasket</td><td>Serviceable access required</td></tr>
+    <tr><td>Sensor Interface Hub</td><td>Front trunk / under hood</td><td>IP5K4</td><td>Splash water</td><td>Moderate dust</td><td>-30 to 85</td><td>High</td><td>Sealed connectors</td><td>Keep away from direct wheel spray</td></tr>
+    <tr><td>External Service Port</td><td>Rear bumper service hatch</td><td>IP5K5</td><td>Jet water</td><td>Heavy dust</td><td>-30 to 85</td><td>Medium</td><td>Cap with O-ring</td><td>Requires tamper evidence</td></tr>
+  </tbody>
+</table>

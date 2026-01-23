@@ -1,0 +1,7 @@
+<table>
+  <caption>AR camera frame interface parameters (input handles and output receivers)</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session handle provided by the caller</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame handle used as the input context for the query</td></tr>
+  <tr><td>out_timestamp_ns</td><td>int64_t *</td><td>Output destination that receives the frame timestamp in nanoseconds</td></tr>
+</table>

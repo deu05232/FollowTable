@@ -1,0 +1,16 @@
+<table>
+  <caption>SM9 Cryptographic Service Signature Verification Function Definition</caption>
+  <tr><td>Prototype</td><td>int SAF_SM9Verify( void unsigned int uiMasterPublicKeyIndex, unsigned char* pucUserID,</td><td>*hAppHandle,</td></tr>
+  <tr><td>Rules</td><td>unsigned int unsigned char* pucData, unsigned intt unsigned char* pucSignData, unsigned int Use the SM9 user identity and the signature master public key to perform signature verification on data. The SM9 computation process shall comply with GB/T 41389.</td><td>uiUserIDLen, uiDataLength, uiSignDataLen）;</td></tr>
+  <tr><td></td><td colspan="2"></td></tr>
+  <tr><td rowspan="8">Parameters</td><td colspan="2">hAppHandle[in](application interface handle)</td></tr>
+  <tr><td colspan="2">uiMasterPublicKeyIndex［in](index value of the signature master public key)</td></tr>
+  <tr><td colspan="2">pucUserID[in](DER-encoded user identity data)</td></tr>
+  <tr><td colspan="2">uiUserIDLen[in](length of the DER-encoded user identity data)</td></tr>
+  <tr><td colspan="2">pucData[in](SM3 hash value of the signed data)</td></tr>
+  <tr><td colspan="2">uiDataLength[in](length of the SM3 hash value of the signed data; value is 32)</td></tr>
+  <tr><td colspan="2">pucSignData[in](DER-encoded signature value data)</td></tr>
+  <tr><td colspan="2">uiSignDataLen[in](length of the DER-encoded signature value data)</td></tr>
+  <tr><td rowspan="2">Return Value</td><td colspan="2">0 (success, signature verification passed)</td></tr>
+  <tr><td colspan="2">non-zero (failure; returns the error code defined in Table C.1 and shall comply with Appendix C)</td></tr>
+</table>

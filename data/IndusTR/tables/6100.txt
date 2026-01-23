@@ -1,0 +1,15 @@
+<table>
+  <caption>Basic Math Operator Parameters (Includes Operand Tensors)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Optional/Required</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Input Tensor A</td><td>Input</td><td>Required</td><td>First operand tensor for the operator.</td></tr>
+    <tr><td>Input Tensor B</td><td>Input</td><td>Required</td><td>Second operand tensor; must be broadcastable to Input Tensor A.</td></tr>
+    <tr><td>Output Tensor</td><td>Output</td><td>Required</td><td>Result tensor with the same data type as the promoted input type.</td></tr>
+    <tr><td>Data Type</td><td>Input</td><td>Optional</td><td>Allowed: int8/int16/int32/int64, uint8/uint16, fp16/fp32/fp64, complex64; default fp32.</td></tr>
+    <tr><td>Device Type</td><td>Input</td><td>Optional</td><td>Allowed: CPU/GPU/NPU/FPGA/ASIC; default CPU.</td></tr>
+    <tr><td>Tensor Shape</td><td>Input</td><td>Optional</td><td>Explicit shape metadata (dims and layout) describing the expected output shape.</td></tr>
+    <tr><td>Layout</td><td>Input</td><td>Optional</td><td>Examples: NCHW, NHWC, ND; if omitted, framework default is used.</td></tr>
+  </tbody>
+</table>

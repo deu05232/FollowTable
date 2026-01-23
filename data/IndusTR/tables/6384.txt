@@ -1,0 +1,7 @@
+<table>
+  <caption>Knitting Equipment Data Dictionary — Control Status (data type not specified)</caption>
+  <tr><th>Index</th><th>Attribute Name</th><th>Attribute English Name</th><th>Modeling Rule</th><th>Attribute Type</th><th>Access Permission</th><th>Data Type</th><th>Data Range</th><th>Engineering Unit</th><th>Attribute Description</th><th>Semantic Value</th></tr>
+  <tr><td>0X0810</td><td>Emergency Stop State</td><td>EmergencyStopState</td><td>M</td><td>VAR</td><td>RO</td><td>-</td><td></td><td></td><td>Emergency stop status of the machine</td><td>0: Released 1: Pressed</td></tr>
+  <tr><td>0X0811</td><td>Door Interlock State</td><td>DoorInterlockState</td><td>M</td><td>VAR</td><td>RO</td><td>-</td><td></td><td></td><td>Whether the safety door interlock is active</td><td>0: Inactive 1: Active</td></tr>
+  <tr><td>0X0812</td><td>Remote/Local Mode</td><td>RemoteLocalMode</td><td>M</td><td>VAR</td><td>RO</td><td></td><td></td><td></td><td>Current control mode</td><td>0: Remote 1: Local 2: Both</td></tr>
+</table>

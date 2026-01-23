@@ -1,0 +1,17 @@
+<table>
+  <caption>Laboratory Setup Parameters for Copier/MFD Energy Tests (Environmental and Supply Requirements)</caption>
+  <thead>
+    <tr><th rowspan="2">Category</th><th rowspan="2">Parameter</th><th colspan="2">Requirement</th><th rowspan="2">Stability/Duration</th><th rowspan="2">Notes</th></tr>
+    <tr><th>Minimum</th><th>Maximum</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Power Supply</td><td>Voltage Regulation</td><td>-2%</td><td>+2%</td><td>During entire test</td><td>Measured at device input</td></tr>
+    <tr><td>Frequency Regulation</td><td>-0.2 Hz</td><td>+0.2 Hz</td><td>During entire test</td><td>Applies to 50 Hz systems</td></tr>
+    <tr><td>Total Harmonic Distortion (Voltage)</td><td>0%</td><td>3%</td><td>During entire test</td><td>Exclude transient events</td></tr>
+    <tr><td rowspan="3">Environment</td><td>Ambient Temperature</td><td>20 °C</td><td>24 °C</td><td>Stabilize 1 h</td><td>Keep away from direct sunlight</td></tr>
+    <tr><td>Relative Humidity</td><td>30%</td><td>70%</td><td>Stabilize 1 h</td><td>Record at start/end only</td></tr>
+    <tr><td>Airflow at DUT</td><td>0.0 m/s</td><td>0.5 m/s</td><td>During entire test</td><td>No direct fan on DUT</td></tr>
+    <tr><td rowspan="2">Instrumentation</td><td>Power Meter Sampling Rate</td><td>1 sample/s</td><td>10 sample/s</td><td>Configured before test</td><td>Higher rate for bursty loads</td></tr>
+    <tr><td>Meter Time Base Accuracy</td><td>±0.01%</td><td>±0.05%</td><td>Verified annually</td><td>Traceable calibration</td></tr>
+  </tbody>
+</table>

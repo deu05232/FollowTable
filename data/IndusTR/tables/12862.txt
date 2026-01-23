@@ -1,0 +1,12 @@
+<table>
+  <caption>Vulnerability Reporting Items as Codes and Enumerations</caption>
+  <tr><th>Field Code</th><th>Field Label</th><th>Allowed Values / Example</th></tr>
+  <tr><td>VULN_TYPE</td><td>Vulnerability Type</td><td>BOF, SQLI, XSS, RCE, SSRF</td></tr>
+  <tr><td>SEV_LVL</td><td>Severity Level</td><td>CRIT, HIGH, MED, LOW</td></tr>
+  <tr><td>CVSSV3</td><td>CVSS v3 Base Score</td><td>0.0–10.0</td></tr>
+  <tr><td>EXP_AVAIL</td><td>Exploit Availability</td><td>0=null, 1=PoC, 2=Active</td></tr>
+  <tr><td>AFFECTED_OS</td><td>Affected Operating System</td><td>WIN, LINUX, MAC, IOS, AND</td></tr>
+  <tr><td>PATCH_STAT</td><td>Patch Status</td><td>0=Unknown, 1=Available, 2=Applied</td></tr>
+  <tr><td>DISC_TS</td><td>Discovery Timestamp</td><td>Unix epoch</td></tr>
+  <tr><td>REF_ID</td><td>Reference Identifier</td><td>CVE-YYYY-NNNN</td></tr>
+</table>

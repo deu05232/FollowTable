@@ -1,0 +1,13 @@
+# Windows Server Edition Feature Differences Relevant to SharePoint Hosting
+
+| Feature area | Datacenter | Standard | Essentials | Foundation |
+| --- | --- | --- | --- | --- |
+| Licensing model | Per core | Per core | Per server | Per server |
+| User limit | Unlimited | Unlimited | 25 (typical) | 15 |
+| Hyper-V virtualization rights | Unlimited VMs | Limited VMs | Limited | null |
+| Server Core option | Yes | Yes | No | No |
+| Remote Access (RRAS) limits | Full | Full | Reduced | Reduced (example limits) |
+| File/Print roles | Yes | Yes | Yes | Yes |
+| AD DS support | Full | Full | Limited scenarios | Limited |
+| GUI management tools | Yes | Yes | Yes | Yes |
+| Intended use | Large scale / virtualization | General purpose | Small business | Entry level |

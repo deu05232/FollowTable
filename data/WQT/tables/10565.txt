@@ -1,0 +1,16 @@
+# SharePoint Server 2016 Farm Hardware Sizing by Role (CPU and RAM)
+
+| Farm role / scenario | Example workload profile | Recommended CPU (processor) | Recommended RAM | Notes |
+| --- | --- | --- | --- | --- |
+| Single-server farm (Dev/Test) | Low usage, evaluation | 64-bit, 4 cores | 16 GB | Intended for non-production only |
+| Single-server farm (Small prod) | Small team collaboration | 64-bit, 8 cores | 32 GB | Assumes moderate search/metadata usage |
+| Front-end web server (WFE) | Page rendering, auth, request routing | 64-bit, 4–8 cores | 12–16 GB | Scale out WFEs before scaling up for concurrency |
+| Application server (general) | Service apps (non-search-heavy) | 64-bit, 8 cores | 16–24 GB | Add RAM when hosting multiple service applications |
+| Search server (crawl/query) | Dedicated search topology | 64-bit, 8–16 cores | 24–64 GB | Higher RAM recommended for larger index/query loads |
+| Distributed Cache host | Social/newsfeed, auth tokens | 64-bit, 4–8 cores | 16–32 GB | Avoid co-locating with heavy search/query roles |
+| SQL Server (small/medium content DB) | Content databases, tempdb | 64-bit, 8–16 cores | 32–64 GB | More RAM generally improves read performance and caching |
+| SQL Server (large content DB) | High IOPS, many sites/collections | 64-bit, 16–32 cores | 64–128 GB | CPU/RAM should be sized with DB size and concurrency |
+| Office Online Server (with SharePoint) | Document rendering/viewing | 64-bit, 8 cores | 16–32 GB | Treated as separate role when integrated |
+| Workflow Manager (if used) | Workflow processing | 64-bit, 4–8 cores | 8–16 GB | Keep lightweight unless workflows are heavy |
+| High-availability WFE pair | Redundancy + load balancing | (each) 64-bit, 8 cores | (each) 16 GB | Size per node; capacity depends on active-active design |
+| High-availability SQL pair | AlwaysOn/clustered SQL | (each) 64-bit, 16–32 cores | (each) 64–128 GB | Size both nodes to handle failover load |

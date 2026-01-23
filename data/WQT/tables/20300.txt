@@ -1,0 +1,11 @@
+# RFC1918 Private IPv4 Ranges with Subnetting Notes
+
+| RFC1918 Block | CIDR | Example Subnet Mask | Address Range | Common Deployment |
+| --- | --- | --- | --- | --- |
+| 24-bit block | 10.0.0.0/8 | 255.0.0.0 | 10.0.0.0 – 10.255.255.255 | Large private networks |
+| (Example) | 10.0.0.0/16 | 255.255.0.0 | 10.0.0.0 – 10.0.255.255 | Site-level allocation |
+| (Example) | 10.10.0.0/24 | 255.255.255.0 | 10.10.0.0 – 10.10.0.255 | VLAN / small segment |
+| 20-bit block | 172.16.0.0/12 | 255.240.0.0 | 172.16.0.0 – 172.31.255.255 | Medium private networks |
+| (Example) | 172.16.0.0/16 | 255.255.0.0 | 172.16.0.0 – 172.16.255.255 | Campus/site network |
+| 16-bit block | 192.168.0.0/16 | 255.255.0.0 | 192.168.0.0 – 192.168.255.255 | Home/SMB networks |
+| (Example) | 192.168.1.0/24 | 255.255.255.0 | 192.168.1.0 – 192.168.1.255 | Typical home LAN |

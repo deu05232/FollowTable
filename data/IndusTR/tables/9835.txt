@@ -1,0 +1,10 @@
+<table>
+  <caption>Tire Final Inspection: Defect Types, Severity Grades, and Disposition Rules</caption>
+  <tr><th>No.</th><th>Inspection Item</th><th>Data Source</th><th>Detected Feature</th><th>Severity Grade</th><th>Disposition Output</th><th>Method</th></tr>
+  <tr><td>1</td><td>X-ray Foreign Object</td><td>X-ray image</td><td>Foreign object area</td><td>A/B/C</td><td>Pass / Rework / Scrap</td><td>Vision model + rule thresholding</td></tr>
+  <tr><td>2</td><td>Separation Line</td><td>X-ray image</td><td>Separation length</td><td>A/B/C</td><td>Pass / Rework / Scrap</td><td>Deep learning classification</td></tr>
+  <tr><td>3</td><td>Uniformity</td><td>Uniformity machine sensors</td><td>Radial force variation</td><td>A/B/C</td><td>Class code output</td><td>Parameter calculation + grading table</td></tr>
+  <tr><td>4</td><td>Dynamic Balance</td><td>Balance sensors</td><td>Imbalance magnitude</td><td>A/B/C</td><td>Weight placement instruction</td><td>Signal processing + decision rules</td></tr>
+  <tr><td>5</td><td>Sidewall Bulge</td><td>3D camera</td><td>Bulge height/area</td><td>A/B/C</td><td>Reject flag</td><td>3D reconstruction + thresholds</td></tr>
+  <tr><td>6</td><td>Appearance Check</td><td>Camera images</td><td>Surface defect category</td><td>A/B/C</td><td>Visual grade label</td><td>Computer vision classification</td></tr>
+</table>

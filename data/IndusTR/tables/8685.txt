@@ -1,0 +1,10 @@
+<table>
+  <caption>Vehicle Abort (PID 0x04) Parameter Definitions</caption>
+  <tr><th>Sequence No.</th><th>Parameter Content</th><th>Length</th><th>Data Type</th><th>Parameter Type</th><th>Description and Requirements</th></tr>
+  <tr><td>1</td><td>Parameter Group Identifier</td><td>1 byte</td><td>BYTE</td><td>PIDType</td><td>Fixed value: 0x04</td></tr>
+  <tr><td>2</td><td>Vehicle Abort Type</td><td>1 byte</td><td>BYTE</td><td>EndCodeType</td><td>Vehicle abort type code used to indicate who initiated the termination</td></tr>
+  <tr><td>3</td><td>Vehicle Abort Reason</td><td>2 bytes</td><td>BYTE[2]</td><td>EndReasonType</td><td>Vehicle abort reason code describing the termination cause</td></tr>
+  <tr><td>4</td><td>Diagnostic Flags</td><td>1 byte</td><td>BYTE</td><td>DiagFlagType</td><td>Bit flags indicating whether additional diagnostics are available</td></tr>
+  <tr><td>5</td><td>Reserved</td><td>1 byte</td><td>BYTE</td><td>ReservedType</td><td>Set to 0xFF unless otherwise specified</td></tr>
+  <tr><td>6</td><td>Checksum</td><td>1 byte</td><td>BYTE</td><td>ChecksumType</td><td>Simple payload checksum for this message</td></tr>
+</table>

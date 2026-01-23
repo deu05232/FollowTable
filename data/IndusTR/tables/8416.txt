@@ -1,0 +1,26 @@
+<table>
+  <caption>Extrusion Line Recipe Setpoints (MES-to-Equipment Configuration)</caption>
+  <thead>
+    <tr><th>No.</th><th>Structure / Parameter</th><th>Data Type</th><th>Length (bit)</th><th>Units</th><th>Range / Enum</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="4">Recipe Header</td><td>INT</td><td>16</td><td>-</td><td>1..65535</td><td>Recipe identifier downloaded from MES</td></tr>
+    <tr><td>STR</td><td>User-defined</td><td>-</td><td>-</td><td>Recipe name (human-readable)</td></tr>
+    <tr><td>STR</td><td>User-defined</td><td>-</td><td>-</td><td>Product / green tire code linked to this recipe</td></tr>
+    <tr><td>STR</td><td>User-defined</td><td>-</td><td>-</td><td>Recipe revision (e.g., V1.02) used for traceability</td></tr>
+    <tr><td>2</td><td rowspan="5">Line Speed Setpoints</td><td>FLOAT</td><td>32</td><td>m/min</td><td>3.0–30.0</td><td>Main line speed setpoint</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>%</td><td>50–120</td><td>Speed ramp ratio for start-up</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>s</td><td>0–120</td><td>Ramp time to reach target speed</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>m/min</td><td>0.5–5.0</td><td>Jog speed setpoint for threading/maintenance</td></tr>
+    <tr><td>INT</td><td>16</td><td>-</td><td>0/1</td><td>Enable speed override (0=disabled, 1=enabled)</td></tr>
+    <tr><td>3</td><td rowspan="6">Extruder / Process Setpoints</td><td>FLOAT</td><td>32</td><td>°C</td><td>40–160</td><td>Extruder zone 1 temperature setpoint</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>°C</td><td>40–160</td><td>Extruder zone 2 temperature setpoint</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>°C</td><td>40–160</td><td>Extruder head temperature setpoint</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>rpm</td><td>5–120</td><td>Screw speed setpoint</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>bar</td><td>0–250</td><td>Melt pressure limit (configuration limit used by control)</td></tr>
+    <tr><td>FLOAT</td><td>32</td><td>mm</td><td>0.1–10.0</td><td>Tread thickness target setpoint</td></tr>
+    <tr><td>4</td><td rowspan="3">Material / Code Setpoints</td><td>STR</td><td>User-defined</td><td>-</td><td>-</td><td>Compound code set value (material selection)</td></tr>
+    <tr><td>STR</td><td>User-defined</td><td>-</td><td>-</td><td>Batch/lot number target (optional configuration)</td></tr>
+    <tr><td>INT</td><td>16</td><td>-</td><td>0/1</td><td>Require material code verification before run (0=no, 1=yes)</td></tr>
+  </tbody>
+</table>

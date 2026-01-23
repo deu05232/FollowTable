@@ -1,0 +1,14 @@
+<table>
+  <caption>Smart Card OS Build Pipeline — Compilation Options & Artifact Manifest (Not APDU Interface)</caption>
+  <thead>
+    <tr><th>Build Stage</th><th>Tool</th><th>Key Options</th><th>Output Artifact</th><th>Hash (SHA-256)</th><th>Owner</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Source Checkout</td><td>Git</td><td>--depth=1</td><td>repo snapshot</td><td>c1b0...9a2f</td><td>CI</td></tr>
+    <tr><td>Compile</td><td>clang</td><td>-O2 -fstack-protector</td><td>os.elf</td><td>4e22...1b7c</td><td>Build</td></tr>
+    <tr><td>Link</td><td>ld</td><td>--gc-sections</td><td>os.bin</td><td>0a77...fe10</td><td>Build</td></tr>
+    <tr><td>Sign</td><td>HSM Signer</td><td>RSA-3072, PSS</td><td>os.signed</td><td>9d31...2c6a</td><td>Security</td></tr>
+    <tr><td>Package</td><td>PackTool</td><td>--format=CAP</td><td>applet.cap</td><td>2f8a...d0c3</td><td>Release</td></tr>
+    <tr><td>Deploy</td><td>Loader</td><td>--transport=SPI</td><td>deployment log</td><td>bb10...0f44</td><td>Ops</td></tr>
+  </tbody>
+</table>

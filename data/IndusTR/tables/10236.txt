@@ -1,0 +1,14 @@
+<table>
+  <caption>ARCore C API: ArTrackableList_getItem (Indexing Into Trackable Lists)</caption>
+  <thead>
+    <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+    <tr><td>trackable_list</td><td>ArTrackableList *</td><td>List to index into</td></tr>
+    <tr><td>index</td><td>int32_t</td><td>Zero-based element index</td></tr>
+    <tr><td>out_trackable</td><td>ArTrackable **</td><td>Receives the trackable pointer stored at the given index</td></tr>
+    <tr><td>out_is_valid</td><td>bool *</td><td>Receives whether the index was within bounds</td></tr>
+    <tr><td>out_trackable_type_hint</td><td>ArTrackableType *</td><td>Optional: receives a cached type hint for the returned trackable</td></tr>
+  </tbody>
+</table>

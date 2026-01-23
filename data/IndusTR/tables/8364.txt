@@ -1,0 +1,15 @@
+<table>
+  <caption>Operating Limits and Acceptance Checks for Low-Voltage Shore Power Box (Voltage/Frequency Deviations with Extra Safety Tests)</caption>
+  <thead>
+    <tr><th rowspan="2">Category</th><th rowspan="2">Parameter</th><th colspan="2">Steady-state tolerance</th><th colspan="2">Transient tolerance</th><th rowspan="2">Recovery time</th><th rowspan="2">Additional requirement (non-operational)</th></tr>
+    <tr><th>Upper</th><th>Lower</th><th>Peak deviation</th><th>Max events/10 min</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Operation</td><td>AC voltage</td><td>+6%</td><td>-10%</td><td>±20%</td><td>3</td><td>1.5 s</td><td>Insulation resistance ≥ 1 MΩ @ 500 VDC</td></tr>
+    <tr><td>Frequency</td><td>+5%</td><td>-5%</td><td>±10%</td><td>2</td><td>5 s</td><td>Dielectric withstand: 2×Un for 60 s</td></tr>
+    <tr><td rowspan="2">Operation (generator mode)</td><td>Voltage under step load</td><td>+8%</td><td>-12%</td><td>±25%</td><td>2</td><td>2.0 s</td><td>Protective earthing continuity ≤ 0.1 Ω</td></tr>
+    <tr><td>Frequency under step load</td><td>+6%</td><td>-6%</td><td>±12%</td><td>2</td><td>6 s</td><td>Terminal stud minimum: M8 for 200<I≤630 A</td></tr>
+    <tr><td rowspan="2">Identification</td><td>Phase sequence marking</td><td colspan="5">N/A</td><td>Color code required: L1=Green, L2=Yellow, L3=Red</td></tr>
+    <tr><td>EMC immunity</td><td colspan="5">N/A</td><td>ESD, radiated RF, conducted immunity tests required</td></tr>
+  </tbody>
+</table>

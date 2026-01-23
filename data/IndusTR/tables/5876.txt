@@ -1,0 +1,10 @@
+<table>
+  <caption>Instant Messaging Notification Interface: Request + Response Fields (Mixed)</caption>
+  <tr><th>Chinese Name</th><th>English Name</th><th>Data Type and Format</th><th>Constraints/Conditions</th><th>Maximum Occurrences</th><th>Value Range</th><th>Description</th></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>C..64</td><td>M</td><td>1</td><td>NOTIFY</td><td>Operation type</td></tr>
+  <tr><td>Notification Initiator ID</td><td>initiatorNotificationID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Initiator ID</td></tr>
+  <tr><td>Notification Recipient ID</td><td>recipientNotificationID</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Recipient ID</td></tr>
+  <tr><td>Return Result</td><td>returnResult</td><td>C..64</td><td>M</td><td>1</td><td></td><td>Whether successful</td></tr>
+  <tr><td>Result Description</td><td>resultDescription</td><td>C..2000</td><td>M</td><td>1</td><td></td><td>Result description</td></tr>
+  <tr><td>Error Code</td><td>errorCode</td><td>C..32</td><td>O</td><td>1</td><td></td><td>Error code when failed</td></tr>
+</table>

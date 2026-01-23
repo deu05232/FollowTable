@@ -1,0 +1,6 @@
+# PHP: Prepared Statements - Manual
+
+|   | Client-server round trips, SELECT, single execution | Statement string transferred from client to server | Client-server round trips, SELECT, repeated (n) execution | Statement string transferred from client to server | Input parameter binding API | Output variable binding API | Supports use of mysqli_result API | Buffered result sets | Unbuffered result sets | MySQL Client Server protocol data transfer flavor | Result set values SQL data types | Supports all SQL statements |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Prepared Statement | 2 | 1 | 1 + n | 1 template, n times bound parameter, if any | Yes, automatic input escaping | Yes | Yes, use mysqli_stmt_get_result() | Yes, use mysqli_stmt_get_result() or binding with mysqli_stmt_store_result() | Yes, use output binding API | Binary protocol | Preserved when fetching | Recent MySQL versions support most but not all |
+| Non-prepared statement | 1 | 1 | n | n times together with parameter, if any | No, manual input escaping | No | Yes | Yes, default of mysqli_query() | Yes, use mysqli_real_query() with mysqli_use_result() | Text protocol | Converted to string or preserved when fetching | Yes |

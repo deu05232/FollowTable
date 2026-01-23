@@ -1,0 +1,10 @@
+<table>
+  <caption>ArSession_createCameraConfig Parameters (mentions intrinsics but focuses on config)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_camera_config</td><td>ArCameraConfig **</td><td>Receives the newly created camera config</td></tr>
+  <tr><td>intrinsics_hint</td><td>ArCameraIntrinsics *</td><td>Hint object used to pick a camera stream size</td></tr>
+  <tr><td>target_fps</td><td>int32_t</td><td>Preferred frame rate for the stream</td></tr>
+  <tr><td>depth_usage</td><td>ArDepthMode</td><td>Whether depth should be enabled for this config</td></tr>
+  <tr><td>enable_hdr</td><td>bool</td><td>Whether HDR is requested</td></tr>
+</table>

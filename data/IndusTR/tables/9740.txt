@@ -1,0 +1,15 @@
+<table>
+  <caption>Example Breakdown of a Construction-Machinery OID Into Component Items (Not Allocation Categories)</caption>
+  <thead>
+    <tr><th>Component Item</th><th>Description</th><th>Example Value</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Construction machinery OID root</td><td>Industry OID node registered for construction machinery</td><td>1.2.156.3514</td><td>Root of the example tree</td></tr>
+    <tr><td>Subsystem node</td><td>Code indicating an internal subsystem used by an enterprise</td><td>1003</td><td>Derived from an existing identification scheme</td></tr>
+    <tr><td>Organization identifier</td><td>Unified social credit code used as an org-level identifier</td><td>91310107MA1K4X2P3Q</td><td>Illustrative only</td></tr>
+    <tr><td>Product family code</td><td>Enterprise-internal product family series</td><td>EXC-20T</td><td>Not an allocation category</td></tr>
+    <tr><td>Model number</td><td>Specific model name/number</td><td>ZX200-5G</td><td>Example model string</td></tr>
+    <tr><td>Serial number segment</td><td>Per-unit serial segment appended by the manufacturer</td><td>00004821</td><td>Uniqueness at unit level</td></tr>
+    <tr><td>Full example identifier</td><td>Concatenation in one possible encoding</td><td>1.2.156.3514.1003.91310107MA1K4X2P3Q.EXC-20T.ZX200-5G.00004821</td><td>Shown as a composed identifier</td></tr>
+  </tbody>
+</table>

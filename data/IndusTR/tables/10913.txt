@@ -1,0 +1,17 @@
+<table>
+  <caption>Energy Efficiency Grade Thresholds for Household Range Hoods (Airflow and Power Limits)</caption>
+  <thead>
+    <tr><th rowspan="2">Requirement item</th><th rowspan="2">Rated airflow band (m³/min)</th><th colspan="3">Energy efficiency grade threshold (requirement)</th></tr>
+    <tr><th>Grade 1</th><th>Grade 2</th><th>Grade 3</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Fluid efficiency (FE)</td><td>Q < 12</td><td>≥ 24</td><td>≥ 20</td><td>≥ 16</td></tr>
+    <tr><td>12 ≤ Q < 16</td><td>≥ 26</td><td>≥ 22</td><td>≥ 18</td></tr>
+    <tr><td>Q ≥ 16</td><td>≥ 28</td><td>≥ 24</td><td>≥ 20</td></tr>
+    <tr><td rowspan="3">Maximum input power at rated airflow (W)</td><td>Q < 12</td><td>≤ 160</td><td>≤ 200</td><td>≤ 240</td></tr>
+    <tr><td>12 ≤ Q < 16</td><td>≤ 200</td><td>≤ 240</td><td>≤ 280</td></tr>
+    <tr><td>Q ≥ 16</td><td>≤ 240</td><td>≤ 280</td><td>≤ 320</td></tr>
+    <tr><td rowspan="2">Off-mode / standby power (W)</td><td>Without display or connectivity</td><td colspan="3">≤ 0.5</td></tr>
+    <tr><td>With display or network standby</td><td colspan="3">≤ 2.0</td></tr>
+  </tbody>
+</table>

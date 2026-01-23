@@ -1,0 +1,11 @@
+<table>
+  <caption>Backwash schedule and cleaning procedure parameters for filtration units</caption>
+  <thead>
+    <tr><th>Filter type</th><th>Trigger for initiating cleaning</th><th>Sequence description</th><th>Rinse-to-waste time (min)</th><th>Target turbidity after cleaning (NTU)</th><th>Operator checks</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Rapid sand filter</td><td>Headloss threshold reached</td><td>Drain → backwash → rinse</td><td>5–8</td><td>< 1.0</td><td>Confirm clear sight glass</td></tr>
+    <tr><td>Dual-media filter</td><td>Time-based (daily)</td><td>Air scour → backwash → rinse</td><td>6–10</td><td>< 1.0</td><td>Check media carryover</td></tr>
+    <tr><td>Iron removal filter</td><td>Effluent quality drop</td><td>Backwash → slow rinse</td><td>8–12</td><td>< 0.5</td><td>Record run time and headloss</td></tr>
+  </tbody>
+</table>

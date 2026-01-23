@@ -1,0 +1,8 @@
+<table>
+  <caption>Basic math operator parameters with execution-target details (not interface-focused)</caption>
+  <tr><td>Setting</td><td>Category</td><td>What the setting is about</td><td>Default behavior</td></tr>
+  <tr><td>Execution target</td><td>Runtime</td><td>Selects the hardware backend used to run the operator (e.g., CPU/GPU/NPU)</td><td>Falls back to CPU when unspecified</td></tr>
+  <tr><td>Kernel precision mode</td><td>Runtime</td><td>Controls how the backend chooses fast vs accurate implementations</td><td>Balanced mode</td></tr>
+  <tr><td>Workspace policy</td><td>Runtime</td><td>Determines temporary memory strategy during execution</td><td>Auto</td></tr>
+  <tr><td>Threading policy</td><td>Runtime</td><td>Controls parallel execution configuration on the backend</td><td>Auto</td></tr>
+</table>

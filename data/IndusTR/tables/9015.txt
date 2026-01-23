@@ -1,0 +1,7 @@
+<table>
+  <caption>BeiDou Phase Bias Information – additional field encoding table (typed)</caption>
+  <tr><th>Data Field Name</th><th>Data Field Number</th><th>Data Type</th><th>Number of Bits</th></tr>
+  <tr><td>Number of Phase Biases</td><td>DF479</td><td>uint5</td><td>5</td></tr>
+  <tr><td>Phase Bias</td><td>DF485</td><td>int14</td><td>14</td></tr>
+  <tr><td>Phase Bias Indicator</td><td>DF486</td><td>uint2</td><td>2</td></tr>
+</table>

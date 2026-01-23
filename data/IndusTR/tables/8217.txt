@@ -1,0 +1,10 @@
+<table>
+  <caption>ArHitResultList_acquireItem: Access a hit result from a list (container-focused)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>hit_result_list</td><td>ArHitResultList *</td><td>Hit test list object pointer</td></tr>
+  <tr><td>index</td><td>int32_t</td><td>Index of the desired hit result</td></tr>
+  <tr><td>out_hit_result</td><td>ArHitResult **</td><td>Pointer to receive an acquired hit result from the list</td></tr>
+  <tr><td>out_acquire_status</td><td>ArStatus *</td><td>Pointer to receive acquire status</td></tr>
+  <tr><td>out_ref_count</td><td>int32_t *</td><td>Pointer to receive current reference count after acquire</td></tr>
+</table>

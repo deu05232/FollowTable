@@ -1,0 +1,29 @@
+<table>
+  <caption>CC Sample and Caption Payload Structures (with Styling Fields)</caption>
+  <thead>
+    <tr><th>Syntax structure</th><th>Field</th><th>Descriptor / bits</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">CC_sample_payload()</td><td>cc_sample_start_code</td><td>f(32)</td></tr>
+    <tr><td>cc_type</td><td>u(8)</td></tr>
+    <tr><td>cc_data_length</td><td>u(16)</td></tr>
+    <tr><td>caption_string_count</td><td>u(8)</td></tr>
+    <tr><td>for(i=0; i<caption_string_count; i++) caption_string()</td><td>var</td></tr>
+    <tr><td>crc_16</td><td>u(16)</td></tr>
+    <tr><td rowspan="8">caption_string()</td><td>string_id</td><td>u(8)</td></tr>
+    <tr><td>language_code</td><td>u(24)</td></tr>
+    <tr><td>string_length</td><td>u(16)</td></tr>
+    <tr><td>for(n=0; n<string_length; n++) char_byte</td><td>u(8)</td></tr>
+    <tr><td>emphasis_flag</td><td>u(1)</td></tr>
+    <tr><td>underline_flag</td><td>u(1)</td></tr>
+    <tr><td>foreground_color_index</td><td>u(8)</td></tr>
+    <tr><td>horizontal_position</td><td>u(12)</td></tr>
+    <tr><td rowspan="7">caption_style_descriptor()</td><td>font_id</td><td>u(8)</td></tr>
+    <tr><td>font_size</td><td>u(4)</td></tr>
+    <tr><td>background_color_red</td><td>u(8)</td></tr>
+    <tr><td>background_color_green</td><td>u(8)</td></tr>
+    <tr><td>background_color_blue</td><td>u(8)</td></tr>
+    <tr><td>window_anchor_x</td><td>u(12)</td></tr>
+    <tr><td>window_anchor_y</td><td>u(12)</td></tr>
+  </tbody>
+</table>

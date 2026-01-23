@@ -1,0 +1,16 @@
+<table>
+  <caption>Logistics M2M Application Platform Management — Functional Tests by Operation (Sub-item Level)</caption>
+  <thead>
+    <tr><th>Area</th><th>Platform Feature / Operation (Sub-function)</th><th>Test Case ID</th><th>Test Steps (Action Verified)</th><th>Pass Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="8">Application Platform Management</td><td>Platform Information Maintenance — Update business profile (name, address, contacts)</td><td>PM-INFO-101</td><td>Edit profile fields and submit</td><td>Changes persist; audit log recorded; invalid fields blocked</td></tr>
+    <tr><td>Platform Information Maintenance — Maintain API endpoint settings (callback URL)</td><td>PM-INFO-102</td><td>Set callback URL and trigger validation</td><td>URL validated; saved configuration used in subsequent callbacks</td></tr>
+    <tr><td>Application Access Fault Management — Detect access timeout and raise alarm</td><td>PM-AF-201</td><td>Simulate upstream timeout during API call</td><td>Fault event generated; alarm severity correct; retry policy applied</td></tr>
+    <tr><td>Application Access Fault Management — Retry & backoff on transient failures</td><td>PM-AF-202</td><td>Force intermittent 5xx responses</td><td>Retries follow backoff; success clears fault; max retries stop correctly</td></tr>
+    <tr><td>Business Interface Control — Enable/disable a specific API (e.g., shipment update)</td><td>PM-API-301</td><td>Toggle API status and call endpoint</td><td>Disabled API returns expected error; enabled API processes request</td></tr>
+    <tr><td>Data Subscription — Subscribe terminal telemetry topic (location/status)</td><td>PM-SUB-401</td><td>Create subscription and publish test message</td><td>Subscriber receives data; filters applied; delivery logged</td></tr>
+    <tr><td>Permission & Role — Assign operator role for terminal operations</td><td>PM-IAM-501</td><td>Create role, grant permissions, test restricted action</td><td>Allowed actions succeed; forbidden actions denied with proper message</td></tr>
+    <tr><td>Audit & Reporting — Export operation logs by time range</td><td>PM-AUD-601</td><td>Query logs and export CSV</td><td>Export file contains correct entries; time range respected; checksum/row count matches</td></tr>
+  </tbody>
+</table>

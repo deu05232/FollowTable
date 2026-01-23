@@ -1,0 +1,15 @@
+<table>
+  <caption>Component-Level Safety & Reliability Limits (Not Performance Caps) for Drying Appliances</caption>
+  <thead>
+    <tr><th>Appliance family</th><th>Configuration</th><th>Component / checkpoint</th><th>Maximum allowable (safety/reliability)</th><th>Test reference</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Tumble dryer</td><td>Vented</td><td>Cabinet surface temperature rise</td><td>≤ 60 °C</td><td>Thermal safety test</td></tr>
+    <tr><td>Condensing</td><td>Motor winding temperature</td><td>≤ 130 °C</td><td>Endurance run</td></tr>
+    <tr><td>Heat pump</td><td>Refrigerant leak rate</td><td>≤ 5 g/year</td><td>Leak detection method</td></tr>
+    <tr><td rowspan="4">Washer-dryer combo</td><td>Drum-type</td><td>Door lock release time after stop</td><td>≤ 15 s</td><td>Safety interlock test</td></tr>
+    <tr><td>Drum-type</td><td>Heater sheath temperature</td><td>≤ 200 °C</td><td>Abnormal operation</td></tr>
+    <tr><td>Pulsator-type</td><td>Control board case temperature</td><td>≤ 85 °C</td><td>High-load run</td></tr>
+    <tr><td>Pulsator-type</td><td>Insulation resistance</td><td>≥ 2 MΩ</td><td>Electrical safety</td></tr>
+  </tbody>
+</table>

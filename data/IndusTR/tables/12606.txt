@@ -1,0 +1,15 @@
+<table>
+  <caption>Default Fossil-Fuel Combustion Parameters (NCV, Carbon Content, Oxidation Factor)</caption>
+  <thead>
+    <tr><th>Fuel Category</th><th>Fuel Type</th><th>Unit</th><th>Net Calorific Value (GJ/unit)</th><th>Carbon Content (tC/TJ)</th><th>Oxidation Rate (%)</th><th>CO2 Emission Factor (tCO2/TJ)</th><th>Data Tier</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Solid</td><td>Anthracite</td><td>t</td><td>27.2</td><td>25.8</td><td>98</td><td>94.6</td><td>Default</td></tr>
+    <tr><td>Solid</td><td>Bituminous coal</td><td>t</td><td>20.1</td><td>25.1</td><td>97</td><td>92.0</td><td>Default</td></tr>
+    <tr><td>Solid</td><td>Lignite</td><td>t</td><td>11.5</td><td>26.9</td><td>96</td><td>98.6</td><td>Default</td></tr>
+    <tr><td>Liquid</td><td>Diesel oil</td><td>t</td><td>43.0</td><td>20.2</td><td>99</td><td>74.1</td><td>Default</td></tr>
+    <tr><td>Liquid</td><td>Fuel oil</td><td>t</td><td>40.4</td><td>21.1</td><td>99</td><td>77.4</td><td>Default</td></tr>
+    <tr><td>Gas</td><td>Natural gas</td><td>10^4 Nm3</td><td>389</td><td>15.3</td><td>99.5</td><td>56.1</td><td>Default</td></tr>
+    <tr><td>Gas</td><td>Coke oven gas</td><td>10^4 Nm3</td><td>178</td><td>12.1</td><td>99</td><td>44.4</td><td>Measured allowed</td></tr>
+  </tbody>
+</table>

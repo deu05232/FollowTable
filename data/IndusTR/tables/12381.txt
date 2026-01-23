@@ -1,0 +1,20 @@
+<table>
+  <caption>Tire Curing Machine PLC Data Structures (Grouped Sub-fields)</caption>
+  <thead>
+    <tr><th>No.</th><th>Data Structure Name</th><th>Sub-field</th><th>Data Type</th><th>Bit Length</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td rowspan="6">CuringCycleStatus</td><td>CycleID</td><td>INT</td><td>16</td><td>Current curing cycle identifier</td></tr>
+    <tr><td>2</td><td>StepIndex</td><td>INT</td><td>16</td><td>Active step number in the curing sequence</td></tr>
+    <tr><td>3</td><td>PressClosed</td><td>BOOL</td><td>1</td><td>Press closure feedback</td></tr>
+    <tr><td>4</td><td>BladderInflateCmd</td><td>BOOL</td><td>1</td><td>Bladder inflate command</td></tr>
+    <tr><td>5</td><td>SteamValveState</td><td>INT</td><td>16</td><td>Steam valve state code (implementation-specific)</td></tr>
+    <tr><td>6</td><td>AlarmWord</td><td>UINT</td><td>16</td><td>Bit-coded alarms for curing station</td></tr>
+    <tr><td>7</td><td rowspan="6">CuringRecipeBlock</td><td>RecipeNo</td><td>INT</td><td>16</td><td>Recipe number applied to the press</td></tr>
+    <tr><td>8</td><td>TargetTemp</td><td>FLOAT</td><td>32</td><td>Target mold temperature</td></tr>
+    <tr><td>9</td><td>TargetPressure</td><td>FLOAT</td><td>32</td><td>Target bladder pressure</td></tr>
+    <tr><td>10</td><td>HoldTimeSec</td><td>INT</td><td>16</td><td>Nominal hold time in seconds</td></tr>
+    <tr><td>11</td><td>RampRate</td><td>FLOAT</td><td>32</td><td>Temperature ramp rate</td></tr>
+    <tr><td>12</td><td>VentMode</td><td>INT</td><td>16</td><td>Vent mode selector (project-defined)</td></tr>
+  </tbody>
+</table>

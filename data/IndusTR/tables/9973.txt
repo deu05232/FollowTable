@@ -1,0 +1,10 @@
+<table>
+  <caption>Urban green freight evaluation: joint distribution stations together with public distribution centers</caption>
+  <tr><th>City size</th><th>Joint distribution stations per million (units)</th><th>Public distribution centers per million (units)</th><th>Score</th></tr>
+  <tr><td>Mega city (10 million and above)</td><td>≥ 25</td><td>≥ 1.0</td><td>60</td></tr>
+  <tr><td>Mega city (10 million and above)</td><td>< 25</td><td>≥ 1.0</td><td>Score calculated according to Formula (5)</td></tr>
+  <tr><td>Mega city (10 million and above)</td><td>≥ 25</td><td>< 1.0</td><td>Score calculated according to Formula (3)</td></tr>
+  <tr><td>Very large city (5 million and above but below 10 million)</td><td>≥ 30</td><td>≥ 1.2</td><td>60</td></tr>
+  <tr><td>Very large city (5 million and above but below 10 million)</td><td>< 30</td><td>< 1.2</td><td>Score calculated according to Formula (Z)</td></tr>
+  <tr><td>Large city (1 million and above but below 5 million)</td><td>≥ 18</td><td>≥ 0.8</td><td>60</td></tr>
+</table>

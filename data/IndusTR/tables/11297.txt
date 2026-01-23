@@ -1,0 +1,13 @@
+<table>
+  <caption>Environmental Conditioning Schedule for Fire Extinguisher Qualification (Temperature Soak and Cycling)</caption>
+  <thead>
+    <tr><th>Phase</th><th>Condition</th><th>Setpoint / Range (°C)</th><th>Tolerance (°C)</th><th>Soak / Exposure Duration</th><th>Number of Cycles</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">A</td><td>Low-temperature conditioning</td><td>Minimum operating temperature (Tmin)</td><td>±2</td><td>24 ± 1 h</td><td rowspan="2">3</td><td>Stabilize extinguisher to Tmin before cycling step</td></tr>
+    <tr><td>Ambient recovery</td><td>20</td><td>±5</td><td>16–24 h</td><td>Ambient step may be extended to reach thermal equilibrium</td></tr>
+    <tr><td>B</td><td>High-temperature storage</td><td>60</td><td>±2</td><td>72 ± 2 h</td><td>1</td><td>Store fully assembled unit at elevated temperature</td></tr>
+    <tr><td rowspan="2">C</td><td>Thermal shock (hot-to-cold)</td><td>60 → Tmin</td><td>±2 (each extreme)</td><td>8 h at each extreme</td><td>2</td><td>Transfer time between chambers ≤ 10 min</td></tr>
+    <tr><td>Post-cycle ambient stabilization</td><td>20</td><td>±5</td><td>24 ± 1 h</td><td>1</td><td>Stabilize prior to any functional checks</td></tr>
+  </tbody>
+</table>

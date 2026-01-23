@@ -1,0 +1,14 @@
+<table>
+  <caption>Last-mile Joint Distribution Stations with Additional Facility Sub-indicators</caption>
+  <thead>
+    <tr><th>City size tier</th><th>Last-mile joint distribution stations (per million)</th><th>Station score rule</th><th>Additional facility item (not requested)</th><th>Additional scoring rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Mega city (≥10 million)</td><td>Target ≥20</td><td>If ≥20: 60; else: 60 × (Actual/20)</td><td>Temporary truck parking spaces (per million)</td><td>If ≥20: 100; else: Score by Formula (7)</td></tr>
+    <tr><td>Very large city (5–10 million)</td><td>Target ≥30</td><td>If ≥30: 60; else: 60 × (Actual/30)</td><td>Public distribution centers (per million)</td><td>If ≥1.2: 60; else: Score by Formula (3)</td></tr>
+    <tr><td>Large city (1–5 million)</td><td>Target ≥15</td><td>If ≥15: 60; else: Score by Formula (5)</td><td>Line-haul/feeder-connected freight hubs (per million)</td><td>If ≥0.3: 60; else: Score by Formula (1)</td></tr>
+    <tr><td>Medium city (0.5–1 million)</td><td>Target ≥10</td><td>If ≥10: 60; else: 60 × (Actual/10)</td><td>Urban consolidation centers (units)</td><td>If ≥1: 60; else: 60 × (Actual/1)</td></tr>
+    <tr><td>Small city (<0.5 million)</td><td>Target ≥6</td><td>If ≥6: 60; else: 60 × (Actual/6)</td><td>Shared curb loading bays (per million)</td><td>If ≥8: 40; else: 40 × (Actual/8)</td></tr>
+    <tr><td>County-level area (reference)</td><td>Target ≥4</td><td>If ≥4: 60; else: 60 × (Actual/4)</td><td>Parcel locker clusters (per million)</td><td>If ≥10: 20; else: 20 × (Actual/10)</td></tr>
+  </tbody>
+</table>

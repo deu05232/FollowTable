@@ -1,0 +1,19 @@
+<table>
+  <caption>Box-Type Screen Projection: Optical/Electrical Requirements by Viewing Direction (A, -A, B)</caption>
+  <thead>
+    <tr><th>Viewing context</th><th>Requirement group</th><th>Parameter</th><th>Code</th><th>Target</th><th>Units</th><th>Acceptance note</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Direction A</td><td>Optical</td><td>On-axis illuminance</td><td>E_A</td><td>120</td><td>lx</td><td>Measured at screen center</td></tr>
+    <tr><td>Optical</td><td>Color temperature</td><td>CCT_A</td><td>6000</td><td>K</td><td>Within ±500 K</td></tr>
+    <tr><td>Electrical</td><td>Forward voltage</td><td>Vf_A</td><td>2.9</td><td>V</td><td>At 350 mA</td></tr>
+    <tr><td rowspan="3">Direction -A</td><td>Optical</td><td>Off-axis luminance ratio</td><td>LR_-A</td><td>0.85</td><td>-</td><td>Relative to direction A</td></tr>
+    <tr><td>Optical</td><td>Stray light limit</td><td>SL_-A</td><td>2</td><td>%</td><td>Max allowed</td></tr>
+    <tr><td>Thermal</td><td>Junction temperature estimate</td><td>Tj_-A</td><td>< 105</td><td>°C</td><td>Model-based</td></tr>
+    <tr><td rowspan="3">Direction B</td><td>Optical</td><td>Uniformity (min/avg)</td><td>U_B</td><td>0.70</td><td>-</td><td>Across projection area</td></tr>
+    <tr><td>Control</td><td>PWM duty for calibration</td><td>DC_B</td><td>40</td><td>%</td><td>Factory trim value</td></tr>
+    <tr><td>Electrical</td><td>Power limit</td><td>P_B</td><td>3.0</td><td>W</td><td>System cap</td></tr>
+    <tr><td rowspan="2">Common</td><td>EMC</td><td>Conducted noise</td><td>EMI</td><td>Class B</td><td>-</td><td>Per internal spec</td></tr>
+    <tr><td>Safety</td><td>Blue-light risk group</td><td>BL</td><td>RG1</td><td>-</td><td>Informative</td></tr>
+  </tbody>
+</table>

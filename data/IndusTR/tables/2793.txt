@@ -1,0 +1,14 @@
+<table>
+  <caption>Laboratory Method Requirements for Eco-Meteorological Sensor Verification (Environmental Conditions)</caption>
+  <thead>
+    <tr><th>Test Item</th><th>Condition</th><th>Requirement</th><th>Stabilization Time</th><th>Instrumentation</th><th>Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Temperature chamber test</td><td>-20°C</td><td>RH 30% ±5%</td><td>≥ 60 min</td><td>Thermal chamber</td><td>No drift alarms</td></tr>
+    <tr><td>High humidity test</td><td>35°C</td><td>RH 95% ±3%</td><td>≥ 120 min</td><td>Humidity chamber</td><td>Stable output</td></tr>
+    <tr><td>Radiation sensor check</td><td>Indoor lamp</td><td>500 W/m²> ±2%</td><td>≥ 30 min</td><td>Reference pyranometer</td><td>Error ≤ 3%</td></tr>
+    <tr><td>Wind sensor check</td><td>Wind tunnel</td><td>2–20 m/s</td><td>≥ 20 min</td><td>Calibrated anemometer</td><td>Error ≤ 2%</td></tr>
+    <tr><td>Rain gauge test</td><td>Flow rig</td><td>10–200 mm/h</td><td>≥ 15 min</td><td>Volumetric pump</td><td>Error ≤ 3%</td></tr>
+    <tr><td>EMC screening</td><td>RF field</td><td>3 V/m (80–1000 MHz)</td><td>≥ 10 min</td><td>EMC chamber</td><td>No data loss</td></tr>
+  </tbody>
+</table>

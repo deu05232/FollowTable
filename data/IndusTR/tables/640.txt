@@ -1,0 +1,33 @@
+<table>
+  <caption>Flat Knitting Machine Yarn System Alarm Parameter Set</caption>
+  <tr><td>Index</td><td>Attribute Name</td><td>Attribute English Name</td><td>Modeling Rule</td><td>Attribute Type</td><td>访间权限</td><td>Data Type</td><td>Data Range</td><td>Engineering Unit</td><td>Attribute Description</td><td>Semantic Value</td></tr>
+  <tr><td>0X0900</td><td>Yarn Control Device Alarm</td><td>YarnControlSystemAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td>丨</td><td>1</td><td></td></tr>
+  <tr><td>0X0901</td><td>Side Yarn Tensioner Yarn Breakage</td><td>YarnBreakageAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td>丨</td><td>1</td><td></td></tr>
+  <tr><td>0X0902</td><td>Yarn Feeder Alarm</td><td>YarnFeederAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0903</td><td>Elastic Yarn Breakage Alarm</td><td>CombThreadBreakageAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X0904</td><td>Roller Alarm</td><td>TakeDownRollerAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td></td><td>/</td><td></td></tr>
+  <tr><td>0X0905</td><td>Comb Plate Alarm</td><td>CombAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0906</td><td>Main Servo Fault</td><td>MainServoAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0907</td><td>Racking Servo Fault</td><td>RackingServoAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td></td><td>一</td><td></td></tr>
+  <tr><td>0X0908</td><td>Servo Communication Abnormality</td><td>ServoComError</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td></td><td>丨</td><td></td></tr>
+  <tr><td>0X0909</td><td>Stitch Cam Abnormality</td><td>StitchCamAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>一</td><td>丨</td><td>1</td><td>一</td></tr>
+  <tr><td>0X090A</td><td>Cam Abnormality</td><td>CamAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X090B</td><td>Probe Alarm</td><td>NeedleDetectorAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X090C</td><td>Needle Selector Abnormality</td><td>SelectionAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td>1</td><td>丨</td><td></td></tr>
+  <tr><td>0X090D</td><td>Yarn Guide Abnormality</td><td>YarnGuideAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td></td><td></td><td></td><td></td></tr>
+  <tr><td>0X090E</td><td>Safety Door Alarm</td><td>SafetyDoorAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+  <tr><td>0X090F</td><td>Protective Cover Alarm</td><td>ProtectiveCoverAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>丨</td><td>/</td><td>1</td><td>一</td></tr>
+  <tr><td>0X0710</td><td>Emergency Stop Alarm</td><td>EMGStopAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0711</td><td>Edge Collision</td><td>EdgeCollisionAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0712</td><td>Parameter Error</td><td>ParametersError</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0713</td><td>Machine Locked</td><td>MachineLockAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0714</td><td>Insufficient Oil Level</td><td>LowOilLevelAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>丨</td><td>1</td><td>一</td><td>丨</td></tr>
+  <tr><td>0X0715</td><td>Clamp Abnormality</td><td>ClampAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0716</td><td>Cutter Abnormality</td><td>CutterAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X0717</td><td>Carriage Communication Abnormality</td><td>CarriageComError</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>丨</td><td>1</td></tr>
+  <tr><td>0X0718</td><td>Network Connection Abnormality</td><td>NetworkConError</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>丨</td><td>一</td></tr>
+  <tr><td>0X0719</td><td>Carriage Voltage Abnormality</td><td>CarriageVoltageAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td></td></tr>
+  <tr><td>0X071A</td><td>Master Control Voltage Abnormality</td><td>MasterControlVoltageAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>丨</td><td>一</td><td></td></tr>
+  <tr><td>0X071B</td><td>Main Power Failure</td><td>MainPowerOffAlarm</td><td>M</td><td>VRA</td><td>RO</td><td>String</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+  <tr><td>0X071C</td><td>Extensible Data</td><td>Reserve</td><td>0</td><td>ARRAY</td><td>RO</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td></tr>
+</table>

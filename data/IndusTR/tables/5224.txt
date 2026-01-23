@@ -1,0 +1,8 @@
+<table>
+  <caption>SOF Component Get Latest Error Information Interface Definition</caption>
+  <tr><td>Prototype</td><td>function SOF_GetLaseError(cb,ctx)</td></tr>
+  <tr><td>Description</td><td>Get the latest error code</td></tr>
+  <tr><td rowspan="2">Parameters</td><td>cb(Callback function)</td></tr>
+  <tr><td>ctx(Parameters required by the callback function)</td></tr>
+  <tr><td>Return value</td><td>Error code, should conform to the error code table in TableA.1</td></tr>
+</table>

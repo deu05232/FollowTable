@@ -1,0 +1,16 @@
+<table>
+  <caption>Model selection for solar neutron release: emission profile type labels and goodness-of-fit by event</caption>
+  <thead>
+    <tr><th rowspan="2">Event date (YYYY-MM-DD)</th><th rowspan="2">Detector / dataset</th><th colspan="3">Fit statistic (lower is better)</th><th rowspan="2">Selected emission profile type</th><th rowspan="2">Δ(best vs 2nd)</th></tr>
+    <tr><th>Delta</th><th>Continuous</th><th>Gaussian</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1998-11-12</td><td>NM + γ-ray timing</td><td>12.4</td><td>19.7</td><td>14.1</td><td>Delta</td><td>1.7</td></tr>
+    <tr><td>1998-11-22</td><td>NM + SXT timing</td><td>22.6</td><td>13.2</td><td>15.8</td><td>Continuous</td><td>2.6</td></tr>
+    <tr><td>1998-11-28</td><td>NM only</td><td>18.9</td><td>16.5</td><td>12.9</td><td>Gaussian</td><td>3.6</td></tr>
+    <tr><td>2000-07-14</td><td>NM + radio</td><td>17.1</td><td>14.9</td><td>15.0</td><td>Continuous</td><td>0.1</td></tr>
+    <tr><td>2001-08-25</td><td>NM only</td><td>11.8</td><td>16.0</td><td>12.6</td><td>Delta</td><td>0.8</td></tr>
+    <tr><td>2003-11-04</td><td>NM + γ-ray timing</td><td>16.2</td><td>15.7</td><td>13.5</td><td>Gaussian</td><td>2.2</td></tr>
+    <tr><td>2005-09-07</td><td>NM + EUV</td><td>20.4</td><td>14.3</td><td>14.9</td><td>Continuous</td><td>0.6</td></tr>
+  </tbody>
+</table>

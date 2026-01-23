@@ -1,0 +1,16 @@
+<table>
+  <caption>Hydrology & Connectivity Scoring Standards (Seasonal Ecological Flow Satisfaction and Barrier Time)</caption>
+  <thead>
+    <tr><th>Metric (hydrology/connectivity only)</th><th>Score 0</th><th>Score 20</th><th>Score 40</th><th>Score 60</th><th>Score 80</th><th>Score 100</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="2">Ecological flow satisfaction (days meeting ecological baseflow + sensitive flow), wet season (Apr–Sep), %</td><td>< 10</td><td>[10, 25)</td><td>[25, 45)</td><td>[45, 65)</td><td>[65, 85)</td><td>≥ 85</td></tr>
+    <tr><td colspan="6">Higher percentage means better hydrologic regime compliance during wet season.</td></tr>
+    <tr><td rowspan="2">Ecological flow satisfaction (days meeting ecological baseflow + sensitive flow), dry season (Oct–Mar), %</td><td>< 5</td><td>[5, 15)</td><td>[15, 35)</td><td>[35, 55)</td><td>[55, 75)</td><td>≥ 75</td></tr>
+    <tr><td colspan="6">Seasonal split keeps the standard purely hydrologic (no water quality/biology mixing).</td></tr>
+    <tr><td rowspan="2">Barrier time (days/year with effective blockage), d</td><td>> 180</td><td>(120, 180]</td><td>(60, 120]</td><td>(30, 60]</td><td>(1, 30]</td><td>0</td></tr>
+    <tr><td colspan="6">Lower barrier time indicates higher connectivity and fewer passage interruptions.</td></tr>
+    <tr><td rowspan="2">Longitudinal connectivity pressure (barriers per 100 km), count/100 km</td><td>> 1.2</td><td>(1.0, 1.2]</td><td>(0.6, 1.0]</td><td>(0.3, 0.6]</td><td>(0.1, 0.3]</td><td>≤ 0.1</td></tr>
+    <tr><td colspan="6">This is a connectivity-only indicator expressed as barrier density.</td></tr>
+  </tbody>
+</table>

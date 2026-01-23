@@ -1,0 +1,15 @@
+<table>
+  <caption>Video/Image Quality Rating and Subjective Grade Codes</caption>
+  <thead>
+    <tr><th>Dimension</th><th>Code</th><th>Grade</th><th>Interpretation</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="3">Sharpness</td><td>301</td><td>Poor</td><td>Edges are heavily blurred</td></tr>
+    <tr><td>302</td><td>Average</td><td>Usable but not crisp</td></tr>
+    <tr><td>303</td><td>Excellent</td><td>High detail clarity</td></tr>
+    <tr><td rowspan="2">Exposure</td><td>311</td><td>Too Dark</td><td>Underexposed scene</td></tr>
+    <tr><td>312</td><td>Too Bright</td><td>Overexposed scene</td></tr>
+    <tr><td rowspan="2">Stability</td><td>321</td><td>Shaky</td><td>Visible camera shake</td></tr>
+    <tr><td>322</td><td>Stable</td><td>Minimal motion jitter</td></tr>
+  </tbody>
+</table>

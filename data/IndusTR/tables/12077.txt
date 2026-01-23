@@ -1,0 +1,15 @@
+<table>
+  <caption>Casting Drawing Surface Finish & Machining Allowance Checklist (Not Geometry-Defect Focused)</caption>
+  <thead>
+    <tr><th>Feature / Area</th><th>Required Surface Roughness (Ra, µm)</th><th>Finish Symbol on Drawing</th><th>Machining Allowance (mm)</th><th>Recommended Process</th><th>Inspection Method</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Datum face A (mating)</td><td>Ra 3.2</td><td>Machining symbol + Ra3.2</td><td>2.0</td><td>Face milling</td><td>Profilometer + CMM</td></tr>
+    <tr><td>Bore Ø60 (bearing seat)</td><td>Ra 1.6</td><td>Machining symbol + Ra1.6</td><td>1.5</td><td>Rough bore + finish ream</td><td>Bore gauge + profilometer</td></tr>
+    <tr><td>Outer cylindrical Ø120</td><td>Ra 6.3</td><td>Machining symbol + Ra6.3</td><td>1.0</td><td>Turning</td><td>Micrometer</td></tr>
+    <tr><td>Rib side faces</td><td>Ra 12.5</td><td>As-cast symbol + Ra12.5</td><td>0</td><td>As-cast (no machining)</td><td>Visual comparator</td></tr>
+    <tr><td>Boss top pad</td><td>Ra 3.2</td><td>Machining symbol + Ra3.2</td><td>2.5</td><td>Spot face</td><td>Height gauge</td></tr>
+    <tr><td>Sealing groove floor</td><td>Ra 1.6</td><td>Machining symbol + Ra1.6</td><td>1.0</td><td>End milling</td><td>Surface roughness test</td></tr>
+    <tr><td>Non-functional exterior</td><td>Ra 25</td><td>As-cast symbol + Ra25</td><td>0</td><td>Shot blast only</td><td>Visual</td></tr>
+  </tbody>
+</table>

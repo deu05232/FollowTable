@@ -1,0 +1,14 @@
+<table>
+  <caption>Static Warning Sign Identifiers (Color-Coded) — Sea Fog Hazard</caption>
+  <thead>
+    <tr><th>Hazard</th><th>Color</th><th>Static Identifier (Text)</th><th>Sign Name (English)</th><th>Basic Meaning (Sign Catalog)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Sea Fog</td><td>Blue</td><td>SEAFOG_BLUE</td><td>Sea Fog Blue Warning Sign</td><td>Issued to indicate sea fog conditions may affect navigation; lowest level within the color-coded sea fog warning signs.</td></tr>
+    <tr><td>Yellow</td><td>SEAFOG_YELLOW</td><td>Sea Fog Yellow Warning Sign</td><td>Issued to indicate sea fog is likely and may significantly reduce visibility; heightened caution is advised.</td></tr>
+    <tr><td>Orange</td><td>SEAFOG_ORANGE</td><td>Sea Fog Orange Warning Sign</td><td>Issued to indicate sea fog is expected or occurring with serious visibility reduction; strong caution for marine operations.</td></tr>
+    <tr><td>Red</td><td>SEAFOG_RED</td><td>Sea Fog Red Warning Sign</td><td>Issued to indicate severe sea fog conditions with very low visibility; highest level within the color-coded sea fog warning signs.</td></tr>
+    <tr><td>Icon Label</td><td>(applies to all colors)</td><td>SEAFOG</td><td>Sea Fog Hazard Icon Label</td><td>Static hazard label used on the sign face alongside the color to identify the hazard as sea fog.</td></tr>
+    <tr><td>Catalog Note</td><td>(applies to all colors)</td><td>COLOR_SET: BLUE/YELLOW/ORANGE/RED</td><td>Color Set Definition</td><td>Defines the classic four-color set used for sea fog warning sign identifiers (no response grades or triggers).</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,15 @@
+<table>
+  <caption>Image Segment Capture Context Metadata (Collection-Only Fields)</caption>
+  <thead>
+    <tr><th>Serial No.</th><th>Name</th><th>Identifier</th><th>Representation Format</th><th>Description</th><th>Referenced Data Element</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>Image Segment Identifier</td><td>image_seg_id</td><td>c41</td><td>Unique identifier for a collected image (or image segment) used for ingestion and linkage</td><td></td></tr>
+    <tr><td>2</td><td>Collection Method Code</td><td>img_collect_method_cd</td><td>c1</td><td>Code for collection method (e.g., surveillance snapshot, body-worn camera export, manual upload)</td><td></td></tr>
+    <tr><td>3</td><td>Capture Location Type Code</td><td>img_capture_loc_type_cd</td><td>c3..7</td><td>Code for the capture scene/location type</td><td></td></tr>
+    <tr><td>4</td><td>Capture Administrative Division Code</td><td>img_capture_admin_div_cd</td><td>c6</td><td>6-digit administrative division code of where the image was captured</td><td></td></tr>
+    <tr><td>5</td><td>Capture Date/Time</td><td>img_capture_dt</td><td>d18</td><td>Timestamp when the image was captured (single time point for still image)</td><td></td></tr>
+    <tr><td>6</td><td>Source Device Identifier</td><td>img_source_device_id</td><td>c20</td><td>Identifier of the capture device (camera or terminal)</td><td></td></tr>
+    <tr><td>7</td><td>Acquisition Channel</td><td>acq_channel</td><td>c..30</td><td>High-level channel describing how the image entered the system (e.g., real-time pull, batch import)</td><td></td></tr>
+  </tbody>
+</table>

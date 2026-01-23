@@ -1,0 +1,15 @@
+<table>
+  <caption>Incineration Stack CO2 Calculation by Waste Type (Includes Only Output Totals, Missing Input Factors)</caption>
+  <thead>
+    <tr><th>Waste Type</th><th>Annual Waste Sent to Incineration (t)</th><th>Calculated Fossil CO2 from Stack (tCO2e)</th><th>Calculated Biogenic CO2 (tCO2)</th><th>Total Stack CO2 (tCO2)</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Paper/Cardboard</td><td>52000</td><td>2100</td><td>78000</td><td>80100</td><td>Reported as informational</td></tr>
+    <tr><td>Textiles</td><td>18000</td><td>14000</td><td>9000</td><td>23000</td><td>Mixed natural/synthetic fibers</td></tr>
+    <tr><td>Plastics</td><td>24000</td><td>71000</td><td>0</td><td>71000</td><td>All assumed fossil carbon</td></tr>
+    <tr><td>Food Waste</td><td>30000</td><td>0</td><td>45000</td><td>45000</td><td>Biogenic only</td></tr>
+    <tr><td>Wood</td><td>9000</td><td>0</td><td>13500</td><td>13500</td><td>Biogenic only</td></tr>
+    <tr><td>Rubber/Leather</td><td>6000</td><td>8500</td><td>1200</td><td>9700</td><td>Default split applied</td></tr>
+    <tr><td>Other Mixed</td><td>11000</td><td>6000</td><td>5000</td><td>11000</td><td>Residual category</td></tr>
+  </tbody>
+</table>

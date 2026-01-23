@@ -1,0 +1,6 @@
+<table>
+  <caption>Format Definition of Short Message Information Frame Not Requiring Acknowledgement</caption>
+  <tr><td>Protocol Data Unit</td><td>P</td><td>EDP</td><td>DP</td><td>PF</td><td>PS</td><td>SA</td><td colspan="8">Data Field</td></tr>
+  <tr><td>Placeholder bit</td><td>3</td><td>1</td><td>1</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td><td>8</td></tr>
+  <tr><td>Definition</td><td>0x06</td><td>0</td><td>0</td><td>0x36</td><td>Destination Address</td><td>Source Address</td><td colspan="8">Complies with the application layer specification; if less than 8 bytes, pad with OxFF</td></tr>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>AIS Class B Baseband Framing and Bit Allocation (Preamble to CRC)</caption>
+  <thead>
+    <tr><th>Frame Section</th><th>Length (bit)</th><th>Purpose</th><th>Typical Value / Rule</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Preamble</td><td>24</td><td>Receiver synchronization</td><td>Alternating pattern per spec</td></tr>
+    <tr><td>Start Flag</td><td>8</td><td>Frame delimiter</td><td>0x7E</td></tr>
+    <tr><td>Message Identifier</td><td>6</td><td>Message type selection</td><td>e.g., 18/19/24/60/61</td></tr>
+    <tr><td>Repeat (Relay) Indicator</td><td>2</td><td>Relay count</td><td>Usually 0</td></tr>
+    <tr><td>MMSI</td><td>30</td><td>Source identity</td><td>ITU-assigned MMSI</td></tr>
+    <tr><td>Payload (Application/Data)</td><td>168</td><td>Encoded message content</td><td>Depends on message type</td></tr>
+    <tr><td>FCS / CRC</td><td>16</td><td>Error detection</td><td>CRC-16</td></tr>
+    <tr><td>End Flag</td><td>8</td><td>Frame delimiter</td><td>0x7E</td></tr>
+  </tbody>
+</table>

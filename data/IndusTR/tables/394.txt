@@ -1,0 +1,6 @@
+<table>
+  <caption>Create Camera Config Parameter Description</caption>
+  <tr><td>Parameter Name</td><td>Type</td><td>Description</td></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>out_camera_config</td><td>ArCameraConfig **</td><td>Pointer to a pointer to ArCameraConfig, used to receive the address of the newly created camera config object</td></tr>
+</table>

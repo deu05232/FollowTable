@@ -1,0 +1,14 @@
+<table>
+  <caption>Association Specification: Agricultural Insurance Policy vs Premium Payment Schedule</caption>
+  <thead>
+    <tr><th>Relationship Name</th><th>Association Type</th><th>Table Name 1</th><th>Table Name 2</th><th>Join Key Field(s)</th><th>Cardinality / Uniqueness Note</th><th>Join Condition Example</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Policy-to-PremiumSchedule</td><td>Single-Key Association</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Premium Payment Schedule Table</td><td>policy_id</td><td>One policy_id can map to many schedule rows (installments); policy_id is unique in Policy Details</td><td>policy_details.policy_id = premium_schedule.policy_id</td></tr>
+    <tr><td>Policy-to-Endorsement</td><td>Composite-Key Association</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Policy Endorsement Table</td><td>policy_id + endorsement_no</td><td>Multiple endorsements per policy; (policy_id, endorsement_no) is unique in Endorsement</td><td>policy_details.policy_id = endorsement.policy_id AND endorsement.endorsement_no = policy_details.endorsement_no</td></tr>
+    <tr><td>InsuredHousehold-to-InsuredPerson</td><td>Composite-Key Association</td><td>Agricultural Insurance Underwriting Insured Household List Table</td><td>Agricultural Insurance Insured Person Roster Table</td><td>policy_id + household_id</td><td>One household can have many persons; (policy_id, household_id, person_seq) unique in Person Roster</td><td>household.policy_id = person_roster.policy_id AND household.household_id = person_roster.household_id</td></tr>
+    <tr><td>Claim-to-LossAssessment</td><td>Single-Key Association</td><td>Agricultural Insurance Claim Business Details Table</td><td>Agricultural Insurance Loss Assessment Result Table</td><td>claim_id</td><td>Typically 1:1; claim_id unique in both tables when assessment finalized</td><td>claim_details.claim_id = loss_assessment.claim_id</td></tr>
+    <tr><td>Policy-to-SubsidyAllocation</td><td>Composite-Key Association</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>Agricultural Insurance Subsidy Allocation Table</td><td>policy_id + fiscal_year</td><td>Same policy may be subsidized across years; (policy_id, fiscal_year) unique in Subsidy Allocation</td><td>policy_details.policy_id = subsidy_alloc.policy_id AND subsidy_alloc.fiscal_year = policy_details.fiscal_year</td></tr>
+    <tr><td>BusinessLine-to-Policy</td><td>Single-Key Association</td><td>Agricultural Insurance Business Lines Table</td><td>Agricultural Insurance Underwriting Policy Details Table</td><td>business_line_code</td><td>Many policies per business line; business_line_code unique in Business Lines</td><td>business_lines.business_line_code = policy_details.business_line_code</td></tr>
+  </tbody>
+</table>

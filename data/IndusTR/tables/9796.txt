@@ -1,0 +1,10 @@
+<table>
+  <caption>Explicit range traversal requirements for intra prediction syntax elements</caption>
+  <tr><th>Syntax element name</th><th>Test requirements</th></tr>
+  <tr><td>intra_dir_luma</td><td>Traverse cases where the value of intra_dir_luma equals 0 to 67</td></tr>
+  <tr><td>intra_dir_chroma</td><td>Traverse cases where the value of intra_dir_chroma equals 0 to 5</td></tr>
+  <tr><td>mip_flag</td><td>Traverse cases where the value of mip_flag equals 0 to 1</td></tr>
+  <tr><td>mrl_idx</td><td>Traverse cases where the value of mrl_idx equals 0 to 3</td></tr>
+  <tr><td>intra_luma_ref_idx</td><td>Traverse cases where the value of intra_luma_ref_idx equals 0 to 2</td></tr>
+  <tr><td>isp_mode</td><td>Traverse cases where the value of isp_mode equals 0 to 2</td></tr>
+</table>

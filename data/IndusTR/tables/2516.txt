@@ -1,0 +1,14 @@
+<table>
+  <caption>Electronic Code Data Structure for Hospital Medication Dispensing Cabinets (Cross-domain)</caption>
+  <thead>
+    <tr><th>Field</th><th>Length</th><th>Type</th><th>Example</th><th>Notes</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Cabinet ID</td><td>8</td><td>Numeric</td><td>00018452</td><td>Facility-scoped identifier</td></tr>
+    <tr><td>Ward code</td><td>4</td><td>Alphanumeric</td><td>ICU1</td><td>Clinical location</td></tr>
+    <tr><td>Medication code</td><td>12</td><td>Numeric</td><td>078901234567</td><td>Internal drug catalog key</td></tr>
+    <tr><td>Dosage form</td><td>2</td><td>Alpha</td><td>TB</td><td>Tablet/capsule/etc.</td></tr>
+    <tr><td>Lot number</td><td>10</td><td>Alphanumeric</td><td>LOT202503A</td><td>Manufacturer batch</td></tr>
+    <tr><td>Expiry date</td><td>8</td><td>Date</td><td>20261231</td><td>YYYYMMDD</td></tr>
+  </tbody>
+</table>

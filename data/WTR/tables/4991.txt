@@ -1,0 +1,6 @@
+# ETE Database Manual Tables and Fields
+
+| Reference ID number | First Author | First Initials | Second Author | Second Initials | Other Authors | Date of Publication | Title | Citation |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| integer | c20 | c8 | c20 | c8 | c150 | c4 | c300 | c300 |
+| (Primary key) | The last name of the first author of a reference. | Initials of the first author of a reference. | The last name of the second author of a reference. | Initials of the second author of a reference. | A list of authors beyond the second author, if any, for a reference. | The year of publication of a reference (or, if a citation to nonpublished source, year in which such source originated). | The title of a reference. | The source of a literature reference. |

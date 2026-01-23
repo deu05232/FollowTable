@@ -1,0 +1,7 @@
+<table>
+  <caption>AR environment understanding API parameters (acquire current light estimate)</caption>
+  <tr><th>Parameter Name</th><th>Type</th><th>Description</th></tr>
+  <tr><td>session</td><td>ArSession *</td><td>Augmented reality session pointer</td></tr>
+  <tr><td>frame</td><td>ArFrame *</td><td>Frame pointer</td></tr>
+  <tr><td>out_light_estimate</td><td>ArLightEstimate *</td><td>Pointer that will be populated with the light estimation for the frame</td></tr>
+</table>

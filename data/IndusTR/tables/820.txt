@@ -1,0 +1,15 @@
+<table>
+  <caption>Key Elements for Building an Iris Recognition Algorithm Evaluation Database</caption>
+  <tr><td>No.</td><td>Element</td><td>Example of Element Content</td></tr>
+  <tr><td>1</td><td>Skin Tone</td><td>Light, Dark, Yellow, Brown, Other</td></tr>
+  <tr><td>2</td><td>Gender</td><td>Male, Female</td></tr>
+  <tr><td>3</td><td>Acquisition Method</td><td>Visible light, Near-infrared</td></tr>
+  <tr><td>4</td><td>Ambient Lighting</td><td>Indoors, Outdoors (avoid direct sunlight hitting the capture lens or the eyes)</td></tr>
+  <tr><td>5</td><td>Eye Pose</td><td>Eye tilt angle, Gaze pitch angle, Gaze azimuth angle</td></tr>
+  <tr><td>6</td><td>Eye Position</td><td>Upper and lower eyelid positions, Inner canthus positions of the left and right eyes</td></tr>
+  <tr><td>7</td><td>Effective Iris Region</td><td>The iris region not occluded by eyelids, eyelashes, specular highlights, eyeglass frames, etc.</td></tr>
+  <tr><td>8</td><td>Iris Diameter</td><td>The diameter of the circle fitted to the outer boundary of the iris using a circular model</td></tr>
+  <tr><td>9</td><td>Pupil Dilation/Contraction</td><td>Changes in the iris region caused by pupil dilation or constriction</td></tr>
+  <tr><td>10</td><td>Sharpness</td><td>Clear iris, Defocus blur, Motion blur</td></tr>
+  <tr><td>11</td><td>Eyewear</td><td>Colored-frame glasses, Colored contact lenses, Clear-frame glasses, Clear contact lenses</td></tr>
+</table>

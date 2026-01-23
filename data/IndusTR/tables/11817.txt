@@ -1,0 +1,14 @@
+<table>
+  <caption>Secondary Indicators for Beautiful China Construction (Soil & Water) — Sampling Design and Laboratory Methods</caption>
+  <thead>
+    <tr><th>Indicator Code</th><th>Indicator Name (Unit)</th><th>Sampling Design</th><th>Laboratory / Analytical Method</th><th>Field Equipment</th><th>Computation / Aggregation Rule</th><th>Data Acceptance Criteria</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>C30</td><td>Safe utilization rate of polluted cultivated land (%)</td><td>Stratified sampling by pollution category and crop type; minimum sample size per county.</td><td>ICP-MS for heavy metals; QA with blanks/duplicates; certified reference materials.</td><td>Soil auger; GPS; portable XRF (screening)</td><td>Safe area / total polluted area × 100%; safe area determined by risk-screening thresholds.</td><td>Completeness ≥ 90%; lab RSD ≤ 15%; field duplicates within tolerance.</td></tr>
+    <tr><td>C31</td><td>Compliance rate of farmland soil quality standards (%)</td><td>Grid sampling (e.g., 1 km × 1 km) in key agricultural zones.</td><td>GB standard methods for pH, Cd, As, Pb; chain-of-custody required.</td><td>Sampling bags; cold storage box; label printer</td><td>Count(compliant samples)/total samples × 100%</td><td>Hold time limits respected; invalid samples excluded with documentation.</td></tr>
+    <tr><td>C32</td><td>Black-odorous water body remediation completion rate (%)</td><td>Monthly巡查点位设置; upstream/downstream paired sites.</td><td>COD by dichromate method; NH3-N by Nessler; odor scoring protocol.</td><td>Multiparameter water quality sonde; Secchi disk</td><td>Remediated segments / identified segments × 100%</td><td>Sensor drift check before/after survey; minimum 2 visits to confirm status.</td></tr>
+    <tr><td>C33</td><td>Rural wastewater treatment facility operating rate (%)</td><td>Facility census + random inspections; at least 10% facilities checked.</td><td>Flow meter verification; effluent TN/TP lab test quarterly.</td><td>Portable flow meter; grab sampler</td><td>Operating days / total days × 100%</td><td>Exclude shutdown due to force majeure only with official record.</td></tr>
+    <tr><td>C34</td><td>Surface water section compliance rate (%)</td><td>Fixed national control sections; weekly sampling in sensitive seasons.</td><td>Standard methods for DO, COD, BOD5; inter-lab comparison.</td><td>Autosampler; dissolved oxygen meter</td><td>Count(compliant sections)/total sections × 100%</td><td>At least 75% valid measurements; flagged anomalies investigated.</td></tr>
+    <tr><td>C35</td><td>Soil erosion monitoring area coverage (%)</td><td>Remote sensing interpretation + ground verification transects.</td><td>Image classification workflow; accuracy assessment with confusion matrix.</td><td>UAV; RTK receiver</td><td>Monitored area / total target area × 100%</td><td>Overall classification accuracy ≥ 85%; kappa reported.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,16 @@
+<table>
+  <caption>Geometry Choices vs Solidification Defects (Proper vs Improper Examples)</caption>
+  <thead>
+    <tr><th>Feature / Location</th><th>Proper Structural Choice</th><th>Improper Structural Choice</th><th>Likely Defect During Solidification</th><th>Why It Happens (Geometry Mechanism)</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Inside corner (L-shape)</td><td>Add a fillet radius (e.g., R ≥ 0.25·t) and keep wall thickness uniform through the corner</td><td>Sharp inside corner with abrupt thickening at the corner</td><td>Hot tearing / cracking</td><td>Sharp corners concentrate thermal stress; the thick corner stays hot longer, restraining contraction and promoting cracks</td></tr>
+    <tr><td>Outside corner</td><td>Provide a radius and avoid creating a thick “lump” at the corner</td><td>Square outside corner plus extra stock creating a local heavy section</td><td>Shrinkage cavity / porosity</td><td>Local heavy sections become last-to-freeze hot spots, feeding is difficult and shrinkage voids form</td></tr>
+    <tr><td>T-intersection (wall meets wall)</td><td>Blend with generous fillets and/or core out the intersection to keep the modulus near uniform</td><td>Full-thickness T-junction with no relief</td><td>Shrinkage cavity</td><td>Intersection creates a hot spot (higher modulus) that solidifies last; feeding path is restricted</td></tr>
+    <tr><td>Cross-intersection (+ junction)</td><td>Stagger intersections or add relief pockets so only one heavy junction exists at a time</td><td>All four walls meeting at one point with full thickness</td><td>Shrinkage porosity cluster</td><td>Multiple thick paths converge, producing an isolated hot region that is hard to feed</td></tr>
+    <tr><td>Rib to wall connection</td><td>Rib thickness ≈ 0.6–0.8·t and filleted rib root; taper rib height if needed</td><td>Rib thickness ≥ t with sharp rib root</td><td>Shrinkage porosity; sometimes cracking at rib root</td><td>Over-thick rib root forms a hot spot; sharp root adds stress concentration during contraction</td></tr>
+    <tr><td>Boss on a plate</td><td>Use a cored boss or add gussets while keeping the boss root thin and well filleted</td><td>Solid boss on a thin plate with thick root</td><td>Shrinkage cavity at boss root</td><td>Boss root is a classic hot spot where feeding is limited by the thin plate section</td></tr>
+    <tr><td>Wall-thickness transition</td><td>Gradual transition (taper/step with blends) from thick to thin, keeping directional solidification</td><td>Sudden step change from thin to thick</td><td>Shrinkage cavity near the step; distortion</td><td>Thick section freezes last; abrupt change blocks feeding and increases thermal gradients</td></tr>
+    <tr><td>Thin-to-thick “island” region</td><td>Redistribute material so the thick region connects to a feeder-friendly path; avoid isolated pads</td><td>Isolated thick pad surrounded by thin walls</td><td>Centerline shrinkage / internal void</td><td>Isolated hot spot cannot be fed after surrounding thin material solidifies</td></tr>
+  </tbody>
+</table>

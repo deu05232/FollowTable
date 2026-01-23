@@ -1,0 +1,109 @@
+<table>
+  <caption>Internal Mixer Drive and Charging Door Status Data Item Information Table</caption>
+  <tr><td>No.</td><td>Data Item Name</td><td>Data Item Meaning Description</td><td>Alias</td><td>Data Type</td><td>Length bit</td><td>Value Range</td><td>Value Meaning</td><td>Logical Relationship with Other Data Items</td></tr>
+  <tr><td>1</td><td>Auxiliary drive running</td><td>Auxiliary drive running signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not running 1: Running</td><td></td></tr>
+  <tr><td>2</td><td>Main machine start ready</td><td>Main machine start ready signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not ready 1: Ready</td><td></td></tr>
+  <tr><td>3</td><td>Charging door open in position</td><td>Charging door open-in-position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>4</td><td>Charging door closed in position</td><td>Charging door closed-in-position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>5</td><td>Discharge door open in position</td><td>Discharge door closed-in-position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>6</td><td>Discharge door closed in position</td><td>Discharge door closed-in-position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>7</td><td>Upper ram up in position</td><td>Upper ram up-in-position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>8</td><td>Upper ram down in position</td><td>Upper ram down-in-position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>9</td><td>Upper ram floating position</td><td>Upper ram floating position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>10</td><td>Upper ram cleaning position</td><td>Upper ram cleaning position signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in position 1: In position</td><td></td></tr>
+  <tr><td>11</td><td>Internal mixer remote control</td><td>Internal mixer working status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Non-remote mode 1: Remote mode</td><td></td></tr>
+  <tr><td>12</td><td>Internal mixer local control</td><td>Internal mixer is in local control mode</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Non-local control mode 1: Local control mode</td><td></td></tr>
+  <tr><td>13</td><td>Internal mixer work/maintenance</td><td>Internal mixer maintenance status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Work mode 1: Maintenance mode</td><td></td></tr>
+  <tr><td>14</td><td>Internal mixer material blocking</td><td>Internal mixer is in material-blocking status</td><td>-</td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in material-blocking status 1: In material-blocking status</td><td></td></tr>
+  <tr><td>15</td><td>Internal mixer fault</td><td>Internal mixer is in fault status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in fault status 1: Fault status</td><td></td></tr>
+  <tr><td>16</td><td>Internal mixer running</td><td>Internal mixer is in running status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not running 1: Running</td><td></td></tr>
+  <tr><td>17</td><td>Discharge door closing buffer</td><td>Discharge door is in closing buffer state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in closing buffer state 1: Closing buffer state</td><td></td></tr>
+  <tr><td>18</td><td>SAC discharge door opening buffer</td><td>Discharge door is in opening buffer state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in opening buffer state 1: Opening buffer state</td><td></td></tr>
+  <tr><td>19</td><td>Internal mixer semi-auto selection</td><td>Internal mixer is in semi-auto selection state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not in semi-auto selection state 1: Semi-auto selection state</td><td></td></tr>
+  <tr><td>20</td><td>(Internal mixer operation panel) add carbon black button</td><td>Add carbon black button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>21</td><td>(Internal mixer operation panel) add oil 1 button</td><td>Add oil 1 button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>22</td><td>(Internal mixer operation panel) add oil 2 button</td><td>Add oil 2 button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>23</td><td>(Internal mixer operation panel) add oil 2 button</td><td>Add oil 2 button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>24</td><td>(Internal mixer operation panel) add oil 3 add oil 3 button pressed button</td><td>Panel) add oil 3 add oil 3 button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>25</td><td>Charging door and discharge door air duct temperature high</td><td>Charging door and discharge door air duct equipment temperature exceeds a certain temperature</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>26</td><td>(Internal mixer operation panel) carbon black out-of-tolerance confirmation</td><td>Carbon black out-of-tolerance confirmation button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>27</td><td>(Internal mixer operation panel) No.1 oil out-of-tolerance confirmation</td><td>No.1 oil out-of-tolerance confirmation button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>28</td><td>(Internal mixer operation panel) No.2 oil out-of-tolerance confirmation</td><td>No.2 oil out-of-tolerance confirmation button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>29</td><td>(Internal mixer operation panel) No.3 oil out-of-tolerance confirmation</td><td>No.3 oil out-of-tolerance confirmation button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>30</td><td>(Internal mixer operation panel) upstream auxiliary system reset</td><td>Upstream auxiliary system reset button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>31</td><td>(Internal mixer operation panel) upstream auxiliary alarm reset</td><td>Upstream auxiliary alarm reset button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>32</td><td>Hydraulic station high-pressure pump start/stop</td><td>Hydraulic station high-pressure pump status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Stop 1: Start</td><td></td></tr>
+  <tr><td>33</td><td>Hydraulic station low-pressure pump start/stop</td><td>Hydraulic station low-pressure pump status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Stop 1: Start</td><td></td></tr>
+  <tr><td>34</td><td>Hydraulic station cooling pump start/stop</td><td>Hydraulic station cooling pump status</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Stop 1: Start</td><td></td></tr>
+  <tr><td>35</td><td>Hydraulic station oil temperature</td><td>Hydraulic station oil temperature signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Overtemperature</td><td></td></tr>
+  <tr><td>36</td><td>Hydraulic station 1# return oil filter</td><td>Hydraulic station 1# return oil filter</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Normal 1: Clogged</td><td></td></tr>
+  <tr><td>37</td><td>Hydraulic station 2# return oil filter</td><td>Hydraulic station 2# return oil filter</td><td></td><td>BOOL</td><td>1S</td><td>IC     0/1</td><td>0: Normal 1: Clogged</td><td></td></tr>
+  <tr><td>38</td><td>Discharge door open output</td><td>Signal of discharge door open action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>39</td><td>Discharge door close output</td><td>Signal of discharge door close action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>40</td><td>Locking output</td><td>Signal of locking action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>41</td><td>Unlock output</td><td>Signal of unlock action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>42</td><td>Upper ram up output</td><td>Signal of upper ram up action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>43</td><td>Upper ram down output</td><td>Signal of upper ram down action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>44</td><td>Upper ram up buffer output</td><td>Upper ram up buffer state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not up buffer 1: Up buffer</td><td></td></tr>
+  <tr><td>45</td><td>Upper ram down buffer output</td><td>Signal of upper ram down buffer action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>46</td><td>Upper ram floating</td><td>Upper ram floating state</td><td></td><td>BOOL</td><td>1</td><td>SAC 0/1</td><td>0: Non-floating state 1: Floating state</td><td></td></tr>
+  <tr><td>47</td><td>Upper ram down high pressure</td><td>Upper ram down high-pressure state</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Non-down-high-pressure state 1: Down-high-pressure state</td><td></td></tr>
+  <tr><td>48</td><td>Upper ram cleaning output</td><td>Signal of upper ram cleaning action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>49</td><td>Charging door open output</td><td>Signal of charging door open action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>50</td><td>Charging door close output</td><td>Signal of charging door close action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>51</td><td>Discharge door bolt lock oil injection output</td><td>Signal of discharge door bolt lock oil injection action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>52</td><td>Upper ram oil injection output</td><td>Signal of upper ram oil injection action</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not output 1: Output</td><td></td></tr>
+  <tr><td>53</td><td>Gearbox lubricating oil pump working</td><td>Gearbox lubricating oil pump working signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not working 1: Working</td><td></td></tr>
+  <tr><td>54</td><td>Gearbox lubricating oil flow</td><td>Gearbox lubricating oil pump oil flow signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: No oil flow 1: Oil flow present</td><td></td></tr>
+  <tr><td>55</td><td>Gearbox lubricating oil pressure</td><td>Gearbox lubricating oil pump oil pressure signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: No oil pressure 1: Oil pressure present</td><td></td></tr>
+  <tr><td>56</td><td>Gearbox lubricating oil temperature</td><td>Gearbox lubricating oil pump oil temperature signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Oil temperature normal 1: Oil temperature too high</td><td></td></tr>
+  <tr><td>57</td><td>Lubricating oil pump working</td><td>Lubricating oil pump working signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not working 1: Working</td><td></td></tr>
+  <tr><td>58</td><td>Lubricating oil pressure too high</td><td>Lubricating oil pressure too high signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Oil pressure normal 1: Oil pressure too high</td><td></td></tr>
+  <tr><td>59</td><td>Lubricating oil fault</td><td>Lubricating oil fault signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Lubricating oil normal 1; Lubricating oil fault</td><td></td></tr>
+  <tr><td>60</td><td>Process oil pump working</td><td>Process oil pump working signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not working 1: Working</td><td></td></tr>
+  <tr><td>61</td><td>Process oil pressure too high</td><td>Process oil pressure too high signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Oil pressure normal 1: Oil pressure too high</td><td></td></tr>
+  <tr><td>62</td><td>Process oil fault</td><td>Process oil fault signalS9</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Process oil normal 1: Process oil fault</td><td></td></tr>
+  <tr><td>63</td><td>Grease pump working</td><td>Grease pump working signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not working 1: Working</td><td></td></tr>
+  <tr><td>64</td><td>Grease fault</td><td>Grease fault signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Grease normal 1: Grease fault</td><td></td></tr>
+  <tr><td>65</td><td>Main motor air pressure</td><td>Main motor air pressure signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: No air pressure 1: Air pressure present</td><td></td></tr>
+  <tr><td>66</td><td>Main motor water flow</td><td>Main motor water flow signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: No water flow 1: Water flow present</td><td></td></tr>
+  <tr><td>67</td><td>Main motor fan</td><td>Main motor fan signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not working 1: Working</td><td></td></tr>
+  <tr><td>68</td><td>Internal mixer temperature control working</td><td>Internal mixer temperature control working signal</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not working 1: Working</td><td></td></tr>
+  <tr><td>69</td><td>Internal mixer upper body emergency stop</td><td>Internal mixer upper body emergency stop pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>70</td><td>Internal mixer lower body emergency stop</td><td>Internal mixer lower body emergency stop pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>71</td><td>Internal mixer drive cabinet emergency stop</td><td>Internal mixer drive cabinet emergency stop pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>72</td><td>Internal mixer temperature control cabinet emergency stop</td><td>Internal mixer temperature control cabinet emergency stop pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>73</td><td>Internal mixer operation cabinet emergency stop</td><td>Internal mixer operation cabinet emergency stop pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>74</td><td>Internal mixer hydraulic station emergency stop</td><td>Internal mixer hydraulic station emergency stop pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>75</td><td>Internal mixer console alarm reset</td><td>Internal mixer console alarm reset button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1; Button pressed</td><td></td></tr>
+  <tr><td>76</td><td>Internal mixer contact bell button</td><td>Internal mixer contact bell button pressed</td><td></td><td>BOOL</td><td>1</td><td>0/1</td><td>0: Not pressed 1: Button pressed</td><td></td></tr>
+  <tr><td>77</td><td>Compound temperature</td><td>Compound temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~300℃</td><td></td><td></td></tr>
+  <tr><td>78</td><td>Upper ram pressure</td><td>Upper ram pressure value</td><td></td><td>INT</td><td>16</td><td>O bar～60 bar</td><td></td><td></td></tr>
+  <tr><td>79</td><td>Upper ram position</td><td>Upper ram position value</td><td></td><td>INT</td><td>16</td><td>0 mm～2 000 mm</td><td></td><td></td></tr>
+  <tr><td>80</td><td>Main machine speed</td><td>Main machine speed value</td><td></td><td>INT</td><td>16</td><td>0 r/min~60 r/min</td><td></td><td></td></tr>
+  <tr><td>81</td><td>Main machine power</td><td>Main machine power valueS</td><td></td><td>INT</td><td>16</td><td>0 kW～3 000 kW</td><td></td><td></td></tr>
+  <tr><td>82</td><td>Main machine current</td><td>Main machine current value</td><td></td><td>INT</td><td>16</td><td>0A~200 A</td><td></td><td></td></tr>
+  <tr><td>83</td><td>Internal mixer (same below) front left wear ring temperature</td><td>Main machine front left wear ring temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>84</td><td>Main machine front right wear ring temperature</td><td>Main machine front right wear ring temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>85</td><td>Main machine rear left wear ring temperature</td><td>Main machine rear left wear ring temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃～200℃</td><td></td><td></td></tr>
+  <tr><td>86</td><td>Main machine rear right wear ring temperature</td><td>Main machine rear right wear ring temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>87</td><td>Main machine front left bearing temperature</td><td>Main machine front left bearing temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>88</td><td>Main machine front right bearing temperature</td><td>Main machine front right bearing temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>89</td><td>Main machine rear left bearing temperature</td><td>Main machine rear left bearing temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>90</td><td>Main machine rear right bearing temperature</td><td>Main machine rear right bearing temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃～200℃</td><td></td><td></td></tr>
+  <tr><td>91</td><td>Gearbox bearing 1# temperature</td><td>Gearbox bearing 1# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃～200℃</td><td></td><td></td></tr>
+  <tr><td>92</td><td>Gearbox bearing 2# temperature</td><td>Gearbox bearing 2# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>93</td><td>Gearbox bearing 3# temperature</td><td>Gearbox bearing 3# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>94</td><td>Gearbox bearing 4# temperature</td><td>Gearbox bearing 4# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃～200℃</td><td></td><td></td></tr>
+  <tr><td>95</td><td>Gearbox oil temperature</td><td>Gearbox oil temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>96</td><td>Main motor bearing 1# temperature</td><td>Main motor bearing 1# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>97</td><td>Main motor bearing 2# temperature</td><td>Main motor bearing 2# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>98</td><td>Main motor bearing 3# temperature</td><td>Main motor bearing 3# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td>SAC</td><td></td></tr>
+  <tr><td>99</td><td>Main motor bearing 4# temperature</td><td>Main motor bearing 4# temperature value</td><td></td><td>FLOAT</td><td>32</td><td>0℃～200℃</td><td></td><td></td></tr>
+  <tr><td>100</td><td>Main motor winding 1# temperature</td><td>Main motor winding 1# temperature</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>101</td><td>Main motor winding 2# temperature</td><td>Main motor winding 2# temperature</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>102</td><td>Main motor winding 3# temperature</td><td>Main motor winding 3# temperature</td><td></td><td>FLOAT</td><td>32</td><td>0℃～200℃</td><td></td><td></td></tr>
+  <tr><td>103</td><td>Main motor winding 4# temperature</td><td>Main motor winding 4# temperature</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>104</td><td>Main motor winding 5# temperature</td><td>Main motor winding 5# temperature</td><td></td><td>FLOAT</td><td>32</td><td>0℃~200℃</td><td></td><td></td></tr>
+  <tr><td>105</td><td>Main motor winding 6# temperature</td><td>Main motor winding 6# temperature</td><td></td><td>FLOAT</td><td>32</td><td>0℃～200℃</td><td></td><td></td></tr>
+</table>

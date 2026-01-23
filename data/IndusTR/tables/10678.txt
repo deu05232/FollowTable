@@ -1,0 +1,7 @@
+<table>
+  <caption>Device Certificate Verification API</caption>
+  <tr><th>API Name</th><td>Device Certificate Verification API</td></tr>
+  <tr><th>API Description</th><td>Verify a device certificate chain and bind the verified identity to the current session</td></tr>
+  <tr><th>API Method</th><td>POST</td></tr>
+  <tr><th>Parameter Description</th><td>Must include at least: User ID (string userID), authentication parameter (string access_token), device ID (string devID), device certificate (string devCert), device nonce (string nonce), signature (string devSign)</td></tr>
+</table>

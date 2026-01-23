@@ -1,0 +1,19 @@
+<table>
+  <caption>Comparison of the simulation results in this paper for the Monte-Carlo model (MC) and PCA model with Poisson (PCAP) and Full (PCAF) initial conditions with those of Araujo et al (ALHS) [ alhs ] . Numbers in parentheses represent the statistical error in the preceding digit.</caption>
+  <tr><th></th><th>ALHS</th><th>MC</th><th>PCAP</th><th>PCAF</th></tr>
+  <tr><th>Size</th><th>2000</th><th>4000</th><th>4000</th><th>Infinite</th></tr>
+  <tr><th>Exclusion prle.?</th><th>No</th><td>No See text</td><td>Yes</td><td>Yes</td></tr>
+  <tr><th>Initial density</th><th>1.0</th><td>1.0</td><td>0.5</td><td>2.0</td></tr>
+  <tr><th>Initial State</th><th>(Uniform)</th><td>Poisson</td><td>Poisson</td><td>Uniform</td></tr>
+  <tr><th>Averaging</th><th>6000–15000</th><td>21000</td><td>82176</td><td>64000</td></tr>
+  <tr><th>Max time</th><th>25000</th><td>25000</td><td>102400</td><td>409600</td></tr>
+  <tr><th>Exponents:</th><th></th><td></td><td></td><td></td></tr>
+  <tr><th>l^((1))</th><th>0.25</th><td>0.251(3)</td><td>0.2510(6)</td><td>0.2542(4)</td></tr>
+  <tr><th>l^((16))</th><th>0.25</th><td>0.23(1)</td><td>0.248(3)</td><td>0.2609(3)</td></tr>
+  <tr><th>m^((2))</th><th>0.375</th><td>0.281(4)</td><td>0.287(1)</td><td>0.300(1)</td></tr>
+  <tr><th>m^((16))</th><th>0.375</th><td>0.29(1)</td><td>0.284(1)</td><td>0.299(3)</td></tr>
+  <tr><th>x^((2))</th><th>0.312</th><td>0.2799(2) Measured from X^((q))</td><td>0.286(2)</td><td>0.291(1)</td></tr>
+  <tr><th>x^((8))</th><th>0.359</th><td>0.282(2) ^((b))</td><td>0.280(4)</td><td>0.293(1)</td></tr>
+  <tr><th>x^((16))</th><th>0.367</th><td>0.30(2) ^((b))</td><td>0.28(1)</td><td>0.293(2)</td></tr>
+  <tr><th>Fit over last…</th><th>N/A</th><td>8 points</td><td>5 points</td><td>6 points</td></tr>
+</table>

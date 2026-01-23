@@ -1,0 +1,8 @@
+<table>
+  <caption>Power analyzer configuration and input supply limits used during copier/MFD energy tests</caption>
+  <tr><th>Analyzer setting category</th><th>Parameter described</th><th>Nominal target</th><th>Allowed tolerance</th><th>Notes for the lab setup</th></tr>
+  <tr><td>Input supply</td><td>AC voltage level for the test bench</td><td>220 V</td><td>±2%</td><td>Maintain within tolerance throughout the run</td></tr>
+  <tr><td>Input supply</td><td>Line frequency</td><td>50 Hz</td><td>±1%</td><td>Use stabilized source when available</td></tr>
+  <tr><td>Power quality</td><td>Total harmonic distortion limit</td><td>≤ 5%</td><td>N/A</td><td>Verify before starting measurements</td></tr>
+  <tr><td>Analyzer</td><td>Sampling/update behavior</td><td>1 s update</td><td>N/A</td><td>Chosen for stable display during long intervals</td></tr>
+</table>

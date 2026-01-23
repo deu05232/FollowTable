@@ -1,0 +1,16 @@
+<table>
+  <caption>Application Identifiers for Agricultural Inputs Traceability (Formats Only)</caption>
+  <thead>
+    <tr><th>Element String Name</th><th>Application Identifier</th><th>Data Field Format</th><th>Length Rule</th><th>Mandatory</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Global Trade Item Number</td><td>01</td><td>N14</td><td>Fixed (14 digits)</td><td>Yes</td></tr>
+    <tr><td>Agricultural Input Product Category</td><td>8001</td><td>N4</td><td>Fixed (4 digits)</td><td>No</td></tr>
+    <tr><td>Lot/Batch Number</td><td>10</td><td>X..20</td><td>Variable (up to 20 chars)</td><td>No</td></tr>
+    <tr><td>Serial Number</td><td>21</td><td>X..20</td><td>Variable (up to 20 chars)</td><td>Yes</td></tr>
+    <tr><td>Production Date</td><td>11</td><td>N6</td><td>Fixed (YYMMDD)</td><td>No</td></tr>
+    <tr><td>Expiration Date</td><td>17</td><td>N6</td><td>Fixed (YYMMDD)</td><td>No</td></tr>
+    <tr><td>Country of Origin</td><td>422</td><td>N3</td><td>Fixed (3 digits)</td><td>No</td></tr>
+    <tr><td colspan="5">This table specifies AI formats (character/digit lengths), not binary bit allocation.</td></tr>
+  </tbody>
+</table>

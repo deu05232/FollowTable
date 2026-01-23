@@ -1,0 +1,14 @@
+<table>
+  <caption>SM9 Service Interfaces Grouped by Common Parameter (Non-functional Listing)</caption>
+  <thead>
+    <tr><th>Parameter (Main Item)</th><th>Where Used (Functions)</th><th>Meaning / Rule Notes</th><th>Typical Constraints</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>hAppHandle</td><td>SAF_SM9Encrypt,SAF_SM9Decrypt,SAF_SM9Sign,SAF_SM9Verify,SAF_ImportSM9MasterPublicKey</td><td>Application interface handle passed to SM9 service calls.</td><td>Must be created by vendor SDK; non-NULL.</td></tr>
+    <tr><td>uiMasterPublicKeyIndex</td><td>SAF_SM9Encrypt,SAF_SM9Verify,SAF_SM9GenerateAgreementData,SAF_SM9GenerateAgreementDataAndKey</td><td>Index of the SM9 master public key used for encryption/signature verification or agreement context.</td><td>Valid index range depends on device policy.</td></tr>
+    <tr><td>pucUserID</td><td>SAF_SM9Encrypt,SAF_SM9Verify,SAF_SM9KeyDecapsulate</td><td>User identity bytes used by SM9 (identity-based crypto).</td><td>DER or raw encoding depends on implementation.</td></tr>
+    <tr><td>pucContainerName</td><td>SAF_SM9Sign,SAF_SM9Decrypt</td><td>Name of key container holding user private key material.</td><td>ASCII/UTF-8; length limited by provider.</td></tr>
+    <tr><td>uiKeyBits</td><td>SAF_SM9GenerateAgreementData,SAF_SM9GenerateAgreementDataAndKey,SAF_SM9KeyDecapsulate</td><td>Requested session key size (bits).</td><td>Common values: 128/256.</td></tr>
+    <tr><td>pucEncData</td><td>SAF_SM9Decrypt</td><td>Encrypted payload produced by SM9 encryption.</td><td>Length must match encoding of ciphertext package.</td></tr>
+  </tbody>
+</table>

@@ -1,0 +1,11 @@
+# IPv4 Reserved and Private Blocks with CIDR Subnet Mask Cheat Sheet
+
+| CIDR Block | Subnet Mask | Range | Label | Purpose |
+| --- | --- | --- | --- | --- |
+| 127.0.0.0/8 | 255.0.0.0 | 127.0.0.0 – 127.255.255.255 | Loopback | Local host loopback |
+| 169.254.0.0/16 | 255.255.0.0 | 169.254.0.0 – 169.254.255.255 | Link-Local | Autoconfiguration when DHCP fails |
+| 100.64.0.0/10 | 255.192.0.0 | 100.64.0.0 – 100.127.255.255 | Shared Space | ISP/CGNAT subscriber addressing |
+| 192.0.2.0/24 | 255.255.255.0 | 192.0.2.0 – 192.0.2.255 | Documentation | Examples in docs and tutorials |
+| 198.51.100.0/24 | 255.255.255.0 | 198.51.100.0 – 198.51.100.255 | Documentation | Examples in docs and tutorials |
+| 203.0.113.0/24 | 255.255.255.0 | 203.0.113.0 – 203.0.113.255 | Documentation | Examples in docs and tutorials |
+| 10.0.0.0/8 | 255.0.0.0 | 10.0.0.0 – 10.255.255.255 | RFC1918 Private | Internal private routing |

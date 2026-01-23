@@ -1,0 +1,10 @@
+<table>
+  <caption>Reference-driven conformance traversal requirements (external tables/clauses)</caption>
+  <tr><th>Syntax element name</th><th>Test requirements</th></tr>
+  <tr><td>motion_vector_precision_idx</td><td>Traverse all binary symbol string cases in Table 12 of the specification</td></tr>
+  <tr><td>pred_weight_table_idx</td><td>Traverse all cases described in Clause 9.4.2 where weighted prediction is enabled</td></tr>
+  <tr><td>alf_coeff_abs</td><td>Traverse all binary symbol string cases in Table 27 of the specification</td></tr>
+  <tr><td>rpl_idx</td><td>Traverse all cases described in Clause 7.3.6 for reference picture list construction</td></tr>
+  <tr><td>scaling_list_pred_mode_flag</td><td>Traverse all cases in Clause 8.5.1 where the flag is present</td></tr>
+  <tr><td>delta_qp_coded</td><td>Traverse all binary symbol string cases in Table 33 of the specification</td></tr>
+</table>

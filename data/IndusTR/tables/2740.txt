@@ -1,0 +1,10 @@
+<table>
+  <caption>Interface Parameter Glossary Index (Non-API  Customer Service System)</caption>
+  <tr><th>Term</th><th>Field Name</th><th>Data Type</th><th>Used In Module</th><th>Example Value</th><th>Validation Rule</th><th>Description</th></tr>
+  <tr><td>Return Result</td><td>returnResult</td><td>string</td><td>CRM Ticket Closure</td><td>SUCCESS</td><td>Enum: SUCCESS/FAIL</td><td>Indicates ticket closing outcome</td></tr>
+  <tr><td>Result Description</td><td>resultDescription</td><td>string</td><td>CRM Ticket Closure</td><td>Closed by agent</td><td>Max 2000 chars</td><td>Human-readable closure note</td></tr>
+  <tr><td>Subscriber ID</td><td>subscriberID</td><td>string</td><td>Newsletter Subscription</td><td>U109223</td><td>Non-empty</td><td>User identifier for email list</td></tr>
+  <tr><td>Interface Operation</td><td>interfaceOperation</td><td>string</td><td>Workflow Engine</td><td>CANCEL</td><td>Uppercase</td><td>Operation label used in workflows</td></tr>
+  <tr><td>Initiator Notification ID</td><td>initiatorNotificationID</td><td>string</td><td>Call Center Handover</td><td>AGT-8821</td><td>Pattern: [A-Z]{3}-\d+</td><td>Agent handover record ID</td></tr>
+  <tr><td>Recipient Notification ID</td><td>recipientNotificationID</td><td>string</td><td>Call Center Handover</td><td>CUS-10201</td><td>Pattern: [A-Z]{3}-\d+</td><td>Customer record ID in call center</td></tr>
+</table>

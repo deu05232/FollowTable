@@ -1,0 +1,15 @@
+<table>
+  <caption>A3H Query Status Frame (Header-only Layout Across Steps)</caption>
+  <thead>
+    <tr><th>Step</th><th>Start Symbol</th><th>KADDL</th><th>Command</th><th>Length</th><th>CRC-16</th><th>End Symbol</th><th>Remark</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>55H AAH 55H AAH</td><td>00H</td><td>A3H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>Broadcast query</td></tr>
+    <tr><td>2</td><td>55H AAH 55H AAH</td><td>01H</td><td>A3H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>Single node query</td></tr>
+    <tr><td>3</td><td>55H AAH 55H AAH</td><td>02H</td><td>A3H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>Single node query</td></tr>
+    <tr><td>4</td><td>55H AAH 55H AAH</td><td>03H</td><td>A3H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>Single node query</td></tr>
+    <tr><td>5</td><td>55H AAH 55H AAH</td><td>04H</td><td>A3H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>Single node query</td></tr>
+    <tr><td>6</td><td>55H AAH 55H AAH</td><td>05H</td><td>A3H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>Single node query</td></tr>
+    <tr><td>7</td><td>55H AAH 55H AAH</td><td>06H</td><td>A3H</td><td>0000H</td><td>CRC16</td><td>0DH 0AH</td><td>Single node query</td></tr>
+  </tbody>
+</table>

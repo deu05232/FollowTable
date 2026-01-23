@@ -1,0 +1,14 @@
+<table>
+  <caption>Special-area passage scenarios (single aggregated entry)</caption>
+  <thead>
+    <tr><th>Special-area Situation</th><th>Road Condition</th><th>Traffic Facilities</th><th>Control / Signage</th><th>Weather / Lighting</th><th>Traffic Participants</th><th>Monitoring / Communication</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Pass through special areas (generic)</td><td>Includes tunnels, toll plazas, roundabouts, bus bays, interchange bridges, entrance/exit ramps; asphalt or cement; dry/wet; straight/curved; lane count varies</td><td>Guardrails, lane delineators, tunnel portals, toll booths, bus stop bays, medians, expansion joints</td><td>Variable message signs, speed limits, merge/exit markings, yield signs, no-stopping zones</td><td>Day/night; possible sudden illumination change in tunnels; rain/fog possible</td><td>Cars, buses, trucks, pedestrians near bus stops, cyclists near ramps</td><td>Roadside CCTV, V2X RSUs, high-precision map + GNSS base stations, ETC gantries</td></tr>
+    <tr><td>Notes</td><td colspan="6">This table intentionally summarizes multiple special areas into one row for a high-level overview.</td></tr>
+    <tr><td>Applies to</td><td colspan="6">General safe and civilized driving capability evaluation</td></tr>
+    <tr><td>Test focus</td><td colspan="6">Stable lane keeping, speed adaptation, compliant merging, situational awareness</td></tr>
+    <tr><td>Data sources</td><td colspan="6">On-board sensors, infrastructure sensing, cloud-side analytics</td></tr>
+    <tr><td>Assumptions</td><td colspan="6">Traffic flow is moderate; no construction zone unless otherwise stated</td></tr>
+  </tbody>
+</table>

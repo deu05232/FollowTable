@@ -1,0 +1,16 @@
+<table>
+  <caption>Combined Insulation Verification Limits: Withstand Voltage plus Clearance/Creepage Requirements (Category II)</caption>
+  <thead>
+    <tr><th rowspan="3">Line-to-neutral working voltage (AC RMS or DC) (V)</th><th colspan="4">Dielectric strength verification</th><th colspan="4">Geometry / spacing constraints</th></tr>
+    <tr><th colspan="2">5 s AC withstand (V)</th><th colspan="2">Impulse (1.2/50 µs) (V)</th><th colspan="2">Minimum clearance (mm)</th><th colspan="2">Minimum creepage (mm)</th></tr>
+    <tr><th>Basic / Supplementary</th><th>Reinforced</th><th>Basic / Supplementary</th><th>Reinforced</th><th>Basic</th><th>Reinforced</th><th>Basic</th><th>Reinforced</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>≤ 150</td><td>1500</td><td>3000</td><td>2500</td><td>5000</td><td>0.8</td><td>1.6</td><td>1.2</td><td>2.4</td></tr>
+    <tr><td>>150 – 300</td><td>2000</td><td>4000</td><td>4000</td><td>8000</td><td>1.2</td><td>2.4</td><td>1.8</td><td>3.6</td></tr>
+    <tr><td>>300 – 600</td><td>2500</td><td>5000</td><td>6000</td><td>12000</td><td>2.0</td><td>4.0</td><td>3.2</td><td>6.4</td></tr>
+    <tr><td>>600 – 1000</td><td>4000</td><td>8000</td><td>10000</td><td>20000</td><td>4.5</td><td>9.0</td><td>7.0</td><td>14.0</td></tr>
+    <tr><td>>1000 – 1500</td><td>5000</td><td>10000</td><td>12000</td><td>24000</td><td>6.0</td><td>12.0</td><td>10.0</td><td>20.0</td></tr>
+    <tr><td>>1500 – 2000</td><td>6500</td><td>13000</td><td>15000</td><td>30000</td><td>8.0</td><td>16.0</td><td>13.0</td><td>26.0</td></tr>
+  </tbody>
+</table>

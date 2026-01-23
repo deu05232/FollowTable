@@ -1,0 +1,15 @@
+<table>
+  <caption>Recipe Execution Conditions and Parameter Constraints (Behavior-Oriented)</caption>
+  <thead>
+    <tr><th>No.</th><th>Parameter / Signal</th><th>Applies To Module</th><th>Data Type</th><th>Length (bit)</th><th>Allowed Range</th><th>Constraint / Rule</th><th>Meaning When Out-of-Range</th><th>Related Tags</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td>LineSpeedSetpoint</td><td>Extrusion Line</td><td>FLOAT</td><td>32</td><td>3.0~30.0</td><td>Cannot change while LineState=RUNNING</td><td>Reject write; keep previous value</td><td>LineState, SpeedFeedback</td></tr>
+    <tr><td>2</td><td>CompoundCode</td><td>Feeding System</td><td>STRING</td><td>256</td><td>ASCII 0x20~0x7E</td><td>Must match MES work order material list</td><td>Raise material mismatch alarm</td><td>MES_OrderID, MaterialListHash</td></tr>
+    <tr><td>3</td><td>WeighHighSpeed</td><td>Weighing Scale</td><td>FLOAT</td><td>32</td><td>0.1~10.0</td><td>HighSpeed > MediumSpeed > LowSpeed</td><td>Disable auto-weigh mode</td><td>WeighMediumSpeed, WeighLowSpeed</td></tr>
+    <tr><td>4</td><td>OverweightTolerance</td><td>Weighing Scale</td><td>FLOAT</td><td>32</td><td>0.0~5.0</td><td>If GrossWeight > Target+Tol then stop feeder</td><td>Overweight alarm</td><td>GrossWeight, TargetWeight</td></tr>
+    <tr><td>5</td><td>CutterMotorState</td><td>Cutter</td><td>INT</td><td>16</td><td>0/1/2/3</td><td>State=2 only if BrakeState=0</td><td>Force stop if violated</td><td>BrakeState, CutterCmd</td></tr>
+    <tr><td>6</td><td>BrakeState</td><td>Cutter</td><td>INT</td><td>16</td><td>0/1/2</td><td>Brake must be released 500 ms before start</td><td>Start inhibited</td><td>StartCmd, BrakeReleaseTimer</td></tr>
+    <tr><td>7</td><td>BatchEndCondition</td><td>Mixer</td><td>INT</td><td>16</td><td>0~2</td><td>0: time-based; 1: temp-based; 2: energy-based</td><td>Unexpected dump behavior</td><td>MixTime, MixTemp, MixEnergy</td></tr>
+  </tbody>
+</table>

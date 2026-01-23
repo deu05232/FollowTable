@@ -1,0 +1,24 @@
+<table>
+  <caption>Minimum Recording Requirements for Localization, Timing, and Map Reference Data</caption>
+  <thead>
+    <tr><th>Group</th><th>Data Item</th><th>Level</th><th>Minimum Recording Frequency</th><th>Unit / Scale</th><th>Minimum Recording Data Capability Range</th><th>Minimum Recording Resolution</th><th>Minimum Recording Accuracy / Reliability</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td rowspan="6">Time & synchronization</td><td>System timestamp (monotonic)</td><td>A</td><td>Every record</td><td>ms</td><td>0–86,400,000 per day</td><td>1</td><td>Drift ≤ 50 ppm</td><td>Used to order all recorded signals.</td></tr>
+    <tr><td>UTC time (if GNSS available)</td><td>B</td><td>1 Hz</td><td>s</td><td>Valid UTC epoch</td><td>1</td><td>Offset to GNSS time ≤ ±1 s</td><td>Record the best available absolute time source.</td></tr>
+    <tr><td>Time synchronization status</td><td>A</td><td>10 Hz</td><td>Enum</td><td>0: Unsynced; 1: NTP; 2: GNSS; 3: PTP</td><td>Not applicable</td><td>Should have no error</td><td>Indicates the active time base.</td></tr>
+    <tr><td>Sensor-to-system time offset (camera)</td><td>B</td><td>10 Hz</td><td>ms</td><td>-200–200</td><td>1</td><td>±5 ms</td><td>Applies when sensors maintain independent clocks.</td></tr>
+    <tr><td>Sensor-to-system time offset (lidar)</td><td>B</td><td>10 Hz</td><td>ms</td><td>-200–200</td><td>1</td><td>±5 ms</td><td>Record per sensor instance if multiple lidars exist.</td></tr>
+    <tr><td>Log packet loss rate</td><td>B</td><td>1 Hz</td><td>%</td><td>0–100</td><td>0.1</td><td>±1%</td><td>Percentage of dropped frames/messages over last second.</td></tr>
+    <tr><td rowspan="7">Localization</td><td>GNSS latitude</td><td>B</td><td>10 Hz</td><td>deg</td><td>-90–90</td><td>1e-7</td><td>Horizontal error ≤ 2.0 m (95%)</td><td>Record raw or fused output; specify frame in metadata.</td></tr>
+    <tr><td>GNSS longitude</td><td>B</td><td>10 Hz</td><td>deg</td><td>-180–180</td><td>1e-7</td><td>Horizontal error ≤ 2.0 m (95%)</td><td>Same accuracy requirement as latitude.</td></tr>
+    <tr><td>GNSS altitude</td><td>C</td><td>5 Hz</td><td>m</td><td>-500–9000</td><td>0.1</td><td>Vertical error ≤ 5.0 m (95%)</td><td>Optional for systems not using altitude.</td></tr>
+    <tr><td>Vehicle heading (yaw)</td><td>A</td><td>50 Hz</td><td>deg</td><td>0–360</td><td>0.1</td><td>±1.0 deg</td><td>Heading in the vehicle-fixed reference frame.</td></tr>
+    <tr><td>Vehicle position covariance (2D)</td><td>B</td><td>10 Hz</td><td>m²</td><td>0–100</td><td>0.01</td><td>Should have no error</td><td>Records estimated uncertainty for auditability.</td></tr>
+    <tr><td>Localization solution type</td><td>A</td><td>10 Hz</td><td>Enum</td><td>0: Dead-reckoning; 1: GNSS; 2: GNSS+IMU; 3: Map-matching</td><td>Not applicable</td><td>Should have no error</td><td>Identifies which method produced the pose.</td></tr>
+    <tr><td>Localization validity flag</td><td>A</td><td>10 Hz</td><td>Boolean</td><td>0: Invalid; 1: Valid</td><td>Not applicable</td><td>Should have no error</td><td>Indicates whether pose may be used for control decisions.</td></tr>
+    <tr><td rowspan="3">Map reference</td><td>Map version identifier</td><td>A</td><td>On change / at start</td><td>String</td><td>Defined by the enterprise</td><td>Not applicable</td><td>Should have no error</td><td>Must uniquely identify the HD map package used.</td></tr>
+    <tr><td>Lane reference ID</td><td>B</td><td>10 Hz</td><td>String/Int</td><td>Defined by the enterprise</td><td>Not applicable</td><td>Should have no error</td><td>Current lane segment used for planning.</td></tr>
+    <tr><td>Road curvature at ego position</td><td>B</td><td>10 Hz</td><td>1/m</td><td>-0.2–0.2</td><td>0.001</td><td>±0.01 1/m</td><td>Curvature from map or estimated, consistent with planning reference.</td></tr>
+  </tbody>
+</table>

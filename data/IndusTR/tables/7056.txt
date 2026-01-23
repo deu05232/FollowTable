@@ -1,0 +1,15 @@
+<table>
+  <caption>Digital Radiography Inspection Information Module — Attribute Listing (No VR Column)</caption>
+  <thead>
+    <tr><th>Attribute Name</th><th>Tag</th><th>VM</th><th>Type</th><th>Description</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Process Specification</td><td>(0014,6002)</td><td>1</td><td>2</td><td>Process specification number used for inspection</td></tr>
+    <tr><td>Applicable Standard</td><td>(0014,6003)</td><td>1</td><td>2</td><td>Method standard number followed for inspection</td></tr>
+    <tr><td>Technical Level</td><td>(0014,6004)</td><td>1</td><td>2</td><td>Technical level requirements for inspection</td></tr>
+    <tr><td>Inspection Method</td><td>(0014,6005)</td><td>1</td><td>2</td><td>Stated inspection method or technique identifier</td></tr>
+    <tr><td>Inspection Lot Identifier</td><td>(0014,6006)</td><td>1</td><td>3</td><td>Identifier for the inspection lot/batch</td></tr>
+    <tr><td>Acceptance Criteria</td><td>(0014,6007)</td><td>1</td><td>3</td><td>Acceptance criteria reference used to evaluate results</td></tr>
+    <tr><td>Reporting Template ID</td><td>(0014,6008)</td><td>1</td><td>3</td><td>Identifier of the reporting template used for output</td></tr>
+  </tbody>
+</table>
