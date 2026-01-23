@@ -76,7 +76,7 @@ The **FollowTable benchmark is publicly released** as part of this project.
 ## Notes
 
 
-### 📌 Dataset Type to Paper Dimension Mapping
+### 📌 Dataset Type to Type in Paper Mapping
 
 The following table provides the cross-reference between the `type` field used in this dataset and the evaluation dimensions defined in our paper:
 
