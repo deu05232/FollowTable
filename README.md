@@ -28,6 +28,30 @@ We identify two core challenges for IFTR:
 
 We introduce **FollowTable**, the first large-scale benchmark designed specifically for IFTR. It is built using a **taxonomy-driven annotation pipeline** to ensure systematic coverage of instruction types and constraint patterns.
 
+## Benchmark Statistics
+
+The table below summarizes key statistics of **FollowTable** across its constituent datasets.  
+Let \(|\mathcal{Q}|\), \(|\mathcal{I}|\), and \(|\mathcal{T}_{\mathcal{Q}}|\) denote the number of **queries**, **instructions**, and **candidate tables** per dataset, respectively.
+
+- **Avg. Row / Avg. Col**: average number of rows / columns per table  
+- **Hier.**: whether the dataset contains tables with *hierarchical headers*  
+- **Relevance Density**:
+  - \(|\mathcal{T}^+_{\mathcal{Q}}|/|\mathcal{Q}|\): average # relevant tables per query  
+  - \(|\mathcal{T}^+_{\mathcal{Q},\mathcal{I}}|/|\mathcal{I}|\): average # instruction-compliant tables per instruction  
+- **Len (Q) / Len (I)**: average number of words in queries / instructions  
+- **Instruction Scale by Type (C1, C2, S1, S2, S3)**: distribution of instructions across taxonomy categories (as defined in our paper)
+
+| Dataset | \|\u211A\| (Queries) | \|\u2130\| (Instructions) | \|\u2131_Q\| (Candidate Tables) | Avg. Row | Avg. Col | Hier. | \|\u2131⁺_Q\|/\|\u211A\| | \|\u2131⁺_{Q,I}\|/\|\u2130\| | Len (Q) | Len (I) | C1 | C2 | S1 | S2 | S3 |
+|---|---:|---:|---:|---:|---:|:---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
+| WQT | 300 | 1,386 | 23,784 | 8.13 | 4.10 | — | 39.22 | 20.79 | 6.14 | 126.53 | 268 | 243 | 297 | 281 | 297 |
+| WTR | 60 | 267 | 9,546 | 5.74 | 22.47 | — | 46.55 | 21.22 | 2.80 | 126.21 | 50 | 46 | 59 | 54 | 58 |
+| TArX | 97 | 408 | 11,586 | 10.86 | 5.38 | ✓ | 30.88 | 16.89 | 5.22 | 43.36 | 69 | 79 | 90 | 83 | 87 |
+| IndusTR | 216 | 928 | 13,258 | 8.15 | 5.33 | ✓ | 33.81 | 15.38 | 6.95 | 133.55 | 206 | 194 | 211 | 109 | 208 |
+
+**Notes**
+- “Hier.” indicates whether the dataset includes tables with hierarchical headers.
+- The taxonomy category counts (C1, C2, S1, S2, S3) correspond to Columns 1.1–2.3 in our instruction taxonomy; see the paper for definitions.
+
 ## Evaluation: Instruction Responsiveness Score
 
 To evaluate whether a retriever *actually follows instructions*, we propose a new metric:
