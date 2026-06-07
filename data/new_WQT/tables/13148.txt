@@ -1,0 +1,11 @@
+# Classful View of Non-Public IPv4 Space (Class A B C Emphasis)
+
+| Class | CIDR block | Start–End range | Typical label | Notes |
+| --- | --- | --- | --- | --- |
+| Class A | 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Private | Often summarized as a single Class A network |
+| Class B (16 nets) | 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | Private | Described as contiguous Class B blocks |
+| Class C (256 nets) | 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | Private | Described as contiguous Class C blocks |
+| Class A | 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Host-only |
+| Class B | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local | APIPA |
+| Class D | 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Multicast | Not unicast public addressing |
+| Class E | 240.0.0.0/4 | 240.0.0.0 – 255.255.255.255 | Reserved/Experimental | Historically "future use" |

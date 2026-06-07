@@ -1,0 +1,10 @@
+# Differentiation cheat sheet  product quotient rules plus matrix calculus identities
+
+| Topic | Form | Derivative/Identity |
+|---|---|---|
+| Product rule | \(f(x)g(x)\) | \(f g' + f' g\) |
+| Quotient rule | \(\frac{f(x)}{g(x)}\) | \(\frac{f'g-fg'}{g^2}\) |
+| Matrix trace identity | \(dy=\mathrm{tr}(A\,dX)\) | \(\frac{dy}{dX}=A\) |
+| Vector linear form | \(dy= a\,dx\) | \(\frac{dy}{dx}=a\) |
+| Jacobian notation | \(y=f(x)\) | \(\nabla_x y\) denotes the derivative |
+| Differential form | \(d(y+z)\) | \(dy+dz\) |

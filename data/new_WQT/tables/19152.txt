@@ -1,0 +1,14 @@
+# Outlook Client Configuration Values When Using Microsoft 365 in a Hybrid Environment
+
+| Client | Field | Value / example | Authentication | Notes |
+| --- | --- | --- | --- | --- |
+| Outlook (Windows) | Account type | Microsoft 365 / Exchange | Modern Auth (OAuth2) | Autodiscover preferred |
+| Outlook (Windows) | User principal name | user@contoso.com | OAuth2 | Often matches sign-in |
+| Outlook (Windows) | Autodiscover URL | https://autodiscover.contoso.com/autodiscover/autodiscover.xml | OAuth2/NTLM | Depends on hybrid design |
+| Outlook (Mac) | Server | outlook.office365.com | OAuth2 | Manual entry sometimes used |
+| Mobile (iOS/Android) | Exchange ActiveSync | outlook.office365.com | OAuth2 | For native mail apps |
+| Legacy clients | IMAP server | outlook.office365.com:993 | Basic/Modern (varies) | Basic auth typically disabled |
+| Legacy clients | SMTP server | smtp.office365.com:587 | STARTTLS | Requires authenticated send |
+| Security | Encryption | TLS 1.2 | - | Recommended minimum |
+| Troubleshooting | Test email auto-configuration | Enabled | - | Helps diagnose Autodiscover |
+| Profile | Cached Exchange Mode | On | - | Typical end-user setting |

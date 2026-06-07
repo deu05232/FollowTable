@@ -1,0 +1,15 @@
+# Outlook.com (Hotmail) Email Client Setup Checklist  Endpoints, Ports, and Security Requirements
+
+| Setting area | Option | Recommended value | Alternatives / Notes |
+| --- | --- | --- | --- |
+| Incoming protocol | IMAP | IMAP | Use POP3 only if your client cannot use IMAP |
+| Incoming server | Hostname | outlook.office365.com | Legacy: imap-mail.outlook.com (IMAP), pop-mail.outlook.com (POP) |
+| Incoming server | Port | 993 (IMAP) / 995 (POP3) | Must match protocol selected |
+| Incoming server | Encryption | SSL/TLS | Do not use “null” |
+| Outgoing server (SMTP) | Hostname | smtp.office365.com | Legacy: smtp-mail.outlook.com |
+| Outgoing server (SMTP) | Port | 587 | Prefer 587 with STARTTLS; avoid 25 (often blocked by ISPs) |
+| Outgoing server (SMTP) | Encryption | STARTTLS (TLS) | Some clients label this as “TLS” |
+| Outgoing server (SMTP) | Authentication | Enabled (SMTP AUTH) | Use same credentials as incoming |
+| Credentials | Username | Full email address | Example: yourname@hotmail.com |
+| Credentials | Auth method | OAuth2 | If OAuth2 unavailable, use password or app password depending on account security |
+| Reliability / troubleshooting | Timeouts & sync | Default or 1–5 min | If failures occur, verify port/encryption first before changing other options |

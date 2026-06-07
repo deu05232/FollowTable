@@ -1,0 +1,11 @@
+# Bluetooth Standards and Profiles Often Used by Wireless Earbuds (with Typical Playback Ranges)
+
+| Bluetooth spec / profile | Typical earbud use case | Typical playback range (single charge) | Key features | PHY / channel notes | Security / pairing method |
+| --- | --- | --- | --- | --- | --- |
+| Bluetooth 4.2 + A2DP | Basic stereo audio | 4–7 h | Classic streaming audio | Classic BR/EDR | Legacy pairing |
+| Bluetooth 5.0 + A2DP | Mainstream TWS audio | 5–10 h | Better coexistence | Classic BR/EDR | Secure Simple Pairing |
+| Bluetooth 5.2 + LE Audio | Next-gen earbuds | 4–9 h | Multi-stream, broadcast | LE (Isochronous) | LE Secure Connections |
+| HFP (Hands-Free Profile) | Calls / mic use | 3–6 h | Voice calls | Classic BR/EDR | SSP |
+| AVRCP | Media controls | N/A | Play/pause/volume | Classic BR/EDR | SSP |
+| GATT (BLE services) | App control / EQ | N/A | Low-power control plane | LE | LE Secure Connections |
+| LC3 codec (LE Audio) | Efficient audio | 4–9 h | Lower bitrate audio | LE Isochronous | LE Secure Connections |

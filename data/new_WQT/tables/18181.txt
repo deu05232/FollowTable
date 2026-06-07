@@ -1,0 +1,10 @@
+# Mixed comparison  BitTorrent clients and the libraries they are based on
+
+| Project | Type | Based on library/component | Primary platforms | License | Notable protocol features |
+|---|---|---|---|---|---|
+| qBittorrent | Application client | libtorrent (Rasterbar) | Windows, macOS, Linux | GPL | DHT, PEX, Encryption |
+| Deluge | Application client | libtorrent (Rasterbar) | Windows, macOS, Linux | GPL | DHT, PEX |
+| rTorrent | Application client | libTorrent (Rakshasa) | Linux, Unix | GPL | DHT, Encryption |
+| WebTorrent Desktop | Application client | WebTorrent | Windows, macOS, Linux | MIT | WebRTC torrents |
+| Transmission (libtransmission) | Library | (itself) | Cross-platform | GPL | DHT, uTP |
+| MonoTorrent | Library | (itself) | Cross-platform | MIT | DHT, Encryption |

@@ -1,0 +1,13 @@
+# Administrative Distance vs Metric  Quick Comparison by Route Source
+
+| Route Source | Default Administrative Distance | Primary Metric/Attribute Used for Best Path | Notes |
+| --- | ---: | --- | --- |
+| Connected | 0 | N/A | Always preferred over learned routes |
+| Static | 1 | N/A | Can be used as backup with higher distance |
+| RIP | 120 | Hop count | Max 15 hops |
+| OSPF | 110 | Cost | Sum of interface costs |
+| IS-IS | 115 | Cost | Similar concept to OSPF cost |
+| EIGRP (internal) | 90 | Composite metric | Bandwidth + delay (+ optional) |
+| eBGP | 20 | Path attributes | Uses local-pref/AS-path/MED etc. |
+| iBGP | 200 | Path attributes | Same attribute set as BGP |
+| EIGRP (external) | 170 | Composite metric | External routes are less preferred |

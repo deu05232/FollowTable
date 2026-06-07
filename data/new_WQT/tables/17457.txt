@@ -1,0 +1,14 @@
+# Example Fleet Composition by Airline — Active vs. Ordered vs. Retired (Type-Level)
+
+| Airline | Manufacturer | Aircraft model | Active fleet | On order | Retired (historical) | Status summary |
+| --- | --- | --- | ---:| ---:| ---:| --- |
+| Northern Bridge Air | Airbus | A320-200 | 20 | 0 | 6 | Active (legacy narrowbody) |
+| Northern Bridge Air | Airbus | A320neo | 10 | 12 | 0 | Active + growth orders |
+| Northern Bridge Air | Airbus | A330-300 | 3 | 0 | 2 | Active (limited widebody) |
+| Meridian Atlantic | Boeing | 737-700 | 0 | 0 | 14 | Retired (fleet exit complete) |
+| Meridian Atlantic | Boeing | 737-800 | 22 | 0 | 4 | Active (core) |
+| Meridian Atlantic | Boeing | 737 MAX 9 | 8 | 8 | 0 | Active + on order |
+| Meridian Atlantic | Boeing | 767-300ER | 5 | 0 | 3 | Active (to be phased down) |
+| Highland Regional | De Havilland Canada | Dash 8-400 | 11 | 0 | 7 | Active (regional) |
+| Highland Regional | Embraer | E175 | 9 | 0 | 0 | Active (regional jets) |
+| Highland Regional | Airbus | A220-100 | 0 | 6 | 0 | On order (future type) |

@@ -1,0 +1,11 @@
+# Administrative Distance Quick List (Only Major Protocols) — Minimal Set
+
+| Protocol / Route source | Default AD |
+|---|---:|
+| Connected | 0 |
+| Static | 1 |
+| eBGP | 20 |
+| EIGRP internal | 90 |
+| OSPF | 110 |
+| IS-IS | 115 |
+| RIP | 120 |

@@ -1,0 +1,11 @@
+# Intel Processor Families Explicitly Listed as Windows 10 Supported (Client & Mobile)
+
+| Intel processor family / generation | Example models | Segment | Windows 10 support statement | Support scope | Notes / caveats |
+|---|---|---|---|---|---|
+| 2nd Gen Intel Core (Sandy Bridge) | Core i5-2510E, Core i5-2537M | Mobile / Embedded | Windows 10 compatible (Intel driver support available) | Windows 10 64-bit | Typically relies on OEM graphics/network drivers for best experience |
+| 4th Gen Intel Core (Haswell) | Core i5-4300Y, Core i5-4308U | Mobile / Ultrabook | Windows 10 supported | Windows 10 64-bit | Generally supported with Intel HD Graphics Win10 drivers |
+| Intel Atom (Braswell) | Celeron N3050, Pentium N3700 | Low-power mobile / mini-PC | Windows 10 supported | Windows 10 32/64-bit | Often used in fanless PCs; check RAM/Storage requirements |
+| 6th Gen Intel Core (Skylake) | Core i5-6300U, Core i7-6700HQ | Mobile / Desktop | Windows 10 supported | Windows 10 64-bit | Strongest official driver coverage for Win10-era devices |
+| 7th Gen Intel Core (Kaby Lake) | Core i5-7200U, Core i7-7700K | Mobile / Desktop | Windows 10 supported | Windows 10 64-bit | Common baseline for Win10 business laptops |
+| Intel Xeon E3 v3/v4 (Haswell/Broadwell-based) | Xeon E3-1241 v3, Xeon E3-1275 v4 | Workstation / Server entry | Windows 10 supported (workstation-class) | Windows 10 Pro/Enterprise 64-bit | May require workstation chipset and OEM BIOS support |
+| Intel Core 10th Gen (Comet Lake/Ice Lake) | Core i5-10210U, Core i7-1065G7 | Mobile / Desktop | Windows 10 supported | Windows 10 64-bit | Full Win10 support; also commonly Win11-capable on many configs |

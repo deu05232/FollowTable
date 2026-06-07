@@ -1,0 +1,14 @@
+# Administrative Distance Comparison for Common Routing Protocols (Abbreviation-Based)
+
+| Protocol | AD (Default) | Notes |
+| --- | --- | --- |
+| eBGP | 20 | external peers |
+| iBGP | 200 | internal peers |
+| EIGRP (int) | 90 | internal routes |
+| EIGRP (ext) | 170 | redistributed |
+| OSPF | 110 | includes OIA |
+| IS-IS | 115 | level-1/2 |
+| RIP | 120 | v1/v2 |
+| IGRP | 100 | legacy |
+| EG P | 140 | legacy |
+| ND | 255 | unknown/untrusted |

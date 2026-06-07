@@ -1,0 +1,11 @@
+# DLNA Image Media Guidelines  JPEG PNG GIF Capability Parameters
+
+| Image Format | Color Space | Max Resolution (typ.) | Progressive | Alpha Channel | Animation | Common Extensions | Remarks |
+|---|---|---:|---|---|---|---|---|
+| JPEG | YCbCr 4:2:2 / 4:2:0 | 8192x8192 | Optional | No | No | .jpg, .jpeg | Baseline most interoperable |
+| JPEG | CMYK | 4096x4096 | Optional | No | No | .jpg | Often problematic on TVs |
+| PNG | RGB/RGBA | 4096x4096 | N/A | Yes | No | .png | Alpha may be ignored |
+| GIF | Indexed | 2048x2048 | N/A | 1-bit | Yes | .gif | Animation frequently unsupported |
+| BMP | RGB | 4096x4096 | N/A | Optional | No | .bmp | Large file sizes |
+| TIFF | Various | 2048x2048 | N/A | Optional | No | .tif, .tiff | Rarely supported over DLNA |
+| WEBP | YUV/RGB | 4096x4096 | N/A | Yes | Yes | .webp | Typically not DLNA baseline |

@@ -1,0 +1,11 @@
+# Top Gear Test Track — Normalization Table for Weather Penalties and Driver Consistency
+
+| Vehicle | Raw Lap Time | Condition | Condition Deduction | Normalized Time | Consistency Factor | Final Score |
+| --- | --- | --- | --- | --- | --- | --- |
+| McLaren 675LT | 01:13.7 | Dry | 0s | 01:13.7 | 0.98 | 74.2 |
+| Pagani Huayra | 01:13.8 | Dry | 0s | 01:13.8 | 0.97 | 74.0 |
+| BAC Mono | 01:14.3 | Mildly Moist | -2s | 01:12.3 | 0.92 | 73.5 |
+| Ariel Atom V8 500 | 01:15.1 | Moist | -3s | 01:12.1 | 0.90 | 73.1 |
+| Noble M600 | 01:17.7 | Cold | -1s | 01:16.7 | 0.95 | 72.0 |
+| Nissan GT-R (2012) | 01:17.8 | Wet | -4s | 01:13.8 | 0.88 | 71.4 |
+| Koenigsegg CCX (with wing) | 01:17.6 | Dry | 0s | 01:17.6 | 0.93 | 71.0 |

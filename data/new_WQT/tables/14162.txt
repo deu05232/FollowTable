@@ -1,0 +1,21 @@
+# Routing Protocol Administrative Distance — Defaults and Tuned Examples (Lab Baseline)
+
+| Route source / Protocol | Default AD | Example tuned AD (common lab) | Reason for change |
+|---|---:|---:|---|
+| Connected | 0 | 0 | Not typically changed |
+| Static | 1 | 10 | Prefer dynamic during failover |
+| EIGRP summary | 5 | 5 | Keep summary preferred |
+| eBGP | 20 | 20 | Leave default |
+| EIGRP internal | 90 | 95 | Make OSPF win during migration |
+| IGRP | 100 | 100 | Legacy/rare |
+| OSPF | 110 | 105 | Prefer OSPF over EIGRP |
+| IS-IS | 115 | 115 | Leave default |
+| RIP | 120 | 130 | De-prefer RIP routes |
+| EIGRP external | 170 | 175 | De-prefer redistributed routes |
+| iBGP | 200 | 180 | Prefer iBGP over some IGPs |
+| Unknown | 255 | 255 | Unused |
+
+| Migration scenario | What the tuned AD accomplishes |
+|---|---|
+| EIGRP-to-OSPF cutover | Lower OSPF AD so it wins for overlapping prefixes |
+| Static backup | Raise static AD so it installs only when IGP is absent |

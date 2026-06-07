@@ -1,0 +1,12 @@
+# Adult Blood Pressure Classification (Fixed mm Hg Cutoffs, Systolic Diastolic)
+
+| Category | Systolic (mm Hg) | Diastolic (mm Hg) | Notes for labeling |
+| --- | --- | --- | --- |
+| Low (Hypotension) | <90 | <60 | If either number is in this range, consider low BP (context dependent) |
+| Normal | 90–119 | 60–79 | Both numbers in normal range |
+| Elevated (High normal) | 120–129 | 60–79 | Systolic elevated while diastolic remains normal |
+| Hypertension – Stage 1 | 130–139 | 80–89 | Either number in this range qualifies as Stage 1 |
+| Hypertension – Stage 2 | 140–179 | 90–119 | Either number in this range qualifies as Stage 2 |
+| Hypertensive crisis (urgent) | ≥180 | ≥120 | If either number is this high, seek immediate medical evaluation |
+| Isolated systolic hypertension (flag) | ≥140 | <90 | Common in older adults; classified by systolic stage |
+| Isolated diastolic hypertension (flag) | <140 | ≥90 | Classified by diastolic stage |

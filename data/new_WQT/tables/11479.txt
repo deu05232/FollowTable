@@ -1,0 +1,11 @@
+# Powerball-Style Game — Aggregate Odds by Win Type (Not by Tier)
+
+| Win type | Definition | Odds per play | Includes tiers |
+| --- | --- | --- | --- |
+| Jackpot win | Highest category only | 1 in 290,000,000 | Tier 1 |
+| Major prize win | Any prize ≥ $50,000 | 1 in 700,000 | Tiers 2–3 combined |
+| Medium prize win | Any prize $500–$49,999 | 1 in 12,000 | Multiple tiers combined |
+| Small cash win | Any prize $10–$499 | 1 in 38 | Multiple tiers combined |
+| Any prize | Any payout including ticket refund | 1 in 25 | All tiers combined |
+| Any profit | Prize greater than ticket cost | 1 in 90 | Cross-tier aggregation |
+| Any free play | Non-cash prize like free ticket | 1 in 55 | Cross-tier aggregation |

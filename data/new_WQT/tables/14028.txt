@@ -1,0 +1,13 @@
+# Differentiation Rules Cheat Sheet (Algebraic Combination Rules)
+
+| Rule name | Generic pattern | Resulting derivative |
+| --- | --- | --- |
+| Constant rule | d/dx (c) | 0 |
+| Identity rule | d/dx (x) | 1 |
+| Constant multiple rule | d/dx (c·f(x)) | c·f'(x) |
+| Sum rule | d/dx (f(x) + g(x)) | f'(x) + g'(x) |
+| Difference rule | d/dx (f(x) − g(x)) | f'(x) − g'(x) |
+| Product rule | d/dx (f(x)·g(x)) | f(x)·g'(x) + f'(x)·g(x) |
+| Quotient rule | d/dx (f(x)/g(x)) | (f'(x)·g(x) − f(x)·g'(x)) / (g(x))^2 |
+| Power rule (constant exponent) | d/dx ((x)^n) | n·x^(n−1) |
+| Power of a function (generalized) | d/dx ((f(x))^n) | n·(f(x))^(n−1)·f'(x) |

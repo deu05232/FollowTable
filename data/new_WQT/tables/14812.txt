@@ -1,0 +1,14 @@
+# Outlook.com (Hotmail) Manual Setup Wizard  Account Profile Fields (No Port Details)
+
+| Section | Field | Example value | Notes |
+| --- | --- | --- | --- |
+| Identity | Your name | Alex Chen | Display name shown to recipients |
+| Identity | Email address | alex.chen@outlook.com | Full mailbox address |
+| Sign-in | Username | alex.chen@outlook.com | Usually same as email |
+| Sign-in | Password | (your password) | App password may be required with MFA |
+| Server info | Account type | IMAP | Choose IMAP for sync |
+| Server info | Incoming server | outlook.office365.com | Sometimes shown as a suggestion |
+| Server info | Outgoing server | smtp.office365.com | Sometimes shown as a suggestion |
+| Advanced | Authentication | Use same credentials as incoming | Checkbox in many clients |
+| Advanced | Root folder path | Inbox | Only needed for some IMAP clients |
+| Advanced | Server timeouts | 2 minutes | Increase if connections are slow |

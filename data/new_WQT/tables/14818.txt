@@ -1,0 +1,11 @@
+# Outlook.com Mail Services Overview with Connection Ports (Mixed Product Overview)
+
+| Feature Area | Service/Component | Description | Protocol/Endpoint | Port | Security |
+| --- | --- | --- | --- | --- | --- |
+| Web Access | Outlook.com Web | Browser-based mailbox access | https://outlook.live.com | 443 | TLS |
+| Mobile Sync | Exchange ActiveSync | Sync mail/contacts/calendar | eas.outlook.com | 443 | TLS |
+| Mail Retrieval | IMAP | Standard mailbox access | imap-mail.outlook.com | 993 | SSL/TLS |
+| Mail Retrieval | POP3 | Download-only access | pop-mail.outlook.com | 995 | SSL/TLS |
+| Mail Sending | SMTP Submission | Authenticated mail submission | smtp-mail.outlook.com | 587 | STARTTLS |
+| Account | Microsoft Account | Identity and sign-in | login.live.com | 443 | TLS |
+| Autodiscover | Autodiscover | Client auto-configuration | autodiscover.outlook.com | 443 | TLS |

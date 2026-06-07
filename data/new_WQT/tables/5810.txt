@@ -1,0 +1,15 @@
+# Inter - process communication
+> Approaches
+
+| Method | Short Description | Provided by ( operating systems or other environments) |
+| --- | --- | --- |
+| File | A record stored on disk, or a record synthesized on demand by a file server, which can be accessed by multiple processes. | Most operating systems |
+| Signal ; also Asynchronous System Trap | A system message sent from one process to another, not usually used to transfer data but instead used to remotely command the partnered process. | Most operating systems |
+| Socket | A data stream sent over a network interface, either to a different process on the same computer or to another computer on the network. Typically byte-oriented, sockets rarely preserve message boundaries. Data written through a socket requires formatting to preserve message boundaries. | Most operating systems |
+| Message queue | A data stream similar to a socket, but which usually preserves message boundaries. Typically implemented by the operating system, they allow multiple processes to read and write to the message queue without being directly connected to each other. | Most operating systems |
+| Pipe | A unidirectional data channel. Data written to the write end of the pipe is buffered by the operating system until it is read from the read end of the pipe. Two-way data streams between processes can be achieved by creating two pipes utilizing standard input and output . | All POSIX systems, Windows |
+| Named pipe | A pipe implemented through a file on the file system instead of standard input and output . Multiple processes can read and write to the file as a buffer for IPC data. | All POSIX systems, Windows, AmigaOS 2.0+ |
+| Semaphore | A simple structure that synchronizes multiple processes acting on shared resources. | All POSIX systems, Windows, AmigaOS |
+| Shared memory | Multiple processes are given access to the same block of memory which creates a shared buffer for the processes to communicate with each other. | All POSIX systems, Windows |
+| Message passing | Allows multiple programs to communicate using message queues and/or non-OS managed channels, commonly used in concurrency models. | Used in RPC , RMI , and MPI paradigms, Java RMI , CORBA , DDS , MSMQ , MailSlots , QNX , others |
+| Memory-mapped file | A file mapped to RAM and can be modified by changing memory addresses directly instead of outputting to a stream. This shares the same benefits as a standard file . | All POSIX systems, Windows |

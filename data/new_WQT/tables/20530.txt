@@ -1,0 +1,12 @@
+# BitTorrent Feature Support Matrix (Rows are Features, not Clients)
+
+| Feature | Clients supporting it | Typical implementation | Notes |
+|---|---|---|---|
+| Magnet links | qBittorrent, Transmission, Deluge, uTorrent, BitComet | URI handling + metadata fetch | Adoption is widespread |
+| DHT | qBittorrent, Transmission, Deluge, uTorrent | Mainline DHT | Some allow disabling |
+| Peer Exchange (PEX) | qBittorrent, Transmission, uTorrent | µTorrent PEX / LTEP | Interop differs |
+| Protocol encryption | uTorrent, qBittorrent, Vuze, Deluge | Message stream encryption | Does not guarantee anonymity |
+| IPv6 | qBittorrent, Transmission, Deluge, Vuze | Dual-stack sockets | Router support required |
+| µTP | uTorrent, qBittorrent, Transmission | LEDBAT-based | Helps reduce bufferbloat |
+| Remote control | Transmission, Deluge, uTorrent, Vuze | RPC/Web UI | Requires auth hardening |
+| GUI availability | qBittorrent, Transmission, Vuze, BitComet, uTorrent | Native UI | Headless variants exist |

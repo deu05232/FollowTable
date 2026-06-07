@@ -1,0 +1,14 @@
+# Protocol Hex Dump to ASCII (Byte-Oriented, Not Typing Codes)
+
+| Offset | Hex Bytes | ASCII Preview | Interpretation |
+|---:|---|---|---|
+| 0000 | 48 65 6C 6C 6F 20 | Hello  | Greeting text |
+| 0006 | 57 6F 72 6C 64 21 | World! | Continuation |
+| 000C | 0D 0A 3C 2F 3E 00 | ..</>. | CRLF + tag-ish + NUL |
+| 0014 | 7B 22 69 64 22 3A | {"id": | JSON fragment |
+| 001C | 20 31 32 33 2C 20 |  123,  | Numbers |
+| 0024 | 22 6F 6B 22 3A 20 | "ok":  | Key/value |
+| 002C | 74 72 75 65 7D 0A | true}. | End of JSON |
+| 0034 | FF FE 3D D8 A9 DC | ..=... | Non-ASCII / UTF-16LE-ish |
+| 003C | 1B 5B 33 31 6D 58 | .[31mX | ANSI color escape |
+| 0044 | 1B 5B 30 6D 0D 0A | .[0m.. | Reset + newline |

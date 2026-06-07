@@ -1,0 +1,13 @@
+# Exchange Hybrid Coexistence User Experience  Calendar Sharing, Delegation, and Compliance Across On-Premises and Microsoft 365
+
+| User-facing capability | Before hybrid deployment (single org boundary) | After hybrid deployment (hybrid coexistence) |
+| --- | --- | --- |
+| Free/busy visibility | Only on-premises users can see free/busy for other on-prem users. | On-premises and Microsoft 365 users can see each other’s free/busy across the hybrid boundary. |
+| Cross-premises calendar sharing details | Sharing is limited to the local environment; cross-org sharing requires separate federation-style arrangements. | Hybrid relationship enables richer cross-premises calendar sharing behavior aligned with organizational trust. |
+| Mailbox delegation (Full Access/Send As) across environments | Delegation works only within the same environment; cross-environment delegation is not a standard experience. | Hybrid can support more consistent delegation scenarios by representing recipients across environments (subject to supported feature scope). |
+| Shared mailbox accessibility when users are split | Shared mailboxes are straightforward only if all participants are on-prem. | Shared mailboxes can exist in either environment; access and discovery are more coherent for split user populations. |
+| Unified address book experience | Separate address lists; cloud users may appear as external contacts or not at all. | A more unified GAL experience where users can find recipients regardless of mailbox location. |
+| Cross-premises mail tips and moderation signals | Mail tips/moderation context is limited to the local org; cross-org behavior is inconsistent. | Mail tips/moderation-related signals can be more consistent because both sides recognize each other as part of a hybrid organization relationship. |
+| Compliance/eDiscovery scope perception | Searches are confined to the local environment; combining results requires separate processes. | Hybrid coexistence supports a more unified approach to locating content across both environments (while still administered in each platform). |
+| User transition experience during migration | Moves are disruptive and often require creating a new profile or manual steps. | Remote move migrations are designed to keep the user experience more continuous while the mailbox location changes. |
+| Coexistence of Teams/Skype meeting scheduling with mailboxes split | Meeting scheduling relies on the local Exchange organization; split mailboxes can cause inconsistent scheduling lookups. | With hybrid free/busy and directory visibility, scheduling between on-prem and Microsoft 365 users behaves more like a single organization. |

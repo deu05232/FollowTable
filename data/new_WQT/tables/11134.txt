@@ -1,0 +1,11 @@
+# Derivative Table with Function Characteristics (Classification-Focused)
+
+| Function | Derivative | Domain | Range | Continuity Class | Monotonicity | Concavity |
+| --- | --- | --- | --- | --- | --- | --- |
+| f(x)=x^2 | f'(x)=2x | (-∞,∞) | [0,∞) | C∞ | Decreasing on (-∞,0], increasing on [0,∞) | Concave up |
+| f(x)=x^3 | f'(x)=3x^2 | (-∞,∞) | (-∞,∞) | C∞ | Increasing | Inflection at 0 |
+| f(x)=|x| | f'(x)=sgn(x) (x≠0) | (-∞,∞) | [0,∞) | Not differentiable at 0 | Decreasing on (-∞,0], increasing on [0,∞) | Convex |
+| f(x)=1/x | f'(x)=-1/x^2 | ℝ\{0} | ℝ\{0} | C∞ on ℝ\{0} | Decreasing on (-∞,0) and (0,∞) | Concave down on (0,∞) |
+| f(x)=sin x | f'(x)=cos x | (-∞,∞) | [-1,1] | C∞ | Not monotone | Alternating |
+| f(x)=e^x | f'(x)=e^x | (-∞,∞) | (0,∞) | C∞ | Increasing | Concave up |
+| f(x)=ln x | f'(x)=1/x | (0,∞) | (-∞,∞) | C∞ on (0,∞) | Increasing | Concave down |

@@ -1,0 +1,11 @@
+# Aspect Ratio Variants for Common Megapixel Classes (Same MP, Different Dimensions)
+
+| Megapixels Class | 4:3 (pixels) | 3:2 (pixels) | 16:9 (pixels) | Notes |
+|---:|---|---|---|---|
+| 8 MP | 3264 × 2448 | 3456 × 2304 | 3840 × 2160 | Cropping changes usable pixels |
+| 12 MP | 4000 × 3000 | 4240 × 2832 | 4608 × 2592 | Typical still vs video crop |
+| 16 MP | 4608 × 3456 | 4928 × 3264 | 5312 × 2988 | Sensor may output multiple ratios |
+| 20 MP | 5184 × 3888 | 5472 × 3648 | 5760 × 3240 | Ratios are camera-dependent |
+| 24 MP | 6000 × 4000 | 6048 × 4032 | 6400 × 3600 | Many phones use 4:3 stills |
+| 32 MP | 6528 × 4896 | 6960 × 4640 | 7680 × 4320 | 8K-style 16:9 shown |
+| 48 MP | 8000 × 6000 | 8064 × 5376 | 9216 × 5184 | Quad Bayer often bins to 12 MP |

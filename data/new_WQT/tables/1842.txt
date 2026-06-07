@@ -1,0 +1,8 @@
+# Date and Time Data Types and Functions ( Transact - SQL )
+
+| Data type | Format | Range |
+| --- | --- | --- |
+| date | YYYY-MM-DD | 0001-01-01 through 9999-12-31 |
+| smalldatetime | YYYY-MM-DD hh:mm:ss | 1900-01-01 through 2079-06-06 |
+| datetime | YYYY-MM-DD hh:mm:ss[.nnn] | 1753-01-01 through 9999-12-31 |
+| datetime2 | YYYY-MM-DD hh:mm:ss[.nnnnnnn] | 0001-01-01 00:00:00.0000000 through 9999-12-31 23:59:59.9999999 |

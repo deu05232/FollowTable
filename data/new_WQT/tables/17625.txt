@@ -1,0 +1,12 @@
+# Manual Setup Wizard for Outlook.com (Hotmail) in a Generic Email App (Step-by-step)
+
+| Step | Screen/Section | What to do | Example text shown | Common mistake |
+| --- | --- | --- | --- | --- |
+| 1 | Add account | Choose “Email” then “Other” | Add account → Other | Picking “Exchange” when you want POP/IMAP |
+| 2 | Address | Enter your full email address | name@hotmail.com | Using only the username |
+| 3 | Password | Enter your Microsoft account password | •••••••• | Not using an app password when required |
+| 4 | Account type | Select POP3 or IMAP | POP / IMAP | Selecting the wrong protocol |
+| 5 | Incoming settings | Turn on SSL/TLS toggle | SSL enabled | Leaving encryption off |
+| 6 | Outgoing settings | Enable authentication | SMTP auth on | Assuming SMTP doesn’t need login |
+| 7 | Advanced | Save and test connection | Testing… | Not accepting certificate prompt |
+| 8 | Finish | Send a test email | Test message | Forgetting to set “From” name |

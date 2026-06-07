@@ -1,0 +1,21 @@
+# IEEE 802.11b g n (2.4 GHz) WLAN Channel to Frequency Mapping
+
+| Channel | Center Frequency (MHz) | Occupied Frequency Range (MHz) | Nominal Channel Width (MHz) | Notes |
+| --- | --- | --- | --- | --- |
+| 1 | 2412 | 2401–2423 | 22 | Most common non-overlapping set: 1/6/11 (20 MHz use) |
+| 2 | 2417 | 2406–2428 | 22 | Overlaps with Ch 1 and Ch 3 |
+| 3 | 2422 | 2411–2433 | 22 |  |
+| 4 | 2427 | 2416–2438 | 22 |  |
+| 5 | 2432 | 2421–2443 | 22 |  |
+| 6 | 2437 | 2426–2448 | 22 | Non-overlapping with 1 and 11 in many deployments |
+| 7 | 2442 | 2431–2453 | 22 |  |
+| 8 | 2447 | 2436–2458 | 22 |  |
+| 9 | 2452 | 2441–2463 | 22 |  |
+| 10 | 2457 | 2446–2468 | 22 |  |
+| 11 | 2462 | 2451–2473 | 22 |  |
+| 12 | 2467 | 2456–2478 | 22 | Allowed in many regions; not allowed everywhere |
+| 13 | 2472 | 2461–2483 | 22 | Common in ETSI; not for all regulatory domains |
+| 14 | 2484 | 2473–2495 | 22 | Japan-only legacy (802.11b) |
+| (Optional) 20 MHz interpretation for Ch 1 | 2412 | 2402–2422 | 20 | For OFDM 20 MHz, occupied is often treated as ±10 MHz |
+| (Optional) 20 MHz interpretation for Ch 6 | 2437 | 2427–2447 | 20 | Included as an alternative “occupied range” convention |
+| (Optional) 20 MHz interpretation for Ch 11 | 2462 | 2452–2472 | 20 | Included as an alternative “occupied range” convention |

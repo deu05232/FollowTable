@@ -1,0 +1,12 @@
+# DLNA Player Device Format Support Matrix (Video Audio Image)
+
+| Player / Device (DLNA role) | MP4 (H.264/AAC) | MPEG-2 TS/PS | AVI (DivX/Xvid) | MKV (H.264) | MP3 | AAC (LC) | FLAC | JPEG | PNG |
+|---|---|---|---|---|---|---|---|---|---|
+| Samsung Smart TV (DLNA DMP) | Yes | Yes | No | No | Yes | Yes | No | Yes | Yes |
+| Sony Blu-ray Player (DLNA DMP) | Yes | Yes | No | No | Yes | Yes | No | Yes | No |
+| Xbox 360 (DLNA DMR) | Yes | Yes | Yes | No | Yes | Yes | No | Yes | Yes |
+| PlayStation 3 (DLNA DMP/DMR) | Yes | Yes | Yes | No | Yes | Yes | No | Yes | Yes |
+| Windows Media Player 12 (DLNA DMS/DMP) | Yes | Yes | Yes | No | Yes | Yes | No | Yes | Yes |
+| VLC (Desktop, DLNA/UPnP playback) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| BubbleUPnP (Android, DLNA DMC/DMP) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| LG Smart TV (DLNA DMP) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |

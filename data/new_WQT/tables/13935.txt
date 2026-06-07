@@ -1,0 +1,11 @@
+# Impedance formulas for basic electrical components and networks
+
+| Item | Impedance Z(jω) | Depends on | Typical use |
+| --- | --- | --- | --- |
+| Resistor | R | Material + geometry + temperature | DC/AC dissipation |
+| Capacitor | 1/(jωC) | Capacitance, frequency | Filtering |
+| Inductor | jωL | Inductance, frequency | Filtering |
+| Series RC | R + 1/(jωC) | R, C, frequency | Timing networks |
+| Parallel RC | 1 / (1/R + jωC) | R, C, frequency | AC coupling |
+| Series RLC | R + jωL + 1/(jωC) | R, L, C, frequency | Resonance |
+| Transmission line (lossless) | Z0 = √(L'/C') | Distributed parameters | RF systems |

@@ -1,0 +1,16 @@
+# GUID Partition Table
+> Operating systems support
+
+| OS version | Release date | Platform | Read and write support | Boot support | Note |
+| --- | --- | --- | --- | --- | --- |
+| Windows XP Professional x64 Edition Windows Server 2003 | 2005-04-25 [22] | x64 | Yes | No | MBR takes precedence in hybrid MBR configuration [10] |
+| Windows Server 2003 | 2005-04-25 | IA-64 | Yes | Yes | MBR takes precedence in hybrid MBR configuration [10] |
+| Windows Vista | 2006-07-22 | x64 | Yes | Requires UEFI [b] | MBR takes precedence in hybrid configuration [10] |
+| Windows Server 2008 | 2008-02-27 | x64 | Yes | Requires UEFI | MBR takes precedence in hybrid configuration [10] |
+| Windows Server 2008 | 2008-02-27 | IA-64 | Yes | Yes | MBR takes precedence in hybrid configuration [10] |
+| Windows 7 | 2009-10-22 | x64 | Yes | Requires UEFI [c] | MBR takes precedence in hybrid configuration. [10] |
+| Windows Server 2008 R2 | 2009-10-22 | IA-64 | Yes | Yes | MBR takes precedence in hybrid configuration [10] |
+| Windows 8 Windows Server 2012 | 2012-08-01 | x64 | Yes | Requires UEFI [21] | MBR takes precedence in hybrid configuration. [10] |
+| Windows 8.1 | 2013-08-27 | x64 | Yes | Requires UEFI [21] | MBR takes precedence in hybrid configuration [10] |
+| Windows 10 | 2015-07-29 | x64 | Yes | Requires UEFI [21] | MBR takes precedence in hybrid configuration [10] |
+| Windows Server 2016 | 2016-Q3 | x64 | Yes | Requires UEFI [21] | MBR takes precedence in hybrid configuration [10] |

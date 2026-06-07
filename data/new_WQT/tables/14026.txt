@@ -1,0 +1,11 @@
+# Common Neural-Network Activation Functions and Their Derivatives
+
+| Rule/Function Name | Generic Pattern f(x) | Derivative f'(x) | Notes |
+| --- | --- | --- | --- |
+| Identity | f(x)=x | 1 | Linear pass-through |
+| Logistic (Sigmoid) | f(x)=1/(1+e^{-x}) | f(x)(1-f(x)) | Often used for probabilities |
+| Tanh | f(x)=tanh(x) | 1-tanh^2(x) | Zero-centered output |
+| ReLU | f(x)=max(0,x) | 0 (x<0), 1 (x>0) | Not differentiable at 0 |
+| Leaky ReLU | f(x)=max(αx,x) | α (x<0), 1 (x>0) | Small slope for negatives |
+| Softplus | f(x)=ln(1+e^x) | 1/(1+e^{-x}) | Smooth ReLU |
+| GELU (approx.) | f(x)=x·σ(1.702x) | ≈σ(1.702x)+1.702x·σ(1.702x)(1-σ(1.702x)) | Used in Transformers |

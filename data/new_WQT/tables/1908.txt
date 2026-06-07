@@ -1,0 +1,14 @@
+# NMEA 0183
+> Message structure
+
+| ASCII | Hex | Dec | Use |
+| --- | --- | --- | --- |
+| <CR> | 0x0d | 13 | Carriage return |
+| <LF> | 0x0a | 10 | Line feed, end delimiter |
+| $ | 0x24 | 36 | Start delimiter |
+| * | 0x2a | 42 | Checksum delimiter |
+| , | 0x2c | 44 | Field delimiter |
+| ! | 0x21 | 33 | Start of encapsulation sentence delimiter |
+| \ | 0x5c | 92 | TAG block delimiter |
+| ^ | 0x5e | 94 | Code delimiter for HEX representation of ISO/IEC 8859-1 (ASCII) characters |
+| ~ | 0x7e | 126 | Reserved |

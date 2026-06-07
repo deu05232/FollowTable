@@ -1,0 +1,14 @@
+# Adjustable-Rate Refinance Schedule (7 1 ARM) with Resets and Caps
+
+| Year | ARM Phase | Starting Balance | Index + Margin | Rate | Payment Change Driver |
+|---:|---|---:|---:|---:|---|
+| 1 | Initial fixed period | $350,000 | 3.00% | 5.25% | Intro rate |
+| 2 | Initial fixed period | $344,900 | 3.00% | 5.25% | Amortization |
+| 3 | Initial fixed period | $339,600 | 3.00% | 5.25% | Amortization |
+| 4 | Initial fixed period | $334,100 | 3.00% | 5.25% | Amortization |
+| 5 | Initial fixed period | $328,300 | 3.00% | 5.25% | Amortization |
+| 6 | Initial fixed period | $322,200 | 3.00% | 5.25% | Amortization |
+| 7 | Initial fixed period | $315,800 | 3.00% | 5.25% | Amortization |
+| 8 | First reset (2% periodic cap) | $309,000 | 3.50% | 7.25% | Reset up to cap |
+| 9 | Second reset (lifetime cap 5%) | $301,900 | 4.00% | 8.25% | Index rise + cap |
+| 10 | Third reset | $294,400 | 3.75% | 8.25% | Flat due to lifetime cap |

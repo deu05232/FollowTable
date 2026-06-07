@@ -1,0 +1,12 @@
+# Windows Server Roles and Features Checklist Often Enabled for SharePoint Farms
+
+| Windows feature/role | Required for SharePoint? | Single-server dev | Single-server production | Multi-tier farm | Notes |
+|---|---:|---:|---:|---:|---|
+| Web Server (IIS) | Yes | Yes | Yes | Yes | Includes ASP.NET, Windows Authentication |
+| .NET Framework 4.x | Yes | Yes | Yes | Yes | Version depends on SharePoint build |
+| Windows Process Activation Service | Yes | Yes | Yes | Yes | Needed for IIS |
+| Remote Server Administration Tools | Optional | No | Optional | Optional | Convenience for admins |
+| Failover Clustering | Optional | No | Optional | Optional | For SQL HA scenarios, not SharePoint itself |
+| Hyper-V | Optional | Optional | Optional | Optional | Only if virtualizing the farm |
+| Windows Identity Foundation | Sometimes | Optional | Optional | Optional | Depends on auth integrations |
+| Windows Search Service | No | No | No | No | SharePoint uses its own components |

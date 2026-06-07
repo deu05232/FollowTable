@@ -1,0 +1,13 @@
+# Intel 8 9 Series Client Chipsets (Windows 10-era Platforms) — Quick Comparison
+
+| Chipset | Segment | Codename / Platform | Release window | Supported CPU families (typical) | Socket | Memory support (platform typical) | Storage / SATA | PCIe lanes (chipset) | USB support | Notes for Windows 10 platform planning |
+|---|---|---|---|---|---|---|---|---|---|---|
+| H81 | Desktop (Value) | Lynx Point | 2013 | 4th Gen Core (Haswell/Haswell Refresh), Pentium, Celeron | LGA1150 | DDR3/DDR3L (2 DIMMs typical) | SATA 6 Gb/s limited (often 2 ports) | Up to ~6 | USB 3.0 up to 2 | Minimal I/O; common in low-cost Win10 desktops |
+| B85 | Desktop (Business) | Lynx Point | 2013 | 4th Gen Core (Haswell/Refresh) | LGA1150 | DDR3/DDR3L | More SATA 6 Gb/s than H81 (board-dependent) | Up to ~8 | USB 3.0 up to 4 | Business features (e.g., manageability varies by board) |
+| H87 | Desktop (Mainstream) | Lynx Point | 2013 | 4th Gen Core (Haswell/Refresh) | LGA1150 | DDR3/DDR3L | More SATA 6 Gb/s ports | Up to ~8 | USB 3.0 up to 6 | Better I/O mix for Win10 general purpose builds |
+| Z87 | Desktop (Enthusiast) | Lynx Point | 2013 | 4th Gen Core (Haswell/Refresh, unlocked K CPUs) | LGA1150 | DDR3/DDR3L | Rich SATA 6 Gb/s; RAID support typical | Up to ~8 | USB 3.0 up to 6 | Overclock-friendly ecosystem; good driver availability historically |
+| Q87 | Desktop (Corporate) | Lynx Point | 2013 | 4th Gen Core (Haswell/Refresh) | LGA1150 | DDR3/DDR3L | SATA 6 Gb/s with RAID typical | Up to ~8 | USB 3.0 up to 6 | Corporate manageability focus; common in OEM Win10 fleets |
+| H97 | Desktop (Mainstream) | Wildcat Point | 2014 | 4th Gen Core (Haswell/Refresh), 5th Gen Core (Broadwell, select) | LGA1150 | DDR3/DDR3L | SATA 6 Gb/s; M.2/SATAe often via board | Up to ~8 | USB 3.0 up to 6 | Later LGA1150 chipset; often easiest Win10 support among 1150 boards |
+| Z97 | Desktop (Enthusiast) | Wildcat Point | 2014 | 4th Gen Core (Haswell/Refresh), 5th Gen Core (Broadwell, select) | LGA1150 | DDR3/DDR3L | SATA 6 Gb/s; M.2/SATAe frequently present | Up to ~8 | USB 3.0 up to 6 | Strong Win10 compatibility; popular for upgrades with SSD/NVMe add-ons |
+| HM87 | Mobile | Lynx Point-M | 2013 | Mobile Haswell Core i3/i5/i7 | BGA / rPGA (varies) | DDR3L | SATA 6 Gb/s | Varies | USB 3.0 | Typical for Haswell laptops running Win10 |
+| QM87 | Mobile (Business) | Lynx Point-M | 2013 | Mobile Haswell Core + vPro SKUs | BGA / rPGA (varies) | DDR3L | SATA 6 Gb/s | Varies | USB 3.0 | Often found in business laptops with good Win10 driver coverage |

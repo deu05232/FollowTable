@@ -1,0 +1,8 @@
+# # Exchange hybrid deployment  feature behavior before vs after enabling hybrid (overview)
+
+| Capability | Before hybrid deployment | After hybrid deployment |
+| --- | --- | --- |
+| Mail flow between on-prem and Microsoft 365 | Mail is routed separately inside each environment; cross-environment delivery typically requires external routing and appears like Internet mail. | Mail can be routed between on-premises and Microsoft 365 as part of a single organization relationship, supporting more seamless cross-environment delivery. |
+| Mailbox moves | Moving a mailbox usually means separate migration tools and a cutover-style move. | Remote mailbox moves between on-premises and Microsoft 365 are supported through hybrid mailbox move workflows. |
+| Unified Global Address List (GAL) experience | Each environment has its own directory view unless manually synchronized or exported. | Users can see a more consistent address list experience across on-premises and Microsoft 365 with directory synchronization in place. |
+| Autodiscover/endpoint usage | Clients typically point only to on-premises endpoints for Exchange services. | Clients can be directed appropriately to on-premises or Microsoft 365 endpoints depending on mailbox location. |

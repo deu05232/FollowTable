@@ -1,0 +1,12 @@
+# Intel Chipsets Supported for Windows 10 (Compatibility-Focused List)
+
+| Intel chipset series | Example chipset(s) | Windows 10 support status | Supported Windows 10 editions | Minimum Windows 10 version/build | Windows 10 driver availability | Notes |
+|---|---|---|---|---|---|---|
+| Intel 8 Series (Lynx Point) | H81, B85, Q87, Z87 | Supported | Home/Pro/Enterprise | 1507+ | Intel chipset INF + OEM drivers | Typical for 4th Gen Core platforms |
+| Intel 9 Series (Wildcat Point) | H97, Z97, Q97 | Supported | Home/Pro/Enterprise | 1507+ | Intel + OEM | Common upgrade path to Windows 10 on 4th/5th Gen systems |
+| Intel 100 Series (Sunrise Point) | H110, B150, Q170, Z170 | Supported | Home/Pro/Enterprise | 1507+ | Intel + OEM | Broad Windows 10 support on Skylake platforms |
+| Intel 200 Series | B250, Q270, Z270 | Supported | Home/Pro/Enterprise | 1607+ | Intel + OEM | Often paired with 7th Gen Core |
+| Intel 300 Series | H310, B360, Q370, Z390 | Supported | Home/Pro/Enterprise | 1703+ | Intel + OEM | Typical for 8th/9th Gen Core systems |
+| Intel C600 Series (workstation/server) | C602, C606, C612 | Supported | Pro/Enterprise | 1507+ | Intel + OEM | Driver availability can be platform/OEM validated |
+| Intel Bay Trail SoC platform chipset | (integrated) Bay Trail platform | Supported | Home | 1507+ | OEM + Microsoft inbox | SoC designs rely heavily on OEM driver packages |
+| Intel 8xx mobile chipset family (legacy) | 830M, 830MG, 830MP | Not supported | N/A | N/A | N/A | Pre-dates Windows 10-era driver model; lacks vendor support |

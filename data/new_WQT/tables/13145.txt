@@ -1,0 +1,11 @@
+# # IPv4 special-use address blocks (private and reserved) - quick reference
+
+| Address block (CIDR) | Range | Category | Common purpose | RFC / Reference |
+| --- | --- | --- | --- | --- |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Private | Internal private networks | RFC 1918 |
+| 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | Private | Internal private networks | RFC 1918 |
+| 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | Private | Home/SMB LAN addressing | RFC 1918 |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared address space | Carrier-grade NAT between ISP and subscribers | RFC 6598 |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Local host loopback | RFC 6890 |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local | Automatic addressing when no DHCP is available | RFC 3927 |
+| 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | Software | “This network”; special source/broadcast usage | RFC 6890 |

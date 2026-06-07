@@ -1,0 +1,12 @@
+# Windows Roles and Features Required Before Installing SharePoint Server (No Scenario Hardware)
+
+| Role/Feature | Required for | Install method | Restart needed | Common pitfalls |
+|---|---|---|---|---|
+| Web Server (IIS) | Front-end and some app roles | Server Manager | Sometimes | Missing IIS components causes setup failures |
+| .NET Framework Features | All SharePoint servers | Windows Features | Sometimes | Version mismatch with SharePoint build |
+| Windows Process Activation Service (WAS) | IIS hosting | Server Manager | Sometimes | Incomplete sub-features break app pools |
+| HTTP Activation | Workflow/service apps | Windows Features | Sometimes | Needed for WCF-based services |
+| Message Queuing (MSMQ) | Some legacy integrations | Server Manager | Sometimes | Not needed for many farms but appears in checklists |
+| Windows Identity Foundation | Claims/auth components | Windows Features | Sometimes | Can be OS-version dependent |
+| Remote Server Administration Tools | Admin convenience | Windows Features | No | Not required but often used |
+| AppFabric Caching prerequisites | Distributed Cache role | Installer/Features | Yes | Conflicts with custom cache configurations |

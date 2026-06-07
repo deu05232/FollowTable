@@ -1,0 +1,11 @@
+# Outlook.com   Hotmail Setup via Modern Authentication (No POP IMAP SMTP Ports Provided)
+
+| Client type | Sign-in method | Endpoint / URL | What it configures | Requires ports? | Notes |
+|---|---|---|---|---|---|
+| Outlook (desktop) | OAuth2 | https://login.microsoftonline.com/ | Exchange profile | No | Uses Autodiscover |
+| iOS Mail | Microsoft sign-in | https://outlook.office.com/ | Mail/Contacts/Calendar | No | Profile-based setup |
+| Android (Gmail app) | Google + Microsoft sign-in | https://graph.microsoft.com/ | Mail via sync | No | Uses Microsoft Graph APIs |
+| Thunderbird | OAuth2 | https://autodiscover.outlook.com/ | Auto-fills servers | Not shown | Ports hidden from user |
+| Web browser | Session auth | https://outlook.live.com/ | Webmail | No | Not a mail protocol setup |
+| 2FA accounts | App password (legacy) | account.microsoft.com/security | Legacy client access | Not shown | POP/IMAP may require app password |
+| Admin policy | Disable basic auth | Microsoft 365 admin center | Blocks legacy protocols | N/A | Impacts POP/IMAP/SMTP basic auth |

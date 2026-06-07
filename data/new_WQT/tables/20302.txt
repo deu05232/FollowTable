@@ -1,0 +1,12 @@
+# Subnet mask quick reference alongside a couple of reserved ranges (mixed content)
+
+| Item | Value | What it represents |
+| --- | --- | --- |
+| /24 | 255.255.255.0 | Common subnet size |
+| /23 | 255.255.254.0 | Two contiguous /24s |
+| /16 | 255.255.0.0 | Larger internal network |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback reserved block |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local block |
+| /30 | 255.255.255.252 | Point-to-point links |
+| /27 | 255.255.255.224 | Small subnet |
+| 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Documentation block |

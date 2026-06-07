@@ -1,0 +1,11 @@
+# Outlook.com   Hotmail  Protocol Ports Only (No Server Hostnames)
+
+| Protocol | Direction | Port | Encryption | Notes |
+|---|---|---:|---|---|
+| IMAP | Incoming | 993 | SSL/TLS | Secure IMAP |
+| POP3 | Incoming | 995 | SSL/TLS | Secure POP |
+| SMTP | Outgoing | 587 | STARTTLS | Submission port |
+| SMTP | Outgoing | 465 | SSL/TLS | Legacy implicit TLS |
+| SMTP | Outgoing | 25 | null/STARTTLS | Often blocked by ISPs |
+| HTTP | Web access | 443 | HTTPS | Outlook on the web |
+| Autodiscover | Setup | 443 | HTTPS | Used by many clients |

@@ -1,0 +1,22 @@
+# List of VIA chipsets
+> Southbridge chips
+
+| Part Number | PATA | SATA | RAID | NB Interconnect | PCI | PCI-e | USB | Audio | Modem | Ethernet | Integrated Super I/O |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| VT82C586A | 4 ATA33 | No | No | PCI |  |  |  |  |  | No | No |
+| VT82C586B | 4 ATA33 | No | No | PCI |  |  | 1.1 |  |  | No | No |
+| VT82C596A | 4 ATA33 | No | No | PCI |  |  | 1.1 |  |  | No | No |
+| VT82C596B | 4 ATA66 | No | No | PCI |  |  | 1.1 |  |  | No | No |
+| VT82C686A [7] | 4 ATA66 | No | No | PCI |  |  | 4 1.1 | AC'97 | Yes | No | Yes |
+| VT82C686B [11] | 4 ATA100 | No | No | PCI |  |  | 4 1.1 | AC'97 | Yes | No | Yes |
+| VT8231 | 4 ATA100 | No | No | 4× V-Link 266 MB/s |  |  | 6 1.1 | AC'97 | Yes | No | Yes |
+| VT8233 [12] | 4 ATA100 | No | No | 4× V-Link 266 MB/s |  |  | 6 1.1 | AC'97 | Yes | VIA 10/100 (not on all/earlier) | No |
+| VT8233A [14] | 4 ATA133 | No | No | 4× V-Link 266 MB/s |  |  | 6 1.1 | AC'97 | Yes | VIA 10/100 | No |
+| VT8233C [14] | 4 ATA100 | No | No | 4× V-Link 266 MB/s |  |  | 6 1.1 | AC'97 | Yes (NOT ON ALL) | 3Com 10/100 (NOT ON ALL) | No |
+| VT8235 [14] | 4 ATA133 | No | No | 8× V-Link 533 MB/s |  |  | 6 2.0 | AC'97 | Yes | VIA 10/100 | No |
+| VT8237(R+) [16] | 4 ATA133 | 2 SATA-150, SATALite* | (SATA) RAID 0, 1, 0+1* & JBOD | 8× V-Link 533 MB/s |  |  | 8 2.0 | AC'97 | Yes | VIA 10/100 | No |
+| VT8237A [57] | 4 ATA133 | 2 SATA-150, SATALite* | (SATA) RAID 0, 1, 0+1* & JBOD | 8× V-Link 533 MB/s |  |  | 8 2.0 | HD Audio | Yes | VIA 10/100 | No |
+| VT8237S* | 4 ATA133 | 2 SATA-II, SATALite* | (SATA) RAID 0, 1, 0+1* & JBOD | 8× V-Link 533 MB/s |  |  | 8 2.0 | HD Audio | Yes | VIA 10/100 | No |
+| VT8251 [58] | 4 ATA133 | 4 SATA-II | (SATA) RAID 0, 1, 0+1* & JBOD | 8× V-Link 533 MB/s | 7 | ×1-2 | 8 2.0 | HD Audio | Yes | VIA 10/100 | No |
+| VT8261 [59] | 2 ATA133 | 4 SATA-II | No | Ultra V-Link (1GB/s) | 5 |  | 12 2.0 | HD Audio | Yes | VIA 10/100/1000 | No |
+| Part Number | PATA | SATA | RAID | NB Interconnect | PCI | PCI-e | USB | Audio | Modem | Ethernet | Integrated Super I/O |

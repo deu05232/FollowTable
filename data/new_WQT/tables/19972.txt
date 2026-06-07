@@ -1,0 +1,12 @@
+# Intel Processors Supported for Windows 10 (Selected Families and Generations)
+
+| Intel processor family | Example models | Windows 10 support status | Supported Windows 10 editions | Minimum Windows 10 version/build | Driver source for Windows 10 | Notes |
+|---|---|---|---|---|---|---|
+| Intel Core i (2nd Gen, Sandy Bridge) | Core i5-2510E, Core i5-2537M | Supported | Home/Pro/Enterprise | 1507+ | Intel chipset/graphics drivers (where available) + Microsoft inbox | Legacy platform; some components may rely on Microsoft-provided drivers |
+| Intel Core i (4th Gen, Haswell) | Core i5-4300Y, Core i5-4308U | Supported | Home/Pro/Enterprise | 1507+ | Intel | Broad Windows 10 driver availability across OEM systems |
+| Intel Core i (6th Gen, Skylake) | Core i5-6300U, Core i7-6700 | Supported | Home/Pro/Enterprise | 1507+ | Intel | Common baseline for many business Windows 10 deployments |
+| Intel Core i (7th Gen, Kaby Lake) | Core i5-7300U, Core i7-7500U | Supported | Home/Pro/Enterprise | 1607+ | Intel | Requires newer Windows 10 servicing baseline on many OEM images |
+| Intel Core i (8th Gen, Coffee Lake / Whiskey Lake) | Core i5-8250U, Core i7-8650U | Supported | Home/Pro/Enterprise | 1703+ | Intel | Widely supported with Windows 10 OEM images |
+| Intel Celeron (Braswell) | Celeron N3050 | Supported | Home/Pro | 1507+ | Intel + Microsoft inbox | Entry-level SoC; feature support depends on OEM firmware/drivers |
+| Intel Atom (Cherry Trail) | Atom x5-Z8350, Atom x7-Z8700 | Supported | Home | 1507+ | OEM + Microsoft inbox | Often tablet/2-in-1 focused; driver support can be OEM-specific |
+| Intel Xeon (Nehalem/Westmere era) | Xeon X5670, Xeon W3580 | Supported | Pro/Enterprise | 1507+ | Intel + Microsoft inbox | Server/workstation platforms may use mixed inbox and vendor drivers |

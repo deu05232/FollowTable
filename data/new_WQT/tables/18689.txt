@@ -1,0 +1,8 @@
+# Derivative Rules (Chain Rule focus)
+
+| Rule | Function pattern | Derivative result | Notes |
+| --- | --- | --- | --- |
+| Chain Rule | f(g(x)) | f'(g(x))·g'(x) | Differentiate the outer function and multiply by the derivative of the inner function |
+| General Power Rule (composite) | [g(x)]^n | n[g(x)]^(n-1)·g'(x) | Uses the chain rule |
+| Exponential Rule (composite) | e^{g(x)} | e^{g(x)}·g'(x) | Uses the chain rule |
+| Log Rule (composite) | ln(g(x)) | g'(x)/g(x) | Uses the chain rule |

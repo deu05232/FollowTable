@@ -1,0 +1,12 @@
+# IPv4 Special-Use Blocks (Non-Public Routing) — Range-Only Cheat Sheet
+
+| Block name | Start address | End address | Typical use | Reference |
+| --- | --- | --- | --- | --- |
+| Private space (RFC 1918) | 10.0.0.0 | 10.255.255.255 | Private LANs | RFC 1918 |
+| Private space (RFC 1918) | 172.16.0.0 | 172.31.255.255 | Private LANs | RFC 1918 |
+| Private space (RFC 1918) | 192.168.0.0 | 192.168.255.255 | Private LANs | RFC 1918 |
+| Loopback | 127.0.0.0 | 127.255.255.255 | Local host loopback | RFC 6890 |
+| Link-local | 169.254.0.0 | 169.254.255.255 | Autoconfiguration | RFC 3927 |
+| Shared address space | 100.64.0.0 | 100.127.255.255 | Carrier-grade NAT | RFC 6598 |
+| Documentation (TEST-NET-1) | 192.0.2.0 | 192.0.2.255 | Examples in docs | RFC 5737 |
+| Multicast | 224.0.0.0 | 239.255.255.255 | Multicast routing | RFC 5771 |

@@ -1,0 +1,11 @@
+# SharePoint 2016 2013 Deployment Scenarios with Windows Server Edition Feature Dependencies
+
+| SharePoint scenario | Target Windows Server edition | RAM | CPU/Cores | Key OS edition features required (Windows) | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Single-server (built-in database) | Windows Server 2012 R2 Foundation | 24 GB | 64-bit, 4 cores | User limit 15; No Hyper-V; No Server Core | Intended for small labs; OS limits may constrain users |
+| Single-server (built-in database) | Windows Server 2012 R2 Essentials | 24 GB | 64-bit, 4 cores | Essentials dashboard; simplified management | Requires Essentials experience role enabled |
+| Two-tier farm (Web+App) | Windows Server 2012 R2 Standard | 12 GB | 64-bit, 4 cores | Hyper-V available; Server Core available | Standard licensing model suitable for virtualization |
+| Three-tier farm (Web tier) | Windows Server 2012 R2 Datacenter | 12 GB | 64-bit, 4 cores | Unlimited virtualization rights | Datacenter chosen for VM density |
+| Three-tier farm (App tier) | Windows Server 2012 R2 Standard | 12–16 GB | 64-bit, 4–8 cores | RRAS/IAS access limits vary by edition | Network services might affect service apps |
+| Database server role | Windows Server 2012 R2 Datacenter | 32 GB | 64-bit, 8 cores | Storage Spaces; Hyper-V | Database HA often paired with virtualization |
+| Search-heavy farm (App tier) | Windows Server 2012 R2 Standard | 24 GB | 64-bit, 8 cores | Server Core supported | Some admins deploy on Server Core for reduced footprint |

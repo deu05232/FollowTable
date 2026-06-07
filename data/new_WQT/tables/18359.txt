@@ -1,0 +1,15 @@
+# Electronic Health Record (EHR) Modules and Common Acronyms Used in Implementation
+
+| EHR Component | Purpose | Common Acronym(s) | Example workflow | Typical stakeholders |
+|---|---|---|---|---|
+| Computerized provider order entry | Places orders electronically | CPOE | Provider enters medication orders | Physicians, pharmacists |
+| Clinical decision support | Alerts, reminders, guidelines | CDS | Drug–drug interaction alert | Clinicians, informatics |
+| Electronic medication administration record | Tracks administered meds | eMAR | Nurse scans barcode at bedside | Nursing |
+| Picture archiving and communication system | Stores imaging studies | PACS | Radiology image retrieval | Radiology |
+| Radiology information system | Scheduling/reporting | RIS | Imaging order routed to radiology | Radiology admin |
+| Laboratory information system | Manages lab workflow | LIS | Result posting to chart | Lab staff |
+| Health information exchange | Cross-organization sharing | HIE | Sending CCD to external facility | IT, compliance |
+| Fast Healthcare Interoperability Resources | Data exchange standard | FHIR | API-based patient data access | Developers |
+| Health Level Seven | Messaging standard | HL7 | ADT messages between systems | Integration analysts |
+| Identity and access management | Authentication/authorization | IAM, SSO | Single sign-on for clinicians | Security |
+| Patient portal | Patient-facing access | PHR/Portal | Viewing results and messaging | Patients |

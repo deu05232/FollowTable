@@ -1,0 +1,7 @@
+# DLNA supported formats checklist (video audio image in one table)
+
+| DLNA class | Video format families it can play | Audio format families it can play | Image format families it can display | Notes about typical interoperability |
+| --- | --- | --- | --- | --- |
+| Entry-level DMP | MPEG-2 Video, H.264/AVC (baseline/main) | MP3, AAC-LC | JPEG | Best results with common consumer encodes |
+| Mid-range DMP | MPEG-2 Video, H.264/AVC, MPEG-4 Part 2 | MP3, AAC-LC, WMA | JPEG, PNG | Vendor firmware often adds extra formats |
+| High-end DMP | MPEG-2 Video, H.264/AVC, VC-1 | MP3, AAC-LC, FLAC | JPEG, PNG, BMP | May support more containers depending on model |

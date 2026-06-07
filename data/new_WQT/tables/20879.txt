@@ -1,0 +1,13 @@
+# Default Administrative Distance for Static and Connected Routes (with a Few Protocols)
+
+| Category | Entry | Default Administrative Distance | Notes |
+|---|---|---:|---|
+| Direct | Connected interface | 0 | Route source, not a routing protocol |
+| Static | Static to next-hop | 1 | Route source, not a routing protocol |
+| Static | Static out interface | 1 | Route source, not a routing protocol |
+| Static | Floating static (example) | 200 | Special case (configured higher) |
+| Dynamic | OSPF | 110 | Routing protocol |
+| Dynamic | RIP | 120 | Routing protocol |
+| Dynamic | IS-IS | 115 | Routing protocol |
+| Dynamic | EIGRP (internal) | 90 | Routing protocol subtype |
+| Dynamic | BGP (external) | 20 | Routing protocol subtype |

@@ -1,0 +1,15 @@
+# IPv4 Reserved and Special-Purpose Address Ranges (Operationally Common)
+
+| CIDR block | Start–End range | Scope | Used for |
+| --- | --- | --- | --- |
+| 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | Software / meta | "This network" / only valid as a source in limited contexts; not a normal routable destination |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Private | Private addressing inside organizations (RFC1918) |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared | ISP subscriber-to-ISP CGNAT space; avoid treating as public |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Host | Loopback to local machine; should never be forwarded |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link | Link-local autoconfiguration (APIPA); not routed |
+| 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | Private | Private addressing (RFC1918) |
+| 192.0.0.0/24 | 192.0.0.0 – 192.0.0.255 | Protocol | IETF protocol assignments (various special-purpose uses) |
+| 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Documentation | TEST-NET-1 for examples; should not be routed |
+| 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | Private | Private addressing (RFC1918) |
+| 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Network | IPv4 multicast; not unicast public address space |
+| 240.0.0.0/4 | 240.0.0.0 – 255.255.255.255 | Reserved | Reserved for future use (historically "Class E"); generally not used as normal unicast |

@@ -1,0 +1,8 @@
+# Derivative Rules in Backprop (Activation functions)
+
+| Activation function | Formula | Derivative |
+| --- | --- | --- |
+| ReLU | max(0, x) | 0 (x<0), 1 (x>0) |
+| Leaky ReLU | max(ax, x) | a (x<0), 1 (x>0) |
+| Sigmoid | 1/(1+e^{-x}) | f(x)(1-f(x)) |
+| tanh | tanh(x) | 1 - tanh^2(x) |

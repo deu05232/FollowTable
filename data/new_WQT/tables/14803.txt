@@ -1,0 +1,16 @@
+# Email Client Setup Checklist for Outlook.com (Wizard-Style Steps + Ports)
+
+| Step | Field in Setup Wizard | Recommended Value |
+| --- | --- | --- |
+| 1 | Account Type | IMAP |
+| 2 | Your Name | As you want it displayed |
+| 3 | Email Address | yourname@outlook.com |
+| 4 | Username | your full email address |
+| 5 | Password | your Microsoft account password |
+| 6 | Incoming (IMAP) Server | imap-mail.outlook.com |
+| 7 | IMAP Port | 993 |
+| 8 | IMAP Security | SSL/TLS |
+| 9 | Outgoing (SMTP) Server | smtp-mail.outlook.com |
+| 10 | SMTP Port | 587 |
+| 11 | SMTP Security | STARTTLS |
+| 12 | Outgoing Authentication | Enabled (same as incoming) |

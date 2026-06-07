@@ -1,0 +1,13 @@
+# Derivative Table for Common Elementary Functions (Catalog Style)
+
+| Function f(x) | Name/Type | Derivative f'(x) | Domain notes |
+| --- | --- | --- | --- |
+| x^n | Power function | n x^(n-1) | n real, x>0 if n non-integer |
+| e^x | Exponential | e^x | all real x |
+| a^x | Exponential base a | a^x ln a | a>0, a≠1 |
+| ln x | Natural log | 1/x | x>0 |
+| log_a x | Log base a | 1/(x ln a) | x>0, a>0, a≠1 |
+| sin x | Trigonometric | cos x | all real x |
+| cos x | Trigonometric | −sin x | all real x |
+| tan x | Trigonometric | sec^2 x | x≠π/2+kπ |
+| arctan x | Inverse trig | 1/(1+x^2) | all real x |

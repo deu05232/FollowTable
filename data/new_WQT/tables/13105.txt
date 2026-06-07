@@ -1,0 +1,11 @@
+# Administrative Distance Tuning Commands by Protocol (Quick Lab Sheet)
+
+| Protocol / Route Source | Default AD | Example Configuration Command | Verification Step |
+| --- | ---: | --- | --- |
+| Static route | 1 | `ip route 203.0.113.0 255.255.255.0 10.0.0.1 10` | `show ip route 203.0.113.0` |
+| eBGP | 20 | `bgp default local-preference 200` | `show ip bgp` |
+| EIGRP internal | 90 | `distance eigrp 95 175` | `show ip protocols` |
+| OSPF | 110 | `distance ospf intra-area 120 inter-area 125 external 130` | `show ip protocols` |
+| IS-IS | 115 | `distance isis 118` | `show isis protocol` |
+| RIP | 120 | `distance 130` | `show ip protocols` |
+| iBGP | 200 | `neighbor 10.0.0.2 weight 100` | `show ip bgp summary` |

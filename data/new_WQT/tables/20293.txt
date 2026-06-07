@@ -1,0 +1,14 @@
+# IPv4 non-RFC1918 reserved special-purpose ranges by scope (routing and usage intent)
+
+| Scope / intent | Block (CIDR) | Explicit range | Typical use / reservation |
+| --- | --- | --- | --- |
+| Local host only | 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback for local testing; must not appear on the wire |
+| Local link only | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link-local autoconfiguration (no DHCP); not routed |
+| Provider/customer edge | 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared address space for carrier-grade NAT deployments |
+| Protocol special (software) | 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | "This network" / special source-only semantics (not globally routable) |
+| Documentation/examples | 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | TEST-NET-1: documentation and examples |
+| Documentation/examples | 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | TEST-NET-2: documentation and examples |
+| Documentation/examples | 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | TEST-NET-3: documentation and examples |
+| Device benchmarking | 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | Benchmark tests for interconnect devices; not for public Internet |
+| Public but special delivery | 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Multicast addressing; reserved for multicast group semantics |
+| Non-forwarded broadcast | 255.255.255.255/32 | 255.255.255.255 | Limited broadcast to the local network segment |

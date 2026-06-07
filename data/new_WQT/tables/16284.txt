@@ -1,0 +1,12 @@
+# Impedance Models of Common Circuit Elements (Frequency-Domain)
+
+| Element | Ideal impedance Z(ω) | Magnitude | Phase | Common non-ideal parameter |
+|---|---|---|---|---|
+| Resistor | R | R | 0° | Temperature coefficient |
+| Capacitor | 1/(jωC) | 1/(ωC) | −90° | ESR |
+| Inductor | jωL | ωL | +90° | DCR |
+| Series RLC | R + j(ωL − 1/(ωC)) | depends on ω | depends on ω | Q factor |
+| Parallel RC | 1/(1/R + jωC) | depends on ω | depends on ω | leakage |
+| Transmission line | Z0(1 + Γ)/(1 − Γ) | depends on ω | depends on ω | propagation constant |
+| Ferrite bead | R(ω) + jX(ω) | depends on ω | depends on ω | impedance vs freq curve |
+| Loudspeaker (simplified) | Re + jωLe + Zm(ω) | depends on ω | depends on ω | resonance peak |

@@ -1,0 +1,8 @@
+# Reserved IPv4 blocks with purpose-focused descriptions (selection)
+
+| Block (CIDR) | Range | Scope | Purpose summary |
+| --- | --- | --- | --- |
+| 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | Software | Identifies the current network; used as a source address only |
+| 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Link | Link-local addressing when no DHCP is available |
+| 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Global | Multicast addressing |
+| 240.0.0.0/4 | 240.0.0.0 – 255.255.255.255 | Reserved | Reserved for future use |

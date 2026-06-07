@@ -1,0 +1,11 @@
+# Matrix Vector Calculus Derivative Identities Cheat Sheet
+
+| Identity Name | Generic Pattern | Resulting Derivative | Conditions/Shape |
+| --- | --- | --- | --- |
+| Linear form | y=a^T x | ∂y/∂x = a | a,x∈R^n |
+| Quadratic form (symmetric) | y=x^T A x | ∂y/∂x = (A+A^T)x | A∈R^{n×n} |
+| Trace trick | y=tr(A^T X) | ∂y/∂X = A | X,A same shape |
+| Frobenius norm | y=||X||_F^2=tr(X^T X) | ∂y/∂X = 2X | X∈R^{m×n} |
+| Log-determinant | y=log det(X) | ∂y/∂X = (X^{-1})^T | X invertible |
+| Inverse | Y=X^{-1} | dY = -X^{-1}(dX)X^{-1} | Differential form |
+| Least squares | y=||Ax-b||_2^2 | ∂y/∂x = 2A^T(Ax-b) | A∈R^{m×n} |

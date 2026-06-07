@@ -1,0 +1,10 @@
+# DLNA Streaming Transport Features by Player (Not Format Support)
+
+| Player/App | DLNA/UPnP Browse | DLNA Render | HTTP | RTSP | HLS | DASH | SMB | NFS |
+|---|---|---|---|---|---|---|---|---|
+| VLC | Yes | Partial | Yes | Yes | Yes | Yes | Yes | No |
+| Windows Media Player | Yes | Yes | Yes | No | No | No | No | No |
+| Kodi | Yes | Yes | Yes | Yes | Partial | Partial | Yes | Yes |
+| BubbleUPnP | Yes | Yes | Yes | No | No | No | No | No |
+| Plex | Partial | Partial | Yes | No | Yes | Yes | No | No |
+| DLNA Digital Media Controller (generic) | Yes | N/A | N/A | N/A | N/A | N/A | N/A | N/A |

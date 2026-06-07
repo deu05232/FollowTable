@@ -1,0 +1,8 @@
+# SQL / XML
+> Standard compliance
+
+|  | Oracle 11g Release 1 | IBM DB2 9.7 | MS SQL Server 2008 | MySQL 5.1.30 | PostgreSQL 9.1 |
+| --- | --- | --- | --- | --- |
+| Datatype XML | partial (Oracle entitles the data type 'XMLType' instead of 'XML') | High | High | No | Partial |
+| SQL/XML predicates | High | High | Partial | No | Partial |
+| SQL/XML functions | High | High | Partial | Low | High |

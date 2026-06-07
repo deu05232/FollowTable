@@ -1,0 +1,13 @@
+# Universal Gas Constant R Used Only in Derived Ratios (No Direct Listing of R Values by Units)
+
+| Property/Ratio | Expression involving R | Typical use | Example (dimensionless where applicable) | Notes |
+|---|---|---|---:|---|
+| Reduced temperature | T_r = T / T_c | corresponding states | — | does not provide R |
+| Compressibility factor | Z = PV/(nRT) | real-gas deviation | — | R not numerically tabulated |
+| Mayer relation | C_p,m − C_v,m = R | heat capacities | — | R appears symbolically |
+| Adiabatic index | \gamma = C_p,m / C_v,m | sound speed, adiabats | 1.40 (air approx.) | depends on gas |
+| Speed of sound | a = \sqrt{\gamma R T / M} | acoustics | — | uses R and molar mass |
+| Isentropic relation | PV^\gamma = const | ideal gas process | — | no unit conversions for R |
+| Sackur–Tetrode (partial) | S_m = R[\ln(\cdots)+5/2] | statistical thermodynamics | — | R only symbolic |
+| van der Waals a,b scaling | a/(R^2 T_c^2), b/(R T_c) | EOS nondimensionalization | — | ratio-based |
+| Arrhenius form (molar) | k = A exp(-E_a/(RT)) | kinetics | — | requires R but not listed |

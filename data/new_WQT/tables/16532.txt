@@ -1,0 +1,12 @@
+# Microsoft 365   Outlook DNS Records for Custom Domains (Mail Flow)
+
+| Record type | Host/Name | Points to / Value | Priority | TTL | Purpose |
+| --- | --- | --- | --- | --- | --- |
+| MX | @ | yourdomain-com.mail.protection.outlook.com | 0 | 3600 | Route inbound mail to Microsoft |
+| TXT | @ | v=spf1 include:spf.protection.outlook.com -all | — | 3600 | SPF for sending authorization |
+| CNAME | autodiscover | autodiscover.outlook.com | — | 3600 | Autodiscover lookup |
+| CNAME | selector1._domainkey | selector1-yourdomain._domainkey.outlook.com | — | 3600 | DKIM public key (selector 1) |
+| CNAME | selector2._domainkey | selector2-yourdomain._domainkey.outlook.com | — | 3600 | DKIM public key (selector 2) |
+| TXT | _dmarc | v=DMARC1; p=none; rua=mailto:dmarc@yourdomain.com | — | 3600 | DMARC policy |
+| SRV | _sip._tls | 100 1 443 sipdir.online.lync.com | — | 3600 | Teams/Skype service discovery |
+| SRV | _sipfederationtls._tcp | 100 1 5061 sipfed.online.lync.com | — | 3600 | Federation discovery |

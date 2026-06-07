@@ -1,0 +1,10 @@
+# Windows Server 2012 2016 Edition Feature Comparison for SharePoint Hosting
+
+| Windows Server edition | GUI options | Hyper-V role | Failover Clustering | Remote Desktop Services | Max RAM supported | Notes for SharePoint |
+|---|---|---|---|---|---|---|
+| Windows Server 2012 Foundation | Full GUI only | No | No | Limited | 32 GB | Not recommended for farms beyond very small deployments |
+| Windows Server 2012 Essentials | Full GUI only | Limited | No | Limited | 64 GB | Small business focus; may constrain growth |
+| Windows Server 2012 Standard | Full GUI / Server Core | Yes | Yes | Yes | 4 TB | Common baseline for SharePoint app/web tiers |
+| Windows Server 2012 Datacenter | Full GUI / Server Core | Yes (unlimited virtualization rights) | Yes | Yes | 4 TB | Licensing optimized for heavy virtualization |
+| Windows Server 2016 Standard | Full GUI / Server Core | Yes | Yes | Yes | 24 TB | Adds improved security and containers |
+| Windows Server 2016 Datacenter | Full GUI / Server Core | Yes (unlimited virtualization rights) | Yes | Yes | 24 TB | Adds Storage Spaces Direct, Shielded VMs |

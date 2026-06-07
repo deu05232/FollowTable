@@ -1,0 +1,12 @@
+# Microsoft 365   Outlook Ecosystem Endpoints (Broader Services, Not Hotmail POP IMAP SMTP Ports)
+
+| Service area | Endpoint/URL | Purpose | Notes |
+| --- | --- | --- | --- |
+| Outlook on the web | https://outlook.live.com | Webmail access | Browser-based |
+| Microsoft account | https://account.live.com | Account security & sign-in | Password/MFA management |
+| OneDrive | https://onedrive.live.com | File storage | Not mail transport |
+| People/Contacts | https://people.live.com | Contact management | Syncs contacts |
+| Calendar | https://outlook.live.com/calendar | Calendar web UI | Not mail protocol |
+| Exchange admin | https://admin.microsoft.com | Tenant administration | For org admins |
+| Service health | https://status.office.com | Service status | Region dependent |
+| Autodiscover | https://autodiscover.outlook.com | Client auto-configuration | Not a port/encryption table |

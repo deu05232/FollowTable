@@ -1,0 +1,13 @@
+# Outlook Autodiscover and Client Connectivity Changes During Exchange Hybrid Adoption
+
+| Client connectivity item | Before Hybrid Deployment | After Hybrid Deployment |
+| --- | --- | --- |
+| Autodiscover endpoint | Points to on-premises CAS (autodiscover.contoso.com) | May redirect to autodiscover.outlook.com for cloud mailboxes |
+| Outlook profile creation | Manual server name entry sometimes used | Autodiscover required for seamless profile creation |
+| MAPI/HTTP | Enabled for on-prem only | Cloud mailboxes use Microsoft 365 MAPI/HTTP endpoints |
+| EWS URL used by Outlook | https://mail.contoso.com/EWS/Exchange.asmx | https://outlook.office365.com/EWS/Exchange.asmx |
+| OAB download | On-prem OAB virtual directory | Microsoft 365 OAB service |
+| RPC/HTTP legacy | Still present in older environments | Deprecated; clients moved to modern protocols |
+| Mobile (ActiveSync) URL | https://mail.contoso.com/Microsoft-Server-ActiveSync | https://outlook.office365.com/Microsoft-Server-ActiveSync |
+| Certificate trust issues | Internal CA frequently prompts | Public CA reduces warnings |
+| Common troubleshooting focus | Ports/SSL bindings/proxy settings | Proxy bypass, TLS inspection, client auth methods |

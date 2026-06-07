@@ -1,0 +1,12 @@
+# Chain Rule Patterns for Composed Algebraic Forms
+
+| Pattern type | Original expression (in x) | Differentiated form (d/dx) |
+| --- | --- | --- |
+| Chain rule (general) | f(g(x)) | f'(g(x))·g'(x) |
+| Power of an inner function (n constant) | (g(x))^n | n·(g(x))^(n−1)·g'(x) |
+| Square of an inner function | (g(x))^2 | 2·g(x)·g'(x) |
+| Reciprocal of an inner function | 1/g(x) | −g'(x)/(g(x))^2 |
+| Quotient as composition | f(x)/g(x) | (f'(x)·g(x) − f(x)·g'(x)) / (g(x))^2 |
+| Root of an inner function | √(g(x)) | g'(x)/(2√(g(x))) |
+| Linear inner function | f(a x + b) | a·f'(a x + b) |
+| Product with composed term | f(x)·h(g(x)) | f'(x)·h(g(x)) + f(x)·h'(g(x))·g'(x) |

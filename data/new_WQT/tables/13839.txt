@@ -1,0 +1,12 @@
+# Common Circumvention Infrastructure Used to Reach Blocked Websites from Mainland China
+
+| Blocked Service | Domain | Service Type | Common Workaround | Example DNS Resolver | Example VPN Protocol | Typical Ports | Reliability (Anecdotal) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Google | google.com | Search | VPN | 1.1.1.1 | WireGuard | 443/51820 | Medium |
+| YouTube | youtube.com | Video streaming | VPN | 8.8.8.8 | OpenVPN | 443/1194 | Medium |
+| Facebook | facebook.com | Social network | HTTPS proxy | 9.9.9.9 | Shadowsocks | 443/8388 | Low-Medium |
+| Wikipedia | wikipedia.org | Knowledge base | VPN | 1.0.0.1 | IKEv2 | 500/4500 | Medium |
+| X (Twitter) | x.com | Social network | Proxy | 8.8.4.4 | Trojan | 443 | Low |
+| Dropbox | dropbox.com | Cloud storage | VPN | 208.67.222.222 | WireGuard | 443/51820 | Medium |
+| Telegram | telegram.org | Messaging | MTProto proxy | 94.140.14.14 | MTProto | 443 | Low |
+| Instagram | instagram.com | Social network | VPN | 8.26.56.26 | OpenVPN | 443/1194 | Medium |

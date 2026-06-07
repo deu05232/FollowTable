@@ -1,0 +1,12 @@
+# .NET Framework and Windows Version Compatibility Matrix for SharePoint Prerequisites
+
+| Component | Minimum version | Supported Windows client | Supported Windows Server | Included in OS by default | Notes |
+|---|---|---|---|---|---|
+| .NET Framework | 4.5 | Windows 7 SP1 | Windows Server 2008 R2 SP1 | No | Legacy baseline for older SharePoint builds |
+| .NET Framework | 4.5.1 | Windows 8.1 | Windows Server 2012 R2 | Yes (varies) | Often required by mid-generation cumulative updates |
+| .NET Framework | 4.6.2 | Windows 10 (1607+) | Windows Server 2016 | Yes (varies) | Common for SharePoint 2016-era patch levels |
+| .NET Framework | 4.7.2 | Windows 10 (1803+) | Windows Server 2019 | Yes (varies) | May be required by newer prerequisites installers |
+| .NET Framework | 4.8 | Windows 10 (1903+) | Windows Server 2019/2022 | Yes (varies) | Current long-term supported .NET Framework |
+| PowerShell | 4.0 | Windows 8.1 | Windows Server 2012 R2 | Yes | Used for prerequisite installation scripts |
+| Windows Installer | 4.5+ | Windows 7 SP1 | Windows Server 2008 R2 SP1 | Yes | Setup dependency |
+| VC++ Redistributable | 2015-2019 | Windows 7+ | Windows Server 2008 R2+ | No | Some components require it |

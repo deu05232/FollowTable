@@ -1,0 +1,8 @@
+# # Routing Administrative Distance Values (mixed with troubleshooting actions)
+
+| Protocol / source | Default preference value | Typical troubleshooting action |
+| --- | --- | --- |
+| External BGP | 20 | Check neighbor state and BGP session timers |
+| OSPF | 110 | Verify area mismatch and LSDB consistency |
+| RIP | 120 | Confirm updates are received and split horizon settings |
+| Static | 1 | Verify next-hop reachability and ARP resolution |

@@ -1,0 +1,12 @@
+# Windows 10 Driver Availability by Intel Codename (Codename-Level, Not SKU-Level)
+
+| Intel codename | Market segment | Common CPU branding | iGPU/graphics stack | Windows 10 driver availability | Notes |
+|---|---|---|---|---|---|
+| Sandy Bridge | Desktop/Mobile | Core i3/i5/i7 | HD Graphics 2000/3000 | Supported (OEM-dependent) | Often relies on vendor packages |
+| Ivy Bridge | Desktop/Mobile | Core i3/i5/i7 | HD Graphics 2500/4000 | Supported | Broad compatibility |
+| Haswell | Desktop/Mobile | Core i3/i5/i7 | HD Graphics 4xxx/Iris | Supported | Strong enterprise footprint |
+| Broadwell | Mobile | Core i3/i5/i7 | HD Graphics 5xxx | Supported | Fewer desktop SKUs |
+| Skylake | Desktop/Mobile | Core i3/i5/i7 | HD Graphics 5xx | Supported | Common in 2016-era laptops |
+| Kaby Lake | Desktop/Mobile | Core i3/i5/i7 | HD/UHD Graphics 6xx | Supported | Often shipped with Windows 10 |
+| Bay Trail | Tablet/Embedded | Atom | Intel HD (Bay Trail) | Mixed | Some systems have limited OEM support |
+| Braswell | Low-power | Celeron/Pentium | Intel HD (Braswell) | Supported | Platform integration matters |

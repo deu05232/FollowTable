@@ -1,0 +1,11 @@
+# Matrix and Vector Differential Identities (Cheat Sheet)
+
+| Topic | Canonical differential | Equivalent derivative form | Conditions |
+| --- | --- | --- | --- |
+| Linear form | d y = a^T d x | ∂y/∂x = a^T | x vector |
+| Quadratic form | d(x^T A x)= x^T(A+A^T) d x | ∂(x^T A x)/∂x = x^T(A+A^T) | A constant |
+| Trace trick | d tr(A^T X)= tr(A^T dX) | ∂ tr(A^T X)/∂X = A | X matrix |
+| Log-det | d log det X = tr(X^{-1} dX) | ∂ log det X/∂X = (X^{-1})^T | X invertible |
+| Inverse | d X^{-1} = -X^{-1}(dX)X^{-1} | ∂X^{-1}/∂X = -X^{-T} ⊗ X^{-1} | Uses Kronecker |
+| Frobenius norm | d||X||_F^2 = 2 tr(X^T dX) | ∂||X||_F^2/∂X = 2X |  |
+| Least squares | d||Ax-b||^2 = 2(Ax-b)^T A d x | ∂||Ax-b||^2/∂x = 2(A^T(Ax-b))^T | A constant |

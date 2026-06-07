@@ -1,0 +1,13 @@
+# Hybrid Deployment Prerequisites and DNS Certificate Settings for Exchange and Microsoft 365
+
+| Category | Setting | Example value | Notes |
+|---|---|---|---|
+| DNS | MX record | contoso-com.mail.protection.outlook.com | Routes inbound mail to Microsoft 365 |
+| DNS | Autodiscover CNAME | autodiscover.contoso.com -> autodiscover.outlook.com | Client discovery for Exchange Online mailboxes |
+| DNS | SPF (TXT) | v=spf1 include:spf.protection.outlook.com -all | Sender validation |
+| DNS | DKIM selector 1 (CNAME) | selector1._domainkey.contoso.com -> selector1-contoso-com._domainkey.contoso.onmicrosoft.com | Required for DKIM signing |
+| DNS | DKIM selector 2 (CNAME) | selector2._domainkey.contoso.com -> selector2-contoso-com._domainkey.contoso.onmicrosoft.com | Required for DKIM signing |
+| Certificates | Public cert SAN | mail.contoso.com, autodiscover.contoso.com | Used by hybrid transport and EWS |
+| Certificates | TLS protocol | TLS 1.2 | Recommended minimum |
+| Networking | Inbound firewall | TCP 25, 443 open to Exchange | Mail flow + hybrid features |
+| Networking | Outbound allow list | *.outlook.com, *.protection.outlook.com | Connectivity to Microsoft 365 endpoints |

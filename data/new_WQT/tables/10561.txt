@@ -1,0 +1,13 @@
+# SharePoint Farm Hardware + Software Requirements (Mixed Checklist)
+
+| Farm role / item | CPU recommendation | RAM recommendation | Software / prerequisite requirement |
+| --- | --- | --- | --- |
+| Web Front End (WFE) | 4–8 cores (64-bit) | 12–24 GB | IIS, Windows Authentication enabled |
+| Application server | 4–8 cores (64-bit) | 16–32 GB | .NET Framework version aligned with build |
+| Search server | 8–16 cores (64-bit) | 32–64 GB | Local SSD recommended; FAST/SharePoint Search components |
+| Distributed Cache | 4–8 cores | 16–32 GB | AppFabric/Distributed Cache service configured |
+| SQL Server (DB) | 8–24 cores | 32–128 GB | Supported SQL version/edition; tempdb best practices |
+| Office Online Server (optional) | 8 cores | 16–32 GB | Requires specific Windows Server and .NET versions |
+| Workflow Manager (optional) | 4–8 cores | 8–16 GB | Requires Workflow Manager + Service Bus |
+| Domain & DNS | N/A | N/A | Domain-joined servers required |
+| Patch baseline | N/A | N/A | Latest CUs/security updates recommended |

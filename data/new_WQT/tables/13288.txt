@@ -1,0 +1,12 @@
+# BitTorrent Clients — License Compatibility and Packaging Metadata
+
+| Client | License type | Source availability | Reproducible builds | Official package in Debian/Ubuntu | Homebrew formula | Microsoft Store listing | Code signing | Third-party dependency notes |
+|---|---|---|---|---|---|---|---|---|
+| qBittorrent | GPLv2 | Yes | Partial | Yes | Yes | No | Yes (macOS/Win) | Qt + libtorrent |
+| Transmission | GPLv2/3 | Yes | Partial | Yes | Yes | No | Yes (macOS) | libevent + openssl |
+| Deluge | GPLv3 | Yes | No | Yes | Yes | No | Varies | Python + libtorrent |
+| rTorrent | GPLv2 | Yes | No | Yes | No | No | No | ncurses + xmlrpc |
+| WebTorrent Desktop | MIT | Yes | No | No | Yes | Yes | Yes | Electron + Node |
+| µTorrent | Proprietary | No | No | No | No | Yes | Yes | Closed-source |
+| BitComet | Proprietary | No | No | No | No | No | Yes | Closed-source |
+| BiglyBT | GPLv2 | Yes | No | No | Yes | No | Yes | SWT + core libs |

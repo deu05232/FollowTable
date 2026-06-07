@@ -1,0 +1,13 @@
+# Common Email Providers Server Hosts (Includes Outlook.com but Omits Port and Encryption)
+
+| Provider | Incoming server hostname | Outgoing server hostname | Account type |
+| --- | --- | --- | --- |
+| Outlook.com / Hotmail | imap-mail.outlook.com | smtp-mail.outlook.com | IMAP |
+| Outlook.com / Hotmail | pop-mail.outlook.com | smtp-mail.outlook.com | POP3 |
+| Gmail | imap.gmail.com | smtp.gmail.com | IMAP |
+| Yahoo Mail | imap.mail.yahoo.com | smtp.mail.yahoo.com | IMAP |
+| iCloud Mail | imap.mail.me.com | smtp.mail.me.com | IMAP |
+| AOL Mail | imap.aol.com | smtp.aol.com | IMAP |
+| Proton Mail (bridge) | 127.0.0.1 | 127.0.0.1 | IMAP/SMTP via Bridge |
+| Zoho Mail | imappro.zoho.com | smtp.zoho.com | IMAP |
+| GMX | imap.gmx.com | mail.gmx.com | IMAP |

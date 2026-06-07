@@ -1,0 +1,12 @@
+# List of Intel chipsets
+> 4xx chipsets
+
+| Chipset | Code Name | Part Numbers | South Bridge | Release Date | Processors | FSB | SMP | Memory types | Max. memory | Max. cacheable | Parity/ECC | L2 Cache Type | PCI support | AGP support |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 430LX | Mercury [16] | 82434LX (PCMC) 2x 82433LX (LBX) | SIO (ISA) PCEB/ESC (EISA) | March 1993 | P60/66 | 60/66 MHz | No | FPM | 192 MB | 192 MB | Parity | Async. | 2.0 | No |
+| 430NX | Neptune [17] | 82434NX (PCMC) 2x 82433NX (LBX) | SIO (ISA) SIO.A (DP ISA) PCEB/ESC (EISA) | March 1994 | P75+ | 50/60/66 MHz | Yes | FPM | 512 MB | 512 MB | Parity | Async. | 2.0 | No |
+| 430FX | Triton [18] [19] | 82437FX/JX (TSC) 2x 82438FX (TDP) | PIIX | January 1995 | P75+ | 50/60/66 MHz | No | FPM/ EDO | 128 MB | 64 MB | Neither | Async./Pburst | 2.0 | No |
+| 430MX | Mobile Triton | 82437MX | MPIIX | October 1995 | P75+ | 50/60/66 MHz | No | FPM/EDO | 128 MB | 64 MB | Neither | Async./Pburst | 2.0 | No |
+| 430HX | Triton II [19] [20] | 82439HX/JHX (TXC) | PIIX3 | February 1996 | P75+ | 50/60/66 MHz | Yes | FPM/EDO | 512 MB | 64 MB 512 MB (w/ 11-bit tag RAM ) [21] | Both | Async./Pburst | 2.1 | No |
+| 430VX | Triton II [19] [22] | 82437VX (TVX) 2x 82438VX (TDX) | PIIX3 | February 1996 | P75+ | 60/66 MHz | No | FPM/EDO/ SDRAM | 128 MB | 64 MB | Neither | Async./Pburst | 2.1 | No |
+| 430TX [23] |  | 82439TX (MTXC) | PIIX4 | February 1997 | P75+ | 60/66 MHz | No | FPM/EDO/SDRAM | 256 MB | 64 MB | Neither | Async./Pburst | 2.1 | No |

@@ -1,0 +1,8 @@
+# # SharePoint Server 2016  hardware requirements by farm role (example)
+
+| Installation scenario / server role | RAM | Processor |
+| --- | --- | --- |
+| Single server (built-in database) | 24 GB | 64-bit, 4 cores |
+| Web/Front-end server in a multi-server farm | 12 GB | 64-bit, 4 cores |
+| Application server in a multi-server farm | 12 GB | 64-bit, 4 cores |
+| Database server (SQL Server for SharePoint) | 16 GB | 64-bit, 4 cores |

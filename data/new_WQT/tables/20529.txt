@@ -1,0 +1,11 @@
+# BitTorrent Command-Line Tools and Daemons (Not typical end-user client apps)
+
+| Tool/Daemon | Type | Primary usage | Magnet support | DHT/PEX | Encryption | IPv6/µTP | Remote control | GUI | Notes |
+|---|---|---|---|---|---|---|---|---|---|
+| aria2c | CLI downloader | Scripted downloads | Yes | PEX: Yes / DHT: ? | Optional | IPv6: Yes / µTP: ? | JSON-RPC | No | Often used headless |
+| btcli | CLI utility | Debug/testing | Partial | Limited | No | No | No | No | Developer-oriented |
+| ctorrent | CLI client | Minimal torrenting | No | No | No | No | No | No | Very old client |
+| rtorrent (daemon use) | TUI/daemon | Server seedbox | Yes | Yes | Yes | IPv6: Yes / µTP: No | XMLRPC/SCGI | No | Usually run remotely |
+| transmission-daemon | Daemon | NAS/seedbox | Yes | Yes | Yes | Yes | RPC | No | GUI is separate |
+| mktorrent | Utility | Create .torrent files | N/A | N/A | N/A | N/A | No | No | Not a downloader |
+| torrentcheck | Utility | Verify torrents | N/A | N/A | N/A | N/A | No | No | Not a full client |

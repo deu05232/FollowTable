@@ -1,0 +1,10 @@
+# Common internet censorship methods used in China and what they affect
+
+| Method | What it targets | What users typically observe | Notes |
+| --- | --- | --- | --- |
+| DNS poisoning | Domain lookups | Wrong IP / failed resolution | Can vary by resolver |
+| IP blocking | IP ranges | Timeout | May affect shared hosting |
+| URL keyword filtering | URL strings | Specific pages fail | Can be selective |
+| SNI/HTTPS filtering | TLS handshake metadata | Connection reset | Often intermittent |
+| Packet injection/reset | TCP streams | Reset packets | Depends on keywords |
+| Traffic throttling | Bandwidth | Very slow access | Not always a full block |

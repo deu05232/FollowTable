@@ -1,0 +1,12 @@
+# Uuencode 6-bit Groups to ASCII Characters (Encoding Table)
+
+| 6-bit Value | Binary | ASCII DEC | ASCII Char | Notes |
+|---:|---|---:|---|---|
+| 0 | 000000 | 32 | (space) | uuencode offset start |
+| 1 | 000001 | 33 | ! | |
+| 2 | 000010 | 34 | " | |
+| 3 | 000011 | 35 | # | |
+| 4 | 000100 | 36 | $ | |
+| 5 | 000101 | 37 | % | |
+| 6 | 000110 | 38 | & | |
+| 7 | 000111 | 39 | ' | |

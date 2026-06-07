@@ -1,0 +1,11 @@
+# Financial Derivatives Overview (Options Forwards) and Key Sensitivities
+
+| Instrument Name | Payoff Pattern | Key Rate/Greek (Sensitivity) | 'Derivative' Mentioned As | Typical Underlying |
+| --- | --- | --- | --- | --- |
+| Forward | V_T = S_T - K | Delta ≈ 1 | Financial derivative contract | Commodity/FX |
+| Futures | V_T = S_T - K (marked-to-market) | Delta ≈ 1 | Financial derivative contract | Index/commodity |
+| Call Option | V_T = max(S_T-K,0) | Delta, Gamma, Vega | Derivative security | Equity |
+| Put Option | V_T = max(K-S_T,0) | Delta, Gamma, Vega | Derivative security | Equity |
+| Swap | Net PV of cashflow legs | DV01 | Interest-rate derivative | Rates |
+| CDS | Protection leg vs premium leg | Credit spread sensitivity | Credit derivative | Credit |
+| Barrier Option | Depends on hitting a barrier | Path-dependent Greeks | Exotic derivative | FX/equity |

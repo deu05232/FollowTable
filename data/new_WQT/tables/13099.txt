@@ -1,0 +1,8 @@
+# # Administrative Distance Overview by Protocol (with narrative focus)
+
+| Routing source | What it means in practice |
+| --- | --- |
+| Connected | Preferred because it is directly attached; usually wins route selection |
+| Static | Commonly used for defaults; can override dynamic sources when set appropriately |
+| OSPF | Chosen within an IGP domain; path cost influences best path inside the protocol |
+| EIGRP | Uses a composite metric; can be tuned to influence selection |

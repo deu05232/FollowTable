@@ -1,0 +1,12 @@
+# Comparison of video codecs
+> Software characteristics
+
+| Codec | Compression type | Basic algorithm | Highest supported bitrate | Highest supported resolution | Variable frame rate |
+| --- | --- | --- | --- | --- | --- |
+| Blackbird | lossy compression | Unknown | Unknown | 384×288 (PAL), 320×240 (NTSC) | Yes |
+| Cinepak | lossy compression | Vector quantization [28] | Unknown | Unknown | Unknown |
+| Dirac | lossy/ lossless compression | Wavelet compression | Unlimited [29] | Unlimited [29] | Yes |
+| Sorenson 3 | lossy compression | Unknown | Unknown | Unknown | Unknown |
+| Theora | lossy compression | Discrete cosine transform | 2 Gibit/s | 1,048,560×1,048,560 [30] [31] | Via chaining [*] |
+| RealVideo | lossy compression | Discrete cosine transform | Unknown | Unknown | Yes |
+| Elecard | lossy compression | Unknown | Unlimited | 16k | Yes |

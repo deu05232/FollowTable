@@ -1,0 +1,10 @@
+# IPv4 Address Classes and Example Special Ranges (Classful Focus)
+
+| Class / Type | First Octet Range | Example CIDR | Example Range | Notes |
+| --- | --- | --- | --- | --- |
+| Class A | 1–126 | /8 | 1.0.0.0 – 126.255.255.255 | Historically classful allocation |
+| Class B | 128–191 | /16 | 128.0.0.0 – 191.255.255.255 | Historically classful allocation |
+| Class C | 192–223 | /24 | 192.0.0.0 – 223.255.255.255 | Historically classful allocation |
+| Loopback (special) | 127 | 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Local host testing |
+| Link-local (special) | 169 | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Self-assigned addressing |
+| Private (RFC1918 example) | 10 | 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | Private addressing |

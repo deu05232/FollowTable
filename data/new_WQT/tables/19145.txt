@@ -1,0 +1,8 @@
+# # Office 365 DNS records commonly used with Exchange hybrid
+
+| Record type | Host name | Points to / value |
+| --- | --- | --- |
+| MX | @ | yourdomain-com.mail.protection.outlook.com |
+| TXT | @ | v=spf1 include:spf.protection.outlook.com -all |
+| CNAME | autodiscover | autodiscover.outlook.com |
+| CNAME | enterpriseenrollment | enterpriseenrollment.manage.microsoft.com |

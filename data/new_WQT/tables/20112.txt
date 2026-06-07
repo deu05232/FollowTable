@@ -1,0 +1,17 @@
+# IPv4 Special-Use (Non-Public-Routable) Address Blocks — CIDR Quick Reference
+
+| Category | Block (CIDR) | Typical use / meaning | Routing on public Internet? | Reference |
+| --- | --- | --- | --- | --- |
+| Private (RFC1918) | 10.0.0.0/8 | Private networks (LANs, internal addressing) | No | RFC 1918 |
+| Private (RFC1918) | 172.16.0.0/12 | Private networks | No | RFC 1918 |
+| Private (RFC1918) | 192.168.0.0/16 | Private networks | No | RFC 1918 |
+| Shared address space | 100.64.0.0/10 | Carrier-grade NAT between ISP and customers | No | RFC 6598 |
+| Loopback | 127.0.0.0/8 | Local host loopback | No | RFC 6890 |
+| Link-local | 169.254.0.0/16 | Automatic addressing (APIPA) when no DHCP | No | RFC 3927 / RFC 6890 |
+| IETF protocol assignments | 192.0.0.0/24 | Protocol-specific anycast/test uses (various) | Generally no | RFC 6890 |
+| Documentation | 192.0.2.0/24 | Examples in documentation | No | RFC 5737 |
+| Documentation | 198.51.100.0/24 | Examples in documentation | No | RFC 5737 |
+| Documentation | 203.0.113.0/24 | Examples in documentation | No | RFC 5737 |
+| Benchmark testing | 198.18.0.0/15 | Network device benchmarking | No | RFC 2544 |
+| Multicast | 224.0.0.0/4 | IP multicast (special routing semantics) | Not normal unicast | RFC 5771 / RFC 6890 |
+| Limited broadcast | 255.255.255.255/32 | Local network broadcast | No (not routed) | RFC 919 / RFC 922 |

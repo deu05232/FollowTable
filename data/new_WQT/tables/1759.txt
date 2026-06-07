@@ -1,0 +1,17 @@
+# List of Intel chipsets
+> 8xx chipsets
+
+| Chipset | Code name | Part numbers | South bridge | Release date | Processors | FSB | SMP | Memory types | Max. memory | Memory banks | Parity or ECC | PCI | Ext. AGP/speed | IGP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 810 | Whitney | 82810 | ICH /ICH0 | April 1999 | Celeron, Pentium II/III | 66/100 MHz | No | EDO/PC100 SDRAM | 512 MB | 4 | Neither | v2.2/33 MHz | No | Yes |
+| 810E | Whitney | 82810E | ICH | September 1999 | Celeron, Pentium II/III | 66/100/133 MHz | No | PC100/133 SDRAM | 512 MB | 4 | Neither | v2.2/33 MHz | No | Yes |
+| 810E2 | Whitney | 8210E | ICH2 |  | Celeron, Pentium II/III | 66/100/133 MHz | No | PC100/133 SDRAM | 512 MB | 4 | Neither | v2.2/33 MHz | No | Yes |
+| 820 | Camino | 82820 | ICH | November 1999 | Pentium II/III, Celeron | 66/100/133 MHz | Yes | PC800 RDRAM /PC100 SDRAM (with MTH ) | 1 GB | 2 | Both | v2.2/33 MHz | Yes/AGP 4× | No |
+| 840 | Carmel | 82840 | ICH | October 1999 | Pentium III, Xeon | 66/100/133 MHz | Yes | Dual-Channel PC800 RDRAM | 4 GB | 2×4 | Both | v2.2/33 MHz+PCI-X/66 MHz | Yes/AGP 4× | No |
+| 820E | Camino | 82820 | ICH2 | June 2000 | Pentium II/III, Celeron | 66/100/133 MHz | Yes | PC800 RDRAM /PC100 SDRAM (with MTH ) | 1 GB | 2 | Both | v2.2/33 MHz | Yes/AGP 4× | No |
+| 815 | Solano | 82815 | ICH | June 2000 | Celeron, Pentium II/III | 66/100/133 MHz | No | PC100/133 SDRAM | 512 MB | 6 | Neither | v2.2/33 MHz | Yes/AGP 4× | Yes |
+| 815E | Solano | 82815 | ICH2 | June 2000 | Celeron, Pentium II/III | 66/100/133 MHz | Yes (2) | PC100/133 SDRAM | 512 MB | 6 | Neither | v2.2/33 MHz | Yes/AGP 4× | Yes |
+| 815EP | Solano | 82815EP | ICH2 | November 2000 | Celeron, Pentium II/III | 66/100/133 MHz | No | PC100/133 SDRAM | 512 MB | 6 | Neither | v2.2/33 MHz | Yes/AGP 4× | No |
+| 815P | Solano | 82815EP | ICH/ICH0 | March 2001 | Celeron, Pentium III | 66/100/133 MHz | No | PC100/133 SDRAM | 512 MB | 6 | Neither | v2.2/33 MHz | Yes/AGP 4× | No |
+| 815G | Solano | 82815G | ICH/ICH0 | September 2001 | Celeron, Pentium III | 66/100/133 MHz | No | PC100/133 SDRAM | 512 MB | 6 | Neither | v2.2/33 MHz | No | Yes |
+| 815EG | Solano | 82815G | ICH2 | September 2001 | Celeron, Pentium III | 66/100/133 MHz | No | PC100/133 SDRAM | 512 MB | 6 | Neither | v2.2/33 MHz | No | Yes |

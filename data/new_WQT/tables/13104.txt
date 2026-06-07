@@ -1,0 +1,11 @@
+# Administrative Distance Scenarios and Outcomes for Competing Routes
+
+| Scenario ID | Competing Route Sources | Default ADs Involved | Outcome (Installed Route) | Why It Happens |
+| --- | --- | --- | --- | --- |
+| S1 | Static vs OSPF | 1 vs 110 | Static | Lower AD wins when prefix length equal |
+| S2 | EIGRP internal vs OSPF | 90 vs 110 | EIGRP internal | Lower AD preferred |
+| S3 | eBGP vs EIGRP internal | 20 vs 90 | eBGP | External BGP has very low AD |
+| S4 | RIP vs IS-IS | 120 vs 115 | IS-IS | IS-IS slightly preferred |
+| S5 | iBGP vs OSPF | 200 vs 110 | OSPF | iBGP has higher AD, loses |
+| S6 | External EIGRP vs RIP | 170 vs 120 | RIP | External EIGRP is less preferred |
+| S7 | Connected vs Static | 0 vs 1 | Connected | Connected always wins |

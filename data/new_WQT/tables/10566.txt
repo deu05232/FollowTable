@@ -1,0 +1,12 @@
+# SharePoint Server 2019 Hardware Capacity Guidance by Farm Topology and Role
+
+| Deployment scenario / role | Typical use case | Recommended CPU (cores) | Recommended RAM | Storage notes (SharePoint-relevant) |
+| --- | --- | --- | --- | --- |
+| Single-server (SharePoint + SQL on one box) | Dev / evaluation, low traffic | 4–8 cores | 24–32 GB | Fast SSD preferred; keep OS, logs, and data separated when possible |
+| Two-server (SharePoint app/web + SQL) – SharePoint server | Small production, light services | 8 cores | 32 GB | Dedicated volume for search index if enabled |
+| Two-server (SharePoint app/web + SQL) – SQL server | Small production database | 8–12 cores | 32–64 GB | High IOPS for tempdb and logs; plan for growth |
+| Three-tier farm – Web Front End (WFE) | Handles HTTP requests | 8–12 cores | 16–32 GB | NIC throughput matters; avoid colocating heavy background services |
+| Three-tier farm – Application server | Service apps, timer jobs | 8–16 cores | 32–64 GB | More RAM if running multiple service applications |
+| Three-tier farm – Search (dedicated) | Crawl/index/query at scale | 12–24 cores | 64–128 GB | High-performance disks for index; isolate from WFEs |
+| Three-tier farm – SQL (dedicated) | Medium/large content DB workloads | 16–32 cores | 64–256 GB | Storage subsystem is often the bottleneck; separate data/log/tempdb |
+| Hyper-V/VMware virtualized SharePoint node (any role) | Consolidation / lab / moderate prod | Same cores as physical (reserved) | Same RAM as physical (non-overcommitted) | Avoid memory ballooning; ensure consistent disk latency |

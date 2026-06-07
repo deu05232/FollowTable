@@ -1,0 +1,11 @@
+# SQL Server Version and Edition Prerequisites for SharePoint Server Farms (Platform Matrix)
+
+| SQL Server version | Supported editions | Typical use with SharePoint | Required features | Notes |
+|---|---|---|---|---|
+| SQL Server 2012 SP4 | Standard/Enterprise | Legacy SharePoint farms | Database Engine | Ensure latest service pack and CU |
+| SQL Server 2014 SP3 | Standard/Enterprise | SharePoint 2013/2016 era | Database Engine | Consider AlwaysOn support by edition |
+| SQL Server 2016 SP2 | Standard/Enterprise | SharePoint 2016+ | Database Engine, Full-Text | Use supported collation and MAXDOP guidance |
+| SQL Server 2017 | Standard/Enterprise | Some SharePoint builds | Database Engine | Verify product support statement |
+| SQL Server 2019 | Standard/Enterprise | Newer on-prem farms | Database Engine | Common for modern deployments |
+| Azure SQL Managed Instance | Service | Some hybrid scenarios | Managed instance | Not a drop-in replacement for all farm needs |
+| SQL Server Express | Express | Dev/evaluation only | Database Engine | Not recommended for production farms |

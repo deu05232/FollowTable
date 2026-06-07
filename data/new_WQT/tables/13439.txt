@@ -1,0 +1,12 @@
+# PCSX2 (PlayStation 2) Compatibility Snapshot — Per-Game Playability Notes
+
+| Game (PS2) | Emulator | Status | Known Issues / Notes | Recommended Settings / Workarounds |
+|---|---|---|---|---|
+| Shadow of the Colossus | PCSX2 | In-game | Slowdowns in large scenes; occasional shadow artifacts | Enable MTVU; use HW renderer; mild underclock can reduce spikes |
+| Gran Turismo 4 | PCSX2 | Playable | Some lighting/reflection glitches in HW mode | Switch to SW renderer for problematic tracks; enable blending accuracy (medium) |
+| God of War II | PCSX2 | Playable | Minor texture/blur quirks; occasional FMV stutter | Use HW renderer; enable "preload frame data" for smoother FMVs |
+| Ratchet & Clank: Up Your Arsenal | PCSX2 | Playable | Sporadic frame drops; rare HUD flicker | Disable mipmapping (if flicker); use 2x/3x internal res based on GPU |
+| Kingdom Hearts II | PCSX2 | Playable | Rare shadow/outline artifacts | Enable half-pixel offset (special); align sprite (if needed) |
+| Jak II | PCSX2 | In-game | Graphical corruption in some areas; performance heavy | Prefer SW renderer in affected areas; disable fast texture invalidation |
+| Metal Gear Solid 3: Subsistence | PCSX2 | Playable | Depth of field/blur effects can look wrong in HW | Use HW with accurate blending (high) or toggle to SW for cutscenes |
+| Persona 4 | PCSX2 | Playable | Minor interlacing/ghosting if deinterlace off | Set deinterlacing to automatic; use "Bob" for difficult scenes |

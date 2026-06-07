@@ -1,0 +1,12 @@
+# Benchmark Results for Emulators on Different PCs
+
+| Emulator | Test PC | CPU | GPU | Avg FPS | 1% Low FPS | Notes |
+|---|---|---|---|---:|---:|---|
+| Dolphin | Desktop A | Ryzen 5 5600X | RTX 3060 | 60 | 57 | 3x internal resolution |
+| Dolphin | Laptop B | i5-1135G7 | Iris Xe | 45 | 32 | Drops in heavy scenes |
+| PCSX2 | Desktop A | Ryzen 5 5600X | RTX 3060 | 60 | 55 | Vulkan renderer |
+| PCSX2 | Laptop C | i7-9750H | GTX 1650 | 58 | 48 | Mild stutter on load |
+| PPSSPP | Phone D | Snapdragon 778G | Adreno 642L | 60 | 60 | 4x upscale |
+| Ryujinx | Desktop E | i9-12900K | RTX 4070 | 55 | 40 | Shader compilation spikes |
+| Cemu | Desktop A | Ryzen 5 5600X | RTX 3060 | 60 | 52 | Async shader enabled |
+| RetroArch | Mini PC F | N100 | UHD iGPU | 60 | 60 | Lightweight shaders |

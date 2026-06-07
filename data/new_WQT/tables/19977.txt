@@ -1,0 +1,12 @@
+# Windows 10 Compatibility for Intel Desktop CPUs (with Core Specs)
+
+| Processor | Generation | Windows 10 Support | Cores/Threads | Base / Turbo (GHz) | TDP (W) | Socket | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Intel Core i5-4590 | 4th Gen (Haswell) | Yes | 4/4 | 3.3 / 3.7 | 84 | LGA1150 | Requires chipset drivers |
+| Intel Core i7-2600 | 2nd Gen (Sandy Bridge) | Yes | 4/8 | 3.4 / 3.8 | 95 | LGA1155 | Uses Intel HD 2000/3000 iGPU |
+| Intel Core i3-2100 | 2nd Gen (Sandy Bridge) | Yes | 2/4 | 3.1 / - | 65 | LGA1155 | SSE4.2 capable |
+| Intel Pentium G4560 | 7th Gen (Kaby Lake) | Limited/No (OEM policy varies) | 2/4 | 3.5 / - | 54 | LGA1151 | Often listed as Win10-only by OEM images |
+| Intel Core i5-8400 | 8th Gen (Coffee Lake) | Yes | 6/6 | 2.8 / 4.0 | 65 | LGA1151 | Requires 300-series chipset |
+| Intel Core i7-4770K | 4th Gen (Haswell) | Yes | 4/8 | 3.5 / 3.9 | 84 | LGA1150 | Unlocked multiplier |
+| Intel Core i5-6500 | 6th Gen (Skylake) | Yes | 4/4 | 3.2 / 3.6 | 65 | LGA1151 | Supports DDR4 |
+| Intel Core i9-10900K | 10th Gen (Comet Lake) | Yes | 10/20 | 3.7 / 5.3 | 125 | LGA1200 | Depends on board BIOS |

@@ -1,0 +1,15 @@
+# SharePoint Server 2019 Installation Scenarios — Hardware & Platform Prerequisites Checklist
+
+| Scenario | Farm topology / purpose | Recommended RAM | CPU / cores | System drive free space | Data drive guidance | OS requirement | Database requirement | Key prerequisite notes |
+|---|---|---:|---|---:|---|---|---|---|
+| Single-server (dev/test) with built-in database | One box for evaluation or developer use | 16 GB | 64-bit, 4 cores | 80 GB | Separate data volume preferred | Windows Server (64-bit) | SQL Server Express (built-in) | Not for production; limited scale |
+| Single-server (production) using full SQL Server | One SharePoint server + external SQL (can be same box for small deployments) | 24–32 GB | 64-bit, 4–8 cores | 80–100 GB | Fast storage for logs/content | Windows Server (64-bit) | SQL Server (64-bit) on same/remote | Use dedicated SQL for growth |
+| Two-tier farm (Web+App on one, SQL separate) | Small to mid-size farm with separate DB tier | 24 GB (front-end/app) | 64-bit, 8 cores | 100 GB | Separate volumes for logs/index | Windows Server (64-bit) | Dedicated SQL Server | Requires domain accounts + service accounts planning |
+| Three-tier farm (separate Web, App, DB) | Standard enterprise topology | Web: 16 GB; App: 24–32 GB | Web: 4–8 cores; App: 8+ cores | 100 GB | High IOPS for Search/temp | Windows Server (64-bit) | Dedicated SQL Server cluster/HA optional | Enables scaling web/app independently |
+| Search-heavy farm role (dedicated Search servers) | Dedicated Search components for large content | 32–64 GB | 64-bit, 8–16 cores | 150 GB | High-performance storage for index | Windows Server (64-bit) | Dedicated SQL Server | Plan index partition/replica capacity |
+| High-availability web tier (2+ WFEs) | Multiple web front ends behind load balancer | 16 GB per WFE | 64-bit, 4–8 cores | 100 GB | Standard storage; session strategy | Windows Server (64-bit) | SQL Server HA recommended | Requires load balancer + SSL planning |
+| Application services tier (Service Apps-heavy) | Dedicated app servers for Service Applications | 32 GB | 64-bit, 8–16 cores | 120 GB | Separate disk for temp/logs | Windows Server (64-bit) | Dedicated SQL Server | Useful for Managed Metadata, BCS, etc. |
+| MinRole: Front-end | MinRole optimized front-end server | 16 GB | 64-bit, 4–8 cores | 100 GB | Standard | Windows Server (64-bit) | Dedicated SQL Server | Assign MinRole during setup |
+| MinRole: Application | MinRole optimized application server | 24–32 GB | 64-bit, 8+ cores | 120 GB | Separate logs/temp | Windows Server (64-bit) | Dedicated SQL Server | Keep service apps on this role |
+| MinRole: Distributed Cache | Dedicated cache role server | 16–24 GB | 64-bit, 4–8 cores | 100 GB | Fast disk for temp | Windows Server (64-bit) | Dedicated SQL Server | Ensure cache sizing doesn’t starve OS |
+| MinRole: Search | MinRole optimized Search server | 32–64 GB | 64-bit, 8–16 cores | 150 GB | Fast disk for index | Windows Server (64-bit) | Dedicated SQL Server | Index storage and crawl schedule are critical |

@@ -1,0 +1,8 @@
+# DLNA device media support matrix (formats by category)
+
+| Device / Profile | Video encoding families supported | Audio encoding families supported | Image formats supported | Common file packaging it can read |
+| --- | --- | --- | --- | --- |
+| TV A (DLNA DMP) | MPEG-2 Video, H.264/AVC, MPEG-4 Part 2 | MP3, AAC-LC, WMA | JPEG, PNG | MPEG-TS, MP4, AVI |
+| Blu-ray Player B (DLNA DMP) | MPEG-2 Video, H.264/AVC | MP3, AAC-LC, LPCM | JPEG | MPEG-TS, MP4 |
+| Game Console C (DLNA DMP) | H.264/AVC, VC-1 | AAC-LC, MP3 | JPEG, BMP | MP4, ASF |
+| NAS/Streamer D (DLNA DMS/DMP) | MPEG-2 Video, H.264/AVC, DivX/Xvid | MP3, AAC-LC, FLAC | JPEG, PNG, GIF | MP4, MKV, AVI |

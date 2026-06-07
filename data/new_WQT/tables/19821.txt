@@ -1,0 +1,13 @@
+# Exchange Hybrid Deployment with Microsoft 365  Mail Features Before vs After Hybrid
+
+| Feature / capability | Before hybrid (on-premises only) | After hybrid (connected to Microsoft 365) |
+| --- | --- | --- |
+| Organization relationship & federation trust | Not required; sharing and lookups typically limited to the on-premises organization. | Established to enable cross-org features like free/busy and mailbox moves between on-prem and Exchange Online. |
+| Free/busy availability | Available only among on-premises mailboxes. | Available across on-premises and Exchange Online mailboxes (subject to configured sharing level). |
+| MailTips (cross-organization) | MailTips generally limited to on-prem recipients. | MailTips can be shown for both on-prem and Exchange Online recipients to reduce misaddressing and large-audience sends. |
+| Message tracking scope | Tracking limited to transport and mailboxes hosted on-premises. | End-to-end tracking can span on-prem and Exchange Online hops (with appropriate tools/permissions in each environment). |
+| Mail flow between environments | Not applicable; all mail routes remain internal/on-prem. | Secure, authenticated connectors route mail between on-prem and Exchange Online; centralized or distributed transport becomes possible. |
+| Cross-premises mailbox moves | Not possible; moves stay within the on-prem organization only. | Supported: move mailboxes to/from Exchange Online via hybrid mailbox moves. |
+| Shared mailbox / delegate scenarios across boundaries | Delegation typically works only within the on-prem boundary. | Supported cross-premises delegation scenarios (e.g., certain send-as / full access behaviors) depending on hybrid configuration. |
+| Modern authentication & hybrid identity for Exchange | Often basic/legacy auth patterns or on-prem-only auth methods. | Hybrid can leverage Entra ID (Azure AD) sign-in patterns and OAuth for richer cross-service auth (e.g., for free/busy or EWS-based features). |
+| Unified GAL visibility | Separate address lists; users may not see a consistent global directory across systems. | A more unified directory experience is enabled through synchronization, so users can more easily find recipients across both locations. |

@@ -1,0 +1,8 @@
+# Hybrid Exchange with Office 365  feature behavior before vs after enabling hybrid
+
+| Capability area | Before the hybrid connection | After the hybrid connection |
+| --- | --- | --- |
+| Mailbox location options | Users are hosted only on-premises. | Users can be hosted either on-premises or in Office 365 while sharing the same organization identity. |
+| Mail routing between environments | Mail stays within the on-premises organization and uses external routing to reach the cloud. | Mail can route between on-premises and Office 365 using hybrid mail flow designed for cross-environment delivery. |
+| Calendar sharing scope | Sharing is limited to users inside the on-premises environment. | Sharing can span on-premises and Office 365 users in a unified way. |
+| Administration experience | Management is performed only in the on-premises tools for the on-premises organization. | Management is split: on-premises tools manage on-premises objects while Office 365 admin tools manage cloud-hosted workloads. |

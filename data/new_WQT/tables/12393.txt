@@ -1,0 +1,13 @@
+# Mail Connector Endpoints and Port Requirements for Office 365 and On-Premises Exchange
+
+| Direction | Connector Type | Source | Destination | Protocol | Port | TLS Requirement | Example FQDN |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Outbound | Send Connector | On-prem Exchange | Exchange Online | SMTP | 25 | STARTTLS (recommended) | contoso.mail.protection.outlook.com |
+| Inbound | Receive Connector | On-prem Exchange | Internet | SMTP | 25 | Optional | mail.contoso.com |
+| Outbound | Smart host | On-prem Exchange | 3rd-party gateway | SMTP | 587 | STARTTLS | smarthost.gateway.example |
+| Inbound | Exchange Online connector | Exchange Online | On-prem Exchange | SMTP | 25 | Required (certificate) | mail.contoso.com |
+| Admin | PowerShell | Admin workstation | Exchange Online | HTTPS | 443 | Required | outlook.office365.com |
+| Client | Autodiscover | Clients | Microsoft 365 | HTTPS | 443 | Required | autodiscover.outlook.com |
+| Client | OWA | Clients | On-prem Exchange | HTTPS | 443 | Required | owa.contoso.com |
+| Client | ActiveSync | Mobile devices | Microsoft 365 | HTTPS | 443 | Required | outlook.office365.com |
+| Client | SMTP AUTH | Clients | Microsoft 365 | SMTP | 587 | STARTTLS | smtp.office365.com |

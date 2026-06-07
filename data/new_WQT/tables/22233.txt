@@ -1,0 +1,10 @@
+# Neural-network activation functions with derivatives (includes a calculus rule row)
+
+| Entry | Definition | Derivative |
+|---|---|---|
+| Logistic (sigmoid) | \(\sigma(x)=\frac{1}{1+e^{-x}}\) | \(\sigma(x)(1-\sigma(x))\) |
+| Tanh | \(\tanh(x)\) | \(1-\tanh^2(x)\) |
+| ReLU | \(\max(0,x)\) | \(0\) if \(x<0\), \(1\) if \(x>0\) |
+| Softplus | \(\ln(1+e^x)\) | \(\frac{1}{1+e^{-x}}\) |
+| Leaky ReLU | \(\max(ax,x)\) | \(a\) if \(x<0\), \(1\) if \(x>0\) |
+| (Mixed) Product rule | \(f(x)g(x)\) | \(f g' + f' g\) |

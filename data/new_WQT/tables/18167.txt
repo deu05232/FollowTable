@@ -1,0 +1,11 @@
+# BitTorrent Client Configuration and Performance Defaults (Application-Level)
+
+| Client | Default Listen Port Range | Default Connection Limit | Default Upload Slots | Disk Cache Setting | Sequential Download Option | Portable Mode |
+| --- | --- | --- | --- | --- | --- | --- |
+| qBittorrent | Random | 500 | Auto | Enabled | Yes | Yes |
+| Transmission | Random | 200 | Auto | Minimal | No | No |
+| Deluge | Random | 200 | Auto | Plugin-dependent | Yes | Yes |
+| uTorrent | Random | 500 | Auto | Enabled | Yes | Yes |
+| BitComet | 16881-16889 | 500 | Auto | Enabled | Yes | Yes |
+| Tixati | Random | 300 | Auto | Enabled | Yes | Yes |
+| Vuze (Azureus) | Random | 500 | Auto | Enabled | Yes | No |

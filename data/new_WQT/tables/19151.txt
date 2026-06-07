@@ -1,0 +1,13 @@
+# Office 365 Hybrid Mail Flow DNS Records (Reference Values)
+
+| Record type | Host/name | Points to / value | Priority | TTL |
+| --- | --- | --- | --- | --- |
+| MX | @ | contoso-com.mail.protection.outlook.com | 0 | 3600 |
+| TXT (SPF) | @ | v=spf1 include:spf.protection.outlook.com -all | - | 3600 |
+| CNAME | autodiscover | autodiscover.outlook.com | - | 3600 |
+| CNAME | enterpriseenrollment | enterpriseenrollment.manage.microsoft.com | - | 3600 |
+| CNAME | enterpriseregistration | enterpriseregistration.windows.net | - | 3600 |
+| SRV | _sip._tls | 100 1 443 sipdir.online.lync.com | - | 3600 |
+| SRV | _sipfederationtls._tcp | 100 1 5061 sipfed.online.lync.com | - | 3600 |
+| TXT (DKIM selector1) | selector1._domainkey | selector1-contoso-com._domainkey.contoso.onmicrosoft.com | - | 3600 |
+| TXT (DKIM selector2) | selector2._domainkey | selector2-contoso-com._domainkey.contoso.onmicrosoft.com | - | 3600 |

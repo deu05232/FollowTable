@@ -1,0 +1,21 @@
+# Martian packet
+> IPv4
+
+| Address block | Present use |
+| --- | --- |
+| 0.0.0.0/8 | "This" network [5] |
+| 10.0.0.0/8 | Private-use networks [6] |
+| 100.64.0.0/10 | Carrier-grade NAT [7] |
+| 127.0.0.0/8 | Loopback [5] |
+| 127.0.53.53 | Name collision occurrence (listing in server logs denotes a collision in DNS.) [8] |
+| 169.254.0.0/16 | Link local [9] |
+| 172.16.0.0/12 | Private-use networks [6] |
+| 192.0.0.0/24 | IETF protocol assignments [10] |
+| 192.0.2.0/24 | TEST-NET-1 [11] |
+| 192.168.0.0/16 | Private-use networks [6] |
+| 198.18.0.0/15 | Network interconnect device benchmark testing [12] |
+| 198.51.100.0/24 | TEST-NET-2 [11] |
+| 203.0.113.0/24 | TEST-NET-3 [11] |
+| 224.0.0.0/4 | Multicast [13] |
+| 240.0.0.0/4 | Reserved for future use [5] |
+| 255.255.255.255/32 | Limited broadcast [14] [15] |

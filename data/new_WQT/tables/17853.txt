@@ -1,0 +1,11 @@
+# Circumvention Tools and Connectivity Methods for Reaching Blocked Content from China
+
+| Method/Tool Type | Example Product/Protocol | Typical Use Case | Requires App? | Common Failure Mode in China | Notes |
+|---|---|---|---|---|---|
+| VPN | OpenVPN | General web access | Yes | VPN endpoints blocked | Often needs obfuscation |
+| VPN | WireGuard | Fast tunneling | Yes | Handshake blocked/throttled | Port changes may help |
+| Proxy | SOCKS5 | App-level proxying | Sometimes | IP blocked | Works per-app |
+| Proxy | HTTPS proxy | Browser proxy | No/Yes | SNI/hostname filtered | Certificate issues possible |
+| Tor | Tor Browser | Anonymity + access | Yes | Directory access blocked | Bridges required |
+| Encrypted DNS | DoH/DoT | Reduce DNS poisoning | Sometimes | IP/SNI still blocked | Not sufficient alone |
+| Mirror sites | Alternative domains | Access specific content | No | Mirrors discovered & blocked | Short-lived |

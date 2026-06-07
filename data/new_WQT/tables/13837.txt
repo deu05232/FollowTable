@@ -1,0 +1,8 @@
+# Blocked websites in China list emphasizing network infrastructure metadata rather than service category
+
+| Website | Domain | Commonly observed failure | Example blocked IP range |
+| --- | --- | --- | --- |
+| Twitter | x.com | TCP reset | 104.244.42.0/24 |
+| YouTube | youtube.com | Timeout | 142.250.0.0/15 |
+| Facebook | facebook.com | DNS response pollution | 157.240.0.0/16 |
+| Dropbox | dropbox.com | Connection reset | 162.125.0.0/16 |

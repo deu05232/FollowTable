@@ -1,0 +1,11 @@
+# ASA carriage control characters
+> Operation
+
+| ASA Character | Action | ASCII Equivalent |
+| --- | --- | --- |
+| blank | Advance 1 line (single spacing) | CR LF |
+| 1 | Advance to next page ( form feed ) | CR FF |
+| 2–9, A, B, C | Advance to vertical tab stop | CR VT (approximately) |
+| 0 | Advance 2 lines (double spacing) | CR LF LF |
+| - | Advance 3 lines (triple spacing) | CR LF LF LF |
+| + | Do not advance any lines before printing, overstrike previous line with current line | CR |

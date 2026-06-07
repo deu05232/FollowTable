@@ -1,0 +1,11 @@
+# Megapixel-to-Resolution by Aspect Ratio (3 2 vs 4 3 vs 16 9)
+
+| Megapixels (MP) | 3:2 Resolution (W × H) | 4:3 Resolution (W × H) | 16:9 Resolution (W × H) | Aspect-Ratio Notes |
+| --- | --- | --- | --- | --- |
+| 8 MP | 3456 × 2304 | 3264 × 2448 | 3840 × 2160 | Different crops change output |
+| 10 MP | 3872 × 2592 | 3648 × 2736 | 4224 × 2376 | Same sensor, different framing |
+| 12 MP | 4240 × 2832 | 4000 × 3000 | 4608 × 2592 | 16:9 often a crop |
+| 16 MP | 4928 × 3280 | 4608 × 3456 | 5184 × 2916 | Camera may resize instead of crop |
+| 20 MP | 5472 × 3648 | 5184 × 3888 | 5760 × 3240 | Output varies by manufacturer |
+| 24 MP | 6000 × 4000 | 5760 × 4320 | 6400 × 3600 | 4:3 common on MFT |
+| 32 MP | 6960 × 4640 | 6480 × 4860 | 7680 × 4320 | Exact values may differ |

@@ -1,0 +1,13 @@
+# Route Selection Matrix (Administrative Distance + Metric + Tie-Breakers)
+
+| Route Source / Protocol | Default AD | Primary Metric Used | Common Tie-Breaker |
+| --- | ---: | --- | --- |
+| Connected | 0 | null | Longest prefix match |
+| Static | 1 | null | Lowest next-hop IP (implementation-dependent) |
+| EIGRP summary | 5 | Composite (BW/Delay) | Lowest feasible distance |
+| eBGP | 20 | BGP attributes | Highest local-pref, then AS-path |
+| EIGRP internal | 90 | Composite (BW/Delay) | Lowest metric, then router ID |
+| OSPF | 110 | Cost | Lowest cost, then router ID |
+| IS-IS | 115 | Cost | Lowest cost, then system ID |
+| RIP | 120 | Hop count | Lowest hop count, then lowest next-hop |
+| iBGP | 200 | BGP attributes | Highest local-pref, then shortest AS-path |

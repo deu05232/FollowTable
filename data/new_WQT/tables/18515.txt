@@ -1,0 +1,12 @@
+# Wi‑Fi 5 GHz Regulatory Domains — Channel Availability (No Per-Channel Frequencies)
+
+| Country/Domain | Band Segment | Allowed Channels | Max EIRP (dBm) | DFS Required | Indoor Only | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| US (FCC) | U-NII-1 | 36–48 | 30 | No | Yes | Common consumer routers |
+| US (FCC) | U-NII-2A | 52–64 | 30 | Yes | No | Radar detection required |
+| US (FCC) | U-NII-2C | 100–144 | 30 | Yes | No | Weather radar constraints |
+| US (FCC) | U-NII-3 | 149–165 | 36 | No | No | Higher power outdoor possible |
+| EU (ETSI) | 5150–5350 | 36–64 | 23 | Yes (52–64) | Yes | Lower indoor limits |
+| EU (ETSI) | 5470–5725 | 100–140 | 30 | Yes | No | TPC often required |
+| Japan | W52 | 36–48 | 20 | No | Yes | Indoor use |
+| Japan | W53/W56 | 52–64 / 100–140 | 23–30 | Yes | Mixed | DFS varies by segment |

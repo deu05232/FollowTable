@@ -1,0 +1,40 @@
+# Comparison of BitTorrent clients
+> Applications
+
+| BitTorrent client | Magnet URI | Preload Magnet metadata [Note 5] | Super-seeding | Embedded tracker | UPnP [Note 6] | NAT Port Mapping Protocol | NAT traversal [Note 7] | DHT [Note 8] | Peer exchange | Encryption | UDP tracker | LPD | Proxy server |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ABC | No | No | No | Yes | Yes | No | No | No | No | No | No | No | No |
+| Acquisition | No | No | No | No | No | Yes | No | No | No | No | No | No | No |
+| aria2 | Yes | ? | ? | ? | ? | ? | ? | ? | Yes | ? | Yes | ? | ? |
+| BitComet | Yes | No | Yes | Separate download | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | HTTP 1.1, SOCKS 4-4a-5 |
+| BitLet | No | No | No | No | Yes | No | No | No | No | No | No | No | No |
+| BitLord | Yes | No | No | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP 1.1, SOCKS4-4a-5 |
+| BitTornado | No | No | Yes | Yes [Note 9] | Yes | No | No | No | No | Yes | No | No | No |
+| BitTorrent 5, Mainline | No | No | No | Yes [Note 9] | Yes | Yes | No | Yes | Yes | Yes | No | No | Yes |
+| BitTorrent 6 | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes [Note 10] | Yes | Yes | Yes | HTTP(S), SOCKS4-5 |
+| BitTyrant | No | No | Yes [ citation needed ] | Yes | Yes | Yes | Yes [Note 11] | Yes [Note 12] | Yes | Yes | No | No | No |
+| Blog Torrent | No | No | No | Yes | No | No | No | No | No | No | No | No | No |
+| Deluge | Yes | No | No | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP(S), SOCKS4-5 |
+| FlashGet | No | No | No | No | No | No | No | Yes | No | Yes | No | No | No |
+| Free Download Manager | Yes | No | No | No | No | No | No | Yes | Yes | No | No | No | No |
+| KTorrent | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Partial | HTTP, SOCKS4-5 |
+| LimeWire | Partial | No | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | No | No |
+| Meerkat Bittorrent Client | No | No | Yes | No | Yes | Yes | Yes | Yes | No | Yes | No | No | No |
+| MLDonkey | Yes [62] | No | No | Yes | Yes | Yes | No | Yes | No | No | Yes | No | No |
+| µTorrent | Yes | Yes [63] | Yes [64] | Yes [65] | Yes [66] | Yes | Yes [67] | Yes [Note 13] | Yes [Note 10] | Yes [68] | Yes | Yes [69] | HTTP(S), SOCKS4-5 |
+| OneSwarm | No | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
+| Opera 12 | No | No | No | Yes [70] | No | No | No | No | Yes [71] | No | No | No | No |
+| qBittorrent | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP(S), SOCKS4-5 |
+| rTorrent | Yes [72] | No | Yes | No | No | No | No | Yes | Yes | Yes | Yes | No [73] | No |
+| Shareaza | Yes | No | No | No | Yes | Yes | No | Yes [Note 14] | Yes | No | Yes [Note 15] | No | No |
+| SymTorrent | No | No | No | No | No | No | No | No | No | No | No | No | No |
+| Tixati | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Tomato Torrent | No | No | No | Yes | No | No | No | Yes | No | No | No | No | No |
+| Tonido | No | No | No | No | Yes | Yes | Yes | Yes | No | No | No | No | No |
+| TorrentFlux | No | No | Yes | No | Yes | No | No | No | No | Yes | No | No | No |
+| Transmission | Yes | Yes [74] [75] [76] | No | No | Yes | Yes | Yes | Yes | Yes [Note 16] | Yes | Yes | Yes | No [77] |
+| Tribler | Yes | No | No | Yes | Yes | Yes | No | Yes | Yes | Yes | No | No | Uses P2P onion routing to provide anonymity. |
+| Vuze (formerly Azureus) | Yes | Yes | Yes | Yes | Yes | Yes | Yes [Note 17] | Yes [Note 12] | Yes | Yes | Yes | Plugin | HTTP(S)?, SOCKS4-4a-5 |
+| WebTorrent | Yes | No | No | No | No | No | Yes | Yes | Yes | Yes | Yes | No | No |
+| Xunlei | Yes | No | No | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | HTTP, SOCKS5, FTP |
+| BitTorrent client | Magnet URI | Preload Magnet metadata | Super-seeding | Embedded tracker | UPnP | NAT Port Mapping Protocol | NAT traversal | DHT | Peer exchange | Encryption | UDP tracker | LPD | Proxy server |

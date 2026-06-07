@@ -1,0 +1,8 @@
+# Domain configuration for Exchange hybrid with Office 365  DNS record checklist
+
+| Record purpose | Typical record type | Example target/value |
+| --- | --- | --- |
+| Mail delivery to Microsoft 365 | MX | contoso-com.mail.protection.outlook.com |
+| Client discovery | CNAME | autodiscover -> autodiscover.outlook.com |
+| Service verification | TXT | MS=ms12345678 |
+| Hybrid-related namespace | A or CNAME | sts.contoso.com -> 203.0.113.10 |

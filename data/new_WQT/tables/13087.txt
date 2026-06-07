@@ -1,0 +1,12 @@
+# Bluetooth Audio Power Consumption vs Estimated Runtime (Not Per Specific Earbud Model)
+
+| Scenario | Bluetooth Version | Codec | Output Level | Estimated Current Draw | Estimated Runtime (for 100 mAh cell) |
+| --- | --- | --- | --- | --- | --- |
+| Music streaming (baseline) | Bluetooth 4.2 | SBC | 50% | 12 mA | ~8.3 h |
+| Music streaming (efficient) | Bluetooth 5.2 | AAC | 50% | 9 mA | ~11.1 h |
+| High-bitrate audio | Bluetooth 5.0 | aptX | 70% | 16 mA | ~6.3 h |
+| Calls (mic active) | Bluetooth 5.0 | mSBC | 60% | 18 mA | ~5.6 h |
+| ANC enabled | Bluetooth 5.2 | AAC | 50% | 22 mA | ~4.5 h |
+| Transparency mode | Bluetooth 5.2 | AAC | 50% | 20 mA | ~5.0 h |
+| Gaming/low latency | Bluetooth 5.3 | LC3 | 60% | 15 mA | ~6.7 h |
+| Standby | Bluetooth 5.2 | N/A | N/A | 1 mA | ~100 h |

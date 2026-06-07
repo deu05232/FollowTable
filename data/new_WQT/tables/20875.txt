@@ -1,0 +1,13 @@
+# BGP and EIGRP Administrative Distance Breakdown by Route Type
+
+| Protocol Family | Route Type / Subtype | Default Administrative Distance | Typical Meaning |
+|---|---|---:|---|
+| BGP | eBGP | 20 | External BGP routes |
+| BGP | iBGP | 200 | Internal BGP routes |
+| BGP | Local (network/aggregate) | 200 | Locally originated BGP routes |
+| EIGRP | Internal | 90 | Native EIGRP routes |
+| EIGRP | External | 170 | Redistributed into EIGRP |
+| EIGRP | Summary | 5 | Summary route special case |
+| EIGRP | Stub (receive-only) | 90 | Same AD but special operating mode |
+| BGP | Confederation eBGP | 20 | External within confed context |
+| BGP | Confederation iBGP | 200 | Internal within confed context |

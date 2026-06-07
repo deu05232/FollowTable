@@ -1,0 +1,12 @@
+# Binary Format Dump  Hex Bytes Interpreted as ASCII (Protocol-Oriented View)
+
+| Offset | Hex Bytes | ASCII Rendering | Field Guess |
+|---:|---|---|---|
+| 0x00 | 48 54 54 50 2F 31 2E 31 | HTTP/1.1 | protocol/version |
+| 0x08 | 20 32 30 30 20 4F 4B 0D |  200 OK\r | status line |
+| 0x10 | 0A 43 6F 6E 74 65 6E 74 | \nContent | header start |
+| 0x18 | 2D 54 79 70 65 3A 20 74 | -Type: t | content-type |
+| 0x20 | 65 78 74 2F 70 6C 61 69 | ext/plai | mime fragment |
+| 0x28 | 6E 0D 0A 0D 0A 48 65 6C | n\r\n\r\nHel | body begins |
+| 0x30 | 6C 6F 21 20 3C 3E 26 22 | lo! <>&" | sample payload |
+| 0x38 | 0D 0A | \r\n | line break |

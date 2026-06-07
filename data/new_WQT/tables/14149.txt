@@ -1,0 +1,27 @@
+# Administrative Distance Defaults Side-by-Side (Cisco IOS vs Juniper Junos)
+
+| Route Source / Protocol | Cisco IOS Default AD | Juniper Junos Default Preference | Quick Notes |
+|---|---:|---:|---|
+| Connected / Direct | 0 | 0 | Both treat direct/connected as highest preference |
+| Static | 1 | 5 | Junos uses a higher default preference value for static than direct |
+| eBGP | 20 | 170 | Vendor defaults differ significantly for BGP |
+| iBGP | 200 | 170 | Junos uses same default preference for iBGP/eBGP in many common configs |
+| OSPF | 110 | 10 | Junos default OSPF preference is commonly lower (more preferred) |
+| IS-IS | 115 | 15 | Typical Junos defaults |
+| RIP | 120 | 100 | Different default preference scales |
+| EIGRP internal | 90 | N/A | EIGRP not supported on Junos in typical deployments |
+| EIGRP external | 170 | N/A | Same as above |
+| Aggregate / Summary | N/A | 130 | Common Junos default for aggregate routes |
+| Unknown / unusable | 255 | N/A | Cisco convention for “never install” distance |
+
+> Optional detail (Junos common categories):
+
+| Junos Route Type | Default Preference | Example |
+|---|---:|---|
+| Direct | 0 | interface routes |
+| Local | 0 | local address routes |
+| Static | 5 | configured static routes |
+| OSPF | 10 | OSPF-learned routes |
+| IS-IS | 15 | IS-IS-learned routes |
+| BGP | 170 | iBGP/eBGP by default |
+| RIP | 100 | RIP-learned routes |

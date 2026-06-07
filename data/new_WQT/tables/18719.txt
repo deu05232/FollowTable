@@ -1,0 +1,11 @@
+# Windows Server Feature Differences Affecting SharePoint Deployments (No Hardware Breakdown)
+
+| Windows Server edition | GUI availability | Hyper-V role | Max users (built-in limits) | Notes for SharePoint admins |
+|---|---|---|---|---|
+| Windows Server 2012 R2 Foundation | Full GUI only | Not available | 15 users (typical limit) | Often too limited for production farms |
+| Windows Server 2012 R2 Essentials | Full GUI only | Limited | 25 users | Designed for small business scenarios |
+| Windows Server 2012 R2 Standard | Full GUI + Server Core | Available | No fixed limit | Common baseline for SharePoint farms |
+| Windows Server 2012 R2 Datacenter | Full GUI + Server Core | Available | No fixed limit | Intended for highly virtualized environments |
+| Windows Server 2016 Standard | Full GUI + Server Core | Available | No fixed limit | Supports newer platform features |
+| Windows Server 2016 Datacenter | Full GUI + Server Core | Available | No fixed limit | Adds advanced virtualization features |
+| Windows Server 2019 Standard | Full GUI + Server Core | Available | No fixed limit | Suitable for modern on-prem deployments |

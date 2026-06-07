@@ -1,0 +1,6 @@
+# Cisco HDLC
+> Structure
+
+| Address | Control | Protocol Code | SLARP Op-Code | Address | Mask | Reserved | Frame Check Sequence (FCS) | Flag |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 8 bits | 8 bits | 16 bits (0x8035) | 32 bits | 32 bits | 32 bits | 16 bits | 16 bits | 8 bits |

@@ -1,0 +1,17 @@
+# Default Administrative Distance Values by Route Source (Common Defaults)
+
+| Route Source / Routing Protocol | Default Administrative Distance |
+| --- | ---: |
+| Connected (directly connected) | 0 |
+| Static (normal) | 1 |
+| EIGRP summary route | 5 |
+| eBGP (External BGP) | 20 |
+| EIGRP internal | 90 |
+| IGRP | 100 |
+| OSPF | 110 |
+| IS-IS | 115 |
+| RIP | 120 |
+| ODR (On-Demand Routing) | 160 |
+| EIGRP external | 170 |
+| iBGP (Internal BGP) | 200 |
+| Unknown / unusable | 255 |

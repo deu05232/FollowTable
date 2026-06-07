@@ -1,0 +1,14 @@
+# Outlook Client Configuration Fields for Mailboxes in a Hybrid Exchange Organization
+
+| Client | Field | On-premises mailbox example | Microsoft 365 mailbox example |
+|---|---|---|---|
+| Outlook for Windows | Account type | Microsoft Exchange | Microsoft 365 / Exchange |
+| Outlook for Windows | User name | CONTOSO\\alice | alice@contoso.com |
+| Outlook for Windows | Server / Endpoint | mail.contoso.com | outlook.office365.com |
+| Outlook for Windows | Autodiscover URL | https://autodiscover.contoso.com/autodiscover/autodiscover.xml | https://autodiscover-s.outlook.com/autodiscover/autodiscover.xml |
+| Outlook for Windows | Authentication | NTLM/Kerberos | OAuth / Modern Auth |
+| Outlook for Mac | EWS URL | https://mail.contoso.com/EWS/Exchange.asmx | https://outlook.office365.com/EWS/Exchange.asmx |
+| iOS Mail | IMAP server | imap.contoso.com | outlook.office365.com |
+| iOS Mail | SMTP server | smtp.contoso.com | smtp.office365.com |
+| Android | Port / Encryption | 443 / SSL | 443 / SSL |
+| All clients | Primary SMTP | alice@contoso.com | alice@contoso.com |

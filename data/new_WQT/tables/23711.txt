@@ -1,0 +1,11 @@
+# LTE EARFCN to Frequency (Using Uplink Downlink Ranges Instead of Center MHz)
+
+| LTE Band | EARFCN Range (DL) | DL Frequency Range (MHz) | EARFCN Range (UL) | UL Frequency Range (MHz) | Duplex Mode |
+|---:|---|---|---|---|---|
+| 1 | 0–599 | 2110–2170 | 18000–18599 | 1920–1980 | FDD |
+| 3 | 1200–1949 | 1805–1880 | 19200–19949 | 1710–1785 | FDD |
+| 7 | 2750–3449 | 2620–2690 | 20750–21449 | 2500–2570 | FDD |
+| 8 | 3450–3799 | 925–960 | 21450–21799 | 880–915 | FDD |
+| 20 | 6150–6449 | 791–821 | 24150–24449 | 832–862 | FDD |
+| 28 | 9210–9659 | 758–803 | 27210–27659 | 703–748 | FDD |
+| 38 | 37750–38249 | 2570–2620 | N/A | N/A | TDD |

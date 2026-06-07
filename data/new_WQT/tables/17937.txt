@@ -1,0 +1,15 @@
+# Administrative Distance Values (Routing Table Codes and Acronyms)
+
+| Code | Meaning (short) | Default AD |
+| --- | --- | --- |
+| C | connected | 0 |
+| S | static | 1 |
+| R | RIP | 120 |
+| O | OSPF | 110 |
+| IA | OSPF IA | 110 |
+| E1 | OSPF E1 | 110 |
+| E2 | OSPF E2 | 110 |
+| D | EIGRP | 90 |
+| EX | EIGRP ext | 170 |
+| i | IS-IS | 115 |
+| B | BGP | 20 (eBGP) / 200 (iBGP) |

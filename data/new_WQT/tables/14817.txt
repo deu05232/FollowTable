@@ -1,0 +1,10 @@
+# Outlook.com IMAP POP SMTP ports and security requirements (reference sheet)
+
+| Protocol | Server | Port | Encryption/Security | Authentication |
+| --- | --- | --- | --- | --- |
+| IMAP | imap-mail.outlook.com | 993 | SSL/TLS | Normal password / OAuth2 |
+| POP3 | pop-mail.outlook.com | 995 | SSL/TLS | Normal password / OAuth2 |
+| SMTP (submission) | smtp-mail.outlook.com | 587 | STARTTLS (TLS) | Authentication required |
+| SMTP (legacy SSL) | smtp-mail.outlook.com | 465 | SSL/TLS | Authentication required |
+| IMAP (no encryption) | imap-mail.outlook.com | 143 | null (not recommended) | Authentication required |
+| POP3 (no encryption) | pop-mail.outlook.com | 110 | null (not recommended) | Authentication required |

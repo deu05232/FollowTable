@@ -1,0 +1,11 @@
+# Rule-by-Rule Differentiation Guide with Worked Examples (Long-Form)
+
+| Rule Name | Pattern | Derivative | Worked Example | Example Result |
+| --- | --- | --- | --- | --- |
+| Sum Rule | d/dx[f(x)+g(x)] | f'(x)+g'(x) | d/dx[(x^2)+(3x)] | 2x+3 |
+| Difference Rule | d/dx[f(x)-g(x)] | f'(x)-g'(x) | d/dx[(x^2)-(3x)] | 2x-3 |
+| Constant Multiple | d/dx[c·f(x)] | c·f'(x) | d/dx[7·x^3] | 21x^2 |
+| Product Rule | d/dx[f(x)g(x)] | f'(x)g(x)+f(x)g'(x) | d/dx[(x^2)(sin x)] | 2x sin x + x^2 cos x |
+| Quotient Rule | d/dx[f(x)/g(x)] | (f'(x)g(x)-f(x)g'(x))/g(x)^2 | d/dx[(x^2)/(1+x)] | (2x(1+x)-x^2)/ (1+x)^2 |
+| Chain Rule | d/dx[f(g(x))] | f'(g(x))·g'(x) | d/dx[cos(x^2)] | -sin(x^2)·2x |
+| Power Rule | d/dx[x^n] | n·x^{n-1} | d/dx[x^5] | 5x^4 |

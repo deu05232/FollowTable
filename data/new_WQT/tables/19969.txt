@@ -1,0 +1,10 @@
+# Intel ICH   Southbridge Controllers — Storage & USB Capabilities (Legacy)
+
+| Southbridge | Part Number | Launch Era | ATA Support | SATA Support | RAID | USB Version / Ports | PCI Revision | AC'97 / HD Audio | Typical Pairing |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ICH | 82801AA | 1999 | UDMA 66/33 | No | No | USB 1.1 / 2 | PCI 2.2 | AC'97 | 8xx/4xx-era chipsets |
+| ICH0 | 82801AB | 1999 | UDMA 33 | No | No | USB 1.1 / 2 | PCI 2.2 | AC'97 | Value platforms |
+| ICH2 | 82801BA | 2000 | UDMA 100/66/33 | No | No | USB 1.1 / 4 | PCI 2.2 | AC'97 | i815/i820 family |
+| ICH2-M | 82801BAM | 2000 | UDMA 100/66/33 | No | No | USB 1.1 / 2 | PCI 2.2 | AC'97 | Mobile platforms |
+| ICH3 | 82801CA | 2001 | UDMA 100/66/33 | No | No | USB 1.1 / 6 | PCI 2.2 | AC'97 | i845 generation |
+| ICH4 | 82801DB | 2002 | UDMA 100/66/33 | SATA 1.5 Gb/s (optional) | No | USB 2.0 / 6 | PCI 2.3 | AC'97 | Early USB2 platforms |

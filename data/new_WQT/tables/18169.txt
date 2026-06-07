@@ -1,0 +1,11 @@
+# BitTorrent Client Feature Matrix  Tracker Peer Discovery and Network Options
+
+| Client | UDP Tracker | Local Peer Discovery | Embedded Tracker | IP Filter | SOCKS/HTTP Proxy | Peer Blocklists | NAT Traversal | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| qBittorrent | Yes | Yes | No | Yes | Yes | Yes | UPnP/NAT-PMP | Desktop client |
+| Transmission | Yes | Yes | No | Limited | Yes | Limited | UPnP/NAT-PMP | Desktop client |
+| Deluge | Yes | Yes | No | Yes | Yes | Yes | UPnP/NAT-PMP | Plugin-oriented |
+| Vuze (Azureus) | Yes | Yes | Yes | Yes | Yes | Yes | UPnP | Feature-heavy |
+| BitComet | Yes | Partial | Separate | Yes | Yes | Yes | UPnP/NAT-PMP | Windows-focused |
+| Tixati | Yes | Yes | No | Yes | Yes | Yes | UPnP | No ads |
+| aria2 | Yes | Partial | No | No | Yes | No | Limited | CLI downloader |

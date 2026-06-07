@@ -1,0 +1,13 @@
+# Outlook.com (Hotmail) Client Setup  Recommended Defaults Without Explicit Port Security Requirements
+
+| Setting category | Recommended value | Why it helps | Caveats |
+| --- | --- | --- | --- |
+| Protocol choice | Use IMAP instead of POP | Better multi-device sync | POP may download-only |
+| Server discovery | Enable Autodiscover | Reduces manual mistakes | Requires internet access |
+| Authentication | Modern authentication (OAuth) | More reliable than basic auth | Older clients may not support |
+| Username format | Full email address | Matches Microsoft account | Alias may behave differently |
+| Outgoing mail | Use authenticated SMTP | Prevents relaying errors | Must be enabled in client |
+| Sync scope | Limit to last 3–6 months | Faster initial sync | Older mail remains on server |
+| Folder mapping | Map Sent/Drafts/Trash | Fixes missing folder issues | Client-dependent |
+| Security software | Disable email proxy scanning | Avoids TLS interception | Re-enable after testing |
+| Network | Avoid captive portals | Prevents intermittent failures | Test on stable network |

@@ -1,0 +1,13 @@
+# Dolphin Emulator (GameCube Wii) — Title Compatibility and Stability Notes
+
+| Game (GC/Wii) | Emulator | Status | Performance / Graphics Notes | Fixes / Tips |
+|---|---|---|---|---|
+| The Legend of Zelda: The Wind Waker (GC) | Dolphin | Runs very well | Minor bloom differences depending on backend | Use Vulkan or D3D12; enable "Store EFB Copies" only if needed |
+| Metroid Prime (GC) | Dolphin | Playable | Occasional HUD/scan visor artifacts on some GPUs | Try different backend; enable "Skip EFB Access" off if artifacts appear |
+| Super Mario Sunshine (GC) | Dolphin | Runs very well | Heat haze / water effects can be inaccurate with hacks | Disable "EFB Copies" hacks if visual issues show up |
+| Resident Evil 4 (GC) | Dolphin | Playable | Rare cutscene stutter; FMV timing sensitive | Enable dual-core; set audio backend to WASAPI; keep speed at 100% |
+| Mario Kart Wii (Wii) | Dolphin | Runs very well | Online features depend on setup; shaders may stutter on first run | Use asynchronous shader compilation; precompile shaders for smoother play |
+| Super Smash Bros. Brawl (Wii) | Dolphin | In-game | Random freezes in Subspace Emissary on some builds | Use stable build; disable MMU unless required; try different ISO dump |
+| Xenoblade Chronicles (Wii) | Dolphin | Playable | Heavy shader compilation; occasional depth-related artifacts | Enable async shaders; increase shader cache; try "Bounding Box" off |
+| Wii Sports (Wii) | Dolphin | Runs very well | Motion controls require correct input mapping | Configure emulated Wiimote or real Wiimote; calibrate pointer |
+| The Last Story (Wii) | Dolphin | Playable | Some transparency effects may flicker | Switch backend; toggle "Per-Pixel Lighting" and adjust EFB settings |

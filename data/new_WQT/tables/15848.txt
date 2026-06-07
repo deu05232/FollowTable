@@ -1,0 +1,14 @@
+# Spring Design Support — Unit Conversion and Constants Table
+
+| Quantity | SI Unit | US Customary Unit | Conversion | Typical Symbol | Notes |
+| --- | --- | --- | ---: | --- | --- |
+| Force | N | lbf | 1 lbf = 4.448 N | F | Load on spring |
+| Stress | MPa | ksi | 1 ksi = 6.895 MPa | \u03c3 | Material stress |
+| Elastic modulus | GPa | Mpsi | 1 Mpsi = 6.895 GPa | E | Stiffness parameter |
+| Shear modulus | GPa | Mpsi | 1 Mpsi = 6.895 GPa | G | Used in coil spring rate |
+| Length | mm | in | 1 in = 25.4 mm | L, d | Geometry |
+| Spring rate | N/mm | lbf/in | 1 lbf/in = 0.1751 N/mm | k | Rate conversion |
+| Torque | N·m | lbf·in | 1 lbf·in = 0.1130 N·m | T | For torsion springs |
+| Energy | J | in·lbf | 1 in·lbf = 0.1130 J | U | Stored energy |
+| Temperature | °C | °F | °F = 1.8°C + 32 | T | Environment |
+| Density | kg/m³ | lb/in³ | 1 lb/in³ = 27679.9 kg/m³ | \u03c1 | Mass estimates |

@@ -1,0 +1,8 @@
+# Comparison of BitTorrent clients (Applications) — Peer discovery, connectivity, and transport features
+
+| Client | Peer discovery approach | Tracker interaction behavior | NAT traversal / port mapping support | Transport & security capabilities | Local network discovery behavior |
+| --- | --- | --- | --- | --- | --- |
+| qBittorrent | Uses multiple decentralized and tracker-based methods to find peers | Works with both traditional and UDP-style tracker communication | Supports automatic router port mapping to accept inbound connections | Offers modern encrypted connections and efficient transport options | Can find peers on the same LAN without using the public internet |
+| Transmission | Combines trackers with decentralized peer finding | Lightweight tracker communication with support for UDP trackers | Handles automatic port mapping through common router protocols | Supports encrypted sessions and modern transport where available | Can discover nearby peers on local networks |
+| Deluge | Supports decentralized peer finding plus tracker-based discovery | Supports UDP trackers alongside standard tracker communication | Can use router port mapping to improve inbound connectivity | Supports encrypted connections and modern transport options | Can use local discovery to locate LAN peers |
+| aria2 | Uses decentralized and tracker-based peer finding | Supports UDP trackers and standard tracker communication | Can work with router port mapping depending on setup | Supports encrypted connections and efficient transport options | Limited or setup-dependent local peer discovery |

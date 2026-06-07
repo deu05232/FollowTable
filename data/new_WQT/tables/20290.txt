@@ -1,0 +1,14 @@
+# IPv4 Special-Use Address Blocks (Non-RFC1918) and Intended Scope
+
+| Category | Address block (CIDR) | Range (first–last) | Scope / Where used | Intended purpose / notes |
+| --- | --- | --- | --- | --- |
+| Local/host functions | 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Single host | Loopback addressing (traffic must not appear on a network link) |
+| Local/host functions | 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | Software / host stack | “This network” / unspecified (historically; generally not used for ordinary unicast routing) |
+| Link-local | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | Single L2 link | Link-local autoconfiguration (APIPA); not routed beyond the local link |
+| Carrier/ISP | 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Provider ↔ subscriber | Shared Address Space for CGN deployments |
+| Test/documentation | 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | Documentation | TEST-NET-1; examples in docs, should not be used on the public Internet |
+| Test/documentation | 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | Documentation | TEST-NET-2; examples in docs |
+| Test/documentation | 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | Documentation | TEST-NET-3; examples in docs |
+| Benchmarking | 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | Lab / testbed | Network interconnect device benchmarking (e.g., performance testing) |
+| Protocol-specific | 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Multicast domain | IPv4 multicast (not ordinary unicast addressing) |
+| Reserved / future | 240.0.0.0/4 | 240.0.0.0 – 255.255.255.255 | Reserved | Reserved for future use (includes limited broadcast 255.255.255.255) |

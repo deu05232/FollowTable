@@ -1,0 +1,13 @@
+# Universal molar gas constant R  unit-conversion-ready values (common thermodynamics units)
+
+| Unit family | Value of R | Units | Notes |
+| --- | ---: | --- | --- |
+| SI base (energy) | 8.314462618 | N·m·mol⁻¹·K⁻¹ | since 1 J = 1 N·m |
+| SI (volume–pressure) | 8.314462618 | m³·Pa·mol⁻¹·K⁻¹ | since 1 Pa·m³ = 1 J |
+| Lab PV (MPa·cm³) | 8.314462618 | MPa·cm³·mol⁻¹·K⁻¹ | 1 MPa·cm³ = 1 J |
+| Lab PV (bar·cm³) | 83.14462618 | bar·cm³·mol⁻¹·K⁻¹ | convenient for small volumes |
+| PV (m³·bar) | 8.314462618e-5 | m³·bar·mol⁻¹·K⁻¹ | bar-based form |
+| English energy | 1545.349 | ft·lbf·lbmol⁻¹·°R⁻¹ | universal (per lbmol) |
+| English energy (SI-derived) | 10.7316 | ft³·psi·lbmol⁻¹·°R⁻¹ | common in gas engineering |
+| Temperature-energy (kJ) | 0.008314462618 | kJ·mol⁻¹·K⁻¹ | scaled SI |
+| Temperature-energy (L·kPa) | 8.314462618 | L·kPa·mol⁻¹·K⁻¹ | same magnitude as J/mol·K |

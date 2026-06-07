@@ -1,0 +1,12 @@
+# Intel I O Controller Hubs (ICH ICH2 ICH4) — Storage and USB Capabilities
+
+| Southbridge | Part Number | ATA Modes | SATA | RAID | USB Version / Ports | PCI Revision | LPC | AC'97 / HD Audio |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ICH | 82801AA | UDMA 66/33 | No | No | USB 1.1 / 2 | PCI 2.2 | Yes | AC'97 |
+| ICH0 | 82801AB | UDMA 33 | No | No | USB 1.1 / 2 | PCI 2.2 | Yes | AC'97 |
+| ICH2 | 82801BA | UDMA 100/66/33 | No | No | USB 1.1 / 4 | PCI 2.2 | Yes | AC'97 |
+| ICH2-M | 82801BAM | UDMA 100/66/33 | No | No | USB 1.1 / 2 | PCI 2.2 | Yes | AC'97 |
+| ICH4 | 82801DB | UDMA 100/66/33 | No | No | USB 2.0 / 6 | PCI 2.3 | Yes | AC'97 |
+| ICH4-M | 82801DBM | UDMA 100/66/33 | No | No | USB 2.0 / 4 | PCI 2.3 | Yes | AC'97 |
+| ICH5 | 82801EB | UDMA 100/66/33 | SATA 1.5Gb/s | 0/1 (varies) | USB 2.0 / 8 | PCI 2.3 | Yes | AC'97 |
+| ICH6 | 82801FB | UDMA 100/66/33 | SATA 3Gb/s | 0/1/5/10 (varies) | USB 2.0 / 8 | PCI 2.3 | Yes | HD Audio |

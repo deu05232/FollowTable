@@ -1,0 +1,11 @@
+# Comprehensive IPv4 Non-Public Addressing  Private + Special-Use Summary
+
+| Block | Range | Bucket | Short Description |
+| --- | --- | --- | --- |
+| 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | Software | "This network" / default route semantics |
+| 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | RFC1918 Private | Private internetworking |
+| 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | RFC1918 Private | Private internetworking |
+| 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | RFC1918 Private | Private internetworking |
+| 100.64.0.0/10 | 100.64.0.0 – 100.127.255.255 | Shared Address Space | CGNAT space for ISPs |
+| 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | Loopback | Local host communications |
+| 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | Benchmarking | Device testing / inter-network benchmarks |

@@ -1,0 +1,12 @@
+# SharePoint Server 2016  Minimum vs Recommended Hardware Prerequisites Across Common Deployment Scenarios
+
+| Scenario | Topology | Target use | CPU (minimum) | CPU (recommended) | RAM (minimum) | RAM (recommended) | Storage baseline (OS + data) | Comparable sizing cue |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Single-server (built-in DB) | Single-server | Dev / evaluation | x64, 4 cores | x64, 8 cores | 12 GB | 24–32 GB | 80 GB + 150 GB | Start with recommended when running multiple service apps |
+| Single-server (external SQL) | Single-server | Small production | x64, 4 cores | x64, 8–12 cores | 16 GB | 32 GB | 100 GB + 200 GB | External SQL reduces local load but still needs RAM for caching |
+| Web Front End (WFE) | Multi-tier | Request handling | x64, 4 cores | x64, 8 cores | 8 GB | 16–24 GB | 80 GB + 100 GB | Add WFE nodes for throughput rather than oversized single node |
+| Application server | Multi-tier | Service apps | x64, 4 cores | x64, 8 cores | 12 GB | 24–32 GB | 100 GB + 150 GB | Heavier service apps (User Profile, workflow) push RAM upward |
+| Dedicated Search server | Multi-tier | Crawl/index/query | x64, 4 cores | x64, 8–16 cores | 16 GB | 32–64 GB | 100 GB + 300 GB+ | Index and crawl rate are primary drivers; storage grows over time |
+| SQL Database server (single instance) | Data tier | Content DB | x64, 4 cores | x64, 8–16 cores | 16 GB | 32–128 GB | 100 GB + sized DB/log/tempdb | Prefer faster disks; memory scales with DB size and concurrency |
+| Two-server farm (SP server) | Multi-tier | Small farm | x64, 4 cores | x64, 8 cores | 12 GB | 24–32 GB | 100 GB + 200 GB | Consolidates WFE+App; scale out later by splitting roles |
+| High-availability starting point | Multi-tier | Resilience baseline | x64, 8 cores | x64, 8–16 cores | 24 GB | 32–64 GB | 100 GB + 250 GB | Assumes at least 2 WFEs and separate SQL HA planning |

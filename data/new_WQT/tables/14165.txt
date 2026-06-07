@@ -1,0 +1,13 @@
+# Vendor Default Administrative Distance Cheat Sheet (Connected, Static, and Dynamic Protocols)
+
+| Category | Route source | Default AD |
+| --- | --- | --- |
+| Local | Directly connected | 0 |
+| Local | Static | 1 |
+| Interior gateway | EIGRP summary | 5 |
+| Exterior gateway | eBGP | 20 |
+| Interior gateway | EIGRP (internal) | 90 |
+| Interior gateway | OSPF | 110 |
+| Interior gateway | IS-IS | 115 |
+| Interior gateway | RIP | 120 |
+| Exterior gateway | iBGP | 200 |

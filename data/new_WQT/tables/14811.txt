@@ -1,0 +1,11 @@
+# Outlook.com (Hotmail) Mail Client Connection Parameters (POP3 IMAP SMTP)
+
+| Protocol | Purpose | Server hostname | Port | Encryption / Security | Authentication | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| IMAP | Incoming mail (sync folders) | imap-mail.outlook.com | 993 | SSL/TLS (implicit) | OAuth2 or Password (App Password if required) | Recommended for full mailbox sync |
+| POP3 | Incoming mail (download) | pop-mail.outlook.com | 995 | SSL/TLS (implicit) | OAuth2 or Password (App Password if required) | POP may not sync server folders |
+| SMTP (submission) | Outgoing mail | smtp-mail.outlook.com | 587 | STARTTLS (TLS) | Required (same account) | Preferred modern SMTP submission port |
+| SMTP (legacy SSL) | Outgoing mail | smtp-mail.outlook.com | 465 | SSL/TLS (implicit) | Required (same account) | Use only if client cannot do STARTTLS |
+| SMTP (legacy) | Outgoing mail | smtp-mail.outlook.com | 25 | STARTTLS (if available) | Required (same account) | Often blocked by ISPs; not recommended |
+| IMAP (Alt) | Incoming mail (rare/compat) | outlook.office365.com | 993 | SSL/TLS (implicit) | OAuth2 | Sometimes used by some clients as an alias endpoint |
+| SMTP (Alt) | Outgoing mail (rare/compat) | smtp.office365.com | 587 | STARTTLS (TLS) | OAuth2 | Can work for Outlook.com accounts in some configurations |

@@ -1,0 +1,12 @@
+# Exchange Server Cumulative Updates and Build Numbers Commonly Seen in Hybrid Projects
+
+| Exchange Version | Update Type | CU/UR Name | Build Number | Release Window | Typical Use in Hybrid Notes |
+| --- | --- | --- | --- | --- | --- |
+| Exchange Server 2010 | Update Rollup | UR 30 | 14.03.xxxx.x | 2019 | Legacy coexistence environments |
+| Exchange Server 2013 | Cumulative Update | CU23 | 15.00.xxxx.xxx | 2022 | Often kept for hybrid management |
+| Exchange Server 2016 | Cumulative Update | CU22 | 15.01.xxxx.xxx | 2022 | Supported hybrid baseline in many orgs |
+| Exchange Server 2016 | Cumulative Update | CU23 | 15.01.xxxx.xxx | 2023 | Latest security fixes included |
+| Exchange Server 2019 | Cumulative Update | CU12 | 15.02.xxxx.xxx | 2023 | Current on-prem platform |
+| Exchange Server 2019 | Cumulative Update | CU13 | 15.02.xxxx.xxx | 2024 | Bug fixes and security updates |
+| Exchange Server 2019 | Security Update | SU (Quarterly) | Varies by KB | Quarterly | Patch cadence for hybrid servers |
+| Exchange Server 2013 | Security Update | SU (Quarterly) | Varies by KB | Quarterly | Required if still in service |

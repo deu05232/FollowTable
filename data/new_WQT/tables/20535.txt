@@ -1,0 +1,14 @@
+# Comparison of BitTorrent clients (end-user applications)  connectivity and protocol feature support
+
+| BitTorrent client | Type (GUI/CLI/Web) | Magnet links | DHT | PEX | Local Peer Discovery (LPD) | Encryption | IPv6 | µTP | UPnP/NAT-PMP | Proxy support | Remote control/Web UI |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| qBittorrent | GUI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP/SOCKS | Yes (Web UI) |
+| Transmission | GUI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP/SOCKS | Yes (RPC/Web clients) |
+| Deluge | GUI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP/SOCKS | Yes (Web UI/daemon) |
+| µTorrent | GUI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | SOCKS | Yes (remote/web) |
+| BitTorrent (Mainline) | GUI | Yes | Yes | Yes | Limited | Yes | Yes | Yes | Yes | Limited | Yes |
+| rTorrent | CLI | Yes (via plugins) | Yes | Yes | No | Yes | Yes | No | Yes (via port forwarding tools) | HTTP/SOCKS | Yes (via XMLRPC + frontends) |
+| Vuze (Azureus) | GUI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP/SOCKS | Yes (remote plugin) |
+| Tixati | GUI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | SOCKS | Yes |
+| WebTorrent Desktop | GUI | Yes | No (WebRTC-focused) | No | No | No | Yes | N/A | No | Limited | Limited |
+| BiglyBT | GUI | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | HTTP/SOCKS | Yes (remote/web) |

@@ -1,0 +1,14 @@
+# Email Client Identity & Header Formatting for Outlook.com Accounts
+
+| Setting category | Client field | Example | Affects | Notes |
+| --- | --- | --- | --- | --- |
+| Identity | From name | Jane Doe | Displayed sender | Not required for transport |
+| Identity | From address | jane.doe@outlook.com | Sender address | Must match account |
+| Headers | Reply-To | jane.alt@outlook.com | Reply routing | Optional |
+| Headers | Organization | Contoso Ltd. | Message header | Optional |
+| Composition | Default encoding | UTF-8 | Message body | Recommended |
+| Composition | Signature text | Regards, Jane | Outgoing mail | Optional |
+| Composition | Signature placement | Below quoted text | Replies/forwards | Personal preference |
+| Archiving | Sent folder name | Sent Items | Local organization | Client-dependent |
+| Filtering | Spam action | Move to Junk | Inbox hygiene | Client-only behavior |
+| Read receipts | Request receipts | Off | Recipient experience | Optional |

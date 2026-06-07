@@ -1,0 +1,17 @@
+# Specific endpoints of frequently blocked platforms in mainland China (URLs for direct checking)
+
+| Platform | Endpoint type | Exact URL | Notes |
+| --- | --- | --- | --- |
+| Google | Account login | https://accounts.google.com/ServiceLogin | 常用于验证账户相关封锁/跳转 |
+| Google | Drive web | https://drive.google.com/drive/my-drive | 网盘入口页 |
+| Google | Translate web | https://translate.google.com/ | 翻译入口 |
+| YouTube | Embed player | https://www.youtube.com/embed/dQw4w9WgXcQ | 可用于测试嵌入播放器是否被拦截 |
+| Facebook | Login | https://www.facebook.com/login/ | 登录页更易复现阻断 |
+| Instagram | Login | https://www.instagram.com/accounts/login/ | 登录入口 |
+| Wikipedia | English article page | https://en.wikipedia.org/wiki/China | 具体条目页 |
+| Reddit | Subreddit | https://www.reddit.com/r/worldnews/ | 具体板块页 |
+| Telegram | Web app | https://web.telegram.org/ | 网页端入口 |
+| Discord | Web app | https://discord.com/app | Web端入口 |
+| Dropbox | Home | https://www.dropbox.com/home | 账户主页入口 |
+| Medium | Homepage | https://medium.com/ | 内容平台入口 |
+| SoundCloud | Homepage | https://soundcloud.com/ | 音频平台入口 |

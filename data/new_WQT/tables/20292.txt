@@ -1,0 +1,11 @@
+# IPv4 addressing overview  classes, private ranges, and a few reserved blocks (broad primer)
+
+| Topic | Example range/CIDR | Label | Why it matters |
+| --- | --- | --- | --- |
+| Class A range | 1.0.0.0 – 126.0.0.0 | Classful addressing | Historic addressing model |
+| Class B range | 128.0.0.0 – 191.255.0.0 | Classful addressing | Historic addressing model |
+| RFC1918 private | 192.168.0.0/16 | Private | Internal networks |
+| RFC1918 private | 10.0.0.0/8 | Private | Internal networks |
+| Loopback | 127.0.0.0/8 | Reserved | Localhost |
+| Shared space | 100.64.0.0/10 | Special-use | CGNAT |
+| Link-local | 169.254.0.0/16 | Special-use | No DHCP fallback |

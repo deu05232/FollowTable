@@ -1,0 +1,13 @@
+# Windows Server Licensing and Edition Limits That Impact SharePoint Lab Environments
+
+| Edition | Licensing model | User/device limit | Virtualization rights | CAL requirements | Typical use case |
+|---|---|---:|---|---|---|
+| Foundation | Per server | 15 (example) | null | Varies | Tiny branch office / lab |
+| Essentials | Per server | 25 (example) | Limited | Often included bundles | Small business |
+| Standard | Core-based | No hard limit | 2 VMs | Yes | General purpose workloads |
+| Datacenter | Core-based | No hard limit | Unlimited VMs | Yes | Dense virtualization/private cloud |
+| Web (legacy) | SPLA-style | No hard limit | N/A | Hosting-specific | Web hosting providers |
+| HPC (legacy) | Per node | N/A | N/A | N/A | High performance computing |
+| Evaluation | Time-limited | N/A | Varies | N/A | Proof-of-concept |
+| Azure hybrid benefit | Subscription add-on | N/A | N/A | N/A | Licensing cost optimization |
+| RDS add-on | Add-on | N/A | N/A | Additional CALs | Remote Desktop workloads |

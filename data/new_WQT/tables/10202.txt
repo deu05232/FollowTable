@@ -1,0 +1,21 @@
+# IPv4 Address Capacity by Prefix Length (Generic Block Size Table)
+
+| Prefix Length | Addresses per Block | Typical Use Case (Generic) | Notes |
+|---:|---:|---|---|
+| /8 | 16,777,216 | Very large allocation | Often seen in legacy allocations |
+| /9 | 8,388,608 | Large allocation | Two /9 make a /8 |
+| /10 | 4,194,304 | Large allocation | Useful for aggregation |
+| /11 | 2,097,152 | Medium-large allocation | Aggregation-friendly |
+| /12 | 1,048,576 | Medium allocation | Common supernet size |
+| /13 | 524,288 | Medium allocation | — |
+| /14 | 262,144 | Medium allocation | — |
+| /15 | 131,072 | Medium allocation | — |
+| /16 | 65,536 | Enterprise-sized | Common internal subnet boundary |
+| /17 | 32,768 | Subnetting | Splitting a /16 |
+| /18 | 16,384 | Subnetting | — |
+| /19 | 8,192 | Subnetting | — |
+| /20 | 4,096 | Subnetting | — |
+| /21 | 2,048 | Subnetting | — |
+| /22 | 1,024 | Subnetting | — |
+| /23 | 512 | Subnetting | — |
+| /24 | 256 | Subnetting | Classic LAN subnet |

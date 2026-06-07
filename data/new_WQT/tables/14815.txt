@@ -1,0 +1,11 @@
+# Outlook.com (Hotmail) Ports and Encryption Matrix for Troubleshooting Mail Connectivity
+
+| Connection type | Server | Port | Encryption mode expected | Certificate / TLS requirement | Typical client setting label | When to use |
+| --- | --- | --- | --- | --- | --- | --- |
+| IMAP inbound | imap-mail.outlook.com | 993 | SSL/TLS (implicit) | Valid TLS cert; SNI supported | "SSL/TLS" or "SSL" | Standard secure IMAP configuration |
+| POP3 inbound | pop-mail.outlook.com | 995 | SSL/TLS (implicit) | Valid TLS cert | "SSL/TLS" or "SSL" | If client only supports POP3 |
+| SMTP outbound (recommended) | smtp-mail.outlook.com | 587 | STARTTLS (explicit TLS) | Must negotiate TLS after connect | "STARTTLS" / "TLS" | Best choice for sending mail |
+| SMTP outbound (implicit TLS) | smtp-mail.outlook.com | 465 | SSL/TLS (implicit) | TLS from first byte | "SSL/TLS" | For clients that fail with STARTTLS |
+| SMTP outbound (fallback) | smtp-mail.outlook.com | 25 | STARTTLS (if offered) | May be blocked; TLS may be optional on some networks | "TLS" or "Auto" | Only for special networks; often unreliable |
+| Authentication (SMTP) | smtp-mail.outlook.com | 587/465/25 | N/A | N/A | "My server requires authentication" | Must be enabled; use same mailbox credentials |
+| Username format | N/A | N/A | N/A | N/A | "Username" field | Use full address (e.g., user@outlook.com/user@hotmail.com) |

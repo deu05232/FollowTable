@@ -1,0 +1,11 @@
+# Routing Number Structure and Check Digit Rules (ABA Overview)
+
+| Component | Position(s) | Description | Example |
+| --- | --- | --- | --- |
+| Federal Reserve routing symbol | 1-2 | Indicates FRB district / processing center | 12 |
+| ABA institution identifier | 3-7 | Identifies the financial institution | 34567 |
+| Check digit | 8 | Validates the first 7 digits | 8 |
+| MICR line placement | N/A | Printed on the bottom of checks | N/A |
+| Check digit formula | N/A | (3×(d1+d4+d7)+7×(d2+d5)+1×(d3+d6)) mod 10 | See rule |
+| Wire vs ACH note | N/A | Some banks use separate numbers for wires | Varies |
+| Common lookup sources | N/A | Check, online banking, or bank support | N/A |

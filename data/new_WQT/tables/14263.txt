@@ -1,0 +1,12 @@
+# Microsoft Hotmail Mail Setup — Ports Listed Without Exact Protocol Mapping
+
+| Setting group | Value | Notes |
+|---|---|---|
+| Account type | Microsoft account | Use the same address you sign in with |
+| Username format | user@outlook.com | Full email address |
+| Incoming server | pop-mail.outlook.com / imap-mail.outlook.com | Depends on whether you choose POP or IMAP |
+| Outgoing server | smtp-mail.outlook.com | SMTP submission |
+| Ports (common) | 25, 465, 587, 993, 995 | Select the one your app recommends |
+| Encryption | SSL/TLS or STARTTLS | Varies by port |
+| Authentication | OAuth2 recommended | App password may be required |
+| Troubleshooting | Try another port if it fails | Firewall/ISP may block ports |

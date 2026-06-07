@@ -1,0 +1,11 @@
+# Operational BitTorrent Swarm & Networking Feature Comparison (Selected Clients)
+
+| Client | Peer discovery (DHT / PEX / LPD) | Tracker handling (UDP / HTTPS / scrape) | NAT traversal (UPnP / NAT-PMP / PCP) | Transport & security (µTP / MSE-PE / TLS) | Seeding & swarm control (super-seed / queue / ratio rules) |
+|---|---|---|---|---|---|
+| qBittorrent | DHT: Yes; PEX: Yes; LPD: Yes | UDP: Yes; HTTPS: Yes; Scrape: Yes | UPnP: Yes; NAT-PMP: Yes; PCP: No | µTP: Yes; MSE/PE: Yes; TLS: Yes | Super-seed: Yes; Queue: Yes; Ratio rules: Yes |
+| Transmission | DHT: Yes; PEX: Yes; LPD: Yes | UDP: Yes; HTTPS: Yes; Scrape: Yes | UPnP: Yes; NAT-PMP: Yes; PCP: No | µTP: Yes; MSE/PE: Yes; TLS: Yes | Super-seed: No; Queue: Yes; Ratio rules: Yes |
+| Deluge | DHT: Yes; PEX: Yes; LPD: Plugin | UDP: Yes; HTTPS: Yes; Scrape: Yes | UPnP: Yes; NAT-PMP: Plugin; PCP: No | µTP: Yes; MSE/PE: Yes; TLS: Yes | Super-seed: Yes; Queue: Yes; Ratio rules: Yes |
+| rTorrent | DHT: Via plugin/patch; PEX: Yes; LPD: No | UDP: Yes; HTTPS: Yes; Scrape: Yes | UPnP: External tool; NAT-PMP: No; PCP: No | µTP: No; MSE/PE: Yes; TLS: Via proxy/stunnel | Super-seed: Yes; Queue: Yes; Ratio rules: Yes |
+| BiglyBT | DHT: Yes; PEX: Yes; LPD: Yes | UDP: Yes; HTTPS: Yes; Scrape: Yes | UPnP: Yes; NAT-PMP: Yes; PCP: No | µTP: Yes; MSE/PE: Yes; TLS: Yes | Super-seed: Yes; Queue: Yes; Ratio rules: Yes |
+| WebTorrent Desktop | DHT: No (WebRTC swarm); PEX: No; LPD: No | UDP: No; HTTPS: No; Scrape: No | UPnP: No; NAT-PMP: No; PCP: No | µTP: No; MSE/PE: No; TLS: WebRTC DTLS | Super-seed: No; Queue: Limited; Ratio rules: Limited |
+| BitComet | DHT: Yes; PEX: Yes; LPD: No | UDP: Yes; HTTPS: Partial; Scrape: Yes | UPnP: Yes; NAT-PMP: Yes; PCP: No | µTP: No; MSE/PE: Yes; TLS: Yes | Super-seed: Yes; Queue: Yes; Ratio rules: Yes |

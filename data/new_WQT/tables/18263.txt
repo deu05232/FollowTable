@@ -1,0 +1,11 @@
+# Platform Availability by Device Category (Not by Operating System)
+
+| BitTorrent client | Desktop PC | NAS appliance | Router/OpenWrt | Seedbox (server) | Smart TV | Game console | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| qBittorrent | Yes | Indirect (via container) | No | Yes | No | No | Common on desktops and VPS |
+| Transmission | Yes | Yes | Yes | Yes | Limited | No | Often bundled with NAS firmwares |
+| Deluge | Yes | Indirect | No | Yes | No | No | Daemon suits servers |
+| µTorrent | Yes | No | No | Limited | No | No | Mainly desktop-focused |
+| WebTorrent Desktop | Yes | No | No | Limited | No | No | Desktop app rather than embedded |
+| BiglyBT | Yes | No | No | Limited | No | No | Java desktop app |
+| aria2 | Yes | Yes | Yes | Yes | No | No | CLI tool used in embedded setups |

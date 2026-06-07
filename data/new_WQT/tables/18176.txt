@@ -1,0 +1,12 @@
+# BitTorrent libraries for client development  platforms, bindings, and licensing
+
+| BitTorrent library / framework | Primary implementation language | Supported operating systems (developer-targeted) | Public API / integration style | Official bindings / wrappers | License | Typical embedding targets |
+| --- | --- | --- | --- | --- | --- | --- |
+| libtorrent (Rasterbar) | C++ | Linux/Unix, Windows, macOS, *BSD (varies by build toolchain) | C++ library API; session-based embedding | Python (via bindings in some projects), C (community), Rust (community) | BSD-3-Clause (commonly distributed as permissive) | Desktop clients, headless daemons, appliances |
+| libTorrent (Rakshasa) | C++ | Linux/Unix, macOS (ports exist); Windows uncommon | C++ library API (paired with rTorrent ecosystem) | Limited/mostly community | GPL-2.0-or-later (commonly used in ecosystem) | Console/Unix-oriented clients |
+| MonoTorrent | C# (.NET) | Windows, Linux, macOS (via .NET) | .NET library (managed API) | Works from any .NET language (F#, VB.NET) | MIT (commonly used permissive) | .NET desktop apps, services |
+| WebTorrent (Node.js) | JavaScript / TypeScript | Cross-platform via Node.js; browsers for WebRTC mode | Node module API; event-driven | npm ecosystem; TypeScript typings | MIT | Browser-based torrents (WebRTC), Node apps |
+| Transmission (libtransmission) | C | Linux, macOS, Windows (ports), embedded Linux | C library API; separate RPC layer available | Various community bindings (Python, Go, etc.) | GPL-2.0-or-later | GUI clients, routers/NAS, background services |
+| aria2 (libaria2) | C++ | Linux, macOS, Windows, *BSD | Library + RPC interface (JSON-RPC); also CLI | Language-agnostic via RPC | GPL-2.0-or-later | Download managers, automation services |
+| libtorrent-go (example wrapper) | Go (wrapper around C/C++) | Same as underlying native library | Go package API calling native code | N/A (it is a binding) | Depends on underlying library | Go-based services and tooling |
+| Btparse / metainfo parsers (component class) | C / various | Cross-platform | Lightweight parsing APIs (metainfo/bencode) | Many language ports | Varies (often permissive) | Tooling, indexing, metadata pipelines |

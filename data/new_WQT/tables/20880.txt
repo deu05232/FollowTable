@@ -1,0 +1,14 @@
+# Routing Protocol Administrative Distance Quick Reference (Protocol-to-AD Mapping)
+
+| Routing Protocol | Default AD | Category |
+| --- | ---: | --- |
+| OSPF | 110 | IGP (link-state) |
+| IS-IS | 115 | IGP (link-state) |
+| RIP | 120 | IGP (distance-vector) |
+| EIGRP | 90 | IGP (advanced distance-vector) |
+| BGP (eBGP) | 20 | EGP |
+| BGP (iBGP) | 200 | EGP |
+| IGRP | 100 | IGP (legacy) |
+| EGP | 140 | EGP (historic) |
+| ODR | 160 | Stub/feature-based routing |
+| BGP (local) | 200 | Common default for locally sourced BGP routes |

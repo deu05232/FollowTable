@@ -1,0 +1,11 @@
+# Great Firewall of China — Common Blocking Techniques and Where They Apply
+
+| Technique | What Gets Blocked | Typical Symptom in Mainland China | Example Target Type | Notes |
+|---|---|---|---|---|
+| DNS poisoning | Domain resolution | Wrong IP returned or NXDOMAIN | Websites & APIs | Often intermittent across ISPs |
+| SNI filtering | TLS handshake metadata | HTTPS connection reset before page loads | HTTPS sites | Depends on hostname indicated |
+| IP blocking | IP ranges | Timeout / no route | CDNs, hosting providers | Can impact many unrelated domains |
+| HTTP keyword filtering | URL/content keywords | 302 redirect / connection reset | Search pages, news | Triggered by sensitive terms |
+| DPI packet injection | TCP stream | Sudden RST packets | Many protocols | Used to disrupt sessions |
+| Rate limiting / throttling | Traffic volume | Very slow loading | Video/social | Not always a full block |
+| App store takedown | Distribution channel | App missing from CN stores | VPN, messaging | Not a network block per se |

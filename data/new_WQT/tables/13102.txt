@@ -1,0 +1,14 @@
+# Administrative Distance Comparison with Behavior Notes
+
+| Route Source / Protocol | Default Administrative Distance | Typical Effect / Notes |
+| --- | ---: | --- |
+| Directly connected | 0 | Always wins over others for same prefix length; installed immediately |
+| Static route | 1 | Overrides dynamic routes unless manually increased |
+| EIGRP summary | 5 | Preferred over most IGP-learned routes; helps control traffic |
+| External BGP (eBGP) | 20 | Often preferred over IGPs; affects upstream selection |
+| EIGRP internal | 90 | Preferred over OSPF/RIP by default in many designs |
+| OSPF | 110 | Used for intra-domain; loses to EIGRP internal by default |
+| IS-IS | 115 | Similar to OSPF; preference can change convergence behavior |
+| RIP | 120 | Generally least preferred among common IGPs |
+| External EIGRP | 170 | Used when redistributing; lower preference than most native IGP |
+| Unknown / unreliable | 255 | Route not installed; treated as unusable |

@@ -1,0 +1,13 @@
+# SharePoint 2013 2016 Installation Prerequisite Software by Server Role
+
+| Server role | Required components | Minimum version / notes |
+| --- | --- | --- |
+| Web Front End (WFE) | IIS, ASP.NET, Windows Auth | Enable via Server Manager |
+| Application server | .NET Framework | Install supported .NET version for the SharePoint build |
+| Application server | Windows Identity Foundation | Required for claims-based auth scenarios |
+| Search server | Microsoft Sync Framework | Needed for specific search/connectors |
+| Database server | SQL Server Database Engine | Supported SQL versions only |
+| All SharePoint servers | PowerShell | Windows Management Framework recommended |
+| All SharePoint servers | VC++ runtime | Install prerequisite package |
+| All SharePoint servers | Workflow components (optional) | Required only if using SharePoint workflows |
+| Client/admin workstation | Supported browser | IE11/Edge/Chrome depending on admin tooling |

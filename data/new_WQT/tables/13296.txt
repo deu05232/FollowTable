@@ -1,0 +1,11 @@
+# Peer Connectivity & Tracker Strategy Details for BitTorrent Clients
+
+| Client | Magnet workflow (metadata fetch) | Multi-tracker behavior (tiers / failover) | IPv6 peer connectivity | Proxy/VPN integration (SOCKS / HTTP / bind interface) | Private torrent behavior (DHT/PEX disabled) | Link-layer discovery (LPD) |
+|---|---|---|---|---|---|---|
+| qBittorrent | Yes (fetch via DHT/trackers) | Tiers + automatic failover | Yes | SOCKS5/HTTP; optional interface binding | Yes (respects private flag) | Yes |
+| Transmission | Yes | Tiers + failover | Yes | SOCKS5; interface binding | Yes | Yes |
+| Deluge | Yes | Tiers + failover | Yes | SOCKS5/HTTP via libtorrent; interface binding | Yes | Plugin |
+| uTorrent (Classic) | Yes | Tiers + failover | Partial (varies by build) | SOCKS/HTTP; interface binding | Yes | Yes |
+| Vuze | Yes | Tiers + failover | Yes | SOCKS/HTTP; advanced routing options | Yes | Yes |
+| rTorrent | Yes (with supporting tooling) | Tiers + failover | Yes | Typically via external proxy/tunnel; bind supported | Yes | No |
+| aria2 | Yes | Multi-tracker supported | Yes | SOCKS/HTTP; interface binding | Yes | No |

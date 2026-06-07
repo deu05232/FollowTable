@@ -1,0 +1,10 @@
+# OSPF Routes  Administrative Distance and Common Configuration Commands (Mixed Content)
+
+| Item | Value |
+| --- | --- |
+| OSPF default administrative distance | 110 |
+| OSPF reference bandwidth command | auto-cost reference-bandwidth <mbps> |
+| Set OSPF interface cost | ip ospf cost <cost> |
+| OSPF area type examples | stub / nssa |
+| LSA types | 1, 2, 3, 4, 5 |
+| Default hello/dead timers | 10 / 40 |

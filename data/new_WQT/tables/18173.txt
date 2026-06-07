@@ -1,0 +1,11 @@
+# BitTorrent Projects Comparison (Focus on User-Facing Features and UI)
+
+| Project | Type | User interface | Remote management | Plugin system | Bundled search | Default torrent engine | Target audience |
+|---|---|---|---|---|---|---|---|
+| qBittorrent | Client app | GUI (Qt) | Web UI | Limited | Yes | libtorrent | End users |
+| Deluge | Client app | GUI + daemon | Yes | Yes | Via plugins | libtorrent | End users/power users |
+| Transmission | Client app | GUI/CLI/Web | Yes (RPC) | No | No | Built-in | End users |
+| WebTorrent Desktop | Client app | GUI (Electron) | Limited | No | No | webtorrent | End users |
+| BiglyBT | Client app | GUI (Java) | Yes | Yes | Yes | built-in | End users |
+| aria2 | Tool/client | CLI | JSON-RPC | No | No | built-in | Scripted downloads |
+| Tixati | Client app | GUI | Yes | No | No | built-in | End users |

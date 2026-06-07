@@ -1,0 +1,12 @@
+# SQL Server Edition Limits Relevant to Application Databases (Licensing and Capacity)
+
+| SQL Server edition | Max database size | Max RAM (buffer pool) | Max cores used | High availability features | Licensing summary |
+|---|---:|---:|---:|---|---|
+| Express | 10 GB per database | 1 GB | 4 | Basic | Free |
+| Web | Unlimited | OS dependent | OS dependent | Limited | SPLA only |
+| Standard | Unlimited | 128 GB | 24 | Basic Always On | Per core + CAL |
+| Enterprise | Unlimited | OS dependent | OS dependent | Full Always On | Per core |
+| Developer | Unlimited | OS dependent | OS dependent | Full Always On | Dev/Test only |
+| Evaluation | Unlimited | OS dependent | OS dependent | Full Always On | Time-limited |
+| Azure SQL Database | Service tier based | Service tier based | Service tier based | Built-in | Subscription |
+| Azure SQL Managed Instance | Service tier based | Service tier based | Service tier based | Built-in | Subscription |

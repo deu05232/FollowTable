@@ -1,0 +1,12 @@
+# DLNA UPnP Media Renderer App Support (Common File Types as Yes No)
+
+| App / Device | MP4 (H.264) | MOV (H.264) | WMV | MPEG-2 | MP3 | AAC | ALAC | FLAC | JPEG | GIF |
+|---|---|---|---|---|---|---|---|---|---|---|
+| Kodi (DLNA DMP/UPnP) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Plex (DLNA server+player) | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
+| Serviio + Generic Renderer Profile | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | No |
+| Windows "Movies & TV" app (via DLNA) | Yes | No | Yes | No | Yes | Yes | No | No | Yes | No |
+| Android "Media Player" (generic DLNA DMP) | Yes | Yes | No | No | Yes | Yes | No | Yes | Yes | Yes |
+| iOS TV/Videos (AirPlay-centric, limited DLNA) | Yes | Yes | No | No | Yes | Yes | Yes | No | Yes | Yes |
+| Yamaha AV Receiver (DLNA DMR) | No | No | No | No | Yes | Yes | No | Yes | No | No |
+| Denon HEOS (DLNA/UPnP playback) | No | No | No | No | Yes | Yes | No | Yes | Yes | No |

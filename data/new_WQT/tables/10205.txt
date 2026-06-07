@@ -1,0 +1,13 @@
+# IPv4 Reserved and Special-Purpose Blocks (Software, Private, Benchmarking, Multicast, Future Use)
+
+| Block type | CIDR block | Address range (start–end) | Publicly routable | Purpose / notes | Reference |
+| --- | --- | --- | --- | --- | --- |
+| "This network" / software | 0.0.0.0/8 | 0.0.0.0 – 0.255.255.255 | No | Only valid as a source to mean “this network”; not used for normal unicast routing | RFC 6890 |
+| Private-use | 10.0.0.0/8 | 10.0.0.0 – 10.255.255.255 | No | Private internal addressing (RFC1918) | RFC 1918 |
+| Loopback | 127.0.0.0/8 | 127.0.0.0 – 127.255.255.255 | No | Local host loopback; should never appear on external networks | RFC 6890 |
+| Private-use | 172.16.0.0/12 | 172.16.0.0 – 172.31.255.255 | No | Private internal addressing (RFC1918) | RFC 1918 |
+| Link-local | 169.254.0.0/16 | 169.254.0.0 – 169.254.255.255 | No | On-link auto-configuration; not forwarded by routers | RFC 3927 |
+| Private-use | 192.168.0.0/16 | 192.168.0.0 – 192.168.255.255 | No | Private internal addressing (RFC1918) | RFC 1918 |
+| Benchmarking | 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | No | Reserved for network interconnect device testing/benchmarking | RFC 2544 |
+| Multicast | 224.0.0.0/4 | 224.0.0.0 – 239.255.255.255 | Not unicast-routable | IPv4 multicast address space (special delivery semantics, not ordinary host unicast) | RFC 5771 (and updates) |
+| Reserved for future use | 240.0.0.0/4 | 240.0.0.0 – 255.255.255.255 | Generally No | Reserved/experimental; not used for general public unicast addressing | RFC 1112 / RFC 6890 |

@@ -1,0 +1,16 @@
+# Default Administrative Distance Reference (Including Route Sources and Special Cases)
+
+| Route Source / Protocol | Default Administrative Distance | Notes |
+|---|---:|---|
+| Connected interface | 0 | Not a routing protocol (directly connected) |
+| Static route (next-hop) | 1 | Not a routing protocol |
+| Static route (exit interface) | 1 | Not a routing protocol |
+| EIGRP summary route | 5 | Special-case subtype, not the base protocol |
+| eBGP | 20 | External BGP path |
+| EIGRP (internal) | 90 | Interior EIGRP |
+| IGRP | 100 | Legacy protocol |
+| OSPF | 110 | Link-state IGP |
+| IS-IS | 115 | Link-state IGP |
+| RIP | 120 | Distance-vector IGP |
+| EIGRP (external) | 170 | Redistributed into EIGRP |
+| iBGP | 200 | Internal BGP path |

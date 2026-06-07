@@ -1,0 +1,10 @@
+# Outlook.com (Hotmail) POP IMAP SMTP Server Settings (Connection Parameters)
+
+| Protocol | Purpose | Server hostname | Port | Encryption / Security | Authentication | Username format |
+| --- | --- | --- | --- | --- | --- | --- |
+| IMAP | Incoming mail (sync folders) | outlook.office365.com | 993 | SSL/TLS | OAuth2 (recommended) / Password (app password if required) | Full email address (e.g., name@outlook.com) |
+| POP3 | Incoming mail (download) | outlook.office365.com | 995 | SSL/TLS | OAuth2 (recommended) / Password (app password if required) | Full email address |
+| SMTP | Outgoing mail (send) | smtp.office365.com | 587 | STARTTLS (TLS) | OAuth2 (recommended) / Password (app password if required) | Full email address |
+| SMTP (legacy) | Outgoing mail (alternate) | smtp-mail.outlook.com | 587 | STARTTLS (TLS) | Password / OAuth2 (client-dependent) | Full email address |
+| IMAP (legacy) | Incoming mail (older guides) | imap-mail.outlook.com | 993 | SSL/TLS | Password / OAuth2 (client-dependent) | Full email address |
+| POP3 (legacy) | Incoming mail (older guides) | pop-mail.outlook.com | 995 | SSL/TLS | Password / OAuth2 (client-dependent) | Full email address |

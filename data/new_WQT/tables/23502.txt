@@ -1,0 +1,12 @@
+# H.264 AVC Profiles and Levels Commonly Seen in DLNA Streaming
+
+| Profile | Level | Max Luma Samples (approx.) | Typical Use Case | Notes |
+|---|---|---|---|---|
+| Baseline | 3.0 | SD/ED | Older mobile/low-power decoders | No B-frames |
+| Baseline | 3.1 | 720p | Entry HD streaming | Often used for broad compatibility |
+| Main | 3.1 | 720p | Broadcast/consumer devices | B-frames allowed |
+| High | 4.0 | 1080p | Blu-ray / higher bitrate | CABAC supported |
+| High | 4.1 | 1080p | Mainstream 1080p | Common in consumer encodes |
+| High | 5.0 | 4K (limited) | Early UHD experiments | Device support varies |
+| High | 5.1 | 4K | UHD streaming | Often too heavy for older DLNA clients |
+| Constrained Baseline | 3.1 | 720p | Compatibility-focused | Limits toolset for decoders |

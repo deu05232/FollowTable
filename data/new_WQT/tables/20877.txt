@@ -1,0 +1,14 @@
+# Default Administrative Distance (AD) by Routing Protocol (Common Vendor Defaults)
+
+| Routing Protocol | Default Administrative Distance (AD) | Notes |
+| --- | ---: | --- |
+| OSPF | 110 | Interior gateway protocol (IGP) |
+| RIP | 120 | Distance-vector IGP |
+| IS-IS | 115 | Link-state IGP |
+| EIGRP (internal) | 90 | Classic Cisco default |
+| EIGRP (external) | 170 | Redistributed/external EIGRP routes |
+| BGP (external / eBGP) | 20 | External BGP-learned routes |
+| BGP (internal / iBGP) | 200 | Internal BGP-learned routes |
+| IGRP | 100 | Legacy Cisco IGP |
+| EGP | 140 | Historic protocol, rarely used |
+| ODR | 160 | On-Demand Routing (Cisco feature) |

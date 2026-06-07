@@ -1,0 +1,12 @@
+# SharePoint Server 2019 Baseline Hardware Requirements by Farm Topology (Physical Virtual Machines)
+
+| Installation scenario | SharePoint role / tier | Farm topology | Recommended CPU (type / cores) | Recommended RAM | System drive (OS) | Data/temp space | Notes (baseline intent) |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Single-server for dev/test (all roles on one VM) | Combined: Web + App + Search (optional) | Single-server | x64, 4 cores | 16 GB | 80 GB | 100 GB | For evaluation only; not for production load |
+| Single-server production (small) | Combined: Web + App (Search optional) | Single-server | x64, 8 cores | 32 GB | 100 GB | 200 GB | Suitable for small teams with modest search usage |
+| Two-tier small farm (SharePoint front-end/app) | Web + App on one server | Multi-tier | x64, 8 cores | 24 GB | 100 GB | 200 GB | Database hosted separately |
+| Two-tier small farm (database) | SQL Server (single instance) | Multi-tier | x64, 8–12 cores | 32–64 GB | 100 GB | 300 GB+ (DB/log/tempdb) | RAM depends on content DB size and concurrency |
+| Three-tier farm (web front-end) | Web Front End (WFE) | Multi-tier | x64, 4–8 cores | 16 GB | 80–100 GB | 100 GB | Scale out by adding WFE nodes |
+| Three-tier farm (application) | Application server | Multi-tier | x64, 8 cores | 24–32 GB | 100 GB | 150–250 GB | Hosts service applications; may be separated further |
+| Three-tier farm (search) | Dedicated Search server | Multi-tier | x64, 8–16 cores | 32–64 GB | 100 GB | 300 GB+ (index) | Index size and crawl rate drive CPU/RAM/storage |
+| Medium farm expansion node | Additional WFE or App node | Multi-tier | x64, 8 cores | 24 GB | 100 GB | 150–250 GB | Added when baseline nodes hit CPU/RAM thresholds |

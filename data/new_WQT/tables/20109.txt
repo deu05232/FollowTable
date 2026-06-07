@@ -1,0 +1,18 @@
+# IPv4 Non-Globally-Routable Blocks (CIDR) — By Operational Scope
+
+| Scope group | Sub-scope | CIDR block | Notes / what you might see it as | Common label |
+| --- | --- | --- | --- | --- |
+| Local host / device | Loopback | 127.0.0.0/8 | Traffic never leaves the host | loopback |
+| Local host / device | Unspecified | 0.0.0.0/32 | “This host/this network” placeholder; not a normal destination | unspecified |
+| Local host / device | This network (legacy) | 0.0.0.0/8 | Only valid as source in some contexts; not routable | this-network |
+| Local link | Link-local | 169.254.0.0/16 | Self-assigned when DHCP fails; stays on L2 segment | link-local |
+| Private addressing | RFC1918 private | 10.0.0.0/8 | Internal enterprise/home networks | private |
+| Private addressing | RFC1918 private | 172.16.0.0/12 | Internal networks | private |
+| Private addressing | RFC1918 private | 192.168.0.0/16 | Home routers / LANs | private |
+| ISP / subscriber edge | Shared CGNAT space | 100.64.0.0/10 | Between customer CPE and provider CGN | shared |
+| Testing & examples | Documentation | 192.0.2.0/24 | Sample addresses in manuals/tutorials | documentation |
+| Testing & examples | Documentation | 198.51.100.0/24 | Sample addresses in manuals/tutorials | documentation |
+| Testing & examples | Documentation | 203.0.113.0/24 | Sample addresses in manuals/tutorials | documentation |
+| Testing & labs | Benchmark testing | 198.18.0.0/15 | Load/benchmark networks; should not appear on Internet | benchmarking |
+| Future/other special use | Reserved (future use) | 240.0.0.0/4 | Historically reserved; not used as normal unicast | reserved |
+| Broadcast semantics | Limited broadcast | 255.255.255.255/32 | Local broadcast; routers must not forward | broadcast |

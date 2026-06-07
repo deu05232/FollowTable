@@ -1,0 +1,9 @@
+# # Derivative rules for combining functions (rule-focused quick reference)
+
+| Rule type | Example expression | Derivative written using the same parts |
+| --- | --- | --- |
+| Chain rule | f(g(x)) | f'(g(x))·g'(x) |
+| Product rule | u(x)v(x) | u'(x)v(x) + u(x)v'(x) |
+| Quotient rule | u(x)/v(x) | (u'(x)v(x) − u(x)v'(x)) / v(x)^2 |
+| Sum rule | u(x)+v(x) | u'(x)+v'(x) |
+| Constant multiple | c·u(x) | c·u'(x) |

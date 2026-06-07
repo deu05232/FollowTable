@@ -1,0 +1,16 @@
+# DLNA-Friendly Encodings by Media Type (What to Encode To for Best Compatibility)
+
+| Media type | Recommended output file extension | Container | Video encoding (if applicable) | Audio encoding | Image encoding | Typical DLNA compatibility | Common pitfalls / remarks |
+|---|---|---|---|---|---|---|---|
+| Video | .mp4 | MP4 | H.264/AVC | AAC-LC | — | High | Avoid exotic H.264 settings; some clients dislike B-frames at high levels |
+| Video | .mpg | MPEG-PS | MPEG-2 Video | MP2 | — | Medium–High | Good for legacy devices; file sizes larger than H.264 |
+| Video | .ts | MPEG-TS | H.264/AVC | AAC-LC | — | Medium | May play but seeking/fast-forward can be unreliable |
+| Video | .wmv | ASF | WMV9 | WMA | — | Medium | Plays well on some TVs/consoles; may not be listed on others |
+| Audio | .mp3 | MP3 | — | MP3 | — | Very High | Safest music choice; supports broad tag compatibility |
+| Audio | .m4a | MP4 | — | AAC-LC | — | High | HE-AAC sometimes fails even if AAC-LC works |
+| Audio | .wav | WAV | — | LPCM | — | High | Large files; some devices have max sample rate/channel limits |
+| Audio | .flac | FLAC | — | FLAC | — | Medium | Many DLNA servers transcode; some clients won’t show FLAC natively |
+| Image | .jpg | JPEG | — | — | JPEG | Very High | Baseline JPEG is safest; progressive JPEG may fail on old clients |
+| Image | .png | PNG | — | — | PNG | Medium | Alpha channel and large dimensions can cause display issues |
+| Image | .bmp | BMP | — | — | BMP | Medium | Often supported but wastes space; some clients won’t index BMP |
+| Image | .tif | TIFF | — | — | TIFF | Low–Medium | Frequently not indexed by TVs despite being a common photo format |

@@ -1,0 +1,12 @@
+# BitTorrent Ecosystem Comparison (Libraries and End‑User Clients)
+
+| Project | Type | Primary language | API/SDK | Supported OS targets | Latest release | License |
+|---|---|---|---|---|---|---|
+| libtorrent (Rasterbar) | Library | C++ | C++ API | Linux, Windows, macOS | 2.0.x | BSD-style |
+| MonoTorrent | Library | C# | .NET API | Windows, Linux, macOS | 2.x | MIT |
+| WebTorrent | Library | JavaScript | JS API | Browser, Node.js | 1.x | MIT |
+| qBittorrent | Client app | C++/Qt | Web UI API | Windows, Linux, macOS | 4.x | GPL |
+| Transmission | Client app | C / GTK+ | RPC API | Linux, macOS, BSD | 4.x | GPL |
+| Deluge | Client app | Python | Plugin API | Linux, Windows, macOS | 2.x | GPL |
+| aria2 | Download tool/client | C++ | JSON-RPC | Linux, Windows, macOS, Android | 1.x | GPL |
+| BiglyBT | Client app | Java | Plugin API | Windows, Linux, macOS | 3.x | GPL |

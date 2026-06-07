@@ -1,0 +1,12 @@
+# Matrix Vector Calculus Identities (Derivative Forms)
+
+| Expression | Differential form | Gradient / derivative form | Conditions |
+| --- | --- | --- | --- |
+| y = a^T x | dy = a^T dx | ∂y/∂x = a | a constant vector |
+| y = x^T A x | dy = (A+A^T)x · dx | ∂y/∂x = (A+A^T)x | A constant matrix |
+| y = ||x||_2^2 | dy = 2x^T dx | ∂y/∂x = 2x |  |
+| y = b^T (Ax) | dy = b^T A dx | ∂y/∂x = A^T b |  |
+| y = tr(A^T X) | dy = tr(A^T dX) | ∂y/∂X = A |  |
+| y = log det(X) | dy = tr(X^{-1} dX) | ∂y/∂X = (X^{-1})^T | X invertible |
+| y = det(X) | dy = det(X) tr(X^{-1} dX) | ∂y/∂X = det(X)(X^{-1})^T | X invertible |
+| y = x^T x + c | dy = 2x^T dx | ∂y/∂x = 2x | c constant |

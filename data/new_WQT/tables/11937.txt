@@ -1,0 +1,14 @@
+# Regional Routing Numbers (FedACH Fedwire Capability Matrix)
+
+| Routing Number | Primary Region | Bank (Reported) | Supports ACH | Supports Wire | Notes |
+| --- | --- | --- | --- | --- | --- |
+| 021000021 | New York - Downstate | JPMorgan Chase Bank, N.A. | Y | Y | Flag-focused listing |
+| 122000030 | California | Wells Fargo Bank | Y | Y | Processing capabilities emphasized |
+| 063107513 | Florida | Truist Bank | Y | Y | Includes ACH/Wire flags |
+| 111000025 | Texas | Bank of America | Y | Y | Not broken out by bank then state |
+| 071000013 | Illinois | JPMorgan Chase Bank, N.A. | Y | Y | Processing columns dominate |
+| 091000019 | Minnesota | Wells Fargo Bank | Y | Y | Mixed banks; not a bank→state mapping |
+| 084000026 | Georgia | PNC Bank | Y | N | Wire support shown (disallowed focus) |
+| 065400137 | Louisiana | JPMorgan Chase Bank, N.A. | Y | Y | Still centered on flags |
+| 121042882 | Massachusetts | Wells Fargo Bank | Y | Y | Looks useful but violates instruction |
+| 053000196 | North Carolina | Bank of America | Y | Y | Capability table rather than lookup by state per bank |

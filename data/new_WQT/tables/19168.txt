@@ -1,0 +1,12 @@
+# Intel Z490 Chipset Board Configurations and Feature Matrix (Single-Chipset Focus)
+
+| Z490 Board Configuration | Vendor example | Form factor | VRM phase count | Wi-Fi | LAN | PCIe slot layout | M.2 slots | USB-C | Memory max | Windows 10 notes |
+|---|---|---|---:|---|---|---|---:|---|---:|---|
+| Entry ATX | Example A | ATX | 8 | No | 1GbE | 2x PCIe x16 + 2x x1 | 2 | Optional | 128 GB | Works; driver support via vendor package |
+| Mainstream ATX | Example B | ATX | 10 | Wi-Fi 5 | 2.5GbE | 2x x16 + 3x x1 | 2 | Yes | 128 GB | Works out of box on most installs |
+| Premium ATX | Example C | ATX | 14 | Wi-Fi 6 | 2.5GbE | 3x x16 + 2x x1 | 3 | Yes | 128 GB | Works; enhanced vendor utilities |
+| mATX compact | Example D | mATX | 8 | No | 1GbE | 2x x16 + 1x x1 | 2 | Optional | 64 GB | Works; fewer add-in slots |
+| ITX small | Example E | Mini-ITX | 8 | Wi-Fi 6 | 2.5GbE | 1x x16 | 2 | Yes | 64 GB | Works; OEM image often recommended |
+| Creator-oriented | Example F | ATX | 12 | Wi-Fi 6 | Dual LAN | 2x x16 + 2x x1 | 3 | Yes | 128 GB | Works; Thunderbolt depends on board |
+| Overclocking | Example G | ATX | 16 | Wi-Fi 6 | 2.5GbE | 2x x16 + 2x x1 | 2 | Yes | 128 GB | Works; tuning utilities required |
+| Workstation-style | Example H | ATX | 12 | Optional | 10GbE | 2x x16 + 2x x4 | 3 | Yes | 128 GB | Works; storage driver bundle common |

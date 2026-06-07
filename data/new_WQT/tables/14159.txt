@@ -1,0 +1,16 @@
+# Default Administrative Distance Values by Route Source (Reference Lookup)
+
+| Route Source | Default Administrative Distance |
+| --- | ---: |
+| Connected (directly connected interface) | 0 |
+| Static route | 1 |
+| EIGRP summary route | 5 |
+| eBGP (External BGP) | 20 |
+| EIGRP internal | 90 |
+| IGRP | 100 |
+| OSPF | 110 |
+| IS-IS | 115 |
+| RIP | 120 |
+| EIGRP external | 170 |
+| iBGP (Internal BGP) | 200 |
+| Unknown / unusable | 255 |

@@ -1,0 +1,10 @@
+# Documentation-only IPv4 example ranges (TEST-NETs) and what they are for
+
+| CIDR | Range | Name | Intended use | Should it appear on the Internet? |
+| --- | --- | --- | --- | --- |
+| 192.0.2.0/24 | 192.0.2.0 – 192.0.2.255 | TEST-NET-1 | Examples in documentation | No |
+| 198.51.100.0/24 | 198.51.100.0 – 198.51.100.255 | TEST-NET-2 | Examples in documentation | No |
+| 203.0.113.0/24 | 203.0.113.0 – 203.0.113.255 | TEST-NET-3 | Examples in documentation | No |
+| 192.88.99.0/24 | 192.88.99.0 – 192.88.99.255 | 6to4 relay anycast (historic) | Transition mechanism (historic) | Generally no |
+| 198.18.0.0/15 | 198.18.0.0 – 198.19.255.255 | Benchmark testing | Performance testing | No |
+| 192.0.0.0/29 | 192.0.0.0 – 192.0.0.7 | DS-Lite / protocol use | Specific protocol functions | No |

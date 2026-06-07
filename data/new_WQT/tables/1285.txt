@@ -1,0 +1,9 @@
+# Comparison of C Sharp and Java
+> Object - oriented programming
+
+| Java | C# |
+| --- | --- |
+| public int addOne ( final int x ) { x ++; // ERROR: a final variable cannot be reassigned return x ; } public ArrayList addOne ( final ArrayList list ) { list . add ( 1 ); // OK: it is still possible to modify a // final (reference type) variable return list ; } | no C# language equivalent |
+| Java | C# |
+| public class PassByRefTest { public static void changeMe ( AtomicReference < String > s ) { s . set ( "Changed" ); } public static void swap ( AtomicReference < Integer > x , AtomicReference < Integer > y ) { int temp = x . get (); x . set ( y . get ); y . set ( temp ); } public static void main ( String [] args ) { AtomicReference < Integer > a = new AtomicReference < Integer >( 5 ); AtomicReference < Integer > b = new AtomicReference < Integer >( 10 ); AtomicReference < String > s = new AtomicReference < String >( "still unchanged" ); swap ( a , b ); changeMe ( s ); System . out . println ( "a = " + a . get () + ", " + "b = " + b . get () + ", " + "s = " + s . get () ); } } | class PassByRefTest { public static void ChangeMe ( out string s ) { s = "Changed" ; } public static void Swap ( ref int x , ref int y ) { int temp = x ; x = y ; y = temp ; } public static void Main ( string [] args ) { int a = 5 , b = 10 ; string s = "still unchanged" ; Swap ( ref a , ref b ); ChangeMe ( out s ); System . Console . WriteLine ( "a = " + a + ", " + "b = " + b + ", " + "s = " + s ); } } |
+| a = 10, b = 5, s = Changed | a = 10, b = 5, s = Changed |

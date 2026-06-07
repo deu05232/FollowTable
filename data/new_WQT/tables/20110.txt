@@ -1,0 +1,12 @@
+# IPv4 Non-Internet-Routed Blocks — Wildcard Mask Notation (ACL Style)
+
+| Block category | Network | Wildcard mask | Common environment | Reference |
+| --- | --- | --- | --- | --- |
+| Private (RFC 1918) | 10.0.0.0 | 0.255.255.255 | Router ACLs | RFC 1918 |
+| Private (RFC 1918) | 172.16.0.0 | 0.15.255.255 | Router ACLs | RFC 1918 |
+| Private (RFC 1918) | 192.168.0.0 | 0.0.255.255 | Router ACLs | RFC 1918 |
+| Loopback | 127.0.0.0 | 0.255.255.255 | Local host policies | RFC 6890 |
+| Link-local | 169.254.0.0 | 0.0.255.255 | Switch/host ACLs | RFC 3927 |
+| Shared space | 100.64.0.0 | 0.63.255.255 | ISP edge ACLs | RFC 6598 |
+| Documentation | 203.0.113.0 | 0.0.0.255 | Example ACLs | RFC 5737 |
+| Multicast | 224.0.0.0 | 15.255.255.255 | Multicast control | RFC 5771 |

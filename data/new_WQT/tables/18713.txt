@@ -1,0 +1,12 @@
+# .NET Framework and Supporting Components Prerequisites for SharePoint Server Installation
+
+| Component | Minimum version | Required on | How to install/enable | Notes |
+|---|---|---|---|---|
+| .NET Framework | 4.6.2+ (example baseline) | SharePoint front-end/app servers | Windows Features / offline installer | Must match SharePoint cumulative update guidance |
+| Windows Management Framework (PowerShell) | 4.0+ | All SharePoint servers | Windows Update / MSI | Needed for automation and some installers |
+| IIS (Web Server) | Role enabled | Web front-end / app servers | Server Manager roles | Required even for some app components |
+| SQL Native Client / ODBC provider | Current supported | SharePoint servers connecting to SQL | MSI / SQL feature pack | Depends on SQL version used |
+| AppFabric / Distributed Cache prerequisites | OS dependent | Servers hosting cache | Feature installation | Can conflict with other cache products |
+| Windows Identity Foundation | OS dependent | SharePoint servers | Windows Features | Needed for claims/auth in some configurations |
+| KB hotfix rollups | Latest | All servers | Windows Update | Some SharePoint builds require specific KBs |
+| Antivirus exclusions | N/A | All servers | Vendor configuration | Exclude SharePoint/SQL directories and processes |

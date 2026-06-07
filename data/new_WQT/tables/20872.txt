@@ -1,0 +1,8 @@
+# # Default Administrative Distance for Interface Neighbor Learned Routes
+
+| Source | Default Administrative Distance |
+| --- | --- |
+| Directly connected interface | 0 |
+| DHCP default route | 254 |
+| Static route | 1 |
+| BGP (external) | 20 |

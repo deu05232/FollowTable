@@ -1,0 +1,10 @@
+# Microsoft 365   Outlook.com DNS & Mail Flow Records (MX SPF Autodiscover)
+
+| Record Type | Host/Name | Points To / Value | Priority | Notes |
+| --- | --- | --- | --- | --- |
+| MX | @ | outlook-com.mail.protection.outlook.com | 0 | Routes inbound mail |
+| TXT (SPF) | @ | v=spf1 include:spf.protection.outlook.com -all | N/A | Sender policy |
+| CNAME | autodiscover | autodiscover.outlook.com | N/A | Autodiscover endpoint |
+| CNAME | selector1._domainkey | selector1-outlook-com._domainkey.outlook.com | N/A | DKIM selector |
+| CNAME | selector2._domainkey | selector2-outlook-com._domainkey.outlook.com | N/A | DKIM selector |
+| TXT (DMARC) | _dmarc | v=DMARC1; p=none; rua=mailto:dmarc@domain.com | N/A | DMARC policy |

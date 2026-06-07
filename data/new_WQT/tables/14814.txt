@@ -1,0 +1,10 @@
+# Outlook.com (Hotmail) POP IMAP SMTP Connection Profile (Includes Login Fields)
+
+| Protocol | Server Hostname | Port | Encryption | Authentication | Username Format | Password Required |
+| --- | --- | --- | --- | --- | --- | --- |
+| IMAP | imap-mail.outlook.com | 993 | SSL/TLS | OAuth2 / App password | full email address | Yes |
+| IMAP | imap-mail.outlook.com | 143 | STARTTLS | OAuth2 | full email address | Yes |
+| POP3 | pop-mail.outlook.com | 995 | SSL/TLS | OAuth2 / App password | full email address | Yes |
+| POP3 | pop-mail.outlook.com | 110 | STARTTLS | OAuth2 | full email address | Yes |
+| SMTP | smtp-mail.outlook.com | 587 | STARTTLS | OAuth2 | full email address | Yes |
+| SMTP | smtp-mail.outlook.com | 465 | SSL/TLS | OAuth2 | full email address | Yes |

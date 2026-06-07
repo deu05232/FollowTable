@@ -1,0 +1,10 @@
+# Outlook.com incoming mail  IMAP vs POP security and ports
+
+| Incoming protocol | Server hostname | Port | Encryption | Typical use |
+| --- | --- | --- | --- | --- |
+| IMAP | imap-mail.outlook.com | 993 | SSL/TLS | Sync across devices |
+| IMAP | imap-mail.outlook.com | 143 | STARTTLS (TLS) | If client negotiates TLS |
+| POP3 | pop-mail.outlook.com | 995 | SSL/TLS | Download messages |
+| POP3 | pop-mail.outlook.com | 110 | STARTTLS (TLS) | If client negotiates TLS |
+| IMAP | imap-mail.outlook.com | 993 | SSL/TLS | Preferred over POP for multi-device |
+| POP3 | pop-mail.outlook.com | 995 | SSL/TLS | Use only if IMAP not available |

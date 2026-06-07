@@ -1,0 +1,12 @@
+# Email Provider Server List (POP IMAP SMTP) Including Outlook.com Among Many Others
+
+| Provider | Protocol | Incoming server | Incoming port | Outgoing server | Outgoing port | Encryption |
+| --- | --- | --- | --- | --- | --- | --- |
+| Gmail | IMAP | imap.gmail.com | 993 | smtp.gmail.com | 587 | SSL/TLS |
+| Yahoo Mail | IMAP | imap.mail.yahoo.com | 993 | smtp.mail.yahoo.com | 465 | SSL |
+| iCloud Mail | IMAP | imap.mail.me.com | 993 | smtp.mail.me.com | 587 | TLS |
+| AOL Mail | IMAP | imap.aol.com | 993 | smtp.aol.com | 587 | TLS |
+| Proton Mail | IMAP (bridge) | 127.0.0.1 | 1143 | 127.0.0.1 | 1025 | Local (Bridge) |
+| Outlook.com | POP | pop-mail.outlook.com | 995 | smtp-mail.outlook.com | 587 | SSL/TLS |
+| Zoho Mail | IMAP | imap.zoho.com | 993 | smtp.zoho.com | 465 | SSL |
+| GMX | IMAP | imap.gmx.com | 993 | mail.gmx.com | 587 | TLS |

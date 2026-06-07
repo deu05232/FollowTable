@@ -1,0 +1,13 @@
+# List of Intel chipsets
+> 9xx chipsets and 3/4 Series chipsets
+
+| Chipset | Code name | Part numbers | South bridge | Release date | Processors supported (official) | FSB | Memory types | Max. memory | Graphics | TDP |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| GL960 | Crestline | 82960GL (GMCH) | ICH8-M | May 2007 | Celeron M, Pentium Dual-Core | 533 MT/s | DDR2 533/667 | 3 GB | Integrated GMA X3100 graphics core (Max. 400 MHz 3D Render) | 13.5 W |
+| GM965 | Crestline | 82965GM (GMCH) | ICH8-M | May 2007 | Core 2 Duo | 533/667/800 MT/s | DDR2 533/667 | 4 GB/8 GB 1 | Integrated GMA X3100 graphics core (Max. 500 MHz 3D Render) | 13.5 W |
+| PM965 | Crestline | 82965PM (MCH) | ICH8-M | May 2007 | Core 2 Duo | 533/667/800 MT/s | DDR2 533/667 | 4 GB/8 GB 1 | PCIe ×16 | 8 W |
+| GL40 | Cantiga | 82GL40 (GMCH) | ICH9-M | Sep 2008 | Core 2 Duo, Celeron, Celeron M, Pentium Dual-Core | 667/800 MT/s | DDR2 667/800, DDR3 667/800 | 8 GB | Integrated GMA X4500 HD graphics core (Max. 400 MHz 3D Render) | 12 W |
+| GS40 | Cantiga | 82GS40 (GMCH) | ICH9-M | Sep 2008 | Core 2 Duo, Celeron, Celeron M?, Pentium Dual-Core | 667?/800 MT/s | DDR2 667/800, DDR3 667/800 | 4 GB | Integrated GMA X4500 HD graphics core (Max. 400 MHz 3D Render) | 12 W |
+| GS45 | Cantiga | 82GS45 (GMCH) (For CULV) | ICH9-M | Sep 2008 | Core 2 Solo, Core 2 Duo, Core 2 Extreme, Celeron M | 800/1066 MT/s | DDR2 667/800, DDR3 667/800/1066 | 8 GB | Integrated GMA X4500HD graphics core (Max. 533 MHz 3D Render) | 7 W (low power mode), 8 W (HD playback mode), 12 W (Full performance mode) |
+| GM45 | Cantiga | 82GM45 (GMCH) | ICH9-M | Sep 2008 | Core 2 Duo, Core 2 Extreme, Celeron M | 667/800/1066 MT/s | DDR2 667/800, DDR3 667/800/1066 | 8 GB | Integrated GMA X4500HD graphics core (Max. 533 MHz 3D Render) | 12 W |
+| PM45 | Cantiga | 82PM45 (MCH) | ICH9-M | Sep 2008 | Core 2 Duo, Core 2 Extreme | 667/800/1066 MT/s | DDR2 667/800, DDR3 667/800/1066 | 8 GB | PCIe ×16 | 7 W |

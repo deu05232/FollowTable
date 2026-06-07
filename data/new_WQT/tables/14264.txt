@@ -1,0 +1,12 @@
+# Outlook.com (Hotmail) Connection Details by Protocol and Security Mode (Ports Included)
+
+| Category | Protocol / Mode | Server | Port | Security | When to choose |
+| --- | --- | --- | --- | --- | --- |
+| Incoming | IMAP (SSL) | imap-mail.outlook.com | 993 | SSL/TLS | Best for two-way sync across devices and folders |
+| Incoming | IMAP (STARTTLS) | imap-mail.outlook.com | 143 | STARTTLS | If the client cannot use 993 but supports STARTTLS |
+| Incoming | POP3 (SSL) | pop-mail.outlook.com | 995 | SSL/TLS | If you prefer download-only behavior or need POP for legacy workflows |
+| Incoming | POP3 (plain) | pop-mail.outlook.com | 110 | null | Not recommended; only for testing/legacy networks |
+| Outgoing | SMTP (TLS submission) | smtp-mail.outlook.com | 587 | STARTTLS (TLS) | Recommended default for sending mail |
+| Outgoing | SMTP (implicit SSL) | smtp-mail.outlook.com | 465 | SSL/TLS | Use when an app specifically asks for SSL SMTP |
+| Outgoing | SMTP (legacy) | smtp-mail.outlook.com | 25 | null / (opportunistic TLS) | Often blocked; use only if 587/465 are unavailable |
+| Login | Username format | (applies to all) | — | — | Use full address (name@hotmail.com / name@outlook.com); password or app password if required |

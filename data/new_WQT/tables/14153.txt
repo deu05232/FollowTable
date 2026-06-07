@@ -1,0 +1,10 @@
+# Administrative Distance Values with Troubleshooting Notes (Not a Clean Lookup)
+
+| Route source | Default AD | Troubleshooting note |
+| --- | --- | --- |
+| Connected | 0 | Check interface state and VLAN |
+| Static | 1 | Verify next-hop reachability |
+| eBGP | 20 | Confirm eBGP session and policy |
+| OSPF | 110 | Look for area mismatch |
+| RIP | 120 | Watch for split-horizon issues |
+| iBGP | 200 | Ensure IGP reachability of next-hop |

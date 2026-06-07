@@ -1,0 +1,13 @@
+# Hybrid Identity and Client Sign-in Parameters (AD FS and Modern Auth Reference)
+
+| Component | Setting | Example Value | Where Configured | Client Impact | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Federation | AD FS Service Name | fs.contoso.com | AD FS | Affects sign-in URL | Common in federated tenants |
+| Federation | AD FS SSL Certificate | Wildcard/Single-name | AD FS/WAP | Trust for browser sign-in | Rotate before expiry |
+| Federation | WAP External URL | https://fs.contoso.com | WAP | External access to AD FS | Requires 443 published |
+| Authentication | OAuth (Modern Auth) | Enabled | Exchange/Entra ID | Prompts may change | Recommended baseline |
+| Client | Autodiscover SCP | autodiscover.contoso.com | On-prem AD | Outlook profile discovery | Can cause prompts if mis-set |
+| Client | Outlook Anywhere | Enabled | On-prem Exchange | RPC/HTTP legacy | Often disabled in new builds |
+| Client | EWS URL | https://mail.contoso.com/EWS/Exchange.asmx | On-prem Exchange | 3rd-party clients | Not a coexistence capability |
+| Client | ActiveSync Policy | Default | Exchange Online/On-prem | Mobile access | Security baseline |
+| Authentication | Basic Auth | Disabled | Exchange Online | Legacy clients fail | Retirement-driven change |

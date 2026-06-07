@@ -1,0 +1,11 @@
+# IPv4 Classful Addressing Overview (Historical Address Classes)
+
+| Class | Leading bits | First octet range | Default mask | Typical size | Historical note |
+|---|---|---|---|---|---|
+| A | 0 | 1–126 | 255.0.0.0 (/8) | 16,777,216 | Early Internet large networks |
+| B | 10 | 128–191 | 255.255.0.0 (/16) | 65,536 | Mid-size orgs before CIDR |
+| C | 110 | 192–223 | 255.255.255.0 (/24) | 256 | Small networks |
+| D | 1110 | 224–239 | N/A | N/A | Multicast address space |
+| E | 1111 | 240–255 | N/A | N/A | Experimental/reserved historically |
+| A (private often used) | 0 | 10 (subset) | /8 | 16,777,216 | Common private addressing example |
+| C (private often used) | 110 | 192.168 (subset) | /16 | 65,536 | Common home LAN example |

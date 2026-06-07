@@ -1,0 +1,13 @@
+# Differentiation Rules Cheat Sheet (Composition, Inverses, and Exponentials)
+
+| Rule name | Generic pattern | Resulting derivative |
+| --- | --- | --- |
+| Chain rule | d/dx (f(g(x))) | f'(g(x))·g'(x) |
+| Exponential rule (base e) | d/dx (e^{f(x)}) | e^{f(x)}·f'(x) |
+| Exponential rule (general base) | d/dx (a^{f(x)}) | a^{f(x)}·ln(a)·f'(x) |
+| Logarithm rule (natural log) | d/dx (ln(f(x))) | f'(x)/f(x) |
+| Logarithm rule (general log) | d/dx (log_a(f(x))) | f'(x)/(f(x)·ln(a)) |
+| Reciprocal as a special case | d/dx (1/f(x)) | −f'(x)/(f(x))^2 |
+| Inverse function rule | d/dx (f^{-1}(x)) | 1 / f'(f^{-1}(x)) |
+| Implicit differentiation rule | If F(x,y)=0, then dy/dx | −F_x(x,y) / F_y(x,y) |
+| Logarithmic differentiation template | If y=u(x)^{v(x)}, then (1/y)·dy/dx | v'(x)·ln(u(x)) + v(x)·u'(x)/u(x) |

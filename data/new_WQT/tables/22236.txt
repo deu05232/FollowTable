@@ -1,0 +1,12 @@
+# Single-Variable Differentiation  Combination Rules + Chain Rule and Implicit Differentiation
+
+| Rule Type | General Pattern | Result | Example |
+| --- | --- | --- | --- |
+| Combination | d/dx [f(x)+g(x)] | f'(x)+g'(x) | d/dx(x^2+sin x)=2x+cos x |
+| Combination | d/dx [c f(x)] | c f'(x) | d/dx(5e^x)=5e^x |
+| Combination | d/dx [f(x)g(x)] | f'(x)g(x)+f(x)g'(x) | d/dx(x^2 ln x)=2x ln x + x |
+| Combination | d/dx [f(x)/g(x)] | (f'g - fg')/g^2 | d/dx(ln x / x)=(1 - ln x)/x^2 |
+| Composition | d/dx [f(g(x))] | f'(g(x)) g'(x) | d/dx(sin(x^2))=cos(x^2)·2x |
+| Implicit | F(x,y)=0 | dy/dx = -F_x/F_y | For curves defined implicitly |
+| Inverse | y=f^{-1}(x) | (f^{-1})'(x)=1/f'(f^{-1}(x)) | Inverse function theorem |
+| Logarithmic diff. | y=u(x)^{v(x)} | y' = y (v' ln u + v u'/u) | For variable exponents |

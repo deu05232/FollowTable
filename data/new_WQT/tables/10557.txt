@@ -1,0 +1,13 @@
+# .NET Framework and Windows Server Compatibility Matrix (Prerequisites)
+
+| Windows OS | In-box .NET version | Supported .NET versions (installable) | Requires reboot | Notes |
+|---|---|---|---|---|
+| Windows Server 2008 SP2 | null | 3.5 SP1, 4.0 | Yes | Legacy support |
+| Windows Server 2008 R2 SP1 | 3.5.1 | 4.5.2, 4.6 | Yes | Add Features for 3.5 |
+| Windows Server 2012 | 4.5 | 4.6.2, 4.7 | Sometimes | Via Windows Update |
+| Windows Server 2012 R2 | 4.5.1 | 4.7.2, 4.8 | Sometimes | Servicing dependent |
+| Windows Server 2016 | 4.6 | 4.8 | Sometimes | Feature-on-demand |
+| Windows Server 2019 | 4.7.2 | 4.8 | Sometimes | In-box 4.7.2 |
+| Windows Server 2022 | 4.8 | 4.8 | No | Latest LTSC |
+| Windows 10 | 4.6+ | 4.8 | Sometimes | Client OS |
+| Windows 11 | 4.8 | 4.8 | Sometimes | Client OS |

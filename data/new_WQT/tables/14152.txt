@@ -1,0 +1,14 @@
+# Administrative Distance Reference (Defaults + Common Tuned Values)
+
+| Route Source | Default Administrative Distance | Common Non-Default (Tuned) Examples |
+| --- | ---: | --- |
+| Connected | 0 | N/A |
+| Static | 1 | 10, 200 (floating static) |
+| EIGRP summary | 5 | 50 (manual) |
+| eBGP | 20 | 25 (policy) |
+| EIGRP (internal) | 90 | 95 (manual) |
+| OSPF | 110 | 150 (manual) |
+| IS-IS | 115 | 160 (manual) |
+| RIP | 120 | 180 (manual) |
+| EIGRP (external) | 170 | 175 (manual) |
+| iBGP | 200 | 220 (manual) |
